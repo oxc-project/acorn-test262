@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 561,
                 "end": 562,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 564,
                 "end": 565,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -81,8 +79,7 @@
             "type": "Literal",
             "start": 599,
             "end": 607,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -106,8 +103,7 @@
                   "type": "Literal",
                   "start": 620,
                   "end": 621,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -188,8 +184,7 @@
                   "type": "Literal",
                   "start": 687,
                   "end": 690,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 }
               ],
               "optional": false
@@ -231,8 +226,7 @@
           "type": "Literal",
           "start": 710,
           "end": 712,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       }
     },
@@ -261,8 +255,7 @@
             "type": "Literal",
             "start": 736,
             "end": 759,
-            "value": "indexDeleted !== true",
-            "raw": "'indexDeleted !== true'"
+            "value": "indexDeleted !== true"
           }
         ],
         "optional": false
@@ -319,15 +312,13 @@
             "type": "Literal",
             "start": 794,
             "end": 796,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           },
           {
             "type": "Literal",
             "start": 798,
             "end": 813,
-            "value": "arrObj.length",
-            "raw": "'arrObj.length'"
+            "value": "arrObj.length"
           }
         ],
         "optional": false

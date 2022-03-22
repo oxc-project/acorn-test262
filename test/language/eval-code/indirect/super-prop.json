@@ -53,8 +53,7 @@
                       "type": "Literal",
                       "start": 574,
                       "end": 575,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Identifier",
@@ -70,8 +69,7 @@
                   "type": "Literal",
                   "start": 582,
                   "end": 599,
-                  "value": "super.property;",
-                  "raw": "'super.property;'"
+                  "value": "super.property;"
                 }
               ],
               "optional": false
@@ -167,15 +165,13 @@
             "type": "Literal",
             "start": 669,
             "end": 677,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 679,
             "end": 714,
-            "value": "object value thrown (global code)",
-            "raw": "'object value thrown (global code)'"
+            "value": "object value thrown (global code)"
           }
         ],
         "optional": false
@@ -238,8 +234,7 @@
             "type": "Literal",
             "start": 770,
             "end": 804,
-            "value": "SyntaxError thrown (global code)",
-            "raw": "'SyntaxError thrown (global code)'"
+            "value": "SyntaxError thrown (global code)"
           }
         ],
         "optional": false
@@ -348,8 +343,7 @@
                                           "type": "Literal",
                                           "start": 853,
                                           "end": 854,
-                                          "value": 0,
-                                          "raw": "0"
+                                          "value": 0
                                         },
                                         {
                                           "type": "Identifier",
@@ -365,8 +359,7 @@
                                       "type": "Literal",
                                       "start": 861,
                                       "end": 878,
-                                      "value": "super.property;",
-                                      "raw": "'super.property;'"
+                                      "value": "super.property;"
                                     }
                                   ],
                                   "optional": false
@@ -482,15 +475,13 @@
             "type": "Literal",
             "start": 967,
             "end": 975,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 977,
             "end": 1014,
-            "value": "object value thrown (function code)",
-            "raw": "'object value thrown (function code)'"
+            "value": "object value thrown (function code)"
           }
         ],
         "optional": false
@@ -553,8 +544,7 @@
             "type": "Literal",
             "start": 1071,
             "end": 1107,
-            "value": "SyntaxError thrown (function code)",
-            "raw": "'SyntaxError thrown (function code)'"
+            "value": "SyntaxError thrown (function code)"
           }
         ],
         "optional": false

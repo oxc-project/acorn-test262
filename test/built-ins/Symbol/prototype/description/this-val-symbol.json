@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 507,
-                  "value": "description",
-                  "raw": "'description'"
+                  "value": "description"
                 }
               ],
               "optional": false
@@ -118,8 +117,7 @@
                 "type": "Literal",
                 "start": 538,
                 "end": 544,
-                "value": "test",
-                "raw": "'test'"
+                "value": "test"
               }
             ],
             "optional": false
@@ -193,15 +191,13 @@
             "type": "Literal",
             "start": 590,
             "end": 596,
-            "value": "test",
-            "raw": "'test'"
+            "value": "test"
           },
           {
             "type": "Literal",
             "start": 600,
             "end": 636,
-            "value": "getter.call(symbol) returns \"test\"",
-            "raw": "'getter.call(symbol) returns \"test\"'"
+            "value": "getter.call(symbol) returns \"test\""
           }
         ],
         "optional": false
@@ -286,15 +282,13 @@
             "type": "Literal",
             "start": 691,
             "end": 697,
-            "value": "test",
-            "raw": "'test'"
+            "value": "test"
           },
           {
             "type": "Literal",
             "start": 701,
             "end": 745,
-            "value": "getter.call(Object(symbol)) returns \"test\"",
-            "raw": "'getter.call(Object(symbol)) returns \"test\"'"
+            "value": "getter.call(Object(symbol)) returns \"test\""
           }
         ],
         "optional": false
@@ -403,8 +397,7 @@
             "type": "Literal",
             "start": 829,
             "end": 869,
-            "value": "getter.call(empty) returns `undefined`",
-            "raw": "'getter.call(empty) returns `undefined`'"
+            "value": "getter.call(empty) returns `undefined`"
           }
         ],
         "optional": false
@@ -495,8 +488,7 @@
             "type": "Literal",
             "start": 936,
             "end": 984,
-            "value": "getter.call(Object(empty)) returns `undefined`",
-            "raw": "'getter.call(Object(empty)) returns `undefined`'"
+            "value": "getter.call(Object(empty)) returns `undefined`"
           }
         ],
         "optional": false
@@ -612,8 +604,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1117,
-            "value": "getter.call(undef) returns `undefined`",
-            "raw": "'getter.call(undef) returns `undefined`'"
+            "value": "getter.call(undef) returns `undefined`"
           }
         ],
         "optional": false
@@ -704,8 +695,7 @@
             "type": "Literal",
             "start": 1184,
             "end": 1232,
-            "value": "getter.call(Object(undef)) returns `undefined`",
-            "raw": "'getter.call(Object(undef)) returns `undefined`'"
+            "value": "getter.call(Object(undef)) returns `undefined`"
           }
         ],
         "optional": false
@@ -741,8 +731,7 @@
                 "type": "Literal",
                 "start": 1261,
                 "end": 1263,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -816,15 +805,13 @@
             "type": "Literal",
             "start": 1311,
             "end": 1313,
-            "value": "",
-            "raw": "''"
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 1317,
             "end": 1351,
-            "value": "getter.call(emptyStr) returns \"\"",
-            "raw": "'getter.call(emptyStr) returns \"\"'"
+            "value": "getter.call(emptyStr) returns \"\""
           }
         ],
         "optional": false
@@ -909,15 +896,13 @@
             "type": "Literal",
             "start": 1408,
             "end": 1410,
-            "value": "",
-            "raw": "''"
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 1414,
             "end": 1456,
-            "value": "getter.call(Object(emptyStr)) returns \"\"",
-            "raw": "'getter.call(Object(emptyStr)) returns \"\"'"
+            "value": "getter.call(Object(emptyStr)) returns \"\""
           }
         ],
         "optional": false

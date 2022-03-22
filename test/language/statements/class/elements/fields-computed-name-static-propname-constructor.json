@@ -20,17 +20,16 @@
         "end": 1996,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1971,
-            "end": 1994,
+            "end": 1993,
             "static": true,
             "computed": true,
             "key": {
               "type": "Literal",
               "start": 1979,
               "end": 1992,
-              "value": "constructor",
-              "raw": "'constructor'"
+              "value": "constructor"
             },
             "value": null
           }
@@ -62,8 +61,7 @@
             "type": "Literal",
             "start": 2017,
             "end": 2030,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -180,24 +178,22 @@
         "end": 2162,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 2132,
-            "end": 2160,
+            "end": 2159,
             "static": true,
             "computed": true,
             "key": {
               "type": "Literal",
               "start": 2140,
               "end": 2153,
-              "value": "constructor",
-              "raw": "'constructor'"
+              "value": "constructor"
             },
             "value": {
               "type": "Literal",
               "start": 2157,
               "end": 2159,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           }
         ]
@@ -228,8 +224,7 @@
             "type": "Literal",
             "start": 2183,
             "end": 2196,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -253,8 +248,7 @@
                   "type": "Literal",
                   "start": 2209,
                   "end": 2211,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               },

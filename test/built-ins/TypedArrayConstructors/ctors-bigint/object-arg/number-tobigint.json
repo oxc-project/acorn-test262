@@ -111,8 +111,7 @@
                                         "type": "Literal",
                                         "start": 2216,
                                         "end": 2217,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       }
                                     ]
                                   }
@@ -126,8 +125,7 @@
                         "type": "Literal",
                         "start": 2226,
                         "end": 2260,
-                        "value": "abrupt completion from Number: 1",
-                        "raw": "\"abrupt completion from Number: 1\""
+                        "value": "abrupt completion from Number: 1"
                       }
                     ],
                     "optional": false
@@ -229,15 +227,13 @@
                                             "type": "Literal",
                                             "start": 2325,
                                             "end": 2326,
-                                            "value": 2,
-                                            "raw": "2"
+                                            "value": 2
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 2328,
                                             "end": 2330,
-                                            "value": 63,
-                                            "raw": "63"
+                                            "value": 63
                                           }
                                         ],
                                         "optional": false
@@ -254,8 +250,7 @@
                         "type": "Literal",
                         "start": 2340,
                         "end": 2378,
-                        "value": "abrupt completion from Number: 2**63",
-                        "raw": "\"abrupt completion from Number: 2**63\""
+                        "value": "abrupt completion from Number: 2**63"
                       }
                     ],
                     "optional": false
@@ -339,8 +334,7 @@
                                           "type": "Literal",
                                           "start": 2435,
                                           "end": 2436,
-                                          "value": 0,
-                                          "raw": "0"
+                                          "value": 0
                                         }
                                       }
                                     ]
@@ -355,8 +349,7 @@
                         "type": "Literal",
                         "start": 2445,
                         "end": 2480,
-                        "value": "abrupt completion from Number: +0",
-                        "raw": "\"abrupt completion from Number: +0\""
+                        "value": "abrupt completion from Number: +0"
                       }
                     ],
                     "optional": false
@@ -440,8 +433,7 @@
                                           "type": "Literal",
                                           "start": 2537,
                                           "end": 2538,
-                                          "value": 0,
-                                          "raw": "0"
+                                          "value": 0
                                         }
                                       }
                                     ]
@@ -456,8 +448,7 @@
                         "type": "Literal",
                         "start": 2547,
                         "end": 2582,
-                        "value": "abrupt completion from Number: -0",
-                        "raw": "\"abrupt completion from Number: -0\""
+                        "value": "abrupt completion from Number: -0"
                       }
                     ],
                     "optional": false
@@ -549,8 +540,7 @@
                         "type": "Literal",
                         "start": 2655,
                         "end": 2696,
-                        "value": "abrupt completion from Number: Infinity",
-                        "raw": "\"abrupt completion from Number: Infinity\""
+                        "value": "abrupt completion from Number: Infinity"
                       }
                     ],
                     "optional": false
@@ -649,8 +639,7 @@
                         "type": "Literal",
                         "start": 2770,
                         "end": 2812,
-                        "value": "abrupt completion from Number: -Infinity",
-                        "raw": "\"abrupt completion from Number: -Infinity\""
+                        "value": "abrupt completion from Number: -Infinity"
                       }
                     ],
                     "optional": false
@@ -742,8 +731,7 @@
                         "type": "Literal",
                         "start": 2880,
                         "end": 2916,
-                        "value": "abrupt completion from Number: NaN",
-                        "raw": "\"abrupt completion from Number: NaN\""
+                        "value": "abrupt completion from Number: NaN"
                       }
                     ],
                     "optional": false

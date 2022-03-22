@@ -97,8 +97,7 @@
             "type": "Literal",
             "start": 345,
             "end": 360,
-            "value": "No properties",
-            "raw": "\"No properties\""
+            "value": "No properties"
           }
         ],
         "optional": false
@@ -206,8 +205,7 @@
                         "type": "Literal",
                         "start": 429,
                         "end": 431,
-                        "value": 15,
-                        "raw": "15"
+                        "value": 15
                       },
                       "kind": "init"
                     }
@@ -221,8 +219,7 @@
             "type": "Literal",
             "start": 436,
             "end": 446,
-            "value": "Only day",
-            "raw": "\"Only day\""
+            "value": "Only day"
           }
         ],
         "optional": false
@@ -330,8 +327,7 @@
                         "type": "Literal",
                         "start": 521,
                         "end": 526,
-                        "value": "M12",
-                        "raw": "'M12'"
+                        "value": "M12"
                       },
                       "kind": "init"
                     }
@@ -345,8 +341,7 @@
             "type": "Literal",
             "start": 531,
             "end": 547,
-            "value": "Only monthCode",
-            "raw": "\"Only monthCode\""
+            "value": "Only monthCode"
           }
         ],
         "optional": false
@@ -475,8 +470,7 @@
                         "type": "Literal",
                         "start": 638,
                         "end": 640,
-                        "value": 15,
-                        "raw": "15"
+                        "value": 15
                       },
                       "kind": "init"
                     }
@@ -490,8 +484,7 @@
             "type": "Literal",
             "start": 645,
             "end": 666,
-            "value": "monthCode undefined",
-            "raw": "\"monthCode undefined\""
+            "value": "monthCode undefined"
           }
         ],
         "optional": false
@@ -599,8 +592,7 @@
                         "type": "Literal",
                         "start": 738,
                         "end": 740,
-                        "value": 12,
-                        "raw": "12"
+                        "value": 12
                       },
                       "kind": "init"
                     },
@@ -621,8 +613,7 @@
                         "type": "Literal",
                         "start": 747,
                         "end": 749,
-                        "value": 31,
-                        "raw": "31"
+                        "value": 31
                       },
                       "kind": "init"
                     }
@@ -636,8 +627,7 @@
             "type": "Literal",
             "start": 754,
             "end": 769,
-            "value": "months plural",
-            "raw": "\"months plural\""
+            "value": "months plural"
           }
         ],
         "optional": false
@@ -745,8 +735,7 @@
                         "type": "Literal",
                         "start": 840,
                         "end": 842,
-                        "value": 11,
-                        "raw": "11"
+                        "value": 11
                       },
                       "kind": "init"
                     },
@@ -767,8 +756,7 @@
                         "type": "Literal",
                         "start": 849,
                         "end": 851,
-                        "value": 18,
-                        "raw": "18"
+                        "value": 18
                       },
                       "kind": "init"
                     },
@@ -789,8 +777,7 @@
                         "type": "Literal",
                         "start": 863,
                         "end": 872,
-                        "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "value": "iso8601"
                       },
                       "kind": "init"
                     }
@@ -804,8 +791,7 @@
             "type": "Literal",
             "start": 877,
             "end": 903,
-            "value": "month, day with calendar",
-            "raw": "\"month, day with calendar\""
+            "value": "month, day with calendar"
           }
         ],
         "optional": false

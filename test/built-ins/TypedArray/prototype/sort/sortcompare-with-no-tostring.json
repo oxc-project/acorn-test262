@@ -184,22 +184,19 @@
                                 "type": "Literal",
                                 "start": 804,
                                 "end": 806,
-                                "value": 20,
-                                "raw": "20"
+                                "value": 20
                               },
                               {
                                 "type": "Literal",
                                 "start": 808,
                                 "end": 811,
-                                "value": 100,
-                                "raw": "100"
+                                "value": 100
                               },
                               {
                                 "type": "Literal",
                                 "start": 813,
                                 "end": 814,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               }
                             ]
                           }
@@ -299,8 +296,7 @@
                         "type": "Literal",
                         "start": 890,
                         "end": 936,
-                        "value": "Number.prototype.toString will not be called",
-                        "raw": "\"Number.prototype.toString will not be called\""
+                        "value": "Number.prototype.toString will not be called"
                       }
                     ],
                     "optional": false
@@ -347,22 +343,19 @@
                                 "type": "Literal",
                                 "start": 970,
                                 "end": 971,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               },
                               {
                                 "type": "Literal",
                                 "start": 973,
                                 "end": 975,
-                                "value": 20,
-                                "raw": "20"
+                                "value": 20
                               },
                               {
                                 "type": "Literal",
                                 "start": 977,
                                 "end": 980,
-                                "value": 100,
-                                "raw": "100"
+                                "value": 100
                               }
                             ]
                           }
@@ -373,8 +366,7 @@
                         "type": "Literal",
                         "start": 984,
                         "end": 1010,
-                        "value": "Default sorting by value",
-                        "raw": "\"Default sorting by value\""
+                        "value": "Default sorting by value"
                       }
                     ],
                     "optional": false

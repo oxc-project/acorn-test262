@@ -67,8 +67,7 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 392,
-                  "value": "#1: ({}) instanceof Object === true",
-                  "raw": "'#1: ({}) instanceof Object === true'"
+                  "value": "#1: ({}) instanceof Object === true"
                 }
               ]
             }
@@ -161,8 +160,7 @@
                   "type": "Literal",
                   "start": 491,
                   "end": 547,
-                  "value": "#2: var object = {}; object instanceof Object === true",
-                  "raw": "'#2: var object = {}; object instanceof Object === true'"
+                  "value": "#2: var object = {}; object instanceof Object === true"
                 }
               ]
             }
@@ -260,8 +258,7 @@
                   "type": "Literal",
                   "start": 648,
                   "end": 706,
-                  "value": "#3: var OBJECT = Object; ({}) instanceof OBJECT === true",
-                  "raw": "'#3: var OBJECT = Object; ({}) instanceof OBJECT === true'"
+                  "value": "#3: var OBJECT = Object; ({}) instanceof OBJECT === true"
                 }
               ]
             }
@@ -379,8 +376,7 @@
                   "type": "Literal",
                   "start": 826,
                   "end": 903,
-                  "value": "#4: var object = {}; var OBJECT = Object; object instanceof OBJECT === true",
-                  "raw": "'#4: var object = {}; var OBJECT = Object; object instanceof OBJECT === true'"
+                  "value": "#4: var object = {}; var OBJECT = Object; object instanceof OBJECT === true"
                 }
               ]
             }

@@ -316,8 +316,7 @@
                 "type": "Literal",
                 "start": 811,
                 "end": 819,
-                "value": "noname",
-                "raw": "\"noname\""
+                "value": "noname"
               }
             ]
           }
@@ -391,15 +390,13 @@
                 "type": "Literal",
                 "start": 896,
                 "end": 912,
-                "value": "Luke Skywalker",
-                "raw": "\"Luke Skywalker\""
+                "value": "Luke Skywalker"
               },
               {
                 "type": "Literal",
                 "start": 914,
                 "end": 916,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               }
             ]
           }

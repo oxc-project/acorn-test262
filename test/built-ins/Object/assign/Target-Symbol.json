@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 394,
                 "end": 399,
-                "value": "foo",
-                "raw": "'foo'"
+                "value": "foo"
               }
             ],
             "optional": false
@@ -110,8 +109,7 @@
                       "type": "Literal",
                       "start": 444,
                       "end": 445,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   }
@@ -169,15 +167,13 @@
             "type": "Literal",
             "start": 483,
             "end": 491,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 534,
-            "value": "Return value should be a symbol object.",
-            "raw": "\"Return value should be a symbol object.\""
+            "value": "Return value should be a symbol object."
           }
         ],
         "optional": false
@@ -241,15 +237,13 @@
             "type": "Literal",
             "start": 573,
             "end": 586,
-            "value": "Symbol(foo)",
-            "raw": "\"Symbol(foo)\""
+            "value": "Symbol(foo)"
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 627,
-            "value": "Return value should be 'Symbol(foo)'.",
-            "raw": "\"Return value should be 'Symbol(foo)'.\""
+            "value": "Return value should be 'Symbol(foo)'."
           }
         ],
         "optional": false

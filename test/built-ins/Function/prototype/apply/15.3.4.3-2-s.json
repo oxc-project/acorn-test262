@@ -114,8 +114,7 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 440,
-                  "value": 12,
-                  "raw": "12"
+                  "value": 12
                 }
               },
               {
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 457,
             "end": 480,
-            "value": "fun.apply(-12, Array)",
-            "raw": "'fun.apply(-12, Array)'"
+            "value": "fun.apply(-12, Array)"
           }
         ],
         "optional": false

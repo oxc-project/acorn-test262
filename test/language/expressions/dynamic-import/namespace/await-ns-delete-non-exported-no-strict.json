@@ -49,8 +49,7 @@
                       "type": "Literal",
                       "start": 3999,
                       "end": 4019,
-                      "value": "./empty_FIXTURE.js",
-                      "raw": "'./empty_FIXTURE.js'"
+                      "value": "./empty_FIXTURE.js"
                     }
                   }
                 }
@@ -103,8 +102,7 @@
                   "type": "Literal",
                   "start": 4051,
                   "end": 4066,
-                  "value": "delete: undef",
-                  "raw": "'delete: undef'"
+                  "value": "delete: undef"
                 }
               ],
               "optional": false
@@ -159,8 +157,7 @@
                       "type": "Literal",
                       "start": 4107,
                       "end": 4114,
-                      "value": "undef",
-                      "raw": "'undef'"
+                      "value": "undef"
                     }
                   ],
                   "optional": false
@@ -169,8 +166,7 @@
                   "type": "Literal",
                   "start": 4117,
                   "end": 4148,
-                  "value": "Reflect.deleteProperty: undef",
-                  "raw": "'Reflect.deleteProperty: undef'"
+                  "value": "Reflect.deleteProperty: undef"
                 }
               ],
               "optional": false
@@ -221,8 +217,7 @@
                   "type": "Literal",
                   "start": 4182,
                   "end": 4199,
-                  "value": "delete: default",
-                  "raw": "'delete: default'"
+                  "value": "delete: default"
                 }
               ],
               "optional": false
@@ -277,8 +272,7 @@
                       "type": "Literal",
                       "start": 4247,
                       "end": 4256,
-                      "value": "default",
-                      "raw": "'default'"
+                      "value": "default"
                     }
                   ],
                   "optional": false
@@ -287,8 +281,7 @@
                   "type": "Literal",
                   "start": 4259,
                   "end": 4292,
-                  "value": "Reflect.deleteProperty: default",
-                  "raw": "'Reflect.deleteProperty: default'"
+                  "value": "Reflect.deleteProperty: default"
                 }
               ],
               "optional": false
@@ -372,8 +365,7 @@
                   "type": "Literal",
                   "start": 4360,
                   "end": 4388,
-                  "value": "delete: Symbol.toStringTag",
-                  "raw": "'delete: Symbol.toStringTag'"
+                  "value": "delete: Symbol.toStringTag"
                 }
               ],
               "optional": false
@@ -470,8 +462,7 @@
                   "type": "Literal",
                   "start": 4480,
                   "end": 4524,
-                  "value": "Reflect.deleteProperty: Symbol.toStringTag",
-                  "raw": "'Reflect.deleteProperty: Symbol.toStringTag'"
+                  "value": "Reflect.deleteProperty: Symbol.toStringTag"
                 }
               ],
               "optional": false
@@ -507,8 +498,7 @@
                       "type": "Literal",
                       "start": 4554,
                       "end": 4563,
-                      "value": "test262",
-                      "raw": "'test262'"
+                      "value": "test262"
                     }
                   ],
                   "optional": false
@@ -562,8 +552,7 @@
                   "type": "Literal",
                   "start": 4593,
                   "end": 4609,
-                  "value": "delete: symbol",
-                  "raw": "'delete: symbol'"
+                  "value": "delete: symbol"
                 }
               ],
               "optional": false
@@ -627,8 +616,7 @@
                   "type": "Literal",
                   "start": 4656,
                   "end": 4688,
-                  "value": "Reflect.deleteProperty: symbol",
-                  "raw": "'Reflect.deleteProperty: symbol'"
+                  "value": "Reflect.deleteProperty: symbol"
                 }
               ],
               "optional": false

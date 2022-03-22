@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 772,
                             "end": 773,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           }
                         ]
                       }
@@ -203,8 +202,7 @@
                         "type": "Literal",
                         "start": 876,
                         "end": 899,
-                        "value": "new typedArray object",
-                        "raw": "\"new typedArray object\""
+                        "value": "new typedArray object"
                       }
                     ],
                     "optional": false
@@ -280,8 +278,7 @@
                         "type": "Literal",
                         "start": 961,
                         "end": 979,
-                        "value": "same constructor",
-                        "raw": "\"same constructor\""
+                        "value": "same constructor"
                       }
                     ],
                     "optional": false
@@ -338,15 +335,13 @@
                         "type": "Literal",
                         "start": 1016,
                         "end": 1017,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       {
                         "type": "Literal",
                         "start": 1019,
                         "end": 1032,
-                        "value": "same length",
-                        "raw": "\"same length\""
+                        "value": "same length"
                       }
                     ],
                     "optional": false
@@ -422,8 +417,7 @@
                         "type": "Literal",
                         "start": 1087,
                         "end": 1099,
-                        "value": "new buffer",
-                        "raw": "\"new buffer\""
+                        "value": "new buffer"
                       }
                     ],
                     "optional": false

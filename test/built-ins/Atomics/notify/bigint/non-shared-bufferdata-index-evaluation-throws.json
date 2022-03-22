@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 629,
                       "end": 630,
-                      "value": 8,
-                      "raw": "8"
+                      "value": 8
                     }
                   }
                 ]
@@ -241,8 +240,7 @@
                         "type": "Literal",
                         "start": 771,
                         "end": 772,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Identifier",
@@ -261,8 +259,7 @@
             "type": "Literal",
             "start": 788,
             "end": 845,
-            "value": "`Atomics.notify(i64a, 0, poisoned)` throws Test262Error",
-            "raw": "'`Atomics.notify(i64a, 0, poisoned)` throws Test262Error'"
+            "value": "`Atomics.notify(i64a, 0, poisoned)` throws Test262Error"
           }
         ],
         "optional": false

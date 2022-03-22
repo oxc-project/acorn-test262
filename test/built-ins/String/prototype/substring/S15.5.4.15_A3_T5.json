@@ -132,15 +132,13 @@
               "type": "Literal",
               "start": 603,
               "end": 604,
-              "value": 8,
-              "raw": "8"
+              "value": 8
             },
             {
               "type": "Literal",
               "start": 606,
               "end": 607,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -150,8 +148,7 @@
           "type": "Literal",
           "start": 613,
           "end": 623,
-          "value": "[object ",
-          "raw": "\"[object \""
+          "value": "[object "
         }
       },
       "consequent": {
@@ -182,8 +179,7 @@
                     "type": "Literal",
                     "start": 652,
                     "end": 786,
-                    "value": "#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8,0) === \"[object \". Actual: ",
-                    "raw": "'#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8,0) === \"[object \". Actual: '"
+                    "value": "#1: __instance = new Object(); __instance.substring = String.prototype.substring; __instance.substring(8,0) === \"[object \". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -214,15 +210,13 @@
                         "type": "Literal",
                         "start": 810,
                         "end": 811,
-                        "value": 8,
-                        "raw": "8"
+                        "value": 8
                       },
                       {
                         "type": "Literal",
                         "start": 813,
                         "end": 814,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false

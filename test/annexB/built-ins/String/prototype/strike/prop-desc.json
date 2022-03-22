@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 540,
             "end": 548,
-            "value": "strike",
-            "raw": "\"strike\""
+            "value": "strike"
           },
           {
             "type": "ObjectExpression",

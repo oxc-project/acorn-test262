@@ -40,8 +40,7 @@
                         "type": "Literal",
                         "start": 408,
                         "end": 409,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   ],
@@ -64,8 +63,7 @@
               "type": "Literal",
               "start": 441,
               "end": 442,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
@@ -87,8 +85,7 @@
                   "type": "Literal",
                   "start": 469,
                   "end": 516,
-                  "value": "#1: \"abbracadabra\" lead to throwing exception",
-                  "raw": "'#1: \"abbracadabra\" lead to throwing exception'"
+                  "value": "#1: \"abbracadabra\" lead to throwing exception"
                 }
               ]
             }
@@ -169,8 +166,7 @@
           "type": "Literal",
           "start": 591,
           "end": 592,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -201,8 +197,7 @@
                     "type": "Literal",
                     "start": 620,
                     "end": 651,
-                    "value": "#1.1: x === 1. Actual:  x ===",
-                    "raw": "'#1.1: x === 1. Actual:  x ==='"
+                    "value": "#1.1: x === 1. Actual:  x ==="
                   },
                   "operator": "+",
                   "right": {

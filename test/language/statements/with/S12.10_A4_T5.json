@@ -34,8 +34,7 @@
           "type": "Literal",
           "start": 305,
           "end": 308,
-          "value": "a",
-          "raw": "'a'"
+          "value": "a"
         }
       }
     },
@@ -81,22 +80,19 @@
                       "type": "Literal",
                       "start": 331,
                       "end": 332,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 333,
                       "end": 334,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     {
                       "type": "Literal",
                       "start": 335,
                       "end": 336,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     }
                   ]
                 },
@@ -127,8 +123,7 @@
             "type": "Literal",
             "start": 347,
             "end": 372,
-            "value": "with(myObj){p1=[3,2,1]}",
-            "raw": "\"with(myObj){p1=[3,2,1]}\""
+            "value": "with(myObj){p1=[3,2,1]}"
           }
         ],
         "optional": false
@@ -169,8 +164,7 @@
             "type": "Literal",
             "start": 477,
             "end": 478,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -180,8 +174,7 @@
           "type": "Literal",
           "start": 484,
           "end": 485,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -212,8 +205,7 @@
                     "type": "Literal",
                     "start": 513,
                     "end": 562,
-                    "value": "#1: myObj.p1[2] === 1. Actual:  myObj.p1[2] ===",
-                    "raw": "'#1: myObj.p1[2] === 1. Actual:  myObj.p1[2] ==='"
+                    "value": "#1: myObj.p1[2] === 1. Actual:  myObj.p1[2] ==="
                   },
                   "operator": "+",
                   "right": {
@@ -243,8 +235,7 @@
                       "type": "Literal",
                       "start": 573,
                       "end": 574,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "computed": true,
                     "optional": false
@@ -289,8 +280,7 @@
           "type": "Literal",
           "start": 770,
           "end": 773,
-          "value": "a",
-          "raw": "'a'"
+          "value": "a"
         }
       },
       "consequent": {
@@ -317,8 +307,7 @@
                   "type": "Literal",
                   "start": 801,
                   "end": 825,
-                  "value": "#2: myObj.p1 !== 'a'",
-                  "raw": "'#2: myObj.p1 !== \\'a\\''"
+                  "value": "#2: myObj.p1 !== 'a'"
                 }
               ]
             }

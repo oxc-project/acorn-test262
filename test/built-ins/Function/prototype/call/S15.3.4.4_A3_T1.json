@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 367,
-                "value": "this.field=\"strawberry\"",
-                "raw": "\"this.field=\\\"strawberry\\\"\""
+                "value": "this.field=\"strawberry\""
               }
             ],
             "optional": false
@@ -90,8 +89,7 @@
               "type": "Literal",
               "start": 400,
               "end": 407,
-              "value": "field",
-              "raw": "\"field\""
+              "value": "field"
             },
             "computed": true,
             "optional": false
@@ -100,15 +98,13 @@
             "type": "Literal",
             "start": 410,
             "end": 422,
-            "value": "strawberry",
-            "raw": "\"strawberry\""
+            "value": "strawberry"
           },
           {
             "type": "Literal",
             "start": 424,
             "end": 483,
-            "value": "The value of this[\"field\"] is expected to be \"strawberry\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"strawberry\"'"
+            "value": "The value of this[\"field\"] is expected to be \"strawberry\""
           }
         ],
         "optional": false

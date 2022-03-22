@@ -24,15 +24,13 @@
                 "type": "Literal",
                 "start": 934,
                 "end": 941,
-                "value": "input",
-                "raw": "\"input\""
+                "value": "input"
               },
               {
                 "type": "Literal",
                 "start": 943,
                 "end": 947,
-                "value": "$_",
-                "raw": "\"$_\""
+                "value": "$_"
               }
             ]
           },
@@ -146,15 +144,13 @@
                             "type": "Literal",
                             "start": 1049,
                             "end": 1054,
-                            "value": "get",
-                            "raw": "\"get\""
+                            "value": "get"
                           },
                           {
                             "type": "Literal",
                             "start": 1056,
                             "end": 1061,
-                            "value": "set",
-                            "raw": "\"set\""
+                            "value": "set"
                           }
                         ]
                       },
@@ -224,8 +220,7 @@
                                             "type": "Literal",
                                             "start": 1119,
                                             "end": 1128,
-                                            "value": "RegExp.",
-                                            "raw": "\"RegExp.\""
+                                            "value": "RegExp."
                                           },
                                           "operator": "+",
                                           "right": {
@@ -240,8 +235,7 @@
                                           "type": "Literal",
                                           "start": 1142,
                                           "end": 1145,
-                                          "value": " ",
-                                          "raw": "\" \""
+                                          "value": " "
                                         }
                                       },
                                       "operator": "+",
@@ -257,8 +251,7 @@
                                       "type": "Literal",
                                       "start": 1159,
                                       "end": 1164,
-                                      "value": "ter",
-                                      "raw": "\"ter\""
+                                      "value": "ter"
                                     }
                                   }
                                 }
@@ -323,8 +316,7 @@
                                     "type": "Literal",
                                     "start": 1320,
                                     "end": 1330,
-                                    "value": "function",
-                                    "raw": "\"function\""
+                                    "value": "function"
                                   },
                                   {
                                     "type": "Identifier",
@@ -433,8 +425,7 @@
                                       "type": "Literal",
                                       "start": 1535,
                                       "end": 1577,
-                                      "value": " throws for property descriptor receiver",
-                                      "raw": "\" throws for property descriptor receiver\""
+                                      "value": " throws for property descriptor receiver"
                                     }
                                   }
                                 ],
@@ -535,7 +526,6 @@
                                                 "start": 1670,
                                                 "end": 1673,
                                                 "value": {},
-                                                "raw": "/ /",
                                                 "regex": {
                                                   "pattern": " ",
                                                   "flags": ""
@@ -563,8 +553,7 @@
                                       "type": "Literal",
                                       "start": 1707,
                                       "end": 1745,
-                                      "value": " throws for RegExp instance receiver",
-                                      "raw": "\" throws for RegExp instance receiver\""
+                                      "value": " throws for RegExp instance receiver"
                                     }
                                   }
                                 ],
@@ -701,8 +690,7 @@
                                       "type": "Literal",
                                       "start": 1888,
                                       "end": 1929,
-                                      "value": " throws for %RegExp.prototype% receiver",
-                                      "raw": "\" throws for %RegExp.prototype% receiver\""
+                                      "value": " throws for %RegExp.prototype% receiver"
                                     }
                                   }
                                 ],
@@ -763,22 +751,19 @@
                                         "type": "Literal",
                                         "start": 1977,
                                         "end": 1978,
-                                        "value": 0,
-                                        "raw": "0"
+                                        "value": 0
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1980,
                                         "end": 1981,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1983,
                                         "end": 1991,
-                                        "value": "string",
-                                        "raw": "\"string\""
+                                        "value": "string"
                                       }
                                     ]
                                   },
@@ -938,8 +923,7 @@
                                                       "type": "Literal",
                                                       "start": 2155,
                                                       "end": 2180,
-                                                      "value": " throws for primitive \"",
-                                                      "raw": "' throws for primitive \"'"
+                                                      "value": " throws for primitive \""
                                                     }
                                                   },
                                                   "operator": "+",
@@ -955,8 +939,7 @@
                                                   "type": "Literal",
                                                   "start": 2191,
                                                   "end": 2203,
-                                                  "value": "\" receiver",
-                                                  "raw": "'\" receiver'"
+                                                  "value": "\" receiver"
                                                 }
                                               }
                                             ],

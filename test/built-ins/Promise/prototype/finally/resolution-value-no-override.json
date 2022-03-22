@@ -203,8 +203,7 @@
                                     "type": "Literal",
                                     "start": 468,
                                     "end": 469,
-                                    "value": 1,
-                                    "raw": "1"
+                                    "value": 1
                                   }
                                 ],
                                 "optional": false
@@ -261,15 +260,13 @@
                                     "type": "Literal",
                                     "start": 509,
                                     "end": 510,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 512,
                                     "end": 542,
-                                    "value": "onFinally receives zero args",
-                                    "raw": "'onFinally receives zero args'"
+                                    "value": "onFinally receives zero args"
                                   }
                                 ],
                                 "optional": false
@@ -355,8 +352,7 @@
                                 "type": "Literal",
                                 "start": 596,
                                 "end": 597,
-                                "value": 2,
-                                "raw": "2"
+                                "value": 2
                               }
                             ],
                             "optional": false
@@ -406,8 +402,7 @@
                                 "type": "Literal",
                                 "start": 627,
                                 "end": 676,
-                                "value": "onFinally can not override the resolution value",
-                                "raw": "'onFinally can not override the resolution value'"
+                                "value": "onFinally can not override the resolution value"
                               }
                             ],
                             "optional": false
@@ -494,8 +489,7 @@
                             "type": "Literal",
                             "start": 736,
                             "end": 737,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ],
                         "optional": false
@@ -526,8 +520,7 @@
                             "type": "Literal",
                             "start": 766,
                             "end": 814,
-                            "value": "All expected callbacks called in correct order",
-                            "raw": "\"All expected callbacks called in correct order\""
+                            "value": "All expected callbacks called in correct order"
                           }
                         ],
                         "optional": false

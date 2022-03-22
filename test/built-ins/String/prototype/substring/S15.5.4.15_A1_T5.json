@@ -53,8 +53,7 @@
                   "type": "Literal",
                   "start": 382,
                   "end": 392,
-                  "value": "gnulluna",
-                  "raw": "\"gnulluna\""
+                  "value": "gnulluna"
                 }
               }
             ]
@@ -197,8 +196,7 @@
           "type": "Literal",
           "start": 590,
           "end": 592,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -229,8 +227,7 @@
                     "type": "Literal",
                     "start": 621,
                     "end": 802,
-                    "value": "#1: __func.valueOf=function(){return \"gnulluna\"}; Function.prototype.substring=String.prototype.substring; function __func(){}; __func.substring(null, Function()) === \"\". Actual: ",
-                    "raw": "'#1: __func.valueOf=function(){return \"gnulluna\"}; Function.prototype.substring=String.prototype.substring; function __func(){}; __func.substring(null, Function()) === \"\". Actual: '"
+                    "value": "#1: __func.valueOf=function(){return \"gnulluna\"}; Function.prototype.substring=String.prototype.substring; function __func(){}; __func.substring(null, Function()) === \"\". Actual: "
                   },
                   "operator": "+",
                   "right": {

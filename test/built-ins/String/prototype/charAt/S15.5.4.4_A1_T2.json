@@ -223,8 +223,7 @@
                   "type": "Literal",
                   "start": 532,
                   "end": 533,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -236,8 +235,7 @@
           "type": "Literal",
           "start": 539,
           "end": 544,
-          "value": "fal",
-          "raw": "\"fal\""
+          "value": "fal"
         }
       },
       "consequent": {
@@ -276,8 +274,7 @@
                         "type": "Literal",
                         "start": 573,
                         "end": 816,
-                        "value": "#1: __instance = new Boolean; __instance.charAt = String.prototype.charAt;  __instance = new Boolean; __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true)+__instance.charAt(true+1) === \"fal\". Actual: ",
-                        "raw": "'#1: __instance = new Boolean; __instance.charAt = String.prototype.charAt;  __instance = new Boolean; __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true)+__instance.charAt(true+1) === \"fal\". Actual: '"
+                        "value": "#1: __instance = new Boolean; __instance.charAt = String.prototype.charAt;  __instance = new Boolean; __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true)+__instance.charAt(true+1) === \"fal\". Actual: "
                       },
                       "operator": "+",
                       "right": {
@@ -392,8 +389,7 @@
                           "type": "Literal",
                           "start": 897,
                           "end": 898,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ],

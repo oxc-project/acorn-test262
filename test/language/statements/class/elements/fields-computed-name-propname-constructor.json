@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1309,
             "end": 1322,
-            "value": "constructor",
-            "raw": "\"constructor\""
+            "value": "constructor"
           }
         }
       ],
@@ -46,10 +45,9 @@
         "end": 1343,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1337,
-            "end": 1341,
-            "static": false,
+            "end": 1340,
             "computed": true,
             "key": {
               "type": "Identifier",
@@ -149,8 +147,7 @@
                 "type": "Literal",
                 "start": 1400,
                 "end": 1413,
-                "value": "constructor",
-                "raw": "\"constructor\""
+                "value": "constructor"
               }
             ],
             "optional": false
@@ -222,8 +219,7 @@
                 "type": "Literal",
                 "start": 1458,
                 "end": 1471,
-                "value": "constructor",
-                "raw": "\"constructor\""
+                "value": "constructor"
               }
             ],
             "optional": false

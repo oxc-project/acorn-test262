@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 518,
                   "end": 519,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               {
@@ -79,8 +78,7 @@
                   "type": "Literal",
                   "start": 522,
                   "end": 523,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -97,8 +95,7 @@
             "type": "Literal",
             "start": 533,
             "end": 570,
-            "value": "`Object.is(+0, -0)` returns `false`",
-            "raw": "\"`Object.is(+0, -0)` returns `false`\""
+            "value": "`Object.is(+0, -0)` returns `false`"
           }
         ],
         "optional": false
@@ -166,8 +163,7 @@
                   "type": "Literal",
                   "start": 601,
                   "end": 602,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               {
@@ -180,8 +176,7 @@
                   "type": "Literal",
                   "start": 605,
                   "end": 606,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -198,8 +193,7 @@
             "type": "Literal",
             "start": 616,
             "end": 653,
-            "value": "`Object.is(-0, +0)` returns `false`",
-            "raw": "\"`Object.is(-0, +0)` returns `false`\""
+            "value": "`Object.is(-0, +0)` returns `false`"
           }
         ],
         "optional": false
@@ -261,8 +255,7 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 684,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -278,8 +271,7 @@
             "type": "Literal",
             "start": 694,
             "end": 726,
-            "value": "`Object.is(0)` returns `false`",
-            "raw": "\"`Object.is(0)` returns `false`\""
+            "value": "`Object.is(0)` returns `false`"
           }
         ],
         "optional": false
@@ -370,8 +362,7 @@
             "type": "Literal",
             "start": 785,
             "end": 835,
-            "value": "`Object.is(Infinity, -Infinity)` returns `false`",
-            "raw": "\"`Object.is(Infinity, -Infinity)` returns `false`\""
+            "value": "`Object.is(Infinity, -Infinity)` returns `false`"
           }
         ],
         "optional": false

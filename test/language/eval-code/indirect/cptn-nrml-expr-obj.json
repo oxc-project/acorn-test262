@@ -93,8 +93,7 @@
                     "type": "Literal",
                     "start": 402,
                     "end": 403,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Identifier",
@@ -110,8 +109,7 @@
                 "type": "Literal",
                 "start": 410,
                 "end": 417,
-                "value": "y = x",
-                "raw": "\"y = x\""
+                "value": "y = x"
               }
             ],
             "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 424,
             "end": 446,
-            "value": "AssignmentExpression",
-            "raw": "'AssignmentExpression'"
+            "value": "AssignmentExpression"
           }
         ],
         "optional": false
@@ -178,8 +175,7 @@
                     "type": "Literal",
                     "start": 468,
                     "end": 469,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Identifier",
@@ -195,8 +191,7 @@
                 "type": "Literal",
                 "start": 476,
                 "end": 479,
-                "value": "x",
-                "raw": "\"x\""
+                "value": "x"
               }
             ],
             "optional": false
@@ -211,8 +206,7 @@
             "type": "Literal",
             "start": 485,
             "end": 506,
-            "value": "IdentifierReference",
-            "raw": "'IdentifierReference'"
+            "value": "IdentifierReference"
           }
         ],
         "optional": false

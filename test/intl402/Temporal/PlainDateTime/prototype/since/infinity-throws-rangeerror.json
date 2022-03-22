@@ -46,36 +46,31 @@
                 "type": "Literal",
                 "start": 379,
                 "end": 383,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 385,
                 "end": 386,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 389,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 391,
                 "end": 393,
-                "value": 15,
-                "raw": "15"
+                "value": 15
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 404,
-                "value": "gregory",
-                "raw": "\"gregory\""
+                "value": "gregory"
               }
             ]
           }
@@ -120,8 +115,7 @@
                   "type": "Literal",
                   "start": 427,
                   "end": 431,
-                  "value": "ad",
-                  "raw": "\"ad\""
+                  "value": "ad"
                 },
                 "kind": "init"
               },
@@ -142,8 +136,7 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 441,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "kind": "init"
               },
@@ -164,8 +157,7 @@
                   "type": "Literal",
                   "start": 448,
                   "end": 449,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -186,8 +178,7 @@
                   "type": "Literal",
                   "start": 457,
                   "end": 459,
-                  "value": 15,
-                  "raw": "15"
+                  "value": 15
                 },
                 "kind": "init"
               },
@@ -208,8 +199,7 @@
                   "type": "Literal",
                   "start": 471,
                   "end": 480,
-                  "value": "gregory",
-                  "raw": "\"gregory\""
+                  "value": "gregory"
                 },
                 "kind": "init"
               }
@@ -517,8 +507,7 @@
                             "type": "Literal",
                             "start": 724,
                             "end": 733,
-                            "value": "eraYear",
-                            "raw": "\"eraYear\""
+                            "value": "eraYear"
                           }
                         ],
                         "optional": false
@@ -684,15 +673,13 @@
                             "type": "Literal",
                             "start": 844,
                             "end": 865,
-                            "value": "get eraYear.valueOf",
-                            "raw": "\"get eraYear.valueOf\""
+                            "value": "get eraYear.valueOf"
                           },
                           {
                             "type": "Literal",
                             "start": 867,
                             "end": 889,
-                            "value": "call eraYear.valueOf",
-                            "raw": "\"call eraYear.valueOf\""
+                            "value": "call eraYear.valueOf"
                           }
                         ]
                       },
@@ -700,8 +687,7 @@
                         "type": "Literal",
                         "start": 892,
                         "end": 937,
-                        "value": "it fails after fetching the primitive value",
-                        "raw": "\"it fails after fetching the primitive value\""
+                        "value": "it fails after fetching the primitive value"
                       }
                     ],
                     "optional": false

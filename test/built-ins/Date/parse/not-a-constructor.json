@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Date.parse) must return false",
-            "raw": "'isConstructor(Date.parse) must return false'"
+            "value": "isConstructor(Date.parse) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 838,
             "end": 875,
-            "value": "`new Date.parse()` throws TypeError",
-            "raw": "'`new Date.parse()` throws TypeError'"
+            "value": "`new Date.parse()` throws TypeError"
           }
         ],
         "optional": false

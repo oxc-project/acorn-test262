@@ -131,8 +131,7 @@
                         "type": "Literal",
                         "start": 1993,
                         "end": 1994,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -187,8 +186,7 @@
                           "type": "Literal",
                           "start": 2032,
                           "end": 2033,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -203,8 +201,7 @@
                         "type": "Literal",
                         "start": 2046,
                         "end": 2113,
-                        "value": "The value of sample[0] is expected to equal the value of expected",
-                        "raw": "'The value of sample[0] is expected to equal the value of expected'"
+                        "value": "The value of sample[0] is expected to equal the value of expected"
                       }
                     ],
                     "optional": false

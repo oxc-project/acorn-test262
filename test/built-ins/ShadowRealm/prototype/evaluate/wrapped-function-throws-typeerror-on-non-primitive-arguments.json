@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 395,
             "end": 405,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 482,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -162,8 +160,7 @@
                 "type": "Literal",
                 "start": 551,
                 "end": 561,
-                "value": "() => {}",
-                "raw": "'() => {}'"
+                "value": "() => {}"
               }
             ],
             "optional": false
@@ -217,15 +214,13 @@
             "type": "Literal",
             "start": 611,
             "end": 621,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 683,
-            "value": "This test must fail if wrappedFunction is not a function",
-            "raw": "'This test must fail if wrappedFunction is not a function'"
+            "value": "This test must fail if wrappedFunction is not a function"
           }
         ],
         "optional": false
@@ -289,8 +284,7 @@
                   "type": "Literal",
                   "start": 735,
                   "end": 736,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Identifier",
@@ -306,8 +300,7 @@
             "type": "Literal",
             "start": 751,
             "end": 763,
-            "value": "globalThis",
-            "raw": "'globalThis'"
+            "value": "globalThis"
           }
         ],
         "optional": false
@@ -371,8 +364,7 @@
                   "type": "Literal",
                   "start": 813,
                   "end": 814,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "ArrayExpression",
@@ -388,8 +380,7 @@
             "type": "Literal",
             "start": 821,
             "end": 836,
-            "value": "array literal",
-            "raw": "'array literal'"
+            "value": "array literal"
           }
         ],
         "optional": false
@@ -453,8 +444,7 @@
                   "type": "Literal",
                   "start": 886,
                   "end": 887,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "ObjectExpression",
@@ -510,8 +500,7 @@
                                 "type": "Literal",
                                 "start": 925,
                                 "end": 933,
-                                "value": "string",
-                                "raw": "'string'"
+                                "value": "string"
                               }
                             }
                           ]
@@ -554,8 +543,7 @@
                                 "type": "Literal",
                                 "start": 960,
                                 "end": 965,
-                                "value": "str",
-                                "raw": "'str'"
+                                "value": "str"
                               }
                             }
                           ]
@@ -598,8 +586,7 @@
                                 "type": "Literal",
                                 "start": 991,
                                 "end": 992,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           ]
@@ -616,8 +603,7 @@
             "type": "Literal",
             "start": 1000,
             "end": 1058,
-            "value": "object literal with immediate primitive coercion methods",
-            "raw": "'object literal with immediate primitive coercion methods'"
+            "value": "object literal with immediate primitive coercion methods"
           }
         ],
         "optional": false
@@ -681,8 +667,7 @@
                   "type": "Literal",
                   "start": 1108,
                   "end": 1109,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "CallExpression",
@@ -726,8 +711,7 @@
             "type": "Literal",
             "start": 1133,
             "end": 1170,
-            "value": "ordinary object with null __proto__",
-            "raw": "'ordinary object with null __proto__'"
+            "value": "ordinary object with null __proto__"
           }
         ],
         "optional": false
@@ -791,8 +775,7 @@
                   "type": "Literal",
                   "start": 1220,
                   "end": 1221,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "NewExpression",
@@ -859,8 +842,7 @@
             "type": "Literal",
             "start": 1255,
             "end": 1275,
-            "value": "non-callable proxy",
-            "raw": "'non-callable proxy'"
+            "value": "non-callable proxy"
           }
         ],
         "optional": false

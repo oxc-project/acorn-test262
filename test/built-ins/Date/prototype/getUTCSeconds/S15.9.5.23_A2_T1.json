@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 375,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 388,
             "end": 460,
-            "value": "Date.prototype.getUTCSeconds.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.prototype.getUTCSeconds.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.prototype.getUTCSeconds.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -186,15 +184,13 @@
             "type": "Literal",
             "start": 524,
             "end": 525,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 599,
-            "value": "The value of Date.prototype.getUTCSeconds.length is expected to be 0",
-            "raw": "'The value of Date.prototype.getUTCSeconds.length is expected to be 0'"
+            "value": "The value of Date.prototype.getUTCSeconds.length is expected to be 0"
           }
         ],
         "optional": false

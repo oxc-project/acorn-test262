@@ -46,16 +46,14 @@
               "type": "Literal",
               "start": 633,
               "end": 634,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 663,
-            "value": "value is greater than 0",
-            "raw": "\"value is greater than 0\""
+            "value": "value is greater than 0"
           }
         ],
         "optional": false
@@ -104,16 +102,14 @@
               "type": "Literal",
               "start": 694,
               "end": 702,
-              "value": 0.000001,
-              "raw": "0.000001"
+              "value": 0.000001
             }
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 738,
-            "value": "value is smaller than 0.000001",
-            "raw": "\"value is smaller than 0.000001\""
+            "value": "value is smaller than 0.000001"
           }
         ],
         "optional": false
@@ -144,8 +140,7 @@
             "type": "Literal",
             "start": 771,
             "end": 780,
-            "value": "EPSILON",
-            "raw": "\"EPSILON\""
+            "value": "EPSILON"
           }
         ],
         "optional": false
@@ -176,8 +171,7 @@
             "type": "Literal",
             "start": 809,
             "end": 818,
-            "value": "EPSILON",
-            "raw": "\"EPSILON\""
+            "value": "EPSILON"
           }
         ],
         "optional": false
@@ -208,8 +202,7 @@
             "type": "Literal",
             "start": 851,
             "end": 860,
-            "value": "EPSILON",
-            "raw": "\"EPSILON\""
+            "value": "EPSILON"
           }
         ],
         "optional": false

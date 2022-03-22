@@ -81,8 +81,7 @@
           "type": "Literal",
           "start": 584,
           "end": 594,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -113,8 +112,7 @@
                     "type": "Literal",
                     "start": 622,
                     "end": 683,
-                    "value": "#1: typeof __func === \"function\". Actual: typeof __func ===",
-                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='"
+                    "value": "#1: typeof __func === \"function\". Actual: typeof __func ==="
                   },
                   "operator": "+",
                   "right": {
@@ -161,8 +159,7 @@
               "type": "Literal",
               "start": 885,
               "end": 886,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ],
           "optional": false
@@ -172,8 +169,7 @@
           "type": "Literal",
           "start": 892,
           "end": 893,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -204,8 +200,7 @@
                     "type": "Literal",
                     "start": 921,
                     "end": 965,
-                    "value": "#2: __func(1) === 2. Actual: __func(1) ===",
-                    "raw": "'#2: __func(1) === 2. Actual: __func(1) ==='"
+                    "value": "#2: __func(1) === 2. Actual: __func(1) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -223,8 +218,7 @@
                         "type": "Literal",
                         "start": 973,
                         "end": 974,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false

@@ -113,8 +113,7 @@
                   "type": "Literal",
                   "start": 410,
                   "end": 509,
-                  "value": "#1: __FACTORY = String.prototype.replace; \"__instance = new __FACTORY\" lead to throwing exception",
-                  "raw": "'#1: __FACTORY = String.prototype.replace; \"__instance = new __FACTORY\" lead to throwing exception'"
+                  "value": "#1: __FACTORY = String.prototype.replace; \"__instance = new __FACTORY\" lead to throwing exception"
                 }
               ]
             }

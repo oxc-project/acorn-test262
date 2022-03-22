@@ -95,22 +95,19 @@
                             "type": "Literal",
                             "start": 1210,
                             "end": 1214,
-                            "value": 2000,
-                            "raw": "2000"
+                            "value": 2000
                           },
                           {
                             "type": "Literal",
                             "start": 1216,
                             "end": 1217,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           },
                           {
                             "type": "Literal",
                             "start": 1219,
                             "end": 1220,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -207,8 +204,7 @@
                                     "type": "Literal",
                                     "start": 1290,
                                     "end": 1295,
-                                    "value": "UTC",
-                                    "raw": "\"UTC\""
+                                    "value": "UTC"
                                   },
                                   "kind": "init"
                                 },
@@ -247,8 +243,7 @@
                                           "type": "Literal",
                                           "start": 1316,
                                           "end": 1318,
-                                          "value": 12,
-                                          "raw": "12"
+                                          "value": 12
                                         },
                                         "kind": "init"
                                       },
@@ -269,8 +264,7 @@
                                           "type": "Literal",
                                           "start": 1328,
                                           "end": 1330,
-                                          "value": 30,
-                                          "raw": "30"
+                                          "value": 30
                                         },
                                         "kind": "init"
                                       },

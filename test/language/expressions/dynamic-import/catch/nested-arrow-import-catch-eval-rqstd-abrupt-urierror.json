@@ -60,8 +60,7 @@
                               "type": "Literal",
                               "start": 1339,
                               "end": 1379,
-                              "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
-                              "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
+                              "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js"
                             }
                           },
                           "property": {
@@ -146,8 +145,7 @@
                                         "type": "Literal",
                                         "start": 1432,
                                         "end": 1442,
-                                        "value": "URIError",
-                                        "raw": "'URIError'"
+                                        "value": "URIError"
                                       }
                                     ],
                                     "optional": false

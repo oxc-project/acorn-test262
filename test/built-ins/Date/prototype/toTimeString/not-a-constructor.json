@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 774,
             "end": 836,
-            "value": "isConstructor(Date.prototype.toTimeString) must return false",
-            "raw": "'isConstructor(Date.prototype.toTimeString) must return false'"
+            "value": "isConstructor(Date.prototype.toTimeString) must return false"
           }
         ],
         "optional": false
@@ -238,8 +237,7 @@
             "type": "Literal",
             "start": 937,
             "end": 1014,
-            "value": "`let date = new Date(Date.now()); new date.toTimeString()` throws TypeError",
-            "raw": "'`let date = new Date(Date.now()); new date.toTimeString()` throws TypeError'"
+            "value": "`let date = new Date(Date.now()); new date.toTimeString()` throws TypeError"
           }
         ],
         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 970,
                 "end": 981,
-                "value": "collation",
-                "raw": "\"collation\""
+                "value": "collation"
               }
             ],
             "optional": false
@@ -108,8 +107,7 @@
             "type": "Literal",
             "start": 1019,
             "end": 1045,
-            "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "value": "Returns an Array object."
           }
         ],
         "optional": false
@@ -199,8 +197,7 @@
             "type": "Literal",
             "start": 1134,
             "end": 1174,
-            "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "value": "The array prototype is Array.prototype"
           }
         ],
         "optional": false
@@ -249,8 +246,7 @@
                 "type": "Literal",
                 "start": 1225,
                 "end": 1236,
-                "value": "collation",
-                "raw": "\"collation\""
+                "value": "collation"
               }
             ],
             "optional": false
@@ -303,8 +299,7 @@
             "type": "Literal",
             "start": 1308,
             "end": 1351,
-            "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "value": "Returns a new array object for each call."
           }
         ],
         "optional": false
@@ -374,8 +369,7 @@
             "type": "Literal",
             "start": 1431,
             "end": 1453,
-            "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "value": "The array is sorted."
           }
         ],
         "optional": false
@@ -464,8 +458,7 @@
             "type": "Literal",
             "start": 1536,
             "end": 1575,
-            "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "value": "The array doesn't contain duplicates."
           }
         ],
         "optional": false
@@ -491,7 +484,6 @@
             "start": 1666,
             "end": 1700,
             "value": {},
-            "raw": "/^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$/",
             "regex": {
               "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",
               "flags": ""
@@ -723,8 +715,7 @@
                         "type": "Literal",
                         "start": 1892,
                         "end": 1897,
-                        "value": "und",
-                        "raw": "\"und\""
+                        "value": "und"
                       },
                       {
                         "type": "ObjectExpression",
@@ -862,8 +853,7 @@
                   "type": "Literal",
                   "start": 2018,
                   "end": 2028,
-                  "value": "standard",
-                  "raw": "\"standard\""
+                  "value": "standard"
                 }
               ],
               "optional": false
@@ -873,8 +863,7 @@
             "type": "Literal",
             "start": 2031,
             "end": 2079,
-            "value": "Mustn't include the 'standard' collation type.",
-            "raw": "\"Mustn't include the 'standard' collation type.\""
+            "value": "Mustn't include the 'standard' collation type."
           }
         ],
         "optional": false
@@ -929,8 +918,7 @@
                   "type": "Literal",
                   "start": 2110,
                   "end": 2118,
-                  "value": "search",
-                  "raw": "\"search\""
+                  "value": "search"
                 }
               ],
               "optional": false
@@ -940,8 +928,7 @@
             "type": "Literal",
             "start": 2121,
             "end": 2167,
-            "value": "Mustn't include the 'search' collation type.",
-            "raw": "\"Mustn't include the 'search' collation type.\""
+            "value": "Mustn't include the 'search' collation type."
           }
         ],
         "optional": false

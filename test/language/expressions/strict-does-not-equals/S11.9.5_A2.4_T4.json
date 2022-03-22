@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 320,
               "end": 321,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         },
@@ -67,8 +66,7 @@
                   "type": "Literal",
                   "start": 357,
                   "end": 376,
-                  "value": "#1: (y = 1) === y",
-                  "raw": "'#1: (y = 1) === y'"
+                  "value": "#1: (y = 1) === y"
                 }
               ]
             }

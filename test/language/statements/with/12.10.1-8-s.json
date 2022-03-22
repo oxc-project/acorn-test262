@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 374,
                         "end": 544,
-                        "value": "              'use strict';               var f1 = function () {                  var o = {};                   with (o) {};                 }            ",
-                        "raw": "\"\\\n              \\'use strict\\'; \\\n              var f1 = function () {\\\n                  var o = {}; \\\n                  with (o) {}; \\\n                }\\\n            \""
+                        "value": "              'use strict';               var f1 = function () {                  var o = {};                   with (o) {};                 }            "
                       }
                     ],
                     "optional": false

@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 326,
             "end": 334,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -124,8 +123,7 @@
                               "type": "Literal",
                               "start": 366,
                               "end": 367,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             "computed": true,
                             "optional": false
@@ -134,8 +132,7 @@
                             "type": "Literal",
                             "start": 371,
                             "end": 379,
-                            "value": "length",
-                            "raw": "\"length\""
+                            "value": "length"
                           }
                         }
                       },
@@ -147,8 +144,7 @@
                           "type": "Literal",
                           "start": 392,
                           "end": 393,
-                          "value": 3,
-                          "raw": "3"
+                          "value": 3
                         }
                       }
                     ]
@@ -272,8 +268,7 @@
                 "type": "Literal",
                 "start": 481,
                 "end": 489,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -282,15 +277,13 @@
             "type": "Literal",
             "start": 492,
             "end": 493,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 495,
             "end": 544,
-            "value": "Array.prototype.lastIndexOf.call(arr, \"length\")",
-            "raw": "'Array.prototype.lastIndexOf.call(arr, \"length\")'"
+            "value": "Array.prototype.lastIndexOf.call(arr, \"length\")"
           }
         ],
         "optional": false

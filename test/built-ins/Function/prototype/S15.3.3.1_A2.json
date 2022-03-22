@@ -52,8 +52,7 @@
                   "type": "Literal",
                   "start": 345,
                   "end": 356,
-                  "value": "prototype",
-                  "raw": "'prototype'"
+                  "value": "prototype"
                 }
               ],
               "optional": false
@@ -63,8 +62,7 @@
             "type": "Literal",
             "start": 361,
             "end": 444,
-            "value": "The value of !Function.propertyIsEnumerable('prototype') is expected to be true",
-            "raw": "'The value of !Function.propertyIsEnumerable(\\'prototype\\') is expected to be true'"
+            "value": "The value of !Function.propertyIsEnumerable('prototype') is expected to be true"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 472,
             "end": 473,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -150,8 +147,7 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 525,
-                "value": "prototype",
-                "raw": "\"prototype\""
+                "value": "prototype"
               }
             },
             "consequent": {
@@ -222,15 +218,13 @@
             "type": "Literal",
             "start": 573,
             "end": 574,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 576,
             "end": 616,
-            "value": "The value of count is expected to be 0",
-            "raw": "'The value of count is expected to be 0'"
+            "value": "The value of count is expected to be 0"
           }
         ],
         "optional": false

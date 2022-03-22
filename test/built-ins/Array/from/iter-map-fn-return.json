@@ -759,15 +759,13 @@
             "type": "Literal",
             "start": 1656,
             "end": 1657,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1659,
             "end": 1707,
-            "value": "The value of result.length is expected to be 2",
-            "raw": "'The value of result.length is expected to be 2'"
+            "value": "The value of result.length is expected to be 2"
           }
         ],
         "optional": false
@@ -815,8 +813,7 @@
               "type": "Literal",
               "start": 1734,
               "end": 1735,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -831,8 +828,7 @@
             "type": "Literal",
             "start": 1754,
             "end": 1827,
-            "value": "The value of result[0] is expected to equal the value of firstReturnVal",
-            "raw": "'The value of result[0] is expected to equal the value of firstReturnVal'"
+            "value": "The value of result[0] is expected to equal the value of firstReturnVal"
           }
         ],
         "optional": false
@@ -880,8 +876,7 @@
               "type": "Literal",
               "start": 1857,
               "end": 1858,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -896,8 +891,7 @@
             "type": "Literal",
             "start": 1882,
             "end": 1956,
-            "value": "The value of result[1] is expected to equal the value of secondReturnVal",
-            "raw": "'The value of result[1] is expected to equal the value of secondReturnVal'"
+            "value": "The value of result[1] is expected to equal the value of secondReturnVal"
           }
         ],
         "optional": false

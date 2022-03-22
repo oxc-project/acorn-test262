@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 329,
             "end": 339,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 343,
             "end": 380,
-            "value": "`typeof Instant.from` is `function`",
-            "raw": "\"`typeof Instant.from` is `function`\""
+            "value": "`typeof Instant.from` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 418,
             "end": 424,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",

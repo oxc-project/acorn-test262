@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 264,
               "end": 266,
-              "value": "",
-              "raw": "\"\""
+              "value": ""
             }
           ],
           "optional": false
@@ -37,8 +36,7 @@
           "type": "Literal",
           "start": 272,
           "end": 274,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -65,8 +63,7 @@
                   "type": "Literal",
                   "start": 303,
                   "end": 311,
-                  "value": "#1: \"\"",
-                  "raw": "'#1: \"\"'"
+                  "value": "#1: \"\""
                 }
               ]
             }
@@ -98,8 +95,7 @@
               "type": "Literal",
               "start": 350,
               "end": 368,
-              "value": "http://unipro.ru",
-              "raw": "\"http://unipro.ru\""
+              "value": "http://unipro.ru"
             }
           ],
           "optional": false
@@ -109,8 +105,7 @@
           "type": "Literal",
           "start": 374,
           "end": 398,
-          "value": "http%3A%2F%2Funipro.ru",
-          "raw": "\"http%3A%2F%2Funipro.ru\""
+          "value": "http%3A%2F%2Funipro.ru"
         }
       },
       "consequent": {
@@ -137,8 +132,7 @@
                   "type": "Literal",
                   "start": 427,
                   "end": 449,
-                  "value": "#2: http://unipro.ru",
-                  "raw": "'#2: http://unipro.ru'"
+                  "value": "#2: http://unipro.ru"
                 }
               ]
             }
@@ -170,8 +164,7 @@
               "type": "Literal",
               "start": 488,
               "end": 570,
-              "value": "http://www.google.ru/support/jobs/bin/static.py?page=why-ru.html&sid=liveandwork",
-              "raw": "\"http://www.google.ru/support/jobs/bin/static.py?page=why-ru.html&sid=liveandwork\""
+              "value": "http://www.google.ru/support/jobs/bin/static.py?page=why-ru.html&sid=liveandwork"
             }
           ],
           "optional": false
@@ -181,8 +174,7 @@
           "type": "Literal",
           "start": 576,
           "end": 680,
-          "value": "http%3A%2F%2Fwww.google.ru%2Fsupport%2Fjobs%2Fbin%2Fstatic.py%3Fpage%3Dwhy-ru.html%26sid%3Dliveandwork",
-          "raw": "\"http%3A%2F%2Fwww.google.ru%2Fsupport%2Fjobs%2Fbin%2Fstatic.py%3Fpage%3Dwhy-ru.html%26sid%3Dliveandwork\""
+          "value": "http%3A%2F%2Fwww.google.ru%2Fsupport%2Fjobs%2Fbin%2Fstatic.py%3Fpage%3Dwhy-ru.html%26sid%3Dliveandwork"
         }
       },
       "consequent": {
@@ -209,8 +201,7 @@
                   "type": "Literal",
                   "start": 709,
                   "end": 796,
-                  "value": "#3: http://www.google.ru/support/jobs/bin/static.py?page=why-ru.html&sid=liveandwork\"",
-                  "raw": "'#3: http://www.google.ru/support/jobs/bin/static.py?page=why-ru.html&sid=liveandwork\"'"
+                  "value": "#3: http://www.google.ru/support/jobs/bin/static.py?page=why-ru.html&sid=liveandwork\""
                 }
               ]
             }
@@ -242,8 +233,7 @@
               "type": "Literal",
               "start": 835,
               "end": 883,
-              "value": "http://en.wikipedia.org/wiki/UTF-8#Description",
-              "raw": "\"http://en.wikipedia.org/wiki/UTF-8#Description\""
+              "value": "http://en.wikipedia.org/wiki/UTF-8#Description"
             }
           ],
           "optional": false
@@ -253,8 +243,7 @@
           "type": "Literal",
           "start": 889,
           "end": 949,
-          "value": "http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUTF-8%23Description",
-          "raw": "\"http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUTF-8%23Description\""
+          "value": "http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUTF-8%23Description"
         }
       },
       "consequent": {
@@ -281,8 +270,7 @@
                   "type": "Literal",
                   "start": 978,
                   "end": 1030,
-                  "value": "#4: http://en.wikipedia.org/wiki/UTF-8#Description",
-                  "raw": "'#4: http://en.wikipedia.org/wiki/UTF-8#Description'"
+                  "value": "#4: http://en.wikipedia.org/wiki/UTF-8#Description"
                 }
               ]
             }

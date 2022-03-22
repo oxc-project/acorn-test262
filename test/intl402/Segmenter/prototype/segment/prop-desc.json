@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 945,
             "end": 955,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 959,
             "end": 1012,
-            "value": "typeof Intl.Segmenter.prototype.segment is function",
-            "raw": "\"typeof Intl.Segmenter.prototype.segment is function\""
+            "value": "typeof Intl.Segmenter.prototype.segment is function"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 1058,
             "end": 1067,
-            "value": "segment",
-            "raw": "\"segment\""
+            "value": "segment"
           },
           {
             "type": "ObjectExpression",

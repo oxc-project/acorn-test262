@@ -139,8 +139,7 @@
             "type": "Literal",
             "start": 491,
             "end": 500,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           }
         ],
         "optional": false

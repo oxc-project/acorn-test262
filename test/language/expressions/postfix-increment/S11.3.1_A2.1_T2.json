@@ -53,8 +53,7 @@
                     "type": "Literal",
                     "start": 319,
                     "end": 361,
-                    "value": "#1.1: x++ throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x++ throw ReferenceError. Actual: '"
+                    "value": "#1.1: x++ throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -164,8 +163,7 @@
                             "type": "Literal",
                             "start": 463,
                             "end": 505,
-                            "value": "#1.2: x++ throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x++ throw ReferenceError. Actual: '"
+                            "value": "#1.2: x++ throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 390,
                     "end": 394,
-                    "value": 1001,
-                    "raw": "1001"
+                    "value": 1001
                   }
                 }
               ]
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 427,
             "end": 433,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -257,8 +255,7 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 571,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -316,8 +313,7 @@
                 "type": "Literal",
                 "start": 622,
                 "end": 628,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -399,15 +395,13 @@
                   "type": "Literal",
                   "start": 678,
                   "end": 684,
-                  "value": "prop",
-                  "raw": "\"prop\""
+                  "value": "prop"
                 },
                 {
                   "type": "Literal",
                   "start": 686,
                   "end": 689,
-                  "value": "p",
-                  "raw": "'p'"
+                  "value": "p"
                 }
               ],
               "optional": false
@@ -441,8 +435,7 @@
             "type": "Literal",
             "start": 725,
             "end": 757,
-            "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "value": "propertyDefineCorrect !== true"
           }
         ],
         "optional": false
@@ -506,8 +499,7 @@
             "type": "Literal",
             "start": 801,
             "end": 818,
-            "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "value": "desc.enumerable"
           }
         ],
         "optional": false

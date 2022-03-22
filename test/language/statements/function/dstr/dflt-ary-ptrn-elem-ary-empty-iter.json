@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1836,
             "end": 1837,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1856,
             "end": 1857,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -125,8 +123,7 @@
                               "type": "Literal",
                               "start": 1902,
                               "end": 1903,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         }
@@ -153,8 +150,7 @@
                     "type": "Literal",
                     "start": 1914,
                     "end": 1916,
-                    "value": 23,
-                    "raw": "23"
+                    "value": 23
                   }
                 ]
               }
@@ -205,8 +201,7 @@
                   "type": "Literal",
                   "start": 1952,
                   "end": 1953,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               ],
               "optional": false
@@ -242,8 +237,7 @@
                   "type": "Literal",
                   "start": 1982,
                   "end": 1983,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -312,15 +306,13 @@
             "type": "Literal",
             "start": 2021,
             "end": 2022,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2024,
             "end": 2055,
-            "value": "function invoked exactly once",
-            "raw": "'function invoked exactly once'"
+            "value": "function invoked exactly once"
           }
         ],
         "optional": false

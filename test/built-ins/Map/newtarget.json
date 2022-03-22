@@ -118,8 +118,7 @@
             "type": "Literal",
             "start": 557,
             "end": 610,
-            "value": "`Object.getPrototypeOf(m1)` returns `Map.prototype`",
-            "raw": "\"`Object.getPrototypeOf(m1)` returns `Map.prototype`\""
+            "value": "`Object.getPrototypeOf(m1)` returns `Map.prototype`"
           }
         ],
         "optional": false
@@ -165,15 +164,13 @@
                         "type": "Literal",
                         "start": 637,
                         "end": 638,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 640,
                         "end": 641,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ]
                   },
@@ -186,15 +183,13 @@
                         "type": "Literal",
                         "start": 647,
                         "end": 648,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 650,
                         "end": 651,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     ]
                   }
@@ -290,8 +285,7 @@
             "type": "Literal",
             "start": 724,
             "end": 777,
-            "value": "`Object.getPrototypeOf(m2)` returns `Map.prototype`",
-            "raw": "\"`Object.getPrototypeOf(m2)` returns `Map.prototype`\""
+            "value": "`Object.getPrototypeOf(m2)` returns `Map.prototype`"
           }
         ],
         "optional": false

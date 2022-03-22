@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 291,
             "end": 305,
-            "value": "Hello World!",
-            "raw": "\"Hello World!\""
+            "value": "Hello World!"
           }
         }
       ],
@@ -59,8 +58,7 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 346,
-                "value": "World",
-                "raw": "\"World\""
+                "value": "World"
               }
             ]
           }
@@ -171,8 +169,7 @@
             "type": "Literal",
             "start": 426,
             "end": 433,
-            "value": "World",
-            "raw": "\"World\""
+            "value": "World"
           }
         }
       }
@@ -202,8 +199,7 @@
             "type": "Literal",
             "start": 451,
             "end": 468,
-            "value": "result !== true",
-            "raw": "'result !== true'"
+            "value": "result !== true"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 354,
             "end": 360,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 374,
             "end": 380,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -445,8 +443,7 @@
                 "type": "Literal",
                 "start": 689,
                 "end": 695,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -487,8 +484,7 @@
           "type": "Literal",
           "start": 713,
           "end": 727,
-          "value": "overrideData",
-          "raw": "\"overrideData\""
+          "value": "overrideData"
         }
       }
     },
@@ -517,8 +513,7 @@
             "type": "Literal",
             "start": 750,
             "end": 772,
-            "value": "hasProperty !== true",
-            "raw": "'hasProperty !== true'"
+            "value": "hasProperty !== true"
           }
         ],
         "optional": false
@@ -562,15 +557,13 @@
             "type": "Literal",
             "start": 799,
             "end": 813,
-            "value": "overrideData",
-            "raw": "\"overrideData\""
+            "value": "overrideData"
           },
           {
             "type": "Literal",
             "start": 815,
             "end": 822,
-            "value": "data1",
-            "raw": "'data1'"
+            "value": "data1"
           }
         ],
         "optional": false
@@ -614,15 +607,13 @@
             "type": "Literal",
             "start": 849,
             "end": 855,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 864,
-            "value": "data2",
-            "raw": "'data2'"
+            "value": "data2"
           }
         ],
         "optional": false

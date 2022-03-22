@@ -205,8 +205,7 @@
             "type": "Literal",
             "start": 527,
             "end": 533,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           },
           {
             "type": "ObjectExpression",
@@ -311,15 +310,13 @@
                 "type": "Literal",
                 "start": 603,
                 "end": 609,
-                "value": "attr",
-                "raw": "\"attr\""
+                "value": "attr"
               },
               {
                 "type": "Literal",
                 "start": 611,
                 "end": 616,
-                "value": "bar",
-                "raw": "\"bar\""
+                "value": "bar"
               }
             ],
             "optional": false

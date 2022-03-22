@@ -156,8 +156,7 @@
             "type": "Literal",
             "start": 577,
             "end": 619,
-            "value": "String(obj) throws a TypeError exception",
-            "raw": "'String(obj) throws a TypeError exception'"
+            "value": "String(obj) throws a TypeError exception"
           }
         ],
         "optional": false

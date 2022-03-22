@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 278,
                 "end": 283,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               }
             ],
             "optional": false
@@ -95,15 +94,13 @@
             "type": "Literal",
             "start": 286,
             "end": 291,
-            "value": "abc",
-            "raw": "\"abc\""
+            "value": "abc"
           },
           {
             "type": "Literal",
             "start": 293,
             "end": 328,
-            "value": "String.prototype.trim.call(\"abc\")",
-            "raw": "'String.prototype.trim.call(\"abc\")'"
+            "value": "String.prototype.trim.call(\"abc\")"
           }
         ],
         "optional": false

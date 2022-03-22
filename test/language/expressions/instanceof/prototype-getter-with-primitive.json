@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 858,
             "end": 869,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",
@@ -108,8 +107,7 @@
                               "type": "Literal",
                               "start": 920,
                               "end": 951,
-                              "value": "getter for 'prototype' called",
-                              "raw": "\"getter for 'prototype' called\""
+                              "value": "getter for 'prototype' called"
                             }
                           ]
                         }
@@ -148,8 +146,7 @@
               "type": "Literal",
               "start": 976,
               "end": 977,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "instanceof",
             "right": {

@@ -52,8 +52,7 @@
                   "type": "Literal",
                   "start": 322,
                   "end": 327,
-                  "value": "UTC",
-                  "raw": "'UTC'"
+                  "value": "UTC"
                 }
               ],
               "optional": false
@@ -63,8 +62,7 @@
             "type": "Literal",
             "start": 332,
             "end": 405,
-            "value": "The value of !Date.propertyIsEnumerable('UTC') is expected to be true",
-            "raw": "'The value of !Date.propertyIsEnumerable(\\'UTC\\') is expected to be true'"
+            "value": "The value of !Date.propertyIsEnumerable('UTC') is expected to be true"
           }
         ],
         "optional": false
@@ -143,15 +141,13 @@
                   "type": "Literal",
                   "start": 457,
                   "end": 462,
-                  "value": "UTC",
-                  "raw": "\"UTC\""
+                  "value": "UTC"
                 },
                 {
                   "type": "Literal",
                   "start": 464,
                   "end": 493,
-                  "value": "The value of x is not \"UTC\"",
-                  "raw": "'The value of x is not \"UTC\"'"
+                  "value": "The value of x is not \"UTC\""
                 }
               ],
               "optional": false

@@ -93,8 +93,7 @@
             "type": "Literal",
             "start": 925,
             "end": 944,
-            "value": "[Symbol.iterator]",
-            "raw": "'[Symbol.iterator]'"
+            "value": "[Symbol.iterator]"
           }
         ],
         "optional": false
@@ -164,8 +163,7 @@
             "type": "Literal",
             "start": 1003,
             "end": 1009,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
             "type": "Literal",
             "start": 1065,
             "end": 1071,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -306,8 +303,7 @@
             "type": "Literal",
             "start": 1128,
             "end": 1134,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

@@ -67,8 +67,7 @@
                         "type": "Literal",
                         "start": 361,
                         "end": 363,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",

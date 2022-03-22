@@ -107,22 +107,19 @@
                             "type": "Literal",
                             "start": 380,
                             "end": 381,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 383,
                             "end": 384,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           },
                           {
                             "type": "Literal",
                             "start": 386,
                             "end": 387,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           }
                         ]
                       },
@@ -181,8 +178,7 @@
                 "type": "Literal",
                 "start": 438,
                 "end": 448,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -278,8 +274,7 @@
                 "type": "Literal",
                 "start": 510,
                 "end": 520,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -295,8 +290,7 @@
             "type": "Literal",
             "start": 530,
             "end": 562,
-            "value": "obj.hasOwnProperty(\"property\")",
-            "raw": "'obj.hasOwnProperty(\"property\")'"
+            "value": "obj.hasOwnProperty(\"property\")"
           }
         ],
         "optional": false
@@ -327,8 +321,7 @@
             "type": "Literal",
             "start": 588,
             "end": 613,
-            "value": "hadOwnProperty !== true",
-            "raw": "'hadOwnProperty !== true'"
+            "value": "hadOwnProperty !== true"
           }
         ],
         "optional": false

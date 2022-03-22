@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 553,
             "end": 562,
-            "value": "Promise",
-            "raw": "'Promise'"
+            "value": "Promise"
           }
         ],
         "optional": false

@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 367,
-                "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "value": "2019-10-01T09:00:00Z"
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 398,
-                "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "value": "2019-10-01T09:00:00Z[UTC]"
               }
             ]
           }
@@ -86,64 +84,55 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 451,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 453,
                 "end": 454,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 457,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 459,
                 "end": 461,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 463,
                 "end": 465,
-                "value": 34,
-                "raw": "34"
+                "value": 34
               },
               {
                 "type": "Literal",
                 "start": 467,
                 "end": 469,
-                "value": 56,
-                "raw": "56"
+                "value": 56
               },
               {
                 "type": "Literal",
                 "start": 471,
                 "end": 474,
-                "value": 987,
-                "raw": "987"
+                "value": 987
               },
               {
                 "type": "Literal",
                 "start": 476,
                 "end": 479,
-                "value": 654,
-                "raw": "654"
+                "value": 654
               },
               {
                 "type": "Literal",
                 "start": 481,
                 "end": 484,
-                "value": 321,
-                "raw": "321"
+                "value": 321
               }
             ]
           }
@@ -281,8 +270,7 @@
                         "type": "Literal",
                         "start": 590,
                         "end": 657,
-                        "value": "String with UTC designator should not be valid as a PlainDateTime",
-                        "raw": "\"String with UTC designator should not be valid as a PlainDateTime\""
+                        "value": "String with UTC designator should not be valid as a PlainDateTime"
                       }
                     ],
                     "optional": false

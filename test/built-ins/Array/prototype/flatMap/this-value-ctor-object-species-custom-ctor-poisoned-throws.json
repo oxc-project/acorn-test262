@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 1188,
             "end": 1198,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -179,8 +178,7 @@
             "type": "Literal",
             "start": 1272,
             "end": 1273,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -205,8 +203,7 @@
             "type": "Literal",
             "start": 1292,
             "end": 1293,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -293,8 +290,7 @@
                   "type": "Literal",
                   "start": 1353,
                   "end": 1376,
-                  "value": "new target is defined",
-                  "raw": "'new target is defined'"
+                  "value": "new target is defined"
                 }
               ],
               "optional": false
@@ -338,15 +334,13 @@
                   "type": "Literal",
                   "start": 1403,
                   "end": 1404,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 1406,
                   "end": 1434,
-                  "value": "first argument is always 0",
-                  "raw": "'first argument is always 0'"
+                  "value": "first argument is always 0"
                 }
               ],
               "optional": false
@@ -594,8 +588,7 @@
             "type": "Literal",
             "start": 1638,
             "end": 1689,
-            "value": "Return abrupt completion from species custom ctor",
-            "raw": "'Return abrupt completion from species custom ctor'"
+            "value": "Return abrupt completion from species custom ctor"
           }
         ],
         "optional": false
@@ -639,15 +632,13 @@
             "type": "Literal",
             "start": 1717,
             "end": 1718,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1720,
             "end": 1738,
-            "value": "got species once",
-            "raw": "'got species once'"
+            "value": "got species once"
           }
         ],
         "optional": false
@@ -691,15 +682,13 @@
             "type": "Literal",
             "start": 1770,
             "end": 1771,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1773,
             "end": 1798,
-            "value": "called custom ctor once",
-            "raw": "'called custom ctor once'"
+            "value": "called custom ctor once"
           }
         ],
         "optional": false

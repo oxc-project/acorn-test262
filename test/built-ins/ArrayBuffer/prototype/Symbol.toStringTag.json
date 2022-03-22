@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 591,
             "end": 604,
-            "value": "ArrayBuffer",
-            "raw": "'ArrayBuffer'"
+            "value": "ArrayBuffer"
           }
         ],
         "optional": false

@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 640,
             "end": 650,
-            "value": "subarray",
-            "raw": "'subarray'"
+            "value": "subarray"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
             "type": "Literal",
             "start": 689,
             "end": 699,
-            "value": "subarray",
-            "raw": "'subarray'"
+            "value": "subarray"
           }
         ],
         "optional": false
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 742,
             "end": 752,
-            "value": "subarray",
-            "raw": "'subarray'"
+            "value": "subarray"
           }
         ],
         "optional": false

@@ -129,8 +129,7 @@
             "type": "Literal",
             "start": 483,
             "end": 540,
-            "value": "The value of err is expected to not equal ``undefined``",
-            "raw": "'The value of err is expected to not equal ``undefined``'"
+            "value": "The value of err is expected to not equal ``undefined``"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 584,
             "end": 654,
-            "value": "The value of err.constructor is expected to equal the value of Error",
-            "raw": "'The value of err.constructor is expected to equal the value of Error'"
+            "value": "The value of err.constructor is expected to equal the value of Error"
           }
         ],
         "optional": false
@@ -265,8 +263,7 @@
             "type": "Literal",
             "start": 700,
             "end": 753,
-            "value": "Error.prototype.isPrototypeOf(err) must return true",
-            "raw": "'Error.prototype.isPrototypeOf(err) must return true'"
+            "value": "Error.prototype.isPrototypeOf(err) must return true"
           }
         ],
         "optional": false
@@ -405,15 +402,13 @@
             "type": "Literal",
             "start": 1016,
             "end": 1032,
-            "value": "[object Error]",
-            "raw": "'[object Error]'"
+            "value": "[object Error]"
           },
           {
             "type": "Literal",
             "start": 1034,
             "end": 1079,
-            "value": "err.toString() must return \"[object Error]\"",
-            "raw": "'err.toString() must return \"[object Error]\"'"
+            "value": "err.toString() must return \"[object Error]\""
           }
         ],
         "optional": false
@@ -497,15 +492,13 @@
             "type": "Literal",
             "start": 1125,
             "end": 1141,
-            "value": "[object Error]",
-            "raw": "'[object Error]'"
+            "value": "[object Error]"
           },
           {
             "type": "Literal",
             "start": 1143,
             "end": 1198,
-            "value": "err.valueOf().toString() must return \"[object Error]\"",
-            "raw": "'err.valueOf().toString() must return \"[object Error]\"'"
+            "value": "err.valueOf().toString() must return \"[object Error]\""
           }
         ],
         "optional": false

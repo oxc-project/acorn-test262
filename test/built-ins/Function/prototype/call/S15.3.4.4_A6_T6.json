@@ -49,15 +49,13 @@
                       "type": "Literal",
                       "start": 483,
                       "end": 493,
-                      "value": "a1,a2,a3",
-                      "raw": "\"a1,a2,a3\""
+                      "value": "a1,a2,a3"
                     },
                     {
                       "type": "Literal",
                       "start": 495,
                       "end": 526,
-                      "value": "this.shifted=a1.length+a2+a3;",
-                      "raw": "\"this.shifted=a1.length+a2+a3;\""
+                      "value": "this.shifted=a1.length+a2+a3;"
                     }
                   ],
                   "optional": false
@@ -87,15 +85,13 @@
                   "type": "Literal",
                   "start": 550,
                   "end": 552,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 },
                 {
                   "type": "Literal",
                   "start": 554,
                   "end": 555,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               ],
               "optional": false
@@ -134,29 +130,25 @@
                 "type": "Literal",
                 "start": 583,
                 "end": 585,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 587,
                 "end": 588,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 590,
                 "end": 591,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 593,
                 "end": 596,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             ]
           }
@@ -206,8 +198,7 @@
               "type": "Literal",
               "start": 621,
               "end": 630,
-              "value": "shifted",
-              "raw": "\"shifted\""
+              "value": "shifted"
             },
             "computed": true,
             "optional": false
@@ -216,15 +207,13 @@
             "type": "Literal",
             "start": 633,
             "end": 637,
-            "value": "42",
-            "raw": "\"42\""
+            "value": "42"
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 691,
-            "value": "The value of obj[\"shifted\"] is expected to be \"42\"",
-            "raw": "'The value of obj[\"shifted\"] is expected to be \"42\"'"
+            "value": "The value of obj[\"shifted\"] is expected to be \"42\""
           }
         ],
         "optional": false
@@ -277,8 +266,7 @@
                 "type": "Literal",
                 "start": 727,
                 "end": 736,
-                "value": "shifted",
-                "raw": "\"shifted\""
+                "value": "shifted"
               },
               "computed": true,
               "optional": false
@@ -288,15 +276,13 @@
             "type": "Literal",
             "start": 741,
             "end": 752,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 825,
-            "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof this[\"shifted\"]` is expected to be \"undefined\"'"
+            "value": "The value of `typeof this[\"shifted\"]` is expected to be \"undefined\""
           }
         ],
         "optional": false

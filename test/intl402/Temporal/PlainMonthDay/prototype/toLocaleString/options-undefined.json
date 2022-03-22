@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 335,
                 "end": 339,
-                "value": "en",
-                "raw": "'en'"
+                "value": "en"
               },
               {
                 "type": "CallExpression",
@@ -199,15 +198,13 @@
                 "type": "Literal",
                 "start": 464,
                 "end": 465,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 467,
                 "end": 468,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -316,8 +313,7 @@
                 "type": "Literal",
                 "start": 581,
                 "end": 585,
-                "value": "en",
-                "raw": "'en'"
+                "value": "en"
               },
               {
                 "type": "Identifier",
@@ -376,8 +372,7 @@
             "type": "Literal",
             "start": 642,
             "end": 695,
-            "value": "default locale is determined by Intl.DateTimeFormat",
-            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
+            "value": "default locale is determined by Intl.DateTimeFormat"
           }
         ],
         "optional": false
@@ -426,8 +421,7 @@
                 "type": "Literal",
                 "start": 746,
                 "end": 750,
-                "value": "en",
-                "raw": "'en'"
+                "value": "en"
               }
             ],
             "optional": false
@@ -480,8 +474,7 @@
             "type": "Literal",
             "start": 796,
             "end": 849,
-            "value": "default locale is determined by Intl.DateTimeFormat",
-            "raw": "\"default locale is determined by Intl.DateTimeFormat\""
+            "value": "default locale is determined by Intl.DateTimeFormat"
           }
         ],
         "optional": false

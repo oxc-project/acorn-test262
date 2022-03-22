@@ -40,8 +40,7 @@
             "type": "Literal",
             "start": 305,
             "end": 320,
-            "value": "Symbol exists",
-            "raw": "\"Symbol exists\""
+            "value": "Symbol exists"
           }
         ],
         "optional": false
@@ -97,8 +96,7 @@
             "type": "Literal",
             "start": 360,
             "end": 383,
-            "value": "Symbol.species exists",
-            "raw": "\"Symbol.species exists\""
+            "value": "Symbol.species exists"
           }
         ],
         "optional": false
@@ -129,8 +127,7 @@
             "type": "Literal",
             "start": 413,
             "end": 422,
-            "value": "species",
-            "raw": "\"species\""
+            "value": "species"
           }
         ],
         "optional": false
@@ -161,8 +158,7 @@
             "type": "Literal",
             "start": 453,
             "end": 462,
-            "value": "species",
-            "raw": "\"species\""
+            "value": "species"
           }
         ],
         "optional": false
@@ -193,8 +189,7 @@
             "type": "Literal",
             "start": 495,
             "end": 504,
-            "value": "species",
-            "raw": "\"species\""
+            "value": "species"
           }
         ],
         "optional": false

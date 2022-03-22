@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 292,
             "end": 302,
-            "value": "AB\n\\cd",
-            "raw": "\"AB\\n\\\\cd\""
+            "value": "AB\n\\cd"
           },
           {
             "type": "ObjectExpression",
@@ -122,8 +121,7 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 346,
-                "value": "AB\n\\cd",
-                "raw": "\"AB\\n\\\\cd\""
+                "value": "AB\n\\cd"
               }
             ],
             "optional": false
@@ -132,8 +130,7 @@
             "type": "Literal",
             "start": 349,
             "end": 390,
-            "value": "obj.hasOwnProperty(\"AB\n\\cd\") !== true",
-            "raw": "'obj.hasOwnProperty(\"AB\\n\\\\cd\") !== true'"
+            "value": "obj.hasOwnProperty(\"AB\n\\cd\") !== true"
           }
         ],
         "optional": false

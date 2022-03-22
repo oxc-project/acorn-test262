@@ -185,8 +185,7 @@
                                                   "type": "Literal",
                                                   "start": 1007,
                                                   "end": 1033,
-                                                  "value": "should only advance once",
-                                                  "raw": "'should only advance once'"
+                                                  "value": "should only advance once"
                                                 }
                                               ]
                                             }
@@ -267,8 +266,7 @@
                                               "type": "Literal",
                                               "start": 1128,
                                               "end": 1132,
-                                              "value": "ab",
-                                              "raw": "'ab'"
+                                              "value": "ab"
                                             },
                                             "kind": "init"
                                           }
@@ -341,8 +339,7 @@
                                                   "type": "Literal",
                                                   "start": 1238,
                                                   "end": 1263,
-                                                  "value": "should only return once",
-                                                  "raw": "'should only return once'"
+                                                  "value": "should only return once"
                                                 }
                                               ]
                                             }
@@ -452,8 +449,7 @@
             "type": "Literal",
             "start": 1370,
             "end": 1380,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -577,8 +573,7 @@
             "type": "Literal",
             "start": 1475,
             "end": 1525,
-            "value": "iterator should be closed when entry is a string",
-            "raw": "'iterator should be closed when entry is a string'"
+            "value": "iterator should be closed when entry is a string"
           }
         ],
         "optional": false

@@ -31,7 +31,6 @@
                 "start": 576,
                 "end": 592,
                 "value": {},
-                "raw": "/\\d{3}|[a-z]{4}/",
                 "regex": {
                   "pattern": "\\d{3}|[a-z]{4}",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 598,
                 "end": 623,
-                "value": "2, 12 and 23 AND 0.00.1",
-                "raw": "\"2, 12 and 23 AND 0.00.1\""
+                "value": "2, 12 and 23 AND 0.00.1"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 647,
             "end": 696,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

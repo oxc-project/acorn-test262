@@ -22,15 +22,13 @@
             "type": "Literal",
             "start": 370,
             "end": 376,
-            "value": "eval",
-            "raw": "'eval'"
+            "value": "eval"
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 387,
-            "value": "return;",
-            "raw": "'return;'"
+            "value": "return;"
           }
         ],
         "optional": false

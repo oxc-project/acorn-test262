@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 527,
                               "end": 535,
-                              "value": 43392,
-                              "raw": "0x00A980"
+                              "value": 43392
                             },
                             {
                               "type": "Literal",
                               "start": 537,
                               "end": 545,
-                              "value": 43469,
-                              "raw": "0x00A9CD"
+                              "value": 43469
                             }
                           ]
                         },
@@ -103,15 +101,13 @@
                               "type": "Literal",
                               "start": 553,
                               "end": 561,
-                              "value": 43472,
-                              "raw": "0x00A9D0"
+                              "value": 43472
                             },
                             {
                               "type": "Literal",
                               "start": 563,
                               "end": 571,
-                              "value": 43481,
-                              "raw": "0x00A9D9"
+                              "value": 43481
                             }
                           ]
                         },
@@ -124,15 +120,13 @@
                               "type": "Literal",
                               "start": 579,
                               "end": 587,
-                              "value": 43486,
-                              "raw": "0x00A9DE"
+                              "value": 43486
                             },
                             {
                               "type": "Literal",
                               "start": 589,
                               "end": 597,
-                              "value": 43487,
-                              "raw": "0x00A9DF"
+                              "value": 43487
                             }
                           ]
                         }
@@ -169,7 +163,6 @@
             "start": 630,
             "end": 655,
             "value": {},
-            "raw": "/^\\p{Script=Javanese}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Javanese}+$",
               "flags": "u"
@@ -185,8 +178,7 @@
             "type": "Literal",
             "start": 675,
             "end": 697,
-            "value": "\\p{Script=Javanese}",
-            "raw": "\"\\\\p{Script=Javanese}\""
+            "value": "\\p{Script=Javanese}"
           }
         ],
         "optional": false
@@ -212,7 +204,6 @@
             "start": 724,
             "end": 745,
             "value": {},
-            "raw": "/^\\p{Script=Java}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Java}+$",
               "flags": "u"
@@ -228,8 +219,7 @@
             "type": "Literal",
             "start": 765,
             "end": 783,
-            "value": "\\p{Script=Java}",
-            "raw": "\"\\\\p{Script=Java}\""
+            "value": "\\p{Script=Java}"
           }
         ],
         "optional": false
@@ -255,7 +245,6 @@
             "start": 810,
             "end": 831,
             "value": {},
-            "raw": "/^\\p{sc=Javanese}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Javanese}+$",
               "flags": "u"
@@ -271,8 +260,7 @@
             "type": "Literal",
             "start": 851,
             "end": 869,
-            "value": "\\p{sc=Javanese}",
-            "raw": "\"\\\\p{sc=Javanese}\""
+            "value": "\\p{sc=Javanese}"
           }
         ],
         "optional": false
@@ -298,7 +286,6 @@
             "start": 896,
             "end": 913,
             "value": {},
-            "raw": "/^\\p{sc=Java}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Java}+$",
               "flags": "u"
@@ -314,8 +301,7 @@
             "type": "Literal",
             "start": 933,
             "end": 947,
-            "value": "\\p{sc=Java}",
-            "raw": "\"\\\\p{sc=Java}\""
+            "value": "\\p{sc=Java}"
           }
         ],
         "optional": false
@@ -400,15 +386,13 @@
                               "type": "Literal",
                               "start": 1029,
                               "end": 1037,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1039,
                               "end": 1047,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -421,15 +405,13 @@
                               "type": "Literal",
                               "start": 1055,
                               "end": 1063,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1065,
                               "end": 1073,
-                              "value": 43391,
-                              "raw": "0x00A97F"
+                              "value": 43391
                             }
                           ]
                         },
@@ -442,15 +424,13 @@
                               "type": "Literal",
                               "start": 1081,
                               "end": 1089,
-                              "value": 43470,
-                              "raw": "0x00A9CE"
+                              "value": 43470
                             },
                             {
                               "type": "Literal",
                               "start": 1091,
                               "end": 1099,
-                              "value": 43471,
-                              "raw": "0x00A9CF"
+                              "value": 43471
                             }
                           ]
                         },
@@ -463,15 +443,13 @@
                               "type": "Literal",
                               "start": 1107,
                               "end": 1115,
-                              "value": 43482,
-                              "raw": "0x00A9DA"
+                              "value": 43482
                             },
                             {
                               "type": "Literal",
                               "start": 1117,
                               "end": 1125,
-                              "value": 43485,
-                              "raw": "0x00A9DD"
+                              "value": 43485
                             }
                           ]
                         },
@@ -484,15 +462,13 @@
                               "type": "Literal",
                               "start": 1133,
                               "end": 1141,
-                              "value": 43488,
-                              "raw": "0x00A9E0"
+                              "value": 43488
                             },
                             {
                               "type": "Literal",
                               "start": 1143,
                               "end": 1151,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -505,15 +481,13 @@
                               "type": "Literal",
                               "start": 1159,
                               "end": 1167,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1169,
                               "end": 1177,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -550,7 +524,6 @@
             "start": 1210,
             "end": 1235,
             "value": {},
-            "raw": "/^\\P{Script=Javanese}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Javanese}+$",
               "flags": "u"
@@ -566,8 +539,7 @@
             "type": "Literal",
             "start": 1258,
             "end": 1280,
-            "value": "\\P{Script=Javanese}",
-            "raw": "\"\\\\P{Script=Javanese}\""
+            "value": "\\P{Script=Javanese}"
           }
         ],
         "optional": false
@@ -593,7 +565,6 @@
             "start": 1307,
             "end": 1328,
             "value": {},
-            "raw": "/^\\P{Script=Java}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Java}+$",
               "flags": "u"
@@ -609,8 +580,7 @@
             "type": "Literal",
             "start": 1351,
             "end": 1369,
-            "value": "\\P{Script=Java}",
-            "raw": "\"\\\\P{Script=Java}\""
+            "value": "\\P{Script=Java}"
           }
         ],
         "optional": false
@@ -636,7 +606,6 @@
             "start": 1396,
             "end": 1417,
             "value": {},
-            "raw": "/^\\P{sc=Javanese}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Javanese}+$",
               "flags": "u"
@@ -652,8 +621,7 @@
             "type": "Literal",
             "start": 1440,
             "end": 1458,
-            "value": "\\P{sc=Javanese}",
-            "raw": "\"\\\\P{sc=Javanese}\""
+            "value": "\\P{sc=Javanese}"
           }
         ],
         "optional": false
@@ -679,7 +647,6 @@
             "start": 1485,
             "end": 1502,
             "value": {},
-            "raw": "/^\\P{sc=Java}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Java}+$",
               "flags": "u"
@@ -695,8 +662,7 @@
             "type": "Literal",
             "start": 1525,
             "end": 1539,
-            "value": "\\P{sc=Java}",
-            "raw": "\"\\\\P{sc=Java}\""
+            "value": "\\P{sc=Java}"
           }
         ],
         "optional": false

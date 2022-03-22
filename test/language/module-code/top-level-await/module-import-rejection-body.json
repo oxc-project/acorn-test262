@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 2654,
         "end": 2697,
-        "value": "./module-import-rejection-body_FIXTURE.js",
-        "raw": "'./module-import-rejection-body_FIXTURE.js'"
+        "value": "./module-import-rejection-body_FIXTURE.js"
       }
     },
     {
@@ -47,8 +46,7 @@
             "type": "Literal",
             "start": 2723,
             "end": 2751,
-            "value": "this should be unreachable",
-            "raw": "'this should be unreachable'"
+            "value": "this should be unreachable"
           }
         ]
       }

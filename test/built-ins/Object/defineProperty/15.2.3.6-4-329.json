@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 407,
             "end": 413,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -91,8 +90,7 @@
                   "type": "Literal",
                   "start": 426,
                   "end": 430,
-                  "value": 2010,
-                  "raw": "2010"
+                  "value": 2010
                 },
                 "kind": "init"
               },
@@ -211,8 +209,7 @@
                 "type": "Literal",
                 "start": 542,
                 "end": 548,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -270,8 +267,7 @@
                 "type": "Literal",
                 "start": 600,
                 "end": 606,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -318,8 +314,7 @@
             "type": "Literal",
             "start": 637,
             "end": 643,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -403,8 +398,7 @@
                 "type": "Literal",
                 "start": 718,
                 "end": 724,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -438,8 +432,7 @@
             "type": "Literal",
             "start": 758,
             "end": 790,
-            "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "value": "propertyDefineCorrect !== true"
           }
         ],
         "optional": false
@@ -503,8 +496,7 @@
             "type": "Literal",
             "start": 832,
             "end": 848,
-            "value": "desc1.writable",
-            "raw": "'desc1.writable'"
+            "value": "desc1.writable"
           }
         ],
         "optional": false
@@ -561,15 +553,13 @@
             "type": "Literal",
             "start": 878,
             "end": 882,
-            "value": 2010,
-            "raw": "2010"
+            "value": 2010
           },
           {
             "type": "Literal",
             "start": 884,
             "end": 894,
-            "value": "obj.prop",
-            "raw": "'obj.prop'"
+            "value": "obj.prop"
           }
         ],
         "optional": false
@@ -633,8 +623,7 @@
             "type": "Literal",
             "start": 937,
             "end": 953,
-            "value": "desc2.writable",
-            "raw": "'desc2.writable'"
+            "value": "desc2.writable"
           }
         ],
         "optional": false

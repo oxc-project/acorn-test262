@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 726,
             "end": 729,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -73,8 +72,7 @@
                   "type": "Literal",
                   "start": 742,
                   "end": 745,
-                  "value": "x",
-                  "raw": "'x'"
+                  "value": "x"
                 },
                 "kind": "init"
               },
@@ -181,16 +179,14 @@
                   "type": "Literal",
                   "start": 820,
                   "end": 1057,
-                  "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });switch (1) {",
-                  "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: false\\\n  }, { restore: true });switch (1) {'"
+                  "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });switch (1) {"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1062,
                   "end": 1073,
-                  "value": "  case 1:",
-                  "raw": "'  case 1:'"
+                  "value": "  case 1:"
                 }
               },
               "operator": "+",
@@ -198,8 +194,7 @@
                 "type": "Literal",
                 "start": 1078,
                 "end": 1101,
-                "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
+                "value": "    function f() {  }"
               }
             },
             "operator": "+",
@@ -207,8 +202,7 @@
               "type": "Literal",
               "start": 1106,
               "end": 1113,
-              "value": "}  ",
-              "raw": "'}\\\n  '"
+              "value": "}  "
             }
           }
         ],
@@ -260,8 +254,7 @@
             "type": "Literal",
             "start": 1145,
             "end": 1155,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -292,8 +285,7 @@
             "type": "Literal",
             "start": 1181,
             "end": 1184,
-            "value": "f",
-            "raw": "\"f\""
+            "value": "f"
           },
           {
             "type": "ObjectExpression",

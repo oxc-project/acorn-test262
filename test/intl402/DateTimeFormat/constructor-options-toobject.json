@@ -66,8 +66,7 @@
                     "type": "Literal",
                     "start": 502,
                     "end": 504,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   },
                   {
                     "type": "NewExpression",
@@ -84,8 +83,7 @@
                         "type": "Literal",
                         "start": 517,
                         "end": 519,
-                        "value": 42,
-                        "raw": "42"
+                        "value": 42
                       }
                     ]
                   }
@@ -100,8 +98,7 @@
                     "type": "Literal",
                     "start": 526,
                     "end": 531,
-                    "value": "foo",
-                    "raw": "'foo'"
+                    "value": "foo"
                   },
                   {
                     "type": "NewExpression",
@@ -118,8 +115,7 @@
                         "type": "Literal",
                         "start": 544,
                         "end": 549,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ]
                   }
@@ -340,8 +336,7 @@
                                     "type": "Literal",
                                     "start": 771,
                                     "end": 778,
-                                    "value": "en-US",
-                                    "raw": "'en-US'"
+                                    "value": "en-US"
                                   }
                                 ]
                               },
@@ -425,8 +420,7 @@
                                     "type": "Literal",
                                     "start": 851,
                                     "end": 858,
-                                    "value": "en-US",
-                                    "raw": "'en-US'"
+                                    "value": "en-US"
                                   }
                                 ]
                               },
@@ -1027,8 +1021,7 @@
                       "type": "Literal",
                       "start": 1433,
                       "end": 1440,
-                      "value": "en-US",
-                      "raw": "'en-US'"
+                      "value": "en-US"
                     }
                   ]
                 },

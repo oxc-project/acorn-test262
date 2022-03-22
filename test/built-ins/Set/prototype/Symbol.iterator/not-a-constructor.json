@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 810,
             "end": 875,
-            "value": "isConstructor(Set.prototype[Symbol.iterator]) must return false",
-            "raw": "'isConstructor(Set.prototype[Symbol.iterator]) must return false'"
+            "value": "isConstructor(Set.prototype[Symbol.iterator]) must return false"
           }
         ],
         "optional": false
@@ -244,8 +243,7 @@
             "type": "Literal",
             "start": 965,
             "end": 1031,
-            "value": "`let s = new Set([]); new s[Symbol.iterator]()` throws TypeError",
-            "raw": "'`let s = new Set([]); new s[Symbol.iterator]()` throws TypeError'"
+            "value": "`let s = new Set([]); new s[Symbol.iterator]()` throws TypeError"
           }
         ],
         "optional": false

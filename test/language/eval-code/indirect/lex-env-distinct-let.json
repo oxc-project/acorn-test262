@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 486,
             "end": 488,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           }
         }
       ],
@@ -50,8 +49,7 @@
                 "type": "Literal",
                 "start": 492,
                 "end": 493,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -67,8 +65,7 @@
             "type": "Literal",
             "start": 500,
             "end": 514,
-            "value": "let outside;",
-            "raw": "'let outside;'"
+            "value": "let outside;"
           }
         ],
         "optional": false
@@ -95,8 +92,7 @@
                 "type": "Literal",
                 "start": 518,
                 "end": 519,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -112,8 +108,7 @@
             "type": "Literal",
             "start": 526,
             "end": 554,
-            "value": "\"use strict\"; let outside;",
-            "raw": "'\"use strict\"; let outside;'"
+            "value": "\"use strict\"; let outside;"
           }
         ],
         "optional": false
@@ -140,8 +135,7 @@
                 "type": "Literal",
                 "start": 559,
                 "end": 560,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -157,8 +151,7 @@
             "type": "Literal",
             "start": 567,
             "end": 588,
-            "value": "let xNonStrict = 3;",
-            "raw": "'let xNonStrict = 3;'"
+            "value": "let xNonStrict = 3;"
           }
         ],
         "optional": false
@@ -209,8 +202,7 @@
             "type": "Literal",
             "start": 628,
             "end": 639,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -303,8 +295,7 @@
                 "type": "Literal",
                 "start": 705,
                 "end": 706,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -320,8 +311,7 @@
             "type": "Literal",
             "start": 713,
             "end": 745,
-            "value": "\"use strict\"; let xStrict = 3;",
-            "raw": "'\"use strict\"; let xStrict = 3;'"
+            "value": "\"use strict\"; let xStrict = 3;"
           }
         ],
         "optional": false
@@ -372,8 +362,7 @@
             "type": "Literal",
             "start": 782,
             "end": 793,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false

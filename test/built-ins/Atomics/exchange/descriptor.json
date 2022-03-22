@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 307,
             "end": 317,
-            "value": "exchange",
-            "raw": "'exchange'"
+            "value": "exchange"
           },
           {
             "type": "ObjectExpression",

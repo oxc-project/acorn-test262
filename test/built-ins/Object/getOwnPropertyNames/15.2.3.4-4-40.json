@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 326,
                 "end": 331,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               }
             ]
           }
@@ -87,8 +86,7 @@
           "type": "Literal",
           "start": 368,
           "end": 381,
-          "value": "protoString",
-          "raw": "\"protoString\""
+          "value": "protoString"
         }
       }
     },
@@ -230,15 +228,13 @@
                   "type": "Literal",
                   "start": 488,
                   "end": 503,
-                  "value": "protoProperty",
-                  "raw": "\"protoProperty\""
+                  "value": "protoProperty"
                 },
                 {
                   "type": "Literal",
                   "start": 505,
                   "end": 516,
-                  "value": "result[p]",
-                  "raw": "'result[p]'"
+                  "value": "result[p]"
                 }
               ],
               "optional": false

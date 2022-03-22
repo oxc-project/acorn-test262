@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 800,
                   "end": 826,
-                  "value": "sl-t-sl-rozaj-biske-1994",
-                  "raw": "\"sl-t-sl-rozaj-biske-1994\""
+                  "value": "sl-t-sl-rozaj-biske-1994"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 828,
                   "end": 854,
-                  "value": "sl-t-sl-1994-biske-rozaj",
-                  "raw": "\"sl-t-sl-1994-biske-rozaj\""
+                  "value": "sl-t-sl-1994-biske-rozaj"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 952,
                   "end": 975,
-                  "value": "DE-T-M0-DIN-K0-QWERTZ",
-                  "raw": "\"DE-T-M0-DIN-K0-QWERTZ\""
+                  "value": "DE-T-M0-DIN-K0-QWERTZ"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 977,
                   "end": 1000,
-                  "value": "de-t-k0-qwertz-m0-din",
-                  "raw": "\"de-t-k0-qwertz-m0-din\""
+                  "value": "de-t-k0-qwertz-m0-din"
                 },
                 "kind": "init"
               },
@@ -80,15 +76,13 @@
                   "type": "Literal",
                   "start": 1180,
                   "end": 1194,
-                  "value": "en-t-m0-true",
-                  "raw": "\"en-t-m0-true\""
+                  "value": "en-t-m0-true"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1196,
                   "end": 1210,
-                  "value": "en-t-m0-true",
-                  "raw": "\"en-t-m0-true\""
+                  "value": "en-t-m0-true"
                 },
                 "kind": "init"
               },
@@ -103,15 +97,13 @@
                   "type": "Literal",
                   "start": 1253,
                   "end": 1262,
-                  "value": "en-t-iw",
-                  "raw": "\"en-t-iw\""
+                  "value": "en-t-iw"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1264,
                   "end": 1273,
-                  "value": "en-t-he",
-                  "raw": "\"en-t-he\""
+                  "value": "en-t-he"
                 },
                 "kind": "init"
               },
@@ -126,15 +118,13 @@
                   "type": "Literal",
                   "start": 1348,
                   "end": 1378,
-                  "value": "und-Latn-t-und-hani-m0-names",
-                  "raw": "\"und-Latn-t-und-hani-m0-names\""
+                  "value": "und-Latn-t-und-hani-m0-names"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1380,
                   "end": 1413,
-                  "value": "und-Latn-t-und-hani-m0-prprname",
-                  "raw": "\"und-Latn-t-und-hani-m0-prprname\""
+                  "value": "und-Latn-t-und-hani-m0-prprname"
                 },
                 "kind": "init"
               }
@@ -267,8 +257,7 @@
                       "type": "Literal",
                       "start": 1591,
                       "end": 1595,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -283,8 +272,7 @@
                     "type": "Literal",
                     "start": 1610,
                     "end": 1666,
-                    "value": "\" is a canonical and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                    "value": "\" is a canonical and structurally valid language tag."
                   }
                 }
               ],
@@ -394,8 +382,7 @@
                   "type": "Literal",
                   "start": 1750,
                   "end": 1751,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -443,8 +430,7 @@
                     "type": "Literal",
                     "start": 1780,
                     "end": 1781,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false

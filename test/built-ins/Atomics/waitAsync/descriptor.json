@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 540,
             "end": 551,
-            "value": "waitAsync",
-            "raw": "'waitAsync'"
+            "value": "waitAsync"
           },
           {
             "type": "ObjectExpression",

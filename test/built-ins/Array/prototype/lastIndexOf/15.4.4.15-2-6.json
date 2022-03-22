@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 327,
                   "end": 328,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               }
@@ -176,8 +175,7 @@
             "type": "Literal",
             "start": 411,
             "end": 412,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -186,8 +184,7 @@
           "type": "Literal",
           "start": 416,
           "end": 419,
-          "value": "x",
-          "raw": "\"x\""
+          "value": "x"
         }
       }
     },
@@ -214,8 +211,7 @@
             "type": "Literal",
             "start": 427,
             "end": 428,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -224,8 +220,7 @@
           "type": "Literal",
           "start": 432,
           "end": 435,
-          "value": "y",
-          "raw": "\"y\""
+          "value": "y"
         }
       }
     },
@@ -317,8 +312,7 @@
                 "type": "Literal",
                 "start": 495,
                 "end": 498,
-                "value": "x",
-                "raw": "\"x\""
+                "value": "x"
               }
             ],
             "optional": false
@@ -327,15 +321,13 @@
             "type": "Literal",
             "start": 501,
             "end": 502,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 550,
-            "value": "Array.prototype.lastIndexOf.call(child, \"x\")",
-            "raw": "'Array.prototype.lastIndexOf.call(child, \"x\")'"
+            "value": "Array.prototype.lastIndexOf.call(child, \"x\")"
           }
         ],
         "optional": false
@@ -429,8 +421,7 @@
                 "type": "Literal",
                 "start": 610,
                 "end": 613,
-                "value": "y",
-                "raw": "\"y\""
+                "value": "y"
               }
             ],
             "optional": false
@@ -445,16 +436,14 @@
               "type": "Literal",
               "start": 617,
               "end": 618,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 620,
             "end": 666,
-            "value": "Array.prototype.lastIndexOf.call(child, \"y\")",
-            "raw": "'Array.prototype.lastIndexOf.call(child, \"y\")'"
+            "value": "Array.prototype.lastIndexOf.call(child, \"y\")"
           }
         ],
         "optional": false

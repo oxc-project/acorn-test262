@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 294,
             "end": 312,
-            "value": "2021-08-19T17:30",
-            "raw": "\"2021-08-19T17:30\""
+            "value": "2021-08-19T17:30"
           }
         }
       ],
@@ -113,8 +112,7 @@
                   "type": "Literal",
                   "start": 373,
                   "end": 382,
-                  "value": "iso8601",
-                  "raw": "\"iso8601\""
+                  "value": "iso8601"
                 },
                 {
                   "type": "Identifier",
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 395,
             "end": 437,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -221,8 +218,7 @@
                   "type": "Literal",
                   "start": 499,
                   "end": 508,
-                  "value": "iso8601",
-                  "raw": "\"iso8601\""
+                  "value": "iso8601"
                 },
                 {
                   "type": "ObjectExpression",
@@ -260,8 +256,7 @@
             "type": "Literal",
             "start": 525,
             "end": 567,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -286,8 +281,7 @@
           "type": "Literal",
           "start": 582,
           "end": 601,
-          "value": "2021-08-19T17:30Z",
-          "raw": "\"2021-08-19T17:30Z\""
+          "value": "2021-08-19T17:30Z"
         }
       }
     },
@@ -347,8 +341,7 @@
                 "type": "Literal",
                 "start": 646,
                 "end": 655,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Identifier",
@@ -427,15 +420,13 @@
             "type": "Literal",
             "start": 706,
             "end": 711,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 713,
             "end": 745,
-            "value": "date-time + Z is UTC time zone",
-            "raw": "\"date-time + Z is UTC time zone\""
+            "value": "date-time + Z is UTC time zone"
           }
         ],
         "optional": false
@@ -497,8 +488,7 @@
                 "type": "Literal",
                 "start": 791,
                 "end": 800,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "ObjectExpression",
@@ -599,15 +589,13 @@
             "type": "Literal",
             "start": 855,
             "end": 860,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 862,
             "end": 919,
-            "value": "date-time + Z is UTC time zone (string in property bag)",
-            "raw": "\"date-time + Z is UTC time zone (string in property bag)\""
+            "value": "date-time + Z is UTC time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -632,8 +620,7 @@
           "type": "Literal",
           "start": 934,
           "end": 958,
-          "value": "2021-08-19T17:30-07:00",
-          "raw": "\"2021-08-19T17:30-07:00\""
+          "value": "2021-08-19T17:30-07:00"
         }
       }
     },
@@ -693,8 +680,7 @@
                 "type": "Literal",
                 "start": 1003,
                 "end": 1012,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Identifier",
@@ -773,15 +759,13 @@
             "type": "Literal",
             "start": 1063,
             "end": 1071,
-            "value": "-07:00",
-            "raw": "\"-07:00\""
+            "value": "-07:00"
           },
           {
             "type": "Literal",
             "start": 1073,
             "end": 1117,
-            "value": "date-time + offset is the offset time zone",
-            "raw": "\"date-time + offset is the offset time zone\""
+            "value": "date-time + offset is the offset time zone"
           }
         ],
         "optional": false
@@ -843,8 +827,7 @@
                 "type": "Literal",
                 "start": 1163,
                 "end": 1172,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "ObjectExpression",
@@ -945,15 +928,13 @@
             "type": "Literal",
             "start": 1227,
             "end": 1235,
-            "value": "-07:00",
-            "raw": "\"-07:00\""
+            "value": "-07:00"
           },
           {
             "type": "Literal",
             "start": 1237,
             "end": 1306,
-            "value": "date-time + offset is the offset time zone (string in property bag)",
-            "raw": "\"date-time + offset is the offset time zone (string in property bag)\""
+            "value": "date-time + offset is the offset time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -978,8 +959,7 @@
           "type": "Literal",
           "start": 1321,
           "end": 1344,
-          "value": "2021-08-19T17:30[UTC]",
-          "raw": "\"2021-08-19T17:30[UTC]\""
+          "value": "2021-08-19T17:30[UTC]"
         }
       }
     },
@@ -1039,8 +1019,7 @@
                 "type": "Literal",
                 "start": 1389,
                 "end": 1398,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Identifier",
@@ -1119,15 +1098,13 @@
             "type": "Literal",
             "start": 1449,
             "end": 1454,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1456,
             "end": 1507,
-            "value": "date-time + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + IANA annotation is the IANA time zone\""
+            "value": "date-time + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -1189,8 +1166,7 @@
                 "type": "Literal",
                 "start": 1553,
                 "end": 1562,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "ObjectExpression",
@@ -1291,15 +1267,13 @@
             "type": "Literal",
             "start": 1617,
             "end": 1622,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1624,
             "end": 1700,
-            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -1324,8 +1298,7 @@
           "type": "Literal",
           "start": 1715,
           "end": 1739,
-          "value": "2021-08-19T17:30Z[UTC]",
-          "raw": "\"2021-08-19T17:30Z[UTC]\""
+          "value": "2021-08-19T17:30Z[UTC]"
         }
       }
     },
@@ -1385,8 +1358,7 @@
                 "type": "Literal",
                 "start": 1784,
                 "end": 1793,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Identifier",
@@ -1465,15 +1437,13 @@
             "type": "Literal",
             "start": 1844,
             "end": 1849,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1851,
             "end": 1906,
-            "value": "date-time + Z + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\""
+            "value": "date-time + Z + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -1535,8 +1505,7 @@
                 "type": "Literal",
                 "start": 1952,
                 "end": 1961,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "ObjectExpression",
@@ -1637,15 +1606,13 @@
             "type": "Literal",
             "start": 2016,
             "end": 2021,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2023,
             "end": 2103,
-            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -1670,8 +1637,7 @@
           "type": "Literal",
           "start": 2118,
           "end": 2147,
-          "value": "2021-08-19T17:30-07:00[UTC]",
-          "raw": "\"2021-08-19T17:30-07:00[UTC]\""
+          "value": "2021-08-19T17:30-07:00[UTC]"
         }
       }
     },
@@ -1731,8 +1697,7 @@
                 "type": "Literal",
                 "start": 2192,
                 "end": 2201,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Identifier",
@@ -1811,15 +1776,13 @@
             "type": "Literal",
             "start": 2252,
             "end": 2257,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2259,
             "end": 2319,
-            "value": "date-time + offset + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\""
+            "value": "date-time + offset + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -1881,8 +1844,7 @@
                 "type": "Literal",
                 "start": 2366,
                 "end": 2375,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "ObjectExpression",
@@ -1983,15 +1945,13 @@
             "type": "Literal",
             "start": 2431,
             "end": 2436,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2438,
             "end": 2523,
-            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false

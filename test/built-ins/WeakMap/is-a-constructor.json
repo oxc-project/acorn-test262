@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 767,
             "end": 808,
-            "value": "isConstructor(WeakMap) must return true",
-            "raw": "'isConstructor(WeakMap) must return true'"
+            "value": "isConstructor(WeakMap) must return true"
           }
         ],
         "optional": false

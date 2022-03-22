@@ -133,8 +133,7 @@
             "type": "Literal",
             "start": 429,
             "end": 513,
-            "value": "Object.getPrototypeOf(Temporal.Now.timeZone()) returns Temporal.TimeZone.prototype",
-            "raw": "'Object.getPrototypeOf(Temporal.Now.timeZone()) returns Temporal.TimeZone.prototype'"
+            "value": "Object.getPrototypeOf(Temporal.Now.timeZone()) returns Temporal.TimeZone.prototype"
           }
         ],
         "optional": false

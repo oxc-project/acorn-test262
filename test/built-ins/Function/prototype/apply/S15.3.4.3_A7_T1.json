@@ -30,15 +30,13 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 426,
-                "value": "a1,a2,a3",
-                "raw": "\"a1,a2,a3\""
+                "value": "a1,a2,a3"
               },
               {
                 "type": "Literal",
                 "start": 428,
                 "end": 446,
-                "value": "this.shifted=a1;",
-                "raw": "\"this.shifted=a1;\""
+                "value": "this.shifted=a1;"
               }
             ],
             "optional": false
@@ -69,8 +67,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 462,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -119,8 +116,7 @@
               "type": "Literal",
               "start": 489,
               "end": 498,
-              "value": "shifted",
-              "raw": "\"shifted\""
+              "value": "shifted"
             },
             "computed": true,
             "optional": false
@@ -129,15 +125,13 @@
             "type": "Literal",
             "start": 501,
             "end": 502,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 554,
-            "value": "The value of this[\"shifted\"] is expected to be 1",
-            "raw": "'The value of this[\"shifted\"] is expected to be 1'"
+            "value": "The value of this[\"shifted\"] is expected to be 1"
           }
         ],
         "optional": false

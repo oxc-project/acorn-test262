@@ -99,8 +99,7 @@
             "type": "Literal",
             "start": 381,
             "end": 463,
-            "value": "Intl.DurationFormat.prototype.constructor is not the same as Intl.DurationFormat",
-            "raw": "\"Intl.DurationFormat.prototype.constructor is not the same as Intl.DurationFormat\""
+            "value": "Intl.DurationFormat.prototype.constructor is not the same as Intl.DurationFormat"
           }
         ],
         "optional": false

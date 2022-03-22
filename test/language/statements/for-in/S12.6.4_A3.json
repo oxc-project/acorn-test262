@@ -78,8 +78,7 @@
           "type": "Literal",
           "start": 438,
           "end": 440,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -113,8 +112,7 @@
               "type": "Literal",
               "start": 462,
               "end": 506,
-              "value": "for(ind in (arr=[2,1,4,3]))__str+=arr[ind]",
-              "raw": "\"for(ind in (arr=[2,1,4,3]))__str+=arr[ind]\""
+              "value": "for(ind in (arr=[2,1,4,3]))__str+=arr[ind]"
             }
           ],
           "optional": false
@@ -171,8 +169,7 @@
                     "type": "Literal",
                     "start": 652,
                     "end": 705,
-                    "value": "#1: __evaluated === __str. Actual:  __evaluated ===",
-                    "raw": "'#1: __evaluated === __str. Actual:  __evaluated ==='"
+                    "value": "#1: __evaluated === __str. Actual:  __evaluated ==="
                   },
                   "operator": "+",
                   "right": {
@@ -251,8 +248,7 @@
                           "type": "Literal",
                           "start": 919,
                           "end": 922,
-                          "value": "2",
-                          "raw": "\"2\""
+                          "value": "2"
                         }
                       ],
                       "optional": false
@@ -268,8 +264,7 @@
                         "type": "Literal",
                         "start": 927,
                         "end": 928,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -311,8 +306,7 @@
                           "type": "Literal",
                           "start": 946,
                           "end": 949,
-                          "value": "1",
-                          "raw": "\"1\""
+                          "value": "1"
                         }
                       ],
                       "optional": false
@@ -328,8 +322,7 @@
                         "type": "Literal",
                         "start": 954,
                         "end": 955,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -372,8 +365,7 @@
                         "type": "Literal",
                         "start": 973,
                         "end": 976,
-                        "value": "4",
-                        "raw": "\"4\""
+                        "value": "4"
                       }
                     ],
                     "optional": false
@@ -389,8 +381,7 @@
                       "type": "Literal",
                       "start": 981,
                       "end": 982,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -433,8 +424,7 @@
                       "type": "Literal",
                       "start": 1000,
                       "end": 1003,
-                      "value": "3",
-                      "raw": "\"3\""
+                      "value": "3"
                     }
                   ],
                   "optional": false
@@ -450,8 +440,7 @@
                     "type": "Literal",
                     "start": 1008,
                     "end": 1009,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               }
@@ -483,8 +472,7 @@
                   "type": "Literal",
                   "start": 1040,
                   "end": 1152,
-                  "value": "#2: (__str.indexOf(\"2\")!==-1)&&(__str.indexOf(\"1\")!==-1)&&(__str.indexOf(\"4\")!==-1)&&(__str.indexOf(\"3\")!==-1)",
-                  "raw": "'#2: (__str.indexOf(\"2\")!==-1)&&(__str.indexOf(\"1\")!==-1)&&(__str.indexOf(\"4\")!==-1)&&(__str.indexOf(\"3\")!==-1)'"
+                  "value": "#2: (__str.indexOf(\"2\")!==-1)&&(__str.indexOf(\"1\")!==-1)&&(__str.indexOf(\"4\")!==-1)&&(__str.indexOf(\"3\")!==-1)"
                 }
               ]
             }

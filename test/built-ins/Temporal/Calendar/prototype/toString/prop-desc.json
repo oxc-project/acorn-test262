@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 374,
             "end": 384,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 388,
             "end": 440,
-            "value": "`typeof Calendar.prototype.toString` is `function`",
-            "raw": "\"`typeof Calendar.prototype.toString` is `function`\""
+            "value": "`typeof Calendar.prototype.toString` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 489,
             "end": 499,
-            "value": "toString",
-            "raw": "\"toString\""
+            "value": "toString"
           },
           {
             "type": "ObjectExpression",

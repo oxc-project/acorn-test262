@@ -77,8 +77,7 @@
               "type": "Literal",
               "start": 396,
               "end": 468,
-              "value": "while(1) {__in__do__before__break=1; break; __in__do__after__break=2;}",
-              "raw": "\"while(1) {__in__do__before__break=1; break; __in__do__after__break=2;}\""
+              "value": "while(1) {__in__do__before__break=1; break; __in__do__after__break=2;}"
             }
           ],
           "optional": false
@@ -104,8 +103,7 @@
           "type": "Literal",
           "start": 593,
           "end": 594,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -136,8 +134,7 @@
                     "type": "Literal",
                     "start": 622,
                     "end": 695,
-                    "value": "#1: __in__do__before__break === 1. Actual:  __in__do__before__break ===",
-                    "raw": "'#1: __in__do__before__break === 1. Actual:  __in__do__before__break ==='"
+                    "value": "#1: __in__do__before__break === 1. Actual:  __in__do__before__break ==="
                   },
                   "operator": "+",
                   "right": {
@@ -180,8 +177,7 @@
           "type": "Literal",
           "start": 937,
           "end": 948,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -212,8 +208,7 @@
                     "type": "Literal",
                     "start": 976,
                     "end": 1071,
-                    "value": "#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ===",
-                    "raw": "'#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ==='"
+                    "value": "#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ==="
                   },
                   "operator": "+",
                   "right": {
@@ -256,8 +251,7 @@
           "type": "Literal",
           "start": 1301,
           "end": 1302,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -288,8 +282,7 @@
                     "type": "Literal",
                     "start": 1330,
                     "end": 1379,
-                    "value": "#3: __evaluated === 1. Actual:  __evaluated ===",
-                    "raw": "'#3: __evaluated === 1. Actual:  __evaluated ==='"
+                    "value": "#3: __evaluated === 1. Actual:  __evaluated ==="
                   },
                   "operator": "+",
                   "right": {

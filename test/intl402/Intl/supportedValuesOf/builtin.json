@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 1196,
             "end": 1206,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1225,
             "end": 1263,
-            "value": "Intl.supportedValuesOf is a function",
-            "raw": "\"Intl.supportedValuesOf is a function\""
+            "value": "Intl.supportedValuesOf is a function"
           }
         ],
         "optional": false
@@ -169,8 +167,7 @@
                   "type": "Literal",
                   "start": 1336,
                   "end": 1347,
-                  "value": "prototype",
-                  "raw": "\"prototype\""
+                  "value": "prototype"
                 }
               ],
               "optional": false
@@ -180,8 +177,7 @@
             "type": "Literal",
             "start": 1357,
             "end": 1422,
-            "value": "Intl.supportedValuesOf doesn't have an own 'prototype' property",
-            "raw": "\"Intl.supportedValuesOf doesn't have an own 'prototype' property\""
+            "value": "Intl.supportedValuesOf doesn't have an own 'prototype' property"
           }
         ],
         "optional": false
@@ -252,8 +248,7 @@
             "type": "Literal",
             "start": 1485,
             "end": 1522,
-            "value": "Built-in objects must be extensible",
-            "raw": "\"Built-in objects must be extensible\""
+            "value": "Built-in objects must be extensible"
           }
         ],
         "optional": false
@@ -356,8 +351,7 @@
             "type": "Literal",
             "start": 1627,
             "end": 1690,
-            "value": "[[Prototype]] of Intl.supportedValuesOf is Function.prototype",
-            "raw": "\"[[Prototype]] of Intl.supportedValuesOf is Function.prototype\""
+            "value": "[[Prototype]] of Intl.supportedValuesOf is Function.prototype"
           }
         ],
         "optional": false
@@ -422,8 +416,7 @@
             "type": "Literal",
             "start": 1748,
             "end": 1799,
-            "value": "Intl.supportedValuesOf not a constructor function",
-            "raw": "\"Intl.supportedValuesOf not a constructor function\""
+            "value": "Intl.supportedValuesOf not a constructor function"
           }
         ],
         "optional": false

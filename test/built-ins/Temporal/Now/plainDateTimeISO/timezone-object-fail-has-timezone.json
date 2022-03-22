@@ -99,8 +99,7 @@
                                 "type": "Literal",
                                 "start": 386,
                                 "end": 396,
-                                "value": "timeZone",
-                                "raw": "'timeZone'"
+                                "value": "timeZone"
                               }
                             },
                             "consequent": {
@@ -248,8 +247,7 @@
             "type": "Literal",
             "start": 535,
             "end": 608,
-            "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a Test262Error exception",
-            "raw": "'Temporal.Now.plainDateTimeISO(timeZone) throws a Test262Error exception'"
+            "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a Test262Error exception"
           }
         ],
         "optional": false

@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 463,
             "end": 473,
-            "value": "findLast",
-            "raw": "'findLast'"
+            "value": "findLast"
           },
           {
             "type": "Literal",
             "start": 477,
             "end": 539,
-            "value": "The value of `Array.prototype.findLast.name` is `\"findLast\"`",
-            "raw": "'The value of `Array.prototype.findLast.name` is `\"findLast\"`'"
+            "value": "The value of `Array.prototype.findLast.name` is `\"findLast\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 585,
             "end": 591,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

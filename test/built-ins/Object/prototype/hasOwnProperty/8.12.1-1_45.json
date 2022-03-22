@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 319,
             "end": 324,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -269,8 +268,7 @@
                 "type": "Literal",
                 "start": 463,
                 "end": 468,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -286,8 +284,7 @@
             "type": "Literal",
             "start": 478,
             "end": 503,
-            "value": "o.hasOwnProperty(\"foo\")",
-            "raw": "'o.hasOwnProperty(\"foo\")'"
+            "value": "o.hasOwnProperty(\"foo\")"
           }
         ],
         "optional": false

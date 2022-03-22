@@ -76,8 +76,7 @@
                     "type": "Literal",
                     "start": 367,
                     "end": 421,
-                    "value": "#1.1: x && (x = true) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x && (x = true) throw ReferenceError. Actual: '"
+                    "value": "#1.1: x && (x = true) throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -210,8 +209,7 @@
                             "type": "Literal",
                             "start": 533,
                             "end": 587,
-                            "value": "#1.2: x && (x = true) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x && (x = true) throw ReferenceError. Actual: '"
+                            "value": "#1.2: x && (x = true) throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -320,8 +318,7 @@
                   "type": "Literal",
                   "start": 672,
                   "end": 704,
-                  "value": "#2: ((y = true) && y) === true",
-                  "raw": "'#2: ((y = true) && y) === true'"
+                  "value": "#2: ((y = true) && y) === true"
                 }
               ]
             }

@@ -12,8 +12,7 @@
         "type": "Literal",
         "start": 693,
         "end": 723,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -25,8 +24,7 @@
         "type": "Literal",
         "start": 732,
         "end": 762,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -50,8 +48,7 @@
         "type": "Literal",
         "start": 785,
         "end": 815,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -75,8 +72,7 @@
         "type": "Literal",
         "start": 835,
         "end": 865,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -89,8 +85,7 @@
         "type": "Literal",
         "start": 882,
         "end": 912,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -114,8 +109,7 @@
         "type": "Literal",
         "start": 936,
         "end": 966,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -127,8 +121,7 @@
         "type": "Literal",
         "start": 982,
         "end": 1012,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -145,8 +138,7 @@
         "type": "Literal",
         "start": 1035,
         "end": 1065,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -163,8 +155,7 @@
         "type": "Literal",
         "start": 1090,
         "end": 1120,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -199,8 +190,7 @@
         "type": "Literal",
         "start": 1150,
         "end": 1180,
-        "value": "./eval-rqstd-once_FIXTURE.js",
-        "raw": "'./eval-rqstd-once_FIXTURE.js'"
+        "value": "./eval-rqstd-once_FIXTURE.js"
       }
     },
     {
@@ -298,15 +288,13 @@
             "type": "Literal",
             "start": 1269,
             "end": 1272,
-            "value": 262,
-            "raw": "262"
+            "value": 262
           },
           {
             "type": "Literal",
             "start": 1274,
             "end": 1303,
-            "value": "global property was defined",
-            "raw": "'global property was defined'"
+            "value": "global property was defined"
           }
         ],
         "optional": false

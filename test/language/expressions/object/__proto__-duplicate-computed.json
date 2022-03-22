@@ -125,8 +125,7 @@
                 "type": "Literal",
                 "start": 1015,
                 "end": 1026,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               },
               "value": {
                 "type": "ObjectExpression",
@@ -147,8 +146,7 @@
                 "type": "Literal",
                 "start": 1038,
                 "end": 1049,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               },
               "value": {
                 "type": "Identifier",
@@ -233,8 +231,7 @@
             "type": "Literal",
             "start": 1129,
             "end": 1151,
-            "value": "prototype is defined",
-            "raw": "'prototype is defined'"
+            "value": "prototype is defined"
           }
         ],
         "optional": false
@@ -302,8 +299,7 @@
                 "type": "Literal",
                 "start": 1200,
                 "end": 1211,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               }
             ],
             "optional": false
@@ -312,8 +308,7 @@
             "type": "Literal",
             "start": 1218,
             "end": 1246,
-            "value": "has own property __proto__",
-            "raw": "'has own property __proto__'"
+            "value": "has own property __proto__"
           }
         ],
         "optional": false
@@ -376,8 +371,7 @@
             "type": "Literal",
             "start": 1305,
             "end": 1325,
-            "value": "own property value",
-            "raw": "'own property value'"
+            "value": "own property value"
           }
         ],
         "optional": false

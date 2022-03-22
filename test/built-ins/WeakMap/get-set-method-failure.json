@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 544,
             "end": 549,
-            "value": "set",
-            "raw": "'set'"
+            "value": "set"
           },
           {
             "type": "ObjectExpression",

@@ -83,8 +83,7 @@
             "type": "Literal",
             "start": 322,
             "end": 323,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -99,8 +98,7 @@
             "type": "Literal",
             "start": 328,
             "end": 329,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -128,8 +126,7 @@
             "type": "Literal",
             "start": 341,
             "end": 342,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -144,8 +141,7 @@
             "type": "Literal",
             "start": 347,
             "end": 350,
-            "value": 111,
-            "raw": "111"
+            "value": 111
           }
         }
       }
@@ -173,8 +169,7 @@
             "type": "Literal",
             "start": 362,
             "end": 363,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -189,8 +184,7 @@
             "type": "Literal",
             "start": 368,
             "end": 374,
-            "value": 111111,
-            "raw": "111111"
+            "value": 111111
           }
         }
       }
@@ -218,8 +212,7 @@
               "type": "Literal",
               "start": 390,
               "end": 391,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -343,8 +336,7 @@
                     "type": "Literal",
                     "start": 464,
                     "end": 465,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 {
@@ -366,8 +358,7 @@
                       "type": "Literal",
                       "start": 474,
                       "end": 480,
-                      "value": " ** ",
-                      "raw": "\" ** \""
+                      "value": " ** "
                     }
                   },
                   "operator": "+",

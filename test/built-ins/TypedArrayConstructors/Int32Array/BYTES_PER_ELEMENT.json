@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 602,
             "end": 603,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           }
         ],
         "optional": false
@@ -86,8 +85,7 @@
             "type": "Literal",
             "start": 639,
             "end": 658,
-            "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "value": "BYTES_PER_ELEMENT"
           }
         ],
         "optional": false
@@ -118,8 +116,7 @@
             "type": "Literal",
             "start": 691,
             "end": 710,
-            "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "value": "BYTES_PER_ELEMENT"
           }
         ],
         "optional": false
@@ -150,8 +147,7 @@
             "type": "Literal",
             "start": 747,
             "end": 766,
-            "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "value": "BYTES_PER_ELEMENT"
           }
         ],
         "optional": false

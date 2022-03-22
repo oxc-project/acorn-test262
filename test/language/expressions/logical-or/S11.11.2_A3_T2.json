@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 304,
               "end": 305,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "||",
             "right": {
@@ -37,8 +36,7 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 311,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           }
@@ -48,8 +46,7 @@
           "type": "Literal",
           "start": 317,
           "end": 318,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -76,8 +73,7 @@
                   "type": "Literal",
                   "start": 347,
                   "end": 370,
-                  "value": "#1.1: (0 || -0) === 0",
-                  "raw": "'#1.1: (0 || -0) === 0'"
+                  "value": "#1.1: (0 || -0) === 0"
                 }
               ]
             }
@@ -109,8 +105,7 @@
                     "type": "Literal",
                     "start": 389,
                     "end": 390,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   "operator": "/",
                   "right": {
@@ -125,8 +120,7 @@
                         "type": "Literal",
                         "start": 394,
                         "end": 395,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "operator": "||",
                       "right": {
@@ -139,8 +133,7 @@
                           "type": "Literal",
                           "start": 400,
                           "end": 401,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     }
@@ -192,8 +185,7 @@
                         "type": "Literal",
                         "start": 463,
                         "end": 487,
-                        "value": "#1.2: (0 || -0) === -0",
-                        "raw": "'#1.2: (0 || -0) === -0'"
+                        "value": "#1.2: (0 || -0) === -0"
                       }
                     ]
                   }
@@ -231,8 +223,7 @@
                 "type": "Literal",
                 "start": 513,
                 "end": 514,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             },
             "operator": "||",
@@ -240,8 +231,7 @@
               "type": "Literal",
               "start": 518,
               "end": 519,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         },
@@ -250,8 +240,7 @@
           "type": "Literal",
           "start": 525,
           "end": 526,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -278,8 +267,7 @@
                   "type": "Literal",
                   "start": 555,
                   "end": 578,
-                  "value": "#2.1: (-0 || 0) === 0",
-                  "raw": "'#2.1: (-0 || 0) === 0'"
+                  "value": "#2.1: (-0 || 0) === 0"
                 }
               ]
             }
@@ -311,8 +299,7 @@
                     "type": "Literal",
                     "start": 597,
                     "end": 598,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   "operator": "/",
                   "right": {
@@ -333,8 +320,7 @@
                           "type": "Literal",
                           "start": 603,
                           "end": 604,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       },
                       "operator": "||",
@@ -342,8 +328,7 @@
                         "type": "Literal",
                         "start": 608,
                         "end": 609,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   }
@@ -394,8 +379,7 @@
                         "type": "Literal",
                         "start": 671,
                         "end": 695,
-                        "value": "#2.2: (-0 || 0) === +0",
-                        "raw": "'#2.2: (-0 || 0) === +0'"
+                        "value": "#2.2: (-0 || 0) === +0"
                       }
                     ]
                   }
@@ -443,8 +427,7 @@
                   "type": "Literal",
                   "start": 735,
                   "end": 736,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ]
@@ -473,8 +456,7 @@
               "type": "Literal",
               "start": 744,
               "end": 745,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "||",
             "right": {
@@ -517,8 +499,7 @@
                   "type": "Literal",
                   "start": 786,
                   "end": 830,
-                  "value": "#3: (var y = new Number(-1); 0 || y) === y",
-                  "raw": "'#3: (var y = new Number(-1); 0 || y) === y'"
+                  "value": "#3: (var y = new Number(-1); 0 || y) === y"
                 }
               ]
             }
@@ -557,8 +538,7 @@
                 "type": "Literal",
                 "start": 866,
                 "end": 867,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -629,8 +609,7 @@
                   "type": "Literal",
                   "start": 919,
                   "end": 964,
-                  "value": "#4: (var y = new Number(0); NaN || y) === y",
-                  "raw": "'#4: (var y = new Number(0); NaN || y) === y'"
+                  "value": "#4: (var y = new Number(0); NaN || y) === y"
                 }
               ]
             }

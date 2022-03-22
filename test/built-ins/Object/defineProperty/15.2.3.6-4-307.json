@@ -67,8 +67,7 @@
                         "type": "Literal",
                         "start": 573,
                         "end": 576,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                               "type": "Literal",
                               "start": 591,
                               "end": 592,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             "kind": "init"
                           },
@@ -216,8 +214,7 @@
                               "type": "Literal",
                               "start": 712,
                               "end": 715,
-                              "value": "0",
-                              "raw": "\"0\""
+                              "value": "0"
                             },
                             {
                               "type": "ObjectExpression",
@@ -271,8 +268,7 @@
                               "type": "Literal",
                               "start": 778,
                               "end": 802,
-                              "value": "Expected an exception.",
-                              "raw": "\"Expected an exception.\""
+                              "value": "Expected an exception."
                             }
                           ]
                         }
@@ -319,15 +315,13 @@
                                 "type": "Literal",
                                 "start": 850,
                                 "end": 853,
-                                "value": "0",
-                                "raw": "\"0\""
+                                "value": "0"
                               },
                               {
                                 "type": "Literal",
                                 "start": 855,
                                 "end": 856,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               }
                             ],
                             "optional": false
@@ -358,8 +352,7 @@
                                 "type": "Literal",
                                 "start": 893,
                                 "end": 896,
-                                "value": "0",
-                                "raw": "\"0\""
+                                "value": "0"
                               }
                             ],
                             "optional": false
@@ -390,8 +383,7 @@
                                 "type": "Literal",
                                 "start": 932,
                                 "end": 935,
-                                "value": "0",
-                                "raw": "\"0\""
+                                "value": "0"
                               }
                             ],
                             "optional": false
@@ -422,8 +414,7 @@
                                 "type": "Literal",
                                 "start": 976,
                                 "end": 979,
-                                "value": "0",
-                                "raw": "\"0\""
+                                "value": "0"
                               }
                             ],
                             "optional": false
@@ -491,8 +482,7 @@
                                         "type": "Literal",
                                         "start": 1049,
                                         "end": 1075,
-                                        "value": "Expected TypeError, got ",
-                                        "raw": "\"Expected TypeError, got \""
+                                        "value": "Expected TypeError, got "
                                       },
                                       "operator": "+",
                                       "right": {

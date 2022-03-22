@@ -90,8 +90,7 @@
                     "type": "Literal",
                     "start": 1039,
                     "end": 1047,
-                    "value": "caller",
-                    "raw": "\"caller\""
+                    "value": "caller"
                   }
                 ],
                 "optional": false
@@ -145,8 +144,7 @@
             "type": "Literal",
             "start": 1129,
             "end": 1130,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -244,8 +242,7 @@
                               "type": "Literal",
                               "start": 1509,
                               "end": 1517,
-                              "value": "caller",
-                              "raw": "\"caller\""
+                              "value": "caller"
                             }
                           ],
                           "optional": false
@@ -345,8 +342,7 @@
                                 "type": "Literal",
                                 "start": 1613,
                                 "end": 1621,
-                                "value": "caller",
-                                "raw": "\"caller\""
+                                "value": "caller"
                               },
                               {
                                 "type": "ObjectExpression",
@@ -485,15 +481,13 @@
                                 "type": "Literal",
                                 "start": 1749,
                                 "end": 1750,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               {
                                 "type": "Literal",
                                 "start": 1752,
                                 "end": 1894,
-                                "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
-                                "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
+                                "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
                               }
                             ],
                             "optional": false
@@ -697,15 +691,13 @@
             "type": "Literal",
             "start": 2490,
             "end": 2491,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2493,
             "end": 2516,
-            "value": "method body evaluated",
-            "raw": "'method body evaluated'"
+            "value": "method body evaluated"
           }
         ],
         "optional": false

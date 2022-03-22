@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 433,
                 "end": 436,
-                "value": 1.1,
-                "raw": "1.1"
+                "value": 1.1
               }
             ],
             "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 446,
             "end": 451,
-            "value": "1.1",
-            "raw": "\"1.1\""
+            "value": "1.1"
           }
         ],
         "optional": false
@@ -139,8 +137,7 @@
                 "type": "Literal",
                 "start": 492,
                 "end": 500,
-                "value": 0.000001,
-                "raw": "0.000001"
+                "value": 0.000001
               }
             ],
             "optional": false
@@ -156,8 +153,7 @@
             "type": "Literal",
             "start": 510,
             "end": 520,
-            "value": "0.000001",
-            "raw": "\"0.000001\""
+            "value": "0.000001"
           }
         ],
         "optional": false
@@ -225,8 +221,7 @@
                   "type": "Literal",
                   "start": 562,
                   "end": 570,
-                  "value": 0.000001,
-                  "raw": "0.000001"
+                  "value": 0.000001
                 }
               }
             ],
@@ -243,8 +238,7 @@
             "type": "Literal",
             "start": 580,
             "end": 591,
-            "value": "-0.000001",
-            "raw": "\"-0.000001\""
+            "value": "-0.000001"
           }
         ],
         "optional": false
@@ -306,8 +300,7 @@
                 "type": "Literal",
                 "start": 632,
                 "end": 637,
-                "value": 1.1,
-                "raw": "11e-1"
+                "value": 1.1
               }
             ],
             "optional": false
@@ -323,8 +316,7 @@
             "type": "Literal",
             "start": 647,
             "end": 654,
-            "value": "11e-1",
-            "raw": "\"11e-1\""
+            "value": "11e-1"
           }
         ],
         "optional": false

@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 780,
             "end": 790,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -249,8 +248,7 @@
                               "type": "Literal",
                               "start": 930,
                               "end": 941,
-                              "value": "[[Cells]]",
-                              "raw": "'[[Cells]]'"
+                              "value": "[[Cells]]"
                             },
                             "value": {
                               "type": "ObjectExpression",
@@ -279,8 +277,7 @@
             "type": "Literal",
             "start": 961,
             "end": 996,
-            "value": "Ordinary object without [[Cells]]",
-            "raw": "'Ordinary object without [[Cells]]'"
+            "value": "Ordinary object without [[Cells]]"
           }
         ],
         "optional": false
@@ -398,8 +395,7 @@
             "type": "Literal",
             "start": 1086,
             "end": 1145,
-            "value": "WeakRef.prototype does not have a [[Cells]] internal slot",
-            "raw": "'WeakRef.prototype does not have a [[Cells]] internal slot'"
+            "value": "WeakRef.prototype does not have a [[Cells]] internal slot"
           }
         ],
         "optional": false
@@ -504,8 +500,7 @@
             "type": "Literal",
             "start": 1225,
             "end": 1274,
-            "value": "WeakRef does not have a [[Cells]] internal slot",
-            "raw": "'WeakRef does not have a [[Cells]] internal slot'"
+            "value": "WeakRef does not have a [[Cells]] internal slot"
           }
         ],
         "optional": false
@@ -648,8 +643,7 @@
             "type": "Literal",
             "start": 1375,
             "end": 1393,
-            "value": "WeakRef instance",
-            "raw": "'WeakRef instance'"
+            "value": "WeakRef instance"
           }
         ],
         "optional": false
@@ -785,8 +779,7 @@
             "type": "Literal",
             "start": 1492,
             "end": 1510,
-            "value": "WeakMap instance",
-            "raw": "'WeakMap instance'"
+            "value": "WeakMap instance"
           }
         ],
         "optional": false
@@ -922,8 +915,7 @@
             "type": "Literal",
             "start": 1609,
             "end": 1627,
-            "value": "WeakSet instance",
-            "raw": "'WeakSet instance'"
+            "value": "WeakSet instance"
           }
         ],
         "optional": false

@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 550,
             "end": 558,
-            "value": "Number",
-            "raw": "\"Number\""
+            "value": "Number"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 582,
             "end": 590,
-            "value": "Number",
-            "raw": "\"Number\""
+            "value": "Number"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 618,
             "end": 626,
-            "value": "Number",
-            "raw": "\"Number\""
+            "value": "Number"
           }
         ],
         "optional": false

@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 1007,
                 "end": 1018,
-                "value": "hourCycle",
-                "raw": "\"hourCycle\""
+                "value": "hourCycle"
               }
             ],
             "optional": false
@@ -203,8 +202,7 @@
             "type": "Literal",
             "start": 1102,
             "end": 1112,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -261,8 +259,7 @@
             "type": "Literal",
             "start": 1154,
             "end": 1165,
-            "value": "hourCycle",
-            "raw": "\"hourCycle\""
+            "value": "hourCycle"
           },
           {
             "type": "ObjectExpression",

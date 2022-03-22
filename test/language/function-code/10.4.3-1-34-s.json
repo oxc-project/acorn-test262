@@ -127,15 +127,13 @@
                         "type": "Literal",
                         "start": 431,
                         "end": 442,
-                        "value": "undefined",
-                        "raw": "\"undefined\""
+                        "value": "undefined"
                       },
                       {
                         "type": "Literal",
                         "start": 444,
                         "end": 449,
-                        "value": "f()",
-                        "raw": "'f()'"
+                        "value": "f()"
                       }
                     ],
                     "optional": false
@@ -185,15 +183,13 @@
                         "type": "Literal",
                         "start": 486,
                         "end": 497,
-                        "value": "undefined",
-                        "raw": "\"undefined\""
+                        "value": "undefined"
                       },
                       {
                         "type": "Literal",
                         "start": 499,
                         "end": 512,
-                        "value": "typeof this",
-                        "raw": "'typeof this'"
+                        "value": "typeof this"
                       }
                     ],
                     "optional": false

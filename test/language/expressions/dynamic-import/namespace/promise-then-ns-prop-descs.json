@@ -39,8 +39,7 @@
                       "type": "Literal",
                       "start": 3691,
                       "end": 3717,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   },
                   "property": {
@@ -123,8 +122,7 @@
                                     "type": "Literal",
                                     "start": 4040,
                                     "end": 4049,
-                                    "value": "default",
-                                    "raw": "'default'"
+                                    "value": "default"
                                   }
                                 ],
                                 "optional": false
@@ -184,15 +182,13 @@
                                 "type": "Literal",
                                 "start": 4082,
                                 "end": 4084,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 4086,
                                 "end": 4108,
-                                "value": "default: value is 42",
-                                "raw": "'default: value is 42'"
+                                "value": "default: value is 42"
                               }
                             ],
                             "optional": false
@@ -256,8 +252,7 @@
                                 "type": "Literal",
                                 "start": 4151,
                                 "end": 4175,
-                                "value": "default: is enumerable",
-                                "raw": "'default: is enumerable'"
+                                "value": "default: is enumerable"
                               }
                             ],
                             "optional": false
@@ -321,8 +316,7 @@
                                 "type": "Literal",
                                 "start": 4216,
                                 "end": 4238,
-                                "value": "default: is writable",
-                                "raw": "'default: is writable'"
+                                "value": "default: is writable"
                               }
                             ],
                             "optional": false
@@ -386,8 +380,7 @@
                                 "type": "Literal",
                                 "start": 4284,
                                 "end": 4314,
-                                "value": "default: is non-configurable",
-                                "raw": "'default: is non-configurable'"
+                                "value": "default: is non-configurable"
                               }
                             ],
                             "optional": false
@@ -442,8 +435,7 @@
                                   "type": "Literal",
                                   "start": 4361,
                                   "end": 4369,
-                                  "value": "local1",
-                                  "raw": "'local1'"
+                                  "value": "local1"
                                 }
                               ],
                               "optional": false
@@ -501,15 +493,13 @@
                                 "type": "Literal",
                                 "start": 4402,
                                 "end": 4411,
-                                "value": "Test262",
-                                "raw": "'Test262'"
+                                "value": "Test262"
                               },
                               {
                                 "type": "Literal",
                                 "start": 4413,
                                 "end": 4441,
-                                "value": "local1: value is \"Test262\"",
-                                "raw": "'local1: value is \"Test262\"'"
+                                "value": "local1: value is \"Test262\""
                               }
                             ],
                             "optional": false
@@ -573,8 +563,7 @@
                                 "type": "Literal",
                                 "start": 4484,
                                 "end": 4507,
-                                "value": "local1: is enumerable",
-                                "raw": "'local1: is enumerable'"
+                                "value": "local1: is enumerable"
                               }
                             ],
                             "optional": false
@@ -638,8 +627,7 @@
                                 "type": "Literal",
                                 "start": 4548,
                                 "end": 4569,
-                                "value": "local1: is writable",
-                                "raw": "'local1: is writable'"
+                                "value": "local1: is writable"
                               }
                             ],
                             "optional": false
@@ -703,8 +691,7 @@
                                 "type": "Literal",
                                 "start": 4615,
                                 "end": 4644,
-                                "value": "local1: is non-configurable",
-                                "raw": "'local1: is non-configurable'"
+                                "value": "local1: is non-configurable"
                               }
                             ],
                             "optional": false
@@ -759,8 +746,7 @@
                                   "type": "Literal",
                                   "start": 4691,
                                   "end": 4700,
-                                  "value": "renamed",
-                                  "raw": "'renamed'"
+                                  "value": "renamed"
                                 }
                               ],
                               "optional": false
@@ -818,15 +804,13 @@
                                 "type": "Literal",
                                 "start": 4733,
                                 "end": 4739,
-                                "value": "TC39",
-                                "raw": "'TC39'"
+                                "value": "TC39"
                               },
                               {
                                 "type": "Literal",
                                 "start": 4741,
                                 "end": 4766,
-                                "value": "renamed: value is TC39\"",
-                                "raw": "'renamed: value is TC39\"'"
+                                "value": "renamed: value is TC39\""
                               }
                             ],
                             "optional": false
@@ -890,8 +874,7 @@
                                 "type": "Literal",
                                 "start": 4809,
                                 "end": 4833,
-                                "value": "renamed: is enumerable",
-                                "raw": "'renamed: is enumerable'"
+                                "value": "renamed: is enumerable"
                               }
                             ],
                             "optional": false
@@ -955,8 +938,7 @@
                                 "type": "Literal",
                                 "start": 4874,
                                 "end": 4896,
-                                "value": "renamed: is writable",
-                                "raw": "'renamed: is writable'"
+                                "value": "renamed: is writable"
                               }
                             ],
                             "optional": false
@@ -1020,8 +1002,7 @@
                                 "type": "Literal",
                                 "start": 4942,
                                 "end": 4972,
-                                "value": "renamed: is non-configurable",
-                                "raw": "'renamed: is non-configurable'"
+                                "value": "renamed: is non-configurable"
                               }
                             ],
                             "optional": false
@@ -1076,8 +1057,7 @@
                                   "type": "Literal",
                                   "start": 5019,
                                   "end": 5029,
-                                  "value": "indirect",
-                                  "raw": "'indirect'"
+                                  "value": "indirect"
                                 }
                               ],
                               "optional": false
@@ -1135,15 +1115,13 @@
                                 "type": "Literal",
                                 "start": 5062,
                                 "end": 5071,
-                                "value": "Test262",
-                                "raw": "'Test262'"
+                                "value": "Test262"
                               },
                               {
                                 "type": "Literal",
                                 "start": 5073,
                                 "end": 5102,
-                                "value": "indirect: value is Test262\"",
-                                "raw": "'indirect: value is Test262\"'"
+                                "value": "indirect: value is Test262\""
                               }
                             ],
                             "optional": false
@@ -1207,8 +1185,7 @@
                                 "type": "Literal",
                                 "start": 5145,
                                 "end": 5170,
-                                "value": "indirect: is enumerable",
-                                "raw": "'indirect: is enumerable'"
+                                "value": "indirect: is enumerable"
                               }
                             ],
                             "optional": false
@@ -1272,8 +1249,7 @@
                                 "type": "Literal",
                                 "start": 5211,
                                 "end": 5234,
-                                "value": "indirect: is writable",
-                                "raw": "'indirect: is writable'"
+                                "value": "indirect: is writable"
                               }
                             ],
                             "optional": false
@@ -1337,8 +1313,7 @@
                                 "type": "Literal",
                                 "start": 5280,
                                 "end": 5311,
-                                "value": "indirect: is non-configurable",
-                                "raw": "'indirect: is non-configurable'"
+                                "value": "indirect: is non-configurable"
                               }
                             ],
                             "optional": false

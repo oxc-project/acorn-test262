@@ -147,8 +147,7 @@
                                     "type": "Literal",
                                     "start": 720,
                                     "end": 722,
-                                    "value": 42,
-                                    "raw": "42"
+                                    "value": 42
                                   }
                                 ],
                                 "optional": false
@@ -327,8 +326,7 @@
                                           "type": "Literal",
                                           "start": 856,
                                           "end": 857,
-                                          "value": 9,
-                                          "raw": "9"
+                                          "value": 9
                                         }
                                       ],
                                       "optional": false
@@ -512,8 +510,7 @@
                                 "type": "Literal",
                                 "start": 997,
                                 "end": 998,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "computed": true,
                               "optional": false
@@ -531,8 +528,7 @@
                             "type": "Literal",
                             "start": 1007,
                             "end": 1009,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ],
                         "optional": false
@@ -584,8 +580,7 @@
                                 "type": "Literal",
                                 "start": 1044,
                                 "end": 1045,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "computed": true,
                               "optional": false
@@ -603,8 +598,7 @@
                             "type": "Literal",
                             "start": 1055,
                             "end": 1066,
-                            "value": "fulfilled",
-                            "raw": "'fulfilled'"
+                            "value": "fulfilled"
                           }
                         ],
                         "optional": false
@@ -656,8 +650,7 @@
                                 "type": "Literal",
                                 "start": 1101,
                                 "end": 1102,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               "computed": true,
                               "optional": false
@@ -675,8 +668,7 @@
                             "type": "Literal",
                             "start": 1111,
                             "end": 1112,
-                            "value": 9,
-                            "raw": "9"
+                            "value": 9
                           }
                         ],
                         "optional": false
@@ -728,8 +720,7 @@
                                 "type": "Literal",
                                 "start": 1147,
                                 "end": 1148,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               "computed": true,
                               "optional": false
@@ -747,8 +738,7 @@
                             "type": "Literal",
                             "start": 1158,
                             "end": 1169,
-                            "value": "fulfilled",
-                            "raw": "'fulfilled'"
+                            "value": "fulfilled"
                           }
                         ],
                         "optional": false

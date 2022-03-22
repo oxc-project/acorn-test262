@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 365,
-                "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "value": "localeMatcher"
               },
               {
                 "type": "Literal",
                 "start": 367,
                 "end": 371,
-                "value": "kn",
-                "raw": "\"kn\""
+                "value": "kn"
               },
               {
                 "type": "Literal",
                 "start": 373,
                 "end": 377,
-                "value": "kf",
-                "raw": "\"kf\""
+                "value": "kf"
               }
             ]
           }
@@ -129,8 +126,7 @@
                             "type": "Literal",
                             "start": 440,
                             "end": 448,
-                            "value": "lookup",
-                            "raw": "\"lookup\""
+                            "value": "lookup"
                           },
                           "kind": "init"
                         }
@@ -210,8 +206,7 @@
                 "type": "Literal",
                 "start": 537,
                 "end": 571,
-                "value": "Collator returns invalid locale ",
-                "raw": "\"Collator returns invalid locale \""
+                "value": "Collator returns invalid locale "
               },
               "operator": "+",
               "right": {
@@ -226,8 +221,7 @@
               "type": "Literal",
               "start": 583,
               "end": 586,
-              "value": ".",
-              "raw": "\".\""
+              "value": "."
             }
           }
         ],

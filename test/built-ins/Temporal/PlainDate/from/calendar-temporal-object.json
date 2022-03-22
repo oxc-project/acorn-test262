@@ -132,8 +132,7 @@
                                   "type": "Literal",
                                   "start": 1271,
                                   "end": 1275,
-                                  "value": 2000,
-                                  "raw": "2000"
+                                  "value": 2000
                                 },
                                 "kind": "init"
                               },
@@ -154,8 +153,7 @@
                                   "type": "Literal",
                                   "start": 1284,
                                   "end": 1285,
-                                  "value": 5,
-                                  "raw": "5"
+                                  "value": 5
                                 },
                                 "kind": "init"
                               },
@@ -176,8 +174,7 @@
                                   "type": "Literal",
                                   "start": 1292,
                                   "end": 1293,
-                                  "value": 2,
-                                  "raw": "2"
+                                  "value": 2
                                 },
                                 "kind": "init"
                               },
@@ -268,8 +265,7 @@
                         "type": "Literal",
                         "start": 1370,
                         "end": 1407,
-                        "value": "Temporal object coerced to calendar",
-                        "raw": "\"Temporal object coerced to calendar\""
+                        "value": "Temporal object coerced to calendar"
                       }
                     ],
                     "optional": false

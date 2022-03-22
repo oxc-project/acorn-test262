@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 362,
-                "value": "get calendar a.toString",
-                "raw": "\"get calendar a.toString\""
+                "value": "get calendar a.toString"
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 392,
-                "value": "call calendar a.toString",
-                "raw": "\"call calendar a.toString\""
+                "value": "call calendar a.toString"
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 421,
-                "value": "get calendar b.toString",
-                "raw": "\"get calendar b.toString\""
+                "value": "get calendar b.toString"
               },
               {
                 "type": "Literal",
                 "start": 425,
                 "end": 451,
-                "value": "call calendar b.toString",
-                "raw": "\"call calendar b.toString\""
+                "value": "call calendar b.toString"
               }
             ]
           }
@@ -247,15 +243,13 @@
                 "type": "Literal",
                 "start": 621,
                 "end": 622,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 625,
-                "value": 7,
-                "raw": "7"
+                "value": 7
               },
               {
                 "type": "CallExpression",
@@ -272,8 +266,7 @@
                     "type": "Literal",
                     "start": 636,
                     "end": 639,
-                    "value": "a",
-                    "raw": "\"a\""
+                    "value": "a"
                   }
                 ],
                 "optional": false
@@ -327,15 +320,13 @@
                 "type": "Literal",
                 "start": 682,
                 "end": 683,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 685,
                 "end": 686,
-                "value": 7,
-                "raw": "7"
+                "value": 7
               },
               {
                 "type": "CallExpression",
@@ -352,8 +343,7 @@
                     "type": "Literal",
                     "start": 697,
                     "end": 700,
-                    "value": "b",
-                    "raw": "\"b\""
+                    "value": "b"
                   }
                 ],
                 "optional": false
@@ -407,15 +397,13 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 744,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 746,
                 "end": 747,
-                "value": 7,
-                "raw": "7"
+                "value": 7
               },
               {
                 "type": "CallExpression",
@@ -432,8 +420,7 @@
                     "type": "Literal",
                     "start": 758,
                     "end": 761,
-                    "value": "c",
-                    "raw": "\"c\""
+                    "value": "c"
                   }
                 ],
                 "optional": false
@@ -442,8 +429,7 @@
                 "type": "Literal",
                 "start": 764,
                 "end": 768,
-                "value": 1974,
-                "raw": "1974"
+                "value": 1974
               }
             ]
           }
@@ -523,8 +509,7 @@
             "type": "Literal",
             "start": 813,
             "end": 829,
-            "value": "different year",
-            "raw": "\"different year\""
+            "value": "different year"
           }
         ],
         "optional": false
@@ -574,8 +559,7 @@
             "type": "Literal",
             "start": 864,
             "end": 891,
-            "value": "Should not check calendar",
-            "raw": "\"Should not check calendar\""
+            "value": "Should not check calendar"
           }
         ],
         "optional": false
@@ -653,8 +637,7 @@
             "type": "Literal",
             "start": 936,
             "end": 956,
-            "value": "different calendar",
-            "raw": "\"different calendar\""
+            "value": "different calendar"
           }
         ],
         "optional": false
@@ -704,8 +687,7 @@
             "type": "Literal",
             "start": 997,
             "end": 1020,
-            "value": "Should check calendar",
-            "raw": "\"Should check calendar\""
+            "value": "Should check calendar"
           }
         ],
         "optional": false

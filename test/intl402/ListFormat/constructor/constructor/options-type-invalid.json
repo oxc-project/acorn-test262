@@ -34,78 +34,67 @@
                 "type": "Literal",
                 "start": 501,
                 "end": 502,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 506,
                 "end": 508,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 512,
                 "end": 525,
-                "value": "Conjunction",
-                "raw": "\"Conjunction\""
+                "value": "Conjunction"
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 542,
-                "value": "CONJUNCTION",
-                "raw": "\"CONJUNCTION\""
+                "value": "CONJUNCTION"
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 561,
-                "value": "conjunction\u0000",
-                "raw": "\"conjunction\\0\""
+                "value": "conjunction\u0000"
               },
               {
                 "type": "Literal",
                 "start": 565,
                 "end": 578,
-                "value": "Disjunction",
-                "raw": "\"Disjunction\""
+                "value": "Disjunction"
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 595,
-                "value": "DISJUNCTION",
-                "raw": "\"DISJUNCTION\""
+                "value": "DISJUNCTION"
               },
               {
                 "type": "Literal",
                 "start": 599,
                 "end": 614,
-                "value": "disjunction\u0000",
-                "raw": "\"disjunction\\0\""
+                "value": "disjunction\u0000"
               },
               {
                 "type": "Literal",
                 "start": 618,
                 "end": 624,
-                "value": "Unit",
-                "raw": "\"Unit\""
+                "value": "Unit"
               },
               {
                 "type": "Literal",
                 "start": 628,
                 "end": 634,
-                "value": "UNIT",
-                "raw": "\"UNIT\""
+                "value": "UNIT"
               },
               {
                 "type": "Literal",
                 "start": 638,
                 "end": 646,
-                "value": "unit\u0000",
-                "raw": "\"unit\\0\""
+                "value": "unit\u0000"
               }
             ]
           }
@@ -247,8 +236,7 @@
                                     "type": "Literal",
                                     "start": 768,
                                     "end": 774,
-                                    "value": "type",
-                                    "raw": "\"type\""
+                                    "value": "type"
                                   },
                                   "value": {
                                     "type": "Identifier",

@@ -53,8 +53,7 @@
             "type": "Literal",
             "start": 975,
             "end": 983,
-            "value": "᠎",
-            "raw": "\"\\u180E\""
+            "value": "᠎"
           }
         ],
         "optional": false

@@ -67,8 +67,7 @@
                     "type": "Literal",
                     "start": 347,
                     "end": 379,
-                    "value": "#1: !(null) === true. Actual: ",
-                    "raw": "'#1: !(null) === true. Actual: '"
+                    "value": "#1: !(null) === true. Actual: "
                   },
                   "operator": "+",
                   "right": {

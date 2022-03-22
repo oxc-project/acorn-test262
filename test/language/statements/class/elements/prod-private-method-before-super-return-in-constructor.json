@@ -148,14 +148,14 @@
                           "start": 1360,
                           "end": 1364
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1365,
                           "end": 1367,
                           "name": "m"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "arguments": [],
                       "optional": false
@@ -172,7 +172,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1377,
               "end": 1379,
               "name": "m"
@@ -200,8 +200,7 @@
                       "type": "Literal",
                       "start": 1391,
                       "end": 1393,
-                      "value": 42,
-                      "raw": "42"
+                      "value": 42
                     }
                   }
                 ]
@@ -267,8 +266,7 @@
                 "type": "Literal",
                 "start": 1434,
                 "end": 1437,
-                "value": "f",
-                "raw": "'f'"
+                "value": "f"
               }
             ],
             "optional": false
@@ -363,8 +361,7 @@
             "type": "Literal",
             "start": 1503,
             "end": 1559,
-            "value": "private methods are not installed before super returns",
-            "raw": "'private methods are not installed before super returns'"
+            "value": "private methods are not installed before super returns"
           }
         ],
         "optional": false

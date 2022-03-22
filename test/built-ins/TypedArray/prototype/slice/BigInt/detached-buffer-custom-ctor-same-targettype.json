@@ -58,8 +58,7 @@
                         "type": "Literal",
                         "start": 1298,
                         "end": 1299,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -95,8 +94,7 @@
                             "type": "Literal",
                             "start": 1323,
                             "end": 1324,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -404,8 +402,7 @@
                         "type": "Literal",
                         "start": 1573,
                         "end": 1608,
-                        "value": "`sample.slice()` throws TypeError",
-                        "raw": "'`sample.slice()` throws TypeError'"
+                        "value": "`sample.slice()` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -449,15 +446,13 @@
                         "type": "Literal",
                         "start": 1640,
                         "end": 1641,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 1643,
                         "end": 1672,
-                        "value": "The value of `counter` is 2",
-                        "raw": "'The value of `counter` is 2'"
+                        "value": "The value of `counter` is 2"
                       }
                     ],
                     "optional": false

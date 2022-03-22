@@ -27,71 +27,61 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 285,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               },
               {
                 "type": "Literal",
                 "start": 287,
                 "end": 290,
-                "value": "2",
-                "raw": "\"2\""
+                "value": "2"
               },
               {
                 "type": "Literal",
                 "start": 292,
                 "end": 295,
-                "value": "3",
-                "raw": "\"3\""
+                "value": "3"
               },
               {
                 "type": "Literal",
                 "start": 297,
                 "end": 300,
-                "value": "4",
-                "raw": "\"4\""
+                "value": "4"
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 305,
-                "value": "5",
-                "raw": "\"5\""
+                "value": "5"
               },
               {
                 "type": "Literal",
                 "start": 307,
                 "end": 310,
-                "value": "6",
-                "raw": "\"6\""
+                "value": "6"
               },
               {
                 "type": "Literal",
                 "start": 312,
                 "end": 315,
-                "value": "7",
-                "raw": "\"7\""
+                "value": "7"
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 320,
-                "value": "8",
-                "raw": "\"8\""
+                "value": "8"
               },
               {
                 "type": "Literal",
                 "start": 322,
                 "end": 325,
-                "value": "9",
-                "raw": "\"9\""
+                "value": "9"
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 330,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               }
             ]
           }
@@ -118,8 +108,7 @@
             "type": "Literal",
             "start": 349,
             "end": 366,
-            "value": "123456abcde7890",
-            "raw": "\"123456abcde7890\""
+            "value": "123456abcde7890"
           }
         }
       ],
@@ -166,7 +155,6 @@
                 "start": 477,
                 "end": 485,
                 "value": {},
-                "raw": "/\\d{1}/g",
                 "regex": {
                   "pattern": "\\d{1}",
                   "flags": "g"
@@ -189,8 +177,7 @@
           "type": "Literal",
           "start": 498,
           "end": 500,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       },
       "consequent": {
@@ -221,8 +208,7 @@
                     "type": "Literal",
                     "start": 529,
                     "end": 613,
-                    "value": "#1: __string = \"123456abcde7890\"; __string.match(/\\d{1}/g).length=== 10. Actual: ",
-                    "raw": "'#1: __string = \"123456abcde7890\"; __string.match(/\\\\d{1}/g).length=== 10. Actual: '"
+                    "value": "#1: __string = \"123456abcde7890\"; __string.match(/\\d{1}/g).length=== 10. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -258,7 +244,6 @@
                           "start": 631,
                           "end": 639,
                           "value": {},
-                          "raw": "/\\d{1}/g",
                           "regex": {
                             "pattern": "\\d{1}",
                             "flags": "g"
@@ -307,8 +292,7 @@
               "type": "Literal",
               "start": 838,
               "end": 839,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -404,7 +388,6 @@
                       "start": 893,
                       "end": 901,
                       "value": {},
-                      "raw": "/\\d{1}/g",
                       "regex": {
                         "pattern": "\\d{1}",
                         "flags": "g"
@@ -495,8 +478,7 @@
                                       "type": "Literal",
                                       "start": 955,
                                       "end": 960,
-                                      "value": "#2.",
-                                      "raw": "'#2.'"
+                                      "value": "#2."
                                     },
                                     "operator": "+",
                                     "right": {
@@ -511,8 +493,7 @@
                                     "type": "Literal",
                                     "start": 968,
                                     "end": 1090,
-                                    "value": ": __matches=[\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"0\"]; __string = \"123456abcde7890\"; __string.match(/\\d{1}/g)[",
-                                    "raw": "': __matches=[\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"0\"]; __string = \"123456abcde7890\"; __string.match(/\\\\d{1}/g)['"
+                                    "value": ": __matches=[\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"0\"]; __string = \"123456abcde7890\"; __string.match(/\\d{1}/g)["
                                   }
                                 },
                                 "operator": "+",
@@ -528,8 +509,7 @@
                                 "type": "Literal",
                                 "start": 1098,
                                 "end": 1114,
-                                "value": "]===__matches[",
-                                "raw": "']===__matches['"
+                                "value": "]===__matches["
                               }
                             },
                             "operator": "+",
@@ -545,8 +525,7 @@
                             "type": "Literal",
                             "start": 1122,
                             "end": 1135,
-                            "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "value": "]. Actual: "
                           }
                         },
                         "operator": "+",
@@ -583,7 +562,6 @@
                                 "start": 1153,
                                 "end": 1161,
                                 "value": {},
-                                "raw": "/\\d{1}/g",
                                 "regex": {
                                   "pattern": "\\d{1}",
                                   "flags": "g"

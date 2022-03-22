@@ -79,8 +79,7 @@
             "type": "Literal",
             "start": 798,
             "end": 837,
-            "value": "binding is initialized to `undefined`",
-            "raw": "'binding is initialized to `undefined`'"
+            "value": "binding is initialized to `undefined`"
           }
         ],
         "optional": false
@@ -111,8 +110,7 @@
             "type": "Literal",
             "start": 864,
             "end": 867,
-            "value": "f",
-            "raw": "\"f\""
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -199,8 +197,7 @@
         "type": "Literal",
         "start": 944,
         "end": 945,
-        "value": 1,
-        "raw": "1"
+        "value": 1
       },
       "cases": [
         {

@@ -23,7 +23,6 @@
             "start": 1746,
             "end": 1749,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -70,8 +69,7 @@
                   "type": "Literal",
                   "start": 1784,
                   "end": 1785,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -86,15 +84,13 @@
                   "type": "Literal",
                   "start": 1789,
                   "end": 1790,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1792,
                   "end": 1795,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               },
@@ -115,8 +111,7 @@
                   "type": "Literal",
                   "start": 1806,
                   "end": 1807,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -191,8 +186,7 @@
                                       "type": "Literal",
                                       "start": 1876,
                                       "end": 1892,
-                                      "value": "toString value",
-                                      "raw": "'toString value'"
+                                      "value": "toString value"
                                     }
                                   }
                                 ]
@@ -246,8 +240,7 @@
                                           "type": "Literal",
                                           "start": 1962,
                                           "end": 1998,
-                                          "value": "This method should not be invoked.",
-                                          "raw": "'This method should not be invoked.'"
+                                          "value": "This method should not be invoked."
                                         }
                                       ]
                                     }
@@ -420,15 +413,13 @@
                 "type": "Literal",
                 "start": 2127,
                 "end": 2131,
-                "value": "ab",
-                "raw": "'ab'"
+                "value": "ab"
               },
               {
                 "type": "Literal",
                 "start": 2133,
                 "end": 2143,
-                "value": "[$<foo>]",
-                "raw": "'[$<foo>]'"
+                "value": "[$<foo>]"
               }
             ],
             "optional": false
@@ -437,8 +428,7 @@
             "type": "Literal",
             "start": 2146,
             "end": 2165,
-            "value": "[toString value]b",
-            "raw": "'[toString value]b'"
+            "value": "[toString value]b"
           }
         ],
         "optional": false
@@ -513,15 +503,13 @@
                 "type": "Literal",
                 "start": 2203,
                 "end": 2207,
-                "value": "ab",
-                "raw": "'ab'"
+                "value": "ab"
               },
               {
                 "type": "Literal",
                 "start": 2209,
                 "end": 2219,
-                "value": "[$<bar>]",
-                "raw": "'[$<bar>]'"
+                "value": "[$<bar>]"
               }
             ],
             "optional": false
@@ -530,8 +518,7 @@
             "type": "Literal",
             "start": 2222,
             "end": 2231,
-            "value": "[null]b",
-            "raw": "'[null]b'"
+            "value": "[null]b"
           }
         ],
         "optional": false

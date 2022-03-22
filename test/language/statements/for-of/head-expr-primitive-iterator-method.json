@@ -166,8 +166,7 @@
                     "type": "Literal",
                     "start": 409,
                     "end": 411,
-                    "value": 37,
-                    "raw": "37"
+                    "value": 37
                   },
                   "body": {
                     "type": "BlockStatement",

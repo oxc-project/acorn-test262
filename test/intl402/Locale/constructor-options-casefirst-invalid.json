@@ -27,43 +27,37 @@
                 "type": "Literal",
                 "start": 695,
                 "end": 697,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 701,
                 "end": 704,
-                "value": "u",
-                "raw": "\"u\""
+                "value": "u"
               },
               {
                 "type": "Literal",
                 "start": 708,
                 "end": 715,
-                "value": "Upper",
-                "raw": "\"Upper\""
+                "value": "Upper"
               },
               {
                 "type": "Literal",
                 "start": 719,
                 "end": 728,
-                "value": "upper\u0000",
-                "raw": "\"upper\\0\""
+                "value": "upper\u0000"
               },
               {
                 "type": "Literal",
                 "start": 732,
                 "end": 743,
-                "value": "uppercase",
-                "raw": "\"uppercase\""
+                "value": "uppercase"
               },
               {
                 "type": "Literal",
                 "start": 747,
                 "end": 753,
-                "value": "true",
-                "raw": "\"true\""
+                "value": "true"
               },
               {
                 "type": "ObjectExpression",
@@ -238,8 +232,7 @@
                               "type": "Literal",
                               "start": 905,
                               "end": 909,
-                              "value": "en",
-                              "raw": "\"en\""
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",

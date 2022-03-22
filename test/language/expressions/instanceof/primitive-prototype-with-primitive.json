@@ -76,8 +76,7 @@
               "type": "Literal",
               "start": 781,
               "end": 782,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "instanceof",
             "right": {

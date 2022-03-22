@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 350,
-                "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "value": "2019-10-01T09:00:00Z"
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 381,
-                "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "value": "2019-10-01T09:00:00Z[UTC]"
               }
             ]
           }
@@ -236,8 +234,7 @@
                         "type": "Literal",
                         "start": 555,
                         "end": 635,
-                        "value": "String with UTC designator should not be valid as a PlainTime (first argument)",
-                        "raw": "\"String with UTC designator should not be valid as a PlainTime (first argument)\""
+                        "value": "String with UTC designator should not be valid as a PlainTime (first argument)"
                       }
                     ],
                     "optional": false
@@ -343,8 +340,7 @@
                         "type": "Literal",
                         "start": 732,
                         "end": 813,
-                        "value": "String with UTC designator should not be valid as a PlainTime (second argument)",
-                        "raw": "\"String with UTC designator should not be valid as a PlainTime (second argument)\""
+                        "value": "String with UTC designator should not be valid as a PlainTime (second argument)"
                       }
                     ],
                     "optional": false

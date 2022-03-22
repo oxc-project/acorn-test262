@@ -127,8 +127,7 @@
                     "type": "Literal",
                     "start": 520,
                     "end": 596,
-                    "value": "#1: var __obj={}; __obj.hole=undefined; __obj.hole === undefined. Actual: ",
-                    "raw": "'#1: var __obj={}; __obj.hole=undefined; __obj.hole === undefined. Actual: '"
+                    "value": "#1: var __obj={}; __obj.hole=undefined; __obj.hole === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -226,8 +225,7 @@
                     "type": "Literal",
                     "start": 849,
                     "end": 929,
-                    "value": "#2: var __obj={}; __obj.hole=undefined; __obj.notexist === undefined. Actual: ",
-                    "raw": "'#2: var __obj={}; __obj.hole=undefined; __obj.notexist === undefined. Actual: '"
+                    "value": "#2: var __obj={}; __obj.hole=undefined; __obj.notexist === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -284,8 +282,7 @@
               "type": "Literal",
               "start": 1131,
               "end": 1137,
-              "value": "hole",
-              "raw": "\"hole\""
+              "value": "hole"
             },
             "operator": "in",
             "right": {
@@ -321,8 +318,7 @@
                   "type": "Literal",
                   "start": 1176,
                   "end": 1233,
-                  "value": "#3: var __obj={}; __obj.hole=undefined; \"hole\" in __obj",
-                  "raw": "'#3: var __obj={}; __obj.hole=undefined; \"hole\" in __obj'"
+                  "value": "#3: var __obj={}; __obj.hole=undefined; \"hole\" in __obj"
                 }
               ]
             }
@@ -347,8 +343,7 @@
             "type": "Literal",
             "start": 1415,
             "end": 1425,
-            "value": "notexist",
-            "raw": "\"notexist\""
+            "value": "notexist"
           },
           "operator": "in",
           "right": {
@@ -383,8 +378,7 @@
                   "type": "Literal",
                   "start": 1464,
                   "end": 1525,
-                  "value": "#4: var __obj={}; __obj.hole=undefined; \"notexist\" in __obj",
-                  "raw": "'#4: var __obj={}; __obj.hole=undefined; \"notexist\" in __obj'"
+                  "value": "#4: var __obj={}; __obj.hole=undefined; \"notexist\" in __obj"
                 }
               ]
             }

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 395,
             "end": 545,
-            "value": " break else new var case finally return void catch for switch while continue function this with default if throw delete in try do instanceof typeof ",
-            "raw": "\" break else new var case finally return void catch for switch while continue function this with default if throw delete in try do instanceof typeof \""
+            "value": " break else new var case finally return void catch for switch while continue function this with default if throw delete in try do instanceof typeof "
           }
         }
       ],

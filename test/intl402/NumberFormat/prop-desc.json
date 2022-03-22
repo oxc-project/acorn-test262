@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 947,
             "end": 961,
-            "value": "NumberFormat",
-            "raw": "'NumberFormat'"
+            "value": "NumberFormat"
           },
           {
             "type": "ObjectExpression",

@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 658,
                       "end": 659,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -146,8 +145,7 @@
                               "type": "Literal",
                               "start": 735,
                               "end": 766,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -249,22 +247,19 @@
                         "type": "Literal",
                         "start": 836,
                         "end": 837,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 839,
                         "end": 840,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 842,
                         "end": 843,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -277,8 +272,7 @@
             "type": "Literal",
             "start": 849,
             "end": 897,
-            "value": "`Atomics.wait(i32a, 0, 0, 0)` throws TypeError",
-            "raw": "'`Atomics.wait(i32a, 0, 0, 0)` throws TypeError'"
+            "value": "`Atomics.wait(i32a, 0, 0, 0)` throws TypeError"
           }
         ],
         "optional": false
@@ -395,8 +389,7 @@
             "type": "Literal",
             "start": 994,
             "end": 1063,
-            "value": "`Atomics.wait(i32a, poisoned, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.wait(i32a, poisoned, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.wait(i32a, poisoned, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

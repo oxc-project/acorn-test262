@@ -68,8 +68,7 @@
             "type": "Literal",
             "start": 326,
             "end": 371,
-            "value": "The value of delete Date.parse is not false",
-            "raw": "'The value of delete Date.parse is not false'"
+            "value": "The value of delete Date.parse is not false"
           }
         ],
         "optional": false
@@ -124,8 +123,7 @@
                   "type": "Literal",
                   "start": 402,
                   "end": 409,
-                  "value": "parse",
-                  "raw": "'parse'"
+                  "value": "parse"
                 }
               ],
               "optional": false
@@ -135,8 +133,7 @@
             "type": "Literal",
             "start": 412,
             "end": 481,
-            "value": "The value of !Date.hasOwnProperty('parse') is expected to be true",
-            "raw": "'The value of !Date.hasOwnProperty(\\'parse\\') is expected to be true'"
+            "value": "The value of !Date.hasOwnProperty('parse') is expected to be true"
           }
         ],
         "optional": false

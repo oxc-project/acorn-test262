@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 344,
                 "end": 353,
-                "value": "1994-11",
-                "raw": "\"1994-11\""
+                "value": "1994-11"
               }
             ],
             "optional": false
@@ -125,8 +124,7 @@
                 "type": "Literal",
                 "start": 392,
                 "end": 400,
-                "value": "P18Y7M",
-                "raw": "\"P18Y7M\""
+                "value": "P18Y7M"
               }
             ],
             "optional": false
@@ -200,22 +198,19 @@
             "type": "Literal",
             "start": 457,
             "end": 461,
-            "value": 2013,
-            "raw": "2013"
+            "value": 2013
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 464,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           },
           {
             "type": "Literal",
             "start": 466,
             "end": 471,
-            "value": "M06",
-            "raw": "\"M06\""
+            "value": "M06"
           }
         ],
         "optional": false

@@ -79,8 +79,7 @@
             "type": "Literal",
             "start": 645,
             "end": 655,
-            "value": "findLast",
-            "raw": "\"findLast\""
+            "value": "findLast"
           },
           {
             "type": "ObjectExpression",

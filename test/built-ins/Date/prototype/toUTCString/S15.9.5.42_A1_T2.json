@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 382,
             "end": 443,
-            "value": "The value of delete Date.prototype.toUTCString is not false",
-            "raw": "'The value of delete Date.prototype.toUTCString is not false'"
+            "value": "The value of delete Date.prototype.toUTCString is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 489,
                   "end": 502,
-                  "value": "toUTCString",
-                  "raw": "'toUTCString'"
+                  "value": "toUTCString"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 507,
             "end": 592,
-            "value": "The value of !Date.prototype.hasOwnProperty('toUTCString') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'toUTCString\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('toUTCString') is expected to be true"
           }
         ],
         "optional": false

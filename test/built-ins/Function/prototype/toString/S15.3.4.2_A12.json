@@ -122,8 +122,7 @@
             "type": "Literal",
             "start": 410,
             "end": 484,
-            "value": "Function.prototype.toString.call(undefined) throws a TypeError exception",
-            "raw": "'Function.prototype.toString.call(undefined) throws a TypeError exception'"
+            "value": "Function.prototype.toString.call(undefined) throws a TypeError exception"
           }
         ],
         "optional": false

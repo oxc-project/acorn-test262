@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 320,
             "end": 323,
-            "value": "h",
-            "raw": "\"h\""
+            "value": "h"
           }
         }
       ],
@@ -134,8 +133,7 @@
                     "type": "Literal",
                     "start": 485,
                     "end": 488,
-                    "value": "g",
-                    "raw": "\"g\""
+                    "value": "g"
                   },
                   "kind": "init",
                   "value": {
@@ -265,8 +263,7 @@
             "type": "Literal",
             "start": 714,
             "end": 781,
-            "value": "async /* a */ * /* b */ f /* c */ ( /* d */ ) /* e */ { /* f */ }",
-            "raw": "\"async /* a */ * /* b */ f /* c */ ( /* d */ ) /* e */ { /* f */ }\""
+            "value": "async /* a */ * /* b */ f /* c */ ( /* d */ ) /* e */ { /* f */ }"
           }
         ],
         "optional": false
@@ -297,8 +294,7 @@
             "type": "Literal",
             "start": 818,
             "end": 909,
-            "value": "async /* a */ * /* b */ [ /* c */ \"g\" /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }",
-            "raw": "\"async /* a */ * /* b */ [ /* c */ \\\"g\\\" /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }\""
+            "value": "async /* a */ * /* b */ [ /* c */ \"g\" /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }"
           }
         ],
         "optional": false
@@ -329,8 +325,7 @@
             "type": "Literal",
             "start": 946,
             "end": 1033,
-            "value": "async /* a */ * /* b */ [ /* c */ x /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }",
-            "raw": "\"async /* a */ * /* b */ [ /* c */ x /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }\""
+            "value": "async /* a */ * /* b */ [ /* c */ x /* d */ ] /* e */ ( /* f */ ) /* g */ { /* h */ }"
           }
         ],
         "optional": false

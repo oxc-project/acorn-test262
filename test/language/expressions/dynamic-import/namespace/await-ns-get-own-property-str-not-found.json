@@ -49,8 +49,7 @@
                       "type": "Literal",
                       "start": 4026,
                       "end": 4052,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   }
                 }
@@ -166,8 +165,7 @@
                       "type": "Literal",
                       "start": 4140,
                       "end": 4148,
-                      "value": "local2",
-                      "raw": "'local2'"
+                      "value": "local2"
                     }
                   ],
                   "optional": false
@@ -183,8 +181,7 @@
                   "type": "Literal",
                   "start": 4170,
                   "end": 4194,
-                  "value": "hasOwnProperty: local2",
-                  "raw": "'hasOwnProperty: local2'"
+                  "value": "hasOwnProperty: local2"
                 }
               ],
               "optional": false
@@ -239,8 +236,7 @@
                     "type": "Literal",
                     "start": 4249,
                     "end": 4257,
-                    "value": "local2",
-                    "raw": "'local2'"
+                    "value": "local2"
                   }
                 ],
                 "optional": false
@@ -291,8 +287,7 @@
                   "type": "Literal",
                   "start": 4298,
                   "end": 4332,
-                  "value": "property descriptor for \"local2\"",
-                  "raw": "'property descriptor for \"local2\"'"
+                  "value": "property descriptor for \"local2\""
                 }
               ],
               "optional": false
@@ -386,8 +381,7 @@
                       "type": "Literal",
                       "start": 4405,
                       "end": 4418,
-                      "value": "toStringTag",
-                      "raw": "'toStringTag'"
+                      "value": "toStringTag"
                     }
                   ],
                   "optional": false
@@ -403,8 +397,7 @@
                   "type": "Literal",
                   "start": 4440,
                   "end": 4469,
-                  "value": "hasOwnProperty: toStringTag",
-                  "raw": "'hasOwnProperty: toStringTag'"
+                  "value": "hasOwnProperty: toStringTag"
                 }
               ],
               "optional": false
@@ -459,8 +452,7 @@
                     "type": "Literal",
                     "start": 4524,
                     "end": 4537,
-                    "value": "toStringTag",
-                    "raw": "'toStringTag'"
+                    "value": "toStringTag"
                   }
                 ],
                 "optional": false
@@ -511,8 +503,7 @@
                   "type": "Literal",
                   "start": 4578,
                   "end": 4617,
-                  "value": "property descriptor for \"toStringTag\"",
-                  "raw": "'property descriptor for \"toStringTag\"'"
+                  "value": "property descriptor for \"toStringTag\""
                 }
               ],
               "optional": false
@@ -606,8 +597,7 @@
                       "type": "Literal",
                       "start": 4690,
                       "end": 4700,
-                      "value": "iterator",
-                      "raw": "'iterator'"
+                      "value": "iterator"
                     }
                   ],
                   "optional": false
@@ -623,8 +613,7 @@
                   "type": "Literal",
                   "start": 4722,
                   "end": 4748,
-                  "value": "hasOwnProperty: iterator",
-                  "raw": "'hasOwnProperty: iterator'"
+                  "value": "hasOwnProperty: iterator"
                 }
               ],
               "optional": false
@@ -679,8 +668,7 @@
                     "type": "Literal",
                     "start": 4803,
                     "end": 4813,
-                    "value": "iterator",
-                    "raw": "'iterator'"
+                    "value": "iterator"
                   }
                 ],
                 "optional": false
@@ -731,8 +719,7 @@
                   "type": "Literal",
                   "start": 4854,
                   "end": 4890,
-                  "value": "property descriptor for \"iterator\"",
-                  "raw": "'property descriptor for \"iterator\"'"
+                  "value": "property descriptor for \"iterator\""
                 }
               ],
               "optional": false
@@ -826,8 +813,7 @@
                       "type": "Literal",
                       "start": 4963,
                       "end": 4974,
-                      "value": "__proto__",
-                      "raw": "'__proto__'"
+                      "value": "__proto__"
                     }
                   ],
                   "optional": false
@@ -843,8 +829,7 @@
                   "type": "Literal",
                   "start": 4996,
                   "end": 5023,
-                  "value": "hasOwnProperty: __proto__",
-                  "raw": "'hasOwnProperty: __proto__'"
+                  "value": "hasOwnProperty: __proto__"
                 }
               ],
               "optional": false
@@ -899,8 +884,7 @@
                     "type": "Literal",
                     "start": 5078,
                     "end": 5089,
-                    "value": "__proto__",
-                    "raw": "'__proto__'"
+                    "value": "__proto__"
                   }
                 ],
                 "optional": false
@@ -951,8 +935,7 @@
                   "type": "Literal",
                   "start": 5130,
                   "end": 5167,
-                  "value": "property descriptor for \"__proto__\"",
-                  "raw": "'property descriptor for \"__proto__\"'"
+                  "value": "property descriptor for \"__proto__\""
                 }
               ],
               "optional": false

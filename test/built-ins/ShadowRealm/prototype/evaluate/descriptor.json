@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 376,
             "end": 386,
-            "value": "evaluate",
-            "raw": "\"evaluate\""
+            "value": "evaluate"
           },
           {
             "type": "ObjectExpression",

@@ -117,8 +117,7 @@
           "type": "Literal",
           "start": 352,
           "end": 362,
-          "value": "infinity",
-          "raw": "\"infinity\""
+          "value": "infinity"
         }
       },
       "consequent": {
@@ -149,8 +148,7 @@
                     "type": "Literal",
                     "start": 391,
                     "end": 504,
-                    "value": "#1: Number.prototype.toLowerCase = String.prototype.toLowerCase; Infinity.toLowerCase()=== \"infinity\". Actual: ",
-                    "raw": "'#1: Number.prototype.toLowerCase = String.prototype.toLowerCase; Infinity.toLowerCase()=== \"infinity\". Actual: '"
+                    "value": "#1: Number.prototype.toLowerCase = String.prototype.toLowerCase; Infinity.toLowerCase()=== \"infinity\". Actual: "
                   },
                   "operator": "+",
                   "right": {

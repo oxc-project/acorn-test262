@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 365,
             "end": 376,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",

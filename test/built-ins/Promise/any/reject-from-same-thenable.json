@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 644,
             "end": 645,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -120,8 +119,7 @@
                       "type": "Literal",
                       "start": 737,
                       "end": 738,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -642,15 +640,13 @@
             "type": "Literal",
             "start": 1167,
             "end": 1168,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1170,
             "end": 1202,
-            "value": "callCount before call to any()",
-            "raw": "'callCount before call to any()'"
+            "value": "callCount before call to any()"
           }
         ],
         "optional": false
@@ -770,15 +766,13 @@
             "type": "Literal",
             "start": 1280,
             "end": 1281,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1283,
             "end": 1314,
-            "value": "callCount after call to any()",
-            "raw": "'callCount after call to any()'"
+            "value": "callCount after call to any()"
           }
         ],
         "optional": false
@@ -803,8 +797,7 @@
             "type": "Literal",
             "start": 1331,
             "end": 1345,
-            "value": "p1-rejection",
-            "raw": "'p1-rejection'"
+            "value": "p1-rejection"
           }
         ],
         "optional": false
@@ -829,8 +822,7 @@
             "type": "Literal",
             "start": 1361,
             "end": 1388,
-            "value": "p1-rejection-unexpected-1",
-            "raw": "'p1-rejection-unexpected-1'"
+            "value": "p1-rejection-unexpected-1"
           }
         ],
         "optional": false
@@ -855,8 +847,7 @@
             "type": "Literal",
             "start": 1404,
             "end": 1431,
-            "value": "p1-rejection-unexpected-2",
-            "raw": "'p1-rejection-unexpected-2'"
+            "value": "p1-rejection-unexpected-2"
           }
         ],
         "optional": false
@@ -900,15 +891,13 @@
             "type": "Literal",
             "start": 1463,
             "end": 1464,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1466,
             "end": 1496,
-            "value": "callCount after resolving p1",
-            "raw": "'callCount after resolving p1'"
+            "value": "callCount after resolving p1"
           }
         ],
         "optional": false
@@ -933,8 +922,7 @@
             "type": "Literal",
             "start": 1513,
             "end": 1527,
-            "value": "p2-rejection",
-            "raw": "'p2-rejection'"
+            "value": "p2-rejection"
           }
         ],
         "optional": false
@@ -959,8 +947,7 @@
             "type": "Literal",
             "start": 1543,
             "end": 1557,
-            "value": "p3-rejection",
-            "raw": "'p3-rejection'"
+            "value": "p3-rejection"
           }
         ],
         "optional": false
@@ -1004,15 +991,13 @@
             "type": "Literal",
             "start": 1589,
             "end": 1590,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1592,
             "end": 1632,
-            "value": "callCount after resolving all elements",
-            "raw": "'callCount after resolving all elements'"
+            "value": "callCount after resolving all elements"
           }
         ],
         "optional": false

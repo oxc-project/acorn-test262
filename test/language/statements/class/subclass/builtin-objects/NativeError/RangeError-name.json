@@ -108,8 +108,7 @@
             "type": "Literal",
             "start": 546,
             "end": 558,
-            "value": "RangeError",
-            "raw": "'RangeError'"
+            "value": "RangeError"
           }
         ],
         "optional": false

@@ -78,8 +78,7 @@
           "type": "Literal",
           "start": 387,
           "end": 389,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -113,8 +112,7 @@
               "type": "Literal",
               "start": 411,
               "end": 473,
-              "value": "for(ind in (hash={2:'b',1:'a',4:'d',3:'c'}))__str+=hash[ind]",
-              "raw": "\"for(ind in (hash={2:'b',1:'a',4:'d',3:'c'}))__str+=hash[ind]\""
+              "value": "for(ind in (hash={2:'b',1:'a',4:'d',3:'c'}))__str+=hash[ind]"
             }
           ],
           "optional": false
@@ -183,8 +181,7 @@
                           "type": "Literal",
                           "start": 595,
                           "end": 598,
-                          "value": "a",
-                          "raw": "\"a\""
+                          "value": "a"
                         }
                       ],
                       "optional": false
@@ -200,8 +197,7 @@
                         "type": "Literal",
                         "start": 603,
                         "end": 604,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -243,8 +239,7 @@
                           "type": "Literal",
                           "start": 628,
                           "end": 631,
-                          "value": "b",
-                          "raw": "\"b\""
+                          "value": "b"
                         }
                       ],
                       "optional": false
@@ -260,8 +255,7 @@
                         "type": "Literal",
                         "start": 636,
                         "end": 637,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -304,8 +298,7 @@
                         "type": "Literal",
                         "start": 661,
                         "end": 664,
-                        "value": "c",
-                        "raw": "\"c\""
+                        "value": "c"
                       }
                     ],
                     "optional": false
@@ -321,8 +314,7 @@
                       "type": "Literal",
                       "start": 669,
                       "end": 670,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -365,8 +357,7 @@
                       "type": "Literal",
                       "start": 693,
                       "end": 696,
-                      "value": "d",
-                      "raw": "\"d\""
+                      "value": "d"
                     }
                   ],
                   "optional": false
@@ -382,8 +373,7 @@
                     "type": "Literal",
                     "start": 701,
                     "end": 702,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               }
@@ -415,8 +405,7 @@
                   "type": "Literal",
                   "start": 734,
                   "end": 869,
-                  "value": "#1: (__evaluated.indexOf(\"a\")!==-1)& (__evaluated.indexOf(\"b\")!==-1)& (__evaluated.indexOf(\"c\")!==-1)&(__evaluated.indexOf(\"d\")!==-1)",
-                  "raw": "'#1: (__evaluated.indexOf(\"a\")!==-1)& (__evaluated.indexOf(\"b\")!==-1)& (__evaluated.indexOf(\"c\")!==-1)&(__evaluated.indexOf(\"d\")!==-1)'"
+                  "value": "#1: (__evaluated.indexOf(\"a\")!==-1)& (__evaluated.indexOf(\"b\")!==-1)& (__evaluated.indexOf(\"c\")!==-1)&(__evaluated.indexOf(\"d\")!==-1)"
                 }
               ]
             }
@@ -475,8 +464,7 @@
                     "type": "Literal",
                     "start": 1099,
                     "end": 1146,
-                    "value": "#2: __str === __evaluated. Actual:  __str ===",
-                    "raw": "'#2: __str === __evaluated. Actual:  __str ==='"
+                    "value": "#2: __str === __evaluated. Actual:  __str ==="
                   },
                   "operator": "+",
                   "right": {

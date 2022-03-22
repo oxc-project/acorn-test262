@@ -50,8 +50,7 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ]
           }
@@ -145,8 +144,7 @@
             "type": "Literal",
             "start": 427,
             "end": 473,
-            "value": "`subclass_regexp.compile()` throws TypeError",
-            "raw": "\"`subclass_regexp.compile()` throws TypeError\""
+            "value": "`subclass_regexp.compile()` throws TypeError"
           }
         ],
         "optional": false
@@ -271,8 +269,7 @@
             "type": "Literal",
             "start": 581,
             "end": 648,
-            "value": "`RegExp.prototype.compile.call(subclass_regexp)` throws TypeError",
-            "raw": "\"`RegExp.prototype.compile.call(subclass_regexp)` throws TypeError\""
+            "value": "`RegExp.prototype.compile.call(subclass_regexp)` throws TypeError"
           }
         ],
         "optional": false

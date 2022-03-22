@@ -46,16 +46,14 @@
                       "type": "Literal",
                       "start": 1247,
                       "end": 1283,
-                      "value": "./dynamic-import-module_FIXTURE.js",
-                      "raw": "'./dynamic-import-module_FIXTURE.js'"
+                      "value": "./dynamic-import-module_FIXTURE.js"
                     }
                   },
                   "property": {
                     "type": "Literal",
                     "start": 1285,
                     "end": 1291,
-                    "value": "then",
-                    "raw": "'then'"
+                    "value": "then"
                   },
                   "computed": true,
                   "optional": false
@@ -257,8 +255,7 @@
                                 "type": "Literal",
                                 "start": 1378,
                                 "end": 1379,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             ],
                             "optional": false

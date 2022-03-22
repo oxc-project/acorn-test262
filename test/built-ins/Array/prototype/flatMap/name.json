@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 424,
             "end": 433,
-            "value": "flatMap",
-            "raw": "'flatMap'"
+            "value": "flatMap"
           },
           {
             "type": "Literal",
             "start": 437,
             "end": 497,
-            "value": "The value of `Array.prototype.flatMap.name` is `\"flatMap\"`",
-            "raw": "'The value of `Array.prototype.flatMap.name` is `\"flatMap\"`'"
+            "value": "The value of `Array.prototype.flatMap.name` is `\"flatMap\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 542,
             "end": 548,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

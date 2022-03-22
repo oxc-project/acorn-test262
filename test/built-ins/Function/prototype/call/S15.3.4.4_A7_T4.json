@@ -54,8 +54,7 @@
                             "type": "Literal",
                             "start": 342,
                             "end": 353,
-                            "value": "this.p1=1",
-                            "raw": "\"this.p1=1\""
+                            "value": "this.p1=1"
                           }
                         ],
                         "optional": false
@@ -95,8 +94,7 @@
                   "type": "Literal",
                   "start": 387,
                   "end": 455,
-                  "value": "#1: Function.prototype.call can't be used as [[Construct]] caller",
-                  "raw": "'#1: Function.prototype.call can\\'t be used as [[Construct]] caller'"
+                  "value": "#1: Function.prototype.call can't be used as [[Construct]] caller"
                 }
               ]
             }
@@ -155,8 +153,7 @@
                     "type": "Literal",
                     "start": 505,
                     "end": 579,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                   }
                 ],
                 "optional": false

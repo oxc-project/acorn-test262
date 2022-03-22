@@ -211,8 +211,7 @@
                 "type": "Literal",
                 "start": 455,
                 "end": 461,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -296,8 +295,7 @@
             "type": "Literal",
             "start": 527,
             "end": 537,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false
@@ -346,8 +344,7 @@
                 "type": "Literal",
                 "start": 569,
                 "end": 575,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -356,8 +353,7 @@
             "type": "Literal",
             "start": 578,
             "end": 618,
-            "value": "newObj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
+            "value": "newObj.hasOwnProperty(\"prop\") !== true"
           }
         ],
         "optional": false

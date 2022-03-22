@@ -46,8 +46,7 @@
             "type": "Literal",
             "start": 349,
             "end": 350,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -78,8 +77,7 @@
           "type": "Literal",
           "start": 474,
           "end": 475,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -106,8 +104,7 @@
                   "type": "Literal",
                   "start": 503,
                   "end": 609,
-                  "value": "#1: the inner statement of a do-loop should be evaluated before the expression: false evaluates to false",
-                  "raw": "'#1: the inner statement of a do-loop should be evaluated before the expression: false evaluates to false'"
+                  "value": "#1: the inner statement of a do-loop should be evaluated before the expression: false evaluates to false"
                 }
               ]
             }
@@ -139,8 +136,7 @@
             "type": "Literal",
             "start": 709,
             "end": 710,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       },
@@ -148,8 +144,7 @@
         "type": "Literal",
         "start": 720,
         "end": 721,
-        "value": 0,
-        "raw": "0"
+        "value": 0
       }
     },
     {
@@ -171,8 +166,7 @@
           "type": "Literal",
           "start": 830,
           "end": 831,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -199,8 +193,7 @@
                   "type": "Literal",
                   "start": 859,
                   "end": 961,
-                  "value": "#2: the inner statement of a do-loop should be evaluated before the expression: 0 evaluates to false",
-                  "raw": "'#2: the inner statement of a do-loop should be evaluated before the expression: 0 evaluates to false'"
+                  "value": "#2: the inner statement of a do-loop should be evaluated before the expression: 0 evaluates to false"
                 }
               ]
             }
@@ -232,8 +225,7 @@
             "type": "Literal",
             "start": 1061,
             "end": 1062,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         }
       },
@@ -241,8 +233,7 @@
         "type": "Literal",
         "start": 1072,
         "end": 1074,
-        "value": "",
-        "raw": "\"\""
+        "value": ""
       }
     },
     {
@@ -264,8 +255,7 @@
           "type": "Literal",
           "start": 1183,
           "end": 1184,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -292,8 +282,7 @@
                   "type": "Literal",
                   "start": 1212,
                   "end": 1315,
-                  "value": "#3: the inner statement of a do-loop should be evaluated before the expression: \"\" evaluates to false",
-                  "raw": "'#3: the inner statement of a do-loop should be evaluated before the expression: \"\" evaluates to false'"
+                  "value": "#3: the inner statement of a do-loop should be evaluated before the expression: \"\" evaluates to false"
                 }
               ]
             }

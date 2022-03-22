@@ -81,8 +81,7 @@
                             "type": "Literal",
                             "start": 390,
                             "end": 394,
-                            "value": "\\",
-                            "raw": "'\\\\'"
+                            "value": "\\"
                           }
                         ]
                       }

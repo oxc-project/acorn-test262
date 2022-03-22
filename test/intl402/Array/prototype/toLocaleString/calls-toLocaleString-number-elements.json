@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 287,
             "end": 288,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 304,
             "end": 318,
-            "value": "th-u-nu-thai",
-            "raw": "\"th-u-nu-thai\""
+            "value": "th-u-nu-thai"
           }
         }
       ],
@@ -92,8 +90,7 @@
                   "type": "Literal",
                   "start": 363,
                   "end": 364,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               }

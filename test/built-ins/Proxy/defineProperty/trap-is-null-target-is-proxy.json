@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 758,
             "end": 763,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -327,8 +326,7 @@
                         "type": "Literal",
                         "start": 1010,
                         "end": 1015,
-                        "value": "foo",
-                        "raw": "\"foo\""
+                        "value": "foo"
                       },
                       {
                         "type": "ObjectExpression",
@@ -408,8 +406,7 @@
             "type": "Literal",
             "start": 1094,
             "end": 1099,
-            "value": "bar",
-            "raw": "\"bar\""
+            "value": "bar"
           },
           {
             "type": "ObjectExpression",
@@ -451,8 +448,7 @@
                           "type": "Literal",
                           "start": 1134,
                           "end": 1135,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       }
                     ]
@@ -517,8 +513,7 @@
             "type": "Literal",
             "start": 1180,
             "end": 1181,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -544,7 +539,6 @@
             "start": 1199,
             "end": 1206,
             "value": {},
-            "raw": "/(?:)/g",
             "regex": {
               "pattern": "(?:)",
               "flags": "g"
@@ -714,8 +708,7 @@
                 "type": "Literal",
                 "start": 1369,
                 "end": 1380,
-                "value": "lastIndex",
-                "raw": "\"lastIndex\""
+                "value": "lastIndex"
               },
               {
                 "type": "ObjectExpression",
@@ -778,8 +771,7 @@
             "type": "Literal",
             "start": 1440,
             "end": 1451,
-            "value": "lastIndex",
-            "raw": "\"lastIndex\""
+            "value": "lastIndex"
           }
         ],
         "optional": false

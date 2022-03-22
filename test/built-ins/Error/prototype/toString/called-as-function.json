@@ -24,15 +24,13 @@
                 "type": "Literal",
                 "start": 543,
                 "end": 549,
-                "value": "name",
-                "raw": "\"name\""
+                "value": "name"
               },
               {
                 "type": "Literal",
                 "start": 551,
                 "end": 560,
-                "value": "message",
-                "raw": "\"message\""
+                "value": "message"
               }
             ]
           },
@@ -168,8 +166,7 @@
                                             "type": "Literal",
                                             "start": 692,
                                             "end": 725,
-                                            "value": " lookup should not be performed",
-                                            "raw": "\" lookup should not be performed\""
+                                            "value": " lookup should not be performed"
                                           }
                                         }
                                       ]

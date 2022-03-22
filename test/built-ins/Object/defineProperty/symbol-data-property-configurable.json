@@ -122,8 +122,7 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 350,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -212,8 +211,7 @@
             "type": "Literal",
             "start": 413,
             "end": 451,
-            "value": "The result of `sym in obj` is `true`",
-            "raw": "\"The result of `sym in obj` is `true`\""
+            "value": "The result of `sym in obj` is `true`"
           }
         ],
         "optional": false
@@ -310,8 +308,7 @@
             "type": "Literal",
             "start": 522,
             "end": 577,
-            "value": "`Object.hasOwnProperty.call(obj, sym)` returns `true`",
-            "raw": "\"`Object.hasOwnProperty.call(obj, sym)` returns `true`\""
+            "value": "`Object.hasOwnProperty.call(obj, sym)` returns `true`"
           }
         ],
         "optional": false
@@ -426,15 +423,13 @@
             "type": "Literal",
             "start": 666,
             "end": 667,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 669,
             "end": 703,
-            "value": "The value of `desc.value` is `1`",
-            "raw": "\"The value of `desc.value` is `1`\""
+            "value": "The value of `desc.value` is `1`"
           }
         ],
         "optional": false
@@ -498,8 +493,7 @@
             "type": "Literal",
             "start": 748,
             "end": 792,
-            "value": "The value of `desc.configurable` is `true`",
-            "raw": "\"The value of `desc.configurable` is `true`\""
+            "value": "The value of `desc.configurable` is `true`"
           }
         ],
         "optional": false
@@ -563,8 +557,7 @@
             "type": "Literal",
             "start": 834,
             "end": 875,
-            "value": "The value of `desc.writable` is `false`",
-            "raw": "\"The value of `desc.writable` is `false`\""
+            "value": "The value of `desc.writable` is `false`"
           }
         ],
         "optional": false
@@ -628,8 +621,7 @@
             "type": "Literal",
             "start": 919,
             "end": 962,
-            "value": "The value of `desc.enumerable` is `false`",
-            "raw": "\"The value of `desc.enumerable` is `false`\""
+            "value": "The value of `desc.enumerable` is `false`"
           }
         ],
         "optional": false
@@ -739,8 +731,7 @@
             "type": "Literal",
             "start": 1050,
             "end": 1122,
-            "value": "`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`",
-            "raw": "\"`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`\""
+            "value": "`Object.prototype.propertyIsEnumerable.call(obj, sym)` returns `false`"
           }
         ],
         "optional": false
@@ -811,8 +802,7 @@
             "type": "Literal",
             "start": 1167,
             "end": 1210,
-            "value": "The result of `delete obj[sym]` is `true`",
-            "raw": "\"The result of `delete obj[sym]` is `true`\""
+            "value": "The result of `delete obj[sym]` is `true`"
           }
         ],
         "optional": false
@@ -895,8 +885,7 @@
             "type": "Literal",
             "start": 1292,
             "end": 1357,
-            "value": "`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`",
-            "raw": "\"`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`\""
+            "value": "`Object.getOwnPropertyDescriptor(obj, sym)` returns `undefined`"
           }
         ],
         "optional": false

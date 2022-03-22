@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 343,
                 "end": 357,
-                "value": "get overflow",
-                "raw": "\"get overflow\""
+                "value": "get overflow"
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 384,
-                "value": "get overflow.toString",
-                "raw": "\"get overflow.toString\""
+                "value": "get overflow.toString"
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 412,
-                "value": "call overflow.toString",
-                "raw": "\"call overflow.toString\""
+                "value": "call overflow.toString"
               }
             ]
           }
@@ -155,8 +152,7 @@
                               "type": "Literal",
                               "start": 487,
                               "end": 501,
-                              "value": "get overflow",
-                              "raw": "\"get overflow\""
+                              "value": "get overflow"
                             }
                           ],
                           "optional": false
@@ -200,15 +196,13 @@
                               "type": "Literal",
                               "start": 559,
                               "end": 570,
-                              "value": "constrain",
-                              "raw": "\"constrain\""
+                              "value": "constrain"
                             },
                             {
                               "type": "Literal",
                               "start": 572,
                               "end": 582,
-                              "value": "overflow",
-                              "raw": "\"overflow\""
+                              "value": "overflow"
                             }
                           ],
                           "optional": false
@@ -308,8 +302,7 @@
                   "type": "Literal",
                   "start": 649,
                   "end": 656,
-                  "value": "24:60",
-                  "raw": "\"24:60\""
+                  "value": "24:60"
                 },
                 {
                   "type": "Identifier",

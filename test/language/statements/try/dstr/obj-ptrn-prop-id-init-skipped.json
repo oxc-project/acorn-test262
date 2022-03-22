@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 805,
             "end": 806,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -67,8 +66,7 @@
                 "type": "Literal",
                 "start": 844,
                 "end": 845,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -158,8 +156,7 @@
                     "type": "Literal",
                     "start": 901,
                     "end": 902,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "kind": "init"
                 },
@@ -202,8 +199,7 @@
                     "type": "Literal",
                     "start": 917,
                     "end": 919,
-                    "value": "",
-                    "raw": "''"
+                    "value": ""
                   },
                   "kind": "init"
                 }
@@ -467,8 +463,7 @@
                     "type": "Literal",
                     "start": 1061,
                     "end": 1062,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ],
                 "optional": false
@@ -557,8 +552,7 @@
                     "type": "Literal",
                     "start": 1117,
                     "end": 1119,
-                    "value": "",
-                    "raw": "''"
+                    "value": ""
                   }
                 ],
                 "optional": false
@@ -602,8 +596,7 @@
                     "type": "Literal",
                     "start": 1152,
                     "end": 1153,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ],
                 "optional": false
@@ -927,8 +920,7 @@
             "type": "Literal",
             "start": 1428,
             "end": 1452,
-            "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "value": "executed `catch` block"
           }
         ],
         "optional": false

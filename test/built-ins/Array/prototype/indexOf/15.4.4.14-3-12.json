@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 296,
                   "end": 297,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 299,
                   "end": 305,
-                  "value": "true",
-                  "raw": "\"true\""
+                  "value": "true"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 309,
                   "end": 310,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Literal",
                   "start": 312,
                   "end": 315,
-                  "value": "2",
-                  "raw": "\"2\""
+                  "value": "2"
                 },
                 "kind": "init"
               },
@@ -86,8 +82,7 @@
                   "type": "Literal",
                   "start": 327,
                   "end": 340,
-                  "value": "-4294967294",
-                  "raw": "\"-4294967294\""
+                  "value": "-4294967294"
                 },
                 "kind": "init"
               }
@@ -185,8 +180,7 @@
                 "type": "Literal",
                 "start": 396,
                 "end": 402,
-                "value": "true",
-                "raw": "\"true\""
+                "value": "true"
               }
             ],
             "optional": false
@@ -201,16 +195,14 @@
               "type": "Literal",
               "start": 406,
               "end": 407,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 452,
-            "value": "Array.prototype.indexOf.call(obj, \"true\")",
-            "raw": "'Array.prototype.indexOf.call(obj, \"true\")'"
+            "value": "Array.prototype.indexOf.call(obj, \"true\")"
           }
         ],
         "optional": false
@@ -304,8 +296,7 @@
                 "type": "Literal",
                 "start": 506,
                 "end": 509,
-                "value": "2",
-                "raw": "\"2\""
+                "value": "2"
               }
             ],
             "optional": false
@@ -320,16 +311,14 @@
               "type": "Literal",
               "start": 513,
               "end": 514,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 556,
-            "value": "Array.prototype.indexOf.call(obj, \"2\")",
-            "raw": "'Array.prototype.indexOf.call(obj, \"2\")'"
+            "value": "Array.prototype.indexOf.call(obj, \"2\")"
           }
         ],
         "optional": false

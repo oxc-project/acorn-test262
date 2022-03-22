@@ -129,8 +129,7 @@
             "type": "Literal",
             "start": 897,
             "end": 916,
-            "value": "GeneratorFunction",
-            "raw": "'GeneratorFunction'"
+            "value": "GeneratorFunction"
           }
         ],
         "optional": false
@@ -161,8 +160,7 @@
             "type": "Literal",
             "start": 959,
             "end": 965,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -193,8 +191,7 @@
             "type": "Literal",
             "start": 1005,
             "end": 1011,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -225,8 +222,7 @@
             "type": "Literal",
             "start": 1052,
             "end": 1058,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

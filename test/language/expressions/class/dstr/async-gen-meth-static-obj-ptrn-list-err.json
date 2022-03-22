@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 2007,
             "end": 2008,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -394,8 +393,7 @@
             "type": "Literal",
             "start": 2268,
             "end": 2269,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

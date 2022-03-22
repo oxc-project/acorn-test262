@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 626,
                             "end": 628,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         }
                       ]
@@ -73,10 +72,9 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 632,
                   "end": 633,
-                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -87,10 +85,9 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 636,
-                  "end": 643,
-                  "static": false,
+                  "end": 642,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -102,8 +99,7 @@
                     "type": "Literal",
                     "start": 640,
                     "end": 642,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   }
                 }
               ]
@@ -235,8 +231,7 @@
             "type": "Literal",
             "start": 706,
             "end": 708,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -317,8 +312,7 @@
                 "type": "Literal",
                 "start": 758,
                 "end": 761,
-                "value": "m",
-                "raw": "\"m\""
+                "value": "m"
               }
             ],
             "optional": false
@@ -455,8 +449,7 @@
             "type": "Literal",
             "start": 839,
             "end": 842,
-            "value": "m",
-            "raw": "\"m\""
+            "value": "m"
           },
           {
             "type": "ObjectExpression",
@@ -623,8 +616,7 @@
                 "type": "Literal",
                 "start": 969,
                 "end": 972,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -715,8 +707,7 @@
                 "type": "Literal",
                 "start": 1030,
                 "end": 1033,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -757,8 +748,7 @@
             "type": "Literal",
             "start": 1063,
             "end": 1066,
-            "value": "a",
-            "raw": "\"a\""
+            "value": "a"
           },
           {
             "type": "ObjectExpression",
@@ -946,8 +936,7 @@
                 "type": "Literal",
                 "start": 1211,
                 "end": 1214,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             ],
             "optional": false
@@ -1038,8 +1027,7 @@
                 "type": "Literal",
                 "start": 1272,
                 "end": 1275,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             ],
             "optional": false
@@ -1080,8 +1068,7 @@
             "type": "Literal",
             "start": 1305,
             "end": 1308,
-            "value": "b",
-            "raw": "\"b\""
+            "value": "b"
           },
           {
             "type": "ObjectExpression",
@@ -1105,8 +1092,7 @@
                   "type": "Literal",
                   "start": 1321,
                   "end": 1323,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               },

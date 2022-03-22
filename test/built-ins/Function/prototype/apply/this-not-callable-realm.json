@@ -574,7 +574,6 @@
                         "start": 886,
                         "end": 890,
                         "value": {},
-                        "raw": "/re/",
                         "regex": {
                           "pattern": "re",
                           "flags": ""

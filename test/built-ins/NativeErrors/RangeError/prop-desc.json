@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 514,
             "end": 526,
-            "value": "RangeError",
-            "raw": "\"RangeError\""
+            "value": "RangeError"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 550,
             "end": 562,
-            "value": "RangeError",
-            "raw": "\"RangeError\""
+            "value": "RangeError"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 590,
             "end": 602,
-            "value": "RangeError",
-            "raw": "\"RangeError\""
+            "value": "RangeError"
           }
         ],
         "optional": false

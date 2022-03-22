@@ -31,7 +31,6 @@
                 "start": 444,
                 "end": 449,
                 "value": {},
-                "raw": "/\\be/",
                 "regex": {
                   "pattern": "\\be",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 455,
                 "end": 493,
-                "value": "pilot\nsoviet robot\topenoffice",
-                "raw": "\"pilot\\nsoviet robot\\topenoffic\\u0065\""
+                "value": "pilot\nsoviet robot\topenoffice"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 517,
             "end": 566,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

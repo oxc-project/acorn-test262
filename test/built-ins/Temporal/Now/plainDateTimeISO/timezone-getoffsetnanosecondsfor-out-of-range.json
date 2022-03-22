@@ -30,16 +30,14 @@
                   "type": "Literal",
                   "start": 332,
                   "end": 346,
-                  "value": 86400000000001,
-                  "raw": "86400000000001"
+                  "value": 86400000000001
                 }
               },
               {
                 "type": "Literal",
                 "start": 348,
                 "end": 362,
-                "value": 86400000000001,
-                "raw": "86400000000001"
+                "value": 86400000000001
               },
               {
                 "type": "UnaryExpression",
@@ -239,8 +237,7 @@
                         "type": "Literal",
                         "start": 571,
                         "end": 642,
-                        "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a RangeError exception",
-                        "raw": "'Temporal.Now.plainDateTimeISO(timeZone) throws a RangeError exception'"
+                        "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a RangeError exception"
                       }
                     ],
                     "optional": false

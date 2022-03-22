@@ -214,8 +214,7 @@
                             "type": "Literal",
                             "start": 413,
                             "end": 472,
-                            "value": "The value of result is expected to equal the value of arg",
-                            "raw": "'The value of result is expected to equal the value of arg'"
+                            "value": "The value of result is expected to equal the value of arg"
                           }
                         ],
                         "optional": false

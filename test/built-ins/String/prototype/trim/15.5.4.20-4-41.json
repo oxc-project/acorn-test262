@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 283,
                 "end": 294,
-                "value": "ab​c",
-                "raw": "\"ab\\u200Bc\""
+                "value": "ab​c"
               },
               "property": {
                 "type": "Identifier",
@@ -62,15 +61,13 @@
             "type": "Literal",
             "start": 303,
             "end": 314,
-            "value": "ab​c",
-            "raw": "\"ab\\u200Bc\""
+            "value": "ab​c"
           },
           {
             "type": "Literal",
             "start": 316,
             "end": 336,
-            "value": "\"ab​c\".trim()",
-            "raw": "'\"ab\\u200Bc\".trim()'"
+            "value": "\"ab​c\".trim()"
           }
         ],
         "optional": false

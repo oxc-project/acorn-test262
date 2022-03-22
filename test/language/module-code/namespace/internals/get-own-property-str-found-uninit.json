@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 634,
         "end": 674,
-        "value": "./get-own-property-str-found-uninit.js",
-        "raw": "'./get-own-property-str-found-uninit.js'"
+        "value": "./get-own-property-str-found-uninit.js"
       }
     },
     {
@@ -140,8 +139,7 @@
                         "type": "Literal",
                         "start": 763,
                         "end": 771,
-                        "value": "local1",
-                        "raw": "'local1'"
+                        "value": "local1"
                       }
                     ],
                     "optional": false
@@ -154,8 +152,7 @@
             "type": "Literal",
             "start": 777,
             "end": 801,
-            "value": "hasOwnProperty: local1",
-            "raw": "'hasOwnProperty: local1'"
+            "value": "hasOwnProperty: local1"
           }
         ],
         "optional": false
@@ -247,8 +244,7 @@
                         "type": "Literal",
                         "start": 885,
                         "end": 893,
-                        "value": "local1",
-                        "raw": "'local1'"
+                        "value": "local1"
                       }
                     ],
                     "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 899,
             "end": 933,
-            "value": "getOwnPropertyDescriptor: local1",
-            "raw": "'getOwnPropertyDescriptor: local1'"
+            "value": "getOwnPropertyDescriptor: local1"
           }
         ],
         "optional": false
@@ -380,8 +375,7 @@
                         "type": "Literal",
                         "start": 1023,
                         "end": 1032,
-                        "value": "renamed",
-                        "raw": "'renamed'"
+                        "value": "renamed"
                       }
                     ],
                     "optional": false
@@ -394,8 +388,7 @@
             "type": "Literal",
             "start": 1038,
             "end": 1063,
-            "value": "hasOwnProperty: renamed",
-            "raw": "'hasOwnProperty: renamed'"
+            "value": "hasOwnProperty: renamed"
           }
         ],
         "optional": false
@@ -487,8 +480,7 @@
                         "type": "Literal",
                         "start": 1147,
                         "end": 1156,
-                        "value": "renamed",
-                        "raw": "'renamed'"
+                        "value": "renamed"
                       }
                     ],
                     "optional": false
@@ -501,8 +493,7 @@
             "type": "Literal",
             "start": 1162,
             "end": 1197,
-            "value": "getOwnPropertyDescriptor: renamed",
-            "raw": "'getOwnPropertyDescriptor: renamed'"
+            "value": "getOwnPropertyDescriptor: renamed"
           }
         ],
         "optional": false
@@ -620,8 +611,7 @@
                         "type": "Literal",
                         "start": 1287,
                         "end": 1297,
-                        "value": "indirect",
-                        "raw": "'indirect'"
+                        "value": "indirect"
                       }
                     ],
                     "optional": false
@@ -634,8 +624,7 @@
             "type": "Literal",
             "start": 1303,
             "end": 1329,
-            "value": "hasOwnProperty: indirect",
-            "raw": "'hasOwnProperty: indirect'"
+            "value": "hasOwnProperty: indirect"
           }
         ],
         "optional": false
@@ -727,8 +716,7 @@
                         "type": "Literal",
                         "start": 1413,
                         "end": 1423,
-                        "value": "indirect",
-                        "raw": "'indirect'"
+                        "value": "indirect"
                       }
                     ],
                     "optional": false
@@ -741,8 +729,7 @@
             "type": "Literal",
             "start": 1429,
             "end": 1465,
-            "value": "getOwnPropertyDescriptor: indirect",
-            "raw": "'getOwnPropertyDescriptor: indirect'"
+            "value": "getOwnPropertyDescriptor: indirect"
           }
         ],
         "optional": false
@@ -860,8 +847,7 @@
                         "type": "Literal",
                         "start": 1555,
                         "end": 1564,
-                        "value": "default",
-                        "raw": "'default'"
+                        "value": "default"
                       }
                     ],
                     "optional": false
@@ -874,8 +860,7 @@
             "type": "Literal",
             "start": 1570,
             "end": 1595,
-            "value": "hasOwnProperty: default",
-            "raw": "'hasOwnProperty: default'"
+            "value": "hasOwnProperty: default"
           }
         ],
         "optional": false
@@ -967,8 +952,7 @@
                         "type": "Literal",
                         "start": 1679,
                         "end": 1688,
-                        "value": "default",
-                        "raw": "'default'"
+                        "value": "default"
                       }
                     ],
                     "optional": false
@@ -981,8 +965,7 @@
             "type": "Literal",
             "start": 1694,
             "end": 1729,
-            "value": "getOwnPropertyDescriptor: default",
-            "raw": "'getOwnPropertyDescriptor: default'"
+            "value": "getOwnPropertyDescriptor: default"
           }
         ],
         "optional": false
@@ -1011,8 +994,7 @@
               "type": "Literal",
               "start": 1753,
               "end": 1755,
-              "value": 23,
-              "raw": "23"
+              "value": 23
             }
           }
         ],
@@ -1040,8 +1022,7 @@
             "type": "Literal",
             "start": 1770,
             "end": 1772,
-            "value": 45,
-            "raw": "45"
+            "value": 45
           }
         }
       ],
@@ -1101,8 +1082,7 @@
         "type": "Literal",
         "start": 1839,
         "end": 1879,
-        "value": "./get-own-property-str-found-uninit.js",
-        "raw": "'./get-own-property-str-found-uninit.js'"
+        "value": "./get-own-property-str-found-uninit.js"
       }
     },
     {

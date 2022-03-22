@@ -178,8 +178,7 @@
                             "type": "Literal",
                             "start": 1101,
                             "end": 1102,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -287,8 +286,7 @@
                             "type": "Literal",
                             "start": 1203,
                             "end": 1204,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -303,8 +301,7 @@
                         "type": "Literal",
                         "start": 1226,
                         "end": 1292,
-                        "value": "Object.getOwnPropertyDescriptor(sample, 0) must return undefined",
-                        "raw": "'Object.getOwnPropertyDescriptor(sample, 0) must return undefined'"
+                        "value": "Object.getOwnPropertyDescriptor(sample, 0) must return undefined"
                       }
                     ],
                     "optional": false

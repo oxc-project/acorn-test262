@@ -66,15 +66,13 @@
             "type": "Literal",
             "start": 287,
             "end": 297,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 299,
             "end": 335,
-            "value": "typeof(Object.getOwnPropertyNames)",
-            "raw": "'typeof(Object.getOwnPropertyNames)'"
+            "value": "typeof(Object.getOwnPropertyNames)"
           }
         ],
         "optional": false

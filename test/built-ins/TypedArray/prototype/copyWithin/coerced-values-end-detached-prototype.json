@@ -193,8 +193,7 @@
                           "type": "Literal",
                           "start": 1094,
                           "end": 1097,
-                          "value": 101,
-                          "raw": "101"
+                          "value": 101
                         }
                       }
                     ]
@@ -232,8 +231,7 @@
                       "type": "Literal",
                       "start": 1121,
                       "end": 1126,
-                      "value": 10000,
-                      "raw": "10000"
+                      "value": 10000
                     }
                   }
                 },
@@ -269,15 +267,13 @@
                         "type": "Literal",
                         "start": 1230,
                         "end": 1231,
-                        "value": 7,
-                        "raw": "7"
+                        "value": 7
                       },
                       {
                         "type": "Literal",
                         "start": 1233,
                         "end": 1234,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -399,15 +395,13 @@
                                     "type": "Literal",
                                     "start": 1316,
                                     "end": 1317,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1319,
                                     "end": 1322,
-                                    "value": 100,
-                                    "raw": "100"
+                                    "value": 100
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -448,8 +442,7 @@
                         "type": "Literal",
                         "start": 1364,
                         "end": 1409,
-                        "value": "should throw TypeError as array is detached",
-                        "raw": "\"should throw TypeError as array is detached\""
+                        "value": "should throw TypeError as array is detached"
                       }
                     ],
                     "optional": false

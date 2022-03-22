@@ -266,8 +266,7 @@
             "type": "Literal",
             "start": 749,
             "end": 778,
-            "value": "WeakSet#delete returns true",
-            "raw": "'WeakSet#delete returns true'"
+            "value": "WeakSet#delete returns true"
           }
         ],
         "optional": false

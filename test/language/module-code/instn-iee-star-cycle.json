@@ -31,8 +31,7 @@
         "type": "Literal",
         "start": 1857,
         "end": 1894,
-        "value": "./instn-iee-star-cycle-2_FIXTURE.js",
-        "raw": "'./instn-iee-star-cycle-2_FIXTURE.js'"
+        "value": "./instn-iee-star-cycle-2_FIXTURE.js"
       }
     },
     {
@@ -56,8 +55,7 @@
         "type": "Literal",
         "start": 1919,
         "end": 1946,
-        "value": "./instn-iee-star-cycle.js",
-        "raw": "'./instn-iee-star-cycle.js'"
+        "value": "./instn-iee-star-cycle.js"
       }
     },
     {
@@ -111,8 +109,7 @@
             "type": "Literal",
             "start": 1974,
             "end": 1976,
-            "value": 45,
-            "raw": "45"
+            "value": 45
           }
         ],
         "optional": false

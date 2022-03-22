@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 537,
                     "end": 573,
-                    "value": "#1: this.x === undefined. Actual: ",
-                    "raw": "'#1: this.x === undefined. Actual: '"
+                    "value": "#1: this.x === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -176,8 +175,7 @@
                   "type": "Literal",
                   "start": 818,
                   "end": 857,
-                  "value": "#2: this.x; this.x++; x !== undefined",
-                  "raw": "'#2: this.x; this.x++; x !== undefined'"
+                  "value": "#2: this.x; this.x++; x !== undefined"
                 }
               ]
             }

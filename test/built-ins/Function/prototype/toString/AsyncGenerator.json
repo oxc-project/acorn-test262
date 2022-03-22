@@ -92,22 +92,19 @@
                 "type": "Literal",
                 "start": 451,
                 "end": 454,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 482,
-                "value": " /* a */ b, c /* b */ //",
-                "raw": "\" /* a */ b, c /* b */ //\""
+                "value": " /* a */ b, c /* b */ //"
               },
               {
                 "type": "Literal",
                 "start": 484,
                 "end": 506,
-                "value": "/* c */ ; /* d */ //",
-                "raw": "\"/* c */ ; /* d */ //\""
+                "value": "/* c */ ; /* d */ //"
               }
             ],
             "optional": false
@@ -141,8 +138,7 @@
             "type": "Literal",
             "start": 554,
             "end": 638,
-            "value": "async function* anonymous(a, /* a */ b, c /* b */ //\n) {\n/* c */ ; /* d */ //\n}",
-            "raw": "\"async function* anonymous(a, /* a */ b, c /* b */ //\\n) {\\n/* c */ ; /* d */ //\\n}\""
+            "value": "async function* anonymous(a, /* a */ b, c /* b */ //\n) {\n/* c */ ; /* d */ //\n}"
           }
         ],
         "optional": false

@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 402,
                             "end": 408,
-                            "value": "find",
-                            "raw": "\"find\""
+                            "value": "find"
                           }
                         ],
                         "optional": false

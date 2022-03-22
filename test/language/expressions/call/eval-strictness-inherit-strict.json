@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 722,
                         "end": 735,
-                        "value": "var static;",
-                        "raw": "'var static;'"
+                        "value": "var static;"
                       }
                     ],
                     "optional": false
@@ -151,8 +150,7 @@
                         "type": "Literal",
                         "start": 790,
                         "end": 804,
-                        "value": "with ({}) {}",
-                        "raw": "'with ({}) {}'"
+                        "value": "with ({}) {}"
                       }
                     ],
                     "optional": false
@@ -232,8 +230,7 @@
                         "type": "Literal",
                         "start": 862,
                         "end": 884,
-                        "value": "unresolvable = null;",
-                        "raw": "'unresolvable = null;'"
+                        "value": "unresolvable = null;"
                       }
                     ],
                     "optional": false

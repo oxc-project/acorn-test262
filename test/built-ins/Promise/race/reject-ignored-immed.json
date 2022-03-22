@@ -311,8 +311,7 @@
                         "type": "Literal",
                         "start": 1191,
                         "end": 1228,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

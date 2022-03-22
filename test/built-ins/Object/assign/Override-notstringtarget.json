@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 356,
             "end": 358,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           }
         }
       ],
@@ -78,22 +77,19 @@
                 "type": "Literal",
                 "start": 395,
                 "end": 400,
-                "value": "aaa",
-                "raw": "\"aaa\""
+                "value": "aaa"
               },
               {
                 "type": "Literal",
                 "start": 402,
                 "end": 408,
-                "value": "bb2b",
-                "raw": "\"bb2b\""
+                "value": "bb2b"
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 414,
-                "value": "1c",
-                "raw": "\"1c\""
+                "value": "1c"
               }
             ],
             "optional": false
@@ -180,15 +176,13 @@
             "type": "Literal",
             "start": 478,
             "end": 479,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 526,
-            "value": "The length should be 4 in the final object.",
-            "raw": "\"The length should be 4 in the final object.\""
+            "value": "The length should be 4 in the final object."
           }
         ],
         "optional": false
@@ -236,8 +230,7 @@
               "type": "Literal",
               "start": 553,
               "end": 554,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -246,15 +239,13 @@
             "type": "Literal",
             "start": 557,
             "end": 560,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "Literal",
             "start": 562,
             "end": 598,
-            "value": "The value should be {\"0\":\"1\"}.",
-            "raw": "\"The value should be {\\\"0\\\":\\\"1\\\"}.\""
+            "value": "The value should be {\"0\":\"1\"}."
           }
         ],
         "optional": false
@@ -302,8 +293,7 @@
               "type": "Literal",
               "start": 625,
               "end": 626,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -312,15 +302,13 @@
             "type": "Literal",
             "start": 629,
             "end": 632,
-            "value": "c",
-            "raw": "\"c\""
+            "value": "c"
           },
           {
             "type": "Literal",
             "start": 634,
             "end": 670,
-            "value": "The value should be {\"1\":\"c\"}.",
-            "raw": "\"The value should be {\\\"1\\\":\\\"c\\\"}.\""
+            "value": "The value should be {\"1\":\"c\"}."
           }
         ],
         "optional": false
@@ -368,8 +356,7 @@
               "type": "Literal",
               "start": 697,
               "end": 698,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -378,15 +365,13 @@
             "type": "Literal",
             "start": 701,
             "end": 704,
-            "value": "2",
-            "raw": "\"2\""
+            "value": "2"
           },
           {
             "type": "Literal",
             "start": 706,
             "end": 742,
-            "value": "The value should be {\"2\":\"2\"}.",
-            "raw": "\"The value should be {\\\"2\\\":\\\"2\\\"}.\""
+            "value": "The value should be {\"2\":\"2\"}."
           }
         ],
         "optional": false
@@ -434,8 +419,7 @@
               "type": "Literal",
               "start": 769,
               "end": 770,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -444,15 +428,13 @@
             "type": "Literal",
             "start": 773,
             "end": 776,
-            "value": "b",
-            "raw": "\"b\""
+            "value": "b"
           },
           {
             "type": "Literal",
             "start": 778,
             "end": 814,
-            "value": "The value should be {\"3\":\"b\"}.",
-            "raw": "\"The value should be {\\\"3\\\":\\\"b\\\"}.\""
+            "value": "The value should be {\"3\":\"b\"}."
           }
         ],
         "optional": false

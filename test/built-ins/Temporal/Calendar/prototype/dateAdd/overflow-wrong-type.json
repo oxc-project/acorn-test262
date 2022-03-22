@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 704,
                 "end": 713,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,22 +97,19 @@
                 "type": "Literal",
                 "start": 752,
                 "end": 756,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 759,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 761,
                 "end": 762,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -170,29 +166,25 @@
                 "type": "Literal",
                 "start": 814,
                 "end": 815,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 817,
                 "end": 818,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 820,
                 "end": 821,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 823,
                 "end": 824,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -232,15 +224,13 @@
             "type": "Literal",
             "start": 870,
             "end": 880,
-            "value": "overflow",
-            "raw": "\"overflow\""
+            "value": "overflow"
           },
           {
             "type": "Literal",
             "start": 882,
             "end": 893,
-            "value": "constrain",
-            "raw": "\"constrain\""
+            "value": "constrain"
           },
           {
             "type": "ArrowFunctionExpression",
@@ -382,29 +372,25 @@
                   "type": "Literal",
                   "start": 1020,
                   "end": 1024,
-                  "value": 2003,
-                  "raw": "2003"
+                  "value": 2003
                 },
                 {
                   "type": "Literal",
                   "start": 1026,
                   "end": 1027,
-                  "value": 8,
-                  "raw": "8"
+                  "value": 8
                 },
                 {
                   "type": "Literal",
                   "start": 1029,
                   "end": 1034,
-                  "value": "M08",
-                  "raw": "\"M08\""
+                  "value": "M08"
                 },
                 {
                   "type": "Literal",
                   "start": 1036,
                   "end": 1037,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 {
                   "type": "Identifier",

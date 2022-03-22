@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 394,
             "end": 404,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 462,
-            "value": "`typeof Array.prototype.findLastIndex` is `function`",
-            "raw": "'`typeof Array.prototype.findLastIndex` is `function`'"
+            "value": "`typeof Array.prototype.findLastIndex` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 499,
             "end": 514,
-            "value": "findLastIndex",
-            "raw": "\"findLastIndex\""
+            "value": "findLastIndex"
           },
           {
             "type": "ObjectExpression",

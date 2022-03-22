@@ -162,8 +162,7 @@
                                             "type": "Literal",
                                             "start": 1079,
                                             "end": 1103,
-                                            "value": "should not call return",
-                                            "raw": "'should not call return'"
+                                            "value": "should not call return"
                                           }
                                         ]
                                       }
@@ -245,8 +244,7 @@
             "type": "Literal",
             "start": 1175,
             "end": 1185,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false

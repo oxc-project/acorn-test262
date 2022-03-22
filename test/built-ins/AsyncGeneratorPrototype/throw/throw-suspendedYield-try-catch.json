@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1056,
                 "end": 1062,
-                "value": "boop",
-                "raw": "'boop'"
+                "value": "boop"
               }
             ]
           }
@@ -93,8 +92,7 @@
                             "type": "Literal",
                             "start": 1111,
                             "end": 1112,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -117,8 +115,7 @@
                               "type": "Literal",
                               "start": 1141,
                               "end": 1184,
-                              "value": "Generator must be resumed in catch block.",
-                              "raw": "'Generator must be resumed in catch block.'"
+                              "value": "Generator must be resumed in catch block."
                             }
                           ]
                         }
@@ -192,8 +189,7 @@
                             "type": "Literal",
                             "start": 1250,
                             "end": 1256,
-                            "value": "done",
-                            "raw": "'done'"
+                            "value": "done"
                           }
                         }
                       ]
@@ -368,15 +364,13 @@
                             "type": "Literal",
                             "start": 1341,
                             "end": 1342,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1344,
                             "end": 1359,
-                            "value": "Initial yield",
-                            "raw": "'Initial yield'"
+                            "value": "Initial yield"
                           }
                         ],
                         "optional": false
@@ -440,8 +434,7 @@
                             "type": "Literal",
                             "start": 1398,
                             "end": 1413,
-                            "value": "Initial yield",
-                            "raw": "'Initial yield'"
+                            "value": "Initial yield"
                           }
                         ],
                         "optional": false
@@ -582,15 +575,13 @@
                                             "type": "Literal",
                                             "start": 1488,
                                             "end": 1494,
-                                            "value": "done",
-                                            "raw": "'done'"
+                                            "value": "done"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 1496,
                                             "end": 1549,
-                                            "value": "AsyncGeneratorResolve(generator, resultValue, true)",
-                                            "raw": "'AsyncGeneratorResolve(generator, resultValue, true)'"
+                                            "value": "AsyncGeneratorResolve(generator, resultValue, true)"
                                           }
                                         ],
                                         "optional": false
@@ -654,8 +645,7 @@
                                             "type": "Literal",
                                             "start": 1589,
                                             "end": 1642,
-                                            "value": "AsyncGeneratorResolve(generator, resultValue, true)",
-                                            "raw": "'AsyncGeneratorResolve(generator, resultValue, true)'"
+                                            "value": "AsyncGeneratorResolve(generator, resultValue, true)"
                                           }
                                         ],
                                         "optional": false
@@ -795,8 +785,7 @@
                                                             "type": "Literal",
                                                             "start": 1726,
                                                             "end": 1747,
-                                                            "value": "Generator is closed",
-                                                            "raw": "'Generator is closed'"
+                                                            "value": "Generator is closed"
                                                           }
                                                         ],
                                                         "optional": false
@@ -860,8 +849,7 @@
                                                             "type": "Literal",
                                                             "start": 1789,
                                                             "end": 1810,
-                                                            "value": "Generator is closed",
-                                                            "raw": "'Generator is closed'"
+                                                            "value": "Generator is closed"
                                                           }
                                                         ],
                                                         "optional": false

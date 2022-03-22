@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 311,
                     "end": 364,
-                    "value": "#1.1: RegExp(\"a|b\",\"g\")() throw TypeError. Actual: ",
-                    "raw": "'#1.1: RegExp(\"a|b\",\"g\")() throw TypeError. Actual: '"
+                    "value": "#1.1: RegExp(\"a|b\",\"g\")() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -62,15 +61,13 @@
                             "type": "Literal",
                             "start": 375,
                             "end": 380,
-                            "value": "a|b",
-                            "raw": "\"a|b\""
+                            "value": "a|b"
                           },
                           {
                             "type": "Literal",
                             "start": 381,
                             "end": 384,
-                            "value": "g",
-                            "raw": "\"g\""
+                            "value": "g"
                           }
                         ],
                         "optional": false
@@ -157,8 +154,7 @@
                     "type": "Literal",
                     "start": 467,
                     "end": 541,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                   }
                 ],
                 "optional": false

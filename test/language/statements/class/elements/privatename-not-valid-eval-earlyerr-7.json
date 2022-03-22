@@ -121,8 +121,7 @@
                         "type": "Literal",
                         "start": 651,
                         "end": 677,
-                        "value": "executed = true; obj.#x;",
-                        "raw": "\"executed = true; obj.#x;\""
+                        "value": "executed = true; obj.#x;"
                       }
                     ],
                     "optional": false

@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 426,
             "end": 437,
-            "value": "normalize",
-            "raw": "'normalize'"
+            "value": "normalize"
           },
           {
             "type": "Literal",
             "start": 441,
             "end": 506,
-            "value": "The value of `String.prototype.normalize.name` is `\"normalize\"`",
-            "raw": "'The value of `String.prototype.normalize.name` is `\"normalize\"`'"
+            "value": "The value of `String.prototype.normalize.name` is `\"normalize\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 559,
             "end": 565,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 614,
             "end": 620,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 670,
             "end": 676,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

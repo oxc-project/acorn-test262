@@ -66,15 +66,13 @@
             "type": "Literal",
             "start": 261,
             "end": 271,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 273,
             "end": 296,
-            "value": "typeof(Object.create)",
-            "raw": "'typeof(Object.create)'"
+            "value": "typeof(Object.create)"
           }
         ],
         "optional": false

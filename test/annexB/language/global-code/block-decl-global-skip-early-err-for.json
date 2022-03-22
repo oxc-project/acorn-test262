@@ -69,8 +69,7 @@
             "type": "Literal",
             "start": 748,
             "end": 807,
-            "value": "An initialized binding is not created prior to evaluation",
-            "raw": "'An initialized binding is not created prior to evaluation'"
+            "value": "An initialized binding is not created prior to evaluation"
           }
         ],
         "optional": false
@@ -121,15 +120,13 @@
             "type": "Literal",
             "start": 842,
             "end": 853,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 918,
-            "value": "An uninitialized binding is not created prior to evaluation",
-            "raw": "'An uninitialized binding is not created prior to evaluation'"
+            "value": "An uninitialized binding is not created prior to evaluation"
           }
         ],
         "optional": false
@@ -269,8 +266,7 @@
             "type": "Literal",
             "start": 1030,
             "end": 1090,
-            "value": "An initialized binding is not created following evaluation",
-            "raw": "'An initialized binding is not created following evaluation'"
+            "value": "An initialized binding is not created following evaluation"
           }
         ],
         "optional": false
@@ -321,15 +317,13 @@
             "type": "Literal",
             "start": 1125,
             "end": 1136,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 1140,
             "end": 1202,
-            "value": "An uninitialized binding is not created following evaluation",
-            "raw": "'An uninitialized binding is not created following evaluation'"
+            "value": "An uninitialized binding is not created following evaluation"
           }
         ],
         "optional": false

@@ -108,8 +108,7 @@
               "type": "Literal",
               "start": 1098,
               "end": 1107,
-              "value": "outside",
-              "raw": "'outside'"
+              "value": "outside"
             }
           },
           {
@@ -201,8 +200,7 @@
                   "type": "Literal",
                   "start": 1169,
                   "end": 1177,
-                  "value": "inside",
-                  "raw": "'inside'"
+                  "value": "inside"
                 }
               },
               {
@@ -406,8 +404,7 @@
             "type": "Literal",
             "start": 1349,
             "end": 1358,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         ],
         "optional": false
@@ -458,15 +455,13 @@
             "type": "Literal",
             "start": 1391,
             "end": 1399,
-            "value": "inside",
-            "raw": "'inside'"
+            "value": "inside"
           },
           {
             "type": "Literal",
             "start": 1401,
             "end": 1433,
-            "value": "reference from \"test\" position",
-            "raw": "'reference from \"test\" position'"
+            "value": "reference from \"test\" position"
           }
         ],
         "optional": false
@@ -517,15 +512,13 @@
             "type": "Literal",
             "start": 1466,
             "end": 1474,
-            "value": "inside",
-            "raw": "'inside'"
+            "value": "inside"
           },
           {
             "type": "Literal",
             "start": 1476,
             "end": 1507,
-            "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "value": "reference from statement body"
           }
         ],
         "optional": false
@@ -576,15 +569,13 @@
             "type": "Literal",
             "start": 1540,
             "end": 1548,
-            "value": "inside",
-            "raw": "'inside'"
+            "value": "inside"
           },
           {
             "type": "Literal",
             "start": 1550,
             "end": 1587,
-            "value": "reference from \"increment\" position",
-            "raw": "'reference from \"increment\" position'"
+            "value": "reference from \"increment\" position"
           }
         ],
         "optional": false

@@ -102,8 +102,7 @@
                         "type": "Literal",
                         "start": 442,
                         "end": 449,
-                        "value": "0x00B",
-                        "raw": "\"0x00B\""
+                        "value": "0x00B"
                       },
                       "kind": "init"
                     }
@@ -168,15 +167,13 @@
             "type": "Literal",
             "start": 488,
             "end": 493,
-            "value": 11,
-            "raw": "0x00B"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 495,
             "end": 507,
-            "value": "arr.length",
-            "raw": "'arr.length'"
+            "value": "arr.length"
           }
         ],
         "optional": false

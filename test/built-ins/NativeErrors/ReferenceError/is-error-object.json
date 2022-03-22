@@ -100,8 +100,7 @@
             "type": "Literal",
             "start": 493,
             "end": 509,
-            "value": "[object Error]",
-            "raw": "\"[object Error]\""
+            "value": "[object Error]"
           }
         ],
         "optional": false

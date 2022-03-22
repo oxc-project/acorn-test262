@@ -23,7 +23,6 @@
             "start": 949,
             "end": 960,
             "value": {},
-            "raw": "/test262/ig",
             "regex": {
               "pattern": "test262",
               "flags": "ig"
@@ -113,15 +112,13 @@
                         "type": "Literal",
                         "start": 1021,
                         "end": 1024,
-                        "value": "{",
-                        "raw": "'{'"
+                        "value": "{"
                       },
                       {
                         "type": "Literal",
                         "start": 1026,
                         "end": 1029,
-                        "value": "u",
-                        "raw": "'u'"
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -134,8 +131,7 @@
             "type": "Literal",
             "start": 1035,
             "end": 1055,
-            "value": "invalid pattern: {",
-            "raw": "'invalid pattern: {'"
+            "value": "invalid pattern: {"
           }
         ],
         "optional": false
@@ -221,15 +217,13 @@
                         "type": "Literal",
                         "start": 1117,
                         "end": 1122,
-                        "value": "\\2",
-                        "raw": "'\\\\2'"
+                        "value": "\\2"
                       },
                       {
                         "type": "Literal",
                         "start": 1124,
                         "end": 1127,
-                        "value": "u",
-                        "raw": "'u'"
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -242,8 +236,7 @@
             "type": "Literal",
             "start": 1133,
             "end": 1155,
-            "value": "invalid pattern: \\2",
-            "raw": "'invalid pattern: \\\\2'"
+            "value": "invalid pattern: \\2"
           }
         ],
         "optional": false
@@ -326,15 +319,13 @@
                     "type": "Literal",
                     "start": 1212,
                     "end": 1221,
-                    "value": "test262",
-                    "raw": "'test262'"
+                    "value": "test262"
                   },
                   {
                     "type": "Literal",
                     "start": 1223,
                     "end": 1227,
-                    "value": "ig",
-                    "raw": "'ig'"
+                    "value": "ig"
                   }
                 ]
               },
@@ -354,8 +345,7 @@
             "type": "Literal",
             "start": 1243,
             "end": 1277,
-            "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "value": "[[OriginalSource]] internal slot"
           }
         ],
         "optional": false
@@ -417,8 +407,7 @@
                 "type": "Literal",
                 "start": 1322,
                 "end": 1331,
-                "value": "tEsT262",
-                "raw": "'tEsT262'"
+                "value": "tEsT262"
               }
             ],
             "optional": false
@@ -434,8 +423,7 @@
             "type": "Literal",
             "start": 1340,
             "end": 1373,
-            "value": "[[RegExpMatcher]] internal slot",
-            "raw": "'[[RegExpMatcher]] internal slot'"
+            "value": "[[RegExpMatcher]] internal slot"
           }
         ],
         "optional": false

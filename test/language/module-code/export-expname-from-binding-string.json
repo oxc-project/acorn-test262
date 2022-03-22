@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 466,
         "end": 507,
-        "value": "./export-expname-from-binding-string.js",
-        "raw": "\"./export-expname-from-binding-string.js\""
+        "value": "./export-expname-from-binding-string.js"
       }
     },
     {
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 529,
             "end": 532,
-            "value": "☿",
-            "raw": "\"☿\""
+            "value": "☿"
           }
         }
       ],
@@ -57,8 +55,7 @@
         "type": "Literal",
         "start": 540,
         "end": 569,
-        "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "value": "./export-expname_FIXTURE.js"
       }
     },
     {
@@ -160,8 +157,7 @@
               "type": "Literal",
               "start": 641,
               "end": 644,
-              "value": "☿",
-              "raw": "\"☿\""
+              "value": "☿"
             },
             "computed": true,
             "optional": false

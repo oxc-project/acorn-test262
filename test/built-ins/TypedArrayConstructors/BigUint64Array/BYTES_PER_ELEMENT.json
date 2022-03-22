@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 616,
             "end": 635,
-            "value": "BYTES_PER_ELEMENT",
-            "raw": "\"BYTES_PER_ELEMENT\""
+            "value": "BYTES_PER_ELEMENT"
           },
           {
             "type": "ObjectExpression",
@@ -53,8 +52,7 @@
                   "type": "Literal",
                   "start": 648,
                   "end": 649,
-                  "value": 8,
-                  "raw": "8"
+                  "value": 8
                 },
                 "kind": "init"
               },

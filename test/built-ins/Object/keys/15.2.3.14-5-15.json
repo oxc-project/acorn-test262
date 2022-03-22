@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 321,
-                "value": "xyz",
-                "raw": "\"xyz\""
+                "value": "xyz"
               }
             ]
           }
@@ -71,8 +70,7 @@
               "type": "Literal",
               "start": 329,
               "end": 331,
-              "value": 20,
-              "raw": "20"
+              "value": 20
             }
           },
           "computed": true,
@@ -88,8 +86,7 @@
             "type": "Literal",
             "start": 336,
             "end": 338,
-            "value": 20,
-            "raw": "20"
+            "value": 20
           }
         }
       }
@@ -117,8 +114,7 @@
             "type": "Literal",
             "start": 344,
             "end": 346,
-            "value": 20,
-            "raw": "20"
+            "value": 20
           },
           "computed": true,
           "optional": false
@@ -127,8 +123,7 @@
           "type": "Literal",
           "start": 350,
           "end": 352,
-          "value": 20,
-          "raw": "20"
+          "value": 20
         }
       }
     },
@@ -170,8 +165,7 @@
             "type": "Literal",
             "start": 382,
             "end": 388,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -195,8 +189,7 @@
                   "type": "Literal",
                   "start": 401,
                   "end": 405,
-                  "value": 1003,
-                  "raw": "1003"
+                  "value": 1003
                 },
                 "kind": "init"
               },
@@ -325,8 +318,7 @@
               "type": "Literal",
               "start": 496,
               "end": 497,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -446,8 +438,7 @@
                   "type": "Literal",
                   "start": 559,
                   "end": 596,
-                  "value": "obj.hasOwnProperty(arr[i]) !== true",
-                  "raw": "'obj.hasOwnProperty(arr[i]) !== true'"
+                  "value": "obj.hasOwnProperty(arr[i]) !== true"
                 }
               ],
               "optional": false

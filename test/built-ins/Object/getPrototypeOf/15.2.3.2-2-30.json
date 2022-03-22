@@ -125,8 +125,7 @@
             "type": "Literal",
             "start": 370,
             "end": 397,
-            "value": "proto.isPrototypeOf(this)",
-            "raw": "'proto.isPrototypeOf(this)'"
+            "value": "proto.isPrototypeOf(this)"
           }
         ],
         "optional": false

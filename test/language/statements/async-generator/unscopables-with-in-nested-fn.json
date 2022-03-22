@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1310,
             "end": 1311,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1321,
             "end": 1322,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -169,8 +167,7 @@
                 "type": "Literal",
                 "start": 1405,
                 "end": 1406,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -317,15 +314,13 @@
                                         "type": "Literal",
                                         "start": 1575,
                                         "end": 1576,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1578,
                                         "end": 1601,
-                                        "value": "The value of `v` is 1",
-                                        "raw": "'The value of `v` is 1'"
+                                        "value": "The value of `v` is 1"
                                       }
                                     ],
                                     "optional": false
@@ -482,15 +477,13 @@
                                         "type": "Literal",
                                         "start": 1727,
                                         "end": 1729,
-                                        "value": 10,
-                                        "raw": "10"
+                                        "value": 10
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1731,
                                         "end": 1755,
-                                        "value": "The value of `v` is 10",
-                                        "raw": "'The value of `v` is 10'"
+                                        "value": "The value of `v` is 10"
                                       }
                                     ],
                                     "optional": false
@@ -515,8 +508,7 @@
                                       "type": "Literal",
                                       "start": 1768,
                                       "end": 1770,
-                                      "value": 20,
-                                      "raw": "20"
+                                      "value": 20
                                     }
                                   }
                                 }
@@ -561,15 +553,13 @@
                                   "type": "Literal",
                                   "start": 1802,
                                   "end": 1804,
-                                  "value": 20,
-                                  "raw": "20"
+                                  "value": 20
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 1806,
                                   "end": 1830,
-                                  "value": "The value of `v` is 20",
-                                  "raw": "'The value of `v` is 20'"
+                                  "value": "The value of `v` is 20"
                                 }
                               ],
                               "optional": false
@@ -626,15 +616,13 @@
                                   "type": "Literal",
                                   "start": 1868,
                                   "end": 1869,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 1871,
                                   "end": 1903,
-                                  "value": "The value of globalThis.v is 1",
-                                  "raw": "'The value of globalThis.v is 1'"
+                                  "value": "The value of globalThis.v is 1"
                                 }
                               ],
                               "optional": false
@@ -686,15 +674,13 @@
                       "type": "Literal",
                       "start": 1936,
                       "end": 1937,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 1939,
                       "end": 1962,
-                      "value": "The value of `v` is 1",
-                      "raw": "'The value of `v` is 1'"
+                      "value": "The value of `v` is 1"
                     }
                   ],
                   "optional": false
@@ -751,15 +737,13 @@
                       "type": "Literal",
                       "start": 1998,
                       "end": 1999,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 2001,
                       "end": 2033,
-                      "value": "The value of globalThis.v is 1",
-                      "raw": "'The value of globalThis.v is 1'"
+                      "value": "The value of globalThis.v is 1"
                     }
                   ],
                   "optional": false
@@ -795,8 +779,7 @@
                       "type": "Literal",
                       "start": 2062,
                       "end": 2063,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -847,8 +830,7 @@
                             "type": "Literal",
                             "start": 2072,
                             "end": 2074,
-                            "value": 10,
-                            "raw": "10"
+                            "value": 10
                           }
                         ],
                         "optional": false
@@ -927,15 +909,13 @@
                                 "type": "Literal",
                                 "start": 2128,
                                 "end": 2129,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               {
                                 "type": "Literal",
                                 "start": 2131,
                                 "end": 2172,
-                                "value": "generator function invoked exactly once",
-                                "raw": "'generator function invoked exactly once'"
+                                "value": "generator function invoked exactly once"
                               }
                             ],
                             "optional": false
@@ -1031,15 +1011,13 @@
             "type": "Literal",
             "start": 2236,
             "end": 2237,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           },
           {
             "type": "Literal",
             "start": 2239,
             "end": 2266,
-            "value": "The value of `count` is 6",
-            "raw": "'The value of `count` is 6'"
+            "value": "The value of `count` is 6"
           }
         ],
         "optional": false

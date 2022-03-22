@@ -111,8 +111,7 @@
             "type": "Literal",
             "start": 294,
             "end": 356,
-            "value": "The value of !!(p instanceof Promise) is expected to be true",
-            "raw": "'The value of !!(p instanceof Promise) is expected to be true'"
+            "value": "The value of !!(p instanceof Promise) is expected to be true"
           }
         ],
         "optional": false

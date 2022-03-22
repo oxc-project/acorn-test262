@@ -31,8 +31,7 @@
         "type": "Literal",
         "start": 971,
         "end": 1008,
-        "value": "./instn-iee-err-circular_FIXTURE.js",
-        "raw": "'./instn-iee-err-circular_FIXTURE.js'"
+        "value": "./instn-iee-err-circular_FIXTURE.js"
       }
     }
   ],

@@ -31,7 +31,6 @@
                 "start": 366,
                 "end": 378,
                 "value": {},
-                "raw": "/\\s+java\\s+/",
                 "regex": {
                   "pattern": "\\s+java\\s+",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 400,
-                "value": "java\n\nobject",
-                "raw": "\"java\\n\\nobject\""
+                "value": "java\n\nobject"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 424,
             "end": 473,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

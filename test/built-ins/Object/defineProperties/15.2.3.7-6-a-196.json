@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 511,
                   "end": 514,
-                  "value": "0",
-                  "raw": "\"0\""
+                  "value": "0"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -205,8 +204,7 @@
                 "type": "Literal",
                 "start": 619,
                 "end": 622,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               }
             ],
             "optional": false
@@ -215,8 +213,7 @@
             "type": "Literal",
             "start": 625,
             "end": 659,
-            "value": "arr.hasOwnProperty(\"0\") !== true",
-            "raw": "'arr.hasOwnProperty(\"0\") !== true'"
+            "value": "arr.hasOwnProperty(\"0\") !== true"
           }
         ],
         "optional": false
@@ -274,8 +271,7 @@
                   "type": "Literal",
                   "start": 690,
                   "end": 691,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -286,15 +282,13 @@
             "type": "Literal",
             "start": 695,
             "end": 706,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 725,
-            "value": "typeof (arr[0])",
-            "raw": "'typeof (arr[0])'"
+            "value": "typeof (arr[0])"
           }
         ],
         "optional": false

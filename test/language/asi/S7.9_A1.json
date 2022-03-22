@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 308,
                 "end": 309,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -52,8 +51,7 @@
             "type": "Literal",
             "start": 316,
             "end": 317,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         "update": {
@@ -97,8 +95,7 @@
                       "type": "Literal",
                       "start": 341,
                       "end": 342,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 ],
@@ -119,8 +116,7 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 350,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               "update": {
@@ -160,8 +156,7 @@
                         "type": "Literal",
                         "start": 373,
                         "end": 374,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     },
                     "consequent": {
@@ -206,8 +201,7 @@
                                 "type": "Literal",
                                 "start": 443,
                                 "end": 507,
-                                "value": "#1: Check continue statement for automatic semicolon insertion",
-                                "raw": "'#1: Check continue statement for automatic semicolon insertion'"
+                                "value": "#1: Check continue statement for automatic semicolon insertion"
                               }
                             ]
                           }
@@ -281,8 +275,7 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 575,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -303,8 +296,7 @@
             "type": "Literal",
             "start": 582,
             "end": 583,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "update": {
@@ -348,8 +340,7 @@
                       "type": "Literal",
                       "start": 607,
                       "end": 608,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 ],
@@ -370,8 +361,7 @@
                   "type": "Literal",
                   "start": 615,
                   "end": 616,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               "update": {
@@ -411,8 +401,7 @@
                         "type": "Literal",
                         "start": 639,
                         "end": 640,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     },
                     "consequent": {
@@ -531,8 +520,7 @@
                   "type": "Literal",
                   "start": 768,
                   "end": 832,
-                  "value": "#2: Check continue statement for automatic semicolon insertion",
-                  "raw": "'#2: Check continue statement for automatic semicolon insertion'"
+                  "value": "#2: Check continue statement for automatic semicolon insertion"
                 }
               ]
             }

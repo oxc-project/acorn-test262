@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 678,
                   "end": 679,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -137,8 +136,7 @@
                           "type": "Literal",
                           "start": 744,
                           "end": 746,
-                          "value": 16,
-                          "raw": "16"
+                          "value": 16
                         }
                       }
                     ]
@@ -200,8 +198,7 @@
                       "type": "Literal",
                       "start": 809,
                       "end": 810,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     }
                   }
                 }
@@ -243,8 +240,7 @@
           "type": "Literal",
           "start": 840,
           "end": 841,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -275,8 +271,7 @@
                     "type": "Literal",
                     "start": 870,
                     "end": 904,
-                    "value": "#1: innerScope.x === 2. Actual: ",
-                    "raw": "'#1: innerScope.x === 2. Actual: '"
+                    "value": "#1: innerScope.x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -343,8 +338,7 @@
           "type": "Literal",
           "start": 947,
           "end": 948,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -375,8 +369,7 @@
                     "type": "Literal",
                     "start": 977,
                     "end": 1011,
-                    "value": "#2: outerScope.x === 0. Actual: ",
-                    "raw": "'#2: outerScope.x === 0. Actual: '"
+                    "value": "#2: outerScope.x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

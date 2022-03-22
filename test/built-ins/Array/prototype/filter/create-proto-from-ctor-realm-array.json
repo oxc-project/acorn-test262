@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 853,
             "end": 854,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -191,8 +190,7 @@
                             "type": "Literal",
                             "start": 959,
                             "end": 960,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -571,15 +569,13 @@
             "type": "Literal",
             "start": 1263,
             "end": 1264,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1266,
             "end": 1305,
-            "value": "Species constructor is not referenced",
-            "raw": "'Species constructor is not referenced'"
+            "value": "Species constructor is not referenced"
           }
         ],
         "optional": false

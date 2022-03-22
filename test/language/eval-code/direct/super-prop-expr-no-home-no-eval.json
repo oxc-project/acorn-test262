@@ -76,8 +76,7 @@
                         "type": "Literal",
                         "start": 1507,
                         "end": 1533,
-                        "value": "super[evaluated = true];",
-                        "raw": "'super[evaluated = true];'"
+                        "value": "super[evaluated = true];"
                       }
                     ],
                     "optional": false

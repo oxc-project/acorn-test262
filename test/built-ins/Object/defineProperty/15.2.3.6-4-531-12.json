@@ -94,8 +94,7 @@
           "type": "Literal",
           "start": 499,
           "end": 505,
-          "value": "data",
-          "raw": "\"data\""
+          "value": "data"
         }
       }
     },
@@ -137,8 +136,7 @@
             "type": "Literal",
             "start": 534,
             "end": 537,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -336,8 +334,7 @@
           "type": "Literal",
           "start": 716,
           "end": 723,
-          "value": "data1",
-          "raw": "\"data1\""
+          "value": "data1"
         }
       }
     },
@@ -518,8 +515,7 @@
             "type": "Literal",
             "start": 885,
             "end": 888,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -599,8 +595,7 @@
             "type": "Literal",
             "start": 947,
             "end": 950,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "CallExpression",
@@ -644,15 +639,13 @@
             "type": "Literal",
             "start": 985,
             "end": 988,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "Literal",
             "start": 990,
             "end": 1010,
-            "value": "verifySetFunction1",
-            "raw": "\"verifySetFunction1\""
+            "value": "verifySetFunction1"
           }
         ],
         "optional": false
@@ -683,8 +676,7 @@
             "type": "Literal",
             "start": 1039,
             "end": 1042,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         ],
         "optional": false
@@ -715,8 +707,7 @@
             "type": "Literal",
             "start": 1070,
             "end": 1073,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         ],
         "optional": false

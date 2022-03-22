@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 298,
                   "end": 303,
-                  "value": "bar",
-                  "raw": "'bar'"
+                  "value": "bar"
                 },
                 "kind": "init"
               }

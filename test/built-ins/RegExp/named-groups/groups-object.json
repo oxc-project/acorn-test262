@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 637,
             "end": 638,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -80,8 +79,7 @@
             "type": "Literal",
             "start": 679,
             "end": 687,
-            "value": "groups",
-            "raw": "\"groups\""
+            "value": "groups"
           },
           {
             "type": "ObjectExpression",
@@ -172,7 +170,6 @@
                 "start": 731,
                 "end": 740,
                 "value": {},
-                "raw": "/(?<x>.)/",
                 "regex": {
                   "pattern": "(?<x>.)",
                   "flags": ""
@@ -192,8 +189,7 @@
                 "type": "Literal",
                 "start": 746,
                 "end": 749,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -240,8 +236,7 @@
             "type": "Literal",
             "start": 778,
             "end": 779,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -272,8 +267,7 @@
             "type": "Literal",
             "start": 888,
             "end": 896,
-            "value": "groups",
-            "raw": "\"groups\""
+            "value": "groups"
           },
           {
             "type": "ObjectExpression",
@@ -402,7 +396,6 @@
                 "start": 1118,
                 "end": 1135,
                 "value": {},
-                "raw": "/(?<__proto__>.)/",
                 "regex": {
                   "pattern": "(?<__proto__>.)",
                   "flags": ""
@@ -422,8 +415,7 @@
                 "type": "Literal",
                 "start": 1141,
                 "end": 1144,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -464,8 +456,7 @@
             "type": "Literal",
             "start": 1164,
             "end": 1167,
-            "value": "a",
-            "raw": "\"a\""
+            "value": "a"
           },
           {
             "type": "MemberExpression",

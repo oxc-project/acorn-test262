@@ -184,8 +184,7 @@
             "type": "Literal",
             "start": 452,
             "end": 525,
-            "value": "Temporal.Now.zonedDateTimeISO(timeZone) throws a Test262Error exception",
-            "raw": "'Temporal.Now.zonedDateTimeISO(timeZone) throws a Test262Error exception'"
+            "value": "Temporal.Now.zonedDateTimeISO(timeZone) throws a Test262Error exception"
           }
         ],
         "optional": false

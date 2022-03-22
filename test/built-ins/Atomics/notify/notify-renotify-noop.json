@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 334,
             "end": 335,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -254,8 +253,7 @@
                       "type": "Literal",
                       "start": 704,
                       "end": 705,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     }
                   }
                 ]
@@ -374,8 +372,7 @@
             "type": "Literal",
             "start": 780,
             "end": 781,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -487,15 +484,13 @@
                 "type": "Literal",
                 "start": 917,
                 "end": 918,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 920,
                 "end": 921,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -504,15 +499,13 @@
             "type": "Literal",
             "start": 924,
             "end": 925,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 927,
             "end": 965,
-            "value": "Atomics.notify(i32a, 0, 1) returns 1",
-            "raw": "'Atomics.notify(i32a, 0, 1) returns 1'"
+            "value": "Atomics.notify(i32a, 0, 1) returns 1"
           }
         ],
         "optional": false
@@ -589,15 +582,13 @@
             "type": "Literal",
             "start": 1010,
             "end": 1014,
-            "value": "ok",
-            "raw": "'ok'"
+            "value": "ok"
           },
           {
             "type": "Literal",
             "start": 1016,
             "end": 1053,
-            "value": "$262.agent.getReport() returns \"ok\"",
-            "raw": "'$262.agent.getReport() returns \"ok\"'"
+            "value": "$262.agent.getReport() returns \"ok\""
           }
         ],
         "optional": false
@@ -665,15 +656,13 @@
                 "type": "Literal",
                 "start": 1138,
                 "end": 1139,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1141,
                 "end": 1142,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -682,15 +671,13 @@
             "type": "Literal",
             "start": 1145,
             "end": 1146,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1148,
             "end": 1186,
-            "value": "Atomics.notify(i32a, 0, 1) returns 0",
-            "raw": "'Atomics.notify(i32a, 0, 1) returns 0'"
+            "value": "Atomics.notify(i32a, 0, 1) returns 0"
           }
         ],
         "optional": false

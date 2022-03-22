@@ -128,8 +128,7 @@
                             "type": "Literal",
                             "start": 729,
                             "end": 731,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         }
                       ]
@@ -137,10 +136,9 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 735,
-                  "end": 739,
-                  "static": false,
+                  "end": 738,
                   "computed": true,
                   "key": {
                     "type": "Identifier",
@@ -151,10 +149,9 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 740,
-                  "end": 749,
-                  "static": false,
+                  "end": 748,
                   "computed": true,
                   "key": {
                     "type": "Identifier",
@@ -166,8 +163,7 @@
                     "type": "Literal",
                     "start": 746,
                     "end": 748,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   }
                 }
               ]
@@ -283,8 +279,7 @@
                 "type": "Literal",
                 "start": 821,
                 "end": 824,
-                "value": "m",
-                "raw": "\"m\""
+                "value": "m"
               }
             ],
             "optional": false
@@ -421,8 +416,7 @@
             "type": "Literal",
             "start": 902,
             "end": 905,
-            "value": "m",
-            "raw": "\"m\""
+            "value": "m"
           },
           {
             "type": "ObjectExpression",
@@ -645,8 +639,7 @@
                             "type": "Literal",
                             "start": 1039,
                             "end": 1041,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ],
                         "optional": false
@@ -731,8 +724,7 @@
                                               "type": "Literal",
                                               "start": 1193,
                                               "end": 1219,
-                                              "value": "Test262:AsyncTestFailure",
-                                              "raw": "'Test262:AsyncTestFailure'"
+                                              "value": "Test262:AsyncTestFailure"
                                             }
                                           ]
                                         }
@@ -1308,8 +1300,7 @@
                                         "type": "Literal",
                                         "start": 1680,
                                         "end": 1682,
-                                        "value": 42,
-                                        "raw": "42"
+                                        "value": 42
                                       },
                                       "kind": "init"
                                     },
@@ -1473,8 +1464,7 @@
                                       "type": "Literal",
                                       "start": 1825,
                                       "end": 1828,
-                                      "value": "x",
-                                      "raw": "\"x\""
+                                      "value": "x"
                                     }
                                   ],
                                   "optional": false
@@ -1565,8 +1555,7 @@
                                       "type": "Literal",
                                       "start": 1890,
                                       "end": 1893,
-                                      "value": "x",
-                                      "raw": "\"x\""
+                                      "value": "x"
                                     }
                                   ],
                                   "optional": false
@@ -1657,8 +1646,7 @@
                                       "type": "Literal",
                                       "start": 1955,
                                       "end": 1958,
-                                      "value": "x",
-                                      "raw": "\"x\""
+                                      "value": "x"
                                     }
                                   ],
                                   "optional": false
@@ -1762,8 +1750,7 @@
                                       "type": "Literal",
                                       "start": 2031,
                                       "end": 2034,
-                                      "value": "y",
-                                      "raw": "\"y\""
+                                      "value": "y"
                                     }
                                   ],
                                   "optional": false
@@ -1854,8 +1841,7 @@
                                       "type": "Literal",
                                       "start": 2096,
                                       "end": 2099,
-                                      "value": "y",
-                                      "raw": "\"y\""
+                                      "value": "y"
                                     }
                                   ],
                                   "optional": false
@@ -1946,8 +1932,7 @@
                                       "type": "Literal",
                                       "start": 2161,
                                       "end": 2164,
-                                      "value": "y",
-                                      "raw": "\"y\""
+                                      "value": "y"
                                     }
                                   ],
                                   "optional": false

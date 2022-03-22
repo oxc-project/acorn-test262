@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 645,
                 "end": 654,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -126,8 +125,7 @@
                   "type": "Literal",
                   "start": 700,
                   "end": 716,
-                  "value": "invalid string",
-                  "raw": "\"invalid string\""
+                  "value": "invalid string"
                 }
               ],
               "optional": false
@@ -137,8 +135,7 @@
             "type": "Literal",
             "start": 723,
             "end": 782,
-            "value": "cal.month(\"invalid string\") throws a RangeError exception",
-            "raw": "'cal.month(\"invalid string\") throws a RangeError exception'"
+            "value": "cal.month(\"invalid string\") throws a RangeError exception"
           }
         ],
         "optional": false

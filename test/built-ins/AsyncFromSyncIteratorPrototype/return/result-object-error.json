@@ -127,8 +127,7 @@
                                               "type": "Literal",
                                               "start": 966,
                                               "end": 967,
-                                              "value": 1,
-                                              "raw": "1"
+                                              "value": 1
                                             },
                                             "kind": "init"
                                           },
@@ -197,8 +196,7 @@
                                         "type": "Literal",
                                         "start": 1025,
                                         "end": 1026,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       }
                                     }
                                   ]
@@ -466,8 +464,7 @@
                                               "type": "Literal",
                                               "start": 1229,
                                               "end": 1264,
-                                              "value": "Promise should be rejected, got: ",
-                                              "raw": "\"Promise should be rejected, got: \""
+                                              "value": "Promise should be rejected, got: "
                                             },
                                             "operator": "+",
                                             "right": {
@@ -583,8 +580,7 @@
                                               "type": "Literal",
                                               "start": 1382,
                                               "end": 1407,
-                                              "value": "Expect TypeError, got: ",
-                                              "raw": "\"Expect TypeError, got: \""
+                                              "value": "Expect TypeError, got: "
                                             },
                                             "operator": "+",
                                             "right": {
@@ -763,8 +759,7 @@
                                                             "type": "Literal",
                                                             "start": 1500,
                                                             "end": 1527,
-                                                            "value": "the iterator is completed",
-                                                            "raw": "'the iterator is completed'"
+                                                            "value": "the iterator is completed"
                                                           }
                                                         ],
                                                         "optional": false
@@ -814,8 +809,7 @@
                                                             "type": "Literal",
                                                             "start": 1573,
                                                             "end": 1593,
-                                                            "value": "value is undefined",
-                                                            "raw": "'value is undefined'"
+                                                            "value": "value is undefined"
                                                           }
                                                         ],
                                                         "optional": false

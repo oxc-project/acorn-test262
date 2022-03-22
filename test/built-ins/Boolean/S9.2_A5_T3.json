@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 415,
                 "end": 418,
-                "value": " ",
-                "raw": "\" \""
+                "value": " "
               }
             ],
             "optional": false
@@ -63,8 +62,7 @@
             "type": "Literal",
             "start": 427,
             "end": 458,
-            "value": "Boolean(\" \") must return true",
-            "raw": "'Boolean(\" \") must return true'"
+            "value": "Boolean(\" \") must return true"
           }
         ],
         "optional": false
@@ -113,8 +111,7 @@
                 "type": "Literal",
                 "start": 486,
                 "end": 503,
-                "value": "Nonempty String",
-                "raw": "\"Nonempty String\""
+                "value": "Nonempty String"
               }
             ],
             "optional": false
@@ -130,8 +127,7 @@
             "type": "Literal",
             "start": 512,
             "end": 557,
-            "value": "Boolean(\"Nonempty String\") must return true",
-            "raw": "'Boolean(\"Nonempty String\") must return true'"
+            "value": "Boolean(\"Nonempty String\") must return true"
           }
         ],
         "optional": false

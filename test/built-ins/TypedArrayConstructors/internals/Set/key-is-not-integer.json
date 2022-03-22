@@ -74,8 +74,7 @@
                                 "type": "Literal",
                                 "start": 755,
                                 "end": 757,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               }
                             ]
                           }
@@ -147,15 +146,13 @@
                             "type": "Literal",
                             "start": 801,
                             "end": 806,
-                            "value": "1.1",
-                            "raw": "\"1.1\""
+                            "value": "1.1"
                           },
                           {
                             "type": "Literal",
                             "start": 808,
                             "end": 809,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -171,8 +168,7 @@
                         "type": "Literal",
                         "start": 818,
                         "end": 866,
-                        "value": "Reflect.set(sample, \"1.1\", 1) must return true",
-                        "raw": "'Reflect.set(sample, \"1.1\", 1) must return true'"
+                        "value": "Reflect.set(sample, \"1.1\", 1) must return true"
                       }
                     ],
                     "optional": false
@@ -240,15 +236,13 @@
                             "type": "Literal",
                             "start": 908,
                             "end": 916,
-                            "value": "0.0001",
-                            "raw": "\"0.0001\""
+                            "value": "0.0001"
                           },
                           {
                             "type": "Literal",
                             "start": 918,
                             "end": 919,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -264,8 +258,7 @@
                         "type": "Literal",
                         "start": 928,
                         "end": 979,
-                        "value": "Reflect.set(sample, \"0.0001\", 1) must return true",
-                        "raw": "'Reflect.set(sample, \"0.0001\", 1) must return true'"
+                        "value": "Reflect.set(sample, \"0.0001\", 1) must return true"
                       }
                     ],
                     "optional": false
@@ -327,8 +320,7 @@
                             "type": "Literal",
                             "start": 1024,
                             "end": 1029,
-                            "value": "1.1",
-                            "raw": "\"1.1\""
+                            "value": "1.1"
                           }
                         ],
                         "optional": false
@@ -344,8 +336,7 @@
                         "type": "Literal",
                         "start": 1039,
                         "end": 1087,
-                        "value": "sample.hasOwnProperty(\"1.1\") must return false",
-                        "raw": "'sample.hasOwnProperty(\"1.1\") must return false'"
+                        "value": "sample.hasOwnProperty(\"1.1\") must return false"
                       }
                     ],
                     "optional": false
@@ -407,8 +398,7 @@
                             "type": "Literal",
                             "start": 1136,
                             "end": 1144,
-                            "value": "0.0001",
-                            "raw": "\"0.0001\""
+                            "value": "0.0001"
                           }
                         ],
                         "optional": false
@@ -424,8 +414,7 @@
                         "type": "Literal",
                         "start": 1162,
                         "end": 1213,
-                        "value": "sample.hasOwnProperty(\"0.0001\") must return false",
-                        "raw": "'sample.hasOwnProperty(\"0.0001\") must return false'"
+                        "value": "sample.hasOwnProperty(\"0.0001\") must return false"
                       }
                     ],
                     "optional": false

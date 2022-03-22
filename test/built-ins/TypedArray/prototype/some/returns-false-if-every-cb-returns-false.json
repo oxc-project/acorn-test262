@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 818,
                             "end": 820,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ]
                       }
@@ -106,15 +105,13 @@
                             "type": "Literal",
                             "start": 843,
                             "end": 845,
-                            "value": "",
-                            "raw": "\"\""
+                            "value": ""
                           },
                           {
                             "type": "Literal",
                             "start": 851,
                             "end": 852,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "UnaryExpression",
@@ -126,8 +123,7 @@
                               "type": "Literal",
                               "start": 859,
                               "end": 860,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           },
                           {
@@ -201,8 +197,7 @@
                                     "type": "Literal",
                                     "start": 940,
                                     "end": 941,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 }
                               ],
@@ -338,15 +333,13 @@
                                     "type": "Literal",
                                     "start": 1056,
                                     "end": 1058,
-                                    "value": 42,
-                                    "raw": "42"
+                                    "value": 42
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1060,
                                     "end": 1103,
-                                    "value": "callbackfn called for each index property",
-                                    "raw": "\"callbackfn called for each index property\""
+                                    "value": "callbackfn called for each index property"
                                   }
                                 ],
                                 "optional": false
@@ -401,8 +394,7 @@
                                       "type": "Literal",
                                       "start": 1142,
                                       "end": 1162,
-                                      "value": "result is false - ",
-                                      "raw": "\"result is false - \""
+                                      "value": "result is false - "
                                     },
                                     "operator": "+",
                                     "right": {

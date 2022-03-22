@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1920,
             "end": 1921,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1936,
             "end": 1937,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -107,8 +105,7 @@
                         "type": "Literal",
                         "start": 1975,
                         "end": 1976,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   },
@@ -148,8 +145,7 @@
                         "type": "Literal",
                         "start": 2018,
                         "end": 2019,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -332,8 +328,7 @@
                             "type": "Literal",
                             "start": 2152,
                             "end": 2202,
-                            "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "value": "Expected async function to reject, but resolved."
                           }
                         ]
                       }

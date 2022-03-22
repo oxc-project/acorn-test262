@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 744,
             "end": 790,
-            "value": "isConstructor(Reflect.has) must return false",
-            "raw": "'isConstructor(Reflect.has) must return false'"
+            "value": "isConstructor(Reflect.has) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 851,
             "end": 889,
-            "value": "`new Reflect.has()` throws TypeError",
-            "raw": "'`new Reflect.has()` throws TypeError'"
+            "value": "`new Reflect.has()` throws TypeError"
           }
         ],
         "optional": false

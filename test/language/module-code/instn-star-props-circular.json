@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1076,
         "end": 1118,
-        "value": "./instn-star-props-circular-a_FIXTURE.js",
-        "raw": "'./instn-star-props-circular-a_FIXTURE.js'"
+        "value": "./instn-star-props-circular-a_FIXTURE.js"
       }
     },
     {
@@ -49,8 +48,7 @@
         "type": "Literal",
         "start": 1139,
         "end": 1181,
-        "value": "./instn-star-props-circular-b_FIXTURE.js",
-        "raw": "'./instn-star-props-circular-b_FIXTURE.js'"
+        "value": "./instn-star-props-circular-b_FIXTURE.js"
       }
     },
     {
@@ -76,8 +74,7 @@
               "type": "Literal",
               "start": 1191,
               "end": 1198,
-              "value": "fromA",
-              "raw": "'fromA'"
+              "value": "fromA"
             },
             "operator": "in",
             "right": {
@@ -91,8 +88,7 @@
             "type": "Literal",
             "start": 1205,
             "end": 1258,
-            "value": "entry for binding from \"a\" in namespace of module A",
-            "raw": "'entry for binding from \"a\" in namespace of module A'"
+            "value": "entry for binding from \"a\" in namespace of module A"
           }
         ],
         "optional": false
@@ -121,8 +117,7 @@
               "type": "Literal",
               "start": 1268,
               "end": 1275,
-              "value": "fromB",
-              "raw": "'fromB'"
+              "value": "fromB"
             },
             "operator": "in",
             "right": {
@@ -136,8 +131,7 @@
             "type": "Literal",
             "start": 1282,
             "end": 1335,
-            "value": "entry for binding from \"b\" in namespace of module A",
-            "raw": "'entry for binding from \"b\" in namespace of module A'"
+            "value": "entry for binding from \"b\" in namespace of module A"
           }
         ],
         "optional": false
@@ -166,8 +160,7 @@
               "type": "Literal",
               "start": 1346,
               "end": 1353,
-              "value": "fromA",
-              "raw": "'fromA'"
+              "value": "fromA"
             },
             "operator": "in",
             "right": {
@@ -181,8 +174,7 @@
             "type": "Literal",
             "start": 1360,
             "end": 1413,
-            "value": "entry for binding from \"a\" in namespace of module B",
-            "raw": "'entry for binding from \"a\" in namespace of module B'"
+            "value": "entry for binding from \"a\" in namespace of module B"
           }
         ],
         "optional": false
@@ -211,8 +203,7 @@
               "type": "Literal",
               "start": 1423,
               "end": 1430,
-              "value": "fromB",
-              "raw": "'fromB'"
+              "value": "fromB"
             },
             "operator": "in",
             "right": {
@@ -226,8 +217,7 @@
             "type": "Literal",
             "start": 1437,
             "end": 1490,
-            "value": "entry for binding from \"b\" in namespace of module B",
-            "raw": "'entry for binding from \"b\" in namespace of module B'"
+            "value": "entry for binding from \"b\" in namespace of module B"
           }
         ],
         "optional": false

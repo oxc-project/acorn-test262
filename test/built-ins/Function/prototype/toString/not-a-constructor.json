@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 774,
             "end": 836,
-            "value": "isConstructor(Function.prototype.toString) must return false",
-            "raw": "'isConstructor(Function.prototype.toString) must return false'"
+            "value": "isConstructor(Function.prototype.toString) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 914,
             "end": 968,
-            "value": "`new Function.prototype.toString()` throws TypeError",
-            "raw": "'`new Function.prototype.toString()` throws TypeError'"
+            "value": "`new Function.prototype.toString()` throws TypeError"
           }
         ],
         "optional": false
@@ -323,8 +321,7 @@
             "type": "Literal",
             "start": 1068,
             "end": 1101,
-            "value": "`new toString` throws TypeError",
-            "raw": "'`new toString` throws TypeError'"
+            "value": "`new toString` throws TypeError"
           }
         ],
         "optional": false

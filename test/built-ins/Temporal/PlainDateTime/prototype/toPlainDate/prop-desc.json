@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 398,
             "end": 408,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 412,
             "end": 472,
-            "value": "`typeof PlainDateTime.prototype.toPlainDate` is `function`",
-            "raw": "\"`typeof PlainDateTime.prototype.toPlainDate` is `function`\""
+            "value": "`typeof PlainDateTime.prototype.toPlainDate` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 526,
             "end": 539,
-            "value": "toPlainDate",
-            "raw": "\"toPlainDate\""
+            "value": "toPlainDate"
           },
           {
             "type": "ObjectExpression",

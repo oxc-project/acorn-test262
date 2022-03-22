@@ -29,8 +29,7 @@
               "type": "Literal",
               "start": 236,
               "end": 239,
-              "value": "a",
-              "raw": "'a'"
+              "value": "a"
             },
             "kind": "get",
             "value": {
@@ -55,8 +54,7 @@
                       "type": "Literal",
                       "start": 256,
                       "end": 259,
-                      "value": "A",
-                      "raw": "'A'"
+                      "value": "A"
                     }
                   }
                 ]
@@ -123,15 +121,13 @@
             "type": "Literal",
             "start": 295,
             "end": 298,
-            "value": "A",
-            "raw": "'A'"
+            "value": "A"
           },
           {
             "type": "Literal",
             "start": 300,
             "end": 335,
-            "value": "The value of `new C().a` is `'A'`",
-            "raw": "\"The value of `new C().a` is `'A'`\""
+            "value": "The value of `new C().a` is `'A'`"
           }
         ],
         "optional": false

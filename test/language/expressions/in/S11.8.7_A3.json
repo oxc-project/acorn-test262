@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 290,
                 "end": 300,
-                "value": "toString",
-                "raw": "\"toString\""
+                "value": "toString"
               },
               "operator": "in",
               "right": {
@@ -56,8 +55,7 @@
                   "type": "Literal",
                   "start": 335,
                   "end": 375,
-                  "value": "#1: \"toString\" in true throw TypeError",
-                  "raw": "'#1: \"toString\" in true throw TypeError'"
+                  "value": "#1: \"toString\" in true throw TypeError"
                 }
               ]
             }
@@ -143,8 +141,7 @@
                           "type": "Literal",
                           "start": 464,
                           "end": 504,
-                          "value": "#1: \"toString\" in true throw TypeError",
-                          "raw": "'#1: \"toString\" in true throw TypeError'"
+                          "value": "#1: \"toString\" in true throw TypeError"
                         }
                       ]
                     }
@@ -179,16 +176,14 @@
                 "type": "Literal",
                 "start": 534,
                 "end": 545,
-                "value": "MAX_VALUE",
-                "raw": "\"MAX_VALUE\""
+                "value": "MAX_VALUE"
               },
               "operator": "in",
               "right": {
                 "type": "Literal",
                 "start": 549,
                 "end": 550,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -211,8 +206,7 @@
                   "type": "Literal",
                   "start": 577,
                   "end": 615,
-                  "value": "#2: \"MAX_VALUE\" in 1 throw TypeError",
-                  "raw": "'#2: \"MAX_VALUE\" in 1 throw TypeError'"
+                  "value": "#2: \"MAX_VALUE\" in 1 throw TypeError"
                 }
               ]
             }
@@ -298,8 +292,7 @@
                           "type": "Literal",
                           "start": 704,
                           "end": 742,
-                          "value": "#2: \"MAX_VALUE\" in 1 throw TypeError",
-                          "raw": "'#2: \"MAX_VALUE\" in 1 throw TypeError'"
+                          "value": "#2: \"MAX_VALUE\" in 1 throw TypeError"
                         }
                       ]
                     }
@@ -334,16 +327,14 @@
                 "type": "Literal",
                 "start": 772,
                 "end": 780,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               },
               "operator": "in",
               "right": {
                 "type": "Literal",
                 "start": 784,
                 "end": 792,
-                "value": "string",
-                "raw": "\"string\""
+                "value": "string"
               }
             }
           },
@@ -366,8 +357,7 @@
                   "type": "Literal",
                   "start": 819,
                   "end": 861,
-                  "value": "#3: \"length\" in \"string\" throw TypeError",
-                  "raw": "'#3: \"length\" in \"string\" throw TypeError'"
+                  "value": "#3: \"length\" in \"string\" throw TypeError"
                 }
               ]
             }
@@ -453,8 +443,7 @@
                           "type": "Literal",
                           "start": 950,
                           "end": 992,
-                          "value": "#3: \"length\" in \"string\" throw TypeError",
-                          "raw": "'#3: \"length\" in \"string\" throw TypeError'"
+                          "value": "#3: \"length\" in \"string\" throw TypeError"
                         }
                       ]
                     }
@@ -489,8 +478,7 @@
                 "type": "Literal",
                 "start": 1022,
                 "end": 1032,
-                "value": "toString",
-                "raw": "\"toString\""
+                "value": "toString"
               },
               "operator": "in",
               "right": {
@@ -520,8 +508,7 @@
                   "type": "Literal",
                   "start": 1072,
                   "end": 1117,
-                  "value": "#4: \"toString\" in undefined throw TypeError",
-                  "raw": "'#4: \"toString\" in undefined throw TypeError'"
+                  "value": "#4: \"toString\" in undefined throw TypeError"
                 }
               ]
             }
@@ -607,8 +594,7 @@
                           "type": "Literal",
                           "start": 1206,
                           "end": 1251,
-                          "value": "#4: \"toString\" in undefined throw TypeError",
-                          "raw": "'#4: \"toString\" in undefined throw TypeError'"
+                          "value": "#4: \"toString\" in undefined throw TypeError"
                         }
                       ]
                     }
@@ -643,8 +629,7 @@
                 "type": "Literal",
                 "start": 1281,
                 "end": 1291,
-                "value": "toString",
-                "raw": "\"toString\""
+                "value": "toString"
               },
               "operator": "in",
               "right": {
@@ -675,8 +660,7 @@
                   "type": "Literal",
                   "start": 1326,
                   "end": 1366,
-                  "value": "#5: \"toString\" in null throw TypeError",
-                  "raw": "'#5: \"toString\" in null throw TypeError'"
+                  "value": "#5: \"toString\" in null throw TypeError"
                 }
               ]
             }
@@ -762,8 +746,7 @@
                           "type": "Literal",
                           "start": 1455,
                           "end": 1495,
-                          "value": "#5: \"toString\" in null throw TypeError",
-                          "raw": "'#5: \"toString\" in null throw TypeError'"
+                          "value": "#5: \"toString\" in null throw TypeError"
                         }
                       ]
                     }

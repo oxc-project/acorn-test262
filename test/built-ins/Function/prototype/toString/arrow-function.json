@@ -85,8 +85,7 @@
               "type": "Literal",
               "start": 476,
               "end": 477,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         }
@@ -128,8 +127,7 @@
               "type": "Literal",
               "start": 531,
               "end": 532,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         }
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 580,
             "end": 664,
-            "value": "( /* a */ a /* b */ , /* c */ b /* d */ ) /* e */ => /* f */ { /* g */ ; /* h */ }",
-            "raw": "\"( /* a */ a /* b */ , /* c */ b /* d */ ) /* e */ => /* f */ { /* g */ ; /* h */ }\""
+            "value": "( /* a */ a /* b */ , /* c */ b /* d */ ) /* e */ => /* f */ { /* g */ ; /* h */ }"
           }
         ],
         "optional": false
@@ -193,8 +190,7 @@
             "type": "Literal",
             "start": 701,
             "end": 735,
-            "value": "( /* a */ ) /* b */ => /* c */ 0",
-            "raw": "\"( /* a */ ) /* b */ => /* c */ 0\""
+            "value": "( /* a */ ) /* b */ => /* c */ 0"
           }
         ],
         "optional": false
@@ -225,8 +221,7 @@
             "type": "Literal",
             "start": 772,
             "end": 796,
-            "value": "a /* a */ => /* b */ 0",
-            "raw": "\"a /* a */ => /* b */ 0\""
+            "value": "a /* a */ => /* b */ 0"
           }
         ],
         "optional": false

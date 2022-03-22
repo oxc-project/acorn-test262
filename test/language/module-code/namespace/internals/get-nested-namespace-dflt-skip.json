@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1302,
         "end": 1353,
-        "value": "./get-nested-namespace-dflt-skip-named_FIXTURE.js",
-        "raw": "'./get-nested-namespace-dflt-skip-named_FIXTURE.js'"
+        "value": "./get-nested-namespace-dflt-skip-named_FIXTURE.js"
       }
     },
     {
@@ -49,8 +48,7 @@
         "type": "Literal",
         "start": 1386,
         "end": 1436,
-        "value": "./get-nested-namespace-dflt-skip-prod_FIXTURE.js",
-        "raw": "'./get-nested-namespace-dflt-skip-prod_FIXTURE.js'"
+        "value": "./get-nested-namespace-dflt-skip-prod_FIXTURE.js"
       }
     },
     {
@@ -76,8 +74,7 @@
               "type": "Literal",
               "start": 1446,
               "end": 1458,
-              "value": "namedOther",
-              "raw": "'namedOther'"
+              "value": "namedOther"
             },
             "operator": "in",
             "right": {
@@ -140,8 +137,7 @@
               "type": "Literal",
               "start": 1502,
               "end": 1511,
-              "value": "default",
-              "raw": "'default'"
+              "value": "default"
             },
             "operator": "in",
             "right": {
@@ -175,8 +171,7 @@
             "type": "Literal",
             "start": 1540,
             "end": 1574,
-            "value": "default specified via identifier",
-            "raw": "'default specified via identifier'"
+            "value": "default specified via identifier"
           }
         ],
         "optional": false
@@ -205,8 +200,7 @@
               "type": "Literal",
               "start": 1586,
               "end": 1603,
-              "value": "productionOther",
-              "raw": "'productionOther'"
+              "value": "productionOther"
             },
             "operator": "in",
             "right": {
@@ -269,8 +263,7 @@
               "type": "Literal",
               "start": 1657,
               "end": 1666,
-              "value": "default",
-              "raw": "'default'"
+              "value": "default"
             },
             "operator": "in",
             "right": {
@@ -304,8 +297,7 @@
             "type": "Literal",
             "start": 1705,
             "end": 1749,
-            "value": "default specified via dedicated production",
-            "raw": "'default specified via dedicated production'"
+            "value": "default specified via dedicated production"
           }
         ],
         "optional": false

@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 913,
               "end": 920,
               "name": "method"
@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 932,
                       "end": 945,
-                      "value": "super class",
-                      "raw": "'super class'"
+                      "value": "super class"
                     }
                   }
                 ]
@@ -106,14 +105,14 @@
                           "start": 977,
                           "end": 981
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 982,
                           "end": 989,
                           "name": "method"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "arguments": [],
                       "optional": false
@@ -154,7 +153,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1020,
               "end": 1027,
               "name": "method"
@@ -182,8 +181,7 @@
                       "type": "Literal",
                       "start": 1039,
                       "end": 1048,
-                      "value": "test262",
-                      "raw": "'test262'"
+                      "value": "test262"
                     }
                   }
                 ]
@@ -234,14 +232,14 @@
                           "start": 1079,
                           "end": 1083
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1084,
                           "end": 1091,
                           "name": "method"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "arguments": [],
                       "optional": false
@@ -343,8 +341,7 @@
             "type": "Literal",
             "start": 1151,
             "end": 1160,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -408,8 +405,7 @@
             "type": "Literal",
             "start": 1197,
             "end": 1210,
-            "value": "super class",
-            "raw": "'super class'"
+            "value": "super class"
           }
         ],
         "optional": false
@@ -504,8 +500,7 @@
             "type": "Literal",
             "start": 1265,
             "end": 1278,
-            "value": "super class",
-            "raw": "'super class'"
+            "value": "super class"
           }
         ],
         "optional": false
@@ -617,8 +612,7 @@
             "type": "Literal",
             "start": 1342,
             "end": 1378,
-            "value": "invalid access of C private method",
-            "raw": "'invalid access of C private method'"
+            "value": "invalid access of C private method"
           }
         ],
         "optional": false

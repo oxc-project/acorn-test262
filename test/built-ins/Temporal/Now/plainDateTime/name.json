@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 359,
             "end": 374,
-            "value": "plainDateTime",
-            "raw": "'plainDateTime'"
+            "value": "plainDateTime"
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 458,
-            "value": "The value of Temporal.Now.plainDateTime.name is expected to be \"plainDateTime\"",
-            "raw": "'The value of Temporal.Now.plainDateTime.name is expected to be \"plainDateTime\"'"
+            "value": "The value of Temporal.Now.plainDateTime.name is expected to be \"plainDateTime\""
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 506,
             "end": 512,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

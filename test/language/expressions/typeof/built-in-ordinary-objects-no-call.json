@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 511,
             "end": 519,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 549,
-            "value": "typeof Math === \"object\"",
-            "raw": "'typeof Math === \"object\"'"
+            "value": "typeof Math === \"object\""
           }
         ],
         "optional": false
@@ -107,15 +105,13 @@
             "type": "Literal",
             "start": 593,
             "end": 601,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 605,
             "end": 634,
-            "value": "typeof Reflect === \"object\"",
-            "raw": "'typeof Reflect === \"object\"'"
+            "value": "typeof Reflect === \"object\""
           }
         ],
         "optional": false

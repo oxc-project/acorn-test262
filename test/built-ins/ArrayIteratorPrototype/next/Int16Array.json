@@ -38,22 +38,19 @@
                     "type": "Literal",
                     "start": 379,
                     "end": 380,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   },
                   {
                     "type": "Literal",
                     "start": 382,
                     "end": 383,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 385,
                     "end": 386,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               }
@@ -235,15 +232,13 @@
             "type": "Literal",
             "start": 501,
             "end": 502,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 504,
             "end": 526,
-            "value": "first result `value`",
-            "raw": "'first result `value`'"
+            "value": "first result `value`"
           }
         ],
         "optional": false
@@ -307,8 +302,7 @@
             "type": "Literal",
             "start": 566,
             "end": 592,
-            "value": "first result `done` flag",
-            "raw": "'first result `done` flag'"
+            "value": "first result `done` flag"
           }
         ],
         "optional": false
@@ -408,15 +402,13 @@
             "type": "Literal",
             "start": 653,
             "end": 654,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 679,
-            "value": "second result `value`",
-            "raw": "'second result `value`'"
+            "value": "second result `value`"
           }
         ],
         "optional": false
@@ -480,8 +472,7 @@
             "type": "Literal",
             "start": 719,
             "end": 746,
-            "value": "second result `done` flag",
-            "raw": "'second result `done` flag'"
+            "value": "second result `done` flag"
           }
         ],
         "optional": false
@@ -581,15 +572,13 @@
             "type": "Literal",
             "start": 807,
             "end": 808,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 832,
-            "value": "third result `value`",
-            "raw": "'third result `value`'"
+            "value": "third result `value`"
           }
         ],
         "optional": false
@@ -653,8 +642,7 @@
             "type": "Literal",
             "start": 872,
             "end": 898,
-            "value": "third result `done` flag",
-            "raw": "'third result `done` flag'"
+            "value": "third result `done` flag"
           }
         ],
         "optional": false
@@ -760,8 +748,7 @@
             "type": "Literal",
             "start": 970,
             "end": 996,
-            "value": "exhausted result `value`",
-            "raw": "'exhausted result `value`'"
+            "value": "exhausted result `value`"
           }
         ],
         "optional": false
@@ -825,8 +812,7 @@
             "type": "Literal",
             "start": 1035,
             "end": 1065,
-            "value": "exhausted result `done` flag",
-            "raw": "'exhausted result `done` flag'"
+            "value": "exhausted result `done` flag"
           }
         ],
         "optional": false
@@ -932,8 +918,7 @@
             "type": "Literal",
             "start": 1140,
             "end": 1185,
-            "value": "exhausted result `value` (repeated request)",
-            "raw": "'exhausted result `value` (repeated request)'"
+            "value": "exhausted result `value` (repeated request)"
           }
         ],
         "optional": false
@@ -997,8 +982,7 @@
             "type": "Literal",
             "start": 1228,
             "end": 1277,
-            "value": "exhausted result `done` flag (repeated request)",
-            "raw": "'exhausted result `done` flag (repeated request)'"
+            "value": "exhausted result `done` flag (repeated request)"
           }
         ],
         "optional": false

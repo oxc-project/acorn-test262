@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 791,
             "end": 849,
-            "value": "isConstructor(Array.prototype.flatMap) must return false",
-            "raw": "'isConstructor(Array.prototype.flatMap) must return false'"
+            "value": "isConstructor(Array.prototype.flatMap) must return false"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 931,
             "end": 989,
-            "value": "`new Array.prototype.flatMap(() => {})` throws TypeError",
-            "raw": "'`new Array.prototype.flatMap(() => {})` throws TypeError'"
+            "value": "`new Array.prototype.flatMap(() => {})` throws TypeError"
           }
         ],
         "optional": false

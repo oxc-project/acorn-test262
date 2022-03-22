@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 371,
             "end": 377,
-            "value": "prop",
-            "raw": "'prop'"
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -109,8 +108,7 @@
                           "type": "Literal",
                           "start": 412,
                           "end": 417,
-                          "value": "abc",
-                          "raw": "'abc'"
+                          "value": "abc"
                         }
                       }
                     ]
@@ -283,15 +281,13 @@
             "type": "Literal",
             "start": 539,
             "end": 544,
-            "value": "abc",
-            "raw": "'abc'"
+            "value": "abc"
           },
           {
             "type": "Literal",
             "start": 546,
             "end": 556,
-            "value": "obj.prop",
-            "raw": "'obj.prop'"
+            "value": "obj.prop"
           }
         ],
         "optional": false

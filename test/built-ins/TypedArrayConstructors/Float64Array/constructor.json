@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 295,
             "end": 305,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 307,
             "end": 342,
-            "value": "typeof Float64Array is \"function\"",
-            "raw": "'typeof Float64Array is \"function\"'"
+            "value": "typeof Float64Array is \"function\""
           }
         ],
         "optional": false

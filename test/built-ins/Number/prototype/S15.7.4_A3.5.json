@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 326,
                 "end": 335,
-                "value": "toFixed",
-                "raw": "\"toFixed\""
+                "value": "toFixed"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 348,
             "end": 409,
-            "value": "Number.prototype.hasOwnProperty(\"toFixed\") must return true",
-            "raw": "'Number.prototype.hasOwnProperty(\"toFixed\") must return true'"
+            "value": "Number.prototype.hasOwnProperty(\"toFixed\") must return true"
           }
         ],
         "optional": false

@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 278,
                   "end": 296,
-                  "value": "12.10-0-3 before",
-                  "raw": "\"12.10-0-3 before\""
+                  "value": "12.10-0-3 before"
                 },
                 "kind": "init"
               }
@@ -166,8 +165,7 @@
           "type": "Literal",
           "start": 374,
           "end": 391,
-          "value": "12.10-0-3 after",
-          "raw": "\"12.10-0-3 after\""
+          "value": "12.10-0-3 after"
         }
       }
     },
@@ -216,15 +214,13 @@
             "type": "Literal",
             "start": 416,
             "end": 433,
-            "value": "12.10-0-3 after",
-            "raw": "\"12.10-0-3 after\""
+            "value": "12.10-0-3 after"
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 440,
-            "value": "f()",
-            "raw": "'f()'"
+            "value": "f()"
           }
         ],
         "optional": false

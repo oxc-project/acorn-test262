@@ -206,8 +206,7 @@
                                                   "type": "Literal",
                                                   "start": 970,
                                                   "end": 996,
-                                                  "value": "should only advance once",
-                                                  "raw": "'should only advance once'"
+                                                  "value": "should only advance once"
                                                 }
                                               ]
                                             }
@@ -300,8 +299,7 @@
                                                     "type": "Literal",
                                                     "start": 1109,
                                                     "end": 1112,
-                                                    "value": "0",
-                                                    "raw": "'0'"
+                                                    "value": "0"
                                                   },
                                                   "kind": "get",
                                                   "value": {
@@ -326,8 +324,7 @@
                                                             "type": "Literal",
                                                             "start": 1138,
                                                             "end": 1143,
-                                                            "value": "key",
-                                                            "raw": "'key'"
+                                                            "value": "key"
                                                           }
                                                         }
                                                       ]
@@ -345,8 +342,7 @@
                                                     "type": "Literal",
                                                     "start": 1176,
                                                     "end": 1179,
-                                                    "value": "1",
-                                                    "raw": "'1'"
+                                                    "value": "1"
                                                   },
                                                   "kind": "get",
                                                   "value": {
@@ -457,8 +453,7 @@
                                                   "type": "Literal",
                                                   "start": 1354,
                                                   "end": 1379,
-                                                  "value": "should only return once",
-                                                  "raw": "'should only return once'"
+                                                  "value": "should only return once"
                                                 }
                                               ]
                                             }
@@ -628,8 +623,7 @@
             "type": "Literal",
             "start": 1535,
             "end": 1602,
-            "value": "iterator should be closed when entry value property access throws",
-            "raw": "'iterator should be closed when entry value property access throws'"
+            "value": "iterator should be closed when entry value property access throws"
           }
         ],
         "optional": false

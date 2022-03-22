@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 373,
                           "end": 382,
-                          "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "value": "AB"
                         }
                       }
                     ]
@@ -161,8 +160,7 @@
             "type": "Literal",
             "start": 463,
             "end": 479,
-            "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "value": "ABBABABAB"
           }
         }
       ],
@@ -220,8 +218,7 @@
           "type": "Literal",
           "start": 612,
           "end": 613,
-          "value": 7,
-          "raw": "7"
+          "value": 7
         }
       },
       "consequent": {
@@ -252,8 +249,7 @@
                     "type": "Literal",
                     "start": 642,
                     "end": 828,
-                    "value": "#1: var x; var __obj = {toString:function(){return \"AB\";}}; var __obj2 = {valueOf:function(){return NaN;}}; var __str = \"ABBABABAB\";lastIndexOf(__obj, __obj2) === 7. Actual: ",
-                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __obj2 = {valueOf:function(){return NaN;}}; var __str = \"ABB\\u0041BABAB\";lastIndexOf(__obj, __obj2) === 7. Actual: '"
+                    "value": "#1: var x; var __obj = {toString:function(){return \"AB\";}}; var __obj2 = {valueOf:function(){return NaN;}}; var __str = \"ABBABABAB\";lastIndexOf(__obj, __obj2) === 7. Actual: "
                   },
                   "operator": "+",
                   "right": {

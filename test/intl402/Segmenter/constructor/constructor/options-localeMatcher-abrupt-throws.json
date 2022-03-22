@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 782,
             "end": 797,
-            "value": "localeMatcher",
-            "raw": "'localeMatcher'"
+            "value": "localeMatcher"
           },
           {
             "type": "ObjectExpression",

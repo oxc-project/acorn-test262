@@ -345,8 +345,7 @@
                     "type": "Literal",
                     "start": 879,
                     "end": 887,
-                    "value": "target",
-                    "raw": "'target'"
+                    "value": "target"
                   },
                   "property": {
                     "type": "Identifier",
@@ -362,8 +361,7 @@
                     "type": "Literal",
                     "start": 895,
                     "end": 910,
-                    "value": "string source",
-                    "raw": "'string source'"
+                    "value": "string source"
                   }
                 ],
                 "optional": false
@@ -458,8 +456,7 @@
                   "type": "Literal",
                   "start": 986,
                   "end": 1001,
-                  "value": "string source",
-                  "raw": "'string source'"
+                  "value": "string source"
                 }
               ],
               "optional": false
@@ -516,8 +513,7 @@
                   "type": "Literal",
                   "start": 1038,
                   "end": 1040,
-                  "value": "",
-                  "raw": "''"
+                  "value": ""
                 }
               ],
               "optional": false
@@ -574,8 +570,7 @@
                   "type": "Literal",
                   "start": 1075,
                   "end": 1076,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -623,8 +618,7 @@
                     "type": "Literal",
                     "start": 1103,
                     "end": 1104,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -633,8 +627,7 @@
                   "type": "Literal",
                   "start": 1107,
                   "end": 1115,
-                  "value": "target",
-                  "raw": "'target'"
+                  "value": "target"
                 }
               ],
               "optional": false

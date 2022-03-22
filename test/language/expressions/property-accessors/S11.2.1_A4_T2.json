@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 313,
           "end": 321,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -69,8 +68,7 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 399,
-                "value": "#1: typeof Object.prototype === \"object\". Actual: ",
-                "raw": "'#1: typeof Object.prototype === \"object\". Actual: '"
+                "value": "#1: typeof Object.prototype === \"object\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -138,8 +136,7 @@
               "type": "Literal",
               "start": 449,
               "end": 460,
-              "value": "prototype",
-              "raw": "'prototype'"
+              "value": "prototype"
             },
             "computed": true,
             "optional": false
@@ -150,8 +147,7 @@
           "type": "Literal",
           "start": 466,
           "end": 474,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -177,8 +173,7 @@
                 "type": "Literal",
                 "start": 500,
                 "end": 555,
-                "value": "#2: typeof Object[\"prototype\"] === \"object\". Actual: ",
-                "raw": "'#2: typeof Object[\"prototype\"] === \"object\". Actual: '"
+                "value": "#2: typeof Object[\"prototype\"] === \"object\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -205,8 +200,7 @@
                       "type": "Literal",
                       "start": 573,
                       "end": 584,
-                      "value": "prototype",
-                      "raw": "\"prototype\""
+                      "value": "prototype"
                     },
                     "computed": true,
                     "optional": false
@@ -258,8 +252,7 @@
           "type": "Literal",
           "start": 621,
           "end": 631,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -285,8 +278,7 @@
                 "type": "Literal",
                 "start": 657,
                 "end": 710,
-                "value": "#3: typeof Object.toString === \"function\". Actual: ",
-                "raw": "'#3: typeof Object.toString === \"function\". Actual: '"
+                "value": "#3: typeof Object.toString === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -354,8 +346,7 @@
               "type": "Literal",
               "start": 759,
               "end": 769,
-              "value": "toString",
-              "raw": "'toString'"
+              "value": "toString"
             },
             "computed": true,
             "optional": false
@@ -366,8 +357,7 @@
           "type": "Literal",
           "start": 775,
           "end": 785,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -393,8 +383,7 @@
                 "type": "Literal",
                 "start": 811,
                 "end": 867,
-                "value": "#4: typeof Object[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#4: typeof Object[\"toString\"] === \"function\". Actual: '"
+                "value": "#4: typeof Object[\"toString\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -421,8 +410,7 @@
                       "type": "Literal",
                       "start": 885,
                       "end": 895,
-                      "value": "toString",
-                      "raw": "\"toString\""
+                      "value": "toString"
                     },
                     "computed": true,
                     "optional": false
@@ -474,8 +462,7 @@
           "type": "Literal",
           "start": 931,
           "end": 941,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -501,8 +488,7 @@
                 "type": "Literal",
                 "start": 967,
                 "end": 1019,
-                "value": "#5: typeof Object.valueOf === \"function\". Actual: ",
-                "raw": "'#5: typeof Object.valueOf === \"function\". Actual: '"
+                "value": "#5: typeof Object.valueOf === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -570,8 +556,7 @@
               "type": "Literal",
               "start": 1067,
               "end": 1076,
-              "value": "valueOf",
-              "raw": "'valueOf'"
+              "value": "valueOf"
             },
             "computed": true,
             "optional": false
@@ -582,8 +567,7 @@
           "type": "Literal",
           "start": 1082,
           "end": 1092,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -609,8 +593,7 @@
                 "type": "Literal",
                 "start": 1118,
                 "end": 1173,
-                "value": "#6: typeof Object[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#6: typeof Object[\"valueOf\"] === \"function\". Actual: '"
+                "value": "#6: typeof Object[\"valueOf\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -637,8 +620,7 @@
                       "type": "Literal",
                       "start": 1191,
                       "end": 1200,
-                      "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "value": "valueOf"
                     },
                     "computed": true,
                     "optional": false
@@ -690,8 +672,7 @@
           "type": "Literal",
           "start": 1241,
           "end": 1251,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -717,8 +698,7 @@
                 "type": "Literal",
                 "start": 1277,
                 "end": 1333,
-                "value": "#7: typeof Object.constructor === \"function\". Actual: ",
-                "raw": "'#7: typeof Object.constructor === \"function\". Actual: '"
+                "value": "#7: typeof Object.constructor === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -786,8 +766,7 @@
               "type": "Literal",
               "start": 1385,
               "end": 1398,
-              "value": "constructor",
-              "raw": "'constructor'"
+              "value": "constructor"
             },
             "computed": true,
             "optional": false
@@ -798,8 +777,7 @@
           "type": "Literal",
           "start": 1404,
           "end": 1414,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -825,8 +803,7 @@
                 "type": "Literal",
                 "start": 1440,
                 "end": 1499,
-                "value": "#8: typeof Object[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#8: typeof Object[\"constructor\"] === \"function\". Actual: '"
+                "value": "#8: typeof Object[\"constructor\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -853,8 +830,7 @@
                       "type": "Literal",
                       "start": 1517,
                       "end": 1530,
-                      "value": "constructor",
-                      "raw": "\"constructor\""
+                      "value": "constructor"
                     },
                     "computed": true,
                     "optional": false

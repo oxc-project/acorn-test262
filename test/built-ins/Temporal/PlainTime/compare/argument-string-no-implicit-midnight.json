@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 313,
             "end": 325,
-            "value": "2019-10-01",
-            "raw": "\"2019-10-01\""
+            "value": "2019-10-01"
           }
         }
       ],
@@ -173,8 +172,7 @@
             "type": "Literal",
             "start": 452,
             "end": 535,
-            "value": "Date-only string throws, does not implicitly convert to midnight (first argument)",
-            "raw": "\"Date-only string throws, does not implicitly convert to midnight (first argument)\""
+            "value": "Date-only string throws, does not implicitly convert to midnight (first argument)"
           }
         ],
         "optional": false
@@ -280,8 +278,7 @@
             "type": "Literal",
             "start": 621,
             "end": 705,
-            "value": "Date-only string throws, does not implicitly convert to midnight (second argument)",
-            "raw": "\"Date-only string throws, does not implicitly convert to midnight (second argument)\""
+            "value": "Date-only string throws, does not implicitly convert to midnight (second argument)"
           }
         ],
         "optional": false

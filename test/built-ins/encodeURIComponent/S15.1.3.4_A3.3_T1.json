@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 308,
               "end": 311,
-              "value": "#",
-              "raw": "\"#\""
+              "value": "#"
             }
           ],
           "optional": false
@@ -37,8 +36,7 @@
           "type": "Literal",
           "start": 317,
           "end": 322,
-          "value": "%23",
-          "raw": "\"%23\""
+          "value": "%23"
         }
       },
       "consequent": {
@@ -65,8 +63,7 @@
                   "type": "Literal",
                   "start": 351,
                   "end": 402,
-                  "value": "#1: unescapedURIComponentSet not containing \"%23\"",
-                  "raw": "'#1: unescapedURIComponentSet not containing \"%23\"'"
+                  "value": "#1: unescapedURIComponentSet not containing \"%23\""
                 }
               ]
             }

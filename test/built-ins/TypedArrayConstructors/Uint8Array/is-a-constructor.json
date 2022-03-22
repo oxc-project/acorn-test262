@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 776,
             "end": 820,
-            "value": "isConstructor(Uint8Array) must return true",
-            "raw": "'isConstructor(Uint8Array) must return true'"
+            "value": "isConstructor(Uint8Array) must return true"
           }
         ],
         "optional": false

@@ -56,8 +56,7 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 338,
-                "value": "eval",
-                "raw": "'eval'"
+                "value": "eval"
               }
             },
             "consequent": {
@@ -84,8 +83,7 @@
                         "type": "Literal",
                         "start": 369,
                         "end": 405,
-                        "value": "#1: 'eval' have attribute DontEnum",
-                        "raw": "\"#1: 'eval' have attribute DontEnum\""
+                        "value": "#1: 'eval' have attribute DontEnum"
                       }
                     ]
                   }
@@ -111,8 +109,7 @@
                   "type": "Literal",
                   "start": 427,
                   "end": 437,
-                  "value": "parseInt",
-                  "raw": "'parseInt'"
+                  "value": "parseInt"
                 }
               },
               "consequent": {
@@ -139,8 +136,7 @@
                           "type": "Literal",
                           "start": 468,
                           "end": 508,
-                          "value": "#1: 'parseInt' have attribute DontEnum",
-                          "raw": "\"#1: 'parseInt' have attribute DontEnum\""
+                          "value": "#1: 'parseInt' have attribute DontEnum"
                         }
                       ]
                     }
@@ -166,8 +162,7 @@
                     "type": "Literal",
                     "start": 530,
                     "end": 542,
-                    "value": "parseFloat",
-                    "raw": "'parseFloat'"
+                    "value": "parseFloat"
                   }
                 },
                 "consequent": {
@@ -194,8 +189,7 @@
                             "type": "Literal",
                             "start": 573,
                             "end": 615,
-                            "value": "#1: 'parseFloat' have attribute DontEnum",
-                            "raw": "\"#1: 'parseFloat' have attribute DontEnum\""
+                            "value": "#1: 'parseFloat' have attribute DontEnum"
                           }
                         ]
                       }
@@ -221,8 +215,7 @@
                       "type": "Literal",
                       "start": 637,
                       "end": 644,
-                      "value": "isNaN",
-                      "raw": "'isNaN'"
+                      "value": "isNaN"
                     }
                   },
                   "consequent": {
@@ -249,8 +242,7 @@
                               "type": "Literal",
                               "start": 675,
                               "end": 712,
-                              "value": "#1: 'isNaN' have attribute DontEnum",
-                              "raw": "\"#1: 'isNaN' have attribute DontEnum\""
+                              "value": "#1: 'isNaN' have attribute DontEnum"
                             }
                           ]
                         }
@@ -276,8 +268,7 @@
                         "type": "Literal",
                         "start": 734,
                         "end": 744,
-                        "value": "isFinite",
-                        "raw": "'isFinite'"
+                        "value": "isFinite"
                       }
                     },
                     "consequent": {
@@ -304,8 +295,7 @@
                                 "type": "Literal",
                                 "start": 775,
                                 "end": 815,
-                                "value": "#1: 'isFinite' have attribute DontEnum",
-                                "raw": "\"#1: 'isFinite' have attribute DontEnum\""
+                                "value": "#1: 'isFinite' have attribute DontEnum"
                               }
                             ]
                           }
@@ -331,8 +321,7 @@
                           "type": "Literal",
                           "start": 837,
                           "end": 848,
-                          "value": "decodeURI",
-                          "raw": "'decodeURI'"
+                          "value": "decodeURI"
                         }
                       },
                       "consequent": {
@@ -359,8 +348,7 @@
                                   "type": "Literal",
                                   "start": 879,
                                   "end": 920,
-                                  "value": "#1: 'decodeURI' have attribute DontEnum",
-                                  "raw": "\"#1: 'decodeURI' have attribute DontEnum\""
+                                  "value": "#1: 'decodeURI' have attribute DontEnum"
                                 }
                               ]
                             }
@@ -386,8 +374,7 @@
                             "type": "Literal",
                             "start": 942,
                             "end": 962,
-                            "value": "decodeURIComponent",
-                            "raw": "'decodeURIComponent'"
+                            "value": "decodeURIComponent"
                           }
                         },
                         "consequent": {
@@ -414,8 +401,7 @@
                                     "type": "Literal",
                                     "start": 993,
                                     "end": 1043,
-                                    "value": "#1: 'decodeURIComponent' have attribute DontEnum",
-                                    "raw": "\"#1: 'decodeURIComponent' have attribute DontEnum\""
+                                    "value": "#1: 'decodeURIComponent' have attribute DontEnum"
                                   }
                                 ]
                               }
@@ -441,8 +427,7 @@
                               "type": "Literal",
                               "start": 1065,
                               "end": 1076,
-                              "value": "encodeURI",
-                              "raw": "'encodeURI'"
+                              "value": "encodeURI"
                             }
                           },
                           "consequent": {
@@ -469,8 +454,7 @@
                                       "type": "Literal",
                                       "start": 1107,
                                       "end": 1148,
-                                      "value": "#1: 'encodeURI' have attribute DontEnum",
-                                      "raw": "\"#1: 'encodeURI' have attribute DontEnum\""
+                                      "value": "#1: 'encodeURI' have attribute DontEnum"
                                     }
                                   ]
                                 }
@@ -496,8 +480,7 @@
                                 "type": "Literal",
                                 "start": 1170,
                                 "end": 1190,
-                                "value": "encodeURIComponent",
-                                "raw": "'encodeURIComponent'"
+                                "value": "encodeURIComponent"
                               }
                             },
                             "consequent": {
@@ -524,8 +507,7 @@
                                         "type": "Literal",
                                         "start": 1221,
                                         "end": 1271,
-                                        "value": "#1: 'encodeURIComponent' have attribute DontEnum",
-                                        "raw": "\"#1: 'encodeURIComponent' have attribute DontEnum\""
+                                        "value": "#1: 'encodeURIComponent' have attribute DontEnum"
                                       }
                                     ]
                                   }

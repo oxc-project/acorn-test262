@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 731,
             "end": 775,
-            "value": "isConstructor(Math.sinh) must return false",
-            "raw": "'isConstructor(Math.sinh) must return false'"
+            "value": "isConstructor(Math.sinh) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 834,
             "end": 870,
-            "value": "`new Math.sinh()` throws TypeError",
-            "raw": "'`new Math.sinh()` throws TypeError'"
+            "value": "`new Math.sinh()` throws TypeError"
           }
         ],
         "optional": false

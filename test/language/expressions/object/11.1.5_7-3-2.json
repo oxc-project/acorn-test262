@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 522,
             "end": 545,
-            "value": "o = {set foo(arg){}};",
-            "raw": "\"o = {set foo(arg){}};\""
+            "value": "o = {set foo(arg){}};"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
                 "type": "Literal",
                 "start": 595,
                 "end": 600,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -165,8 +163,7 @@
             "type": "Literal",
             "start": 642,
             "end": 652,
-            "value": "desc.get",
-            "raw": "'desc.get'"
+            "value": "desc.get"
           }
         ],
         "optional": false

@@ -54,7 +54,6 @@
             "start": 346,
             "end": 353,
             "value": {},
-            "raw": "/AL|se/",
             "regex": {
               "pattern": "AL|se",
               "flags": ""
@@ -175,8 +174,7 @@
             "type": "Literal",
             "start": 431,
             "end": 496,
-            "value": "__re.test(new Boolean) must return __re.exec(__string) !== null",
-            "raw": "'__re.test(new Boolean) must return __re.exec(__string) !== null'"
+            "value": "__re.test(new Boolean) must return __re.exec(__string) !== null"
           }
         ],
         "optional": false

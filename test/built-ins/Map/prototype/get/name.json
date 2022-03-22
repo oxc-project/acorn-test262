@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 395,
             "end": 400,
-            "value": "get",
-            "raw": "'get'"
+            "value": "get"
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 454,
-            "value": "The value of `Map.prototype.get.name` is `\"get\"`",
-            "raw": "'The value of `Map.prototype.get.name` is `\"get\"`'"
+            "value": "The value of `Map.prototype.get.name` is `\"get\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 498,
             "end": 504,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 544,
             "end": 550,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 591,
             "end": 597,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

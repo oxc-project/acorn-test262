@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1760,
             "end": 1761,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1781,
             "end": 1782,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -218,8 +216,7 @@
                             "type": "Literal",
                             "start": 1904,
                             "end": 1905,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -260,8 +257,7 @@
                                   "type": "Literal",
                                   "start": 2036,
                                   "end": 2038,
-                                  "value": 10,
-                                  "raw": "10"
+                                  "value": 10
                                 }
                               },
                               "kind": "init"
@@ -320,8 +316,7 @@
                             "type": "Literal",
                             "start": 2089,
                             "end": 2090,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -524,8 +519,7 @@
             "type": "Literal",
             "start": 2279,
             "end": 2280,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -665,8 +659,7 @@
                             "type": "Literal",
                             "start": 2388,
                             "end": 2389,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -692,8 +685,7 @@
                       "type": "Literal",
                       "start": 2408,
                       "end": 2409,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -742,8 +734,7 @@
             "type": "Literal",
             "start": 2442,
             "end": 2443,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -787,8 +778,7 @@
             "type": "Literal",
             "start": 2475,
             "end": 2476,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -832,8 +822,7 @@
             "type": "Literal",
             "start": 2509,
             "end": 2510,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -883,8 +872,7 @@
             "type": "Literal",
             "start": 2551,
             "end": 2573,
-            "value": "correct `this` value",
-            "raw": "'correct `this` value'"
+            "value": "correct `this` value"
           }
         ],
         "optional": false
@@ -929,8 +917,7 @@
             "type": "Literal",
             "start": 2591,
             "end": 2618,
-            "value": "arguments object provided",
-            "raw": "'arguments object provided'"
+            "value": "arguments object provided"
           }
         ],
         "optional": false
@@ -987,15 +974,13 @@
             "type": "Literal",
             "start": 2651,
             "end": 2652,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2654,
             "end": 2680,
-            "value": "zero arguments specified",
-            "raw": "'zero arguments specified'"
+            "value": "zero arguments specified"
           }
         ],
         "optional": false

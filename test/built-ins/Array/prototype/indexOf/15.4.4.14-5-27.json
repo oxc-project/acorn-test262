@@ -118,8 +118,7 @@
             "type": "Literal",
             "start": 401,
             "end": 409,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -247,8 +246,7 @@
                                                   "type": "Literal",
                                                   "start": 562,
                                                   "end": 592,
-                                                  "value": "Step 5 occurred out of order",
-                                                  "raw": "\"Step 5 occurred out of order\""
+                                                  "value": "Step 5 occurred out of order"
                                                 }
                                               ]
                                             }
@@ -265,8 +263,7 @@
                                         "type": "Literal",
                                         "start": 620,
                                         "end": 622,
-                                        "value": 20,
-                                        "raw": "20"
+                                        "value": 20
                                       }
                                     }
                                   ]
@@ -389,8 +386,7 @@
                           "type": "Literal",
                           "start": 750,
                           "end": 751,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -505,8 +501,7 @@
             "type": "Literal",
             "start": 843,
             "end": 869,
-            "value": "stepThreeOccurs !== true",
-            "raw": "'stepThreeOccurs !== true'"
+            "value": "stepThreeOccurs !== true"
           }
         ],
         "optional": false
@@ -537,8 +532,7 @@
             "type": "Literal",
             "start": 895,
             "end": 920,
-            "value": "stepFiveOccurs !== true",
-            "raw": "'stepFiveOccurs !== true'"
+            "value": "stepFiveOccurs !== true"
           }
         ],
         "optional": false

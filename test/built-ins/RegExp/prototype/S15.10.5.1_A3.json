@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 380,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ],
             "optional": false
@@ -101,8 +100,7 @@
             "type": "Literal",
             "start": 421,
             "end": 432,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           }
         ],
         "optional": false
@@ -319,8 +317,7 @@
               "type": "Literal",
               "start": 623,
               "end": 634,
-              "value": "prototype",
-              "raw": "'prototype'"
+              "value": "prototype"
             }
           ],
           "optional": false
@@ -358,8 +355,7 @@
                   "type": "Literal",
                   "start": 675,
                   "end": 751,
-                  "value": "#2: delete RegExp.prototype; RegExp.hasOwnProperty('prototype') === true",
-                  "raw": "'#2: delete RegExp.prototype; RegExp.hasOwnProperty(\\'prototype\\') === true'"
+                  "value": "#2: delete RegExp.prototype; RegExp.hasOwnProperty('prototype') === true"
                 }
               ]
             }

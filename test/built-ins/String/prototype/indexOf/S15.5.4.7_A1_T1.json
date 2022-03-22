@@ -158,8 +158,7 @@
           "type": "Literal",
           "start": 502,
           "end": 503,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -190,8 +189,7 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 664,
-                    "value": "#1: __instance = new Object(true); __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(true, false) === 0. Actual: ",
-                    "raw": "'#1: __instance = new Object(true); __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(true, false) === 0. Actual: '"
+                    "value": "#1: __instance = new Object(true); __instance.indexOf = String.prototype.indexOf;  __instance.indexOf(true, false) === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

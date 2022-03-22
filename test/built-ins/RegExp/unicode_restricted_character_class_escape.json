@@ -70,15 +70,13 @@
                         "type": "Literal",
                         "start": 596,
                         "end": 605,
-                        "value": "[\\d-a]",
-                        "raw": "\"[\\\\d-a]\""
+                        "value": "[\\d-a]"
                       },
                       {
                         "type": "Literal",
                         "start": 607,
                         "end": 610,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -91,8 +89,7 @@
             "type": "Literal",
             "start": 616,
             "end": 642,
-            "value": "RegExp(\"[\\d-a]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\d-a]\", \"u\"): '"
+            "value": "RegExp(\"[\\d-a]\", \"u\"): "
           }
         ],
         "optional": false
@@ -165,15 +162,13 @@
                         "type": "Literal",
                         "start": 694,
                         "end": 703,
-                        "value": "[\\D-a]",
-                        "raw": "\"[\\\\D-a]\""
+                        "value": "[\\D-a]"
                       },
                       {
                         "type": "Literal",
                         "start": 705,
                         "end": 708,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -186,8 +181,7 @@
             "type": "Literal",
             "start": 714,
             "end": 740,
-            "value": "RegExp(\"[\\D-a]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\D-a]\", \"u\"): '"
+            "value": "RegExp(\"[\\D-a]\", \"u\"): "
           }
         ],
         "optional": false
@@ -260,15 +254,13 @@
                         "type": "Literal",
                         "start": 792,
                         "end": 801,
-                        "value": "[\\s-a]",
-                        "raw": "\"[\\\\s-a]\""
+                        "value": "[\\s-a]"
                       },
                       {
                         "type": "Literal",
                         "start": 803,
                         "end": 806,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -281,8 +273,7 @@
             "type": "Literal",
             "start": 812,
             "end": 838,
-            "value": "RegExp(\"[\\s-a]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\s-a]\", \"u\"): '"
+            "value": "RegExp(\"[\\s-a]\", \"u\"): "
           }
         ],
         "optional": false
@@ -355,15 +346,13 @@
                         "type": "Literal",
                         "start": 890,
                         "end": 899,
-                        "value": "[\\S-a]",
-                        "raw": "\"[\\\\S-a]\""
+                        "value": "[\\S-a]"
                       },
                       {
                         "type": "Literal",
                         "start": 901,
                         "end": 904,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -376,8 +365,7 @@
             "type": "Literal",
             "start": 910,
             "end": 936,
-            "value": "RegExp(\"[\\S-a]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\S-a]\", \"u\"): '"
+            "value": "RegExp(\"[\\S-a]\", \"u\"): "
           }
         ],
         "optional": false
@@ -450,15 +438,13 @@
                         "type": "Literal",
                         "start": 988,
                         "end": 997,
-                        "value": "[\\w-a]",
-                        "raw": "\"[\\\\w-a]\""
+                        "value": "[\\w-a]"
                       },
                       {
                         "type": "Literal",
                         "start": 999,
                         "end": 1002,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -471,8 +457,7 @@
             "type": "Literal",
             "start": 1008,
             "end": 1034,
-            "value": "RegExp(\"[\\w-a]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\w-a]\", \"u\"): '"
+            "value": "RegExp(\"[\\w-a]\", \"u\"): "
           }
         ],
         "optional": false
@@ -545,15 +530,13 @@
                         "type": "Literal",
                         "start": 1086,
                         "end": 1095,
-                        "value": "[\\W-a]",
-                        "raw": "\"[\\\\W-a]\""
+                        "value": "[\\W-a]"
                       },
                       {
                         "type": "Literal",
                         "start": 1097,
                         "end": 1100,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -566,8 +549,7 @@
             "type": "Literal",
             "start": 1106,
             "end": 1132,
-            "value": "RegExp(\"[\\W-a]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\W-a]\", \"u\"): '"
+            "value": "RegExp(\"[\\W-a]\", \"u\"): "
           }
         ],
         "optional": false
@@ -640,15 +622,13 @@
                         "type": "Literal",
                         "start": 1220,
                         "end": 1229,
-                        "value": "[a-\\d]",
-                        "raw": "\"[a-\\\\d]\""
+                        "value": "[a-\\d]"
                       },
                       {
                         "type": "Literal",
                         "start": 1231,
                         "end": 1234,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -661,8 +641,7 @@
             "type": "Literal",
             "start": 1240,
             "end": 1266,
-            "value": "RegExp(\"[a-\\d]\", \"u\"): ",
-            "raw": "'RegExp(\"[a-\\\\d]\", \"u\"): '"
+            "value": "RegExp(\"[a-\\d]\", \"u\"): "
           }
         ],
         "optional": false
@@ -735,15 +714,13 @@
                         "type": "Literal",
                         "start": 1318,
                         "end": 1327,
-                        "value": "[a-\\D]",
-                        "raw": "\"[a-\\\\D]\""
+                        "value": "[a-\\D]"
                       },
                       {
                         "type": "Literal",
                         "start": 1329,
                         "end": 1332,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -756,8 +733,7 @@
             "type": "Literal",
             "start": 1338,
             "end": 1364,
-            "value": "RegExp(\"[a-\\D]\", \"u\"): ",
-            "raw": "'RegExp(\"[a-\\\\D]\", \"u\"): '"
+            "value": "RegExp(\"[a-\\D]\", \"u\"): "
           }
         ],
         "optional": false
@@ -830,15 +806,13 @@
                         "type": "Literal",
                         "start": 1416,
                         "end": 1425,
-                        "value": "[a-\\s]",
-                        "raw": "\"[a-\\\\s]\""
+                        "value": "[a-\\s]"
                       },
                       {
                         "type": "Literal",
                         "start": 1427,
                         "end": 1430,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -851,8 +825,7 @@
             "type": "Literal",
             "start": 1436,
             "end": 1462,
-            "value": "RegExp(\"[a-\\s]\", \"u\"): ",
-            "raw": "'RegExp(\"[a-\\\\s]\", \"u\"): '"
+            "value": "RegExp(\"[a-\\s]\", \"u\"): "
           }
         ],
         "optional": false
@@ -925,15 +898,13 @@
                         "type": "Literal",
                         "start": 1514,
                         "end": 1523,
-                        "value": "[a-\\S]",
-                        "raw": "\"[a-\\\\S]\""
+                        "value": "[a-\\S]"
                       },
                       {
                         "type": "Literal",
                         "start": 1525,
                         "end": 1528,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -946,8 +917,7 @@
             "type": "Literal",
             "start": 1534,
             "end": 1560,
-            "value": "RegExp(\"[a-\\S]\", \"u\"): ",
-            "raw": "'RegExp(\"[a-\\\\S]\", \"u\"): '"
+            "value": "RegExp(\"[a-\\S]\", \"u\"): "
           }
         ],
         "optional": false
@@ -1020,15 +990,13 @@
                         "type": "Literal",
                         "start": 1612,
                         "end": 1621,
-                        "value": "[a-\\w]",
-                        "raw": "\"[a-\\\\w]\""
+                        "value": "[a-\\w]"
                       },
                       {
                         "type": "Literal",
                         "start": 1623,
                         "end": 1626,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -1041,8 +1009,7 @@
             "type": "Literal",
             "start": 1632,
             "end": 1658,
-            "value": "RegExp(\"[a-\\w]\", \"u\"): ",
-            "raw": "'RegExp(\"[a-\\\\w]\", \"u\"): '"
+            "value": "RegExp(\"[a-\\w]\", \"u\"): "
           }
         ],
         "optional": false
@@ -1115,15 +1082,13 @@
                         "type": "Literal",
                         "start": 1710,
                         "end": 1719,
-                        "value": "[a-\\W]",
-                        "raw": "\"[a-\\\\W]\""
+                        "value": "[a-\\W]"
                       },
                       {
                         "type": "Literal",
                         "start": 1721,
                         "end": 1724,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -1136,8 +1101,7 @@
             "type": "Literal",
             "start": 1730,
             "end": 1756,
-            "value": "RegExp(\"[a-\\W]\", \"u\"): ",
-            "raw": "'RegExp(\"[a-\\\\W]\", \"u\"): '"
+            "value": "RegExp(\"[a-\\W]\", \"u\"): "
           }
         ],
         "optional": false
@@ -1210,15 +1174,13 @@
                         "type": "Literal",
                         "start": 1856,
                         "end": 1867,
-                        "value": "[\\d-\\d]",
-                        "raw": "\"[\\\\d-\\\\d]\""
+                        "value": "[\\d-\\d]"
                       },
                       {
                         "type": "Literal",
                         "start": 1869,
                         "end": 1872,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -1231,8 +1193,7 @@
             "type": "Literal",
             "start": 1878,
             "end": 1906,
-            "value": "RegExp(\"[\\d-\\d]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\d-\\\\d]\", \"u\"): '"
+            "value": "RegExp(\"[\\d-\\d]\", \"u\"): "
           }
         ],
         "optional": false
@@ -1305,15 +1266,13 @@
                         "type": "Literal",
                         "start": 1958,
                         "end": 1969,
-                        "value": "[\\D-\\D]",
-                        "raw": "\"[\\\\D-\\\\D]\""
+                        "value": "[\\D-\\D]"
                       },
                       {
                         "type": "Literal",
                         "start": 1971,
                         "end": 1974,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -1326,8 +1285,7 @@
             "type": "Literal",
             "start": 1980,
             "end": 2008,
-            "value": "RegExp(\"[\\D-\\D]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\D-\\\\D]\", \"u\"): '"
+            "value": "RegExp(\"[\\D-\\D]\", \"u\"): "
           }
         ],
         "optional": false
@@ -1400,15 +1358,13 @@
                         "type": "Literal",
                         "start": 2060,
                         "end": 2071,
-                        "value": "[\\s-\\s]",
-                        "raw": "\"[\\\\s-\\\\s]\""
+                        "value": "[\\s-\\s]"
                       },
                       {
                         "type": "Literal",
                         "start": 2073,
                         "end": 2076,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -1421,8 +1377,7 @@
             "type": "Literal",
             "start": 2082,
             "end": 2110,
-            "value": "RegExp(\"[\\s-\\s]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\s-\\\\s]\", \"u\"): '"
+            "value": "RegExp(\"[\\s-\\s]\", \"u\"): "
           }
         ],
         "optional": false
@@ -1495,15 +1450,13 @@
                         "type": "Literal",
                         "start": 2162,
                         "end": 2173,
-                        "value": "[\\S-\\S]",
-                        "raw": "\"[\\\\S-\\\\S]\""
+                        "value": "[\\S-\\S]"
                       },
                       {
                         "type": "Literal",
                         "start": 2175,
                         "end": 2178,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -1516,8 +1469,7 @@
             "type": "Literal",
             "start": 2184,
             "end": 2212,
-            "value": "RegExp(\"[\\S-\\S]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\S-\\\\S]\", \"u\"): '"
+            "value": "RegExp(\"[\\S-\\S]\", \"u\"): "
           }
         ],
         "optional": false
@@ -1590,15 +1542,13 @@
                         "type": "Literal",
                         "start": 2264,
                         "end": 2275,
-                        "value": "[\\w-\\w]",
-                        "raw": "\"[\\\\w-\\\\w]\""
+                        "value": "[\\w-\\w]"
                       },
                       {
                         "type": "Literal",
                         "start": 2277,
                         "end": 2280,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -1611,8 +1561,7 @@
             "type": "Literal",
             "start": 2286,
             "end": 2314,
-            "value": "RegExp(\"[\\w-\\w]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\w-\\\\w]\", \"u\"): '"
+            "value": "RegExp(\"[\\w-\\w]\", \"u\"): "
           }
         ],
         "optional": false
@@ -1685,15 +1634,13 @@
                         "type": "Literal",
                         "start": 2366,
                         "end": 2377,
-                        "value": "[\\W-\\W]",
-                        "raw": "\"[\\\\W-\\\\W]\""
+                        "value": "[\\W-\\W]"
                       },
                       {
                         "type": "Literal",
                         "start": 2379,
                         "end": 2382,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "value": "u"
                       }
                     ],
                     "optional": false
@@ -1706,8 +1653,7 @@
             "type": "Literal",
             "start": 2388,
             "end": 2416,
-            "value": "RegExp(\"[\\W-\\W]\", \"u\"): ",
-            "raw": "'RegExp(\"[\\\\W-\\\\W]\", \"u\"): '"
+            "value": "RegExp(\"[\\W-\\W]\", \"u\"): "
           }
         ],
         "optional": false

@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 1037,
                 "end": 1041,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 1043,
                 "end": 1044,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -105,15 +103,13 @@
                 "type": "Literal",
                 "start": 1086,
                 "end": 1087,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 1089,
                 "end": 1090,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -155,36 +151,31 @@
             "type": "Literal",
             "start": 1117,
             "end": 1119,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 1121,
             "end": 1132,
-            "value": "CONSTRAIN",
-            "raw": "\"CONSTRAIN\""
+            "value": "CONSTRAIN"
           },
           {
             "type": "Literal",
             "start": 1134,
             "end": 1143,
-            "value": "balance",
-            "raw": "\"balance\""
+            "value": "balance"
           },
           {
             "type": "Literal",
             "start": 1145,
             "end": 1159,
-            "value": "other string",
-            "raw": "\"other string\""
+            "value": "other string"
           },
           {
             "type": "Literal",
             "start": 1161,
             "end": 1177,
-            "value": "constraın",
-            "raw": "\"constra\\u0131n\""
+            "value": "constraın"
           }
         ]
       },

@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 641,
                   "end": 649,
-                  "value": "source",
-                  "raw": "'source'"
+                  "value": "source"
                 }
               ],
               "optional": false
@@ -250,8 +249,7 @@
                   "type": "Literal",
                   "start": 816,
                   "end": 824,
-                  "value": "source",
-                  "raw": "'source'"
+                  "value": "source"
                 }
               ],
               "optional": false
@@ -362,8 +360,7 @@
             "type": "Literal",
             "start": 903,
             "end": 933,
-            "value": "cross-realm RegExp.prototype",
-            "raw": "'cross-realm RegExp.prototype'"
+            "value": "cross-realm RegExp.prototype"
           }
         ],
         "optional": false
@@ -488,8 +485,7 @@
             "type": "Literal",
             "start": 1028,
             "end": 1111,
-            "value": "cross-realm RegExp.prototype getter method against primary realm RegExp.prototype",
-            "raw": "'cross-realm RegExp.prototype getter method against primary realm RegExp.prototype'"
+            "value": "cross-realm RegExp.prototype getter method against primary realm RegExp.prototype"
           }
         ],
         "optional": false

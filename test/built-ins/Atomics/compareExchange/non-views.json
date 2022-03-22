@@ -125,22 +125,19 @@
                                     "type": "Literal",
                                     "start": 497,
                                     "end": 498,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 500,
                                     "end": 501,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 503,
                                     "end": 504,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -153,8 +150,7 @@
                         "type": "Literal",
                         "start": 512,
                         "end": 571,
-                        "value": "`Atomics.compareExchange(view, 0, 0, 0)` throws TypeError",
-                        "raw": "'`Atomics.compareExchange(view, 0, 0, 0)` throws TypeError'"
+                        "value": "`Atomics.compareExchange(view, 0, 0, 0)` throws TypeError"
                       }
                     ],
                     "optional": false

@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 765,
                 "end": 776,
-                "value": "monthCode",
-                "raw": "\"monthCode\""
+                "value": "monthCode"
               },
               {
                 "type": "Literal",
                 "start": 780,
                 "end": 786,
-                "value": "year",
-                "raw": "\"year\""
+                "value": "year"
               }
             ]
           }
@@ -67,8 +65,7 @@
                 "type": "Literal",
                 "start": 813,
                 "end": 818,
-                "value": "day",
-                "raw": "\"day\""
+                "value": "day"
               }
             ]
           }
@@ -164,15 +161,13 @@
                 "type": "Literal",
                 "start": 929,
                 "end": 933,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 935,
                 "end": 936,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Identifier",
@@ -236,8 +231,7 @@
                   "type": "Literal",
                   "start": 978,
                   "end": 980,
-                  "value": 15,
-                  "raw": "15"
+                  "value": 15
                 },
                 "kind": "init"
               }
@@ -298,15 +292,13 @@
             "type": "Literal",
             "start": 1029,
             "end": 1030,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1032,
             "end": 1062,
-            "value": "fields() method called twice",
-            "raw": "\"fields() method called twice\""
+            "value": "fields() method called twice"
           }
         ],
         "optional": false
@@ -367,8 +359,7 @@
               "type": "Literal",
               "start": 1111,
               "end": 1112,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -383,8 +374,7 @@
             "type": "Literal",
             "start": 1126,
             "end": 1179,
-            "value": "fields() method called first time with correct args",
-            "raw": "\"fields() method called first time with correct args\""
+            "value": "fields() method called first time with correct args"
           }
         ],
         "optional": false
@@ -445,8 +435,7 @@
               "type": "Literal",
               "start": 1228,
               "end": 1229,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -461,8 +450,7 @@
             "type": "Literal",
             "start": 1243,
             "end": 1297,
-            "value": "fields() method called second time with correct args",
-            "raw": "\"fields() method called second time with correct args\""
+            "value": "fields() method called second time with correct args"
           }
         ],
         "optional": false
@@ -510,8 +498,7 @@
               "type": "Literal",
               "start": 1334,
               "end": 1335,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -520,8 +507,7 @@
             "type": "Literal",
             "start": 1338,
             "end": 1381,
-            "value": "iterated through the whole first iterable",
-            "raw": "\"iterated through the whole first iterable\""
+            "value": "iterated through the whole first iterable"
           }
         ],
         "optional": false
@@ -569,8 +555,7 @@
               "type": "Literal",
               "start": 1418,
               "end": 1419,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -579,8 +564,7 @@
             "type": "Literal",
             "start": 1422,
             "end": 1466,
-            "value": "iterated through the whole second iterable",
-            "raw": "\"iterated through the whole second iterable\""
+            "value": "iterated through the whole second iterable"
           }
         ],
         "optional": false

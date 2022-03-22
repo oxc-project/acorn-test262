@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 586,
             "end": 604,
-            "value": "__defineGetter__",
-            "raw": "\"__defineGetter__\""
+            "value": "__defineGetter__"
           },
           {
             "type": "ObjectExpression",

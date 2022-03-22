@@ -51,8 +51,7 @@
                 "type": "Literal",
                 "start": 455,
                 "end": 476,
-                "value": "return this.planet;",
-                "raw": "\"return this.planet;\""
+                "value": "return this.planet;"
               }
             ],
             "optional": false
@@ -112,8 +111,7 @@
             "type": "Literal",
             "start": 513,
             "end": 536,
-            "value": "f() returns undefined",
-            "raw": "'f() returns undefined'"
+            "value": "f() returns undefined"
           }
         ],
         "optional": false
@@ -138,8 +136,7 @@
             "type": "Literal",
             "start": 553,
             "end": 559,
-            "value": "mars",
-            "raw": "\"mars\""
+            "value": "mars"
           }
         }
       ],
@@ -190,15 +187,13 @@
             "type": "Literal",
             "start": 584,
             "end": 590,
-            "value": "mars",
-            "raw": "\"mars\""
+            "value": "mars"
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 616,
-            "value": "f() must return \"mars\"",
-            "raw": "'f() must return \"mars\"'"
+            "value": "f() must return \"mars\""
           }
         ],
         "optional": false

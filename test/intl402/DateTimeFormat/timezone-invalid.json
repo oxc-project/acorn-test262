@@ -27,57 +27,49 @@
                 "type": "Literal",
                 "start": 284,
                 "end": 286,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 292,
                 "end": 297,
-                "value": "MEZ",
-                "raw": "\"MEZ\""
+                "value": "MEZ"
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 343,
-                "value": "Pacific Time",
-                "raw": "\"Pacific Time\""
+                "value": "Pacific Time"
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 379,
-                "value": "cnsha",
-                "raw": "\"cnsha\""
+                "value": "cnsha"
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 419,
-                "value": "invalid",
-                "raw": "\"invalid\""
+                "value": "invalid"
               },
               {
                 "type": "Literal",
                 "start": 445,
                 "end": 462,
-                "value": "Europe/İstanbul",
-                "raw": "\"Europe/İstanbul\""
+                "value": "Europe/İstanbul"
               },
               {
                 "type": "Literal",
                 "start": 488,
                 "end": 499,
-                "value": "asıa/baku",
-                "raw": "\"asıa/baku\""
+                "value": "asıa/baku"
               },
               {
                 "type": "Literal",
                 "start": 525,
                 "end": 541,
-                "value": "europe/brußels",
-                "raw": "\"europe/brußels\""
+                "value": "europe/brußels"
               }
             ]
           }
@@ -230,8 +222,7 @@
                                             "type": "Literal",
                                             "start": 769,
                                             "end": 776,
-                                            "value": "de-de",
-                                            "raw": "\"de-de\""
+                                            "value": "de-de"
                                           }
                                         ]
                                       },
@@ -284,8 +275,7 @@
                             "type": "Literal",
                             "start": 805,
                             "end": 830,
-                            "value": "Invalid time zone name ",
-                            "raw": "\"Invalid time zone name \""
+                            "value": "Invalid time zone name "
                           },
                           "operator": "+",
                           "right": {
@@ -300,8 +290,7 @@
                           "type": "Literal",
                           "start": 840,
                           "end": 860,
-                          "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "value": " was not rejected."
                         }
                       }
                     ],

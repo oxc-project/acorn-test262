@@ -70,8 +70,7 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 382,
-                "value": "toString",
-                "raw": "\"toString\""
+                "value": "toString"
               }
             ],
             "optional": false
@@ -87,8 +86,7 @@
             "type": "Literal",
             "start": 396,
             "end": 457,
-            "value": "(new Number()).hasOwnProperty(\"toString\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"toString\") must return false'"
+            "value": "(new Number()).hasOwnProperty(\"toString\") must return false"
           }
         ],
         "optional": false
@@ -188,8 +186,7 @@
             "type": "Literal",
             "start": 538,
             "end": 636,
-            "value": "The value of (new Number()).toString is expected to equal the value of Number.prototype.toString",
-            "raw": "'The value of (new Number()).toString is expected to equal the value of Number.prototype.toString'"
+            "value": "The value of (new Number()).toString is expected to equal the value of Number.prototype.toString"
           }
         ],
         "optional": false

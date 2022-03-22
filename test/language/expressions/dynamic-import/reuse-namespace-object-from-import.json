@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1165,
         "end": 1191,
-        "value": "./module-code_FIXTURE.js",
-        "raw": "'./module-code_FIXTURE.js'"
+        "value": "./module-code_FIXTURE.js"
       }
     },
     {
@@ -85,8 +84,7 @@
                           "type": "Literal",
                           "start": 1219,
                           "end": 1245,
-                          "value": "./module-code_FIXTURE.js",
-                          "raw": "'./module-code_FIXTURE.js'"
+                          "value": "./module-code_FIXTURE.js"
                         }
                       },
                       {
@@ -97,8 +95,7 @@
                           "type": "Literal",
                           "start": 1259,
                           "end": 1285,
-                          "value": "./module-code_FIXTURE.js",
-                          "raw": "'./module-code_FIXTURE.js'"
+                          "value": "./module-code_FIXTURE.js"
                         }
                       }
                     ]
@@ -194,8 +191,7 @@
                             "type": "Literal",
                             "start": 1337,
                             "end": 1381,
-                            "value": "it returns the same namespace are the same",
-                            "raw": "'it returns the same namespace are the same'"
+                            "value": "it returns the same namespace are the same"
                           }
                         ],
                         "optional": false
@@ -245,8 +241,7 @@
                             "type": "Literal",
                             "start": 1412,
                             "end": 1457,
-                            "value": "dynamic imported a is the same object as ns",
-                            "raw": "'dynamic imported a is the same object as ns'"
+                            "value": "dynamic imported a is the same object as ns"
                           }
                         ],
                         "optional": false
@@ -296,8 +291,7 @@
                             "type": "Literal",
                             "start": 1488,
                             "end": 1533,
-                            "value": "dynamic imported b is the same object as ns",
-                            "raw": "'dynamic imported b is the same object as ns'"
+                            "value": "dynamic imported b is the same object as ns"
                           }
                         ],
                         "optional": false

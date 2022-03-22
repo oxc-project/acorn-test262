@@ -109,8 +109,7 @@
                 "type": "Literal",
                 "start": 355,
                 "end": 370,
-                "value": "[object Math]",
-                "raw": "'[object Math]'"
+                "value": "[object Math]"
               },
               "operator": "===",
               "right": {
@@ -209,8 +208,7 @@
           "type": "Literal",
           "start": 429,
           "end": 430,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -237,8 +235,7 @@
             "type": "Literal",
             "start": 437,
             "end": 438,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -247,8 +244,7 @@
           "type": "Literal",
           "start": 442,
           "end": 443,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -333,8 +329,7 @@
                 "type": "Literal",
                 "start": 504,
                 "end": 505,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -343,8 +338,7 @@
             "type": "Literal",
             "start": 508,
             "end": 572,
-            "value": "Array.prototype.reduceRight.call(Math, callbackfn, 1) !== true",
-            "raw": "'Array.prototype.reduceRight.call(Math, callbackfn, 1) !== true'"
+            "value": "Array.prototype.reduceRight.call(Math, callbackfn, 1) !== true"
           }
         ],
         "optional": false
@@ -375,8 +369,7 @@
             "type": "Literal",
             "start": 592,
             "end": 611,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

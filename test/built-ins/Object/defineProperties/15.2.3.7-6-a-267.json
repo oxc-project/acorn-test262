@@ -55,8 +55,7 @@
               "type": "Literal",
               "start": 458,
               "end": 460,
-              "value": 12,
-              "raw": "12"
+              "value": 12
             }
           }
         ]
@@ -177,8 +176,7 @@
                   "type": "Literal",
                   "start": 560,
                   "end": 570,
-                  "value": "property",
-                  "raw": "\"property\""
+                  "value": "property"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -306,8 +304,7 @@
             "type": "Literal",
             "start": 682,
             "end": 692,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "CallExpression",
@@ -351,15 +348,13 @@
             "type": "Literal",
             "start": 727,
             "end": 737,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Literal",
             "start": 739,
             "end": 758,
-            "value": "setVerifyHelpProp",
-            "raw": "\"setVerifyHelpProp\""
+            "value": "setVerifyHelpProp"
           }
         ],
         "optional": false
@@ -390,8 +385,7 @@
             "type": "Literal",
             "start": 784,
             "end": 794,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false
@@ -422,8 +416,7 @@
             "type": "Literal",
             "start": 822,
             "end": 832,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false
@@ -461,8 +454,7 @@
           "type": "Literal",
           "start": 855,
           "end": 856,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -493,8 +485,7 @@
                     "type": "Literal",
                     "start": 885,
                     "end": 923,
-                    "value": "Expected arr.length === 0, actually ",
-                    "raw": "'Expected arr.length === 0, actually '"
+                    "value": "Expected arr.length === 0, actually "
                   },
                   "operator": "+",
                   "right": {

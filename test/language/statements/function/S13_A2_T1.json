@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 314,
                 "end": 315,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -101,8 +100,7 @@
           "type": "Literal",
           "start": 418,
           "end": 419,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -133,8 +131,7 @@
                     "type": "Literal",
                     "start": 447,
                     "end": 475,
-                    "value": "#1: x === 1. Actual: x ===",
-                    "raw": "'#1: x === 1. Actual: x ==='"
+                    "value": "#1: x === 1. Actual: x ==="
                   },
                   "operator": "+",
                   "right": {
@@ -177,8 +174,7 @@
           "type": "Literal",
           "start": 677,
           "end": 688,
-          "value": "undefined",
-          "raw": "'undefined'"
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -209,8 +205,7 @@
                     "type": "Literal",
                     "start": 716,
                     "end": 780,
-                    "value": "#2: typeof __func === 'undefined'. Actual: typeof __func ===",
-                    "raw": "'#2: typeof __func === \\'undefined\\'. Actual: typeof __func ==='"
+                    "value": "#2: typeof __func === 'undefined'. Actual: typeof __func ==="
                   },
                   "operator": "+",
                   "right": {

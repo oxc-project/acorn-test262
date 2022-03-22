@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1003,
             "end": 1028,
-            "value": "it-u-nu-latn-ca-gregory",
-            "raw": "\"it-u-nu-latn-ca-gregory\""
+            "value": "it-u-nu-latn-ca-gregory"
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1118,
             "end": 1143,
-            "value": "it-u-ca-gregory-nu-latn",
-            "raw": "\"it-u-ca-gregory-nu-latn\""
+            "value": "it-u-ca-gregory-nu-latn"
           }
         }
       ],
@@ -158,8 +156,7 @@
             "type": "Literal",
             "start": 1245,
             "end": 1246,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -194,8 +191,7 @@
               "type": "Literal",
               "start": 1289,
               "end": 1290,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false

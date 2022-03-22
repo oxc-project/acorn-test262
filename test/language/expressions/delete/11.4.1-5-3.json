@@ -115,8 +115,7 @@
             "type": "Literal",
             "start": 446,
             "end": 449,
-            "value": "d",
-            "raw": "'d'"
+            "value": "d"
           }
         ],
         "optional": false
@@ -167,15 +166,13 @@
             "type": "Literal",
             "start": 481,
             "end": 491,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 505,
-            "value": "typeof foo",
-            "raw": "'typeof foo'"
+            "value": "typeof foo"
           }
         ],
         "optional": false

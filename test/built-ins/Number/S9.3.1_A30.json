@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 352,
-                "value": "0xe",
-                "raw": "\"0xe\""
+                "value": "0xe"
               }
             ],
             "optional": false
@@ -56,15 +55,13 @@
             "type": "Literal",
             "start": 355,
             "end": 357,
-            "value": 14,
-            "raw": "14"
+            "value": 14
           },
           {
             "type": "Literal",
             "start": 359,
             "end": 389,
-            "value": "Number(\"0xe\") must return 14",
-            "raw": "'Number(\"0xe\") must return 14'"
+            "value": "Number(\"0xe\") must return 14"
           }
         ],
         "optional": false
@@ -113,8 +110,7 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 421,
-                "value": "0xE",
-                "raw": "\"0xE\""
+                "value": "0xE"
               }
             ],
             "optional": false
@@ -123,15 +119,13 @@
             "type": "Literal",
             "start": 424,
             "end": 426,
-            "value": 14,
-            "raw": "14"
+            "value": 14
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 458,
-            "value": "Number(\"0xE\") must return 14",
-            "raw": "'Number(\"0xE\") must return 14'"
+            "value": "Number(\"0xE\") must return 14"
           }
         ],
         "optional": false
@@ -180,8 +174,7 @@
                 "type": "Literal",
                 "start": 485,
                 "end": 490,
-                "value": "0Xe",
-                "raw": "\"0Xe\""
+                "value": "0Xe"
               }
             ],
             "optional": false
@@ -190,15 +183,13 @@
             "type": "Literal",
             "start": 493,
             "end": 495,
-            "value": 14,
-            "raw": "14"
+            "value": 14
           },
           {
             "type": "Literal",
             "start": 497,
             "end": 527,
-            "value": "Number(\"0Xe\") must return 14",
-            "raw": "'Number(\"0Xe\") must return 14'"
+            "value": "Number(\"0Xe\") must return 14"
           }
         ],
         "optional": false
@@ -246,8 +237,7 @@
                 "type": "Literal",
                 "start": 549,
                 "end": 554,
-                "value": "0XE",
-                "raw": "\"0XE\""
+                "value": "0XE"
               }
             }
           },
@@ -255,15 +245,13 @@
             "type": "Literal",
             "start": 557,
             "end": 559,
-            "value": 14,
-            "raw": "14"
+            "value": 14
           },
           {
             "type": "Literal",
             "start": 561,
             "end": 607,
-            "value": "The value of `+(\"0XE\")` is expected to be 14",
-            "raw": "'The value of `+(\"0XE\")` is expected to be 14'"
+            "value": "The value of `+(\"0XE\")` is expected to be 14"
           }
         ],
         "optional": false

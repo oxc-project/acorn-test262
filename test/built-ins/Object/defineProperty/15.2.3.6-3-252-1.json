@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 382,
             "end": 388,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -180,8 +179,7 @@
                   "type": "Literal",
                   "start": 476,
                   "end": 477,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             ]
@@ -228,8 +226,7 @@
             "type": "Literal",
             "start": 508,
             "end": 518,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -273,8 +270,7 @@
           "type": "Literal",
           "start": 544,
           "end": 558,
-          "value": "overrideData",
-          "raw": "\"overrideData\""
+          "value": "overrideData"
         }
       }
     },
@@ -321,8 +317,7 @@
                 "type": "Literal",
                 "start": 587,
                 "end": 597,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -331,8 +326,7 @@
             "type": "Literal",
             "start": 600,
             "end": 641,
-            "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "value": "obj.hasOwnProperty(\"property\") !== true"
           }
         ],
         "optional": false
@@ -376,15 +370,13 @@
             "type": "Literal",
             "start": 667,
             "end": 681,
-            "value": "overrideData",
-            "raw": "\"overrideData\""
+            "value": "overrideData"
           },
           {
             "type": "Literal",
             "start": 683,
             "end": 689,
-            "value": "data",
-            "raw": "'data'"
+            "value": "data"
           }
         ],
         "optional": false

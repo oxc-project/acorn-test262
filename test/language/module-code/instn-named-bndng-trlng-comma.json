@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 1651,
             "end": 1717,
-            "value": "binding is initialized to `undefined` prior to module evaulation",
-            "raw": "'binding is initialized to `undefined` prior to module evaulation'"
+            "value": "binding is initialized to `undefined` prior to module evaulation"
           }
         ],
         "optional": false
@@ -133,8 +132,7 @@
             "type": "Literal",
             "start": 1775,
             "end": 1803,
-            "value": "binding rejects assignment",
-            "raw": "'binding rejects assignment'"
+            "value": "binding rejects assignment"
           }
         ],
         "optional": false
@@ -184,8 +182,7 @@
             "type": "Literal",
             "start": 1838,
             "end": 1866,
-            "value": "binding value is immutable",
-            "raw": "'binding value is immutable'"
+            "value": "binding value is immutable"
           }
         ],
         "optional": false
@@ -218,8 +215,7 @@
         "type": "Literal",
         "start": 1895,
         "end": 1931,
-        "value": "./instn-named-bndng-trlng-comma.js",
-        "raw": "'./instn-named-bndng-trlng-comma.js'"
+        "value": "./instn-named-bndng-trlng-comma.js"
       }
     },
     {
@@ -245,8 +241,7 @@
               "type": "Literal",
               "start": 1948,
               "end": 1950,
-              "value": 23,
-              "raw": "23"
+              "value": 23
             }
           }
         ],

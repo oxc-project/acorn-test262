@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 976,
             "end": 986,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 990,
             "end": 1063,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -483,8 +481,7 @@
                 "type": "Literal",
                 "start": 1460,
                 "end": 1527,
-                "value": "(x) => { return Object.getPrototypeOf(x) === Function.prototype }",
-                "raw": "'(x) => { return Object.getPrototypeOf(x) === Function.prototype }'"
+                "value": "(x) => { return Object.getPrototypeOf(x) === Function.prototype }"
               }
             ],
             "optional": false
@@ -562,8 +559,7 @@
             "type": "Literal",
             "start": 1581,
             "end": 1663,
-            "value": "callable arguments passed into WrappedFunction should be wrapped in target realm",
-            "raw": "'callable arguments passed into WrappedFunction should be wrapped in target realm'"
+            "value": "callable arguments passed into WrappedFunction should be wrapped in target realm"
           }
         ],
         "optional": false
@@ -612,8 +608,7 @@
                 "type": "Literal",
                 "start": 1691,
                 "end": 1728,
-                "value": "() => { return () => { return 1 } }",
-                "raw": "'() => { return () => { return 1 } }'"
+                "value": "() => { return () => { return 1 } }"
               }
             ],
             "optional": false
@@ -693,8 +688,7 @@
             "type": "Literal",
             "start": 1799,
             "end": 1856,
-            "value": "WrappedFunction should be derived from the caller realm",
-            "raw": "'WrappedFunction should be derived from the caller realm'"
+            "value": "WrappedFunction should be derived from the caller realm"
           }
         ],
         "optional": false
@@ -778,8 +772,7 @@
             "type": "Literal",
             "start": 1929,
             "end": 2002,
-            "value": "callable results from WrappedFunction should be wrapped in caller realm",
-            "raw": "'callable results from WrappedFunction should be wrapped in caller realm'"
+            "value": "callable results from WrappedFunction should be wrapped in caller realm"
           }
         ],
         "optional": false
@@ -860,8 +853,7 @@
                 "type": "Literal",
                 "start": 2068,
                 "end": 2105,
-                "value": "() => { return () => { return 1 } }",
-                "raw": "'() => { return () => { return 1 } }'"
+                "value": "() => { return () => { return 1 } }"
               }
             ],
             "optional": false
@@ -941,8 +933,7 @@
             "type": "Literal",
             "start": 2181,
             "end": 2238,
-            "value": "WrappedFunction should be derived from the caller realm",
-            "raw": "'WrappedFunction should be derived from the caller realm'"
+            "value": "WrappedFunction should be derived from the caller realm"
           }
         ],
         "optional": false
@@ -1026,8 +1017,7 @@
             "type": "Literal",
             "start": 2316,
             "end": 2389,
-            "value": "callable results from WrappedFunction should be wrapped in caller realm",
-            "raw": "'callable results from WrappedFunction should be wrapped in caller realm'"
+            "value": "callable results from WrappedFunction should be wrapped in caller realm"
           }
         ],
         "optional": false

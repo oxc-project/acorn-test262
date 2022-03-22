@@ -68,8 +68,7 @@
                   "type": "Literal",
                   "start": 345,
                   "end": 373,
-                  "value": "#1: (false && x) === false",
-                  "raw": "'#1: (false && x) === false'"
+                  "value": "#1: (false && x) === false"
                 }
               ]
             }

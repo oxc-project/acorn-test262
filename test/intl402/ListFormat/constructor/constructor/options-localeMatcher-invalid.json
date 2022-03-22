@@ -34,57 +34,49 @@
                 "type": "Literal",
                 "start": 500,
                 "end": 501,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 507,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 511,
                 "end": 519,
-                "value": "Lookup",
-                "raw": "\"Lookup\""
+                "value": "Lookup"
               },
               {
                 "type": "Literal",
                 "start": 523,
                 "end": 531,
-                "value": "LOOKUP",
-                "raw": "\"LOOKUP\""
+                "value": "LOOKUP"
               },
               {
                 "type": "Literal",
                 "start": 535,
                 "end": 545,
-                "value": "lookup\u0000",
-                "raw": "\"lookup\\0\""
+                "value": "lookup\u0000"
               },
               {
                 "type": "Literal",
                 "start": 549,
                 "end": 559,
-                "value": "Best fit",
-                "raw": "\"Best fit\""
+                "value": "Best fit"
               },
               {
                 "type": "Literal",
                 "start": 563,
                 "end": 573,
-                "value": "BEST FIT",
-                "raw": "\"BEST FIT\""
+                "value": "BEST FIT"
               },
               {
                 "type": "Literal",
                 "start": 577,
                 "end": 592,
-                "value": "best fit",
-                "raw": "\"best\\u00a0fit\""
+                "value": "best fit"
               }
             ]
           }

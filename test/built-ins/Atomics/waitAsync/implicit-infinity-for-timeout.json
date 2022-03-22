@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 735,
             "end": 745,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 802,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -140,8 +138,7 @@
                       "type": "Literal",
                       "start": 890,
                       "end": 891,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -244,15 +241,13 @@
                 "type": "Literal",
                 "start": 942,
                 "end": 943,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 945,
                 "end": 946,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -356,15 +351,13 @@
                             "type": "Literal",
                             "start": 1001,
                             "end": 1005,
-                            "value": "ok",
-                            "raw": "\"ok\""
+                            "value": "ok"
                           },
                           {
                             "type": "Literal",
                             "start": 1007,
                             "end": 1038,
-                            "value": "The value of `result` is \"ok\"",
-                            "raw": "'The value of `result` is \"ok\"'"
+                            "value": "The value of `result` is \"ok\""
                           }
                         ],
                         "optional": false
@@ -446,8 +439,7 @@
             "type": "Literal",
             "start": 1094,
             "end": 1095,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

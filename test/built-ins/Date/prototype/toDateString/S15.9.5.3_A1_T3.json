@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 348,
                   "end": 362,
-                  "value": "toDateString",
-                  "raw": "'toDateString'"
+                  "value": "toDateString"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 367,
             "end": 459,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('toDateString') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'toDateString\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('toDateString') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 521,
                   "end": 535,
-                  "value": "toDateString",
-                  "raw": "\"toDateString\""
+                  "value": "toDateString"
                 },
                 {
                   "type": "Literal",
                   "start": 537,
                   "end": 575,
-                  "value": "The value of x is not \"toDateString\"",
-                  "raw": "'The value of x is not \"toDateString\"'"
+                  "value": "The value of x is not \"toDateString\""
                 }
               ],
               "optional": false

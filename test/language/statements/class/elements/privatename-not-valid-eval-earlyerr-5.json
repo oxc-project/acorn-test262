@@ -46,13 +46,12 @@
         "end": 602,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 597,
-            "end": 600,
-            "static": false,
+            "end": 599,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 597,
               "end": 599,
               "name": "x"
@@ -129,8 +128,7 @@
                         "type": "Literal",
                         "start": 651,
                         "end": 680,
-                        "value": "executed = true; new C().#x",
-                        "raw": "\"executed = true; new C().#x\""
+                        "value": "executed = true; new C().#x"
                       }
                     ],
                     "optional": false

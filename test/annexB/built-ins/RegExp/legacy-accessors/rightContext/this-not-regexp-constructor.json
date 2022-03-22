@@ -24,15 +24,13 @@
                 "type": "Literal",
                 "start": 608,
                 "end": 622,
-                "value": "rightContext",
-                "raw": "\"rightContext\""
+                "value": "rightContext"
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 628,
-                "value": "$'",
-                "raw": "\"$'\""
+                "value": "$'"
               }
             ]
           },
@@ -183,8 +181,7 @@
                         "type": "Literal",
                         "start": 870,
                         "end": 880,
-                        "value": "function",
-                        "raw": "\"function\""
+                        "value": "function"
                       },
                       {
                         "type": "BinaryExpression",
@@ -201,8 +198,7 @@
                           "type": "Literal",
                           "start": 893,
                           "end": 902,
-                          "value": " getter",
-                          "raw": "\" getter\""
+                          "value": " getter"
                         }
                       }
                     ],
@@ -303,8 +299,7 @@
                             "type": "Literal",
                             "start": 1056,
                             "end": 1065,
-                            "value": "RegExp.",
-                            "raw": "\"RegExp.\""
+                            "value": "RegExp."
                           },
                           "operator": "+",
                           "right": {
@@ -319,8 +314,7 @@
                           "type": "Literal",
                           "start": 1079,
                           "end": 1128,
-                          "value": " getter throws for property descriptor receiver",
-                          "raw": "\" getter throws for property descriptor receiver\""
+                          "value": " getter throws for property descriptor receiver"
                         }
                       }
                     ],
@@ -421,7 +415,6 @@
                                     "start": 1205,
                                     "end": 1208,
                                     "value": {},
-                                    "raw": "/ /",
                                     "regex": {
                                       "pattern": " ",
                                       "flags": ""
@@ -446,8 +439,7 @@
                             "type": "Literal",
                             "start": 1222,
                             "end": 1231,
-                            "value": "RegExp.",
-                            "raw": "\"RegExp.\""
+                            "value": "RegExp."
                           },
                           "operator": "+",
                           "right": {
@@ -462,8 +454,7 @@
                           "type": "Literal",
                           "start": 1245,
                           "end": 1290,
-                          "value": " getter throws for RegExp instance receiver",
-                          "raw": "\" getter throws for RegExp instance receiver\""
+                          "value": " getter throws for RegExp instance receiver"
                         }
                       }
                     ],
@@ -597,8 +588,7 @@
                             "type": "Literal",
                             "start": 1397,
                             "end": 1406,
-                            "value": "RegExp.",
-                            "raw": "\"RegExp.\""
+                            "value": "RegExp."
                           },
                           "operator": "+",
                           "right": {
@@ -613,8 +603,7 @@
                           "type": "Literal",
                           "start": 1420,
                           "end": 1468,
-                          "value": " getter throws for %RegExp.prototype% receiver",
-                          "raw": "\" getter throws for %RegExp.prototype% receiver\""
+                          "value": " getter throws for %RegExp.prototype% receiver"
                         }
                       }
                     ],
@@ -675,22 +664,19 @@
                             "type": "Literal",
                             "start": 1512,
                             "end": 1513,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 1515,
                             "end": 1516,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1518,
                             "end": 1526,
-                            "value": "string",
-                            "raw": "\"string\""
+                            "value": "string"
                           }
                         ]
                       },
@@ -847,8 +833,7 @@
                                             "type": "Literal",
                                             "start": 1656,
                                             "end": 1665,
-                                            "value": "RegExp.",
-                                            "raw": "\"RegExp.\""
+                                            "value": "RegExp."
                                           },
                                           "operator": "+",
                                           "right": {
@@ -863,8 +848,7 @@
                                           "type": "Literal",
                                           "start": 1679,
                                           "end": 1711,
-                                          "value": " getter throws for primitive \"",
-                                          "raw": "' getter throws for primitive \"'"
+                                          "value": " getter throws for primitive \""
                                         }
                                       },
                                       "operator": "+",
@@ -880,8 +864,7 @@
                                       "type": "Literal",
                                       "start": 1722,
                                       "end": 1734,
-                                      "value": "\" receiver",
-                                      "raw": "'\" receiver'"
+                                      "value": "\" receiver"
                                     }
                                   }
                                 ],

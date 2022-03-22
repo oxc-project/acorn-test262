@@ -117,8 +117,7 @@
                   "type": "Literal",
                   "start": 422,
                   "end": 431,
-                  "value": "Boolean",
-                  "raw": "\"Boolean\""
+                  "value": "Boolean"
                 }
               }
             ]
@@ -243,15 +242,13 @@
             "type": "Literal",
             "start": 524,
             "end": 533,
-            "value": "Boolean",
-            "raw": "\"Boolean\""
+            "value": "Boolean"
           },
           {
             "type": "Literal",
             "start": 535,
             "end": 549,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

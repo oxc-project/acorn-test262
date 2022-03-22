@@ -120,8 +120,7 @@
                               "type": "Literal",
                               "start": 425,
                               "end": 436,
-                              "value": "arguments",
-                              "raw": "\"arguments\""
+                              "value": "arguments"
                             }
                           }
                         ]
@@ -227,8 +226,7 @@
                       "type": "Literal",
                       "start": 534,
                       "end": 545,
-                      "value": "arguments",
-                      "raw": "\"arguments\""
+                      "value": "arguments"
                     }
                   }
                 }
@@ -271,8 +269,7 @@
             "type": "Literal",
             "start": 566,
             "end": 583,
-            "value": "func() !== true",
-            "raw": "'func() !== true'"
+            "value": "func() !== true"
           }
         ],
         "optional": false

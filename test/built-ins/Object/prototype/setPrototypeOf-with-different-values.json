@@ -140,8 +140,7 @@
             "type": "Literal",
             "start": 846,
             "end": 902,
-            "value": "Object.setPrototypeOf(ObjProto, {}) throws a TypeError",
-            "raw": "\"Object.setPrototypeOf(ObjProto, {}) throws a TypeError\""
+            "value": "Object.setPrototypeOf(ObjProto, {}) throws a TypeError"
           }
         ],
         "optional": false
@@ -259,8 +258,7 @@
             "type": "Literal",
             "start": 999,
             "end": 1068,
-            "value": "Object.setPrototypeOf(ObjProto, Array.prototype) throws a TypeError",
-            "raw": "\"Object.setPrototypeOf(ObjProto, Array.prototype) throws a TypeError\""
+            "value": "Object.setPrototypeOf(ObjProto, Array.prototype) throws a TypeError"
           }
         ],
         "optional": false
@@ -365,8 +363,7 @@
             "type": "Literal",
             "start": 1158,
             "end": 1220,
-            "value": "Object.setPrototypeOf(ObjProto, ObjProto) throws a TypeError",
-            "raw": "\"Object.setPrototypeOf(ObjProto, ObjProto) throws a TypeError\""
+            "value": "Object.setPrototypeOf(ObjProto, ObjProto) throws a TypeError"
           }
         ],
         "optional": false
@@ -450,8 +447,7 @@
             "type": "Literal",
             "start": 1293,
             "end": 1345,
-            "value": "Reflect.setPrototypeOf(ObjProto, {}) returns false",
-            "raw": "\"Reflect.setPrototypeOf(ObjProto, {}) returns false\""
+            "value": "Reflect.setPrototypeOf(ObjProto, {}) returns false"
           }
         ],
         "optional": false
@@ -548,8 +544,7 @@
             "type": "Literal",
             "start": 1432,
             "end": 1497,
-            "value": "Reflect.setPrototypeOf(ObjProto, Array.prototype) returns false",
-            "raw": "\"Reflect.setPrototypeOf(ObjProto, Array.prototype) returns false\""
+            "value": "Reflect.setPrototypeOf(ObjProto, Array.prototype) returns false"
           }
         ],
         "optional": false
@@ -633,8 +628,7 @@
             "type": "Literal",
             "start": 1577,
             "end": 1635,
-            "value": "Reflect.setPrototypeOf(ObjProto, ObjProto) returns false",
-            "raw": "\"Reflect.setPrototypeOf(ObjProto, ObjProto) returns false\""
+            "value": "Reflect.setPrototypeOf(ObjProto, ObjProto) returns false"
           }
         ],
         "optional": false

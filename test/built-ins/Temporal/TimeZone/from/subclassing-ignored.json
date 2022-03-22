@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 358,
             "end": 364,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ArrayExpression",
@@ -66,8 +65,7 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 374,
-                "value": "UTC",
-                "raw": "\"UTC\""
+                "value": "UTC"
               }
             ]
           },
@@ -143,15 +141,13 @@
                         "type": "Literal",
                         "start": 425,
                         "end": 430,
-                        "value": "UTC",
-                        "raw": "\"UTC\""
+                        "value": "UTC"
                       },
                       {
                         "type": "Literal",
                         "start": 432,
                         "end": 455,
-                        "value": "id property of result",
-                        "raw": "\"id property of result\""
+                        "value": "id property of result"
                       }
                     ],
                     "optional": false
@@ -215,15 +211,13 @@
                         "type": "Literal",
                         "start": 498,
                         "end": 503,
-                        "value": "UTC",
-                        "raw": "\"UTC\""
+                        "value": "UTC"
                       },
                       {
                         "type": "Literal",
                         "start": 505,
                         "end": 527,
-                        "value": "toString() of result",
-                        "raw": "\"toString() of result\""
+                        "value": "toString() of result"
                       }
                     ],
                     "optional": false

@@ -31,7 +31,6 @@
                 "start": 2095,
                 "end": 2098,
                 "value": {},
-                "raw": "/1/",
                 "regex": {
                   "pattern": "1",
                   "flags": ""
@@ -96,7 +95,6 @@
                         "start": 2123,
                         "end": 2126,
                         "value": {},
-                        "raw": "/1/",
                         "regex": {
                           "pattern": "1",
                           "flags": ""

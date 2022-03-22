@@ -70,8 +70,7 @@
                               "type": "Literal",
                               "start": 886,
                               "end": 901,
-                              "value": "count coerced",
-                              "raw": "\"count coerced\""
+                              "value": "count coerced"
                             }
                           ]
                         }
@@ -237,8 +236,7 @@
                           "type": "Literal",
                           "start": 1149,
                           "end": 1150,
-                          "value": 8,
-                          "raw": "8"
+                          "value": 8
                         }
                       ]
                     }
@@ -334,8 +332,7 @@
                               "type": "Literal",
                               "start": 1225,
                               "end": 1226,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Identifier",

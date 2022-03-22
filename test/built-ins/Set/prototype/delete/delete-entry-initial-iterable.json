@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 593,
                     "end": 594,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               }
@@ -100,15 +99,13 @@
             "type": "Literal",
             "start": 624,
             "end": 625,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 627,
             "end": 657,
-            "value": "The value of `s.size` is `1`",
-            "raw": "\"The value of `s.size` is `1`\""
+            "value": "The value of `s.size` is `1`"
           }
         ],
         "optional": false
@@ -157,8 +154,7 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 684,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -218,15 +214,13 @@
             "type": "Literal",
             "start": 713,
             "end": 714,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 777,
-            "value": "The value of `s.size` is `0`, after executing `s.delete(1)`",
-            "raw": "\"The value of `s.size` is `0`, after executing `s.delete(1)`\""
+            "value": "The value of `s.size` is `0`, after executing `s.delete(1)`"
           }
         ],
         "optional": false
@@ -277,8 +271,7 @@
             "type": "Literal",
             "start": 811,
             "end": 850,
-            "value": "The result of `s.delete(1)` is `true`",
-            "raw": "\"The result of `s.delete(1)` is `true`\""
+            "value": "The result of `s.delete(1)` is `true`"
           }
         ],
         "optional": false

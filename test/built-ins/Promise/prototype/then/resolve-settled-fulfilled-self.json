@@ -230,8 +230,7 @@
                         "type": "Literal",
                         "start": 1225,
                         "end": 1263,
-                        "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "value": "The promise should not be fulfilled."
                       }
                     ],
                     "optional": false
@@ -302,8 +301,7 @@
                               "type": "Literal",
                               "start": 1315,
                               "end": 1361,
-                              "value": "The promise should be rejected with a value.",
-                              "raw": "'The promise should be rejected with a value.'"
+                              "value": "The promise should be rejected with a value."
                             }
                           ],
                           "optional": false
@@ -378,8 +376,7 @@
                               "type": "Literal",
                               "start": 1433,
                               "end": 1492,
-                              "value": "The promise should be rejected with a TypeError instance.",
-                              "raw": "'The promise should be rejected with a TypeError instance.'"
+                              "value": "The promise should be rejected with a TypeError instance."
                             }
                           ],
                           "optional": false

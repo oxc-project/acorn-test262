@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 361,
                 "end": 452,
-                "value": "power of the power of the power of the power of the power of the power of the great sword",
-                "raw": "\"power of the power of the power of the power of the power of the power of the great sword\""
+                "value": "power of the power of the power of the power of the power of the power of the great sword"
               }
             ]
           }
@@ -79,7 +78,6 @@
               "start": 564,
               "end": 569,
               "value": {},
-              "raw": "/the/",
               "regex": {
                 "pattern": "the",
                 "flags": ""
@@ -118,7 +116,6 @@
               "start": 590,
               "end": 596,
               "value": {},
-              "raw": "/the/g",
               "regex": {
                 "pattern": "the",
                 "flags": "g"
@@ -156,8 +153,7 @@
                     "type": "Literal",
                     "start": 626,
                     "end": 808,
-                    "value": "#1: var aString = new String(\"power of the power of the power of the power of the power of the power of the great sword\"); aString.search(/the/)=== aString.search(/the/g). Actual: ",
-                    "raw": "'#1: var aString = new String(\"power of the power of the power of the power of the power of the power of the great sword\"); aString.search(/the/)=== aString.search(/the/g). Actual: '"
+                    "value": "#1: var aString = new String(\"power of the power of the power of the power of the power of the power of the great sword\"); aString.search(/the/)=== aString.search(/the/g). Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -189,7 +185,6 @@
                         "start": 826,
                         "end": 831,
                         "value": {},
-                        "raw": "/the/",
                         "regex": {
                           "pattern": "the",
                           "flags": ""

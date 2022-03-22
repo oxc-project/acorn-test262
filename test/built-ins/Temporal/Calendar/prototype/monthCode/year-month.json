@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 436,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,15 +97,13 @@
                 "type": "Literal",
                 "start": 484,
                 "end": 488,
-                "value": 1999,
-                "raw": "1999"
+                "value": 1999
               },
               {
                 "type": "Literal",
                 "start": 490,
                 "end": 491,
-                "value": 6,
-                "raw": "6"
+                "value": 6
               }
             ]
           }
@@ -179,15 +176,13 @@
             "type": "Literal",
             "start": 542,
             "end": 547,
-            "value": "M06",
-            "raw": "\"M06\""
+            "value": "M06"
           },
           {
             "type": "Literal",
             "start": 551,
             "end": 622,
-            "value": "cal.monthCode(new Temporal.PlainYearMonth(1999, 6)) must return \"M06\"",
-            "raw": "'cal.monthCode(new Temporal.PlainYearMonth(1999, 6)) must return \"M06\"'"
+            "value": "cal.monthCode(new Temporal.PlainYearMonth(1999, 6)) must return \"M06\""
           }
         ],
         "optional": false

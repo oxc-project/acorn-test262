@@ -120,8 +120,7 @@
             "type": "Literal",
             "start": 520,
             "end": 546,
-            "value": "[object Intl.ListFormat]",
-            "raw": "\"[object Intl.ListFormat]\""
+            "value": "[object Intl.ListFormat]"
           }
         ],
         "optional": false
@@ -237,8 +236,7 @@
             "type": "Literal",
             "start": 621,
             "end": 647,
-            "value": "[object Intl.ListFormat]",
-            "raw": "\"[object Intl.ListFormat]\""
+            "value": "[object Intl.ListFormat]"
           }
         ],
         "optional": false

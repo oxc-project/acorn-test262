@@ -102,22 +102,19 @@
                                   "type": "Literal",
                                   "start": 1955,
                                   "end": 1956,
-                                  "value": 4,
-                                  "raw": "4"
+                                  "value": 4
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 1958,
                                   "end": 1959,
-                                  "value": 5,
-                                  "raw": "5"
+                                  "value": 5
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 1961,
                                   "end": 1962,
-                                  "value": 6,
-                                  "raw": "6"
+                                  "value": 6
                                 }
                               ]
                             }

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 762,
             "end": 818,
-            "value": "isConstructor(Object.getPrototypeOf) must return false",
-            "raw": "'isConstructor(Object.getPrototypeOf) must return false'"
+            "value": "isConstructor(Object.getPrototypeOf) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 892,
             "end": 942,
-            "value": "`new Object.getPrototypeOf({})` throws TypeError",
-            "raw": "'`new Object.getPrototypeOf({})` throws TypeError'"
+            "value": "`new Object.getPrototypeOf({})` throws TypeError"
           }
         ],
         "optional": false

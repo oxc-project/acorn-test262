@@ -141,8 +141,7 @@
             "type": "Literal",
             "start": 1044,
             "end": 1045,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -271,8 +270,7 @@
                             "type": "Literal",
                             "start": 1104,
                             "end": 1105,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ],
                         "optional": false
@@ -329,8 +327,7 @@
                             "type": "Literal",
                             "start": 1144,
                             "end": 1145,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ],
                         "optional": false
@@ -361,8 +358,7 @@
                             "type": "Literal",
                             "start": 1174,
                             "end": 1219,
-                            "value": "Expected Promise.any().then to queue second",
-                            "raw": "'Expected Promise.any().then to queue second'"
+                            "value": "Expected Promise.any().then to queue second"
                           }
                         ],
                         "optional": false
@@ -484,8 +480,7 @@
                                 "type": "Literal",
                                 "start": 1272,
                                 "end": 1273,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               }
                             ],
                             "optional": false
@@ -542,8 +537,7 @@
                                 "type": "Literal",
                                 "start": 1312,
                                 "end": 1313,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               }
                             ],
                             "optional": false
@@ -574,8 +568,7 @@
                                 "type": "Literal",
                                 "start": 1342,
                                 "end": 1375,
-                                "value": "Expected p1.then to queue first",
-                                "raw": "'Expected p1.then to queue first'"
+                                "value": "Expected p1.then to queue first"
                               }
                             ],
                             "optional": false
@@ -643,8 +636,7 @@
                             "type": "Literal",
                             "start": 1410,
                             "end": 1411,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           }
                         ],
                         "optional": false
@@ -701,8 +693,7 @@
                             "type": "Literal",
                             "start": 1450,
                             "end": 1451,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           }
                         ],
                         "optional": false
@@ -733,8 +724,7 @@
                             "type": "Literal",
                             "start": 1480,
                             "end": 1515,
-                            "value": "Expected final then to queue last",
-                            "raw": "'Expected final then to queue last'"
+                            "value": "Expected final then to queue last"
                           }
                         ],
                         "optional": false
@@ -804,8 +794,7 @@
             "type": "Literal",
             "start": 1556,
             "end": 1557,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false

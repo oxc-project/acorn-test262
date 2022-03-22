@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 384,
-                "value": "return gNonStrict();",
-                "raw": "\"return gNonStrict();\""
+                "value": "return gNonStrict();"
               }
             ],
             "optional": false

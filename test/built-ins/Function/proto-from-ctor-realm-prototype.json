@@ -93,8 +93,7 @@
           "type": "Literal",
           "start": 1334,
           "end": 1335,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -304,8 +303,7 @@
                     "type": "Literal",
                     "start": 1491,
                     "end": 1504,
-                    "value": "calls += 1;",
-                    "raw": "\"calls += 1;\""
+                    "value": "calls += 1;"
                   }
                 ]
               },
@@ -636,8 +634,7 @@
             "type": "Literal",
             "start": 1746,
             "end": 1747,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

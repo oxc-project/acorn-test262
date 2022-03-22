@@ -212,8 +212,7 @@
                         "type": "Literal",
                         "start": 492,
                         "end": 515,
-                        "value": "o.bar does not exist!",
-                        "raw": "\"o.bar does not exist!\""
+                        "value": "o.bar does not exist!"
                       }
                     ]
                   }
@@ -270,8 +269,7 @@
             "type": "Literal",
             "start": 556,
             "end": 567,
-            "value": "fooCalled",
-            "raw": "'fooCalled'"
+            "value": "fooCalled"
           }
         ],
         "optional": false

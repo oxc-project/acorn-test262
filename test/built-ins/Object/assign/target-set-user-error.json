@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 659,
             "end": 665,
-            "value": "attr",
-            "raw": "'attr'"
+            "value": "attr"
           },
           {
             "type": "ObjectExpression",
@@ -240,8 +239,7 @@
                               "type": "Literal",
                               "start": 806,
                               "end": 807,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "kind": "init"
                           }

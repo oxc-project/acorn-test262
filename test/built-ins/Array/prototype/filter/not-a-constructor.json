@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 764,
             "end": 821,
-            "value": "isConstructor(Array.prototype.filter) must return false",
-            "raw": "'isConstructor(Array.prototype.filter) must return false'"
+            "value": "isConstructor(Array.prototype.filter) must return false"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 902,
             "end": 959,
-            "value": "`new Array.prototype.filter(() => {})` throws TypeError",
-            "raw": "'`new Array.prototype.filter(() => {})` throws TypeError'"
+            "value": "`new Array.prototype.filter(() => {})` throws TypeError"
           }
         ],
         "optional": false

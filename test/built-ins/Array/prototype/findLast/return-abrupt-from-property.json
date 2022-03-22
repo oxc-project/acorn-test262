@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 547,
                   "end": 548,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 578,
             "end": 579,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "ObjectExpression",

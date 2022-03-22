@@ -135,8 +135,7 @@
           "type": "Literal",
           "start": 455,
           "end": 462,
-          "value": "false",
-          "raw": "\"false\""
+          "value": "false"
         }
       },
       "consequent": {
@@ -167,8 +166,7 @@
                     "type": "Literal",
                     "start": 491,
                     "end": 625,
-                    "value": "#1: __instance = new Boolean; __instance.toLowerCase = String.prototype.toLowerCase;  __instance.toLowerCase() === \"false\". Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.toLowerCase = String.prototype.toLowerCase;  __instance.toLowerCase() === \"false\". Actual: '"
+                    "value": "#1: __instance = new Boolean; __instance.toLowerCase = String.prototype.toLowerCase;  __instance.toLowerCase() === \"false\". Actual: "
                   },
                   "operator": "+",
                   "right": {

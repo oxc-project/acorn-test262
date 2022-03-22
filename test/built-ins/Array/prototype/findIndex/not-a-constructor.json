@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 770,
             "end": 830,
-            "value": "isConstructor(Array.prototype.findIndex) must return false",
-            "raw": "'isConstructor(Array.prototype.findIndex) must return false'"
+            "value": "isConstructor(Array.prototype.findIndex) must return false"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 914,
             "end": 974,
-            "value": "`new Array.prototype.findIndex(() => {})` throws TypeError",
-            "raw": "'`new Array.prototype.findIndex(() => {})` throws TypeError'"
+            "value": "`new Array.prototype.findIndex(() => {})` throws TypeError"
           }
         ],
         "optional": false

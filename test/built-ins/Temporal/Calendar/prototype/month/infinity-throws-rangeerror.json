@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 380,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 404,
                   "end": 408,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 "kind": "init"
               },
@@ -114,8 +112,7 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 418,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "kind": "init"
               },
@@ -136,8 +133,7 @@
                   "type": "Literal",
                   "start": 425,
                   "end": 426,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               }
@@ -237,22 +233,19 @@
                             "type": "Literal",
                             "start": 475,
                             "end": 481,
-                            "value": "year",
-                            "raw": "\"year\""
+                            "value": "year"
                           },
                           {
                             "type": "Literal",
                             "start": 483,
                             "end": 490,
-                            "value": "month",
-                            "raw": "\"month\""
+                            "value": "month"
                           },
                           {
                             "type": "Literal",
                             "start": 492,
                             "end": 497,
-                            "value": "day",
-                            "raw": "\"day\""
+                            "value": "day"
                           }
                         ]
                       },
@@ -770,8 +763,7 @@
                                     "type": "Literal",
                                     "start": 888,
                                     "end": 933,
-                                    "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "value": "it fails after fetching the primitive value"
                                   }
                                 ],
                                 "optional": false

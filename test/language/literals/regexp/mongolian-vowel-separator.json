@@ -40,7 +40,6 @@
               "start": 982,
               "end": 985,
               "value": {},
-              "raw": "/᠎/",
               "regex": {
                 "pattern": "᠎",
                 "flags": ""
@@ -59,8 +58,7 @@
             "type": "Literal",
             "start": 994,
             "end": 1002,
-            "value": "᠎",
-            "raw": "\"\\u180E\""
+            "value": "᠎"
           }
         ],
         "optional": false

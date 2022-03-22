@@ -89,8 +89,7 @@
             "type": "Literal",
             "start": 305,
             "end": 358,
-            "value": "Array.isArray(new Boolean(false)) must return false",
-            "raw": "'Array.isArray(new Boolean(false)) must return false'"
+            "value": "Array.isArray(new Boolean(false)) must return false"
           }
         ],
         "optional": false

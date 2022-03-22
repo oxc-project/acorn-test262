@@ -162,8 +162,7 @@
           "type": "Literal",
           "start": 660,
           "end": 661,
-          "value": 8,
-          "raw": "8"
+          "value": 8
         }
       }
     },
@@ -186,8 +185,7 @@
           "type": "Literal",
           "start": 669,
           "end": 674,
-          "value": "red",
-          "raw": "\"red\""
+          "value": "red"
         }
       }
     },
@@ -210,8 +208,7 @@
           "type": "Literal",
           "start": 681,
           "end": 686,
-          "value": 12342,
-          "raw": "12342"
+          "value": 12342
         }
       }
     },
@@ -234,8 +231,7 @@
           "type": "Literal",
           "start": 697,
           "end": 700,
-          "value": 1.1,
-          "raw": "1.1"
+          "value": 1.1
         }
       }
     },
@@ -258,8 +254,7 @@
           "type": "Literal",
           "start": 708,
           "end": 711,
-          "value": 0.1,
-          "raw": "0.1"
+          "value": 0.1
         }
       }
     },
@@ -282,8 +277,7 @@
           "type": "Literal",
           "start": 720,
           "end": 723,
-          "value": 0.5,
-          "raw": "0.5"
+          "value": 0.5
         }
       }
     },
@@ -486,8 +480,7 @@
                       "type": "Literal",
                       "start": 847,
                       "end": 848,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "computed": true,
                     "optional": false
@@ -523,8 +516,7 @@
                       "type": "Literal",
                       "start": 867,
                       "end": 868,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     },
                     "computed": true,
                     "optional": false
@@ -653,8 +645,7 @@
                     "type": "Literal",
                     "start": 1082,
                     "end": 1144,
-                    "value": "#1: __device.color === undefined. Actual: __device.color ===",
-                    "raw": "'#1: __device.color === undefined. Actual: __device.color ==='"
+                    "value": "#1: __device.color === undefined. Actual: __device.color ==="
                   },
                   "operator": "+",
                   "right": {
@@ -747,8 +738,7 @@
                     "type": "Literal",
                     "start": 1396,
                     "end": 1459,
-                    "value": "#2: __device.volume === __VOLUME. Actual: __device.volume ===",
-                    "raw": "'#2: __device.volume === __VOLUME. Actual: __device.volume ==='"
+                    "value": "#2: __device.volume === __VOLUME. Actual: __device.volume ==="
                   },
                   "operator": "+",
                   "right": {
@@ -841,8 +831,7 @@
                     "type": "Literal",
                     "start": 1713,
                     "end": 1777,
-                    "value": "#3: __device.bottom === undefined. Actual: __device.bottom ===",
-                    "raw": "'#3: __device.bottom === undefined. Actual: __device.bottom ==='"
+                    "value": "#3: __device.bottom === undefined. Actual: __device.bottom ==="
                   },
                   "operator": "+",
                   "right": {
@@ -935,8 +924,7 @@
                     "type": "Literal",
                     "start": 2022,
                     "end": 2073,
-                    "value": "#4: __device.id === __ID. Actual: __device.id ===",
-                    "raw": "'#4: __device.id === __ID. Actual: __device.id ==='"
+                    "value": "#4: __device.id === __ID. Actual: __device.id ==="
                   },
                   "operator": "+",
                   "right": {
@@ -1029,8 +1017,7 @@
                     "type": "Literal",
                     "start": 2321,
                     "end": 2381,
-                    "value": "#5: __device.left === undefined. Actual: __device.left ===",
-                    "raw": "'#5: __device.left === undefined. Actual: __device.left ==='"
+                    "value": "#5: __device.left === undefined. Actual: __device.left ==="
                   },
                   "operator": "+",
                   "right": {
@@ -1123,8 +1110,7 @@
                     "type": "Literal",
                     "start": 2626,
                     "end": 2680,
-                    "value": "#6: __device.top === __TOP. Actual: __device.top ===",
-                    "raw": "'#6: __device.top === __TOP. Actual: __device.top ==='"
+                    "value": "#6: __device.top === __TOP. Actual: __device.top ==="
                   },
                   "operator": "+",
                   "right": {

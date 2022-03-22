@@ -23,16 +23,14 @@
               "type": "Literal",
               "start": 416,
               "end": 420,
-              "value": "xx",
-              "raw": "\"xx\""
+              "value": "xx"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 423,
               "end": 427,
-              "value": "xy",
-              "raw": "\"xy\""
+              "value": "xy"
             }
           }
         },
@@ -69,8 +67,7 @@
                   "type": "Literal",
                   "start": 466,
                   "end": 494,
-                  "value": "#1: (\"xx\" < \"xy\") === true",
-                  "raw": "'#1: (\"xx\" < \"xy\") === true'"
+                  "value": "#1: (\"xx\" < \"xy\") === true"
                 }
               ]
             }
@@ -99,16 +96,14 @@
               "type": "Literal",
               "start": 515,
               "end": 519,
-              "value": "xy",
-              "raw": "\"xy\""
+              "value": "xy"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 522,
               "end": 526,
-              "value": "xx",
-              "raw": "\"xx\""
+              "value": "xx"
             }
           }
         },
@@ -145,8 +140,7 @@
                   "type": "Literal",
                   "start": 566,
                   "end": 595,
-                  "value": "#2: (\"xy\" < \"xx\") === false",
-                  "raw": "'#2: (\"xy\" < \"xx\") === false'"
+                  "value": "#2: (\"xy\" < \"xx\") === false"
                 }
               ]
             }
@@ -175,16 +169,14 @@
               "type": "Literal",
               "start": 616,
               "end": 619,
-              "value": "x",
-              "raw": "\"x\""
+              "value": "x"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 622,
               "end": 625,
-              "value": "y",
-              "raw": "\"y\""
+              "value": "y"
             }
           }
         },
@@ -221,8 +213,7 @@
                   "type": "Literal",
                   "start": 664,
                   "end": 689,
-                  "value": "#3: (\"x\" < y\") === true",
-                  "raw": "'#3: (\"x\" < y\") === true'"
+                  "value": "#3: (\"x\" < y\") === true"
                 }
               ]
             }
@@ -251,16 +242,14 @@
               "type": "Literal",
               "start": 710,
               "end": 715,
-              "value": "aab",
-              "raw": "\"aab\""
+              "value": "aab"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 718,
               "end": 723,
-              "value": "aba",
-              "raw": "\"aba\""
+              "value": "aba"
             }
           }
         },
@@ -297,8 +286,7 @@
                   "type": "Literal",
                   "start": 762,
                   "end": 791,
-                  "value": "#4: (\"aab\" < aba\") === true",
-                  "raw": "'#4: (\"aab\" < aba\") === true'"
+                  "value": "#4: (\"aab\" < aba\") === true"
                 }
               ]
             }
@@ -327,16 +315,14 @@
               "type": "Literal",
               "start": 812,
               "end": 838,
-              "value": "aaab",
-              "raw": "\"\\u0061\\u0061\\u0061\\u0062\""
+              "value": "aaab"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 841,
               "end": 867,
-              "value": "aaaa",
-              "raw": "\"\\u0061\\u0061\\u0061\\u0061\""
+              "value": "aaaa"
             }
           }
         },
@@ -373,8 +359,7 @@
                   "type": "Literal",
                   "start": 907,
                   "end": 987,
-                  "value": "#5: (\"\\u0061\\u0061\\u0061\\u0062\" < \\u0061\\u0061\\u0061\\u0061\") === false",
-                  "raw": "'#5: (\"\\\\u0061\\\\u0061\\\\u0061\\\\u0062\" < \\\\u0061\\\\u0061\\\\u0061\\\\u0061\") === false'"
+                  "value": "#5: (\"\\u0061\\u0061\\u0061\\u0062\" < \\u0061\\u0061\\u0061\\u0061\") === false"
                 }
               ]
             }
@@ -403,16 +388,14 @@
               "type": "Literal",
               "start": 1008,
               "end": 1018,
-              "value": "a\u0000a",
-              "raw": "\"a\\u0000a\""
+              "value": "a\u0000a"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 1021,
               "end": 1031,
-              "value": "a\u0000b",
-              "raw": "\"a\\u0000b\""
+              "value": "a\u0000b"
             }
           }
         },
@@ -449,8 +432,7 @@
                   "type": "Literal",
                   "start": 1070,
                   "end": 1112,
-                  "value": "#6: (\"a\\u0000a\" < \"a\\u0000b\") === true",
-                  "raw": "'#6: (\"a\\\\u0000a\" < \"a\\\\u0000b\") === true'"
+                  "value": "#6: (\"a\\u0000a\" < \"a\\u0000b\") === true"
                 }
               ]
             }
@@ -479,16 +461,14 @@
               "type": "Literal",
               "start": 1133,
               "end": 1137,
-              "value": "aB",
-              "raw": "\"aB\""
+              "value": "aB"
             },
             "operator": "<",
             "right": {
               "type": "Literal",
               "start": 1140,
               "end": 1144,
-              "value": "aa",
-              "raw": "\"aa\""
+              "value": "aa"
             }
           }
         },
@@ -525,8 +505,7 @@
                   "type": "Literal",
                   "start": 1183,
                   "end": 1210,
-                  "value": "#7: (\"aB\" < aa\") === true",
-                  "raw": "'#7: (\"aB\" < aa\") === true'"
+                  "value": "#7: (\"aB\" < aa\") === true"
                 }
               ]
             }

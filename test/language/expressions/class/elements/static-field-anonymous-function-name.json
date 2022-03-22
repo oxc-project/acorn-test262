@@ -30,13 +30,13 @@
               "end": 2372,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 2232,
-                  "end": 2264,
+                  "end": 2263,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 2239,
                     "end": 2245,
                     "name": "field"
@@ -54,15 +54,14 @@
                       "type": "Literal",
                       "start": 2254,
                       "end": 2263,
-                      "value": "Test262",
-                      "raw": "'Test262'"
+                      "value": "Test262"
                     }
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 2267,
-                  "end": 2308,
+                  "end": 2307,
                   "static": true,
                   "computed": false,
                   "key": {
@@ -93,8 +92,7 @@
                             "type": "Literal",
                             "start": 2302,
                             "end": 2304,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         }
                       ]
@@ -141,14 +139,14 @@
                               "start": 2353,
                               "end": 2357
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 2358,
                               "end": 2364,
                               "name": "field"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         }
                       ]
@@ -233,8 +231,7 @@
             "type": "Literal",
             "start": 2420,
             "end": 2428,
-            "value": "#field",
-            "raw": "\"#field\""
+            "value": "#field"
           }
         ],
         "optional": false
@@ -304,8 +301,7 @@
             "type": "Literal",
             "start": 2462,
             "end": 2469,
-            "value": "field",
-            "raw": "\"field\""
+            "value": "field"
           }
         ],
         "optional": false

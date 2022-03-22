@@ -27,64 +27,55 @@
                 "type": "Literal",
                 "start": 658,
                 "end": 667,
-                "value": "get day",
-                "raw": "\"get day\""
+                "value": "get day"
               },
               {
                 "type": "Literal",
                 "start": 671,
                 "end": 688,
-                "value": "get day.valueOf",
-                "raw": "\"get day.valueOf\""
+                "value": "get day.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 692,
                 "end": 710,
-                "value": "call day.valueOf",
-                "raw": "\"call day.valueOf\""
+                "value": "call day.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 714,
                 "end": 729,
-                "value": "get monthCode",
-                "raw": "\"get monthCode\""
+                "value": "get monthCode"
               },
               {
                 "type": "Literal",
                 "start": 733,
                 "end": 757,
-                "value": "get monthCode.toString",
-                "raw": "\"get monthCode.toString\""
+                "value": "get monthCode.toString"
               },
               {
                 "type": "Literal",
                 "start": 761,
                 "end": 786,
-                "value": "call monthCode.toString",
-                "raw": "\"call monthCode.toString\""
+                "value": "call monthCode.toString"
               },
               {
                 "type": "Literal",
                 "start": 790,
                 "end": 800,
-                "value": "get year",
-                "raw": "\"get year\""
+                "value": "get year"
               },
               {
                 "type": "Literal",
                 "start": 804,
                 "end": 822,
-                "value": "get year.valueOf",
-                "raw": "\"get year.valueOf\""
+                "value": "get year.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 826,
                 "end": 845,
-                "value": "call year.valueOf",
-                "raw": "\"call year.valueOf\""
+                "value": "call year.valueOf"
               }
             ]
           }
@@ -180,15 +171,13 @@
                 "type": "Literal",
                 "start": 958,
                 "end": 959,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 961,
                 "end": 963,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               },
               {
                 "type": "Identifier",
@@ -252,8 +241,7 @@
                   "type": "Literal",
                   "start": 1005,
                   "end": 1009,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 "kind": "init"
               }
@@ -320,8 +308,7 @@
             "type": "Literal",
             "start": 1083,
             "end": 1121,
-            "value": "getters called on mergeFields return",
-            "raw": "\"getters called on mergeFields return\""
+            "value": "getters called on mergeFields return"
           }
         ],
         "optional": false

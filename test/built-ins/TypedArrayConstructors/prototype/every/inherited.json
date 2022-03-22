@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 404,
                             "end": 411,
-                            "value": "every",
-                            "raw": "\"every\""
+                            "value": "every"
                           }
                         ],
                         "optional": false

@@ -74,29 +74,25 @@
                                 "type": "Literal",
                                 "start": 852,
                                 "end": 854,
-                                "value": 40,
-                                "raw": "40"
+                                "value": 40
                               },
                               {
                                 "type": "Literal",
                                 "start": 856,
                                 "end": 858,
-                                "value": 41,
-                                "raw": "41"
+                                "value": 41
                               },
                               {
                                 "type": "Literal",
                                 "start": 860,
                                 "end": 862,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 864,
                                 "end": 866,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -144,8 +140,7 @@
                         "type": "Literal",
                         "start": 903,
                         "end": 916,
-                        "value": "constructor",
-                        "raw": "\"constructor\""
+                        "value": "constructor"
                       },
                       {
                         "type": "ObjectExpression",
@@ -287,8 +282,7 @@
                                     "type": "Literal",
                                     "start": 1050,
                                     "end": 1051,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false

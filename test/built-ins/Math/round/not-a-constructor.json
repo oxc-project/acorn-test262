@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Math.round) must return false",
-            "raw": "'isConstructor(Math.round) must return false'"
+            "value": "isConstructor(Math.round) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 838,
             "end": 875,
-            "value": "`new Math.round()` throws TypeError",
-            "raw": "'`new Math.round()` throws TypeError'"
+            "value": "`new Math.round()` throws TypeError"
           }
         ],
         "optional": false

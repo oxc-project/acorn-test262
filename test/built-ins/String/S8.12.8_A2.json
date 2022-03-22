@@ -116,8 +116,7 @@
                                 "type": "Literal",
                                 "start": 617,
                                 "end": 618,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           ]
@@ -164,8 +163,7 @@
                 "type": "Literal",
                 "start": 654,
                 "end": 657,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             },
             "consequent": {
@@ -196,8 +194,7 @@
                           "type": "Literal",
                           "start": 688,
                           "end": 819,
-                          "value": "#1.1: var __obj = {toString: function() {return new Object();}, valueOf: function() {return 1;}}; String(__obj) === \"1\". Actual: ",
-                          "raw": "'#1.1: var __obj = {toString: function() {return new Object();}, valueOf: function() {return 1;}}; String(__obj) === \"1\". Actual: '"
+                          "value": "#1.1: var __obj = {toString: function() {return new Object();}, valueOf: function() {return 1;}}; String(__obj) === \"1\". Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -273,8 +270,7 @@
                       "type": "Literal",
                       "start": 883,
                       "end": 1014,
-                      "value": "#1.2: var __obj = {toString: function() {return new Object();}, valueOf: function() {return 1;}}; String(__obj) === \"1\". Actual: ",
-                      "raw": "'#1.2: var __obj = {toString: function() {return new Object();}, valueOf: function() {return 1;}}; String(__obj) === \"1\". Actual: '"
+                      "value": "#1.2: var __obj = {toString: function() {return new Object();}, valueOf: function() {return 1;}}; String(__obj) === \"1\". Actual: "
                     },
                     "operator": "+",
                     "right": {

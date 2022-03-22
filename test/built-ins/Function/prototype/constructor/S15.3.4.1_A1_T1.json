@@ -73,8 +73,7 @@
             "type": "Literal",
             "start": 391,
             "end": 479,
-            "value": "The value of Function.prototype.constructor is expected to equal the value of Function",
-            "raw": "'The value of Function.prototype.constructor is expected to equal the value of Function'"
+            "value": "The value of Function.prototype.constructor is expected to equal the value of Function"
           }
         ],
         "optional": false

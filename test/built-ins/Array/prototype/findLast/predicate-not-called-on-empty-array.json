@@ -198,8 +198,7 @@
             "type": "Literal",
             "start": 670,
             "end": 718,
-            "value": "[].findLast(predicate) does not call predicate",
-            "raw": "'[].findLast(predicate) does not call predicate'"
+            "value": "[].findLast(predicate) does not call predicate"
           }
         ],
         "optional": false
@@ -249,8 +248,7 @@
             "type": "Literal",
             "start": 757,
             "end": 800,
-            "value": "[].findLast(predicate) returned undefined",
-            "raw": "'[].findLast(predicate) returned undefined'"
+            "value": "[].findLast(predicate) returned undefined"
           }
         ],
         "optional": false

@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 977,
             "end": 1058,
-            "value": "initial = f; function f() { return \"first\"; } function f() { return \"second\"; }",
-            "raw": "'initial = f; function f() { return \"first\"; } function f() { return \"second\"; }'"
+            "value": "initial = f; function f() { return \"first\"; } function f() { return \"second\"; }"
           }
         ],
         "optional": false
@@ -94,15 +93,13 @@
             "type": "Literal",
             "start": 1090,
             "end": 1098,
-            "value": "second",
-            "raw": "'second'"
+            "value": "second"
           },
           {
             "type": "Literal",
             "start": 1100,
             "end": 1115,
-            "value": "initial value",
-            "raw": "'initial value'"
+            "value": "initial value"
           }
         ],
         "optional": false
@@ -153,15 +150,13 @@
             "type": "Literal",
             "start": 1140,
             "end": 1148,
-            "value": "second",
-            "raw": "'second'"
+            "value": "second"
           },
           {
             "type": "Literal",
             "start": 1150,
             "end": 1190,
-            "value": "value following declaration evaluation",
-            "raw": "'value following declaration evaluation'"
+            "value": "value following declaration evaluation"
           }
         ],
         "optional": false

@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 303,
             "end": 313,
-            "value": "123αβπcd",
-            "raw": "\"123αβπcd\""
+            "value": "123αβπcd"
           },
           {
             "type": "ObjectExpression",
@@ -122,8 +121,7 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 357,
-                "value": "123αβπcd",
-                "raw": "\"123αβπcd\""
+                "value": "123αβπcd"
               }
             ],
             "optional": false
@@ -132,8 +130,7 @@
             "type": "Literal",
             "start": 360,
             "end": 401,
-            "value": "obj.hasOwnProperty(\"123αβπcd\") !== true",
-            "raw": "'obj.hasOwnProperty(\"123αβπcd\") !== true'"
+            "value": "obj.hasOwnProperty(\"123αβπcd\") !== true"
           }
         ],
         "optional": false

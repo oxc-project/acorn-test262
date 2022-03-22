@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 364,
             "end": 374,
-            "value": "padStart",
-            "raw": "'padStart'"
+            "value": "padStart"
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 426,
-            "value": "Expected String#padStart.name to be \"padStart\"",
-            "raw": "'Expected String#padStart.name to be \"padStart\"'"
+            "value": "Expected String#padStart.name to be \"padStart\""
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 478,
             "end": 484,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 532,
             "end": 538,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 587,
             "end": 593,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

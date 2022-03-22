@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 305,
             "end": 315,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 317,
             "end": 357,
-            "value": "typeof Uint8ClampedArray is \"function\"",
-            "raw": "'typeof Uint8ClampedArray is \"function\"'"
+            "value": "typeof Uint8ClampedArray is \"function\""
           }
         ],
         "optional": false

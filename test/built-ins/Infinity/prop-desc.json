@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 407,
             "end": 417,
-            "value": "Infinity",
-            "raw": "\"Infinity\""
+            "value": "Infinity"
           },
           {
             "type": "ObjectExpression",

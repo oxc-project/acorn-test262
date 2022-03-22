@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 378,
                     "end": 490,
-                    "value": "#1.1: new RegExp(\"\\u0042\", {toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: ",
-                    "raw": "'#1.1: new RegExp(\"\\\\u0042\", {toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '"
+                    "value": "#1.1: new RegExp(\"\\u0042\", {toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -58,8 +57,7 @@
                           "type": "Literal",
                           "start": 505,
                           "end": 513,
-                          "value": "B",
-                          "raw": "\"\\u0042\""
+                          "value": "B"
                         },
                         {
                           "type": "ObjectExpression",
@@ -89,8 +87,7 @@
                                   "type": "Literal",
                                   "start": 530,
                                   "end": 531,
-                                  "value": 0,
-                                  "raw": "0"
+                                  "value": 0
                                 }
                               },
                               "kind": "init"
@@ -130,8 +127,7 @@
                                         "type": "Literal",
                                         "start": 558,
                                         "end": 567,
-                                        "value": "invalof",
-                                        "raw": "\"invalof\""
+                                        "value": "invalof"
                                       }
                                     }
                                   ]
@@ -203,15 +199,13 @@
                     "type": "Literal",
                     "start": 611,
                     "end": 620,
-                    "value": "invalof",
-                    "raw": "\"invalof\""
+                    "value": "invalof"
                   },
                   {
                     "type": "Literal",
                     "start": 622,
                     "end": 666,
-                    "value": "The value of e is expected to be \"invalof\"",
-                    "raw": "'The value of e is expected to be \"invalof\"'"
+                    "value": "The value of e is expected to be \"invalof\""
                   }
                 ],
                 "optional": false

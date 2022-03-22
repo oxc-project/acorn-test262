@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 577,
             "end": 583,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -79,8 +78,7 @@
                   "type": "Literal",
                   "start": 596,
                   "end": 607,
-                  "value": "trimStart",
-                  "raw": "\"trimStart\""
+                  "value": "trimStart"
                 },
                 "kind": "init"
               },

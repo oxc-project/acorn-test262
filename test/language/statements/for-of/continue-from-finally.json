@@ -35,8 +35,7 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 368,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -53,8 +52,7 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 379,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -112,8 +110,7 @@
             "type": "Literal",
             "start": 416,
             "end": 417,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -248,8 +245,7 @@
                         "type": "Literal",
                         "start": 560,
                         "end": 620,
-                        "value": "This code is unreachable (following `continue` statement).",
-                        "raw": "'This code is unreachable (following `continue` statement).'"
+                        "value": "This code is unreachable (following `continue` statement)."
                       }
                     ]
                   }
@@ -276,8 +272,7 @@
                   "type": "Literal",
                   "start": 653,
                   "end": 708,
-                  "value": "This code is unreachable (following `try` statement).",
-                  "raw": "'This code is unreachable (following `try` statement).'"
+                  "value": "This code is unreachable (following `try` statement)."
                 }
               ]
             }
@@ -323,8 +318,7 @@
             "type": "Literal",
             "start": 734,
             "end": 735,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false

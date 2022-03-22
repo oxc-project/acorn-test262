@@ -53,8 +53,7 @@
             "type": "Literal",
             "start": 295,
             "end": 296,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -78,8 +77,7 @@
           "type": "Literal",
           "start": 308,
           "end": 309,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -110,8 +108,7 @@
                     "type": "Literal",
                     "start": 338,
                     "end": 419,
-                    "value": "#1: The expression x = x = 1 is the same x = (x = 1), not (x = x) = 1. Actual: ",
-                    "raw": "'#1: The expression x = x = 1 is the same x = (x = 1), not (x = x) = 1. Actual: '"
+                    "value": "#1: The expression x = x = 1 is the same x = (x = 1), not (x = x) = 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

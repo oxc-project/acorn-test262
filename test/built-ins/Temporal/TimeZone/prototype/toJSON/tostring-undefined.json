@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 311,
-                "value": "UTC",
-                "raw": "'UTC'"
+                "value": "UTC"
               }
             ],
             "optional": false

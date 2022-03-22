@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 1470,
             "end": 1480,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1484,
             "end": 1557,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -208,8 +206,7 @@
             "type": "Literal",
             "start": 1677,
             "end": 1685,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -233,8 +230,7 @@
                   "type": "Literal",
                   "start": 1698,
                   "end": 1699,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -397,8 +393,7 @@
             "type": "Literal",
             "start": 1859,
             "end": 1867,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -422,8 +417,7 @@
                   "type": "Literal",
                   "start": 1880,
                   "end": 1881,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -586,8 +580,7 @@
             "type": "Literal",
             "start": 2131,
             "end": 2139,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -774,8 +767,7 @@
             "type": "Literal",
             "start": 2411,
             "end": 2419,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -799,8 +791,7 @@
                   "type": "Literal",
                   "start": 2432,
                   "end": 2433,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -963,8 +954,7 @@
             "type": "Literal",
             "start": 2677,
             "end": 2685,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -988,8 +978,7 @@
                   "type": "Literal",
                   "start": 2698,
                   "end": 2699,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },

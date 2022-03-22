@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 367,
                   "end": 379,
-                  "value": "getMinutes",
-                  "raw": "'getMinutes'"
+                  "value": "getMinutes"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 384,
             "end": 474,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('getMinutes') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getMinutes\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getMinutes') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 536,
                   "end": 548,
-                  "value": "getMinutes",
-                  "raw": "\"getMinutes\""
+                  "value": "getMinutes"
                 },
                 {
                   "type": "Literal",
                   "start": 550,
                   "end": 586,
-                  "value": "The value of x is not \"getMinutes\"",
-                  "raw": "'The value of x is not \"getMinutes\"'"
+                  "value": "The value of x is not \"getMinutes\""
                 }
               ],
               "optional": false

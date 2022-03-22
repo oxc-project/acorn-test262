@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1138,
                 "end": 1171,
-                "value": "class C {}() => { return 42; };",
-                "raw": "'class C {}() => { return 42; };'"
+                "value": "class C {}() => { return 42; };"
               }
             ],
             "optional": false
@@ -88,8 +87,7 @@
             "type": "Literal",
             "start": 1202,
             "end": 1204,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false

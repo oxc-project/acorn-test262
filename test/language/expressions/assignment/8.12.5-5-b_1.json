@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 352,
             "end": 360,
-            "value": "reduce",
-            "raw": "\"reduce\""
+            "value": "reduce"
           },
           {
             "type": "ObjectExpression",
@@ -109,8 +108,7 @@
                           "type": "Literal",
                           "start": 388,
                           "end": 391,
-                          "value": 456,
-                          "raw": "456"
+                          "value": 456
                         }
                       }
                     ]
@@ -232,8 +230,7 @@
                 "type": "Literal",
                 "start": 496,
                 "end": 504,
-                "value": "reduce",
-                "raw": "\"reduce\""
+                "value": "reduce"
               }
             ],
             "optional": false
@@ -294,8 +291,7 @@
           "type": "Literal",
           "start": 551,
           "end": 554,
-          "value": 123,
-          "raw": "123"
+          "value": 123
         }
       }
     },
@@ -348,8 +344,7 @@
               "type": "Literal",
               "start": 615,
               "end": 623,
-              "value": "reduce",
-              "raw": "\"reduce\""
+              "value": "reduce"
             }
           ],
           "optional": false
@@ -547,8 +542,7 @@
                         "type": "Literal",
                         "start": 815,
                         "end": 828,
-                        "value": "origDesc[i]",
-                        "raw": "'origDesc[i]'"
+                        "value": "origDesc[i]"
                       }
                     ],
                     "optional": false
@@ -611,15 +605,13 @@
             "type": "Literal",
             "start": 889,
             "end": 892,
-            "value": 456,
-            "raw": "456"
+            "value": 456
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 910,
-            "value": "tempObj.reduce",
-            "raw": "'tempObj.reduce'"
+            "value": "tempObj.reduce"
           }
         ],
         "optional": false

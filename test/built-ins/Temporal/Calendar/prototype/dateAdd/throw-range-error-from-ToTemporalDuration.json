@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 429,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -126,15 +125,13 @@
                   "type": "Literal",
                   "start": 481,
                   "end": 493,
-                  "value": "2020-02-03",
-                  "raw": "\"2020-02-03\""
+                  "value": "2020-02-03"
                 },
                 {
                   "type": "Literal",
                   "start": 495,
                   "end": 520,
-                  "value": "invalid duration string",
-                  "raw": "\"invalid duration string\""
+                  "value": "invalid duration string"
                 }
               ],
               "optional": false
@@ -144,8 +141,7 @@
             "type": "Literal",
             "start": 527,
             "end": 611,
-            "value": "cal.dateAdd(\"2020-02-03\", \"invalid duration string\") throws a RangeError exception",
-            "raw": "'cal.dateAdd(\"2020-02-03\", \"invalid duration string\") throws a RangeError exception'"
+            "value": "cal.dateAdd(\"2020-02-03\", \"invalid duration string\") throws a RangeError exception"
           }
         ],
         "optional": false

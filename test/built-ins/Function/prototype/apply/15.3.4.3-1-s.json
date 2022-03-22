@@ -108,8 +108,7 @@
                 "type": "Literal",
                 "start": 437,
                 "end": 439,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Identifier",
@@ -131,8 +130,7 @@
             "type": "Literal",
             "start": 456,
             "end": 478,
-            "value": "fun.apply(\"\", Array)",
-            "raw": "'fun.apply(\"\", Array)'"
+            "value": "fun.apply(\"\", Array)"
           }
         ],
         "optional": false

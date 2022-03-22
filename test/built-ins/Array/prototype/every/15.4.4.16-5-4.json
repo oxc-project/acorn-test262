@@ -219,8 +219,7 @@
                 "type": "Literal",
                 "start": 429,
                 "end": 430,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -306,8 +305,7 @@
             "type": "Literal",
             "start": 483,
             "end": 508,
-            "value": "arr.every(callbackfn,f)",
-            "raw": "'arr.every(callbackfn,f)'"
+            "value": "arr.every(callbackfn,f)"
           }
         ],
         "optional": false

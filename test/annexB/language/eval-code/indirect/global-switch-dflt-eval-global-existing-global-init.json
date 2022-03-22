@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 750,
             "end": 753,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -73,8 +72,7 @@
                   "type": "Literal",
                   "start": 766,
                   "end": 769,
-                  "value": "x",
-                  "raw": "'x'"
+                  "value": "x"
                 },
                 "kind": "init"
               },
@@ -171,8 +169,7 @@
                 "type": "Literal",
                 "start": 837,
                 "end": 838,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -200,16 +197,14 @@
                   "type": "Literal",
                   "start": 848,
                   "end": 1085,
-                  "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });switch (1) {",
-                  "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: false\\\n  }, { restore: true });switch (1) {'"
+                  "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });switch (1) {"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1090,
                   "end": 1102,
-                  "value": "  default:",
-                  "raw": "'  default:'"
+                  "value": "  default:"
                 }
               },
               "operator": "+",
@@ -217,8 +212,7 @@
                 "type": "Literal",
                 "start": 1107,
                 "end": 1130,
-                "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
+                "value": "    function f() {  }"
               }
             },
             "operator": "+",
@@ -226,8 +220,7 @@
               "type": "Literal",
               "start": 1135,
               "end": 1142,
-              "value": "}  ",
-              "raw": "'}\\\n  '"
+              "value": "}  "
             }
           }
         ],
@@ -279,8 +272,7 @@
             "type": "Literal",
             "start": 1174,
             "end": 1184,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -311,8 +303,7 @@
             "type": "Literal",
             "start": 1210,
             "end": 1213,
-            "value": "f",
-            "raw": "\"f\""
+            "value": "f"
           },
           {
             "type": "ObjectExpression",

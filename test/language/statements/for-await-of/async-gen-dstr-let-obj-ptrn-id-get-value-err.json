@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 1615,
                 "end": 1625,
-                "value": "poisoned",
-                "raw": "'poisoned'"
+                "value": "poisoned"
               },
               {
                 "type": "ObjectExpression",
@@ -317,8 +316,7 @@
                             "type": "Literal",
                             "start": 1842,
                             "end": 1892,
-                            "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "value": "Expected async function to reject, but resolved."
                           }
                         ]
                       }

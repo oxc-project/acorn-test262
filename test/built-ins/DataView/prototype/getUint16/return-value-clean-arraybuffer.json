@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 920,
                 "end": 921,
-                "value": 6,
-                "raw": "6"
+                "value": 6
               }
             ]
           }
@@ -78,8 +77,7 @@
                 "type": "Literal",
                 "start": 958,
                 "end": 959,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -143,8 +141,7 @@
                 "type": "Literal",
                 "start": 997,
                 "end": 998,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
@@ -160,15 +157,13 @@
             "type": "Literal",
             "start": 1007,
             "end": 1008,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1010,
             "end": 1037,
-            "value": "sample.getUint16(0, true)",
-            "raw": "\"sample.getUint16(0, true)\""
+            "value": "sample.getUint16(0, true)"
           }
         ],
         "optional": false
@@ -230,8 +225,7 @@
                 "type": "Literal",
                 "start": 1074,
                 "end": 1075,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -247,15 +241,13 @@
             "type": "Literal",
             "start": 1084,
             "end": 1085,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1087,
             "end": 1114,
-            "value": "sample.getUint16(1, true)",
-            "raw": "\"sample.getUint16(1, true)\""
+            "value": "sample.getUint16(1, true)"
           }
         ],
         "optional": false
@@ -317,8 +309,7 @@
                 "type": "Literal",
                 "start": 1151,
                 "end": 1152,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
@@ -334,15 +325,13 @@
             "type": "Literal",
             "start": 1161,
             "end": 1162,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1164,
             "end": 1191,
-            "value": "sample.getUint16(2, true)",
-            "raw": "\"sample.getUint16(2, true)\""
+            "value": "sample.getUint16(2, true)"
           }
         ],
         "optional": false
@@ -404,8 +393,7 @@
                 "type": "Literal",
                 "start": 1228,
                 "end": 1229,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
@@ -421,15 +409,13 @@
             "type": "Literal",
             "start": 1238,
             "end": 1239,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1241,
             "end": 1268,
-            "value": "sample.getUint16(3, true)",
-            "raw": "\"sample.getUint16(3, true)\""
+            "value": "sample.getUint16(3, true)"
           }
         ],
         "optional": false
@@ -491,8 +477,7 @@
                 "type": "Literal",
                 "start": 1305,
                 "end": 1306,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
@@ -508,15 +493,13 @@
             "type": "Literal",
             "start": 1315,
             "end": 1316,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1318,
             "end": 1345,
-            "value": "sample.getUint16(4, true)",
-            "raw": "\"sample.getUint16(4, true)\""
+            "value": "sample.getUint16(4, true)"
           }
         ],
         "optional": false
@@ -578,8 +561,7 @@
                 "type": "Literal",
                 "start": 1382,
                 "end": 1383,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
@@ -595,15 +577,13 @@
             "type": "Literal",
             "start": 1393,
             "end": 1394,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1396,
             "end": 1424,
-            "value": "sample.getUint16(0, false)",
-            "raw": "\"sample.getUint16(0, false)\""
+            "value": "sample.getUint16(0, false)"
           }
         ],
         "optional": false
@@ -665,8 +645,7 @@
                 "type": "Literal",
                 "start": 1461,
                 "end": 1462,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -682,15 +661,13 @@
             "type": "Literal",
             "start": 1472,
             "end": 1473,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1475,
             "end": 1503,
-            "value": "sample.getUint16(1, false)",
-            "raw": "\"sample.getUint16(1, false)\""
+            "value": "sample.getUint16(1, false)"
           }
         ],
         "optional": false
@@ -752,8 +729,7 @@
                 "type": "Literal",
                 "start": 1540,
                 "end": 1541,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
@@ -769,15 +745,13 @@
             "type": "Literal",
             "start": 1551,
             "end": 1552,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1554,
             "end": 1582,
-            "value": "sample.getUint16(2, false)",
-            "raw": "\"sample.getUint16(2, false)\""
+            "value": "sample.getUint16(2, false)"
           }
         ],
         "optional": false
@@ -839,8 +813,7 @@
                 "type": "Literal",
                 "start": 1619,
                 "end": 1620,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
@@ -856,15 +829,13 @@
             "type": "Literal",
             "start": 1630,
             "end": 1631,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1633,
             "end": 1661,
-            "value": "sample.getUint16(3, false)",
-            "raw": "\"sample.getUint16(3, false)\""
+            "value": "sample.getUint16(3, false)"
           }
         ],
         "optional": false
@@ -926,8 +897,7 @@
                 "type": "Literal",
                 "start": 1698,
                 "end": 1699,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
@@ -943,15 +913,13 @@
             "type": "Literal",
             "start": 1709,
             "end": 1710,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1712,
             "end": 1740,
-            "value": "sample.getUint16(4, false)",
-            "raw": "\"sample.getUint16(4, false)\""
+            "value": "sample.getUint16(4, false)"
           }
         ],
         "optional": false

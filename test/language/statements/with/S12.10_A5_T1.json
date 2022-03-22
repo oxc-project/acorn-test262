@@ -34,8 +34,7 @@
           "type": "Literal",
           "start": 306,
           "end": 307,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -76,8 +75,7 @@
                   "type": "Literal",
                   "start": 329,
                   "end": 332,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               },
@@ -128,8 +126,7 @@
             "type": "Literal",
             "start": 354,
             "end": 384,
-            "value": "with(myObj){del = delete p1}",
-            "raw": "\"with(myObj){del = delete p1}\""
+            "value": "with(myObj){del = delete p1}"
           }
         ],
         "optional": false
@@ -167,8 +164,7 @@
           "type": "Literal",
           "start": 493,
           "end": 496,
-          "value": "a",
-          "raw": "'a'"
+          "value": "a"
         }
       },
       "consequent": {
@@ -195,8 +191,7 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 546,
-                  "value": "#1: myObj.p1 !== \"a\"",
-                  "raw": "'#1: myObj.p1 !== \"a\"'"
+                  "value": "#1: myObj.p1 !== \"a\""
                 }
               ]
             }
@@ -268,8 +263,7 @@
                     "type": "Literal",
                     "start": 776,
                     "end": 827,
-                    "value": "#2: myObj.p1 === undefined. Actual:  myObj.p1 ===",
-                    "raw": "'#2: myObj.p1 === undefined. Actual:  myObj.p1 ==='"
+                    "value": "#2: myObj.p1 === undefined. Actual:  myObj.p1 ==="
                   },
                   "operator": "+",
                   "right": {
@@ -363,8 +357,7 @@
                     "type": "Literal",
                     "start": 1065,
                     "end": 1113,
-                    "value": "#3: myObj.del === true. Actual:  myObj.del ===",
-                    "raw": "'#3: myObj.del === true. Actual:  myObj.del ==='"
+                    "value": "#3: myObj.del === true. Actual:  myObj.del ==="
                   },
                   "operator": "+",
                   "right": {
@@ -426,8 +419,7 @@
           "type": "Literal",
           "start": 1319,
           "end": 1320,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -454,8 +446,7 @@
                   "type": "Literal",
                   "start": 1348,
                   "end": 1368,
-                  "value": "#4: myObj.p1 !== 1",
-                  "raw": "'#4: myObj.p1 !== 1'"
+                  "value": "#4: myObj.p1 !== 1"
                 }
               ]
             }

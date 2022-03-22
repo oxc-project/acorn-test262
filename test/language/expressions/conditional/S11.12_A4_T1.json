@@ -75,8 +75,7 @@
                   "type": "Literal",
                   "start": 335,
                   "end": 372,
-                  "value": "#1: (true ? false : true) === false",
-                  "raw": "'#1: (true ? false : true) === false'"
+                  "value": "#1: (true ? false : true) === false"
                 }
               ]
             }
@@ -194,8 +193,7 @@
                   "type": "Literal",
                   "start": 472,
                   "end": 530,
-                  "value": "#2: (var y = new Boolean(true); (true ? y : false) === y",
-                  "raw": "'#2: (var y = new Boolean(true); (true ? y : false) === y'"
+                  "value": "#2: (var y = new Boolean(true); (true ? y : false) === y"
                 }
               ]
             }
@@ -312,8 +310,7 @@
                   "type": "Literal",
                   "start": 627,
                   "end": 682,
-                  "value": "#3: (var y = new Boolean(false); (y ? y : true) === y",
-                  "raw": "'#3: (var y = new Boolean(false); (y ? y : true) === y'"
+                  "value": "#3: (var y = new Boolean(false); (y ? y : true) === y"
                 }
               ]
             }

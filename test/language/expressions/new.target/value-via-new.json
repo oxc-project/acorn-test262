@@ -146,8 +146,7 @@
             "type": "Literal",
             "start": 809,
             "end": 836,
-            "value": "Invoked without Arguments",
-            "raw": "'Invoked without Arguments'"
+            "value": "Invoked without Arguments"
           }
         ],
         "optional": false
@@ -238,8 +237,7 @@
             "type": "Literal",
             "start": 900,
             "end": 924,
-            "value": "Invoked with Arguments",
-            "raw": "'Invoked with Arguments'"
+            "value": "Invoked with Arguments"
           }
         ],
         "optional": false

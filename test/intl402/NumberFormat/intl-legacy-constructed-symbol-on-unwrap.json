@@ -542,8 +542,7 @@
                   "type": "Literal",
                   "start": 912,
                   "end": 920,
-                  "value": "symbol",
-                  "raw": "\"symbol\""
+                  "value": "symbol"
                 }
               ],
               "optional": false
@@ -600,8 +599,7 @@
                   "type": "Literal",
                   "start": 966,
                   "end": 995,
-                  "value": "IntlLegacyConstructedSymbol",
-                  "raw": "\"IntlLegacyConstructedSymbol\""
+                  "value": "IntlLegacyConstructedSymbol"
                 }
               ],
               "optional": false

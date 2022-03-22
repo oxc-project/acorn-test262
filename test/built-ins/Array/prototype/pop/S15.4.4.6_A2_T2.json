@@ -221,8 +221,7 @@
                     "type": "Literal",
                     "start": 575,
                     "end": 677,
-                    "value": "#1: var obj = {}; obj.length = NaN; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.length = NaN; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: '"
+                    "value": "#1: var obj = {}; obj.length = NaN; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -276,8 +275,7 @@
           "type": "Literal",
           "start": 710,
           "end": 711,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -308,8 +306,7 @@
                     "type": "Literal",
                     "start": 740,
                     "end": 846,
-                    "value": "#2: var obj = {}; obj.length = NaN; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: ",
-                    "raw": "'#2: var obj = {}; obj.length = NaN; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: '"
+                    "value": "#2: var obj = {}; obj.length = NaN; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -488,8 +485,7 @@
                     "type": "Literal",
                     "start": 977,
                     "end": 1100,
-                    "value": "#3: var obj = {}; obj.length = Number.POSITIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: ",
-                    "raw": "'#3: var obj = {}; obj.length = Number.POSITIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: '"
+                    "value": "#3: var obj = {}; obj.length = Number.POSITIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -543,8 +539,7 @@
           "type": "Literal",
           "start": 1133,
           "end": 1149,
-          "value": 9007199254740990,
-          "raw": "9007199254740990"
+          "value": 9007199254740990
         }
       },
       "consequent": {
@@ -575,8 +570,7 @@
                     "type": "Literal",
                     "start": 1178,
                     "end": 1320,
-                    "value": "#4: var obj = {}; obj.length = Number.POSITIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 9007199254740990. Actual: ",
-                    "raw": "'#4: var obj = {}; obj.length = Number.POSITIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 9007199254740990. Actual: '"
+                    "value": "#4: var obj = {}; obj.length = Number.POSITIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 9007199254740990. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -755,8 +749,7 @@
                     "type": "Literal",
                     "start": 1451,
                     "end": 1574,
-                    "value": "#5: var obj = {}; obj.length = Number.NEGATIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: ",
-                    "raw": "'#5: var obj = {}; obj.length = Number.NEGATIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: '"
+                    "value": "#5: var obj = {}; obj.length = Number.NEGATIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -810,8 +803,7 @@
           "type": "Literal",
           "start": 1607,
           "end": 1608,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -842,8 +834,7 @@
                     "type": "Literal",
                     "start": 1637,
                     "end": 1764,
-                    "value": "#6: var obj = {}; obj.length = Number.NEGATIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: ",
-                    "raw": "'#6: var obj = {}; obj.length = Number.NEGATIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: '"
+                    "value": "#6: var obj = {}; obj.length = Number.NEGATIVE_INFINITY; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -916,8 +907,7 @@
             "type": "Literal",
             "start": 1799,
             "end": 1800,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       }
@@ -1017,8 +1007,7 @@
                     "type": "Literal",
                     "start": 1873,
                     "end": 1974,
-                    "value": "#7: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: ",
-                    "raw": "'#7: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: '"
+                    "value": "#7: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1072,8 +1061,7 @@
           "type": "Literal",
           "start": 2007,
           "end": 2008,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -1104,8 +1092,7 @@
                     "type": "Literal",
                     "start": 2037,
                     "end": 2142,
-                    "value": "#8: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: ",
-                    "raw": "'#8: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: '"
+                    "value": "#8: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1159,8 +1146,7 @@
                   "type": "Literal",
                   "start": 2175,
                   "end": 2176,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "operator": "/",
                 "right": {
@@ -1232,8 +1218,7 @@
                           "type": "Literal",
                           "start": 2249,
                           "end": 2355,
-                          "value": "#8: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop(); obj.length === +0. Actual: ",
-                          "raw": "'#8: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop(); obj.length === +0. Actual: '"
+                          "value": "#8: var obj = {}; obj.length = -0; obj.pop = Array.prototype.pop; obj.pop(); obj.length === +0. Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -1303,8 +1288,7 @@
           "type": "Literal",
           "start": 2393,
           "end": 2396,
-          "value": 0.5,
-          "raw": "0.5"
+          "value": 0.5
         }
       }
     },
@@ -1403,8 +1387,7 @@
                     "type": "Literal",
                     "start": 2469,
                     "end": 2571,
-                    "value": "#9: var obj = {}; obj.length = 0.5; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: ",
-                    "raw": "'#9: var obj = {}; obj.length = 0.5; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: '"
+                    "value": "#9: var obj = {}; obj.length = 0.5; obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1458,8 +1441,7 @@
           "type": "Literal",
           "start": 2604,
           "end": 2605,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -1490,8 +1472,7 @@
                     "type": "Literal",
                     "start": 2634,
                     "end": 2741,
-                    "value": "#10: var obj = {}; obj.length = 0.5; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: ",
-                    "raw": "'#10: var obj = {}; obj.length = 0.5; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: '"
+                    "value": "#10: var obj = {}; obj.length = 0.5; obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1569,8 +1550,7 @@
               "type": "Literal",
               "start": 2786,
               "end": 2787,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ]
         }
@@ -1671,8 +1651,7 @@
                     "type": "Literal",
                     "start": 2861,
                     "end": 2974,
-                    "value": "#11: var obj = {}; obj.length = new Number(0); obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: ",
-                    "raw": "'#11: var obj = {}; obj.length = new Number(0); obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: '"
+                    "value": "#11: var obj = {}; obj.length = new Number(0); obj.pop = Array.prototype.pop; obj.pop() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1726,8 +1705,7 @@
           "type": "Literal",
           "start": 3007,
           "end": 3008,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -1758,8 +1736,7 @@
                     "type": "Literal",
                     "start": 3037,
                     "end": 3154,
-                    "value": "#12: var obj = {}; obj.length = new Number(0); obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: ",
-                    "raw": "'#12: var obj = {}; obj.length = new Number(0); obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: '"
+                    "value": "#12: var obj = {}; obj.length = new Number(0); obj.pop = Array.prototype.pop; obj.pop(); obj.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

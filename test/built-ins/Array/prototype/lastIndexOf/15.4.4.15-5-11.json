@@ -73,8 +73,7 @@
                     "type": "Literal",
                     "start": 339,
                     "end": 340,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Identifier",
@@ -117,8 +116,7 @@
                   "type": "Literal",
                   "start": 383,
                   "end": 386,
-                  "value": 2.5,
-                  "raw": "2.5"
+                  "value": 2.5
                 }
               }
             ],
@@ -128,15 +126,13 @@
             "type": "Literal",
             "start": 389,
             "end": 390,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 392,
             "end": 443,
-            "value": "[0, targetObj, true].lastIndexOf(targetObj, -2.5)",
-            "raw": "'[0, targetObj, true].lastIndexOf(targetObj, -2.5)'"
+            "value": "[0, targetObj, true].lastIndexOf(targetObj, -2.5)"
           }
         ],
         "optional": false
@@ -187,8 +183,7 @@
                     "type": "Literal",
                     "start": 464,
                     "end": 465,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
@@ -231,8 +226,7 @@
                   "type": "Literal",
                   "start": 508,
                   "end": 511,
-                  "value": 2.5,
-                  "raw": "2.5"
+                  "value": 2.5
                 }
               }
             ],
@@ -248,16 +242,14 @@
               "type": "Literal",
               "start": 515,
               "end": 516,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 569,
-            "value": "[0, true, targetObj].lastIndexOf(targetObj, -2.5)",
-            "raw": "'[0, true, targetObj].lastIndexOf(targetObj, -2.5)'"
+            "value": "[0, true, targetObj].lastIndexOf(targetObj, -2.5)"
           }
         ],
         "optional": false

@@ -23,7 +23,6 @@
             "start": 700,
             "end": 707,
             "value": {},
-            "raw": "/(?:)/g",
             "regex": {
               "pattern": "(?:)",
               "flags": "g"

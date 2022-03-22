@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 341,
                   "end": 351,
-                  "value": "property",
-                  "raw": "\"property\""
+                  "value": "property"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 353,
                   "end": 370,
-                  "value": "ownDataProperty",
-                  "raw": "\"ownDataProperty\""
+                  "value": "ownDataProperty"
                 },
                 "kind": "init"
               }
@@ -101,8 +99,7 @@
                 "type": "Literal",
                 "start": 423,
                 "end": 433,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -169,8 +166,7 @@
             "type": "Literal",
             "start": 475,
             "end": 490,
-            "value": "desc.writable",
-            "raw": "'desc.writable'"
+            "value": "desc.writable"
           }
         ],
         "optional": false

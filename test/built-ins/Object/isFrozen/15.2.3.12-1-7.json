@@ -58,15 +58,13 @@
                       "type": "Literal",
                       "start": 303,
                       "end": 304,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "value": {
                       "type": "Literal",
                       "start": 306,
                       "end": 307,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "kind": "init"
                   },
@@ -81,15 +79,13 @@
                       "type": "Literal",
                       "start": 311,
                       "end": 312,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "value": {
                       "type": "Literal",
                       "start": 314,
                       "end": 315,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   },
@@ -104,15 +100,13 @@
                       "type": "Literal",
                       "start": 319,
                       "end": 323,
-                      "value": 1000,
-                      "raw": "1000"
+                      "value": 1000
                     },
                     "value": {
                       "type": "Literal",
                       "start": 325,
                       "end": 329,
-                      "value": 1000,
-                      "raw": "1000"
+                      "value": 1000
                     },
                     "kind": "init"
                   }
@@ -177,8 +171,7 @@
             "type": "Literal",
             "start": 364,
             "end": 395,
-            "value": "Object.isFrozen(obj) !== true",
-            "raw": "'Object.isFrozen(obj) !== true'"
+            "value": "Object.isFrozen(obj) !== true"
           }
         ],
         "optional": false

@@ -57,8 +57,7 @@
                   "type": "Literal",
                   "start": 457,
                   "end": 458,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             ]
@@ -328,8 +327,7 @@
                                                 "type": "Literal",
                                                 "start": 715,
                                                 "end": 717,
-                                                "value": 10,
-                                                "raw": "10"
+                                                "value": 10
                                               }
                                             ],
                                             "optional": false
@@ -342,8 +340,7 @@
                                     "type": "Literal",
                                     "start": 727,
                                     "end": 784,
-                                    "value": "`Atomics.sub(view, IdxGen(view), 10)` throws RangeError",
-                                    "raw": "'`Atomics.sub(view, IdxGen(view), 10)` throws RangeError'"
+                                    "value": "`Atomics.sub(view, IdxGen(view), 10)` throws RangeError"
                                   }
                                 ],
                                 "optional": false

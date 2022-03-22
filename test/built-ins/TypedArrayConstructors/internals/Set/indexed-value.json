@@ -107,8 +107,7 @@
                               "type": "Literal",
                               "start": 1562,
                               "end": 1587,
-                              "value": "OrdinarySet was called!",
-                              "raw": "'OrdinarySet was called!'"
+                              "value": "OrdinarySet was called!"
                             }
                           ]
                         }
@@ -162,8 +161,7 @@
             "type": "Literal",
             "start": 1627,
             "end": 1630,
-            "value": "0",
-            "raw": "'0'"
+            "value": "0"
           },
           {
             "type": "Identifier",
@@ -213,8 +211,7 @@
             "type": "Literal",
             "start": 1673,
             "end": 1676,
-            "value": "1",
-            "raw": "'1'"
+            "value": "1"
           },
           {
             "type": "Identifier",
@@ -292,8 +289,7 @@
                             "type": "Literal",
                             "start": 1759,
                             "end": 1760,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -363,15 +359,13 @@
                             "type": "Literal",
                             "start": 1802,
                             "end": 1805,
-                            "value": "0",
-                            "raw": "'0'"
+                            "value": "0"
                           },
                           {
                             "type": "Literal",
                             "start": 1807,
                             "end": 1808,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -387,8 +381,7 @@
                         "type": "Literal",
                         "start": 1817,
                         "end": 1863,
-                        "value": "Reflect.set(sample, \"0\", 1) must return true",
-                        "raw": "'Reflect.set(sample, \"0\", 1) must return true'"
+                        "value": "Reflect.set(sample, \"0\", 1) must return true"
                       }
                     ],
                     "optional": false
@@ -436,8 +429,7 @@
                           "type": "Literal",
                           "start": 1892,
                           "end": 1893,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -446,15 +438,13 @@
                         "type": "Literal",
                         "start": 1896,
                         "end": 1897,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1899,
                         "end": 1928,
-                        "value": "The value of sample[0] is 1",
-                        "raw": "'The value of sample[0] is 1'"
+                        "value": "The value of sample[0] is 1"
                       }
                     ],
                     "optional": false
@@ -522,15 +512,13 @@
                             "type": "Literal",
                             "start": 1970,
                             "end": 1973,
-                            "value": "1",
-                            "raw": "'1'"
+                            "value": "1"
                           },
                           {
                             "type": "Literal",
                             "start": 1975,
                             "end": 1977,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ],
                         "optional": false
@@ -546,8 +534,7 @@
                         "type": "Literal",
                         "start": 1986,
                         "end": 2033,
-                        "value": "Reflect.set(sample, \"1\", 42) must return true",
-                        "raw": "'Reflect.set(sample, \"1\", 42) must return true'"
+                        "value": "Reflect.set(sample, \"1\", 42) must return true"
                       }
                     ],
                     "optional": false
@@ -595,8 +582,7 @@
                           "type": "Literal",
                           "start": 2062,
                           "end": 2063,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         "computed": true,
                         "optional": false
@@ -605,15 +591,13 @@
                         "type": "Literal",
                         "start": 2066,
                         "end": 2068,
-                        "value": 42,
-                        "raw": "42"
+                        "value": 42
                       },
                       {
                         "type": "Literal",
                         "start": 2070,
                         "end": 2100,
-                        "value": "The value of sample[1] is 42",
-                        "raw": "'The value of sample[1] is 42'"
+                        "value": "The value of sample[1] is 42"
                       }
                     ],
                     "optional": false

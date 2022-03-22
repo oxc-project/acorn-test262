@@ -25,8 +25,7 @@
               "type": "Literal",
               "start": 405,
               "end": 408,
-              "value": " ",
-              "raw": "\" \""
+              "value": " "
             }
           }
         },
@@ -67,8 +66,7 @@
                     "type": "Literal",
                     "start": 448,
                     "end": 480,
-                    "value": "#1: !(\" \") === false. Actual: ",
-                    "raw": "'#1: !(\" \") === false. Actual: '"
+                    "value": "#1: !(\" \") === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -89,8 +87,7 @@
                           "type": "Literal",
                           "start": 486,
                           "end": 489,
-                          "value": " ",
-                          "raw": "\" \""
+                          "value": " "
                         }
                       }
                     }
@@ -125,8 +122,7 @@
               "type": "Literal",
               "start": 515,
               "end": 532,
-              "value": "Nonempty String",
-              "raw": "\"Nonempty String\""
+              "value": "Nonempty String"
             }
           }
         },
@@ -167,8 +163,7 @@
                     "type": "Literal",
                     "start": 572,
                     "end": 618,
-                    "value": "#2: !(\"Nonempty String\") === false. Actual: ",
-                    "raw": "'#2: !(\"Nonempty String\") === false. Actual: '"
+                    "value": "#2: !(\"Nonempty String\") === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -189,8 +184,7 @@
                           "type": "Literal",
                           "start": 624,
                           "end": 641,
-                          "value": "Nonempty String",
-                          "raw": "\"Nonempty String\""
+                          "value": "Nonempty String"
                         }
                       }
                     }

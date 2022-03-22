@@ -49,8 +49,7 @@
                       "type": "Literal",
                       "start": 3778,
                       "end": 3798,
-                      "value": "./empty_FIXTURE.js",
-                      "raw": "'./empty_FIXTURE.js'"
+                      "value": "./empty_FIXTURE.js"
                     }
                   }
                 }
@@ -116,8 +115,7 @@
                   "type": "Literal",
                   "start": 3853,
                   "end": 3863,
-                  "value": "function",
-                  "raw": "'function'"
+                  "value": "function"
                 }
               ],
               "optional": false

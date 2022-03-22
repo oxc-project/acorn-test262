@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 583,
                 "end": 593,
-                "value": "grapheme",
-                "raw": "\"grapheme\""
+                "value": "grapheme"
               },
               {
                 "type": "Literal",
                 "start": 595,
                 "end": 601,
-                "value": "word",
-                "raw": "\"word\""
+                "value": "word"
               },
               {
                 "type": "Literal",
                 "start": 603,
                 "end": 613,
-                "value": "sentence",
-                "raw": "\"sentence\""
+                "value": "sentence"
               }
             ]
           }
@@ -118,8 +115,7 @@
                 "type": "Literal",
                 "start": 670,
                 "end": 680,
-                "value": "grapheme",
-                "raw": "\"grapheme\""
+                "value": "grapheme"
               },
               {
                 "type": "Identifier",

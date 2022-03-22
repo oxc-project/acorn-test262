@@ -68,8 +68,7 @@
                         "type": "Literal",
                         "start": 581,
                         "end": 584,
-                        "value": 123,
-                        "raw": "123"
+                        "value": 123
                       }
                     }
                   ],
@@ -106,8 +105,7 @@
                     "type": "Literal",
                     "start": 609,
                     "end": 610,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   "cases": [
                     {
@@ -187,8 +185,7 @@
             "type": "Literal",
             "start": 689,
             "end": 692,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           }
         ],
         "optional": false

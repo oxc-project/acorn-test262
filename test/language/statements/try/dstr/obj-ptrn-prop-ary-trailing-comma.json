@@ -69,8 +69,7 @@
                         "type": "Literal",
                         "start": 800,
                         "end": 802,
-                        "value": 45,
-                        "raw": "45"
+                        "value": 45
                       }
                     ]
                   },
@@ -163,8 +162,7 @@
                     "type": "Literal",
                     "start": 852,
                     "end": 854,
-                    "value": 45,
-                    "raw": "45"
+                    "value": 45
                   }
                 ],
                 "optional": false
@@ -224,8 +222,7 @@
             "type": "Literal",
             "start": 896,
             "end": 920,
-            "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "value": "executed `catch` block"
           }
         ],
         "optional": false

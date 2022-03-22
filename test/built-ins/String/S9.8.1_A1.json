@@ -36,8 +36,7 @@
           "type": "Literal",
           "start": 298,
           "end": 303,
-          "value": "NaN",
-          "raw": "\"NaN\""
+          "value": "NaN"
         }
       },
       "consequent": {
@@ -68,8 +67,7 @@
                     "type": "Literal",
                     "start": 332,
                     "end": 375,
-                    "value": "#1: String(NaN) === Not-a-Number Actual: ",
-                    "raw": "'#1: String(NaN) === Not-a-Number Actual: '"
+                    "value": "#1: String(NaN) === Not-a-Number Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -151,8 +149,7 @@
           "type": "Literal",
           "start": 435,
           "end": 440,
-          "value": "NaN",
-          "raw": "\"NaN\""
+          "value": "NaN"
         }
       },
       "consequent": {
@@ -183,8 +180,7 @@
                     "type": "Literal",
                     "start": 469,
                     "end": 519,
-                    "value": "#2: String(Number.NaN) === Not-a-Number Actual: ",
-                    "raw": "'#2: String(Number.NaN) === Not-a-Number Actual: '"
+                    "value": "#2: String(Number.NaN) === Not-a-Number Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -267,8 +263,7 @@
                   "type": "Literal",
                   "start": 577,
                   "end": 584,
-                  "value": "asasa",
-                  "raw": "\"asasa\""
+                  "value": "asasa"
                 }
               ],
               "optional": false
@@ -281,8 +276,7 @@
           "type": "Literal",
           "start": 591,
           "end": 596,
-          "value": "NaN",
-          "raw": "\"NaN\""
+          "value": "NaN"
         }
       },
       "consequent": {
@@ -313,8 +307,7 @@
                     "type": "Literal",
                     "start": 625,
                     "end": 680,
-                    "value": "#3: String(Number(\"asasa\")) === Not-a-Number Actual: ",
-                    "raw": "'#3: String(Number(\"asasa\")) === Not-a-Number Actual: '"
+                    "value": "#3: String(Number(\"asasa\")) === Not-a-Number Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -347,8 +340,7 @@
                               "type": "Literal",
                               "start": 698,
                               "end": 705,
-                              "value": "asasa",
-                              "raw": "\"asasa\""
+                              "value": "asasa"
                             }
                           ],
                           "optional": false

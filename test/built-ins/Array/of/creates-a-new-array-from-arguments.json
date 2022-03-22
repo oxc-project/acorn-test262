@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 709,
                 "end": 715,
-                "value": "Mike",
-                "raw": "'Mike'"
+                "value": "Mike"
               },
               {
                 "type": "Literal",
                 "start": 717,
                 "end": 723,
-                "value": "Rick",
-                "raw": "'Rick'"
+                "value": "Rick"
               },
               {
                 "type": "Literal",
                 "start": 725,
                 "end": 730,
-                "value": "Leo",
-                "raw": "'Leo'"
+                "value": "Leo"
               }
             ],
             "optional": false
@@ -121,15 +118,13 @@
             "type": "Literal",
             "start": 764,
             "end": 765,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 813,
-            "value": "The value of a1.length is expected to be 3",
-            "raw": "'The value of a1.length is expected to be 3'"
+            "value": "The value of a1.length is expected to be 3"
           }
         ],
         "optional": false
@@ -177,8 +172,7 @@
               "type": "Literal",
               "start": 837,
               "end": 838,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -187,15 +181,13 @@
             "type": "Literal",
             "start": 841,
             "end": 847,
-            "value": "Mike",
-            "raw": "'Mike'"
+            "value": "Mike"
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 894,
-            "value": "The value of a1[0] is expected to be \"Mike\"",
-            "raw": "'The value of a1[0] is expected to be \"Mike\"'"
+            "value": "The value of a1[0] is expected to be \"Mike\""
           }
         ],
         "optional": false
@@ -243,8 +235,7 @@
               "type": "Literal",
               "start": 917,
               "end": 918,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -253,15 +244,13 @@
             "type": "Literal",
             "start": 921,
             "end": 927,
-            "value": "Rick",
-            "raw": "'Rick'"
+            "value": "Rick"
           },
           {
             "type": "Literal",
             "start": 929,
             "end": 974,
-            "value": "The value of a1[1] is expected to be \"Rick\"",
-            "raw": "'The value of a1[1] is expected to be \"Rick\"'"
+            "value": "The value of a1[1] is expected to be \"Rick\""
           }
         ],
         "optional": false
@@ -309,8 +298,7 @@
               "type": "Literal",
               "start": 997,
               "end": 998,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -319,15 +307,13 @@
             "type": "Literal",
             "start": 1001,
             "end": 1006,
-            "value": "Leo",
-            "raw": "'Leo'"
+            "value": "Leo"
           },
           {
             "type": "Literal",
             "start": 1008,
             "end": 1052,
-            "value": "The value of a1[2] is expected to be \"Leo\"",
-            "raw": "'The value of a1[2] is expected to be \"Leo\"'"
+            "value": "The value of a1[2] is expected to be \"Leo\""
           }
         ],
         "optional": false
@@ -456,15 +442,13 @@
             "type": "Literal",
             "start": 1141,
             "end": 1142,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1190,
-            "value": "The value of a2.length is expected to be 4",
-            "raw": "'The value of a2.length is expected to be 4'"
+            "value": "The value of a2.length is expected to be 4"
           }
         ],
         "optional": false
@@ -512,8 +496,7 @@
               "type": "Literal",
               "start": 1214,
               "end": 1215,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -528,8 +511,7 @@
             "type": "Literal",
             "start": 1229,
             "end": 1280,
-            "value": "The value of a2[0] is expected to equal undefined",
-            "raw": "'The value of a2[0] is expected to equal undefined'"
+            "value": "The value of a2[0] is expected to equal undefined"
           }
         ],
         "optional": false
@@ -577,8 +559,7 @@
               "type": "Literal",
               "start": 1303,
               "end": 1304,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -594,8 +575,7 @@
             "type": "Literal",
             "start": 1314,
             "end": 1358,
-            "value": "The value of a2[1] is expected to be false",
-            "raw": "'The value of a2[1] is expected to be false'"
+            "value": "The value of a2[1] is expected to be false"
           }
         ],
         "optional": false
@@ -643,8 +623,7 @@
               "type": "Literal",
               "start": 1381,
               "end": 1382,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -660,8 +639,7 @@
             "type": "Literal",
             "start": 1391,
             "end": 1434,
-            "value": "The value of a2[2] is expected to be null",
-            "raw": "'The value of a2[2] is expected to be null'"
+            "value": "The value of a2[2] is expected to be null"
           }
         ],
         "optional": false
@@ -709,8 +687,7 @@
               "type": "Literal",
               "start": 1457,
               "end": 1458,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -725,8 +702,7 @@
             "type": "Literal",
             "start": 1472,
             "end": 1523,
-            "value": "The value of a2[3] is expected to equal undefined",
-            "raw": "'The value of a2[3] is expected to equal undefined'"
+            "value": "The value of a2[3] is expected to equal undefined"
           }
         ],
         "optional": false
@@ -828,15 +804,13 @@
             "type": "Literal",
             "start": 1576,
             "end": 1577,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1579,
             "end": 1623,
-            "value": "The value of a3.length is expected to be 0",
-            "raw": "'The value of a3.length is expected to be 0'"
+            "value": "The value of a3.length is expected to be 0"
           }
         ],
         "optional": false

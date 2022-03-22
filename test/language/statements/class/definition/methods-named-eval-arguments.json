@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 229,
                       "end": 230,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -97,8 +96,7 @@
                       "type": "Literal",
                       "start": 263,
                       "end": 264,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     }
                   }
                 ]
@@ -140,8 +138,7 @@
                       "type": "Literal",
                       "start": 299,
                       "end": 300,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     }
                   }
                 ]
@@ -183,8 +180,7 @@
                       "type": "Literal",
                       "start": 340,
                       "end": 341,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -263,15 +259,13 @@
             "type": "Literal",
             "start": 384,
             "end": 385,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 387,
             "end": 417,
-            "value": "`new C().eval()` returns `1`",
-            "raw": "\"`new C().eval()` returns `1`\""
+            "value": "`new C().eval()` returns `1`"
           }
         ],
         "optional": false
@@ -341,15 +335,13 @@
             "type": "Literal",
             "start": 458,
             "end": 459,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 496,
-            "value": "`new C().arguments()` returns `2`",
-            "raw": "\"`new C().arguments()` returns `2`\""
+            "value": "`new C().arguments()` returns `2`"
           }
         ],
         "optional": false
@@ -413,15 +405,13 @@
             "type": "Literal",
             "start": 526,
             "end": 527,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 553,
-            "value": "`C.eval()` returns `3`",
-            "raw": "\"`C.eval()` returns `3`\""
+            "value": "`C.eval()` returns `3`"
           }
         ],
         "optional": false
@@ -485,15 +475,13 @@
             "type": "Literal",
             "start": 588,
             "end": 589,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 620,
-            "value": "`C.arguments()` returns `4`",
-            "raw": "\"`C.arguments()` returns `4`\""
+            "value": "`C.arguments()` returns `4`"
           }
         ],
         "optional": false

@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 390,
                 "end": 394,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 397,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -99,8 +97,7 @@
                   "type": "Literal",
                   "start": 421,
                   "end": 425,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 "kind": "init"
               },
@@ -121,8 +118,7 @@
                   "type": "Literal",
                   "start": 434,
                   "end": 435,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "kind": "init"
               }
@@ -222,15 +218,13 @@
                             "type": "Literal",
                             "start": 484,
                             "end": 490,
-                            "value": "year",
-                            "raw": "\"year\""
+                            "value": "year"
                           },
                           {
                             "type": "Literal",
                             "start": 492,
                             "end": 499,
-                            "value": "month",
-                            "raw": "\"month\""
+                            "value": "month"
                           }
                         ]
                       },
@@ -970,8 +964,7 @@
                                     "type": "Literal",
                                     "start": 1084,
                                     "end": 1129,
-                                    "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "value": "it fails after fetching the primitive value"
                                   }
                                 ],
                                 "optional": false
@@ -1314,8 +1307,7 @@
                                     "type": "Literal",
                                     "start": 1414,
                                     "end": 1459,
-                                    "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "value": "it fails after fetching the primitive value"
                                   }
                                 ],
                                 "optional": false

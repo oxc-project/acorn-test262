@@ -123,15 +123,13 @@
             "type": "Literal",
             "start": 346,
             "end": 366,
-            "value": "[object Arguments]",
-            "raw": "\"[object Arguments]\""
+            "value": "[object Arguments]"
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 465,
-            "value": "Object.prototype.toString.call(function() { return arguments; }()) returns [object Arguments]",
-            "raw": "\"Object.prototype.toString.call(function() { return arguments; }()) returns [object Arguments]\""
+            "value": "Object.prototype.toString.call(function() { return arguments; }()) returns [object Arguments]"
           }
         ],
         "optional": false

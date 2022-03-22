@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 466,
           "end": 472,
-          "value": "data",
-          "raw": "\"data\""
+          "value": "data"
         }
       }
     },
@@ -103,8 +102,7 @@
             "type": "Literal",
             "start": 501,
             "end": 504,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -302,8 +300,7 @@
           "type": "Literal",
           "start": 683,
           "end": 690,
-          "value": "data1",
-          "raw": "\"data1\""
+          "value": "data1"
         }
       }
     },
@@ -484,8 +481,7 @@
             "type": "Literal",
             "start": 852,
             "end": 855,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -565,8 +561,7 @@
             "type": "Literal",
             "start": 914,
             "end": 917,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "CallExpression",
@@ -610,15 +605,13 @@
             "type": "Literal",
             "start": 952,
             "end": 955,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "Literal",
             "start": 957,
             "end": 977,
-            "value": "verifySetFunction1",
-            "raw": "\"verifySetFunction1\""
+            "value": "verifySetFunction1"
           }
         ],
         "optional": false
@@ -649,8 +642,7 @@
             "type": "Literal",
             "start": 1006,
             "end": 1009,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         ],
         "optional": false
@@ -681,8 +673,7 @@
             "type": "Literal",
             "start": 1037,
             "end": 1040,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         ],
         "optional": false

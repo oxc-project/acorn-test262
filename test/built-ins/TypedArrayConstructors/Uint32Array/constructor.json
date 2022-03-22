@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 293,
             "end": 303,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 305,
             "end": 339,
-            "value": "typeof Uint32Array is \"function\"",
-            "raw": "'typeof Uint32Array is \"function\"'"
+            "value": "typeof Uint32Array is \"function\""
           }
         ],
         "optional": false

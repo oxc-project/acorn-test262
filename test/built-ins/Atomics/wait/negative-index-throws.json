@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 602,
                       "end": 603,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -146,8 +145,7 @@
                               "type": "Literal",
                               "start": 679,
                               "end": 710,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -281,8 +279,7 @@
             "type": "Literal",
             "start": 816,
             "end": 887,
-            "value": "`Atomics.wait(i32a, -Infinity, poisoned, poisoned)` throws RangeError",
-            "raw": "'`Atomics.wait(i32a, -Infinity, poisoned, poisoned)` throws RangeError'"
+            "value": "`Atomics.wait(i32a, -Infinity, poisoned, poisoned)` throws RangeError"
           }
         ],
         "optional": false
@@ -380,8 +377,7 @@
                           "type": "Literal",
                           "start": 951,
                           "end": 956,
-                          "value": 7.999,
-                          "raw": "7.999"
+                          "value": 7.999
                         }
                       },
                       {
@@ -407,8 +403,7 @@
             "type": "Literal",
             "start": 982,
             "end": 1050,
-            "value": "`Atomics.wait(i32a, -7.999, poisoned, poisoned)` throws RangeError",
-            "raw": "'`Atomics.wait(i32a, -7.999, poisoned, poisoned)` throws RangeError'"
+            "value": "`Atomics.wait(i32a, -7.999, poisoned, poisoned)` throws RangeError"
           }
         ],
         "optional": false
@@ -506,8 +501,7 @@
                           "type": "Literal",
                           "start": 1114,
                           "end": 1115,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       {
@@ -533,8 +527,7 @@
             "type": "Literal",
             "start": 1141,
             "end": 1205,
-            "value": "`Atomics.wait(i32a, -1, poisoned, poisoned)` throws RangeError",
-            "raw": "'`Atomics.wait(i32a, -1, poisoned, poisoned)` throws RangeError'"
+            "value": "`Atomics.wait(i32a, -1, poisoned, poisoned)` throws RangeError"
           }
         ],
         "optional": false
@@ -632,8 +625,7 @@
                           "type": "Literal",
                           "start": 1269,
                           "end": 1272,
-                          "value": 300,
-                          "raw": "300"
+                          "value": 300
                         }
                       },
                       {
@@ -659,8 +651,7 @@
             "type": "Literal",
             "start": 1298,
             "end": 1364,
-            "value": "`Atomics.wait(i32a, -300, poisoned, poisoned)` throws RangeError",
-            "raw": "'`Atomics.wait(i32a, -300, poisoned, poisoned)` throws RangeError'"
+            "value": "`Atomics.wait(i32a, -300, poisoned, poisoned)` throws RangeError"
           }
         ],
         "optional": false

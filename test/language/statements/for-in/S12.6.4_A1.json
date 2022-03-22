@@ -102,8 +102,7 @@
                     "type": "Literal",
                     "start": 470,
                     "end": 537,
-                    "value": "#1: \"for(key in undefined){}\" does not lead to throwing exception",
-                    "raw": "'#1: \"for(key in undefined){}\" does not lead to throwing exception'"
+                    "value": "#1: \"for(key in undefined){}\" does not lead to throwing exception"
                   }
                 ]
               }
@@ -163,8 +162,7 @@
                     "type": "Literal",
                     "start": 762,
                     "end": 803,
-                    "value": "#2: key === undefined. Actual: key === ",
-                    "raw": "'#2: key === undefined. Actual: key === '"
+                    "value": "#2: key === undefined. Actual: key === "
                   },
                   "operator": "+",
                   "right": {

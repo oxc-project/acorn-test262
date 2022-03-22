@@ -73,8 +73,7 @@
             "type": "Literal",
             "start": 779,
             "end": 782,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -98,8 +97,7 @@
                   "type": "Literal",
                   "start": 795,
                   "end": 798,
-                  "value": "x",
-                  "raw": "'x'"
+                  "value": "x"
                 },
                 "kind": "init"
               },

@@ -23,7 +23,6 @@
             "start": 809,
             "end": 818,
             "value": {},
-            "raw": "/initial/",
             "regex": {
               "pattern": "initial",
               "flags": ""
@@ -71,8 +70,7 @@
             "type": "Literal",
             "start": 851,
             "end": 862,
-            "value": "lastIndex",
-            "raw": "'lastIndex'"
+            "value": "lastIndex"
           },
           {
             "type": "ObjectExpression",
@@ -96,8 +94,7 @@
                   "type": "Literal",
                   "start": 873,
                   "end": 875,
-                  "value": 45,
-                  "raw": "45"
+                  "value": 45
                 },
                 "kind": "init"
               },
@@ -210,7 +207,6 @@
                         "start": 954,
                         "end": 965,
                         "value": {},
-                        "raw": "/updated/gi",
                         "regex": {
                           "pattern": "updated",
                           "flags": "gi"
@@ -304,15 +300,13 @@
                     "type": "Literal",
                     "start": 1026,
                     "end": 1035,
-                    "value": "updated",
-                    "raw": "'updated'"
+                    "value": "updated"
                   },
                   {
                     "type": "Literal",
                     "start": 1037,
                     "end": 1041,
-                    "value": "gi",
-                    "raw": "'gi'"
+                    "value": "gi"
                   }
                 ]
               },
@@ -332,8 +326,7 @@
             "type": "Literal",
             "start": 1057,
             "end": 1091,
-            "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "value": "[[OriginalSource]] internal slot"
           }
         ],
         "optional": false
@@ -390,8 +383,7 @@
             "type": "Literal",
             "start": 1131,
             "end": 1133,
-            "value": 45,
-            "raw": "45"
+            "value": 45
           }
         ],
         "optional": false

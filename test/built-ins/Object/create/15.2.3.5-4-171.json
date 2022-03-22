@@ -66,8 +66,7 @@
           "type": "Literal",
           "start": 386,
           "end": 397,
-          "value": "DateValue",
-          "raw": "\"DateValue\""
+          "value": "DateValue"
         }
       }
     },
@@ -202,15 +201,13 @@
             "type": "Literal",
             "start": 484,
             "end": 495,
-            "value": "DateValue",
-            "raw": "\"DateValue\""
+            "value": "DateValue"
           },
           {
             "type": "Literal",
             "start": 497,
             "end": 510,
-            "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "value": "newObj.prop"
           }
         ],
         "optional": false

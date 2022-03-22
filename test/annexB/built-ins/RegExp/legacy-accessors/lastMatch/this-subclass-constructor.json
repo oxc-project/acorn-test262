@@ -105,8 +105,7 @@
             "type": "Literal",
             "start": 709,
             "end": 763,
-            "value": "RegExp.lastMatch getter throws for subclass receiver",
-            "raw": "\"RegExp.lastMatch getter throws for subclass receiver\""
+            "value": "RegExp.lastMatch getter throws for subclass receiver"
           }
         ],
         "optional": false
@@ -178,8 +177,7 @@
                       "type": "Literal",
                       "start": 825,
                       "end": 829,
-                      "value": "$&",
-                      "raw": "\"$&\""
+                      "value": "$&"
                     },
                     "computed": true,
                     "optional": false
@@ -192,8 +190,7 @@
             "type": "Literal",
             "start": 839,
             "end": 886,
-            "value": "RegExp.$& getter throws for subclass receiver",
-            "raw": "\"RegExp.$& getter throws for subclass receiver\""
+            "value": "RegExp.$& getter throws for subclass receiver"
           }
         ],
         "optional": false

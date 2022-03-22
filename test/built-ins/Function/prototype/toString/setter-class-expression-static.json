@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 335,
             "end": 338,
-            "value": "h",
-            "raw": "\"h\""
+            "value": "h"
           }
         }
       ],
@@ -127,8 +126,7 @@
                   "type": "Literal",
                   "start": 485,
                   "end": 488,
-                  "value": "f",
-                  "raw": "\"f\""
+                  "value": "f"
                 }
               ],
               "optional": false
@@ -210,8 +208,7 @@
                           "type": "Literal",
                           "start": 584,
                           "end": 587,
-                          "value": "g",
-                          "raw": "\"g\""
+                          "value": "g"
                         },
                         "kind": "set",
                         "value": {
@@ -245,8 +242,7 @@
                   "type": "Literal",
                   "start": 662,
                   "end": 665,
-                  "value": "g",
-                  "raw": "\"g\""
+                  "value": "g"
                 }
               ],
               "optional": false
@@ -362,8 +358,7 @@
                   "type": "Literal",
                   "start": 837,
                   "end": 840,
-                  "value": "h",
-                  "raw": "\"h\""
+                  "value": "h"
                 }
               ],
               "optional": false
@@ -406,8 +401,7 @@
             "type": "Literal",
             "start": 882,
             "end": 947,
-            "value": "set /* a */ f /* b */ ( /* c */ a /* d */ ) /* e */ { /* f */ }",
-            "raw": "\"set /* a */ f /* b */ ( /* c */ a /* d */ ) /* e */ { /* f */ }\""
+            "value": "set /* a */ f /* b */ ( /* c */ a /* d */ ) /* e */ { /* f */ }"
           }
         ],
         "optional": false
@@ -438,8 +432,7 @@
             "type": "Literal",
             "start": 984,
             "end": 1073,
-            "value": "set /* a */ [ /* b */ \"g\" /* c */ ] /* d */ ( /* e */ a /* f */ ) /* g */ { /* h */ }",
-            "raw": "\"set /* a */ [ /* b */ \\\"g\\\" /* c */ ] /* d */ ( /* e */ a /* f */ ) /* g */ { /* h */ }\""
+            "value": "set /* a */ [ /* b */ \"g\" /* c */ ] /* d */ ( /* e */ a /* f */ ) /* g */ { /* h */ }"
           }
         ],
         "optional": false
@@ -470,8 +463,7 @@
             "type": "Literal",
             "start": 1110,
             "end": 1195,
-            "value": "set /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ a /* f */ ) /* g */ { /* h */ }",
-            "raw": "\"set /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ a /* f */ ) /* g */ { /* h */ }\""
+            "value": "set /* a */ [ /* b */ x /* c */ ] /* d */ ( /* e */ a /* f */ ) /* g */ { /* h */ }"
           }
         ],
         "optional": false

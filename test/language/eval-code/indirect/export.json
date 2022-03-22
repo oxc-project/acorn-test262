@@ -72,8 +72,7 @@
                             "type": "Literal",
                             "start": 711,
                             "end": 712,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Identifier",
@@ -89,8 +88,7 @@
                         "type": "Literal",
                         "start": 719,
                         "end": 741,
-                        "value": "export default null;",
-                        "raw": "'export default null;'"
+                        "value": "export default null;"
                       }
                     ],
                     "optional": false

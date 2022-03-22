@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 362,
             "end": 372,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 376,
             "end": 406,
-            "value": "typeof WeakMap is \"function\"",
-            "raw": "'typeof WeakMap is \"function\"'"
+            "value": "typeof WeakMap is \"function\""
           }
         ],
         "optional": false

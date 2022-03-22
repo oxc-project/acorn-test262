@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 813,
             "end": 879,
-            "value": "isConstructor(TypedArray.prototype.copyWithin) must return false",
-            "raw": "'isConstructor(TypedArray.prototype.copyWithin) must return false'"
+            "value": "isConstructor(TypedArray.prototype.copyWithin) must return false"
           }
         ],
         "optional": false
@@ -173,8 +172,7 @@
                             "type": "Literal",
                             "start": 943,
                             "end": 944,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -219,8 +217,7 @@
             "type": "Literal",
             "start": 971,
             "end": 1039,
-            "value": "`let u8 = new Uint8Array(1); new u8.copyWithin()` throws TypeError",
-            "raw": "'`let u8 = new Uint8Array(1); new u8.copyWithin()` throws TypeError'"
+            "value": "`let u8 = new Uint8Array(1); new u8.copyWithin()` throws TypeError"
           }
         ],
         "optional": false

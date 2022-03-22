@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 1648,
             "end": 1649,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -326,8 +325,7 @@
                         "type": "Literal",
                         "start": 1806,
                         "end": 1812,
-                        "value": "xCls",
-                        "raw": "'xCls'"
+                        "value": "xCls"
                       }
                     ],
                     "optional": false
@@ -384,8 +382,7 @@
                         "type": "Literal",
                         "start": 1851,
                         "end": 1858,
-                        "value": "xCls2",
-                        "raw": "'xCls2'"
+                        "value": "xCls2"
                       }
                     ],
                     "optional": false
@@ -416,8 +413,7 @@
                         "type": "Literal",
                         "start": 1886,
                         "end": 1892,
-                        "value": "name",
-                        "raw": "'name'"
+                        "value": "name"
                       },
                       {
                         "type": "ObjectExpression",
@@ -507,8 +503,7 @@
                               "type": "Literal",
                               "start": 1983,
                               "end": 1988,
-                              "value": "cls",
-                              "raw": "'cls'"
+                              "value": "cls"
                             },
                             "kind": "init"
                           }
@@ -537,8 +532,7 @@
                       "type": "Literal",
                       "start": 2015,
                       "end": 2016,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -659,15 +653,13 @@
                       "type": "Literal",
                       "start": 2096,
                       "end": 2097,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 2099,
                       "end": 2131,
-                      "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "value": "iteration occurred as expected"
                     }
                   ],
                   "optional": false

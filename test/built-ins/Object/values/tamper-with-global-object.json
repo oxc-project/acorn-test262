@@ -41,8 +41,7 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 403,
-                  "value": "The overriden version of Object was called!",
-                  "raw": "'The overriden version of Object was called!'"
+                  "value": "The overriden version of Object was called!"
                 }
               ]
             }
@@ -133,8 +132,7 @@
                   "type": "Literal",
                   "start": 466,
                   "end": 480,
-                  "value": "return this;",
-                  "raw": "'return this;'"
+                  "value": "return this;"
                 }
               ],
               "optional": false
@@ -226,8 +224,7 @@
             "type": "Literal",
             "start": 551,
             "end": 608,
-            "value": "Sanity check failed: could not modify the global Object",
-            "raw": "'Sanity check failed: could not modify the global Object'"
+            "value": "Sanity check failed: could not modify the global Object"
           }
         ],
         "optional": false
@@ -293,8 +290,7 @@
                   "type": "Literal",
                   "start": 642,
                   "end": 643,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -312,15 +308,13 @@
             "type": "Literal",
             "start": 653,
             "end": 654,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 703,
-            "value": "Expected number primitive to have zero values",
-            "raw": "'Expected number primitive to have zero values'"
+            "value": "Expected number primitive to have zero values"
           }
         ],
         "optional": false

@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 601,
               "end": 602,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],
@@ -48,8 +47,7 @@
           "type": "Literal",
           "start": 609,
           "end": 610,
-          "value": 9,
-          "raw": "9"
+          "value": 9
         }
       },
       "update": {
@@ -93,8 +91,7 @@
                     "type": "Literal",
                     "start": 638,
                     "end": 641,
-                    "value": "$",
-                    "raw": "\"$\""
+                    "value": "$"
                   },
                   "operator": "+",
                   "right": {
@@ -224,8 +221,7 @@
                   "type": "Literal",
                   "start": 857,
                   "end": 867,
-                  "value": "function",
-                  "raw": "\"function\""
+                  "value": "function"
                 },
                 {
                   "type": "BinaryExpression",
@@ -242,8 +238,7 @@
                     "type": "Literal",
                     "start": 880,
                     "end": 889,
-                    "value": " getter",
-                    "raw": "\" getter\""
+                    "value": " getter"
                   }
                 }
               ],
@@ -344,8 +339,7 @@
                       "type": "Literal",
                       "start": 1043,
                       "end": 1052,
-                      "value": "RegExp.",
-                      "raw": "\"RegExp.\""
+                      "value": "RegExp."
                     },
                     "operator": "+",
                     "right": {
@@ -360,8 +354,7 @@
                     "type": "Literal",
                     "start": 1066,
                     "end": 1115,
-                    "value": " getter throws for property descriptor receiver",
-                    "raw": "\" getter throws for property descriptor receiver\""
+                    "value": " getter throws for property descriptor receiver"
                   }
                 }
               ],
@@ -462,7 +455,6 @@
                               "start": 1192,
                               "end": 1195,
                               "value": {},
-                              "raw": "/ /",
                               "regex": {
                                 "pattern": " ",
                                 "flags": ""
@@ -487,8 +479,7 @@
                       "type": "Literal",
                       "start": 1209,
                       "end": 1218,
-                      "value": "RegExp.",
-                      "raw": "\"RegExp.\""
+                      "value": "RegExp."
                     },
                     "operator": "+",
                     "right": {
@@ -503,8 +494,7 @@
                     "type": "Literal",
                     "start": 1232,
                     "end": 1277,
-                    "value": " getter throws for RegExp instance receiver",
-                    "raw": "\" getter throws for RegExp instance receiver\""
+                    "value": " getter throws for RegExp instance receiver"
                   }
                 }
               ],
@@ -638,8 +628,7 @@
                       "type": "Literal",
                       "start": 1384,
                       "end": 1393,
-                      "value": "RegExp.",
-                      "raw": "\"RegExp.\""
+                      "value": "RegExp."
                     },
                     "operator": "+",
                     "right": {
@@ -654,8 +643,7 @@
                     "type": "Literal",
                     "start": 1407,
                     "end": 1455,
-                    "value": " getter throws for %RegExp.prototype% receiver",
-                    "raw": "\" getter throws for %RegExp.prototype% receiver\""
+                    "value": " getter throws for %RegExp.prototype% receiver"
                   }
                 }
               ],
@@ -716,22 +704,19 @@
                       "type": "Literal",
                       "start": 1499,
                       "end": 1500,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Literal",
                       "start": 1502,
                       "end": 1503,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 1505,
                       "end": 1513,
-                      "value": "string",
-                      "raw": "\"string\""
+                      "value": "string"
                     }
                   ]
                 },
@@ -888,8 +873,7 @@
                                       "type": "Literal",
                                       "start": 1643,
                                       "end": 1652,
-                                      "value": "RegExp.",
-                                      "raw": "\"RegExp.\""
+                                      "value": "RegExp."
                                     },
                                     "operator": "+",
                                     "right": {
@@ -904,8 +888,7 @@
                                     "type": "Literal",
                                     "start": 1666,
                                     "end": 1698,
-                                    "value": " getter throws for primitive \"",
-                                    "raw": "' getter throws for primitive \"'"
+                                    "value": " getter throws for primitive \""
                                   }
                                 },
                                 "operator": "+",
@@ -921,8 +904,7 @@
                                 "type": "Literal",
                                 "start": 1709,
                                 "end": 1721,
-                                "value": "\" receiver",
-                                "raw": "'\" receiver'"
+                                "value": "\" receiver"
                               }
                             }
                           ],

@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1051,
-            "value": "Built-in objects must be extensible.",
-            "raw": "\"Built-in objects must be extensible.\""
+            "value": "Built-in objects must be extensible."
           }
         ],
         "optional": false
@@ -225,15 +224,13 @@
             "type": "Literal",
             "start": 1141,
             "end": 1160,
-            "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 1162,
             "end": 1189,
-            "value": "Object.prototype.toString",
-            "raw": "\"Object.prototype.toString\""
+            "value": "Object.prototype.toString"
           }
         ],
         "optional": false
@@ -349,8 +346,7 @@
             "type": "Literal",
             "start": 1290,
             "end": 1301,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           }
         ],
         "optional": false
@@ -438,8 +434,7 @@
                 "type": "Literal",
                 "start": 1371,
                 "end": 1382,
-                "value": "prototype",
-                "raw": "\"prototype\""
+                "value": "prototype"
               }
             ],
             "optional": false
@@ -455,8 +450,7 @@
             "type": "Literal",
             "start": 1394,
             "end": 1414,
-            "value": "prototype property",
-            "raw": "\"prototype property\""
+            "value": "prototype property"
           }
         ],
         "optional": false

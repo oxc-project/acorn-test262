@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 322,
             "end": 323,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -123,8 +122,7 @@
           "type": "Literal",
           "start": 327,
           "end": 329,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -166,8 +164,7 @@
             "type": "Literal",
             "start": 345,
             "end": 355,
-            "value": 4294967295,
-            "raw": "4294967295"
+            "value": 4294967295
           }
         }
       }
@@ -215,22 +212,19 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 387,
-                "value": "x",
-                "raw": "\"x\""
+                "value": "x"
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 392,
-                "value": "y",
-                "raw": "\"y\""
+                "value": "y"
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 397,
-                "value": "z",
-                "raw": "\"z\""
+                "value": "z"
               }
             ],
             "optional": false
@@ -258,8 +252,7 @@
           "type": "Literal",
           "start": 416,
           "end": 417,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -290,8 +283,7 @@
                     "type": "Literal",
                     "start": 446,
                     "end": 586,
-                    "value": "#1: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\") === 3. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\") === 3. Actual: '"
+                    "value": "#1: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\") === 3. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -345,8 +337,7 @@
           "type": "Literal",
           "start": 623,
           "end": 624,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -377,8 +368,7 @@
                     "type": "Literal",
                     "start": 653,
                     "end": 805,
-                    "value": "#2: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj.length === 3. Actual: ",
-                    "raw": "'#2: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj.length === 3. Actual: '"
+                    "value": "#2: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj.length === 3. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -435,8 +425,7 @@
             "type": "Literal",
             "start": 834,
             "end": 835,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -446,8 +435,7 @@
           "type": "Literal",
           "start": 841,
           "end": 844,
-          "value": "x",
-          "raw": "\"x\""
+          "value": "x"
         }
       },
       "consequent": {
@@ -478,8 +466,7 @@
                     "type": "Literal",
                     "start": 873,
                     "end": 1023,
-                    "value": "#3: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[0] === \"x\". Actual: ",
-                    "raw": "'#3: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[0] === \"x\". Actual: '"
+                    "value": "#3: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[0] === \"x\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -500,8 +487,7 @@
                         "type": "Literal",
                         "start": 1031,
                         "end": 1032,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -537,8 +523,7 @@
             "type": "Literal",
             "start": 1048,
             "end": 1049,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -548,8 +533,7 @@
           "type": "Literal",
           "start": 1055,
           "end": 1058,
-          "value": "y",
-          "raw": "\"y\""
+          "value": "y"
         }
       },
       "consequent": {
@@ -580,8 +564,7 @@
                     "type": "Literal",
                     "start": 1087,
                     "end": 1237,
-                    "value": "#4: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[1] === \"y\". Actual: ",
-                    "raw": "'#4: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[1] === \"y\". Actual: '"
+                    "value": "#4: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[1] === \"y\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -602,8 +585,7 @@
                         "type": "Literal",
                         "start": 1245,
                         "end": 1246,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "computed": true,
                       "optional": false
@@ -639,8 +621,7 @@
             "type": "Literal",
             "start": 1262,
             "end": 1263,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -650,8 +631,7 @@
           "type": "Literal",
           "start": 1269,
           "end": 1272,
-          "value": "z",
-          "raw": "\"z\""
+          "value": "z"
         }
       },
       "consequent": {
@@ -682,8 +662,7 @@
                     "type": "Literal",
                     "start": 1301,
                     "end": 1451,
-                    "value": "#5: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[2] === \"z\". Actual: ",
-                    "raw": "'#5: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[2] === \"z\". Actual: '"
+                    "value": "#5: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[2] === \"z\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -704,8 +683,7 @@
                         "type": "Literal",
                         "start": 1459,
                         "end": 1460,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       "computed": true,
                       "optional": false
@@ -741,8 +719,7 @@
             "type": "Literal",
             "start": 1476,
             "end": 1477,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           "computed": true,
           "optional": false
@@ -783,8 +760,7 @@
                     "type": "Literal",
                     "start": 1521,
                     "end": 1677,
-                    "value": "#6: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[3] === undefined. Actual: ",
-                    "raw": "'#6: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[3] === undefined. Actual: '"
+                    "value": "#6: var obj = {}; obj.unshift = Array.prototype.unshift; obj[0] = \"\"; obj.length = -4294967295; obj.unshift(\"x\", \"y\", \"z\"); obj[3] === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -805,8 +781,7 @@
                         "type": "Literal",
                         "start": 1685,
                         "end": 1686,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       "computed": true,
                       "optional": false

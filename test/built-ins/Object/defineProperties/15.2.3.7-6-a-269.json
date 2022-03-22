@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 440,
           "end": 442,
-          "value": 12,
-          "raw": "12"
+          "value": 12
         }
       }
     },
@@ -115,8 +114,7 @@
                   "type": "Literal",
                   "start": 563,
                   "end": 573,
-                  "value": "property",
-                  "raw": "\"property\""
+                  "value": "property"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -224,15 +222,13 @@
             "type": "Literal",
             "start": 672,
             "end": 682,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Literal",
             "start": 684,
             "end": 686,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           }
         ],
         "optional": false
@@ -263,8 +259,7 @@
             "type": "Literal",
             "start": 713,
             "end": 723,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false
@@ -295,8 +290,7 @@
             "type": "Literal",
             "start": 752,
             "end": 762,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false
@@ -327,8 +321,7 @@
             "type": "Literal",
             "start": 793,
             "end": 803,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false
@@ -366,8 +359,7 @@
           "type": "Literal",
           "start": 826,
           "end": 827,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -398,8 +390,7 @@
                     "type": "Literal",
                     "start": 856,
                     "end": 894,
-                    "value": "Expected arr.length === 0, actually ",
-                    "raw": "'Expected arr.length === 0, actually '"
+                    "value": "Expected arr.length === 0, actually "
                   },
                   "operator": "+",
                   "right": {

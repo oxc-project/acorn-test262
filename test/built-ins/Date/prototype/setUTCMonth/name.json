@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 785,
             "end": 798,
-            "value": "setUTCMonth",
-            "raw": "\"setUTCMonth\""
+            "value": "setUTCMonth"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 850,
             "end": 856,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 905,
             "end": 911,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -254,8 +251,7 @@
             "type": "Literal",
             "start": 961,
             "end": 967,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

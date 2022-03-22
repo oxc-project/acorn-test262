@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 814,
                 "end": 823,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -129,8 +128,7 @@
                       "type": "Literal",
                       "start": 889,
                       "end": 893,
-                      "value": 2021,
-                      "raw": "2021"
+                      "value": 2021
                     },
                     "kind": "init"
                   },
@@ -151,8 +149,7 @@
                       "type": "Literal",
                       "start": 906,
                       "end": 911,
-                      "value": "M07",
-                      "raw": "\"M07\""
+                      "value": "M07"
                     },
                     "kind": "init"
                   },
@@ -173,8 +170,7 @@
                       "type": "Literal",
                       "start": 918,
                       "end": 920,
-                      "value": 15,
-                      "raw": "15"
+                      "value": 15
                     },
                     "kind": "init"
                   }
@@ -187,36 +183,31 @@
             "type": "Literal",
             "start": 928,
             "end": 932,
-            "value": 2021,
-            "raw": "2021"
+            "value": 2021
           },
           {
             "type": "Literal",
             "start": 934,
             "end": 935,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 942,
-            "value": "M07",
-            "raw": "\"M07\""
+            "value": "M07"
           },
           {
             "type": "Literal",
             "start": 944,
             "end": 946,
-            "value": 15,
-            "raw": "15"
+            "value": 15
           },
           {
             "type": "Literal",
             "start": 952,
             "end": 972,
-            "value": "year/monthCode/day",
-            "raw": "\"year/monthCode/day\""
+            "value": "year/monthCode/day"
           }
         ],
         "optional": false

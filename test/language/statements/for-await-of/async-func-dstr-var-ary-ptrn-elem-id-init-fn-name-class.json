@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1780,
             "end": 1781,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -251,8 +250,7 @@
                         "type": "Literal",
                         "start": 1937,
                         "end": 1942,
-                        "value": "cls",
-                        "raw": "'cls'"
+                        "value": "cls"
                       }
                     ],
                     "optional": false
@@ -309,8 +307,7 @@
                         "type": "Literal",
                         "start": 1980,
                         "end": 1986,
-                        "value": "xCls",
-                        "raw": "'xCls'"
+                        "value": "xCls"
                       }
                     ],
                     "optional": false
@@ -367,8 +364,7 @@
                         "type": "Literal",
                         "start": 2025,
                         "end": 2032,
-                        "value": "xCls2",
-                        "raw": "'xCls2'"
+                        "value": "xCls2"
                       }
                     ],
                     "optional": false
@@ -393,8 +389,7 @@
                       "type": "Literal",
                       "start": 2053,
                       "end": 2054,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -490,15 +485,13 @@
                       "type": "Literal",
                       "start": 2110,
                       "end": 2111,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 2113,
                       "end": 2145,
-                      "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "value": "iteration occurred as expected"
                     }
                   ],
                   "optional": false

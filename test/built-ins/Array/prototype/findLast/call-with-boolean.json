@@ -117,8 +117,7 @@
             "type": "Literal",
             "start": 357,
             "end": 426,
-            "value": "Array.prototype.findLast.call(true, () => {}) must return undefined",
-            "raw": "'Array.prototype.findLast.call(true, () => {}) must return undefined'"
+            "value": "Array.prototype.findLast.call(true, () => {}) must return undefined"
           }
         ],
         "optional": false
@@ -238,8 +237,7 @@
             "type": "Literal",
             "start": 513,
             "end": 583,
-            "value": "Array.prototype.findLast.call(false, () => {}) must return undefined",
-            "raw": "'Array.prototype.findLast.call(false, () => {}) must return undefined'"
+            "value": "Array.prototype.findLast.call(false, () => {}) must return undefined"
           }
         ],
         "optional": false

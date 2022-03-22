@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 374,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 417,
             "end": 427,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

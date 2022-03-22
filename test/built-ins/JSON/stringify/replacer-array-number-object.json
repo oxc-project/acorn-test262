@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 639,
                 "end": 641,
-                "value": 10,
-                "raw": "10"
+                "value": 10
               }
             ]
           }
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 679,
                   "end": 689,
-                  "value": "toString",
-                  "raw": "'toString'"
+                  "value": "toString"
                 }
               }
             ]
@@ -162,8 +160,7 @@
                       "type": "Literal",
                       "start": 744,
                       "end": 766,
-                      "value": "should not be called",
-                      "raw": "'should not be called'"
+                      "value": "should not be called"
                     }
                   ]
                 }
@@ -204,15 +201,13 @@
                   "type": "Literal",
                   "start": 789,
                   "end": 791,
-                  "value": 10,
-                  "raw": "10"
+                  "value": 10
                 },
                 "value": {
                   "type": "Literal",
                   "start": 793,
                   "end": 794,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -233,8 +228,7 @@
                   "type": "Literal",
                   "start": 808,
                   "end": 809,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -255,8 +249,7 @@
                   "type": "Literal",
                   "start": 822,
                   "end": 823,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               }
@@ -344,8 +337,7 @@
             "type": "Literal",
             "start": 876,
             "end": 892,
-            "value": "{\"toString\":2}",
-            "raw": "'{\"toString\":2}'"
+            "value": "{\"toString\":2}"
           }
         ],
         "optional": false

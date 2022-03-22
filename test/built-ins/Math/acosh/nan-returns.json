@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 350,
             "end": 355,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           }
         ],
         "optional": false
@@ -137,8 +136,7 @@
                 "type": "Literal",
                 "start": 386,
                 "end": 394,
-                "value": 0.999999,
-                "raw": "0.999999"
+                "value": 0.999999
               }
             ],
             "optional": false
@@ -153,8 +151,7 @@
             "type": "Literal",
             "start": 402,
             "end": 412,
-            "value": "0.999999",
-            "raw": "\"0.999999\""
+            "value": "0.999999"
           }
         ],
         "optional": false
@@ -216,8 +213,7 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 444,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -232,8 +228,7 @@
             "type": "Literal",
             "start": 452,
             "end": 455,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         ],
         "optional": false
@@ -301,8 +296,7 @@
                   "type": "Literal",
                   "start": 487,
                   "end": 488,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -318,8 +312,7 @@
             "type": "Literal",
             "start": 496,
             "end": 500,
-            "value": "-1",
-            "raw": "\"-1\""
+            "value": "-1"
           }
         ],
         "optional": false
@@ -403,8 +396,7 @@
             "type": "Literal",
             "start": 548,
             "end": 559,
-            "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "value": "-Infinity"
           }
         ],
         "optional": false

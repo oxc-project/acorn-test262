@@ -111,7 +111,6 @@
               "start": 522,
               "end": 526,
               "value": {},
-              "raw": "/e/g",
               "regex": {
                 "pattern": "e",
                 "flags": "g"
@@ -127,8 +126,7 @@
                 "type": "Literal",
                 "start": 533,
                 "end": 534,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -139,8 +137,7 @@
           "type": "Literal",
           "start": 540,
           "end": 567,
-          "value": "undundefinedfinundefinedd",
-          "raw": "\"undundefinedfinundefinedd\""
+          "value": "undundefinedfinundefinedd"
         }
       },
       "consequent": {
@@ -171,8 +168,7 @@
                     "type": "Literal",
                     "start": 596,
                     "end": 711,
-                    "value": "#1: __obj = {toString:function(){}}; String(__obj).replace(/e/g,void 0) === \"undundefinedfinundefinedd\". Actual: ",
-                    "raw": "'#1: __obj = {toString:function(){}}; String(__obj).replace(/e/g,void 0) === \"undundefinedfinundefinedd\". Actual: '"
+                    "value": "#1: __obj = {toString:function(){}}; String(__obj).replace(/e/g,void 0) === \"undundefinedfinundefinedd\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -218,7 +214,6 @@
                         "start": 736,
                         "end": 740,
                         "value": {},
-                        "raw": "/e/g",
                         "regex": {
                           "pattern": "e",
                           "flags": "g"
@@ -234,8 +229,7 @@
                           "type": "Literal",
                           "start": 747,
                           "end": 748,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ],

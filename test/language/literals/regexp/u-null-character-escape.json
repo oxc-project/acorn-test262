@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 513,
                 "end": 514,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -101,7 +100,6 @@
                   "start": 534,
                   "end": 539,
                   "value": {},
-                  "raw": "/\\0/u",
                   "regex": {
                     "pattern": "\\0",
                     "flags": "u"
@@ -130,8 +128,7 @@
               "type": "Literal",
               "start": 555,
               "end": 556,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -174,7 +171,6 @@
                 "start": 577,
                 "end": 585,
                 "value": {},
-                "raw": "/^\\0a$/u",
                 "regex": {
                   "pattern": "^\\0a$",
                   "flags": "u"
@@ -194,8 +190,7 @@
                 "type": "Literal",
                 "start": 591,
                 "end": 596,
-                "value": "\u0000a",
-                "raw": "'\\0a'"
+                "value": "\u0000a"
               }
             ],
             "optional": false
@@ -248,8 +243,7 @@
                   "type": "Literal",
                   "start": 617,
                   "end": 624,
-                  "value": "\u0000②",
-                  "raw": "'\\x00②'"
+                  "value": "\u0000②"
                 },
                 "property": {
                   "type": "Identifier",
@@ -266,7 +260,6 @@
                   "start": 631,
                   "end": 637,
                   "value": {},
-                  "raw": "/\\0②/u",
                   "regex": {
                     "pattern": "\\0②",
                     "flags": "u"
@@ -279,8 +272,7 @@
               "type": "Literal",
               "start": 639,
               "end": 640,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -289,8 +281,7 @@
             "type": "Literal",
             "start": 643,
             "end": 650,
-            "value": "\u0000②",
-            "raw": "'\\x00②'"
+            "value": "\u0000②"
           }
         ],
         "optional": false
@@ -336,8 +327,7 @@
                 "type": "Literal",
                 "start": 670,
                 "end": 679,
-                "value": "\u0000፬",
-                "raw": "'\\u0000፬'"
+                "value": "\u0000፬"
               },
               "property": {
                 "type": "Identifier",
@@ -354,7 +344,6 @@
                 "start": 687,
                 "end": 694,
                 "value": {},
-                "raw": "/\\0፬$/u",
                 "regex": {
                   "pattern": "\\0፬$",
                   "flags": "u"
@@ -367,8 +356,7 @@
             "type": "Literal",
             "start": 697,
             "end": 698,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

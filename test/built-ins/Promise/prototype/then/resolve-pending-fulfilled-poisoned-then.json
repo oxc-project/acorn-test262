@@ -97,8 +97,7 @@
                 "type": "Literal",
                 "start": 969,
                 "end": 975,
-                "value": "then",
-                "raw": "'then'"
+                "value": "then"
               },
               {
                 "type": "ObjectExpression",
@@ -396,8 +395,7 @@
                         "type": "Literal",
                         "start": 1185,
                         "end": 1223,
-                        "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "value": "The promise should not be fulfilled."
                       }
                     ],
                     "optional": false
@@ -473,8 +471,7 @@
                               "type": "Literal",
                               "start": 1274,
                               "end": 1333,
-                              "value": "The promise should be rejected with the thrown exception.",
-                              "raw": "'The promise should be rejected with the thrown exception.'"
+                              "value": "The promise should be rejected with the thrown exception."
                             }
                           ],
                           "optional": false

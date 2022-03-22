@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 319,
             "end": 330,
-            "value": "MIN_VALUE",
-            "raw": "\"MIN_VALUE\""
+            "value": "MIN_VALUE"
           }
         ],
         "optional": false

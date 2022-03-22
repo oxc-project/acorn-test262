@@ -92,8 +92,7 @@
             "type": "Literal",
             "start": 367,
             "end": 377,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "ObjectExpression",
@@ -191,8 +190,7 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 463,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             },
             "consequent": {
@@ -256,8 +254,7 @@
             "type": "Literal",
             "start": 512,
             "end": 531,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

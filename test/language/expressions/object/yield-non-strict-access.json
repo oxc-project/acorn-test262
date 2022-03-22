@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 262,
             "end": 263,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -127,15 +126,13 @@
             "type": "Literal",
             "start": 319,
             "end": 320,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 322,
             "end": 358,
-            "value": "The value of `object.yield` is `1`",
-            "raw": "\"The value of `object.yield` is `1`\""
+            "value": "The value of `object.yield` is `1`"
           }
         ],
         "optional": false

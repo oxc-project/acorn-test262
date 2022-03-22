@@ -100,8 +100,7 @@
                             "type": "Literal",
                             "start": 514,
                             "end": 517,
-                            "value": "1",
-                            "raw": "'1'"
+                            "value": "1"
                           }
                         ],
                         "optional": false
@@ -117,8 +116,7 @@
             "type": "Literal",
             "start": 524,
             "end": 582,
-            "value": "Array.from([], Symbol(\"1\")) throws a TypeError exception",
-            "raw": "'Array.from([], Symbol(\"1\")) throws a TypeError exception'"
+            "value": "Array.from([], Symbol(\"1\")) throws a TypeError exception"
           }
         ],
         "optional": false

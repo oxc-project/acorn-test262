@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1451,
             "end": 1460,
-            "value": "target!",
-            "raw": "'target!'"
+            "value": "target!"
           }
         }
       ],
@@ -349,8 +348,7 @@
                             "type": "Literal",
                             "start": 1758,
                             "end": 1759,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         }
                       ],
@@ -454,8 +452,7 @@
                                       "type": "Literal",
                                       "start": 1854,
                                       "end": 1855,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     }
                                   }
                                 },
@@ -542,8 +539,7 @@
                             "type": "Literal",
                             "start": 1919,
                             "end": 1920,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -600,8 +596,7 @@
                             "type": "Literal",
                             "start": 1959,
                             "end": 1960,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -649,8 +644,7 @@
                               "type": "Literal",
                               "start": 1991,
                               "end": 1992,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             "computed": true,
                             "optional": false
@@ -762,8 +756,7 @@
                             "type": "Literal",
                             "start": 2087,
                             "end": 2134,
-                            "value": "unregister after iterating over it in cleanup",
-                            "raw": "'unregister after iterating over it in cleanup'"
+                            "value": "unregister after iterating over it in cleanup"
                           }
                         ],
                         "optional": false

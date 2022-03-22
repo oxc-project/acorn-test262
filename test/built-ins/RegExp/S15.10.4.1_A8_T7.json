@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 372,
                     "end": 473,
-                    "value": "#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: ",
-                    "raw": "'#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '"
+                    "value": "#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -82,8 +81,7 @@
                                   "type": "Literal",
                                   "start": 503,
                                   "end": 504,
-                                  "value": 0,
-                                  "raw": "0"
+                                  "value": 0
                                 }
                               },
                               "kind": "init"
@@ -123,8 +121,7 @@
                                         "type": "Literal",
                                         "start": 531,
                                         "end": 540,
-                                        "value": "invalof",
-                                        "raw": "\"invalof\""
+                                        "value": "invalof"
                                       }
                                     }
                                   ]
@@ -196,15 +193,13 @@
                     "type": "Literal",
                     "start": 584,
                     "end": 593,
-                    "value": "invalof",
-                    "raw": "\"invalof\""
+                    "value": "invalof"
                   },
                   {
                     "type": "Literal",
                     "start": 595,
                     "end": 639,
-                    "value": "The value of e is expected to be \"invalof\"",
-                    "raw": "'The value of e is expected to be \"invalof\"'"
+                    "value": "The value of e is expected to be \"invalof\""
                   }
                 ],
                 "optional": false

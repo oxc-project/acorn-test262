@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 585,
                   "end": 594,
-                  "value": "WeakRef",
-                  "raw": "'WeakRef'"
+                  "value": "WeakRef"
                 },
                 "kind": "init"
               },

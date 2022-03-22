@@ -127,8 +127,7 @@
             "type": "Literal",
             "start": 441,
             "end": 525,
-            "value": "`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception",
-            "raw": "'`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception'"
+            "value": "`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception"
           }
         ],
         "optional": false

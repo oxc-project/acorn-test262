@@ -52,8 +52,7 @@
                     "type": "Literal",
                     "start": 329,
                     "end": 332,
-                    "value": "i",
-                    "raw": "\"i\""
+                    "value": "i"
                   }
                 ]
               },
@@ -66,8 +65,7 @@
                     "type": "Literal",
                     "start": 336,
                     "end": 343,
-                    "value": "de_DE",
-                    "raw": "\"de_DE\""
+                    "value": "de_DE"
                   }
                 ]
               }
@@ -148,8 +146,7 @@
                       "type": "Literal",
                       "start": 402,
                       "end": 411,
-                      "value": "invalid",
-                      "raw": "\"invalid\""
+                      "value": "invalid"
                     },
                     "kind": "init"
                   }
@@ -177,8 +174,7 @@
                       "type": "Literal",
                       "start": 432,
                       "end": 441,
-                      "value": "invalid",
-                      "raw": "\"invalid\""
+                      "value": "invalid"
                     },
                     "kind": "init"
                   }
@@ -428,8 +424,7 @@
                             "type": "Literal",
                             "start": 679,
                             "end": 760,
-                            "value": "Internal error: Expected exception was not thrown by Intl.Collator for locales ",
-                            "raw": "\"Internal error: Expected exception was not thrown by Intl.Collator for locales \""
+                            "value": "Internal error: Expected exception was not thrown by Intl.Collator for locales "
                           },
                           "operator": "+",
                           "right": {
@@ -444,8 +439,7 @@
                           "type": "Literal",
                           "start": 773,
                           "end": 776,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],
@@ -540,8 +534,7 @@
                                         "type": "Literal",
                                         "start": 860,
                                         "end": 862,
-                                        "value": "",
-                                        "raw": "\"\""
+                                        "value": ""
                                       },
                                       "property": {
                                         "type": "Identifier",
@@ -557,8 +550,7 @@
                                         "type": "Literal",
                                         "start": 877,
                                         "end": 879,
-                                        "value": "",
-                                        "raw": "\"\""
+                                        "value": ""
                                       },
                                       {
                                         "type": "Identifier",
@@ -588,8 +580,7 @@
                             "type": "Literal",
                             "start": 898,
                             "end": 966,
-                            "value": "String.prototype.localeCompare didn't throw exception for locales ",
-                            "raw": "\"String.prototype.localeCompare didn't throw exception for locales \""
+                            "value": "String.prototype.localeCompare didn't throw exception for locales "
                           },
                           "operator": "+",
                           "right": {
@@ -604,8 +595,7 @@
                           "type": "Literal",
                           "start": 979,
                           "end": 982,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],
@@ -863,8 +853,7 @@
                             "type": "Literal",
                             "start": 1226,
                             "end": 1307,
-                            "value": "Internal error: Expected exception was not thrown by Intl.Collator for options ",
-                            "raw": "\"Internal error: Expected exception was not thrown by Intl.Collator for options \""
+                            "value": "Internal error: Expected exception was not thrown by Intl.Collator for options "
                           },
                           "operator": "+",
                           "right": {
@@ -906,8 +895,7 @@
                           "type": "Literal",
                           "start": 1336,
                           "end": 1339,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],
@@ -1002,8 +990,7 @@
                                         "type": "Literal",
                                         "start": 1423,
                                         "end": 1425,
-                                        "value": "",
-                                        "raw": "\"\""
+                                        "value": ""
                                       },
                                       "property": {
                                         "type": "Identifier",
@@ -1019,8 +1006,7 @@
                                         "type": "Literal",
                                         "start": 1440,
                                         "end": 1442,
-                                        "value": "",
-                                        "raw": "\"\""
+                                        "value": ""
                                       },
                                       {
                                         "type": "ArrayExpression",
@@ -1056,8 +1042,7 @@
                             "type": "Literal",
                             "start": 1465,
                             "end": 1533,
-                            "value": "String.prototype.localeCompare didn't throw exception for options ",
-                            "raw": "\"String.prototype.localeCompare didn't throw exception for options \""
+                            "value": "String.prototype.localeCompare didn't throw exception for options "
                           },
                           "operator": "+",
                           "right": {
@@ -1099,8 +1084,7 @@
                           "type": "Literal",
                           "start": 1562,
                           "end": 1565,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],

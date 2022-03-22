@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 320,
                 "end": 332,
-                "value": "1976-11-18",
-                "raw": "\"1976-11-18\""
+                "value": "1976-11-18"
               }
             ],
             "optional": false
@@ -143,8 +142,7 @@
             "type": "Literal",
             "start": 393,
             "end": 411,
-            "value": "missing argument",
-            "raw": "\"missing argument\""
+            "value": "missing argument"
           }
         ],
         "optional": false
@@ -231,8 +229,7 @@
             "type": "Literal",
             "start": 481,
             "end": 501,
-            "value": "undefined argument",
-            "raw": "\"undefined argument\""
+            "value": "undefined argument"
           }
         ],
         "optional": false

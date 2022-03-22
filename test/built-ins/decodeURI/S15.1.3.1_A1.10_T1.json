@@ -58,15 +58,13 @@
                     "type": "Literal",
                     "start": 393,
                     "end": 397,
-                    "value": 0,
-                    "raw": "0x00"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 399,
                     "end": 403,
-                    "value": 47,
-                    "raw": "0x2F"
+                    "value": 47
                   }
                 ]
               },
@@ -79,15 +77,13 @@
                     "type": "Literal",
                     "start": 409,
                     "end": 413,
-                    "value": 58,
-                    "raw": "0x3A"
+                    "value": 58
                   },
                   {
                     "type": "Literal",
                     "start": 415,
                     "end": 419,
-                    "value": 64,
-                    "raw": "0x40"
+                    "value": 64
                   }
                 ]
               },
@@ -100,15 +96,13 @@
                     "type": "Literal",
                     "start": 425,
                     "end": 429,
-                    "value": 71,
-                    "raw": "0x47"
+                    "value": 71
                   },
                   {
                     "type": "Literal",
                     "start": 431,
                     "end": 435,
-                    "value": 96,
-                    "raw": "0x60"
+                    "value": 96
                   }
                 ]
               },
@@ -121,15 +115,13 @@
                     "type": "Literal",
                     "start": 441,
                     "end": 445,
-                    "value": 103,
-                    "raw": "0x67"
+                    "value": 103
                   },
                   {
                     "type": "Literal",
                     "start": 447,
                     "end": 453,
-                    "value": 65535,
-                    "raw": "0xFFFF"
+                    "value": 65535
                   }
                 ]
               }
@@ -162,8 +154,7 @@
               "type": "Literal",
               "start": 476,
               "end": 477,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -264,8 +255,7 @@
                       "type": "Literal",
                       "start": 554,
                       "end": 555,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false
@@ -312,8 +302,7 @@
                   "type": "Literal",
                   "start": 585,
                   "end": 586,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "computed": true,
                 "optional": false
@@ -369,8 +358,7 @@
                                 "type": "Literal",
                                 "start": 627,
                                 "end": 633,
-                                "value": "%C0%",
-                                "raw": "\"%C0%\""
+                                "value": "%C0%"
                               },
                               "operator": "+",
                               "right": {
@@ -589,8 +577,7 @@
                   "type": "Literal",
                   "start": 853,
                   "end": 987,
-                  "value": "#1: If B = 110xxxxx (n = 2) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError",
-                  "raw": "'#1: If B = 110xxxxx (n = 2) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError'"
+                  "value": "#1: If B = 110xxxxx (n = 2) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError"
                 }
               ]
             }

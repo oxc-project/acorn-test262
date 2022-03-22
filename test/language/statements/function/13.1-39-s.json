@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 388,
                         "end": 429,
-                        "value": "'use strict'; function arguments() { };",
-                        "raw": "\"'use strict'; function arguments() { };\""
+                        "value": "'use strict'; function arguments() { };"
                       }
                     ],
                     "optional": false

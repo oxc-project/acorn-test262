@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 1345,
             "end": 1355,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1359,
             "end": 1435,
-            "value": "The value of `typeof Array.prototype.flatMap` is expected to be \"function\"",
-            "raw": "'The value of `typeof Array.prototype.flatMap` is expected to be \"function\"'"
+            "value": "The value of `typeof Array.prototype.flatMap` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -278,8 +276,7 @@
             "type": "Literal",
             "start": 1569,
             "end": 1619,
-            "value": "a.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'a.flatMap(mapperFn) throws a TypeError exception'"
+            "value": "a.flatMap(mapperFn) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -340,8 +337,7 @@
           "type": "Literal",
           "start": 1647,
           "end": 1648,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -438,8 +434,7 @@
             "type": "Literal",
             "start": 1714,
             "end": 1764,
-            "value": "a.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'a.flatMap(mapperFn) throws a TypeError exception'"
+            "value": "a.flatMap(mapperFn) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -500,8 +495,7 @@
           "type": "Literal",
           "start": 1792,
           "end": 1800,
-          "value": "string",
-          "raw": "'string'"
+          "value": "string"
         }
       }
     },
@@ -598,8 +592,7 @@
             "type": "Literal",
             "start": 1866,
             "end": 1916,
-            "value": "a.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'a.flatMap(mapperFn) throws a TypeError exception'"
+            "value": "a.flatMap(mapperFn) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -758,8 +751,7 @@
             "type": "Literal",
             "start": 2014,
             "end": 2064,
-            "value": "a.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'a.flatMap(mapperFn) throws a TypeError exception'"
+            "value": "a.flatMap(mapperFn) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -924,8 +916,7 @@
             "type": "Literal",
             "start": 2166,
             "end": 2216,
-            "value": "a.flatMap(mapperFn) throws a TypeError exception",
-            "raw": "'a.flatMap(mapperFn) throws a TypeError exception'"
+            "value": "a.flatMap(mapperFn) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -1086,8 +1077,7 @@
             "type": "Literal",
             "start": 2321,
             "end": 2363,
-            "value": "The value of actual is expected to be []",
-            "raw": "'The value of actual is expected to be []'"
+            "value": "The value of actual is expected to be []"
           }
         ],
         "optional": false
@@ -1177,8 +1167,7 @@
             "type": "Literal",
             "start": 2438,
             "end": 2506,
-            "value": "Object.getPrototypeOf(a.flatMap(mapperFn)) returns Array.prototype",
-            "raw": "'Object.getPrototypeOf(a.flatMap(mapperFn)) returns Array.prototype'"
+            "value": "Object.getPrototypeOf(a.flatMap(mapperFn)) returns Array.prototype"
           }
         ],
         "optional": false
@@ -1228,8 +1217,7 @@
             "type": "Literal",
             "start": 2541,
             "end": 2604,
-            "value": "The value of actual is expected to not equal the value of `a`",
-            "raw": "'The value of actual is expected to not equal the value of `a`'"
+            "value": "The value of actual is expected to not equal the value of `a`"
           }
         ],
         "optional": false

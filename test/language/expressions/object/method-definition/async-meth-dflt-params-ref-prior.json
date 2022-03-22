@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 981,
             "end": 982,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1002,
             "end": 1003,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -182,15 +180,13 @@
                               "type": "Literal",
                               "start": 1077,
                               "end": 1078,
-                              "value": 3,
-                              "raw": "3"
+                              "value": 3
                             },
                             {
                               "type": "Literal",
                               "start": 1080,
                               "end": 1102,
-                              "value": "first argument value",
-                              "raw": "'first argument value'"
+                              "value": "first argument value"
                             }
                           ],
                           "optional": false
@@ -234,15 +230,13 @@
                               "type": "Literal",
                               "start": 1129,
                               "end": 1130,
-                              "value": 3,
-                              "raw": "3"
+                              "value": 3
                             },
                             {
                               "type": "Literal",
                               "start": 1132,
                               "end": 1155,
-                              "value": "second argument value",
-                              "raw": "'second argument value'"
+                              "value": "second argument value"
                             }
                           ],
                           "optional": false
@@ -286,15 +280,13 @@
                               "type": "Literal",
                               "start": 1182,
                               "end": 1183,
-                              "value": 3,
-                              "raw": "3"
+                              "value": 3
                             },
                             {
                               "type": "Literal",
                               "start": 1185,
                               "end": 1207,
-                              "value": "third argument value",
-                              "raw": "'third argument value'"
+                              "value": "third argument value"
                             }
                           ],
                           "optional": false
@@ -330,8 +322,7 @@
                               "type": "Literal",
                               "start": 1238,
                               "end": 1239,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         }
@@ -419,8 +410,7 @@
                     "type": "Literal",
                     "start": 1326,
                     "end": 1327,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ],
                 "optional": false
@@ -487,15 +477,13 @@
                             "type": "Literal",
                             "start": 1374,
                             "end": 1375,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1377,
                             "end": 1412,
-                            "value": "async method invoked exactly once",
-                            "raw": "'async method invoked exactly once'"
+                            "value": "async method invoked exactly once"
                           }
                         ],
                         "optional": false

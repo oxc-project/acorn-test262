@@ -141,8 +141,7 @@
             "type": "Literal",
             "start": 491,
             "end": 520,
-            "value": "returns the class prototype",
-            "raw": "'returns the class prototype'"
+            "value": "returns the class prototype"
           }
         ],
         "optional": false

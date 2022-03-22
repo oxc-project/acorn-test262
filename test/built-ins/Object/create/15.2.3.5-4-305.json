@@ -149,8 +149,7 @@
                 "type": "Literal",
                 "start": 408,
                 "end": 414,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -159,8 +158,7 @@
             "type": "Literal",
             "start": 417,
             "end": 457,
-            "value": "newObj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
+            "value": "newObj.hasOwnProperty(\"prop\") !== true"
           }
         ],
         "optional": false

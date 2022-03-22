@@ -155,15 +155,13 @@
             "type": "Literal",
             "start": 387,
             "end": 403,
-            "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "value": "[object Array]"
           },
           {
             "type": "Literal",
             "start": 405,
             "end": 448,
-            "value": "x.getClass() must return \"[object Array]\"",
-            "raw": "'x.getClass() must return \"[object Array]\"'"
+            "value": "x.getClass() must return \"[object Array]\""
           }
         ],
         "optional": false
@@ -199,22 +197,19 @@
                 "type": "Literal",
                 "start": 466,
                 "end": 467,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 470,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 473,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -343,15 +338,13 @@
             "type": "Literal",
             "start": 547,
             "end": 563,
-            "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "value": "[object Array]"
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 608,
-            "value": "x.getClass() must return \"[object Array]\"",
-            "raw": "'x.getClass() must return \"[object Array]\"'"
+            "value": "x.getClass() must return \"[object Array]\""
           }
         ],
         "optional": false

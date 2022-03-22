@@ -208,8 +208,7 @@
             "type": "Literal",
             "start": 595,
             "end": 618,
-            "value": "NewTarget unspecified",
-            "raw": "'NewTarget unspecified'"
+            "value": "NewTarget unspecified"
           }
         ],
         "optional": false
@@ -309,8 +308,7 @@
             "type": "Literal",
             "start": 711,
             "end": 741,
-            "value": "NewTarget explicitly defined",
-            "raw": "'NewTarget explicitly defined'"
+            "value": "NewTarget explicitly defined"
           }
         ],
         "optional": false

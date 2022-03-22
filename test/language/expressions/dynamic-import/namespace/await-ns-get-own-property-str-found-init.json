@@ -49,8 +49,7 @@
                       "type": "Literal",
                       "start": 4185,
                       "end": 4211,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   }
                 }
@@ -166,8 +165,7 @@
                       "type": "Literal",
                       "start": 4299,
                       "end": 4307,
-                      "value": "local1",
-                      "raw": "'local1'"
+                      "value": "local1"
                     }
                   ],
                   "optional": false
@@ -232,8 +230,7 @@
                     "type": "Literal",
                     "start": 4369,
                     "end": 4377,
-                    "value": "local1",
-                    "raw": "'local1'"
+                    "value": "local1"
                   }
                 ],
                 "optional": false
@@ -291,8 +288,7 @@
                   "type": "Literal",
                   "start": 4413,
                   "end": 4422,
-                  "value": "Test262",
-                  "raw": "'Test262'"
+                  "value": "Test262"
                 }
               ],
               "optional": false
@@ -356,8 +352,7 @@
                   "type": "Literal",
                   "start": 4469,
                   "end": 4488,
-                  "value": "local1 enumerable",
-                  "raw": "'local1 enumerable'"
+                  "value": "local1 enumerable"
                 }
               ],
               "optional": false
@@ -421,8 +416,7 @@
                   "type": "Literal",
                   "start": 4533,
                   "end": 4550,
-                  "value": "local1 writable",
-                  "raw": "'local1 writable'"
+                  "value": "local1 writable"
                 }
               ],
               "optional": false
@@ -486,8 +480,7 @@
                   "type": "Literal",
                   "start": 4600,
                   "end": 4621,
-                  "value": "local1 configurable",
-                  "raw": "'local1 configurable'"
+                  "value": "local1 configurable"
                 }
               ],
               "optional": false
@@ -581,8 +574,7 @@
                       "type": "Literal",
                       "start": 4694,
                       "end": 4703,
-                      "value": "renamed",
-                      "raw": "'renamed'"
+                      "value": "renamed"
                     }
                   ],
                   "optional": false
@@ -647,8 +639,7 @@
                     "type": "Literal",
                     "start": 4765,
                     "end": 4774,
-                    "value": "renamed",
-                    "raw": "'renamed'"
+                    "value": "renamed"
                   }
                 ],
                 "optional": false
@@ -706,8 +697,7 @@
                   "type": "Literal",
                   "start": 4810,
                   "end": 4816,
-                  "value": "TC39",
-                  "raw": "'TC39'"
+                  "value": "TC39"
                 }
               ],
               "optional": false
@@ -771,8 +761,7 @@
                   "type": "Literal",
                   "start": 4863,
                   "end": 4883,
-                  "value": "renamed enumerable",
-                  "raw": "'renamed enumerable'"
+                  "value": "renamed enumerable"
                 }
               ],
               "optional": false
@@ -836,8 +825,7 @@
                   "type": "Literal",
                   "start": 4928,
                   "end": 4946,
-                  "value": "renamed writable",
-                  "raw": "'renamed writable'"
+                  "value": "renamed writable"
                 }
               ],
               "optional": false
@@ -901,8 +889,7 @@
                   "type": "Literal",
                   "start": 4996,
                   "end": 5018,
-                  "value": "renamed configurable",
-                  "raw": "'renamed configurable'"
+                  "value": "renamed configurable"
                 }
               ],
               "optional": false
@@ -996,8 +983,7 @@
                       "type": "Literal",
                       "start": 5091,
                       "end": 5101,
-                      "value": "indirect",
-                      "raw": "'indirect'"
+                      "value": "indirect"
                     }
                   ],
                   "optional": false
@@ -1062,8 +1048,7 @@
                     "type": "Literal",
                     "start": 5163,
                     "end": 5173,
-                    "value": "indirect",
-                    "raw": "'indirect'"
+                    "value": "indirect"
                   }
                 ],
                 "optional": false
@@ -1121,8 +1106,7 @@
                   "type": "Literal",
                   "start": 5209,
                   "end": 5218,
-                  "value": "Test262",
-                  "raw": "'Test262'"
+                  "value": "Test262"
                 }
               ],
               "optional": false
@@ -1186,8 +1170,7 @@
                   "type": "Literal",
                   "start": 5265,
                   "end": 5286,
-                  "value": "indirect enumerable",
-                  "raw": "'indirect enumerable'"
+                  "value": "indirect enumerable"
                 }
               ],
               "optional": false
@@ -1251,8 +1234,7 @@
                   "type": "Literal",
                   "start": 5331,
                   "end": 5350,
-                  "value": "indirect writable",
-                  "raw": "'indirect writable'"
+                  "value": "indirect writable"
                 }
               ],
               "optional": false
@@ -1316,8 +1298,7 @@
                   "type": "Literal",
                   "start": 5400,
                   "end": 5423,
-                  "value": "indirect configurable",
-                  "raw": "'indirect configurable'"
+                  "value": "indirect configurable"
                 }
               ],
               "optional": false
@@ -1411,8 +1392,7 @@
                       "type": "Literal",
                       "start": 5496,
                       "end": 5505,
-                      "value": "default",
-                      "raw": "'default'"
+                      "value": "default"
                     }
                   ],
                   "optional": false
@@ -1477,8 +1457,7 @@
                     "type": "Literal",
                     "start": 5567,
                     "end": 5576,
-                    "value": "default",
-                    "raw": "'default'"
+                    "value": "default"
                   }
                 ],
                 "optional": false
@@ -1536,8 +1515,7 @@
                   "type": "Literal",
                   "start": 5612,
                   "end": 5614,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 }
               ],
               "optional": false
@@ -1601,8 +1579,7 @@
                   "type": "Literal",
                   "start": 5661,
                   "end": 5681,
-                  "value": "default enumerable",
-                  "raw": "'default enumerable'"
+                  "value": "default enumerable"
                 }
               ],
               "optional": false
@@ -1666,8 +1643,7 @@
                   "type": "Literal",
                   "start": 5726,
                   "end": 5744,
-                  "value": "default writable",
-                  "raw": "'default writable'"
+                  "value": "default writable"
                 }
               ],
               "optional": false
@@ -1731,8 +1707,7 @@
                   "type": "Literal",
                   "start": 5794,
                   "end": 5816,
-                  "value": "default configurable",
-                  "raw": "'default configurable'"
+                  "value": "default configurable"
                 }
               ],
               "optional": false

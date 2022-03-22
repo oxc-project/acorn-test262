@@ -79,8 +79,7 @@
             "type": "Literal",
             "start": 430,
             "end": 431,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -152,8 +151,7 @@
                             "type": "Literal",
                             "start": 491,
                             "end": 492,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -219,8 +217,7 @@
                               "type": "Literal",
                               "start": 566,
                               "end": 584,
-                              "value": "valueOf() called",
-                              "raw": "\"valueOf() called\""
+                              "value": "valueOf() called"
                             }
                           ]
                         }
@@ -268,8 +265,7 @@
           "type": "Literal",
           "start": 606,
           "end": 607,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -345,8 +341,7 @@
             "type": "Literal",
             "start": 669,
             "end": 712,
-            "value": "Returns true if symbol own property found",
-            "raw": "\"Returns true if symbol own property found\""
+            "value": "Returns true if symbol own property found"
           }
         ],
         "optional": false
@@ -390,15 +385,13 @@
             "type": "Literal",
             "start": 745,
             "end": 746,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 748,
             "end": 785,
-            "value": "toString method called exactly once",
-            "raw": "\"toString method called exactly once\""
+            "value": "toString method called exactly once"
           }
         ],
         "optional": false

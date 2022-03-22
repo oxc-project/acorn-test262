@@ -164,8 +164,7 @@
                                       "type": "Literal",
                                       "start": 2007,
                                       "end": 2008,
-                                      "value": 4,
-                                      "raw": "4"
+                                      "value": 4
                                     },
                                     "kind": "init"
                                   },
@@ -186,8 +185,7 @@
                                       "type": "Literal",
                                       "start": 2013,
                                       "end": 2014,
-                                      "value": 5,
-                                      "raw": "5"
+                                      "value": 5
                                     },
                                     "kind": "init"
                                   },
@@ -208,8 +206,7 @@
                                       "type": "Literal",
                                       "start": 2019,
                                       "end": 2020,
-                                      "value": 6,
-                                      "raw": "6"
+                                      "value": 6
                                     },
                                     "kind": "init"
                                   }

@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 317,
                     "end": 320,
-                    "value": "f",
-                    "raw": "\"f\""
+                    "value": "f"
                   },
                   "kind": "init",
                   "value": {
@@ -180,8 +179,7 @@
               "type": "Literal",
               "start": 420,
               "end": 427,
-              "value": "a(){}",
-              "raw": "\"a(){}\""
+              "value": "a(){}"
             },
             "computed": true,
             "optional": false
@@ -215,8 +213,7 @@
             "type": "Literal",
             "start": 465,
             "end": 532,
-            "value": "[ /* a */ \"f\" /* b */ ] /* c */ ( /* d */ ) /* e */ { /* f */ }",
-            "raw": "\"[ /* a */ \\\"f\\\" /* b */ ] /* c */ ( /* d */ ) /* e */ { /* f */ }\""
+            "value": "[ /* a */ \"f\" /* b */ ] /* c */ ( /* d */ ) /* e */ { /* f */ }"
           }
         ],
         "optional": false
@@ -247,8 +244,7 @@
             "type": "Literal",
             "start": 569,
             "end": 591,
-            "value": "[ { a(){} }.a ](){ }",
-            "raw": "\"[ { a(){} }.a ](){ }\""
+            "value": "[ { a(){} }.a ](){ }"
           }
         ],
         "optional": false

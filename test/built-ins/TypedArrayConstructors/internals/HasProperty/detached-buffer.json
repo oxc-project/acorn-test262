@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 762,
                             "end": 763,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -178,8 +177,7 @@
                             "type": "Literal",
                             "start": 838,
                             "end": 841,
-                            "value": "0",
-                            "raw": "\"0\""
+                            "value": "0"
                           }
                         ],
                         "optional": false
@@ -195,8 +193,7 @@
                         "type": "Literal",
                         "start": 851,
                         "end": 895,
-                        "value": "Reflect.has(sample, \"0\") must return false",
-                        "raw": "'Reflect.has(sample, \"0\") must return false'"
+                        "value": "Reflect.has(sample, \"0\") must return false"
                       }
                     ],
                     "optional": false
@@ -264,8 +261,7 @@
                             "type": "Literal",
                             "start": 937,
                             "end": 941,
-                            "value": "-0",
-                            "raw": "\"-0\""
+                            "value": "-0"
                           }
                         ],
                         "optional": false
@@ -281,8 +277,7 @@
                         "type": "Literal",
                         "start": 951,
                         "end": 996,
-                        "value": "Reflect.has(sample, \"-0\") must return false",
-                        "raw": "'Reflect.has(sample, \"-0\") must return false'"
+                        "value": "Reflect.has(sample, \"-0\") must return false"
                       }
                     ],
                     "optional": false
@@ -350,8 +345,7 @@
                             "type": "Literal",
                             "start": 1038,
                             "end": 1043,
-                            "value": "1.1",
-                            "raw": "\"1.1\""
+                            "value": "1.1"
                           }
                         ],
                         "optional": false
@@ -367,8 +361,7 @@
                         "type": "Literal",
                         "start": 1053,
                         "end": 1099,
-                        "value": "Reflect.has(sample, \"1.1\") must return false",
-                        "raw": "'Reflect.has(sample, \"1.1\") must return false'"
+                        "value": "Reflect.has(sample, \"1.1\") must return false"
                       }
                     ],
                     "optional": false

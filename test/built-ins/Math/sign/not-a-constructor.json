@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 731,
             "end": 775,
-            "value": "isConstructor(Math.sign) must return false",
-            "raw": "'isConstructor(Math.sign) must return false'"
+            "value": "isConstructor(Math.sign) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 834,
             "end": 870,
-            "value": "`new Math.sign()` throws TypeError",
-            "raw": "'`new Math.sign()` throws TypeError'"
+            "value": "`new Math.sign()` throws TypeError"
           }
         ],
         "optional": false

@@ -308,8 +308,7 @@
                               "type": "Literal",
                               "start": 570,
                               "end": 590,
-                              "value": "attempted toString",
-                              "raw": "'attempted toString'"
+                              "value": "attempted toString"
                             }
                           ]
                         }

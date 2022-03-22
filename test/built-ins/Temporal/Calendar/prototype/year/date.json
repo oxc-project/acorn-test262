@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 800,
                 "end": 809,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,22 +97,19 @@
                 "type": "Literal",
                 "start": 847,
                 "end": 851,
-                "value": 2021,
-                "raw": "2021"
+                "value": 2021
               },
               {
                 "type": "Literal",
                 "start": 853,
                 "end": 854,
-                "value": 7,
-                "raw": "7"
+                "value": 7
               },
               {
                 "type": "Literal",
                 "start": 856,
                 "end": 858,
-                "value": 15,
-                "raw": "15"
+                "value": 15
               }
             ]
           }
@@ -186,15 +182,13 @@
             "type": "Literal",
             "start": 894,
             "end": 898,
-            "value": 2021,
-            "raw": "2021"
+            "value": 2021
           },
           {
             "type": "Literal",
             "start": 900,
             "end": 964,
-            "value": "cal.year(new Temporal.PlainDate(2021, 7, 15)) must return 2021",
-            "raw": "'cal.year(new Temporal.PlainDate(2021, 7, 15)) must return 2021'"
+            "value": "cal.year(new Temporal.PlainDate(2021, 7, 15)) must return 2021"
           }
         ],
         "optional": false

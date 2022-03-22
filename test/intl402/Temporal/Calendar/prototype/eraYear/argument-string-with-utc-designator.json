@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 359,
-                "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "value": "2019-10-01T09:00:00Z"
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 390,
-                "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "value": "2019-10-01T09:00:00Z[UTC]"
               }
             ]
           }
@@ -86,8 +84,7 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 443,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -225,8 +222,7 @@
                         "type": "Literal",
                         "start": 550,
                         "end": 613,
-                        "value": "String with UTC designator should not be valid as a PlainDate",
-                        "raw": "\"String with UTC designator should not be valid as a PlainDate\""
+                        "value": "String with UTC designator should not be valid as a PlainDate"
                       }
                     ],
                     "optional": false

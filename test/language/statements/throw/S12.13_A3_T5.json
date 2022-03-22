@@ -115,15 +115,13 @@
                   "type": "Literal",
                   "start": 298,
                   "end": 309,
-                  "value": "exception",
-                  "raw": "\"exception\""
+                  "value": "exception"
                 },
                 "alternate": {
                   "type": "Literal",
                   "start": 310,
                   "end": 315,
-                  "value": " #1",
-                  "raw": "\" #1\""
+                  "value": " #1"
                 }
               }
             }
@@ -164,8 +162,7 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 351,
-                  "value": "exception",
-                  "raw": "\"exception\""
+                  "value": "exception"
                 }
               },
               "consequent": {
@@ -191,8 +188,7 @@
                         "type": "Literal",
                         "start": 376,
                         "end": 445,
-                        "value": "#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ===",
-                        "raw": "'#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ==='"
+                        "value": "#1: Exception ===\"exception\"(operaton ? , ). Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {

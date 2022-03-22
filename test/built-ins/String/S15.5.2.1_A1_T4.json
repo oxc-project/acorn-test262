@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 512,
                 "end": 515,
-                "value": 1,
-                "raw": "1.0"
+                "value": 1
               }
             ]
           }
@@ -68,8 +67,7 @@
           "type": "Literal",
           "start": 629,
           "end": 637,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -100,8 +98,7 @@
                     "type": "Literal",
                     "start": 666,
                     "end": 748,
-                    "value": "#1: __str = new String(1.0); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(1.0); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "value": "#1: __str = new String(1.0); typeof __str === \"object\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -188,8 +185,7 @@
                     "type": "Literal",
                     "start": 1003,
                     "end": 1095,
-                    "value": "#1.5: __str = new String(1.0); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(1.0); __str.constructor === String. Actual: __str.constructor ==='"
+                    "value": "#1.5: __str = new String(1.0); __str.constructor === String. Actual: __str.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -242,16 +238,14 @@
             "type": "Literal",
             "start": 1305,
             "end": 1308,
-            "value": 1,
-            "raw": "1.0"
+            "value": 1
           },
           "operator": "+",
           "right": {
             "type": "Literal",
             "start": 1311,
             "end": 1313,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         }
       },
@@ -283,8 +277,7 @@
                     "type": "Literal",
                     "start": 1342,
                     "end": 1405,
-                    "value": "#2: __str = new String(1.0); __str ==1.0+\"\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(1.0); __str ==1.0+\"\". Actual: __str =='"
+                    "value": "#2: __str = new String(1.0); __str ==1.0+\"\". Actual: __str =="
                   },
                   "operator": "+",
                   "right": {

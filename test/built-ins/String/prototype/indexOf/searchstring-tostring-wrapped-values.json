@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 442,
                 "end": 451,
-                "value": "__foo__",
-                "raw": "\"__foo__\""
+                "value": "__foo__"
               },
               "property": {
                 "type": "Identifier",
@@ -71,8 +70,7 @@
                     "type": "Literal",
                     "start": 467,
                     "end": 472,
-                    "value": "foo",
-                    "raw": "\"foo\""
+                    "value": "foo"
                   }
                 ],
                 "optional": false
@@ -84,15 +82,13 @@
             "type": "Literal",
             "start": 476,
             "end": 477,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 527,
-            "value": "ToPrimitive: unbox object with internal slot",
-            "raw": "\"ToPrimitive: unbox object with internal slot\""
+            "value": "ToPrimitive: unbox object with internal slot"
           }
         ],
         "optional": false
@@ -138,8 +134,7 @@
                 "type": "Literal",
                 "start": 547,
                 "end": 556,
-                "value": "__foo__",
-                "raw": "\"__foo__\""
+                "value": "__foo__"
               },
               "property": {
                 "type": "Identifier",
@@ -204,8 +199,7 @@
                               "type": "Literal",
                               "start": 615,
                               "end": 620,
-                              "value": "foo",
-                              "raw": "\"foo\""
+                              "value": "foo"
                             }
                           }
                         ]
@@ -222,15 +216,13 @@
             "type": "Literal",
             "start": 630,
             "end": 631,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 633,
             "end": 661,
-            "value": "ToPrimitive: @@toPrimitive",
-            "raw": "\"ToPrimitive: @@toPrimitive\""
+            "value": "ToPrimitive: @@toPrimitive"
           }
         ],
         "optional": false
@@ -276,8 +268,7 @@
                 "type": "Literal",
                 "start": 681,
                 "end": 690,
-                "value": "__foo__",
-                "raw": "\"__foo__\""
+                "value": "__foo__"
               },
               "property": {
                 "type": "Identifier",
@@ -329,8 +320,7 @@
                               "type": "Literal",
                               "start": 736,
                               "end": 741,
-                              "value": "foo",
-                              "raw": "\"foo\""
+                              "value": "foo"
                             }
                           }
                         ]
@@ -369,15 +359,13 @@
             "type": "Literal",
             "start": 769,
             "end": 770,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 794,
-            "value": "ToPrimitive: valueOf",
-            "raw": "\"ToPrimitive: valueOf\""
+            "value": "ToPrimitive: valueOf"
           }
         ],
         "optional": false
@@ -423,8 +411,7 @@
                 "type": "Literal",
                 "start": 814,
                 "end": 823,
-                "value": "__foo__",
-                "raw": "\"__foo__\""
+                "value": "__foo__"
               },
               "property": {
                 "type": "Identifier",
@@ -476,8 +463,7 @@
                               "type": "Literal",
                               "start": 870,
                               "end": 875,
-                              "value": "foo",
-                              "raw": "\"foo\""
+                              "value": "foo"
                             }
                           }
                         ]
@@ -494,15 +480,13 @@
             "type": "Literal",
             "start": 885,
             "end": 886,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 888,
             "end": 911,
-            "value": "ToPrimitive: toString",
-            "raw": "\"ToPrimitive: toString\""
+            "value": "ToPrimitive: toString"
           }
         ],
         "optional": false
@@ -548,8 +532,7 @@
                 "type": "Literal",
                 "start": 931,
                 "end": 946,
-                "value": "__undefined__",
-                "raw": "\"__undefined__\""
+                "value": "__undefined__"
               },
               "property": {
                 "type": "Identifier",
@@ -631,15 +614,13 @@
             "type": "Literal",
             "start": 1024,
             "end": 1025,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1027,
             "end": 1080,
-            "value": "ToString: @@toPrimitive => undefined => \"undefined\"",
-            "raw": "'ToString: @@toPrimitive => undefined => \"undefined\"'"
+            "value": "ToString: @@toPrimitive => undefined => \"undefined\""
           }
         ],
         "optional": false
@@ -685,8 +666,7 @@
                 "type": "Literal",
                 "start": 1100,
                 "end": 1115,
-                "value": "__undefined__",
-                "raw": "\"__undefined__\""
+                "value": "__undefined__"
               },
               "property": {
                 "type": "Identifier",
@@ -777,15 +757,13 @@
             "type": "Literal",
             "start": 1198,
             "end": 1199,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1201,
             "end": 1248,
-            "value": "ToString: valueOf => undefined => \"undefined\"",
-            "raw": "'ToString: valueOf => undefined => \"undefined\"'"
+            "value": "ToString: valueOf => undefined => \"undefined\""
           }
         ],
         "optional": false
@@ -831,8 +809,7 @@
                 "type": "Literal",
                 "start": 1268,
                 "end": 1283,
-                "value": "__undefined__",
-                "raw": "\"__undefined__\""
+                "value": "__undefined__"
               },
               "property": {
                 "type": "Identifier",
@@ -901,15 +878,13 @@
             "type": "Literal",
             "start": 1349,
             "end": 1350,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1352,
             "end": 1400,
-            "value": "ToString: toString => undefined => \"undefined\"",
-            "raw": "'ToString: toString => undefined => \"undefined\"'"
+            "value": "ToString: toString => undefined => \"undefined\""
           }
         ],
         "optional": false
@@ -955,8 +930,7 @@
                 "type": "Literal",
                 "start": 1420,
                 "end": 1430,
-                "value": "__null__",
-                "raw": "\"__null__\""
+                "value": "__null__"
               },
               "property": {
                 "type": "Identifier",
@@ -1039,15 +1013,13 @@
             "type": "Literal",
             "start": 1503,
             "end": 1504,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1506,
             "end": 1549,
-            "value": "ToString: @@toPrimitive => null => \"null\"",
-            "raw": "'ToString: @@toPrimitive => null => \"null\"'"
+            "value": "ToString: @@toPrimitive => null => \"null\""
           }
         ],
         "optional": false
@@ -1093,8 +1065,7 @@
                 "type": "Literal",
                 "start": 1569,
                 "end": 1579,
-                "value": "__null__",
-                "raw": "\"__null__\""
+                "value": "__null__"
               },
               "property": {
                 "type": "Identifier",
@@ -1186,15 +1157,13 @@
             "type": "Literal",
             "start": 1657,
             "end": 1658,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1660,
             "end": 1697,
-            "value": "ToString: valueOf => null => \"null\"",
-            "raw": "'ToString: valueOf => null => \"null\"'"
+            "value": "ToString: valueOf => null => \"null\""
           }
         ],
         "optional": false
@@ -1240,8 +1209,7 @@
                 "type": "Literal",
                 "start": 1717,
                 "end": 1727,
-                "value": "__null__",
-                "raw": "\"__null__\""
+                "value": "__null__"
               },
               "property": {
                 "type": "Identifier",
@@ -1311,15 +1279,13 @@
             "type": "Literal",
             "start": 1788,
             "end": 1789,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1791,
             "end": 1829,
-            "value": "ToString: toString => null => \"null\"",
-            "raw": "'ToString: toString => null => \"null\"'"
+            "value": "ToString: toString => null => \"null\""
           }
         ],
         "optional": false
@@ -1365,8 +1331,7 @@
                 "type": "Literal",
                 "start": 1849,
                 "end": 1860,
-                "value": "__false__",
-                "raw": "\"__false__\""
+                "value": "__false__"
               },
               "property": {
                 "type": "Identifier",
@@ -1406,15 +1371,13 @@
             "type": "Literal",
             "start": 1885,
             "end": 1886,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1890,
             "end": 1953,
-            "value": "ToString: unbox object with internal slot => false => \"false\"",
-            "raw": "'ToString: unbox object with internal slot => false => \"false\"'"
+            "value": "ToString: unbox object with internal slot => false => \"false\""
           }
         ],
         "optional": false
@@ -1460,8 +1423,7 @@
                 "type": "Literal",
                 "start": 1973,
                 "end": 1984,
-                "value": "__false__",
-                "raw": "\"__false__\""
+                "value": "__false__"
               },
               "property": {
                 "type": "Identifier",
@@ -1544,15 +1506,13 @@
             "type": "Literal",
             "start": 2058,
             "end": 2059,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2061,
             "end": 2106,
-            "value": "ToString: @@toPrimitive => false => \"false\"",
-            "raw": "'ToString: @@toPrimitive => false => \"false\"'"
+            "value": "ToString: @@toPrimitive => false => \"false\""
           }
         ],
         "optional": false
@@ -1598,8 +1558,7 @@
                 "type": "Literal",
                 "start": 2126,
                 "end": 2137,
-                "value": "__false__",
-                "raw": "\"__false__\""
+                "value": "__false__"
               },
               "property": {
                 "type": "Identifier",
@@ -1691,15 +1650,13 @@
             "type": "Literal",
             "start": 2216,
             "end": 2217,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2219,
             "end": 2258,
-            "value": "ToString: valueOf => false => \"false\"",
-            "raw": "'ToString: valueOf => false => \"false\"'"
+            "value": "ToString: valueOf => false => \"false\""
           }
         ],
         "optional": false
@@ -1745,8 +1702,7 @@
                 "type": "Literal",
                 "start": 2278,
                 "end": 2289,
-                "value": "__false__",
-                "raw": "\"__false__\""
+                "value": "__false__"
               },
               "property": {
                 "type": "Identifier",
@@ -1816,15 +1772,13 @@
             "type": "Literal",
             "start": 2351,
             "end": 2352,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2354,
             "end": 2394,
-            "value": "ToString: toString => false => \"false\"",
-            "raw": "'ToString: toString => false => \"false\"'"
+            "value": "ToString: toString => false => \"false\""
           }
         ],
         "optional": false
@@ -1870,8 +1824,7 @@
                 "type": "Literal",
                 "start": 2414,
                 "end": 2421,
-                "value": "__0__",
-                "raw": "\"__0__\""
+                "value": "__0__"
               },
               "property": {
                 "type": "Identifier",
@@ -1898,8 +1851,7 @@
                     "type": "Literal",
                     "start": 2437,
                     "end": 2438,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ],
                 "optional": false
@@ -1911,15 +1863,13 @@
             "type": "Literal",
             "start": 2442,
             "end": 2443,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2447,
             "end": 2510,
-            "value": "ToString: unbox object with internal slot => Number to String",
-            "raw": "\"ToString: unbox object with internal slot => Number to String\""
+            "value": "ToString: unbox object with internal slot => Number to String"
           }
         ],
         "optional": false
@@ -1965,8 +1915,7 @@
                 "type": "Literal",
                 "start": 2530,
                 "end": 2537,
-                "value": "__0__",
-                "raw": "\"__0__\""
+                "value": "__0__"
               },
               "property": {
                 "type": "Identifier",
@@ -2031,8 +1980,7 @@
                               "type": "Literal",
                               "start": 2596,
                               "end": 2597,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ]
@@ -2049,15 +1997,13 @@
             "type": "Literal",
             "start": 2607,
             "end": 2608,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2610,
             "end": 2655,
-            "value": "ToString: @@toPrimitive => Number to String",
-            "raw": "\"ToString: @@toPrimitive => Number to String\""
+            "value": "ToString: @@toPrimitive => Number to String"
           }
         ],
         "optional": false
@@ -2103,8 +2049,7 @@
                 "type": "Literal",
                 "start": 2675,
                 "end": 2682,
-                "value": "__0__",
-                "raw": "\"__0__\""
+                "value": "__0__"
               },
               "property": {
                 "type": "Identifier",
@@ -2156,8 +2101,7 @@
                               "type": "Literal",
                               "start": 2728,
                               "end": 2729,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ]
@@ -2196,15 +2140,13 @@
             "type": "Literal",
             "start": 2757,
             "end": 2758,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2760,
             "end": 2799,
-            "value": "ToString: valueOf => Number to String",
-            "raw": "\"ToString: valueOf => Number to String\""
+            "value": "ToString: valueOf => Number to String"
           }
         ],
         "optional": false
@@ -2250,8 +2192,7 @@
                 "type": "Literal",
                 "start": 2819,
                 "end": 2826,
-                "value": "__0__",
-                "raw": "\"__0__\""
+                "value": "__0__"
               },
               "property": {
                 "type": "Identifier",
@@ -2303,8 +2244,7 @@
                               "type": "Literal",
                               "start": 2873,
                               "end": 2874,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ]
@@ -2321,15 +2261,13 @@
             "type": "Literal",
             "start": 2884,
             "end": 2885,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2887,
             "end": 2927,
-            "value": "ToString: toString => Number to String",
-            "raw": "\"ToString: toString => Number to String\""
+            "value": "ToString: toString => Number to String"
           }
         ],
         "optional": false

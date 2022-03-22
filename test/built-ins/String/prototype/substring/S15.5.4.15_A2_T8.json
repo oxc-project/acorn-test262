@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 331,
                 "end": 356,
-                "value": "this is a string object",
-                "raw": "\"this is a string object\""
+                "value": "this is a string object"
               }
             ]
           }
@@ -102,16 +101,14 @@
                 "type": "Literal",
                 "start": 490,
                 "end": 491,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             {
               "type": "Literal",
               "start": 493,
               "end": 494,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -121,8 +118,7 @@
           "type": "Literal",
           "start": 500,
           "end": 525,
-          "value": "this is a string object",
-          "raw": "\"this is a string object\""
+          "value": "this is a string object"
         }
       },
       "consequent": {
@@ -153,8 +149,7 @@
                     "type": "Literal",
                     "start": 554,
                     "end": 690,
-                    "value": "#1: __string = new String(\"this is a string object\"); __string.substring(__string.length+1, 0) === \"this is a string object\". Actual: ",
-                    "raw": "'#1: __string = new String(\"this is a string object\"); __string.substring(__string.length+1, 0) === \"this is a string object\". Actual: '"
+                    "value": "#1: __string = new String(\"this is a string object\"); __string.substring(__string.length+1, 0) === \"this is a string object\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -209,16 +204,14 @@
                           "type": "Literal",
                           "start": 730,
                           "end": 731,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 733,
                         "end": 734,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false

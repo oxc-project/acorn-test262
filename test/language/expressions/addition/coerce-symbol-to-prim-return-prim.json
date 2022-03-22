@@ -138,8 +138,7 @@
           "type": "Literal",
           "start": 1325,
           "end": 1327,
-          "value": 86,
-          "raw": "86"
+          "value": 86
         }
       }
     },
@@ -179,8 +178,7 @@
               "type": "Literal",
               "start": 1346,
               "end": 1347,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "+",
             "right": {
@@ -194,8 +192,7 @@
             "type": "Literal",
             "start": 1353,
             "end": 1355,
-            "value": 87,
-            "raw": "87"
+            "value": 87
           }
         ],
         "optional": false
@@ -244,16 +241,14 @@
               "type": "Literal",
               "start": 1379,
               "end": 1380,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           },
           {
             "type": "Literal",
             "start": 1382,
             "end": 1384,
-            "value": 88,
-            "raw": "88"
+            "value": 88
           }
         ],
         "optional": false
@@ -295,8 +290,7 @@
               "type": "Literal",
               "start": 1404,
               "end": 1407,
-              "value": "s",
-              "raw": "'s'"
+              "value": "s"
             },
             "operator": "+",
             "right": {
@@ -310,8 +304,7 @@
             "type": "Literal",
             "start": 1413,
             "end": 1418,
-            "value": "s86",
-            "raw": "'s86'"
+            "value": "s86"
           }
         ],
         "optional": false
@@ -360,16 +353,14 @@
               "type": "Literal",
               "start": 1442,
               "end": 1445,
-              "value": "s",
-              "raw": "'s'"
+              "value": "s"
             }
           },
           {
             "type": "Literal",
             "start": 1447,
             "end": 1452,
-            "value": "86s",
-            "raw": "'86s'"
+            "value": "86s"
           }
         ],
         "optional": false
@@ -394,8 +385,7 @@
           "type": "Literal",
           "start": 1465,
           "end": 1470,
-          "value": "str",
-          "raw": "'str'"
+          "value": "str"
         }
       }
     },
@@ -435,8 +425,7 @@
               "type": "Literal",
               "start": 1489,
               "end": 1490,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "+",
             "right": {
@@ -450,8 +439,7 @@
             "type": "Literal",
             "start": 1496,
             "end": 1502,
-            "value": "0str",
-            "raw": "'0str'"
+            "value": "0str"
           }
         ],
         "optional": false
@@ -500,16 +488,14 @@
               "type": "Literal",
               "start": 1526,
               "end": 1527,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 1529,
             "end": 1535,
-            "value": "str0",
-            "raw": "'str0'"
+            "value": "str0"
           }
         ],
         "optional": false
@@ -551,8 +537,7 @@
               "type": "Literal",
               "start": 1555,
               "end": 1558,
-              "value": "s",
-              "raw": "'s'"
+              "value": "s"
             },
             "operator": "+",
             "right": {
@@ -566,8 +551,7 @@
             "type": "Literal",
             "start": 1564,
             "end": 1570,
-            "value": "sstr",
-            "raw": "'sstr'"
+            "value": "sstr"
           }
         ],
         "optional": false
@@ -616,16 +600,14 @@
               "type": "Literal",
               "start": 1594,
               "end": 1597,
-              "value": "s",
-              "raw": "'s'"
+              "value": "s"
             }
           },
           {
             "type": "Literal",
             "start": 1599,
             "end": 1605,
-            "value": "strs",
-            "raw": "'strs'"
+            "value": "strs"
           }
         ],
         "optional": false
@@ -727,8 +709,7 @@
                       "type": "Literal",
                       "start": 1678,
                       "end": 1679,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "operator": "+",
                     "right": {
@@ -746,8 +727,7 @@
             "type": "Literal",
             "start": 1688,
             "end": 1723,
-            "value": "ToNumber(Symbol): right-hand side",
-            "raw": "'ToNumber(Symbol): right-hand side'"
+            "value": "ToNumber(Symbol): right-hand side"
           }
         ],
         "optional": false
@@ -820,8 +800,7 @@
                       "type": "Literal",
                       "start": 1770,
                       "end": 1771,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 }
@@ -832,8 +811,7 @@
             "type": "Literal",
             "start": 1776,
             "end": 1810,
-            "value": "ToNumber(Symbol): left-hand side",
-            "raw": "'ToNumber(Symbol): left-hand side'"
+            "value": "ToNumber(Symbol): left-hand side"
           }
         ],
         "optional": false
@@ -899,8 +877,7 @@
                       "type": "Literal",
                       "start": 1853,
                       "end": 1855,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     },
                     "operator": "+",
                     "right": {
@@ -918,8 +895,7 @@
             "type": "Literal",
             "start": 1864,
             "end": 1899,
-            "value": "ToString(Symbol): right-hand side",
-            "raw": "'ToString(Symbol): right-hand side'"
+            "value": "ToString(Symbol): right-hand side"
           }
         ],
         "optional": false
@@ -992,8 +968,7 @@
                       "type": "Literal",
                       "start": 1946,
                       "end": 1948,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     }
                   }
                 }
@@ -1004,8 +979,7 @@
             "type": "Literal",
             "start": 1953,
             "end": 1987,
-            "value": "ToString(Symbol): left-hand size",
-            "raw": "'ToString(Symbol): left-hand size'"
+            "value": "ToString(Symbol): left-hand size"
           }
         ],
         "optional": false

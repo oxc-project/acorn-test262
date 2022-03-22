@@ -87,8 +87,7 @@
                         "type": "Literal",
                         "start": 382,
                         "end": 430,
-                        "value": "#1: Exception === null. Actual:  Exception ===",
-                        "raw": "'#1: Exception === null. Actual:  Exception ==='"
+                        "value": "#1: Exception === null. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {

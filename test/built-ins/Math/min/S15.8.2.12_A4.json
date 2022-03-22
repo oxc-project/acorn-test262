@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 330,
             "end": 340,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 342,
             "end": 403,
-            "value": "The value of `typeof Math.min` is expected to be \"function\"",
-            "raw": "'The value of `typeof Math.min` is expected to be \"function\"'"
+            "value": "The value of `typeof Math.min` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -146,15 +144,13 @@
             "type": "Literal",
             "start": 450,
             "end": 461,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 519,
-            "value": "The value of typeof Math.min.length is not \"undefined\"",
-            "raw": "'The value of typeof Math.min.length is not \"undefined\"'"
+            "value": "The value of typeof Math.min.length is not \"undefined\""
           }
         ],
         "optional": false
@@ -224,15 +220,13 @@
             "type": "Literal",
             "start": 556,
             "end": 557,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 559,
             "end": 609,
-            "value": "The value of Math.min.length is expected to be 2",
-            "raw": "'The value of Math.min.length is expected to be 2'"
+            "value": "The value of Math.min.length is expected to be 2"
           }
         ],
         "optional": false

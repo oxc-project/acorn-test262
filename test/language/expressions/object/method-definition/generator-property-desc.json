@@ -85,8 +85,7 @@
             "type": "Literal",
             "start": 422,
             "end": 430,
-            "value": "method",
-            "raw": "'method'"
+            "value": "method"
           }
         ],
         "optional": false
@@ -117,8 +116,7 @@
             "type": "Literal",
             "start": 453,
             "end": 461,
-            "value": "method",
-            "raw": "'method'"
+            "value": "method"
           }
         ],
         "optional": false
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 488,
             "end": 496,
-            "value": "method",
-            "raw": "'method'"
+            "value": "method"
           }
         ],
         "optional": false

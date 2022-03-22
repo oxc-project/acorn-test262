@@ -140,8 +140,7 @@
                     "type": "Literal",
                     "start": 469,
                     "end": 470,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],
@@ -779,8 +778,7 @@
                     "type": "Literal",
                     "start": 961,
                     "end": 962,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               }
@@ -815,8 +813,7 @@
                     "type": "Literal",
                     "start": 985,
                     "end": 986,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -855,8 +852,7 @@
                       "type": "Literal",
                       "start": 1016,
                       "end": 1020,
-                      "value": 4000,
-                      "raw": "4000"
+                      "value": 4000
                     }
                   ]
                 }
@@ -887,8 +883,7 @@
                   "type": "Literal",
                   "start": 1034,
                   "end": 1035,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -939,8 +934,7 @@
                   "type": "Literal",
                   "start": 1078,
                   "end": 1086,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 {
                   "type": "ObjectExpression",
@@ -964,8 +958,7 @@
                         "type": "Literal",
                         "start": 1101,
                         "end": 1105,
-                        "value": 4000,
-                        "raw": "4000"
+                        "value": 4000
                       },
                       "kind": "init"
                     }
@@ -1147,15 +1140,13 @@
                     "type": "Literal",
                     "start": 1223,
                     "end": 1224,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 1226,
                     "end": 1227,
-                    "value": 8,
-                    "raw": "8"
+                    "value": 8
                   }
                 ],
                 "optional": false
@@ -1188,15 +1179,13 @@
                     "type": "Literal",
                     "start": 1239,
                     "end": 1240,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 1242,
                     "end": 1244,
-                    "value": 16,
-                    "raw": "16"
+                    "value": 16
                   }
                 ],
                 "optional": false
@@ -1229,15 +1218,13 @@
                     "type": "Literal",
                     "start": 1256,
                     "end": 1257,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 1259,
                     "end": 1261,
-                    "value": 32,
-                    "raw": "32"
+                    "value": 32
                   }
                 ],
                 "optional": false
@@ -1373,8 +1360,7 @@
                         "type": "Literal",
                         "start": 1411,
                         "end": 1415,
-                        "value": 4000,
-                        "raw": "4000"
+                        "value": 4000
                       },
                       {
                         "type": "MemberExpression",

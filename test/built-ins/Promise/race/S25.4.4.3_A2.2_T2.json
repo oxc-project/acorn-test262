@@ -62,8 +62,7 @@
                         "type": "Literal",
                         "start": 314,
                         "end": 322,
-                        "value": "abrupt",
-                        "raw": "\"abrupt\""
+                        "value": "abrupt"
                       }
                     ]
                   }
@@ -113,8 +112,7 @@
                             "type": "Literal",
                             "start": 368,
                             "end": 454,
-                            "value": "Promise unexpectedly resolved: Promise.race(abruptCompletion) should throw TypeError",
-                            "raw": "'Promise unexpectedly resolved: Promise.race(abruptCompletion) should throw TypeError'"
+                            "value": "Promise unexpectedly resolved: Promise.race(abruptCompletion) should throw TypeError"
                           }
                         ]
                       }
@@ -199,8 +197,7 @@
                             "type": "Literal",
                             "start": 515,
                             "end": 581,
-                            "value": "The value of !!(err instanceof TypeError) is expected to be true",
-                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'"
+                            "value": "The value of !!(err instanceof TypeError) is expected to be true"
                           }
                         ],
                         "optional": false

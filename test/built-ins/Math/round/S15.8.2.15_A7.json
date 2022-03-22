@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 580,
               "end": 581,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -77,8 +76,7 @@
                     "type": "Literal",
                     "start": 596,
                     "end": 599,
-                    "value": 0.5,
-                    "raw": "0.5"
+                    "value": 0.5
                   }
                 }
               ],
@@ -93,8 +91,7 @@
               "type": "Literal",
               "start": 604,
               "end": 605,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -107,8 +104,7 @@
                 "type": "Literal",
                 "start": 609,
                 "end": 610,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           },
@@ -116,8 +112,7 @@
             "type": "Literal",
             "start": 614,
             "end": 688,
-            "value": "The result of evaluating (1 / Math.round(-0.5)) is expected to be 1 / -0",
-            "raw": "'The result of evaluating (1 / Math.round(-0.5)) is expected to be 1 / -0'"
+            "value": "The result of evaluating (1 / Math.round(-0.5)) is expected to be 1 / -0"
           }
         ],
         "optional": false
@@ -159,8 +154,7 @@
               "type": "Literal",
               "start": 713,
               "end": 714,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -197,8 +191,7 @@
                     "type": "Literal",
                     "start": 729,
                     "end": 733,
-                    "value": 0.25,
-                    "raw": "0.25"
+                    "value": 0.25
                   }
                 }
               ],
@@ -213,8 +206,7 @@
               "type": "Literal",
               "start": 738,
               "end": 739,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -227,8 +219,7 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 744,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           },
@@ -236,8 +227,7 @@
             "type": "Literal",
             "start": 748,
             "end": 823,
-            "value": "The result of evaluating (1 / Math.round(-0.25)) is expected to be 1 / -0",
-            "raw": "'The result of evaluating (1 / Math.round(-0.25)) is expected to be 1 / -0'"
+            "value": "The result of evaluating (1 / Math.round(-0.25)) is expected to be 1 / -0"
           }
         ],
         "optional": false
@@ -279,8 +269,7 @@
               "type": "Literal",
               "start": 845,
               "end": 846,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -317,8 +306,7 @@
                     "type": "Literal",
                     "start": 861,
                     "end": 862,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],
@@ -333,8 +321,7 @@
               "type": "Literal",
               "start": 865,
               "end": 866,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -347,8 +334,7 @@
                 "type": "Literal",
                 "start": 870,
                 "end": 871,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           },
@@ -356,8 +342,7 @@
             "type": "Literal",
             "start": 873,
             "end": 945,
-            "value": "The result of evaluating (1 / Math.round(-0)) is expected to be 1 / -0",
-            "raw": "'The result of evaluating (1 / Math.round(-0)) is expected to be 1 / -0'"
+            "value": "The result of evaluating (1 / Math.round(-0)) is expected to be 1 / -0"
           }
         ],
         "optional": false
@@ -382,8 +367,7 @@
             "type": "Literal",
             "start": 957,
             "end": 958,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -412,8 +396,7 @@
             "type": "Literal",
             "start": 976,
             "end": 979,
-            "value": 0.5,
-            "raw": "0.5"
+            "value": 0.5
           },
           "operator": "-",
           "right": {
@@ -444,8 +427,7 @@
               "type": "Literal",
               "start": 999,
               "end": 1000,
-              "value": 4,
-              "raw": "4"
+              "value": 4
             }
           }
         }
@@ -487,8 +469,7 @@
               "type": "Literal",
               "start": 1019,
               "end": 1020,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -533,24 +514,21 @@
               "type": "Literal",
               "start": 1038,
               "end": 1039,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
               "type": "Literal",
               "start": 1042,
               "end": 1043,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 1045,
             "end": 1115,
-            "value": "The result of evaluating (1 / Math.round(x)) is expected to be 1 / 0",
-            "raw": "'The result of evaluating (1 / Math.round(x)) is expected to be 1 / 0'"
+            "value": "The result of evaluating (1 / Math.round(x)) is expected to be 1 / 0"
           }
         ],
         "optional": false
@@ -593,8 +571,7 @@
                   "type": "Literal",
                   "start": 1136,
                   "end": 1137,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "operator": "/",
                 "right": {
@@ -622,8 +599,7 @@
                 "type": "Literal",
                 "start": 1157,
                 "end": 1158,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -701,8 +677,7 @@
             "type": "Literal",
             "start": 1196,
             "end": 1245,
-            "value": "Math.round(-(2 / Number.EPSILON - 1)) returns x",
-            "raw": "'Math.round(-(2 / Number.EPSILON - 1)) returns x'"
+            "value": "Math.round(-(2 / Number.EPSILON - 1)) returns x"
           }
         ],
         "optional": false
@@ -745,8 +720,7 @@
                   "type": "Literal",
                   "start": 1266,
                   "end": 1269,
-                  "value": 1.5,
-                  "raw": "1.5"
+                  "value": 1.5
                 },
                 "operator": "/",
                 "right": {
@@ -774,8 +748,7 @@
                 "type": "Literal",
                 "start": 1289,
                 "end": 1290,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -853,8 +826,7 @@
             "type": "Literal",
             "start": 1328,
             "end": 1379,
-            "value": "Math.round(-(1.5 / Number.EPSILON - 1)) returns x",
-            "raw": "'Math.round(-(1.5 / Number.EPSILON - 1)) returns x'"
+            "value": "Math.round(-(1.5 / Number.EPSILON - 1)) returns x"
           }
         ],
         "optional": false
@@ -897,8 +869,7 @@
                   "type": "Literal",
                   "start": 1400,
                   "end": 1401,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "operator": "/",
                 "right": {
@@ -926,8 +897,7 @@
                 "type": "Literal",
                 "start": 1421,
                 "end": 1422,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -1005,8 +975,7 @@
             "type": "Literal",
             "start": 1460,
             "end": 1509,
-            "value": "Math.round(-(1 / Number.EPSILON + 1)) returns x",
-            "raw": "'Math.round(-(1 / Number.EPSILON + 1)) returns x'"
+            "value": "Math.round(-(1 / Number.EPSILON + 1)) returns x"
           }
         ],
         "optional": false
@@ -1039,8 +1008,7 @@
               "type": "Literal",
               "start": 1528,
               "end": 1529,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -1068,8 +1036,7 @@
             "type": "Literal",
             "start": 1549,
             "end": 1550,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -1145,8 +1112,7 @@
             "type": "Literal",
             "start": 1587,
             "end": 1633,
-            "value": "Math.round(1 / Number.EPSILON + 1) returns x",
-            "raw": "'Math.round(1 / Number.EPSILON + 1) returns x'"
+            "value": "Math.round(1 / Number.EPSILON + 1) returns x"
           }
         ],
         "optional": false
@@ -1179,8 +1145,7 @@
               "type": "Literal",
               "start": 1652,
               "end": 1655,
-              "value": 1.5,
-              "raw": "1.5"
+              "value": 1.5
             },
             "operator": "/",
             "right": {
@@ -1208,8 +1173,7 @@
             "type": "Literal",
             "start": 1675,
             "end": 1676,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -1285,8 +1249,7 @@
             "type": "Literal",
             "start": 1713,
             "end": 1761,
-            "value": "Math.round(1.5 / Number.EPSILON - 1) returns x",
-            "raw": "'Math.round(1.5 / Number.EPSILON - 1) returns x'"
+            "value": "Math.round(1.5 / Number.EPSILON - 1) returns x"
           }
         ],
         "optional": false
@@ -1319,8 +1282,7 @@
               "type": "Literal",
               "start": 1781,
               "end": 1782,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "operator": "/",
             "right": {
@@ -1348,8 +1310,7 @@
             "type": "Literal",
             "start": 1802,
             "end": 1803,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -1425,8 +1386,7 @@
             "type": "Literal",
             "start": 1840,
             "end": 1886,
-            "value": "Math.round(2 / Number.EPSILON - 1) returns x",
-            "raw": "'Math.round(2 / Number.EPSILON - 1) returns x'"
+            "value": "Math.round(2 / Number.EPSILON - 1) returns x"
           }
         ],
         "optional": false

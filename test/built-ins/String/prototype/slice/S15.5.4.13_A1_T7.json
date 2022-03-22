@@ -40,8 +40,7 @@
                     "type": "Literal",
                     "start": 419,
                     "end": 420,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],
@@ -61,8 +60,7 @@
               "type": "Literal",
               "start": 428,
               "end": 431,
-              "value": "e",
-              "raw": "\"e\""
+              "value": "e"
             },
             {
               "type": "Identifier",
@@ -78,8 +76,7 @@
           "type": "Literal",
           "start": 448,
           "end": 459,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -110,8 +107,7 @@
                     "type": "Literal",
                     "start": 488,
                     "end": 555,
-                    "value": "#1: String(void 0).slice(\"e\",undefined) === \"undefined\". Actual: ",
-                    "raw": "'#1: String(void 0).slice(\"e\",undefined) === \"undefined\". Actual: '"
+                    "value": "#1: String(void 0).slice(\"e\",undefined) === \"undefined\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -143,8 +139,7 @@
                               "type": "Literal",
                               "start": 570,
                               "end": 571,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ],
@@ -164,8 +159,7 @@
                         "type": "Literal",
                         "start": 579,
                         "end": 582,
-                        "value": "e",
-                        "raw": "\"e\""
+                        "value": "e"
                       },
                       {
                         "type": "Identifier",

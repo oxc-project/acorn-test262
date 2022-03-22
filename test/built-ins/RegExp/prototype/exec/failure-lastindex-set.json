@@ -23,7 +23,6 @@
             "start": 1047,
             "end": 1051,
             "value": {},
-            "raw": "/./g",
             "regex": {
               "pattern": ".",
               "flags": "g"
@@ -45,7 +44,6 @@
             "start": 1059,
             "end": 1063,
             "value": {},
-            "raw": "/./y",
             "regex": {
               "pattern": ".",
               "flags": "y"
@@ -67,7 +65,6 @@
             "start": 1072,
             "end": 1077,
             "value": {},
-            "raw": "/./gy",
             "regex": {
               "pattern": ".",
               "flags": "gy"
@@ -96,8 +93,7 @@
             "type": "Literal",
             "start": 1088,
             "end": 1094,
-            "value": "test",
-            "raw": "\"test\""
+            "value": "test"
           }
         }
       ],
@@ -215,8 +211,7 @@
                   "type": "Literal",
                   "start": 1222,
                   "end": 1223,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               {
@@ -231,16 +226,14 @@
                     "type": "Literal",
                     "start": 1227,
                     "end": 1228,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   "operator": "**",
                   "right": {
                     "type": "Literal",
                     "start": 1230,
                     "end": 1232,
-                    "value": 32,
-                    "raw": "32"
+                    "value": 32
                   }
                 },
                 "operator": "+",
@@ -248,8 +241,7 @@
                   "type": "Literal",
                   "start": 1235,
                   "end": 1236,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 }
               },
               {
@@ -264,16 +256,14 @@
                     "type": "Literal",
                     "start": 1240,
                     "end": 1241,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   "operator": "**",
                   "right": {
                     "type": "Literal",
                     "start": 1243,
                     "end": 1245,
-                    "value": 32,
-                    "raw": "32"
+                    "value": 32
                   }
                 },
                 "operator": "+",
@@ -281,8 +271,7 @@
                   "type": "Literal",
                   "start": 1248,
                   "end": 1249,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 }
               },
               {
@@ -297,16 +286,14 @@
                     "type": "Literal",
                     "start": 1253,
                     "end": 1254,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   "operator": "**",
                   "right": {
                     "type": "Literal",
                     "start": 1256,
                     "end": 1258,
-                    "value": 32,
-                    "raw": "32"
+                    "value": 32
                   }
                 },
                 "operator": "+",
@@ -314,8 +301,7 @@
                   "type": "Literal",
                   "start": 1261,
                   "end": 1262,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               },
               {
@@ -330,16 +316,14 @@
                     "type": "Literal",
                     "start": 1266,
                     "end": 1267,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   "operator": "**",
                   "right": {
                     "type": "Literal",
                     "start": 1269,
                     "end": 1271,
-                    "value": 32,
-                    "raw": "32"
+                    "value": 32
                   }
                 },
                 "operator": "+",
@@ -347,8 +331,7 @@
                   "type": "Literal",
                   "start": 1274,
                   "end": 1275,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               {
@@ -359,16 +342,14 @@
                   "type": "Literal",
                   "start": 1279,
                   "end": 1280,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "operator": "**",
                 "right": {
                   "type": "Literal",
                   "start": 1282,
                   "end": 1284,
-                  "value": 32,
-                  "raw": "32"
+                  "value": 32
                 }
               },
               {
@@ -383,16 +364,14 @@
                     "type": "Literal",
                     "start": 1288,
                     "end": 1289,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   "operator": "**",
                   "right": {
                     "type": "Literal",
                     "start": 1291,
                     "end": 1293,
-                    "value": 32,
-                    "raw": "32"
+                    "value": 32
                   }
                 },
                 "operator": "-",
@@ -400,16 +379,14 @@
                   "type": "Literal",
                   "start": 1296,
                   "end": 1297,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               {
                 "type": "Literal",
                 "start": 1301,
                 "end": 1302,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -440,8 +417,7 @@
               "type": "Literal",
               "start": 1320,
               "end": 1321,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -724,8 +700,7 @@
                         "type": "Literal",
                         "start": 1524,
                         "end": 1577,
-                        "value": "global RegExp instance must fail to match against '",
-                        "raw": "\"global RegExp instance must fail to match against '\""
+                        "value": "global RegExp instance must fail to match against '"
                       },
                       "operator": "+",
                       "right": {
@@ -740,8 +715,7 @@
                       "type": "Literal",
                       "start": 1590,
                       "end": 1607,
-                      "value": "' at lastIndex ",
-                      "raw": "\"' at lastIndex \""
+                      "value": "' at lastIndex "
                     }
                   },
                   "operator": "+",
@@ -840,8 +814,7 @@
                         "type": "Literal",
                         "start": 1666,
                         "end": 1719,
-                        "value": "sticky RegExp instance must fail to match against '",
-                        "raw": "\"sticky RegExp instance must fail to match against '\""
+                        "value": "sticky RegExp instance must fail to match against '"
                       },
                       "operator": "+",
                       "right": {
@@ -856,8 +829,7 @@
                       "type": "Literal",
                       "start": 1732,
                       "end": 1749,
-                      "value": "' at lastIndex ",
-                      "raw": "\"' at lastIndex \""
+                      "value": "' at lastIndex "
                     }
                   },
                   "operator": "+",
@@ -956,8 +928,7 @@
                         "type": "Literal",
                         "start": 1809,
                         "end": 1869,
-                        "value": "global sticky RegExp instance must fail to match against '",
-                        "raw": "\"global sticky RegExp instance must fail to match against '\""
+                        "value": "global sticky RegExp instance must fail to match against '"
                       },
                       "operator": "+",
                       "right": {
@@ -972,8 +943,7 @@
                       "type": "Literal",
                       "start": 1882,
                       "end": 1899,
-                      "value": "' at lastIndex ",
-                      "raw": "\"' at lastIndex \""
+                      "value": "' at lastIndex "
                     }
                   },
                   "operator": "+",
@@ -1039,8 +1009,7 @@
                   "type": "Literal",
                   "start": 1949,
                   "end": 1950,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "BinaryExpression",
@@ -1054,8 +1023,7 @@
                       "type": "Literal",
                       "start": 1958,
                       "end": 2013,
-                      "value": "global RegExp instance lastIndex must be reset after ",
-                      "raw": "\"global RegExp instance lastIndex must be reset after \""
+                      "value": "global RegExp instance lastIndex must be reset after "
                     },
                     "operator": "+",
                     "right": {
@@ -1070,8 +1038,7 @@
                     "type": "Literal",
                     "start": 2034,
                     "end": 2058,
-                    "value": " exceeds string length",
-                    "raw": "\" exceeds string length\""
+                    "value": " exceeds string length"
                   }
                 }
               ],
@@ -1129,8 +1096,7 @@
                   "type": "Literal",
                   "start": 2095,
                   "end": 2096,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "BinaryExpression",
@@ -1144,8 +1110,7 @@
                       "type": "Literal",
                       "start": 2104,
                       "end": 2159,
-                      "value": "sticky RegExp instance lastIndex must be reset after ",
-                      "raw": "\"sticky RegExp instance lastIndex must be reset after \""
+                      "value": "sticky RegExp instance lastIndex must be reset after "
                     },
                     "operator": "+",
                     "right": {
@@ -1160,8 +1125,7 @@
                     "type": "Literal",
                     "start": 2180,
                     "end": 2204,
-                    "value": " exceeds string length",
-                    "raw": "\" exceeds string length\""
+                    "value": " exceeds string length"
                   }
                 }
               ],
@@ -1219,8 +1183,7 @@
                   "type": "Literal",
                   "start": 2242,
                   "end": 2243,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "BinaryExpression",
@@ -1234,8 +1197,7 @@
                       "type": "Literal",
                       "start": 2251,
                       "end": 2313,
-                      "value": "global sticky RegExp instance lastIndex must be reset after ",
-                      "raw": "\"global sticky RegExp instance lastIndex must be reset after \""
+                      "value": "global sticky RegExp instance lastIndex must be reset after "
                     },
                     "operator": "+",
                     "right": {
@@ -1250,8 +1212,7 @@
                     "type": "Literal",
                     "start": 2334,
                     "end": 2358,
-                    "value": " exceeds string length",
-                    "raw": "\" exceeds string length\""
+                    "value": " exceeds string length"
                   }
                 }
               ],

@@ -51,15 +51,13 @@
                     "type": "Literal",
                     "start": 1109,
                     "end": 1113,
-                    "value": 2000,
-                    "raw": "2000"
+                    "value": 2000
                   },
                   {
                     "type": "Literal",
                     "start": 1115,
                     "end": 1116,
-                    "value": 5,
-                    "raw": "5"
+                    "value": 5
                   }
                 ]
               },
@@ -85,8 +83,7 @@
                       "type": "Literal",
                       "start": 1129,
                       "end": 1133,
-                      "value": 2000,
-                      "raw": "2000"
+                      "value": 2000
                     },
                     "kind": "init"
                   },
@@ -107,8 +104,7 @@
                       "type": "Literal",
                       "start": 1142,
                       "end": 1143,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     },
                     "kind": "init"
                   }
@@ -118,8 +114,7 @@
                 "type": "Literal",
                 "start": 1149,
                 "end": 1158,
-                "value": "2000-05",
-                "raw": "\"2000-05\""
+                "value": "2000-05"
               }
             ]
           }
@@ -199,15 +194,13 @@
                   "type": "Literal",
                   "start": 1237,
                   "end": 1247,
-                  "value": "overflow",
-                  "raw": "\"overflow\""
+                  "value": "overflow"
                 },
                 {
                   "type": "Literal",
                   "start": 1249,
                   "end": 1260,
-                  "value": "constrain",
-                  "raw": "\"constrain\""
+                  "value": "constrain"
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -356,22 +349,19 @@
                         "type": "Literal",
                         "start": 1395,
                         "end": 1399,
-                        "value": 2000,
-                        "raw": "2000"
+                        "value": 2000
                       },
                       {
                         "type": "Literal",
                         "start": 1401,
                         "end": 1402,
-                        "value": 5,
-                        "raw": "5"
+                        "value": 5
                       },
                       {
                         "type": "Literal",
                         "start": 1404,
                         "end": 1409,
-                        "value": "M05",
-                        "raw": "\"M05\""
+                        "value": "M05"
                       },
                       {
                         "type": "Identifier",

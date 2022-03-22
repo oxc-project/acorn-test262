@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 289,
                 "end": 294,
-                "value": "ABC",
-                "raw": "\"ABC\""
+                "value": "ABC"
               }
             ]
           }
@@ -143,8 +142,7 @@
           "type": "Literal",
           "start": 465,
           "end": 472,
-          "value": "/abc/",
-          "raw": "\"/abc/\""
+          "value": "/abc/"
         }
       },
       "consequent": {
@@ -175,8 +173,7 @@
                     "type": "Literal",
                     "start": 501,
                     "end": 629,
-                    "value": "#1: var __reg = new RegExp(\"ABC\"); __reg.toLowerCase = String.prototype.toLowerCase; __reg.toLowerCase() === \"/abc/\". Actual: ",
-                    "raw": "'#1: var __reg = new RegExp(\"ABC\"); __reg.toLowerCase = String.prototype.toLowerCase; __reg.toLowerCase() === \"/abc/\". Actual: '"
+                    "value": "#1: var __reg = new RegExp(\"ABC\"); __reg.toLowerCase = String.prototype.toLowerCase; __reg.toLowerCase() === \"/abc/\". Actual: "
                   },
                   "operator": "+",
                   "right": {

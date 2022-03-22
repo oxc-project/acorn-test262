@@ -34,113 +34,97 @@
                 "type": "Literal",
                 "start": 561,
                 "end": 562,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 566,
                 "end": 568,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 572,
                 "end": 582,
-                "value": "standard",
-                "raw": "\"standard\""
+                "value": "standard"
               },
               {
                 "type": "Literal",
                 "start": 586,
                 "end": 596,
-                "value": "Grapheme",
-                "raw": "\"Grapheme\""
+                "value": "Grapheme"
               },
               {
                 "type": "Literal",
                 "start": 600,
                 "end": 610,
-                "value": "GRAPHEME",
-                "raw": "\"GRAPHEME\""
+                "value": "GRAPHEME"
               },
               {
                 "type": "Literal",
                 "start": 614,
                 "end": 626,
-                "value": "grapheme\u0000",
-                "raw": "\"grapheme\\0\""
+                "value": "grapheme\u0000"
               },
               {
                 "type": "Literal",
                 "start": 630,
                 "end": 636,
-                "value": "Word",
-                "raw": "\"Word\""
+                "value": "Word"
               },
               {
                 "type": "Literal",
                 "start": 640,
                 "end": 646,
-                "value": "WORD",
-                "raw": "\"WORD\""
+                "value": "WORD"
               },
               {
                 "type": "Literal",
                 "start": 650,
                 "end": 658,
-                "value": "word\u0000",
-                "raw": "\"word\\0\""
+                "value": "word\u0000"
               },
               {
                 "type": "Literal",
                 "start": 662,
                 "end": 672,
-                "value": "Sentence",
-                "raw": "\"Sentence\""
+                "value": "Sentence"
               },
               {
                 "type": "Literal",
                 "start": 676,
                 "end": 686,
-                "value": "SENTENCE",
-                "raw": "\"SENTENCE\""
+                "value": "SENTENCE"
               },
               {
                 "type": "Literal",
                 "start": 690,
                 "end": 702,
-                "value": "sentence\u0000",
-                "raw": "\"sentence\\0\""
+                "value": "sentence\u0000"
               },
               {
                 "type": "Literal",
                 "start": 706,
                 "end": 712,
-                "value": "line",
-                "raw": "\"line\""
+                "value": "line"
               },
               {
                 "type": "Literal",
                 "start": 716,
                 "end": 722,
-                "value": "Line",
-                "raw": "\"Line\""
+                "value": "Line"
               },
               {
                 "type": "Literal",
                 "start": 726,
                 "end": 732,
-                "value": "LINE",
-                "raw": "\"LINE\""
+                "value": "LINE"
               },
               {
                 "type": "Literal",
                 "start": 736,
                 "end": 744,
-                "value": "line\u0000",
-                "raw": "\"line\\0\""
+                "value": "line\u0000"
               }
             ]
           }

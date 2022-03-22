@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 331,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "arguments": []
             }
@@ -49,8 +48,7 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 385,
-                  "value": "#1: new 1 throw TypeError",
-                  "raw": "'#1: new 1 throw TypeError'"
+                  "value": "#1: new 1 throw TypeError"
                 }
               ]
             }
@@ -136,8 +134,7 @@
                           "type": "Literal",
                           "start": 473,
                           "end": 500,
-                          "value": "#1: new 1 throw TypeError",
-                          "raw": "'#1: new 1 throw TypeError'"
+                          "value": "#1: new 1 throw TypeError"
                         }
                       ]
                     }
@@ -179,8 +176,7 @@
                   "type": "Literal",
                   "start": 537,
                   "end": 538,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -222,8 +218,7 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 612,
-                  "value": "#2: var x = 1; new x throw TypeError",
-                  "raw": "'#2: var x = 1; new x throw TypeError'"
+                  "value": "#2: var x = 1; new x throw TypeError"
                 }
               ]
             }
@@ -309,8 +304,7 @@
                           "type": "Literal",
                           "start": 700,
                           "end": 738,
-                          "value": "#2: var x = 1; new x throw TypeError",
-                          "raw": "'#2: var x = 1; new x throw TypeError'"
+                          "value": "#2: var x = 1; new x throw TypeError"
                         }
                       ]
                     }
@@ -352,8 +346,7 @@
                   "type": "Literal",
                   "start": 775,
                   "end": 776,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -395,8 +388,7 @@
                   "type": "Literal",
                   "start": 814,
                   "end": 854,
-                  "value": "#3: var x = 1; new x() throw TypeError",
-                  "raw": "'#3: var x = 1; new x() throw TypeError'"
+                  "value": "#3: var x = 1; new x() throw TypeError"
                 }
               ]
             }
@@ -482,8 +474,7 @@
                           "type": "Literal",
                           "start": 942,
                           "end": 982,
-                          "value": "#3: var x = 1; new x() throw TypeError",
-                          "raw": "'#3: var x = 1; new x() throw TypeError'"
+                          "value": "#3: var x = 1; new x() throw TypeError"
                         }
                       ]
                     }

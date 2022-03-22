@@ -43,8 +43,7 @@
             "type": "Literal",
             "start": 1316,
             "end": 1335,
-            "value": "Promise rejected.",
-            "raw": "\"Promise rejected.\""
+            "value": "Promise rejected."
           }
         }
       ],
@@ -159,8 +158,7 @@
             "type": "Literal",
             "start": 1426,
             "end": 1471,
-            "value": "Expected result to be an instanceof Promise",
-            "raw": "\"Expected result to be an instanceof Promise\""
+            "value": "Expected result to be an instanceof Promise"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
                             "type": "Literal",
                             "start": 1530,
                             "end": 1571,
-                            "value": "Expected result to be rejected promise.",
-                            "raw": "\"Expected result to be rejected promise.\""
+                            "value": "Expected result to be rejected promise."
                           }
                         ]
                       }
@@ -340,8 +337,7 @@
                                     "type": "Literal",
                                     "start": 1664,
                                     "end": 1700,
-                                    "value": "Expected thrown custom error, got ",
-                                    "raw": "\"Expected thrown custom error, got \""
+                                    "value": "Expected thrown custom error, got "
                                   },
                                   "operator": "+",
                                   "right": {

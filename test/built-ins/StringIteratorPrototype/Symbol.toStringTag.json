@@ -54,8 +54,7 @@
                     "type": "Literal",
                     "start": 572,
                     "end": 574,
-                    "value": "",
-                    "raw": "''"
+                    "value": ""
                   },
                   "property": {
                     "type": "MemberExpression",
@@ -153,8 +152,7 @@
             "type": "Literal",
             "start": 655,
             "end": 672,
-            "value": "String Iterator",
-            "raw": "'String Iterator'"
+            "value": "String Iterator"
           }
         ],
         "optional": false

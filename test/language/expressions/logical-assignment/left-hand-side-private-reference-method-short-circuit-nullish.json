@@ -41,8 +41,7 @@
                   "type": "Literal",
                   "start": 1620,
                   "end": 1665,
-                  "value": "The right-hand side should not be evaluated",
-                  "raw": "\"The right-hand side should not be evaluated\""
+                  "value": "The right-hand side should not be evaluated"
                 }
               ]
             }
@@ -73,7 +72,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1683,
               "end": 1697,
               "name": "privateMethod"
@@ -141,14 +140,14 @@
                           "start": 1739,
                           "end": 1743
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1744,
                           "end": 1758,
                           "name": "privateMethod"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "right": {
                         "type": "CallExpression",
@@ -209,14 +208,14 @@
                         "start": 1828,
                         "end": 1832
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 1833,
                         "end": 1847,
                         "name": "privateMethod"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -341,8 +340,7 @@
             "type": "Literal",
             "start": 1952,
             "end": 2011,
-            "value": "The expression should evaluate to the short-circuit value",
-            "raw": "\"The expression should evaluate to the short-circuit value\""
+            "value": "The expression should evaluate to the short-circuit value"
           }
         ],
         "optional": false

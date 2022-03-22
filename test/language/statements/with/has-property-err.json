@@ -99,8 +99,7 @@
                                 "type": "Literal",
                                 "start": 709,
                                 "end": 718,
-                                "value": "test262",
-                                "raw": "'test262'"
+                                "value": "test262"
                               }
                             },
                             "consequent": {

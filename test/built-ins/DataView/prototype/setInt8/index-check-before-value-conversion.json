@@ -44,8 +44,7 @@
                     "type": "Literal",
                     "start": 558,
                     "end": 559,
-                    "value": 8,
-                    "raw": "8"
+                    "value": 8
                   }
                 ]
               },
@@ -53,8 +52,7 @@
                 "type": "Literal",
                 "start": 562,
                 "end": 563,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -128,8 +126,7 @@
                               "type": "Literal",
                               "start": 635,
                               "end": 651,
-                              "value": "valueOf called",
-                              "raw": "\"valueOf called\""
+                              "value": "valueOf called"
                             }
                           ]
                         }
@@ -231,8 +228,7 @@
                           "type": "Literal",
                           "start": 721,
                           "end": 724,
-                          "value": 1.5,
-                          "raw": "1.5"
+                          "value": 1.5
                         }
                       },
                       {
@@ -252,8 +248,7 @@
             "type": "Literal",
             "start": 740,
             "end": 765,
-            "value": "setInt8(-1.5, poisoned)",
-            "raw": "\"setInt8(-1.5, poisoned)\""
+            "value": "setInt8(-1.5, poisoned)"
           }
         ],
         "optional": false
@@ -345,8 +340,7 @@
                           "type": "Literal",
                           "start": 828,
                           "end": 829,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       {
@@ -366,8 +360,7 @@
             "type": "Literal",
             "start": 845,
             "end": 868,
-            "value": "setInt8(-1, poisoned)",
-            "raw": "\"setInt8(-1, poisoned)\""
+            "value": "setInt8(-1, poisoned)"
           }
         ],
         "optional": false
@@ -479,8 +472,7 @@
             "type": "Literal",
             "start": 955,
             "end": 985,
-            "value": "setInt8(-Infinity, poisoned)",
-            "raw": "\"setInt8(-Infinity, poisoned)\""
+            "value": "setInt8(-Infinity, poisoned)"
           }
         ],
         "optional": false
@@ -585,8 +577,7 @@
             "type": "Literal",
             "start": 1071,
             "end": 1100,
-            "value": "setInt8(Infinity, poisoned)",
-            "raw": "\"setInt8(Infinity, poisoned)\""
+            "value": "setInt8(Infinity, poisoned)"
           }
         ],
         "optional": false

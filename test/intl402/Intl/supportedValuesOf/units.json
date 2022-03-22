@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 890,
                 "end": 896,
-                "value": "unit",
-                "raw": "\"unit\""
+                "value": "unit"
               }
             ],
             "optional": false
@@ -108,8 +107,7 @@
             "type": "Literal",
             "start": 929,
             "end": 955,
-            "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "value": "Returns an Array object."
           }
         ],
         "optional": false
@@ -199,8 +197,7 @@
             "type": "Literal",
             "start": 1039,
             "end": 1079,
-            "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "value": "The array prototype is Array.prototype"
           }
         ],
         "optional": false
@@ -249,8 +246,7 @@
                 "type": "Literal",
                 "start": 1125,
                 "end": 1131,
-                "value": "unit",
-                "raw": "\"unit\""
+                "value": "unit"
               }
             ],
             "optional": false
@@ -303,8 +299,7 @@
             "type": "Literal",
             "start": 1193,
             "end": 1236,
-            "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "value": "Returns a new array object for each call."
           }
         ],
         "optional": false
@@ -374,8 +369,7 @@
             "type": "Literal",
             "start": 1306,
             "end": 1328,
-            "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "value": "The array is sorted."
           }
         ],
         "optional": false
@@ -464,8 +458,7 @@
             "type": "Literal",
             "start": 1401,
             "end": 1440,
-            "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "value": "The array doesn't contain duplicates."
           }
         ],
         "optional": false
@@ -675,8 +668,7 @@
                         "type": "Literal",
                         "start": 1631,
                         "end": 1638,
-                        "value": "-per-",
-                        "raw": "\"-per-\""
+                        "value": "-per-"
                       }
                     ],
                     "optional": false

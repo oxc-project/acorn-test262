@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 270,
             "end": 276,
-            "value": "tanh",
-            "raw": "\"tanh\""
+            "value": "tanh"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 300,
             "end": 306,
-            "value": "tanh",
-            "raw": "\"tanh\""
+            "value": "tanh"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 334,
             "end": 340,
-            "value": "tanh",
-            "raw": "\"tanh\""
+            "value": "tanh"
           }
         ],
         "optional": false

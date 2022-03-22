@@ -53,8 +53,7 @@
                       "type": "Literal",
                       "start": 586,
                       "end": 587,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Identifier",
@@ -70,8 +69,7 @@
                   "type": "Literal",
                   "start": 594,
                   "end": 607,
-                  "value": "new.target;",
-                  "raw": "'new.target;'"
+                  "value": "new.target;"
                 }
               ],
               "optional": false
@@ -167,15 +165,13 @@
             "type": "Literal",
             "start": 677,
             "end": 685,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 687,
             "end": 722,
-            "value": "object value thrown (global code)",
-            "raw": "'object value thrown (global code)'"
+            "value": "object value thrown (global code)"
           }
         ],
         "optional": false
@@ -238,8 +234,7 @@
             "type": "Literal",
             "start": 778,
             "end": 812,
-            "value": "SyntaxError thrown (global code)",
-            "raw": "'SyntaxError thrown (global code)'"
+            "value": "SyntaxError thrown (global code)"
           }
         ],
         "optional": false
@@ -325,8 +320,7 @@
                                   "type": "Literal",
                                   "start": 860,
                                   "end": 861,
-                                  "value": 0,
-                                  "raw": "0"
+                                  "value": 0
                                 },
                                 {
                                   "type": "Identifier",
@@ -342,8 +336,7 @@
                               "type": "Literal",
                               "start": 868,
                               "end": 881,
-                              "value": "new.target;",
-                              "raw": "'new.target;'"
+                              "value": "new.target;"
                             }
                           ],
                           "optional": false
@@ -447,15 +440,13 @@
             "type": "Literal",
             "start": 962,
             "end": 970,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 972,
             "end": 1009,
-            "value": "object value thrown (function code)",
-            "raw": "'object value thrown (function code)'"
+            "value": "object value thrown (function code)"
           }
         ],
         "optional": false
@@ -518,8 +509,7 @@
             "type": "Literal",
             "start": 1066,
             "end": 1102,
-            "value": "SyntaxError thrown (function code)",
-            "raw": "'SyntaxError thrown (function code)'"
+            "value": "SyntaxError thrown (function code)"
           }
         ],
         "optional": false

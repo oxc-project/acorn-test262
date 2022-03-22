@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 864,
                 "end": 873,
-                "value": "en-u-c0",
-                "raw": "\"en-u-c0\""
+                "value": "en-u-c0"
               },
               {
                 "type": "Literal",
                 "start": 877,
                 "end": 886,
-                "value": "en-u-00",
-                "raw": "\"en-u-00\""
+                "value": "en-u-00"
               }
             ]
           }
@@ -67,8 +65,7 @@
                 "type": "Literal",
                 "start": 964,
                 "end": 973,
-                "value": "en-u-0c",
-                "raw": "\"en-u-0c\""
+                "value": "en-u-0c"
               }
             ]
           }
@@ -179,8 +176,7 @@
                       "type": "Literal",
                       "start": 1155,
                       "end": 1159,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -195,8 +191,7 @@
                     "type": "Literal",
                     "start": 1172,
                     "end": 1217,
-                    "value": "\" isn't a structurally valid language tag.",
-                    "raw": "\"\\\" isn't a structurally valid language tag.\""
+                    "value": "\" isn't a structurally valid language tag."
                   }
                 }
               ],
@@ -370,8 +365,7 @@
                       "type": "Literal",
                       "start": 1437,
                       "end": 1441,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -386,8 +380,7 @@
                     "type": "Literal",
                     "start": 1452,
                     "end": 1508,
-                    "value": "\" is a canonical and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                    "value": "\" is a canonical and structurally valid language tag."
                   }
                 }
               ],
@@ -497,8 +490,7 @@
                   "type": "Literal",
                   "start": 1594,
                   "end": 1595,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -546,8 +538,7 @@
                     "type": "Literal",
                     "start": 1624,
                     "end": 1625,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false

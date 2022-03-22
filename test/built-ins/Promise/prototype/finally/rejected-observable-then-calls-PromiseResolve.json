@@ -146,8 +146,7 @@
                 "type": "Literal",
                 "start": 836,
                 "end": 838,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ],
             "optional": false
@@ -572,8 +571,7 @@
                               "type": "Literal",
                               "start": 1113,
                               "end": 1170,
-                              "value": "Expected the promise to be rejected, got resolved with ",
-                              "raw": "\"Expected the promise to be rejected, got resolved with \""
+                              "value": "Expected the promise to be rejected, got resolved with "
                             },
                             "operator": "+",
                             "right": {
@@ -654,8 +652,7 @@
                             "type": "Literal",
                             "start": 1229,
                             "end": 1230,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           }
                         ],
                         "optional": false
@@ -806,8 +803,7 @@
                             "type": "Literal",
                             "start": 1329,
                             "end": 1330,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -859,8 +855,7 @@
                                 "type": "Literal",
                                 "start": 1361,
                                 "end": 1362,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "computed": true,
                               "optional": false
@@ -945,8 +940,7 @@
                                     "type": "Literal",
                                     "start": 1428,
                                     "end": 1429,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -1079,8 +1073,7 @@
                             "type": "Literal",
                             "start": 1542,
                             "end": 1586,
-                            "value": "Expected resolve() to throw, but it didn't",
-                            "raw": "\"Expected resolve() to throw, but it didn't\""
+                            "value": "Expected resolve() to throw, but it didn't"
                           }
                         ],
                         "optional": false

@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 723,
             "end": 763,
-            "value": "isConstructor(isNaN) must return false",
-            "raw": "'isConstructor(isNaN) must return false'"
+            "value": "isConstructor(isNaN) must return false"
           }
         ],
         "optional": false
@@ -136,8 +135,7 @@
                         "type": "Literal",
                         "start": 812,
                         "end": 813,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ]
                   }
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 819,
             "end": 852,
-            "value": "`new isNaN(1)` throws TypeError",
-            "raw": "'`new isNaN(1)` throws TypeError'"
+            "value": "`new isNaN(1)` throws TypeError"
           }
         ],
         "optional": false

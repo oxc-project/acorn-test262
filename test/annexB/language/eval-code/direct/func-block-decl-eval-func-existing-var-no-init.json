@@ -68,8 +68,7 @@
                         "type": "Literal",
                         "start": 569,
                         "end": 619,
-                        "value": "var f = 123;    init = f;{ function f() {  } }",
-                        "raw": "'var f = 123;\\\n    init = f;{ function f() {  } }'"
+                        "value": "var f = 123;    init = f;{ function f() {  } }"
                       }
                     ],
                     "optional": false
@@ -121,8 +120,7 @@
             "type": "Literal",
             "start": 655,
             "end": 658,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           }
         ],
         "optional": false

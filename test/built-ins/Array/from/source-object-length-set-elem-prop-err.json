@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 808,
                   "end": 809,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -118,8 +117,7 @@
                       "type": "Literal",
                       "start": 860,
                       "end": 861,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 },
@@ -279,8 +277,7 @@
             "type": "Literal",
             "start": 972,
             "end": 1029,
-            "value": "Array.from.call(A1, items) throws a TypeError exception",
-            "raw": "'Array.from.call(A1, items) throws a TypeError exception'"
+            "value": "Array.from.call(A1, items) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -359,8 +356,7 @@
                         "type": "Literal",
                         "start": 1092,
                         "end": 1095,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -536,8 +532,7 @@
             "type": "Literal",
             "start": 1225,
             "end": 1282,
-            "value": "Array.from.call(A2, items) throws a TypeError exception",
-            "raw": "'Array.from.call(A2, items) throws a TypeError exception'"
+            "value": "Array.from.call(A2, items) throws a TypeError exception"
           }
         ],
         "optional": false

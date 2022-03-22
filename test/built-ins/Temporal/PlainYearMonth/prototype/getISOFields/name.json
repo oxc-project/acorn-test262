@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 864,
             "end": 870,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 883,
                   "end": 897,
-                  "value": "getISOFields",
-                  "raw": "\"getISOFields\""
+                  "value": "getISOFields"
                 },
                 "kind": "init"
               },

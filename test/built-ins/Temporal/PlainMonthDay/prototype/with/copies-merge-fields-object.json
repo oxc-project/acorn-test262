@@ -27,57 +27,49 @@
                 "type": "Literal",
                 "start": 694,
                 "end": 703,
-                "value": "get day",
-                "raw": "\"get day\""
+                "value": "get day"
               },
               {
                 "type": "Literal",
                 "start": 707,
                 "end": 724,
-                "value": "get day.valueOf",
-                "raw": "\"get day.valueOf\""
+                "value": "get day.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 728,
                 "end": 746,
-                "value": "call day.valueOf",
-                "raw": "\"call day.valueOf\""
+                "value": "call day.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 761,
-                "value": "get month",
-                "raw": "\"get month\""
+                "value": "get month"
               },
               {
                 "type": "Literal",
                 "start": 824,
                 "end": 839,
-                "value": "get monthCode",
-                "raw": "\"get monthCode\""
+                "value": "get monthCode"
               },
               {
                 "type": "Literal",
                 "start": 843,
                 "end": 867,
-                "value": "get monthCode.toString",
-                "raw": "\"get monthCode.toString\""
+                "value": "get monthCode.toString"
               },
               {
                 "type": "Literal",
                 "start": 871,
                 "end": 896,
-                "value": "call monthCode.toString",
-                "raw": "\"call monthCode.toString\""
+                "value": "call monthCode.toString"
               },
               {
                 "type": "Literal",
                 "start": 900,
                 "end": 910,
-                "value": "get year",
-                "raw": "\"get year\""
+                "value": "get year"
               }
             ]
           }
@@ -173,15 +165,13 @@
                 "type": "Literal",
                 "start": 1048,
                 "end": 1049,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 1051,
                 "end": 1053,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               },
               {
                 "type": "Identifier",
@@ -245,8 +235,7 @@
                   "type": "Literal",
                   "start": 1087,
                   "end": 1088,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -313,8 +302,7 @@
             "type": "Literal",
             "start": 1162,
             "end": 1200,
-            "value": "getters called on mergeFields return",
-            "raw": "\"getters called on mergeFields return\""
+            "value": "getters called on mergeFields return"
           }
         ],
         "optional": false

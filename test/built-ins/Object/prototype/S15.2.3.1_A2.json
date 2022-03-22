@@ -52,8 +52,7 @@
                   "type": "Literal",
                   "start": 337,
                   "end": 348,
-                  "value": "prototype",
-                  "raw": "'prototype'"
+                  "value": "prototype"
                 }
               ],
               "optional": false
@@ -63,8 +62,7 @@
             "type": "Literal",
             "start": 353,
             "end": 432,
-            "value": "The value of !Object.propertyIsEnumerable(\"prototype\") is expected to be true",
-            "raw": "'The value of !Object.propertyIsEnumerable(\"prototype\") is expected to be true'"
+            "value": "The value of !Object.propertyIsEnumerable(\"prototype\") is expected to be true"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 448,
             "end": 449,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -150,8 +147,7 @@
                 "type": "Literal",
                 "start": 488,
                 "end": 499,
-                "value": "prototype",
-                "raw": "\"prototype\""
+                "value": "prototype"
               }
             },
             "consequent": {
@@ -222,15 +218,13 @@
             "type": "Literal",
             "start": 545,
             "end": 546,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 548,
             "end": 587,
-            "value": "The value of cout is expected to be 0",
-            "raw": "'The value of cout is expected to be 0'"
+            "value": "The value of cout is expected to be 0"
           }
         ],
         "optional": false

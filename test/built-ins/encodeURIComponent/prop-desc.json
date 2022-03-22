@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 499,
             "end": 519,
-            "value": "encodeURIComponent",
-            "raw": "\"encodeURIComponent\""
+            "value": "encodeURIComponent"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 543,
             "end": 563,
-            "value": "encodeURIComponent",
-            "raw": "\"encodeURIComponent\""
+            "value": "encodeURIComponent"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 591,
             "end": 611,
-            "value": "encodeURIComponent",
-            "raw": "\"encodeURIComponent\""
+            "value": "encodeURIComponent"
           }
         ],
         "optional": false

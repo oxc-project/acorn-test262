@@ -35,8 +35,7 @@
           "type": "Literal",
           "start": 285,
           "end": 286,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -67,8 +66,7 @@
                     "type": "Literal",
                     "start": 315,
                     "end": 353,
-                    "value": "#1: encodeURI.length === 1. Actual: ",
-                    "raw": "'#1: encodeURI.length === 1. Actual: '"
+                    "value": "#1: encodeURI.length === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

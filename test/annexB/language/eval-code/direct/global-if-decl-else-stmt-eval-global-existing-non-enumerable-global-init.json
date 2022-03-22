@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 1340,
             "end": 1343,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -73,8 +72,7 @@
                   "type": "Literal",
                   "start": 1356,
                   "end": 1359,
-                  "value": "x",
-                  "raw": "'x'"
+                  "value": "x"
                 },
                 "kind": "init"
               },
@@ -169,8 +167,7 @@
             "type": "Literal",
             "start": 1434,
             "end": 1693,
-            "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: false,    writable: true,    configurable: true  }, { restore: true });if (true) function f() {  } else ;",
-            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: false,\\\n    writable: true,\\\n    configurable: true\\\n  }, { restore: true });if (true) function f() {  } else ;'"
+            "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: false,    writable: true,    configurable: true  }, { restore: true });if (true) function f() {  } else ;"
           }
         ],
         "optional": false
@@ -221,8 +218,7 @@
             "type": "Literal",
             "start": 1725,
             "end": 1735,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -253,8 +249,7 @@
             "type": "Literal",
             "start": 1761,
             "end": 1764,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "ObjectExpression",

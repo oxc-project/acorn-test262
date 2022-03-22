@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 348,
             "end": 358,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 362,
             "end": 438,
-            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function"
           }
         ],
         "optional": false
@@ -243,15 +241,13 @@
                         "type": "Literal",
                         "start": 557,
                         "end": 568,
-                        "value": "specifier",
-                        "raw": "\"specifier\""
+                        "value": "specifier"
                       },
                       {
                         "type": "Literal",
                         "start": 570,
                         "end": 576,
-                        "value": "name",
-                        "raw": "\"name\""
+                        "value": "name"
                       }
                     ],
                     "optional": false
@@ -264,8 +260,7 @@
             "type": "Literal",
             "start": 582,
             "end": 638,
-            "value": "throws a TypeError if this is not a ShadowRealm object",
-            "raw": "'throws a TypeError if this is not a ShadowRealm object'"
+            "value": "throws a TypeError if this is not a ShadowRealm object"
           }
         ],
         "optional": false

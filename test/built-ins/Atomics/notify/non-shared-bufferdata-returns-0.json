@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 536,
                       "end": 537,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -142,15 +141,13 @@
                 "type": "Literal",
                 "start": 581,
                 "end": 582,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 585,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -159,15 +156,13 @@
             "type": "Literal",
             "start": 588,
             "end": 589,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 629,
-            "value": "Atomics.notify(i32a, 0, 0) returns 0",
-            "raw": "'Atomics.notify(i32a, 0, 0) returns 0'"
+            "value": "Atomics.notify(i32a, 0, 0) returns 0"
           }
         ],
         "optional": false
@@ -235,15 +230,13 @@
                 "type": "Literal",
                 "start": 670,
                 "end": 671,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 673,
                 "end": 674,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -252,15 +245,13 @@
             "type": "Literal",
             "start": 677,
             "end": 678,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 718,
-            "value": "Atomics.notify(i32a, 0, 1) returns 0",
-            "raw": "'Atomics.notify(i32a, 0, 1) returns 0'"
+            "value": "Atomics.notify(i32a, 0, 1) returns 0"
           }
         ],
         "optional": false

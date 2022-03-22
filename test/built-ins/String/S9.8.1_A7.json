@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 571,
               "end": 580,
-              "value": 1.0000001,
-              "raw": "1.0000001"
+              "value": 1.0000001
             }
           ],
           "optional": false
@@ -37,8 +36,7 @@
           "type": "Literal",
           "start": 586,
           "end": 597,
-          "value": "1.0000001",
-          "raw": "\"1.0000001\""
+          "value": "1.0000001"
         }
       },
       "consequent": {
@@ -69,8 +67,7 @@
                     "type": "Literal",
                     "start": 626,
                     "end": 675,
-                    "value": "#1: String(1.0000001) === \"1.0000001\". Actual: ",
-                    "raw": "'#1: String(1.0000001) === \"1.0000001\". Actual: '"
+                    "value": "#1: String(1.0000001) === \"1.0000001\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -92,8 +89,7 @@
                           "type": "Literal",
                           "start": 686,
                           "end": 695,
-                          "value": 1.0000001,
-                          "raw": "1.0000001"
+                          "value": 1.0000001
                         }
                       ],
                       "optional": false
@@ -136,8 +132,7 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 735,
-                "value": 1.0000001,
-                "raw": "1.0000001"
+                "value": 1.0000001
               }
             }
           ],
@@ -148,8 +143,7 @@
           "type": "Literal",
           "start": 741,
           "end": 753,
-          "value": "-1.0000001",
-          "raw": "\"-1.0000001\""
+          "value": "-1.0000001"
         }
       },
       "consequent": {
@@ -180,8 +174,7 @@
                     "type": "Literal",
                     "start": 782,
                     "end": 833,
-                    "value": "#2: String(-1.0000001) === \"-1.0000001\". Actual: ",
-                    "raw": "'#2: String(-1.0000001) === \"-1.0000001\". Actual: '"
+                    "value": "#2: String(-1.0000001) === \"-1.0000001\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -209,8 +202,7 @@
                             "type": "Literal",
                             "start": 845,
                             "end": 854,
-                            "value": 1.0000001,
-                            "raw": "1.0000001"
+                            "value": 1.0000001
                           }
                         }
                       ],

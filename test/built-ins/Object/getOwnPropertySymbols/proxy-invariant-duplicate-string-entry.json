@@ -80,15 +80,13 @@
                                   "type": "Literal",
                                   "start": 798,
                                   "end": 801,
-                                  "value": "a",
-                                  "raw": "'a'"
+                                  "value": "a"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 803,
                                   "end": 806,
-                                  "value": "a",
-                                  "raw": "'a'"
+                                  "value": "a"
                                 }
                               ]
                             }

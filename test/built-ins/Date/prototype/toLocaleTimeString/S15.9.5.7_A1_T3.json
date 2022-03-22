@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 390,
-                  "value": "toLocaleTimeString",
-                  "raw": "'toLocaleTimeString'"
+                  "value": "toLocaleTimeString"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 395,
             "end": 493,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('toLocaleTimeString') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'toLocaleTimeString\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('toLocaleTimeString') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 555,
                   "end": 575,
-                  "value": "toLocaleTimeString",
-                  "raw": "\"toLocaleTimeString\""
+                  "value": "toLocaleTimeString"
                 },
                 {
                   "type": "Literal",
                   "start": 577,
                   "end": 621,
-                  "value": "The value of x is not \"toLocaleTimeString\"",
-                  "raw": "'The value of x is not \"toLocaleTimeString\"'"
+                  "value": "The value of x is not \"toLocaleTimeString\""
                 }
               ],
               "optional": false

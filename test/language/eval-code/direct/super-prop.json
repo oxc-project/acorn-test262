@@ -51,8 +51,7 @@
                   "type": "Literal",
                   "start": 586,
                   "end": 603,
-                  "value": "super.property;",
-                  "raw": "'super.property;'"
+                  "value": "super.property;"
                 }
               ],
               "optional": false
@@ -148,8 +147,7 @@
             "type": "Literal",
             "start": 673,
             "end": 681,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false

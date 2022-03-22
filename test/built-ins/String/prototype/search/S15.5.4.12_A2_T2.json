@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 325,
-                "value": "test string",
-                "raw": "\"test string\""
+                "value": "test string"
               }
             ]
           }
@@ -78,8 +77,7 @@
               "type": "Literal",
               "start": 437,
               "end": 445,
-              "value": "String",
-              "raw": "\"String\""
+              "value": "String"
             }
           ],
           "optional": false
@@ -95,8 +93,7 @@
             "type": "Literal",
             "start": 452,
             "end": 453,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -128,8 +125,7 @@
                     "type": "Literal",
                     "start": 482,
                     "end": 569,
-                    "value": "#1: var aString = new String(\"test string\"); aString.search(\"String\")=== -1. Actual: ",
-                    "raw": "'#1: var aString = new String(\"test string\"); aString.search(\"String\")=== -1. Actual: '"
+                    "value": "#1: var aString = new String(\"test string\"); aString.search(\"String\")=== -1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -160,8 +156,7 @@
                         "type": "Literal",
                         "start": 587,
                         "end": 595,
-                        "value": "String",
-                        "raw": "\"String\""
+                        "value": "String"
                       }
                     ],
                     "optional": false

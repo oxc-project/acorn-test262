@@ -39,8 +39,7 @@
             "type": "Literal",
             "start": 332,
             "end": 333,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -49,8 +48,7 @@
           "type": "Literal",
           "start": 337,
           "end": 338,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -78,8 +76,7 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 350,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -119,8 +116,7 @@
           "type": "Literal",
           "start": 364,
           "end": 365,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -163,8 +159,7 @@
           "type": "Literal",
           "start": 388,
           "end": 393,
-          "value": "0,1",
-          "raw": "\"0,1\""
+          "value": "0,1"
         }
       },
       "consequent": {
@@ -195,8 +190,7 @@
                     "type": "Literal",
                     "start": 422,
                     "end": 507,
-                    "value": "#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.toString() === \"0,1\". Actual: ",
-                    "raw": "'#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.toString() === \"0,1\". Actual: '"
+                    "value": "#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.toString() === \"0,1\". Actual: "
                   },
                   "operator": "+",
                   "right": {

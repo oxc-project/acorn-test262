@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 504,
                 "end": 512,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 543,
                     "end": 628,
-                    "value": "#0: String.prototype.localeCompare.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.localeCompare.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#0: String.prototype.localeCompare.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 677,
                         "end": 685,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -237,8 +234,7 @@
             "type": "Literal",
             "start": 921,
             "end": 929,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         ],
         "optional": false
@@ -267,8 +263,7 @@
                   "type": "Literal",
                   "start": 959,
                   "end": 1041,
-                  "value": "#1: String.prototype.localeCompare.propertyIsEnumerable('length') return false",
-                  "raw": "'#1: String.prototype.localeCompare.propertyIsEnumerable(\\'length\\') return false'"
+                  "value": "#1: String.prototype.localeCompare.propertyIsEnumerable('length') return false"
                 }
               ]
             }
@@ -296,8 +291,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1232,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -383,8 +377,7 @@
                 "type": "Literal",
                 "start": 1295,
                 "end": 1303,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             },
             "consequent": {
@@ -429,8 +422,7 @@
           "type": "Literal",
           "start": 1331,
           "end": 1332,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -461,8 +453,7 @@
                     "type": "Literal",
                     "start": 1361,
                     "end": 1468,
-                    "value": "#2: count=0; for (p in String.prototype.localeCompare){if (p===\"length\") count++;}; count === 0. Actual: ",
-                    "raw": "'#2: count=0; for (p in String.prototype.localeCompare){if (p===\"length\") count++;}; count === 0. Actual: '"
+                    "value": "#2: count=0; for (p in String.prototype.localeCompare){if (p===\"length\") count++;}; count === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

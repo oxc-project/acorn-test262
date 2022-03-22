@@ -47,15 +47,13 @@
             "type": "Literal",
             "start": 526,
             "end": 534,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 538,
             "end": 564,
-            "value": "typeof this === \"object\"",
-            "raw": "'typeof this === \"object\"'"
+            "value": "typeof this === \"object\""
           }
         ],
         "optional": false
@@ -112,15 +110,13 @@
             "type": "Literal",
             "start": 613,
             "end": 621,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 659,
-            "value": "typeof new Object() === \"object\"",
-            "raw": "'typeof new Object() === \"object\"'"
+            "value": "typeof new Object() === \"object\""
           }
         ],
         "optional": false
@@ -177,15 +173,13 @@
             "type": "Literal",
             "start": 707,
             "end": 715,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 719,
             "end": 752,
-            "value": "typeof new Array() === \"object\"",
-            "raw": "'typeof new Array() === \"object\"'"
+            "value": "typeof new Array() === \"object\""
           }
         ],
         "optional": false
@@ -242,15 +236,13 @@
             "type": "Literal",
             "start": 801,
             "end": 809,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 813,
             "end": 847,
-            "value": "typeof new String() === \"object\"",
-            "raw": "'typeof new String() === \"object\"'"
+            "value": "typeof new String() === \"object\""
           }
         ],
         "optional": false
@@ -307,15 +299,13 @@
             "type": "Literal",
             "start": 897,
             "end": 905,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 909,
             "end": 944,
-            "value": "typeof new Boolean() === \"object\"",
-            "raw": "'typeof new Boolean() === \"object\"'"
+            "value": "typeof new Boolean() === \"object\""
           }
         ],
         "optional": false
@@ -372,15 +362,13 @@
             "type": "Literal",
             "start": 993,
             "end": 1001,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 1005,
             "end": 1039,
-            "value": "typeof new Number() === \"object\"",
-            "raw": "'typeof new Number() === \"object\"'"
+            "value": "typeof new Number() === \"object\""
           }
         ],
         "optional": false
@@ -437,15 +425,13 @@
             "type": "Literal",
             "start": 1086,
             "end": 1094,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 1098,
             "end": 1130,
-            "value": "typeof new Date() === \"object\"",
-            "raw": "'typeof new Date() === \"object\"'"
+            "value": "typeof new Date() === \"object\""
           }
         ],
         "optional": false
@@ -502,15 +488,13 @@
             "type": "Literal",
             "start": 1178,
             "end": 1186,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 1190,
             "end": 1224,
-            "value": " typeof new Error() === \"object\"",
-            "raw": "' typeof new Error() === \"object\"'"
+            "value": " typeof new Error() === \"object\""
           }
         ],
         "optional": false
@@ -567,15 +551,13 @@
             "type": "Literal",
             "start": 1273,
             "end": 1281,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 1285,
             "end": 1320,
-            "value": " typeof new RegExp() === \"object\"",
-            "raw": "' typeof new RegExp() === \"object\"'"
+            "value": " typeof new RegExp() === \"object\""
           }
         ],
         "optional": false

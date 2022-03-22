@@ -210,8 +210,7 @@
                 "type": "Literal",
                 "start": 508,
                 "end": 514,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -275,8 +274,7 @@
             "type": "Literal",
             "start": 563,
             "end": 582,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

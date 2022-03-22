@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 356,
             "end": 364,
-            "value": "callee",
-            "raw": "\"callee\""
+            "value": "callee"
           },
           {
             "type": "ObjectExpression",
@@ -79,8 +78,7 @@
                   "type": "Literal",
                   "start": 391,
                   "end": 392,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -269,8 +267,7 @@
             "type": "Literal",
             "start": 631,
             "end": 641,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         }
       }
@@ -333,8 +330,7 @@
           "type": "Literal",
           "start": 724,
           "end": 728,
-          "value": 1001,
-          "raw": "1001"
+          "value": 1001
         }
       }
     },
@@ -385,8 +381,7 @@
               "type": "Literal",
               "start": 778,
               "end": 782,
-              "value": 1001,
-              "raw": "1001"
+              "value": 1001
             }
           }
         }
@@ -476,8 +471,7 @@
                   "type": "Literal",
                   "start": 890,
                   "end": 898,
-                  "value": "callee",
-                  "raw": "\"callee\""
+                  "value": "callee"
                 }
               },
               "operator": "&&",
@@ -509,8 +503,7 @@
                     "type": "Literal",
                     "start": 924,
                     "end": 932,
-                    "value": "callee",
-                    "raw": "\"callee\""
+                    "value": "callee"
                   }
                 ],
                 "optional": false
@@ -652,8 +645,7 @@
               "type": "Literal",
               "start": 1148,
               "end": 1156,
-              "value": "callee",
-              "raw": "\"callee\""
+              "value": "callee"
             }
           ],
           "optional": false
@@ -685,8 +677,7 @@
             "type": "Literal",
             "start": 1180,
             "end": 1202,
-            "value": "verifyValue !== true",
-            "raw": "'verifyValue !== true'"
+            "value": "verifyValue !== true"
           }
         ],
         "optional": false
@@ -717,8 +708,7 @@
             "type": "Literal",
             "start": 1228,
             "end": 1253,
-            "value": "verifyWritable !== true",
-            "raw": "'verifyWritable !== true'"
+            "value": "verifyWritable !== true"
           }
         ],
         "optional": false
@@ -769,8 +759,7 @@
             "type": "Literal",
             "start": 1298,
             "end": 1316,
-            "value": "verifyEnumerable",
-            "raw": "'verifyEnumerable'"
+            "value": "verifyEnumerable"
           }
         ],
         "optional": false
@@ -821,8 +810,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1383,
-            "value": "verifyConfigurable",
-            "raw": "'verifyConfigurable'"
+            "value": "verifyConfigurable"
           }
         ],
         "optional": false

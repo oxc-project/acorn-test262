@@ -209,8 +209,7 @@
                               "type": "Literal",
                               "start": 1642,
                               "end": 1663,
-                              "value": "@@iterator accessed",
-                              "raw": "\"@@iterator accessed\""
+                              "value": "@@iterator accessed"
                             }
                           ]
                         }
@@ -330,8 +329,7 @@
                               "type": "Literal",
                               "start": 1775,
                               "end": 1801,
-                              "value": "@@asyncIterator accessed",
-                              "raw": "\"@@asyncIterator accessed\""
+                              "value": "@@asyncIterator accessed"
                             }
                           ]
                         }

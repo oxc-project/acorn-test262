@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 359,
             "end": 423,
-            "value": "The value of `delete Date.parse.length` is expected to be true",
-            "raw": "'The value of `delete Date.parse.length` is expected to be true'"
+            "value": "The value of `delete Date.parse.length` is expected to be true"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 464,
                   "end": 472,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 477,
             "end": 553,
-            "value": "The value of !Date.parse.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !Date.parse.hasOwnProperty(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.parse.hasOwnProperty('length') is expected to be true"
           }
         ],
         "optional": false

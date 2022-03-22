@@ -20,8 +20,7 @@
               "type": "Literal",
               "start": 996,
               "end": 1000,
-              "value": 3000,
-              "raw": "3000"
+              "value": 3000
             }
           },
           "label": {
@@ -42,7 +41,6 @@
         "start": 1001,
         "end": 1005,
         "value": {},
-        "raw": "/1/g",
         "regex": {
           "pattern": "1",
           "flags": "g"

@@ -43,8 +43,7 @@
         "type": "Literal",
         "start": 1113,
         "end": 1114,
-        "value": 1,
-        "raw": "1"
+        "value": 1
       },
       "cases": [
         {
@@ -113,8 +112,7 @@
                         "type": "Literal",
                         "start": 1167,
                         "end": 1170,
-                        "value": 123,
-                        "raw": "123"
+                        "value": 123
                       }
                     }
                   },
@@ -149,8 +147,7 @@
                       "type": "Literal",
                       "start": 1194,
                       "end": 1200,
-                      "value": "decl",
-                      "raw": "'decl'"
+                      "value": "decl"
                     }
                   }
                 ]
@@ -224,15 +221,13 @@
             "type": "Literal",
             "start": 1248,
             "end": 1254,
-            "value": "decl",
-            "raw": "'decl'"
+            "value": "decl"
           },
           {
             "type": "Literal",
             "start": 1258,
             "end": 1323,
-            "value": "Block-scoped binding value is function object at execution time",
-            "raw": "'Block-scoped binding value is function object at execution time'"
+            "value": "Block-scoped binding value is function object at execution time"
           }
         ],
         "optional": false
@@ -276,15 +271,13 @@
             "type": "Literal",
             "start": 1355,
             "end": 1358,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           },
           {
             "type": "Literal",
             "start": 1360,
             "end": 1393,
-            "value": "Block-scoped binding is mutable",
-            "raw": "'Block-scoped binding is mutable'"
+            "value": "Block-scoped binding is mutable"
           }
         ],
         "optional": false
@@ -335,15 +328,13 @@
             "type": "Literal",
             "start": 1423,
             "end": 1429,
-            "value": "decl",
-            "raw": "'decl'"
+            "value": "decl"
           },
           {
             "type": "Literal",
             "start": 1433,
             "end": 1498,
-            "value": "Block-scoped binding is independent of outer var-scoped binding",
-            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+            "value": "Block-scoped binding is independent of outer var-scoped binding"
           }
         ],
         "optional": false

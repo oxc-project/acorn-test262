@@ -147,8 +147,7 @@
             "type": "Literal",
             "start": 883,
             "end": 887,
-            "value": "{}",
-            "raw": "\"{}\""
+            "value": "{}"
           }
         ],
         "optional": false
@@ -247,8 +246,7 @@
             "type": "Literal",
             "start": 954,
             "end": 958,
-            "value": "[]",
-            "raw": "\"[]\""
+            "value": "[]"
           }
         ],
         "optional": false
@@ -284,8 +282,7 @@
                 "type": "Literal",
                 "start": 987,
                 "end": 988,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -386,8 +383,7 @@
             "type": "Literal",
             "start": 1054,
             "end": 1067,
-            "value": "ArrayBuffer",
-            "raw": "\"ArrayBuffer\""
+            "value": "ArrayBuffer"
           }
         ],
         "optional": false
@@ -517,8 +513,7 @@
             "type": "Literal",
             "start": 1160,
             "end": 1172,
-            "value": "TypedArray",
-            "raw": "\"TypedArray\""
+            "value": "TypedArray"
           }
         ],
         "optional": false

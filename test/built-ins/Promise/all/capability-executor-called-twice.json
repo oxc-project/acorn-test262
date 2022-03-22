@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 980,
             "end": 982,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         }
       ],
@@ -74,8 +73,7 @@
                 "type": "Literal",
                 "start": 1025,
                 "end": 1028,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             }
           },
@@ -116,8 +114,7 @@
                 "type": "Literal",
                 "start": 1060,
                 "end": 1063,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             }
           },
@@ -191,8 +188,7 @@
                 "type": "Literal",
                 "start": 1123,
                 "end": 1126,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             }
           }
@@ -340,15 +336,13 @@
             "type": "Literal",
             "start": 1215,
             "end": 1220,
-            "value": "abc",
-            "raw": "\"abc\""
+            "value": "abc"
           },
           {
             "type": "Literal",
             "start": 1222,
             "end": 1267,
-            "value": "executor initially called with no arguments",
-            "raw": "\"executor initially called with no arguments\""
+            "value": "executor initially called with no arguments"
           }
         ],
         "optional": false
@@ -373,8 +367,7 @@
           "type": "Literal",
           "start": 1284,
           "end": 1286,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -423,8 +416,7 @@
                 "type": "Literal",
                 "start": 1329,
                 "end": 1332,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             }
           },
@@ -478,8 +470,7 @@
                 "type": "Literal",
                 "start": 1384,
                 "end": 1387,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             }
           },
@@ -553,8 +544,7 @@
                 "type": "Literal",
                 "start": 1447,
                 "end": 1450,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             }
           }
@@ -702,15 +692,13 @@
             "type": "Literal",
             "start": 1539,
             "end": 1544,
-            "value": "abc",
-            "raw": "\"abc\""
+            "value": "abc"
           },
           {
             "type": "Literal",
             "start": 1546,
             "end": 1601,
-            "value": "executor initially called with (undefined, undefined)",
-            "raw": "\"executor initially called with (undefined, undefined)\""
+            "value": "executor initially called with (undefined, undefined)"
           }
         ],
         "optional": false
@@ -735,8 +723,7 @@
           "type": "Literal",
           "start": 1618,
           "end": 1620,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -785,8 +772,7 @@
                 "type": "Literal",
                 "start": 1663,
                 "end": 1666,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             }
           },
@@ -850,8 +836,7 @@
                 "type": "Literal",
                 "start": 1722,
                 "end": 1725,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             }
           },
@@ -925,8 +910,7 @@
                 "type": "Literal",
                 "start": 1785,
                 "end": 1788,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             }
           }
@@ -971,8 +955,7 @@
             "type": "Literal",
             "start": 1819,
             "end": 1828,
-            "value": "resolve",
-            "raw": "'resolve'"
+            "value": "resolve"
           },
           {
             "type": "ObjectExpression",
@@ -1146,8 +1129,7 @@
             "type": "Literal",
             "start": 1942,
             "end": 1996,
-            "value": "executor initially called with (undefined, function)",
-            "raw": "\"executor initially called with (undefined, function)\""
+            "value": "executor initially called with (undefined, function)"
           }
         ],
         "optional": false
@@ -1191,15 +1173,13 @@
             "type": "Literal",
             "start": 2028,
             "end": 2032,
-            "value": "ab",
-            "raw": "\"ab\""
+            "value": "ab"
           },
           {
             "type": "Literal",
             "start": 2034,
             "end": 2088,
-            "value": "executor initially called with (undefined, function)",
-            "raw": "\"executor initially called with (undefined, function)\""
+            "value": "executor initially called with (undefined, function)"
           }
         ],
         "optional": false
@@ -1224,8 +1204,7 @@
           "type": "Literal",
           "start": 2105,
           "end": 2107,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -1274,8 +1253,7 @@
                 "type": "Literal",
                 "start": 2150,
                 "end": 2153,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             }
           },
@@ -1339,8 +1317,7 @@
                 "type": "Literal",
                 "start": 2209,
                 "end": 2212,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             }
           },
@@ -1414,8 +1391,7 @@
                 "type": "Literal",
                 "start": 2272,
                 "end": 2275,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             }
           }
@@ -1460,8 +1436,7 @@
             "type": "Literal",
             "start": 2306,
             "end": 2315,
-            "value": "resolve",
-            "raw": "'resolve'"
+            "value": "resolve"
           },
           {
             "type": "ObjectExpression",
@@ -1635,8 +1610,7 @@
             "type": "Literal",
             "start": 2429,
             "end": 2483,
-            "value": "executor initially called with (function, undefined)",
-            "raw": "\"executor initially called with (function, undefined)\""
+            "value": "executor initially called with (function, undefined)"
           }
         ],
         "optional": false
@@ -1680,15 +1654,13 @@
             "type": "Literal",
             "start": 2515,
             "end": 2519,
-            "value": "ab",
-            "raw": "\"ab\""
+            "value": "ab"
           },
           {
             "type": "Literal",
             "start": 2521,
             "end": 2575,
-            "value": "executor initially called with (function, undefined)",
-            "raw": "\"executor initially called with (function, undefined)\""
+            "value": "executor initially called with (function, undefined)"
           }
         ],
         "optional": false
@@ -1713,8 +1685,7 @@
           "type": "Literal",
           "start": 2592,
           "end": 2594,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -1763,8 +1734,7 @@
                 "type": "Literal",
                 "start": 2637,
                 "end": 2640,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             }
           },
@@ -1787,15 +1757,13 @@
                   "type": "Literal",
                   "start": 2653,
                   "end": 2668,
-                  "value": "invalid value",
-                  "raw": "\"invalid value\""
+                  "value": "invalid value"
                 },
                 {
                   "type": "Literal",
                   "start": 2670,
                   "end": 2673,
-                  "value": 123,
-                  "raw": "123"
+                  "value": 123
                 }
               ],
               "optional": false
@@ -1820,8 +1788,7 @@
                 "type": "Literal",
                 "start": 2692,
                 "end": 2695,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             }
           },
@@ -1895,8 +1862,7 @@
                 "type": "Literal",
                 "start": 2755,
                 "end": 2758,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             }
           }
@@ -1941,8 +1907,7 @@
             "type": "Literal",
             "start": 2789,
             "end": 2798,
-            "value": "resolve",
-            "raw": "'resolve'"
+            "value": "resolve"
           },
           {
             "type": "ObjectExpression",
@@ -2116,8 +2081,7 @@
             "type": "Literal",
             "start": 2912,
             "end": 2961,
-            "value": "executor initially called with (String, Number)",
-            "raw": "\"executor initially called with (String, Number)\""
+            "value": "executor initially called with (String, Number)"
           }
         ],
         "optional": false
@@ -2161,15 +2125,13 @@
             "type": "Literal",
             "start": 2993,
             "end": 2997,
-            "value": "ab",
-            "raw": "\"ab\""
+            "value": "ab"
           },
           {
             "type": "Literal",
             "start": 2999,
             "end": 3048,
-            "value": "executor initially called with (String, Number)",
-            "raw": "\"executor initially called with (String, Number)\""
+            "value": "executor initially called with (String, Number)"
           }
         ],
         "optional": false

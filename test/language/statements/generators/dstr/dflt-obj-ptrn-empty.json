@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1515,
             "end": 1516,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -78,8 +77,7 @@
                 "type": "Literal",
                 "start": 1554,
                 "end": 1560,
-                "value": "attr",
-                "raw": "'attr'"
+                "value": "attr"
               },
               {
                 "type": "ObjectExpression",
@@ -132,8 +130,7 @@
                                 "type": "Literal",
                                 "start": 1603,
                                 "end": 1604,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           }
@@ -170,8 +167,7 @@
             "type": "Literal",
             "start": 1631,
             "end": 1632,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -252,8 +248,7 @@
                   "type": "Literal",
                   "start": 1690,
                   "end": 1691,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               ],
               "optional": false
@@ -289,8 +284,7 @@
                   "type": "Literal",
                   "start": 1720,
                   "end": 1721,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -379,15 +373,13 @@
             "type": "Literal",
             "start": 1766,
             "end": 1767,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1769,
             "end": 1810,
-            "value": "generator function invoked exactly once",
-            "raw": "'generator function invoked exactly once'"
+            "value": "generator function invoked exactly once"
           }
         ],
         "optional": false

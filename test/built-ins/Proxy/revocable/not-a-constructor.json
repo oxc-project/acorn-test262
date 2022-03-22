@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 759,
             "end": 809,
-            "value": "isConstructor(Proxy.revocable) must return false",
-            "raw": "'isConstructor(Proxy.revocable) must return false'"
+            "value": "isConstructor(Proxy.revocable) must return false"
           }
         ],
         "optional": false
@@ -180,8 +179,7 @@
             "type": "Literal",
             "start": 880,
             "end": 928,
-            "value": "`new Proxy.revocable({}, {})` throws TypeError",
-            "raw": "'`new Proxy.revocable({}, {})` throws TypeError'"
+            "value": "`new Proxy.revocable({}, {})` throws TypeError"
           }
         ],
         "optional": false

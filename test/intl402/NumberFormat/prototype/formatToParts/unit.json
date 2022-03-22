@@ -33,8 +33,7 @@
                   "type": "Literal",
                   "start": 293,
                   "end": 296,
-                  "value": 987,
-                  "raw": "987"
+                  "value": 987
                 }
               },
               {
@@ -47,8 +46,7 @@
                   "type": "Literal",
                   "start": 299,
                   "end": 304,
-                  "value": 0.001,
-                  "raw": "0.001"
+                  "value": 0.001
                 }
               },
               {
@@ -61,30 +59,26 @@
                   "type": "Literal",
                   "start": 307,
                   "end": 308,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               {
                 "type": "Literal",
                 "start": 310,
                 "end": 311,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 318,
-                "value": 0.001,
-                "raw": "0.001"
+                "value": 0.001
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 323,
-                "value": 987,
-                "raw": "987"
+                "value": 987
               }
             ]
           }
@@ -116,22 +110,19 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 354,
-                "value": "short",
-                "raw": "\"short\""
+                "value": "short"
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 366,
-                "value": "narrow",
-                "raw": "\"narrow\""
+                "value": "narrow"
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 376,
-                "value": "long",
-                "raw": "\"long\""
+                "value": "long"
               }
             ]
           }
@@ -218,8 +209,7 @@
                       "type": "Literal",
                       "start": 455,
                       "end": 462,
-                      "value": "en-US",
-                      "raw": "\"en-US\""
+                      "value": "en-US"
                     },
                     {
                       "type": "ObjectExpression",
@@ -243,8 +233,7 @@
                             "type": "Literal",
                             "start": 473,
                             "end": 479,
-                            "value": "unit",
-                            "raw": "\"unit\""
+                            "value": "unit"
                           },
                           "kind": "init"
                         },
@@ -265,8 +254,7 @@
                             "type": "Literal",
                             "start": 487,
                             "end": 494,
-                            "value": "meter",
-                            "raw": "\"meter\""
+                            "value": "meter"
                           },
                           "kind": "init"
                         },
@@ -509,8 +497,7 @@
                             "type": "Literal",
                             "start": 650,
                             "end": 652,
-                            "value": "",
-                            "raw": "\"\""
+                            "value": ""
                           }
                         ],
                         "optional": false
@@ -657,8 +644,7 @@
                                 "type": "Literal",
                                 "start": 731,
                                 "end": 737,
-                                "value": "unit",
-                                "raw": "\"unit\""
+                                "value": "unit"
                               }
                             }
                           }

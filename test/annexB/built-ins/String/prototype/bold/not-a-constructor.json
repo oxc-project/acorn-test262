@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 761,
             "end": 817,
-            "value": "isConstructor(String.prototype.bold) must return false",
-            "raw": "'isConstructor(String.prototype.bold) must return false'"
+            "value": "isConstructor(String.prototype.bold) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 889,
             "end": 937,
-            "value": "`new String.prototype.bold()` throws TypeError",
-            "raw": "'`new String.prototype.bold()` throws TypeError'"
+            "value": "`new String.prototype.bold()` throws TypeError"
           }
         ],
         "optional": false

@@ -26,8 +26,7 @@
             "type": "Literal",
             "start": 370,
             "end": 372,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         },
         "operator": "!==",
@@ -35,8 +34,7 @@
           "type": "Literal",
           "start": 377,
           "end": 388,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -67,8 +65,7 @@
                     "type": "Literal",
                     "start": 417,
                     "end": 463,
-                    "value": "#1: undefined + \"\" === \"undefined\". Actual: ",
-                    "raw": "'#1: undefined + \"\" === \"undefined\". Actual: '"
+                    "value": "#1: undefined + \"\" === \"undefined\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -90,8 +87,7 @@
                         "type": "Literal",
                         "start": 479,
                         "end": 481,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       }
                     }
                   }
@@ -125,8 +121,7 @@
               "type": "Literal",
               "start": 508,
               "end": 509,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           "operator": "+",
@@ -134,8 +129,7 @@
             "type": "Literal",
             "start": 512,
             "end": 514,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         },
         "operator": "!==",
@@ -143,8 +137,7 @@
           "type": "Literal",
           "start": 519,
           "end": 530,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -175,8 +168,7 @@
                     "type": "Literal",
                     "start": 559,
                     "end": 602,
-                    "value": "#2: void 0 + \"\" === \"undefined\". Actual: ",
-                    "raw": "'#2: void 0 + \"\" === \"undefined\". Actual: '"
+                    "value": "#2: void 0 + \"\" === \"undefined\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -197,8 +189,7 @@
                           "type": "Literal",
                           "start": 611,
                           "end": 612,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       },
                       "operator": "+",
@@ -206,8 +197,7 @@
                         "type": "Literal",
                         "start": 615,
                         "end": 617,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       }
                     }
                   }
@@ -246,8 +236,7 @@
                 "type": "Literal",
                 "start": 644,
                 "end": 651,
-                "value": "var x",
-                "raw": "\"var x\""
+                "value": "var x"
               }
             ],
             "optional": false
@@ -257,8 +246,7 @@
             "type": "Literal",
             "start": 655,
             "end": 657,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         },
         "operator": "!==",
@@ -266,8 +254,7 @@
           "type": "Literal",
           "start": 662,
           "end": 673,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -298,8 +285,7 @@
                     "type": "Literal",
                     "start": 702,
                     "end": 752,
-                    "value": "#3: eval(\"var x\") + \"\" === \"undefined\". Actual: ",
-                    "raw": "'#3: eval(\"var x\") + \"\" === \"undefined\". Actual: '"
+                    "value": "#3: eval(\"var x\") + \"\" === \"undefined\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -325,8 +311,7 @@
                             "type": "Literal",
                             "start": 761,
                             "end": 768,
-                            "value": "var x",
-                            "raw": "\"var x\""
+                            "value": "var x"
                           }
                         ],
                         "optional": false
@@ -336,8 +321,7 @@
                         "type": "Literal",
                         "start": 772,
                         "end": 774,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       }
                     }
                   }

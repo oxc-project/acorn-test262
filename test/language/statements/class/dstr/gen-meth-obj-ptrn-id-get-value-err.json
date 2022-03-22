@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 2459,
                 "end": 2469,
-                "value": "poisoned",
-                "raw": "'poisoned'"
+                "value": "poisoned"
               },
               {
                 "type": "ObjectExpression",

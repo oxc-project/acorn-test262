@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 609,
             "end": 619,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 638,
             "end": 689,
-            "value": "Should support Intl.Segmenter.supportedLocalesOf.",
-            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\""
+            "value": "Should support Intl.Segmenter.supportedLocalesOf."
           }
         ],
         "optional": false
@@ -119,57 +117,49 @@
                 "type": "Literal",
                 "start": 728,
                 "end": 729,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 733,
                 "end": 735,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 739,
                 "end": 747,
-                "value": "Lookup",
-                "raw": "\"Lookup\""
+                "value": "Lookup"
               },
               {
                 "type": "Literal",
                 "start": 751,
                 "end": 759,
-                "value": "LOOKUP",
-                "raw": "\"LOOKUP\""
+                "value": "LOOKUP"
               },
               {
                 "type": "Literal",
                 "start": 763,
                 "end": 773,
-                "value": "lookup\u0000",
-                "raw": "\"lookup\\0\""
+                "value": "lookup\u0000"
               },
               {
                 "type": "Literal",
                 "start": 777,
                 "end": 787,
-                "value": "Best fit",
-                "raw": "\"Best fit\""
+                "value": "Best fit"
               },
               {
                 "type": "Literal",
                 "start": 791,
                 "end": 801,
-                "value": "BEST FIT",
-                "raw": "\"BEST FIT\""
+                "value": "BEST FIT"
               },
               {
                 "type": "Literal",
                 "start": 805,
                 "end": 820,
-                "value": "best fit",
-                "raw": "\"best\\u00a0fit\""
+                "value": "best fit"
               }
             ]
           }
@@ -324,8 +314,7 @@
                                     "type": "Literal",
                                     "start": 956,
                                     "end": 971,
-                                    "value": "localeMatcher",
-                                    "raw": "\"localeMatcher\""
+                                    "value": "localeMatcher"
                                   },
                                   "value": {
                                     "type": "Identifier",

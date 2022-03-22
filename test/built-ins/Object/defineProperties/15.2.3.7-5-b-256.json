@@ -150,8 +150,7 @@
                                     "type": "Literal",
                                     "start": 412,
                                     "end": 420,
-                                    "value": "abcdef",
-                                    "raw": "\"abcdef\""
+                                    "value": "abcdef"
                                   },
                                   "kind": "init"
                                 }

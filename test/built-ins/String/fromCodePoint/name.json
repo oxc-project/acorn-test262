@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 412,
             "end": 427,
-            "value": "fromCodePoint",
-            "raw": "'fromCodePoint'"
+            "value": "fromCodePoint"
           },
           {
             "type": "Literal",
             "start": 431,
             "end": 492,
-            "value": "The value of `String.fromCodePoint.name` is \"fromCodePoint\"",
-            "raw": "'The value of `String.fromCodePoint.name` is \"fromCodePoint\"'"
+            "value": "The value of `String.fromCodePoint.name` is \"fromCodePoint\""
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 539,
             "end": 545,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 588,
             "end": 594,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 638,
             "end": 644,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

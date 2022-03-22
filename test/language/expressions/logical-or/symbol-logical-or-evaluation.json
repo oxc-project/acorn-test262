@@ -100,8 +100,7 @@
             "type": "Literal",
             "start": 292,
             "end": 318,
-            "value": "`!sym || true` is `true`",
-            "raw": "\"`!sym || true` is `true`\""
+            "value": "`!sym || true` is `true`"
           }
         ],
         "optional": false
@@ -164,8 +163,7 @@
             "type": "Literal",
             "start": 357,
             "end": 382,
-            "value": "`sym || false` is `sym`",
-            "raw": "\"`sym || false` is `sym`\""
+            "value": "`sym || false` is `sym`"
           }
         ],
         "optional": false

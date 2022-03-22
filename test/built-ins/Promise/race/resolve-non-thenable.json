@@ -247,8 +247,7 @@
                               "type": "Literal",
                               "start": 1095,
                               "end": 1151,
-                              "value": "The promise should be resolved with the correct value.",
-                              "raw": "'The promise should be resolved with the correct value.'"
+                              "value": "The promise should be resolved with the correct value."
                             }
                           ],
                           "optional": false
@@ -318,8 +317,7 @@
                         "type": "Literal",
                         "start": 1215,
                         "end": 1252,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

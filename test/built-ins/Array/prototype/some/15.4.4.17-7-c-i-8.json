@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "operator": "===",
               "right": {
@@ -172,8 +171,7 @@
             "type": "Literal",
             "start": 429,
             "end": 430,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -240,8 +238,7 @@
             "type": "Literal",
             "start": 473,
             "end": 505,
-            "value": "[, ].some(callbackfn) !== true",
-            "raw": "'[, ].some(callbackfn) !== true'"
+            "value": "[, ].some(callbackfn) !== true"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 631,
             "end": 632,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -56,13 +55,12 @@
               "end": 715,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 652,
-                  "end": 681,
-                  "static": false,
+                  "end": 680,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 652,
                     "end": 654,
                     "name": "x"
@@ -84,8 +82,7 @@
                             "type": "Literal",
                             "start": 658,
                             "end": 659,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Identifier",
@@ -101,8 +98,7 @@
                         "type": "Literal",
                         "start": 667,
                         "end": 679,
-                        "value": "arguments;",
-                        "raw": "'arguments;'"
+                        "value": "arguments;"
                       }
                     ],
                     "optional": false
@@ -148,14 +144,14 @@
                               "start": 701,
                               "end": 705
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 706,
                               "end": 708,
                               "name": "x"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         }
                       ]

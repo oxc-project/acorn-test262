@@ -107,8 +107,7 @@
                               "type": "Literal",
                               "start": 370,
                               "end": 372,
-                              "value": "",
-                              "raw": "''"
+                              "value": ""
                             },
                             "kind": "init"
                           }
@@ -124,8 +123,7 @@
             "type": "Literal",
             "start": 379,
             "end": 393,
-            "value": "empty string",
-            "raw": "'empty string'"
+            "value": "empty string"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
                               "type": "Literal",
                               "start": 486,
                               "end": 492,
-                              "value": "Auto",
-                              "raw": "'Auto'"
+                              "value": "Auto"
                             },
                             "kind": "init"
                           }
@@ -252,8 +249,7 @@
             "type": "Literal",
             "start": 499,
             "end": 505,
-            "value": "Auto",
-            "raw": "'Auto'"
+            "value": "Auto"
           }
         ],
         "optional": false
@@ -363,8 +359,7 @@
                               "type": "Literal",
                               "start": 598,
                               "end": 614,
-                              "value": "StripIfInteger",
-                              "raw": "'StripIfInteger'"
+                              "value": "StripIfInteger"
                             },
                             "kind": "init"
                           }
@@ -380,8 +375,7 @@
             "type": "Literal",
             "start": 621,
             "end": 637,
-            "value": "StripIfInteger",
-            "raw": "'StripIfInteger'"
+            "value": "StripIfInteger"
           }
         ],
         "optional": false
@@ -491,8 +485,7 @@
                               "type": "Literal",
                               "start": 730,
                               "end": 746,
-                              "value": "stripifinteger",
-                              "raw": "'stripifinteger'"
+                              "value": "stripifinteger"
                             },
                             "kind": "init"
                           }
@@ -508,8 +501,7 @@
             "type": "Literal",
             "start": 753,
             "end": 769,
-            "value": "stripifinteger",
-            "raw": "'stripifinteger'"
+            "value": "stripifinteger"
           }
         ],
         "optional": false
@@ -619,8 +611,7 @@
                               "type": "Literal",
                               "start": 862,
                               "end": 869,
-                              "value": " auto",
-                              "raw": "' auto'"
+                              "value": " auto"
                             },
                             "kind": "init"
                           }
@@ -636,8 +627,7 @@
             "type": "Literal",
             "start": 876,
             "end": 906,
-            "value": "\" auto\" (with leading space)",
-            "raw": "'\" auto\" (with leading space)'"
+            "value": "\" auto\" (with leading space)"
           }
         ],
         "optional": false
@@ -747,8 +737,7 @@
                               "type": "Literal",
                               "start": 999,
                               "end": 1006,
-                              "value": "auto ",
-                              "raw": "'auto '"
+                              "value": "auto "
                             },
                             "kind": "init"
                           }
@@ -764,8 +753,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1044,
-            "value": "\"auto \" (with trailing space)",
-            "raw": "'\"auto \" (with trailing space)'"
+            "value": "\"auto \" (with trailing space)"
           }
         ],
         "optional": false

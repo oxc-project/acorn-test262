@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 574,
             "end": 576,
-            "value": "",
-            "raw": "''"
+            "value": ""
           },
           {
             "type": "ObjectExpression",
@@ -108,8 +107,7 @@
                               "type": "Literal",
                               "start": 627,
                               "end": 658,
-                              "value": "[[Set]] should not be called.",
-                              "raw": "'[[Set]] should not be called.'"
+                              "value": "[[Set]] should not be called."
                             }
                           ]
                         }
@@ -177,8 +175,7 @@
             "type": "Literal",
             "start": 695,
             "end": 698,
-            "value": "2",
-            "raw": "'2'"
+            "value": "2"
           },
           {
             "type": "FunctionExpression",
@@ -268,8 +265,7 @@
             "type": "Literal",
             "start": 769,
             "end": 777,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false
@@ -437,8 +433,7 @@
             "type": "Literal",
             "start": 909,
             "end": 910,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -521,8 +516,7 @@
             "type": "Literal",
             "start": 976,
             "end": 978,
-            "value": "",
-            "raw": "''"
+            "value": ""
           },
           {
             "type": "ObjectExpression",
@@ -546,8 +540,7 @@
                   "type": "Literal",
                   "start": 991,
                   "end": 992,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },

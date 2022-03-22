@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1946,
             "end": 1947,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -98,8 +97,7 @@
                         "type": "Literal",
                         "start": 2018,
                         "end": 2019,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -272,8 +270,7 @@
                             "type": "Literal",
                             "start": 2149,
                             "end": 2199,
-                            "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "value": "Expected async function to reject, but resolved."
                           }
                         ]
                       }
@@ -406,15 +403,13 @@
                             "type": "Literal",
                             "start": 2311,
                             "end": 2312,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 2314,
                             "end": 2343,
-                            "value": "iterator is properly closed",
-                            "raw": "\"iterator is properly closed\""
+                            "value": "iterator is properly closed"
                           }
                         ],
                         "optional": false

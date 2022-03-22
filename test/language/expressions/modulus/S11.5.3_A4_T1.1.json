@@ -106,8 +106,7 @@
                     "type": "Literal",
                     "start": 432,
                     "end": 474,
-                    "value": "#1: NaN % NaN === Not-a-Number. Actual: ",
-                    "raw": "'#1: NaN % NaN === Not-a-Number. Actual: '"
+                    "value": "#1: NaN % NaN === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -194,8 +193,7 @@
                   "type": "Literal",
                   "start": 530,
                   "end": 531,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             }
@@ -239,8 +237,7 @@
                     "type": "Literal",
                     "start": 570,
                     "end": 611,
-                    "value": "#2: NaN % +0 === Not-a-Number. Actual: ",
-                    "raw": "'#2: NaN % +0 === Not-a-Number. Actual: '"
+                    "value": "#2: NaN % +0 === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -268,8 +265,7 @@
                           "type": "Literal",
                           "start": 622,
                           "end": 623,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     }
@@ -335,8 +331,7 @@
                   "type": "Literal",
                   "start": 666,
                   "end": 667,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             }
@@ -380,8 +375,7 @@
                     "type": "Literal",
                     "start": 706,
                     "end": 747,
-                    "value": "#3: NaN % -0 === Not-a-Number. Actual: ",
-                    "raw": "'#3: NaN % -0 === Not-a-Number. Actual: '"
+                    "value": "#3: NaN % -0 === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -409,8 +403,7 @@
                           "type": "Literal",
                           "start": 758,
                           "end": 759,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     }
@@ -526,8 +519,7 @@
                     "type": "Literal",
                     "start": 864,
                     "end": 911,
-                    "value": "#4: NaN % Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#4: NaN % Infinity === Not-a-Number. Actual: '"
+                    "value": "#4: NaN % Infinity === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -664,8 +656,7 @@
                     "type": "Literal",
                     "start": 1033,
                     "end": 1081,
-                    "value": "#5: NaN % -Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#5: NaN % -Infinity === Not-a-Number. Actual: '"
+                    "value": "#5: NaN % -Infinity === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -809,8 +800,7 @@
                     "type": "Literal",
                     "start": 1197,
                     "end": 1252,
-                    "value": "#6: NaN % Number.MAX_VALUE === Not-a-Number. Actual: ",
-                    "raw": "'#6: NaN % Number.MAX_VALUE === Not-a-Number. Actual: '"
+                    "value": "#6: NaN % Number.MAX_VALUE === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -960,8 +950,7 @@
                     "type": "Literal",
                     "start": 1374,
                     "end": 1429,
-                    "value": "#7: NaN % Number.MIN_VALUE === Not-a-Number. Actual: ",
-                    "raw": "'#7: NaN % Number.MIN_VALUE === Not-a-Number. Actual: '"
+                    "value": "#7: NaN % Number.MIN_VALUE === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1055,8 +1044,7 @@
                 "type": "Literal",
                 "start": 1496,
                 "end": 1497,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           ],
@@ -1099,8 +1087,7 @@
                     "type": "Literal",
                     "start": 1536,
                     "end": 1576,
-                    "value": "#8: NaN % 1 === Not-a-Number. Actual: ",
-                    "raw": "'#8: NaN % 1 === Not-a-Number. Actual: '"
+                    "value": "#8: NaN % 1 === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1122,8 +1109,7 @@
                         "type": "Literal",
                         "start": 1586,
                         "end": 1587,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }

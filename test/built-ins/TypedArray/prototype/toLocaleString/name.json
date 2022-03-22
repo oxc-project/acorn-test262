@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 883,
             "end": 899,
-            "value": "toLocaleString",
-            "raw": "\"toLocaleString\""
+            "value": "toLocaleString"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 960,
             "end": 966,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 1024,
             "end": 1030,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -254,8 +251,7 @@
             "type": "Literal",
             "start": 1089,
             "end": 1095,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

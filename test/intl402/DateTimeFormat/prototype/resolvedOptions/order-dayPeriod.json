@@ -72,15 +72,13 @@
                           "type": "Literal",
                           "start": 369,
                           "end": 380,
-                          "value": "dayPeriod",
-                          "raw": "\"dayPeriod\""
+                          "value": "dayPeriod"
                         },
                         "value": {
                           "type": "Literal",
                           "start": 382,
                           "end": 389,
-                          "value": "short",
-                          "raw": "\"short\""
+                          "value": "short"
                         },
                         "kind": "init"
                       },
@@ -95,15 +93,13 @@
                           "type": "Literal",
                           "start": 393,
                           "end": 399,
-                          "value": "hour",
-                          "raw": "\"hour\""
+                          "value": "hour"
                         },
                         "value": {
                           "type": "Literal",
                           "start": 401,
                           "end": 410,
-                          "value": "numeric",
-                          "raw": "\"numeric\""
+                          "value": "numeric"
                         },
                         "kind": "init"
                       },
@@ -118,15 +114,13 @@
                           "type": "Literal",
                           "start": 414,
                           "end": 422,
-                          "value": "minute",
-                          "raw": "\"minute\""
+                          "value": "minute"
                         },
                         "value": {
                           "type": "Literal",
                           "start": 424,
                           "end": 433,
-                          "value": "numeric",
-                          "raw": "\"numeric\""
+                          "value": "numeric"
                         },
                         "kind": "init"
                       }
@@ -174,64 +168,55 @@
                 "type": "Literal",
                 "start": 479,
                 "end": 487,
-                "value": "locale",
-                "raw": "\"locale\""
+                "value": "locale"
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 501,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 522,
-                "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "value": "numberingSystem"
               },
               {
                 "type": "Literal",
                 "start": 526,
                 "end": 536,
-                "value": "timeZone",
-                "raw": "\"timeZone\""
+                "value": "timeZone"
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 551,
-                "value": "hourCycle",
-                "raw": "\"hourCycle\""
+                "value": "hourCycle"
               },
               {
                 "type": "Literal",
                 "start": 555,
                 "end": 563,
-                "value": "hour12",
-                "raw": "\"hour12\""
+                "value": "hour12"
               },
               {
                 "type": "Literal",
                 "start": 567,
                 "end": 578,
-                "value": "dayPeriod",
-                "raw": "\"dayPeriod\""
+                "value": "dayPeriod"
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 588,
-                "value": "hour",
-                "raw": "\"hour\""
+                "value": "hour"
               },
               {
                 "type": "Literal",
                 "start": 592,
                 "end": 600,
-                "value": "minute",
-                "raw": "\"minute\""
+                "value": "minute"
               }
             ]
           }
@@ -338,8 +323,7 @@
                   "type": "Literal",
                   "start": 787,
                   "end": 795,
-                  "value": "locale",
-                  "raw": "\"locale\""
+                  "value": "locale"
                 }
               ],
               "optional": false
@@ -355,8 +339,7 @@
                 "type": "Literal",
                 "start": 800,
                 "end": 801,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -364,8 +347,7 @@
             "type": "Literal",
             "start": 803,
             "end": 826,
-            "value": "\"locale\" is present",
-            "raw": "\"\\\"locale\\\" is present\""
+            "value": "\"locale\" is present"
           }
         ],
         "optional": false
@@ -394,8 +376,7 @@
               "type": "Literal",
               "start": 842,
               "end": 843,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],
@@ -518,8 +499,7 @@
                             "type": "Literal",
                             "start": 987,
                             "end": 988,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         },
                         "computed": true,
@@ -606,8 +586,7 @@
                           "type": "Literal",
                           "start": 1037,
                           "end": 1038,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       "computed": true,

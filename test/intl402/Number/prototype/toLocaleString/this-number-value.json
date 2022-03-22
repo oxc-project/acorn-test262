@@ -40,8 +40,7 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 307,
-                "value": "5",
-                "raw": "\"5\""
+                "value": "5"
               },
               {
                 "type": "Literal",
@@ -90,8 +89,7 @@
                               "type": "Literal",
                               "start": 347,
                               "end": 348,
-                              "value": 5,
-                              "raw": "5"
+                              "value": 5
                             }
                           }
                         ]
@@ -131,8 +129,7 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 375,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Identifier",
@@ -150,8 +147,7 @@
                   "type": "Literal",
                   "start": 383,
                   "end": 393,
-                  "value": 1234567.89,
-                  "raw": "1234567.89"
+                  "value": 1234567.89
                 }
               },
               {
@@ -363,8 +359,7 @@
                             "type": "Literal",
                             "start": 564,
                             "end": 620,
-                            "value": "Number.prototype.toLocaleString did not reject this = ",
-                            "raw": "\"Number.prototype.toLocaleString did not reject this = \""
+                            "value": "Number.prototype.toLocaleString did not reject this = "
                           },
                           "operator": "+",
                           "right": {
@@ -379,8 +374,7 @@
                           "type": "Literal",
                           "start": 631,
                           "end": 634,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],
@@ -689,8 +683,7 @@
                             "type": "Literal",
                             "start": 1047,
                             "end": 1125,
-                            "value": "Number.prototype.toLocaleString produces different results for Number value ",
-                            "raw": "\"Number.prototype.toLocaleString produces different results for Number value \""
+                            "value": "Number.prototype.toLocaleString produces different results for Number value "
                           },
                           "operator": "+",
                           "right": {
@@ -705,8 +698,7 @@
                           "type": "Literal",
                           "start": 1136,
                           "end": 1171,
-                          "value": " and corresponding Number object.",
-                          "raw": "\" and corresponding Number object.\""
+                          "value": " and corresponding Number object."
                         }
                       }
                     ],

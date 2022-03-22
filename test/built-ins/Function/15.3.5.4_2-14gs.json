@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 400,
             "end": 432,
-            "value": "\"use strict\";\ngNonStrict();",
-            "raw": "\"\\\"use strict\\\";\\ngNonStrict();\""
+            "value": "\"use strict\";\ngNonStrict();"
           }
         ],
         "optional": false

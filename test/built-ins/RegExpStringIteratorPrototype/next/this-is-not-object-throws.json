@@ -55,7 +55,6 @@
                     "start": 439,
                     "end": 442,
                     "value": {},
-                    "raw": "/./",
                     "regex": {
                       "pattern": ".",
                       "flags": ""
@@ -88,8 +87,7 @@
                     "type": "Literal",
                     "start": 460,
                     "end": 462,
-                    "value": "",
-                    "raw": "''"
+                    "value": ""
                   }
                 ],
                 "optional": false
@@ -276,8 +274,7 @@
             "type": "Literal",
             "start": 617,
             "end": 637,
-            "value": "this value is null",
-            "raw": "'this value is null'"
+            "value": "this value is null"
           }
         ],
         "optional": false
@@ -351,8 +348,7 @@
             "type": "Literal",
             "start": 694,
             "end": 717,
-            "value": "this value is Boolean",
-            "raw": "'this value is Boolean'"
+            "value": "this value is Boolean"
           }
         ],
         "optional": false
@@ -377,8 +373,7 @@
           "type": "Literal",
           "start": 733,
           "end": 735,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       }
     },
@@ -426,8 +421,7 @@
             "type": "Literal",
             "start": 772,
             "end": 794,
-            "value": "this value is String",
-            "raw": "'this value is String'"
+            "value": "this value is String"
           }
         ],
         "optional": false
@@ -507,8 +501,7 @@
             "type": "Literal",
             "start": 855,
             "end": 877,
-            "value": "this value is Symbol",
-            "raw": "'this value is Symbol'"
+            "value": "this value is Symbol"
           }
         ],
         "optional": false
@@ -533,8 +526,7 @@
           "type": "Literal",
           "start": 893,
           "end": 894,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -582,8 +574,7 @@
             "type": "Literal",
             "start": 931,
             "end": 953,
-            "value": "this value is Number",
-            "raw": "'this value is Number'"
+            "value": "this value is Number"
           }
         ],
         "optional": false

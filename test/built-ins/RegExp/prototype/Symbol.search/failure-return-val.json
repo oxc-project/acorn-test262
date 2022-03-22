@@ -44,7 +44,6 @@
                 "start": 316,
                 "end": 319,
                 "value": {},
-                "raw": "/z/",
                 "regex": {
                   "pattern": "z",
                   "flags": ""
@@ -77,8 +76,7 @@
                 "type": "Literal",
                 "start": 335,
                 "end": 338,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
               "type": "Literal",
               "start": 342,
               "end": 343,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],

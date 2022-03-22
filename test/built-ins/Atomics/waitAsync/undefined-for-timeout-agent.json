@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 728,
             "end": 738,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 795,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -94,8 +92,7 @@
             "type": "Literal",
             "start": 818,
             "end": 819,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -120,8 +117,7 @@
             "type": "Literal",
             "start": 837,
             "end": 838,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -146,8 +142,7 @@
             "type": "Literal",
             "start": 857,
             "end": 858,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -172,8 +167,7 @@
             "type": "Literal",
             "start": 880,
             "end": 881,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -404,8 +398,7 @@
                       "type": "Literal",
                       "start": 1571,
                       "end": 1572,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -569,8 +562,7 @@
                             "type": "Literal",
                             "start": 1704,
                             "end": 1774,
-                            "value": "The value of `agentCount` is expected to equal the value of NUMAGENT",
-                            "raw": "'The value of `agentCount` is expected to equal the value of NUMAGENT'"
+                            "value": "The value of `agentCount` is expected to equal the value of NUMAGENT"
                           }
                         ],
                         "optional": false
@@ -659,8 +651,7 @@
                             "type": "Literal",
                             "start": 1870,
                             "end": 2002,
-                            "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT",
-                            "raw": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT'"
+                            "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT"
                           }
                         ],
                         "optional": false
@@ -853,8 +844,7 @@
                               "type": "Literal",
                               "start": 2158,
                               "end": 2159,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             "computed": true,
                             "optional": false
@@ -863,15 +853,13 @@
                             "type": "Literal",
                             "start": 2162,
                             "end": 2168,
-                            "value": "A ok",
-                            "raw": "'A ok'"
+                            "value": "A ok"
                           },
                           {
                             "type": "Literal",
                             "start": 2170,
                             "end": 2205,
-                            "value": "The value of reports[0] is \"A ok\"",
-                            "raw": "'The value of reports[0] is \"A ok\"'"
+                            "value": "The value of reports[0] is \"A ok\""
                           }
                         ],
                         "optional": false
@@ -919,8 +907,7 @@
                               "type": "Literal",
                               "start": 2235,
                               "end": 2236,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "computed": true,
                             "optional": false
@@ -929,15 +916,13 @@
                             "type": "Literal",
                             "start": 2239,
                             "end": 2245,
-                            "value": "B ok",
-                            "raw": "'B ok'"
+                            "value": "B ok"
                           },
                           {
                             "type": "Literal",
                             "start": 2247,
                             "end": 2282,
-                            "value": "The value of reports[1] is \"B ok\"",
-                            "raw": "'The value of reports[1] is \"B ok\"'"
+                            "value": "The value of reports[1] is \"B ok\""
                           }
                         ],
                         "optional": false

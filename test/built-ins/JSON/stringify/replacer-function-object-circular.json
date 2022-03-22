@@ -339,8 +339,7 @@
                       "type": "Literal",
                       "start": 1088,
                       "end": 1092,
-                      "value": "p2",
-                      "raw": "'p2'"
+                      "value": "p2"
                     }
                   },
                   "consequent": {

@@ -123,8 +123,7 @@
             "type": "Literal",
             "start": 386,
             "end": 455,
-            "value": "Function.prototype.toString.call(null) throws a TypeError exception",
-            "raw": "'Function.prototype.toString.call(null) throws a TypeError exception'"
+            "value": "Function.prototype.toString.call(null) throws a TypeError exception"
           }
         ],
         "optional": false

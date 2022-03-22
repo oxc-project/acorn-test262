@@ -178,8 +178,7 @@
           "type": "Literal",
           "start": 563,
           "end": 569,
-          "value": "alse",
-          "raw": "\"alse\""
+          "value": "alse"
         }
       },
       "consequent": {
@@ -210,8 +209,7 @@
                     "type": "Literal",
                     "start": 598,
                     "end": 760,
-                    "value": "#1: var x; __instance = new Boolean; __instance.substring = String.prototype.substring;  __instance.substring(function(){return true;}(),x) === \"alse\". Actual: ",
-                    "raw": "'#1: var x; __instance = new Boolean; __instance.substring = String.prototype.substring;  __instance.substring(function(){return true;}(),x) === \"alse\". Actual: '"
+                    "value": "#1: var x; __instance = new Boolean; __instance.substring = String.prototype.substring;  __instance.substring(function(){return true;}(),x) === \"alse\". Actual: "
                   },
                   "operator": "+",
                   "right": {

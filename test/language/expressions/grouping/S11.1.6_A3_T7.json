@@ -34,8 +34,7 @@
           "type": "Literal",
           "start": 306,
           "end": 317,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -66,8 +65,7 @@
                     "type": "Literal",
                     "start": 346,
                     "end": 388,
-                    "value": "#1: typeof (x) === \"undefined\". Actual: ",
-                    "raw": "'#1: typeof (x) === \"undefined\". Actual: '"
+                    "value": "#1: typeof (x) === \"undefined\". Actual: "
                   },
                   "operator": "+",
                   "right": {

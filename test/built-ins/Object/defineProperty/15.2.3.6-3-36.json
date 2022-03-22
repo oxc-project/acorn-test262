@@ -168,8 +168,7 @@
             "type": "Literal",
             "start": 467,
             "end": 477,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -235,8 +234,7 @@
                 "type": "Literal",
                 "start": 529,
                 "end": 539,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             },
             "consequent": {
@@ -300,8 +298,7 @@
             "type": "Literal",
             "start": 588,
             "end": 607,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

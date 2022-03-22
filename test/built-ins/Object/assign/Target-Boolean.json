@@ -71,8 +71,7 @@
                       "type": "Literal",
                       "start": 374,
                       "end": 375,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   }
@@ -130,15 +129,13 @@
             "type": "Literal",
             "start": 412,
             "end": 420,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 457,
-            "value": "Return value should be an object.",
-            "raw": "\"Return value should be an object.\""
+            "value": "Return value should be an object."
           }
         ],
         "optional": false
@@ -209,8 +206,7 @@
             "type": "Literal",
             "start": 501,
             "end": 531,
-            "value": "Return value should be true.",
-            "raw": "\"Return value should be true.\""
+            "value": "Return value should be true."
           }
         ],
         "optional": false

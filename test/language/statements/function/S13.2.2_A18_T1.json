@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 371,
             "end": 372,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         {
@@ -78,8 +77,7 @@
                   "type": "Literal",
                   "start": 396,
                   "end": 399,
-                  "value": "a",
-                  "raw": "\"a\""
+                  "value": "a"
                 },
                 "kind": "init"
               }
@@ -160,8 +158,7 @@
                               "type": "Literal",
                               "start": 460,
                               "end": 461,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         },
@@ -238,8 +235,7 @@
           "type": "Literal",
           "start": 623,
           "end": 624,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -270,8 +266,7 @@
                     "type": "Literal",
                     "start": 652,
                     "end": 690,
-                    "value": "#1: callee === 0. Actual: callee ===",
-                    "raw": "'#1: callee === 0. Actual: callee ==='"
+                    "value": "#1: callee === 0. Actual: callee ==="
                   },
                   "operator": "+",
                   "right": {
@@ -320,8 +315,7 @@
           "type": "Literal",
           "start": 895,
           "end": 898,
-          "value": "a",
-          "raw": "\"a\""
+          "value": "a"
         }
       },
       "consequent": {
@@ -352,8 +346,7 @@
                     "type": "Literal",
                     "start": 926,
                     "end": 977,
-                    "value": "#2: __obj.callee === \"a\". Actual: __obj.callee===",
-                    "raw": "'#2: __obj.callee === \"a\". Actual: __obj.callee==='"
+                    "value": "#2: __obj.callee === \"a\". Actual: __obj.callee==="
                   },
                   "operator": "+",
                   "right": {
@@ -415,8 +408,7 @@
           "type": "Literal",
           "start": 1189,
           "end": 1190,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -447,8 +439,7 @@
                     "type": "Literal",
                     "start": 1218,
                     "end": 1270,
-                    "value": "#3: result.callee === 1. Actual: result.callee ===",
-                    "raw": "'#3: result.callee === 1. Actual: result.callee ==='"
+                    "value": "#3: result.callee === 1. Actual: result.callee ==="
                   },
                   "operator": "+",
                   "right": {
@@ -540,8 +531,7 @@
                     "type": "Literal",
                     "start": 1502,
                     "end": 1543,
-                    "value": "#4: this.b === true. Actual: this.b ===",
-                    "raw": "'#4: this.b === true. Actual: this.b ==='"
+                    "value": "#4: this.b === true. Actual: this.b ==="
                   },
                   "operator": "+",
                   "right": {

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 731,
             "end": 775,
-            "value": "isConstructor(Math.ceil) must return false",
-            "raw": "'isConstructor(Math.ceil) must return false'"
+            "value": "isConstructor(Math.ceil) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 834,
             "end": 870,
-            "value": "`new Math.ceil()` throws TypeError",
-            "raw": "'`new Math.ceil()` throws TypeError'"
+            "value": "`new Math.ceil()` throws TypeError"
           }
         ],
         "optional": false

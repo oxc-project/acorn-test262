@@ -102,15 +102,13 @@
             "type": "Literal",
             "start": 332,
             "end": 340,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 342,
             "end": 386,
-            "value": "typeof Object.prototype.valueOf.call(true)",
-            "raw": "'typeof Object.prototype.valueOf.call(true)'"
+            "value": "typeof Object.prototype.valueOf.call(true)"
           }
         ],
         "optional": false

@@ -184,8 +184,7 @@
             "type": "Literal",
             "start": 446,
             "end": 516,
-            "value": "Temporal.Now.plainDateTime(calendar) throws a Test262Error exception",
-            "raw": "'Temporal.Now.plainDateTime(calendar) throws a Test262Error exception'"
+            "value": "Temporal.Now.plainDateTime(calendar) throws a Test262Error exception"
           }
         ],
         "optional": false

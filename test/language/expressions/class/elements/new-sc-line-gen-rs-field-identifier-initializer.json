@@ -30,10 +30,9 @@
               "end": 1531,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1432,
-                  "end": 1438,
-                  "static": false,
+                  "end": 1437,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -45,15 +44,13 @@
                     "type": "Literal",
                     "start": 1436,
                     "end": 1437,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1439,
-                  "end": 1445,
-                  "static": false,
+                  "end": 1444,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -65,15 +62,13 @@
                     "type": "Literal",
                     "start": 1443,
                     "end": 1444,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1446,
-                  "end": 1457,
-                  "static": false,
+                  "end": 1456,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -85,15 +80,13 @@
                     "type": "Literal",
                     "start": 1455,
                     "end": 1456,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1458,
-                  "end": 1469,
-                  "static": false,
+                  "end": 1468,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -105,15 +98,13 @@
                     "type": "Literal",
                     "start": 1467,
                     "end": 1468,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1470,
-                  "end": 1487,
-                  "static": false,
+                  "end": 1486,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -125,15 +116,13 @@
                     "type": "Literal",
                     "start": 1485,
                     "end": 1486,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1488,
-                  "end": 1504,
-                  "static": false,
+                  "end": 1503,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -145,8 +134,7 @@
                     "type": "Literal",
                     "start": 1502,
                     "end": 1503,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
@@ -184,8 +172,7 @@
                             "type": "Literal",
                             "start": 1521,
                             "end": 1523,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         }
                       ]
@@ -321,8 +308,7 @@
             "type": "Literal",
             "start": 1588,
             "end": 1590,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -486,8 +472,7 @@
                 "type": "Literal",
                 "start": 1678,
                 "end": 1681,
-                "value": "m",
-                "raw": "\"m\""
+                "value": "m"
               }
             ],
             "optional": false
@@ -541,8 +526,7 @@
             "type": "Literal",
             "start": 1721,
             "end": 1724,
-            "value": "m",
-            "raw": "\"m\""
+            "value": "m"
           },
           {
             "type": "ObjectExpression",
@@ -672,8 +656,7 @@
             "type": "Literal",
             "start": 1816,
             "end": 1817,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -730,8 +713,7 @@
             "type": "Literal",
             "start": 1842,
             "end": 1843,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -788,8 +770,7 @@
             "type": "Literal",
             "start": 1873,
             "end": 1874,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -846,8 +827,7 @@
             "type": "Literal",
             "start": 1904,
             "end": 1905,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -904,8 +884,7 @@
             "type": "Literal",
             "start": 1941,
             "end": 1942,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -962,8 +941,7 @@
             "type": "Literal",
             "start": 1977,
             "end": 1978,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

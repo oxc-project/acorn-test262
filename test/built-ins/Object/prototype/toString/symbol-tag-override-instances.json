@@ -91,8 +91,7 @@
           "type": "Literal",
           "start": 578,
           "end": 587,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -187,8 +186,7 @@
             "type": "Literal",
             "start": 646,
             "end": 664,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -268,8 +266,7 @@
           "type": "Literal",
           "start": 720,
           "end": 729,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -364,8 +361,7 @@
             "type": "Literal",
             "start": 788,
             "end": 806,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -473,8 +469,7 @@
           "type": "Literal",
           "start": 888,
           "end": 897,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -569,8 +564,7 @@
             "type": "Literal",
             "start": 956,
             "end": 974,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -654,8 +648,7 @@
           "type": "Literal",
           "start": 1031,
           "end": 1040,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -750,8 +743,7 @@
             "type": "Literal",
             "start": 1099,
             "end": 1117,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -831,8 +823,7 @@
           "type": "Literal",
           "start": 1172,
           "end": 1181,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -927,8 +918,7 @@
             "type": "Literal",
             "start": 1240,
             "end": 1258,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -1008,8 +998,7 @@
           "type": "Literal",
           "start": 1315,
           "end": 1324,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -1104,8 +1093,7 @@
             "type": "Literal",
             "start": 1383,
             "end": 1401,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -1185,8 +1173,7 @@
           "type": "Literal",
           "start": 1457,
           "end": 1466,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -1281,8 +1268,7 @@
             "type": "Literal",
             "start": 1525,
             "end": 1543,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -1362,8 +1348,7 @@
           "type": "Literal",
           "start": 1597,
           "end": 1606,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -1458,8 +1443,7 @@
             "type": "Literal",
             "start": 1665,
             "end": 1683,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -1485,7 +1469,6 @@
           "start": 1696,
           "end": 1699,
           "value": {},
-          "raw": "/./",
           "regex": {
             "pattern": ".",
             "flags": ""
@@ -1538,8 +1521,7 @@
           "type": "Literal",
           "start": 1730,
           "end": 1739,
-          "value": "test262",
-          "raw": "'test262'"
+          "value": "test262"
         }
       }
     },
@@ -1634,8 +1616,7 @@
             "type": "Literal",
             "start": 1798,
             "end": 1816,
-            "value": "[object test262]",
-            "raw": "'[object test262]'"
+            "value": "[object test262]"
           }
         ],
         "optional": false

@@ -60,8 +60,7 @@
                 "type": "Literal",
                 "start": 402,
                 "end": 403,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "consequent": {
@@ -88,8 +87,7 @@
                       "type": "Literal",
                       "start": 426,
                       "end": 427,
-                      "value": 6,
-                      "raw": "6"
+                      "value": 6
                     }
                   }
                 }
@@ -181,8 +179,7 @@
             "type": "Literal",
             "start": 510,
             "end": 513,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "ObjectExpression",
@@ -224,8 +221,7 @@
                           "type": "Literal",
                           "start": 548,
                           "end": 549,
-                          "value": 6,
-                          "raw": "6"
+                          "value": 6
                         }
                       }
                     ]
@@ -395,8 +391,7 @@
           "type": "Literal",
           "start": 669,
           "end": 671,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       }
     },
@@ -438,8 +433,7 @@
             "type": "Literal",
             "start": 703,
             "end": 706,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "ObjectExpression",
@@ -481,8 +475,7 @@
                           "type": "Literal",
                           "start": 741,
                           "end": 743,
-                          "value": 12,
-                          "raw": "12"
+                          "value": 12
                         }
                       }
                     ]
@@ -622,8 +615,7 @@
             "type": "Literal",
             "start": 848,
             "end": 895,
-            "value": "Array.prototype.every.call(child, callbackfn)",
-            "raw": "'Array.prototype.every.call(child, callbackfn)'"
+            "value": "Array.prototype.every.call(child, callbackfn)"
           }
         ],
         "optional": false

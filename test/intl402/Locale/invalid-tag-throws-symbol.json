@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 440,
             "end": 450,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 524,
             "end": 558,
-            "value": "Symbol() is an invalid tag value",
-            "raw": "\"Symbol() is an invalid tag value\""
+            "value": "Symbol() is an invalid tag value"
           }
         ],
         "optional": false

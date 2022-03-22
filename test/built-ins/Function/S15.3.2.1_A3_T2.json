@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 1015,
                           "end": 1018,
-                          "value": "a",
-                          "raw": "\"a\""
+                          "value": "a"
                         }
                       }
                     ]
@@ -92,8 +91,7 @@
             "type": "Literal",
             "start": 1038,
             "end": 1049,
-            "value": "return a;",
-            "raw": "\"return a;\""
+            "value": "return a;"
           }
         }
       ],
@@ -192,8 +190,7 @@
                       "type": "Literal",
                       "start": 1130,
                       "end": 1159,
-                      "value": "#1: test failed with error ",
-                      "raw": "'#1: test failed with error '"
+                      "value": "#1: test failed with error "
                     },
                     "operator": "+",
                     "right": {
@@ -268,8 +265,7 @@
             "type": "Literal",
             "start": 1211,
             "end": 1282,
-            "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "value": "The value of f.constructor is expected to equal the value of Function"
           }
         ],
         "optional": false
@@ -318,8 +314,7 @@
                 "type": "Literal",
                 "start": 1304,
                 "end": 1306,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ],
             "optional": false
@@ -328,15 +323,13 @@
             "type": "Literal",
             "start": 1309,
             "end": 1311,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 1313,
             "end": 1335,
-            "value": "f(42) must return 42",
-            "raw": "'f(42) must return 42'"
+            "value": "f(42) must return 42"
           }
         ],
         "optional": false

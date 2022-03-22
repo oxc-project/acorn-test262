@@ -123,8 +123,7 @@
                 "type": "Literal",
                 "start": 757,
                 "end": 763,
-                "value": "then",
-                "raw": "'then'"
+                "value": "then"
               },
               {
                 "type": "ObjectExpression",
@@ -323,8 +322,7 @@
                         "type": "Literal",
                         "start": 920,
                         "end": 958,
-                        "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "value": "The promise should not be fulfilled."
                       }
                     ],
                     "optional": false
@@ -400,8 +398,7 @@
                               "type": "Literal",
                               "start": 1013,
                               "end": 1071,
-                              "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "value": "The promise should be fulfilled with the provided value."
                             }
                           ],
                           "optional": false
@@ -523,8 +520,7 @@
             "type": "Literal",
             "start": 1186,
             "end": 1210,
-            "value": "\"resolve\" return value",
-            "raw": "'\"resolve\" return value'"
+            "value": "\"resolve\" return value"
           }
         ],
         "optional": false

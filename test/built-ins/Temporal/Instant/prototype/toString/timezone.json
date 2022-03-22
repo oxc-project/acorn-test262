@@ -52,36 +52,31 @@
                 "type": "Literal",
                 "start": 393,
                 "end": 416,
-                "value": "has timeZone.timeZone",
-                "raw": "\"has timeZone.timeZone\""
+                "value": "has timeZone.timeZone"
               },
               {
                 "type": "Literal",
                 "start": 420,
                 "end": 458,
-                "value": "get timeZone.getOffsetNanosecondsFor",
-                "raw": "\"get timeZone.getOffsetNanosecondsFor\""
+                "value": "get timeZone.getOffsetNanosecondsFor"
               },
               {
                 "type": "Literal",
                 "start": 462,
                 "end": 501,
-                "value": "call timeZone.getOffsetNanosecondsFor",
-                "raw": "\"call timeZone.getOffsetNanosecondsFor\""
+                "value": "call timeZone.getOffsetNanosecondsFor"
               },
               {
                 "type": "Literal",
                 "start": 505,
                 "end": 543,
-                "value": "get timeZone.getOffsetNanosecondsFor",
-                "raw": "\"get timeZone.getOffsetNanosecondsFor\""
+                "value": "get timeZone.getOffsetNanosecondsFor"
               },
               {
                 "type": "Literal",
                 "start": 547,
                 "end": 586,
-                "value": "call timeZone.getOffsetNanosecondsFor",
-                "raw": "\"call timeZone.getOffsetNanosecondsFor\""
+                "value": "call timeZone.getOffsetNanosecondsFor"
               }
             ]
           }
@@ -145,8 +140,7 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 659,
-                "value": "1975-02-02T14:25:36.123456Z",
-                "raw": "\"1975-02-02T14:25:36.123456Z\""
+                "value": "1975-02-02T14:25:36.123456Z"
               }
             ],
             "optional": false
@@ -203,8 +197,7 @@
                       "type": "Literal",
                       "start": 699,
                       "end": 716,
-                      "value": "Custom/TimeZone",
-                      "raw": "\"Custom/TimeZone\""
+                      "value": "Custom/TimeZone"
                     },
                     "kind": "init"
                   },
@@ -268,8 +261,7 @@
                                   "type": "Literal",
                                   "start": 750,
                                   "end": 774,
-                                  "value": "call timeZone.toString",
-                                  "raw": "\"call timeZone.toString\""
+                                  "value": "call timeZone.toString"
                                 }
                               ],
                               "optional": false
@@ -313,15 +305,13 @@
                                   "type": "Literal",
                                   "start": 832,
                                   "end": 849,
-                                  "value": "Custom/TimeZone",
-                                  "raw": "\"Custom/TimeZone\""
+                                  "value": "Custom/TimeZone"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 851,
                                   "end": 857,
-                                  "value": "name",
-                                  "raw": "\"name\""
+                                  "value": "name"
                                 }
                               ],
                               "optional": false
@@ -398,8 +388,7 @@
                                   "type": "Literal",
                                   "start": 922,
                                   "end": 961,
-                                  "value": "call timeZone.getOffsetNanosecondsFor",
-                                  "raw": "\"call timeZone.getOffsetNanosecondsFor\""
+                                  "value": "call timeZone.getOffsetNanosecondsFor"
                                 }
                               ],
                               "optional": false
@@ -489,8 +478,7 @@
                                 "type": "Literal",
                                 "start": 1053,
                                 "end": 1066,
-                                "value": 8735135801679,
-                                "raw": "8735135801679"
+                                "value": 8735135801679
                               }
                             }
                           }
@@ -835,8 +823,7 @@
             "type": "Literal",
             "start": 1336,
             "end": 1342,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -903,8 +890,7 @@
                               "type": "Literal",
                               "start": 1372,
                               "end": 1400,
-                              "value": "get Temporal.TimeZone.from",
-                              "raw": "\"get Temporal.TimeZone.from\""
+                              "value": "get Temporal.TimeZone.from"
                             }
                           ],
                           "optional": false
@@ -1018,8 +1004,7 @@
             "type": "Literal",
             "start": 1484,
             "end": 1521,
-            "value": "1975-02-02T12:00:00.987654321-02:26",
-            "raw": "\"1975-02-02T12:00:00.987654321-02:26\""
+            "value": "1975-02-02T12:00:00.987654321-02:26"
           }
         ],
         "optional": false

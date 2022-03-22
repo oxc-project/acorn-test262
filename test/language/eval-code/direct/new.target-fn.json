@@ -88,8 +88,7 @@
                           "type": "Literal",
                           "start": 675,
                           "end": 688,
-                          "value": "new.target;",
-                          "raw": "'new.target;'"
+                          "value": "new.target;"
                         }
                       ],
                       "optional": false

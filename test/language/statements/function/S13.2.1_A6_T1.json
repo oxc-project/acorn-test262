@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 346,
                 "end": 350,
-                "value": "BA",
-                "raw": "\"BA\""
+                "value": "BA"
               }
             }
           }
@@ -104,8 +103,7 @@
             "type": "Literal",
             "start": 362,
             "end": 363,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -130,8 +128,7 @@
           "type": "Literal",
           "start": 367,
           "end": 368,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -154,8 +151,7 @@
             "type": "Literal",
             "start": 376,
             "end": 380,
-            "value": "AB",
-            "raw": "\"AB\""
+            "value": "AB"
           }
         }
       ],
@@ -180,8 +176,7 @@
           "type": "Literal",
           "start": 383,
           "end": 388,
-          "value": "SAM",
-          "raw": "\"SAM\""
+          "value": "SAM"
         }
       }
     },
@@ -278,8 +273,7 @@
                 "type": "Literal",
                 "start": 515,
                 "end": 516,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "operator": "||",
@@ -298,8 +292,7 @@
                 "type": "Literal",
                 "start": 524,
                 "end": 525,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           },
@@ -319,8 +312,7 @@
               "type": "Literal",
               "start": 533,
               "end": 537,
-              "value": "AB",
-              "raw": "\"AB\""
+              "value": "AB"
             }
           }
         },
@@ -340,8 +332,7 @@
             "type": "Literal",
             "start": 545,
             "end": 550,
-            "value": "SAM",
-            "raw": "\"SAM\""
+            "value": "SAM"
           }
         }
       },
@@ -397,8 +388,7 @@
                                 "type": "Literal",
                                 "start": 578,
                                 "end": 649,
-                                "value": "#1: x === 1 and y === 2 and a === \"AB\" and b === \"SAM\". Actual: x ===",
-                                "raw": "'#1: x === 1 and y === 2 and a === \"AB\" and b === \"SAM\". Actual: x ==='"
+                                "value": "#1: x === 1 and y === 2 and a === \"AB\" and b === \"SAM\". Actual: x ==="
                               },
                               "operator": "+",
                               "right": {
@@ -413,8 +403,7 @@
                               "type": "Literal",
                               "start": 652,
                               "end": 664,
-                              "value": " and y ===",
-                              "raw": "' and y ==='"
+                              "value": " and y ==="
                             }
                           },
                           "operator": "+",
@@ -430,8 +419,7 @@
                           "type": "Literal",
                           "start": 667,
                           "end": 679,
-                          "value": " and a ===",
-                          "raw": "' and a ==='"
+                          "value": " and a ==="
                         }
                       },
                       "operator": "+",
@@ -447,8 +435,7 @@
                       "type": "Literal",
                       "start": 682,
                       "end": 694,
-                      "value": " and b ===",
-                      "raw": "' and b ==='"
+                      "value": " and b ==="
                     }
                   },
                   "operator": "+",

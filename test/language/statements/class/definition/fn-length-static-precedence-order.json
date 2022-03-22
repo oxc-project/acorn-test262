@@ -65,8 +65,7 @@
                           "type": "Literal",
                           "start": 1149,
                           "end": 1205,
-                          "value": "Static method should not be executed during definition",
-                          "raw": "'Static method should not be executed during definition'"
+                          "value": "Static method should not be executed during definition"
                         }
                       ]
                     }
@@ -121,8 +120,7 @@
                           "type": "Literal",
                           "start": 1259,
                           "end": 1315,
-                          "value": "Static method should not be executed during definition",
-                          "raw": "'Static method should not be executed during definition'"
+                          "value": "Static method should not be executed during definition"
                         }
                       ]
                     }
@@ -204,29 +202,25 @@
                 "type": "Literal",
                 "start": 1377,
                 "end": 1385,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               },
               {
                 "type": "Literal",
                 "start": 1387,
                 "end": 1393,
-                "value": "name",
-                "raw": "'name'"
+                "value": "name"
               },
               {
                 "type": "Literal",
                 "start": 1395,
                 "end": 1406,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               },
               {
                 "type": "Literal",
                 "start": 1408,
                 "end": 1416,
-                "value": "method",
-                "raw": "'method'"
+                "value": "method"
               }
             ]
           }
@@ -253,8 +247,7 @@
             "type": "Literal",
             "start": 1431,
             "end": 1439,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         }
       ],
@@ -326,16 +319,14 @@
                             "type": "Literal",
                             "start": 1505,
                             "end": 1574,
-                            "value": "Static method defined via computed property should not be executed ",
-                            "raw": "'Static method defined via computed property should not be executed '"
+                            "value": "Static method defined via computed property should not be executed "
                           },
                           "operator": "+",
                           "right": {
                             "type": "Literal",
                             "start": 1583,
                             "end": 1602,
-                            "value": "during definition",
-                            "raw": "'during definition'"
+                            "value": "during definition"
                           }
                         }
                       ]
@@ -418,22 +409,19 @@
                 "type": "Literal",
                 "start": 1669,
                 "end": 1677,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               },
               {
                 "type": "Literal",
                 "start": 1679,
                 "end": 1685,
-                "value": "name",
-                "raw": "'name'"
+                "value": "name"
               },
               {
                 "type": "Literal",
                 "start": 1687,
                 "end": 1698,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ]
           }
@@ -503,8 +491,7 @@
                           "type": "Literal",
                           "start": 1763,
                           "end": 1827,
-                          "value": "Static `get` accessor should not be executed during definition",
-                          "raw": "'Static `get` accessor should not be executed during definition'"
+                          "value": "Static `get` accessor should not be executed during definition"
                         }
                       ]
                     }
@@ -586,22 +573,19 @@
                 "type": "Literal",
                 "start": 1889,
                 "end": 1897,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               },
               {
                 "type": "Literal",
                 "start": 1899,
                 "end": 1905,
-                "value": "name",
-                "raw": "'name'"
+                "value": "name"
               },
               {
                 "type": "Literal",
                 "start": 1907,
                 "end": 1918,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ]
           }
@@ -678,8 +662,7 @@
                           "type": "Literal",
                           "start": 1984,
                           "end": 2048,
-                          "value": "Static `set` accessor should not be executed during definition",
-                          "raw": "'Static `set` accessor should not be executed during definition'"
+                          "value": "Static `set` accessor should not be executed during definition"
                         }
                       ]
                     }
@@ -761,22 +744,19 @@
                 "type": "Literal",
                 "start": 2110,
                 "end": 2118,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               },
               {
                 "type": "Literal",
                 "start": 2120,
                 "end": 2126,
-                "value": "name",
-                "raw": "'name'"
+                "value": "name"
               },
               {
                 "type": "Literal",
                 "start": 2128,
                 "end": 2139,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ]
           }
@@ -846,8 +826,7 @@
                           "type": "Literal",
                           "start": 2201,
                           "end": 2266,
-                          "value": "Static GeneratorMethod should not be executed during definition",
-                          "raw": "'Static GeneratorMethod should not be executed during definition'"
+                          "value": "Static GeneratorMethod should not be executed during definition"
                         }
                       ]
                     }
@@ -929,22 +908,19 @@
                 "type": "Literal",
                 "start": 2328,
                 "end": 2336,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               },
               {
                 "type": "Literal",
                 "start": 2338,
                 "end": 2344,
-                "value": "name",
-                "raw": "'name'"
+                "value": "name"
               },
               {
                 "type": "Literal",
                 "start": 2346,
                 "end": 2357,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ]
           }

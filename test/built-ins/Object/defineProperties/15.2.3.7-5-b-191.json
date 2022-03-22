@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 327,
                     "end": 336,
-                    "value": "present",
-                    "raw": "\"present\""
+                    "value": "present"
                   }
                 }
               ]
@@ -215,15 +214,13 @@
             "type": "Literal",
             "start": 443,
             "end": 452,
-            "value": "present",
-            "raw": "\"present\""
+            "value": "present"
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 468,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

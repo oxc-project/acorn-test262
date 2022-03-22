@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 391,
             "end": 392,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         {
@@ -40,8 +39,7 @@
             "type": "Literal",
             "start": 397,
             "end": 398,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -84,8 +82,7 @@
                       "type": "Literal",
                       "start": 419,
                       "end": 420,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -138,8 +135,7 @@
                       "type": "Literal",
                       "start": 471,
                       "end": 472,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -177,8 +173,7 @@
                   "type": "Literal",
                   "start": 499,
                   "end": 500,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -202,8 +197,7 @@
                 "type": "Literal",
                 "start": 508,
                 "end": 509,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           }
@@ -224,8 +218,7 @@
           "type": "Literal",
           "start": 522,
           "end": 523,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -248,8 +241,7 @@
           "type": "Literal",
           "start": 535,
           "end": 536,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -276,8 +268,7 @@
                   "type": "Literal",
                   "start": 564,
                   "end": 605,
-                  "value": "#1.1: \"finally\" block must be evaluated",
-                  "raw": "'#1.1: \"finally\" block must be evaluated'"
+                  "value": "#1.1: \"finally\" block must be evaluated"
                 }
               ]
             }
@@ -305,8 +296,7 @@
           "type": "Literal",
           "start": 618,
           "end": 619,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -333,8 +323,7 @@
                   "type": "Literal",
                   "start": 647,
                   "end": 711,
-                  "value": "#1.2: \"try{break} catch finally{continue}\" must work correctly",
-                  "raw": "'#1.2: \"try{break} catch finally{continue}\" must work correctly'"
+                  "value": "#1.2: \"try{break} catch finally{continue}\" must work correctly"
                 }
               ]
             }
@@ -362,8 +351,7 @@
             "type": "Literal",
             "start": 735,
             "end": 736,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         {
@@ -380,8 +368,7 @@
             "type": "Literal",
             "start": 742,
             "end": 743,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -413,8 +400,7 @@
                     "type": "Literal",
                     "start": 766,
                     "end": 771,
-                    "value": "ex1",
-                    "raw": "\"ex1\""
+                    "value": "ex1"
                   }
                 }
               ]
@@ -453,8 +439,7 @@
                         "type": "Literal",
                         "start": 799,
                         "end": 800,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   },
@@ -491,8 +476,7 @@
                       "type": "Literal",
                       "start": 837,
                       "end": 838,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -524,8 +508,7 @@
                 "type": "Literal",
                 "start": 864,
                 "end": 865,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           },
@@ -554,8 +537,7 @@
                   "type": "Literal",
                   "start": 875,
                   "end": 876,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -577,8 +559,7 @@
           "type": "Literal",
           "start": 889,
           "end": 890,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -601,8 +582,7 @@
           "type": "Literal",
           "start": 903,
           "end": 904,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -629,8 +609,7 @@
                   "type": "Literal",
                   "start": 932,
                   "end": 973,
-                  "value": "#2.1: \"finally\" block must be evaluated",
-                  "raw": "'#2.1: \"finally\" block must be evaluated'"
+                  "value": "#2.1: \"finally\" block must be evaluated"
                 }
               ]
             }
@@ -658,8 +637,7 @@
           "type": "Literal",
           "start": 986,
           "end": 987,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -686,8 +664,7 @@
                   "type": "Literal",
                   "start": 1015,
                   "end": 1079,
-                  "value": "#2.2: \"try catch{break} finally{continue}\" must work correctly",
-                  "raw": "'#2.2: \"try catch{break} finally{continue}\" must work correctly'"
+                  "value": "#2.2: \"try catch{break} finally{continue}\" must work correctly"
                 }
               ]
             }

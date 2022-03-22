@@ -33,29 +33,25 @@
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 335,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 338,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 341,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -119,8 +115,7 @@
                           "type": "Literal",
                           "start": 384,
                           "end": 387,
-                          "value": "+",
-                          "raw": "\"+\""
+                          "value": "+"
                         }
                       }
                     ]
@@ -198,15 +193,13 @@
             "type": "Literal",
             "start": 434,
             "end": 485,
-            "value": "0[object Object]1[object Object]2[object Object]3",
-            "raw": "\"0[object Object]1[object Object]2[object Object]3\""
+            "value": "0[object Object]1[object Object]2[object Object]3"
           },
           {
             "type": "Literal",
             "start": 489,
             "end": 587,
-            "value": "x.join({valueOf() {return \"+\"}}) must return \"0[object Object]1[object Object]2[object Object]3\"",
-            "raw": "'x.join({valueOf() {return \"+\"}}) must return \"0[object Object]1[object Object]2[object Object]3\"'"
+            "value": "x.join({valueOf() {return \"+\"}}) must return \"0[object Object]1[object Object]2[object Object]3\""
           }
         ],
         "optional": false
@@ -268,8 +261,7 @@
                           "type": "Literal",
                           "start": 632,
                           "end": 635,
-                          "value": "+",
-                          "raw": "\"+\""
+                          "value": "+"
                         }
                       }
                     ]
@@ -312,8 +304,7 @@
                           "type": "Literal",
                           "start": 667,
                           "end": 670,
-                          "value": "*",
-                          "raw": "\"*\""
+                          "value": "*"
                         }
                       }
                     ]
@@ -391,15 +382,13 @@
             "type": "Literal",
             "start": 717,
             "end": 726,
-            "value": "0*1*2*3",
-            "raw": "\"0*1*2*3\""
+            "value": "0*1*2*3"
           },
           {
             "type": "Literal",
             "start": 730,
             "end": 812,
-            "value": "x.join(\"{valueOf() {return \"+\"}, toString() {return \"*\"}}) must return \"0*1*2*3\"",
-            "raw": "'x.join(\"{valueOf() {return \"+\"}, toString() {return \"*\"}}) must return \"0*1*2*3\"'"
+            "value": "x.join(\"{valueOf() {return \"+\"}, toString() {return \"*\"}}) must return \"0*1*2*3\""
           }
         ],
         "optional": false
@@ -461,8 +450,7 @@
                           "type": "Literal",
                           "start": 857,
                           "end": 860,
-                          "value": "+",
-                          "raw": "\"+\""
+                          "value": "+"
                         }
                       }
                     ]
@@ -583,15 +571,13 @@
             "type": "Literal",
             "start": 941,
             "end": 950,
-            "value": "0+1+2+3",
-            "raw": "\"0+1+2+3\""
+            "value": "0+1+2+3"
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 1034,
-            "value": "x.join({valueOf() {return \"+\"}, toString() {return {}}}) must return \"0+1+2+3\"",
-            "raw": "'x.join({valueOf() {return \"+\"}, toString() {return {}}}) must return \"0+1+2+3\"'"
+            "value": "x.join({valueOf() {return \"+\"}, toString() {return {}}}) must return \"0+1+2+3\""
           }
         ],
         "optional": false
@@ -662,8 +648,7 @@
                                 "type": "Literal",
                                 "start": 1090,
                                 "end": 1097,
-                                "value": "error",
-                                "raw": "\"error\""
+                                "value": "error"
                               }
                             }
                           ]
@@ -706,8 +691,7 @@
                                 "type": "Literal",
                                 "start": 1135,
                                 "end": 1138,
-                                "value": "*",
-                                "raw": "\"*\""
+                                "value": "*"
                               }
                             }
                           ]
@@ -785,15 +769,13 @@
                   "type": "Literal",
                   "start": 1195,
                   "end": 1204,
-                  "value": "0*1*2*3",
-                  "raw": "\"0*1*2*3\""
+                  "value": "0*1*2*3"
                 },
                 {
                   "type": "Literal",
                   "start": 1210,
                   "end": 1295,
-                  "value": "x.join(\"{valueOf() {throw \"error\"}, toString() {return \"*\"}}) must return \"0*1*2*3\"",
-                  "raw": "'x.join(\"{valueOf() {throw \"error\"}, toString() {return \"*\"}}) must return \"0*1*2*3\"'"
+                  "value": "x.join(\"{valueOf() {throw \"error\"}, toString() {return \"*\"}}) must return \"0*1*2*3\""
                 }
               ],
               "optional": false
@@ -854,15 +836,13 @@
                     "type": "Literal",
                     "start": 1340,
                     "end": 1347,
-                    "value": "error",
-                    "raw": "\"error\""
+                    "value": "error"
                   },
                   {
                     "type": "Literal",
                     "start": 1349,
                     "end": 1380,
-                    "value": "The value of e is not \"error\"",
-                    "raw": "'The value of e is not \"error\"'"
+                    "value": "The value of e is not \"error\""
                   }
                 ],
                 "optional": false
@@ -929,8 +909,7 @@
                           "type": "Literal",
                           "start": 1427,
                           "end": 1430,
-                          "value": "*",
-                          "raw": "\"*\""
+                          "value": "*"
                         }
                       }
                     ]
@@ -1008,15 +987,13 @@
             "type": "Literal",
             "start": 1471,
             "end": 1480,
-            "value": "0*1*2*3",
-            "raw": "\"0*1*2*3\""
+            "value": "0*1*2*3"
           },
           {
             "type": "Literal",
             "start": 1482,
             "end": 1539,
-            "value": "x.join({toString() {return \"*\"}}) must return \"0*1*2*3\"",
-            "raw": "'x.join({toString() {return \"*\"}}) must return \"0*1*2*3\"'"
+            "value": "x.join({toString() {return \"*\"}}) must return \"0*1*2*3\""
           }
         ],
         "optional": false
@@ -1121,8 +1098,7 @@
                           "type": "Literal",
                           "start": 1617,
                           "end": 1620,
-                          "value": "*",
-                          "raw": "\"*\""
+                          "value": "*"
                         }
                       }
                     ]
@@ -1200,15 +1176,13 @@
             "type": "Literal",
             "start": 1666,
             "end": 1675,
-            "value": "0*1*2*3",
-            "raw": "\"0*1*2*3\""
+            "value": "0*1*2*3"
           },
           {
             "type": "Literal",
             "start": 1679,
             "end": 1759,
-            "value": "x.join({valueOf() {return {}}, toString() {return \"*\"}}) must return \"0*1*2*3\"",
-            "raw": "'x.join({valueOf() {return {}}, toString() {return \"*\"}}) must return \"0*1*2*3\"'"
+            "value": "x.join({valueOf() {return {}}, toString() {return \"*\"}}) must return \"0*1*2*3\""
           }
         ],
         "optional": false
@@ -1279,8 +1253,7 @@
                                 "type": "Literal",
                                 "start": 1816,
                                 "end": 1819,
-                                "value": "+",
-                                "raw": "\"+\""
+                                "value": "+"
                               }
                             }
                           ]
@@ -1323,8 +1296,7 @@
                                 "type": "Literal",
                                 "start": 1856,
                                 "end": 1863,
-                                "value": "error",
-                                "raw": "\"error\""
+                                "value": "error"
                               }
                             }
                           ]
@@ -1398,8 +1370,7 @@
                     "type": "Literal",
                     "start": 1918,
                     "end": 2031,
-                    "value": "#7.1: var object = {valueOf() {return \"+\"}, toString() {throw \"error\"}}; x.join(object) throw \"error\". Actual: ",
-                    "raw": "'#7.1: var object = {valueOf() {return \"+\"}, toString() {throw \"error\"}}; x.join(object) throw \"error\". Actual: '"
+                    "value": "#7.1: var object = {valueOf() {return \"+\"}, toString() {throw \"error\"}}; x.join(object) throw \"error\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1499,15 +1470,13 @@
                     "type": "Literal",
                     "start": 2089,
                     "end": 2096,
-                    "value": "error",
-                    "raw": "\"error\""
+                    "value": "error"
                   },
                   {
                     "type": "Literal",
                     "start": 2098,
                     "end": 2140,
-                    "value": "The value of e is expected to be \"error\"",
-                    "raw": "'The value of e is expected to be \"error\"'"
+                    "value": "The value of e is expected to be \"error\""
                   }
                 ],
                 "optional": false
@@ -1700,8 +1669,7 @@
                     "type": "Literal",
                     "start": 2295,
                     "end": 2405,
-                    "value": "#8.1: var object = {valueOf() {return {}}, toString() {return {}}}; x.join(object) throw TypeError. Actual: ",
-                    "raw": "'#8.1: var object = {valueOf() {return {}}, toString() {return {}}}; x.join(object) throw TypeError. Actual: '"
+                    "value": "#8.1: var object = {valueOf() {return {}}, toString() {return {}}}; x.join(object) throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1820,8 +1788,7 @@
                     "type": "Literal",
                     "start": 2503,
                     "end": 2577,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                   }
                 ],
                 "optional": false
@@ -1897,8 +1864,7 @@
                                 "type": "Literal",
                                 "start": 2638,
                                 "end": 2645,
-                                "value": "error",
-                                "raw": "\"error\""
+                                "value": "error"
                               }
                             }
                           ]
@@ -1972,8 +1938,7 @@
                     "type": "Literal",
                     "start": 2701,
                     "end": 2791,
-                    "value": "#9.1: var object = {toString() {throw \"error\"}}; [].join(object) throw \"error\". Actual: ",
-                    "raw": "'#9.1: var object = {toString() {throw \"error\"}}; [].join(object) throw \"error\". Actual: '"
+                    "value": "#9.1: var object = {toString() {throw \"error\"}}; [].join(object) throw \"error\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -2073,15 +2038,13 @@
                     "type": "Literal",
                     "start": 2850,
                     "end": 2857,
-                    "value": "error",
-                    "raw": "\"error\""
+                    "value": "error"
                   },
                   {
                     "type": "Literal",
                     "start": 2859,
                     "end": 2901,
-                    "value": "The value of e is expected to be \"error\"",
-                    "raw": "'The value of e is expected to be \"error\"'"
+                    "value": "The value of e is expected to be \"error\""
                   }
                 ],
                 "optional": false

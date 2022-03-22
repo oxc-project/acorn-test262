@@ -111,8 +111,7 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 402,
-                  "value": "#1: var x = false; ((x = true) && x) === true",
-                  "raw": "'#1: var x = false; ((x = true) && x) === true'"
+                  "value": "#1: var x = false; ((x = true) && x) === true"
                 }
               ]
             }
@@ -229,8 +228,7 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 542,
-                  "value": "#2: var x = false; (x && (x = true)) === false",
-                  "raw": "'#2: var x = false; (x && (x = true)) === false'"
+                  "value": "#2: var x = false; (x && (x = true)) === false"
                 }
               ]
             }

@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 1814,
             "end": 1824,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1826,
             "end": 1870,
-            "value": "new binding on an extensible global object",
-            "raw": "'new binding on an extensible global object'"
+            "value": "new binding on an extensible global object"
           }
         ],
         "optional": false
@@ -86,8 +84,7 @@
             "type": "Literal",
             "start": 1897,
             "end": 1907,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -117,8 +114,7 @@
             "type": "Literal",
             "start": 1931,
             "end": 1941,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -148,8 +144,7 @@
             "type": "Literal",
             "start": 1972,
             "end": 1982,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false

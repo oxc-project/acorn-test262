@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 273,
                     "end": 275,
-                    "value": 11,
-                    "raw": "11"
+                    "value": 11
                   }
                 ]
               },
@@ -110,8 +109,7 @@
             "type": "Literal",
             "start": 333,
             "end": 367,
-            "value": "newArr instanceof Array !== true",
-            "raw": "'newArr instanceof Array !== true'"
+            "value": "newArr instanceof Array !== true"
           }
         ],
         "optional": false

@@ -89,8 +89,7 @@
             "type": "Literal",
             "start": 336,
             "end": 337,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -105,8 +104,7 @@
             "type": "Literal",
             "start": 342,
             "end": 343,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -134,8 +132,7 @@
             "type": "Literal",
             "start": 354,
             "end": 355,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -150,8 +147,7 @@
             "type": "Literal",
             "start": 360,
             "end": 363,
-            "value": 111,
-            "raw": "111"
+            "value": 111
           }
         }
       }
@@ -179,8 +175,7 @@
             "type": "Literal",
             "start": 374,
             "end": 375,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -195,8 +190,7 @@
             "type": "Literal",
             "start": 380,
             "end": 386,
-            "value": 111111,
-            "raw": "111111"
+            "value": 111111
           }
         }
       }
@@ -220,8 +214,7 @@
             "type": "Literal",
             "start": 406,
             "end": 407,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         }
       ],
@@ -250,8 +243,7 @@
               "type": "Literal",
               "start": 423,
               "end": 424,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -383,8 +375,7 @@
                     "type": "Literal",
                     "start": 499,
                     "end": 500,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 {

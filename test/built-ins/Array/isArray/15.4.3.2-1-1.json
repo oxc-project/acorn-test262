@@ -76,8 +76,7 @@
             "type": "Literal",
             "start": 294,
             "end": 333,
-            "value": "Array.isArray(true) must return false",
-            "raw": "'Array.isArray(true) must return false'"
+            "value": "Array.isArray(true) must return false"
           }
         ],
         "optional": false

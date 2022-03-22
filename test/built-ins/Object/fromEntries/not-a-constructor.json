@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 769,
             "end": 822,
-            "value": "isConstructor(Object.fromEntries) must return false",
-            "raw": "'isConstructor(Object.fromEntries) must return false'"
+            "value": "isConstructor(Object.fromEntries) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 892,
             "end": 939,
-            "value": "`new Object.fromEntries([])` throws TypeError",
-            "raw": "'`new Object.fromEntries([])` throws TypeError'"
+            "value": "`new Object.fromEntries([])` throws TypeError"
           }
         ],
         "optional": false

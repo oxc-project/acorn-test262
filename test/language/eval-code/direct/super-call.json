@@ -51,8 +51,7 @@
                   "type": "Literal",
                   "start": 582,
                   "end": 592,
-                  "value": "super();",
-                  "raw": "'super();'"
+                  "value": "super();"
                 }
               ],
               "optional": false
@@ -148,8 +147,7 @@
             "type": "Literal",
             "start": 662,
             "end": 670,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false

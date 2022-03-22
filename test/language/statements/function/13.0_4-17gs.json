@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 384,
-                "value": "eval = 42;",
-                "raw": "'eval = 42;'"
+                "value": "eval = 42;"
               }
             ]
           }

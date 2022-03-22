@@ -121,22 +121,19 @@
                                       "type": "Literal",
                                       "start": 1533,
                                       "end": 1534,
-                                      "value": 4,
-                                      "raw": "4"
+                                      "value": 4
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1536,
                                       "end": 1537,
-                                      "value": 5,
-                                      "raw": "5"
+                                      "value": 5
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1539,
                                       "end": 1540,
-                                      "value": 6,
-                                      "raw": "6"
+                                      "value": 6
                                     }
                                   ]
                                 }

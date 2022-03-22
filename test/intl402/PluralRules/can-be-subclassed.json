@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 398,
                 "end": 403,
-                "value": "tlh",
-                "raw": "\"tlh\""
+                "value": "tlh"
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 409,
-                "value": "id",
-                "raw": "\"id\""
+                "value": "id"
               },
               {
                 "type": "Literal",
                 "start": 411,
                 "end": 415,
-                "value": "en",
-                "raw": "\"en\""
+                "value": "en"
               }
             ]
           }
@@ -74,22 +71,19 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 428,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 435,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               }
             ]
           }

@@ -57,8 +57,7 @@
                   "type": "Literal",
                   "start": 459,
                   "end": 460,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             ]
@@ -335,8 +334,7 @@
                                     "type": "Literal",
                                     "start": 726,
                                     "end": 780,
-                                    "value": "`Atomics.load(view, IdxGen(view))` throws RangeError",
-                                    "raw": "'`Atomics.load(view, IdxGen(view))` throws RangeError'"
+                                    "value": "`Atomics.load(view, IdxGen(view))` throws RangeError"
                                   }
                                 ],
                                 "optional": false

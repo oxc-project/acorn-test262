@@ -20,13 +20,12 @@
         "end": 1031,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 887,
-            "end": 902,
-            "static": false,
+            "end": 901,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 887,
               "end": 889,
               "name": "f"
@@ -35,8 +34,7 @@
               "type": "Literal",
               "start": 892,
               "end": 901,
-              "value": "Test262",
-              "raw": "'Test262'"
+              "value": "Test262"
             }
           },
           {
@@ -123,14 +121,14 @@
                               "end": 986,
                               "name": "self"
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 987,
                               "end": 989,
                               "name": "f"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         }
                       ]
@@ -250,8 +248,7 @@
             "type": "Literal",
             "start": 1079,
             "end": 1088,
-            "value": "Test262",
-            "raw": "'Test262'"
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -388,8 +385,7 @@
             "type": "Literal",
             "start": 1164,
             "end": 1212,
-            "value": "accessed private field from an ordinary object",
-            "raw": "'accessed private field from an ordinary object'"
+            "value": "accessed private field from an ordinary object"
           }
         ],
         "optional": false

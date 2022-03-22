@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 407,
             "end": 462,
-            "value": "`new Function.prototype` throws a TypeError exception",
-            "raw": "'`new Function.prototype` throws a TypeError exception'"
+            "value": "`new Function.prototype` throws a TypeError exception"
           }
         ],
         "optional": false

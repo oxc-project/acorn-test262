@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 541,
             "end": 542,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -154,8 +153,7 @@
                       "type": "Literal",
                       "start": 618,
                       "end": 619,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -455,8 +453,7 @@
             "type": "Literal",
             "start": 850,
             "end": 921,
-            "value": "The result of evaluating (result instanceof C) is expected to be true",
-            "raw": "'The result of evaluating (result instanceof C) is expected to be true'"
+            "value": "The result of evaluating (result instanceof C) is expected to be true"
           }
         ],
         "optional": false
@@ -519,8 +516,7 @@
             "type": "Literal",
             "start": 972,
             "end": 1041,
-            "value": "The value of result.constructor is expected to equal the value of C",
-            "raw": "'The value of result.constructor is expected to equal the value of C'"
+            "value": "The value of result.constructor is expected to equal the value of C"
           }
         ],
         "optional": false
@@ -564,15 +560,13 @@
             "type": "Literal",
             "start": 1073,
             "end": 1074,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1076,
             "end": 1120,
-            "value": "The value of callCount is expected to be 1",
-            "raw": "'The value of callCount is expected to be 1'"
+            "value": "The value of callCount is expected to be 1"
           }
         ],
         "optional": false
@@ -622,8 +616,7 @@
             "type": "Literal",
             "start": 1157,
             "end": 1220,
-            "value": "The value of thisVal is expected to equal the value of result",
-            "raw": "'The value of thisVal is expected to equal the value of result'"
+            "value": "The value of thisVal is expected to equal the value of result"
           }
         ],
         "optional": false
@@ -680,15 +673,13 @@
             "type": "Literal",
             "start": 1253,
             "end": 1254,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1256,
             "end": 1302,
-            "value": "The value of args.length is expected to be 0",
-            "raw": "'The value of args.length is expected to be 0'"
+            "value": "The value of args.length is expected to be 0"
           }
         ],
         "optional": false

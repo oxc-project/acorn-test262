@@ -116,8 +116,7 @@
                         "type": "Literal",
                         "start": 358,
                         "end": 363,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ],
                     "optional": false
@@ -130,8 +129,7 @@
             "type": "Literal",
             "start": 369,
             "end": 455,
-            "value": "Object.prototype.propertyIsEnumerable.call(null, \"foo\") throws a TypeError exception",
-            "raw": "'Object.prototype.propertyIsEnumerable.call(null, \"foo\") throws a TypeError exception'"
+            "value": "Object.prototype.propertyIsEnumerable.call(null, \"foo\") throws a TypeError exception"
           }
         ],
         "optional": false

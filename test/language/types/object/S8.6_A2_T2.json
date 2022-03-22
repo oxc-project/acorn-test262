@@ -114,8 +114,7 @@
               "type": "Literal",
               "start": 612,
               "end": 617,
-              "value": "foo",
-              "raw": "\"foo\""
+              "value": "foo"
             },
             "operator": "in",
             "right": {
@@ -151,8 +150,7 @@
                   "type": "Literal",
                   "start": 656,
                   "end": 690,
-                  "value": "#2: var __map={}; \"foo\" in __map",
-                  "raw": "'#2: var __map={}; \"foo\" in __map'"
+                  "value": "#2: var __map={}; \"foo\" in __map"
                 }
               ]
             }

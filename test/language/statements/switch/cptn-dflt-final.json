@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1385,
                 "end": 1415,
-                "value": "1; switch (\"a\") { default: }",
-                "raw": "'1; switch (\"a\") { default: }'"
+                "value": "1; switch (\"a\") { default: }"
               }
             ],
             "optional": false
@@ -62,8 +61,7 @@
             "type": "Literal",
             "start": 1433,
             "end": 1466,
-            "value": "empty StatementList (lone case)",
-            "raw": "'empty StatementList (lone case)'"
+            "value": "empty StatementList (lone case)"
           }
         ],
         "optional": false
@@ -112,8 +110,7 @@
                 "type": "Literal",
                 "start": 1495,
                 "end": 1528,
-                "value": "2; switch (\"a\") { default: 3; }",
-                "raw": "'2; switch (\"a\") { default: 3; }'"
+                "value": "2; switch (\"a\") { default: 3; }"
               }
             ],
             "optional": false
@@ -122,15 +119,13 @@
             "type": "Literal",
             "start": 1533,
             "end": 1534,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1538,
             "end": 1574,
-            "value": "non-empy StatementList (lone case)",
-            "raw": "'non-empy StatementList (lone case)'"
+            "value": "non-empy StatementList (lone case)"
           }
         ],
         "optional": false
@@ -179,8 +174,7 @@
                 "type": "Literal",
                 "start": 1603,
                 "end": 1643,
-                "value": "4; switch (\"b\") { case \"a\": default: }",
-                "raw": "'4; switch (\"b\") { case \"a\": default: }'"
+                "value": "4; switch (\"b\") { case \"a\": default: }"
               }
             ],
             "optional": false
@@ -195,8 +189,7 @@
             "type": "Literal",
             "start": 1661,
             "end": 1708,
-            "value": "empty StatementList (following an empty case)",
-            "raw": "'empty StatementList (following an empty case)'"
+            "value": "empty StatementList (following an empty case)"
           }
         ],
         "optional": false
@@ -245,8 +238,7 @@
                 "type": "Literal",
                 "start": 1737,
                 "end": 1780,
-                "value": "5; switch (\"b\") { case \"a\": default: 6; }",
-                "raw": "'5; switch (\"b\") { case \"a\": default: 6; }'"
+                "value": "5; switch (\"b\") { case \"a\": default: 6; }"
               }
             ],
             "optional": false
@@ -255,15 +247,13 @@
             "type": "Literal",
             "start": 1785,
             "end": 1786,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           },
           {
             "type": "Literal",
             "start": 1790,
             "end": 1841,
-            "value": "non-empty StatementList (following an empty case)",
-            "raw": "'non-empty StatementList (following an empty case)'"
+            "value": "non-empty StatementList (following an empty case)"
           }
         ],
         "optional": false
@@ -312,8 +302,7 @@
                 "type": "Literal",
                 "start": 1870,
                 "end": 1913,
-                "value": "7; switch (\"b\") { case \"a\": 8; default: }",
-                "raw": "'7; switch (\"b\") { case \"a\": 8; default: }'"
+                "value": "7; switch (\"b\") { case \"a\": 8; default: }"
               }
             ],
             "optional": false
@@ -328,8 +317,7 @@
             "type": "Literal",
             "start": 1931,
             "end": 1981,
-            "value": "empty StatementList (following a non-empty case)",
-            "raw": "'empty StatementList (following a non-empty case)'"
+            "value": "empty StatementList (following a non-empty case)"
           }
         ],
         "optional": false
@@ -378,8 +366,7 @@
                 "type": "Literal",
                 "start": 2010,
                 "end": 2058,
-                "value": "9; switch (\"b\") { case \"a\": 10; default: 11; }",
-                "raw": "'9; switch (\"b\") { case \"a\": 10; default: 11; }'"
+                "value": "9; switch (\"b\") { case \"a\": 10; default: 11; }"
               }
             ],
             "optional": false
@@ -388,15 +375,13 @@
             "type": "Literal",
             "start": 2063,
             "end": 2065,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 2069,
             "end": 2123,
-            "value": "non-empty StatementList (following a non-empty case)",
-            "raw": "'non-empty StatementList (following a non-empty case)'"
+            "value": "non-empty StatementList (following a non-empty case)"
           }
         ],
         "optional": false

@@ -256,8 +256,7 @@
             "type": "Literal",
             "start": 1292,
             "end": 1298,
-            "value": "xGen",
-            "raw": "'xGen'"
+            "value": "xGen"
           }
         ],
         "optional": false
@@ -288,8 +287,7 @@
             "type": "Literal",
             "start": 1322,
             "end": 1328,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -379,8 +377,7 @@
                   "type": "Literal",
                   "start": 1403,
                   "end": 1408,
-                  "value": "gen",
-                  "raw": "'gen'"
+                  "value": "gen"
                 },
                 "kind": "init"
               }

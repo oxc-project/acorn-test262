@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 250,
             "end": 260,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 262,
             "end": 295,
-            "value": "typeof RangeError is \"function\"",
-            "raw": "'typeof RangeError is \"function\"'"
+            "value": "typeof RangeError is \"function\""
           }
         ],
         "optional": false

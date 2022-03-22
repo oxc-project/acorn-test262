@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 769,
             "end": 822,
-            "value": "isConstructor(Promise.allSettled) must return false",
-            "raw": "'isConstructor(Promise.allSettled) must return false'"
+            "value": "isConstructor(Promise.allSettled) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 890,
             "end": 935,
-            "value": "`new Promise.allSettled()` throws TypeError",
-            "raw": "'`new Promise.allSettled()` throws TypeError'"
+            "value": "`new Promise.allSettled()` throws TypeError"
           }
         ],
         "optional": false

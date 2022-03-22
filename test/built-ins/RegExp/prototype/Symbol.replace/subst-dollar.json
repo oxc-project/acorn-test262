@@ -44,7 +44,6 @@
                 "start": 808,
                 "end": 811,
                 "value": {},
-                "raw": "/./",
                 "regex": {
                   "pattern": ".",
                   "flags": ""
@@ -77,15 +76,13 @@
                 "type": "Literal",
                 "start": 828,
                 "end": 833,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 835,
                 "end": 839,
-                "value": "$$",
-                "raw": "'$$'"
+                "value": "$$"
               }
             ],
             "optional": false
@@ -94,15 +91,13 @@
             "type": "Literal",
             "start": 842,
             "end": 847,
-            "value": "$bc",
-            "raw": "'$bc'"
+            "value": "$bc"
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 868,
-            "value": "\"escaped\" version",
-            "raw": "'\"escaped\" version'"
+            "value": "\"escaped\" version"
           }
         ],
         "optional": false
@@ -149,7 +144,6 @@
                 "start": 891,
                 "end": 894,
                 "value": {},
-                "raw": "/./",
                 "regex": {
                   "pattern": ".",
                   "flags": ""
@@ -182,15 +176,13 @@
                 "type": "Literal",
                 "start": 911,
                 "end": 916,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 918,
                 "end": 921,
-                "value": "$",
-                "raw": "'$'"
+                "value": "$"
               }
             ],
             "optional": false
@@ -199,15 +191,13 @@
             "type": "Literal",
             "start": 924,
             "end": 929,
-            "value": "$bc",
-            "raw": "'$bc'"
+            "value": "$bc"
           },
           {
             "type": "Literal",
             "start": 931,
             "end": 952,
-            "value": "\"unescaped\" version",
-            "raw": "'\"unescaped\" version'"
+            "value": "\"unescaped\" version"
           }
         ],
         "optional": false
@@ -254,7 +244,6 @@
                 "start": 976,
                 "end": 979,
                 "value": {},
-                "raw": "/./",
                 "regex": {
                   "pattern": ".",
                   "flags": ""
@@ -287,15 +276,13 @@
                 "type": "Literal",
                 "start": 996,
                 "end": 1001,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 1003,
                 "end": 1008,
-                "value": "\\$",
-                "raw": "'\\\\$'"
+                "value": "\\$"
               }
             ],
             "optional": false
@@ -304,15 +291,13 @@
             "type": "Literal",
             "start": 1011,
             "end": 1018,
-            "value": "\\$bc",
-            "raw": "'\\\\$bc'"
+            "value": "\\$bc"
           },
           {
             "type": "Literal",
             "start": 1020,
             "end": 1040,
-            "value": "backslash-prefixed",
-            "raw": "'backslash-prefixed'"
+            "value": "backslash-prefixed"
           }
         ],
         "optional": false
@@ -359,7 +344,6 @@
                 "start": 1064,
                 "end": 1067,
                 "value": {},
-                "raw": "/./",
                 "regex": {
                   "pattern": ".",
                   "flags": ""
@@ -392,15 +376,13 @@
                 "type": "Literal",
                 "start": 1084,
                 "end": 1089,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 1091,
                 "end": 1096,
-                "value": "$$$",
-                "raw": "'$$$'"
+                "value": "$$$"
               }
             ],
             "optional": false
@@ -409,15 +391,13 @@
             "type": "Literal",
             "start": 1101,
             "end": 1107,
-            "value": "$$bc",
-            "raw": "'$$bc'"
+            "value": "$$bc"
           },
           {
             "type": "Literal",
             "start": 1111,
             "end": 1147,
-            "value": "\"escaped\" followed by \"unuescaped\"",
-            "raw": "'\"escaped\" followed by \"unuescaped\"'"
+            "value": "\"escaped\" followed by \"unuescaped\""
           }
         ],
         "optional": false

@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 335,
             "end": 338,
-            "value": "x",
-            "raw": "\"x\""
+            "value": "x"
           },
           {
             "type": "ObjectExpression",
@@ -154,8 +153,7 @@
                   "type": "Literal",
                   "start": 400,
                   "end": 401,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               },
               "property": {
@@ -172,8 +170,7 @@
               "type": "Literal",
               "start": 408,
               "end": 409,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
@@ -187,8 +184,7 @@
             "type": "Literal",
             "start": 418,
             "end": 430,
-            "value": "(5).x == 0",
-            "raw": "'(5).x == 0'"
+            "value": "(5).x == 0"
           }
         ],
         "optional": false
@@ -225,8 +221,7 @@
                   "type": "Literal",
                   "start": 441,
                   "end": 442,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               },
               "property": {
@@ -243,16 +238,14 @@
               "type": "Literal",
               "start": 449,
               "end": 450,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             }
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 464,
-            "value": "(5).x == 5",
-            "raw": "'(5).x == 5'"
+            "value": "(5).x == 5"
           }
         ],
         "optional": false

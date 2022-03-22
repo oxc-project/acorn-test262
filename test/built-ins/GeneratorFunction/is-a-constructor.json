@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 802,
             "end": 853,
-            "value": "isConstructor(GeneratorFunction) must return true",
-            "raw": "'isConstructor(GeneratorFunction) must return true'"
+            "value": "isConstructor(GeneratorFunction) must return true"
           }
         ],
         "optional": false

@@ -99,8 +99,7 @@
             "type": "Literal",
             "start": 371,
             "end": 381,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -193,7 +192,6 @@
                         "start": 448,
                         "end": 451,
                         "value": {},
-                        "raw": "/./",
                         "regex": {
                           "pattern": ".",
                           "flags": ""
@@ -210,8 +208,7 @@
             "type": "Literal",
             "start": 457,
             "end": 468,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -305,7 +302,6 @@
                         "start": 530,
                         "end": 533,
                         "value": {},
-                        "raw": "/./",
                         "regex": {
                           "pattern": ".",
                           "flags": ""
@@ -322,8 +318,7 @@
             "type": "Literal",
             "start": 539,
             "end": 545,
-            "value": "null",
-            "raw": "'null'"
+            "value": "null"
           }
         ],
         "optional": false

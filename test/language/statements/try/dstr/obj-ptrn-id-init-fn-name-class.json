@@ -271,8 +271,7 @@
                     "type": "Literal",
                     "start": 1217,
                     "end": 1222,
-                    "value": "cls",
-                    "raw": "'cls'"
+                    "value": "cls"
                   }
                 ],
                 "optional": false
@@ -329,8 +328,7 @@
                     "type": "Literal",
                     "start": 1258,
                     "end": 1264,
-                    "value": "xCls",
-                    "raw": "'xCls'"
+                    "value": "xCls"
                   }
                 ],
                 "optional": false
@@ -387,8 +385,7 @@
                     "type": "Literal",
                     "start": 1301,
                     "end": 1308,
-                    "value": "xCls2",
-                    "raw": "'xCls2'"
+                    "value": "xCls2"
                   }
                 ],
                 "optional": false
@@ -448,8 +445,7 @@
             "type": "Literal",
             "start": 1350,
             "end": 1374,
-            "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "value": "executed `catch` block"
           }
         ],
         "optional": false

@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 659,
             "end": 669,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 671,
             "end": 726,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -140,8 +138,7 @@
                       "type": "Literal",
                       "start": 814,
                       "end": 815,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -371,15 +368,13 @@
                   "type": "Literal",
                   "start": 996,
                   "end": 997,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 999,
                   "end": 1000,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
@@ -404,15 +399,13 @@
             "type": "Literal",
             "start": 1017,
             "end": 1028,
-            "value": "timed-out",
-            "raw": "'timed-out'"
+            "value": "timed-out"
           },
           {
             "type": "Literal",
             "start": 1032,
             "end": 1103,
-            "value": "The value of Atomics.waitAsync(i32a, 0, 0, null).value is \"timed-out\"",
-            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, null).value is \"timed-out\"'"
+            "value": "The value of Atomics.waitAsync(i32a, 0, 0, null).value is \"timed-out\""
           }
         ],
         "optional": false
@@ -484,15 +477,13 @@
                   "type": "Literal",
                   "start": 1151,
                   "end": 1152,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 1154,
                   "end": 1155,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Identifier",
@@ -516,15 +507,13 @@
             "type": "Literal",
             "start": 1175,
             "end": 1186,
-            "value": "timed-out",
-            "raw": "'timed-out'"
+            "value": "timed-out"
           },
           {
             "type": "Literal",
             "start": 1190,
             "end": 1264,
-            "value": "The value of Atomics.waitAsync(i32a, 0, 0, valueOf).value is \"timed-out\"",
-            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, valueOf).value is \"timed-out\"'"
+            "value": "The value of Atomics.waitAsync(i32a, 0, 0, valueOf).value is \"timed-out\""
           }
         ],
         "optional": false
@@ -596,15 +585,13 @@
                   "type": "Literal",
                   "start": 1312,
                   "end": 1313,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 1315,
                   "end": 1316,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Identifier",
@@ -628,15 +615,13 @@
             "type": "Literal",
             "start": 1340,
             "end": 1351,
-            "value": "timed-out",
-            "raw": "'timed-out'"
+            "value": "timed-out"
           },
           {
             "type": "Literal",
             "start": 1355,
             "end": 1433,
-            "value": "The value of Atomics.waitAsync(i32a, 0, 0, toPrimitive).value is \"timed-out\"",
-            "raw": "'The value of Atomics.waitAsync(i32a, 0, 0, toPrimitive).value is \"timed-out\"'"
+            "value": "The value of Atomics.waitAsync(i32a, 0, 0, toPrimitive).value is \"timed-out\""
           }
         ],
         "optional": false

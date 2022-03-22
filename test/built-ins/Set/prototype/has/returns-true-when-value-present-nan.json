@@ -144,8 +144,7 @@
             "type": "Literal",
             "start": 444,
             "end": 473,
-            "value": "`s.has(NaN)` returns `true`",
-            "raw": "\"`s.has(NaN)` returns `true`\""
+            "value": "`s.has(NaN)` returns `true`"
           }
         ],
         "optional": false

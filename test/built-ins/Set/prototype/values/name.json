@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 346,
             "end": 354,
-            "value": "values",
-            "raw": "\"values\""
+            "value": "values"
           },
           {
             "type": "Literal",
             "start": 356,
             "end": 412,
-            "value": "The value of `Set.prototype.values.name` is `'values'`",
-            "raw": "\"The value of `Set.prototype.values.name` is `'values'`\""
+            "value": "The value of `Set.prototype.values.name` is `'values'`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 458,
             "end": 464,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 507,
             "end": 513,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 557,
             "end": 563,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

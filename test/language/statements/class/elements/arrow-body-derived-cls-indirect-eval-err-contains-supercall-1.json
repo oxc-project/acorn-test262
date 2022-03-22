@@ -43,10 +43,9 @@
         "end": 1156,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1117,
-            "end": 1154,
-            "static": false,
+            "end": 1153,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -71,8 +70,7 @@
                       "type": "Literal",
                       "start": 1122,
                       "end": 1123,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Identifier",
@@ -88,8 +86,7 @@
                   "type": "Literal",
                   "start": 1131,
                   "end": 1152,
-                  "value": "() => super()[\"x\"];",
-                  "raw": "'() => super()[\"x\"];'"
+                  "value": "() => super()[\"x\"];"
                 }
               ],
               "optional": false

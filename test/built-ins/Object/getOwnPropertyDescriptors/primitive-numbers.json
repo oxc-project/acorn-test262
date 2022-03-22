@@ -87,8 +87,7 @@
                       "type": "Literal",
                       "start": 345,
                       "end": 346,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   ],
                   "optional": false
@@ -109,15 +108,13 @@
             "type": "Literal",
             "start": 357,
             "end": 358,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 360,
             "end": 384,
-            "value": "0 has zero descriptors",
-            "raw": "'0 has zero descriptors'"
+            "value": "0 has zero descriptors"
           }
         ],
         "optional": false
@@ -213,8 +210,7 @@
                         "type": "Literal",
                         "start": 450,
                         "end": 451,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -236,15 +232,13 @@
             "type": "Literal",
             "start": 462,
             "end": 463,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 490,
-            "value": "-0 has zero descriptors",
-            "raw": "'-0 has zero descriptors'"
+            "value": "-0 has zero descriptors"
           }
         ],
         "optional": false
@@ -355,15 +349,13 @@
             "type": "Literal",
             "start": 574,
             "end": 575,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 608,
-            "value": "Infinity has zero descriptors",
-            "raw": "'Infinity has zero descriptors'"
+            "value": "Infinity has zero descriptors"
           }
         ],
         "optional": false
@@ -481,15 +473,13 @@
             "type": "Literal",
             "start": 693,
             "end": 694,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 728,
-            "value": "-Infinity has zero descriptors",
-            "raw": "'-Infinity has zero descriptors'"
+            "value": "-Infinity has zero descriptors"
           }
         ],
         "optional": false
@@ -600,15 +590,13 @@
             "type": "Literal",
             "start": 807,
             "end": 808,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 836,
-            "value": "NaN has zero descriptors",
-            "raw": "'NaN has zero descriptors'"
+            "value": "NaN has zero descriptors"
           }
         ],
         "optional": false
@@ -732,15 +720,13 @@
             "type": "Literal",
             "start": 919,
             "end": 920,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 952,
-            "value": "Math.PI has zero descriptors",
-            "raw": "'Math.PI has zero descriptors'"
+            "value": "Math.PI has zero descriptors"
           }
         ],
         "optional": false

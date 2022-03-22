@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 287,
             "end": 298,
-            "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "value": "MAX_VALUE"
           },
           "operator": "in",
           "right": {
@@ -63,8 +62,7 @@
                   "type": "Literal",
                   "start": 346,
                   "end": 382,
-                  "value": "#1: \"MAX_VALUE\" in Number === true",
-                  "raw": "'#1: \"MAX_VALUE\" in Number === true'"
+                  "value": "#1: \"MAX_VALUE\" in Number === true"
                 }
               ]
             }
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 406,
             "end": 417,
-            "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "value": "MAX_VALUE"
           }
         }
       ],
@@ -158,8 +155,7 @@
                   "type": "Literal",
                   "start": 472,
                   "end": 519,
-                  "value": "#2: var x = \"MAX_VALUE\"; x in Number === true",
-                  "raw": "'#2: var x = \"MAX_VALUE\"; x in Number === true'"
+                  "value": "#2: var x = \"MAX_VALUE\"; x in Number === true"
                 }
               ]
             }
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 555,
             "end": 566,
-            "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "value": "MAX_VALUE"
           },
           "operator": "in",
           "right": {
@@ -253,8 +248,7 @@
                   "type": "Literal",
                   "start": 610,
                   "end": 657,
-                  "value": "#3: var y = Number; \"MAX_VALUE\" in y === true",
-                  "raw": "'#3: var y = Number; \"MAX_VALUE\" in y === true'"
+                  "value": "#3: var y = Number; \"MAX_VALUE\" in y === true"
                 }
               ]
             }
@@ -282,8 +276,7 @@
             "type": "Literal",
             "start": 681,
             "end": 692,
-            "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "value": "MAX_VALUE"
           }
         }
       ],
@@ -373,8 +366,7 @@
                   "type": "Literal",
                   "start": 758,
                   "end": 816,
-                  "value": "#4: var x = \"MAX_VALUE\"; var y = Number; x in y === true",
-                  "raw": "'#4: var x = \"MAX_VALUE\"; var y = Number; x in y === true'"
+                  "value": "#4: var x = \"MAX_VALUE\"; var y = Number; x in y === true"
                 }
               ]
             }

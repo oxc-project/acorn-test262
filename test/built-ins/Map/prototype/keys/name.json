@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 394,
             "end": 400,
-            "value": "keys",
-            "raw": "'keys'"
+            "value": "keys"
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 456,
-            "value": "The value of `Map.prototype.keys.name` is `\"keys\"`",
-            "raw": "'The value of `Map.prototype.keys.name` is `\"keys\"`'"
+            "value": "The value of `Map.prototype.keys.name` is `\"keys\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 501,
             "end": 507,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 548,
             "end": 554,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 596,
             "end": 602,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

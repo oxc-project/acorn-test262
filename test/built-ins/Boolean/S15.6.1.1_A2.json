@@ -55,15 +55,13 @@
             "type": "Literal",
             "start": 301,
             "end": 310,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           },
           {
             "type": "Literal",
             "start": 312,
             "end": 373,
-            "value": "The value of `typeof Boolean()` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean()` is expected to be \"boolean\"'"
+            "value": "The value of `typeof Boolean()` is expected to be \"boolean\""
           }
         ],
         "optional": false
@@ -121,8 +119,7 @@
             "type": "Literal",
             "start": 411,
             "end": 440,
-            "value": "Boolean() must return false",
-            "raw": "'Boolean() must return false'"
+            "value": "Boolean() must return false"
           }
         ],
         "optional": false

@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 348,
             "end": 357,
-            "value": "getYear",
-            "raw": "\"getYear\""
+            "value": "getYear"
           },
           {
             "type": "ObjectExpression",

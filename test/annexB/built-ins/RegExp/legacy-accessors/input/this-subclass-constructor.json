@@ -105,8 +105,7 @@
             "type": "Literal",
             "start": 1040,
             "end": 1090,
-            "value": "RegExp.input getter throws for subclass receiver",
-            "raw": "\"RegExp.input getter throws for subclass receiver\""
+            "value": "RegExp.input getter throws for subclass receiver"
           }
         ],
         "optional": false
@@ -192,8 +191,7 @@
                       "type": "Literal",
                       "start": 1160,
                       "end": 1162,
-                      "value": "",
-                      "raw": "\"\""
+                      "value": ""
                     }
                   }
                 }
@@ -204,8 +202,7 @@
             "type": "Literal",
             "start": 1171,
             "end": 1221,
-            "value": "RegExp.input setter throws for subclass receiver",
-            "raw": "\"RegExp.input setter throws for subclass receiver\""
+            "value": "RegExp.input setter throws for subclass receiver"
           }
         ],
         "optional": false
@@ -290,8 +287,7 @@
             "type": "Literal",
             "start": 1294,
             "end": 1341,
-            "value": "RegExp.$_ getter throws for subclass receiver",
-            "raw": "\"RegExp.$_ getter throws for subclass receiver\""
+            "value": "RegExp.$_ getter throws for subclass receiver"
           }
         ],
         "optional": false
@@ -377,8 +373,7 @@
                       "type": "Literal",
                       "start": 1408,
                       "end": 1410,
-                      "value": "",
-                      "raw": "\"\""
+                      "value": ""
                     }
                   }
                 }
@@ -389,8 +384,7 @@
             "type": "Literal",
             "start": 1419,
             "end": 1466,
-            "value": "RegExp.$_ setter throws for subclass receiver",
-            "raw": "\"RegExp.$_ setter throws for subclass receiver\""
+            "value": "RegExp.$_ setter throws for subclass receiver"
           }
         ],
         "optional": false

@@ -118,8 +118,7 @@
             "type": "Literal",
             "start": 470,
             "end": 478,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -132,8 +131,7 @@
             "type": "Literal",
             "start": 486,
             "end": 487,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -222,8 +220,7 @@
             "type": "Literal",
             "start": 556,
             "end": 643,
-            "value": "The value of Date.prototype.toLocaleString.length is expected to equal the value of x",
-            "raw": "'The value of Date.prototype.toLocaleString.length is expected to equal the value of x'"
+            "value": "The value of Date.prototype.toLocaleString.length is expected to equal the value of x"
           }
         ],
         "optional": false

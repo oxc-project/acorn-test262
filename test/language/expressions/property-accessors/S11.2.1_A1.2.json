@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 362,
               "end": 403,
-              "value": "Number[\t\"POSITIVE_INFINITY\"\t]",
-              "raw": "'Number[\\u0009\"POSITIVE_INFINITY\"\\u0009]'"
+              "value": "Number[\t\"POSITIVE_INFINITY\"\t]"
             }
           ],
           "optional": false
@@ -77,8 +76,7 @@
                   "type": "Literal",
                   "start": 462,
                   "end": 538,
-                  "value": "#1: Number[\\u0009\"POSITIVE_INFINITY\"\\u0009] === Number.POSITIVE_INFINITY",
-                  "raw": "'#1: Number[\\\\u0009\"POSITIVE_INFINITY\"\\\\u0009] === Number.POSITIVE_INFINITY'"
+                  "value": "#1: Number[\\u0009\"POSITIVE_INFINITY\"\\u0009] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -110,8 +108,7 @@
               "type": "Literal",
               "start": 563,
               "end": 604,
-              "value": "Number[\u000b\"POSITIVE_INFINITY\"\u000b]",
-              "raw": "'Number[\\u000B\"POSITIVE_INFINITY\"\\u000B]'"
+              "value": "Number[\u000b\"POSITIVE_INFINITY\"\u000b]"
             }
           ],
           "optional": false
@@ -161,8 +158,7 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 739,
-                  "value": "#2: Number[\\u000B\"POSITIVE_INFINITY\"\\u000B] === Number.POSITIVE_INFINITY",
-                  "raw": "'#2: Number[\\\\u000B\"POSITIVE_INFINITY\"\\\\u000B] === Number.POSITIVE_INFINITY'"
+                  "value": "#2: Number[\\u000B\"POSITIVE_INFINITY\"\\u000B] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -194,8 +190,7 @@
               "type": "Literal",
               "start": 766,
               "end": 807,
-              "value": "Number[\f\"POSITIVE_INFINITY\"\f]",
-              "raw": "'Number[\\u000C\"POSITIVE_INFINITY\"\\u000C]'"
+              "value": "Number[\f\"POSITIVE_INFINITY\"\f]"
             }
           ],
           "optional": false
@@ -245,8 +240,7 @@
                   "type": "Literal",
                   "start": 866,
                   "end": 942,
-                  "value": "#3: Number[\\u000C\"POSITIVE_INFINITY\"\\u000C] === Number.POSITIVE_INFINITY",
-                  "raw": "'#3: Number[\\\\u000C\"POSITIVE_INFINITY\"\\\\u000C] === Number.POSITIVE_INFINITY'"
+                  "value": "#3: Number[\\u000C\"POSITIVE_INFINITY\"\\u000C] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -278,8 +272,7 @@
               "type": "Literal",
               "start": 967,
               "end": 1008,
-              "value": "Number[ \"POSITIVE_INFINITY\" ]",
-              "raw": "'Number[\\u0020\"POSITIVE_INFINITY\"\\u0020]'"
+              "value": "Number[ \"POSITIVE_INFINITY\" ]"
             }
           ],
           "optional": false
@@ -329,8 +322,7 @@
                   "type": "Literal",
                   "start": 1067,
                   "end": 1143,
-                  "value": "#4: Number[\\u0020\"POSITIVE_INFINITY\"\\u0020] === Number.POSITIVE_INFINITY",
-                  "raw": "'#4: Number[\\\\u0020\"POSITIVE_INFINITY\"\\\\u0020] === Number.POSITIVE_INFINITY'"
+                  "value": "#4: Number[\\u0020\"POSITIVE_INFINITY\"\\u0020] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -362,8 +354,7 @@
               "type": "Literal",
               "start": 1168,
               "end": 1209,
-              "value": "Number[ \"POSITIVE_INFINITY\" ]",
-              "raw": "'Number[\\u00A0\"POSITIVE_INFINITY\"\\u00A0]'"
+              "value": "Number[ \"POSITIVE_INFINITY\" ]"
             }
           ],
           "optional": false
@@ -413,8 +404,7 @@
                   "type": "Literal",
                   "start": 1268,
                   "end": 1344,
-                  "value": "#5: Number[\\u00A0\"POSITIVE_INFINITY\"\\u00A0] === Number.POSITIVE_INFINITY",
-                  "raw": "'#5: Number[\\\\u00A0\"POSITIVE_INFINITY\"\\\\u00A0] === Number.POSITIVE_INFINITY'"
+                  "value": "#5: Number[\\u00A0\"POSITIVE_INFINITY\"\\u00A0] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -446,8 +436,7 @@
               "type": "Literal",
               "start": 1369,
               "end": 1410,
-              "value": "Number[\n\"POSITIVE_INFINITY\"\n]",
-              "raw": "'Number[\\u000A\"POSITIVE_INFINITY\"\\u000A]'"
+              "value": "Number[\n\"POSITIVE_INFINITY\"\n]"
             }
           ],
           "optional": false
@@ -497,8 +486,7 @@
                   "type": "Literal",
                   "start": 1469,
                   "end": 1545,
-                  "value": "#6: Number[\\u000A\"POSITIVE_INFINITY\"\\u000A] === Number.POSITIVE_INFINITY",
-                  "raw": "'#6: Number[\\\\u000A\"POSITIVE_INFINITY\"\\\\u000A] === Number.POSITIVE_INFINITY'"
+                  "value": "#6: Number[\\u000A\"POSITIVE_INFINITY\"\\u000A] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -530,8 +518,7 @@
               "type": "Literal",
               "start": 1572,
               "end": 1613,
-              "value": "Number[\r\"POSITIVE_INFINITY\"\r]",
-              "raw": "'Number[\\u000D\"POSITIVE_INFINITY\"\\u000D]'"
+              "value": "Number[\r\"POSITIVE_INFINITY\"\r]"
             }
           ],
           "optional": false
@@ -581,8 +568,7 @@
                   "type": "Literal",
                   "start": 1672,
                   "end": 1748,
-                  "value": "#7: Number[\\u000D\"POSITIVE_INFINITY\"\\u000D] === Number.POSITIVE_INFINITY",
-                  "raw": "'#7: Number[\\\\u000D\"POSITIVE_INFINITY\"\\\\u000D] === Number.POSITIVE_INFINITY'"
+                  "value": "#7: Number[\\u000D\"POSITIVE_INFINITY\"\\u000D] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -614,8 +600,7 @@
               "type": "Literal",
               "start": 1773,
               "end": 1814,
-              "value": "Number[ \"POSITIVE_INFINITY\" ]",
-              "raw": "'Number[\\u2028\"POSITIVE_INFINITY\"\\u2028]'"
+              "value": "Number[ \"POSITIVE_INFINITY\" ]"
             }
           ],
           "optional": false
@@ -665,8 +650,7 @@
                   "type": "Literal",
                   "start": 1873,
                   "end": 1949,
-                  "value": "#8: Number[\\u2028\"POSITIVE_INFINITY\"\\u2028] === Number.POSITIVE_INFINITY",
-                  "raw": "'#8: Number[\\\\u2028\"POSITIVE_INFINITY\"\\\\u2028] === Number.POSITIVE_INFINITY'"
+                  "value": "#8: Number[\\u2028\"POSITIVE_INFINITY\"\\u2028] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -698,8 +682,7 @@
               "type": "Literal",
               "start": 1974,
               "end": 2015,
-              "value": "Number[ \"POSITIVE_INFINITY\" ]",
-              "raw": "'Number[\\u2029\"POSITIVE_INFINITY\"\\u2029]'"
+              "value": "Number[ \"POSITIVE_INFINITY\" ]"
             }
           ],
           "optional": false
@@ -749,8 +732,7 @@
                   "type": "Literal",
                   "start": 2074,
                   "end": 2150,
-                  "value": "#9: Number[\\u2029\"POSITIVE_INFINITY\"\\u2029] === Number.POSITIVE_INFINITY",
-                  "raw": "'#9: Number[\\\\u2029\"POSITIVE_INFINITY\"\\\\u2029] === Number.POSITIVE_INFINITY'"
+                  "value": "#9: Number[\\u2029\"POSITIVE_INFINITY\"\\u2029] === Number.POSITIVE_INFINITY"
                 }
               ]
             }
@@ -782,8 +764,7 @@
               "type": "Literal",
               "start": 2176,
               "end": 2313,
-              "value": "Number[\t\u000b\f  \n\r  \"POSITIVE_INFINITY\"\t\u000b\f  \n\r  ]",
-              "raw": "'Number[\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029\"POSITIVE_INFINITY\"\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029]'"
+              "value": "Number[\t\u000b\f  \n\r  \"POSITIVE_INFINITY\"\t\u000b\f  \n\r  ]"
             }
           ],
           "optional": false
@@ -833,8 +814,7 @@
                   "type": "Literal",
                   "start": 2372,
                   "end": 2561,
-                  "value": "#10: Number[\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029\"POSITIVE_INFINITY\"\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029] === Number.POSITIVE_INFINITY",
-                  "raw": "'#10: Number[\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029\"POSITIVE_INFINITY\"\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029] === Number.POSITIVE_INFINITY'"
+                  "value": "#10: Number[\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029\"POSITIVE_INFINITY\"\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029] === Number.POSITIVE_INFINITY"
                 }
               ]
             }

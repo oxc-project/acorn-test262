@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 919,
                 "end": 944,
-                "value": "de-u-attrval-co-phonebk",
-                "raw": "\"de-u-attrval-co-phonebk\""
+                "value": "de-u-attrval-co-phonebk"
               }
             ]
           }
@@ -98,8 +97,7 @@
                 "type": "Literal",
                 "start": 981,
                 "end": 998,
-                "value": "de-u-co-phonebk",
-                "raw": "\"de-u-co-phonebk\""
+                "value": "de-u-co-phonebk"
               }
             ]
           }

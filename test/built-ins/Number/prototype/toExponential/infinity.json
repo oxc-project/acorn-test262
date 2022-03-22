@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 604,
                 "end": 608,
-                "value": 1000,
-                "raw": "1000"
+                "value": 1000
               }
             ],
             "optional": false
@@ -81,15 +80,13 @@
             "type": "Literal",
             "start": 611,
             "end": 621,
-            "value": "Infinity",
-            "raw": "\"Infinity\""
+            "value": "Infinity"
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 639,
-            "value": "Infinity value",
-            "raw": "\"Infinity value\""
+            "value": "Infinity value"
           }
         ],
         "optional": false
@@ -196,8 +193,7 @@
                 "type": "Literal",
                 "start": 706,
                 "end": 710,
-                "value": 1000,
-                "raw": "1000"
+                "value": 1000
               }
             ],
             "optional": false
@@ -206,15 +202,13 @@
             "type": "Literal",
             "start": 713,
             "end": 723,
-            "value": "Infinity",
-            "raw": "\"Infinity\""
+            "value": "Infinity"
           },
           {
             "type": "Literal",
             "start": 725,
             "end": 742,
-            "value": "Number Infinity",
-            "raw": "\"Number Infinity\""
+            "value": "Number Infinity"
           }
         ],
         "optional": false
@@ -288,8 +282,7 @@
                 "type": "Literal",
                 "start": 789,
                 "end": 793,
-                "value": 1000,
-                "raw": "1000"
+                "value": 1000
               }
             ],
             "optional": false
@@ -298,15 +291,13 @@
             "type": "Literal",
             "start": 796,
             "end": 807,
-            "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "value": "-Infinity"
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 826,
-            "value": "-Infinity value",
-            "raw": "\"-Infinity value\""
+            "value": "-Infinity value"
           }
         ],
         "optional": false
@@ -413,8 +404,7 @@
                 "type": "Literal",
                 "start": 893,
                 "end": 897,
-                "value": 1000,
-                "raw": "1000"
+                "value": 1000
               }
             ],
             "optional": false
@@ -423,15 +413,13 @@
             "type": "Literal",
             "start": 900,
             "end": 911,
-            "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "value": "-Infinity"
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 931,
-            "value": "Number -Infinity",
-            "raw": "\"Number -Infinity\""
+            "value": "Number -Infinity"
           }
         ],
         "optional": false

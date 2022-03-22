@@ -52,29 +52,25 @@
                 "type": "Literal",
                 "start": 299,
                 "end": 300,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 303,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 305,
                 "end": 307,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 309,
                 "end": 312,
-                "value": "s",
-                "raw": "'s'"
+                "value": "s"
               },
               {
                 "type": "Literal",
@@ -125,29 +121,25 @@
                 "type": "Literal",
                 "start": 351,
                 "end": 352,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 359,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 364,
-                "value": "s",
-                "raw": "'s'"
+                "value": "s"
               },
               {
                 "type": "Identifier",
@@ -273,8 +265,7 @@
             "type": "Literal",
             "start": 467,
             "end": 543,
-            "value": "Arrays containing the same elements in different order are not equivalent.",
-            "raw": "'Arrays containing the same elements in different order are not equivalent.'"
+            "value": "Arrays containing the same elements in different order are not equivalent."
           }
         ],
         "optional": false

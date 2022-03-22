@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 272,
               "end": 273,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           }
         ],
@@ -48,8 +47,7 @@
           "type": "Literal",
           "start": 280,
           "end": 282,
-          "value": 36,
-          "raw": "36"
+          "value": 36
         }
       },
       "update": {
@@ -113,8 +111,7 @@
                       "type": "Literal",
                       "start": 319,
                       "end": 328,
-                      "value": "$string",
-                      "raw": "\"$string\""
+                      "value": "$string"
                     },
                     {
                       "type": "Identifier",
@@ -135,8 +132,7 @@
                   "type": "Literal",
                   "start": 339,
                   "end": 379,
-                  "value": "parseInt(\"$string\", i) must return NaN",
-                  "raw": "'parseInt(\"$string\", i) must return NaN'"
+                  "value": "parseInt(\"$string\", i) must return NaN"
                 }
               ],
               "optional": false

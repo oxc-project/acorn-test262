@@ -106,8 +106,7 @@
                     "type": "Literal",
                     "start": 405,
                     "end": 457,
-                    "value": "#1: Infinity - Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#1: Infinity - Infinity === Not-a-Number. Actual: '"
+                    "value": "#1: Infinity - Infinity === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -244,8 +243,7 @@
                     "type": "Literal",
                     "start": 598,
                     "end": 652,
-                    "value": "#2: -Infinity - -Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#2: -Infinity - -Infinity === Not-a-Number. Actual: '"
+                    "value": "#2: -Infinity - -Infinity === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 314,
-                "value": "parse",
-                "raw": "\"parse\""
+                "value": "parse"
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
             "type": "Literal",
             "start": 317,
             "end": 364,
-            "value": "Date.hasOwnProperty(\"parse\") must return true",
-            "raw": "'Date.hasOwnProperty(\"parse\") must return true'"
+            "value": "Date.hasOwnProperty(\"parse\") must return true"
           }
         ],
         "optional": false

@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 340,
             "end": 341,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -118,8 +117,7 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 408,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "consequent": {
@@ -161,8 +159,7 @@
                           "type": "Literal",
                           "start": 441,
                           "end": 442,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     }
@@ -226,8 +223,7 @@
             "type": "Literal",
             "start": 491,
             "end": 494,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "ObjectExpression",
@@ -269,8 +265,7 @@
                           "type": "Literal",
                           "start": 529,
                           "end": 530,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -330,16 +325,14 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 575,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               null,
               {
                 "type": "Literal",
                 "start": 579,
                 "end": 580,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -416,8 +409,7 @@
             "type": "Literal",
             "start": 644,
             "end": 665,
-            "value": "testResult !== true",
-            "raw": "'testResult !== true'"
+            "value": "testResult !== true"
           }
         ],
         "optional": false

@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 609,
                   "end": 617,
-                  "value": "dotAll",
-                  "raw": "\"dotAll\""
+                  "value": "dotAll"
                 }
               ],
               "optional": false

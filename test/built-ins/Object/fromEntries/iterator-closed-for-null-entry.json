@@ -185,8 +185,7 @@
                                                   "type": "Literal",
                                                   "start": 1004,
                                                   "end": 1030,
-                                                  "value": "should only advance once",
-                                                  "raw": "'should only advance once'"
+                                                  "value": "should only advance once"
                                                 }
                                               ]
                                             }
@@ -341,8 +340,7 @@
                                                   "type": "Literal",
                                                   "start": 1235,
                                                   "end": 1260,
-                                                  "value": "should only return once",
-                                                  "raw": "'should only return once'"
+                                                  "value": "should only return once"
                                                 }
                                               ]
                                             }
@@ -452,8 +450,7 @@
             "type": "Literal",
             "start": 1367,
             "end": 1377,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -577,8 +574,7 @@
             "type": "Literal",
             "start": 1472,
             "end": 1518,
-            "value": "iterator should be closed when entry is null",
-            "raw": "'iterator should be closed when entry is null'"
+            "value": "iterator should be closed when entry is null"
           }
         ],
         "optional": false

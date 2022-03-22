@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 413,
                 "end": 428,
-                "value": "shocking blue",
-                "raw": "\"shocking blue\""
+                "value": "shocking blue"
               }
             ]
           }
@@ -64,8 +63,7 @@
             "type": "Literal",
             "start": 536,
             "end": 552,
-            "value": "__custom__prop",
-            "raw": "\"__custom__prop\""
+            "value": "__custom__prop"
           },
           "computed": true,
           "optional": false
@@ -106,8 +104,7 @@
                     "type": "Literal",
                     "start": 596,
                     "end": 729,
-                    "value": "#1: var __str__obj = new String(\"shocking blue\"); __str__obj[\"__custom__prop\"]===undefined. Actual: __str__obj[\"__custom__prop\"]===",
-                    "raw": "'#1: var __str__obj = new String(\"shocking blue\"); __str__obj[\"__custom__prop\"]===undefined. Actual: __str__obj[\"__custom__prop\"]==='"
+                    "value": "#1: var __str__obj = new String(\"shocking blue\"); __str__obj[\"__custom__prop\"]===undefined. Actual: __str__obj[\"__custom__prop\"]==="
                   },
                   "operator": "+",
                   "right": {
@@ -124,8 +121,7 @@
                       "type": "Literal",
                       "start": 743,
                       "end": 759,
-                      "value": "__custom__prop",
-                      "raw": "\"__custom__prop\""
+                      "value": "__custom__prop"
                     },
                     "computed": true,
                     "optional": false
@@ -183,8 +179,7 @@
           "type": "Literal",
           "start": 882,
           "end": 887,
-          "value": "bor",
-          "raw": "\"bor\""
+          "value": "bor"
         }
       }
     },
@@ -210,8 +205,7 @@
             "type": "Literal",
             "start": 994,
             "end": 1010,
-            "value": "__custom__prop",
-            "raw": "\"__custom__prop\""
+            "value": "__custom__prop"
           },
           "computed": true,
           "optional": false
@@ -221,8 +215,7 @@
           "type": "Literal",
           "start": 1016,
           "end": 1021,
-          "value": "bor",
-          "raw": "\"bor\""
+          "value": "bor"
         }
       },
       "consequent": {
@@ -253,8 +246,7 @@
                     "type": "Literal",
                     "start": 1050,
                     "end": 1220,
-                    "value": "#2: var __str__obj = new String(\"shocking blue\"); String.prototype.__custom__prop = \"bor\"; __str__obj[\"__custom__prop\"]===\"bor\". Actual: __str__obj[\"__custom__prop\"]===",
-                    "raw": "'#2: var __str__obj = new String(\"shocking blue\"); String.prototype.__custom__prop = \"bor\"; __str__obj[\"__custom__prop\"]===\"bor\". Actual: __str__obj[\"__custom__prop\"]==='"
+                    "value": "#2: var __str__obj = new String(\"shocking blue\"); String.prototype.__custom__prop = \"bor\"; __str__obj[\"__custom__prop\"]===\"bor\". Actual: __str__obj[\"__custom__prop\"]==="
                   },
                   "operator": "+",
                   "right": {
@@ -271,8 +263,7 @@
                       "type": "Literal",
                       "start": 1234,
                       "end": 1250,
-                      "value": "__custom__prop",
-                      "raw": "\"__custom__prop\""
+                      "value": "__custom__prop"
                     },
                     "computed": true,
                     "optional": false

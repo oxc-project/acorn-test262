@@ -31,8 +31,7 @@
                 "type": "Literal",
                 "start": 390,
                 "end": 391,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "body": {
@@ -59,8 +58,7 @@
                         "type": "Literal",
                         "start": 408,
                         "end": 409,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   ],
@@ -104,8 +102,7 @@
                   "type": "Literal",
                   "start": 460,
                   "end": 507,
-                  "value": "#1: \"abbracadabra\" lead to throwing exception",
-                  "raw": "'#1: \"abbracadabra\" lead to throwing exception'"
+                  "value": "#1: \"abbracadabra\" lead to throwing exception"
                 }
               ]
             }
@@ -186,8 +183,7 @@
           "type": "Literal",
           "start": 582,
           "end": 583,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -214,8 +210,7 @@
                   "type": "Literal",
                   "start": 611,
                   "end": 673,
-                  "value": "#1.1: while statement evaluates as is, without syntax checks",
-                  "raw": "'#1.1: while statement evaluates as is, without syntax checks'"
+                  "value": "#1.1: while statement evaluates as is, without syntax checks"
                 }
               ]
             }

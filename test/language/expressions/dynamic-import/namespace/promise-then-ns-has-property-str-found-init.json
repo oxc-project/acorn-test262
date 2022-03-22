@@ -39,8 +39,7 @@
                       "type": "Literal",
                       "start": 3904,
                       "end": 3930,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   },
                   "property": {
@@ -97,8 +96,7 @@
                                   "type": "Literal",
                                   "start": 3957,
                                   "end": 3965,
-                                  "value": "local1",
-                                  "raw": "'local1'"
+                                  "value": "local1"
                                 },
                                 "operator": "in",
                                 "right": {
@@ -112,8 +110,7 @@
                                 "type": "Literal",
                                 "start": 3973,
                                 "end": 3985,
-                                "value": "in: local1",
-                                "raw": "'in: local1'"
+                                "value": "in: local1"
                               }
                             ],
                             "optional": false
@@ -168,8 +165,7 @@
                                     "type": "Literal",
                                     "start": 4015,
                                     "end": 4023,
-                                    "value": "local1",
-                                    "raw": "'local1'"
+                                    "value": "local1"
                                   }
                                 ],
                                 "optional": false
@@ -178,8 +174,7 @@
                                 "type": "Literal",
                                 "start": 4026,
                                 "end": 4047,
-                                "value": "Reflect.has: local1",
-                                "raw": "'Reflect.has: local1'"
+                                "value": "Reflect.has: local1"
                               }
                             ],
                             "optional": false
@@ -208,8 +203,7 @@
                                   "type": "Literal",
                                   "start": 4062,
                                   "end": 4071,
-                                  "value": "renamed",
-                                  "raw": "'renamed'"
+                                  "value": "renamed"
                                 },
                                 "operator": "in",
                                 "right": {
@@ -223,8 +217,7 @@
                                 "type": "Literal",
                                 "start": 4079,
                                 "end": 4092,
-                                "value": "in: renamed",
-                                "raw": "'in: renamed'"
+                                "value": "in: renamed"
                               }
                             ],
                             "optional": false
@@ -279,8 +272,7 @@
                                     "type": "Literal",
                                     "start": 4122,
                                     "end": 4131,
-                                    "value": "renamed",
-                                    "raw": "'renamed'"
+                                    "value": "renamed"
                                   }
                                 ],
                                 "optional": false
@@ -289,8 +281,7 @@
                                 "type": "Literal",
                                 "start": 4134,
                                 "end": 4156,
-                                "value": "Reflect.has: renamed",
-                                "raw": "'Reflect.has: renamed'"
+                                "value": "Reflect.has: renamed"
                               }
                             ],
                             "optional": false
@@ -319,8 +310,7 @@
                                   "type": "Literal",
                                   "start": 4171,
                                   "end": 4181,
-                                  "value": "indirect",
-                                  "raw": "'indirect'"
+                                  "value": "indirect"
                                 },
                                 "operator": "in",
                                 "right": {
@@ -334,8 +324,7 @@
                                 "type": "Literal",
                                 "start": 4189,
                                 "end": 4203,
-                                "value": "in: indirect",
-                                "raw": "'in: indirect'"
+                                "value": "in: indirect"
                               }
                             ],
                             "optional": false
@@ -390,8 +379,7 @@
                                     "type": "Literal",
                                     "start": 4233,
                                     "end": 4243,
-                                    "value": "indirect",
-                                    "raw": "'indirect'"
+                                    "value": "indirect"
                                   }
                                 ],
                                 "optional": false
@@ -400,8 +388,7 @@
                                 "type": "Literal",
                                 "start": 4246,
                                 "end": 4269,
-                                "value": "Reflect.has: indirect",
-                                "raw": "'Reflect.has: indirect'"
+                                "value": "Reflect.has: indirect"
                               }
                             ],
                             "optional": false
@@ -430,8 +417,7 @@
                                   "type": "Literal",
                                   "start": 4284,
                                   "end": 4293,
-                                  "value": "default",
-                                  "raw": "'default'"
+                                  "value": "default"
                                 },
                                 "operator": "in",
                                 "right": {
@@ -445,8 +431,7 @@
                                 "type": "Literal",
                                 "start": 4301,
                                 "end": 4314,
-                                "value": "in: default",
-                                "raw": "'in: default'"
+                                "value": "in: default"
                               }
                             ],
                             "optional": false
@@ -501,8 +486,7 @@
                                     "type": "Literal",
                                     "start": 4344,
                                     "end": 4353,
-                                    "value": "default",
-                                    "raw": "'default'"
+                                    "value": "default"
                                   }
                                 ],
                                 "optional": false
@@ -511,8 +495,7 @@
                                 "type": "Literal",
                                 "start": 4356,
                                 "end": 4378,
-                                "value": "Reflect.has: default",
-                                "raw": "'Reflect.has: default'"
+                                "value": "Reflect.has: default"
                               }
                             ],
                             "optional": false

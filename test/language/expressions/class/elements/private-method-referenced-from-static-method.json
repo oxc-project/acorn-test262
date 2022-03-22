@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 892,
                     "end": 894,
                     "name": "f"
@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 906,
                             "end": 908,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         }
                       ]
@@ -116,14 +115,14 @@
                                 "start": 938,
                                 "end": 942
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 943,
                                 "end": 945,
                                 "name": "f"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             },
                             "arguments": [],
                             "optional": false
@@ -224,8 +223,7 @@
             "type": "Literal",
             "start": 993,
             "end": 995,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -317,8 +315,7 @@
             "type": "Literal",
             "start": 1048,
             "end": 1113,
-            "value": "Accessed private method from an object which did not contain it",
-            "raw": "'Accessed private method from an object which did not contain it'"
+            "value": "Accessed private method from an object which did not contain it"
           }
         ],
         "optional": false

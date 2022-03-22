@@ -55,8 +55,7 @@
                           "type": "Literal",
                           "start": 344,
                           "end": 352,
-                          "value": "a|b|[]",
-                          "raw": "\"a|b|[]\""
+                          "value": "a|b|[]"
                         }
                       }
                     ]
@@ -69,8 +68,7 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 361,
-                "value": "ig",
-                "raw": "\"ig\""
+                "value": "ig"
               }
             ]
           }
@@ -136,8 +134,7 @@
             "type": "Literal",
             "start": 405,
             "end": 458,
-            "value": "The value of __re.ignoreCase is expected to be true",
-            "raw": "'The value of __re.ignoreCase is expected to be true'"
+            "value": "The value of __re.ignoreCase is expected to be true"
           }
         ],
         "optional": false
@@ -201,8 +198,7 @@
             "type": "Literal",
             "start": 501,
             "end": 554,
-            "value": "The value of __re.multiline is expected to be false",
-            "raw": "'The value of __re.multiline is expected to be false'"
+            "value": "The value of __re.multiline is expected to be false"
           }
         ],
         "optional": false
@@ -266,8 +262,7 @@
             "type": "Literal",
             "start": 593,
             "end": 642,
-            "value": "The value of __re.global is expected to be true",
-            "raw": "'The value of __re.global is expected to be true'"
+            "value": "The value of __re.global is expected to be true"
           }
         ],
         "optional": false
@@ -324,15 +319,13 @@
             "type": "Literal",
             "start": 678,
             "end": 679,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 681,
             "end": 730,
-            "value": "The value of __re.lastIndex is expected to be 0",
-            "raw": "'The value of __re.lastIndex is expected to be 0'"
+            "value": "The value of __re.lastIndex is expected to be 0"
           }
         ],
         "optional": false
@@ -396,15 +389,13 @@
             "type": "Literal",
             "start": 773,
             "end": 784,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 786,
             "end": 838,
-            "value": "The value of typeof __re.source is not \"undefined\"",
-            "raw": "'The value of typeof __re.source is not \"undefined\"'"
+            "value": "The value of typeof __re.source is not \"undefined\""
           }
         ],
         "optional": false

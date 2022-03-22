@@ -35,15 +35,13 @@
                     "type": "Literal",
                     "start": 640,
                     "end": 642,
-                    "value": "",
-                    "raw": "\"\""
+                    "value": ""
                   },
                   {
                     "type": "Literal",
                     "start": 644,
                     "end": 646,
-                    "value": "",
-                    "raw": "\"\""
+                    "value": ""
                   }
                 ]
               },
@@ -225,8 +223,7 @@
                   "type": "Literal",
                   "start": 785,
                   "end": 794,
-                  "value": "boolean",
-                  "raw": "\"boolean\""
+                  "value": "boolean"
                 },
                 "operator": "+",
                 "right": {
@@ -241,8 +238,7 @@
                 "type": "Literal",
                 "start": 813,
                 "end": 822,
-                "value": "boolean",
-                "raw": "\"boolean\""
+                "value": "boolean"
               }
             }
           }

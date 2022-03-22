@@ -91,8 +91,7 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 359,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ]
           }
@@ -143,8 +142,7 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 407,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ]
           }
@@ -271,8 +269,7 @@
             "type": "Literal",
             "start": 516,
             "end": 585,
-            "value": "`RegExp.prototype.compile.call(otherRealm_regexp)` throws TypeError",
-            "raw": "\"`RegExp.prototype.compile.call(otherRealm_regexp)` throws TypeError\""
+            "value": "`RegExp.prototype.compile.call(otherRealm_regexp)` throws TypeError"
           }
         ],
         "optional": false
@@ -423,8 +420,7 @@
             "type": "Literal",
             "start": 696,
             "end": 760,
-            "value": "`other.RegExp.prototype.compile.call(regexp)` throws TypeError",
-            "raw": "\"`other.RegExp.prototype.compile.call(regexp)` throws TypeError\""
+            "value": "`other.RegExp.prototype.compile.call(regexp)` throws TypeError"
           }
         ],
         "optional": false
@@ -494,8 +490,7 @@
             "type": "Literal",
             "start": 837,
             "end": 906,
-            "value": "`otherRealm_regexp.compile()` is SameValue with `otherRealm_regexp`",
-            "raw": "\"`otherRealm_regexp.compile()` is SameValue with `otherRealm_regexp`\""
+            "value": "`otherRealm_regexp.compile()` is SameValue with `otherRealm_regexp`"
           }
         ],
         "optional": false

@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 426,
                             "end": 434,
-                            "value": "filter",
-                            "raw": "\"filter\""
+                            "value": "filter"
                           }
                         ],
                         "optional": false

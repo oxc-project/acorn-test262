@@ -56,10 +56,9 @@
               "end": 1066,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1025,
-                  "end": 1039,
-                  "static": false,
+                  "end": 1038,
                   "computed": true,
                   "key": {
                     "type": "AssignmentExpression",
@@ -76,22 +75,20 @@
                       "type": "Literal",
                       "start": 1032,
                       "end": 1033,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "value": {
                     "type": "Literal",
                     "start": 1037,
                     "end": 1038,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1043,
-                  "end": 1064,
+                  "end": 1063,
                   "static": true,
                   "computed": true,
                   "key": {
@@ -109,16 +106,14 @@
                       "type": "Literal",
                       "start": 1057,
                       "end": 1058,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "value": {
                     "type": "Literal",
                     "start": 1062,
                     "end": 1063,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 }
               ]
@@ -212,8 +207,7 @@
                 "type": "Literal",
                 "start": 1115,
                 "end": 1116,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "computed": true,
@@ -223,8 +217,7 @@
             "type": "Literal",
             "start": 1121,
             "end": 1122,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -283,8 +276,7 @@
                 "type": "Literal",
                 "start": 1154,
                 "end": 1155,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "computed": true,
@@ -294,8 +286,7 @@
             "type": "Literal",
             "start": 1160,
             "end": 1161,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -365,8 +356,7 @@
                     "type": "Literal",
                     "start": 1200,
                     "end": 1201,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ],
@@ -379,8 +369,7 @@
             "type": "Literal",
             "start": 1207,
             "end": 1208,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -450,8 +439,7 @@
                     "type": "Literal",
                     "start": 1247,
                     "end": 1248,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ],
@@ -464,8 +452,7 @@
             "type": "Literal",
             "start": 1254,
             "end": 1255,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -509,8 +496,7 @@
             "type": "Literal",
             "start": 1280,
             "end": 1281,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

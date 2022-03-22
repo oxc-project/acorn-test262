@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 895,
                     "end": 897,
                     "name": "m"
@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 909,
                             "end": 918,
-                            "value": "Test262",
-                            "raw": "'Test262'"
+                            "value": "Test262"
                           }
                         }
                       ]
@@ -160,14 +159,14 @@
                                       "end": 1005,
                                       "name": "self"
                                     },
+                                    "computed": false,
+                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateIdentifier",
+                                      "type": "PrivateName",
                                       "start": 1006,
                                       "end": 1008,
                                       "name": "m"
-                                    },
-                                    "computed": false,
-                                    "optional": false
+                                    }
                                   },
                                   "arguments": [],
                                   "optional": false
@@ -294,8 +293,7 @@
             "type": "Literal",
             "start": 1100,
             "end": 1109,
-            "value": "Test262",
-            "raw": "'Test262'"
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -432,8 +430,7 @@
             "type": "Literal",
             "start": 1185,
             "end": 1234,
-            "value": "accessed private method from an ordinary object",
-            "raw": "'accessed private method from an ordinary object'"
+            "value": "accessed private method from an ordinary object"
           }
         ],
         "optional": false

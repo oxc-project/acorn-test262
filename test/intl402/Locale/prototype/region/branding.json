@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 559,
                 "end": 567,
-                "value": "region",
-                "raw": "\"region\""
+                "value": "region"
               }
             ],
             "optional": false
@@ -132,8 +131,7 @@
                 "type": "Literal",
                 "start": 625,
                 "end": 627,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "CallExpression",
@@ -152,8 +150,7 @@
                 "type": "Literal",
                 "start": 643,
                 "end": 644,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "ObjectExpression",

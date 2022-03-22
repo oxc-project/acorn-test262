@@ -162,8 +162,7 @@
                 "type": "Literal",
                 "start": 524,
                 "end": 526,
-                "value": 10,
-                "raw": "10"
+                "value": 10
               }
             }
           }
@@ -201,15 +200,13 @@
                   "type": "Literal",
                   "start": 545,
                   "end": 546,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 548,
                   "end": 550,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -224,15 +221,13 @@
                   "type": "Literal",
                   "start": 554,
                   "end": 555,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 557,
                   "end": 559,
-                  "value": 12,
-                  "raw": "12"
+                  "value": 12
                 },
                 "kind": "init"
               },
@@ -548,8 +543,7 @@
             "type": "Literal",
             "start": 855,
             "end": 882,
-            "value": "toStringAccessed !== true",
-            "raw": "'toStringAccessed !== true'"
+            "value": "toStringAccessed !== true"
           }
         ],
         "optional": false
@@ -580,8 +574,7 @@
             "type": "Literal",
             "start": 909,
             "end": 935,
-            "value": "valueOfAccessed !== true",
-            "raw": "'valueOfAccessed !== true'"
+            "value": "valueOfAccessed !== true"
           }
         ],
         "optional": false
@@ -632,8 +625,7 @@
             "type": "Literal",
             "start": 982,
             "end": 1002,
-            "value": "callbackfnAccessed",
-            "raw": "'callbackfnAccessed'"
+            "value": "callbackfnAccessed"
           }
         ],
         "optional": false

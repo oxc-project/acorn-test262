@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1029,
                 "end": 1052,
-                "value": "function fn() {}/1/g;",
-                "raw": "'function fn() {}/1/g;'"
+                "value": "function fn() {}/1/g;"
               }
             ],
             "optional": false
@@ -178,8 +177,7 @@
             "type": "Literal",
             "start": 1154,
             "end": 1157,
-            "value": "g",
-            "raw": "'g'"
+            "value": "g"
           }
         ],
         "optional": false
@@ -243,8 +241,7 @@
             "type": "Literal",
             "start": 1196,
             "end": 1202,
-            "value": "/1/g",
-            "raw": "'/1/g'"
+            "value": "/1/g"
           }
         ],
         "optional": false

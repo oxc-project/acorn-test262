@@ -41,8 +41,7 @@
                   "type": "Literal",
                   "start": 510,
                   "end": 511,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 524,
                 "end": 545,
-                "value": "Catch Me If You Can",
-                "raw": "\"Catch Me If You Can\""
+                "value": "Catch Me If You Can"
               }
             }
           },
@@ -139,8 +137,7 @@
                   "type": "Literal",
                   "start": 615,
                   "end": 662,
-                  "value": "#0: var x=__func() lead to throwing exception",
-                  "raw": "'#0: var x=__func() lead to throwing exception'"
+                  "value": "#0: var x=__func() lead to throwing exception"
                 }
               ]
             }
@@ -181,8 +178,7 @@
                   "type": "Literal",
                   "start": 691,
                   "end": 712,
-                  "value": "Catch Me If You Can",
-                  "raw": "\"Catch Me If You Can\""
+                  "value": "Catch Me If You Can"
                 }
               },
               "consequent": {
@@ -213,8 +209,7 @@
                             "type": "Literal",
                             "start": 744,
                             "end": 808,
-                            "value": "#1: Exception === \"Catch Me If You Can\". Actual: exception ===",
-                            "raw": "'#1: Exception === \"Catch Me If You Can\". Actual: exception ==='"
+                            "value": "#1: Exception === \"Catch Me If You Can\". Actual: exception ==="
                           },
                           "operator": "+",
                           "right": {

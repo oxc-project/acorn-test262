@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 414,
                   "end": 415,
-                  "value": 8,
-                  "raw": "8"
+                  "value": 8
                 },
                 "kind": "init"
               },
@@ -56,15 +55,13 @@
                   "type": "Literal",
                   "start": 419,
                   "end": 420,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 422,
                   "end": 429,
-                  "value": "en-US",
-                  "raw": "'en-US'"
+                  "value": "en-US"
                 },
                 "kind": "init"
               },
@@ -79,15 +76,13 @@
                   "type": "Literal",
                   "start": 433,
                   "end": 434,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "value": {
                   "type": "Literal",
                   "start": 436,
                   "end": 443,
-                  "value": "de-DE",
-                  "raw": "'de-DE'"
+                  "value": "de-DE"
                 },
                 "kind": "init"
               },
@@ -102,15 +97,13 @@
                   "type": "Literal",
                   "start": 447,
                   "end": 448,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "value": {
                   "type": "Literal",
                   "start": 450,
                   "end": 457,
-                  "value": "en-IN",
-                  "raw": "'en-IN'"
+                  "value": "en-IN"
                 },
                 "kind": "init"
               },
@@ -125,15 +118,13 @@
                   "type": "Literal",
                   "start": 461,
                   "end": 462,
-                  "value": 7,
-                  "raw": "7"
+                  "value": 7
                 },
                 "value": {
                   "type": "Literal",
                   "start": 464,
                   "end": 471,
-                  "value": "en-GB",
-                  "raw": "'en-GB'"
+                  "value": "en-GB"
                 },
                 "kind": "init"
               }

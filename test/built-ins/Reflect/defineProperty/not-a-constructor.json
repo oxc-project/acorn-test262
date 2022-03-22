@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 773,
             "end": 830,
-            "value": "isConstructor(Reflect.defineProperty) must return false",
-            "raw": "'isConstructor(Reflect.defineProperty) must return false'"
+            "value": "isConstructor(Reflect.defineProperty) must return false"
           }
         ],
         "optional": false
@@ -168,8 +167,7 @@
                         "type": "Literal",
                         "start": 901,
                         "end": 903,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ]
                   }
@@ -181,8 +179,7 @@
             "type": "Literal",
             "start": 909,
             "end": 966,
-            "value": "`new Reflect.defineProperty({}, '')` throws TypeError",
-            "raw": "'`new Reflect.defineProperty({}, \\'\\')` throws TypeError'"
+            "value": "`new Reflect.defineProperty({}, '')` throws TypeError"
           }
         ],
         "optional": false

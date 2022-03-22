@@ -52,22 +52,19 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 350,
-                "value": "has timeZone.timeZone",
-                "raw": "\"has timeZone.timeZone\""
+                "value": "has timeZone.timeZone"
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 392,
-                "value": "get timeZone.getOffsetNanosecondsFor",
-                "raw": "\"get timeZone.getOffsetNanosecondsFor\""
+                "value": "get timeZone.getOffsetNanosecondsFor"
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 435,
-                "value": "call timeZone.getOffsetNanosecondsFor",
-                "raw": "\"call timeZone.getOffsetNanosecondsFor\""
+                "value": "call timeZone.getOffsetNanosecondsFor"
               }
             ]
           }
@@ -139,8 +136,7 @@
             "type": "Literal",
             "start": 497,
             "end": 510,
-            "value": "toPlainDate",
-            "raw": "\"toPlainDate\""
+            "value": "toPlainDate"
           },
           {
             "type": "ObjectExpression",
@@ -207,8 +203,7 @@
                               "type": "Literal",
                               "start": 540,
                               "end": 590,
-                              "value": "get Temporal.PlainDateTime.prototype.toPlainDate",
-                              "raw": "\"get Temporal.PlainDateTime.prototype.toPlainDate\""
+                              "value": "get Temporal.PlainDateTime.prototype.toPlainDate"
                             }
                           ],
                           "optional": false
@@ -264,8 +259,7 @@
                                       "type": "Literal",
                                       "start": 635,
                                       "end": 686,
-                                      "value": "call Temporal.PlainDateTime.prototype.toPlainDate",
-                                      "raw": "\"call Temporal.PlainDateTime.prototype.toPlainDate\""
+                                      "value": "call Temporal.PlainDateTime.prototype.toPlainDate"
                                     }
                                   ],
                                   "optional": false
@@ -383,8 +377,7 @@
                                   "type": "Literal",
                                   "start": 788,
                                   "end": 827,
-                                  "value": "call timeZone.getOffsetNanosecondsFor",
-                                  "raw": "\"call timeZone.getOffsetNanosecondsFor\""
+                                  "value": "call timeZone.getOffsetNanosecondsFor"
                                 }
                               ],
                               "optional": false
@@ -460,8 +453,7 @@
                                   "type": "Literal",
                                   "start": 894,
                                   "end": 903,
-                                  "value": "Instant",
-                                  "raw": "\"Instant\""
+                                  "value": "Instant"
                                 }
                               ],
                               "optional": false
@@ -475,8 +467,7 @@
                               "type": "Literal",
                               "start": 917,
                               "end": 934,
-                              "value": 86399999999999,
-                              "raw": "86399_999_999_999"
+                              "value": 86399999999999
                             }
                           }
                         ]
@@ -825,8 +816,7 @@
                 "type": "Literal",
                 "start": 1201,
                 "end": 1210,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Identifier",

@@ -102,8 +102,7 @@
                             "type": "Literal",
                             "start": 830,
                             "end": 868,
-                            "value": "The property should not be accessed.",
-                            "raw": "'The property should not be accessed.'"
+                            "value": "The property should not be accessed."
                           }
                         ]
                       }
@@ -222,8 +221,7 @@
                 "type": "Literal",
                 "start": 943,
                 "end": 945,
-                "value": 23,
-                "raw": "23"
+                "value": 23
               }
             ]
           }
@@ -324,8 +322,7 @@
             "type": "Literal",
             "start": 1000,
             "end": 1002,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           }
         ],
         "optional": false

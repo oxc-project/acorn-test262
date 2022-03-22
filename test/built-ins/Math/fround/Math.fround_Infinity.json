@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 299,
             "end": 322,
-            "value": "Math.fround(Infinity)",
-            "raw": "'Math.fround(Infinity)'"
+            "value": "Math.fround(Infinity)"
           }
         ],
         "optional": false

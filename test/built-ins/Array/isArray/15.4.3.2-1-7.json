@@ -85,8 +85,7 @@
             "type": "Literal",
             "start": 301,
             "end": 349,
-            "value": "Array.isArray(function() {}) must return false",
-            "raw": "'Array.isArray(function() {}) must return false'"
+            "value": "Array.isArray(function() {}) must return false"
           }
         ],
         "optional": false

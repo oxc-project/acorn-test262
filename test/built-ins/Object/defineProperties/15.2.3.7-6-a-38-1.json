@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 446,
                     "end": 448,
-                    "value": 12,
-                    "raw": "12"
+                    "value": 12
                   }
                 }
               ]
@@ -299,8 +298,7 @@
             "type": "Literal",
             "start": 630,
             "end": 635,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "CallExpression",
@@ -344,8 +342,7 @@
             "type": "Literal",
             "start": 672,
             "end": 677,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -376,8 +373,7 @@
             "type": "Literal",
             "start": 705,
             "end": 710,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false

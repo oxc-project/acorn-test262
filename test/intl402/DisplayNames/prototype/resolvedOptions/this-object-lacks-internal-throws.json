@@ -179,8 +179,7 @@
             "type": "Literal",
             "start": 711,
             "end": 772,
-            "value": "Intl.DisplayNames.prototype does not have the internal slot",
-            "raw": "'Intl.DisplayNames.prototype does not have the internal slot'"
+            "value": "Intl.DisplayNames.prototype does not have the internal slot"
           }
         ],
         "optional": false
@@ -279,8 +278,7 @@
             "type": "Literal",
             "start": 845,
             "end": 862,
-            "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "value": "ordinary object"
           }
         ],
         "optional": false
@@ -392,8 +390,7 @@
             "type": "Literal",
             "start": 950,
             "end": 1001,
-            "value": "Intl.DisplayNames does not have the internal slot",
-            "raw": "'Intl.DisplayNames does not have the internal slot'"
+            "value": "Intl.DisplayNames does not have the internal slot"
           }
         ],
         "optional": false
@@ -492,8 +489,7 @@
             "type": "Literal",
             "start": 1076,
             "end": 1114,
-            "value": "Intl does not have the internal slot",
-            "raw": "'Intl does not have the internal slot'"
+            "value": "Intl does not have the internal slot"
           }
         ],
         "optional": false
@@ -636,8 +632,7 @@
             "type": "Literal",
             "start": 1249,
             "end": 1322,
-            "value": "resolvedOptions cannot be used with instances from different Intl ctors",
-            "raw": "'resolvedOptions cannot be used with instances from different Intl ctors'"
+            "value": "resolvedOptions cannot be used with instances from different Intl ctors"
           }
         ],
         "optional": false

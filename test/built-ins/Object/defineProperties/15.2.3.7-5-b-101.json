@@ -119,8 +119,7 @@
                               "type": "Literal",
                               "start": 393,
                               "end": 396,
-                              "value": 123,
-                              "raw": "123"
+                              "value": 123
                             }
                           }
                         ]
@@ -180,8 +179,7 @@
                 "type": "Literal",
                 "start": 440,
                 "end": 450,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -246,8 +244,7 @@
             "type": "Literal",
             "start": 492,
             "end": 511,
-            "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "value": "preCheck !== true"
           }
         ],
         "optional": false
@@ -309,8 +306,7 @@
                 "type": "Literal",
                 "start": 550,
                 "end": 560,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -326,8 +322,7 @@
             "type": "Literal",
             "start": 570,
             "end": 602,
-            "value": "obj.hasOwnProperty(\"property\")",
-            "raw": "'obj.hasOwnProperty(\"property\")'"
+            "value": "obj.hasOwnProperty(\"property\")"
           }
         ],
         "optional": false

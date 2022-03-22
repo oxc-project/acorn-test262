@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 393,
             "end": 402,
-            "value": "SQRT1_2",
-            "raw": "'SQRT1_2'"
+            "value": "SQRT1_2"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 429,
             "end": 438,
-            "value": "SQRT1_2",
-            "raw": "'SQRT1_2'"
+            "value": "SQRT1_2"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 469,
             "end": 478,
-            "value": "SQRT1_2",
-            "raw": "'SQRT1_2'"
+            "value": "SQRT1_2"
           }
         ],
         "optional": false

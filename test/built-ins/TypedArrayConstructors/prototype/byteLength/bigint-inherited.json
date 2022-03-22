@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 438,
                             "end": 450,
-                            "value": "byteLength",
-                            "raw": "\"byteLength\""
+                            "value": "byteLength"
                           }
                         ],
                         "optional": false

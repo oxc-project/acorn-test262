@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 461,
             "end": 469,
-            "value": "number",
-            "raw": "'number'"
+            "value": "number"
           }
         ],
         "optional": false

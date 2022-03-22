@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 392,
             "end": 400,
-            "value": "Symbol",
-            "raw": "\"Symbol\""
+            "value": "Symbol"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 424,
             "end": 432,
-            "value": "Symbol",
-            "raw": "\"Symbol\""
+            "value": "Symbol"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 460,
             "end": 468,
-            "value": "Symbol",
-            "raw": "\"Symbol\""
+            "value": "Symbol"
           }
         ],
         "optional": false

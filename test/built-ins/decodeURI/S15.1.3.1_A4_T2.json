@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 256,
               "end": 323,
-              "value": "http://ru.wikipedia.org/wiki/%d0%ae%D0%bd%D0%B8%D0%BA%D0%BE%D0%B4",
-              "raw": "\"http://ru.wikipedia.org/wiki/%d0%ae%D0%bd%D0%B8%D0%BA%D0%BE%D0%B4\""
+              "value": "http://ru.wikipedia.org/wiki/%d0%ae%D0%bd%D0%B8%D0%BA%D0%BE%D0%B4"
             }
           ],
           "optional": false
@@ -37,8 +36,7 @@
           "type": "Literal",
           "start": 329,
           "end": 366,
-          "value": "http://ru.wikipedia.org/wiki/Юникод",
-          "raw": "\"http://ru.wikipedia.org/wiki/Юникод\""
+          "value": "http://ru.wikipedia.org/wiki/Юникод"
         }
       },
       "consequent": {
@@ -65,8 +63,7 @@
                   "type": "Literal",
                   "start": 395,
                   "end": 436,
-                  "value": "#1: http://ru.wikipedia.org/wiki/Юникод",
-                  "raw": "'#1: http://ru.wikipedia.org/wiki/Юникод'"
+                  "value": "#1: http://ru.wikipedia.org/wiki/Юникод"
                 }
               ]
             }
@@ -98,8 +95,7 @@
               "type": "Literal",
               "start": 466,
               "end": 570,
-              "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8",
-              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8\""
+              "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4#%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8"
             }
           ],
           "optional": false
@@ -109,8 +105,7 @@
           "type": "Literal",
           "start": 576,
           "end": 620,
-          "value": "http://ru.wikipedia.org/wiki/Юникод#Ссылки",
-          "raw": "\"http://ru.wikipedia.org/wiki/Юникод#Ссылки\""
+          "value": "http://ru.wikipedia.org/wiki/Юникод#Ссылки"
         }
       },
       "consequent": {
@@ -137,8 +132,7 @@
                   "type": "Literal",
                   "start": 649,
                   "end": 697,
-                  "value": "#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки",
-                  "raw": "'#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки'"
+                  "value": "#2: http://ru.wikipedia.org/wiki/Юникод#Ссылки"
                 }
               ]
             }
@@ -170,8 +164,7 @@
               "type": "Literal",
               "start": 727,
               "end": 878,
-              "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%23%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0",
-              "raw": "\"http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%23%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0\""
+              "value": "http://ru.wikipedia.org/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%23%D0%92%D0%B5%D1%80%D1%81%D0%B8%D0%B8%20%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4%D0%B0"
             }
           ],
           "optional": false
@@ -181,8 +174,7 @@
           "type": "Literal",
           "start": 884,
           "end": 938,
-          "value": "http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода",
-          "raw": "\"http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода\""
+          "value": "http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода"
         }
       },
       "consequent": {
@@ -209,8 +201,7 @@
                   "type": "Literal",
                   "start": 967,
                   "end": 1025,
-                  "value": "#3: http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода",
-                  "raw": "'#3: http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода'"
+                  "value": "#3: http://ru.wikipedia.org/wiki/Юникод%23Версии Юникода"
                 }
               ]
             }

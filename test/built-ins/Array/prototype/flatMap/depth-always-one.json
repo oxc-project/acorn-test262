@@ -48,15 +48,13 @@
                     "type": "Literal",
                     "start": 339,
                     "end": 340,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 342,
                     "end": 343,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -121,8 +119,7 @@
                               "type": "Literal",
                               "start": 384,
                               "end": 385,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             }
                           }
                         ]
@@ -143,29 +140,25 @@
                 "type": "Literal",
                 "start": 393,
                 "end": 394,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 397,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 399,
                 "end": 400,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 402,
                 "end": 403,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ]
           },
@@ -173,8 +166,7 @@
             "type": "Literal",
             "start": 406,
             "end": 481,
-            "value": "[1, 2].flatMap(function(e) {return [e, e * 2];}) must return [1, 2, 2, 4]",
-            "raw": "'[1, 2].flatMap(function(e) {return [e, e * 2];}) must return [1, 2, 2, 4]'"
+            "value": "[1, 2].flatMap(function(e) {return [e, e * 2];}) must return [1, 2, 2, 4]"
           }
         ],
         "optional": false
@@ -212,22 +204,19 @@
                     "type": "Literal",
                     "start": 499,
                     "end": 500,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 502,
                     "end": 503,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 505,
                     "end": 506,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -291,8 +280,7 @@
                                   "type": "Literal",
                                   "start": 554,
                                   "end": 555,
-                                  "value": 2,
-                                  "raw": "2"
+                                  "value": 2
                                 }
                               }
                             ]
@@ -361,15 +349,13 @@
             "type": "Literal",
             "start": 598,
             "end": 599,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 601,
             "end": 649,
-            "value": "The value of result.length is expected to be 3",
-            "raw": "'The value of result.length is expected to be 3'"
+            "value": "The value of result.length is expected to be 3"
           }
         ],
         "optional": false
@@ -417,8 +403,7 @@
               "type": "Literal",
               "start": 679,
               "end": 680,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -432,8 +417,7 @@
                 "type": "Literal",
                 "start": 684,
                 "end": 685,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           },
@@ -441,8 +425,7 @@
             "type": "Literal",
             "start": 688,
             "end": 734,
-            "value": "The value of result[0] is expected to be [2]",
-            "raw": "'The value of result[0] is expected to be [2]'"
+            "value": "The value of result[0] is expected to be [2]"
           }
         ],
         "optional": false
@@ -490,8 +473,7 @@
               "type": "Literal",
               "start": 764,
               "end": 765,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -505,8 +487,7 @@
                 "type": "Literal",
                 "start": 769,
                 "end": 770,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ]
           },
@@ -514,8 +495,7 @@
             "type": "Literal",
             "start": 773,
             "end": 819,
-            "value": "The value of result[1] is expected to be [4]",
-            "raw": "'The value of result[1] is expected to be [4]'"
+            "value": "The value of result[1] is expected to be [4]"
           }
         ],
         "optional": false
@@ -563,8 +543,7 @@
               "type": "Literal",
               "start": 849,
               "end": 850,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -578,8 +557,7 @@
                 "type": "Literal",
                 "start": 854,
                 "end": 855,
-                "value": 6,
-                "raw": "6"
+                "value": 6
               }
             ]
           },
@@ -587,8 +565,7 @@
             "type": "Literal",
             "start": 858,
             "end": 904,
-            "value": "The value of result[2] is expected to be [6]",
-            "raw": "'The value of result[2] is expected to be [6]'"
+            "value": "The value of result[2] is expected to be [6]"
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 3778,
                 "end": 3787,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -79,8 +78,7 @@
                       "type": "Literal",
                       "start": 3799,
                       "end": 3825,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   },
                   "property": {
@@ -461,8 +459,7 @@
                                 "type": "Literal",
                                 "start": 4129,
                                 "end": 4160,
-                                "value": "Symbol.toStringTag enumerable",
-                                "raw": "'Symbol.toStringTag enumerable'"
+                                "value": "Symbol.toStringTag enumerable"
                               }
                             ],
                             "optional": false
@@ -526,8 +523,7 @@
                                 "type": "Literal",
                                 "start": 4206,
                                 "end": 4235,
-                                "value": "Symbol.toStringTag writable",
-                                "raw": "'Symbol.toStringTag writable'"
+                                "value": "Symbol.toStringTag writable"
                               }
                             ],
                             "optional": false
@@ -591,8 +587,7 @@
                                 "type": "Literal",
                                 "start": 4285,
                                 "end": 4318,
-                                "value": "Symbol.toStringTag configurable",
-                                "raw": "'Symbol.toStringTag configurable'"
+                                "value": "Symbol.toStringTag configurable"
                               }
                             ],
                             "optional": false

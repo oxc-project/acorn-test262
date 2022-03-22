@@ -69,8 +69,7 @@
           "type": "Literal",
           "start": 467,
           "end": 475,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -101,8 +100,7 @@
                     "type": "Literal",
                     "start": 504,
                     "end": 583,
-                    "value": "#1: __str = String(true); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(true); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#1: __str = String(true); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -145,8 +143,7 @@
           "type": "Literal",
           "start": 789,
           "end": 795,
-          "value": "true",
-          "raw": "\"true\""
+          "value": "true"
         }
       },
       "consequent": {
@@ -177,8 +174,7 @@
                     "type": "Literal",
                     "start": 824,
                     "end": 887,
-                    "value": "#2: __str = String(true); __str === \"true\". Actual: __str ===",
-                    "raw": "'#2: __str = String(true); __str === \"true\". Actual: __str ==='"
+                    "value": "#2: __str = String(true); __str === \"true\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -259,8 +255,7 @@
           "type": "Literal",
           "start": 1117,
           "end": 1125,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -291,8 +286,7 @@
                     "type": "Literal",
                     "start": 1154,
                     "end": 1234,
-                    "value": "#3: __str = String(false); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#3: __str = String(false); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#3: __str = String(false); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -335,8 +329,7 @@
           "type": "Literal",
           "start": 1440,
           "end": 1447,
-          "value": "false",
-          "raw": "\"false\""
+          "value": "false"
         }
       },
       "consequent": {
@@ -367,8 +360,7 @@
                     "type": "Literal",
                     "start": 1476,
                     "end": 1541,
-                    "value": "#4: __str = String(false); __str === \"false\". Actual: __str ===",
-                    "raw": "'#4: __str = String(false); __str === \"false\". Actual: __str ==='"
+                    "value": "#4: __str = String(false); __str === \"false\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -463,8 +455,7 @@
           "type": "Literal",
           "start": 1779,
           "end": 1787,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -495,8 +486,7 @@
                     "type": "Literal",
                     "start": 1816,
                     "end": 1904,
-                    "value": "#5: __str = String(Boolean(true)); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#5: __str = String(Boolean(true)); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#5: __str = String(Boolean(true)); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -539,8 +529,7 @@
           "type": "Literal",
           "start": 2110,
           "end": 2116,
-          "value": "true",
-          "raw": "\"true\""
+          "value": "true"
         }
       },
       "consequent": {
@@ -571,8 +560,7 @@
                     "type": "Literal",
                     "start": 2145,
                     "end": 2217,
-                    "value": "#6: __str = String(Boolean(true)); __str === \"true\". Actual: __str ===",
-                    "raw": "'#6: __str = String(Boolean(true)); __str === \"true\". Actual: __str ==='"
+                    "value": "#6: __str = String(Boolean(true)); __str === \"true\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -667,8 +655,7 @@
           "type": "Literal",
           "start": 2456,
           "end": 2464,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -699,8 +686,7 @@
                     "type": "Literal",
                     "start": 2493,
                     "end": 2582,
-                    "value": "#7: __str = String(Boolean(false)); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#7: __str = String(Boolean(false)); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#7: __str = String(Boolean(false)); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -743,8 +729,7 @@
           "type": "Literal",
           "start": 2788,
           "end": 2795,
-          "value": "false",
-          "raw": "\"false\""
+          "value": "false"
         }
       },
       "consequent": {
@@ -775,8 +760,7 @@
                     "type": "Literal",
                     "start": 2824,
                     "end": 2898,
-                    "value": "#8: __str = String(Boolean(false)); __str === \"false\". Actual: __str ===",
-                    "raw": "'#8: __str = String(Boolean(false)); __str === \"false\". Actual: __str ==='"
+                    "value": "#8: __str = String(Boolean(false)); __str === \"false\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {

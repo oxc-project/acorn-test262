@@ -23,7 +23,6 @@
             "start": 431,
             "end": 437,
             "value": {},
-            "raw": "/(?:)/",
             "regex": {
               "pattern": "(?:)",
               "flags": ""
@@ -53,7 +52,6 @@
             "start": 453,
             "end": 459,
             "value": {},
-            "raw": "/(?:)/",
             "regex": {
               "pattern": "(?:)",
               "flags": ""
@@ -107,8 +105,7 @@
             "type": "Literal",
             "start": 506,
             "end": 571,
-            "value": "var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2",
-            "raw": "\"var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2\""
+            "value": "var regexp1 = /(?:)/; var regexp2 = /(?:)/; regexp1 !== regexp2"
           }
         ],
         "optional": false

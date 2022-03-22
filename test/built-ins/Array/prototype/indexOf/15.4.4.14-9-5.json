@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 304,
                           "end": 311,
-                          "value": "false",
-                          "raw": "\"false\""
+                          "value": "false"
                         }
                       }
                     ]
@@ -128,8 +127,7 @@
                           "type": "Literal",
                           "start": 368,
                           "end": 375,
-                          "value": "false",
-                          "raw": "\"false\""
+                          "value": "false"
                         }
                       }
                     ]
@@ -211,8 +209,7 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 437,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
@@ -268,8 +265,7 @@
                               "type": "Literal",
                               "start": 490,
                               "end": 497,
-                              "value": "false",
-                              "raw": "\"false\""
+                              "value": "false"
                             }
                           }
                         ]
@@ -283,8 +279,7 @@
                 "type": "Literal",
                 "start": 505,
                 "end": 512,
-                "value": "false",
-                "raw": "\"false\""
+                "value": "false"
               },
               {
                 "type": "Identifier",
@@ -375,15 +370,13 @@
             "type": "Literal",
             "start": 568,
             "end": 569,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 584,
-            "value": "a[8] = obj1",
-            "raw": "'a[8] = obj1'"
+            "value": "a[8] = obj1"
           }
         ],
         "optional": false

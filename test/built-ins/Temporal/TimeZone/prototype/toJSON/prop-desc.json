@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 368,
             "end": 378,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 382,
             "end": 432,
-            "value": "`typeof TimeZone.prototype.toJSON` is `function`",
-            "raw": "\"`typeof TimeZone.prototype.toJSON` is `function`\""
+            "value": "`typeof TimeZone.prototype.toJSON` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 481,
             "end": 489,
-            "value": "toJSON",
-            "raw": "\"toJSON\""
+            "value": "toJSON"
           },
           {
             "type": "ObjectExpression",

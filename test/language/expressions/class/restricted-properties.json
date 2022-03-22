@@ -91,8 +91,7 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 413,
-                "value": "caller",
-                "raw": "'caller'"
+                "value": "caller"
               }
             ],
             "optional": false
@@ -108,8 +107,7 @@
             "type": "Literal",
             "start": 423,
             "end": 449,
-            "value": "No \"caller\" own property",
-            "raw": "'No \"caller\" own property'"
+            "value": "No \"caller\" own property"
           }
         ],
         "optional": false
@@ -171,8 +169,7 @@
                 "type": "Literal",
                 "start": 498,
                 "end": 509,
-                "value": "arguments",
-                "raw": "'arguments'"
+                "value": "arguments"
               }
             ],
             "optional": false
@@ -188,8 +185,7 @@
             "type": "Literal",
             "start": 519,
             "end": 548,
-            "value": "No \"arguments\" own property",
-            "raw": "'No \"arguments\" own property'"
+            "value": "No \"arguments\" own property"
           }
         ],
         "optional": false
@@ -628,8 +624,7 @@
                 "type": "Literal",
                 "start": 923,
                 "end": 931,
-                "value": "caller",
-                "raw": "'caller'"
+                "value": "caller"
               }
             ],
             "optional": false
@@ -645,8 +640,7 @@
             "type": "Literal",
             "start": 941,
             "end": 967,
-            "value": "No \"caller\" own property",
-            "raw": "'No \"caller\" own property'"
+            "value": "No \"caller\" own property"
           }
         ],
         "optional": false
@@ -708,8 +702,7 @@
                 "type": "Literal",
                 "start": 1015,
                 "end": 1026,
-                "value": "arguments",
-                "raw": "'arguments'"
+                "value": "arguments"
               }
             ],
             "optional": false
@@ -725,8 +718,7 @@
             "type": "Literal",
             "start": 1036,
             "end": 1065,
-            "value": "No \"arguments\" own property",
-            "raw": "'No \"arguments\" own property'"
+            "value": "No \"arguments\" own property"
           }
         ],
         "optional": false

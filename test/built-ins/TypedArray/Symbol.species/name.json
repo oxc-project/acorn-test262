@@ -138,8 +138,7 @@
             "type": "Literal",
             "start": 861,
             "end": 883,
-            "value": "get [Symbol.species]",
-            "raw": "\"get [Symbol.species]\""
+            "value": "get [Symbol.species]"
           }
         ],
         "optional": false
@@ -183,8 +182,7 @@
             "type": "Literal",
             "start": 917,
             "end": 923,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -228,8 +226,7 @@
             "type": "Literal",
             "start": 954,
             "end": 960,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -273,8 +270,7 @@
             "type": "Literal",
             "start": 992,
             "end": 998,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

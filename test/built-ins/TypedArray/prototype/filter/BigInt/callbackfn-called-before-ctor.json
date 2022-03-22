@@ -58,8 +58,7 @@
                         "type": "Literal",
                         "start": 688,
                         "end": 690,
-                        "value": 42,
-                        "raw": "42"
+                        "value": 42
                       }
                     }
                   ],
@@ -122,8 +121,7 @@
                         "type": "Literal",
                         "start": 737,
                         "end": 738,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -229,8 +227,7 @@
                         "type": "Literal",
                         "start": 822,
                         "end": 835,
-                        "value": "constructor",
-                        "raw": "\"constructor\""
+                        "value": "constructor"
                       },
                       {
                         "type": "ObjectExpression",
@@ -415,15 +412,13 @@
                         "type": "Literal",
                         "start": 982,
                         "end": 984,
-                        "value": 42,
-                        "raw": "42"
+                        "value": 42
                       },
                       {
                         "type": "Literal",
                         "start": 986,
                         "end": 1019,
-                        "value": "callbackfn called for each item",
-                        "raw": "\"callbackfn called for each item\""
+                        "value": "callbackfn called for each item"
                       }
                     ],
                     "optional": false
@@ -474,8 +469,7 @@
                         "type": "Literal",
                         "start": 1055,
                         "end": 1085,
-                        "value": "all callbackfn called before",
-                        "raw": "\"all callbackfn called before\""
+                        "value": "all callbackfn called before"
                       }
                     ],
                     "optional": false

@@ -152,8 +152,7 @@
                             "type": "Literal",
                             "start": 596,
                             "end": 597,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         },
                         "consequent": {
@@ -267,8 +266,7 @@
                             "type": "Literal",
                             "start": 707,
                             "end": 708,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -380,8 +378,7 @@
                               "type": "Literal",
                               "start": 839,
                               "end": 850,
-                              "value": "lastIndex",
-                              "raw": "'lastIndex'"
+                              "value": "lastIndex"
                             },
                             {
                               "type": "ObjectExpression",
@@ -435,8 +432,7 @@
                             "type": "Literal",
                             "start": 896,
                             "end": 897,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -482,8 +478,7 @@
           "type": "Literal",
           "start": 936,
           "end": 937,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -657,15 +652,13 @@
             "type": "Literal",
             "start": 1071,
             "end": 1072,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1074,
             "end": 1113,
-            "value": "Match executed (\"poisoned\" lastIndex)",
-            "raw": "'Match executed (\"poisoned\" lastIndex)'"
+            "value": "Match executed (\"poisoned\" lastIndex)"
           }
         ],
         "optional": false
@@ -690,8 +683,7 @@
           "type": "Literal",
           "start": 1129,
           "end": 1130,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -865,15 +857,13 @@
             "type": "Literal",
             "start": 1264,
             "end": 1265,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1308,
-            "value": "Match executed (non-writable lastIndex)",
-            "raw": "'Match executed (non-writable lastIndex)'"
+            "value": "Match executed (non-writable lastIndex)"
           }
         ],
         "optional": false

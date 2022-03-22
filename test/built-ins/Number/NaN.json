@@ -85,8 +85,7 @@
             "type": "Literal",
             "start": 507,
             "end": 512,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           }
         ],
         "optional": false
@@ -117,8 +116,7 @@
             "type": "Literal",
             "start": 541,
             "end": 546,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           }
         ],
         "optional": false
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 579,
             "end": 584,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           }
         ],
         "optional": false

@@ -53,22 +53,19 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 345,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -114,8 +111,7 @@
             "type": "Literal",
             "start": 376,
             "end": 389,
-            "value": "ownProperty",
-            "raw": "\"ownProperty\""
+            "value": "ownProperty"
           },
           {
             "type": "ObjectExpression",
@@ -157,8 +153,7 @@
                           "type": "Literal",
                           "start": 424,
                           "end": 434,
-                          "value": "ownArray",
-                          "raw": "\"ownArray\""
+                          "value": "ownArray"
                         }
                       }
                     ]
@@ -313,8 +308,7 @@
                 "type": "Literal",
                 "start": 558,
                 "end": 571,
-                "value": "ownProperty",
-                "raw": "\"ownProperty\""
+                "value": "ownProperty"
               }
             },
             "consequent": {
@@ -384,8 +378,7 @@
             "type": "Literal",
             "start": 641,
             "end": 661,
-            "value": "Property not found",
-            "raw": "'Property not found'"
+            "value": "Property not found"
           }
         ],
         "optional": false

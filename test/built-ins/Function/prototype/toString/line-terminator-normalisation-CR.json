@@ -73,8 +73,7 @@
             "type": "Literal",
             "start": 641,
             "end": 741,
-            "value": "function\r// a\rf\r// b\r(\r// c\rx\r// d\r,\r// e\ry\r// f\r)\r// g\r{\r// h\r;\r// i\r;\r// j\r}",
-            "raw": "\"function\\r// a\\rf\\r// b\\r(\\r// c\\rx\\r// d\\r,\\r// e\\ry\\r// f\\r)\\r// g\\r{\\r// h\\r;\\r// i\\r;\\r// j\\r}\""
+            "value": "function\r// a\rf\r// b\r(\r// c\rx\r// d\r,\r// e\ry\r// f\r)\r// g\r{\r// h\r;\r// i\r;\r// j\r}"
           }
         ],
         "optional": false

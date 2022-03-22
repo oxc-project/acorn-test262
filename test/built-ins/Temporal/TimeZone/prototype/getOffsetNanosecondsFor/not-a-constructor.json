@@ -114,8 +114,7 @@
             "type": "Literal",
             "start": 697,
             "end": 721,
-            "value": "Calling as constructor",
-            "raw": "\"Calling as constructor\""
+            "value": "Calling as constructor"
           }
         ],
         "optional": false
@@ -219,8 +218,7 @@
             "type": "Literal",
             "start": 819,
             "end": 887,
-            "value": "isConstructor(Temporal.TimeZone.prototype.getOffsetNanosecondsFor)",
-            "raw": "\"isConstructor(Temporal.TimeZone.prototype.getOffsetNanosecondsFor)\""
+            "value": "isConstructor(Temporal.TimeZone.prototype.getOffsetNanosecondsFor)"
           }
         ],
         "optional": false

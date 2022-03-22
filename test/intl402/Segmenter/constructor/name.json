@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 1082,
             "end": 1088,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 1101,
                   "end": 1112,
-                  "value": "Segmenter",
-                  "raw": "\"Segmenter\""
+                  "value": "Segmenter"
                 },
                 "kind": "init"
               },

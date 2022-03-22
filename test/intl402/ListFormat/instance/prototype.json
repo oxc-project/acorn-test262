@@ -144,8 +144,7 @@
             "type": "Literal",
             "start": 607,
             "end": 683,
-            "value": "Object.getPrototypeOf(value) equals the value of Intl.ListFormat.prototype",
-            "raw": "\"Object.getPrototypeOf(value) equals the value of Intl.ListFormat.prototype\""
+            "value": "Object.getPrototypeOf(value) equals the value of Intl.ListFormat.prototype"
           }
         ],
         "optional": false

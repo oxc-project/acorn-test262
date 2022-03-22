@@ -103,8 +103,7 @@
                 "type": "Literal",
                 "start": 500,
                 "end": 506,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -120,8 +119,7 @@
                 "type": "Literal",
                 "start": 515,
                 "end": 519,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -176,8 +174,7 @@
                               "type": "Literal",
                               "start": 571,
                               "end": 572,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -236,15 +233,13 @@
             "type": "Literal",
             "start": 615,
             "end": 616,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 618,
             "end": 663,
-            "value": "ToPrimitive: @@toPrimitive takes precedence",
-            "raw": "\"ToPrimitive: @@toPrimitive takes precedence\""
+            "value": "ToPrimitive: @@toPrimitive takes precedence"
           }
         ],
         "optional": false
@@ -290,8 +285,7 @@
                 "type": "Literal",
                 "start": 683,
                 "end": 689,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -307,8 +301,7 @@
                 "type": "Literal",
                 "start": 698,
                 "end": 702,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -350,8 +343,7 @@
                               "type": "Literal",
                               "start": 741,
                               "end": 742,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -389,15 +381,13 @@
             "type": "Literal",
             "start": 769,
             "end": 770,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 825,
-            "value": "ToPrimitive: valueOf takes precedence over toString",
-            "raw": "\"ToPrimitive: valueOf takes precedence over toString\""
+            "value": "ToPrimitive: valueOf takes precedence over toString"
           }
         ],
         "optional": false
@@ -443,8 +433,7 @@
                 "type": "Literal",
                 "start": 845,
                 "end": 851,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -460,8 +449,7 @@
                 "type": "Literal",
                 "start": 860,
                 "end": 864,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -503,8 +491,7 @@
                               "type": "Literal",
                               "start": 904,
                               "end": 905,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -521,15 +508,13 @@
             "type": "Literal",
             "start": 915,
             "end": 916,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 918,
             "end": 957,
-            "value": "ToPrimitive: toString with no valueOf",
-            "raw": "\"ToPrimitive: toString with no valueOf\""
+            "value": "ToPrimitive: toString with no valueOf"
           }
         ],
         "optional": false
@@ -575,8 +560,7 @@
                 "type": "Literal",
                 "start": 977,
                 "end": 983,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -592,8 +576,7 @@
                 "type": "Literal",
                 "start": 992,
                 "end": 996,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -669,8 +652,7 @@
                               "type": "Literal",
                               "start": 1070,
                               "end": 1071,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -687,15 +669,13 @@
             "type": "Literal",
             "start": 1081,
             "end": 1082,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1084,
             "end": 1137,
-            "value": "ToPrimitive: skip @@toPrimitive when it's undefined",
-            "raw": "\"ToPrimitive: skip @@toPrimitive when it's undefined\""
+            "value": "ToPrimitive: skip @@toPrimitive when it's undefined"
           }
         ],
         "optional": false
@@ -741,8 +721,7 @@
                 "type": "Literal",
                 "start": 1157,
                 "end": 1163,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -758,8 +737,7 @@
                 "type": "Literal",
                 "start": 1172,
                 "end": 1176,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -836,8 +814,7 @@
                               "type": "Literal",
                               "start": 1245,
                               "end": 1246,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -854,15 +831,13 @@
             "type": "Literal",
             "start": 1256,
             "end": 1257,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1307,
-            "value": "ToPrimitive: skip @@toPrimitive when it's null",
-            "raw": "\"ToPrimitive: skip @@toPrimitive when it's null\""
+            "value": "ToPrimitive: skip @@toPrimitive when it's null"
           }
         ],
         "optional": false
@@ -908,8 +883,7 @@
                 "type": "Literal",
                 "start": 1327,
                 "end": 1333,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -925,8 +899,7 @@
                 "type": "Literal",
                 "start": 1342,
                 "end": 1346,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -990,8 +963,7 @@
                               "type": "Literal",
                               "start": 1403,
                               "end": 1404,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -1008,15 +980,13 @@
             "type": "Literal",
             "start": 1414,
             "end": 1415,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1417,
             "end": 1467,
-            "value": "ToPrimitive: skip valueOf when it's not callable",
-            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
+            "value": "ToPrimitive: skip valueOf when it's not callable"
           }
         ],
         "optional": false
@@ -1062,8 +1032,7 @@
                 "type": "Literal",
                 "start": 1487,
                 "end": 1493,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -1079,8 +1048,7 @@
                 "type": "Literal",
                 "start": 1502,
                 "end": 1506,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -1104,8 +1072,7 @@
                       "type": "Literal",
                       "start": 1521,
                       "end": 1522,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   },
@@ -1144,8 +1111,7 @@
                               "type": "Literal",
                               "start": 1560,
                               "end": 1561,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -1162,15 +1128,13 @@
             "type": "Literal",
             "start": 1571,
             "end": 1572,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1574,
             "end": 1624,
-            "value": "ToPrimitive: skip valueOf when it's not callable",
-            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
+            "value": "ToPrimitive: skip valueOf when it's not callable"
           }
         ],
         "optional": false
@@ -1216,8 +1180,7 @@
                 "type": "Literal",
                 "start": 1644,
                 "end": 1650,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -1233,8 +1196,7 @@
                 "type": "Literal",
                 "start": 1659,
                 "end": 1663,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -1297,8 +1259,7 @@
                               "type": "Literal",
                               "start": 1718,
                               "end": 1719,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -1315,15 +1276,13 @@
             "type": "Literal",
             "start": 1729,
             "end": 1730,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1732,
             "end": 1782,
-            "value": "ToPrimitive: skip valueOf when it's not callable",
-            "raw": "\"ToPrimitive: skip valueOf when it's not callable\""
+            "value": "ToPrimitive: skip valueOf when it's not callable"
           }
         ],
         "optional": false
@@ -1369,8 +1328,7 @@
                 "type": "Literal",
                 "start": 1802,
                 "end": 1808,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -1386,8 +1344,7 @@
                 "type": "Literal",
                 "start": 1817,
                 "end": 1821,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -1472,8 +1429,7 @@
                               "type": "Literal",
                               "start": 1905,
                               "end": 1906,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -1490,15 +1446,13 @@
             "type": "Literal",
             "start": 1916,
             "end": 1917,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1919,
             "end": 1972,
-            "value": "ToPrimitive: skip valueOf when it returns an object",
-            "raw": "\"ToPrimitive: skip valueOf when it returns an object\""
+            "value": "ToPrimitive: skip valueOf when it returns an object"
           }
         ],
         "optional": false
@@ -1544,8 +1498,7 @@
                 "type": "Literal",
                 "start": 1992,
                 "end": 1998,
-                "value": "aaaa",
-                "raw": "\"aaaa\""
+                "value": "aaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -1561,8 +1514,7 @@
                 "type": "Literal",
                 "start": 2007,
                 "end": 2011,
-                "value": "aa",
-                "raw": "\"aa\""
+                "value": "aa"
               },
               {
                 "type": "ObjectExpression",
@@ -1615,8 +1567,7 @@
                                   "type": "Literal",
                                   "start": 2057,
                                   "end": 2062,
-                                  "value": 12345,
-                                  "raw": "12345"
+                                  "value": 12345
                                 }
                               ],
                               "optional": false
@@ -1662,8 +1613,7 @@
                               "type": "Literal",
                               "start": 2106,
                               "end": 2107,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -1680,15 +1630,13 @@
             "type": "Literal",
             "start": 2117,
             "end": 2118,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2120,
             "end": 2173,
-            "value": "ToPrimitive: skip valueOf when it returns an object",
-            "raw": "\"ToPrimitive: skip valueOf when it returns an object\""
+            "value": "ToPrimitive: skip valueOf when it returns an object"
           }
         ],
         "optional": false
@@ -1758,8 +1706,7 @@
                         "type": "Literal",
                         "start": 2216,
                         "end": 2218,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -1775,8 +1722,7 @@
                         "type": "Literal",
                         "start": 2227,
                         "end": 2229,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -1813,8 +1759,7 @@
                               "type": "Literal",
                               "start": 2259,
                               "end": 2260,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "kind": "init"
                           }
@@ -1831,8 +1776,7 @@
             "type": "Literal",
             "start": 2270,
             "end": 2325,
-            "value": "ToPrimitive: throw when @@toPrimitive is not callable",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\""
+            "value": "ToPrimitive: throw when @@toPrimitive is not callable"
           }
         ],
         "optional": false
@@ -1902,8 +1846,7 @@
                         "type": "Literal",
                         "start": 2368,
                         "end": 2370,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -1919,8 +1862,7 @@
                         "type": "Literal",
                         "start": 2379,
                         "end": 2381,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -1974,8 +1916,7 @@
             "type": "Literal",
             "start": 2423,
             "end": 2478,
-            "value": "ToPrimitive: throw when @@toPrimitive is not callable",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive is not callable\""
+            "value": "ToPrimitive: throw when @@toPrimitive is not callable"
           }
         ],
         "optional": false
@@ -2045,8 +1986,7 @@
                         "type": "Literal",
                         "start": 2521,
                         "end": 2523,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -2062,8 +2002,7 @@
                         "type": "Literal",
                         "start": 2532,
                         "end": 2534,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -2129,8 +2068,7 @@
                                           "type": "Literal",
                                           "start": 2597,
                                           "end": 2598,
-                                          "value": 1,
-                                          "raw": "1"
+                                          "value": 1
                                         }
                                       ],
                                       "optional": false
@@ -2154,8 +2092,7 @@
             "type": "Literal",
             "start": 2616,
             "end": 2673,
-            "value": "ToPrimitive: throw when @@toPrimitive returns an object",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\""
+            "value": "ToPrimitive: throw when @@toPrimitive returns an object"
           }
         ],
         "optional": false
@@ -2225,8 +2162,7 @@
                         "type": "Literal",
                         "start": 2716,
                         "end": 2718,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -2242,8 +2178,7 @@
                         "type": "Literal",
                         "start": 2727,
                         "end": 2729,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -2319,8 +2254,7 @@
             "type": "Literal",
             "start": 2804,
             "end": 2861,
-            "value": "ToPrimitive: throw when @@toPrimitive returns an object",
-            "raw": "\"ToPrimitive: throw when @@toPrimitive returns an object\""
+            "value": "ToPrimitive: throw when @@toPrimitive returns an object"
           }
         ],
         "optional": false
@@ -2390,8 +2324,7 @@
                         "type": "Literal",
                         "start": 2902,
                         "end": 2904,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -2407,8 +2340,7 @@
                         "type": "Literal",
                         "start": 2913,
                         "end": 2915,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -2490,8 +2422,7 @@
             "type": "Literal",
             "start": 3000,
             "end": 3050,
-            "value": "ToPrimitive: propagate errors from @@toPrimitive",
-            "raw": "\"ToPrimitive: propagate errors from @@toPrimitive\""
+            "value": "ToPrimitive: propagate errors from @@toPrimitive"
           }
         ],
         "optional": false
@@ -2561,8 +2492,7 @@
                         "type": "Literal",
                         "start": 3091,
                         "end": 3093,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -2578,8 +2508,7 @@
                         "type": "Literal",
                         "start": 3102,
                         "end": 3104,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -2648,8 +2577,7 @@
             "type": "Literal",
             "start": 3176,
             "end": 3220,
-            "value": "ToPrimitive: propagate errors from valueOf",
-            "raw": "\"ToPrimitive: propagate errors from valueOf\""
+            "value": "ToPrimitive: propagate errors from valueOf"
           }
         ],
         "optional": false
@@ -2719,8 +2647,7 @@
                         "type": "Literal",
                         "start": 3261,
                         "end": 3263,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -2736,8 +2663,7 @@
                         "type": "Literal",
                         "start": 3272,
                         "end": 3274,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -2806,8 +2732,7 @@
             "type": "Literal",
             "start": 3347,
             "end": 3392,
-            "value": "ToPrimitive: propagate errors from toString",
-            "raw": "\"ToPrimitive: propagate errors from toString\""
+            "value": "ToPrimitive: propagate errors from toString"
           }
         ],
         "optional": false
@@ -2877,8 +2802,7 @@
                         "type": "Literal",
                         "start": 3435,
                         "end": 3437,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -2894,8 +2818,7 @@
                         "type": "Literal",
                         "start": 3446,
                         "end": 3448,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -2959,8 +2882,7 @@
             "type": "Literal",
             "start": 3499,
             "end": 3559,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "value": "ToPrimitive: throw when skipping both valueOf and toString"
           }
         ],
         "optional": false
@@ -3030,8 +2952,7 @@
                         "type": "Literal",
                         "start": 3602,
                         "end": 3604,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -3047,8 +2968,7 @@
                         "type": "Literal",
                         "start": 3613,
                         "end": 3615,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -3072,8 +2992,7 @@
                               "type": "Literal",
                               "start": 3632,
                               "end": 3633,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "kind": "init"
                           },
@@ -3094,8 +3013,7 @@
                               "type": "Literal",
                               "start": 3649,
                               "end": 3650,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "kind": "init"
                           }
@@ -3112,8 +3030,7 @@
             "type": "Literal",
             "start": 3660,
             "end": 3720,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "value": "ToPrimitive: throw when skipping both valueOf and toString"
           }
         ],
         "optional": false
@@ -3183,8 +3100,7 @@
                         "type": "Literal",
                         "start": 3763,
                         "end": 3765,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -3200,8 +3116,7 @@
                         "type": "Literal",
                         "start": 3774,
                         "end": 3776,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -3263,8 +3178,7 @@
             "type": "Literal",
             "start": 3823,
             "end": 3883,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "value": "ToPrimitive: throw when skipping both valueOf and toString"
           }
         ],
         "optional": false
@@ -3334,8 +3248,7 @@
                         "type": "Literal",
                         "start": 3926,
                         "end": 3928,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -3351,8 +3264,7 @@
                         "type": "Literal",
                         "start": 3937,
                         "end": 3939,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -3405,8 +3317,7 @@
                                           "type": "Literal",
                                           "start": 3989,
                                           "end": 3990,
-                                          "value": 1,
-                                          "raw": "1"
+                                          "value": 1
                                         }
                                       ],
                                       "optional": false
@@ -3463,8 +3374,7 @@
                                           "type": "Literal",
                                           "start": 4047,
                                           "end": 4048,
-                                          "value": 1,
-                                          "raw": "1"
+                                          "value": 1
                                         }
                                       ],
                                       "optional": false
@@ -3488,8 +3398,7 @@
             "type": "Literal",
             "start": 4066,
             "end": 4126,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "value": "ToPrimitive: throw when skipping both valueOf and toString"
           }
         ],
         "optional": false
@@ -3559,8 +3468,7 @@
                         "type": "Literal",
                         "start": 4169,
                         "end": 4171,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -3576,8 +3484,7 @@
                         "type": "Literal",
                         "start": 4180,
                         "end": 4182,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -3683,8 +3590,7 @@
             "type": "Literal",
             "start": 4295,
             "end": 4355,
-            "value": "ToPrimitive: throw when skipping both valueOf and toString",
-            "raw": "\"ToPrimitive: throw when skipping both valueOf and toString\""
+            "value": "ToPrimitive: throw when skipping both valueOf and toString"
           }
         ],
         "optional": false

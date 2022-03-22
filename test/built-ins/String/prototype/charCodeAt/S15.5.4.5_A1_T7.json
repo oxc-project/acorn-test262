@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 472,
                   "end": 478,
-                  "value": "lego",
-                  "raw": "\"lego\""
+                  "value": "lego"
                 }
               ],
               "optional": false
@@ -64,8 +63,7 @@
           "type": "Literal",
           "start": 506,
           "end": 510,
-          "value": 108,
-          "raw": "0x6C"
+          "value": 108
         }
       },
       "consequent": {
@@ -96,8 +94,7 @@
                     "type": "Literal",
                     "start": 539,
                     "end": 640,
-                    "value": "#1: String(\"lego\").charCodeAt(undefined) === 0x6C. Actual: String(\"lego\").charCodeAt(undefined) ===",
-                    "raw": "'#1: String(\"lego\").charCodeAt(undefined) === 0x6C. Actual: String(\"lego\").charCodeAt(undefined) ==='"
+                    "value": "#1: String(\"lego\").charCodeAt(undefined) === 0x6C. Actual: String(\"lego\").charCodeAt(undefined) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -123,8 +120,7 @@
                             "type": "Literal",
                             "start": 650,
                             "end": 656,
-                            "value": "lego",
-                            "raw": "\"lego\""
+                            "value": "lego"
                           }
                         ],
                         "optional": false

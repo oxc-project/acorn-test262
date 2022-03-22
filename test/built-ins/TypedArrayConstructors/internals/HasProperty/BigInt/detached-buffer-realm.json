@@ -178,8 +178,7 @@
                             "type": "Literal",
                             "start": 933,
                             "end": 934,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -287,8 +286,7 @@
                             "type": "Literal",
                             "start": 1010,
                             "end": 1013,
-                            "value": "0",
-                            "raw": "'0'"
+                            "value": "0"
                           }
                         ],
                         "optional": false
@@ -304,8 +302,7 @@
                         "type": "Literal",
                         "start": 1023,
                         "end": 1067,
-                        "value": "Reflect.has(sample, \"0\") must return false",
-                        "raw": "'Reflect.has(sample, \"0\") must return false'"
+                        "value": "Reflect.has(sample, \"0\") must return false"
                       }
                     ],
                     "optional": false

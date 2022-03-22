@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 410,
                             "end": 418,
-                            "value": "buffer",
-                            "raw": "\"buffer\""
+                            "value": "buffer"
                           }
                         ],
                         "optional": false

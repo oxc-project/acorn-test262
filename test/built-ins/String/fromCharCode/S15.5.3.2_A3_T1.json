@@ -39,29 +39,25 @@
               "type": "Literal",
               "start": 394,
               "end": 396,
-              "value": 65,
-              "raw": "65"
+              "value": 65
             },
             {
               "type": "Literal",
               "start": 398,
               "end": 400,
-              "value": 66,
-              "raw": "66"
+              "value": 66
             },
             {
               "type": "Literal",
               "start": 402,
               "end": 404,
-              "value": 66,
-              "raw": "66"
+              "value": 66
             },
             {
               "type": "Literal",
               "start": 406,
               "end": 408,
-              "value": 65,
-              "raw": "65"
+              "value": 65
             }
           ],
           "optional": false
@@ -71,8 +67,7 @@
           "type": "Literal",
           "start": 414,
           "end": 420,
-          "value": "ABBA",
-          "raw": "\"ABBA\""
+          "value": "ABBA"
         }
       },
       "consequent": {
@@ -103,8 +98,7 @@
                     "type": "Literal",
                     "start": 449,
                     "end": 544,
-                    "value": "#1: String.fromCharCode(65,66,66,65) === \"ABBA\". Actual: String.fromCharCode(65,66,66,65) ===",
-                    "raw": "'#1: String.fromCharCode(65,66,66,65) === \"ABBA\". Actual: String.fromCharCode(65,66,66,65) ==='"
+                    "value": "#1: String.fromCharCode(65,66,66,65) === \"ABBA\". Actual: String.fromCharCode(65,66,66,65) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -135,29 +129,25 @@
                         "type": "Literal",
                         "start": 567,
                         "end": 569,
-                        "value": 65,
-                        "raw": "65"
+                        "value": 65
                       },
                       {
                         "type": "Literal",
                         "start": 571,
                         "end": 573,
-                        "value": 66,
-                        "raw": "66"
+                        "value": 66
                       },
                       {
                         "type": "Literal",
                         "start": 575,
                         "end": 577,
-                        "value": 66,
-                        "raw": "66"
+                        "value": 66
                       },
                       {
                         "type": "Literal",
                         "start": 579,
                         "end": 581,
-                        "value": 65,
-                        "raw": "65"
+                        "value": 65
                       }
                     ],
                     "optional": false

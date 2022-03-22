@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 699,
             "end": 709,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -157,8 +156,7 @@
             "type": "Literal",
             "start": 765,
             "end": 776,
-            "value": "/a/g*/b/g",
-            "raw": "'/a/g*/b/g'"
+            "value": "/a/g*/b/g"
           }
         }
       ],
@@ -245,7 +243,6 @@
                         "start": 832,
                         "end": 837,
                         "value": {},
-                        "raw": "/\\w/g",
                         "regex": {
                           "pattern": "\\w",
                           "flags": "g"

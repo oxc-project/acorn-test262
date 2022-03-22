@@ -98,8 +98,7 @@
             "type": "Literal",
             "start": 358,
             "end": 359,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -108,8 +107,7 @@
           "type": "Literal",
           "start": 363,
           "end": 366,
-          "value": "b",
-          "raw": "\"b\""
+          "value": "b"
         }
       }
     },
@@ -136,8 +134,7 @@
             "type": "Literal",
             "start": 372,
             "end": 373,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -146,8 +143,7 @@
           "type": "Literal",
           "start": 377,
           "end": 380,
-          "value": "c",
-          "raw": "\"c\""
+          "value": "c"
         }
       }
     },
@@ -249,8 +245,7 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 443,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "computed": true,
                 "optional": false
@@ -262,15 +257,13 @@
             "type": "Literal",
             "start": 447,
             "end": 448,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 450,
             "end": 497,
-            "value": "Array.prototype.lastIndexOf.call(obj, obj[1])",
-            "raw": "'Array.prototype.lastIndexOf.call(obj, obj[1])'"
+            "value": "Array.prototype.lastIndexOf.call(obj, obj[1])"
           }
         ],
         "optional": false
@@ -374,8 +367,7 @@
                   "type": "Literal",
                   "start": 559,
                   "end": 560,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "computed": true,
                 "optional": false
@@ -393,16 +385,14 @@
               "type": "Literal",
               "start": 565,
               "end": 566,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 615,
-            "value": "Array.prototype.lastIndexOf.call(obj, obj[2])",
-            "raw": "'Array.prototype.lastIndexOf.call(obj, obj[2])'"
+            "value": "Array.prototype.lastIndexOf.call(obj, obj[2])"
           }
         ],
         "optional": false

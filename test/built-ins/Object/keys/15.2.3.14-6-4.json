@@ -99,15 +99,13 @@
                 "type": "Literal",
                 "start": 385,
                 "end": 386,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 391,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               },
               {
                 "type": "Literal",
@@ -427,8 +425,7 @@
                   "type": "Literal",
                   "start": 640,
                   "end": 658,
-                  "value": "tempArray[index]",
-                  "raw": "'tempArray[index]'"
+                  "value": "tempArray[index]"
                 }
               ],
               "optional": false

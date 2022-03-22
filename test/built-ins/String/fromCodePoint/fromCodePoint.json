@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 408,
             "end": 423,
-            "value": "fromCodePoint",
-            "raw": "'fromCodePoint'"
+            "value": "fromCodePoint"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 449,
             "end": 464,
-            "value": "fromCodePoint",
-            "raw": "'fromCodePoint'"
+            "value": "fromCodePoint"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 494,
             "end": 509,
-            "value": "fromCodePoint",
-            "raw": "'fromCodePoint'"
+            "value": "fromCodePoint"
           }
         ],
         "optional": false

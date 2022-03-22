@@ -85,15 +85,13 @@
             "type": "Literal",
             "start": 510,
             "end": 511,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 513,
             "end": 545,
-            "value": "The value of `map.size` is `0`",
-            "raw": "'The value of `map.size` is `0`'"
+            "value": "The value of `map.size` is `0`"
           }
         ],
         "optional": false
@@ -131,15 +129,13 @@
             "type": "Literal",
             "start": 557,
             "end": 558,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 561,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -196,15 +192,13 @@
             "type": "Literal",
             "start": 594,
             "end": 595,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 599,
             "end": 664,
-            "value": "The value of `map.size` is `1`, after executing `map.set(1, 1)`",
-            "raw": "'The value of `map.size` is `1`, after executing `map.set(1, 1)`'"
+            "value": "The value of `map.size` is `1`, after executing `map.set(1, 1)`"
           }
         ],
         "optional": false
@@ -242,8 +236,7 @@
             "type": "Literal",
             "start": 680,
             "end": 681,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -300,15 +293,13 @@
             "type": "Literal",
             "start": 714,
             "end": 715,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 719,
             "end": 784,
-            "value": "The value of `map.size` is `0`, after executing `map.delete(1)`",
-            "raw": "'The value of `map.size` is `0`, after executing `map.delete(1)`'"
+            "value": "The value of `map.size` is `0`, after executing `map.delete(1)`"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 625,
             "end": 626,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -261,8 +260,7 @@
                     "type": "Literal",
                     "start": 831,
                     "end": 832,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -274,8 +272,7 @@
                   "type": "Literal",
                   "start": 843,
                   "end": 845,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 }
               }
             ]
@@ -342,8 +339,7 @@
             "type": "Literal",
             "start": 886,
             "end": 923,
-            "value": "use returned value - non-NaN number",
-            "raw": "\"use returned value - non-NaN number\""
+            "value": "use returned value - non-NaN number"
           }
         ],
         "optional": false
@@ -387,15 +383,13 @@
             "type": "Literal",
             "start": 951,
             "end": 952,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 994,
-            "value": "toPrimitive is called - non-NaN number",
-            "raw": "\"toPrimitive is called - non-NaN number\""
+            "value": "toPrimitive is called - non-NaN number"
           }
         ],
         "optional": false
@@ -420,8 +414,7 @@
           "type": "Literal",
           "start": 1007,
           "end": 1008,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -499,8 +492,7 @@
                     "type": "Literal",
                     "start": 1061,
                     "end": 1062,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -512,8 +504,7 @@
                   "type": "Literal",
                   "start": 1073,
                   "end": 1095,
-                  "value": "this is not a number",
-                  "raw": "\"this is not a number\""
+                  "value": "this is not a number"
                 }
               }
             ]
@@ -580,8 +571,7 @@
             "type": "Literal",
             "start": 1135,
             "end": 1171,
-            "value": "use returned value - string to NaN",
-            "raw": "\"use returned value - string to NaN\""
+            "value": "use returned value - string to NaN"
           }
         ],
         "optional": false
@@ -625,15 +615,13 @@
             "type": "Literal",
             "start": 1199,
             "end": 1200,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1202,
             "end": 1241,
-            "value": "toPrimitive is called - string to NaN",
-            "raw": "\"toPrimitive is called - string to NaN\""
+            "value": "toPrimitive is called - string to NaN"
           }
         ],
         "optional": false
@@ -658,8 +646,7 @@
           "type": "Literal",
           "start": 1254,
           "end": 1255,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -737,8 +724,7 @@
                     "type": "Literal",
                     "start": 1308,
                     "end": 1309,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -818,8 +804,7 @@
             "type": "Literal",
             "start": 1365,
             "end": 1400,
-            "value": "use returned value - boolean true",
-            "raw": "\"use returned value - boolean true\""
+            "value": "use returned value - boolean true"
           }
         ],
         "optional": false
@@ -863,15 +848,13 @@
             "type": "Literal",
             "start": 1428,
             "end": 1429,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1431,
             "end": 1469,
-            "value": "toPrimitive is called - boolean true",
-            "raw": "\"toPrimitive is called - boolean true\""
+            "value": "toPrimitive is called - boolean true"
           }
         ],
         "optional": false
@@ -896,8 +879,7 @@
           "type": "Literal",
           "start": 1482,
           "end": 1483,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -975,8 +957,7 @@
                     "type": "Literal",
                     "start": 1536,
                     "end": 1537,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -1056,8 +1037,7 @@
             "type": "Literal",
             "start": 1594,
             "end": 1630,
-            "value": "use returned value - boolean false",
-            "raw": "\"use returned value - boolean false\""
+            "value": "use returned value - boolean false"
           }
         ],
         "optional": false
@@ -1101,15 +1081,13 @@
             "type": "Literal",
             "start": 1658,
             "end": 1659,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1661,
             "end": 1700,
-            "value": "toPrimitive is called - boolean false",
-            "raw": "\"toPrimitive is called - boolean false\""
+            "value": "toPrimitive is called - boolean false"
           }
         ],
         "optional": false
@@ -1134,8 +1112,7 @@
           "type": "Literal",
           "start": 1713,
           "end": 1714,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1213,8 +1190,7 @@
                     "type": "Literal",
                     "start": 1767,
                     "end": 1768,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -1293,8 +1269,7 @@
             "type": "Literal",
             "start": 1822,
             "end": 1848,
-            "value": "use returned value - NaN",
-            "raw": "\"use returned value - NaN\""
+            "value": "use returned value - NaN"
           }
         ],
         "optional": false
@@ -1338,15 +1313,13 @@
             "type": "Literal",
             "start": 1876,
             "end": 1877,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1879,
             "end": 1908,
-            "value": "toPrimitive is called - NaN",
-            "raw": "\"toPrimitive is called - NaN\""
+            "value": "toPrimitive is called - NaN"
           }
         ],
         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 483,
                 "end": 492,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,22 +97,19 @@
                 "type": "Literal",
                 "start": 527,
                 "end": 531,
-                "value": 1970,
-                "raw": "1970"
+                "value": 1970
               },
               {
                 "type": "Literal",
                 "start": 533,
                 "end": 534,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 537,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -186,15 +182,13 @@
             "type": "Literal",
             "start": 575,
             "end": 576,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 578,
             "end": 643,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(1970, 1, 1)) must return 1",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(1970, 1, 1)) must return 1'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(1970, 1, 1)) must return 1"
           }
         ],
         "optional": false
@@ -243,22 +237,19 @@
               "type": "Literal",
               "start": 673,
               "end": 677,
-              "value": 2000,
-              "raw": "2000"
+              "value": 2000
             },
             {
               "type": "Literal",
               "start": 679,
               "end": 680,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 682,
               "end": 683,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ]
         }
@@ -329,15 +320,13 @@
             "type": "Literal",
             "start": 721,
             "end": 722,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 724,
             "end": 789,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(2000, 1, 1)) must return 1",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(2000, 1, 1)) must return 1'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(2000, 1, 1)) must return 1"
           }
         ],
         "optional": false
@@ -386,22 +375,19 @@
               "type": "Literal",
               "start": 820,
               "end": 824,
-              "value": 2021,
-              "raw": "2021"
+              "value": 2021
             },
             {
               "type": "Literal",
               "start": 826,
               "end": 827,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 829,
               "end": 831,
-              "value": 15,
-              "raw": "15"
+              "value": 15
             }
           ]
         }
@@ -472,15 +458,13 @@
             "type": "Literal",
             "start": 869,
             "end": 871,
-            "value": 15,
-            "raw": "15"
+            "value": 15
           },
           {
             "type": "Literal",
             "start": 873,
             "end": 940,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(2021, 1, 15)) must return 15",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(2021, 1, 15)) must return 15'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(2021, 1, 15)) must return 15"
           }
         ],
         "optional": false
@@ -529,22 +513,19 @@
               "type": "Literal",
               "start": 971,
               "end": 975,
-              "value": 2020,
-              "raw": "2020"
+              "value": 2020
             },
             {
               "type": "Literal",
               "start": 977,
               "end": 978,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             {
               "type": "Literal",
               "start": 980,
               "end": 982,
-              "value": 15,
-              "raw": "15"
+              "value": 15
             }
           ]
         }
@@ -615,15 +596,13 @@
             "type": "Literal",
             "start": 1020,
             "end": 1022,
-            "value": 46,
-            "raw": "46"
+            "value": 46
           },
           {
             "type": "Literal",
             "start": 1024,
             "end": 1091,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(2020, 2, 15)) must return 46",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(2020, 2, 15)) must return 46'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(2020, 2, 15)) must return 46"
           }
         ],
         "optional": false
@@ -672,22 +651,19 @@
               "type": "Literal",
               "start": 1122,
               "end": 1126,
-              "value": 2020,
-              "raw": "2020"
+              "value": 2020
             },
             {
               "type": "Literal",
               "start": 1128,
               "end": 1129,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             {
               "type": "Literal",
               "start": 1131,
               "end": 1133,
-              "value": 15,
-              "raw": "15"
+              "value": 15
             }
           ]
         }
@@ -758,15 +734,13 @@
             "type": "Literal",
             "start": 1171,
             "end": 1173,
-            "value": 75,
-            "raw": "75"
+            "value": 75
           },
           {
             "type": "Literal",
             "start": 1175,
             "end": 1242,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(2020, 3, 15)) must return 75",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(2020, 3, 15)) must return 75'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(2020, 3, 15)) must return 75"
           }
         ],
         "optional": false
@@ -815,22 +789,19 @@
               "type": "Literal",
               "start": 1273,
               "end": 1277,
-              "value": 2000,
-              "raw": "2000"
+              "value": 2000
             },
             {
               "type": "Literal",
               "start": 1279,
               "end": 1280,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             {
               "type": "Literal",
               "start": 1282,
               "end": 1284,
-              "value": 15,
-              "raw": "15"
+              "value": 15
             }
           ]
         }
@@ -901,15 +872,13 @@
             "type": "Literal",
             "start": 1322,
             "end": 1324,
-            "value": 75,
-            "raw": "75"
+            "value": 75
           },
           {
             "type": "Literal",
             "start": 1326,
             "end": 1393,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(2000, 3, 15)) must return 75",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(2000, 3, 15)) must return 75'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(2000, 3, 15)) must return 75"
           }
         ],
         "optional": false
@@ -958,22 +927,19 @@
               "type": "Literal",
               "start": 1424,
               "end": 1428,
-              "value": 2001,
-              "raw": "2001"
+              "value": 2001
             },
             {
               "type": "Literal",
               "start": 1430,
               "end": 1431,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             {
               "type": "Literal",
               "start": 1433,
               "end": 1435,
-              "value": 15,
-              "raw": "15"
+              "value": 15
             }
           ]
         }
@@ -1044,15 +1010,13 @@
             "type": "Literal",
             "start": 1473,
             "end": 1475,
-            "value": 74,
-            "raw": "74"
+            "value": 74
           },
           {
             "type": "Literal",
             "start": 1477,
             "end": 1544,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(2001, 3, 15)) must return 74",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(2001, 3, 15)) must return 74'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(2001, 3, 15)) must return 74"
           }
         ],
         "optional": false
@@ -1101,22 +1065,19 @@
               "type": "Literal",
               "start": 1575,
               "end": 1579,
-              "value": 2000,
-              "raw": "2000"
+              "value": 2000
             },
             {
               "type": "Literal",
               "start": 1581,
               "end": 1583,
-              "value": 12,
-              "raw": "12"
+              "value": 12
             },
             {
               "type": "Literal",
               "start": 1585,
               "end": 1587,
-              "value": 31,
-              "raw": "31"
+              "value": 31
             }
           ]
         }
@@ -1187,15 +1148,13 @@
             "type": "Literal",
             "start": 1625,
             "end": 1628,
-            "value": 366,
-            "raw": "366"
+            "value": 366
           },
           {
             "type": "Literal",
             "start": 1630,
             "end": 1699,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(2000, 12, 31)) must return 366",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(2000, 12, 31)) must return 366'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(2000, 12, 31)) must return 366"
           }
         ],
         "optional": false
@@ -1244,22 +1203,19 @@
               "type": "Literal",
               "start": 1730,
               "end": 1734,
-              "value": 2001,
-              "raw": "2001"
+              "value": 2001
             },
             {
               "type": "Literal",
               "start": 1736,
               "end": 1738,
-              "value": 12,
-              "raw": "12"
+              "value": 12
             },
             {
               "type": "Literal",
               "start": 1740,
               "end": 1742,
-              "value": 31,
-              "raw": "31"
+              "value": 31
             }
           ]
         }
@@ -1330,15 +1286,13 @@
             "type": "Literal",
             "start": 1780,
             "end": 1783,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 1785,
             "end": 1854,
-            "value": "cal.dayOfYear(new Temporal.PlainDate(2001, 12, 31)) must return 365",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDate(2001, 12, 31)) must return 365'"
+            "value": "cal.dayOfYear(new Temporal.PlainDate(2001, 12, 31)) must return 365"
           }
         ],
         "optional": false

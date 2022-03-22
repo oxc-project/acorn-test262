@@ -91,8 +91,7 @@
             "type": "Literal",
             "start": 429,
             "end": 436,
-            "value": "value",
-            "raw": "\"value\""
+            "value": "value"
           },
           {
             "type": "ObjectExpression",
@@ -134,8 +133,7 @@
                           "type": "Literal",
                           "start": 471,
                           "end": 498,
-                          "value": "inheritedAccessorProperty",
-                          "raw": "\"inheritedAccessorProperty\""
+                          "value": "inheritedAccessorProperty"
                         }
                       }
                     ]
@@ -289,8 +287,7 @@
             "type": "Literal",
             "start": 615,
             "end": 622,
-            "value": "value",
-            "raw": "\"value\""
+            "value": "value"
           },
           {
             "type": "ObjectExpression",
@@ -443,8 +440,7 @@
                 "type": "Literal",
                 "start": 734,
                 "end": 744,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -453,8 +449,7 @@
             "type": "Literal",
             "start": 747,
             "end": 788,
-            "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "value": "obj.hasOwnProperty(\"property\") !== true"
           }
         ],
         "optional": false
@@ -523,15 +518,13 @@
             "type": "Literal",
             "start": 830,
             "end": 841,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 843,
             "end": 866,
-            "value": "typeof (obj.property)",
-            "raw": "'typeof (obj.property)'"
+            "value": "typeof (obj.property)"
           }
         ],
         "optional": false

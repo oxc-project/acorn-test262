@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 689,
                     "end": 749,
-                    "value": "#1.1: /[\\c0001d-G]/.exec(\"1\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: /[\\\\c0001d-G]/.exec(\"1\") throw SyntaxError. Actual: '"
+                    "value": "#1.1: /[\\c0001d-G]/.exec(\"1\") throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -66,8 +65,7 @@
                               "type": "Literal",
                               "start": 764,
                               "end": 778,
-                              "value": "[\\c0001d-G]",
-                              "raw": "\"[\\\\c0001d-G]\""
+                              "value": "[\\c0001d-G]"
                             }
                           ]
                         },
@@ -85,8 +83,7 @@
                           "type": "Literal",
                           "start": 785,
                           "end": 788,
-                          "value": "1",
-                          "raw": "\"1\""
+                          "value": "1"
                         }
                       ],
                       "optional": false
@@ -170,8 +167,7 @@
                     "type": "Literal",
                     "start": 871,
                     "end": 947,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

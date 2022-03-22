@@ -71,8 +71,7 @@
                                       "type": "Literal",
                                       "start": 2139,
                                       "end": 2146,
-                                      "value": "await",
-                                      "raw": "'await'"
+                                      "value": "await"
                                     }
                                   }
                                 }

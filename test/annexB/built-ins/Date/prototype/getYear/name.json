@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 723,
             "end": 729,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -145,8 +144,7 @@
                   "type": "Literal",
                   "start": 804,
                   "end": 813,
-                  "value": "getYear",
-                  "raw": "\"getYear\""
+                  "value": "getYear"
                 },
                 "kind": "init"
               }

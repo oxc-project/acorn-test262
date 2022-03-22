@@ -40,8 +40,7 @@
                 "type": "Literal",
                 "start": 486,
                 "end": 487,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ],
             "quasis": [
@@ -71,15 +70,13 @@
             "type": "Literal",
             "start": 495,
             "end": 506,
-            "value": "foo 5 bar",
-            "raw": "'foo 5 bar'"
+            "value": "foo 5 bar"
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 522,
-            "value": "number value",
-            "raw": "'number value'"
+            "value": "number value"
           }
         ],
         "optional": false
@@ -122,8 +119,7 @@
                 "type": "Literal",
                 "start": 549,
                 "end": 557,
-                "value": "string",
-                "raw": "'string'"
+                "value": "string"
               }
             ],
             "quasis": [
@@ -153,15 +149,13 @@
             "type": "Literal",
             "start": 565,
             "end": 581,
-            "value": "foo string bar",
-            "raw": "'foo string bar'"
+            "value": "foo string bar"
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 597,
-            "value": "string value",
-            "raw": "'string value'"
+            "value": "string value"
           }
         ],
         "optional": false

@@ -101,8 +101,7 @@
                           "type": "Literal",
                           "start": 426,
                           "end": 427,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -217,8 +216,7 @@
           "type": "Literal",
           "start": 620,
           "end": 623,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       },
       "consequent": {
@@ -249,8 +247,7 @@
                     "type": "Literal",
                     "start": 652,
                     "end": 839,
-                    "value": "#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __obj.toLocaleUpperCase() ===\"1\". Actual: ",
-                    "raw": "'#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __obj.toLocaleUpperCase() ===\"1\". Actual: '"
+                    "value": "#1: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __obj.toLocaleUpperCase() ===\"1\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -339,8 +336,7 @@
           "type": "Literal",
           "start": 1085,
           "end": 1086,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -371,8 +367,7 @@
                     "type": "Literal",
                     "start": 1115,
                     "end": 1308,
-                    "value": "#2: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __obj.toLocaleUpperCase().length === 1. Actual: ",
-                    "raw": "'#2: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __obj.toLocaleUpperCase().length === 1. Actual: '"
+                    "value": "#2: var __obj = {toString:function(){return {};},valueOf:function(){return 1;}}; __obj.toLocaleUpperCase = String.prototype.toLocaleUpperCase; __obj.toLocaleUpperCase().length === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

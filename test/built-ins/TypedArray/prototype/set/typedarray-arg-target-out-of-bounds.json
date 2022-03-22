@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 401,
             "end": 411,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 415,
             "end": 452,
-            "value": "implements TypedArray.prototype.set",
-            "raw": "'implements TypedArray.prototype.set'"
+            "value": "implements TypedArray.prototype.set"
           }
         ],
         "optional": false
@@ -159,15 +157,13 @@
             "type": "Literal",
             "start": 516,
             "end": 526,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 530,
             "end": 571,
-            "value": "implements ArrayBuffer.prototype.resize",
-            "raw": "'implements ArrayBuffer.prototype.resize'"
+            "value": "implements ArrayBuffer.prototype.resize"
           }
         ],
         "optional": false
@@ -288,8 +284,7 @@
                               "type": "Literal",
                               "start": 682,
                               "end": 683,
-                              "value": 4,
-                              "raw": "4"
+                              "value": 4
                             }
                           },
                           {
@@ -325,8 +320,7 @@
                                     "type": "Literal",
                                     "start": 707,
                                     "end": 708,
-                                    "value": 4,
-                                    "raw": "4"
+                                    "value": 4
                                   }
                                 },
                                 "kind": "init"
@@ -375,15 +369,13 @@
                             "type": "Literal",
                             "start": 738,
                             "end": 739,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 741,
                             "end": 742,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ]
                       }
@@ -443,8 +435,7 @@
                                   "type": "Literal",
                                   "start": 789,
                                   "end": 790,
-                                  "value": 4,
-                                  "raw": "4"
+                                  "value": 4
                                 }
                               }
                             ]
@@ -527,8 +518,7 @@
                                 "type": "Literal",
                                 "start": 844,
                                 "end": 845,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               }
                             }
                           ],
@@ -689,8 +679,7 @@
                                     "type": "Literal",
                                     "start": 1161,
                                     "end": 1162,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -715,8 +704,7 @@
                                     "type": "Literal",
                                     "start": 1192,
                                     "end": 1237,
-                                    "value": "The `set` operation completed successfully.",
-                                    "raw": "'The `set` operation completed successfully.'"
+                                    "value": "The `set` operation completed successfully."
                                   }
                                 ]
                               }

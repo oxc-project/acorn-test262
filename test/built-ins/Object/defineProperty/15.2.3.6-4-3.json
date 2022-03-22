@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 581,
                     "end": 582,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -161,8 +160,7 @@
             "type": "Literal",
             "start": 643,
             "end": 648,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Identifier",
@@ -223,8 +221,7 @@
                 "type": "Literal",
                 "start": 708,
                 "end": 713,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -296,15 +293,13 @@
             "type": "Literal",
             "start": 756,
             "end": 766,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 768,
             "end": 790,
-            "value": "typeof(propDesc.get)",
-            "raw": "'typeof(propDesc.get)'"
+            "value": "typeof(propDesc.get)"
           }
         ],
         "optional": false
@@ -367,8 +362,7 @@
             "type": "Literal",
             "start": 832,
             "end": 846,
-            "value": "propDesc.get",
-            "raw": "'propDesc.get'"
+            "value": "propDesc.get"
           }
         ],
         "optional": false
@@ -431,8 +425,7 @@
             "type": "Literal",
             "start": 944,
             "end": 958,
-            "value": "propDesc.set",
-            "raw": "'propDesc.set'"
+            "value": "propDesc.set"
           }
         ],
         "optional": false
@@ -496,8 +489,7 @@
             "type": "Literal",
             "start": 1030,
             "end": 1051,
-            "value": "propDesc.enumerable",
-            "raw": "'propDesc.enumerable'"
+            "value": "propDesc.enumerable"
           }
         ],
         "optional": false
@@ -561,8 +553,7 @@
             "type": "Literal",
             "start": 1121,
             "end": 1144,
-            "value": "propDesc.configurable",
-            "raw": "'propDesc.configurable'"
+            "value": "propDesc.configurable"
           }
         ],
         "optional": false

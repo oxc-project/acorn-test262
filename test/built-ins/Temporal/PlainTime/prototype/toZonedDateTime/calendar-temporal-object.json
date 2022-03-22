@@ -101,15 +101,13 @@
                             "type": "Literal",
                             "start": 1318,
                             "end": 1320,
-                            "value": 13,
-                            "raw": "13"
+                            "value": 13
                           },
                           {
                             "type": "Literal",
                             "start": 1322,
                             "end": 1323,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           }
                         ]
                       }
@@ -178,8 +176,7 @@
                                   "type": "Literal",
                                   "start": 1376,
                                   "end": 1381,
-                                  "value": "UTC",
-                                  "raw": "\"UTC\""
+                                  "value": "UTC"
                                 },
                                 "kind": "init"
                               },
@@ -218,8 +215,7 @@
                                         "type": "Literal",
                                         "start": 1402,
                                         "end": 1406,
-                                        "value": 2000,
-                                        "raw": "2000"
+                                        "value": 2000
                                       },
                                       "kind": "init"
                                     },
@@ -240,8 +236,7 @@
                                         "type": "Literal",
                                         "start": 1415,
                                         "end": 1416,
-                                        "value": 5,
-                                        "raw": "5"
+                                        "value": 5
                                       },
                                       "kind": "init"
                                     },
@@ -262,8 +257,7 @@
                                         "type": "Literal",
                                         "start": 1423,
                                         "end": 1424,
-                                        "value": 3,
-                                        "raw": "3"
+                                        "value": 3
                                       },
                                       "kind": "init"
                                     },
@@ -358,8 +352,7 @@
                         "type": "Literal",
                         "start": 1503,
                         "end": 1540,
-                        "value": "Temporal object coerced to calendar",
-                        "raw": "\"Temporal object coerced to calendar\""
+                        "value": "Temporal object coerced to calendar"
                       }
                     ],
                     "optional": false

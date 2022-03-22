@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 408,
                             "end": 417,
-                            "value": "reverse",
-                            "raw": "\"reverse\""
+                            "value": "reverse"
                           }
                         ],
                         "optional": false

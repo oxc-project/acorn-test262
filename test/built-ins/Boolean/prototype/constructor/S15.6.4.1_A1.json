@@ -73,8 +73,7 @@
             "type": "Literal",
             "start": 406,
             "end": 492,
-            "value": "The value of Boolean.prototype.constructor is expected to equal the value of Boolean",
-            "raw": "'The value of Boolean.prototype.constructor is expected to equal the value of Boolean'"
+            "value": "The value of Boolean.prototype.constructor is expected to equal the value of Boolean"
           }
         ],
         "optional": false

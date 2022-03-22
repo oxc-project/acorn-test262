@@ -174,15 +174,13 @@
             "type": "Literal",
             "start": 504,
             "end": 521,
-            "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "value": "[object Object]"
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 581,
-            "value": "The value of __tostr is expected to be \"[object Object]\"",
-            "raw": "'The value of __tostr is expected to be \"[object Object]\"'"
+            "value": "The value of __tostr is expected to be \"[object Object]\""
           }
         ],
         "optional": false

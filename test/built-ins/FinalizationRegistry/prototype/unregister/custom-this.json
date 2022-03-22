@@ -330,8 +330,7 @@
             "type": "Literal",
             "start": 1297,
             "end": 1351,
-            "value": "unregistering token1 from empty finalizationRegistry",
-            "raw": "'unregistering token1 from empty finalizationRegistry'"
+            "value": "unregistering token1 from empty finalizationRegistry"
           }
         ],
         "optional": false
@@ -415,8 +414,7 @@
             "type": "Literal",
             "start": 1425,
             "end": 1479,
-            "value": "unregistering token2 from empty finalizationRegistry",
-            "raw": "'unregistering token2 from empty finalizationRegistry'"
+            "value": "unregistering token2 from empty finalizationRegistry"
           }
         ],
         "optional": false
@@ -650,8 +648,7 @@
             "type": "Literal",
             "start": 1733,
             "end": 1777,
-            "value": "own target does not work on unregister, #1",
-            "raw": "'own target does not work on unregister, #1'"
+            "value": "own target does not work on unregister, #1"
           }
         ],
         "optional": false
@@ -735,8 +732,7 @@
             "type": "Literal",
             "start": 1852,
             "end": 1896,
-            "value": "own target does not work on unregister, #2",
-            "raw": "'own target does not work on unregister, #2'"
+            "value": "own target does not work on unregister, #2"
           }
         ],
         "optional": false
@@ -820,8 +816,7 @@
             "type": "Literal",
             "start": 1971,
             "end": 2015,
-            "value": "own target does not work on unregister, #3",
-            "raw": "'own target does not work on unregister, #3'"
+            "value": "own target does not work on unregister, #3"
           }
         ],
         "optional": false
@@ -905,8 +900,7 @@
             "type": "Literal",
             "start": 2089,
             "end": 2137,
-            "value": "unregistering token1 from finalizationRegistry",
-            "raw": "'unregistering token1 from finalizationRegistry'"
+            "value": "unregistering token1 from finalizationRegistry"
           }
         ],
         "optional": false
@@ -990,8 +984,7 @@
             "type": "Literal",
             "start": 2211,
             "end": 2265,
-            "value": "unregistering token1 again from finalizationRegistry",
-            "raw": "'unregistering token1 again from finalizationRegistry'"
+            "value": "unregistering token1 again from finalizationRegistry"
           }
         ],
         "optional": false
@@ -1075,8 +1068,7 @@
             "type": "Literal",
             "start": 2338,
             "end": 2390,
-            "value": "unregistering token2 to remove target2 and target3",
-            "raw": "'unregistering token2 to remove target2 and target3'"
+            "value": "unregistering token2 to remove target2 and target3"
           }
         ],
         "optional": false
@@ -1160,8 +1152,7 @@
             "type": "Literal",
             "start": 2464,
             "end": 2518,
-            "value": "unregistering token2 from empty finalizationRegistry",
-            "raw": "'unregistering token2 from empty finalizationRegistry'"
+            "value": "unregistering token2 from empty finalizationRegistry"
           }
         ],
         "optional": false

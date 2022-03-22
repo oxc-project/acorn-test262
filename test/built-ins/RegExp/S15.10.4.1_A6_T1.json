@@ -162,16 +162,14 @@
                 "type": "Literal",
                 "start": 423,
                 "end": 433,
-                "value": "[object ",
-                "raw": "\"[object \""
+                "value": "[object "
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 434,
                 "end": 442,
-                "value": "RegExp",
-                "raw": "\"RegExp\""
+                "value": "RegExp"
               }
             },
             "operator": "+",
@@ -179,16 +177,14 @@
               "type": "Literal",
               "start": 443,
               "end": 446,
-              "value": "]",
-              "raw": "\"]\""
+              "value": "]"
             }
           },
           {
             "type": "Literal",
             "start": 448,
             "end": 501,
-            "value": "__re.toString() must return \"[object \"+\"RegExp\"+\"]\"",
-            "raw": "'__re.toString() must return \"[object \"+\"RegExp\"+\"]\"'"
+            "value": "__re.toString() must return \"[object \"+\"RegExp\"+\"]\""
           }
         ],
         "optional": false

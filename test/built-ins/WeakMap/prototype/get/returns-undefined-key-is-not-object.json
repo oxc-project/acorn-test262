@@ -106,8 +106,7 @@
             "type": "Literal",
             "start": 524,
             "end": 558,
-            "value": "Returns undefined if key is null",
-            "raw": "'Returns undefined if key is null'"
+            "value": "Returns undefined if key is null"
           }
         ],
         "optional": false
@@ -184,8 +183,7 @@
             "type": "Literal",
             "start": 604,
             "end": 637,
-            "value": "Returns undefined if key is NaN",
-            "raw": "'Returns undefined if key is NaN'"
+            "value": "Returns undefined if key is NaN"
           }
         ],
         "optional": false
@@ -247,8 +245,7 @@
                 "type": "Literal",
                 "start": 669,
                 "end": 674,
-                "value": "foo",
-                "raw": "'foo'"
+                "value": "foo"
               }
             ],
             "optional": false
@@ -263,8 +260,7 @@
             "type": "Literal",
             "start": 690,
             "end": 728,
-            "value": "Returns undefined if key is a String",
-            "raw": "'Returns undefined if key is a String'"
+            "value": "Returns undefined if key is a String"
           }
         ],
         "optional": false
@@ -326,8 +322,7 @@
                 "type": "Literal",
                 "start": 761,
                 "end": 762,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -342,8 +337,7 @@
             "type": "Literal",
             "start": 778,
             "end": 816,
-            "value": "Returns undefined if key is a Number",
-            "raw": "'Returns undefined if key is a Number'"
+            "value": "Returns undefined if key is a Number"
           }
         ],
         "optional": false
@@ -420,8 +414,7 @@
             "type": "Literal",
             "start": 874,
             "end": 913,
-            "value": "Returns undefined if key is undefined",
-            "raw": "'Returns undefined if key is undefined'"
+            "value": "Returns undefined if key is undefined"
           }
         ],
         "optional": false
@@ -505,8 +498,7 @@
             "type": "Literal",
             "start": 970,
             "end": 1008,
-            "value": "Returns undefined if key is a Symbol",
-            "raw": "'Returns undefined if key is a Symbol'"
+            "value": "Returns undefined if key is a Symbol"
           }
         ],
         "optional": false

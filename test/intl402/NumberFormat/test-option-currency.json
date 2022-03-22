@@ -27,36 +27,31 @@
                 "type": "Literal",
                 "start": 276,
                 "end": 281,
-                "value": "CNY",
-                "raw": "\"CNY\""
+                "value": "CNY"
               },
               {
                 "type": "Literal",
                 "start": 283,
                 "end": 288,
-                "value": "USD",
-                "raw": "\"USD\""
+                "value": "USD"
               },
               {
                 "type": "Literal",
                 "start": 290,
                 "end": 295,
-                "value": "EUR",
-                "raw": "\"EUR\""
+                "value": "EUR"
               },
               {
                 "type": "Literal",
                 "start": 297,
                 "end": 302,
-                "value": "IDR",
-                "raw": "\"IDR\""
+                "value": "IDR"
               },
               {
                 "type": "Literal",
                 "start": 304,
                 "end": 309,
-                "value": "jpy",
-                "raw": "\"jpy\""
+                "value": "jpy"
               },
               {
                 "type": "ObjectExpression",
@@ -98,8 +93,7 @@
                               "type": "Literal",
                               "start": 342,
                               "end": 347,
-                              "value": "INR",
-                              "raw": "\"INR\""
+                              "value": "INR"
                             }
                           }
                         ]
@@ -139,29 +133,25 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 377,
-                "value": "$",
-                "raw": "\"$\""
+                "value": "$"
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 385,
-                "value": "SFr.",
-                "raw": "\"SFr.\""
+                "value": "SFr."
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 392,
-                "value": "US$",
-                "raw": "\"US$\""
+                "value": "US$"
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 398,
-                "value": "ßP",
-                "raw": "\"ßP\""
+                "value": "ßP"
               },
               {
                 "type": "ObjectExpression",
@@ -458,8 +448,7 @@
                                 "type": "Literal",
                                 "start": 709,
                                 "end": 719,
-                                "value": "currency",
-                                "raw": "\"currency\""
+                                "value": "currency"
                               },
                               "kind": "init"
                             },
@@ -653,8 +642,7 @@
                         "type": "Literal",
                         "start": 874,
                         "end": 924,
-                        "value": "Incorrect resolved currency with currency style.",
-                        "raw": "\"Incorrect resolved currency with currency style.\""
+                        "value": "Incorrect resolved currency with currency style."
                       }
                     ],
                     "optional": false
@@ -867,8 +855,7 @@
                         "type": "Literal",
                         "start": 1183,
                         "end": 1237,
-                        "value": "Incorrect resolved currency with non-currency style.",
-                        "raw": "\"Incorrect resolved currency with non-currency style.\""
+                        "value": "Incorrect resolved currency with non-currency style."
                       }
                     ],
                     "optional": false
@@ -933,8 +920,7 @@
                                 "type": "Literal",
                                 "start": 1360,
                                 "end": 1371,
-                                "value": "-u-cu-krw",
-                                "raw": "\"-u-cu-krw\""
+                                "value": "-u-cu-krw"
                               }
                             }
                           ]
@@ -961,8 +947,7 @@
                                 "type": "Literal",
                                 "start": 1382,
                                 "end": 1392,
-                                "value": "currency",
-                                "raw": "\"currency\""
+                                "value": "currency"
                               },
                               "kind": "init"
                             },
@@ -1156,8 +1141,7 @@
                         "type": "Literal",
                         "start": 1547,
                         "end": 1608,
-                        "value": "Incorrect resolved currency with -u-cu- and currency style.",
-                        "raw": "\"Incorrect resolved currency with -u-cu- and currency style.\""
+                        "value": "Incorrect resolved currency with -u-cu- and currency style."
                       }
                     ],
                     "optional": false
@@ -1222,8 +1206,7 @@
                                 "type": "Literal",
                                 "start": 1668,
                                 "end": 1679,
-                                "value": "-u-cu-krw",
-                                "raw": "\"-u-cu-krw\""
+                                "value": "-u-cu-krw"
                               }
                             }
                           ]
@@ -1383,8 +1366,7 @@
                         "type": "Literal",
                         "start": 1815,
                         "end": 1880,
-                        "value": "Incorrect resolved currency with -u-cu- and non-currency style.",
-                        "raw": "\"Incorrect resolved currency with -u-cu- and non-currency style.\""
+                        "value": "Incorrect resolved currency with -u-cu- and non-currency style."
                       }
                     ],
                     "optional": false
@@ -1557,8 +1539,7 @@
                                           "type": "Literal",
                                           "start": 2039,
                                           "end": 2049,
-                                          "value": "currency",
-                                          "raw": "\"currency\""
+                                          "value": "currency"
                                         },
                                         "kind": "init"
                                       },
@@ -1603,8 +1584,7 @@
                             "type": "Literal",
                             "start": 2077,
                             "end": 2102,
-                            "value": "Invalid currency value ",
-                            "raw": "\"Invalid currency value \""
+                            "value": "Invalid currency value "
                           },
                           "operator": "+",
                           "right": {
@@ -1619,8 +1599,7 @@
                           "type": "Literal",
                           "start": 2113,
                           "end": 2133,
-                          "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "value": " was not rejected."
                         }
                       }
                     ],
@@ -1762,8 +1741,7 @@
                             "type": "Literal",
                             "start": 2265,
                             "end": 2290,
-                            "value": "Invalid currency value ",
-                            "raw": "\"Invalid currency value \""
+                            "value": "Invalid currency value "
                           },
                           "operator": "+",
                           "right": {
@@ -1778,8 +1756,7 @@
                           "type": "Literal",
                           "start": 2301,
                           "end": 2321,
-                          "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "value": " was not rejected."
                         }
                       }
                     ],
@@ -1882,8 +1859,7 @@
                                           "type": "Literal",
                                           "start": 2426,
                                           "end": 2437,
-                                          "value": "-u-cu-krw",
-                                          "raw": "\"-u-cu-krw\""
+                                          "value": "-u-cu-krw"
                                         }
                                       }
                                     ]
@@ -1910,8 +1886,7 @@
                                           "type": "Literal",
                                           "start": 2448,
                                           "end": 2458,
-                                          "value": "currency",
-                                          "raw": "\"currency\""
+                                          "value": "currency"
                                         },
                                         "kind": "init"
                                       },
@@ -1956,8 +1931,7 @@
                             "type": "Literal",
                             "start": 2486,
                             "end": 2511,
-                            "value": "Invalid currency value ",
-                            "raw": "\"Invalid currency value \""
+                            "value": "Invalid currency value "
                           },
                           "operator": "+",
                           "right": {
@@ -1972,8 +1946,7 @@
                           "type": "Literal",
                           "start": 2522,
                           "end": 2542,
-                          "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "value": " was not rejected."
                         }
                       }
                     ],
@@ -2076,8 +2049,7 @@
                                           "type": "Literal",
                                           "start": 2647,
                                           "end": 2658,
-                                          "value": "-u-cu-krw",
-                                          "raw": "\"-u-cu-krw\""
+                                          "value": "-u-cu-krw"
                                         }
                                       }
                                     ]
@@ -2128,8 +2100,7 @@
                             "type": "Literal",
                             "start": 2688,
                             "end": 2713,
-                            "value": "Invalid currency value ",
-                            "raw": "\"Invalid currency value \""
+                            "value": "Invalid currency value "
                           },
                           "operator": "+",
                           "right": {
@@ -2144,8 +2115,7 @@
                           "type": "Literal",
                           "start": 2724,
                           "end": 2744,
-                          "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "value": " was not rejected."
                         }
                       }
                     ],

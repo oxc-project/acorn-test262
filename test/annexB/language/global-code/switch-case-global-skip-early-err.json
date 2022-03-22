@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 707,
             "end": 710,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           }
         }
       ],
@@ -67,15 +66,13 @@
             "type": "Literal",
             "start": 732,
             "end": 735,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 780,
-            "value": "binding is not initialized to `undefined`",
-            "raw": "'binding is not initialized to `undefined`'"
+            "value": "binding is not initialized to `undefined`"
           }
         ],
         "optional": false
@@ -89,8 +86,7 @@
         "type": "Literal",
         "start": 792,
         "end": 793,
-        "value": 1,
-        "raw": "1"
+        "value": 1
       },
       "cases": [
         {
@@ -124,8 +120,7 @@
             "type": "Literal",
             "start": 804,
             "end": 805,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ]
@@ -168,15 +163,13 @@
             "type": "Literal",
             "start": 852,
             "end": 855,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 900,
-            "value": "value is not updated following evaluation",
-            "raw": "'value is not updated following evaluation'"
+            "value": "value is not updated following evaluation"
           }
         ],
         "optional": false

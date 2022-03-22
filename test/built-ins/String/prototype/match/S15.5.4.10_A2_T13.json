@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 381,
-                "value": "02134",
-                "raw": "\"02134\""
+                "value": "02134"
               }
             ]
           }
@@ -56,7 +55,6 @@
             "start": 396,
             "end": 425,
             "value": {},
-            "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
             "regex": {
               "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
               "flags": "g"
@@ -98,8 +96,7 @@
           "type": "Literal",
           "start": 444,
           "end": 445,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -122,8 +119,7 @@
             "type": "Literal",
             "start": 463,
             "end": 481,
-            "value": "Boston, MA 02134",
-            "raw": "\"Boston, MA 02134\""
+            "value": "Boston, MA 02134"
           }
         }
       ],
@@ -232,8 +228,7 @@
                     "type": "Literal",
                     "start": 654,
                     "end": 717,
-                    "value": "#1: __string.match(__re).length=== __matches.length. Actual: ",
-                    "raw": "'#1: __string.match(__re).length=== __matches.length. Actual: '"
+                    "value": "#1: __string.match(__re).length=== __matches.length. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -339,8 +334,7 @@
             "type": "Literal",
             "start": 949,
             "end": 950,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -360,8 +354,7 @@
             "type": "Literal",
             "start": 966,
             "end": 967,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -395,8 +388,7 @@
                     "type": "Literal",
                     "start": 997,
                     "end": 1051,
-                    "value": "#3: __string.match(__re)[0]===__matches[0]. Actual: ",
-                    "raw": "'#3: __string.match(__re)[0]===__matches[0]. Actual: '"
+                    "value": "#3: __string.match(__re)[0]===__matches[0]. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -440,8 +432,7 @@
                       "type": "Literal",
                       "start": 1075,
                       "end": 1076,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false

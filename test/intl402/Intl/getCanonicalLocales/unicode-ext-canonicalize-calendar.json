@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 1208,
                   "end": 1229,
-                  "value": "ethiopic-amete-alem",
-                  "raw": "\"ethiopic-amete-alem\""
+                  "value": "ethiopic-amete-alem"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1231,
                   "end": 1240,
-                  "value": "ethioaa",
-                  "raw": "\"ethioaa\""
+                  "value": "ethioaa"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 1754,
                   "end": 1764,
-                  "value": "islamicc",
-                  "raw": "\"islamicc\""
+                  "value": "islamicc"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1766,
                   "end": 1781,
-                  "value": "islamic-civil",
-                  "raw": "\"islamic-civil\""
+                  "value": "islamic-civil"
                 },
                 "kind": "init"
               }
@@ -174,8 +170,7 @@
                     "type": "Literal",
                     "start": 1853,
                     "end": 1864,
-                    "value": "und-u-ca-",
-                    "raw": "\"und-u-ca-\""
+                    "value": "und-u-ca-"
                   },
                   "operator": "+",
                   "right": {
@@ -212,8 +207,7 @@
                     "type": "Literal",
                     "start": 1892,
                     "end": 1903,
-                    "value": "und-u-ca-",
-                    "raw": "\"und-u-ca-\""
+                    "value": "und-u-ca-"
                   },
                   "operator": "+",
                   "right": {
@@ -294,8 +288,7 @@
                       "type": "Literal",
                       "start": 2049,
                       "end": 2053,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -310,8 +303,7 @@
                     "type": "Literal",
                     "start": 2062,
                     "end": 2098,
-                    "value": "\" isn't a canonical language tag.",
-                    "raw": "\"\\\" isn't a canonical language tag.\""
+                    "value": "\" isn't a canonical language tag."
                   }
                 }
               ],
@@ -365,8 +357,7 @@
                       "type": "Literal",
                       "start": 2175,
                       "end": 2179,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -381,8 +372,7 @@
                     "type": "Literal",
                     "start": 2194,
                     "end": 2250,
-                    "value": "\" is a canonical and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                    "value": "\" is a canonical and structurally valid language tag."
                   }
                 }
               ],
@@ -492,8 +482,7 @@
                   "type": "Literal",
                   "start": 2334,
                   "end": 2335,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -541,8 +530,7 @@
                     "type": "Literal",
                     "start": 2364,
                     "end": 2365,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false

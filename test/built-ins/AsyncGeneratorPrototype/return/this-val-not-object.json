@@ -242,16 +242,14 @@
                                   "type": "Literal",
                                   "start": 1150,
                                   "end": 1204,
-                                  "value": "AsyncGeneratorPrototype.return should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.return should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.return should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 1236,
                                   "end": 1268,
-                                  "value": " when `this` value `undefined`",
-                                  "raw": "\" when `this` value `undefined`\""
+                                  "value": " when `this` value `undefined`"
                                 }
                               }
                             ]
@@ -343,8 +341,7 @@
                                         "type": "Literal",
                                         "start": 1366,
                                         "end": 1407,
-                                        "value": "(undefined) expected TypeError but got ",
-                                        "raw": "\"(undefined) expected TypeError but got \""
+                                        "value": "(undefined) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -416,8 +413,7 @@
                         "type": "Literal",
                         "start": 1471,
                         "end": 1472,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -469,16 +465,14 @@
                                   "type": "Literal",
                                   "start": 1527,
                                   "end": 1581,
-                                  "value": "AsyncGeneratorPrototype.return should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.return should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.return should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 1613,
                                   "end": 1645,
-                                  "value": " when `this` value is a Number",
-                                  "raw": "\" when `this` value is a Number\""
+                                  "value": " when `this` value is a Number"
                                 }
                               }
                             ]
@@ -570,8 +564,7 @@
                                         "type": "Literal",
                                         "start": 1743,
                                         "end": 1781,
-                                        "value": "(Number) expected TypeError but got ",
-                                        "raw": "\"(Number) expected TypeError but got \""
+                                        "value": "(Number) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -643,8 +636,7 @@
                         "type": "Literal",
                         "start": 1845,
                         "end": 1853,
-                        "value": "string",
-                        "raw": "\"string\""
+                        "value": "string"
                       }
                     ],
                     "optional": false
@@ -696,16 +688,14 @@
                                   "type": "Literal",
                                   "start": 1908,
                                   "end": 1962,
-                                  "value": "AsyncGeneratorPrototype.return should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.return should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.return should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 1994,
                                   "end": 2026,
-                                  "value": " when `this` value is a String",
-                                  "raw": "\" when `this` value is a String\""
+                                  "value": " when `this` value is a String"
                                 }
                               }
                             ]
@@ -797,8 +787,7 @@
                                         "type": "Literal",
                                         "start": 2124,
                                         "end": 2162,
-                                        "value": "(String) expected TypeError but got ",
-                                        "raw": "\"(String) expected TypeError but got \""
+                                        "value": "(String) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -923,16 +912,14 @@
                                   "type": "Literal",
                                   "start": 2285,
                                   "end": 2339,
-                                  "value": "AsyncGeneratorPrototype.return should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.return should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.return should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 2371,
                                   "end": 2398,
-                                  "value": " when `this` value `null`",
-                                  "raw": "\" when `this` value `null`\""
+                                  "value": " when `this` value `null`"
                                 }
                               }
                             ]
@@ -1024,8 +1011,7 @@
                                         "type": "Literal",
                                         "start": 2496,
                                         "end": 2532,
-                                        "value": "(null) expected TypeError but got ",
-                                        "raw": "\"(null) expected TypeError but got \""
+                                        "value": "(null) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1150,16 +1136,14 @@
                                   "type": "Literal",
                                   "start": 2655,
                                   "end": 2709,
-                                  "value": "AsyncGeneratorPrototype.return should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.return should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.return should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 2741,
                                   "end": 2774,
-                                  "value": " when `this` value is a Boolean",
-                                  "raw": "\" when `this` value is a Boolean\""
+                                  "value": " when `this` value is a Boolean"
                                 }
                               }
                             ]
@@ -1251,8 +1235,7 @@
                                         "type": "Literal",
                                         "start": 2872,
                                         "end": 2911,
-                                        "value": "(Boolean) expected TypeError but got ",
-                                        "raw": "\"(Boolean) expected TypeError but got \""
+                                        "value": "(Boolean) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1376,16 +1359,14 @@
                                   "type": "Literal",
                                   "start": 3036,
                                   "end": 3090,
-                                  "value": "AsyncGeneratorPrototype.return should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.return should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.return should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 3122,
                                   "end": 3154,
-                                  "value": " when `this` value is a Symbol",
-                                  "raw": "\" when `this` value is a Symbol\""
+                                  "value": " when `this` value is a Symbol"
                                 }
                               }
                             ]
@@ -1477,8 +1458,7 @@
                                         "type": "Literal",
                                         "start": 3252,
                                         "end": 3290,
-                                        "value": "(Symbol) expected TypeError but got ",
-                                        "raw": "\"(Symbol) expected TypeError but got \""
+                                        "value": "(Symbol) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {

@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 537,
                   "end": 546,
-                  "value": "Reflect",
-                  "raw": "'Reflect'"
+                  "value": "Reflect"
                 },
                 "kind": "init"
               },

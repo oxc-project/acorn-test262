@@ -87,8 +87,7 @@
             "type": "Literal",
             "start": 412,
             "end": 471,
-            "value": "`Object.getPrototypeOf(Set)` returns `Function.prototype`",
-            "raw": "\"`Object.getPrototypeOf(Set)` returns `Function.prototype`\""
+            "value": "`Object.getPrototypeOf(Set)` returns `Function.prototype`"
           }
         ],
         "optional": false

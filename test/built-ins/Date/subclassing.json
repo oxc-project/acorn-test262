@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 711,
             "end": 712,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -77,8 +76,7 @@
                       "type": "Literal",
                       "start": 753,
                       "end": 754,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -163,8 +161,7 @@
                   "type": "Literal",
                   "start": 810,
                   "end": 812,
-                  "value": 64,
-                  "raw": "64"
+                  "value": 64
                 }
               ]
             },
@@ -263,8 +260,7 @@
             "type": "Literal",
             "start": 896,
             "end": 948,
-            "value": "constructor defines an object `prototype` property",
-            "raw": "'constructor defines an object `prototype` property'"
+            "value": "constructor defines an object `prototype` property"
           }
         ],
         "optional": false
@@ -308,15 +304,13 @@
             "type": "Literal",
             "start": 980,
             "end": 981,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 983,
             "end": 1008,
-            "value": "constructor not invoked",
-            "raw": "'constructor not invoked'"
+            "value": "constructor not invoked"
           }
         ],
         "optional": false
@@ -413,15 +407,13 @@
             "type": "Literal",
             "start": 1072,
             "end": 1074,
-            "value": 64,
-            "raw": "64"
+            "value": 64
           },
           {
             "type": "Literal",
             "start": 1078,
             "end": 1120,
-            "value": "proper subclass has a [[DateValue]] slot",
-            "raw": "'proper subclass has a [[DateValue]] slot'"
+            "value": "proper subclass has a [[DateValue]] slot"
           }
         ],
         "optional": false
@@ -518,8 +510,7 @@
                   "type": "Literal",
                   "start": 1184,
                   "end": 1186,
-                  "value": 64,
-                  "raw": "64"
+                  "value": 64
                 }
               ]
             },
@@ -618,8 +609,7 @@
             "type": "Literal",
             "start": 1270,
             "end": 1331,
-            "value": "constructor does not defines an object `prototype` property",
-            "raw": "'constructor does not defines an object `prototype` property'"
+            "value": "constructor does not defines an object `prototype` property"
           }
         ],
         "optional": false
@@ -663,15 +653,13 @@
             "type": "Literal",
             "start": 1363,
             "end": 1364,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1366,
             "end": 1391,
-            "value": "constructor not invoked",
-            "raw": "'constructor not invoked'"
+            "value": "constructor not invoked"
           }
         ],
         "optional": false
@@ -735,15 +723,13 @@
             "type": "Literal",
             "start": 1434,
             "end": 1436,
-            "value": 64,
-            "raw": "64"
+            "value": 64
           },
           {
             "type": "Literal",
             "start": 1438,
             "end": 1480,
-            "value": "direct instance has a [[DateValue]] slot",
-            "raw": "'direct instance has a [[DateValue]] slot'"
+            "value": "direct instance has a [[DateValue]] slot"
           }
         ],
         "optional": false

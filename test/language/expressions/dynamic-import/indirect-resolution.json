@@ -31,8 +31,7 @@
                   "type": "Literal",
                   "start": 920,
                   "end": 956,
-                  "value": "./indirect-resolution-1_FIXTURE.js",
-                  "raw": "'./indirect-resolution-1_FIXTURE.js'"
+                  "value": "./indirect-resolution-1_FIXTURE.js"
                 }
               },
               "property": {
@@ -163,8 +162,7 @@
                             "type": "Literal",
                             "start": 1055,
                             "end": 1084,
-                            "value": "default is Promise instance",
-                            "raw": "'default is Promise instance'"
+                            "value": "default is Promise instance"
                           }
                         ],
                         "optional": false
@@ -267,8 +265,7 @@
                             "type": "Literal",
                             "start": 1166,
                             "end": 1202,
-                            "value": "default proto is Promise.prototype",
-                            "raw": "'default proto is Promise.prototype'"
+                            "value": "default proto is Promise.prototype"
                           }
                         ],
                         "optional": false
@@ -344,8 +341,7 @@
                             "type": "Literal",
                             "start": 1263,
                             "end": 1295,
-                            "value": "default.constructor is Promise",
-                            "raw": "'default.constructor is Promise'"
+                            "value": "default.constructor is Promise"
                           }
                         ],
                         "optional": false
@@ -445,8 +441,7 @@
                             "type": "Literal",
                             "start": 1377,
                             "end": 1379,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ],
                         "optional": false

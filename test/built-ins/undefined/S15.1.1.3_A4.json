@@ -56,8 +56,7 @@
                 "type": "Literal",
                 "start": 283,
                 "end": 294,
-                "value": "undefined",
-                "raw": "\"undefined\""
+                "value": "undefined"
               }
             },
             "consequent": {
@@ -84,8 +83,7 @@
                         "type": "Literal",
                         "start": 325,
                         "end": 356,
-                        "value": "#1: The undefined is DontEnum",
-                        "raw": "'#1: The undefined is DontEnum'"
+                        "value": "#1: The undefined is DontEnum"
                       }
                     ]
                   }

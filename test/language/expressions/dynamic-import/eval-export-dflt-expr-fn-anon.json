@@ -33,8 +33,7 @@
                   "type": "Literal",
                   "start": 1076,
                   "end": 1078,
-                  "value": 99,
-                  "raw": "99"
+                  "value": 99
                 }
               }
             ]
@@ -78,8 +77,7 @@
                       "type": "Literal",
                       "start": 1091,
                       "end": 1127,
-                      "value": "./eval-export-dflt-expr-fn-anon.js",
-                      "raw": "'./eval-export-dflt-expr-fn-anon.js'"
+                      "value": "./eval-export-dflt-expr-fn-anon.js"
                     }
                   },
                   "property": {
@@ -171,15 +169,13 @@
                                 "type": "Literal",
                                 "start": 1187,
                                 "end": 1189,
-                                "value": 99,
-                                "raw": "99"
+                                "value": 99
                               },
                               {
                                 "type": "Literal",
                                 "start": 1191,
                                 "end": 1212,
-                                "value": "binding initialized",
-                                "raw": "'binding initialized'"
+                                "value": "binding initialized"
                               }
                             ],
                             "optional": false
@@ -249,15 +245,13 @@
                                 "type": "Literal",
                                 "start": 1257,
                                 "end": 1266,
-                                "value": "default",
-                                "raw": "'default'"
+                                "value": "default"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1268,
                                 "end": 1294,
-                                "value": "correct name is assigned",
-                                "raw": "'correct name is assigned'"
+                                "value": "correct name is assigned"
                               }
                             ],
                             "optional": false

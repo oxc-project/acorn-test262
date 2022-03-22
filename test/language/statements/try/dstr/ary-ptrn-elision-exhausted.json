@@ -195,8 +195,7 @@
             "type": "Literal",
             "start": 1155,
             "end": 1179,
-            "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "value": "executed `catch` block"
           }
         ],
         "optional": false

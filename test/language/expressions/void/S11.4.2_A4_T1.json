@@ -86,8 +86,7 @@
                     "type": "Literal",
                     "start": 375,
                     "end": 426,
-                    "value": "#1: var x = false; void x === undefined. Actual: ",
-                    "raw": "'#1: var x = false; void x === undefined. Actual: '"
+                    "value": "#1: var x = false; void x === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -212,8 +211,7 @@
                     "type": "Literal",
                     "start": 533,
                     "end": 596,
-                    "value": "#2: var x = new Boolean(true); void x === undefined. Actual: ",
-                    "raw": "'#2: var x = new Boolean(true); void x === undefined. Actual: '"
+                    "value": "#2: var x = new Boolean(true); void x === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

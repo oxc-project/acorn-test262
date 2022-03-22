@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 373,
-                "value": "one two three four five",
-                "raw": "\"one two three four five\""
+                "value": "one two three four five"
               }
             ]
           }
@@ -62,7 +61,6 @@
             "start": 389,
             "end": 395,
             "value": {},
-            "raw": "/four/",
             "regex": {
               "pattern": "four",
               "flags": ""
@@ -118,8 +116,7 @@
           "type": "Literal",
           "start": 518,
           "end": 520,
-          "value": 14,
-          "raw": "14"
+          "value": 14
         }
       },
       "consequent": {
@@ -150,8 +147,7 @@
                     "type": "Literal",
                     "start": 549,
                     "end": 667,
-                    "value": "#1: var bString = new String(\"one two three four five\"); var regExp = /four/; bString.search(regExp)=== 14. Actual: ",
-                    "raw": "'#1: var bString = new String(\"one two three four five\"); var regExp = /four/; bString.search(regExp)=== 14. Actual: '"
+                    "value": "#1: var bString = new String(\"one two three four five\"); var regExp = /four/; bString.search(regExp)=== 14. Actual: "
                   },
                   "operator": "+",
                   "right": {

@@ -188,8 +188,7 @@
             "type": "Literal",
             "start": 399,
             "end": 408,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           }
         ],
         "optional": false

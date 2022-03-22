@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 1014,
                             "end": 1016,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         }
                       ]
@@ -73,13 +72,12 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1020,
-                  "end": 1035,
-                  "static": false,
+                  "end": 1034,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1020,
                     "end": 1022,
                     "name": "m"
@@ -88,8 +86,7 @@
                     "type": "Literal",
                     "start": 1025,
                     "end": 1034,
-                    "value": "test262",
-                    "raw": "'test262'"
+                    "value": "test262"
                   }
                 },
                 {
@@ -132,14 +129,14 @@
                               "start": 1061,
                               "end": 1065
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 1066,
                               "end": 1068,
                               "name": "m"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         }
                       ]
@@ -259,8 +256,7 @@
                 "type": "Literal",
                 "start": 1142,
                 "end": 1145,
-                "value": "m",
-                "raw": "\"m\""
+                "value": "m"
               }
             ],
             "optional": false
@@ -364,8 +360,7 @@
                 "type": "Literal",
                 "start": 1213,
                 "end": 1216,
-                "value": "m",
-                "raw": "\"m\""
+                "value": "m"
               }
             ],
             "optional": false
@@ -406,8 +401,7 @@
             "type": "Literal",
             "start": 1246,
             "end": 1249,
-            "value": "m",
-            "raw": "\"m\""
+            "value": "m"
           },
           {
             "type": "ObjectExpression",
@@ -663,8 +657,7 @@
                             "type": "Literal",
                             "start": 1396,
                             "end": 1398,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ],
                         "optional": false
@@ -807,8 +800,7 @@
                                               "type": "Literal",
                                               "start": 1584,
                                               "end": 1610,
-                                              "value": "Test262:AsyncTestFailure",
-                                              "raw": "'Test262:AsyncTestFailure'"
+                                              "value": "Test262:AsyncTestFailure"
                                             }
                                           ]
                                         }
@@ -878,8 +870,7 @@
                                   "type": "Literal",
                                   "start": 1659,
                                   "end": 1668,
-                                  "value": "test262",
-                                  "raw": "'test262'"
+                                  "value": "test262"
                                 }
                               ],
                               "optional": false

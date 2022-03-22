@@ -59,7 +59,6 @@
                           "start": 346,
                           "end": 350,
                           "value": {},
-                          "raw": "/77/",
                           "regex": {
                             "pattern": "77",
                             "flags": ""
@@ -107,8 +106,7 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 400,
-                "value": 1100.00777001,
-                "raw": "1100.00777001"
+                "value": 1100.00777001
               }
             ]
           }
@@ -253,8 +251,7 @@
                         "type": "Literal",
                         "start": 589,
                         "end": 590,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -264,8 +261,7 @@
                     "type": "Literal",
                     "start": 596,
                     "end": 610,
-                    "value": "1100.0017001",
-                    "raw": "\"1100.0017001\""
+                    "value": "1100.0017001"
                   }
                 }
               }
@@ -291,8 +287,7 @@
                   "type": "Literal",
                   "start": 637,
                   "end": 723,
-                  "value": "#1.0: x = __instance.replace(__obj, 1) === \"1100.0017001\" lead to throwing exception",
-                  "raw": "'#1.0: x = __instance.replace(__obj, 1) === \"1100.0017001\" lead to throwing exception'"
+                  "value": "#1.0: x = __instance.replace(__obj, 1) === \"1100.0017001\" lead to throwing exception"
                 }
               ]
             }
@@ -376,8 +371,7 @@
                             "type": "Literal",
                             "start": 802,
                             "end": 854,
-                            "value": "#1.1: Exception is instance of TypeError. Actual: ",
-                            "raw": "'#1.1: Exception is instance of TypeError. Actual: '"
+                            "value": "#1.1: Exception is instance of TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

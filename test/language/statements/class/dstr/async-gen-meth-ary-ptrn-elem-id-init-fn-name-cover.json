@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 2182,
             "end": 2183,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -127,8 +126,7 @@
                               "type": "Literal",
                               "start": 2248,
                               "end": 2249,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "FunctionExpression",
@@ -209,8 +207,7 @@
                           "type": "Literal",
                           "start": 2303,
                           "end": 2310,
-                          "value": "cover",
-                          "raw": "'cover'"
+                          "value": "cover"
                         }
                       ],
                       "optional": false
@@ -267,8 +264,7 @@
                           "type": "Literal",
                           "start": 2350,
                           "end": 2358,
-                          "value": "xCover",
-                          "raw": "'xCover'"
+                          "value": "xCover"
                         }
                       ],
                       "optional": false
@@ -304,8 +300,7 @@
                           "type": "Literal",
                           "start": 2389,
                           "end": 2390,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     }
@@ -463,15 +458,13 @@
                             "type": "Literal",
                             "start": 2471,
                             "end": 2472,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2474,
                             "end": 2496,
-                            "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "value": "invoked exactly once"
                           }
                         ],
                         "optional": false

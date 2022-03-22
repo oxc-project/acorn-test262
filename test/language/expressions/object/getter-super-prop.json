@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 247,
                   "end": 249,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               },
@@ -85,8 +84,7 @@
                             "type": "Literal",
                             "start": 274,
                             "end": 281,
-                            "value": "proto",
-                            "raw": "'proto'"
+                            "value": "proto"
                           },
                           "operator": "+",
                           "right": {
@@ -295,15 +293,13 @@
             "type": "Literal",
             "start": 422,
             "end": 431,
-            "value": "proto42",
-            "raw": "'proto42'"
+            "value": "proto42"
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 530,
-            "value": "The value of `object.x` is `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"The value of `object.x` is `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "value": "The value of `object.x` is `'proto42'`, after executing `Object.setPrototypeOf(object, proto);`"
           }
         ],
         "optional": false
@@ -360,15 +356,13 @@
             "type": "Literal",
             "start": 561,
             "end": 563,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 656,
-            "value": "The value of `object._x` is `42`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"The value of `object._x` is `42`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "value": "The value of `object._x` is `42`, after executing `Object.setPrototypeOf(object, proto);`"
           }
         ],
         "optional": false
@@ -452,15 +446,13 @@
             "type": "Literal",
             "start": 715,
             "end": 717,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 721,
             "end": 778,
-            "value": "The value of `Object.getPrototypeOf(object)._x` is `42`",
-            "raw": "\"The value of `Object.getPrototypeOf(object)._x` is `42`\""
+            "value": "The value of `Object.getPrototypeOf(object)._x` is `42`"
           }
         ],
         "optional": false

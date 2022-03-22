@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 307,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             ],
             "optional": false
@@ -73,8 +72,7 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 331,
-                "value": "B",
-                "raw": "\"B\""
+                "value": "B"
               }
             ],
             "optional": false
@@ -140,8 +138,7 @@
           "type": "Literal",
           "start": 360,
           "end": 361,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -215,8 +212,7 @@
           "type": "Literal",
           "start": 406,
           "end": 407,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -252,8 +248,7 @@
           "type": "Literal",
           "start": 421,
           "end": 422,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -308,15 +303,13 @@
             "type": "Literal",
             "start": 453,
             "end": 454,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 456,
             "end": 489,
-            "value": "The value of `obj[symA]` is `2`",
-            "raw": "\"The value of `obj[symA]` is `2`\""
+            "value": "The value of `obj[symA]` is `2`"
           }
         ],
         "optional": false
@@ -387,8 +380,7 @@
             "type": "Literal",
             "start": 533,
             "end": 563,
-            "value": "`delete obj[symA]` is `true`",
-            "raw": "\"`delete obj[symA]` is `true`\""
+            "value": "`delete obj[symA]` is `true`"
           }
         ],
         "optional": false
@@ -451,8 +443,7 @@
             "type": "Literal",
             "start": 605,
             "end": 646,
-            "value": "The value of `obj[symB]` is `undefined`",
-            "raw": "\"The value of `obj[symB]` is `undefined`\""
+            "value": "The value of `obj[symB]` is `undefined`"
           }
         ],
         "optional": false

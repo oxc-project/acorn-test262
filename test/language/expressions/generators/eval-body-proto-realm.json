@@ -104,8 +104,7 @@
                 "type": "Literal",
                 "start": 873,
                 "end": 894,
-                "value": "(0, function*() {})",
-                "raw": "'(0, function*() {})'"
+                "value": "(0, function*() {})"
               }
             ],
             "optional": false

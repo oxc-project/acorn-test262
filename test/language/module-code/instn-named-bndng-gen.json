@@ -81,15 +81,13 @@
             "type": "Literal",
             "start": 1941,
             "end": 1943,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           },
           {
             "type": "Literal",
             "start": 1947,
             "end": 2016,
-            "value": "binding is initialized to function value prior to module evaluation",
-            "raw": "'binding is initialized to function value prior to module evaluation'"
+            "value": "binding is initialized to function value prior to module evaluation"
           }
         ],
         "optional": false
@@ -174,8 +172,7 @@
             "type": "Literal",
             "start": 2075,
             "end": 2103,
-            "value": "binding rejects assignment",
-            "raw": "'binding rejects assignment'"
+            "value": "binding rejects assignment"
           }
         ],
         "optional": false
@@ -259,15 +256,13 @@
             "type": "Literal",
             "start": 2143,
             "end": 2145,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           },
           {
             "type": "Literal",
             "start": 2147,
             "end": 2175,
-            "value": "binding value is immutable",
-            "raw": "'binding value is immutable'"
+            "value": "binding value is immutable"
           }
         ],
         "optional": false
@@ -300,8 +295,7 @@
         "type": "Literal",
         "start": 2203,
         "end": 2231,
-        "value": "./instn-named-bndng-gen.js",
-        "raw": "'./instn-named-bndng-gen.js'"
+        "value": "./instn-named-bndng-gen.js"
       }
     },
     {
@@ -335,8 +329,7 @@
                 "type": "Literal",
                 "start": 2263,
                 "end": 2265,
-                "value": 23,
-                "raw": "23"
+                "value": 23
               }
             }
           ]

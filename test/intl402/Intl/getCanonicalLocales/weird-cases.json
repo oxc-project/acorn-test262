@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 446,
-                "value": "en-x-u-foo",
-                "raw": "\"en-x-u-foo\""
+                "value": "en-x-u-foo"
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 469,
-                "value": "en-a-bar-x-u-foo",
-                "raw": "\"en-a-bar-x-u-foo\""
+                "value": "en-a-bar-x-u-foo"
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 492,
-                "value": "en-x-u-foo-a-bar",
-                "raw": "\"en-x-u-foo-a-bar\""
+                "value": "en-x-u-foo-a-bar"
               },
               {
                 "type": "Literal",
                 "start": 497,
                 "end": 521,
-                "value": "en-a-bar-u-baz-x-u-foo",
-                "raw": "\"en-a-bar-u-baz-x-u-foo\""
+                "value": "en-a-bar-u-baz-x-u-foo"
               }
             ]
           }

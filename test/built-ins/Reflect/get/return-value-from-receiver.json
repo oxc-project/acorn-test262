@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 991,
                   "end": 993,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               }
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 1024,
             "end": 1027,
-            "value": "x",
-            "raw": "'x'"
+            "value": "x"
           },
           {
             "type": "ObjectExpression",
@@ -245,8 +243,7 @@
                 "type": "Literal",
                 "start": 1114,
                 "end": 1117,
-                "value": "x",
-                "raw": "'x'"
+                "value": "x"
               },
               {
                 "type": "Identifier",
@@ -261,15 +258,13 @@
             "type": "Literal",
             "start": 1130,
             "end": 1132,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 1136,
             "end": 1180,
-            "value": "Return own property value using a receiver",
-            "raw": "'Return own property value using a receiver'"
+            "value": "Return own property value using a receiver"
           }
         ],
         "optional": false
@@ -389,8 +384,7 @@
                 "type": "Literal",
                 "start": 1249,
                 "end": 1252,
-                "value": "x",
-                "raw": "'x'"
+                "value": "x"
               },
               {
                 "type": "Identifier",
@@ -405,15 +399,13 @@
             "type": "Literal",
             "start": 1265,
             "end": 1267,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 1271,
             "end": 1321,
-            "value": "Return prototype property value using a receiver",
-            "raw": "'Return prototype property value using a receiver'"
+            "value": "Return prototype property value using a receiver"
           }
         ],
         "optional": false

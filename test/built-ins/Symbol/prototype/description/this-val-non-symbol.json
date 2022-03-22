@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 503,
                   "end": 516,
-                  "value": "description",
-                  "raw": "'description'"
+                  "value": "description"
                 }
               ],
               "optional": false
@@ -182,8 +181,7 @@
             "type": "Literal",
             "start": 587,
             "end": 623,
-            "value": "getter.call(null) throws TypeError",
-            "raw": "'getter.call(null) throws TypeError'"
+            "value": "getter.call(null) throws TypeError"
           }
         ],
         "optional": false
@@ -269,8 +267,7 @@
                         "type": "Literal",
                         "start": 679,
                         "end": 682,
-                        "value": 123,
-                        "raw": "123"
+                        "value": 123
                       }
                     ],
                     "optional": false
@@ -283,8 +280,7 @@
             "type": "Literal",
             "start": 688,
             "end": 723,
-            "value": "getter.call(123) throws TypeError",
-            "raw": "'getter.call(123) throws TypeError'"
+            "value": "getter.call(123) throws TypeError"
           }
         ],
         "optional": false
@@ -370,8 +366,7 @@
                         "type": "Literal",
                         "start": 779,
                         "end": 785,
-                        "value": "test",
-                        "raw": "'test'"
+                        "value": "test"
                       }
                     ],
                     "optional": false
@@ -384,8 +379,7 @@
             "type": "Literal",
             "start": 791,
             "end": 829,
-            "value": "getter.call(\"test\") throws TypeError",
-            "raw": "'getter.call(\"test\") throws TypeError'"
+            "value": "getter.call(\"test\") throws TypeError"
           }
         ],
         "optional": false
@@ -485,8 +479,7 @@
             "type": "Literal",
             "start": 895,
             "end": 931,
-            "value": "getter.call(true) throws TypeError",
-            "raw": "'getter.call(true) throws TypeError'"
+            "value": "getter.call(true) throws TypeError"
           }
         ],
         "optional": false
@@ -585,8 +578,7 @@
             "type": "Literal",
             "start": 1002,
             "end": 1043,
-            "value": "getter.call(undefined) throws TypeError",
-            "raw": "'getter.call(undefined) throws TypeError'"
+            "value": "getter.call(undefined) throws TypeError"
           }
         ],
         "optional": false
@@ -704,8 +696,7 @@
             "type": "Literal",
             "start": 1122,
             "end": 1171,
-            "value": "getter.call(new Proxy({}, {})) throws TypeError",
-            "raw": "'getter.call(new Proxy({}, {})) throws TypeError'"
+            "value": "getter.call(new Proxy({}, {})) throws TypeError"
           }
         ],
         "optional": false
@@ -804,8 +795,7 @@
             "type": "Literal",
             "start": 1235,
             "end": 1269,
-            "value": "getter.call({}) throws TypeError",
-            "raw": "'getter.call({}) throws TypeError'"
+            "value": "getter.call({}) throws TypeError"
           }
         ],
         "optional": false

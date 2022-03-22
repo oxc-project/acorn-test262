@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 436,
                             "end": 449,
-                            "value": "lastIndexOf",
-                            "raw": "\"lastIndexOf\""
+                            "value": "lastIndexOf"
                           }
                         ],
                         "optional": false

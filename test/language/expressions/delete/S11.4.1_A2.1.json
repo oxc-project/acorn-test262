@@ -21,8 +21,7 @@
             "type": "Literal",
             "start": 330,
             "end": 331,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "operator": "!==",
@@ -58,8 +57,7 @@
                   "type": "Literal",
                   "start": 369,
                   "end": 392,
-                  "value": "#1: delete 1 === true",
-                  "raw": "'#1: delete 1 === true'"
+                  "value": "#1: delete 1 === true"
                 }
               ]
             }
@@ -128,8 +126,7 @@
                   "type": "Literal",
                   "start": 469,
                   "end": 503,
-                  "value": "#2: delete new Object() === true",
-                  "raw": "'#2: delete new Object() === true'"
+                  "value": "#2: delete new Object() === true"
                 }
               ]
             }

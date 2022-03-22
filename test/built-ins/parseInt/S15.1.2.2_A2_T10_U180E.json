@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 878,
             "end": 886,
-            "value": "᠎",
-            "raw": "\"\\u180E\""
+            "value": "᠎"
           }
         }
       ],
@@ -83,8 +82,7 @@
                   "type": "Literal",
                   "start": 941,
                   "end": 944,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 }
               }
             ],
@@ -100,8 +98,7 @@
             "type": "Literal",
             "start": 952,
             "end": 1009,
-            "value": "parseInt(mongolianVowelSeparator + \"1\") must return NaN",
-            "raw": "'parseInt(mongolianVowelSeparator + \"1\") must return NaN'"
+            "value": "parseInt(mongolianVowelSeparator + \"1\") must return NaN"
           }
         ],
         "optional": false
@@ -185,8 +182,7 @@
                   "type": "Literal",
                   "start": 1116,
                   "end": 1119,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 }
               }
             ],
@@ -202,8 +198,7 @@
             "type": "Literal",
             "start": 1127,
             "end": 1238,
-            "value": "parseInt( mongolianVowelSeparator + mongolianVowelSeparator + mongolianVowelSeparator + \"1\" ) must return NaN",
-            "raw": "'parseInt( mongolianVowelSeparator + mongolianVowelSeparator + mongolianVowelSeparator + \"1\" ) must return NaN'"
+            "value": "parseInt( mongolianVowelSeparator + mongolianVowelSeparator + mongolianVowelSeparator + \"1\" ) must return NaN"
           }
         ],
         "optional": false
@@ -267,8 +262,7 @@
             "type": "Literal",
             "start": 1298,
             "end": 1343,
-            "value": "parseInt(\"\\\"\\\\u180E\\\"\") must return NaN",
-            "raw": "'parseInt(\"\\\\\"\\\\\\\\u180E\\\\\"\") must return NaN'"
+            "value": "parseInt(\"\\\"\\\\u180E\\\"\") must return NaN"
           }
         ],
         "optional": false

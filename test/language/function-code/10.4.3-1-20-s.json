@@ -114,8 +114,7 @@
                       "type": "Literal",
                       "start": 379,
                       "end": 402,
-                      "value": "\"use strict\";\nthis",
-                      "raw": "\"\\\"use strict\\\";\\nthis\""
+                      "value": "\"use strict\";\nthis"
                     }
                   ],
                   "optional": false

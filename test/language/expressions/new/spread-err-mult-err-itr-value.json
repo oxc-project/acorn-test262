@@ -77,8 +77,7 @@
                 "type": "Literal",
                 "start": 1269,
                 "end": 1276,
-                "value": "value",
-                "raw": "'value'"
+                "value": "value"
               },
               {
                 "type": "ObjectExpression",
@@ -335,8 +334,7 @@
                         "type": "Literal",
                         "start": 1513,
                         "end": 1514,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "SpreadElement",

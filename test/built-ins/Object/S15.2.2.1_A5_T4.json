@@ -37,8 +37,7 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 377,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "operator": "*",
                 "right": {
@@ -95,8 +94,7 @@
                               "type": "Literal",
                               "start": 400,
                               "end": 401,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "kind": "init"
                           }
@@ -106,8 +104,7 @@
                         "type": "Literal",
                         "start": 404,
                         "end": 407,
-                        "value": "q",
-                        "raw": "\"q\""
+                        "value": "q"
                       },
                       "computed": true,
                       "optional": false
@@ -178,8 +175,7 @@
             "type": "Literal",
             "start": 457,
             "end": 530,
-            "value": "The value of n_obj.constructor is expected to equal the value of Number",
-            "raw": "'The value of n_obj.constructor is expected to equal the value of Number'"
+            "value": "The value of n_obj.constructor is expected to equal the value of Number"
           }
         ],
         "optional": false
@@ -230,15 +226,13 @@
             "type": "Literal",
             "start": 564,
             "end": 572,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 630,
-            "value": "The value of `typeof n_obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+            "value": "The value of `typeof n_obj` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -274,16 +268,14 @@
               "type": "Literal",
               "start": 649,
               "end": 650,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           },
           {
             "type": "Literal",
             "start": 652,
             "end": 714,
-            "value": "The result of evaluating (n_obj == 2) is expected to be true",
-            "raw": "'The result of evaluating (n_obj == 2) is expected to be true'"
+            "value": "The result of evaluating (n_obj == 2) is expected to be true"
           }
         ],
         "optional": false
@@ -327,15 +319,13 @@
             "type": "Literal",
             "start": 744,
             "end": 745,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 776,
-            "value": "The value of n_obj is not 2",
-            "raw": "'The value of n_obj is not 2'"
+            "value": "The value of n_obj is not 2"
           }
         ],
         "optional": false

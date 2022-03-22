@@ -95,15 +95,13 @@
             "type": "Literal",
             "start": 296,
             "end": 297,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 299,
             "end": 349,
-            "value": "Array.prototype.unshift.call(true) must return 0",
-            "raw": "'Array.prototype.unshift.call(true) must return 0'"
+            "value": "Array.prototype.unshift.call(true) must return 0"
           }
         ],
         "optional": false
@@ -201,15 +199,13 @@
             "type": "Literal",
             "start": 406,
             "end": 407,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 460,
-            "value": "Array.prototype.unshift.call(false) must return 0",
-            "raw": "'Array.prototype.unshift.call(false) must return 0'"
+            "value": "Array.prototype.unshift.call(false) must return 0"
           }
         ],
         "optional": false

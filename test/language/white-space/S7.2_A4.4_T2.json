@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 265,
             "end": 266,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
           "type": "Literal",
           "start": 309,
           "end": 310,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -80,8 +78,7 @@
                     "type": "Literal",
                     "start": 339,
                     "end": 404,
-                    "value": "#1: var x = 0; /* multi line comment x = 1;*/ x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; /* multi line comment x = 1;*/ x === 0. Actual: '"
+                    "value": "#1: var x = 0; /* multi line comment x = 1;*/ x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

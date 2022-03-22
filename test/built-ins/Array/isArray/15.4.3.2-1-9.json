@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 294,
             "end": 339,
-            "value": "Array.isArray(new Date()) must return false",
-            "raw": "'Array.isArray(new Date()) must return false'"
+            "value": "Array.isArray(new Date()) must return false"
           }
         ],
         "optional": false

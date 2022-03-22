@@ -62,8 +62,7 @@
                   "type": "Literal",
                   "start": 327,
                   "end": 351,
-                  "value": "#1: undefined !== null",
-                  "raw": "'#1: undefined !== null'"
+                  "value": "#1: undefined !== null"
                 }
               ]
             }
@@ -131,8 +130,7 @@
                   "type": "Literal",
                   "start": 421,
                   "end": 445,
-                  "value": "#2: null !== undefined",
-                  "raw": "'#2: null !== undefined'"
+                  "value": "#2: null !== undefined"
                 }
               ]
             }
@@ -171,8 +169,7 @@
               "type": "Literal",
               "start": 476,
               "end": 477,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         }
@@ -201,8 +198,7 @@
                   "type": "Literal",
                   "start": 507,
                   "end": 523,
-                  "value": "#3: null !== 0",
-                  "raw": "'#3: null !== 0'"
+                  "value": "#3: null !== 0"
                 }
               ]
             }
@@ -233,8 +229,7 @@
               "type": "Literal",
               "start": 545,
               "end": 546,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "!==",
             "right": {
@@ -271,8 +266,7 @@
                   "type": "Literal",
                   "start": 585,
                   "end": 601,
-                  "value": "#4: 0 !== null",
-                  "raw": "'#4: 0 !== null'"
+                  "value": "#4: 0 !== null"
                 }
               ]
             }
@@ -341,8 +335,7 @@
                   "type": "Literal",
                   "start": 667,
                   "end": 687,
-                  "value": "#5: null !== false",
-                  "raw": "'#5: null !== false'"
+                  "value": "#5: null !== false"
                 }
               ]
             }
@@ -411,8 +404,7 @@
                   "type": "Literal",
                   "start": 753,
                   "end": 773,
-                  "value": "#6: false !== null",
-                  "raw": "'#6: false !== null'"
+                  "value": "#6: false !== null"
                 }
               ]
             }
@@ -480,8 +472,7 @@
                   "type": "Literal",
                   "start": 844,
                   "end": 869,
-                  "value": "#7: undefined !== false",
-                  "raw": "'#7: undefined !== false'"
+                  "value": "#7: undefined !== false"
                 }
               ]
             }
@@ -549,8 +540,7 @@
                   "type": "Literal",
                   "start": 940,
                   "end": 965,
-                  "value": "#8: false !== undefined",
-                  "raw": "'#8: false !== undefined'"
+                  "value": "#8: false !== undefined"
                 }
               ]
             }
@@ -624,8 +614,7 @@
                   "type": "Literal",
                   "start": 1038,
                   "end": 1065,
-                  "value": "#9: null !== new Object()",
-                  "raw": "'#9: null !== new Object()'"
+                  "value": "#9: null !== new Object()"
                 }
               ]
             }
@@ -699,8 +688,7 @@
                   "type": "Literal",
                   "start": 1139,
                   "end": 1167,
-                  "value": "#10: new Object() !== null",
-                  "raw": "'#10: new Object() !== null'"
+                  "value": "#10: new Object() !== null"
                 }
               ]
             }
@@ -739,8 +727,7 @@
               "type": "Literal",
               "start": 1199,
               "end": 1205,
-              "value": "null",
-              "raw": "\"null\""
+              "value": "null"
             }
           }
         }
@@ -769,8 +756,7 @@
                   "type": "Literal",
                   "start": 1235,
                   "end": 1257,
-                  "value": "#11: null !== \"null\"",
-                  "raw": "'#11: null !== \"null\"'"
+                  "value": "#11: null !== \"null\""
                 }
               ]
             }
@@ -801,8 +787,7 @@
               "type": "Literal",
               "start": 1280,
               "end": 1286,
-              "value": "null",
-              "raw": "\"null\""
+              "value": "null"
             },
             "operator": "!==",
             "right": {
@@ -839,8 +824,7 @@
                   "type": "Literal",
                   "start": 1325,
                   "end": 1347,
-                  "value": "#12: \"null\" !== null",
-                  "raw": "'#12: \"null\" !== null'"
+                  "value": "#12: \"null\" !== null"
                 }
               ]
             }
@@ -878,8 +862,7 @@
               "type": "Literal",
               "start": 1384,
               "end": 1395,
-              "value": "undefined",
-              "raw": "\"undefined\""
+              "value": "undefined"
             }
           }
         }
@@ -908,8 +891,7 @@
                   "type": "Literal",
                   "start": 1425,
                   "end": 1457,
-                  "value": "#13: undefined !== \"undefined\"",
-                  "raw": "'#13: undefined !== \"undefined\"'"
+                  "value": "#13: undefined !== \"undefined\""
                 }
               ]
             }
@@ -940,8 +922,7 @@
               "type": "Literal",
               "start": 1480,
               "end": 1491,
-              "value": "undefined",
-              "raw": "\"undefined\""
+              "value": "undefined"
             },
             "operator": "!==",
             "right": {
@@ -977,8 +958,7 @@
                   "type": "Literal",
                   "start": 1535,
                   "end": 1567,
-                  "value": "#14: \"undefined\" !== undefined",
-                  "raw": "'#14: \"undefined\" !== undefined'"
+                  "value": "#14: \"undefined\" !== undefined"
                 }
               ]
             }

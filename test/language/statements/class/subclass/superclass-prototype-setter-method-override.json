@@ -111,8 +111,7 @@
                             "type": "Literal",
                             "start": 290,
                             "end": 326,
-                            "value": "`Base.prototype.m` is unreachable.",
-                            "raw": "\"`Base.prototype.m` is unreachable.\""
+                            "value": "`Base.prototype.m` is unreachable."
                           }
                         ]
                       }
@@ -181,8 +180,7 @@
                       "type": "Literal",
                       "start": 379,
                       "end": 380,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -256,15 +254,13 @@
             "type": "Literal",
             "start": 419,
             "end": 420,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 449,
-            "value": "`new C().m()` returns `1`",
-            "raw": "\"`new C().m()` returns `1`\""
+            "value": "`new C().m()` returns `1`"
           }
         ],
         "optional": false

@@ -37,16 +37,14 @@
                   "type": "Literal",
                   "start": 410,
                   "end": 417,
-                  "value": 8640000000000000,
-                  "raw": "8.64e15"
+                  "value": 8640000000000000
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 420,
                   "end": 421,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ]

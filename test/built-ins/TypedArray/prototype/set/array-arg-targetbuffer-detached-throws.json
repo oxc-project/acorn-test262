@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 909,
             "end": 917,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -195,8 +194,7 @@
                             "type": "Literal",
                             "start": 1048,
                             "end": 1049,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -327,8 +325,7 @@
                                         "type": "Literal",
                                         "start": 1141,
                                         "end": 1142,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       }
                                     ]
                                   }
@@ -343,8 +340,7 @@
                         "type": "Literal",
                         "start": 1151,
                         "end": 1166,
-                        "value": "regular check",
-                        "raw": "\"regular check\""
+                        "value": "regular check"
                       }
                     ],
                     "optional": false
@@ -443,8 +439,7 @@
                         "type": "Literal",
                         "start": 1236,
                         "end": 1285,
-                        "value": "IsDetachedBuffer happens before Get(src.length)",
-                        "raw": "\"IsDetachedBuffer happens before Get(src.length)\""
+                        "value": "IsDetachedBuffer happens before Get(src.length)"
                       }
                     ],
                     "optional": false

@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 368,
             "end": 373,
-            "value": "Map",
-            "raw": "'Map'"
+            "value": "Map"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 397,
             "end": 402,
-            "value": "Map",
-            "raw": "'Map'"
+            "value": "Map"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 430,
             "end": 435,
-            "value": "Map",
-            "raw": "'Map'"
+            "value": "Map"
           }
         ],
         "optional": false

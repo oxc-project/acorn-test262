@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 584,
                 "end": 585,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 586,
                 "end": 587,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 588,
                 "end": 589,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -69,8 +66,7 @@
             "type": "Literal",
             "start": 608,
             "end": 609,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -214,8 +210,7 @@
                     "type": "Literal",
                     "start": 722,
                     "end": 723,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -369,15 +364,13 @@
                             "type": "Literal",
                             "start": 845,
                             "end": 846,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 848,
                             "end": 896,
-                            "value": "`then` invoked once for every iterated promise",
-                            "raw": "'`then` invoked once for every iterated promise'"
+                            "value": "`then` invoked once for every iterated promise"
                           }
                         ],
                         "optional": false

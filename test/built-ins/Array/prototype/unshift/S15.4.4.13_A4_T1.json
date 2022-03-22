@@ -39,8 +39,7 @@
             "type": "Literal",
             "start": 382,
             "end": 383,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -55,8 +54,7 @@
             "type": "Literal",
             "start": 388,
             "end": 389,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -85,8 +83,7 @@
                 "type": "Literal",
                 "start": 400,
                 "end": 401,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -126,8 +123,7 @@
           "type": "Literal",
           "start": 415,
           "end": 416,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -174,8 +170,7 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 444,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -203,8 +198,7 @@
           "type": "Literal",
           "start": 463,
           "end": 464,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -235,8 +229,7 @@
                     "type": "Literal",
                     "start": 493,
                     "end": 575,
-                    "value": "#1: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0) === 2. Actual: ",
-                    "raw": "'#1: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0) === 2. Actual: '"
+                    "value": "#1: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0) === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -280,8 +273,7 @@
             "type": "Literal",
             "start": 599,
             "end": 600,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -291,8 +283,7 @@
           "type": "Literal",
           "start": 606,
           "end": 607,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -323,8 +314,7 @@
                     "type": "Literal",
                     "start": 636,
                     "end": 724,
-                    "value": "#2: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); x[0] === 0. Actual: ",
-                    "raw": "'#2: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); x[0] === 0. Actual: '"
+                    "value": "#2: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); x[0] === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -345,8 +335,7 @@
                         "type": "Literal",
                         "start": 730,
                         "end": 731,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -382,8 +371,7 @@
             "type": "Literal",
             "start": 745,
             "end": 746,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -393,8 +381,7 @@
           "type": "Literal",
           "start": 752,
           "end": 753,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -425,8 +412,7 @@
                     "type": "Literal",
                     "start": 782,
                     "end": 870,
-                    "value": "#3: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); x[1] === 1. Actual: ",
-                    "raw": "'#3: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); x[1] === 1. Actual: '"
+                    "value": "#3: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); x[1] === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -447,8 +433,7 @@
                         "type": "Literal",
                         "start": 876,
                         "end": 877,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "computed": true,
                       "optional": false
@@ -486,8 +471,7 @@
             "type": "Literal",
             "start": 894,
             "end": 895,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -516,8 +500,7 @@
             "type": "Literal",
             "start": 905,
             "end": 906,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -533,8 +516,7 @@
             "type": "Literal",
             "start": 913,
             "end": 914,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -566,8 +548,7 @@
                     "type": "Literal",
                     "start": 943,
                     "end": 1045,
-                    "value": "#4: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); delete x[0]; x[0] === -1. Actual: ",
-                    "raw": "'#4: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); delete x[0]; x[0] === -1. Actual: '"
+                    "value": "#4: Array.prototype[0] = -1; x = [1]; x.length = 1; x.unshift(0); delete x[0]; x[0] === -1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -588,8 +569,7 @@
                         "type": "Literal",
                         "start": 1051,
                         "end": 1052,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -639,8 +619,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1078,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -655,8 +634,7 @@
             "type": "Literal",
             "start": 1083,
             "end": 1084,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -706,8 +684,7 @@
           "type": "Literal",
           "start": 1112,
           "end": 1113,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -817,15 +794,13 @@
                 "type": "Literal",
                 "start": 1175,
                 "end": 1176,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "value": {
                 "type": "Literal",
                 "start": 1178,
                 "end": 1179,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "kind": "init"
             }
@@ -876,8 +851,7 @@
                 "type": "Literal",
                 "start": 1208,
                 "end": 1209,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -905,8 +879,7 @@
           "type": "Literal",
           "start": 1228,
           "end": 1229,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -937,8 +910,7 @@
                     "type": "Literal",
                     "start": 1258,
                     "end": 1410,
-                    "value": "#5: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0) === 2. Actual: ",
-                    "raw": "'#5: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0) === 2. Actual: '"
+                    "value": "#5: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0) === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -982,8 +954,7 @@
             "type": "Literal",
             "start": 1434,
             "end": 1435,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -993,8 +964,7 @@
           "type": "Literal",
           "start": 1441,
           "end": 1442,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -1025,8 +995,7 @@
                     "type": "Literal",
                     "start": 1471,
                     "end": 1629,
-                    "value": "#6: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x[0] === 0. Actual: ",
-                    "raw": "'#6: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x[0] === 0. Actual: '"
+                    "value": "#6: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x[0] === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1047,8 +1016,7 @@
                         "type": "Literal",
                         "start": 1635,
                         "end": 1636,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -1084,8 +1052,7 @@
             "type": "Literal",
             "start": 1650,
             "end": 1651,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -1095,8 +1062,7 @@
           "type": "Literal",
           "start": 1657,
           "end": 1658,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -1127,8 +1093,7 @@
                     "type": "Literal",
                     "start": 1687,
                     "end": 1845,
-                    "value": "#7: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x[1] === 1. Actual: ",
-                    "raw": "'#7: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x[1] === 1. Actual: '"
+                    "value": "#7: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x[1] === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1149,8 +1114,7 @@
                         "type": "Literal",
                         "start": 1851,
                         "end": 1852,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "computed": true,
                       "optional": false
@@ -1188,8 +1152,7 @@
             "type": "Literal",
             "start": 1869,
             "end": 1870,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -1218,8 +1181,7 @@
             "type": "Literal",
             "start": 1880,
             "end": 1881,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -1235,8 +1197,7 @@
             "type": "Literal",
             "start": 1888,
             "end": 1889,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -1268,8 +1229,7 @@
                     "type": "Literal",
                     "start": 1918,
                     "end": 2090,
-                    "value": "#8: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); delete x[0]; x[0] === -1. Actual: ",
-                    "raw": "'#8: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); delete x[0]; x[0] === -1. Actual: '"
+                    "value": "#8: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); delete x[0]; x[0] === -1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1290,8 +1250,7 @@
                         "type": "Literal",
                         "start": 2096,
                         "end": 2097,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -1337,8 +1296,7 @@
           "type": "Literal",
           "start": 2122,
           "end": 2123,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -1369,8 +1327,7 @@
                     "type": "Literal",
                     "start": 2152,
                     "end": 2314,
-                    "value": "#9: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x.length === 1. Actual: ",
-                    "raw": "'#9: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x.length === 1. Actual: '"
+                    "value": "#9: Object.prototype[0] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); x.length === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1468,8 +1425,7 @@
           "type": "Literal",
           "start": 2367,
           "end": 2368,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -1500,8 +1456,7 @@
                     "type": "Literal",
                     "start": 2397,
                     "end": 2570,
-                    "value": "#10: Object.prototype[1] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); delete x; x.length === 1. Actual: ",
-                    "raw": "'#10: Object.prototype[1] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); delete x; x.length === 1. Actual: '"
+                    "value": "#10: Object.prototype[1] = -1; Object.prototype.length = 1; Object.prototype.unshift = Array.prototype.unshift; x = {0:0}; x.unshift(0); delete x; x.length === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

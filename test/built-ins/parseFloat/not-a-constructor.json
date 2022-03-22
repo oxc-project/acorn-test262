@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(parseFloat) must return false",
-            "raw": "'isConstructor(parseFloat) must return false'"
+            "value": "isConstructor(parseFloat) must return false"
           }
         ],
         "optional": false
@@ -136,8 +135,7 @@
                         "type": "Literal",
                         "start": 832,
                         "end": 833,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ]
                   }
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 839,
             "end": 877,
-            "value": "`new parseFloat(1)` throws TypeError",
-            "raw": "'`new parseFloat(1)` throws TypeError'"
+            "value": "`new parseFloat(1)` throws TypeError"
           }
         ],
         "optional": false

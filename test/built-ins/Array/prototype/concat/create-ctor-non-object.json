@@ -151,8 +151,7 @@
             "type": "Literal",
             "start": 629,
             "end": 670,
-            "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "value": "a.concat() throws a TypeError exception"
           }
         ],
         "optional": false
@@ -213,8 +212,7 @@
           "type": "Literal",
           "start": 698,
           "end": 699,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -304,8 +302,7 @@
             "type": "Literal",
             "start": 756,
             "end": 797,
-            "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "value": "a.concat() throws a TypeError exception"
           }
         ],
         "optional": false
@@ -366,8 +363,7 @@
           "type": "Literal",
           "start": 825,
           "end": 833,
-          "value": "string",
-          "raw": "'string'"
+          "value": "string"
         }
       }
     },
@@ -457,8 +453,7 @@
             "type": "Literal",
             "start": 890,
             "end": 931,
-            "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "value": "a.concat() throws a TypeError exception"
           }
         ],
         "optional": false
@@ -610,8 +605,7 @@
             "type": "Literal",
             "start": 1020,
             "end": 1061,
-            "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "value": "a.concat() throws a TypeError exception"
           }
         ],
         "optional": false

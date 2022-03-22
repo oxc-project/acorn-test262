@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 539,
             "end": 547,
-            "value": "anchor",
-            "raw": "\"anchor\""
+            "value": "anchor"
           },
           {
             "type": "ObjectExpression",

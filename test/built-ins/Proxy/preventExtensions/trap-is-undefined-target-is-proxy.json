@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 724,
         "end": 764,
-        "value": "./trap-is-undefined-target-is-proxy.js",
-        "raw": "\"./trap-is-undefined-target-is-proxy.js\""
+        "value": "./trap-is-undefined-target-is-proxy.js"
       }
     },
     {

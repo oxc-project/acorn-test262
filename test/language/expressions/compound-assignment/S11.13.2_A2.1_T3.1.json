@@ -46,8 +46,7 @@
                       "type": "Literal",
                       "start": 348,
                       "end": 349,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -78,8 +77,7 @@
                     "type": "Literal",
                     "start": 377,
                     "end": 422,
-                    "value": "#1.1: x *= 1 throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x *= 1 throw ReferenceError. Actual: '"
+                    "value": "#1.1: x *= 1 throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -182,8 +180,7 @@
                             "type": "Literal",
                             "start": 522,
                             "end": 567,
-                            "value": "#1.2: x *= 1 throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x *= 1 throw ReferenceError. Actual: '"
+                            "value": "#1.2: x *= 1 throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 899,
             "end": 918,
-            "value": "Uint8ClampedArray",
-            "raw": "\"Uint8ClampedArray\""
+            "value": "Uint8ClampedArray"
           }
         ],
         "optional": false
@@ -86,8 +85,7 @@
             "type": "Literal",
             "start": 961,
             "end": 967,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -118,8 +116,7 @@
             "type": "Literal",
             "start": 1007,
             "end": 1013,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -150,8 +147,7 @@
             "type": "Literal",
             "start": 1054,
             "end": 1060,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

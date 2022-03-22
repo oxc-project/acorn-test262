@@ -20,13 +20,12 @@
         "end": 1646,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1530,
-            "end": 1541,
-            "static": false,
+            "end": 1540,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1530,
               "end": 1536,
               "name": "field"
@@ -35,8 +34,7 @@
               "type": "Literal",
               "start": 1539,
               "end": 1540,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
@@ -84,21 +82,20 @@
                           "start": 1578,
                           "end": 1582
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1583,
                           "end": 1589,
                           "name": "field"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "right": {
                         "type": "Literal",
                         "start": 1593,
                         "end": 1594,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     }
                   }
@@ -146,14 +143,14 @@
                         "start": 1628,
                         "end": 1632
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 1633,
                         "end": 1639,
                         "name": "field"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -252,15 +249,13 @@
             "type": "Literal",
             "start": 1708,
             "end": 1711,
-            "value": 0.5,
-            "raw": "0.5"
+            "value": 0.5
           },
           {
             "type": "Literal",
             "start": 1713,
             "end": 1759,
-            "value": "The expression should evaluate to the result",
-            "raw": "\"The expression should evaluate to the result\""
+            "value": "The expression should evaluate to the result"
           }
         ],
         "optional": false
@@ -324,15 +319,13 @@
             "type": "Literal",
             "start": 1795,
             "end": 1798,
-            "value": 0.5,
-            "raw": "0.5"
+            "value": 0.5
           },
           {
             "type": "Literal",
             "start": 1800,
             "end": 1859,
-            "value": "PutValue should store the result in the private reference",
-            "raw": "\"PutValue should store the result in the private reference\""
+            "value": "PutValue should store the result in the private reference"
           }
         ],
         "optional": false

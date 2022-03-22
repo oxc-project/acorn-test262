@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 1140,
                             "end": 1141,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           }
                         ]
                       }
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 1159,
                         "end": 1160,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -235,15 +233,13 @@
                         "type": "Literal",
                         "start": 1269,
                         "end": 1270,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       {
                         "type": "Literal",
                         "start": 1272,
                         "end": 1306,
-                        "value": "predicate was called three times",
-                        "raw": "\"predicate was called three times\""
+                        "value": "predicate was called three times"
                       }
                     ],
                     "optional": false
@@ -354,8 +350,7 @@
                                   "type": "Literal",
                                   "start": 1392,
                                   "end": 1394,
-                                  "value": "",
-                                  "raw": "\"\""
+                                  "value": ""
                                 }
                               }
                             ]
@@ -410,8 +405,7 @@
                         "type": "Literal",
                         "start": 1438,
                         "end": 1463,
-                        "value": "ToBoolean(empty string)",
-                        "raw": "\"ToBoolean(empty string)\""
+                        "value": "ToBoolean(empty string)"
                       }
                     ],
                     "optional": false
@@ -533,8 +527,7 @@
                         "type": "Literal",
                         "start": 1563,
                         "end": 1585,
-                        "value": "ToBoolean(undefined)",
-                        "raw": "\"ToBoolean(undefined)\""
+                        "value": "ToBoolean(undefined)"
                       }
                     ],
                     "optional": false
@@ -657,8 +650,7 @@
                         "type": "Literal",
                         "start": 1680,
                         "end": 1697,
-                        "value": "ToBoolean(null)",
-                        "raw": "\"ToBoolean(null)\""
+                        "value": "ToBoolean(null)"
                       }
                     ],
                     "optional": false
@@ -725,8 +717,7 @@
                                   "type": "Literal",
                                   "start": 1744,
                                   "end": 1745,
-                                  "value": 0,
-                                  "raw": "0"
+                                  "value": 0
                                 }
                               }
                             ]
@@ -781,8 +772,7 @@
                         "type": "Literal",
                         "start": 1789,
                         "end": 1803,
-                        "value": "ToBoolean(0)",
-                        "raw": "\"ToBoolean(0)\""
+                        "value": "ToBoolean(0)"
                       }
                     ],
                     "optional": false
@@ -855,8 +845,7 @@
                                     "type": "Literal",
                                     "start": 1851,
                                     "end": 1852,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 }
                               }
@@ -912,8 +901,7 @@
                         "type": "Literal",
                         "start": 1896,
                         "end": 1911,
-                        "value": "ToBoolean(-0)",
-                        "raw": "\"ToBoolean(-0)\""
+                        "value": "ToBoolean(-0)"
                       }
                     ],
                     "optional": false
@@ -1035,8 +1023,7 @@
                         "type": "Literal",
                         "start": 2005,
                         "end": 2021,
-                        "value": "ToBoolean(NaN)",
-                        "raw": "\"ToBoolean(NaN)\""
+                        "value": "ToBoolean(NaN)"
                       }
                     ],
                     "optional": false

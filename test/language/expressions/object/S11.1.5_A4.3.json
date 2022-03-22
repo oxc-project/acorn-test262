@@ -111,8 +111,7 @@
                   "type": "Literal",
                   "start": 444,
                   "end": 508,
-                  "value": "#1: var object = {undefined : true}; object.undefined === true",
-                  "raw": "'#1: var object = {undefined : true}; object.undefined === true'"
+                  "value": "#1: var object = {undefined : true}; object.undefined === true"
                 }
               ]
             }
@@ -191,8 +190,7 @@
             "type": "Literal",
             "start": 568,
             "end": 579,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           "computed": true,
           "optional": false
@@ -230,8 +228,7 @@
                   "type": "Literal",
                   "start": 618,
                   "end": 685,
-                  "value": "#2: var object = {undefined : true}; object[\"undefined\"] === true",
-                  "raw": "'#2: var object = {undefined : true}; object[\"undefined\"] === true'"
+                  "value": "#2: var object = {undefined : true}; object[\"undefined\"] === true"
                 }
               ]
             }
@@ -271,8 +268,7 @@
                   "type": "Literal",
                   "start": 715,
                   "end": 721,
-                  "value": "true",
-                  "raw": "\"true\""
+                  "value": "true"
                 },
                 "value": {
                   "type": "Literal",
@@ -311,8 +307,7 @@
             "type": "Literal",
             "start": 742,
             "end": 748,
-            "value": "true",
-            "raw": "\"true\""
+            "value": "true"
           },
           "computed": true,
           "optional": false
@@ -350,8 +345,7 @@
                   "type": "Literal",
                   "start": 787,
                   "end": 846,
-                  "value": "#3: var object = {\"true\" : true}; object[\"true\"] === true",
-                  "raw": "'#3: var object = {\"true\" : true}; object[\"true\"] === true'"
+                  "value": "#3: var object = {\"true\" : true}; object[\"true\"] === true"
                 }
               ]
             }
@@ -391,8 +385,7 @@
                   "type": "Literal",
                   "start": 876,
                   "end": 882,
-                  "value": "null",
-                  "raw": "\"null\""
+                  "value": "null"
                 },
                 "value": {
                   "type": "Literal",
@@ -431,8 +424,7 @@
             "type": "Literal",
             "start": 903,
             "end": 909,
-            "value": "null",
-            "raw": "\"null\""
+            "value": "null"
           },
           "computed": true,
           "optional": false
@@ -470,8 +462,7 @@
                   "type": "Literal",
                   "start": 948,
                   "end": 1007,
-                  "value": "#4: var object = {\"null\" : true}; object[\"null\"] === true",
-                  "raw": "'#4: var object = {\"null\" : true}; object[\"null\"] === true'"
+                  "value": "#4: var object = {\"null\" : true}; object[\"null\"] === true"
                 }
               ]
             }

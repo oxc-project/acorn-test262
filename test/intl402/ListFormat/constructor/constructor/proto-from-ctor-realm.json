@@ -346,8 +346,7 @@
             "type": "Literal",
             "start": 1362,
             "end": 1396,
-            "value": "newTarget.prototype is undefined",
-            "raw": "'newTarget.prototype is undefined'"
+            "value": "newTarget.prototype is undefined"
           }
         ],
         "optional": false
@@ -575,8 +574,7 @@
             "type": "Literal",
             "start": 1561,
             "end": 1590,
-            "value": "newTarget.prototype is null",
-            "raw": "'newTarget.prototype is null'"
+            "value": "newTarget.prototype is null"
           }
         ],
         "optional": false
@@ -804,8 +802,7 @@
             "type": "Literal",
             "start": 1755,
             "end": 1789,
-            "value": "newTarget.prototype is a Boolean",
-            "raw": "'newTarget.prototype is a Boolean'"
+            "value": "newTarget.prototype is a Boolean"
           }
         ],
         "optional": false
@@ -843,8 +840,7 @@
           "type": "Literal",
           "start": 1815,
           "end": 1820,
-          "value": "str",
-          "raw": "'str'"
+          "value": "str"
         }
       }
     },
@@ -1033,8 +1029,7 @@
             "type": "Literal",
             "start": 1955,
             "end": 1988,
-            "value": "newTarget.prototype is a String",
-            "raw": "'newTarget.prototype is a String'"
+            "value": "newTarget.prototype is a String"
           }
         ],
         "optional": false
@@ -1268,8 +1263,7 @@
             "type": "Literal",
             "start": 2157,
             "end": 2190,
-            "value": "newTarget.prototype is a Symbol",
-            "raw": "'newTarget.prototype is a Symbol'"
+            "value": "newTarget.prototype is a Symbol"
           }
         ],
         "optional": false
@@ -1496,8 +1490,7 @@
             "type": "Literal",
             "start": 2354,
             "end": 2387,
-            "value": "newTarget.prototype is a Number",
-            "raw": "'newTarget.prototype is a Number'"
+            "value": "newTarget.prototype is a Number"
           }
         ],
         "optional": false

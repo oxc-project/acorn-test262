@@ -15,16 +15,14 @@
           "type": "Literal",
           "start": 264,
           "end": 270,
-          "value": "x\u0000y",
-          "raw": "\"x\\0y\""
+          "value": "x\u0000y"
         },
         "operator": "===",
         "right": {
           "type": "Literal",
           "start": 275,
           "end": 278,
-          "value": "x",
-          "raw": "\"x\""
+          "value": "x"
         }
       },
       "consequent": {
@@ -51,8 +49,7 @@
                   "type": "Literal",
                   "start": 307,
                   "end": 328,
-                  "value": "#1: \"x\\0y\" !== \"x\"",
-                  "raw": "'#1: \"x\\\\0y\" !== \"x\"'"
+                  "value": "#1: \"x\\0y\" !== \"x\""
                 }
               ]
             }
@@ -91,16 +88,14 @@
                   "type": "Literal",
                   "start": 352,
                   "end": 358,
-                  "value": "x\u0000a",
-                  "raw": "\"x\\0a\""
+                  "value": "x\u0000a"
                 },
                 "operator": "<",
                 "right": {
                   "type": "Literal",
                   "start": 361,
                   "end": 367,
-                  "value": "x\u0000b",
-                  "raw": "\"x\\0b\""
+                  "value": "x\u0000b"
                 }
               }
             },
@@ -117,16 +112,14 @@
                   "type": "Literal",
                   "start": 373,
                   "end": 379,
-                  "value": "x\u0000b",
-                  "raw": "\"x\\0b\""
+                  "value": "x\u0000b"
                 },
                 "operator": "<",
                 "right": {
                   "type": "Literal",
                   "start": 382,
                   "end": 388,
-                  "value": "x\u0000c",
-                  "raw": "\"x\\0c\""
+                  "value": "x\u0000c"
                 }
               }
             }
@@ -157,8 +150,7 @@
                   "type": "Literal",
                   "start": 419,
                   "end": 478,
-                  "value": "#2: ((\"x\\0a\" < \"x\\0b\") && (\"x\\0b\" < \"x\\0c\")) === true",
-                  "raw": "'#2: ((\"x\\\\0a\" < \"x\\\\0b\") && (\"x\\\\0b\" < \"x\\\\0c\")) === true'"
+                  "value": "#2: ((\"x\\0a\" < \"x\\0b\") && (\"x\\0b\" < \"x\\0c\")) === true"
                 }
               ]
             }

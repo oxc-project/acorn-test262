@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 299,
             "end": 305,
-            "value": "load",
-            "raw": "'load'"
+            "value": "load"
           },
           {
             "type": "ObjectExpression",

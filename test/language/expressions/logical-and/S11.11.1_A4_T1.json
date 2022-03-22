@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 366,
                   "end": 395,
-                  "value": "#1: (true && true) === true",
-                  "raw": "'#1: (true && true) === true'"
+                  "value": "#1: (true && true) === true"
                 }
               ]
             }
@@ -145,8 +144,7 @@
                   "type": "Literal",
                   "start": 469,
                   "end": 500,
-                  "value": "#2: (true && false) === false",
-                  "raw": "'#2: (true && false) === false'"
+                  "value": "#2: (true && false) === false"
                 }
               ]
             }
@@ -271,8 +269,7 @@
                   "type": "Literal",
                   "start": 607,
                   "end": 672,
-                  "value": "#3: (var y = new Boolean(true); (new Boolean(true) &&  y) === y",
-                  "raw": "'#3: (var y = new Boolean(true); (new Boolean(true) &&  y) === y'"
+                  "value": "#3: (var y = new Boolean(true); (new Boolean(true) &&  y) === y"
                 }
               ]
             }
@@ -397,8 +394,7 @@
                   "type": "Literal",
                   "start": 780,
                   "end": 846,
-                  "value": "#4: (var y = new Boolean(false); (new Boolean(true) &&  y) === y",
-                  "raw": "'#4: (var y = new Boolean(false); (new Boolean(true) &&  y) === y'"
+                  "value": "#4: (var y = new Boolean(false); (new Boolean(true) &&  y) === y"
                 }
               ]
             }
@@ -523,8 +519,7 @@
                   "type": "Literal",
                   "start": 954,
                   "end": 1020,
-                  "value": "#5: (var y = new Boolean(true); (new Boolean(false) &&  y) === y",
-                  "raw": "'#5: (var y = new Boolean(true); (new Boolean(false) &&  y) === y'"
+                  "value": "#5: (var y = new Boolean(true); (new Boolean(false) &&  y) === y"
                 }
               ]
             }
@@ -649,8 +644,7 @@
                   "type": "Literal",
                   "start": 1129,
                   "end": 1196,
-                  "value": "#6: (var y = new Boolean(false); (new Boolean(false) &&  y) === y",
-                  "raw": "'#6: (var y = new Boolean(false); (new Boolean(false) &&  y) === y'"
+                  "value": "#6: (var y = new Boolean(false); (new Boolean(false) &&  y) === y"
                 }
               ]
             }

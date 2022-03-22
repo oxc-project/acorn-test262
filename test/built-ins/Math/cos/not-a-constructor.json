@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Math.cos) must return false",
-            "raw": "'isConstructor(Math.cos) must return false'"
+            "value": "isConstructor(Math.cos) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Math.cos()` throws TypeError",
-            "raw": "'`new Math.cos()` throws TypeError'"
+            "value": "`new Math.cos()` throws TypeError"
           }
         ],
         "optional": false

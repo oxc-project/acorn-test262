@@ -225,8 +225,7 @@
                                   "type": "Literal",
                                   "start": 686,
                                   "end": 694,
-                                  "value": "string",
-                                  "raw": "\"string\""
+                                  "value": "string"
                                 }
                               ],
                               "optional": false

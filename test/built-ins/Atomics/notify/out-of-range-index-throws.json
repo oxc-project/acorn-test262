@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 617,
                       "end": 618,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -146,8 +145,7 @@
                               "type": "Literal",
                               "start": 692,
                               "end": 723,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -268,8 +266,7 @@
             "type": "Literal",
             "start": 820,
             "end": 882,
-            "value": "`Atomics.notify(i32a, Infinity, poisoned)` throws RangeError",
-            "raw": "'`Atomics.notify(i32a, Infinity, poisoned)` throws RangeError'"
+            "value": "`Atomics.notify(i32a, Infinity, poisoned)` throws RangeError"
           }
         ],
         "optional": false
@@ -361,8 +358,7 @@
                         "type": "Literal",
                         "start": 947,
                         "end": 948,
-                        "value": 4,
-                        "raw": "4"
+                        "value": 4
                       },
                       {
                         "type": "Identifier",
@@ -381,8 +377,7 @@
             "type": "Literal",
             "start": 964,
             "end": 1019,
-            "value": "`Atomics.notify(i32a, 4, poisoned)` throws RangeError",
-            "raw": "'`Atomics.notify(i32a, 4, poisoned)` throws RangeError'"
+            "value": "`Atomics.notify(i32a, 4, poisoned)` throws RangeError"
           }
         ],
         "optional": false
@@ -474,8 +469,7 @@
                         "type": "Literal",
                         "start": 1084,
                         "end": 1087,
-                        "value": 200,
-                        "raw": "200"
+                        "value": 200
                       },
                       {
                         "type": "Identifier",
@@ -494,8 +488,7 @@
             "type": "Literal",
             "start": 1103,
             "end": 1160,
-            "value": "`Atomics.notify(i32a, 200, poisoned)` throws RangeError",
-            "raw": "'`Atomics.notify(i32a, 200, poisoned)` throws RangeError'"
+            "value": "`Atomics.notify(i32a, 200, poisoned)` throws RangeError"
           }
         ],
         "optional": false

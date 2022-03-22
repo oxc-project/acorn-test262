@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 481,
             "end": 542,
-            "value": "Object.isExtensible(Temporal.Now.timeZone) must return true",
-            "raw": "'Object.isExtensible(Temporal.Now.timeZone) must return true'"
+            "value": "Object.isExtensible(Temporal.Now.timeZone) must return true"
           }
         ],
         "optional": false

@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 494,
             "end": 502,
-            "value": "random",
-            "raw": "\"random\""
+            "value": "random"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 526,
             "end": 534,
-            "value": "random",
-            "raw": "\"random\""
+            "value": "random"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 562,
             "end": 570,
-            "value": "random",
-            "raw": "\"random\""
+            "value": "random"
           }
         ],
         "optional": false

@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 498,
                 "end": 506,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 537,
                     "end": 614,
-                    "value": "#1: String.prototype.slice.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#1: String.prototype.slice.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#1: String.prototype.slice.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 655,
                         "end": 663,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -294,8 +291,7 @@
             "type": "Literal",
             "start": 838,
             "end": 846,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -326,8 +322,7 @@
                     "type": "Literal",
                     "start": 876,
                     "end": 885,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -426,8 +421,7 @@
                     "type": "Literal",
                     "start": 1053,
                     "end": 1210,
-                    "value": "#2: __obj = String.prototype.slice.length; String.prototype.slice.length = function(){return \"shifted\";}; String.prototype.slice.length === __obj. Actual: ",
-                    "raw": "'#2: __obj = String.prototype.slice.length; String.prototype.slice.length = function(){return \"shifted\";}; String.prototype.slice.length === __obj. Actual: '"
+                    "value": "#2: __obj = String.prototype.slice.length; String.prototype.slice.length = function(){return \"shifted\";}; String.prototype.slice.length === __obj. Actual: "
                   },
                   "operator": "+",
                   "right": {

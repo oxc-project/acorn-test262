@@ -83,8 +83,7 @@
                               "type": "Literal",
                               "start": 453,
                               "end": 466,
-                              "value": "kamon beyba",
-                              "raw": "\"kamon beyba\""
+                              "value": "kamon beyba"
                             }
                           }
                         }
@@ -188,8 +187,7 @@
               "type": "Literal",
               "start": 533,
               "end": 539,
-              "value": "feat",
-              "raw": "\"feat\""
+              "value": "feat"
             },
             "computed": true,
             "optional": false
@@ -198,15 +196,13 @@
             "type": "Literal",
             "start": 542,
             "end": 555,
-            "value": "kamon beyba",
-            "raw": "\"kamon beyba\""
+            "value": "kamon beyba"
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 616,
-            "value": "The value of this[\"feat\"] is expected to be \"kamon beyba\"",
-            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'"
+            "value": "The value of this[\"feat\"] is expected to be \"kamon beyba\""
           }
         ],
         "optional": false
@@ -270,15 +266,13 @@
             "type": "Literal",
             "start": 653,
             "end": 664,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 666,
             "end": 728,
-            "value": "The value of `typeof obj.feat` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof obj.feat` is expected to be \"undefined\"'"
+            "value": "The value of `typeof obj.feat` is expected to be \"undefined\""
           }
         ],
         "optional": false

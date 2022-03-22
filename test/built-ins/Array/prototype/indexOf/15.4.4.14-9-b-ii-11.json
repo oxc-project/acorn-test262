@@ -162,15 +162,13 @@
             "type": "Literal",
             "start": 418,
             "end": 419,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 421,
             "end": 453,
-            "value": "[{}, obj1, obj2].indexOf(obj3)",
-            "raw": "'[{}, obj1, obj2].indexOf(obj3)'"
+            "value": "[{}, obj1, obj2].indexOf(obj3)"
           }
         ],
         "optional": false

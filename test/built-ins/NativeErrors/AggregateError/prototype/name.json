@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 645,
             "end": 651,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 664,
                   "end": 680,
-                  "value": "AggregateError",
-                  "raw": "'AggregateError'"
+                  "value": "AggregateError"
                 },
                 "kind": "init"
               },

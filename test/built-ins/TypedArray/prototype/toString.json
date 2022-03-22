@@ -149,8 +149,7 @@
             "type": "Literal",
             "start": 940,
             "end": 950,
-            "value": "toString",
-            "raw": "'toString'"
+            "value": "toString"
           }
         ],
         "optional": false
@@ -181,8 +180,7 @@
             "type": "Literal",
             "start": 989,
             "end": 999,
-            "value": "toString",
-            "raw": "'toString'"
+            "value": "toString"
           }
         ],
         "optional": false
@@ -213,8 +211,7 @@
             "type": "Literal",
             "start": 1042,
             "end": 1052,
-            "value": "toString",
-            "raw": "'toString'"
+            "value": "toString"
           }
         ],
         "optional": false

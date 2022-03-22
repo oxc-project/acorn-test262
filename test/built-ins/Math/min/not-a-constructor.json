@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Math.min) must return false",
-            "raw": "'isConstructor(Math.min) must return false'"
+            "value": "isConstructor(Math.min) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Math.min()` throws TypeError",
-            "raw": "'`new Math.min()` throws TypeError'"
+            "value": "`new Math.min()` throws TypeError"
           }
         ],
         "optional": false

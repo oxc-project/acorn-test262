@@ -184,8 +184,7 @@
             "type": "Literal",
             "start": 473,
             "end": 546,
-            "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a Test262Error exception",
-            "raw": "'Temporal.Now.plainDateTimeISO(timeZone) throws a Test262Error exception'"
+            "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a Test262Error exception"
           }
         ],
         "optional": false

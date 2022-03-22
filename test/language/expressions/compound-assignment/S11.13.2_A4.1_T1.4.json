@@ -135,8 +135,7 @@
                     "type": "Literal",
                     "start": 398,
                     "end": 458,
-                    "value": "#1: x = null; x *= undefined; x === Not-a-Number. Actual: ",
-                    "raw": "'#1: x = null; x *= undefined; x === Not-a-Number. Actual: '"
+                    "value": "#1: x = null; x *= undefined; x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -270,8 +269,7 @@
                     "type": "Literal",
                     "start": 556,
                     "end": 616,
-                    "value": "#2: x = undefined; x *= null; x === Not-a-Number. Actual: ",
-                    "raw": "'#2: x = undefined; x *= null; x === Not-a-Number. Actual: '"
+                    "value": "#2: x = undefined; x *= null; x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -404,8 +402,7 @@
                     "type": "Literal",
                     "start": 719,
                     "end": 784,
-                    "value": "#3: x = undefined; x *= undefined; x === Not-a-Number. Actual: ",
-                    "raw": "'#3: x = undefined; x *= undefined; x === Not-a-Number. Actual: '"
+                    "value": "#3: x = undefined; x *= undefined; x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -494,8 +491,7 @@
           "type": "Literal",
           "start": 837,
           "end": 838,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -526,8 +522,7 @@
                     "type": "Literal",
                     "start": 867,
                     "end": 911,
-                    "value": "#4: x = null; x *= null; x === 0. Actual: ",
-                    "raw": "'#4: x = null; x *= null; x === 0. Actual: '"
+                    "value": "#4: x = null; x *= null; x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

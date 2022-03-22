@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 445,
                     "end": 446,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               }
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 482,
             "end": 483,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -192,8 +190,7 @@
                         "type": "Literal",
                         "start": 540,
                         "end": 565,
-                        "value": "`this` is not `usurper`",
-                        "raw": "\"`this` is not `usurper`\""
+                        "value": "`this` is not `usurper`"
                       }
                     ],
                     "optional": false
@@ -268,15 +265,13 @@
             "type": "Literal",
             "start": 621,
             "end": 622,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 624,
             "end": 650,
-            "value": "`forEach` is not a no-op",
-            "raw": "\"`forEach` is not a no-op\""
+            "value": "`forEach` is not a no-op"
           }
         ],
         "optional": false

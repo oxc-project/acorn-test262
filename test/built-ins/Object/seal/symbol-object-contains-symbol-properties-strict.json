@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 303,
                 "end": 306,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             ],
             "optional": false
@@ -73,8 +72,7 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 330,
-                "value": "B",
-                "raw": "\"B\""
+                "value": "B"
               }
             ],
             "optional": false
@@ -140,8 +138,7 @@
           "type": "Literal",
           "start": 359,
           "end": 360,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -215,8 +212,7 @@
           "type": "Literal",
           "start": 392,
           "end": 393,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -271,15 +267,13 @@
             "type": "Literal",
             "start": 424,
             "end": 425,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 460,
-            "value": "The value of `obj[symA]` is `2`",
-            "raw": "\"The value of `obj[symA]` is `2`\""
+            "value": "The value of `obj[symA]` is `2`"
           }
         ],
         "optional": false
@@ -451,8 +445,7 @@
                       "type": "Literal",
                       "start": 579,
                       "end": 580,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }

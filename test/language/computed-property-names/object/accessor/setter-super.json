@@ -158,8 +158,7 @@
                                 "type": "Literal",
                                 "start": 324,
                                 "end": 327,
-                                "value": " ",
-                                "raw": "' '"
+                                "value": " "
                               }
                             },
                             "operator": "+",
@@ -213,8 +212,7 @@
                   "type": "Literal",
                   "start": 362,
                   "end": 365,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "set",
                 "value": {
@@ -269,8 +267,7 @@
                               "type": "Literal",
                               "start": 380,
                               "end": 383,
-                              "value": "a",
-                              "raw": "'a'"
+                              "value": "a"
                             },
                             {
                               "type": "Identifier",
@@ -308,8 +305,7 @@
                       "type": "Literal",
                       "start": 402,
                       "end": 405,
-                      "value": "b",
-                      "raw": "'b'"
+                      "value": "b"
                     }
                   ],
                   "optional": false
@@ -367,8 +363,7 @@
                               "type": "Literal",
                               "start": 421,
                               "end": 424,
-                              "value": "b",
-                              "raw": "'b'"
+                              "value": "b"
                             },
                             {
                               "type": "Identifier",
@@ -395,8 +390,7 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 441,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "set",
                 "value": {
@@ -451,8 +445,7 @@
                               "type": "Literal",
                               "start": 456,
                               "end": 459,
-                              "value": "0",
-                              "raw": "'0'"
+                              "value": "0"
                             },
                             {
                               "type": "Identifier",
@@ -490,8 +483,7 @@
                       "type": "Literal",
                       "start": 478,
                       "end": 479,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   ],
                   "optional": false
@@ -549,8 +541,7 @@
                               "type": "Literal",
                               "start": 495,
                               "end": 498,
-                              "value": "1",
-                              "raw": "'1'"
+                              "value": "1"
                             },
                             {
                               "type": "Identifier",
@@ -648,8 +639,7 @@
           "type": "Literal",
           "start": 561,
           "end": 562,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -691,15 +681,13 @@
             "type": "Literal",
             "start": 588,
             "end": 593,
-            "value": "a 2",
-            "raw": "'a 2'"
+            "value": "a 2"
           },
           {
             "type": "Literal",
             "start": 595,
             "end": 661,
-            "value": "The value of `value` is `'a 2'`, after executing `object.a = 2;`",
-            "raw": "\"The value of `value` is `'a 2'`, after executing `object.a = 2;`\""
+            "value": "The value of `value` is `'a 2'`, after executing `object.a = 2;`"
           }
         ],
         "optional": false
@@ -737,8 +725,7 @@
           "type": "Literal",
           "start": 675,
           "end": 676,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       }
     },
@@ -780,15 +767,13 @@
             "type": "Literal",
             "start": 702,
             "end": 707,
-            "value": "b 3",
-            "raw": "'b 3'"
+            "value": "b 3"
           },
           {
             "type": "Literal",
             "start": 709,
             "end": 775,
-            "value": "The value of `value` is `'b 3'`, after executing `object.b = 3;`",
-            "raw": "\"The value of `value` is `'b 3'`, after executing `object.b = 3;`\""
+            "value": "The value of `value` is `'b 3'`, after executing `object.b = 3;`"
           }
         ],
         "optional": false
@@ -817,8 +802,7 @@
             "type": "Literal",
             "start": 785,
             "end": 786,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -827,8 +811,7 @@
           "type": "Literal",
           "start": 790,
           "end": 791,
-          "value": 4,
-          "raw": "4"
+          "value": 4
         }
       }
     },
@@ -870,15 +853,13 @@
             "type": "Literal",
             "start": 817,
             "end": 822,
-            "value": "0 4",
-            "raw": "'0 4'"
+            "value": "0 4"
           },
           {
             "type": "Literal",
             "start": 824,
             "end": 891,
-            "value": "The value of `value` is `'0 4'`, after executing `object[0] = 4;`",
-            "raw": "\"The value of `value` is `'0 4'`, after executing `object[0] = 4;`\""
+            "value": "The value of `value` is `'0 4'`, after executing `object[0] = 4;`"
           }
         ],
         "optional": false
@@ -907,8 +888,7 @@
             "type": "Literal",
             "start": 901,
             "end": 902,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -917,8 +897,7 @@
           "type": "Literal",
           "start": 906,
           "end": 907,
-          "value": 5,
-          "raw": "5"
+          "value": 5
         }
       }
     },
@@ -960,15 +939,13 @@
             "type": "Literal",
             "start": 933,
             "end": 938,
-            "value": "1 5",
-            "raw": "'1 5'"
+            "value": "1 5"
           },
           {
             "type": "Literal",
             "start": 940,
             "end": 1007,
-            "value": "The value of `value` is `'1 5'`, after executing `object[1] = 5;`",
-            "raw": "\"The value of `value` is `'1 5'`, after executing `object[1] = 5;`\""
+            "value": "The value of `value` is `'1 5'`, after executing `object[1] = 5;`"
           }
         ],
         "optional": false

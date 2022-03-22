@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 392,
             "end": 402,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -100,8 +99,7 @@
             "type": "Literal",
             "start": 414,
             "end": 416,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         }
       ],
@@ -169,8 +167,7 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 443,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             ],
@@ -186,8 +183,7 @@
             "type": "Literal",
             "start": 457,
             "end": 489,
-            "value": "s.at(-2) must return undefined",
-            "raw": "'s.at(-2) must return undefined'"
+            "value": "s.at(-2) must return undefined"
           }
         ],
         "optional": false
@@ -249,8 +245,7 @@
                 "type": "Literal",
                 "start": 537,
                 "end": 538,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -265,8 +260,7 @@
             "type": "Literal",
             "start": 552,
             "end": 583,
-            "value": "s.at(0) must return undefined",
-            "raw": "'s.at(0) must return undefined'"
+            "value": "s.at(0) must return undefined"
           }
         ],
         "optional": false
@@ -328,8 +322,7 @@
                 "type": "Literal",
                 "start": 608,
                 "end": 609,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -344,8 +337,7 @@
             "type": "Literal",
             "start": 623,
             "end": 654,
-            "value": "s.at(1) must return undefined",
-            "raw": "'s.at(1) must return undefined'"
+            "value": "s.at(1) must return undefined"
           }
         ],
         "optional": false

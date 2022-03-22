@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 2050,
                 "end": 2057,
-                "value": "en-US",
-                "raw": "'en-US'"
+                "value": "en-US"
               },
               {
                 "type": "ObjectExpression",
@@ -71,8 +70,7 @@
                       "type": "Literal",
                       "start": 2066,
                       "end": 2076,
-                      "value": "language",
-                      "raw": "'language'"
+                      "value": "language"
                     },
                     "kind": "init"
                   }
@@ -154,8 +152,7 @@
             "type": "Literal",
             "start": 2142,
             "end": 2149,
-            "value": "style",
-            "raw": "'style'"
+            "value": "style"
           },
           {
             "type": "ObjectExpression",
@@ -179,8 +176,7 @@
                   "type": "Literal",
                   "start": 2162,
                   "end": 2168,
-                  "value": "long",
-                  "raw": "'long'"
+                  "value": "long"
                 },
                 "kind": "init"
               },
@@ -281,8 +277,7 @@
             "type": "Literal",
             "start": 2258,
             "end": 2264,
-            "value": "type",
-            "raw": "'type'"
+            "value": "type"
           },
           {
             "type": "ObjectExpression",
@@ -306,8 +301,7 @@
                   "type": "Literal",
                   "start": 2277,
                   "end": 2287,
-                  "value": "language",
-                  "raw": "'language'"
+                  "value": "language"
                 },
                 "kind": "init"
               },
@@ -408,8 +402,7 @@
             "type": "Literal",
             "start": 2377,
             "end": 2387,
-            "value": "fallback",
-            "raw": "'fallback'"
+            "value": "fallback"
           },
           {
             "type": "ObjectExpression",
@@ -433,8 +426,7 @@
                   "type": "Literal",
                   "start": 2400,
                   "end": 2406,
-                  "value": "code",
-                  "raw": "'code'"
+                  "value": "code"
                 },
                 "kind": "init"
               },

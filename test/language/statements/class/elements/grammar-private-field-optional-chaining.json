@@ -20,13 +20,12 @@
         "end": 740,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 675,
-            "end": 690,
-            "static": false,
+            "end": 689,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 675,
               "end": 677,
               "name": "m"
@@ -35,8 +34,7 @@
               "type": "Literal",
               "start": 680,
               "end": 689,
-              "value": "test262",
-              "raw": "'test262'"
+              "value": "test262"
             }
           },
           {
@@ -91,14 +89,14 @@
                           "end": 729,
                           "name": "obj"
                         },
+                        "computed": false,
+                        "optional": true,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 731,
                           "end": 733,
                           "name": "m"
-                        },
-                        "computed": false,
-                        "optional": true
+                        }
                       }
                     }
                   }
@@ -205,8 +203,7 @@
             "type": "Literal",
             "start": 790,
             "end": 799,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -448,8 +445,7 @@
             "type": "Literal",
             "start": 956,
             "end": 1004,
-            "value": "accessed private field from an ordinary object",
-            "raw": "'accessed private field from an ordinary object'"
+            "value": "accessed private field from an ordinary object"
           }
         ],
         "optional": false

@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 325,
             "end": 374,
-            "value": "Array.prototype.slice.call(true) must return []",
-            "raw": "'Array.prototype.slice.call(true) must return []'"
+            "value": "Array.prototype.slice.call(true) must return []"
           }
         ],
         "optional": false
@@ -206,8 +205,7 @@
             "type": "Literal",
             "start": 436,
             "end": 486,
-            "value": "Array.prototype.slice.call(false) must return []",
-            "raw": "'Array.prototype.slice.call(false) must return []'"
+            "value": "Array.prototype.slice.call(false) must return []"
           }
         ],
         "optional": false

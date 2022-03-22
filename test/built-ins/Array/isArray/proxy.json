@@ -207,8 +207,7 @@
             "type": "Literal",
             "start": 787,
             "end": 839,
-            "value": "Array.isArray(new Proxy({}, {})) must return false",
-            "raw": "'Array.isArray(new Proxy({}, {})) must return false'"
+            "value": "Array.isArray(new Proxy({}, {})) must return false"
           }
         ],
         "optional": false
@@ -286,8 +285,7 @@
             "type": "Literal",
             "start": 892,
             "end": 943,
-            "value": "Array.isArray(new Proxy([], {})) must return true",
-            "raw": "'Array.isArray(new Proxy([], {})) must return true'"
+            "value": "Array.isArray(new Proxy([], {})) must return true"
           }
         ],
         "optional": false
@@ -365,8 +363,7 @@
             "type": "Literal",
             "start": 1004,
             "end": 1063,
-            "value": "Array.isArray(new Proxy(arrayProxy, {})) must return true",
-            "raw": "'Array.isArray(new Proxy(arrayProxy, {})) must return true'"
+            "value": "Array.isArray(new Proxy(arrayProxy, {})) must return true"
           }
         ],
         "optional": false

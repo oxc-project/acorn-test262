@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 456,
-                "value": "hello world",
-                "raw": "\"hello world\""
+                "value": "hello world"
               }
             ]
           }
@@ -99,8 +98,7 @@
             "type": "Literal",
             "start": 496,
             "end": 504,
-            "value": "s[NaN]",
-            "raw": "'s[NaN]'"
+            "value": "s[NaN]"
           }
         ],
         "optional": false

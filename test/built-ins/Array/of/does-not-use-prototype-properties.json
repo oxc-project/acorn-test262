@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 390,
             "end": 393,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -115,8 +114,7 @@
                               "type": "Literal",
                               "start": 445,
                               "end": 475,
-                              "value": "Should define own properties",
-                              "raw": "'Should define own properties'"
+                              "value": "Should define own properties"
                             }
                           ]
                         }
@@ -227,8 +225,7 @@
               "type": "Literal",
               "start": 534,
               "end": 535,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -244,8 +241,7 @@
             "type": "Literal",
             "start": 544,
             "end": 588,
-            "value": "The value of arr[0] is expected to be true",
-            "raw": "'The value of arr[0] is expected to be true'"
+            "value": "The value of arr[0] is expected to be true"
           }
         ],
         "optional": false
@@ -323,8 +319,7 @@
             "type": "Literal",
             "start": 654,
             "end": 657,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -384,8 +379,7 @@
                               "type": "Literal",
                               "start": 709,
                               "end": 739,
-                              "value": "Should define own properties",
-                              "raw": "'Should define own properties'"
+                              "value": "Should define own properties"
                             }
                           ]
                         }
@@ -515,8 +509,7 @@
               "type": "Literal",
               "start": 817,
               "end": 818,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -532,8 +525,7 @@
             "type": "Literal",
             "start": 827,
             "end": 874,
-            "value": "The value of custom[0] is expected to be true",
-            "raw": "'The value of custom[0] is expected to be true'"
+            "value": "The value of custom[0] is expected to be true"
           }
         ],
         "optional": false

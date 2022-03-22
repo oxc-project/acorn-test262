@@ -81,8 +81,7 @@
                     "type": "Literal",
                     "start": 486,
                     "end": 535,
-                    "value": "#1: null + undefined === Not-a-Number. Actual: ",
-                    "raw": "'#1: null + undefined === Not-a-Number. Actual: '"
+                    "value": "#1: null + undefined === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -195,8 +194,7 @@
                     "type": "Literal",
                     "start": 637,
                     "end": 686,
-                    "value": "#2: undefined + null === Not-a-Number. Actual: ",
-                    "raw": "'#2: undefined + null === Not-a-Number. Actual: '"
+                    "value": "#2: undefined + null === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -308,8 +306,7 @@
                     "type": "Literal",
                     "start": 793,
                     "end": 847,
-                    "value": "#3: undefined + undefined === Not-a-Number. Actual: ",
-                    "raw": "'#3: undefined + undefined === Not-a-Number. Actual: '"
+                    "value": "#3: undefined + undefined === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -376,8 +373,7 @@
           "type": "Literal",
           "start": 909,
           "end": 910,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -408,8 +404,7 @@
                     "type": "Literal",
                     "start": 939,
                     "end": 972,
-                    "value": "#4: null + null === 0. Actual: ",
-                    "raw": "'#4: null + null === 0. Actual: '"
+                    "value": "#4: null + null === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

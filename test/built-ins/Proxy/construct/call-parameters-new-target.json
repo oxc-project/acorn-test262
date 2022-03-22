@@ -154,8 +154,7 @@
                               "type": "Literal",
                               "start": 719,
                               "end": 755,
-                              "value": "trap context is the handler object",
-                              "raw": "\"trap context is the handler object\""
+                              "value": "trap context is the handler object"
                             }
                           ],
                           "optional": false
@@ -205,8 +204,7 @@
                               "type": "Literal",
                               "start": 795,
                               "end": 833,
-                              "value": "first parameter is the target object",
-                              "raw": "\"first parameter is the target object\""
+                              "value": "first parameter is the target object"
                             }
                           ],
                           "optional": false
@@ -263,15 +261,13 @@
                               "type": "Literal",
                               "start": 870,
                               "end": 871,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             {
                               "type": "Literal",
                               "start": 873,
                               "end": 922,
-                              "value": "arguments list contains all construct arguments",
-                              "raw": "\"arguments list contains all construct arguments\""
+                              "value": "arguments list contains all construct arguments"
                             }
                           ],
                           "optional": false
@@ -306,8 +302,7 @@
                                 "type": "Literal",
                                 "start": 943,
                                 "end": 944,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "computed": true,
                               "optional": false
@@ -345,8 +340,7 @@
                                 "type": "Literal",
                                 "start": 964,
                                 "end": 965,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               "computed": true,
                               "optional": false
@@ -393,15 +387,13 @@
                               "type": "Literal",
                               "start": 992,
                               "end": 993,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             {
                               "type": "Literal",
                               "start": 995,
                               "end": 1040,
-                              "value": "arguments list has first construct argument",
-                              "raw": "\"arguments list has first construct argument\""
+                              "value": "arguments list has first construct argument"
                             }
                           ],
                           "optional": false
@@ -445,15 +437,13 @@
                               "type": "Literal",
                               "start": 1067,
                               "end": 1068,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             {
                               "type": "Literal",
                               "start": 1070,
                               "end": 1116,
-                              "value": "arguments list has second construct argument",
-                              "raw": "\"arguments list has second construct argument\""
+                              "value": "arguments list has second construct argument"
                             }
                           ],
                           "optional": false
@@ -503,8 +493,7 @@
                               "type": "Literal",
                               "start": 1162,
                               "end": 1206,
-                              "value": "newTarget is passed as the third parameter",
-                              "raw": "\"newTarget is passed as the third parameter\""
+                              "value": "newTarget is passed as the third parameter"
                             }
                           ],
                           "optional": false
@@ -664,15 +653,13 @@
                     "type": "Literal",
                     "start": 1324,
                     "end": 1325,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 1327,
                     "end": 1328,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -740,8 +727,7 @@
             "type": "Literal",
             "start": 1369,
             "end": 1370,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false

@@ -115,8 +115,7 @@
                         "type": "Literal",
                         "start": 357,
                         "end": 362,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ],
                     "optional": false
@@ -129,8 +128,7 @@
             "type": "Literal",
             "start": 368,
             "end": 453,
-            "value": "Object.prototype.hasOwnProperty.call(undefined, \"foo\") throws a TypeError exception",
-            "raw": "'Object.prototype.hasOwnProperty.call(undefined, \"foo\") throws a TypeError exception'"
+            "value": "Object.prototype.hasOwnProperty.call(undefined, \"foo\") throws a TypeError exception"
           }
         ],
         "optional": false

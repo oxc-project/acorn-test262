@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 938,
             "end": 951,
-            "value": "PluralRules",
-            "raw": "'PluralRules'"
+            "value": "PluralRules"
           },
           {
             "type": "ObjectExpression",

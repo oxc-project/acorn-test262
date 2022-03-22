@@ -35,15 +35,13 @@
             "type": "Literal",
             "start": 567,
             "end": 573,
-            "value": 1,
-            "raw": ".0_1e2"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 580,
-            "value": 1,
-            "raw": ".01e2"
+            "value": 1
           }
         ],
         "optional": false

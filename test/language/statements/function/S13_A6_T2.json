@@ -80,8 +80,7 @@
                     "type": "Literal",
                     "start": 500,
                     "end": 585,
-                    "value": "#1: Function call can appears in the program before the FunctionDeclaration appears",
-                    "raw": "\"#1: Function call can appears in the program before the FunctionDeclaration appears\""
+                    "value": "#1: Function call can appears in the program before the FunctionDeclaration appears"
                   }
                 ]
               }
@@ -110,8 +109,7 @@
           "type": "Literal",
           "start": 607,
           "end": 615,
-          "value": "SECOND",
-          "raw": "\"SECOND\""
+          "value": "SECOND"
         }
       },
       "consequent": {
@@ -142,8 +140,7 @@
                     "type": "Literal",
                     "start": 643,
                     "end": 694,
-                    "value": "#1.1: __result === \"SECOND\". Actual: __result ===",
-                    "raw": "'#1.1: __result === \"SECOND\". Actual: __result ==='"
+                    "value": "#1.1: __result === \"SECOND\". Actual: __result ==="
                   },
                   "operator": "+",
                   "right": {
@@ -187,8 +184,7 @@
               "type": "Literal",
               "start": 816,
               "end": 823,
-              "value": "FIRST",
-              "raw": "\"FIRST\""
+              "value": "FIRST"
             }
           }
         ]
@@ -248,8 +244,7 @@
           "type": "Literal",
           "start": 955,
           "end": 963,
-          "value": "SECOND",
-          "raw": "\"SECOND\""
+          "value": "SECOND"
         }
       },
       "consequent": {
@@ -280,8 +275,7 @@
                     "type": "Literal",
                     "start": 991,
                     "end": 1040,
-                    "value": "#2: __result === \"SECOND\". Actual: __result ===",
-                    "raw": "'#2: __result === \"SECOND\". Actual: __result ==='"
+                    "value": "#2: __result === \"SECOND\". Actual: __result ==="
                   },
                   "operator": "+",
                   "right": {
@@ -325,8 +319,7 @@
               "type": "Literal",
               "start": 1162,
               "end": 1170,
-              "value": "SECOND",
-              "raw": "\"SECOND\""
+              "value": "SECOND"
             }
           }
         ]

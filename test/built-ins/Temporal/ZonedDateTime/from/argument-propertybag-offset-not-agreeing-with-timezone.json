@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 346,
-                "value": "+01:00",
-                "raw": "\"+01:00\""
+                "value": "+01:00"
               }
             ]
           }
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 377,
                   "end": 381,
-                  "value": 2021,
-                  "raw": "2021"
+                  "value": 2021
                 },
                 "kind": "init"
               },
@@ -114,8 +112,7 @@
                   "type": "Literal",
                   "start": 390,
                   "end": 392,
-                  "value": 10,
-                  "raw": "10"
+                  "value": 10
                 },
                 "kind": "init"
               },
@@ -136,8 +133,7 @@
                   "type": "Literal",
                   "start": 399,
                   "end": 401,
-                  "value": 28,
-                  "raw": "28"
+                  "value": 28
                 },
                 "kind": "init"
               },
@@ -158,8 +154,7 @@
                   "type": "Literal",
                   "start": 411,
                   "end": 419,
-                  "value": "-07:00",
-                  "raw": "\"-07:00\""
+                  "value": "-07:00"
                 },
                 "kind": "init"
               },
@@ -284,8 +279,7 @@
             "type": "Literal",
             "start": 506,
             "end": 558,
-            "value": "offset property not matching time zone is rejected",
-            "raw": "\"offset property not matching time zone is rejected\""
+            "value": "offset property not matching time zone is rejected"
           }
         ],
         "optional": false

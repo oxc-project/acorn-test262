@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 751,
             "end": 805,
-            "value": "isConstructor(Object.isExtensible) must return false",
-            "raw": "'isConstructor(Object.isExtensible) must return false'"
+            "value": "isConstructor(Object.isExtensible) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 876,
             "end": 924,
-            "value": "`new Object.isExtensible({})` throws TypeError",
-            "raw": "'`new Object.isExtensible({})` throws TypeError'"
+            "value": "`new Object.isExtensible({})` throws TypeError"
           }
         ],
         "optional": false

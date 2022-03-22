@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 743,
             "end": 793,
-            "value": "isConstructor(Object.isSealed) must return false",
-            "raw": "'isConstructor(Object.isSealed) must return false'"
+            "value": "isConstructor(Object.isSealed) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 860,
             "end": 904,
-            "value": "`new Object.isSealed({})` throws TypeError",
-            "raw": "'`new Object.isSealed({})` throws TypeError'"
+            "value": "`new Object.isSealed({})` throws TypeError"
           }
         ],
         "optional": false

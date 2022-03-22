@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 2021,
                             "end": 2022,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -149,8 +148,7 @@
                                     "type": "Literal",
                                     "start": 2081,
                                     "end": 2082,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -159,8 +157,7 @@
                                   "type": "Literal",
                                   "start": 2086,
                                   "end": 2087,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             }
@@ -171,8 +168,7 @@
                         "type": "Literal",
                         "start": 2094,
                         "end": 2132,
-                        "value": "`typedArray[0] = 1` throws TypeError",
-                        "raw": "'`typedArray[0] = 1` throws TypeError'"
+                        "value": "`typedArray[0] = 1` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -249,8 +245,7 @@
                                     "type": "Literal",
                                     "start": 2191,
                                     "end": 2192,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -283,15 +278,13 @@
                                       "type": "Literal",
                                       "start": 2205,
                                       "end": 2206,
-                                      "value": 2,
-                                      "raw": "2"
+                                      "value": 2
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2208,
                                       "end": 2210,
-                                      "value": 63,
-                                      "raw": "63"
+                                      "value": 63
                                     }
                                   ],
                                   "optional": false
@@ -305,8 +298,7 @@
                         "type": "Literal",
                         "start": 2218,
                         "end": 2270,
-                        "value": "`typedArray[0] = Math.pow(2, 63)` throws TypeError",
-                        "raw": "'`typedArray[0] = Math.pow(2, 63)` throws TypeError'"
+                        "value": "`typedArray[0] = Math.pow(2, 63)` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -383,8 +375,7 @@
                                     "type": "Literal",
                                     "start": 2329,
                                     "end": 2330,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -399,8 +390,7 @@
                                     "type": "Literal",
                                     "start": 2335,
                                     "end": 2336,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 }
                               }
@@ -412,8 +402,7 @@
                         "type": "Literal",
                         "start": 2343,
                         "end": 2382,
-                        "value": "`typedArray[0] = +0` throws TypeError",
-                        "raw": "'`typedArray[0] = +0` throws TypeError'"
+                        "value": "`typedArray[0] = +0` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -490,8 +479,7 @@
                                     "type": "Literal",
                                     "start": 2441,
                                     "end": 2442,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -506,8 +494,7 @@
                                     "type": "Literal",
                                     "start": 2447,
                                     "end": 2448,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 }
                               }
@@ -519,8 +506,7 @@
                         "type": "Literal",
                         "start": 2455,
                         "end": 2494,
-                        "value": "`typedArray[0] = -0` throws TypeError",
-                        "raw": "'`typedArray[0] = -0` throws TypeError'"
+                        "value": "`typedArray[0] = -0` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -597,8 +583,7 @@
                                     "type": "Literal",
                                     "start": 2553,
                                     "end": 2554,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -618,8 +603,7 @@
                         "type": "Literal",
                         "start": 2573,
                         "end": 2618,
-                        "value": "`typedArray[0] = Infinity` throws TypeError",
-                        "raw": "'`typedArray[0] = Infinity` throws TypeError'"
+                        "value": "`typedArray[0] = Infinity` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -696,8 +680,7 @@
                                     "type": "Literal",
                                     "start": 2677,
                                     "end": 2678,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -724,8 +707,7 @@
                         "type": "Literal",
                         "start": 2698,
                         "end": 2744,
-                        "value": "`typedArray[0] = -Infinity` throws TypeError",
-                        "raw": "'`typedArray[0] = -Infinity` throws TypeError'"
+                        "value": "`typedArray[0] = -Infinity` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -802,8 +784,7 @@
                                     "type": "Literal",
                                     "start": 2803,
                                     "end": 2804,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -823,8 +804,7 @@
                         "type": "Literal",
                         "start": 2818,
                         "end": 2858,
-                        "value": "`typedArray[0] = NaN` throws TypeError",
-                        "raw": "'`typedArray[0] = NaN` throws TypeError'"
+                        "value": "`typedArray[0] = NaN` throws TypeError"
                       }
                     ],
                     "optional": false

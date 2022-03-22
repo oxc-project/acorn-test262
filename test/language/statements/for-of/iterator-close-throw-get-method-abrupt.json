@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 771,
             "end": 772,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -260,8 +259,7 @@
                                       "type": "Literal",
                                       "start": 939,
                                       "end": 952,
-                                      "value": "inner error",
-                                      "raw": "'inner error'"
+                                      "value": "inner error"
                                     },
                                     "kind": "init"
                                   }
@@ -383,8 +381,7 @@
                             "type": "Literal",
                             "start": 1063,
                             "end": 1064,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -407,8 +404,7 @@
                               "type": "Literal",
                               "start": 1093,
                               "end": 1118,
-                              "value": "should not be overriden",
-                              "raw": "'should not be overriden'"
+                              "value": "should not be overriden"
                             }
                           ]
                         }
@@ -461,15 +457,13 @@
             "type": "Literal",
             "start": 1163,
             "end": 1164,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1166,
             "end": 1194,
-            "value": "The loop body is evaluated",
-            "raw": "'The loop body is evaluated'"
+            "value": "The loop body is evaluated"
           }
         ],
         "optional": false

@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 475,
                   "end": 477,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 }
               ]
             },
@@ -80,8 +79,7 @@
           "type": "Literal",
           "start": 507,
           "end": 510,
-          "value": "4",
-          "raw": "\"4\""
+          "value": "4"
         }
       },
       "consequent": {
@@ -112,8 +110,7 @@
                     "type": "Literal",
                     "start": 539,
                     "end": 641,
-                    "value": "#1: new String(42).charAt(function(){}()) === \"4\". Actual: new String(42).charAt(function(){}()) ===",
-                    "raw": "'#1: new String(42).charAt(function(){}()) === \"4\". Actual: new String(42).charAt(function(){}()) ==='"
+                    "value": "#1: new String(42).charAt(function(){}()) === \"4\". Actual: new String(42).charAt(function(){}()) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -139,8 +136,7 @@
                             "type": "Literal",
                             "start": 655,
                             "end": 657,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ]
                       },

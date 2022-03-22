@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 882,
                     "end": 884,
                     "name": "m"
@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 896,
                             "end": 905,
-                            "value": "test262",
-                            "raw": "'test262'"
+                            "value": "test262"
                           }
                         }
                       ]
@@ -116,14 +115,14 @@
                                 "start": 933,
                                 "end": 937
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 938,
                                 "end": 940,
                                 "name": "m"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             },
                             "arguments": [],
                             "optional": false
@@ -229,8 +228,7 @@
             "type": "Literal",
             "start": 998,
             "end": 1007,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false

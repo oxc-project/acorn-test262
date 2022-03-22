@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 1254,
             "end": 1255,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "ObjectExpression",
@@ -109,8 +108,7 @@
                               "type": "Literal",
                               "start": 1296,
                               "end": 1330,
-                              "value": "Setter on Array.prototype called",
-                              "raw": "'Setter on Array.prototype called'"
+                              "value": "Setter on Array.prototype called"
                             }
                           ]
                         }
@@ -170,8 +168,7 @@
                     "type": "Literal",
                     "start": 1362,
                     "end": 1364,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   }
                 ]
               }

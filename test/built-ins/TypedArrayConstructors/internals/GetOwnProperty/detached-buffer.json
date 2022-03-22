@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 957,
                             "end": 958,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -178,8 +177,7 @@
                             "type": "Literal",
                             "start": 1058,
                             "end": 1059,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -194,8 +192,7 @@
                         "type": "Literal",
                         "start": 1081,
                         "end": 1147,
-                        "value": "Object.getOwnPropertyDescriptor(sample, 0) must return undefined",
-                        "raw": "'Object.getOwnPropertyDescriptor(sample, 0) must return undefined'"
+                        "value": "Object.getOwnPropertyDescriptor(sample, 0) must return undefined"
                       }
                     ],
                     "optional": false

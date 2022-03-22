@@ -104,8 +104,7 @@
                 "type": "Literal",
                 "start": 1257,
                 "end": 1285,
-                "value": "(0, async function* () {})",
-                "raw": "'(0, async function* () {})'"
+                "value": "(0, async function* () {})"
               }
             ],
             "optional": false
@@ -293,8 +292,7 @@
             "type": "Literal",
             "start": 1453,
             "end": 1480,
-            "value": "fn.prototype is undefined",
-            "raw": "'fn.prototype is undefined'"
+            "value": "fn.prototype is undefined"
           }
         ],
         "optional": false
@@ -415,8 +413,7 @@
             "type": "Literal",
             "start": 1576,
             "end": 1598,
-            "value": "fn.prototype is null",
-            "raw": "'fn.prototype is null'"
+            "value": "fn.prototype is null"
           }
         ],
         "optional": false
@@ -537,8 +534,7 @@
             "type": "Literal",
             "start": 1694,
             "end": 1721,
-            "value": "fn.prototype is a Boolean",
-            "raw": "'fn.prototype is a Boolean'"
+            "value": "fn.prototype is a Boolean"
           }
         ],
         "optional": false
@@ -576,8 +572,7 @@
           "type": "Literal",
           "start": 1740,
           "end": 1745,
-          "value": "str",
-          "raw": "'str'"
+          "value": "str"
         }
       }
     },
@@ -659,8 +654,7 @@
             "type": "Literal",
             "start": 1818,
             "end": 1844,
-            "value": "fn.prototype is a String",
-            "raw": "'fn.prototype is a String'"
+            "value": "fn.prototype is a String"
           }
         ],
         "optional": false
@@ -787,8 +781,7 @@
             "type": "Literal",
             "start": 1944,
             "end": 1970,
-            "value": "fn.prototype is a Symbol",
-            "raw": "'fn.prototype is a Symbol'"
+            "value": "fn.prototype is a Symbol"
           }
         ],
         "optional": false
@@ -826,8 +819,7 @@
           "type": "Literal",
           "start": 1989,
           "end": 1990,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -909,8 +901,7 @@
             "type": "Literal",
             "start": 2063,
             "end": 2089,
-            "value": "fn.prototype is a Number",
-            "raw": "'fn.prototype is a Number'"
+            "value": "fn.prototype is a Number"
           }
         ],
         "optional": false

@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 696,
                   "end": 708,
-                  "value": "byteOffset",
-                  "raw": "\"byteOffset\""
+                  "value": "byteOffset"
                 }
               ],
               "optional": false
@@ -181,8 +180,7 @@
             "type": "Literal",
             "start": 777,
             "end": 781,
-            "value": "{}",
-            "raw": "\"{}\""
+            "value": "{}"
           }
         ],
         "optional": false
@@ -281,8 +279,7 @@
             "type": "Literal",
             "start": 845,
             "end": 849,
-            "value": "[]",
-            "raw": "\"[]\""
+            "value": "[]"
           }
         ],
         "optional": false
@@ -318,8 +315,7 @@
                 "type": "Literal",
                 "start": 884,
                 "end": 885,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               }
             ]
           }
@@ -420,8 +416,7 @@
             "type": "Literal",
             "start": 948,
             "end": 961,
-            "value": "ArrayBuffer",
-            "raw": "\"ArrayBuffer\""
+            "value": "ArrayBuffer"
           }
         ],
         "optional": false
@@ -551,8 +546,7 @@
             "type": "Literal",
             "start": 1051,
             "end": 1063,
-            "value": "TypedArray",
-            "raw": "\"TypedArray\""
+            "value": "TypedArray"
           }
         ],
         "optional": false

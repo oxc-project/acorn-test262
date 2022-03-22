@@ -105,8 +105,7 @@
                                   "type": "Literal",
                                   "start": 1228,
                                   "end": 1234,
-                                  "value": "prop",
-                                  "raw": "'prop'"
+                                  "value": "prop"
                                 }
                               ]
                             }

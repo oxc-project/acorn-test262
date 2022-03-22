@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1561,
                 "end": 1562,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               }
             ]
           }
@@ -78,8 +77,7 @@
                 "type": "Literal",
                 "start": 1599,
                 "end": 1600,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -312,8 +310,7 @@
                             "type": "Literal",
                             "start": 1813,
                             "end": 1814,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Identifier",
@@ -391,8 +388,7 @@
                             "type": "Literal",
                             "start": 1874,
                             "end": 1875,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -411,8 +407,7 @@
                           "type": "Literal",
                           "start": 1896,
                           "end": 1905,
-                          "value": "value: ",
-                          "raw": "\"value: \""
+                          "value": "value: "
                         },
                         "operator": "+",
                         "right": {
@@ -474,8 +469,7 @@
                           "type": "Literal",
                           "start": 1970,
                           "end": 2000,
-                          "value": "return is undefined, value: ",
-                          "raw": "\"return is undefined, value: \""
+                          "value": "return is undefined, value: "
                         },
                         "operator": "+",
                         "right": {

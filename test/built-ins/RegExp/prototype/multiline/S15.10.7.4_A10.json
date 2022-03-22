@@ -97,8 +97,7 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 412,
-                "value": "multiline",
-                "raw": "'multiline'"
+                "value": "multiline"
               }
             ],
             "optional": false
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 421,
             "end": 474,
-            "value": "__re.hasOwnProperty('multiline') must return true",
-            "raw": "'__re.hasOwnProperty(\\'multiline\\') must return true'"
+            "value": "__re.hasOwnProperty('multiline') must return true"
           }
         ],
         "optional": false
@@ -141,7 +139,6 @@
             "start": 493,
             "end": 497,
             "value": {},
-            "raw": "/\\n/",
             "regex": {
               "pattern": "\\n",
               "flags": ""
@@ -214,22 +211,19 @@
             "type": "Literal",
             "start": 560,
             "end": 571,
-            "value": "multiline",
-            "raw": "\"multiline\""
+            "value": "multiline"
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 584,
-            "value": "multiline",
-            "raw": "\"multiline\""
+            "value": "multiline"
           },
           {
             "type": "Literal",
             "start": 586,
             "end": 595,
-            "value": "shifted",
-            "raw": "\"shifted\""
+            "value": "shifted"
           }
         ],
         "optional": false
@@ -292,8 +286,7 @@
             "type": "Literal",
             "start": 643,
             "end": 716,
-            "value": "The value of __sample.multiline is expected to equal the value of __obj",
-            "raw": "'The value of __sample.multiline is expected to equal the value of __obj'"
+            "value": "The value of __sample.multiline is expected to equal the value of __obj"
           }
         ],
         "optional": false

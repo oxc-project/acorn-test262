@@ -100,8 +100,7 @@
                             "type": "Literal",
                             "start": 1046,
                             "end": 1048,
-                            "value": "",
-                            "raw": "''"
+                            "value": ""
                           }
                         ],
                         "optional": false
@@ -182,8 +181,7 @@
                             "type": "Literal",
                             "start": 1099,
                             "end": 1101,
-                            "value": "",
-                            "raw": "''"
+                            "value": ""
                           }
                         ],
                         "optional": false
@@ -270,8 +268,7 @@
                             "type": "Literal",
                             "start": 1155,
                             "end": 1157,
-                            "value": "",
-                            "raw": "''"
+                            "value": ""
                           }
                         ],
                         "optional": false
@@ -318,8 +315,7 @@
             "type": "Literal",
             "start": 1179,
             "end": 1180,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -407,8 +403,7 @@
                             "type": "Literal",
                             "start": 1217,
                             "end": 1218,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           }
                         ],
                         "optional": false
@@ -465,8 +460,7 @@
                             "type": "Literal",
                             "start": 1257,
                             "end": 1258,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           }
                         ],
                         "optional": false
@@ -497,8 +491,7 @@
                             "type": "Literal",
                             "start": 1287,
                             "end": 1317,
-                            "value": "Expected to be called first.",
-                            "raw": "'Expected to be called first.'"
+                            "value": "Expected to be called first."
                           }
                         ],
                         "optional": false
@@ -658,8 +651,7 @@
                             "type": "Literal",
                             "start": 1393,
                             "end": 1394,
-                            "value": 6,
-                            "raw": "6"
+                            "value": 6
                           }
                         ],
                         "optional": false
@@ -716,8 +708,7 @@
                             "type": "Literal",
                             "start": 1433,
                             "end": 1434,
-                            "value": 6,
-                            "raw": "6"
+                            "value": 6
                           }
                         ],
                         "optional": false
@@ -748,8 +739,7 @@
                             "type": "Literal",
                             "start": 1463,
                             "end": 1494,
-                            "value": "Expected to be called fourth.",
-                            "raw": "'Expected to be called fourth.'"
+                            "value": "Expected to be called fourth."
                           }
                         ],
                         "optional": false
@@ -869,8 +859,7 @@
                             "type": "Literal",
                             "start": 1553,
                             "end": 1554,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ],
                         "optional": false
@@ -927,8 +916,7 @@
                             "type": "Literal",
                             "start": 1593,
                             "end": 1594,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ],
                         "optional": false
@@ -959,8 +947,7 @@
                             "type": "Literal",
                             "start": 1623,
                             "end": 1654,
-                            "value": "Expected to be called second.",
-                            "raw": "'Expected to be called second.'"
+                            "value": "Expected to be called second."
                           }
                         ],
                         "optional": false
@@ -1024,8 +1011,7 @@
             "type": "Literal",
             "start": 1689,
             "end": 1690,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -1113,8 +1099,7 @@
                             "type": "Literal",
                             "start": 1727,
                             "end": 1728,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           }
                         ],
                         "optional": false
@@ -1171,8 +1156,7 @@
                             "type": "Literal",
                             "start": 1767,
                             "end": 1768,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           }
                         ],
                         "optional": false
@@ -1203,8 +1187,7 @@
                             "type": "Literal",
                             "start": 1797,
                             "end": 1827,
-                            "value": "Expected to be called third.",
-                            "raw": "'Expected to be called third.'"
+                            "value": "Expected to be called third."
                           }
                         ],
                         "optional": false

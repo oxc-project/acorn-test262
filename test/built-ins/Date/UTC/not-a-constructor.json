@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Date.UTC) must return false",
-            "raw": "'isConstructor(Date.UTC) must return false'"
+            "value": "isConstructor(Date.UTC) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Date.UTC()` throws TypeError",
-            "raw": "'`new Date.UTC()` throws TypeError'"
+            "value": "`new Date.UTC()` throws TypeError"
           }
         ],
         "optional": false

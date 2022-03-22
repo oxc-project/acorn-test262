@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 427,
                     "end": 496,
-                    "value": "#1.1: new RegExp(\"\",eval(\"\\\"migr\\\"\")) throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"\",eval(\"\\\\\"migr\\\\\"\")) throw SyntaxError. Actual: '"
+                    "value": "#1.1: new RegExp(\"\",eval(\"\\\"migr\\\"\")) throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -58,8 +57,7 @@
                           "type": "Literal",
                           "start": 511,
                           "end": 513,
-                          "value": "",
-                          "raw": "\"\""
+                          "value": ""
                         },
                         {
                           "type": "CallExpression",
@@ -76,8 +74,7 @@
                               "type": "Literal",
                               "start": 519,
                               "end": 529,
-                              "value": "\"migr\"",
-                              "raw": "\"\\\"migr\\\"\""
+                              "value": "\"migr\""
                             }
                           ],
                           "optional": false
@@ -163,8 +160,7 @@
                     "type": "Literal",
                     "start": 613,
                     "end": 689,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

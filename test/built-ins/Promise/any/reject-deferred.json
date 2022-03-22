@@ -301,8 +301,7 @@
                             "type": "Literal",
                             "start": 628,
                             "end": 661,
-                            "value": "The promise should be rejected.",
-                            "raw": "'The promise should be rejected.'"
+                            "value": "The promise should be rejected."
                           }
                         ],
                         "optional": false
@@ -433,8 +432,7 @@
                             "type": "Literal",
                             "start": 781,
                             "end": 782,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -495,8 +493,7 @@
                               "type": "Literal",
                               "start": 823,
                               "end": 824,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             "computed": true,
                             "optional": false

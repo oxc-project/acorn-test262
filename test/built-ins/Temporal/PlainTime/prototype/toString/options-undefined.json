@@ -32,15 +32,13 @@
                     "type": "Literal",
                     "start": 295,
                     "end": 302,
-                    "value": "15:23",
-                    "raw": "\"15:23\""
+                    "value": "15:23"
                   },
                   {
                     "type": "Literal",
                     "start": 304,
                     "end": 314,
-                    "value": "15:23:00",
-                    "raw": "\"15:23:00\""
+                    "value": "15:23:00"
                   }
                 ]
               },
@@ -53,15 +51,13 @@
                     "type": "Literal",
                     "start": 320,
                     "end": 330,
-                    "value": "15:23:30",
-                    "raw": "\"15:23:30\""
+                    "value": "15:23:30"
                   },
                   {
                     "type": "Literal",
                     "start": 332,
                     "end": 342,
-                    "value": "15:23:30",
-                    "raw": "\"15:23:30\""
+                    "value": "15:23:30"
                   }
                 ]
               },
@@ -74,15 +70,13 @@
                     "type": "Literal",
                     "start": 348,
                     "end": 363,
-                    "value": "15:23:30.1234",
-                    "raw": "\"15:23:30.1234\""
+                    "value": "15:23:30.1234"
                   },
                   {
                     "type": "Literal",
                     "start": 365,
                     "end": 380,
-                    "value": "15:23:30.1234",
-                    "raw": "\"15:23:30.1234\""
+                    "value": "15:23:30.1234"
                   }
                 ]
               }
@@ -302,8 +296,7 @@
                   "type": "Literal",
                   "start": 560,
                   "end": 603,
-                  "value": "default precision is auto and no rounding",
-                  "raw": "\"default precision is auto and no rounding\""
+                  "value": "default precision is auto and no rounding"
                 }
               ],
               "optional": false
@@ -398,8 +391,7 @@
                   "type": "Literal",
                   "start": 682,
                   "end": 725,
-                  "value": "default precision is auto and no rounding",
-                  "raw": "\"default precision is auto and no rounding\""
+                  "value": "default precision is auto and no rounding"
                 }
               ],
               "optional": false

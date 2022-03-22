@@ -154,8 +154,7 @@
                   "type": "Literal",
                   "start": 1142,
                   "end": 1154,
-                  "value": "var x = 1;",
-                  "raw": "'var x = 1;'"
+                  "value": "var x = 1;"
                 }
               ],
               "optional": false
@@ -352,8 +351,7 @@
             "type": "Literal",
             "start": 1315,
             "end": 1316,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -404,15 +402,13 @@
             "type": "Literal",
             "start": 1351,
             "end": 1352,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1354,
             "end": 1385,
-            "value": "reference preceding statement",
-            "raw": "'reference preceding statement'"
+            "value": "reference preceding statement"
           }
         ],
         "optional": false
@@ -463,15 +459,13 @@
             "type": "Literal",
             "start": 1418,
             "end": 1419,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1421,
             "end": 1453,
-            "value": "reference from \"test\" position",
-            "raw": "'reference from \"test\" position'"
+            "value": "reference from \"test\" position"
           }
         ],
         "optional": false
@@ -522,15 +516,13 @@
             "type": "Literal",
             "start": 1486,
             "end": 1487,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1489,
             "end": 1520,
-            "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "value": "reference from statement body"
           }
         ],
         "optional": false
@@ -581,15 +573,13 @@
             "type": "Literal",
             "start": 1553,
             "end": 1554,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1556,
             "end": 1593,
-            "value": "reference from \"increment\" position",
-            "raw": "'reference from \"increment\" position'"
+            "value": "reference from \"increment\" position"
           }
         ],
         "optional": false
@@ -633,15 +623,13 @@
             "type": "Literal",
             "start": 1616,
             "end": 1617,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1619,
             "end": 1650,
-            "value": "reference following statement",
-            "raw": "'reference following statement'"
+            "value": "reference following statement"
           }
         ],
         "optional": false

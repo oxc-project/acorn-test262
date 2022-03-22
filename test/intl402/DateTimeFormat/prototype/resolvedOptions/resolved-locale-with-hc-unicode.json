@@ -110,8 +110,7 @@
               "type": "Literal",
               "start": 1437,
               "end": 1448,
-              "value": "-u-hc-h11",
-              "raw": "\"-u-hc-h11\""
+              "value": "-u-hc-h11"
             }
           }
         }
@@ -237,8 +236,7 @@
                                 "type": "Literal",
                                 "start": 1578,
                                 "end": 1587,
-                                "value": "2-digit",
-                                "raw": "\"2-digit\""
+                                "value": "2-digit"
                               },
                               "kind": "init"
                             },
@@ -398,8 +396,7 @@
                     "type": "Literal",
                     "start": 1737,
                     "end": 1759,
-                    "value": " (With hour option.)",
-                    "raw": "\" (With hour option.)\""
+                    "value": " (With hour option.)"
                   }
                 }
               ],
@@ -618,8 +615,7 @@
                     "type": "Literal",
                     "start": 2217,
                     "end": 2242,
-                    "value": " (Without hour option.)",
-                    "raw": "\" (Without hour option.)\""
+                    "value": " (Without hour option.)"
                   }
                 }
               ],
@@ -700,8 +696,7 @@
                   "type": "Literal",
                   "start": 2336,
                   "end": 2341,
-                  "value": "h23",
-                  "raw": "\"h23\""
+                  "value": "h23"
                 },
                 "kind": "init"
               }
@@ -711,8 +706,7 @@
             "type": "Literal",
             "start": 2346,
             "end": 2420,
-            "value": "hour12 and hourCycle options and hc Unicode extension value are present.",
-            "raw": "\"hour12 and hourCycle options and hc Unicode extension value are present.\""
+            "value": "hour12 and hourCycle options and hc Unicode extension value are present."
           }
         ],
         "optional": false
@@ -778,8 +772,7 @@
             "type": "Literal",
             "start": 2502,
             "end": 2561,
-            "value": "hour12 option and hc Unicode extension value are present.",
-            "raw": "\"hour12 option and hc Unicode extension value are present.\""
+            "value": "hour12 option and hc Unicode extension value are present."
           }
         ],
         "optional": false
@@ -834,8 +827,7 @@
                   "type": "Literal",
                   "start": 2636,
                   "end": 2641,
-                  "value": "h23",
-                  "raw": "\"h23\""
+                  "value": "h23"
                 },
                 "kind": "init"
               }
@@ -845,8 +837,7 @@
             "type": "Literal",
             "start": 2646,
             "end": 2708,
-            "value": "hourCycle option and hc Unicode extension value are present.",
-            "raw": "\"hourCycle option and hc Unicode extension value are present.\""
+            "value": "hourCycle option and hc Unicode extension value are present."
           }
         ],
         "optional": false
@@ -889,8 +880,7 @@
             "type": "Literal",
             "start": 2786,
             "end": 2831,
-            "value": "Only hc Unicode extension value is present.",
-            "raw": "\"Only hc Unicode extension value is present.\""
+            "value": "Only hc Unicode extension value is present."
           }
         ],
         "optional": false
@@ -967,8 +957,7 @@
                   "type": "Literal",
                   "start": 3018,
                   "end": 3023,
-                  "value": "h23",
-                  "raw": "\"h23\""
+                  "value": "h23"
                 },
                 "kind": "init"
               }
@@ -978,8 +967,7 @@
             "type": "Literal",
             "start": 3028,
             "end": 3106,
-            "value": "hour12 and hourCycle options are present, but no hc Unicode extension value.",
-            "raw": "\"hour12 and hourCycle options are present, but no hc Unicode extension value.\""
+            "value": "hour12 and hourCycle options are present, but no hc Unicode extension value."
           }
         ],
         "optional": false
@@ -1045,8 +1033,7 @@
             "type": "Literal",
             "start": 3175,
             "end": 3240,
-            "value": "hourCycle option is present, but no hc Unicode extension value.",
-            "raw": "\"hourCycle option is present, but no hc Unicode extension value.\""
+            "value": "hourCycle option is present, but no hc Unicode extension value."
           }
         ],
         "optional": false
@@ -1101,8 +1088,7 @@
                   "type": "Literal",
                   "start": 3302,
                   "end": 3307,
-                  "value": "h23",
-                  "raw": "\"h23\""
+                  "value": "h23"
                 },
                 "kind": "init"
               }
@@ -1112,8 +1098,7 @@
             "type": "Literal",
             "start": 3312,
             "end": 3377,
-            "value": "hourCycle option is present, but no hc Unicode extension value.",
-            "raw": "\"hourCycle option is present, but no hc Unicode extension value.\""
+            "value": "hourCycle option is present, but no hc Unicode extension value."
           }
         ],
         "optional": false
@@ -1156,8 +1141,7 @@
             "type": "Literal",
             "start": 3429,
             "end": 3488,
-            "value": "No options are present and no hc Unicode extension value.",
-            "raw": "\"No options are present and no hc Unicode extension value.\""
+            "value": "No options are present and no hc Unicode extension value."
           }
         ],
         "optional": false

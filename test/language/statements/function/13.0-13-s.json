@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 518,
                         "end": 605,
-                        "value": "var _13_0_13_fun = new Function(\" \", \"'use strict'; eval = 42;\"); _13_0_13_fun();",
-                        "raw": "\"var _13_0_13_fun = new Function(\\\" \\\", \\\"'use strict'; eval = 42;\\\"); _13_0_13_fun();\""
+                        "value": "var _13_0_13_fun = new Function(\" \", \"'use strict'; eval = 42;\"); _13_0_13_fun();"
                       }
                     ],
                     "optional": false

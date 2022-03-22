@@ -72,8 +72,7 @@
             "type": "Literal",
             "start": 342,
             "end": 348,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -117,8 +116,7 @@
             "type": "Literal",
             "start": 379,
             "end": 384,
-            "value": "set",
-            "raw": "\"set\""
+            "value": "set"
           },
           {
             "type": "ObjectExpression",
@@ -355,8 +353,7 @@
             "type": "Literal",
             "start": 600,
             "end": 610,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -400,8 +397,7 @@
           "type": "Literal",
           "start": 635,
           "end": 662,
-          "value": "inheritedAccessorProperty",
-          "raw": "\"inheritedAccessorProperty\""
+          "value": "inheritedAccessorProperty"
         }
       }
     },
@@ -448,8 +444,7 @@
                 "type": "Literal",
                 "start": 691,
                 "end": 701,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -458,8 +453,7 @@
             "type": "Literal",
             "start": 704,
             "end": 745,
-            "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "value": "obj.hasOwnProperty(\"property\") !== true"
           }
         ],
         "optional": false
@@ -503,15 +497,13 @@
             "type": "Literal",
             "start": 771,
             "end": 798,
-            "value": "inheritedAccessorProperty",
-            "raw": "\"inheritedAccessorProperty\""
+            "value": "inheritedAccessorProperty"
           },
           {
             "type": "Literal",
             "start": 800,
             "end": 806,
-            "value": "data",
-            "raw": "'data'"
+            "value": "data"
           }
         ],
         "optional": false

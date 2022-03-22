@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 435,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,15 +97,13 @@
                 "type": "Literal",
                 "start": 481,
                 "end": 483,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 485,
                 "end": 487,
-                "value": 25,
-                "raw": "25"
+                "value": 25
               }
             ]
           }
@@ -179,15 +176,13 @@
             "type": "Literal",
             "start": 537,
             "end": 542,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 546,
             "end": 615,
-            "value": "cal.monthCode(new Temporal.PlainMonthDay(12, 25)) must return \"M12\"",
-            "raw": "'cal.monthCode(new Temporal.PlainMonthDay(12, 25)) must return \"M12\"'"
+            "value": "cal.monthCode(new Temporal.PlainMonthDay(12, 25)) must return \"M12\""
           }
         ],
         "optional": false

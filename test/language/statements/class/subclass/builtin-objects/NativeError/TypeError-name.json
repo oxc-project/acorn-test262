@@ -108,8 +108,7 @@
             "type": "Literal",
             "start": 545,
             "end": 556,
-            "value": "TypeError",
-            "raw": "'TypeError'"
+            "value": "TypeError"
           }
         ],
         "optional": false

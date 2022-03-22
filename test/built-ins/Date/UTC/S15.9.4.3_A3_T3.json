@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 365,
                   "end": 373,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 378,
             "end": 458,
-            "value": "The value of !Date.UTC.propertyIsEnumerable('length') is expected to be true",
-            "raw": "'The value of !Date.UTC.propertyIsEnumerable(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.UTC.propertyIsEnumerable('length') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 522,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 {
                   "type": "Literal",
                   "start": 524,
                   "end": 556,
-                  "value": "The value of x is not \"length\"",
-                  "raw": "'The value of x is not \"length\"'"
+                  "value": "The value of x is not \"length\""
                 }
               ],
               "optional": false

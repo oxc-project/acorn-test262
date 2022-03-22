@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 324,
             "end": 326,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         }
       ],
@@ -59,8 +58,7 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 352,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ]
           }
@@ -171,8 +169,7 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 575,
-                  "value": "#1: \"\".constructor === new String(\"\").constructor",
-                  "raw": "'#1: \"\".constructor === new String(\"\").constructor'"
+                  "value": "#1: \"\".constructor === new String(\"\").constructor"
                 }
               ]
             }
@@ -253,8 +250,7 @@
                   "type": "Literal",
                   "start": 789,
                   "end": 838,
-                  "value": "#2: \"\".constructor === new String().constructor",
-                  "raw": "'#2: \"\".constructor === new String().constructor'"
+                  "value": "#2: \"\".constructor === new String().constructor"
                 }
               ]
             }
@@ -309,8 +305,7 @@
                   "type": "Literal",
                   "start": 1026,
                   "end": 1086,
-                  "value": "#3: values of str=\"\"; and strObj=new String(\"\"); are equal",
-                  "raw": "'#3: values of str=\"\"; and strObj=new String(\"\"); are equal'"
+                  "value": "#3: values of str=\"\"; and strObj=new String(\"\"); are equal"
                 }
               ]
             }
@@ -365,8 +360,7 @@
                   "type": "Literal",
                   "start": 1275,
                   "end": 1340,
-                  "value": "#4: objects of str=\"\"; and strObj=new String(\"\"); are different",
-                  "raw": "'#4: objects of str=\"\"; and strObj=new String(\"\"); are different'"
+                  "value": "#4: objects of str=\"\"; and strObj=new String(\"\"); are different"
                 }
               ]
             }
@@ -421,8 +415,7 @@
                   "type": "Literal",
                   "start": 1529,
                   "end": 1587,
-                  "value": "#5: values of str=\"\"; and strObj=new String(); are equal",
-                  "raw": "'#5: values of str=\"\"; and strObj=new String(); are equal'"
+                  "value": "#5: values of str=\"\"; and strObj=new String(); are equal"
                 }
               ]
             }
@@ -477,8 +470,7 @@
                   "type": "Literal",
                   "start": 1777,
                   "end": 1840,
-                  "value": "#6: objects of str=\"\"; and strObj=new String(); are different",
-                  "raw": "'#6: objects of str=\"\"; and strObj=new String(); are different'"
+                  "value": "#6: objects of str=\"\"; and strObj=new String(); are different"
                 }
               ]
             }

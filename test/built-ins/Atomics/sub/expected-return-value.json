@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 882,
                       "end": 883,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -99,8 +98,7 @@
             "type": "Literal",
             "start": 903,
             "end": 937,
-            "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "value": 16810113
           }
         }
       ],
@@ -129,8 +127,7 @@
             "type": "Literal",
             "start": 945,
             "end": 946,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -205,8 +202,7 @@
                 "type": "Literal",
                 "start": 997,
                 "end": 998,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -227,8 +223,7 @@
             "type": "Literal",
             "start": 1021,
             "end": 1118,
-            "value": "Atomics.sub(i32a, 0, update) returns the value of `update` (0b00000001000000001000000010000001)",
-            "raw": "'Atomics.sub(i32a, 0, update) returns the value of `update` (0b00000001000000001000000010000001)'"
+            "value": "Atomics.sub(i32a, 0, update) returns the value of `update` (0b00000001000000001000000010000001)"
           }
         ],
         "optional": false
@@ -276,8 +271,7 @@
               "type": "Literal",
               "start": 1144,
               "end": 1145,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -286,15 +280,13 @@
             "type": "Literal",
             "start": 1148,
             "end": 1149,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1151,
             "end": 1178,
-            "value": "The value of i32a[0] is 0",
-            "raw": "'The value of i32a[0] is 0'"
+            "value": "The value of i32a[0] is 0"
           }
         ],
         "optional": false

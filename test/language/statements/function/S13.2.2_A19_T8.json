@@ -29,8 +29,7 @@
           "type": "Literal",
           "start": 405,
           "end": 416,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 444,
                     "end": 506,
-                    "value": "#0: typeof __func === \"undefined\". Actual: typeof __func ===",
-                    "raw": "'#0: typeof __func === \"undefined\". Actual: typeof __func ==='"
+                    "value": "#0: typeof __func === \"undefined\". Actual: typeof __func ==="
                   },
                   "operator": "+",
                   "right": {
@@ -105,8 +103,7 @@
             "type": "Literal",
             "start": 616,
             "end": 617,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         {
@@ -123,8 +120,7 @@
             "type": "Literal",
             "start": 623,
             "end": 626,
-            "value": "a",
-            "raw": "\"a\""
+            "value": "a"
           }
         }
       ],
@@ -167,8 +163,7 @@
                   "type": "Literal",
                   "start": 644,
                   "end": 645,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               }
@@ -201,8 +196,7 @@
               "type": "Literal",
               "start": 674,
               "end": 675,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "body": {
               "type": "BlockStatement",
@@ -312,8 +306,7 @@
           "type": "Literal",
           "start": 899,
           "end": 900,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -344,8 +337,7 @@
                     "type": "Literal",
                     "start": 928,
                     "end": 970,
-                    "value": "#1: __func() === 2. Actual: __func() ===",
-                    "raw": "'#1: __func() === 2. Actual: __func() ==='"
+                    "value": "#1: __func() === 2. Actual: __func() ==="
                   },
                   "operator": "+",
                   "right": {
@@ -406,8 +398,7 @@
                   "type": "Literal",
                   "start": 1082,
                   "end": 1083,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               },
@@ -428,8 +419,7 @@
                   "type": "Literal",
                   "start": 1086,
                   "end": 1089,
-                  "value": "b",
-                  "raw": "\"b\""
+                  "value": "b"
                 },
                 "kind": "init"
               }
@@ -548,8 +538,7 @@
           "type": "Literal",
           "start": 1288,
           "end": 1291,
-          "value": "b",
-          "raw": "\"b\""
+          "value": "b"
         }
       },
       "consequent": {
@@ -580,8 +569,7 @@
                     "type": "Literal",
                     "start": 1319,
                     "end": 1360,
-                    "value": "#2: __func()===\"b\". Actual: __func()===",
-                    "raw": "'#2: __func()===\"b\". Actual: __func()==='"
+                    "value": "#2: __func()===\"b\". Actual: __func()==="
                   },
                   "operator": "+",
                   "right": {
@@ -631,8 +619,7 @@
               "type": "Literal",
               "start": 1466,
               "end": 1468,
-              "value": 99,
-              "raw": "99"
+              "value": 99
             },
             "kind": "init"
           },
@@ -653,8 +640,7 @@
               "type": "Literal",
               "start": 1471,
               "end": 1474,
-              "value": "c",
-              "raw": "\"c\""
+              "value": "c"
             },
             "kind": "init"
           }
@@ -691,8 +677,7 @@
                 "type": "Literal",
                 "start": 1597,
                 "end": 1600,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             },
             "consequent": {
@@ -723,8 +708,7 @@
                           "type": "Literal",
                           "start": 1632,
                           "end": 1673,
-                          "value": "#3: __func()===\"b\". Actual: __func()===",
-                          "raw": "'#3: __func()===\"b\". Actual: __func()==='"
+                          "value": "#3: __func()===\"b\". Actual: __func()==="
                         },
                         "operator": "+",
                         "right": {

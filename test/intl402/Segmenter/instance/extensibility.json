@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 494,
             "end": 550,
-            "value": "Object.isExtensible(new Intl.Segmenter()) returns true",
-            "raw": "\"Object.isExtensible(new Intl.Segmenter()) returns true\""
+            "value": "Object.isExtensible(new Intl.Segmenter()) returns true"
           }
         ],
         "optional": false

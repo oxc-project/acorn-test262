@@ -52,8 +52,7 @@
               "type": "Literal",
               "start": 289,
               "end": 295,
-              "value": 65,
-              "raw": "0x0041"
+              "value": 65
             }
           }
         ],
@@ -74,8 +73,7 @@
           "type": "Literal",
           "start": 306,
           "end": 312,
-          "value": 90,
-          "raw": "0x005A"
+          "value": 90
         }
       },
       "update": {
@@ -150,8 +148,7 @@
                         "type": "Literal",
                         "start": 365,
                         "end": 367,
-                        "value": 32,
-                        "raw": "32"
+                        "value": 32
                       }
                     }
                   ],
@@ -207,8 +204,7 @@
                               "type": "Literal",
                               "start": 394,
                               "end": 399,
-                              "value": "\\c",
-                              "raw": "\"\\\\c\""
+                              "value": "\\c"
                             },
                             "operator": "+",
                             "right": {
@@ -326,8 +322,7 @@
                       "type": "Literal",
                       "start": 473,
                       "end": 474,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false
@@ -423,8 +418,7 @@
             "type": "Literal",
             "start": 546,
             "end": 590,
-            "value": "The value of result is expected to be true",
-            "raw": "'The value of result is expected to be true'"
+            "value": "The value of result is expected to be true"
           }
         ],
         "optional": false

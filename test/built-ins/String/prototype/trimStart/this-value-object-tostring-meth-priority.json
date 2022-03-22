@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1511,
             "end": 1512,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1537,
             "end": 1538,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 1562,
             "end": 1563,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -161,8 +158,7 @@
                             "type": "Literal",
                             "start": 1639,
                             "end": 1640,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -228,8 +224,7 @@
                             "type": "Literal",
                             "start": 1712,
                             "end": 1713,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -259,8 +254,7 @@
                                   "type": "Literal",
                                   "start": 1752,
                                   "end": 1757,
-                                  "value": " 42",
-                                  "raw": "' 42'"
+                                  "value": " 42"
                                 }
                               }
                             ]
@@ -318,8 +312,7 @@
                             "type": "Literal",
                             "start": 1812,
                             "end": 1813,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -349,8 +342,7 @@
                                   "type": "Literal",
                                   "start": 1852,
                                   "end": 1854,
-                                  "value": "",
-                                  "raw": "''"
+                                  "value": ""
                                 }
                               }
                             ]
@@ -483,15 +475,13 @@
             "type": "Literal",
             "start": 2041,
             "end": 2042,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2046,
             "end": 2096,
-            "value": "thisVal.toString expected to have been accessed.",
-            "raw": "'thisVal.toString expected to have been accessed.'"
+            "value": "thisVal.toString expected to have been accessed."
           }
         ],
         "optional": false
@@ -535,15 +525,13 @@
             "type": "Literal",
             "start": 2130,
             "end": 2134,
-            "value": "42",
-            "raw": "'42'"
+            "value": "42"
           },
           {
             "type": "Literal",
             "start": 2138,
             "end": 2186,
-            "value": "thisVal.toString expected to have been called.",
-            "raw": "'thisVal.toString expected to have been called.'"
+            "value": "thisVal.toString expected to have been called."
           }
         ],
         "optional": false
@@ -587,15 +575,13 @@
             "type": "Literal",
             "start": 2288,
             "end": 2289,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2293,
             "end": 2348,
-            "value": "thisVal[Symbol.toPrimitive should have been accessed.",
-            "raw": "'thisVal[Symbol.toPrimitive should have been accessed.'"
+            "value": "thisVal[Symbol.toPrimitive should have been accessed."
           }
         ],
         "optional": false
@@ -639,15 +625,13 @@
             "type": "Literal",
             "start": 2445,
             "end": 2446,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2450,
             "end": 2498,
-            "value": "thisVal.valueOf should not have been accessed.",
-            "raw": "'thisVal.valueOf should not have been accessed.'"
+            "value": "thisVal.valueOf should not have been accessed."
           }
         ],
         "optional": false

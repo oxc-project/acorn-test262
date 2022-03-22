@@ -20,13 +20,13 @@
         "end": 3728,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 3530,
-            "end": 3562,
+            "end": 3561,
             "static": true,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 3537,
               "end": 3539,
               "name": "m"
@@ -44,8 +44,7 @@
                 "type": "Literal",
                 "start": 3548,
                 "end": 3561,
-                "value": "outer class",
-                "raw": "'outer class'"
+                "value": "outer class"
               }
             }
           },
@@ -93,14 +92,14 @@
                           "start": 3600,
                           "end": 3604
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 3605,
                           "end": 3607,
                           "name": "m"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "arguments": [],
                       "optional": false
@@ -111,7 +110,7 @@
             }
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 3618,
             "end": 3726,
             "static": true,
@@ -140,7 +139,7 @@
                     "static": false,
                     "computed": false,
                     "key": {
-                      "type": "PrivateIdentifier",
+                      "type": "PrivateName",
                       "start": 3641,
                       "end": 3643,
                       "name": "m"
@@ -168,8 +167,7 @@
                               "type": "Literal",
                               "start": 3655,
                               "end": 3668,
-                              "value": "inner class",
-                              "raw": "'inner class'"
+                              "value": "inner class"
                             }
                           }
                         ]
@@ -228,14 +226,14 @@
                                   "end": 3710,
                                   "name": "o"
                                 },
+                                "computed": false,
+                                "optional": false,
                                 "property": {
-                                  "type": "PrivateIdentifier",
+                                  "type": "PrivateName",
                                   "start": 3711,
                                   "end": 3713,
                                   "name": "m"
-                                },
-                                "computed": false,
-                                "optional": false
+                                }
                               },
                               "arguments": [],
                               "optional": false
@@ -310,8 +308,7 @@
             "type": "Literal",
             "start": 3764,
             "end": 3777,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -439,8 +436,7 @@
             "type": "Literal",
             "start": 3833,
             "end": 3846,
-            "value": "inner class",
-            "raw": "'inner class'"
+            "value": "inner class"
           }
         ],
         "optional": false
@@ -552,8 +548,7 @@
             "type": "Literal",
             "start": 3908,
             "end": 3958,
-            "value": "accessed private method from an arbritary object",
-            "raw": "'accessed private method from an arbritary object'"
+            "value": "accessed private method from an arbritary object"
           }
         ],
         "optional": false

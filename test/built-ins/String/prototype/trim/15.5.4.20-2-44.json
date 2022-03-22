@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 301,
             "end": 307,
-            "value": "SD咕噜",
-            "raw": "\"SD咕噜\""
+            "value": "SD咕噜"
           }
         }
       ],
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 344,
             "end": 356,
-            "value": "str.trim()",
-            "raw": "'str.trim()'"
+            "value": "str.trim()"
           }
         ],
         "optional": false

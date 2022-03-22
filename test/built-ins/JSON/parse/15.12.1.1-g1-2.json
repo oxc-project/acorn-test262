@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 275,
                 "end": 283,
-                "value": "\r1234",
-                "raw": "'\\r1234'"
+                "value": "\r1234"
               }
             ],
             "optional": false
@@ -69,15 +68,13 @@
             "type": "Literal",
             "start": 286,
             "end": 290,
-            "value": 1234,
-            "raw": "1234"
+            "value": 1234
           },
           {
             "type": "Literal",
             "start": 292,
             "end": 316,
-            "value": "<cr> should be ignored",
-            "raw": "'<cr> should be ignored'"
+            "value": "<cr> should be ignored"
           }
         ],
         "optional": false
@@ -163,8 +160,7 @@
                         "type": "Literal",
                         "start": 375,
                         "end": 383,
-                        "value": "12\r34",
-                        "raw": "'12\\r34'"
+                        "value": "12\r34"
                       }
                     ],
                     "optional": false
@@ -177,8 +173,7 @@
             "type": "Literal",
             "start": 389,
             "end": 461,
-            "value": "<CR> should produce a syntax error as whitespace results in two tokens",
-            "raw": "'<CR> should produce a syntax error as whitespace results in two tokens'"
+            "value": "<CR> should produce a syntax error as whitespace results in two tokens"
           }
         ],
         "optional": false

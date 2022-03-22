@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 428,
                             "end": 437,
-                            "value": "forEach",
-                            "raw": "\"forEach\""
+                            "value": "forEach"
                           }
                         ],
                         "optional": false

@@ -43,7 +43,6 @@
           "start": 633,
           "end": 638,
           "value": {},
-          "raw": "/abc/",
           "regex": {
             "pattern": "abc",
             "flags": ""
@@ -115,8 +114,7 @@
             "type": "Literal",
             "start": 688,
             "end": 723,
-            "value": "method return value (unspecified)",
-            "raw": "'method return value (unspecified)'"
+            "value": "method return value (unspecified)"
           }
         ],
         "optional": false
@@ -188,8 +186,7 @@
                   "type": "Literal",
                   "start": 774,
                   "end": 776,
-                  "value": "",
-                  "raw": "''"
+                  "value": ""
                 }
               ]
             },
@@ -206,8 +203,7 @@
             "type": "Literal",
             "start": 786,
             "end": 820,
-            "value": "[[OriginalSource]] (unspecified)",
-            "raw": "'[[OriginalSource]] (unspecified)'"
+            "value": "[[OriginalSource]] (unspecified)"
           }
         ],
         "optional": false
@@ -269,8 +265,7 @@
                 "type": "Literal",
                 "start": 857,
                 "end": 859,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -286,8 +281,7 @@
             "type": "Literal",
             "start": 868,
             "end": 915,
-            "value": "[[RegExpMatcher]] internal slot (unspecified)",
-            "raw": "'[[RegExpMatcher]] internal slot (unspecified)'"
+            "value": "[[RegExpMatcher]] internal slot (unspecified)"
           }
         ],
         "optional": false
@@ -313,7 +307,6 @@
           "start": 930,
           "end": 935,
           "value": {},
-          "raw": "/abc/",
           "regex": {
             "pattern": "abc",
             "flags": ""
@@ -392,8 +385,7 @@
             "type": "Literal",
             "start": 998,
             "end": 1040,
-            "value": "method return value (explicit undefined)",
-            "raw": "'method return value (explicit undefined)'"
+            "value": "method return value (explicit undefined)"
           }
         ],
         "optional": false
@@ -465,8 +457,7 @@
                   "type": "Literal",
                   "start": 1093,
                   "end": 1095,
-                  "value": "",
-                  "raw": "''"
+                  "value": ""
                 }
               ]
             },
@@ -483,8 +474,7 @@
             "type": "Literal",
             "start": 1107,
             "end": 1148,
-            "value": "[[OriginalSource]] (explicit undefined)",
-            "raw": "'[[OriginalSource]] (explicit undefined)'"
+            "value": "[[OriginalSource]] (explicit undefined)"
           }
         ],
         "optional": false
@@ -546,8 +536,7 @@
                 "type": "Literal",
                 "start": 1185,
                 "end": 1187,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -563,8 +552,7 @@
             "type": "Literal",
             "start": 1200,
             "end": 1254,
-            "value": "[[RegExpMatcher]] internal slot (explicit undefined)",
-            "raw": "'[[RegExpMatcher]] internal slot (explicit undefined)'"
+            "value": "[[RegExpMatcher]] internal slot (explicit undefined)"
           }
         ],
         "optional": false

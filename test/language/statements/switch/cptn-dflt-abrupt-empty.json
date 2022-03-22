@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1430,
                 "end": 1467,
-                "value": "1; switch (\"a\") { default: break; }",
-                "raw": "'1; switch (\"a\") { default: break; }'"
+                "value": "1; switch (\"a\") { default: break; }"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 1504,
                 "end": 1548,
-                "value": "2; switch (\"a\") { default: { 3; break; } }",
-                "raw": "'2; switch (\"a\") { default: { 3; break; } }'"
+                "value": "2; switch (\"a\") { default: { 3; break; } }"
               }
             ],
             "optional": false
@@ -115,8 +113,7 @@
             "type": "Literal",
             "start": 1551,
             "end": 1552,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -165,8 +162,7 @@
                 "type": "Literal",
                 "start": 1581,
                 "end": 1646,
-                "value": "4; do { switch (\"a\") { default: { continue; } } } while (false)",
-                "raw": "'4; do { switch (\"a\") { default: { continue; } } } while (false)'"
+                "value": "4; do { switch (\"a\") { default: { continue; } } } while (false)"
               }
             ],
             "optional": false
@@ -224,8 +220,7 @@
                 "type": "Literal",
                 "start": 1689,
                 "end": 1757,
-                "value": "5; do { switch (\"a\") { default: { 6; continue; } } } while (false)",
-                "raw": "'5; do { switch (\"a\") { default: { 6; continue; } } } while (false)'"
+                "value": "5; do { switch (\"a\") { default: { 6; continue; } } } while (false)"
               }
             ],
             "optional": false
@@ -234,8 +229,7 @@
             "type": "Literal",
             "start": 1762,
             "end": 1763,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           }
         ],
         "optional": false

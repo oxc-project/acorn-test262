@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 240,
                   "end": 243,
-                  "value": 1.2,
-                  "raw": "1.2"
+                  "value": 1.2
                 },
                 "value": {
                   "type": "Literal",
                   "start": 246,
                   "end": 249,
-                  "value": "A",
-                  "raw": "'A'"
+                  "value": "A"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 254,
                   "end": 258,
-                  "value": 1e+55,
-                  "raw": "1e55"
+                  "value": 1e+55
                 },
                 "value": {
                   "type": "Literal",
                   "start": 261,
                   "end": 264,
-                  "value": "B",
-                  "raw": "'B'"
+                  "value": "B"
                 },
                 "kind": "init"
               },
@@ -80,15 +76,13 @@
                   "type": "Literal",
                   "start": 269,
                   "end": 277,
-                  "value": 0.000001,
-                  "raw": "0.000001"
+                  "value": 0.000001
                 },
                 "value": {
                   "type": "Literal",
                   "start": 280,
                   "end": 283,
-                  "value": "C",
-                  "raw": "'C'"
+                  "value": "C"
                 },
                 "kind": "init"
               },
@@ -109,16 +103,14 @@
                     "type": "Literal",
                     "start": 289,
                     "end": 290,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 "value": {
                   "type": "Literal",
                   "start": 293,
                   "end": 296,
-                  "value": "D",
-                  "raw": "'D'"
+                  "value": "D"
                 },
                 "kind": "init"
               },
@@ -139,8 +131,7 @@
                   "type": "Literal",
                   "start": 312,
                   "end": 315,
-                  "value": "E",
-                  "raw": "'E'"
+                  "value": "E"
                 },
                 "kind": "init"
               },
@@ -168,8 +159,7 @@
                   "type": "Literal",
                   "start": 332,
                   "end": 335,
-                  "value": "F",
-                  "raw": "'F'"
+                  "value": "F"
                 },
                 "kind": "init"
               },
@@ -190,8 +180,7 @@
                   "type": "Literal",
                   "start": 346,
                   "end": 349,
-                  "value": "G",
-                  "raw": "'G'"
+                  "value": "G"
                 },
                 "kind": "init"
               }
@@ -243,8 +232,7 @@
               "type": "Literal",
               "start": 381,
               "end": 386,
-              "value": "1.2",
-              "raw": "'1.2'"
+              "value": "1.2"
             },
             "computed": true,
             "optional": false
@@ -253,15 +241,13 @@
             "type": "Literal",
             "start": 391,
             "end": 394,
-            "value": "A",
-            "raw": "'A'"
+            "value": "A"
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 462,
-            "value": "The value of `object['1.2']` is `'A'`. Defined as `[1.2]: 'A'`",
-            "raw": "\"The value of `object['1.2']` is `'A'`. Defined as `[1.2]: 'A'`\""
+            "value": "The value of `object['1.2']` is `'A'`. Defined as `[1.2]: 'A'`"
           }
         ],
         "optional": false
@@ -309,8 +295,7 @@
               "type": "Literal",
               "start": 493,
               "end": 500,
-              "value": "1e+55",
-              "raw": "'1e+55'"
+              "value": "1e+55"
             },
             "computed": true,
             "optional": false
@@ -319,15 +304,13 @@
             "type": "Literal",
             "start": 505,
             "end": 508,
-            "value": "B",
-            "raw": "'B'"
+            "value": "B"
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 579,
-            "value": "The value of `object['1e+55']` is `'B'`. Defined as `[1e55]: 'B'`",
-            "raw": "\"The value of `object['1e+55']` is `'B'`. Defined as `[1e55]: 'B'`\""
+            "value": "The value of `object['1e+55']` is `'B'`. Defined as `[1e55]: 'B'`"
           }
         ],
         "optional": false
@@ -375,8 +358,7 @@
               "type": "Literal",
               "start": 610,
               "end": 620,
-              "value": "0.000001",
-              "raw": "'0.000001'"
+              "value": "0.000001"
             },
             "computed": true,
             "optional": false
@@ -385,15 +367,13 @@
             "type": "Literal",
             "start": 625,
             "end": 628,
-            "value": "C",
-            "raw": "'C'"
+            "value": "C"
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 706,
-            "value": "The value of `object['0.000001']` is `'C'`. Defined as `[0.000001]: 'C'`",
-            "raw": "\"The value of `object['0.000001']` is `'C'`. Defined as `[0.000001]: 'C'`\""
+            "value": "The value of `object['0.000001']` is `'C'`. Defined as `[0.000001]: 'C'`"
           }
         ],
         "optional": false
@@ -441,8 +421,7 @@
               "type": "Literal",
               "start": 737,
               "end": 738,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -451,15 +430,13 @@
             "type": "Literal",
             "start": 743,
             "end": 746,
-            "value": "D",
-            "raw": "'D'"
+            "value": "D"
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 809,
-            "value": "The value of `object[0]` is `'D'`. Defined as `[-0]: 'D'`",
-            "raw": "\"The value of `object[0]` is `'D'`. Defined as `[-0]: 'D'`\""
+            "value": "The value of `object[0]` is `'D'`. Defined as `[-0]: 'D'`"
           }
         ],
         "optional": false
@@ -516,15 +493,13 @@
             "type": "Literal",
             "start": 850,
             "end": 853,
-            "value": "E",
-            "raw": "'E'"
+            "value": "E"
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 929,
-            "value": "The value of `object[Infinity]` is `'E'`. Defined as `[Infinity]: 'E'`",
-            "raw": "\"The value of `object[Infinity]` is `'E'`. Defined as `[Infinity]: 'E'`\""
+            "value": "The value of `object[Infinity]` is `'E'`. Defined as `[Infinity]: 'E'`"
           }
         ],
         "optional": false
@@ -588,15 +563,13 @@
             "type": "Literal",
             "start": 974,
             "end": 977,
-            "value": "F",
-            "raw": "'F'"
+            "value": "F"
           },
           {
             "type": "Literal",
             "start": 981,
             "end": 1055,
-            "value": "The value of `object[-Infinity]` is `'F'`. Defined as `[-Infinity]: 'F'`",
-            "raw": "\"The value of `object[-Infinity]` is `'F'`. Defined as `[-Infinity]: 'F'`\""
+            "value": "The value of `object[-Infinity]` is `'F'`. Defined as `[-Infinity]: 'F'`"
           }
         ],
         "optional": false
@@ -653,15 +626,13 @@
             "type": "Literal",
             "start": 1094,
             "end": 1097,
-            "value": "G",
-            "raw": "'G'"
+            "value": "G"
           },
           {
             "type": "Literal",
             "start": 1101,
             "end": 1163,
-            "value": "The value of `object[NaN]` is `'G'`. Defined as `[NaN]: 'G'`",
-            "raw": "\"The value of `object[NaN]` is `'G'`. Defined as `[NaN]: 'G'`\""
+            "value": "The value of `object[NaN]` is `'G'`. Defined as `[NaN]: 'G'`"
           }
         ],
         "optional": false

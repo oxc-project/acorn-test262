@@ -30,13 +30,12 @@
               "end": 1083,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 880,
-                  "end": 899,
-                  "static": false,
+                  "end": 898,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 880,
                     "end": 886,
                     "name": "outer"
@@ -45,15 +44,13 @@
                     "type": "Literal",
                     "start": 889,
                     "end": 898,
-                    "value": "test262",
-                    "raw": "'test262'"
+                    "value": "test262"
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 903,
                   "end": 983,
-                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -120,14 +117,14 @@
                                       "end": 965,
                                       "name": "o"
                                     },
+                                    "computed": false,
+                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateIdentifier",
+                                      "type": "PrivateName",
                                       "start": 966,
                                       "end": 972,
                                       "name": "outer"
-                                    },
-                                    "computed": false,
-                                    "optional": false
+                                    }
                                   }
                                 }
                               ]
@@ -139,10 +136,9 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 987,
                   "end": 1081,
-                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -162,13 +158,12 @@
                       "end": 1081,
                       "body": [
                         {
-                          "type": "PropertyDefinition",
+                          "type": "FieldDefinition",
                           "start": 1020,
-                          "end": 1032,
-                          "static": false,
+                          "end": 1031,
                           "computed": false,
                           "key": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 1020,
                             "end": 1026,
                             "name": "inner"
@@ -177,8 +172,7 @@
                             "type": "Literal",
                             "start": 1029,
                             "end": 1031,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         },
                         {
@@ -229,14 +223,14 @@
                                       "end": 1063,
                                       "name": "o"
                                     },
+                                    "computed": false,
+                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateIdentifier",
+                                      "type": "PrivateName",
                                       "start": 1064,
                                       "end": 1070,
                                       "name": "outer"
-                                    },
-                                    "computed": false,
-                                    "optional": false
+                                    }
                                   }
                                 }
                               ]
@@ -394,8 +388,7 @@
             "type": "Literal",
             "start": 1183,
             "end": 1192,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -510,8 +503,7 @@
             "type": "Literal",
             "start": 1273,
             "end": 1282,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false

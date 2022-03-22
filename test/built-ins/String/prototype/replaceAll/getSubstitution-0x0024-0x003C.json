@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 2290,
             "end": 2334,
-            "value": "aaaaaaaaaaaaaaaa aaaaaaaa aaaaaaaaaaaaaaaa",
-            "raw": "'aaaaaaaaaaaaaaaa aaaaaaaa aaaaaaaaaaaaaaaa'"
+            "value": "aaaaaaaaaaaaaaaa aaaaaaaa aaaaaaaaaaaaaaaa"
           }
         }
       ],
@@ -92,15 +91,13 @@
               "type": "Literal",
               "start": 2477,
               "end": 2480,
-              "value": "a",
-              "raw": "'a'"
+              "value": "a"
             },
             {
               "type": "Literal",
               "start": 2482,
               "end": 2486,
-              "value": "$<",
-              "raw": "'$<'"
+              "value": "$<"
             }
           ],
           "optional": false
@@ -145,8 +142,7 @@
             "type": "Literal",
             "start": 2514,
             "end": 2598,
-            "value": "$<$<$<$<$<$<$<$<$<$<$<$<$<$<$<$< $<$<$<$<$<$<$<$< $<$<$<$<$<$<$<$<$<$<$<$<$<$<$<$<",
-            "raw": "'$<$<$<$<$<$<$<$<$<$<$<$<$<$<$<$< $<$<$<$<$<$<$<$< $<$<$<$<$<$<$<$<$<$<$<$<$<$<$<$<'"
+            "value": "$<$<$<$<$<$<$<$<$<$<$<$<$<$<$<$< $<$<$<$<$<$<$<$< $<$<$<$<$<$<$<$<$<$<$<$<$<$<$<$<"
           }
         ],
         "optional": false
@@ -172,7 +168,6 @@
             "start": 2617,
             "end": 2621,
             "value": {},
-            "raw": "/./g",
             "regex": {
               "pattern": ".",
               "flags": "g"
@@ -294,8 +289,7 @@
               "type": "Literal",
               "start": 2707,
               "end": 2745,
-              "value": "------------------- /./g -------/./g",
-              "raw": "'------------------- /./g -------/./g'"
+              "value": "------------------- /./g -------/./g"
             },
             "property": {
               "type": "Identifier",
@@ -317,8 +311,7 @@
               "type": "Literal",
               "start": 2767,
               "end": 2776,
-              "value": "a($<$<)",
-              "raw": "'a($<$<)'"
+              "value": "a($<$<)"
             }
           ],
           "optional": false
@@ -363,8 +356,7 @@
             "type": "Literal",
             "start": 2804,
             "end": 2848,
-            "value": "------------------- a($<$<) -------a($<$<)",
-            "raw": "'------------------- a($<$<) -------a($<$<)'"
+            "value": "------------------- a($<$<) -------a($<$<)"
           }
         ],
         "optional": false

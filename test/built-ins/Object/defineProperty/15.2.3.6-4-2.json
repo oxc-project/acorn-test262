@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 571,
                   "end": 572,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 601,
             "end": 606,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Identifier",
@@ -176,8 +174,7 @@
                 "type": "Literal",
                 "start": 666,
                 "end": 671,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -237,15 +234,13 @@
             "type": "Literal",
             "start": 708,
             "end": 709,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 727,
-            "value": "propDesc.value",
-            "raw": "'propDesc.value'"
+            "value": "propDesc.value"
           }
         ],
         "optional": false
@@ -309,8 +304,7 @@
             "type": "Literal",
             "start": 807,
             "end": 826,
-            "value": "propDesc.writable",
-            "raw": "'propDesc.writable'"
+            "value": "propDesc.writable"
           }
         ],
         "optional": false
@@ -374,8 +368,7 @@
             "type": "Literal",
             "start": 894,
             "end": 915,
-            "value": "propDesc.enumerable",
-            "raw": "'propDesc.enumerable'"
+            "value": "propDesc.enumerable"
           }
         ],
         "optional": false
@@ -439,8 +432,7 @@
             "type": "Literal",
             "start": 985,
             "end": 1008,
-            "value": "propDesc.configurable",
-            "raw": "'propDesc.configurable'"
+            "value": "propDesc.configurable"
           }
         ],
         "optional": false

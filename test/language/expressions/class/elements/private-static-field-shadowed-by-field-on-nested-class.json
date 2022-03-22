@@ -30,13 +30,13 @@
               "end": 3713,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 3532,
-                  "end": 3558,
+                  "end": 3557,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 3539,
                     "end": 3541,
                     "name": "m"
@@ -45,8 +45,7 @@
                     "type": "Literal",
                     "start": 3544,
                     "end": 3557,
-                    "value": "outer class",
-                    "raw": "'outer class'"
+                    "value": "outer class"
                   }
                 },
                 {
@@ -89,14 +88,14 @@
                               "start": 3596,
                               "end": 3600
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 3601,
                               "end": 3603,
                               "name": "m"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         }
                       ]
@@ -104,7 +103,7 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 3612,
                   "end": 3711,
                   "static": true,
@@ -127,13 +126,12 @@
                       "end": 3711,
                       "body": [
                         {
-                          "type": "PropertyDefinition",
+                          "type": "FieldDefinition",
                           "start": 3635,
-                          "end": 3654,
-                          "static": false,
+                          "end": 3653,
                           "computed": false,
                           "key": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 3635,
                             "end": 3637,
                             "name": "m"
@@ -142,8 +140,7 @@
                             "type": "Literal",
                             "start": 3640,
                             "end": 3653,
-                            "value": "inner class",
-                            "raw": "'inner class'"
+                            "value": "inner class"
                           }
                         },
                         {
@@ -194,14 +191,14 @@
                                       "end": 3697,
                                       "name": "o"
                                     },
+                                    "computed": false,
+                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateIdentifier",
+                                      "type": "PrivateName",
                                       "start": 3698,
                                       "end": 3700,
                                       "name": "m"
-                                    },
-                                    "computed": false,
-                                    "optional": false
+                                    }
                                   }
                                 }
                               ]
@@ -277,8 +274,7 @@
             "type": "Literal",
             "start": 3749,
             "end": 3762,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -406,8 +402,7 @@
             "type": "Literal",
             "start": 3823,
             "end": 3836,
-            "value": "inner class",
-            "raw": "'inner class'"
+            "value": "inner class"
           }
         ],
         "optional": false
@@ -519,8 +514,7 @@
             "type": "Literal",
             "start": 3903,
             "end": 3952,
-            "value": "accessed private field from an arbritary object",
-            "raw": "'accessed private field from an arbritary object'"
+            "value": "accessed private field from an arbritary object"
           }
         ],
         "optional": false

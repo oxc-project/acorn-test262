@@ -70,8 +70,7 @@
                               "type": "Literal",
                               "start": 465,
                               "end": 489,
-                              "value": "get constructor called",
-                              "raw": "\"get constructor called\""
+                              "value": "get constructor called"
                             }
                           ]
                         }

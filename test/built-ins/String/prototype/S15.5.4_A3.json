@@ -106,8 +106,7 @@
                     "type": "Literal",
                     "start": 545,
                     "end": 621,
-                    "value": "#1: Object.prototype.isPrototypeOf(String.prototype) return true. Actual: ",
-                    "raw": "'#1: Object.prototype.isPrototypeOf(String.prototype) return true. Actual: '"
+                    "value": "#1: Object.prototype.isPrototypeOf(String.prototype) return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -281,16 +280,14 @@
               "type": "Literal",
               "start": 919,
               "end": 929,
-              "value": "[object ",
-              "raw": "\"[object \""
+              "value": "[object "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 932,
               "end": 940,
-              "value": "String",
-              "raw": "\"String\""
+              "value": "String"
             }
           },
           "operator": "+",
@@ -298,8 +295,7 @@
             "type": "Literal",
             "start": 943,
             "end": 946,
-            "value": "]",
-            "raw": "\"]\""
+            "value": "]"
           }
         }
       },
@@ -331,8 +327,7 @@
                     "type": "Literal",
                     "start": 975,
                     "end": 1109,
-                    "value": "#2: delete String.prototype.toString; String.prototype.toString() == \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() ==",
-                    "raw": "'#2: delete String.prototype.toString; String.prototype.toString() == \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() =='"
+                    "value": "#2: delete String.prototype.toString; String.prototype.toString() == \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() =="
                   },
                   "operator": "+",
                   "right": {

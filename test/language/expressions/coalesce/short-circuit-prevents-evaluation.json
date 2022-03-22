@@ -61,8 +61,7 @@
                   "type": "Literal",
                   "start": 1119,
                   "end": 1147,
-                  "value": "should not evaluate poison",
-                  "raw": "'should not evaluate poison'"
+                  "value": "should not evaluate poison"
                 }
               ]
             }
@@ -131,8 +130,7 @@
                 "type": "Literal",
                 "start": 1185,
                 "end": 1187,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             },
             "operator": "??",
@@ -198,8 +196,7 @@
             "type": "Literal",
             "start": 1234,
             "end": 1236,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -255,8 +252,7 @@
               "type": "Literal",
               "start": 1259,
               "end": 1261,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             },
             "operator": "??",
             "right": {
@@ -321,8 +317,7 @@
             "type": "Literal",
             "start": 1308,
             "end": 1310,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -385,8 +380,7 @@
               "type": "Literal",
               "start": 1346,
               "end": 1348,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           },
           "operator": "??",
@@ -444,8 +438,7 @@
             "type": "Literal",
             "start": 1382,
             "end": 1384,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -497,8 +490,7 @@
             "type": "Literal",
             "start": 1407,
             "end": 1409,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           "operator": "??",
           "right": {
@@ -555,8 +547,7 @@
             "type": "Literal",
             "start": 1443,
             "end": 1445,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false

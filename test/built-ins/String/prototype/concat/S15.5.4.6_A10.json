@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 500,
                 "end": 508,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 539,
                     "end": 617,
-                    "value": "#1: String.prototype.concat.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#1: String.prototype.concat.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#1: String.prototype.concat.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 659,
                         "end": 667,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -294,8 +291,7 @@
             "type": "Literal",
             "start": 844,
             "end": 852,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -326,8 +322,7 @@
                     "type": "Literal",
                     "start": 882,
                     "end": 891,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -426,8 +421,7 @@
                     "type": "Literal",
                     "start": 1060,
                     "end": 1220,
-                    "value": "#2: __obj = String.prototype.concat.length; String.prototype.concat.length = function(){return \"shifted\";}; String.prototype.concat.length === __obj. Actual: ",
-                    "raw": "'#2: __obj = String.prototype.concat.length; String.prototype.concat.length = function(){return \"shifted\";}; String.prototype.concat.length === __obj. Actual: '"
+                    "value": "#2: __obj = String.prototype.concat.length; String.prototype.concat.length = function(){return \"shifted\";}; String.prototype.concat.length === __obj. Actual: "
                   },
                   "operator": "+",
                   "right": {

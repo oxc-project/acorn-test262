@@ -74,15 +74,13 @@
                                 "type": "Literal",
                                 "start": 692,
                                 "end": 694,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 696,
                                 "end": 698,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -192,8 +190,7 @@
                             "type": "Literal",
                             "start": 794,
                             "end": 799,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           },
                           {
                             "type": "ObjectExpression",
@@ -217,8 +214,7 @@
                                   "type": "Literal",
                                   "start": 808,
                                   "end": 810,
-                                  "value": 42,
-                                  "raw": "42"
+                                  "value": 42
                                 },
                                 "kind": "init"
                               }
@@ -238,8 +234,7 @@
                         "type": "Literal",
                         "start": 829,
                         "end": 888,
-                        "value": "return false on a non-extensible object - data descriptor",
-                        "raw": "\"return false on a non-extensible object - data descriptor\""
+                        "value": "return false on a non-extensible object - data descriptor"
                       }
                     ],
                     "optional": false
@@ -307,8 +302,7 @@
                             "type": "Literal",
                             "start": 954,
                             "end": 959,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -385,8 +379,7 @@
                             "type": "Literal",
                             "start": 1030,
                             "end": 1035,
-                            "value": "bar",
-                            "raw": "\"bar\""
+                            "value": "bar"
                           },
                           {
                             "type": "ObjectExpression",
@@ -515,8 +508,7 @@
                         "type": "Literal",
                         "start": 1164,
                         "end": 1227,
-                        "value": "return false on a non-extensible object - accessor descriptor",
-                        "raw": "\"return false on a non-extensible object - accessor descriptor\""
+                        "value": "return false on a non-extensible object - accessor descriptor"
                       }
                     ],
                     "optional": false
@@ -584,8 +576,7 @@
                             "type": "Literal",
                             "start": 1293,
                             "end": 1298,
-                            "value": "bar",
-                            "raw": "\"bar\""
+                            "value": "bar"
                           }
                         ],
                         "optional": false

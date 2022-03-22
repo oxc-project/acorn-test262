@@ -292,8 +292,7 @@
                             "type": "Literal",
                             "start": 461,
                             "end": 507,
-                            "value": "Should not be fulfilled: expected rejection.",
-                            "raw": "\"Should not be fulfilled: expected rejection.\""
+                            "value": "Should not be fulfilled: expected rejection."
                           }
                         ]
                       }
@@ -360,15 +359,13 @@
                             "type": "Literal",
                             "start": 559,
                             "end": 560,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           },
                           {
                             "type": "Literal",
                             "start": 562,
                             "end": 603,
-                            "value": "The value of result is expected to be 2",
-                            "raw": "'The value of result is expected to be 2'"
+                            "value": "The value of result is expected to be 2"
                           }
                         ],
                         "optional": false
@@ -425,8 +422,7 @@
             "type": "Literal",
             "start": 639,
             "end": 640,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -451,8 +447,7 @@
             "type": "Literal",
             "start": 653,
             "end": 654,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

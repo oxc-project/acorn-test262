@@ -135,8 +135,7 @@
           "type": "Literal",
           "start": 505,
           "end": 516,
-          "value": "-INFINITY",
-          "raw": "\"-INFINITY\""
+          "value": "-INFINITY"
         }
       },
       "consequent": {
@@ -167,8 +166,7 @@
                     "type": "Literal",
                     "start": 545,
                     "end": 696,
-                    "value": "#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; (Number.NEGATIVE_INFINITY).toLocaleUpperCase() === \"-INFINITY\". Actual: ",
-                    "raw": "'#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; (Number.NEGATIVE_INFINITY).toLocaleUpperCase() === \"-INFINITY\". Actual: '"
+                    "value": "#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; (Number.NEGATIVE_INFINITY).toLocaleUpperCase() === \"-INFINITY\". Actual: "
                   },
                   "operator": "+",
                   "right": {

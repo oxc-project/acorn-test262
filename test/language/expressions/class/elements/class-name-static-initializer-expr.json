@@ -55,9 +55,9 @@
               "end": 646,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 609,
-                  "end": 644,
+                  "end": 643,
                   "static": true,
                   "computed": false,
                   "key": {
@@ -147,8 +147,7 @@
             "type": "Literal",
             "start": 676,
             "end": 679,
-            "value": "C",
-            "raw": "\"C\""
+            "value": "C"
           }
         ],
         "optional": false

@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 713,
                   "end": 725,
-                  "value": "hasIndices",
-                  "raw": "'hasIndices'"
+                  "value": "hasIndices"
                 }
               ],
               "optional": false
@@ -181,8 +180,7 @@
             "type": "Literal",
             "start": 797,
             "end": 814,
-            "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "value": "ordinary object"
           }
         ],
         "optional": false
@@ -281,8 +279,7 @@
             "type": "Literal",
             "start": 882,
             "end": 903,
-            "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "value": "array exotic object"
           }
         ],
         "optional": false
@@ -381,8 +378,7 @@
             "type": "Literal",
             "start": 978,
             "end": 996,
-            "value": "arguments object",
-            "raw": "'arguments object'"
+            "value": "arguments object"
           }
         ],
         "optional": false

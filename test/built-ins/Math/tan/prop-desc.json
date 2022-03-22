@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 488,
             "end": 493,
-            "value": "tan",
-            "raw": "\"tan\""
+            "value": "tan"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 517,
             "end": 522,
-            "value": "tan",
-            "raw": "\"tan\""
+            "value": "tan"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 550,
             "end": 555,
-            "value": "tan",
-            "raw": "\"tan\""
+            "value": "tan"
           }
         ],
         "optional": false

@@ -103,8 +103,7 @@
                       "type": "Literal",
                       "start": 1237,
                       "end": 1240,
-                      "value": 123,
-                      "raw": "123"
+                      "value": 123
                     }
                   }
                 },
@@ -237,8 +236,7 @@
             "type": "Literal",
             "start": 1356,
             "end": 1395,
-            "value": "binding is initialized to `undefined`",
-            "raw": "'binding is initialized to `undefined`'"
+            "value": "binding is initialized to `undefined`"
           }
         ],
         "optional": false
@@ -282,15 +280,13 @@
             "type": "Literal",
             "start": 1424,
             "end": 1427,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           },
           {
             "type": "Literal",
             "start": 1429,
             "end": 1449,
-            "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "value": "binding is mutable"
           }
         ],
         "optional": false
@@ -362,8 +358,7 @@
             "type": "Literal",
             "start": 1503,
             "end": 1534,
-            "value": "global binding is not created",
-            "raw": "'global binding is not created'"
+            "value": "global binding is not created"
           }
         ],
         "optional": false

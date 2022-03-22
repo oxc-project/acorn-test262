@@ -60,8 +60,7 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 341,
-                "value": 10,
-                "raw": "10"
+                "value": 10
               }
             }
           }
@@ -99,15 +98,13 @@
                   "type": "Literal",
                   "start": 360,
                   "end": 361,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 363,
                   "end": 365,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -122,15 +119,13 @@
                   "type": "Literal",
                   "start": 369,
                   "end": 370,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 372,
                   "end": 373,
-                  "value": 9,
-                  "raw": "9"
+                  "value": 9
                 },
                 "kind": "init"
               },
@@ -187,8 +182,7 @@
                                 "type": "Literal",
                                 "start": 427,
                                 "end": 428,
-                                "value": 2,
-                                "raw": "2"
+                                "value": 2
                               }
                             }
                           ]
@@ -341,15 +335,13 @@
             "type": "Literal",
             "start": 533,
             "end": 534,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 536,
             "end": 551,
-            "value": "newArr.length",
-            "raw": "'newArr.length'"
+            "value": "newArr.length"
           }
         ],
         "optional": false

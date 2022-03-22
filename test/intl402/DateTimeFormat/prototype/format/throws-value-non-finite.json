@@ -262,8 +262,7 @@
                             "type": "Literal",
                             "start": 484,
                             "end": 500,
-                            "value": "Invalid value ",
-                            "raw": "\"Invalid value \""
+                            "value": "Invalid value "
                           },
                           "operator": "+",
                           "right": {
@@ -278,8 +277,7 @@
                           "type": "Literal",
                           "start": 511,
                           "end": 531,
-                          "value": " was not rejected.",
-                          "raw": "\" was not rejected.\""
+                          "value": " was not rejected."
                         }
                       }
                     ],

@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 867,
                 "end": 871,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 873,
                 "end": 874,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 876,
                 "end": 877,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -112,29 +109,25 @@
                 "type": "Literal",
                 "start": 919,
                 "end": 920,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 922,
                 "end": 923,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 925,
                 "end": 926,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 928,
                 "end": 929,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -174,15 +167,13 @@
             "type": "Literal",
             "start": 975,
             "end": 985,
-            "value": "overflow",
-            "raw": "\"overflow\""
+            "value": "overflow"
           },
           {
             "type": "Literal",
             "start": 987,
             "end": 998,
-            "value": "constrain",
-            "raw": "\"constrain\""
+            "value": "constrain"
           },
           {
             "type": "ArrowFunctionExpression",
@@ -318,29 +309,25 @@
                   "type": "Literal",
                   "start": 1116,
                   "end": 1120,
-                  "value": 1997,
-                  "raw": "1997"
+                  "value": 1997
                 },
                 {
                   "type": "Literal",
                   "start": 1122,
                   "end": 1123,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 1125,
                   "end": 1130,
-                  "value": "M01",
-                  "raw": "\"M01\""
+                  "value": "M01"
                 },
                 {
                   "type": "Literal",
                   "start": 1132,
                   "end": 1134,
-                  "value": 30,
-                  "raw": "30"
+                  "value": 30
                 },
                 {
                   "type": "Identifier",

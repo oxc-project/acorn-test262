@@ -39,8 +39,7 @@
                   "type": "Literal",
                   "start": 385,
                   "end": 386,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ]
@@ -113,16 +112,14 @@
               "type": "Literal",
               "start": 424,
               "end": 425,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 467,
-            "value": "TimeClip does not return negative zero",
-            "raw": "\"TimeClip does not return negative zero\""
+            "value": "TimeClip does not return negative zero"
           }
         ],
         "optional": false

@@ -31,7 +31,6 @@
                 "start": 411,
                 "end": 417,
                 "value": {},
-                "raw": "/(?:)/",
                 "regex": {
                   "pattern": "(?:)",
                   "flags": ""
@@ -64,8 +63,7 @@
                 "type": "Literal",
                 "start": 432,
                 "end": 434,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -177,8 +175,7 @@
             "type": "Literal",
             "start": 501,
             "end": 502,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

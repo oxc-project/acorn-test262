@@ -513,8 +513,7 @@
             "type": "Literal",
             "start": 2050,
             "end": 2073,
-            "value": "then() returns object",
-            "raw": "\"then() returns object\""
+            "value": "then() returns object"
           }
         ],
         "optional": false

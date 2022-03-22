@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 739,
             "end": 787,
-            "value": "isConstructor(Object.assign) must return false",
-            "raw": "'isConstructor(Object.assign) must return false'"
+            "value": "isConstructor(Object.assign) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 852,
             "end": 894,
-            "value": "`new Object.assign({})` throws TypeError",
-            "raw": "'`new Object.assign({})` throws TypeError'"
+            "value": "`new Object.assign({})` throws TypeError"
           }
         ],
         "optional": false

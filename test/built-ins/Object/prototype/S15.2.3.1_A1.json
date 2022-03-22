@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 379,
             "end": 390,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           },
           {
             "type": "Literal",
@@ -98,8 +97,7 @@
                     "type": "Literal",
                     "start": 420,
                     "end": 429,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -166,8 +164,7 @@
             "type": "Literal",
             "start": 476,
             "end": 545,
-            "value": "The value of Object.prototype is expected to equal the value of obj",
-            "raw": "'The value of Object.prototype is expected to equal the value of obj'"
+            "value": "The value of Object.prototype is expected to equal the value of obj"
           }
         ],
         "optional": false
@@ -232,8 +229,7 @@
                   "type": "Literal",
                   "start": 602,
                   "end": 665,
-                  "value": "#2: the Object.prototype property has the attributes ReadOnly",
-                  "raw": "'#2: the Object.prototype property has the attributes ReadOnly'"
+                  "value": "#2: the Object.prototype property has the attributes ReadOnly"
                 }
               ]
             }

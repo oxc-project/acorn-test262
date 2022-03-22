@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 754,
                 "end": 761,
-                "value": "first",
-                "raw": "\"first\""
+                "value": "first"
               },
               {
                 "type": "Literal",
                 "start": 763,
                 "end": 771,
-                "value": "second",
-                "raw": "\"second\""
+                "value": "second"
               }
             ]
           }
@@ -81,8 +79,7 @@
             "type": "Literal",
             "start": 804,
             "end": 805,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "ObjectExpression",
@@ -148,8 +145,7 @@
                             "type": "Literal",
                             "start": 848,
                             "end": 849,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         }
                       },
@@ -161,8 +157,7 @@
                           "type": "Literal",
                           "start": 862,
                           "end": 869,
-                          "value": "first",
-                          "raw": "\"first\""
+                          "value": "first"
                         }
                       }
                     ]
@@ -247,8 +242,7 @@
                 "type": "Literal",
                 "start": 916,
                 "end": 917,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "operator": "in",
               "right": {
@@ -270,8 +264,7 @@
             "type": "Literal",
             "start": 936,
             "end": 970,
-            "value": "Indexed property '0' not present",
-            "raw": "\"Indexed property '0' not present\""
+            "value": "Indexed property '0' not present"
           }
         ],
         "optional": false
@@ -317,8 +310,7 @@
                 "type": "Literal",
                 "start": 991,
                 "end": 992,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "operator": "in",
               "right": {
@@ -340,8 +332,7 @@
             "type": "Literal",
             "start": 1010,
             "end": 1040,
-            "value": "Indexed property '1' present",
-            "raw": "\"Indexed property '1' present\""
+            "value": "Indexed property '1' present"
           }
         ],
         "optional": false
@@ -389,8 +380,7 @@
               "type": "Literal",
               "start": 1066,
               "end": 1067,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -399,15 +389,13 @@
             "type": "Literal",
             "start": 1070,
             "end": 1077,
-            "value": "first",
-            "raw": "\"first\""
+            "value": "first"
           },
           {
             "type": "Literal",
             "start": 1079,
             "end": 1115,
-            "value": "Indexed property '1' value correct",
-            "raw": "\"Indexed property '1' value correct\""
+            "value": "Indexed property '1' value correct"
           }
         ],
         "optional": false

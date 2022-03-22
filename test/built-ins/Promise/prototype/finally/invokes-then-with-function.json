@@ -95,8 +95,7 @@
             "type": "Literal",
             "start": 444,
             "end": 445,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -280,8 +279,7 @@
                     "type": "Literal",
                     "start": 576,
                     "end": 577,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -521,15 +519,13 @@
                 "type": "Literal",
                 "start": 807,
                 "end": 808,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 810,
                 "end": 811,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ],
             "optional": false
@@ -576,15 +572,13 @@
             "type": "Literal",
             "start": 843,
             "end": 844,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 877,
-            "value": "The value of `callCount` is 1",
-            "raw": "'The value of `callCount` is 1'"
+            "value": "The value of `callCount` is 1"
           }
         ],
         "optional": false
@@ -634,8 +628,7 @@
             "type": "Literal",
             "start": 923,
             "end": 990,
-            "value": "The value of `thisValue` is expected to equal the value of target",
-            "raw": "'The value of `thisValue` is expected to equal the value of target'"
+            "value": "The value of `thisValue` is expected to equal the value of target"
           }
         ],
         "optional": false
@@ -679,15 +672,13 @@
             "type": "Literal",
             "start": 1021,
             "end": 1022,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1024,
             "end": 1054,
-            "value": "The value of `argCount` is 2",
-            "raw": "'The value of `argCount` is 2'"
+            "value": "The value of `argCount` is 2"
           }
         ],
         "optional": false
@@ -738,15 +729,13 @@
             "type": "Literal",
             "start": 1095,
             "end": 1105,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1109,
             "end": 1154,
-            "value": "The value of `typeof resolve` is \"function\"",
-            "raw": "'The value of `typeof resolve` is \"function\"'"
+            "value": "The value of `typeof resolve` is \"function\""
           }
         ],
         "optional": false
@@ -796,8 +785,7 @@
             "type": "Literal",
             "start": 1211,
             "end": 1298,
-            "value": "The value of `resolve` is expected to not equal the value of `originalFinallyHandler`",
-            "raw": "'The value of `resolve` is expected to not equal the value of `originalFinallyHandler`'"
+            "value": "The value of `resolve` is expected to not equal the value of `originalFinallyHandler`"
           }
         ],
         "optional": false
@@ -854,15 +842,13 @@
             "type": "Literal",
             "start": 1334,
             "end": 1335,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1337,
             "end": 1371,
-            "value": "The value of resolve.length is 1",
-            "raw": "'The value of resolve.length is 1'"
+            "value": "The value of resolve.length is 1"
           }
         ],
         "optional": false
@@ -919,15 +905,13 @@
             "type": "Literal",
             "start": 1405,
             "end": 1407,
-            "value": "",
-            "raw": "''"
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 1409,
             "end": 1442,
-            "value": "The value of resolve.name is \"\"",
-            "raw": "'The value of resolve.name is \"\"'"
+            "value": "The value of resolve.name is \"\""
           }
         ],
         "optional": false
@@ -992,8 +976,7 @@
             "type": "Literal",
             "start": 1493,
             "end": 1535,
-            "value": "isConstructor(resolve) must return false",
-            "raw": "'isConstructor(resolve) must return false'"
+            "value": "isConstructor(resolve) must return false"
           }
         ],
         "optional": false
@@ -1071,8 +1054,7 @@
             "type": "Literal",
             "start": 1591,
             "end": 1625,
-            "value": "`new resolve()` throws TypeError",
-            "raw": "'`new resolve()` throws TypeError'"
+            "value": "`new resolve()` throws TypeError"
           }
         ],
         "optional": false
@@ -1123,15 +1105,13 @@
             "type": "Literal",
             "start": 1667,
             "end": 1677,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1681,
             "end": 1725,
-            "value": "The value of `typeof reject` is \"function\"",
-            "raw": "'The value of `typeof reject` is \"function\"'"
+            "value": "The value of `typeof reject` is \"function\""
           }
         ],
         "optional": false
@@ -1181,8 +1161,7 @@
             "type": "Literal",
             "start": 1781,
             "end": 1867,
-            "value": "The value of `reject` is expected to not equal the value of `originalFinallyHandler`",
-            "raw": "'The value of `reject` is expected to not equal the value of `originalFinallyHandler`'"
+            "value": "The value of `reject` is expected to not equal the value of `originalFinallyHandler`"
           }
         ],
         "optional": false
@@ -1239,15 +1218,13 @@
             "type": "Literal",
             "start": 1902,
             "end": 1903,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1905,
             "end": 1938,
-            "value": "The value of reject.length is 1",
-            "raw": "'The value of reject.length is 1'"
+            "value": "The value of reject.length is 1"
           }
         ],
         "optional": false
@@ -1304,15 +1281,13 @@
             "type": "Literal",
             "start": 1971,
             "end": 1973,
-            "value": "",
-            "raw": "''"
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 1975,
             "end": 2007,
-            "value": "The value of reject.name is \"\"",
-            "raw": "'The value of reject.name is \"\"'"
+            "value": "The value of reject.name is \"\""
           }
         ],
         "optional": false
@@ -1377,8 +1352,7 @@
             "type": "Literal",
             "start": 2057,
             "end": 2098,
-            "value": "isConstructor(reject) must return false",
-            "raw": "'isConstructor(reject) must return false'"
+            "value": "isConstructor(reject) must return false"
           }
         ],
         "optional": false
@@ -1456,8 +1430,7 @@
             "type": "Literal",
             "start": 2153,
             "end": 2186,
-            "value": "`new reject()` throws TypeError",
-            "raw": "'`new reject()` throws TypeError'"
+            "value": "`new reject()` throws TypeError"
           }
         ],
         "optional": false
@@ -1507,8 +1480,7 @@
             "type": "Literal",
             "start": 2228,
             "end": 2297,
-            "value": "The value of `result` is expected to equal the value of returnValue",
-            "raw": "'The value of `result` is expected to equal the value of returnValue'"
+            "value": "The value of `result` is expected to equal the value of returnValue"
           }
         ],
         "optional": false

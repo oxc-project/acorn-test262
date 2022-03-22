@@ -69,8 +69,7 @@
                               "type": "Literal",
                               "start": 665,
                               "end": 696,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -199,8 +198,7 @@
                                   "type": "Literal",
                                   "start": 837,
                                   "end": 838,
-                                  "value": 8,
-                                  "raw": "8"
+                                  "value": 8
                                 }
                               }
                             ]
@@ -268,8 +266,7 @@
             "type": "Literal",
             "start": 892,
             "end": 1045,
-            "value": "`const view = new Float64Array( new SharedArrayBuffer(Float64Array.BYTES_PER_ELEMENT * 8) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError",
-            "raw": "'`const view = new Float64Array( new SharedArrayBuffer(Float64Array.BYTES_PER_ELEMENT * 8) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError'"
+            "value": "`const view = new Float64Array( new SharedArrayBuffer(Float64Array.BYTES_PER_ELEMENT * 8) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -388,8 +385,7 @@
                                   "type": "Literal",
                                   "start": 1179,
                                   "end": 1180,
-                                  "value": 4,
-                                  "raw": "4"
+                                  "value": 4
                                 }
                               }
                             ]
@@ -457,8 +453,7 @@
             "type": "Literal",
             "start": 1234,
             "end": 1387,
-            "value": "`const view = new Float32Array( new SharedArrayBuffer(Float32Array.BYTES_PER_ELEMENT * 4) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError",
-            "raw": "'`const view = new Float32Array( new SharedArrayBuffer(Float32Array.BYTES_PER_ELEMENT * 4) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError'"
+            "value": "`const view = new Float32Array( new SharedArrayBuffer(Float32Array.BYTES_PER_ELEMENT * 4) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -577,8 +572,7 @@
                                   "type": "Literal",
                                   "start": 1517,
                                   "end": 1518,
-                                  "value": 2,
-                                  "raw": "2"
+                                  "value": 2
                                 }
                               }
                             ]
@@ -646,8 +640,7 @@
             "type": "Literal",
             "start": 1572,
             "end": 1721,
-            "value": "`const view = new Int16Array( new SharedArrayBuffer(Int16Array.BYTES_PER_ELEMENT * 2) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError",
-            "raw": "'`const view = new Int16Array( new SharedArrayBuffer(Int16Array.BYTES_PER_ELEMENT * 2) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError'"
+            "value": "`const view = new Int16Array( new SharedArrayBuffer(Int16Array.BYTES_PER_ELEMENT * 2) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -822,8 +815,7 @@
             "type": "Literal",
             "start": 1900,
             "end": 2043,
-            "value": "`const view = new Int8Array( new SharedArrayBuffer(Int8Array.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError",
-            "raw": "'`const view = new Int8Array( new SharedArrayBuffer(Int8Array.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError'"
+            "value": "`const view = new Int8Array( new SharedArrayBuffer(Int8Array.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -942,8 +934,7 @@
                                   "type": "Literal",
                                   "start": 2175,
                                   "end": 2176,
-                                  "value": 4,
-                                  "raw": "4"
+                                  "value": 4
                                 }
                               }
                             ]
@@ -1017,8 +1008,7 @@
             "type": "Literal",
             "start": 2244,
             "end": 2408,
-            "value": "`const view = new Uint32Array( new SharedArrayBuffer(Uint32Array.BYTES_PER_ELEMENT * 4) ); Atomics.notify(new Uint32Array(), poisoned, poisoned)` throws TypeError",
-            "raw": "'`const view = new Uint32Array( new SharedArrayBuffer(Uint32Array.BYTES_PER_ELEMENT * 4) ); Atomics.notify(new Uint32Array(), poisoned, poisoned)` throws TypeError'"
+            "value": "`const view = new Uint32Array( new SharedArrayBuffer(Uint32Array.BYTES_PER_ELEMENT * 4) ); Atomics.notify(new Uint32Array(), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -1137,8 +1127,7 @@
                                   "type": "Literal",
                                   "start": 2540,
                                   "end": 2541,
-                                  "value": 2,
-                                  "raw": "2"
+                                  "value": 2
                                 }
                               }
                             ]
@@ -1206,8 +1195,7 @@
             "type": "Literal",
             "start": 2595,
             "end": 2746,
-            "value": "`const view = new Uint16Array( new SharedArrayBuffer(Uint16Array.BYTES_PER_ELEMENT * 2) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError",
-            "raw": "'`const view = new Uint16Array( new SharedArrayBuffer(Uint16Array.BYTES_PER_ELEMENT * 2) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError'"
+            "value": "`const view = new Uint16Array( new SharedArrayBuffer(Uint16Array.BYTES_PER_ELEMENT * 2) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -1382,8 +1370,7 @@
             "type": "Literal",
             "start": 2927,
             "end": 3072,
-            "value": "`const view = new Uint8Array( new SharedArrayBuffer(Uint8Array.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError",
-            "raw": "'`const view = new Uint8Array( new SharedArrayBuffer(Uint8Array.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError'"
+            "value": "`const view = new Uint8Array( new SharedArrayBuffer(Uint8Array.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -1558,8 +1545,7 @@
             "type": "Literal",
             "start": 3267,
             "end": 3426,
-            "value": "`const view = new Uint8ClampedArray( new SharedArrayBuffer(Uint8ClampedArray.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError",
-            "raw": "'`const view = new Uint8ClampedArray( new SharedArrayBuffer(Uint8ClampedArray.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError'"
+            "value": "`const view = new Uint8ClampedArray( new SharedArrayBuffer(Uint8ClampedArray.BYTES_PER_ELEMENT) ); Atomics.notify(view, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

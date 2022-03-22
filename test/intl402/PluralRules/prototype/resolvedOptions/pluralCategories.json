@@ -27,43 +27,37 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 407,
-                "value": "zero",
-                "raw": "\"zero\""
+                "value": "zero"
               },
               {
                 "type": "Literal",
                 "start": 409,
                 "end": 414,
-                "value": "one",
-                "raw": "\"one\""
+                "value": "one"
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 421,
-                "value": "two",
-                "raw": "\"two\""
+                "value": "two"
               },
               {
                 "type": "Literal",
                 "start": 423,
                 "end": 428,
-                "value": "few",
-                "raw": "\"few\""
+                "value": "few"
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 436,
-                "value": "many",
-                "raw": "\"many\""
+                "value": "many"
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 445,
-                "value": "other",
-                "raw": "\"other\""
+                "value": "other"
               }
             ]
           }
@@ -275,8 +269,7 @@
             "type": "Literal",
             "start": 664,
             "end": 694,
-            "value": "Should have different arrays",
-            "raw": "\"Should have different arrays\""
+            "value": "Should have different arrays"
           }
         ],
         "optional": false
@@ -352,8 +345,7 @@
             "type": "Literal",
             "start": 771,
             "end": 803,
-            "value": "Arrays should have same values",
-            "raw": "\"Arrays should have same values\""
+            "value": "Arrays should have same values"
           }
         ],
         "optional": false
@@ -539,8 +531,7 @@
             "type": "Literal",
             "start": 986,
             "end": 1004,
-            "value": "pluralCategories",
-            "raw": "\"pluralCategories\""
+            "value": "pluralCategories"
           },
           {
             "type": "ObjectExpression",

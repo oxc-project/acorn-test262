@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 299,
                 "end": 308,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ],
             "optional": false
@@ -112,15 +111,13 @@
                 "type": "Literal",
                 "start": 351,
                 "end": 355,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Identifier",
@@ -132,8 +129,7 @@
                 "type": "Literal",
                 "start": 365,
                 "end": 366,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -184,15 +180,13 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 413,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 415,
                 "end": 416,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Identifier",
@@ -204,8 +198,7 @@
                 "type": "Literal",
                 "start": 423,
                 "end": 424,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -303,8 +296,7 @@
               "type": "Literal",
               "start": 488,
               "end": 489,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],

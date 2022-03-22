@@ -56,8 +56,7 @@
           "type": "Literal",
           "start": 375,
           "end": 376,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -155,8 +154,7 @@
                     "type": "Literal",
                     "start": 469,
                     "end": 584,
-                    "value": "#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop; MyFunction.prop === undefined. Actual: ",
-                    "raw": "'#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop; MyFunction.prop === undefined. Actual: '"
+                    "value": "#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop; MyFunction.prop === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

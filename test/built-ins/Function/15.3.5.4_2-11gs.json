@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 368,
                         "end": 383,
-                        "value": "gNonStrict();",
-                        "raw": "\"gNonStrict();\""
+                        "value": "gNonStrict();"
                       }
                     ],
                     "optional": false

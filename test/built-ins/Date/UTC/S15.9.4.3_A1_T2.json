@@ -68,8 +68,7 @@
             "type": "Literal",
             "start": 342,
             "end": 385,
-            "value": "The value of delete Date.UTC is not false",
-            "raw": "'The value of delete Date.UTC is not false'"
+            "value": "The value of delete Date.UTC is not false"
           }
         ],
         "optional": false
@@ -124,8 +123,7 @@
                   "type": "Literal",
                   "start": 416,
                   "end": 421,
-                  "value": "UTC",
-                  "raw": "'UTC'"
+                  "value": "UTC"
                 }
               ],
               "optional": false
@@ -135,8 +133,7 @@
             "type": "Literal",
             "start": 424,
             "end": 491,
-            "value": "The value of !Date.hasOwnProperty('UTC') is expected to be true",
-            "raw": "'The value of !Date.hasOwnProperty(\\'UTC\\') is expected to be true'"
+            "value": "The value of !Date.hasOwnProperty('UTC') is expected to be true"
           }
         ],
         "optional": false

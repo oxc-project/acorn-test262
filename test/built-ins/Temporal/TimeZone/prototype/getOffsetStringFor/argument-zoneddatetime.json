@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 777,
                             "end": 782,
-                            "value": "UTC",
-                            "raw": "\"UTC\""
+                            "value": "UTC"
                           }
                         ],
                         "optional": false
@@ -208,15 +207,13 @@
                         "type": "Literal",
                         "start": 868,
                         "end": 876,
-                        "value": "+00:00",
-                        "raw": "\"+00:00\""
+                        "value": "+00:00"
                       },
                       {
                         "type": "Literal",
                         "start": 878,
                         "end": 893,
-                        "value": "offset result",
-                        "raw": "\"offset result\""
+                        "value": "offset result"
                       }
                     ],
                     "optional": false

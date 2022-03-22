@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 280,
               "end": 308,
-              "value": "' str ing '",
-              "raw": "\"'\\u00A0str\\u00A0ing\\u00A0'\""
+              "value": "' str ing '"
             }
           ],
           "optional": false
@@ -37,8 +36,7 @@
           "type": "Literal",
           "start": 314,
           "end": 340,
-          "value": " str ing ",
-          "raw": "\"\\u00A0str\\u00A0ing\\u00A0\""
+          "value": " str ing "
         }
       },
       "consequent": {
@@ -65,8 +63,7 @@
                   "type": "Literal",
                   "start": 369,
                   "end": 448,
-                  "value": "#1: eval(\"'\\u00A0str\\u00A0ing\\u00A0'\") === \"\\u00A0str\\u00A0ing\\u00A0\"",
-                  "raw": "'#1: eval(\"\\'\\\\u00A0str\\\\u00A0ing\\\\u00A0\\'\") === \"\\\\u00A0str\\\\u00A0ing\\\\u00A0\"'"
+                  "value": "#1: eval(\"'\\u00A0str\\u00A0ing\\u00A0'\") === \"\\u00A0str\\u00A0ing\\u00A0\""
                 }
               ]
             }

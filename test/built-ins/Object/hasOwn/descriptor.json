@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 321,
             "end": 329,
-            "value": "hasOwn",
-            "raw": "\"hasOwn\""
+            "value": "hasOwn"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 360,
             "end": 368,
-            "value": "hasOwn",
-            "raw": "\"hasOwn\""
+            "value": "hasOwn"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 398,
             "end": 406,
-            "value": "hasOwn",
-            "raw": "\"hasOwn\""
+            "value": "hasOwn"
           }
         ],
         "optional": false

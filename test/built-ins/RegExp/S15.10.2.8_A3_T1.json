@@ -31,7 +31,6 @@
                 "start": 691,
                 "end": 728,
                 "value": {},
-                "raw": "/([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)/",
                 "regex": {
                   "pattern": "([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 734,
                 "end": 772,
-                "value": "Learning javaScript is funny, really",
-                "raw": "\"Learning javaScript is funny, really\""
+                "value": "Learning javaScript is funny, really"
               }
             ],
             "optional": false
@@ -85,29 +83,25 @@
                 "type": "Literal",
                 "start": 794,
                 "end": 815,
-                "value": "javaScript is funny",
-                "raw": "\"javaScript is funny\""
+                "value": "javaScript is funny"
               },
               {
                 "type": "Literal",
                 "start": 816,
                 "end": 828,
-                "value": "javaScript",
-                "raw": "\"javaScript\""
+                "value": "javaScript"
               },
               {
                 "type": "Literal",
                 "start": 829,
                 "end": 837,
-                "value": "Script",
-                "raw": "\"Script\""
+                "value": "Script"
               },
               {
                 "type": "Literal",
                 "start": 838,
                 "end": 845,
-                "value": "funny",
-                "raw": "\"funny\""
+                "value": "funny"
               }
             ]
           }
@@ -147,8 +141,7 @@
           "type": "Literal",
           "start": 867,
           "end": 868,
-          "value": 9,
-          "raw": "9"
+          "value": 9
         }
       }
     },
@@ -184,8 +177,7 @@
           "type": "Literal",
           "start": 889,
           "end": 927,
-          "value": "Learning javaScript is funny, really",
-          "raw": "\"Learning javaScript is funny, really\""
+          "value": "Learning javaScript is funny, really"
         }
       }
     },
@@ -259,8 +251,7 @@
             "type": "Literal",
             "start": 992,
             "end": 1076,
-            "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "value": "The value of __executed.length is expected to equal the value of __expected.length"
           }
         ],
         "optional": false
@@ -336,8 +327,7 @@
             "type": "Literal",
             "start": 1141,
             "end": 1223,
-            "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "value": "The value of __executed.index is expected to equal the value of __expected.index"
           }
         ],
         "optional": false
@@ -413,8 +403,7 @@
             "type": "Literal",
             "start": 1288,
             "end": 1370,
-            "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "value": "The value of __executed.input is expected to equal the value of __expected.input"
           }
         ],
         "optional": false
@@ -443,8 +432,7 @@
               "type": "Literal",
               "start": 1389,
               "end": 1390,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -569,8 +557,7 @@
                   "type": "Literal",
                   "start": 1498,
                   "end": 1582,
-                  "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "value": "The value of __executed[index] is expected to equal the value of __expected[index]"
                 }
               ],
               "optional": false

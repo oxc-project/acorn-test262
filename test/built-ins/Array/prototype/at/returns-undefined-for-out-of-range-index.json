@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 445,
             "end": 455,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 530,
-            "value": "The value of `typeof Array.prototype.at` is expected to be \"function\"",
-            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'"
+            "value": "The value of `typeof Array.prototype.at` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -175,8 +173,7 @@
                   "type": "Literal",
                   "start": 571,
                   "end": 572,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             ],
@@ -192,8 +189,7 @@
             "type": "Literal",
             "start": 586,
             "end": 614,
-            "value": "a.at(-2) returns undefined",
-            "raw": "'a.at(-2) returns undefined'"
+            "value": "a.at(-2) returns undefined"
           }
         ],
         "optional": false
@@ -255,8 +251,7 @@
                 "type": "Literal",
                 "start": 662,
                 "end": 663,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -271,8 +266,7 @@
             "type": "Literal",
             "start": 677,
             "end": 704,
-            "value": "a.at(0) returns undefined",
-            "raw": "'a.at(0) returns undefined'"
+            "value": "a.at(0) returns undefined"
           }
         ],
         "optional": false
@@ -334,8 +328,7 @@
                 "type": "Literal",
                 "start": 729,
                 "end": 730,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -350,8 +343,7 @@
             "type": "Literal",
             "start": 744,
             "end": 771,
-            "value": "a.at(1) returns undefined",
-            "raw": "'a.at(1) returns undefined'"
+            "value": "a.at(1) returns undefined"
           }
         ],
         "optional": false

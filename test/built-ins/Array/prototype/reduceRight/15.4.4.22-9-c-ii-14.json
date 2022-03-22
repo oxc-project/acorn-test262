@@ -48,8 +48,7 @@
                     "type": "Literal",
                     "start": 299,
                     "end": 300,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -59,8 +58,7 @@
                   "type": "Literal",
                   "start": 306,
                   "end": 309,
-                  "value": 100,
-                  "raw": "100"
+                  "value": 100
                 }
               },
               "operator": "&&",
@@ -86,8 +84,7 @@
                       "type": "Literal",
                       "start": 323,
                       "end": 324,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     },
                     "computed": true,
                     "optional": false
@@ -106,8 +103,7 @@
                       "type": "Literal",
                       "start": 336,
                       "end": 337,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "computed": true,
                     "optional": false
@@ -130,8 +126,7 @@
                     "type": "Literal",
                     "start": 354,
                     "end": 355,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   "computed": true,
                   "optional": false
@@ -187,8 +182,7 @@
                     "type": "Literal",
                     "start": 379,
                     "end": 381,
-                    "value": 11,
-                    "raw": "11"
+                    "value": 11
                   }
                 ]
               },
@@ -212,8 +206,7 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 410,
-                "value": 100,
-                "raw": "100"
+                "value": 100
               }
             ],
             "optional": false
@@ -229,8 +222,7 @@
             "type": "Literal",
             "start": 419,
             "end": 454,
-            "value": "[11].reduceRight(callbackfn, 100)",
-            "raw": "'[11].reduceRight(callbackfn, 100)'"
+            "value": "[11].reduceRight(callbackfn, 100)"
           }
         ],
         "optional": false

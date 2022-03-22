@@ -58,8 +58,7 @@
                 "type": "Literal",
                 "start": 437,
                 "end": 442,
-                "value": "NaN",
-                "raw": "\"NaN\""
+                "value": "NaN"
               },
               {
                 "type": "Identifier",
@@ -83,8 +82,7 @@
                 "type": "Literal",
                 "start": 466,
                 "end": 467,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
@@ -154,8 +152,7 @@
                 "type": "Literal",
                 "start": 531,
                 "end": 538,
-                "value": "false",
-                "raw": "\"false\""
+                "value": "false"
               }
             ]
           }
@@ -234,16 +231,14 @@
               "type": "Literal",
               "start": 580,
               "end": 581,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 621,
-            "value": "NaN matches nothing, not even itself",
-            "raw": "'NaN matches nothing, not even itself'"
+            "value": "NaN matches nothing, not even itself"
           }
         ],
         "optional": false

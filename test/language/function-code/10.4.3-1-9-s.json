@@ -101,15 +101,13 @@
             "type": "Literal",
             "start": 361,
             "end": 372,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 374,
             "end": 379,
-            "value": "f()",
-            "raw": "'f()'"
+            "value": "f()"
           }
         ],
         "optional": false

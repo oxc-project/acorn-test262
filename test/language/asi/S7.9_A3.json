@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 313,
               "end": 314,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ]
@@ -63,8 +62,7 @@
           "type": "Literal",
           "start": 331,
           "end": 332,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -91,8 +89,7 @@
                   "type": "Literal",
                   "start": 361,
                   "end": 423,
-                  "value": "#1: Check return statement for automatic semicolon insertion",
-                  "raw": "'#1: Check return statement for automatic semicolon insertion'"
+                  "value": "#1: Check return statement for automatic semicolon insertion"
                 }
               ]
             }
@@ -134,8 +131,7 @@
               "type": "Literal",
               "start": 466,
               "end": 467,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ]
@@ -194,8 +190,7 @@
                   "type": "Literal",
                   "start": 522,
                   "end": 584,
-                  "value": "#2: Check return statement for automatic semicolon insertion",
-                  "raw": "'#2: Check return statement for automatic semicolon insertion'"
+                  "value": "#2: Check return statement for automatic semicolon insertion"
                 }
               ]
             }

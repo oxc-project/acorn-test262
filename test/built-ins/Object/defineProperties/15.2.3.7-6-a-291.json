@@ -85,22 +85,19 @@
               "type": "Literal",
               "start": 562,
               "end": 563,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             {
               "type": "Literal",
               "start": 565,
               "end": 566,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 568,
               "end": 569,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           ],
           "optional": false
@@ -131,8 +128,7 @@
             "type": "Literal",
             "start": 585,
             "end": 586,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -166,8 +162,7 @@
               "type": "Literal",
               "start": 621,
               "end": 623,
-              "value": 10,
-              "raw": "10"
+              "value": 10
             }
           }
         ]
@@ -288,8 +283,7 @@
                   "type": "Literal",
                   "start": 724,
                   "end": 727,
-                  "value": "0",
-                  "raw": "\"0\""
+                  "value": "0"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -417,8 +411,7 @@
             "type": "Literal",
             "start": 844,
             "end": 847,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "CallExpression",
@@ -462,15 +455,13 @@
             "type": "Literal",
             "start": 883,
             "end": 886,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "Literal",
             "start": 888,
             "end": 907,
-            "value": "setVerifyHelpProp",
-            "raw": "\"setVerifyHelpProp\""
+            "value": "setVerifyHelpProp"
           }
         ],
         "optional": false
@@ -501,8 +492,7 @@
             "type": "Literal",
             "start": 936,
             "end": 939,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         ],
         "optional": false
@@ -533,8 +523,7 @@
             "type": "Literal",
             "start": 970,
             "end": 973,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         ],
         "optional": false

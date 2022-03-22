@@ -109,8 +109,7 @@
                         "type": "Literal",
                         "start": 690,
                         "end": 692,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -123,8 +122,7 @@
             "type": "Literal",
             "start": 698,
             "end": 730,
-            "value": "Array.prototype.shift.call('')",
-            "raw": "\"Array.prototype.shift.call('')\""
+            "value": "Array.prototype.shift.call('')"
           }
         ],
         "optional": false
@@ -236,8 +234,7 @@
                         "type": "Literal",
                         "start": 796,
                         "end": 801,
-                        "value": "abc",
-                        "raw": "'abc'"
+                        "value": "abc"
                       }
                     ],
                     "optional": false
@@ -250,8 +247,7 @@
             "type": "Literal",
             "start": 807,
             "end": 842,
-            "value": "Array.prototype.shift.call('abc')",
-            "raw": "\"Array.prototype.shift.call('abc')\""
+            "value": "Array.prototype.shift.call('abc')"
           }
         ],
         "optional": false
@@ -386,8 +382,7 @@
             "type": "Literal",
             "start": 927,
             "end": 970,
-            "value": "Array.prototype.shift.call(function() {})",
-            "raw": "\"Array.prototype.shift.call(function() {})\""
+            "value": "Array.prototype.shift.call(function() {})"
           }
         ],
         "optional": false
@@ -529,8 +524,7 @@
                             "type": "Literal",
                             "start": 1062,
                             "end": 1070,
-                            "value": "length",
-                            "raw": "'length'"
+                            "value": "length"
                           },
                           {
                             "type": "ObjectExpression",
@@ -575,8 +569,7 @@
             "type": "Literal",
             "start": 1096,
             "end": 1180,
-            "value": "Array.prototype.shift.call(Object.defineProperty({}, 'length', {writable: false}))",
-            "raw": "\"Array.prototype.shift.call(Object.defineProperty({}, 'length', {writable: false}))\""
+            "value": "Array.prototype.shift.call(Object.defineProperty({}, 'length', {writable: false}))"
           }
         ],
         "optional": false

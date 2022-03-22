@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 280,
             "end": 301,
-            "value": "Object.isFrozen({})",
-            "raw": "'Object.isFrozen({})'"
+            "value": "Object.isFrozen({})"
           }
         ],
         "optional": false

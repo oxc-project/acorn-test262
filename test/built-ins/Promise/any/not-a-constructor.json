@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 748,
             "end": 794,
-            "value": "isConstructor(Promise.any) must return false",
-            "raw": "'isConstructor(Promise.any) must return false'"
+            "value": "isConstructor(Promise.any) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
                             "type": "Literal",
                             "start": 850,
                             "end": 851,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -182,8 +180,7 @@
             "type": "Literal",
             "start": 858,
             "end": 899,
-            "value": "`new Promise.any([1])` throws TypeError",
-            "raw": "'`new Promise.any([1])` throws TypeError'"
+            "value": "`new Promise.any([1])` throws TypeError"
           }
         ],
         "optional": false

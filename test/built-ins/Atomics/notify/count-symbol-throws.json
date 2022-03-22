@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 554,
                       "end": 555,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -166,8 +165,7 @@
                         "type": "Literal",
                         "start": 622,
                         "end": 623,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "CallExpression",
@@ -193,8 +191,7 @@
             "type": "Literal",
             "start": 639,
             "end": 693,
-            "value": "`Atomics.notify(i32a, 0, Symbol())` throws TypeError",
-            "raw": "'`Atomics.notify(i32a, 0, Symbol())` throws TypeError'"
+            "value": "`Atomics.notify(i32a, 0, Symbol())` throws TypeError"
           }
         ],
         "optional": false

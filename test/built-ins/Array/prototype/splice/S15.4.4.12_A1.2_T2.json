@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 354,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -92,8 +90,7 @@
                   "type": "Literal",
                   "start": 377,
                   "end": 378,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               {
@@ -106,8 +103,7 @@
                   "type": "Literal",
                   "start": 381,
                   "end": 382,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -226,16 +222,14 @@
               "type": "Literal",
               "start": 451,
               "end": 461,
-              "value": "[object ",
-              "raw": "\"[object \""
+              "value": "[object "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 464,
               "end": 471,
-              "value": "Array",
-              "raw": "\"Array\""
+              "value": "Array"
             }
           },
           "operator": "+",
@@ -243,8 +237,7 @@
             "type": "Literal",
             "start": 474,
             "end": 477,
-            "value": "]",
-            "raw": "\"]\""
+            "value": "]"
           }
         }
       },
@@ -276,8 +269,7 @@
                     "type": "Literal",
                     "start": 506,
                     "end": 583,
-                    "value": "#0: var x = [0,1]; var arr = x.splice(-1,-1); arr is Array object. Actual: ",
-                    "raw": "'#0: var x = [0,1]; var arr = x.splice(-1,-1); arr is Array object. Actual: '"
+                    "value": "#0: var x = [0,1]; var arr = x.splice(-1,-1); arr is Array object. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -351,8 +343,7 @@
           "type": "Literal",
           "start": 627,
           "end": 628,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -383,8 +374,7 @@
                     "type": "Literal",
                     "start": 657,
                     "end": 731,
-                    "value": "#1: var x = [0,1]; var arr = x.splice(-1,-1); arr.length === 0. Actual: ",
-                    "raw": "'#1: var x = [0,1]; var arr = x.splice(-1,-1); arr.length === 0. Actual: '"
+                    "value": "#1: var x = [0,1]; var arr = x.splice(-1,-1); arr.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -451,8 +441,7 @@
           "type": "Literal",
           "start": 769,
           "end": 770,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -483,8 +472,7 @@
                     "type": "Literal",
                     "start": 799,
                     "end": 871,
-                    "value": "#2: var x = [0,1]; var arr = x.splice(-1,-1); x.length === 2. Actual: ",
-                    "raw": "'#2: var x = [0,1]; var arr = x.splice(-1,-1); x.length === 2. Actual: '"
+                    "value": "#2: var x = [0,1]; var arr = x.splice(-1,-1); x.length === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -541,8 +529,7 @@
             "type": "Literal",
             "start": 896,
             "end": 897,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -552,8 +539,7 @@
           "type": "Literal",
           "start": 903,
           "end": 904,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -584,8 +570,7 @@
                     "type": "Literal",
                     "start": 933,
                     "end": 1001,
-                    "value": "#3: var x = [0,1]; var arr = x.splice(-1,-1); x[0] === 0. Actual: ",
-                    "raw": "'#3: var x = [0,1]; var arr = x.splice(-1,-1); x[0] === 0. Actual: '"
+                    "value": "#3: var x = [0,1]; var arr = x.splice(-1,-1); x[0] === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -606,8 +591,7 @@
                         "type": "Literal",
                         "start": 1007,
                         "end": 1008,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -643,8 +627,7 @@
             "type": "Literal",
             "start": 1022,
             "end": 1023,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -654,8 +637,7 @@
           "type": "Literal",
           "start": 1029,
           "end": 1030,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -686,8 +668,7 @@
                     "type": "Literal",
                     "start": 1059,
                     "end": 1127,
-                    "value": "#4: var x = [0,1]; var arr = x.splice(-1,-1); x[1] === 1. Actual: ",
-                    "raw": "'#4: var x = [0,1]; var arr = x.splice(-1,-1); x[1] === 1. Actual: '"
+                    "value": "#4: var x = [0,1]; var arr = x.splice(-1,-1); x[1] === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -708,8 +689,7 @@
                         "type": "Literal",
                         "start": 1133,
                         "end": 1134,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "computed": true,
                       "optional": false

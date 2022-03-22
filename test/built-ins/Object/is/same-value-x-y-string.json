@@ -59,15 +59,13 @@
                 "type": "Literal",
                 "start": 500,
                 "end": 502,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 504,
                 "end": 506,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -83,8 +81,7 @@
             "type": "Literal",
             "start": 515,
             "end": 551,
-            "value": "`Object.is('', '')` returns `true`",
-            "raw": "\"`Object.is('', '')` returns `true`\""
+            "value": "`Object.is('', '')` returns `true`"
           }
         ],
         "optional": false
@@ -146,15 +143,13 @@
                 "type": "Literal",
                 "start": 584,
                 "end": 589,
-                "value": "foo",
-                "raw": "'foo'"
+                "value": "foo"
               },
               {
                 "type": "Literal",
                 "start": 591,
                 "end": 596,
-                "value": "foo",
-                "raw": "'foo'"
+                "value": "foo"
               }
             ],
             "optional": false
@@ -170,8 +165,7 @@
             "type": "Literal",
             "start": 609,
             "end": 651,
-            "value": "`Object.is('foo', 'foo')` returns `true`",
-            "raw": "\"`Object.is('foo', 'foo')` returns `true`\""
+            "value": "`Object.is('foo', 'foo')` returns `true`"
           }
         ],
         "optional": false
@@ -244,8 +238,7 @@
                     "type": "Literal",
                     "start": 692,
                     "end": 697,
-                    "value": "foo",
-                    "raw": "'foo'"
+                    "value": "foo"
                   }
                 ],
                 "optional": false
@@ -265,8 +258,7 @@
                     "type": "Literal",
                     "start": 707,
                     "end": 712,
-                    "value": "foo",
-                    "raw": "'foo'"
+                    "value": "foo"
                   }
                 ],
                 "optional": false
@@ -285,8 +277,7 @@
             "type": "Literal",
             "start": 726,
             "end": 784,
-            "value": "`Object.is(String('foo'), String('foo'))` returns `true`",
-            "raw": "\"`Object.is(String('foo'), String('foo'))` returns `true`\""
+            "value": "`Object.is(String('foo'), String('foo'))` returns `true`"
           }
         ],
         "optional": false

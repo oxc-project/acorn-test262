@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 394,
             "end": 399,
-            "value": "raw",
-            "raw": "'raw'"
+            "value": "raw"
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 446,
-            "value": "The value of `String.raw.name` is `\"raw\"`",
-            "raw": "'The value of `String.raw.name` is `\"raw\"`'"
+            "value": "The value of `String.raw.name` is `\"raw\"`"
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 483,
             "end": 489,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 522,
             "end": 528,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 562,
             "end": 568,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

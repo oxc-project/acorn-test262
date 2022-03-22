@@ -101,8 +101,7 @@
                           "type": "Literal",
                           "start": 1318,
                           "end": 1319,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         {
                           "type": "FunctionExpression",
@@ -188,8 +187,7 @@
             "type": "Literal",
             "start": 1375,
             "end": 1382,
-            "value": "cover",
-            "raw": "'cover'"
+            "value": "cover"
           }
         ],
         "optional": false
@@ -246,8 +244,7 @@
             "type": "Literal",
             "start": 1418,
             "end": 1426,
-            "value": "xCover",
-            "raw": "'xCover'"
+            "value": "xCover"
           }
         ],
         "optional": false

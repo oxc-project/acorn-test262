@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 413,
             "end": 422,
-            "value": "ownKeys",
-            "raw": "'ownKeys'"
+            "value": "ownKeys"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 449,
             "end": 458,
-            "value": "ownKeys",
-            "raw": "'ownKeys'"
+            "value": "ownKeys"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 489,
             "end": 498,
-            "value": "ownKeys",
-            "raw": "'ownKeys'"
+            "value": "ownKeys"
           }
         ],
         "optional": false

@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 1075,
                 "end": 1076,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -41,8 +40,7 @@
             "type": "Literal",
             "start": 1086,
             "end": 1282,
-            "value": "{ function f() { return \"inner declaration\"; } }assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }",
-            "raw": "'{ function f() { return \"inner declaration\"; } }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"inner declaration\");\\\n  \\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
+            "value": "{ function f() { return \"inner declaration\"; } }assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"inner declaration\");    function f() {    return \"outer declaration\";  }"
           }
         ],
         "optional": false

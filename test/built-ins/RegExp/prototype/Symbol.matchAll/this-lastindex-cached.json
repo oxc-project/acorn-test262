@@ -23,7 +23,6 @@
             "start": 628,
             "end": 632,
             "value": {},
-            "raw": "/./g",
             "regex": {
               "pattern": ".",
               "flags": "g"
@@ -102,8 +101,7 @@
                         "type": "Literal",
                         "start": 680,
                         "end": 681,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     }
                   ]
@@ -133,8 +131,7 @@
             "type": "Literal",
             "start": 700,
             "end": 706,
-            "value": "abcd",
-            "raw": "'abcd'"
+            "value": "abcd"
           }
         }
       ],
@@ -237,8 +234,7 @@
           "type": "Literal",
           "start": 833,
           "end": 834,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -301,8 +297,7 @@
                         "type": "Literal",
                         "start": 886,
                         "end": 889,
-                        "value": "c",
-                        "raw": "'c'"
+                        "value": "c"
                       }
                     ]
                   },
@@ -310,8 +305,7 @@
                     "type": "Literal",
                     "start": 892,
                     "end": 893,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Identifier",
@@ -342,8 +336,7 @@
                         "type": "Literal",
                         "start": 919,
                         "end": 922,
-                        "value": "d",
-                        "raw": "'d'"
+                        "value": "d"
                       }
                     ]
                   },
@@ -351,8 +344,7 @@
                     "type": "Literal",
                     "start": 925,
                     "end": 926,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   },
                   {
                     "type": "Identifier",

@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 432,
             "end": 442,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -153,8 +152,7 @@
             "type": "Literal",
             "start": 508,
             "end": 541,
-            "value": "(empty) is an invalid tag value",
-            "raw": "\"(empty) is an invalid tag value\""
+            "value": "(empty) is an invalid tag value"
           }
         ],
         "optional": false
@@ -252,8 +250,7 @@
             "type": "Literal",
             "start": 615,
             "end": 650,
-            "value": "undefined is an invalid tag value",
-            "raw": "\"undefined is an invalid tag value\""
+            "value": "undefined is an invalid tag value"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 231,
             "end": 235,
-            "value": "𐒠",
-            "raw": "\"𐒠\""
+            "value": "𐒠"
           }
         }
       ],
@@ -61,8 +60,7 @@
           "type": "Literal",
           "start": 309,
           "end": 310,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -89,8 +87,7 @@
                   "type": "Literal",
                   "start": 341,
                   "end": 429,
-                  "value": "A character outside the BMP (Unicode CodePoint > 0xFFFF) should consume two code units",
-                  "raw": "\"A character outside the BMP (Unicode CodePoint > 0xFFFF) should consume two code units\""
+                  "value": "A character outside the BMP (Unicode CodePoint > 0xFFFF) should consume two code units"
                 }
               ]
             }
@@ -135,8 +132,7 @@
               "type": "Literal",
               "start": 454,
               "end": 455,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -146,8 +142,7 @@
           "type": "Literal",
           "start": 461,
           "end": 467,
-          "value": 55297,
-          "raw": "0xD801"
+          "value": 55297
         }
       },
       "consequent": {
@@ -174,8 +169,7 @@
                   "type": "Literal",
                   "start": 498,
                   "end": 562,
-                  "value": "First code unit of surrogate pair for 0x104A0 should be 0xD801",
-                  "raw": "\"First code unit of surrogate pair for 0x104A0 should be 0xD801\""
+                  "value": "First code unit of surrogate pair for 0x104A0 should be 0xD801"
                 }
               ]
             }
@@ -220,8 +214,7 @@
               "type": "Literal",
               "start": 588,
               "end": 589,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ],
           "optional": false
@@ -231,8 +224,7 @@
           "type": "Literal",
           "start": 595,
           "end": 601,
-          "value": 56480,
-          "raw": "0xDCA0"
+          "value": 56480
         }
       },
       "consequent": {
@@ -259,8 +251,7 @@
                   "type": "Literal",
                   "start": 632,
                   "end": 697,
-                  "value": "Second code unit of surrogate pair for 0x104A0 should be 0xDCA0",
-                  "raw": "\"Second code unit of surrogate pair for 0x104A0 should be 0xDCA0\""
+                  "value": "Second code unit of surrogate pair for 0x104A0 should be 0xDCA0"
                 }
               ]
             }

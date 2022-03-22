@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 2094,
                 "end": 2134,
-                "value": "1; switch (\"a\") { default: case \"b\": }",
-                "raw": "'1; switch (\"a\") { default: case \"b\": }'"
+                "value": "1; switch (\"a\") { default: case \"b\": }"
               }
             ],
             "optional": false
@@ -62,8 +61,7 @@
             "type": "Literal",
             "start": 2152,
             "end": 2185,
-            "value": "empty StatementList (lone case)",
-            "raw": "'empty StatementList (lone case)'"
+            "value": "empty StatementList (lone case)"
           }
         ],
         "optional": false
@@ -112,8 +110,7 @@
                 "type": "Literal",
                 "start": 2214,
                 "end": 2257,
-                "value": "2; switch (\"a\") { default: case \"b\": 3; }",
-                "raw": "'2; switch (\"a\") { default: case \"b\": 3; }'"
+                "value": "2; switch (\"a\") { default: case \"b\": 3; }"
               }
             ],
             "optional": false
@@ -122,15 +119,13 @@
             "type": "Literal",
             "start": 2262,
             "end": 2263,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 2267,
             "end": 2303,
-            "value": "non-empy StatementList (lone case)",
-            "raw": "'non-empy StatementList (lone case)'"
+            "value": "non-empy StatementList (lone case)"
           }
         ],
         "optional": false
@@ -179,8 +174,7 @@
                 "type": "Literal",
                 "start": 2332,
                 "end": 2382,
-                "value": "4; switch (\"a\") { default: case \"b\": case \"c\": }",
-                "raw": "'4; switch (\"a\") { default: case \"b\": case \"c\": }'"
+                "value": "4; switch (\"a\") { default: case \"b\": case \"c\": }"
               }
             ],
             "optional": false
@@ -195,8 +189,7 @@
             "type": "Literal",
             "start": 2400,
             "end": 2447,
-            "value": "empty StatementList (following an empty case)",
-            "raw": "'empty StatementList (following an empty case)'"
+            "value": "empty StatementList (following an empty case)"
           }
         ],
         "optional": false
@@ -245,8 +238,7 @@
                 "type": "Literal",
                 "start": 2476,
                 "end": 2529,
-                "value": "5; switch (\"a\") { default: case \"b\": case \"c\": 6; }",
-                "raw": "'5; switch (\"a\") { default: case \"b\": case \"c\": 6; }'"
+                "value": "5; switch (\"a\") { default: case \"b\": case \"c\": 6; }"
               }
             ],
             "optional": false
@@ -255,15 +247,13 @@
             "type": "Literal",
             "start": 2534,
             "end": 2535,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           },
           {
             "type": "Literal",
             "start": 2539,
             "end": 2590,
-            "value": "non-empty StatementList (following an empty case)",
-            "raw": "'non-empty StatementList (following an empty case)'"
+            "value": "non-empty StatementList (following an empty case)"
           }
         ],
         "optional": false
@@ -312,8 +302,7 @@
                 "type": "Literal",
                 "start": 2619,
                 "end": 2672,
-                "value": "7; switch (\"a\") { default: case \"b\": 8; case \"c\": }",
-                "raw": "'7; switch (\"a\") { default: case \"b\": 8; case \"c\": }'"
+                "value": "7; switch (\"a\") { default: case \"b\": 8; case \"c\": }"
               }
             ],
             "optional": false
@@ -322,15 +311,13 @@
             "type": "Literal",
             "start": 2677,
             "end": 2678,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           },
           {
             "type": "Literal",
             "start": 2682,
             "end": 2732,
-            "value": "empty StatementList (following a non-empty case)",
-            "raw": "'empty StatementList (following a non-empty case)'"
+            "value": "empty StatementList (following a non-empty case)"
           }
         ],
         "optional": false
@@ -379,8 +366,7 @@
                 "type": "Literal",
                 "start": 2761,
                 "end": 2819,
-                "value": "9; switch (\"a\") { default: case \"b\": 10; case \"c\": 11; }",
-                "raw": "'9; switch (\"a\") { default: case \"b\": 10; case \"c\": 11; }'"
+                "value": "9; switch (\"a\") { default: case \"b\": 10; case \"c\": 11; }"
               }
             ],
             "optional": false
@@ -389,15 +375,13 @@
             "type": "Literal",
             "start": 2824,
             "end": 2826,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 2830,
             "end": 2884,
-            "value": "non-empty StatementList (following a non-empty case)",
-            "raw": "'non-empty StatementList (following a non-empty case)'"
+            "value": "non-empty StatementList (following a non-empty case)"
           }
         ],
         "optional": false

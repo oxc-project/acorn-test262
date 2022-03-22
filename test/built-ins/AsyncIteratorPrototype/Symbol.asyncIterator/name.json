@@ -167,8 +167,7 @@
             "type": "Literal",
             "start": 1146,
             "end": 1152,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -192,8 +191,7 @@
                   "type": "Literal",
                   "start": 1165,
                   "end": 1189,
-                  "value": "[Symbol.asyncIterator]",
-                  "raw": "'[Symbol.asyncIterator]'"
+                  "value": "[Symbol.asyncIterator]"
                 },
                 "kind": "init"
               },

@@ -99,8 +99,7 @@
             "type": "Literal",
             "start": 952,
             "end": 962,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false

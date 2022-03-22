@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 713,
                 "end": 731,
-                "value": 100111122133144160,
-                "raw": "100111122133144155"
+                "value": 100111122133144160
               }
             ]
           }
@@ -160,8 +159,7 @@
                 "type": "Literal",
                 "start": 816,
                 "end": 817,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -194,64 +192,55 @@
                 "type": "Literal",
                 "start": 839,
                 "end": 841,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 843,
                 "end": 847,
-                "value": "00",
-                "raw": "\"00\""
+                "value": "00"
               },
               {
                 "type": "Literal",
                 "start": 849,
                 "end": 851,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 853,
                 "end": 855,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 857,
                 "end": 859,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 861,
                 "end": 865,
-                "value": "22",
-                "raw": "\"22\""
+                "value": "22"
               },
               {
                 "type": "Literal",
                 "start": 867,
                 "end": 871,
-                "value": "33",
-                "raw": "\"33\""
+                "value": "33"
               },
               {
                 "type": "Literal",
                 "start": 873,
                 "end": 877,
-                "value": "44",
-                "raw": "\"44\""
+                "value": "44"
               },
               {
                 "type": "Literal",
                 "start": 879,
                 "end": 883,
-                "value": "60",
-                "raw": "\"60\""
+                "value": "60"
               }
             ]
           }
@@ -316,8 +305,7 @@
             "type": "Literal",
             "start": 939,
             "end": 1013,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -393,8 +381,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1158,
-            "value": "The value of __split.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __split.length is expected to equal the value of __expected.length'"
+            "value": "The value of __split.length is expected to equal the value of __expected.length"
           }
         ],
         "optional": false
@@ -423,8 +410,7 @@
               "type": "Literal",
               "start": 1352,
               "end": 1353,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -549,8 +535,7 @@
                   "type": "Literal",
                   "start": 1460,
                   "end": 1541,
-                  "value": "The value of __split[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __split[index] is expected to equal the value of __expected[index]'"
+                  "value": "The value of __split[index] is expected to equal the value of __expected[index]"
                 }
               ],
               "optional": false

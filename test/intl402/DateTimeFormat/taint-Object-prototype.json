@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 364,
-                "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "value": "localeMatcher"
               }
             ]
           }
@@ -115,8 +114,7 @@
                             "type": "Literal",
                             "start": 433,
                             "end": 441,
-                            "value": "lookup",
-                            "raw": "\"lookup\""
+                            "value": "lookup"
                           },
                           "kind": "init"
                         }
@@ -196,8 +194,7 @@
                 "type": "Literal",
                 "start": 530,
                 "end": 570,
-                "value": "DateTimeFormat returns invalid locale ",
-                "raw": "\"DateTimeFormat returns invalid locale \""
+                "value": "DateTimeFormat returns invalid locale "
               },
               "operator": "+",
               "right": {
@@ -212,8 +209,7 @@
               "type": "Literal",
               "start": 582,
               "end": 585,
-              "value": ".",
-              "raw": "\".\""
+              "value": "."
             }
           }
         ],

@@ -131,10 +131,9 @@
         "end": 1195,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1150,
-            "end": 1173,
-            "static": false,
+            "end": 1172,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -157,10 +156,9 @@
             }
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1176,
-            "end": 1193,
-            "static": false,
+            "end": 1192,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -271,8 +269,7 @@
             "type": "Literal",
             "start": 1260,
             "end": 1313,
-            "value": "field initializer should end with abrupt completion",
-            "raw": "'field initializer should end with abrupt completion'"
+            "value": "field initializer should end with abrupt completion"
           }
         ],
         "optional": false
@@ -388,9 +385,9 @@
                     "end": 1477,
                     "body": [
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 1414,
-                        "end": 1444,
+                        "end": 1443,
                         "static": true,
                         "computed": false,
                         "key": {
@@ -414,9 +411,9 @@
                         }
                       },
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 1449,
-                        "end": 1473,
+                        "end": 1472,
                         "static": true,
                         "computed": false,
                         "key": {
@@ -449,8 +446,7 @@
             "type": "Literal",
             "start": 1481,
             "end": 1541,
-            "value": "static field initializer should end with abrupt completion",
-            "raw": "'static field initializer should end with abrupt completion'"
+            "value": "static field initializer should end with abrupt completion"
           }
         ],
         "optional": false

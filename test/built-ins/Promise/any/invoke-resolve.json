@@ -173,15 +173,13 @@
                       "type": "Literal",
                       "start": 761,
                       "end": 762,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 764,
                       "end": 806,
-                      "value": "`resolve` invoked with a single argument",
-                      "raw": "'`resolve` invoked with a single argument'"
+                      "value": "`resolve` invoked with a single argument"
                     }
                   ],
                   "optional": false
@@ -230,8 +228,7 @@
                       "type": "Literal",
                       "start": 843,
                       "end": 876,
-                      "value": "`this` value is the constructor",
-                      "raw": "'`this` value is the constructor'"
+                      "value": "`this` value is the constructor"
                     }
                   ],
                   "optional": false
@@ -317,8 +314,7 @@
                     "type": "Literal",
                     "start": 935,
                     "end": 936,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               }

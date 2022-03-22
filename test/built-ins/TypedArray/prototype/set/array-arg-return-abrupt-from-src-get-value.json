@@ -76,8 +76,7 @@
                               "type": "Literal",
                               "start": 968,
                               "end": 969,
-                              "value": 4,
-                              "raw": "4"
+                              "value": 4
                             },
                             "kind": "init"
                           },
@@ -92,15 +91,13 @@
                               "type": "Literal",
                               "start": 977,
                               "end": 980,
-                              "value": "0",
-                              "raw": "\"0\""
+                              "value": "0"
                             },
                             "value": {
                               "type": "Literal",
                               "start": 982,
                               "end": 984,
-                              "value": 42,
-                              "raw": "42"
+                              "value": 42
                             },
                             "kind": "init"
                           },
@@ -115,15 +112,13 @@
                               "type": "Literal",
                               "start": 992,
                               "end": 995,
-                              "value": "1",
-                              "raw": "\"1\""
+                              "value": "1"
                             },
                             "value": {
                               "type": "Literal",
                               "start": 997,
                               "end": 999,
-                              "value": 43,
-                              "raw": "43"
+                              "value": 43
                             },
                             "kind": "init"
                           },
@@ -138,15 +133,13 @@
                               "type": "Literal",
                               "start": 1007,
                               "end": 1010,
-                              "value": "3",
-                              "raw": "\"3\""
+                              "value": "3"
                             },
                             "value": {
                               "type": "Literal",
                               "start": 1012,
                               "end": 1014,
-                              "value": 44,
-                              "raw": "44"
+                              "value": 44
                             },
                             "kind": "init"
                           }
@@ -194,8 +187,7 @@
                         "type": "Literal",
                         "start": 1053,
                         "end": 1056,
-                        "value": "2",
-                        "raw": "\"2\""
+                        "value": "2"
                       },
                       {
                         "type": "ObjectExpression",
@@ -292,29 +284,25 @@
                                 "type": "Literal",
                                 "start": 1158,
                                 "end": 1159,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               {
                                 "type": "Literal",
                                 "start": 1161,
                                 "end": 1162,
-                                "value": 2,
-                                "raw": "2"
+                                "value": 2
                               },
                               {
                                 "type": "Literal",
                                 "start": 1164,
                                 "end": 1165,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               },
                               {
                                 "type": "Literal",
                                 "start": 1167,
                                 "end": 1168,
-                                "value": 4,
-                                "raw": "4"
+                                "value": 4
                               }
                             ]
                           }
@@ -458,29 +446,25 @@
                                 "type": "Literal",
                                 "start": 1280,
                                 "end": 1282,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 1284,
                                 "end": 1286,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               },
                               {
                                 "type": "Literal",
                                 "start": 1288,
                                 "end": 1289,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               },
                               {
                                 "type": "Literal",
                                 "start": 1291,
                                 "end": 1292,
-                                "value": 4,
-                                "raw": "4"
+                                "value": 4
                               }
                             ]
                           }
@@ -491,8 +475,7 @@
                         "type": "Literal",
                         "start": 1300,
                         "end": 1332,
-                        "value": "values are set until exception",
-                        "raw": "\"values are set until exception\""
+                        "value": "values are set until exception"
                       }
                     ],
                     "optional": false

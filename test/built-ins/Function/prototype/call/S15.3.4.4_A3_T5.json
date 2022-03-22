@@ -49,8 +49,7 @@
                       "type": "Literal",
                       "start": 414,
                       "end": 440,
-                      "value": "this.feat=\"in da haus\"",
-                      "raw": "\"this.feat=\\\"in da haus\\\"\""
+                      "value": "this.feat=\"in da haus\""
                     }
                   ],
                   "optional": false
@@ -143,8 +142,7 @@
               "type": "Literal",
               "start": 499,
               "end": 505,
-              "value": "feat",
-              "raw": "\"feat\""
+              "value": "feat"
             },
             "computed": true,
             "optional": false
@@ -153,15 +151,13 @@
             "type": "Literal",
             "start": 508,
             "end": 520,
-            "value": "in da haus",
-            "raw": "\"in da haus\""
+            "value": "in da haus"
           },
           {
             "type": "Literal",
             "start": 522,
             "end": 580,
-            "value": "The value of this[\"feat\"] is expected to be \"in da haus\"",
-            "raw": "'The value of this[\"feat\"] is expected to be \"in da haus\"'"
+            "value": "The value of this[\"feat\"] is expected to be \"in da haus\""
           }
         ],
         "optional": false
@@ -225,15 +221,13 @@
             "type": "Literal",
             "start": 617,
             "end": 628,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 692,
-            "value": "The value of `typeof obj.feat` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof obj.feat` is expected to be \"undefined\"'"
+            "value": "The value of `typeof obj.feat` is expected to be \"undefined\""
           }
         ],
         "optional": false

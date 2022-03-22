@@ -49,8 +49,7 @@
                       "type": "Literal",
                       "start": 4016,
                       "end": 4042,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   }
                 }
@@ -144,8 +143,7 @@
                   "type": "Literal",
                   "start": 4120,
                   "end": 4137,
-                  "value": "delete: default",
-                  "raw": "'delete: default'"
+                  "value": "delete: default"
                 }
               ],
               "optional": false
@@ -213,8 +211,7 @@
                       "type": "Literal",
                       "start": 4195,
                       "end": 4204,
-                      "value": "default",
-                      "raw": "'default'"
+                      "value": "default"
                     }
                   ],
                   "optional": false
@@ -230,8 +227,7 @@
                   "type": "Literal",
                   "start": 4214,
                   "end": 4247,
-                  "value": "Reflect.deleteProperty: default",
-                  "raw": "'Reflect.deleteProperty: default'"
+                  "value": "Reflect.deleteProperty: default"
                 }
               ],
               "optional": false
@@ -288,15 +284,13 @@
                   "type": "Literal",
                   "start": 4288,
                   "end": 4290,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 {
                   "type": "Literal",
                   "start": 4292,
                   "end": 4321,
-                  "value": "binding unmodified: default",
-                  "raw": "'binding unmodified: default'"
+                  "value": "binding unmodified: default"
                 }
               ],
               "optional": false
@@ -388,8 +382,7 @@
                   "type": "Literal",
                   "start": 4398,
                   "end": 4414,
-                  "value": "delete: local1",
-                  "raw": "'delete: local1'"
+                  "value": "delete: local1"
                 }
               ],
               "optional": false
@@ -457,8 +450,7 @@
                       "type": "Literal",
                       "start": 4472,
                       "end": 4480,
-                      "value": "local1",
-                      "raw": "'local1'"
+                      "value": "local1"
                     }
                   ],
                   "optional": false
@@ -474,8 +466,7 @@
                   "type": "Literal",
                   "start": 4490,
                   "end": 4522,
-                  "value": "Reflect.deleteProperty: local1",
-                  "raw": "'Reflect.deleteProperty: local1'"
+                  "value": "Reflect.deleteProperty: local1"
                 }
               ],
               "optional": false
@@ -532,15 +523,13 @@
                   "type": "Literal",
                   "start": 4562,
                   "end": 4571,
-                  "value": "Test262",
-                  "raw": "'Test262'"
+                  "value": "Test262"
                 },
                 {
                   "type": "Literal",
                   "start": 4573,
                   "end": 4601,
-                  "value": "binding unmodified: local1",
-                  "raw": "'binding unmodified: local1'"
+                  "value": "binding unmodified: local1"
                 }
               ],
               "optional": false
@@ -632,8 +621,7 @@
                   "type": "Literal",
                   "start": 4679,
                   "end": 4696,
-                  "value": "delete: renamed",
-                  "raw": "'delete: renamed'"
+                  "value": "delete: renamed"
                 }
               ],
               "optional": false
@@ -701,8 +689,7 @@
                       "type": "Literal",
                       "start": 4754,
                       "end": 4763,
-                      "value": "renamed",
-                      "raw": "'renamed'"
+                      "value": "renamed"
                     }
                   ],
                   "optional": false
@@ -718,8 +705,7 @@
                   "type": "Literal",
                   "start": 4773,
                   "end": 4806,
-                  "value": "Reflect.deleteProperty: renamed",
-                  "raw": "'Reflect.deleteProperty: renamed'"
+                  "value": "Reflect.deleteProperty: renamed"
                 }
               ],
               "optional": false
@@ -776,15 +762,13 @@
                   "type": "Literal",
                   "start": 4847,
                   "end": 4853,
-                  "value": "TC39",
-                  "raw": "'TC39'"
+                  "value": "TC39"
                 },
                 {
                   "type": "Literal",
                   "start": 4855,
                   "end": 4884,
-                  "value": "binding unmodified: renamed",
-                  "raw": "'binding unmodified: renamed'"
+                  "value": "binding unmodified: renamed"
                 }
               ],
               "optional": false
@@ -876,8 +860,7 @@
                   "type": "Literal",
                   "start": 4963,
                   "end": 4981,
-                  "value": "delete: indirect",
-                  "raw": "'delete: indirect'"
+                  "value": "delete: indirect"
                 }
               ],
               "optional": false
@@ -945,8 +928,7 @@
                       "type": "Literal",
                       "start": 5039,
                       "end": 5049,
-                      "value": "indirect",
-                      "raw": "'indirect'"
+                      "value": "indirect"
                     }
                   ],
                   "optional": false
@@ -962,8 +944,7 @@
                   "type": "Literal",
                   "start": 5071,
                   "end": 5105,
-                  "value": "Reflect.deleteProperty: indirect",
-                  "raw": "'Reflect.deleteProperty: indirect'"
+                  "value": "Reflect.deleteProperty: indirect"
                 }
               ],
               "optional": false
@@ -1020,15 +1001,13 @@
                   "type": "Literal",
                   "start": 5147,
                   "end": 5156,
-                  "value": "Test262",
-                  "raw": "'Test262'"
+                  "value": "Test262"
                 },
                 {
                   "type": "Literal",
                   "start": 5158,
                   "end": 5188,
-                  "value": "binding unmodified: indirect",
-                  "raw": "'binding unmodified: indirect'"
+                  "value": "binding unmodified: indirect"
                 }
               ],
               "optional": false

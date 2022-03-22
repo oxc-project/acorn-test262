@@ -198,8 +198,7 @@
             "type": "Literal",
             "start": 1095,
             "end": 1149,
-            "value": "[].concat(handle.proxy) throws a TypeError exception",
-            "raw": "'[].concat(handle.proxy) throws a TypeError exception'"
+            "value": "[].concat(handle.proxy) throws a TypeError exception"
           }
         ],
         "optional": false

@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 567,
             "end": 572,
-            "value": "Set",
-            "raw": "'Set'"
+            "value": "Set"
           }
         ],
         "optional": false

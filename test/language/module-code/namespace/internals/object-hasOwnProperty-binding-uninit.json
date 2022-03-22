@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 925,
         "end": 968,
-        "value": "./object-hasOwnProperty-binding-uninit.js",
-        "raw": "\"./object-hasOwnProperty-binding-uninit.js\""
+        "value": "./object-hasOwnProperty-binding-uninit.js"
       }
     },
     {
@@ -140,8 +139,7 @@
                         "type": "Literal",
                         "start": 1059,
                         "end": 1068,
-                        "value": "default",
-                        "raw": "\"default\""
+                        "value": "default"
                       }
                     ],
                     "optional": false
@@ -162,8 +160,7 @@
         "type": "Literal",
         "start": 1091,
         "end": 1092,
-        "value": 0,
-        "raw": "0"
+        "value": 0
       }
     }
   ],

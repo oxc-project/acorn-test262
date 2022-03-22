@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 395,
-                "value": "getTimezoneOffset",
-                "raw": "\"getTimezoneOffset\""
+                "value": "getTimezoneOffset"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 408,
             "end": 477,
-            "value": "Date.prototype.hasOwnProperty(\"getTimezoneOffset\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getTimezoneOffset\") must return true'"
+            "value": "Date.prototype.hasOwnProperty(\"getTimezoneOffset\") must return true"
           }
         ],
         "optional": false

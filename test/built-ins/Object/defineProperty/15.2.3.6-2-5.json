@@ -121,8 +121,7 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 365,
-                "value": "NaN",
-                "raw": "\"NaN\""
+                "value": "NaN"
               }
             ],
             "optional": false
@@ -131,8 +130,7 @@
             "type": "Literal",
             "start": 368,
             "end": 404,
-            "value": "obj.hasOwnProperty(\"NaN\") !== true",
-            "raw": "'obj.hasOwnProperty(\"NaN\") !== true'"
+            "value": "obj.hasOwnProperty(\"NaN\") !== true"
           }
         ],
         "optional": false

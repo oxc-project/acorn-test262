@@ -198,8 +198,7 @@
             "type": "Literal",
             "start": 626,
             "end": 670,
-            "value": "[].find(predicate) does not call predicate",
-            "raw": "'[].find(predicate) does not call predicate'"
+            "value": "[].find(predicate) does not call predicate"
           }
         ],
         "optional": false
@@ -249,8 +248,7 @@
             "type": "Literal",
             "start": 709,
             "end": 748,
-            "value": "[].find(predicate) returned undefined",
-            "raw": "'[].find(predicate) returned undefined'"
+            "value": "[].find(predicate) returned undefined"
           }
         ],
         "optional": false

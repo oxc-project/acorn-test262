@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 363,
             "end": 373,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 377,
             "end": 450,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -162,8 +160,7 @@
                 "type": "Literal",
                 "start": 512,
                 "end": 529,
-                "value": "x => y => x * y",
-                "raw": "'x => y => x * y'"
+                "value": "x => y => x * y"
               }
             ],
             "optional": false
@@ -202,8 +199,7 @@
                 "type": "Literal",
                 "start": 562,
                 "end": 563,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -242,8 +238,7 @@
                 "type": "Literal",
                 "start": 601,
                 "end": 602,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ],
             "optional": false
@@ -295,8 +290,7 @@
                 "type": "Literal",
                 "start": 642,
                 "end": 643,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ],
             "optional": false
@@ -305,8 +299,7 @@
             "type": "Literal",
             "start": 646,
             "end": 648,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           }
         ],
         "optional": false
@@ -355,8 +348,7 @@
                 "type": "Literal",
                 "start": 682,
                 "end": 683,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ],
             "optional": false
@@ -365,8 +357,7 @@
             "type": "Literal",
             "start": 686,
             "end": 687,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           }
         ],
         "optional": false
@@ -416,8 +407,7 @@
             "type": "Literal",
             "start": 746,
             "end": 776,
-            "value": "new wrapping for each return",
-            "raw": "'new wrapping for each return'"
+            "value": "new wrapping for each return"
           }
         ],
         "optional": false

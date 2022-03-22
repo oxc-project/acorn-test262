@@ -124,8 +124,7 @@
             "type": "Literal",
             "start": 306,
             "end": 341,
-            "value": "Object.isFrozen(dateObj) !== true",
-            "raw": "'Object.isFrozen(dateObj) !== true'"
+            "value": "Object.isFrozen(dateObj) !== true"
           }
         ],
         "optional": false

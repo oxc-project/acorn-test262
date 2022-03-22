@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 400,
                   "end": 415,
-                  "value": "format getter",
-                  "raw": "\"format getter\""
+                  "value": "format getter"
                 },
                 "value": {
                   "type": "MemberExpression",
@@ -101,8 +100,7 @@
                         "type": "Literal",
                         "start": 480,
                         "end": 488,
-                        "value": "format",
-                        "raw": "\"format\""
+                        "value": "format"
                       }
                     ],
                     "optional": false
@@ -228,15 +226,13 @@
                 "type": "Literal",
                 "start": 610,
                 "end": 611,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 629,
-                "value": "DateTimeFormat",
-                "raw": "\"DateTimeFormat\""
+                "value": "DateTimeFormat"
               },
               {
                 "type": "ArrayExpression",
@@ -528,8 +524,7 @@
                                             "type": "Literal",
                                             "start": 882,
                                             "end": 892,
-                                            "value": "Calling ",
-                                            "raw": "\"Calling \""
+                                            "value": "Calling "
                                           },
                                           "operator": "+",
                                           "right": {
@@ -544,8 +539,7 @@
                                           "type": "Literal",
                                           "start": 910,
                                           "end": 916,
-                                          "value": " on ",
-                                          "raw": "\" on \""
+                                          "value": " on "
                                         }
                                       },
                                       "operator": "+",
@@ -561,8 +555,7 @@
                                       "type": "Literal",
                                       "start": 928,
                                       "end": 948,
-                                      "value": " was not rejected.",
-                                      "raw": "\" was not rejected.\""
+                                      "value": " was not rejected."
                                     }
                                   }
                                 ],

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 314,
             "end": 315,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 325,
             "end": 326,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -103,8 +101,7 @@
           "type": "Literal",
           "start": 344,
           "end": 345,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -131,8 +128,7 @@
                   "type": "Literal",
                   "start": 374,
                   "end": 445,
-                  "value": "#1: Check Prefix Decrement Operator for automatic semicolon insertion",
-                  "raw": "'#1: Check Prefix Decrement Operator for automatic semicolon insertion'"
+                  "value": "#1: Check Prefix Decrement Operator for automatic semicolon insertion"
                 }
               ]
             }
@@ -163,8 +159,7 @@
                 "type": "Literal",
                 "start": 469,
                 "end": 470,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             },
             "consequent": {
@@ -191,8 +186,7 @@
                         "type": "Literal",
                         "start": 501,
                         "end": 572,
-                        "value": "#1: Check Prefix Decrement Operator for automatic semicolon insertion",
-                        "raw": "'#1: Check Prefix Decrement Operator for automatic semicolon insertion'"
+                        "value": "#1: Check Prefix Decrement Operator for automatic semicolon insertion"
                       }
                     ]
                   }

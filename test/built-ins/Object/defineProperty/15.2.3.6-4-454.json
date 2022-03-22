@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 424,
             "end": 430,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -158,8 +157,7 @@
             "type": "Literal",
             "start": 520,
             "end": 526,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -307,8 +305,7 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 669,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -403,8 +400,7 @@
                         "type": "Literal",
                         "start": 739,
                         "end": 745,
-                        "value": "prop",
-                        "raw": "\"prop\""
+                        "value": "prop"
                       },
                       {
                         "type": "ObjectExpression",
@@ -494,8 +490,7 @@
                 "type": "Literal",
                 "start": 825,
                 "end": 831,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -562,15 +557,13 @@
             "type": "Literal",
             "start": 869,
             "end": 880,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 882,
             "end": 900,
-            "value": "typeof desc1.set",
-            "raw": "'typeof desc1.set'"
+            "value": "typeof desc1.set"
           }
         ],
         "optional": false
@@ -634,15 +627,13 @@
             "type": "Literal",
             "start": 938,
             "end": 949,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 951,
             "end": 969,
-            "value": "typeof desc2.set",
-            "raw": "'typeof desc2.set'"
+            "value": "typeof desc2.set"
           }
         ],
         "optional": false

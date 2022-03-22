@@ -33,15 +33,13 @@
                 "type": "Literal",
                 "start": 1337,
                 "end": 1345,
-                "value": "lookup",
-                "raw": "'lookup'"
+                "value": "lookup"
               },
               {
                 "type": "Literal",
                 "start": 1349,
                 "end": 1359,
-                "value": "best fit",
-                "raw": "'best fit'"
+                "value": "best fit"
               }
             ]
           }
@@ -141,8 +139,7 @@
                             "type": "Literal",
                             "start": 1442,
                             "end": 1446,
-                            "value": "en",
-                            "raw": "'en'"
+                            "value": "en"
                           },
                           {
                             "type": "ObjectExpression",
@@ -187,8 +184,7 @@
                                   "type": "Literal",
                                   "start": 1471,
                                   "end": 1481,
-                                  "value": "language",
-                                  "raw": "'language'"
+                                  "value": "language"
                                 },
                                 "kind": "init"
                               }

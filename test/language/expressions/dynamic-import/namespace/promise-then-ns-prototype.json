@@ -39,8 +39,7 @@
                       "type": "Literal",
                       "start": 3693,
                       "end": 3719,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   },
                   "property": {
@@ -203,8 +202,7 @@
                                 "type": "Literal",
                                 "start": 3840,
                                 "end": 3859,
-                                "value": "prototype is null",
-                                "raw": "'prototype is null'"
+                                "value": "prototype is null"
                               }
                             ],
                             "optional": false

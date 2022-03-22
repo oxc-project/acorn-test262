@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 723,
                 "end": 730,
-                "value": "hello",
-                "raw": "\"hello\""
+                "value": "hello"
               }
             ]
           }
@@ -85,8 +84,7 @@
                 "type": "Literal",
                 "start": 763,
                 "end": 767,
-                "value": "ll",
-                "raw": "\"ll\""
+                "value": "ll"
               }
             ],
             "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 823,
             "end": 897,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -210,15 +207,13 @@
             "type": "Literal",
             "start": 935,
             "end": 936,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 938,
             "end": 972,
-            "value": "The value of __split.length is 2",
-            "raw": "'The value of __split.length is 2'"
+            "value": "The value of __split.length is 2"
           }
         ],
         "optional": false
@@ -266,8 +261,7 @@
               "type": "Literal",
               "start": 1000,
               "end": 1001,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -276,15 +270,13 @@
             "type": "Literal",
             "start": 1004,
             "end": 1008,
-            "value": "he",
-            "raw": "\"he\""
+            "value": "he"
           },
           {
             "type": "Literal",
             "start": 1010,
             "end": 1043,
-            "value": "The value of __split[0] is \"he\"",
-            "raw": "'The value of __split[0] is \"he\"'"
+            "value": "The value of __split[0] is \"he\""
           }
         ],
         "optional": false
@@ -332,8 +324,7 @@
               "type": "Literal",
               "start": 1071,
               "end": 1072,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -342,15 +333,13 @@
             "type": "Literal",
             "start": 1075,
             "end": 1078,
-            "value": "o",
-            "raw": "\"o\""
+            "value": "o"
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1112,
-            "value": "The value of __split[1] is \"o\"",
-            "raw": "'The value of __split[1] is \"o\"'"
+            "value": "The value of __split[1] is \"o\""
           }
         ],
         "optional": false

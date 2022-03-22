@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 925,
                 "end": 935,
-                "value": "`᠎`",
-                "raw": "\"`\\u180E`\""
+                "value": "`᠎`"
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
             "type": "Literal",
             "start": 938,
             "end": 946,
-            "value": "᠎",
-            "raw": "\"\\u180E\""
+            "value": "᠎"
           }
         ],
         "optional": false

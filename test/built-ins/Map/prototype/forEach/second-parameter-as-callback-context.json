@@ -116,15 +116,13 @@
             "type": "Literal",
             "start": 836,
             "end": 837,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 839,
             "end": 840,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -162,15 +160,13 @@
             "type": "Literal",
             "start": 851,
             "end": 852,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 854,
             "end": 855,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -208,15 +204,13 @@
             "type": "Literal",
             "start": 866,
             "end": 867,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 869,
             "end": 870,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -381,8 +375,7 @@
               "type": "Literal",
               "start": 987,
               "end": 988,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -439,8 +432,7 @@
               "type": "Literal",
               "start": 1029,
               "end": 1030,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -497,8 +489,7 @@
               "type": "Literal",
               "start": 1071,
               "end": 1072,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false

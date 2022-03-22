@@ -41,8 +41,7 @@
                   "type": "Literal",
                   "start": 578,
                   "end": 579,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -124,8 +123,7 @@
                                           "type": "Literal",
                                           "start": 624,
                                           "end": 632,
-                                          "value": "var x;",
-                                          "raw": "\"var x;\""
+                                          "value": "var x;"
                                         }
                                       ],
                                       "optional": false
@@ -134,8 +132,7 @@
                                       "type": "Literal",
                                       "start": 635,
                                       "end": 636,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     }
                                   ]
                                 }
@@ -214,8 +211,7 @@
                           "type": "Literal",
                           "start": 719,
                           "end": 755,
-                          "value": "#1: innerX === undefined. Actual: ",
-                          "raw": "'#1: innerX === undefined. Actual: '"
+                          "value": "#1: innerX === undefined. Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -256,8 +252,7 @@
                 "type": "Literal",
                 "start": 785,
                 "end": 786,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "consequent": {
@@ -288,8 +283,7 @@
                           "type": "Literal",
                           "start": 817,
                           "end": 840,
-                          "value": "#2: x === 1. Actual: ",
-                          "raw": "'#2: x === 1. Actual: '"
+                          "value": "#2: x === 1. Actual: "
                         },
                         "operator": "+",
                         "right": {

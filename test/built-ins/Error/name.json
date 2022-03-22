@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 284,
             "end": 291,
-            "value": "Error",
-            "raw": "'Error'"
+            "value": "Error"
           }
         ],
         "optional": false

@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 246,
                   "end": 247,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -62,8 +61,7 @@
                   "type": "Literal",
                   "start": 254,
                   "end": 255,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               }
@@ -197,8 +195,7 @@
             "type": "Literal",
             "start": 326,
             "end": 344,
-            "value": "Array.isArray(a)",
-            "raw": "'Array.isArray(a)'"
+            "value": "Array.isArray(a)"
           }
         ],
         "optional": false

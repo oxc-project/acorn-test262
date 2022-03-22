@@ -133,15 +133,13 @@
                             "type": "Literal",
                             "start": 443,
                             "end": 451,
-                            "value": "lookup",
-                            "raw": "\"lookup\""
+                            "value": "lookup"
                           },
                           {
                             "type": "Literal",
                             "start": 453,
                             "end": 463,
-                            "value": "best fit",
-                            "raw": "\"best fit\""
+                            "value": "best fit"
                           },
                           {
                             "type": "ObjectExpression",
@@ -183,8 +181,7 @@
                                           "type": "Literal",
                                           "start": 497,
                                           "end": 505,
-                                          "value": "lookup",
-                                          "raw": "\"lookup\""
+                                          "value": "lookup"
                                         }
                                       }
                                     ]
@@ -374,15 +371,13 @@
                             "type": "Literal",
                             "start": 696,
                             "end": 697,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 699,
                             "end": 700,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           },
                           {
                             "type": "Identifier",
@@ -408,8 +403,7 @@
                             "type": "Literal",
                             "start": 720,
                             "end": 729,
-                            "value": "invalid",
-                            "raw": "\"invalid\""
+                            "value": "invalid"
                           }
                         ]
                       }
@@ -616,8 +610,7 @@
                                         "type": "Literal",
                                         "start": 936,
                                         "end": 966,
-                                        "value": "Invalid localeMatcher value ",
-                                        "raw": "\"Invalid localeMatcher value \""
+                                        "value": "Invalid localeMatcher value "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -632,8 +625,7 @@
                                       "type": "Literal",
                                       "start": 977,
                                       "end": 997,
-                                      "value": " was not rejected.",
-                                      "raw": "\" was not rejected.\""
+                                      "value": " was not rejected."
                                     }
                                   }
                                 ],

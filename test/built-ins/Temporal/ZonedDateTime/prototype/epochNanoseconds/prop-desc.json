@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 392,
                 "end": 410,
-                "value": "epochNanoseconds",
-                "raw": "\"epochNanoseconds\""
+                "value": "epochNanoseconds"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 453,
             "end": 463,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

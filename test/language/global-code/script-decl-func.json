@@ -35,8 +35,7 @@
             "type": "Literal",
             "start": 1793,
             "end": 1817,
-            "value": "function brandNew() {}",
-            "raw": "'function brandNew() {}'"
+            "value": "function brandNew() {}"
           }
         ],
         "optional": false
@@ -87,15 +86,13 @@
             "type": "Literal",
             "start": 1858,
             "end": 1868,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1870,
             "end": 1914,
-            "value": "new binding on an extensible global object",
-            "raw": "'new binding on an extensible global object'"
+            "value": "new binding on an extensible global object"
           }
         ],
         "optional": false
@@ -125,8 +122,7 @@
             "type": "Literal",
             "start": 1941,
             "end": 1951,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -156,8 +152,7 @@
             "type": "Literal",
             "start": 1975,
             "end": 1985,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -187,8 +182,7 @@
             "type": "Literal",
             "start": 2016,
             "end": 2026,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -231,8 +225,7 @@
             "type": "Literal",
             "start": 2058,
             "end": 2072,
-            "value": "configurable",
-            "raw": "'configurable'"
+            "value": "configurable"
           },
           {
             "type": "ObjectExpression",
@@ -278,8 +271,7 @@
                   "type": "Literal",
                   "start": 2103,
                   "end": 2104,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -326,8 +318,7 @@
             "type": "Literal",
             "start": 2142,
             "end": 2159,
-            "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "value": "nonConfigurable"
           },
           {
             "type": "ObjectExpression",
@@ -417,8 +408,7 @@
                   "type": "Literal",
                   "start": 2227,
                   "end": 2228,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -497,8 +487,7 @@
             "type": "Literal",
             "start": 2411,
             "end": 2439,
-            "value": "function configurable() {}",
-            "raw": "'function configurable() {}'"
+            "value": "function configurable() {}"
           }
         ],
         "optional": false
@@ -549,15 +538,13 @@
             "type": "Literal",
             "start": 2484,
             "end": 2494,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 2496,
             "end": 2530,
-            "value": "like-named configurable property",
-            "raw": "'like-named configurable property'"
+            "value": "like-named configurable property"
           }
         ],
         "optional": false
@@ -587,8 +574,7 @@
             "type": "Literal",
             "start": 2557,
             "end": 2571,
-            "value": "configurable",
-            "raw": "'configurable'"
+            "value": "configurable"
           }
         ],
         "optional": false
@@ -618,8 +604,7 @@
             "type": "Literal",
             "start": 2594,
             "end": 2608,
-            "value": "configurable",
-            "raw": "'configurable'"
+            "value": "configurable"
           }
         ],
         "optional": false
@@ -649,8 +634,7 @@
             "type": "Literal",
             "start": 2639,
             "end": 2653,
-            "value": "configurable",
-            "raw": "'configurable'"
+            "value": "configurable"
           }
         ],
         "optional": false
@@ -688,8 +672,7 @@
             "type": "Literal",
             "start": 2673,
             "end": 2704,
-            "value": "function nonConfigurable() {}",
-            "raw": "'function nonConfigurable() {}'"
+            "value": "function nonConfigurable() {}"
           }
         ],
         "optional": false
@@ -740,15 +723,13 @@
             "type": "Literal",
             "start": 2754,
             "end": 2764,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 2768,
             "end": 2843,
-            "value": "like-named non-configurable data property that is writable and enumerable",
-            "raw": "'like-named non-configurable data property that is writable and enumerable'"
+            "value": "like-named non-configurable data property that is writable and enumerable"
           }
         ],
         "optional": false
@@ -778,8 +759,7 @@
             "type": "Literal",
             "start": 2870,
             "end": 2887,
-            "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "value": "nonConfigurable"
           }
         ],
         "optional": false
@@ -809,8 +789,7 @@
             "type": "Literal",
             "start": 2911,
             "end": 2928,
-            "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "value": "nonConfigurable"
           }
         ],
         "optional": false
@@ -840,8 +819,7 @@
             "type": "Literal",
             "start": 2959,
             "end": 2976,
-            "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "value": "nonConfigurable"
           }
         ],
         "optional": false

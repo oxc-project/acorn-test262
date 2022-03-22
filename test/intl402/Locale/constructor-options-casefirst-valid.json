@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 1364,
                 "end": 1371,
-                "value": "upper",
-                "raw": "\"upper\""
+                "value": "upper"
               },
               {
                 "type": "Literal",
                 "start": 1375,
                 "end": 1382,
-                "value": "lower",
-                "raw": "\"lower\""
+                "value": "lower"
               },
               {
                 "type": "Literal",
                 "start": 1386,
                 "end": 1393,
-                "value": "false",
-                "raw": "\"false\""
+                "value": "false"
               },
               {
                 "type": "Literal",
@@ -206,8 +203,7 @@
                     "type": "Literal",
                     "start": 1545,
                     "end": 1555,
-                    "value": "en-u-kf-",
-                    "raw": "\"en-u-kf-\""
+                    "value": "en-u-kf-"
                   },
                   "operator": "+",
                   "right": {
@@ -285,8 +281,7 @@
                           "type": "Literal",
                           "start": 1608,
                           "end": 1612,
-                          "value": "en",
-                          "raw": "'en'"
+                          "value": "en"
                         },
                         {
                           "type": "ObjectExpression",
@@ -414,8 +409,7 @@
                   "type": "Literal",
                   "start": 1760,
                   "end": 1770,
-                  "value": "en-u-kf-",
-                  "raw": "\"en-u-kf-\""
+                  "value": "en-u-kf-"
                 },
                 "operator": "+",
                 "right": {
@@ -491,8 +485,7 @@
                           "type": "Literal",
                           "start": 1823,
                           "end": 1838,
-                          "value": "en-u-kf-lower",
-                          "raw": "'en-u-kf-lower'"
+                          "value": "en-u-kf-lower"
                         },
                         {
                           "type": "ObjectExpression",
@@ -657,8 +650,7 @@
                         "type": "Literal",
                         "start": 2026,
                         "end": 2041,
-                        "value": "en-u-kf-lower",
-                        "raw": "'en-u-kf-lower'"
+                        "value": "en-u-kf-lower"
                       },
                       {
                         "type": "ObjectExpression",

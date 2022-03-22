@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 496,
                 "end": 516,
-                "value": "de-DE-u-co-phonebk",
-                "raw": "\"de-DE-u-co-phonebk\""
+                "value": "de-DE-u-co-phonebk"
               },
               {
                 "type": "Literal",
                 "start": 518,
                 "end": 535,
-                "value": "de-u-co-phonebk",
-                "raw": "\"de-u-co-phonebk\""
+                "value": "de-u-co-phonebk"
               }
             ]
           }
@@ -110,8 +108,7 @@
                       "type": "Literal",
                       "start": 596,
                       "end": 604,
-                      "value": "lookup",
-                      "raw": "\"lookup\""
+                      "value": "lookup"
                     },
                     "kind": "init"
                   }
@@ -208,8 +205,7 @@
             "type": "Literal",
             "start": 668,
             "end": 669,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -242,57 +238,49 @@
                       "type": "Literal",
                       "start": 686,
                       "end": 689,
-                      "value": "A",
-                      "raw": "\"A\""
+                      "value": "A"
                     },
                     {
                       "type": "Literal",
                       "start": 691,
                       "end": 694,
-                      "value": "b",
-                      "raw": "\"b\""
+                      "value": "b"
                     },
                     {
                       "type": "Literal",
                       "start": 696,
                       "end": 700,
-                      "value": "Af",
-                      "raw": "\"Af\""
+                      "value": "Af"
                     },
                     {
                       "type": "Literal",
                       "start": 702,
                       "end": 706,
-                      "value": "Ab",
-                      "raw": "\"Ab\""
+                      "value": "Ab"
                     },
                     {
                       "type": "Literal",
                       "start": 708,
                       "end": 712,
-                      "value": "od",
-                      "raw": "\"od\""
+                      "value": "od"
                     },
                     {
                       "type": "Literal",
                       "start": 714,
                       "end": 719,
-                      "value": "off",
-                      "raw": "\"off\""
+                      "value": "off"
                     },
                     {
                       "type": "Literal",
                       "start": 721,
                       "end": 724,
-                      "value": "Ä",
-                      "raw": "\"Ä\""
+                      "value": "Ä"
                     },
                     {
                       "type": "Literal",
                       "start": 726,
                       "end": 729,
-                      "value": "ö",
-                      "raw": "\"ö\""
+                      "value": "ö"
                     }
                   ]
                 }
@@ -375,57 +363,49 @@
                       "type": "Literal",
                       "start": 782,
                       "end": 785,
-                      "value": "A",
-                      "raw": "\"A\""
+                      "value": "A"
                     },
                     {
                       "type": "Literal",
                       "start": 787,
                       "end": 791,
-                      "value": "Ab",
-                      "raw": "\"Ab\""
+                      "value": "Ab"
                     },
                     {
                       "type": "Literal",
                       "start": 793,
                       "end": 796,
-                      "value": "Ä",
-                      "raw": "\"Ä\""
+                      "value": "Ä"
                     },
                     {
                       "type": "Literal",
                       "start": 798,
                       "end": 802,
-                      "value": "Af",
-                      "raw": "\"Af\""
+                      "value": "Af"
                     },
                     {
                       "type": "Literal",
                       "start": 804,
                       "end": 807,
-                      "value": "b",
-                      "raw": "\"b\""
+                      "value": "b"
                     },
                     {
                       "type": "Literal",
                       "start": 809,
                       "end": 813,
-                      "value": "od",
-                      "raw": "\"od\""
+                      "value": "od"
                     },
                     {
                       "type": "Literal",
                       "start": 815,
                       "end": 818,
-                      "value": "ö",
-                      "raw": "\"ö\""
+                      "value": "ö"
                     },
                     {
                       "type": "Literal",
                       "start": 820,
                       "end": 825,
-                      "value": "off",
-                      "raw": "\"off\""
+                      "value": "off"
                     }
                   ]
                 }

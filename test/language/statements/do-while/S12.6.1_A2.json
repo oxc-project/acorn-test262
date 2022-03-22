@@ -55,8 +55,7 @@
                   "type": "Literal",
                   "start": 402,
                   "end": 411,
-                  "value": "reached",
-                  "raw": "\"reached\""
+                  "value": "reached"
                 }
               }
             },
@@ -86,8 +85,7 @@
                   "type": "Literal",
                   "start": 459,
                   "end": 541,
-                  "value": "#1: 'do __in__do = \"reached\"; while (abbracadabra)' lead to throwing exception",
-                  "raw": "'#1: \\'do __in__do = \"reached\"; while (abbracadabra)\\' lead to throwing exception'"
+                  "value": "#1: 'do __in__do = \"reached\"; while (abbracadabra)' lead to throwing exception"
                 }
               ]
             }
@@ -168,8 +166,7 @@
           "type": "Literal",
           "start": 711,
           "end": 720,
-          "value": "reached",
-          "raw": "\"reached\""
+          "value": "reached"
         }
       },
       "consequent": {
@@ -200,8 +197,7 @@
                     "type": "Literal",
                     "start": 748,
                     "end": 801,
-                    "value": "#1.1: __in__do === \"reached\". Actual:  __in__do ===",
-                    "raw": "'#1.1: __in__do === \"reached\". Actual:  __in__do ==='"
+                    "value": "#1.1: __in__do === \"reached\". Actual:  __in__do ==="
                   },
                   "operator": "+",
                   "right": {

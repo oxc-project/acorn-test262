@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 346,
             "end": 347,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -105,8 +104,7 @@
             "type": "Literal",
             "start": 358,
             "end": 359,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -144,8 +142,7 @@
             "type": "Literal",
             "start": 370,
             "end": 371,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -323,15 +320,13 @@
             "type": "Literal",
             "start": 484,
             "end": 485,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 509,
-            "value": "First result `value`",
-            "raw": "'First result `value`'"
+            "value": "First result `value`"
           }
         ],
         "optional": false
@@ -395,8 +390,7 @@
             "type": "Literal",
             "start": 549,
             "end": 575,
-            "value": "First result `done` flag",
-            "raw": "'First result `done` flag'"
+            "value": "First result `done` flag"
           }
         ],
         "optional": false
@@ -496,15 +490,13 @@
             "type": "Literal",
             "start": 636,
             "end": 637,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 639,
             "end": 662,
-            "value": "Second result `value`",
-            "raw": "'Second result `value`'"
+            "value": "Second result `value`"
           }
         ],
         "optional": false
@@ -568,8 +560,7 @@
             "type": "Literal",
             "start": 702,
             "end": 729,
-            "value": "Second result `done` flag",
-            "raw": "'Second result `done` flag'"
+            "value": "Second result `done` flag"
           }
         ],
         "optional": false
@@ -669,15 +660,13 @@
             "type": "Literal",
             "start": 790,
             "end": 791,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 793,
             "end": 815,
-            "value": "Third result `value`",
-            "raw": "'Third result `value`'"
+            "value": "Third result `value`"
           }
         ],
         "optional": false
@@ -741,8 +730,7 @@
             "type": "Literal",
             "start": 855,
             "end": 881,
-            "value": "Third result `done` flag",
-            "raw": "'Third result `done` flag'"
+            "value": "Third result `done` flag"
           }
         ],
         "optional": false
@@ -848,8 +836,7 @@
             "type": "Literal",
             "start": 953,
             "end": 979,
-            "value": "Exhausted result `value`",
-            "raw": "'Exhausted result `value`'"
+            "value": "Exhausted result `value`"
           }
         ],
         "optional": false
@@ -913,8 +900,7 @@
             "type": "Literal",
             "start": 1018,
             "end": 1048,
-            "value": "Exhausted result `done` flag",
-            "raw": "'Exhausted result `done` flag'"
+            "value": "Exhausted result `done` flag"
           }
         ],
         "optional": false
@@ -1020,8 +1006,7 @@
             "type": "Literal",
             "start": 1123,
             "end": 1168,
-            "value": "Exhausted result `value` (repeated request)",
-            "raw": "'Exhausted result `value` (repeated request)'"
+            "value": "Exhausted result `value` (repeated request)"
           }
         ],
         "optional": false
@@ -1085,8 +1070,7 @@
             "type": "Literal",
             "start": 1211,
             "end": 1260,
-            "value": "Exhausted result `done` flag (repeated request)",
-            "raw": "'Exhausted result `done` flag (repeated request)'"
+            "value": "Exhausted result `done` flag (repeated request)"
           }
         ],
         "optional": false

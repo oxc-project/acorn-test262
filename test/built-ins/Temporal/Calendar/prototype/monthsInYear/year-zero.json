@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 302,
             "end": 317,
-            "value": "-000000-10-31",
-            "raw": "\"-000000-10-31\""
+            "value": "-000000-10-31"
           }
         }
       ],
@@ -72,8 +71,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 367,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -174,8 +172,7 @@
             "type": "Literal",
             "start": 449,
             "end": 485,
-            "value": "reject minus zero as extended year",
-            "raw": "\"reject minus zero as extended year\""
+            "value": "reject minus zero as extended year"
           }
         ],
         "optional": false

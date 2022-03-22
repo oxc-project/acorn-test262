@@ -55,8 +55,7 @@
               "type": "Literal",
               "start": 364,
               "end": 366,
-              "value": 10,
-              "raw": "10"
+              "value": 10
             }
           }
         ]
@@ -100,8 +99,7 @@
             "type": "Literal",
             "start": 398,
             "end": 403,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -184,8 +182,7 @@
               "type": "Literal",
               "start": 483,
               "end": 485,
-              "value": 20,
-              "raw": "20"
+              "value": 20
             }
           }
         ]
@@ -359,8 +356,7 @@
                 "type": "Literal",
                 "start": 621,
                 "end": 626,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             },
             "consequent": {
@@ -472,8 +468,7 @@
               "type": "Literal",
               "start": 718,
               "end": 720,
-              "value": 20,
-              "raw": "20"
+              "value": 20
             }
           }
         }
@@ -528,8 +523,7 @@
                 "type": "Literal",
                 "start": 772,
                 "end": 777,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -638,8 +632,7 @@
               "type": "Literal",
               "start": 869,
               "end": 874,
-              "value": "foo",
-              "raw": "\"foo\""
+              "value": "foo"
             }
           ],
           "optional": false
@@ -691,8 +684,7 @@
             "type": "Literal",
             "start": 922,
             "end": 942,
-            "value": "verifyConfigurable",
-            "raw": "'verifyConfigurable'"
+            "value": "verifyConfigurable"
           }
         ],
         "optional": false
@@ -743,8 +735,7 @@
             "type": "Literal",
             "start": 987,
             "end": 1005,
-            "value": "verifyEnumerable",
-            "raw": "'verifyEnumerable'"
+            "value": "verifyEnumerable"
           }
         ],
         "optional": false
@@ -775,8 +766,7 @@
             "type": "Literal",
             "start": 1028,
             "end": 1050,
-            "value": "verifyValue !== true",
-            "raw": "'verifyValue !== true'"
+            "value": "verifyValue !== true"
           }
         ],
         "optional": false
@@ -845,15 +835,13 @@
             "type": "Literal",
             "start": 1088,
             "end": 1099,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 1101,
             "end": 1120,
-            "value": "typeof (desc.set)",
-            "raw": "'typeof (desc.set)'"
+            "value": "typeof (desc.set)"
           }
         ],
         "optional": false
@@ -916,8 +904,7 @@
             "type": "Literal",
             "start": 1161,
             "end": 1171,
-            "value": "desc.get",
-            "raw": "'desc.get'"
+            "value": "desc.get"
           }
         ],
         "optional": false

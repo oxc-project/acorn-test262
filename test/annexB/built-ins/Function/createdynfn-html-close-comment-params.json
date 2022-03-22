@@ -22,15 +22,13 @@
             "type": "Literal",
             "start": 747,
             "end": 754,
-            "value": "\n-->",
-            "raw": "\"\\n-->\""
+            "value": "\n-->"
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 758,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         ],
         "optional": false

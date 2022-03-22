@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 468,
             "end": 546,
-            "value": "'use strict'; var _13_0_17_fun = new Function('eval = 42;'); _13_0_17_fun();",
-            "raw": "\"'use strict'; var _13_0_17_fun = new Function('eval = 42;'); _13_0_17_fun();\""
+            "value": "'use strict'; var _13_0_17_fun = new Function('eval = 42;'); _13_0_17_fun();"
           }
         ],
         "optional": false

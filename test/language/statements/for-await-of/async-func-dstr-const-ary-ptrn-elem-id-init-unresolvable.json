@@ -178,8 +178,7 @@
                             "type": "Literal",
                             "start": 2022,
                             "end": 2072,
-                            "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "value": "Expected async function to reject, but resolved."
                           }
                         ]
                       }

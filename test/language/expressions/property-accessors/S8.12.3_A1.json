@@ -74,8 +74,7 @@
           "type": "Literal",
           "start": 459,
           "end": 465,
-          "value": "some",
-          "raw": "\"some\""
+          "value": "some"
         }
       }
     },
@@ -142,8 +141,7 @@
           "type": "Literal",
           "start": 636,
           "end": 642,
-          "value": "some",
-          "raw": "\"some\""
+          "value": "some"
         }
       },
       "consequent": {
@@ -174,8 +172,7 @@
                     "type": "Literal",
                     "start": 670,
                     "end": 787,
-                    "value": "#1: function FooObj(){}; FooObj.prototype.propFoo=\"some\"; var __obj= new FooObj; __obj.propFoo === \"some\". Actual: ",
-                    "raw": "'#1: function FooObj(){}; FooObj.prototype.propFoo=\"some\"; var __obj= new FooObj; __obj.propFoo === \"some\". Actual: '"
+                    "value": "#1: function FooObj(){}; FooObj.prototype.propFoo=\"some\"; var __obj= new FooObj; __obj.propFoo === \"some\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -232,8 +229,7 @@
             "type": "Literal",
             "start": 992,
             "end": 1001,
-            "value": "propFoo",
-            "raw": "'propFoo'"
+            "value": "propFoo"
           },
           "computed": true,
           "optional": false
@@ -243,8 +239,7 @@
           "type": "Literal",
           "start": 1007,
           "end": 1013,
-          "value": "some",
-          "raw": "\"some\""
+          "value": "some"
         }
       },
       "consequent": {
@@ -275,8 +270,7 @@
                     "type": "Literal",
                     "start": 1041,
                     "end": 1163,
-                    "value": "#1: function FooObj(){}; FooObj.prototype.propFoo=\"some\"; var __obj= new FooObj; __obj['propFoo'] === \"some\". Actual: ",
-                    "raw": "'#1: function FooObj(){}; FooObj.prototype.propFoo=\"some\"; var __obj= new FooObj; __obj[\\'propFoo\\'] === \"some\". Actual: '"
+                    "value": "#1: function FooObj(){}; FooObj.prototype.propFoo=\"some\"; var __obj= new FooObj; __obj['propFoo'] === \"some\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -297,8 +291,7 @@
                         "type": "Literal",
                         "start": 1173,
                         "end": 1182,
-                        "value": "propFoo",
-                        "raw": "'propFoo'"
+                        "value": "propFoo"
                       },
                       "computed": true,
                       "optional": false

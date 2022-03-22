@@ -621,15 +621,13 @@
             "type": "Literal",
             "start": 1310,
             "end": 1311,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1313,
             "end": 1363,
-            "value": "The value of thisVals.length is expected to be 2",
-            "raw": "'The value of thisVals.length is expected to be 2'"
+            "value": "The value of thisVals.length is expected to be 2"
           }
         ],
         "optional": false
@@ -677,8 +675,7 @@
               "type": "Literal",
               "start": 1392,
               "end": 1393,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -693,8 +690,7 @@
             "type": "Literal",
             "start": 1404,
             "end": 1471,
-            "value": "The value of thisVals[0] is expected to equal the value of global",
-            "raw": "'The value of thisVals[0] is expected to equal the value of global'"
+            "value": "The value of thisVals[0] is expected to equal the value of global"
           }
         ],
         "optional": false
@@ -742,8 +738,7 @@
               "type": "Literal",
               "start": 1500,
               "end": 1501,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -758,8 +753,7 @@
             "type": "Literal",
             "start": 1512,
             "end": 1579,
-            "value": "The value of thisVals[1] is expected to equal the value of global",
-            "raw": "'The value of thisVals[1] is expected to equal the value of global'"
+            "value": "The value of thisVals[1] is expected to equal the value of global"
           }
         ],
         "optional": false

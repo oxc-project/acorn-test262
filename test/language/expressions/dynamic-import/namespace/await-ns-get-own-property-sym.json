@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 3779,
                 "end": 3788,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
                       "type": "Literal",
                       "start": 3843,
                       "end": 3869,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   }
                 }
@@ -445,8 +443,7 @@
                   "type": "Literal",
                   "start": 4161,
                   "end": 4192,
-                  "value": "Symbol.toStringTag enumerable",
-                  "raw": "'Symbol.toStringTag enumerable'"
+                  "value": "Symbol.toStringTag enumerable"
                 }
               ],
               "optional": false
@@ -510,8 +507,7 @@
                   "type": "Literal",
                   "start": 4238,
                   "end": 4267,
-                  "value": "Symbol.toStringTag writable",
-                  "raw": "'Symbol.toStringTag writable'"
+                  "value": "Symbol.toStringTag writable"
                 }
               ],
               "optional": false
@@ -575,8 +571,7 @@
                   "type": "Literal",
                   "start": 4317,
                   "end": 4350,
-                  "value": "Symbol.toStringTag configurable",
-                  "raw": "'Symbol.toStringTag configurable'"
+                  "value": "Symbol.toStringTag configurable"
                 }
               ],
               "optional": false

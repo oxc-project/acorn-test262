@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 2755,
                             "end": 2756,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 2775,
                         "end": 2776,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -123,8 +121,7 @@
                         "type": "Literal",
                         "start": 2795,
                         "end": 2796,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -354,8 +351,7 @@
                                         "type": "Literal",
                                         "start": 2989,
                                         "end": 2990,
-                                        "value": 8,
-                                        "raw": "8"
+                                        "value": 8
                                       },
                                       {
                                         "type": "Identifier",
@@ -375,8 +371,7 @@
                         "type": "Literal",
                         "start": 3007,
                         "end": 3048,
-                        "value": "abrupt completion from ToNumber(sample)",
-                        "raw": "\"abrupt completion from ToNumber(sample)\""
+                        "value": "abrupt completion from ToNumber(sample)"
                       }
                     ],
                     "optional": false
@@ -420,15 +415,13 @@
                         "type": "Literal",
                         "start": 3080,
                         "end": 3081,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 3083,
                         "end": 3104,
-                        "value": "valueOf called once",
-                        "raw": "\"valueOf called once\""
+                        "value": "valueOf called once"
                       }
                     ],
                     "optional": false
@@ -472,15 +465,13 @@
                         "type": "Literal",
                         "start": 3136,
                         "end": 3137,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 3139,
                         "end": 3161,
-                        "value": "toString called once",
-                        "raw": "\"toString called once\""
+                        "value": "toString called once"
                       }
                     ],
                     "optional": false

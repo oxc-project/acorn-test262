@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Math.log) must return false",
-            "raw": "'isConstructor(Math.log) must return false'"
+            "value": "isConstructor(Math.log) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Math.log()` throws TypeError",
-            "raw": "'`new Math.log()` throws TypeError'"
+            "value": "`new Math.log()` throws TypeError"
           }
         ],
         "optional": false

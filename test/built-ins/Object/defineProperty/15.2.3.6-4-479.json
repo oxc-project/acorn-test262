@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 369,
             "end": 375,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -158,8 +157,7 @@
             "type": "Literal",
             "start": 465,
             "end": 471,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -301,8 +299,7 @@
                 "type": "Literal",
                 "start": 603,
                 "end": 609,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -360,8 +357,7 @@
                 "type": "Literal",
                 "start": 660,
                 "end": 666,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -426,8 +422,7 @@
             "type": "Literal",
             "start": 718,
             "end": 750,
-            "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "value": "propertyDefineCorrect !== true"
           }
         ],
         "optional": false
@@ -491,8 +486,7 @@
             "type": "Literal",
             "start": 795,
             "end": 814,
-            "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "value": "desc.configurable"
           }
         ],
         "optional": false
@@ -554,8 +548,7 @@
                 "type": "Literal",
                 "start": 853,
                 "end": 859,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -571,8 +564,7 @@
             "type": "Literal",
             "start": 869,
             "end": 897,
-            "value": "obj.hasOwnProperty(\"prop\")",
-            "raw": "'obj.hasOwnProperty(\"prop\")'"
+            "value": "obj.hasOwnProperty(\"prop\")"
           }
         ],
         "optional": false

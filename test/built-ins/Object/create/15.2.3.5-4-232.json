@@ -146,15 +146,13 @@
             "type": "Literal",
             "start": 376,
             "end": 387,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 411,
-            "value": "typeof (newObj.prop)",
-            "raw": "'typeof (newObj.prop)'"
+            "value": "typeof (newObj.prop)"
           }
         ],
         "optional": false

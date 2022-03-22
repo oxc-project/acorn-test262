@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 937,
                 "end": 958,
-                "value": "2000-05-02T00:00:00",
-                "raw": "\"2000-05-02T00:00:00\""
+                "value": "2000-05-02T00:00:00"
               }
             ]
           }
@@ -148,8 +147,7 @@
                               "type": "Literal",
                               "start": 1072,
                               "end": 1076,
-                              "value": 2000,
-                              "raw": "2000"
+                              "value": 2000
                             },
                             "kind": "init"
                           },
@@ -170,8 +168,7 @@
                               "type": "Literal",
                               "start": 1085,
                               "end": 1086,
-                              "value": 5,
-                              "raw": "5"
+                              "value": 5
                             },
                             "kind": "init"
                           },
@@ -192,8 +189,7 @@
                               "type": "Literal",
                               "start": 1093,
                               "end": 1094,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             "kind": "init"
                           },

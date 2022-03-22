@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 279,
             "end": 280,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -47,8 +46,7 @@
             "type": "Literal",
             "start": 376,
             "end": 377,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -71,8 +69,7 @@
               "type": "Literal",
               "start": 404,
               "end": 448,
-              "value": "#1.1: 1 in expression is evaluated to true",
-              "raw": "'#1.1: 1 in expression is evaluated to true'"
+              "value": "#1.1: 1 in expression is evaluated to true"
             }
           ]
         }
@@ -115,8 +112,7 @@
           "type": "Literal",
           "start": 470,
           "end": 471,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -138,8 +134,7 @@
               "type": "Literal",
               "start": 496,
               "end": 529,
-              "value": "#1.2: else branch don`t execute",
-              "raw": "'#1.2: else branch don`t execute'"
+              "value": "#1.2: else branch don`t execute"
             }
           ]
         }
@@ -188,8 +183,7 @@
               "type": "Literal",
               "start": 740,
               "end": 787,
-              "value": "#2.1: true in expression is evaluated to true",
-              "raw": "'#2.1: true in expression is evaluated to true'"
+              "value": "#2.1: true in expression is evaluated to true"
             }
           ]
         }
@@ -232,8 +226,7 @@
           "type": "Literal",
           "start": 809,
           "end": 810,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -255,8 +248,7 @@
               "type": "Literal",
               "start": 835,
               "end": 868,
-              "value": "#2.2: else branch don`t execute",
-              "raw": "'#2.2: else branch don`t execute'"
+              "value": "#2.2: else branch don`t execute"
             }
           ]
         }
@@ -281,8 +273,7 @@
             "type": "Literal",
             "start": 1048,
             "end": 1051,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           }
         }
       },
@@ -305,8 +296,7 @@
               "type": "Literal",
               "start": 1078,
               "end": 1124,
-              "value": "#3.1: \"1\" in expression is evaluated to true",
-              "raw": "'#3.1: \"1\" in expression is evaluated to true'"
+              "value": "#3.1: \"1\" in expression is evaluated to true"
             }
           ]
         }
@@ -349,8 +339,7 @@
           "type": "Literal",
           "start": 1146,
           "end": 1147,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -372,8 +361,7 @@
               "type": "Literal",
               "start": 1172,
               "end": 1205,
-              "value": "#3.2: else branch don`t execute",
-              "raw": "'#3.2: else branch don`t execute'"
+              "value": "#3.2: else branch don`t execute"
             }
           ]
         }
@@ -398,8 +386,7 @@
             "type": "Literal",
             "start": 1385,
             "end": 1388,
-            "value": "A",
-            "raw": "\"A\""
+            "value": "A"
           }
         }
       },
@@ -422,8 +409,7 @@
               "type": "Literal",
               "start": 1415,
               "end": 1461,
-              "value": "#4.1: \"A\" in expression is evaluated to true",
-              "raw": "'#4.1: \"A\" in expression is evaluated to true'"
+              "value": "#4.1: \"A\" in expression is evaluated to true"
             }
           ]
         }
@@ -466,8 +452,7 @@
           "type": "Literal",
           "start": 1483,
           "end": 1484,
-          "value": 4,
-          "raw": "4"
+          "value": 4
         }
       },
       "consequent": {
@@ -489,8 +474,7 @@
               "type": "Literal",
               "start": 1509,
               "end": 1542,
-              "value": "#4.2: else branch don`t execute",
-              "raw": "'#4.2: else branch don`t execute'"
+              "value": "#4.2: else branch don`t execute"
             }
           ]
         }

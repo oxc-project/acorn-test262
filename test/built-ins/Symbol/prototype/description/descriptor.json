@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 494,
                 "end": 507,
-                "value": "description",
-                "raw": "'description'"
+                "value": "description"
               }
             ],
             "optional": false
@@ -132,8 +131,7 @@
             "type": "Literal",
             "start": 556,
             "end": 594,
-            "value": "The value of desc.set is `undefined`",
-            "raw": "'The value of desc.set is `undefined`'"
+            "value": "The value of desc.set is `undefined`"
           }
         ],
         "optional": false
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 649,
             "end": 692,
-            "value": "The value of desc.writable is `undefined`",
-            "raw": "'The value of desc.writable is `undefined`'"
+            "value": "The value of desc.writable is `undefined`"
           }
         ],
         "optional": false
@@ -261,15 +258,13 @@
             "type": "Literal",
             "start": 736,
             "end": 746,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 750,
             "end": 796,
-            "value": "The value of `typeof desc.get` is \"function\"",
-            "raw": "'The value of `typeof desc.get` is \"function\"'"
+            "value": "The value of `typeof desc.get` is \"function\""
           }
         ],
         "optional": false
@@ -313,8 +308,7 @@
             "type": "Literal",
             "start": 834,
             "end": 847,
-            "value": "description",
-            "raw": "'description'"
+            "value": "description"
           },
           {
             "type": "ObjectExpression",

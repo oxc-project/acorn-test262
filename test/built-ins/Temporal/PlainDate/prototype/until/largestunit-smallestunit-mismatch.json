@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 322,
                 "end": 326,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -112,22 +109,19 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 376,
-                "value": 2001,
-                "raw": "2001"
+                "value": 2001
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 379,
-                "value": 6,
-                "raw": "6"
+                "value": 6
               },
               {
                 "type": "Literal",
                 "start": 381,
                 "end": 382,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -159,29 +153,25 @@
                 "type": "Literal",
                 "start": 400,
                 "end": 407,
-                "value": "years",
-                "raw": "\"years\""
+                "value": "years"
               },
               {
                 "type": "Literal",
                 "start": 409,
                 "end": 417,
-                "value": "months",
-                "raw": "\"months\""
+                "value": "months"
               },
               {
                 "type": "Literal",
                 "start": 419,
                 "end": 426,
-                "value": "weeks",
-                "raw": "\"weeks\""
+                "value": "weeks"
               },
               {
                 "type": "Literal",
                 "start": 428,
                 "end": 434,
-                "value": "days",
-                "raw": "\"days\""
+                "value": "days"
               }
             ]
           }
@@ -212,8 +202,7 @@
               "type": "Literal",
               "start": 459,
               "end": 460,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],
@@ -291,8 +280,7 @@
                     "type": "Literal",
                     "start": 530,
                     "end": 531,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],

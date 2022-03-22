@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 404,
             "end": 414,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 418,
             "end": 480,
-            "value": "`typeof TimeZone.prototype.getOffsetStringFor` is `function`",
-            "raw": "\"`typeof TimeZone.prototype.getOffsetStringFor` is `function`\""
+            "value": "`typeof TimeZone.prototype.getOffsetStringFor` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 529,
             "end": 549,
-            "value": "getOffsetStringFor",
-            "raw": "\"getOffsetStringFor\""
+            "value": "getOffsetStringFor"
           },
           {
             "type": "ObjectExpression",

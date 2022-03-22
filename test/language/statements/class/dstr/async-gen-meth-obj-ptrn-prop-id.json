@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1785,
             "end": 1786,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -139,8 +138,7 @@
                           "type": "Literal",
                           "start": 1850,
                           "end": 1852,
-                          "value": 23,
-                          "raw": "23"
+                          "value": 23
                         }
                       ],
                       "optional": false
@@ -242,8 +240,7 @@
                           "type": "Literal",
                           "start": 1947,
                           "end": 1948,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     }
@@ -340,8 +337,7 @@
                               "type": "Literal",
                               "start": 1978,
                               "end": 1980,
-                              "value": 23,
-                              "raw": "23"
+                              "value": 23
                             },
                             "kind": "init"
                           }
@@ -424,15 +420,13 @@
                             "type": "Literal",
                             "start": 2036,
                             "end": 2037,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2039,
                             "end": 2061,
-                            "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "value": "invoked exactly once"
                           }
                         ],
                         "optional": false

@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 412,
             "end": 439,
-            "value": "getOwnPropertyDescriptors",
-            "raw": "'getOwnPropertyDescriptors'"
+            "value": "getOwnPropertyDescriptors"
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 525,
-            "value": "Expected Object.getOwnPropertyDescriptors.name to be \"getOwnPropertyDescriptors\"",
-            "raw": "'Expected Object.getOwnPropertyDescriptors.name to be \"getOwnPropertyDescriptors\"'"
+            "value": "Expected Object.getOwnPropertyDescriptors.name to be \"getOwnPropertyDescriptors\""
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 584,
             "end": 590,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 645,
             "end": 651,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 707,
             "end": 713,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

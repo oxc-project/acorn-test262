@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 835,
                             "end": 836,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ]
                       }
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 853,
                         "end": 854,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -179,8 +177,7 @@
                                 "type": "Literal",
                                 "start": 931,
                                 "end": 932,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           ]
@@ -238,8 +235,7 @@
                                   "type": "Literal",
                                   "start": 985,
                                   "end": 986,
-                                  "value": 0,
-                                  "raw": "0"
+                                  "value": 0
                                 }
                               },
                               "consequent": {
@@ -419,8 +415,7 @@
                         "type": "Literal",
                         "start": 1153,
                         "end": 1207,
-                        "value": "Coercion that detaches buffer should throw TypeError",
-                        "raw": "\"Coercion that detaches buffer should throw TypeError\""
+                        "value": "Coercion that detaches buffer should throw TypeError"
                       }
                     ],
                     "optional": false
@@ -464,8 +459,7 @@
                         "type": "Literal",
                         "start": 1237,
                         "end": 1238,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false

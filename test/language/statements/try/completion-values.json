@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 724,
-                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { 42; break; -2 }; } while (false);",
-                "raw": "'99; do { -99; try { 39 } catch (e) { -1 } finally { 42; break; -2 }; } while (false);'"
+                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { 42; break; -2 }; } while (false);"
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
             "type": "Literal",
             "start": 729,
             "end": 731,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -106,8 +104,7 @@
                 "type": "Literal",
                 "start": 760,
                 "end": 852,
-                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; break; -3 }; } while (false);",
-                "raw": "'99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; break; -3 }; } while (false);'"
+                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; break; -3 }; } while (false);"
               }
             ],
             "optional": false
@@ -116,8 +113,7 @@
             "type": "Literal",
             "start": 857,
             "end": 859,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -166,8 +162,7 @@
                 "type": "Literal",
                 "start": 888,
                 "end": 971,
-                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { break; -2 }; } while (false);",
-                "raw": "'99; do { -99; try { 39 } catch (e) { -1 } finally { break; -2 }; } while (false);'"
+                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { break; -2 }; } while (false);"
               }
             ],
             "optional": false
@@ -225,8 +220,7 @@
                 "type": "Literal",
                 "start": 1014,
                 "end": 1102,
-                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { break; -3 }; } while (false);",
-                "raw": "'99; do { -99; try { [].x.x } catch (e) { -1; } finally { break; -3 }; } while (false);'"
+                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { break; -3 }; } while (false);"
               }
             ],
             "optional": false
@@ -284,8 +278,7 @@
                 "type": "Literal",
                 "start": 1145,
                 "end": 1236,
-                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { 42; break; -3 }; -77 } while (false);",
-                "raw": "'99; do { -99; try { 39 } catch (e) { -1 } finally { 42; break; -3 }; -77 } while (false);'"
+                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { 42; break; -3 }; -77 } while (false);"
               }
             ],
             "optional": false
@@ -294,8 +287,7 @@
             "type": "Literal",
             "start": 1241,
             "end": 1243,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -344,8 +336,7 @@
                 "type": "Literal",
                 "start": 1272,
                 "end": 1368,
-                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; break; -3 }; -77 } while (false);",
-                "raw": "'99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; break; -3 }; -77 } while (false);'"
+                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; break; -3 }; -77 } while (false);"
               }
             ],
             "optional": false
@@ -354,8 +345,7 @@
             "type": "Literal",
             "start": 1373,
             "end": 1375,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -404,8 +394,7 @@
                 "type": "Literal",
                 "start": 1404,
                 "end": 1491,
-                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { break; -3 }; -77 } while (false);",
-                "raw": "'99; do { -99; try { 39 } catch (e) { -1 } finally { break; -3 }; -77 } while (false);'"
+                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { break; -3 }; -77 } while (false);"
               }
             ],
             "optional": false
@@ -463,8 +452,7 @@
                 "type": "Literal",
                 "start": 1534,
                 "end": 1626,
-                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { break; -3 }; -77 } while (false);",
-                "raw": "'99; do { -99; try { [].x.x } catch (e) { -1; } finally { break; -3 }; -77 } while (false);'"
+                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { break; -3 }; -77 } while (false);"
               }
             ],
             "optional": false
@@ -522,8 +510,7 @@
                 "type": "Literal",
                 "start": 1669,
                 "end": 1759,
-                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { 42; continue; -3 }; } while (false);",
-                "raw": "'99; do { -99; try { 39 } catch (e) { -1 } finally { 42; continue; -3 }; } while (false);'"
+                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { 42; continue; -3 }; } while (false);"
               }
             ],
             "optional": false
@@ -532,8 +519,7 @@
             "type": "Literal",
             "start": 1764,
             "end": 1766,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -582,8 +568,7 @@
                 "type": "Literal",
                 "start": 1795,
                 "end": 1890,
-                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; continue; -3 }; } while (false);",
-                "raw": "'99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; continue; -3 }; } while (false);'"
+                "value": "99; do { -99; try { [].x.x } catch (e) { -1; } finally { 42; continue; -3 }; } while (false);"
               }
             ],
             "optional": false
@@ -592,8 +577,7 @@
             "type": "Literal",
             "start": 1895,
             "end": 1897,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -642,8 +626,7 @@
                 "type": "Literal",
                 "start": 1926,
                 "end": 2020,
-                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { 42; continue; -3 }; -77 } while (false);",
-                "raw": "'99; do { -99; try { 39 } catch (e) { -1 } finally { 42; continue; -3 }; -77 } while (false);'"
+                "value": "99; do { -99; try { 39 } catch (e) { -1 } finally { 42; continue; -3 }; -77 } while (false);"
               }
             ],
             "optional": false
@@ -652,8 +635,7 @@
             "type": "Literal",
             "start": 2025,
             "end": 2027,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -702,8 +684,7 @@
                 "type": "Literal",
                 "start": 2056,
                 "end": 2154,
-                "value": "99; do { -99; try { [].x.x } catch (e) { -1 } finally { 42; continue; -3 }; -77 } while (false);",
-                "raw": "'99; do { -99; try { [].x.x } catch (e) { -1 } finally { 42; continue; -3 }; -77 } while (false);'"
+                "value": "99; do { -99; try { [].x.x } catch (e) { -1 } finally { 42; continue; -3 }; -77 } while (false);"
               }
             ],
             "optional": false
@@ -712,8 +693,7 @@
             "type": "Literal",
             "start": 2159,
             "end": 2161,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false

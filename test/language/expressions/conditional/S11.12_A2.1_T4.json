@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 362,
                     "end": 417,
-                    "value": "#1.1: false ? true : z throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: false ? true : z throw ReferenceError. Actual: '"
+                    "value": "#1.1: false ? true : z throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -188,8 +187,7 @@
                             "type": "Literal",
                             "start": 532,
                             "end": 587,
-                            "value": "#1.2: false ? true : z throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: false ? true : z throw ReferenceError. Actual: '"
+                            "value": "#1.2: false ? true : z throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

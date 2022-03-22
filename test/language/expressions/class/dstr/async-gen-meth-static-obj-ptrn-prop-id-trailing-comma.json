@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1896,
             "end": 1897,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -149,8 +148,7 @@
                                 "type": "Literal",
                                 "start": 1975,
                                 "end": 1977,
-                                "value": 23,
-                                "raw": "23"
+                                "value": 23
                               }
                             ],
                             "optional": false
@@ -252,8 +250,7 @@
                                 "type": "Literal",
                                 "start": 2073,
                                 "end": 2074,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           }
@@ -343,8 +340,7 @@
                               "type": "Literal",
                               "start": 2098,
                               "end": 2100,
-                              "value": 23,
-                              "raw": "23"
+                              "value": 23
                             },
                             "kind": "init"
                           }
@@ -427,15 +423,13 @@
                             "type": "Literal",
                             "start": 2156,
                             "end": 2157,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2159,
                             "end": 2181,
-                            "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "value": "invoked exactly once"
                           }
                         ],
                         "optional": false

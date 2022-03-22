@@ -176,8 +176,7 @@
                         "type": "Literal",
                         "start": 773,
                         "end": 823,
-                        "value": "The `onFulfilled` handler should not be invoked.",
-                        "raw": "'The `onFulfilled` handler should not be invoked.'"
+                        "value": "The `onFulfilled` handler should not be invoked."
                       }
                     ],
                     "optional": false
@@ -253,8 +252,7 @@
                               "type": "Literal",
                               "start": 874,
                               "end": 943,
-                              "value": "The `onRejected` handler should be invoked with the promise result.",
-                              "raw": "'The `onRejected` handler should be invoked with the promise result.'"
+                              "value": "The `onRejected` handler should be invoked with the promise result."
                             }
                           ],
                           "optional": false

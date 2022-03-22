@@ -92,8 +92,7 @@
             "type": "Literal",
             "start": 379,
             "end": 387,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -256,8 +255,7 @@
                           "type": "Literal",
                           "start": 550,
                           "end": 551,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -447,8 +445,7 @@
             "type": "Literal",
             "start": 706,
             "end": 722,
-            "value": "stepFiveOccurs",
-            "raw": "'stepFiveOccurs'"
+            "value": "stepFiveOccurs"
           }
         ],
         "optional": false

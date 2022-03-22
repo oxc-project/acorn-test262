@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 569,
             "end": 577,
-            "value": "BigInt",
-            "raw": "\"BigInt\""
+            "value": "BigInt"
           },
           {
             "type": "ObjectExpression",

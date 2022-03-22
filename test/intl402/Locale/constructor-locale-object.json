@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 428,
                 "end": 435,
-                "value": "en-US",
-                "raw": "\"en-US\""
+                "value": "en-US"
               }
             ]
           }
@@ -122,8 +121,7 @@
                       "type": "Literal",
                       "start": 482,
                       "end": 486,
-                      "value": "GB",
-                      "raw": "\"GB\""
+                      "value": "GB"
                     },
                     "kind": "init"
                   }
@@ -193,15 +191,13 @@
             "type": "Literal",
             "start": 525,
             "end": 532,
-            "value": "en-US",
-            "raw": "\"en-US\""
+            "value": "en-US"
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 567,
-            "value": "enUS.toString() returns \"en-US\"",
-            "raw": "'enUS.toString() returns \"en-US\"'"
+            "value": "enUS.toString() returns \"en-US\""
           }
         ],
         "optional": false
@@ -265,15 +261,13 @@
             "type": "Literal",
             "start": 604,
             "end": 611,
-            "value": "en-GB",
-            "raw": "\"en-GB\""
+            "value": "en-GB"
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 646,
-            "value": "enGB.toString() returns \"en-GB\"",
-            "raw": "'enGB.toString() returns \"en-GB\"'"
+            "value": "enGB.toString() returns \"en-GB\""
           }
         ],
         "optional": false
@@ -322,8 +316,7 @@
                 "type": "Literal",
                 "start": 749,
                 "end": 765,
-                "value": "zh-u-co-unihan",
-                "raw": "\"zh-u-co-unihan\""
+                "value": "zh-u-co-unihan"
               }
             ]
           }
@@ -398,8 +391,7 @@
                       "type": "Literal",
                       "start": 823,
                       "end": 831,
-                      "value": "zhuyin",
-                      "raw": "\"zhuyin\""
+                      "value": "zhuyin"
                     },
                     "kind": "init"
                   }
@@ -469,15 +461,13 @@
             "type": "Literal",
             "start": 879,
             "end": 895,
-            "value": "zh-u-co-unihan",
-            "raw": "\"zh-u-co-unihan\""
+            "value": "zh-u-co-unihan"
           },
           {
             "type": "Literal",
             "start": 899,
             "end": 945,
-            "value": "zhUnihan.toString() returns \"zh-u-co-unihan\"",
-            "raw": "'zhUnihan.toString() returns \"zh-u-co-unihan\"'"
+            "value": "zhUnihan.toString() returns \"zh-u-co-unihan\""
           }
         ],
         "optional": false
@@ -541,15 +531,13 @@
             "type": "Literal",
             "start": 992,
             "end": 1008,
-            "value": "zh-u-co-zhuyin",
-            "raw": "\"zh-u-co-zhuyin\""
+            "value": "zh-u-co-zhuyin"
           },
           {
             "type": "Literal",
             "start": 1012,
             "end": 1058,
-            "value": "zhZhuyin.toString() returns \"zh-u-co-zhuyin\"",
-            "raw": "'zhZhuyin.toString() returns \"zh-u-co-zhuyin\"'"
+            "value": "zhZhuyin.toString() returns \"zh-u-co-zhuyin\""
           }
         ],
         "optional": false
@@ -606,15 +594,13 @@
             "type": "Literal",
             "start": 1100,
             "end": 1108,
-            "value": "unihan",
-            "raw": "\"unihan\""
+            "value": "unihan"
           },
           {
             "type": "Literal",
             "start": 1110,
             "end": 1155,
-            "value": "The value of zhUnihan.collation is \"unihan\"",
-            "raw": "'The value of zhUnihan.collation is \"unihan\"'"
+            "value": "The value of zhUnihan.collation is \"unihan\""
           }
         ],
         "optional": false
@@ -671,15 +657,13 @@
             "type": "Literal",
             "start": 1195,
             "end": 1203,
-            "value": "zhuyin",
-            "raw": "\"zhuyin\""
+            "value": "zhuyin"
           },
           {
             "type": "Literal",
             "start": 1205,
             "end": 1250,
-            "value": "The value of zhZhuyin.collation is \"zhuyin\"",
-            "raw": "'The value of zhZhuyin.collation is \"zhuyin\"'"
+            "value": "The value of zhZhuyin.collation is \"zhuyin\""
           }
         ],
         "optional": false

@@ -266,8 +266,7 @@
                                 "type": "Literal",
                                 "start": 805,
                                 "end": 806,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "computed": true,
                               "optional": false
@@ -286,8 +285,7 @@
                                 "type": "Literal",
                                 "start": 814,
                                 "end": 815,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               "computed": true,
                               "optional": false
@@ -369,15 +367,13 @@
             "type": "Literal",
             "start": 869,
             "end": 870,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 872,
             "end": 873,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ]
       }
@@ -426,8 +422,7 @@
             "type": "Literal",
             "start": 913,
             "end": 949,
-            "value": "trap context is the handler object",
-            "raw": "\"trap context is the handler object\""
+            "value": "trap context is the handler object"
           }
         ],
         "optional": false
@@ -477,8 +472,7 @@
             "type": "Literal",
             "start": 986,
             "end": 1024,
-            "value": "first parameter is the target object",
-            "raw": "\"first parameter is the target object\""
+            "value": "first parameter is the target object"
           }
         ],
         "optional": false
@@ -535,15 +529,13 @@
             "type": "Literal",
             "start": 1058,
             "end": 1059,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1061,
             "end": 1105,
-            "value": "arguments list contains all call arguments",
-            "raw": "\"arguments list contains all call arguments\""
+            "value": "arguments list contains all call arguments"
           }
         ],
         "optional": false
@@ -591,8 +583,7 @@
               "type": "Literal",
               "start": 1131,
               "end": 1132,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -601,15 +592,13 @@
             "type": "Literal",
             "start": 1135,
             "end": 1136,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1138,
             "end": 1178,
-            "value": "arguments list has first call argument",
-            "raw": "\"arguments list has first call argument\""
+            "value": "arguments list has first call argument"
           }
         ],
         "optional": false
@@ -657,8 +646,7 @@
               "type": "Literal",
               "start": 1204,
               "end": 1205,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -667,15 +655,13 @@
             "type": "Literal",
             "start": 1208,
             "end": 1209,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1211,
             "end": 1252,
-            "value": "arguments list has second call argument",
-            "raw": "\"arguments list has second call argument\""
+            "value": "arguments list has second call argument"
           }
         ],
         "optional": false
@@ -725,8 +711,7 @@
             "type": "Literal",
             "start": 1279,
             "end": 1323,
-            "value": "constructor is sent as the third parameter",
-            "raw": "\"constructor is sent as the third parameter\""
+            "value": "constructor is sent as the third parameter"
           }
         ],
         "optional": false

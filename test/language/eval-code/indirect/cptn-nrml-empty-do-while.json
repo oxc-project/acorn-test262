@@ -48,8 +48,7 @@
                     "type": "Literal",
                     "start": 358,
                     "end": 359,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Identifier",
@@ -65,8 +64,7 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 385,
-                "value": "do ; while(false)",
-                "raw": "\"do ; while(false)\""
+                "value": "do ; while(false)"
               }
             ],
             "optional": false

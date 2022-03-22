@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 924,
             "end": 925,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -126,8 +125,7 @@
                 "type": "Literal",
                 "start": 981,
                 "end": 988,
-                "value": "value",
-                "raw": "'value'"
+                "value": "value"
               },
               {
                 "type": "ObjectExpression",
@@ -180,8 +178,7 @@
                                 "type": "Literal",
                                 "start": 1029,
                                 "end": 1030,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           }
@@ -504,15 +501,13 @@
             "type": "Literal",
             "start": 1307,
             "end": 1308,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1310,
             "end": 1342,
-            "value": "access count (first iteration)",
-            "raw": "'access count (first iteration)'"
+            "value": "access count (first iteration)"
           }
         ],
         "optional": false
@@ -563,8 +558,7 @@
             "type": "Literal",
             "start": 1392,
             "end": 1430,
-            "value": "delegation ongoing (first iteration)",
-            "raw": "'delegation ongoing (first iteration)'"
+            "value": "delegation ongoing (first iteration)"
           }
         ],
         "optional": false
@@ -639,15 +633,13 @@
             "type": "Literal",
             "start": 1476,
             "end": 1477,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1479,
             "end": 1512,
-            "value": "access count (second iteration)",
-            "raw": "'access count (second iteration)'"
+            "value": "access count (second iteration)"
           }
         ],
         "optional": false
@@ -698,8 +690,7 @@
             "type": "Literal",
             "start": 1562,
             "end": 1601,
-            "value": "delegation ongoing (second iteration)",
-            "raw": "'delegation ongoing (second iteration)'"
+            "value": "delegation ongoing (second iteration)"
           }
         ],
         "optional": false
@@ -811,15 +802,13 @@
             "type": "Literal",
             "start": 1669,
             "end": 1670,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1672,
             "end": 1704,
-            "value": "access count (final iteration)",
-            "raw": "'access count (final iteration)'"
+            "value": "access count (final iteration)"
           }
         ],
         "optional": false
@@ -870,8 +859,7 @@
             "type": "Literal",
             "start": 1750,
             "end": 1771,
-            "value": "delegation complete",
-            "raw": "'delegation complete'"
+            "value": "delegation complete"
           }
         ],
         "optional": false

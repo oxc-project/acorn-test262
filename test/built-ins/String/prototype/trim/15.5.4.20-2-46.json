@@ -153,15 +153,13 @@
             "type": "Literal",
             "start": 383,
             "end": 391,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 437,
-            "value": "typeof(String.prototype.trim.call(funObj))",
-            "raw": "'typeof(String.prototype.trim.call(funObj))'"
+            "value": "typeof(String.prototype.trim.call(funObj))"
           }
         ],
         "optional": false

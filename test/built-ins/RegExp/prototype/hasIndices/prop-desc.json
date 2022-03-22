@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 902,
                 "end": 914,
-                "value": "hasIndices",
-                "raw": "\"hasIndices\""
+                "value": "hasIndices"
               }
             ],
             "optional": false
@@ -190,8 +189,7 @@
             "type": "Literal",
             "start": 991,
             "end": 1001,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
             "type": "Literal",
             "start": 1038,
             "end": 1050,
-            "value": "hasIndices",
-            "raw": "\"hasIndices\""
+            "value": "hasIndices"
           },
           {
             "type": "ObjectExpression",

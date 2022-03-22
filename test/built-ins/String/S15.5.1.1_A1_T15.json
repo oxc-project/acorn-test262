@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 338,
             "end": 344,
-            "value": "caps",
-            "raw": "\"caps\""
+            "value": "caps"
           }
         }
       ],
@@ -118,8 +117,7 @@
                     "type": "Literal",
                     "start": 544,
                     "end": 638,
-                    "value": "#1: __obj__str = \"caps\"; __str = String(__obj__str); __str === __obj__str. Actual: __str ===",
-                    "raw": "'#1: __obj__str = \"caps\"; __str = String(__obj__str); __str === __obj__str. Actual: __str ==='"
+                    "value": "#1: __obj__str = \"caps\"; __str = String(__obj__str); __str === __obj__str. Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {

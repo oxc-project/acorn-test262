@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 369,
             "end": 428,
-            "value": "The value of delete Date.prototype.getUTCDay is not false",
-            "raw": "'The value of delete Date.prototype.getUTCDay is not false'"
+            "value": "The value of delete Date.prototype.getUTCDay is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 473,
                   "end": 484,
-                  "value": "getUTCDay",
-                  "raw": "'getUTCDay'"
+                  "value": "getUTCDay"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 489,
             "end": 572,
-            "value": "The value of !Date.prototype.hasOwnProperty('getUTCDay') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'getUTCDay\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('getUTCDay') is expected to be true"
           }
         ],
         "optional": false

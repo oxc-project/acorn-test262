@@ -71,8 +71,7 @@
                     "type": "Literal",
                     "start": 438,
                     "end": 493,
-                    "value": "#1: Unicode characters in variable Identifier allowed",
-                    "raw": "'#1: Unicode characters in variable Identifier allowed'"
+                    "value": "#1: Unicode characters in variable Identifier allowed"
                   }
                 ]
               }
@@ -101,8 +100,7 @@
             "type": "Literal",
             "start": 618,
             "end": 619,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -127,8 +125,7 @@
           "type": "Literal",
           "start": 725,
           "end": 726,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -159,8 +156,7 @@
                     "type": "Literal",
                     "start": 754,
                     "end": 791,
-                    "value": "#2: __var === 1. Actual:  __var ===",
-                    "raw": "'#2: __var === 1. Actual:  __var ==='"
+                    "value": "#2: __var === 1. Actual:  __var ==="
                   },
                   "operator": "+",
                   "right": {

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 311,
                 "end": 336,
-                "value": "this_is_a_string object",
-                "raw": "\"this_is_a_string object\""
+                "value": "this_is_a_string object"
               }
             ]
           }
@@ -78,15 +77,13 @@
               "type": "Literal",
               "start": 452,
               "end": 453,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             {
               "type": "Literal",
               "start": 455,
               "end": 456,
-              "value": 8,
-              "raw": "8"
+              "value": 8
             }
           ],
           "optional": false
@@ -96,8 +93,7 @@
           "type": "Literal",
           "start": 462,
           "end": 472,
-          "value": "this_is_",
-          "raw": "\"this_is_\""
+          "value": "this_is_"
         }
       },
       "consequent": {
@@ -128,8 +124,7 @@
                     "type": "Literal",
                     "start": 501,
                     "end": 605,
-                    "value": "#1: __string = new String(\"this_is_a_string object\"); __string.substring(0,8) === \"this_is_\". Actual: ",
-                    "raw": "'#1: __string = new String(\"this_is_a_string object\"); __string.substring(0,8) === \"this_is_\". Actual: '"
+                    "value": "#1: __string = new String(\"this_is_a_string object\"); __string.substring(0,8) === \"this_is_\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -160,15 +155,13 @@
                         "type": "Literal",
                         "start": 627,
                         "end": 628,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 630,
                         "end": 631,
-                        "value": 8,
-                        "raw": "8"
+                        "value": 8
                       }
                     ],
                     "optional": false

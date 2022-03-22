@@ -86,8 +86,7 @@
                 "type": "Literal",
                 "start": 389,
                 "end": 390,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "consequent": {
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 440,
             "end": 441,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           "computed": true,
           "optional": false
@@ -184,8 +182,7 @@
           "type": "Literal",
           "start": 445,
           "end": 447,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       }
     },
@@ -212,8 +209,7 @@
             "type": "Literal",
             "start": 453,
             "end": 455,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           },
           "computed": true,
           "optional": false
@@ -222,8 +218,7 @@
           "type": "Literal",
           "start": 459,
           "end": 462,
-          "value": 100,
-          "raw": "100"
+          "value": 100
         }
       }
     },
@@ -265,8 +260,7 @@
             "type": "Literal",
             "start": 492,
             "end": 495,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "ObjectExpression",
@@ -319,8 +313,7 @@
                               "type": "Literal",
                               "start": 544,
                               "end": 583,
-                              "value": "unhandle exception happened in getter",
-                              "raw": "\"unhandle exception happened in getter\""
+                              "value": "unhandle exception happened in getter"
                             }
                           ]
                         }
@@ -396,8 +389,7 @@
             "type": "Literal",
             "start": 644,
             "end": 647,
-            "value": "2",
-            "raw": "\"2\""
+            "value": "2"
           },
           {
             "type": "ObjectExpression",
@@ -463,8 +455,7 @@
                           "type": "Literal",
                           "start": 703,
                           "end": 706,
-                          "value": 100,
-                          "raw": "100"
+                          "value": 100
                         }
                       }
                     ]
@@ -638,8 +629,7 @@
             "type": "Literal",
             "start": 842,
             "end": 852,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false

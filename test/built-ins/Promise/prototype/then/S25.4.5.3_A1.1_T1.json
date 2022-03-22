@@ -85,8 +85,7 @@
             "type": "Literal",
             "start": 337,
             "end": 421,
-            "value": "The value of !!(Promise.prototype.then instanceof Function) is expected to be true",
-            "raw": "'The value of !!(Promise.prototype.then instanceof Function) is expected to be true'"
+            "value": "The value of !!(Promise.prototype.then instanceof Function) is expected to be true"
           }
         ],
         "optional": false

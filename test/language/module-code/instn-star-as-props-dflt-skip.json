@@ -30,8 +30,7 @@
         "type": "Literal",
         "start": 1417,
         "end": 1472,
-        "value": "./instn-star-props-dflt-skip-star-as-named_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-skip-star-as-named_FIXTURE.js'"
+        "value": "./instn-star-props-dflt-skip-star-as-named_FIXTURE.js"
       }
     },
     {
@@ -61,8 +60,7 @@
         "type": "Literal",
         "start": 1499,
         "end": 1553,
-        "value": "./instn-star-props-dflt-skip-star-as-prod_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-skip-star-as-prod_FIXTURE.js'"
+        "value": "./instn-star-props-dflt-skip-star-as-prod_FIXTURE.js"
       }
     },
     {
@@ -88,8 +86,7 @@
               "type": "Literal",
               "start": 1563,
               "end": 1575,
-              "value": "namedOther",
-              "raw": "'namedOther'"
+              "value": "namedOther"
             },
             "operator": "in",
             "right": {
@@ -139,8 +136,7 @@
               "type": "Literal",
               "start": 1607,
               "end": 1616,
-              "value": "default",
-              "raw": "'default'"
+              "value": "default"
             },
             "operator": "in",
             "right": {
@@ -161,8 +157,7 @@
             "type": "Literal",
             "start": 1633,
             "end": 1667,
-            "value": "default specified via identifier",
-            "raw": "'default specified via identifier'"
+            "value": "default specified via identifier"
           }
         ],
         "optional": false
@@ -191,8 +186,7 @@
               "type": "Literal",
               "start": 1679,
               "end": 1696,
-              "value": "productionOther",
-              "raw": "'productionOther'"
+              "value": "productionOther"
             },
             "operator": "in",
             "right": {
@@ -242,8 +236,7 @@
               "type": "Literal",
               "start": 1733,
               "end": 1742,
-              "value": "default",
-              "raw": "'default'"
+              "value": "default"
             },
             "operator": "in",
             "right": {
@@ -264,8 +257,7 @@
             "type": "Literal",
             "start": 1764,
             "end": 1808,
-            "value": "default specified via dedicated production",
-            "raw": "'default specified via dedicated production'"
+            "value": "default specified via dedicated production"
           }
         ],
         "optional": false

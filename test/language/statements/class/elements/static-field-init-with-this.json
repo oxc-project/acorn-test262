@@ -20,9 +20,9 @@
         "end": 2266,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 2179,
-            "end": 2197,
+            "end": 2196,
             "static": true,
             "computed": false,
             "key": {
@@ -35,14 +35,13 @@
               "type": "Literal",
               "start": 2190,
               "end": 2196,
-              "value": "test",
-              "raw": "'test'"
+              "value": "test"
             }
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 2200,
-            "end": 2226,
+            "end": 2225,
             "static": true,
             "computed": false,
             "key": {
@@ -78,15 +77,14 @@
                 "type": "Literal",
                 "start": 2220,
                 "end": 2225,
-                "value": "262",
-                "raw": "'262'"
+                "value": "262"
               }
             }
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 2229,
-            "end": 2264,
+            "end": 2263,
             "static": true,
             "computed": false,
             "key": {
@@ -114,8 +112,7 @@
                     "type": "Literal",
                     "start": 2245,
                     "end": 2253,
-                    "value": "this.g",
-                    "raw": "'this.g'"
+                    "value": "this.g"
                   }
                 ],
                 "optional": false
@@ -125,8 +122,7 @@
                 "type": "Literal",
                 "start": 2257,
                 "end": 2263,
-                "value": "test",
-                "raw": "'test'"
+                "value": "test"
               }
             }
           }
@@ -184,8 +180,7 @@
             "type": "Literal",
             "start": 2290,
             "end": 2296,
-            "value": "test",
-            "raw": "'test'"
+            "value": "test"
           }
         ],
         "optional": false
@@ -242,8 +237,7 @@
             "type": "Literal",
             "start": 2321,
             "end": 2330,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -300,8 +294,7 @@
             "type": "Literal",
             "start": 2355,
             "end": 2368,
-            "value": "test262test",
-            "raw": "'test262test'"
+            "value": "test262test"
           }
         ],
         "optional": false

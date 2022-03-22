@@ -102,8 +102,7 @@
             "type": "Literal",
             "start": 306,
             "end": 361,
-            "value": "Array.prototype.includes.call(true) must return false",
-            "raw": "'Array.prototype.includes.call(true) must return false'"
+            "value": "Array.prototype.includes.call(true) must return false"
           }
         ],
         "optional": false
@@ -208,8 +207,7 @@
             "type": "Literal",
             "start": 433,
             "end": 489,
-            "value": "Array.prototype.includes.call(false) must return false",
-            "raw": "'Array.prototype.includes.call(false) must return false'"
+            "value": "Array.prototype.includes.call(false) must return false"
           }
         ],
         "optional": false

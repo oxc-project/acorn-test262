@@ -158,8 +158,7 @@
           "type": "Literal",
           "start": 500,
           "end": 503,
-          "value": "t",
-          "raw": "\"t\""
+          "value": "t"
         }
       },
       "consequent": {
@@ -190,8 +189,7 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 672,
-                    "value": "#1: __instance = new Object(true); __instance.substring = String.prototype.substring;  __instance.substring(false, true) === \"t\". Actual: ",
-                    "raw": "'#1: __instance = new Object(true); __instance.substring = String.prototype.substring;  __instance.substring(false, true) === \"t\". Actual: '"
+                    "value": "#1: __instance = new Object(true); __instance.substring = String.prototype.substring;  __instance.substring(false, true) === \"t\". Actual: "
                   },
                   "operator": "+",
                   "right": {

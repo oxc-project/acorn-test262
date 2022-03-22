@@ -54,15 +54,13 @@
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 354,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "UnaryExpression",
@@ -74,8 +72,7 @@
                   "type": "Literal",
                   "start": 357,
                   "end": 358,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               },
               {
@@ -297,8 +294,7 @@
                                         "type": "Literal",
                                         "start": 592,
                                         "end": 594,
-                                        "value": "",
-                                        "raw": "\"\""
+                                        "value": ""
                                       },
                                       "operator": "+",
                                       "right": {
@@ -313,8 +309,7 @@
                                       "type": "Literal",
                                       "start": 605,
                                       "end": 635,
-                                      "value": " as locale was not rejected.",
-                                      "raw": "\" as locale was not rejected.\""
+                                      "value": " as locale was not rejected."
                                     }
                                   }
                                 ],

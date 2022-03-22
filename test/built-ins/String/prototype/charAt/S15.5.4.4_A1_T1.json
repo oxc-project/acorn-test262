@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 290,
                 "end": 292,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ]
           }
@@ -191,8 +190,7 @@
           "type": "Literal",
           "start": 490,
           "end": 494,
-          "value": "42",
-          "raw": "\"42\""
+          "value": "42"
         }
       },
       "consequent": {
@@ -227,8 +225,7 @@
                       "type": "Literal",
                       "start": 523,
                       "end": 745,
-                      "value": "#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: ",
-                      "raw": "'#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: '"
+                      "value": "#1: __instance = new Object(42); __instance.charAt = String.prototype.charAt;  __instance = new Object(42); __instance.charAt = String.prototype.charAt; __instance.charAt(false)+__instance.charAt(true) === \"42\". Actual: "
                     },
                     "operator": "+",
                     "right": {

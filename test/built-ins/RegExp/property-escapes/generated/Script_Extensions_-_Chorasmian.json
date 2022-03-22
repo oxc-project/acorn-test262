@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 540,
                               "end": 548,
-                              "value": 69552,
-                              "raw": "0x010FB0"
+                              "value": 69552
                             },
                             {
                               "type": "Literal",
                               "start": 550,
                               "end": 558,
-                              "value": 69579,
-                              "raw": "0x010FCB"
+                              "value": 69579
                             }
                           ]
                         }
@@ -127,7 +125,6 @@
             "start": 591,
             "end": 629,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Chorasmian}+$",
               "flags": "u"
@@ -143,8 +140,7 @@
             "type": "Literal",
             "start": 649,
             "end": 684,
-            "value": "\\p{Script_Extensions=Chorasmian}",
-            "raw": "\"\\\\p{Script_Extensions=Chorasmian}\""
+            "value": "\\p{Script_Extensions=Chorasmian}"
           }
         ],
         "optional": false
@@ -170,7 +166,6 @@
             "start": 711,
             "end": 743,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Chrs}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Chrs}+$",
               "flags": "u"
@@ -186,8 +181,7 @@
             "type": "Literal",
             "start": 763,
             "end": 792,
-            "value": "\\p{Script_Extensions=Chrs}",
-            "raw": "\"\\\\p{Script_Extensions=Chrs}\""
+            "value": "\\p{Script_Extensions=Chrs}"
           }
         ],
         "optional": false
@@ -213,7 +207,6 @@
             "start": 819,
             "end": 843,
             "value": {},
-            "raw": "/^\\p{scx=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Chorasmian}+$",
               "flags": "u"
@@ -229,8 +222,7 @@
             "type": "Literal",
             "start": 863,
             "end": 884,
-            "value": "\\p{scx=Chorasmian}",
-            "raw": "\"\\\\p{scx=Chorasmian}\""
+            "value": "\\p{scx=Chorasmian}"
           }
         ],
         "optional": false
@@ -256,7 +248,6 @@
             "start": 911,
             "end": 929,
             "value": {},
-            "raw": "/^\\p{scx=Chrs}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Chrs}+$",
               "flags": "u"
@@ -272,8 +263,7 @@
             "type": "Literal",
             "start": 949,
             "end": 964,
-            "value": "\\p{scx=Chrs}",
-            "raw": "\"\\\\p{scx=Chrs}\""
+            "value": "\\p{scx=Chrs}"
           }
         ],
         "optional": false
@@ -358,15 +348,13 @@
                               "type": "Literal",
                               "start": 1046,
                               "end": 1054,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1056,
                               "end": 1064,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -379,15 +367,13 @@
                               "type": "Literal",
                               "start": 1072,
                               "end": 1080,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1082,
                               "end": 1090,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -400,15 +386,13 @@
                               "type": "Literal",
                               "start": 1098,
                               "end": 1106,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1108,
                               "end": 1116,
-                              "value": 69551,
-                              "raw": "0x010FAF"
+                              "value": 69551
                             }
                           ]
                         },
@@ -421,15 +405,13 @@
                               "type": "Literal",
                               "start": 1124,
                               "end": 1132,
-                              "value": 69580,
-                              "raw": "0x010FCC"
+                              "value": 69580
                             },
                             {
                               "type": "Literal",
                               "start": 1134,
                               "end": 1142,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -466,7 +448,6 @@
             "start": 1175,
             "end": 1213,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Chorasmian}+$",
               "flags": "u"
@@ -482,8 +463,7 @@
             "type": "Literal",
             "start": 1236,
             "end": 1271,
-            "value": "\\P{Script_Extensions=Chorasmian}",
-            "raw": "\"\\\\P{Script_Extensions=Chorasmian}\""
+            "value": "\\P{Script_Extensions=Chorasmian}"
           }
         ],
         "optional": false
@@ -509,7 +489,6 @@
             "start": 1298,
             "end": 1330,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Chrs}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Chrs}+$",
               "flags": "u"
@@ -525,8 +504,7 @@
             "type": "Literal",
             "start": 1353,
             "end": 1382,
-            "value": "\\P{Script_Extensions=Chrs}",
-            "raw": "\"\\\\P{Script_Extensions=Chrs}\""
+            "value": "\\P{Script_Extensions=Chrs}"
           }
         ],
         "optional": false
@@ -552,7 +530,6 @@
             "start": 1409,
             "end": 1433,
             "value": {},
-            "raw": "/^\\P{scx=Chorasmian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Chorasmian}+$",
               "flags": "u"
@@ -568,8 +545,7 @@
             "type": "Literal",
             "start": 1456,
             "end": 1477,
-            "value": "\\P{scx=Chorasmian}",
-            "raw": "\"\\\\P{scx=Chorasmian}\""
+            "value": "\\P{scx=Chorasmian}"
           }
         ],
         "optional": false
@@ -595,7 +571,6 @@
             "start": 1504,
             "end": 1522,
             "value": {},
-            "raw": "/^\\P{scx=Chrs}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Chrs}+$",
               "flags": "u"
@@ -611,8 +586,7 @@
             "type": "Literal",
             "start": 1545,
             "end": 1560,
-            "value": "\\P{scx=Chrs}",
-            "raw": "\"\\\\P{scx=Chrs}\""
+            "value": "\\P{scx=Chrs}"
           }
         ],
         "optional": false

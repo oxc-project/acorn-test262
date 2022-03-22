@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 1590,
                             "end": 1591,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -178,8 +177,7 @@
                         "type": "Literal",
                         "start": 1673,
                         "end": 1707,
-                        "value": "abrupt completion from undefined",
-                        "raw": "\"abrupt completion from undefined\""
+                        "value": "abrupt completion from undefined"
                       }
                     ],
                     "optional": false

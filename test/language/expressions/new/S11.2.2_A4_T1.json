@@ -62,8 +62,7 @@
                   "type": "Literal",
                   "start": 393,
                   "end": 436,
-                  "value": "#1: new new Boolean(true) throw TypeError",
-                  "raw": "'#1: new new Boolean(true) throw TypeError'"
+                  "value": "#1: new new Boolean(true) throw TypeError"
                 }
               ]
             }
@@ -149,8 +148,7 @@
                           "type": "Literal",
                           "start": 524,
                           "end": 567,
-                          "value": "#1: new new Boolean(true) throw TypeError",
-                          "raw": "'#1: new new Boolean(true) throw TypeError'"
+                          "value": "#1: new new Boolean(true) throw TypeError"
                         }
                       ]
                     }
@@ -248,8 +246,7 @@
                   "type": "Literal",
                   "start": 657,
                   "end": 711,
-                  "value": "#2: var x = new Boolean(true); new x throw TypeError",
-                  "raw": "'#2: var x = new Boolean(true); new x throw TypeError'"
+                  "value": "#2: var x = new Boolean(true); new x throw TypeError"
                 }
               ]
             }
@@ -335,8 +332,7 @@
                           "type": "Literal",
                           "start": 799,
                           "end": 853,
-                          "value": "#2: var x = new Boolean(true); new x throw TypeError",
-                          "raw": "'#2: var x = new Boolean(true); new x throw TypeError'"
+                          "value": "#2: var x = new Boolean(true); new x throw TypeError"
                         }
                       ]
                     }
@@ -434,8 +430,7 @@
                   "type": "Literal",
                   "start": 945,
                   "end": 1001,
-                  "value": "#3: var x = new Boolean(true); new x() throw TypeError",
-                  "raw": "'#3: var x = new Boolean(true); new x() throw TypeError'"
+                  "value": "#3: var x = new Boolean(true); new x() throw TypeError"
                 }
               ]
             }
@@ -521,8 +516,7 @@
                           "type": "Literal",
                           "start": 1090,
                           "end": 1146,
-                          "value": "#3: var x = new Boolean(true); new x() throw TypeError",
-                          "raw": "'#3: var x = new Boolean(true); new x() throw TypeError'"
+                          "value": "#3: var x = new Boolean(true); new x() throw TypeError"
                         }
                       ]
                     }

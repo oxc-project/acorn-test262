@@ -45,8 +45,7 @@
               "type": "Literal",
               "start": 445,
               "end": 446,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         },
@@ -99,8 +98,7 @@
                     "type": "Literal",
                     "start": 504,
                     "end": 547,
-                    "value": "#1: -Infinity * -1 === Infinity. Actual: ",
-                    "raw": "'#1: -Infinity * -1 === Infinity. Actual: '"
+                    "value": "#1: -Infinity * -1 === Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -135,8 +133,7 @@
                           "type": "Literal",
                           "start": 564,
                           "end": 565,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     }
@@ -171,8 +168,7 @@
               "type": "Literal",
               "start": 587,
               "end": 588,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           "operator": "*",
@@ -245,8 +241,7 @@
                     "type": "Literal",
                     "start": 673,
                     "end": 716,
-                    "value": "#2: -1 * -Infinity === Infinity. Actual: ",
-                    "raw": "'#2: -1 * -Infinity === Infinity. Actual: '"
+                    "value": "#2: -1 * -Infinity === Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -267,8 +262,7 @@
                           "type": "Literal",
                           "start": 721,
                           "end": 722,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       "operator": "*",
@@ -337,8 +331,7 @@
               "type": "Literal",
               "start": 783,
               "end": 784,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         },
@@ -391,8 +384,7 @@
                     "type": "Literal",
                     "start": 842,
                     "end": 885,
-                    "value": "#3: Infinity * -1 === -Infinity. Actual: ",
-                    "raw": "'#3: Infinity * -1 === -Infinity. Actual: '"
+                    "value": "#3: Infinity * -1 === -Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -420,8 +412,7 @@
                           "type": "Literal",
                           "start": 901,
                           "end": 902,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     }
@@ -456,8 +447,7 @@
               "type": "Literal",
               "start": 924,
               "end": 925,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           "operator": "*",
@@ -530,8 +520,7 @@
                     "type": "Literal",
                     "start": 1010,
                     "end": 1053,
-                    "value": "#4: -1 * Infinity === -Infinity. Actual: ",
-                    "raw": "'#4: -1 * Infinity === -Infinity. Actual: '"
+                    "value": "#4: -1 * Infinity === -Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -552,8 +541,7 @@
                           "type": "Literal",
                           "start": 1058,
                           "end": 1059,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       "operator": "*",
@@ -674,8 +662,7 @@
                     "type": "Literal",
                     "start": 1194,
                     "end": 1250,
-                    "value": "#5: Infinity * Number.MAX_VALUE === Infinity. Actual: ",
-                    "raw": "'#5: Infinity * Number.MAX_VALUE === Infinity. Actual: '"
+                    "value": "#5: Infinity * Number.MAX_VALUE === Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -848,8 +835,7 @@
                     "type": "Literal",
                     "start": 1422,
                     "end": 1497,
-                    "value": "#6: Infinity * Number.MAX_VALUE === Number.MAX_VALUE * Infinity. Actual: ",
-                    "raw": "'#6: Infinity * Number.MAX_VALUE === Number.MAX_VALUE * Infinity. Actual: '"
+                    "value": "#6: Infinity * Number.MAX_VALUE === Number.MAX_VALUE * Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -997,8 +983,7 @@
                     "type": "Literal",
                     "start": 1650,
                     "end": 1708,
-                    "value": "#7: -Infinity * Number.MIN_VALUE === -Infinity. Actual: ",
-                    "raw": "'#7: -Infinity * Number.MIN_VALUE === -Infinity. Actual: '"
+                    "value": "#7: -Infinity * Number.MIN_VALUE === -Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1178,8 +1163,7 @@
                     "type": "Literal",
                     "start": 1881,
                     "end": 1958,
-                    "value": "#8: -Infinity * Number.MIN_VALUE === Number.MIN_VALUE * -Infinity. Actual: ",
-                    "raw": "'#8: -Infinity * Number.MIN_VALUE === Number.MIN_VALUE * -Infinity. Actual: '"
+                    "value": "#8: -Infinity * Number.MIN_VALUE === Number.MIN_VALUE * -Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {

@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 477,
             "end": 503,
-            "value": "getOwnPropertyDescriptor",
-            "raw": "'getOwnPropertyDescriptor'"
+            "value": "getOwnPropertyDescriptor"
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 593,
-            "value": "The value of `Reflect.getOwnPropertyDescriptor.name` is `\"getOwnPropertyDescriptor\"`",
-            "raw": "'The value of `Reflect.getOwnPropertyDescriptor.name` is `\"getOwnPropertyDescriptor\"`'"
+            "value": "The value of `Reflect.getOwnPropertyDescriptor.name` is `\"getOwnPropertyDescriptor\"`"
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 652,
             "end": 658,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 713,
             "end": 719,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 775,
             "end": 781,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

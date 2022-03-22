@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 392,
             "end": 393,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 410,
             "end": 413,
-            "value": "1",
-            "raw": "'1'"
+            "value": "1"
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 432,
             "end": 433,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -100,8 +97,7 @@
             "type": "Literal",
             "start": 452,
             "end": 455,
-            "value": "2",
-            "raw": "'2'"
+            "value": "2"
           }
         }
       ],
@@ -144,8 +140,7 @@
                   "type": "Literal",
                   "start": 485,
                   "end": 493,
-                  "value": 16711680,
-                  "raw": "0xff0000"
+                  "value": 16711680
                 },
                 "kind": "init"
               },
@@ -166,8 +161,7 @@
                   "type": "Literal",
                   "start": 507,
                   "end": 515,
-                  "value": 255,
-                  "raw": "0x0000ff"
+                  "value": 255
                 },
                 "kind": "init"
               },
@@ -188,8 +182,7 @@
                   "type": "Literal",
                   "start": 526,
                   "end": 534,
-                  "value": 65280,
-                  "raw": "0x00ff00"
+                  "value": 65280
                 },
                 "kind": "init"
               },
@@ -210,8 +203,7 @@
                   "type": "Literal",
                   "start": 550,
                   "end": 558,
-                  "value": 16776960,
-                  "raw": "0xffff00"
+                  "value": 16776960
                 },
                 "kind": "init"
               }
@@ -288,8 +280,7 @@
                   "type": "Literal",
                   "start": 731,
                   "end": 941,
-                  "value": "#1: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM] === true;",
-                  "raw": "'#1: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM] === true;'"
+                  "value": "#1: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM] === true;"
                 }
               ]
             }
@@ -361,8 +352,7 @@
                     "type": "Literal",
                     "start": 1197,
                     "end": 1447,
-                    "value": "#2: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM]; __color__map[YELLOW_STR] === undefined. Actual: ",
-                    "raw": "'#2: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM]; __color__map[YELLOW_STR] === undefined. Actual: '"
+                    "value": "#2: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM]; __color__map[YELLOW_STR] === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -463,8 +453,7 @@
                     "type": "Literal",
                     "start": 1734,
                     "end": 1951,
-                    "value": "#3: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR] === true. Actual: ",
-                    "raw": "'#3: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR] === true. Actual: '"
+                    "value": "#3: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR] === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -564,8 +553,7 @@
                     "type": "Literal",
                     "start": 2241,
                     "end": 2487,
-                    "value": "#4: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR]; __color__map[BLUE_NUM] === undefined. Actual: ",
-                    "raw": "'#4: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR]; __color__map[BLUE_NUM] === undefined. Actual: '"
+                    "value": "#4: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR]; __color__map[BLUE_NUM] === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

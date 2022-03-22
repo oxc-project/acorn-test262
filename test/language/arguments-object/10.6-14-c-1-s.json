@@ -175,8 +175,7 @@
                   "type": "Literal",
                   "start": 474,
                   "end": 482,
-                  "value": "callee",
-                  "raw": "\"callee\""
+                  "value": "callee"
                 }
               }
             },
@@ -261,8 +260,7 @@
             "type": "Literal",
             "start": 594,
             "end": 612,
-            "value": "verifyEnumerable",
-            "raw": "'verifyEnumerable'"
+            "value": "verifyEnumerable"
           }
         ],
         "optional": false
@@ -311,8 +309,7 @@
                 "type": "Literal",
                 "start": 644,
                 "end": 652,
-                "value": "callee",
-                "raw": "\"callee\""
+                "value": "callee"
               }
             ],
             "optional": false
@@ -321,8 +318,7 @@
             "type": "Literal",
             "start": 655,
             "end": 697,
-            "value": "argObj.hasOwnProperty(\"callee\") !== true",
-            "raw": "'argObj.hasOwnProperty(\"callee\") !== true'"
+            "value": "argObj.hasOwnProperty(\"callee\") !== true"
           }
         ],
         "optional": false

@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 416,
                             "end": 429,
-                            "value": "reduceRight",
-                            "raw": "\"reduceRight\""
+                            "value": "reduceRight"
                           }
                         ],
                         "optional": false

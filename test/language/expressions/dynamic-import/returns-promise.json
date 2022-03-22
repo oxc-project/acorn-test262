@@ -85,8 +85,7 @@
                   "type": "Literal",
                   "start": 1014,
                   "end": 1041,
-                  "value": "This should not be called",
-                  "raw": "\"This should not be called\""
+                  "value": "This should not be called"
                 }
               }
             ]
@@ -117,8 +116,7 @@
               "type": "Literal",
               "start": 1064,
               "end": 1100,
-              "value": "./dynamic-import-module_FIXTURE.js",
-              "raw": "'./dynamic-import-module_FIXTURE.js'"
+              "value": "./dynamic-import-module_FIXTURE.js"
             }
           }
         }
@@ -182,8 +180,7 @@
             "type": "Literal",
             "start": 1153,
             "end": 1179,
-            "value": "constructor is %Promise%",
-            "raw": "'constructor is %Promise%'"
+            "value": "constructor is %Promise%"
           }
         ],
         "optional": false
@@ -273,8 +270,7 @@
             "type": "Literal",
             "start": 1252,
             "end": 1285,
-            "value": "prototype is %PromisePrototype%",
-            "raw": "'prototype is %PromisePrototype%'"
+            "value": "prototype is %PromisePrototype%"
           }
         ],
         "optional": false
@@ -363,8 +359,7 @@
             "type": "Literal",
             "start": 1345,
             "end": 1383,
-            "value": "preserves the original `then` method",
-            "raw": "'preserves the original `then` method'"
+            "value": "preserves the original `then` method"
           }
         ],
         "optional": false
@@ -453,8 +448,7 @@
             "type": "Literal",
             "start": 1445,
             "end": 1484,
-            "value": "preserves the original `catch` method",
-            "raw": "'preserves the original `catch` method'"
+            "value": "preserves the original `catch` method"
           }
         ],
         "optional": false
@@ -543,8 +537,7 @@
             "type": "Literal",
             "start": 1550,
             "end": 1591,
-            "value": "preserves the original `finally` method",
-            "raw": "'preserves the original `finally` method'"
+            "value": "preserves the original `finally` method"
           }
         ],
         "optional": false
@@ -638,8 +631,7 @@
                 "type": "Literal",
                 "start": 1657,
                 "end": 1663,
-                "value": "then",
-                "raw": "'then'"
+                "value": "then"
               }
             ],
             "optional": false
@@ -655,8 +647,7 @@
             "type": "Literal",
             "start": 1677,
             "end": 1720,
-            "value": "returned promise has no own property then",
-            "raw": "'returned promise has no own property then'"
+            "value": "returned promise has no own property then"
           }
         ],
         "optional": false
@@ -750,8 +741,7 @@
                 "type": "Literal",
                 "start": 1787,
                 "end": 1794,
-                "value": "catch",
-                "raw": "'catch'"
+                "value": "catch"
               }
             ],
             "optional": false
@@ -767,8 +757,7 @@
             "type": "Literal",
             "start": 1808,
             "end": 1852,
-            "value": "returned promise has no own property catch",
-            "raw": "'returned promise has no own property catch'"
+            "value": "returned promise has no own property catch"
           }
         ],
         "optional": false
@@ -862,8 +851,7 @@
                 "type": "Literal",
                 "start": 1919,
                 "end": 1928,
-                "value": "finally",
-                "raw": "'finally'"
+                "value": "finally"
               }
             ],
             "optional": false
@@ -879,8 +867,7 @@
             "type": "Literal",
             "start": 1942,
             "end": 1988,
-            "value": "returned promise has no own property finally",
-            "raw": "'returned promise has no own property finally'"
+            "value": "returned promise has no own property finally"
           }
         ],
         "optional": false

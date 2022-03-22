@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 1154,
                 "end": 1155,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -53,16 +52,14 @@
                   "type": "Literal",
                   "start": 1165,
                   "end": 1318,
-                  "value": "assert.sameValue(    f, undefined, \"Initialized binding created prior to evaluation\"  );    try {    throw null;  } catch (f) {switch (1) {",
-                  "raw": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {switch (1) {'"
+                  "value": "assert.sameValue(    f, undefined, \"Initialized binding created prior to evaluation\"  );    try {    throw null;  } catch (f) {switch (1) {"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1323,
                   "end": 1335,
-                  "value": "  default:",
-                  "raw": "'  default:'"
+                  "value": "  default:"
                 }
               },
               "operator": "+",
@@ -70,8 +67,7 @@
                 "type": "Literal",
                 "start": 1340,
                 "end": 1374,
-                "value": "    function f() { return 123; }",
-                "raw": "'    function f() { return 123; }'"
+                "value": "    function f() { return 123; }"
               }
             },
             "operator": "+",
@@ -79,8 +75,7 @@
               "type": "Literal",
               "start": 1379,
               "end": 1534,
-              "value": "}  }    assert.sameValue(    typeof f,    \"function\",    \"binding value is updated following evaluation\"  );  assert.sameValue(f(), 123);",
-              "raw": "'}\\\n  }\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'"
+              "value": "}  }    assert.sameValue(    typeof f,    \"function\",    \"binding value is updated following evaluation\"  );  assert.sameValue(f(), 123);"
             }
           }
         ],

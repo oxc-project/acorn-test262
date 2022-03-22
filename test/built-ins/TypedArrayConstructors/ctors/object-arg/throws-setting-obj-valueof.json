@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 2743,
                             "end": 2744,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 2763,
                         "end": 2764,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -258,8 +256,7 @@
                                         "type": "Literal",
                                         "start": 2905,
                                         "end": 2906,
-                                        "value": 8,
-                                        "raw": "8"
+                                        "value": 8
                                       },
                                       {
                                         "type": "Identifier",
@@ -279,8 +276,7 @@
                         "type": "Literal",
                         "start": 2923,
                         "end": 2964,
-                        "value": "abrupt completion from ToNumber(sample)",
-                        "raw": "\"abrupt completion from ToNumber(sample)\""
+                        "value": "abrupt completion from ToNumber(sample)"
                       }
                     ],
                     "optional": false
@@ -324,15 +320,13 @@
                         "type": "Literal",
                         "start": 2996,
                         "end": 2997,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 2999,
                         "end": 3020,
-                        "value": "valueOf called once",
-                        "raw": "\"valueOf called once\""
+                        "value": "valueOf called once"
                       }
                     ],
                     "optional": false

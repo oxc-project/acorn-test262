@@ -51,15 +51,13 @@
                     "type": "Literal",
                     "start": 324,
                     "end": 325,
-                    "value": 5,
-                    "raw": "5"
+                    "value": 5
                   },
                   {
                     "type": "Literal",
                     "start": 327,
                     "end": 328,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -67,8 +65,7 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 340,
-                "value": "05-02",
-                "raw": "\"05-02\""
+                "value": "05-02"
               }
             ]
           }
@@ -205,8 +202,7 @@
                                   "type": "Literal",
                                   "start": 445,
                                   "end": 456,
-                                  "value": "constrain",
-                                  "raw": "\"constrain\""
+                                  "value": "constrain"
                                 },
                                 "kind": "init"
                               }
@@ -257,22 +253,19 @@
                         "type": "Literal",
                         "start": 510,
                         "end": 515,
-                        "value": "M05",
-                        "raw": "\"M05\""
+                        "value": "M05"
                       },
                       {
                         "type": "Literal",
                         "start": 517,
                         "end": 518,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 520,
                         "end": 552,
-                        "value": "overflow is ignored: constrain",
-                        "raw": "\"overflow is ignored: constrain\""
+                        "value": "overflow is ignored: constrain"
                       }
                     ],
                     "optional": false
@@ -358,8 +351,7 @@
                                   "type": "Literal",
                                   "start": 620,
                                   "end": 628,
-                                  "value": "reject",
-                                  "raw": "\"reject\""
+                                  "value": "reject"
                                 },
                                 "kind": "init"
                               }
@@ -410,22 +402,19 @@
                         "type": "Literal",
                         "start": 679,
                         "end": 684,
-                        "value": "M05",
-                        "raw": "\"M05\""
+                        "value": "M05"
                       },
                       {
                         "type": "Literal",
                         "start": 686,
                         "end": 687,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 689,
                         "end": 718,
-                        "value": "overflow is ignored: reject",
-                        "raw": "\"overflow is ignored: reject\""
+                        "value": "overflow is ignored: reject"
                       }
                     ],
                     "optional": false
@@ -475,8 +464,7 @@
                   "type": "Literal",
                   "start": 755,
                   "end": 759,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 "kind": "init"
               },
@@ -497,8 +485,7 @@
                   "type": "Literal",
                   "start": 768,
                   "end": 770,
-                  "value": 13,
-                  "raw": "13"
+                  "value": 13
                 },
                 "kind": "init"
               },
@@ -519,8 +506,7 @@
                   "type": "Literal",
                   "start": 777,
                   "end": 779,
-                  "value": 34,
-                  "raw": "34"
+                  "value": 34
                 },
                 "kind": "init"
               }
@@ -610,8 +596,7 @@
                       "type": "Literal",
                       "start": 853,
                       "end": 864,
-                      "value": "constrain",
-                      "raw": "\"constrain\""
+                      "value": "constrain"
                     },
                     "kind": "init"
                   }
@@ -662,22 +647,19 @@
             "type": "Literal",
             "start": 914,
             "end": 919,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 921,
             "end": 923,
-            "value": 31,
-            "raw": "31"
+            "value": 31
           },
           {
             "type": "Literal",
             "start": 925,
             "end": 956,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false
@@ -791,8 +773,7 @@
                         "type": "Literal",
                         "start": 1045,
                         "end": 1053,
-                        "value": "reject",
-                        "raw": "\"reject\""
+                        "value": "reject"
                       },
                       "kind": "init"
                     }
@@ -806,8 +787,7 @@
             "type": "Literal",
             "start": 1060,
             "end": 1090,
-            "value": "invalid property bag: reject",
-            "raw": "\"invalid property bag: reject\""
+            "value": "invalid property bag: reject"
           }
         ],
         "optional": false
@@ -850,8 +830,7 @@
                   "type": "Literal",
                   "start": 1124,
                   "end": 1125,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -872,8 +851,7 @@
                   "type": "Literal",
                   "start": 1132,
                   "end": 1134,
-                  "value": 32,
-                  "raw": "32"
+                  "value": 32
                 },
                 "kind": "init"
               }
@@ -963,8 +941,7 @@
                       "type": "Literal",
                       "start": 1208,
                       "end": 1219,
-                      "value": "constrain",
-                      "raw": "\"constrain\""
+                      "value": "constrain"
                     },
                     "kind": "init"
                   }
@@ -1015,22 +992,19 @@
             "type": "Literal",
             "start": 1269,
             "end": 1274,
-            "value": "M01",
-            "raw": "\"M01\""
+            "value": "M01"
           },
           {
             "type": "Literal",
             "start": 1276,
             "end": 1278,
-            "value": 31,
-            "raw": "31"
+            "value": 31
           },
           {
             "type": "Literal",
             "start": 1280,
             "end": 1311,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false
@@ -1144,8 +1118,7 @@
                         "type": "Literal",
                         "start": 1400,
                         "end": 1408,
-                        "value": "reject",
-                        "raw": "\"reject\""
+                        "value": "reject"
                       },
                       "kind": "init"
                     }
@@ -1159,8 +1132,7 @@
             "type": "Literal",
             "start": 1415,
             "end": 1445,
-            "value": "invalid property bag: reject",
-            "raw": "\"invalid property bag: reject\""
+            "value": "invalid property bag: reject"
           }
         ],
         "optional": false
@@ -1250,8 +1222,7 @@
                   "type": "Literal",
                   "start": 1509,
                   "end": 1516,
-                  "value": "13-34",
-                  "raw": "\"13-34\""
+                  "value": "13-34"
                 },
                 {
                   "type": "ObjectExpression",
@@ -1275,8 +1246,7 @@
                         "type": "Literal",
                         "start": 1530,
                         "end": 1541,
-                        "value": "constrain",
-                        "raw": "\"constrain\""
+                        "value": "constrain"
                       },
                       "kind": "init"
                     }
@@ -1290,8 +1260,7 @@
             "type": "Literal",
             "start": 1548,
             "end": 1579,
-            "value": "invalid ISO string: constrain",
-            "raw": "\"invalid ISO string: constrain\""
+            "value": "invalid ISO string: constrain"
           }
         ],
         "optional": false
@@ -1381,8 +1350,7 @@
                   "type": "Literal",
                   "start": 1642,
                   "end": 1649,
-                  "value": "13-34",
-                  "raw": "\"13-34\""
+                  "value": "13-34"
                 },
                 {
                   "type": "ObjectExpression",
@@ -1406,8 +1374,7 @@
                         "type": "Literal",
                         "start": 1663,
                         "end": 1671,
-                        "value": "reject",
-                        "raw": "\"reject\""
+                        "value": "reject"
                       },
                       "kind": "init"
                     }
@@ -1421,8 +1388,7 @@
             "type": "Literal",
             "start": 1678,
             "end": 1706,
-            "value": "invalid ISO string: reject",
-            "raw": "\"invalid ISO string: reject\""
+            "value": "invalid ISO string: reject"
           }
         ],
         "optional": false

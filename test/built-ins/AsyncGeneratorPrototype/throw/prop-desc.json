@@ -114,8 +114,7 @@
             "type": "Literal",
             "start": 548,
             "end": 555,
-            "value": "throw",
-            "raw": "\"throw\""
+            "value": "throw"
           },
           {
             "type": "ObjectExpression",

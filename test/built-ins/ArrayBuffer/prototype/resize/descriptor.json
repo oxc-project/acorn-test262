@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 680,
             "end": 688,
-            "value": "resize",
-            "raw": "'resize'"
+            "value": "resize"
           },
           {
             "type": "ObjectExpression",

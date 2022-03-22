@@ -74,15 +74,13 @@
                                 "type": "Literal",
                                 "start": 837,
                                 "end": 839,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 841,
                                 "end": 843,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -154,8 +152,7 @@
                             "type": "Literal",
                             "start": 887,
                             "end": 888,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -171,8 +168,7 @@
                         "type": "Literal",
                         "start": 897,
                         "end": 950,
-                        "value": "Reflect.has(\"new TA([42, 43])\", 0) must return true",
-                        "raw": "'Reflect.has(\"new TA([42, 43])\", 0) must return true'"
+                        "value": "Reflect.has(\"new TA([42, 43])\", 0) must return true"
                       }
                     ],
                     "optional": false
@@ -240,8 +236,7 @@
                             "type": "Literal",
                             "start": 992,
                             "end": 993,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -257,8 +252,7 @@
                         "type": "Literal",
                         "start": 1002,
                         "end": 1055,
-                        "value": "Reflect.has(\"new TA([42, 43])\", 1) must return true",
-                        "raw": "'Reflect.has(\"new TA([42, 43])\", 1) must return true'"
+                        "value": "Reflect.has(\"new TA([42, 43])\", 1) must return true"
                       }
                     ],
                     "optional": false

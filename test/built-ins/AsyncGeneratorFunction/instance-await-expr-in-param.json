@@ -97,8 +97,7 @@
             "type": "Literal",
             "start": 786,
             "end": 800,
-            "value": "x = await 42",
-            "raw": "'x = await 42'"
+            "value": "x = await 42"
           }
         ],
         "optional": false
@@ -171,15 +170,13 @@
                         "type": "Literal",
                         "start": 869,
                         "end": 883,
-                        "value": "x = await 42",
-                        "raw": "'x = await 42'"
+                        "value": "x = await 42"
                       },
                       {
                         "type": "Literal",
                         "start": 885,
                         "end": 887,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -192,8 +189,7 @@
             "type": "Literal",
             "start": 893,
             "end": 938,
-            "value": "AwaitExpression not permitted in parameters",
-            "raw": "'AwaitExpression not permitted in parameters'"
+            "value": "AwaitExpression not permitted in parameters"
           }
         ],
         "optional": false
@@ -247,15 +243,13 @@
                         "type": "Literal",
                         "start": 1014,
                         "end": 1028,
-                        "value": "x = await 42",
-                        "raw": "'x = await 42'"
+                        "value": "x = await 42"
                       },
                       {
                         "type": "Literal",
                         "start": 1030,
                         "end": 1032,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -364,8 +358,7 @@
                             "type": "Literal",
                             "start": 1116,
                             "end": 1189,
-                            "value": "AwaitExpression not permitted when calling context is a async generator",
-                            "raw": "\"AwaitExpression not permitted when calling context is a async generator\""
+                            "value": "AwaitExpression not permitted when calling context is a async generator"
                           }
                         ]
                       }
@@ -456,8 +449,7 @@
                                     "type": "Literal",
                                     "start": 1277,
                                     "end": 1308,
-                                    "value": "Expected SyntaxError but got ",
-                                    "raw": "\"Expected SyntaxError but got \""
+                                    "value": "Expected SyntaxError but got "
                                   },
                                   "operator": "+",
                                   "right": {

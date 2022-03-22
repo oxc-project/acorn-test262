@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 874,
             "end": 882,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 884,
             "end": 927,
-            "value": "The value of `typeof Atomics` is \"object\"",
-            "raw": "'The value of `typeof Atomics` is \"object\"'"
+            "value": "The value of `typeof Atomics` is \"object\""
           }
         ],
         "optional": false
@@ -135,8 +133,7 @@
             "type": "Literal",
             "start": 985,
             "end": 1015,
-            "value": "`Atomics()` throws TypeError",
-            "raw": "'`Atomics()` throws TypeError'"
+            "value": "`Atomics()` throws TypeError"
           }
         ],
         "optional": false
@@ -214,8 +211,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1111,
-            "value": "`new Atomics()` throws TypeError",
-            "raw": "'`new Atomics()` throws TypeError'"
+            "value": "`new Atomics()` throws TypeError"
           }
         ],
         "optional": false
@@ -245,8 +241,7 @@
             "type": "Literal",
             "start": 1136,
             "end": 1145,
-            "value": "Atomics",
-            "raw": "\"Atomics\""
+            "value": "Atomics"
           },
           {
             "type": "ObjectExpression",

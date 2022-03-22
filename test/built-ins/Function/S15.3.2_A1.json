@@ -91,8 +91,7 @@
             "type": "Literal",
             "start": 453,
             "end": 524,
-            "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "value": "The value of f.constructor is expected to equal the value of Function"
           }
         ],
         "optional": false
@@ -142,8 +141,7 @@
             "type": "Literal",
             "start": 561,
             "end": 616,
-            "value": "The value of f is expected to not equal ``undefined``",
-            "raw": "'The value of f is expected to not equal ``undefined``'"
+            "value": "The value of f is expected to not equal ``undefined``"
           }
         ],
         "optional": false

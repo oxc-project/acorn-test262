@@ -72,8 +72,7 @@
             "type": "Literal",
             "start": 573,
             "end": 574,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -185,8 +184,7 @@
                     "type": "Literal",
                     "start": 648,
                     "end": 649,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -291,8 +289,7 @@
                 "type": "Literal",
                 "start": 730,
                 "end": 733,
-                "value": "O",
-                "raw": "'O'"
+                "value": "O"
               },
               "property": {
                 "type": "Identifier",
@@ -361,15 +358,13 @@
             "type": "Literal",
             "start": 790,
             "end": 791,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 793,
             "end": 826,
-            "value": "Invokes the method exactly once",
-            "raw": "'Invokes the method exactly once'"
+            "value": "Invokes the method exactly once"
           }
         ],
         "optional": false
@@ -514,8 +509,7 @@
             "type": "Literal",
             "start": 932,
             "end": 933,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -563,8 +557,7 @@
               "type": "Literal",
               "start": 958,
               "end": 959,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -573,8 +566,7 @@
             "type": "Literal",
             "start": 962,
             "end": 965,
-            "value": "O",
-            "raw": "'O'"
+            "value": "O"
           }
         ],
         "optional": false

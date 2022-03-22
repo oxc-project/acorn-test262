@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1063,
             "end": 1166,
-            "value": "assert.sameValue(f, undefined);    {    function f() {}  }if (false) ; else function f() {  }",
-            "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }if (false) ; else function f() {  }'"
+            "value": "assert.sameValue(f, undefined);    {    function f() {}  }if (false) ; else function f() {  }"
           }
         ],
         "optional": false

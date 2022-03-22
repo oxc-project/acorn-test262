@@ -31,8 +31,7 @@
               "type": "Literal",
               "start": 357,
               "end": 358,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         },
@@ -69,8 +68,7 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 425,
-                  "value": "#1: (true != 1) === false",
-                  "raw": "'#1: (true != 1) === false'"
+                  "value": "#1: (true != 1) === false"
                 }
               ]
             }
@@ -107,8 +105,7 @@
               "type": "Literal",
               "start": 455,
               "end": 458,
-              "value": "0",
-              "raw": "\"0\""
+              "value": "0"
             }
           }
         },
@@ -145,8 +142,7 @@
                   "type": "Literal",
                   "start": 498,
                   "end": 528,
-                  "value": "#2: (false != \"0\") === false",
-                  "raw": "'#2: (false != \"0\") === false'"
+                  "value": "#2: (false != \"0\") === false"
                 }
               ]
             }
@@ -234,8 +230,7 @@
                   "type": "Literal",
                   "start": 614,
                   "end": 657,
-                  "value": "#3: (true != new Boolean(true)) === false",
-                  "raw": "'#3: (true != new Boolean(true)) === false'"
+                  "value": "#3: (true != new Boolean(true)) === false"
                 }
               ]
             }
@@ -308,8 +303,7 @@
                             "type": "Literal",
                             "start": 716,
                             "end": 717,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       ]
@@ -354,8 +348,7 @@
                   "type": "Literal",
                   "start": 759,
                   "end": 818,
-                  "value": "#4: (true != {valueOf: function () {return 1}}) === false",
-                  "raw": "'#4: (true != {valueOf: function () {return 1}}) === false'"
+                  "value": "#4: (true != {valueOf: function () {return 1}}) === false"
                 }
               ]
             }

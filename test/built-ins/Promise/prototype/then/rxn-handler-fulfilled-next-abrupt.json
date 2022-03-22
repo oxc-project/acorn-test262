@@ -96,8 +96,7 @@
             "type": "Literal",
             "start": 694,
             "end": 695,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -122,8 +121,7 @@
             "type": "Literal",
             "start": 721,
             "end": 722,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -190,8 +188,7 @@
                       "type": "Literal",
                       "start": 775,
                       "end": 776,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -248,8 +245,7 @@
                       "type": "Literal",
                       "start": 838,
                       "end": 839,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -321,8 +317,7 @@
                       "type": "Literal",
                       "start": 901,
                       "end": 902,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "consequent": {
@@ -349,8 +344,7 @@
                               "type": "Literal",
                               "start": 916,
                               "end": 976,
-                              "value": "Expected \"onFulfilled\" handler to be invoked exactly once.",
-                              "raw": "'Expected \"onFulfilled\" handler to be invoked exactly once.'"
+                              "value": "Expected \"onFulfilled\" handler to be invoked exactly once."
                             }
                           ],
                           "optional": false
@@ -385,8 +379,7 @@
                       "type": "Literal",
                       "start": 1024,
                       "end": 1025,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   },
                   "consequent": {
@@ -413,8 +406,7 @@
                               "type": "Literal",
                               "start": 1039,
                               "end": 1089,
-                              "value": "Expected \"onRejected\" handler to not be invoked.",
-                              "raw": "'Expected \"onRejected\" handler to not be invoked.'"
+                              "value": "Expected \"onRejected\" handler to not be invoked."
                             }
                           ],
                           "optional": false
@@ -484,8 +476,7 @@
                         "type": "Literal",
                         "start": 1144,
                         "end": 1182,
-                        "value": "This promise should not be rejected.",
-                        "raw": "'This promise should not be rejected.'"
+                        "value": "This promise should not be rejected."
                       }
                     ],
                     "optional": false

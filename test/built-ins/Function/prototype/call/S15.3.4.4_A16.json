@@ -27,7 +27,6 @@
               "start": 429,
               "end": 432,
               "value": {},
-              "raw": "/x/",
               "regex": {
                 "pattern": "x",
                 "flags": ""
@@ -64,8 +63,7 @@
           "type": "Literal",
           "start": 453,
           "end": 463,
-          "value": "function",
-          "raw": "'function'"
+          "value": "function"
         }
       },
       "consequent": {
@@ -143,8 +141,7 @@
                   "type": "Literal",
                   "start": 513,
                   "end": 516,
-                  "value": "x",
-                  "raw": "'x'"
+                  "value": "x"
                 }
               ],
               "optional": false
@@ -259,16 +256,14 @@
                           "type": "Literal",
                           "start": 612,
                           "end": 648,
-                          "value": "#1: If IsCallable(func) is false, ",
-                          "raw": "'#1: If IsCallable(func) is false, '"
+                          "value": "#1: If IsCallable(func) is false, "
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
                           "start": 657,
                           "end": 705,
-                          "value": "then (bind should) throw a TypeError exception",
-                          "raw": "'then (bind should) throw a TypeError exception'"
+                          "value": "then (bind should) throw a TypeError exception"
                         }
                       }
                     ]
@@ -328,8 +323,7 @@
                           "type": "Literal",
                           "start": 759,
                           "end": 833,
-                          "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                          "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                          "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                         }
                       ],
                       "optional": false

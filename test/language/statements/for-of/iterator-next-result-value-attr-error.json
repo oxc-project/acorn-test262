@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 554,
             "end": 555,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -73,8 +72,7 @@
             "type": "Literal",
             "start": 575,
             "end": 576,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -305,8 +303,7 @@
                                   "type": "Literal",
                                   "start": 820,
                                   "end": 821,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             },
@@ -437,8 +434,7 @@
                             "type": "Literal",
                             "start": 946,
                             "end": 947,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -490,15 +486,13 @@
             "type": "Literal",
             "start": 991,
             "end": 992,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 994,
             "end": 1026,
-            "value": "The loop body is not evaluated",
-            "raw": "'The loop body is not evaluated'"
+            "value": "The loop body is not evaluated"
           }
         ],
         "optional": false
@@ -542,15 +536,13 @@
             "type": "Literal",
             "start": 1059,
             "end": 1060,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1062,
             "end": 1087,
-            "value": "Iterator is not closed.",
-            "raw": "'Iterator is not closed.'"
+            "value": "Iterator is not closed."
           }
         ],
         "optional": false

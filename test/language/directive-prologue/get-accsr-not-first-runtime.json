@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 435,
             "end": 448,
-            "value": "accProperty",
-            "raw": "\"accProperty\""
+            "value": "accProperty"
           },
           {
             "type": "ObjectExpression",
@@ -133,8 +132,7 @@
                           "type": "Literal",
                           "start": 543,
                           "end": 555,
-                          "value": "use strict",
-                          "raw": "\"use strict\""
+                          "value": "use strict"
                         }
                       },
                       {
@@ -145,8 +143,7 @@
                           "type": "Literal",
                           "start": 580,
                           "end": 582,
-                          "value": 11,
-                          "raw": "11"
+                          "value": 11
                         }
                       }
                     ]
@@ -211,15 +208,13 @@
             "type": "Literal",
             "start": 645,
             "end": 647,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 666,
-            "value": "obj.accProperty",
-            "raw": "'obj.accProperty'"
+            "value": "obj.accProperty"
           }
         ],
         "optional": false

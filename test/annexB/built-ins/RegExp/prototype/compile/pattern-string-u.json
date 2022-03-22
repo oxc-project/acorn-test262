@@ -23,7 +23,6 @@
             "start": 1043,
             "end": 1061,
             "value": {},
-            "raw": "/original value/ig",
             "regex": {
               "pattern": "original value",
               "flags": "ig"
@@ -65,15 +64,13 @@
             "type": "Literal",
             "start": 1080,
             "end": 1096,
-            "value": "[𝌆]",
-            "raw": "'[\\ud834\\udf06]'"
+            "value": "[𝌆]"
           },
           {
             "type": "Literal",
             "start": 1098,
             "end": 1101,
-            "value": "u",
-            "raw": "'u'"
+            "value": "u"
           }
         ],
         "optional": false
@@ -145,15 +142,13 @@
                   "type": "Literal",
                   "start": 1154,
                   "end": 1170,
-                  "value": "[𝌆]",
-                  "raw": "'[\\ud834\\udf06]'"
+                  "value": "[𝌆]"
                 },
                 {
                   "type": "Literal",
                   "start": 1172,
                   "end": 1175,
-                  "value": "u",
-                  "raw": "'u'"
+                  "value": "u"
                 }
               ]
             },
@@ -170,8 +165,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1221,
-            "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "value": "[[OriginalSource]] internal slot"
           }
         ],
         "optional": false
@@ -233,8 +227,7 @@
                 "type": "Literal",
                 "start": 1258,
                 "end": 1274,
-                "value": "original value",
-                "raw": "'original value'"
+                "value": "original value"
               }
             ],
             "optional": false
@@ -250,8 +243,7 @@
             "type": "Literal",
             "start": 1288,
             "end": 1330,
-            "value": "[[RegExpMatcher]] internal slot (source)",
-            "raw": "'[[RegExpMatcher]] internal slot (source)'"
+            "value": "[[RegExpMatcher]] internal slot (source)"
           }
         ],
         "optional": false
@@ -313,8 +305,7 @@
                 "type": "Literal",
                 "start": 1367,
                 "end": 1375,
-                "value": "\ud834",
-                "raw": "'\\ud834'"
+                "value": "\ud834"
               }
             ],
             "optional": false
@@ -330,8 +321,7 @@
             "type": "Literal",
             "start": 1385,
             "end": 1429,
-            "value": "[[RegExpMatcher]] internal slot (flags #1)",
-            "raw": "'[[RegExpMatcher]] internal slot (flags #1)'"
+            "value": "[[RegExpMatcher]] internal slot (flags #1)"
           }
         ],
         "optional": false
@@ -393,8 +383,7 @@
                 "type": "Literal",
                 "start": 1466,
                 "end": 1474,
-                "value": "\udf06",
-                "raw": "'\\udf06'"
+                "value": "\udf06"
               }
             ],
             "optional": false
@@ -410,8 +399,7 @@
             "type": "Literal",
             "start": 1484,
             "end": 1528,
-            "value": "[[RegExpMatcher]] internal slot (flags #2)",
-            "raw": "'[[RegExpMatcher]] internal slot (flags #2)'"
+            "value": "[[RegExpMatcher]] internal slot (flags #2)"
           }
         ],
         "optional": false
@@ -473,8 +461,7 @@
                 "type": "Literal",
                 "start": 1565,
                 "end": 1579,
-                "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "value": "𝌆"
               }
             ],
             "optional": false
@@ -490,8 +477,7 @@
             "type": "Literal",
             "start": 1592,
             "end": 1636,
-            "value": "[[RegExpMatcher]] internal slot (flags #3)",
-            "raw": "'[[RegExpMatcher]] internal slot (flags #3)'"
+            "value": "[[RegExpMatcher]] internal slot (flags #3)"
           }
         ],
         "optional": false

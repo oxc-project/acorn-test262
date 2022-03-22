@@ -157,8 +157,7 @@
                         "type": "Literal",
                         "start": 619,
                         "end": 621,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -175,7 +174,6 @@
                         "start": 631,
                         "end": 635,
                         "value": {},
-                        "raw": "/./g",
                         "regex": {
                           "pattern": ".",
                           "flags": "g"

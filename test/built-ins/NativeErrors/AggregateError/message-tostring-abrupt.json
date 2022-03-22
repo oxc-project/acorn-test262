@@ -121,8 +121,7 @@
                           "type": "Literal",
                           "start": 574,
                           "end": 591,
-                          "value": "toString called",
-                          "raw": "'toString called'"
+                          "value": "toString called"
                         }
                       }
                     ]
@@ -165,8 +164,7 @@
                           "type": "Literal",
                           "start": 622,
                           "end": 638,
-                          "value": "valueOf called",
-                          "raw": "'valueOf called'"
+                          "value": "valueOf called"
                         }
                       }
                     ]
@@ -264,8 +262,7 @@
             "type": "Literal",
             "start": 720,
             "end": 733,
-            "value": "toPrimitive",
-            "raw": "'toPrimitive'"
+            "value": "toPrimitive"
           }
         ],
         "optional": false
@@ -410,8 +407,7 @@
                           "type": "Literal",
                           "start": 860,
                           "end": 876,
-                          "value": "valueOf called",
-                          "raw": "'valueOf called'"
+                          "value": "valueOf called"
                         }
                       }
                     ]
@@ -509,8 +505,7 @@
             "type": "Literal",
             "start": 958,
             "end": 968,
-            "value": "toString",
-            "raw": "'toString'"
+            "value": "toString"
           }
         ],
         "optional": false
@@ -731,8 +726,7 @@
             "type": "Literal",
             "start": 1168,
             "end": 1177,
-            "value": "valueOf",
-            "raw": "'valueOf'"
+            "value": "valueOf"
           }
         ],
         "optional": false

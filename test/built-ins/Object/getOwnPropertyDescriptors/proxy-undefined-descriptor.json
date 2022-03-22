@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 367,
             "end": 370,
-            "value": "a",
-            "raw": "\"a\""
+            "value": "a"
           }
         }
       ],
@@ -315,8 +314,7 @@
             "type": "Literal",
             "start": 645,
             "end": 678,
-            "value": "Object.keys returns a new Array",
-            "raw": "'Object.keys returns a new Array'"
+            "value": "Object.keys returns a new Array"
           }
         ],
         "optional": false
@@ -394,8 +392,7 @@
             "type": "Literal",
             "start": 725,
             "end": 755,
-            "value": "Object.keys returns an Array",
-            "raw": "'Object.keys returns an Array'"
+            "value": "Object.keys returns an Array"
           }
         ],
         "optional": false
@@ -471,8 +468,7 @@
             "type": "Literal",
             "start": 804,
             "end": 843,
-            "value": "keys and ownKeys have the same length",
-            "raw": "'keys and ownKeys have the same length'"
+            "value": "keys and ownKeys have the same length"
           }
         ],
         "optional": false
@@ -520,8 +516,7 @@
               "type": "Literal",
               "start": 868,
               "end": 869,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -540,8 +535,7 @@
               "type": "Literal",
               "start": 880,
               "end": 881,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -550,8 +544,7 @@
             "type": "Literal",
             "start": 884,
             "end": 925,
-            "value": "keys and ownKeys have the same contents",
-            "raw": "'keys and ownKeys have the same contents'"
+            "value": "keys and ownKeys have the same contents"
           }
         ],
         "optional": false
@@ -659,8 +652,7 @@
             "type": "Literal",
             "start": 1031,
             "end": 1095,
-            "value": "Descriptor matches result of [[GetOwnPropertyDescriptor]] trap",
-            "raw": "\"Descriptor matches result of [[GetOwnPropertyDescriptor]] trap\""
+            "value": "Descriptor matches result of [[GetOwnPropertyDescriptor]] trap"
           }
         ],
         "optional": false
@@ -775,8 +767,7 @@
             "type": "Literal",
             "start": 1192,
             "end": 1222,
-            "value": "key is not present in result",
-            "raw": "\"key is not present in result\""
+            "value": "key is not present in result"
           }
         ],
         "optional": false

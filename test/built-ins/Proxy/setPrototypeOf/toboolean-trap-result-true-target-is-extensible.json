@@ -106,8 +106,7 @@
                                 "type": "Literal",
                                 "start": 738,
                                 "end": 739,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           },
@@ -174,8 +173,7 @@
                                   "type": "Literal",
                                   "start": 821,
                                   "end": 862,
-                                  "value": "target.[[GetPrototypeOf]] is not called",
-                                  "raw": "\"target.[[GetPrototypeOf]] is not called\""
+                                  "value": "target.[[GetPrototypeOf]] is not called"
                                 }
                               ]
                             }
@@ -346,8 +344,7 @@
           "type": "Literal",
           "start": 987,
           "end": 988,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -475,8 +472,7 @@
             "type": "Literal",
             "start": 1075,
             "end": 1081,
-            "value": "true",
-            "raw": "\"true\""
+            "value": "true"
           }
         ],
         "optional": false
@@ -520,15 +516,13 @@
             "type": "Literal",
             "start": 1109,
             "end": 1110,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1112,
             "end": 1143,
-            "value": "true - isExtensible is called",
-            "raw": "\"true - isExtensible is called\""
+            "value": "true - isExtensible is called"
           }
         ],
         "optional": false
@@ -553,8 +547,7 @@
           "type": "Literal",
           "start": 1156,
           "end": 1157,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -625,8 +618,7 @@
                     "type": "Literal",
                     "start": 1204,
                     "end": 1211,
-                    "value": "false",
-                    "raw": "\"false\""
+                    "value": "false"
                   },
                   "kind": "init"
                 }
@@ -682,8 +674,7 @@
             "type": "Literal",
             "start": 1247,
             "end": 1255,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           }
         ],
         "optional": false
@@ -727,15 +718,13 @@
             "type": "Literal",
             "start": 1283,
             "end": 1284,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1286,
             "end": 1319,
-            "value": "string - isExtensible is called",
-            "raw": "\"string - isExtensible is called\""
+            "value": "string - isExtensible is called"
           }
         ],
         "optional": false
@@ -760,8 +749,7 @@
           "type": "Literal",
           "start": 1332,
           "end": 1333,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -832,8 +820,7 @@
                     "type": "Literal",
                     "start": 1380,
                     "end": 1382,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   },
                   "kind": "init"
                 }
@@ -889,8 +876,7 @@
             "type": "Literal",
             "start": 1418,
             "end": 1422,
-            "value": "42",
-            "raw": "\"42\""
+            "value": "42"
           }
         ],
         "optional": false
@@ -934,15 +920,13 @@
             "type": "Literal",
             "start": 1450,
             "end": 1451,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1453,
             "end": 1486,
-            "value": "number - isExtensible is called",
-            "raw": "\"number - isExtensible is called\""
+            "value": "number - isExtensible is called"
           }
         ],
         "optional": false
@@ -967,8 +951,7 @@
           "type": "Literal",
           "start": 1499,
           "end": 1500,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1095,8 +1078,7 @@
             "type": "Literal",
             "start": 1584,
             "end": 1587,
-            "value": "p",
-            "raw": "\"p\""
+            "value": "p"
           }
         ],
         "optional": false
@@ -1140,15 +1122,13 @@
             "type": "Literal",
             "start": 1615,
             "end": 1616,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1618,
             "end": 1651,
-            "value": "object - isExtensible is called",
-            "raw": "\"object - isExtensible is called\""
+            "value": "object - isExtensible is called"
           }
         ],
         "optional": false
@@ -1173,8 +1153,7 @@
           "type": "Literal",
           "start": 1664,
           "end": 1665,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1301,8 +1280,7 @@
             "type": "Literal",
             "start": 1750,
             "end": 1754,
-            "value": "[]",
-            "raw": "\"[]\""
+            "value": "[]"
           }
         ],
         "optional": false
@@ -1346,15 +1324,13 @@
             "type": "Literal",
             "start": 1782,
             "end": 1783,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1785,
             "end": 1814,
-            "value": "[] - isExtensible is called",
-            "raw": "\"[] - isExtensible is called\""
+            "value": "[] - isExtensible is called"
           }
         ],
         "optional": false
@@ -1379,8 +1355,7 @@
           "type": "Literal",
           "start": 1827,
           "end": 1828,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1462,8 +1437,7 @@
                         "type": "Literal",
                         "start": 1882,
                         "end": 1883,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -1522,8 +1496,7 @@
             "type": "Literal",
             "start": 1920,
             "end": 1928,
-            "value": "symbol",
-            "raw": "\"symbol\""
+            "value": "symbol"
           }
         ],
         "optional": false
@@ -1567,15 +1540,13 @@
             "type": "Literal",
             "start": 1956,
             "end": 1957,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1959,
             "end": 1992,
-            "value": "symbol - isExtensible is called",
-            "raw": "\"symbol - isExtensible is called\""
+            "value": "symbol - isExtensible is called"
           }
         ],
         "optional": false

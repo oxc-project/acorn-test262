@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 384,
             "end": 385,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         {
@@ -40,8 +39,7 @@
             "type": "Literal",
             "start": 388,
             "end": 389,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         },
         {
@@ -58,8 +56,7 @@
             "type": "Literal",
             "start": 392,
             "end": 393,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         }
       ],
@@ -147,8 +144,7 @@
               "type": "Literal",
               "start": 438,
               "end": 490,
-              "value": "#1: Automatic semicolon insertion not work with ++",
-              "raw": "'#1: Automatic semicolon insertion not work with ++'"
+              "value": "#1: Automatic semicolon insertion not work with ++"
             }
           ]
         }

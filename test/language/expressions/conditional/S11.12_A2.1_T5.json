@@ -103,8 +103,7 @@
                   "type": "Literal",
                   "start": 363,
                   "end": 411,
-                  "value": "#1: var y = new Object(); (true ? y : z) === y",
-                  "raw": "'#1: var y = new Object(); (true ? y : z) === y'"
+                  "value": "#1: var y = new Object(); (true ? y : z) === y"
                 }
               ]
             }

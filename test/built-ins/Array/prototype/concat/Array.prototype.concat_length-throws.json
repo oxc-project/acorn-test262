@@ -116,8 +116,7 @@
             "type": "Literal",
             "start": 467,
             "end": 475,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -272,8 +271,7 @@
             "type": "Literal",
             "start": 627,
             "end": 702,
-            "value": "[].concat(spreadablePoisonedLengthGetter) throws a Test262Error exception",
-            "raw": "'[].concat(spreadablePoisonedLengthGetter) throws a Test262Error exception'"
+            "value": "[].concat(spreadablePoisonedLengthGetter) throws a Test262Error exception"
           }
         ],
         "optional": false
@@ -391,22 +389,19 @@
                         "type": "Literal",
                         "start": 809,
                         "end": 810,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 812,
                         "end": 813,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 815,
                         "end": 816,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       }
                     ],
                     "optional": false
@@ -419,8 +414,7 @@
             "type": "Literal",
             "start": 822,
             "end": 924,
-            "value": "Array.prototype.concat.call(spreadablePoisonedLengthGetter, 1, 2, 3) throws a Test262Error exception",
-            "raw": "'Array.prototype.concat.call(spreadablePoisonedLengthGetter, 1, 2, 3) throws a Test262Error exception'"
+            "value": "Array.prototype.concat.call(spreadablePoisonedLengthGetter, 1, 2, 3) throws a Test262Error exception"
           }
         ],
         "optional": false

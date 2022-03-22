@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 346,
-                "value": "soap",
-                "raw": "\"soap\""
+                "value": "soap"
               }
             ]
           }
@@ -170,8 +169,7 @@
             "type": "Literal",
             "start": 422,
             "end": 471,
-            "value": "The value of obj.touched is expected to be true",
-            "raw": "'The value of obj.touched is expected to be true'"
+            "value": "The value of obj.touched is expected to be true"
           }
         ],
         "optional": false

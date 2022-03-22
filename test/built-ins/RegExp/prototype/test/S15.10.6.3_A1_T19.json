@@ -23,7 +23,6 @@
             "start": 312,
             "end": 318,
             "value": {},
-            "raw": "/e{1}/",
             "regex": {
               "pattern": "e{1}",
               "flags": ""
@@ -95,8 +94,7 @@
                   "type": "Literal",
                   "start": 356,
                   "end": 357,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -140,8 +138,7 @@
                     "type": "Literal",
                     "start": 377,
                     "end": 378,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],
@@ -160,8 +157,7 @@
             "type": "Literal",
             "start": 392,
             "end": 450,
-            "value": "__re.test(void 0) must return __re.exec(void 0) !== null",
-            "raw": "'__re.test(void 0) must return __re.exec(void 0) !== null'"
+            "value": "__re.test(void 0) must return __re.exec(void 0) !== null"
           }
         ],
         "optional": false

@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 803,
             "end": 813,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 815,
             "end": 870,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -94,8 +92,7 @@
             "type": "Literal",
             "start": 891,
             "end": 892,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -120,8 +117,7 @@
             "type": "Literal",
             "start": 910,
             "end": 911,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           }
         }
       ],
@@ -352,8 +348,7 @@
                       "type": "Literal",
                       "start": 1572,
                       "end": 1573,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     }
                   }
                 ]
@@ -545,8 +540,7 @@
                             "type": "Literal",
                             "start": 1734,
                             "end": 1817,
-                            "value": "The value of `agentCount` must return the same value returned by BigInt(NUMAGENT)",
-                            "raw": "'The value of `agentCount` must return the same value returned by BigInt(NUMAGENT)'"
+                            "value": "The value of `agentCount` must return the same value returned by BigInt(NUMAGENT)"
                           }
                         ],
                         "optional": false
@@ -614,8 +608,7 @@
                                 "type": "Literal",
                                 "start": 1902,
                                 "end": 1903,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             ],
                             "optional": false
@@ -624,15 +617,13 @@
                             "type": "Literal",
                             "start": 1906,
                             "end": 1907,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 1909,
                             "end": 2021,
-                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 1) must return 0",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 1) must return 0'"
+                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 1) must return 0"
                           }
                         ],
                         "optional": false
@@ -700,8 +691,7 @@
                                 "type": "Literal",
                                 "start": 2103,
                                 "end": 2104,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               }
                             ],
                             "optional": false
@@ -710,15 +700,13 @@
                             "type": "Literal",
                             "start": 2107,
                             "end": 2108,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 2110,
                             "end": 2222,
-                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 3) must return 0",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 3) must return 0'"
+                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 3) must return 0"
                           }
                         ],
                         "optional": false
@@ -786,8 +774,7 @@
                                 "type": "Literal",
                                 "start": 2298,
                                 "end": 2299,
-                                "value": 2,
-                                "raw": "2"
+                                "value": 2
                               }
                             ],
                             "optional": false
@@ -796,15 +783,13 @@
                             "type": "Literal",
                             "start": 2302,
                             "end": 2303,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2305,
                             "end": 2417,
-                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 2) must return 1",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 2) must return 1'"
+                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 2) must return 1"
                           }
                         ],
                         "optional": false
@@ -886,15 +871,13 @@
                             "type": "Literal",
                             "start": 2483,
                             "end": 2487,
-                            "value": "ok",
-                            "raw": "'ok'"
+                            "value": "ok"
                           },
                           {
                             "type": "Literal",
                             "start": 2493,
                             "end": 2557,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"ok\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"ok\"'"
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"ok\""
                           }
                         ],
                         "optional": false
@@ -962,8 +945,7 @@
                                 "type": "Literal",
                                 "start": 2636,
                                 "end": 2637,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               }
                             ],
                             "optional": false
@@ -972,15 +954,13 @@
                             "type": "Literal",
                             "start": 2640,
                             "end": 2641,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2643,
                             "end": 2755,
-                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 0) must return 1",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 0) must return 1'"
+                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 5)), 0) must return 1"
                           }
                         ],
                         "optional": false
@@ -1062,15 +1042,13 @@
                             "type": "Literal",
                             "start": 2821,
                             "end": 2825,
-                            "value": "ok",
-                            "raw": "'ok'"
+                            "value": "ok"
                           },
                           {
                             "type": "Literal",
                             "start": 2831,
                             "end": 2895,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"ok\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"ok\"'"
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"ok\""
                           }
                         ],
                         "optional": false

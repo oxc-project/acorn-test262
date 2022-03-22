@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 805,
                             "end": 806,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -116,8 +115,7 @@
                         "type": "Literal",
                         "start": 842,
                         "end": 851,
-                        "value": "test262",
-                        "raw": "\"test262\""
+                        "value": "test262"
                       },
                       {
                         "type": "ObjectExpression",
@@ -259,8 +257,7 @@
                                   "type": "Literal",
                                   "start": 986,
                                   "end": 987,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             }
@@ -271,8 +268,7 @@
                         "type": "Literal",
                         "start": 994,
                         "end": 1036,
-                        "value": "`sample.test262 = 1` throws Test262Error",
-                        "raw": "'`sample.test262 = 1` throws Test262Error'"
+                        "value": "`sample.test262 = 1` throws Test262Error"
                       }
                     ],
                     "optional": false
@@ -335,8 +331,7 @@
                         "type": "Literal",
                         "start": 1086,
                         "end": 1148,
-                        "value": "The value of sample.test262 is expected to equal `undefined`",
-                        "raw": "'The value of sample.test262 is expected to equal `undefined`'"
+                        "value": "The value of sample.test262 is expected to equal `undefined`"
                       }
                     ],
                     "optional": false

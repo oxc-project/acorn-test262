@@ -161,8 +161,7 @@
                         "type": "Literal",
                         "start": 787,
                         "end": 792,
-                        "value": "Bob",
-                        "raw": "'Bob'"
+                        "value": "Bob"
                       }
                     ],
                     "optional": false
@@ -175,8 +174,7 @@
             "type": "Literal",
             "start": 798,
             "end": 853,
-            "value": "Array.of.call(T1, \"Bob\") throws a TypeError exception",
-            "raw": "'Array.of.call(T1, \"Bob\") throws a TypeError exception'"
+            "value": "Array.of.call(T1, \"Bob\") throws a TypeError exception"
           }
         ],
         "optional": false
@@ -238,8 +236,7 @@
                   "type": "Literal",
                   "start": 903,
                   "end": 904,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "ObjectExpression",
@@ -420,8 +417,7 @@
                         "type": "Literal",
                         "start": 1041,
                         "end": 1046,
-                        "value": "Bob",
-                        "raw": "'Bob'"
+                        "value": "Bob"
                       }
                     ],
                     "optional": false
@@ -434,8 +430,7 @@
             "type": "Literal",
             "start": 1052,
             "end": 1107,
-            "value": "Array.of.call(T2, \"Bob\") throws a TypeError exception",
-            "raw": "'Array.of.call(T2, \"Bob\") throws a TypeError exception'"
+            "value": "Array.of.call(T2, \"Bob\") throws a TypeError exception"
           }
         ],
         "optional": false

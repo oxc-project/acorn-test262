@@ -138,8 +138,7 @@
             "type": "Literal",
             "start": 414,
             "end": 452,
-            "value": "Prototype of constructor is Function",
-            "raw": "\"Prototype of constructor is Function\""
+            "value": "Prototype of constructor is Function"
           }
         ],
         "optional": false
@@ -242,8 +241,7 @@
             "type": "Literal",
             "start": 540,
             "end": 600,
-            "value": "Prototype of constructor's prototype is Function.prototype",
-            "raw": "\"Prototype of constructor's prototype is Function.prototype\""
+            "value": "Prototype of constructor's prototype is Function.prototype"
           }
         ],
         "optional": false
@@ -286,8 +284,7 @@
             "type": "Literal",
             "start": 635,
             "end": 683,
-            "value": "async function instance is instanceof Function",
-            "raw": "'async function instance is instanceof Function'"
+            "value": "async function instance is instanceof Function"
           }
         ],
         "optional": false

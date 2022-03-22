@@ -187,8 +187,7 @@
                   "type": "Literal",
                   "start": 647,
                   "end": 648,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -460,8 +459,7 @@
             "type": "Literal",
             "start": 873,
             "end": 879,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           },
           {
             "type": "Identifier",
@@ -599,8 +597,7 @@
             "type": "Literal",
             "start": 991,
             "end": 997,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           }
         ],
         "optional": false
@@ -684,15 +681,13 @@
             "type": "Literal",
             "start": 1048,
             "end": 1049,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 1053,
             "end": 1117,
-            "value": "descriptor arg has the same amount of keys as given descriptor",
-            "raw": "\"descriptor arg has the same amount of keys as given descriptor\""
+            "value": "descriptor arg has the same amount of keys as given descriptor"
           }
         ],
         "optional": false
@@ -863,8 +858,7 @@
             "type": "Literal",
             "start": 1230,
             "end": 1231,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 289,
             "end": 299,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 301,
             "end": 333,
-            "value": "typeof Int8Array is \"function\"",
-            "raw": "'typeof Int8Array is \"function\"'"
+            "value": "typeof Int8Array is \"function\""
           }
         ],
         "optional": false

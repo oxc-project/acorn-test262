@@ -27,85 +27,73 @@
                 "type": "Literal",
                 "start": 308,
                 "end": 315,
-                "value": "de_DE",
-                "raw": "\"de_DE\""
+                "value": "de_DE"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 328,
-                "value": "DE_de",
-                "raw": "\"DE_de\""
+                "value": "DE_de"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 344,
-                "value": "cmn_Hans",
-                "raw": "\"cmn_Hans\""
+                "value": "cmn_Hans"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 363,
-                "value": "cmn-hans_cn",
-                "raw": "\"cmn-hans_cn\""
+                "value": "cmn-hans_cn"
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 377,
-                "value": "es_419",
-                "raw": "\"es_419\""
+                "value": "es_419"
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 408,
-                "value": "es-419-u-nu-latn-cu_bob",
-                "raw": "\"es-419-u-nu-latn-cu_bob\""
+                "value": "es-419-u-nu-latn-cu_bob"
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 425,
-                "value": "i_klingon",
-                "raw": "\"i_klingon\""
+                "value": "i_klingon"
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 460,
-                "value": "cmn-hans-cn-t-ca-u-ca-x_t-u",
-                "raw": "\"cmn-hans-cn-t-ca-u-ca-x_t-u\""
+                "value": "cmn-hans-cn-t-ca-u-ca-x_t-u"
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 485,
-                "value": "enochian_enochian",
-                "raw": "\"enochian_enochian\""
+                "value": "enochian_enochian"
               },
               {
                 "type": "Literal",
                 "start": 491,
                 "end": 516,
-                "value": "de-gregory_u-ca-gregory",
-                "raw": "\"de-gregory_u-ca-gregory\""
+                "value": "de-gregory_u-ca-gregory"
               },
               {
                 "type": "Literal",
                 "start": 522,
                 "end": 540,
-                "value": "de-tester-Tester",
-                "raw": "\"de-tester-Tester\""
+                "value": "de-tester-Tester"
               },
               {
                 "type": "Literal",
                 "start": 592,
                 "end": 619,
-                "value": "de-DE-u-kn-true-U-kn-true",
-                "raw": "\"de-DE-u-kn-true-U-kn-true\""
+                "value": "de-DE-u-kn-true-U-kn-true"
               }
             ]
           }
@@ -306,8 +294,7 @@
                                         "type": "Literal",
                                         "start": 944,
                                         "end": 967,
-                                        "value": "Invalid language tag ",
-                                        "raw": "\"Invalid language tag \""
+                                        "value": "Invalid language tag "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -322,8 +309,7 @@
                                       "type": "Literal",
                                       "start": 976,
                                       "end": 996,
-                                      "value": " was not rejected.",
-                                      "raw": "\" was not rejected.\""
+                                      "value": " was not rejected."
                                     }
                                   }
                                 ],

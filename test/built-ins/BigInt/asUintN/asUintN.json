@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 376,
             "end": 386,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 413,
             "end": 422,
-            "value": "asUintN",
-            "raw": "\"asUintN\""
+            "value": "asUintN"
           },
           {
             "type": "ObjectExpression",

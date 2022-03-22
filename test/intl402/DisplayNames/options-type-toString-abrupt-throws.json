@@ -180,8 +180,7 @@
                         "type": "Literal",
                         "start": 1494,
                         "end": 1498,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",
@@ -199,8 +198,7 @@
             "type": "Literal",
             "start": 1513,
             "end": 1528,
-            "value": "from toString",
-            "raw": "'from toString'"
+            "value": "from toString"
           }
         ],
         "optional": false
@@ -393,8 +391,7 @@
                         "type": "Literal",
                         "start": 1684,
                         "end": 1688,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",
@@ -412,8 +409,7 @@
             "type": "Literal",
             "start": 1703,
             "end": 1717,
-            "value": "from valueOf",
-            "raw": "'from valueOf'"
+            "value": "from valueOf"
           }
         ],
         "optional": false
@@ -598,8 +594,7 @@
                         "type": "Literal",
                         "start": 1863,
                         "end": 1867,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",
@@ -617,8 +612,7 @@
             "type": "Literal",
             "start": 1882,
             "end": 1900,
-            "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "value": "from ToPrimitive"
           }
         ],
         "optional": false
@@ -747,8 +741,7 @@
                         "type": "Literal",
                         "start": 1987,
                         "end": 1991,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",
@@ -766,8 +759,7 @@
             "type": "Literal",
             "start": 2006,
             "end": 2020,
-            "value": "symbol value",
-            "raw": "'symbol value'"
+            "value": "symbol value"
           }
         ],
         "optional": false

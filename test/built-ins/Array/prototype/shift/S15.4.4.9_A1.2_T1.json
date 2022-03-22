@@ -33,29 +33,25 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -127,8 +123,7 @@
           "type": "Literal",
           "start": 382,
           "end": 383,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -159,8 +154,7 @@
                     "type": "Literal",
                     "start": 412,
                     "end": 467,
-                    "value": "#1: x = new Array(0,1,2,3); x.shift() === 0. Actual: ",
-                    "raw": "'#1: x = new Array(0,1,2,3); x.shift() === 0. Actual: '"
+                    "value": "#1: x = new Array(0,1,2,3); x.shift() === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -214,8 +208,7 @@
           "type": "Literal",
           "start": 500,
           "end": 501,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -242,8 +235,7 @@
                   "type": "Literal",
                   "start": 530,
                   "end": 584,
-                  "value": "#2: x = new Array(0,1,2,3); x.shift(); x.length == 3",
-                  "raw": "'#2: x = new Array(0,1,2,3); x.shift(); x.length == 3'"
+                  "value": "#2: x = new Array(0,1,2,3); x.shift(); x.length == 3"
                 }
               ]
             }
@@ -274,8 +266,7 @@
             "type": "Literal",
             "start": 596,
             "end": 597,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -285,8 +276,7 @@
           "type": "Literal",
           "start": 603,
           "end": 604,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -313,8 +303,7 @@
                   "type": "Literal",
                   "start": 633,
                   "end": 683,
-                  "value": "#3: x = new Array(0,1,2,3); x.shift(); x[0] == 1",
-                  "raw": "'#3: x = new Array(0,1,2,3); x.shift(); x[0] == 1'"
+                  "value": "#3: x = new Array(0,1,2,3); x.shift(); x[0] == 1"
                 }
               ]
             }
@@ -345,8 +334,7 @@
             "type": "Literal",
             "start": 695,
             "end": 696,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -356,8 +344,7 @@
           "type": "Literal",
           "start": 702,
           "end": 703,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -384,8 +371,7 @@
                   "type": "Literal",
                   "start": 732,
                   "end": 782,
-                  "value": "#4: x = new Array(0,1,2,3); x.shift(); x[1] == 2",
-                  "raw": "'#4: x = new Array(0,1,2,3); x.shift(); x[1] == 2'"
+                  "value": "#4: x = new Array(0,1,2,3); x.shift(); x[1] == 2"
                 }
               ]
             }
@@ -440,8 +426,7 @@
             "type": "Literal",
             "start": 798,
             "end": 799,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -450,8 +435,7 @@
           "type": "Literal",
           "start": 803,
           "end": 804,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -478,8 +462,7 @@
             "type": "Literal",
             "start": 808,
             "end": 809,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           "computed": true,
           "optional": false
@@ -488,8 +471,7 @@
           "type": "Literal",
           "start": 813,
           "end": 814,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       }
     },
@@ -557,8 +539,7 @@
           "type": "Literal",
           "start": 853,
           "end": 854,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -589,8 +570,7 @@
                     "type": "Literal",
                     "start": 883,
                     "end": 942,
-                    "value": "#5: x = []; x[0] = 0; x[3] = 3; x.shift() === 0. Actual: ",
-                    "raw": "'#5: x = []; x[0] = 0; x[3] = 3; x.shift() === 0. Actual: '"
+                    "value": "#5: x = []; x[0] = 0; x[3] = 3; x.shift() === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -644,8 +624,7 @@
           "type": "Literal",
           "start": 975,
           "end": 976,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -672,8 +651,7 @@
                   "type": "Literal",
                   "start": 1005,
                   "end": 1063,
-                  "value": "#6: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length == 3",
-                  "raw": "'#6: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length == 3'"
+                  "value": "#6: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length == 3"
                 }
               ]
             }
@@ -704,8 +682,7 @@
             "type": "Literal",
             "start": 1075,
             "end": 1076,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -742,8 +719,7 @@
                   "type": "Literal",
                   "start": 1120,
                   "end": 1182,
-                  "value": "#7: x = []; x[0] = 0; x[3] = 3; x.shift(); x[0] == undefined",
-                  "raw": "'#7: x = []; x[0] = 0; x[3] = 3; x.shift(); x[0] == undefined'"
+                  "value": "#7: x = []; x[0] = 0; x[3] = 3; x.shift(); x[0] == undefined"
                 }
               ]
             }
@@ -774,8 +750,7 @@
             "type": "Literal",
             "start": 1194,
             "end": 1196,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           },
           "computed": true,
           "optional": false
@@ -812,8 +787,7 @@
                   "type": "Literal",
                   "start": 1240,
                   "end": 1302,
-                  "value": "#8: x = []; x[0] = 0; x[3] = 3; x.shift(); x[1] == undefined",
-                  "raw": "'#8: x = []; x[0] = 0; x[3] = 3; x.shift(); x[1] == undefined'"
+                  "value": "#8: x = []; x[0] = 0; x[3] = 3; x.shift(); x[1] == undefined"
                 }
               ]
             }
@@ -854,8 +828,7 @@
           "type": "Literal",
           "start": 1319,
           "end": 1320,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -954,8 +927,7 @@
                     "type": "Literal",
                     "start": 1397,
                     "end": 1489,
-                    "value": "#9: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length = 1; x.shift() === undefined. Actual: ",
-                    "raw": "'#9: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length = 1; x.shift() === undefined. Actual: '"
+                    "value": "#9: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length = 1; x.shift() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1009,8 +981,7 @@
           "type": "Literal",
           "start": 1522,
           "end": 1523,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -1041,8 +1012,7 @@
                     "type": "Literal",
                     "start": 1552,
                     "end": 1647,
-                    "value": "#10: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length = 1; x.shift(); x.length === 0. Actual: ",
-                    "raw": "'#10: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length = 1; x.shift(); x.length === 0. Actual: '"
+                    "value": "#10: x = []; x[0] = 0; x[3] = 3; x.shift(); x.length = 1; x.shift(); x.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

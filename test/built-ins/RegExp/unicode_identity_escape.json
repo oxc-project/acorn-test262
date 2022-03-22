@@ -31,7 +31,6 @@
                 "start": 494,
                 "end": 499,
                 "value": {},
-                "raw": "/\\^/u",
                 "regex": {
                   "pattern": "\\^",
                   "flags": "u"
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 505,
                 "end": 508,
-                "value": "^",
-                "raw": "\"^\""
+                "value": "^"
               }
             ],
             "optional": false
@@ -61,8 +59,7 @@
             "type": "Literal",
             "start": 511,
             "end": 548,
-            "value": "IdentityEscape in AtomEscape: /\\^/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\^/\""
+            "value": "IdentityEscape in AtomEscape: /\\^/"
           }
         ],
         "optional": false
@@ -96,7 +93,6 @@
                 "start": 558,
                 "end": 563,
                 "value": {},
-                "raw": "/\\$/u",
                 "regex": {
                   "pattern": "\\$",
                   "flags": "u"
@@ -116,8 +112,7 @@
                 "type": "Literal",
                 "start": 569,
                 "end": 572,
-                "value": "$",
-                "raw": "\"$\""
+                "value": "$"
               }
             ],
             "optional": false
@@ -126,8 +121,7 @@
             "type": "Literal",
             "start": 575,
             "end": 612,
-            "value": "IdentityEscape in AtomEscape: /\\$/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\$/\""
+            "value": "IdentityEscape in AtomEscape: /\\$/"
           }
         ],
         "optional": false
@@ -161,7 +155,6 @@
                 "start": 622,
                 "end": 627,
                 "value": {},
-                "raw": "/\\\\/u",
                 "regex": {
                   "pattern": "\\\\",
                   "flags": "u"
@@ -181,8 +174,7 @@
                 "type": "Literal",
                 "start": 633,
                 "end": 637,
-                "value": "\\",
-                "raw": "\"\\\\\""
+                "value": "\\"
               }
             ],
             "optional": false
@@ -191,8 +183,7 @@
             "type": "Literal",
             "start": 640,
             "end": 678,
-            "value": "IdentityEscape in AtomEscape: /\\\\/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\\\\\/\""
+            "value": "IdentityEscape in AtomEscape: /\\\\/"
           }
         ],
         "optional": false
@@ -226,7 +217,6 @@
                 "start": 688,
                 "end": 693,
                 "value": {},
-                "raw": "/\\./u",
                 "regex": {
                   "pattern": "\\.",
                   "flags": "u"
@@ -246,8 +236,7 @@
                 "type": "Literal",
                 "start": 699,
                 "end": 702,
-                "value": ".",
-                "raw": "\".\""
+                "value": "."
               }
             ],
             "optional": false
@@ -256,8 +245,7 @@
             "type": "Literal",
             "start": 705,
             "end": 742,
-            "value": "IdentityEscape in AtomEscape: /\\./",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\./\""
+            "value": "IdentityEscape in AtomEscape: /\\./"
           }
         ],
         "optional": false
@@ -291,7 +279,6 @@
                 "start": 752,
                 "end": 757,
                 "value": {},
-                "raw": "/\\*/u",
                 "regex": {
                   "pattern": "\\*",
                   "flags": "u"
@@ -311,8 +298,7 @@
                 "type": "Literal",
                 "start": 763,
                 "end": 766,
-                "value": "*",
-                "raw": "\"*\""
+                "value": "*"
               }
             ],
             "optional": false
@@ -321,8 +307,7 @@
             "type": "Literal",
             "start": 769,
             "end": 806,
-            "value": "IdentityEscape in AtomEscape: /\\*/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\*/\""
+            "value": "IdentityEscape in AtomEscape: /\\*/"
           }
         ],
         "optional": false
@@ -356,7 +341,6 @@
                 "start": 816,
                 "end": 821,
                 "value": {},
-                "raw": "/\\+/u",
                 "regex": {
                   "pattern": "\\+",
                   "flags": "u"
@@ -376,8 +360,7 @@
                 "type": "Literal",
                 "start": 827,
                 "end": 830,
-                "value": "+",
-                "raw": "\"+\""
+                "value": "+"
               }
             ],
             "optional": false
@@ -386,8 +369,7 @@
             "type": "Literal",
             "start": 833,
             "end": 870,
-            "value": "IdentityEscape in AtomEscape: /\\+/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\+/\""
+            "value": "IdentityEscape in AtomEscape: /\\+/"
           }
         ],
         "optional": false
@@ -421,7 +403,6 @@
                 "start": 880,
                 "end": 885,
                 "value": {},
-                "raw": "/\\?/u",
                 "regex": {
                   "pattern": "\\?",
                   "flags": "u"
@@ -441,8 +422,7 @@
                 "type": "Literal",
                 "start": 891,
                 "end": 894,
-                "value": "?",
-                "raw": "\"?\""
+                "value": "?"
               }
             ],
             "optional": false
@@ -451,8 +431,7 @@
             "type": "Literal",
             "start": 897,
             "end": 934,
-            "value": "IdentityEscape in AtomEscape: /\\?/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\?/\""
+            "value": "IdentityEscape in AtomEscape: /\\?/"
           }
         ],
         "optional": false
@@ -486,7 +465,6 @@
                 "start": 944,
                 "end": 949,
                 "value": {},
-                "raw": "/\\(/u",
                 "regex": {
                   "pattern": "\\(",
                   "flags": "u"
@@ -506,8 +484,7 @@
                 "type": "Literal",
                 "start": 955,
                 "end": 958,
-                "value": "(",
-                "raw": "\"(\""
+                "value": "("
               }
             ],
             "optional": false
@@ -516,8 +493,7 @@
             "type": "Literal",
             "start": 961,
             "end": 998,
-            "value": "IdentityEscape in AtomEscape: /\\(/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\(/\""
+            "value": "IdentityEscape in AtomEscape: /\\(/"
           }
         ],
         "optional": false
@@ -551,7 +527,6 @@
                 "start": 1008,
                 "end": 1013,
                 "value": {},
-                "raw": "/\\)/u",
                 "regex": {
                   "pattern": "\\)",
                   "flags": "u"
@@ -571,8 +546,7 @@
                 "type": "Literal",
                 "start": 1019,
                 "end": 1022,
-                "value": ")",
-                "raw": "\")\""
+                "value": ")"
               }
             ],
             "optional": false
@@ -581,8 +555,7 @@
             "type": "Literal",
             "start": 1025,
             "end": 1062,
-            "value": "IdentityEscape in AtomEscape: /\\)/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\)/\""
+            "value": "IdentityEscape in AtomEscape: /\\)/"
           }
         ],
         "optional": false
@@ -616,7 +589,6 @@
                 "start": 1072,
                 "end": 1077,
                 "value": {},
-                "raw": "/\\[/u",
                 "regex": {
                   "pattern": "\\[",
                   "flags": "u"
@@ -636,8 +608,7 @@
                 "type": "Literal",
                 "start": 1083,
                 "end": 1086,
-                "value": "[",
-                "raw": "\"[\""
+                "value": "["
               }
             ],
             "optional": false
@@ -646,8 +617,7 @@
             "type": "Literal",
             "start": 1089,
             "end": 1126,
-            "value": "IdentityEscape in AtomEscape: /\\[/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\[/\""
+            "value": "IdentityEscape in AtomEscape: /\\[/"
           }
         ],
         "optional": false
@@ -681,7 +651,6 @@
                 "start": 1136,
                 "end": 1141,
                 "value": {},
-                "raw": "/\\]/u",
                 "regex": {
                   "pattern": "\\]",
                   "flags": "u"
@@ -701,8 +670,7 @@
                 "type": "Literal",
                 "start": 1147,
                 "end": 1150,
-                "value": "]",
-                "raw": "\"]\""
+                "value": "]"
               }
             ],
             "optional": false
@@ -711,8 +679,7 @@
             "type": "Literal",
             "start": 1153,
             "end": 1190,
-            "value": "IdentityEscape in AtomEscape: /\\]/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\]/\""
+            "value": "IdentityEscape in AtomEscape: /\\]/"
           }
         ],
         "optional": false
@@ -746,7 +713,6 @@
                 "start": 1200,
                 "end": 1205,
                 "value": {},
-                "raw": "/\\{/u",
                 "regex": {
                   "pattern": "\\{",
                   "flags": "u"
@@ -766,8 +732,7 @@
                 "type": "Literal",
                 "start": 1211,
                 "end": 1214,
-                "value": "{",
-                "raw": "\"{\""
+                "value": "{"
               }
             ],
             "optional": false
@@ -776,8 +741,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1254,
-            "value": "IdentityEscape in AtomEscape: /\\{/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\{/\""
+            "value": "IdentityEscape in AtomEscape: /\\{/"
           }
         ],
         "optional": false
@@ -811,7 +775,6 @@
                 "start": 1264,
                 "end": 1269,
                 "value": {},
-                "raw": "/\\}/u",
                 "regex": {
                   "pattern": "\\}",
                   "flags": "u"
@@ -831,8 +794,7 @@
                 "type": "Literal",
                 "start": 1275,
                 "end": 1278,
-                "value": "}",
-                "raw": "\"}\""
+                "value": "}"
               }
             ],
             "optional": false
@@ -841,8 +803,7 @@
             "type": "Literal",
             "start": 1281,
             "end": 1318,
-            "value": "IdentityEscape in AtomEscape: /\\}/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\}/\""
+            "value": "IdentityEscape in AtomEscape: /\\}/"
           }
         ],
         "optional": false
@@ -876,7 +837,6 @@
                 "start": 1328,
                 "end": 1333,
                 "value": {},
-                "raw": "/\\|/u",
                 "regex": {
                   "pattern": "\\|",
                   "flags": "u"
@@ -896,8 +856,7 @@
                 "type": "Literal",
                 "start": 1339,
                 "end": 1342,
-                "value": "|",
-                "raw": "\"|\""
+                "value": "|"
               }
             ],
             "optional": false
@@ -906,8 +865,7 @@
             "type": "Literal",
             "start": 1345,
             "end": 1382,
-            "value": "IdentityEscape in AtomEscape: /\\|/",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\|/\""
+            "value": "IdentityEscape in AtomEscape: /\\|/"
           }
         ],
         "optional": false
@@ -941,7 +899,6 @@
                 "start": 1392,
                 "end": 1397,
                 "value": {},
-                "raw": "/\\//u",
                 "regex": {
                   "pattern": "\\/",
                   "flags": "u"
@@ -961,8 +918,7 @@
                 "type": "Literal",
                 "start": 1403,
                 "end": 1406,
-                "value": "/",
-                "raw": "\"/\""
+                "value": "/"
               }
             ],
             "optional": false
@@ -971,8 +927,7 @@
             "type": "Literal",
             "start": 1409,
             "end": 1446,
-            "value": "IdentityEscape in AtomEscape: /\\//",
-            "raw": "\"IdentityEscape in AtomEscape: /\\\\//\""
+            "value": "IdentityEscape in AtomEscape: /\\//"
           }
         ],
         "optional": false
@@ -1006,7 +961,6 @@
                 "start": 1491,
                 "end": 1498,
                 "value": {},
-                "raw": "/[\\^]/u",
                 "regex": {
                   "pattern": "[\\^]",
                   "flags": "u"
@@ -1026,8 +980,7 @@
                 "type": "Literal",
                 "start": 1504,
                 "end": 1507,
-                "value": "^",
-                "raw": "\"^\""
+                "value": "^"
               }
             ],
             "optional": false
@@ -1036,8 +989,7 @@
             "type": "Literal",
             "start": 1510,
             "end": 1550,
-            "value": "IdentityEscape in ClassEscape: /[\\^]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\^]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\^]/"
           }
         ],
         "optional": false
@@ -1071,7 +1023,6 @@
                 "start": 1560,
                 "end": 1567,
                 "value": {},
-                "raw": "/[\\$]/u",
                 "regex": {
                   "pattern": "[\\$]",
                   "flags": "u"
@@ -1091,8 +1042,7 @@
                 "type": "Literal",
                 "start": 1573,
                 "end": 1576,
-                "value": "$",
-                "raw": "\"$\""
+                "value": "$"
               }
             ],
             "optional": false
@@ -1101,8 +1051,7 @@
             "type": "Literal",
             "start": 1579,
             "end": 1619,
-            "value": "IdentityEscape in ClassEscape: /[\\$]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\$]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\$]/"
           }
         ],
         "optional": false
@@ -1136,7 +1085,6 @@
                 "start": 1629,
                 "end": 1636,
                 "value": {},
-                "raw": "/[\\\\]/u",
                 "regex": {
                   "pattern": "[\\\\]",
                   "flags": "u"
@@ -1156,8 +1104,7 @@
                 "type": "Literal",
                 "start": 1642,
                 "end": 1646,
-                "value": "\\",
-                "raw": "\"\\\\\""
+                "value": "\\"
               }
             ],
             "optional": false
@@ -1166,8 +1113,7 @@
             "type": "Literal",
             "start": 1649,
             "end": 1690,
-            "value": "IdentityEscape in ClassEscape: /[\\\\]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\\\\\]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\\\]/"
           }
         ],
         "optional": false
@@ -1201,7 +1147,6 @@
                 "start": 1700,
                 "end": 1707,
                 "value": {},
-                "raw": "/[\\.]/u",
                 "regex": {
                   "pattern": "[\\.]",
                   "flags": "u"
@@ -1221,8 +1166,7 @@
                 "type": "Literal",
                 "start": 1713,
                 "end": 1716,
-                "value": ".",
-                "raw": "\".\""
+                "value": "."
               }
             ],
             "optional": false
@@ -1231,8 +1175,7 @@
             "type": "Literal",
             "start": 1719,
             "end": 1759,
-            "value": "IdentityEscape in ClassEscape: /[\\.]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\.]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\.]/"
           }
         ],
         "optional": false
@@ -1266,7 +1209,6 @@
                 "start": 1769,
                 "end": 1776,
                 "value": {},
-                "raw": "/[\\*]/u",
                 "regex": {
                   "pattern": "[\\*]",
                   "flags": "u"
@@ -1286,8 +1228,7 @@
                 "type": "Literal",
                 "start": 1782,
                 "end": 1785,
-                "value": "*",
-                "raw": "\"*\""
+                "value": "*"
               }
             ],
             "optional": false
@@ -1296,8 +1237,7 @@
             "type": "Literal",
             "start": 1788,
             "end": 1828,
-            "value": "IdentityEscape in ClassEscape: /[\\*]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\*]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\*]/"
           }
         ],
         "optional": false
@@ -1331,7 +1271,6 @@
                 "start": 1838,
                 "end": 1845,
                 "value": {},
-                "raw": "/[\\+]/u",
                 "regex": {
                   "pattern": "[\\+]",
                   "flags": "u"
@@ -1351,8 +1290,7 @@
                 "type": "Literal",
                 "start": 1851,
                 "end": 1854,
-                "value": "+",
-                "raw": "\"+\""
+                "value": "+"
               }
             ],
             "optional": false
@@ -1361,8 +1299,7 @@
             "type": "Literal",
             "start": 1857,
             "end": 1897,
-            "value": "IdentityEscape in ClassEscape: /[\\+]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\+]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\+]/"
           }
         ],
         "optional": false
@@ -1396,7 +1333,6 @@
                 "start": 1907,
                 "end": 1914,
                 "value": {},
-                "raw": "/[\\?]/u",
                 "regex": {
                   "pattern": "[\\?]",
                   "flags": "u"
@@ -1416,8 +1352,7 @@
                 "type": "Literal",
                 "start": 1920,
                 "end": 1923,
-                "value": "?",
-                "raw": "\"?\""
+                "value": "?"
               }
             ],
             "optional": false
@@ -1426,8 +1361,7 @@
             "type": "Literal",
             "start": 1926,
             "end": 1966,
-            "value": "IdentityEscape in ClassEscape: /[\\?]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\?]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\?]/"
           }
         ],
         "optional": false
@@ -1461,7 +1395,6 @@
                 "start": 1976,
                 "end": 1983,
                 "value": {},
-                "raw": "/[\\(]/u",
                 "regex": {
                   "pattern": "[\\(]",
                   "flags": "u"
@@ -1481,8 +1414,7 @@
                 "type": "Literal",
                 "start": 1989,
                 "end": 1992,
-                "value": "(",
-                "raw": "\"(\""
+                "value": "("
               }
             ],
             "optional": false
@@ -1491,8 +1423,7 @@
             "type": "Literal",
             "start": 1995,
             "end": 2035,
-            "value": "IdentityEscape in ClassEscape: /[\\(]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\(]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\(]/"
           }
         ],
         "optional": false
@@ -1526,7 +1457,6 @@
                 "start": 2045,
                 "end": 2052,
                 "value": {},
-                "raw": "/[\\)]/u",
                 "regex": {
                   "pattern": "[\\)]",
                   "flags": "u"
@@ -1546,8 +1476,7 @@
                 "type": "Literal",
                 "start": 2058,
                 "end": 2061,
-                "value": ")",
-                "raw": "\")\""
+                "value": ")"
               }
             ],
             "optional": false
@@ -1556,8 +1485,7 @@
             "type": "Literal",
             "start": 2064,
             "end": 2104,
-            "value": "IdentityEscape in ClassEscape: /[\\)]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\)]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\)]/"
           }
         ],
         "optional": false
@@ -1591,7 +1519,6 @@
                 "start": 2114,
                 "end": 2121,
                 "value": {},
-                "raw": "/[\\[]/u",
                 "regex": {
                   "pattern": "[\\[]",
                   "flags": "u"
@@ -1611,8 +1538,7 @@
                 "type": "Literal",
                 "start": 2127,
                 "end": 2130,
-                "value": "[",
-                "raw": "\"[\""
+                "value": "["
               }
             ],
             "optional": false
@@ -1621,8 +1547,7 @@
             "type": "Literal",
             "start": 2133,
             "end": 2173,
-            "value": "IdentityEscape in ClassEscape: /[\\[]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\[]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\[]/"
           }
         ],
         "optional": false
@@ -1656,7 +1581,6 @@
                 "start": 2183,
                 "end": 2190,
                 "value": {},
-                "raw": "/[\\]]/u",
                 "regex": {
                   "pattern": "[\\]]",
                   "flags": "u"
@@ -1676,8 +1600,7 @@
                 "type": "Literal",
                 "start": 2196,
                 "end": 2199,
-                "value": "]",
-                "raw": "\"]\""
+                "value": "]"
               }
             ],
             "optional": false
@@ -1686,8 +1609,7 @@
             "type": "Literal",
             "start": 2202,
             "end": 2242,
-            "value": "IdentityEscape in ClassEscape: /[\\]]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\]]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\]]/"
           }
         ],
         "optional": false
@@ -1721,7 +1643,6 @@
                 "start": 2252,
                 "end": 2259,
                 "value": {},
-                "raw": "/[\\{]/u",
                 "regex": {
                   "pattern": "[\\{]",
                   "flags": "u"
@@ -1741,8 +1662,7 @@
                 "type": "Literal",
                 "start": 2265,
                 "end": 2268,
-                "value": "{",
-                "raw": "\"{\""
+                "value": "{"
               }
             ],
             "optional": false
@@ -1751,8 +1671,7 @@
             "type": "Literal",
             "start": 2271,
             "end": 2311,
-            "value": "IdentityEscape in ClassEscape: /[\\{]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\{]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\{]/"
           }
         ],
         "optional": false
@@ -1786,7 +1705,6 @@
                 "start": 2321,
                 "end": 2328,
                 "value": {},
-                "raw": "/[\\}]/u",
                 "regex": {
                   "pattern": "[\\}]",
                   "flags": "u"
@@ -1806,8 +1724,7 @@
                 "type": "Literal",
                 "start": 2334,
                 "end": 2337,
-                "value": "}",
-                "raw": "\"}\""
+                "value": "}"
               }
             ],
             "optional": false
@@ -1816,8 +1733,7 @@
             "type": "Literal",
             "start": 2340,
             "end": 2380,
-            "value": "IdentityEscape in ClassEscape: /[\\}]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\}]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\}]/"
           }
         ],
         "optional": false
@@ -1851,7 +1767,6 @@
                 "start": 2390,
                 "end": 2397,
                 "value": {},
-                "raw": "/[\\|]/u",
                 "regex": {
                   "pattern": "[\\|]",
                   "flags": "u"
@@ -1871,8 +1786,7 @@
                 "type": "Literal",
                 "start": 2403,
                 "end": 2406,
-                "value": "|",
-                "raw": "\"|\""
+                "value": "|"
               }
             ],
             "optional": false
@@ -1881,8 +1795,7 @@
             "type": "Literal",
             "start": 2409,
             "end": 2449,
-            "value": "IdentityEscape in ClassEscape: /[\\|]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\|]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\|]/"
           }
         ],
         "optional": false
@@ -1916,7 +1829,6 @@
                 "start": 2459,
                 "end": 2466,
                 "value": {},
-                "raw": "/[\\/]/u",
                 "regex": {
                   "pattern": "[\\/]",
                   "flags": "u"
@@ -1936,8 +1848,7 @@
                 "type": "Literal",
                 "start": 2472,
                 "end": 2475,
-                "value": "/",
-                "raw": "\"/\""
+                "value": "/"
               }
             ],
             "optional": false
@@ -1946,8 +1857,7 @@
             "type": "Literal",
             "start": 2478,
             "end": 2518,
-            "value": "IdentityEscape in ClassEscape: /[\\/]/",
-            "raw": "\"IdentityEscape in ClassEscape: /[\\\\/]/\""
+            "value": "IdentityEscape in ClassEscape: /[\\/]/"
           }
         ],
         "optional": false

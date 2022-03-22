@@ -61,8 +61,7 @@
           "type": "Literal",
           "start": 658,
           "end": 659,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -105,8 +104,7 @@
           "type": "Literal",
           "start": 786,
           "end": 794,
-          "value": "number",
-          "raw": "'number'"
+          "value": "number"
         }
       },
       "consequent": {
@@ -137,8 +135,7 @@
                     "type": "Literal",
                     "start": 822,
                     "end": 909,
-                    "value": "#1: typeof __FACTORY.prototype === 'number'. Actual: typeof __FACTORY.prototype ===",
-                    "raw": "'#1: typeof __FACTORY.prototype === \\'number\\'. Actual: typeof __FACTORY.prototype ==='"
+                    "value": "#1: typeof __FACTORY.prototype === 'number'. Actual: typeof __FACTORY.prototype ==="
                   },
                   "operator": "+",
                   "right": {
@@ -297,8 +294,7 @@
                   "type": "Literal",
                   "start": 1223,
                   "end": 1278,
-                  "value": "#2: Object.prototype.isPrototypeOf(__device) === true",
-                  "raw": "'#2: Object.prototype.isPrototypeOf(__device) === true'"
+                  "value": "#2: Object.prototype.isPrototypeOf(__device) === true"
                 }
               ]
             }

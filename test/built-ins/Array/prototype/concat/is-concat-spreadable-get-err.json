@@ -260,8 +260,7 @@
             "type": "Literal",
             "start": 1262,
             "end": 1326,
-            "value": "Array.prototype.concat.call(o) throws a Test262Error exception",
-            "raw": "'Array.prototype.concat.call(o) throws a Test262Error exception'"
+            "value": "Array.prototype.concat.call(o) throws a Test262Error exception"
           }
         ],
         "optional": false

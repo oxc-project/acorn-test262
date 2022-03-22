@@ -51,15 +51,13 @@
                     "type": "Literal",
                     "start": 562,
                     "end": 563,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 565,
                     "end": 566,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               },
@@ -72,15 +70,13 @@
                     "type": "Literal",
                     "start": 572,
                     "end": 575,
-                    "value": "1",
-                    "raw": "\"1\""
+                    "value": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 577,
                     "end": 578,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               },
@@ -93,15 +89,13 @@
                     "type": "Literal",
                     "start": 584,
                     "end": 585,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 587,
                     "end": 588,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -114,15 +108,13 @@
                     "type": "Literal",
                     "start": 594,
                     "end": 597,
-                    "value": "2",
-                    "raw": "\"2\""
+                    "value": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 599,
                     "end": 600,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -135,15 +127,13 @@
                     "type": "Literal",
                     "start": 606,
                     "end": 607,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   },
                   {
                     "type": "Literal",
                     "start": 609,
                     "end": 610,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -156,15 +146,13 @@
                     "type": "Literal",
                     "start": 616,
                     "end": 619,
-                    "value": "3",
-                    "raw": "\"3\""
+                    "value": "3"
                   },
                   {
                     "type": "Literal",
                     "start": 621,
                     "end": 622,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -177,15 +165,13 @@
                     "type": "Literal",
                     "start": 628,
                     "end": 631,
-                    "value": 2.9,
-                    "raw": "2.9"
+                    "value": 2.9
                   },
                   {
                     "type": "Literal",
                     "start": 633,
                     "end": 634,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -198,15 +184,13 @@
                     "type": "Literal",
                     "start": 640,
                     "end": 645,
-                    "value": "2.9",
-                    "raw": "\"2.9\""
+                    "value": "2.9"
                   },
                   {
                     "type": "Literal",
                     "start": 647,
                     "end": 648,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -219,15 +203,13 @@
                     "type": "Literal",
                     "start": 654,
                     "end": 661,
-                    "value": 1.00001,
-                    "raw": "1.00001"
+                    "value": 1.00001
                   },
                   {
                     "type": "Literal",
                     "start": 663,
                     "end": 664,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               },
@@ -277,8 +259,7 @@
                                   "type": "Literal",
                                   "start": 692,
                                   "end": 695,
-                                  "value": "3",
-                                  "raw": "\"3\""
+                                  "value": "3"
                                 }
                               }
                             ]
@@ -291,8 +272,7 @@
                     "type": "Literal",
                     "start": 702,
                     "end": 703,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               }
@@ -394,8 +374,7 @@
                       "type": "Literal",
                       "start": 812,
                       "end": 816,
-                      "value": "en",
-                      "raw": "\"en\""
+                      "value": "en"
                     },
                     {
                       "type": "ObjectExpression",
@@ -582,8 +561,7 @@
                       "type": "Literal",
                       "start": 1010,
                       "end": 1034,
-                      "value": "fractionalSecondDigits",
-                      "raw": "\"fractionalSecondDigits\""
+                      "value": "fractionalSecondDigits"
                     }
                   ],
                   "optional": false

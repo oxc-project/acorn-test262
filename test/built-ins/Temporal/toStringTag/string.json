@@ -55,8 +55,7 @@
             "type": "Literal",
             "start": 341,
             "end": 360,
-            "value": "[object Temporal]",
-            "raw": "\"[object Temporal]\""
+            "value": "[object Temporal]"
           }
         ],
         "optional": false

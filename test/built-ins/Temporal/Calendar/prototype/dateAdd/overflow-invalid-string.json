@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 797,
                 "end": 806,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,22 +97,19 @@
                 "type": "Literal",
                 "start": 845,
                 "end": 849,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 851,
                 "end": 852,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 854,
                 "end": 855,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -170,29 +166,25 @@
                 "type": "Literal",
                 "start": 907,
                 "end": 908,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 910,
                 "end": 911,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 913,
                 "end": 914,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 916,
                 "end": 917,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -301,8 +293,7 @@
                         "type": "Literal",
                         "start": 1001,
                         "end": 1015,
-                        "value": "other string",
-                        "raw": "\"other string\""
+                        "value": "other string"
                       },
                       "kind": "init"
                     }
@@ -316,8 +307,7 @@
             "type": "Literal",
             "start": 1024,
             "end": 1081,
-            "value": "Value for overflow not one of the allowed string values",
-            "raw": "\"Value for overflow not one of the allowed string values\""
+            "value": "Value for overflow not one of the allowed string values"
           }
         ],
         "optional": false

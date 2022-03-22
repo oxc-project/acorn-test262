@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 371,
             "end": 377,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 390,
                   "end": 400,
-                  "value": "exchange",
-                  "raw": "'exchange'"
+                  "value": "exchange"
                 },
                 "kind": "init"
               },

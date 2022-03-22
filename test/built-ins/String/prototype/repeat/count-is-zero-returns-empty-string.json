@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 436,
-                "value": "foo",
-                "raw": "'foo'"
+                "value": "foo"
               },
               "property": {
                 "type": "Identifier",
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 444,
                 "end": 445,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -70,8 +68,7 @@
             "type": "Literal",
             "start": 448,
             "end": 450,
-            "value": "",
-            "raw": "''"
+            "value": ""
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 713,
                 "end": 714,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               }
             ]
           }
@@ -176,8 +175,7 @@
             "type": "Literal",
             "start": 835,
             "end": 864,
-            "value": "`constructor` value is null",
-            "raw": "\"`constructor` value is null\""
+            "value": "`constructor` value is null"
           }
         ],
         "optional": false
@@ -264,8 +262,7 @@
             "type": "Literal",
             "start": 936,
             "end": 968,
-            "value": "`constructor` value is Boolean",
-            "raw": "\"`constructor` value is Boolean\""
+            "value": "`constructor` value is Boolean"
           }
         ],
         "optional": false
@@ -303,8 +300,7 @@
           "type": "Literal",
           "start": 998,
           "end": 1000,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -352,8 +348,7 @@
             "type": "Literal",
             "start": 1038,
             "end": 1069,
-            "value": "`constructor` value is String",
-            "raw": "\"`constructor` value is String\""
+            "value": "`constructor` value is String"
           }
         ],
         "optional": false
@@ -446,8 +441,7 @@
             "type": "Literal",
             "start": 1145,
             "end": 1176,
-            "value": "`constructor` value is Symbol",
-            "raw": "\"`constructor` value is Symbol\""
+            "value": "`constructor` value is Symbol"
           }
         ],
         "optional": false
@@ -485,8 +479,7 @@
           "type": "Literal",
           "start": 1206,
           "end": 1207,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -534,8 +527,7 @@
             "type": "Literal",
             "start": 1245,
             "end": 1276,
-            "value": "`constructor` value is Number",
-            "raw": "\"`constructor` value is Number\""
+            "value": "`constructor` value is Number"
           }
         ],
         "optional": false

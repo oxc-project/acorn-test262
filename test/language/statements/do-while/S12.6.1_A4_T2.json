@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 393,
                     "end": 400,
-                    "value": "black",
-                    "raw": "\"black\""
+                    "value": "black"
                   }
                 }
               ],
@@ -74,8 +73,7 @@
                             "type": "Literal",
                             "start": 459,
                             "end": 465,
-                            "value": "hole",
-                            "raw": "\"hole\""
+                            "value": "hole"
                           }
                         }
                       ],
@@ -111,8 +109,7 @@
                             "type": "Literal",
                             "start": 528,
                             "end": 533,
-                            "value": "sun",
-                            "raw": "\"sun\""
+                            "value": "sun"
                           }
                         }
                       ],
@@ -124,8 +121,7 @@
                   "type": "Literal",
                   "start": 548,
                   "end": 549,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               "label": {
@@ -154,8 +150,7 @@
                     "type": "Literal",
                     "start": 583,
                     "end": 599,
-                    "value": "won't you come",
-                    "raw": "\"won't you come\""
+                    "value": "won't you come"
                   }
                 }
               ],
@@ -171,16 +166,14 @@
             "type": "Literal",
             "start": 609,
             "end": 610,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "operator": "==",
           "right": {
             "type": "Literal",
             "start": 612,
             "end": 613,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -284,8 +277,7 @@
                     "type": "Literal",
                     "start": 846,
                     "end": 1087,
-                    "value": "#1: (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)===true. Actual:  (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)===",
-                    "raw": "'#1: (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)===true. Actual:  (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)==='"
+                    "value": "#1: (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)===true. Actual:  (__in__do__before__break&&__in__do__IN__before__break&&!__in__do__IN__after__break&&__in__do__after__break)==="
                   },
                   "operator": "+",
                   "right": {

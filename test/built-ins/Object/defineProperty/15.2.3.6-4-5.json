@@ -290,8 +290,7 @@
             "type": "Literal",
             "start": 878,
             "end": 883,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           "computed": true,
           "optional": false
@@ -300,8 +299,7 @@
           "type": "Literal",
           "start": 887,
           "end": 890,
-          "value": 101,
-          "raw": "101"
+          "value": 101
         }
       }
     },
@@ -354,8 +352,7 @@
                 "type": "Literal",
                 "start": 1073,
                 "end": 1078,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -401,8 +398,7 @@
                   "type": "Literal",
                   "start": 1211,
                   "end": 1214,
-                  "value": 101,
-                  "raw": "101"
+                  "value": 101
                 },
                 "kind": "init"
               },
@@ -516,8 +512,7 @@
             "type": "Literal",
             "start": 1303,
             "end": 1308,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Identifier",
@@ -578,8 +573,7 @@
                 "type": "Literal",
                 "start": 1362,
                 "end": 1367,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -653,8 +647,7 @@
             "type": "Literal",
             "start": 1428,
             "end": 1462,
-            "value": "sameDataDescriptorValues(d1, d2)",
-            "raw": "'sameDataDescriptorValues(d1, d2)'"
+            "value": "sameDataDescriptorValues(d1, d2)"
           }
         ],
         "optional": false

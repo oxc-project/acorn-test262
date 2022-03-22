@@ -348,8 +348,7 @@
                   "type": "Literal",
                   "start": 571,
                   "end": 572,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               },
@@ -364,15 +363,13 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 575,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 577,
                   "end": 578,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -387,15 +384,13 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 581,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 583,
                   "end": 586,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               },
@@ -410,8 +405,7 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 589,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Identifier",
@@ -470,15 +464,13 @@
                 "type": "Literal",
                 "start": 634,
                 "end": 635,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 637,
                 "end": 640,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               {
                 "type": "Identifier",
@@ -529,15 +521,13 @@
                 "type": "Literal",
                 "start": 676,
                 "end": 677,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 679,
                 "end": 682,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               {
                 "type": "Identifier",
@@ -630,8 +620,7 @@
                         "type": "Literal",
                         "start": 780,
                         "end": 796,
-                        "value": "fixture and []",
-                        "raw": "'fixture and []'"
+                        "value": "fixture and []"
                       }
                     ],
                     "optional": false
@@ -644,8 +633,7 @@
             "type": "Literal",
             "start": 802,
             "end": 879,
-            "value": "Expected [0, a, undefined] and [] to have the same contents. fixture and []",
-            "raw": "'Expected [0, a, undefined] and [] to have the same contents. fixture and []'"
+            "value": "Expected [0, a, undefined] and [] to have the same contents. fixture and []"
           }
         ],
         "optional": false
@@ -724,8 +712,7 @@
                         "type": "Literal",
                         "start": 956,
                         "end": 972,
-                        "value": "[] and fixture",
-                        "raw": "'[] and fixture'"
+                        "value": "[] and fixture"
                       }
                     ],
                     "optional": false
@@ -738,8 +725,7 @@
             "type": "Literal",
             "start": 978,
             "end": 1055,
-            "value": "Expected [] and [0, a, undefined] to have the same contents. [] and fixture",
-            "raw": "'Expected [] and [0, a, undefined] to have the same contents. [] and fixture'"
+            "value": "Expected [] and [0, a, undefined] to have the same contents. [] and fixture"
           }
         ],
         "optional": false

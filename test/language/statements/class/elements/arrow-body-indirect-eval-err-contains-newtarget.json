@@ -20,10 +20,9 @@
         "end": 1079,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1042,
-            "end": 1077,
-            "static": false,
+            "end": 1076,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -48,8 +47,7 @@
                       "type": "Literal",
                       "start": 1047,
                       "end": 1048,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Identifier",
@@ -65,8 +63,7 @@
                   "type": "Literal",
                   "start": 1056,
                   "end": 1075,
-                  "value": "() => new.target;",
-                  "raw": "'() => new.target;'"
+                  "value": "() => new.target;"
                 }
               ],
               "optional": false

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 756,
             "end": 808,
-            "value": "isConstructor(Reflect.construct) must return false",
-            "raw": "'isConstructor(Reflect.construct) must return false'"
+            "value": "isConstructor(Reflect.construct) must return false"
           }
         ],
         "optional": false
@@ -186,8 +185,7 @@
             "type": "Literal",
             "start": 897,
             "end": 963,
-            "value": "`new Reflect.construct(Function, [], Function)` throws TypeError",
-            "raw": "'`new Reflect.construct(Function, [], Function)` throws TypeError'"
+            "value": "`new Reflect.construct(Function, [], Function)` throws TypeError"
           }
         ],
         "optional": false

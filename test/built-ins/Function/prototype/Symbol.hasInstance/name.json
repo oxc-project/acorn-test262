@@ -93,8 +93,7 @@
             "type": "Literal",
             "start": 432,
             "end": 454,
-            "value": "[Symbol.hasInstance]",
-            "raw": "'[Symbol.hasInstance]'"
+            "value": "[Symbol.hasInstance]"
           }
         ],
         "optional": false
@@ -164,8 +163,7 @@
             "type": "Literal",
             "start": 519,
             "end": 525,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
             "type": "Literal",
             "start": 586,
             "end": 592,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -306,8 +303,7 @@
             "type": "Literal",
             "start": 654,
             "end": 660,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

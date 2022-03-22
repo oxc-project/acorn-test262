@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 938,
                 "end": 955,
-                "value": "class C {}/1/g;",
-                "raw": "'class C {}/1/g;'"
+                "value": "class C {}/1/g;"
               }
             ],
             "optional": false
@@ -178,8 +177,7 @@
             "type": "Literal",
             "start": 1057,
             "end": 1060,
-            "value": "g",
-            "raw": "'g'"
+            "value": "g"
           }
         ],
         "optional": false
@@ -243,8 +241,7 @@
             "type": "Literal",
             "start": 1099,
             "end": 1105,
-            "value": "/1/g",
-            "raw": "'/1/g'"
+            "value": "/1/g"
           }
         ],
         "optional": false

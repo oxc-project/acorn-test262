@@ -82,8 +82,7 @@
                     "type": "Literal",
                     "start": 417,
                     "end": 461,
-                    "value": "#1: true % null === Not-a-Number. Actual: ",
-                    "raw": "'#1: true % null === Not-a-Number. Actual: '"
+                    "value": "#1: true % null === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -152,8 +151,7 @@
           "type": "Literal",
           "start": 513,
           "end": 514,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -184,8 +182,7 @@
                     "type": "Literal",
                     "start": 543,
                     "end": 576,
-                    "value": "#2: null % true === 0. Actual: ",
-                    "raw": "'#2: null % true === 0. Actual: '"
+                    "value": "#2: null % true === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -313,8 +310,7 @@
                     "type": "Literal",
                     "start": 681,
                     "end": 738,
-                    "value": "#3: new Boolean(true) % null === Not-a-Number. Actual: ",
-                    "raw": "'#3: new Boolean(true) % null === Not-a-Number. Actual: '"
+                    "value": "#3: new Boolean(true) % null === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -409,8 +405,7 @@
           "type": "Literal",
           "start": 816,
           "end": 817,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -441,8 +436,7 @@
                     "type": "Literal",
                     "start": 846,
                     "end": 892,
-                    "value": "#4: null % new Boolean(true) === 0. Actual: ",
-                    "raw": "'#4: null % new Boolean(true) === 0. Actual: '"
+                    "value": "#4: null % new Boolean(true) === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

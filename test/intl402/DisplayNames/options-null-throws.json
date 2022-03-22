@@ -83,8 +83,7 @@
                         "type": "Literal",
                         "start": 772,
                         "end": 776,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Literal",
@@ -103,8 +102,7 @@
             "type": "Literal",
             "start": 788,
             "end": 794,
-            "value": "null",
-            "raw": "'null'"
+            "value": "null"
           }
         ],
         "optional": false

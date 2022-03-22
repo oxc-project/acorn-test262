@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(String.raw) must return false",
-            "raw": "'isConstructor(String.raw) must return false'"
+            "value": "isConstructor(String.raw) must return false"
           }
         ],
         "optional": false
@@ -202,8 +201,7 @@
             "type": "Literal",
             "start": 851,
             "end": 901,
-            "value": "`new String.raw({raw: []}, [])` throws TypeError",
-            "raw": "'`new String.raw({raw: []}, [])` throws TypeError'"
+            "value": "`new String.raw({raw: []}, [])` throws TypeError"
           }
         ],
         "optional": false

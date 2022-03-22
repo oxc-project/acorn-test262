@@ -118,8 +118,7 @@
                         "type": "Literal",
                         "start": 446,
                         "end": 499,
-                        "value": "#1: A property length have attribute { DontDelete }",
-                        "raw": "\"#1: A property length have attribute { DontDelete }\""
+                        "value": "#1: A property length have attribute { DontDelete }"
                       }
                     ]
                   }
@@ -164,8 +163,7 @@
                     "type": "Literal",
                     "start": 543,
                     "end": 578,
-                    "value": "#1: arguments object don't exists",
-                    "raw": "\"#1: arguments object don't exists\""
+                    "value": "#1: arguments object don't exists"
                   }
                 ]
               }
@@ -304,8 +302,7 @@
                         "type": "Literal",
                         "start": 699,
                         "end": 752,
-                        "value": "#2: A property length have attribute { DontDelete }",
-                        "raw": "\"#2: A property length have attribute { DontDelete }\""
+                        "value": "#2: A property length have attribute { DontDelete }"
                       }
                     ]
                   }
@@ -350,8 +347,7 @@
                     "type": "Literal",
                     "start": 796,
                     "end": 831,
-                    "value": "#2: arguments object don't exists",
-                    "raw": "\"#2: arguments object don't exists\""
+                    "value": "#2: arguments object don't exists"
                   }
                 ]
               }

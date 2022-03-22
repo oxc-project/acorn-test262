@@ -33,8 +33,7 @@
                   "type": "Literal",
                   "start": 317,
                   "end": 318,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ]
@@ -88,8 +87,7 @@
                     "type": "Literal",
                     "start": 346,
                     "end": 347,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
@@ -108,8 +106,7 @@
                       "type": "Literal",
                       "start": 360,
                       "end": 361,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 ]
@@ -135,8 +132,7 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 375,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -157,8 +153,7 @@
             "type": "Literal",
             "start": 397,
             "end": 456,
-            "value": "[1, null, void 0].flat() must return [1, null, undefined]",
-            "raw": "'[1, null, void 0].flat() must return [1, null, undefined]'"
+            "value": "[1, null, void 0].flat() must return [1, null, undefined]"
           }
         ],
         "optional": false
@@ -209,8 +204,7 @@
                     "type": "Literal",
                     "start": 484,
                     "end": 485,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "ArrayExpression",
@@ -234,8 +228,7 @@
                           "type": "Literal",
                           "start": 499,
                           "end": 500,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -263,8 +256,7 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 515,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -285,8 +277,7 @@
             "type": "Literal",
             "start": 537,
             "end": 598,
-            "value": "[1, [null, void 0]].flat() must return [1, null, undefined]",
-            "raw": "'[1, [null, void 0]].flat() must return [1, null, undefined]'"
+            "value": "[1, [null, void 0]].flat() must return [1, null, undefined]"
           }
         ],
         "optional": false
@@ -355,8 +346,7 @@
                           "type": "Literal",
                           "start": 638,
                           "end": 639,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -383,8 +373,7 @@
                           "type": "Literal",
                           "start": 656,
                           "end": 657,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -440,8 +429,7 @@
             "type": "Literal",
             "start": 705,
             "end": 795,
-            "value": "[ [null, void 0], [null, void 0] ].flat() must return [null, undefined, null, undefined]",
-            "raw": "'[ [null, void 0], [null, void 0] ].flat() must return [null, undefined, null, undefined]'"
+            "value": "[ [null, void 0], [null, void 0] ].flat() must return [null, undefined, null, undefined]"
           }
         ],
         "optional": false
@@ -492,8 +480,7 @@
                     "type": "Literal",
                     "start": 819,
                     "end": 820,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "ArrayExpression",
@@ -531,8 +518,7 @@
                 "type": "Literal",
                 "start": 838,
                 "end": 839,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -546,8 +532,7 @@
                 "type": "Literal",
                 "start": 843,
                 "end": 844,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -568,8 +553,7 @@
             "type": "Literal",
             "start": 856,
             "end": 905,
-            "value": "[1, [null, a]].flat(1) must return [1, null, a]",
-            "raw": "'[1, [null, a]].flat(1) must return [1, null, a]'"
+            "value": "[1, [null, a]].flat(1) must return [1, null, a]"
           }
         ],
         "optional": false
@@ -620,8 +604,7 @@
                     "type": "Literal",
                     "start": 932,
                     "end": 933,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "ArrayExpression",
@@ -659,8 +642,7 @@
                 "type": "Literal",
                 "start": 951,
                 "end": 952,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -674,8 +656,7 @@
                 "type": "Literal",
                 "start": 958,
                 "end": 959,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -696,8 +677,7 @@
             "type": "Literal",
             "start": 981,
             "end": 1038,
-            "value": "[1, [null, a]].flat(2) must return [1, null, undefined]",
-            "raw": "'[1, [null, a]].flat(2) must return [1, null, undefined]'"
+            "value": "[1, [null, a]].flat(2) must return [1, null, undefined]"
           }
         ],
         "optional": false

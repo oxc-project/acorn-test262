@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 365,
                 "end": 388,
-                "value": "ABCABC",
-                "raw": "\"ABC\\u0041\\u0042\\u0043\""
+                "value": "ABCABC"
               }
             ]
           }
@@ -74,8 +73,7 @@
           "type": "Literal",
           "start": 512,
           "end": 513,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -106,8 +104,7 @@
                     "type": "Literal",
                     "start": 542,
                     "end": 674,
-                    "value": "#1: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.length === 6. Actual: __str__instance.length ===",
-                    "raw": "'#1: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.length === 6. Actual: __str__instance.length ==='"
+                    "value": "#1: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.length === 6. Actual: __str__instance.length ==="
                   },
                   "operator": "+",
                   "right": {
@@ -187,8 +184,7 @@
                   "type": "Literal",
                   "start": 835,
                   "end": 839,
-                  "value": "ed",
-                  "raw": "\"ed\""
+                  "value": "ed"
                 }
               }
             ]
@@ -246,8 +242,7 @@
                   "type": "Literal",
                   "start": 892,
                   "end": 896,
-                  "value": "ed",
-                  "raw": "\"ed\""
+                  "value": "ed"
                 }
               }
             ]
@@ -274,8 +269,7 @@
           "type": "Literal",
           "start": 1013,
           "end": 1017,
-          "value": "ed",
-          "raw": "\"ed\""
+          "value": "ed"
         }
       },
       "consequent": {
@@ -306,8 +300,7 @@
                     "type": "Literal",
                     "start": 1046,
                     "end": 1267,
-                    "value": "#2: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance ==\"ed\". Actual: __str__instance ==",
-                    "raw": "'#2: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance ==\"ed\". Actual: __str__instance =='"
+                    "value": "#2: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance ==\"ed\". Actual: __str__instance =="
                   },
                   "operator": "+",
                   "right": {
@@ -356,8 +349,7 @@
           "type": "Literal",
           "start": 1493,
           "end": 1494,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -388,8 +380,7 @@
                     "type": "Literal",
                     "start": 1523,
                     "end": 1758,
-                    "value": "#3: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance.length === 6. Actual: __str__instance.length ===",
-                    "raw": "'#3: var __str__instance = new String(\"ABC\\\\u0041\\\\u0042\\\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance.length === 6. Actual: __str__instance.length ==='"
+                    "value": "#3: var __str__instance = new String(\"ABC\\u0041\\u0042\\u0043\"); __str__instance.valueOf = function(){return \"ed\"}; __str__instance.toString = function(){return \"ed\"}; __str__instance.length === 6. Actual: __str__instance.length ==="
                   },
                   "operator": "+",
                   "right": {

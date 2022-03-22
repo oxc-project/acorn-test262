@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 433,
               "end": 439,
-              "value": "lego",
-              "raw": "\"lego\""
+              "value": "lego"
             },
             "property": {
               "type": "Identifier",
@@ -43,8 +42,7 @@
           "type": "Literal",
           "start": 453,
           "end": 456,
-          "value": "l",
-          "raw": "\"l\""
+          "value": "l"
         }
       },
       "consequent": {
@@ -75,8 +73,7 @@
                     "type": "Literal",
                     "start": 485,
                     "end": 543,
-                    "value": "#1: \"lego\".charAt() === \"l\". Actual: \"lego\".charAt() ===",
-                    "raw": "'#1: \"lego\".charAt() === \"l\". Actual: \"lego\".charAt() ==='"
+                    "value": "#1: \"lego\".charAt() === \"l\". Actual: \"lego\".charAt() ==="
                   },
                   "operator": "+",
                   "right": {
@@ -95,8 +92,7 @@
                           "type": "Literal",
                           "start": 547,
                           "end": 553,
-                          "value": "lego",
-                          "raw": "\"lego\""
+                          "value": "lego"
                         },
                         "property": {
                           "type": "Identifier",

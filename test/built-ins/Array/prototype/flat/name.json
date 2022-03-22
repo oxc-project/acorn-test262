@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 416,
             "end": 422,
-            "value": "flat",
-            "raw": "'flat'"
+            "value": "flat"
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 480,
-            "value": "The value of `Array.prototype.flat.name` is `\"flat\"`",
-            "raw": "'The value of `Array.prototype.flat.name` is `\"flat\"`'"
+            "value": "The value of `Array.prototype.flat.name` is `\"flat\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 522,
             "end": 528,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

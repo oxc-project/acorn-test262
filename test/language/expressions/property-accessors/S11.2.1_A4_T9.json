@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 296,
           "end": 306,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -69,8 +68,7 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 380,
-                "value": "#1: typeof Date.parse === \"function\". Actual: ",
-                "raw": "'#1: typeof Date.parse === \"function\". Actual: '"
+                "value": "#1: typeof Date.parse === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -138,8 +136,7 @@
               "type": "Literal",
               "start": 422,
               "end": 429,
-              "value": "parse",
-              "raw": "'parse'"
+              "value": "parse"
             },
             "computed": true,
             "optional": false
@@ -150,8 +147,7 @@
           "type": "Literal",
           "start": 435,
           "end": 445,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -177,8 +173,7 @@
                 "type": "Literal",
                 "start": 471,
                 "end": 522,
-                "value": "#2: typeof Date[\"parse\"] === \"function\". Actual: ",
-                "raw": "'#2: typeof Date[\"parse\"] === \"function\". Actual: '"
+                "value": "#2: typeof Date[\"parse\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -205,8 +200,7 @@
                       "type": "Literal",
                       "start": 538,
                       "end": 545,
-                      "value": "parse",
-                      "raw": "\"parse\""
+                      "value": "parse"
                     },
                     "computed": true,
                     "optional": false
@@ -258,8 +252,7 @@
           "type": "Literal",
           "start": 581,
           "end": 589,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -285,8 +278,7 @@
                 "type": "Literal",
                 "start": 615,
                 "end": 665,
-                "value": "#3: typeof Date.prototype === \"object\". Actual: ",
-                "raw": "'#3: typeof Date.prototype === \"object\". Actual: '"
+                "value": "#3: typeof Date.prototype === \"object\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -354,8 +346,7 @@
               "type": "Literal",
               "start": 711,
               "end": 722,
-              "value": "prototype",
-              "raw": "'prototype'"
+              "value": "prototype"
             },
             "computed": true,
             "optional": false
@@ -366,8 +357,7 @@
           "type": "Literal",
           "start": 728,
           "end": 736,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -393,8 +383,7 @@
                 "type": "Literal",
                 "start": 762,
                 "end": 815,
-                "value": "#4: typeof Date[\"prototype\"] === \"object\". Actual: ",
-                "raw": "'#4: typeof Date[\"prototype\"] === \"object\". Actual: '"
+                "value": "#4: typeof Date[\"prototype\"] === \"object\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -421,8 +410,7 @@
                       "type": "Literal",
                       "start": 831,
                       "end": 842,
-                      "value": "prototype",
-                      "raw": "\"prototype\""
+                      "value": "prototype"
                     },
                     "computed": true,
                     "optional": false
@@ -474,8 +462,7 @@
           "type": "Literal",
           "start": 872,
           "end": 882,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -501,8 +488,7 @@
                 "type": "Literal",
                 "start": 908,
                 "end": 954,
-                "value": "#5: typeof Date.UTC === \"function\". Actual: ",
-                "raw": "'#5: typeof Date.UTC === \"function\". Actual: '"
+                "value": "#5: typeof Date.UTC === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -570,8 +556,7 @@
               "type": "Literal",
               "start": 994,
               "end": 999,
-              "value": "UTC",
-              "raw": "'UTC'"
+              "value": "UTC"
             },
             "computed": true,
             "optional": false
@@ -582,8 +567,7 @@
           "type": "Literal",
           "start": 1005,
           "end": 1015,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -609,8 +593,7 @@
                 "type": "Literal",
                 "start": 1041,
                 "end": 1090,
-                "value": "#6: typeof Date[\"UTC\"] === \"function\". Actual: ",
-                "raw": "'#6: typeof Date[\"UTC\"] === \"function\". Actual: '"
+                "value": "#6: typeof Date[\"UTC\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -637,8 +620,7 @@
                       "type": "Literal",
                       "start": 1106,
                       "end": 1111,
-                      "value": "UTC",
-                      "raw": "\"UTC\""
+                      "value": "UTC"
                     },
                     "computed": true,
                     "optional": false
@@ -703,8 +685,7 @@
           "type": "Literal",
           "start": 1159,
           "end": 1169,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -730,8 +711,7 @@
                 "type": "Literal",
                 "start": 1195,
                 "end": 1259,
-                "value": "#7: typeof Date.prototype.constructor === \"funvtion\". Actual: ",
-                "raw": "'#7: typeof Date.prototype.constructor === \"funvtion\". Actual: '"
+                "value": "#7: typeof Date.prototype.constructor === \"funvtion\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -825,8 +805,7 @@
               "type": "Literal",
               "start": 1327,
               "end": 1340,
-              "value": "constructor",
-              "raw": "'constructor'"
+              "value": "constructor"
             },
             "computed": true,
             "optional": false
@@ -837,8 +816,7 @@
           "type": "Literal",
           "start": 1346,
           "end": 1356,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -864,8 +842,7 @@
                 "type": "Literal",
                 "start": 1382,
                 "end": 1449,
-                "value": "#8: typeof Date.prototype[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#8: typeof Date.prototype[\"constructor\"] === \"function\". Actual: '"
+                "value": "#8: typeof Date.prototype[\"constructor\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -905,8 +882,7 @@
                       "type": "Literal",
                       "start": 1475,
                       "end": 1488,
-                      "value": "constructor",
-                      "raw": "\"constructor\""
+                      "value": "constructor"
                     },
                     "computed": true,
                     "optional": false
@@ -971,8 +947,7 @@
           "type": "Literal",
           "start": 1533,
           "end": 1543,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -998,8 +973,7 @@
                 "type": "Literal",
                 "start": 1569,
                 "end": 1630,
-                "value": "#9: typeof Date.prototype.toString === \"function\". Actual: ",
-                "raw": "'#9: typeof Date.prototype.toString === \"function\". Actual: '"
+                "value": "#9: typeof Date.prototype.toString === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1093,8 +1067,7 @@
               "type": "Literal",
               "start": 1695,
               "end": 1705,
-              "value": "toString",
-              "raw": "'toString'"
+              "value": "toString"
             },
             "computed": true,
             "optional": false
@@ -1105,8 +1078,7 @@
           "type": "Literal",
           "start": 1711,
           "end": 1721,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1132,8 +1104,7 @@
                 "type": "Literal",
                 "start": 1747,
                 "end": 1812,
-                "value": "#10: typeof Date.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#10: typeof Date.prototype[\"toString\"] === \"function\". Actual: '"
+                "value": "#10: typeof Date.prototype[\"toString\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1173,8 +1144,7 @@
                       "type": "Literal",
                       "start": 1838,
                       "end": 1848,
-                      "value": "toString",
-                      "raw": "\"toString\""
+                      "value": "toString"
                     },
                     "computed": true,
                     "optional": false
@@ -1239,8 +1209,7 @@
           "type": "Literal",
           "start": 1892,
           "end": 1902,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1266,8 +1235,7 @@
                 "type": "Literal",
                 "start": 1928,
                 "end": 1989,
-                "value": "#11: typeof Date.prototype.valueOf === \"function\". Actual: ",
-                "raw": "'#11: typeof Date.prototype.valueOf === \"function\". Actual: '"
+                "value": "#11: typeof Date.prototype.valueOf === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1361,8 +1329,7 @@
               "type": "Literal",
               "start": 2053,
               "end": 2062,
-              "value": "valueOf",
-              "raw": "'valueOf'"
+              "value": "valueOf"
             },
             "computed": true,
             "optional": false
@@ -1373,8 +1340,7 @@
           "type": "Literal",
           "start": 2068,
           "end": 2078,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1400,8 +1366,7 @@
                 "type": "Literal",
                 "start": 2104,
                 "end": 2168,
-                "value": "#12: typeof Date.prototype[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#12: typeof Date.prototype[\"valueOf\"] === \"function\". Actual: '"
+                "value": "#12: typeof Date.prototype[\"valueOf\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1441,8 +1406,7 @@
                       "type": "Literal",
                       "start": 2194,
                       "end": 2203,
-                      "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "value": "valueOf"
                     },
                     "computed": true,
                     "optional": false
@@ -1507,8 +1471,7 @@
           "type": "Literal",
           "start": 2247,
           "end": 2257,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1534,8 +1497,7 @@
                 "type": "Literal",
                 "start": 2283,
                 "end": 2344,
-                "value": "#13: typeof Date.prototype.getTime === \"function\". Actual: ",
-                "raw": "'#13: typeof Date.prototype.getTime === \"function\". Actual: '"
+                "value": "#13: typeof Date.prototype.getTime === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1629,8 +1591,7 @@
               "type": "Literal",
               "start": 2408,
               "end": 2417,
-              "value": "getTime",
-              "raw": "'getTime'"
+              "value": "getTime"
             },
             "computed": true,
             "optional": false
@@ -1641,8 +1602,7 @@
           "type": "Literal",
           "start": 2423,
           "end": 2433,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1668,8 +1628,7 @@
                 "type": "Literal",
                 "start": 2459,
                 "end": 2523,
-                "value": "#14: typeof Date.prototype[\"getTime\"] === \"function\". Actual: ",
-                "raw": "'#14: typeof Date.prototype[\"getTime\"] === \"function\". Actual: '"
+                "value": "#14: typeof Date.prototype[\"getTime\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1709,8 +1668,7 @@
                       "type": "Literal",
                       "start": 2549,
                       "end": 2558,
-                      "value": "getTime",
-                      "raw": "\"getTime\""
+                      "value": "getTime"
                     },
                     "computed": true,
                     "optional": false
@@ -1775,8 +1733,7 @@
           "type": "Literal",
           "start": 2606,
           "end": 2616,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1802,8 +1759,7 @@
                 "type": "Literal",
                 "start": 2642,
                 "end": 2707,
-                "value": "#17: typeof Date.prototype.getFullYear === \"function\". Actual: ",
-                "raw": "'#17: typeof Date.prototype.getFullYear === \"function\". Actual: '"
+                "value": "#17: typeof Date.prototype.getFullYear === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1897,8 +1853,7 @@
               "type": "Literal",
               "start": 2775,
               "end": 2788,
-              "value": "getFullYear",
-              "raw": "'getFullYear'"
+              "value": "getFullYear"
             },
             "computed": true,
             "optional": false
@@ -1909,8 +1864,7 @@
           "type": "Literal",
           "start": 2794,
           "end": 2804,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1936,8 +1890,7 @@
                 "type": "Literal",
                 "start": 2830,
                 "end": 2898,
-                "value": "#18: typeof Date.prototype[\"getFullYear\"] === \"function\". Actual: ",
-                "raw": "'#18: typeof Date.prototype[\"getFullYear\"] === \"function\". Actual: '"
+                "value": "#18: typeof Date.prototype[\"getFullYear\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1977,8 +1930,7 @@
                       "type": "Literal",
                       "start": 2924,
                       "end": 2937,
-                      "value": "getFullYear",
-                      "raw": "\"getFullYear\""
+                      "value": "getFullYear"
                     },
                     "computed": true,
                     "optional": false
@@ -2043,8 +1995,7 @@
           "type": "Literal",
           "start": 2988,
           "end": 2998,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -2070,8 +2021,7 @@
                 "type": "Literal",
                 "start": 3024,
                 "end": 3092,
-                "value": "#19: typeof Date.prototype.getUTCFullYear === \"function\". Actual: ",
-                "raw": "'#19: typeof Date.prototype.getUTCFullYear === \"function\". Actual: '"
+                "value": "#19: typeof Date.prototype.getUTCFullYear === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -2165,8 +2115,7 @@
               "type": "Literal",
               "start": 3163,
               "end": 3179,
-              "value": "getUTCFullYear",
-              "raw": "'getUTCFullYear'"
+              "value": "getUTCFullYear"
             },
             "computed": true,
             "optional": false
@@ -2177,8 +2126,7 @@
           "type": "Literal",
           "start": 3185,
           "end": 3195,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -2204,8 +2152,7 @@
                 "type": "Literal",
                 "start": 3221,
                 "end": 3292,
-                "value": "#20: typeof Date.prototype[\"getUTCFullYear\"] === \"function\". Actual: ",
-                "raw": "'#20: typeof Date.prototype[\"getUTCFullYear\"] === \"function\". Actual: '"
+                "value": "#20: typeof Date.prototype[\"getUTCFullYear\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -2245,8 +2192,7 @@
                       "type": "Literal",
                       "start": 3318,
                       "end": 3334,
-                      "value": "getUTCFullYear",
-                      "raw": "\"getUTCFullYear\""
+                      "value": "getUTCFullYear"
                     },
                     "computed": true,
                     "optional": false
@@ -2311,8 +2257,7 @@
           "type": "Literal",
           "start": 3379,
           "end": 3389,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -2338,8 +2283,7 @@
                 "type": "Literal",
                 "start": 3415,
                 "end": 3477,
-                "value": "#21: typeof Date.prototype.getMonth === \"function\". Actual: ",
-                "raw": "'#21: typeof Date.prototype.getMonth === \"function\". Actual: '"
+                "value": "#21: typeof Date.prototype.getMonth === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -2433,8 +2377,7 @@
               "type": "Literal",
               "start": 3542,
               "end": 3552,
-              "value": "getMonth",
-              "raw": "'getMonth'"
+              "value": "getMonth"
             },
             "computed": true,
             "optional": false
@@ -2445,8 +2388,7 @@
           "type": "Literal",
           "start": 3558,
           "end": 3568,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -2472,8 +2414,7 @@
                 "type": "Literal",
                 "start": 3594,
                 "end": 3659,
-                "value": "#22: typeof Date.prototype[\"getMonth\"] === \"function\". Actual: ",
-                "raw": "'#22: typeof Date.prototype[\"getMonth\"] === \"function\". Actual: '"
+                "value": "#22: typeof Date.prototype[\"getMonth\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -2513,8 +2454,7 @@
                       "type": "Literal",
                       "start": 3685,
                       "end": 3695,
-                      "value": "getMonth",
-                      "raw": "\"getMonth\""
+                      "value": "getMonth"
                     },
                     "computed": true,
                     "optional": false
@@ -2579,8 +2519,7 @@
           "type": "Literal",
           "start": 3743,
           "end": 3753,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -2606,8 +2545,7 @@
                 "type": "Literal",
                 "start": 3779,
                 "end": 3844,
-                "value": "#23: typeof Date.prototype.getUTCMonth === \"function\". Actual: ",
-                "raw": "'#23: typeof Date.prototype.getUTCMonth === \"function\". Actual: '"
+                "value": "#23: typeof Date.prototype.getUTCMonth === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -2701,8 +2639,7 @@
               "type": "Literal",
               "start": 3912,
               "end": 3925,
-              "value": "getUTCMonth",
-              "raw": "'getUTCMonth'"
+              "value": "getUTCMonth"
             },
             "computed": true,
             "optional": false
@@ -2713,8 +2650,7 @@
           "type": "Literal",
           "start": 3931,
           "end": 3941,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -2740,8 +2676,7 @@
                 "type": "Literal",
                 "start": 3967,
                 "end": 4035,
-                "value": "#24: typeof Date.prototype[\"getUTCMonth\"] === \"function\". Actual: ",
-                "raw": "'#24: typeof Date.prototype[\"getUTCMonth\"] === \"function\". Actual: '"
+                "value": "#24: typeof Date.prototype[\"getUTCMonth\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -2781,8 +2716,7 @@
                       "type": "Literal",
                       "start": 4061,
                       "end": 4074,
-                      "value": "getUTCMonth",
-                      "raw": "\"getUTCMonth\""
+                      "value": "getUTCMonth"
                     },
                     "computed": true,
                     "optional": false
@@ -2847,8 +2781,7 @@
           "type": "Literal",
           "start": 4118,
           "end": 4128,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -2874,8 +2807,7 @@
                 "type": "Literal",
                 "start": 4154,
                 "end": 4215,
-                "value": "#25: typeof Date.prototype.getDate === \"function\". Actual: ",
-                "raw": "'#25: typeof Date.prototype.getDate === \"function\". Actual: '"
+                "value": "#25: typeof Date.prototype.getDate === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -2969,8 +2901,7 @@
               "type": "Literal",
               "start": 4279,
               "end": 4288,
-              "value": "getDate",
-              "raw": "'getDate'"
+              "value": "getDate"
             },
             "computed": true,
             "optional": false
@@ -2981,8 +2912,7 @@
           "type": "Literal",
           "start": 4294,
           "end": 4304,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -3008,8 +2938,7 @@
                 "type": "Literal",
                 "start": 4330,
                 "end": 4394,
-                "value": "#26: typeof Date.prototype[\"getDate\"] === \"function\". Actual: ",
-                "raw": "'#26: typeof Date.prototype[\"getDate\"] === \"function\". Actual: '"
+                "value": "#26: typeof Date.prototype[\"getDate\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -3049,8 +2978,7 @@
                       "type": "Literal",
                       "start": 4420,
                       "end": 4429,
-                      "value": "getDate",
-                      "raw": "\"getDate\""
+                      "value": "getDate"
                     },
                     "computed": true,
                     "optional": false
@@ -3115,8 +3043,7 @@
           "type": "Literal",
           "start": 4476,
           "end": 4486,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -3142,8 +3069,7 @@
                 "type": "Literal",
                 "start": 4512,
                 "end": 4576,
-                "value": "#27: typeof Date.prototype.getUTCDate === \"function\". Actual: ",
-                "raw": "'#27: typeof Date.prototype.getUTCDate === \"function\". Actual: '"
+                "value": "#27: typeof Date.prototype.getUTCDate === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -3237,8 +3163,7 @@
               "type": "Literal",
               "start": 4643,
               "end": 4655,
-              "value": "getUTCDate",
-              "raw": "'getUTCDate'"
+              "value": "getUTCDate"
             },
             "computed": true,
             "optional": false
@@ -3249,8 +3174,7 @@
           "type": "Literal",
           "start": 4661,
           "end": 4671,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -3276,8 +3200,7 @@
                 "type": "Literal",
                 "start": 4697,
                 "end": 4764,
-                "value": "#28: typeof Date.prototype[\"getUTCDate\"] === \"function\". Actual: ",
-                "raw": "'#28: typeof Date.prototype[\"getUTCDate\"] === \"function\". Actual: '"
+                "value": "#28: typeof Date.prototype[\"getUTCDate\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -3317,8 +3240,7 @@
                       "type": "Literal",
                       "start": 4790,
                       "end": 4802,
-                      "value": "getUTCDate",
-                      "raw": "\"getUTCDate\""
+                      "value": "getUTCDate"
                     },
                     "computed": true,
                     "optional": false
@@ -3383,8 +3305,7 @@
           "type": "Literal",
           "start": 4845,
           "end": 4855,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -3410,8 +3331,7 @@
                 "type": "Literal",
                 "start": 4881,
                 "end": 4941,
-                "value": "#29: typeof Date.prototype.getDay === \"function\". Actual: ",
-                "raw": "'#29: typeof Date.prototype.getDay === \"function\". Actual: '"
+                "value": "#29: typeof Date.prototype.getDay === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -3505,8 +3425,7 @@
               "type": "Literal",
               "start": 5004,
               "end": 5012,
-              "value": "getDay",
-              "raw": "'getDay'"
+              "value": "getDay"
             },
             "computed": true,
             "optional": false
@@ -3517,8 +3436,7 @@
           "type": "Literal",
           "start": 5018,
           "end": 5028,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -3544,8 +3462,7 @@
                 "type": "Literal",
                 "start": 5054,
                 "end": 5117,
-                "value": "#30: typeof Date.prototype[\"getDay\"] === \"function\". Actual: ",
-                "raw": "'#30: typeof Date.prototype[\"getDay\"] === \"function\". Actual: '"
+                "value": "#30: typeof Date.prototype[\"getDay\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -3585,8 +3502,7 @@
                       "type": "Literal",
                       "start": 5143,
                       "end": 5151,
-                      "value": "getDay",
-                      "raw": "\"getDay\""
+                      "value": "getDay"
                     },
                     "computed": true,
                     "optional": false
@@ -3651,8 +3567,7 @@
           "type": "Literal",
           "start": 5197,
           "end": 5207,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -3678,8 +3593,7 @@
                 "type": "Literal",
                 "start": 5233,
                 "end": 5296,
-                "value": "#31: typeof Date.prototype.getUTCDay === \"function\". Actual: ",
-                "raw": "'#31: typeof Date.prototype.getUTCDay === \"function\". Actual: '"
+                "value": "#31: typeof Date.prototype.getUTCDay === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -3773,8 +3687,7 @@
               "type": "Literal",
               "start": 5362,
               "end": 5373,
-              "value": "getUTCDay",
-              "raw": "'getUTCDay'"
+              "value": "getUTCDay"
             },
             "computed": true,
             "optional": false
@@ -3785,8 +3698,7 @@
           "type": "Literal",
           "start": 5379,
           "end": 5389,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -3812,8 +3724,7 @@
                 "type": "Literal",
                 "start": 5415,
                 "end": 5481,
-                "value": "#32: typeof Date.prototype[\"getUTCDay\"] === \"function\". Actual: ",
-                "raw": "'#32: typeof Date.prototype[\"getUTCDay\"] === \"function\". Actual: '"
+                "value": "#32: typeof Date.prototype[\"getUTCDay\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -3853,8 +3764,7 @@
                       "type": "Literal",
                       "start": 5507,
                       "end": 5518,
-                      "value": "getUTCDay",
-                      "raw": "\"getUTCDay\""
+                      "value": "getUTCDay"
                     },
                     "computed": true,
                     "optional": false
@@ -3919,8 +3829,7 @@
           "type": "Literal",
           "start": 5563,
           "end": 5573,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -3946,8 +3855,7 @@
                 "type": "Literal",
                 "start": 5599,
                 "end": 5661,
-                "value": "#33: typeof Date.prototype.getHours === \"function\". Actual: ",
-                "raw": "'#33: typeof Date.prototype.getHours === \"function\". Actual: '"
+                "value": "#33: typeof Date.prototype.getHours === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -4041,8 +3949,7 @@
               "type": "Literal",
               "start": 5726,
               "end": 5736,
-              "value": "getHours",
-              "raw": "'getHours'"
+              "value": "getHours"
             },
             "computed": true,
             "optional": false
@@ -4053,8 +3960,7 @@
           "type": "Literal",
           "start": 5742,
           "end": 5752,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -4080,8 +3986,7 @@
                 "type": "Literal",
                 "start": 5778,
                 "end": 5843,
-                "value": "#34: typeof Date.prototype[\"getHours\"] === \"function\". Actual: ",
-                "raw": "'#34: typeof Date.prototype[\"getHours\"] === \"function\". Actual: '"
+                "value": "#34: typeof Date.prototype[\"getHours\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -4121,8 +4026,7 @@
                       "type": "Literal",
                       "start": 5869,
                       "end": 5879,
-                      "value": "getHours",
-                      "raw": "\"getHours\""
+                      "value": "getHours"
                     },
                     "computed": true,
                     "optional": false
@@ -4187,8 +4091,7 @@
           "type": "Literal",
           "start": 5927,
           "end": 5937,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -4214,8 +4117,7 @@
                 "type": "Literal",
                 "start": 5963,
                 "end": 6028,
-                "value": "#35: typeof Date.prototype.getUTCHours === \"function\". Actual: ",
-                "raw": "'#35: typeof Date.prototype.getUTCHours === \"function\". Actual: '"
+                "value": "#35: typeof Date.prototype.getUTCHours === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -4309,8 +4211,7 @@
               "type": "Literal",
               "start": 6096,
               "end": 6109,
-              "value": "getUTCHours",
-              "raw": "'getUTCHours'"
+              "value": "getUTCHours"
             },
             "computed": true,
             "optional": false
@@ -4321,8 +4222,7 @@
           "type": "Literal",
           "start": 6115,
           "end": 6125,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -4348,8 +4248,7 @@
                 "type": "Literal",
                 "start": 6151,
                 "end": 6219,
-                "value": "#36: typeof Date.prototype[\"getUTCHours\"] === \"function\". Actual: ",
-                "raw": "'#36: typeof Date.prototype[\"getUTCHours\"] === \"function\". Actual: '"
+                "value": "#36: typeof Date.prototype[\"getUTCHours\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -4389,8 +4288,7 @@
                       "type": "Literal",
                       "start": 6245,
                       "end": 6258,
-                      "value": "getUTCHours",
-                      "raw": "\"getUTCHours\""
+                      "value": "getUTCHours"
                     },
                     "computed": true,
                     "optional": false
@@ -4455,8 +4353,7 @@
           "type": "Literal",
           "start": 6305,
           "end": 6315,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -4482,8 +4379,7 @@
                 "type": "Literal",
                 "start": 6341,
                 "end": 6405,
-                "value": "#37: typeof Date.prototype.getMinutes === \"function\". Actual: ",
-                "raw": "'#37: typeof Date.prototype.getMinutes === \"function\". Actual: '"
+                "value": "#37: typeof Date.prototype.getMinutes === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -4577,8 +4473,7 @@
               "type": "Literal",
               "start": 6472,
               "end": 6484,
-              "value": "getMinutes",
-              "raw": "'getMinutes'"
+              "value": "getMinutes"
             },
             "computed": true,
             "optional": false
@@ -4589,8 +4484,7 @@
           "type": "Literal",
           "start": 6490,
           "end": 6500,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -4616,8 +4510,7 @@
                 "type": "Literal",
                 "start": 6526,
                 "end": 6593,
-                "value": "#38: typeof Date.prototype[\"getMinutes\"] === \"function\". Actual: ",
-                "raw": "'#38: typeof Date.prototype[\"getMinutes\"] === \"function\". Actual: '"
+                "value": "#38: typeof Date.prototype[\"getMinutes\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -4657,8 +4550,7 @@
                       "type": "Literal",
                       "start": 6619,
                       "end": 6631,
-                      "value": "getMinutes",
-                      "raw": "\"getMinutes\""
+                      "value": "getMinutes"
                     },
                     "computed": true,
                     "optional": false
@@ -4723,8 +4615,7 @@
           "type": "Literal",
           "start": 6681,
           "end": 6691,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -4750,8 +4641,7 @@
                 "type": "Literal",
                 "start": 6717,
                 "end": 6784,
-                "value": "#39: typeof Date.prototype.getUTCMinutes === \"function\". Actual: ",
-                "raw": "'#39: typeof Date.prototype.getUTCMinutes === \"function\". Actual: '"
+                "value": "#39: typeof Date.prototype.getUTCMinutes === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -4845,8 +4735,7 @@
               "type": "Literal",
               "start": 6854,
               "end": 6869,
-              "value": "getUTCMinutes",
-              "raw": "'getUTCMinutes'"
+              "value": "getUTCMinutes"
             },
             "computed": true,
             "optional": false
@@ -4857,8 +4746,7 @@
           "type": "Literal",
           "start": 6875,
           "end": 6885,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -4884,8 +4772,7 @@
                 "type": "Literal",
                 "start": 6911,
                 "end": 6981,
-                "value": "#40: typeof Date.prototype[\"getUTCMinutes\"] === \"function\". Actual: ",
-                "raw": "'#40: typeof Date.prototype[\"getUTCMinutes\"] === \"function\". Actual: '"
+                "value": "#40: typeof Date.prototype[\"getUTCMinutes\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -4925,8 +4812,7 @@
                       "type": "Literal",
                       "start": 7007,
                       "end": 7022,
-                      "value": "getUTCMinutes",
-                      "raw": "\"getUTCMinutes\""
+                      "value": "getUTCMinutes"
                     },
                     "computed": true,
                     "optional": false
@@ -4991,8 +4877,7 @@
           "type": "Literal",
           "start": 7069,
           "end": 7079,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -5018,8 +4903,7 @@
                 "type": "Literal",
                 "start": 7105,
                 "end": 7169,
-                "value": "#41: typeof Date.prototype.getSeconds === \"function\". Actual: ",
-                "raw": "'#41: typeof Date.prototype.getSeconds === \"function\". Actual: '"
+                "value": "#41: typeof Date.prototype.getSeconds === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -5113,8 +4997,7 @@
               "type": "Literal",
               "start": 7236,
               "end": 7248,
-              "value": "getSeconds",
-              "raw": "'getSeconds'"
+              "value": "getSeconds"
             },
             "computed": true,
             "optional": false
@@ -5125,8 +5008,7 @@
           "type": "Literal",
           "start": 7254,
           "end": 7264,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -5152,8 +5034,7 @@
                 "type": "Literal",
                 "start": 7290,
                 "end": 7357,
-                "value": "#42: typeof Date.prototype[\"getSeconds\"] === \"function\". Actual: ",
-                "raw": "'#42: typeof Date.prototype[\"getSeconds\"] === \"function\". Actual: '"
+                "value": "#42: typeof Date.prototype[\"getSeconds\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -5193,8 +5074,7 @@
                       "type": "Literal",
                       "start": 7383,
                       "end": 7395,
-                      "value": "getSeconds",
-                      "raw": "\"getSeconds\""
+                      "value": "getSeconds"
                     },
                     "computed": true,
                     "optional": false
@@ -5259,8 +5139,7 @@
           "type": "Literal",
           "start": 7445,
           "end": 7455,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -5286,8 +5165,7 @@
                 "type": "Literal",
                 "start": 7481,
                 "end": 7548,
-                "value": "#43: typeof Date.prototype.getUTCSeconds === \"function\". Actual: ",
-                "raw": "'#43: typeof Date.prototype.getUTCSeconds === \"function\". Actual: '"
+                "value": "#43: typeof Date.prototype.getUTCSeconds === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -5381,8 +5259,7 @@
               "type": "Literal",
               "start": 7618,
               "end": 7633,
-              "value": "getUTCSeconds",
-              "raw": "'getUTCSeconds'"
+              "value": "getUTCSeconds"
             },
             "computed": true,
             "optional": false
@@ -5393,8 +5270,7 @@
           "type": "Literal",
           "start": 7639,
           "end": 7649,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -5420,8 +5296,7 @@
                 "type": "Literal",
                 "start": 7675,
                 "end": 7745,
-                "value": "#44: typeof Date.prototype[\"getUTCSeconds\"] === \"function\". Actual: ",
-                "raw": "'#44: typeof Date.prototype[\"getUTCSeconds\"] === \"function\". Actual: '"
+                "value": "#44: typeof Date.prototype[\"getUTCSeconds\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -5461,8 +5336,7 @@
                       "type": "Literal",
                       "start": 7771,
                       "end": 7786,
-                      "value": "getUTCSeconds",
-                      "raw": "\"getUTCSeconds\""
+                      "value": "getUTCSeconds"
                     },
                     "computed": true,
                     "optional": false
@@ -5527,8 +5401,7 @@
           "type": "Literal",
           "start": 7838,
           "end": 7848,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -5554,8 +5427,7 @@
                 "type": "Literal",
                 "start": 7874,
                 "end": 7943,
-                "value": "#45: typeof Date.prototype.getMilliseconds === \"function\". Actual: ",
-                "raw": "'#45: typeof Date.prototype.getMilliseconds === \"function\". Actual: '"
+                "value": "#45: typeof Date.prototype.getMilliseconds === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -5649,8 +5521,7 @@
               "type": "Literal",
               "start": 8015,
               "end": 8032,
-              "value": "getMilliseconds",
-              "raw": "'getMilliseconds'"
+              "value": "getMilliseconds"
             },
             "computed": true,
             "optional": false
@@ -5661,8 +5532,7 @@
           "type": "Literal",
           "start": 8038,
           "end": 8048,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -5688,8 +5558,7 @@
                 "type": "Literal",
                 "start": 8074,
                 "end": 8146,
-                "value": "#46: typeof Date.prototype[\"getMilliseconds\"] === \"function\". Actual: ",
-                "raw": "'#46: typeof Date.prototype[\"getMilliseconds\"] === \"function\". Actual: '"
+                "value": "#46: typeof Date.prototype[\"getMilliseconds\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -5729,8 +5598,7 @@
                       "type": "Literal",
                       "start": 8172,
                       "end": 8189,
-                      "value": "getMilliseconds",
-                      "raw": "\"getMilliseconds\""
+                      "value": "getMilliseconds"
                     },
                     "computed": true,
                     "optional": false
@@ -5795,8 +5663,7 @@
           "type": "Literal",
           "start": 8244,
           "end": 8254,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -5822,8 +5689,7 @@
                 "type": "Literal",
                 "start": 8280,
                 "end": 8352,
-                "value": "#47: typeof Date.prototype.getUTCMilliseconds === \"function\". Actual: ",
-                "raw": "'#47: typeof Date.prototype.getUTCMilliseconds === \"function\". Actual: '"
+                "value": "#47: typeof Date.prototype.getUTCMilliseconds === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -5917,8 +5783,7 @@
               "type": "Literal",
               "start": 8427,
               "end": 8447,
-              "value": "getUTCMilliseconds",
-              "raw": "'getUTCMilliseconds'"
+              "value": "getUTCMilliseconds"
             },
             "computed": true,
             "optional": false
@@ -5929,8 +5794,7 @@
           "type": "Literal",
           "start": 8453,
           "end": 8463,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -5956,8 +5820,7 @@
                 "type": "Literal",
                 "start": 8489,
                 "end": 8564,
-                "value": "#48: typeof Date.prototype[\"getUTCMilliseconds\"] === \"function\". Actual: ",
-                "raw": "'#48: typeof Date.prototype[\"getUTCMilliseconds\"] === \"function\". Actual: '"
+                "value": "#48: typeof Date.prototype[\"getUTCMilliseconds\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -5997,8 +5860,7 @@
                       "type": "Literal",
                       "start": 8590,
                       "end": 8610,
-                      "value": "getUTCMilliseconds",
-                      "raw": "\"getUTCMilliseconds\""
+                      "value": "getUTCMilliseconds"
                     },
                     "computed": true,
                     "optional": false
@@ -6063,8 +5925,7 @@
           "type": "Literal",
           "start": 8654,
           "end": 8664,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -6090,8 +5951,7 @@
                 "type": "Literal",
                 "start": 8690,
                 "end": 8751,
-                "value": "#49: typeof Date.prototype.setTime === \"function\". Actual: ",
-                "raw": "'#49: typeof Date.prototype.setTime === \"function\". Actual: '"
+                "value": "#49: typeof Date.prototype.setTime === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -6185,8 +6045,7 @@
               "type": "Literal",
               "start": 8815,
               "end": 8824,
-              "value": "setTime",
-              "raw": "'setTime'"
+              "value": "setTime"
             },
             "computed": true,
             "optional": false
@@ -6197,8 +6056,7 @@
           "type": "Literal",
           "start": 8830,
           "end": 8840,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -6224,8 +6082,7 @@
                 "type": "Literal",
                 "start": 8866,
                 "end": 8930,
-                "value": "#50: typeof Date.prototype[\"setTime\"] === \"function\". Actual: ",
-                "raw": "'#50: typeof Date.prototype[\"setTime\"] === \"function\". Actual: '"
+                "value": "#50: typeof Date.prototype[\"setTime\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -6265,8 +6122,7 @@
                       "type": "Literal",
                       "start": 8956,
                       "end": 8965,
-                      "value": "setTime",
-                      "raw": "\"setTime\""
+                      "value": "setTime"
                     },
                     "computed": true,
                     "optional": false
@@ -6331,8 +6187,7 @@
           "type": "Literal",
           "start": 9017,
           "end": 9027,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -6358,8 +6213,7 @@
                 "type": "Literal",
                 "start": 9053,
                 "end": 9122,
-                "value": "#51: typeof Date.prototype.setMilliseconds === \"function\". Actual: ",
-                "raw": "'#51: typeof Date.prototype.setMilliseconds === \"function\". Actual: '"
+                "value": "#51: typeof Date.prototype.setMilliseconds === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -6453,8 +6307,7 @@
               "type": "Literal",
               "start": 9194,
               "end": 9211,
-              "value": "setMilliseconds",
-              "raw": "'setMilliseconds'"
+              "value": "setMilliseconds"
             },
             "computed": true,
             "optional": false
@@ -6465,8 +6318,7 @@
           "type": "Literal",
           "start": 9217,
           "end": 9227,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -6492,8 +6344,7 @@
                 "type": "Literal",
                 "start": 9253,
                 "end": 9325,
-                "value": "#52: typeof Date.prototype[\"setMilliseconds\"] === \"function\". Actual: ",
-                "raw": "'#52: typeof Date.prototype[\"setMilliseconds\"] === \"function\". Actual: '"
+                "value": "#52: typeof Date.prototype[\"setMilliseconds\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -6533,8 +6384,7 @@
                       "type": "Literal",
                       "start": 9351,
                       "end": 9368,
-                      "value": "setMilliseconds",
-                      "raw": "\"setMilliseconds\""
+                      "value": "setMilliseconds"
                     },
                     "computed": true,
                     "optional": false
@@ -6599,8 +6449,7 @@
           "type": "Literal",
           "start": 9423,
           "end": 9433,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -6626,8 +6475,7 @@
                 "type": "Literal",
                 "start": 9459,
                 "end": 9531,
-                "value": "#53: typeof Date.prototype.setUTCMilliseconds === \"function\". Actual: ",
-                "raw": "'#53: typeof Date.prototype.setUTCMilliseconds === \"function\". Actual: '"
+                "value": "#53: typeof Date.prototype.setUTCMilliseconds === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -6721,8 +6569,7 @@
               "type": "Literal",
               "start": 9606,
               "end": 9626,
-              "value": "setUTCMilliseconds",
-              "raw": "'setUTCMilliseconds'"
+              "value": "setUTCMilliseconds"
             },
             "computed": true,
             "optional": false
@@ -6733,8 +6580,7 @@
           "type": "Literal",
           "start": 9632,
           "end": 9642,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -6760,8 +6606,7 @@
                 "type": "Literal",
                 "start": 9668,
                 "end": 9743,
-                "value": "#54: typeof Date.prototype[\"setUTCMilliseconds\"] === \"function\". Actual: ",
-                "raw": "'#54: typeof Date.prototype[\"setUTCMilliseconds\"] === \"function\". Actual: '"
+                "value": "#54: typeof Date.prototype[\"setUTCMilliseconds\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -6801,8 +6646,7 @@
                       "type": "Literal",
                       "start": 9769,
                       "end": 9789,
-                      "value": "setUTCMilliseconds",
-                      "raw": "\"setUTCMilliseconds\""
+                      "value": "setUTCMilliseconds"
                     },
                     "computed": true,
                     "optional": false
@@ -6867,8 +6711,7 @@
           "type": "Literal",
           "start": 9836,
           "end": 9846,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -6894,8 +6737,7 @@
                 "type": "Literal",
                 "start": 9872,
                 "end": 9936,
-                "value": "#55: typeof Date.prototype.setSeconds === \"function\". Actual: ",
-                "raw": "'#55: typeof Date.prototype.setSeconds === \"function\". Actual: '"
+                "value": "#55: typeof Date.prototype.setSeconds === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -6989,8 +6831,7 @@
               "type": "Literal",
               "start": 10003,
               "end": 10015,
-              "value": "setSeconds",
-              "raw": "'setSeconds'"
+              "value": "setSeconds"
             },
             "computed": true,
             "optional": false
@@ -7001,8 +6842,7 @@
           "type": "Literal",
           "start": 10021,
           "end": 10031,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -7028,8 +6868,7 @@
                 "type": "Literal",
                 "start": 10057,
                 "end": 10124,
-                "value": "#56: typeof Date.prototype[\"setSeconds\"] === \"function\". Actual: ",
-                "raw": "'#56: typeof Date.prototype[\"setSeconds\"] === \"function\". Actual: '"
+                "value": "#56: typeof Date.prototype[\"setSeconds\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -7069,8 +6908,7 @@
                       "type": "Literal",
                       "start": 10150,
                       "end": 10162,
-                      "value": "setSeconds",
-                      "raw": "\"setSeconds\""
+                      "value": "setSeconds"
                     },
                     "computed": true,
                     "optional": false
@@ -7135,8 +6973,7 @@
           "type": "Literal",
           "start": 10212,
           "end": 10222,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -7162,8 +6999,7 @@
                 "type": "Literal",
                 "start": 10248,
                 "end": 10315,
-                "value": "#57: typeof Date.prototype.setUTCSeconds === \"function\". Actual: ",
-                "raw": "'#57: typeof Date.prototype.setUTCSeconds === \"function\". Actual: '"
+                "value": "#57: typeof Date.prototype.setUTCSeconds === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -7257,8 +7093,7 @@
               "type": "Literal",
               "start": 10385,
               "end": 10400,
-              "value": "setUTCSeconds",
-              "raw": "'setUTCSeconds'"
+              "value": "setUTCSeconds"
             },
             "computed": true,
             "optional": false
@@ -7269,8 +7104,7 @@
           "type": "Literal",
           "start": 10406,
           "end": 10416,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -7296,8 +7130,7 @@
                 "type": "Literal",
                 "start": 10442,
                 "end": 10512,
-                "value": "#58: typeof Date.prototype[\"setUTCSeconds\"] === \"function\". Actual: ",
-                "raw": "'#58: typeof Date.prototype[\"setUTCSeconds\"] === \"function\". Actual: '"
+                "value": "#58: typeof Date.prototype[\"setUTCSeconds\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -7337,8 +7170,7 @@
                       "type": "Literal",
                       "start": 10538,
                       "end": 10553,
-                      "value": "setUTCSeconds",
-                      "raw": "\"setUTCSeconds\""
+                      "value": "setUTCSeconds"
                     },
                     "computed": true,
                     "optional": false
@@ -7403,8 +7235,7 @@
           "type": "Literal",
           "start": 10600,
           "end": 10610,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -7430,8 +7261,7 @@
                 "type": "Literal",
                 "start": 10636,
                 "end": 10700,
-                "value": "#59: typeof Date.prototype.setMinutes === \"function\". Actual: ",
-                "raw": "'#59: typeof Date.prototype.setMinutes === \"function\". Actual: '"
+                "value": "#59: typeof Date.prototype.setMinutes === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -7525,8 +7355,7 @@
               "type": "Literal",
               "start": 10767,
               "end": 10779,
-              "value": "setMinutes",
-              "raw": "'setMinutes'"
+              "value": "setMinutes"
             },
             "computed": true,
             "optional": false
@@ -7537,8 +7366,7 @@
           "type": "Literal",
           "start": 10785,
           "end": 10795,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -7564,8 +7392,7 @@
                 "type": "Literal",
                 "start": 10821,
                 "end": 10888,
-                "value": "#60: typeof Date.prototype[\"setMinutes\"] === \"function\". Actual: ",
-                "raw": "'#60: typeof Date.prototype[\"setMinutes\"] === \"function\". Actual: '"
+                "value": "#60: typeof Date.prototype[\"setMinutes\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -7605,8 +7432,7 @@
                       "type": "Literal",
                       "start": 10914,
                       "end": 10926,
-                      "value": "setMinutes",
-                      "raw": "\"setMinutes\""
+                      "value": "setMinutes"
                     },
                     "computed": true,
                     "optional": false
@@ -7671,8 +7497,7 @@
           "type": "Literal",
           "start": 10976,
           "end": 10986,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -7698,8 +7523,7 @@
                 "type": "Literal",
                 "start": 11012,
                 "end": 11079,
-                "value": "#61: typeof Date.prototype.setUTCMinutes === \"function\". Actual: ",
-                "raw": "'#61: typeof Date.prototype.setUTCMinutes === \"function\". Actual: '"
+                "value": "#61: typeof Date.prototype.setUTCMinutes === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -7793,8 +7617,7 @@
               "type": "Literal",
               "start": 11149,
               "end": 11164,
-              "value": "setUTCMinutes",
-              "raw": "'setUTCMinutes'"
+              "value": "setUTCMinutes"
             },
             "computed": true,
             "optional": false
@@ -7805,8 +7628,7 @@
           "type": "Literal",
           "start": 11170,
           "end": 11180,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -7832,8 +7654,7 @@
                 "type": "Literal",
                 "start": 11206,
                 "end": 11276,
-                "value": "#62: typeof Date.prototype[\"setUTCMinutes\"] === \"function\". Actual: ",
-                "raw": "'#62: typeof Date.prototype[\"setUTCMinutes\"] === \"function\". Actual: '"
+                "value": "#62: typeof Date.prototype[\"setUTCMinutes\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -7873,8 +7694,7 @@
                       "type": "Literal",
                       "start": 11302,
                       "end": 11317,
-                      "value": "setUTCMinutes",
-                      "raw": "\"setUTCMinutes\""
+                      "value": "setUTCMinutes"
                     },
                     "computed": true,
                     "optional": false
@@ -7939,8 +7759,7 @@
           "type": "Literal",
           "start": 11362,
           "end": 11372,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -7966,8 +7785,7 @@
                 "type": "Literal",
                 "start": 11398,
                 "end": 11460,
-                "value": "#63: typeof Date.prototype.setHours === \"function\". Actual: ",
-                "raw": "'#63: typeof Date.prototype.setHours === \"function\". Actual: '"
+                "value": "#63: typeof Date.prototype.setHours === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -8061,8 +7879,7 @@
               "type": "Literal",
               "start": 11525,
               "end": 11535,
-              "value": "setHours",
-              "raw": "'setHours'"
+              "value": "setHours"
             },
             "computed": true,
             "optional": false
@@ -8073,8 +7890,7 @@
           "type": "Literal",
           "start": 11541,
           "end": 11551,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -8100,8 +7916,7 @@
                 "type": "Literal",
                 "start": 11577,
                 "end": 11642,
-                "value": "#64: typeof Date.prototype[\"setHours\"] === \"function\". Actual: ",
-                "raw": "'#64: typeof Date.prototype[\"setHours\"] === \"function\". Actual: '"
+                "value": "#64: typeof Date.prototype[\"setHours\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -8141,8 +7956,7 @@
                       "type": "Literal",
                       "start": 11668,
                       "end": 11678,
-                      "value": "setHours",
-                      "raw": "\"setHours\""
+                      "value": "setHours"
                     },
                     "computed": true,
                     "optional": false
@@ -8207,8 +8021,7 @@
           "type": "Literal",
           "start": 11726,
           "end": 11736,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -8234,8 +8047,7 @@
                 "type": "Literal",
                 "start": 11762,
                 "end": 11827,
-                "value": "#65: typeof Date.prototype.setUTCHours === \"function\". Actual: ",
-                "raw": "'#65: typeof Date.prototype.setUTCHours === \"function\". Actual: '"
+                "value": "#65: typeof Date.prototype.setUTCHours === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -8329,8 +8141,7 @@
               "type": "Literal",
               "start": 11895,
               "end": 11908,
-              "value": "setUTCHours",
-              "raw": "'setUTCHours'"
+              "value": "setUTCHours"
             },
             "computed": true,
             "optional": false
@@ -8341,8 +8152,7 @@
           "type": "Literal",
           "start": 11914,
           "end": 11924,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -8368,8 +8178,7 @@
                 "type": "Literal",
                 "start": 11950,
                 "end": 12018,
-                "value": "#66: typeof Date.prototype[\"setUTCHours\"] === \"function\". Actual: ",
-                "raw": "'#66: typeof Date.prototype[\"setUTCHours\"] === \"function\". Actual: '"
+                "value": "#66: typeof Date.prototype[\"setUTCHours\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -8409,8 +8218,7 @@
                       "type": "Literal",
                       "start": 12044,
                       "end": 12057,
-                      "value": "setUTCHours",
-                      "raw": "\"setUTCHours\""
+                      "value": "setUTCHours"
                     },
                     "computed": true,
                     "optional": false
@@ -8475,8 +8283,7 @@
           "type": "Literal",
           "start": 12101,
           "end": 12111,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -8502,8 +8309,7 @@
                 "type": "Literal",
                 "start": 12137,
                 "end": 12198,
-                "value": "#67: typeof Date.prototype.setDate === \"function\". Actual: ",
-                "raw": "'#67: typeof Date.prototype.setDate === \"function\". Actual: '"
+                "value": "#67: typeof Date.prototype.setDate === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -8597,8 +8403,7 @@
               "type": "Literal",
               "start": 12262,
               "end": 12271,
-              "value": "setDate",
-              "raw": "'setDate'"
+              "value": "setDate"
             },
             "computed": true,
             "optional": false
@@ -8609,8 +8414,7 @@
           "type": "Literal",
           "start": 12277,
           "end": 12287,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -8636,8 +8440,7 @@
                 "type": "Literal",
                 "start": 12313,
                 "end": 12377,
-                "value": "#68: typeof Date.prototype[\"setDate\"] === \"function\". Actual: ",
-                "raw": "'#68: typeof Date.prototype[\"setDate\"] === \"function\". Actual: '"
+                "value": "#68: typeof Date.prototype[\"setDate\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -8677,8 +8480,7 @@
                       "type": "Literal",
                       "start": 12403,
                       "end": 12412,
-                      "value": "setDate",
-                      "raw": "\"setDate\""
+                      "value": "setDate"
                     },
                     "computed": true,
                     "optional": false
@@ -8743,8 +8545,7 @@
           "type": "Literal",
           "start": 12459,
           "end": 12469,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -8770,8 +8571,7 @@
                 "type": "Literal",
                 "start": 12495,
                 "end": 12559,
-                "value": "#69: typeof Date.prototype.setUTCDate === \"function\". Actual: ",
-                "raw": "'#69: typeof Date.prototype.setUTCDate === \"function\". Actual: '"
+                "value": "#69: typeof Date.prototype.setUTCDate === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -8865,8 +8665,7 @@
               "type": "Literal",
               "start": 12626,
               "end": 12638,
-              "value": "setUTCDate",
-              "raw": "'setUTCDate'"
+              "value": "setUTCDate"
             },
             "computed": true,
             "optional": false
@@ -8877,8 +8676,7 @@
           "type": "Literal",
           "start": 12644,
           "end": 12654,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -8904,8 +8702,7 @@
                 "type": "Literal",
                 "start": 12680,
                 "end": 12747,
-                "value": "#70: typeof Date.prototype[\"setUTCDate\"] === \"function\". Actual: ",
-                "raw": "'#70: typeof Date.prototype[\"setUTCDate\"] === \"function\". Actual: '"
+                "value": "#70: typeof Date.prototype[\"setUTCDate\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -8945,8 +8742,7 @@
                       "type": "Literal",
                       "start": 12773,
                       "end": 12785,
-                      "value": "setUTCDate",
-                      "raw": "\"setUTCDate\""
+                      "value": "setUTCDate"
                     },
                     "computed": true,
                     "optional": false
@@ -9011,8 +8807,7 @@
           "type": "Literal",
           "start": 12830,
           "end": 12840,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -9038,8 +8833,7 @@
                 "type": "Literal",
                 "start": 12866,
                 "end": 12928,
-                "value": "#71: typeof Date.prototype.setMonth === \"function\". Actual: ",
-                "raw": "'#71: typeof Date.prototype.setMonth === \"function\". Actual: '"
+                "value": "#71: typeof Date.prototype.setMonth === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -9133,8 +8927,7 @@
               "type": "Literal",
               "start": 12993,
               "end": 13003,
-              "value": "setMonth",
-              "raw": "'setMonth'"
+              "value": "setMonth"
             },
             "computed": true,
             "optional": false
@@ -9145,8 +8938,7 @@
           "type": "Literal",
           "start": 13009,
           "end": 13019,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -9172,8 +8964,7 @@
                 "type": "Literal",
                 "start": 13045,
                 "end": 13110,
-                "value": "#72: typeof Date.prototype[\"setMonth\"] === \"function\". Actual: ",
-                "raw": "'#72: typeof Date.prototype[\"setMonth\"] === \"function\". Actual: '"
+                "value": "#72: typeof Date.prototype[\"setMonth\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -9213,8 +9004,7 @@
                       "type": "Literal",
                       "start": 13136,
                       "end": 13146,
-                      "value": "setMonth",
-                      "raw": "\"setMonth\""
+                      "value": "setMonth"
                     },
                     "computed": true,
                     "optional": false
@@ -9279,8 +9069,7 @@
           "type": "Literal",
           "start": 13194,
           "end": 13204,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -9306,8 +9095,7 @@
                 "type": "Literal",
                 "start": 13230,
                 "end": 13295,
-                "value": "#73: typeof Date.prototype.setUTCMonth === \"function\". Actual: ",
-                "raw": "'#73: typeof Date.prototype.setUTCMonth === \"function\". Actual: '"
+                "value": "#73: typeof Date.prototype.setUTCMonth === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -9401,8 +9189,7 @@
               "type": "Literal",
               "start": 13363,
               "end": 13376,
-              "value": "setUTCMonth",
-              "raw": "'setUTCMonth'"
+              "value": "setUTCMonth"
             },
             "computed": true,
             "optional": false
@@ -9413,8 +9200,7 @@
           "type": "Literal",
           "start": 13382,
           "end": 13392,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -9440,8 +9226,7 @@
                 "type": "Literal",
                 "start": 13418,
                 "end": 13486,
-                "value": "#74: typeof Date.prototype[\"setUTCMonth\"] === \"function\". Actual: ",
-                "raw": "'#74: typeof Date.prototype[\"setUTCMonth\"] === \"function\". Actual: '"
+                "value": "#74: typeof Date.prototype[\"setUTCMonth\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -9481,8 +9266,7 @@
                       "type": "Literal",
                       "start": 13512,
                       "end": 13525,
-                      "value": "setUTCMonth",
-                      "raw": "\"setUTCMonth\""
+                      "value": "setUTCMonth"
                     },
                     "computed": true,
                     "optional": false
@@ -9547,8 +9331,7 @@
           "type": "Literal",
           "start": 13573,
           "end": 13583,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -9574,8 +9357,7 @@
                 "type": "Literal",
                 "start": 13609,
                 "end": 13674,
-                "value": "#75: typeof Date.prototype.setFullYear === \"function\". Actual: ",
-                "raw": "'#75: typeof Date.prototype.setFullYear === \"function\". Actual: '"
+                "value": "#75: typeof Date.prototype.setFullYear === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -9669,8 +9451,7 @@
               "type": "Literal",
               "start": 13742,
               "end": 13755,
-              "value": "setFullYear",
-              "raw": "'setFullYear'"
+              "value": "setFullYear"
             },
             "computed": true,
             "optional": false
@@ -9681,8 +9462,7 @@
           "type": "Literal",
           "start": 13761,
           "end": 13771,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -9708,8 +9488,7 @@
                 "type": "Literal",
                 "start": 13797,
                 "end": 13865,
-                "value": "#76: typeof Date.prototype[\"setFullYear\"] === \"function\". Actual: ",
-                "raw": "'#76: typeof Date.prototype[\"setFullYear\"] === \"function\". Actual: '"
+                "value": "#76: typeof Date.prototype[\"setFullYear\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -9749,8 +9528,7 @@
                       "type": "Literal",
                       "start": 13891,
                       "end": 13904,
-                      "value": "setFullYear",
-                      "raw": "\"setFullYear\""
+                      "value": "setFullYear"
                     },
                     "computed": true,
                     "optional": false
@@ -9815,8 +9593,7 @@
           "type": "Literal",
           "start": 13955,
           "end": 13965,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -9842,8 +9619,7 @@
                 "type": "Literal",
                 "start": 13991,
                 "end": 14059,
-                "value": "#77: typeof Date.prototype.setUTCFullYear === \"function\". Actual: ",
-                "raw": "'#77: typeof Date.prototype.setUTCFullYear === \"function\". Actual: '"
+                "value": "#77: typeof Date.prototype.setUTCFullYear === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -9937,8 +9713,7 @@
               "type": "Literal",
               "start": 14130,
               "end": 14146,
-              "value": "setUTCFullYear",
-              "raw": "'setUTCFullYear'"
+              "value": "setUTCFullYear"
             },
             "computed": true,
             "optional": false
@@ -9949,8 +9724,7 @@
           "type": "Literal",
           "start": 14152,
           "end": 14162,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -9976,8 +9750,7 @@
                 "type": "Literal",
                 "start": 14188,
                 "end": 14259,
-                "value": "#78: typeof Date.prototype[\"setUTCFullYear\"] === \"function\". Actual: ",
-                "raw": "'#78: typeof Date.prototype[\"setUTCFullYear\"] === \"function\". Actual: '"
+                "value": "#78: typeof Date.prototype[\"setUTCFullYear\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -10017,8 +9790,7 @@
                       "type": "Literal",
                       "start": 14285,
                       "end": 14301,
-                      "value": "setUTCFullYear",
-                      "raw": "\"setUTCFullYear\""
+                      "value": "setUTCFullYear"
                     },
                     "computed": true,
                     "optional": false
@@ -10083,8 +9855,7 @@
           "type": "Literal",
           "start": 14352,
           "end": 14362,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -10110,8 +9881,7 @@
                 "type": "Literal",
                 "start": 14388,
                 "end": 14456,
-                "value": "#81: typeof Date.prototype.toLocaleString === \"function\". Actual: ",
-                "raw": "'#81: typeof Date.prototype.toLocaleString === \"function\". Actual: '"
+                "value": "#81: typeof Date.prototype.toLocaleString === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -10205,8 +9975,7 @@
               "type": "Literal",
               "start": 14527,
               "end": 14543,
-              "value": "toLocaleString",
-              "raw": "'toLocaleString'"
+              "value": "toLocaleString"
             },
             "computed": true,
             "optional": false
@@ -10217,8 +9986,7 @@
           "type": "Literal",
           "start": 14549,
           "end": 14559,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -10244,8 +10012,7 @@
                 "type": "Literal",
                 "start": 14585,
                 "end": 14656,
-                "value": "#82: typeof Date.prototype[\"toLocaleString\"] === \"function\". Actual: ",
-                "raw": "'#82: typeof Date.prototype[\"toLocaleString\"] === \"function\". Actual: '"
+                "value": "#82: typeof Date.prototype[\"toLocaleString\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -10285,8 +10052,7 @@
                       "type": "Literal",
                       "start": 14682,
                       "end": 14698,
-                      "value": "toLocaleString",
-                      "raw": "\"toLocaleString\""
+                      "value": "toLocaleString"
                     },
                     "computed": true,
                     "optional": false
@@ -10351,8 +10117,7 @@
           "type": "Literal",
           "start": 14746,
           "end": 14756,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -10378,8 +10143,7 @@
                 "type": "Literal",
                 "start": 14782,
                 "end": 14847,
-                "value": "#83: typeof Date.prototype.toUTCString === \"function\". Actual: ",
-                "raw": "'#83: typeof Date.prototype.toUTCString === \"function\". Actual: '"
+                "value": "#83: typeof Date.prototype.toUTCString === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -10473,8 +10237,7 @@
               "type": "Literal",
               "start": 14915,
               "end": 14928,
-              "value": "toUTCString",
-              "raw": "'toUTCString'"
+              "value": "toUTCString"
             },
             "computed": true,
             "optional": false
@@ -10485,8 +10248,7 @@
           "type": "Literal",
           "start": 14934,
           "end": 14944,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -10512,8 +10274,7 @@
                 "type": "Literal",
                 "start": 14970,
                 "end": 15038,
-                "value": "#84: typeof Date.prototype[\"toUTCString\"] === \"function\". Actual: ",
-                "raw": "'#84: typeof Date.prototype[\"toUTCString\"] === \"function\". Actual: '"
+                "value": "#84: typeof Date.prototype[\"toUTCString\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -10553,8 +10314,7 @@
                       "type": "Literal",
                       "start": 15064,
                       "end": 15077,
-                      "value": "toUTCString",
-                      "raw": "\"toUTCString\""
+                      "value": "toUTCString"
                     },
                     "computed": true,
                     "optional": false

@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 651,
                           "end": 660,
-                          "value": "intostr",
-                          "raw": "\"intostr\""
+                          "value": "intostr"
                         }
                       }
                     ]
@@ -198,8 +197,7 @@
                   "type": "Literal",
                   "start": 869,
                   "end": 976,
-                  "value": "#1: var __obj = {toString:function(){throw \"intostr\"}}; __str = new String(__obj) lead throwing exception",
-                  "raw": "'#1: var __obj = {toString:function(){throw \"intostr\"}}; __str = new String(__obj) lead throwing exception'"
+                  "value": "#1: var __obj = {toString:function(){throw \"intostr\"}}; __str = new String(__obj) lead throwing exception"
                 }
               ]
             }
@@ -240,8 +238,7 @@
                   "type": "Literal",
                   "start": 1005,
                   "end": 1014,
-                  "value": "intostr",
-                  "raw": "\"intostr\""
+                  "value": "intostr"
                 }
               },
               "consequent": {
@@ -272,8 +269,7 @@
                             "type": "Literal",
                             "start": 1045,
                             "end": 1080,
-                            "value": "#1.1: e===\"intostr\". Actual: e===",
-                            "raw": "'#1.1: e===\"intostr\". Actual: e==='"
+                            "value": "#1.1: e===\"intostr\". Actual: e==="
                           },
                           "operator": "+",
                           "right": {

@@ -80,16 +80,14 @@
                               "type": "Literal",
                               "start": 1149,
                               "end": 1163,
-                              "value": "switch (1) {",
-                              "raw": "'switch (1) {'"
+                              "value": "switch (1) {"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 1170,
                               "end": 1182,
-                              "value": "  default:",
-                              "raw": "'  default:'"
+                              "value": "  default:"
                             }
                           },
                           "operator": "+",
@@ -97,8 +95,7 @@
                             "type": "Literal",
                             "start": 1189,
                             "end": 1239,
-                            "value": "    function f() { return \"inner declaration\"; }",
-                            "raw": "'    function f() { return \"inner declaration\"; }'"
+                            "value": "    function f() { return \"inner declaration\"; }"
                           }
                         },
                         "operator": "+",
@@ -106,8 +103,7 @@
                           "type": "Literal",
                           "start": 1246,
                           "end": 1333,
-                          "value": "}    after = f;        function f() {      return \"outer declaration\";    }",
-                          "raw": "'}\\\n    after = f;\\\n    \\\n    function f() {\\\n      return \"outer declaration\";\\\n    }'"
+                          "value": "}    after = f;        function f() {      return \"outer declaration\";    }"
                         }
                       }
                     ],
@@ -167,8 +163,7 @@
             "type": "Literal",
             "start": 1377,
             "end": 1387,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -219,8 +214,7 @@
             "type": "Literal",
             "start": 1416,
             "end": 1435,
-            "value": "inner declaration",
-            "raw": "'inner declaration'"
+            "value": "inner declaration"
           }
         ],
         "optional": false

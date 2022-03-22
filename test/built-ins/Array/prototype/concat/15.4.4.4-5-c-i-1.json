@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 389,
             "end": 392,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -79,8 +78,7 @@
                   "type": "Literal",
                   "start": 405,
                   "end": 408,
-                  "value": 100,
-                  "raw": "100"
+                  "value": 100
                 },
                 "kind": "init"
               },
@@ -203,8 +201,7 @@
                 "type": "Literal",
                 "start": 508,
                 "end": 511,
-                "value": 101,
-                "raw": "101"
+                "value": 101
               }
             ],
             "optional": false
@@ -246,8 +243,7 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 545,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -264,8 +260,7 @@
             "type": "Literal",
             "start": 568,
             "end": 659,
-            "value": "The result of evaluating (newArrayFromConcat[0] instanceof Number) is expected to be true",
-            "raw": "'The result of evaluating (newArrayFromConcat[0] instanceof Number) is expected to be true'"
+            "value": "The result of evaluating (newArrayFromConcat[0] instanceof Number) is expected to be true"
           }
         ],
         "optional": false
@@ -296,8 +291,7 @@
             "type": "Literal",
             "start": 698,
             "end": 701,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",

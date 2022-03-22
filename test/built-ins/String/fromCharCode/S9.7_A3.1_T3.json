@@ -58,8 +58,7 @@
                       "type": "Literal",
                       "start": 271,
                       "end": 272,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   ]
                 }
@@ -80,8 +79,7 @@
               "type": "Literal",
               "start": 286,
               "end": 287,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -91,8 +89,7 @@
           "type": "Literal",
           "start": 293,
           "end": 294,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -123,8 +120,7 @@
                     "type": "Literal",
                     "start": 323,
                     "end": 393,
-                    "value": "#1: String.fromCharCode(new String(1)).charCodeAt(0) === 1. Actual: ",
-                    "raw": "'#1: String.fromCharCode(new String(1)).charCodeAt(0) === 1. Actual: '"
+                    "value": "#1: String.fromCharCode(new String(1)).charCodeAt(0) === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -178,8 +174,7 @@
                                   "type": "Literal",
                                   "start": 428,
                                   "end": 429,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               ]
                             }
@@ -200,8 +195,7 @@
                           "type": "Literal",
                           "start": 443,
                           "end": 444,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ],
                       "optional": false
@@ -259,8 +253,7 @@
                   "type": "Literal",
                   "start": 487,
                   "end": 495,
-                  "value": "-1.234",
-                  "raw": "\"-1.234\""
+                  "value": "-1.234"
                 }
               ],
               "optional": false
@@ -279,8 +272,7 @@
               "type": "Literal",
               "start": 508,
               "end": 509,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -290,8 +282,7 @@
           "type": "Literal",
           "start": 515,
           "end": 520,
-          "value": 65535,
-          "raw": "65535"
+          "value": 65535
         }
       },
       "consequent": {
@@ -322,8 +313,7 @@
                     "type": "Literal",
                     "start": 549,
                     "end": 618,
-                    "value": "#2: String.fromCharCode(\"-1.234\").charCodeAt(0) === 65535. Actual: ",
-                    "raw": "'#2: String.fromCharCode(\"-1.234\").charCodeAt(0) === 65535. Actual: '"
+                    "value": "#2: String.fromCharCode(\"-1.234\").charCodeAt(0) === 65535. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -366,8 +356,7 @@
                               "type": "Literal",
                               "start": 642,
                               "end": 650,
-                              "value": "-1.234",
-                              "raw": "\"-1.234\""
+                              "value": "-1.234"
                             }
                           ],
                           "optional": false
@@ -386,8 +375,7 @@
                           "type": "Literal",
                           "start": 663,
                           "end": 664,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ],
                       "optional": false

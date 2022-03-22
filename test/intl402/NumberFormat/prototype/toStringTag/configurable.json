@@ -93,8 +93,7 @@
             "type": "Literal",
             "start": 406,
             "end": 425,
-            "value": "Intl.NumberFormat",
-            "raw": "'Intl.NumberFormat'"
+            "value": "Intl.NumberFormat"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 507,
             "end": 535,
-            "value": "[object Intl.NumberFormat]",
-            "raw": "'[object Intl.NumberFormat]'"
+            "value": "[object Intl.NumberFormat]"
           }
         ],
         "optional": false
@@ -318,8 +316,7 @@
                   "type": "Literal",
                   "start": 622,
                   "end": 629,
-                  "value": "Alpha",
-                  "raw": "'Alpha'"
+                  "value": "Alpha"
                 },
                 "kind": "init"
               }
@@ -419,8 +416,7 @@
             "type": "Literal",
             "start": 701,
             "end": 708,
-            "value": "Alpha",
-            "raw": "'Alpha'"
+            "value": "Alpha"
           }
         ],
         "optional": false
@@ -536,8 +532,7 @@
             "type": "Literal",
             "start": 790,
             "end": 806,
-            "value": "[object Alpha]",
-            "raw": "'[object Alpha]'"
+            "value": "[object Alpha]"
           }
         ],
         "optional": false
@@ -819,8 +814,7 @@
             "type": "Literal",
             "start": 1025,
             "end": 1042,
-            "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "value": "[object Object]"
           }
         ],
         "optional": false

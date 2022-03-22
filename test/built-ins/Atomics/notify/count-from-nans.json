@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 638,
                       "end": 639,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -191,8 +190,7 @@
                             "type": "Literal",
                             "start": 707,
                             "end": 708,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Identifier",
@@ -207,15 +205,13 @@
                         "type": "Literal",
                         "start": 716,
                         "end": 717,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 719,
                         "end": 759,
-                        "value": "Atomics.notify(i32a, 0, nan) returns 0",
-                        "raw": "'Atomics.notify(i32a, 0, nan) returns 0'"
+                        "value": "Atomics.notify(i32a, 0, nan) returns 0"
                       }
                     ],
                     "optional": false

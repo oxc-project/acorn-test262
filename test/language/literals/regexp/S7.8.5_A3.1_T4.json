@@ -23,7 +23,6 @@
             "start": 275,
             "end": 283,
             "value": {},
-            "raw": "/(?:)/gi",
             "regex": {
               "pattern": "(?:)",
               "flags": "gi"
@@ -97,8 +96,7 @@
                     "type": "Literal",
                     "start": 341,
                     "end": 401,
-                    "value": "#1: var regexp = /(?:)/g; regexp.global === true. Actual: ",
-                    "raw": "'#1: var regexp = /(?:)/g; regexp.global === true. Actual: '"
+                    "value": "#1: var regexp = /(?:)/g; regexp.global === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -197,8 +195,7 @@
                     "type": "Literal",
                     "start": 495,
                     "end": 559,
-                    "value": "#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: ",
-                    "raw": "'#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: '"
+                    "value": "#2: var regexp = /(?:)/g; regexp.ignoreCase === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -297,8 +294,7 @@
                     "type": "Literal",
                     "start": 656,
                     "end": 720,
-                    "value": "#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: ",
-                    "raw": "'#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: '"
+                    "value": "#3: var regexp = /(?:)/g; regexp.multiline === false. Actual: "
                   },
                   "operator": "+",
                   "right": {

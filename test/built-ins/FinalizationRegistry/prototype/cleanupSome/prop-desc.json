@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 705,
             "end": 715,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -119,8 +118,7 @@
             "type": "Literal",
             "start": 766,
             "end": 779,
-            "value": "cleanupSome",
-            "raw": "'cleanupSome'"
+            "value": "cleanupSome"
           },
           {
             "type": "ObjectExpression",

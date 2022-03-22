@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 469,
                     "end": 481,
-                    "value": "/\\\n/",
-                    "raw": "\"/\\\\\\u000A/\""
+                    "value": "/\\\n/"
                   }
                 ],
                 "optional": false
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 517,
                     "end": 610,
-                    "value": "#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\Line Feed is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\\\Line Feed is incorrect. Actual: '"
+                    "value": "#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\Line Feed is incorrect. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -101,8 +99,7 @@
                             "type": "Literal",
                             "start": 619,
                             "end": 631,
-                            "value": "/\\\n/",
-                            "raw": "\"/\\\\\\u000A/\""
+                            "value": "/\\\n/"
                           }
                         ],
                         "optional": false
@@ -206,8 +203,7 @@
                             "type": "Literal",
                             "start": 730,
                             "end": 823,
-                            "value": "#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\Line Feed is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\\\Line Feed is incorrect. Actual: '"
+                            "value": "#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\Line Feed is incorrect. Actual: "
                           },
                           "operator": "+",
                           "right": {

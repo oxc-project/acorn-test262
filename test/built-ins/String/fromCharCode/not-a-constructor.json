@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 751,
             "end": 805,
-            "value": "isConstructor(String.fromCharCode) must return false",
-            "raw": "'isConstructor(String.fromCharCode) must return false'"
+            "value": "isConstructor(String.fromCharCode) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 874,
             "end": 920,
-            "value": "`new String.fromCharCode()` throws TypeError",
-            "raw": "'`new String.fromCharCode()` throws TypeError'"
+            "value": "`new String.fromCharCode()` throws TypeError"
           }
         ],
         "optional": false

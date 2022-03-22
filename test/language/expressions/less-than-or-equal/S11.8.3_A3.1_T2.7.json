@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 469,
             "end": 472,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           "operator": "<=",
           "right": {
@@ -64,8 +63,7 @@
                   "type": "Literal",
                   "start": 519,
                   "end": 546,
-                  "value": "#1: \"1\" <= null === false",
-                  "raw": "'#1: \"1\" <= null === false'"
+                  "value": "#1: \"1\" <= null === false"
                 }
               ]
             }
@@ -98,8 +96,7 @@
             "type": "Literal",
             "start": 574,
             "end": 577,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           }
         },
         "operator": "!==",
@@ -135,8 +132,7 @@
                   "type": "Literal",
                   "start": 615,
                   "end": 641,
-                  "value": "#2: null <= \"1\" === true",
-                  "raw": "'#2: null <= \"1\" === true'"
+                  "value": "#2: null <= \"1\" === true"
                 }
               ]
             }
@@ -172,8 +168,7 @@
                 "type": "Literal",
                 "start": 672,
                 "end": 675,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ]
           },
@@ -219,8 +214,7 @@
                   "type": "Literal",
                   "start": 723,
                   "end": 762,
-                  "value": "#3: new String(\"1\") <= null === false",
-                  "raw": "'#3: new String(\"1\") <= null === false'"
+                  "value": "#3: new String(\"1\") <= null === false"
                 }
               ]
             }
@@ -264,8 +258,7 @@
                 "type": "Literal",
                 "start": 801,
                 "end": 804,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ]
           }
@@ -303,8 +296,7 @@
                   "type": "Literal",
                   "start": 843,
                   "end": 881,
-                  "value": "#4: null <= new String(\"1\") === true",
-                  "raw": "'#4: null <= new String(\"1\") === true'"
+                  "value": "#4: null <= new String(\"1\") === true"
                 }
               ]
             }

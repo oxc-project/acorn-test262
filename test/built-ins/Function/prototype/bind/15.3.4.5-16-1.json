@@ -198,8 +198,7 @@
             "type": "Literal",
             "start": 362,
             "end": 366,
-            "value": "ex",
-            "raw": "'ex'"
+            "value": "ex"
           }
         ],
         "optional": false

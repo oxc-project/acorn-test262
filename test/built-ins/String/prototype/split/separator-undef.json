@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 591,
             "end": 620,
-            "value": "undefined is not a function",
-            "raw": "'undefined is not a function'"
+            "value": "undefined is not a function"
           }
         }
       ],
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 696,
             "end": 733,
-            "value": "implicit separator, result is array",
-            "raw": "'implicit separator, result is array'"
+            "value": "implicit separator, result is array"
           }
         ],
         "optional": false
@@ -204,15 +202,13 @@
             "type": "Literal",
             "start": 768,
             "end": 769,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 771,
             "end": 806,
-            "value": "implicit separator, result.length",
-            "raw": "'implicit separator, result.length'"
+            "value": "implicit separator, result.length"
           }
         ],
         "optional": false
@@ -260,8 +256,7 @@
               "type": "Literal",
               "start": 833,
               "end": 834,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -276,8 +271,7 @@
             "type": "Literal",
             "start": 842,
             "end": 886,
-            "value": "implicit separator, [0] is the same string",
-            "raw": "'implicit separator, [0] is the same string'"
+            "value": "implicit separator, [0] is the same string"
           }
         ],
         "optional": false
@@ -405,8 +399,7 @@
             "type": "Literal",
             "start": 968,
             "end": 1005,
-            "value": "explicit separator, result is array",
-            "raw": "'explicit separator, result is array'"
+            "value": "explicit separator, result is array"
           }
         ],
         "optional": false
@@ -463,15 +456,13 @@
             "type": "Literal",
             "start": 1040,
             "end": 1041,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1078,
-            "value": "explicit separator, result.length",
-            "raw": "'explicit separator, result.length'"
+            "value": "explicit separator, result.length"
           }
         ],
         "optional": false
@@ -519,8 +510,7 @@
               "type": "Literal",
               "start": 1105,
               "end": 1106,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -535,8 +525,7 @@
             "type": "Literal",
             "start": 1114,
             "end": 1158,
-            "value": "explicit separator, [0] is the same string",
-            "raw": "'explicit separator, [0] is the same string'"
+            "value": "explicit separator, [0] is the same string"
           }
         ],
         "optional": false

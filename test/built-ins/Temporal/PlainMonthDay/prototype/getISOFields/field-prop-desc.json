@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 344,
                 "end": 354,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 366,
-                "value": "isoDay",
-                "raw": "\"isoDay\""
+                "value": "isoDay"
               },
               {
                 "type": "Literal",
                 "start": 370,
                 "end": 380,
-                "value": "isoMonth",
-                "raw": "\"isoMonth\""
+                "value": "isoMonth"
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 393,
-                "value": "isoYear",
-                "raw": "\"isoYear\""
+                "value": "isoYear"
               }
             ]
           }
@@ -100,15 +96,13 @@
                 "type": "Literal",
                 "start": 437,
                 "end": 438,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 440,
                 "end": 441,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }

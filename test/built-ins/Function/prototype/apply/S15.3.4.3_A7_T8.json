@@ -56,15 +56,13 @@
                             "type": "Literal",
                             "start": 496,
                             "end": 506,
-                            "value": "a1,a2,a3",
-                            "raw": "\"a1,a2,a3\""
+                            "value": "a1,a2,a3"
                           },
                           {
                             "type": "Literal",
                             "start": 508,
                             "end": 532,
-                            "value": "this.shifted=a1+a2+a3;",
-                            "raw": "\"this.shifted=a1+a2+a3;\""
+                            "value": "this.shifted=a1+a2+a3;"
                           }
                         ],
                         "optional": false
@@ -103,22 +101,19 @@
             "type": "Literal",
             "start": 561,
             "end": 563,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 566,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 569,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -165,8 +160,7 @@
               "type": "Literal",
               "start": 595,
               "end": 604,
-              "value": "shifted",
-              "raw": "\"shifted\""
+              "value": "shifted"
             },
             "computed": true,
             "optional": false
@@ -175,15 +169,13 @@
             "type": "Literal",
             "start": 607,
             "end": 611,
-            "value": "42",
-            "raw": "\"42\""
+            "value": "42"
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 666,
-            "value": "The value of this[\"shifted\"] is expected to be \"42\"",
-            "raw": "'The value of this[\"shifted\"] is expected to be \"42\"'"
+            "value": "The value of this[\"shifted\"] is expected to be \"42\""
           }
         ],
         "optional": false

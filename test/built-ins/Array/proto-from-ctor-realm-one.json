@@ -215,8 +215,7 @@
                   "type": "Literal",
                   "start": 1039,
                   "end": 1040,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ]
             },
@@ -328,8 +327,7 @@
             "type": "Literal",
             "start": 1123,
             "end": 1218,
-            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype'"
+            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype"
           }
         ],
         "optional": false
@@ -426,8 +424,7 @@
                   "type": "Literal",
                   "start": 1282,
                   "end": 1283,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ]
             },
@@ -539,8 +536,7 @@
             "type": "Literal",
             "start": 1366,
             "end": 1461,
-            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype'"
+            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype"
           }
         ],
         "optional": false
@@ -637,8 +633,7 @@
                   "type": "Literal",
                   "start": 1525,
                   "end": 1526,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ]
             },
@@ -750,8 +745,7 @@
             "type": "Literal",
             "start": 1609,
             "end": 1704,
-            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype'"
+            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype"
           }
         ],
         "optional": false
@@ -789,8 +783,7 @@
           "type": "Literal",
           "start": 1730,
           "end": 1732,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       }
     },
@@ -848,8 +841,7 @@
                   "type": "Literal",
                   "start": 1766,
                   "end": 1767,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ]
             },
@@ -961,8 +953,7 @@
             "type": "Literal",
             "start": 1850,
             "end": 1945,
-            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype'"
+            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype"
           }
         ],
         "optional": false
@@ -1065,8 +1056,7 @@
                   "type": "Literal",
                   "start": 2013,
                   "end": 2014,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ]
             },
@@ -1178,8 +1168,7 @@
             "type": "Literal",
             "start": 2097,
             "end": 2192,
-            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype'"
+            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype"
           }
         ],
         "optional": false
@@ -1217,8 +1206,7 @@
           "type": "Literal",
           "start": 2218,
           "end": 2219,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1276,8 +1264,7 @@
                   "type": "Literal",
                   "start": 2253,
                   "end": 2254,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ]
             },
@@ -1389,8 +1376,7 @@
             "type": "Literal",
             "start": 2337,
             "end": 2432,
-            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype",
-            "raw": "'Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype'"
+            "value": "Object.getPrototypeOf(Reflect.construct(Array, [1], newTarget)) returns other.Array.prototype"
           }
         ],
         "optional": false

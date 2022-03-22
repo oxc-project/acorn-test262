@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 302,
             "end": 310,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 314,
             "end": 340,
-            "value": "`typeof Now` is `object`",
-            "raw": "\"`typeof Now` is `object`\""
+            "value": "`typeof Now` is `object`"
           }
         ],
         "optional": false
@@ -100,8 +98,7 @@
             "type": "Literal",
             "start": 370,
             "end": 375,
-            "value": "Now",
-            "raw": "\"Now\""
+            "value": "Now"
           },
           {
             "type": "ObjectExpression",

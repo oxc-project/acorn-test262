@@ -27,85 +27,73 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 316,
-                "value": "de",
-                "raw": "\"de\""
+                "value": "de"
               },
               {
                 "type": "Literal",
                 "start": 347,
                 "end": 354,
-                "value": "de-DE",
-                "raw": "\"de-DE\""
+                "value": "de-DE"
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 396,
-                "value": "DE-de",
-                "raw": "\"DE-de\""
+                "value": "DE-de"
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 436,
-                "value": "cmn",
-                "raw": "\"cmn\""
+                "value": "cmn"
               },
               {
                 "type": "Literal",
                 "start": 467,
                 "end": 477,
-                "value": "cmn-Hans",
-                "raw": "\"cmn-Hans\""
+                "value": "cmn-Hans"
               },
               {
                 "type": "Literal",
                 "start": 500,
                 "end": 510,
-                "value": "CMN-hANS",
-                "raw": "\"CMN-hANS\""
+                "value": "CMN-hANS"
               },
               {
                 "type": "Literal",
                 "start": 545,
                 "end": 558,
-                "value": "cmn-hans-cn",
-                "raw": "\"cmn-hans-cn\""
+                "value": "cmn-hans-cn"
               },
               {
                 "type": "Literal",
                 "start": 593,
                 "end": 601,
-                "value": "es-419",
-                "raw": "\"es-419\""
+                "value": "es-419"
               },
               {
                 "type": "Literal",
                 "start": 632,
                 "end": 657,
-                "value": "es-419-u-nu-latn-cu-bob",
-                "raw": "\"es-419-u-nu-latn-cu-bob\""
+                "value": "es-419-u-nu-latn-cu-bob"
               },
               {
                 "type": "Literal",
                 "start": 702,
                 "end": 731,
-                "value": "cmn-hans-cn-t-ca-u-ca-x-t-u",
-                "raw": "\"cmn-hans-cn-t-ca-u-ca-x-t-u\""
+                "value": "cmn-hans-cn-t-ca-u-ca-x-t-u"
               },
               {
                 "type": "Literal",
                 "start": 798,
                 "end": 823,
-                "value": "de-gregory-u-ca-gregory",
-                "raw": "\"de-gregory-u-ca-gregory\""
+                "value": "de-gregory-u-ca-gregory"
               },
               {
                 "type": "Literal",
                 "start": 878,
                 "end": 900,
-                "value": "aa-a-foo-x-a-foo-bar",
-                "raw": "\"aa-a-foo-x-a-foo-bar\""
+                "value": "aa-a-foo-x-a-foo-bar"
               }
             ]
           }

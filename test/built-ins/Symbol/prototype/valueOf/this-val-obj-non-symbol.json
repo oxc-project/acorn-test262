@@ -147,8 +147,7 @@
             "type": "Literal",
             "start": 594,
             "end": 611,
-            "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "value": "ordinary object"
           }
         ],
         "optional": false
@@ -247,8 +246,7 @@
             "type": "Literal",
             "start": 676,
             "end": 697,
-            "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "value": "array exotic object"
           }
         ],
         "optional": false
@@ -347,8 +345,7 @@
             "type": "Literal",
             "start": 769,
             "end": 794,
-            "value": "arguments exotic object",
-            "raw": "'arguments exotic object'"
+            "value": "arguments exotic object"
           }
         ],
         "optional": false

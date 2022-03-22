@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(JSON.parse) must return false",
-            "raw": "'isConstructor(JSON.parse) must return false'"
+            "value": "isConstructor(JSON.parse) must return false"
           }
         ],
         "optional": false
@@ -162,8 +161,7 @@
                         "type": "Literal",
                         "start": 832,
                         "end": 836,
-                        "value": "{}",
-                        "raw": "'{}'"
+                        "value": "{}"
                       }
                     ]
                   }
@@ -175,8 +173,7 @@
             "type": "Literal",
             "start": 842,
             "end": 885,
-            "value": "`new JSON.parse('{}')` throws TypeError",
-            "raw": "'`new JSON.parse(\\'{}\\')` throws TypeError'"
+            "value": "`new JSON.parse('{}')` throws TypeError"
           }
         ],
         "optional": false

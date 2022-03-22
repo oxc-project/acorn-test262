@@ -91,8 +91,7 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 378,
-                "value": "0.6666666",
-                "raw": "'0.6666666'"
+                "value": "0.6666666"
               },
               {
                 "type": "ObjectExpression",
@@ -134,8 +133,7 @@
                               "type": "Literal",
                               "start": 411,
                               "end": 422,
-                              "value": "0.1234567",
-                              "raw": "'0.1234567'"
+                              "value": "0.1234567"
                             }
                           }
                         ]
@@ -466,8 +464,7 @@
                       "type": "Literal",
                       "start": 679,
                       "end": 748,
-                      "value": "Intl.NumberFormat does not convert other types to numbers. Input: \"",
-                      "raw": "'Intl.NumberFormat does not convert other types to numbers. Input: \"'"
+                      "value": "Intl.NumberFormat does not convert other types to numbers. Input: \""
                     },
                     "operator": "+",
                     "right": {
@@ -482,8 +479,7 @@
                     "type": "Literal",
                     "start": 759,
                     "end": 763,
-                    "value": "\".",
-                    "raw": "'\".'"
+                    "value": "\"."
                   }
                 }
               ],

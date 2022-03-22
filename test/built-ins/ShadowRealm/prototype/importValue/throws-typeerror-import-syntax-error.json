@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 659,
             "end": 669,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 673,
             "end": 749,
-            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function"
           }
         ],
         "optional": false
@@ -167,15 +165,13 @@
                     "type": "Literal",
                     "start": 798,
                     "end": 838,
-                    "value": "./import-value_syntax_error_FIXTURE.js",
-                    "raw": "'./import-value_syntax_error_FIXTURE.js'"
+                    "value": "./import-value_syntax_error_FIXTURE.js"
                   },
                   {
                     "type": "Literal",
                     "start": 840,
                     "end": 843,
-                    "value": "y",
-                    "raw": "'y'"
+                    "value": "y"
                   }
                 ],
                 "optional": false
@@ -223,8 +219,7 @@
                             "type": "Literal",
                             "start": 895,
                             "end": 908,
-                            "value": "unreachable",
-                            "raw": "\"unreachable\""
+                            "value": "unreachable"
                           }
                         ]
                       }
@@ -337,8 +332,7 @@
                             "type": "Literal",
                             "start": 1003,
                             "end": 1038,
-                            "value": "should be rejected with TypeError",
-                            "raw": "'should be rejected with TypeError'"
+                            "value": "should be rejected with TypeError"
                           }
                         ],
                         "optional": false

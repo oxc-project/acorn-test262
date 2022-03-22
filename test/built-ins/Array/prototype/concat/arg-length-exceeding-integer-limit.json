@@ -196,8 +196,7 @@
                             "type": "Literal",
                             "start": 779,
                             "end": 780,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       },
@@ -228,8 +227,7 @@
             "type": "Literal",
             "start": 821,
             "end": 890,
-            "value": "[1].concat(spreadableLengthOutOfRange) throws a TypeError exception",
-            "raw": "'[1].concat(spreadableLengthOutOfRange) throws a TypeError exception'"
+            "value": "[1].concat(spreadableLengthOutOfRange) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -331,8 +329,7 @@
                                 "type": "Literal",
                                 "start": 998,
                                 "end": 1006,
-                                "value": "length",
-                                "raw": "\"length\""
+                                "value": "length"
                               }
                             },
                             "consequent": {
@@ -461,8 +458,7 @@
                         "type": "Literal",
                         "start": 1114,
                         "end": 1115,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Identifier",
@@ -481,8 +477,7 @@
             "type": "Literal",
             "start": 1156,
             "end": 1234,
-            "value": "[].concat(1, proxyForArrayWithLengthOutOfRange) throws a TypeError exception",
-            "raw": "'[].concat(1, proxyForArrayWithLengthOutOfRange) throws a TypeError exception'"
+            "value": "[].concat(1, proxyForArrayWithLengthOutOfRange) throws a TypeError exception"
           }
         ],
         "optional": false

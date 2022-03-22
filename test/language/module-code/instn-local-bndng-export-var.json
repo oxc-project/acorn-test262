@@ -79,8 +79,7 @@
             "type": "Literal",
             "start": 713,
             "end": 732,
-            "value": "initialized value",
-            "raw": "'initialized value'"
+            "value": "initialized value"
           }
         ],
         "optional": false
@@ -148,8 +147,7 @@
                 "type": "Literal",
                 "start": 795,
                 "end": 804,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -233,8 +231,7 @@
             "type": "Literal",
             "start": 870,
             "end": 890,
-            "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "value": "binding is mutable"
           }
         ],
         "optional": false
@@ -263,8 +260,7 @@
               "type": "Literal",
               "start": 915,
               "end": 917,
-              "value": 23,
-              "raw": "23"
+              "value": 23
             }
           }
         ],

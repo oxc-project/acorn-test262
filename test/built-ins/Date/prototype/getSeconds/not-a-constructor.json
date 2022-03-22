@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 770,
             "end": 830,
-            "value": "isConstructor(Date.prototype.getSeconds) must return false",
-            "raw": "'isConstructor(Date.prototype.getSeconds) must return false'"
+            "value": "isConstructor(Date.prototype.getSeconds) must return false"
           }
         ],
         "optional": false
@@ -238,8 +237,7 @@
             "type": "Literal",
             "start": 929,
             "end": 1004,
-            "value": "`let date = new Date(Date.now()); new date.getSeconds()` throws TypeError",
-            "raw": "'`let date = new Date(Date.now()); new date.getSeconds()` throws TypeError'"
+            "value": "`let date = new Date(Date.now()); new date.getSeconds()` throws TypeError"
           }
         ],
         "optional": false

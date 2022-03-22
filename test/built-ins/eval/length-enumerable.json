@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 319,
               "end": 327,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -82,8 +81,7 @@
                     "type": "Literal",
                     "start": 367,
                     "end": 430,
-                    "value": "#1: eval.propertyIsEnumerable('length') === false. Actual: ",
-                    "raw": "'#1: eval.propertyIsEnumerable(\\'length\\') === false. Actual: '"
+                    "value": "#1: eval.propertyIsEnumerable('length') === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -118,8 +116,7 @@
                           "type": "Literal",
                           "start": 460,
                           "end": 468,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -199,8 +196,7 @@
                 "type": "Literal",
                 "start": 535,
                 "end": 543,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             },
             "consequent": {
@@ -286,8 +282,7 @@
                   "type": "Literal",
                   "start": 622,
                   "end": 717,
-                  "value": "#2: result = true; for (p in eval) { if (p === \"length\") result = false; };  result === true;",
-                  "raw": "'#2: result = true; for (p in eval) { if (p === \"length\") result = false; };  result === true;'"
+                  "value": "#2: result = true; for (p in eval) { if (p === \"length\") result = false; };  result === true;"
                 }
               ]
             }

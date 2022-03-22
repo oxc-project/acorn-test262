@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 358,
-                "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "value": "2019-10-01T09:00:00Z"
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 389,
-                "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "value": "2019-10-01T09:00:00Z[UTC]"
               }
             ]
           }
@@ -86,22 +84,19 @@
                 "type": "Literal",
                 "start": 438,
                 "end": 442,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 444,
                 "end": 445,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 447,
                 "end": 448,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -258,8 +253,7 @@
                         "type": "Literal",
                         "start": 579,
                         "end": 663,
-                        "value": "String with UTC designator should not be valid as a PlainDateTime (first argument)",
-                        "raw": "\"String with UTC designator should not be valid as a PlainDateTime (first argument)\""
+                        "value": "String with UTC designator should not be valid as a PlainDateTime (first argument)"
                       }
                     ],
                     "optional": false
@@ -365,8 +359,7 @@
                         "type": "Literal",
                         "start": 763,
                         "end": 848,
-                        "value": "String with UTC designator should not be valid as a PlainDateTime (second argument)",
-                        "raw": "\"String with UTC designator should not be valid as a PlainDateTime (second argument)\""
+                        "value": "String with UTC designator should not be valid as a PlainDateTime (second argument)"
                       }
                     ],
                     "optional": false

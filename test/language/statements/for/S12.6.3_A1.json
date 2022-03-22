@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 360,
             "end": 361,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -76,8 +75,7 @@
                       "type": "Literal",
                       "start": 508,
                       "end": 511,
-                      "value": 100,
-                      "raw": "100"
+                      "value": 100
                     }
                   },
                   "consequent": {
@@ -88,8 +86,7 @@
                       "type": "Literal",
                       "start": 518,
                       "end": 519,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "alternate": null
@@ -133,8 +130,7 @@
                   "type": "Literal",
                   "start": 548,
                   "end": 549,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               "consequent": {
@@ -161,8 +157,7 @@
                           "type": "Literal",
                           "start": 578,
                           "end": 631,
-                          "value": "#1: for {;;} is admitted and leads to infinite loop",
-                          "raw": "'#1: for {;;} is admitted and leads to infinite loop'"
+                          "value": "#1: for {;;} is admitted and leads to infinite loop"
                         }
                       ]
                     }
@@ -195,8 +190,7 @@
           "type": "Literal",
           "start": 829,
           "end": 832,
-          "value": 101,
-          "raw": "101"
+          "value": 101
         }
       },
       "consequent": {
@@ -227,8 +221,7 @@
                     "type": "Literal",
                     "start": 860,
                     "end": 907,
-                    "value": "#2: __in__for === 101. Actual:  __in__for ===",
-                    "raw": "'#2: __in__for === 101. Actual:  __in__for ==='"
+                    "value": "#2: __in__for === 101. Actual:  __in__for ==="
                   },
                   "operator": "+",
                   "right": {

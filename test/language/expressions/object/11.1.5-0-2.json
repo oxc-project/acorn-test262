@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 415,
             "end": 429,
-            "value": "First getter",
-            "raw": "\"First getter\""
+            "value": "First getter"
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 442,
             "end": 456,
-            "value": "First setter",
-            "raw": "\"First setter\""
+            "value": "First setter"
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 469,
             "end": 484,
-            "value": "Second getter",
-            "raw": "\"Second getter\""
+            "value": "Second getter"
           }
         }
       ],
@@ -120,8 +117,7 @@
             "type": "Literal",
             "start": 502,
             "end": 611,
-            "value": "o = {get foo(){ return s1;},set foo(arg){return s2 = s3}, get bar(){ return s3}, set bar(arg){ s3 = arg;}};",
-            "raw": "\"o = {get foo(){ return s1;},set foo(arg){return s2 = s3}, get bar(){ return s3}, set bar(arg){ s3 = arg;}};\""
+            "value": "o = {get foo(){ return s1;},set foo(arg){return s2 = s3}, get bar(){ return s3}, set bar(arg){ s3 = arg;}};"
           }
         ],
         "optional": false
@@ -184,8 +180,7 @@
             "type": "Literal",
             "start": 643,
             "end": 650,
-            "value": "o.foo",
-            "raw": "'o.foo'"
+            "value": "o.foo"
           }
         ],
         "optional": false
@@ -223,8 +218,7 @@
           "type": "Literal",
           "start": 664,
           "end": 666,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       }
     },
@@ -272,8 +266,7 @@
             "type": "Literal",
             "start": 694,
             "end": 698,
-            "value": "s2",
-            "raw": "'s2'"
+            "value": "s2"
           }
         ],
         "optional": false
@@ -336,8 +329,7 @@
             "type": "Literal",
             "start": 729,
             "end": 736,
-            "value": "o.bar",
-            "raw": "'o.bar'"
+            "value": "o.bar"
           }
         ],
         "optional": false
@@ -375,8 +367,7 @@
           "type": "Literal",
           "start": 750,
           "end": 765,
-          "value": "Second setter",
-          "raw": "\"Second setter\""
+          "value": "Second setter"
         }
       }
     },
@@ -431,15 +422,13 @@
             "type": "Literal",
             "start": 792,
             "end": 807,
-            "value": "Second setter",
-            "raw": "\"Second setter\""
+            "value": "Second setter"
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 816,
-            "value": "o.bar",
-            "raw": "'o.bar'"
+            "value": "o.bar"
           }
         ],
         "optional": false

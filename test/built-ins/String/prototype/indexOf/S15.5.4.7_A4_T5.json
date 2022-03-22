@@ -101,8 +101,7 @@
                           "type": "Literal",
                           "start": 570,
                           "end": 579,
-                          "value": "intostr",
-                          "raw": "\"intostr\""
+                          "value": "intostr"
                         }
                       }
                     ]
@@ -171,8 +170,7 @@
                           "type": "Literal",
                           "start": 638,
                           "end": 651,
-                          "value": "intointeger",
-                          "raw": "\"intointeger\""
+                          "value": "intointeger"
                         }
                       }
                     ]
@@ -297,8 +295,7 @@
                   "type": "Literal",
                   "start": 754,
                   "end": 755,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ]
@@ -393,8 +390,7 @@
                   "type": "Literal",
                   "start": 924,
                   "end": 1000,
-                  "value": "#1: \"var x = __instance.indexOf(__obj, __obj2)\" lead to throwing exception",
-                  "raw": "'#1: \"var x = __instance.indexOf(__obj, __obj2)\" lead to throwing exception'"
+                  "value": "#1: \"var x = __instance.indexOf(__obj, __obj2)\" lead to throwing exception"
                 }
               ]
             }
@@ -435,8 +431,7 @@
                   "type": "Literal",
                   "start": 1029,
                   "end": 1038,
-                  "value": "intostr",
-                  "raw": "\"intostr\""
+                  "value": "intostr"
                 }
               },
               "consequent": {
@@ -467,8 +462,7 @@
                             "type": "Literal",
                             "start": 1069,
                             "end": 1110,
-                            "value": "#1.1: Exception === \"intostr\". Actual: ",
-                            "raw": "'#1.1: Exception === \"intostr\". Actual: '"
+                            "value": "#1.1: Exception === \"intostr\". Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -686,8 +680,7 @@
                           "type": "Literal",
                           "start": 1369,
                           "end": 1371,
-                          "value": "",
-                          "raw": "\"\""
+                          "value": ""
                         }
                       }
                     }

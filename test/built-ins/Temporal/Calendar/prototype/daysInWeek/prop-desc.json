@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 380,
             "end": 390,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 394,
             "end": 448,
-            "value": "`typeof Calendar.prototype.daysInWeek` is `function`",
-            "raw": "\"`typeof Calendar.prototype.daysInWeek` is `function`\""
+            "value": "`typeof Calendar.prototype.daysInWeek` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 497,
             "end": 509,
-            "value": "daysInWeek",
-            "raw": "\"daysInWeek\""
+            "value": "daysInWeek"
           },
           {
             "type": "ObjectExpression",

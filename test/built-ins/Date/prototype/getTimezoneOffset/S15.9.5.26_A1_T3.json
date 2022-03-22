@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 368,
                   "end": 387,
-                  "value": "getTimezoneOffset",
-                  "raw": "'getTimezoneOffset'"
+                  "value": "getTimezoneOffset"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 392,
             "end": 489,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('getTimezoneOffset') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getTimezoneOffset\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getTimezoneOffset') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 551,
                   "end": 570,
-                  "value": "getTimezoneOffset",
-                  "raw": "\"getTimezoneOffset\""
+                  "value": "getTimezoneOffset"
                 },
                 {
                   "type": "Literal",
                   "start": 572,
                   "end": 615,
-                  "value": "The value of x is not \"getTimezoneOffset\"",
-                  "raw": "'The value of x is not \"getTimezoneOffset\"'"
+                  "value": "The value of x is not \"getTimezoneOffset\""
                 }
               ],
               "optional": false

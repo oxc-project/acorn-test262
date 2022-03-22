@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 491,
             "end": 508,
-            "value": "ordinary object",
-            "raw": "\"ordinary object\""
+            "value": "ordinary object"
           }
         ],
         "optional": false
@@ -154,8 +153,7 @@
             "type": "Literal",
             "start": 559,
             "end": 566,
-            "value": "Array",
-            "raw": "\"Array\""
+            "value": "Array"
           }
         ],
         "optional": false

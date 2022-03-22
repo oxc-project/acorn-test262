@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 413,
                           "end": 427,
-                          "value": "function(){}",
-                          "raw": "\"function(){}\""
+                          "value": "function(){}"
                         }
                       }
                     ]
@@ -192,8 +191,7 @@
                   "type": "Literal",
                   "start": 602,
                   "end": 603,
-                  "value": 8,
-                  "raw": "8"
+                  "value": 8
                 }
               ],
               "optional": false
@@ -212,8 +210,7 @@
               "type": "Literal",
               "start": 611,
               "end": 612,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Identifier",
@@ -229,8 +226,7 @@
           "type": "Literal",
           "start": 628,
           "end": 637,
-          "value": "unction",
-          "raw": "\"unction\""
+          "value": "unction"
         }
       },
       "consequent": {
@@ -261,8 +257,7 @@
                     "type": "Literal",
                     "start": 666,
                     "end": 813,
-                    "value": "#1: __instance = function(){}; __instance.slice = String.prototype.slice; __instance.slice(-Infinity,8).slice(1,Infinity) === \"unction\". Actual: ",
-                    "raw": "'#1: __instance = function(){}; __instance.slice = String.prototype.slice; __instance.slice(-Infinity,8).slice(1,Infinity) === \"unction\". Actual: '"
+                    "value": "#1: __instance = function(){}; __instance.slice = String.prototype.slice; __instance.slice(-Infinity,8).slice(1,Infinity) === \"unction\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -314,8 +309,7 @@
                             "type": "Literal",
                             "start": 844,
                             "end": 845,
-                            "value": 8,
-                            "raw": "8"
+                            "value": 8
                           }
                         ],
                         "optional": false
@@ -334,8 +328,7 @@
                         "type": "Literal",
                         "start": 853,
                         "end": 854,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Identifier",

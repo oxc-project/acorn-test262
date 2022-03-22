@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 731,
             "end": 775,
-            "value": "isConstructor(decodeURI) must return false",
-            "raw": "'isConstructor(decodeURI) must return false'"
+            "value": "isConstructor(decodeURI) must return false"
           }
         ],
         "optional": false
@@ -136,8 +135,7 @@
                         "type": "Literal",
                         "start": 828,
                         "end": 830,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ]
                   }
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 836,
             "end": 876,
-            "value": "`new decodeURI('')` throws TypeError",
-            "raw": "'`new decodeURI(\\'\\')` throws TypeError'"
+            "value": "`new decodeURI('')` throws TypeError"
           }
         ],
         "optional": false

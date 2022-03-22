@@ -51,8 +51,7 @@
                     "type": "Literal",
                     "start": 509,
                     "end": 510,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ],
                 "optional": false
@@ -322,8 +321,7 @@
                       "type": "Literal",
                       "start": 720,
                       "end": 762,
-                      "value": "isConstructor(resolve) must return false",
-                      "raw": "'isConstructor(resolve) must return false'"
+                      "value": "isConstructor(resolve) must return false"
                     }
                   ],
                   "optional": false
@@ -401,8 +399,7 @@
                       "type": "Literal",
                       "start": 824,
                       "end": 858,
-                      "value": "`new resolve()` throws TypeError",
-                      "raw": "'`new resolve()` throws TypeError'"
+                      "value": "`new resolve()` throws TypeError"
                     }
                   ],
                   "optional": false
@@ -459,15 +456,13 @@
                       "type": "Literal",
                       "start": 897,
                       "end": 898,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 900,
                       "end": 934,
-                      "value": "The value of resolve.length is 1",
-                      "raw": "'The value of resolve.length is 1'"
+                      "value": "The value of resolve.length is 1"
                     }
                   ],
                   "optional": false
@@ -524,15 +519,13 @@
                       "type": "Literal",
                       "start": 970,
                       "end": 972,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     },
                     {
                       "type": "Literal",
                       "start": 974,
                       "end": 1007,
-                      "value": "The value of resolve.name is \"\"",
-                      "raw": "'The value of resolve.name is \"\"'"
+                      "value": "The value of resolve.name is \"\""
                     }
                   ],
                   "optional": false

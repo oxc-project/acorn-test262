@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 354,
                           "end": 370,
-                          "value": "toString value",
-                          "raw": "'toString value'"
+                          "value": "toString value"
                         }
                       }
                     ]
@@ -114,7 +113,6 @@
                 "start": 397,
                 "end": 403,
                 "value": {},
-                "raw": "/ring/",
                 "regex": {
                   "pattern": "ring",
                   "flags": ""
@@ -156,8 +154,7 @@
             "type": "Literal",
             "start": 425,
             "end": 426,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           }
         ],
         "optional": false

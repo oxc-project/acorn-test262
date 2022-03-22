@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 281,
             "end": 291,
-            "value": "DataView",
-            "raw": "\"DataView\""
+            "value": "DataView"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 315,
             "end": 325,
-            "value": "DataView",
-            "raw": "\"DataView\""
+            "value": "DataView"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 353,
             "end": 363,
-            "value": "DataView",
-            "raw": "\"DataView\""
+            "value": "DataView"
           }
         ],
         "optional": false

@@ -49,8 +49,7 @@
               "type": "Literal",
               "start": 979,
               "end": 980,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "kind": "get",
             "value": {
@@ -75,8 +74,7 @@
                       "type": "Literal",
                       "start": 992,
                       "end": 1004,
-                      "value": "get string",
-                      "raw": "'get string'"
+                      "value": "get string"
                     }
                   }
                 ]
@@ -93,8 +91,7 @@
               "type": "Literal",
               "start": 1021,
               "end": 1022,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "kind": "set",
             "value": {
@@ -190,8 +187,7 @@
               "type": "Literal",
               "start": 1075,
               "end": 1078,
-              "value": "0",
-              "raw": "'0'"
+              "value": "0"
             },
             "computed": true,
             "optional": false
@@ -200,8 +196,7 @@
             "type": "Literal",
             "start": 1081,
             "end": 1093,
-            "value": "get string",
-            "raw": "'get string'"
+            "value": "get string"
           }
         ],
         "optional": false
@@ -230,8 +225,7 @@
             "type": "Literal",
             "start": 1099,
             "end": 1102,
-            "value": "0",
-            "raw": "'0'"
+            "value": "0"
           },
           "computed": true,
           "optional": false
@@ -240,8 +234,7 @@
           "type": "Literal",
           "start": 1106,
           "end": 1118,
-          "value": "set string",
-          "raw": "'set string'"
+          "value": "set string"
         }
       }
     },
@@ -283,8 +276,7 @@
             "type": "Literal",
             "start": 1148,
             "end": 1160,
-            "value": "set string",
-            "raw": "'set string'"
+            "value": "set string"
           }
         ],
         "optional": false

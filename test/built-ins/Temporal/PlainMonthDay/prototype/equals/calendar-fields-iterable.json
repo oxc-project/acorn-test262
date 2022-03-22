@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 731,
-                "value": "day",
-                "raw": "\"day\""
+                "value": "day"
               },
               {
                 "type": "Literal",
                 "start": 735,
                 "end": 742,
-                "value": "month",
-                "raw": "\"month\""
+                "value": "month"
               },
               {
                 "type": "Literal",
                 "start": 746,
                 "end": 757,
-                "value": "monthCode",
-                "raw": "\"monthCode\""
+                "value": "monthCode"
               },
               {
                 "type": "Literal",
                 "start": 761,
                 "end": 767,
-                "value": "year",
-                "raw": "\"year\""
+                "value": "year"
               }
             ]
           }
@@ -145,15 +141,13 @@
                 "type": "Literal",
                 "start": 873,
                 "end": 874,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 876,
                 "end": 877,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -262,8 +256,7 @@
                   "type": "Literal",
                   "start": 976,
                   "end": 981,
-                  "value": "M06",
-                  "raw": "\"M06\""
+                  "value": "M06"
                 },
                 "kind": "init"
               },
@@ -284,8 +277,7 @@
                   "type": "Literal",
                   "start": 988,
                   "end": 989,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -367,15 +359,13 @@
             "type": "Literal",
             "start": 1060,
             "end": 1061,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1063,
             "end": 1091,
-            "value": "fields() method not called",
-            "raw": "\"fields() method not called\""
+            "value": "fields() method not called"
           }
         ],
         "optional": false
@@ -432,15 +422,13 @@
             "type": "Literal",
             "start": 1138,
             "end": 1139,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1141,
             "end": 1170,
-            "value": "fields() method called once",
-            "raw": "\"fields() method called once\""
+            "value": "fields() method called once"
           }
         ],
         "optional": false
@@ -501,8 +489,7 @@
               "type": "Literal",
               "start": 1220,
               "end": 1221,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -517,8 +504,7 @@
             "type": "Literal",
             "start": 1234,
             "end": 1276,
-            "value": "fields() method called with correct args",
-            "raw": "\"fields() method called with correct args\""
+            "value": "fields() method called with correct args"
           }
         ],
         "optional": false
@@ -566,8 +552,7 @@
               "type": "Literal",
               "start": 1314,
               "end": 1315,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -576,8 +561,7 @@
             "type": "Literal",
             "start": 1318,
             "end": 1355,
-            "value": "iterated through the whole iterable",
-            "raw": "\"iterated through the whole iterable\""
+            "value": "iterated through the whole iterable"
           }
         ],
         "optional": false

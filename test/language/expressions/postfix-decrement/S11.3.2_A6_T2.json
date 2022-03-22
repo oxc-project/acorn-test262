@@ -334,8 +334,7 @@
                                           "type": "Literal",
                                           "start": 663,
                                           "end": 687,
-                                          "value": "property key evaluated",
-                                          "raw": "\"property key evaluated\""
+                                          "value": "property key evaluated"
                                         }
                                       ]
                                     }

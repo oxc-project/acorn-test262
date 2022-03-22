@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 738,
             "end": 777,
-            "value": "isConstructor(Array) must return true",
-            "raw": "'isConstructor(Array) must return true'"
+            "value": "isConstructor(Array) must return true"
           }
         ],
         "optional": false

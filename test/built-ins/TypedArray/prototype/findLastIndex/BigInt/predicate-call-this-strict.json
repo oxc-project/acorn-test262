@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 694,
                             "end": 695,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -213,8 +212,7 @@
                         "type": "Literal",
                         "start": 826,
                         "end": 872,
-                        "value": "without thisArg, predicate this is undefined",
-                        "raw": "\"without thisArg, predicate this is undefined\""
+                        "value": "without thisArg, predicate this is undefined"
                       }
                     ],
                     "optional": false
@@ -366,8 +364,7 @@
                         "type": "Literal",
                         "start": 988,
                         "end": 1024,
-                        "value": "thisArg becomes the predicate this",
-                        "raw": "\"thisArg becomes the predicate this\""
+                        "value": "thisArg becomes the predicate this"
                       }
                     ],
                     "optional": false

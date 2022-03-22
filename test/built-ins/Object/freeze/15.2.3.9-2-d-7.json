@@ -124,8 +124,7 @@
             "type": "Literal",
             "start": 307,
             "end": 341,
-            "value": "Object.isFrozen(regObj) !== true",
-            "raw": "'Object.isFrozen(regObj) !== true'"
+            "value": "Object.isFrozen(regObj) !== true"
           }
         ],
         "optional": false

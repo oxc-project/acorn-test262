@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 499,
             "end": 500,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "operator": "!==",
@@ -64,8 +63,7 @@
                   "type": "Literal",
                   "start": 539,
                   "end": 563,
-                  "value": "#1: true < 1 === false",
-                  "raw": "'#1: true < 1 === false'"
+                  "value": "#1: true < 1 === false"
                 }
               ]
             }
@@ -90,8 +88,7 @@
             "type": "Literal",
             "start": 583,
             "end": 584,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "operator": "<",
           "right": {
@@ -135,8 +132,7 @@
                   "type": "Literal",
                   "start": 630,
                   "end": 654,
-                  "value": "#2: 1 < true === false",
-                  "raw": "'#2: 1 < true === false'"
+                  "value": "#2: 1 < true === false"
                 }
               ]
             }
@@ -182,8 +178,7 @@
             "type": "Literal",
             "start": 694,
             "end": 695,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "operator": "!==",
@@ -219,8 +214,7 @@
                   "type": "Literal",
                   "start": 734,
                   "end": 771,
-                  "value": "#3: new Boolean(true) < 1 === false",
-                  "raw": "'#3: new Boolean(true) < 1 === false'"
+                  "value": "#3: new Boolean(true) < 1 === false"
                 }
               ]
             }
@@ -245,8 +239,7 @@
             "type": "Literal",
             "start": 791,
             "end": 792,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "operator": "<",
           "right": {
@@ -303,8 +296,7 @@
                   "type": "Literal",
                   "start": 851,
                   "end": 888,
-                  "value": "#4: 1 < new Boolean(true) === false",
-                  "raw": "'#4: 1 < new Boolean(true) === false'"
+                  "value": "#4: 1 < new Boolean(true) === false"
                 }
               ]
             }
@@ -348,8 +340,7 @@
                 "type": "Literal",
                 "start": 926,
                 "end": 927,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -387,8 +378,7 @@
                   "type": "Literal",
                   "start": 967,
                   "end": 1003,
-                  "value": "#5: true < new Number(1) === false",
-                  "raw": "'#5: true < new Number(1) === false'"
+                  "value": "#5: true < new Number(1) === false"
                 }
               ]
             }
@@ -424,8 +414,7 @@
                 "type": "Literal",
                 "start": 1034,
                 "end": 1035,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -471,8 +460,7 @@
                   "type": "Literal",
                   "start": 1082,
                   "end": 1118,
-                  "value": "#6: new Number(1) < true === false",
-                  "raw": "'#6: new Number(1) < true === false'"
+                  "value": "#6: new Number(1) < true === false"
                 }
               ]
             }
@@ -529,8 +517,7 @@
                 "type": "Literal",
                 "start": 1169,
                 "end": 1170,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -568,8 +555,7 @@
                   "type": "Literal",
                   "start": 1210,
                   "end": 1259,
-                  "value": "#7: new Boolean(true) < new Number(1) === false",
-                  "raw": "'#7: new Boolean(true) < new Number(1) === false'"
+                  "value": "#7: new Boolean(true) < new Number(1) === false"
                 }
               ]
             }
@@ -605,8 +591,7 @@
                 "type": "Literal",
                 "start": 1290,
                 "end": 1291,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -665,8 +650,7 @@
                   "type": "Literal",
                   "start": 1351,
                   "end": 1400,
-                  "value": "#8: new Number(1) < new Boolean(true) === false",
-                  "raw": "'#8: new Number(1) < new Boolean(true) === false'"
+                  "value": "#8: new Number(1) < new Boolean(true) === false"
                 }
               ]
             }

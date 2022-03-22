@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 766,
             "end": 824,
-            "value": "isConstructor(Array.prototype.forEach) must return false",
-            "raw": "'isConstructor(Array.prototype.forEach) must return false'"
+            "value": "isConstructor(Array.prototype.forEach) must return false"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 906,
             "end": 964,
-            "value": "`new Array.prototype.forEach(() => {})` throws TypeError",
-            "raw": "'`new Array.prototype.forEach(() => {})` throws TypeError'"
+            "value": "`new Array.prototype.forEach(() => {})` throws TypeError"
           }
         ],
         "optional": false

@@ -109,8 +109,7 @@
                         "type": "Literal",
                         "start": 365,
                         "end": 367,
-                        "value": 15,
-                        "raw": "15"
+                        "value": 15
                       }
                     ],
                     "optional": false

@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 699,
                           "end": 708,
-                          "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "value": "AB"
                         }
                       }
                     ]
@@ -128,8 +127,7 @@
                           "type": "Literal",
                           "start": 765,
                           "end": 778,
-                          "value": "intointeger",
-                          "raw": "\"intointeger\""
+                          "value": "intointeger"
                         }
                       }
                     ]
@@ -162,8 +160,7 @@
             "type": "Literal",
             "start": 798,
             "end": 814,
-            "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "value": "ABBABABAB"
           }
         }
       ],
@@ -268,8 +265,7 @@
                   "type": "Literal",
                   "start": 973,
                   "end": 1042,
-                  "value": "#1: \"var x = __str.split(__obj, __obj2)\" lead to throwing exception",
-                  "raw": "'#1: \"var x = __str.split(__obj, __obj2)\" lead to throwing exception'"
+                  "value": "#1: \"var x = __str.split(__obj, __obj2)\" lead to throwing exception"
                 }
               ],
               "optional": false
@@ -330,15 +326,13 @@
                     "type": "Literal",
                     "start": 1081,
                     "end": 1094,
-                    "value": "intointeger",
-                    "raw": "\"intointeger\""
+                    "value": "intointeger"
                   },
                   {
                     "type": "Literal",
                     "start": 1096,
                     "end": 1131,
-                    "value": "The value of `e` is \"intointeger\"",
-                    "raw": "'The value of `e` is \"intointeger\"'"
+                    "value": "The value of `e` is \"intointeger\""
                   }
                 ],
                 "optional": false

@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 353,
-                "value": "NaN",
-                "raw": "\"NaN\""
+                "value": "NaN"
               }
             ],
             "optional": false
@@ -120,8 +119,7 @@
             "type": "Literal",
             "start": 396,
             "end": 411,
-            "value": "desc.writable",
-            "raw": "'desc.writable'"
+            "value": "desc.writable"
           }
         ],
         "optional": false
@@ -185,8 +183,7 @@
             "type": "Literal",
             "start": 455,
             "end": 472,
-            "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "value": "desc.enumerable"
           }
         ],
         "optional": false
@@ -250,8 +247,7 @@
             "type": "Literal",
             "start": 518,
             "end": 537,
-            "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "value": "desc.configurable"
           }
         ],
         "optional": false
@@ -313,8 +309,7 @@
                 "type": "Literal",
                 "start": 577,
                 "end": 582,
-                "value": "get",
-                "raw": "'get'"
+                "value": "get"
               }
             ],
             "optional": false
@@ -330,8 +325,7 @@
             "type": "Literal",
             "start": 592,
             "end": 620,
-            "value": "desc.hasOwnProperty(\"get\")",
-            "raw": "'desc.hasOwnProperty(\"get\")'"
+            "value": "desc.hasOwnProperty(\"get\")"
           }
         ],
         "optional": false
@@ -393,8 +387,7 @@
                 "type": "Literal",
                 "start": 660,
                 "end": 665,
-                "value": "set",
-                "raw": "'set'"
+                "value": "set"
               }
             ],
             "optional": false
@@ -410,8 +403,7 @@
             "type": "Literal",
             "start": 675,
             "end": 703,
-            "value": "desc.hasOwnProperty(\"set\")",
-            "raw": "'desc.hasOwnProperty(\"set\")'"
+            "value": "desc.hasOwnProperty(\"set\")"
           }
         ],
         "optional": false

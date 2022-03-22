@@ -277,8 +277,7 @@
                               "type": "Literal",
                               "start": 407,
                               "end": 408,
-                              "value": 3,
-                              "raw": "3"
+                              "value": 3
                             }
                           }
                         }
@@ -384,8 +383,7 @@
                           "type": "Literal",
                           "start": 526,
                           "end": 583,
-                          "value": "The result of `exn instanceof ReferenceError` is `true`",
-                          "raw": "\"The result of `exn instanceof ReferenceError` is `true`\""
+                          "value": "The result of `exn instanceof ReferenceError` is `true`"
                         }
                       ],
                       "optional": false
@@ -489,8 +487,7 @@
                           "type": "Literal",
                           "start": 646,
                           "end": 682,
-                          "value": "The value of `this.prp` is `a + b`",
-                          "raw": "\"The value of `this.prp` is `a + b`\""
+                          "value": "The value of `this.prp` is `a + b`"
                         }
                       ],
                       "optional": false
@@ -552,8 +549,7 @@
                           "type": "Literal",
                           "start": 728,
                           "end": 769,
-                          "value": "The value of `this.prp1` is `undefined`",
-                          "raw": "\"The value of `this.prp1` is `undefined`\""
+                          "value": "The value of `this.prp1` is `undefined`"
                         }
                       ],
                       "optional": false
@@ -614,8 +610,7 @@
                               "type": "Literal",
                               "start": 820,
                               "end": 826,
-                              "value": "prp1",
-                              "raw": "\"prp1\""
+                              "value": "prp1"
                             }
                           ],
                           "optional": false
@@ -631,8 +626,7 @@
                           "type": "Literal",
                           "start": 848,
                           "end": 897,
-                          "value": "`this.hasOwnProperty(\"prp1\")` returns `false`",
-                          "raw": "\"`this.hasOwnProperty(\\\"prp1\\\")` returns `false`\""
+                          "value": "`this.hasOwnProperty(\"prp1\")` returns `false`"
                         }
                       ],
                       "optional": false
@@ -685,15 +679,13 @@
                 "type": "Literal",
                 "start": 946,
                 "end": 947,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 949,
                 "end": 950,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -752,15 +744,13 @@
             "type": "Literal",
             "start": 977,
             "end": 978,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 980,
             "end": 1009,
-            "value": "The value of `b.prp` is `3`",
-            "raw": "\"The value of `b.prp` is `3`\""
+            "value": "The value of `b.prp` is `3`"
           }
         ],
         "optional": false
@@ -796,8 +786,7 @@
                 "type": "Literal",
                 "start": 1035,
                 "end": 1036,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "UnaryExpression",
@@ -809,8 +798,7 @@
                   "type": "Literal",
                   "start": 1039,
                   "end": 1040,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ]
@@ -870,15 +858,13 @@
             "type": "Literal",
             "start": 1067,
             "end": 1068,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1070,
             "end": 1099,
-            "value": "The value of `s.prp` is `1`",
-            "raw": "\"The value of `s.prp` is `1`\""
+            "value": "The value of `s.prp` is `1`"
           }
         ],
         "optional": false
@@ -941,8 +927,7 @@
             "type": "Literal",
             "start": 1138,
             "end": 1176,
-            "value": "The value of `s.prp1` is `undefined`",
-            "raw": "\"The value of `s.prp1` is `undefined`\""
+            "value": "The value of `s.prp1` is `undefined`"
           }
         ],
         "optional": false
@@ -1004,8 +989,7 @@
                 "type": "Literal",
                 "start": 1216,
                 "end": 1222,
-                "value": "prp1",
-                "raw": "\"prp1\""
+                "value": "prp1"
               }
             ],
             "optional": false
@@ -1021,8 +1005,7 @@
             "type": "Literal",
             "start": 1236,
             "end": 1282,
-            "value": "`s.hasOwnProperty(\"prp1\")` returns `false`",
-            "raw": "\"`s.hasOwnProperty(\\\"prp1\\\")` returns `false`\""
+            "value": "`s.hasOwnProperty(\"prp1\")` returns `false`"
           }
         ],
         "optional": false
@@ -1101,15 +1084,13 @@
                           "type": "Literal",
                           "start": 1347,
                           "end": 1348,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         {
                           "type": "Literal",
                           "start": 1349,
                           "end": 1350,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ],
                       "optional": false
@@ -1134,8 +1115,7 @@
                         "type": "Literal",
                         "start": 1366,
                         "end": 1367,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     },
                     "consequent": {
@@ -1223,8 +1203,7 @@
                             "type": "Literal",
                             "start": 1445,
                             "end": 1446,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           }
                         }
                       ]
@@ -1296,8 +1275,7 @@
                                 "type": "Literal",
                                 "start": 1498,
                                 "end": 1499,
-                                "value": 4,
-                                "raw": "4"
+                                "value": 4
                               }
                             ],
                             "optional": false
@@ -1405,8 +1383,7 @@
                           "type": "Literal",
                           "start": 1608,
                           "end": 1665,
-                          "value": "The result of `exn instanceof ReferenceError` is `true`",
-                          "raw": "\"The result of `exn instanceof ReferenceError` is `true`\""
+                          "value": "The result of `exn instanceof ReferenceError` is `true`"
                         }
                       ],
                       "optional": false
@@ -1457,8 +1434,7 @@
                           "type": "Literal",
                           "start": 1708,
                           "end": 1741,
-                          "value": "The value of `called` is `true`",
-                          "raw": "\"The value of `called` is `true`\""
+                          "value": "The value of `called` is `true`"
                         }
                       ],
                       "optional": false
@@ -1501,8 +1477,7 @@
                 "type": "Literal",
                 "start": 1774,
                 "end": 1775,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -1561,15 +1536,13 @@
             "type": "Literal",
             "start": 1803,
             "end": 1804,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1806,
             "end": 1836,
-            "value": "The value of `s2.prp` is `3`",
-            "raw": "\"The value of `s2.prp` is `3`\""
+            "value": "The value of `s2.prp` is `3`"
           }
         ],
         "optional": false
@@ -1611,8 +1584,7 @@
                   "type": "Literal",
                   "start": 1864,
                   "end": 1865,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ]
@@ -1672,15 +1644,13 @@
             "type": "Literal",
             "start": 1893,
             "end": 1894,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1896,
             "end": 1926,
-            "value": "The value of `s3.prp` is `3`",
-            "raw": "\"The value of `s3.prp` is `3`\""
+            "value": "The value of `s3.prp` is `3`"
           }
         ],
         "optional": false
@@ -1778,15 +1748,13 @@
                         "type": "Literal",
                         "start": 1996,
                         "end": 1997,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1999,
                         "end": 2000,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     ],
                     "optional": false
@@ -1891,15 +1859,13 @@
                         "type": "Literal",
                         "start": 2069,
                         "end": 2070,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 2072,
                         "end": 2073,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     ],
                     "optional": false

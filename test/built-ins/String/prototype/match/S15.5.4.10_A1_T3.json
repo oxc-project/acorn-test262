@@ -285,8 +285,7 @@
                         "type": "Literal",
                         "start": 566,
                         "end": 574,
-                        "value": "\"bj\"",
-                        "raw": "\"\\\"bj\\\"\""
+                        "value": "\"bj\""
                       }
                     ],
                     "optional": false
@@ -298,8 +297,7 @@
                 "type": "Literal",
                 "start": 577,
                 "end": 578,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -309,8 +307,7 @@
               "type": "Literal",
               "start": 584,
               "end": 588,
-              "value": "bj",
-              "raw": "\"bj\""
+              "value": "bj"
             }
           }
         }
@@ -343,8 +340,7 @@
                     "type": "Literal",
                     "start": 618,
                     "end": 712,
-                    "value": "#1: match = String.prototype.match.bind(this); match(eval(\"\\\"bj\\\"\"))[0] === \"bj\". Actual: ",
-                    "raw": "'#1: match = String.prototype.match.bind(this); match(eval(\"\\\\\"bj\\\\\"\"))[0] === \"bj\". Actual: '"
+                    "value": "#1: match = String.prototype.match.bind(this); match(eval(\"\\\"bj\\\"\"))[0] === \"bj\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -377,8 +373,7 @@
                               "type": "Literal",
                               "start": 726,
                               "end": 734,
-                              "value": "\"bj\"",
-                              "raw": "\"\\\"bj\\\"\""
+                              "value": "\"bj\""
                             }
                           ],
                           "optional": false
@@ -390,8 +385,7 @@
                       "type": "Literal",
                       "start": 737,
                       "end": 738,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false

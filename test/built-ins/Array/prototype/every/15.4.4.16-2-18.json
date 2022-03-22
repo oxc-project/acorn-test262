@@ -70,8 +70,7 @@
                     "type": "Literal",
                     "start": 358,
                     "end": 360,
-                    "value": 10,
-                    "raw": "10"
+                    "value": 10
                   }
                 ],
                 "optional": false
@@ -81,8 +80,7 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 365,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -156,8 +154,7 @@
                     "type": "Literal",
                     "start": 431,
                     "end": 433,
-                    "value": 10,
-                    "raw": "10"
+                    "value": 10
                   }
                 ],
                 "optional": false
@@ -167,8 +164,7 @@
                 "type": "Literal",
                 "start": 437,
                 "end": 438,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           }
@@ -205,8 +201,7 @@
                 "type": "Literal",
                 "start": 464,
                 "end": 469,
-                "value": "432",
-                "raw": "\"432\""
+                "value": "432"
               }
             ]
           }
@@ -250,8 +245,7 @@
             "type": "Literal",
             "start": 490,
             "end": 491,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           "computed": true,
           "optional": false
@@ -260,8 +254,7 @@
           "type": "Literal",
           "start": 495,
           "end": 498,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -349,8 +342,7 @@
             "type": "Literal",
             "start": 554,
             "end": 609,
-            "value": "Array.prototype.every.call(str, callbackfn1) !== true",
-            "raw": "'Array.prototype.every.call(str, callbackfn1) !== true'"
+            "value": "Array.prototype.every.call(str, callbackfn1) !== true"
           }
         ],
         "optional": false
@@ -460,8 +452,7 @@
             "type": "Literal",
             "start": 682,
             "end": 728,
-            "value": "Array.prototype.every.call(str, callbackfn2)",
-            "raw": "'Array.prototype.every.call(str, callbackfn2)'"
+            "value": "Array.prototype.every.call(str, callbackfn2)"
           }
         ],
         "optional": false

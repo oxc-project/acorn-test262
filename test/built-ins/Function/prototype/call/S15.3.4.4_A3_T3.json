@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 341,
                 "end": 364,
-                "value": "this.field=\"battle\"",
-                "raw": "\"this.field=\\\"battle\\\"\""
+                "value": "this.field=\"battle\""
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
               "type": "Literal",
               "start": 376,
               "end": 377,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -105,8 +103,7 @@
               "type": "Literal",
               "start": 403,
               "end": 410,
-              "value": "field",
-              "raw": "\"field\""
+              "value": "field"
             },
             "computed": true,
             "optional": false
@@ -115,15 +112,13 @@
             "type": "Literal",
             "start": 413,
             "end": 421,
-            "value": "battle",
-            "raw": "\"battle\""
+            "value": "battle"
           },
           {
             "type": "Literal",
             "start": 423,
             "end": 478,
-            "value": "The value of this[\"field\"] is expected to be \"battle\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"battle\"'"
+            "value": "The value of this[\"field\"] is expected to be \"battle\""
           }
         ],
         "optional": false

@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 380,
             "end": 390,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 394,
             "end": 448,
-            "value": "`typeof Instant.fromEpochMicroseconds` is `function`",
-            "raw": "\"`typeof Instant.fromEpochMicroseconds` is `function`\""
+            "value": "`typeof Instant.fromEpochMicroseconds` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 486,
             "end": 509,
-            "value": "fromEpochMicroseconds",
-            "raw": "\"fromEpochMicroseconds\""
+            "value": "fromEpochMicroseconds"
           },
           {
             "type": "ObjectExpression",

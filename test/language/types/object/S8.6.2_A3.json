@@ -75,16 +75,14 @@
               "type": "Literal",
               "start": 506,
               "end": 516,
-              "value": "[object ",
-              "raw": "\"[object \""
+              "value": "[object "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 519,
               "end": 527,
-              "value": "Object",
-              "raw": "'Object'"
+              "value": "Object"
             }
           },
           "operator": "+",
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 530,
             "end": 533,
-            "value": "]",
-            "raw": "\"]\""
+            "value": "]"
           }
         }
       },
@@ -125,8 +122,7 @@
                     "type": "Literal",
                     "start": 561,
                     "end": 641,
-                    "value": "#1: var __obj={}; __obj.toString() === \"[object \" + 'Object' + \"]\". Actual: ",
-                    "raw": "'#1: var __obj={}; __obj.toString() === \"[object \" + \\'Object\\' + \"]\". Actual: '"
+                    "value": "#1: var __obj={}; __obj.toString() === \"[object \" + 'Object' + \"]\". Actual: "
                   },
                   "operator": "+",
                   "right": {

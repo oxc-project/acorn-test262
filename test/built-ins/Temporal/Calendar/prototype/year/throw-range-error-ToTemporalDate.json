@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 643,
                 "end": 652,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -126,8 +125,7 @@
                   "type": "Literal",
                   "start": 697,
                   "end": 713,
-                  "value": "invalid string",
-                  "raw": "\"invalid string\""
+                  "value": "invalid string"
                 }
               ],
               "optional": false
@@ -137,8 +135,7 @@
             "type": "Literal",
             "start": 720,
             "end": 778,
-            "value": "cal.year(\"invalid string\") throws a RangeError exception",
-            "raw": "'cal.year(\"invalid string\") throws a RangeError exception'"
+            "value": "cal.year(\"invalid string\") throws a RangeError exception"
           }
         ],
         "optional": false

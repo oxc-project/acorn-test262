@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Math.floor) must return false",
-            "raw": "'isConstructor(Math.floor) must return false'"
+            "value": "isConstructor(Math.floor) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 838,
             "end": 875,
-            "value": "`new Math.floor()` throws TypeError",
-            "raw": "'`new Math.floor()` throws TypeError'"
+            "value": "`new Math.floor()` throws TypeError"
           }
         ],
         "optional": false

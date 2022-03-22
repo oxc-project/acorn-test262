@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 660,
                 "end": 677,
-                "value": "Symbol.iterator",
-                "raw": "'Symbol.iterator'"
+                "value": "Symbol.iterator"
               }
             ],
             "optional": false
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 736,
             "end": 756,
-            "value": "constructed symbol",
-            "raw": "'constructed symbol'"
+            "value": "constructed symbol"
           }
         ],
         "optional": false
@@ -205,8 +203,7 @@
             "type": "Literal",
             "start": 823,
             "end": 842,
-            "value": "well-known symbol",
-            "raw": "'well-known symbol'"
+            "value": "well-known symbol"
           }
         ],
         "optional": false

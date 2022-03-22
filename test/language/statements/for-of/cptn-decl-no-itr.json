@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 892,
                 "end": 918,
-                "value": "1; for (var a of []) { }",
-                "raw": "'1; for (var a of []) { }'"
+                "value": "1; for (var a of []) { }"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 955,
                 "end": 984,
-                "value": "2; for (var b of []) { 3; }",
-                "raw": "'2; for (var b of []) { 3; }'"
+                "value": "2; for (var b of []) { 3; }"
               }
             ],
             "optional": false

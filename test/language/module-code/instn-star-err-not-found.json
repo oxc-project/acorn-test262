@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1009,
         "end": 1055,
-        "value": "./instn-star-err-not-found-faulty_FIXTURE.js",
-        "raw": "'./instn-star-err-not-found-faulty_FIXTURE.js'"
+        "value": "./instn-star-err-not-found-faulty_FIXTURE.js"
       }
     }
   ],

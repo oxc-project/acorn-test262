@@ -209,15 +209,13 @@
             "type": "Literal",
             "start": 682,
             "end": 690,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 735,
-            "value": "The value of `typeof __split` is \"object\"",
-            "raw": "'The value of `typeof __split` is \"object\"'"
+            "value": "The value of `typeof __split` is \"object\""
           }
         ],
         "optional": false
@@ -280,8 +278,7 @@
             "type": "Literal",
             "start": 791,
             "end": 865,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -338,15 +335,13 @@
             "type": "Literal",
             "start": 903,
             "end": 904,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 906,
             "end": 940,
-            "value": "The value of __split.length is 0",
-            "raw": "'The value of __split.length is 0'"
+            "value": "The value of __split.length is 0"
           }
         ],
         "optional": false

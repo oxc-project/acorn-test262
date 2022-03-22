@@ -147,8 +147,7 @@
             "type": "Literal",
             "start": 929,
             "end": 948,
-            "value": "this is an Object",
-            "raw": "\"this is an Object\""
+            "value": "this is an Object"
           }
         ],
         "optional": false
@@ -247,8 +246,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1031,
-            "value": "this is an Array",
-            "raw": "\"this is an Array\""
+            "value": "this is an Array"
           }
         ],
         "optional": false
@@ -284,8 +282,7 @@
                 "type": "Literal",
                 "start": 1060,
                 "end": 1061,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               }
             ]
           }
@@ -386,8 +383,7 @@
             "type": "Literal",
             "start": 1125,
             "end": 1158,
-            "value": "this is an ArrayBuffer instance",
-            "raw": "\"this is an ArrayBuffer instance\""
+            "value": "this is an ArrayBuffer instance"
           }
         ],
         "optional": false
@@ -434,8 +430,7 @@
                     "type": "Literal",
                     "start": 1200,
                     "end": 1201,
-                    "value": 8,
-                    "raw": "8"
+                    "value": 8
                   }
                 ]
               },
@@ -443,15 +438,13 @@
                 "type": "Literal",
                 "start": 1204,
                 "end": 1205,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1207,
                 "end": 1208,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -552,8 +545,7 @@
             "type": "Literal",
             "start": 1272,
             "end": 1301,
-            "value": "this is a DataView instance",
-            "raw": "\"this is a DataView instance\""
+            "value": "this is a DataView instance"
           }
         ],
         "optional": false

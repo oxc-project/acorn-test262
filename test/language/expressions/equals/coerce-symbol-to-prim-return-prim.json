@@ -138,8 +138,7 @@
           "type": "Literal",
           "start": 1066,
           "end": 1068,
-          "value": 86,
-          "raw": "86"
+          "value": 86
         }
       }
     },
@@ -179,8 +178,7 @@
               "type": "Literal",
               "start": 1087,
               "end": 1088,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "==",
             "right": {
@@ -201,8 +199,7 @@
             "type": "Literal",
             "start": 1102,
             "end": 1132,
-            "value": "number primitive (not equal)",
-            "raw": "'number primitive (not equal)'"
+            "value": "number primitive (not equal)"
           }
         ],
         "optional": false
@@ -244,8 +241,7 @@
               "type": "Literal",
               "start": 1152,
               "end": 1154,
-              "value": 86,
-              "raw": "86"
+              "value": 86
             },
             "operator": "==",
             "right": {
@@ -266,8 +262,7 @@
             "type": "Literal",
             "start": 1167,
             "end": 1193,
-            "value": "number primitive (equal)",
-            "raw": "'number primitive (equal)'"
+            "value": "number primitive (equal)"
           }
         ],
         "optional": false
@@ -292,8 +287,7 @@
           "type": "Literal",
           "start": 1206,
           "end": 1211,
-          "value": "str",
-          "raw": "'str'"
+          "value": "str"
         }
       }
     },
@@ -333,8 +327,7 @@
               "type": "Literal",
               "start": 1230,
               "end": 1231,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "==",
             "right": {
@@ -355,8 +348,7 @@
             "type": "Literal",
             "start": 1245,
             "end": 1275,
-            "value": "string primitive (not equal)",
-            "raw": "'string primitive (not equal)'"
+            "value": "string primitive (not equal)"
           }
         ],
         "optional": false
@@ -398,8 +390,7 @@
               "type": "Literal",
               "start": 1295,
               "end": 1300,
-              "value": "str",
-              "raw": "'str'"
+              "value": "str"
             },
             "operator": "==",
             "right": {
@@ -420,8 +411,7 @@
             "type": "Literal",
             "start": 1313,
             "end": 1338,
-            "value": "sting primitive (equal)",
-            "raw": "'sting primitive (equal)'"
+            "value": "sting primitive (equal)"
           }
         ],
         "optional": false
@@ -499,8 +489,7 @@
               "type": "Literal",
               "start": 1388,
               "end": 1389,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "==",
             "right": {
@@ -521,8 +510,7 @@
             "type": "Literal",
             "start": 1403,
             "end": 1423,
-            "value": "symbol (not equal)",
-            "raw": "'symbol (not equal)'"
+            "value": "symbol (not equal)"
           }
         ],
         "optional": false
@@ -598,8 +586,7 @@
             "type": "Literal",
             "start": 1474,
             "end": 1490,
-            "value": "symbol (equal)",
-            "raw": "'symbol (equal)'"
+            "value": "symbol (equal)"
           }
         ],
         "optional": false

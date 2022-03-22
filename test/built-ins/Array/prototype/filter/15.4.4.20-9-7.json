@@ -71,36 +71,31 @@
               "type": "Literal",
               "start": 350,
               "end": 351,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 353,
               "end": 354,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             {
               "type": "Literal",
               "start": 356,
               "end": 357,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             {
               "type": "Literal",
               "start": 359,
               "end": 360,
-              "value": 4,
-              "raw": "4"
+              "value": 4
             },
             {
               "type": "Literal",
               "start": 362,
               "end": 363,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             }
           ]
         }
@@ -194,8 +189,7 @@
                 "type": "Literal",
                 "start": 435,
                 "end": 436,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             },
             "consequent": {
@@ -342,15 +336,13 @@
             "type": "Literal",
             "start": 558,
             "end": 559,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 561,
             "end": 576,
-            "value": "resArr.length",
-            "raw": "'resArr.length'"
+            "value": "resArr.length"
           }
         ],
         "optional": false
@@ -414,15 +406,13 @@
             "type": "Literal",
             "start": 613,
             "end": 624,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 626,
             "end": 643,
-            "value": "typeof o.srcArr",
-            "raw": "'typeof o.srcArr'"
+            "value": "typeof o.srcArr"
           }
         ],
         "optional": false

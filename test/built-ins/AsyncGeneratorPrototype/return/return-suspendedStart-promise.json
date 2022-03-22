@@ -51,8 +51,7 @@
                         "type": "Literal",
                         "start": 1064,
                         "end": 1096,
-                        "value": "Generator must not be resumed.",
-                        "raw": "'Generator must not be resumed.'"
+                        "value": "Generator must not be resumed."
                       }
                     ]
                   }
@@ -330,15 +329,13 @@
                             "type": "Literal",
                             "start": 1274,
                             "end": 1291,
-                            "value": "unwrapped-value",
-                            "raw": "'unwrapped-value'"
+                            "value": "unwrapped-value"
                           },
                           {
                             "type": "Literal",
                             "start": 1293,
                             "end": 1355,
-                            "value": "AsyncGeneratorResolve(generator, completion.[[Value]], true)",
-                            "raw": "'AsyncGeneratorResolve(generator, completion.[[Value]], true)'"
+                            "value": "AsyncGeneratorResolve(generator, completion.[[Value]], true)"
                           }
                         ],
                         "optional": false
@@ -402,8 +399,7 @@
                             "type": "Literal",
                             "start": 1393,
                             "end": 1455,
-                            "value": "AsyncGeneratorResolve(generator, completion.[[Value]], true)",
-                            "raw": "'AsyncGeneratorResolve(generator, completion.[[Value]], true)'"
+                            "value": "AsyncGeneratorResolve(generator, completion.[[Value]], true)"
                           }
                         ],
                         "optional": false
@@ -543,8 +539,7 @@
                                             "type": "Literal",
                                             "start": 1535,
                                             "end": 1556,
-                                            "value": "Generator is closed",
-                                            "raw": "'Generator is closed'"
+                                            "value": "Generator is closed"
                                           }
                                         ],
                                         "optional": false
@@ -608,8 +603,7 @@
                                             "type": "Literal",
                                             "start": 1596,
                                             "end": 1617,
-                                            "value": "Generator is closed",
-                                            "raw": "'Generator is closed'"
+                                            "value": "Generator is closed"
                                           }
                                         ],
                                         "optional": false
@@ -692,8 +686,7 @@
             "type": "Literal",
             "start": 1671,
             "end": 1688,
-            "value": "unwrapped-value",
-            "raw": "'unwrapped-value'"
+            "value": "unwrapped-value"
           }
         ],
         "optional": false

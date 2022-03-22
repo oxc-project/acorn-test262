@@ -51,8 +51,7 @@
                   "type": "Literal",
                   "start": 380,
                   "end": 398,
-                  "value": "x = 1; x\n++",
-                  "raw": "\"x = 1; x\\u000A++\""
+                  "value": "x = 1; x\n++"
                 }
               ],
               "optional": false
@@ -81,8 +80,7 @@
                     "type": "Literal",
                     "start": 426,
                     "end": 494,
-                    "value": "#1.1: eval(\"x = 1; x\\u000A++\") must throw a SyntaxError. Actual: ",
-                    "raw": "'#1.1: eval(\"x = 1; x\\\\u000A++\") must throw a SyntaxError. Actual: '"
+                    "value": "#1.1: eval(\"x = 1; x\\u000A++\") must throw a SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -104,8 +102,7 @@
                           "type": "Literal",
                           "start": 503,
                           "end": 521,
-                          "value": "x = 1; x\n++",
-                          "raw": "\"x = 1; x\\u000A++\""
+                          "value": "x = 1; x\n++"
                         }
                       ],
                       "optional": false
@@ -200,8 +197,7 @@
                             "type": "Literal",
                             "start": 612,
                             "end": 680,
-                            "value": "#1.2: eval(\"x = 1; x\\u000A++\") must throw a SyntaxError. Actual: ",
-                            "raw": "'#1.2: eval(\"x = 1; x\\\\u000A++\") must throw a SyntaxError. Actual: '"
+                            "value": "#1.2: eval(\"x = 1; x\\u000A++\") must throw a SyntaxError. Actual: "
                           },
                           "operator": "+",
                           "right": {

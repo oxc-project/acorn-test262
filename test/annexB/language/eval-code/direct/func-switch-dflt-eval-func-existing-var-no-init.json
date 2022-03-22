@@ -80,16 +80,14 @@
                               "type": "Literal",
                               "start": 613,
                               "end": 654,
-                              "value": "var f = 123;    init = f;switch (1) {",
-                              "raw": "'var f = 123;\\\n    init = f;switch (1) {'"
+                              "value": "var f = 123;    init = f;switch (1) {"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 661,
                               "end": 673,
-                              "value": "  default:",
-                              "raw": "'  default:'"
+                              "value": "  default:"
                             }
                           },
                           "operator": "+",
@@ -97,8 +95,7 @@
                             "type": "Literal",
                             "start": 680,
                             "end": 703,
-                            "value": "    function f() {  }",
-                            "raw": "'    function f() {  }'"
+                            "value": "    function f() {  }"
                           }
                         },
                         "operator": "+",
@@ -106,8 +103,7 @@
                           "type": "Literal",
                           "start": 710,
                           "end": 719,
-                          "value": "}    ",
-                          "raw": "'}\\\n    '"
+                          "value": "}    "
                         }
                       }
                     ],
@@ -160,8 +156,7 @@
             "type": "Literal",
             "start": 755,
             "end": 758,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           }
         ],
         "optional": false

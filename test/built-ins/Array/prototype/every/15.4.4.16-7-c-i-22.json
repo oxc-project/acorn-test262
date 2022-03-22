@@ -117,8 +117,7 @@
                 "type": "Literal",
                 "start": 421,
                 "end": 432,
-                "value": "undefined",
-                "raw": "\"undefined\""
+                "value": "undefined"
               }
             }
           }
@@ -176,8 +175,7 @@
             "type": "Literal",
             "start": 476,
             "end": 479,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -297,8 +295,7 @@
             "type": "Literal",
             "start": 562,
             "end": 595,
-            "value": "[, ].every(callbackfn) !== true",
-            "raw": "'[, ].every(callbackfn) !== true'"
+            "value": "[, ].every(callbackfn) !== true"
           }
         ],
         "optional": false
@@ -329,8 +326,7 @@
             "type": "Literal",
             "start": 615,
             "end": 634,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

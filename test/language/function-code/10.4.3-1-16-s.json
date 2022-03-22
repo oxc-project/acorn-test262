@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 365,
-                "value": "\"use strict\";\nreturn typeof this;",
-                "raw": "\"\\\"use strict\\\";\\nreturn typeof this;\""
+                "value": "\"use strict\";\nreturn typeof this;"
               }
             ]
           }
@@ -87,15 +86,13 @@
             "type": "Literal",
             "start": 391,
             "end": 402,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 409,
-            "value": "f()",
-            "raw": "'f()'"
+            "value": "f()"
           }
         ],
         "optional": false

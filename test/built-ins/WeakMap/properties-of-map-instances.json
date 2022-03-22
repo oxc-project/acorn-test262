@@ -93,8 +93,7 @@
             "type": "Literal",
             "start": 384,
             "end": 452,
-            "value": "`Object.getPrototypeOf(new WeakMap())` returns `WeakMap.prototype`",
-            "raw": "'`Object.getPrototypeOf(new WeakMap())` returns `WeakMap.prototype`'"
+            "value": "`Object.getPrototypeOf(new WeakMap())` returns `WeakMap.prototype`"
           }
         ],
         "optional": false

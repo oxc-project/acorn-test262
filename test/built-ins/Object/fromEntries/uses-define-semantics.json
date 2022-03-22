@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 304,
             "end": 314,
-            "value": "property",
-            "raw": "'property'"
+            "value": "property"
           },
           {
             "type": "ObjectExpression",
@@ -108,8 +107,7 @@
                               "type": "Literal",
                               "start": 365,
                               "end": 412,
-                              "value": "should not trigger getter on Object.prototype",
-                              "raw": "'should not trigger getter on Object.prototype'"
+                              "value": "should not trigger getter on Object.prototype"
                             }
                           ]
                         }
@@ -165,8 +163,7 @@
                               "type": "Literal",
                               "start": 467,
                               "end": 514,
-                              "value": "should not trigger setter on Object.prototype",
-                              "raw": "'should not trigger setter on Object.prototype'"
+                              "value": "should not trigger setter on Object.prototype"
                             }
                           ]
                         }
@@ -235,15 +232,13 @@
                         "type": "Literal",
                         "start": 561,
                         "end": 571,
-                        "value": "property",
-                        "raw": "'property'"
+                        "value": "property"
                       },
                       {
                         "type": "Literal",
                         "start": 573,
                         "end": 580,
-                        "value": "value",
-                        "raw": "'value'"
+                        "value": "value"
                       }
                     ]
                   }
@@ -298,8 +293,7 @@
               "type": "Literal",
               "start": 609,
               "end": 619,
-              "value": "property",
-              "raw": "'property'"
+              "value": "property"
             },
             "computed": true,
             "optional": false
@@ -308,15 +302,13 @@
             "type": "Literal",
             "start": 622,
             "end": 629,
-            "value": "value",
-            "raw": "'value'"
+            "value": "value"
           },
           {
             "type": "Literal",
             "start": 631,
             "end": 633,
-            "value": "",
-            "raw": "''"
+            "value": ""
           }
         ],
         "optional": false

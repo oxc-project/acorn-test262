@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 964,
             "end": 965,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -96,8 +95,7 @@
                             "type": "Literal",
                             "start": 1013,
                             "end": 1014,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -109,8 +107,7 @@
                           "type": "Literal",
                           "start": 1026,
                           "end": 1073,
-                          "value": "Should not call toString on this/replaceValue",
-                          "raw": "'Should not call toString on this/replaceValue'"
+                          "value": "Should not call toString on this/replaceValue"
                         }
                       }
                     ]
@@ -195,8 +192,7 @@
                   "type": "Literal",
                   "start": 1138,
                   "end": 1141,
-                  "value": "g",
-                  "raw": "'g'"
+                  "value": "g"
                 },
                 "kind": "init"
               },
@@ -298,8 +294,7 @@
                           "type": "Literal",
                           "start": 1226,
                           "end": 1267,
-                          "value": "Should not call toString on searchValue",
-                          "raw": "'Should not call toString on searchValue'"
+                          "value": "Should not call toString on searchValue"
                         }
                       }
                     ]
@@ -380,8 +375,7 @@
                           "type": "Literal",
                           "start": 1320,
                           "end": 1322,
-                          "value": "",
-                          "raw": "''"
+                          "value": ""
                         },
                         "property": {
                           "type": "Identifier",
@@ -469,8 +463,7 @@
             "type": "Literal",
             "start": 1401,
             "end": 1402,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

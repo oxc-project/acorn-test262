@@ -57,8 +57,7 @@
                   "type": "Literal",
                   "start": 354,
                   "end": 424,
-                  "value": "'use strict'; var public = 1; var anotherVariableNotReserveWord = 2;",
-                  "raw": "\"'use strict'; var public = 1; var anotherVariableNotReserveWord = 2;\""
+                  "value": "'use strict'; var public = 1; var anotherVariableNotReserveWord = 2;"
                 }
               ],
               "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 516,
             "end": 544,
-            "value": "err instanceof SyntaxError",
-            "raw": "'err instanceof SyntaxError'"
+            "value": "err instanceof SyntaxError"
           }
         ],
         "optional": false
@@ -198,15 +196,13 @@
             "type": "Literal",
             "start": 579,
             "end": 590,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 607,
-            "value": "typeof public",
-            "raw": "'typeof public'"
+            "value": "typeof public"
           }
         ],
         "optional": false
@@ -257,15 +253,13 @@
             "type": "Literal",
             "start": 665,
             "end": 676,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 716,
-            "value": "typeof anotherVariableNotReserveWord",
-            "raw": "'typeof anotherVariableNotReserveWord'"
+            "value": "typeof anotherVariableNotReserveWord"
           }
         ],
         "optional": false

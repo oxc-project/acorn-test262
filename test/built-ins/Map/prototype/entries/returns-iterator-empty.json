@@ -181,8 +181,7 @@
             "type": "Literal",
             "start": 541,
             "end": 585,
-            "value": "The value of `result.value` is `undefined`",
-            "raw": "'The value of `result.value` is `undefined`'"
+            "value": "The value of `result.value` is `undefined`"
           }
         ],
         "optional": false
@@ -246,8 +245,7 @@
             "type": "Literal",
             "start": 625,
             "end": 663,
-            "value": "The value of `result.done` is `true`",
-            "raw": "'The value of `result.done` is `true`'"
+            "value": "The value of `result.done` is `true`"
           }
         ],
         "optional": false

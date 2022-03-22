@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 996,
                     "end": 997,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ]
               },
@@ -185,8 +184,7 @@
                         "type": "Literal",
                         "start": 1126,
                         "end": 1133,
-                        "value": "[0,0]",
-                        "raw": "'[0,0]'"
+                        "value": "[0,0]"
                       },
                       {
                         "type": "FunctionExpression",
@@ -224,8 +222,7 @@
                                     "type": "Literal",
                                     "start": 1157,
                                     "end": 1158,
-                                    "value": 1,
-                                    "raw": "1"
+                                    "value": 1
                                   },
                                   "computed": true,
                                   "optional": false

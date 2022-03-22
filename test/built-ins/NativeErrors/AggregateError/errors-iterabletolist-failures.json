@@ -184,8 +184,7 @@
             "type": "Literal",
             "start": 1468,
             "end": 1489,
-            "value": "get Symbol.iterator",
-            "raw": "'get Symbol.iterator'"
+            "value": "get Symbol.iterator"
           }
         ],
         "optional": false
@@ -366,8 +365,7 @@
             "type": "Literal",
             "start": 1633,
             "end": 1687,
-            "value": "GetMethod(obj, @@iterator) abrupts from non callable",
-            "raw": "'GetMethod(obj, @@iterator) abrupts from non callable'"
+            "value": "GetMethod(obj, @@iterator) abrupts from non callable"
           }
         ],
         "optional": false
@@ -554,8 +552,7 @@
             "type": "Literal",
             "start": 1845,
             "end": 1874,
-            "value": "Abrupt from @@iterator call",
-            "raw": "'Abrupt from @@iterator call'"
+            "value": "Abrupt from @@iterator call"
           }
         ],
         "optional": false
@@ -630,8 +627,7 @@
                           "type": "Literal",
                           "start": 1927,
                           "end": 1937,
-                          "value": "a string",
-                          "raw": "'a string'"
+                          "value": "a string"
                         }
                       }
                     ]
@@ -737,8 +733,7 @@
             "type": "Literal",
             "start": 2022,
             "end": 2056,
-            "value": "@@iterator call returns a string",
-            "raw": "'@@iterator call returns a string'"
+            "value": "@@iterator call returns a string"
           }
         ],
         "optional": false
@@ -919,8 +914,7 @@
             "type": "Literal",
             "start": 2203,
             "end": 2238,
-            "value": "@@iterator call returns undefined",
-            "raw": "'@@iterator call returns undefined'"
+            "value": "@@iterator call returns undefined"
           }
         ],
         "optional": false
@@ -1151,8 +1145,7 @@
             "type": "Literal",
             "start": 2446,
             "end": 2483,
-            "value": "GetV(iterator, next) returns abrupt",
-            "raw": "'GetV(iterator, next) returns abrupt'"
+            "value": "GetV(iterator, next) returns abrupt"
           }
         ],
         "optional": false
@@ -1377,8 +1370,7 @@
             "type": "Literal",
             "start": 2673,
             "end": 2718,
-            "value": "GetV(iterator, next) returns a non callable",
-            "raw": "'GetV(iterator, next) returns a non callable'"
+            "value": "GetV(iterator, next) returns a non callable"
           }
         ],
         "optional": false
@@ -1609,8 +1601,7 @@
             "type": "Literal",
             "start": 2922,
             "end": 2951,
-            "value": "abrupt from iterator.next()",
-            "raw": "'abrupt from iterator.next()'"
+            "value": "abrupt from iterator.next()"
           }
         ],
         "optional": false
@@ -1835,8 +1826,7 @@
             "type": "Literal",
             "start": 3144,
             "end": 3179,
-            "value": "iterator.next() returns undefined",
-            "raw": "'iterator.next() returns undefined'"
+            "value": "iterator.next() returns undefined"
           }
         ],
         "optional": false
@@ -1948,8 +1938,7 @@
                                         "type": "Literal",
                                         "start": 3265,
                                         "end": 3275,
-                                        "value": "a string",
-                                        "raw": "'a string'"
+                                        "value": "a string"
                                       }
                                     }
                                   ]
@@ -2062,8 +2051,7 @@
             "type": "Literal",
             "start": 3375,
             "end": 3409,
-            "value": "iterator.next() returns a string",
-            "raw": "'iterator.next() returns a string'"
+            "value": "iterator.next() returns a string"
           }
         ],
         "optional": false
@@ -2338,8 +2326,7 @@
             "type": "Literal",
             "start": 3682,
             "end": 3733,
-            "value": "IteratorCompete abrupts getting the done property",
-            "raw": "'IteratorCompete abrupts getting the done property'"
+            "value": "IteratorCompete abrupts getting the done property"
           }
         ],
         "optional": false

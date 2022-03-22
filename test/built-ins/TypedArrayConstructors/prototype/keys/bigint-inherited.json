@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 422,
                             "end": 428,
-                            "value": "keys",
-                            "raw": "\"keys\""
+                            "value": "keys"
                           }
                         ],
                         "optional": false

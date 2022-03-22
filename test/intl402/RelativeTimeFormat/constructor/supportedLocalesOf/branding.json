@@ -99,8 +99,7 @@
             "type": "Literal",
             "start": 525,
             "end": 535,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                 "type": "Literal",
                 "start": 591,
                 "end": 593,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "CallExpression",
@@ -170,8 +168,7 @@
                 "type": "Literal",
                 "start": 609,
                 "end": 610,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "ObjectExpression",

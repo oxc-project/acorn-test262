@@ -51,15 +51,13 @@
                     "type": "Literal",
                     "start": 1102,
                     "end": 1103,
-                    "value": 5,
-                    "raw": "5"
+                    "value": 5
                   },
                   {
                     "type": "Literal",
                     "start": 1105,
                     "end": 1106,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -85,8 +83,7 @@
                       "type": "Literal",
                       "start": 1124,
                       "end": 1129,
-                      "value": "M05",
-                      "raw": "\"M05\""
+                      "value": "M05"
                     },
                     "kind": "init"
                   },
@@ -107,8 +104,7 @@
                       "type": "Literal",
                       "start": 1136,
                       "end": 1137,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "kind": "init"
                   }
@@ -118,8 +114,7 @@
                 "type": "Literal",
                 "start": 1143,
                 "end": 1150,
-                "value": "05-02",
-                "raw": "\"05-02\""
+                "value": "05-02"
               }
             ]
           }
@@ -199,15 +194,13 @@
                   "type": "Literal",
                   "start": 1229,
                   "end": 1239,
-                  "value": "overflow",
-                  "raw": "\"overflow\""
+                  "value": "overflow"
                 },
                 {
                   "type": "Literal",
                   "start": 1241,
                   "end": 1252,
-                  "value": "constrain",
-                  "raw": "\"constrain\""
+                  "value": "constrain"
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -356,15 +349,13 @@
                         "type": "Literal",
                         "start": 1385,
                         "end": 1390,
-                        "value": "M05",
-                        "raw": "\"M05\""
+                        "value": "M05"
                       },
                       {
                         "type": "Literal",
                         "start": 1392,
                         "end": 1393,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Identifier",

@@ -181,8 +181,7 @@
                                     "type": "Literal",
                                     "start": 468,
                                     "end": 500,
-                                    "value": "'this' must be undefined, got ",
-                                    "raw": "\"'this' must be undefined, got \""
+                                    "value": "'this' must be undefined, got "
                                   },
                                   "operator": "+",
                                   "right": {
@@ -255,8 +254,7 @@
                                     "type": "Literal",
                                     "start": 558,
                                     "end": 610,
-                                    "value": "Expected promise to be fulfilled by obj, actually ",
-                                    "raw": "\"Expected promise to be fulfilled by obj, actually \""
+                                    "value": "Expected promise to be fulfilled by obj, actually "
                                   },
                                   "operator": "+",
                                   "right": {
@@ -312,8 +310,7 @@
                           "type": "Literal",
                           "start": 663,
                           "end": 664,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       "consequent": {
@@ -340,8 +337,7 @@
                                   "type": "Literal",
                                   "start": 678,
                                   "end": 743,
-                                  "value": "Expected handler function to be called with exactly 1 argument.",
-                                  "raw": "'Expected handler function to be called with exactly 1 argument.'"
+                                  "value": "Expected handler function to be called with exactly 1 argument."
                                 }
                               ],
                               "optional": false
@@ -411,8 +407,7 @@
                             "type": "Literal",
                             "start": 798,
                             "end": 835,
-                            "value": "The promise should not be rejected.",
-                            "raw": "'The promise should not be rejected.'"
+                            "value": "The promise should not be rejected."
                           }
                         ],
                         "optional": false

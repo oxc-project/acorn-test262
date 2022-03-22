@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 764,
             "end": 808,
-            "value": "isConstructor(RangeError) must return true",
-            "raw": "'isConstructor(RangeError) must return true'"
+            "value": "isConstructor(RangeError) must return true"
           }
         ],
         "optional": false

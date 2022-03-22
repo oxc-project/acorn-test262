@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 324,
                 "end": 328,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 331,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 334,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -165,15 +162,13 @@
             "type": "Literal",
             "start": 407,
             "end": 411,
-            "value": 2000,
-            "raw": "2000"
+            "value": 2000
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 429,
-            "value": "isoYear result",
-            "raw": "\"isoYear result\""
+            "value": "isoYear result"
           }
         ],
         "optional": false
@@ -230,15 +225,13 @@
             "type": "Literal",
             "start": 466,
             "end": 467,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 469,
             "end": 486,
-            "value": "isoMonth result",
-            "raw": "\"isoMonth result\""
+            "value": "isoMonth result"
           }
         ],
         "optional": false
@@ -295,15 +288,13 @@
             "type": "Literal",
             "start": 521,
             "end": 522,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 524,
             "end": 539,
-            "value": "isoDay result",
-            "raw": "\"isoDay result\""
+            "value": "isoDay result"
           }
         ],
         "optional": false
@@ -373,15 +364,13 @@
             "type": "Literal",
             "start": 579,
             "end": 588,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           },
           {
             "type": "Literal",
             "start": 590,
             "end": 607,
-            "value": "calendar result",
-            "raw": "\"calendar result\""
+            "value": "calendar result"
           }
         ],
         "optional": false

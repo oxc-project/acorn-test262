@@ -39,8 +39,7 @@
                     "type": "Literal",
                     "start": 1133,
                     "end": 1139,
-                    "value": "Null",
-                    "raw": "'Null'"
+                    "value": "Null"
                   }
                 ]
               },
@@ -53,15 +52,13 @@
                     "type": "Literal",
                     "start": 1145,
                     "end": 1151,
-                    "value": "bali",
-                    "raw": "'bali'"
+                    "value": "bali"
                   },
                   {
                     "type": "Literal",
                     "start": 1153,
                     "end": 1159,
-                    "value": "Bali",
-                    "raw": "'Bali'"
+                    "value": "Bali"
                   }
                 ]
               },
@@ -74,15 +71,13 @@
                     "type": "Literal",
                     "start": 1165,
                     "end": 1171,
-                    "value": "Bali",
-                    "raw": "'Bali'"
+                    "value": "Bali"
                   },
                   {
                     "type": "Literal",
                     "start": 1173,
                     "end": 1179,
-                    "value": "Bali",
-                    "raw": "'Bali'"
+                    "value": "Bali"
                   }
                 ]
               },
@@ -95,15 +90,13 @@
                     "type": "Literal",
                     "start": 1185,
                     "end": 1191,
-                    "value": "bALI",
-                    "raw": "'bALI'"
+                    "value": "bALI"
                   },
                   {
                     "type": "Literal",
                     "start": 1193,
                     "end": 1199,
-                    "value": "Bali",
-                    "raw": "'Bali'"
+                    "value": "Bali"
                   }
                 ]
               },
@@ -153,8 +146,7 @@
                                   "type": "Literal",
                                   "start": 1227,
                                   "end": 1233,
-                                  "value": "Brai",
-                                  "raw": "'Brai'"
+                                  "value": "Brai"
                                 }
                               }
                             ]
@@ -167,8 +159,7 @@
                     "type": "Literal",
                     "start": 1239,
                     "end": 1245,
-                    "value": "Brai",
-                    "raw": "'Brai'"
+                    "value": "Brai"
                   }
                 ]
               }
@@ -260,8 +251,7 @@
                       "type": "Literal",
                       "start": 1332,
                       "end": 1337,
-                      "value": "en-",
-                      "raw": "'en-'"
+                      "value": "en-"
                     },
                     "operator": "+",
                     "right": {
@@ -275,8 +265,7 @@
                     "type": "Literal",
                     "start": 1351,
                     "end": 1355,
-                    "value": "en",
-                    "raw": "'en'"
+                    "value": "en"
                   }
                 }
               }
@@ -347,8 +336,7 @@
                           "type": "Literal",
                           "start": 1398,
                           "end": 1402,
-                          "value": "en",
-                          "raw": "'en'"
+                          "value": "en"
                         },
                         {
                           "type": "ObjectExpression",
@@ -498,8 +486,7 @@
                           "type": "Literal",
                           "start": 1552,
                           "end": 1557,
-                          "value": "en-",
-                          "raw": "'en-'"
+                          "value": "en-"
                         },
                         "operator": "+",
                         "right": {
@@ -514,8 +501,7 @@
                       "type": "Literal",
                       "start": 1572,
                       "end": 1576,
-                      "value": "en",
-                      "raw": "'en'"
+                      "value": "en"
                     }
                   }
                 },
@@ -524,8 +510,7 @@
                   "type": "Literal",
                   "start": 1580,
                   "end": 1585,
-                  "value": "-DK",
-                  "raw": "'-DK'"
+                  "value": "-DK"
                 }
               }
             }
@@ -594,8 +579,7 @@
                           "type": "Literal",
                           "start": 1627,
                           "end": 1634,
-                          "value": "en-DK",
-                          "raw": "'en-DK'"
+                          "value": "en-DK"
                         },
                         {
                           "type": "ObjectExpression",
@@ -737,8 +721,7 @@
                       "type": "Literal",
                       "start": 1786,
                       "end": 1791,
-                      "value": "en-",
-                      "raw": "'en-'"
+                      "value": "en-"
                     },
                     "operator": "+",
                     "right": {
@@ -753,8 +736,7 @@
                   "type": "Literal",
                   "start": 1806,
                   "end": 1815,
-                  "value": "en-Cyrl",
-                  "raw": "'en-Cyrl'"
+                  "value": "en-Cyrl"
                 }
               }
             }
@@ -823,8 +805,7 @@
                           "type": "Literal",
                           "start": 1857,
                           "end": 1866,
-                          "value": "en-Cyrl",
-                          "raw": "'en-Cyrl'"
+                          "value": "en-Cyrl"
                         },
                         {
                           "type": "ObjectExpression",

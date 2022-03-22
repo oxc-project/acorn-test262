@@ -75,8 +75,7 @@
                       "type": "Literal",
                       "start": 440,
                       "end": 475,
-                      "value": "#1: var inside \"for\" is admitted ",
-                      "raw": "'#1: var inside \"for\" is admitted '"
+                      "value": "#1: var inside \"for\" is admitted "
                     },
                     "operator": "+",
                     "right": {

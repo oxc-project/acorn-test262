@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 543,
             "end": 552,
-            "value": "WeakRef",
-            "raw": "'WeakRef'"
+            "value": "WeakRef"
           },
           {
             "type": "ObjectExpression",

@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 466,
             "end": 469,
-            "value": "x",
-            "raw": "\"x\""
+            "value": "x"
           },
           {
             "type": "ObjectExpression",
@@ -154,8 +153,7 @@
                   "type": "Literal",
                   "start": 531,
                   "end": 532,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               },
               "property": {
@@ -172,8 +170,7 @@
               "type": "Literal",
               "start": 540,
               "end": 541,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             }
           },
           {
@@ -187,8 +184,7 @@
             "type": "Literal",
             "start": 550,
             "end": 563,
-            "value": "(5).x === 5",
-            "raw": "'(5).x === 5'"
+            "value": "(5).x === 5"
           }
         ],
         "optional": false
@@ -240,8 +236,7 @@
                   "type": "Literal",
                   "start": 591,
                   "end": 592,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               },
               "property": {
@@ -258,15 +253,13 @@
             "type": "Literal",
             "start": 597,
             "end": 605,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 607,
             "end": 621,
-            "value": "typeof (5).x",
-            "raw": "'typeof (5).x'"
+            "value": "typeof (5).x"
           }
         ],
         "optional": false

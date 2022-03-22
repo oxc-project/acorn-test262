@@ -94,15 +94,13 @@
             "type": "Literal",
             "start": 274,
             "end": 291,
-            "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "value": "[object Object]"
           },
           {
             "type": "Literal",
             "start": 293,
             "end": 325,
-            "value": "String.prototype.trim.call({})",
-            "raw": "'String.prototype.trim.call({})'"
+            "value": "String.prototype.trim.call({})"
           }
         ],
         "optional": false

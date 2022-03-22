@@ -23,7 +23,6 @@
             "start": 914,
             "end": 917,
             "value": {},
-            "raw": "/x/",
             "regex": {
               "pattern": "x",
               "flags": ""

@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 317,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 319,
                 "end": 320,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 322,
                 "end": 323,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -95,8 +92,7 @@
           "type": "Literal",
           "start": 359,
           "end": 371,
-          "value": "protoArray",
-          "raw": "\"protoArray\""
+          "value": "protoArray"
         }
       }
     },
@@ -238,15 +234,13 @@
                   "type": "Literal",
                   "start": 478,
                   "end": 493,
-                  "value": "protoProperty",
-                  "raw": "\"protoProperty\""
+                  "value": "protoProperty"
                 },
                 {
                   "type": "Literal",
                   "start": 495,
                   "end": 506,
-                  "value": "result[p]",
-                  "raw": "'result[p]'"
+                  "value": "result[p]"
                 }
               ],
               "optional": false

@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 825,
             "end": 893,
-            "value": "isConstructor(RegExp.prototype[Symbol.matchAll]) must return false",
-            "raw": "'isConstructor(RegExp.prototype[Symbol.matchAll]) must return false'"
+            "value": "isConstructor(RegExp.prototype[Symbol.matchAll]) must return false"
           }
         ],
         "optional": false
@@ -186,8 +185,7 @@
                             "type": "Literal",
                             "start": 953,
                             "end": 955,
-                            "value": "",
-                            "raw": "''"
+                            "value": ""
                           }
                         ]
                       }
@@ -245,8 +243,7 @@
             "type": "Literal",
             "start": 988,
             "end": 1061,
-            "value": "`let re = new RegExp(''); new re[Symbol.matchAll]()` throws TypeError",
-            "raw": "'`let re = new RegExp(\\'\\'); new re[Symbol.matchAll]()` throws TypeError'"
+            "value": "`let re = new RegExp(''); new re[Symbol.matchAll]()` throws TypeError"
           }
         ],
         "optional": false

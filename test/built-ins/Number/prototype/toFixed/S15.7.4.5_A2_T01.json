@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 335,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 348,
             "end": 416,
-            "value": "Number.prototype.toFixed.hasOwnProperty(\"length\") must return true",
-            "raw": "'Number.prototype.toFixed.hasOwnProperty(\"length\") must return true'"
+            "value": "Number.prototype.toFixed.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -186,15 +184,13 @@
             "type": "Literal",
             "start": 476,
             "end": 477,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 547,
-            "value": "The value of Number.prototype.toFixed.length is expected to be 1",
-            "raw": "'The value of Number.prototype.toFixed.length is expected to be 1'"
+            "value": "The value of Number.prototype.toFixed.length is expected to be 1"
           }
         ],
         "optional": false

@@ -30,16 +30,14 @@
                   "type": "Literal",
                   "start": 314,
                   "end": 331,
-                  "value": 86400000000001,
-                  "raw": "86400_000_000_001"
+                  "value": 86400000000001
                 }
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 350,
-                "value": 86400000000001,
-                "raw": "86400_000_000_001"
+                "value": 86400000000001
               },
               {
                 "type": "UnaryExpression",

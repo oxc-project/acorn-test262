@@ -262,16 +262,14 @@
                                                                                                                                     "type": "Literal",
                                                                                                                                     "start": 355,
                                                                                                                                     "end": 369,
-                                                                                                                                    "value": "//CHECK#13\n",
-                                                                                                                                    "raw": "'//CHECK#13\\n'"
+                                                                                                                                    "value": "//CHECK#13\n"
                                                                                                                                   },
                                                                                                                                   "operator": "+",
                                                                                                                                   "right": {
                                                                                                                                     "type": "Literal",
                                                                                                                                     "start": 371,
                                                                                                                                     "end": 399,
-                                                                                                                                    "value": "if ( Object === null ) {\n",
-                                                                                                                                    "raw": "'if ( Object === null ) {\\n'"
+                                                                                                                                    "value": "if ( Object === null ) {\n"
                                                                                                                                   }
                                                                                                                                 },
                                                                                                                                 "operator": "+",
@@ -279,8 +277,7 @@
                                                                                                                                   "type": "Literal",
                                                                                                                                   "start": 401,
                                                                                                                                   "end": 454,
-                                                                                                                                  "value": "  throw new Test262Error(\"#13: Object === null\");\n",
-                                                                                                                                  "raw": "'  throw new Test262Error(\"#13: Object === null\");\\n'"
+                                                                                                                                  "value": "  throw new Test262Error(\"#13: Object === null\");\n"
                                                                                                                                 }
                                                                                                                               },
                                                                                                                               "operator": "+",
@@ -288,8 +285,7 @@
                                                                                                                                 "type": "Literal",
                                                                                                                                 "start": 456,
                                                                                                                                 "end": 461,
-                                                                                                                                "value": "}\n",
-                                                                                                                                "raw": "'}\\n'"
+                                                                                                                                "value": "}\n"
                                                                                                                               }
                                                                                                                             },
                                                                                                                             "operator": "+",
@@ -297,8 +293,7 @@
                                                                                                                               "type": "Literal",
                                                                                                                               "start": 464,
                                                                                                                               "end": 478,
-                                                                                                                              "value": "//CHECK#14\n",
-                                                                                                                              "raw": "'//CHECK#14\\n'"
+                                                                                                                              "value": "//CHECK#14\n"
                                                                                                                             }
                                                                                                                           },
                                                                                                                           "operator": "+",
@@ -306,8 +301,7 @@
                                                                                                                             "type": "Literal",
                                                                                                                             "start": 480,
                                                                                                                             "end": 510,
-                                                                                                                            "value": "if ( Function === null ) {\n",
-                                                                                                                            "raw": "'if ( Function === null ) {\\n'"
+                                                                                                                            "value": "if ( Function === null ) {\n"
                                                                                                                           }
                                                                                                                         },
                                                                                                                         "operator": "+",
@@ -315,8 +309,7 @@
                                                                                                                           "type": "Literal",
                                                                                                                           "start": 512,
                                                                                                                           "end": 567,
-                                                                                                                          "value": "  throw new Test262Error(\"#14: Function === null\");\n",
-                                                                                                                          "raw": "'  throw new Test262Error(\"#14: Function === null\");\\n'"
+                                                                                                                          "value": "  throw new Test262Error(\"#14: Function === null\");\n"
                                                                                                                         }
                                                                                                                       },
                                                                                                                       "operator": "+",
@@ -324,8 +317,7 @@
                                                                                                                         "type": "Literal",
                                                                                                                         "start": 569,
                                                                                                                         "end": 574,
-                                                                                                                        "value": "}\n",
-                                                                                                                        "raw": "'}\\n'"
+                                                                                                                        "value": "}\n"
                                                                                                                       }
                                                                                                                     },
                                                                                                                     "operator": "+",
@@ -333,8 +325,7 @@
                                                                                                                       "type": "Literal",
                                                                                                                       "start": 577,
                                                                                                                       "end": 591,
-                                                                                                                      "value": "//CHECK#15\n",
-                                                                                                                      "raw": "'//CHECK#15\\n'"
+                                                                                                                      "value": "//CHECK#15\n"
                                                                                                                     }
                                                                                                                   },
                                                                                                                   "operator": "+",
@@ -342,8 +333,7 @@
                                                                                                                     "type": "Literal",
                                                                                                                     "start": 593,
                                                                                                                     "end": 621,
-                                                                                                                    "value": "if ( String === null ) {\n",
-                                                                                                                    "raw": "'if ( String === null ) {\\n'"
+                                                                                                                    "value": "if ( String === null ) {\n"
                                                                                                                   }
                                                                                                                 },
                                                                                                                 "operator": "+",
@@ -351,8 +341,7 @@
                                                                                                                   "type": "Literal",
                                                                                                                   "start": 623,
                                                                                                                   "end": 676,
-                                                                                                                  "value": "  throw new Test262Error(\"#15: String === null\");\n",
-                                                                                                                  "raw": "'  throw new Test262Error(\"#15: String === null\");\\n'"
+                                                                                                                  "value": "  throw new Test262Error(\"#15: String === null\");\n"
                                                                                                                 }
                                                                                                               },
                                                                                                               "operator": "+",
@@ -360,8 +349,7 @@
                                                                                                                 "type": "Literal",
                                                                                                                 "start": 678,
                                                                                                                 "end": 683,
-                                                                                                                "value": "}\n",
-                                                                                                                "raw": "'}\\n'"
+                                                                                                                "value": "}\n"
                                                                                                               }
                                                                                                             },
                                                                                                             "operator": "+",
@@ -369,8 +357,7 @@
                                                                                                               "type": "Literal",
                                                                                                               "start": 686,
                                                                                                               "end": 700,
-                                                                                                              "value": "//CHECK#16\n",
-                                                                                                              "raw": "'//CHECK#16\\n'"
+                                                                                                              "value": "//CHECK#16\n"
                                                                                                             }
                                                                                                           },
                                                                                                           "operator": "+",
@@ -378,8 +365,7 @@
                                                                                                             "type": "Literal",
                                                                                                             "start": 702,
                                                                                                             "end": 730,
-                                                                                                            "value": "if ( Number === null ) {\n",
-                                                                                                            "raw": "'if ( Number === null ) {\\n'"
+                                                                                                            "value": "if ( Number === null ) {\n"
                                                                                                           }
                                                                                                         },
                                                                                                         "operator": "+",
@@ -387,8 +373,7 @@
                                                                                                           "type": "Literal",
                                                                                                           "start": 732,
                                                                                                           "end": 787,
-                                                                                                          "value": "  throw new Test262Error(\"#16: Function === null\");\n",
-                                                                                                          "raw": "'  throw new Test262Error(\"#16: Function === null\");\\n'"
+                                                                                                          "value": "  throw new Test262Error(\"#16: Function === null\");\n"
                                                                                                         }
                                                                                                       },
                                                                                                       "operator": "+",
@@ -396,8 +381,7 @@
                                                                                                         "type": "Literal",
                                                                                                         "start": 789,
                                                                                                         "end": 794,
-                                                                                                        "value": "}\n",
-                                                                                                        "raw": "'}\\n'"
+                                                                                                        "value": "}\n"
                                                                                                       }
                                                                                                     },
                                                                                                     "operator": "+",
@@ -405,8 +389,7 @@
                                                                                                       "type": "Literal",
                                                                                                       "start": 797,
                                                                                                       "end": 811,
-                                                                                                      "value": "//CHECK#17\n",
-                                                                                                      "raw": "'//CHECK#17\\n'"
+                                                                                                      "value": "//CHECK#17\n"
                                                                                                     }
                                                                                                   },
                                                                                                   "operator": "+",
@@ -414,8 +397,7 @@
                                                                                                     "type": "Literal",
                                                                                                     "start": 813,
                                                                                                     "end": 840,
-                                                                                                    "value": "if ( Array === null ) {\n",
-                                                                                                    "raw": "'if ( Array === null ) {\\n'"
+                                                                                                    "value": "if ( Array === null ) {\n"
                                                                                                   }
                                                                                                 },
                                                                                                 "operator": "+",
@@ -423,8 +405,7 @@
                                                                                                   "type": "Literal",
                                                                                                   "start": 842,
                                                                                                   "end": 894,
-                                                                                                  "value": "  throw new Test262Error(\"#17: Array === null\");\n",
-                                                                                                  "raw": "'  throw new Test262Error(\"#17: Array === null\");\\n'"
+                                                                                                  "value": "  throw new Test262Error(\"#17: Array === null\");\n"
                                                                                                 }
                                                                                               },
                                                                                               "operator": "+",
@@ -432,8 +413,7 @@
                                                                                                 "type": "Literal",
                                                                                                 "start": 896,
                                                                                                 "end": 901,
-                                                                                                "value": "}\n",
-                                                                                                "raw": "'}\\n'"
+                                                                                                "value": "}\n"
                                                                                               }
                                                                                             },
                                                                                             "operator": "+",
@@ -441,8 +421,7 @@
                                                                                               "type": "Literal",
                                                                                               "start": 904,
                                                                                               "end": 918,
-                                                                                              "value": "//CHECK#18\n",
-                                                                                              "raw": "'//CHECK#18\\n'"
+                                                                                              "value": "//CHECK#18\n"
                                                                                             }
                                                                                           },
                                                                                           "operator": "+",
@@ -450,8 +429,7 @@
                                                                                             "type": "Literal",
                                                                                             "start": 920,
                                                                                             "end": 949,
-                                                                                            "value": "if ( Boolean === null ) {\n",
-                                                                                            "raw": "'if ( Boolean === null ) {\\n'"
+                                                                                            "value": "if ( Boolean === null ) {\n"
                                                                                           }
                                                                                         },
                                                                                         "operator": "+",
@@ -459,8 +437,7 @@
                                                                                           "type": "Literal",
                                                                                           "start": 951,
                                                                                           "end": 1005,
-                                                                                          "value": "  throw new Test262Error(\"#20: Boolean === null\");\n",
-                                                                                          "raw": "'  throw new Test262Error(\"#20: Boolean === null\");\\n'"
+                                                                                          "value": "  throw new Test262Error(\"#20: Boolean === null\");\n"
                                                                                         }
                                                                                       },
                                                                                       "operator": "+",
@@ -468,8 +445,7 @@
                                                                                         "type": "Literal",
                                                                                         "start": 1007,
                                                                                         "end": 1012,
-                                                                                        "value": "}\n",
-                                                                                        "raw": "'}\\n'"
+                                                                                        "value": "}\n"
                                                                                       }
                                                                                     },
                                                                                     "operator": "+",
@@ -477,8 +453,7 @@
                                                                                       "type": "Literal",
                                                                                       "start": 1015,
                                                                                       "end": 1029,
-                                                                                      "value": "//CHECK#18\n",
-                                                                                      "raw": "'//CHECK#18\\n'"
+                                                                                      "value": "//CHECK#18\n"
                                                                                     }
                                                                                   },
                                                                                   "operator": "+",
@@ -486,8 +461,7 @@
                                                                                     "type": "Literal",
                                                                                     "start": 1031,
                                                                                     "end": 1057,
-                                                                                    "value": "if ( Date === null ) {\n",
-                                                                                    "raw": "'if ( Date === null ) {\\n'"
+                                                                                    "value": "if ( Date === null ) {\n"
                                                                                   }
                                                                                 },
                                                                                 "operator": "+",
@@ -495,8 +469,7 @@
                                                                                   "type": "Literal",
                                                                                   "start": 1059,
                                                                                   "end": 1110,
-                                                                                  "value": "  throw new Test262Error(\"#18: Date === null\");\n",
-                                                                                  "raw": "'  throw new Test262Error(\"#18: Date === null\");\\n'"
+                                                                                  "value": "  throw new Test262Error(\"#18: Date === null\");\n"
                                                                                 }
                                                                               },
                                                                               "operator": "+",
@@ -504,8 +477,7 @@
                                                                                 "type": "Literal",
                                                                                 "start": 1112,
                                                                                 "end": 1117,
-                                                                                "value": "}\n",
-                                                                                "raw": "'}\\n'"
+                                                                                "value": "}\n"
                                                                               }
                                                                             },
                                                                             "operator": "+",
@@ -513,8 +485,7 @@
                                                                               "type": "Literal",
                                                                               "start": 1120,
                                                                               "end": 1134,
-                                                                              "value": "//CHECK#19\n",
-                                                                              "raw": "'//CHECK#19\\n'"
+                                                                              "value": "//CHECK#19\n"
                                                                             }
                                                                           },
                                                                           "operator": "+",
@@ -522,8 +493,7 @@
                                                                             "type": "Literal",
                                                                             "start": 1136,
                                                                             "end": 1164,
-                                                                            "value": "if ( RegExp === null ) {\n",
-                                                                            "raw": "'if ( RegExp === null ) {\\n'"
+                                                                            "value": "if ( RegExp === null ) {\n"
                                                                           }
                                                                         },
                                                                         "operator": "+",
@@ -531,8 +501,7 @@
                                                                           "type": "Literal",
                                                                           "start": 1166,
                                                                           "end": 1219,
-                                                                          "value": "  throw new Test262Error(\"#19: RegExp === null\");\n",
-                                                                          "raw": "'  throw new Test262Error(\"#19: RegExp === null\");\\n'"
+                                                                          "value": "  throw new Test262Error(\"#19: RegExp === null\");\n"
                                                                         }
                                                                       },
                                                                       "operator": "+",
@@ -540,8 +509,7 @@
                                                                         "type": "Literal",
                                                                         "start": 1221,
                                                                         "end": 1226,
-                                                                        "value": "}\n",
-                                                                        "raw": "'}\\n'"
+                                                                        "value": "}\n"
                                                                       }
                                                                     },
                                                                     "operator": "+",
@@ -549,8 +517,7 @@
                                                                       "type": "Literal",
                                                                       "start": 1229,
                                                                       "end": 1243,
-                                                                      "value": "//CHECK#20\n",
-                                                                      "raw": "'//CHECK#20\\n'"
+                                                                      "value": "//CHECK#20\n"
                                                                     }
                                                                   },
                                                                   "operator": "+",
@@ -558,8 +525,7 @@
                                                                     "type": "Literal",
                                                                     "start": 1245,
                                                                     "end": 1272,
-                                                                    "value": "if ( Error === null ) {\n",
-                                                                    "raw": "'if ( Error === null ) {\\n'"
+                                                                    "value": "if ( Error === null ) {\n"
                                                                   }
                                                                 },
                                                                 "operator": "+",
@@ -567,8 +533,7 @@
                                                                   "type": "Literal",
                                                                   "start": 1274,
                                                                   "end": 1326,
-                                                                  "value": "  throw new Test262Error(\"#20: Error === null\");\n",
-                                                                  "raw": "'  throw new Test262Error(\"#20: Error === null\");\\n'"
+                                                                  "value": "  throw new Test262Error(\"#20: Error === null\");\n"
                                                                 }
                                                               },
                                                               "operator": "+",
@@ -576,8 +541,7 @@
                                                                 "type": "Literal",
                                                                 "start": 1328,
                                                                 "end": 1333,
-                                                                "value": "}\n",
-                                                                "raw": "'}\\n'"
+                                                                "value": "}\n"
                                                               }
                                                             },
                                                             "operator": "+",
@@ -585,8 +549,7 @@
                                                               "type": "Literal",
                                                               "start": 1336,
                                                               "end": 1350,
-                                                              "value": "//CHECK#21\n",
-                                                              "raw": "'//CHECK#21\\n'"
+                                                              "value": "//CHECK#21\n"
                                                             }
                                                           },
                                                           "operator": "+",
@@ -594,8 +557,7 @@
                                                             "type": "Literal",
                                                             "start": 1352,
                                                             "end": 1383,
-                                                            "value": "if ( EvalError === null ) {\n",
-                                                            "raw": "'if ( EvalError === null ) {\\n'"
+                                                            "value": "if ( EvalError === null ) {\n"
                                                           }
                                                         },
                                                         "operator": "+",
@@ -603,8 +565,7 @@
                                                           "type": "Literal",
                                                           "start": 1385,
                                                           "end": 1441,
-                                                          "value": "  throw new Test262Error(\"#21: EvalError === null\");\n",
-                                                          "raw": "'  throw new Test262Error(\"#21: EvalError === null\");\\n'"
+                                                          "value": "  throw new Test262Error(\"#21: EvalError === null\");\n"
                                                         }
                                                       },
                                                       "operator": "+",
@@ -612,8 +573,7 @@
                                                         "type": "Literal",
                                                         "start": 1443,
                                                         "end": 1448,
-                                                        "value": "}\n",
-                                                        "raw": "'}\\n'"
+                                                        "value": "}\n"
                                                       }
                                                     },
                                                     "operator": "+",
@@ -621,8 +581,7 @@
                                                       "type": "Literal",
                                                       "start": 1451,
                                                       "end": 1465,
-                                                      "value": "//CHECK#22\n",
-                                                      "raw": "'//CHECK#22\\n'"
+                                                      "value": "//CHECK#22\n"
                                                     }
                                                   },
                                                   "operator": "+",
@@ -630,8 +589,7 @@
                                                     "type": "Literal",
                                                     "start": 1467,
                                                     "end": 1499,
-                                                    "value": "if ( RangeError === null ) {\n",
-                                                    "raw": "'if ( RangeError === null ) {\\n'"
+                                                    "value": "if ( RangeError === null ) {\n"
                                                   }
                                                 },
                                                 "operator": "+",
@@ -639,8 +597,7 @@
                                                   "type": "Literal",
                                                   "start": 1501,
                                                   "end": 1558,
-                                                  "value": "  throw new Test262Error(\"#22: RangeError === null\");\n",
-                                                  "raw": "'  throw new Test262Error(\"#22: RangeError === null\");\\n'"
+                                                  "value": "  throw new Test262Error(\"#22: RangeError === null\");\n"
                                                 }
                                               },
                                               "operator": "+",
@@ -648,8 +605,7 @@
                                                 "type": "Literal",
                                                 "start": 1560,
                                                 "end": 1565,
-                                                "value": "}\n",
-                                                "raw": "'}\\n'"
+                                                "value": "}\n"
                                               }
                                             },
                                             "operator": "+",
@@ -657,8 +613,7 @@
                                               "type": "Literal",
                                               "start": 1568,
                                               "end": 1582,
-                                              "value": "//CHECK#23\n",
-                                              "raw": "'//CHECK#23\\n'"
+                                              "value": "//CHECK#23\n"
                                             }
                                           },
                                           "operator": "+",
@@ -666,8 +621,7 @@
                                             "type": "Literal",
                                             "start": 1584,
                                             "end": 1620,
-                                            "value": "if ( ReferenceError === null ) {\n",
-                                            "raw": "'if ( ReferenceError === null ) {\\n'"
+                                            "value": "if ( ReferenceError === null ) {\n"
                                           }
                                         },
                                         "operator": "+",
@@ -675,8 +629,7 @@
                                           "type": "Literal",
                                           "start": 1622,
                                           "end": 1683,
-                                          "value": "  throw new Test262Error(\"#23: ReferenceError === null\");\n",
-                                          "raw": "'  throw new Test262Error(\"#23: ReferenceError === null\");\\n'"
+                                          "value": "  throw new Test262Error(\"#23: ReferenceError === null\");\n"
                                         }
                                       },
                                       "operator": "+",
@@ -684,8 +637,7 @@
                                         "type": "Literal",
                                         "start": 1685,
                                         "end": 1690,
-                                        "value": "}\n",
-                                        "raw": "'}\\n'"
+                                        "value": "}\n"
                                       }
                                     },
                                     "operator": "+",
@@ -693,8 +645,7 @@
                                       "type": "Literal",
                                       "start": 1693,
                                       "end": 1707,
-                                      "value": "//CHECK#24\n",
-                                      "raw": "'//CHECK#24\\n'"
+                                      "value": "//CHECK#24\n"
                                     }
                                   },
                                   "operator": "+",
@@ -702,8 +653,7 @@
                                     "type": "Literal",
                                     "start": 1709,
                                     "end": 1742,
-                                    "value": "if ( SyntaxError === null ) {\n",
-                                    "raw": "'if ( SyntaxError === null ) {\\n'"
+                                    "value": "if ( SyntaxError === null ) {\n"
                                   }
                                 },
                                 "operator": "+",
@@ -711,8 +661,7 @@
                                   "type": "Literal",
                                   "start": 1744,
                                   "end": 1802,
-                                  "value": "  throw new Test262Error(\"#24: SyntaxError === null\");\n",
-                                  "raw": "'  throw new Test262Error(\"#24: SyntaxError === null\");\\n'"
+                                  "value": "  throw new Test262Error(\"#24: SyntaxError === null\");\n"
                                 }
                               },
                               "operator": "+",
@@ -720,8 +669,7 @@
                                 "type": "Literal",
                                 "start": 1804,
                                 "end": 1809,
-                                "value": "}\n",
-                                "raw": "'}\\n'"
+                                "value": "}\n"
                               }
                             },
                             "operator": "+",
@@ -729,8 +677,7 @@
                               "type": "Literal",
                               "start": 1812,
                               "end": 1826,
-                              "value": "//CHECK#25\n",
-                              "raw": "'//CHECK#25\\n'"
+                              "value": "//CHECK#25\n"
                             }
                           },
                           "operator": "+",
@@ -738,8 +685,7 @@
                             "type": "Literal",
                             "start": 1828,
                             "end": 1859,
-                            "value": "if ( TypeError === null ) {\n",
-                            "raw": "'if ( TypeError === null ) {\\n'"
+                            "value": "if ( TypeError === null ) {\n"
                           }
                         },
                         "operator": "+",
@@ -747,8 +693,7 @@
                           "type": "Literal",
                           "start": 1861,
                           "end": 1917,
-                          "value": "  throw new Test262Error(\"#25: TypeError === null\");\n",
-                          "raw": "'  throw new Test262Error(\"#25: TypeError === null\");\\n'"
+                          "value": "  throw new Test262Error(\"#25: TypeError === null\");\n"
                         }
                       },
                       "operator": "+",
@@ -756,8 +701,7 @@
                         "type": "Literal",
                         "start": 1919,
                         "end": 1924,
-                        "value": "}\n",
-                        "raw": "'}\\n'"
+                        "value": "}\n"
                       }
                     },
                     "operator": "+",
@@ -765,8 +709,7 @@
                       "type": "Literal",
                       "start": 1927,
                       "end": 1941,
-                      "value": "//CHECK#26\n",
-                      "raw": "'//CHECK#26\\n'"
+                      "value": "//CHECK#26\n"
                     }
                   },
                   "operator": "+",
@@ -774,8 +717,7 @@
                     "type": "Literal",
                     "start": 1943,
                     "end": 1973,
-                    "value": "if ( URIError === null ) {\n",
-                    "raw": "'if ( URIError === null ) {\\n'"
+                    "value": "if ( URIError === null ) {\n"
                   }
                 },
                 "operator": "+",
@@ -783,8 +725,7 @@
                   "type": "Literal",
                   "start": 1975,
                   "end": 2030,
-                  "value": "  throw new Test262Error(\"#26: URIError === null\");\n",
-                  "raw": "'  throw new Test262Error(\"#26: URIError === null\");\\n'"
+                  "value": "  throw new Test262Error(\"#26: URIError === null\");\n"
                 }
               },
               "operator": "+",
@@ -792,8 +733,7 @@
                 "type": "Literal",
                 "start": 2032,
                 "end": 2037,
-                "value": "}\n",
-                "raw": "'}\\n'"
+                "value": "}\n"
               }
             },
             "operator": "+",
@@ -801,8 +741,7 @@
               "type": "Literal",
               "start": 2039,
               "end": 2044,
-              "value": ";\n",
-              "raw": "';\\n'"
+              "value": ";\n"
             }
           }
         }

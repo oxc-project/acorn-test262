@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 690,
             "end": 700,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 702,
             "end": 757,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -140,8 +138,7 @@
                       "type": "Literal",
                       "start": 844,
                       "end": 845,
-                      "value": 8,
-                      "raw": "8"
+                      "value": 8
                     }
                   }
                 ]
@@ -294,15 +291,13 @@
                                     "type": "Literal",
                                     "start": 987,
                                     "end": 988,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 990,
                                     "end": 991,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -315,8 +310,7 @@
                         "type": "Literal",
                         "start": 999,
                         "end": 1076,
-                        "value": "`Atomics.waitAsync(i32a, IdxGen(i32a), 0, 0)` throws a RangeError exception",
-                        "raw": "'`Atomics.waitAsync(i32a, IdxGen(i32a), 0, 0)` throws a RangeError exception'"
+                        "value": "`Atomics.waitAsync(i32a, IdxGen(i32a), 0, 0)` throws a RangeError exception"
                       }
                     ],
                     "optional": false

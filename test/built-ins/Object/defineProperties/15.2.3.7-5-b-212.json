@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 383,
                   "end": 389,
-                  "value": "JSON",
-                  "raw": "\"JSON\""
+                  "value": "JSON"
                 }
               }
             ]
@@ -204,15 +203,13 @@
             "type": "Literal",
             "start": 479,
             "end": 485,
-            "value": "JSON",
-            "raw": "\"JSON\""
+            "value": "JSON"
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 501,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

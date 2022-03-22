@@ -30,17 +30,15 @@
               "end": 1103,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 970,
-                  "end": 1030,
-                  "static": false,
+                  "end": 1029,
                   "computed": true,
                   "key": {
                     "type": "Literal",
                     "start": 971,
                     "end": 986,
-                    "value": 12345678,
-                    "raw": "1_2_3_4_5_6_7_8"
+                    "value": 12345678
                   },
                   "value": {
                     "type": "ArrowFunctionExpression",
@@ -64,8 +62,7 @@
                             "type": "Literal",
                             "start": 1009,
                             "end": 1024,
-                            "value": 12345678,
-                            "raw": "1_2_3_4_5_6_7_8"
+                            "value": 12345678
                           }
                         }
                       ]
@@ -73,17 +70,16 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1034,
-                  "end": 1101,
+                  "end": 1100,
                   "static": true,
                   "computed": true,
                   "key": {
                     "type": "Literal",
                     "start": 1042,
                     "end": 1057,
-                    "value": 12345678,
-                    "raw": "1_2_3_4_5_6_7_8"
+                    "value": 12345678
                   },
                   "value": {
                     "type": "ArrowFunctionExpression",
@@ -107,8 +103,7 @@
                             "type": "Literal",
                             "start": 1080,
                             "end": 1095,
-                            "value": 12345678,
-                            "raw": "1_2_3_4_5_6_7_8"
+                            "value": 12345678
                           }
                         }
                       ]
@@ -199,8 +194,7 @@
                 "type": "Literal",
                 "start": 1146,
                 "end": 1161,
-                "value": 12345678,
-                "raw": "1_2_3_4_5_6_7_8"
+                "value": 12345678
               },
               "computed": true,
               "optional": false
@@ -212,8 +206,7 @@
             "type": "Literal",
             "start": 1168,
             "end": 1183,
-            "value": 12345678,
-            "raw": "1_2_3_4_5_6_7_8"
+            "value": 12345678
           }
         ],
         "optional": false
@@ -265,8 +258,7 @@
                 "type": "Literal",
                 "start": 1209,
                 "end": 1224,
-                "value": 12345678,
-                "raw": "1_2_3_4_5_6_7_8"
+                "value": 12345678
               },
               "computed": true,
               "optional": false
@@ -278,8 +270,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1246,
-            "value": 12345678,
-            "raw": "1_2_3_4_5_6_7_8"
+            "value": 12345678
           }
         ],
         "optional": false
@@ -342,8 +333,7 @@
                     "type": "Literal",
                     "start": 1279,
                     "end": 1294,
-                    "value": 12345678,
-                    "raw": "1_2_3_4_5_6_7_8"
+                    "value": 12345678
                   }
                 ],
                 "optional": false
@@ -358,8 +348,7 @@
             "type": "Literal",
             "start": 1302,
             "end": 1317,
-            "value": 12345678,
-            "raw": "1_2_3_4_5_6_7_8"
+            "value": 12345678
           }
         ],
         "optional": false
@@ -422,8 +411,7 @@
                     "type": "Literal",
                     "start": 1350,
                     "end": 1365,
-                    "value": 12345678,
-                    "raw": "1_2_3_4_5_6_7_8"
+                    "value": 12345678
                   }
                 ],
                 "optional": false
@@ -438,8 +426,7 @@
             "type": "Literal",
             "start": 1373,
             "end": 1388,
-            "value": 12345678,
-            "raw": "1_2_3_4_5_6_7_8"
+            "value": 12345678
           }
         ],
         "optional": false

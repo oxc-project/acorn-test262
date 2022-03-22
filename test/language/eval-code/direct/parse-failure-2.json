@@ -90,8 +90,7 @@
                         "type": "Literal",
                         "start": 374,
                         "end": 392,
-                        "value": "x = 1; x\n++",
-                        "raw": "\"x = 1; x\\u000A++\""
+                        "value": "x = 1; x\n++"
                       }
                     ],
                     "optional": false

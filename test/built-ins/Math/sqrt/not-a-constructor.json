@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 731,
             "end": 775,
-            "value": "isConstructor(Math.sqrt) must return false",
-            "raw": "'isConstructor(Math.sqrt) must return false'"
+            "value": "isConstructor(Math.sqrt) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 834,
             "end": 870,
-            "value": "`new Math.sqrt()` throws TypeError",
-            "raw": "'`new Math.sqrt()` throws TypeError'"
+            "value": "`new Math.sqrt()` throws TypeError"
           }
         ],
         "optional": false

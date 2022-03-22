@@ -51,15 +51,13 @@
                     "type": "Literal",
                     "start": 1198,
                     "end": 1202,
-                    "value": "FR",
-                    "raw": "'FR'"
+                    "value": "FR"
                   },
                   {
                     "type": "Literal",
                     "start": 1204,
                     "end": 1211,
-                    "value": "en-FR",
-                    "raw": "'en-FR'"
+                    "value": "en-FR"
                   }
                 ]
               },
@@ -72,15 +70,13 @@
                     "type": "Literal",
                     "start": 1217,
                     "end": 1222,
-                    "value": "554",
-                    "raw": "'554'"
+                    "value": "554"
                   },
                   {
                     "type": "Literal",
                     "start": 1224,
                     "end": 1231,
-                    "value": "en-NZ",
-                    "raw": "'en-NZ'"
+                    "value": "en-NZ"
                   }
                 ]
               },
@@ -93,15 +89,13 @@
                     "type": "Literal",
                     "start": 1237,
                     "end": 1240,
-                    "value": 554,
-                    "raw": "554"
+                    "value": 554
                   },
                   {
                     "type": "Literal",
                     "start": 1242,
                     "end": 1249,
-                    "value": "en-NZ",
-                    "raw": "'en-NZ'"
+                    "value": "en-NZ"
                   }
                 ]
               }
@@ -237,8 +231,7 @@
                     "type": "Literal",
                     "start": 1365,
                     "end": 1369,
-                    "value": "en",
-                    "raw": "'en'"
+                    "value": "en"
                   }
                 }
               }
@@ -309,8 +302,7 @@
                           "type": "Literal",
                           "start": 1412,
                           "end": 1416,
-                          "value": "en",
-                          "raw": "'en'"
+                          "value": "en"
                         },
                         {
                           "type": "Identifier",
@@ -423,8 +415,7 @@
                   "type": "Literal",
                   "start": 1562,
                   "end": 1569,
-                  "value": "en-US",
-                  "raw": "'en-US'"
+                  "value": "en-US"
                 }
               }
             }
@@ -493,8 +484,7 @@
                           "type": "Literal",
                           "start": 1611,
                           "end": 1618,
-                          "value": "en-US",
-                          "raw": "'en-US'"
+                          "value": "en-US"
                         },
                         {
                           "type": "Identifier",
@@ -615,8 +605,7 @@
                       "type": "Literal",
                       "start": 1768,
                       "end": 1772,
-                      "value": "en",
-                      "raw": "'en'"
+                      "value": "en"
                     }
                   }
                 },
@@ -625,8 +614,7 @@
                   "type": "Literal",
                   "start": 1776,
                   "end": 1791,
-                  "value": "-u-ca-gregory",
-                  "raw": "'-u-ca-gregory'"
+                  "value": "-u-ca-gregory"
                 }
               }
             }
@@ -695,8 +683,7 @@
                           "type": "Literal",
                           "start": 1833,
                           "end": 1850,
-                          "value": "en-u-ca-gregory",
-                          "raw": "'en-u-ca-gregory'"
+                          "value": "en-u-ca-gregory"
                         },
                         {
                           "type": "Identifier",
@@ -817,8 +804,7 @@
                       "type": "Literal",
                       "start": 2010,
                       "end": 2017,
-                      "value": "en-US",
-                      "raw": "'en-US'"
+                      "value": "en-US"
                     }
                   }
                 },
@@ -827,8 +813,7 @@
                   "type": "Literal",
                   "start": 2021,
                   "end": 2036,
-                  "value": "-u-ca-gregory",
-                  "raw": "'-u-ca-gregory'"
+                  "value": "-u-ca-gregory"
                 }
               }
             }
@@ -897,8 +882,7 @@
                           "type": "Literal",
                           "start": 2078,
                           "end": 2098,
-                          "value": "en-US-u-ca-gregory",
-                          "raw": "'en-US-u-ca-gregory'"
+                          "value": "en-US-u-ca-gregory"
                         },
                         {
                           "type": "Identifier",

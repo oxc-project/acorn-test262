@@ -59,15 +59,13 @@
                 "type": "Literal",
                 "start": 291,
                 "end": 300,
-                "value": "gregory",
-                "raw": "\"gregory\""
+                "value": "gregory"
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 323,
-                "value": "America/Los_Angeles",
-                "raw": "\"America/Los_Angeles\""
+                "value": "America/Los_Angeles"
               }
             ],
             "optional": false
@@ -253,8 +251,7 @@
             "type": "Literal",
             "start": 458,
             "end": 467,
-            "value": "gregory",
-            "raw": "\"gregory\""
+            "value": "gregory"
           }
         ],
         "optional": false
@@ -387,8 +384,7 @@
             "type": "Literal",
             "start": 555,
             "end": 576,
-            "value": "America/Los_Angeles",
-            "raw": "\"America/Los_Angeles\""
+            "value": "America/Los_Angeles"
           }
         ],
         "optional": false

@@ -124,8 +124,7 @@
                   "type": "Literal",
                   "start": 352,
                   "end": 358,
-                  "value": "prop",
-                  "raw": "\"prop\""
+                  "value": "prop"
                 },
                 {
                   "type": "ObjectExpression",
@@ -386,8 +385,7 @@
                             "type": "Literal",
                             "start": 608,
                             "end": 634,
-                            "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "value": "Expected TypeError, got "
                           },
                           "operator": "+",
                           "right": {
@@ -494,8 +492,7 @@
             "type": "Literal",
             "start": 712,
             "end": 729,
-            "value": "result !== true",
-            "raw": "'result !== true'"
+            "value": "result !== true"
           }
         ],
         "optional": false

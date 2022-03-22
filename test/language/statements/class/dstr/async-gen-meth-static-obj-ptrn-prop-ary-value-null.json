@@ -97,22 +97,19 @@
                               "type": "Literal",
                               "start": 1964,
                               "end": 1965,
-                              "value": 4,
-                              "raw": "4"
+                              "value": 4
                             },
                             {
                               "type": "Literal",
                               "start": 1967,
                               "end": 1968,
-                              "value": 5,
-                              "raw": "5"
+                              "value": 5
                             },
                             {
                               "type": "Literal",
                               "start": 1970,
                               "end": 1971,
-                              "value": 6,
-                              "raw": "6"
+                              "value": 6
                             }
                           ]
                         }

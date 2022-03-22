@@ -125,15 +125,13 @@
                   "type": "Literal",
                   "start": 411,
                   "end": 412,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 414,
                   "end": 415,
-                  "value": 9,
-                  "raw": "9"
+                  "value": 9
                 },
                 "kind": "init"
               },
@@ -154,8 +152,7 @@
                   "type": "Literal",
                   "start": 427,
                   "end": 435,
-                  "value": "asdf!_",
-                  "raw": "\"asdf!_\""
+                  "value": "asdf!_"
                 },
                 "kind": "init"
               }
@@ -280,8 +277,7 @@
             "type": "Literal",
             "start": 522,
             "end": 532,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false

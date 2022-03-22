@@ -20,10 +20,9 @@
         "end": 340,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 323,
             "end": 338,
-            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -39,15 +38,13 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 332,
-                "value": "lol",
-                "raw": "\"lol\""
+                "value": "lol"
               },
               "property": {
                 "type": "Literal",
                 "start": 336,
                 "end": 337,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "computed": true,
               "optional": false
@@ -138,8 +135,7 @@
             "type": "Literal",
             "start": 382,
             "end": 385,
-            "value": "o",
-            "raw": "'o'"
+            "value": "o"
           }
         ],
         "optional": false

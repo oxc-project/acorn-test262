@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 502,
                 "end": 510,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 541,
                     "end": 622,
-                    "value": "#0: String.prototype.substring.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.substring.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#0: String.prototype.substring.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 667,
                         "end": 675,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -266,8 +263,7 @@
                   "type": "Literal",
                   "start": 927,
                   "end": 985,
-                  "value": "#1: delete String.prototype.substring.length return true",
-                  "raw": "'#1: delete String.prototype.substring.length return true'"
+                  "value": "#1: delete String.prototype.substring.length return true"
                 }
               ]
             }
@@ -334,8 +330,7 @@
             "type": "Literal",
             "start": 1208,
             "end": 1216,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         ],
         "optional": false
@@ -368,8 +363,7 @@
                     "type": "Literal",
                     "start": 1246,
                     "end": 1370,
-                    "value": "#2: delete String.prototype.substring.length; String.prototype.substring.hasOwnProperty('length') return false. Actual: ",
-                    "raw": "'#2: delete String.prototype.substring.length; String.prototype.substring.hasOwnProperty(\\'length\\') return false. Actual: '"
+                    "value": "#2: delete String.prototype.substring.length; String.prototype.substring.hasOwnProperty('length') return false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -426,8 +420,7 @@
                         "type": "Literal",
                         "start": 1415,
                         "end": 1423,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false

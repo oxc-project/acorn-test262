@@ -103,8 +103,7 @@
             "type": "Literal",
             "start": 902,
             "end": 908,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -128,8 +127,7 @@
                   "type": "Literal",
                   "start": 921,
                   "end": 945,
-                  "value": "AsyncGeneratorFunction",
-                  "raw": "\"AsyncGeneratorFunction\""
+                  "value": "AsyncGeneratorFunction"
                 },
                 "kind": "init"
               },

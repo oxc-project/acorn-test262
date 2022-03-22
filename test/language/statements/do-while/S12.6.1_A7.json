@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 324,
             "end": 325,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -79,8 +78,7 @@
               "type": "Literal",
               "start": 346,
               "end": 397,
-              "value": "do eval(\"__condition++\"); while (__condition<5)",
-              "raw": "\"do eval(\\\"__condition++\\\"); while (__condition<5)\""
+              "value": "do eval(\"__condition++\"); while (__condition<5)"
             }
           ],
           "optional": false
@@ -106,8 +104,7 @@
           "type": "Literal",
           "start": 510,
           "end": 511,
-          "value": 5,
-          "raw": "5"
+          "value": 5
         }
       },
       "consequent": {
@@ -134,8 +131,7 @@
                   "type": "Literal",
                   "start": 539,
                   "end": 608,
-                  "value": "#1: The \"do-while\" statement is evaluted according to the Standard ",
-                  "raw": "'#1: The \"do-while\" statement is evaluted according to the Standard '"
+                  "value": "#1: The \"do-while\" statement is evaluted according to the Standard "
                 }
               ]
             }
@@ -163,8 +159,7 @@
           "type": "Literal",
           "start": 805,
           "end": 806,
-          "value": 4,
-          "raw": "4"
+          "value": 4
         }
       },
       "consequent": {
@@ -191,8 +186,7 @@
                   "type": "Literal",
                   "start": 834,
                   "end": 891,
-                  "value": "#2: The \"do-while\" statement returns (normal, V, empty)",
-                  "raw": "'#2: The \"do-while\" statement returns (normal, V, empty)'"
+                  "value": "#2: The \"do-while\" statement returns (normal, V, empty)"
                 }
               ]
             }

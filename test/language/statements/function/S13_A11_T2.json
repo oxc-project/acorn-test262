@@ -83,29 +83,25 @@
                 "type": "Literal",
                 "start": 554,
                 "end": 557,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               },
               {
                 "type": "Literal",
                 "start": 558,
                 "end": 561,
-                "value": "B",
-                "raw": "\"B\""
+                "value": "B"
               },
               {
                 "type": "Literal",
                 "start": 562,
                 "end": 563,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 564,
                 "end": 565,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -116,8 +112,7 @@
           "type": "Literal",
           "start": 571,
           "end": 579,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -144,8 +139,7 @@
                   "type": "Literal",
                   "start": 607,
                   "end": 660,
-                  "value": "#1: arguments property has attribute { DontDelete }",
-                  "raw": "'#1: arguments property has attribute { DontDelete }'"
+                  "value": "#1: arguments property has attribute { DontDelete }"
                 }
               ]
             }

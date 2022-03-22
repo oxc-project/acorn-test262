@@ -84,8 +84,7 @@
                     "type": "Literal",
                     "start": 349,
                     "end": 357,
-                    "value": "length",
-                    "raw": "\"length\""
+                    "value": "length"
                   }
                 ],
                 "optional": false
@@ -96,8 +95,7 @@
             "type": "Literal",
             "start": 362,
             "end": 458,
-            "value": "The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true'"
+            "value": "The value of !!Object.prototype.toLocaleString.hasOwnProperty(\"length\") is expected to be true"
           }
         ],
         "optional": false
@@ -180,15 +178,13 @@
             "type": "Literal",
             "start": 525,
             "end": 526,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 530,
             "end": 603,
-            "value": "The value of Object.prototype.toLocaleString.length is expected to be 0",
-            "raw": "'The value of Object.prototype.toLocaleString.length is expected to be 0'"
+            "value": "The value of Object.prototype.toLocaleString.length is expected to be 0"
           }
         ],
         "optional": false

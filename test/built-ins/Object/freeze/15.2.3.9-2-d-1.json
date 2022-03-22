@@ -128,8 +128,7 @@
             "type": "Literal",
             "start": 310,
             "end": 344,
-            "value": "Object.isFrozen(funObj) !== true",
-            "raw": "'Object.isFrozen(funObj) !== true'"
+            "value": "Object.isFrozen(funObj) !== true"
           }
         ],
         "optional": false

@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 382,
               "end": 390,
-              "value": "abc123",
-              "raw": "\"abc123\""
+              "value": "abc123"
             },
             "property": {
               "type": "Identifier",
@@ -40,8 +39,7 @@
               "type": "Literal",
               "start": 398,
               "end": 399,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             }
           ],
           "optional": false
@@ -51,8 +49,7 @@
           "type": "Literal",
           "start": 405,
           "end": 408,
-          "value": "3",
-          "raw": "\"3\""
+          "value": "3"
         }
       },
       "consequent": {
@@ -83,8 +80,7 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 479,
-                    "value": "#1: \"abc123\".charAt(5) === \"3\". Actual: ",
-                    "raw": "'#1: \"abc123\".charAt(5) === \"3\". Actual: '"
+                    "value": "#1: \"abc123\".charAt(5) === \"3\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -103,8 +99,7 @@
                           "type": "Literal",
                           "start": 483,
                           "end": 491,
-                          "value": "abc123",
-                          "raw": "\"abc123\""
+                          "value": "abc123"
                         },
                         "property": {
                           "type": "Identifier",
@@ -120,8 +115,7 @@
                           "type": "Literal",
                           "start": 499,
                           "end": 500,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         }
                       ],
                       "optional": false
@@ -155,15 +149,13 @@
               "type": "Literal",
               "start": 522,
               "end": 530,
-              "value": "abc123",
-              "raw": "\"abc123\""
+              "value": "abc123"
             },
             "property": {
               "type": "Literal",
               "start": 531,
               "end": 539,
-              "value": "charAt",
-              "raw": "\"charAt\""
+              "value": "charAt"
             },
             "computed": true,
             "optional": false
@@ -173,8 +165,7 @@
               "type": "Literal",
               "start": 541,
               "end": 542,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -184,8 +175,7 @@
           "type": "Literal",
           "start": 548,
           "end": 551,
-          "value": "a",
-          "raw": "\"a\""
+          "value": "a"
         }
       },
       "consequent": {
@@ -216,8 +206,7 @@
                     "type": "Literal",
                     "start": 580,
                     "end": 625,
-                    "value": "#2: \"abc123\"[\"charAt\"](0) === \"a\". Actual: ",
-                    "raw": "'#2: \"abc123\"[\"charAt\"](0) === \"a\". Actual: '"
+                    "value": "#2: \"abc123\"[\"charAt\"](0) === \"a\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -236,15 +225,13 @@
                           "type": "Literal",
                           "start": 629,
                           "end": 637,
-                          "value": "abc123",
-                          "raw": "\"abc123\""
+                          "value": "abc123"
                         },
                         "property": {
                           "type": "Literal",
                           "start": 638,
                           "end": 646,
-                          "value": "charAt",
-                          "raw": "\"charAt\""
+                          "value": "charAt"
                         },
                         "computed": true,
                         "optional": false
@@ -254,8 +241,7 @@
                           "type": "Literal",
                           "start": 648,
                           "end": 649,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ],
                       "optional": false
@@ -285,8 +271,7 @@
             "type": "Literal",
             "start": 671,
             "end": 679,
-            "value": "abc123",
-            "raw": "\"abc123\""
+            "value": "abc123"
           },
           "property": {
             "type": "Identifier",
@@ -302,8 +287,7 @@
           "type": "Literal",
           "start": 691,
           "end": 692,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -334,8 +318,7 @@
                     "type": "Literal",
                     "start": 721,
                     "end": 758,
-                    "value": "#3: \"abc123\".length === 6. Actual: ",
-                    "raw": "'#3: \"abc123\".length === 6. Actual: '"
+                    "value": "#3: \"abc123\".length === 6. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -350,8 +333,7 @@
                         "type": "Literal",
                         "start": 762,
                         "end": 770,
-                        "value": "abc123",
-                        "raw": "\"abc123\""
+                        "value": "abc123"
                       },
                       "property": {
                         "type": "Identifier",
@@ -387,15 +369,13 @@
             "type": "Literal",
             "start": 798,
             "end": 806,
-            "value": "abc123",
-            "raw": "\"abc123\""
+            "value": "abc123"
           },
           "property": {
             "type": "Literal",
             "start": 807,
             "end": 815,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           "computed": true,
           "optional": false
@@ -405,8 +385,7 @@
           "type": "Literal",
           "start": 821,
           "end": 822,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -437,8 +416,7 @@
                     "type": "Literal",
                     "start": 851,
                     "end": 891,
-                    "value": "#4: \"abc123\"[\"length\"] === 6. Actual: ",
-                    "raw": "'#4: \"abc123\"[\"length\"] === 6. Actual: '"
+                    "value": "#4: \"abc123\"[\"length\"] === 6. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -453,15 +431,13 @@
                         "type": "Literal",
                         "start": 895,
                         "end": 903,
-                        "value": "abc123",
-                        "raw": "\"abc123\""
+                        "value": "abc123"
                       },
                       "property": {
                         "type": "Literal",
                         "start": 904,
                         "end": 912,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       },
                       "computed": true,
                       "optional": false
@@ -502,8 +478,7 @@
                 "type": "Literal",
                 "start": 945,
                 "end": 953,
-                "value": "abc123",
-                "raw": "\"abc123\""
+                "value": "abc123"
               }
             ]
           },
@@ -521,8 +496,7 @@
           "type": "Literal",
           "start": 966,
           "end": 967,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -553,8 +527,7 @@
                     "type": "Literal",
                     "start": 996,
                     "end": 1045,
-                    "value": "#5: new String(\"abc123\").length === 6. Actual: ",
-                    "raw": "'#5: new String(\"abc123\").length === 6. Actual: '"
+                    "value": "#5: new String(\"abc123\").length === 6. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -580,8 +553,7 @@
                             "type": "Literal",
                             "start": 1060,
                             "end": 1068,
-                            "value": "abc123",
-                            "raw": "\"abc123\""
+                            "value": "abc123"
                           }
                         ]
                       },
@@ -634,8 +606,7 @@
                   "type": "Literal",
                   "start": 1108,
                   "end": 1116,
-                  "value": "abc123",
-                  "raw": "\"abc123\""
+                  "value": "abc123"
                 }
               ]
             },
@@ -643,8 +614,7 @@
               "type": "Literal",
               "start": 1118,
               "end": 1126,
-              "value": "charAt",
-              "raw": "\"charAt\""
+              "value": "charAt"
             },
             "computed": true,
             "optional": false
@@ -654,8 +624,7 @@
               "type": "Literal",
               "start": 1128,
               "end": 1129,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           ],
           "optional": false
@@ -665,8 +634,7 @@
           "type": "Literal",
           "start": 1135,
           "end": 1138,
-          "value": "c",
-          "raw": "\"c\""
+          "value": "c"
         }
       },
       "consequent": {
@@ -697,8 +665,7 @@
                     "type": "Literal",
                     "start": 1167,
                     "end": 1224,
-                    "value": "#6: new String(\"abc123\")[\"charAt\"](2) === \"c\". Actual: ",
-                    "raw": "'#6: new String(\"abc123\")[\"charAt\"](2) === \"c\". Actual: '"
+                    "value": "#6: new String(\"abc123\")[\"charAt\"](2) === \"c\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -728,8 +695,7 @@
                               "type": "Literal",
                               "start": 1239,
                               "end": 1247,
-                              "value": "abc123",
-                              "raw": "\"abc123\""
+                              "value": "abc123"
                             }
                           ]
                         },
@@ -737,8 +703,7 @@
                           "type": "Literal",
                           "start": 1249,
                           "end": 1257,
-                          "value": "charAt",
-                          "raw": "\"charAt\""
+                          "value": "charAt"
                         },
                         "computed": true,
                         "optional": false
@@ -748,8 +713,7 @@
                           "type": "Literal",
                           "start": 1259,
                           "end": 1260,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ],
                       "optional": false

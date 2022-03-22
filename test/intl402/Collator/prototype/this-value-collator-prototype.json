@@ -100,15 +100,13 @@
                   "type": "Literal",
                   "start": 490,
                   "end": 496,
-                  "value": "aаあ아",
-                  "raw": "\"aаあ아\""
+                  "value": "aаあ아"
                 },
                 {
                   "type": "Literal",
                   "start": 498,
                   "end": 504,
-                  "value": "aаあ아",
-                  "raw": "\"aаあ아\""
+                  "value": "aаあ아"
                 }
               ],
               "optional": false
@@ -118,8 +116,7 @@
             "type": "Literal",
             "start": 521,
             "end": 610,
-            "value": "Intl.Collator.prototype is not an object that has been initialized as an Intl.Collator.",
-            "raw": "\"Intl.Collator.prototype is not an object that has been initialized as an Intl.Collator.\""
+            "value": "Intl.Collator.prototype is not an object that has been initialized as an Intl.Collator."
           }
         ],
         "optional": false

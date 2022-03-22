@@ -77,15 +77,13 @@
             "type": "Literal",
             "start": 334,
             "end": 335,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 359,
-            "value": "[null].indexOf(null)",
-            "raw": "'[null].indexOf(null)'"
+            "value": "[null].indexOf(null)"
           }
         ],
         "optional": false

@@ -50,8 +50,7 @@
                   "type": "Literal",
                   "start": 726,
                   "end": 730,
-                  "value": "en",
-                  "raw": "'en'"
+                  "value": "en"
                 }
               ]
             },
@@ -111,16 +110,14 @@
               "type": "Literal",
               "start": 767,
               "end": 768,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 770,
             "end": 802,
-            "value": "array has at least one element",
-            "raw": "'array has at least one element'"
+            "value": "array has at least one element"
           }
         ],
         "optional": false
@@ -202,29 +199,25 @@
                               "type": "Literal",
                               "start": 835,
                               "end": 840,
-                              "value": "h11",
-                              "raw": "'h11'"
+                              "value": "h11"
                             },
                             {
                               "type": "Literal",
                               "start": 842,
                               "end": 847,
-                              "value": "h12",
-                              "raw": "'h12'"
+                              "value": "h12"
                             },
                             {
                               "type": "Literal",
                               "start": 849,
                               "end": 854,
-                              "value": "h23",
-                              "raw": "'h23'"
+                              "value": "h23"
                             },
                             {
                               "type": "Literal",
                               "start": 856,
                               "end": 861,
-                              "value": "h24",
-                              "raw": "'h24'"
+                              "value": "h24"
                             }
                           ]
                         },

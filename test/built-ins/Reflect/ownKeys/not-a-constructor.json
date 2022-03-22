@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 752,
             "end": 802,
-            "value": "isConstructor(Reflect.ownKeys) must return false",
-            "raw": "'isConstructor(Reflect.ownKeys) must return false'"
+            "value": "isConstructor(Reflect.ownKeys) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 869,
             "end": 913,
-            "value": "`new Reflect.ownKeys({})` throws TypeError",
-            "raw": "'`new Reflect.ownKeys({})` throws TypeError'"
+            "value": "`new Reflect.ownKeys({})` throws TypeError"
           }
         ],
         "optional": false

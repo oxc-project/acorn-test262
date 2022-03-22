@@ -34,7 +34,6 @@
                 "start": 294,
                 "end": 300,
                 "value": {},
-                "raw": "/test/",
                 "regex": {
                   "pattern": "test",
                   "flags": ""
@@ -137,15 +136,13 @@
             "type": "Literal",
             "start": 357,
             "end": 365,
-            "value": "/test/",
-            "raw": "\"/test/\""
+            "value": "/test/"
           },
           {
             "type": "Literal",
             "start": 367,
             "end": 403,
-            "value": "String.prototype.trim.call(regObj)",
-            "raw": "'String.prototype.trim.call(regObj)'"
+            "value": "String.prototype.trim.call(regObj)"
           }
         ],
         "optional": false

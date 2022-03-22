@@ -79,8 +79,7 @@
             "type": "Literal",
             "start": 429,
             "end": 430,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -152,8 +151,7 @@
                             "type": "Literal",
                             "start": 489,
                             "end": 490,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -233,8 +231,7 @@
           "type": "Literal",
           "start": 545,
           "end": 546,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -310,8 +307,7 @@
             "type": "Literal",
             "start": 608,
             "end": 651,
-            "value": "Returns true if symbol own property found",
-            "raw": "\"Returns true if symbol own property found\""
+            "value": "Returns true if symbol own property found"
           }
         ],
         "optional": false
@@ -355,15 +351,13 @@
             "type": "Literal",
             "start": 684,
             "end": 685,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 687,
             "end": 723,
-            "value": "valueOf method called exactly once",
-            "raw": "\"valueOf method called exactly once\""
+            "value": "valueOf method called exactly once"
           }
         ],
         "optional": false

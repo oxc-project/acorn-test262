@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 1692,
                             "end": 1693,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -163,8 +162,7 @@
                                         "type": "Literal",
                                         "start": 1759,
                                         "end": 1784,
-                                        "value": "definately not a number",
-                                        "raw": "\"definately not a number\""
+                                        "value": "definately not a number"
                                       }
                                     ]
                                   }
@@ -179,8 +177,7 @@
                         "type": "Literal",
                         "start": 1793,
                         "end": 1822,
-                        "value": "StringToBigInt(prim) == NaN",
-                        "raw": "\"StringToBigInt(prim) == NaN\""
+                        "value": "StringToBigInt(prim) == NaN"
                       }
                     ],
                     "optional": false

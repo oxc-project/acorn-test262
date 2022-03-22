@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 347,
                 "end": 352,
-                "value": "0xb",
-                "raw": "\"0xb\""
+                "value": "0xb"
               }
             ],
             "optional": false
@@ -56,15 +55,13 @@
             "type": "Literal",
             "start": 355,
             "end": 357,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 359,
             "end": 389,
-            "value": "Number(\"0xb\") must return 11",
-            "raw": "'Number(\"0xb\") must return 11'"
+            "value": "Number(\"0xb\") must return 11"
           }
         ],
         "optional": false
@@ -113,8 +110,7 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 421,
-                "value": "0xB",
-                "raw": "\"0xB\""
+                "value": "0xB"
               }
             ],
             "optional": false
@@ -123,15 +119,13 @@
             "type": "Literal",
             "start": 424,
             "end": 426,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 428,
             "end": 458,
-            "value": "Number(\"0xB\") must return 11",
-            "raw": "'Number(\"0xB\") must return 11'"
+            "value": "Number(\"0xB\") must return 11"
           }
         ],
         "optional": false
@@ -179,8 +173,7 @@
                 "type": "Literal",
                 "start": 480,
                 "end": 485,
-                "value": "0Xb",
-                "raw": "\"0Xb\""
+                "value": "0Xb"
               }
             }
           },
@@ -188,15 +181,13 @@
             "type": "Literal",
             "start": 488,
             "end": 490,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 538,
-            "value": "The value of `+(\"0Xb\")` is expected to be 11",
-            "raw": "'The value of `+(\"0Xb\")` is expected to be 11'"
+            "value": "The value of `+(\"0Xb\")` is expected to be 11"
           }
         ],
         "optional": false
@@ -245,8 +236,7 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 570,
-                "value": "0XB",
-                "raw": "\"0XB\""
+                "value": "0XB"
               }
             ],
             "optional": false
@@ -255,15 +245,13 @@
             "type": "Literal",
             "start": 573,
             "end": 575,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 577,
             "end": 607,
-            "value": "Number(\"0XB\") must return 11",
-            "raw": "'Number(\"0XB\") must return 11'"
+            "value": "Number(\"0XB\") must return 11"
           }
         ],
         "optional": false

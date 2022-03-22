@@ -138,8 +138,7 @@
               "type": "Literal",
               "start": 658,
               "end": 670,
-              "value": "stringAcsr",
-              "raw": "'stringAcsr'"
+              "value": "stringAcsr"
             },
             {
               "type": "Identifier",
@@ -201,8 +200,7 @@
               "type": "Literal",
               "start": 727,
               "end": 739,
-              "value": "stringAcsr",
-              "raw": "'stringAcsr'"
+              "value": "stringAcsr"
             }
           ],
           "optional": false
@@ -234,8 +232,7 @@
             "type": "Literal",
             "start": 767,
             "end": 779,
-            "value": "stringAcsr",
-            "raw": "\"stringAcsr\""
+            "value": "stringAcsr"
           },
           {
             "type": "ObjectExpression",
@@ -349,8 +346,7 @@
             "type": "Literal",
             "start": 861,
             "end": 886,
-            "value": "descriptor `get` method",
-            "raw": "'descriptor `get` method'"
+            "value": "descriptor `get` method"
           }
         ],
         "optional": false
@@ -413,8 +409,7 @@
             "type": "Literal",
             "start": 927,
             "end": 952,
-            "value": "descriptor `set` method",
-            "raw": "'descriptor `set` method'"
+            "value": "descriptor `set` method"
           }
         ],
         "optional": false
@@ -477,8 +472,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1024,
-            "value": "descriptor `value` property",
-            "raw": "'descriptor `value` property'"
+            "value": "descriptor `value` property"
           }
         ],
         "optional": false
@@ -528,8 +522,7 @@
             "type": "Literal",
             "start": 1064,
             "end": 1085,
-            "value": "method return value",
-            "raw": "'method return value'"
+            "value": "method return value"
           }
         ],
         "optional": false

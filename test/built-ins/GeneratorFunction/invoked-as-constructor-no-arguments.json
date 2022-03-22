@@ -243,8 +243,7 @@
             "type": "Literal",
             "start": 552,
             "end": 568,
-            "value": "Result `value`",
-            "raw": "'Result `value`'"
+            "value": "Result `value`"
           }
         ],
         "optional": false
@@ -308,8 +307,7 @@
             "type": "Literal",
             "start": 607,
             "end": 627,
-            "value": "Result `done` flag",
-            "raw": "'Result `done` flag'"
+            "value": "Result `done` flag"
           }
         ],
         "optional": false

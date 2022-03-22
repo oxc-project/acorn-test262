@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 587,
             "end": 597,
-            "value": "DataView",
-            "raw": "'DataView'"
+            "value": "DataView"
           },
           {
             "type": "Literal",
             "start": 601,
             "end": 683,
-            "value": "The value of DataView.prototype[Symbol.toStringTag] is expected to be \"DataView\"",
-            "raw": "'The value of DataView.prototype[Symbol.toStringTag] is expected to be \"DataView\"'"
+            "value": "The value of DataView.prototype[Symbol.toStringTag] is expected to be \"DataView\""
           }
         ],
         "optional": false

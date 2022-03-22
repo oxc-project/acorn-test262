@@ -52,8 +52,7 @@
                   "type": "Literal",
                   "start": 344,
                   "end": 355,
-                  "value": "prototype",
-                  "raw": "'prototype'"
+                  "value": "prototype"
                 }
               ],
               "optional": false
@@ -63,8 +62,7 @@
             "type": "Literal",
             "start": 360,
             "end": 439,
-            "value": "The value of !Date.propertyIsEnumerable('prototype') is expected to be true",
-            "raw": "'The value of !Date.propertyIsEnumerable(\\'prototype\\') is expected to be true'"
+            "value": "The value of !Date.propertyIsEnumerable('prototype') is expected to be true"
           }
         ],
         "optional": false
@@ -143,15 +141,13 @@
                   "type": "Literal",
                   "start": 491,
                   "end": 502,
-                  "value": "prototype",
-                  "raw": "\"prototype\""
+                  "value": "prototype"
                 },
                 {
                   "type": "Literal",
                   "start": 504,
                   "end": 539,
-                  "value": "The value of x is not \"prototype\"",
-                  "raw": "'The value of x is not \"prototype\"'"
+                  "value": "The value of x is not \"prototype\""
                 }
               ],
               "optional": false

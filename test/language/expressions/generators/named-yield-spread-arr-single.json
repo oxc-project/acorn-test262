@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 613,
                 "end": 616,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 618,
                 "end": 621,
-                "value": "b",
-                "raw": "'b'"
+                "value": "b"
               },
               {
                 "type": "Literal",
                 "start": 623,
                 "end": 626,
-                "value": "c",
-                "raw": "'c'"
+                "value": "c"
               }
             ]
           }
@@ -69,8 +66,7 @@
             "type": "Literal",
             "start": 646,
             "end": 647,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -129,8 +125,7 @@
                       "type": "Literal",
                       "start": 691,
                       "end": 692,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -376,8 +371,7 @@
             "type": "Literal",
             "start": 839,
             "end": 861,
-            "value": "value is a new array",
-            "raw": "'value is a new array'"
+            "value": "value is a new array"
           }
         ],
         "optional": false
@@ -435,8 +429,7 @@
             "type": "Literal",
             "start": 893,
             "end": 926,
-            "value": "value is an Array exotic object",
-            "raw": "'value is an Array exotic object'"
+            "value": "value is an Array exotic object"
           }
         ],
         "optional": false
@@ -493,8 +486,7 @@
             "type": "Literal",
             "start": 960,
             "end": 961,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -542,8 +534,7 @@
               "type": "Literal",
               "start": 986,
               "end": 987,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -552,8 +543,7 @@
             "type": "Literal",
             "start": 990,
             "end": 993,
-            "value": "a",
-            "raw": "'a'"
+            "value": "a"
           }
         ],
         "optional": false
@@ -601,8 +591,7 @@
               "type": "Literal",
               "start": 1019,
               "end": 1020,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -611,8 +600,7 @@
             "type": "Literal",
             "start": 1023,
             "end": 1026,
-            "value": "b",
-            "raw": "'b'"
+            "value": "b"
           }
         ],
         "optional": false
@@ -660,8 +648,7 @@
               "type": "Literal",
               "start": 1052,
               "end": 1053,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -670,8 +657,7 @@
             "type": "Literal",
             "start": 1056,
             "end": 1059,
-            "value": "c",
-            "raw": "'c'"
+            "value": "c"
           }
         ],
         "optional": false
@@ -773,8 +759,7 @@
             "type": "Literal",
             "start": 1127,
             "end": 1128,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

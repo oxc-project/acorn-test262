@@ -15,16 +15,14 @@
           "type": "Literal",
           "start": 271,
           "end": 282,
-          "value": " str ing ",
-          "raw": "\" str ing \""
+          "value": " str ing "
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
           "start": 287,
           "end": 313,
-          "value": " str ing ",
-          "raw": "\"\\u00A0str\\u00A0ing\\u00A0\""
+          "value": " str ing "
         }
       },
       "consequent": {
@@ -51,8 +49,7 @@
                   "type": "Literal",
                   "start": 342,
                   "end": 393,
-                  "value": "#1: \" str ing \" === \"\\u00A0str\\u00A0ing\\u00A0\"",
-                  "raw": "'#1: \" str ing \" === \"\\\\u00A0str\\\\u00A0ing\\\\u00A0\"'"
+                  "value": "#1: \" str ing \" === \"\\u00A0str\\u00A0ing\\u00A0\""
                 }
               ]
             }

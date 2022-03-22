@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 282,
             "end": 301,
-            "value": "Number.isNaN(NaN)",
-            "raw": "'Number.isNaN(NaN)'"
+            "value": "Number.isNaN(NaN)"
           }
         ],
         "optional": false

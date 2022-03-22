@@ -108,8 +108,7 @@
                               "type": "Literal",
                               "start": 1891,
                               "end": 1892,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ],
@@ -141,8 +140,7 @@
                                 "type": "Literal",
                                 "start": 1919,
                                 "end": 1933,
-                                "value": "syncIterator",
-                                "raw": "\"syncIterator\""
+                                "value": "syncIterator"
                               },
                               "kind": "init"
                             },
@@ -224,8 +222,7 @@
                                                   "type": "Literal",
                                                   "start": 1979,
                                                   "end": 1989,
-                                                  "value": "get next",
-                                                  "raw": "\"get next\""
+                                                  "value": "get next"
                                                 },
                                                 "kind": "init"
                                               }
@@ -279,8 +276,7 @@
                                                       "type": "Literal",
                                                       "start": 2060,
                                                       "end": 2074,
-                                                      "value": "next-value-1",
-                                                      "raw": "\"next-value-1\""
+                                                      "value": "next-value-1"
                                                     },
                                                     "kind": "init"
                                                   },
@@ -395,8 +391,7 @@
                                                   "type": "Literal",
                                                   "start": 2188,
                                                   "end": 2199,
-                                                  "value": "get throw",
-                                                  "raw": "\"get throw\""
+                                                  "value": "get throw"
                                                 },
                                                 "kind": "init"
                                               },
@@ -494,8 +489,7 @@
                                                           "type": "Literal",
                                                           "start": 2306,
                                                           "end": 2318,
-                                                          "value": "call throw",
-                                                          "raw": "\"call throw\""
+                                                          "value": "call throw"
                                                         },
                                                         "kind": "init"
                                                       },
@@ -595,8 +589,7 @@
                                                   "type": "Literal",
                                                   "start": 2449,
                                                   "end": 2450,
-                                                  "value": 1,
-                                                  "raw": "1"
+                                                  "value": 1
                                                 }
                                               },
                                               "consequent": {
@@ -630,8 +623,7 @@
                                                             "type": "Literal",
                                                             "start": 2495,
                                                             "end": 2511,
-                                                            "value": "throw-result-1",
-                                                            "raw": "\"throw-result-1\""
+                                                            "value": "throw-result-1"
                                                           },
                                                           "kind": "init"
                                                         },
@@ -713,8 +705,7 @@
                                                                               "type": "Literal",
                                                                               "start": 2592,
                                                                               "end": 2613,
-                                                                              "value": "get throw value (1)",
-                                                                              "raw": "\"get throw value (1)\""
+                                                                              "value": "get throw value (1)"
                                                                             },
                                                                             "kind": "init"
                                                                           },
@@ -752,8 +743,7 @@
                                                                     "type": "Literal",
                                                                     "start": 2692,
                                                                     "end": 2707,
-                                                                    "value": "throw-value-1",
-                                                                    "raw": "\"throw-value-1\""
+                                                                    "value": "throw-value-1"
                                                                   }
                                                                 }
                                                               ]
@@ -838,8 +828,7 @@
                                                                               "type": "Literal",
                                                                               "start": 2804,
                                                                               "end": 2824,
-                                                                              "value": "get throw done (1)",
-                                                                              "raw": "\"get throw done (1)\""
+                                                                              "value": "get throw done (1)"
                                                                             },
                                                                             "kind": "init"
                                                                           },
@@ -918,8 +907,7 @@
                                                       "type": "Literal",
                                                       "start": 2991,
                                                       "end": 3007,
-                                                      "value": "throw-result-2",
-                                                      "raw": "\"throw-result-2\""
+                                                      "value": "throw-result-2"
                                                     },
                                                     "kind": "init"
                                                   },
@@ -1001,8 +989,7 @@
                                                                         "type": "Literal",
                                                                         "start": 3082,
                                                                         "end": 3103,
-                                                                        "value": "get throw value (2)",
-                                                                        "raw": "\"get throw value (2)\""
+                                                                        "value": "get throw value (2)"
                                                                       },
                                                                       "kind": "init"
                                                                     },
@@ -1040,8 +1027,7 @@
                                                               "type": "Literal",
                                                               "start": 3176,
                                                               "end": 3191,
-                                                              "value": "throw-value-2",
-                                                              "raw": "\"throw-value-2\""
+                                                              "value": "throw-value-2"
                                                             }
                                                           }
                                                         ]
@@ -1126,8 +1112,7 @@
                                                                         "type": "Literal",
                                                                         "start": 3280,
                                                                         "end": 3300,
-                                                                        "value": "get throw done (2)",
-                                                                        "raw": "\"get throw done (2)\""
+                                                                        "value": "get throw done (2)"
                                                                       },
                                                                       "kind": "init"
                                                                     },
@@ -1216,8 +1201,7 @@
             "type": "Literal",
             "start": 3457,
             "end": 3458,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -1294,8 +1278,7 @@
                               "type": "Literal",
                               "start": 3510,
                               "end": 3511,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         },
@@ -1349,8 +1332,7 @@
                                       "type": "Literal",
                                       "start": 3534,
                                       "end": 3549,
-                                      "value": "before yield*",
-                                      "raw": "\"before yield*\""
+                                      "value": "before yield*"
                                     },
                                     "kind": "init"
                                   }
@@ -1441,8 +1423,7 @@
                                       "type": "Literal",
                                       "start": 3611,
                                       "end": 3625,
-                                      "value": "after yield*",
-                                      "raw": "\"after yield*\""
+                                      "value": "after yield*"
                                     },
                                     "kind": "init"
                                   },
@@ -1481,8 +1462,7 @@
                             "type": "Literal",
                             "start": 3667,
                             "end": 3681,
-                            "value": "return-value",
-                            "raw": "\"return-value\""
+                            "value": "return-value"
                           }
                         }
                       ]
@@ -1587,15 +1567,13 @@
             "type": "Literal",
             "start": 3747,
             "end": 3748,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 3750,
             "end": 3762,
-            "value": "log.length",
-            "raw": "\"log.length\""
+            "value": "log.length"
           }
         ],
         "optional": false
@@ -1724,8 +1702,7 @@
                                 "type": "Literal",
                                 "start": 3813,
                                 "end": 3814,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "computed": true,
                               "optional": false
@@ -1743,8 +1720,7 @@
                             "type": "Literal",
                             "start": 3822,
                             "end": 3837,
-                            "value": "before yield*",
-                            "raw": "\"before yield*\""
+                            "value": "before yield*"
                           }
                         ],
                         "optional": false
@@ -1796,8 +1772,7 @@
                                 "type": "Literal",
                                 "start": 3864,
                                 "end": 3865,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               "computed": true,
                               "optional": false
@@ -1815,8 +1790,7 @@
                             "type": "Literal",
                             "start": 3873,
                             "end": 3883,
-                            "value": "get next",
-                            "raw": "\"get next\""
+                            "value": "get next"
                           }
                         ],
                         "optional": false
@@ -1873,8 +1847,7 @@
                             "type": "Literal",
                             "start": 3915,
                             "end": 3929,
-                            "value": "next-value-1",
-                            "raw": "\"next-value-1\""
+                            "value": "next-value-1"
                           }
                         ],
                         "optional": false
@@ -1989,15 +1962,13 @@
                             "type": "Literal",
                             "start": 3999,
                             "end": 4000,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           },
                           {
                             "type": "Literal",
                             "start": 4002,
                             "end": 4014,
-                            "value": "log.length",
-                            "raw": "\"log.length\""
+                            "value": "log.length"
                           }
                         ],
                         "optional": false
@@ -2051,8 +2022,7 @@
                                     "type": "Literal",
                                     "start": 4031,
                                     "end": 4044,
-                                    "value": "throw-arg-1",
-                                    "raw": "\"throw-arg-1\""
+                                    "value": "throw-arg-1"
                                   }
                                 ],
                                 "optional": false
@@ -2134,8 +2104,7 @@
                                                 "type": "Literal",
                                                 "start": 4083,
                                                 "end": 4084,
-                                                "value": 2,
-                                                "raw": "2"
+                                                "value": 2
                                               },
                                               "computed": true,
                                               "optional": false
@@ -2153,8 +2122,7 @@
                                             "type": "Literal",
                                             "start": 4092,
                                             "end": 4103,
-                                            "value": "get throw",
-                                            "raw": "\"get throw\""
+                                            "value": "get throw"
                                           }
                                         ],
                                         "optional": false
@@ -2210,8 +2178,7 @@
                                                   "type": "Literal",
                                                   "start": 4131,
                                                   "end": 4132,
-                                                  "value": 2,
-                                                  "raw": "2"
+                                                  "value": 2
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -2238,15 +2205,13 @@
                                             "type": "Literal",
                                             "start": 4150,
                                             "end": 4164,
-                                            "value": "syncIterator",
-                                            "raw": "\"syncIterator\""
+                                            "value": "syncIterator"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 4166,
                                             "end": 4187,
-                                            "value": "get throw thisValue",
-                                            "raw": "\"get throw thisValue\""
+                                            "value": "get throw thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -2298,8 +2263,7 @@
                                                 "type": "Literal",
                                                 "start": 4216,
                                                 "end": 4217,
-                                                "value": 3,
-                                                "raw": "3"
+                                                "value": 3
                                               },
                                               "computed": true,
                                               "optional": false
@@ -2317,8 +2281,7 @@
                                             "type": "Literal",
                                             "start": 4225,
                                             "end": 4237,
-                                            "value": "call throw",
-                                            "raw": "\"call throw\""
+                                            "value": "call throw"
                                           }
                                         ],
                                         "optional": false
@@ -2374,8 +2337,7 @@
                                                   "type": "Literal",
                                                   "start": 4265,
                                                   "end": 4266,
-                                                  "value": 3,
-                                                  "raw": "3"
+                                                  "value": 3
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -2402,15 +2364,13 @@
                                             "type": "Literal",
                                             "start": 4284,
                                             "end": 4298,
-                                            "value": "syncIterator",
-                                            "raw": "\"syncIterator\""
+                                            "value": "syncIterator"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 4300,
                                             "end": 4317,
-                                            "value": "throw thisValue",
-                                            "raw": "\"throw thisValue\""
+                                            "value": "throw thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -2466,8 +2426,7 @@
                                                   "type": "Literal",
                                                   "start": 4345,
                                                   "end": 4346,
-                                                  "value": 3,
-                                                  "raw": "3"
+                                                  "value": 3
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -2494,15 +2453,13 @@
                                             "type": "Literal",
                                             "start": 4361,
                                             "end": 4362,
-                                            "value": 1,
-                                            "raw": "1"
+                                            "value": 1
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 4364,
                                             "end": 4383,
-                                            "value": "throw args.length",
-                                            "raw": "\"throw args.length\""
+                                            "value": "throw args.length"
                                           }
                                         ],
                                         "optional": false
@@ -2558,8 +2515,7 @@
                                                   "type": "Literal",
                                                   "start": 4411,
                                                   "end": 4412,
-                                                  "value": 3,
-                                                  "raw": "3"
+                                                  "value": 3
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -2577,8 +2533,7 @@
                                               "type": "Literal",
                                               "start": 4419,
                                               "end": 4420,
-                                              "value": 0,
-                                              "raw": "0"
+                                              "value": 0
                                             },
                                             "computed": true,
                                             "optional": false
@@ -2587,15 +2542,13 @@
                                             "type": "Literal",
                                             "start": 4423,
                                             "end": 4436,
-                                            "value": "throw-arg-1",
-                                            "raw": "\"throw-arg-1\""
+                                            "value": "throw-arg-1"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 4438,
                                             "end": 4453,
-                                            "value": "throw args[0]",
-                                            "raw": "\"throw args[0]\""
+                                            "value": "throw args[0]"
                                           }
                                         ],
                                         "optional": false
@@ -2647,8 +2600,7 @@
                                                 "type": "Literal",
                                                 "start": 4482,
                                                 "end": 4483,
-                                                "value": 4,
-                                                "raw": "4"
+                                                "value": 4
                                               },
                                               "computed": true,
                                               "optional": false
@@ -2666,8 +2618,7 @@
                                             "type": "Literal",
                                             "start": 4491,
                                             "end": 4511,
-                                            "value": "get throw done (1)",
-                                            "raw": "\"get throw done (1)\""
+                                            "value": "get throw done (1)"
                                           }
                                         ],
                                         "optional": false
@@ -2723,8 +2674,7 @@
                                                   "type": "Literal",
                                                   "start": 4539,
                                                   "end": 4540,
-                                                  "value": 4,
-                                                  "raw": "4"
+                                                  "value": 4
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -2751,15 +2701,13 @@
                                             "type": "Literal",
                                             "start": 4558,
                                             "end": 4574,
-                                            "value": "throw-result-1",
-                                            "raw": "\"throw-result-1\""
+                                            "value": "throw-result-1"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 4576,
                                             "end": 4602,
-                                            "value": "get throw done thisValue",
-                                            "raw": "\"get throw done thisValue\""
+                                            "value": "get throw done thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -2811,8 +2759,7 @@
                                                 "type": "Literal",
                                                 "start": 4631,
                                                 "end": 4632,
-                                                "value": 5,
-                                                "raw": "5"
+                                                "value": 5
                                               },
                                               "computed": true,
                                               "optional": false
@@ -2830,8 +2777,7 @@
                                             "type": "Literal",
                                             "start": 4640,
                                             "end": 4661,
-                                            "value": "get throw value (1)",
-                                            "raw": "\"get throw value (1)\""
+                                            "value": "get throw value (1)"
                                           }
                                         ],
                                         "optional": false
@@ -2887,8 +2833,7 @@
                                                   "type": "Literal",
                                                   "start": 4689,
                                                   "end": 4690,
-                                                  "value": 5,
-                                                  "raw": "5"
+                                                  "value": 5
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -2915,15 +2860,13 @@
                                             "type": "Literal",
                                             "start": 4708,
                                             "end": 4724,
-                                            "value": "throw-result-1",
-                                            "raw": "\"throw-result-1\""
+                                            "value": "throw-result-1"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 4726,
                                             "end": 4753,
-                                            "value": "get throw value thisValue",
-                                            "raw": "\"get throw value thisValue\""
+                                            "value": "get throw value thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -2980,8 +2923,7 @@
                                             "type": "Literal",
                                             "start": 4787,
                                             "end": 4802,
-                                            "value": "throw-value-1",
-                                            "raw": "\"throw-value-1\""
+                                            "value": "throw-value-1"
                                           }
                                         ],
                                         "optional": false
@@ -3096,15 +3038,13 @@
                                             "type": "Literal",
                                             "start": 4876,
                                             "end": 4877,
-                                            "value": 6,
-                                            "raw": "6"
+                                            "value": 6
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 4879,
                                             "end": 4891,
-                                            "value": "log.length",
-                                            "raw": "\"log.length\""
+                                            "value": "log.length"
                                           }
                                         ],
                                         "optional": false
@@ -3233,8 +3173,7 @@
                                                                 "type": "Literal",
                                                                 "start": 4951,
                                                                 "end": 4952,
-                                                                "value": 6,
-                                                                "raw": "6"
+                                                                "value": 6
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -3252,8 +3191,7 @@
                                                             "type": "Literal",
                                                             "start": 4960,
                                                             "end": 4971,
-                                                            "value": "get throw",
-                                                            "raw": "\"get throw\""
+                                                            "value": "get throw"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3309,8 +3247,7 @@
                                                                   "type": "Literal",
                                                                   "start": 5001,
                                                                   "end": 5002,
-                                                                  "value": 6,
-                                                                  "raw": "6"
+                                                                  "value": 6
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -3337,15 +3274,13 @@
                                                             "type": "Literal",
                                                             "start": 5020,
                                                             "end": 5034,
-                                                            "value": "syncIterator",
-                                                            "raw": "\"syncIterator\""
+                                                            "value": "syncIterator"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 5036,
                                                             "end": 5057,
-                                                            "value": "get throw thisValue",
-                                                            "raw": "\"get throw thisValue\""
+                                                            "value": "get throw thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3397,8 +3332,7 @@
                                                                 "type": "Literal",
                                                                 "start": 5088,
                                                                 "end": 5089,
-                                                                "value": 7,
-                                                                "raw": "7"
+                                                                "value": 7
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -3416,8 +3350,7 @@
                                                             "type": "Literal",
                                                             "start": 5097,
                                                             "end": 5109,
-                                                            "value": "call throw",
-                                                            "raw": "\"call throw\""
+                                                            "value": "call throw"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3473,8 +3406,7 @@
                                                                   "type": "Literal",
                                                                   "start": 5139,
                                                                   "end": 5140,
-                                                                  "value": 7,
-                                                                  "raw": "7"
+                                                                  "value": 7
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -3501,15 +3433,13 @@
                                                             "type": "Literal",
                                                             "start": 5158,
                                                             "end": 5172,
-                                                            "value": "syncIterator",
-                                                            "raw": "\"syncIterator\""
+                                                            "value": "syncIterator"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 5174,
                                                             "end": 5191,
-                                                            "value": "throw thisValue",
-                                                            "raw": "\"throw thisValue\""
+                                                            "value": "throw thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3565,8 +3495,7 @@
                                                                   "type": "Literal",
                                                                   "start": 5221,
                                                                   "end": 5222,
-                                                                  "value": 7,
-                                                                  "raw": "7"
+                                                                  "value": 7
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -3593,15 +3522,13 @@
                                                             "type": "Literal",
                                                             "start": 5237,
                                                             "end": 5238,
-                                                            "value": 1,
-                                                            "raw": "1"
+                                                            "value": 1
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 5240,
                                                             "end": 5259,
-                                                            "value": "throw args.length",
-                                                            "raw": "\"throw args.length\""
+                                                            "value": "throw args.length"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3657,8 +3584,7 @@
                                                                   "type": "Literal",
                                                                   "start": 5289,
                                                                   "end": 5290,
-                                                                  "value": 7,
-                                                                  "raw": "7"
+                                                                  "value": 7
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -3676,8 +3602,7 @@
                                                               "type": "Literal",
                                                               "start": 5297,
                                                               "end": 5298,
-                                                              "value": 0,
-                                                              "raw": "0"
+                                                              "value": 0
                                                             },
                                                             "computed": true,
                                                             "optional": false
@@ -3692,8 +3617,7 @@
                                                             "type": "Literal",
                                                             "start": 5312,
                                                             "end": 5327,
-                                                            "value": "throw args[0]",
-                                                            "raw": "\"throw args[0]\""
+                                                            "value": "throw args[0]"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3745,8 +3669,7 @@
                                                                 "type": "Literal",
                                                                 "start": 5358,
                                                                 "end": 5359,
-                                                                "value": 8,
-                                                                "raw": "8"
+                                                                "value": 8
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -3764,8 +3687,7 @@
                                                             "type": "Literal",
                                                             "start": 5367,
                                                             "end": 5387,
-                                                            "value": "get throw done (2)",
-                                                            "raw": "\"get throw done (2)\""
+                                                            "value": "get throw done (2)"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3821,8 +3743,7 @@
                                                                   "type": "Literal",
                                                                   "start": 5417,
                                                                   "end": 5418,
-                                                                  "value": 8,
-                                                                  "raw": "8"
+                                                                  "value": 8
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -3849,15 +3770,13 @@
                                                             "type": "Literal",
                                                             "start": 5436,
                                                             "end": 5452,
-                                                            "value": "throw-result-2",
-                                                            "raw": "\"throw-result-2\""
+                                                            "value": "throw-result-2"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 5454,
                                                             "end": 5480,
-                                                            "value": "get throw done thisValue",
-                                                            "raw": "\"get throw done thisValue\""
+                                                            "value": "get throw done thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3909,8 +3828,7 @@
                                                                 "type": "Literal",
                                                                 "start": 5511,
                                                                 "end": 5512,
-                                                                "value": 9,
-                                                                "raw": "9"
+                                                                "value": 9
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -3928,8 +3846,7 @@
                                                             "type": "Literal",
                                                             "start": 5520,
                                                             "end": 5541,
-                                                            "value": "get throw value (2)",
-                                                            "raw": "\"get throw value (2)\""
+                                                            "value": "get throw value (2)"
                                                           }
                                                         ],
                                                         "optional": false
@@ -3985,8 +3902,7 @@
                                                                   "type": "Literal",
                                                                   "start": 5571,
                                                                   "end": 5572,
-                                                                  "value": 9,
-                                                                  "raw": "9"
+                                                                  "value": 9
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -4013,15 +3929,13 @@
                                                             "type": "Literal",
                                                             "start": 5590,
                                                             "end": 5606,
-                                                            "value": "throw-result-2",
-                                                            "raw": "\"throw-result-2\""
+                                                            "value": "throw-result-2"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 5608,
                                                             "end": 5635,
-                                                            "value": "get throw value thisValue",
-                                                            "raw": "\"get throw value thisValue\""
+                                                            "value": "get throw value thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4073,8 +3987,7 @@
                                                                 "type": "Literal",
                                                                 "start": 5666,
                                                                 "end": 5668,
-                                                                "value": 10,
-                                                                "raw": "10"
+                                                                "value": 10
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -4092,8 +4005,7 @@
                                                             "type": "Literal",
                                                             "start": 5676,
                                                             "end": 5690,
-                                                            "value": "after yield*",
-                                                            "raw": "\"after yield*\""
+                                                            "value": "after yield*"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4145,8 +4057,7 @@
                                                                 "type": "Literal",
                                                                 "start": 5720,
                                                                 "end": 5722,
-                                                                "value": 10,
-                                                                "raw": "10"
+                                                                "value": 10
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -4164,8 +4075,7 @@
                                                             "type": "Literal",
                                                             "start": 5731,
                                                             "end": 5746,
-                                                            "value": "throw-value-2",
-                                                            "raw": "\"throw-value-2\""
+                                                            "value": "throw-value-2"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4222,8 +4132,7 @@
                                                             "type": "Literal",
                                                             "start": 5782,
                                                             "end": 5796,
-                                                            "value": "return-value",
-                                                            "raw": "\"return-value\""
+                                                            "value": "return-value"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4338,15 +4247,13 @@
                                                             "type": "Literal",
                                                             "start": 5873,
                                                             "end": 5875,
-                                                            "value": 11,
-                                                            "raw": "11"
+                                                            "value": 11
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 5877,
                                                             "end": 5889,
-                                                            "value": "log.length",
-                                                            "raw": "\"log.length\""
+                                                            "value": "log.length"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4474,8 +4381,7 @@
             "type": "Literal",
             "start": 5984,
             "end": 5985,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 600,
             "end": 610,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 629,
             "end": 680,
-            "value": "Should support Intl.Segmenter.supportedLocalesOf.",
-            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\""
+            "value": "Should support Intl.Segmenter.supportedLocalesOf."
           }
         ],
         "optional": false
@@ -157,8 +155,7 @@
                 "type": "Literal",
                 "start": 738,
                 "end": 742,
-                "value": "sr",
-                "raw": "\"sr\""
+                "value": "sr"
               }
             ],
             "optional": false
@@ -172,8 +169,7 @@
                 "type": "Literal",
                 "start": 746,
                 "end": 750,
-                "value": "sr",
-                "raw": "\"sr\""
+                "value": "sr"
               }
             ]
           }
@@ -205,22 +201,19 @@
                 "type": "Literal",
                 "start": 776,
                 "end": 788,
-                "value": "sr-Thai-RS",
-                "raw": "\"sr-Thai-RS\""
+                "value": "sr-Thai-RS"
               },
               {
                 "type": "Literal",
                 "start": 790,
                 "end": 794,
-                "value": "de",
-                "raw": "\"de\""
+                "value": "de"
               },
               {
                 "type": "Literal",
                 "start": 796,
                 "end": 803,
-                "value": "zh-CN",
-                "raw": "\"zh-CN\""
+                "value": "zh-CN"
               }
             ]
           }
@@ -321,8 +314,7 @@
                       "type": "Literal",
                       "start": 889,
                       "end": 897,
-                      "value": "lookup",
-                      "raw": "\"lookup\""
+                      "value": "lookup"
                     },
                     "kind": "init"
                   }

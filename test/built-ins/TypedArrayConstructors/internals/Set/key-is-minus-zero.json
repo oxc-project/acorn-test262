@@ -74,8 +74,7 @@
                                 "type": "Literal",
                                 "start": 726,
                                 "end": 728,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               }
                             ]
                           }
@@ -147,15 +146,13 @@
                             "type": "Literal",
                             "start": 772,
                             "end": 776,
-                            "value": "-0",
-                            "raw": "\"-0\""
+                            "value": "-0"
                           },
                           {
                             "type": "Literal",
                             "start": 778,
                             "end": 779,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -171,8 +168,7 @@
                         "type": "Literal",
                         "start": 788,
                         "end": 835,
-                        "value": "Reflect.set(sample, \"-0\", 1) must return true",
-                        "raw": "'Reflect.set(sample, \"-0\", 1) must return true'"
+                        "value": "Reflect.set(sample, \"-0\", 1) must return true"
                       }
                     ],
                     "optional": false
@@ -234,8 +230,7 @@
                             "type": "Literal",
                             "start": 879,
                             "end": 883,
-                            "value": "-0",
-                            "raw": "\"-0\""
+                            "value": "-0"
                           }
                         ],
                         "optional": false
@@ -251,8 +246,7 @@
                         "type": "Literal",
                         "start": 893,
                         "end": 940,
-                        "value": "sample.hasOwnProperty(\"-0\") must return false",
-                        "raw": "'sample.hasOwnProperty(\"-0\") must return false'"
+                        "value": "sample.hasOwnProperty(\"-0\") must return false"
                       }
                     ],
                     "optional": false

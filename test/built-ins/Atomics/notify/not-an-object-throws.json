@@ -69,8 +69,7 @@
                               "type": "Literal",
                               "start": 538,
                               "end": 569,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -192,8 +191,7 @@
             "type": "Literal",
             "start": 665,
             "end": 726,
-            "value": "`Atomics.notify(null, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(null, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(null, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -304,8 +302,7 @@
             "type": "Literal",
             "start": 820,
             "end": 886,
-            "value": "`Atomics.notify(undefined, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(undefined, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(undefined, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -417,8 +414,7 @@
             "type": "Literal",
             "start": 975,
             "end": 1036,
-            "value": "`Atomics.notify(true, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(true, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(true, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -530,8 +526,7 @@
             "type": "Literal",
             "start": 1126,
             "end": 1188,
-            "value": "`Atomics.notify(false, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(false, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(false, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -617,8 +612,7 @@
                         "type": "Literal",
                         "start": 1247,
                         "end": 1261,
-                        "value": "***string***",
-                        "raw": "'***string***'"
+                        "value": "***string***"
                       },
                       {
                         "type": "Identifier",
@@ -643,8 +637,7 @@
             "type": "Literal",
             "start": 1287,
             "end": 1360,
-            "value": "`Atomics.notify('***string***', poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(\\'***string***\\', poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify('***string***', poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -768,8 +761,7 @@
             "type": "Literal",
             "start": 1469,
             "end": 1550,
-            "value": "`Atomics.notify(Number.NEGATIVE_INFINITY, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(Number.NEGATIVE_INFINITY, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(Number.NEGATIVE_INFINITY, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -866,8 +858,7 @@
                             "type": "Literal",
                             "start": 1616,
                             "end": 1630,
-                            "value": "***symbol***",
-                            "raw": "'***symbol***'"
+                            "value": "***symbol***"
                           }
                         ],
                         "optional": false
@@ -895,8 +886,7 @@
             "type": "Literal",
             "start": 1657,
             "end": 1738,
-            "value": "`Atomics.notify(Symbol('***symbol***'), poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(Symbol(\\'***symbol***\\'), poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(Symbol('***symbol***'), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

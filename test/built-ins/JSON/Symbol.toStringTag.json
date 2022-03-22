@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 535,
             "end": 541,
-            "value": "JSON",
-            "raw": "'JSON'"
+            "value": "JSON"
           }
         ],
         "optional": false

@@ -51,22 +51,19 @@
                     "type": "Literal",
                     "start": 247,
                     "end": 248,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 250,
                     "end": 251,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 253,
                     "end": 254,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               }
@@ -129,8 +126,7 @@
             "type": "Literal",
             "start": 288,
             "end": 319,
-            "value": "Object.isFrozen(obj) !== true",
-            "raw": "'Object.isFrozen(obj) !== true'"
+            "value": "Object.isFrozen(obj) !== true"
           }
         ],
         "optional": false

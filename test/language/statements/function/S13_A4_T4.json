@@ -52,8 +52,7 @@
                       "type": "Literal",
                       "start": 472,
                       "end": 473,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false
@@ -72,8 +71,7 @@
                   "type": "Literal",
                   "start": 482,
                   "end": 485,
-                  "value": " ",
-                  "raw": "\" \""
+                  "value": " "
                 }
               },
               "operator": "+",
@@ -95,8 +93,7 @@
                     "type": "Literal",
                     "start": 498,
                     "end": 499,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -146,8 +143,7 @@
           "type": "Literal",
           "start": 625,
           "end": 635,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -178,8 +174,7 @@
                     "type": "Literal",
                     "start": 663,
                     "end": 724,
-                    "value": "#1: typeof __func === \"function\". Actual: typeof __func ===",
-                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='"
+                    "value": "#1: typeof __func === \"function\". Actual: typeof __func ==="
                   },
                   "operator": "+",
                   "right": {
@@ -244,8 +239,7 @@
                     "type": "Literal",
                     "start": 932,
                     "end": 937,
-                    "value": "fox",
-                    "raw": "'fox'"
+                    "value": "fox"
                   },
                   "kind": "init"
                 },
@@ -266,8 +260,7 @@
                     "type": "Literal",
                     "start": 947,
                     "end": 955,
-                    "value": "malder",
-                    "raw": "'malder'"
+                    "value": "malder"
                   },
                   "kind": "init"
                 }
@@ -281,8 +274,7 @@
           "type": "Literal",
           "start": 962,
           "end": 974,
-          "value": "fox malder",
-          "raw": "\"fox malder\""
+          "value": "fox malder"
         }
       },
       "consequent": {
@@ -313,8 +305,7 @@
                     "type": "Literal",
                     "start": 1002,
                     "end": 1123,
-                    "value": "#2: __func({name:'fox', surname:'malder'}) === \"fox malder\". Actual: __func({name:'fox', surname:'malder'}) ===",
-                    "raw": "'#2: __func({name:\\'fox\\', surname:\\'malder\\'}) === \"fox malder\". Actual: __func({name:\\'fox\\', surname:\\'malder\\'}) ==='"
+                    "value": "#2: __func({name:'fox', surname:'malder'}) === \"fox malder\". Actual: __func({name:'fox', surname:'malder'}) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -350,8 +341,7 @@
                               "type": "Literal",
                               "start": 1137,
                               "end": 1142,
-                              "value": "fox",
-                              "raw": "'fox'"
+                              "value": "fox"
                             },
                             "kind": "init"
                           },
@@ -372,8 +362,7 @@
                               "type": "Literal",
                               "start": 1152,
                               "end": 1160,
-                              "value": "malder",
-                              "raw": "'malder'"
+                              "value": "malder"
                             },
                             "kind": "init"
                           }
@@ -452,8 +441,7 @@
                   "type": "Literal",
                   "start": 1289,
                   "end": 1292,
-                  "value": " ",
-                  "raw": "\" \""
+                  "value": " "
                 }
               },
               "operator": "+",
@@ -512,8 +500,7 @@
           "type": "Literal",
           "start": 1423,
           "end": 1433,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -544,8 +531,7 @@
                     "type": "Literal",
                     "start": 1461,
                     "end": 1522,
-                    "value": "#3: typeof func__ === \"function\". Actual: typeof __func ===",
-                    "raw": "'#3: typeof func__ === \"function\". Actual: typeof __func ==='"
+                    "value": "#3: typeof func__ === \"function\". Actual: typeof __func ==="
                   },
                   "operator": "+",
                   "right": {
@@ -610,8 +596,7 @@
                     "type": "Literal",
                     "start": 1730,
                     "end": 1736,
-                    "value": "john",
-                    "raw": "'john'"
+                    "value": "john"
                   },
                   "kind": "init"
                 },
@@ -632,8 +617,7 @@
                     "type": "Literal",
                     "start": 1746,
                     "end": 1754,
-                    "value": "lennon",
-                    "raw": "'lennon'"
+                    "value": "lennon"
                   },
                   "kind": "init"
                 }
@@ -647,8 +631,7 @@
           "type": "Literal",
           "start": 1761,
           "end": 1774,
-          "value": "john lennon",
-          "raw": "\"john lennon\""
+          "value": "john lennon"
         }
       },
       "consequent": {
@@ -679,8 +662,7 @@
                     "type": "Literal",
                     "start": 1802,
                     "end": 1926,
-                    "value": "#4: func__({name:'john', surname:'lennon'}) === \"john lennon\". Actual: __func({name:'john', surname:'lennon'}) ===",
-                    "raw": "'#4: func__({name:\\'john\\', surname:\\'lennon\\'}) === \"john lennon\". Actual: __func({name:\\'john\\', surname:\\'lennon\\'}) ==='"
+                    "value": "#4: func__({name:'john', surname:'lennon'}) === \"john lennon\". Actual: __func({name:'john', surname:'lennon'}) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -716,8 +698,7 @@
                               "type": "Literal",
                               "start": 1940,
                               "end": 1946,
-                              "value": "john",
-                              "raw": "'john'"
+                              "value": "john"
                             },
                             "kind": "init"
                           },
@@ -738,8 +719,7 @@
                               "type": "Literal",
                               "start": 1956,
                               "end": 1964,
-                              "value": "lennon",
-                              "raw": "'lennon'"
+                              "value": "lennon"
                             },
                             "kind": "init"
                           }

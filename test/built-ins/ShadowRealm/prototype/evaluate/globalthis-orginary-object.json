@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 1459,
             "end": 1469,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1473,
             "end": 1546,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -175,8 +173,7 @@
                 "type": "Literal",
                 "start": 1612,
                 "end": 1668,
-                "value": "Object.getPrototypeOf(globalThis) === Object.prototype",
-                "raw": "'Object.getPrototypeOf(globalThis) === Object.prototype'"
+                "value": "Object.getPrototypeOf(globalThis) === Object.prototype"
               }
             ],
             "optional": false
@@ -192,8 +189,7 @@
             "type": "Literal",
             "start": 1681,
             "end": 1734,
-            "value": "The [[Prototype]] of globalThis is Object.prototype",
-            "raw": "'The [[Prototype]] of globalThis is Object.prototype'"
+            "value": "The [[Prototype]] of globalThis is Object.prototype"
           }
         ],
         "optional": false
@@ -255,8 +251,7 @@
                 "type": "Literal",
                 "start": 1770,
                 "end": 1803,
-                "value": "Object.isExtensible(globalThis)",
-                "raw": "'Object.isExtensible(globalThis)'"
+                "value": "Object.isExtensible(globalThis)"
               }
             ],
             "optional": false
@@ -272,8 +267,7 @@
             "type": "Literal",
             "start": 1816,
             "end": 1842,
-            "value": "globalThis is extensible",
-            "raw": "'globalThis is extensible'"
+            "value": "globalThis is extensible"
           }
         ],
         "optional": false
@@ -335,8 +329,7 @@
                 "type": "Literal",
                 "start": 1878,
                 "end": 1913,
-                "value": "globalThis.constructor === Object",
-                "raw": "'globalThis.constructor === Object'"
+                "value": "globalThis.constructor === Object"
               }
             ],
             "optional": false
@@ -352,8 +345,7 @@
             "type": "Literal",
             "start": 1926,
             "end": 1960,
-            "value": "globalThis.constructor is Object",
-            "raw": "'globalThis.constructor is Object'"
+            "value": "globalThis.constructor is Object"
           }
         ],
         "optional": false

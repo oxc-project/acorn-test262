@@ -67,8 +67,7 @@
                         "type": "Literal",
                         "start": 715,
                         "end": 717,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -85,7 +84,6 @@
                         "start": 727,
                         "end": 730,
                         "value": {},
-                        "raw": "/a/",
                         "regex": {
                           "pattern": "a",
                           "flags": ""
@@ -166,8 +164,7 @@
                         "type": "Literal",
                         "start": 778,
                         "end": 780,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -184,7 +181,6 @@
                         "start": 790,
                         "end": 794,
                         "value": {},
-                        "raw": "/a/i",
                         "regex": {
                           "pattern": "a",
                           "flags": "i"
@@ -265,8 +261,7 @@
                         "type": "Literal",
                         "start": 842,
                         "end": 844,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -283,7 +278,6 @@
                         "start": 854,
                         "end": 858,
                         "value": {},
-                        "raw": "/a/m",
                         "regex": {
                           "pattern": "a",
                           "flags": "m"
@@ -364,8 +358,7 @@
                         "type": "Literal",
                         "start": 906,
                         "end": 908,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -382,7 +375,6 @@
                         "start": 918,
                         "end": 922,
                         "value": {},
-                        "raw": "/a/u",
                         "regex": {
                           "pattern": "a",
                           "flags": "u"
@@ -463,8 +455,7 @@
                         "type": "Literal",
                         "start": 970,
                         "end": 972,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -481,7 +472,6 @@
                         "start": 982,
                         "end": 986,
                         "value": {},
-                        "raw": "/a/y",
                         "regex": {
                           "pattern": "a",
                           "flags": "y"
@@ -518,7 +508,6 @@
             "start": 1006,
             "end": 1009,
             "value": {},
-            "raw": "/a/",
             "regex": {
               "pattern": "a",
               "flags": ""
@@ -566,8 +555,7 @@
             "type": "Literal",
             "start": 1040,
             "end": 1047,
-            "value": "flags",
-            "raw": "'flags'"
+            "value": "flags"
           },
           {
             "type": "ObjectExpression",
@@ -591,8 +579,7 @@
                   "type": "Literal",
                   "start": 1060,
                   "end": 1066,
-                  "value": "muyi",
-                  "raw": "'muyi'"
+                  "value": "muyi"
                 },
                 "kind": "init"
               }
@@ -666,8 +653,7 @@
                         "type": "Literal",
                         "start": 1113,
                         "end": 1115,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",

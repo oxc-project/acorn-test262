@@ -37,8 +37,7 @@
                     "type": "Literal",
                     "start": 394,
                     "end": 395,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -67,8 +66,7 @@
                     "type": "Literal",
                     "start": 423,
                     "end": 471,
-                    "value": "#1.1: new Array(-1) throw RangeError. Actual: ",
-                    "raw": "'#1.1: new Array(-1) throw RangeError. Actual: '"
+                    "value": "#1.1: new Array(-1) throw RangeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -96,8 +94,7 @@
                             "type": "Literal",
                             "start": 486,
                             "end": 487,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       ]
@@ -181,8 +178,7 @@
                     "type": "Literal",
                     "start": 569,
                     "end": 644,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
                   }
                 ],
                 "optional": false
@@ -221,8 +217,7 @@
                   "type": "Literal",
                   "start": 671,
                   "end": 681,
-                  "value": 4294967296,
-                  "raw": "4294967296"
+                  "value": 4294967296
                 }
               ]
             }
@@ -250,8 +245,7 @@
                     "type": "Literal",
                     "start": 709,
                     "end": 765,
-                    "value": "#2.1: new Array(4294967296) throw RangeError. Actual: ",
-                    "raw": "'#2.1: new Array(4294967296) throw RangeError. Actual: '"
+                    "value": "#2.1: new Array(4294967296) throw RangeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -273,8 +267,7 @@
                           "type": "Literal",
                           "start": 779,
                           "end": 789,
-                          "value": 4294967296,
-                          "raw": "4294967296"
+                          "value": 4294967296
                         }
                       ]
                     }
@@ -357,8 +350,7 @@
                     "type": "Literal",
                     "start": 871,
                     "end": 946,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
                   }
                 ],
                 "optional": false
@@ -397,8 +389,7 @@
                   "type": "Literal",
                   "start": 973,
                   "end": 983,
-                  "value": 4294967297,
-                  "raw": "4294967297"
+                  "value": 4294967297
                 }
               ]
             }
@@ -426,8 +417,7 @@
                     "type": "Literal",
                     "start": 1011,
                     "end": 1067,
-                    "value": "#3.1: new Array(4294967297) throw RangeError. Actual: ",
-                    "raw": "'#3.1: new Array(4294967297) throw RangeError. Actual: '"
+                    "value": "#3.1: new Array(4294967297) throw RangeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -449,8 +439,7 @@
                           "type": "Literal",
                           "start": 1081,
                           "end": 1091,
-                          "value": 4294967297,
-                          "raw": "4294967297"
+                          "value": 4294967297
                         }
                       ]
                     }
@@ -533,8 +522,7 @@
                     "type": "Literal",
                     "start": 1173,
                     "end": 1248,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
                   }
                 ],
                 "optional": false

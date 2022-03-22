@@ -94,8 +94,7 @@
                   "type": "Literal",
                   "start": 727,
                   "end": 735,
-                  "value": "buffer",
-                  "raw": "\"buffer\""
+                  "value": "buffer"
                 }
               ],
               "optional": false
@@ -179,8 +178,7 @@
                             "type": "Literal",
                             "start": 809,
                             "end": 810,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           }
                         ]
                       }
@@ -350,8 +348,7 @@
                         "type": "Literal",
                         "start": 934,
                         "end": 973,
-                        "value": "Internal slot should not be inherited",
-                        "raw": "\"Internal slot should not be inherited\""
+                        "value": "Internal slot should not be inherited"
                       }
                     ],
                     "optional": false

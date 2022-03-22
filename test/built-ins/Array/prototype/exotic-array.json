@@ -39,8 +39,7 @@
             "type": "Literal",
             "start": 509,
             "end": 510,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -49,8 +48,7 @@
           "type": "Literal",
           "start": 514,
           "end": 516,
-          "value": 42,
-          "raw": "42"
+          "value": 42
         }
       }
     },
@@ -118,8 +116,7 @@
             "type": "Literal",
             "start": 560,
             "end": 561,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -180,8 +177,7 @@
               "type": "Literal",
               "start": 597,
               "end": 598,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -196,8 +192,7 @@
             "type": "Literal",
             "start": 612,
             "end": 632,
-            "value": "Array.prototype[0]",
-            "raw": "'Array.prototype[0]'"
+            "value": "Array.prototype[0]"
           }
         ],
         "optional": false
@@ -258,8 +253,7 @@
               "type": "Literal",
               "start": 668,
               "end": 669,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -274,8 +268,7 @@
             "type": "Literal",
             "start": 683,
             "end": 703,
-            "value": "Array.prototype[1]",
-            "raw": "'Array.prototype[1]'"
+            "value": "Array.prototype[1]"
           }
         ],
         "optional": false
@@ -336,8 +329,7 @@
               "type": "Literal",
               "start": 739,
               "end": 740,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -346,15 +338,13 @@
             "type": "Literal",
             "start": 743,
             "end": 745,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 767,
-            "value": "Array.prototype[2]",
-            "raw": "'Array.prototype[2]'"
+            "value": "Array.prototype[2]"
           }
         ],
         "optional": false
@@ -451,8 +441,7 @@
             "type": "Literal",
             "start": 823,
             "end": 839,
-            "value": "[object Array]",
-            "raw": "'[object Array]'"
+            "value": "[object Array]"
           }
         ],
         "optional": false

@@ -95,8 +95,7 @@
                         "type": "Literal",
                         "start": 347,
                         "end": 377,
-                        "value": "'use strict'; var arguments;",
-                        "raw": "\"'use strict'; var arguments;\""
+                        "value": "'use strict'; var arguments;"
                       }
                     ],
                     "optional": false

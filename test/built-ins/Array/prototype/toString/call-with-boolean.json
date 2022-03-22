@@ -95,15 +95,13 @@
             "type": "Literal",
             "start": 304,
             "end": 322,
-            "value": "[object Boolean]",
-            "raw": "\"[object Boolean]\""
+            "value": "[object Boolean]"
           },
           {
             "type": "Literal",
             "start": 326,
             "end": 394,
-            "value": "Array.prototype.toString.call(true) must return \"[object Boolean]\"",
-            "raw": "'Array.prototype.toString.call(true) must return \"[object Boolean]\"'"
+            "value": "Array.prototype.toString.call(true) must return \"[object Boolean]\""
           }
         ],
         "optional": false
@@ -201,15 +199,13 @@
             "type": "Literal",
             "start": 458,
             "end": 476,
-            "value": "[object Boolean]",
-            "raw": "\"[object Boolean]\""
+            "value": "[object Boolean]"
           },
           {
             "type": "Literal",
             "start": 480,
             "end": 549,
-            "value": "Array.prototype.toString.call(false) must return \"[object Boolean]\"",
-            "raw": "'Array.prototype.toString.call(false) must return \"[object Boolean]\"'"
+            "value": "Array.prototype.toString.call(false) must return \"[object Boolean]\""
           }
         ],
         "optional": false

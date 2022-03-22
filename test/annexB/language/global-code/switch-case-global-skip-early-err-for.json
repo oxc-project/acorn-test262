@@ -69,8 +69,7 @@
             "type": "Literal",
             "start": 770,
             "end": 829,
-            "value": "An initialized binding is not created prior to evaluation",
-            "raw": "'An initialized binding is not created prior to evaluation'"
+            "value": "An initialized binding is not created prior to evaluation"
           }
         ],
         "optional": false
@@ -121,15 +120,13 @@
             "type": "Literal",
             "start": 864,
             "end": 875,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 879,
             "end": 940,
-            "value": "An uninitialized binding is not created prior to evaluation",
-            "raw": "'An uninitialized binding is not created prior to evaluation'"
+            "value": "An uninitialized binding is not created prior to evaluation"
           }
         ],
         "optional": false
@@ -174,8 +171,7 @@
               "type": "Literal",
               "start": 972,
               "end": 973,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "cases": [
               {
@@ -209,8 +205,7 @@
                   "type": "Literal",
                   "start": 984,
                   "end": 985,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ]
@@ -290,8 +285,7 @@
             "type": "Literal",
             "start": 1075,
             "end": 1135,
-            "value": "An initialized binding is not created following evaluation",
-            "raw": "'An initialized binding is not created following evaluation'"
+            "value": "An initialized binding is not created following evaluation"
           }
         ],
         "optional": false
@@ -342,15 +336,13 @@
             "type": "Literal",
             "start": 1170,
             "end": 1181,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 1185,
             "end": 1247,
-            "value": "An uninitialized binding is not created following evaluation",
-            "raw": "'An uninitialized binding is not created following evaluation'"
+            "value": "An uninitialized binding is not created following evaluation"
           }
         ],
         "optional": false

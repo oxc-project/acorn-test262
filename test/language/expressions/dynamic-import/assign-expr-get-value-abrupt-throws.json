@@ -70,8 +70,7 @@
                               "type": "Literal",
                               "start": 1009,
                               "end": 1037,
-                              "value": "catpure this on evaluation",
-                              "raw": "'catpure this on evaluation'"
+                              "value": "catpure this on evaluation"
                             }
                           ]
                         }
@@ -170,8 +169,7 @@
             "type": "Literal",
             "start": 1113,
             "end": 1150,
-            "value": "Custom Error getting property value",
-            "raw": "'Custom Error getting property value'"
+            "value": "Custom Error getting property value"
           }
         ],
         "optional": false
@@ -248,8 +246,7 @@
             "type": "Literal",
             "start": 1220,
             "end": 1235,
-            "value": "bad reference",
-            "raw": "'bad reference'"
+            "value": "bad reference"
           }
         ],
         "optional": false

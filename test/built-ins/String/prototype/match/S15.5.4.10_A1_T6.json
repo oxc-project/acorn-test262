@@ -41,8 +41,7 @@
                     "type": "Literal",
                     "start": 354,
                     "end": 365,
-                    "value": "undefined",
-                    "raw": "\"undefined\""
+                    "value": "undefined"
                   }
                 ]
               },
@@ -126,8 +125,7 @@
                 "type": "Literal",
                 "start": 410,
                 "end": 421,
-                "value": "undefined",
-                "raw": "\"undefined\""
+                "value": "undefined"
               }
             ],
             "optional": false
@@ -212,8 +210,7 @@
                     "type": "Literal",
                     "start": 585,
                     "end": 727,
-                    "value": "#1: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.length === __expected.length. Actual: ",
-                    "raw": "'#1: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.length === __expected.length. Actual: '"
+                    "value": "#1: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.length === __expected.length. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -319,8 +316,7 @@
                     "type": "Literal",
                     "start": 992,
                     "end": 1132,
-                    "value": "#2: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.index === __expected.index. Actual: ",
-                    "raw": "'#2: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.index === __expected.index. Actual: '"
+                    "value": "#2: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.index === __expected.index. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -426,8 +422,7 @@
                     "type": "Literal",
                     "start": 1396,
                     "end": 1536,
-                    "value": "#3: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.input === __expected.input. Actual: ",
-                    "raw": "'#3: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.input === __expected.input. Actual: '"
+                    "value": "#3: __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched.input === __expected.input. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -480,8 +475,7 @@
               "type": "Literal",
               "start": 1748,
               "end": 1749,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -636,8 +630,7 @@
                                       "type": "Literal",
                                       "start": 1864,
                                       "end": 1869,
-                                      "value": "#4.",
-                                      "raw": "'#4.'"
+                                      "value": "#4."
                                     },
                                     "operator": "+",
                                     "right": {
@@ -652,8 +645,7 @@
                                     "type": "Literal",
                                     "start": 1880,
                                     "end": 1982,
-                                    "value": ": __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched[",
-                                    "raw": "': __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched['"
+                                    "value": ": __matched = new String(\"undefined\").match(x); __expected = RegExp(x).exec(\"undefined\"); __matched["
                                   }
                                 },
                                 "operator": "+",
@@ -669,8 +661,7 @@
                                 "type": "Literal",
                                 "start": 1993,
                                 "end": 2010,
-                                "value": "]===__expected[",
-                                "raw": "']===__expected['"
+                                "value": "]===__expected["
                               }
                             },
                             "operator": "+",
@@ -686,8 +677,7 @@
                             "type": "Literal",
                             "start": 2021,
                             "end": 2034,
-                            "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "value": "]. Actual: "
                           }
                         },
                         "operator": "+",

@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 408,
                             "end": 417,
-                            "value": "indexOf",
-                            "raw": "\"indexOf\""
+                            "value": "indexOf"
                           }
                         ],
                         "optional": false

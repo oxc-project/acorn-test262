@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 634,
             "end": 641,
-            "value": "slice",
-            "raw": "'slice'"
+            "value": "slice"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
             "type": "Literal",
             "start": 680,
             "end": 687,
-            "value": "slice",
-            "raw": "'slice'"
+            "value": "slice"
           }
         ],
         "optional": false
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 730,
             "end": 737,
-            "value": "slice",
-            "raw": "'slice'"
+            "value": "slice"
           }
         ],
         "optional": false

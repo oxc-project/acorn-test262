@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 832,
                       "end": 833,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -146,8 +145,7 @@
                               "type": "Literal",
                               "start": 916,
                               "end": 947,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -242,8 +240,7 @@
                               "type": "Literal",
                               "start": 1052,
                               "end": 1099,
-                              "value": "passing a poisoned object using @@ToPrimitive",
-                              "raw": "\"passing a poisoned object using @@ToPrimitive\""
+                              "value": "passing a poisoned object using @@ToPrimitive"
                             }
                           ]
                         }
@@ -364,8 +361,7 @@
             "type": "Literal",
             "start": 1212,
             "end": 1290,
-            "value": "`Atomics.notify(i32a, poisonedValueOf, poisonedValueOf)` throws Test262Error",
-            "raw": "'`Atomics.notify(i32a, poisonedValueOf, poisonedValueOf)` throws Test262Error'"
+            "value": "`Atomics.notify(i32a, poisonedValueOf, poisonedValueOf)` throws Test262Error"
           }
         ],
         "optional": false
@@ -476,8 +472,7 @@
             "type": "Literal",
             "start": 1404,
             "end": 1490,
-            "value": "`Atomics.notify(i32a, poisonedToPrimitive, poisonedToPrimitive)` throws Test262Error",
-            "raw": "'`Atomics.notify(i32a, poisonedToPrimitive, poisonedToPrimitive)` throws Test262Error'"
+            "value": "`Atomics.notify(i32a, poisonedToPrimitive, poisonedToPrimitive)` throws Test262Error"
           }
         ],
         "optional": false
@@ -580,8 +575,7 @@
                             "type": "Literal",
                             "start": 1562,
                             "end": 1567,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -603,8 +597,7 @@
             "type": "Literal",
             "start": 1591,
             "end": 1664,
-            "value": "`Atomics.notify(i32a, Symbol(\"foo\"), poisonedValueOf)` throws TypeError",
-            "raw": "'`Atomics.notify(i32a, Symbol(\"foo\"), poisonedValueOf)` throws TypeError'"
+            "value": "`Atomics.notify(i32a, Symbol(\"foo\"), poisonedValueOf)` throws TypeError"
           }
         ],
         "optional": false
@@ -707,8 +700,7 @@
                             "type": "Literal",
                             "start": 1736,
                             "end": 1741,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -730,8 +722,7 @@
             "type": "Literal",
             "start": 1769,
             "end": 1846,
-            "value": "`Atomics.notify(i32a, Symbol(\"foo\"), poisonedToPrimitive)` throws TypeError",
-            "raw": "'`Atomics.notify(i32a, Symbol(\"foo\"), poisonedToPrimitive)` throws TypeError'"
+            "value": "`Atomics.notify(i32a, Symbol(\"foo\"), poisonedToPrimitive)` throws TypeError"
           }
         ],
         "optional": false

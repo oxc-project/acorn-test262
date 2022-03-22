@@ -31,7 +31,6 @@
                 "start": 450,
                 "end": 454,
                 "value": {},
-                "raw": "/[]/",
                 "regex": {
                   "pattern": "[]",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 460,
                 "end": 474,
-                "value": "a[b\n[]\tc]d",
-                "raw": "\"a[b\\n[]\\tc]d\""
+                "value": "a[b\n[]\tc]d"
               }
             ],
             "optional": false
@@ -106,8 +104,7 @@
             "type": "Literal",
             "start": 513,
             "end": 561,
-            "value": "The value of __executed is expected to be null",
-            "raw": "'The value of __executed is expected to be null'"
+            "value": "The value of __executed is expected to be null"
           }
         ],
         "optional": false

@@ -11,8 +11,7 @@
         "type": "Literal",
         "start": 408,
         "end": 409,
-        "value": 0,
-        "raw": "0"
+        "value": 0
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -33,8 +32,7 @@
               "type": "Literal",
               "start": 435,
               "end": 479,
-              "value": "#1: 0 in expression is evaluated to false ",
-              "raw": "'#1: 0 in expression is evaluated to false '"
+              "value": "#1: 0 in expression is evaluated to false "
             }
           ]
         }
@@ -71,8 +69,7 @@
               "type": "Literal",
               "start": 691,
               "end": 739,
-              "value": "#2: false in expression is evaluated to false ",
-              "raw": "'#2: false in expression is evaluated to false '"
+              "value": "#2: false in expression is evaluated to false "
             }
           ]
         }
@@ -109,8 +106,7 @@
               "type": "Literal",
               "start": 947,
               "end": 994,
-              "value": "#3: null in expression is evaluated to false ",
-              "raw": "'#3: null in expression is evaluated to false '"
+              "value": "#3: null in expression is evaluated to false "
             }
           ]
         }
@@ -146,8 +142,7 @@
               "type": "Literal",
               "start": 1207,
               "end": 1259,
-              "value": "#4: undefined in expression is evaluated to false ",
-              "raw": "'#4: undefined in expression is evaluated to false '"
+              "value": "#4: undefined in expression is evaluated to false "
             }
           ]
         }
@@ -162,8 +157,7 @@
         "type": "Literal",
         "start": 1437,
         "end": 1439,
-        "value": "",
-        "raw": "\"\""
+        "value": ""
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -184,8 +178,7 @@
               "type": "Literal",
               "start": 1468,
               "end": 1523,
-              "value": "#5: empty string in expression is evaluated to false ",
-              "raw": "'#5: empty string in expression is evaluated to false '"
+              "value": "#5: empty string in expression is evaluated to false "
             }
           ]
         }
@@ -221,8 +214,7 @@
               "type": "Literal",
               "start": 1733,
               "end": 1779,
-              "value": "#5: NaN in expression is evaluated to false ",
-              "raw": "'#5: NaN in expression is evaluated to false '"
+              "value": "#5: NaN in expression is evaluated to false "
             }
           ]
         }

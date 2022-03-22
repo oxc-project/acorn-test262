@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 841,
                 "end": 867,
-                "value": "1; for (var a in {}) { }",
-                "raw": "'1; for (var a in {}) { }'"
+                "value": "1; for (var a in {}) { }"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 904,
                 "end": 933,
-                "value": "2; for (var b in {}) { 3; }",
-                "raw": "'2; for (var b in {}) { 3; }'"
+                "value": "2; for (var b in {}) { 3; }"
               }
             ],
             "optional": false

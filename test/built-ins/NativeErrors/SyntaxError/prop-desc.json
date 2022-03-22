@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 516,
             "end": 529,
-            "value": "SyntaxError",
-            "raw": "\"SyntaxError\""
+            "value": "SyntaxError"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 553,
             "end": 566,
-            "value": "SyntaxError",
-            "raw": "\"SyntaxError\""
+            "value": "SyntaxError"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 594,
             "end": 607,
-            "value": "SyntaxError",
-            "raw": "\"SyntaxError\""
+            "value": "SyntaxError"
           }
         ],
         "optional": false

@@ -27,36 +27,31 @@
                 "type": "Literal",
                 "start": 1855,
                 "end": 1856,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 1858,
                 "end": 1859,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 1861,
                 "end": 1862,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 1864,
                 "end": 1865,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 1867,
                 "end": 1868,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -83,8 +78,7 @@
             "type": "Literal",
             "start": 1888,
             "end": 1889,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -244,8 +238,7 @@
                   "type": "Literal",
                   "start": 1983,
                   "end": 1984,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 }
               ],
               "optional": false
@@ -293,8 +286,7 @@
                     "type": "Literal",
                     "start": 2008,
                     "end": 2009,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -303,8 +295,7 @@
                   "type": "Literal",
                   "start": 2012,
                   "end": 2013,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 }
               ],
               "optional": false
@@ -352,8 +343,7 @@
                     "type": "Literal",
                     "start": 2037,
                     "end": 2038,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   "computed": true,
                   "optional": false
@@ -362,8 +352,7 @@
                   "type": "Literal",
                   "start": 2041,
                   "end": 2042,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 }
               ],
               "optional": false
@@ -411,8 +400,7 @@
                     "type": "Literal",
                     "start": 2066,
                     "end": 2067,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   "computed": true,
                   "optional": false
@@ -421,8 +409,7 @@
                   "type": "Literal",
                   "start": 2070,
                   "end": 2071,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               ],
               "optional": false
@@ -502,8 +489,7 @@
                   "type": "Literal",
                   "start": 2134,
                   "end": 2135,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -572,15 +558,13 @@
             "type": "Literal",
             "start": 2173,
             "end": 2174,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2176,
             "end": 2207,
-            "value": "function invoked exactly once",
-            "raw": "'function invoked exactly once'"
+            "value": "function invoked exactly once"
           }
         ],
         "optional": false

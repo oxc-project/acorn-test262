@@ -55,15 +55,13 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 360,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 362,
                   "end": 368,
-                  "value": "zero",
-                  "raw": "\"zero\""
+                  "value": "zero"
                 },
                 "kind": "init"
               },
@@ -78,15 +76,13 @@
                   "type": "Literal",
                   "start": 389,
                   "end": 390,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Literal",
                   "start": 392,
                   "end": 397,
-                  "value": "two",
-                  "raw": "\"two\""
+                  "value": "two"
                 },
                 "kind": "init"
               },
@@ -101,8 +97,7 @@
                   "type": "Literal",
                   "start": 423,
                   "end": 424,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "kind": "get",
                 "value": {
@@ -151,15 +146,13 @@
                   "type": "Literal",
                   "start": 466,
                   "end": 482,
-                  "value": 9007199254740987,
-                  "raw": "9007199254740987"
+                  "value": 9007199254740987
                 },
                 "value": {
                   "type": "Literal",
                   "start": 484,
                   "end": 493,
-                  "value": "2**53-5",
-                  "raw": "\"2**53-5\""
+                  "value": "2**53-5"
                 },
                 "kind": "init"
               },
@@ -174,15 +167,13 @@
                   "type": "Literal",
                   "start": 561,
                   "end": 577,
-                  "value": 9007199254740990,
-                  "raw": "9007199254740990"
+                  "value": 9007199254740990
                 },
                 "value": {
                   "type": "Literal",
                   "start": 579,
                   "end": 588,
-                  "value": "2**53-2",
-                  "raw": "\"2**53-2\""
+                  "value": "2**53-2"
                 },
                 "kind": "init"
               },
@@ -211,16 +202,14 @@
                       "type": "Literal",
                       "start": 601,
                       "end": 602,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "operator": "**",
                     "right": {
                       "type": "Literal",
                       "start": 606,
                       "end": 608,
-                      "value": 53,
-                      "raw": "53"
+                      "value": 53
                     }
                   },
                   "operator": "+",
@@ -228,8 +217,7 @@
                     "type": "Literal",
                     "start": 611,
                     "end": 612,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 },
                 "kind": "init"
@@ -1511,8 +1499,7 @@
             "type": "Literal",
             "start": 1564,
             "end": 1632,
-            "value": "Array.prototype.reverse.call(proxy) throws a StopReverse exception",
-            "raw": "'Array.prototype.reverse.call(proxy) throws a StopReverse exception'"
+            "value": "Array.prototype.reverse.call(proxy) throws a StopReverse exception"
           }
         ],
         "optional": false
@@ -1561,204 +1548,175 @@
                 "type": "Literal",
                 "start": 1702,
                 "end": 1714,
-                "value": "Get:length",
-                "raw": "\"Get:length\""
+                "value": "Get:length"
               },
               {
                 "type": "Literal",
                 "start": 1764,
                 "end": 1771,
-                "value": "Has:0",
-                "raw": "\"Has:0\""
+                "value": "Has:0"
               },
               {
                 "type": "Literal",
                 "start": 1775,
                 "end": 1782,
-                "value": "Get:0",
-                "raw": "\"Get:0\""
+                "value": "Get:0"
               },
               {
                 "type": "Literal",
                 "start": 1786,
                 "end": 1808,
-                "value": "Has:9007199254740990",
-                "raw": "\"Has:9007199254740990\""
+                "value": "Has:9007199254740990"
               },
               {
                 "type": "Literal",
                 "start": 1812,
                 "end": 1834,
-                "value": "Get:9007199254740990",
-                "raw": "\"Get:9007199254740990\""
+                "value": "Get:9007199254740990"
               },
               {
                 "type": "Literal",
                 "start": 1838,
                 "end": 1845,
-                "value": "Set:0",
-                "raw": "\"Set:0\""
+                "value": "Set:0"
               },
               {
                 "type": "Literal",
                 "start": 1849,
                 "end": 1877,
-                "value": "GetOwnPropertyDescriptor:0",
-                "raw": "\"GetOwnPropertyDescriptor:0\""
+                "value": "GetOwnPropertyDescriptor:0"
               },
               {
                 "type": "Literal",
                 "start": 1881,
                 "end": 1899,
-                "value": "DefineProperty:0",
-                "raw": "\"DefineProperty:0\""
+                "value": "DefineProperty:0"
               },
               {
                 "type": "Literal",
                 "start": 1903,
                 "end": 1925,
-                "value": "Set:9007199254740990",
-                "raw": "\"Set:9007199254740990\""
+                "value": "Set:9007199254740990"
               },
               {
                 "type": "Literal",
                 "start": 1929,
                 "end": 1972,
-                "value": "GetOwnPropertyDescriptor:9007199254740990",
-                "raw": "\"GetOwnPropertyDescriptor:9007199254740990\""
+                "value": "GetOwnPropertyDescriptor:9007199254740990"
               },
               {
                 "type": "Literal",
                 "start": 1976,
                 "end": 2009,
-                "value": "DefineProperty:9007199254740990",
-                "raw": "\"DefineProperty:9007199254740990\""
+                "value": "DefineProperty:9007199254740990"
               },
               {
                 "type": "Literal",
                 "start": 2058,
                 "end": 2065,
-                "value": "Has:1",
-                "raw": "\"Has:1\""
+                "value": "Has:1"
               },
               {
                 "type": "Literal",
                 "start": 2069,
                 "end": 2091,
-                "value": "Has:9007199254740989",
-                "raw": "\"Has:9007199254740989\""
+                "value": "Has:9007199254740989"
               },
               {
                 "type": "Literal",
                 "start": 2148,
                 "end": 2155,
-                "value": "Has:2",
-                "raw": "\"Has:2\""
+                "value": "Has:2"
               },
               {
                 "type": "Literal",
                 "start": 2159,
                 "end": 2166,
-                "value": "Get:2",
-                "raw": "\"Get:2\""
+                "value": "Get:2"
               },
               {
                 "type": "Literal",
                 "start": 2170,
                 "end": 2192,
-                "value": "Has:9007199254740988",
-                "raw": "\"Has:9007199254740988\""
+                "value": "Has:9007199254740988"
               },
               {
                 "type": "Literal",
                 "start": 2196,
                 "end": 2206,
-                "value": "Delete:2",
-                "raw": "\"Delete:2\""
+                "value": "Delete:2"
               },
               {
                 "type": "Literal",
                 "start": 2210,
                 "end": 2232,
-                "value": "Set:9007199254740988",
-                "raw": "\"Set:9007199254740988\""
+                "value": "Set:9007199254740988"
               },
               {
                 "type": "Literal",
                 "start": 2236,
                 "end": 2279,
-                "value": "GetOwnPropertyDescriptor:9007199254740988",
-                "raw": "\"GetOwnPropertyDescriptor:9007199254740988\""
+                "value": "GetOwnPropertyDescriptor:9007199254740988"
               },
               {
                 "type": "Literal",
                 "start": 2283,
                 "end": 2316,
-                "value": "DefineProperty:9007199254740988",
-                "raw": "\"DefineProperty:9007199254740988\""
+                "value": "DefineProperty:9007199254740988"
               },
               {
                 "type": "Literal",
                 "start": 2373,
                 "end": 2380,
-                "value": "Has:3",
-                "raw": "\"Has:3\""
+                "value": "Has:3"
               },
               {
                 "type": "Literal",
                 "start": 2384,
                 "end": 2406,
-                "value": "Has:9007199254740987",
-                "raw": "\"Has:9007199254740987\""
+                "value": "Has:9007199254740987"
               },
               {
                 "type": "Literal",
                 "start": 2410,
                 "end": 2432,
-                "value": "Get:9007199254740987",
-                "raw": "\"Get:9007199254740987\""
+                "value": "Get:9007199254740987"
               },
               {
                 "type": "Literal",
                 "start": 2436,
                 "end": 2443,
-                "value": "Set:3",
-                "raw": "\"Set:3\""
+                "value": "Set:3"
               },
               {
                 "type": "Literal",
                 "start": 2447,
                 "end": 2475,
-                "value": "GetOwnPropertyDescriptor:3",
-                "raw": "\"GetOwnPropertyDescriptor:3\""
+                "value": "GetOwnPropertyDescriptor:3"
               },
               {
                 "type": "Literal",
                 "start": 2479,
                 "end": 2497,
-                "value": "DefineProperty:3",
-                "raw": "\"DefineProperty:3\""
+                "value": "DefineProperty:3"
               },
               {
                 "type": "Literal",
                 "start": 2501,
                 "end": 2526,
-                "value": "Delete:9007199254740987",
-                "raw": "\"Delete:9007199254740987\""
+                "value": "Delete:9007199254740987"
               },
               {
                 "type": "Literal",
                 "start": 2552,
                 "end": 2559,
-                "value": "Has:4",
-                "raw": "\"Has:4\""
+                "value": "Has:4"
               },
               {
                 "type": "Literal",
                 "start": 2563,
                 "end": 2570,
-                "value": "Get:4",
-                "raw": "\"Get:4\""
+                "value": "Get:4"
               }
             ]
           },
@@ -1766,8 +1724,7 @@
             "type": "Literal",
             "start": 2575,
             "end": 3565,
-            "value": "The value of traps is expected to be [\n  // Initial get length operation.\n  \"Get:length\",\n\n  // Lower and upper index are both present.\n  \"Has:0\",\n  \"Get:0\",\n  \"Has:9007199254740990\",\n  \"Get:9007199254740990\",\n  \"Set:0\",\n  \"GetOwnPropertyDescriptor:0\",\n  \"DefineProperty:0\",\n  \"Set:9007199254740990\",\n  \"GetOwnPropertyDescriptor:9007199254740990\",\n  \"DefineProperty:9007199254740990\",\n\n  // Lower and upper index are both absent.\n  \"Has:1\",\n  \"Has:9007199254740989\",\n\n  // Lower index is present, upper index is absent.\n  \"Has:2\",\n  \"Get:2\",\n  \"Has:9007199254740988\",\n  \"Delete:2\",\n  \"Set:9007199254740988\",\n  \"GetOwnPropertyDescriptor:9007199254740988\",\n  \"DefineProperty:9007199254740988\",\n\n  // Lower index is absent, upper index is present.\n  \"Has:3\",\n  \"Has:9007199254740987\",\n  \"Get:9007199254740987\",\n  \"Set:3\",\n  \"GetOwnPropertyDescriptor:3\",\n  \"DefineProperty:3\",\n  \"Delete:9007199254740987\",\n\n  // Stop exception.\n  \"Has:4\",\n  \"Get:4\",\n]",
-            "raw": "'The value of traps is expected to be [\\n  // Initial get length operation.\\n  \"Get:length\",\\n\\n  // Lower and upper index are both present.\\n  \"Has:0\",\\n  \"Get:0\",\\n  \"Has:9007199254740990\",\\n  \"Get:9007199254740990\",\\n  \"Set:0\",\\n  \"GetOwnPropertyDescriptor:0\",\\n  \"DefineProperty:0\",\\n  \"Set:9007199254740990\",\\n  \"GetOwnPropertyDescriptor:9007199254740990\",\\n  \"DefineProperty:9007199254740990\",\\n\\n  // Lower and upper index are both absent.\\n  \"Has:1\",\\n  \"Has:9007199254740989\",\\n\\n  // Lower index is present, upper index is absent.\\n  \"Has:2\",\\n  \"Get:2\",\\n  \"Has:9007199254740988\",\\n  \"Delete:2\",\\n  \"Set:9007199254740988\",\\n  \"GetOwnPropertyDescriptor:9007199254740988\",\\n  \"DefineProperty:9007199254740988\",\\n\\n  // Lower index is absent, upper index is present.\\n  \"Has:3\",\\n  \"Has:9007199254740987\",\\n  \"Get:9007199254740987\",\\n  \"Set:3\",\\n  \"GetOwnPropertyDescriptor:3\",\\n  \"DefineProperty:3\",\\n  \"Delete:9007199254740987\",\\n\\n  // Stop exception.\\n  \"Has:4\",\\n  \"Get:4\",\\n]'"
+            "value": "The value of traps is expected to be [\n  // Initial get length operation.\n  \"Get:length\",\n\n  // Lower and upper index are both present.\n  \"Has:0\",\n  \"Get:0\",\n  \"Has:9007199254740990\",\n  \"Get:9007199254740990\",\n  \"Set:0\",\n  \"GetOwnPropertyDescriptor:0\",\n  \"DefineProperty:0\",\n  \"Set:9007199254740990\",\n  \"GetOwnPropertyDescriptor:9007199254740990\",\n  \"DefineProperty:9007199254740990\",\n\n  // Lower and upper index are both absent.\n  \"Has:1\",\n  \"Has:9007199254740989\",\n\n  // Lower index is present, upper index is absent.\n  \"Has:2\",\n  \"Get:2\",\n  \"Has:9007199254740988\",\n  \"Delete:2\",\n  \"Set:9007199254740988\",\n  \"GetOwnPropertyDescriptor:9007199254740988\",\n  \"DefineProperty:9007199254740988\",\n\n  // Lower index is absent, upper index is present.\n  \"Has:3\",\n  \"Has:9007199254740987\",\n  \"Get:9007199254740987\",\n  \"Set:3\",\n  \"GetOwnPropertyDescriptor:3\",\n  \"DefineProperty:3\",\n  \"Delete:9007199254740987\",\n\n  // Stop exception.\n  \"Has:4\",\n  \"Get:4\",\n]"
           }
         ],
         "optional": false
@@ -1832,16 +1789,14 @@
                 "type": "Literal",
                 "start": 3604,
                 "end": 3605,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               "operator": "**",
               "right": {
                 "type": "Literal",
                 "start": 3609,
                 "end": 3611,
-                "value": 53,
-                "raw": "53"
+                "value": 53
               }
             },
             "operator": "+",
@@ -1849,16 +1804,14 @@
               "type": "Literal",
               "start": 3614,
               "end": 3615,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           },
           {
             "type": "Literal",
             "start": 3617,
             "end": 3678,
-            "value": "The value of arrayLike.length is expected to be 2 ** 53 + 2",
-            "raw": "'The value of arrayLike.length is expected to be 2 ** 53 + 2'"
+            "value": "The value of arrayLike.length is expected to be 2 ** 53 + 2"
           }
         ],
         "optional": false
@@ -1906,8 +1859,7 @@
               "type": "Literal",
               "start": 3709,
               "end": 3710,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -1916,15 +1868,13 @@
             "type": "Literal",
             "start": 3713,
             "end": 3722,
-            "value": "2**53-2",
-            "raw": "\"2**53-2\""
+            "value": "2**53-2"
           },
           {
             "type": "Literal",
             "start": 3724,
             "end": 3779,
-            "value": "The value of arrayLike[0] is expected to be \"2**53-2\"",
-            "raw": "'The value of arrayLike[0] is expected to be \"2**53-2\"'"
+            "value": "The value of arrayLike[0] is expected to be \"2**53-2\""
           }
         ],
         "optional": false
@@ -1966,8 +1916,7 @@
               "type": "Literal",
               "start": 3799,
               "end": 3800,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "in",
             "right": {
@@ -1988,8 +1937,7 @@
             "type": "Literal",
             "start": 3822,
             "end": 3889,
-            "value": "The result of evaluating (1 in arrayLike) is expected to be false",
-            "raw": "'The result of evaluating (1 in arrayLike) is expected to be false'"
+            "value": "The result of evaluating (1 in arrayLike) is expected to be false"
           }
         ],
         "optional": false
@@ -2031,8 +1979,7 @@
               "type": "Literal",
               "start": 3909,
               "end": 3910,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "operator": "in",
             "right": {
@@ -2053,8 +2000,7 @@
             "type": "Literal",
             "start": 3932,
             "end": 3999,
-            "value": "The result of evaluating (2 in arrayLike) is expected to be false",
-            "raw": "'The result of evaluating (2 in arrayLike) is expected to be false'"
+            "value": "The result of evaluating (2 in arrayLike) is expected to be false"
           }
         ],
         "optional": false
@@ -2102,8 +2048,7 @@
               "type": "Literal",
               "start": 4029,
               "end": 4030,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -2112,15 +2057,13 @@
             "type": "Literal",
             "start": 4033,
             "end": 4042,
-            "value": "2**53-5",
-            "raw": "\"2**53-5\""
+            "value": "2**53-5"
           },
           {
             "type": "Literal",
             "start": 4044,
             "end": 4099,
-            "value": "The value of arrayLike[3] is expected to be \"2**53-5\"",
-            "raw": "'The value of arrayLike[3] is expected to be \"2**53-5\"'"
+            "value": "The value of arrayLike[3] is expected to be \"2**53-5\""
           }
         ],
         "optional": false
@@ -2162,8 +2105,7 @@
               "type": "Literal",
               "start": 4120,
               "end": 4136,
-              "value": 9007199254740987,
-              "raw": "9007199254740987"
+              "value": 9007199254740987
             },
             "operator": "in",
             "right": {
@@ -2184,8 +2126,7 @@
             "type": "Literal",
             "start": 4158,
             "end": 4240,
-            "value": "The result of evaluating (9007199254740987 in arrayLike) is expected to be false",
-            "raw": "'The result of evaluating (9007199254740987 in arrayLike) is expected to be false'"
+            "value": "The result of evaluating (9007199254740987 in arrayLike) is expected to be false"
           }
         ],
         "optional": false
@@ -2233,8 +2174,7 @@
               "type": "Literal",
               "start": 4270,
               "end": 4286,
-              "value": 9007199254740988,
-              "raw": "9007199254740988"
+              "value": 9007199254740988
             },
             "computed": true,
             "optional": false
@@ -2243,15 +2183,13 @@
             "type": "Literal",
             "start": 4289,
             "end": 4294,
-            "value": "two",
-            "raw": "\"two\""
+            "value": "two"
           },
           {
             "type": "Literal",
             "start": 4296,
             "end": 4362,
-            "value": "The value of arrayLike[9007199254740988] is expected to be \"two\"",
-            "raw": "'The value of arrayLike[9007199254740988] is expected to be \"two\"'"
+            "value": "The value of arrayLike[9007199254740988] is expected to be \"two\""
           }
         ],
         "optional": false
@@ -2293,8 +2231,7 @@
               "type": "Literal",
               "start": 4382,
               "end": 4398,
-              "value": 9007199254740989,
-              "raw": "9007199254740989"
+              "value": 9007199254740989
             },
             "operator": "in",
             "right": {
@@ -2315,8 +2252,7 @@
             "type": "Literal",
             "start": 4420,
             "end": 4502,
-            "value": "The result of evaluating (9007199254740989 in arrayLike) is expected to be false",
-            "raw": "'The result of evaluating (9007199254740989 in arrayLike) is expected to be false'"
+            "value": "The result of evaluating (9007199254740989 in arrayLike) is expected to be false"
           }
         ],
         "optional": false
@@ -2364,8 +2300,7 @@
               "type": "Literal",
               "start": 4532,
               "end": 4548,
-              "value": 9007199254740990,
-              "raw": "9007199254740990"
+              "value": 9007199254740990
             },
             "computed": true,
             "optional": false
@@ -2374,15 +2309,13 @@
             "type": "Literal",
             "start": 4551,
             "end": 4557,
-            "value": "zero",
-            "raw": "\"zero\""
+            "value": "zero"
           },
           {
             "type": "Literal",
             "start": 4559,
             "end": 4626,
-            "value": "The value of arrayLike[9007199254740990] is expected to be \"zero\"",
-            "raw": "'The value of arrayLike[9007199254740990] is expected to be \"zero\"'"
+            "value": "The value of arrayLike[9007199254740990] is expected to be \"zero\""
           }
         ],
         "optional": false

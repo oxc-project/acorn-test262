@@ -75,8 +75,7 @@
                     "type": "Literal",
                     "start": 323,
                     "end": 359,
-                    "value": "#1: +{} === Not-a-Number. Actual: ",
-                    "raw": "'#1: +{} === Not-a-Number. Actual: '"
+                    "value": "#1: +{} === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -152,8 +151,7 @@
                         "type": "Literal",
                         "start": 414,
                         "end": 415,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   ]
@@ -200,8 +198,7 @@
                     "type": "Literal",
                     "start": 455,
                     "end": 509,
-                    "value": "#2: +function(){return 1} === Not-a-Number. Actual: ",
-                    "raw": "'#2: +function(){return 1} === Not-a-Number. Actual: '"
+                    "value": "#2: +function(){return 1} === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -236,8 +233,7 @@
                                 "type": "Literal",
                                 "start": 532,
                                 "end": 533,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           ]

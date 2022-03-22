@@ -15,8 +15,7 @@
           "type": "Literal",
           "start": 2632,
           "end": 2633,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "test": {
@@ -27,8 +26,7 @@
           "type": "Literal",
           "start": 2642,
           "end": 2643,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "update": {
@@ -39,8 +37,7 @@
           "type": "Literal",
           "start": 2651,
           "end": 2652,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "body": {
@@ -60,8 +57,7 @@
                 "type": "Literal",
                 "start": 2665,
                 "end": 2666,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -106,8 +102,7 @@
           "type": "Literal",
           "start": 2874,
           "end": 2875,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "update": {
@@ -118,8 +113,7 @@
           "type": "Literal",
           "start": 2883,
           "end": 2884,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "body": {
@@ -139,8 +133,7 @@
                 "type": "Literal",
                 "start": 2897,
                 "end": 2898,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -185,8 +178,7 @@
           "type": "Literal",
           "start": 3095,
           "end": 3096,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "update": {
@@ -197,8 +189,7 @@
           "type": "Literal",
           "start": 3104,
           "end": 3105,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "body": {
@@ -218,8 +209,7 @@
                 "type": "Literal",
                 "start": 3118,
                 "end": 3119,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },

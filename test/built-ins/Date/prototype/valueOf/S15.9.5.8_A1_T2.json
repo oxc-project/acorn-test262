@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 363,
             "end": 420,
-            "value": "The value of delete Date.prototype.valueOf is not false",
-            "raw": "'The value of delete Date.prototype.valueOf is not false'"
+            "value": "The value of delete Date.prototype.valueOf is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 465,
                   "end": 474,
-                  "value": "valueOf",
-                  "raw": "'valueOf'"
+                  "value": "valueOf"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 479,
             "end": 560,
-            "value": "The value of !Date.prototype.hasOwnProperty('valueOf') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'valueOf\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('valueOf') is expected to be true"
           }
         ],
         "optional": false

@@ -199,8 +199,7 @@
                                     "type": "Literal",
                                     "start": 632,
                                     "end": 670,
-                                    "value": "right-hand side expression evaluated",
-                                    "raw": "\"right-hand side expression evaluated\""
+                                    "value": "right-hand side expression evaluated"
                                   }
                                 ]
                               }
@@ -409,8 +408,7 @@
                                           "type": "Literal",
                                           "start": 839,
                                           "end": 863,
-                                          "value": "property key evaluated",
-                                          "raw": "\"property key evaluated\""
+                                          "value": "property key evaluated"
                                         }
                                       ]
                                     }
@@ -474,8 +472,7 @@
                                     "type": "Literal",
                                     "start": 930,
                                     "end": 968,
-                                    "value": "right-hand side expression evaluated",
-                                    "raw": "\"right-hand side expression evaluated\""
+                                    "value": "right-hand side expression evaluated"
                                   }
                                 ]
                               }

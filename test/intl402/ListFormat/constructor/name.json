@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 1092,
             "end": 1098,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 1111,
                   "end": 1123,
-                  "value": "ListFormat",
-                  "raw": "\"ListFormat\""
+                  "value": "ListFormat"
                 },
                 "kind": "init"
               },

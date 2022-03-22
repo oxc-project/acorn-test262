@@ -190,8 +190,7 @@
             "type": "Literal",
             "start": 720,
             "end": 737,
-            "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "value": "[object Object]"
           }
         ],
         "optional": false
@@ -307,8 +306,7 @@
             "type": "Literal",
             "start": 810,
             "end": 827,
-            "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "value": "[object Object]"
           }
         ],
         "optional": false

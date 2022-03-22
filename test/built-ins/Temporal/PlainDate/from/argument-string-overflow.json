@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 401,
-                "value": "get overflow",
-                "raw": "\"get overflow\""
+                "value": "get overflow"
               },
               {
                 "type": "Literal",
                 "start": 405,
                 "end": 428,
-                "value": "get overflow.toString",
-                "raw": "\"get overflow.toString\""
+                "value": "get overflow.toString"
               },
               {
                 "type": "Literal",
                 "start": 432,
                 "end": 456,
-                "value": "call overflow.toString",
-                "raw": "\"call overflow.toString\""
+                "value": "call overflow.toString"
               }
             ]
           }
@@ -155,8 +152,7 @@
                               "type": "Literal",
                               "start": 531,
                               "end": 545,
-                              "value": "get overflow",
-                              "raw": "\"get overflow\""
+                              "value": "get overflow"
                             }
                           ],
                           "optional": false
@@ -200,15 +196,13 @@
                               "type": "Literal",
                               "start": 603,
                               "end": 611,
-                              "value": "reject",
-                              "raw": "\"reject\""
+                              "value": "reject"
                             },
                             {
                               "type": "Literal",
                               "start": 613,
                               "end": 623,
-                              "value": "overflow",
-                              "raw": "\"overflow\""
+                              "value": "overflow"
                             }
                           ],
                           "optional": false
@@ -280,8 +274,7 @@
                 "type": "Literal",
                 "start": 673,
                 "end": 685,
-                "value": "2021-05-17",
-                "raw": "\"2021-05-17\""
+                "value": "2021-05-17"
               },
               {
                 "type": "Identifier",
@@ -340,8 +333,7 @@
             "type": "Literal",
             "start": 734,
             "end": 751,
-            "value": "Successful call",
-            "raw": "\"Successful call\""
+            "value": "Successful call"
           }
         ],
         "optional": false
@@ -385,29 +377,25 @@
             "type": "Literal",
             "start": 794,
             "end": 798,
-            "value": 2021,
-            "raw": "2021"
+            "value": 2021
           },
           {
             "type": "Literal",
             "start": 800,
             "end": 801,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 808,
-            "value": "M05",
-            "raw": "\"M05\""
+            "value": "M05"
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 812,
-            "value": 17,
-            "raw": "17"
+            "value": 17
           }
         ],
         "optional": false
@@ -445,8 +433,7 @@
             "type": "Literal",
             "start": 830,
             "end": 831,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "MemberExpression",
@@ -555,8 +542,7 @@
                   "type": "Literal",
                   "start": 937,
                   "end": 938,
-                  "value": 7,
-                  "raw": "7"
+                  "value": 7
                 },
                 {
                   "type": "Identifier",
@@ -616,8 +602,7 @@
             "type": "Literal",
             "start": 988,
             "end": 1002,
-            "value": "Failing call",
-            "raw": "\"Failing call\""
+            "value": "Failing call"
           }
         ],
         "optional": false

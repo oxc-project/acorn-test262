@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 564,
                 "end": 570,
-                "value": 0.12345,
-                "raw": ".12345"
+                "value": 0.12345
               }
             ]
           }
@@ -68,8 +67,7 @@
           "type": "Literal",
           "start": 683,
           "end": 691,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -100,8 +98,7 @@
                     "type": "Literal",
                     "start": 720,
                     "end": 804,
-                    "value": "#1: __str =new String(.12345); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str =new String(.12345); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "value": "#1: __str =new String(.12345); typeof __str === \"object\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -188,8 +185,7 @@
                     "type": "Literal",
                     "start": 1059,
                     "end": 1153,
-                    "value": "#1.5: __str =new String(.12345); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str =new String(.12345); __str.constructor === String. Actual: __str.constructor ==='"
+                    "value": "#1.5: __str =new String(.12345); __str.constructor === String. Actual: __str.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -238,8 +234,7 @@
           "type": "Literal",
           "start": 1363,
           "end": 1372,
-          "value": "0.12345",
-          "raw": "\"0.12345\""
+          "value": "0.12345"
         }
       },
       "consequent": {
@@ -270,8 +265,7 @@
                     "type": "Literal",
                     "start": 1401,
                     "end": 1469,
-                    "value": "#2: __str =new String(.12345); __str ==\"0.12345\". Actual: __str ==",
-                    "raw": "'#2: __str =new String(.12345); __str ==\"0.12345\". Actual: __str =='"
+                    "value": "#2: __str =new String(.12345); __str ==\"0.12345\". Actual: __str =="
                   },
                   "operator": "+",
                   "right": {
@@ -318,8 +312,7 @@
               "type": "Literal",
               "start": 1584,
               "end": 1591,
-              "value": 0.012345,
-              "raw": ".012345"
+              "value": 0.012345
             }
           ]
         }
@@ -351,8 +344,7 @@
           "type": "Literal",
           "start": 1704,
           "end": 1712,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -383,8 +375,7 @@
                     "type": "Literal",
                     "start": 1741,
                     "end": 1827,
-                    "value": "#3: __str =new  String(.012345); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#3: __str =new  String(.012345); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "value": "#3: __str =new  String(.012345); typeof __str === \"object\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -471,8 +462,7 @@
                     "type": "Literal",
                     "start": 2082,
                     "end": 2178,
-                    "value": "#3.5: __str =new  String(.012345); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#3.5: __str =new  String(.012345); __str.constructor === String. Actual: __str.constructor ==='"
+                    "value": "#3.5: __str =new  String(.012345); __str.constructor === String. Actual: __str.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -521,8 +511,7 @@
           "type": "Literal",
           "start": 2388,
           "end": 2398,
-          "value": "0.012345",
-          "raw": "\"0.012345\""
+          "value": "0.012345"
         }
       },
       "consequent": {
@@ -553,8 +542,7 @@
                     "type": "Literal",
                     "start": 2427,
                     "end": 2498,
-                    "value": "#4: __str =new  String(.012345); __str ==\"0.012345\". Actual: __str ==",
-                    "raw": "'#4: __str =new  String(.012345); __str ==\"0.012345\". Actual: __str =='"
+                    "value": "#4: __str =new  String(.012345); __str ==\"0.012345\". Actual: __str =="
                   },
                   "operator": "+",
                   "right": {
@@ -601,8 +589,7 @@
               "type": "Literal",
               "start": 2613,
               "end": 2621,
-              "value": 0.0012345,
-              "raw": ".0012345"
+              "value": 0.0012345
             }
           ]
         }
@@ -634,8 +621,7 @@
           "type": "Literal",
           "start": 2734,
           "end": 2742,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -666,8 +652,7 @@
                     "type": "Literal",
                     "start": 2771,
                     "end": 2858,
-                    "value": "#5: __str =new  String(.0012345); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#5: __str =new  String(.0012345); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "value": "#5: __str =new  String(.0012345); typeof __str === \"object\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -754,8 +739,7 @@
                     "type": "Literal",
                     "start": 3113,
                     "end": 3210,
-                    "value": "#5.5: __str =new  String(.0012345); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#5.5: __str =new  String(.0012345); __str.constructor === String. Actual: __str.constructor ==='"
+                    "value": "#5.5: __str =new  String(.0012345); __str.constructor === String. Actual: __str.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -804,8 +788,7 @@
           "type": "Literal",
           "start": 3420,
           "end": 3431,
-          "value": "0.0012345",
-          "raw": "\"0.0012345\""
+          "value": "0.0012345"
         }
       },
       "consequent": {
@@ -836,8 +819,7 @@
                     "type": "Literal",
                     "start": 3460,
                     "end": 3533,
-                    "value": "#6: __str =new  String(.0012345); __str ==\"0.0012345\". Actual: __str ==",
-                    "raw": "'#6: __str =new  String(.0012345); __str ==\"0.0012345\". Actual: __str =='"
+                    "value": "#6: __str =new  String(.0012345); __str ==\"0.0012345\". Actual: __str =="
                   },
                   "operator": "+",
                   "right": {
@@ -884,8 +866,7 @@
               "type": "Literal",
               "start": 3648,
               "end": 3660,
-              "value": 1.2345e-7,
-              "raw": ".00000012345"
+              "value": 1.2345e-7
             }
           ]
         }
@@ -917,8 +898,7 @@
           "type": "Literal",
           "start": 3773,
           "end": 3781,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -949,8 +929,7 @@
                     "type": "Literal",
                     "start": 3810,
                     "end": 3901,
-                    "value": "#7: __str =new  String(.00000012345); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#7: __str =new  String(.00000012345); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "value": "#7: __str =new  String(.00000012345); typeof __str === \"object\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -1037,8 +1016,7 @@
                     "type": "Literal",
                     "start": 4156,
                     "end": 4257,
-                    "value": "#7.5: __str =new  String(.00000012345); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#7.5: __str =new  String(.00000012345); __str.constructor === String. Actual: __str.constructor ==='"
+                    "value": "#7.5: __str =new  String(.00000012345); __str.constructor === String. Actual: __str.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -1087,8 +1065,7 @@
           "type": "Literal",
           "start": 4467,
           "end": 4478,
-          "value": "1.2345e-7",
-          "raw": "\"1.2345e-7\""
+          "value": "1.2345e-7"
         }
       },
       "consequent": {
@@ -1119,8 +1096,7 @@
                     "type": "Literal",
                     "start": 4507,
                     "end": 4584,
-                    "value": "#8: __str =new  String(.00000012345); __str ==\"1.2345e-7\". Actual: __str ==",
-                    "raw": "'#8: __str =new  String(.00000012345); __str ==\"1.2345e-7\". Actual: __str =='"
+                    "value": "#8: __str =new  String(.00000012345); __str ==\"1.2345e-7\". Actual: __str =="
                   },
                   "operator": "+",
                   "right": {

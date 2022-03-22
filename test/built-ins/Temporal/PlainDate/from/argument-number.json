@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 325,
-                "value": 19761118,
-                "raw": "19761118"
+                "value": 19761118
               }
             ],
             "optional": false
@@ -107,29 +106,25 @@
             "type": "Literal",
             "start": 368,
             "end": 372,
-            "value": 1976,
-            "raw": "1976"
+            "value": 1976
           },
           {
             "type": "Literal",
             "start": 374,
             "end": 376,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 383,
-            "value": "M11",
-            "raw": "\"M11\""
+            "value": "M11"
           },
           {
             "type": "Literal",
             "start": 385,
             "end": 387,
-            "value": 18,
-            "raw": "18"
+            "value": 18
           }
         ],
         "optional": false

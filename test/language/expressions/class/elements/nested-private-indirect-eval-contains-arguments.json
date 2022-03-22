@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 638,
             "end": 639,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -56,13 +55,12 @@
               "end": 730,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 659,
-                  "end": 694,
-                  "static": false,
+                  "end": 693,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 659,
                     "end": 661,
                     "name": "x"
@@ -93,8 +91,7 @@
                               "type": "Literal",
                               "start": 671,
                               "end": 672,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Identifier",
@@ -110,8 +107,7 @@
                           "type": "Literal",
                           "start": 680,
                           "end": 692,
-                          "value": "arguments;",
-                          "raw": "'arguments;'"
+                          "value": "arguments;"
                         }
                       ],
                       "optional": false
@@ -162,14 +158,14 @@
                                 "start": 714,
                                 "end": 718
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 719,
                                 "end": 721,
                                 "name": "x"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             },
                             "arguments": [],
                             "optional": false

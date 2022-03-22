@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 299,
             "end": 346,
-            "value": "Array.isArray(new RegExp()) must return false",
-            "raw": "'Array.isArray(new RegExp()) must return false'"
+            "value": "Array.isArray(new RegExp()) must return false"
           }
         ],
         "optional": false

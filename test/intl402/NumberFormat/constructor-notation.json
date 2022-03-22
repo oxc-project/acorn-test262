@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 583,
                     "end": 593,
-                    "value": "standard",
-                    "raw": "\"standard\""
+                    "value": "standard"
                   }
                 ]
               },
@@ -52,8 +51,7 @@
                     "type": "Literal",
                     "start": 599,
                     "end": 609,
-                    "value": "standard",
-                    "raw": "\"standard\""
+                    "value": "standard"
                   }
                 ]
               },
@@ -66,8 +64,7 @@
                     "type": "Literal",
                     "start": 615,
                     "end": 627,
-                    "value": "scientific",
-                    "raw": "\"scientific\""
+                    "value": "scientific"
                   }
                 ]
               },
@@ -80,8 +77,7 @@
                     "type": "Literal",
                     "start": 633,
                     "end": 646,
-                    "value": "engineering",
-                    "raw": "\"engineering\""
+                    "value": "engineering"
                   }
                 ]
               },
@@ -94,8 +90,7 @@
                     "type": "Literal",
                     "start": 652,
                     "end": 661,
-                    "value": "compact",
-                    "raw": "\"compact\""
+                    "value": "compact"
                   }
                 ]
               }
@@ -325,8 +320,7 @@
                     "type": "Literal",
                     "start": 853,
                     "end": 863,
-                    "value": "notation",
-                    "raw": "\"notation\""
+                    "value": "notation"
                   },
                   "operator": "in",
                   "right": {

@@ -127,8 +127,7 @@
                   "type": "Literal",
                   "start": 715,
                   "end": 739,
-                  "value": "AsyncGeneratorFunction",
-                  "raw": "'AsyncGeneratorFunction'"
+                  "value": "AsyncGeneratorFunction"
                 },
                 "kind": "init"
               },

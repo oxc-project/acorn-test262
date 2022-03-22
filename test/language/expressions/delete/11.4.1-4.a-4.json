@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 611,
             "end": 614,
-            "value": "d",
-            "raw": "'d'"
+            "value": "d"
           }
         ],
         "optional": false

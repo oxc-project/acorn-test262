@@ -78,8 +78,7 @@
                           "type": "Literal",
                           "start": 305,
                           "end": 306,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -94,8 +93,7 @@
                         "type": "Literal",
                         "start": 320,
                         "end": 392,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -156,8 +154,7 @@
                           "type": "Literal",
                           "start": 423,
                           "end": 424,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -166,8 +163,7 @@
                         "type": "Literal",
                         "start": 427,
                         "end": 433,
-                        "value": "\\01",
-                        "raw": "'\\\\01'"
+                        "value": "\\01"
                       }
                     ],
                     "optional": false
@@ -272,8 +268,7 @@
                           "type": "Literal",
                           "start": 481,
                           "end": 482,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -288,8 +283,7 @@
                         "type": "Literal",
                         "start": 496,
                         "end": 568,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -350,8 +344,7 @@
                           "type": "Literal",
                           "start": 599,
                           "end": 600,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -360,8 +353,7 @@
                         "type": "Literal",
                         "start": 603,
                         "end": 608,
-                        "value": "\\1",
-                        "raw": "'\\\\1'"
+                        "value": "\\1"
                       }
                     ],
                     "optional": false
@@ -466,8 +458,7 @@
                           "type": "Literal",
                           "start": 655,
                           "end": 656,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -482,8 +473,7 @@
                         "type": "Literal",
                         "start": 670,
                         "end": 742,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -544,8 +534,7 @@
                           "type": "Literal",
                           "start": 773,
                           "end": 774,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -554,8 +543,7 @@
                         "type": "Literal",
                         "start": 777,
                         "end": 782,
-                        "value": "\\8",
-                        "raw": "'\\\\8'"
+                        "value": "\\8"
                       }
                     ],
                     "optional": false
@@ -660,8 +648,7 @@
                           "type": "Literal",
                           "start": 829,
                           "end": 830,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -676,8 +663,7 @@
                         "type": "Literal",
                         "start": 844,
                         "end": 916,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -738,8 +724,7 @@
                           "type": "Literal",
                           "start": 947,
                           "end": 948,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -748,8 +733,7 @@
                         "type": "Literal",
                         "start": 951,
                         "end": 956,
-                        "value": "\\9",
-                        "raw": "'\\\\9'"
+                        "value": "\\9"
                       }
                     ],
                     "optional": false
@@ -854,8 +838,7 @@
                           "type": "Literal",
                           "start": 1003,
                           "end": 1004,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -870,8 +853,7 @@
                         "type": "Literal",
                         "start": 1018,
                         "end": 1090,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -932,8 +914,7 @@
                           "type": "Literal",
                           "start": 1121,
                           "end": 1122,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -942,8 +923,7 @@
                         "type": "Literal",
                         "start": 1125,
                         "end": 1131,
-                        "value": "\\xg",
-                        "raw": "'\\\\xg'"
+                        "value": "\\xg"
                       }
                     ],
                     "optional": false
@@ -1048,8 +1028,7 @@
                           "type": "Literal",
                           "start": 1179,
                           "end": 1180,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1064,8 +1043,7 @@
                         "type": "Literal",
                         "start": 1194,
                         "end": 1266,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -1126,8 +1104,7 @@
                           "type": "Literal",
                           "start": 1297,
                           "end": 1298,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1136,8 +1113,7 @@
                         "type": "Literal",
                         "start": 1301,
                         "end": 1308,
-                        "value": "\\xAg",
-                        "raw": "'\\\\xAg'"
+                        "value": "\\xAg"
                       }
                     ],
                     "optional": false
@@ -1242,8 +1218,7 @@
                           "type": "Literal",
                           "start": 1357,
                           "end": 1358,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1258,8 +1233,7 @@
                         "type": "Literal",
                         "start": 1372,
                         "end": 1444,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -1320,8 +1294,7 @@
                           "type": "Literal",
                           "start": 1475,
                           "end": 1476,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1330,8 +1303,7 @@
                         "type": "Literal",
                         "start": 1479,
                         "end": 1485,
-                        "value": "\\u0",
-                        "raw": "'\\\\u0'"
+                        "value": "\\u0"
                       }
                     ],
                     "optional": false
@@ -1436,8 +1408,7 @@
                           "type": "Literal",
                           "start": 1533,
                           "end": 1534,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1452,8 +1423,7 @@
                         "type": "Literal",
                         "start": 1548,
                         "end": 1620,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -1514,8 +1484,7 @@
                           "type": "Literal",
                           "start": 1651,
                           "end": 1652,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1524,8 +1493,7 @@
                         "type": "Literal",
                         "start": 1655,
                         "end": 1662,
-                        "value": "\\u0g",
-                        "raw": "'\\\\u0g'"
+                        "value": "\\u0g"
                       }
                     ],
                     "optional": false
@@ -1630,8 +1598,7 @@
                           "type": "Literal",
                           "start": 1711,
                           "end": 1712,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1646,8 +1613,7 @@
                         "type": "Literal",
                         "start": 1726,
                         "end": 1798,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -1708,8 +1674,7 @@
                           "type": "Literal",
                           "start": 1829,
                           "end": 1830,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1718,8 +1683,7 @@
                         "type": "Literal",
                         "start": 1833,
                         "end": 1841,
-                        "value": "\\u00g",
-                        "raw": "'\\\\u00g'"
+                        "value": "\\u00g"
                       }
                     ],
                     "optional": false
@@ -1824,8 +1788,7 @@
                           "type": "Literal",
                           "start": 1891,
                           "end": 1892,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1840,8 +1803,7 @@
                         "type": "Literal",
                         "start": 1906,
                         "end": 1978,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -1902,8 +1864,7 @@
                           "type": "Literal",
                           "start": 2009,
                           "end": 2010,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1912,8 +1873,7 @@
                         "type": "Literal",
                         "start": 2013,
                         "end": 2022,
-                        "value": "\\u000g",
-                        "raw": "'\\\\u000g'"
+                        "value": "\\u000g"
                       }
                     ],
                     "optional": false
@@ -2018,8 +1978,7 @@
                           "type": "Literal",
                           "start": 2073,
                           "end": 2074,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -2034,8 +1993,7 @@
                         "type": "Literal",
                         "start": 2088,
                         "end": 2160,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -2096,8 +2054,7 @@
                           "type": "Literal",
                           "start": 2191,
                           "end": 2192,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -2106,8 +2063,7 @@
                         "type": "Literal",
                         "start": 2195,
                         "end": 2202,
-                        "value": "\\u{g",
-                        "raw": "'\\\\u{g'"
+                        "value": "\\u{g"
                       }
                     ],
                     "optional": false
@@ -2212,8 +2168,7 @@
                           "type": "Literal",
                           "start": 2251,
                           "end": 2252,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -2228,8 +2183,7 @@
                         "type": "Literal",
                         "start": 2266,
                         "end": 2338,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -2290,8 +2244,7 @@
                           "type": "Literal",
                           "start": 2369,
                           "end": 2370,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -2300,8 +2253,7 @@
                         "type": "Literal",
                         "start": 2373,
                         "end": 2380,
-                        "value": "\\u{0",
-                        "raw": "'\\\\u{0'"
+                        "value": "\\u{0"
                       }
                     ],
                     "optional": false
@@ -2406,8 +2358,7 @@
                           "type": "Literal",
                           "start": 2429,
                           "end": 2430,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -2422,8 +2373,7 @@
                         "type": "Literal",
                         "start": 2444,
                         "end": 2516,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -2484,8 +2434,7 @@
                           "type": "Literal",
                           "start": 2547,
                           "end": 2548,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -2494,8 +2443,7 @@
                         "type": "Literal",
                         "start": 2551,
                         "end": 2565,
-                        "value": "\\u{10FFFFF}",
-                        "raw": "'\\\\u{10FFFFF}'"
+                        "value": "\\u{10FFFFF}"
                       }
                     ],
                     "optional": false
@@ -2602,8 +2550,7 @@
                         "type": "Literal",
                         "start": 2628,
                         "end": 2635,
-                        "value": "inner",
-                        "raw": "'inner'"
+                        "value": "inner"
                       }
                     ],
                     "optional": false
@@ -2651,8 +2598,7 @@
                           "type": "Literal",
                           "start": 2662,
                           "end": 2663,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -2667,8 +2613,7 @@
                         "type": "Literal",
                         "start": 2677,
                         "end": 2749,
-                        "value": "Cooked template value should be undefined for illegal escape sequences",
-                        "raw": "'Cooked template value should be undefined for illegal escape sequences'"
+                        "value": "Cooked template value should be undefined for illegal escape sequences"
                       }
                     ],
                     "optional": false
@@ -2729,8 +2674,7 @@
                           "type": "Literal",
                           "start": 2780,
                           "end": 2781,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -2739,8 +2683,7 @@
                         "type": "Literal",
                         "start": 2784,
                         "end": 2798,
-                        "value": "\\u{10FFFFF}",
-                        "raw": "'\\\\u{10FFFFF}'"
+                        "value": "\\u{10FFFFF}"
                       }
                     ],
                     "optional": false
@@ -2788,8 +2731,7 @@
                           "type": "Literal",
                           "start": 2826,
                           "end": 2827,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         "computed": true,
                         "optional": false
@@ -2798,8 +2740,7 @@
                         "type": "Literal",
                         "start": 2830,
                         "end": 2837,
-                        "value": "right",
-                        "raw": "'right'"
+                        "value": "right"
                       }
                     ],
                     "optional": false
@@ -2860,8 +2801,7 @@
                           "type": "Literal",
                           "start": 2868,
                           "end": 2869,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         "computed": true,
                         "optional": false
@@ -2870,8 +2810,7 @@
                         "type": "Literal",
                         "start": 2872,
                         "end": 2879,
-                        "value": "right",
-                        "raw": "'right'"
+                        "value": "right"
                       }
                     ],
                     "optional": false
@@ -2890,8 +2829,7 @@
               "type": "Literal",
               "start": 2898,
               "end": 2905,
-              "value": "inner",
-              "raw": "'inner'"
+              "value": "inner"
             }
           ],
           "quasis": [

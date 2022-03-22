@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 999,
                 "end": 1007,
-                "value": "script",
-                "raw": "\"script\""
+                "value": "script"
               }
             ],
             "optional": false
@@ -203,8 +202,7 @@
             "type": "Literal",
             "start": 1091,
             "end": 1101,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -261,8 +259,7 @@
             "type": "Literal",
             "start": 1143,
             "end": 1151,
-            "value": "script",
-            "raw": "\"script\""
+            "value": "script"
           },
           {
             "type": "ObjectExpression",

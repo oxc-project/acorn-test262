@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 323,
             "end": 381,
-            "value": "2021-08-19T17:30:45.123456789+01:46[+01:45:30.987654321]",
-            "raw": "\"2021-08-19T17:30:45.123456789+01:46[+01:45:30.987654321]\""
+            "value": "2021-08-19T17:30:45.123456789+01:46[+01:45:30.987654321]"
           }
         }
       ],
@@ -103,8 +102,7 @@
                       "type": "Literal",
                       "start": 436,
                       "end": 440,
-                      "value": 2000,
-                      "raw": "2000"
+                      "value": 2000
                     },
                     "kind": "init"
                   },
@@ -125,8 +123,7 @@
                       "type": "Literal",
                       "start": 449,
                       "end": 450,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     },
                     "kind": "init"
                   },
@@ -147,8 +144,7 @@
                       "type": "Literal",
                       "start": 457,
                       "end": 458,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "kind": "init"
                   },
@@ -246,15 +242,13 @@
             "type": "Literal",
             "start": 511,
             "end": 532,
-            "value": "+01:45:30.987654321",
-            "raw": "\"+01:45:30.987654321\""
+            "value": "+01:45:30.987654321"
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 581,
-            "value": "Time zone string determined from bracket name",
-            "raw": "\"Time zone string determined from bracket name\""
+            "value": "Time zone string determined from bracket name"
           }
         ],
         "optional": false
@@ -334,8 +328,7 @@
                       "type": "Literal",
                       "start": 636,
                       "end": 640,
-                      "value": 2000,
-                      "raw": "2000"
+                      "value": 2000
                     },
                     "kind": "init"
                   },
@@ -356,8 +349,7 @@
                       "type": "Literal",
                       "start": 649,
                       "end": 650,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     },
                     "kind": "init"
                   },
@@ -378,8 +370,7 @@
                       "type": "Literal",
                       "start": 657,
                       "end": 658,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "kind": "init"
                   },
@@ -499,15 +490,13 @@
             "type": "Literal",
             "start": 725,
             "end": 746,
-            "value": "+01:45:30.987654321",
-            "raw": "\"+01:45:30.987654321\""
+            "value": "+01:45:30.987654321"
           },
           {
             "type": "Literal",
             "start": 748,
             "end": 795,
-            "value": "Time zone string determined from bracket name",
-            "raw": "\"Time zone string determined from bracket name\""
+            "value": "Time zone string determined from bracket name"
           }
         ],
         "optional": false

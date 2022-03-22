@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 470,
                 "end": 479,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -126,8 +125,7 @@
                   "type": "Literal",
                   "start": 529,
                   "end": 545,
-                  "value": "invalid string",
-                  "raw": "\"invalid string\""
+                  "value": "invalid string"
                 }
               ],
               "optional": false
@@ -137,8 +135,7 @@
             "type": "Literal",
             "start": 552,
             "end": 615,
-            "value": "cal.dayOfWeek(\"invalid string\") throws a RangeError exception",
-            "raw": "'cal.dayOfWeek(\"invalid string\") throws a RangeError exception'"
+            "value": "cal.dayOfWeek(\"invalid string\") throws a RangeError exception"
           }
         ],
         "optional": false

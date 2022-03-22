@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 607,
                 "end": 618,
-                "value": "timeZones",
-                "raw": "\"timeZones\""
+                "value": "timeZones"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 659,
             "end": 669,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -213,8 +211,7 @@
                   "type": "Literal",
                   "start": 705,
                   "end": 709,
-                  "value": "en",
-                  "raw": "'en'"
+                  "value": "en"
                 }
               ]
             },

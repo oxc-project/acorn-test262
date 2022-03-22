@@ -61,8 +61,7 @@
                   "type": "Literal",
                   "start": 777,
                   "end": 780,
-                  "value": "/",
-                  "raw": "'/'"
+                  "value": "/"
                 },
                 "operator": "+",
                 "right": {
@@ -74,7 +73,6 @@
                     "start": 783,
                     "end": 798,
                     "value": {},
-                    "raw": "/\\ud834\\udf06/u",
                     "regex": {
                       "pattern": "\\ud834\\udf06",
                       "flags": "u"
@@ -95,8 +93,7 @@
                 "type": "Literal",
                 "start": 808,
                 "end": 812,
-                "value": "/u",
-                "raw": "'/u'"
+                "value": "/u"
               }
             }
           ],
@@ -160,8 +157,7 @@
                 "type": "Literal",
                 "start": 841,
                 "end": 855,
-                "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "value": "𝌆"
               }
             ],
             "optional": false
@@ -233,8 +229,7 @@
                 "type": "Literal",
                 "start": 890,
                 "end": 894,
-                "value": "𝌆",
-                "raw": "'𝌆'"
+                "value": "𝌆"
               }
             ],
             "optional": false
@@ -288,8 +283,7 @@
                   "type": "Literal",
                   "start": 915,
                   "end": 918,
-                  "value": "/",
-                  "raw": "'/'"
+                  "value": "/"
                 },
                 "operator": "+",
                 "right": {
@@ -301,7 +295,6 @@
                     "start": 921,
                     "end": 933,
                     "value": {},
-                    "raw": "/\\u{1d306}/u",
                     "regex": {
                       "pattern": "\\u{1d306}",
                       "flags": "u"
@@ -322,8 +315,7 @@
                 "type": "Literal",
                 "start": 943,
                 "end": 947,
-                "value": "/u",
-                "raw": "'/u'"
+                "value": "/u"
               }
             }
           ],
@@ -387,8 +379,7 @@
                 "type": "Literal",
                 "start": 976,
                 "end": 990,
-                "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "value": "𝌆"
               }
             ],
             "optional": false
@@ -460,8 +451,7 @@
                 "type": "Literal",
                 "start": 1025,
                 "end": 1029,
-                "value": "𝌆",
-                "raw": "'𝌆'"
+                "value": "𝌆"
               }
             ],
             "optional": false

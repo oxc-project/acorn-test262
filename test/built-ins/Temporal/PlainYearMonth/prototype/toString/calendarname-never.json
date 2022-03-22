@@ -59,8 +59,7 @@
                           "type": "Literal",
                           "start": 304,
                           "end": 312,
-                          "value": "custom",
-                          "raw": "\"custom\""
+                          "value": "custom"
                         }
                       }
                     ]
@@ -116,15 +115,13 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 370,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 373,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -175,15 +172,13 @@
                 "type": "Literal",
                 "start": 423,
                 "end": 427,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 429,
                 "end": 430,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Identifier",
@@ -229,8 +224,7 @@
                     "type": "Literal",
                     "start": 461,
                     "end": 470,
-                    "value": "2000-05",
-                    "raw": "\"2000-05\""
+                    "value": "2000-05"
                   }
                 ]
               },
@@ -249,8 +243,7 @@
                     "type": "Literal",
                     "start": 488,
                     "end": 500,
-                    "value": "2000-05-01",
-                    "raw": "\"2000-05-01\""
+                    "value": "2000-05-01"
                   }
                 ]
               }
@@ -361,8 +354,7 @@
                                   "type": "Literal",
                                   "start": 594,
                                   "end": 601,
-                                  "value": "never",
-                                  "raw": "\"never\""
+                                  "value": "never"
                                 },
                                 "kind": "init"
                               }
@@ -419,8 +411,7 @@
                         "type": "Literal",
                         "start": 643,
                         "end": 666,
-                        "value": "calendarName is never",
-                        "raw": "\"calendarName is never\""
+                        "value": "calendarName is never"
                       }
                     ],
                     "optional": false

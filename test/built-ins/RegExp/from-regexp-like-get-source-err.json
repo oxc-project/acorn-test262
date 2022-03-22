@@ -87,8 +87,7 @@
             "type": "Literal",
             "start": 545,
             "end": 553,
-            "value": "source",
-            "raw": "'source'"
+            "value": "source"
           },
           {
             "type": "ObjectExpression",
@@ -188,8 +187,7 @@
             "type": "Literal",
             "start": 641,
             "end": 648,
-            "value": "flags",
-            "raw": "'flags'"
+            "value": "flags"
           },
           {
             "type": "ObjectExpression",
@@ -242,8 +240,7 @@
                               "type": "Literal",
                               "start": 699,
                               "end": 762,
-                              "value": "the `flags` property should not be referenced before `source`",
-                              "raw": "'the `flags` property should not be referenced before `source`'"
+                              "value": "the `flags` property should not be referenced before `source`"
                             }
                           ]
                         }
@@ -433,8 +430,7 @@
           "type": "Literal",
           "start": 884,
           "end": 892,
-          "value": "string",
-          "raw": "'string'"
+          "value": "string"
         }
       }
     },
@@ -825,8 +821,7 @@
           "type": "Literal",
           "start": 1160,
           "end": 1162,
-          "value": 86,
-          "raw": "86"
+          "value": 86
         }
       }
     },

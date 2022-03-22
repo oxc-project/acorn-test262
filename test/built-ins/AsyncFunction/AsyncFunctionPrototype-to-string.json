@@ -158,15 +158,13 @@
             "type": "Literal",
             "start": 540,
             "end": 555,
-            "value": "AsyncFunction",
-            "raw": "\"AsyncFunction\""
+            "value": "AsyncFunction"
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 576,
-            "value": "toStringTag value",
-            "raw": "\"toStringTag value\""
+            "value": "toStringTag value"
           }
         ],
         "optional": false

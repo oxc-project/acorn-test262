@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 650,
             "end": 662,
-            "value": "my-message",
-            "raw": "\"my-message\""
+            "value": "my-message"
           }
         }
       ],
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 687,
                   "end": 697,
-                  "value": "my-cause",
-                  "raw": "\"my-cause\""
+                  "value": "my-cause"
                 },
                 "kind": "init"
               }
@@ -168,8 +166,7 @@
             "type": "Literal",
             "start": 767,
             "end": 774,
-            "value": "cause",
-            "raw": "\"cause\""
+            "value": "cause"
           },
           {
             "type": "ObjectExpression",
@@ -307,8 +304,7 @@
             "type": "Literal",
             "start": 896,
             "end": 903,
-            "value": "cause",
-            "raw": "\"cause\""
+            "value": "cause"
           },
           {
             "type": "Identifier",
@@ -386,8 +382,7 @@
             "type": "Literal",
             "start": 974,
             "end": 981,
-            "value": "cause",
-            "raw": "\"cause\""
+            "value": "cause"
           },
           {
             "type": "ObjectExpression",

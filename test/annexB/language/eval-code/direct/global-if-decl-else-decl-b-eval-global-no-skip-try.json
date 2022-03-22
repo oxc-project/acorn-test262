@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1611,
             "end": 1961,
-            "value": "assert.sameValue(    f, undefined, \"Initialized binding created prior to evaluation\"  );    try {    throw null;  } catch (f) {if (false) function _f() {} else function f() { return 123; }}    assert.sameValue(    typeof f,    \"function\",    \"binding value is updated following evaluation\"  );  assert.sameValue(f(), 123);",
-            "raw": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {if (false) function _f() {} else function f() { return 123; }}\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'"
+            "value": "assert.sameValue(    f, undefined, \"Initialized binding created prior to evaluation\"  );    try {    throw null;  } catch (f) {if (false) function _f() {} else function f() { return 123; }}    assert.sameValue(    typeof f,    \"function\",    \"binding value is updated following evaluation\"  );  assert.sameValue(f(), 123);"
           }
         ],
         "optional": false

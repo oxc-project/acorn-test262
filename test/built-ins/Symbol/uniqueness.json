@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 571,
                 "end": 573,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -67,8 +66,7 @@
                 "type": "Literal",
                 "start": 583,
                 "end": 585,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -77,8 +75,7 @@
             "type": "Literal",
             "start": 588,
             "end": 602,
-            "value": "empty string",
-            "raw": "'empty string'"
+            "value": "empty string"
           }
         ],
         "optional": false
@@ -142,8 +139,7 @@
             "type": "Literal",
             "start": 645,
             "end": 656,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -223,8 +219,7 @@
             "type": "Literal",
             "start": 707,
             "end": 719,
-            "value": "null value",
-            "raw": "'null value'"
+            "value": "null value"
           }
         ],
         "optional": false
@@ -273,8 +268,7 @@
                 "type": "Literal",
                 "start": 749,
                 "end": 752,
-                "value": "x",
-                "raw": "'x'"
+                "value": "x"
               }
             ],
             "optional": false
@@ -294,8 +288,7 @@
                 "type": "Literal",
                 "start": 762,
                 "end": 765,
-                "value": "x",
-                "raw": "'x'"
+                "value": "x"
               }
             ],
             "optional": false
@@ -304,8 +297,7 @@
             "type": "Literal",
             "start": 768,
             "end": 780,
-            "value": "string \"x\"",
-            "raw": "'string \"x\"'"
+            "value": "string \"x\""
           }
         ],
         "optional": false

@@ -176,8 +176,7 @@
                                   "type": "Literal",
                                   "start": 828,
                                   "end": 853,
-                                  "value": "target.[[IsExtensible]]",
-                                  "raw": "\"target.[[IsExtensible]]\""
+                                  "value": "target.[[IsExtensible]]"
                                 }
                               ],
                               "optional": false
@@ -259,8 +258,7 @@
                                   "type": "Literal",
                                   "start": 925,
                                   "end": 952,
-                                  "value": "target.[[GetPrototypeOf]]",
-                                  "raw": "\"target.[[GetPrototypeOf]]\""
+                                  "value": "target.[[GetPrototypeOf]]"
                                 }
                               ],
                               "optional": false
@@ -424,8 +422,7 @@
                                   "type": "Literal",
                                   "start": 1146,
                                   "end": 1172,
-                                  "value": "proxy.[[setPrototypeOf]]",
-                                  "raw": "\"proxy.[[setPrototypeOf]]\""
+                                  "value": "proxy.[[setPrototypeOf]]"
                                 }
                               ],
                               "optional": false
@@ -585,8 +582,7 @@
             "type": "Literal",
             "start": 1294,
             "end": 1295,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -634,8 +630,7 @@
               "type": "Literal",
               "start": 1321,
               "end": 1322,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -644,8 +639,7 @@
             "type": "Literal",
             "start": 1325,
             "end": 1351,
-            "value": "proxy.[[setPrototypeOf]]",
-            "raw": "\"proxy.[[setPrototypeOf]]\""
+            "value": "proxy.[[setPrototypeOf]]"
           }
         ],
         "optional": false
@@ -693,8 +687,7 @@
               "type": "Literal",
               "start": 1377,
               "end": 1378,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -703,8 +696,7 @@
             "type": "Literal",
             "start": 1381,
             "end": 1406,
-            "value": "target.[[IsExtensible]]",
-            "raw": "\"target.[[IsExtensible]]\""
+            "value": "target.[[IsExtensible]]"
           }
         ],
         "optional": false
@@ -752,8 +744,7 @@
               "type": "Literal",
               "start": 1432,
               "end": 1433,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -762,8 +753,7 @@
             "type": "Literal",
             "start": 1436,
             "end": 1463,
-            "value": "target.[[GetPrototypeOf]]",
-            "raw": "\"target.[[GetPrototypeOf]]\""
+            "value": "target.[[GetPrototypeOf]]"
           }
         ],
         "optional": false

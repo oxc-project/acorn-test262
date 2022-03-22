@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 358,
                           "end": 363,
-                          "value": "%5E",
-                          "raw": "\"%5E\""
+                          "value": "%5E"
                         }
                       }
                     ]
@@ -106,8 +105,7 @@
           "type": "Literal",
           "start": 406,
           "end": 423,
-          "value": "[object Object]",
-          "raw": "\"[object Object]\""
+          "value": "[object Object]"
         }
       },
       "consequent": {
@@ -138,8 +136,7 @@
                     "type": "Literal",
                     "start": 452,
                     "end": 565,
-                    "value": "#1: var object = {valueOf: function() {return \"%5E\"}}; decodeURIComponent(object) === [object Object]. Actual: ",
-                    "raw": "'#1: var object = {valueOf: function() {return \"%5E\"}}; decodeURIComponent(object) === [object Object]. Actual: '"
+                    "value": "#1: var object = {valueOf: function() {return \"%5E\"}}; decodeURIComponent(object) === [object Object]. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -230,8 +227,7 @@
                           "type": "Literal",
                           "start": 662,
                           "end": 664,
-                          "value": "",
-                          "raw": "\"\""
+                          "value": ""
                         }
                       }
                     ]
@@ -274,8 +270,7 @@
                           "type": "Literal",
                           "start": 706,
                           "end": 711,
-                          "value": "%5E",
-                          "raw": "\"%5E\""
+                          "value": "%5E"
                         }
                       }
                     ]
@@ -322,8 +317,7 @@
           "type": "Literal",
           "start": 754,
           "end": 757,
-          "value": "^",
-          "raw": "\"^\""
+          "value": "^"
         }
       },
       "consequent": {
@@ -354,8 +348,7 @@
                     "type": "Literal",
                     "start": 786,
                     "end": 921,
-                    "value": "#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: ",
-                    "raw": "'#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: '"
+                    "value": "#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -446,8 +439,7 @@
                           "type": "Literal",
                           "start": 1018,
                           "end": 1023,
-                          "value": "%5E",
-                          "raw": "\"%5E\""
+                          "value": "%5E"
                         }
                       }
                     ]
@@ -537,8 +529,7 @@
           "type": "Literal",
           "start": 1110,
           "end": 1113,
-          "value": "^",
-          "raw": "\"^\""
+          "value": "^"
         }
       },
       "consequent": {
@@ -569,8 +560,7 @@
                     "type": "Literal",
                     "start": 1142,
                     "end": 1277,
-                    "value": "#3: var object = {valueOf: function() {return \"%5E\"}, toString: function() {return {}}}; decodeURIComponent(object) === \"^\". Actual: ",
-                    "raw": "'#3: var object = {valueOf: function() {return \"%5E\"}, toString: function() {return {}}}; decodeURIComponent(object) === \"^\". Actual: '"
+                    "value": "#3: var object = {valueOf: function() {return \"%5E\"}, toString: function() {return {}}}; decodeURIComponent(object) === \"^\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -670,8 +660,7 @@
                                 "type": "Literal",
                                 "start": 1385,
                                 "end": 1392,
-                                "value": "error",
-                                "raw": "\"error\""
+                                "value": "error"
                               }
                             }
                           ]
@@ -714,8 +703,7 @@
                                 "type": "Literal",
                                 "start": 1440,
                                 "end": 1445,
-                                "value": "%5E",
-                                "raw": "\"%5E\""
+                                "value": "%5E"
                               }
                             }
                           ]
@@ -762,8 +750,7 @@
                 "type": "Literal",
                 "start": 1494,
                 "end": 1497,
-                "value": "^",
-                "raw": "\"^\""
+                "value": "^"
               }
             },
             "consequent": {
@@ -794,8 +781,7 @@
                           "type": "Literal",
                           "start": 1528,
                           "end": 1669,
-                          "value": "#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: ",
-                          "raw": "'#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: '"
+                          "value": "#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -867,8 +853,7 @@
                   "type": "Literal",
                   "start": 1733,
                   "end": 1740,
-                  "value": "error",
-                  "raw": "\"error\""
+                  "value": "error"
                 }
               },
               "consequent": {
@@ -895,8 +880,7 @@
                           "type": "Literal",
                           "start": 1771,
                           "end": 1912,
-                          "value": "#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) not throw \"error\"",
-                          "raw": "'#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) not throw \"error\"'"
+                          "value": "#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) not throw \"error\""
                         }
                       ]
                     }
@@ -931,8 +915,7 @@
                             "type": "Literal",
                             "start": 1953,
                             "end": 2102,
-                            "value": "#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) not throw Error. Actual: ",
-                            "raw": "'#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) not throw Error. Actual: '"
+                            "value": "#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) not throw Error. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -1013,8 +996,7 @@
                           "type": "Literal",
                           "start": 2179,
                           "end": 2184,
-                          "value": "%5E",
-                          "raw": "\"%5E\""
+                          "value": "%5E"
                         }
                       }
                     ]
@@ -1061,8 +1043,7 @@
           "type": "Literal",
           "start": 2227,
           "end": 2230,
-          "value": "^",
-          "raw": "\"^\""
+          "value": "^"
         }
       },
       "consequent": {
@@ -1093,8 +1074,7 @@
                     "type": "Literal",
                     "start": 2259,
                     "end": 2361,
-                    "value": "#5: var object = {toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: ",
-                    "raw": "'#5: var object = {toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: '"
+                    "value": "#5: var object = {toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1228,8 +1208,7 @@
                           "type": "Literal",
                           "start": 2502,
                           "end": 2507,
-                          "value": "%5E",
-                          "raw": "\"%5E\""
+                          "value": "%5E"
                         }
                       }
                     ]
@@ -1276,8 +1255,7 @@
           "type": "Literal",
           "start": 2549,
           "end": 2552,
-          "value": "^",
-          "raw": "\"^\""
+          "value": "^"
         }
       },
       "consequent": {
@@ -1308,8 +1286,7 @@
                     "type": "Literal",
                     "start": 2581,
                     "end": 2716,
-                    "value": "#6: var object = {valueOf: function() {return {}}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: ",
-                    "raw": "'#6: var object = {valueOf: function() {return {}}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: '"
+                    "value": "#6: var object = {valueOf: function() {return {}}, toString: function() {return \"%5E\"}}; decodeURIComponent(object) === \"^\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1409,8 +1386,7 @@
                                 "type": "Literal",
                                 "start": 2825,
                                 "end": 2830,
-                                "value": "%5E",
-                                "raw": "\"%5E\""
+                                "value": "%5E"
                               }
                             }
                           ]
@@ -1453,8 +1429,7 @@
                                 "type": "Literal",
                                 "start": 2877,
                                 "end": 2884,
-                                "value": "error",
-                                "raw": "\"error\""
+                                "value": "error"
                               }
                             }
                           ]
@@ -1516,8 +1491,7 @@
                     "type": "Literal",
                     "start": 2951,
                     "end": 3098,
-                    "value": "#7.1: var object = {valueOf: function() {return \"%5E\"}, toString: function() {throw \"error\"}}; decodeURIComponent(object) throw \"error\". Actual: ",
-                    "raw": "'#7.1: var object = {valueOf: function() {return \"%5E\"}, toString: function() {throw \"error\"}}; decodeURIComponent(object) throw \"error\". Actual: '"
+                    "value": "#7.1: var object = {valueOf: function() {return \"%5E\"}, toString: function() {throw \"error\"}}; decodeURIComponent(object) throw \"error\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1585,8 +1559,7 @@
                   "type": "Literal",
                   "start": 3158,
                   "end": 3165,
-                  "value": "error",
-                  "raw": "\"error\""
+                  "value": "error"
                 }
               },
               "consequent": {
@@ -1617,8 +1590,7 @@
                             "type": "Literal",
                             "start": 3196,
                             "end": 3343,
-                            "value": "#7.2: var object = {valueOf: function() {return \"%5E\"}, toString: function() {throw \"error\"}}; decodeURIComponent(object) throw \"error\". Actual: ",
-                            "raw": "'#7.2: var object = {valueOf: function() {return \"%5E\"}, toString: function() {throw \"error\"}}; decodeURIComponent(object) throw \"error\". Actual: '"
+                            "value": "#7.2: var object = {valueOf: function() {return \"%5E\"}, toString: function() {throw \"error\"}}; decodeURIComponent(object) throw \"error\". Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -1814,8 +1786,7 @@
                     "type": "Literal",
                     "start": 3550,
                     "end": 3692,
-                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; decodeURIComponent(object) throw TypeError. Actual: ",
-                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; decodeURIComponent(object) throw TypeError. Actual: '"
+                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; decodeURIComponent(object) throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1932,8 +1903,7 @@
                             "type": "Literal",
                             "start": 3810,
                             "end": 3952,
-                            "value": "#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; decodeURIComponent(object) throw TypeError. Actual: ",
-                            "raw": "'#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; decodeURIComponent(object) throw TypeError. Actual: '"
+                            "value": "#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; decodeURIComponent(object) throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

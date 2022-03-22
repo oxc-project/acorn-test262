@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 300,
                   "end": 301,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Literal",
                   "start": 303,
                   "end": 316,
-                  "value": "accumulator",
-                  "raw": "\"accumulator\""
+                  "value": "accumulator"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 320,
                   "end": 321,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "value": {
                   "type": "Literal",
                   "start": 323,
                   "end": 332,
-                  "value": "another",
-                  "raw": "\"another\""
+                  "value": "another"
                 },
                 "kind": "init"
               }
@@ -113,8 +109,7 @@
             "type": "Literal",
             "start": 364,
             "end": 372,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -172,8 +167,7 @@
                               "type": "Literal",
                               "start": 411,
                               "end": 412,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             "computed": true,
                             "optional": false
@@ -188,8 +182,7 @@
                           "type": "Literal",
                           "start": 426,
                           "end": 427,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         }
                       }
                     ]
@@ -332,15 +325,13 @@
             "type": "Literal",
             "start": 534,
             "end": 547,
-            "value": "accumulator",
-            "raw": "\"accumulator\""
+            "value": "accumulator"
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 605,
-            "value": "Array.prototype.reduceRight.call(obj, function () { })",
-            "raw": "'Array.prototype.reduceRight.call(obj, function () { })'"
+            "value": "Array.prototype.reduceRight.call(obj, function () { })"
           }
         ],
         "optional": false

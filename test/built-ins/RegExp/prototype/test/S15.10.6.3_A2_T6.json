@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 397,
                 "end": 400,
-                "value": 1,
-                "raw": "1.0"
+                "value": 1
               }
             ]
           }
@@ -136,8 +135,7 @@
                     "type": "Literal",
                     "start": 477,
                     "end": 610,
-                    "value": "#1.1: __instance = new Number(1.0); __instance.test = RegExp.prototype.test; __instance[\"test\"](\"message to investigate\"). Actual: ",
-                    "raw": "'#1.1: __instance = new Number(1.0); __instance.test = RegExp.prototype.test; __instance[\"test\"](\"message to investigate\"). Actual: '"
+                    "value": "#1.1: __instance = new Number(1.0); __instance.test = RegExp.prototype.test; __instance[\"test\"](\"message to investigate\"). Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -162,8 +160,7 @@
                           "type": "Literal",
                           "start": 625,
                           "end": 631,
-                          "value": "test",
-                          "raw": "\"test\""
+                          "value": "test"
                         },
                         "computed": true,
                         "optional": false
@@ -173,8 +170,7 @@
                           "type": "Literal",
                           "start": 633,
                           "end": 657,
-                          "value": "message to investigate",
-                          "raw": "\"message to investigate\""
+                          "value": "message to investigate"
                         }
                       ],
                       "optional": false
@@ -258,8 +254,7 @@
                     "type": "Literal",
                     "start": 738,
                     "end": 812,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                   }
                 ],
                 "optional": false

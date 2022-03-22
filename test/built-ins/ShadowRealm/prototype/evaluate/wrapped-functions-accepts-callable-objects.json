@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 340,
             "end": 350,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 354,
             "end": 427,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -181,8 +179,7 @@
                   "type": "Literal",
                   "start": 497,
                   "end": 518,
-                  "value": "function fn() {} fn",
-                  "raw": "'function fn() {} fn'"
+                  "value": "function fn() {} fn"
                 }
               ],
               "optional": false
@@ -192,15 +189,13 @@
             "type": "Literal",
             "start": 521,
             "end": 531,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 562,
-            "value": "value from a fn declaration",
-            "raw": "'value from a fn declaration'"
+            "value": "value from a fn declaration"
           }
         ],
         "optional": false
@@ -268,8 +263,7 @@
                   "type": "Literal",
                   "start": 600,
                   "end": 617,
-                  "value": "(function() {})",
-                  "raw": "'(function() {})'"
+                  "value": "(function() {})"
                 }
               ],
               "optional": false
@@ -279,15 +273,13 @@
             "type": "Literal",
             "start": 620,
             "end": 630,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 653,
-            "value": "function expression",
-            "raw": "'function expression'"
+            "value": "function expression"
           }
         ],
         "optional": false
@@ -355,8 +347,7 @@
                   "type": "Literal",
                   "start": 691,
                   "end": 714,
-                  "value": "(async function() {})",
-                  "raw": "'(async function() {})'"
+                  "value": "(async function() {})"
                 }
               ],
               "optional": false
@@ -366,15 +357,13 @@
             "type": "Literal",
             "start": 717,
             "end": 727,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 729,
             "end": 756,
-            "value": "async function expression",
-            "raw": "'async function expression'"
+            "value": "async function expression"
           }
         ],
         "optional": false
@@ -442,8 +431,7 @@
                   "type": "Literal",
                   "start": 794,
                   "end": 812,
-                  "value": "(function*() {})",
-                  "raw": "'(function*() {})'"
+                  "value": "(function*() {})"
                 }
               ],
               "optional": false
@@ -453,15 +441,13 @@
             "type": "Literal",
             "start": 815,
             "end": 825,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 849,
-            "value": "generator expression",
-            "raw": "'generator expression'"
+            "value": "generator expression"
           }
         ],
         "optional": false
@@ -529,8 +515,7 @@
                   "type": "Literal",
                   "start": 887,
                   "end": 911,
-                  "value": "(async function*() {})",
-                  "raw": "'(async function*() {})'"
+                  "value": "(async function*() {})"
                 }
               ],
               "optional": false
@@ -540,15 +525,13 @@
             "type": "Literal",
             "start": 914,
             "end": 924,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 926,
             "end": 954,
-            "value": "async generator expression",
-            "raw": "'async generator expression'"
+            "value": "async generator expression"
           }
         ],
         "optional": false
@@ -616,8 +599,7 @@
                   "type": "Literal",
                   "start": 992,
                   "end": 1002,
-                  "value": "() => {}",
-                  "raw": "'() => {}'"
+                  "value": "() => {}"
                 }
               ],
               "optional": false
@@ -627,15 +609,13 @@
             "type": "Literal",
             "start": 1005,
             "end": 1015,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1017,
             "end": 1033,
-            "value": "arrow function",
-            "raw": "'arrow function'"
+            "value": "arrow function"
           }
         ],
         "optional": false
@@ -703,8 +683,7 @@
                   "type": "Literal",
                   "start": 1071,
                   "end": 1108,
-                  "value": "new Proxy(() => {}, { apply() {} })",
-                  "raw": "'new Proxy(() => {}, { apply() {} })'"
+                  "value": "new Proxy(() => {}, { apply() {} })"
                 }
               ],
               "optional": false
@@ -714,15 +693,13 @@
             "type": "Literal",
             "start": 1111,
             "end": 1121,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1139,
-            "value": "callable proxy",
-            "raw": "'callable proxy'"
+            "value": "callable proxy"
           }
         ],
         "optional": false

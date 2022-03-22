@@ -31,8 +31,7 @@
         "type": "Literal",
         "start": 838,
         "end": 882,
-        "value": "./instn-iee-err-not-found-empty_FIXTURE.js",
-        "raw": "'./instn-iee-err-not-found-empty_FIXTURE.js'"
+        "value": "./instn-iee-err-not-found-empty_FIXTURE.js"
       }
     }
   ],

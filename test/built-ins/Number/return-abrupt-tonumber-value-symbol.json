@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 434,
-                "value": "66",
-                "raw": "\"66\""
+                "value": "66"
               }
             ],
             "optional": false
@@ -123,8 +122,7 @@
             "type": "Literal",
             "start": 492,
             "end": 516,
-            "value": "NewTarget is undefined",
-            "raw": "\"NewTarget is undefined\""
+            "value": "NewTarget is undefined"
           }
         ],
         "optional": false
@@ -209,8 +207,7 @@
             "type": "Literal",
             "start": 578,
             "end": 600,
-            "value": "NewTarget is defined",
-            "raw": "\"NewTarget is defined\""
+            "value": "NewTarget is defined"
           }
         ],
         "optional": false

@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 333,
             "end": 334,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 336,
             "end": 371,
-            "value": "Date.prototype.toISOString.length",
-            "raw": "'Date.prototype.toISOString.length'"
+            "value": "Date.prototype.toISOString.length"
           }
         ],
         "optional": false

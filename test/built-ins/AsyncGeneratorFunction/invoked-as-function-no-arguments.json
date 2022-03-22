@@ -276,8 +276,7 @@
                             "type": "Literal",
                             "start": 611,
                             "end": 627,
-                            "value": "Result `value`",
-                            "raw": "'Result `value`'"
+                            "value": "Result `value`"
                           }
                         ],
                         "optional": false
@@ -341,8 +340,7 @@
                             "type": "Literal",
                             "start": 668,
                             "end": 688,
-                            "value": "Result `done` flag",
-                            "raw": "'Result `done` flag'"
+                            "value": "Result `done` flag"
                           }
                         ],
                         "optional": false

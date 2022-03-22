@@ -70,8 +70,7 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 380,
-                "value": "toFixed",
-                "raw": "\"toFixed\""
+                "value": "toFixed"
               }
             ],
             "optional": false
@@ -87,8 +86,7 @@
             "type": "Literal",
             "start": 394,
             "end": 454,
-            "value": "(new Number()).hasOwnProperty(\"toFixed\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"toFixed\") must return false'"
+            "value": "(new Number()).hasOwnProperty(\"toFixed\") must return false"
           }
         ],
         "optional": false
@@ -188,8 +186,7 @@
             "type": "Literal",
             "start": 533,
             "end": 629,
-            "value": "The value of (new Number()).toFixed is expected to equal the value of Number.prototype.toFixed",
-            "raw": "'The value of (new Number()).toFixed is expected to equal the value of Number.prototype.toFixed'"
+            "value": "The value of (new Number()).toFixed is expected to equal the value of Number.prototype.toFixed"
           }
         ],
         "optional": false

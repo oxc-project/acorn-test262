@@ -132,8 +132,7 @@
             "type": "Literal",
             "start": 484,
             "end": 532,
-            "value": "Returns false if symbol own property not found",
-            "raw": "\"Returns false if symbol own property not found\""
+            "value": "Returns false if symbol own property not found"
           }
         ],
         "optional": false
@@ -171,8 +170,7 @@
           "type": "Literal",
           "start": 548,
           "end": 549,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -248,8 +246,7 @@
             "type": "Literal",
             "start": 613,
             "end": 667,
-            "value": "Returns true if symbol own enumerable property found",
-            "raw": "\"Returns true if symbol own enumerable property found\""
+            "value": "Returns true if symbol own enumerable property found"
           }
         ],
         "optional": false

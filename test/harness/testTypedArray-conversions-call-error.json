@@ -187,8 +187,7 @@
                               "type": "Literal",
                               "start": 458,
                               "end": 489,
-                              "value": "Expected a TypeError, but a \"",
-                              "raw": "'Expected a TypeError, but a \"'"
+                              "value": "Expected a TypeError, but a \""
                             },
                             "operator": "+",
                             "right": {
@@ -229,8 +228,7 @@
                             "type": "Literal",
                             "start": 521,
                             "end": 536,
-                            "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "value": "\" was thrown."
                           }
                         }
                       ]
@@ -292,8 +290,7 @@
                   "type": "Literal",
                   "start": 592,
                   "end": 640,
-                  "value": "Expected a TypeError, but no error was thrown.",
-                  "raw": "'Expected a TypeError, but no error was thrown.'"
+                  "value": "Expected a TypeError, but no error was thrown."
                 }
               ]
             }

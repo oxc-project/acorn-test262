@@ -23,7 +23,6 @@
             "start": 1244,
             "end": 1250,
             "value": {},
-            "raw": "/(?:)/",
             "regex": {
               "pattern": "(?:)",
               "flags": ""
@@ -65,15 +64,13 @@
             "type": "Literal",
             "start": 1263,
             "end": 1269,
-            "value": "(?:)",
-            "raw": "\"(?:)\""
+            "value": "(?:)"
           },
           {
             "type": "Literal",
             "start": 1271,
             "end": 1279,
-            "value": "imsuyg",
-            "raw": "\"imsuyg\""
+            "value": "imsuyg"
           }
         ],
         "optional": false
@@ -130,8 +127,7 @@
             "type": "Literal",
             "start": 1309,
             "end": 1317,
-            "value": "gimsuy",
-            "raw": "\"gimsuy\""
+            "value": "gimsuy"
           }
         ],
         "optional": false

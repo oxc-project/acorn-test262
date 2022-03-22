@@ -115,8 +115,7 @@
                         "type": "Literal",
                         "start": 1078,
                         "end": 1082,
-                        "value": "-0",
-                        "raw": "\"-0\""
+                        "value": "-0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -192,8 +191,7 @@
                                           "type": "Literal",
                                           "start": 1151,
                                           "end": 1176,
-                                          "value": "OrdinaryGet was called!",
-                                          "raw": "\"OrdinaryGet was called!\""
+                                          "value": "OrdinaryGet was called!"
                                         }
                                       ]
                                     }
@@ -238,8 +236,7 @@
                             "type": "Literal",
                             "start": 1213,
                             "end": 1214,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -295,8 +292,7 @@
                             "type": "Literal",
                             "start": 1251,
                             "end": 1255,
-                            "value": "-0",
-                            "raw": "\"-0\""
+                            "value": "-0"
                           },
                           "computed": true,
                           "optional": false
@@ -313,8 +309,7 @@
                         "type": "Literal",
                         "start": 1264,
                         "end": 1308,
-                        "value": "The value of `delete sample[\"-0\"]` is true",
-                        "raw": "'The value of `delete sample[\"-0\"]` is true'"
+                        "value": "The value of `delete sample[\"-0\"]` is true"
                       }
                     ],
                     "optional": false
@@ -398,8 +393,7 @@
                                       "type": "Literal",
                                       "start": 1365,
                                       "end": 1366,
-                                      "value": 0,
-                                      "raw": "0"
+                                      "value": 0
                                     }
                                   },
                                   "computed": true,
@@ -414,8 +408,7 @@
                         "type": "Literal",
                         "start": 1374,
                         "end": 1412,
-                        "value": "`delete sample[-0]` throws TypeError",
-                        "raw": "'`delete sample[-0]` throws TypeError'"
+                        "value": "`delete sample[-0]` throws TypeError"
                       }
                     ],
                     "optional": false

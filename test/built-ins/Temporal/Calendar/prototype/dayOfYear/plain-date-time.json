@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 548,
                 "end": 557,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,43 +97,37 @@
                 "type": "Literal",
                 "start": 597,
                 "end": 601,
-                "value": 1997,
-                "raw": "1997"
+                "value": 1997
               },
               {
                 "type": "Literal",
                 "start": 603,
                 "end": 604,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 606,
                 "end": 608,
-                "value": 23,
-                "raw": "23"
+                "value": 23
               },
               {
                 "type": "Literal",
                 "start": 610,
                 "end": 611,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 613,
                 "end": 615,
-                "value": 30,
-                "raw": "30"
+                "value": 30
               },
               {
                 "type": "Literal",
                 "start": 617,
                 "end": 619,
-                "value": 13,
-                "raw": "13"
+                "value": 13
               }
             ]
           }
@@ -207,15 +200,13 @@
             "type": "Literal",
             "start": 663,
             "end": 665,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           },
           {
             "type": "Literal",
             "start": 669,
             "end": 751,
-            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 1, 23, 5, 30, 13)) must return 23",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1997, 1, 23, 5, 30, 13)) must return 23'"
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 1, 23, 5, 30, 13)) must return 23"
           }
         ],
         "optional": false
@@ -264,43 +255,37 @@
               "type": "Literal",
               "start": 788,
               "end": 792,
-              "value": 1997,
-              "raw": "1997"
+              "value": 1997
             },
             {
               "type": "Literal",
               "start": 794,
               "end": 795,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             {
               "type": "Literal",
               "start": 797,
               "end": 799,
-              "value": 23,
-              "raw": "23"
+              "value": 23
             },
             {
               "type": "Literal",
               "start": 801,
               "end": 802,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             },
             {
               "type": "Literal",
               "start": 804,
               "end": 806,
-              "value": 30,
-              "raw": "30"
+              "value": 30
             },
             {
               "type": "Literal",
               "start": 808,
               "end": 810,
-              "value": 13,
-              "raw": "13"
+              "value": 13
             }
           ]
         }
@@ -371,15 +356,13 @@
             "type": "Literal",
             "start": 854,
             "end": 856,
-            "value": 54,
-            "raw": "54"
+            "value": 54
           },
           {
             "type": "Literal",
             "start": 860,
             "end": 942,
-            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 2, 23, 5, 30, 13)) must return 54",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1997, 2, 23, 5, 30, 13)) must return 54'"
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 2, 23, 5, 30, 13)) must return 54"
           }
         ],
         "optional": false
@@ -428,43 +411,37 @@
               "type": "Literal",
               "start": 979,
               "end": 983,
-              "value": 1996,
-              "raw": "1996"
+              "value": 1996
             },
             {
               "type": "Literal",
               "start": 985,
               "end": 986,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             {
               "type": "Literal",
               "start": 988,
               "end": 990,
-              "value": 23,
-              "raw": "23"
+              "value": 23
             },
             {
               "type": "Literal",
               "start": 992,
               "end": 993,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             },
             {
               "type": "Literal",
               "start": 995,
               "end": 997,
-              "value": 30,
-              "raw": "30"
+              "value": 30
             },
             {
               "type": "Literal",
               "start": 999,
               "end": 1001,
-              "value": 13,
-              "raw": "13"
+              "value": 13
             }
           ]
         }
@@ -535,15 +512,13 @@
             "type": "Literal",
             "start": 1045,
             "end": 1047,
-            "value": 83,
-            "raw": "83"
+            "value": 83
           },
           {
             "type": "Literal",
             "start": 1051,
             "end": 1133,
-            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1996, 3, 23, 5, 30, 13)) must return 83",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1996, 3, 23, 5, 30, 13)) must return 83'"
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1996, 3, 23, 5, 30, 13)) must return 83"
           }
         ],
         "optional": false
@@ -592,43 +567,37 @@
               "type": "Literal",
               "start": 1170,
               "end": 1174,
-              "value": 1997,
-              "raw": "1997"
+              "value": 1997
             },
             {
               "type": "Literal",
               "start": 1176,
               "end": 1177,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             {
               "type": "Literal",
               "start": 1179,
               "end": 1181,
-              "value": 23,
-              "raw": "23"
+              "value": 23
             },
             {
               "type": "Literal",
               "start": 1183,
               "end": 1184,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             },
             {
               "type": "Literal",
               "start": 1186,
               "end": 1188,
-              "value": 30,
-              "raw": "30"
+              "value": 30
             },
             {
               "type": "Literal",
               "start": 1190,
               "end": 1192,
-              "value": 13,
-              "raw": "13"
+              "value": 13
             }
           ]
         }
@@ -699,15 +668,13 @@
             "type": "Literal",
             "start": 1236,
             "end": 1238,
-            "value": 82,
-            "raw": "82"
+            "value": 82
           },
           {
             "type": "Literal",
             "start": 1242,
             "end": 1324,
-            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 3, 23, 5, 30, 13)) must return 82",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1997, 3, 23, 5, 30, 13)) must return 82'"
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 3, 23, 5, 30, 13)) must return 82"
           }
         ],
         "optional": false
@@ -756,43 +723,37 @@
               "type": "Literal",
               "start": 1361,
               "end": 1365,
-              "value": 1997,
-              "raw": "1997"
+              "value": 1997
             },
             {
               "type": "Literal",
               "start": 1367,
               "end": 1369,
-              "value": 12,
-              "raw": "12"
+              "value": 12
             },
             {
               "type": "Literal",
               "start": 1371,
               "end": 1373,
-              "value": 31,
-              "raw": "31"
+              "value": 31
             },
             {
               "type": "Literal",
               "start": 1375,
               "end": 1376,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             },
             {
               "type": "Literal",
               "start": 1378,
               "end": 1380,
-              "value": 30,
-              "raw": "30"
+              "value": 30
             },
             {
               "type": "Literal",
               "start": 1382,
               "end": 1384,
-              "value": 13,
-              "raw": "13"
+              "value": 13
             }
           ]
         }
@@ -863,15 +824,13 @@
             "type": "Literal",
             "start": 1428,
             "end": 1431,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 1435,
             "end": 1519,
-            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 12, 31, 5, 30, 13)) must return 365",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1997, 12, 31, 5, 30, 13)) must return 365'"
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 12, 31, 5, 30, 13)) must return 365"
           }
         ],
         "optional": false
@@ -920,43 +879,37 @@
               "type": "Literal",
               "start": 1556,
               "end": 1560,
-              "value": 1996,
-              "raw": "1996"
+              "value": 1996
             },
             {
               "type": "Literal",
               "start": 1562,
               "end": 1564,
-              "value": 12,
-              "raw": "12"
+              "value": 12
             },
             {
               "type": "Literal",
               "start": 1566,
               "end": 1568,
-              "value": 31,
-              "raw": "31"
+              "value": 31
             },
             {
               "type": "Literal",
               "start": 1570,
               "end": 1571,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             },
             {
               "type": "Literal",
               "start": 1573,
               "end": 1575,
-              "value": 30,
-              "raw": "30"
+              "value": 30
             },
             {
               "type": "Literal",
               "start": 1577,
               "end": 1579,
-              "value": 13,
-              "raw": "13"
+              "value": 13
             }
           ]
         }
@@ -1027,15 +980,13 @@
             "type": "Literal",
             "start": 1623,
             "end": 1626,
-            "value": 366,
-            "raw": "366"
+            "value": 366
           },
           {
             "type": "Literal",
             "start": 1630,
             "end": 1714,
-            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1996, 12, 31, 5, 30, 13)) must return 366",
-            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1996, 12, 31, 5, 30, 13)) must return 366'"
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1996, 12, 31, 5, 30, 13)) must return 366"
           }
         ],
         "optional": false

@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 406,
                 "end": 414,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 445,
                     "end": 521,
-                    "value": "#1: String.prototype.search.hasOwnProperty(\"length\") return true. Actual: ",
-                    "raw": "'#1: String.prototype.search.hasOwnProperty(\"length\") return true. Actual: '"
+                    "value": "#1: String.prototype.search.hasOwnProperty(\"length\") return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 563,
                         "end": 571,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -237,8 +234,7 @@
           "type": "Literal",
           "start": 788,
           "end": 789,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -269,8 +265,7 @@
                     "type": "Literal",
                     "start": 818,
                     "end": 870,
-                    "value": "#2: String.prototype.search.length === 1. Actual: ",
-                    "raw": "'#2: String.prototype.search.length === 1. Actual: '"
+                    "value": "#2: String.prototype.search.length === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

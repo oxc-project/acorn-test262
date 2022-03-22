@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 1838,
                   "end": 1862,
-                  "value": "ja-latn-hepburn-heploc",
-                  "raw": "\"ja-latn-hepburn-heploc\""
+                  "value": "ja-latn-hepburn-heploc"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1864,
                   "end": 1881,
-                  "value": "ja-Latn-alalc97",
-                  "raw": "\"ja-Latn-alalc97\""
+                  "value": "ja-Latn-alalc97"
                 },
                 "kind": "init"
               }
@@ -213,8 +211,7 @@
                             "type": "Literal",
                             "start": 2127,
                             "end": 2141,
-                            "value": "Test data \"",
-                            "raw": "\"Test data \\\"\""
+                            "value": "Test data \""
                           },
                           "operator": "+",
                           "right": {
@@ -229,8 +226,7 @@
                           "type": "Literal",
                           "start": 2163,
                           "end": 2225,
-                          "value": "\" is not canonicalized and structurally valid language tag.",
-                          "raw": "\"\\\" is not canonicalized and structurally valid language tag.\""
+                          "value": "\" is not canonicalized and structurally valid language tag."
                         }
                       }
                     ],
@@ -423,8 +419,7 @@
                         "type": "Literal",
                         "start": 2407,
                         "end": 2408,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -472,8 +467,7 @@
                           "type": "Literal",
                           "start": 2447,
                           "end": 2448,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false

@@ -55,15 +55,13 @@
             "type": "Literal",
             "start": 415,
             "end": 424,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 487,
-            "value": "The value of `typeof Boolean()` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean()` is expected to be \"boolean\"'"
+            "value": "The value of `typeof Boolean()` is expected to be \"boolean\""
           }
         ],
         "optional": false
@@ -118,8 +116,7 @@
                   "type": "Literal",
                   "start": 522,
                   "end": 523,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -129,15 +126,13 @@
             "type": "Literal",
             "start": 526,
             "end": 535,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           },
           {
             "type": "Literal",
             "start": 537,
             "end": 599,
-            "value": "The value of `typeof Boolean(1)` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean(1)` is expected to be \"boolean\"'"
+            "value": "The value of `typeof Boolean(1)` is expected to be \"boolean\""
           }
         ],
         "optional": false
@@ -203,8 +198,7 @@
                       "type": "Literal",
                       "start": 649,
                       "end": 652,
-                      "value": "1",
-                      "raw": "\"1\""
+                      "value": "1"
                     }
                   ]
                 }
@@ -216,15 +210,13 @@
             "type": "Literal",
             "start": 658,
             "end": 667,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           },
           {
             "type": "Literal",
             "start": 671,
             "end": 747,
-            "value": "The value of `typeof Boolean(new String(\"1\"))` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean(new String(\"1\"))` is expected to be \"boolean\"'"
+            "value": "The value of `typeof Boolean(new String(\"1\"))` is expected to be \"boolean\""
           }
         ],
         "optional": false
@@ -290,8 +282,7 @@
                       "type": "Literal",
                       "start": 798,
                       "end": 799,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   ]
                 }
@@ -303,15 +294,13 @@
             "type": "Literal",
             "start": 805,
             "end": 814,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           },
           {
             "type": "Literal",
             "start": 818,
             "end": 892,
-            "value": "The value of `typeof Boolean(new Object(1))` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof Boolean(new Object(1))` is expected to be \"boolean\"'"
+            "value": "The value of `typeof Boolean(new Object(1))` is expected to be \"boolean\""
           }
         ],
         "optional": false

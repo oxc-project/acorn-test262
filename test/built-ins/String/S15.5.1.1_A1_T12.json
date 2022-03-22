@@ -37,16 +37,14 @@
                   "type": "Literal",
                   "start": 374,
                   "end": 375,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "operator": "/",
                 "right": {
                   "type": "Literal",
                   "start": 378,
                   "end": 381,
-                  "value": "a",
-                  "raw": "\"a\""
+                  "value": "a"
                 }
               }
             ],
@@ -82,8 +80,7 @@
           "type": "Literal",
           "start": 495,
           "end": 503,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -114,8 +111,7 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 612,
-                    "value": "#1: __str = String(1/\"a\"); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(1/\"a\"); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#1: __str = String(1/\"a\"); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -158,8 +154,7 @@
           "type": "Literal",
           "start": 818,
           "end": 823,
-          "value": "NaN",
-          "raw": "\"NaN\""
+          "value": "NaN"
         }
       },
       "consequent": {
@@ -190,8 +185,7 @@
                     "type": "Literal",
                     "start": 852,
                     "end": 915,
-                    "value": "#2: __str = String(1/\"a\"); __str === \"NaN\". Actual: __str ===",
-                    "raw": "'#2: __str = String(1/\"a\"); __str === \"NaN\". Actual: __str ==='"
+                    "value": "#2: __str = String(1/\"a\"); __str === \"NaN\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -242,8 +236,7 @@
                 "type": "Literal",
                 "start": 1026,
                 "end": 1029,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               },
               "operator": "*",
               "right": {
@@ -285,8 +278,7 @@
           "type": "Literal",
           "start": 1150,
           "end": 1158,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -317,8 +309,7 @@
                     "type": "Literal",
                     "start": 1187,
                     "end": 1270,
-                    "value": "#3: __str = String(\"b\"*null); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#3: __str = String(\"b\"*null); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#3: __str = String(\"b\"*null); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -361,8 +352,7 @@
           "type": "Literal",
           "start": 1476,
           "end": 1481,
-          "value": "NaN",
-          "raw": "\"NaN\""
+          "value": "NaN"
         }
       },
       "consequent": {
@@ -393,8 +383,7 @@
                     "type": "Literal",
                     "start": 1510,
                     "end": 1576,
-                    "value": "#4: __str = String(\"b\"*null); __str === \"NaN\". Actual: __str ===",
-                    "raw": "'#4: __str = String(\"b\"*null); __str === \"NaN\". Actual: __str ==='"
+                    "value": "#4: __str = String(\"b\"*null); __str === \"NaN\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -487,8 +476,7 @@
           "type": "Literal",
           "start": 1811,
           "end": 1819,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -519,8 +507,7 @@
                     "type": "Literal",
                     "start": 1848,
                     "end": 1933,
-                    "value": "#5: __str = String(Number.NaN); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#5: __str = String(Number.NaN); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#5: __str = String(Number.NaN); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -563,8 +550,7 @@
           "type": "Literal",
           "start": 2139,
           "end": 2144,
-          "value": "NaN",
-          "raw": "\"NaN\""
+          "value": "NaN"
         }
       },
       "consequent": {
@@ -595,8 +581,7 @@
                     "type": "Literal",
                     "start": 2173,
                     "end": 2241,
-                    "value": "#6: __str = String(Number.NaN); __str === \"NaN\". Actual: __str ===",
-                    "raw": "'#6: __str = String(Number.NaN); __str === \"NaN\". Actual: __str ==='"
+                    "value": "#6: __str = String(Number.NaN); __str === \"NaN\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {

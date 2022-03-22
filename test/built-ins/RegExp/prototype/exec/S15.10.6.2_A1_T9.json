@@ -43,7 +43,6 @@
             "start": 492,
             "end": 498,
             "value": {},
-            "raw": "/1|12/",
             "regex": {
               "pattern": "1|12",
               "flags": ""
@@ -125,8 +124,7 @@
             "type": "Literal",
             "start": 544,
             "end": 574,
-            "value": "__re.exec() must return null",
-            "raw": "'__re.exec() must return null'"
+            "value": "__re.exec() must return null"
           }
         ],
         "optional": false

@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 438,
             "end": 441,
-            "value": "x",
-            "raw": "\"x\""
+            "value": "x"
           },
           {
             "type": "ObjectExpression",
@@ -156,8 +155,7 @@
                   "type": "Literal",
                   "start": 510,
                   "end": 511,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               },
               "property": {
@@ -174,15 +172,13 @@
             "type": "Literal",
             "start": 516,
             "end": 524,
-            "value": "number",
-            "raw": "\"number\""
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 526,
             "end": 540,
-            "value": "typeof (5).x",
-            "raw": "'typeof (5).x'"
+            "value": "typeof (5).x"
           }
         ],
         "optional": false

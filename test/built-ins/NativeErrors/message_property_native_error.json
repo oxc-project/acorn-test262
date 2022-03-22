@@ -88,8 +88,7 @@
               "type": "Literal",
               "start": 630,
               "end": 631,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -201,8 +200,7 @@
                   "type": "Literal",
                   "start": 719,
                   "end": 731,
-                  "value": "my-message",
-                  "raw": "\"my-message\""
+                  "value": "my-message"
                 }
               }
             ],
@@ -271,8 +269,7 @@
                   "type": "Literal",
                   "start": 797,
                   "end": 806,
-                  "value": "message",
-                  "raw": "\"message\""
+                  "value": "message"
                 },
                 {
                   "type": "Identifier",
@@ -309,8 +306,7 @@
                   "type": "Literal",
                   "start": 847,
                   "end": 856,
-                  "value": "message",
-                  "raw": "\"message\""
+                  "value": "message"
                 }
               ],
               "optional": false
@@ -341,8 +337,7 @@
                   "type": "Literal",
                   "start": 883,
                   "end": 892,
-                  "value": "message",
-                  "raw": "\"message\""
+                  "value": "message"
                 }
               ],
               "optional": false
@@ -373,8 +368,7 @@
                   "type": "Literal",
                   "start": 923,
                   "end": 932,
-                  "value": "message",
-                  "raw": "\"message\""
+                  "value": "message"
                 }
               ],
               "optional": false

@@ -331,8 +331,7 @@
             "type": "Literal",
             "start": 1036,
             "end": 1044,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false
@@ -420,8 +419,7 @@
             "type": "Literal",
             "start": 1117,
             "end": 1151,
-            "value": "performs ArgumentsListEvaluation",
-            "raw": "'performs ArgumentsListEvaluation'"
+            "value": "performs ArgumentsListEvaluation"
           }
         ],
         "optional": false

@@ -216,8 +216,7 @@
             "type": "Literal",
             "start": 530,
             "end": 540,
-            "value": "writable",
-            "raw": "\"writable\""
+            "value": "writable"
           },
           {
             "type": "ObjectExpression",
@@ -383,8 +382,7 @@
                 "type": "Literal",
                 "start": 673,
                 "end": 683,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -418,8 +416,7 @@
             "type": "Literal",
             "start": 710,
             "end": 720,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false

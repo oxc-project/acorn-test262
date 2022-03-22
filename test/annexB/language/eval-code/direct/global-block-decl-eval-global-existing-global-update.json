@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 1146,
             "end": 1149,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -91,8 +90,7 @@
                           "type": "Literal",
                           "start": 1182,
                           "end": 1200,
-                          "value": "Another function",
-                          "raw": "'Another function'"
+                          "value": "Another function"
                         }
                       }
                     ]
@@ -191,8 +189,7 @@
             "type": "Literal",
             "start": 1278,
             "end": 1331,
-            "value": "{ function f() { return \"function declaration\"; } }",
-            "raw": "'{ function f() { return \"function declaration\"; } }'"
+            "value": "{ function f() { return \"function declaration\"; } }"
           }
         ],
         "optional": false
@@ -243,8 +240,7 @@
             "type": "Literal",
             "start": 1363,
             "end": 1373,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -295,8 +291,7 @@
             "type": "Literal",
             "start": 1398,
             "end": 1420,
-            "value": "function declaration",
-            "raw": "'function declaration'"
+            "value": "function declaration"
           }
         ],
         "optional": false

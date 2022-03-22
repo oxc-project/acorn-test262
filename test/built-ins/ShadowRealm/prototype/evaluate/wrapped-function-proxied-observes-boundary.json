@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 359,
             "end": 369,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 446,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -220,8 +218,7 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 557,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               }
@@ -439,8 +436,7 @@
                                         "type": "Literal",
                                         "start": 777,
                                         "end": 778,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       },
                                       "kind": "init"
                                     }
@@ -530,8 +526,7 @@
             "type": "Literal",
             "start": 856,
             "end": 932,
-            "value": "Proxying a wrapped function and invoking it still performs boundary checks",
-            "raw": "'Proxying a wrapped function and invoking it still performs boundary checks'"
+            "value": "Proxying a wrapped function and invoking it still performs boundary checks"
           }
         ],
         "optional": false
@@ -579,8 +574,7 @@
               "type": "Literal",
               "start": 963,
               "end": 964,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -595,8 +589,7 @@
             "type": "Literal",
             "start": 978,
             "end": 1014,
-            "value": "proxy still calls the handler trap",
-            "raw": "'proxy still calls the handler trap'"
+            "value": "proxy still calls the handler trap"
           }
         ],
         "optional": false
@@ -653,8 +646,7 @@
             "type": "Literal",
             "start": 1051,
             "end": 1052,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

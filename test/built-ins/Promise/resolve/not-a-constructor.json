@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 743,
             "end": 793,
-            "value": "isConstructor(Promise.resolve) must return false",
-            "raw": "'isConstructor(Promise.resolve) must return false'"
+            "value": "isConstructor(Promise.resolve) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 858,
             "end": 900,
-            "value": "`new Promise.resolve()` throws TypeError",
-            "raw": "'`new Promise.resolve()` throws TypeError'"
+            "value": "`new Promise.resolve()` throws TypeError"
           }
         ],
         "optional": false

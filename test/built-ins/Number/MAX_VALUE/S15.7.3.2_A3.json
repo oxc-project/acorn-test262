@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 319,
             "end": 330,
-            "value": "MAX_VALUE",
-            "raw": "\"MAX_VALUE\""
+            "value": "MAX_VALUE"
           }
         ],
         "optional": false

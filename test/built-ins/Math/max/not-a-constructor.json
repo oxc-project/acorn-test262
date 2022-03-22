@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Math.max) must return false",
-            "raw": "'isConstructor(Math.max) must return false'"
+            "value": "isConstructor(Math.max) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Math.max()` throws TypeError",
-            "raw": "'`new Math.max()` throws TypeError'"
+            "value": "`new Math.max()` throws TypeError"
           }
         ],
         "optional": false

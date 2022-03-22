@@ -49,8 +49,7 @@
               "type": "Literal",
               "start": 720,
               "end": 721,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "kind": "init"
           }
@@ -75,8 +74,7 @@
               "type": "Literal",
               "start": 735,
               "end": 736,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
@@ -153,8 +151,7 @@
             "type": "Literal",
             "start": 789,
             "end": 790,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -205,15 +202,13 @@
             "type": "Literal",
             "start": 823,
             "end": 824,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 826,
             "end": 857,
-            "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "value": "reference from statement body"
           }
         ],
         "optional": false
@@ -257,15 +252,13 @@
             "type": "Literal",
             "start": 880,
             "end": 881,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 883,
             "end": 914,
-            "value": "reference following statement",
-            "raw": "'reference following statement'"
+            "value": "reference following statement"
           }
         ],
         "optional": false

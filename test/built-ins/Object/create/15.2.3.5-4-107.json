@@ -191,8 +191,7 @@
             "type": "Literal",
             "start": 556,
             "end": 570,
-            "value": "configurable",
-            "raw": "\"configurable\""
+            "value": "configurable"
           },
           {
             "type": "ObjectExpression",
@@ -372,8 +371,7 @@
                 "type": "Literal",
                 "start": 704,
                 "end": 710,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -407,8 +405,7 @@
             "type": "Literal",
             "start": 744,
             "end": 750,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           }
         ],
         "optional": false

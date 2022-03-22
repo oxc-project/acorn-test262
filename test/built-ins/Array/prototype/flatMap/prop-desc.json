@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 589,
             "end": 599,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 651,
-            "value": "`typeof Array.prototype.flatMap` is `function`",
-            "raw": "'`typeof Array.prototype.flatMap` is `function`'"
+            "value": "`typeof Array.prototype.flatMap` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 688,
             "end": 697,
-            "value": "flatMap",
-            "raw": "'flatMap'"
+            "value": "flatMap"
           },
           {
             "type": "ObjectExpression",

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 293,
             "end": 294,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -118,8 +117,7 @@
                   "type": "Literal",
                   "start": 377,
                   "end": 447,
-                  "value": "#1: var OBJECT = 0; (OBJECT = Object, {}) instanceof OBJECT === true",
-                  "raw": "'#1: var OBJECT = 0; (OBJECT = Object, {}) instanceof OBJECT === true'"
+                  "value": "#1: var OBJECT = 0; (OBJECT = Object, {}) instanceof OBJECT === true"
                 }
               ]
             }
@@ -196,8 +194,7 @@
                     "type": "Literal",
                     "start": 513,
                     "end": 514,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 {
@@ -243,8 +240,7 @@
                   "type": "Literal",
                   "start": 561,
                   "end": 632,
-                  "value": "#2: var object = {};  object instanceof (object = 0, Object) === true",
-                  "raw": "'#2: var object = {};  object instanceof (object = 0, Object) === true'"
+                  "value": "#2: var object = {};  object instanceof (object = 0, Object) === true"
                 }
               ]
             }

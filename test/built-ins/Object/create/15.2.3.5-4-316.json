@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 322,
               "end": 324,
-              "value": 20,
-              "raw": "20"
+              "value": 20
             }
           }
         ]
@@ -119,8 +118,7 @@
                       "type": "Literal",
                       "start": 387,
                       "end": 388,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "value": {
                       "type": "ObjectExpression",
@@ -144,8 +142,7 @@
                             "type": "Literal",
                             "start": 403,
                             "end": 406,
-                            "value": 100,
-                            "raw": "100"
+                            "value": 100
                           },
                           "kind": "init"
                         },
@@ -230,8 +227,7 @@
                       "type": "Literal",
                       "start": 480,
                       "end": 481,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "value": {
                       "type": "ObjectExpression",
@@ -339,8 +335,7 @@
                       "type": "Literal",
                       "start": 573,
                       "end": 574,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "value": {
                       "type": "ObjectExpression",
@@ -364,8 +359,7 @@
                             "type": "Literal",
                             "start": 589,
                             "end": 592,
-                            "value": 200,
-                            "raw": "200"
+                            "value": 200
                           },
                           "kind": "init"
                         },
@@ -490,8 +484,7 @@
               "type": "Literal",
               "start": 692,
               "end": 693,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -500,15 +493,13 @@
             "type": "Literal",
             "start": 696,
             "end": 699,
-            "value": 100,
-            "raw": "100"
+            "value": 100
           },
           {
             "type": "Literal",
             "start": 701,
             "end": 712,
-            "value": "newObj[0]",
-            "raw": "'newObj[0]'"
+            "value": "newObj[0]"
           }
         ],
         "optional": false
@@ -556,8 +547,7 @@
               "type": "Literal",
               "start": 739,
               "end": 740,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -566,15 +556,13 @@
             "type": "Literal",
             "start": 743,
             "end": 745,
-            "value": 20,
-            "raw": "20"
+            "value": 20
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 758,
-            "value": "newObj[1]",
-            "raw": "'newObj[1]'"
+            "value": "newObj[1]"
           }
         ],
         "optional": false
@@ -622,8 +610,7 @@
               "type": "Literal",
               "start": 785,
               "end": 786,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -632,15 +619,13 @@
             "type": "Literal",
             "start": 789,
             "end": 792,
-            "value": 200,
-            "raw": "200"
+            "value": 200
           },
           {
             "type": "Literal",
             "start": 794,
             "end": 805,
-            "value": "newObj[2]",
-            "raw": "'newObj[2]'"
+            "value": "newObj[2]"
           }
         ],
         "optional": false

@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 430,
                   "end": 437,
-                  "value": "flags",
-                  "raw": "\"flags\""
+                  "value": "flags"
                 }
               ],
               "optional": false
@@ -214,15 +213,13 @@
             "type": "Literal",
             "start": 510,
             "end": 512,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 533,
-            "value": "dotAll: undefined",
-            "raw": "\"dotAll: undefined\""
+            "value": "dotAll: undefined"
           }
         ],
         "optional": false
@@ -330,15 +327,13 @@
             "type": "Literal",
             "start": 584,
             "end": 586,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 602,
-            "value": "dotAll: null",
-            "raw": "\"dotAll: null\""
+            "value": "dotAll: null"
           }
         ],
         "optional": false
@@ -445,15 +440,13 @@
             "type": "Literal",
             "start": 652,
             "end": 654,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 669,
-            "value": "dotAll: NaN",
-            "raw": "\"dotAll: NaN\""
+            "value": "dotAll: NaN"
           }
         ],
         "optional": false
@@ -491,8 +484,7 @@
           "type": "Literal",
           "start": 684,
           "end": 686,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -561,15 +553,13 @@
             "type": "Literal",
             "start": 718,
             "end": 720,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 722,
             "end": 748,
-            "value": "dotAll: the empty string",
-            "raw": "\"dotAll: the empty string\""
+            "value": "dotAll: the empty string"
           }
         ],
         "optional": false
@@ -607,8 +597,7 @@
           "type": "Literal",
           "start": 763,
           "end": 771,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       }
     },
@@ -677,15 +666,13 @@
             "type": "Literal",
             "start": 803,
             "end": 806,
-            "value": "s",
-            "raw": "\"s\""
+            "value": "s"
           },
           {
             "type": "Literal",
             "start": 808,
             "end": 824,
-            "value": "dotAll: string",
-            "raw": "\"dotAll: string\""
+            "value": "dotAll: string"
           }
         ],
         "optional": false
@@ -723,8 +710,7 @@
           "type": "Literal",
           "start": 839,
           "end": 841,
-          "value": 86,
-          "raw": "86"
+          "value": 86
         }
       }
     },
@@ -793,15 +779,13 @@
             "type": "Literal",
             "start": 873,
             "end": 876,
-            "value": "s",
-            "raw": "\"s\""
+            "value": "s"
           },
           {
             "type": "Literal",
             "start": 878,
             "end": 890,
-            "value": "dotAll: 86",
-            "raw": "\"dotAll: 86\""
+            "value": "dotAll: 86"
           }
         ],
         "optional": false
@@ -915,15 +899,13 @@
             "type": "Literal",
             "start": 945,
             "end": 948,
-            "value": "s",
-            "raw": "\"s\""
+            "value": "s"
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 968,
-            "value": "dotAll: Symbol()",
-            "raw": "\"dotAll: Symbol()\""
+            "value": "dotAll: Symbol()"
           }
         ],
         "optional": false
@@ -1030,15 +1012,13 @@
             "type": "Literal",
             "start": 1017,
             "end": 1020,
-            "value": "s",
-            "raw": "\"s\""
+            "value": "s"
           },
           {
             "type": "Literal",
             "start": 1022,
             "end": 1034,
-            "value": "dotAll: []",
-            "raw": "\"dotAll: []\""
+            "value": "dotAll: []"
           }
         ],
         "optional": false
@@ -1145,15 +1125,13 @@
             "type": "Literal",
             "start": 1083,
             "end": 1086,
-            "value": "s",
-            "raw": "\"s\""
+            "value": "s"
           },
           {
             "type": "Literal",
             "start": 1088,
             "end": 1100,
-            "value": "dotAll: {}",
-            "raw": "\"dotAll: {}\""
+            "value": "dotAll: {}"
           }
         ],
         "optional": false

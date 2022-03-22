@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 2336,
                             "end": 2337,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 2360,
                         "end": 2361,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -123,8 +121,7 @@
                         "type": "Literal",
                         "start": 2379,
                         "end": 2380,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -362,8 +359,7 @@
                                         "type": "Literal",
                                         "start": 2590,
                                         "end": 2591,
-                                        "value": 8,
-                                        "raw": "8"
+                                        "value": 8
                                       },
                                       {
                                         "type": "Identifier",
@@ -383,8 +379,7 @@
                         "type": "Literal",
                         "start": 2608,
                         "end": 2653,
-                        "value": "abrupt completion from sample @@toPrimitive",
-                        "raw": "\"abrupt completion from sample @@toPrimitive\""
+                        "value": "abrupt completion from sample @@toPrimitive"
                       }
                     ],
                     "optional": false
@@ -428,15 +423,13 @@
                         "type": "Literal",
                         "start": 2689,
                         "end": 2690,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 2692,
                         "end": 2721,
-                        "value": "toPrimitive was called once",
-                        "raw": "\"toPrimitive was called once\""
+                        "value": "toPrimitive was called once"
                       }
                     ],
                     "optional": false
@@ -480,15 +473,13 @@
                         "type": "Literal",
                         "start": 2752,
                         "end": 2753,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 2755,
                         "end": 2788,
-                        "value": "it does not call sample.valueOf",
-                        "raw": "\"it does not call sample.valueOf\""
+                        "value": "it does not call sample.valueOf"
                       }
                     ],
                     "optional": false

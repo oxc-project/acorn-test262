@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 420,
                             "end": 425,
-                            "value": "map",
-                            "raw": "\"map\""
+                            "value": "map"
                           }
                         ],
                         "optional": false

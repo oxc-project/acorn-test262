@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 436,
             "end": 523,
-            "value": "The value of `delete Date.prototype.toLocaleTimeString.length` is expected to be true",
-            "raw": "'The value of `delete Date.prototype.toLocaleTimeString.length` is expected to be true'"
+            "value": "The value of `delete Date.prototype.toLocaleTimeString.length` is expected to be true"
           }
         ],
         "optional": false
@@ -176,8 +175,7 @@
                   "type": "Literal",
                   "start": 588,
                   "end": 596,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -187,8 +185,7 @@
             "type": "Literal",
             "start": 601,
             "end": 700,
-            "value": "The value of !Date.prototype.toLocaleTimeString.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !Date.prototype.toLocaleTimeString.hasOwnProperty(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.prototype.toLocaleTimeString.hasOwnProperty('length') is expected to be true"
           }
         ],
         "optional": false

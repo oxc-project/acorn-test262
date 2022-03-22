@@ -27,36 +27,31 @@
                 "type": "Literal",
                 "start": 633,
                 "end": 635,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 639,
                 "end": 642,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 646,
                 "end": 650,
-                "value": "ab",
-                "raw": "\"ab\""
+                "value": "ab"
               },
               {
                 "type": "Literal",
                 "start": 654,
                 "end": 665,
-                "value": "abcdefghi",
-                "raw": "\"abcdefghi\""
+                "value": "abcdefghi"
               },
               {
                 "type": "Literal",
                 "start": 669,
                 "end": 684,
-                "value": "abc-abcdefghi",
-                "raw": "\"abc-abcdefghi\""
+                "value": "abc-abcdefghi"
               }
             ]
           }
@@ -180,8 +175,7 @@
                               "type": "Literal",
                               "start": 814,
                               "end": 818,
-                              "value": "en",
-                              "raw": "\"en\""
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",
@@ -221,8 +215,7 @@
                   "type": "Literal",
                   "start": 863,
                   "end": 943,
-                  "value": "`new Intl.Locale(\"en\", {collation: invalidCollationOption})` throws RangeError",
-                  "raw": "'`new Intl.Locale(\"en\", {collation: invalidCollationOption})` throws RangeError'"
+                  "value": "`new Intl.Locale(\"en\", {collation: invalidCollationOption})` throws RangeError"
                 }
               ],
               "optional": false

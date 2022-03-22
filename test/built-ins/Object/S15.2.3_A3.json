@@ -58,8 +58,7 @@
                     "type": "Literal",
                     "start": 294,
                     "end": 302,
-                    "value": "length",
-                    "raw": "\"length\""
+                    "value": "length"
                   }
                 ],
                 "optional": false
@@ -70,8 +69,7 @@
             "type": "Literal",
             "start": 307,
             "end": 378,
-            "value": "The value of !!Object.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !!Object.hasOwnProperty(\"length\") is expected to be true'"
+            "value": "The value of !!Object.hasOwnProperty(\"length\") is expected to be true"
           }
         ],
         "optional": false
@@ -128,15 +126,13 @@
             "type": "Literal",
             "start": 415,
             "end": 416,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 418,
             "end": 466,
-            "value": "The value of Object.length is expected to be 1",
-            "raw": "'The value of Object.length is expected to be 1'"
+            "value": "The value of Object.length is expected to be 1"
           }
         ],
         "optional": false

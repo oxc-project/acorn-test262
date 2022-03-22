@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 493,
                 "end": 502,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,22 +97,19 @@
                 "type": "Literal",
                 "start": 537,
                 "end": 541,
-                "value": 1970,
-                "raw": "1970"
+                "value": 1970
               },
               {
                 "type": "Literal",
                 "start": 543,
                 "end": 544,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 546,
                 "end": 547,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -153,8 +149,7 @@
             "type": "Literal",
             "start": 567,
             "end": 568,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "CallExpression",
@@ -193,8 +188,7 @@
             "type": "Literal",
             "start": 588,
             "end": 647,
-            "value": "4 must return the same value returned by cal.dayOfWeek(d)",
-            "raw": "'4 must return the same value returned by cal.dayOfWeek(d)'"
+            "value": "4 must return the same value returned by cal.dayOfWeek(d)"
           }
         ],
         "optional": false
@@ -243,22 +237,19 @@
               "type": "Literal",
               "start": 677,
               "end": 681,
-              "value": 2021,
-              "raw": "2021"
+              "value": 2021
             },
             {
               "type": "Literal",
               "start": 683,
               "end": 684,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             {
               "type": "Literal",
               "start": 686,
               "end": 688,
-              "value": 15,
-              "raw": "15"
+              "value": 15
             }
           ]
         }
@@ -296,8 +287,7 @@
             "type": "Literal",
             "start": 708,
             "end": 709,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "CallExpression",
@@ -336,8 +326,7 @@
             "type": "Literal",
             "start": 729,
             "end": 788,
-            "value": "1 must return the same value returned by cal.dayOfWeek(d)",
-            "raw": "'1 must return the same value returned by cal.dayOfWeek(d)'"
+            "value": "1 must return the same value returned by cal.dayOfWeek(d)"
           }
         ],
         "optional": false
@@ -386,22 +375,19 @@
               "type": "Literal",
               "start": 818,
               "end": 822,
-              "value": 2021,
-              "raw": "2021"
+              "value": 2021
             },
             {
               "type": "Literal",
               "start": 824,
               "end": 825,
-              "value": 8,
-              "raw": "8"
+              "value": 8
             },
             {
               "type": "Literal",
               "start": 827,
               "end": 829,
-              "value": 15,
-              "raw": "15"
+              "value": 15
             }
           ]
         }
@@ -439,8 +425,7 @@
             "type": "Literal",
             "start": 849,
             "end": 850,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "CallExpression",
@@ -479,8 +464,7 @@
             "type": "Literal",
             "start": 870,
             "end": 929,
-            "value": "7 must return the same value returned by cal.dayOfWeek(d)",
-            "raw": "'7 must return the same value returned by cal.dayOfWeek(d)'"
+            "value": "7 must return the same value returned by cal.dayOfWeek(d)"
           }
         ],
         "optional": false

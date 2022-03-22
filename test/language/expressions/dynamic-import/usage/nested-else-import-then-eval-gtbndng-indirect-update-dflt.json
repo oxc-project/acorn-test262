@@ -61,8 +61,7 @@
                             "type": "Literal",
                             "start": 1581,
                             "end": 1629,
-                            "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js",
-                            "raw": "'./eval-gtbndng-indirect-update-dflt_FIXTURE.js'"
+                            "value": "./eval-gtbndng-indirect-update-dflt_FIXTURE.js"
                           }
                         },
                         "property": {
@@ -154,8 +153,7 @@
                                       "type": "Literal",
                                       "start": 1692,
                                       "end": 1693,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     }
                                   ],
                                   "optional": false
@@ -212,8 +210,7 @@
                                       "type": "Literal",
                                       "start": 1735,
                                       "end": 1736,
-                                      "value": 2,
-                                      "raw": "2"
+                                      "value": 2
                                     }
                                   ],
                                   "optional": false

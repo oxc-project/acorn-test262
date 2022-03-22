@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 490,
                 "end": 498,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 529,
                     "end": 606,
-                    "value": "#0: String.prototype.match.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.match.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#0: String.prototype.match.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 647,
                         "end": 655,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -266,8 +263,7 @@
                   "type": "Literal",
                   "start": 903,
                   "end": 957,
-                  "value": "#1: delete String.prototype.match.length return true",
-                  "raw": "'#1: delete String.prototype.match.length return true'"
+                  "value": "#1: delete String.prototype.match.length return true"
                 }
               ]
             }
@@ -334,8 +330,7 @@
             "type": "Literal",
             "start": 1176,
             "end": 1184,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         ],
         "optional": false
@@ -368,8 +363,7 @@
                     "type": "Literal",
                     "start": 1214,
                     "end": 1330,
-                    "value": "#2: delete String.prototype.match.length; String.prototype.match.hasOwnProperty('length') return false. Actual: ",
-                    "raw": "'#2: delete String.prototype.match.length; String.prototype.match.hasOwnProperty(\\'length\\') return false. Actual: '"
+                    "value": "#2: delete String.prototype.match.length; String.prototype.match.hasOwnProperty('length') return false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -426,8 +420,7 @@
                         "type": "Literal",
                         "start": 1371,
                         "end": 1379,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false

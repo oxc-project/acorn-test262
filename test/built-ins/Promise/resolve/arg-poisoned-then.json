@@ -97,8 +97,7 @@
             "type": "Literal",
             "start": 662,
             "end": 668,
-            "value": "then",
-            "raw": "'then'"
+            "value": "then"
           },
           {
             "type": "ObjectExpression",
@@ -250,8 +249,7 @@
                             "type": "Literal",
                             "start": 794,
                             "end": 870,
-                            "value": "Promise should be rejected when retrieving `then` property throws an error",
-                            "raw": "'Promise should be rejected when retrieving `then` property throws an error'"
+                            "value": "Promise should be rejected when retrieving `then` property throws an error"
                           }
                         ]
                       }

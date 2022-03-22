@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 246,
             "end": 256,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 258,
             "end": 289,
-            "value": "typeof URIError is \"function\"",
-            "raw": "'typeof URIError is \"function\"'"
+            "value": "typeof URIError is \"function\""
           }
         ],
         "optional": false

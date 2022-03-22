@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 833,
                 "end": 834,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 836,
                 "end": 837,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -94,15 +92,13 @@
             "type": "Literal",
             "start": 883,
             "end": 893,
-            "value": "overflow",
-            "raw": "\"overflow\""
+            "value": "overflow"
           },
           {
             "type": "Literal",
             "start": 895,
             "end": 906,
-            "value": "constrain",
-            "raw": "\"constrain\""
+            "value": "constrain"
           },
           {
             "type": "ArrowFunctionExpression",
@@ -166,8 +162,7 @@
                         "type": "Literal",
                         "start": 945,
                         "end": 946,
-                        "value": 8,
-                        "raw": "8"
+                        "value": 8
                       },
                       "kind": "init"
                     }
@@ -261,15 +256,13 @@
                   "type": "Literal",
                   "start": 1030,
                   "end": 1035,
-                  "value": "M05",
-                  "raw": "\"M05\""
+                  "value": "M05"
                 },
                 {
                   "type": "Literal",
                   "start": 1037,
                   "end": 1038,
-                  "value": 8,
-                  "raw": "8"
+                  "value": 8
                 },
                 {
                   "type": "Identifier",

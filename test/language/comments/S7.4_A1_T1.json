@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 364,
             "end": 365,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -67,15 +66,13 @@
             "type": "Literal",
             "start": 387,
             "end": 388,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 390,
             "end": 413,
-            "value": "The value of `x` is 0",
-            "raw": "'The value of `x` is 0'"
+            "value": "The value of `x` is 0"
           }
         ],
         "optional": false
@@ -145,8 +142,7 @@
             "type": "Literal",
             "start": 476,
             "end": 527,
-            "value": "The value of `y` is expected to equal `undefined`",
-            "raw": "'The value of `y` is expected to equal `undefined`'"
+            "value": "The value of `y` is expected to equal `undefined`"
           }
         ],
         "optional": false
@@ -241,8 +237,7 @@
             "type": "Literal",
             "start": 890,
             "end": 913,
-            "value": "isNaN(y) returns true",
-            "raw": "'isNaN(y) returns true'"
+            "value": "isNaN(y) returns true"
           }
         ],
         "optional": false

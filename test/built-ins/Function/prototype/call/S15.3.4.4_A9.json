@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 406,
                 "end": 414,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -82,8 +81,7 @@
             "type": "Literal",
             "start": 419,
             "end": 488,
-            "value": "Function.prototype.call.hasOwnProperty('length') must return true",
-            "raw": "'Function.prototype.call.hasOwnProperty(\\'length\\') must return true'"
+            "value": "Function.prototype.call.hasOwnProperty('length') must return true"
           }
         ],
         "optional": false
@@ -160,8 +158,7 @@
             "type": "Literal",
             "start": 544,
             "end": 619,
-            "value": "The value of delete Function.prototype.call.length is expected to be true",
-            "raw": "'The value of delete Function.prototype.call.length is expected to be true'"
+            "value": "The value of delete Function.prototype.call.length is expected to be true"
           }
         ],
         "optional": false
@@ -242,8 +239,7 @@
                   "type": "Literal",
                   "start": 674,
                   "end": 682,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -253,8 +249,7 @@
             "type": "Literal",
             "start": 687,
             "end": 776,
-            "value": "The value of !Function.prototype.call.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !Function.prototype.call.hasOwnProperty(\\'length\\') is expected to be true'"
+            "value": "The value of !Function.prototype.call.hasOwnProperty('length') is expected to be true"
           }
         ],
         "optional": false

@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 364,
             "end": 409,
-            "value": "Math.floor(+Infinity) must return +Infinity",
-            "raw": "'Math.floor(+Infinity) must return +Infinity'"
+            "value": "Math.floor(+Infinity) must return +Infinity"
           }
         ],
         "optional": false

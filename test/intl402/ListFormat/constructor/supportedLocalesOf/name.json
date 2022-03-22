@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 1140,
             "end": 1146,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -79,8 +78,7 @@
                   "type": "Literal",
                   "start": 1159,
                   "end": 1179,
-                  "value": "supportedLocalesOf",
-                  "raw": "\"supportedLocalesOf\""
+                  "value": "supportedLocalesOf"
                 },
                 "kind": "init"
               },

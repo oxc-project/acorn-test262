@@ -92,8 +92,7 @@
                     "type": "Literal",
                     "start": 481,
                     "end": 555,
-                    "value": "#1: String.prototype.toLocaleLowerCase.prototype === undefined. Actual: ",
-                    "raw": "'#1: String.prototype.toLocaleLowerCase.prototype === undefined. Actual: '"
+                    "value": "#1: String.prototype.toLocaleLowerCase.prototype === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

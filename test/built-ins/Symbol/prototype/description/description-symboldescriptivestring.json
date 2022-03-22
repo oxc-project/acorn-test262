@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 655,
                 "end": 660,
-                "value": "foo",
-                "raw": "'foo'"
+                "value": "foo"
               }
             ],
             "optional": false
@@ -94,15 +93,13 @@
             "type": "Literal",
             "start": 706,
             "end": 711,
-            "value": "foo",
-            "raw": "'foo'"
+            "value": "foo"
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 757,
-            "value": "The value of symbol.description is \"foo\"",
-            "raw": "'The value of symbol.description is \"foo\"'"
+            "value": "The value of symbol.description is \"foo\""
           }
         ],
         "optional": false

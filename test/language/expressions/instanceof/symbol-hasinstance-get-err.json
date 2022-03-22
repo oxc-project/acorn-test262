@@ -201,8 +201,7 @@
                       "type": "Literal",
                       "start": 601,
                       "end": 602,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "operator": "instanceof",
                     "right": {

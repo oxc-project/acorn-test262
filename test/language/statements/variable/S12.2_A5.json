@@ -100,8 +100,7 @@
             "type": "Literal",
             "start": 561,
             "end": 568,
-            "value": "var x",
-            "raw": "\"var x\""
+            "value": "var x"
           }
         ],
         "optional": false
@@ -179,8 +178,7 @@
                       "type": "Literal",
                       "start": 707,
                       "end": 810,
-                      "value": "#2: VariableDeclaration inside Eval statement is initialized when program reaches the eval statement ",
-                      "raw": "'#2: VariableDeclaration inside Eval statement is initialized when program reaches the eval statement '"
+                      "value": "#2: VariableDeclaration inside Eval statement is initialized when program reaches the eval statement "
                     },
                     "operator": "+",
                     "right": {

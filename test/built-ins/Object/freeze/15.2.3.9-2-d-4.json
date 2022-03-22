@@ -132,8 +132,7 @@
             "type": "Literal",
             "start": 317,
             "end": 352,
-            "value": "Object.isFrozen(boolObj) !== true",
-            "raw": "'Object.isFrozen(boolObj) !== true'"
+            "value": "Object.isFrozen(boolObj) !== true"
           }
         ],
         "optional": false

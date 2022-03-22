@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 581,
                   "end": 589,
-                  "value": "BigInt",
-                  "raw": "\"BigInt\""
+                  "value": "BigInt"
                 },
                 "kind": "init"
               },

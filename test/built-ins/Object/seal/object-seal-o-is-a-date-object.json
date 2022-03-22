@@ -149,8 +149,7 @@
             "type": "Literal",
             "start": 336,
             "end": 355,
-            "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "value": "preCheck !== true"
           }
         ],
         "optional": false
@@ -208,8 +207,7 @@
             "type": "Literal",
             "start": 391,
             "end": 426,
-            "value": "Object.isSealed(dateObj) !== true",
-            "raw": "'Object.isSealed(dateObj) !== true'"
+            "value": "Object.isSealed(dateObj) !== true"
           }
         ],
         "optional": false

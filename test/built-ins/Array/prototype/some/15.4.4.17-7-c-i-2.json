@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 353,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             },
             "consequent": {
@@ -195,8 +194,7 @@
             "type": "Literal",
             "start": 441,
             "end": 477,
-            "value": "[kValue].some(callbackfn) !== true",
-            "raw": "'[kValue].some(callbackfn) !== true'"
+            "value": "[kValue].some(callbackfn) !== true"
           }
         ],
         "optional": false

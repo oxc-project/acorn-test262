@@ -192,8 +192,7 @@
                 "type": "Literal",
                 "start": 422,
                 "end": 439,
-                "value": "hello\nworld\\!",
-                "raw": "\"hello\\nworld\\\\!\""
+                "value": "hello\nworld\\!"
               },
               {
                 "type": "Identifier",
@@ -205,8 +204,7 @@
                 "type": "Literal",
                 "start": 453,
                 "end": 456,
-                "value": "h",
-                "raw": "\"h\""
+                "value": "h"
               }
             ],
             "optional": false
@@ -215,8 +213,7 @@
             "type": "Literal",
             "start": 459,
             "end": 538,
-            "value": "Array.prototype.reduceRight.call(\"hello\nworld\\!\", callbackfn, \"h\") !== true",
-            "raw": "'Array.prototype.reduceRight.call(\"hello\\nworld\\\\!\", callbackfn, \"h\") !== true'"
+            "value": "Array.prototype.reduceRight.call(\"hello\nworld\\!\", callbackfn, \"h\") !== true"
           }
         ],
         "optional": false
@@ -247,8 +244,7 @@
             "type": "Literal",
             "start": 558,
             "end": 577,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

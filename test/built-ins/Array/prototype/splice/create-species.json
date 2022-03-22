@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 687,
             "end": 688,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -146,8 +145,7 @@
                       "type": "Literal",
                       "start": 748,
                       "end": 749,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -238,36 +236,31 @@
                 "type": "Literal",
                 "start": 822,
                 "end": 823,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 825,
                 "end": 826,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 828,
                 "end": 829,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 831,
                 "end": 832,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 834,
                 "end": 835,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -416,8 +409,7 @@
               "type": "Literal",
               "start": 915,
               "end": 916,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           ],
           "optional": false
@@ -462,15 +454,13 @@
             "type": "Literal",
             "start": 948,
             "end": 949,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 951,
             "end": 985,
-            "value": "Constructor invoked exactly once",
-            "raw": "'Constructor invoked exactly once'"
+            "value": "Constructor invoked exactly once"
           }
         ],
         "optional": false
@@ -611,15 +601,13 @@
             "type": "Literal",
             "start": 1086,
             "end": 1087,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1089,
             "end": 1133,
-            "value": "Constructor invoked with a single argument",
-            "raw": "'Constructor invoked with a single argument'"
+            "value": "Constructor invoked with a single argument"
           }
         ],
         "optional": false
@@ -667,8 +655,7 @@
               "type": "Literal",
               "start": 1158,
               "end": 1159,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -677,8 +664,7 @@
             "type": "Literal",
             "start": 1162,
             "end": 1163,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false

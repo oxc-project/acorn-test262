@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 320,
             "end": 321,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -123,8 +122,7 @@
           "type": "Literal",
           "start": 325,
           "end": 328,
-          "value": "x",
-          "raw": "\"x\""
+          "value": "x"
         }
       }
     },
@@ -151,8 +149,7 @@
             "type": "Literal",
             "start": 334,
             "end": 344,
-            "value": 4294967295,
-            "raw": "4294967295"
+            "value": 4294967295
           },
           "computed": true,
           "optional": false
@@ -161,8 +158,7 @@
           "type": "Literal",
           "start": 348,
           "end": 351,
-          "value": "y",
-          "raw": "\"y\""
+          "value": "y"
         }
       }
     },
@@ -198,8 +194,7 @@
           "type": "Literal",
           "start": 366,
           "end": 376,
-          "value": 4294967296,
-          "raw": "4294967296"
+          "value": 4294967296
         }
       }
     },
@@ -246,15 +241,13 @@
                 "type": "Literal",
                 "start": 399,
                 "end": 409,
-                "value": 4294967295,
-                "raw": "4294967295"
+                "value": 4294967295
               },
               {
                 "type": "Literal",
                 "start": 411,
                 "end": 412,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -295,8 +288,7 @@
           "type": "Literal",
           "start": 435,
           "end": 436,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -327,8 +319,7 @@
                     "type": "Literal",
                     "start": 465,
                     "end": 646,
-                    "value": "#1: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); arr.length === 1. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); arr.length === 1. Actual: '"
+                    "value": "#1: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); arr.length === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -395,8 +386,7 @@
           "type": "Literal",
           "start": 686,
           "end": 696,
-          "value": 4294967295,
-          "raw": "4294967295"
+          "value": 4294967295
         }
       },
       "consequent": {
@@ -427,8 +417,7 @@
                     "type": "Literal",
                     "start": 725,
                     "end": 915,
-                    "value": "#2: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj.length === 4294967295. Actual: ",
-                    "raw": "'#2: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj.length === 4294967295. Actual: '"
+                    "value": "#2: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj.length === 4294967295. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -485,8 +474,7 @@
             "type": "Literal",
             "start": 944,
             "end": 945,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -496,8 +484,7 @@
           "type": "Literal",
           "start": 951,
           "end": 954,
-          "value": "x",
-          "raw": "\"x\""
+          "value": "x"
         }
       },
       "consequent": {
@@ -528,8 +515,7 @@
                     "type": "Literal",
                     "start": 983,
                     "end": 1162,
-                    "value": "#3: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj[0] === \"x\". Actual: ",
-                    "raw": "'#3: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj[0] === \"x\". Actual: '"
+                    "value": "#3: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj[0] === \"x\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -550,8 +536,7 @@
                         "type": "Literal",
                         "start": 1170,
                         "end": 1171,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -587,8 +572,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1197,
-            "value": 4294967295,
-            "raw": "4294967295"
+            "value": 4294967295
           },
           "computed": true,
           "optional": false
@@ -629,8 +613,7 @@
                     "type": "Literal",
                     "start": 1241,
                     "end": 1435,
-                    "value": "#4: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj[4294967295] === undefined. Actual: ",
-                    "raw": "'#4: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj[4294967295] === undefined. Actual: '"
+                    "value": "#4: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); obj[4294967295] === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -651,8 +634,7 @@
                         "type": "Literal",
                         "start": 1443,
                         "end": 1453,
-                        "value": 4294967295,
-                        "raw": "4294967295"
+                        "value": 4294967295
                       },
                       "computed": true,
                       "optional": false
@@ -688,8 +670,7 @@
             "type": "Literal",
             "start": 1469,
             "end": 1470,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -699,8 +680,7 @@
           "type": "Literal",
           "start": 1476,
           "end": 1479,
-          "value": "y",
-          "raw": "\"y\""
+          "value": "y"
         }
       },
       "consequent": {
@@ -731,8 +711,7 @@
                     "type": "Literal",
                     "start": 1508,
                     "end": 1687,
-                    "value": "#5: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); arr[0] === \"y\". Actual: ",
-                    "raw": "'#5: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); arr[0] === \"y\". Actual: '"
+                    "value": "#5: var obj = {}; obj.splice = Array.prototype.splice; obj[0] = \"x\"; obj[4294967295] = \"y\"; obj.length = 4294967296; var arr = obj.splice(4294967295,1); arr[0] === \"y\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -753,8 +732,7 @@
                         "type": "Literal",
                         "start": 1695,
                         "end": 1696,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false

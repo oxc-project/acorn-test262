@@ -131,8 +131,7 @@
                 "type": "Literal",
                 "start": 933,
                 "end": 936,
-                "value": ";",
-                "raw": "';'"
+                "value": ";"
               }
             ]
           }
@@ -231,15 +230,13 @@
             "type": "Literal",
             "start": 995,
             "end": 996,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1000,
             "end": 1036,
-            "value": "prototype is a new ordinary object",
-            "raw": "'prototype is a new ordinary object'"
+            "value": "prototype is a new ordinary object"
           }
         ],
         "optional": false
@@ -314,8 +311,7 @@
                 "type": "Literal",
                 "start": 1089,
                 "end": 1102,
-                "value": "constructor",
-                "raw": "'constructor'"
+                "value": "constructor"
               }
             ],
             "optional": false
@@ -331,8 +327,7 @@
             "type": "Literal",
             "start": 1114,
             "end": 1154,
-            "value": "prototype has no constructor reference",
-            "raw": "'prototype has no constructor reference'"
+            "value": "prototype has no constructor reference"
           }
         ],
         "optional": false
@@ -363,8 +358,7 @@
             "type": "Literal",
             "start": 1184,
             "end": 1195,
-            "value": "prototype",
-            "raw": "'prototype'"
+            "value": "prototype"
           }
         ],
         "optional": false
@@ -395,8 +389,7 @@
             "type": "Literal",
             "start": 1218,
             "end": 1229,
-            "value": "prototype",
-            "raw": "'prototype'"
+            "value": "prototype"
           }
         ],
         "optional": false
@@ -427,8 +420,7 @@
             "type": "Literal",
             "start": 1259,
             "end": 1270,
-            "value": "prototype",
-            "raw": "'prototype'"
+            "value": "prototype"
           }
         ],
         "optional": false

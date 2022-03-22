@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 939,
                 "end": 959,
-                "value": "function fn() {}{}",
-                "raw": "'function fn() {}{}'"
+                "value": "function fn() {}{}"
               }
             ],
             "optional": false

@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 778,
             "end": 838,
-            "value": "isConstructor(Symbol.prototype.toString) must return false",
-            "raw": "'isConstructor(Symbol.prototype.toString) must return false'"
+            "value": "isConstructor(Symbol.prototype.toString) must return false"
           }
         ],
         "optional": false
@@ -212,8 +211,7 @@
             "type": "Literal",
             "start": 927,
             "end": 992,
-            "value": "`let symbol = Symbol(); new symbol.toString()` throws TypeError",
-            "raw": "'`let symbol = Symbol(); new symbol.toString()` throws TypeError'"
+            "value": "`let symbol = Symbol(); new symbol.toString()` throws TypeError"
           }
         ],
         "optional": false

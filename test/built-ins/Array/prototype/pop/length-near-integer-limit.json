@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 621,
                   "end": 639,
-                  "value": "9007199254740989",
-                  "raw": "\"9007199254740989\""
+                  "value": "9007199254740989"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 641,
                   "end": 659,
-                  "value": "9007199254740989",
-                  "raw": "\"9007199254740989\""
+                  "value": "9007199254740989"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 681,
-                  "value": "9007199254740990",
-                  "raw": "\"9007199254740990\""
+                  "value": "9007199254740990"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 683,
                   "end": 701,
-                  "value": "9007199254740990",
-                  "raw": "\"9007199254740990\""
+                  "value": "9007199254740990"
                 },
                 "kind": "init"
               },
@@ -80,15 +76,13 @@
                   "type": "Literal",
                   "start": 705,
                   "end": 723,
-                  "value": "9007199254740991",
-                  "raw": "\"9007199254740991\""
+                  "value": "9007199254740991"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 725,
                   "end": 743,
-                  "value": "9007199254740991",
-                  "raw": "\"9007199254740991\""
+                  "value": "9007199254740991"
                 },
                 "kind": "init"
               },
@@ -117,16 +111,14 @@
                       "type": "Literal",
                       "start": 755,
                       "end": 756,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "operator": "**",
                     "right": {
                       "type": "Literal",
                       "start": 760,
                       "end": 762,
-                      "value": 53,
-                      "raw": "53"
+                      "value": 53
                     }
                   },
                   "operator": "-",
@@ -134,8 +126,7 @@
                     "type": "Literal",
                     "start": 765,
                     "end": 766,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 "kind": "init"
@@ -262,15 +253,13 @@
             "type": "Literal",
             "start": 845,
             "end": 863,
-            "value": "9007199254740990",
-            "raw": "\"9007199254740990\""
+            "value": "9007199254740990"
           },
           {
             "type": "Literal",
             "start": 867,
             "end": 921,
-            "value": "arrayLike['9007199254740990'] is returned from pop()",
-            "raw": "\"arrayLike['9007199254740990'] is returned from pop()\""
+            "value": "arrayLike['9007199254740990'] is returned from pop()"
           }
         ],
         "optional": false
@@ -335,16 +324,14 @@
                 "type": "Literal",
                 "start": 960,
                 "end": 961,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               "operator": "**",
               "right": {
                 "type": "Literal",
                 "start": 965,
                 "end": 967,
-                "value": 53,
-                "raw": "53"
+                "value": 53
               }
             },
             "operator": "-",
@@ -352,16 +339,14 @@
               "type": "Literal",
               "start": 970,
               "end": 971,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           },
           {
             "type": "Literal",
             "start": 975,
             "end": 1010,
-            "value": "New arrayLike.length is 2**53 - 2",
-            "raw": "\"New arrayLike.length is 2**53 - 2\""
+            "value": "New arrayLike.length is 2**53 - 2"
           }
         ],
         "optional": false
@@ -409,8 +394,7 @@
               "type": "Literal",
               "start": 1041,
               "end": 1059,
-              "value": "9007199254740989",
-              "raw": "\"9007199254740989\""
+              "value": "9007199254740989"
             },
             "computed": true,
             "optional": false
@@ -419,15 +403,13 @@
             "type": "Literal",
             "start": 1062,
             "end": 1080,
-            "value": "9007199254740989",
-            "raw": "\"9007199254740989\""
+            "value": "9007199254740989"
           },
           {
             "type": "Literal",
             "start": 1084,
             "end": 1128,
-            "value": "arrayLike['9007199254740989'] is unchanged",
-            "raw": "\"arrayLike['9007199254740989'] is unchanged\""
+            "value": "arrayLike['9007199254740989'] is unchanged"
           }
         ],
         "optional": false
@@ -469,8 +451,7 @@
               "type": "Literal",
               "start": 1149,
               "end": 1167,
-              "value": "9007199254740990",
-              "raw": "\"9007199254740990\""
+              "value": "9007199254740990"
             },
             "operator": "in",
             "right": {
@@ -491,8 +472,7 @@
             "type": "Literal",
             "start": 1191,
             "end": 1233,
-            "value": "arrayLike['9007199254740990'] is removed",
-            "raw": "\"arrayLike['9007199254740990'] is removed\""
+            "value": "arrayLike['9007199254740990'] is removed"
           }
         ],
         "optional": false
@@ -540,8 +520,7 @@
               "type": "Literal",
               "start": 1264,
               "end": 1282,
-              "value": "9007199254740991",
-              "raw": "\"9007199254740991\""
+              "value": "9007199254740991"
             },
             "computed": true,
             "optional": false
@@ -550,15 +529,13 @@
             "type": "Literal",
             "start": 1285,
             "end": 1303,
-            "value": "9007199254740991",
-            "raw": "\"9007199254740991\""
+            "value": "9007199254740991"
           },
           {
             "type": "Literal",
             "start": 1307,
             "end": 1351,
-            "value": "arrayLike['9007199254740991'] is unchanged",
-            "raw": "\"arrayLike['9007199254740991'] is unchanged\""
+            "value": "arrayLike['9007199254740991'] is unchanged"
           }
         ],
         "optional": false

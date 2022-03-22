@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 528,
             "end": 539,
-            "value": "stringify",
-            "raw": "'stringify'"
+            "value": "stringify"
           },
           {
             "type": "ObjectExpression",

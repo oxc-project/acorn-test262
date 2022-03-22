@@ -47,15 +47,13 @@
                 "type": "Literal",
                 "start": 428,
                 "end": 429,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 445,
-                "value": "NumberFormat",
-                "raw": "'NumberFormat'"
+                "value": "NumberFormat"
               },
               {
                 "type": "ArrayExpression",

@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 360,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "ArrayExpression",
@@ -39,8 +38,7 @@
                     "type": "Literal",
                     "start": 363,
                     "end": 364,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "ArrayExpression",
@@ -51,8 +49,7 @@
                         "type": "Literal",
                         "start": 367,
                         "end": 368,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       {
                         "type": "ArrayExpression",
@@ -63,8 +60,7 @@
                             "type": "Literal",
                             "start": 371,
                             "end": 372,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ]
                       }
@@ -161,29 +157,25 @@
                 "type": "Literal",
                 "start": 432,
                 "end": 433,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 435,
                 "end": 436,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 439,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 441,
                 "end": 442,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ]
           },
@@ -191,8 +183,7 @@
             "type": "Literal",
             "start": 445,
             "end": 504,
-            "value": "a.flat(Number.POSITIVE_INFINITY) must return [1, 2, 3, 4]",
-            "raw": "'a.flat(Number.POSITIVE_INFINITY) must return [1, 2, 3, 4]'"
+            "value": "a.flat(Number.POSITIVE_INFINITY) must return [1, 2, 3, 4]"
           }
         ],
         "optional": false

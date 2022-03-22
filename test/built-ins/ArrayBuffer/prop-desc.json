@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 548,
             "end": 558,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 598,
-            "value": "`typeof ArrayBuffer` is `'function'`",
-            "raw": "\"`typeof ArrayBuffer` is `'function'`\""
+            "value": "`typeof ArrayBuffer` is `'function'`"
           }
         ],
         "optional": false
@@ -86,8 +84,7 @@
             "type": "Literal",
             "start": 623,
             "end": 636,
-            "value": "ArrayBuffer",
-            "raw": "\"ArrayBuffer\""
+            "value": "ArrayBuffer"
           },
           {
             "type": "ObjectExpression",

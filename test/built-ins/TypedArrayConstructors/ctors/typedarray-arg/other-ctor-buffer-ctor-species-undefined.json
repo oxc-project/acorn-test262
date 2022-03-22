@@ -382,8 +382,7 @@
                         "type": "Literal",
                         "start": 1210,
                         "end": 1263,
-                        "value": "buffer ctor is not called when species is undefined",
-                        "raw": "\"buffer ctor is not called when species is undefined\""
+                        "value": "buffer ctor is not called when species is undefined"
                       }
                     ],
                     "optional": false

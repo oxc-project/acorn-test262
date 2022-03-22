@@ -81,15 +81,13 @@
                             "type": "Literal",
                             "start": 535,
                             "end": 538,
-                            "value": " ",
-                            "raw": "\" \""
+                            "value": " "
                           },
                           {
                             "type": "Literal",
                             "start": 540,
                             "end": 567,
-                            "value": "'use strict'; eval = 42; ",
-                            "raw": "\"'use strict'; eval = 42; \""
+                            "value": "'use strict'; eval = 42; "
                           }
                         ]
                       }

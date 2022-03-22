@@ -34,16 +34,14 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 644,
-                  "value": "var f = 123;  assert.sameValue(f, 123);switch (1) {",
-                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'"
+                  "value": "var f = 123;  assert.sameValue(f, 123);switch (1) {"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 649,
                   "end": 661,
-                  "value": "  default:",
-                  "raw": "'  default:'"
+                  "value": "  default:"
                 }
               },
               "operator": "+",
@@ -51,8 +49,7 @@
                 "type": "Literal",
                 "start": 666,
                 "end": 689,
-                "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
+                "value": "    function f() {  }"
               }
             },
             "operator": "+",
@@ -60,8 +57,7 @@
               "type": "Literal",
               "start": 694,
               "end": 701,
-              "value": "}  ",
-              "raw": "'}\\\n  '"
+              "value": "}  "
             }
           }
         ],

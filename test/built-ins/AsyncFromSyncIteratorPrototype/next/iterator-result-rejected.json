@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 890,
                 "end": 901,
-                "value": "Catch me.",
-                "raw": "\"Catch me.\""
+                "value": "Catch me."
               }
             ]
           }
@@ -224,8 +223,7 @@
                             "type": "Literal",
                             "start": 1060,
                             "end": 1089,
-                            "value": "Promise should be rejected.",
-                            "raw": "\"Promise should be rejected.\""
+                            "value": "Promise should be rejected."
                           }
                         ]
                       }
@@ -298,8 +296,7 @@
                             "type": "Literal",
                             "start": 1155,
                             "end": 1201,
-                            "value": "Promise should be rejected with thrown error",
-                            "raw": "\"Promise should be rejected with thrown error\""
+                            "value": "Promise should be rejected with thrown error"
                           }
                         ],
                         "optional": false

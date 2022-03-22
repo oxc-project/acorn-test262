@@ -143,8 +143,7 @@
                         "type": "Literal",
                         "start": 485,
                         "end": 513,
-                        "value": "promise should be rejected",
-                        "raw": "'promise should be rejected'"
+                        "value": "promise should be rejected"
                       }
                     ],
                     "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 592,
                 "end": 595,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ],
             "optional": false
@@ -109,8 +108,7 @@
                             "type": "Literal",
                             "start": 667,
                             "end": 668,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -224,8 +222,7 @@
                             "type": "Literal",
                             "start": 751,
                             "end": 760,
-                            "value": "test262",
-                            "raw": "\"test262\""
+                            "value": "test262"
                           }
                         ],
                         "optional": false
@@ -241,8 +238,7 @@
                         "type": "Literal",
                         "start": 777,
                         "end": 845,
-                        "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"test262\") must return true",
-                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"test262\") must return true'"
+                        "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"test262\") must return true"
                       }
                     ],
                     "optional": false
@@ -299,15 +295,13 @@
                         "type": "Literal",
                         "start": 881,
                         "end": 890,
-                        "value": "test262",
-                        "raw": "\"test262\""
+                        "value": "test262"
                       },
                       {
                         "type": "Literal",
                         "start": 892,
                         "end": 929,
-                        "value": "The value of sample[s] is \"test262\"",
-                        "raw": "'The value of sample[s] is \"test262\"'"
+                        "value": "The value of sample[s] is \"test262\""
                       }
                     ],
                     "optional": false

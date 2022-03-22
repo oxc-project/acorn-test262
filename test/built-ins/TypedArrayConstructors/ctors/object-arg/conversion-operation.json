@@ -144,8 +144,7 @@
                           "type": "Literal",
                           "start": 2075,
                           "end": 2076,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -175,8 +174,7 @@
                             "type": "Literal",
                             "start": 2097,
                             "end": 2112,
-                            "value": " converts to ",
-                            "raw": "\" converts to \""
+                            "value": " converts to "
                           }
                         },
                         "operator": "+",

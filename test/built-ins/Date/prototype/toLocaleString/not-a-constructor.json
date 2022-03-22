@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 778,
             "end": 842,
-            "value": "isConstructor(Date.prototype.toLocaleString) must return false",
-            "raw": "'isConstructor(Date.prototype.toLocaleString) must return false'"
+            "value": "isConstructor(Date.prototype.toLocaleString) must return false"
           }
         ],
         "optional": false
@@ -238,8 +237,7 @@
             "type": "Literal",
             "start": 945,
             "end": 1024,
-            "value": "`let date = new Date(Date.now()); new date.toLocaleString()` throws TypeError",
-            "raw": "'`let date = new Date(Date.now()); new date.toLocaleString()` throws TypeError'"
+            "value": "`let date = new Date(Date.now()); new date.toLocaleString()` throws TypeError"
           }
         ],
         "optional": false

@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 506,
             "end": 514,
-            "value": "RegExp",
-            "raw": "\"RegExp\""
+            "value": "RegExp"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 538,
             "end": 546,
-            "value": "RegExp",
-            "raw": "\"RegExp\""
+            "value": "RegExp"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 574,
             "end": 582,
-            "value": "RegExp",
-            "raw": "\"RegExp\""
+            "value": "RegExp"
           }
         ],
         "optional": false

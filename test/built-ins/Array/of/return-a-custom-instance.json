@@ -86,22 +86,19 @@
                 "type": "Literal",
                 "start": 422,
                 "end": 428,
-                "value": "Mike",
-                "raw": "'Mike'"
+                "value": "Mike"
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 436,
-                "value": "Rick",
-                "raw": "'Rick'"
+                "value": "Rick"
               },
               {
                 "type": "Literal",
                 "start": 438,
                 "end": 443,
-                "value": "Leo",
-                "raw": "'Leo'"
+                "value": "Leo"
               }
             ],
             "optional": false
@@ -161,15 +158,13 @@
             "type": "Literal",
             "start": 480,
             "end": 481,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 531,
-            "value": "The value of coop.length is expected to be 3",
-            "raw": "'The value of coop.length is expected to be 3'"
+            "value": "The value of coop.length is expected to be 3"
           }
         ],
         "optional": false
@@ -217,8 +212,7 @@
               "type": "Literal",
               "start": 560,
               "end": 561,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -227,15 +221,13 @@
             "type": "Literal",
             "start": 564,
             "end": 570,
-            "value": "Mike",
-            "raw": "'Mike'"
+            "value": "Mike"
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 621,
-            "value": "The value of coop[0] is expected to be \"Mike\"",
-            "raw": "'The value of coop[0] is expected to be \"Mike\"'"
+            "value": "The value of coop[0] is expected to be \"Mike\""
           }
         ],
         "optional": false
@@ -283,8 +275,7 @@
               "type": "Literal",
               "start": 650,
               "end": 651,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -293,15 +284,13 @@
             "type": "Literal",
             "start": 654,
             "end": 660,
-            "value": "Rick",
-            "raw": "'Rick'"
+            "value": "Rick"
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 711,
-            "value": "The value of coop[1] is expected to be \"Rick\"",
-            "raw": "'The value of coop[1] is expected to be \"Rick\"'"
+            "value": "The value of coop[1] is expected to be \"Rick\""
           }
         ],
         "optional": false
@@ -349,8 +338,7 @@
               "type": "Literal",
               "start": 740,
               "end": 741,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -359,15 +347,13 @@
             "type": "Literal",
             "start": 744,
             "end": 749,
-            "value": "Leo",
-            "raw": "'Leo'"
+            "value": "Leo"
           },
           {
             "type": "Literal",
             "start": 753,
             "end": 799,
-            "value": "The value of coop[2] is expected to be \"Leo\"",
-            "raw": "'The value of coop[2] is expected to be \"Leo\"'"
+            "value": "The value of coop[2] is expected to be \"Leo\""
           }
         ],
         "optional": false
@@ -410,8 +396,7 @@
             "type": "Literal",
             "start": 832,
             "end": 904,
-            "value": "The result of evaluating (coop instanceof Coop) is expected to be true",
-            "raw": "'The result of evaluating (coop instanceof Coop) is expected to be true'"
+            "value": "The result of evaluating (coop instanceof Coop) is expected to be true"
           }
         ],
         "optional": false

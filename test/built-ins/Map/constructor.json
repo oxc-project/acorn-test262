@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 339,
             "end": 349,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 351,
             "end": 377,
-            "value": "typeof Map is \"function\"",
-            "raw": "'typeof Map is \"function\"'"
+            "value": "typeof Map is \"function\""
           }
         ],
         "optional": false

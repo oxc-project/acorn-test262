@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 561,
                 "end": 562,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -53,16 +52,14 @@
                   "type": "Literal",
                   "start": 572,
                   "end": 629,
-                  "value": "assert.sameValue(f(), \"outer declaration\");switch (1) {",
-                  "raw": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'"
+                  "value": "assert.sameValue(f(), \"outer declaration\");switch (1) {"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 634,
                   "end": 645,
-                  "value": "  case 1:",
-                  "raw": "'  case 1:'"
+                  "value": "  case 1:"
                 }
               },
               "operator": "+",
@@ -70,8 +67,7 @@
                 "type": "Literal",
                 "start": 650,
                 "end": 700,
-                "value": "    function f() { return \"inner declaration\"; }",
-                "raw": "'    function f() { return \"inner declaration\"; }'"
+                "value": "    function f() { return \"inner declaration\"; }"
               }
             },
             "operator": "+",
@@ -79,8 +75,7 @@
               "type": "Literal",
               "start": 705,
               "end": 764,
-              "value": "}  function f() {    return \"outer declaration\";  }",
-              "raw": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
+              "value": "}  function f() {    return \"outer declaration\";  }"
             }
           }
         ],

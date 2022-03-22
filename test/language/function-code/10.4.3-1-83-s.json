@@ -131,8 +131,7 @@
                               "type": "Literal",
                               "start": 398,
                               "end": 426,
-                              "value": "\"use strict\";return f();",
-                              "raw": "\"\\\"use strict\\\";return f();\""
+                              "value": "\"use strict\";return f();"
                             }
                           ],
                           "optional": false

@@ -107,8 +107,7 @@
             "type": "Literal",
             "start": 1362,
             "end": 1369,
-            "value": "arrow",
-            "raw": "'arrow'"
+            "value": "arrow"
           }
         ],
         "optional": false

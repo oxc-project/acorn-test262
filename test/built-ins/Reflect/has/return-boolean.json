@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 647,
                   "end": 649,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               }
@@ -113,8 +112,7 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 690,
-                "value": "p",
-                "raw": "'p'"
+                "value": "p"
               }
             ],
             "optional": false
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 699,
             "end": 723,
-            "value": "true from own property",
-            "raw": "'true from own property'"
+            "value": "true from own property"
           }
         ],
         "optional": false
@@ -199,8 +196,7 @@
                 "type": "Literal",
                 "start": 762,
                 "end": 765,
-                "value": "z",
-                "raw": "'z'"
+                "value": "z"
               }
             ],
             "optional": false
@@ -216,8 +212,7 @@
             "type": "Literal",
             "start": 777,
             "end": 813,
-            "value": "false when property is not present",
-            "raw": "'false when property is not present'"
+            "value": "false when property is not present"
           }
         ],
         "optional": false
@@ -284,8 +279,7 @@
                       "type": "Literal",
                       "start": 848,
                       "end": 850,
-                      "value": 42,
-                      "raw": "42"
+                      "value": 42
                     },
                     "kind": "init"
                   }
@@ -360,8 +354,7 @@
                 "type": "Literal",
                 "start": 888,
                 "end": 891,
-                "value": "p",
-                "raw": "'p'"
+                "value": "p"
               }
             ],
             "optional": false
@@ -377,8 +370,7 @@
             "type": "Literal",
             "start": 900,
             "end": 932,
-            "value": "true from a prototype property",
-            "raw": "'true from a prototype property'"
+            "value": "true from a prototype property"
           }
         ],
         "optional": false

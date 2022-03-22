@@ -145,8 +145,7 @@
             "type": "Literal",
             "start": 479,
             "end": 489,
-            "value": "existing",
-            "raw": "'existing'"
+            "value": "existing"
           },
           {
             "type": "Identifier",
@@ -238,8 +237,7 @@
                         "type": "Literal",
                         "start": 564,
                         "end": 575,
-                        "value": "brand new",
-                        "raw": "'brand new'"
+                        "value": "brand new"
                       },
                       {
                         "type": "Identifier",

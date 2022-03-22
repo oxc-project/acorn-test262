@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 569,
                 "end": 575,
-                "value": "size",
-                "raw": "'size'"
+                "value": "size"
               }
             ],
             "optional": false
@@ -139,15 +138,13 @@
             "type": "Literal",
             "start": 619,
             "end": 629,
-            "value": "get size",
-            "raw": "'get size'"
+            "value": "get size"
           },
           {
             "type": "Literal",
             "start": 633,
             "end": 683,
-            "value": "The value of `descriptor.get.name` is `get size`",
-            "raw": "'The value of `descriptor.get.name` is `get size`'"
+            "value": "The value of `descriptor.get.name` is `get size`"
           }
         ],
         "optional": false
@@ -191,8 +188,7 @@
             "type": "Literal",
             "start": 724,
             "end": 730,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -236,8 +232,7 @@
             "type": "Literal",
             "start": 767,
             "end": 773,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -281,8 +276,7 @@
             "type": "Literal",
             "start": 811,
             "end": 817,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

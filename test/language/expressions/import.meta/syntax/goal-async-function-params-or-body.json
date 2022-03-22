@@ -118,8 +118,7 @@
                         "type": "Literal",
                         "start": 560,
                         "end": 573,
-                        "value": "import.meta",
-                        "raw": "\"import.meta\""
+                        "value": "import.meta"
                       }
                     ],
                     "optional": false
@@ -132,8 +131,7 @@
             "type": "Literal",
             "start": 579,
             "end": 613,
-            "value": "import.meta in AsyncFunctionBody",
-            "raw": "\"import.meta in AsyncFunctionBody\""
+            "value": "import.meta in AsyncFunctionBody"
           }
         ],
         "optional": false
@@ -206,15 +204,13 @@
                         "type": "Literal",
                         "start": 675,
                         "end": 692,
-                        "value": "a = import.meta",
-                        "raw": "\"a = import.meta\""
+                        "value": "a = import.meta"
                       },
                       {
                         "type": "Literal",
                         "start": 694,
                         "end": 696,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -227,8 +223,7 @@
             "type": "Literal",
             "start": 702,
             "end": 735,
-            "value": "import.meta in FormalParameters",
-            "raw": "\"import.meta in FormalParameters\""
+            "value": "import.meta in FormalParameters"
           }
         ],
         "optional": false

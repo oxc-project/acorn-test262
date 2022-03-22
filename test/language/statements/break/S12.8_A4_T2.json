@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 346,
               "end": 347,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
@@ -44,8 +43,7 @@
               "type": "Literal",
               "start": 351,
               "end": 352,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
@@ -62,8 +60,7 @@
               "type": "Literal",
               "start": 357,
               "end": 358,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
@@ -80,8 +77,7 @@
               "type": "Literal",
               "start": 363,
               "end": 364,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -181,8 +177,7 @@
                               "type": "Literal",
                               "start": 431,
                               "end": 433,
-                              "value": 10,
-                              "raw": "10"
+                              "value": 10
                             }
                           },
                           "consequent": {
@@ -254,8 +249,7 @@
                                       "type": "Literal",
                                       "start": 519,
                                       "end": 521,
-                                      "value": 10,
-                                      "raw": "10"
+                                      "value": 10
                                     }
                                   },
                                   "consequent": {
@@ -312,8 +306,7 @@
                               "type": "Literal",
                               "start": 610,
                               "end": 611,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           },
                           "label": {
@@ -379,8 +372,7 @@
                       "type": "Literal",
                       "start": 682,
                       "end": 683,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   },
                   "label": {
@@ -414,8 +406,7 @@
                       "type": "Literal",
                       "start": 727,
                       "end": 728,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   },
                   "label": {
@@ -485,8 +476,7 @@
                 "type": "Literal",
                 "start": 858,
                 "end": 859,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -510,8 +500,7 @@
                 "type": "Literal",
                 "start": 867,
                 "end": 868,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -540,8 +529,7 @@
                 "type": "Literal",
                 "start": 877,
                 "end": 878,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -565,8 +553,7 @@
                 "type": "Literal",
                 "start": 886,
                 "end": 887,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           }
@@ -624,8 +611,7 @@
                                 "type": "Literal",
                                 "start": 916,
                                 "end": 982,
-                                "value": "#1: x === 1 and y === 1 and xx === 1 and yy === 0. Actual:  x===",
-                                "raw": "'#1: x === 1 and y === 1 and xx === 1 and yy === 0. Actual:  x==='"
+                                "value": "#1: x === 1 and y === 1 and xx === 1 and yy === 0. Actual:  x==="
                               },
                               "operator": "+",
                               "right": {
@@ -640,8 +626,7 @@
                               "type": "Literal",
                               "start": 985,
                               "end": 996,
-                              "value": " and y===",
-                              "raw": "' and y==='"
+                              "value": " and y==="
                             }
                           },
                           "operator": "+",
@@ -657,8 +642,7 @@
                           "type": "Literal",
                           "start": 999,
                           "end": 1011,
-                          "value": " and xx===",
-                          "raw": "' and xx==='"
+                          "value": " and xx==="
                         }
                       },
                       "operator": "+",
@@ -674,8 +658,7 @@
                       "type": "Literal",
                       "start": 1015,
                       "end": 1027,
-                      "value": " and yy===",
-                      "raw": "' and yy==='"
+                      "value": " and yy==="
                     }
                   },
                   "operator": "+",

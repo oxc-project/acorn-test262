@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 365,
             "end": 410,
-            "value": "Math.round(-Infinity) must return -Infinity",
-            "raw": "'Math.round(-Infinity) must return -Infinity'"
+            "value": "Math.round(-Infinity) must return -Infinity"
           }
         ],
         "optional": false

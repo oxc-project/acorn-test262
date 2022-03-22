@@ -383,8 +383,7 @@
                         "type": "Literal",
                         "start": 1219,
                         "end": 1267,
-                        "value": "buffer ctor is not called when species is null",
-                        "raw": "\"buffer ctor is not called when species is null\""
+                        "value": "buffer ctor is not called when species is null"
                       }
                     ],
                     "optional": false

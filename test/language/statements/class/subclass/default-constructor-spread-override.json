@@ -90,8 +90,7 @@
                       "type": "Literal",
                       "start": 375,
                       "end": 395,
-                      "value": "@@iterator invoked",
-                      "raw": "'@@iterator invoked'"
+                      "value": "@@iterator invoked"
                     }
                   ]
                 }
@@ -246,8 +245,7 @@
                 "type": "Literal",
                 "start": 529,
                 "end": 530,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -306,8 +304,7 @@
             "type": "Literal",
             "start": 567,
             "end": 568,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           }
         ],
         "optional": false

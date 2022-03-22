@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 606,
                 "end": 615,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -292,8 +291,7 @@
               "type": "Literal",
               "start": 763,
               "end": 768,
-              "value": "xId",
-              "raw": "'xId'"
+              "value": "xId"
             }
           }
         ],
@@ -364,15 +362,13 @@
             "type": "Literal",
             "start": 800,
             "end": 804,
-            "value": "id",
-            "raw": "'id'"
+            "value": "id"
           },
           {
             "type": "Literal",
             "start": 806,
             "end": 826,
-            "value": "via IdentifierName",
-            "raw": "'via IdentifierName'"
+            "value": "via IdentifierName"
           }
         ],
         "optional": false
@@ -416,8 +412,7 @@
             "type": "Literal",
             "start": 855,
             "end": 861,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -461,8 +456,7 @@
             "type": "Literal",
             "start": 888,
             "end": 894,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -506,8 +500,7 @@
             "type": "Literal",
             "start": 922,
             "end": 928,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -577,15 +570,13 @@
             "type": "Literal",
             "start": 966,
             "end": 968,
-            "value": "",
-            "raw": "''"
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 970,
             "end": 992,
-            "value": "via anonymous Symbol",
-            "raw": "'via anonymous Symbol'"
+            "value": "via anonymous Symbol"
           }
         ],
         "optional": false
@@ -629,8 +620,7 @@
             "type": "Literal",
             "start": 1027,
             "end": 1033,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -674,8 +664,7 @@
             "type": "Literal",
             "start": 1066,
             "end": 1072,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -719,8 +708,7 @@
             "type": "Literal",
             "start": 1106,
             "end": 1112,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -790,15 +778,13 @@
             "type": "Literal",
             "start": 1151,
             "end": 1162,
-            "value": "[test262]",
-            "raw": "'[test262]'"
+            "value": "[test262]"
           },
           {
             "type": "Literal",
             "start": 1164,
             "end": 1176,
-            "value": "via Symbol",
-            "raw": "'via Symbol'"
+            "value": "via Symbol"
           }
         ],
         "optional": false
@@ -842,8 +828,7 @@
             "type": "Literal",
             "start": 1212,
             "end": 1218,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -887,8 +872,7 @@
             "type": "Literal",
             "start": 1252,
             "end": 1258,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -932,8 +916,7 @@
             "type": "Literal",
             "start": 1293,
             "end": 1299,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

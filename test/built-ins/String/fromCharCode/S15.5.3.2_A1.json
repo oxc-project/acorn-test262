@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 398,
           "end": 408,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 524,
-                    "value": "#1: typeof String.fromCharCode === \"function\". Actual: typeof String.fromCharCode ===",
-                    "raw": "'#1: typeof String.fromCharCode === \"function\". Actual: typeof String.fromCharCode ==='"
+                    "value": "#1: typeof String.fromCharCode === \"function\". Actual: typeof String.fromCharCode ==="
                   },
                   "operator": "+",
                   "right": {
@@ -154,8 +152,7 @@
                 "type": "Literal",
                 "start": 758,
                 "end": 772,
-                "value": "fromCharCode",
-                "raw": "\"fromCharCode\""
+                "value": "fromCharCode"
               }
             ],
             "optional": false
@@ -190,8 +187,7 @@
                     "type": "Literal",
                     "start": 803,
                     "end": 868,
-                    "value": "#2: String.hasOwnProperty(\"fromCharCode\") return true. Actual: ",
-                    "raw": "'#2: String.hasOwnProperty(\"fromCharCode\") return true. Actual: '"
+                    "value": "#2: String.hasOwnProperty(\"fromCharCode\") return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -222,8 +218,7 @@
                         "type": "Literal",
                         "start": 893,
                         "end": 907,
-                        "value": "fromCharCode",
-                        "raw": "\"fromCharCode\""
+                        "value": "fromCharCode"
                       }
                     ],
                     "optional": false
@@ -281,8 +276,7 @@
           "type": "Literal",
           "start": 1120,
           "end": 1121,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -313,8 +307,7 @@
                     "type": "Literal",
                     "start": 1150,
                     "end": 1228,
-                    "value": "#3: String.fromCharCode.length === 1. Actual: String.fromCharCode.length ===",
-                    "raw": "'#3: String.fromCharCode.length === 1. Actual: String.fromCharCode.length ==='"
+                    "value": "#3: String.fromCharCode.length === 1. Actual: String.fromCharCode.length ==="
                   },
                   "operator": "+",
                   "right": {

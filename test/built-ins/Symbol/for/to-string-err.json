@@ -201,8 +201,7 @@
               "type": "Literal",
               "start": 473,
               "end": 476,
-              "value": "s",
-              "raw": "'s'"
+              "value": "s"
             }
           ],
           "optional": false

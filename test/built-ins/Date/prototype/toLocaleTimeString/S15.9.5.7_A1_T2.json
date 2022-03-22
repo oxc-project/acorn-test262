@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 413,
             "end": 481,
-            "value": "The value of delete Date.prototype.toLocaleTimeString is not false",
-            "raw": "'The value of delete Date.prototype.toLocaleTimeString is not false'"
+            "value": "The value of delete Date.prototype.toLocaleTimeString is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 527,
                   "end": 547,
-                  "value": "toLocaleTimeString",
-                  "raw": "'toLocaleTimeString'"
+                  "value": "toLocaleTimeString"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 552,
             "end": 644,
-            "value": "The value of !Date.prototype.hasOwnProperty('toLocaleTimeString') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'toLocaleTimeString\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('toLocaleTimeString') is expected to be true"
           }
         ],
         "optional": false

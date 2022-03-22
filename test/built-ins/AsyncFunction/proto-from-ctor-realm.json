@@ -207,8 +207,7 @@
                       "type": "Literal",
                       "start": 1212,
                       "end": 1238,
-                      "value": "(0, async function() {})",
-                      "raw": "'(0, async function() {})'"
+                      "value": "(0, async function() {})"
                     }
                   ],
                   "optional": false
@@ -475,8 +474,7 @@
             "type": "Literal",
             "start": 1462,
             "end": 1496,
-            "value": "newTarget.prototype is undefined",
-            "raw": "'newTarget.prototype is undefined'"
+            "value": "newTarget.prototype is undefined"
           }
         ],
         "optional": false
@@ -665,8 +663,7 @@
             "type": "Literal",
             "start": 1656,
             "end": 1685,
-            "value": "newTarget.prototype is null",
-            "raw": "'newTarget.prototype is null'"
+            "value": "newTarget.prototype is null"
           }
         ],
         "optional": false
@@ -855,8 +852,7 @@
             "type": "Literal",
             "start": 1845,
             "end": 1879,
-            "value": "newTarget.prototype is a Boolean",
-            "raw": "'newTarget.prototype is a Boolean'"
+            "value": "newTarget.prototype is a Boolean"
           }
         ],
         "optional": false
@@ -894,8 +890,7 @@
           "type": "Literal",
           "start": 1905,
           "end": 1907,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       }
     },
@@ -1045,8 +1040,7 @@
             "type": "Literal",
             "start": 2037,
             "end": 2070,
-            "value": "newTarget.prototype is a String",
-            "raw": "'newTarget.prototype is a String'"
+            "value": "newTarget.prototype is a String"
           }
         ],
         "optional": false
@@ -1241,8 +1235,7 @@
             "type": "Literal",
             "start": 2234,
             "end": 2267,
-            "value": "newTarget.prototype is a Symbol",
-            "raw": "'newTarget.prototype is a Symbol'"
+            "value": "newTarget.prototype is a Symbol"
           }
         ],
         "optional": false
@@ -1280,8 +1273,7 @@
           "type": "Literal",
           "start": 2293,
           "end": 2294,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -1431,8 +1423,7 @@
             "type": "Literal",
             "start": 2424,
             "end": 2457,
-            "value": "newTarget.prototype is a Number",
-            "raw": "'newTarget.prototype is a Number'"
+            "value": "newTarget.prototype is a Number"
           }
         ],
         "optional": false

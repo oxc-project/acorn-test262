@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 390,
             "end": 399,
-            "value": "monster",
-            "raw": "\"monster\""
+            "value": "monster"
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 416,
             "end": 426,
-            "value": "predator",
-            "raw": "\"predator\""
+            "value": "predator"
           }
         }
       ],
@@ -171,8 +169,7 @@
                     "type": "Literal",
                     "start": 530,
                     "end": 594,
-                    "value": "#0: __PROTO.type=__MONSTER does not lead to throwing exception",
-                    "raw": "'#0: __PROTO.type=__MONSTER does not lead to throwing exception'"
+                    "value": "#0: __PROTO.type=__MONSTER does not lead to throwing exception"
                   }
                 ]
               }
@@ -357,8 +354,7 @@
                   "type": "Literal",
                   "start": 850,
                   "end": 901,
-                  "value": "#1: __PROTO.isPrototypeOf(__monster) must be true",
-                  "raw": "'#1: __PROTO.isPrototypeOf(__monster) must be true'"
+                  "value": "#1: __PROTO.isPrototypeOf(__monster) must be true"
                 }
               ]
             }
@@ -430,8 +426,7 @@
                     "type": "Literal",
                     "start": 1137,
                     "end": 1198,
-                    "value": "#2: __monster.type ===__MONSTER. Actual: __monster.type ===",
-                    "raw": "'#2: __monster.type ===__MONSTER. Actual: __monster.type ==='"
+                    "value": "#2: __monster.type ===__MONSTER. Actual: __monster.type ==="
                   },
                   "operator": "+",
                   "right": {

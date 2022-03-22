@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 303,
             "end": 311,
-            "value": "notify",
-            "raw": "'notify'"
+            "value": "notify"
           },
           {
             "type": "ObjectExpression",

@@ -91,29 +91,25 @@
                 "type": "Literal",
                 "start": 495,
                 "end": 496,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 498,
                 "end": 499,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 501,
                 "end": 502,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 504,
                 "end": 505,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -164,22 +160,19 @@
                 "type": "Literal",
                 "start": 550,
                 "end": 554,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 556,
                 "end": 557,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 559,
                 "end": 560,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Identifier",
@@ -279,8 +272,7 @@
                   "type": "Literal",
                   "start": 637,
                   "end": 643,
-                  "value": "days",
-                  "raw": "\"days\""
+                  "value": "days"
                 },
                 "kind": "init"
               },
@@ -354,16 +346,14 @@
               "type": "Literal",
               "start": 695,
               "end": 696,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 756,
-            "value": "assertions in calendar.dateAdd() should have been tested",
-            "raw": "\"assertions in calendar.dateAdd() should have been tested\""
+            "value": "assertions in calendar.dateAdd() should have been tested"
           }
         ],
         "optional": false

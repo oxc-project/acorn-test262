@@ -31,7 +31,6 @@
                 "start": 402,
                 "end": 408,
                 "value": {},
-                "raw": "/^xxx/",
                 "regex": {
                   "pattern": "^xxx",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 414,
                 "end": 421,
-                "value": "yyyyy",
-                "raw": "\"yyyyy\""
+                "value": "yyyyy"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 445,
             "end": 494,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

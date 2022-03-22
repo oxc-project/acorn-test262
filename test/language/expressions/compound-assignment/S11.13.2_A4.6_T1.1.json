@@ -90,8 +90,7 @@
           "type": "Literal",
           "start": 369,
           "end": 370,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -122,8 +121,7 @@
                     "type": "Literal",
                     "start": 399,
                     "end": 444,
-                    "value": "#1: x = true; x <<= true; x === 2. Actual: ",
-                    "raw": "'#1: x = true; x <<= true; x === 2. Actual: '"
+                    "value": "#1: x = true; x <<= true; x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -225,8 +223,7 @@
           "type": "Literal",
           "start": 511,
           "end": 512,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -257,8 +254,7 @@
                     "type": "Literal",
                     "start": 541,
                     "end": 599,
-                    "value": "#2: x = new Boolean(true); x <<= true; x === 2. Actual: ",
-                    "raw": "'#2: x = new Boolean(true); x <<= true; x === 2. Actual: '"
+                    "value": "#2: x = new Boolean(true); x <<= true; x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -360,8 +356,7 @@
           "type": "Literal",
           "start": 666,
           "end": 667,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -392,8 +387,7 @@
                     "type": "Literal",
                     "start": 696,
                     "end": 754,
-                    "value": "#3: x = true; x <<= new Boolean(true); x === 2. Actual: ",
-                    "raw": "'#3: x = true; x <<= new Boolean(true); x === 2. Actual: '"
+                    "value": "#3: x = true; x <<= new Boolean(true); x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -508,8 +502,7 @@
           "type": "Literal",
           "start": 834,
           "end": 835,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -540,8 +533,7 @@
                     "type": "Literal",
                     "start": 864,
                     "end": 935,
-                    "value": "#4: x = new Boolean(true); x <<= new Boolean(true); x === 2. Actual: ",
-                    "raw": "'#4: x = new Boolean(true); x <<= new Boolean(true); x === 2. Actual: '"
+                    "value": "#4: x = new Boolean(true); x <<= new Boolean(true); x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {

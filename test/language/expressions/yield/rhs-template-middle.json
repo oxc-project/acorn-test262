@@ -123,8 +123,7 @@
                     "type": "Literal",
                     "start": 520,
                     "end": 521,
-                    "value": 4,
-                    "raw": "4"
+                    "value": 4
                   }
                 ],
                 "quasis": [
@@ -264,8 +263,7 @@
             "type": "Literal",
             "start": 596,
             "end": 624,
-            "value": "generator initially paused",
-            "raw": "'generator initially paused'"
+            "value": "generator initially paused"
           }
         ],
         "optional": false
@@ -315,8 +313,7 @@
             "type": "Literal",
             "start": 660,
             "end": 690,
-            "value": "first statement not executed",
-            "raw": "'first statement not executed'"
+            "value": "first statement not executed"
           }
         ],
         "optional": false
@@ -410,8 +407,7 @@
             "type": "Literal",
             "start": 755,
             "end": 794,
-            "value": "generator paused following expression",
-            "raw": "'generator paused following expression'"
+            "value": "generator paused following expression"
           }
         ],
         "optional": false
@@ -461,8 +457,7 @@
             "type": "Literal",
             "start": 830,
             "end": 860,
-            "value": "first statement not executed",
-            "raw": "'first statement not executed'"
+            "value": "first statement not executed"
           }
         ],
         "optional": false
@@ -526,8 +521,7 @@
             "type": "Literal",
             "start": 905,
             "end": 929,
-            "value": "iteration not complete",
-            "raw": "'iteration not complete'"
+            "value": "iteration not complete"
           }
         ],
         "optional": false
@@ -590,8 +584,7 @@
             "type": "Literal",
             "start": 978,
             "end": 1000,
-            "value": "first iterated value",
-            "raw": "'first iterated value'"
+            "value": "first iterated value"
           }
         ],
         "optional": false
@@ -640,8 +633,7 @@
               "type": "Literal",
               "start": 1027,
               "end": 1028,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           ],
           "optional": false
@@ -686,15 +678,13 @@
             "type": "Literal",
             "start": 1054,
             "end": 1061,
-            "value": "12345",
-            "raw": "'12345'"
+            "value": "12345"
           },
           {
             "type": "Literal",
             "start": 1063,
             "end": 1086,
-            "value": "YieldExpression value",
-            "raw": "'YieldExpression value'"
+            "value": "YieldExpression value"
           }
         ],
         "optional": false
@@ -745,8 +735,7 @@
             "type": "Literal",
             "start": 1122,
             "end": 1154,
-            "value": "generator correctly re-started",
-            "raw": "'generator correctly re-started'"
+            "value": "generator correctly re-started"
           }
         ],
         "optional": false
@@ -810,8 +799,7 @@
             "type": "Literal",
             "start": 1197,
             "end": 1217,
-            "value": "iteration complete",
-            "raw": "'iteration complete'"
+            "value": "iteration complete"
           }
         ],
         "optional": false
@@ -874,8 +862,7 @@
             "type": "Literal",
             "start": 1266,
             "end": 1289,
-            "value": "second iterated value",
-            "raw": "'second iterated value'"
+            "value": "second iterated value"
           }
         ],
         "optional": false

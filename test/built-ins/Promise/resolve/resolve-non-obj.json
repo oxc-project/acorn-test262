@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 516,
-                "value": 23,
-                "raw": "23"
+                "value": 23
               }
             ],
             "optional": false
@@ -99,8 +98,7 @@
                       "type": "Literal",
                       "start": 557,
                       "end": 559,
-                      "value": 23,
-                      "raw": "23"
+                      "value": 23
                     }
                   },
                   "consequent": {
@@ -127,8 +125,7 @@
                               "type": "Literal",
                               "start": 573,
                               "end": 631,
-                              "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "value": "The promise should be fulfilled with the provided value."
                             }
                           ],
                           "optional": false
@@ -198,8 +195,7 @@
                         "type": "Literal",
                         "start": 686,
                         "end": 723,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

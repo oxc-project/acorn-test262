@@ -50,8 +50,7 @@
                   "type": "Literal",
                   "start": 551,
                   "end": 555,
-                  "value": "en",
-                  "raw": "'en'"
+                  "value": "en"
                 }
               ]
             },
@@ -138,8 +137,7 @@
                 "type": "Literal",
                 "start": 614,
                 "end": 625,
-                "value": "direction",
-                "raw": "'direction'"
+                "value": "direction"
               }
             ]
           }
@@ -172,8 +170,7 @@
             "type": "Literal",
             "start": 653,
             "end": 664,
-            "value": "direction",
-            "raw": "'direction'"
+            "value": "direction"
           },
           {
             "type": "ObjectExpression",
@@ -303,8 +300,7 @@
                     "type": "Literal",
                     "start": 766,
                     "end": 770,
-                    "value": "en",
-                    "raw": "'en'"
+                    "value": "en"
                   }
                 ]
               },
@@ -364,8 +360,7 @@
                 "type": "Literal",
                 "start": 816,
                 "end": 821,
-                "value": "rtl",
-                "raw": "'rtl'"
+                "value": "rtl"
               }
             },
             "operator": "||",
@@ -384,8 +379,7 @@
                 "type": "Literal",
                 "start": 839,
                 "end": 844,
-                "value": "ltr",
-                "raw": "'ltr'"
+                "value": "ltr"
               }
             }
           },
@@ -393,8 +387,7 @@
             "type": "Literal",
             "start": 848,
             "end": 883,
-            "value": "value of the `direction` property",
-            "raw": "'value of the `direction` property'"
+            "value": "value of the `direction` property"
           }
         ],
         "optional": false

@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 388,
             "end": 446,
-            "value": "The value of delete Date.prototype.getHours is not false",
-            "raw": "'The value of delete Date.prototype.getHours is not false'"
+            "value": "The value of delete Date.prototype.getHours is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 491,
                   "end": 501,
-                  "value": "getHours",
-                  "raw": "'getHours'"
+                  "value": "getHours"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 506,
             "end": 588,
-            "value": "The value of !Date.prototype.hasOwnProperty('getHours') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'getHours\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('getHours') is expected to be true"
           }
         ],
         "optional": false

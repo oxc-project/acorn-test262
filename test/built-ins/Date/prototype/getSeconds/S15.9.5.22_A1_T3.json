@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 344,
                   "end": 356,
-                  "value": "getSeconds",
-                  "raw": "'getSeconds'"
+                  "value": "getSeconds"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 361,
             "end": 451,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('getSeconds') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getSeconds\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getSeconds') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 513,
                   "end": 525,
-                  "value": "getSeconds",
-                  "raw": "\"getSeconds\""
+                  "value": "getSeconds"
                 },
                 {
                   "type": "Literal",
                   "start": 527,
                   "end": 563,
-                  "value": "The value of x is not \"getSeconds\"",
-                  "raw": "'The value of x is not \"getSeconds\"'"
+                  "value": "The value of x is not \"getSeconds\""
                 }
               ],
               "optional": false

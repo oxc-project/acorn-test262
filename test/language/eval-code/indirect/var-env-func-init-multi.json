@@ -44,8 +44,7 @@
                 "type": "Literal",
                 "start": 955,
                 "end": 956,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -61,8 +60,7 @@
             "type": "Literal",
             "start": 963,
             "end": 1044,
-            "value": "initial = f; function f() { return \"first\"; } function f() { return \"second\"; }",
-            "raw": "'initial = f; function f() { return \"first\"; } function f() { return \"second\"; }'"
+            "value": "initial = f; function f() { return \"first\"; } function f() { return \"second\"; }"
           }
         ],
         "optional": false
@@ -113,15 +111,13 @@
             "type": "Literal",
             "start": 1076,
             "end": 1084,
-            "value": "second",
-            "raw": "'second'"
+            "value": "second"
           },
           {
             "type": "Literal",
             "start": 1086,
             "end": 1101,
-            "value": "initial value",
-            "raw": "'initial value'"
+            "value": "initial value"
           }
         ],
         "optional": false
@@ -172,15 +168,13 @@
             "type": "Literal",
             "start": 1126,
             "end": 1134,
-            "value": "second",
-            "raw": "'second'"
+            "value": "second"
           },
           {
             "type": "Literal",
             "start": 1136,
             "end": 1176,
-            "value": "value following declaration evaluation",
-            "raw": "'value following declaration evaluation'"
+            "value": "value following declaration evaluation"
           }
         ],
         "optional": false

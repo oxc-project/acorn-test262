@@ -223,8 +223,7 @@
                 "type": "Literal",
                 "start": 623,
                 "end": 629,
-                "value": "attr",
-                "raw": "\"attr\""
+                "value": "attr"
               },
               {
                 "type": "ObjectExpression",
@@ -314,8 +313,7 @@
                       "type": "Literal",
                       "start": 702,
                       "end": 703,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   }
@@ -373,8 +371,7 @@
             "type": "Literal",
             "start": 740,
             "end": 757,
-            "value": "result === true",
-            "raw": "\"result === true\""
+            "value": "result === true"
           }
         ],
         "optional": false
@@ -405,15 +402,13 @@
             "type": "Literal",
             "start": 783,
             "end": 789,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           },
           {
             "type": "Literal",
             "start": 791,
             "end": 792,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -444,8 +439,7 @@
             "type": "Literal",
             "start": 818,
             "end": 824,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           }
         ],
         "optional": false
@@ -476,8 +470,7 @@
             "type": "Literal",
             "start": 852,
             "end": 858,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           }
         ],
         "optional": false
@@ -508,8 +501,7 @@
             "type": "Literal",
             "start": 888,
             "end": 894,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           }
         ],
         "optional": false
@@ -564,8 +556,7 @@
               "type": "Literal",
               "start": 933,
               "end": 939,
-              "value": "attr",
-              "raw": "\"attr\""
+              "value": "attr"
             },
             {
               "type": "ObjectExpression",
@@ -655,8 +646,7 @@
                     "type": "Literal",
                     "start": 1015,
                     "end": 1016,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   "kind": "init"
                 }
@@ -712,8 +702,7 @@
             "type": "Literal",
             "start": 1053,
             "end": 1070,
-            "value": "result === true",
-            "raw": "\"result === true\""
+            "value": "result === true"
           }
         ],
         "optional": false
@@ -744,15 +733,13 @@
             "type": "Literal",
             "start": 1096,
             "end": 1102,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           },
           {
             "type": "Literal",
             "start": 1104,
             "end": 1105,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -783,8 +770,7 @@
             "type": "Literal",
             "start": 1134,
             "end": 1140,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           }
         ],
         "optional": false
@@ -815,8 +801,7 @@
             "type": "Literal",
             "start": 1171,
             "end": 1177,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           }
         ],
         "optional": false
@@ -847,8 +832,7 @@
             "type": "Literal",
             "start": 1210,
             "end": 1216,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           }
         ],
         "optional": false

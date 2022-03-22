@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 779,
             "end": 827,
-            "value": "isConstructor(Object.hasOwn) must return false",
-            "raw": "'isConstructor(Object.hasOwn) must return false'"
+            "value": "isConstructor(Object.hasOwn) must return false"
           }
         ],
         "optional": false
@@ -162,8 +161,7 @@
                         "type": "Literal",
                         "start": 885,
                         "end": 887,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ]
                   }
@@ -175,8 +173,7 @@
             "type": "Literal",
             "start": 893,
             "end": 937,
-            "value": "`new Object.hasOwn('')` throws TypeError",
-            "raw": "'`new Object.hasOwn(\\'\\')` throws TypeError'"
+            "value": "`new Object.hasOwn('')` throws TypeError"
           }
         ],
         "optional": false

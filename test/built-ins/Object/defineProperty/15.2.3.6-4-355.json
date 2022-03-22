@@ -92,8 +92,7 @@
             "type": "Literal",
             "start": 378,
             "end": 384,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -117,8 +116,7 @@
                   "type": "Literal",
                   "start": 397,
                   "end": 401,
-                  "value": 2010,
-                  "raw": "2010"
+                  "value": 2010
                 },
                 "kind": "init"
               },
@@ -237,8 +235,7 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 520,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -296,8 +293,7 @@
                 "type": "Literal",
                 "start": 571,
                 "end": 577,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -360,8 +356,7 @@
                 "type": "Literal",
                 "start": 627,
                 "end": 633,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -431,8 +426,7 @@
             "type": "Literal",
             "start": 703,
             "end": 723,
-            "value": "Property not found",
-            "raw": "'Property not found'"
+            "value": "Property not found"
           }
         ],
         "optional": false
@@ -463,8 +457,7 @@
             "type": "Literal",
             "start": 756,
             "end": 788,
-            "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "value": "propertyDefineCorrect !== true"
           }
         ],
         "optional": false
@@ -528,8 +521,7 @@
             "type": "Literal",
             "start": 831,
             "end": 848,
-            "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "value": "desc.enumerable"
           }
         ],
         "optional": false

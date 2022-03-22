@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 447,
             "end": 457,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 489,
-            "value": "typeof WeakRef is function",
-            "raw": "'typeof WeakRef is function'"
+            "value": "typeof WeakRef is function"
           }
         ],
         "optional": false

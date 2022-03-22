@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 335,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               },
               {
                 "type": "ObjectExpression",
@@ -103,8 +102,7 @@
                       "type": "Literal",
                       "start": 348,
                       "end": 349,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   }
@@ -151,8 +149,7 @@
                   "type": "Literal",
                   "start": 386,
                   "end": 392,
-                  "value": "prop",
-                  "raw": "\"prop\""
+                  "value": "prop"
                 },
                 {
                   "type": "ObjectExpression",
@@ -176,8 +173,7 @@
                         "type": "Literal",
                         "start": 407,
                         "end": 408,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       "kind": "init"
                     }
@@ -295,8 +291,7 @@
                               "type": "Literal",
                               "start": 515,
                               "end": 549,
-                              "value": "Expected a Test262Error, but a \"",
-                              "raw": "'Expected a Test262Error, but a \"'"
+                              "value": "Expected a Test262Error, but a \""
                             },
                             "operator": "+",
                             "right": {
@@ -337,8 +332,7 @@
                             "type": "Literal",
                             "start": 581,
                             "end": 596,
-                            "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "value": "\" was thrown."
                           }
                         }
                       ]
@@ -380,8 +374,7 @@
                   "type": "Literal",
                   "start": 631,
                   "end": 661,
-                  "value": "descriptor value should be 2",
-                  "raw": "'descriptor value should be 2'"
+                  "value": "descriptor value should be 2"
                 }
               },
               "consequent": {
@@ -408,8 +401,7 @@
                           "type": "Literal",
                           "start": 685,
                           "end": 741,
-                          "value": "The error thrown did not define the specified message.",
-                          "raw": "'The error thrown did not define the specified message.'"
+                          "value": "The error thrown did not define the specified message."
                         }
                       ]
                     }
@@ -470,8 +462,7 @@
                   "type": "Literal",
                   "start": 792,
                   "end": 843,
-                  "value": "Expected a Test262Error, but no error was thrown.",
-                  "raw": "'Expected a Test262Error, but no error was thrown.'"
+                  "value": "Expected a Test262Error, but no error was thrown."
                 }
               ]
             }

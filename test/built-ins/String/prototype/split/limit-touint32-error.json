@@ -71,8 +71,7 @@
                   "type": "Literal",
                   "start": 519,
                   "end": 521,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 }
               }
             }
@@ -147,8 +146,7 @@
                     "type": "Literal",
                     "start": 583,
                     "end": 600,
-                    "value": "ExpectedError: ",
-                    "raw": "\"ExpectedError: \""
+                    "value": "ExpectedError: "
                   },
                   "operator": "+",
                   "right": {
@@ -275,8 +273,7 @@
                       "type": "Literal",
                       "start": 737,
                       "end": 768,
-                      "value": "separator[Symbol.toPrimitive]",
-                      "raw": "\"separator[Symbol.toPrimitive]\""
+                      "value": "separator[Symbol.toPrimitive]"
                     }
                   ]
                 }
@@ -347,8 +344,7 @@
                       "type": "Literal",
                       "start": 844,
                       "end": 864,
-                      "value": "separator.toString",
-                      "raw": "\"separator.toString\""
+                      "value": "separator.toString"
                     }
                   ]
                 }
@@ -419,8 +415,7 @@
                       "type": "Literal",
                       "start": 939,
                       "end": 958,
-                      "value": "separator.valueOf",
-                      "raw": "\"separator.valueOf\""
+                      "value": "separator.valueOf"
                     }
                   ]
                 }
@@ -596,8 +591,7 @@
                         "type": "Literal",
                         "start": 1123,
                         "end": 1128,
-                        "value": "foo",
-                        "raw": "\"foo\""
+                        "value": "foo"
                       },
                       "property": {
                         "type": "Identifier",
@@ -632,8 +626,7 @@
             "type": "Literal",
             "start": 1183,
             "end": 1257,
-            "value": "ToUint32 should be called on the limit before ToString on the separator.",
-            "raw": "'ToUint32 should be called on the limit before ToString on the separator.'"
+            "value": "ToUint32 should be called on the limit before ToString on the separator."
           }
         ],
         "optional": false

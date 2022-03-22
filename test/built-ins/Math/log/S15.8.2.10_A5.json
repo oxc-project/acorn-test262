@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 352,
             "end": 395,
-            "value": "Math.log(+Infinity) must return +Infinity",
-            "raw": "'Math.log(+Infinity) must return +Infinity'"
+            "value": "Math.log(+Infinity) must return +Infinity"
           }
         ],
         "optional": false

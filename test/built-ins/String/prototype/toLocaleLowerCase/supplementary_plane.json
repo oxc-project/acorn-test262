@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 898,
                 "end": 912,
-                "value": "𐐀",
-                "raw": "\"\\uD801\\uDC00\""
+                "value": "𐐀"
               },
               "property": {
                 "type": "Identifier",
@@ -62,15 +61,13 @@
             "type": "Literal",
             "start": 934,
             "end": 948,
-            "value": "𐐨",
-            "raw": "\"\\uD801\\uDC28\""
+            "value": "𐐨"
           },
           {
             "type": "Literal",
             "start": 950,
             "end": 981,
-            "value": "DESERET CAPITAL LETTER LONG I",
-            "raw": "\"DESERET CAPITAL LETTER LONG I\""
+            "value": "DESERET CAPITAL LETTER LONG I"
           }
         ],
         "optional": false
@@ -116,8 +113,7 @@
                 "type": "Literal",
                 "start": 1001,
                 "end": 1015,
-                "value": "𐐁",
-                "raw": "\"\\uD801\\uDC01\""
+                "value": "𐐁"
               },
               "property": {
                 "type": "Identifier",
@@ -135,15 +131,13 @@
             "type": "Literal",
             "start": 1037,
             "end": 1051,
-            "value": "𐐩",
-            "raw": "\"\\uD801\\uDC29\""
+            "value": "𐐩"
           },
           {
             "type": "Literal",
             "start": 1053,
             "end": 1084,
-            "value": "DESERET CAPITAL LETTER LONG E",
-            "raw": "\"DESERET CAPITAL LETTER LONG E\""
+            "value": "DESERET CAPITAL LETTER LONG E"
           }
         ],
         "optional": false
@@ -189,8 +183,7 @@
                 "type": "Literal",
                 "start": 1104,
                 "end": 1118,
-                "value": "𐐂",
-                "raw": "\"\\uD801\\uDC02\""
+                "value": "𐐂"
               },
               "property": {
                 "type": "Identifier",
@@ -208,15 +201,13 @@
             "type": "Literal",
             "start": 1140,
             "end": 1154,
-            "value": "𐐪",
-            "raw": "\"\\uD801\\uDC2A\""
+            "value": "𐐪"
           },
           {
             "type": "Literal",
             "start": 1156,
             "end": 1187,
-            "value": "DESERET CAPITAL LETTER LONG A",
-            "raw": "\"DESERET CAPITAL LETTER LONG A\""
+            "value": "DESERET CAPITAL LETTER LONG A"
           }
         ],
         "optional": false
@@ -262,8 +253,7 @@
                 "type": "Literal",
                 "start": 1207,
                 "end": 1221,
-                "value": "𐐃",
-                "raw": "\"\\uD801\\uDC03\""
+                "value": "𐐃"
               },
               "property": {
                 "type": "Identifier",
@@ -281,15 +271,13 @@
             "type": "Literal",
             "start": 1243,
             "end": 1257,
-            "value": "𐐫",
-            "raw": "\"\\uD801\\uDC2B\""
+            "value": "𐐫"
           },
           {
             "type": "Literal",
             "start": 1259,
             "end": 1291,
-            "value": "DESERET CAPITAL LETTER LONG AH",
-            "raw": "\"DESERET CAPITAL LETTER LONG AH\""
+            "value": "DESERET CAPITAL LETTER LONG AH"
           }
         ],
         "optional": false
@@ -335,8 +323,7 @@
                 "type": "Literal",
                 "start": 1311,
                 "end": 1325,
-                "value": "𐐄",
-                "raw": "\"\\uD801\\uDC04\""
+                "value": "𐐄"
               },
               "property": {
                 "type": "Identifier",
@@ -354,15 +341,13 @@
             "type": "Literal",
             "start": 1347,
             "end": 1361,
-            "value": "𐐬",
-            "raw": "\"\\uD801\\uDC2C\""
+            "value": "𐐬"
           },
           {
             "type": "Literal",
             "start": 1363,
             "end": 1394,
-            "value": "DESERET CAPITAL LETTER LONG O",
-            "raw": "\"DESERET CAPITAL LETTER LONG O\""
+            "value": "DESERET CAPITAL LETTER LONG O"
           }
         ],
         "optional": false
@@ -408,8 +393,7 @@
                 "type": "Literal",
                 "start": 1414,
                 "end": 1428,
-                "value": "𐐅",
-                "raw": "\"\\uD801\\uDC05\""
+                "value": "𐐅"
               },
               "property": {
                 "type": "Identifier",
@@ -427,15 +411,13 @@
             "type": "Literal",
             "start": 1450,
             "end": 1464,
-            "value": "𐐭",
-            "raw": "\"\\uD801\\uDC2D\""
+            "value": "𐐭"
           },
           {
             "type": "Literal",
             "start": 1466,
             "end": 1498,
-            "value": "DESERET CAPITAL LETTER LONG OO",
-            "raw": "\"DESERET CAPITAL LETTER LONG OO\""
+            "value": "DESERET CAPITAL LETTER LONG OO"
           }
         ],
         "optional": false
@@ -481,8 +463,7 @@
                 "type": "Literal",
                 "start": 1518,
                 "end": 1532,
-                "value": "𐐆",
-                "raw": "\"\\uD801\\uDC06\""
+                "value": "𐐆"
               },
               "property": {
                 "type": "Identifier",
@@ -500,15 +481,13 @@
             "type": "Literal",
             "start": 1554,
             "end": 1568,
-            "value": "𐐮",
-            "raw": "\"\\uD801\\uDC2E\""
+            "value": "𐐮"
           },
           {
             "type": "Literal",
             "start": 1570,
             "end": 1602,
-            "value": "DESERET CAPITAL LETTER SHORT I",
-            "raw": "\"DESERET CAPITAL LETTER SHORT I\""
+            "value": "DESERET CAPITAL LETTER SHORT I"
           }
         ],
         "optional": false
@@ -554,8 +533,7 @@
                 "type": "Literal",
                 "start": 1622,
                 "end": 1636,
-                "value": "𐐇",
-                "raw": "\"\\uD801\\uDC07\""
+                "value": "𐐇"
               },
               "property": {
                 "type": "Identifier",
@@ -573,15 +551,13 @@
             "type": "Literal",
             "start": 1658,
             "end": 1672,
-            "value": "𐐯",
-            "raw": "\"\\uD801\\uDC2F\""
+            "value": "𐐯"
           },
           {
             "type": "Literal",
             "start": 1674,
             "end": 1706,
-            "value": "DESERET CAPITAL LETTER SHORT E",
-            "raw": "\"DESERET CAPITAL LETTER SHORT E\""
+            "value": "DESERET CAPITAL LETTER SHORT E"
           }
         ],
         "optional": false
@@ -627,8 +603,7 @@
                 "type": "Literal",
                 "start": 1726,
                 "end": 1740,
-                "value": "𐐈",
-                "raw": "\"\\uD801\\uDC08\""
+                "value": "𐐈"
               },
               "property": {
                 "type": "Identifier",
@@ -646,15 +621,13 @@
             "type": "Literal",
             "start": 1762,
             "end": 1776,
-            "value": "𐐰",
-            "raw": "\"\\uD801\\uDC30\""
+            "value": "𐐰"
           },
           {
             "type": "Literal",
             "start": 1778,
             "end": 1810,
-            "value": "DESERET CAPITAL LETTER SHORT A",
-            "raw": "\"DESERET CAPITAL LETTER SHORT A\""
+            "value": "DESERET CAPITAL LETTER SHORT A"
           }
         ],
         "optional": false
@@ -700,8 +673,7 @@
                 "type": "Literal",
                 "start": 1830,
                 "end": 1844,
-                "value": "𐐉",
-                "raw": "\"\\uD801\\uDC09\""
+                "value": "𐐉"
               },
               "property": {
                 "type": "Identifier",
@@ -719,15 +691,13 @@
             "type": "Literal",
             "start": 1866,
             "end": 1880,
-            "value": "𐐱",
-            "raw": "\"\\uD801\\uDC31\""
+            "value": "𐐱"
           },
           {
             "type": "Literal",
             "start": 1882,
             "end": 1915,
-            "value": "DESERET CAPITAL LETTER SHORT AH",
-            "raw": "\"DESERET CAPITAL LETTER SHORT AH\""
+            "value": "DESERET CAPITAL LETTER SHORT AH"
           }
         ],
         "optional": false
@@ -773,8 +743,7 @@
                 "type": "Literal",
                 "start": 1935,
                 "end": 1949,
-                "value": "𐐊",
-                "raw": "\"\\uD801\\uDC0A\""
+                "value": "𐐊"
               },
               "property": {
                 "type": "Identifier",
@@ -792,15 +761,13 @@
             "type": "Literal",
             "start": 1971,
             "end": 1985,
-            "value": "𐐲",
-            "raw": "\"\\uD801\\uDC32\""
+            "value": "𐐲"
           },
           {
             "type": "Literal",
             "start": 1987,
             "end": 2019,
-            "value": "DESERET CAPITAL LETTER SHORT O",
-            "raw": "\"DESERET CAPITAL LETTER SHORT O\""
+            "value": "DESERET CAPITAL LETTER SHORT O"
           }
         ],
         "optional": false
@@ -846,8 +813,7 @@
                 "type": "Literal",
                 "start": 2039,
                 "end": 2053,
-                "value": "𐐋",
-                "raw": "\"\\uD801\\uDC0B\""
+                "value": "𐐋"
               },
               "property": {
                 "type": "Identifier",
@@ -865,15 +831,13 @@
             "type": "Literal",
             "start": 2075,
             "end": 2089,
-            "value": "𐐳",
-            "raw": "\"\\uD801\\uDC33\""
+            "value": "𐐳"
           },
           {
             "type": "Literal",
             "start": 2091,
             "end": 2124,
-            "value": "DESERET CAPITAL LETTER SHORT OO",
-            "raw": "\"DESERET CAPITAL LETTER SHORT OO\""
+            "value": "DESERET CAPITAL LETTER SHORT OO"
           }
         ],
         "optional": false
@@ -919,8 +883,7 @@
                 "type": "Literal",
                 "start": 2144,
                 "end": 2158,
-                "value": "𐐌",
-                "raw": "\"\\uD801\\uDC0C\""
+                "value": "𐐌"
               },
               "property": {
                 "type": "Identifier",
@@ -938,15 +901,13 @@
             "type": "Literal",
             "start": 2180,
             "end": 2194,
-            "value": "𐐴",
-            "raw": "\"\\uD801\\uDC34\""
+            "value": "𐐴"
           },
           {
             "type": "Literal",
             "start": 2196,
             "end": 2223,
-            "value": "DESERET CAPITAL LETTER AY",
-            "raw": "\"DESERET CAPITAL LETTER AY\""
+            "value": "DESERET CAPITAL LETTER AY"
           }
         ],
         "optional": false
@@ -992,8 +953,7 @@
                 "type": "Literal",
                 "start": 2243,
                 "end": 2257,
-                "value": "𐐍",
-                "raw": "\"\\uD801\\uDC0D\""
+                "value": "𐐍"
               },
               "property": {
                 "type": "Identifier",
@@ -1011,15 +971,13 @@
             "type": "Literal",
             "start": 2279,
             "end": 2293,
-            "value": "𐐵",
-            "raw": "\"\\uD801\\uDC35\""
+            "value": "𐐵"
           },
           {
             "type": "Literal",
             "start": 2295,
             "end": 2322,
-            "value": "DESERET CAPITAL LETTER OW",
-            "raw": "\"DESERET CAPITAL LETTER OW\""
+            "value": "DESERET CAPITAL LETTER OW"
           }
         ],
         "optional": false
@@ -1065,8 +1023,7 @@
                 "type": "Literal",
                 "start": 2342,
                 "end": 2356,
-                "value": "𐐎",
-                "raw": "\"\\uD801\\uDC0E\""
+                "value": "𐐎"
               },
               "property": {
                 "type": "Identifier",
@@ -1084,15 +1041,13 @@
             "type": "Literal",
             "start": 2378,
             "end": 2392,
-            "value": "𐐶",
-            "raw": "\"\\uD801\\uDC36\""
+            "value": "𐐶"
           },
           {
             "type": "Literal",
             "start": 2394,
             "end": 2421,
-            "value": "DESERET CAPITAL LETTER WU",
-            "raw": "\"DESERET CAPITAL LETTER WU\""
+            "value": "DESERET CAPITAL LETTER WU"
           }
         ],
         "optional": false
@@ -1138,8 +1093,7 @@
                 "type": "Literal",
                 "start": 2441,
                 "end": 2455,
-                "value": "𐐏",
-                "raw": "\"\\uD801\\uDC0F\""
+                "value": "𐐏"
               },
               "property": {
                 "type": "Identifier",
@@ -1157,15 +1111,13 @@
             "type": "Literal",
             "start": 2477,
             "end": 2491,
-            "value": "𐐷",
-            "raw": "\"\\uD801\\uDC37\""
+            "value": "𐐷"
           },
           {
             "type": "Literal",
             "start": 2493,
             "end": 2521,
-            "value": "DESERET CAPITAL LETTER YEE",
-            "raw": "\"DESERET CAPITAL LETTER YEE\""
+            "value": "DESERET CAPITAL LETTER YEE"
           }
         ],
         "optional": false
@@ -1211,8 +1163,7 @@
                 "type": "Literal",
                 "start": 2541,
                 "end": 2555,
-                "value": "𐐐",
-                "raw": "\"\\uD801\\uDC10\""
+                "value": "𐐐"
               },
               "property": {
                 "type": "Identifier",
@@ -1230,15 +1181,13 @@
             "type": "Literal",
             "start": 2577,
             "end": 2591,
-            "value": "𐐸",
-            "raw": "\"\\uD801\\uDC38\""
+            "value": "𐐸"
           },
           {
             "type": "Literal",
             "start": 2593,
             "end": 2619,
-            "value": "DESERET CAPITAL LETTER H",
-            "raw": "\"DESERET CAPITAL LETTER H\""
+            "value": "DESERET CAPITAL LETTER H"
           }
         ],
         "optional": false
@@ -1284,8 +1233,7 @@
                 "type": "Literal",
                 "start": 2639,
                 "end": 2653,
-                "value": "𐐑",
-                "raw": "\"\\uD801\\uDC11\""
+                "value": "𐐑"
               },
               "property": {
                 "type": "Identifier",
@@ -1303,15 +1251,13 @@
             "type": "Literal",
             "start": 2675,
             "end": 2689,
-            "value": "𐐹",
-            "raw": "\"\\uD801\\uDC39\""
+            "value": "𐐹"
           },
           {
             "type": "Literal",
             "start": 2691,
             "end": 2719,
-            "value": "DESERET CAPITAL LETTER PEE",
-            "raw": "\"DESERET CAPITAL LETTER PEE\""
+            "value": "DESERET CAPITAL LETTER PEE"
           }
         ],
         "optional": false
@@ -1357,8 +1303,7 @@
                 "type": "Literal",
                 "start": 2739,
                 "end": 2753,
-                "value": "𐐒",
-                "raw": "\"\\uD801\\uDC12\""
+                "value": "𐐒"
               },
               "property": {
                 "type": "Identifier",
@@ -1376,15 +1321,13 @@
             "type": "Literal",
             "start": 2775,
             "end": 2789,
-            "value": "𐐺",
-            "raw": "\"\\uD801\\uDC3A\""
+            "value": "𐐺"
           },
           {
             "type": "Literal",
             "start": 2791,
             "end": 2819,
-            "value": "DESERET CAPITAL LETTER BEE",
-            "raw": "\"DESERET CAPITAL LETTER BEE\""
+            "value": "DESERET CAPITAL LETTER BEE"
           }
         ],
         "optional": false
@@ -1430,8 +1373,7 @@
                 "type": "Literal",
                 "start": 2839,
                 "end": 2853,
-                "value": "𐐓",
-                "raw": "\"\\uD801\\uDC13\""
+                "value": "𐐓"
               },
               "property": {
                 "type": "Identifier",
@@ -1449,15 +1391,13 @@
             "type": "Literal",
             "start": 2875,
             "end": 2889,
-            "value": "𐐻",
-            "raw": "\"\\uD801\\uDC3B\""
+            "value": "𐐻"
           },
           {
             "type": "Literal",
             "start": 2891,
             "end": 2919,
-            "value": "DESERET CAPITAL LETTER TEE",
-            "raw": "\"DESERET CAPITAL LETTER TEE\""
+            "value": "DESERET CAPITAL LETTER TEE"
           }
         ],
         "optional": false
@@ -1503,8 +1443,7 @@
                 "type": "Literal",
                 "start": 2939,
                 "end": 2953,
-                "value": "𐐔",
-                "raw": "\"\\uD801\\uDC14\""
+                "value": "𐐔"
               },
               "property": {
                 "type": "Identifier",
@@ -1522,15 +1461,13 @@
             "type": "Literal",
             "start": 2975,
             "end": 2989,
-            "value": "𐐼",
-            "raw": "\"\\uD801\\uDC3C\""
+            "value": "𐐼"
           },
           {
             "type": "Literal",
             "start": 2991,
             "end": 3019,
-            "value": "DESERET CAPITAL LETTER DEE",
-            "raw": "\"DESERET CAPITAL LETTER DEE\""
+            "value": "DESERET CAPITAL LETTER DEE"
           }
         ],
         "optional": false
@@ -1576,8 +1513,7 @@
                 "type": "Literal",
                 "start": 3039,
                 "end": 3053,
-                "value": "𐐕",
-                "raw": "\"\\uD801\\uDC15\""
+                "value": "𐐕"
               },
               "property": {
                 "type": "Identifier",
@@ -1595,15 +1531,13 @@
             "type": "Literal",
             "start": 3075,
             "end": 3089,
-            "value": "𐐽",
-            "raw": "\"\\uD801\\uDC3D\""
+            "value": "𐐽"
           },
           {
             "type": "Literal",
             "start": 3091,
             "end": 3120,
-            "value": "DESERET CAPITAL LETTER CHEE",
-            "raw": "\"DESERET CAPITAL LETTER CHEE\""
+            "value": "DESERET CAPITAL LETTER CHEE"
           }
         ],
         "optional": false
@@ -1649,8 +1583,7 @@
                 "type": "Literal",
                 "start": 3140,
                 "end": 3154,
-                "value": "𐐖",
-                "raw": "\"\\uD801\\uDC16\""
+                "value": "𐐖"
               },
               "property": {
                 "type": "Identifier",
@@ -1668,15 +1601,13 @@
             "type": "Literal",
             "start": 3176,
             "end": 3190,
-            "value": "𐐾",
-            "raw": "\"\\uD801\\uDC3E\""
+            "value": "𐐾"
           },
           {
             "type": "Literal",
             "start": 3192,
             "end": 3220,
-            "value": "DESERET CAPITAL LETTER JEE",
-            "raw": "\"DESERET CAPITAL LETTER JEE\""
+            "value": "DESERET CAPITAL LETTER JEE"
           }
         ],
         "optional": false
@@ -1722,8 +1653,7 @@
                 "type": "Literal",
                 "start": 3240,
                 "end": 3254,
-                "value": "𐐗",
-                "raw": "\"\\uD801\\uDC17\""
+                "value": "𐐗"
               },
               "property": {
                 "type": "Identifier",
@@ -1741,15 +1671,13 @@
             "type": "Literal",
             "start": 3276,
             "end": 3290,
-            "value": "𐐿",
-            "raw": "\"\\uD801\\uDC3F\""
+            "value": "𐐿"
           },
           {
             "type": "Literal",
             "start": 3292,
             "end": 3320,
-            "value": "DESERET CAPITAL LETTER KAY",
-            "raw": "\"DESERET CAPITAL LETTER KAY\""
+            "value": "DESERET CAPITAL LETTER KAY"
           }
         ],
         "optional": false
@@ -1795,8 +1723,7 @@
                 "type": "Literal",
                 "start": 3340,
                 "end": 3354,
-                "value": "𐐘",
-                "raw": "\"\\uD801\\uDC18\""
+                "value": "𐐘"
               },
               "property": {
                 "type": "Identifier",
@@ -1814,15 +1741,13 @@
             "type": "Literal",
             "start": 3376,
             "end": 3390,
-            "value": "𐑀",
-            "raw": "\"\\uD801\\uDC40\""
+            "value": "𐑀"
           },
           {
             "type": "Literal",
             "start": 3392,
             "end": 3420,
-            "value": "DESERET CAPITAL LETTER GAY",
-            "raw": "\"DESERET CAPITAL LETTER GAY\""
+            "value": "DESERET CAPITAL LETTER GAY"
           }
         ],
         "optional": false
@@ -1868,8 +1793,7 @@
                 "type": "Literal",
                 "start": 3440,
                 "end": 3454,
-                "value": "𐐙",
-                "raw": "\"\\uD801\\uDC19\""
+                "value": "𐐙"
               },
               "property": {
                 "type": "Identifier",
@@ -1887,15 +1811,13 @@
             "type": "Literal",
             "start": 3476,
             "end": 3490,
-            "value": "𐑁",
-            "raw": "\"\\uD801\\uDC41\""
+            "value": "𐑁"
           },
           {
             "type": "Literal",
             "start": 3492,
             "end": 3519,
-            "value": "DESERET CAPITAL LETTER EF",
-            "raw": "\"DESERET CAPITAL LETTER EF\""
+            "value": "DESERET CAPITAL LETTER EF"
           }
         ],
         "optional": false
@@ -1941,8 +1863,7 @@
                 "type": "Literal",
                 "start": 3539,
                 "end": 3553,
-                "value": "𐐚",
-                "raw": "\"\\uD801\\uDC1A\""
+                "value": "𐐚"
               },
               "property": {
                 "type": "Identifier",
@@ -1960,15 +1881,13 @@
             "type": "Literal",
             "start": 3575,
             "end": 3589,
-            "value": "𐑂",
-            "raw": "\"\\uD801\\uDC42\""
+            "value": "𐑂"
           },
           {
             "type": "Literal",
             "start": 3591,
             "end": 3619,
-            "value": "DESERET CAPITAL LETTER VEE",
-            "raw": "\"DESERET CAPITAL LETTER VEE\""
+            "value": "DESERET CAPITAL LETTER VEE"
           }
         ],
         "optional": false
@@ -2014,8 +1933,7 @@
                 "type": "Literal",
                 "start": 3639,
                 "end": 3653,
-                "value": "𐐛",
-                "raw": "\"\\uD801\\uDC1B\""
+                "value": "𐐛"
               },
               "property": {
                 "type": "Identifier",
@@ -2033,15 +1951,13 @@
             "type": "Literal",
             "start": 3675,
             "end": 3689,
-            "value": "𐑃",
-            "raw": "\"\\uD801\\uDC43\""
+            "value": "𐑃"
           },
           {
             "type": "Literal",
             "start": 3691,
             "end": 3719,
-            "value": "DESERET CAPITAL LETTER ETH",
-            "raw": "\"DESERET CAPITAL LETTER ETH\""
+            "value": "DESERET CAPITAL LETTER ETH"
           }
         ],
         "optional": false
@@ -2087,8 +2003,7 @@
                 "type": "Literal",
                 "start": 3739,
                 "end": 3753,
-                "value": "𐐜",
-                "raw": "\"\\uD801\\uDC1C\""
+                "value": "𐐜"
               },
               "property": {
                 "type": "Identifier",
@@ -2106,15 +2021,13 @@
             "type": "Literal",
             "start": 3775,
             "end": 3789,
-            "value": "𐑄",
-            "raw": "\"\\uD801\\uDC44\""
+            "value": "𐑄"
           },
           {
             "type": "Literal",
             "start": 3791,
             "end": 3820,
-            "value": "DESERET CAPITAL LETTER THEE",
-            "raw": "\"DESERET CAPITAL LETTER THEE\""
+            "value": "DESERET CAPITAL LETTER THEE"
           }
         ],
         "optional": false
@@ -2160,8 +2073,7 @@
                 "type": "Literal",
                 "start": 3840,
                 "end": 3854,
-                "value": "𐐝",
-                "raw": "\"\\uD801\\uDC1D\""
+                "value": "𐐝"
               },
               "property": {
                 "type": "Identifier",
@@ -2179,15 +2091,13 @@
             "type": "Literal",
             "start": 3876,
             "end": 3890,
-            "value": "𐑅",
-            "raw": "\"\\uD801\\uDC45\""
+            "value": "𐑅"
           },
           {
             "type": "Literal",
             "start": 3892,
             "end": 3919,
-            "value": "DESERET CAPITAL LETTER ES",
-            "raw": "\"DESERET CAPITAL LETTER ES\""
+            "value": "DESERET CAPITAL LETTER ES"
           }
         ],
         "optional": false
@@ -2233,8 +2143,7 @@
                 "type": "Literal",
                 "start": 3939,
                 "end": 3953,
-                "value": "𐐞",
-                "raw": "\"\\uD801\\uDC1E\""
+                "value": "𐐞"
               },
               "property": {
                 "type": "Identifier",
@@ -2252,15 +2161,13 @@
             "type": "Literal",
             "start": 3975,
             "end": 3989,
-            "value": "𐑆",
-            "raw": "\"\\uD801\\uDC46\""
+            "value": "𐑆"
           },
           {
             "type": "Literal",
             "start": 3991,
             "end": 4019,
-            "value": "DESERET CAPITAL LETTER ZEE",
-            "raw": "\"DESERET CAPITAL LETTER ZEE\""
+            "value": "DESERET CAPITAL LETTER ZEE"
           }
         ],
         "optional": false
@@ -2306,8 +2213,7 @@
                 "type": "Literal",
                 "start": 4039,
                 "end": 4053,
-                "value": "𐐟",
-                "raw": "\"\\uD801\\uDC1F\""
+                "value": "𐐟"
               },
               "property": {
                 "type": "Identifier",
@@ -2325,15 +2231,13 @@
             "type": "Literal",
             "start": 4075,
             "end": 4089,
-            "value": "𐑇",
-            "raw": "\"\\uD801\\uDC47\""
+            "value": "𐑇"
           },
           {
             "type": "Literal",
             "start": 4091,
             "end": 4119,
-            "value": "DESERET CAPITAL LETTER ESH",
-            "raw": "\"DESERET CAPITAL LETTER ESH\""
+            "value": "DESERET CAPITAL LETTER ESH"
           }
         ],
         "optional": false
@@ -2379,8 +2283,7 @@
                 "type": "Literal",
                 "start": 4139,
                 "end": 4153,
-                "value": "𐐠",
-                "raw": "\"\\uD801\\uDC20\""
+                "value": "𐐠"
               },
               "property": {
                 "type": "Identifier",
@@ -2398,15 +2301,13 @@
             "type": "Literal",
             "start": 4175,
             "end": 4189,
-            "value": "𐑈",
-            "raw": "\"\\uD801\\uDC48\""
+            "value": "𐑈"
           },
           {
             "type": "Literal",
             "start": 4191,
             "end": 4220,
-            "value": "DESERET CAPITAL LETTER ZHEE",
-            "raw": "\"DESERET CAPITAL LETTER ZHEE\""
+            "value": "DESERET CAPITAL LETTER ZHEE"
           }
         ],
         "optional": false
@@ -2452,8 +2353,7 @@
                 "type": "Literal",
                 "start": 4240,
                 "end": 4254,
-                "value": "𐐡",
-                "raw": "\"\\uD801\\uDC21\""
+                "value": "𐐡"
               },
               "property": {
                 "type": "Identifier",
@@ -2471,15 +2371,13 @@
             "type": "Literal",
             "start": 4276,
             "end": 4290,
-            "value": "𐑉",
-            "raw": "\"\\uD801\\uDC49\""
+            "value": "𐑉"
           },
           {
             "type": "Literal",
             "start": 4292,
             "end": 4319,
-            "value": "DESERET CAPITAL LETTER ER",
-            "raw": "\"DESERET CAPITAL LETTER ER\""
+            "value": "DESERET CAPITAL LETTER ER"
           }
         ],
         "optional": false
@@ -2525,8 +2423,7 @@
                 "type": "Literal",
                 "start": 4339,
                 "end": 4353,
-                "value": "𐐢",
-                "raw": "\"\\uD801\\uDC22\""
+                "value": "𐐢"
               },
               "property": {
                 "type": "Identifier",
@@ -2544,15 +2441,13 @@
             "type": "Literal",
             "start": 4375,
             "end": 4389,
-            "value": "𐑊",
-            "raw": "\"\\uD801\\uDC4A\""
+            "value": "𐑊"
           },
           {
             "type": "Literal",
             "start": 4391,
             "end": 4418,
-            "value": "DESERET CAPITAL LETTER EL",
-            "raw": "\"DESERET CAPITAL LETTER EL\""
+            "value": "DESERET CAPITAL LETTER EL"
           }
         ],
         "optional": false
@@ -2598,8 +2493,7 @@
                 "type": "Literal",
                 "start": 4438,
                 "end": 4452,
-                "value": "𐐣",
-                "raw": "\"\\uD801\\uDC23\""
+                "value": "𐐣"
               },
               "property": {
                 "type": "Identifier",
@@ -2617,15 +2511,13 @@
             "type": "Literal",
             "start": 4474,
             "end": 4488,
-            "value": "𐑋",
-            "raw": "\"\\uD801\\uDC4B\""
+            "value": "𐑋"
           },
           {
             "type": "Literal",
             "start": 4490,
             "end": 4517,
-            "value": "DESERET CAPITAL LETTER EM",
-            "raw": "\"DESERET CAPITAL LETTER EM\""
+            "value": "DESERET CAPITAL LETTER EM"
           }
         ],
         "optional": false
@@ -2671,8 +2563,7 @@
                 "type": "Literal",
                 "start": 4537,
                 "end": 4551,
-                "value": "𐐤",
-                "raw": "\"\\uD801\\uDC24\""
+                "value": "𐐤"
               },
               "property": {
                 "type": "Identifier",
@@ -2690,15 +2581,13 @@
             "type": "Literal",
             "start": 4573,
             "end": 4587,
-            "value": "𐑌",
-            "raw": "\"\\uD801\\uDC4C\""
+            "value": "𐑌"
           },
           {
             "type": "Literal",
             "start": 4589,
             "end": 4616,
-            "value": "DESERET CAPITAL LETTER EN",
-            "raw": "\"DESERET CAPITAL LETTER EN\""
+            "value": "DESERET CAPITAL LETTER EN"
           }
         ],
         "optional": false
@@ -2744,8 +2633,7 @@
                 "type": "Literal",
                 "start": 4636,
                 "end": 4650,
-                "value": "𐐥",
-                "raw": "\"\\uD801\\uDC25\""
+                "value": "𐐥"
               },
               "property": {
                 "type": "Identifier",
@@ -2763,15 +2651,13 @@
             "type": "Literal",
             "start": 4672,
             "end": 4686,
-            "value": "𐑍",
-            "raw": "\"\\uD801\\uDC4D\""
+            "value": "𐑍"
           },
           {
             "type": "Literal",
             "start": 4688,
             "end": 4716,
-            "value": "DESERET CAPITAL LETTER ENG",
-            "raw": "\"DESERET CAPITAL LETTER ENG\""
+            "value": "DESERET CAPITAL LETTER ENG"
           }
         ],
         "optional": false
@@ -2817,8 +2703,7 @@
                 "type": "Literal",
                 "start": 4736,
                 "end": 4750,
-                "value": "𐐦",
-                "raw": "\"\\uD801\\uDC26\""
+                "value": "𐐦"
               },
               "property": {
                 "type": "Identifier",
@@ -2836,15 +2721,13 @@
             "type": "Literal",
             "start": 4772,
             "end": 4786,
-            "value": "𐑎",
-            "raw": "\"\\uD801\\uDC4E\""
+            "value": "𐑎"
           },
           {
             "type": "Literal",
             "start": 4788,
             "end": 4815,
-            "value": "DESERET CAPITAL LETTER OI",
-            "raw": "\"DESERET CAPITAL LETTER OI\""
+            "value": "DESERET CAPITAL LETTER OI"
           }
         ],
         "optional": false
@@ -2890,8 +2773,7 @@
                 "type": "Literal",
                 "start": 4835,
                 "end": 4849,
-                "value": "𐐧",
-                "raw": "\"\\uD801\\uDC27\""
+                "value": "𐐧"
               },
               "property": {
                 "type": "Identifier",
@@ -2909,15 +2791,13 @@
             "type": "Literal",
             "start": 4871,
             "end": 4885,
-            "value": "𐑏",
-            "raw": "\"\\uD801\\uDC4F\""
+            "value": "𐑏"
           },
           {
             "type": "Literal",
             "start": 4887,
             "end": 4914,
-            "value": "DESERET CAPITAL LETTER EW",
-            "raw": "\"DESERET CAPITAL LETTER EW\""
+            "value": "DESERET CAPITAL LETTER EW"
           }
         ],
         "optional": false

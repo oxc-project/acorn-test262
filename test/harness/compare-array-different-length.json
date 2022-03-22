@@ -109,8 +109,7 @@
             "type": "Literal",
             "start": 327,
             "end": 376,
-            "value": "Arrays of differing lengths are not equivalent.",
-            "raw": "'Arrays of differing lengths are not equivalent.'"
+            "value": "Arrays of differing lengths are not equivalent."
           }
         ],
         "optional": false
@@ -222,8 +221,7 @@
             "type": "Literal",
             "start": 459,
             "end": 508,
-            "value": "Arrays of differing lengths are not equivalent.",
-            "raw": "'Arrays of differing lengths are not equivalent.'"
+            "value": "Arrays of differing lengths are not equivalent."
           }
         ],
         "optional": false

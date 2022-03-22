@@ -68,8 +68,7 @@
           "type": "Literal",
           "start": 820,
           "end": 828,
-          "value": "object",
-          "raw": "'object'"
+          "value": "object"
         }
       },
       "consequent": {
@@ -100,8 +99,7 @@
                     "type": "Literal",
                     "start": 856,
                     "end": 937,
-                    "value": "#1: typeof __func.prototype === 'object'. Actual: typeof __gunc.prototype ===",
-                    "raw": "'#1: typeof __func.prototype === \\'object\\'. Actual: typeof __gunc.prototype ==='"
+                    "value": "#1: typeof __func.prototype === 'object'. Actual: typeof __gunc.prototype ==="
                   },
                   "operator": "+",
                   "right": {
@@ -214,8 +212,7 @@
                     "type": "Literal",
                     "start": 1209,
                     "end": 1296,
-                    "value": "#2: __func.prototype.constructor === __func. Actual: __gunc.prototype.constructor ===",
-                    "raw": "'#2: __func.prototype.constructor === __func. Actual: __gunc.prototype.constructor ==='"
+                    "value": "#2: __func.prototype.constructor === __func. Actual: __gunc.prototype.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -331,8 +328,7 @@
                 "type": "Literal",
                 "start": 1498,
                 "end": 1511,
-                "value": "constructor",
-                "raw": "'constructor'"
+                "value": "constructor"
               }
             },
             "consequent": {
@@ -402,8 +398,7 @@
                     "type": "Literal",
                     "start": 1704,
                     "end": 1784,
-                    "value": "#3: __constructor_was__enumed === false. Actual: __constructor_was__enumed ===",
-                    "raw": "'#3: __constructor_was__enumed === false. Actual: __constructor_was__enumed ==='"
+                    "value": "#3: __constructor_was__enumed === false. Actual: __constructor_was__enumed ==="
                   },
                   "operator": "+",
                   "right": {

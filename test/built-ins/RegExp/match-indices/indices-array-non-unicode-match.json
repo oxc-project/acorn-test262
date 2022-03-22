@@ -45,15 +45,13 @@
                     "type": "Literal",
                     "start": 1380,
                     "end": 1381,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 1383,
                     "end": 1384,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -66,15 +64,13 @@
                     "type": "Literal",
                     "start": 1388,
                     "end": 1389,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 1391,
                     "end": 1392,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               }
@@ -96,8 +92,7 @@
                   "type": "Literal",
                   "start": 1396,
                   "end": 1401,
-                  "value": "bab",
-                  "raw": "\"bab\""
+                  "value": "bab"
                 },
                 "property": {
                   "type": "Identifier",
@@ -114,7 +109,6 @@
                   "start": 1408,
                   "end": 1414,
                   "value": {},
-                  "raw": "/(a)/d",
                   "regex": {
                     "pattern": "(a)",
                     "flags": "d"
@@ -178,15 +172,13 @@
                     "type": "Literal",
                     "start": 1445,
                     "end": 1446,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1448,
                     "end": 1449,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -199,15 +191,13 @@
                     "type": "Literal",
                     "start": 1453,
                     "end": 1454,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 1456,
                     "end": 1457,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               }
@@ -229,8 +219,7 @@
                   "type": "Literal",
                   "start": 1461,
                   "end": 1466,
-                  "value": "bab",
-                  "raw": "\"bab\""
+                  "value": "bab"
                 },
                 "property": {
                   "type": "Identifier",
@@ -247,7 +236,6 @@
                   "start": 1473,
                   "end": 1481,
                   "value": {},
-                  "raw": "/.(a)./d",
                   "regex": {
                     "pattern": ".(a).",
                     "flags": "d"
@@ -311,15 +299,13 @@
                     "type": "Literal",
                     "start": 1512,
                     "end": 1513,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1515,
                     "end": 1516,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -332,15 +318,13 @@
                     "type": "Literal",
                     "start": 1520,
                     "end": 1521,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 1523,
                     "end": 1524,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -353,15 +337,13 @@
                     "type": "Literal",
                     "start": 1528,
                     "end": 1529,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 1531,
                     "end": 1532,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               }
@@ -383,8 +365,7 @@
                   "type": "Literal",
                   "start": 1536,
                   "end": 1541,
-                  "value": "bab",
-                  "raw": "\"bab\""
+                  "value": "bab"
                 },
                 "property": {
                   "type": "Identifier",
@@ -401,7 +382,6 @@
                   "start": 1548,
                   "end": 1558,
                   "value": {},
-                  "raw": "/.(a)(.)/d",
                   "regex": {
                     "pattern": ".(a)(.)",
                     "flags": "d"
@@ -465,15 +445,13 @@
                     "type": "Literal",
                     "start": 1589,
                     "end": 1590,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1592,
                     "end": 1593,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -486,15 +464,13 @@
                     "type": "Literal",
                     "start": 1597,
                     "end": 1598,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 1600,
                     "end": 1601,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               }
@@ -516,8 +492,7 @@
                   "type": "Literal",
                   "start": 1605,
                   "end": 1610,
-                  "value": "bab",
-                  "raw": "\"bab\""
+                  "value": "bab"
                 },
                 "property": {
                   "type": "Identifier",
@@ -534,7 +509,6 @@
                   "start": 1617,
                   "end": 1627,
                   "value": {},
-                  "raw": "/.(\\w\\w)/d",
                   "regex": {
                     "pattern": ".(\\w\\w)",
                     "flags": "d"
@@ -598,15 +572,13 @@
                     "type": "Literal",
                     "start": 1658,
                     "end": 1659,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1661,
                     "end": 1662,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -619,15 +591,13 @@
                     "type": "Literal",
                     "start": 1666,
                     "end": 1667,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1669,
                     "end": 1670,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               }
@@ -649,8 +619,7 @@
                   "type": "Literal",
                   "start": 1674,
                   "end": 1679,
-                  "value": "bab",
-                  "raw": "\"bab\""
+                  "value": "bab"
                 },
                 "property": {
                   "type": "Identifier",
@@ -667,7 +636,6 @@
                   "start": 1686,
                   "end": 1697,
                   "value": {},
-                  "raw": "/(\\w\\w\\w)/d",
                   "regex": {
                     "pattern": "(\\w\\w\\w)",
                     "flags": "d"
@@ -731,15 +699,13 @@
                     "type": "Literal",
                     "start": 1728,
                     "end": 1729,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1731,
                     "end": 1732,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -752,15 +718,13 @@
                     "type": "Literal",
                     "start": 1736,
                     "end": 1737,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1739,
                     "end": 1740,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -773,15 +737,13 @@
                     "type": "Literal",
                     "start": 1744,
                     "end": 1745,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 1747,
                     "end": 1748,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               }
@@ -803,8 +765,7 @@
                   "type": "Literal",
                   "start": 1752,
                   "end": 1757,
-                  "value": "bab",
-                  "raw": "\"bab\""
+                  "value": "bab"
                 },
                 "property": {
                   "type": "Identifier",
@@ -821,7 +782,6 @@
                   "start": 1764,
                   "end": 1777,
                   "value": {},
-                  "raw": "/(\\w\\w)(\\w)/d",
                   "regex": {
                     "pattern": "(\\w\\w)(\\w)",
                     "flags": "d"
@@ -885,15 +845,13 @@
                     "type": "Literal",
                     "start": 1808,
                     "end": 1809,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1811,
                     "end": 1812,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -906,15 +864,13 @@
                     "type": "Literal",
                     "start": 1816,
                     "end": 1817,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 1819,
                     "end": 1820,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               },
@@ -942,8 +898,7 @@
                   "type": "Literal",
                   "start": 1835,
                   "end": 1840,
-                  "value": "bab",
-                  "raw": "\"bab\""
+                  "value": "bab"
                 },
                 "property": {
                   "type": "Identifier",
@@ -960,7 +915,6 @@
                   "start": 1847,
                   "end": 1861,
                   "value": {},
-                  "raw": "/(\\w\\w)(\\W)?/d",
                   "regex": {
                     "pattern": "(\\w\\w)(\\W)?",
                     "flags": "d"
@@ -1018,7 +972,6 @@
                     "start": 1887,
                     "end": 1926,
                     "value": {},
-                    "raw": "/(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>/d",
                     "regex": {
                       "pattern": "(?<a>.)(?<b>.)(?<c>.)\\k<c>\\k<b>\\k<a>",
                       "flags": "d"
@@ -1038,8 +991,7 @@
                     "type": "Literal",
                     "start": 1932,
                     "end": 1940,
-                    "value": "abccba",
-                    "raw": "\"abccba\""
+                    "value": "abccba"
                   }
                 ],
                 "optional": false
@@ -1103,15 +1055,13 @@
                 "type": "Literal",
                 "start": 1979,
                 "end": 1980,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1982,
                 "end": 1983,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -1175,15 +1125,13 @@
                 "type": "Literal",
                 "start": 2018,
                 "end": 2019,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 2021,
                 "end": 2022,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           },
@@ -1247,15 +1195,13 @@
                 "type": "Literal",
                 "start": 2057,
                 "end": 2058,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 2060,
                 "end": 2061,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           },
@@ -1307,8 +1253,7 @@
             "type": "Literal",
             "start": 2098,
             "end": 2101,
-            "value": "a",
-            "raw": "\"a\""
+            "value": "a"
           },
           {
             "type": "ObjectExpression",
@@ -1412,8 +1357,7 @@
             "type": "Literal",
             "start": 2197,
             "end": 2200,
-            "value": "b",
-            "raw": "\"b\""
+            "value": "b"
           },
           {
             "type": "ObjectExpression",
@@ -1517,8 +1461,7 @@
             "type": "Literal",
             "start": 2296,
             "end": 2299,
-            "value": "c",
-            "raw": "\"c\""
+            "value": "c"
           },
           {
             "type": "ObjectExpression",
@@ -1633,8 +1576,7 @@
               "type": "Literal",
               "start": 2576,
               "end": 2580,
-              "value": "𝐁",
-              "raw": "\"𝐁\""
+              "value": "𝐁"
             },
             "property": {
               "type": "Identifier",
@@ -1649,15 +1591,13 @@
             "type": "Literal",
             "start": 2589,
             "end": 2590,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2592,
             "end": 2617,
-            "value": "The length of \"𝐁\" is 2",
-            "raw": "'The length of \"𝐁\" is 2'"
+            "value": "The length of \"𝐁\" is 2"
           }
         ],
         "optional": false
@@ -1699,8 +1639,7 @@
               "type": "Literal",
               "start": 2637,
               "end": 2648,
-              "value": "𝐁",
-              "raw": "\"\\u{1d401}\""
+              "value": "𝐁"
             },
             "property": {
               "type": "Identifier",
@@ -1715,15 +1654,13 @@
             "type": "Literal",
             "start": 2657,
             "end": 2658,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2660,
             "end": 2693,
-            "value": "The length of \"\\u{1d401}\" is 2",
-            "raw": "'The length of \"\\\\u{1d401}\" is 2'"
+            "value": "The length of \"\\u{1d401}\" is 2"
           }
         ],
         "optional": false
@@ -1765,8 +1702,7 @@
               "type": "Literal",
               "start": 2713,
               "end": 2727,
-              "value": "𝐁",
-              "raw": "\"\\uD835\\uDC01\""
+              "value": "𝐁"
             },
             "property": {
               "type": "Identifier",
@@ -1781,15 +1717,13 @@
             "type": "Literal",
             "start": 2736,
             "end": 2737,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 2739,
             "end": 2776,
-            "value": "The length of \"\\uD835\\uDC01\" is 2",
-            "raw": "'The length of \"\\\\uD835\\\\uDC01\" is 2'"
+            "value": "The length of \"\\uD835\\uDC01\" is 2"
           }
         ],
         "optional": false
@@ -1843,8 +1777,7 @@
                     "type": "Literal",
                     "start": 2796,
                     "end": 2800,
-                    "value": "𝐁",
-                    "raw": "\"𝐁\""
+                    "value": "𝐁"
                   },
                   "property": {
                     "type": "Identifier",
@@ -1861,7 +1794,6 @@
                     "start": 2807,
                     "end": 2810,
                     "value": {},
-                    "raw": "/./",
                     "regex": {
                       "pattern": ".",
                       "flags": ""
@@ -1874,8 +1806,7 @@
                 "type": "Literal",
                 "start": 2812,
                 "end": 2813,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -1893,15 +1824,13 @@
             "type": "Literal",
             "start": 2823,
             "end": 2824,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2826,
             "end": 2902,
-            "value": "The length of a single code unit match against \"𝐁\" is 1 (without /u flag)",
-            "raw": "'The length of a single code unit match against \"𝐁\" is 1 (without /u flag)'"
+            "value": "The length of a single code unit match against \"𝐁\" is 1 (without /u flag)"
           }
         ],
         "optional": false
@@ -1955,8 +1884,7 @@
                     "type": "Literal",
                     "start": 2922,
                     "end": 2933,
-                    "value": "𝐁",
-                    "raw": "\"\\u{1d401}\""
+                    "value": "𝐁"
                   },
                   "property": {
                     "type": "Identifier",
@@ -1973,7 +1901,6 @@
                     "start": 2940,
                     "end": 2943,
                     "value": {},
-                    "raw": "/./",
                     "regex": {
                       "pattern": ".",
                       "flags": ""
@@ -1986,8 +1913,7 @@
                 "type": "Literal",
                 "start": 2945,
                 "end": 2946,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -2005,15 +1931,13 @@
             "type": "Literal",
             "start": 2956,
             "end": 2957,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2959,
             "end": 3043,
-            "value": "The length of a single code unit match against \"\\u{1d401}\" is 1 (without /u flag)",
-            "raw": "'The length of a single code unit match against \"\\\\u{1d401}\" is 1 (without /u flag)'"
+            "value": "The length of a single code unit match against \"\\u{1d401}\" is 1 (without /u flag)"
           }
         ],
         "optional": false
@@ -2067,8 +1991,7 @@
                     "type": "Literal",
                     "start": 3063,
                     "end": 3077,
-                    "value": "𝐁",
-                    "raw": "\"\\uD835\\uDC01\""
+                    "value": "𝐁"
                   },
                   "property": {
                     "type": "Identifier",
@@ -2085,7 +2008,6 @@
                     "start": 3084,
                     "end": 3087,
                     "value": {},
-                    "raw": "/./",
                     "regex": {
                       "pattern": ".",
                       "flags": ""
@@ -2098,8 +2020,7 @@
                 "type": "Literal",
                 "start": 3089,
                 "end": 3090,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -2117,15 +2038,13 @@
             "type": "Literal",
             "start": 3100,
             "end": 3101,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 3103,
             "end": 3191,
-            "value": "The length of a single code unit match against \"\\ud835\\udc01\" is 1 (without /u flag)",
-            "raw": "'The length of a single code unit match against \"\\\\ud835\\\\udc01\" is 1 (without /u flag)'"
+            "value": "The length of a single code unit match against \"\\ud835\\udc01\" is 1 (without /u flag)"
           }
         ],
         "optional": false
@@ -2168,15 +2087,13 @@
                 "type": "Literal",
                 "start": 3216,
                 "end": 3217,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3219,
                 "end": 3220,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -2200,8 +2117,7 @@
                     "type": "Literal",
                     "start": 3223,
                     "end": 3227,
-                    "value": "𝐁",
-                    "raw": "\"𝐁\""
+                    "value": "𝐁"
                   },
                   "property": {
                     "type": "Identifier",
@@ -2218,7 +2134,6 @@
                     "start": 3234,
                     "end": 3238,
                     "value": {},
-                    "raw": "/./d",
                     "regex": {
                       "pattern": ".",
                       "flags": "d"
@@ -2240,8 +2155,7 @@
               "type": "Literal",
               "start": 3248,
               "end": 3249,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -2250,8 +2164,7 @@
             "type": "Literal",
             "start": 3252,
             "end": 3314,
-            "value": "Indices for non-unicode match against \"𝐁\" (without /u flag)",
-            "raw": "'Indices for non-unicode match against \"𝐁\" (without /u flag)'"
+            "value": "Indices for non-unicode match against \"𝐁\" (without /u flag)"
           }
         ],
         "optional": false
@@ -2294,15 +2207,13 @@
                 "type": "Literal",
                 "start": 3338,
                 "end": 3339,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3341,
                 "end": 3342,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -2326,8 +2237,7 @@
                     "type": "Literal",
                     "start": 3345,
                     "end": 3356,
-                    "value": "𝐁",
-                    "raw": "\"\\u{1d401}\""
+                    "value": "𝐁"
                   },
                   "property": {
                     "type": "Identifier",
@@ -2344,7 +2254,6 @@
                     "start": 3363,
                     "end": 3367,
                     "value": {},
-                    "raw": "/./d",
                     "regex": {
                       "pattern": ".",
                       "flags": "d"
@@ -2366,8 +2275,7 @@
               "type": "Literal",
               "start": 3377,
               "end": 3378,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -2376,8 +2284,7 @@
             "type": "Literal",
             "start": 3381,
             "end": 3451,
-            "value": "Indices for non-unicode match against \"\\u{1d401}\" (without /u flag)",
-            "raw": "'Indices for non-unicode match against \"\\\\u{1d401}\" (without /u flag)'"
+            "value": "Indices for non-unicode match against \"\\u{1d401}\" (without /u flag)"
           }
         ],
         "optional": false
@@ -2420,15 +2327,13 @@
                 "type": "Literal",
                 "start": 3475,
                 "end": 3476,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3478,
                 "end": 3479,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -2452,8 +2357,7 @@
                     "type": "Literal",
                     "start": 3482,
                     "end": 3496,
-                    "value": "𝐁",
-                    "raw": "\"\\uD835\\uDC01\""
+                    "value": "𝐁"
                   },
                   "property": {
                     "type": "Identifier",
@@ -2470,7 +2374,6 @@
                     "start": 3503,
                     "end": 3507,
                     "value": {},
-                    "raw": "/./d",
                     "regex": {
                       "pattern": ".",
                       "flags": "d"
@@ -2492,8 +2395,7 @@
               "type": "Literal",
               "start": 3517,
               "end": 3518,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -2502,8 +2404,7 @@
             "type": "Literal",
             "start": 3521,
             "end": 3595,
-            "value": "Indices for non-unicode match against \"\\ud835\\udc01\" (without /u flag)",
-            "raw": "'Indices for non-unicode match against \"\\\\ud835\\\\udc01\" (without /u flag)'"
+            "value": "Indices for non-unicode match against \"\\ud835\\udc01\" (without /u flag)"
           }
         ],
         "optional": false
@@ -2546,15 +2447,13 @@
                 "type": "Literal",
                 "start": 3619,
                 "end": 3620,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3622,
                 "end": 3623,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -2582,8 +2481,7 @@
                       "type": "Literal",
                       "start": 3626,
                       "end": 3630,
-                      "value": "𝐁",
-                      "raw": "\"𝐁\""
+                      "value": "𝐁"
                     },
                     "property": {
                       "type": "Identifier",
@@ -2600,7 +2498,6 @@
                       "start": 3637,
                       "end": 3647,
                       "value": {},
-                      "raw": "/(?<a>.)/d",
                       "regex": {
                         "pattern": "(?<a>.)",
                         "flags": "d"
@@ -2640,8 +2537,7 @@
             "type": "Literal",
             "start": 3667,
             "end": 3741,
-            "value": "Indices for non-unicode match against \"𝐁\" in groups.a (without /u flag)",
-            "raw": "'Indices for non-unicode match against \"𝐁\" in groups.a (without /u flag)'"
+            "value": "Indices for non-unicode match against \"𝐁\" in groups.a (without /u flag)"
           }
         ],
         "optional": false
@@ -2684,15 +2580,13 @@
                 "type": "Literal",
                 "start": 3765,
                 "end": 3766,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3768,
                 "end": 3769,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -2720,8 +2614,7 @@
                       "type": "Literal",
                       "start": 3772,
                       "end": 3783,
-                      "value": "𝐁",
-                      "raw": "\"\\u{1d401}\""
+                      "value": "𝐁"
                     },
                     "property": {
                       "type": "Identifier",
@@ -2738,7 +2631,6 @@
                       "start": 3790,
                       "end": 3800,
                       "value": {},
-                      "raw": "/(?<a>.)/d",
                       "regex": {
                         "pattern": "(?<a>.)",
                         "flags": "d"
@@ -2778,8 +2670,7 @@
             "type": "Literal",
             "start": 3820,
             "end": 3902,
-            "value": "Indices for non-unicode match against \"\\u{1d401}\" in groups.a (without /u flag)",
-            "raw": "'Indices for non-unicode match against \"\\\\u{1d401}\" in groups.a (without /u flag)'"
+            "value": "Indices for non-unicode match against \"\\u{1d401}\" in groups.a (without /u flag)"
           }
         ],
         "optional": false
@@ -2822,15 +2713,13 @@
                 "type": "Literal",
                 "start": 3926,
                 "end": 3927,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3929,
                 "end": 3930,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -2858,8 +2747,7 @@
                       "type": "Literal",
                       "start": 3933,
                       "end": 3947,
-                      "value": "𝐁",
-                      "raw": "\"\\uD835\\uDC01\""
+                      "value": "𝐁"
                     },
                     "property": {
                       "type": "Identifier",
@@ -2876,7 +2764,6 @@
                       "start": 3954,
                       "end": 3964,
                       "value": {},
-                      "raw": "/(?<a>.)/d",
                       "regex": {
                         "pattern": "(?<a>.)",
                         "flags": "d"
@@ -2916,8 +2803,7 @@
             "type": "Literal",
             "start": 3984,
             "end": 4070,
-            "value": "Indices for non-unicode match against \"\\ud835\\udc01\" in groups.a (without /u flag)",
-            "raw": "'Indices for non-unicode match against \"\\\\ud835\\\\udc01\" in groups.a (without /u flag)'"
+            "value": "Indices for non-unicode match against \"\\ud835\\udc01\" in groups.a (without /u flag)"
           }
         ],
         "optional": false

@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 308,
                 "end": 315,
-                "value": "\"\\b\"",
-                "raw": "'\"\\\\b\"'"
+                "value": "\"\\b\""
               }
             ],
             "optional": false
@@ -69,15 +68,13 @@
             "type": "Literal",
             "start": 318,
             "end": 322,
-            "value": "\b",
-            "raw": "'\\b'"
+            "value": "\b"
           },
           {
             "type": "Literal",
             "start": 324,
             "end": 347,
-            "value": "JSON.parse('\"\\b\"')",
-            "raw": "'JSON.parse(\\'\"\\\\b\"\\')'"
+            "value": "JSON.parse('\"\\b\"')"
           }
         ],
         "optional": false

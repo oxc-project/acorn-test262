@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 355,
-                "value": 3600000000000.5,
-                "raw": "3600_000_000_000.5"
+                "value": 3600000000000.5
               },
               {
                 "type": "Identifier",

@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 300,
             "end": 307,
-            "value": "store",
-            "raw": "'store'"
+            "value": "store"
           },
           {
             "type": "ObjectExpression",

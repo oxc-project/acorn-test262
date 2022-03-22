@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 590,
             "end": 599,
-            "value": "Atomics",
-            "raw": "'Atomics'"
+            "value": "Atomics"
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 658,
-            "value": "The value of Atomics[Symbol.toStringTag] is \"Atomics\"",
-            "raw": "'The value of Atomics[Symbol.toStringTag] is \"Atomics\"'"
+            "value": "The value of Atomics[Symbol.toStringTag] is \"Atomics\""
           }
         ],
         "optional": false

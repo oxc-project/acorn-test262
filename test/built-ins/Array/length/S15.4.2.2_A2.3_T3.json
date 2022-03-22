@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 462,
                 "end": 465,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ]
           }
@@ -93,15 +92,13 @@
             "type": "Literal",
             "start": 496,
             "end": 497,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 542,
-            "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "value": "The value of x.length is expected to be 1"
           }
         ],
         "optional": false
@@ -149,8 +146,7 @@
               "type": "Literal",
               "start": 564,
               "end": 565,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -159,15 +155,13 @@
             "type": "Literal",
             "start": 568,
             "end": 571,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "Literal",
             "start": 573,
             "end": 614,
-            "value": "The value of x[0] is expected to be \"1\"",
-            "raw": "'The value of x[0] is expected to be \"1\"'"
+            "value": "The value of x[0] is expected to be \"1\""
           }
         ],
         "optional": false
@@ -203,8 +197,7 @@
                 "type": "Literal",
                 "start": 639,
                 "end": 642,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               }
             ]
           }
@@ -301,15 +294,13 @@
             "type": "Literal",
             "start": 697,
             "end": 698,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 700,
             "end": 743,
-            "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "value": "The value of x.length is expected to be 1"
           }
         ],
         "optional": false
@@ -357,8 +348,7 @@
               "type": "Literal",
               "start": 765,
               "end": 766,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -373,8 +363,7 @@
             "type": "Literal",
             "start": 774,
             "end": 831,
-            "value": "The value of x[0] is expected to equal the value of obj",
-            "raw": "'The value of x[0] is expected to equal the value of obj'"
+            "value": "The value of x[0] is expected to equal the value of obj"
           }
         ],
         "optional": false

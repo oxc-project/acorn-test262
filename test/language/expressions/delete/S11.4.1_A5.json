@@ -78,8 +78,7 @@
               "type": "Literal",
               "start": 553,
               "end": 554,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
@@ -208,8 +207,7 @@
                 "type": "Literal",
                 "start": 638,
                 "end": 649,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             },
             "consequent": {
@@ -236,8 +234,7 @@
                         "type": "Literal",
                         "start": 671,
                         "end": 683,
-                        "value": "unassigned",
-                        "raw": "'unassigned'"
+                        "value": "unassigned"
                       }
                     }
                   ],
@@ -374,8 +371,7 @@
                                         "type": "Literal",
                                         "start": 826,
                                         "end": 869,
-                                        "value": "#1: strict delete threw a non-TypeError: ",
-                                        "raw": "'#1: strict delete threw a non-TypeError: '"
+                                        "value": "#1: strict delete threw a non-TypeError: "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -444,8 +440,7 @@
                               "type": "Literal",
                               "start": 972,
                               "end": 1006,
-                              "value": "#2: Strict delete returned false",
-                              "raw": "'#2: Strict delete returned false'"
+                              "value": "#2: Strict delete returned false"
                             }
                           ]
                         }

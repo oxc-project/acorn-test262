@@ -74,29 +74,25 @@
                                 "type": "Literal",
                                 "start": 845,
                                 "end": 847,
-                                "value": 40,
-                                "raw": "40"
+                                "value": 40
                               },
                               {
                                 "type": "Literal",
                                 "start": 849,
                                 "end": 851,
-                                "value": 41,
-                                "raw": "41"
+                                "value": 41
                               },
                               {
                                 "type": "Literal",
                                 "start": 853,
                                 "end": 855,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 857,
                                 "end": 859,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -125,8 +121,7 @@
                         "type": "Literal",
                         "start": 881,
                         "end": 882,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -170,8 +165,7 @@
                         "type": "Literal",
                         "start": 917,
                         "end": 930,
-                        "value": "constructor",
-                        "raw": "\"constructor\""
+                        "value": "constructor"
                       },
                       {
                         "type": "ObjectExpression",
@@ -393,15 +387,13 @@
                         "type": "Literal",
                         "start": 1135,
                         "end": 1136,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1138,
                         "end": 1169,
-                        "value": "callback should not be called",
-                        "raw": "\"callback should not be called\""
+                        "value": "callback should not be called"
                       }
                     ],
                     "optional": false

@@ -98,8 +98,7 @@
             "type": "Literal",
             "start": 877,
             "end": 878,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -309,8 +308,7 @@
                                           "type": "Literal",
                                           "start": 1070,
                                           "end": 1071,
-                                          "value": 1,
-                                          "raw": "1"
+                                          "value": 1
                                         }
                                       }
                                     },
@@ -380,8 +378,7 @@
             "type": "Literal",
             "start": 1146,
             "end": 1152,
-            "value": "then",
-            "raw": "'then'"
+            "value": "then"
           },
           {
             "type": "ObjectExpression",
@@ -533,8 +530,7 @@
                             "type": "Literal",
                             "start": 1231,
                             "end": 1281,
-                            "value": "The promise should be rejected, but was resolved",
-                            "raw": "'The promise should be rejected, but was resolved'"
+                            "value": "The promise should be rejected, but was resolved"
                           }
                         ],
                         "optional": false
@@ -602,8 +598,7 @@
                             "type": "Literal",
                             "start": 1333,
                             "end": 1334,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false

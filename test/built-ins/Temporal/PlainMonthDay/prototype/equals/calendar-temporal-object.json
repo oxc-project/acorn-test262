@@ -95,15 +95,13 @@
                             "type": "Literal",
                             "start": 1296,
                             "end": 1297,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           },
                           {
                             "type": "Literal",
                             "start": 1299,
                             "end": 1300,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           },
                           {
                             "type": "Identifier",
@@ -167,8 +165,7 @@
                               "type": "Literal",
                               "start": 1350,
                               "end": 1355,
-                              "value": "M06",
-                              "raw": "\"M06\""
+                              "value": "M06"
                             },
                             "kind": "init"
                           },
@@ -189,8 +186,7 @@
                               "type": "Literal",
                               "start": 1362,
                               "end": 1363,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             "kind": "init"
                           },

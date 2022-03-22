@@ -75,8 +75,7 @@
                           "type": "Literal",
                           "start": 399,
                           "end": 400,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -263,8 +262,7 @@
             "type": "Literal",
             "start": 538,
             "end": 561,
-            "value": "newInstance.valueOf()",
-            "raw": "'newInstance.valueOf()'"
+            "value": "newInstance.valueOf()"
           }
         ],
         "optional": false

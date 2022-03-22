@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 758,
             "end": 813,
-            "value": "isConstructor(Map.prototype.values) must return false",
-            "raw": "'isConstructor(Map.prototype.values) must return false'"
+            "value": "isConstructor(Map.prototype.values) must return false"
           }
         ],
         "optional": false
@@ -211,8 +210,7 @@
             "type": "Literal",
             "start": 890,
             "end": 944,
-            "value": "`let m = new Map(); new m.values()` throws TypeError",
-            "raw": "'`let m = new Map(); new m.values()` throws TypeError'"
+            "value": "`let m = new Map(); new m.values()` throws TypeError"
           }
         ],
         "optional": false

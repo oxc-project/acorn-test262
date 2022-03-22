@@ -141,8 +141,7 @@
                           "type": "Literal",
                           "start": 1319,
                           "end": 1320,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         {
                           "type": "FunctionExpression",
@@ -275,8 +274,7 @@
             "type": "Literal",
             "start": 1409,
             "end": 1417,
-            "value": "xCover",
-            "raw": "'xCover'"
+            "value": "xCover"
           }
         ],
         "optional": false
@@ -307,8 +305,7 @@
             "type": "Literal",
             "start": 1443,
             "end": 1449,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -398,8 +395,7 @@
                   "type": "Literal",
                   "start": 1524,
                   "end": 1531,
-                  "value": "cover",
-                  "raw": "'cover'"
+                  "value": "cover"
                 },
                 "kind": "init"
               }

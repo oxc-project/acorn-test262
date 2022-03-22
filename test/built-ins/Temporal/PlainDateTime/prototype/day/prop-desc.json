@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 366,
                 "end": 371,
-                "value": "day",
-                "raw": "\"day\""
+                "value": "day"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 414,
             "end": 424,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

@@ -73,8 +73,7 @@
             "type": "Literal",
             "start": 964,
             "end": 965,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -370,8 +369,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1241,
-            "value": "\"resolve\" return value",
-            "raw": "'\"resolve\" return value'"
+            "value": "\"resolve\" return value"
           }
         ],
         "optional": false
@@ -438,8 +436,7 @@
                     "type": "Literal",
                     "start": 1293,
                     "end": 1294,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               }
@@ -543,8 +540,7 @@
                               "type": "Literal",
                               "start": 1362,
                               "end": 1420,
-                              "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "value": "The promise should be fulfilled with the provided value."
                             }
                           ],
                           "optional": false
@@ -579,8 +575,7 @@
                       "type": "Literal",
                       "start": 1462,
                       "end": 1463,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   },
                   "consequent": {
@@ -607,8 +602,7 @@
                               "type": "Literal",
                               "start": 1477,
                               "end": 1530,
-                              "value": "The `then` method should be executed synchronously.",
-                              "raw": "'The `then` method should be executed synchronously.'"
+                              "value": "The `then` method should be executed synchronously."
                             }
                           ],
                           "optional": false
@@ -672,8 +666,7 @@
                         "type": "Literal",
                         "start": 1573,
                         "end": 1610,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

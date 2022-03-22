@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 970,
             "end": 980,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 984,
             "end": 1045,
-            "value": "typeof Intl.Segmenter.prototype.resolvedOptions is function",
-            "raw": "\"typeof Intl.Segmenter.prototype.resolvedOptions is function\""
+            "value": "typeof Intl.Segmenter.prototype.resolvedOptions is function"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 1091,
             "end": 1108,
-            "value": "resolvedOptions",
-            "raw": "\"resolvedOptions\""
+            "value": "resolvedOptions"
           },
           {
             "type": "ObjectExpression",

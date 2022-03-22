@@ -163,8 +163,7 @@
                           "type": "Literal",
                           "start": 450,
                           "end": 451,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -280,15 +279,13 @@
             "type": "Literal",
             "start": 535,
             "end": 536,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 538,
             "end": 585,
-            "value": "The value of calls.length is expected to be 1",
-            "raw": "'The value of calls.length is expected to be 1'"
+            "value": "The value of calls.length is expected to be 1"
           }
         ],
         "optional": false
@@ -344,8 +341,7 @@
                   "type": "Literal",
                   "start": 611,
                   "end": 612,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -372,15 +368,13 @@
             "type": "Literal",
             "start": 627,
             "end": 628,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 630,
             "end": 685,
-            "value": "The value of calls[0].args.length is expected to be 1",
-            "raw": "'The value of calls[0].args.length is expected to be 1'"
+            "value": "The value of calls[0].args.length is expected to be 1"
           }
         ],
         "optional": false
@@ -427,8 +421,7 @@
                     "type": "Literal",
                     "start": 704,
                     "end": 705,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -446,8 +439,7 @@
                 "type": "Literal",
                 "start": 712,
                 "end": 713,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -477,8 +469,7 @@
             "type": "Literal",
             "start": 746,
             "end": 842,
-            "value": "The result of evaluating (calls[0].args[0] instanceof Temporal.Instant) is expected to be true",
-            "raw": "'The result of evaluating (calls[0].args[0] instanceof Temporal.Instant) is expected to be true'"
+            "value": "The result of evaluating (calls[0].args[0] instanceof Temporal.Instant) is expected to be true"
           }
         ],
         "optional": false
@@ -530,8 +521,7 @@
                 "type": "Literal",
                 "start": 869,
                 "end": 870,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -555,8 +545,7 @@
             "type": "Literal",
             "start": 888,
             "end": 959,
-            "value": "The value of calls[0].this is expected to equal the value of timeZone",
-            "raw": "'The value of calls[0].this is expected to equal the value of timeZone'"
+            "value": "The value of calls[0].this is expected to equal the value of timeZone"
           }
         ],
         "optional": false

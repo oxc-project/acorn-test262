@@ -31,7 +31,6 @@
                 "start": 547,
                 "end": 573,
                 "value": {},
-                "raw": "/Java(?!Script)([A-Z]\\w*)/",
                 "regex": {
                   "pattern": "Java(?!Script)([A-Z]\\w*)",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 579,
                 "end": 600,
-                "value": "i'm a JavaScripter ",
-                "raw": "\"i'm a JavaScripter \""
+                "value": "i'm a JavaScripter "
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 624,
             "end": 673,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

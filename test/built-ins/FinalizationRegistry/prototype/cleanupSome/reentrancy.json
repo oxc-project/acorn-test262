@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 498,
             "end": 499,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 517,
             "end": 518,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -148,8 +146,7 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 631,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -172,8 +169,7 @@
                 "type": "Literal",
                 "start": 651,
                 "end": 652,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "consequent": {
@@ -348,8 +344,7 @@
                 "type": "Literal",
                 "start": 872,
                 "end": 873,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -463,8 +458,7 @@
                   "type": "Literal",
                   "start": 1024,
                   "end": 1036,
-                  "value": "holdings 1",
-                  "raw": "'holdings 1'"
+                  "value": "holdings 1"
                 }
               ],
               "optional": false
@@ -508,8 +502,7 @@
                   "type": "Literal",
                   "start": 1075,
                   "end": 1087,
-                  "value": "holdings 2",
-                  "raw": "'holdings 2'"
+                  "value": "holdings 2"
                 }
               ],
               "optional": false
@@ -725,15 +718,13 @@
                             "type": "Literal",
                             "start": 1254,
                             "end": 1255,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1257,
                             "end": 1278,
-                            "value": "callback was called",
-                            "raw": "'callback was called'"
+                            "value": "callback was called"
                           }
                         ],
                         "optional": false
@@ -777,15 +768,13 @@
                             "type": "Literal",
                             "start": 1311,
                             "end": 1312,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1314,
                             "end": 1333,
-                            "value": "callback finished",
-                            "raw": "'callback finished'"
+                            "value": "callback finished"
                           }
                         ],
                         "optional": false

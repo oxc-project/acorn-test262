@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 536,
             "end": 601,
-            "value": "Object.isExtensible(new Intl.RelativeTimeFormat()) returns true",
-            "raw": "\"Object.isExtensible(new Intl.RelativeTimeFormat()) returns true\""
+            "value": "Object.isExtensible(new Intl.RelativeTimeFormat()) returns true"
           }
         ],
         "optional": false

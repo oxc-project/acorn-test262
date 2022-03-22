@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 391,
-                "value": "gregory",
-                "raw": "\"gregory\""
+                "value": "gregory"
               }
             ]
           }
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 414,
                   "end": 418,
-                  "value": "ad",
-                  "raw": "\"ad\""
+                  "value": "ad"
                 },
                 "kind": "init"
               },
@@ -114,8 +112,7 @@
                   "type": "Literal",
                   "start": 427,
                   "end": 428,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "kind": "init"
               },
@@ -136,8 +133,7 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 436,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -158,8 +154,7 @@
                   "type": "Literal",
                   "start": 448,
                   "end": 457,
-                  "value": "gregory",
-                  "raw": "\"gregory\""
+                  "value": "gregory"
                 },
                 "kind": "init"
               }
@@ -259,15 +254,13 @@
                             "type": "Literal",
                             "start": 506,
                             "end": 517,
-                            "value": "constrain",
-                            "raw": "\"constrain\""
+                            "value": "constrain"
                           },
                           {
                             "type": "Literal",
                             "start": 519,
                             "end": 527,
-                            "value": "reject",
-                            "raw": "\"reject\""
+                            "value": "reject"
                           }
                         ]
                       },
@@ -575,8 +568,7 @@
                                         "type": "Literal",
                                         "start": 806,
                                         "end": 815,
-                                        "value": "eraYear",
-                                        "raw": "\"eraYear\""
+                                        "value": "eraYear"
                                       }
                                     ],
                                     "optional": false
@@ -770,15 +762,13 @@
                                         "type": "Literal",
                                         "start": 957,
                                         "end": 978,
-                                        "value": "get eraYear.valueOf",
-                                        "raw": "\"get eraYear.valueOf\""
+                                        "value": "get eraYear.valueOf"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 980,
                                         "end": 1002,
-                                        "value": "call eraYear.valueOf",
-                                        "raw": "\"call eraYear.valueOf\""
+                                        "value": "call eraYear.valueOf"
                                       }
                                     ]
                                   },
@@ -786,8 +776,7 @@
                                     "type": "Literal",
                                     "start": 1005,
                                     "end": 1050,
-                                    "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "value": "it fails after fetching the primitive value"
                                   }
                                 ],
                                 "optional": false

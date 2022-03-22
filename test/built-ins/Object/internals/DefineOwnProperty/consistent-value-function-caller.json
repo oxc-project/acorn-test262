@@ -60,8 +60,7 @@
                   "type": "Literal",
                   "start": 854,
                   "end": 862,
-                  "value": "caller",
-                  "raw": "'caller'"
+                  "value": "caller"
                 }
               ],
               "optional": false
@@ -148,8 +147,7 @@
             "type": "Literal",
             "start": 926,
             "end": 934,
-            "value": "caller",
-            "raw": "'caller'"
+            "value": "caller"
           },
           {
             "type": "ObjectExpression",
@@ -255,8 +253,7 @@
                 "type": "Literal",
                 "start": 1031,
                 "end": 1039,
-                "value": "caller",
-                "raw": "'caller'"
+                "value": "caller"
               }
             ],
             "optional": false

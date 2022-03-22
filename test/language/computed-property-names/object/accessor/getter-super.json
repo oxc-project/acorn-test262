@@ -99,8 +99,7 @@
                           "type": "Literal",
                           "start": 298,
                           "end": 308,
-                          "value": " proto m",
-                          "raw": "' proto m'"
+                          "value": " proto m"
                         }
                       }
                     ]
@@ -144,8 +143,7 @@
                   "type": "Literal",
                   "start": 339,
                   "end": 342,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "get",
                 "value": {
@@ -174,8 +172,7 @@
                             "type": "Literal",
                             "start": 355,
                             "end": 358,
-                            "value": "a",
-                            "raw": "'a'"
+                            "value": "a"
                           },
                           "operator": "+",
                           "right": {
@@ -231,8 +228,7 @@
                       "type": "Literal",
                       "start": 385,
                       "end": 388,
-                      "value": "b",
-                      "raw": "'b'"
+                      "value": "b"
                     }
                   ],
                   "optional": false
@@ -264,8 +260,7 @@
                             "type": "Literal",
                             "start": 402,
                             "end": 405,
-                            "value": "b",
-                            "raw": "'b'"
+                            "value": "b"
                           },
                           "operator": "+",
                           "right": {
@@ -310,8 +305,7 @@
                   "type": "Literal",
                   "start": 429,
                   "end": 430,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "get",
                 "value": {
@@ -340,8 +334,7 @@
                             "type": "Literal",
                             "start": 443,
                             "end": 446,
-                            "value": "0",
-                            "raw": "'0'"
+                            "value": "0"
                           },
                           "operator": "+",
                           "right": {
@@ -397,8 +390,7 @@
                       "type": "Literal",
                       "start": 473,
                       "end": 474,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   ],
                   "optional": false
@@ -430,8 +422,7 @@
                             "type": "Literal",
                             "start": 488,
                             "end": 491,
-                            "value": "1",
-                            "raw": "'1'"
+                            "value": "1"
                           },
                           "operator": "+",
                           "right": {
@@ -566,15 +557,13 @@
             "type": "Literal",
             "start": 583,
             "end": 594,
-            "value": "a proto m",
-            "raw": "'a proto m'"
+            "value": "a proto m"
           },
           {
             "type": "Literal",
             "start": 598,
             "end": 694,
-            "value": "The value of `object.a` is `'a proto m'`. Defined as `get ['a']() { return 'a' + super.m(); }`",
-            "raw": "\"The value of `object.a` is `'a proto m'`. Defined as `get ['a']() { return 'a' + super.m(); }`\""
+            "value": "The value of `object.a` is `'a proto m'`. Defined as `get ['a']() { return 'a' + super.m(); }`"
           }
         ],
         "optional": false
@@ -631,15 +620,13 @@
             "type": "Literal",
             "start": 730,
             "end": 741,
-            "value": "b proto m",
-            "raw": "'b proto m'"
+            "value": "b proto m"
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 845,
-            "value": "The value of `object.b` is `'b proto m'`. Defined as `get [ID('b')]() { return 'b' + super.m(); }`",
-            "raw": "\"The value of `object.b` is `'b proto m'`. Defined as `get [ID('b')]() { return 'b' + super.m(); }`\""
+            "value": "The value of `object.b` is `'b proto m'`. Defined as `get [ID('b')]() { return 'b' + super.m(); }`"
           }
         ],
         "optional": false
@@ -687,8 +674,7 @@
               "type": "Literal",
               "start": 876,
               "end": 877,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -697,15 +683,13 @@
             "type": "Literal",
             "start": 882,
             "end": 893,
-            "value": "0 proto m",
-            "raw": "'0 proto m'"
+            "value": "0 proto m"
           },
           {
             "type": "Literal",
             "start": 897,
             "end": 992,
-            "value": "The value of `object[0]` is `'0 proto m'`. Defined as `get [0]() { return '0' + super.m(); }`",
-            "raw": "\"The value of `object[0]` is `'0 proto m'`. Defined as `get [0]() { return '0' + super.m(); }`\""
+            "value": "The value of `object[0]` is `'0 proto m'`. Defined as `get [0]() { return '0' + super.m(); }`"
           }
         ],
         "optional": false
@@ -753,8 +737,7 @@
               "type": "Literal",
               "start": 1023,
               "end": 1024,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -763,15 +746,13 @@
             "type": "Literal",
             "start": 1029,
             "end": 1040,
-            "value": "1 proto m",
-            "raw": "'1 proto m'"
+            "value": "1 proto m"
           },
           {
             "type": "Literal",
             "start": 1044,
             "end": 1143,
-            "value": "The value of `object[1]` is `'1 proto m'`. Defined as `get [ID(1)]() { return '1' + super.m(); }`",
-            "raw": "\"The value of `object[1]` is `'1 proto m'`. Defined as `get [ID(1)]() { return '1' + super.m(); }`\""
+            "value": "The value of `object[1]` is `'1 proto m'`. Defined as `get [ID(1)]() { return '1' + super.m(); }`"
           }
         ],
         "optional": false

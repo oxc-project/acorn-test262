@@ -48,8 +48,7 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 374,
-                "value": "dayPeriod",
-                "raw": "\"dayPeriod\""
+                "value": "dayPeriod"
               }
             ]
           }
@@ -173,8 +172,7 @@
                               "type": "Literal",
                               "start": 477,
                               "end": 481,
-                              "value": "en",
-                              "raw": "\"en\""
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",

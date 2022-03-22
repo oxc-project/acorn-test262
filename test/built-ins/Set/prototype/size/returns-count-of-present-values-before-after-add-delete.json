@@ -85,15 +85,13 @@
             "type": "Literal",
             "start": 431,
             "end": 432,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 434,
             "end": 464,
-            "value": "The value of `s.size` is `0`",
-            "raw": "\"The value of `s.size` is `0`\""
+            "value": "The value of `s.size` is `0`"
           }
         ],
         "optional": false
@@ -131,8 +129,7 @@
             "type": "Literal",
             "start": 474,
             "end": 475,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -189,15 +186,13 @@
             "type": "Literal",
             "start": 504,
             "end": 505,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 565,
-            "value": "The value of `s.size` is `1`, after executing `s.add(0)`",
-            "raw": "\"The value of `s.size` is `1`, after executing `s.add(0)`\""
+            "value": "The value of `s.size` is `1`, after executing `s.add(0)`"
           }
         ],
         "optional": false
@@ -235,8 +230,7 @@
             "type": "Literal",
             "start": 578,
             "end": 579,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -293,15 +287,13 @@
             "type": "Literal",
             "start": 608,
             "end": 609,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 611,
             "end": 672,
-            "value": "The value of `s.size` is `0`, after executing `s.delete(0)`",
-            "raw": "\"The value of `s.size` is `0`, after executing `s.delete(0)`\""
+            "value": "The value of `s.size` is `0`, after executing `s.delete(0)`"
           }
         ],
         "optional": false

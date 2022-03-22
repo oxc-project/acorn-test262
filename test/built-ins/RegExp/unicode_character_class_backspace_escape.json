@@ -31,7 +31,6 @@
                 "start": 413,
                 "end": 420,
                 "value": {},
-                "raw": "/[\\b]/u",
                 "regex": {
                   "pattern": "[\\b]",
                   "flags": "u"
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 434,
-                "value": "\b",
-                "raw": "'\\u0008'"
+                "value": "\b"
               }
             ],
             "optional": false
@@ -89,7 +87,6 @@
                 "start": 445,
                 "end": 454,
                 "value": {},
-                "raw": "/[\\b-A]/u",
                 "regex": {
                   "pattern": "[\\b-A]",
                   "flags": "u"
@@ -109,8 +106,7 @@
                 "type": "Literal",
                 "start": 460,
                 "end": 463,
-                "value": "A",
-                "raw": "'A'"
+                "value": "A"
               }
             ],
             "optional": false

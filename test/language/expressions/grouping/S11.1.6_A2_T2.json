@@ -62,8 +62,7 @@
                   "type": "Literal",
                   "start": 451,
                   "end": 476,
-                  "value": "#1: delete (x) === true",
-                  "raw": "'#1: delete (x) === true'"
+                  "value": "#1: delete (x) === true"
                 }
               ]
             }

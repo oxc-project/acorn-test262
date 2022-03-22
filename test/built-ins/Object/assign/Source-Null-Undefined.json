@@ -143,8 +143,7 @@
             "type": "Literal",
             "start": 372,
             "end": 434,
-            "value": "The value of result is expected to equal the value of target",
-            "raw": "'The value of result is expected to equal the value of target'"
+            "value": "The value of result is expected to equal the value of target"
           }
         ],
         "optional": false

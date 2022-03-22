@@ -40,8 +40,7 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 431,
-                "value": "\u0007",
-                "raw": "'\\07'"
+                "value": "\u0007"
               }
             ],
             "quasis": [
@@ -71,8 +70,7 @@
             "type": "Literal",
             "start": 435,
             "end": 443,
-            "value": "\u0007",
-            "raw": "'\\u0007'"
+            "value": "\u0007"
           }
         ],
         "optional": false

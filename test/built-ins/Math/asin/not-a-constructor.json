@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 731,
             "end": 775,
-            "value": "isConstructor(Math.asin) must return false",
-            "raw": "'isConstructor(Math.asin) must return false'"
+            "value": "isConstructor(Math.asin) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 834,
             "end": 870,
-            "value": "`new Math.asin()` throws TypeError",
-            "raw": "'`new Math.asin()` throws TypeError'"
+            "value": "`new Math.asin()` throws TypeError"
           }
         ],
         "optional": false

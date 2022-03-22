@@ -20,13 +20,12 @@
         "end": 1038,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 982,
-            "end": 997,
-            "static": false,
+            "end": 996,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 982,
               "end": 984,
               "name": "f"
@@ -35,8 +34,7 @@
               "type": "Literal",
               "start": 987,
               "end": 996,
-              "value": "Test262",
-              "raw": "'Test262'"
+              "value": "Test262"
             }
           },
           {
@@ -104,14 +102,14 @@
                           "computed": false,
                           "optional": true
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1029,
                           "end": 1031,
                           "name": "f"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       }
                     }
                   }
@@ -265,8 +263,7 @@
             "type": "Literal",
             "start": 1103,
             "end": 1112,
-            "value": "Test262",
-            "raw": "'Test262'"
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -559,8 +556,7 @@
             "type": "Literal",
             "start": 1291,
             "end": 1339,
-            "value": "accessed private field from an ordinary object",
-            "raw": "'accessed private field from an ordinary object'"
+            "value": "accessed private field from an ordinary object"
           }
         ],
         "optional": false

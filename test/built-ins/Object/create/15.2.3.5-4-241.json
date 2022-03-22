@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 373,
             "end": 378,
-            "value": "get",
-            "raw": "\"get\""
+            "value": "get"
           },
           {
             "type": "ObjectExpression",
@@ -234,8 +233,7 @@
                 "type": "Literal",
                 "start": 491,
                 "end": 497,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -244,8 +242,7 @@
             "type": "Literal",
             "start": 500,
             "end": 540,
-            "value": "newObj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'newObj.hasOwnProperty(\"prop\") !== true'"
+            "value": "newObj.hasOwnProperty(\"prop\") !== true"
           }
         ],
         "optional": false
@@ -314,15 +311,13 @@
             "type": "Literal",
             "start": 581,
             "end": 592,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 594,
             "end": 616,
-            "value": "typeof (newObj.prop)",
-            "raw": "'typeof (newObj.prop)'"
+            "value": "typeof (newObj.prop)"
           }
         ],
         "optional": false

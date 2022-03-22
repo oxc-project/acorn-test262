@@ -90,8 +90,7 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 310,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
             "type": "Literal",
             "start": 320,
             "end": 351,
-            "value": "`s.delete(1)` returns `false`",
-            "raw": "\"`s.delete(1)` returns `false`\""
+            "value": "`s.delete(1)` returns `false`"
           }
         ],
         "optional": false

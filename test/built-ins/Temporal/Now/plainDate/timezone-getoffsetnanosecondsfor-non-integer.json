@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 352,
-                "value": 3600000000000.5,
-                "raw": "3600_000_000_000.5"
+                "value": 3600000000000.5
               },
               {
                 "type": "Identifier",
@@ -202,8 +201,7 @@
                               "type": "Literal",
                               "start": 516,
                               "end": 525,
-                              "value": "iso8601",
-                              "raw": "\"iso8601\""
+                              "value": "iso8601"
                             },
                             {
                               "type": "Identifier",

@@ -48,50 +48,43 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 317,
-                "value": "usage",
-                "raw": "\"usage\""
+                "value": "usage"
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 336,
-                "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "value": "localeMatcher"
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 351,
-                "value": "collation",
-                "raw": "\"collation\""
+                "value": "collation"
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 364,
-                "value": "numeric",
-                "raw": "\"numeric\""
+                "value": "numeric"
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 379,
-                "value": "caseFirst",
-                "raw": "\"caseFirst\""
+                "value": "caseFirst"
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 396,
-                "value": "sensitivity",
-                "raw": "\"sensitivity\""
+                "value": "sensitivity"
               },
               {
                 "type": "Literal",
                 "start": 400,
                 "end": 419,
-                "value": "ignorePunctuation",
-                "raw": "\"ignorePunctuation\""
+                "value": "ignorePunctuation"
               }
             ]
           }
@@ -215,8 +208,7 @@
                               "type": "Literal",
                               "start": 516,
                               "end": 520,
-                              "value": "en",
-                              "raw": "\"en\""
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",

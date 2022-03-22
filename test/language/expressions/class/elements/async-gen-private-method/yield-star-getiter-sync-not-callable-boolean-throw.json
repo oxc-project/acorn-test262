@@ -83,8 +83,7 @@
             "type": "Literal",
             "start": 1501,
             "end": 1502,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -123,7 +122,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1532,
                     "end": 1536,
                     "name": "gen"
@@ -162,8 +161,7 @@
                               "type": "Literal",
                               "start": 1562,
                               "end": 1563,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         },
@@ -203,8 +201,7 @@
                                 "type": "Literal",
                                 "start": 1618,
                                 "end": 1649,
-                                "value": "abrupt completion closes iter",
-                                "raw": "'abrupt completion closes iter'"
+                                "value": "abrupt completion closes iter"
                               }
                             ]
                           }
@@ -253,14 +250,14 @@
                               "start": 1682,
                               "end": 1686
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 1687,
                               "end": 1691,
                               "name": "gen"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         }
                       ]
@@ -393,8 +390,7 @@
                 "type": "Literal",
                 "start": 1850,
                 "end": 1856,
-                "value": "#gen",
-                "raw": "\"#gen\""
+                "value": "#gen"
               }
             ],
             "optional": false
@@ -410,8 +406,7 @@
             "type": "Literal",
             "start": 1866,
             "end": 1915,
-            "value": "Object.hasOwnProperty.call(C.prototype, \"#gen\")",
-            "raw": "'Object.hasOwnProperty.call(C.prototype, \"#gen\")'"
+            "value": "Object.hasOwnProperty.call(C.prototype, \"#gen\")"
           }
         ],
         "optional": false
@@ -492,8 +487,7 @@
                 "type": "Literal",
                 "start": 1965,
                 "end": 1971,
-                "value": "#gen",
-                "raw": "\"#gen\""
+                "value": "#gen"
               }
             ],
             "optional": false
@@ -509,8 +503,7 @@
             "type": "Literal",
             "start": 1981,
             "end": 2020,
-            "value": "Object.hasOwnProperty.call(C, \"#gen\")",
-            "raw": "'Object.hasOwnProperty.call(C, \"#gen\")'"
+            "value": "Object.hasOwnProperty.call(C, \"#gen\")"
           }
         ],
         "optional": false
@@ -591,8 +584,7 @@
                 "type": "Literal",
                 "start": 2070,
                 "end": 2076,
-                "value": "#gen",
-                "raw": "\"#gen\""
+                "value": "#gen"
               }
             ],
             "optional": false
@@ -608,8 +600,7 @@
             "type": "Literal",
             "start": 2086,
             "end": 2125,
-            "value": "Object.hasOwnProperty.call(c, \"#gen\")",
-            "raw": "'Object.hasOwnProperty.call(c, \"#gen\")'"
+            "value": "Object.hasOwnProperty.call(c, \"#gen\")"
           }
         ],
         "optional": false
@@ -749,8 +740,7 @@
                             "type": "Literal",
                             "start": 2200,
                             "end": 2232,
-                            "value": "Promise incorrectly fulfilled.",
-                            "raw": "'Promise incorrectly fulfilled.'"
+                            "value": "Promise incorrectly fulfilled."
                           }
                         ]
                       }
@@ -836,8 +826,7 @@
                             "type": "Literal",
                             "start": 2290,
                             "end": 2301,
-                            "value": "TypeError",
-                            "raw": "\"TypeError\""
+                            "value": "TypeError"
                           }
                         ],
                         "optional": false
@@ -1008,8 +997,7 @@
                                             "type": "Literal",
                                             "start": 2380,
                                             "end": 2407,
-                                            "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "value": "the iterator is completed"
                                           }
                                         ],
                                         "optional": false
@@ -1059,8 +1047,7 @@
                                             "type": "Literal",
                                             "start": 2449,
                                             "end": 2469,
-                                            "value": "value is undefined",
-                                            "raw": "'value is undefined'"
+                                            "value": "value is undefined"
                                           }
                                         ],
                                         "optional": false
@@ -1162,8 +1149,7 @@
             "type": "Literal",
             "start": 2543,
             "end": 2544,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -1257,8 +1243,7 @@
                 "type": "Literal",
                 "start": 2679,
                 "end": 2685,
-                "value": "#gen",
-                "raw": "\"#gen\""
+                "value": "#gen"
               }
             ],
             "optional": false
@@ -1274,8 +1259,7 @@
             "type": "Literal",
             "start": 2695,
             "end": 2744,
-            "value": "Object.hasOwnProperty.call(C.prototype, \"#gen\")",
-            "raw": "'Object.hasOwnProperty.call(C.prototype, \"#gen\")'"
+            "value": "Object.hasOwnProperty.call(C.prototype, \"#gen\")"
           }
         ],
         "optional": false
@@ -1356,8 +1340,7 @@
                 "type": "Literal",
                 "start": 2794,
                 "end": 2800,
-                "value": "#gen",
-                "raw": "\"#gen\""
+                "value": "#gen"
               }
             ],
             "optional": false
@@ -1373,8 +1356,7 @@
             "type": "Literal",
             "start": 2810,
             "end": 2849,
-            "value": "Object.hasOwnProperty.call(C, \"#gen\")",
-            "raw": "'Object.hasOwnProperty.call(C, \"#gen\")'"
+            "value": "Object.hasOwnProperty.call(C, \"#gen\")"
           }
         ],
         "optional": false
@@ -1455,8 +1437,7 @@
                 "type": "Literal",
                 "start": 2899,
                 "end": 2905,
-                "value": "#gen",
-                "raw": "\"#gen\""
+                "value": "#gen"
               }
             ],
             "optional": false
@@ -1472,8 +1453,7 @@
             "type": "Literal",
             "start": 2915,
             "end": 2954,
-            "value": "Object.hasOwnProperty.call(c, \"#gen\")",
-            "raw": "'Object.hasOwnProperty.call(c, \"#gen\")'"
+            "value": "Object.hasOwnProperty.call(c, \"#gen\")"
           }
         ],
         "optional": false

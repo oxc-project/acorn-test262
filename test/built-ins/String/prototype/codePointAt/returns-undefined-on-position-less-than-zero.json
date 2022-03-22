@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 564,
                 "end": 569,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               "property": {
                 "type": "Identifier",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 583,
                   "end": 584,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -123,8 +121,7 @@
                 "type": "Literal",
                 "start": 616,
                 "end": 621,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               "property": {
                 "type": "Identifier",

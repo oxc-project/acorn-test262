@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 418,
             "end": 436,
-            "value": "Boston, MA 02134",
-            "raw": "\"Boston, MA 02134\""
+            "value": "Boston, MA 02134"
           }
         }
       ],
@@ -53,15 +52,13 @@
                 "type": "Literal",
                 "start": 456,
                 "end": 463,
-                "value": "02134",
-                "raw": "\"02134\""
+                "value": "02134"
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 472,
-                "value": "02134",
-                "raw": "\"02134\""
+                "value": "02134"
               },
               {
                 "type": "Identifier",
@@ -95,7 +92,6 @@
             "start": 498,
             "end": 526,
             "value": {},
-            "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
             "regex": {
               "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
               "flags": ""
@@ -213,8 +209,7 @@
           "type": "Literal",
           "start": 689,
           "end": 690,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -245,8 +240,7 @@
                     "type": "Literal",
                     "start": 719,
                     "end": 835,
-                    "value": "#1: __string = \"Boston, MA 02134\"; __re = /([d]{5})([- ]?[d]{4})?$/; __string.match(__re).length=== 3. Actual: ",
-                    "raw": "'#1: __string = \"Boston, MA 02134\"; __re = /([\\d]{5})([-\\ ]?[\\d]{4})?$/; __string.match(__re).length=== 3. Actual: '"
+                    "value": "#1: __string = \"Boston, MA 02134\"; __re = /([d]{5})([- ]?[d]{4})?$/; __string.match(__re).length=== 3. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -386,8 +380,7 @@
               "type": "Literal",
               "start": 1098,
               "end": 1101,
-              "value": "0",
-              "raw": "\"0\""
+              "value": "0"
             }
           ],
           "optional": false
@@ -421,8 +414,7 @@
                     "type": "Literal",
                     "start": 1131,
                     "end": 1304,
-                    "value": "#2: __string = \"Boston, MA 02134\"; __re = /([d]{5})([- ]?[d]{4})?$/; __re.lastIndex = __string.length; __string.match(__re).index ===__string.lastIndexOf(\"0\"). Actual: ",
-                    "raw": "'#2: __string = \"Boston, MA 02134\"; __re = /([\\d]{5})([-\\ ]?[\\d]{4})?$/; __re.lastIndex = __string.length; __string.match(__re).index ===__string.lastIndexOf(\"0\"). Actual: '"
+                    "value": "#2: __string = \"Boston, MA 02134\"; __re = /([d]{5})([- ]?[d]{4})?$/; __re.lastIndex = __string.length; __string.match(__re).index ===__string.lastIndexOf(\"0\"). Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -502,8 +494,7 @@
               "type": "Literal",
               "start": 1524,
               "end": 1525,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -685,8 +676,7 @@
                                       "type": "Literal",
                                       "start": 1637,
                                       "end": 1642,
-                                      "value": "#3.",
-                                      "raw": "'#3.'"
+                                      "value": "#3."
                                     },
                                     "operator": "+",
                                     "right": {
@@ -701,8 +691,7 @@
                                     "type": "Literal",
                                     "start": 1650,
                                     "end": 1784,
-                                    "value": ": __string = \"Boston, MA 02134\"; __re = /([d]{5})([- ]?[d]{4})?$/; __matches=[\"02134\", \"02134\", undefined]; __string.match(__re)[",
-                                    "raw": "': __string = \"Boston, MA 02134\"; __re = /([\\d]{5})([-\\ ]?[\\d]{4})?$/; __matches=[\"02134\", \"02134\", undefined]; __string.match(__re)['"
+                                    "value": ": __string = \"Boston, MA 02134\"; __re = /([d]{5})([- ]?[d]{4})?$/; __matches=[\"02134\", \"02134\", undefined]; __string.match(__re)["
                                   }
                                 },
                                 "operator": "+",
@@ -718,8 +707,7 @@
                                 "type": "Literal",
                                 "start": 1792,
                                 "end": 1808,
-                                "value": "]===__matches[",
-                                "raw": "']===__matches['"
+                                "value": "]===__matches["
                               }
                             },
                             "operator": "+",
@@ -735,8 +723,7 @@
                             "type": "Literal",
                             "start": 1816,
                             "end": 1829,
-                            "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "value": "]. Actual: "
                           }
                         },
                         "operator": "+",

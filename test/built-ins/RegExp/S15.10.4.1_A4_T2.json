@@ -105,8 +105,7 @@
             "type": "Literal",
             "start": 364,
             "end": 417,
-            "value": "The value of __re.multiline is expected to be false",
-            "raw": "'The value of __re.multiline is expected to be false'"
+            "value": "The value of __re.multiline is expected to be false"
           }
         ],
         "optional": false
@@ -170,8 +169,7 @@
             "type": "Literal",
             "start": 457,
             "end": 507,
-            "value": "The value of __re.global is expected to be false",
-            "raw": "'The value of __re.global is expected to be false'"
+            "value": "The value of __re.global is expected to be false"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
             "type": "Literal",
             "start": 551,
             "end": 605,
-            "value": "The value of __re.ignoreCase is expected to be false",
-            "raw": "'The value of __re.ignoreCase is expected to be false'"
+            "value": "The value of __re.ignoreCase is expected to be false"
           }
         ],
         "optional": false

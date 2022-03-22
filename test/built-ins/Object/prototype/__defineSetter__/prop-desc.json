@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 586,
             "end": 604,
-            "value": "__defineSetter__",
-            "raw": "\"__defineSetter__\""
+            "value": "__defineSetter__"
           },
           {
             "type": "ObjectExpression",

@@ -96,8 +96,7 @@
                   "type": "Literal",
                   "start": 491,
                   "end": 492,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -469,8 +468,7 @@
             "type": "Literal",
             "start": 780,
             "end": 786,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           }
         ],
         "optional": false
@@ -520,8 +518,7 @@
             "type": "Literal",
             "start": 820,
             "end": 850,
-            "value": "receiver is the Proxy object",
-            "raw": "\"receiver is the Proxy object\""
+            "value": "receiver is the Proxy object"
           }
         ],
         "optional": false
@@ -569,8 +566,7 @@
           "type": "Literal",
           "start": 870,
           "end": 876,
-          "value": "attr",
-          "raw": "\"attr\""
+          "value": "attr"
         },
         "computed": true,
         "optional": false
@@ -614,15 +610,13 @@
             "type": "Literal",
             "start": 906,
             "end": 912,
-            "value": "attr",
-            "raw": "\"attr\""
+            "value": "attr"
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 964,
-            "value": "trap is triggered both by p.attr and p['attr']",
-            "raw": "\"trap is triggered both by p.attr and p['attr']\""
+            "value": "trap is triggered both by p.attr and p['attr']"
           }
         ],
         "optional": false

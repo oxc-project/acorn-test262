@@ -97,22 +97,19 @@
                               "type": "Literal",
                               "start": 2556,
                               "end": 2557,
-                              "value": 4,
-                              "raw": "4"
+                              "value": 4
                             },
                             {
                               "type": "Literal",
                               "start": 2559,
                               "end": 2560,
-                              "value": 5,
-                              "raw": "5"
+                              "value": 5
                             },
                             {
                               "type": "Literal",
                               "start": 2562,
                               "end": 2563,
-                              "value": 6,
-                              "raw": "6"
+                              "value": 6
                             }
                           ]
                         }

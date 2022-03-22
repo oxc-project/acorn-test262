@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 798,
             "end": 817,
-            "value": "getTimezoneOffset",
-            "raw": "\"getTimezoneOffset\""
+            "value": "getTimezoneOffset"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 875,
             "end": 881,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 936,
             "end": 942,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -254,8 +251,7 @@
             "type": "Literal",
             "start": 998,
             "end": 1004,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

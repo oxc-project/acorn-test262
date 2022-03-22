@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 309,
             "end": 311,
-            "value": 20,
-            "raw": "20"
+            "value": 20
           }
         }
       ],
@@ -102,8 +101,7 @@
                       "type": "Literal",
                       "start": 359,
                       "end": 363,
-                      "value": 2010,
-                      "raw": "2010"
+                      "value": 2010
                     }
                   }
                 }
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 396,
             "end": 402,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -219,8 +216,7 @@
           "type": "Literal",
           "start": 436,
           "end": 438,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       }
     },
@@ -273,8 +269,7 @@
                 "type": "Literal",
                 "start": 488,
                 "end": 494,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -326,8 +321,7 @@
                 "type": "Literal",
                 "start": 524,
                 "end": 530,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -336,8 +330,7 @@
             "type": "Literal",
             "start": 533,
             "end": 570,
-            "value": "obj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
+            "value": "obj.hasOwnProperty(\"prop\") !== true"
           }
         ],
         "optional": false
@@ -400,8 +393,7 @@
             "type": "Literal",
             "start": 609,
             "end": 619,
-            "value": "desc.set",
-            "raw": "'desc.set'"
+            "value": "desc.set"
           }
         ],
         "optional": false
@@ -445,15 +437,13 @@
             "type": "Literal",
             "start": 655,
             "end": 659,
-            "value": 2010,
-            "raw": "2010"
+            "value": 2010
           },
           {
             "type": "Literal",
             "start": 661,
             "end": 677,
-            "value": "globalVariable",
-            "raw": "'globalVariable'"
+            "value": "globalVariable"
           }
         ],
         "optional": false

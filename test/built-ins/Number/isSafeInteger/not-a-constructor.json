@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 753,
             "end": 808,
-            "value": "isConstructor(Number.isSafeInteger) must return false",
-            "raw": "'isConstructor(Number.isSafeInteger) must return false'"
+            "value": "isConstructor(Number.isSafeInteger) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 878,
             "end": 925,
-            "value": "`new Number.isSafeInteger()` throws TypeError",
-            "raw": "'`new Number.isSafeInteger()` throws TypeError'"
+            "value": "`new Number.isSafeInteger()` throws TypeError"
           }
         ],
         "optional": false

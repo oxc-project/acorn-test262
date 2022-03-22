@@ -44,7 +44,7 @@
                       "static": false,
                       "computed": false,
                       "key": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 327,
                         "end": 329,
                         "name": "f"
@@ -125,14 +125,14 @@
                                       "start": 437,
                                       "end": 441
                                     },
+                                    "computed": false,
+                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateIdentifier",
+                                      "type": "PrivateName",
                                       "start": 442,
                                       "end": 444,
                                       "name": "f"
-                                    },
-                                    "computed": false,
-                                    "optional": false
+                                    }
                                   },
                                   {
                                     "type": "Identifier",
@@ -190,8 +190,7 @@
             "type": "Literal",
             "start": 475,
             "end": 519,
-            "value": "#f /* a */ ( /* b */ ) /* c */ { /* d */ }",
-            "raw": "\"#f /* a */ ( /* b */ ) /* c */ { /* d */ }\""
+            "value": "#f /* a */ ( /* b */ ) /* c */ { /* d */ }"
           }
         ],
         "optional": false

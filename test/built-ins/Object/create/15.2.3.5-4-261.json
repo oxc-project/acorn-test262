@@ -125,8 +125,7 @@
                                     "type": "Literal",
                                     "start": 381,
                                     "end": 389,
-                                    "value": "string",
-                                    "raw": "\"string\""
+                                    "value": "string"
                                   },
                                   "kind": "init"
                                 }

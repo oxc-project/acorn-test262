@@ -333,8 +333,7 @@
             "type": "Literal",
             "start": 542,
             "end": 561,
-            "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "value": "preCheck !== true"
           }
         ],
         "optional": false
@@ -385,8 +384,7 @@
             "type": "Literal",
             "start": 601,
             "end": 614,
-            "value": "testResult1",
-            "raw": "'testResult1'"
+            "value": "testResult1"
           }
         ],
         "optional": false
@@ -437,8 +435,7 @@
             "type": "Literal",
             "start": 654,
             "end": 667,
-            "value": "testResult2",
-            "raw": "'testResult2'"
+            "value": "testResult2"
           }
         ],
         "optional": false

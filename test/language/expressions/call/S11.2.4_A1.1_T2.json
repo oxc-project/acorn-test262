@@ -88,8 +88,7 @@
           "type": "Literal",
           "start": 328,
           "end": 329,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -120,8 +119,7 @@
                     "type": "Literal",
                     "start": 358,
                     "end": 434,
-                    "value": "#1: function f_arg(x,y) {return arguments;} f_arg().length === 0. Actual: ",
-                    "raw": "'#1: function f_arg(x,y) {return arguments;} f_arg().length === 0. Actual: '"
+                    "value": "#1: function f_arg(x,y) {return arguments;} f_arg().length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -192,8 +190,7 @@
             "type": "Literal",
             "start": 481,
             "end": 482,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -234,8 +231,7 @@
                     "type": "Literal",
                     "start": 526,
                     "end": 606,
-                    "value": "#2: function f_arg(x,y) {return arguments;} f_arg()[0] === undefined. Actual: ",
-                    "raw": "'#2: function f_arg(x,y) {return arguments;} f_arg()[0] === undefined. Actual: '"
+                    "value": "#2: function f_arg(x,y) {return arguments;} f_arg()[0] === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -263,8 +259,7 @@
                         "type": "Literal",
                         "start": 618,
                         "end": 619,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -310,8 +305,7 @@
           "type": "Literal",
           "start": 658,
           "end": 659,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -342,8 +336,7 @@
                     "type": "Literal",
                     "start": 688,
                     "end": 762,
-                    "value": "#3: function f_arg(x,y) {return arguments;} f_arg.length === 2. Actual: ",
-                    "raw": "'#3: function f_arg(x,y) {return arguments;} f_arg.length === 2. Actual: '"
+                    "value": "#3: function f_arg(x,y) {return arguments;} f_arg.length === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {

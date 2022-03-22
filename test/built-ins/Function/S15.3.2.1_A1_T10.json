@@ -91,8 +91,7 @@
                       "type": "Literal",
                       "start": 930,
                       "end": 958,
-                      "value": "#1: test fails with error ",
-                      "raw": "'#1: test fails with error '"
+                      "value": "#1: test fails with error "
                     },
                     "operator": "+",
                     "right": {
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 1010,
             "end": 1081,
-            "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "value": "The value of f.constructor is expected to equal the value of Function"
           }
         ],
         "optional": false
@@ -225,8 +223,7 @@
             "type": "Literal",
             "start": 1117,
             "end": 1140,
-            "value": "f() returns undefined",
-            "raw": "'f() returns undefined'"
+            "value": "f() returns undefined"
           }
         ],
         "optional": false

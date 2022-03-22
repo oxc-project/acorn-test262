@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 661,
           "end": 662,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -140,8 +139,7 @@
                           "type": "Literal",
                           "start": 711,
                           "end": 712,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -150,15 +148,13 @@
                         "type": "Literal",
                         "start": 715,
                         "end": 718,
-                        "value": "A",
-                        "raw": "'A'"
+                        "value": "A"
                       },
                       {
                         "type": "Literal",
                         "start": 720,
                         "end": 724,
-                        "value": "TV",
-                        "raw": "'TV'"
+                        "value": "TV"
                       }
                     ],
                     "optional": false
@@ -219,8 +215,7 @@
                           "type": "Literal",
                           "start": 752,
                           "end": 753,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -229,15 +224,13 @@
                         "type": "Literal",
                         "start": 756,
                         "end": 763,
-                        "value": "\\x41",
-                        "raw": "'\\\\x41'"
+                        "value": "\\x41"
                       },
                       {
                         "type": "Literal",
                         "start": 765,
                         "end": 770,
-                        "value": "TRV",
-                        "raw": "'TRV'"
+                        "value": "TRV"
                       }
                     ],
                     "optional": false
@@ -305,8 +298,7 @@
             "type": "Literal",
             "start": 807,
             "end": 808,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

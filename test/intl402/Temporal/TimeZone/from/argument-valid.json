@@ -32,8 +32,7 @@
                     "type": "Literal",
                     "start": 290,
                     "end": 305,
-                    "value": "Africa/Bissau",
-                    "raw": "\"Africa/Bissau\""
+                    "value": "Africa/Bissau"
                   }
                 ]
               },
@@ -46,8 +45,7 @@
                     "type": "Literal",
                     "start": 311,
                     "end": 326,
-                    "value": "America/Belem",
-                    "raw": "\"America/Belem\""
+                    "value": "America/Belem"
                   }
                 ]
               },
@@ -60,8 +58,7 @@
                     "type": "Literal",
                     "start": 332,
                     "end": 347,
-                    "value": "Europe/Vienna",
-                    "raw": "\"Europe/Vienna\""
+                    "value": "Europe/Vienna"
                   }
                 ]
               },
@@ -74,8 +71,7 @@
                     "type": "Literal",
                     "start": 353,
                     "end": 371,
-                    "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "value": "America/New_York"
                   }
                 ]
               },
@@ -88,15 +84,13 @@
                     "type": "Literal",
                     "start": 377,
                     "end": 391,
-                    "value": "Africa/CAIRO",
-                    "raw": "\"Africa/CAIRO\""
+                    "value": "Africa/CAIRO"
                   },
                   {
                     "type": "Literal",
                     "start": 393,
                     "end": 407,
-                    "value": "Africa/Cairo",
-                    "raw": "\"Africa/Cairo\""
+                    "value": "Africa/Cairo"
                   }
                 ]
               },
@@ -109,15 +103,13 @@
                     "type": "Literal",
                     "start": 413,
                     "end": 430,
-                    "value": "Asia/Ulan_Bator",
-                    "raw": "\"Asia/Ulan_Bator\""
+                    "value": "Asia/Ulan_Bator"
                   },
                   {
                     "type": "Literal",
                     "start": 432,
                     "end": 450,
-                    "value": "Asia/Ulaanbaatar",
-                    "raw": "\"Asia/Ulaanbaatar\""
+                    "value": "Asia/Ulaanbaatar"
                   }
                 ]
               },
@@ -130,15 +122,13 @@
                     "type": "Literal",
                     "start": 456,
                     "end": 461,
-                    "value": "GMT",
-                    "raw": "\"GMT\""
+                    "value": "GMT"
                   },
                   {
                     "type": "Literal",
                     "start": 463,
                     "end": 468,
-                    "value": "UTC",
-                    "raw": "\"UTC\""
+                    "value": "UTC"
                   }
                 ]
               },
@@ -151,15 +141,13 @@
                     "type": "Literal",
                     "start": 474,
                     "end": 483,
-                    "value": "etc/gmt",
-                    "raw": "\"etc/gmt\""
+                    "value": "etc/gmt"
                   },
                   {
                     "type": "Literal",
                     "start": 485,
                     "end": 490,
-                    "value": "UTC",
-                    "raw": "\"UTC\""
+                    "value": "UTC"
                   }
                 ]
               },
@@ -172,15 +160,13 @@
                     "type": "Literal",
                     "start": 496,
                     "end": 541,
-                    "value": "1994-11-05T08:15:30-05:00[America/New_York]",
-                    "raw": "\"1994-11-05T08:15:30-05:00[America/New_York]\""
+                    "value": "1994-11-05T08:15:30-05:00[America/New_York]"
                   },
                   {
                     "type": "Literal",
                     "start": 543,
                     "end": 561,
-                    "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "value": "America/New_York"
                   }
                 ]
               },
@@ -193,15 +179,13 @@
                     "type": "Literal",
                     "start": 567,
                     "end": 609,
-                    "value": "1994-11-05T08:15:30-05[America/New_York]",
-                    "raw": "\"1994-11-05T08:15:30-05[America/New_York]\""
+                    "value": "1994-11-05T08:15:30-05[America/New_York]"
                   },
                   {
                     "type": "Literal",
                     "start": 611,
                     "end": 629,
-                    "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "value": "America/New_York"
                   }
                 ]
               },
@@ -214,15 +198,13 @@
                     "type": "Literal",
                     "start": 635,
                     "end": 685,
-                    "value": "1994-11-05T08:15:30−05:00[America/New_York]",
-                    "raw": "\"1994-11-05T08:15:30\\u221205:00[America/New_York]\""
+                    "value": "1994-11-05T08:15:30−05:00[America/New_York]"
                   },
                   {
                     "type": "Literal",
                     "start": 687,
                     "end": 705,
-                    "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "value": "America/New_York"
                   }
                 ]
               },
@@ -235,15 +217,13 @@
                     "type": "Literal",
                     "start": 711,
                     "end": 758,
-                    "value": "1994-11-05T08:15:30−05[America/New_York]",
-                    "raw": "\"1994-11-05T08:15:30\\u221205[America/New_York]\""
+                    "value": "1994-11-05T08:15:30−05[America/New_York]"
                   },
                   {
                     "type": "Literal",
                     "start": 760,
                     "end": 778,
-                    "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "value": "America/New_York"
                   }
                 ]
               }

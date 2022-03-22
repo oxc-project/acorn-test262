@@ -79,8 +79,7 @@
             "type": "Literal",
             "start": 468,
             "end": 469,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -185,8 +184,7 @@
                     "type": "Literal",
                     "start": 547,
                     "end": 548,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -238,8 +236,7 @@
           "type": "Literal",
           "start": 579,
           "end": 580,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -321,8 +318,7 @@
             "type": "Literal",
             "start": 642,
             "end": 685,
-            "value": "Returns true if symbol own property found",
-            "raw": "\"Returns true if symbol own property found\""
+            "value": "Returns true if symbol own property found"
           }
         ],
         "optional": false
@@ -366,15 +362,13 @@
             "type": "Literal",
             "start": 718,
             "end": 719,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 721,
             "end": 761,
-            "value": "toPrimitive method called exactly once",
-            "raw": "\"toPrimitive method called exactly once\""
+            "value": "toPrimitive method called exactly once"
           }
         ],
         "optional": false

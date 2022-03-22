@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 762,
             "end": 818,
-            "value": "isConstructor(Array.prototype.every) must return false",
-            "raw": "'isConstructor(Array.prototype.every) must return false'"
+            "value": "isConstructor(Array.prototype.every) must return false"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 898,
             "end": 954,
-            "value": "`new Array.prototype.every(() => {})` throws TypeError",
-            "raw": "'`new Array.prototype.every(() => {})` throws TypeError'"
+            "value": "`new Array.prototype.every(() => {})` throws TypeError"
           }
         ],
         "optional": false

@@ -305,8 +305,7 @@
             "type": "Literal",
             "start": 466,
             "end": 578,
-            "value": "The value of `Subclass1.prototype` is `Object.getPrototypeOf(s1)`, after executing `var s1 = new Subclass1();`",
-            "raw": "\"The value of `Subclass1.prototype` is `Object.getPrototypeOf(s1)`, after executing `var s1 = new Subclass1();`\""
+            "value": "The value of `Subclass1.prototype` is `Object.getPrototypeOf(s1)`, after executing `var s1 = new Subclass1();`"
           }
         ],
         "optional": false
@@ -503,15 +502,13 @@
                 "type": "Literal",
                 "start": 716,
                 "end": 717,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 719,
                 "end": 720,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -603,8 +600,7 @@
             "type": "Literal",
             "start": 796,
             "end": 912,
-            "value": "The value of `Subclass2.prototype` is `Object.getPrototypeOf(s2)`, after executing `var s2 = new Subclass2(1, 2);`",
-            "raw": "\"The value of `Subclass2.prototype` is `Object.getPrototypeOf(s2)`, after executing `var s2 = new Subclass2(1, 2);`\""
+            "value": "The value of `Subclass2.prototype` is `Object.getPrototypeOf(s2)`, after executing `var s2 = new Subclass2(1, 2);`"
           }
         ],
         "optional": false
@@ -661,15 +657,13 @@
             "type": "Literal",
             "start": 939,
             "end": 940,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 942,
             "end": 970,
-            "value": "The value of `s2.x` is `1`",
-            "raw": "\"The value of `s2.x` is `1`\""
+            "value": "The value of `s2.x` is `1`"
           }
         ],
         "optional": false
@@ -726,15 +720,13 @@
             "type": "Literal",
             "start": 996,
             "end": 997,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 999,
             "end": 1027,
-            "value": "The value of `s2.y` is `2`",
-            "raw": "\"The value of `s2.y` is `2`\""
+            "value": "The value of `s2.y` is `2`"
           }
         ],
         "optional": false
@@ -789,15 +781,13 @@
                 "type": "Literal",
                 "start": 1058,
                 "end": 1059,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 1061,
                 "end": 1062,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ],
             "optional": false
@@ -921,8 +911,7 @@
             "type": "Literal",
             "start": 1165,
             "end": 1237,
-            "value": "The value of `Subclass2.prototype` is `Object.getPrototypeOf(s2prime)`",
-            "raw": "\"The value of `Subclass2.prototype` is `Object.getPrototypeOf(s2prime)`\""
+            "value": "The value of `Subclass2.prototype` is `Object.getPrototypeOf(s2prime)`"
           }
         ],
         "optional": false
@@ -979,15 +968,13 @@
             "type": "Literal",
             "start": 1269,
             "end": 1270,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1272,
             "end": 1305,
-            "value": "The value of `s2prime.x` is `3`",
-            "raw": "\"The value of `s2prime.x` is `3`\""
+            "value": "The value of `s2prime.x` is `3`"
           }
         ],
         "optional": false
@@ -1044,15 +1031,13 @@
             "type": "Literal",
             "start": 1336,
             "end": 1337,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 1339,
             "end": 1372,
-            "value": "The value of `s2prime.y` is `4`",
-            "raw": "\"The value of `s2prime.y` is `4`\""
+            "value": "The value of `s2prime.y` is `4`"
           }
         ],
         "optional": false
@@ -1247,8 +1232,7 @@
             "type": "Literal",
             "start": 1533,
             "end": 1561,
-            "value": "The value of `s3` is `obj`",
-            "raw": "\"The value of `s3` is `obj`\""
+            "value": "The value of `s3` is `obj`"
           }
         ],
         "optional": false

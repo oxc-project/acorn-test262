@@ -140,8 +140,7 @@
                     "type": "Literal",
                     "start": 589,
                     "end": 652,
-                    "value": "#1: Variable declaration inside \"try-catch\" block is admitted",
-                    "raw": "'#1: Variable declaration inside \"try-catch\" block is admitted'"
+                    "value": "#1: Variable declaration inside \"try-catch\" block is admitted"
                   }
                 ]
               }

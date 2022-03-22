@@ -113,15 +113,13 @@
                         "type": "Literal",
                         "start": 425,
                         "end": 436,
-                        "value": "undefined",
-                        "raw": "\"undefined\""
+                        "value": "undefined"
                       },
                       {
                         "type": "Literal",
                         "start": 438,
                         "end": 443,
-                        "value": "f()",
-                        "raw": "'f()'"
+                        "value": "f()"
                       }
                     ],
                     "optional": false
@@ -171,15 +169,13 @@
                         "type": "Literal",
                         "start": 480,
                         "end": 491,
-                        "value": "undefined",
-                        "raw": "\"undefined\""
+                        "value": "undefined"
                       },
                       {
                         "type": "Literal",
                         "start": 493,
                         "end": 506,
-                        "value": "typeof this",
-                        "raw": "'typeof this'"
+                        "value": "typeof this"
                       }
                     ],
                     "optional": false

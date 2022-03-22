@@ -66,8 +66,7 @@
                   "type": "Literal",
                   "start": 392,
                   "end": 398,
-                  "value": "type",
-                  "raw": "\"type\""
+                  "value": "type"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -121,8 +120,7 @@
                                     "type": "Literal",
                                     "start": 436,
                                     "end": 465,
-                                    "value": "Should not call type getter",
-                                    "raw": "\"Should not call type getter\""
+                                    "value": "Should not call type getter"
                                   }
                                 ]
                               }
@@ -146,8 +144,7 @@
                   "type": "Literal",
                   "start": 481,
                   "end": 488,
-                  "value": "style",
-                  "raw": "\"style\""
+                  "value": "style"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -201,8 +198,7 @@
                                     "type": "Literal",
                                     "start": 526,
                                     "end": 556,
-                                    "value": "Should not call style getter",
-                                    "raw": "\"Should not call style getter\""
+                                    "value": "Should not call style getter"
                                   }
                                 ]
                               }
@@ -473,8 +469,7 @@
                   "type": "Literal",
                   "start": 809,
                   "end": 822,
-                  "value": "conjunction",
-                  "raw": "\"conjunction\""
+                  "value": "conjunction"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -579,8 +574,7 @@
                   "type": "Literal",
                   "start": 960,
                   "end": 966,
-                  "value": "long",
-                  "raw": "\"long\""
+                  "value": "long"
                 },
                 {
                   "type": "TemplateLiteral",

@@ -103,8 +103,7 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 442,
-                "value": "PT1.03125H",
-                "raw": "\"PT1.03125H\""
+                "value": "PT1.03125H"
               }
             ],
             "optional": false
@@ -113,50 +112,43 @@
             "type": "Literal",
             "start": 445,
             "end": 447,
-            "value": 22,
-            "raw": "22"
+            "value": 22
           },
           {
             "type": "Literal",
             "start": 449,
             "end": 451,
-            "value": 58,
-            "raw": "58"
+            "value": 58
           },
           {
             "type": "Literal",
             "start": 453,
             "end": 454,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 456,
             "end": 459,
-            "value": 500,
-            "raw": "500"
+            "value": 500
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 462,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 465,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 469,
             "end": 531,
-            "value": "positive fractional units rounded with correct rounding mode",
-            "raw": "\"positive fractional units rounded with correct rounding mode\""
+            "value": "positive fractional units rounded with correct rounding mode"
           }
         ],
         "optional": false
@@ -218,8 +210,7 @@
                 "type": "Literal",
                 "start": 584,
                 "end": 597,
-                "value": "-PT1.03125H",
-                "raw": "\"-PT1.03125H\""
+                "value": "-PT1.03125H"
               }
             ],
             "optional": false
@@ -228,50 +219,43 @@
             "type": "Literal",
             "start": 600,
             "end": 601,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 604,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 608,
-            "value": 52,
-            "raw": "52"
+            "value": 52
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 613,
-            "value": 500,
-            "raw": "500"
+            "value": 500
           },
           {
             "type": "Literal",
             "start": 615,
             "end": 616,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 618,
             "end": 619,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 685,
-            "value": "negative fractional units rounded with correct rounding mode",
-            "raw": "\"negative fractional units rounded with correct rounding mode\""
+            "value": "negative fractional units rounded with correct rounding mode"
           }
         ],
         "optional": false

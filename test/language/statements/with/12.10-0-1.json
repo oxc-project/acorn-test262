@@ -109,8 +109,7 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 428,
-                  "value": "12.10-0-1",
-                  "raw": "\"12.10-0-1\""
+                  "value": "12.10-0-1"
                 }
               }
             ],
@@ -164,15 +163,13 @@
             "type": "Literal",
             "start": 457,
             "end": 468,
-            "value": "12.10-0-1",
-            "raw": "\"12.10-0-1\""
+            "value": "12.10-0-1"
           },
           {
             "type": "Literal",
             "start": 470,
             "end": 475,
-            "value": "f()",
-            "raw": "'f()'"
+            "value": "f()"
           }
         ],
         "optional": false

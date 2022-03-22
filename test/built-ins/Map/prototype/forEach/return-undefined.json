@@ -153,8 +153,7 @@
             "type": "Literal",
             "start": 426,
             "end": 463,
-            "value": "Empty map#forEach returns undefined",
-            "raw": "'Empty map#forEach returns undefined'"
+            "value": "Empty map#forEach returns undefined"
           }
         ],
         "optional": false
@@ -192,15 +191,13 @@
             "type": "Literal",
             "start": 475,
             "end": 476,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 479,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -323,8 +320,7 @@
             "type": "Literal",
             "start": 572,
             "end": 603,
-            "value": "map#forEach returns undefined",
-            "raw": "'map#forEach returns undefined'"
+            "value": "map#forEach returns undefined"
           }
         ],
         "optional": false

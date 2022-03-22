@@ -229,8 +229,7 @@
             "type": "Literal",
             "start": 1089,
             "end": 1090,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -328,8 +327,7 @@
                                 "type": "Literal",
                                 "start": 1191,
                                 "end": 1192,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           },
@@ -352,8 +350,7 @@
                                   "type": "Literal",
                                   "start": 1221,
                                   "end": 1246,
-                                  "value": "should not be overriden",
-                                  "raw": "\"should not be overriden\""
+                                  "value": "should not be overriden"
                                 }
                               ]
                             }
@@ -452,8 +449,7 @@
                               "type": "Literal",
                               "start": 1316,
                               "end": 1351,
-                              "value": "Promise should be rejected, got: ",
-                              "raw": "\"Promise should be rejected, got: \""
+                              "value": "Promise should be rejected, got: "
                             },
                             "operator": "+",
                             "right": {
@@ -585,15 +581,13 @@
                             "type": "Literal",
                             "start": 1471,
                             "end": 1472,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1474,
                             "end": 1502,
-                            "value": "The loop body is evaluated",
-                            "raw": "\"The loop body is evaluated\""
+                            "value": "The loop body is evaluated"
                           }
                         ],
                         "optional": false

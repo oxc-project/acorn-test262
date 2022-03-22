@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 575,
                 "end": 584,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,22 +97,19 @@
                 "type": "Literal",
                 "start": 622,
                 "end": 623,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 624,
                 "end": 625,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 626,
                 "end": 627,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -177,8 +173,7 @@
                 "type": "Literal",
                 "start": 680,
                 "end": 692,
-                "value": "2020-02-29",
-                "raw": "\"2020-02-29\""
+                "value": "2020-02-29"
               },
               {
                 "type": "Identifier",
@@ -193,36 +188,31 @@
             "type": "Literal",
             "start": 702,
             "end": 706,
-            "value": 2020,
-            "raw": "2020"
+            "value": 2020
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 709,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 716,
-            "value": "M05",
-            "raw": "\"M05\""
+            "value": "M05"
           },
           {
             "type": "Literal",
             "start": 718,
             "end": 720,
-            "value": 20,
-            "raw": "20"
+            "value": 20
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 777,
-            "value": "add two months 3 weeks from Feb 29 of a leap year",
-            "raw": "\"add two months 3 weeks from Feb 29 of a leap year\""
+            "value": "add two months 3 weeks from Feb 29 of a leap year"
           }
         ],
         "optional": false
@@ -284,8 +274,7 @@
                 "type": "Literal",
                 "start": 829,
                 "end": 841,
-                "value": "2020-02-28",
-                "raw": "\"2020-02-28\""
+                "value": "2020-02-28"
               },
               {
                 "type": "Identifier",
@@ -300,36 +289,31 @@
             "type": "Literal",
             "start": 851,
             "end": 855,
-            "value": 2020,
-            "raw": "2020"
+            "value": 2020
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 858,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 860,
             "end": 865,
-            "value": "M05",
-            "raw": "\"M05\""
+            "value": "M05"
           },
           {
             "type": "Literal",
             "start": 867,
             "end": 869,
-            "value": 19,
-            "raw": "19"
+            "value": 19
           },
           {
             "type": "Literal",
             "start": 875,
             "end": 926,
-            "value": "add two months 3 weeks from Feb 28 of a leap year",
-            "raw": "\"add two months 3 weeks from Feb 28 of a leap year\""
+            "value": "add two months 3 weeks from Feb 28 of a leap year"
           }
         ],
         "optional": false
@@ -391,8 +375,7 @@
                 "type": "Literal",
                 "start": 978,
                 "end": 990,
-                "value": "2021-02-28",
-                "raw": "\"2021-02-28\""
+                "value": "2021-02-28"
               },
               {
                 "type": "Identifier",
@@ -407,36 +390,31 @@
             "type": "Literal",
             "start": 1000,
             "end": 1004,
-            "value": 2021,
-            "raw": "2021"
+            "value": 2021
           },
           {
             "type": "Literal",
             "start": 1006,
             "end": 1007,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 1009,
             "end": 1014,
-            "value": "M05",
-            "raw": "\"M05\""
+            "value": "M05"
           },
           {
             "type": "Literal",
             "start": 1016,
             "end": 1018,
-            "value": 19,
-            "raw": "19"
+            "value": 19
           },
           {
             "type": "Literal",
             "start": 1024,
             "end": 1079,
-            "value": "add two months 3 weeks from Feb 28 of a non leap year",
-            "raw": "\"add two months 3 weeks from Feb 28 of a non leap year\""
+            "value": "add two months 3 weeks from Feb 28 of a non leap year"
           }
         ],
         "optional": false
@@ -498,8 +476,7 @@
                 "type": "Literal",
                 "start": 1131,
                 "end": 1143,
-                "value": "2020-12-28",
-                "raw": "\"2020-12-28\""
+                "value": "2020-12-28"
               },
               {
                 "type": "Identifier",
@@ -514,36 +491,31 @@
             "type": "Literal",
             "start": 1153,
             "end": 1157,
-            "value": 2021,
-            "raw": "2021"
+            "value": 2021
           },
           {
             "type": "Literal",
             "start": 1159,
             "end": 1160,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1162,
             "end": 1167,
-            "value": "M03",
-            "raw": "\"M03\""
+            "value": "M03"
           },
           {
             "type": "Literal",
             "start": 1169,
             "end": 1171,
-            "value": 21,
-            "raw": "21"
+            "value": 21
           },
           {
             "type": "Literal",
             "start": 1177,
             "end": 1235,
-            "value": "add two months 3 weeks from end of year to non leap year",
-            "raw": "\"add two months 3 weeks from end of year to non leap year\""
+            "value": "add two months 3 weeks from end of year to non leap year"
           }
         ],
         "optional": false
@@ -605,8 +577,7 @@
                 "type": "Literal",
                 "start": 1287,
                 "end": 1299,
-                "value": "2019-12-28",
-                "raw": "\"2019-12-28\""
+                "value": "2019-12-28"
               },
               {
                 "type": "Identifier",
@@ -621,36 +592,31 @@
             "type": "Literal",
             "start": 1309,
             "end": 1313,
-            "value": 2020,
-            "raw": "2020"
+            "value": 2020
           },
           {
             "type": "Literal",
             "start": 1315,
             "end": 1316,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1318,
             "end": 1323,
-            "value": "M03",
-            "raw": "\"M03\""
+            "value": "M03"
           },
           {
             "type": "Literal",
             "start": 1325,
             "end": 1327,
-            "value": 20,
-            "raw": "20"
+            "value": 20
           },
           {
             "type": "Literal",
             "start": 1333,
             "end": 1387,
-            "value": "add two months 3 weeks from end of year to leap year",
-            "raw": "\"add two months 3 weeks from end of year to leap year\""
+            "value": "add two months 3 weeks from end of year to leap year"
           }
         ],
         "optional": false
@@ -712,8 +678,7 @@
                 "type": "Literal",
                 "start": 1439,
                 "end": 1451,
-                "value": "2019-10-28",
-                "raw": "\"2019-10-28\""
+                "value": "2019-10-28"
               },
               {
                 "type": "Identifier",
@@ -728,36 +693,31 @@
             "type": "Literal",
             "start": 1461,
             "end": 1465,
-            "value": 2020,
-            "raw": "2020"
+            "value": 2020
           },
           {
             "type": "Literal",
             "start": 1467,
             "end": 1468,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1470,
             "end": 1475,
-            "value": "M01",
-            "raw": "\"M01\""
+            "value": "M01"
           },
           {
             "type": "Literal",
             "start": 1477,
             "end": 1479,
-            "value": 18,
-            "raw": "18"
+            "value": 18
           },
           {
             "type": "Literal",
             "start": 1485,
             "end": 1540,
-            "value": "add two months 3 weeks and cause roll into a new year",
-            "raw": "\"add two months 3 weeks and cause roll into a new year\""
+            "value": "add two months 3 weeks and cause roll into a new year"
           }
         ],
         "optional": false
@@ -819,8 +779,7 @@
                 "type": "Literal",
                 "start": 1592,
                 "end": 1604,
-                "value": "2019-10-31",
-                "raw": "\"2019-10-31\""
+                "value": "2019-10-31"
               },
               {
                 "type": "Identifier",
@@ -835,36 +794,31 @@
             "type": "Literal",
             "start": 1614,
             "end": 1618,
-            "value": 2020,
-            "raw": "2020"
+            "value": 2020
           },
           {
             "type": "Literal",
             "start": 1620,
             "end": 1621,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1623,
             "end": 1628,
-            "value": "M01",
-            "raw": "\"M01\""
+            "value": "M01"
           },
           {
             "type": "Literal",
             "start": 1630,
             "end": 1632,
-            "value": 21,
-            "raw": "21"
+            "value": 21
           },
           {
             "type": "Literal",
             "start": 1638,
             "end": 1693,
-            "value": "add two months 3 weeks and cause roll into a new year",
-            "raw": "\"add two months 3 weeks and cause roll into a new year\""
+            "value": "add two months 3 weeks and cause roll into a new year"
           }
         ],
         "optional": false

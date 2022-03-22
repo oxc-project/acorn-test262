@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 258,
             "end": 268,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 270,
             "end": 307,
-            "value": "typeof ReferenceError is \"function\"",
-            "raw": "'typeof ReferenceError is \"function\"'"
+            "value": "typeof ReferenceError is \"function\""
           }
         ],
         "optional": false

@@ -31,8 +31,7 @@
         "type": "Literal",
         "start": 497,
         "end": 533,
-        "value": "./instn-iee-trlng-comma_FIXTURE.js",
-        "raw": "'./instn-iee-trlng-comma_FIXTURE.js'"
+        "value": "./instn-iee-trlng-comma_FIXTURE.js"
       }
     },
     {
@@ -63,8 +62,7 @@
         "type": "Literal",
         "start": 560,
         "end": 596,
-        "value": "./instn-iee-trlng-comma_FIXTURE.js",
-        "raw": "'./instn-iee-trlng-comma_FIXTURE.js'"
+        "value": "./instn-iee-trlng-comma_FIXTURE.js"
       }
     },
     {
@@ -111,8 +109,7 @@
         "type": "Literal",
         "start": 620,
         "end": 648,
-        "value": "./instn-iee-trlng-comma.js",
-        "raw": "'./instn-iee-trlng-comma.js'"
+        "value": "./instn-iee-trlng-comma.js"
       }
     },
     {
@@ -153,15 +150,13 @@
             "type": "Literal",
             "start": 671,
             "end": 674,
-            "value": 333,
-            "raw": "333"
+            "value": 333
           },
           {
             "type": "Literal",
             "start": 676,
             "end": 706,
-            "value": "comma following named export",
-            "raw": "'comma following named export'"
+            "value": "comma following named export"
           }
         ],
         "optional": false
@@ -205,15 +200,13 @@
             "type": "Literal",
             "start": 729,
             "end": 732,
-            "value": 333,
-            "raw": "333"
+            "value": 333
           },
           {
             "type": "Literal",
             "start": 734,
             "end": 767,
-            "value": "comma following re-named export",
-            "raw": "'comma following re-named export'"
+            "value": "comma following re-named export"
           }
         ],
         "optional": false

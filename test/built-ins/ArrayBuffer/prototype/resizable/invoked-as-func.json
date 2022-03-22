@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 516,
                   "end": 527,
-                  "value": "resizable",
-                  "raw": "'resizable'"
+                  "value": "resizable"
                 }
               ],
               "optional": false
@@ -133,8 +132,7 @@
             "type": "Literal",
             "start": 568,
             "end": 578,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 737,
             "end": 784,
-            "value": "isConstructor(Promise.race) must return false",
-            "raw": "'isConstructor(Promise.race) must return false'"
+            "value": "isConstructor(Promise.race) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 848,
             "end": 889,
-            "value": "`new Promise.race([])` throws TypeError",
-            "raw": "'`new Promise.race([])` throws TypeError'"
+            "value": "`new Promise.race([])` throws TypeError"
           }
         ],
         "optional": false

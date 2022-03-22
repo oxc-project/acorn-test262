@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 819,
             "end": 823,
-            "value": "$1",
-            "raw": "'$1'"
+            "value": "$1"
           },
           {
             "type": "ObjectExpression",
@@ -148,8 +147,7 @@
                 "type": "Literal",
                 "start": 925,
                 "end": 929,
-                "value": "$1",
-                "raw": "'$1'"
+                "value": "$1"
               }
             ],
             "optional": false
@@ -266,7 +264,6 @@
                   "start": 1004,
                   "end": 1009,
                   "value": {},
-                  "raw": "/(x)/",
                   "regex": {
                     "pattern": "(x)",
                     "flags": ""
@@ -286,8 +283,7 @@
                   "type": "Literal",
                   "start": 1015,
                   "end": 1018,
-                  "value": "x",
-                  "raw": "'x'"
+                  "value": "x"
                 }
               ],
               "optional": false
@@ -342,8 +338,7 @@
                       "type": "Literal",
                       "start": 1076,
                       "end": 1080,
-                      "value": "$1",
-                      "raw": "'$1'"
+                      "value": "$1"
                     }
                   ],
                   "optional": false

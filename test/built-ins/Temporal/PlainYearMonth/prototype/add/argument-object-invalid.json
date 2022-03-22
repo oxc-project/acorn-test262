@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 342,
-                "value": "2019-11",
-                "raw": "\"2019-11\""
+                "value": "2019-11"
               }
             ],
             "optional": false
@@ -103,15 +102,13 @@
             "type": "Literal",
             "start": 369,
             "end": 380,
-            "value": "constrain",
-            "raw": "\"constrain\""
+            "value": "constrain"
           },
           {
             "type": "Literal",
             "start": 382,
             "end": 390,
-            "value": "reject",
-            "raw": "\"reject\""
+            "value": "reject"
           }
         ]
       },
@@ -209,8 +206,7 @@
                               "type": "Literal",
                               "start": 445,
                               "end": 446,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "kind": "init"
                           },
@@ -237,8 +233,7 @@
                                 "type": "Literal",
                                 "start": 457,
                                 "end": 458,
-                                "value": 6,
-                                "raw": "6"
+                                "value": 6
                               }
                             },
                             "kind": "init"
@@ -371,8 +366,7 @@
             "type": "Literal",
             "start": 533,
             "end": 548,
-            "value": "no properties",
-            "raw": "\"no properties\""
+            "value": "no properties"
           }
         ],
         "optional": false
@@ -467,8 +461,7 @@
                         "type": "Literal",
                         "start": 598,
                         "end": 600,
-                        "value": 12,
-                        "raw": "12"
+                        "value": 12
                       },
                       "kind": "init"
                     }
@@ -482,8 +475,7 @@
             "type": "Literal",
             "start": 605,
             "end": 637,
-            "value": "only singular 'month' property",
-            "raw": "\"only singular 'month' property\""
+            "value": "only singular 'month' property"
           }
         ],
         "optional": false

@@ -140,15 +140,13 @@
                         "type": "Literal",
                         "start": 962,
                         "end": 963,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 965,
                         "end": 966,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 972,
             "end": 991,
-            "value": "this is an Object",
-            "raw": "\"this is an Object\""
+            "value": "this is an Object"
           }
         ],
         "optional": false
@@ -254,15 +251,13 @@
                         "type": "Literal",
                         "start": 1055,
                         "end": 1056,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1058,
                         "end": 1059,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -275,8 +270,7 @@
             "type": "Literal",
             "start": 1065,
             "end": 1083,
-            "value": "this is an Array",
-            "raw": "\"this is an Array\""
+            "value": "this is an Array"
           }
         ],
         "optional": false
@@ -312,8 +306,7 @@
                 "type": "Literal",
                 "start": 1112,
                 "end": 1113,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               }
             ]
           }
@@ -407,15 +400,13 @@
                         "type": "Literal",
                         "start": 1176,
                         "end": 1177,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1179,
                         "end": 1180,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -428,8 +419,7 @@
             "type": "Literal",
             "start": 1186,
             "end": 1219,
-            "value": "this is an ArrayBuffer instance",
-            "raw": "\"this is an ArrayBuffer instance\""
+            "value": "this is an ArrayBuffer instance"
           }
         ],
         "optional": false
@@ -476,8 +466,7 @@
                     "type": "Literal",
                     "start": 1261,
                     "end": 1262,
-                    "value": 8,
-                    "raw": "8"
+                    "value": 8
                   }
                 ]
               },
@@ -485,15 +474,13 @@
                 "type": "Literal",
                 "start": 1265,
                 "end": 1266,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1268,
                 "end": 1269,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -587,15 +574,13 @@
                         "type": "Literal",
                         "start": 1332,
                         "end": 1333,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1335,
                         "end": 1336,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -608,8 +593,7 @@
             "type": "Literal",
             "start": 1342,
             "end": 1371,
-            "value": "this is a DataView instance",
-            "raw": "\"this is a DataView instance\""
+            "value": "this is a DataView instance"
           }
         ],
         "optional": false

@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 778,
                     "end": 800,
-                    "value": "declaration in catch",
-                    "raw": "\"declaration in catch\""
+                    "value": "declaration in catch"
                   }
                 }
               ],
@@ -115,8 +114,7 @@
             "type": "Literal",
             "start": 829,
             "end": 851,
-            "value": "declaration in catch",
-            "raw": "\"declaration in catch\""
+            "value": "declaration in catch"
           }
         ],
         "optional": false

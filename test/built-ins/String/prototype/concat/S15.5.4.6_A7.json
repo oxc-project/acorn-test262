@@ -113,8 +113,7 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 501,
-                  "value": "#1: __FACTORY = String.prototype.concat; \"__instance = new __FACTORY\" lead throwing exception",
-                  "raw": "'#1: __FACTORY = String.prototype.concat; \"__instance = new __FACTORY\" lead throwing exception'"
+                  "value": "#1: __FACTORY = String.prototype.concat; \"__instance = new __FACTORY\" lead throwing exception"
                 }
               ]
             }

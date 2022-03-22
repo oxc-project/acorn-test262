@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 760,
             "end": 761,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -112,8 +111,7 @@
             "type": "Literal",
             "start": 801,
             "end": 804,
-            "value": "p",
-            "raw": "'p'"
+            "value": "p"
           },
           {
             "type": "ObjectExpression",
@@ -267,15 +265,13 @@
                 "type": "Literal",
                 "start": 920,
                 "end": 923,
-                "value": "p",
-                "raw": "'p'"
+                "value": "p"
               },
               {
                 "type": "Literal",
                 "start": 925,
                 "end": 927,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ],
             "optional": false
@@ -329,8 +325,7 @@
             "type": "Literal",
             "start": 966,
             "end": 1019,
-            "value": "returns true if target.p has an accessor descriptor",
-            "raw": "'returns true if target.p has an accessor descriptor'"
+            "value": "returns true if target.p has an accessor descriptor"
           }
         ],
         "optional": false
@@ -387,15 +382,13 @@
             "type": "Literal",
             "start": 1053,
             "end": 1054,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1056,
             "end": 1096,
-            "value": "target.p set is called with 1 argument",
-            "raw": "'target.p set is called with 1 argument'"
+            "value": "target.p set is called with 1 argument"
           }
         ],
         "optional": false
@@ -443,8 +436,7 @@
               "type": "Literal",
               "start": 1121,
               "end": 1122,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -453,15 +445,13 @@
             "type": "Literal",
             "start": 1125,
             "end": 1127,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 1129,
             "end": 1160,
-            "value": "target.p set is called with V",
-            "raw": "'target.p set is called with V'"
+            "value": "target.p set is called with V"
           }
         ],
         "optional": false
@@ -505,15 +495,13 @@
             "type": "Literal",
             "start": 1187,
             "end": 1188,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1190,
             "end": 1219,
-            "value": "target.p set is called once",
-            "raw": "'target.p set is called once'"
+            "value": "target.p set is called once"
           }
         ],
         "optional": false

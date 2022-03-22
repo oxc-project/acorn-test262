@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 887,
               "end": 889,
               "name": "f"
@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 901,
                       "end": 903,
-                      "value": 42,
-                      "raw": "42"
+                      "value": 42
                     }
                   }
                 ]
@@ -106,14 +105,14 @@
                           "start": 933,
                           "end": 937
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 938,
                           "end": 940,
                           "name": "f"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "arguments": [],
                       "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 988,
             "end": 990,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -303,8 +301,7 @@
             "type": "Literal",
             "start": 1043,
             "end": 1108,
-            "value": "Accessed private method from an object which did not contain it",
-            "raw": "'Accessed private method from an object which did not contain it'"
+            "value": "Accessed private method from an object which did not contain it"
           }
         ],
         "optional": false

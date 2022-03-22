@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 436,
             "end": 442,
-            "value": "find",
-            "raw": "'find'"
+            "value": "find"
           },
           {
             "type": "Literal",
             "start": 446,
             "end": 500,
-            "value": "The value of `Array.prototype.find.name` is `\"find\"`",
-            "raw": "'The value of `Array.prototype.find.name` is `\"find\"`'"
+            "value": "The value of `Array.prototype.find.name` is `\"find\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 547,
             "end": 553,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 596,
             "end": 602,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 646,
             "end": 652,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

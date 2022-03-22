@@ -46,8 +46,7 @@
               "type": "Literal",
               "start": 288,
               "end": 306,
-              "value": "expected_message",
-              "raw": "\"expected_message\""
+              "value": "expected_message"
             }
           }
         ]
@@ -105,8 +104,7 @@
                     "type": "Literal",
                     "start": 348,
                     "end": 366,
-                    "value": "expected_message",
-                    "raw": "\"expected_message\""
+                    "value": "expected_message"
                   }
                 ],
                 "optional": false

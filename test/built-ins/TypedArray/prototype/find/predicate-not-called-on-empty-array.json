@@ -240,8 +240,7 @@
                         "type": "Literal",
                         "start": 1238,
                         "end": 1278,
-                        "value": "empty instance does not call predicate",
-                        "raw": "\"empty instance does not call predicate\""
+                        "value": "empty instance does not call predicate"
                       }
                     ],
                     "optional": false
@@ -291,8 +290,7 @@
                         "type": "Literal",
                         "start": 1335,
                         "end": 1388,
-                        "value": "find returns undefined when predicate is not called",
-                        "raw": "\"find returns undefined when predicate is not called\""
+                        "value": "find returns undefined when predicate is not called"
                       }
                     ],
                     "optional": false

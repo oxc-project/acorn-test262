@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 762,
             "end": 815,
-            "value": "isConstructor(ArrayBuffer.isView) must return false",
-            "raw": "'isConstructor(ArrayBuffer.isView) must return false'"
+            "value": "isConstructor(ArrayBuffer.isView) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 883,
             "end": 928,
-            "value": "`new ArrayBuffer.isView()` throws TypeError",
-            "raw": "'`new ArrayBuffer.isView()` throws TypeError'"
+            "value": "`new ArrayBuffer.isView()` throws TypeError"
           }
         ],
         "optional": false

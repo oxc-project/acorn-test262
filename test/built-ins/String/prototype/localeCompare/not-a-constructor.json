@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 780,
             "end": 845,
-            "value": "isConstructor(String.prototype.localeCompare) must return false",
-            "raw": "'isConstructor(String.prototype.localeCompare) must return false'"
+            "value": "isConstructor(String.prototype.localeCompare) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 926,
             "end": 983,
-            "value": "`new String.prototype.localeCompare()` throws TypeError",
-            "raw": "'`new String.prototype.localeCompare()` throws TypeError'"
+            "value": "`new String.prototype.localeCompare()` throws TypeError"
           }
         ],
         "optional": false

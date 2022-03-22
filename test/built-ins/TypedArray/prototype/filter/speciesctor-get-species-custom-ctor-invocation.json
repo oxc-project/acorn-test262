@@ -74,22 +74,19 @@
                                 "type": "Literal",
                                 "start": 1173,
                                 "end": 1175,
-                                "value": 40,
-                                "raw": "40"
+                                "value": 40
                               },
                               {
                                 "type": "Literal",
                                 "start": 1177,
                                 "end": 1179,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 1181,
                                 "end": 1183,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               }
                             ]
                           }
@@ -384,8 +381,7 @@
                                   "type": "Literal",
                                   "start": 1416,
                                   "end": 1418,
-                                  "value": 42,
-                                  "raw": "42"
+                                  "value": 42
                                 }
                               }
                             }
@@ -447,15 +443,13 @@
                         "type": "Literal",
                         "start": 1459,
                         "end": 1460,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1462,
                         "end": 1486,
-                        "value": "called with 1 argument",
-                        "raw": "\"called with 1 argument\""
+                        "value": "called with 1 argument"
                       }
                     ],
                     "optional": false
@@ -503,8 +497,7 @@
                           "type": "Literal",
                           "start": 1515,
                           "end": 1516,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -513,15 +506,13 @@
                         "type": "Literal",
                         "start": 1519,
                         "end": 1520,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 1522,
                         "end": 1554,
-                        "value": "[0] is the new captured length",
-                        "raw": "\"[0] is the new captured length\""
+                        "value": "[0] is the new captured length"
                       }
                     ],
                     "optional": false
@@ -603,8 +594,7 @@
                         "type": "Literal",
                         "start": 1632,
                         "end": 1704,
-                        "value": "`this` value in the @@species fn is an instance of the function itself",
-                        "raw": "\"`this` value in the @@species fn is an instance of the function itself\""
+                        "value": "`this` value in the @@species fn is an instance of the function itself"
                       }
                     ],
                     "optional": false

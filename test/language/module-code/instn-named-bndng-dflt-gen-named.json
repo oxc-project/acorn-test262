@@ -81,15 +81,13 @@
             "type": "Literal",
             "start": 1929,
             "end": 1931,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           },
           {
             "type": "Literal",
             "start": 1933,
             "end": 1970,
-            "value": "generator function value is hoisted",
-            "raw": "'generator function value is hoisted'"
+            "value": "generator function value is hoisted"
           }
         ],
         "optional": false
@@ -146,15 +144,13 @@
             "type": "Literal",
             "start": 1998,
             "end": 2005,
-            "value": "gName",
-            "raw": "'gName'"
+            "value": "gName"
           },
           {
             "type": "Literal",
             "start": 2007,
             "end": 2033,
-            "value": "correct name is assigned",
-            "raw": "'correct name is assigned'"
+            "value": "correct name is assigned"
           }
         ],
         "optional": false
@@ -181,8 +177,7 @@
         "type": "Literal",
         "start": 2051,
         "end": 2090,
-        "value": "./instn-named-bndng-dflt-gen-named.js",
-        "raw": "'./instn-named-bndng-dflt-gen-named.js'"
+        "value": "./instn-named-bndng-dflt-gen-named.js"
       }
     },
     {
@@ -216,8 +211,7 @@
                 "type": "Literal",
                 "start": 2134,
                 "end": 2136,
-                "value": 23,
-                "raw": "23"
+                "value": 23
               }
             }
           ]

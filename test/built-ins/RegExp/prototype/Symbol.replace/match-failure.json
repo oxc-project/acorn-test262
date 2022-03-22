@@ -44,7 +44,6 @@
                 "start": 914,
                 "end": 917,
                 "value": {},
-                "raw": "/x/",
                 "regex": {
                   "pattern": "x",
                   "flags": ""
@@ -77,15 +76,13 @@
                 "type": "Literal",
                 "start": 934,
                 "end": 939,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 941,
                 "end": 944,
-                "value": "X",
-                "raw": "'X'"
+                "value": "X"
               }
             ],
             "optional": false
@@ -94,8 +91,7 @@
             "type": "Literal",
             "start": 947,
             "end": 952,
-            "value": "abc",
-            "raw": "'abc'"
+            "value": "abc"
           }
         ],
         "optional": false

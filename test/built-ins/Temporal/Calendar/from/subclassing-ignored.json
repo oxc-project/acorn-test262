@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 358,
             "end": 364,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ArrayExpression",
@@ -66,8 +65,7 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 378,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           },
@@ -143,15 +141,13 @@
                         "type": "Literal",
                         "start": 429,
                         "end": 438,
-                        "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "value": "iso8601"
                       },
                       {
                         "type": "Literal",
                         "start": 440,
                         "end": 463,
-                        "value": "id property of result",
-                        "raw": "\"id property of result\""
+                        "value": "id property of result"
                       }
                     ],
                     "optional": false
@@ -215,15 +211,13 @@
                         "type": "Literal",
                         "start": 506,
                         "end": 515,
-                        "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "value": "iso8601"
                       },
                       {
                         "type": "Literal",
                         "start": 517,
                         "end": 539,
-                        "value": "toString() of result",
-                        "raw": "\"toString() of result\""
+                        "value": "toString() of result"
                       }
                     ],
                     "optional": false

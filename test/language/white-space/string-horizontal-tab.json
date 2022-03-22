@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 287,
               "end": 315,
-              "value": "'\tstr\ting\t'",
-              "raw": "\"'\\u0009str\\u0009ing\\u0009'\""
+              "value": "'\tstr\ting\t'"
             }
           ],
           "optional": false
@@ -37,8 +36,7 @@
           "type": "Literal",
           "start": 321,
           "end": 347,
-          "value": "\tstr\ting\t",
-          "raw": "\"\\u0009str\\u0009ing\\u0009\""
+          "value": "\tstr\ting\t"
         }
       },
       "consequent": {
@@ -65,8 +63,7 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 455,
-                  "value": "#1: eval(\"'\\u0009str\\u0009ing\\u0009'\") === \"\\u0009str\\u0009ing\\u0009\"",
-                  "raw": "'#1: eval(\"\\'\\\\u0009str\\\\u0009ing\\\\u0009\\'\") === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'"
+                  "value": "#1: eval(\"'\\u0009str\\u0009ing\\u0009'\") === \"\\u0009str\\u0009ing\\u0009\""
                 }
               ]
             }
@@ -98,8 +95,7 @@
               "type": "Literal",
               "start": 480,
               "end": 496,
-              "value": "'\tstr\ting\t'",
-              "raw": "\"'\\tstr\\ting\\t'\""
+              "value": "'\tstr\ting\t'"
             }
           ],
           "optional": false
@@ -109,8 +105,7 @@
           "type": "Literal",
           "start": 502,
           "end": 516,
-          "value": "\tstr\ting\t",
-          "raw": "\"\\tstr\\ting\\t\""
+          "value": "\tstr\ting\t"
         }
       },
       "consequent": {
@@ -137,8 +132,7 @@
                   "type": "Literal",
                   "start": 545,
                   "end": 600,
-                  "value": "#2: eval(\"'\\tstr\\ting\\t'\") === \"\\tstr\\ting\\t\"",
-                  "raw": "'#2: eval(\"\\'\\\\tstr\\\\ting\\\\t\\'\") === \"\\\\tstr\\\\ting\\\\t\"'"
+                  "value": "#2: eval(\"'\\tstr\\ting\\t'\") === \"\\tstr\\ting\\t\""
                 }
               ]
             }

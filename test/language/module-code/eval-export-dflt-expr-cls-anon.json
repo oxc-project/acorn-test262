@@ -57,8 +57,7 @@
                           "type": "Literal",
                           "start": 989,
                           "end": 991,
-                          "value": 45,
-                          "raw": "45"
+                          "value": 45
                         }
                       }
                     ]
@@ -91,8 +90,7 @@
         "type": "Literal",
         "start": 1013,
         "end": 1050,
-        "value": "./eval-export-dflt-expr-cls-anon.js",
-        "raw": "'./eval-export-dflt-expr-cls-anon.js'"
+        "value": "./eval-export-dflt-expr-cls-anon.js"
       }
     },
     {
@@ -159,15 +157,13 @@
             "type": "Literal",
             "start": 1089,
             "end": 1091,
-            "value": 45,
-            "raw": "45"
+            "value": 45
           },
           {
             "type": "Literal",
             "start": 1093,
             "end": 1114,
-            "value": "binding initialized",
-            "raw": "'binding initialized'"
+            "value": "binding initialized"
           }
         ],
         "optional": false
@@ -224,15 +220,13 @@
             "type": "Literal",
             "start": 1142,
             "end": 1151,
-            "value": "default",
-            "raw": "'default'"
+            "value": "default"
           },
           {
             "type": "Literal",
             "start": 1153,
             "end": 1179,
-            "value": "correct name is assigned",
-            "raw": "'correct name is assigned'"
+            "value": "correct name is assigned"
           }
         ],
         "optional": false

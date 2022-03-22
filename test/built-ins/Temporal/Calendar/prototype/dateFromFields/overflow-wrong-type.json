@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 828,
                 "end": 837,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -87,15 +86,13 @@
             "type": "Literal",
             "start": 883,
             "end": 893,
-            "value": "overflow",
-            "raw": "\"overflow\""
+            "value": "overflow"
           },
           {
             "type": "Literal",
             "start": 895,
             "end": 906,
-            "value": "constrain",
-            "raw": "\"constrain\""
+            "value": "constrain"
           },
           {
             "type": "ArrowFunctionExpression",
@@ -159,8 +156,7 @@
                         "type": "Literal",
                         "start": 956,
                         "end": 960,
-                        "value": 2000,
-                        "raw": "2000"
+                        "value": 2000
                       },
                       "kind": "init"
                     },
@@ -181,8 +177,7 @@
                         "type": "Literal",
                         "start": 969,
                         "end": 970,
-                        "value": 5,
-                        "raw": "5"
+                        "value": 5
                       },
                       "kind": "init"
                     },
@@ -203,8 +198,7 @@
                         "type": "Literal",
                         "start": 977,
                         "end": 978,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       "kind": "init"
                     }
@@ -298,29 +292,25 @@
                   "type": "Literal",
                   "start": 1058,
                   "end": 1062,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 {
                   "type": "Literal",
                   "start": 1064,
                   "end": 1065,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 {
                   "type": "Literal",
                   "start": 1067,
                   "end": 1072,
-                  "value": "M05",
-                  "raw": "\"M05\""
+                  "value": "M05"
                 },
                 {
                   "type": "Literal",
                   "start": 1074,
                   "end": 1075,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 {
                   "type": "Identifier",

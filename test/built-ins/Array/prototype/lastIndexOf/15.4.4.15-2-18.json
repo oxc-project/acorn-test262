@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 334,
-                "value": "012",
-                "raw": "\"012\""
+                "value": "012"
               }
             ]
           }
@@ -78,8 +77,7 @@
             "type": "Literal",
             "start": 355,
             "end": 356,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           "computed": true,
           "optional": false
@@ -88,8 +86,7 @@
           "type": "Literal",
           "start": 360,
           "end": 363,
-          "value": "3",
-          "raw": "\"3\""
+          "value": "3"
         }
       }
     },
@@ -181,8 +178,7 @@
                 "type": "Literal",
                 "start": 421,
                 "end": 424,
-                "value": "2",
-                "raw": "\"2\""
+                "value": "2"
               }
             ],
             "optional": false
@@ -191,15 +187,13 @@
             "type": "Literal",
             "start": 427,
             "end": 428,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 474,
-            "value": "Array.prototype.lastIndexOf.call(str, \"2\")",
-            "raw": "'Array.prototype.lastIndexOf.call(str, \"2\")'"
+            "value": "Array.prototype.lastIndexOf.call(str, \"2\")"
           }
         ],
         "optional": false
@@ -293,8 +287,7 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 535,
-                "value": "3",
-                "raw": "\"3\""
+                "value": "3"
               }
             ],
             "optional": false
@@ -309,16 +302,14 @@
               "type": "Literal",
               "start": 539,
               "end": 540,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 542,
             "end": 586,
-            "value": "Array.prototype.lastIndexOf.call(str, \"3\")",
-            "raw": "'Array.prototype.lastIndexOf.call(str, \"3\")'"
+            "value": "Array.prototype.lastIndexOf.call(str, \"3\")"
           }
         ],
         "optional": false

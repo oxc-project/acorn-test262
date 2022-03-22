@@ -46,36 +46,31 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 318,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 320,
                 "end": 321,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 324,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 331,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               }
             ]
           }
@@ -120,8 +115,7 @@
                   "type": "Literal",
                   "start": 360,
                   "end": 364,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 "kind": "init"
               },
@@ -142,8 +136,7 @@
                   "type": "Literal",
                   "start": 373,
                   "end": 374,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -164,8 +157,7 @@
                   "type": "Literal",
                   "start": 381,
                   "end": 382,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -236,8 +228,7 @@
                       "type": "Literal",
                       "start": 424,
                       "end": 430,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -309,15 +300,13 @@
             "type": "Literal",
             "start": 472,
             "end": 475,
-            "value": 367,
-            "raw": "367"
+            "value": 367
           },
           {
             "type": "Literal",
             "start": 477,
             "end": 510,
-            "value": "missing time units default to 0",
-            "raw": "\"missing time units default to 0\""
+            "value": "missing time units default to 0"
           }
         ],
         "optional": false

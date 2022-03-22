@@ -85,8 +85,7 @@
             "type": "Literal",
             "start": 796,
             "end": 806,
-            "value": "parseInt",
-            "raw": "\"parseInt\""
+            "value": "parseInt"
           }
         ],
         "optional": false
@@ -117,8 +116,7 @@
             "type": "Literal",
             "start": 832,
             "end": 842,
-            "value": "parseInt",
-            "raw": "\"parseInt\""
+            "value": "parseInt"
           }
         ],
         "optional": false
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 872,
             "end": 882,
-            "value": "parseInt",
-            "raw": "\"parseInt\""
+            "value": "parseInt"
           }
         ],
         "optional": false

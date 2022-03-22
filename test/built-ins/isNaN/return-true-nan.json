@@ -121,8 +121,7 @@
                           "type": "Literal",
                           "start": 401,
                           "end": 422,
-                          "value": "value on position: ",
-                          "raw": "\"value on position: \""
+                          "value": "value on position: "
                         },
                         "operator": "+",
                         "right": {

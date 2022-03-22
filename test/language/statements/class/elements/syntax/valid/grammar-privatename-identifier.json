@@ -20,13 +20,12 @@
         "end": 1382,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1316,
-            "end": 1319,
-            "static": false,
+            "end": 1318,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1316,
               "end": 1318,
               "name": "$"
@@ -34,13 +33,12 @@
             "value": null
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1322,
-            "end": 1325,
-            "static": false,
+            "end": 1324,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1322,
               "end": 1324,
               "name": "_"
@@ -48,13 +46,12 @@
             "value": null
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1328,
-            "end": 1336,
-            "static": false,
+            "end": 1335,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1328,
               "end": 1335,
               "name": "o"
@@ -62,13 +59,12 @@
             "value": null
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1339,
-            "end": 1347,
-            "static": false,
+            "end": 1346,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1339,
               "end": 1346,
               "name": "℘"
@@ -76,13 +72,12 @@
             "value": null
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1350,
-            "end": 1364,
-            "static": false,
+            "end": 1363,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1350,
               "end": 1363,
               "name": "ZW_‌_NJ"
@@ -90,13 +85,12 @@
             "value": null
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1367,
-            "end": 1380,
-            "static": false,
+            "end": 1379,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1367,
               "end": 1379,
               "name": "ZW_‍_J"

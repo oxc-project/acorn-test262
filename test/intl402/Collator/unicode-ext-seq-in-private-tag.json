@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 921,
                 "end": 940,
-                "value": "de-x-u-co-phonebk",
-                "raw": "\"de-x-u-co-phonebk\""
+                "value": "de-x-u-co-phonebk"
               }
             ]
           }
@@ -151,8 +150,7 @@
             "type": "Literal",
             "start": 1017,
             "end": 1026,
-            "value": "default",
-            "raw": "\"default\""
+            "value": "default"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 843,
             "end": 844,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -67,8 +66,7 @@
             "type": "Literal",
             "start": 1004,
             "end": 1012,
-            "value": "assert",
-            "raw": "'assert'"
+            "value": "assert"
           },
           {
             "type": "ObjectExpression",
@@ -121,8 +119,7 @@
                             "type": "Literal",
                             "start": 1053,
                             "end": 1054,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -158,8 +155,7 @@
         "type": "Literal",
         "start": 1079,
         "end": 1112,
-        "value": "./import-assertion-1_FIXTURE.js",
-        "raw": "'./import-assertion-1_FIXTURE.js'"
+        "value": "./import-assertion-1_FIXTURE.js"
       }
     },
     {
@@ -190,8 +186,7 @@
               "type": "Literal",
               "start": 1129,
               "end": 1131,
-              "value": "",
-              "raw": "''"
+              "value": ""
             }
           },
           "label": {
@@ -227,8 +222,7 @@
           "type": "Literal",
           "start": 1145,
           "end": 1150,
-          "value": 262.1,
-          "raw": "262.1"
+          "value": 262.1
         }
       },
       "consequent": {
@@ -244,8 +238,7 @@
               "type": "Literal",
               "start": 1162,
               "end": 1217,
-              "value": "module value incorrectly imported - first declaration",
-              "raw": "'module value incorrectly imported - first declaration'"
+              "value": "module value incorrectly imported - first declaration"
             }
           }
         ]
@@ -271,8 +264,7 @@
           "type": "Literal",
           "start": 1240,
           "end": 1241,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -288,8 +280,7 @@
               "type": "Literal",
               "start": 1253,
               "end": 1309,
-              "value": "IdentifierReference not recognized - first declaration",
-              "raw": "'IdentifierReference not recognized - first declaration'"
+              "value": "IdentifierReference not recognized - first declaration"
             }
           }
         ]
@@ -305,8 +296,7 @@
         "type": "Literal",
         "start": 1321,
         "end": 1354,
-        "value": "./import-assertion-2_FIXTURE.js",
-        "raw": "'./import-assertion-2_FIXTURE.js'"
+        "value": "./import-assertion-2_FIXTURE.js"
       }
     },
     {
@@ -337,8 +327,7 @@
               "type": "Literal",
               "start": 1371,
               "end": 1373,
-              "value": "",
-              "raw": "''"
+              "value": ""
             }
           },
           "label": {
@@ -387,8 +376,7 @@
           "type": "Literal",
           "start": 1404,
           "end": 1409,
-          "value": 262.2,
-          "raw": "262.2"
+          "value": 262.2
         }
       },
       "consequent": {
@@ -404,8 +392,7 @@
               "type": "Literal",
               "start": 1421,
               "end": 1477,
-              "value": "module value incorrectly imported - second declaration",
-              "raw": "'module value incorrectly imported - second declaration'"
+              "value": "module value incorrectly imported - second declaration"
             }
           }
         ]
@@ -431,8 +418,7 @@
           "type": "Literal",
           "start": 1500,
           "end": 1501,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -448,8 +434,7 @@
               "type": "Literal",
               "start": 1513,
               "end": 1570,
-              "value": "IdentifierReference not recognized - second declaration",
-              "raw": "'IdentifierReference not recognized - second declaration'"
+              "value": "IdentifierReference not recognized - second declaration"
             }
           }
         ]
@@ -465,8 +450,7 @@
         "type": "Literal",
         "start": 1589,
         "end": 1622,
-        "value": "./import-assertion-3_FIXTURE.js",
-        "raw": "'./import-assertion-3_FIXTURE.js'"
+        "value": "./import-assertion-3_FIXTURE.js"
       }
     },
     {
@@ -497,8 +481,7 @@
               "type": "Literal",
               "start": 1639,
               "end": 1641,
-              "value": "",
-              "raw": "''"
+              "value": ""
             }
           },
           "label": {
@@ -534,8 +517,7 @@
           "type": "Literal",
           "start": 1663,
           "end": 1664,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -551,8 +533,7 @@
               "type": "Literal",
               "start": 1676,
               "end": 1732,
-              "value": "IdentifierReference not recognized - third declaration",
-              "raw": "'IdentifierReference not recognized - third declaration'"
+              "value": "IdentifierReference not recognized - third declaration"
             }
           }
         ]

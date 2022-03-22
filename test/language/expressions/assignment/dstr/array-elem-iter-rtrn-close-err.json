@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1223,
             "end": 1224,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1244,
             "end": 1245,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -146,8 +144,7 @@
                             "type": "Literal",
                             "start": 1325,
                             "end": 1326,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -409,8 +406,7 @@
                 "type": "Literal",
                 "start": 1539,
                 "end": 1540,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -646,8 +642,7 @@
             "type": "Literal",
             "start": 1696,
             "end": 1697,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -691,15 +686,13 @@
             "type": "Literal",
             "start": 1730,
             "end": 1731,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1733,
             "end": 1773,
-            "value": "Unreachable statement was not executed",
-            "raw": "'Unreachable statement was not executed'"
+            "value": "Unreachable statement was not executed"
           }
         ],
         "optional": false

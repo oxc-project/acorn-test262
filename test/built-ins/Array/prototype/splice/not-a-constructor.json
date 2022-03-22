@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 764,
             "end": 821,
-            "value": "isConstructor(Array.prototype.splice) must return false",
-            "raw": "'isConstructor(Array.prototype.splice) must return false'"
+            "value": "isConstructor(Array.prototype.splice) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 894,
             "end": 943,
-            "value": "`new Array.prototype.splice()` throws TypeError",
-            "raw": "'`new Array.prototype.splice()` throws TypeError'"
+            "value": "`new Array.prototype.splice()` throws TypeError"
           }
         ],
         "optional": false

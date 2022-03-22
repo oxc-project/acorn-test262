@@ -42,22 +42,19 @@
                       "type": "Literal",
                       "start": 427,
                       "end": 439,
-                      "value": "arg1, arg2",
-                      "raw": "\"arg1, arg2\""
+                      "value": "arg1, arg2"
                     },
                     {
                       "type": "Literal",
                       "start": 441,
                       "end": 447,
-                      "value": "arg3",
-                      "raw": "\"arg3\""
+                      "value": "arg3"
                     },
                     {
                       "type": "Literal",
                       "start": 449,
                       "end": 473,
-                      "value": "return arg1+arg2+arg3;",
-                      "raw": "\"return arg1+arg2+arg3;\""
+                      "value": "return arg1+arg2+arg3;"
                     }
                   ],
                   "optional": false
@@ -102,8 +99,7 @@
                     "type": "Literal",
                     "start": 515,
                     "end": 532,
-                    "value": "#1: test failed",
-                    "raw": "'#1: test failed'"
+                    "value": "#1: test failed"
                   }
                 ]
               }
@@ -150,8 +146,7 @@
             "type": "Literal",
             "start": 568,
             "end": 641,
-            "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "value": "The result of evaluating (f instanceof Function) is expected to be true"
           }
         ],
         "optional": false
@@ -200,22 +195,19 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 667,
-                "value": "AB",
-                "raw": "\"AB\""
+                "value": "AB"
               },
               {
                 "type": "Literal",
                 "start": 669,
                 "end": 673,
-                "value": "BA",
-                "raw": "\"BA\""
+                "value": "BA"
               },
               {
                 "type": "Literal",
                 "start": 675,
                 "end": 676,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -224,15 +216,13 @@
             "type": "Literal",
             "start": 679,
             "end": 686,
-            "value": "ABBA1",
-            "raw": "\"ABBA1\""
+            "value": "ABBA1"
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 722,
-            "value": "f(AB, BA, 1) must return \"ABBA1\"",
-            "raw": "'f(AB, BA, 1) must return \"ABBA1\"'"
+            "value": "f(AB, BA, 1) must return \"ABBA1\""
           }
         ],
         "optional": false

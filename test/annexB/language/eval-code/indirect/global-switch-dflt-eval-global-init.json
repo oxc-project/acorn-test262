@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 712,
                 "end": 713,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -53,16 +52,14 @@
                   "type": "Literal",
                   "start": 723,
                   "end": 955,
-                  "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });switch (1) {",
-                  "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });switch (1) {'"
+                  "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });switch (1) {"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 960,
                   "end": 972,
-                  "value": "  default:",
-                  "raw": "'  default:'"
+                  "value": "  default:"
                 }
               },
               "operator": "+",
@@ -70,8 +67,7 @@
                 "type": "Literal",
                 "start": 977,
                 "end": 1000,
-                "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
+                "value": "    function f() {  }"
               }
             },
             "operator": "+",
@@ -79,8 +75,7 @@
               "type": "Literal",
               "start": 1005,
               "end": 1012,
-              "value": "}  ",
-              "raw": "'}\\\n  '"
+              "value": "}  "
             }
           }
         ],

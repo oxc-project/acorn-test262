@@ -60,8 +60,7 @@
             "type": "Literal",
             "start": 598,
             "end": 599,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -86,8 +85,7 @@
             "type": "Literal",
             "start": 617,
             "end": 618,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -131,8 +129,7 @@
             "type": "Literal",
             "start": 652,
             "end": 661,
-            "value": "resolve",
-            "raw": "'resolve'"
+            "value": "resolve"
           },
           {
             "type": "ObjectExpression",
@@ -208,8 +205,7 @@
                             "type": "Literal",
                             "start": 713,
                             "end": 714,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -250,8 +246,7 @@
                                     "type": "Literal",
                                     "start": 759,
                                     "end": 760,
-                                    "value": 1,
-                                    "raw": "1"
+                                    "value": 1
                                   }
                                 }
                               },
@@ -389,15 +384,13 @@
             "type": "Literal",
             "start": 875,
             "end": 876,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 878,
             "end": 927,
-            "value": "Got `resolve` only once for each iterated value",
-            "raw": "'Got `resolve` only once for each iterated value'"
+            "value": "Got `resolve` only once for each iterated value"
           }
         ],
         "optional": false
@@ -441,15 +434,13 @@
             "type": "Literal",
             "start": 962,
             "end": 963,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 965,
             "end": 1006,
-            "value": "`resolve` not called for empty iterator",
-            "raw": "'`resolve` not called for empty iterator'"
+            "value": "`resolve` not called for empty iterator"
           }
         ],
         "optional": false

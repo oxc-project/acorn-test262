@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 664,
                 "end": 682,
-                "value": "({foo:0,foo:1});",
-                "raw": "\"({foo:0,foo:1});\""
+                "value": "({foo:0,foo:1});"
               }
             ],
             "optional": false
@@ -94,15 +93,13 @@
             "type": "Literal",
             "start": 710,
             "end": 711,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 713,
             "end": 720,
-            "value": "o.foo",
-            "raw": "'o.foo'"
+            "value": "o.foo"
           }
         ],
         "optional": false

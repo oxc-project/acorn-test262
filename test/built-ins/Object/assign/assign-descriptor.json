@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 270,
             "end": 278,
-            "value": "assign",
-            "raw": "\"assign\""
+            "value": "assign"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 309,
             "end": 317,
-            "value": "assign",
-            "raw": "\"assign\""
+            "value": "assign"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 347,
             "end": 355,
-            "value": "assign",
-            "raw": "\"assign\""
+            "value": "assign"
           }
         ],
         "optional": false

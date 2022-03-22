@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 315,
             "end": 325,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 329,
             "end": 406,
-            "value": "The value of `typeof Object.prototype.valueOf` is expected to be \"function\"",
-            "raw": "'The value of `typeof Object.prototype.valueOf` is expected to be \"function\"'"
+            "value": "The value of `typeof Object.prototype.valueOf` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -185,15 +183,13 @@
             "type": "Literal",
             "start": 477,
             "end": 487,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 489,
             "end": 553,
-            "value": "The value of `typeof obj.valueOf` is expected to be \"function\"",
-            "raw": "'The value of `typeof obj.valueOf` is expected to be \"function\"'"
+            "value": "The value of `typeof obj.valueOf` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -264,8 +260,7 @@
             "type": "Literal",
             "start": 594,
             "end": 626,
-            "value": "obj.valueOf() must return true",
-            "raw": "'obj.valueOf() must return true'"
+            "value": "obj.valueOf() must return true"
           }
         ],
         "optional": false

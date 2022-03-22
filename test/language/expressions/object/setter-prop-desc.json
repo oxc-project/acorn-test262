@@ -128,8 +128,7 @@
                 "type": "Literal",
                 "start": 995,
                 "end": 998,
-                "value": "m",
-                "raw": "'m'"
+                "value": "m"
               }
             ],
             "optional": false
@@ -163,8 +162,7 @@
             "type": "Literal",
             "start": 1024,
             "end": 1027,
-            "value": "m",
-            "raw": "'m'"
+            "value": "m"
           }
         ],
         "optional": false
@@ -195,8 +193,7 @@
             "type": "Literal",
             "start": 1054,
             "end": 1057,
-            "value": "m",
-            "raw": "'m'"
+            "value": "m"
           }
         ],
         "optional": false
@@ -259,8 +256,7 @@
             "type": "Literal",
             "start": 1100,
             "end": 1115,
-            "value": "`value` field",
-            "raw": "'`value` field'"
+            "value": "`value` field"
           }
         ],
         "optional": false
@@ -323,8 +319,7 @@
             "type": "Literal",
             "start": 1156,
             "end": 1169,
-            "value": "`get` field",
-            "raw": "'`get` field'"
+            "value": "`get` field"
           }
         ],
         "optional": false
@@ -388,15 +383,13 @@
             "type": "Literal",
             "start": 1206,
             "end": 1216,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1218,
             "end": 1239,
-            "value": "type of `set` field",
-            "raw": "'type of `set` field'"
+            "value": "type of `set` field"
           }
         ],
         "optional": false
@@ -458,8 +451,7 @@
                 "type": "Literal",
                 "start": 1268,
                 "end": 1271,
-                "value": 436,
-                "raw": "436"
+                "value": 436
               }
             ],
             "optional": false
@@ -468,15 +460,13 @@
             "type": "Literal",
             "start": 1274,
             "end": 1277,
-            "value": 436,
-            "raw": "436"
+            "value": 436
           },
           {
             "type": "Literal",
             "start": 1279,
             "end": 1308,
-            "value": "`set` function return value",
-            "raw": "'`set` function return value'"
+            "value": "`set` function return value"
           }
         ],
         "optional": false

@@ -119,8 +119,7 @@
                   "type": "Literal",
                   "start": 527,
                   "end": 575,
-                  "value": "minimumSignificantDigits getter already called",
-                  "raw": "\"minimumSignificantDigits getter already called\""
+                  "value": "minimumSignificantDigits getter already called"
                 }
               ],
               "optional": false
@@ -171,8 +170,7 @@
                   "type": "Literal",
                   "start": 657,
                   "end": 729,
-                  "value": "maximumSignificantDigits getter called before minimumSignificantDigits",
-                  "raw": "\"maximumSignificantDigits getter called before minimumSignificantDigits\""
+                  "value": "maximumSignificantDigits getter called before minimumSignificantDigits"
                 }
               ],
               "optional": false
@@ -210,8 +208,7 @@
               "type": "Literal",
               "start": 784,
               "end": 785,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ]
@@ -281,8 +278,7 @@
                   "type": "Literal",
                   "start": 911,
                   "end": 959,
-                  "value": "maximumSignificantDigits getter already called",
-                  "raw": "\"maximumSignificantDigits getter already called\""
+                  "value": "maximumSignificantDigits getter already called"
                 }
               ],
               "optional": false
@@ -320,8 +316,7 @@
               "type": "Literal",
               "start": 1014,
               "end": 1015,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ]
@@ -390,8 +385,7 @@
             "type": "Literal",
             "start": 1069,
             "end": 1095,
-            "value": "minimumSignificantDigits",
-            "raw": "\"minimumSignificantDigits\""
+            "value": "minimumSignificantDigits"
           },
           {
             "type": "ObjectExpression",
@@ -463,8 +457,7 @@
             "type": "Literal",
             "start": 1172,
             "end": 1198,
-            "value": "maximumSignificantDigits",
-            "raw": "\"maximumSignificantDigits\""
+            "value": "maximumSignificantDigits"
           },
           {
             "type": "ObjectExpression",
@@ -530,8 +523,7 @@
             "type": "Literal",
             "start": 1267,
             "end": 1271,
-            "value": "de",
-            "raw": "\"de\""
+            "value": "de"
           },
           {
             "type": "Identifier",
@@ -567,8 +559,7 @@
             "type": "Literal",
             "start": 1321,
             "end": 1370,
-            "value": "minimumSignificantDigits getter was called once",
-            "raw": "\"minimumSignificantDigits getter was called once\""
+            "value": "minimumSignificantDigits getter was called once"
           }
         ],
         "optional": false
@@ -599,8 +590,7 @@
             "type": "Literal",
             "start": 1410,
             "end": 1459,
-            "value": "maximumSignificantDigits getter was called once",
-            "raw": "\"maximumSignificantDigits getter was called once\""
+            "value": "maximumSignificantDigits getter was called once"
           }
         ],
         "optional": false

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Math.acosh) must return false",
-            "raw": "'isConstructor(Math.acosh) must return false'"
+            "value": "isConstructor(Math.acosh) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 838,
             "end": 875,
-            "value": "`new Math.acosh()` throws TypeError",
-            "raw": "'`new Math.acosh()` throws TypeError'"
+            "value": "`new Math.acosh()` throws TypeError"
           }
         ],
         "optional": false

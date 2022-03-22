@@ -63,29 +63,25 @@
                             "type": "Literal",
                             "start": 899,
                             "end": 904,
-                            "value": "1.0",
-                            "raw": "\"1.0\""
+                            "value": "1.0"
                           },
                           {
                             "type": "Literal",
                             "start": 910,
                             "end": 914,
-                            "value": "+1",
-                            "raw": "\"+1\""
+                            "value": "+1"
                           },
                           {
                             "type": "Literal",
                             "start": 920,
                             "end": 944,
-                            "value": "1000000000000000000000",
-                            "raw": "\"1000000000000000000000\""
+                            "value": "1000000000000000000000"
                           },
                           {
                             "type": "Literal",
                             "start": 950,
                             "end": 961,
-                            "value": "0.0000001",
-                            "raw": "\"0.0000001\""
+                            "value": "0.0000001"
                           }
                         ]
                       }
@@ -238,8 +234,7 @@
                                     "type": "Literal",
                                     "start": 1108,
                                     "end": 1151,
-                                    "value": "The value of `delete sample[key]` is true",
-                                    "raw": "'The value of `delete sample[key]` is true'"
+                                    "value": "The value of `delete sample[key]` is true"
                                   }
                                 ],
                                 "optional": false
@@ -359,8 +354,7 @@
                                     "type": "Literal",
                                     "start": 1264,
                                     "end": 1307,
-                                    "value": "The value of `delete sample[key]` is true",
-                                    "raw": "'The value of `delete sample[key]` is true'"
+                                    "value": "The value of `delete sample[key]` is true"
                                   }
                                 ],
                                 "optional": false
@@ -467,8 +461,7 @@
                                     "type": "Literal",
                                     "start": 1399,
                                     "end": 1442,
-                                    "value": "The value of `delete sample[key]` is true",
-                                    "raw": "'The value of `delete sample[key]` is true'"
+                                    "value": "The value of `delete sample[key]` is true"
                                   }
                                 ],
                                 "optional": false
@@ -654,8 +647,7 @@
                                     "type": "Literal",
                                     "start": 1599,
                                     "end": 1638,
-                                    "value": "`delete sample[key]` throws TypeError",
-                                    "raw": "'`delete sample[key]` throws TypeError'"
+                                    "value": "`delete sample[key]` throws TypeError"
                                   }
                                 ],
                                 "optional": false

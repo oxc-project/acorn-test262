@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 886,
             "end": 892,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 905,
                   "end": 929,
-                  "value": "getPossibleInstantsFor",
-                  "raw": "\"getPossibleInstantsFor\""
+                  "value": "getPossibleInstantsFor"
                 },
                 "kind": "init"
               },

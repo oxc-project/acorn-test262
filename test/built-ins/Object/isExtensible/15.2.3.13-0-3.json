@@ -106,8 +106,7 @@
             "type": "Literal",
             "start": 482,
             "end": 506,
-            "value": "Object.isExtensible(o)",
-            "raw": "'Object.isExtensible(o)'"
+            "value": "Object.isExtensible(o)"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1750,
             "end": 1751,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -97,8 +96,7 @@
                   "type": "Literal",
                   "start": 1788,
                   "end": 1789,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "computed": true,
                 "optional": false
@@ -128,8 +126,7 @@
                   "type": "Literal",
                   "start": 1806,
                   "end": 1807,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "computed": true,
                 "optional": false
@@ -185,15 +182,13 @@
                       "type": "Literal",
                       "start": 1837,
                       "end": 1844,
-                      "value": "third",
-                      "raw": "'third'"
+                      "value": "third"
                     },
                     {
                       "type": "Literal",
                       "start": 1846,
                       "end": 1863,
-                      "value": "first parameter",
-                      "raw": "'first parameter'"
+                      "value": "first parameter"
                     }
                   ],
                   "optional": false
@@ -237,15 +232,13 @@
                       "type": "Literal",
                       "start": 1888,
                       "end": 1896,
-                      "value": "fourth",
-                      "raw": "'fourth'"
+                      "value": "fourth"
                     },
                     {
                       "type": "Literal",
                       "start": 1898,
                       "end": 1916,
-                      "value": "second parameter",
-                      "raw": "'second parameter'"
+                      "value": "second parameter"
                     }
                   ],
                   "optional": false
@@ -289,15 +282,13 @@
                       "type": "Literal",
                       "start": 1941,
                       "end": 1948,
-                      "value": "third",
-                      "raw": "'third'"
+                      "value": "third"
                     },
                     {
                       "type": "Literal",
                       "start": 1950,
                       "end": 1967,
-                      "value": "third parameter",
-                      "raw": "'third parameter'"
+                      "value": "third parameter"
                     }
                   ],
                   "optional": false
@@ -333,8 +324,7 @@
                       "type": "Literal",
                       "start": 1996,
                       "end": 1997,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -383,15 +373,13 @@
                 "type": "Literal",
                 "start": 2027,
                 "end": 2034,
-                "value": "third",
-                "raw": "'third'"
+                "value": "third"
               },
               {
                 "type": "Literal",
                 "start": 2036,
                 "end": 2044,
-                "value": "fourth",
-                "raw": "'fourth'"
+                "value": "fourth"
               }
             ],
             "optional": false
@@ -447,15 +435,13 @@
             "type": "Literal",
             "start": 2083,
             "end": 2084,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2086,
             "end": 2127,
-            "value": "generator function invoked exactly once",
-            "raw": "'generator function invoked exactly once'"
+            "value": "generator function invoked exactly once"
           }
         ],
         "optional": false

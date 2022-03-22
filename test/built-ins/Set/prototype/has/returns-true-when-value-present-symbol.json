@@ -176,8 +176,7 @@
             "type": "Literal",
             "start": 477,
             "end": 504,
-            "value": "`s.has(a)` returns `true`",
-            "raw": "\"`s.has(a)` returns `true`\""
+            "value": "`s.has(a)` returns `true`"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 2295,
             "end": 2296,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 2327,
                         "end": 2372,
-                        "value": "./instn-iee-err-ambiguous-export_FIXTURE.js",
-                        "raw": "'./instn-iee-err-ambiguous-export_FIXTURE.js'"
+                        "value": "./instn-iee-err-ambiguous-export_FIXTURE.js"
                       }
                     },
                     "property": {
@@ -183,8 +181,7 @@
                                   "type": "Literal",
                                   "start": 2425,
                                   "end": 2438,
-                                  "value": "SyntaxError",
-                                  "raw": "'SyntaxError'"
+                                  "value": "SyntaxError"
                                 }
                               ],
                               "optional": false

@@ -15,8 +15,7 @@
           "type": "Literal",
           "start": 234,
           "end": 242,
-          "value": "caller",
-          "raw": "'caller'"
+          "value": "caller"
         },
         "operator": "in",
         "right": {

@@ -15,8 +15,7 @@
           "type": "Literal",
           "start": 2632,
           "end": 2634,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       },
       "test": {
@@ -27,8 +26,7 @@
           "type": "Literal",
           "start": 2643,
           "end": 2645,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       },
       "update": {
@@ -39,8 +37,7 @@
           "type": "Literal",
           "start": 2653,
           "end": 2655,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       },
       "body": {
@@ -60,8 +57,7 @@
                 "type": "Literal",
                 "start": 2668,
                 "end": 2670,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             }
           },
@@ -106,8 +102,7 @@
           "type": "Literal",
           "start": 2878,
           "end": 2880,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       },
       "update": {
@@ -118,8 +113,7 @@
           "type": "Literal",
           "start": 2888,
           "end": 2890,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       },
       "body": {
@@ -139,8 +133,7 @@
                 "type": "Literal",
                 "start": 2903,
                 "end": 2905,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             }
           },
@@ -185,8 +178,7 @@
           "type": "Literal",
           "start": 3102,
           "end": 3104,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       },
       "update": {
@@ -197,8 +189,7 @@
           "type": "Literal",
           "start": 3112,
           "end": 3114,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       },
       "body": {
@@ -218,8 +209,7 @@
                 "type": "Literal",
                 "start": 3127,
                 "end": 3129,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             }
           },

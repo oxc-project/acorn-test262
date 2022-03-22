@@ -278,8 +278,7 @@
                         "type": "Literal",
                         "start": 924,
                         "end": 962,
-                        "value": "The promise should not be fulfilled.",
-                        "raw": "'The promise should not be fulfilled.'"
+                        "value": "The promise should not be fulfilled."
                       }
                     ],
                     "optional": false
@@ -426,8 +425,7 @@
             "type": "Literal",
             "start": 1082,
             "end": 1115,
-            "value": "\"resolve\" function return value",
-            "raw": "'\"resolve\" function return value'"
+            "value": "\"resolve\" function return value"
           }
         ],
         "optional": false

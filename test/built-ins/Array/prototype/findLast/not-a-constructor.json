@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 781,
             "end": 840,
-            "value": "isConstructor(Array.prototype.findLast) must return false",
-            "raw": "'isConstructor(Array.prototype.findLast) must return false'"
+            "value": "isConstructor(Array.prototype.findLast) must return false"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 922,
             "end": 981,
-            "value": "`new Array.prototype.findLast(() => {})` throws TypeError",
-            "raw": "'`new Array.prototype.findLast(() => {})` throws TypeError'"
+            "value": "`new Array.prototype.findLast(() => {})` throws TypeError"
           }
         ],
         "optional": false

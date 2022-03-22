@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 739,
             "end": 787,
-            "value": "isConstructor(Object.values) must return false",
-            "raw": "'isConstructor(Object.values) must return false'"
+            "value": "isConstructor(Object.values) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 852,
             "end": 894,
-            "value": "`new Object.values({})` throws TypeError",
-            "raw": "'`new Object.values({})` throws TypeError'"
+            "value": "`new Object.values({})` throws TypeError"
           }
         ],
         "optional": false

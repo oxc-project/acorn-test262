@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 801,
             "end": 861,
-            "value": "isConstructor(TypedArray.prototype.sort) must return false",
-            "raw": "'isConstructor(TypedArray.prototype.sort) must return false'"
+            "value": "isConstructor(TypedArray.prototype.sort) must return false"
           }
         ],
         "optional": false
@@ -173,8 +172,7 @@
                             "type": "Literal",
                             "start": 925,
                             "end": 926,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -219,8 +217,7 @@
             "type": "Literal",
             "start": 947,
             "end": 1009,
-            "value": "`let u8 = new Uint8Array(1); new u8.sort()` throws TypeError",
-            "raw": "'`let u8 = new Uint8Array(1); new u8.sort()` throws TypeError'"
+            "value": "`let u8 = new Uint8Array(1); new u8.sort()` throws TypeError"
           }
         ],
         "optional": false

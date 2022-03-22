@@ -27,71 +27,61 @@
                 "type": "Literal",
                 "start": 820,
                 "end": 825,
-                "value": "day",
-                "raw": "\"day\""
+                "value": "day"
               },
               {
                 "type": "Literal",
                 "start": 829,
                 "end": 835,
-                "value": "hour",
-                "raw": "\"hour\""
+                "value": "hour"
               },
               {
                 "type": "Literal",
                 "start": 839,
                 "end": 852,
-                "value": "microsecond",
-                "raw": "\"microsecond\""
+                "value": "microsecond"
               },
               {
                 "type": "Literal",
                 "start": 856,
                 "end": 869,
-                "value": "millisecond",
-                "raw": "\"millisecond\""
+                "value": "millisecond"
               },
               {
                 "type": "Literal",
                 "start": 873,
                 "end": 881,
-                "value": "minute",
-                "raw": "\"minute\""
+                "value": "minute"
               },
               {
                 "type": "Literal",
                 "start": 885,
                 "end": 892,
-                "value": "month",
-                "raw": "\"month\""
+                "value": "month"
               },
               {
                 "type": "Literal",
                 "start": 896,
                 "end": 907,
-                "value": "monthCode",
-                "raw": "\"monthCode\""
+                "value": "monthCode"
               },
               {
                 "type": "Literal",
                 "start": 911,
                 "end": 923,
-                "value": "nanosecond",
-                "raw": "\"nanosecond\""
+                "value": "nanosecond"
               },
               {
                 "type": "Literal",
                 "start": 927,
                 "end": 935,
-                "value": "second",
-                "raw": "\"second\""
+                "value": "second"
               },
               {
                 "type": "Literal",
                 "start": 939,
                 "end": 945,
-                "value": "year",
-                "raw": "\"year\""
+                "value": "year"
               }
             ]
           }
@@ -187,8 +177,7 @@
                 "type": "Literal",
                 "start": 1049,
                 "end": 1054,
-                "value": "UTC",
-                "raw": "\"UTC\""
+                "value": "UTC"
               }
             ]
           }
@@ -246,8 +235,7 @@
                   "type": "Literal",
                   "start": 1088,
                   "end": 1092,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 "kind": "init"
               },
@@ -268,8 +256,7 @@
                   "type": "Literal",
                   "start": 1101,
                   "end": 1102,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "kind": "init"
               },
@@ -290,8 +277,7 @@
                   "type": "Literal",
                   "start": 1109,
                   "end": 1110,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -373,15 +359,13 @@
             "type": "Literal",
             "start": 1169,
             "end": 1170,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1172,
             "end": 1201,
-            "value": "fields() method called once",
-            "raw": "\"fields() method called once\""
+            "value": "fields() method called once"
           }
         ],
         "optional": false
@@ -442,8 +426,7 @@
               "type": "Literal",
               "start": 1250,
               "end": 1251,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -458,8 +441,7 @@
             "type": "Literal",
             "start": 1264,
             "end": 1306,
-            "value": "fields() method called with correct args",
-            "raw": "\"fields() method called with correct args\""
+            "value": "fields() method called with correct args"
           }
         ],
         "optional": false
@@ -507,8 +489,7 @@
               "type": "Literal",
               "start": 1343,
               "end": 1344,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -517,8 +498,7 @@
             "type": "Literal",
             "start": 1347,
             "end": 1384,
-            "value": "iterated through the whole iterable",
-            "raw": "\"iterated through the whole iterable\""
+            "value": "iterated through the whole iterable"
           }
         ],
         "optional": false

@@ -370,8 +370,7 @@
             "type": "Literal",
             "start": 681,
             "end": 707,
-            "value": "valueOfAccessed !== true",
-            "raw": "'valueOfAccessed !== true'"
+            "value": "valueOfAccessed !== true"
           }
         ],
         "optional": false
@@ -402,8 +401,7 @@
             "type": "Literal",
             "start": 735,
             "end": 762,
-            "value": "toStringAccessed !== true",
-            "raw": "'toStringAccessed !== true'"
+            "value": "toStringAccessed !== true"
           }
         ],
         "optional": false

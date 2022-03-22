@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 1734,
                 "end": 1735,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 1737,
                 "end": 1738,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 1740,
                 "end": 1741,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -69,8 +66,7 @@
             "type": "Literal",
             "start": 1761,
             "end": 1762,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -265,8 +261,7 @@
                         "type": "Literal",
                         "start": 1892,
                         "end": 1893,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       }
                     ],
                     "optional": false
@@ -314,8 +309,7 @@
                           "type": "Literal",
                           "start": 1919,
                           "end": 1920,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -324,8 +318,7 @@
                         "type": "Literal",
                         "start": 1923,
                         "end": 1924,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -373,8 +366,7 @@
                           "type": "Literal",
                           "start": 1950,
                           "end": 1951,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         "computed": true,
                         "optional": false
@@ -383,8 +375,7 @@
                         "type": "Literal",
                         "start": 1954,
                         "end": 1955,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     ],
                     "optional": false
@@ -432,8 +423,7 @@
                           "type": "Literal",
                           "start": 1981,
                           "end": 1982,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         },
                         "computed": true,
                         "optional": false
@@ -442,8 +432,7 @@
                         "type": "Literal",
                         "start": 1985,
                         "end": 1986,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       }
                     ],
                     "optional": false
@@ -512,8 +501,7 @@
                       "type": "Literal",
                       "start": 2044,
                       "end": 2045,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -609,15 +597,13 @@
                       "type": "Literal",
                       "start": 2101,
                       "end": 2102,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 2104,
                       "end": 2136,
-                      "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "value": "iteration occurred as expected"
                     }
                   ],
                   "optional": false

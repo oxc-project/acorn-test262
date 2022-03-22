@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 768,
             "end": 827,
-            "value": "isConstructor(Array.prototype.includes) must return false",
-            "raw": "'isConstructor(Array.prototype.includes) must return false'"
+            "value": "isConstructor(Array.prototype.includes) must return false"
           }
         ],
         "optional": false
@@ -188,8 +187,7 @@
                         "type": "Literal",
                         "start": 896,
                         "end": 897,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ]
                   }
@@ -201,8 +199,7 @@
             "type": "Literal",
             "start": 903,
             "end": 955,
-            "value": "`new Array.prototype.includes(1)` throws TypeError",
-            "raw": "'`new Array.prototype.includes(1)` throws TypeError'"
+            "value": "`new Array.prototype.includes(1)` throws TypeError"
           }
         ],
         "optional": false

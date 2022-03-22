@@ -27,64 +27,55 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 362,
-                "value": "weekday",
-                "raw": "\"weekday\""
+                "value": "weekday"
               },
               {
                 "type": "Literal",
                 "start": 364,
                 "end": 369,
-                "value": "era",
-                "raw": "\"era\""
+                "value": "era"
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 377,
-                "value": "year",
-                "raw": "\"year\""
+                "value": "year"
               },
               {
                 "type": "Literal",
                 "start": 379,
                 "end": 386,
-                "value": "month",
-                "raw": "\"month\""
+                "value": "month"
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 393,
-                "value": "day",
-                "raw": "\"day\""
+                "value": "day"
               },
               {
                 "type": "Literal",
                 "start": 395,
                 "end": 401,
-                "value": "hour",
-                "raw": "\"hour\""
+                "value": "hour"
               },
               {
                 "type": "Literal",
                 "start": 403,
                 "end": 411,
-                "value": "minute",
-                "raw": "\"minute\""
+                "value": "minute"
               },
               {
                 "type": "Literal",
                 "start": 413,
                 "end": 421,
-                "value": "second",
-                "raw": "\"second\""
+                "value": "second"
               },
               {
                 "type": "Literal",
                 "start": 423,
                 "end": 430,
-                "value": "inDST",
-                "raw": "\"inDST\""
+                "value": "inDST"
               }
             ]
           }

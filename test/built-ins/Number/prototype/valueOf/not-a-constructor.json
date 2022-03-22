@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 768,
             "end": 827,
-            "value": "isConstructor(Number.prototype.valueOf) must return false",
-            "raw": "'isConstructor(Number.prototype.valueOf) must return false'"
+            "value": "isConstructor(Number.prototype.valueOf) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 902,
             "end": 953,
-            "value": "`new Number.prototype.valueOf()` throws TypeError",
-            "raw": "'`new Number.prototype.valueOf()` throws TypeError'"
+            "value": "`new Number.prototype.valueOf()` throws TypeError"
           }
         ],
         "optional": false

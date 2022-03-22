@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 595,
                 "end": 602,
-                "value": "hello",
-                "raw": "\"hello\""
+                "value": "hello"
               }
             ]
           }
@@ -122,8 +121,7 @@
                 "type": "Literal",
                 "start": 665,
                 "end": 666,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -156,8 +154,7 @@
                 "type": "Literal",
                 "start": 688,
                 "end": 691,
-                "value": "h",
-                "raw": "\"h\""
+                "value": "h"
               }
             ]
           }
@@ -222,8 +219,7 @@
             "type": "Literal",
             "start": 747,
             "end": 821,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -299,8 +295,7 @@
             "type": "Literal",
             "start": 885,
             "end": 966,
-            "value": "The value of __split.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __split.length is expected to equal the value of __expected.length'"
+            "value": "The value of __split.length is expected to equal the value of __expected.length"
           }
         ],
         "optional": false
@@ -348,8 +343,7 @@
               "type": "Literal",
               "start": 996,
               "end": 997,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -368,8 +362,7 @@
               "type": "Literal",
               "start": 1011,
               "end": 1012,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -378,8 +371,7 @@
             "type": "Literal",
             "start": 1015,
             "end": 1088,
-            "value": "The value of __split[0] is expected to equal the value of __expected[0]",
-            "raw": "'The value of __split[0] is expected to equal the value of __expected[0]'"
+            "value": "The value of __split[0] is expected to equal the value of __expected[0]"
           }
         ],
         "optional": false

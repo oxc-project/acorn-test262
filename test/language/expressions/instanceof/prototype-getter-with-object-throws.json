@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 968,
             "end": 979,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",
@@ -181,8 +180,7 @@
                               "type": "Literal",
                               "start": 1045,
                               "end": 1077,
-                              "value": "'prototype' getter called once",
-                              "raw": "\"'prototype' getter called once\""
+                              "value": "'prototype' getter called once"
                             }
                           ],
                           "optional": false

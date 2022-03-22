@@ -112,8 +112,7 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 465,
-                  "value": "VerifyArgumentsObject",
-                  "raw": "\"VerifyArgumentsObject\""
+                  "value": "VerifyArgumentsObject"
                 }
               }
             ]
@@ -252,15 +251,13 @@
             "type": "Literal",
             "start": 554,
             "end": 577,
-            "value": "VerifyArgumentsObject",
-            "raw": "\"VerifyArgumentsObject\""
+            "value": "VerifyArgumentsObject"
           },
           {
             "type": "Literal",
             "start": 579,
             "end": 592,
-            "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "value": "newObj.prop"
           }
         ],
         "optional": false

@@ -177,8 +177,7 @@
                     "type": "Literal",
                     "start": 1268,
                     "end": 1273,
-                    "value": "gen",
-                    "raw": "'gen'"
+                    "value": "gen"
                   }
                 ],
                 "optional": false
@@ -235,8 +234,7 @@
                     "type": "Literal",
                     "start": 1309,
                     "end": 1315,
-                    "value": "xGen",
-                    "raw": "'xGen'"
+                    "value": "xGen"
                   }
                 ],
                 "optional": false
@@ -296,8 +294,7 @@
             "type": "Literal",
             "start": 1357,
             "end": 1381,
-            "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "value": "executed `catch` block"
           }
         ],
         "optional": false

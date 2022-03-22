@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 797,
             "end": 857,
-            "value": "isConstructor(String.prototype.matchAll) must return false",
-            "raw": "'isConstructor(String.prototype.matchAll) must return false'"
+            "value": "isConstructor(String.prototype.matchAll) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 933,
             "end": 985,
-            "value": "`new String.prototype.matchAll()` throws TypeError",
-            "raw": "'`new String.prototype.matchAll()` throws TypeError'"
+            "value": "`new String.prototype.matchAll()` throws TypeError"
           }
         ],
         "optional": false

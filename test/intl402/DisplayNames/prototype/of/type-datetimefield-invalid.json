@@ -70,8 +70,7 @@
                       "type": "Literal",
                       "start": 347,
                       "end": 362,
-                      "value": "dateTimeField",
-                      "raw": "'dateTimeField'"
+                      "value": "dateTimeField"
                     },
                     "kind": "init"
                   }
@@ -163,8 +162,7 @@
                         "type": "Literal",
                         "start": 424,
                         "end": 426,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -177,8 +175,7 @@
             "type": "Literal",
             "start": 432,
             "end": 446,
-            "value": "empty string",
-            "raw": "'empty string'"
+            "value": "empty string"
           }
         ],
         "optional": false
@@ -264,8 +261,7 @@
                         "type": "Literal",
                         "start": 507,
                         "end": 521,
-                        "value": "timezoneName",
-                        "raw": "'timezoneName'"
+                        "value": "timezoneName"
                       }
                     ],
                     "optional": false
@@ -278,8 +274,7 @@
             "type": "Literal",
             "start": 527,
             "end": 541,
-            "value": "timezoneName",
-            "raw": "'timezoneName'"
+            "value": "timezoneName"
           }
         ],
         "optional": false
@@ -365,8 +360,7 @@
                         "type": "Literal",
                         "start": 602,
                         "end": 616,
-                        "value": "timezonename",
-                        "raw": "'timezonename'"
+                        "value": "timezonename"
                       }
                     ],
                     "optional": false
@@ -379,8 +373,7 @@
             "type": "Literal",
             "start": 622,
             "end": 636,
-            "value": "timezonename",
-            "raw": "'timezonename'"
+            "value": "timezonename"
           }
         ],
         "optional": false
@@ -466,8 +459,7 @@
                         "type": "Literal",
                         "start": 697,
                         "end": 710,
-                        "value": "millisecond",
-                        "raw": "'millisecond'"
+                        "value": "millisecond"
                       }
                     ],
                     "optional": false
@@ -480,8 +472,7 @@
             "type": "Literal",
             "start": 716,
             "end": 729,
-            "value": "millisecond",
-            "raw": "'millisecond'"
+            "value": "millisecond"
           }
         ],
         "optional": false
@@ -567,8 +558,7 @@
                         "type": "Literal",
                         "start": 790,
                         "end": 799,
-                        "value": "seconds",
-                        "raw": "'seconds'"
+                        "value": "seconds"
                       }
                     ],
                     "optional": false
@@ -581,8 +571,7 @@
             "type": "Literal",
             "start": 805,
             "end": 814,
-            "value": "seconds",
-            "raw": "'seconds'"
+            "value": "seconds"
           }
         ],
         "optional": false
@@ -668,8 +657,7 @@
                         "type": "Literal",
                         "start": 875,
                         "end": 882,
-                        "value": " year",
-                        "raw": "' year'"
+                        "value": " year"
                       }
                     ],
                     "optional": false
@@ -682,8 +670,7 @@
             "type": "Literal",
             "start": 888,
             "end": 915,
-            "value": "year (with leading space)",
-            "raw": "'year (with leading space)'"
+            "value": "year (with leading space)"
           }
         ],
         "optional": false
@@ -769,8 +756,7 @@
                         "type": "Literal",
                         "start": 976,
                         "end": 983,
-                        "value": "year ",
-                        "raw": "'year '"
+                        "value": "year "
                       }
                     ],
                     "optional": false
@@ -783,8 +769,7 @@
             "type": "Literal",
             "start": 989,
             "end": 1017,
-            "value": "year (with trailing space)",
-            "raw": "'year (with trailing space)'"
+            "value": "year (with trailing space)"
           }
         ],
         "optional": false

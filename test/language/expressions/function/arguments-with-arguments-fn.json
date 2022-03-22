@@ -173,8 +173,7 @@
             "type": "Literal",
             "start": 816,
             "end": 824,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false
@@ -231,8 +230,7 @@
             "type": "Literal",
             "start": 857,
             "end": 858,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

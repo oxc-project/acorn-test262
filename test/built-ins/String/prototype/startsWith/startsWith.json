@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 426,
             "end": 436,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 492,
-            "value": "`typeof String.prototype.startsWith` is `function`",
-            "raw": "'`typeof String.prototype.startsWith` is `function`'"
+            "value": "`typeof String.prototype.startsWith` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 535,
             "end": 547,
-            "value": "startsWith",
-            "raw": "'startsWith'"
+            "value": "startsWith"
           }
         ],
         "optional": false
@@ -171,8 +168,7 @@
             "type": "Literal",
             "start": 583,
             "end": 595,
-            "value": "startsWith",
-            "raw": "'startsWith'"
+            "value": "startsWith"
           }
         ],
         "optional": false
@@ -216,8 +212,7 @@
             "type": "Literal",
             "start": 635,
             "end": 647,
-            "value": "startsWith",
-            "raw": "'startsWith'"
+            "value": "startsWith"
           }
         ],
         "optional": false

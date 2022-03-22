@@ -68,8 +68,7 @@
             "type": "Literal",
             "start": 403,
             "end": 462,
-            "value": "Function.prototype.isPrototypeOf(Number) must return true",
-            "raw": "'Function.prototype.isPrototypeOf(Number) must return true'"
+            "value": "Function.prototype.isPrototypeOf(Number) must return true"
           }
         ],
         "optional": false

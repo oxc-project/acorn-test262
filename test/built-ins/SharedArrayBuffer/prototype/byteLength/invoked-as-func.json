@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 391,
                   "end": 403,
-                  "value": "byteLength",
-                  "raw": "\"byteLength\""
+                  "value": "byteLength"
                 }
               ],
               "optional": false

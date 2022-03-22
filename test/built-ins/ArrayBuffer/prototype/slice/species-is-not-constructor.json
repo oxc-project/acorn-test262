@@ -58,8 +58,7 @@
                 "type": "Literal",
                 "start": 727,
                 "end": 728,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               }
             ]
           }
@@ -249,8 +248,7 @@
             "type": "Literal",
             "start": 904,
             "end": 951,
-            "value": "`constructor[Symbol.species]` value is Object",
-            "raw": "\"`constructor[Symbol.species]` value is Object\""
+            "value": "`constructor[Symbol.species]` value is Object"
           }
         ],
         "optional": false
@@ -362,8 +360,7 @@
             "type": "Literal",
             "start": 1048,
             "end": 1107,
-            "value": "`constructor[Symbol.species]` value is Function.prototype",
-            "raw": "\"`constructor[Symbol.species]` value is Function.prototype\""
+            "value": "`constructor[Symbol.species]` value is Function.prototype"
           }
         ],
         "optional": false

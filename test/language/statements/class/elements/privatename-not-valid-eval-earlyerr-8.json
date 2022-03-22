@@ -67,8 +67,7 @@
                   "type": "Literal",
                   "start": 612,
                   "end": 639,
-                  "value": "executed = true; this.#x;",
-                  "raw": "\"executed = true; this.#x;\""
+                  "value": "executed = true; this.#x;"
                 }
               ],
               "optional": false

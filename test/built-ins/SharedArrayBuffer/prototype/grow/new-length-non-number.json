@@ -107,8 +107,7 @@
                               "type": "Literal",
                               "start": 693,
                               "end": 703,
-                              "value": "toString",
-                              "raw": "'toString'"
+                              "value": "toString"
                             }
                           ],
                           "optional": false
@@ -189,8 +188,7 @@
                               "type": "Literal",
                               "start": 763,
                               "end": 772,
-                              "value": "valueOf",
-                              "raw": "'valueOf'"
+                              "value": "valueOf"
                             }
                           ],
                           "optional": false
@@ -248,8 +246,7 @@
                 "type": "Literal",
                 "start": 828,
                 "end": 829,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "ObjectExpression",
@@ -273,8 +270,7 @@
                       "type": "Literal",
                       "start": 847,
                       "end": 848,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     },
                     "kind": "init"
                   }
@@ -430,8 +426,7 @@
             "type": "Literal",
             "start": 947,
             "end": 948,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -479,8 +474,7 @@
               "type": "Literal",
               "start": 972,
               "end": 973,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -489,8 +483,7 @@
             "type": "Literal",
             "start": 976,
             "end": 985,
-            "value": "valueOf",
-            "raw": "'valueOf'"
+            "value": "valueOf"
           }
         ],
         "optional": false
@@ -538,8 +531,7 @@
               "type": "Literal",
               "start": 1009,
               "end": 1010,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -548,8 +540,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1023,
-            "value": "toString",
-            "raw": "'toString'"
+            "value": "toString"
           }
         ],
         "optional": false

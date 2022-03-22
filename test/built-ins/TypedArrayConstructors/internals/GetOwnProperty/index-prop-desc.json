@@ -74,15 +74,13 @@
                                 "type": "Literal",
                                 "start": 838,
                                 "end": 840,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 842,
                                 "end": 844,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -141,8 +139,7 @@
                             "type": "Literal",
                             "start": 909,
                             "end": 912,
-                            "value": "0",
-                            "raw": "\"0\""
+                            "value": "0"
                           }
                         ],
                         "optional": false
@@ -200,8 +197,7 @@
                             "type": "Literal",
                             "start": 975,
                             "end": 978,
-                            "value": "1",
-                            "raw": "\"1\""
+                            "value": "1"
                           }
                         ],
                         "optional": false
@@ -261,8 +257,7 @@
                         "type": "Literal",
                         "start": 1020,
                         "end": 1022,
-                        "value": 42,
-                        "raw": "42"
+                        "value": 42
                       }
                     ],
                     "optional": false
@@ -493,8 +488,7 @@
                         "type": "Literal",
                         "start": 1214,
                         "end": 1216,
-                        "value": 43,
-                        "raw": "43"
+                        "value": 43
                       }
                     ],
                     "optional": false

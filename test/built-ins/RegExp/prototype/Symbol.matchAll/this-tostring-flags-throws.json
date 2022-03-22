@@ -23,7 +23,6 @@
             "start": 515,
             "end": 519,
             "value": {},
-            "raw": "/\\w/",
             "regex": {
               "pattern": "\\w",
               "flags": ""
@@ -71,8 +70,7 @@
             "type": "Literal",
             "start": 551,
             "end": 558,
-            "value": "flags",
-            "raw": "'flags'"
+            "value": "flags"
           },
           {
             "type": "ObjectExpression",
@@ -144,8 +142,7 @@
                                     "type": "Literal",
                                     "start": 601,
                                     "end": 631,
-                                    "value": "valueOf Should not be called",
-                                    "raw": "'valueOf Should not be called'"
+                                    "value": "valueOf Should not be called"
                                   }
                                 ],
                                 "optional": false
@@ -307,8 +304,7 @@
                         "type": "Literal",
                         "start": 772,
                         "end": 774,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false

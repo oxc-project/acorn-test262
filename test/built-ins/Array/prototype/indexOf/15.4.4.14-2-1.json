@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 303,
                   "end": 304,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
@@ -63,8 +62,7 @@
                   "type": "Literal",
                   "start": 322,
                   "end": 323,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               }
@@ -105,8 +103,7 @@
                   "type": "Literal",
                   "start": 344,
                   "end": 345,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Literal",
@@ -134,8 +131,7 @@
                   "type": "Literal",
                   "start": 363,
                   "end": 364,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               }
@@ -243,15 +239,13 @@
             "type": "Literal",
             "start": 430,
             "end": 431,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 477,
-            "value": "Array.prototype.indexOf.call(objOne, true)",
-            "raw": "'Array.prototype.indexOf.call(objOne, true)'"
+            "value": "Array.prototype.indexOf.call(objOne, true)"
           }
         ],
         "optional": false
@@ -361,16 +355,14 @@
               "type": "Literal",
               "start": 542,
               "end": 543,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 545,
             "end": 589,
-            "value": "Array.prototype.indexOf.call(objTwo, true)",
-            "raw": "'Array.prototype.indexOf.call(objTwo, true)'"
+            "value": "Array.prototype.indexOf.call(objTwo, true)"
           }
         ],
         "optional": false

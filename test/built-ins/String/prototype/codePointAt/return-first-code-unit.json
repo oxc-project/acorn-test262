@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 677,
-                "value": "\ud800\udbff",
-                "raw": "'\\uD800\\uDBFF'"
+                "value": "\ud800\udbff"
               },
               "property": {
                 "type": "Identifier",
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 690,
                 "end": 691,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -70,8 +68,7 @@
             "type": "Literal",
             "start": 694,
             "end": 700,
-            "value": 55296,
-            "raw": "0xD800"
+            "value": 55296
           }
         ],
         "optional": false
@@ -117,8 +114,7 @@
                 "type": "Literal",
                 "start": 720,
                 "end": 734,
-                "value": "\ud800",
-                "raw": "'\\uD800\\uE000'"
+                "value": "\ud800"
               },
               "property": {
                 "type": "Identifier",
@@ -134,8 +130,7 @@
                 "type": "Literal",
                 "start": 747,
                 "end": 748,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -144,8 +139,7 @@
             "type": "Literal",
             "start": 751,
             "end": 757,
-            "value": 55296,
-            "raw": "0xD800"
+            "value": 55296
           }
         ],
         "optional": false
@@ -191,8 +185,7 @@
                 "type": "Literal",
                 "start": 778,
                 "end": 792,
-                "value": "\udaaa\udbff",
-                "raw": "'\\uDAAA\\uDBFF'"
+                "value": "\udaaa\udbff"
               },
               "property": {
                 "type": "Identifier",
@@ -208,8 +201,7 @@
                 "type": "Literal",
                 "start": 805,
                 "end": 806,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -218,8 +210,7 @@
             "type": "Literal",
             "start": 809,
             "end": 815,
-            "value": 55978,
-            "raw": "0xDAAA"
+            "value": 55978
           }
         ],
         "optional": false
@@ -265,8 +256,7 @@
                 "type": "Literal",
                 "start": 835,
                 "end": 849,
-                "value": "\udaaa",
-                "raw": "'\\uDAAA\\uE000'"
+                "value": "\udaaa"
               },
               "property": {
                 "type": "Identifier",
@@ -282,8 +272,7 @@
                 "type": "Literal",
                 "start": 862,
                 "end": 863,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -292,8 +281,7 @@
             "type": "Literal",
             "start": 866,
             "end": 872,
-            "value": 55978,
-            "raw": "0xDAAA"
+            "value": 55978
           }
         ],
         "optional": false
@@ -339,8 +327,7 @@
                 "type": "Literal",
                 "start": 893,
                 "end": 907,
-                "value": "\udbff\udbff",
-                "raw": "'\\uDBFF\\uDBFF'"
+                "value": "\udbff\udbff"
               },
               "property": {
                 "type": "Identifier",
@@ -356,8 +343,7 @@
                 "type": "Literal",
                 "start": 920,
                 "end": 921,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -366,8 +352,7 @@
             "type": "Literal",
             "start": 924,
             "end": 930,
-            "value": 56319,
-            "raw": "0xDBFF"
+            "value": 56319
           }
         ],
         "optional": false
@@ -413,8 +398,7 @@
                 "type": "Literal",
                 "start": 950,
                 "end": 964,
-                "value": "\udbff",
-                "raw": "'\\uDBFF\\uE000'"
+                "value": "\udbff"
               },
               "property": {
                 "type": "Identifier",
@@ -430,8 +414,7 @@
                 "type": "Literal",
                 "start": 977,
                 "end": 978,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -440,8 +423,7 @@
             "type": "Literal",
             "start": 981,
             "end": 987,
-            "value": 56319,
-            "raw": "0xDBFF"
+            "value": 56319
           }
         ],
         "optional": false
@@ -487,8 +469,7 @@
                 "type": "Literal",
                 "start": 1008,
                 "end": 1022,
-                "value": "\ud800\u0000",
-                "raw": "'\\uD800\\u0000'"
+                "value": "\ud800\u0000"
               },
               "property": {
                 "type": "Identifier",
@@ -504,8 +485,7 @@
                 "type": "Literal",
                 "start": 1035,
                 "end": 1036,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -514,8 +494,7 @@
             "type": "Literal",
             "start": 1039,
             "end": 1045,
-            "value": 55296,
-            "raw": "0xD800"
+            "value": 55296
           }
         ],
         "optional": false
@@ -561,8 +540,7 @@
                 "type": "Literal",
                 "start": 1065,
                 "end": 1079,
-                "value": "\ud800￿",
-                "raw": "'\\uD800\\uFFFF'"
+                "value": "\ud800￿"
               },
               "property": {
                 "type": "Identifier",
@@ -578,8 +556,7 @@
                 "type": "Literal",
                 "start": 1092,
                 "end": 1093,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -588,8 +565,7 @@
             "type": "Literal",
             "start": 1096,
             "end": 1102,
-            "value": 55296,
-            "raw": "0xD800"
+            "value": 55296
           }
         ],
         "optional": false
@@ -635,8 +611,7 @@
                 "type": "Literal",
                 "start": 1123,
                 "end": 1137,
-                "value": "\udaaa\u0000",
-                "raw": "'\\uDAAA\\u0000'"
+                "value": "\udaaa\u0000"
               },
               "property": {
                 "type": "Identifier",
@@ -652,8 +627,7 @@
                 "type": "Literal",
                 "start": 1150,
                 "end": 1151,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -662,8 +636,7 @@
             "type": "Literal",
             "start": 1154,
             "end": 1160,
-            "value": 55978,
-            "raw": "0xDAAA"
+            "value": 55978
           }
         ],
         "optional": false
@@ -709,8 +682,7 @@
                 "type": "Literal",
                 "start": 1180,
                 "end": 1194,
-                "value": "\udaaa￿",
-                "raw": "'\\uDAAA\\uFFFF'"
+                "value": "\udaaa￿"
               },
               "property": {
                 "type": "Identifier",
@@ -726,8 +698,7 @@
                 "type": "Literal",
                 "start": 1207,
                 "end": 1208,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -736,8 +707,7 @@
             "type": "Literal",
             "start": 1211,
             "end": 1217,
-            "value": 55978,
-            "raw": "0xDAAA"
+            "value": 55978
           }
         ],
         "optional": false
@@ -783,8 +753,7 @@
                 "type": "Literal",
                 "start": 1238,
                 "end": 1252,
-                "value": "\udbff\udbff",
-                "raw": "'\\uDBFF\\uDBFF'"
+                "value": "\udbff\udbff"
               },
               "property": {
                 "type": "Identifier",
@@ -800,8 +769,7 @@
                 "type": "Literal",
                 "start": 1265,
                 "end": 1266,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -810,8 +778,7 @@
             "type": "Literal",
             "start": 1269,
             "end": 1275,
-            "value": 56319,
-            "raw": "0xDBFF"
+            "value": 56319
           }
         ],
         "optional": false
@@ -857,8 +824,7 @@
                 "type": "Literal",
                 "start": 1295,
                 "end": 1309,
-                "value": "\udbff￿",
-                "raw": "'\\uDBFF\\uFFFF'"
+                "value": "\udbff￿"
               },
               "property": {
                 "type": "Identifier",
@@ -874,8 +840,7 @@
                 "type": "Literal",
                 "start": 1322,
                 "end": 1323,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -884,8 +849,7 @@
             "type": "Literal",
             "start": 1326,
             "end": 1332,
-            "value": 56319,
-            "raw": "0xDBFF"
+            "value": 56319
           }
         ],
         "optional": false

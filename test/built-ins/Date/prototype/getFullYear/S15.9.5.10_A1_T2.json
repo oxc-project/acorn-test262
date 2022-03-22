@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 404,
             "end": 465,
-            "value": "The value of delete Date.prototype.getFullYear is not false",
-            "raw": "'The value of delete Date.prototype.getFullYear is not false'"
+            "value": "The value of delete Date.prototype.getFullYear is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 511,
                   "end": 524,
-                  "value": "getFullYear",
-                  "raw": "'getFullYear'"
+                  "value": "getFullYear"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 529,
             "end": 614,
-            "value": "The value of !Date.prototype.hasOwnProperty('getFullYear') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'getFullYear\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('getFullYear') is expected to be true"
           }
         ],
         "optional": false

@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 383,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 396,
             "end": 470,
-            "value": "Date.prototype.setMilliseconds.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.prototype.setMilliseconds.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.prototype.setMilliseconds.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -186,15 +184,13 @@
             "type": "Literal",
             "start": 536,
             "end": 537,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 541,
             "end": 613,
-            "value": "The value of Date.prototype.setMilliseconds.length is expected to be 1",
-            "raw": "'The value of Date.prototype.setMilliseconds.length is expected to be 1'"
+            "value": "The value of Date.prototype.setMilliseconds.length is expected to be 1"
           }
         ],
         "optional": false

@@ -55,8 +55,7 @@
                       "type": "Literal",
                       "start": 547,
                       "end": 557,
-                      "value": "function",
-                      "raw": "\"function\""
+                      "value": "function"
                     }
                   },
                   "consequent": {
@@ -87,8 +86,7 @@
                                 "type": "Literal",
                                 "start": 589,
                                 "end": 650,
-                                "value": "#1: typeof __decl === \"function\". Actual: typeof __decl ===",
-                                "raw": "'#1: typeof __decl === \"function\". Actual: typeof __decl ==='"
+                                "value": "#1: typeof __decl === \"function\". Actual: typeof __decl ==="
                               },
                               "operator": "+",
                               "right": {
@@ -131,8 +129,7 @@
                         "type": "Literal",
                         "start": 785,
                         "end": 786,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   ],
@@ -157,8 +154,7 @@
                       "type": "Literal",
                       "start": 976,
                       "end": 977,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "consequent": {
@@ -189,8 +185,7 @@
                                 "type": "Literal",
                                 "start": 1009,
                                 "end": 1047,
-                                "value": "#2: __decl === 1. Actual: __decl ===",
-                                "raw": "'#2: __decl === 1. Actual: __decl ==='"
+                                "value": "#2: __decl === 1. Actual: __decl ==="
                               },
                               "operator": "+",
                               "right": {
@@ -234,8 +229,7 @@
                           "type": "Literal",
                           "start": 1183,
                           "end": 1184,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]

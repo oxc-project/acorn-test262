@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 539,
-                  "value": "maxByteLength",
-                  "raw": "'maxByteLength'"
+                  "value": "maxByteLength"
                 }
               ],
               "optional": false
@@ -133,8 +132,7 @@
             "type": "Literal",
             "start": 580,
             "end": 590,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false

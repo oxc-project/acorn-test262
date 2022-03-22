@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 776,
             "end": 839,
-            "value": "isConstructor(String.prototype.toUpperCase) must return false",
-            "raw": "'isConstructor(String.prototype.toUpperCase) must return false'"
+            "value": "isConstructor(String.prototype.toUpperCase) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 918,
             "end": 973,
-            "value": "`new String.prototype.toUpperCase()` throws TypeError",
-            "raw": "'`new String.prototype.toUpperCase()` throws TypeError'"
+            "value": "`new String.prototype.toUpperCase()` throws TypeError"
           }
         ],
         "optional": false

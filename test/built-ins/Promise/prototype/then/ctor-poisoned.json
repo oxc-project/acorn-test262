@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 387,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -94,8 +93,7 @@
             "type": "Literal",
             "start": 416,
             "end": 429,
-            "value": "constructor",
-            "raw": "\"constructor\""
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -266,8 +264,7 @@
                                     "type": "Literal",
                                     "start": 582,
                                     "end": 607,
-                                    "value": "Should never be called.",
-                                    "raw": "\"Should never be called.\""
+                                    "value": "Should never be called."
                                   }
                                 ]
                               }
@@ -308,8 +305,7 @@
                                     "type": "Literal",
                                     "start": 655,
                                     "end": 680,
-                                    "value": "Should never be called.",
-                                    "raw": "\"Should never be called.\""
+                                    "value": "Should never be called."
                                   }
                                 ]
                               }

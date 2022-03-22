@@ -124,8 +124,7 @@
             "type": "Literal",
             "start": 989,
             "end": 999,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -179,8 +178,7 @@
                 "type": "Literal",
                 "start": 1092,
                 "end": 1099,
-                "value": "Array",
-                "raw": "'Array'"
+                "value": "Array"
               }
             ],
             "optional": false

@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 632,
             "end": 638,
-            "value": "join",
-            "raw": "'join'"
+            "value": "join"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
             "type": "Literal",
             "start": 677,
             "end": 683,
-            "value": "join",
-            "raw": "'join'"
+            "value": "join"
           }
         ],
         "optional": false
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 726,
             "end": 732,
-            "value": "join",
-            "raw": "'join'"
+            "value": "join"
           }
         ],
         "optional": false

@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 537,
                               "end": 545,
-                              "value": 73440,
-                              "raw": "0x011EE0"
+                              "value": 73440
                             },
                             {
                               "type": "Literal",
                               "start": 547,
                               "end": 555,
-                              "value": 73464,
-                              "raw": "0x011EF8"
+                              "value": 73464
                             }
                           ]
                         }
@@ -127,7 +125,6 @@
             "start": 588,
             "end": 623,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Makasar}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Makasar}+$",
               "flags": "u"
@@ -143,8 +140,7 @@
             "type": "Literal",
             "start": 643,
             "end": 675,
-            "value": "\\p{Script_Extensions=Makasar}",
-            "raw": "\"\\\\p{Script_Extensions=Makasar}\""
+            "value": "\\p{Script_Extensions=Makasar}"
           }
         ],
         "optional": false
@@ -170,7 +166,6 @@
             "start": 702,
             "end": 734,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Maka}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Maka}+$",
               "flags": "u"
@@ -186,8 +181,7 @@
             "type": "Literal",
             "start": 754,
             "end": 783,
-            "value": "\\p{Script_Extensions=Maka}",
-            "raw": "\"\\\\p{Script_Extensions=Maka}\""
+            "value": "\\p{Script_Extensions=Maka}"
           }
         ],
         "optional": false
@@ -213,7 +207,6 @@
             "start": 810,
             "end": 831,
             "value": {},
-            "raw": "/^\\p{scx=Makasar}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Makasar}+$",
               "flags": "u"
@@ -229,8 +222,7 @@
             "type": "Literal",
             "start": 851,
             "end": 869,
-            "value": "\\p{scx=Makasar}",
-            "raw": "\"\\\\p{scx=Makasar}\""
+            "value": "\\p{scx=Makasar}"
           }
         ],
         "optional": false
@@ -256,7 +248,6 @@
             "start": 896,
             "end": 914,
             "value": {},
-            "raw": "/^\\p{scx=Maka}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Maka}+$",
               "flags": "u"
@@ -272,8 +263,7 @@
             "type": "Literal",
             "start": 934,
             "end": 949,
-            "value": "\\p{scx=Maka}",
-            "raw": "\"\\\\p{scx=Maka}\""
+            "value": "\\p{scx=Maka}"
           }
         ],
         "optional": false
@@ -358,15 +348,13 @@
                               "type": "Literal",
                               "start": 1031,
                               "end": 1039,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1041,
                               "end": 1049,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -379,15 +367,13 @@
                               "type": "Literal",
                               "start": 1057,
                               "end": 1065,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1067,
                               "end": 1075,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -400,15 +386,13 @@
                               "type": "Literal",
                               "start": 1083,
                               "end": 1091,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1093,
                               "end": 1101,
-                              "value": 73439,
-                              "raw": "0x011EDF"
+                              "value": 73439
                             }
                           ]
                         },
@@ -421,15 +405,13 @@
                               "type": "Literal",
                               "start": 1109,
                               "end": 1117,
-                              "value": 73465,
-                              "raw": "0x011EF9"
+                              "value": 73465
                             },
                             {
                               "type": "Literal",
                               "start": 1119,
                               "end": 1127,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -466,7 +448,6 @@
             "start": 1160,
             "end": 1195,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Makasar}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Makasar}+$",
               "flags": "u"
@@ -482,8 +463,7 @@
             "type": "Literal",
             "start": 1218,
             "end": 1250,
-            "value": "\\P{Script_Extensions=Makasar}",
-            "raw": "\"\\\\P{Script_Extensions=Makasar}\""
+            "value": "\\P{Script_Extensions=Makasar}"
           }
         ],
         "optional": false
@@ -509,7 +489,6 @@
             "start": 1277,
             "end": 1309,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Maka}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Maka}+$",
               "flags": "u"
@@ -525,8 +504,7 @@
             "type": "Literal",
             "start": 1332,
             "end": 1361,
-            "value": "\\P{Script_Extensions=Maka}",
-            "raw": "\"\\\\P{Script_Extensions=Maka}\""
+            "value": "\\P{Script_Extensions=Maka}"
           }
         ],
         "optional": false
@@ -552,7 +530,6 @@
             "start": 1388,
             "end": 1409,
             "value": {},
-            "raw": "/^\\P{scx=Makasar}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Makasar}+$",
               "flags": "u"
@@ -568,8 +545,7 @@
             "type": "Literal",
             "start": 1432,
             "end": 1450,
-            "value": "\\P{scx=Makasar}",
-            "raw": "\"\\\\P{scx=Makasar}\""
+            "value": "\\P{scx=Makasar}"
           }
         ],
         "optional": false
@@ -595,7 +571,6 @@
             "start": 1477,
             "end": 1495,
             "value": {},
-            "raw": "/^\\P{scx=Maka}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Maka}+$",
               "flags": "u"
@@ -611,8 +586,7 @@
             "type": "Literal",
             "start": 1518,
             "end": 1533,
-            "value": "\\P{scx=Maka}",
-            "raw": "\"\\\\P{scx=Maka}\""
+            "value": "\\P{scx=Maka}"
           }
         ],
         "optional": false

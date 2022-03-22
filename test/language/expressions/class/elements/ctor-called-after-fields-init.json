@@ -116,10 +116,9 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 783,
-                  "end": 792,
-                  "static": false,
+                  "end": 791,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -131,8 +130,7 @@
                     "type": "Literal",
                     "start": 789,
                     "end": 791,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   }
                 }
               ]
@@ -211,8 +209,7 @@
             "type": "Literal",
             "start": 837,
             "end": 839,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false

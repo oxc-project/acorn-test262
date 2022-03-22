@@ -25,8 +25,7 @@
             "type": "Literal",
             "start": 380,
             "end": 397,
-            "value": "__declared__var",
-            "raw": "'__declared__var'"
+            "value": "__declared__var"
           },
           "computed": true,
           "optional": false
@@ -35,8 +34,7 @@
           "type": "Literal",
           "start": 401,
           "end": 409,
-          "value": "baloon",
-          "raw": "\"baloon\""
+          "value": "baloon"
         }
       }
     },
@@ -61,8 +59,7 @@
             "type": "Literal",
             "start": 420,
             "end": 437,
-            "value": "__declared__var",
-            "raw": "'__declared__var'"
+            "value": "__declared__var"
           },
           "computed": true,
           "optional": false
@@ -72,8 +69,7 @@
           "type": "Literal",
           "start": 443,
           "end": 451,
-          "value": "baloon",
-          "raw": "\"baloon\""
+          "value": "baloon"
         }
       },
       "consequent": {
@@ -104,8 +100,7 @@
                     "type": "Literal",
                     "start": 479,
                     "end": 563,
-                    "value": "#1: this['__declared__var'] === \"baloon\". Actual:  this['__declared__var'] ===",
-                    "raw": "'#1: this[\\'__declared__var\\'] === \"baloon\". Actual:  this[\\'__declared__var\\'] ==='"
+                    "value": "#1: this['__declared__var'] === \"baloon\". Actual:  this['__declared__var'] ==="
                   },
                   "operator": "+",
                   "right": {
@@ -121,8 +116,7 @@
                       "type": "Literal",
                       "start": 570,
                       "end": 587,
-                      "value": "__declared__var",
-                      "raw": "'__declared__var'"
+                      "value": "__declared__var"
                     },
                     "computed": true,
                     "optional": false
@@ -154,8 +148,7 @@
           "type": "Literal",
           "start": 791,
           "end": 799,
-          "value": "baloon",
-          "raw": "\"baloon\""
+          "value": "baloon"
         }
       },
       "consequent": {
@@ -186,8 +179,7 @@
                     "type": "Literal",
                     "start": 827,
                     "end": 891,
-                    "value": "#2: __declared__var === \"baloon\". Actual:  __declared__var ===",
-                    "raw": "'#2: __declared__var === \"baloon\". Actual:  __declared__var ==='"
+                    "value": "#2: __declared__var === \"baloon\". Actual:  __declared__var ==="
                   },
                   "operator": "+",
                   "right": {

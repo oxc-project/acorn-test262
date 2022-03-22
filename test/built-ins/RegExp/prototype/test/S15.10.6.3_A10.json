@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 417,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 430,
             "end": 497,
-            "value": "RegExp.prototype.test.hasOwnProperty('length') must return true",
-            "raw": "'RegExp.prototype.test.hasOwnProperty(\\'length\\') must return true'"
+            "value": "RegExp.prototype.test.hasOwnProperty('length') must return true"
           }
         ],
         "optional": false
@@ -224,8 +222,7 @@
             "type": "Literal",
             "start": 586,
             "end": 594,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -256,8 +253,7 @@
                     "type": "Literal",
                     "start": 620,
                     "end": 629,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -350,8 +346,7 @@
             "type": "Literal",
             "start": 696,
             "end": 779,
-            "value": "The value of RegExp.prototype.test.length is expected to equal the value of __obj",
-            "raw": "'The value of RegExp.prototype.test.length is expected to equal the value of __obj'"
+            "value": "The value of RegExp.prototype.test.length is expected to equal the value of __obj"
           }
         ],
         "optional": false

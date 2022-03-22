@@ -55,8 +55,7 @@
               "type": "Literal",
               "start": 423,
               "end": 424,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ]
@@ -100,8 +99,7 @@
             "type": "Literal",
             "start": 456,
             "end": 461,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -313,8 +311,7 @@
             "type": "Literal",
             "start": 641,
             "end": 646,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -345,8 +342,7 @@
             "type": "Literal",
             "start": 677,
             "end": 682,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -401,8 +397,7 @@
                 "type": "Literal",
                 "start": 734,
                 "end": 739,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -455,8 +450,7 @@
           "type": "Literal",
           "start": 768,
           "end": 779,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -487,8 +481,7 @@
                     "type": "Literal",
                     "start": 808,
                     "end": 863,
-                    "value": "Expected typeof (desc.set) === \"undefined\", actually ",
-                    "raw": "'Expected typeof (desc.set) === \"undefined\", actually '"
+                    "value": "Expected typeof (desc.set) === \"undefined\", actually "
                   },
                   "operator": "+",
                   "right": {

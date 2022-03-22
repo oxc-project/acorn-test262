@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 673,
                     "end": 683,
-                    "value": "/ /",
-                    "raw": "\"/\\u2028/\""
+                    "value": "/ /"
                   }
                 ],
                 "optional": false
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 719,
                     "end": 794,
-                    "value": "#1.1: RegularExpressionFirstChar :: Line separator is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionFirstChar :: Line separator is incorrect. Actual: '"
+                    "value": "#1.1: RegularExpressionFirstChar :: Line separator is incorrect. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -101,8 +99,7 @@
                             "type": "Literal",
                             "start": 803,
                             "end": 813,
-                            "value": "/ /",
-                            "raw": "\"/\\u2028/\""
+                            "value": "/ /"
                           }
                         ],
                         "optional": false
@@ -206,8 +203,7 @@
                             "type": "Literal",
                             "start": 912,
                             "end": 987,
-                            "value": "#1.2: RegularExpressionFirstChar :: Line separator is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionFirstChar :: Line separator is incorrect. Actual: '"
+                            "value": "#1.2: RegularExpressionFirstChar :: Line separator is incorrect. Actual: "
                           },
                           "operator": "+",
                           "right": {

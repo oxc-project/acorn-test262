@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 364,
-                  "value": "prop",
-                  "raw": "\"prop\""
+                  "value": "prop"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 366,
                   "end": 369,
-                  "value": "a",
-                  "raw": "\"a\""
+                  "value": "a"
                 },
                 "kind": "init"
               }
@@ -233,8 +231,7 @@
             "type": "Literal",
             "start": 506,
             "end": 517,
-            "value": "newFunc()",
-            "raw": "'newFunc()'"
+            "value": "newFunc()"
           }
         ],
         "optional": false

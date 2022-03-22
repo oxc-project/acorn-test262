@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 532,
             "end": 544,
-            "value": "allSettled",
-            "raw": "'allSettled'"
+            "value": "allSettled"
           },
           {
             "type": "ObjectExpression",

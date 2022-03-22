@@ -50,8 +50,7 @@
                 "type": "Literal",
                 "start": 500,
                 "end": 501,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -67,8 +66,7 @@
             "type": "Literal",
             "start": 508,
             "end": 531,
-            "value": "const outside = null;",
-            "raw": "'const outside = null;'"
+            "value": "const outside = null;"
           }
         ],
         "optional": false
@@ -95,8 +93,7 @@
                 "type": "Literal",
                 "start": 535,
                 "end": 536,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -112,8 +109,7 @@
             "type": "Literal",
             "start": 543,
             "end": 580,
-            "value": "\"use strict\"; const outside = null;",
-            "raw": "'\"use strict\"; const outside = null;'"
+            "value": "\"use strict\"; const outside = null;"
           }
         ],
         "optional": false
@@ -140,8 +136,7 @@
                 "type": "Literal",
                 "start": 585,
                 "end": 586,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -157,8 +152,7 @@
             "type": "Literal",
             "start": 593,
             "end": 619,
-            "value": "const xNonStrict = null;",
-            "raw": "'const xNonStrict = null;'"
+            "value": "const xNonStrict = null;"
           }
         ],
         "optional": false
@@ -209,8 +203,7 @@
             "type": "Literal",
             "start": 659,
             "end": 670,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -303,8 +296,7 @@
                 "type": "Literal",
                 "start": 736,
                 "end": 737,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -320,8 +312,7 @@
             "type": "Literal",
             "start": 744,
             "end": 781,
-            "value": "\"use strict\"; const xStrict = null;",
-            "raw": "'\"use strict\"; const xStrict = null;'"
+            "value": "\"use strict\"; const xStrict = null;"
           }
         ],
         "optional": false
@@ -372,8 +363,7 @@
             "type": "Literal",
             "start": 818,
             "end": 829,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false

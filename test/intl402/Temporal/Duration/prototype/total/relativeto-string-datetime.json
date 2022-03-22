@@ -46,36 +46,31 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 388,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 391,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 394,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 397,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 399,
                 "end": 401,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               }
             ]
           }
@@ -102,8 +97,7 @@
             "type": "Literal",
             "start": 422,
             "end": 459,
-            "value": "2019-11-01T00:00[America/Vancouver]",
-            "raw": "\"2019-11-01T00:00[America/Vancouver]\""
+            "value": "2019-11-01T00:00[America/Vancouver]"
           }
         }
       ],
@@ -170,8 +164,7 @@
                       "type": "Literal",
                       "start": 500,
                       "end": 506,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -243,15 +236,13 @@
             "type": "Literal",
             "start": 549,
             "end": 555,
-            "value": 366.96,
-            "raw": "366.96"
+            "value": 366.96
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 608,
-            "value": "date-time + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + IANA annotation is a zoned relativeTo\""
+            "value": "date-time + IANA annotation is a zoned relativeTo"
           }
         ],
         "optional": false
@@ -276,8 +267,7 @@
           "type": "Literal",
           "start": 625,
           "end": 663,
-          "value": "2019-11-01T00:00Z[America/Vancouver]",
-          "raw": "\"2019-11-01T00:00Z[America/Vancouver]\""
+          "value": "2019-11-01T00:00Z[America/Vancouver]"
         }
       }
     },
@@ -342,8 +332,7 @@
                       "type": "Literal",
                       "start": 704,
                       "end": 710,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -415,15 +404,13 @@
             "type": "Literal",
             "start": 753,
             "end": 759,
-            "value": 366.96,
-            "raw": "366.96"
+            "value": 366.96
           },
           {
             "type": "Literal",
             "start": 761,
             "end": 816,
-            "value": "date-time + Z + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + Z + IANA annotation is a zoned relativeTo\""
+            "value": "date-time + Z + IANA annotation is a zoned relativeTo"
           }
         ],
         "optional": false
@@ -448,8 +435,7 @@
           "type": "Literal",
           "start": 833,
           "end": 876,
-          "value": "2019-11-01T00:00-07:00[America/Vancouver]",
-          "raw": "\"2019-11-01T00:00-07:00[America/Vancouver]\""
+          "value": "2019-11-01T00:00-07:00[America/Vancouver]"
         }
       }
     },
@@ -514,8 +500,7 @@
                       "type": "Literal",
                       "start": 917,
                       "end": 923,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -587,15 +572,13 @@
             "type": "Literal",
             "start": 966,
             "end": 972,
-            "value": 366.96,
-            "raw": "366.96"
+            "value": 366.96
           },
           {
             "type": "Literal",
             "start": 974,
             "end": 1034,
-            "value": "date-time + offset + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + offset + IANA annotation is a zoned relativeTo\""
+            "value": "date-time + offset + IANA annotation is a zoned relativeTo"
           }
         ],
         "optional": false
@@ -620,8 +603,7 @@
           "type": "Literal",
           "start": 1051,
           "end": 1094,
-          "value": "2019-11-01T00:00+04:15[America/Vancouver]",
-          "raw": "\"2019-11-01T00:00+04:15[America/Vancouver]\""
+          "value": "2019-11-01T00:00+04:15[America/Vancouver]"
         }
       }
     },
@@ -714,8 +696,7 @@
                         "type": "Literal",
                         "start": 1151,
                         "end": 1157,
-                        "value": "days",
-                        "raw": "\"days\""
+                        "value": "days"
                       },
                       "kind": "init"
                     },
@@ -750,8 +731,7 @@
             "type": "Literal",
             "start": 1174,
             "end": 1256,
-            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch",
-            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\""
+            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch"
           }
         ],
         "optional": false

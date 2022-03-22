@@ -73,8 +73,7 @@
             "type": "Literal",
             "start": 397,
             "end": 403,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -184,8 +183,7 @@
             "type": "Literal",
             "start": 493,
             "end": 499,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -327,8 +325,7 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 636,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -386,8 +383,7 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 693,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -450,8 +446,7 @@
                 "type": "Literal",
                 "start": 730,
                 "end": 736,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -521,8 +516,7 @@
             "type": "Literal",
             "start": 806,
             "end": 826,
-            "value": "Property not found",
-            "raw": "'Property not found'"
+            "value": "Property not found"
           }
         ],
         "optional": false
@@ -553,8 +547,7 @@
             "type": "Literal",
             "start": 859,
             "end": 891,
-            "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "value": "propertyDefineCorrect !== true"
           }
         ],
         "optional": false
@@ -618,8 +611,7 @@
             "type": "Literal",
             "start": 934,
             "end": 951,
-            "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "value": "desc.enumerable"
           }
         ],
         "optional": false

@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 1611,
             "end": 1612,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -126,8 +125,7 @@
                 "type": "Literal",
                 "start": 1668,
                 "end": 1675,
-                "value": "value",
-                "raw": "'value'"
+                "value": "value"
               },
               {
                 "type": "ObjectExpression",
@@ -180,8 +178,7 @@
                                 "type": "Literal",
                                 "start": 1716,
                                 "end": 1717,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           }
@@ -707,15 +704,13 @@
             "type": "Literal",
             "start": 2218,
             "end": 2219,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2221,
             "end": 2253,
-            "value": "access count (first iteration)",
-            "raw": "'access count (first iteration)'"
+            "value": "access count (first iteration)"
           }
         ],
         "optional": false
@@ -766,8 +761,7 @@
             "type": "Literal",
             "start": 2303,
             "end": 2341,
-            "value": "delegation ongoing (first iteration)",
-            "raw": "'delegation ongoing (first iteration)'"
+            "value": "delegation ongoing (first iteration)"
           }
         ],
         "optional": false
@@ -842,15 +836,13 @@
             "type": "Literal",
             "start": 2389,
             "end": 2390,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2392,
             "end": 2425,
-            "value": "access count (second iteration)",
-            "raw": "'access count (second iteration)'"
+            "value": "access count (second iteration)"
           }
         ],
         "optional": false
@@ -901,8 +893,7 @@
             "type": "Literal",
             "start": 2475,
             "end": 2514,
-            "value": "delegation ongoing (second iteration)",
-            "raw": "'delegation ongoing (second iteration)'"
+            "value": "delegation ongoing (second iteration)"
           }
         ],
         "optional": false
@@ -1014,15 +1005,13 @@
             "type": "Literal",
             "start": 2584,
             "end": 2585,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2587,
             "end": 2619,
-            "value": "access count (final iteration)",
-            "raw": "'access count (final iteration)'"
+            "value": "access count (final iteration)"
           }
         ],
         "optional": false
@@ -1073,8 +1062,7 @@
             "type": "Literal",
             "start": 2665,
             "end": 2686,
-            "value": "delegation complete",
-            "raw": "'delegation complete'"
+            "value": "delegation complete"
           }
         ],
         "optional": false
@@ -1125,8 +1113,7 @@
             "type": "Literal",
             "start": 2731,
             "end": 2754,
-            "value": "completion was abrupt",
-            "raw": "'completion was abrupt'"
+            "value": "completion was abrupt"
           }
         ],
         "optional": false
@@ -1177,8 +1164,7 @@
             "type": "Literal",
             "start": 2798,
             "end": 2834,
-            "value": "completion was not of type \"throw\"",
-            "raw": "'completion was not of type \"throw\"'"
+            "value": "completion was not of type \"throw\""
           }
         ],
         "optional": false

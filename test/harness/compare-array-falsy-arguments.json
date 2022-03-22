@@ -366,8 +366,7 @@
             "type": "Literal",
             "start": 612,
             "end": 651,
-            "value": "First argument shouldn't be nullish. ",
-            "raw": "\"First argument shouldn't be nullish. \""
+            "value": "First argument shouldn't be nullish. "
           }
         ],
         "optional": false
@@ -442,8 +441,7 @@
             "type": "Literal",
             "start": 704,
             "end": 743,
-            "value": "First argument shouldn't be nullish. ",
-            "raw": "\"First argument shouldn't be nullish. \""
+            "value": "First argument shouldn't be nullish. "
           }
         ],
         "optional": false
@@ -514,8 +512,7 @@
                   "type": "Literal",
                   "start": 795,
                   "end": 800,
-                  "value": "foo",
-                  "raw": "\"foo\""
+                  "value": "foo"
                 }
               ],
               "optional": false
@@ -525,8 +522,7 @@
             "type": "Literal",
             "start": 803,
             "end": 845,
-            "value": "First argument shouldn't be nullish. foo",
-            "raw": "\"First argument shouldn't be nullish. foo\""
+            "value": "First argument shouldn't be nullish. foo"
           }
         ],
         "optional": false
@@ -594,8 +590,7 @@
             "type": "Literal",
             "start": 893,
             "end": 933,
-            "value": "Second argument shouldn't be nullish. ",
-            "raw": "\"Second argument shouldn't be nullish. \""
+            "value": "Second argument shouldn't be nullish. "
           }
         ],
         "optional": false
@@ -665,8 +660,7 @@
                   "type": "Literal",
                   "start": 990,
                   "end": 995,
-                  "value": "foo",
-                  "raw": "\"foo\""
+                  "value": "foo"
                 }
               ],
               "optional": false
@@ -676,8 +670,7 @@
             "type": "Literal",
             "start": 998,
             "end": 1041,
-            "value": "Second argument shouldn't be nullish. foo",
-            "raw": "\"Second argument shouldn't be nullish. foo\""
+            "value": "Second argument shouldn't be nullish. foo"
           }
         ],
         "optional": false

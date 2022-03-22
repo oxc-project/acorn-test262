@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 342,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 345,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -105,15 +103,13 @@
                 "type": "Literal",
                 "start": 390,
                 "end": 394,
-                "value": 2001,
-                "raw": "2001"
+                "value": 2001
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 397,
-                "value": 6,
-                "raw": "6"
+                "value": 6
               }
             ]
           }
@@ -214,78 +210,67 @@
             "type": "Literal",
             "start": 484,
             "end": 485,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 487,
             "end": 488,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 490,
             "end": 491,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 494,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 496,
             "end": 497,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 500,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 503,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 505,
             "end": 506,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 509,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 512,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 559,
-            "value": "default largestUnit is year (explicit, pos)",
-            "raw": "\"default largestUnit is year (explicit, pos)\""
+            "value": "default largestUnit is year (explicit, pos)"
           }
         ],
         "optional": false
@@ -390,8 +375,7 @@
               "type": "Literal",
               "start": 646,
               "end": 647,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
@@ -404,72 +388,62 @@
               "type": "Literal",
               "start": 650,
               "end": 651,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 653,
             "end": 654,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 657,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 659,
             "end": 660,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 662,
             "end": 663,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 666,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 668,
             "end": 669,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 671,
             "end": 672,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 674,
             "end": 675,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 677,
             "end": 722,
-            "value": "default largestUnit is year (explicit, neg)",
-            "raw": "\"default largestUnit is year (explicit, neg)\""
+            "value": "default largestUnit is year (explicit, neg)"
           }
         ],
         "optional": false
@@ -546,78 +520,67 @@
             "type": "Literal",
             "start": 785,
             "end": 786,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 788,
             "end": 789,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 791,
             "end": 792,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 794,
             "end": 795,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 797,
             "end": 798,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 800,
             "end": 801,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 804,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 806,
             "end": 807,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 810,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 812,
             "end": 813,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 815,
             "end": 860,
-            "value": "default largestUnit is year (implicit, pos)",
-            "raw": "\"default largestUnit is year (implicit, pos)\""
+            "value": "default largestUnit is year (implicit, pos)"
           }
         ],
         "optional": false
@@ -700,8 +663,7 @@
               "type": "Literal",
               "start": 923,
               "end": 924,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
@@ -714,72 +676,62 @@
               "type": "Literal",
               "start": 927,
               "end": 928,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 930,
             "end": 931,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 934,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 936,
             "end": 937,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 939,
             "end": 940,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 942,
             "end": 943,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 945,
             "end": 946,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 948,
             "end": 949,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 951,
             "end": 952,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 999,
-            "value": "default largestUnit is year (implicit, neg)",
-            "raw": "\"default largestUnit is year (implicit, neg)\""
+            "value": "default largestUnit is year (implicit, neg)"
           }
         ],
         "optional": false
@@ -866,78 +818,67 @@
             "type": "Literal",
             "start": 1068,
             "end": 1069,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1071,
             "end": 1072,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1074,
             "end": 1075,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1077,
             "end": 1078,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1081,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1083,
             "end": 1084,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1086,
             "end": 1087,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1089,
             "end": 1090,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1092,
             "end": 1093,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1095,
             "end": 1096,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1098,
             "end": 1149,
-            "value": "default largestUnit is year (arrow function, pos)",
-            "raw": "\"default largestUnit is year (arrow function, pos)\""
+            "value": "default largestUnit is year (arrow function, pos)"
           }
         ],
         "optional": false
@@ -1030,8 +971,7 @@
               "type": "Literal",
               "start": 1218,
               "end": 1219,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
@@ -1044,72 +984,62 @@
               "type": "Literal",
               "start": 1222,
               "end": 1223,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 1225,
             "end": 1226,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1228,
             "end": 1229,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1231,
             "end": 1232,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1234,
             "end": 1235,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1237,
             "end": 1238,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1240,
             "end": 1241,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1243,
             "end": 1244,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1246,
             "end": 1247,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1249,
             "end": 1300,
-            "value": "default largestUnit is year (arrow function, neg)",
-            "raw": "\"default largestUnit is year (arrow function, neg)\""
+            "value": "default largestUnit is year (arrow function, neg)"
           }
         ],
         "optional": false

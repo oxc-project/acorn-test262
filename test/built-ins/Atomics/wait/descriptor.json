@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 299,
             "end": 305,
-            "value": "wait",
-            "raw": "'wait'"
+            "value": "wait"
           },
           {
             "type": "ObjectExpression",

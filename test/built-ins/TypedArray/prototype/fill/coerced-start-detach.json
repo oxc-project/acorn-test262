@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 621,
                             "end": 623,
-                            "value": 10,
-                            "raw": "10"
+                            "value": 10
                           }
                         ]
                       }
@@ -143,8 +142,7 @@
                           "type": "Literal",
                           "start": 707,
                           "end": 708,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -230,8 +228,7 @@
                                     "type": "Literal",
                                     "start": 771,
                                     "end": 775,
-                                    "value": 119,
-                                    "raw": "0x77"
+                                    "value": 119
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -265,8 +262,7 @@
                                     "type": "Literal",
                                     "start": 810,
                                     "end": 812,
-                                    "value": 10,
-                                    "raw": "10"
+                                    "value": 10
                                   }
                                 ],
                                 "optional": false
@@ -279,8 +275,7 @@
                         "type": "Literal",
                         "start": 820,
                         "end": 875,
-                        "value": "Detachment when coercing start should throw TypeError",
-                        "raw": "\"Detachment when coercing start should throw TypeError\""
+                        "value": "Detachment when coercing start should throw TypeError"
                       }
                     ],
                     "optional": false

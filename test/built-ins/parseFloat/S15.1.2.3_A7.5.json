@@ -38,8 +38,7 @@
               "type": "Literal",
               "start": 326,
               "end": 338,
-              "value": "parseFloat",
-              "raw": "'parseFloat'"
+              "value": "parseFloat"
             }
           ],
           "optional": false
@@ -81,8 +80,7 @@
                     "type": "Literal",
                     "start": 378,
                     "end": 444,
-                    "value": "#1:this.propertyIsEnumerable('parseFloat') === false. Actual: ",
-                    "raw": "'#1:this.propertyIsEnumerable(\\'parseFloat\\') === false. Actual: '"
+                    "value": "#1:this.propertyIsEnumerable('parseFloat') === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -116,8 +114,7 @@
                           "type": "Literal",
                           "start": 474,
                           "end": 486,
-                          "value": "parseFloat",
-                          "raw": "'parseFloat'"
+                          "value": "parseFloat"
                         }
                       ],
                       "optional": false
@@ -210,8 +207,7 @@
                 "type": "Literal",
                 "start": 557,
                 "end": 569,
-                "value": "parseFloat",
-                "raw": "\"parseFloat\""
+                "value": "parseFloat"
               }
             },
             "consequent": {
@@ -297,8 +293,7 @@
                   "type": "Literal",
                   "start": 648,
                   "end": 746,
-                  "value": "#2: result = true; for (p in this) { if (p === \"parseFloat\") result = false; }  result === true;",
-                  "raw": "'#2: result = true; for (p in this) { if (p === \"parseFloat\") result = false; }  result === true;'"
+                  "value": "#2: result = true; for (p in this) { if (p === \"parseFloat\") result = false; }  result === true;"
                 }
               ]
             }

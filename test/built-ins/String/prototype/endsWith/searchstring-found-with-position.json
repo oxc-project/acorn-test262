@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 878,
             "end": 899,
-            "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "value": "The future is cool!"
           }
         }
       ],
@@ -72,15 +71,13 @@
                 "type": "Literal",
                 "start": 925,
                 "end": 937,
-                "value": "The future",
-                "raw": "'The future'"
+                "value": "The future"
               },
               {
                 "type": "Literal",
                 "start": 939,
                 "end": 941,
-                "value": 10,
-                "raw": "10"
+                "value": 10
               }
             ],
             "optional": false
@@ -89,8 +86,7 @@
             "type": "Literal",
             "start": 946,
             "end": 987,
-            "value": "str.endsWith(\"The future\", 10) === true",
-            "raw": "'str.endsWith(\"The future\", 10) === true'"
+            "value": "str.endsWith(\"The future\", 10) === true"
           }
         ],
         "optional": false
@@ -139,15 +135,13 @@
                 "type": "Literal",
                 "start": 1014,
                 "end": 1022,
-                "value": "future",
-                "raw": "'future'"
+                "value": "future"
               },
               {
                 "type": "Literal",
                 "start": 1024,
                 "end": 1026,
-                "value": 10,
-                "raw": "10"
+                "value": 10
               }
             ],
             "optional": false
@@ -156,8 +150,7 @@
             "type": "Literal",
             "start": 1031,
             "end": 1068,
-            "value": "str.endsWith(\"future\", 10) === true",
-            "raw": "'str.endsWith(\"future\", 10) === true'"
+            "value": "str.endsWith(\"future\", 10) === true"
           }
         ],
         "optional": false
@@ -206,8 +199,7 @@
                 "type": "Literal",
                 "start": 1095,
                 "end": 1106,
-                "value": " is cool!",
-                "raw": "' is cool!'"
+                "value": " is cool!"
               },
               {
                 "type": "MemberExpression",
@@ -235,8 +227,7 @@
             "type": "Literal",
             "start": 1123,
             "end": 1171,
-            "value": "str.endsWith(\" is cool!\", str.length) === true",
-            "raw": "'str.endsWith(\" is cool!\", str.length) === true'"
+            "value": "str.endsWith(\" is cool!\", str.length) === true"
           }
         ],
         "optional": false

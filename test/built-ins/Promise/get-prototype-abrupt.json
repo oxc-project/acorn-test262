@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 932,
             "end": 943,
-            "value": "prototype",
-            "raw": "'prototype'"
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",

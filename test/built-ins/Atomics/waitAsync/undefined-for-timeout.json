@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 735,
             "end": 745,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 802,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -140,8 +138,7 @@
                       "type": "Literal",
                       "start": 889,
                       "end": 890,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -390,15 +387,13 @@
                               "type": "Literal",
                               "start": 1079,
                               "end": 1080,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1082,
                               "end": 1083,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           ],
                           "optional": false
@@ -450,15 +445,13 @@
                               "type": "Literal",
                               "start": 1120,
                               "end": 1121,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1123,
                               "end": 1124,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Identifier",
@@ -516,15 +509,13 @@
                               "type": "Literal",
                               "start": 1172,
                               "end": 1173,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1175,
                               "end": 1176,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Identifier",
@@ -582,15 +573,13 @@
                               "type": "Literal",
                               "start": 1222,
                               "end": 1223,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1225,
                               "end": 1226,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Identifier",
@@ -688,8 +677,7 @@
                               "type": "Literal",
                               "start": 1301,
                               "end": 1302,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             "computed": true,
                             "optional": false
@@ -698,15 +686,13 @@
                             "type": "Literal",
                             "start": 1305,
                             "end": 1309,
-                            "value": "ok",
-                            "raw": "'ok'"
+                            "value": "ok"
                           },
                           {
                             "type": "Literal",
                             "start": 1311,
                             "end": 1345,
-                            "value": "The value of outcomes[0] is \"ok\"",
-                            "raw": "'The value of outcomes[0] is \"ok\"'"
+                            "value": "The value of outcomes[0] is \"ok\""
                           }
                         ],
                         "optional": false
@@ -754,8 +740,7 @@
                               "type": "Literal",
                               "start": 1378,
                               "end": 1379,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "computed": true,
                             "optional": false
@@ -764,15 +749,13 @@
                             "type": "Literal",
                             "start": 1382,
                             "end": 1386,
-                            "value": "ok",
-                            "raw": "'ok'"
+                            "value": "ok"
                           },
                           {
                             "type": "Literal",
                             "start": 1388,
                             "end": 1422,
-                            "value": "The value of outcomes[1] is \"ok\"",
-                            "raw": "'The value of outcomes[1] is \"ok\"'"
+                            "value": "The value of outcomes[1] is \"ok\""
                           }
                         ],
                         "optional": false
@@ -820,8 +803,7 @@
                               "type": "Literal",
                               "start": 1455,
                               "end": 1456,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             "computed": true,
                             "optional": false
@@ -830,15 +812,13 @@
                             "type": "Literal",
                             "start": 1459,
                             "end": 1463,
-                            "value": "ok",
-                            "raw": "'ok'"
+                            "value": "ok"
                           },
                           {
                             "type": "Literal",
                             "start": 1465,
                             "end": 1499,
-                            "value": "The value of outcomes[2] is \"ok\"",
-                            "raw": "'The value of outcomes[2] is \"ok\"'"
+                            "value": "The value of outcomes[2] is \"ok\""
                           }
                         ],
                         "optional": false
@@ -886,8 +866,7 @@
                               "type": "Literal",
                               "start": 1532,
                               "end": 1533,
-                              "value": 3,
-                              "raw": "3"
+                              "value": 3
                             },
                             "computed": true,
                             "optional": false
@@ -896,15 +875,13 @@
                             "type": "Literal",
                             "start": 1536,
                             "end": 1540,
-                            "value": "ok",
-                            "raw": "'ok'"
+                            "value": "ok"
                           },
                           {
                             "type": "Literal",
                             "start": 1542,
                             "end": 1576,
-                            "value": "The value of outcomes[3] is \"ok\"",
-                            "raw": "'The value of outcomes[3] is \"ok\"'"
+                            "value": "The value of outcomes[3] is \"ok\""
                           }
                         ],
                         "optional": false
@@ -980,8 +957,7 @@
             "type": "Literal",
             "start": 1626,
             "end": 1627,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 2189,
                       "end": 2192,
-                      "value": "A",
-                      "raw": "'A'"
+                      "value": "A"
                     }
                   }
                 ]
@@ -72,8 +71,7 @@
               "type": "Literal",
               "start": 2204,
               "end": 2207,
-              "value": "b",
-              "raw": "'b'"
+              "value": "b"
             },
             "kind": "method",
             "value": {
@@ -98,8 +96,7 @@
                       "type": "Literal",
                       "start": 2220,
                       "end": 2223,
-                      "value": "B",
-                      "raw": "'B'"
+                      "value": "B"
                     }
                   }
                 ]
@@ -141,8 +138,7 @@
                       "type": "Literal",
                       "start": 2249,
                       "end": 2252,
-                      "value": "C",
-                      "raw": "'C'"
+                      "value": "C"
                     }
                   }
                 ]
@@ -159,8 +155,7 @@
               "type": "Literal",
               "start": 2266,
               "end": 2269,
-              "value": "d",
-              "raw": "'d'"
+              "value": "d"
             },
             "kind": "method",
             "value": {
@@ -185,8 +180,7 @@
                       "type": "Literal",
                       "start": 2282,
                       "end": 2285,
-                      "value": "D",
-                      "raw": "'D'"
+                      "value": "D"
                     }
                   }
                 ]
@@ -254,15 +248,13 @@
             "type": "Literal",
             "start": 2315,
             "end": 2318,
-            "value": "A",
-            "raw": "'A'"
+            "value": "A"
           },
           {
             "type": "Literal",
             "start": 2320,
             "end": 2382,
-            "value": "`C.a()` returns `'A'`. Defined as `static a() { return 'A'}`",
-            "raw": "\"`C.a()` returns `'A'`. Defined as `static a() { return 'A'}`\""
+            "value": "`C.a()` returns `'A'`. Defined as `static a() { return 'A'}`"
           }
         ],
         "optional": false
@@ -326,15 +318,13 @@
             "type": "Literal",
             "start": 2409,
             "end": 2412,
-            "value": "B",
-            "raw": "'B'"
+            "value": "B"
           },
           {
             "type": "Literal",
             "start": 2414,
             "end": 2482,
-            "value": "`C.b()` returns `'B'`. Defined as `static ['b']() { return 'B'; }`",
-            "raw": "\"`C.b()` returns `'B'`. Defined as `static ['b']() { return 'B'; }`\""
+            "value": "`C.b()` returns `'B'`. Defined as `static ['b']() { return 'B'; }`"
           }
         ],
         "optional": false
@@ -398,15 +388,13 @@
             "type": "Literal",
             "start": 2509,
             "end": 2512,
-            "value": "C",
-            "raw": "'C'"
+            "value": "C"
           },
           {
             "type": "Literal",
             "start": 2514,
             "end": 2578,
-            "value": "`C.c()` returns `'C'`. Defined as `static c() { return 'C'; }`",
-            "raw": "\"`C.c()` returns `'C'`. Defined as `static c() { return 'C'; }`\""
+            "value": "`C.c()` returns `'C'`. Defined as `static c() { return 'C'; }`"
           }
         ],
         "optional": false
@@ -470,15 +458,13 @@
             "type": "Literal",
             "start": 2605,
             "end": 2608,
-            "value": "D",
-            "raw": "'D'"
+            "value": "D"
           },
           {
             "type": "Literal",
             "start": 2610,
             "end": 2678,
-            "value": "`C.d()` returns `'D'`. Defined as `static ['d']() { return 'D'; }`",
-            "raw": "\"`C.d()` returns `'D'`. Defined as `static ['d']() { return 'D'; }`\""
+            "value": "`C.d()` returns `'D'`. Defined as `static ['d']() { return 'D'; }`"
           }
         ],
         "optional": false

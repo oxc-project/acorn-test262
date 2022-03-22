@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 866,
             "end": 876,
-            "value": "findLast",
-            "raw": "\"findLast\""
+            "value": "findLast"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 926,
             "end": 932,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

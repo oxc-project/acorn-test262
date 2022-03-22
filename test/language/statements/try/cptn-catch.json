@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1018,
                 "end": 1058,
-                "value": "1; try { throw null; } catch (err) { }",
-                "raw": "'1; try { throw null; } catch (err) { }'"
+                "value": "1; try { throw null; } catch (err) { }"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 1095,
                 "end": 1138,
-                "value": "2; try { throw null; } catch (err) { 3; }",
-                "raw": "'2; try { throw null; } catch (err) { 3; }'"
+                "value": "2; try { throw null; } catch (err) { 3; }"
               }
             ],
             "optional": false
@@ -115,8 +113,7 @@
             "type": "Literal",
             "start": 1141,
             "end": 1142,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false

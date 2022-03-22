@@ -95,15 +95,13 @@
             "type": "Literal",
             "start": 298,
             "end": 313,
-            "value": "[object Null]",
-            "raw": "\"[object Null]\""
+            "value": "[object Null]"
           },
           {
             "type": "Literal",
             "start": 317,
             "end": 377,
-            "value": "Object.prototype.toString.call(null) returns [object Null]",
-            "raw": "\"Object.prototype.toString.call(null) returns [object Null]\""
+            "value": "Object.prototype.toString.call(null) returns [object Null]"
           }
         ],
         "optional": false

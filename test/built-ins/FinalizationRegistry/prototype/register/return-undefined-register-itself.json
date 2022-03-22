@@ -172,8 +172,7 @@
             "type": "Literal",
             "start": 1258,
             "end": 1275,
-            "value": "Register itself",
-            "raw": "'Register itself'"
+            "value": "Register itself"
           }
         ],
         "optional": false
@@ -256,8 +255,7 @@
             "type": "Literal",
             "start": 1369,
             "end": 1400,
-            "value": "Register itself with holdings",
-            "raw": "'Register itself with holdings'"
+            "value": "Register itself with holdings"
           }
         ],
         "optional": false
@@ -346,8 +344,7 @@
             "type": "Literal",
             "start": 1516,
             "end": 1567,
-            "value": "Register itself with holdings and unregisterToken",
-            "raw": "'Register itself with holdings and unregisterToken'"
+            "value": "Register itself with holdings and unregisterToken"
           }
         ],
         "optional": false

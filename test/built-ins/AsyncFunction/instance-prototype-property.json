@@ -86,8 +86,7 @@
             "type": "Literal",
             "start": 370,
             "end": 405,
-            "value": "foo.prototype should be undefined",
-            "raw": "'foo.prototype should be undefined'"
+            "value": "foo.prototype should be undefined"
           }
         ],
         "optional": false
@@ -142,8 +141,7 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 446,
-                  "value": "prototype",
-                  "raw": "'prototype'"
+                  "value": "prototype"
                 }
               ],
               "optional": false
@@ -153,8 +151,7 @@
             "type": "Literal",
             "start": 449,
             "end": 481,
-            "value": "foo.prototype should not exist",
-            "raw": "'foo.prototype should not exist'"
+            "value": "foo.prototype should not exist"
           }
         ],
         "optional": false

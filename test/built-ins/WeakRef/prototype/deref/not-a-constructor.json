@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 775,
             "end": 833,
-            "value": "isConstructor(WeakRef.prototype.deref) must return false",
-            "raw": "'isConstructor(WeakRef.prototype.deref) must return false'"
+            "value": "isConstructor(WeakRef.prototype.deref) must return false"
           }
         ],
         "optional": false
@@ -218,8 +217,7 @@
             "type": "Literal",
             "start": 918,
             "end": 979,
-            "value": "`let wr = new WeakRef({}); new wr.deref()` throws TypeError",
-            "raw": "'`let wr = new WeakRef({}); new wr.deref()` throws TypeError'"
+            "value": "`let wr = new WeakRef({}); new wr.deref()` throws TypeError"
           }
         ],
         "optional": false

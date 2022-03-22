@@ -56,15 +56,13 @@
                         "type": "Literal",
                         "start": 354,
                         "end": 359,
-                        "value": "key",
-                        "raw": "'key'"
+                        "value": "key"
                       },
                       {
                         "type": "Literal",
                         "start": 361,
                         "end": 368,
-                        "value": "value",
-                        "raw": "'value'"
+                        "value": "value"
                       }
                     ]
                   }
@@ -102,8 +100,7 @@
             "type": "Literal",
             "start": 396,
             "end": 401,
-            "value": "key",
-            "raw": "\"key\""
+            "value": "key"
           },
           {
             "type": "ObjectExpression",

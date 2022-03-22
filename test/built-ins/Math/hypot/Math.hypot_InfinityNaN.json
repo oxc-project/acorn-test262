@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 333,
             "end": 360,
-            "value": "Math.hypot(NaN, Infinity)",
-            "raw": "'Math.hypot(NaN, Infinity)'"
+            "value": "Math.hypot(NaN, Infinity)"
           }
         ],
         "optional": false

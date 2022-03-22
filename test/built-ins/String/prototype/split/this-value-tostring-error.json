@@ -71,8 +71,7 @@
                   "type": "Literal",
                   "start": 698,
                   "end": 700,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 }
               }
             }
@@ -147,8 +146,7 @@
                     "type": "Literal",
                     "start": 762,
                     "end": 779,
-                    "value": "ExpectedError: ",
-                    "raw": "\"ExpectedError: \""
+                    "value": "ExpectedError: "
                   },
                   "operator": "+",
                   "right": {
@@ -313,8 +311,7 @@
                       "type": "Literal",
                       "start": 939,
                       "end": 958,
-                      "value": "receiver.toString",
-                      "raw": "\"receiver.toString\""
+                      "value": "receiver.toString"
                     }
                   ]
                 }
@@ -535,8 +532,7 @@
                     "type": "Literal",
                     "start": 1141,
                     "end": 1229,
-                    "value": "ToString should not be called on the receiver when the separator has a @@split method.",
-                    "raw": "'ToString should not be called on the receiver when the separator has a @@split method.'"
+                    "value": "ToString should not be called on the receiver when the separator has a @@split method."
                   }
                 ],
                 "optional": false
@@ -646,8 +642,7 @@
                       "type": "Literal",
                       "start": 1351,
                       "end": 1382,
-                      "value": "separator[Symbol.toPrimitive]",
-                      "raw": "\"separator[Symbol.toPrimitive]\""
+                      "value": "separator[Symbol.toPrimitive]"
                     }
                   ]
                 }
@@ -718,8 +713,7 @@
                       "type": "Literal",
                       "start": 1458,
                       "end": 1478,
-                      "value": "separator.toString",
-                      "raw": "\"separator.toString\""
+                      "value": "separator.toString"
                     }
                   ]
                 }
@@ -790,8 +784,7 @@
                       "type": "Literal",
                       "start": 1553,
                       "end": 1572,
-                      "value": "separator.valueOf",
-                      "raw": "\"separator.valueOf\""
+                      "value": "separator.valueOf"
                     }
                   ]
                 }
@@ -913,8 +906,7 @@
             "type": "Literal",
             "start": 1695,
             "end": 1780,
-            "value": "ToString should be called on the receiver before processing the separator or limit.",
-            "raw": "'ToString should be called on the receiver before processing the separator or limit.'"
+            "value": "ToString should be called on the receiver before processing the separator or limit."
           }
         ],
         "optional": false

@@ -20,13 +20,12 @@
         "end": 944,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 881,
-            "end": 902,
-            "static": false,
+            "end": 901,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 881,
               "end": 883,
               "name": "m"
@@ -44,8 +43,7 @@
                 "type": "Literal",
                 "start": 892,
                 "end": 901,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             }
           },
@@ -93,14 +91,14 @@
                           "start": 928,
                           "end": 932
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 933,
                           "end": 935,
                           "name": "m"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "arguments": [],
                       "optional": false
@@ -202,8 +200,7 @@
             "type": "Literal",
             "start": 992,
             "end": 1001,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Math.atan2) must return false",
-            "raw": "'isConstructor(Math.atan2) must return false'"
+            "value": "isConstructor(Math.atan2) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 838,
             "end": 875,
-            "value": "`new Math.atan2()` throws TypeError",
-            "raw": "'`new Math.atan2()` throws TypeError'"
+            "value": "`new Math.atan2()` throws TypeError"
           }
         ],
         "optional": false

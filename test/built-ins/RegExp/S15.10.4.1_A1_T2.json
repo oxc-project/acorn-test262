@@ -23,7 +23,6 @@
             "start": 484,
             "end": 489,
             "value": {},
-            "raw": "/\\t/m",
             "regex": {
               "pattern": "\\t",
               "flags": "m"
@@ -147,8 +146,7 @@
             "type": "Literal",
             "start": 584,
             "end": 661,
-            "value": "The value of __re.source is expected to equal the value of __pattern.source",
-            "raw": "'The value of __re.source is expected to equal the value of __pattern.source'"
+            "value": "The value of __re.source is expected to equal the value of __pattern.source"
           }
         ],
         "optional": false
@@ -224,8 +222,7 @@
             "type": "Literal",
             "start": 727,
             "end": 810,
-            "value": "The value of __re.multiline is expected to equal the value of __pattern.multiline",
-            "raw": "'The value of __re.multiline is expected to equal the value of __pattern.multiline'"
+            "value": "The value of __re.multiline is expected to equal the value of __pattern.multiline"
           }
         ],
         "optional": false
@@ -301,8 +298,7 @@
             "type": "Literal",
             "start": 870,
             "end": 947,
-            "value": "The value of __re.global is expected to equal the value of __pattern.global",
-            "raw": "'The value of __re.global is expected to equal the value of __pattern.global'"
+            "value": "The value of __re.global is expected to equal the value of __pattern.global"
           }
         ],
         "optional": false
@@ -378,8 +374,7 @@
             "type": "Literal",
             "start": 1015,
             "end": 1100,
-            "value": "The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase",
-            "raw": "'The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase'"
+            "value": "The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase"
           }
         ],
         "optional": false

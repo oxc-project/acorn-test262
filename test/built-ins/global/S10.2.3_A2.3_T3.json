@@ -154,16 +154,14 @@
                                                                               "type": "Literal",
                                                                               "start": 305,
                                                                               "end": 318,
-                                                                              "value": "//CHECK#1\n",
-                                                                              "raw": "'//CHECK#1\\n'"
+                                                                              "value": "//CHECK#1\n"
                                                                             },
                                                                             "operator": "+",
                                                                             "right": {
                                                                               "type": "Literal",
                                                                               "start": 320,
                                                                               "end": 345,
-                                                                              "value": "for (var x in this) {\n",
-                                                                              "raw": "'for (var x in this) {\\n'"
+                                                                              "value": "for (var x in this) {\n"
                                                                             }
                                                                           },
                                                                           "operator": "+",
@@ -171,8 +169,7 @@
                                                                             "type": "Literal",
                                                                             "start": 347,
                                                                             "end": 378,
-                                                                            "value": "  if ( x === 'Object' ) {\n",
-                                                                            "raw": "'  if ( x === \\'Object\\' ) {\\n'"
+                                                                            "value": "  if ( x === 'Object' ) {\n"
                                                                           }
                                                                         },
                                                                         "operator": "+",
@@ -180,8 +177,7 @@
                                                                           "type": "Literal",
                                                                           "start": 380,
                                                                           "end": 453,
-                                                                          "value": "    throw new Test262Error(\"#1: 'Object' have attribute DontEnum\");\n",
-                                                                          "raw": "'    throw new Test262Error(\"#1: \\'Object\\' have attribute DontEnum\");\\n'"
+                                                                          "value": "    throw new Test262Error(\"#1: 'Object' have attribute DontEnum\");\n"
                                                                         }
                                                                       },
                                                                       "operator": "+",
@@ -189,8 +185,7 @@
                                                                         "type": "Literal",
                                                                         "start": 455,
                                                                         "end": 494,
-                                                                        "value": "  } else if ( x === 'Function') {\n",
-                                                                        "raw": "'  } else if ( x === \\'Function\\') {\\n'"
+                                                                        "value": "  } else if ( x === 'Function') {\n"
                                                                       }
                                                                     },
                                                                     "operator": "+",
@@ -198,8 +193,7 @@
                                                                       "type": "Literal",
                                                                       "start": 496,
                                                                       "end": 571,
-                                                                      "value": "    throw new Test262Error(\"#1: 'Function' have attribute DontEnum\");\n",
-                                                                      "raw": "'    throw new Test262Error(\"#1: \\'Function\\' have attribute DontEnum\");\\n'"
+                                                                      "value": "    throw new Test262Error(\"#1: 'Function' have attribute DontEnum\");\n"
                                                                     }
                                                                   },
                                                                   "operator": "+",
@@ -207,8 +201,7 @@
                                                                     "type": "Literal",
                                                                     "start": 573,
                                                                     "end": 611,
-                                                                    "value": "  } else if ( x === 'String' ) {\n",
-                                                                    "raw": "'  } else if ( x === \\'String\\' ) {\\n'"
+                                                                    "value": "  } else if ( x === 'String' ) {\n"
                                                                   }
                                                                 },
                                                                 "operator": "+",
@@ -216,8 +209,7 @@
                                                                   "type": "Literal",
                                                                   "start": 613,
                                                                   "end": 686,
-                                                                  "value": "    throw new Test262Error(\"#1: 'String' have attribute DontEnum\");\n",
-                                                                  "raw": "'    throw new Test262Error(\"#1: \\'String\\' have attribute DontEnum\");\\n'"
+                                                                  "value": "    throw new Test262Error(\"#1: 'String' have attribute DontEnum\");\n"
                                                                 }
                                                               },
                                                               "operator": "+",
@@ -225,8 +217,7 @@
                                                                 "type": "Literal",
                                                                 "start": 688,
                                                                 "end": 726,
-                                                                "value": "  } else if ( x === 'Number' ) {\n",
-                                                                "raw": "'  } else if ( x === \\'Number\\' ) {\\n'"
+                                                                "value": "  } else if ( x === 'Number' ) {\n"
                                                               }
                                                             },
                                                             "operator": "+",
@@ -234,8 +225,7 @@
                                                               "type": "Literal",
                                                               "start": 728,
                                                               "end": 801,
-                                                              "value": "    throw new Test262Error(\"#1: 'Number' have attribute DontEnum\");\n",
-                                                              "raw": "'    throw new Test262Error(\"#1: \\'Number\\' have attribute DontEnum\");\\n'"
+                                                              "value": "    throw new Test262Error(\"#1: 'Number' have attribute DontEnum\");\n"
                                                             }
                                                           },
                                                           "operator": "+",
@@ -243,8 +233,7 @@
                                                             "type": "Literal",
                                                             "start": 803,
                                                             "end": 840,
-                                                            "value": "  } else if ( x === 'Array' ) {\n",
-                                                            "raw": "'  } else if ( x === \\'Array\\' ) {\\n'"
+                                                            "value": "  } else if ( x === 'Array' ) {\n"
                                                           }
                                                         },
                                                         "operator": "+",
@@ -252,8 +241,7 @@
                                                           "type": "Literal",
                                                           "start": 842,
                                                           "end": 914,
-                                                          "value": "    throw new Test262Error(\"#1: 'Array' have attribute DontEnum\");\n",
-                                                          "raw": "'    throw new Test262Error(\"#1: \\'Array\\' have attribute DontEnum\");\\n'"
+                                                          "value": "    throw new Test262Error(\"#1: 'Array' have attribute DontEnum\");\n"
                                                         }
                                                       },
                                                       "operator": "+",
@@ -261,8 +249,7 @@
                                                         "type": "Literal",
                                                         "start": 916,
                                                         "end": 955,
-                                                        "value": "  } else if ( x === 'Boolean' ) {\n",
-                                                        "raw": "'  } else if ( x === \\'Boolean\\' ) {\\n'"
+                                                        "value": "  } else if ( x === 'Boolean' ) {\n"
                                                       }
                                                     },
                                                     "operator": "+",
@@ -270,8 +257,7 @@
                                                       "type": "Literal",
                                                       "start": 957,
                                                       "end": 1031,
-                                                      "value": "    throw new Test262Error(\"#1: 'Boolean' have attribute DontEnum\");\n",
-                                                      "raw": "'    throw new Test262Error(\"#1: \\'Boolean\\' have attribute DontEnum\");\\n'"
+                                                      "value": "    throw new Test262Error(\"#1: 'Boolean' have attribute DontEnum\");\n"
                                                     }
                                                   },
                                                   "operator": "+",
@@ -279,8 +265,7 @@
                                                     "type": "Literal",
                                                     "start": 1033,
                                                     "end": 1069,
-                                                    "value": "  } else if ( x === 'Date' ) {\n",
-                                                    "raw": "'  } else if ( x === \\'Date\\' ) {\\n'"
+                                                    "value": "  } else if ( x === 'Date' ) {\n"
                                                   }
                                                 },
                                                 "operator": "+",
@@ -288,8 +273,7 @@
                                                   "type": "Literal",
                                                   "start": 1071,
                                                   "end": 1142,
-                                                  "value": "    throw new Test262Error(\"#1: 'Date' have attribute DontEnum\");\n",
-                                                  "raw": "'    throw new Test262Error(\"#1: \\'Date\\' have attribute DontEnum\");\\n'"
+                                                  "value": "    throw new Test262Error(\"#1: 'Date' have attribute DontEnum\");\n"
                                                 }
                                               },
                                               "operator": "+",
@@ -297,8 +281,7 @@
                                                 "type": "Literal",
                                                 "start": 1144,
                                                 "end": 1182,
-                                                "value": "  } else if ( x === 'RegExp' ) {\n",
-                                                "raw": "'  } else if ( x === \\'RegExp\\' ) {\\n'"
+                                                "value": "  } else if ( x === 'RegExp' ) {\n"
                                               }
                                             },
                                             "operator": "+",
@@ -306,8 +289,7 @@
                                               "type": "Literal",
                                               "start": 1184,
                                               "end": 1257,
-                                              "value": "    throw new Test262Error(\"#1: 'RegExp' have attribute DontEnum\");\n",
-                                              "raw": "'    throw new Test262Error(\"#1: \\'RegExp\\' have attribute DontEnum\");\\n'"
+                                              "value": "    throw new Test262Error(\"#1: 'RegExp' have attribute DontEnum\");\n"
                                             }
                                           },
                                           "operator": "+",
@@ -315,8 +297,7 @@
                                             "type": "Literal",
                                             "start": 1259,
                                             "end": 1296,
-                                            "value": "  } else if ( x === 'Error' ) {\n",
-                                            "raw": "'  } else if ( x === \\'Error\\' ) {\\n'"
+                                            "value": "  } else if ( x === 'Error' ) {\n"
                                           }
                                         },
                                         "operator": "+",
@@ -324,8 +305,7 @@
                                           "type": "Literal",
                                           "start": 1298,
                                           "end": 1370,
-                                          "value": "    throw new Test262Error(\"#1: 'Error' have attribute DontEnum\");\n",
-                                          "raw": "'    throw new Test262Error(\"#1: \\'Error\\' have attribute DontEnum\");\\n'"
+                                          "value": "    throw new Test262Error(\"#1: 'Error' have attribute DontEnum\");\n"
                                         }
                                       },
                                       "operator": "+",
@@ -333,8 +313,7 @@
                                         "type": "Literal",
                                         "start": 1372,
                                         "end": 1413,
-                                        "value": "  } else if ( x === 'EvalError' ) {\n",
-                                        "raw": "'  } else if ( x === \\'EvalError\\' ) {\\n'"
+                                        "value": "  } else if ( x === 'EvalError' ) {\n"
                                       }
                                     },
                                     "operator": "+",
@@ -342,8 +321,7 @@
                                       "type": "Literal",
                                       "start": 1415,
                                       "end": 1491,
-                                      "value": "    throw new Test262Error(\"#1: 'EvalError' have attribute DontEnum\");\n",
-                                      "raw": "'    throw new Test262Error(\"#1: \\'EvalError\\' have attribute DontEnum\");\\n'"
+                                      "value": "    throw new Test262Error(\"#1: 'EvalError' have attribute DontEnum\");\n"
                                     }
                                   },
                                   "operator": "+",
@@ -351,8 +329,7 @@
                                     "type": "Literal",
                                     "start": 1493,
                                     "end": 1535,
-                                    "value": "  } else if ( x === 'RangeError' ) {\n",
-                                    "raw": "'  } else if ( x === \\'RangeError\\' ) {\\n'"
+                                    "value": "  } else if ( x === 'RangeError' ) {\n"
                                   }
                                 },
                                 "operator": "+",
@@ -360,8 +337,7 @@
                                   "type": "Literal",
                                   "start": 1537,
                                   "end": 1614,
-                                  "value": "    throw new Test262Error(\"#1: 'RangeError' have attribute DontEnum\");\n",
-                                  "raw": "'    throw new Test262Error(\"#1: \\'RangeError\\' have attribute DontEnum\");\\n'"
+                                  "value": "    throw new Test262Error(\"#1: 'RangeError' have attribute DontEnum\");\n"
                                 }
                               },
                               "operator": "+",
@@ -369,8 +345,7 @@
                                 "type": "Literal",
                                 "start": 1616,
                                 "end": 1662,
-                                "value": "  } else if ( x === 'ReferenceError' ) {\n",
-                                "raw": "'  } else if ( x === \\'ReferenceError\\' ) {\\n'"
+                                "value": "  } else if ( x === 'ReferenceError' ) {\n"
                               }
                             },
                             "operator": "+",
@@ -378,8 +353,7 @@
                               "type": "Literal",
                               "start": 1664,
                               "end": 1745,
-                              "value": "    throw new Test262Error(\"#1: 'ReferenceError' have attribute DontEnum\");\n",
-                              "raw": "'    throw new Test262Error(\"#1: \\'ReferenceError\\' have attribute DontEnum\");\\n'"
+                              "value": "    throw new Test262Error(\"#1: 'ReferenceError' have attribute DontEnum\");\n"
                             }
                           },
                           "operator": "+",
@@ -387,8 +361,7 @@
                             "type": "Literal",
                             "start": 1747,
                             "end": 1790,
-                            "value": "  } else if ( x === 'SyntaxError' ) {\n",
-                            "raw": "'  } else if ( x === \\'SyntaxError\\' ) {\\n'"
+                            "value": "  } else if ( x === 'SyntaxError' ) {\n"
                           }
                         },
                         "operator": "+",
@@ -396,8 +369,7 @@
                           "type": "Literal",
                           "start": 1792,
                           "end": 1870,
-                          "value": "    throw new Test262Error(\"#1: 'SyntaxError' have attribute DontEnum\");\n",
-                          "raw": "'    throw new Test262Error(\"#1: \\'SyntaxError\\' have attribute DontEnum\");\\n'"
+                          "value": "    throw new Test262Error(\"#1: 'SyntaxError' have attribute DontEnum\");\n"
                         }
                       },
                       "operator": "+",
@@ -405,8 +377,7 @@
                         "type": "Literal",
                         "start": 1872,
                         "end": 1913,
-                        "value": "  } else if ( x === 'TypeError' ) {\n",
-                        "raw": "'  } else if ( x === \\'TypeError\\' ) {\\n'"
+                        "value": "  } else if ( x === 'TypeError' ) {\n"
                       }
                     },
                     "operator": "+",
@@ -414,8 +385,7 @@
                       "type": "Literal",
                       "start": 1915,
                       "end": 1991,
-                      "value": "    throw new Test262Error(\"#1: 'TypeError' have attribute DontEnum\");\n",
-                      "raw": "'    throw new Test262Error(\"#1: \\'TypeError\\' have attribute DontEnum\");\\n'"
+                      "value": "    throw new Test262Error(\"#1: 'TypeError' have attribute DontEnum\");\n"
                     }
                   },
                   "operator": "+",
@@ -423,8 +393,7 @@
                     "type": "Literal",
                     "start": 1993,
                     "end": 2033,
-                    "value": "  } else if ( x === 'URIError' ) {\n",
-                    "raw": "'  } else if ( x === \\'URIError\\' ) {\\n'"
+                    "value": "  } else if ( x === 'URIError' ) {\n"
                   }
                 },
                 "operator": "+",
@@ -432,8 +401,7 @@
                   "type": "Literal",
                   "start": 2035,
                   "end": 2110,
-                  "value": "    throw new Test262Error(\"#1: 'URIError' have attribute DontEnum\");\n",
-                  "raw": "'    throw new Test262Error(\"#1: \\'URIError\\' have attribute DontEnum\");\\n'"
+                  "value": "    throw new Test262Error(\"#1: 'URIError' have attribute DontEnum\");\n"
                 }
               },
               "operator": "+",
@@ -441,8 +409,7 @@
                 "type": "Literal",
                 "start": 2112,
                 "end": 2119,
-                "value": "  }\n",
-                "raw": "'  }\\n'"
+                "value": "  }\n"
               }
             },
             "operator": "+",
@@ -450,8 +417,7 @@
               "type": "Literal",
               "start": 2121,
               "end": 2126,
-              "value": "}\n",
-              "raw": "'}\\n'"
+              "value": "}\n"
             }
           }
         }

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1725,
             "end": 1726,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1741,
             "end": 1742,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -107,8 +105,7 @@
                         "type": "Literal",
                         "start": 1780,
                         "end": 1781,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   },
@@ -148,8 +145,7 @@
                         "type": "Literal",
                         "start": 1823,
                         "end": 1824,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -267,8 +263,7 @@
                       "type": "Literal",
                       "start": 1911,
                       "end": 1912,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "update": null,
@@ -362,8 +357,7 @@
             "type": "Literal",
             "start": 1976,
             "end": 1977,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -407,15 +401,13 @@
             "type": "Literal",
             "start": 2005,
             "end": 2006,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2008,
             "end": 2057,
-            "value": "Iterator is closed following abrupt completion.",
-            "raw": "'Iterator is closed following abrupt completion.'"
+            "value": "Iterator is closed following abrupt completion."
           }
         ],
         "optional": false

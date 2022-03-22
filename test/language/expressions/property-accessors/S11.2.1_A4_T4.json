@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 302,
           "end": 310,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -69,8 +68,7 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 387,
-                "value": "#1: typeof Array.prototype === \"object\". Actual: ",
-                "raw": "'#1: typeof Array.prototype === \"object\". Actual: '"
+                "value": "#1: typeof Array.prototype === \"object\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -138,8 +136,7 @@
               "type": "Literal",
               "start": 435,
               "end": 446,
-              "value": "prototype",
-              "raw": "'prototype'"
+              "value": "prototype"
             },
             "computed": true,
             "optional": false
@@ -150,8 +147,7 @@
           "type": "Literal",
           "start": 452,
           "end": 460,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -177,8 +173,7 @@
                 "type": "Literal",
                 "start": 486,
                 "end": 540,
-                "value": "#2: typeof Array[\"prototype\"] === \"object\". Actual: ",
-                "raw": "'#2: typeof Array[\"prototype\"] === \"object\". Actual: '"
+                "value": "#2: typeof Array[\"prototype\"] === \"object\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -205,8 +200,7 @@
                       "type": "Literal",
                       "start": 557,
                       "end": 568,
-                      "value": "prototype",
-                      "raw": "\"prototype\""
+                      "value": "prototype"
                     },
                     "computed": true,
                     "optional": false
@@ -258,8 +252,7 @@
           "type": "Literal",
           "start": 603,
           "end": 611,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -285,8 +278,7 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 685,
-                "value": "#3: typeof Array.length === \"number\". Actual: ",
-                "raw": "'#3: typeof Array.length === \"number\". Actual: '"
+                "value": "#3: typeof Array.length === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -354,8 +346,7 @@
               "type": "Literal",
               "start": 730,
               "end": 738,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             },
             "computed": true,
             "optional": false
@@ -366,8 +357,7 @@
           "type": "Literal",
           "start": 744,
           "end": 752,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -393,8 +383,7 @@
                 "type": "Literal",
                 "start": 778,
                 "end": 829,
-                "value": "#4: typeof Array[\"length\"] === \"number\". Actual: ",
-                "raw": "'#4: typeof Array[\"length\"] === \"number\". Actual: '"
+                "value": "#4: typeof Array[\"length\"] === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -421,8 +410,7 @@
                       "type": "Literal",
                       "start": 846,
                       "end": 854,
-                      "value": "length",
-                      "raw": "\"length\""
+                      "value": "length"
                     },
                     "computed": true,
                     "optional": false
@@ -487,8 +475,7 @@
           "type": "Literal",
           "start": 904,
           "end": 914,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -514,8 +501,7 @@
                 "type": "Literal",
                 "start": 940,
                 "end": 1005,
-                "value": "#5: typeof Array.prototype.constructor === \"function\". Actual: ",
-                "raw": "'#5: typeof Array.prototype.constructor === \"function\". Actual: '"
+                "value": "#5: typeof Array.prototype.constructor === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -609,8 +595,7 @@
               "type": "Literal",
               "start": 1075,
               "end": 1088,
-              "value": "constructor",
-              "raw": "'constructor'"
+              "value": "constructor"
             },
             "computed": true,
             "optional": false
@@ -621,8 +606,7 @@
           "type": "Literal",
           "start": 1094,
           "end": 1104,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -648,8 +632,7 @@
                 "type": "Literal",
                 "start": 1130,
                 "end": 1198,
-                "value": "#6: typeof Array.prototype[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#6: typeof Array.prototype[\"constructor\"] === \"function\". Actual: '"
+                "value": "#6: typeof Array.prototype[\"constructor\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -689,8 +672,7 @@
                       "type": "Literal",
                       "start": 1225,
                       "end": 1238,
-                      "value": "constructor",
-                      "raw": "\"constructor\""
+                      "value": "constructor"
                     },
                     "computed": true,
                     "optional": false
@@ -755,8 +737,7 @@
           "type": "Literal",
           "start": 1285,
           "end": 1295,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -782,8 +763,7 @@
                 "type": "Literal",
                 "start": 1321,
                 "end": 1383,
-                "value": "#7: typeof Array.prototype.toString === \"function\". Actual: ",
-                "raw": "'#7: typeof Array.prototype.toString === \"function\". Actual: '"
+                "value": "#7: typeof Array.prototype.toString === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -877,8 +857,7 @@
               "type": "Literal",
               "start": 1450,
               "end": 1460,
-              "value": "toString",
-              "raw": "'toString'"
+              "value": "toString"
             },
             "computed": true,
             "optional": false
@@ -889,8 +868,7 @@
           "type": "Literal",
           "start": 1466,
           "end": 1476,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -916,8 +894,7 @@
                 "type": "Literal",
                 "start": 1502,
                 "end": 1567,
-                "value": "#8: typeof Array.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#8: typeof Array.prototype[\"toString\"] === \"function\". Actual: '"
+                "value": "#8: typeof Array.prototype[\"toString\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -957,8 +934,7 @@
                       "type": "Literal",
                       "start": 1594,
                       "end": 1604,
-                      "value": "toString",
-                      "raw": "\"toString\""
+                      "value": "toString"
                     },
                     "computed": true,
                     "optional": false
@@ -1023,8 +999,7 @@
           "type": "Literal",
           "start": 1647,
           "end": 1657,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1050,8 +1025,7 @@
                 "type": "Literal",
                 "start": 1683,
                 "end": 1741,
-                "value": "#9: typeof Array.prototype.join === \"function\". Actual: ",
-                "raw": "'#9: typeof Array.prototype.join === \"function\". Actual: '"
+                "value": "#9: typeof Array.prototype.join === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1145,8 +1119,7 @@
               "type": "Literal",
               "start": 1804,
               "end": 1810,
-              "value": "join",
-              "raw": "'join'"
+              "value": "join"
             },
             "computed": true,
             "optional": false
@@ -1157,8 +1130,7 @@
           "type": "Literal",
           "start": 1816,
           "end": 1826,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1184,8 +1156,7 @@
                 "type": "Literal",
                 "start": 1852,
                 "end": 1914,
-                "value": "#10: typeof Array.prototype[\"join\"] === \"function\". Actual: ",
-                "raw": "'#10: typeof Array.prototype[\"join\"] === \"function\". Actual: '"
+                "value": "#10: typeof Array.prototype[\"join\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1225,8 +1196,7 @@
                       "type": "Literal",
                       "start": 1941,
                       "end": 1947,
-                      "value": "join",
-                      "raw": "\"join\""
+                      "value": "join"
                     },
                     "computed": true,
                     "optional": false
@@ -1291,8 +1261,7 @@
           "type": "Literal",
           "start": 1993,
           "end": 2003,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1318,8 +1287,7 @@
                 "type": "Literal",
                 "start": 2029,
                 "end": 2091,
-                "value": "#11: typeof Array.prototype.reverse === \"function\". Actual: ",
-                "raw": "'#11: typeof Array.prototype.reverse === \"function\". Actual: '"
+                "value": "#11: typeof Array.prototype.reverse === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1413,8 +1381,7 @@
               "type": "Literal",
               "start": 2157,
               "end": 2166,
-              "value": "reverse",
-              "raw": "'reverse'"
+              "value": "reverse"
             },
             "computed": true,
             "optional": false
@@ -1425,8 +1392,7 @@
           "type": "Literal",
           "start": 2172,
           "end": 2182,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1452,8 +1418,7 @@
                 "type": "Literal",
                 "start": 2208,
                 "end": 2273,
-                "value": "#12: typeof Array.prototype[\"reverse\"] === \"function\". Actual: ",
-                "raw": "'#12: typeof Array.prototype[\"reverse\"] === \"function\". Actual: '"
+                "value": "#12: typeof Array.prototype[\"reverse\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1493,8 +1458,7 @@
                       "type": "Literal",
                       "start": 2300,
                       "end": 2309,
-                      "value": "reverse",
-                      "raw": "\"reverse\""
+                      "value": "reverse"
                     },
                     "computed": true,
                     "optional": false
@@ -1559,8 +1523,7 @@
           "type": "Literal",
           "start": 2352,
           "end": 2362,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1586,8 +1549,7 @@
                 "type": "Literal",
                 "start": 2388,
                 "end": 2447,
-                "value": "#13: typeof Array.prototype.sort === \"function\". Actual: ",
-                "raw": "'#13: typeof Array.prototype.sort === \"function\". Actual: '"
+                "value": "#13: typeof Array.prototype.sort === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1681,8 +1643,7 @@
               "type": "Literal",
               "start": 2510,
               "end": 2516,
-              "value": "sort",
-              "raw": "'sort'"
+              "value": "sort"
             },
             "computed": true,
             "optional": false
@@ -1693,8 +1654,7 @@
           "type": "Literal",
           "start": 2522,
           "end": 2532,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1720,8 +1680,7 @@
                 "type": "Literal",
                 "start": 2558,
                 "end": 2620,
-                "value": "#14: typeof Array.prototype[\"sort\"] === \"function\". Actual: ",
-                "raw": "'#14: typeof Array.prototype[\"sort\"] === \"function\". Actual: '"
+                "value": "#14: typeof Array.prototype[\"sort\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1761,8 +1720,7 @@
                       "type": "Literal",
                       "start": 2647,
                       "end": 2653,
-                      "value": "sort",
-                      "raw": "\"sort\""
+                      "value": "sort"
                     },
                     "computed": true,
                     "optional": false

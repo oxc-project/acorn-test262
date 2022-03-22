@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 456,
-                "value": "hello world",
-                "raw": "\"hello world\""
+                "value": "hello world"
               }
             ],
             "optional": false
@@ -100,8 +99,7 @@
             "type": "Literal",
             "start": 501,
             "end": 514,
-            "value": "s[Infinity]",
-            "raw": "'s[Infinity]'"
+            "value": "s[Infinity]"
           }
         ],
         "optional": false

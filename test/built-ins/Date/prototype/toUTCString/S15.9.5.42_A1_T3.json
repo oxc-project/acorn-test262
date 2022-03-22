@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 346,
                   "end": 359,
-                  "value": "toUTCString",
-                  "raw": "'toUTCString'"
+                  "value": "toUTCString"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 364,
             "end": 455,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('toUTCString') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'toUTCString\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('toUTCString') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 517,
                   "end": 530,
-                  "value": "toUTCString",
-                  "raw": "\"toUTCString\""
+                  "value": "toUTCString"
                 },
                 {
                   "type": "Literal",
                   "start": 532,
                   "end": 569,
-                  "value": "The value of x is not \"toUTCString\"",
-                  "raw": "'The value of x is not \"toUTCString\"'"
+                  "value": "The value of x is not \"toUTCString\""
                 }
               ],
               "optional": false

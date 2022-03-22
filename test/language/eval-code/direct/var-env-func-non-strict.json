@@ -68,8 +68,7 @@
                         "type": "Literal",
                         "start": 377,
                         "end": 396,
-                        "value": "function fun() {}",
-                        "raw": "'function fun() {}'"
+                        "value": "function fun() {}"
                       }
                     ],
                     "optional": false
@@ -151,8 +150,7 @@
             "type": "Literal",
             "start": 466,
             "end": 476,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -203,8 +201,7 @@
             "type": "Literal",
             "start": 508,
             "end": 519,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false

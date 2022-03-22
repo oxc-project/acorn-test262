@@ -72,8 +72,7 @@
                             "type": "Literal",
                             "start": 805,
                             "end": 806,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Identifier",
@@ -89,8 +88,7 @@
                         "type": "Literal",
                         "start": 813,
                         "end": 831,
-                        "value": "typeof x; let x;",
-                        "raw": "'typeof x; let x;'"
+                        "value": "typeof x; let x;"
                       }
                     ],
                     "optional": false

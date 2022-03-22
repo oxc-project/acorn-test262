@@ -58,8 +58,7 @@
                         "type": "Literal",
                         "start": 699,
                         "end": 700,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -334,8 +333,7 @@
                           "type": "Literal",
                           "start": 909,
                           "end": 910,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ]
                     }
@@ -471,15 +469,13 @@
                         "type": "Literal",
                         "start": 1003,
                         "end": 1004,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1006,
                         "end": 1039,
-                        "value": "The value of result.length is 0",
-                        "raw": "'The value of result.length is 0'"
+                        "value": "The value of result.length is 0"
                       }
                     ],
                     "optional": false
@@ -555,8 +551,7 @@
                         "type": "Literal",
                         "start": 1094,
                         "end": 1176,
-                        "value": "The value of result.buffer is expected to not equal the value of `sample.buffer`",
-                        "raw": "'The value of result.buffer is expected to not equal the value of `sample.buffer`'"
+                        "value": "The value of result.buffer is expected to not equal the value of `sample.buffer`"
                       }
                     ],
                     "optional": false
@@ -606,8 +601,7 @@
                         "type": "Literal",
                         "start": 1213,
                         "end": 1276,
-                        "value": "The value of `result` is expected to equal the value of other",
-                        "raw": "'The value of `result` is expected to equal the value of other'"
+                        "value": "The value of `result` is expected to equal the value of other"
                       }
                     ],
                     "optional": false
@@ -651,15 +645,13 @@
                         "type": "Literal",
                         "start": 1307,
                         "end": 1308,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1310,
                         "end": 1339,
-                        "value": "The value of `counter` is 1",
-                        "raw": "'The value of `counter` is 1'"
+                        "value": "The value of `counter` is 1"
                       }
                     ],
                     "optional": false
@@ -695,8 +687,7 @@
                           "type": "Literal",
                           "start": 1361,
                           "end": 1362,
-                          "value": 4,
-                          "raw": "4"
+                          "value": 4
                         }
                       ]
                     }
@@ -781,15 +772,13 @@
                           "type": "Literal",
                           "start": 1418,
                           "end": 1419,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         {
                           "type": "Literal",
                           "start": 1421,
                           "end": 1422,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       ],
                       "optional": false
@@ -847,15 +836,13 @@
                         "type": "Literal",
                         "start": 1473,
                         "end": 1474,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1476,
                         "end": 1509,
-                        "value": "The value of result.length is 0",
-                        "raw": "'The value of result.length is 0'"
+                        "value": "The value of result.length is 0"
                       }
                     ],
                     "optional": false
@@ -931,8 +918,7 @@
                         "type": "Literal",
                         "start": 1577,
                         "end": 1659,
-                        "value": "The value of result.buffer is expected to not equal the value of `sample.buffer`",
-                        "raw": "'The value of result.buffer is expected to not equal the value of `sample.buffer`'"
+                        "value": "The value of result.buffer is expected to not equal the value of `sample.buffer`"
                       }
                     ],
                     "optional": false
@@ -995,8 +981,7 @@
                         "type": "Literal",
                         "start": 1708,
                         "end": 1778,
-                        "value": "The value of result.constructor is expected to equal the value of TA",
-                        "raw": "'The value of result.constructor is expected to equal the value of TA'"
+                        "value": "The value of result.constructor is expected to equal the value of TA"
                       }
                     ],
                     "optional": false
@@ -1040,15 +1025,13 @@
                         "type": "Literal",
                         "start": 1809,
                         "end": 1810,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 1812,
                         "end": 1841,
-                        "value": "The value of `counter` is 2",
-                        "raw": "'The value of `counter` is 2'"
+                        "value": "The value of `counter` is 2"
                       }
                     ],
                     "optional": false

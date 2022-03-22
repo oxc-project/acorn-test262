@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 707,
             "end": 712,
-            "value": "one",
-            "raw": "\"one\""
+            "value": "one"
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 725,
             "end": 730,
-            "value": "two",
-            "raw": "\"two\""
+            "value": "two"
           }
         }
       ],
@@ -187,8 +185,7 @@
                                   "type": "Literal",
                                   "start": 826,
                                   "end": 830,
-                                  "value": "BA",
-                                  "raw": "\"BA\""
+                                  "value": "BA"
                                 }
                               }
                             }
@@ -360,8 +357,7 @@
                     "type": "Literal",
                     "start": 1074,
                     "end": 1140,
-                    "value": "#1: __instance.first === undefined. Actual: __instance.first ===",
-                    "raw": "'#1: __instance.first === undefined. Actual: __instance.first ==='"
+                    "value": "#1: __instance.first === undefined. Actual: __instance.first ==="
                   },
                   "operator": "+",
                   "right": {
@@ -454,8 +450,7 @@
                     "type": "Literal",
                     "start": 1390,
                     "end": 1451,
-                    "value": "#2: __instance.prop === __SCND. Actual: __instance.prop ===",
-                    "raw": "'#2: __instance.prop === __SCND. Actual: __instance.prop ==='"
+                    "value": "#2: __instance.prop === __SCND. Actual: __instance.prop ==="
                   },
                   "operator": "+",
                   "right": {
@@ -508,8 +503,7 @@
               "type": "Literal",
               "start": 1659,
               "end": 1664,
-              "value": "SAM",
-              "raw": "\"SAM\""
+              "value": "SAM"
             }
           ],
           "optional": false
@@ -519,8 +513,7 @@
           "type": "Literal",
           "start": 1669,
           "end": 1676,
-          "value": "SAMBA",
-          "raw": "\"SAMBA\""
+          "value": "SAMBA"
         }
       },
       "consequent": {
@@ -551,8 +544,7 @@
                     "type": "Literal",
                     "start": 1704,
                     "end": 1770,
-                    "value": "#2: __instance(\"SAM\") === \"SAMBA\". Actual: __instance(\"SAM\") ===",
-                    "raw": "'#2: __instance(\"SAM\") === \"SAMBA\". Actual: __instance(\"SAM\") ==='"
+                    "value": "#2: __instance(\"SAM\") === \"SAMBA\". Actual: __instance(\"SAM\") ==="
                   },
                   "operator": "+",
                   "right": {
@@ -570,8 +562,7 @@
                         "type": "Literal",
                         "start": 1782,
                         "end": 1787,
-                        "value": "SAM",
-                        "raw": "\"SAM\""
+                        "value": "SAM"
                       }
                     ],
                     "optional": false

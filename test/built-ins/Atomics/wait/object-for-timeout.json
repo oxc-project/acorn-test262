@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 673,
                       "end": 674,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -135,8 +134,7 @@
                           "type": "Literal",
                           "start": 733,
                           "end": 734,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -205,8 +203,7 @@
                           "type": "Literal",
                           "start": 799,
                           "end": 802,
-                          "value": "0",
-                          "raw": "\"0\""
+                          "value": "0"
                         }
                       }
                     ]
@@ -288,8 +285,7 @@
                           "type": "Literal",
                           "start": 882,
                           "end": 883,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -365,15 +361,13 @@
                 "type": "Literal",
                 "start": 932,
                 "end": 933,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 935,
                 "end": 936,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -388,15 +382,13 @@
             "type": "Literal",
             "start": 950,
             "end": 961,
-            "value": "timed-out",
-            "raw": "'timed-out'"
+            "value": "timed-out"
           },
           {
             "type": "Literal",
             "start": 965,
             "end": 1020,
-            "value": "Atomics.wait(i32a, 0, 0, valueOf) returns \"timed-out\"",
-            "raw": "'Atomics.wait(i32a, 0, 0, valueOf) returns \"timed-out\"'"
+            "value": "Atomics.wait(i32a, 0, 0, valueOf) returns \"timed-out\""
           }
         ],
         "optional": false
@@ -464,15 +456,13 @@
                 "type": "Literal",
                 "start": 1063,
                 "end": 1064,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1066,
                 "end": 1067,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -487,15 +477,13 @@
             "type": "Literal",
             "start": 1082,
             "end": 1093,
-            "value": "timed-out",
-            "raw": "'timed-out'"
+            "value": "timed-out"
           },
           {
             "type": "Literal",
             "start": 1097,
             "end": 1153,
-            "value": "Atomics.wait(i32a, 0, 0, toString) returns \"timed-out\"",
-            "raw": "'Atomics.wait(i32a, 0, 0, toString) returns \"timed-out\"'"
+            "value": "Atomics.wait(i32a, 0, 0, toString) returns \"timed-out\""
           }
         ],
         "optional": false
@@ -563,15 +551,13 @@
                 "type": "Literal",
                 "start": 1196,
                 "end": 1197,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1199,
                 "end": 1200,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -586,15 +572,13 @@
             "type": "Literal",
             "start": 1218,
             "end": 1229,
-            "value": "timed-out",
-            "raw": "'timed-out'"
+            "value": "timed-out"
           },
           {
             "type": "Literal",
             "start": 1233,
             "end": 1292,
-            "value": "Atomics.wait(i32a, 0, 0, toPrimitive) returns \"timed-out\"",
-            "raw": "'Atomics.wait(i32a, 0, 0, toPrimitive) returns \"timed-out\"'"
+            "value": "Atomics.wait(i32a, 0, 0, toPrimitive) returns \"timed-out\""
           }
         ],
         "optional": false

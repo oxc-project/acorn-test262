@@ -153,8 +153,7 @@
                     "type": "Literal",
                     "start": 467,
                     "end": 521,
-                    "value": "#0: var obj = {}; obj.length === undefined. Actual: ",
-                    "raw": "'#0: var obj = {}; obj.length === undefined. Actual: '"
+                    "value": "#0: var obj = {}; obj.length === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -231,8 +230,7 @@
                 "type": "Literal",
                 "start": 569,
                 "end": 571,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             },
             "consequent": {
@@ -263,8 +261,7 @@
                           "type": "Literal",
                           "start": 602,
                           "end": 682,
-                          "value": "#1: var obj = {}; obj.join = Array.prototype.join; obj.join() === \"\". Actual: ",
-                          "raw": "'#1: var obj = {}; obj.join = Array.prototype.join; obj.join() === \"\". Actual: '"
+                          "value": "#1: var obj = {}; obj.join = Array.prototype.join; obj.join() === \"\". Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -369,8 +366,7 @@
                           "type": "Literal",
                           "start": 765,
                           "end": 864,
-                          "value": "#2: var obj = {}; obj.join = Array.prototype.join; obj.join(); obj.length === undefined. Actual: ",
-                          "raw": "'#2: var obj = {}; obj.join = Array.prototype.join; obj.join(); obj.length === undefined. Actual: '"
+                          "value": "#2: var obj = {}; obj.join = Array.prototype.join; obj.join(); obj.length === undefined. Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -483,8 +479,7 @@
           "type": "Literal",
           "start": 932,
           "end": 934,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -515,8 +510,7 @@
                     "type": "Literal",
                     "start": 963,
                     "end": 1066,
-                    "value": "#3: var obj = {}; obj.length = undefined; obj.join = Array.prototype.join; obj.join() === \". Actual: ",
-                    "raw": "'#3: var obj = {}; obj.length = undefined; obj.join = Array.prototype.join; obj.join() === \". Actual: '"
+                    "value": "#3: var obj = {}; obj.length = undefined; obj.join = Array.prototype.join; obj.join() === \". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -621,8 +615,7 @@
                     "type": "Literal",
                     "start": 1144,
                     "end": 1267,
-                    "value": "#4: var obj = {}; obj.length = undefined; obj.join = Array.prototype.join; obj.join(); obj.length === undefined. Actual: ",
-                    "raw": "'#4: var obj = {}; obj.length = undefined; obj.join = Array.prototype.join; obj.join(); obj.length === undefined. Actual: '"
+                    "value": "#4: var obj = {}; obj.length = undefined; obj.join = Array.prototype.join; obj.join(); obj.length === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -733,8 +726,7 @@
           "type": "Literal",
           "start": 1325,
           "end": 1327,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -765,8 +757,7 @@
                     "type": "Literal",
                     "start": 1356,
                     "end": 1455,
-                    "value": "#5: var obj = {}; obj.length = null; obj.join = Array.prototype.join; obj.join() === \"\". Actual: ",
-                    "raw": "'#5: var obj = {}; obj.length = null; obj.join = Array.prototype.join; obj.join() === \"\". Actual: '"
+                    "value": "#5: var obj = {}; obj.length = null; obj.join = Array.prototype.join; obj.join() === \"\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -872,8 +863,7 @@
                     "type": "Literal",
                     "start": 1528,
                     "end": 1641,
-                    "value": "#6: var obj = {}; obj.length = null; obj.join = Array.prototype.join; obj.join(); obj.length === null. Actual: ",
-                    "raw": "'#6: var obj = {}; obj.length = null; obj.join = Array.prototype.join; obj.join(); obj.length === null. Actual: '"
+                    "value": "#6: var obj = {}; obj.length = null; obj.join = Array.prototype.join; obj.join(); obj.length === null. Actual: "
                   },
                   "operator": "+",
                   "right": {

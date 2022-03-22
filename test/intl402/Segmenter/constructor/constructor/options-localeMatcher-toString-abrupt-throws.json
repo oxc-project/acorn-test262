@@ -198,8 +198,7 @@
             "type": "Literal",
             "start": 1064,
             "end": 1079,
-            "value": "from toString",
-            "raw": "'from toString'"
+            "value": "from toString"
           }
         ],
         "optional": false
@@ -410,8 +409,7 @@
             "type": "Literal",
             "start": 1265,
             "end": 1279,
-            "value": "from valueOf",
-            "raw": "'from valueOf'"
+            "value": "from valueOf"
           }
         ],
         "optional": false
@@ -614,8 +612,7 @@
             "type": "Literal",
             "start": 1455,
             "end": 1473,
-            "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "value": "from ToPrimitive"
           }
         ],
         "optional": false
@@ -762,8 +759,7 @@
             "type": "Literal",
             "start": 1590,
             "end": 1604,
-            "value": "symbol value",
-            "raw": "'symbol value'"
+            "value": "symbol value"
           }
         ],
         "optional": false

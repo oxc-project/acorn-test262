@@ -34,8 +34,7 @@
                 "type": "Literal",
                 "start": 449,
                 "end": 450,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ]
@@ -77,8 +76,7 @@
                   "type": "Literal",
                   "start": 496,
                   "end": 558,
-                  "value": "#1: Function expession inside the \"if\" expression is allowed",
-                  "raw": "'#1: Function expession inside the \"if\" expression is allowed'"
+                  "value": "#1: Function expession inside the \"if\" expression is allowed"
                 }
               ]
             }

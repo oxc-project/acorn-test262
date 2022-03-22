@@ -56,10 +56,9 @@
               "end": 1093,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1051,
-                  "end": 1091,
-                  "static": false,
+                  "end": 1090,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -82,8 +81,7 @@
                         "type": "Literal",
                         "start": 1060,
                         "end": 1089,
-                        "value": "executed = true; arguments;",
-                        "raw": "'executed = true; arguments;'"
+                        "value": "executed = true; arguments;"
                       }
                     ],
                     "optional": false

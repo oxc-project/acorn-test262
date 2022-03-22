@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 256,
             "end": 281,
-            "value": "initialValue is present",
-            "raw": "\"initialValue is present\""
+            "value": "initialValue is present"
           }
         }
       ],
@@ -116,8 +115,7 @@
             "type": "Literal",
             "start": 337,
             "end": 370,
-            "value": "[].reduce(function () { }, str)",
-            "raw": "'[].reduce(function () { }, str)'"
+            "value": "[].reduce(function () { }, str)"
           }
         ],
         "optional": false

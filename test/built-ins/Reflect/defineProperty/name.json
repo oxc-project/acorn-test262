@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 459,
             "end": 475,
-            "value": "defineProperty",
-            "raw": "'defineProperty'"
+            "value": "defineProperty"
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 545,
-            "value": "The value of `Reflect.defineProperty.name` is `\"defineProperty\"`",
-            "raw": "'The value of `Reflect.defineProperty.name` is `\"defineProperty\"`'"
+            "value": "The value of `Reflect.defineProperty.name` is `\"defineProperty\"`"
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 594,
             "end": 600,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 645,
             "end": 651,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 697,
             "end": 703,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

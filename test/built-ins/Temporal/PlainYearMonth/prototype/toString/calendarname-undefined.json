@@ -59,8 +59,7 @@
                           "type": "Literal",
                           "start": 693,
                           "end": 701,
-                          "value": "custom",
-                          "raw": "\"custom\""
+                          "value": "custom"
                         }
                       }
                     ]
@@ -116,15 +115,13 @@
                 "type": "Literal",
                 "start": 755,
                 "end": 759,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 761,
                 "end": 762,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -175,15 +172,13 @@
                 "type": "Literal",
                 "start": 812,
                 "end": 816,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 818,
                 "end": 819,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Identifier",
@@ -229,8 +224,7 @@
                     "type": "Literal",
                     "start": 850,
                     "end": 859,
-                    "value": "2000-05",
-                    "raw": "\"2000-05\""
+                    "value": "2000-05"
                   }
                 ]
               },
@@ -249,8 +243,7 @@
                     "type": "Literal",
                     "start": 877,
                     "end": 902,
-                    "value": "2000-05-01[u-ca=custom]",
-                    "raw": "\"2000-05-01[u-ca=custom]\""
+                    "value": "2000-05-01[u-ca=custom]"
                   }
                 ]
               }
@@ -418,8 +411,7 @@
                         "type": "Literal",
                         "start": 1051,
                         "end": 1088,
-                        "value": "default calendarName option is auto",
-                        "raw": "\"default calendarName option is auto\""
+                        "value": "default calendarName option is auto"
                       }
                     ],
                     "optional": false
@@ -521,8 +513,7 @@
                         "type": "Literal",
                         "start": 1174,
                         "end": 1211,
-                        "value": "default calendarName option is auto",
-                        "raw": "\"default calendarName option is auto\""
+                        "value": "default calendarName option is auto"
                       }
                     ],
                     "optional": false

@@ -358,8 +358,7 @@
             "type": "Literal",
             "start": 776,
             "end": 805,
-            "value": "within \"parent\" constructor",
-            "raw": "'within \"parent\" constructor'"
+            "value": "within \"parent\" constructor"
           }
         ],
         "optional": false
@@ -409,8 +408,7 @@
             "type": "Literal",
             "start": 847,
             "end": 874,
-            "value": "within \"base\" constructor",
-            "raw": "'within \"base\" constructor'"
+            "value": "within \"base\" constructor"
           }
         ],
         "optional": false

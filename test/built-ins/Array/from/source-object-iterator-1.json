@@ -27,50 +27,43 @@
                 "type": "Literal",
                 "start": 274,
                 "end": 275,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 277,
                 "end": 278,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 280,
                 "end": 281,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               },
               {
                 "type": "Literal",
                 "start": 283,
                 "end": 285,
-                "value": 16,
-                "raw": "16"
+                "value": 16
               },
               {
                 "type": "Literal",
                 "start": 287,
                 "end": 289,
-                "value": 32,
-                "raw": "32"
+                "value": 32
               },
               {
                 "type": "Literal",
                 "start": 291,
                 "end": 293,
-                "value": 64,
-                "raw": "64"
+                "value": 64
               },
               {
                 "type": "Literal",
                 "start": 295,
                 "end": 298,
-                "value": 128,
-                "raw": "128"
+                "value": 128
               }
             ]
           }
@@ -165,8 +158,7 @@
                                 "type": "Literal",
                                 "start": 363,
                                 "end": 364,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "kind": "init"
                             },
@@ -330,8 +322,7 @@
                                           "type": "Literal",
                                           "start": 510,
                                           "end": 511,
-                                          "value": 7,
-                                          "raw": "7"
+                                          "value": 7
                                         }
                                       },
                                       "consequent": {
@@ -391,8 +382,7 @@
                                           "type": "Literal",
                                           "start": 570,
                                           "end": 571,
-                                          "value": 1,
-                                          "raw": "1"
+                                          "value": 1
                                         },
                                         "operator": "<<",
                                         "right": {
@@ -525,8 +515,7 @@
             "type": "Literal",
             "start": 672,
             "end": 721,
-            "value": "Array.from(obj) throws a Test262Error exception",
-            "raw": "'Array.from(obj) throws a Test262Error exception'"
+            "value": "Array.from(obj) throws a Test262Error exception"
           }
         ],
         "optional": false

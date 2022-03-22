@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 427,
             "end": 493,
-            "value": "Object.prototype.isPrototypeOf(Error.prototype) must return true",
-            "raw": "'Object.prototype.isPrototypeOf(Error.prototype) must return true'"
+            "value": "Object.prototype.isPrototypeOf(Error.prototype) must return true"
           }
         ],
         "optional": false

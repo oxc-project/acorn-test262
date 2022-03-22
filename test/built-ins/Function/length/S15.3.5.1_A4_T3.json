@@ -33,22 +33,19 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 391,
-                "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "value": "arg1,arg2,arg3"
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 404,
-                "value": "arg1,arg2",
-                "raw": "\"arg1,arg2\""
+                "value": "arg1,arg2"
               },
               {
                 "type": "Literal",
                 "start": 406,
                 "end": 412,
-                "value": "arg3",
-                "raw": "\"arg3\""
+                "value": "arg3"
               },
               {
                 "type": "Literal",
@@ -106,8 +103,7 @@
                 "type": "Literal",
                 "start": 446,
                 "end": 454,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -116,8 +112,7 @@
             "type": "Literal",
             "start": 457,
             "end": 504,
-            "value": "f.hasOwnProperty('length') must return true",
-            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+            "value": "f.hasOwnProperty('length') must return true"
           }
         ],
         "optional": false
@@ -177,8 +172,7 @@
                 "type": "Literal",
                 "start": 542,
                 "end": 550,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             },
             "consequent": {
@@ -251,8 +245,7 @@
             "type": "Literal",
             "start": 612,
             "end": 663,
-            "value": "The value of !lengthenumed is expected to be true",
-            "raw": "'The value of !lengthenumed is expected to be true'"
+            "value": "The value of !lengthenumed is expected to be true"
           }
         ],
         "optional": false

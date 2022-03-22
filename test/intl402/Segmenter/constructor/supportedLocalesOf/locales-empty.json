@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 563,
             "end": 573,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 643,
-            "value": "Should support Intl.Segmenter.supportedLocalesOf.",
-            "raw": "\"Should support Intl.Segmenter.supportedLocalesOf.\""
+            "value": "Should support Intl.Segmenter.supportedLocalesOf."
           }
         ],
         "optional": false

@@ -83,8 +83,7 @@
             "type": "Literal",
             "start": 432,
             "end": 474,
-            "value": "`Object.is(true, false)` returns `false`",
-            "raw": "\"`Object.is(true, false)` returns `false`\""
+            "value": "`Object.is(true, false)` returns `false`"
           }
         ],
         "optional": false
@@ -170,8 +169,7 @@
             "type": "Literal",
             "start": 525,
             "end": 567,
-            "value": "`Object.is(false, true)` returns `false`",
-            "raw": "\"`Object.is(false, true)` returns `false`\""
+            "value": "`Object.is(false, true)` returns `false`"
           }
         ],
         "optional": false
@@ -240,8 +238,7 @@
                 "type": "Literal",
                 "start": 603,
                 "end": 604,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -257,8 +254,7 @@
             "type": "Literal",
             "start": 614,
             "end": 652,
-            "value": "`Object.is(true, 1)` returns `false`",
-            "raw": "\"`Object.is(true, 1)` returns `false`\""
+            "value": "`Object.is(true, 1)` returns `false`"
           }
         ],
         "optional": false
@@ -327,8 +323,7 @@
                 "type": "Literal",
                 "start": 689,
                 "end": 690,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -344,8 +339,7 @@
             "type": "Literal",
             "start": 700,
             "end": 739,
-            "value": "`Object.is(false, 0)` returns `false`",
-            "raw": "\"`Object.is(false, 0)` returns `false`\""
+            "value": "`Object.is(false, 0)` returns `false`"
           }
         ],
         "optional": false
@@ -430,8 +424,7 @@
             "type": "Literal",
             "start": 787,
             "end": 826,
-            "value": "`Object.is(true, {})` returns `false`",
-            "raw": "\"`Object.is(true, {})` returns `false`\""
+            "value": "`Object.is(true, {})` returns `false`"
           }
         ],
         "optional": false
@@ -516,8 +509,7 @@
             "type": "Literal",
             "start": 881,
             "end": 927,
-            "value": "`Object.is(true, undefined)` returns `false`",
-            "raw": "\"`Object.is(true, undefined)` returns `false`\""
+            "value": "`Object.is(true, undefined)` returns `false`"
           }
         ],
         "optional": false
@@ -602,8 +594,7 @@
             "type": "Literal",
             "start": 983,
             "end": 1030,
-            "value": "`Object.is(false, undefined)` returns `false`",
-            "raw": "\"`Object.is(false, undefined)` returns `false`\""
+            "value": "`Object.is(false, undefined)` returns `false`"
           }
         ],
         "optional": false
@@ -689,8 +680,7 @@
             "type": "Literal",
             "start": 1080,
             "end": 1121,
-            "value": "`Object.is(true, null)` returns `false`",
-            "raw": "\"`Object.is(true, null)` returns `false`\""
+            "value": "`Object.is(true, null)` returns `false`"
           }
         ],
         "optional": false
@@ -776,8 +766,7 @@
             "type": "Literal",
             "start": 1172,
             "end": 1214,
-            "value": "`Object.is(false, null)` returns `false`",
-            "raw": "\"`Object.is(false, null)` returns `false`\""
+            "value": "`Object.is(false, null)` returns `false`"
           }
         ],
         "optional": false
@@ -862,8 +851,7 @@
             "type": "Literal",
             "start": 1263,
             "end": 1303,
-            "value": "`Object.is(true, NaN)` returns `false`",
-            "raw": "\"`Object.is(true, NaN)` returns `false`\""
+            "value": "`Object.is(true, NaN)` returns `false`"
           }
         ],
         "optional": false
@@ -948,8 +936,7 @@
             "type": "Literal",
             "start": 1353,
             "end": 1394,
-            "value": "`Object.is(false, NaN)` returns `false`",
-            "raw": "\"`Object.is(false, NaN)` returns `false`\""
+            "value": "`Object.is(false, NaN)` returns `false`"
           }
         ],
         "optional": false
@@ -1018,8 +1005,7 @@
                 "type": "Literal",
                 "start": 1430,
                 "end": 1432,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -1035,8 +1021,7 @@
             "type": "Literal",
             "start": 1442,
             "end": 1481,
-            "value": "`Object.is(true, '')` returns `false`",
-            "raw": "\"`Object.is(true, '')` returns `false`\""
+            "value": "`Object.is(true, '')` returns `false`"
           }
         ],
         "optional": false
@@ -1105,8 +1090,7 @@
                 "type": "Literal",
                 "start": 1518,
                 "end": 1520,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -1122,8 +1106,7 @@
             "type": "Literal",
             "start": 1530,
             "end": 1570,
-            "value": "`Object.is(false, '')` returns `false`",
-            "raw": "\"`Object.is(false, '')` returns `false`\""
+            "value": "`Object.is(false, '')` returns `false`"
           }
         ],
         "optional": false
@@ -1208,8 +1191,7 @@
             "type": "Literal",
             "start": 1618,
             "end": 1657,
-            "value": "`Object.is(true, [])` returns `false`",
-            "raw": "\"`Object.is(true, [])` returns `false`\""
+            "value": "`Object.is(true, [])` returns `false`"
           }
         ],
         "optional": false
@@ -1294,8 +1276,7 @@
             "type": "Literal",
             "start": 1706,
             "end": 1746,
-            "value": "`Object.is(false, [])` returns `false`",
-            "raw": "\"`Object.is(false, [])` returns `false`\""
+            "value": "`Object.is(false, [])` returns `false`"
           }
         ],
         "optional": false

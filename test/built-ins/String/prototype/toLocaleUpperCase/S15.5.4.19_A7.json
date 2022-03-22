@@ -113,8 +113,7 @@
                   "type": "Literal",
                   "start": 450,
                   "end": 559,
-                  "value": "#1: __FACTORY = String.prototype.toLocaleUpperCase; \"__instance = new __FACTORY\" lead to throwing exception",
-                  "raw": "'#1: __FACTORY = String.prototype.toLocaleUpperCase; \"__instance = new __FACTORY\" lead to throwing exception'"
+                  "value": "#1: __FACTORY = String.prototype.toLocaleUpperCase; \"__instance = new __FACTORY\" lead to throwing exception"
                 }
               ]
             }
@@ -204,8 +203,7 @@
                             "type": "Literal",
                             "start": 646,
                             "end": 739,
-                            "value": "#1.1:  var __instance = new __FACTORY;  Object has no construct lead  a TypeError. Actual: ",
-                            "raw": "'#1.1:  var __instance = new __FACTORY;  Object has no construct lead  a TypeError. Actual: '"
+                            "value": "#1.1:  var __instance = new __FACTORY;  Object has no construct lead  a TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 765,
             "end": 822,
-            "value": "thisundefinedisundefinedaundefinedstringundefinedobject",
-            "raw": "\"thisundefinedisundefinedaundefinedstringundefinedobject\""
+            "value": "thisundefinedisundefinedaundefinedstringundefinedobject"
           }
         }
       ],
@@ -110,8 +109,7 @@
                   "type": "Literal",
                   "start": 888,
                   "end": 889,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -178,8 +176,7 @@
             "type": "Literal",
             "start": 945,
             "end": 1019,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -255,8 +252,7 @@
             "type": "Literal",
             "start": 1083,
             "end": 1164,
-            "value": "The value of __split.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __split.length is expected to equal the value of __expected.length'"
+            "value": "The value of __split.length is expected to equal the value of __expected.length"
           }
         ],
         "optional": false
@@ -285,8 +281,7 @@
               "type": "Literal",
               "start": 1354,
               "end": 1355,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -411,8 +406,7 @@
                   "type": "Literal",
                   "start": 1433,
                   "end": 1506,
-                  "value": "The value of __expected[i] is expected to equal the value of __split[i]",
-                  "raw": "'The value of __expected[i] is expected to equal the value of __split[i]'"
+                  "value": "The value of __expected[i] is expected to equal the value of __split[i]"
                 }
               ],
               "optional": false

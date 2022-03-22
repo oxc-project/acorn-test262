@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 535,
                 "end": 536,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -103,8 +102,7 @@
                               "type": "Literal",
                               "start": 600,
                               "end": 661,
-                              "value": "IsCallable(comparefn) should be observed before this.length",
-                              "raw": "\"IsCallable(comparefn) should be observed before this.length\""
+                              "value": "IsCallable(comparefn) should be observed before this.length"
                             }
                           ]
                         }
@@ -213,8 +211,7 @@
             "type": "Literal",
             "start": 734,
             "end": 754,
-            "value": "sample.sort(null);",
-            "raw": "\"sample.sort(null);\""
+            "value": "sample.sort(null);"
           }
         ],
         "optional": false
@@ -333,8 +330,7 @@
             "type": "Literal",
             "start": 831,
             "end": 862,
-            "value": "[].sort.call(poisoned, null);",
-            "raw": "\"[].sort.call(poisoned, null);\""
+            "value": "[].sort.call(poisoned, null);"
           }
         ],
         "optional": false
@@ -434,8 +430,7 @@
             "type": "Literal",
             "start": 928,
             "end": 948,
-            "value": "sample.sort(true);",
-            "raw": "\"sample.sort(true);\""
+            "value": "sample.sort(true);"
           }
         ],
         "optional": false
@@ -554,8 +549,7 @@
             "type": "Literal",
             "start": 1025,
             "end": 1056,
-            "value": "[].sort.call(poisoned, true);",
-            "raw": "\"[].sort.call(poisoned, true);\""
+            "value": "[].sort.call(poisoned, true);"
           }
         ],
         "optional": false
@@ -655,8 +649,7 @@
             "type": "Literal",
             "start": 1123,
             "end": 1144,
-            "value": "sample.sort(false);",
-            "raw": "\"sample.sort(false);\""
+            "value": "sample.sort(false);"
           }
         ],
         "optional": false
@@ -775,8 +768,7 @@
             "type": "Literal",
             "start": 1222,
             "end": 1254,
-            "value": "[].sort.call(poisoned, false);",
-            "raw": "\"[].sort.call(poisoned, false);\""
+            "value": "[].sort.call(poisoned, false);"
           }
         ],
         "optional": false
@@ -862,8 +854,7 @@
                         "type": "Literal",
                         "start": 1310,
                         "end": 1312,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -876,8 +867,7 @@
             "type": "Literal",
             "start": 1318,
             "end": 1336,
-            "value": "sample.sort('');",
-            "raw": "\"sample.sort('');\""
+            "value": "sample.sort('');"
           }
         ],
         "optional": false
@@ -982,8 +972,7 @@
                         "type": "Literal",
                         "start": 1403,
                         "end": 1405,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -996,8 +985,7 @@
             "type": "Literal",
             "start": 1411,
             "end": 1440,
-            "value": "[].sort.call(poisoned, '');",
-            "raw": "\"[].sort.call(poisoned, '');\""
+            "value": "[].sort.call(poisoned, '');"
           }
         ],
         "optional": false
@@ -1084,7 +1072,6 @@
                         "start": 1496,
                         "end": 1500,
                         "value": {},
-                        "raw": "/a/g",
                         "regex": {
                           "pattern": "a",
                           "flags": "g"
@@ -1101,8 +1088,7 @@
             "type": "Literal",
             "start": 1506,
             "end": 1526,
-            "value": "sample.sort(/a/g);",
-            "raw": "\"sample.sort(/a/g);\""
+            "value": "sample.sort(/a/g);"
           }
         ],
         "optional": false
@@ -1208,7 +1194,6 @@
                         "start": 1593,
                         "end": 1597,
                         "value": {},
-                        "raw": "/a/g",
                         "regex": {
                           "pattern": "a",
                           "flags": "g"
@@ -1225,8 +1210,7 @@
             "type": "Literal",
             "start": 1603,
             "end": 1634,
-            "value": "[].sort.call(poisoned, /a/g);",
-            "raw": "\"[].sort.call(poisoned, /a/g);\""
+            "value": "[].sort.call(poisoned, /a/g);"
           }
         ],
         "optional": false
@@ -1312,8 +1296,7 @@
                         "type": "Literal",
                         "start": 1690,
                         "end": 1692,
-                        "value": 42,
-                        "raw": "42"
+                        "value": 42
                       }
                     ],
                     "optional": false
@@ -1326,8 +1309,7 @@
             "type": "Literal",
             "start": 1698,
             "end": 1716,
-            "value": "sample.sort(42);",
-            "raw": "\"sample.sort(42);\""
+            "value": "sample.sort(42);"
           }
         ],
         "optional": false
@@ -1432,8 +1414,7 @@
                         "type": "Literal",
                         "start": 1783,
                         "end": 1785,
-                        "value": 42,
-                        "raw": "42"
+                        "value": 42
                       }
                     ],
                     "optional": false
@@ -1446,8 +1427,7 @@
             "type": "Literal",
             "start": 1791,
             "end": 1820,
-            "value": "[].sort.call(poisoned, 42);",
-            "raw": "\"[].sort.call(poisoned, 42);\""
+            "value": "[].sort.call(poisoned, 42);"
           }
         ],
         "optional": false
@@ -1546,8 +1526,7 @@
             "type": "Literal",
             "start": 1884,
             "end": 1902,
-            "value": "sample.sort([]);",
-            "raw": "\"sample.sort([]);\""
+            "value": "sample.sort([]);"
           }
         ],
         "optional": false
@@ -1665,8 +1644,7 @@
             "type": "Literal",
             "start": 1977,
             "end": 2006,
-            "value": "[].sort.call(poisoned, []);",
-            "raw": "\"[].sort.call(poisoned, []);\""
+            "value": "[].sort.call(poisoned, []);"
           }
         ],
         "optional": false
@@ -1765,8 +1743,7 @@
             "type": "Literal",
             "start": 2070,
             "end": 2088,
-            "value": "sample.sort({});",
-            "raw": "\"sample.sort({});\""
+            "value": "sample.sort({});"
           }
         ],
         "optional": false
@@ -1884,8 +1861,7 @@
             "type": "Literal",
             "start": 2163,
             "end": 2192,
-            "value": "[].sort.call(poisoned, {});",
-            "raw": "\"[].sort.call(poisoned, {});\""
+            "value": "[].sort.call(poisoned, {});"
           }
         ],
         "optional": false
@@ -1991,8 +1967,7 @@
             "type": "Literal",
             "start": 2262,
             "end": 2286,
-            "value": "sample.sort(Symbol());",
-            "raw": "\"sample.sort(Symbol());\""
+            "value": "sample.sort(Symbol());"
           }
         ],
         "optional": false
@@ -2117,8 +2092,7 @@
             "type": "Literal",
             "start": 2367,
             "end": 2402,
-            "value": "[].sort.call(poisoned, Symbol());",
-            "raw": "\"[].sort.call(poisoned, Symbol());\""
+            "value": "[].sort.call(poisoned, Symbol());"
           }
         ],
         "optional": false

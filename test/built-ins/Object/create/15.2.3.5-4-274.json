@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 358,
             "end": 364,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 378,
             "end": 384,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -297,8 +295,7 @@
             "type": "Literal",
             "start": 581,
             "end": 586,
-            "value": "set",
-            "raw": "\"set\""
+            "value": "set"
           },
           {
             "type": "ObjectExpression",
@@ -518,8 +515,7 @@
                 "type": "Literal",
                 "start": 768,
                 "end": 774,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -560,8 +556,7 @@
           "type": "Literal",
           "start": 792,
           "end": 806,
-          "value": "overrideData",
-          "raw": "\"overrideData\""
+          "value": "overrideData"
         }
       }
     },
@@ -590,8 +585,7 @@
             "type": "Literal",
             "start": 829,
             "end": 851,
-            "value": "hasProperty !== true",
-            "raw": "'hasProperty !== true'"
+            "value": "hasProperty !== true"
           }
         ],
         "optional": false
@@ -635,15 +629,13 @@
             "type": "Literal",
             "start": 878,
             "end": 892,
-            "value": "overrideData",
-            "raw": "\"overrideData\""
+            "value": "overrideData"
           },
           {
             "type": "Literal",
             "start": 894,
             "end": 901,
-            "value": "data1",
-            "raw": "'data1'"
+            "value": "data1"
           }
         ],
         "optional": false
@@ -687,15 +679,13 @@
             "type": "Literal",
             "start": 928,
             "end": 934,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           },
           {
             "type": "Literal",
             "start": 936,
             "end": 943,
-            "value": "data2",
-            "raw": "'data2'"
+            "value": "data2"
           }
         ],
         "optional": false

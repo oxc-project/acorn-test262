@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 839,
                 "end": 843,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 845,
                 "end": 846,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -94,15 +92,13 @@
             "type": "Literal",
             "start": 892,
             "end": 902,
-            "value": "overflow",
-            "raw": "\"overflow\""
+            "value": "overflow"
           },
           {
             "type": "Literal",
             "start": 904,
             "end": 915,
-            "value": "constrain",
-            "raw": "\"constrain\""
+            "value": "constrain"
           },
           {
             "type": "ArrowFunctionExpression",
@@ -166,8 +162,7 @@
                         "type": "Literal",
                         "start": 957,
                         "end": 958,
-                        "value": 8,
-                        "raw": "8"
+                        "value": 8
                       },
                       "kind": "init"
                     }
@@ -261,22 +256,19 @@
                   "type": "Literal",
                   "start": 1043,
                   "end": 1047,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 {
                   "type": "Literal",
                   "start": 1049,
                   "end": 1050,
-                  "value": 8,
-                  "raw": "8"
+                  "value": 8
                 },
                 {
                   "type": "Literal",
                   "start": 1052,
                   "end": 1057,
-                  "value": "M08",
-                  "raw": "\"M08\""
+                  "value": "M08"
                 },
                 {
                   "type": "Identifier",

@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 826,
             "end": 846,
-            "value": "supportedLocalesOf",
-            "raw": "\"supportedLocalesOf\""
+            "value": "supportedLocalesOf"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 904,
             "end": 910,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 965,
             "end": 971,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -254,8 +251,7 @@
             "type": "Literal",
             "start": 1027,
             "end": 1033,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

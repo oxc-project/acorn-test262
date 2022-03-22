@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 274,
                 "end": 278,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "NewExpression",
@@ -64,8 +63,7 @@
                     "type": "Literal",
                     "start": 291,
                     "end": 292,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               }
@@ -87,15 +85,13 @@
                 "type": "Literal",
                 "start": 307,
                 "end": 311,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 314,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -104,8 +100,7 @@
             "type": "Literal",
             "start": 319,
             "end": 407,
-            "value": "parseInt(\"11\", new Number(2)) must return the same value returned by parseInt(\"11\", 2)",
-            "raw": "'parseInt(\"11\", new Number(2)) must return the same value returned by parseInt(\"11\", 2)'"
+            "value": "parseInt(\"11\", new Number(2)) must return the same value returned by parseInt(\"11\", 2)"
           }
         ],
         "optional": false
@@ -154,8 +149,7 @@
                 "type": "Literal",
                 "start": 441,
                 "end": 445,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "NewExpression",
@@ -194,8 +188,7 @@
                 "type": "Literal",
                 "start": 481,
                 "end": 485,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "Identifier",
@@ -210,8 +203,7 @@
             "type": "Literal",
             "start": 500,
             "end": 602,
-            "value": "parseInt(\"11\", new Number(Infinity)) must return the same value returned by parseInt(\"11\", Infinity)",
-            "raw": "'parseInt(\"11\", new Number(Infinity)) must return the same value returned by parseInt(\"11\", Infinity)'"
+            "value": "parseInt(\"11\", new Number(Infinity)) must return the same value returned by parseInt(\"11\", Infinity)"
           }
         ],
         "optional": false

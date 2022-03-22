@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 248,
                   "end": 249,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -325,23 +324,20 @@
               "type": "Literal",
               "start": 416,
               "end": 417,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 420,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 422,
             "end": 502,
-            "value": "`object.x = 1` is `1`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"`object.x = 1` is `1`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "value": "`object.x = 1` is `1`, after executing `Object.setPrototypeOf(object, proto);`"
           }
         ],
         "optional": false
@@ -398,15 +394,13 @@
             "type": "Literal",
             "start": 533,
             "end": 534,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 536,
             "end": 626,
-            "value": "The value of `object._x` is `1`, after executing `Object.setPrototypeOf(object, proto);`",
-            "raw": "\"The value of `object._x` is `1`, after executing `Object.setPrototypeOf(object, proto);`\""
+            "value": "The value of `object._x` is `1`, after executing `Object.setPrototypeOf(object, proto);`"
           }
         ],
         "optional": false
@@ -490,15 +484,13 @@
             "type": "Literal",
             "start": 685,
             "end": 686,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 746,
-            "value": "The value of `Object.getPrototypeOf(object)._x` is `0`",
-            "raw": "\"The value of `Object.getPrototypeOf(object)._x` is `0`\""
+            "value": "The value of `Object.getPrototypeOf(object)._x` is `0`"
           }
         ],
         "optional": false

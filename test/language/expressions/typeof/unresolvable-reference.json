@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 491,
             "end": 502,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 506,
             "end": 532,
-            "value": "typeof x === 'undefined'",
-            "raw": "\"typeof x === 'undefined'\""
+            "value": "typeof x === 'undefined'"
           }
         ],
         "optional": false

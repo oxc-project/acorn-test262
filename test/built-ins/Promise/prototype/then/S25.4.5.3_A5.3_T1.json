@@ -149,8 +149,7 @@
             "type": "Literal",
             "start": 433,
             "end": 434,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -243,8 +242,7 @@
                             "type": "Literal",
                             "start": 495,
                             "end": 538,
-                            "value": "Should not be called -- Promise rejected.",
-                            "raw": "\"Should not be called -- Promise rejected.\""
+                            "value": "Should not be called -- Promise rejected."
                           }
                         ]
                       }
@@ -298,8 +296,7 @@
                             "type": "Literal",
                             "start": 573,
                             "end": 574,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           }
                         ],
                         "optional": false
@@ -356,15 +353,13 @@
                             "type": "Literal",
                             "start": 613,
                             "end": 614,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 616,
                             "end": 666,
-                            "value": "The value of sequence.length is expected to be 3",
-                            "raw": "'The value of sequence.length is expected to be 3'"
+                            "value": "The value of sequence.length is expected to be 3"
                           }
                         ],
                         "optional": false
@@ -395,8 +390,7 @@
                             "type": "Literal",
                             "start": 695,
                             "end": 712,
-                            "value": "Should be first",
-                            "raw": "\"Should be first\""
+                            "value": "Should be first"
                           }
                         ],
                         "optional": false
@@ -567,8 +561,7 @@
                                             "type": "Literal",
                                             "start": 852,
                                             "end": 899,
-                                            "value": "Should not be called (2) -- Promise rejected.",
-                                            "raw": "\"Should not be called (2) -- Promise rejected.\""
+                                            "value": "Should not be called (2) -- Promise rejected."
                                           }
                                         ]
                                       }
@@ -622,8 +615,7 @@
                                             "type": "Literal",
                                             "start": 938,
                                             "end": 939,
-                                            "value": 5,
-                                            "raw": "5"
+                                            "value": 5
                                           }
                                         ],
                                         "optional": false
@@ -680,15 +672,13 @@
                                             "type": "Literal",
                                             "start": 980,
                                             "end": 981,
-                                            "value": 5,
-                                            "raw": "5"
+                                            "value": 5
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 983,
                                             "end": 1033,
-                                            "value": "The value of sequence.length is expected to be 5",
-                                            "raw": "'The value of sequence.length is expected to be 5'"
+                                            "value": "The value of sequence.length is expected to be 5"
                                           }
                                         ],
                                         "optional": false
@@ -719,8 +709,7 @@
                                             "type": "Literal",
                                             "start": 1062,
                                             "end": 1079,
-                                            "value": "Should be third",
-                                            "raw": "\"Should be third\""
+                                            "value": "Should be third"
                                           }
                                         ],
                                         "optional": false
@@ -790,8 +779,7 @@
                             "type": "Literal",
                             "start": 1124,
                             "end": 1125,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ],
                         "optional": false
@@ -848,15 +836,13 @@
                             "type": "Literal",
                             "start": 1164,
                             "end": 1165,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           },
                           {
                             "type": "Literal",
                             "start": 1167,
                             "end": 1217,
-                            "value": "The value of sequence.length is expected to be 4",
-                            "raw": "'The value of sequence.length is expected to be 4'"
+                            "value": "The value of sequence.length is expected to be 4"
                           }
                         ],
                         "optional": false
@@ -887,8 +873,7 @@
                             "type": "Literal",
                             "start": 1246,
                             "end": 1264,
-                            "value": "Should be second",
-                            "raw": "\"Should be second\""
+                            "value": "Should be second"
                           }
                         ],
                         "optional": false
@@ -952,8 +937,7 @@
             "type": "Literal",
             "start": 1299,
             "end": 1300,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false

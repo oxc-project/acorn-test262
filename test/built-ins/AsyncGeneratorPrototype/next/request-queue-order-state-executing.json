@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 1034,
             "end": 1035,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -208,8 +207,7 @@
                                   "type": "Literal",
                                   "start": 1153,
                                   "end": 1196,
-                                  "value": "variable valueisset should be set to true",
-                                  "raw": "\"variable valueisset should be set to true\""
+                                  "value": "variable valueisset should be set to true"
                                 }
                               ],
                               "optional": false
@@ -260,8 +258,7 @@
                                   "type": "Literal",
                                   "start": 1240,
                                   "end": 1241,
-                                  "value": 2,
-                                  "raw": "2"
+                                  "value": 2
                                 }
                               ],
                               "optional": false
@@ -318,8 +315,7 @@
                                   "type": "Literal",
                                   "start": 1281,
                                   "end": 1282,
-                                  "value": 2,
-                                  "raw": "2"
+                                  "value": 2
                                 }
                               ],
                               "optional": false
@@ -430,8 +426,7 @@
                                       "type": "Literal",
                                       "start": 1382,
                                       "end": 1425,
-                                      "value": "next() should result in resolved promise.",
-                                      "raw": "\"next() should result in resolved promise.\""
+                                      "value": "next() should result in resolved promise."
                                     }
                                   ]
                                 }
@@ -502,8 +497,7 @@
                 "type": "Literal",
                 "start": 1483,
                 "end": 1484,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -520,8 +514,7 @@
                 "type": "Literal",
                 "start": 1494,
                 "end": 1495,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           }
@@ -680,8 +673,7 @@
                             "type": "Literal",
                             "start": 1586,
                             "end": 1587,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -738,8 +730,7 @@
                             "type": "Literal",
                             "start": 1623,
                             "end": 1624,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -925,8 +916,7 @@
                                             "type": "Literal",
                                             "start": 1745,
                                             "end": 1746,
-                                            "value": 3,
-                                            "raw": "3"
+                                            "value": 3
                                           }
                                         ],
                                         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1096,
                 "end": 1130,
-                "value": "1; for (var a of [0]) { break; }",
-                "raw": "'1; for (var a of [0]) { break; }'"
+                "value": "1; for (var a of [0]) { break; }"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 1167,
                 "end": 1204,
-                "value": "2; for (var b of [0]) { 3; break; }",
-                "raw": "'2; for (var b of [0]) { 3; break; }'"
+                "value": "2; for (var b of [0]) { 3; break; }"
               }
             ],
             "optional": false
@@ -115,8 +113,7 @@
             "type": "Literal",
             "start": 1207,
             "end": 1208,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -165,8 +162,7 @@
                 "type": "Literal",
                 "start": 1237,
                 "end": 1308,
-                "value": "4; outer: do { for (var a of [0]) { continue outer; } } while (false)",
-                "raw": "'4; outer: do { for (var a of [0]) { continue outer; } } while (false)'"
+                "value": "4; outer: do { for (var a of [0]) { continue outer; } } while (false)"
               }
             ],
             "optional": false
@@ -224,8 +220,7 @@
                 "type": "Literal",
                 "start": 1351,
                 "end": 1425,
-                "value": "5; outer: do { for (var b of [0]) { 6; continue outer; } } while (false)",
-                "raw": "'5; outer: do { for (var b of [0]) { 6; continue outer; } } while (false)'"
+                "value": "5; outer: do { for (var b of [0]) { 6; continue outer; } } while (false)"
               }
             ],
             "optional": false
@@ -234,8 +229,7 @@
             "type": "Literal",
             "start": 1430,
             "end": 1431,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           }
         ],
         "optional": false

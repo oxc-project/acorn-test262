@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 472,
             "end": 473,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "operator": ">",
           "right": {
@@ -64,8 +63,7 @@
                   "type": "Literal",
                   "start": 518,
                   "end": 541,
-                  "value": "#1: 1 > null === true",
-                  "raw": "'#1: 1 > null === true'"
+                  "value": "#1: 1 > null === true"
                 }
               ]
             }
@@ -98,8 +96,7 @@
             "type": "Literal",
             "start": 568,
             "end": 569,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "operator": "!==",
@@ -135,8 +132,7 @@
                   "type": "Literal",
                   "start": 608,
                   "end": 632,
-                  "value": "#2: null > 1 === false",
-                  "raw": "'#2: null > 1 === false'"
+                  "value": "#2: null > 1 === false"
                 }
               ]
             }
@@ -172,8 +168,7 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 664,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -219,8 +214,7 @@
                   "type": "Literal",
                   "start": 710,
                   "end": 745,
-                  "value": "#3: new Number(1) > null === true",
-                  "raw": "'#3: new Number(1) > null === true'"
+                  "value": "#3: new Number(1) > null === true"
                 }
               ]
             }
@@ -264,8 +258,7 @@
                 "type": "Literal",
                 "start": 783,
                 "end": 784,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -303,8 +296,7 @@
                   "type": "Literal",
                   "start": 824,
                   "end": 860,
-                  "value": "#4: null > new Number(1) === false",
-                  "raw": "'#4: null > new Number(1) === false'"
+                  "value": "#4: null > new Number(1) === false"
                 }
               ]
             }

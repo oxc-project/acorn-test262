@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 994,
             "end": 1010,
-            "value": "DurationFormat",
-            "raw": "'DurationFormat'"
+            "value": "DurationFormat"
           },
           {
             "type": "ObjectExpression",

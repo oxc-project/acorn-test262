@@ -244,8 +244,7 @@
             "type": "Literal",
             "start": 1892,
             "end": 1901,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -309,8 +308,7 @@
             "type": "Literal",
             "start": 1934,
             "end": 1943,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -422,8 +420,7 @@
             "type": "Literal",
             "start": 2010,
             "end": 2053,
-            "value": "invalid access of c1 private static field",
-            "raw": "'invalid access of c1 private static field'"
+            "value": "invalid access of c1 private static field"
           }
         ],
         "optional": false
@@ -535,8 +532,7 @@
             "type": "Literal",
             "start": 2120,
             "end": 2163,
-            "value": "invalid access of c2 private static field",
-            "raw": "'invalid access of c2 private static field'"
+            "value": "invalid access of c2 private static field"
           }
         ],
         "optional": false

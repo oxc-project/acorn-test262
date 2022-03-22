@@ -55,10 +55,9 @@
               "end": 362,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 338,
                   "end": 360,
-                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -85,8 +84,7 @@
                         "type": "Literal",
                         "start": 349,
                         "end": 354,
-                        "value": "lol",
-                        "raw": "'lol'"
+                        "value": "lol"
                       },
                       "computed": true,
                       "optional": false
@@ -95,8 +93,7 @@
                       "type": "Literal",
                       "start": 358,
                       "end": 360,
-                      "value": 42,
-                      "raw": "42"
+                      "value": 42
                     }
                   }
                 }
@@ -189,8 +186,7 @@
             "type": "Literal",
             "start": 404,
             "end": 406,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -238,8 +234,7 @@
               "type": "Literal",
               "start": 429,
               "end": 434,
-              "value": "lol",
-              "raw": "'lol'"
+              "value": "lol"
             },
             "computed": true,
             "optional": false
@@ -248,8 +243,7 @@
             "type": "Literal",
             "start": 437,
             "end": 439,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false

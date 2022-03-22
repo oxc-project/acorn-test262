@@ -132,8 +132,7 @@
             "type": "Literal",
             "start": 792,
             "end": 793,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -282,8 +281,7 @@
                       "type": "Literal",
                       "start": 918,
                       "end": 928,
-                      "value": "function",
-                      "raw": "'function'"
+                      "value": "function"
                     }
                   ],
                   "optional": false
@@ -340,15 +338,13 @@
                       "type": "Literal",
                       "start": 967,
                       "end": 968,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 970,
                       "end": 992,
-                      "value": "resolver.length is 1",
-                      "raw": "'resolver.length is 1'"
+                      "value": "resolver.length is 1"
                     }
                   ],
                   "optional": false
@@ -399,8 +395,7 @@
                       "type": "Literal",
                       "start": 1036,
                       "end": 1046,
-                      "value": "function",
-                      "raw": "'function'"
+                      "value": "function"
                     }
                   ],
                   "optional": false
@@ -457,15 +452,13 @@
                       "type": "Literal",
                       "start": 1090,
                       "end": 1091,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 1093,
                       "end": 1120,
-                      "value": "rejectElement.length is 0",
-                      "raw": "'rejectElement.length is 0'"
+                      "value": "rejectElement.length is 0"
                     }
                   ],
                   "optional": false
@@ -639,8 +632,7 @@
                         "type": "Literal",
                         "start": 1253,
                         "end": 1254,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false

@@ -67,8 +67,7 @@
                         "type": "Literal",
                         "start": 329,
                         "end": 334,
-                        "value": "abc",
-                        "raw": "'abc'"
+                        "value": "abc"
                       },
                       "property": {
                         "type": "Identifier",
@@ -84,8 +83,7 @@
                         "type": "Literal",
                         "start": 342,
                         "end": 344,
-                        "value": 10,
-                        "raw": "10"
+                        "value": 10
                       },
                       {
                         "type": "CallExpression",

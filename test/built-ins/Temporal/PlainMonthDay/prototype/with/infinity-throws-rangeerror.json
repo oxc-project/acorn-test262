@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 380,
                 "end": 381,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 384,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -152,15 +150,13 @@
                             "type": "Literal",
                             "start": 432,
                             "end": 443,
-                            "value": "constrain",
-                            "raw": "\"constrain\""
+                            "value": "constrain"
                           },
                           {
                             "type": "Literal",
                             "start": 445,
                             "end": 453,
-                            "value": "reject",
-                            "raw": "\"reject\""
+                            "value": "reject"
                           }
                         ]
                       },
@@ -457,8 +453,7 @@
                                         "type": "Literal",
                                         "start": 701,
                                         "end": 706,
-                                        "value": "day",
-                                        "raw": "\"day\""
+                                        "value": "day"
                                       }
                                     ],
                                     "optional": false
@@ -641,15 +636,13 @@
                                         "type": "Literal",
                                         "start": 821,
                                         "end": 838,
-                                        "value": "get day.valueOf",
-                                        "raw": "\"get day.valueOf\""
+                                        "value": "get day.valueOf"
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 840,
                                         "end": 858,
-                                        "value": "call day.valueOf",
-                                        "raw": "\"call day.valueOf\""
+                                        "value": "call day.valueOf"
                                       }
                                     ]
                                   },
@@ -657,8 +650,7 @@
                                     "type": "Literal",
                                     "start": 861,
                                     "end": 906,
-                                    "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "value": "it fails after fetching the primitive value"
                                   }
                                 ],
                                 "optional": false

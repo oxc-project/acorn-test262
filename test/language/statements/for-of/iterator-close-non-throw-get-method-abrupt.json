@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 798,
             "end": 799,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -366,8 +365,7 @@
                             "type": "Literal",
                             "start": 1084,
                             "end": 1085,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -425,15 +423,13 @@
             "type": "Literal",
             "start": 1140,
             "end": 1141,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1143,
             "end": 1171,
-            "value": "The loop body is evaluated",
-            "raw": "'The loop body is evaluated'"
+            "value": "The loop body is evaluated"
           }
         ],
         "optional": false

@@ -80,8 +80,7 @@
                     "type": "Literal",
                     "start": 430,
                     "end": 471,
-                    "value": "#1: true / null === +Infinity. Actual: ",
-                    "raw": "'#1: true / null === +Infinity. Actual: '"
+                    "value": "#1: true / null === +Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -150,8 +149,7 @@
           "type": "Literal",
           "start": 523,
           "end": 524,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -182,8 +180,7 @@
                     "type": "Literal",
                     "start": 553,
                     "end": 586,
-                    "value": "#2: null / true === 0. Actual: ",
-                    "raw": "'#2: null / true === 0. Actual: '"
+                    "value": "#2: null / true === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -309,8 +306,7 @@
                     "type": "Literal",
                     "start": 704,
                     "end": 758,
-                    "value": "#3: new Boolean(true) / null === +Infinity. Actual: ",
-                    "raw": "'#3: new Boolean(true) / null === +Infinity. Actual: '"
+                    "value": "#3: new Boolean(true) / null === +Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -405,8 +401,7 @@
           "type": "Literal",
           "start": 836,
           "end": 837,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -437,8 +432,7 @@
                     "type": "Literal",
                     "start": 866,
                     "end": 912,
-                    "value": "#4: null / new Boolean(true) === 0. Actual: ",
-                    "raw": "'#4: null / new Boolean(true) === 0. Actual: '"
+                    "value": "#4: null / new Boolean(true) === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

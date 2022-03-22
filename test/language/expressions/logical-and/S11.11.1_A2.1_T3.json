@@ -59,8 +59,7 @@
                     "type": "Literal",
                     "start": 351,
                     "end": 399,
-                    "value": "#1.1: true && y throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: true && y throw ReferenceError. Actual: '"
+                    "value": "#1.1: true && y throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -176,8 +175,7 @@
                             "type": "Literal",
                             "start": 507,
                             "end": 555,
-                            "value": "#1.2: true && y throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: true && y throw ReferenceError. Actual: '"
+                            "value": "#1.2: true && y throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

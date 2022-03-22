@@ -154,8 +154,7 @@
                 "type": "Literal",
                 "start": 425,
                 "end": 431,
-                "value": "attr",
-                "raw": "\"attr\""
+                "value": "attr"
               }
             ],
             "optional": false

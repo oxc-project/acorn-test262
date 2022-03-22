@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 417,
             "end": 498,
-            "value": "The value of `delete Date.prototype.toTimeString.length` is expected to be true",
-            "raw": "'The value of `delete Date.prototype.toTimeString.length` is expected to be true'"
+            "value": "The value of `delete Date.prototype.toTimeString.length` is expected to be true"
           }
         ],
         "optional": false
@@ -176,8 +175,7 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 565,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -187,8 +185,7 @@
             "type": "Literal",
             "start": 570,
             "end": 663,
-            "value": "The value of !Date.prototype.toTimeString.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !Date.prototype.toTimeString.hasOwnProperty(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.prototype.toTimeString.hasOwnProperty('length') is expected to be true"
           }
         ],
         "optional": false

@@ -67,8 +67,7 @@
                   "type": "Literal",
                   "start": 355,
                   "end": 395,
-                  "value": "#1: (false || undefined) === undefined",
-                  "raw": "'#1: (false || undefined) === undefined'"
+                  "value": "#1: (false || undefined) === undefined"
                 }
               ]
             }
@@ -143,8 +142,7 @@
                   "type": "Literal",
                   "start": 468,
                   "end": 498,
-                  "value": "#2: (false || null) === null",
-                  "raw": "'#2: (false || null) === null'"
+                  "value": "#2: (false || null) === null"
                 }
               ]
             }

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 460,
                 "end": 461,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -113,15 +112,13 @@
             "type": "Literal",
             "start": 520,
             "end": 528,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 607,
-            "value": "The value of `typeof x1.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x1.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x1.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -157,8 +154,7 @@
                 "type": "Literal",
                 "start": 633,
                 "end": 634,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -231,8 +227,7 @@
             "type": "Literal",
             "start": 681,
             "end": 735,
-            "value": "Boolean.prototype.isPrototypeOf(x2) must return true",
-            "raw": "'Boolean.prototype.isPrototypeOf(x2) must return true'"
+            "value": "Boolean.prototype.isPrototypeOf(x2) must return true"
           }
         ],
         "optional": false
@@ -268,8 +263,7 @@
                 "type": "Literal",
                 "start": 760,
                 "end": 761,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -360,8 +354,7 @@
             "type": "Literal",
             "start": 834,
             "end": 925,
-            "value": "The value of Boolean.prototype is expected to equal the value of x3.constructor.prototype",
-            "raw": "'The value of Boolean.prototype is expected to equal the value of x3.constructor.prototype'"
+            "value": "The value of Boolean.prototype is expected to equal the value of x3.constructor.prototype"
           }
         ],
         "optional": false

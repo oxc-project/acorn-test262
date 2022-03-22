@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 766,
             "end": 824,
-            "value": "isConstructor(Array.prototype.reverse) must return false",
-            "raw": "'isConstructor(Array.prototype.reverse) must return false'"
+            "value": "isConstructor(Array.prototype.reverse) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 898,
             "end": 948,
-            "value": "`new Array.prototype.reverse()` throws TypeError",
-            "raw": "'`new Array.prototype.reverse()` throws TypeError'"
+            "value": "`new Array.prototype.reverse()` throws TypeError"
           }
         ],
         "optional": false

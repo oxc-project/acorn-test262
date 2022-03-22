@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 788,
             "end": 798,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -196,8 +195,7 @@
                               "type": "Literal",
                               "start": 921,
                               "end": 922,
-                              "value": 4,
-                              "raw": "4"
+                              "value": 4
                             }
                           },
                           {
@@ -233,8 +231,7 @@
                                     "type": "Literal",
                                     "start": 946,
                                     "end": 947,
-                                    "value": 5,
-                                    "raw": "5"
+                                    "value": 5
                                   }
                                 },
                                 "kind": "init"
@@ -400,8 +397,7 @@
                                 "type": "Literal",
                                 "start": 1055,
                                 "end": 1056,
-                                "value": 5,
-                                "raw": "5"
+                                "value": 5
                               }
                             }
                           ],
@@ -486,8 +482,7 @@
                         "type": "Literal",
                         "start": 1119,
                         "end": 1135,
-                        "value": "following grow",
-                        "raw": "\"following grow\""
+                        "value": "following grow"
                       }
                     ],
                     "optional": false
@@ -545,8 +540,7 @@
                                 "type": "Literal",
                                 "start": 1167,
                                 "end": 1168,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               }
                             }
                           ],
@@ -631,8 +625,7 @@
                         "type": "Literal",
                         "start": 1231,
                         "end": 1265,
-                        "value": "following shrink (within bounds)",
-                        "raw": "\"following shrink (within bounds)\""
+                        "value": "following shrink (within bounds)"
                       }
                     ],
                     "optional": false
@@ -763,8 +756,7 @@
                         "type": "Literal",
                         "start": 1357,
                         "end": 1389,
-                        "value": "following shrink (on boundary)",
-                        "raw": "\"following shrink (on boundary)\""
+                        "value": "following shrink (on boundary)"
                       }
                     ],
                     "optional": false
@@ -836,8 +828,7 @@
                               "type": "Literal",
                               "start": 1437,
                               "end": 1438,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           ],
                           "optional": false
@@ -862,8 +853,7 @@
                             "type": "Literal",
                             "start": 1456,
                             "end": 1457,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         }
                       }
@@ -945,8 +935,7 @@
                         "type": "Literal",
                         "start": 1524,
                         "end": 1558,
-                        "value": "following shrink (out of bounds)",
-                        "raw": "\"following shrink (out of bounds)\""
+                        "value": "following shrink (out of bounds)"
                       }
                     ],
                     "optional": false

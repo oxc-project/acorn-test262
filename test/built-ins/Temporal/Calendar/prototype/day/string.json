@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 644,
                 "end": 653,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -111,8 +110,7 @@
                 "type": "Literal",
                 "start": 682,
                 "end": 694,
-                "value": "2019-03-15",
-                "raw": "\"2019-03-15\""
+                "value": "2019-03-15"
               }
             ],
             "optional": false
@@ -121,15 +119,13 @@
             "type": "Literal",
             "start": 697,
             "end": 699,
-            "value": 15,
-            "raw": "15"
+            "value": 15
           },
           {
             "type": "Literal",
             "start": 701,
             "end": 739,
-            "value": "cal.day(\"2019-03-15\") must return 15",
-            "raw": "'cal.day(\"2019-03-15\") must return 15'"
+            "value": "cal.day(\"2019-03-15\") must return 15"
           }
         ],
         "optional": false

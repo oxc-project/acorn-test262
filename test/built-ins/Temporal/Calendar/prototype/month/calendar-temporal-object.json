@@ -95,8 +95,7 @@
                             "type": "Literal",
                             "start": 1371,
                             "end": 1380,
-                            "value": "iso8601",
-                            "raw": "\"iso8601\""
+                            "value": "iso8601"
                           }
                         ]
                       }
@@ -154,8 +153,7 @@
                               "type": "Literal",
                               "start": 1408,
                               "end": 1412,
-                              "value": 2000,
-                              "raw": "2000"
+                              "value": 2000
                             },
                             "kind": "init"
                           },
@@ -176,8 +174,7 @@
                               "type": "Literal",
                               "start": 1421,
                               "end": 1422,
-                              "value": 5,
-                              "raw": "5"
+                              "value": 5
                             },
                             "kind": "init"
                           },
@@ -198,8 +195,7 @@
                               "type": "Literal",
                               "start": 1429,
                               "end": 1430,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             "kind": "init"
                           },

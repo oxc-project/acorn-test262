@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 758,
             "end": 813,
-            "value": "isConstructor(Set.prototype.values) must return false",
-            "raw": "'isConstructor(Set.prototype.values) must return false'"
+            "value": "isConstructor(Set.prototype.values) must return false"
           }
         ],
         "optional": false
@@ -218,8 +217,7 @@
             "type": "Literal",
             "start": 892,
             "end": 948,
-            "value": "`let s = new Set([]); new s.values()` throws TypeError",
-            "raw": "'`let s = new Set([]); new s.values()` throws TypeError'"
+            "value": "`let s = new Set([]); new s.values()` throws TypeError"
           }
         ],
         "optional": false

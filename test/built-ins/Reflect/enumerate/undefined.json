@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 326,
-                "value": "enumerate",
-                "raw": "\"enumerate\""
+                "value": "enumerate"
               }
             ],
             "optional": false

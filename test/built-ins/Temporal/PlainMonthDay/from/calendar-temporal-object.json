@@ -132,8 +132,7 @@
                                   "type": "Literal",
                                   "start": 1296,
                                   "end": 1301,
-                                  "value": "M05",
-                                  "raw": "\"M05\""
+                                  "value": "M05"
                                 },
                                 "kind": "init"
                               },
@@ -154,8 +153,7 @@
                                   "type": "Literal",
                                   "start": 1308,
                                   "end": 1309,
-                                  "value": 2,
-                                  "raw": "2"
+                                  "value": 2
                                 },
                                 "kind": "init"
                               },
@@ -246,8 +244,7 @@
                         "type": "Literal",
                         "start": 1386,
                         "end": 1423,
-                        "value": "Temporal object coerced to calendar",
-                        "raw": "\"Temporal object coerced to calendar\""
+                        "value": "Temporal object coerced to calendar"
                       }
                     ],
                     "optional": false

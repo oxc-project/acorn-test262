@@ -217,8 +217,7 @@
             "type": "Literal",
             "start": 539,
             "end": 551,
-            "value": "enumerable",
-            "raw": "\"enumerable\""
+            "value": "enumerable"
           },
           {
             "type": "ObjectExpression",
@@ -387,8 +386,7 @@
                 "type": "Literal",
                 "start": 679,
                 "end": 685,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -472,8 +470,7 @@
             "type": "Literal",
             "start": 751,
             "end": 761,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false

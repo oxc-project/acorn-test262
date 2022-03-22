@@ -152,8 +152,7 @@
             "type": "Literal",
             "start": 338,
             "end": 372,
-            "value": "Object.isFrozen(argObj) !== true",
-            "raw": "'Object.isFrozen(argObj) !== true'"
+            "value": "Object.isFrozen(argObj) !== true"
           }
         ],
         "optional": false

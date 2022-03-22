@@ -79,8 +79,7 @@
                 "type": "Literal",
                 "start": 542,
                 "end": 619,
-                "value": "new Proxy(function() {}, { apply: function(_, __, args) { return args; } })",
-                "raw": "'new Proxy(function() {}, { apply: function(_, __, args) { return args; } })'"
+                "value": "new Proxy(function() {}, { apply: function(_, __, args) { return args; } })"
               }
             ],
             "optional": false

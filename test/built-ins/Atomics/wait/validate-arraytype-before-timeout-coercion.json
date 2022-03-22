@@ -70,8 +70,7 @@
                               "type": "Literal",
                               "start": 897,
                               "end": 914,
-                              "value": "timeout coerced",
-                              "raw": "\"timeout coerced\""
+                              "value": "timeout coerced"
                             }
                           ]
                         }
@@ -237,8 +236,7 @@
                           "type": "Literal",
                           "start": 1162,
                           "end": 1163,
-                          "value": 8,
-                          "raw": "8"
+                          "value": 8
                         }
                       ]
                     }
@@ -334,15 +332,13 @@
                               "type": "Literal",
                               "start": 1236,
                               "end": 1237,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1239,
                               "end": 1240,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Identifier",

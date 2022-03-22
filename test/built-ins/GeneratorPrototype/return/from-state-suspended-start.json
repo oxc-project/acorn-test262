@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 386,
             "end": 387,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -67,8 +66,7 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 421,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -170,8 +168,7 @@
               "type": "Literal",
               "start": 475,
               "end": 477,
-              "value": 56,
-              "raw": "56"
+              "value": 56
             }
           ],
           "optional": false
@@ -229,8 +226,7 @@
             "type": "Literal",
             "start": 512,
             "end": 514,
-            "value": 56,
-            "raw": "56"
+            "value": 56
           }
         ],
         "optional": false
@@ -332,15 +328,13 @@
             "type": "Literal",
             "start": 585,
             "end": 586,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 645,
-            "value": "body not evaluated during processing of `return` method",
-            "raw": "'body not evaluated during processing of `return` method'"
+            "value": "body not evaluated during processing of `return` method"
           }
         ],
         "optional": false
@@ -446,8 +440,7 @@
             "type": "Literal",
             "start": 715,
             "end": 731,
-            "value": "Result `value`",
-            "raw": "'Result `value`'"
+            "value": "Result `value`"
           }
         ],
         "optional": false
@@ -511,8 +504,7 @@
             "type": "Literal",
             "start": 770,
             "end": 790,
-            "value": "Result `done` flag",
-            "raw": "'Result `done` flag'"
+            "value": "Result `done` flag"
           }
         ],
         "optional": false
@@ -556,15 +548,13 @@
             "type": "Literal",
             "start": 824,
             "end": 825,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 827,
             "end": 886,
-            "value": "body not evaluated when \"completed\" generator is advanced",
-            "raw": "'body not evaluated when \"completed\" generator is advanced'"
+            "value": "body not evaluated when \"completed\" generator is advanced"
           }
         ],
         "optional": false

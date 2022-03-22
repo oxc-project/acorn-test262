@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 536,
                               "end": 544,
-                              "value": 7168,
-                              "raw": "0x001C00"
+                              "value": 7168
                             },
                             {
                               "type": "Literal",
                               "start": 546,
                               "end": 554,
-                              "value": 7223,
-                              "raw": "0x001C37"
+                              "value": 7223
                             }
                           ]
                         },
@@ -103,15 +101,13 @@
                               "type": "Literal",
                               "start": 562,
                               "end": 570,
-                              "value": 7227,
-                              "raw": "0x001C3B"
+                              "value": 7227
                             },
                             {
                               "type": "Literal",
                               "start": 572,
                               "end": 580,
-                              "value": 7241,
-                              "raw": "0x001C49"
+                              "value": 7241
                             }
                           ]
                         },
@@ -124,15 +120,13 @@
                               "type": "Literal",
                               "start": 588,
                               "end": 596,
-                              "value": 7245,
-                              "raw": "0x001C4D"
+                              "value": 7245
                             },
                             {
                               "type": "Literal",
                               "start": 598,
                               "end": 606,
-                              "value": 7247,
-                              "raw": "0x001C4F"
+                              "value": 7247
                             }
                           ]
                         }
@@ -169,7 +163,6 @@
             "start": 639,
             "end": 673,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Lepcha}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Lepcha}+$",
               "flags": "u"
@@ -185,8 +178,7 @@
             "type": "Literal",
             "start": 693,
             "end": 724,
-            "value": "\\p{Script_Extensions=Lepcha}",
-            "raw": "\"\\\\p{Script_Extensions=Lepcha}\""
+            "value": "\\p{Script_Extensions=Lepcha}"
           }
         ],
         "optional": false
@@ -212,7 +204,6 @@
             "start": 751,
             "end": 783,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Lepc}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Lepc}+$",
               "flags": "u"
@@ -228,8 +219,7 @@
             "type": "Literal",
             "start": 803,
             "end": 832,
-            "value": "\\p{Script_Extensions=Lepc}",
-            "raw": "\"\\\\p{Script_Extensions=Lepc}\""
+            "value": "\\p{Script_Extensions=Lepc}"
           }
         ],
         "optional": false
@@ -255,7 +245,6 @@
             "start": 859,
             "end": 879,
             "value": {},
-            "raw": "/^\\p{scx=Lepcha}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Lepcha}+$",
               "flags": "u"
@@ -271,8 +260,7 @@
             "type": "Literal",
             "start": 899,
             "end": 916,
-            "value": "\\p{scx=Lepcha}",
-            "raw": "\"\\\\p{scx=Lepcha}\""
+            "value": "\\p{scx=Lepcha}"
           }
         ],
         "optional": false
@@ -298,7 +286,6 @@
             "start": 943,
             "end": 961,
             "value": {},
-            "raw": "/^\\p{scx=Lepc}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Lepc}+$",
               "flags": "u"
@@ -314,8 +301,7 @@
             "type": "Literal",
             "start": 981,
             "end": 996,
-            "value": "\\p{scx=Lepc}",
-            "raw": "\"\\\\p{scx=Lepc}\""
+            "value": "\\p{scx=Lepc}"
           }
         ],
         "optional": false
@@ -400,15 +386,13 @@
                               "type": "Literal",
                               "start": 1078,
                               "end": 1086,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1088,
                               "end": 1096,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -421,15 +405,13 @@
                               "type": "Literal",
                               "start": 1104,
                               "end": 1112,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1114,
                               "end": 1122,
-                              "value": 7167,
-                              "raw": "0x001BFF"
+                              "value": 7167
                             }
                           ]
                         },
@@ -442,15 +424,13 @@
                               "type": "Literal",
                               "start": 1130,
                               "end": 1138,
-                              "value": 7224,
-                              "raw": "0x001C38"
+                              "value": 7224
                             },
                             {
                               "type": "Literal",
                               "start": 1140,
                               "end": 1148,
-                              "value": 7226,
-                              "raw": "0x001C3A"
+                              "value": 7226
                             }
                           ]
                         },
@@ -463,15 +443,13 @@
                               "type": "Literal",
                               "start": 1156,
                               "end": 1164,
-                              "value": 7242,
-                              "raw": "0x001C4A"
+                              "value": 7242
                             },
                             {
                               "type": "Literal",
                               "start": 1166,
                               "end": 1174,
-                              "value": 7244,
-                              "raw": "0x001C4C"
+                              "value": 7244
                             }
                           ]
                         },
@@ -484,15 +462,13 @@
                               "type": "Literal",
                               "start": 1182,
                               "end": 1190,
-                              "value": 7248,
-                              "raw": "0x001C50"
+                              "value": 7248
                             },
                             {
                               "type": "Literal",
                               "start": 1192,
                               "end": 1200,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -505,15 +481,13 @@
                               "type": "Literal",
                               "start": 1208,
                               "end": 1216,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1218,
                               "end": 1226,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -550,7 +524,6 @@
             "start": 1259,
             "end": 1293,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Lepcha}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Lepcha}+$",
               "flags": "u"
@@ -566,8 +539,7 @@
             "type": "Literal",
             "start": 1316,
             "end": 1347,
-            "value": "\\P{Script_Extensions=Lepcha}",
-            "raw": "\"\\\\P{Script_Extensions=Lepcha}\""
+            "value": "\\P{Script_Extensions=Lepcha}"
           }
         ],
         "optional": false
@@ -593,7 +565,6 @@
             "start": 1374,
             "end": 1406,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Lepc}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Lepc}+$",
               "flags": "u"
@@ -609,8 +580,7 @@
             "type": "Literal",
             "start": 1429,
             "end": 1458,
-            "value": "\\P{Script_Extensions=Lepc}",
-            "raw": "\"\\\\P{Script_Extensions=Lepc}\""
+            "value": "\\P{Script_Extensions=Lepc}"
           }
         ],
         "optional": false
@@ -636,7 +606,6 @@
             "start": 1485,
             "end": 1505,
             "value": {},
-            "raw": "/^\\P{scx=Lepcha}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Lepcha}+$",
               "flags": "u"
@@ -652,8 +621,7 @@
             "type": "Literal",
             "start": 1528,
             "end": 1545,
-            "value": "\\P{scx=Lepcha}",
-            "raw": "\"\\\\P{scx=Lepcha}\""
+            "value": "\\P{scx=Lepcha}"
           }
         ],
         "optional": false
@@ -679,7 +647,6 @@
             "start": 1572,
             "end": 1590,
             "value": {},
-            "raw": "/^\\P{scx=Lepc}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Lepc}+$",
               "flags": "u"
@@ -695,8 +662,7 @@
             "type": "Literal",
             "start": 1613,
             "end": 1628,
-            "value": "\\P{scx=Lepc}",
-            "raw": "\"\\\\P{scx=Lepc}\""
+            "value": "\\P{scx=Lepc}"
           }
         ],
         "optional": false

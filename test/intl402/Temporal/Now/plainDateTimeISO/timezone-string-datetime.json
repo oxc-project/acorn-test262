@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 296,
             "end": 314,
-            "value": "2021-08-19T17:30",
-            "raw": "\"2021-08-19T17:30\""
+            "value": "2021-08-19T17:30"
           }
         }
       ],
@@ -123,8 +122,7 @@
             "type": "Literal",
             "start": 389,
             "end": 431,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -246,8 +244,7 @@
             "type": "Literal",
             "start": 511,
             "end": 553,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -274,99 +271,85 @@
                 "type": "Literal",
                 "start": 622,
                 "end": 641,
-                "value": "2021-08-19T17:30Z",
-                "raw": "\"2021-08-19T17:30Z\""
+                "value": "2021-08-19T17:30Z"
               },
               {
                 "type": "Literal",
                 "start": 645,
                 "end": 663,
-                "value": "2021-08-19T1730Z",
-                "raw": "\"2021-08-19T1730Z\""
+                "value": "2021-08-19T1730Z"
               },
               {
                 "type": "Literal",
                 "start": 667,
                 "end": 691,
-                "value": "2021-08-19T17:30-07:00",
-                "raw": "\"2021-08-19T17:30-07:00\""
+                "value": "2021-08-19T17:30-07:00"
               },
               {
                 "type": "Literal",
                 "start": 695,
                 "end": 718,
-                "value": "2021-08-19T1730-07:00",
-                "raw": "\"2021-08-19T1730-07:00\""
+                "value": "2021-08-19T1730-07:00"
               },
               {
                 "type": "Literal",
                 "start": 722,
                 "end": 745,
-                "value": "2021-08-19T17:30-0700",
-                "raw": "\"2021-08-19T17:30-0700\""
+                "value": "2021-08-19T17:30-0700"
               },
               {
                 "type": "Literal",
                 "start": 749,
                 "end": 771,
-                "value": "2021-08-19T1730-0700",
-                "raw": "\"2021-08-19T1730-0700\""
+                "value": "2021-08-19T1730-0700"
               },
               {
                 "type": "Literal",
                 "start": 775,
                 "end": 812,
-                "value": "2021-08-19T17:30[America/Vancouver]",
-                "raw": "\"2021-08-19T17:30[America/Vancouver]\""
+                "value": "2021-08-19T17:30[America/Vancouver]"
               },
               {
                 "type": "Literal",
                 "start": 816,
                 "end": 852,
-                "value": "2021-08-19T1730[America/Vancouver]",
-                "raw": "\"2021-08-19T1730[America/Vancouver]\""
+                "value": "2021-08-19T1730[America/Vancouver]"
               },
               {
                 "type": "Literal",
                 "start": 856,
                 "end": 894,
-                "value": "2021-08-19T17:30Z[America/Vancouver]",
-                "raw": "\"2021-08-19T17:30Z[America/Vancouver]\""
+                "value": "2021-08-19T17:30Z[America/Vancouver]"
               },
               {
                 "type": "Literal",
                 "start": 898,
                 "end": 935,
-                "value": "2021-08-19T1730Z[America/Vancouver]",
-                "raw": "\"2021-08-19T1730Z[America/Vancouver]\""
+                "value": "2021-08-19T1730Z[America/Vancouver]"
               },
               {
                 "type": "Literal",
                 "start": 939,
                 "end": 982,
-                "value": "2021-08-19T17:30-07:00[America/Vancouver]",
-                "raw": "\"2021-08-19T17:30-07:00[America/Vancouver]\""
+                "value": "2021-08-19T17:30-07:00[America/Vancouver]"
               },
               {
                 "type": "Literal",
                 "start": 986,
                 "end": 1028,
-                "value": "2021-08-19T1730-07:00[America/Vancouver]",
-                "raw": "\"2021-08-19T1730-07:00[America/Vancouver]\""
+                "value": "2021-08-19T1730-07:00[America/Vancouver]"
               },
               {
                 "type": "Literal",
                 "start": 1032,
                 "end": 1074,
-                "value": "2021-08-19T17:30-0700[America/Vancouver]",
-                "raw": "\"2021-08-19T17:30-0700[America/Vancouver]\""
+                "value": "2021-08-19T17:30-0700[America/Vancouver]"
               },
               {
                 "type": "Literal",
                 "start": 1078,
                 "end": 1119,
-                "value": "2021-08-19T1730-0700[America/Vancouver]",
-                "raw": "\"2021-08-19T1730-0700[America/Vancouver]\""
+                "value": "2021-08-19T1730-0700[America/Vancouver]"
               }
             ]
           },

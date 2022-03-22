@@ -174,8 +174,7 @@
                                     "type": "Literal",
                                     "start": 600,
                                     "end": 633,
-                                    "value": "shouldn't touch Symbol.iterator",
-                                    "raw": "\"shouldn't touch Symbol.iterator\""
+                                    "value": "shouldn't touch Symbol.iterator"
                                   }
                                 ]
                               }
@@ -229,8 +228,7 @@
                 "type": "Literal",
                 "start": 911,
                 "end": 951,
-                "value": "for-await-of body shouldn't be reached",
-                "raw": "\"for-await-of body shouldn't be reached\""
+                "value": "for-await-of body shouldn't be reached"
               }
             }
           },
@@ -242,8 +240,7 @@
               "type": "Literal",
               "start": 963,
               "end": 991,
-              "value": "should have failed earlier",
-              "raw": "\"should have failed earlier\""
+              "value": "should have failed earlier"
             }
           }
         ]
@@ -388,16 +385,14 @@
                                   "type": "Literal",
                                   "start": 1118,
                                   "end": 1147,
-                                  "value": "expected TypeError because ",
-                                  "raw": "\"expected TypeError because \""
+                                  "value": "expected TypeError because "
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 1178,
                                   "end": 1221,
-                                  "value": "`iter[Symbol.asyncIterator]() returned a ",
-                                  "raw": "\"`iter[Symbol.asyncIterator]() returned a \""
+                                  "value": "`iter[Symbol.asyncIterator]() returned a "
                                 }
                               },
                               "operator": "+",
@@ -405,8 +400,7 @@
                                 "type": "Literal",
                                 "start": 1252,
                                 "end": 1266,
-                                "value": "non-object: ",
-                                "raw": "\"non-object: \""
+                                "value": "non-object: "
                               }
                             },
                             "operator": "+",

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 999,
                 "end": 1036,
-                "value": "1; for (var run = false; run; ) { }",
-                "raw": "'1; for (var run = false; run; ) { }'"
+                "value": "1; for (var run = false; run; ) { }"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 1073,
                 "end": 1113,
-                "value": "2; for (var run = false; run; ) { 3; }",
-                "raw": "'2; for (var run = false; run; ) { 3; }'"
+                "value": "2; for (var run = false; run; ) { 3; }"
               }
             ],
             "optional": false

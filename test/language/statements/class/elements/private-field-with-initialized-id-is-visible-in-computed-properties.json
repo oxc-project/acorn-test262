@@ -92,13 +92,12 @@
                     "end": 2807,
                     "body": [
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 2765,
-                        "end": 2776,
-                        "static": false,
+                        "end": 2775,
                         "computed": false,
                         "key": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 2765,
                           "end": 2767,
                           "name": "f"
@@ -107,15 +106,13 @@
                           "type": "Literal",
                           "start": 2770,
                           "end": 2775,
-                          "value": "foo",
-                          "raw": "'foo'"
+                          "value": "foo"
                         }
                       },
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 2781,
-                        "end": 2803,
-                        "static": false,
+                        "end": 2802,
                         "computed": true,
                         "key": {
                           "type": "MemberExpression",
@@ -127,21 +124,20 @@
                             "end": 2786,
                             "name": "self"
                           },
+                          "computed": false,
+                          "optional": false,
                           "property": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 2787,
                             "end": 2789,
                             "name": "f"
-                          },
-                          "computed": false,
-                          "optional": false
+                          }
                         },
                         "value": {
                           "type": "Literal",
                           "start": 2793,
                           "end": 2802,
-                          "value": "Test262",
-                          "raw": "'Test262'"
+                          "value": "Test262"
                         }
                       }
                     ]
@@ -154,8 +150,7 @@
             "type": "Literal",
             "start": 2811,
             "end": 2885,
-            "value": "access to a not defined private field in object should throw a TypeError",
-            "raw": "'access to a not defined private field in object should throw a TypeError'"
+            "value": "access to a not defined private field in object should throw a TypeError"
           }
         ],
         "optional": false

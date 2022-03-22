@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 570,
             "end": 576,
-            "value": "cube",
-            "raw": "\"cube\""
+            "value": "cube"
           }
         }
       ],
@@ -262,8 +261,7 @@
                     "type": "Literal",
                     "start": 873,
                     "end": 945,
-                    "value": "#1: __device.printShape !== undefined. Actual: __device.printShape ===",
-                    "raw": "'#1: __device.printShape !== undefined. Actual: __device.printShape ==='"
+                    "value": "#1: __device.printShape !== undefined. Actual: __device.printShape ==="
                   },
                   "operator": "+",
                   "right": {
@@ -363,8 +361,7 @@
                     "type": "Literal",
                     "start": 1206,
                     "end": 1279,
-                    "value": "#2: __device.printShape() === __CUBE. Actual: __device.printShape() ===",
-                    "raw": "'#2: __device.printShape() === __CUBE. Actual: __device.printShape() ==='"
+                    "value": "#2: __device.printShape() === __CUBE. Actual: __device.printShape() ==="
                   },
                   "operator": "+",
                   "right": {

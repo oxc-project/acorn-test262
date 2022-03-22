@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 797,
             "end": 857,
-            "value": "isConstructor(Promise.prototype.finally) must return false",
-            "raw": "'isConstructor(Promise.prototype.finally) must return false'"
+            "value": "isConstructor(Promise.prototype.finally) must return false"
           }
         ],
         "optional": false
@@ -228,8 +227,7 @@
             "type": "Literal",
             "start": 948,
             "end": 1015,
-            "value": "`let p = new Promise(() => {}); new p.finally()` throws TypeError",
-            "raw": "'`let p = new Promise(() => {}); new p.finally()` throws TypeError'"
+            "value": "`let p = new Promise(() => {}); new p.finally()` throws TypeError"
           }
         ],
         "optional": false

@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 642,
             "end": 652,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -100,8 +99,7 @@
             "type": "Literal",
             "start": 664,
             "end": 676,
-            "value": "12\ud80034",
-            "raw": "\"12\\uD80034\""
+            "value": "12\ud80034"
           }
         }
       ],
@@ -163,8 +161,7 @@
                 "type": "Literal",
                 "start": 701,
                 "end": 702,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -173,15 +170,13 @@
             "type": "Literal",
             "start": 705,
             "end": 708,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "Literal",
             "start": 710,
             "end": 735,
-            "value": "s.at(0) must return \"1\"",
-            "raw": "'s.at(0) must return \"1\"'"
+            "value": "s.at(0) must return \"1\""
           }
         ],
         "optional": false
@@ -243,8 +238,7 @@
                 "type": "Literal",
                 "start": 760,
                 "end": 761,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -253,15 +247,13 @@
             "type": "Literal",
             "start": 764,
             "end": 767,
-            "value": "2",
-            "raw": "\"2\""
+            "value": "2"
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 794,
-            "value": "s.at(1) must return \"2\"",
-            "raw": "'s.at(1) must return \"2\"'"
+            "value": "s.at(1) must return \"2\""
           }
         ],
         "optional": false
@@ -323,8 +315,7 @@
                 "type": "Literal",
                 "start": 819,
                 "end": 820,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -333,15 +324,13 @@
             "type": "Literal",
             "start": 823,
             "end": 831,
-            "value": "\ud800",
-            "raw": "\"\\uD800\""
+            "value": "\ud800"
           },
           {
             "type": "Literal",
             "start": 833,
             "end": 864,
-            "value": "s.at(2) must return \"\\uD800\"",
-            "raw": "'s.at(2) must return \"\\\\uD800\"'"
+            "value": "s.at(2) must return \"\\uD800\""
           }
         ],
         "optional": false
@@ -403,8 +392,7 @@
                 "type": "Literal",
                 "start": 889,
                 "end": 890,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ],
             "optional": false
@@ -413,15 +401,13 @@
             "type": "Literal",
             "start": 893,
             "end": 896,
-            "value": "3",
-            "raw": "\"3\""
+            "value": "3"
           },
           {
             "type": "Literal",
             "start": 898,
             "end": 923,
-            "value": "s.at(3) must return \"3\"",
-            "raw": "'s.at(3) must return \"3\"'"
+            "value": "s.at(3) must return \"3\""
           }
         ],
         "optional": false
@@ -483,8 +469,7 @@
                 "type": "Literal",
                 "start": 948,
                 "end": 949,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ],
             "optional": false
@@ -493,15 +478,13 @@
             "type": "Literal",
             "start": 952,
             "end": 955,
-            "value": "4",
-            "raw": "\"4\""
+            "value": "4"
           },
           {
             "type": "Literal",
             "start": 957,
             "end": 982,
-            "value": "s.at(4) must return \"4\"",
-            "raw": "'s.at(4) must return \"4\"'"
+            "value": "s.at(4) must return \"4\""
           }
         ],
         "optional": false

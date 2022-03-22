@@ -130,8 +130,7 @@
             "type": "Literal",
             "start": 556,
             "end": 572,
-            "value": "returns target",
-            "raw": "'returns target'"
+            "value": "returns target"
           }
         ],
         "optional": false
@@ -201,8 +200,7 @@
             "type": "Literal",
             "start": 614,
             "end": 644,
-            "value": "[[Target]] is not emptied #1",
-            "raw": "'[[Target]] is not emptied #1'"
+            "value": "[[Target]] is not emptied #1"
           }
         ],
         "optional": false
@@ -272,8 +270,7 @@
             "type": "Literal",
             "start": 686,
             "end": 716,
-            "value": "[[Target]] is not emptied #2",
-            "raw": "'[[Target]] is not emptied #2'"
+            "value": "[[Target]] is not emptied #2"
           }
         ],
         "optional": false
@@ -343,8 +340,7 @@
             "type": "Literal",
             "start": 758,
             "end": 788,
-            "value": "[[Target]] is not emptied #3",
-            "raw": "'[[Target]] is not emptied #3'"
+            "value": "[[Target]] is not emptied #3"
           }
         ],
         "optional": false

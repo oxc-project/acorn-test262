@@ -68,8 +68,7 @@
           "type": "Literal",
           "start": 473,
           "end": 481,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -100,8 +99,7 @@
                     "type": "Literal",
                     "start": 510,
                     "end": 593,
-                    "value": "#1: var x; __str = String(x); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: var x; __str = String(x); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#1: var x; __str = String(x); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -144,8 +142,7 @@
           "type": "Literal",
           "start": 799,
           "end": 810,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -176,8 +173,7 @@
                     "type": "Literal",
                     "start": 839,
                     "end": 911,
-                    "value": "#2: var x; __str = String(x); __str === \"undefined\". Actual: __str ===",
-                    "raw": "'#2: var x; __str = String(x); __str === \"undefined\". Actual: __str ==='"
+                    "value": "#2: var x; __str = String(x); __str === \"undefined\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {

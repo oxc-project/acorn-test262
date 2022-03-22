@@ -118,22 +118,19 @@
                   "type": "Literal",
                   "start": 808,
                   "end": 809,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 811,
                   "end": 812,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 814,
                   "end": 816,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 }
               ]
             }
@@ -179,8 +176,7 @@
             "type": "Literal",
             "start": 847,
             "end": 860,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -223,8 +219,7 @@
                           "type": "Literal",
                           "start": 880,
                           "end": 922,
-                          "value": "it should not object the typedarray ctor",
-                          "raw": "\"it should not object the typedarray ctor\""
+                          "value": "it should not object the typedarray ctor"
                         }
                       }
                     ]
@@ -349,22 +344,19 @@
                 "type": "Literal",
                 "start": 995,
                 "end": 996,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 998,
                 "end": 999,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1001,
                 "end": 1003,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ]
           },
@@ -372,8 +364,7 @@
             "type": "Literal",
             "start": 1006,
             "end": 1056,
-            "value": "The value of actual is expected to be [1, 0, 42]",
-            "raw": "'The value of actual is expected to be [1, 0, 42]'"
+            "value": "The value of actual is expected to be [1, 0, 42]"
           }
         ],
         "optional": false
@@ -463,8 +454,7 @@
             "type": "Literal",
             "start": 1124,
             "end": 1199,
-            "value": "Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype'"
+            "value": "Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype"
           }
         ],
         "optional": false
@@ -527,8 +517,7 @@
             "type": "Literal",
             "start": 1256,
             "end": 1337,
-            "value": "The result of evaluating (actual instanceof Int32Array) is expected to be false",
-            "raw": "'The result of evaluating (actual instanceof Int32Array) is expected to be false'"
+            "value": "The result of evaluating (actual instanceof Int32Array) is expected to be false"
           }
         ],
         "optional": false
@@ -564,8 +553,7 @@
               "type": "Literal",
               "start": 1361,
               "end": 1362,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ]
         }
@@ -609,8 +597,7 @@
             "type": "Literal",
             "start": 1392,
             "end": 1405,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -653,8 +640,7 @@
                           "type": "Literal",
                           "start": 1425,
                           "end": 1467,
-                          "value": "it should not object the typedarray ctor",
-                          "raw": "\"it should not object the typedarray ctor\""
+                          "value": "it should not object the typedarray ctor"
                         }
                       }
                     ]
@@ -780,8 +766,7 @@
             "type": "Literal",
             "start": 1543,
             "end": 1585,
-            "value": "The value of actual is expected to be []",
-            "raw": "'The value of actual is expected to be []'"
+            "value": "The value of actual is expected to be []"
           }
         ],
         "optional": false
@@ -871,8 +856,7 @@
             "type": "Literal",
             "start": 1653,
             "end": 1728,
-            "value": "Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype'"
+            "value": "Object.getPrototypeOf([].flatMap.call(ta, same)\") returns Array.prototype"
           }
         ],
         "optional": false
@@ -935,8 +919,7 @@
             "type": "Literal",
             "start": 1785,
             "end": 1866,
-            "value": "The result of evaluating (actual instanceof Int32Array) is expected to be false",
-            "raw": "'The result of evaluating (actual instanceof Int32Array) is expected to be false'"
+            "value": "The result of evaluating (actual instanceof Int32Array) is expected to be false"
           }
         ],
         "optional": false

@@ -265,8 +265,7 @@
                 "type": "Literal",
                 "start": 819,
                 "end": 830,
-                "value": "prototype",
-                "raw": "\"prototype\""
+                "value": "prototype"
               }
             ],
             "optional": false
@@ -282,8 +281,7 @@
             "type": "Literal",
             "start": 844,
             "end": 931,
-            "value": "Object.prototype.hasOwnProperty.call(executorFunction, \"prototype\") must return false",
-            "raw": "'Object.prototype.hasOwnProperty.call(executorFunction, \"prototype\") must return false'"
+            "value": "Object.prototype.hasOwnProperty.call(executorFunction, \"prototype\") must return false"
           }
         ],
         "optional": false
@@ -348,8 +346,7 @@
             "type": "Literal",
             "start": 992,
             "end": 1043,
-            "value": "isConstructor(executorFunction) must return false",
-            "raw": "'isConstructor(executorFunction) must return false'"
+            "value": "isConstructor(executorFunction) must return false"
           }
         ],
         "optional": false
@@ -427,8 +424,7 @@
             "type": "Literal",
             "start": 1109,
             "end": 1152,
-            "value": "`new executorFunction()` throws TypeError",
-            "raw": "'`new executorFunction()` throws TypeError'"
+            "value": "`new executorFunction()` throws TypeError"
           }
         ],
         "optional": false

@@ -23,7 +23,6 @@
             "start": 612,
             "end": 615,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -139,7 +138,6 @@
                             "start": 706,
                             "end": 709,
                             "value": {},
-                            "raw": "/./",
                             "regex": {
                               "pattern": ".",
                               "flags": ""
@@ -149,8 +147,7 @@
                             "type": "Literal",
                             "start": 711,
                             "end": 719,
-                            "value": "global",
-                            "raw": "'global'"
+                            "value": "global"
                           },
                           {
                             "type": "ObjectExpression",
@@ -266,8 +263,7 @@
             "type": "Literal",
             "start": 819,
             "end": 821,
-            "value": "",
-            "raw": "''"
+            "value": ""
           }
         ],
         "optional": false

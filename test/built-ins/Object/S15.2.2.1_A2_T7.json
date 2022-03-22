@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 420,
             "end": 431,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 491,
-            "value": "The value of `typeof func` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof func` is expected to be \"undefined\"'"
+            "value": "The value of `typeof func` is expected to be \"undefined\""
           }
         ],
         "optional": false
@@ -115,8 +113,7 @@
                         "type": "Literal",
                         "start": 545,
                         "end": 546,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   ]
@@ -185,8 +182,7 @@
             "type": "Literal",
             "start": 606,
             "end": 681,
-            "value": "The value of n_obj.constructor is expected to equal the value of Function",
-            "raw": "'The value of n_obj.constructor is expected to equal the value of Function'"
+            "value": "The value of n_obj.constructor is expected to equal the value of Function"
           }
         ],
         "optional": false
@@ -237,15 +233,13 @@
             "type": "Literal",
             "start": 712,
             "end": 713,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 715,
             "end": 738,
-            "value": "n_obj() must return 1",
-            "raw": "'n_obj() must return 1'"
+            "value": "n_obj() must return 1"
           }
         ],
         "optional": false
@@ -296,15 +290,13 @@
             "type": "Literal",
             "start": 771,
             "end": 782,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 842,
-            "value": "The value of `typeof func` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof func` is expected to be \"undefined\"'"
+            "value": "The value of `typeof func` is expected to be \"undefined\""
           }
         ],
         "optional": false

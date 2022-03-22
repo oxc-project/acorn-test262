@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 1707,
                 "end": 1714,
-                "value": "value",
-                "raw": "'value'"
+                "value": "value"
               },
               {
                 "type": "ObjectExpression",
@@ -362,8 +361,7 @@
                       "type": "Literal",
                       "start": 1984,
                       "end": 1985,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "update": null,

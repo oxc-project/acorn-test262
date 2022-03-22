@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 357,
-                "value": "America/Vancouver",
-                "raw": "\"America/Vancouver\""
+                "value": "America/Vancouver"
               }
             ]
           }
@@ -74,8 +73,7 @@
             "type": "Literal",
             "start": 371,
             "end": 389,
-            "value": "1970-01-01T00:00",
-            "raw": "\"1970-01-01T00:00\""
+            "value": "1970-01-01T00:00"
           }
         }
       ],
@@ -162,8 +160,7 @@
             "type": "Literal",
             "start": 457,
             "end": 498,
-            "value": "bare date-time string is not an instant",
-            "raw": "\"bare date-time string is not an instant\""
+            "value": "bare date-time string is not an instant"
           }
         ],
         "optional": false
@@ -188,8 +185,7 @@
           "type": "Literal",
           "start": 507,
           "end": 544,
-          "value": "1970-01-01T00:00[America/Vancouver]",
-          "raw": "\"1970-01-01T00:00[America/Vancouver]\""
+          "value": "1970-01-01T00:00[America/Vancouver]"
         }
       }
     },
@@ -274,8 +270,7 @@
             "type": "Literal",
             "start": 612,
             "end": 659,
-            "value": "date-time + IANA annotation is not an instant",
-            "raw": "\"date-time + IANA annotation is not an instant\""
+            "value": "date-time + IANA annotation is not an instant"
           }
         ],
         "optional": false
@@ -305,29 +300,25 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 762,
-                "value": "1970-01-01T00:00Z",
-                "raw": "\"1970-01-01T00:00Z\""
+                "value": "1970-01-01T00:00Z"
               },
               {
                 "type": "Literal",
                 "start": 766,
                 "end": 790,
-                "value": "1970-01-01T00:00+01:00",
-                "raw": "\"1970-01-01T00:00+01:00\""
+                "value": "1970-01-01T00:00+01:00"
               },
               {
                 "type": "Literal",
                 "start": 794,
                 "end": 832,
-                "value": "1970-01-01T00:00Z[America/Vancouver]",
-                "raw": "\"1970-01-01T00:00Z[America/Vancouver]\""
+                "value": "1970-01-01T00:00Z[America/Vancouver]"
               },
               {
                 "type": "Literal",
                 "start": 836,
                 "end": 879,
-                "value": "1970-01-01T00:00+01:00[America/Vancouver]",
-                "raw": "\"1970-01-01T00:00+01:00[America/Vancouver]\""
+                "value": "1970-01-01T00:00+01:00[America/Vancouver]"
               }
             ]
           }
@@ -461,8 +452,7 @@
                   "type": "Literal",
                   "start": 990,
                   "end": 998,
-                  "value": "-08:00",
-                  "raw": "\"-08:00\""
+                  "value": "-08:00"
                 }
               ],
               "optional": false

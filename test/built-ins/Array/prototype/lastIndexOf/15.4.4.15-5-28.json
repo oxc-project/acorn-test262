@@ -108,8 +108,7 @@
                           "type": "Literal",
                           "start": 417,
                           "end": 418,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -299,8 +298,7 @@
             "type": "Literal",
             "start": 578,
             "end": 594,
-            "value": "stepFiveOccurs",
-            "raw": "'stepFiveOccurs'"
+            "value": "stepFiveOccurs"
           }
         ],
         "optional": false

@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 292,
                 "end": 298,
-                "value": "word",
-                "raw": "'word'"
+                "value": "word"
               },
               "property": {
                 "type": "Identifier",
@@ -60,15 +59,13 @@
                 "type": "Literal",
                 "start": 308,
                 "end": 311,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 314,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -84,8 +81,7 @@
             "type": "Literal",
             "start": 324,
             "end": 349,
-            "value": "\"word\".includes(\"a\", 0)",
-            "raw": "'\"word\".includes(\"a\", 0)'"
+            "value": "\"word\".includes(\"a\", 0)"
           }
         ],
         "optional": false

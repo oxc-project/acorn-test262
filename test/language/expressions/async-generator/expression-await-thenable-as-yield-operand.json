@@ -82,8 +82,7 @@
                               "type": "Literal",
                               "start": 414,
                               "end": 417,
-                              "value": "a",
-                              "raw": "\"a\""
+                              "value": "a"
                             }
                           ],
                           "optional": false
@@ -298,15 +297,13 @@
                             "type": "Literal",
                             "start": 560,
                             "end": 563,
-                            "value": "a",
-                            "raw": "\"a\""
+                            "value": "a"
                           },
                           {
                             "type": "Literal",
                             "start": 565,
                             "end": 587,
-                            "value": "First result `value`",
-                            "raw": "'First result `value`'"
+                            "value": "First result `value`"
                           }
                         ],
                         "optional": false
@@ -370,8 +367,7 @@
                             "type": "Literal",
                             "start": 629,
                             "end": 655,
-                            "value": "First result `done` flag",
-                            "raw": "'First result `done` flag'"
+                            "value": "First result `done` flag"
                           }
                         ],
                         "optional": false
@@ -543,8 +539,7 @@
                             "type": "Literal",
                             "start": 766,
                             "end": 789,
-                            "value": "Second result `value`",
-                            "raw": "'Second result `value`'"
+                            "value": "Second result `value`"
                           }
                         ],
                         "optional": false
@@ -608,8 +603,7 @@
                             "type": "Literal",
                             "start": 830,
                             "end": 857,
-                            "value": "Second result `done` flag",
-                            "raw": "'Second result `done` flag'"
+                            "value": "Second result `done` flag"
                           }
                         ],
                         "optional": false

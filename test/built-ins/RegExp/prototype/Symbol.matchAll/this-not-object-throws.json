@@ -129,8 +129,7 @@
                         "type": "Literal",
                         "start": 490,
                         "end": 492,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -211,8 +210,7 @@
             "type": "Literal",
             "start": 556,
             "end": 576,
-            "value": "this value is null",
-            "raw": "'this value is null'"
+            "value": "this value is null"
           }
         ],
         "optional": false
@@ -286,8 +284,7 @@
             "type": "Literal",
             "start": 637,
             "end": 660,
-            "value": "this value is Boolean",
-            "raw": "'this value is Boolean'"
+            "value": "this value is Boolean"
           }
         ],
         "optional": false
@@ -312,8 +309,7 @@
           "type": "Literal",
           "start": 676,
           "end": 678,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       }
     },
@@ -361,8 +357,7 @@
             "type": "Literal",
             "start": 719,
             "end": 741,
-            "value": "this value is String",
-            "raw": "'this value is String'"
+            "value": "this value is String"
           }
         ],
         "optional": false
@@ -442,8 +437,7 @@
             "type": "Literal",
             "start": 806,
             "end": 828,
-            "value": "this value is Symbol",
-            "raw": "'this value is Symbol'"
+            "value": "this value is Symbol"
           }
         ],
         "optional": false
@@ -468,8 +462,7 @@
           "type": "Literal",
           "start": 844,
           "end": 845,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -517,8 +510,7 @@
             "type": "Literal",
             "start": 886,
             "end": 908,
-            "value": "this value is Number",
-            "raw": "'this value is Number'"
+            "value": "this value is Number"
           }
         ],
         "optional": false

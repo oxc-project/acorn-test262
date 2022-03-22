@@ -90,8 +90,7 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 333,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
             "type": "Literal",
             "start": 343,
             "end": 368,
-            "value": "Object.hasOwn(o, \"foo\")",
-            "raw": "'Object.hasOwn(o, \"foo\")'"
+            "value": "Object.hasOwn(o, \"foo\")"
           }
         ],
         "optional": false

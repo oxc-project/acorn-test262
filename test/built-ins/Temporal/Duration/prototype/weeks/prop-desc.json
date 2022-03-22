@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 355,
                 "end": 362,
-                "value": "weeks",
-                "raw": "\"weeks\""
+                "value": "weeks"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 405,
             "end": 415,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

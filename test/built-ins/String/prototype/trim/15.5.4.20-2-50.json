@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 292,
                 "end": 298,
-                "value": "test",
-                "raw": "\"test\""
+                "value": "test"
               }
             ]
           }
@@ -133,15 +132,13 @@
             "type": "Literal",
             "start": 355,
             "end": 368,
-            "value": "Error: test",
-            "raw": "\"Error: test\""
+            "value": "Error: test"
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 406,
-            "value": "String.prototype.trim.call(errObj)",
-            "raw": "'String.prototype.trim.call(errObj)'"
+            "value": "String.prototype.trim.call(errObj)"
           }
         ],
         "optional": false

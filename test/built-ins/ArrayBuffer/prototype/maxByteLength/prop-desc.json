@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 673,
                 "end": 688,
-                "value": "maxByteLength",
-                "raw": "'maxByteLength'"
+                "value": "maxByteLength"
               }
             ],
             "optional": false
@@ -190,8 +189,7 @@
             "type": "Literal",
             "start": 765,
             "end": 775,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
             "type": "Literal",
             "start": 817,
             "end": 832,
-            "value": "maxByteLength",
-            "raw": "'maxByteLength'"
+            "value": "maxByteLength"
           },
           {
             "type": "ObjectExpression",

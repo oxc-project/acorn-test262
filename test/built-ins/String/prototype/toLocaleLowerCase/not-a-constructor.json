@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 788,
             "end": 857,
-            "value": "isConstructor(String.prototype.toLocaleLowerCase) must return false",
-            "raw": "'isConstructor(String.prototype.toLocaleLowerCase) must return false'"
+            "value": "isConstructor(String.prototype.toLocaleLowerCase) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 942,
             "end": 1003,
-            "value": "`new String.prototype.toLocaleLowerCase()` throws TypeError",
-            "raw": "'`new String.prototype.toLocaleLowerCase()` throws TypeError'"
+            "value": "`new String.prototype.toLocaleLowerCase()` throws TypeError"
           }
         ],
         "optional": false

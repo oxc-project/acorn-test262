@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 474,
             "end": 484,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 488,
             "end": 549,
-            "value": "The value of `typeof TypedArray.prototype.at` is \"function\"",
-            "raw": "'The value of `typeof TypedArray.prototype.at` is \"function\"'"
+            "value": "The value of `typeof TypedArray.prototype.at` is \"function\""
           }
         ],
         "optional": false
@@ -165,15 +163,13 @@
             "type": "Literal",
             "start": 604,
             "end": 608,
-            "value": "at",
-            "raw": "'at'"
+            "value": "at"
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 663,
-            "value": "The value of TypedArray.prototype.at.name is \"at\"",
-            "raw": "'The value of TypedArray.prototype.at.name is \"at\"'"
+            "value": "The value of TypedArray.prototype.at.name is \"at\""
           }
         ],
         "optional": false
@@ -230,8 +226,7 @@
             "type": "Literal",
             "start": 708,
             "end": 714,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

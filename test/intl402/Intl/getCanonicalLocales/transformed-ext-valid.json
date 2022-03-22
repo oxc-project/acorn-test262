@@ -27,64 +27,55 @@
                 "type": "Literal",
                 "start": 820,
                 "end": 829,
-                "value": "en-t-en",
-                "raw": "\"en-t-en\""
+                "value": "en-t-en"
               },
               {
                 "type": "Literal",
                 "start": 873,
                 "end": 887,
-                "value": "en-t-en-latn",
-                "raw": "\"en-t-en-latn\""
+                "value": "en-t-en-latn"
               },
               {
                 "type": "Literal",
                 "start": 931,
                 "end": 943,
-                "value": "en-t-en-ca",
-                "raw": "\"en-t-en-ca\""
+                "value": "en-t-en-ca"
               },
               {
                 "type": "Literal",
                 "start": 1013,
                 "end": 1030,
-                "value": "en-t-en-latn-ca",
-                "raw": "\"en-t-en-latn-ca\""
+                "value": "en-t-en-latn-ca"
               },
               {
                 "type": "Literal",
                 "start": 1075,
                 "end": 1092,
-                "value": "en-t-en-emodeng",
-                "raw": "\"en-t-en-emodeng\""
+                "value": "en-t-en-emodeng"
               },
               {
                 "type": "Literal",
                 "start": 1163,
                 "end": 1185,
-                "value": "en-t-en-latn-emodeng",
-                "raw": "\"en-t-en-latn-emodeng\""
+                "value": "en-t-en-latn-emodeng"
               },
               {
                 "type": "Literal",
                 "start": 1256,
                 "end": 1276,
-                "value": "en-t-en-ca-emodeng",
-                "raw": "\"en-t-en-ca-emodeng\""
+                "value": "en-t-en-ca-emodeng"
               },
               {
                 "type": "Literal",
                 "start": 1371,
                 "end": 1396,
-                "value": "en-t-en-latn-ca-emodeng",
-                "raw": "\"en-t-en-latn-ca-emodeng\""
+                "value": "en-t-en-latn-ca-emodeng"
               },
               {
                 "type": "Literal",
                 "start": 1452,
                 "end": 1467,
-                "value": "en-t-d0-ascii",
-                "raw": "\"en-t-d0-ascii\""
+                "value": "en-t-d0-ascii"
               }
             ]
           }
@@ -116,22 +107,19 @@
                 "type": "Literal",
                 "start": 1518,
                 "end": 1520,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 1582,
                 "end": 1596,
-                "value": "-i0-handwrit",
-                "raw": "\"-i0-handwrit\""
+                "value": "-i0-handwrit"
               },
               {
                 "type": "Literal",
                 "start": 1654,
                 "end": 1675,
-                "value": "-s0-accents-publish",
-                "raw": "\"-s0-accents-publish\""
+                "value": "-s0-accents-publish"
               }
             ]
           }
@@ -295,8 +283,7 @@
                             "type": "Literal",
                             "start": 1896,
                             "end": 1900,
-                            "value": "\"",
-                            "raw": "\"\\\"\""
+                            "value": "\""
                           },
                           "operator": "+",
                           "right": {
@@ -311,8 +298,7 @@
                           "type": "Literal",
                           "start": 1915,
                           "end": 1971,
-                          "value": "\" is a canonical and structurally valid language tag.",
-                          "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                          "value": "\" is a canonical and structurally valid language tag."
                         }
                       }
                     ],
@@ -422,8 +408,7 @@
                         "type": "Literal",
                         "start": 2065,
                         "end": 2066,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -471,8 +456,7 @@
                           "type": "Literal",
                           "start": 2097,
                           "end": 2098,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false

@@ -114,8 +114,7 @@
                             "type": "Literal",
                             "start": 448,
                             "end": 492,
-                            "value": "#1.2: new eval() throw TypeError. Actual: ",
-                            "raw": "'#1.2: new eval() throw TypeError. Actual: '"
+                            "value": "#1.2: new eval() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

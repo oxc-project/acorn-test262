@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 762,
             "end": 818,
-            "value": "isConstructor(Object.defineProperty) must return false",
-            "raw": "'isConstructor(Object.defineProperty) must return false'"
+            "value": "isConstructor(Object.defineProperty) must return false"
           }
         ],
         "optional": false
@@ -168,8 +167,7 @@
                         "type": "Literal",
                         "start": 888,
                         "end": 890,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       {
                         "type": "ObjectExpression",
@@ -187,8 +185,7 @@
             "type": "Literal",
             "start": 900,
             "end": 960,
-            "value": "`new Object.defineProperty({}, '', {})` throws TypeError",
-            "raw": "'`new Object.defineProperty({}, \\'\\', {})` throws TypeError'"
+            "value": "`new Object.defineProperty({}, '', {})` throws TypeError"
           }
         ],
         "optional": false

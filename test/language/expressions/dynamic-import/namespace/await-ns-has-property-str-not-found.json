@@ -69,8 +69,7 @@
                       "type": "Literal",
                       "start": 3984,
                       "end": 4010,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   }
                 }
@@ -114,8 +113,7 @@
                     "type": "Literal",
                     "start": 4035,
                     "end": 4043,
-                    "value": "local2",
-                    "raw": "'local2'"
+                    "value": "local2"
                   },
                   "operator": "in",
                   "right": {
@@ -136,8 +134,7 @@
                   "type": "Literal",
                   "start": 4058,
                   "end": 4070,
-                  "value": "in: local2",
-                  "raw": "'in: local2'"
+                  "value": "in: local2"
                 }
               ],
               "optional": false
@@ -205,8 +202,7 @@
                       "type": "Literal",
                       "start": 4110,
                       "end": 4118,
-                      "value": "local2",
-                      "raw": "'local2'"
+                      "value": "local2"
                     }
                   ],
                   "optional": false
@@ -222,8 +218,7 @@
                   "type": "Literal",
                   "start": 4128,
                   "end": 4149,
-                  "value": "Reflect.has: local2",
-                  "raw": "'Reflect.has: local2'"
+                  "value": "Reflect.has: local2"
                 }
               ],
               "optional": false
@@ -265,8 +260,7 @@
                     "type": "Literal",
                     "start": 4174,
                     "end": 4187,
-                    "value": "toStringTag",
-                    "raw": "'toStringTag'"
+                    "value": "toStringTag"
                   },
                   "operator": "in",
                   "right": {
@@ -287,8 +281,7 @@
                   "type": "Literal",
                   "start": 4202,
                   "end": 4219,
-                  "value": "in: toStringTag",
-                  "raw": "'in: toStringTag'"
+                  "value": "in: toStringTag"
                 }
               ],
               "optional": false
@@ -356,8 +349,7 @@
                       "type": "Literal",
                       "start": 4266,
                       "end": 4279,
-                      "value": "toStringTag",
-                      "raw": "'toStringTag'"
+                      "value": "toStringTag"
                     }
                   ],
                   "optional": false
@@ -373,8 +365,7 @@
                   "type": "Literal",
                   "start": 4289,
                   "end": 4315,
-                  "value": "Reflect.has: toStringTag",
-                  "raw": "'Reflect.has: toStringTag'"
+                  "value": "Reflect.has: toStringTag"
                 }
               ],
               "optional": false
@@ -416,8 +407,7 @@
                     "type": "Literal",
                     "start": 4345,
                     "end": 4355,
-                    "value": "iterator",
-                    "raw": "'iterator'"
+                    "value": "iterator"
                   },
                   "operator": "in",
                   "right": {
@@ -438,8 +428,7 @@
                   "type": "Literal",
                   "start": 4370,
                   "end": 4384,
-                  "value": "in: iterator",
-                  "raw": "'in: iterator'"
+                  "value": "in: iterator"
                 }
               ],
               "optional": false
@@ -507,8 +496,7 @@
                       "type": "Literal",
                       "start": 4424,
                       "end": 4434,
-                      "value": "iterator",
-                      "raw": "'iterator'"
+                      "value": "iterator"
                     }
                   ],
                   "optional": false
@@ -524,8 +512,7 @@
                   "type": "Literal",
                   "start": 4444,
                   "end": 4467,
-                  "value": "Reflect.has: iterator",
-                  "raw": "'Reflect.has: iterator'"
+                  "value": "Reflect.has: iterator"
                 }
               ],
               "optional": false
@@ -567,8 +554,7 @@
                     "type": "Literal",
                     "start": 4492,
                     "end": 4503,
-                    "value": "__proto__",
-                    "raw": "'__proto__'"
+                    "value": "__proto__"
                   },
                   "operator": "in",
                   "right": {
@@ -589,8 +575,7 @@
                   "type": "Literal",
                   "start": 4518,
                   "end": 4533,
-                  "value": "in: __proto__",
-                  "raw": "'in: __proto__'"
+                  "value": "in: __proto__"
                 }
               ],
               "optional": false
@@ -658,8 +643,7 @@
                       "type": "Literal",
                       "start": 4580,
                       "end": 4591,
-                      "value": "__proto__",
-                      "raw": "'__proto__'"
+                      "value": "__proto__"
                     }
                   ],
                   "optional": false
@@ -675,8 +659,7 @@
                   "type": "Literal",
                   "start": 4601,
                   "end": 4625,
-                  "value": "Reflect.has: __proto__",
-                  "raw": "'Reflect.has: __proto__'"
+                  "value": "Reflect.has: __proto__"
                 }
               ],
               "optional": false

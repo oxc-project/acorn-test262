@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 988,
                 "end": 998,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               }
             ],
             "optional": false
@@ -99,8 +98,7 @@
                 "type": "Literal",
                 "start": 1036,
                 "end": 1040,
-                "value": "en",
-                "raw": "\"en\""
+                "value": "en"
               },
               {
                 "type": "ObjectExpression",
@@ -124,8 +122,7 @@
                       "type": "Literal",
                       "start": 1049,
                       "end": 1059,
-                      "value": "calendar",
-                      "raw": "\"calendar\""
+                      "value": "calendar"
                     },
                     "kind": "init"
                   },
@@ -146,8 +143,7 @@
                       "type": "Literal",
                       "start": 1071,
                       "end": 1077,
-                      "value": "none",
-                      "raw": "\"none\""
+                      "value": "none"
                     },
                     "kind": "init"
                   }
@@ -267,8 +263,7 @@
                   "type": "Literal",
                   "start": 1160,
                   "end": 1168,
-                  "value": "string",
-                  "raw": "\"string\""
+                  "value": "string"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -408,8 +403,7 @@
                 "type": "Literal",
                 "start": 1310,
                 "end": 1318,
-                "value": "string",
-                "raw": "\"string\""
+                "value": "string"
               }
             },
             "consequent": {

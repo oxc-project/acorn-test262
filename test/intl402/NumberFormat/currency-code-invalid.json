@@ -27,64 +27,55 @@
                 "type": "Literal",
                 "start": 285,
                 "end": 287,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 293,
                 "end": 296,
-                "value": "€",
-                "raw": "\"€\""
+                "value": "€"
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 305,
-                "value": "$",
-                "raw": "\"$\""
+                "value": "$"
               },
               {
                 "type": "Literal",
                 "start": 311,
                 "end": 317,
-                "value": "SFr.",
-                "raw": "\"SFr.\""
+                "value": "SFr."
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 327,
-                "value": "DM",
-                "raw": "\"DM\""
+                "value": "DM"
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 338,
-                "value": "KR₩",
-                "raw": "\"KR₩\""
+                "value": "KR₩"
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 349,
-                "value": "702",
-                "raw": "\"702\""
+                "value": "702"
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 359,
-                "value": "ßP",
-                "raw": "\"ßP\""
+                "value": "ßP"
               },
               {
                 "type": "Literal",
                 "start": 365,
                 "end": 370,
-                "value": "ınr",
-                "raw": "\"ınr\""
+                "value": "ınr"
               }
             ]
           }
@@ -237,8 +228,7 @@
                                             "type": "Literal",
                                             "start": 574,
                                             "end": 581,
-                                            "value": "de-de",
-                                            "raw": "\"de-de\""
+                                            "value": "de-de"
                                           }
                                         ]
                                       },
@@ -264,8 +254,7 @@
                                               "type": "Literal",
                                               "start": 592,
                                               "end": 602,
-                                              "value": "currency",
-                                              "raw": "\"currency\""
+                                              "value": "currency"
                                             },
                                             "kind": "init"
                                           },
@@ -313,8 +302,7 @@
                             "type": "Literal",
                             "start": 629,
                             "end": 654,
-                            "value": "Invalid currency code '",
-                            "raw": "\"Invalid currency code '\""
+                            "value": "Invalid currency code '"
                           },
                           "operator": "+",
                           "right": {
@@ -329,8 +317,7 @@
                           "type": "Literal",
                           "start": 664,
                           "end": 685,
-                          "value": "' was not rejected.",
-                          "raw": "\"' was not rejected.\""
+                          "value": "' was not rejected."
                         }
                       }
                     ],

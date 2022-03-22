@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 461,
           "end": 467,
-          "value": "data",
-          "raw": "\"data\""
+          "value": "data"
         }
       }
     },
@@ -103,8 +102,7 @@
             "type": "Literal",
             "start": 496,
             "end": 502,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -302,8 +300,7 @@
           "type": "Literal",
           "start": 681,
           "end": 688,
-          "value": "data1",
-          "raw": "\"data1\""
+          "value": "data1"
         }
       }
     },
@@ -484,8 +481,7 @@
             "type": "Literal",
             "start": 850,
             "end": 856,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -565,8 +561,7 @@
             "type": "Literal",
             "start": 915,
             "end": 921,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "CallExpression",
@@ -610,15 +605,13 @@
             "type": "Literal",
             "start": 956,
             "end": 962,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "Literal",
             "start": 964,
             "end": 984,
-            "value": "verifySetFunction1",
-            "raw": "\"verifySetFunction1\""
+            "value": "verifySetFunction1"
           }
         ],
         "optional": false
@@ -649,8 +642,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1019,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           }
         ],
         "optional": false
@@ -681,8 +673,7 @@
             "type": "Literal",
             "start": 1047,
             "end": 1053,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           }
         ],
         "optional": false

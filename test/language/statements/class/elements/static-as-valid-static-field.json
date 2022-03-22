@@ -20,9 +20,9 @@
         "end": 505,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 489,
-            "end": 503,
+            "end": 502,
             "static": true,
             "computed": false,
             "key": {
@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 525,
             "end": 533,
-            "value": "static",
-            "raw": "\"static\""
+            "value": "static"
           },
           {
             "type": "ObjectExpression",

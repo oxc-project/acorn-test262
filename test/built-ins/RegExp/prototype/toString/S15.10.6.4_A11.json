@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 344,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 357,
             "end": 426,
-            "value": "RegExp.prototype.toString.hasOwnProperty(\"length\") must return true",
-            "raw": "'RegExp.prototype.toString.hasOwnProperty(\"length\") must return true'"
+            "value": "RegExp.prototype.toString.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -186,15 +184,13 @@
             "type": "Literal",
             "start": 487,
             "end": 488,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 559,
-            "value": "The value of RegExp.prototype.toString.length is expected to be 0",
-            "raw": "'The value of RegExp.prototype.toString.length is expected to be 0'"
+            "value": "The value of RegExp.prototype.toString.length is expected to be 0"
           }
         ],
         "optional": false

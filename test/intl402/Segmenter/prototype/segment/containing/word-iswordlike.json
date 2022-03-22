@@ -27,99 +27,85 @@
                 "type": "Literal",
                 "start": 826,
                 "end": 840,
-                "value": "Hello world!",
-                "raw": "\"Hello world!\""
+                "value": "Hello world!"
               },
               {
                 "type": "Literal",
                 "start": 857,
                 "end": 912,
-                "value": "Jedovatou mambu objevila žena v zahrádkářské kolonii.",
-                "raw": "\"Jedovatou mambu objevila žena v zahrádkářské kolonii.\""
+                "value": "Jedovatou mambu objevila žena v zahrádkářské kolonii."
               },
               {
                 "type": "Literal",
                 "start": 927,
                 "end": 971,
-                "value": "Việt Nam: Nhất thể hóa sẽ khác Trung Quốc?",
-                "raw": "\"Việt Nam: Nhất thể hóa sẽ khác Trung Quốc?\""
+                "value": "Việt Nam: Nhất thể hóa sẽ khác Trung Quốc?"
               },
               {
                 "type": "Literal",
                 "start": 992,
                 "end": 1054,
-                "value": "Σοβαρές ενστάσεις Κομισιόν για τον προϋπολογισμό της Ιταλίας",
-                "raw": "\"Σοβαρές ενστάσεις Κομισιόν για τον προϋπολογισμό της Ιταλίας\""
+                "value": "Σοβαρές ενστάσεις Κομισιόν για τον προϋπολογισμό της Ιταλίας"
               },
               {
                 "type": "Literal",
                 "start": 1069,
                 "end": 1135,
-                "value": "Решение Индии о покупке российских С-400 расценили как вызов США",
-                "raw": "\"Решение Индии о покупке российских С-400 расценили как вызов США\""
+                "value": "Решение Индии о покупке российских С-400 расценили как вызов США"
               },
               {
                 "type": "Literal",
                 "start": 1153,
                 "end": 1188,
-                "value": "הרופא שהציל נשים והנערה ששועבדה ע",
-                "raw": "\"הרופא שהציל נשים והנערה ששועבדה ע\""
+                "value": "הרופא שהציל נשים והנערה ששועבדה ע"
               },
               {
                 "type": "Literal",
                 "start": 1206,
                 "end": 1259,
-                "value": "ترامب للملك سلمان: أنا جاد للغاية.. عليك دفع المزيد",
-                "raw": "\"ترامب للملك سلمان: أنا جاد للغاية.. عليك دفع المزيد\""
+                "value": "ترامب للملك سلمان: أنا جاد للغاية.. عليك دفع المزيد"
               },
               {
                 "type": "Literal",
                 "start": 1275,
                 "end": 1344,
-                "value": "भारत की एस 400 मिसाइल के मुकाबले पाक की थाड, जानें कौन कितना ताकतवर",
-                "raw": "\"भारत की एस 400 मिसाइल के मुकाबले पाक की थाड, जानें कौन कितना ताकतवर\""
+                "value": "भारत की एस 400 मिसाइल के मुकाबले पाक की थाड, जानें कौन कितना ताकतवर"
               },
               {
                 "type": "Literal",
                 "start": 1361,
                 "end": 1421,
-                "value": "ரெட் அலர்ட் எச்சரிக்கை; புதுச்சேரியில் நாளை அரசு விடுமுறை!",
-                "raw": "\"ரெட் அலர்ட் எச்சரிக்கை; புதுச்சேரியில் நாளை அரசு விடுமுறை!\""
+                "value": "ரெட் அலர்ட் எச்சரிக்கை; புதுச்சேரியில் நாளை அரசு விடுமுறை!"
               },
               {
                 "type": "Literal",
                 "start": 1436,
                 "end": 1503,
-                "value": "'ఉత్తర్వులు అందే వరకు ఓటర్ల తుది జాబితాను వెబ్‌సైట్లో పెట్టవద్దు'",
-                "raw": "\"'ఉత్తర్వులు అందే వరకు ఓటర్ల తుది జాబితాను వెబ్‌సైట్లో పెట్టవద్దు'\""
+                "value": "'ఉత్తర్వులు అందే వరకు ఓటర్ల తుది జాబితాను వెబ్‌సైట్లో పెట్టవద్దు'"
               },
               {
                 "type": "Literal",
                 "start": 1519,
                 "end": 1548,
-                "value": "台北》抹黑柯P失敗？朱學恒酸：姚文智氣pupu嗆大老闆",
-                "raw": "\"台北》抹黑柯P失敗？朱學恒酸：姚文智氣pupu嗆大老闆\""
+                "value": "台北》抹黑柯P失敗？朱學恒酸：姚文智氣pupu嗆大老闆"
               },
               {
                 "type": "Literal",
                 "start": 1565,
                 "end": 1635,
-                "value": "วัดไทรตีระฆังเบาลงช่วงเข้าพรรษา เจ้าอาวาสเผยคนร้องเรียนรับผลกรรมแล้ว",
-                "raw": "\"วัดไทรตีระฆังเบาลงช่วงเข้าพรรษา เจ้าอาวาสเผยคนร้องเรียนรับผลกรรมแล้ว\""
+                "value": "วัดไทรตีระฆังเบาลงช่วงเข้าพรรษา เจ้าอาวาสเผยคนร้องเรียนรับผลกรรมแล้ว"
               },
               {
                 "type": "Literal",
                 "start": 1650,
                 "end": 1706,
-                "value": "九州北部の一部が暴風域に入りました(日直予報士 2018年10月06日) - 日本気象協会 tenki.jp",
-                "raw": "\"九州北部の一部が暴風域に入りました(日直予報士 2018年10月06日) - 日本気象協会 tenki.jp\""
+                "value": "九州北部の一部が暴風域に入りました(日直予報士 2018年10月06日) - 日本気象協会 tenki.jp"
               },
               {
                 "type": "Literal",
                 "start": 1725,
                 "end": 1755,
-                "value": "법원 “다스 지분 처분권·수익권 모두 MB가 보유”",
-                "raw": "\"법원 “다스 지분 처분권·수익권 모두 MB가 보유”\""
+                "value": "법원 “다스 지분 처분권·수익권 모두 MB가 보유”"
               }
             ]
           }
@@ -146,8 +132,7 @@
             "type": "Literal",
             "start": 1791,
             "end": 1797,
-            "value": "word",
-            "raw": "\"word\""
+            "value": "word"
           }
         }
       ],
@@ -356,8 +341,7 @@
                           "type": "Literal",
                           "start": 1959,
                           "end": 1960,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ],
@@ -507,8 +491,7 @@
                                           "type": "Literal",
                                           "start": 2057,
                                           "end": 2072,
-                                          "value": "granularity: ",
-                                          "raw": "\"granularity: \""
+                                          "value": "granularity: "
                                         },
                                         "operator": "+",
                                         "right": {
@@ -523,8 +506,7 @@
                                         "type": "Literal",
                                         "start": 2089,
                                         "end": 2099,
-                                        "value": " input: ",
-                                        "raw": "\" input: \""
+                                        "value": " input: "
                                       }
                                     },
                                     "operator": "+",
@@ -540,8 +522,7 @@
                                     "type": "Literal",
                                     "start": 2118,
                                     "end": 2132,
-                                    "value": " containing(",
-                                    "raw": "\" containing(\""
+                                    "value": " containing("
                                   }
                                 },
                                 "operator": "+",
@@ -557,8 +538,7 @@
                                 "type": "Literal",
                                 "start": 2143,
                                 "end": 2147,
-                                "value": ") ",
-                                "raw": "\") \""
+                                "value": ") "
                               }
                             }
                           }
@@ -628,8 +608,7 @@
                                 "type": "Literal",
                                 "start": 2192,
                                 "end": 2193,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               }
                             },
                             {
@@ -647,8 +626,7 @@
                                 "type": "Literal",
                                 "start": 2201,
                                 "end": 2213,
-                                "value": "index >= 0",
-                                "raw": "\"index >= 0\""
+                                "value": "index >= 0"
                               }
                             }
                           ],
@@ -753,8 +731,7 @@
                                   "type": "Literal",
                                   "start": 2286,
                                   "end": 2296,
-                                  "value": "index < ",
-                                  "raw": "\"index < \""
+                                  "value": "index < "
                                 }
                               },
                               "operator": "+",
@@ -814,8 +791,7 @@
                               "type": "Literal",
                               "start": 2335,
                               "end": 2343,
-                              "value": "string",
-                              "raw": "\"string\""
+                              "value": "string"
                             },
                             {
                               "type": "UnaryExpression",
@@ -858,8 +834,7 @@
                                 "type": "Literal",
                                 "start": 2372,
                                 "end": 2379,
-                                "value": "input",
-                                "raw": "\"input\""
+                                "value": "input"
                               }
                             }
                           ],
@@ -898,8 +873,7 @@
                               "type": "Literal",
                               "start": 2403,
                               "end": 2412,
-                              "value": "boolean",
-                              "raw": "\"boolean\""
+                              "value": "boolean"
                             },
                             {
                               "type": "UnaryExpression",
@@ -942,8 +916,7 @@
                                 "type": "Literal",
                                 "start": 2454,
                                 "end": 2484,
-                                "value": "isWordLike should be boolean",
-                                "raw": "\"isWordLike should be boolean\""
+                                "value": "isWordLike should be boolean"
                               }
                             }
                           ],
@@ -1020,29 +993,25 @@
                                   "type": "Literal",
                                   "start": 2554,
                                   "end": 2563,
-                                  "value": "segment",
-                                  "raw": "\"segment\""
+                                  "value": "segment"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 2565,
                                   "end": 2572,
-                                  "value": "index",
-                                  "raw": "\"index\""
+                                  "value": "index"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 2574,
                                   "end": 2581,
-                                  "value": "input",
-                                  "raw": "\"input\""
+                                  "value": "input"
                                 },
                                 {
                                   "type": "Literal",
                                   "start": 2583,
                                   "end": 2595,
-                                  "value": "isWordLike",
-                                  "raw": "\"isWordLike\""
+                                  "value": "isWordLike"
                                 }
                               ]
                             }

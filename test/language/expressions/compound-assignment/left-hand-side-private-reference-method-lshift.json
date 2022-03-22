@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1540,
               "end": 1554,
               "name": "privateMethod"
@@ -94,21 +94,20 @@
                           "start": 1596,
                           "end": 1600
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1601,
                           "end": 1615,
                           "name": "privateMethod"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "right": {
                         "type": "Literal",
                         "start": 1620,
                         "end": 1621,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -224,8 +223,7 @@
             "type": "Literal",
             "start": 1704,
             "end": 1775,
-            "value": "PutValue throws when storing the result in a method private reference",
-            "raw": "\"PutValue throws when storing the result in a method private reference\""
+            "value": "PutValue throws when storing the result in a method private reference"
           }
         ],
         "optional": false

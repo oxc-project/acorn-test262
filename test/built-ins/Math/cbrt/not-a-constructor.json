@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 731,
             "end": 775,
-            "value": "isConstructor(Math.cbrt) must return false",
-            "raw": "'isConstructor(Math.cbrt) must return false'"
+            "value": "isConstructor(Math.cbrt) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 834,
             "end": 870,
-            "value": "`new Math.cbrt()` throws TypeError",
-            "raw": "'`new Math.cbrt()` throws TypeError'"
+            "value": "`new Math.cbrt()` throws TypeError"
           }
         ],
         "optional": false

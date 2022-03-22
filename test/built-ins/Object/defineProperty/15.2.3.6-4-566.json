@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 317,
                     "end": 321,
-                    "value": 2010,
-                    "raw": "2010"
+                    "value": 2010
                   }
                 }
               ]
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 354,
             "end": 360,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -198,8 +196,7 @@
                 "type": "Literal",
                 "start": 432,
                 "end": 438,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -251,8 +248,7 @@
                 "type": "Literal",
                 "start": 468,
                 "end": 474,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 477,
             "end": 514,
-            "value": "obj.hasOwnProperty(\"prop\") !== true",
-            "raw": "'obj.hasOwnProperty(\"prop\") !== true'"
+            "value": "obj.hasOwnProperty(\"prop\") !== true"
           }
         ],
         "optional": false
@@ -319,15 +314,13 @@
             "type": "Literal",
             "start": 544,
             "end": 548,
-            "value": 2010,
-            "raw": "2010"
+            "value": 2010
           },
           {
             "type": "Literal",
             "start": 550,
             "end": 560,
-            "value": "obj.prop",
-            "raw": "'obj.prop'"
+            "value": "obj.prop"
           }
         ],
         "optional": false
@@ -390,8 +383,7 @@
             "type": "Literal",
             "start": 599,
             "end": 609,
-            "value": "desc.get",
-            "raw": "'desc.get'"
+            "value": "desc.get"
           }
         ],
         "optional": false

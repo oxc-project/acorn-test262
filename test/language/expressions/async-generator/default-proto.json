@@ -217,8 +217,7 @@
             "type": "Literal",
             "start": 1382,
             "end": 1409,
-            "value": "fn.prototype is undefined",
-            "raw": "'fn.prototype is undefined'"
+            "value": "fn.prototype is undefined"
           }
         ],
         "optional": false
@@ -339,8 +338,7 @@
             "type": "Literal",
             "start": 1505,
             "end": 1527,
-            "value": "fn.prototype is null",
-            "raw": "'fn.prototype is null'"
+            "value": "fn.prototype is null"
           }
         ],
         "optional": false
@@ -461,8 +459,7 @@
             "type": "Literal",
             "start": 1624,
             "end": 1651,
-            "value": "fn.prototype is a Boolean",
-            "raw": "'fn.prototype is a Boolean'"
+            "value": "fn.prototype is a Boolean"
           }
         ],
         "optional": false
@@ -500,8 +497,7 @@
           "type": "Literal",
           "start": 1670,
           "end": 1672,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       }
     },
@@ -583,8 +579,7 @@
             "type": "Literal",
             "start": 1745,
             "end": 1771,
-            "value": "fn.prototype is a String",
-            "raw": "'fn.prototype is a String'"
+            "value": "fn.prototype is a String"
           }
         ],
         "optional": false
@@ -711,8 +706,7 @@
             "type": "Literal",
             "start": 1871,
             "end": 1897,
-            "value": "fn.prototype is a Symbol",
-            "raw": "'fn.prototype is a Symbol'"
+            "value": "fn.prototype is a Symbol"
           }
         ],
         "optional": false
@@ -750,8 +744,7 @@
           "type": "Literal",
           "start": 1916,
           "end": 1917,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -833,8 +826,7 @@
             "type": "Literal",
             "start": 1990,
             "end": 2016,
-            "value": "fn.prototype is a Number",
-            "raw": "'fn.prototype is a Number'"
+            "value": "fn.prototype is a Number"
           }
         ],
         "optional": false

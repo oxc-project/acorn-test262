@@ -34,8 +34,7 @@
           "type": "Literal",
           "start": 308,
           "end": 311,
-          "value": "a",
-          "raw": "'a'"
+          "value": "a"
         }
       }
     },
@@ -94,8 +93,7 @@
                           "type": "Literal",
                           "start": 351,
                           "end": 352,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -150,8 +148,7 @@
             "type": "Literal",
             "start": 376,
             "end": 406,
-            "value": "with(myObj){del = delete p1}",
-            "raw": "\"with(myObj){del = delete p1}\""
+            "value": "with(myObj){del = delete p1}"
           }
         ],
         "optional": false
@@ -205,8 +202,7 @@
                 "type": "Literal",
                 "start": 522,
                 "end": 523,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             },
             "consequent": {
@@ -233,8 +229,7 @@
                         "type": "Literal",
                         "start": 551,
                         "end": 574,
-                        "value": "#1: myObj.p1() !== 0 ",
-                        "raw": "'#1: myObj.p1() !== 0 '"
+                        "value": "#1: myObj.p1() !== 0 "
                       }
                     ]
                   }
@@ -279,8 +274,7 @@
                     "type": "Literal",
                     "start": 595,
                     "end": 596,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ],
@@ -315,8 +309,7 @@
           "type": "Literal",
           "start": 608,
           "end": 609,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -347,8 +340,7 @@
                     "type": "Literal",
                     "start": 637,
                     "end": 666,
-                    "value": "#1: x === 1. Actual:  x ===",
-                    "raw": "'#1: x === 1. Actual:  x ==='"
+                    "value": "#1: x === 1. Actual:  x ==="
                   },
                   "operator": "+",
                   "right": {
@@ -428,8 +420,7 @@
                     "type": "Literal",
                     "start": 901,
                     "end": 953,
-                    "value": "#2: myObj.p1 === undefined . Actual:  myObj.p1 ===",
-                    "raw": "'#2: myObj.p1 === undefined . Actual:  myObj.p1 ==='"
+                    "value": "#2: myObj.p1 === undefined . Actual:  myObj.p1 ==="
                   },
                   "operator": "+",
                   "right": {
@@ -523,8 +514,7 @@
                     "type": "Literal",
                     "start": 1191,
                     "end": 1240,
-                    "value": "#3: myObj.del === true . Actual:  myObj.del ===",
-                    "raw": "'#3: myObj.del === true . Actual:  myObj.del ==='"
+                    "value": "#3: myObj.del === true . Actual:  myObj.del ==="
                   },
                   "operator": "+",
                   "right": {
@@ -586,8 +576,7 @@
           "type": "Literal",
           "start": 1446,
           "end": 1449,
-          "value": "a",
-          "raw": "'a'"
+          "value": "a"
         }
       },
       "consequent": {
@@ -614,8 +603,7 @@
                   "type": "Literal",
                   "start": 1477,
                   "end": 1501,
-                  "value": "#4: myObj.p1 !== 'a'",
-                  "raw": "'#4: myObj.p1 !== \\'a\\''"
+                  "value": "#4: myObj.p1 !== 'a'"
                 }
               ]
             }

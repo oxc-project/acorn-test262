@@ -35,8 +35,7 @@
                   "type": "Literal",
                   "start": 1586,
                   "end": 1605,
-                  "value": "first declaration",
-                  "raw": "'first declaration'"
+                  "value": "first declaration"
                 }
               }
             ]
@@ -65,8 +64,7 @@
                 "type": "Literal",
                 "start": 1615,
                 "end": 1616,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -82,8 +80,7 @@
             "type": "Literal",
             "start": 1626,
             "end": 1690,
-            "value": "if (true) function f() { return \"second declaration\"; } else ;",
-            "raw": "'if (true) function f() { return \"second declaration\"; } else ;'"
+            "value": "if (true) function f() { return \"second declaration\"; } else ;"
           }
         ],
         "optional": false
@@ -134,8 +131,7 @@
             "type": "Literal",
             "start": 1722,
             "end": 1732,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -186,8 +182,7 @@
             "type": "Literal",
             "start": 1757,
             "end": 1777,
-            "value": "second declaration",
-            "raw": "'second declaration'"
+            "value": "second declaration"
           }
         ],
         "optional": false

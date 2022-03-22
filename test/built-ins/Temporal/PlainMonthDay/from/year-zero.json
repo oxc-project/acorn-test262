@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 318,
-                "value": "-000000-08",
-                "raw": "\"-000000-08\""
+                "value": "-000000-08"
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 339,
-                "value": "-000000-08-24",
-                "raw": "\"-000000-08-24\""
+                "value": "-000000-08-24"
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 369,
-                "value": "-000000-08-24T15:43:27",
-                "raw": "\"-000000-08-24T15:43:27\""
+                "value": "-000000-08-24T15:43:27"
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 410,
-                "value": "-000000-08-24T15:43:27+01:00[UTC]",
-                "raw": "\"-000000-08-24T15:43:27+01:00[UTC]\""
+                "value": "-000000-08-24T15:43:27+01:00[UTC]"
               }
             ]
           }
@@ -212,8 +208,7 @@
                         "type": "Literal",
                         "start": 534,
                         "end": 570,
-                        "value": "reject minus zero as extended year",
-                        "raw": "\"reject minus zero as extended year\""
+                        "value": "reject minus zero as extended year"
                       }
                     ],
                     "optional": false

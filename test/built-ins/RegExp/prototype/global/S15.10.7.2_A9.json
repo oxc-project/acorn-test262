@@ -97,8 +97,7 @@
                 "type": "Literal",
                 "start": 388,
                 "end": 396,
-                "value": "global",
-                "raw": "'global'"
+                "value": "global"
               }
             ],
             "optional": false
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 405,
             "end": 455,
-            "value": "__re.hasOwnProperty('global') must return true",
-            "raw": "'__re.hasOwnProperty(\\'global\\') must return true'"
+            "value": "__re.hasOwnProperty('global') must return true"
           }
         ],
         "optional": false
@@ -186,8 +184,7 @@
             "type": "Literal",
             "start": 501,
             "end": 559,
-            "value": "The value of `delete __re.global` is expected to be true",
-            "raw": "'The value of `delete __re.global` is expected to be true'"
+            "value": "The value of `delete __re.global` is expected to be true"
           }
         ],
         "optional": false
@@ -249,8 +246,7 @@
                 "type": "Literal",
                 "start": 599,
                 "end": 607,
-                "value": "global",
-                "raw": "'global'"
+                "value": "global"
               }
             ],
             "optional": false
@@ -266,8 +262,7 @@
             "type": "Literal",
             "start": 617,
             "end": 668,
-            "value": "__re.hasOwnProperty('global') must return false",
-            "raw": "'__re.hasOwnProperty(\\'global\\') must return false'"
+            "value": "__re.hasOwnProperty('global') must return false"
           }
         ],
         "optional": false

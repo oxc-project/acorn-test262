@@ -134,8 +134,7 @@
             "type": "Literal",
             "start": 449,
             "end": 459,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -287,8 +286,7 @@
             "type": "Literal",
             "start": 545,
             "end": 567,
-            "value": "from instance method",
-            "raw": "'from instance method'"
+            "value": "from instance method"
           }
         ],
         "optional": false

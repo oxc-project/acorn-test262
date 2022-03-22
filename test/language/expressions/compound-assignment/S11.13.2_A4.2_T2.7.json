@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 369,
           "end": 372,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -134,8 +133,7 @@
                     "type": "Literal",
                     "start": 448,
                     "end": 499,
-                    "value": "#1: x = \"1\"; x /= null; x === +Infinity. Actual: ",
-                    "raw": "'#1: x = \"1\"; x /= null; x === +Infinity. Actual: '"
+                    "value": "#1: x = \"1\"; x /= null; x === +Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -200,8 +198,7 @@
           "type": "Literal",
           "start": 536,
           "end": 539,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -224,8 +221,7 @@
           "type": "Literal",
           "start": 551,
           "end": 552,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -256,8 +252,7 @@
                     "type": "Literal",
                     "start": 581,
                     "end": 624,
-                    "value": "#2: x = null; x /= \"1\"; x === 0. Actual: ",
-                    "raw": "'#2: x = null; x /= \"1\"; x === 0. Actual: '"
+                    "value": "#2: x = null; x /= \"1\"; x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -309,8 +304,7 @@
               "type": "Literal",
               "start": 661,
               "end": 664,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           ]
         }
@@ -403,8 +397,7 @@
                     "type": "Literal",
                     "start": 741,
                     "end": 804,
-                    "value": "#3: x = new String(\"1\"); x /= null; x === +Infinity. Actual: ",
-                    "raw": "'#3: x = new String(\"1\"); x /= null; x === +Infinity. Actual: '"
+                    "value": "#3: x = new String(\"1\"); x /= null; x === +Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -480,8 +473,7 @@
               "type": "Literal",
               "start": 852,
               "end": 855,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           ]
         }
@@ -506,8 +498,7 @@
           "type": "Literal",
           "start": 868,
           "end": 869,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -538,8 +529,7 @@
                     "type": "Literal",
                     "start": 898,
                     "end": 953,
-                    "value": "#4: x = null; x /= new String(\"1\"); x === 0. Actual: ",
-                    "raw": "'#4: x = null; x /= new String(\"1\"); x === 0. Actual: '"
+                    "value": "#4: x = null; x /= new String(\"1\"); x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

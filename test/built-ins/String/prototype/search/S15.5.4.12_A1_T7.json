@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 475,
                   "end": 486,
-                  "value": "undefined",
-                  "raw": "\"undefined\""
+                  "value": "undefined"
                 }
               ],
               "optional": false
@@ -64,8 +63,7 @@
           "type": "Literal",
           "start": 510,
           "end": 511,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -96,8 +94,7 @@
                     "type": "Literal",
                     "start": 540,
                     "end": 599,
-                    "value": "#1: String(\"undefined\").search(undefined) === 0. Actual: ",
-                    "raw": "'#1: String(\"undefined\").search(undefined) === 0. Actual: '"
+                    "value": "#1: String(\"undefined\").search(undefined) === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -123,8 +120,7 @@
                             "type": "Literal",
                             "start": 609,
                             "end": 620,
-                            "value": "undefined",
-                            "raw": "\"undefined\""
+                            "value": "undefined"
                           }
                         ],
                         "optional": false

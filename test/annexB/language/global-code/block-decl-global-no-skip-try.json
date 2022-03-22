@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 1133,
             "end": 1182,
-            "value": "Initialized binding created prior to evaluation",
-            "raw": "'Initialized binding created prior to evaluation'"
+            "value": "Initialized binding created prior to evaluation"
           }
         ],
         "optional": false
@@ -124,8 +123,7 @@
                           "type": "Literal",
                           "start": 1248,
                           "end": 1251,
-                          "value": 123,
-                          "raw": "123"
+                          "value": 123
                         }
                       }
                     ]
@@ -183,15 +181,13 @@
             "type": "Literal",
             "start": 1293,
             "end": 1303,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1307,
             "end": 1354,
-            "value": "binding value is updated following evaluation",
-            "raw": "'binding value is updated following evaluation'"
+            "value": "binding value is updated following evaluation"
           }
         ],
         "optional": false
@@ -242,8 +238,7 @@
             "type": "Literal",
             "start": 1380,
             "end": 1383,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           }
         ],
         "optional": false

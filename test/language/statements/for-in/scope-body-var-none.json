@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 1186,
             "end": 1187,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -212,8 +211,7 @@
               "type": "Literal",
               "start": 1260,
               "end": 1262,
-              "value": "",
-              "raw": "''"
+              "value": ""
             },
             "value": {
               "type": "AssignmentExpression",
@@ -278,8 +276,7 @@
               "type": "Literal",
               "start": 1316,
               "end": 1317,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           },
           {
@@ -382,15 +379,13 @@
             "type": "Literal",
             "start": 1396,
             "end": 1397,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1399,
             "end": 1430,
-            "value": "reference preceding statement",
-            "raw": "'reference preceding statement'"
+            "value": "reference preceding statement"
           }
         ],
         "optional": false
@@ -441,15 +436,13 @@
             "type": "Literal",
             "start": 1463,
             "end": 1464,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1466,
             "end": 1503,
-            "value": "reference from AssignmentExpression",
-            "raw": "'reference from AssignmentExpression'"
+            "value": "reference from AssignmentExpression"
           }
         ],
         "optional": false
@@ -500,15 +493,13 @@
             "type": "Literal",
             "start": 1536,
             "end": 1537,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1539,
             "end": 1570,
-            "value": "reference from ForDeclaration",
-            "raw": "'reference from ForDeclaration'"
+            "value": "reference from ForDeclaration"
           }
         ],
         "optional": false
@@ -559,15 +550,13 @@
             "type": "Literal",
             "start": 1603,
             "end": 1604,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1606,
             "end": 1637,
-            "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "value": "reference from statement body"
           }
         ],
         "optional": false
@@ -611,15 +600,13 @@
             "type": "Literal",
             "start": 1660,
             "end": 1661,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1663,
             "end": 1694,
-            "value": "reference following statement",
-            "raw": "'reference following statement'"
+            "value": "reference following statement"
           }
         ],
         "optional": false

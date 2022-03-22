@@ -48,78 +48,67 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 333,
-                "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "value": "localeMatcher"
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 354,
-                "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "value": "numberingSystem"
               },
               {
                 "type": "Literal",
                 "start": 358,
                 "end": 365,
-                "value": "style",
-                "raw": "\"style\""
+                "value": "style"
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 379,
-                "value": "currency",
-                "raw": "\"currency\""
+                "value": "currency"
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 400,
-                "value": "currencyDisplay",
-                "raw": "\"currencyDisplay\""
+                "value": "currencyDisplay"
               },
               {
                 "type": "Literal",
                 "start": 404,
                 "end": 426,
-                "value": "minimumIntegerDigits",
-                "raw": "\"minimumIntegerDigits\""
+                "value": "minimumIntegerDigits"
               },
               {
                 "type": "Literal",
                 "start": 430,
                 "end": 453,
-                "value": "minimumFractionDigits",
-                "raw": "\"minimumFractionDigits\""
+                "value": "minimumFractionDigits"
               },
               {
                 "type": "Literal",
                 "start": 457,
                 "end": 480,
-                "value": "maximumFractionDigits",
-                "raw": "\"maximumFractionDigits\""
+                "value": "maximumFractionDigits"
               },
               {
                 "type": "Literal",
                 "start": 484,
                 "end": 510,
-                "value": "minimumSignificantDigits",
-                "raw": "\"minimumSignificantDigits\""
+                "value": "minimumSignificantDigits"
               },
               {
                 "type": "Literal",
                 "start": 514,
                 "end": 540,
-                "value": "maximumSignificantDigits",
-                "raw": "\"maximumSignificantDigits\""
+                "value": "maximumSignificantDigits"
               },
               {
                 "type": "Literal",
                 "start": 544,
                 "end": 557,
-                "value": "useGrouping",
-                "raw": "\"useGrouping\""
+                "value": "useGrouping"
               }
             ]
           }
@@ -243,8 +232,7 @@
                               "type": "Literal",
                               "start": 658,
                               "end": 662,
-                              "value": "en",
-                              "raw": "\"en\""
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",

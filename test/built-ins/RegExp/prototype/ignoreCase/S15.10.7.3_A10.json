@@ -97,8 +97,7 @@
                 "type": "Literal",
                 "start": 403,
                 "end": 415,
-                "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "value": "ignoreCase"
               }
             ],
             "optional": false
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 424,
             "end": 478,
-            "value": "__re.hasOwnProperty('ignoreCase') must return true",
-            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'"
+            "value": "__re.hasOwnProperty('ignoreCase') must return true"
           }
         ],
         "optional": false
@@ -141,7 +139,6 @@
             "start": 497,
             "end": 504,
             "value": {},
-            "raw": "/a|b|c/",
             "regex": {
               "pattern": "a|b|c",
               "flags": ""
@@ -214,22 +211,19 @@
             "type": "Literal",
             "start": 568,
             "end": 580,
-            "value": "ignoreCase",
-            "raw": "\"ignoreCase\""
+            "value": "ignoreCase"
           },
           {
             "type": "Literal",
             "start": 582,
             "end": 594,
-            "value": "ignoreCase",
-            "raw": "\"ignoreCase\""
+            "value": "ignoreCase"
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 605,
-            "value": "shifted",
-            "raw": "\"shifted\""
+            "value": "shifted"
           }
         ],
         "optional": false
@@ -292,8 +286,7 @@
             "type": "Literal",
             "start": 661,
             "end": 735,
-            "value": "The value of __sample.ignoreCase is expected to equal the value of __obj",
-            "raw": "'The value of __sample.ignoreCase is expected to equal the value of __obj'"
+            "value": "The value of __sample.ignoreCase is expected to equal the value of __obj"
           }
         ],
         "optional": false

@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 949,
             "end": 959,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 961,
             "end": 1016,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -140,8 +138,7 @@
                       "type": "Literal",
                       "start": 1104,
                       "end": 1105,
-                      "value": 8,
-                      "raw": "8"
+                      "value": 8
                     }
                   }
                 ]
@@ -244,15 +241,13 @@
                 "type": "Literal",
                 "start": 1156,
                 "end": 1157,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1159,
                 "end": 1160,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -306,8 +301,7 @@
             "type": "Literal",
             "start": 1195,
             "end": 1226,
-            "value": "The value of `async` is false",
-            "raw": "'The value of `async` is false'"
+            "value": "The value of `async` is false"
           }
         ],
         "optional": false
@@ -351,15 +345,13 @@
             "type": "Literal",
             "start": 1253,
             "end": 1264,
-            "value": "not-equal",
-            "raw": "\"not-equal\""
+            "value": "not-equal"
           },
           {
             "type": "Literal",
             "start": 1266,
             "end": 1303,
-            "value": "The value of `value` is \"not-equal\"",
-            "raw": "'The value of `value` is \"not-equal\"'"
+            "value": "The value of `value` is \"not-equal\""
           }
         ],
         "optional": false

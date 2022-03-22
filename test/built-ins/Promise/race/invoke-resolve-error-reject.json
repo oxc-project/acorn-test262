@@ -223,8 +223,7 @@
                     "type": "Literal",
                     "start": 958,
                     "end": 959,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               }
@@ -274,8 +273,7 @@
                         "type": "Literal",
                         "start": 1010,
                         "end": 1043,
-                        "value": "The promise should be rejected.",
-                        "raw": "'The promise should be rejected.'"
+                        "value": "The promise should be rejected."
                       }
                     ]
                   }

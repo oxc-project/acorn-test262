@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 776,
             "end": 839,
-            "value": "isConstructor(String.prototype.codePointAt) must return false",
-            "raw": "'isConstructor(String.prototype.codePointAt) must return false'"
+            "value": "isConstructor(String.prototype.codePointAt) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 918,
             "end": 973,
-            "value": "`new String.prototype.codePointAt()` throws TypeError",
-            "raw": "'`new String.prototype.codePointAt()` throws TypeError'"
+            "value": "`new String.prototype.codePointAt()` throws TypeError"
           }
         ],
         "optional": false

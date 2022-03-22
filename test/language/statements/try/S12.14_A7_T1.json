@@ -29,8 +29,7 @@
                     "type": "Literal",
                     "start": 353,
                     "end": 358,
-                    "value": "ex2",
-                    "raw": "\"ex2\""
+                    "value": "ex2"
                   }
                 }
               ]
@@ -69,8 +68,7 @@
                         "type": "Literal",
                         "start": 392,
                         "end": 397,
-                        "value": "ex2",
-                        "raw": "\"ex2\""
+                        "value": "ex2"
                       }
                     },
                     "consequent": {
@@ -96,8 +94,7 @@
                               "type": "Literal",
                               "start": 428,
                               "end": 479,
-                              "value": "#1.1: Exception === \"ex2\". Actual:  Exception ===",
-                              "raw": "'#1.1: Exception === \"ex2\". Actual:  Exception ==='"
+                              "value": "#1.1: Exception === \"ex2\". Actual:  Exception ==="
                             },
                             "operator": "+",
                             "right": {
@@ -120,8 +117,7 @@
                       "type": "Literal",
                       "start": 499,
                       "end": 504,
-                      "value": "ex1",
-                      "raw": "\"ex1\""
+                      "value": "ex1"
                     }
                   }
                 ]
@@ -165,8 +161,7 @@
                   "type": "Literal",
                   "start": 544,
                   "end": 549,
-                  "value": "ex1",
-                  "raw": "\"ex1\""
+                  "value": "ex1"
                 }
               },
               "consequent": {
@@ -192,8 +187,7 @@
                         "type": "Literal",
                         "start": 574,
                         "end": 611,
-                        "value": "#1.2: Exception === \"ex1\". Actual: ",
-                        "raw": "'#1.2: Exception === \"ex1\". Actual: '"
+                        "value": "#1.2: Exception === \"ex1\". Actual: "
                       },
                       "operator": "+",
                       "right": {
@@ -227,8 +221,7 @@
                   "type": "Literal",
                   "start": 632,
                   "end": 637,
-                  "value": "ex2",
-                  "raw": "\"ex2\""
+                  "value": "ex2"
                 }
               },
               "consequent": {
@@ -250,8 +243,7 @@
                       "type": "Literal",
                       "start": 662,
                       "end": 732,
-                      "value": "#1.3: Exception !== \"ex2\". Actual: catch previous embedded exception",
-                      "raw": "'#1.3: Exception !== \"ex2\". Actual: catch previous embedded exception'"
+                      "value": "#1.3: Exception !== \"ex2\". Actual: catch previous embedded exception"
                     }
                   ]
                 }
@@ -280,8 +272,7 @@
               "type": "Literal",
               "start": 762,
               "end": 767,
-              "value": "ex1",
-              "raw": "\"ex1\""
+              "value": "ex1"
             }
           }
         ]
@@ -318,8 +309,7 @@
                       "type": "Literal",
                       "start": 800,
                       "end": 805,
-                      "value": "ex2",
-                      "raw": "\"ex2\""
+                      "value": "ex2"
                     }
                   }
                 ]
@@ -358,8 +348,7 @@
                           "type": "Literal",
                           "start": 839,
                           "end": 844,
-                          "value": "ex1",
-                          "raw": "\"ex1\""
+                          "value": "ex1"
                         }
                       },
                       "consequent": {
@@ -381,8 +370,7 @@
                               "type": "Literal",
                               "start": 869,
                               "end": 939,
-                              "value": "#2.1: Exception !== \"ex1\". Actual: catch previous catching exception",
-                              "raw": "'#2.1: Exception !== \"ex1\". Actual: catch previous catching exception'"
+                              "value": "#2.1: Exception !== \"ex1\". Actual: catch previous catching exception"
                             }
                           ]
                         }
@@ -408,8 +396,7 @@
                           "type": "Literal",
                           "start": 956,
                           "end": 961,
-                          "value": "ex2",
-                          "raw": "\"ex2\""
+                          "value": "ex2"
                         }
                       },
                       "consequent": {
@@ -435,8 +422,7 @@
                                 "type": "Literal",
                                 "start": 986,
                                 "end": 1037,
-                                "value": "#2.2: Exception === \"ex2\". Actual:  Exception ===",
-                                "raw": "'#2.2: Exception === \"ex2\". Actual:  Exception ==='"
+                                "value": "#2.2: Exception === \"ex2\". Actual:  Exception ==="
                               },
                               "operator": "+",
                               "right": {
@@ -475,8 +461,7 @@
                   "type": "Literal",
                   "start": 1063,
                   "end": 1068,
-                  "value": "ex1",
-                  "raw": "\"ex1\""
+                  "value": "ex1"
                 }
               },
               "consequent": {
@@ -502,8 +487,7 @@
                         "type": "Literal",
                         "start": 1093,
                         "end": 1144,
-                        "value": "#2.3: Exception === \"ex1\". Actual:  Exception ===",
-                        "raw": "'#2.3: Exception === \"ex1\". Actual:  Exception ==='"
+                        "value": "#2.3: Exception === \"ex1\". Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -537,8 +521,7 @@
                   "type": "Literal",
                   "start": 1166,
                   "end": 1171,
-                  "value": "ex2",
-                  "raw": "\"ex2\""
+                  "value": "ex2"
                 }
               },
               "consequent": {
@@ -560,8 +543,7 @@
                       "type": "Literal",
                       "start": 1196,
                       "end": 1266,
-                      "value": "#2.4: Exception !== \"ex2\". Actual: catch previous catching exception",
-                      "raw": "'#2.4: Exception !== \"ex2\". Actual: catch previous catching exception'"
+                      "value": "#2.4: Exception !== \"ex2\". Actual: catch previous catching exception"
                     }
                   ]
                 }
@@ -590,8 +572,7 @@
               "type": "Literal",
               "start": 1296,
               "end": 1301,
-              "value": "ex1",
-              "raw": "\"ex1\""
+              "value": "ex1"
             }
           }
         ]
@@ -630,8 +611,7 @@
                   "type": "Literal",
                   "start": 1329,
                   "end": 1334,
-                  "value": "ex1",
-                  "raw": "\"ex1\""
+                  "value": "ex1"
                 }
               },
               "consequent": {
@@ -657,8 +637,7 @@
                         "type": "Literal",
                         "start": 1359,
                         "end": 1409,
-                        "value": "#3.1: Exception ===\"ex1\". Actual:  Exception ===",
-                        "raw": "'#3.1: Exception ===\"ex1\". Actual:  Exception ==='"
+                        "value": "#3.1: Exception ===\"ex1\". Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -698,8 +677,7 @@
                     "type": "Literal",
                     "start": 1447,
                     "end": 1452,
-                    "value": "ex2",
-                    "raw": "\"ex2\""
+                    "value": "ex2"
                   }
                 }
               ]
@@ -738,8 +716,7 @@
                         "type": "Literal",
                         "start": 1486,
                         "end": 1491,
-                        "value": "ex1",
-                        "raw": "\"ex1\""
+                        "value": "ex1"
                       }
                     },
                     "consequent": {
@@ -761,8 +738,7 @@
                             "type": "Literal",
                             "start": 1516,
                             "end": 1585,
-                            "value": "#3.2: Exception !==\"ex1\". Actual: catch previous embedded exception",
-                            "raw": "'#3.2: Exception !==\"ex1\". Actual: catch previous embedded exception'"
+                            "value": "#3.2: Exception !==\"ex1\". Actual: catch previous embedded exception"
                           }
                         ]
                       }
@@ -788,8 +764,7 @@
                         "type": "Literal",
                         "start": 1602,
                         "end": 1607,
-                        "value": "ex2",
-                        "raw": "\"ex2\""
+                        "value": "ex2"
                       }
                     },
                     "consequent": {
@@ -815,8 +790,7 @@
                               "type": "Literal",
                               "start": 1632,
                               "end": 1682,
-                              "value": "#3.3: Exception ===\"ex2\". Actual:  Exception ===",
-                              "raw": "'#3.3: Exception ===\"ex2\". Actual:  Exception ==='"
+                              "value": "#3.3: Exception ===\"ex2\". Actual:  Exception ==="
                             },
                             "operator": "+",
                             "right": {
@@ -858,8 +832,7 @@
             "type": "Literal",
             "start": 1717,
             "end": 1718,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -882,8 +855,7 @@
               "type": "Literal",
               "start": 1733,
               "end": 1738,
-              "value": "ex1",
-              "raw": "\"ex1\""
+              "value": "ex1"
             }
           }
         ]
@@ -920,8 +892,7 @@
                       "type": "Literal",
                       "start": 1771,
                       "end": 1776,
-                      "value": "ex2",
-                      "raw": "\"ex2\""
+                      "value": "ex2"
                     }
                   }
                 ]
@@ -960,8 +931,7 @@
                           "type": "Literal",
                           "start": 1810,
                           "end": 1815,
-                          "value": "ex1",
-                          "raw": "\"ex1\""
+                          "value": "ex1"
                         }
                       },
                       "consequent": {
@@ -983,8 +953,7 @@
                               "type": "Literal",
                               "start": 1840,
                               "end": 1909,
-                              "value": "#4.1: Exception !==\"ex1\". Actual: catch previous catching exception",
-                              "raw": "'#4.1: Exception !==\"ex1\". Actual: catch previous catching exception'"
+                              "value": "#4.1: Exception !==\"ex1\". Actual: catch previous catching exception"
                             }
                           ]
                         }
@@ -1010,8 +979,7 @@
                           "type": "Literal",
                           "start": 1926,
                           "end": 1931,
-                          "value": "ex2",
-                          "raw": "\"ex2\""
+                          "value": "ex2"
                         }
                       },
                       "consequent": {
@@ -1037,8 +1005,7 @@
                                 "type": "Literal",
                                 "start": 1956,
                                 "end": 2006,
-                                "value": "#4.2: Exception ===\"ex2\". Actual:  Exception ===",
-                                "raw": "'#4.2: Exception ===\"ex2\". Actual:  Exception ==='"
+                                "value": "#4.2: Exception ===\"ex2\". Actual:  Exception ==="
                               },
                               "operator": "+",
                               "right": {
@@ -1077,8 +1044,7 @@
                   "type": "Literal",
                   "start": 2032,
                   "end": 2037,
-                  "value": "ex1",
-                  "raw": "\"ex1\""
+                  "value": "ex1"
                 }
               },
               "consequent": {
@@ -1104,8 +1070,7 @@
                         "type": "Literal",
                         "start": 2062,
                         "end": 2112,
-                        "value": "#4.3: Exception ===\"ex1\". Actual:  Exception ===",
-                        "raw": "'#4.3: Exception ===\"ex1\". Actual:  Exception ==='"
+                        "value": "#4.3: Exception ===\"ex1\". Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -1139,8 +1104,7 @@
                   "type": "Literal",
                   "start": 2134,
                   "end": 2139,
-                  "value": "ex2",
-                  "raw": "\"ex2\""
+                  "value": "ex2"
                 }
               },
               "consequent": {
@@ -1162,8 +1126,7 @@
                       "type": "Literal",
                       "start": 2164,
                       "end": 2233,
-                      "value": "#4.4: Exception !==\"ex2\". Actual: Catch previous embedded exception",
-                      "raw": "'#4.4: Exception !==\"ex2\". Actual: Catch previous embedded exception'"
+                      "value": "#4.4: Exception !==\"ex2\". Actual: Catch previous embedded exception"
                     }
                   ]
                 }
@@ -1197,8 +1160,7 @@
                 "type": "Literal",
                 "start": 2252,
                 "end": 2253,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -1224,8 +1186,7 @@
           "type": "Literal",
           "start": 2266,
           "end": 2267,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -1247,8 +1208,7 @@
               "type": "Literal",
               "start": 2292,
               "end": 2333,
-              "value": "#4.5: \"finally\" block must be evaluated",
-              "raw": "'#4.5: \"finally\" block must be evaluated'"
+              "value": "#4.5: \"finally\" block must be evaluated"
             }
           ]
         }
@@ -1274,8 +1234,7 @@
             "type": "Literal",
             "start": 2355,
             "end": 2356,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -1307,8 +1266,7 @@
                     "type": "Literal",
                     "start": 2380,
                     "end": 2385,
-                    "value": "ex2",
-                    "raw": "\"ex2\""
+                    "value": "ex2"
                   }
                 }
               ]
@@ -1347,8 +1305,7 @@
                         "type": "Literal",
                         "start": 2419,
                         "end": 2424,
-                        "value": "ex2",
-                        "raw": "\"ex2\""
+                        "value": "ex2"
                       }
                     },
                     "consequent": {
@@ -1374,8 +1331,7 @@
                               "type": "Literal",
                               "start": 2449,
                               "end": 2499,
-                              "value": "#5.1: Exception ===\"ex2\". Actual:  Exception ===",
-                              "raw": "'#5.1: Exception ===\"ex2\". Actual:  Exception ==='"
+                              "value": "#5.1: Exception ===\"ex2\". Actual:  Exception ==="
                             },
                             "operator": "+",
                             "right": {
@@ -1403,8 +1359,7 @@
               "type": "Literal",
               "start": 2521,
               "end": 2526,
-              "value": "ex1",
-              "raw": "\"ex1\""
+              "value": "ex1"
             }
           }
         ]
@@ -1443,8 +1398,7 @@
                   "type": "Literal",
                   "start": 2554,
                   "end": 2559,
-                  "value": "ex1",
-                  "raw": "\"ex1\""
+                  "value": "ex1"
                 }
               },
               "consequent": {
@@ -1470,8 +1424,7 @@
                         "type": "Literal",
                         "start": 2584,
                         "end": 2634,
-                        "value": "#5.2: Exception ===\"ex1\". Actual:  Exception ===",
-                        "raw": "'#5.2: Exception ===\"ex1\". Actual:  Exception ==='"
+                        "value": "#5.2: Exception ===\"ex1\". Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -1505,8 +1458,7 @@
                   "type": "Literal",
                   "start": 2656,
                   "end": 2661,
-                  "value": "ex2",
-                  "raw": "\"ex2\""
+                  "value": "ex2"
                 }
               },
               "consequent": {
@@ -1528,8 +1480,7 @@
                       "type": "Literal",
                       "start": 2686,
                       "end": 2755,
-                      "value": "#5.3: Exception !==\"ex2\". Actual: catch previous embedded exception",
-                      "raw": "'#5.3: Exception !==\"ex2\". Actual: catch previous embedded exception'"
+                      "value": "#5.3: Exception !==\"ex2\". Actual: catch previous embedded exception"
                     }
                   ]
                 }
@@ -1563,8 +1514,7 @@
                 "type": "Literal",
                 "start": 2774,
                 "end": 2775,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -1590,8 +1540,7 @@
           "type": "Literal",
           "start": 2788,
           "end": 2789,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -1613,8 +1562,7 @@
               "type": "Literal",
               "start": 2814,
               "end": 2855,
-              "value": "#5.4: \"finally\" block must be evaluated",
-              "raw": "'#5.4: \"finally\" block must be evaluated'"
+              "value": "#5.4: \"finally\" block must be evaluated"
             }
           ]
         }
@@ -1640,8 +1588,7 @@
             "type": "Literal",
             "start": 2877,
             "end": 2878,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -1673,8 +1620,7 @@
                     "type": "Literal",
                     "start": 2902,
                     "end": 2907,
-                    "value": "ex1",
-                    "raw": "\"ex1\""
+                    "value": "ex1"
                   }
                 }
               ]
@@ -1713,8 +1659,7 @@
                         "type": "Literal",
                         "start": 2941,
                         "end": 2946,
-                        "value": "ex1",
-                        "raw": "\"ex1\""
+                        "value": "ex1"
                       }
                     },
                     "consequent": {
@@ -1740,8 +1685,7 @@
                               "type": "Literal",
                               "start": 2971,
                               "end": 3021,
-                              "value": "#6.1: Exception ===\"ex1\". Actual:  Exception ===",
-                              "raw": "'#6.1: Exception ===\"ex1\". Actual:  Exception ==='"
+                              "value": "#6.1: Exception ===\"ex1\". Actual:  Exception ==="
                             },
                             "operator": "+",
                             "right": {
@@ -1788,8 +1732,7 @@
                 "type": "Literal",
                 "start": 3051,
                 "end": 3052,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -1815,8 +1758,7 @@
           "type": "Literal",
           "start": 3067,
           "end": 3068,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -1838,8 +1780,7 @@
               "type": "Literal",
               "start": 3093,
               "end": 3134,
-              "value": "#6.2: \"finally\" block must be evaluated",
-              "raw": "'#6.2: \"finally\" block must be evaluated'"
+              "value": "#6.2: \"finally\" block must be evaluated"
             }
           ]
         }
@@ -1865,8 +1806,7 @@
             "type": "Literal",
             "start": 3156,
             "end": 3157,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -1898,8 +1838,7 @@
                     "type": "Literal",
                     "start": 3181,
                     "end": 3186,
-                    "value": "ex1",
-                    "raw": "\"ex1\""
+                    "value": "ex1"
                   }
                 }
               ]
@@ -1938,8 +1877,7 @@
                             "type": "Literal",
                             "start": 3221,
                             "end": 3222,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -1951,8 +1889,7 @@
                           "type": "Literal",
                           "start": 3236,
                           "end": 3241,
-                          "value": "ex2",
-                          "raw": "\"ex2\""
+                          "value": "ex2"
                         }
                       }
                     ]
@@ -1991,8 +1928,7 @@
                               "type": "Literal",
                               "start": 3281,
                               "end": 3286,
-                              "value": "ex2",
-                              "raw": "\"ex2\""
+                              "value": "ex2"
                             }
                           },
                           "consequent": {
@@ -2018,8 +1954,7 @@
                                     "type": "Literal",
                                     "start": 3311,
                                     "end": 3361,
-                                    "value": "#7.1: Exception ===\"ex2\". Actual:  Exception ===",
-                                    "raw": "'#7.1: Exception ===\"ex2\". Actual:  Exception ==='"
+                                    "value": "#7.1: Exception ===\"ex2\". Actual:  Exception ==="
                                   },
                                   "operator": "+",
                                   "right": {
@@ -2053,8 +1988,7 @@
                               "type": "Literal",
                               "start": 3387,
                               "end": 3392,
-                              "value": "ex1",
-                              "raw": "\"ex1\""
+                              "value": "ex1"
                             }
                           },
                           "consequent": {
@@ -2076,8 +2010,7 @@
                                   "type": "Literal",
                                   "start": 3417,
                                   "end": 3486,
-                                  "value": "#7.2: Exception !==\"ex1\". Actual: catch previous embedded exception",
-                                  "raw": "'#7.2: Exception !==\"ex1\". Actual: catch previous embedded exception'"
+                                  "value": "#7.2: Exception !==\"ex1\". Actual: catch previous embedded exception"
                                 }
                               ]
                             }
@@ -2146,8 +2079,7 @@
                   "type": "Literal",
                   "start": 3537,
                   "end": 3542,
-                  "value": "ex1",
-                  "raw": "\"ex1\""
+                  "value": "ex1"
                 }
               },
               "consequent": {
@@ -2173,8 +2105,7 @@
                         "type": "Literal",
                         "start": 3567,
                         "end": 3617,
-                        "value": "#7.3: Exception ===\"ex1\". Actual:  Exception ===",
-                        "raw": "'#7.3: Exception ===\"ex1\". Actual:  Exception ==='"
+                        "value": "#7.3: Exception ===\"ex1\". Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -2213,8 +2144,7 @@
           "type": "Literal",
           "start": 3638,
           "end": 3639,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -2236,8 +2166,7 @@
               "type": "Literal",
               "start": 3664,
               "end": 3705,
-              "value": "#7.4: \"finally\" block must be evaluated",
-              "raw": "'#7.4: \"finally\" block must be evaluated'"
+              "value": "#7.4: \"finally\" block must be evaluated"
             }
           ]
         }

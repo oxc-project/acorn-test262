@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 294,
             "end": 298,
-            "value": "or",
-            "raw": "'or'"
+            "value": "or"
           },
           {
             "type": "ObjectExpression",

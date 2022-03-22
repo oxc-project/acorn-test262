@@ -79,8 +79,7 @@
                 "type": "Literal",
                 "start": 556,
                 "end": 633,
-                "value": "new Proxy(function() {}, { construct: function(_, args) { return args; } })",
-                "raw": "'new Proxy(function() {}, { construct: function(_, args) { return args; } })'"
+                "value": "new Proxy(function() {}, { construct: function(_, args) { return args; } })"
               }
             ],
             "optional": false

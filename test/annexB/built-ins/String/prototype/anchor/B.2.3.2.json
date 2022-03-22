@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 591,
                 "end": 594,
-                "value": "_",
-                "raw": "'_'"
+                "value": "_"
               },
               "property": {
                 "type": "Identifier",
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 602,
                 "end": 605,
-                "value": "b",
-                "raw": "'b'"
+                "value": "b"
               }
             ],
             "optional": false
@@ -70,8 +68,7 @@
             "type": "Literal",
             "start": 608,
             "end": 627,
-            "value": "<a name=\"b\">_</a>",
-            "raw": "'<a name=\"b\">_</a>'"
+            "value": "<a name=\"b\">_</a>"
           }
         ],
         "optional": false
@@ -117,8 +114,7 @@
                 "type": "Literal",
                 "start": 647,
                 "end": 650,
-                "value": "<",
-                "raw": "'<'"
+                "value": "<"
               },
               "property": {
                 "type": "Identifier",
@@ -134,8 +130,7 @@
                 "type": "Literal",
                 "start": 658,
                 "end": 661,
-                "value": "<",
-                "raw": "'<'"
+                "value": "<"
               }
             ],
             "optional": false
@@ -144,8 +139,7 @@
             "type": "Literal",
             "start": 664,
             "end": 683,
-            "value": "<a name=\"<\"><</a>",
-            "raw": "'<a name=\"<\"><</a>'"
+            "value": "<a name=\"<\"><</a>"
           }
         ],
         "optional": false
@@ -191,8 +185,7 @@
                 "type": "Literal",
                 "start": 703,
                 "end": 706,
-                "value": "_",
-                "raw": "'_'"
+                "value": "_"
               },
               "property": {
                 "type": "Identifier",
@@ -208,8 +201,7 @@
                 "type": "Literal",
                 "start": 714,
                 "end": 718,
-                "value": 42,
-                "raw": "0x2A"
+                "value": 42
               }
             ],
             "optional": false
@@ -218,8 +210,7 @@
             "type": "Literal",
             "start": 721,
             "end": 741,
-            "value": "<a name=\"42\">_</a>",
-            "raw": "'<a name=\"42\">_</a>'"
+            "value": "<a name=\"42\">_</a>"
           }
         ],
         "optional": false
@@ -265,8 +256,7 @@
                 "type": "Literal",
                 "start": 761,
                 "end": 764,
-                "value": "_",
-                "raw": "'_'"
+                "value": "_"
               },
               "property": {
                 "type": "Identifier",
@@ -282,8 +272,7 @@
                 "type": "Literal",
                 "start": 772,
                 "end": 778,
-                "value": "\"",
-                "raw": "'\\x22'"
+                "value": "\""
               }
             ],
             "optional": false
@@ -292,8 +281,7 @@
             "type": "Literal",
             "start": 781,
             "end": 805,
-            "value": "<a name=\"&quot;\">_</a>",
-            "raw": "'<a name=\"&quot;\">_</a>'"
+            "value": "<a name=\"&quot;\">_</a>"
           }
         ],
         "optional": false
@@ -381,15 +369,13 @@
                 "type": "Literal",
                 "start": 854,
                 "end": 858,
-                "value": 42,
-                "raw": "0x2A"
+                "value": 42
               },
               {
                 "type": "Literal",
                 "start": 860,
                 "end": 864,
-                "value": 42,
-                "raw": "0x2A"
+                "value": 42
               }
             ],
             "optional": false
@@ -398,8 +384,7 @@
             "type": "Literal",
             "start": 867,
             "end": 888,
-            "value": "<a name=\"42\">42</a>",
-            "raw": "'<a name=\"42\">42</a>'"
+            "value": "<a name=\"42\">42</a>"
           }
         ],
         "optional": false

@@ -73,8 +73,7 @@
           "type": "Literal",
           "start": 354,
           "end": 355,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -127,8 +126,7 @@
                 "type": "Literal",
                 "start": 389,
                 "end": 390,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           }
@@ -184,8 +182,7 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 432,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -262,8 +259,7 @@
             "type": "Literal",
             "start": 494,
             "end": 576,
-            "value": "The value of Date.prototype.getUTCDate is expected to not equal the value of `x`",
-            "raw": "'The value of Date.prototype.getUTCDate is expected to not equal the value of `x`'"
+            "value": "The value of Date.prototype.getUTCDate is expected to not equal the value of `x`"
           }
         ],
         "optional": false

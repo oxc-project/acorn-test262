@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 424,
             "end": 462,
-            "value": "She sells seashells by the seashore.",
-            "raw": "'She sells seashells by the seashore.'"
+            "value": "She sells seashells by the seashore."
           }
         }
       ],
@@ -49,7 +48,6 @@
             "start": 475,
             "end": 479,
             "value": {},
-            "raw": "/sh/",
             "regex": {
               "pattern": "sh",
               "flags": ""
@@ -105,16 +103,14 @@
                 "type": "Literal",
                 "start": 595,
                 "end": 599,
-                "value": "$'",
-                "raw": "\"$'\""
+                "value": "$'"
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 602,
                 "end": 607,
-                "value": "sch",
-                "raw": "'sch'"
+                "value": "sch"
               }
             }
           ],
@@ -125,8 +121,7 @@
           "type": "Literal",
           "start": 613,
           "end": 673,
-          "value": "She sells seaells by the seashore.schells by the seashore.",
-          "raw": "'She sells seaells by the seashore.schells by the seashore.'"
+          "value": "She sells seaells by the seashore.schells by the seashore."
         }
       },
       "consequent": {
@@ -157,8 +152,7 @@
                     "type": "Literal",
                     "start": 702,
                     "end": 890,
-                    "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/; __str.replace(__re, \"$'\" + 'sch')==='She sells seaells by the seashore.schells by the seashore.'. Actual: ",
-                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/; __str.replace(__re, \"$\\'\" + \\'sch\\')===\\'She sells seaells by the seashore.schells by the seashore.\\'. Actual: '"
+                    "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/; __str.replace(__re, \"$'\" + 'sch')==='She sells seaells by the seashore.schells by the seashore.'. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -199,16 +193,14 @@
                           "type": "Literal",
                           "start": 913,
                           "end": 917,
-                          "value": "$'",
-                          "raw": "\"$'\""
+                          "value": "$'"
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
                           "start": 920,
                           "end": 925,
-                          "value": "sch",
-                          "raw": "'sch'"
+                          "value": "sch"
                         }
                       }
                     ],

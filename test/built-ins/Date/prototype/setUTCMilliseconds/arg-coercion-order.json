@@ -60,8 +60,7 @@
             "type": "Literal",
             "start": 651,
             "end": 652,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -133,8 +132,7 @@
                             "type": "Literal",
                             "start": 707,
                             "end": 708,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -146,8 +144,7 @@
                           "type": "Literal",
                           "start": 721,
                           "end": 722,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -251,15 +248,13 @@
             "type": "Literal",
             "start": 809,
             "end": 810,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 812,
             "end": 843,
-            "value": "ToNumber invoked exactly once",
-            "raw": "'ToNumber invoked exactly once'"
+            "value": "ToNumber invoked exactly once"
           }
         ],
         "optional": false
@@ -309,8 +304,7 @@
             "type": "Literal",
             "start": 881,
             "end": 933,
-            "value": "argument is ignored when `this` is an invalid date",
-            "raw": "'argument is ignored when `this` is an invalid date'"
+            "value": "argument is ignored when `this` is an invalid date"
           }
         ],
         "optional": false
@@ -380,8 +374,7 @@
             "type": "Literal",
             "start": 974,
             "end": 1026,
-            "value": "argument is ignored when `this` is an invalid date",
-            "raw": "'argument is ignored when `this` is an invalid date'"
+            "value": "argument is ignored when `this` is an invalid date"
           }
         ],
         "optional": false

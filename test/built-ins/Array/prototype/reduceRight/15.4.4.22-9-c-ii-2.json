@@ -53,15 +53,13 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 341,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 344,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -93,8 +91,7 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 378,
-                "value": "five",
-                "raw": "\"five\""
+                "value": "five"
               }
             ]
           }
@@ -121,8 +118,7 @@
             "type": "Literal",
             "start": 400,
             "end": 403,
-            "value": 5.5,
-            "raw": "5.5"
+            "value": 5.5
           }
         }
       ],
@@ -223,8 +219,7 @@
                       "type": "Literal",
                       "start": 482,
                       "end": 483,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -323,8 +318,7 @@
                         "type": "Literal",
                         "start": 572,
                         "end": 573,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     },
                     "operator": "<",
@@ -411,8 +405,7 @@
                         "type": "Literal",
                         "start": 623,
                         "end": 624,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     },
                     "computed": true,
@@ -526,15 +519,13 @@
             "type": "Literal",
             "start": 746,
             "end": 747,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 749,
             "end": 792,
-            "value": "arr.reduceRight(callbackfn, initialValue)",
-            "raw": "'arr.reduceRight(callbackfn, initialValue)'"
+            "value": "arr.reduceRight(callbackfn, initialValue)"
           }
         ],
         "optional": false

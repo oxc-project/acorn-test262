@@ -83,8 +83,7 @@
             "type": "Literal",
             "start": 430,
             "end": 470,
-            "value": "`Object.is(true, true)` returns `true`",
-            "raw": "\"`Object.is(true, true)` returns `true`\""
+            "value": "`Object.is(true, true)` returns `true`"
           }
         ],
         "optional": false
@@ -170,8 +169,7 @@
             "type": "Literal",
             "start": 521,
             "end": 563,
-            "value": "`Object.is(false, false)` returns `true`",
-            "raw": "\"`Object.is(false, false)` returns `true`\""
+            "value": "`Object.is(false, false)` returns `true`"
           }
         ],
         "optional": false

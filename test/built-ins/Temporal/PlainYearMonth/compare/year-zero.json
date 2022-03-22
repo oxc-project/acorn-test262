@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 298,
                 "end": 302,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 304,
                 "end": 305,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -81,8 +79,7 @@
             "type": "Literal",
             "start": 320,
             "end": 332,
-            "value": "-000000-06",
-            "raw": "\"-000000-06\""
+            "value": "-000000-06"
           }
         }
       ],
@@ -188,8 +185,7 @@
             "type": "Literal",
             "start": 416,
             "end": 473,
-            "value": "Cannot use minus zero as extended year (first argument)",
-            "raw": "\"Cannot use minus zero as extended year (first argument)\""
+            "value": "Cannot use minus zero as extended year (first argument)"
           }
         ],
         "optional": false
@@ -295,8 +291,7 @@
             "type": "Literal",
             "start": 559,
             "end": 617,
-            "value": "Cannot use minus zero as extended year (second argument)",
-            "raw": "\"Cannot use minus zero as extended year (second argument)\""
+            "value": "Cannot use minus zero as extended year (second argument)"
           }
         ],
         "optional": false

@@ -73,8 +73,7 @@
                     "type": "Literal",
                     "start": 912,
                     "end": 941,
-                    "value": "#1: test failed with error ",
-                    "raw": "'#1: test failed with error '"
+                    "value": "#1: test failed with error "
                   },
                   "operator": "+",
                   "right": {
@@ -141,8 +140,7 @@
                     "type": "Literal",
                     "start": 1006,
                     "end": 1082,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

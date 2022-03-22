@@ -108,8 +108,7 @@
             "type": "Literal",
             "start": 724,
             "end": 765,
-            "value": "Binding is created but not initialized.",
-            "raw": "'Binding is created but not initialized.'"
+            "value": "Binding is created but not initialized."
           }
         ],
         "optional": false
@@ -177,8 +176,7 @@
                 "type": "Literal",
                 "start": 828,
                 "end": 837,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -212,8 +210,7 @@
             "type": "Literal",
             "start": 870,
             "end": 872,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           }
         }
       ],
@@ -257,8 +254,7 @@
             "type": "Literal",
             "start": 901,
             "end": 903,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           }
         ],
         "optional": false
@@ -326,8 +322,7 @@
                 "type": "Literal",
                 "start": 966,
                 "end": 975,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -459,15 +454,13 @@
             "type": "Literal",
             "start": 1079,
             "end": 1081,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           },
           {
             "type": "Literal",
             "start": 1083,
             "end": 1107,
-            "value": "binding is not mutable",
-            "raw": "'binding is not mutable'"
+            "value": "binding is not mutable"
           }
         ],
         "optional": false
@@ -535,8 +528,7 @@
                 "type": "Literal",
                 "start": 1170,
                 "end": 1179,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -551,8 +543,7 @@
             "type": "Literal",
             "start": 1197,
             "end": 1251,
-            "value": "global binding is not effected by attempts to modify",
-            "raw": "'global binding is not effected by attempts to modify'"
+            "value": "global binding is not effected by attempts to modify"
           }
         ],
         "optional": false

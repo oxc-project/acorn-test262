@@ -53,15 +53,13 @@
             "type": "Literal",
             "start": 304,
             "end": 312,
-            "value": "number",
-            "raw": "\"number\""
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 314,
             "end": 374,
-            "value": "The value of `typeof(Infinity)` is expected to be \"number\"",
-            "raw": "'The value of `typeof(Infinity)` is expected to be \"number\"'"
+            "value": "The value of `typeof(Infinity)` is expected to be \"number\""
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 421,
             "end": 459,
-            "value": "isFinite(Infinity) must return false",
-            "raw": "'isFinite(Infinity) must return false'"
+            "value": "isFinite(Infinity) must return false"
           }
         ],
         "optional": false
@@ -192,8 +189,7 @@
             "type": "Literal",
             "start": 503,
             "end": 538,
-            "value": "isNaN(Infinity) must return false",
-            "raw": "'isNaN(Infinity) must return false'"
+            "value": "isNaN(Infinity) must return false"
           }
         ],
         "optional": false
@@ -256,8 +252,7 @@
             "type": "Literal",
             "start": 602,
             "end": 684,
-            "value": "The value of Infinity is expected to equal the value of Number.POSITIVE_INFINITY",
-            "raw": "'The value of Infinity is expected to equal the value of Number.POSITIVE_INFINITY'"
+            "value": "The value of Infinity is expected to equal the value of Number.POSITIVE_INFINITY"
           }
         ],
         "optional": false

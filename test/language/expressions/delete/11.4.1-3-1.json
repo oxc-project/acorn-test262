@@ -55,8 +55,7 @@
             "type": "Literal",
             "start": 358,
             "end": 388,
-            "value": "delete unresolvable === true",
-            "raw": "'delete unresolvable === true'"
+            "value": "delete unresolvable === true"
           }
         ],
         "optional": false

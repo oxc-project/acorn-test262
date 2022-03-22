@@ -67,8 +67,7 @@
                         "type": "Literal",
                         "start": 479,
                         "end": 499,
-                        "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "value": "./empty_FIXTURE.js"
                       }
                     },
                     "quasi": {
@@ -162,8 +161,7 @@
                         "type": "Literal",
                         "start": 553,
                         "end": 573,
-                        "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "value": "./empty_FIXTURE.js"
                       }
                     },
                     "quasi": {
@@ -257,8 +255,7 @@
                         "type": "Literal",
                         "start": 636,
                         "end": 656,
-                        "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "value": "./empty_FIXTURE.js"
                       }
                     },
                     "quasi": {
@@ -270,8 +267,7 @@
                           "type": "Literal",
                           "start": 660,
                           "end": 662,
-                          "value": 42,
-                          "raw": "42"
+                          "value": 42
                         }
                       ],
                       "quasis": [

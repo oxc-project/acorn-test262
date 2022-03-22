@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 640,
             "end": 659,
-            "value": "SharedArrayBuffer",
-            "raw": "'SharedArrayBuffer'"
+            "value": "SharedArrayBuffer"
           }
         ],
         "optional": false

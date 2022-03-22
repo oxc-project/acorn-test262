@@ -107,9 +107,9 @@
                     "end": 2040,
                     "body": [
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 1998,
-                        "end": 2022,
+                        "end": 2021,
                         "static": true,
                         "computed": false,
                         "key": {
@@ -133,9 +133,9 @@
                         }
                       },
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 2027,
-                        "end": 2036,
+                        "end": 2035,
                         "static": true,
                         "computed": false,
                         "key": {
@@ -180,8 +180,7 @@
                         "type": "Literal",
                         "start": 2059,
                         "end": 2086,
-                        "value": "this should never execute",
-                        "raw": "'this should never execute'"
+                        "value": "this should never execute"
                       }
                     ],
                     "optional": false
@@ -194,8 +193,7 @@
             "type": "Literal",
             "start": 2092,
             "end": 2141,
-            "value": "static field initializer should throw exception",
-            "raw": "'static field initializer should throw exception'"
+            "value": "static field initializer should throw exception"
           }
         ],
         "optional": false

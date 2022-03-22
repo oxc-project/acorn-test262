@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 434,
                 "end": 452,
-                "value": "this.THIS = this",
-                "raw": "\"this.THIS = this\""
+                "value": "this.THIS = this"
               }
             ]
           }
@@ -125,8 +124,7 @@
           "type": "Literal",
           "start": 521,
           "end": 538,
-          "value": "[object Object]",
-          "raw": "\"[object Object]\""
+          "value": "[object Object]"
         }
       },
       "consequent": {
@@ -157,8 +155,7 @@
                     "type": "Literal",
                     "start": 567,
                     "end": 713,
-                    "value": "#1: var MyFunction = new Function(\"this.THIS = this\"); var MyObject = new MyFunction(); MyObject.THIS.toString() === \"[object Object]\". Actual: ",
-                    "raw": "'#1: var MyFunction = new Function(\"this.THIS = this\"); var MyObject = new MyFunction(); MyObject.THIS.toString() === \"[object Object]\". Actual: '"
+                    "value": "#1: var MyFunction = new Function(\"this.THIS = this\"); var MyObject = new MyFunction(); MyObject.THIS.toString() === \"[object Object]\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -243,8 +240,7 @@
               "type": "Literal",
               "start": 784,
               "end": 812,
-              "value": "this.THIS = eval('this')",
-              "raw": "\"this.THIS = eval(\\'this\\')\""
+              "value": "this.THIS = eval('this')"
             }
           ]
         }
@@ -331,8 +327,7 @@
           "type": "Literal",
           "start": 877,
           "end": 894,
-          "value": "[object Object]",
-          "raw": "\"[object Object]\""
+          "value": "[object Object]"
         }
       },
       "consequent": {
@@ -363,8 +358,7 @@
                     "type": "Literal",
                     "start": 923,
                     "end": 1079,
-                    "value": "#2: var MyFunction = new Function(\"this.THIS = eval('this')\"); var MyObject = new MyFunction(); MyObject.THIS.toString() === \"[object Object]\". Actual: ",
-                    "raw": "'#2: var MyFunction = new Function(\"this.THIS = eval(\\'this\\')\"); var MyObject = new MyFunction(); MyObject.THIS.toString() === \"[object Object]\". Actual: '"
+                    "value": "#2: var MyFunction = new Function(\"this.THIS = eval('this')\"); var MyObject = new MyFunction(); MyObject.THIS.toString() === \"[object Object]\". Actual: "
                   },
                   "operator": "+",
                   "right": {

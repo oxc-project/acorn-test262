@@ -96,16 +96,14 @@
               "type": "Literal",
               "start": 349,
               "end": 350,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 352,
             "end": 389,
-            "value": "[true].lastIndexOf(true, -Infinity)",
-            "raw": "'[true].lastIndexOf(true, -Infinity)'"
+            "value": "[true].lastIndexOf(true, -Infinity)"
           }
         ],
         "optional": false

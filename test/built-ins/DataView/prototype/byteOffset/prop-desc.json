@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 619,
                 "end": 631,
-                "value": "byteOffset",
-                "raw": "\"byteOffset\""
+                "value": "byteOffset"
               }
             ],
             "optional": false
@@ -190,8 +189,7 @@
             "type": "Literal",
             "start": 708,
             "end": 718,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
             "type": "Literal",
             "start": 762,
             "end": 774,
-            "value": "byteOffset",
-            "raw": "\"byteOffset\""
+            "value": "byteOffset"
           }
         ],
         "optional": false
@@ -280,8 +277,7 @@
             "type": "Literal",
             "start": 816,
             "end": 828,
-            "value": "byteOffset",
-            "raw": "\"byteOffset\""
+            "value": "byteOffset"
           }
         ],
         "optional": false

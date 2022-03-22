@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 294,
                 "end": 296,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ]
           }
@@ -159,8 +158,7 @@
               "type": "Literal",
               "start": 481,
               "end": 483,
-              "value": 52,
-              "raw": "52"
+              "value": 52
             }
           }
         },
@@ -212,8 +210,7 @@
               "type": "Literal",
               "start": 521,
               "end": 523,
-              "value": 50,
-              "raw": "50"
+              "value": 50
             }
           }
         }
@@ -254,8 +251,7 @@
                         "type": "Literal",
                         "start": 553,
                         "end": 758,
-                        "value": "#1: __instance = new Object(42); __instance.charCodeAt = String.prototype.charCodeAt;  __instance.charCodeAt(false) === 52 and __instance.charCodeAt(true) === 50. Actual: __instance.charCodeAt(false) ===",
-                        "raw": "'#1: __instance = new Object(42); __instance.charCodeAt = String.prototype.charCodeAt;  __instance.charCodeAt(false) === 52 and __instance.charCodeAt(true) === 50. Actual: __instance.charCodeAt(false) ==='"
+                        "value": "#1: __instance = new Object(42); __instance.charCodeAt = String.prototype.charCodeAt;  __instance.charCodeAt(false) === 52 and __instance.charCodeAt(true) === 50. Actual: __instance.charCodeAt(false) ==="
                       },
                       "operator": "+",
                       "right": {
@@ -298,8 +294,7 @@
                       "type": "Literal",
                       "start": 792,
                       "end": 830,
-                      "value": " and __instance.charCodeAt(true) ===",
-                      "raw": "' and __instance.charCodeAt(true) ==='"
+                      "value": " and __instance.charCodeAt(true) ==="
                     }
                   },
                   "operator": "+",

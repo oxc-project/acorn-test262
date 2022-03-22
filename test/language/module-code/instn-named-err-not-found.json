@@ -30,8 +30,7 @@
         "type": "Literal",
         "start": 1027,
         "end": 1073,
-        "value": "./instn-named-err-not-found-empty_FIXTURE.js",
-        "raw": "'./instn-named-err-not-found-empty_FIXTURE.js'"
+        "value": "./instn-named-err-not-found-empty_FIXTURE.js"
       }
     }
   ],

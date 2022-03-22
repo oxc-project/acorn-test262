@@ -51,8 +51,7 @@
             "type": "Literal",
             "start": 446,
             "end": 447,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -61,8 +60,7 @@
           "type": "Literal",
           "start": 449,
           "end": 454,
-          "value": "one",
-          "raw": "\"one\""
+          "value": "one"
         }
       }
     },
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 462,
             "end": 467,
-            "value": "two",
-            "raw": "\"two\""
+            "value": "two"
           },
           "computed": true,
           "optional": false
@@ -99,8 +96,7 @@
           "type": "Literal",
           "start": 469,
           "end": 470,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -127,8 +123,7 @@
             "type": "Literal",
             "start": 478,
             "end": 481,
-            "value": "3",
-            "raw": "\"3\""
+            "value": "3"
           },
           "computed": true,
           "optional": false
@@ -137,8 +132,7 @@
           "type": "Literal",
           "start": 483,
           "end": 488,
-          "value": "tre",
-          "raw": "\"tre\""
+          "value": "tre"
         }
       }
     },
@@ -164,8 +158,7 @@
             "type": "Literal",
             "start": 590,
             "end": 591,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -175,8 +168,7 @@
           "type": "Literal",
           "start": 597,
           "end": 602,
-          "value": "one",
-          "raw": "\"one\""
+          "value": "one"
         }
       },
       "consequent": {
@@ -207,8 +199,7 @@
                     "type": "Literal",
                     "start": 630,
                     "end": 728,
-                    "value": "#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: ",
-                    "raw": "'#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: '"
+                    "value": "#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -229,8 +220,7 @@
                         "type": "Literal",
                         "start": 738,
                         "end": 739,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "computed": true,
                       "optional": false
@@ -266,8 +256,7 @@
             "type": "Literal",
             "start": 928,
             "end": 933,
-            "value": "two",
-            "raw": "\"two\""
+            "value": "two"
           },
           "computed": true,
           "optional": false
@@ -277,8 +266,7 @@
           "type": "Literal",
           "start": 939,
           "end": 940,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -309,8 +297,7 @@
                     "type": "Literal",
                     "start": 968,
                     "end": 1066,
-                    "value": "#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: ",
-                    "raw": "'#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: '"
+                    "value": "#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -331,8 +318,7 @@
                         "type": "Literal",
                         "start": 1076,
                         "end": 1081,
-                        "value": "two",
-                        "raw": "\"two\""
+                        "value": "two"
                       },
                       "computed": true,
                       "optional": false
@@ -368,8 +354,7 @@
             "type": "Literal",
             "start": 1270,
             "end": 1273,
-            "value": "3",
-            "raw": "\"3\""
+            "value": "3"
           },
           "computed": true,
           "optional": false
@@ -379,8 +364,7 @@
           "type": "Literal",
           "start": 1279,
           "end": 1284,
-          "value": "tre",
-          "raw": "\"tre\""
+          "value": "tre"
         }
       },
       "consequent": {
@@ -411,8 +395,7 @@
                     "type": "Literal",
                     "start": 1312,
                     "end": 1412,
-                    "value": "#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: ",
-                    "raw": "'#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: '"
+                    "value": "#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -433,8 +416,7 @@
                         "type": "Literal",
                         "start": 1422,
                         "end": 1425,
-                        "value": "3",
-                        "raw": "\"3\""
+                        "value": "3"
                       },
                       "computed": true,
                       "optional": false

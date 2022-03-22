@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 853,
                 "end": 861,
-                "value": "᠎",
-                "raw": "'\\u180E'"
+                "value": "᠎"
               }
             ],
             "optional": false
@@ -66,8 +65,7 @@
               "type": "Literal",
               "start": 869,
               "end": 906,
-              "value": "Number(\"\\u180E\") === NaN. Actual: ",
-              "raw": "'Number(\"\\\\u180E\") === NaN. Actual: '"
+              "value": "Number(\"\\u180E\") === NaN. Actual: "
             },
             "operator": "+",
             "right": {
@@ -89,8 +87,7 @@
                     "type": "Literal",
                     "start": 917,
                     "end": 925,
-                    "value": "᠎",
-                    "raw": "\"\\u180E\""
+                    "value": "᠎"
                   }
                 ],
                 "optional": false

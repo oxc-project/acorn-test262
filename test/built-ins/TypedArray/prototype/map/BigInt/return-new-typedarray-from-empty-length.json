@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 773,
                             "end": 774,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ]
                       }
@@ -184,8 +183,7 @@
                         "type": "Literal",
                         "start": 859,
                         "end": 882,
-                        "value": "new typedArray object",
-                        "raw": "\"new typedArray object\""
+                        "value": "new typedArray object"
                       }
                     ],
                     "optional": false
@@ -248,8 +246,7 @@
                         "type": "Literal",
                         "start": 928,
                         "end": 946,
-                        "value": "same constructor",
-                        "raw": "\"same constructor\""
+                        "value": "same constructor"
                       }
                     ],
                     "optional": false
@@ -296,8 +293,7 @@
                           "type": "Literal",
                           "start": 980,
                           "end": 1007,
-                          "value": "result is an instance of ",
-                          "raw": "\"result is an instance of \""
+                          "value": "result is an instance of "
                         },
                         "operator": "+",
                         "right": {
@@ -422,8 +418,7 @@
                         "type": "Literal",
                         "start": 1114,
                         "end": 1155,
-                        "value": "result has the same prototype of sample",
-                        "raw": "\"result has the same prototype of sample\""
+                        "value": "result has the same prototype of sample"
                       }
                     ],
                     "optional": false
@@ -480,15 +475,13 @@
                         "type": "Literal",
                         "start": 1195,
                         "end": 1196,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1198,
                         "end": 1211,
-                        "value": "same length",
-                        "raw": "\"same length\""
+                        "value": "same length"
                       }
                     ],
                     "optional": false
@@ -564,8 +557,7 @@
                         "type": "Literal",
                         "start": 1266,
                         "end": 1278,
-                        "value": "new buffer",
-                        "raw": "\"new buffer\""
+                        "value": "new buffer"
                       }
                     ],
                     "optional": false

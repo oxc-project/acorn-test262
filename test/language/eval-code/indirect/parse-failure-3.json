@@ -72,8 +72,7 @@
                             "type": "Literal",
                             "start": 394,
                             "end": 395,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Identifier",
@@ -89,8 +88,7 @@
                         "type": "Literal",
                         "start": 402,
                         "end": 413,
-                        "value": "continue;",
-                        "raw": "\"continue;\""
+                        "value": "continue;"
                       }
                     ],
                     "optional": false
@@ -174,8 +172,7 @@
                           "type": "Literal",
                           "start": 476,
                           "end": 477,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ],
@@ -196,8 +193,7 @@
                       "type": "Literal",
                       "start": 484,
                       "end": 485,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "update": {
@@ -239,8 +235,7 @@
                                   "type": "Literal",
                                   "start": 499,
                                   "end": 500,
-                                  "value": 0,
-                                  "raw": "0"
+                                  "value": 0
                                 },
                                 {
                                   "type": "Identifier",
@@ -256,8 +251,7 @@
                               "type": "Literal",
                               "start": 507,
                               "end": 518,
-                              "value": "continue;",
-                              "raw": "\"continue;\""
+                              "value": "continue;"
                             }
                           ],
                           "optional": false
@@ -282,8 +276,7 @@
                               "type": "Literal",
                               "start": 548,
                               "end": 585,
-                              "value": "First iteration should not complete",
-                              "raw": "\"First iteration should not complete\""
+                              "value": "First iteration should not complete"
                             }
                           ]
                         }
@@ -310,8 +303,7 @@
                         "type": "Literal",
                         "start": 617,
                         "end": 648,
-                        "value": "Iteration should not complete",
-                        "raw": "\"Iteration should not complete\""
+                        "value": "Iteration should not complete"
                       }
                     ]
                   }

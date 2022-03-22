@@ -115,8 +115,7 @@
             "type": "Literal",
             "start": 714,
             "end": 742,
-            "value": "Assert that p is a promise",
-            "raw": "'Assert that p is a promise'"
+            "value": "Assert that p is a promise"
           }
         ],
         "optional": false
@@ -211,8 +210,7 @@
                   "type": "Literal",
                   "start": 1006,
                   "end": 1016,
-                  "value": "toString",
-                  "raw": "'toString'"
+                  "value": "toString"
                 }
               ],
               "optional": false
@@ -296,8 +294,7 @@
                   "type": "Literal",
                   "start": 1080,
                   "end": 1089,
-                  "value": "valueOf",
-                  "raw": "'valueOf'"
+                  "value": "valueOf"
                 }
               ],
               "optional": false
@@ -512,8 +509,7 @@
                             "type": "Literal",
                             "start": 1244,
                             "end": 1281,
-                            "value": "import() cannot resolve import.meta",
-                            "raw": "'import() cannot resolve import.meta'"
+                            "value": "import() cannot resolve import.meta"
                           }
                         ],
                         "optional": false

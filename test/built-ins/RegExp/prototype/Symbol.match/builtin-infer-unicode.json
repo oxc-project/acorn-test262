@@ -43,7 +43,6 @@
           "start": 821,
           "end": 829,
           "value": {},
-          "raw": "/\\udf06/",
           "regex": {
             "pattern": "\\udf06",
             "flags": ""
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 856,
             "end": 865,
-            "value": "unicode",
-            "raw": "'unicode'"
+            "value": "unicode"
           },
           {
             "type": "ObjectExpression",
@@ -194,8 +192,7 @@
                 "type": "Literal",
                 "start": 921,
                 "end": 935,
-                "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "value": "𝌆"
               }
             ],
             "optional": false
@@ -231,7 +228,6 @@
           "start": 950,
           "end": 959,
           "value": {},
-          "raw": "/\\udf06/u",
           "regex": {
             "pattern": "\\udf06",
             "flags": "u"
@@ -277,8 +273,7 @@
             "type": "Literal",
             "start": 986,
             "end": 995,
-            "value": "unicode",
-            "raw": "'unicode'"
+            "value": "unicode"
           },
           {
             "type": "ObjectExpression",
@@ -382,8 +377,7 @@
                 "type": "Literal",
                 "start": 1049,
                 "end": 1063,
-                "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "value": "𝌆"
               }
             ],
             "optional": false

@@ -71,8 +71,7 @@
               "type": "Literal",
               "start": 462,
               "end": 464,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           ],
           "optional": false
@@ -82,8 +81,7 @@
           "type": "Literal",
           "start": 470,
           "end": 472,
-          "value": 42,
-          "raw": "42"
+          "value": 42
         }
       },
       "consequent": {
@@ -110,8 +108,7 @@
                   "type": "Literal",
                   "start": 500,
                   "end": 563,
-                  "value": "#1: \"arguments\" variable overrides ActivationObject.arguments",
-                  "raw": "'#1: \"arguments\" variable overrides ActivationObject.arguments'"
+                  "value": "#1: \"arguments\" variable overrides ActivationObject.arguments"
                 }
               ]
             }

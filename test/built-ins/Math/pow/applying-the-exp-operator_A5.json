@@ -89,8 +89,7 @@
             "type": "Literal",
             "start": 306,
             "end": 307,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -133,8 +132,7 @@
             "type": "Literal",
             "start": 327,
             "end": 328,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 333,
             "end": 355,
-            "value": 1.7976931348623157e+308,
-            "raw": "1.7976931348623157E308"
+            "value": 1.7976931348623157e+308
           }
         }
       }
@@ -178,8 +175,7 @@
             "type": "Literal",
             "start": 398,
             "end": 399,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -194,8 +190,7 @@
             "type": "Literal",
             "start": 404,
             "end": 421,
-            "value": 1.000000000000001,
-            "raw": "1.000000000000001"
+            "value": 1.000000000000001
           }
         }
       }
@@ -223,8 +218,7 @@
             "type": "Literal",
             "start": 428,
             "end": 429,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           "computed": true,
           "optional": false
@@ -233,8 +227,7 @@
           "type": "Literal",
           "start": 433,
           "end": 450,
-          "value": 1.000000000000001,
-          "raw": "1.000000000000001"
+          "value": 1.000000000000001
         }
       }
     },
@@ -261,8 +254,7 @@
             "type": "Literal",
             "start": 457,
             "end": 458,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           "computed": true,
           "optional": false
@@ -271,8 +263,7 @@
           "type": "Literal",
           "start": 462,
           "end": 484,
-          "value": 1.7976931348623157e+308,
-          "raw": "1.7976931348623157E308"
+          "value": 1.7976931348623157e+308
         }
       }
     },
@@ -299,8 +290,7 @@
             "type": "Literal",
             "start": 515,
             "end": 516,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           "computed": true,
           "optional": false
@@ -339,8 +329,7 @@
             "type": "Literal",
             "start": 545,
             "end": 546,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           }
         }
       ],
@@ -369,8 +358,7 @@
               "type": "Literal",
               "start": 562,
               "end": 563,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -527,8 +515,7 @@
                                 "type": "Literal",
                                 "start": 663,
                                 "end": 678,
-                                "value": "#1: Math.pow(",
-                                "raw": "\"#1: Math.pow(\""
+                                "value": "#1: Math.pow("
                               },
                               "operator": "+",
                               "right": {
@@ -556,8 +543,7 @@
                               "type": "Literal",
                               "start": 691,
                               "end": 695,
-                              "value": ", ",
-                              "raw": "\", \""
+                              "value": ", "
                             }
                           },
                           "operator": "+",
@@ -573,8 +559,7 @@
                           "type": "Literal",
                           "start": 709,
                           "end": 726,
-                          "value": ") !== +Infinity",
-                          "raw": "\") !== +Infinity\""
+                          "value": ") !== +Infinity"
                         }
                       }
                     ]

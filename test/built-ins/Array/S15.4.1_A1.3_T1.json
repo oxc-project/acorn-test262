@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 402,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -94,15 +93,13 @@
             "type": "Literal",
             "start": 436,
             "end": 437,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 439,
             "end": 471,
-            "value": "The value of x.length is not 1",
-            "raw": "'The value of x.length is not 1'"
+            "value": "The value of x.length is not 1"
           }
         ],
         "optional": false
@@ -150,8 +147,7 @@
               "type": "Literal",
               "start": 496,
               "end": 497,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -160,15 +156,13 @@
             "type": "Literal",
             "start": 500,
             "end": 501,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 531,
-            "value": "The value of x[0] is not 2",
-            "raw": "'The value of x[0] is not 2'"
+            "value": "The value of x[0] is not 2"
           }
         ],
         "optional": false

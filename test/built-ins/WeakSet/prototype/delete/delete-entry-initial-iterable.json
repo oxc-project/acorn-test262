@@ -242,8 +242,7 @@
             "type": "Literal",
             "start": 762,
             "end": 791,
-            "value": "WeakSet#delete returns true",
-            "raw": "'WeakSet#delete returns true'"
+            "value": "WeakSet#delete returns true"
           }
         ],
         "optional": false

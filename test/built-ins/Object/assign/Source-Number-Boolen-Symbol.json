@@ -83,8 +83,7 @@
                 "type": "Literal",
                 "start": 389,
                 "end": 392,
-                "value": 123,
-                "raw": "123"
+                "value": 123
               },
               {
                 "type": "Literal",
@@ -108,8 +107,7 @@
                     "type": "Literal",
                     "start": 407,
                     "end": 412,
-                    "value": "foo",
-                    "raw": "'foo'"
+                    "value": "foo"
                   }
                 ],
                 "optional": false
@@ -165,8 +163,7 @@
             "type": "Literal",
             "start": 450,
             "end": 512,
-            "value": "The value of result is expected to equal the value of target",
-            "raw": "'The value of result is expected to equal the value of target'"
+            "value": "The value of result is expected to equal the value of target"
           }
         ],
         "optional": false

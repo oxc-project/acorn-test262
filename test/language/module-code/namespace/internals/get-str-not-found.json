@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 500,
         "end": 524,
-        "value": "./get-str-not-found.js",
-        "raw": "'./get-str-not-found.js'"
+        "value": "./get-str-not-found.js"
       }
     },
     {
@@ -131,8 +130,7 @@
             "type": "Literal",
             "start": 615,
             "end": 629,
-            "value": "key: test262",
-            "raw": "'key: test262'"
+            "value": "key: test262"
           }
         ],
         "optional": false
@@ -195,8 +193,7 @@
             "type": "Literal",
             "start": 676,
             "end": 694,
-            "value": "key: toStringTag",
-            "raw": "'key: toStringTag'"
+            "value": "key: toStringTag"
           }
         ],
         "optional": false
@@ -259,8 +256,7 @@
             "type": "Literal",
             "start": 738,
             "end": 753,
-            "value": "key: iterator",
-            "raw": "'key: iterator'"
+            "value": "key: iterator"
           }
         ],
         "optional": false
@@ -323,8 +319,7 @@
             "type": "Literal",
             "start": 798,
             "end": 814,
-            "value": "key: __proto__",
-            "raw": "'key: __proto__'"
+            "value": "key: __proto__"
           }
         ],
         "optional": false
@@ -387,8 +382,7 @@
             "type": "Literal",
             "start": 857,
             "end": 871,
-            "value": "key: default",
-            "raw": "'key: default'"
+            "value": "key: default"
           }
         ],
         "optional": false

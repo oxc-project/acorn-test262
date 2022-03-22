@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 575,
             "end": 582,
-            "value": "flags",
-            "raw": "'flags'"
+            "value": "flags"
           },
           {
             "type": "ObjectExpression",
@@ -303,8 +302,7 @@
           "type": "Literal",
           "start": 756,
           "end": 764,
-          "value": "string",
-          "raw": "'string'"
+          "value": "string"
         }
       }
     },
@@ -695,8 +693,7 @@
           "type": "Literal",
           "start": 1035,
           "end": 1037,
-          "value": 86,
-          "raw": "86"
+          "value": 86
         }
       }
     },

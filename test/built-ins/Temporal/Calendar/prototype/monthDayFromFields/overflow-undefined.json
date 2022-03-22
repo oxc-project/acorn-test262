@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 833,
                 "end": 842,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -116,8 +115,7 @@
                       "type": "Literal",
                       "start": 899,
                       "end": 903,
-                      "value": 2000,
-                      "raw": "2000"
+                      "value": 2000
                     },
                     "kind": "init"
                   },
@@ -138,8 +136,7 @@
                       "type": "Literal",
                       "start": 912,
                       "end": 914,
-                      "value": 15,
-                      "raw": "15"
+                      "value": 15
                     },
                     "kind": "init"
                   },
@@ -160,8 +157,7 @@
                       "type": "Literal",
                       "start": 921,
                       "end": 922,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "kind": "init"
                   }
@@ -240,22 +236,19 @@
             "type": "Literal",
             "start": 998,
             "end": 1003,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 1005,
             "end": 1006,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1008,
             "end": 1039,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false
@@ -322,8 +315,7 @@
                       "type": "Literal",
                       "start": 1095,
                       "end": 1099,
-                      "value": 2000,
-                      "raw": "2000"
+                      "value": 2000
                     },
                     "kind": "init"
                   },
@@ -344,8 +336,7 @@
                       "type": "Literal",
                       "start": 1108,
                       "end": 1110,
-                      "value": 15,
-                      "raw": "15"
+                      "value": 15
                     },
                     "kind": "init"
                   },
@@ -366,8 +357,7 @@
                       "type": "Literal",
                       "start": 1117,
                       "end": 1118,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "kind": "init"
                   }
@@ -424,22 +414,19 @@
             "type": "Literal",
             "start": 1173,
             "end": 1178,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 1180,
             "end": 1181,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1183,
             "end": 1214,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false

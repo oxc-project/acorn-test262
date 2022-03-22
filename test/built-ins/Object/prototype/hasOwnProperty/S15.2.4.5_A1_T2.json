@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 569,
             "end": 579,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 583,
             "end": 667,
-            "value": "The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\"",
-            "raw": "'The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\"'"
+            "value": "The value of `typeof Object.prototype.hasOwnProperty` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -194,15 +192,13 @@
             "type": "Literal",
             "start": 758,
             "end": 768,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 772,
             "end": 843,
-            "value": "The value of `typeof obj.hasOwnProperty` is expected to be \"function\"",
-            "raw": "'The value of `typeof obj.hasOwnProperty` is expected to be \"function\"'"
+            "value": "The value of `typeof obj.hasOwnProperty` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -257,8 +253,7 @@
                   "type": "Literal",
                   "start": 878,
                   "end": 894,
-                  "value": "hasOwnProperty",
-                  "raw": "\"hasOwnProperty\""
+                  "value": "hasOwnProperty"
                 }
               ],
               "optional": false
@@ -268,8 +263,7 @@
             "type": "Literal",
             "start": 899,
             "end": 974,
-            "value": "The value of !obj.hasOwnProperty(\"hasOwnProperty\") is expected to be true",
-            "raw": "'The value of !obj.hasOwnProperty(\"hasOwnProperty\") is expected to be true'"
+            "value": "The value of !obj.hasOwnProperty(\"hasOwnProperty\") is expected to be true"
           }
         ],
         "optional": false
@@ -330,8 +324,7 @@
                     "type": "Literal",
                     "start": 1010,
                     "end": 1024,
-                    "value": "the_property",
-                    "raw": "\"the_property\""
+                    "value": "the_property"
                   }
                 ],
                 "optional": false
@@ -342,8 +335,7 @@
             "type": "Literal",
             "start": 1029,
             "end": 1103,
-            "value": "The value of !!obj.hasOwnProperty(\"the_property\") is expected to be true",
-            "raw": "'The value of !!obj.hasOwnProperty(\"the_property\") is expected to be true'"
+            "value": "The value of !!obj.hasOwnProperty(\"the_property\") is expected to be true"
           }
         ],
         "optional": false

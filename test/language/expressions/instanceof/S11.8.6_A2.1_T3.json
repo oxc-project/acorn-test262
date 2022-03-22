@@ -63,8 +63,7 @@
                     "type": "Literal",
                     "start": 348,
                     "end": 409,
-                    "value": "#1.1: ({}) instanceof OBJECT throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: ({}) instanceof OBJECT throw ReferenceError. Actual: '"
+                    "value": "#1.1: ({}) instanceof OBJECT throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -184,8 +183,7 @@
                             "type": "Literal",
                             "start": 530,
                             "end": 591,
-                            "value": "#1.2: ({}) instanceof OBJECT throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: ({}) instanceof OBJECT throw ReferenceError. Actual: '"
+                            "value": "#1.2: ({}) instanceof OBJECT throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

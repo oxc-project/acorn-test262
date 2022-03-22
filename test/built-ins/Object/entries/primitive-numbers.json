@@ -63,8 +63,7 @@
                   "type": "Literal",
                   "start": 279,
                   "end": 280,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               ],
               "optional": false
@@ -82,15 +81,13 @@
             "type": "Literal",
             "start": 290,
             "end": 291,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 293,
             "end": 313,
-            "value": "0 has zero entries",
-            "raw": "'0 has zero entries'"
+            "value": "0 has zero entries"
           }
         ],
         "optional": false
@@ -162,8 +159,7 @@
                     "type": "Literal",
                     "start": 349,
                     "end": 350,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],
@@ -182,15 +178,13 @@
             "type": "Literal",
             "start": 360,
             "end": 361,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 363,
             "end": 384,
-            "value": "-0 has zero entries",
-            "raw": "'-0 has zero entries'"
+            "value": "-0 has zero entries"
           }
         ],
         "optional": false
@@ -274,15 +268,13 @@
             "type": "Literal",
             "start": 437,
             "end": 438,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 467,
-            "value": "Infinity has zero entries",
-            "raw": "'Infinity has zero entries'"
+            "value": "Infinity has zero entries"
           }
         ],
         "optional": false
@@ -373,15 +365,13 @@
             "type": "Literal",
             "start": 521,
             "end": 522,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 524,
             "end": 552,
-            "value": "-Infinity has zero entries",
-            "raw": "'-Infinity has zero entries'"
+            "value": "-Infinity has zero entries"
           }
         ],
         "optional": false
@@ -465,15 +455,13 @@
             "type": "Literal",
             "start": 600,
             "end": 601,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 625,
-            "value": "NaN has zero entries",
-            "raw": "'NaN has zero entries'"
+            "value": "NaN has zero entries"
           }
         ],
         "optional": false
@@ -570,15 +558,13 @@
             "type": "Literal",
             "start": 677,
             "end": 678,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 680,
             "end": 706,
-            "value": "Math.PI has zero entries",
-            "raw": "'Math.PI has zero entries'"
+            "value": "Math.PI has zero entries"
           }
         ],
         "optional": false

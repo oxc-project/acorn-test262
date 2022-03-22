@@ -166,8 +166,7 @@
             "type": "Literal",
             "start": 659,
             "end": 660,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -396,15 +395,13 @@
                           "type": "Literal",
                           "start": 804,
                           "end": 814,
-                          "value": "function",
-                          "raw": "'function'"
+                          "value": "function"
                         },
                         {
                           "type": "Literal",
                           "start": 816,
                           "end": 840,
-                          "value": "type of first argument",
-                          "raw": "'type of first argument'"
+                          "value": "type of first argument"
                         }
                       ],
                       "optional": false
@@ -461,15 +458,13 @@
                           "type": "Literal",
                           "start": 881,
                           "end": 882,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         {
                           "type": "Literal",
                           "start": 888,
                           "end": 961,
-                          "value": "ES6 25.4.1.3.2: The length property of a promise resolve function is 1.",
-                          "raw": "'ES6 25.4.1.3.2: The length property of a promise resolve function is 1.'"
+                          "value": "ES6 25.4.1.3.2: The length property of a promise resolve function is 1."
                         }
                       ],
                       "optional": false
@@ -520,15 +515,13 @@
                           "type": "Literal",
                           "start": 996,
                           "end": 1006,
-                          "value": "function",
-                          "raw": "'function'"
+                          "value": "function"
                         },
                         {
                           "type": "Literal",
                           "start": 1008,
                           "end": 1033,
-                          "value": "type of second argument",
-                          "raw": "'type of second argument'"
+                          "value": "type of second argument"
                         }
                       ],
                       "optional": false
@@ -585,15 +578,13 @@
                           "type": "Literal",
                           "start": 1074,
                           "end": 1075,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         {
                           "type": "Literal",
                           "start": 1081,
                           "end": 1153,
-                          "value": "ES6 25.4.1.3.1: The length property of a promise reject function is 1.",
-                          "raw": "'ES6 25.4.1.3.1: The length property of a promise reject function is 1.'"
+                          "value": "ES6 25.4.1.3.1: The length property of a promise reject function is 1."
                         }
                       ],
                       "optional": false
@@ -650,15 +641,13 @@
                           "type": "Literal",
                           "start": 1196,
                           "end": 1197,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         },
                         {
                           "type": "Literal",
                           "start": 1199,
                           "end": 1234,
-                          "value": "`then` invoked with two arguments",
-                          "raw": "'`then` invoked with two arguments'"
+                          "value": "`then` invoked with two arguments"
                         }
                       ],
                       "optional": false
@@ -707,8 +696,7 @@
                           "type": "Literal",
                           "start": 1275,
                           "end": 1289,
-                          "value": "`this` value",
-                          "raw": "'`this` value'"
+                          "value": "`this` value"
                         }
                       ],
                       "optional": false
@@ -803,8 +791,7 @@
                         "type": "Literal",
                         "start": 1387,
                         "end": 1388,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -910,15 +897,13 @@
             "type": "Literal",
             "start": 1450,
             "end": 1451,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1453,
             "end": 1499,
-            "value": "`then` invoked once for every iterated value",
-            "raw": "'`then` invoked once for every iterated value'"
+            "value": "`then` invoked once for every iterated value"
           }
         ],
         "optional": false

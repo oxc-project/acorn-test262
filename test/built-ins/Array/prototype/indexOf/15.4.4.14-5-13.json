@@ -90,15 +90,13 @@
             "type": "Literal",
             "start": 336,
             "end": 337,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 339,
             "end": 372,
-            "value": "[true].indexOf(true, -Infinity)",
-            "raw": "'[true].indexOf(true, -Infinity)'"
+            "value": "[true].indexOf(true, -Infinity)"
           }
         ],
         "optional": false

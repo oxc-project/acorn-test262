@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Math.clz32) must return false",
-            "raw": "'isConstructor(Math.clz32) must return false'"
+            "value": "isConstructor(Math.clz32) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 838,
             "end": 875,
-            "value": "`new Math.clz32()` throws TypeError",
-            "raw": "'`new Math.clz32()` throws TypeError'"
+            "value": "`new Math.clz32()` throws TypeError"
           }
         ],
         "optional": false

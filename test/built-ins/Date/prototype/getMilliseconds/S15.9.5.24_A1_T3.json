@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 377,
                   "end": 394,
-                  "value": "getMilliseconds",
-                  "raw": "'getMilliseconds'"
+                  "value": "getMilliseconds"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 399,
             "end": 494,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('getMilliseconds') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getMilliseconds\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getMilliseconds') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 573,
-                  "value": "getMilliseconds",
-                  "raw": "\"getMilliseconds\""
+                  "value": "getMilliseconds"
                 },
                 {
                   "type": "Literal",
                   "start": 575,
                   "end": 616,
-                  "value": "The value of x is not \"getMilliseconds\"",
-                  "raw": "'The value of x is not \"getMilliseconds\"'"
+                  "value": "The value of x is not \"getMilliseconds\""
                 }
               ],
               "optional": false

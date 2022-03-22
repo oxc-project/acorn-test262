@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 377,
             "end": 387,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 391,
             "end": 444,
-            "value": "`typeof Calendar.prototype.monthCode` is `function`",
-            "raw": "\"`typeof Calendar.prototype.monthCode` is `function`\""
+            "value": "`typeof Calendar.prototype.monthCode` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 493,
             "end": 504,
-            "value": "monthCode",
-            "raw": "\"monthCode\""
+            "value": "monthCode"
           },
           {
             "type": "ObjectExpression",

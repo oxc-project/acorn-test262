@@ -74,29 +74,25 @@
                                 "type": "Literal",
                                 "start": 834,
                                 "end": 836,
-                                "value": 40,
-                                "raw": "40"
+                                "value": 40
                               },
                               {
                                 "type": "Literal",
                                 "start": 838,
                                 "end": 840,
-                                "value": 41,
-                                "raw": "41"
+                                "value": 41
                               },
                               {
                                 "type": "Literal",
                                 "start": 842,
                                 "end": 844,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 846,
                                 "end": 848,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -125,8 +121,7 @@
                         "type": "Literal",
                         "start": 866,
                         "end": 867,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -190,8 +185,7 @@
                         "type": "Literal",
                         "start": 916,
                         "end": 929,
-                        "value": "constructor",
-                        "raw": "\"constructor\""
+                        "value": "constructor"
                       },
                       {
                         "type": "ObjectExpression",
@@ -297,8 +291,7 @@
                           "type": "Literal",
                           "start": 1010,
                           "end": 1011,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ],
                       "optional": false
@@ -343,15 +336,13 @@
                         "type": "Literal",
                         "start": 1041,
                         "end": 1042,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1044,
                         "end": 1082,
-                        "value": "called custom ctor get accessor once",
-                        "raw": "\"called custom ctor get accessor once\""
+                        "value": "called custom ctor get accessor once"
                       }
                     ],
                     "optional": false
@@ -455,8 +446,7 @@
                         "type": "Literal",
                         "start": 1180,
                         "end": 1243,
-                        "value": "use defaultCtor on an undefined return - getPrototypeOf check",
-                        "raw": "\"use defaultCtor on an undefined return - getPrototypeOf check\""
+                        "value": "use defaultCtor on an undefined return - getPrototypeOf check"
                       }
                     ],
                     "optional": false
@@ -519,8 +509,7 @@
                         "type": "Literal",
                         "start": 1305,
                         "end": 1366,
-                        "value": "use defaultCtor on an undefined return - .constructor check",
-                        "raw": "\"use defaultCtor on an undefined return - .constructor check\""
+                        "value": "use defaultCtor on an undefined return - .constructor check"
                       }
                     ],
                     "optional": false

@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 672,
                     "end": 682,
-                    "value": "/\r/",
-                    "raw": "\"/\\u000D/\""
+                    "value": "/\r/"
                   }
                 ],
                 "optional": false
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 718,
                     "end": 794,
-                    "value": "#1.1: RegularExpressionFirstChar :: Carriage Return is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionFirstChar :: Carriage Return is incorrect. Actual: '"
+                    "value": "#1.1: RegularExpressionFirstChar :: Carriage Return is incorrect. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -101,8 +99,7 @@
                             "type": "Literal",
                             "start": 803,
                             "end": 813,
-                            "value": "/\r/",
-                            "raw": "\"/\\u000D/\""
+                            "value": "/\r/"
                           }
                         ],
                         "optional": false
@@ -206,8 +203,7 @@
                             "type": "Literal",
                             "start": 912,
                             "end": 988,
-                            "value": "#1.2: RegularExpressionFirstChar :: Carriage Return is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionFirstChar :: Carriage Return is incorrect. Actual: '"
+                            "value": "#1.2: RegularExpressionFirstChar :: Carriage Return is incorrect. Actual: "
                           },
                           "operator": "+",
                           "right": {

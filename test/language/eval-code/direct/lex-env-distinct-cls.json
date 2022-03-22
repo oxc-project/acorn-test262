@@ -40,8 +40,7 @@
             "type": "Literal",
             "start": 470,
             "end": 488,
-            "value": "class outside {}",
-            "raw": "'class outside {}'"
+            "value": "class outside {}"
           }
         ],
         "optional": false
@@ -66,8 +65,7 @@
             "type": "Literal",
             "start": 496,
             "end": 528,
-            "value": "\"use strict\"; class outside {}",
-            "raw": "'\"use strict\"; class outside {}'"
+            "value": "\"use strict\"; class outside {}"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 537,
             "end": 558,
-            "value": "class xNonStrict {}",
-            "raw": "'class xNonStrict {}'"
+            "value": "class xNonStrict {}"
           }
         ],
         "optional": false
@@ -144,8 +141,7 @@
             "type": "Literal",
             "start": 598,
             "end": 609,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -236,8 +232,7 @@
             "type": "Literal",
             "start": 679,
             "end": 711,
-            "value": "\"use strict\"; class xStrict {}",
-            "raw": "'\"use strict\"; class xStrict {}'"
+            "value": "\"use strict\"; class xStrict {}"
           }
         ],
         "optional": false
@@ -288,8 +283,7 @@
             "type": "Literal",
             "start": 748,
             "end": 759,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false

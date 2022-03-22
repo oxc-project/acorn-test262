@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 782,
             "end": 848,
-            "value": "isConstructor(Object.prototype.hasOwnProperty) must return false",
-            "raw": "'isConstructor(Object.prototype.hasOwnProperty) must return false'"
+            "value": "isConstructor(Object.prototype.hasOwnProperty) must return false"
           }
         ],
         "optional": false
@@ -188,8 +187,7 @@
                         "type": "Literal",
                         "start": 924,
                         "end": 926,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ]
                   }
@@ -201,8 +199,7 @@
             "type": "Literal",
             "start": 932,
             "end": 994,
-            "value": "`new Object.prototype.hasOwnProperty('')` throws TypeError",
-            "raw": "'`new Object.prototype.hasOwnProperty(\\'\\')` throws TypeError'"
+            "value": "`new Object.prototype.hasOwnProperty('')` throws TypeError"
           }
         ],
         "optional": false

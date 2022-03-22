@@ -232,8 +232,7 @@
                   "type": "Literal",
                   "start": 594,
                   "end": 638,
-                  "value": "Prototype of non-extensible object mutated",
-                  "raw": "\"Prototype of non-extensible object mutated\""
+                  "value": "Prototype of non-extensible object mutated"
                 }
               ]
             }

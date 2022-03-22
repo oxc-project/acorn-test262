@@ -48,7 +48,6 @@
               "start": 1818,
               "end": 1821,
               "value": {},
-              "raw": "/1/",
               "regex": {
                 "pattern": "1",
                 "flags": ""
@@ -75,7 +74,6 @@
                 "start": 1834,
                 "end": 1837,
                 "value": {},
-                "raw": "/1/",
                 "regex": {
                   "pattern": "1",
                   "flags": ""
@@ -131,7 +129,6 @@
               "start": 2020,
               "end": 2023,
               "value": {},
-              "raw": "/1/",
               "regex": {
                 "pattern": "1",
                 "flags": ""
@@ -158,7 +155,6 @@
                 "start": 2036,
                 "end": 2039,
                 "value": {},
-                "raw": "/1/",
                 "regex": {
                   "pattern": "1",
                   "flags": ""
@@ -214,7 +210,6 @@
               "start": 2222,
               "end": 2225,
               "value": {},
-              "raw": "/1/",
               "regex": {
                 "pattern": "1",
                 "flags": ""
@@ -241,7 +236,6 @@
                 "start": 2238,
                 "end": 2241,
                 "value": {},
-                "raw": "/1/",
                 "regex": {
                   "pattern": "1",
                   "flags": ""

@@ -72,8 +72,7 @@
                   "type": "Literal",
                   "start": 1134,
                   "end": 1137,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               },
@@ -94,8 +93,7 @@
                   "type": "Literal",
                   "start": 1146,
                   "end": 1149,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               }
@@ -142,8 +140,7 @@
                   "type": "Literal",
                   "start": 1170,
                   "end": 1173,
-                  "value": "b",
-                  "raw": "'b'"
+                  "value": "b"
                 },
                 "kind": "init"
               }
@@ -234,8 +231,7 @@
                   "type": "Literal",
                   "start": 1228,
                   "end": 1231,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 },
                 "kind": "init"
               },
@@ -256,8 +252,7 @@
                   "type": "Literal",
                   "start": 1242,
                   "end": 1245,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 },
                 "kind": "init"
               },
@@ -319,8 +314,7 @@
                                 "type": "Literal",
                                 "start": 1277,
                                 "end": 1291,
-                                "value": "super.fromA;",
-                                "raw": "'super.fromA;'"
+                                "value": "super.fromA;"
                               }
                             ],
                             "optional": false
@@ -357,8 +351,7 @@
                                 "type": "Literal",
                                 "start": 1311,
                                 "end": 1325,
-                                "value": "super.fromB;",
-                                "raw": "'super.fromB;'"
+                                "value": "super.fromB;"
                               }
                             ],
                             "optional": false
@@ -488,8 +481,7 @@
             "type": "Literal",
             "start": 1407,
             "end": 1410,
-            "value": "a",
-            "raw": "'a'"
+            "value": "a"
           }
         ],
         "optional": false
@@ -533,8 +525,7 @@
             "type": "Literal",
             "start": 1437,
             "end": 1440,
-            "value": "b",
-            "raw": "'b'"
+            "value": "b"
           }
         ],
         "optional": false

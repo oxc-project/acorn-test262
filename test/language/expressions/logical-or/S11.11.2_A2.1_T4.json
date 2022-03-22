@@ -68,8 +68,7 @@
                   "type": "Literal",
                   "start": 341,
                   "end": 367,
-                  "value": "#1: (true || x) === true",
-                  "raw": "'#1: (true || x) === true'"
+                  "value": "#1: (true || x) === true"
                 }
               ]
             }

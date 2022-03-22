@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 884,
             "end": 898,
-            "value": "Float64Array",
-            "raw": "\"Float64Array\""
+            "value": "Float64Array"
           }
         ],
         "optional": false
@@ -86,8 +85,7 @@
             "type": "Literal",
             "start": 936,
             "end": 942,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -118,8 +116,7 @@
             "type": "Literal",
             "start": 977,
             "end": 983,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -150,8 +147,7 @@
             "type": "Literal",
             "start": 1019,
             "end": 1025,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

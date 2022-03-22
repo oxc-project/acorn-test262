@@ -125,8 +125,7 @@
                         "type": "Literal",
                         "start": 335,
                         "end": 397,
-                        "value": "#1: Exception === false(operaton &&). Actual:  Exception ===",
-                        "raw": "'#1: Exception === false(operaton &&). Actual:  Exception ==='"
+                        "value": "#1: Exception === false(operaton &&). Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -268,8 +267,7 @@
                         "type": "Literal",
                         "start": 504,
                         "end": 565,
-                        "value": "#2: Exception === true(operaton ||). Actual:  Exception ===",
-                        "raw": "'#2: Exception === true(operaton ||). Actual:  Exception ==='"
+                        "value": "#2: Exception === true(operaton ||). Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -380,8 +378,7 @@
                         "type": "Literal",
                         "start": 658,
                         "end": 718,
-                        "value": "#3: Exception === true(operaton !). Actual:  Exception ===",
-                        "raw": "'#3: Exception === true(operaton !). Actual:  Exception ==='"
+                        "value": "#3: Exception === true(operaton !). Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -535,8 +532,7 @@
                         "type": "Literal",
                         "start": 828,
                         "end": 889,
-                        "value": "#4: Exception === true(operaton &&). Actual:  Exception ===",
-                        "raw": "'#4: Exception === true(operaton &&). Actual:  Exception ==='"
+                        "value": "#4: Exception === true(operaton &&). Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {

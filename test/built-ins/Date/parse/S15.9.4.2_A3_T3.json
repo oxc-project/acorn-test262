@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 357,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 362,
             "end": 444,
-            "value": "The value of !Date.parse.propertyIsEnumerable('length') is expected to be true",
-            "raw": "'The value of !Date.parse.propertyIsEnumerable(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.parse.propertyIsEnumerable('length') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 502,
                   "end": 510,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 {
                   "type": "Literal",
                   "start": 512,
                   "end": 544,
-                  "value": "The value of x is not \"length\"",
-                  "raw": "'The value of x is not \"length\"'"
+                  "value": "The value of x is not \"length\""
                 }
               ],
               "optional": false

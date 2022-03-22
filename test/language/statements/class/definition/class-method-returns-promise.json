@@ -140,8 +140,7 @@
             "type": "Literal",
             "start": 385,
             "end": 427,
-            "value": "async functions return promise instances",
-            "raw": "\"async functions return promise instances\""
+            "value": "async functions return promise instances"
           }
         ],
         "optional": false

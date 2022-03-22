@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 403,
                   "end": 411,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 416,
             "end": 516,
-            "value": "The value of !Date.prototype.setUTCMinutes.propertyIsEnumerable('length') is expected to be true",
-            "raw": "'The value of !Date.prototype.setUTCMinutes.propertyIsEnumerable(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.prototype.setUTCMinutes.propertyIsEnumerable('length') is expected to be true"
           }
         ],
         "optional": false
@@ -195,15 +193,13 @@
                   "type": "Literal",
                   "start": 592,
                   "end": 600,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 {
                   "type": "Literal",
                   "start": 602,
                   "end": 634,
-                  "value": "The value of x is not \"length\"",
-                  "raw": "'The value of x is not \"length\"'"
+                  "value": "The value of x is not \"length\""
                 }
               ],
               "optional": false

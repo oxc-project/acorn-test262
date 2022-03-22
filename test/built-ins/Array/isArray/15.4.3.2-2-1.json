@@ -202,8 +202,7 @@
             "type": "Literal",
             "start": 407,
             "end": 451,
-            "value": "Array.isArray(new Con()) must return false",
-            "raw": "'Array.isArray(new Con()) must return false'"
+            "value": "Array.isArray(new Con()) must return false"
           }
         ],
         "optional": false

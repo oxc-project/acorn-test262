@@ -56,22 +56,19 @@
                 "type": "Literal",
                 "start": 1057,
                 "end": 1060,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 1062,
                 "end": 1065,
-                "value": "b",
-                "raw": "'b'"
+                "value": "b"
               },
               {
                 "type": "Literal",
                 "start": 1067,
                 "end": 1081,
-                "value": "return a + b",
-                "raw": "'return a + b'"
+                "value": "return a + b"
               }
             ]
           }
@@ -130,15 +127,13 @@
             "type": "Literal",
             "start": 1114,
             "end": 1125,
-            "value": "anonymous",
-            "raw": "'anonymous'"
+            "value": "anonymous"
           },
           {
             "type": "Literal",
             "start": 1129,
             "end": 1169,
-            "value": "Dynamic Functions are called anonymous",
-            "raw": "'Dynamic Functions are called anonymous'"
+            "value": "Dynamic Functions are called anonymous"
           }
         ],
         "optional": false
@@ -169,8 +164,7 @@
             "type": "Literal",
             "start": 1198,
             "end": 1204,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -201,8 +195,7 @@
             "type": "Literal",
             "start": 1229,
             "end": 1235,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -233,8 +226,7 @@
             "type": "Literal",
             "start": 1261,
             "end": 1267,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

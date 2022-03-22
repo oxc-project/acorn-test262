@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 677,
                   "end": 678,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -137,8 +136,7 @@
                           "type": "Literal",
                           "start": 743,
                           "end": 744,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       }
                     ]
@@ -200,8 +198,7 @@
                       "type": "Literal",
                       "start": 806,
                       "end": 807,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     }
                   }
                 }
@@ -243,8 +240,7 @@
           "type": "Literal",
           "start": 837,
           "end": 839,
-          "value": 16,
-          "raw": "16"
+          "value": 16
         }
       },
       "consequent": {
@@ -275,8 +271,7 @@
                     "type": "Literal",
                     "start": 868,
                     "end": 903,
-                    "value": "#1: innerScope.x === 16. Actual: ",
-                    "raw": "'#1: innerScope.x === 16. Actual: '"
+                    "value": "#1: innerScope.x === 16. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -343,8 +338,7 @@
           "type": "Literal",
           "start": 946,
           "end": 947,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -375,8 +369,7 @@
                     "type": "Literal",
                     "start": 976,
                     "end": 1010,
-                    "value": "#2: outerScope.x === 0. Actual: ",
-                    "raw": "'#2: outerScope.x === 0. Actual: '"
+                    "value": "#2: outerScope.x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

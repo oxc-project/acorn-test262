@@ -35,8 +35,7 @@
           "type": "Literal",
           "start": 406,
           "end": 408,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -67,8 +66,7 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 493,
-                    "value": "#1: String.prototype ==\"\". Actual: String.prototype ==",
-                    "raw": "'#1: String.prototype ==\"\". Actual: String.prototype =='"
+                    "value": "#1: String.prototype ==\"\". Actual: String.prototype =="
                   },
                   "operator": "+",
                   "right": {

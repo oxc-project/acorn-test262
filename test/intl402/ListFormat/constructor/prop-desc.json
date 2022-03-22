@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 977,
             "end": 987,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 1012,
             "end": 1024,
-            "value": "ListFormat",
-            "raw": "\"ListFormat\""
+            "value": "ListFormat"
           },
           {
             "type": "ObjectExpression",

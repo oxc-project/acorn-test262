@@ -122,8 +122,7 @@
                 "type": "Literal",
                 "start": 343,
                 "end": 350,
-                "value": "false",
-                "raw": "\"false\""
+                "value": "false"
               }
             ],
             "optional": false
@@ -132,8 +131,7 @@
             "type": "Literal",
             "start": 353,
             "end": 391,
-            "value": "obj.hasOwnProperty(\"false\") !== true",
-            "raw": "'obj.hasOwnProperty(\"false\") !== true'"
+            "value": "obj.hasOwnProperty(\"false\") !== true"
           }
         ],
         "optional": false

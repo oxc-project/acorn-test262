@@ -31,7 +31,6 @@
                 "start": 640,
                 "end": 648,
                 "value": {},
-                "raw": "/.(.)./g",
                 "regex": {
                   "pattern": ".(.).",
                   "flags": "g"
@@ -64,8 +63,7 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 674,
-                "value": "abcdefghi",
-                "raw": "'abcdefghi'"
+                "value": "abcdefghi"
               }
             ],
             "optional": false
@@ -201,8 +199,7 @@
                 "type": "Literal",
                 "start": 765,
                 "end": 772,
-                "value": "index",
-                "raw": "'index'"
+                "value": "index"
               }
             ],
             "optional": false
@@ -218,8 +215,7 @@
             "type": "Literal",
             "start": 786,
             "end": 829,
-            "value": "Does not define an `index` \"own\" property",
-            "raw": "'Does not define an `index` \"own\" property'"
+            "value": "Does not define an `index` \"own\" property"
           }
         ],
         "optional": false
@@ -282,8 +278,7 @@
             "type": "Literal",
             "start": 878,
             "end": 915,
-            "value": "Does not define an `index` property",
-            "raw": "'Does not define an `index` property'"
+            "value": "Does not define an `index` property"
           }
         ],
         "optional": false
@@ -364,8 +359,7 @@
                 "type": "Literal",
                 "start": 974,
                 "end": 981,
-                "value": "input",
-                "raw": "'input'"
+                "value": "input"
               }
             ],
             "optional": false
@@ -381,8 +375,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1038,
-            "value": "Does not define an `input` \"own\" property",
-            "raw": "'Does not define an `input` \"own\" property'"
+            "value": "Does not define an `input` \"own\" property"
           }
         ],
         "optional": false
@@ -445,8 +438,7 @@
             "type": "Literal",
             "start": 1087,
             "end": 1124,
-            "value": "Does not define an `input` property",
-            "raw": "'Does not define an `input` property'"
+            "value": "Does not define an `input` property"
           }
         ],
         "optional": false
@@ -503,8 +495,7 @@
             "type": "Literal",
             "start": 1161,
             "end": 1162,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -552,8 +543,7 @@
               "type": "Literal",
               "start": 1189,
               "end": 1190,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -562,8 +552,7 @@
             "type": "Literal",
             "start": 1193,
             "end": 1198,
-            "value": "abc",
-            "raw": "'abc'"
+            "value": "abc"
           }
         ],
         "optional": false
@@ -611,8 +600,7 @@
               "type": "Literal",
               "start": 1225,
               "end": 1226,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -621,8 +609,7 @@
             "type": "Literal",
             "start": 1229,
             "end": 1234,
-            "value": "def",
-            "raw": "'def'"
+            "value": "def"
           }
         ],
         "optional": false
@@ -670,8 +657,7 @@
               "type": "Literal",
               "start": 1261,
               "end": 1262,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -680,8 +666,7 @@
             "type": "Literal",
             "start": 1265,
             "end": 1270,
-            "value": "ghi",
-            "raw": "'ghi'"
+            "value": "ghi"
           }
         ],
         "optional": false

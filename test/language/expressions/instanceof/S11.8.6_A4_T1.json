@@ -50,8 +50,7 @@
                   "type": "Literal",
                   "start": 331,
                   "end": 368,
-                  "value": "#1: false is not instanceof Boolean",
-                  "raw": "'#1: false is not instanceof Boolean'"
+                  "value": "#1: false is not instanceof Boolean"
                 }
               ]
             }
@@ -121,8 +120,7 @@
                   "type": "Literal",
                   "start": 449,
                   "end": 495,
-                  "value": "#2: Boolean(false) is not instanceof Boolean",
-                  "raw": "'#2: Boolean(false) is not instanceof Boolean'"
+                  "value": "#2: Boolean(false) is not instanceof Boolean"
                 }
               ]
             }
@@ -196,8 +194,7 @@
                   "type": "Literal",
                   "start": 582,
                   "end": 618,
-                  "value": "#3: new Boolean instanceof Boolean",
-                  "raw": "'#3: new Boolean instanceof Boolean'"
+                  "value": "#3: new Boolean instanceof Boolean"
                 }
               ]
             }

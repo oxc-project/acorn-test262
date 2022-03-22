@@ -74,22 +74,19 @@
                                 "type": "Literal",
                                 "start": 588,
                                 "end": 590,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 592,
                                 "end": 594,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               },
                               {
                                 "type": "Literal",
                                 "start": 596,
                                 "end": 598,
-                                "value": 44,
-                                "raw": "44"
+                                "value": 44
                               }
                             ]
                           }
@@ -197,8 +194,7 @@
                                     "type": "Literal",
                                     "start": 664,
                                     "end": 665,
-                                    "value": 1,
-                                    "raw": "1"
+                                    "value": 1
                                   }
                                 }
                               },
@@ -241,8 +237,7 @@
                                             "type": "Literal",
                                             "start": 684,
                                             "end": 685,
-                                            "value": 1,
-                                            "raw": "1"
+                                            "value": 1
                                           }
                                         },
                                         "computed": true,
@@ -252,8 +247,7 @@
                                         "type": "Literal",
                                         "start": 689,
                                         "end": 691,
-                                        "value": 42,
-                                        "raw": "42"
+                                        "value": 42
                                       }
                                     }
                                   }
@@ -299,15 +293,13 @@
                                     "type": "Literal",
                                     "start": 731,
                                     "end": 733,
-                                    "value": 42,
-                                    "raw": "42"
+                                    "value": 42
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 735,
                                     "end": 789,
-                                    "value": "method does not cache values before callbackfn calls",
-                                    "raw": "\"method does not cache values before callbackfn calls\""
+                                    "value": "method does not cache values before callbackfn calls"
                                   }
                                 ],
                                 "optional": false

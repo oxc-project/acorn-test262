@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 637,
             "end": 638,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -127,8 +126,7 @@
                             "type": "Literal",
                             "start": 706,
                             "end": 707,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         }
                       ]
@@ -205,8 +203,7 @@
                     "type": "Literal",
                     "start": 759,
                     "end": 760,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ],
                 "optional": false
@@ -237,8 +234,7 @@
                     "type": "Literal",
                     "start": 784,
                     "end": 787,
-                    "value": "v",
-                    "raw": "\"v\""
+                    "value": "v"
                   },
                   {
                     "type": "ObjectExpression",
@@ -328,8 +324,7 @@
                           "type": "Literal",
                           "start": 868,
                           "end": 869,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         },
                         "kind": "init"
                       }
@@ -393,8 +388,7 @@
             "type": "Literal",
             "start": 915,
             "end": 939,
-            "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "value": "executed `catch` block"
           }
         ],
         "optional": false

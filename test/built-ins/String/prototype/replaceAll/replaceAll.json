@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 464,
             "end": 474,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 530,
-            "value": "`typeof String.prototype.replaceAll` is `function`",
-            "raw": "'`typeof String.prototype.replaceAll` is `function`'"
+            "value": "`typeof String.prototype.replaceAll` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 568,
             "end": 580,
-            "value": "replaceAll",
-            "raw": "'replaceAll'"
+            "value": "replaceAll"
           },
           {
             "type": "ObjectExpression",

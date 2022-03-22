@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Array.of) must return false",
-            "raw": "'isConstructor(Array.of) must return false'"
+            "value": "isConstructor(Array.of) must return false"
           }
         ],
         "optional": false
@@ -162,8 +161,7 @@
                         "type": "Literal",
                         "start": 824,
                         "end": 825,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ]
                   }
@@ -175,8 +173,7 @@
             "type": "Literal",
             "start": 831,
             "end": 879,
-            "value": "`new Array.of(1)` throws a TypeError exception",
-            "raw": "'`new Array.of(1)` throws a TypeError exception'"
+            "value": "`new Array.of(1)` throws a TypeError exception"
           }
         ],
         "optional": false

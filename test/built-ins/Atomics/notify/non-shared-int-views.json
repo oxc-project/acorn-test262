@@ -57,8 +57,7 @@
                   "type": "Literal",
                   "start": 362,
                   "end": 363,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 }
               }
             ]
@@ -133,8 +132,7 @@
                               "type": "Literal",
                               "start": 437,
                               "end": 468,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -268,8 +266,7 @@
             "type": "Literal",
             "start": 579,
             "end": 655,
-            "value": "`Atomics.notify(new Int16Array(sab), poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(new Int16Array(sab), poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(new Int16Array(sab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -393,8 +390,7 @@
             "type": "Literal",
             "start": 758,
             "end": 833,
-            "value": "`Atomics.notify(new Int8Array(sab), poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(new Int8Array(sab), poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(new Int8Array(sab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -518,8 +514,7 @@
             "type": "Literal",
             "start": 939,
             "end": 1016,
-            "value": "`Atomics.notify(new Uint32Array(sab), poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(new Uint32Array(sab), poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(new Uint32Array(sab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -643,8 +638,7 @@
             "type": "Literal",
             "start": 1121,
             "end": 1198,
-            "value": "`Atomics.notify(new Uint16Array(sab), poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(new Uint16Array(sab), poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(new Uint16Array(sab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -768,8 +762,7 @@
             "type": "Literal",
             "start": 1302,
             "end": 1378,
-            "value": "`Atomics.notify(new Uint8Array(sab), poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(new Uint8Array(sab), poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(new Uint8Array(sab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false
@@ -893,8 +886,7 @@
             "type": "Literal",
             "start": 1489,
             "end": 1572,
-            "value": "`Atomics.notify(new Uint8ClampedArray(sab), poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(new Uint8ClampedArray(sab), poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(new Uint8ClampedArray(sab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

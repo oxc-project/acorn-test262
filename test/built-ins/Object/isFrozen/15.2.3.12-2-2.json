@@ -55,8 +55,7 @@
               "type": "Literal",
               "start": 328,
               "end": 330,
-              "value": 10,
-              "raw": "10"
+              "value": 10
             }
           }
         ]
@@ -121,8 +120,7 @@
             "type": "Literal",
             "start": 388,
             "end": 396,
-            "value": "Father",
-            "raw": "\"Father\""
+            "value": "Father"
           },
           {
             "type": "ObjectExpression",
@@ -391,8 +389,7 @@
             "type": "Literal",
             "start": 598,
             "end": 631,
-            "value": "Object.isFrozen(child) !== true",
-            "raw": "'Object.isFrozen(child) !== true'"
+            "value": "Object.isFrozen(child) !== true"
           }
         ],
         "optional": false

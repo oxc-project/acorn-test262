@@ -57,8 +57,7 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 360,
-                  "value": 8,
-                  "raw": "8"
+                  "value": 8
                 }
               }
             ]
@@ -134,8 +133,7 @@
                               "type": "Literal",
                               "start": 424,
                               "end": 455,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -268,8 +266,7 @@
             "type": "Literal",
             "start": 573,
             "end": 656,
-            "value": "`Atomics.notify(new BigUint64Array(nonsab), poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.notify(new BigUint64Array(nonsab), poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.notify(new BigUint64Array(nonsab), poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

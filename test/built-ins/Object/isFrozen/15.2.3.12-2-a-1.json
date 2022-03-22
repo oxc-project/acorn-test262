@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 270,
             "end": 275,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -91,8 +90,7 @@
                   "type": "Literal",
                   "start": 288,
                   "end": 290,
-                  "value": 12,
-                  "raw": "12"
+                  "value": 12
                 },
                 "kind": "init"
               },
@@ -256,8 +254,7 @@
             "type": "Literal",
             "start": 415,
             "end": 437,
-            "value": "Object.isFrozen(obj)",
-            "raw": "'Object.isFrozen(obj)'"
+            "value": "Object.isFrozen(obj)"
           }
         ],
         "optional": false

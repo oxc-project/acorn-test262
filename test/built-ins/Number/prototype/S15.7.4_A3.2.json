@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 337,
-                "value": "toString",
-                "raw": "\"toString\""
+                "value": "toString"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 350,
             "end": 412,
-            "value": "Number.prototype.hasOwnProperty(\"toString\") must return true",
-            "raw": "'Number.prototype.hasOwnProperty(\"toString\") must return true'"
+            "value": "Number.prototype.hasOwnProperty(\"toString\") must return true"
           }
         ],
         "optional": false

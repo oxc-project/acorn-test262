@@ -44,8 +44,7 @@
                     "type": "Literal",
                     "start": 903,
                     "end": 904,
-                    "value": 8,
-                    "raw": "8"
+                    "value": 8
                   }
                 ]
               },
@@ -53,8 +52,7 @@
                 "type": "Literal",
                 "start": 907,
                 "end": 908,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -217,8 +215,7 @@
                         "type": "Literal",
                         "start": 1052,
                         "end": 1055,
-                        "value": 100,
-                        "raw": "100"
+                        "value": 100
                       },
                       {
                         "type": "Identifier",
@@ -237,8 +234,7 @@
             "type": "Literal",
             "start": 1071,
             "end": 1096,
-            "value": "setUint8(100, poisoned)",
-            "raw": "\"setUint8(100, poisoned)\""
+            "value": "setUint8(100, poisoned)"
           }
         ],
         "optional": false
@@ -324,8 +320,7 @@
                         "type": "Literal",
                         "start": 1161,
                         "end": 1166,
-                        "value": "100",
-                        "raw": "'100'"
+                        "value": "100"
                       },
                       {
                         "type": "Identifier",
@@ -344,8 +339,7 @@
             "type": "Literal",
             "start": 1182,
             "end": 1209,
-            "value": "setUint8('100', poisoned)",
-            "raw": "\"setUint8('100', poisoned)\""
+            "value": "setUint8('100', poisoned)"
           }
         ],
         "optional": false

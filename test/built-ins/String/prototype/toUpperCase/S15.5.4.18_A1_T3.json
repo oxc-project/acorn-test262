@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 348,
-                  "value": "\"bj\"",
-                  "raw": "\"\\\"bj\\\"\""
+                  "value": "\"bj\""
                 }
               ],
               "optional": false
@@ -57,8 +56,7 @@
           "type": "Literal",
           "start": 368,
           "end": 372,
-          "value": "BJ",
-          "raw": "\"BJ\""
+          "value": "BJ"
         }
       },
       "consequent": {
@@ -89,8 +87,7 @@
                     "type": "Literal",
                     "start": 401,
                     "end": 456,
-                    "value": "#1: eval(\"\\\"bj\\\"\").toUpperCase() === \"BJ\". Actual: ",
-                    "raw": "'#1: eval(\"\\\\\"bj\\\\\"\").toUpperCase() === \"BJ\". Actual: '"
+                    "value": "#1: eval(\"\\\"bj\\\"\").toUpperCase() === \"BJ\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -116,8 +113,7 @@
                             "type": "Literal",
                             "start": 464,
                             "end": 472,
-                            "value": "\"bj\"",
-                            "raw": "\"\\\"bj\\\"\""
+                            "value": "\"bj\""
                           }
                         ],
                         "optional": false

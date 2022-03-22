@@ -91,8 +91,7 @@
             "type": "Literal",
             "start": 401,
             "end": 406,
-            "value": "get",
-            "raw": "\"get\""
+            "value": "get"
           },
           {
             "type": "ObjectExpression",
@@ -152,8 +151,7 @@
                                   "type": "Literal",
                                   "start": 467,
                                   "end": 494,
-                                  "value": "inheritedAccessorProperty",
-                                  "raw": "\"inheritedAccessorProperty\""
+                                  "value": "inheritedAccessorProperty"
                                 }
                               }
                             ]
@@ -311,8 +309,7 @@
             "type": "Literal",
             "start": 640,
             "end": 645,
-            "value": "get",
-            "raw": "\"get\""
+            "value": "get"
           },
           {
             "type": "ObjectExpression",
@@ -372,8 +369,7 @@
                                   "type": "Literal",
                                   "start": 706,
                                   "end": 727,
-                                  "value": "ownAccessorProperty",
-                                  "raw": "\"ownAccessorProperty\""
+                                  "value": "ownAccessorProperty"
                                 }
                               }
                             ]
@@ -429,8 +425,7 @@
             "type": "Literal",
             "start": 772,
             "end": 782,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -493,15 +488,13 @@
             "type": "Literal",
             "start": 824,
             "end": 845,
-            "value": "ownAccessorProperty",
-            "raw": "\"ownAccessorProperty\""
+            "value": "ownAccessorProperty"
           },
           {
             "type": "Literal",
             "start": 847,
             "end": 861,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

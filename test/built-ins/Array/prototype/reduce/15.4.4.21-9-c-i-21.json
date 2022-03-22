@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 375,
             "end": 376,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -118,8 +117,7 @@
                 "type": "Literal",
                 "start": 442,
                 "end": 443,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "consequent": {
@@ -205,15 +203,13 @@
                   "type": "Literal",
                   "start": 511,
                   "end": 512,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 514,
                   "end": 515,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -228,15 +224,13 @@
                   "type": "Literal",
                   "start": 519,
                   "end": 520,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Literal",
                   "start": 522,
                   "end": 523,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               }
@@ -284,8 +278,7 @@
             "type": "Literal",
             "start": 557,
             "end": 560,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "ObjectExpression",
@@ -485,8 +478,7 @@
           "type": "Literal",
           "start": 699,
           "end": 700,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       }
     },
@@ -591,8 +583,7 @@
             "type": "Literal",
             "start": 785,
             "end": 806,
-            "value": "testResult !== true",
-            "raw": "'testResult !== true'"
+            "value": "testResult !== true"
           }
         ],
         "optional": false

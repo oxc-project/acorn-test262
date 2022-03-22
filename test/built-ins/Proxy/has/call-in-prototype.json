@@ -84,8 +84,7 @@
                   "type": "Literal",
                   "start": 733,
                   "end": 734,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -444,8 +443,7 @@
               "type": "Literal",
               "start": 1016,
               "end": 1022,
-              "value": "prop",
-              "raw": "'prop'"
+              "value": "prop"
             },
             "operator": "in",
             "right": {
@@ -510,8 +508,7 @@
             "type": "Literal",
             "start": 1076,
             "end": 1096,
-            "value": "handler is context",
-            "raw": "'handler is context'"
+            "value": "handler is context"
           }
         ],
         "optional": false
@@ -561,8 +558,7 @@
             "type": "Literal",
             "start": 1133,
             "end": 1164,
-            "value": "target is the first parameter",
-            "raw": "'target is the first parameter'"
+            "value": "target is the first parameter"
           }
         ],
         "optional": false
@@ -606,15 +602,13 @@
             "type": "Literal",
             "start": 1191,
             "end": 1197,
-            "value": "prop",
-            "raw": "'prop'"
+            "value": "prop"
           },
           {
             "type": "Literal",
             "start": 1199,
             "end": 1234,
-            "value": "given prop is the second paramter",
-            "raw": "'given prop is the second paramter'"
+            "value": "given prop is the second paramter"
           }
         ],
         "optional": false

@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 279,
                 "end": 283,
-                "value": 2020,
-                "raw": "2020"
+                "value": 2020
               },
               {
                 "type": "Literal",
                 "start": 285,
                 "end": 287,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 289,
                 "end": 291,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               }
             ]
           }
@@ -101,8 +98,7 @@
             "type": "Literal",
             "start": 336,
             "end": 342,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -156,8 +152,7 @@
                               "type": "Literal",
                               "start": 383,
                               "end": 413,
-                              "value": "Should not get Calendar.from",
-                              "raw": "\"Should not get Calendar.from\""
+                              "value": "Should not get Calendar.from"
                             }
                           ]
                         }
@@ -305,8 +300,7 @@
             "type": "Literal",
             "start": 542,
             "end": 551,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           }
         ],
         "optional": false
@@ -439,8 +433,7 @@
             "type": "Literal",
             "start": 660,
             "end": 669,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           }
         ],
         "optional": false

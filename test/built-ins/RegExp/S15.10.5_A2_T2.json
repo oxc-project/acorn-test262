@@ -48,8 +48,7 @@
           "type": "Literal",
           "start": 423,
           "end": 424,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -104,15 +103,13 @@
             "type": "Literal",
             "start": 462,
             "end": 463,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 516,
-            "value": "The value of RegExp.indicator is expected to be 1",
-            "raw": "'The value of RegExp.indicator is expected to be 1'"
+            "value": "The value of RegExp.indicator is expected to be 1"
           }
         ],
         "optional": false

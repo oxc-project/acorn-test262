@@ -125,15 +125,13 @@
             "type": "Literal",
             "start": 493,
             "end": 498,
-            "value": "Set",
-            "raw": "'Set'"
+            "value": "Set"
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 558,
-            "value": "The value of `SetProto[Symbol.toStringTag]` is `'Set'`",
-            "raw": "\"The value of `SetProto[Symbol.toStringTag]` is `'Set'`\""
+            "value": "The value of `SetProto[Symbol.toStringTag]` is `'Set'`"
           }
         ],
         "optional": false

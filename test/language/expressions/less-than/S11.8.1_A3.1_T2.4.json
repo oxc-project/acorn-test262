@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 477,
             "end": 478,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "operator": "<",
           "right": {
@@ -63,8 +62,7 @@
                   "type": "Literal",
                   "start": 529,
                   "end": 558,
-                  "value": "#1: 1 < undefined === false",
-                  "raw": "'#1: 1 < undefined === false'"
+                  "value": "#1: 1 < undefined === false"
                 }
               ]
             }
@@ -96,8 +94,7 @@
             "type": "Literal",
             "start": 590,
             "end": 591,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "operator": "!==",
@@ -133,8 +130,7 @@
                   "type": "Literal",
                   "start": 630,
                   "end": 659,
-                  "value": "#2: undefined < 1 === false",
-                  "raw": "'#2: undefined < 1 === false'"
+                  "value": "#2: undefined < 1 === false"
                 }
               ]
             }
@@ -170,8 +166,7 @@
                 "type": "Literal",
                 "start": 690,
                 "end": 691,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -216,8 +211,7 @@
                   "type": "Literal",
                   "start": 743,
                   "end": 784,
-                  "value": "#3: new Number(1) < undefined === false",
-                  "raw": "'#3: new Number(1) < undefined === false'"
+                  "value": "#3: new Number(1) < undefined === false"
                 }
               ]
             }
@@ -260,8 +254,7 @@
                 "type": "Literal",
                 "start": 827,
                 "end": 828,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -299,8 +292,7 @@
                   "type": "Literal",
                   "start": 868,
                   "end": 909,
-                  "value": "#4: undefined < new Number(1) === false",
-                  "raw": "'#4: undefined < new Number(1) === false'"
+                  "value": "#4: undefined < new Number(1) === false"
                 }
               ]
             }

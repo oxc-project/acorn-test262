@@ -59,15 +59,13 @@
             "type": "Literal",
             "start": 719,
             "end": 727,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 746,
             "end": 778,
-            "value": "typeof import.meta is 'object'",
-            "raw": "\"typeof import.meta is 'object'\""
+            "value": "typeof import.meta is 'object'"
           }
         ],
         "optional": false
@@ -129,8 +127,7 @@
             "type": "Literal",
             "start": 840,
             "end": 902,
-            "value": "typeof import.meta is 'object' and import.meta isn't |null|.",
-            "raw": "\"typeof import.meta is 'object' and import.meta isn't |null|.\""
+            "value": "typeof import.meta is 'object' and import.meta isn't |null|."
           }
         ],
         "optional": false
@@ -220,8 +217,7 @@
             "type": "Literal",
             "start": 966,
             "end": 995,
-            "value": "import.meta is not callable",
-            "raw": "\"import.meta is not callable\""
+            "value": "import.meta is not callable"
           }
         ],
         "optional": false
@@ -310,8 +306,7 @@
             "type": "Literal",
             "start": 1063,
             "end": 1097,
-            "value": "import.meta is not a constructor",
-            "raw": "\"import.meta is not a constructor\""
+            "value": "import.meta is not a constructor"
           }
         ],
         "optional": false
@@ -443,8 +438,7 @@
                       "type": "Literal",
                       "start": 1510,
                       "end": 1523,
-                      "value": "test262prop",
-                      "raw": "\"test262prop\""
+                      "value": "test262prop"
                     }
                   ],
                   "optional": false
@@ -459,8 +453,7 @@
                   "type": "Literal",
                   "start": 1558,
                   "end": 1606,
-                  "value": "test262 test property is not present initially",
-                  "raw": "\"test262 test property is not present initially\""
+                  "value": "test262 test property is not present initially"
                 }
               ],
               "optional": false
@@ -509,8 +502,7 @@
                 "type": "Literal",
                 "start": 1640,
                 "end": 1647,
-                "value": "blubb",
-                "raw": "\"blubb\""
+                "value": "blubb"
               }
             }
           },
@@ -576,15 +568,13 @@
                   "type": "Literal",
                   "start": 1696,
                   "end": 1703,
-                  "value": "blubb",
-                  "raw": "\"blubb\""
+                  "value": "blubb"
                 },
                 {
                   "type": "Literal",
                   "start": 1726,
                   "end": 1782,
-                  "value": "Properties can be added and retrieved from import.meta",
-                  "raw": "\"Properties can be added and retrieved from import.meta\""
+                  "value": "Properties can be added and retrieved from import.meta"
                 }
               ],
               "optional": false
@@ -666,8 +656,7 @@
                   "type": "Literal",
                   "start": 1866,
                   "end": 1910,
-                  "value": "Properties can be removed from import.meta",
-                  "raw": "\"Properties can be removed from import.meta\""
+                  "value": "Properties can be removed from import.meta"
                 }
               ],
               "optional": false
@@ -746,8 +735,7 @@
                       "type": "Literal",
                       "start": 1980,
                       "end": 1993,
-                      "value": "test262prop",
-                      "raw": "\"test262prop\""
+                      "value": "test262prop"
                     }
                   ],
                   "optional": false
@@ -762,8 +750,7 @@
                   "type": "Literal",
                   "start": 2028,
                   "end": 2072,
-                  "value": "test262 test property is no longer present",
-                  "raw": "\"test262 test property is no longer present\""
+                  "value": "test262 test property is no longer present"
                 }
               ],
               "optional": false
@@ -931,8 +918,7 @@
                   "type": "Literal",
                   "start": 2229,
                   "end": 2274,
-                  "value": "[[Prototype]] of import.meta can be changed",
-                  "raw": "\"[[Prototype]] of import.meta can be changed\""
+                  "value": "[[Prototype]] of import.meta can be changed"
                 }
               ],
               "optional": false
@@ -1074,8 +1060,7 @@
             "type": "Literal",
             "start": 2394,
             "end": 2466,
-            "value": "import.meta is non-extensible after calling |Object.preventExtensions|",
-            "raw": "\"import.meta is non-extensible after calling |Object.preventExtensions|\""
+            "value": "import.meta is non-extensible after calling |Object.preventExtensions|"
           }
         ],
         "optional": false
@@ -1213,8 +1198,7 @@
             "type": "Literal",
             "start": 2566,
             "end": 2617,
-            "value": "import.meta is sealed after calling |Object.seal|",
-            "raw": "\"import.meta is sealed after calling |Object.seal|\""
+            "value": "import.meta is sealed after calling |Object.seal|"
           }
         ],
         "optional": false
@@ -1352,8 +1336,7 @@
             "type": "Literal",
             "start": 2719,
             "end": 2772,
-            "value": "import.meta is frozen after calling |Object.freeze|",
-            "raw": "\"import.meta is frozen after calling |Object.freeze|\""
+            "value": "import.meta is frozen after calling |Object.freeze|"
           }
         ],
         "optional": false

@@ -84,8 +84,7 @@
                 "type": "Literal",
                 "start": 379,
                 "end": 382,
-                "value": "s",
-                "raw": "'s'"
+                "value": "s"
               }
             ],
             "optional": false

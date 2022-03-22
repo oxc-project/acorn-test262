@@ -218,8 +218,7 @@
               "type": "Literal",
               "start": 1354,
               "end": 1359,
-              "value": "xFn",
-              "raw": "'xFn'"
+              "value": "xFn"
             }
           }
         ],
@@ -251,8 +250,7 @@
             "type": "Literal",
             "start": 1382,
             "end": 1388,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -342,8 +340,7 @@
                   "type": "Literal",
                   "start": 1463,
                   "end": 1467,
-                  "value": "fn",
-                  "raw": "'fn'"
+                  "value": "fn"
                 },
                 "kind": "init"
               }

@@ -89,8 +89,7 @@
                         "type": "Literal",
                         "start": 518,
                         "end": 526,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       },
                       {
                         "type": "ObjectExpression",
@@ -120,8 +119,7 @@
                                 "type": "Literal",
                                 "start": 537,
                                 "end": 538,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             },
                             "kind": "init"
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 565,
             "end": 665,
-            "value": "Object.defineProperty([], \"length\", {value: -1, configurable: true}) throws a RangeError exception",
-            "raw": "'Object.defineProperty([], \"length\", {value: -1, configurable: true}) throws a RangeError exception'"
+            "value": "Object.defineProperty([], \"length\", {value: -1, configurable: true}) throws a RangeError exception"
           }
         ],
         "optional": false
@@ -254,8 +251,7 @@
                         "type": "Literal",
                         "start": 736,
                         "end": 744,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       },
                       {
                         "type": "ObjectExpression",
@@ -318,8 +314,7 @@
             "type": "Literal",
             "start": 782,
             "end": 881,
-            "value": "Object.defineProperty([], \"length\", {value: NaN, enumerable: true}) throws a RangeError exception",
-            "raw": "'Object.defineProperty([], \"length\", {value: NaN, enumerable: true}) throws a RangeError exception'"
+            "value": "Object.defineProperty([], \"length\", {value: NaN, enumerable: true}) throws a RangeError exception"
           }
         ],
         "optional": false
@@ -388,8 +383,7 @@
             "type": "Literal",
             "start": 930,
             "end": 938,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -510,8 +504,7 @@
                         "type": "Literal",
                         "start": 1030,
                         "end": 1038,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       },
                       {
                         "type": "ObjectExpression",
@@ -587,8 +580,7 @@
             "type": "Literal",
             "start": 1094,
             "end": 1214,
-            "value": "Object.defineProperty(array, \"length\", {value: Number.MAX_SAFE_INTEGER, writable: true}) throws a RangeError exception",
-            "raw": "'Object.defineProperty(array, \"length\", {value: Number.MAX_SAFE_INTEGER, writable: true}) throws a RangeError exception'"
+            "value": "Object.defineProperty(array, \"length\", {value: Number.MAX_SAFE_INTEGER, writable: true}) throws a RangeError exception"
           }
         ],
         "optional": false

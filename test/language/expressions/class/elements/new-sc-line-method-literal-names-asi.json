@@ -30,10 +30,9 @@
               "end": 654,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 616,
                   "end": 617,
-                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -44,10 +43,9 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 620,
-                  "end": 627,
-                  "static": false,
+                  "end": 626,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -59,8 +57,7 @@
                     "type": "Literal",
                     "start": 624,
                     "end": 626,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   }
                 },
                 {
@@ -98,8 +95,7 @@
                             "type": "Literal",
                             "start": 644,
                             "end": 646,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         }
                       ]
@@ -202,8 +198,7 @@
             "type": "Literal",
             "start": 698,
             "end": 700,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -367,8 +362,7 @@
                 "type": "Literal",
                 "start": 788,
                 "end": 791,
-                "value": "m",
-                "raw": "\"m\""
+                "value": "m"
               }
             ],
             "optional": false
@@ -422,8 +416,7 @@
             "type": "Literal",
             "start": 831,
             "end": 834,
-            "value": "m",
-            "raw": "\"m\""
+            "value": "m"
           },
           {
             "type": "ObjectExpression",
@@ -590,8 +583,7 @@
                 "type": "Literal",
                 "start": 961,
                 "end": 964,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -682,8 +674,7 @@
                 "type": "Literal",
                 "start": 1022,
                 "end": 1025,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -724,8 +715,7 @@
             "type": "Literal",
             "start": 1055,
             "end": 1058,
-            "value": "a",
-            "raw": "\"a\""
+            "value": "a"
           },
           {
             "type": "ObjectExpression",
@@ -913,8 +903,7 @@
                 "type": "Literal",
                 "start": 1203,
                 "end": 1206,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             ],
             "optional": false
@@ -1005,8 +994,7 @@
                 "type": "Literal",
                 "start": 1264,
                 "end": 1267,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             ],
             "optional": false
@@ -1047,8 +1035,7 @@
             "type": "Literal",
             "start": 1297,
             "end": 1300,
-            "value": "b",
-            "raw": "\"b\""
+            "value": "b"
           },
           {
             "type": "ObjectExpression",
@@ -1072,8 +1059,7 @@
                   "type": "Literal",
                   "start": 1313,
                   "end": 1315,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               },

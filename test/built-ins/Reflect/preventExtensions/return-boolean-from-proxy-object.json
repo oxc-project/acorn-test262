@@ -164,8 +164,7 @@
             "type": "Literal",
             "start": 888,
             "end": 922,
-            "value": "returns false from Proxy handler",
-            "raw": "'returns false from Proxy handler'"
+            "value": "returns false from Proxy handler"
           }
         ],
         "optional": false
@@ -377,8 +376,7 @@
             "type": "Literal",
             "start": 1115,
             "end": 1148,
-            "value": "returns true from Proxy handler",
-            "raw": "'returns true from Proxy handler'"
+            "value": "returns true from Proxy handler"
           }
         ],
         "optional": false

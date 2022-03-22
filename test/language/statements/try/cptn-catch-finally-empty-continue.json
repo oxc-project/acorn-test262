@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 588,
                 "end": 705,
-                "value": "for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) {} finally { continue; } } 'bad completion'; }",
-                "raw": "\"for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) {} finally { continue; } } 'bad completion'; }\""
+                "value": "for (var i = 0; i < 2; ++i) { if (i) { try { throw null; } catch (e) {} finally { continue; } } 'bad completion'; }"
               }
             ],
             "optional": false

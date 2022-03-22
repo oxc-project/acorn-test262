@@ -49,7 +49,6 @@
             "start": 337,
             "end": 349,
             "value": {},
-            "raw": "/t[a-b|q-s]/",
             "regex": {
               "pattern": "t[a-b|q-s]",
               "flags": ""
@@ -170,8 +169,7 @@
             "type": "Literal",
             "start": 427,
             "end": 485,
-            "value": "__re.test(true) must return __re.exec(__string) !== null",
-            "raw": "'__re.test(true) must return __re.exec(__string) !== null'"
+            "value": "__re.test(true) must return __re.exec(__string) !== null"
           }
         ],
         "optional": false

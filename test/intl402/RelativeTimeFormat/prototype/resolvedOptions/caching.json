@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 510,
                 "end": 517,
-                "value": "en-us",
-                "raw": "\"en-us\""
+                "value": "en-us"
               }
             ]
           }
@@ -189,8 +188,7 @@
             "type": "Literal",
             "start": 640,
             "end": 679,
-            "value": "Should create a new object each time.",
-            "raw": "\"Should create a new object each time.\""
+            "value": "Should create a new object each time."
           }
         ],
         "optional": false

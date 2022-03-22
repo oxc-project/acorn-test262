@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 503,
             "end": 504,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -100,8 +99,7 @@
             "type": "Literal",
             "start": 514,
             "end": 515,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -322,29 +320,25 @@
                 "type": "Literal",
                 "start": 686,
                 "end": 691,
-                "value": "tag",
-                "raw": "'tag'"
+                "value": "tag"
               },
               {
                 "type": "Literal",
                 "start": 693,
                 "end": 696,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 698,
                 "end": 701,
-                "value": "b",
-                "raw": "'b'"
+                "value": "b"
               },
               {
                 "type": "Literal",
                 "start": 703,
                 "end": 730,
-                "value": "return tag`head${b}tail`;",
-                "raw": "'return tag`head${b}tail`;'"
+                "value": "return tag`head${b}tail`;"
               }
             ]
           }
@@ -360,15 +354,13 @@
             "type": "Literal",
             "start": 738,
             "end": 739,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 741,
             "end": 742,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -418,8 +410,7 @@
             "type": "Literal",
             "start": 801,
             "end": 862,
-            "value": "The realm's template cache is by site, not string contents",
-            "raw": "'The realm\\'s template cache is by site, not string contents'"
+            "value": "The realm's template cache is by site, not string contents"
           }
         ],
         "optional": false

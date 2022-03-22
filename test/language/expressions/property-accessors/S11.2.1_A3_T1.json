@@ -43,8 +43,7 @@
           "type": "Literal",
           "start": 402,
           "end": 408,
-          "value": "true",
-          "raw": "\"true\""
+          "value": "true"
         }
       },
       "consequent": {
@@ -75,8 +74,7 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 479,
-                    "value": "#1: true.toString() === \"true\". Actual: ",
-                    "raw": "'#1: true.toString() === \"true\". Actual: '"
+                    "value": "#1: true.toString() === \"true\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -146,8 +144,7 @@
               "type": "Literal",
               "start": 525,
               "end": 535,
-              "value": "toString",
-              "raw": "\"toString\""
+              "value": "toString"
             },
             "computed": true,
             "optional": false
@@ -160,8 +157,7 @@
           "type": "Literal",
           "start": 543,
           "end": 550,
-          "value": "false",
-          "raw": "\"false\""
+          "value": "false"
         }
       },
       "consequent": {
@@ -192,8 +188,7 @@
                     "type": "Literal",
                     "start": 579,
                     "end": 626,
-                    "value": "#2: false[\"toString\"]() === \"false\". Actual: ",
-                    "raw": "'#2: false[\"toString\"]() === \"false\". Actual: '"
+                    "value": "#2: false[\"toString\"]() === \"false\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -219,8 +214,7 @@
                           "type": "Literal",
                           "start": 636,
                           "end": 646,
-                          "value": "toString",
-                          "raw": "\"toString\""
+                          "value": "toString"
                         },
                         "computed": true,
                         "optional": false
@@ -290,8 +284,7 @@
           "type": "Literal",
           "start": 703,
           "end": 709,
-          "value": "true",
-          "raw": "\"true\""
+          "value": "true"
         }
       },
       "consequent": {
@@ -322,8 +315,7 @@
                     "type": "Literal",
                     "start": 738,
                     "end": 793,
-                    "value": "#3: new Boolean(true).toString() === \"true\". Actual: ",
-                    "raw": "'#3: new Boolean(true).toString() === \"true\". Actual: '"
+                    "value": "#3: new Boolean(true).toString() === \"true\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -419,8 +411,7 @@
               "type": "Literal",
               "start": 865,
               "end": 875,
-              "value": "toString",
-              "raw": "\"toString\""
+              "value": "toString"
             },
             "computed": true,
             "optional": false
@@ -433,8 +424,7 @@
           "type": "Literal",
           "start": 883,
           "end": 890,
-          "value": "false",
-          "raw": "\"false\""
+          "value": "false"
         }
       },
       "consequent": {
@@ -465,8 +455,7 @@
                     "type": "Literal",
                     "start": 919,
                     "end": 979,
-                    "value": "#4: new Boolean(false)[\"toString\"]() === \"false\". Actual: ",
-                    "raw": "'#4: new Boolean(false)[\"toString\"]() === \"false\". Actual: '"
+                    "value": "#4: new Boolean(false)[\"toString\"]() === \"false\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -505,8 +494,7 @@
                           "type": "Literal",
                           "start": 1002,
                           "end": 1012,
-                          "value": "toString",
-                          "raw": "\"toString\""
+                          "value": "toString"
                         },
                         "computed": true,
                         "optional": false

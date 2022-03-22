@@ -172,8 +172,7 @@
           "type": "Literal",
           "start": 502,
           "end": 503,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -204,8 +203,7 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 672,
-                    "value": "#1: __instance = new Boolean; __instance.search = String.prototype.search;  __instance.search(function(){return false;}()) === 0. Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.search = String.prototype.search;  __instance.search(function(){return false;}()) === 0. Actual: '"
+                    "value": "#1: __instance = new Boolean; __instance.search = String.prototype.search;  __instance.search(function(){return false;}()) === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

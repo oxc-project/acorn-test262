@@ -85,15 +85,13 @@
             "type": "Literal",
             "start": 616,
             "end": 617,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 619,
             "end": 649,
-            "value": "The value of `s.size` is `0`",
-            "raw": "\"The value of `s.size` is `0`\""
+            "value": "The value of `s.size` is `0`"
           }
         ],
         "optional": false
@@ -131,8 +129,7 @@
             "type": "Literal",
             "start": 659,
             "end": 660,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -189,15 +186,13 @@
             "type": "Literal",
             "start": 689,
             "end": 690,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 750,
-            "value": "The value of `s.size` is `1`, after executing `s.add(1)`",
-            "raw": "\"The value of `s.size` is `1`, after executing `s.add(1)`\""
+            "value": "The value of `s.size` is `1`, after executing `s.add(1)`"
           }
         ],
         "optional": false
@@ -246,8 +241,7 @@
                 "type": "Literal",
                 "start": 776,
                 "end": 777,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -307,15 +301,13 @@
             "type": "Literal",
             "start": 806,
             "end": 807,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 809,
             "end": 870,
-            "value": "The value of `s.size` is `0`, after executing `s.delete(1)`",
-            "raw": "\"The value of `s.size` is `0`, after executing `s.delete(1)`\""
+            "value": "The value of `s.size` is `0`, after executing `s.delete(1)`"
           }
         ],
         "optional": false
@@ -366,8 +358,7 @@
             "type": "Literal",
             "start": 904,
             "end": 943,
-            "value": "The result of `s.delete(1)` is `true`",
-            "raw": "\"The result of `s.delete(1)` is `true`\""
+            "value": "The result of `s.delete(1)` is `true`"
           }
         ],
         "optional": false

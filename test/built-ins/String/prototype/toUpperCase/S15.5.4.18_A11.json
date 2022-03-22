@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 421,
                 "end": 429,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 460,
                     "end": 541,
-                    "value": "#1: String.prototype.toUpperCase.hasOwnProperty(\"length\") return true. Actual: ",
-                    "raw": "'#1: String.prototype.toUpperCase.hasOwnProperty(\"length\") return true. Actual: '"
+                    "value": "#1: String.prototype.toUpperCase.hasOwnProperty(\"length\") return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 588,
                         "end": 596,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -237,8 +234,7 @@
           "type": "Literal",
           "start": 818,
           "end": 819,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -269,8 +265,7 @@
                     "type": "Literal",
                     "start": 848,
                     "end": 905,
-                    "value": "#2: String.prototype.toUpperCase.length === 0. Actual: ",
-                    "raw": "'#2: String.prototype.toUpperCase.length === 0. Actual: '"
+                    "value": "#2: String.prototype.toUpperCase.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

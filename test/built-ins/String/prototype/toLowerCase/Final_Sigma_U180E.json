@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 1167,
                 "end": 1182,
-                "value": "A᠎Σ",
-                "raw": "\"A\\u180E\\u03A3\""
+                "value": "A᠎Σ"
               },
               "property": {
                 "type": "Identifier",
@@ -62,15 +61,13 @@
             "type": "Literal",
             "start": 1200,
             "end": 1215,
-            "value": "a᠎ς",
-            "raw": "\"a\\u180E\\u03C2\""
+            "value": "a᠎ς"
           },
           {
             "type": "Literal",
             "start": 1219,
             "end": 1288,
-            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR\""
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR"
           }
         ],
         "optional": false
@@ -116,8 +113,7 @@
                 "type": "Literal",
                 "start": 1312,
                 "end": 1328,
-                "value": "A᠎ΣB",
-                "raw": "\"A\\u180E\\u03A3B\""
+                "value": "A᠎ΣB"
               },
               "property": {
                 "type": "Identifier",
@@ -135,15 +131,13 @@
             "type": "Literal",
             "start": 1346,
             "end": 1362,
-            "value": "a᠎σb",
-            "raw": "\"a\\u180E\\u03C3b\""
+            "value": "a᠎σb"
           },
           {
             "type": "Literal",
             "start": 1366,
             "end": 1471,
-            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B\""
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B"
           }
         ],
         "optional": false
@@ -189,8 +183,7 @@
                 "type": "Literal",
                 "start": 1544,
                 "end": 1559,
-                "value": "AΣ᠎",
-                "raw": "\"A\\u03A3\\u180E\""
+                "value": "AΣ᠎"
               },
               "property": {
                 "type": "Identifier",
@@ -208,15 +201,13 @@
             "type": "Literal",
             "start": 1577,
             "end": 1592,
-            "value": "aς᠎",
-            "raw": "\"a\\u03C2\\u180E\""
+            "value": "aς᠎"
           },
           {
             "type": "Literal",
             "start": 1596,
             "end": 1677,
-            "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR\""
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR"
           }
         ],
         "optional": false
@@ -262,8 +253,7 @@
                 "type": "Literal",
                 "start": 1701,
                 "end": 1717,
-                "value": "AΣ᠎B",
-                "raw": "\"A\\u03A3\\u180EB\""
+                "value": "AΣ᠎B"
               },
               "property": {
                 "type": "Identifier",
@@ -281,15 +271,13 @@
             "type": "Literal",
             "start": 1735,
             "end": 1751,
-            "value": "aσ᠎b",
-            "raw": "\"a\\u03C3\\u180Eb\""
+            "value": "aσ᠎b"
           },
           {
             "type": "Literal",
             "start": 1755,
             "end": 1860,
-            "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B\""
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B"
           }
         ],
         "optional": false
@@ -335,8 +323,7 @@
                 "type": "Literal",
                 "start": 1946,
                 "end": 1967,
-                "value": "A᠎Σ᠎",
-                "raw": "\"A\\u180E\\u03A3\\u180E\""
+                "value": "A᠎Σ᠎"
               },
               "property": {
                 "type": "Identifier",
@@ -354,15 +341,13 @@
             "type": "Literal",
             "start": 1985,
             "end": 2006,
-            "value": "a᠎ς᠎",
-            "raw": "\"a\\u180E\\u03C2\\u180E\""
+            "value": "a᠎ς᠎"
           },
           {
             "type": "Literal",
             "start": 2010,
             "end": 2118,
-            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR\""
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR"
           }
         ],
         "optional": false
@@ -408,8 +393,7 @@
                 "type": "Literal",
                 "start": 2142,
                 "end": 2164,
-                "value": "A᠎Σ᠎B",
-                "raw": "\"A\\u180E\\u03A3\\u180EB\""
+                "value": "A᠎Σ᠎B"
               },
               "property": {
                 "type": "Identifier",
@@ -427,15 +411,13 @@
             "type": "Literal",
             "start": 2182,
             "end": 2204,
-            "value": "a᠎σ᠎b",
-            "raw": "\"a\\u180E\\u03C3\\u180Eb\""
+            "value": "a᠎σ᠎b"
           },
           {
             "type": "Literal",
             "start": 2208,
             "end": 2340,
-            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B\""
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B"
           }
         ],
         "optional": false

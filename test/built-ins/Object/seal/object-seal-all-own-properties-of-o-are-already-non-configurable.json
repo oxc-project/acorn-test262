@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 341,
           "end": 347,
-          "value": "data",
-          "raw": "\"data\""
+          "value": "data"
         }
       }
     },
@@ -103,8 +102,7 @@
             "type": "Literal",
             "start": 377,
             "end": 383,
-            "value": "foo1",
-            "raw": "\"foo1\""
+            "value": "foo1"
           },
           {
             "type": "ObjectExpression",
@@ -128,8 +126,7 @@
                   "type": "Literal",
                   "start": 396,
                   "end": 398,
-                  "value": 10,
-                  "raw": "10"
+                  "value": 10
                 },
                 "kind": "init"
               },
@@ -297,8 +294,7 @@
               "type": "Literal",
               "start": 563,
               "end": 565,
-              "value": 10,
-              "raw": "10"
+              "value": 10
             }
           }
         ]
@@ -342,8 +338,7 @@
             "type": "Literal",
             "start": 596,
             "end": 602,
-            "value": "foo2",
-            "raw": "\"foo2\""
+            "value": "foo2"
           },
           {
             "type": "ObjectExpression",
@@ -514,8 +509,7 @@
                     "type": "Literal",
                     "start": 745,
                     "end": 787,
-                    "value": "Expected obj to be extensible, actually ",
-                    "raw": "'Expected obj to be extensible, actually '"
+                    "value": "Expected obj to be extensible, actually "
                   },
                   "operator": "+",
                   "right": {
@@ -662,8 +656,7 @@
                     "type": "Literal",
                     "start": 896,
                     "end": 942,
-                    "value": "Expected obj NOT to be extensible, actually ",
-                    "raw": "'Expected obj NOT to be extensible, actually '"
+                    "value": "Expected obj NOT to be extensible, actually "
                   },
                   "operator": "+",
                   "right": {
@@ -732,15 +725,13 @@
             "type": "Literal",
             "start": 994,
             "end": 1000,
-            "value": "foo1",
-            "raw": "\"foo1\""
+            "value": "foo1"
           },
           {
             "type": "Literal",
             "start": 1002,
             "end": 1004,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           }
         ],
         "optional": false
@@ -771,8 +762,7 @@
             "type": "Literal",
             "start": 1028,
             "end": 1034,
-            "value": "foo1",
-            "raw": "\"foo1\""
+            "value": "foo1"
           }
         ],
         "optional": false
@@ -803,8 +793,7 @@
             "type": "Literal",
             "start": 1060,
             "end": 1066,
-            "value": "foo1",
-            "raw": "\"foo1\""
+            "value": "foo1"
           }
         ],
         "optional": false
@@ -835,8 +824,7 @@
             "type": "Literal",
             "start": 1097,
             "end": 1103,
-            "value": "foo1",
-            "raw": "\"foo1\""
+            "value": "foo1"
           }
         ],
         "optional": false
@@ -867,8 +855,7 @@
             "type": "Literal",
             "start": 1125,
             "end": 1131,
-            "value": "foo2",
-            "raw": "\"foo2\""
+            "value": "foo2"
           },
           {
             "type": "CallExpression",
@@ -912,15 +899,13 @@
             "type": "Literal",
             "start": 1167,
             "end": 1173,
-            "value": "foo2",
-            "raw": "\"foo2\""
+            "value": "foo2"
           },
           {
             "type": "Literal",
             "start": 1175,
             "end": 1198,
-            "value": "variableForHelpVerify",
-            "raw": "\"variableForHelpVerify\""
+            "value": "variableForHelpVerify"
           }
         ],
         "optional": false
@@ -951,8 +936,7 @@
             "type": "Literal",
             "start": 1224,
             "end": 1230,
-            "value": "foo2",
-            "raw": "\"foo2\""
+            "value": "foo2"
           }
         ],
         "optional": false
@@ -983,8 +967,7 @@
             "type": "Literal",
             "start": 1261,
             "end": 1267,
-            "value": "foo2",
-            "raw": "\"foo2\""
+            "value": "foo2"
           }
         ],
         "optional": false

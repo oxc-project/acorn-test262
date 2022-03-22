@@ -74,22 +74,19 @@
                                 "type": "Literal",
                                 "start": 1000,
                                 "end": 1002,
-                                "value": 39,
-                                "raw": "39"
+                                "value": 39
                               },
                               {
                                 "type": "Literal",
                                 "start": 1004,
                                 "end": 1005,
-                                "value": 3,
-                                "raw": "3"
+                                "value": 3
                               },
                               {
                                 "type": "Literal",
                                 "start": 1007,
                                 "end": 1008,
-                                "value": 9,
-                                "raw": "9"
+                                "value": 9
                               }
                             ]
                           }
@@ -118,8 +115,7 @@
                         "type": "Literal",
                         "start": 1027,
                         "end": 1028,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -256,15 +252,13 @@
                         "type": "Literal",
                         "start": 1141,
                         "end": 1142,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1144,
                         "end": 1172,
-                        "value": "returned true on sample[0]",
-                        "raw": "\"returned true on sample[0]\""
+                        "value": "returned true on sample[0]"
                       }
                     ],
                     "optional": false
@@ -308,15 +302,13 @@
                         "type": "Literal",
                         "start": 1202,
                         "end": 1203,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1205,
                         "end": 1232,
-                        "value": "predicate was called once",
-                        "raw": "\"predicate was called once\""
+                        "value": "predicate was called once"
                       }
                     ],
                     "optional": false
@@ -341,8 +333,7 @@
                       "type": "Literal",
                       "start": 1247,
                       "end": 1248,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 },
@@ -443,8 +434,7 @@
                                     "type": "Literal",
                                     "start": 1327,
                                     "end": 1328,
-                                    "value": 9,
-                                    "raw": "9"
+                                    "value": 9
                                   }
                                 }
                               }
@@ -494,15 +484,13 @@
                         "type": "Literal",
                         "start": 1364,
                         "end": 1365,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       {
                         "type": "Literal",
                         "start": 1367,
                         "end": 1401,
-                        "value": "predicate was called three times",
-                        "raw": "\"predicate was called three times\""
+                        "value": "predicate was called three times"
                       }
                     ],
                     "optional": false
@@ -546,15 +534,13 @@
                         "type": "Literal",
                         "start": 1431,
                         "end": 1432,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 1434,
                         "end": 1462,
-                        "value": "returned true on sample[3]",
-                        "raw": "\"returned true on sample[3]\""
+                        "value": "returned true on sample[3]"
                       }
                     ],
                     "optional": false
@@ -621,8 +607,7 @@
                                   "type": "Literal",
                                   "start": 1514,
                                   "end": 1522,
-                                  "value": "string",
-                                  "raw": "\"string\""
+                                  "value": "string"
                                 }
                               }
                             ]
@@ -671,15 +656,13 @@
                         "type": "Literal",
                         "start": 1555,
                         "end": 1556,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1558,
                         "end": 1577,
-                        "value": "ToBoolean(string)",
-                        "raw": "\"ToBoolean(string)\""
+                        "value": "ToBoolean(string)"
                       }
                     ],
                     "optional": false
@@ -795,15 +778,13 @@
                         "type": "Literal",
                         "start": 1664,
                         "end": 1665,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1667,
                         "end": 1686,
-                        "value": "ToBoolean(object)",
-                        "raw": "\"ToBoolean(object)\""
+                        "value": "ToBoolean(object)"
                       }
                     ],
                     "optional": false
@@ -881,8 +862,7 @@
                                       "type": "Literal",
                                       "start": 1745,
                                       "end": 1747,
-                                      "value": "",
-                                      "raw": "\"\""
+                                      "value": ""
                                     }
                                   ],
                                   "optional": false
@@ -934,15 +914,13 @@
                         "type": "Literal",
                         "start": 1781,
                         "end": 1782,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1784,
                         "end": 1803,
-                        "value": "ToBoolean(symbol)",
-                        "raw": "\"ToBoolean(symbol)\""
+                        "value": "ToBoolean(symbol)"
                       }
                     ],
                     "optional": false
@@ -1009,8 +987,7 @@
                                   "type": "Literal",
                                   "start": 1855,
                                   "end": 1856,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             ]
@@ -1059,15 +1036,13 @@
                         "type": "Literal",
                         "start": 1889,
                         "end": 1890,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1892,
                         "end": 1911,
-                        "value": "ToBoolean(number)",
-                        "raw": "\"ToBoolean(number)\""
+                        "value": "ToBoolean(number)"
                       }
                     ],
                     "optional": false
@@ -1140,8 +1115,7 @@
                                     "type": "Literal",
                                     "start": 1964,
                                     "end": 1965,
-                                    "value": 1,
-                                    "raw": "1"
+                                    "value": 1
                                   }
                                 }
                               }
@@ -1191,15 +1165,13 @@
                         "type": "Literal",
                         "start": 1998,
                         "end": 1999,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 2001,
                         "end": 2029,
-                        "value": "ToBoolean(negative number)",
-                        "raw": "\"ToBoolean(negative number)\""
+                        "value": "ToBoolean(negative number)"
                       }
                     ],
                     "optional": false

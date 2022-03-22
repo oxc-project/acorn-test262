@@ -142,15 +142,13 @@
                       "type": "Literal",
                       "start": 366,
                       "end": 367,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Literal",
                       "start": 369,
                       "end": 371,
-                      "value": 30,
-                      "raw": "30"
+                      "value": 30
                     }
                   ]
                 }
@@ -162,8 +160,7 @@
             "type": "Literal",
             "start": 375,
             "end": 426,
-            "value": "TypeError if at least one property is not present",
-            "raw": "\"TypeError if at least one property is not present\""
+            "value": "TypeError if at least one property is not present"
           }
         ],
         "optional": false
@@ -201,8 +198,7 @@
           "type": "Literal",
           "start": 445,
           "end": 447,
-          "value": 30,
-          "raw": "30"
+          "value": 30
         }
       }
     },
@@ -292,15 +288,13 @@
                     "type": "Literal",
                     "start": 521,
                     "end": 522,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 524,
                     "end": 526,
-                    "value": 30,
-                    "raw": "30"
+                    "value": 30
                   }
                 ]
               }
@@ -349,15 +343,13 @@
             "type": "Literal",
             "start": 555,
             "end": 556,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 558,
             "end": 591,
-            "value": "missing time units default to 0",
-            "raw": "\"missing time units default to 0\""
+            "value": "missing time units default to 0"
           }
         ],
         "optional": false

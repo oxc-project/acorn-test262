@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 415,
             "end": 425,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "ObjectExpression",
@@ -182,8 +181,7 @@
                 "type": "Literal",
                 "start": 525,
                 "end": 535,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -215,8 +213,7 @@
               "type": "Literal",
               "start": 546,
               "end": 551,
-              "value": "get",
-              "raw": "\"get\""
+              "value": "get"
             },
             "operator": "in",
             "right": {
@@ -230,8 +227,7 @@
             "type": "Literal",
             "start": 561,
             "end": 585,
-            "value": "\"get\" in desc !== true",
-            "raw": "'\"get\" in desc !== true'"
+            "value": "\"get\" in desc !== true"
           }
         ],
         "optional": false

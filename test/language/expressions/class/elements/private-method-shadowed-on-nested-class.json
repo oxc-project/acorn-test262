@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 918,
                     "end": 920,
                     "name": "m"
@@ -78,10 +78,9 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 956,
                   "end": 1048,
-                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -144,14 +143,14 @@
                                         "start": 996,
                                         "end": 1000
                                       },
+                                      "computed": false,
+                                      "optional": false,
                                       "property": {
-                                        "type": "PrivateIdentifier",
+                                        "type": "PrivateName",
                                         "start": 1001,
                                         "end": 1003,
                                         "name": "m"
-                                      },
-                                      "computed": false,
-                                      "optional": false
+                                      }
                                     },
                                     "arguments": [],
                                     "optional": false
@@ -168,7 +167,7 @@
                           "static": false,
                           "computed": false,
                           "key": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 1018,
                             "end": 1020,
                             "name": "m"
@@ -196,8 +195,7 @@
                                     "type": "Literal",
                                     "start": 1032,
                                     "end": 1041,
-                                    "value": "test262",
-                                    "raw": "'test262'"
+                                    "value": "test262"
                                   }
                                 }
                               ]
@@ -348,8 +346,7 @@
             "type": "Literal",
             "start": 1127,
             "end": 1136,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false

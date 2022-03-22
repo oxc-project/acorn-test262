@@ -346,8 +346,7 @@
             "type": "Literal",
             "start": 1388,
             "end": 1422,
-            "value": "newTarget.prototype is undefined",
-            "raw": "'newTarget.prototype is undefined'"
+            "value": "newTarget.prototype is undefined"
           }
         ],
         "optional": false
@@ -575,8 +574,7 @@
             "type": "Literal",
             "start": 1589,
             "end": 1618,
-            "value": "newTarget.prototype is null",
-            "raw": "'newTarget.prototype is null'"
+            "value": "newTarget.prototype is null"
           }
         ],
         "optional": false
@@ -804,8 +802,7 @@
             "type": "Literal",
             "start": 1786,
             "end": 1820,
-            "value": "newTarget.prototype is a Boolean",
-            "raw": "'newTarget.prototype is a Boolean'"
+            "value": "newTarget.prototype is a Boolean"
           }
         ],
         "optional": false
@@ -843,8 +840,7 @@
           "type": "Literal",
           "start": 1846,
           "end": 1848,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       }
     },
@@ -1033,8 +1029,7 @@
             "type": "Literal",
             "start": 1985,
             "end": 2018,
-            "value": "newTarget.prototype is a String",
-            "raw": "'newTarget.prototype is a String'"
+            "value": "newTarget.prototype is a String"
           }
         ],
         "optional": false
@@ -1268,8 +1263,7 @@
             "type": "Literal",
             "start": 2189,
             "end": 2222,
-            "value": "newTarget.prototype is a Symbol",
-            "raw": "'newTarget.prototype is a Symbol'"
+            "value": "newTarget.prototype is a Symbol"
           }
         ],
         "optional": false
@@ -1307,8 +1301,7 @@
           "type": "Literal",
           "start": 2248,
           "end": 2249,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1497,8 +1490,7 @@
             "type": "Literal",
             "start": 2386,
             "end": 2419,
-            "value": "newTarget.prototype is a Number",
-            "raw": "'newTarget.prototype is a Number'"
+            "value": "newTarget.prototype is a Number"
           }
         ],
         "optional": false

@@ -184,8 +184,7 @@
                               "type": "Literal",
                               "start": 887,
                               "end": 906,
-                              "value": "ignored exception",
-                              "raw": "\"ignored exception\""
+                              "value": "ignored exception"
                             }
                           ]
                         }

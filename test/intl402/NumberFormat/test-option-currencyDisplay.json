@@ -41,15 +41,13 @@
             "type": "Literal",
             "start": 318,
             "end": 335,
-            "value": "currencyDisplay",
-            "raw": "\"currencyDisplay\""
+            "value": "currencyDisplay"
           },
           {
             "type": "Literal",
             "start": 337,
             "end": 345,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           },
           {
             "type": "ArrayExpression",
@@ -60,22 +58,19 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 354,
-                "value": "code",
-                "raw": "\"code\""
+                "value": "code"
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 364,
-                "value": "symbol",
-                "raw": "\"symbol\""
+                "value": "symbol"
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 372,
-                "value": "name",
-                "raw": "\"name\""
+                "value": "name"
               }
             ]
           },
@@ -83,8 +78,7 @@
             "type": "Literal",
             "start": 379,
             "end": 387,
-            "value": "symbol",
-            "raw": "\"symbol\""
+            "value": "symbol"
           },
           {
             "type": "ObjectExpression",
@@ -144,8 +138,7 @@
                               "type": "Literal",
                               "start": 411,
                               "end": 421,
-                              "value": "currency",
-                              "raw": "\"currency\""
+                              "value": "currency"
                             },
                             "kind": "init"
                           },
@@ -166,8 +159,7 @@
                               "type": "Literal",
                               "start": 433,
                               "end": 438,
-                              "value": "XDR",
-                              "raw": "\"XDR\""
+                              "value": "XDR"
                             },
                             "kind": "init"
                           }
@@ -223,15 +215,13 @@
             "type": "Literal",
             "start": 474,
             "end": 491,
-            "value": "currencyDisplay",
-            "raw": "\"currencyDisplay\""
+            "value": "currencyDisplay"
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 501,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           },
           {
             "type": "ArrayExpression",
@@ -242,22 +232,19 @@
                 "type": "Literal",
                 "start": 504,
                 "end": 510,
-                "value": "code",
-                "raw": "\"code\""
+                "value": "code"
               },
               {
                 "type": "Literal",
                 "start": 512,
                 "end": 520,
-                "value": "symbol",
-                "raw": "\"symbol\""
+                "value": "symbol"
               },
               {
                 "type": "Literal",
                 "start": 522,
                 "end": 528,
-                "value": "name",
-                "raw": "\"name\""
+                "value": "name"
               }
             ]
           },

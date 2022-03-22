@@ -55,7 +55,6 @@
                     "start": 399,
                     "end": 402,
                     "value": {},
-                    "raw": "/./",
                     "regex": {
                       "pattern": ".",
                       "flags": ""
@@ -88,8 +87,7 @@
                     "type": "Literal",
                     "start": 420,
                     "end": 423,
-                    "value": "a",
-                    "raw": "'a'"
+                    "value": "a"
                   }
                 ],
                 "optional": false

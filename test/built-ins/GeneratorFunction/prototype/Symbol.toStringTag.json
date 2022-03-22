@@ -129,8 +129,7 @@
             "type": "Literal",
             "start": 661,
             "end": 680,
-            "value": "GeneratorFunction",
-            "raw": "'GeneratorFunction'"
+            "value": "GeneratorFunction"
           }
         ],
         "optional": false

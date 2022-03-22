@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 368,
-                "value": "setMonth",
-                "raw": "\"setMonth\""
+                "value": "setMonth"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 381,
             "end": 441,
-            "value": "Date.prototype.hasOwnProperty(\"setMonth\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"setMonth\") must return true'"
+            "value": "Date.prototype.hasOwnProperty(\"setMonth\") must return true"
           }
         ],
         "optional": false

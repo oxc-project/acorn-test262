@@ -91,29 +91,25 @@
                 "type": "Literal",
                 "start": 493,
                 "end": 494,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 497,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 499,
                 "end": 500,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 502,
                 "end": 503,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -164,22 +160,19 @@
                 "type": "Literal",
                 "start": 548,
                 "end": 552,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 554,
                 "end": 555,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 557,
                 "end": 558,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Identifier",
@@ -338,16 +331,14 @@
               "type": "Literal",
               "start": 687,
               "end": 688,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 748,
-            "value": "assertions in calendar.dateAdd() should have been tested",
-            "raw": "\"assertions in calendar.dateAdd() should have been tested\""
+            "value": "assertions in calendar.dateAdd() should have been tested"
           }
         ],
         "optional": false

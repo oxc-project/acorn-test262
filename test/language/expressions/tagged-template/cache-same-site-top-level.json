@@ -114,8 +114,7 @@
             "type": "Literal",
             "start": 517,
             "end": 518,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -144,8 +143,7 @@
               "type": "Literal",
               "start": 533,
               "end": 534,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -166,8 +164,7 @@
           "type": "Literal",
           "start": 540,
           "end": 541,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "update": {
@@ -293,8 +290,7 @@
             "type": "Literal",
             "start": 609,
             "end": 610,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -342,8 +338,7 @@
               "type": "Literal",
               "start": 644,
               "end": 645,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -362,8 +357,7 @@
               "type": "Literal",
               "start": 660,
               "end": 661,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -372,8 +366,7 @@
             "type": "Literal",
             "start": 666,
             "end": 746,
-            "value": "The realm's template cache is for source code locations in a top-level script",
-            "raw": "'The realm\\'s template cache is for source code locations in a top-level script'"
+            "value": "The realm's template cache is for source code locations in a top-level script"
           }
         ],
         "optional": false

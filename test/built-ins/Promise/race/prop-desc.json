@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 485,
             "end": 491,
-            "value": "race",
-            "raw": "'race'"
+            "value": "race"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 518,
             "end": 524,
-            "value": "race",
-            "raw": "'race'"
+            "value": "race"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 555,
             "end": 561,
-            "value": "race",
-            "raw": "'race'"
+            "value": "race"
           }
         ],
         "optional": false

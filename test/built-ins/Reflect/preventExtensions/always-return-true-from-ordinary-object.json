@@ -100,8 +100,7 @@
             "type": "Literal",
             "start": 558,
             "end": 613,
-            "value": "returns true after preventing extentions on an object",
-            "raw": "'returns true after preventing extentions on an object'"
+            "value": "returns true after preventing extentions on an object"
           }
         ],
         "optional": false
@@ -179,8 +178,7 @@
             "type": "Literal",
             "start": 675,
             "end": 736,
-            "value": "returns true even if the object already prevents extentions",
-            "raw": "'returns true even if the object already prevents extentions'"
+            "value": "returns true even if the object already prevents extentions"
           }
         ],
         "optional": false

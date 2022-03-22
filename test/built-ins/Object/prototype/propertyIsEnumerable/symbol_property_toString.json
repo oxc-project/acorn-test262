@@ -79,8 +79,7 @@
             "type": "Literal",
             "start": 442,
             "end": 443,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -152,8 +151,7 @@
                             "type": "Literal",
                             "start": 503,
                             "end": 504,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -219,8 +217,7 @@
                               "type": "Literal",
                               "start": 578,
                               "end": 596,
-                              "value": "valueOf() called",
-                              "raw": "\"valueOf() called\""
+                              "value": "valueOf() called"
                             }
                           ]
                         }
@@ -268,8 +265,7 @@
           "type": "Literal",
           "start": 618,
           "end": 619,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -345,8 +341,7 @@
             "type": "Literal",
             "start": 687,
             "end": 741,
-            "value": "Returns true if symbol own enumerable property found",
-            "raw": "\"Returns true if symbol own enumerable property found\""
+            "value": "Returns true if symbol own enumerable property found"
           }
         ],
         "optional": false
@@ -390,15 +385,13 @@
             "type": "Literal",
             "start": 774,
             "end": 775,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 777,
             "end": 814,
-            "value": "toString method called exactly once",
-            "raw": "\"toString method called exactly once\""
+            "value": "toString method called exactly once"
           }
         ],
         "optional": false

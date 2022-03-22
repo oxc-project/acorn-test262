@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 527,
-                  "value": "0",
-                  "raw": "\"0\""
+                  "value": "0"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -262,8 +261,7 @@
                       "type": "Literal",
                       "start": 657,
                       "end": 660,
-                      "value": "0",
-                      "raw": "\"0\""
+                      "value": "0"
                     }
                   },
                   "operator": "&&",
@@ -295,8 +293,7 @@
                         "type": "Literal",
                         "start": 683,
                         "end": 686,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       }
                     ],
                     "optional": false
@@ -313,8 +310,7 @@
                   "type": "Literal",
                   "start": 696,
                   "end": 734,
-                  "value": "i === \"0\" && arr.hasOwnProperty(\"0\")",
-                  "raw": "'i === \"0\" && arr.hasOwnProperty(\"0\")'"
+                  "value": "i === \"0\" && arr.hasOwnProperty(\"0\")"
                 }
               ],
               "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1914,
             "end": 1915,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -252,8 +251,7 @@
                                   "type": "Literal",
                                   "start": 2100,
                                   "end": 2101,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             },
@@ -300,8 +298,7 @@
             "type": "Literal",
             "start": 2151,
             "end": 2152,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -418,8 +415,7 @@
                               "type": "Literal",
                               "start": 2226,
                               "end": 2227,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           ],
                           "optional": false
@@ -455,8 +451,7 @@
                               "type": "Literal",
                               "start": 2258,
                               "end": 2259,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         }
@@ -560,15 +555,13 @@
             "type": "Literal",
             "start": 2318,
             "end": 2319,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2321,
             "end": 2360,
-            "value": "generator method invoked exactly once",
-            "raw": "'generator method invoked exactly once'"
+            "value": "generator method invoked exactly once"
           }
         ],
         "optional": false

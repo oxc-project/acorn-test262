@@ -108,8 +108,7 @@
                               "type": "Literal",
                               "start": 1826,
                               "end": 1827,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ],
@@ -141,8 +140,7 @@
                                 "type": "Literal",
                                 "start": 1854,
                                 "end": 1869,
-                                "value": "asyncIterator",
-                                "raw": "'asyncIterator'"
+                                "value": "asyncIterator"
                               },
                               "kind": "init"
                             },
@@ -224,8 +222,7 @@
                                                   "type": "Literal",
                                                   "start": 1915,
                                                   "end": 1925,
-                                                  "value": "get next",
-                                                  "raw": "\"get next\""
+                                                  "value": "get next"
                                                 },
                                                 "kind": "init"
                                               }
@@ -279,8 +276,7 @@
                                                       "type": "Literal",
                                                       "start": 1996,
                                                       "end": 2010,
-                                                      "value": "next-value-1",
-                                                      "raw": "\"next-value-1\""
+                                                      "value": "next-value-1"
                                                     },
                                                     "kind": "init"
                                                   },
@@ -395,8 +391,7 @@
                                                   "type": "Literal",
                                                   "start": 2125,
                                                   "end": 2137,
-                                                  "value": "get return",
-                                                  "raw": "\"get return\""
+                                                  "value": "get return"
                                                 },
                                                 "kind": "init"
                                               },
@@ -494,8 +489,7 @@
                                                           "type": "Literal",
                                                           "start": 2244,
                                                           "end": 2257,
-                                                          "value": "call return",
-                                                          "raw": "\"call return\""
+                                                          "value": "call return"
                                                         },
                                                         "kind": "init"
                                                       },
@@ -595,8 +589,7 @@
                                                   "type": "Literal",
                                                   "start": 2390,
                                                   "end": 2391,
-                                                  "value": 1,
-                                                  "raw": "1"
+                                                  "value": 1
                                                 }
                                               },
                                               "consequent": {
@@ -630,8 +623,7 @@
                                                             "type": "Literal",
                                                             "start": 2436,
                                                             "end": 2454,
-                                                            "value": "return-promise-1",
-                                                            "raw": "\"return-promise-1\""
+                                                            "value": "return-promise-1"
                                                           },
                                                           "kind": "init"
                                                         },
@@ -713,8 +705,7 @@
                                                                               "type": "Literal",
                                                                               "start": 2534,
                                                                               "end": 2555,
-                                                                              "value": "get return then (1)",
-                                                                              "raw": "\"get return then (1)\""
+                                                                              "value": "get return then (1)"
                                                                             },
                                                                             "kind": "init"
                                                                           },
@@ -819,8 +810,7 @@
                                                                                       "type": "Literal",
                                                                                       "start": 2709,
                                                                                       "end": 2731,
-                                                                                      "value": "call return then (1)",
-                                                                                      "raw": "\"call return then (1)\""
+                                                                                      "value": "call return then (1)"
                                                                                     },
                                                                                     "kind": "init"
                                                                                   },
@@ -920,8 +910,7 @@
                                                                                       "type": "Literal",
                                                                                       "start": 2888,
                                                                                       "end": 2905,
-                                                                                      "value": "return-result-1",
-                                                                                      "raw": "\"return-result-1\""
+                                                                                      "value": "return-result-1"
                                                                                     },
                                                                                     "kind": "init"
                                                                                   },
@@ -1003,8 +992,7 @@
                                                                                                         "type": "Literal",
                                                                                                         "start": 3004,
                                                                                                         "end": 3026,
-                                                                                                        "value": "get return value (1)",
-                                                                                                        "raw": "\"get return value (1)\""
+                                                                                                        "value": "get return value (1)"
                                                                                                       },
                                                                                                       "kind": "init"
                                                                                                     },
@@ -1042,8 +1030,7 @@
                                                                                               "type": "Literal",
                                                                                               "start": 3123,
                                                                                               "end": 3139,
-                                                                                              "value": "return-value-1",
-                                                                                              "raw": "\"return-value-1\""
+                                                                                              "value": "return-value-1"
                                                                                             }
                                                                                           }
                                                                                         ]
@@ -1128,8 +1115,7 @@
                                                                                                         "type": "Literal",
                                                                                                         "start": 3260,
                                                                                                         "end": 3281,
-                                                                                                        "value": "get return done (1)",
-                                                                                                        "raw": "\"get return done (1)\""
+                                                                                                        "value": "get return done (1)"
                                                                                                       },
                                                                                                       "kind": "init"
                                                                                                     },
@@ -1222,8 +1208,7 @@
                                                       "type": "Literal",
                                                       "start": 3529,
                                                       "end": 3547,
-                                                      "value": "return-promise-2",
-                                                      "raw": "\"return-promise-2\""
+                                                      "value": "return-promise-2"
                                                     },
                                                     "kind": "init"
                                                   },
@@ -1305,8 +1290,7 @@
                                                                         "type": "Literal",
                                                                         "start": 3621,
                                                                         "end": 3642,
-                                                                        "value": "get return then (2)",
-                                                                        "raw": "\"get return then (2)\""
+                                                                        "value": "get return then (2)"
                                                                       },
                                                                       "kind": "init"
                                                                     },
@@ -1411,8 +1395,7 @@
                                                                                 "type": "Literal",
                                                                                 "start": 3786,
                                                                                 "end": 3808,
-                                                                                "value": "call return then (2)",
-                                                                                "raw": "\"call return then (2)\""
+                                                                                "value": "call return then (2)"
                                                                               },
                                                                               "kind": "init"
                                                                             },
@@ -1512,8 +1495,7 @@
                                                                                 "type": "Literal",
                                                                                 "start": 3955,
                                                                                 "end": 3972,
-                                                                                "value": "return-result-2",
-                                                                                "raw": "\"return-result-2\""
+                                                                                "value": "return-result-2"
                                                                               },
                                                                               "kind": "init"
                                                                             },
@@ -1595,8 +1577,7 @@
                                                                                                   "type": "Literal",
                                                                                                   "start": 4065,
                                                                                                   "end": 4087,
-                                                                                                  "value": "get return value (2)",
-                                                                                                  "raw": "\"get return value (2)\""
+                                                                                                  "value": "get return value (2)"
                                                                                                 },
                                                                                                 "kind": "init"
                                                                                               },
@@ -1634,8 +1615,7 @@
                                                                                         "type": "Literal",
                                                                                         "start": 4178,
                                                                                         "end": 4194,
-                                                                                        "value": "return-value-2",
-                                                                                        "raw": "\"return-value-2\""
+                                                                                        "value": "return-value-2"
                                                                                       }
                                                                                     }
                                                                                   ]
@@ -1720,8 +1700,7 @@
                                                                                                   "type": "Literal",
                                                                                                   "start": 4307,
                                                                                                   "end": 4328,
-                                                                                                  "value": "get return done (2)",
-                                                                                                  "raw": "\"get return done (2)\""
+                                                                                                  "value": "get return done (2)"
                                                                                                 },
                                                                                                 "kind": "init"
                                                                                               },
@@ -1824,8 +1803,7 @@
             "type": "Literal",
             "start": 4561,
             "end": 4562,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -1903,8 +1881,7 @@
                               "type": "Literal",
                               "start": 4613,
                               "end": 4614,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         },
@@ -1958,8 +1935,7 @@
                                       "type": "Literal",
                                       "start": 4637,
                                       "end": 4652,
-                                      "value": "before yield*",
-                                      "raw": "\"before yield*\""
+                                      "value": "before yield*"
                                     },
                                     "kind": "init"
                                   }
@@ -2131,15 +2107,13 @@
             "type": "Literal",
             "start": 4756,
             "end": 4757,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 4759,
             "end": 4771,
-            "value": "log.length",
-            "raw": "\"log.length\""
+            "value": "log.length"
           }
         ],
         "optional": false
@@ -2268,8 +2242,7 @@
                                 "type": "Literal",
                                 "start": 4822,
                                 "end": 4823,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "computed": true,
                               "optional": false
@@ -2287,8 +2260,7 @@
                             "type": "Literal",
                             "start": 4831,
                             "end": 4846,
-                            "value": "before yield*",
-                            "raw": "\"before yield*\""
+                            "value": "before yield*"
                           }
                         ],
                         "optional": false
@@ -2340,8 +2312,7 @@
                                 "type": "Literal",
                                 "start": 4873,
                                 "end": 4874,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               "computed": true,
                               "optional": false
@@ -2359,8 +2330,7 @@
                             "type": "Literal",
                             "start": 4882,
                             "end": 4892,
-                            "value": "get next",
-                            "raw": "\"get next\""
+                            "value": "get next"
                           }
                         ],
                         "optional": false
@@ -2417,8 +2387,7 @@
                             "type": "Literal",
                             "start": 4924,
                             "end": 4938,
-                            "value": "next-value-1",
-                            "raw": "\"next-value-1\""
+                            "value": "next-value-1"
                           }
                         ],
                         "optional": false
@@ -2533,15 +2502,13 @@
                             "type": "Literal",
                             "start": 5008,
                             "end": 5009,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           },
                           {
                             "type": "Literal",
                             "start": 5011,
                             "end": 5023,
-                            "value": "log.length",
-                            "raw": "\"log.length\""
+                            "value": "log.length"
                           }
                         ],
                         "optional": false
@@ -2595,8 +2562,7 @@
                                     "type": "Literal",
                                     "start": 5041,
                                     "end": 5055,
-                                    "value": "return-arg-1",
-                                    "raw": "\"return-arg-1\""
+                                    "value": "return-arg-1"
                                   }
                                 ],
                                 "optional": false
@@ -2678,8 +2644,7 @@
                                                 "type": "Literal",
                                                 "start": 5094,
                                                 "end": 5095,
-                                                "value": 2,
-                                                "raw": "2"
+                                                "value": 2
                                               },
                                               "computed": true,
                                               "optional": false
@@ -2697,8 +2662,7 @@
                                             "type": "Literal",
                                             "start": 5103,
                                             "end": 5115,
-                                            "value": "get return",
-                                            "raw": "\"get return\""
+                                            "value": "get return"
                                           }
                                         ],
                                         "optional": false
@@ -2754,8 +2718,7 @@
                                                   "type": "Literal",
                                                   "start": 5143,
                                                   "end": 5144,
-                                                  "value": 2,
-                                                  "raw": "2"
+                                                  "value": 2
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -2782,15 +2745,13 @@
                                             "type": "Literal",
                                             "start": 5162,
                                             "end": 5177,
-                                            "value": "asyncIterator",
-                                            "raw": "\"asyncIterator\""
+                                            "value": "asyncIterator"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5179,
                                             "end": 5201,
-                                            "value": "get return thisValue",
-                                            "raw": "\"get return thisValue\""
+                                            "value": "get return thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -2842,8 +2803,7 @@
                                                 "type": "Literal",
                                                 "start": 5230,
                                                 "end": 5231,
-                                                "value": 3,
-                                                "raw": "3"
+                                                "value": 3
                                               },
                                               "computed": true,
                                               "optional": false
@@ -2861,8 +2821,7 @@
                                             "type": "Literal",
                                             "start": 5239,
                                             "end": 5252,
-                                            "value": "call return",
-                                            "raw": "\"call return\""
+                                            "value": "call return"
                                           }
                                         ],
                                         "optional": false
@@ -2918,8 +2877,7 @@
                                                   "type": "Literal",
                                                   "start": 5280,
                                                   "end": 5281,
-                                                  "value": 3,
-                                                  "raw": "3"
+                                                  "value": 3
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -2946,15 +2904,13 @@
                                             "type": "Literal",
                                             "start": 5299,
                                             "end": 5314,
-                                            "value": "asyncIterator",
-                                            "raw": "\"asyncIterator\""
+                                            "value": "asyncIterator"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5316,
                                             "end": 5334,
-                                            "value": "return thisValue",
-                                            "raw": "\"return thisValue\""
+                                            "value": "return thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -3010,8 +2966,7 @@
                                                   "type": "Literal",
                                                   "start": 5362,
                                                   "end": 5363,
-                                                  "value": 3,
-                                                  "raw": "3"
+                                                  "value": 3
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -3038,15 +2993,13 @@
                                             "type": "Literal",
                                             "start": 5378,
                                             "end": 5379,
-                                            "value": 1,
-                                            "raw": "1"
+                                            "value": 1
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5381,
                                             "end": 5401,
-                                            "value": "return args.length",
-                                            "raw": "\"return args.length\""
+                                            "value": "return args.length"
                                           }
                                         ],
                                         "optional": false
@@ -3102,8 +3055,7 @@
                                                   "type": "Literal",
                                                   "start": 5429,
                                                   "end": 5430,
-                                                  "value": 3,
-                                                  "raw": "3"
+                                                  "value": 3
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -3121,8 +3073,7 @@
                                               "type": "Literal",
                                               "start": 5437,
                                               "end": 5438,
-                                              "value": 0,
-                                              "raw": "0"
+                                              "value": 0
                                             },
                                             "computed": true,
                                             "optional": false
@@ -3131,15 +3082,13 @@
                                             "type": "Literal",
                                             "start": 5441,
                                             "end": 5455,
-                                            "value": "return-arg-1",
-                                            "raw": "\"return-arg-1\""
+                                            "value": "return-arg-1"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5457,
                                             "end": 5473,
-                                            "value": "return args[0]",
-                                            "raw": "\"return args[0]\""
+                                            "value": "return args[0]"
                                           }
                                         ],
                                         "optional": false
@@ -3191,8 +3140,7 @@
                                                 "type": "Literal",
                                                 "start": 5502,
                                                 "end": 5503,
-                                                "value": 4,
-                                                "raw": "4"
+                                                "value": 4
                                               },
                                               "computed": true,
                                               "optional": false
@@ -3210,8 +3158,7 @@
                                             "type": "Literal",
                                             "start": 5511,
                                             "end": 5532,
-                                            "value": "get return then (1)",
-                                            "raw": "\"get return then (1)\""
+                                            "value": "get return then (1)"
                                           }
                                         ],
                                         "optional": false
@@ -3267,8 +3214,7 @@
                                                   "type": "Literal",
                                                   "start": 5560,
                                                   "end": 5561,
-                                                  "value": 4,
-                                                  "raw": "4"
+                                                  "value": 4
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -3295,15 +3241,13 @@
                                             "type": "Literal",
                                             "start": 5579,
                                             "end": 5597,
-                                            "value": "return-promise-1",
-                                            "raw": "\"return-promise-1\""
+                                            "value": "return-promise-1"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5599,
                                             "end": 5626,
-                                            "value": "get return then thisValue",
-                                            "raw": "\"get return then thisValue\""
+                                            "value": "get return then thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -3355,8 +3299,7 @@
                                                 "type": "Literal",
                                                 "start": 5655,
                                                 "end": 5656,
-                                                "value": 5,
-                                                "raw": "5"
+                                                "value": 5
                                               },
                                               "computed": true,
                                               "optional": false
@@ -3374,8 +3317,7 @@
                                             "type": "Literal",
                                             "start": 5664,
                                             "end": 5686,
-                                            "value": "call return then (1)",
-                                            "raw": "\"call return then (1)\""
+                                            "value": "call return then (1)"
                                           }
                                         ],
                                         "optional": false
@@ -3431,8 +3373,7 @@
                                                   "type": "Literal",
                                                   "start": 5714,
                                                   "end": 5715,
-                                                  "value": 5,
-                                                  "raw": "5"
+                                                  "value": 5
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -3459,15 +3400,13 @@
                                             "type": "Literal",
                                             "start": 5733,
                                             "end": 5751,
-                                            "value": "return-promise-1",
-                                            "raw": "\"return-promise-1\""
+                                            "value": "return-promise-1"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5753,
                                             "end": 5776,
-                                            "value": "return then thisValue",
-                                            "raw": "\"return then thisValue\""
+                                            "value": "return then thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -3523,8 +3462,7 @@
                                                   "type": "Literal",
                                                   "start": 5804,
                                                   "end": 5805,
-                                                  "value": 5,
-                                                  "raw": "5"
+                                                  "value": 5
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -3551,15 +3489,13 @@
                                             "type": "Literal",
                                             "start": 5820,
                                             "end": 5821,
-                                            "value": 2,
-                                            "raw": "2"
+                                            "value": 2
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5823,
                                             "end": 5848,
-                                            "value": "return then args.length",
-                                            "raw": "\"return then args.length\""
+                                            "value": "return then args.length"
                                           }
                                         ],
                                         "optional": false
@@ -3621,8 +3557,7 @@
                                                     "type": "Literal",
                                                     "start": 5883,
                                                     "end": 5884,
-                                                    "value": 5,
-                                                    "raw": "5"
+                                                    "value": 5
                                                   },
                                                   "computed": true,
                                                   "optional": false
@@ -3640,8 +3575,7 @@
                                                 "type": "Literal",
                                                 "start": 5891,
                                                 "end": 5892,
-                                                "value": 0,
-                                                "raw": "0"
+                                                "value": 0
                                               },
                                               "computed": true,
                                               "optional": false
@@ -3651,15 +3585,13 @@
                                             "type": "Literal",
                                             "start": 5895,
                                             "end": 5905,
-                                            "value": "function",
-                                            "raw": "\"function\""
+                                            "value": "function"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5907,
                                             "end": 5928,
-                                            "value": "return then args[0]",
-                                            "raw": "\"return then args[0]\""
+                                            "value": "return then args[0]"
                                           }
                                         ],
                                         "optional": false
@@ -3721,8 +3653,7 @@
                                                     "type": "Literal",
                                                     "start": 5963,
                                                     "end": 5964,
-                                                    "value": 5,
-                                                    "raw": "5"
+                                                    "value": 5
                                                   },
                                                   "computed": true,
                                                   "optional": false
@@ -3740,8 +3671,7 @@
                                                 "type": "Literal",
                                                 "start": 5971,
                                                 "end": 5972,
-                                                "value": 1,
-                                                "raw": "1"
+                                                "value": 1
                                               },
                                               "computed": true,
                                               "optional": false
@@ -3751,15 +3681,13 @@
                                             "type": "Literal",
                                             "start": 5975,
                                             "end": 5985,
-                                            "value": "function",
-                                            "raw": "\"function\""
+                                            "value": "function"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 5987,
                                             "end": 6008,
-                                            "value": "return then args[1]",
-                                            "raw": "\"return then args[1]\""
+                                            "value": "return then args[1]"
                                           }
                                         ],
                                         "optional": false
@@ -3811,8 +3739,7 @@
                                                 "type": "Literal",
                                                 "start": 6037,
                                                 "end": 6038,
-                                                "value": 6,
-                                                "raw": "6"
+                                                "value": 6
                                               },
                                               "computed": true,
                                               "optional": false
@@ -3830,8 +3757,7 @@
                                             "type": "Literal",
                                             "start": 6046,
                                             "end": 6067,
-                                            "value": "get return done (1)",
-                                            "raw": "\"get return done (1)\""
+                                            "value": "get return done (1)"
                                           }
                                         ],
                                         "optional": false
@@ -3887,8 +3813,7 @@
                                                   "type": "Literal",
                                                   "start": 6095,
                                                   "end": 6096,
-                                                  "value": 6,
-                                                  "raw": "6"
+                                                  "value": 6
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -3915,15 +3840,13 @@
                                             "type": "Literal",
                                             "start": 6114,
                                             "end": 6131,
-                                            "value": "return-result-1",
-                                            "raw": "\"return-result-1\""
+                                            "value": "return-result-1"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 6133,
                                             "end": 6160,
-                                            "value": "get return done thisValue",
-                                            "raw": "\"get return done thisValue\""
+                                            "value": "get return done thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -3975,8 +3898,7 @@
                                                 "type": "Literal",
                                                 "start": 6189,
                                                 "end": 6190,
-                                                "value": 7,
-                                                "raw": "7"
+                                                "value": 7
                                               },
                                               "computed": true,
                                               "optional": false
@@ -3994,8 +3916,7 @@
                                             "type": "Literal",
                                             "start": 6198,
                                             "end": 6220,
-                                            "value": "get return value (1)",
-                                            "raw": "\"get return value (1)\""
+                                            "value": "get return value (1)"
                                           }
                                         ],
                                         "optional": false
@@ -4051,8 +3972,7 @@
                                                   "type": "Literal",
                                                   "start": 6248,
                                                   "end": 6249,
-                                                  "value": 7,
-                                                  "raw": "7"
+                                                  "value": 7
                                                 },
                                                 "computed": true,
                                                 "optional": false
@@ -4079,15 +3999,13 @@
                                             "type": "Literal",
                                             "start": 6267,
                                             "end": 6284,
-                                            "value": "return-result-1",
-                                            "raw": "\"return-result-1\""
+                                            "value": "return-result-1"
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 6286,
                                             "end": 6314,
-                                            "value": "get return value thisValue",
-                                            "raw": "\"get return value thisValue\""
+                                            "value": "get return value thisValue"
                                           }
                                         ],
                                         "optional": false
@@ -4144,8 +4062,7 @@
                                             "type": "Literal",
                                             "start": 6348,
                                             "end": 6364,
-                                            "value": "return-value-1",
-                                            "raw": "\"return-value-1\""
+                                            "value": "return-value-1"
                                           }
                                         ],
                                         "optional": false
@@ -4260,15 +4177,13 @@
                                             "type": "Literal",
                                             "start": 6438,
                                             "end": 6439,
-                                            "value": 8,
-                                            "raw": "8"
+                                            "value": 8
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 6441,
                                             "end": 6453,
-                                            "value": "log.length",
-                                            "raw": "\"log.length\""
+                                            "value": "log.length"
                                           }
                                         ],
                                         "optional": false
@@ -4322,8 +4237,7 @@
                                                     "type": "Literal",
                                                     "start": 6473,
                                                     "end": 6487,
-                                                    "value": "return-arg-2",
-                                                    "raw": "\"return-arg-2\""
+                                                    "value": "return-arg-2"
                                                   }
                                                 ],
                                                 "optional": false
@@ -4405,8 +4319,7 @@
                                                                 "type": "Literal",
                                                                 "start": 6528,
                                                                 "end": 6529,
-                                                                "value": 8,
-                                                                "raw": "8"
+                                                                "value": 8
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -4424,8 +4337,7 @@
                                                             "type": "Literal",
                                                             "start": 6537,
                                                             "end": 6549,
-                                                            "value": "get return",
-                                                            "raw": "\"get return\""
+                                                            "value": "get return"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4481,8 +4393,7 @@
                                                                   "type": "Literal",
                                                                   "start": 6579,
                                                                   "end": 6580,
-                                                                  "value": 8,
-                                                                  "raw": "8"
+                                                                  "value": 8
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -4509,15 +4420,13 @@
                                                             "type": "Literal",
                                                             "start": 6598,
                                                             "end": 6613,
-                                                            "value": "asyncIterator",
-                                                            "raw": "\"asyncIterator\""
+                                                            "value": "asyncIterator"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 6615,
                                                             "end": 6637,
-                                                            "value": "get return thisValue",
-                                                            "raw": "\"get return thisValue\""
+                                                            "value": "get return thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4569,8 +4478,7 @@
                                                                 "type": "Literal",
                                                                 "start": 6668,
                                                                 "end": 6669,
-                                                                "value": 9,
-                                                                "raw": "9"
+                                                                "value": 9
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -4588,8 +4496,7 @@
                                                             "type": "Literal",
                                                             "start": 6677,
                                                             "end": 6690,
-                                                            "value": "call return",
-                                                            "raw": "\"call return\""
+                                                            "value": "call return"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4645,8 +4552,7 @@
                                                                   "type": "Literal",
                                                                   "start": 6720,
                                                                   "end": 6721,
-                                                                  "value": 9,
-                                                                  "raw": "9"
+                                                                  "value": 9
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -4673,15 +4579,13 @@
                                                             "type": "Literal",
                                                             "start": 6739,
                                                             "end": 6754,
-                                                            "value": "asyncIterator",
-                                                            "raw": "\"asyncIterator\""
+                                                            "value": "asyncIterator"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 6756,
                                                             "end": 6774,
-                                                            "value": "return thisValue",
-                                                            "raw": "\"return thisValue\""
+                                                            "value": "return thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4737,8 +4641,7 @@
                                                                   "type": "Literal",
                                                                   "start": 6804,
                                                                   "end": 6805,
-                                                                  "value": 9,
-                                                                  "raw": "9"
+                                                                  "value": 9
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -4765,15 +4668,13 @@
                                                             "type": "Literal",
                                                             "start": 6820,
                                                             "end": 6821,
-                                                            "value": 1,
-                                                            "raw": "1"
+                                                            "value": 1
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 6823,
                                                             "end": 6843,
-                                                            "value": "return args.length",
-                                                            "raw": "\"return args.length\""
+                                                            "value": "return args.length"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4829,8 +4730,7 @@
                                                                   "type": "Literal",
                                                                   "start": 6873,
                                                                   "end": 6874,
-                                                                  "value": 9,
-                                                                  "raw": "9"
+                                                                  "value": 9
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -4848,8 +4748,7 @@
                                                               "type": "Literal",
                                                               "start": 6881,
                                                               "end": 6882,
-                                                              "value": 0,
-                                                              "raw": "0"
+                                                              "value": 0
                                                             },
                                                             "computed": true,
                                                             "optional": false
@@ -4858,15 +4757,13 @@
                                                             "type": "Literal",
                                                             "start": 6885,
                                                             "end": 6899,
-                                                            "value": "return-arg-2",
-                                                            "raw": "\"return-arg-2\""
+                                                            "value": "return-arg-2"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 6901,
                                                             "end": 6917,
-                                                            "value": "return args[0]",
-                                                            "raw": "\"return args[0]\""
+                                                            "value": "return args[0]"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4918,8 +4815,7 @@
                                                                 "type": "Literal",
                                                                 "start": 6948,
                                                                 "end": 6950,
-                                                                "value": 10,
-                                                                "raw": "10"
+                                                                "value": 10
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -4937,8 +4833,7 @@
                                                             "type": "Literal",
                                                             "start": 6958,
                                                             "end": 6979,
-                                                            "value": "get return then (2)",
-                                                            "raw": "\"get return then (2)\""
+                                                            "value": "get return then (2)"
                                                           }
                                                         ],
                                                         "optional": false
@@ -4994,8 +4889,7 @@
                                                                   "type": "Literal",
                                                                   "start": 7009,
                                                                   "end": 7011,
-                                                                  "value": 10,
-                                                                  "raw": "10"
+                                                                  "value": 10
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -5022,15 +4916,13 @@
                                                             "type": "Literal",
                                                             "start": 7029,
                                                             "end": 7047,
-                                                            "value": "return-promise-2",
-                                                            "raw": "\"return-promise-2\""
+                                                            "value": "return-promise-2"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 7049,
                                                             "end": 7076,
-                                                            "value": "get return then thisValue",
-                                                            "raw": "\"get return then thisValue\""
+                                                            "value": "get return then thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5082,8 +4974,7 @@
                                                                 "type": "Literal",
                                                                 "start": 7107,
                                                                 "end": 7109,
-                                                                "value": 11,
-                                                                "raw": "11"
+                                                                "value": 11
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -5101,8 +4992,7 @@
                                                             "type": "Literal",
                                                             "start": 7117,
                                                             "end": 7139,
-                                                            "value": "call return then (2)",
-                                                            "raw": "\"call return then (2)\""
+                                                            "value": "call return then (2)"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5158,8 +5048,7 @@
                                                                   "type": "Literal",
                                                                   "start": 7169,
                                                                   "end": 7171,
-                                                                  "value": 11,
-                                                                  "raw": "11"
+                                                                  "value": 11
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -5186,15 +5075,13 @@
                                                             "type": "Literal",
                                                             "start": 7189,
                                                             "end": 7207,
-                                                            "value": "return-promise-2",
-                                                            "raw": "\"return-promise-2\""
+                                                            "value": "return-promise-2"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 7209,
                                                             "end": 7232,
-                                                            "value": "return then thisValue",
-                                                            "raw": "\"return then thisValue\""
+                                                            "value": "return then thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5250,8 +5137,7 @@
                                                                   "type": "Literal",
                                                                   "start": 7262,
                                                                   "end": 7264,
-                                                                  "value": 11,
-                                                                  "raw": "11"
+                                                                  "value": 11
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -5278,15 +5164,13 @@
                                                             "type": "Literal",
                                                             "start": 7279,
                                                             "end": 7280,
-                                                            "value": 2,
-                                                            "raw": "2"
+                                                            "value": 2
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 7282,
                                                             "end": 7307,
-                                                            "value": "return then args.length",
-                                                            "raw": "\"return then args.length\""
+                                                            "value": "return then args.length"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5348,8 +5232,7 @@
                                                                     "type": "Literal",
                                                                     "start": 7344,
                                                                     "end": 7346,
-                                                                    "value": 11,
-                                                                    "raw": "11"
+                                                                    "value": 11
                                                                   },
                                                                   "computed": true,
                                                                   "optional": false
@@ -5367,8 +5250,7 @@
                                                                 "type": "Literal",
                                                                 "start": 7353,
                                                                 "end": 7354,
-                                                                "value": 0,
-                                                                "raw": "0"
+                                                                "value": 0
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -5378,15 +5260,13 @@
                                                             "type": "Literal",
                                                             "start": 7357,
                                                             "end": 7367,
-                                                            "value": "function",
-                                                            "raw": "\"function\""
+                                                            "value": "function"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 7369,
                                                             "end": 7390,
-                                                            "value": "return then args[0]",
-                                                            "raw": "\"return then args[0]\""
+                                                            "value": "return then args[0]"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5448,8 +5328,7 @@
                                                                     "type": "Literal",
                                                                     "start": 7427,
                                                                     "end": 7429,
-                                                                    "value": 11,
-                                                                    "raw": "11"
+                                                                    "value": 11
                                                                   },
                                                                   "computed": true,
                                                                   "optional": false
@@ -5467,8 +5346,7 @@
                                                                 "type": "Literal",
                                                                 "start": 7436,
                                                                 "end": 7437,
-                                                                "value": 1,
-                                                                "raw": "1"
+                                                                "value": 1
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -5478,15 +5356,13 @@
                                                             "type": "Literal",
                                                             "start": 7440,
                                                             "end": 7450,
-                                                            "value": "function",
-                                                            "raw": "\"function\""
+                                                            "value": "function"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 7452,
                                                             "end": 7473,
-                                                            "value": "return then args[1]",
-                                                            "raw": "\"return then args[1]\""
+                                                            "value": "return then args[1]"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5538,8 +5414,7 @@
                                                                 "type": "Literal",
                                                                 "start": 7504,
                                                                 "end": 7506,
-                                                                "value": 12,
-                                                                "raw": "12"
+                                                                "value": 12
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -5557,8 +5432,7 @@
                                                             "type": "Literal",
                                                             "start": 7514,
                                                             "end": 7535,
-                                                            "value": "get return done (2)",
-                                                            "raw": "\"get return done (2)\""
+                                                            "value": "get return done (2)"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5614,8 +5488,7 @@
                                                                   "type": "Literal",
                                                                   "start": 7565,
                                                                   "end": 7567,
-                                                                  "value": 12,
-                                                                  "raw": "12"
+                                                                  "value": 12
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -5642,15 +5515,13 @@
                                                             "type": "Literal",
                                                             "start": 7585,
                                                             "end": 7602,
-                                                            "value": "return-result-2",
-                                                            "raw": "\"return-result-2\""
+                                                            "value": "return-result-2"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 7604,
                                                             "end": 7631,
-                                                            "value": "get return done thisValue",
-                                                            "raw": "\"get return done thisValue\""
+                                                            "value": "get return done thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5702,8 +5573,7 @@
                                                                 "type": "Literal",
                                                                 "start": 7662,
                                                                 "end": 7664,
-                                                                "value": 13,
-                                                                "raw": "13"
+                                                                "value": 13
                                                               },
                                                               "computed": true,
                                                               "optional": false
@@ -5721,8 +5591,7 @@
                                                             "type": "Literal",
                                                             "start": 7672,
                                                             "end": 7694,
-                                                            "value": "get return value (2)",
-                                                            "raw": "\"get return value (2)\""
+                                                            "value": "get return value (2)"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5778,8 +5647,7 @@
                                                                   "type": "Literal",
                                                                   "start": 7724,
                                                                   "end": 7726,
-                                                                  "value": 13,
-                                                                  "raw": "13"
+                                                                  "value": 13
                                                                 },
                                                                 "computed": true,
                                                                 "optional": false
@@ -5806,15 +5674,13 @@
                                                             "type": "Literal",
                                                             "start": 7744,
                                                             "end": 7761,
-                                                            "value": "return-result-2",
-                                                            "raw": "\"return-result-2\""
+                                                            "value": "return-result-2"
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 7763,
                                                             "end": 7791,
-                                                            "value": "get return value thisValue",
-                                                            "raw": "\"get return value thisValue\""
+                                                            "value": "get return value thisValue"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5871,8 +5737,7 @@
                                                             "type": "Literal",
                                                             "start": 7827,
                                                             "end": 7843,
-                                                            "value": "return-value-2",
-                                                            "raw": "\"return-value-2\""
+                                                            "value": "return-value-2"
                                                           }
                                                         ],
                                                         "optional": false
@@ -5987,15 +5852,13 @@
                                                             "type": "Literal",
                                                             "start": 7920,
                                                             "end": 7922,
-                                                            "value": 14,
-                                                            "raw": "14"
+                                                            "value": 14
                                                           },
                                                           {
                                                             "type": "Literal",
                                                             "start": 7924,
                                                             "end": 7936,
-                                                            "value": "log.length",
-                                                            "raw": "\"log.length\""
+                                                            "value": "log.length"
                                                           }
                                                         ],
                                                         "optional": false
@@ -6123,8 +5986,7 @@
             "type": "Literal",
             "start": 8031,
             "end": 8032,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

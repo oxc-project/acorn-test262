@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 2139,
                             "end": 2140,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -149,8 +148,7 @@
                                     "type": "Literal",
                                     "start": 2201,
                                     "end": 2202,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   "computed": true,
                                   "optional": false
@@ -159,8 +157,7 @@
                                   "type": "Literal",
                                   "start": 2206,
                                   "end": 2231,
-                                  "value": "definately not a number",
-                                  "raw": "\"definately not a number\""
+                                  "value": "definately not a number"
                                 }
                               }
                             }
@@ -171,8 +168,7 @@
                         "type": "Literal",
                         "start": 2238,
                         "end": 2302,
-                        "value": "`typedArray[0] = \"definately not a number\"` throws SyntaxError",
-                        "raw": "'`typedArray[0] = \"definately not a number\"` throws SyntaxError'"
+                        "value": "`typedArray[0] = \"definately not a number\"` throws SyntaxError"
                       }
                     ],
                     "optional": false

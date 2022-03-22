@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 567,
             "end": 572,
-            "value": "Map",
-            "raw": "'Map'"
+            "value": "Map"
           }
         ],
         "optional": false

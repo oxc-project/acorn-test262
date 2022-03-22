@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 415,
             "end": 425,
-            "value": "toString",
-            "raw": "\"toString\""
+            "value": "toString"
           },
           {
             "type": "ObjectExpression",

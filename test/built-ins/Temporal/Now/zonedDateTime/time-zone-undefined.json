@@ -104,8 +104,7 @@
             "type": "Literal",
             "start": 367,
             "end": 373,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -172,8 +171,7 @@
                               "type": "Literal",
                               "start": 403,
                               "end": 431,
-                              "value": "get Temporal.TimeZone.from",
-                              "raw": "\"get Temporal.TimeZone.from\""
+                              "value": "get Temporal.TimeZone.from"
                             }
                           ],
                           "optional": false
@@ -314,8 +312,7 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 574,
-                "value": "iso8601",
-                "raw": "'iso8601'"
+                "value": "iso8601"
               },
               {
                 "type": "Identifier",
@@ -457,8 +454,7 @@
             "type": "Literal",
             "start": 692,
             "end": 737,
-            "value": "Temporal.TimeZone.from should not be called",
-            "raw": "\"Temporal.TimeZone.from should not be called\""
+            "value": "Temporal.TimeZone.from should not be called"
           }
         ],
         "optional": false
@@ -520,8 +516,7 @@
                 "type": "Literal",
                 "start": 791,
                 "end": 800,
-                "value": "iso8601",
-                "raw": "'iso8601'"
+                "value": "iso8601"
               }
             ],
             "optional": false
@@ -657,8 +652,7 @@
             "type": "Literal",
             "start": 907,
             "end": 952,
-            "value": "Temporal.TimeZone.from should not be called",
-            "raw": "\"Temporal.TimeZone.from should not be called\""
+            "value": "Temporal.TimeZone.from should not be called"
           }
         ],
         "optional": false

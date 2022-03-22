@@ -138,8 +138,7 @@
             "type": "Literal",
             "start": 510,
             "end": 532,
-            "value": "get [Symbol.species]",
-            "raw": "'get [Symbol.species]'"
+            "value": "get [Symbol.species]"
           }
         ],
         "optional": false

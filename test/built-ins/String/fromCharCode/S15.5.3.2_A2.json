@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 374,
           "end": 376,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 405,
                     "end": 464,
-                    "value": "#1: String.fromCharCode () returns empty string. Actual: ",
-                    "raw": "'#1: String.fromCharCode () returns empty string. Actual: '"
+                    "value": "#1: String.fromCharCode () returns empty string. Actual: "
                   },
                   "operator": "+",
                   "right": {

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 257,
                 "end": 261,
-                "value": "66",
-                "raw": "'66'"
+                "value": "66"
               }
             ],
             "optional": false
@@ -73,8 +72,7 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 286,
-                "value": "66",
-                "raw": "'66'"
+                "value": "66"
               }
             ],
             "optional": false
@@ -140,8 +138,7 @@
             "type": "Literal",
             "start": 327,
             "end": 367,
-            "value": "The result of `symA == symA` is `true`",
-            "raw": "\"The result of `symA == symA` is `true`\""
+            "value": "The result of `symA == symA` is `true`"
           }
         ],
         "optional": false
@@ -224,8 +221,7 @@
             "type": "Literal",
             "start": 417,
             "end": 467,
-            "value": "The result of `symA == symA.valueOf()` is `true`",
-            "raw": "\"The result of `symA == symA.valueOf()` is `true`\""
+            "value": "The result of `symA == symA.valueOf()` is `true`"
           }
         ],
         "optional": false
@@ -308,8 +304,7 @@
             "type": "Literal",
             "start": 517,
             "end": 567,
-            "value": "The result of `symA.valueOf() == symA` is `true`",
-            "raw": "\"The result of `symA.valueOf() == symA` is `true`\""
+            "value": "The result of `symA.valueOf() == symA` is `true`"
           }
         ],
         "optional": false
@@ -372,8 +367,7 @@
             "type": "Literal",
             "start": 608,
             "end": 648,
-            "value": "The result of `symB == symB` is `true`",
-            "raw": "\"The result of `symB == symB` is `true`\""
+            "value": "The result of `symB == symB` is `true`"
           }
         ],
         "optional": false
@@ -456,8 +450,7 @@
             "type": "Literal",
             "start": 698,
             "end": 748,
-            "value": "The result of `symB == symB.valueOf()` is `true`",
-            "raw": "\"The result of `symB == symB.valueOf()` is `true`\""
+            "value": "The result of `symB == symB.valueOf()` is `true`"
           }
         ],
         "optional": false
@@ -540,8 +533,7 @@
             "type": "Literal",
             "start": 798,
             "end": 848,
-            "value": "The result of `symB.valueOf() == symB` is `true`",
-            "raw": "\"The result of `symB.valueOf() == symB` is `true`\""
+            "value": "The result of `symB.valueOf() == symB` is `true`"
           }
         ],
         "optional": false
@@ -604,8 +596,7 @@
             "type": "Literal",
             "start": 890,
             "end": 931,
-            "value": "The result of `symA == symB` is `false`",
-            "raw": "\"The result of `symA == symB` is `false`\""
+            "value": "The result of `symA == symB` is `false`"
           }
         ],
         "optional": false

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 784,
             "end": 847,
-            "value": "isConstructor(Object.getOwnPropertySymbols) must return false",
-            "raw": "'isConstructor(Object.getOwnPropertySymbols) must return false'"
+            "value": "isConstructor(Object.getOwnPropertySymbols) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 928,
             "end": 985,
-            "value": "`new Object.getOwnPropertySymbols({})` throws TypeError",
-            "raw": "'`new Object.getOwnPropertySymbols({})` throws TypeError'"
+            "value": "`new Object.getOwnPropertySymbols({})` throws TypeError"
           }
         ],
         "optional": false

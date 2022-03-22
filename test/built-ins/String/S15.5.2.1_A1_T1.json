@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 632,
           "end": 640,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -92,8 +91,7 @@
                     "type": "Literal",
                     "start": 669,
                     "end": 746,
-                    "value": "#1: __str = new String; typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String; typeof __str === \"object\". Actual: typeof __str ==='"
+                    "value": "#1: __str = new String; typeof __str === \"object\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -180,8 +178,7 @@
                     "type": "Literal",
                     "start": 1001,
                     "end": 1088,
-                    "value": "#1.5: __str = new String; __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String; __str.constructor === String. Actual: __str.constructor ==='"
+                    "value": "#1.5: __str = new String; __str.constructor === String. Actual: __str.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -230,8 +227,7 @@
           "type": "Literal",
           "start": 1298,
           "end": 1300,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -262,8 +258,7 @@
                     "type": "Literal",
                     "start": 1329,
                     "end": 1384,
-                    "value": "#2: __str = new String; __str == \"\". Actual: __str ==",
-                    "raw": "'#2: __str = new String; __str == \"\". Actual: __str =='"
+                    "value": "#2: __str = new String; __str == \"\". Actual: __str =="
                   },
                   "operator": "+",
                   "right": {
@@ -299,8 +294,7 @@
           "type": "Literal",
           "start": 1583,
           "end": 1585,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -327,8 +321,7 @@
                   "type": "Literal",
                   "start": 1614,
                   "end": 1652,
-                  "value": "#3: __str = new String; __str !== \"\"",
-                  "raw": "'#3: __str = new String; __str !== \"\"'"
+                  "value": "#3: __str = new String; __str !== \"\""
                 }
               ]
             }

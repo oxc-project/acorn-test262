@@ -81,8 +81,7 @@
                     "type": "Literal",
                     "start": 427,
                     "end": 476,
-                    "value": "#1: true * undefined === Not-a-Number. Actual: ",
-                    "raw": "'#1: true * undefined === Not-a-Number. Actual: '"
+                    "value": "#1: true * undefined === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -195,8 +194,7 @@
                     "type": "Literal",
                     "start": 578,
                     "end": 627,
-                    "value": "#2: undefined * true === Not-a-Number. Actual: ",
-                    "raw": "'#2: undefined * true === Not-a-Number. Actual: '"
+                    "value": "#2: undefined * true === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -322,8 +320,7 @@
                     "type": "Literal",
                     "start": 742,
                     "end": 804,
-                    "value": "#3: new Boolean(true) * undefined === Not-a-Number. Actual: ",
-                    "raw": "'#3: new Boolean(true) * undefined === Not-a-Number. Actual: '"
+                    "value": "#3: new Boolean(true) * undefined === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -462,8 +459,7 @@
                     "type": "Literal",
                     "start": 932,
                     "end": 994,
-                    "value": "#4: undefined * new Boolean(true) === Not-a-Number. Actual: ",
-                    "raw": "'#4: undefined * new Boolean(true) === Not-a-Number. Actual: '"
+                    "value": "#4: undefined * new Boolean(true) === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {

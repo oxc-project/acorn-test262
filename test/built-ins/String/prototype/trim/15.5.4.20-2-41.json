@@ -134,8 +134,7 @@
                           "type": "Literal",
                           "start": 420,
                           "end": 425,
-                          "value": "abc",
-                          "raw": "\"abc\""
+                          "value": "abc"
                         }
                       }
                     ]
@@ -202,8 +201,7 @@
                           "type": "Literal",
                           "start": 495,
                           "end": 500,
-                          "value": "cef",
-                          "raw": "\"cef\""
+                          "value": "cef"
                         }
                       }
                     ]
@@ -308,15 +306,13 @@
             "type": "Literal",
             "start": 560,
             "end": 565,
-            "value": "abc",
-            "raw": "\"abc\""
+            "value": "abc"
           },
           {
             "type": "Literal",
             "start": 567,
             "end": 600,
-            "value": "String.prototype.trim.call(obj)",
-            "raw": "'String.prototype.trim.call(obj)'"
+            "value": "String.prototype.trim.call(obj)"
           }
         ],
         "optional": false
@@ -367,8 +363,7 @@
             "type": "Literal",
             "start": 644,
             "end": 661,
-            "value": "valueOfAccessed",
-            "raw": "'valueOfAccessed'"
+            "value": "valueOfAccessed"
           }
         ],
         "optional": false
@@ -399,8 +394,7 @@
             "type": "Literal",
             "start": 689,
             "end": 716,
-            "value": "toStringAccessed !== true",
-            "raw": "'toStringAccessed !== true'"
+            "value": "toStringAccessed !== true"
           }
         ],
         "optional": false

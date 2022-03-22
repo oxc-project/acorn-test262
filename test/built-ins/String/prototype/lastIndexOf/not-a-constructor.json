@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 776,
             "end": 839,
-            "value": "isConstructor(String.prototype.lastIndexOf) must return false",
-            "raw": "'isConstructor(String.prototype.lastIndexOf) must return false'"
+            "value": "isConstructor(String.prototype.lastIndexOf) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 918,
             "end": 973,
-            "value": "`new String.prototype.lastIndexOf()` throws TypeError",
-            "raw": "'`new String.prototype.lastIndexOf()` throws TypeError'"
+            "value": "`new String.prototype.lastIndexOf()` throws TypeError"
           }
         ],
         "optional": false

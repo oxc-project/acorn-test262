@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 366,
             "end": 367,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -282,8 +281,7 @@
                               "type": "Literal",
                               "start": 571,
                               "end": 625,
-                              "value": "Expected Promise to be rejected, got: resolved with ",
-                              "raw": "\"Expected Promise to be rejected, got: resolved with \""
+                              "value": "Expected Promise to be rejected, got: resolved with "
                             },
                             "operator": "+",
                             "right": {
@@ -351,8 +349,7 @@
                             "type": "Literal",
                             "start": 673,
                             "end": 674,
-                            "value": 7,
-                            "raw": "7"
+                            "value": 7
                           }
                         ],
                         "optional": false

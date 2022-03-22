@@ -23,7 +23,6 @@
             "start": 620,
             "end": 626,
             "value": {},
-            "raw": "/(?:)/",
             "regex": {
               "pattern": "(?:)",
               "flags": ""
@@ -128,8 +127,7 @@
             "type": "Literal",
             "start": 709,
             "end": 736,
-            "value": "RegExp returns new object",
-            "raw": "\"RegExp returns new object\""
+            "value": "RegExp returns new object"
           }
         ],
         "optional": false

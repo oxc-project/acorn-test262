@@ -41,15 +41,13 @@
             "type": "Literal",
             "start": 317,
             "end": 332,
-            "value": "localeMatcher",
-            "raw": "\"localeMatcher\""
+            "value": "localeMatcher"
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 342,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           },
           {
             "type": "ArrayExpression",
@@ -60,15 +58,13 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 353,
-                "value": "lookup",
-                "raw": "\"lookup\""
+                "value": "lookup"
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 365,
-                "value": "best fit",
-                "raw": "\"best fit\""
+                "value": "best fit"
               }
             ]
           },
@@ -76,8 +72,7 @@
             "type": "Literal",
             "start": 368,
             "end": 378,
-            "value": "best fit",
-            "raw": "\"best fit\""
+            "value": "best fit"
           },
           {
             "type": "ObjectExpression",

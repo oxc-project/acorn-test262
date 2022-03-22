@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 597,
                   "end": 598,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "kind": "init"
               },
@@ -62,8 +61,7 @@
                   "type": "Literal",
                   "start": 610,
                   "end": 623,
-                  "value": "stringValue",
-                  "raw": "'stringValue'"
+                  "value": "stringValue"
                 },
                 "kind": "init"
               }
@@ -110,15 +108,13 @@
                 "type": "Literal",
                 "start": 651,
                 "end": 652,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 656,
                 "end": 657,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "MemberExpression",
@@ -187,15 +183,13 @@
             "type": "Literal",
             "start": 682,
             "end": 693,
-            "value": "0 1 5 bar",
-            "raw": "'0 1 5 bar'"
+            "value": "0 1 5 bar"
           },
           {
             "type": "Literal",
             "start": 695,
             "end": 718,
-            "value": "number value property",
-            "raw": "'number value property'"
+            "value": "number value property"
           }
         ],
         "optional": false
@@ -238,15 +232,13 @@
                 "type": "Literal",
                 "start": 745,
                 "end": 746,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 751,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "MemberExpression",
@@ -315,15 +307,13 @@
             "type": "Literal",
             "start": 778,
             "end": 799,
-            "value": "0 1 stringValue bar",
-            "raw": "'0 1 stringValue bar'"
+            "value": "0 1 stringValue bar"
           },
           {
             "type": "Literal",
             "start": 803,
             "end": 826,
-            "value": "string value property",
-            "raw": "'string value property'"
+            "value": "string value property"
           }
         ],
         "optional": false
@@ -366,15 +356,13 @@
                 "type": "Literal",
                 "start": 853,
                 "end": 854,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 858,
                 "end": 859,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "MemberExpression",
@@ -390,8 +378,7 @@
                   "type": "Literal",
                   "start": 870,
                   "end": 878,
-                  "value": "string",
-                  "raw": "'string'"
+                  "value": "string"
                 },
                 "computed": true,
                 "optional": false
@@ -444,15 +431,13 @@
             "type": "Literal",
             "start": 889,
             "end": 910,
-            "value": "0 1 stringValue bar",
-            "raw": "'0 1 stringValue bar'"
+            "value": "0 1 stringValue bar"
           },
           {
             "type": "Literal",
             "start": 914,
             "end": 971,
-            "value": "string value property (single-quote string dereference)",
-            "raw": "'string value property (single-quote string dereference)'"
+            "value": "string value property (single-quote string dereference)"
           }
         ],
         "optional": false
@@ -495,15 +480,13 @@
                 "type": "Literal",
                 "start": 998,
                 "end": 999,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1003,
                 "end": 1004,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "MemberExpression",
@@ -519,8 +502,7 @@
                   "type": "Literal",
                   "start": 1015,
                   "end": 1023,
-                  "value": "string",
-                  "raw": "\"string\""
+                  "value": "string"
                 },
                 "computed": true,
                 "optional": false
@@ -573,15 +555,13 @@
             "type": "Literal",
             "start": 1034,
             "end": 1055,
-            "value": "0 1 stringValue bar",
-            "raw": "'0 1 stringValue bar'"
+            "value": "0 1 stringValue bar"
           },
           {
             "type": "Literal",
             "start": 1059,
             "end": 1116,
-            "value": "string value property (double-quote string dereference)",
-            "raw": "'string value property (double-quote string dereference)'"
+            "value": "string value property (double-quote string dereference)"
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 265,
                 "end": 269,
-                "value": "66",
-                "raw": "'66'"
+                "value": "66"
               }
             ],
             "optional": false
@@ -73,8 +72,7 @@
                 "type": "Literal",
                 "start": 290,
                 "end": 294,
-                "value": "66",
-                "raw": "'66'"
+                "value": "66"
               }
             ],
             "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 345,
             "end": 385,
-            "value": "`Object.is(symA, symA)` returns `true`",
-            "raw": "\"`Object.is(symA, symA)` returns `true`\""
+            "value": "`Object.is(symA, symA)` returns `true`"
           }
         ],
         "optional": false
@@ -246,8 +243,7 @@
             "type": "Literal",
             "start": 434,
             "end": 474,
-            "value": "`Object.is(symB, symB)` returns `true`",
-            "raw": "\"`Object.is(symB, symB)` returns `true`\""
+            "value": "`Object.is(symB, symB)` returns `true`"
           }
         ],
         "optional": false
@@ -331,8 +327,7 @@
             "type": "Literal",
             "start": 524,
             "end": 565,
-            "value": "`Object.is(symA, symB)` returns `false`",
-            "raw": "\"`Object.is(symA, symB)` returns `false`\""
+            "value": "`Object.is(symA, symB)` returns `false`"
           }
         ],
         "optional": false

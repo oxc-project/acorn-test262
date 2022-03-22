@@ -100,8 +100,7 @@
                     "type": "Literal",
                     "start": 371,
                     "end": 419,
-                    "value": "#1: var x = {}; void x === undefined. Actual: ",
-                    "raw": "'#1: var x = {}; void x === undefined. Actual: '"
+                    "value": "#1: var x = {}; void x === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -167,8 +166,7 @@
                     "type": "Literal",
                     "start": 472,
                     "end": 473,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -250,8 +248,7 @@
                     "type": "Literal",
                     "start": 532,
                     "end": 598,
-                    "value": "#2: var x = function(){return 1}; void x === undefined. Actual: ",
-                    "raw": "'#2: var x = function(){return 1}; void x === undefined. Actual: '"
+                    "value": "#2: var x = function(){return 1}; void x === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

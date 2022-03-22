@@ -65,10 +65,9 @@
               "end": 645,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 607,
-                  "end": 609,
-                  "static": false,
+                  "end": 608,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -79,10 +78,9 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 610,
-                  "end": 617,
-                  "static": false,
+                  "end": 616,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -94,15 +92,13 @@
                     "type": "Literal",
                     "start": 614,
                     "end": 616,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 620,
-                  "end": 627,
-                  "static": false,
+                  "end": 626,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -243,8 +239,7 @@
                 "type": "Literal",
                 "start": 722,
                 "end": 725,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -335,8 +330,7 @@
                 "type": "Literal",
                 "start": 783,
                 "end": 786,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -377,8 +371,7 @@
             "type": "Literal",
             "start": 816,
             "end": 819,
-            "value": "a",
-            "raw": "\"a\""
+            "value": "a"
           },
           {
             "type": "ObjectExpression",
@@ -566,8 +559,7 @@
                 "type": "Literal",
                 "start": 964,
                 "end": 967,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             ],
             "optional": false
@@ -658,8 +650,7 @@
                 "type": "Literal",
                 "start": 1025,
                 "end": 1028,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             ],
             "optional": false
@@ -700,8 +691,7 @@
             "type": "Literal",
             "start": 1058,
             "end": 1061,
-            "value": "b",
-            "raw": "\"b\""
+            "value": "b"
           },
           {
             "type": "ObjectExpression",
@@ -725,8 +715,7 @@
                   "type": "Literal",
                   "start": 1074,
                   "end": 1076,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               },
@@ -890,8 +879,7 @@
                 "type": "Literal",
                 "start": 1199,
                 "end": 1202,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             ],
             "optional": false
@@ -982,8 +970,7 @@
                 "type": "Literal",
                 "start": 1260,
                 "end": 1263,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             ],
             "optional": false
@@ -1024,8 +1011,7 @@
             "type": "Literal",
             "start": 1293,
             "end": 1296,
-            "value": "c",
-            "raw": "\"c\""
+            "value": "c"
           },
           {
             "type": "ObjectExpression",

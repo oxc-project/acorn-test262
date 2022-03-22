@@ -98,7 +98,6 @@
             "start": 804,
             "end": 807,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -131,8 +130,7 @@
             "type": "Literal",
             "start": 824,
             "end": 827,
-            "value": "x",
-            "raw": "'x'"
+            "value": "x"
           },
           {
             "type": "Identifier",

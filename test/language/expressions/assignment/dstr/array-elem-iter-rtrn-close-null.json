@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1304,
             "end": 1305,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1325,
             "end": 1326,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 1346,
             "end": 1347,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -147,8 +144,7 @@
                             "type": "Literal",
                             "start": 1404,
                             "end": 1405,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -258,8 +254,7 @@
                             "type": "Literal",
                             "start": 1498,
                             "end": 1499,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -519,8 +514,7 @@
                 "type": "Literal",
                 "start": 1706,
                 "end": 1707,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -672,8 +666,7 @@
             "type": "Literal",
             "start": 1804,
             "end": 1805,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -717,8 +710,7 @@
             "type": "Literal",
             "start": 1838,
             "end": 1839,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -848,8 +840,7 @@
             "type": "Literal",
             "start": 1929,
             "end": 1930,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -893,8 +884,7 @@
             "type": "Literal",
             "start": 1963,
             "end": 1964,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -938,15 +928,13 @@
             "type": "Literal",
             "start": 1997,
             "end": 1998,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2000,
             "end": 2040,
-            "value": "Unreachable statement was not executed",
-            "raw": "'Unreachable statement was not executed'"
+            "value": "Unreachable statement was not executed"
           }
         ],
         "optional": false

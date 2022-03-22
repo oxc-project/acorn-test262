@@ -66,8 +66,7 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 491,
-                    "value": "#1.1: undefined.toString() throw TypeError. Actual: ",
-                    "raw": "'#1.1: undefined.toString() throw TypeError. Actual: '"
+                    "value": "#1.1: undefined.toString() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -190,8 +189,7 @@
                             "type": "Literal",
                             "start": 605,
                             "end": 659,
-                            "value": "#1.2: undefined.toString() throw TypeError. Actual: ",
-                            "raw": "'#1.2: undefined.toString() throw TypeError. Actual: '"
+                            "value": "#1.2: undefined.toString() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -249,8 +247,7 @@
                   "type": "Literal",
                   "start": 707,
                   "end": 717,
-                  "value": "toString",
-                  "raw": "\"toString\""
+                  "value": "toString"
                 },
                 "computed": true,
                 "optional": false
@@ -282,8 +279,7 @@
                     "type": "Literal",
                     "start": 747,
                     "end": 804,
-                    "value": "#2.1: undefined[\"toString\"]() throw TypeError. Actual: ",
-                    "raw": "'#2.1: undefined[\"toString\"]() throw TypeError. Actual: '"
+                    "value": "#2.1: undefined[\"toString\"]() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -308,8 +304,7 @@
                           "type": "Literal",
                           "start": 818,
                           "end": 828,
-                          "value": "toString",
-                          "raw": "\"toString\""
+                          "value": "toString"
                         },
                         "computed": true,
                         "optional": false
@@ -407,8 +402,7 @@
                             "type": "Literal",
                             "start": 920,
                             "end": 977,
-                            "value": "#2.2: undefined[\"toString\"]() throw TypeError. Actual: ",
-                            "raw": "'#2.2: undefined[\"toString\"]() throw TypeError. Actual: '"
+                            "value": "#2.2: undefined[\"toString\"]() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

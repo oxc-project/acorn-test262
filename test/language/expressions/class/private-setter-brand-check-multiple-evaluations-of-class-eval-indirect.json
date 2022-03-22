@@ -235,8 +235,7 @@
             "type": "Literal",
             "start": 1119,
             "end": 1128,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -293,8 +292,7 @@
             "type": "Literal",
             "start": 1155,
             "end": 1164,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -338,8 +336,7 @@
             "type": "Literal",
             "start": 1181,
             "end": 1190,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -396,8 +393,7 @@
             "type": "Literal",
             "start": 1217,
             "end": 1226,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -489,8 +485,7 @@
                         "type": "Literal",
                         "start": 1284,
                         "end": 1289,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ],
                     "optional": false
@@ -503,8 +498,7 @@
             "type": "Literal",
             "start": 1295,
             "end": 1332,
-            "value": "invalid access of c1 private method",
-            "raw": "'invalid access of c1 private method'"
+            "value": "invalid access of c1 private method"
           }
         ],
         "optional": false
@@ -596,8 +590,7 @@
                         "type": "Literal",
                         "start": 1390,
                         "end": 1395,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ],
                     "optional": false
@@ -610,8 +603,7 @@
             "type": "Literal",
             "start": 1401,
             "end": 1438,
-            "value": "invalid access of c2 private method",
-            "raw": "'invalid access of c2 private method'"
+            "value": "invalid access of c2 private method"
           }
         ],
         "optional": false

@@ -121,8 +121,7 @@
                                 "type": "Literal",
                                 "start": 504,
                                 "end": 505,
-                                "value": 2,
-                                "raw": "2"
+                                "value": 2
                               },
                               "operator": "*",
                               "right": {
@@ -284,8 +283,7 @@
               "type": "Literal",
               "start": 582,
               "end": 589,
-              "value": 0.00001,
-              "raw": "0.00001"
+              "value": 0.00001
             }
           ],
           "optional": false
@@ -343,8 +341,7 @@
                   "type": "Literal",
                   "start": 728,
                   "end": 729,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             ],
@@ -403,8 +400,7 @@
                   "type": "Literal",
                   "start": 752,
                   "end": 753,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             ],
@@ -416,8 +412,7 @@
           "type": "Literal",
           "start": 758,
           "end": 765,
-          "value": 0.00001,
-          "raw": "0.00001"
+          "value": 0.00001
         }
       },
       "consequent": {
@@ -444,8 +439,7 @@
                   "type": "Literal",
                   "start": 793,
                   "end": 880,
-                  "value": "#1: return Expression yields to Return (return, GetValue(Evaluate Expression), empty)",
-                  "raw": "'#1: return Expression yields to Return (return, GetValue(Evaluate Expression), empty)'"
+                  "value": "#1: return Expression yields to Return (return, GetValue(Evaluate Expression), empty)"
                 }
               ]
             }

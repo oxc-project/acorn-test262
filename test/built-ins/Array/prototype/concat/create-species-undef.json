@@ -273,8 +273,7 @@
             "type": "Literal",
             "start": 883,
             "end": 942,
-            "value": "Object.getPrototypeOf(a.concat()) returns Array.prototype",
-            "raw": "'Object.getPrototypeOf(a.concat()) returns Array.prototype'"
+            "value": "Object.getPrototypeOf(a.concat()) returns Array.prototype"
           }
         ],
         "optional": false
@@ -332,8 +331,7 @@
             "type": "Literal",
             "start": 976,
             "end": 1016,
-            "value": "Array.isArray(result) must return true",
-            "raw": "'Array.isArray(result) must return true'"
+            "value": "Array.isArray(result) must return true"
           }
         ],
         "optional": false

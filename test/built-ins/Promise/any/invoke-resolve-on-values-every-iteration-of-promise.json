@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 562,
                 "end": 563,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 565,
                 "end": 566,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 568,
                 "end": 569,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -69,8 +66,7 @@
             "type": "Literal",
             "start": 588,
             "end": 589,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -214,8 +210,7 @@
                     "type": "Literal",
                     "start": 702,
                     "end": 703,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -369,15 +364,13 @@
                             "type": "Literal",
                             "start": 818,
                             "end": 819,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 821,
                             "end": 878,
-                            "value": "`Promise.resolve` invoked once for every iterated value",
-                            "raw": "'`Promise.resolve` invoked once for every iterated value'"
+                            "value": "`Promise.resolve` invoked once for every iterated value"
                           }
                         ],
                         "optional": false

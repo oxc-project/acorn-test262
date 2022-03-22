@@ -188,8 +188,7 @@
                           "type": "Literal",
                           "start": 1770,
                           "end": 1771,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -219,8 +218,7 @@
                             "type": "Literal",
                             "start": 1792,
                             "end": 1807,
-                            "value": " converts to ",
-                            "raw": "\" converts to \""
+                            "value": " converts to "
                           }
                         },
                         "operator": "+",

@@ -68,15 +68,13 @@
             "type": "Literal",
             "start": 910,
             "end": 920,
-            "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "value": "Symbol()"
           },
           {
             "type": "Literal",
             "start": 922,
             "end": 938,
-            "value": "implicit value",
-            "raw": "'implicit value'"
+            "value": "implicit value"
           }
         ],
         "optional": false
@@ -154,15 +152,13 @@
             "type": "Literal",
             "start": 988,
             "end": 998,
-            "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "value": "Symbol()"
           },
           {
             "type": "Literal",
             "start": 1000,
             "end": 1016,
-            "value": "explicit value",
-            "raw": "'explicit value'"
+            "value": "explicit value"
           }
         ],
         "optional": false

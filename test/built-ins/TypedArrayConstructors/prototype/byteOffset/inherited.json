@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 418,
                             "end": 430,
-                            "value": "byteOffset",
-                            "raw": "\"byteOffset\""
+                            "value": "byteOffset"
                           }
                         ],
                         "optional": false

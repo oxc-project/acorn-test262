@@ -123,8 +123,7 @@
             "type": "Literal",
             "start": 421,
             "end": 487,
-            "value": "Object.prototype.valueOf.call(null) throws a TypeError exception",
-            "raw": "'Object.prototype.valueOf.call(null) throws a TypeError exception'"
+            "value": "Object.prototype.valueOf.call(null) throws a TypeError exception"
           }
         ],
         "optional": false

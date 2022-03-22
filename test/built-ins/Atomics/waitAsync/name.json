@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 329,
             "end": 335,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 348,
                   "end": 359,
-                  "value": "waitAsync",
-                  "raw": "'waitAsync'"
+                  "value": "waitAsync"
                 },
                 "kind": "init"
               },

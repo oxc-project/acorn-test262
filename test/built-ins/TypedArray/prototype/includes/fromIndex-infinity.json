@@ -74,29 +74,25 @@
                                 "type": "Literal",
                                 "start": 1065,
                                 "end": 1067,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 1069,
                                 "end": 1071,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               },
                               {
                                 "type": "Literal",
                                 "start": 1073,
                                 "end": 1075,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               },
                               {
                                 "type": "Literal",
                                 "start": 1077,
                                 "end": 1079,
-                                "value": 41,
-                                "raw": "41"
+                                "value": 41
                               }
                             ]
                           }
@@ -162,8 +158,7 @@
                             "type": "Literal",
                             "start": 1124,
                             "end": 1126,
-                            "value": 43,
-                            "raw": "43"
+                            "value": 43
                           },
                           {
                             "type": "Identifier",
@@ -185,8 +180,7 @@
                         "type": "Literal",
                         "start": 1154,
                         "end": 1178,
-                        "value": "includes(43, Infinity)",
-                        "raw": "\"includes(43, Infinity)\""
+                        "value": "includes(43, Infinity)"
                       }
                     ],
                     "optional": false
@@ -248,8 +242,7 @@
                             "type": "Literal",
                             "start": 1224,
                             "end": 1226,
-                            "value": 43,
-                            "raw": "43"
+                            "value": 43
                           },
                           {
                             "type": "UnaryExpression",
@@ -278,8 +271,7 @@
                         "type": "Literal",
                         "start": 1254,
                         "end": 1279,
-                        "value": "includes(43, -Infinity)",
-                        "raw": "\"includes(43, -Infinity)\""
+                        "value": "includes(43, -Infinity)"
                       }
                     ],
                     "optional": false

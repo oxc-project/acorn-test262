@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 443,
                 "end": 444,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -98,15 +97,13 @@
                 "type": "Literal",
                 "start": 486,
                 "end": 487,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 489,
                 "end": 490,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -157,22 +154,19 @@
                 "type": "Literal",
                 "start": 531,
                 "end": 532,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 534,
                 "end": 535,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 537,
                 "end": 538,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -223,29 +217,25 @@
                 "type": "Literal",
                 "start": 578,
                 "end": 579,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 581,
                 "end": 582,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 585,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 587,
                 "end": 588,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -290,8 +280,7 @@
                   "type": "Literal",
                   "start": 623,
                   "end": 629,
-                  "value": "days",
-                  "raw": "\"days\""
+                  "value": "days"
                 },
                 "kind": "init"
               }
@@ -366,78 +355,67 @@
             "type": "Literal",
             "start": 687,
             "end": 688,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 690,
             "end": 691,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 693,
             "end": 694,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 696,
             "end": 697,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 699,
             "end": 700,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 702,
             "end": 703,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 705,
             "end": 706,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 709,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 712,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 714,
             "end": 715,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 749,
-            "value": "days do not require relativeTo",
-            "raw": "\"days do not require relativeTo\""
+            "value": "days do not require relativeTo"
           }
         ],
         "optional": false
@@ -524,8 +502,7 @@
             "type": "Literal",
             "start": 808,
             "end": 853,
-            "value": "balancing weeks to days requires relativeTo",
-            "raw": "\"balancing weeks to days requires relativeTo\""
+            "value": "balancing weeks to days requires relativeTo"
           }
         ],
         "optional": false
@@ -612,8 +589,7 @@
             "type": "Literal",
             "start": 913,
             "end": 959,
-            "value": "balancing months to days requires relativeTo",
-            "raw": "\"balancing months to days requires relativeTo\""
+            "value": "balancing months to days requires relativeTo"
           }
         ],
         "optional": false
@@ -700,8 +676,7 @@
             "type": "Literal",
             "start": 1018,
             "end": 1063,
-            "value": "balancing years to days requires relativeTo",
-            "raw": "\"balancing years to days requires relativeTo\""
+            "value": "balancing years to days requires relativeTo"
           }
         ],
         "optional": false
@@ -728,15 +703,13 @@
                 "type": "Literal",
                 "start": 1068,
                 "end": 1076,
-                "value": "months",
-                "raw": "\"months\""
+                "value": "months"
               },
               {
                 "type": "Literal",
                 "start": 1078,
                 "end": 1085,
-                "value": "weeks",
-                "raw": "\"weeks\""
+                "value": "weeks"
               }
             ]
           },

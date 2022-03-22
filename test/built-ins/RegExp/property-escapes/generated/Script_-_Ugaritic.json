@@ -56,8 +56,7 @@
                           "type": "Literal",
                           "start": 512,
                           "end": 520,
-                          "value": 66463,
-                          "raw": "0x01039F"
+                          "value": 66463
                         }
                       ]
                     },
@@ -90,15 +89,13 @@
                               "type": "Literal",
                               "start": 543,
                               "end": 551,
-                              "value": 66432,
-                              "raw": "0x010380"
+                              "value": 66432
                             },
                             {
                               "type": "Literal",
                               "start": 553,
                               "end": 561,
-                              "value": 66461,
-                              "raw": "0x01039D"
+                              "value": 66461
                             }
                           ]
                         }
@@ -135,7 +132,6 @@
             "start": 594,
             "end": 619,
             "value": {},
-            "raw": "/^\\p{Script=Ugaritic}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ugaritic}+$",
               "flags": "u"
@@ -151,8 +147,7 @@
             "type": "Literal",
             "start": 639,
             "end": 661,
-            "value": "\\p{Script=Ugaritic}",
-            "raw": "\"\\\\p{Script=Ugaritic}\""
+            "value": "\\p{Script=Ugaritic}"
           }
         ],
         "optional": false
@@ -178,7 +173,6 @@
             "start": 688,
             "end": 709,
             "value": {},
-            "raw": "/^\\p{Script=Ugar}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Ugar}+$",
               "flags": "u"
@@ -194,8 +188,7 @@
             "type": "Literal",
             "start": 729,
             "end": 747,
-            "value": "\\p{Script=Ugar}",
-            "raw": "\"\\\\p{Script=Ugar}\""
+            "value": "\\p{Script=Ugar}"
           }
         ],
         "optional": false
@@ -221,7 +214,6 @@
             "start": 774,
             "end": 795,
             "value": {},
-            "raw": "/^\\p{sc=Ugaritic}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ugaritic}+$",
               "flags": "u"
@@ -237,8 +229,7 @@
             "type": "Literal",
             "start": 815,
             "end": 833,
-            "value": "\\p{sc=Ugaritic}",
-            "raw": "\"\\\\p{sc=Ugaritic}\""
+            "value": "\\p{sc=Ugaritic}"
           }
         ],
         "optional": false
@@ -264,7 +255,6 @@
             "start": 860,
             "end": 877,
             "value": {},
-            "raw": "/^\\p{sc=Ugar}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Ugar}+$",
               "flags": "u"
@@ -280,8 +270,7 @@
             "type": "Literal",
             "start": 897,
             "end": 911,
-            "value": "\\p{sc=Ugar}",
-            "raw": "\"\\\\p{sc=Ugar}\""
+            "value": "\\p{sc=Ugar}"
           }
         ],
         "optional": false
@@ -340,8 +329,7 @@
                           "type": "Literal",
                           "start": 978,
                           "end": 986,
-                          "value": 66462,
-                          "raw": "0x01039E"
+                          "value": 66462
                         }
                       ]
                     },
@@ -374,15 +362,13 @@
                               "type": "Literal",
                               "start": 1009,
                               "end": 1017,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1019,
                               "end": 1027,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -395,15 +381,13 @@
                               "type": "Literal",
                               "start": 1035,
                               "end": 1043,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1045,
                               "end": 1053,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -416,15 +400,13 @@
                               "type": "Literal",
                               "start": 1061,
                               "end": 1069,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1071,
                               "end": 1079,
-                              "value": 66431,
-                              "raw": "0x01037F"
+                              "value": 66431
                             }
                           ]
                         },
@@ -437,15 +419,13 @@
                               "type": "Literal",
                               "start": 1087,
                               "end": 1095,
-                              "value": 66464,
-                              "raw": "0x0103A0"
+                              "value": 66464
                             },
                             {
                               "type": "Literal",
                               "start": 1097,
                               "end": 1105,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -482,7 +462,6 @@
             "start": 1138,
             "end": 1163,
             "value": {},
-            "raw": "/^\\P{Script=Ugaritic}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ugaritic}+$",
               "flags": "u"
@@ -498,8 +477,7 @@
             "type": "Literal",
             "start": 1186,
             "end": 1208,
-            "value": "\\P{Script=Ugaritic}",
-            "raw": "\"\\\\P{Script=Ugaritic}\""
+            "value": "\\P{Script=Ugaritic}"
           }
         ],
         "optional": false
@@ -525,7 +503,6 @@
             "start": 1235,
             "end": 1256,
             "value": {},
-            "raw": "/^\\P{Script=Ugar}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Ugar}+$",
               "flags": "u"
@@ -541,8 +518,7 @@
             "type": "Literal",
             "start": 1279,
             "end": 1297,
-            "value": "\\P{Script=Ugar}",
-            "raw": "\"\\\\P{Script=Ugar}\""
+            "value": "\\P{Script=Ugar}"
           }
         ],
         "optional": false
@@ -568,7 +544,6 @@
             "start": 1324,
             "end": 1345,
             "value": {},
-            "raw": "/^\\P{sc=Ugaritic}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ugaritic}+$",
               "flags": "u"
@@ -584,8 +559,7 @@
             "type": "Literal",
             "start": 1368,
             "end": 1386,
-            "value": "\\P{sc=Ugaritic}",
-            "raw": "\"\\\\P{sc=Ugaritic}\""
+            "value": "\\P{sc=Ugaritic}"
           }
         ],
         "optional": false
@@ -611,7 +585,6 @@
             "start": 1413,
             "end": 1430,
             "value": {},
-            "raw": "/^\\P{sc=Ugar}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Ugar}+$",
               "flags": "u"
@@ -627,8 +600,7 @@
             "type": "Literal",
             "start": 1453,
             "end": 1467,
-            "value": "\\P{sc=Ugar}",
-            "raw": "\"\\\\P{sc=Ugar}\""
+            "value": "\\P{sc=Ugar}"
           }
         ],
         "optional": false

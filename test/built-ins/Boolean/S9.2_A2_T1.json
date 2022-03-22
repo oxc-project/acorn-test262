@@ -63,8 +63,7 @@
             "type": "Literal",
             "start": 328,
             "end": 361,
-            "value": "Boolean(null) must return false",
-            "raw": "'Boolean(null) must return false'"
+            "value": "Boolean(null) must return false"
           }
         ],
         "optional": false

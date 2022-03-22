@@ -51,8 +51,7 @@
                         "type": "Literal",
                         "start": 332,
                         "end": 343,
-                        "value": "MAX_VALUE",
-                        "raw": "\"MAX_VALUE\""
+                        "value": "MAX_VALUE"
                       }
                     },
                     {
@@ -89,8 +88,7 @@
                     "type": "Literal",
                     "start": 379,
                     "end": 464,
-                    "value": "#1.1: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: '"
+                    "value": "#1.1: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -132,8 +130,7 @@
                                 "type": "Literal",
                                 "start": 494,
                                 "end": 505,
-                                "value": "MAX_VALUE",
-                                "raw": "\"MAX_VALUE\""
+                                "value": "MAX_VALUE"
                               }
                             },
                             {
@@ -236,8 +233,7 @@
                             "type": "Literal",
                             "start": 609,
                             "end": 694,
-                            "value": "#1.2: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: '"
+                            "value": "#1.2: max_value in (max_value = \"MAX_VALUE\", Number) throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

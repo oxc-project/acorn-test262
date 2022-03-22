@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 719,
             "end": 720,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -252,8 +251,7 @@
                                   "type": "Literal",
                                   "start": 928,
                                   "end": 929,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             }
@@ -464,15 +462,13 @@
             "type": "Literal",
             "start": 1089,
             "end": 1090,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1092,
             "end": 1158,
-            "value": "The iterator is closed when `Set.prototype.add` throws an error.",
-            "raw": "\"The iterator is closed when `Set.prototype.add` throws an error.\""
+            "value": "The iterator is closed when `Set.prototype.add` throws an error."
           }
         ],
         "optional": false

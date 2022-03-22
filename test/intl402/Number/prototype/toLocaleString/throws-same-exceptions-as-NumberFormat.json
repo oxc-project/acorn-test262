@@ -52,8 +52,7 @@
                     "type": "Literal",
                     "start": 334,
                     "end": 337,
-                    "value": "i",
-                    "raw": "\"i\""
+                    "value": "i"
                   }
                 ]
               },
@@ -66,8 +65,7 @@
                     "type": "Literal",
                     "start": 341,
                     "end": 348,
-                    "value": "de_DE",
-                    "raw": "\"de_DE\""
+                    "value": "de_DE"
                   }
                 ]
               }
@@ -148,8 +146,7 @@
                       "type": "Literal",
                       "start": 407,
                       "end": 416,
-                      "value": "invalid",
-                      "raw": "\"invalid\""
+                      "value": "invalid"
                     },
                     "kind": "init"
                   }
@@ -177,8 +174,7 @@
                       "type": "Literal",
                       "start": 431,
                       "end": 441,
-                      "value": "currency",
-                      "raw": "\"currency\""
+                      "value": "currency"
                     },
                     "kind": "init"
                   }
@@ -206,8 +202,7 @@
                       "type": "Literal",
                       "start": 456,
                       "end": 466,
-                      "value": "currency",
-                      "raw": "\"currency\""
+                      "value": "currency"
                     },
                     "kind": "init"
                   },
@@ -228,8 +223,7 @@
                       "type": "Literal",
                       "start": 478,
                       "end": 482,
-                      "value": "ßP",
-                      "raw": "\"ßP\""
+                      "value": "ßP"
                     },
                     "kind": "init"
                   }
@@ -514,8 +508,7 @@
                             "type": "Literal",
                             "start": 765,
                             "end": 850,
-                            "value": "Internal error: Expected exception was not thrown by Intl.NumberFormat for locales ",
-                            "raw": "\"Internal error: Expected exception was not thrown by Intl.NumberFormat for locales \""
+                            "value": "Internal error: Expected exception was not thrown by Intl.NumberFormat for locales "
                           },
                           "operator": "+",
                           "right": {
@@ -530,8 +523,7 @@
                           "type": "Literal",
                           "start": 863,
                           "end": 866,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],
@@ -630,8 +622,7 @@
                                           "type": "Literal",
                                           "start": 951,
                                           "end": 952,
-                                          "value": 0,
-                                          "raw": "0"
+                                          "value": 0
                                         }
                                       },
                                       "property": {
@@ -672,8 +663,7 @@
                             "type": "Literal",
                             "start": 986,
                             "end": 1055,
-                            "value": "Number.prototype.toLocaleString didn't throw exception for locales ",
-                            "raw": "\"Number.prototype.toLocaleString didn't throw exception for locales \""
+                            "value": "Number.prototype.toLocaleString didn't throw exception for locales "
                           },
                           "operator": "+",
                           "right": {
@@ -688,8 +678,7 @@
                           "type": "Literal",
                           "start": 1068,
                           "end": 1071,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],
@@ -947,8 +936,7 @@
                             "type": "Literal",
                             "start": 1317,
                             "end": 1402,
-                            "value": "Internal error: Expected exception was not thrown by Intl.NumberFormat for options ",
-                            "raw": "\"Internal error: Expected exception was not thrown by Intl.NumberFormat for options \""
+                            "value": "Internal error: Expected exception was not thrown by Intl.NumberFormat for options "
                           },
                           "operator": "+",
                           "right": {
@@ -990,8 +978,7 @@
                           "type": "Literal",
                           "start": 1431,
                           "end": 1434,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],
@@ -1090,8 +1077,7 @@
                                           "type": "Literal",
                                           "start": 1519,
                                           "end": 1520,
-                                          "value": 0,
-                                          "raw": "0"
+                                          "value": 0
                                         }
                                       },
                                       "property": {
@@ -1138,8 +1124,7 @@
                             "type": "Literal",
                             "start": 1558,
                             "end": 1627,
-                            "value": "Number.prototype.toLocaleString didn't throw exception for options ",
-                            "raw": "\"Number.prototype.toLocaleString didn't throw exception for options \""
+                            "value": "Number.prototype.toLocaleString didn't throw exception for options "
                           },
                           "operator": "+",
                           "right": {
@@ -1181,8 +1166,7 @@
                           "type": "Literal",
                           "start": 1656,
                           "end": 1659,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],

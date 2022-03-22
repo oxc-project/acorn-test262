@@ -146,8 +146,7 @@
                         "type": "Literal",
                         "start": 1503,
                         "end": 1543,
-                        "value": "executed = true; function test262() {}",
-                        "raw": "'executed = true; function test262() {}'"
+                        "value": "executed = true; function test262() {}"
                       }
                     ],
                     "optional": false

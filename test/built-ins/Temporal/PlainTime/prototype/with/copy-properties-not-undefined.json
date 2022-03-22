@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 614,
                 "end": 615,
-                "value": 9,
-                "raw": "9"
+                "value": 9
               },
               {
                 "type": "Literal",
                 "start": 617,
                 "end": 619,
-                "value": 45,
-                "raw": "45"
+                "value": 45
               },
               {
                 "type": "Literal",
                 "start": 621,
                 "end": 623,
-                "value": 55,
-                "raw": "55"
+                "value": 55
               }
             ]
           }
@@ -143,8 +140,7 @@
                       "type": "Literal",
                       "start": 682,
                       "end": 683,
-                      "value": 8,
-                      "raw": "8"
+                      "value": 8
                     },
                     "kind": "init"
                   },
@@ -178,50 +174,43 @@
             "type": "Literal",
             "start": 709,
             "end": 710,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           },
           {
             "type": "Literal",
             "start": 712,
             "end": 714,
-            "value": 45,
-            "raw": "45"
+            "value": 45
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 718,
-            "value": 55,
-            "raw": "55"
+            "value": 55
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 721,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 724,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 727,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 731,
             "end": 812,
-            "value": "only the properties that are present and defined in the plain object are copied",
-            "raw": "\"only the properties that are present and defined in the plain object are copied\""
+            "value": "only the properties that are present and defined in the plain object are copied"
           }
         ],
         "optional": false

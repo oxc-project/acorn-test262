@@ -107,8 +107,7 @@
                                 "type": "Literal",
                                 "start": 492,
                                 "end": 509,
-                                "value": "toString valuey",
-                                "raw": "'toString valuey'"
+                                "value": "toString valuey"
                               }
                             }
                           ]
@@ -305,7 +304,6 @@
                   "start": 656,
                   "end": 660,
                   "value": {},
-                  "raw": "/./y",
                   "regex": {
                     "pattern": ".",
                     "flags": "y"
@@ -432,8 +430,7 @@
             "type": "Literal",
             "start": 736,
             "end": 753,
-            "value": "toString valuey",
-            "raw": "'toString valuey'"
+            "value": "toString valuey"
           }
         ],
         "optional": false

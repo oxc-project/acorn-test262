@@ -44,7 +44,6 @@
                 "start": 863,
                 "end": 866,
                 "value": {},
-                "raw": "/c/",
                 "regex": {
                   "pattern": "c",
                   "flags": ""
@@ -77,15 +76,13 @@
                 "type": "Literal",
                 "start": 883,
                 "end": 888,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 890,
                 "end": 897,
-                "value": "[$']",
-                "raw": "'[$\\']'"
+                "value": "[$']"
               }
             ],
             "optional": false
@@ -94,8 +91,7 @@
             "type": "Literal",
             "start": 900,
             "end": 906,
-            "value": "ab[]",
-            "raw": "'ab[]'"
+            "value": "ab[]"
           }
         ],
         "optional": false
@@ -142,7 +138,6 @@
                 "start": 926,
                 "end": 929,
                 "value": {},
-                "raw": "/b/",
                 "regex": {
                   "pattern": "b",
                   "flags": ""
@@ -175,15 +170,13 @@
                 "type": "Literal",
                 "start": 946,
                 "end": 951,
-                "value": "abc",
-                "raw": "'abc'"
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 953,
                 "end": 960,
-                "value": "[$']",
-                "raw": "'[$\\']'"
+                "value": "[$']"
               }
             ],
             "optional": false
@@ -192,8 +185,7 @@
             "type": "Literal",
             "start": 963,
             "end": 970,
-            "value": "a[c]c",
-            "raw": "'a[c]c'"
+            "value": "a[c]c"
           }
         ],
         "optional": false

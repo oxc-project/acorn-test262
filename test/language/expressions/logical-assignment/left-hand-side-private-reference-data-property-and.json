@@ -20,13 +20,12 @@
         "end": 1677,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1553,
-            "end": 1567,
-            "static": false,
+            "end": 1566,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1553,
               "end": 1559,
               "name": "field"
@@ -84,14 +83,14 @@
                           "start": 1604,
                           "end": 1608
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1609,
                           "end": 1615,
                           "name": "field"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "right": {
                         "type": "Literal",
@@ -146,14 +145,14 @@
                         "start": 1659,
                         "end": 1663
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 1664,
                         "end": 1670,
                         "name": "field"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -259,8 +258,7 @@
             "type": "Literal",
             "start": 1746,
             "end": 1792,
-            "value": "The expression should evaluate to the result",
-            "raw": "\"The expression should evaluate to the result\""
+            "value": "The expression should evaluate to the result"
           }
         ],
         "optional": false
@@ -331,8 +329,7 @@
             "type": "Literal",
             "start": 1835,
             "end": 1894,
-            "value": "PutValue should store the result in the private reference",
-            "raw": "\"PutValue should store the result in the private reference\""
+            "value": "PutValue should store the result in the private reference"
           }
         ],
         "optional": false

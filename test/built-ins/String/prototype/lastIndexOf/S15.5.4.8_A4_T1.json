@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 504,
                           "end": 513,
-                          "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "value": "AB"
                         }
                       }
                     ]
@@ -128,8 +127,7 @@
                           "type": "Literal",
                           "start": 570,
                           "end": 583,
-                          "value": "intointeger",
-                          "raw": "\"intointeger\""
+                          "value": "intointeger"
                         }
                       }
                     ]
@@ -162,8 +160,7 @@
             "type": "Literal",
             "start": 603,
             "end": 619,
-            "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "value": "ABBABABAB"
           }
         }
       ],
@@ -255,8 +252,7 @@
                   "type": "Literal",
                   "start": 786,
                   "end": 859,
-                  "value": "#1: var x = __str.lastIndexOf(__obj, __obj2) lead to throwing exception",
-                  "raw": "'#1: var x = __str.lastIndexOf(__obj, __obj2) lead to throwing exception'"
+                  "value": "#1: var x = __str.lastIndexOf(__obj, __obj2) lead to throwing exception"
                 }
               ]
             }
@@ -297,8 +293,7 @@
                   "type": "Literal",
                   "start": 888,
                   "end": 901,
-                  "value": "intointeger",
-                  "raw": "\"intointeger\""
+                  "value": "intointeger"
                 }
               },
               "consequent": {
@@ -329,8 +324,7 @@
                             "type": "Literal",
                             "start": 932,
                             "end": 977,
-                            "value": "#1.1: Exception === \"intointeger\". Actual: ",
-                            "raw": "'#1.1: Exception === \"intointeger\". Actual: '"
+                            "value": "#1.1: Exception === \"intointeger\". Actual: "
                           },
                           "operator": "+",
                           "right": {

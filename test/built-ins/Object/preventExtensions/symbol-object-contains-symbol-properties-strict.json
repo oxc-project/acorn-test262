@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 309,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             ],
             "optional": false
@@ -73,8 +72,7 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 333,
-                "value": "B",
-                "raw": "\"B\""
+                "value": "B"
               }
             ],
             "optional": false
@@ -113,8 +111,7 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 357,
-                "value": "C",
-                "raw": "\"C\""
+                "value": "C"
               }
             ],
             "optional": false
@@ -180,8 +177,7 @@
           "type": "Literal",
           "start": 386,
           "end": 387,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -255,8 +251,7 @@
           "type": "Literal",
           "start": 432,
           "end": 433,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -340,8 +335,7 @@
                       "type": "Literal",
                       "start": 488,
                       "end": 489,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -462,8 +456,7 @@
                               "type": "Literal",
                               "start": 582,
                               "end": 583,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "kind": "init"
                           }
@@ -531,15 +524,13 @@
             "type": "Literal",
             "start": 623,
             "end": 624,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 626,
             "end": 659,
-            "value": "The value of `obj[symA]` is `2`",
-            "raw": "\"The value of `obj[symA]` is `2`\""
+            "value": "The value of `obj[symA]` is `2`"
           }
         ],
         "optional": false
@@ -610,8 +601,7 @@
             "type": "Literal",
             "start": 703,
             "end": 733,
-            "value": "`delete obj[symA]` is `true`",
-            "raw": "\"`delete obj[symA]` is `true`\""
+            "value": "`delete obj[symA]` is `true`"
           }
         ],
         "optional": false
@@ -674,8 +664,7 @@
             "type": "Literal",
             "start": 775,
             "end": 816,
-            "value": "The value of `obj[symB]` is `undefined`",
-            "raw": "\"The value of `obj[symB]` is `undefined`\""
+            "value": "The value of `obj[symB]` is `undefined`"
           }
         ],
         "optional": false
@@ -738,8 +727,7 @@
             "type": "Literal",
             "start": 858,
             "end": 899,
-            "value": "The value of `obj[symC]` is `undefined`",
-            "raw": "\"The value of `obj[symC]` is `undefined`\""
+            "value": "The value of `obj[symC]` is `undefined`"
           }
         ],
         "optional": false

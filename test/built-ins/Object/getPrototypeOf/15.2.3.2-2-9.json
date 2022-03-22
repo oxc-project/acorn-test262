@@ -87,8 +87,7 @@
             "type": "Literal",
             "start": 330,
             "end": 359,
-            "value": "Object.getPrototypeOf(Date)",
-            "raw": "'Object.getPrototypeOf(Date)'"
+            "value": "Object.getPrototypeOf(Date)"
           }
         ],
         "optional": false

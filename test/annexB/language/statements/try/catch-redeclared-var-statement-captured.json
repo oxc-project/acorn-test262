@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 365,
           "end": 381,
-          "value": "prior to throw",
-          "raw": "\"prior to throw\""
+          "value": "prior to throw"
         }
       }
     },
@@ -127,8 +126,7 @@
                     "type": "Literal",
                     "start": 448,
                     "end": 470,
-                    "value": "initializer in catch",
-                    "raw": "\"initializer in catch\""
+                    "value": "initializer in catch"
                   }
                 }
               ],
@@ -184,8 +182,7 @@
             "type": "Literal",
             "start": 509,
             "end": 525,
-            "value": "prior to throw",
-            "raw": "\"prior to throw\""
+            "value": "prior to throw"
           }
         ],
         "optional": false

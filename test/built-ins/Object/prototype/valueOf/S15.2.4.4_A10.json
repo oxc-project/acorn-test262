@@ -84,8 +84,7 @@
                     "type": "Literal",
                     "start": 419,
                     "end": 427,
-                    "value": "length",
-                    "raw": "'length'"
+                    "value": "length"
                   }
                 ],
                 "optional": false
@@ -96,8 +95,7 @@
             "type": "Literal",
             "start": 432,
             "end": 521,
-            "value": "The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'"
+            "value": "The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true"
           }
         ],
         "optional": false
@@ -218,8 +216,7 @@
             "type": "Literal",
             "start": 614,
             "end": 622,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -250,8 +247,7 @@
                     "type": "Literal",
                     "start": 652,
                     "end": 661,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -344,8 +340,7 @@
             "type": "Literal",
             "start": 730,
             "end": 814,
-            "value": "The value of Object.prototype.valueOf.length is expected to equal the value of obj",
-            "raw": "'The value of Object.prototype.valueOf.length is expected to equal the value of obj'"
+            "value": "The value of Object.prototype.valueOf.length is expected to equal the value of obj"
           }
         ],
         "optional": false

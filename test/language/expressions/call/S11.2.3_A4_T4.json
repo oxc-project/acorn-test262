@@ -52,8 +52,7 @@
                     "type": "Literal",
                     "start": 359,
                     "end": 399,
-                    "value": "#1.1: this() throw TypeError. Actual: ",
-                    "raw": "'#1.1: this() throw TypeError. Actual: '"
+                    "value": "#1.1: this() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -162,8 +161,7 @@
                             "type": "Literal",
                             "start": 498,
                             "end": 538,
-                            "value": "#1.2: this() throw TypeError. Actual: ",
-                            "raw": "'#1.2: this() throw TypeError. Actual: '"
+                            "value": "#1.2: this() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

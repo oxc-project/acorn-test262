@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 409,
             "end": 419,
-            "value": "Infinity",
-            "raw": "\"Infinity\""
+            "value": "Infinity"
           }
         ],
         "optional": false
@@ -161,8 +160,7 @@
             "type": "Literal",
             "start": 479,
             "end": 490,
-            "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "value": "-Infinity"
           }
         ],
         "optional": false

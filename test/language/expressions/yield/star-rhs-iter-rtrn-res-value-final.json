@@ -373,8 +373,7 @@
                                       "type": "Literal",
                                       "start": 1792,
                                       "end": 1796,
-                                      "value": 3333,
-                                      "raw": "3333"
+                                      "value": 3333
                                     },
                                     "kind": "init"
                                   }
@@ -635,8 +634,7 @@
             "type": "Literal",
             "start": 2024,
             "end": 2028,
-            "value": 2222,
-            "raw": "2222"
+            "value": 2222
           }
         ],
         "optional": false
@@ -680,8 +678,7 @@
             "type": "Literal",
             "start": 2064,
             "end": 2068,
-            "value": 2222,
-            "raw": "2222"
+            "value": 2222
           }
         ],
         "optional": false
@@ -732,8 +729,7 @@
             "type": "Literal",
             "start": 2114,
             "end": 2135,
-            "value": "delegation complete",
-            "raw": "'delegation complete'"
+            "value": "delegation complete"
           }
         ],
         "optional": false
@@ -784,8 +780,7 @@
             "type": "Literal",
             "start": 2180,
             "end": 2203,
-            "value": "completion was abrupt",
-            "raw": "'completion was abrupt'"
+            "value": "completion was abrupt"
           }
         ],
         "optional": false
@@ -836,8 +831,7 @@
             "type": "Literal",
             "start": 2247,
             "end": 2283,
-            "value": "completion was not of type \"throw\"",
-            "raw": "'completion was not of type \"throw\"'"
+            "value": "completion was not of type \"throw\""
           }
         ],
         "optional": false

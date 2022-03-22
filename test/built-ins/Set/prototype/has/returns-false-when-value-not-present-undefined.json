@@ -106,8 +106,7 @@
             "type": "Literal",
             "start": 319,
             "end": 355,
-            "value": "`s.has(undefined)` returns `false`",
-            "raw": "\"`s.has(undefined)` returns `false`\""
+            "value": "`s.has(undefined)` returns `false`"
           }
         ],
         "optional": false

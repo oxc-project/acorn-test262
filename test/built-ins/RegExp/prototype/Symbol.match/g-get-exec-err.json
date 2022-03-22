@@ -89,8 +89,7 @@
             "type": "Literal",
             "start": 692,
             "end": 698,
-            "value": "exec",
-            "raw": "'exec'"
+            "value": "exec"
           },
           {
             "type": "ObjectExpression",
@@ -277,8 +276,7 @@
                         "type": "Literal",
                         "start": 843,
                         "end": 845,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -342,15 +340,13 @@
             "type": "Literal",
             "start": 883,
             "end": 884,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 886,
             "end": 926,
-            "value": "Error thrown after setting `lastIndex`",
-            "raw": "'Error thrown after setting `lastIndex`'"
+            "value": "Error thrown after setting `lastIndex`"
           }
         ],
         "optional": false

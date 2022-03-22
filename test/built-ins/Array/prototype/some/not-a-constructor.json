@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 753,
             "end": 808,
-            "value": "isConstructor(Array.prototype.some) must return false",
-            "raw": "'isConstructor(Array.prototype.some) must return false'"
+            "value": "isConstructor(Array.prototype.some) must return false"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 886,
             "end": 941,
-            "value": "`new Array.prototype.some(() => {})` throws TypeError",
-            "raw": "'`new Array.prototype.some(() => {})` throws TypeError'"
+            "value": "`new Array.prototype.some(() => {})` throws TypeError"
           }
         ],
         "optional": false

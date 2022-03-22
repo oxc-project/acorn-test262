@@ -31,7 +31,6 @@
                 "start": 307,
                 "end": 313,
                 "value": {},
-                "raw": "/\\x00/",
                 "regex": {
                   "pattern": "\\x00",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 319,
                 "end": 327,
-                "value": "\u0000",
-                "raw": "\"\\u0000\""
+                "value": "\u0000"
               }
             ],
             "optional": false
@@ -116,8 +114,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 359,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -127,8 +124,7 @@
               "type": "Literal",
               "start": 365,
               "end": 373,
-              "value": "\u0000",
-              "raw": "\"\\u0000\""
+              "value": "\u0000"
             }
           }
         }
@@ -161,8 +157,7 @@
                     "type": "Literal",
                     "start": 403,
                     "end": 472,
-                    "value": "#0: var arr = /\\x00/.exec(\\u0000); arr[0] === \"\\u0000\". Actual. ",
-                    "raw": "'#0: var arr = /\\\\x00/.exec(\\\\u0000); arr[0] === \"\\\\u0000\". Actual. '"
+                    "value": "#0: var arr = /\\x00/.exec(\\u0000); arr[0] === \"\\u0000\". Actual. "
                   },
                   "operator": "+",
                   "right": {
@@ -194,8 +189,7 @@
                           "type": "Literal",
                           "start": 487,
                           "end": 488,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -238,7 +232,6 @@
                 "start": 506,
                 "end": 512,
                 "value": {},
-                "raw": "/\\x01/",
                 "regex": {
                   "pattern": "\\x01",
                   "flags": ""
@@ -258,8 +251,7 @@
                 "type": "Literal",
                 "start": 518,
                 "end": 526,
-                "value": "\u0001",
-                "raw": "\"\\u0001\""
+                "value": "\u0001"
               }
             ],
             "optional": false
@@ -323,8 +315,7 @@
                 "type": "Literal",
                 "start": 557,
                 "end": 558,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -334,8 +325,7 @@
               "type": "Literal",
               "start": 564,
               "end": 572,
-              "value": "\u0001",
-              "raw": "\"\\u0001\""
+              "value": "\u0001"
             }
           }
         }
@@ -368,8 +358,7 @@
                     "type": "Literal",
                     "start": 602,
                     "end": 671,
-                    "value": "#1: var arr = /\\x01/.exec(\\u0001); arr[0] === \"\\u0001\". Actual. ",
-                    "raw": "'#1: var arr = /\\\\x01/.exec(\\\\u0001); arr[0] === \"\\\\u0001\". Actual. '"
+                    "value": "#1: var arr = /\\x01/.exec(\\u0001); arr[0] === \"\\u0001\". Actual. "
                   },
                   "operator": "+",
                   "right": {
@@ -401,8 +390,7 @@
                           "type": "Literal",
                           "start": 686,
                           "end": 687,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -445,7 +433,6 @@
                 "start": 705,
                 "end": 711,
                 "value": {},
-                "raw": "/\\x0A/",
                 "regex": {
                   "pattern": "\\x0A",
                   "flags": ""
@@ -465,8 +452,7 @@
                 "type": "Literal",
                 "start": 717,
                 "end": 725,
-                "value": "\n",
-                "raw": "\"\\u000A\""
+                "value": "\n"
               }
             ],
             "optional": false
@@ -530,8 +516,7 @@
                 "type": "Literal",
                 "start": 756,
                 "end": 757,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -541,8 +526,7 @@
               "type": "Literal",
               "start": 763,
               "end": 771,
-              "value": "\n",
-              "raw": "\"\\u000A\""
+              "value": "\n"
             }
           }
         }
@@ -575,8 +559,7 @@
                     "type": "Literal",
                     "start": 801,
                     "end": 870,
-                    "value": "#2: var arr = /\\x0A/.exec(\\u000A); arr[0] === \"\\u000A\". Actual. ",
-                    "raw": "'#2: var arr = /\\\\x0A/.exec(\\\\u000A); arr[0] === \"\\\\u000A\". Actual. '"
+                    "value": "#2: var arr = /\\x0A/.exec(\\u000A); arr[0] === \"\\u000A\". Actual. "
                   },
                   "operator": "+",
                   "right": {
@@ -608,8 +591,7 @@
                           "type": "Literal",
                           "start": 885,
                           "end": 886,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -652,7 +634,6 @@
                 "start": 904,
                 "end": 910,
                 "value": {},
-                "raw": "/\\xFF/",
                 "regex": {
                   "pattern": "\\xFF",
                   "flags": ""
@@ -672,8 +653,7 @@
                 "type": "Literal",
                 "start": 916,
                 "end": 924,
-                "value": "ÿ",
-                "raw": "\"\\u00FF\""
+                "value": "ÿ"
               }
             ],
             "optional": false
@@ -737,8 +717,7 @@
                 "type": "Literal",
                 "start": 955,
                 "end": 956,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -748,8 +727,7 @@
               "type": "Literal",
               "start": 962,
               "end": 970,
-              "value": "ÿ",
-              "raw": "\"\\u00FF\""
+              "value": "ÿ"
             }
           }
         }
@@ -782,8 +760,7 @@
                     "type": "Literal",
                     "start": 1000,
                     "end": 1069,
-                    "value": "#3: var arr = /\\xFF/.exec(\\u00FF); arr[0] === \"\\u00FF\". Actual. ",
-                    "raw": "'#3: var arr = /\\\\xFF/.exec(\\\\u00FF); arr[0] === \"\\\\u00FF\". Actual. '"
+                    "value": "#3: var arr = /\\xFF/.exec(\\u00FF); arr[0] === \"\\u00FF\". Actual. "
                   },
                   "operator": "+",
                   "right": {
@@ -815,8 +792,7 @@
                           "type": "Literal",
                           "start": 1084,
                           "end": 1085,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false

@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 967,
             "end": 968,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -160,8 +159,7 @@
                     "type": "Literal",
                     "start": 1042,
                     "end": 1043,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -227,8 +225,7 @@
           "type": "Literal",
           "start": 1087,
           "end": 1088,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         },
         "operator": "==",
         "right": {
@@ -277,15 +274,13 @@
             "type": "Literal",
             "start": 1124,
             "end": 1125,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1127,
             "end": 1156,
-            "value": "method invoked exactly once",
-            "raw": "'method invoked exactly once'"
+            "value": "method invoked exactly once"
           }
         ],
         "optional": false
@@ -335,8 +330,7 @@
             "type": "Literal",
             "start": 1188,
             "end": 1231,
-            "value": "`this` value is the object being compared",
-            "raw": "'`this` value is the object being compared'"
+            "value": "`this` value is the object being compared"
           }
         ],
         "optional": false
@@ -393,15 +387,13 @@
             "type": "Literal",
             "start": 1264,
             "end": 1265,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1267,
             "end": 1309,
-            "value": "method invoked with exactly one argument",
-            "raw": "'method invoked with exactly one argument'"
+            "value": "method invoked with exactly one argument"
           }
         ],
         "optional": false
@@ -449,8 +441,7 @@
               "type": "Literal",
               "start": 1337,
               "end": 1338,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -459,15 +450,13 @@
             "type": "Literal",
             "start": 1343,
             "end": 1352,
-            "value": "default",
-            "raw": "'default'"
+            "value": "default"
           },
           {
             "type": "Literal",
             "start": 1356,
             "end": 1420,
-            "value": "method invoked with the string \"default\" as the first argument",
-            "raw": "'method invoked with the string \"default\" as the first argument'"
+            "value": "method invoked with the string \"default\" as the first argument"
           }
         ],
         "optional": false

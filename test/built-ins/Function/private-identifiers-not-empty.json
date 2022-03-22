@@ -95,8 +95,7 @@
                         "type": "Literal",
                         "start": 781,
                         "end": 787,
-                        "value": "o.#f",
-                        "raw": "\"o.#f\""
+                        "value": "o.#f"
                       }
                     ]
                   }
@@ -108,8 +107,7 @@
             "type": "Literal",
             "start": 793,
             "end": 890,
-            "value": "It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body",
-            "raw": "'It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body'"
+            "value": "It should be a SyntaxError if AllPrivateIdentifiersValid returns false to dynamic function body"
           }
         ],
         "optional": false

@@ -95,8 +95,7 @@
             "type": "Literal",
             "start": 457,
             "end": 514,
-            "value": "Array.prototype.isPrototypeOf(Array()) must return true",
-            "raw": "'Array.prototype.isPrototypeOf(Array()) must return true'"
+            "value": "Array.prototype.isPrototypeOf(Array()) must return true"
           }
         ],
         "optional": false

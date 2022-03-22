@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 380,
             "end": 393,
-            "value": "importValue",
-            "raw": "\"importValue\""
+            "value": "importValue"
           },
           {
             "type": "ObjectExpression",

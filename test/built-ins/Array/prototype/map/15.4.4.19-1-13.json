@@ -57,8 +57,7 @@
                   "type": "Literal",
                   "start": 288,
                   "end": 303,
-                  "value": "[object JSON]",
-                  "raw": "'[object JSON]'"
+                  "value": "[object JSON]"
                 },
                 "operator": "===",
                 "right": {
@@ -158,8 +157,7 @@
           "type": "Literal",
           "start": 363,
           "end": 364,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -186,8 +184,7 @@
             "type": "Literal",
             "start": 371,
             "end": 372,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -196,8 +193,7 @@
           "type": "Literal",
           "start": 376,
           "end": 377,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -327,8 +323,7 @@
               "type": "Literal",
               "start": 469,
               "end": 470,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -344,8 +339,7 @@
             "type": "Literal",
             "start": 479,
             "end": 494,
-            "value": "testResult[0]",
-            "raw": "'testResult[0]'"
+            "value": "testResult[0]"
           }
         ],
         "optional": false

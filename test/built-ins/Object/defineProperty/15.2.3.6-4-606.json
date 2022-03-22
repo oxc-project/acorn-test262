@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 336,
-                "value": "preventExtensions",
-                "raw": "\"preventExtensions\""
+                "value": "preventExtensions"
               }
             ],
             "optional": false
@@ -264,8 +263,7 @@
           "type": "Literal",
           "start": 516,
           "end": 522,
-          "value": "2010",
-          "raw": "\"2010\""
+          "value": "2010"
         }
       }
     },
@@ -316,8 +314,7 @@
                 "type": "Literal",
                 "start": 572,
                 "end": 578,
-                "value": "2010",
-                "raw": "\"2010\""
+                "value": "2010"
               }
             }
           }
@@ -405,8 +402,7 @@
                 "type": "Literal",
                 "start": 651,
                 "end": 670,
-                "value": "preventExtensions",
-                "raw": "\"preventExtensions\""
+                "value": "preventExtensions"
               }
             },
             "consequent": {
@@ -525,8 +521,7 @@
                   "type": "Literal",
                   "start": 784,
                   "end": 803,
-                  "value": "preventExtensions",
-                  "raw": "\"preventExtensions\""
+                  "value": "preventExtensions"
                 }
               ],
               "optional": false
@@ -561,8 +556,7 @@
             "type": "Literal",
             "start": 834,
             "end": 863,
-            "value": "propertyAreCorrect !== true",
-            "raw": "'propertyAreCorrect !== true'"
+            "value": "propertyAreCorrect !== true"
           }
         ],
         "optional": false
@@ -593,8 +587,7 @@
             "type": "Literal",
             "start": 885,
             "end": 906,
-            "value": "isWritable !== true",
-            "raw": "'isWritable !== true'"
+            "value": "isWritable !== true"
           }
         ],
         "optional": false
@@ -645,8 +638,7 @@
             "type": "Literal",
             "start": 947,
             "end": 961,
-            "value": "isEnumerable",
-            "raw": "'isEnumerable'"
+            "value": "isEnumerable"
           }
         ],
         "optional": false
@@ -677,8 +669,7 @@
             "type": "Literal",
             "start": 987,
             "end": 1012,
-            "value": "isConfigurable !== true",
-            "raw": "'isConfigurable !== true'"
+            "value": "isConfigurable !== true"
           }
         ],
         "optional": false

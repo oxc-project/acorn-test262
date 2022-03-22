@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 402,
                 "end": 411,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,43 +97,37 @@
                 "type": "Literal",
                 "start": 457,
                 "end": 461,
-                "value": 1997,
-                "raw": "1997"
+                "value": 1997
               },
               {
                 "type": "Literal",
                 "start": 463,
                 "end": 464,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 468,
-                "value": 23,
-                "raw": "23"
+                "value": 23
               },
               {
                 "type": "Literal",
                 "start": 470,
                 "end": 471,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 473,
                 "end": 475,
-                "value": 30,
-                "raw": "30"
+                "value": 30
               },
               {
                 "type": "Literal",
                 "start": 477,
                 "end": 479,
-                "value": 13,
-                "raw": "13"
+                "value": 13
               }
             ]
           }
@@ -207,15 +200,13 @@
             "type": "Literal",
             "start": 517,
             "end": 519,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           },
           {
             "type": "Literal",
             "start": 521,
             "end": 597,
-            "value": "cal.day(new Temporal.PlainDateTime(1997, 8, 23, 5, 30, 13)) must return 23",
-            "raw": "'cal.day(new Temporal.PlainDateTime(1997, 8, 23, 5, 30, 13)) must return 23'"
+            "value": "cal.day(new Temporal.PlainDateTime(1997, 8, 23, 5, 30, 13)) must return 23"
           }
         ],
         "optional": false

@@ -30,13 +30,13 @@
               "end": 1836,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1704,
-                  "end": 1740,
+                  "end": 1739,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1711,
                     "end": 1717,
                     "name": "field"
@@ -72,9 +72,9 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1743,
-                  "end": 1772,
+                  "end": 1771,
                   "static": true,
                   "computed": false,
                   "key": {
@@ -140,14 +140,14 @@
                               "start": 1817,
                               "end": 1821
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 1822,
                               "end": 1828,
                               "name": "field"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         }
                       ]
@@ -232,8 +232,7 @@
             "type": "Literal",
             "start": 1886,
             "end": 1887,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -303,8 +302,7 @@
             "type": "Literal",
             "start": 1923,
             "end": 1924,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

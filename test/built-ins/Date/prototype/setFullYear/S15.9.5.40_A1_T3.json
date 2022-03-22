@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 346,
                   "end": 359,
-                  "value": "setFullYear",
-                  "raw": "'setFullYear'"
+                  "value": "setFullYear"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 364,
             "end": 455,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('setFullYear') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'setFullYear\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('setFullYear') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 517,
                   "end": 530,
-                  "value": "setFullYear",
-                  "raw": "\"setFullYear\""
+                  "value": "setFullYear"
                 },
                 {
                   "type": "Literal",
                   "start": 532,
                   "end": 569,
-                  "value": "The value of x is not \"setFullYear\"",
-                  "raw": "'The value of x is not \"setFullYear\"'"
+                  "value": "The value of x is not \"setFullYear\""
                 }
               ],
               "optional": false

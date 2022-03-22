@@ -233,8 +233,7 @@
             "type": "Literal",
             "start": 520,
             "end": 529,
-            "value": "valueOf",
-            "raw": "\"valueOf\""
+            "value": "valueOf"
           }
         ],
         "optional": false
@@ -320,8 +319,7 @@
             "type": "Literal",
             "start": 595,
             "end": 605,
-            "value": "toString",
-            "raw": "\"toString\""
+            "value": "toString"
           }
         ],
         "optional": false

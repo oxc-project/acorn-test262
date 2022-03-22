@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 327,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               "property": {
                 "type": "Identifier",
@@ -68,8 +67,7 @@
             "type": "Literal",
             "start": 361,
             "end": 363,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         }
       ],
@@ -151,8 +149,7 @@
                     "type": "Literal",
                     "start": 528,
                     "end": 633,
-                    "value": "#1: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: ",
-                    "raw": "'#1: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: '"
+                    "value": "#1: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.length === __expected.length. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -258,8 +255,7 @@
                     "type": "Literal",
                     "start": 902,
                     "end": 1005,
-                    "value": "#2: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: ",
-                    "raw": "'#2: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: '"
+                    "value": "#2: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.index === __expected.index. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -365,8 +361,7 @@
                     "type": "Literal",
                     "start": 1273,
                     "end": 1376,
-                    "value": "#3: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: ",
-                    "raw": "'#3: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: '"
+                    "value": "#3: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase.input === __expected.input. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -418,8 +413,7 @@
             "type": "Literal",
             "start": 1589,
             "end": 1590,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -439,8 +433,7 @@
             "type": "Literal",
             "start": 1607,
             "end": 1608,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -482,8 +475,7 @@
                         "type": "Literal",
                         "start": 1638,
                         "end": 1710,
-                        "value": "#4: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase[0]===",
-                        "raw": "'#4: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase[0]==='"
+                        "value": "#4: __lowerCase = \"\".toLowerCase(); __expected = \"\"; __lowerCase[0]==="
                       },
                       "operator": "+",
                       "right": {
@@ -500,8 +492,7 @@
                           "type": "Literal",
                           "start": 1724,
                           "end": 1725,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -512,8 +503,7 @@
                       "type": "Literal",
                       "start": 1729,
                       "end": 1741,
-                      "value": ". Actual: ",
-                      "raw": "'. Actual: '"
+                      "value": ". Actual: "
                     }
                   },
                   "operator": "+",
@@ -531,8 +521,7 @@
                       "type": "Literal",
                       "start": 1756,
                       "end": 1757,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false

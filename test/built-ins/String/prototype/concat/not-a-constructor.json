@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 766,
             "end": 824,
-            "value": "isConstructor(String.prototype.concat) must return false",
-            "raw": "'isConstructor(String.prototype.concat) must return false'"
+            "value": "isConstructor(String.prototype.concat) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 898,
             "end": 948,
-            "value": "`new String.prototype.concat()` throws TypeError",
-            "raw": "'`new String.prototype.concat()` throws TypeError'"
+            "value": "`new String.prototype.concat()` throws TypeError"
           }
         ],
         "optional": false

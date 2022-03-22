@@ -94,8 +94,7 @@
                   "type": "Literal",
                   "start": 678,
                   "end": 686,
-                  "value": "buffer",
-                  "raw": "'buffer'"
+                  "value": "buffer"
                 }
               ],
               "optional": false

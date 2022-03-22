@@ -135,8 +135,7 @@
             "type": "Literal",
             "start": 844,
             "end": 935,
-            "value": "isConstructor(Object.getPrototypeOf((function* g() {}).prototype).next) must return false",
-            "raw": "'isConstructor(Object.getPrototypeOf((function* g() {}).prototype).next) must return false'"
+            "value": "isConstructor(Object.getPrototypeOf((function* g() {}).prototype).next) must return false"
           }
         ],
         "optional": false
@@ -280,8 +279,7 @@
             "type": "Literal",
             "start": 1036,
             "end": 1113,
-            "value": "`function* g() {} let iterator = g(); new iterator.next()` throws TypeError",
-            "raw": "'`function* g() {} let iterator = g(); new iterator.next()` throws TypeError'"
+            "value": "`function* g() {} let iterator = g(); new iterator.next()` throws TypeError"
           }
         ],
         "optional": false

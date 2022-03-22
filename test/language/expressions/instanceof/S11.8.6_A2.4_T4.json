@@ -92,8 +92,7 @@
                   "type": "Literal",
                   "start": 397,
                   "end": 451,
-                  "value": "#1: (OBJECT = Object, {}) instanceof OBJECT !== true",
-                  "raw": "'#1: (OBJECT = Object, {}) instanceof OBJECT !== true'"
+                  "value": "#1: (OBJECT = Object, {}) instanceof OBJECT !== true"
                 }
               ]
             }

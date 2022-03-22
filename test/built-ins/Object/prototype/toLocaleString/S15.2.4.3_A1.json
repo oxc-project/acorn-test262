@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 397,
             "end": 407,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 411,
             "end": 495,
-            "value": "The value of `typeof Object.prototype.toLocaleString` is expected to be \"function\"",
-            "raw": "'The value of `typeof Object.prototype.toLocaleString` is expected to be \"function\"'"
+            "value": "The value of `typeof Object.prototype.toLocaleString` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -198,8 +196,7 @@
             "type": "Literal",
             "start": 588,
             "end": 690,
-            "value": "Object.prototype.toLocaleString() must return the same value returned by Object.prototype.toString()",
-            "raw": "'Object.prototype.toLocaleString() must return the same value returned by Object.prototype.toString()'"
+            "value": "Object.prototype.toLocaleString() must return the same value returned by Object.prototype.toString()"
           }
         ],
         "optional": false
@@ -289,8 +286,7 @@
             "type": "Literal",
             "start": 755,
             "end": 833,
-            "value": "({}).toLocaleString() must return the same value returned by ({}).toString()",
-            "raw": "'({}).toLocaleString() must return the same value returned by ({}).toString()'"
+            "value": "({}).toLocaleString() must return the same value returned by ({}).toString()"
           }
         ],
         "optional": false

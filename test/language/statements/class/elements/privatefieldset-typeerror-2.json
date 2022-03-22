@@ -20,13 +20,12 @@
         "end": 1422,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1199,
-            "end": 1207,
-            "static": false,
+            "end": 1206,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1199,
               "end": 1201,
               "name": "x"
@@ -35,8 +34,7 @@
               "type": "Literal",
               "start": 1204,
               "end": 1206,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           },
           {
@@ -126,21 +124,20 @@
                                           "start": 1390,
                                           "end": 1394
                                         },
+                                        "computed": false,
+                                        "optional": false,
                                         "property": {
-                                          "type": "PrivateIdentifier",
+                                          "type": "PrivateName",
                                           "start": 1395,
                                           "end": 1397,
                                           "name": "x"
-                                        },
-                                        "computed": false,
-                                        "optional": false
+                                        }
                                       },
                                       "right": {
                                         "type": "Literal",
                                         "start": 1400,
                                         "end": 1401,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       }
                                     }
                                   }

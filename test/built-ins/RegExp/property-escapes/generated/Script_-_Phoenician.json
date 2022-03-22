@@ -56,8 +56,7 @@
                           "type": "Literal",
                           "start": 514,
                           "end": 522,
-                          "value": 67871,
-                          "raw": "0x01091F"
+                          "value": 67871
                         }
                       ]
                     },
@@ -90,15 +89,13 @@
                               "type": "Literal",
                               "start": 545,
                               "end": 553,
-                              "value": 67840,
-                              "raw": "0x010900"
+                              "value": 67840
                             },
                             {
                               "type": "Literal",
                               "start": 555,
                               "end": 563,
-                              "value": 67867,
-                              "raw": "0x01091B"
+                              "value": 67867
                             }
                           ]
                         }
@@ -135,7 +132,6 @@
             "start": 596,
             "end": 623,
             "value": {},
-            "raw": "/^\\p{Script=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Phoenician}+$",
               "flags": "u"
@@ -151,8 +147,7 @@
             "type": "Literal",
             "start": 643,
             "end": 667,
-            "value": "\\p{Script=Phoenician}",
-            "raw": "\"\\\\p{Script=Phoenician}\""
+            "value": "\\p{Script=Phoenician}"
           }
         ],
         "optional": false
@@ -178,7 +173,6 @@
             "start": 694,
             "end": 715,
             "value": {},
-            "raw": "/^\\p{Script=Phnx}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Phnx}+$",
               "flags": "u"
@@ -194,8 +188,7 @@
             "type": "Literal",
             "start": 735,
             "end": 753,
-            "value": "\\p{Script=Phnx}",
-            "raw": "\"\\\\p{Script=Phnx}\""
+            "value": "\\p{Script=Phnx}"
           }
         ],
         "optional": false
@@ -221,7 +214,6 @@
             "start": 780,
             "end": 803,
             "value": {},
-            "raw": "/^\\p{sc=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Phoenician}+$",
               "flags": "u"
@@ -237,8 +229,7 @@
             "type": "Literal",
             "start": 823,
             "end": 843,
-            "value": "\\p{sc=Phoenician}",
-            "raw": "\"\\\\p{sc=Phoenician}\""
+            "value": "\\p{sc=Phoenician}"
           }
         ],
         "optional": false
@@ -264,7 +255,6 @@
             "start": 870,
             "end": 887,
             "value": {},
-            "raw": "/^\\p{sc=Phnx}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Phnx}+$",
               "flags": "u"
@@ -280,8 +270,7 @@
             "type": "Literal",
             "start": 907,
             "end": 921,
-            "value": "\\p{sc=Phnx}",
-            "raw": "\"\\\\p{sc=Phnx}\""
+            "value": "\\p{sc=Phnx}"
           }
         ],
         "optional": false
@@ -366,15 +355,13 @@
                               "type": "Literal",
                               "start": 1003,
                               "end": 1011,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1013,
                               "end": 1021,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -387,15 +374,13 @@
                               "type": "Literal",
                               "start": 1029,
                               "end": 1037,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1039,
                               "end": 1047,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -408,15 +393,13 @@
                               "type": "Literal",
                               "start": 1055,
                               "end": 1063,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1065,
                               "end": 1073,
-                              "value": 67839,
-                              "raw": "0x0108FF"
+                              "value": 67839
                             }
                           ]
                         },
@@ -429,15 +412,13 @@
                               "type": "Literal",
                               "start": 1081,
                               "end": 1089,
-                              "value": 67868,
-                              "raw": "0x01091C"
+                              "value": 67868
                             },
                             {
                               "type": "Literal",
                               "start": 1091,
                               "end": 1099,
-                              "value": 67870,
-                              "raw": "0x01091E"
+                              "value": 67870
                             }
                           ]
                         },
@@ -450,15 +431,13 @@
                               "type": "Literal",
                               "start": 1107,
                               "end": 1115,
-                              "value": 67872,
-                              "raw": "0x010920"
+                              "value": 67872
                             },
                             {
                               "type": "Literal",
                               "start": 1117,
                               "end": 1125,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -495,7 +474,6 @@
             "start": 1158,
             "end": 1185,
             "value": {},
-            "raw": "/^\\P{Script=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Phoenician}+$",
               "flags": "u"
@@ -511,8 +489,7 @@
             "type": "Literal",
             "start": 1208,
             "end": 1232,
-            "value": "\\P{Script=Phoenician}",
-            "raw": "\"\\\\P{Script=Phoenician}\""
+            "value": "\\P{Script=Phoenician}"
           }
         ],
         "optional": false
@@ -538,7 +515,6 @@
             "start": 1259,
             "end": 1280,
             "value": {},
-            "raw": "/^\\P{Script=Phnx}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Phnx}+$",
               "flags": "u"
@@ -554,8 +530,7 @@
             "type": "Literal",
             "start": 1303,
             "end": 1321,
-            "value": "\\P{Script=Phnx}",
-            "raw": "\"\\\\P{Script=Phnx}\""
+            "value": "\\P{Script=Phnx}"
           }
         ],
         "optional": false
@@ -581,7 +556,6 @@
             "start": 1348,
             "end": 1371,
             "value": {},
-            "raw": "/^\\P{sc=Phoenician}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Phoenician}+$",
               "flags": "u"
@@ -597,8 +571,7 @@
             "type": "Literal",
             "start": 1394,
             "end": 1414,
-            "value": "\\P{sc=Phoenician}",
-            "raw": "\"\\\\P{sc=Phoenician}\""
+            "value": "\\P{sc=Phoenician}"
           }
         ],
         "optional": false
@@ -624,7 +597,6 @@
             "start": 1441,
             "end": 1458,
             "value": {},
-            "raw": "/^\\P{sc=Phnx}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Phnx}+$",
               "flags": "u"
@@ -640,8 +612,7 @@
             "type": "Literal",
             "start": 1481,
             "end": 1495,
-            "value": "\\P{sc=Phnx}",
-            "raw": "\"\\\\P{sc=Phnx}\""
+            "value": "\\P{sc=Phnx}"
           }
         ],
         "optional": false

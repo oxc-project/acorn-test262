@@ -31,7 +31,6 @@
                 "start": 923,
                 "end": 935,
                 "value": {},
-                "raw": "/^|\\udf06/ug",
                 "regex": {
                   "pattern": "^|\\udf06",
                   "flags": "ug"
@@ -64,15 +63,13 @@
                 "type": "Literal",
                 "start": 952,
                 "end": 966,
-                "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "value": "𝌆"
               },
               {
                 "type": "Literal",
                 "start": 968,
                 "end": 973,
-                "value": "XXX",
-                "raw": "'XXX'"
+                "value": "XXX"
               }
             ],
             "optional": false
@@ -119,8 +116,7 @@
             "type": "Literal",
             "start": 998,
             "end": 1015,
-            "value": "XXX𝌆",
-            "raw": "'XXX\\ud834\\udf06'"
+            "value": "XXX𝌆"
           }
         ],
         "optional": false

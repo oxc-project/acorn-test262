@@ -38,36 +38,31 @@
                     "type": "Literal",
                     "start": 469,
                     "end": 470,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 472,
                     "end": 473,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 475,
                     "end": 476,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   },
                   {
                     "type": "Literal",
                     "start": 478,
                     "end": 479,
-                    "value": 4,
-                    "raw": "4"
+                    "value": 4
                   },
                   {
                     "type": "Literal",
                     "start": 481,
                     "end": 482,
-                    "value": 5,
-                    "raw": "5"
+                    "value": 5
                   }
                 ]
               }
@@ -137,36 +132,31 @@
                       "type": "Literal",
                       "start": 531,
                       "end": 532,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     {
                       "type": "Literal",
                       "start": 534,
                       "end": 535,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 537,
                       "end": 538,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     },
                     {
                       "type": "Literal",
                       "start": 540,
                       "end": 541,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     },
                     {
                       "type": "Literal",
                       "start": 543,
                       "end": 544,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     }
                   ]
                 }
@@ -282,8 +272,7 @@
                               "type": "Literal",
                               "start": 648,
                               "end": 682,
-                              "value": "Expected a Test262Error, but a \"",
-                              "raw": "'Expected a Test262Error, but a \"'"
+                              "value": "Expected a Test262Error, but a \""
                             },
                             "operator": "+",
                             "right": {
@@ -324,8 +313,7 @@
                             "type": "Literal",
                             "start": 714,
                             "end": 729,
-                            "value": "\" was thrown.",
-                            "raw": "'\" was thrown.'"
+                            "value": "\" was thrown."
                           }
                         }
                       ]
@@ -387,8 +375,7 @@
                   "type": "Literal",
                   "start": 785,
                   "end": 836,
-                  "value": "Expected a Test262Error, but no error was thrown.",
-                  "raw": "'Expected a Test262Error, but no error was thrown.'"
+                  "value": "Expected a Test262Error, but no error was thrown."
                 }
               ]
             }

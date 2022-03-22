@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 404,
                 "end": 405,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               }
             ]
           }
@@ -61,8 +60,7 @@
             "type": "Literal",
             "start": 419,
             "end": 421,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         }
       ],
@@ -134,8 +132,7 @@
                             "type": "Literal",
                             "start": 472,
                             "end": 480,
-                            "value": "start-",
-                            "raw": "\"start-\""
+                            "value": "start-"
                           }
                         }
                       },
@@ -147,8 +144,7 @@
                           "type": "Literal",
                           "start": 493,
                           "end": 494,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -228,8 +224,7 @@
                             "type": "Literal",
                             "start": 550,
                             "end": 555,
-                            "value": "end",
-                            "raw": "\"end\""
+                            "value": "end"
                           }
                         }
                       },
@@ -241,8 +236,7 @@
                           "type": "Literal",
                           "start": 568,
                           "end": 569,
-                          "value": 8,
-                          "raw": "8"
+                          "value": 8
                         }
                       }
                     ]
@@ -338,8 +332,7 @@
             "type": "Literal",
             "start": 632,
             "end": 643,
-            "value": "start-end",
-            "raw": "\"start-end\""
+            "value": "start-end"
           }
         ],
         "optional": false

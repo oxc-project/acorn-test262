@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 774,
             "end": 824,
-            "value": "isConstructor(TypedArray.from) must return false",
-            "raw": "'isConstructor(TypedArray.from) must return false'"
+            "value": "isConstructor(TypedArray.from) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 891,
             "end": 935,
-            "value": "`new TypedArray.from([])` throws TypeError",
-            "raw": "'`new TypedArray.from([])` throws TypeError'"
+            "value": "`new TypedArray.from([])` throws TypeError"
           }
         ],
         "optional": false

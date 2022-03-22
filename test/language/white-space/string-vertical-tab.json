@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 283,
               "end": 311,
-              "value": "'\u000bstr\u000bing\u000b'",
-              "raw": "\"'\\u000Bstr\\u000Bing\\u000B'\""
+              "value": "'\u000bstr\u000bing\u000b'"
             }
           ],
           "optional": false
@@ -37,8 +36,7 @@
           "type": "Literal",
           "start": 317,
           "end": 343,
-          "value": "\u000bstr\u000bing\u000b",
-          "raw": "\"\\u000Bstr\\u000Bing\\u000B\""
+          "value": "\u000bstr\u000bing\u000b"
         }
       },
       "consequent": {
@@ -65,8 +63,7 @@
                   "type": "Literal",
                   "start": 372,
                   "end": 451,
-                  "value": "#1: eval(\"'\\u000Bstr\\u000Bing\\u000B'\") === \"\\u000Bstr\\u000Bing\\u000B\"",
-                  "raw": "'#1: eval(\"\\'\\\\u000Bstr\\\\u000Bing\\\\u000B\\'\") === \"\\\\u000Bstr\\\\u000Bing\\\\u000B\"'"
+                  "value": "#1: eval(\"'\\u000Bstr\\u000Bing\\u000B'\") === \"\\u000Bstr\\u000Bing\\u000B\""
                 }
               ]
             }
@@ -98,8 +95,7 @@
               "type": "Literal",
               "start": 476,
               "end": 492,
-              "value": "'\u000bstr\u000bing\u000b'",
-              "raw": "\"'\\vstr\\ving\\v'\""
+              "value": "'\u000bstr\u000bing\u000b'"
             }
           ],
           "optional": false
@@ -109,8 +105,7 @@
           "type": "Literal",
           "start": 498,
           "end": 512,
-          "value": "\u000bstr\u000bing\u000b",
-          "raw": "\"\\vstr\\ving\\v\""
+          "value": "\u000bstr\u000bing\u000b"
         }
       },
       "consequent": {
@@ -137,8 +132,7 @@
                   "type": "Literal",
                   "start": 541,
                   "end": 596,
-                  "value": "#2: eval(\"'\\vstr\\ving\\v'\") === \"\\vstr\\ving\\v\"",
-                  "raw": "'#2: eval(\"\\'\\\\vstr\\\\ving\\\\v\\'\") === \"\\\\vstr\\\\ving\\\\v\"'"
+                  "value": "#2: eval(\"'\\vstr\\ving\\v'\") === \"\\vstr\\ving\\v\""
                 }
               ]
             }

@@ -75,8 +75,7 @@
                             "type": "Literal",
                             "start": 653,
                             "end": 654,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -162,8 +161,7 @@
                             "type": "Literal",
                             "start": 712,
                             "end": 714,
-                            "value": "",
-                            "raw": "''"
+                            "value": ""
                           }
                         ]
                       }
@@ -434,8 +432,7 @@
                                 "type": "Literal",
                                 "start": 903,
                                 "end": 906,
-                                "value": "a",
-                                "raw": "'a'"
+                                "value": "a"
                               }
                             ],
                             "optional": false
@@ -615,15 +612,13 @@
                                 "type": "Literal",
                                 "start": 1038,
                                 "end": 1041,
-                                "value": "a",
-                                "raw": "'a'"
+                                "value": "a"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1043,
                                 "end": 1044,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             ]
                           },
@@ -631,8 +626,7 @@
                             "type": "Literal",
                             "start": 1051,
                             "end": 1052,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }

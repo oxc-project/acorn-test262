@@ -76,8 +76,7 @@
               "type": "Literal",
               "start": 568,
               "end": 585,
-              "value": "resolvedOptions",
-              "raw": "'resolvedOptions'"
+              "value": "resolvedOptions"
             },
             "computed": true,
             "optional": false
@@ -131,8 +130,7 @@
             "type": "Literal",
             "start": 616,
             "end": 626,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false

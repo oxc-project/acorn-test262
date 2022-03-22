@@ -57,8 +57,7 @@
                     "type": "Literal",
                     "start": 837,
                     "end": 838,
-                    "value": 8,
-                    "raw": "8"
+                    "value": 8
                   }
                 ]
               },
@@ -159,8 +158,7 @@
             "type": "Literal",
             "start": 921,
             "end": 963,
-            "value": "NewTarget is built-in Object constructor",
-            "raw": "\"NewTarget is built-in Object constructor\""
+            "value": "NewTarget is built-in Object constructor"
           }
         ],
         "optional": false
@@ -267,8 +265,7 @@
             "type": "Literal",
             "start": 1042,
             "end": 1053,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",
@@ -391,8 +388,7 @@
                     "type": "Literal",
                     "start": 1169,
                     "end": 1171,
-                    "value": 16,
-                    "raw": "16"
+                    "value": 16
                   }
                 ]
               },
@@ -493,8 +489,7 @@
             "type": "Literal",
             "start": 1256,
             "end": 1298,
-            "value": "NewTarget is BoundFunction with accessor",
-            "raw": "\"NewTarget is BoundFunction with accessor\""
+            "value": "NewTarget is BoundFunction with accessor"
           }
         ],
         "optional": false

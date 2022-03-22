@@ -31,7 +31,6 @@
                 "start": 464,
                 "end": 478,
                 "value": {},
-                "raw": "/\\b(\\w+) \\2\\b/",
                 "regex": {
                   "pattern": "\\b(\\w+) \\2\\b",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 484,
                 "end": 512,
-                "value": "do you listen the the band",
-                "raw": "\"do you listen the the band\""
+                "value": "do you listen the the band"
               }
             ],
             "optional": false

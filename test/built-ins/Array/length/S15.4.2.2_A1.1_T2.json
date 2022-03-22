@@ -108,8 +108,7 @@
                 "type": "Literal",
                 "start": 507,
                 "end": 508,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -175,15 +174,13 @@
             "type": "Literal",
             "start": 542,
             "end": 558,
-            "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "value": "[object Array]"
           },
           {
             "type": "Literal",
             "start": 560,
             "end": 603,
-            "value": "x.toString() must return \"[object Array]\"",
-            "raw": "'x.toString() must return \"[object Array]\"'"
+            "value": "x.toString() must return \"[object Array]\""
           }
         ],
         "optional": false

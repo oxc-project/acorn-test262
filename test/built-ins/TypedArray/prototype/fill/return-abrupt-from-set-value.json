@@ -74,8 +74,7 @@
                                 "type": "Literal",
                                 "start": 2122,
                                 "end": 2124,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               }
                             ]
                           }

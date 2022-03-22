@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 374,
-                "value": "getSeconds",
-                "raw": "\"getSeconds\""
+                "value": "getSeconds"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 387,
             "end": 449,
-            "value": "Date.prototype.hasOwnProperty(\"getSeconds\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getSeconds\") must return true'"
+            "value": "Date.prototype.hasOwnProperty(\"getSeconds\") must return true"
           }
         ],
         "optional": false

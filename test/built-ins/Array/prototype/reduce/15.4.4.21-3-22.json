@@ -195,15 +195,13 @@
                   "type": "Literal",
                   "start": 534,
                   "end": 535,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 537,
                   "end": 539,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -218,15 +216,13 @@
                   "type": "Literal",
                   "start": 543,
                   "end": 544,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Literal",
                   "start": 546,
                   "end": 548,
-                  "value": 12,
-                  "raw": "12"
+                  "value": 12
                 },
                 "kind": "init"
               },
@@ -510,8 +506,7 @@
                         "type": "Literal",
                         "start": 816,
                         "end": 817,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -569,8 +564,7 @@
             "type": "Literal",
             "start": 858,
             "end": 868,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false
@@ -601,8 +595,7 @@
             "type": "Literal",
             "start": 896,
             "end": 923,
-            "value": "toStringAccessed !== true",
-            "raw": "'toStringAccessed !== true'"
+            "value": "toStringAccessed !== true"
           }
         ],
         "optional": false
@@ -633,8 +626,7 @@
             "type": "Literal",
             "start": 950,
             "end": 976,
-            "value": "valueOfAccessed !== true",
-            "raw": "'valueOfAccessed !== true'"
+            "value": "valueOfAccessed !== true"
           }
         ],
         "optional": false

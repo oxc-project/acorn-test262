@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 506,
             "end": 526,
-            "value": "decodeURIComponent",
-            "raw": "\"decodeURIComponent\""
+            "value": "decodeURIComponent"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 550,
             "end": 570,
-            "value": "decodeURIComponent",
-            "raw": "\"decodeURIComponent\""
+            "value": "decodeURIComponent"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 598,
             "end": 618,
-            "value": "decodeURIComponent",
-            "raw": "\"decodeURIComponent\""
+            "value": "decodeURIComponent"
           }
         ],
         "optional": false

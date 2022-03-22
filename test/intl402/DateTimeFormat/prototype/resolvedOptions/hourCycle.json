@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 465,
                 "end": 470,
-                "value": "h11",
-                "raw": "'h11'"
+                "value": "h11"
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 477,
-                "value": "h12",
-                "raw": "'h12'"
+                "value": "h12"
               },
               {
                 "type": "Literal",
                 "start": 479,
                 "end": 484,
-                "value": "h23",
-                "raw": "'h23'"
+                "value": "h23"
               },
               {
                 "type": "Literal",
                 "start": 486,
                 "end": 491,
-                "value": "h24",
-                "raw": "'h24'"
+                "value": "h24"
               }
             ]
           }
@@ -81,15 +77,13 @@
                 "type": "Literal",
                 "start": 516,
                 "end": 521,
-                "value": "h11",
-                "raw": "'h11'"
+                "value": "h11"
               },
               {
                 "type": "Literal",
                 "start": 523,
                 "end": 528,
-                "value": "h12",
-                "raw": "'h12'"
+                "value": "h12"
               }
             ]
           }
@@ -329,8 +323,7 @@
                                 "type": "Literal",
                                 "start": 734,
                                 "end": 743,
-                                "value": "numeric",
-                                "raw": "'numeric'"
+                                "value": "numeric"
                               },
                               "kind": "init"
                             }
@@ -520,8 +513,7 @@
                   "type": "Literal",
                   "start": 936,
                   "end": 947,
-                  "value": "hourCycle",
-                  "raw": "'hourCycle'"
+                  "value": "hourCycle"
                 },
                 {
                   "type": "Identifier",
@@ -558,8 +550,7 @@
                   "type": "Literal",
                   "start": 1002,
                   "end": 1010,
-                  "value": "hour12",
-                  "raw": "'hour12'"
+                  "value": "hour12"
                 },
                 {
                   "type": "Identifier",
@@ -697,8 +688,7 @@
                                 "type": "Literal",
                                 "start": 1177,
                                 "end": 1186,
-                                "value": "numeric",
-                                "raw": "'numeric'"
+                                "value": "numeric"
                               },
                               "kind": "init"
                             },
@@ -909,8 +899,7 @@
                   "type": "Literal",
                   "start": 1403,
                   "end": 1414,
-                  "value": "hourCycle",
-                  "raw": "'hourCycle'"
+                  "value": "hourCycle"
                 },
                 {
                   "type": "Identifier",
@@ -947,8 +936,7 @@
                   "type": "Literal",
                   "start": 1469,
                   "end": 1477,
-                  "value": "hour12",
-                  "raw": "'hour12'"
+                  "value": "hour12"
                 },
                 {
                   "type": "Identifier",
@@ -1050,8 +1038,7 @@
                           "type": "Literal",
                           "start": 1652,
                           "end": 1661,
-                          "value": "numeric",
-                          "raw": "'numeric'"
+                          "value": "numeric"
                         },
                         "kind": "init"
                       },
@@ -1072,8 +1059,7 @@
                           "type": "Literal",
                           "start": 1676,
                           "end": 1681,
-                          "value": "h23",
-                          "raw": "'h23'"
+                          "value": "h23"
                         },
                         "kind": "init"
                       }
@@ -1148,8 +1134,7 @@
             "type": "Literal",
             "start": 1749,
             "end": 1754,
-            "value": "h23",
-            "raw": "'h23'"
+            "value": "h23"
           }
         ],
         "optional": false
@@ -1238,8 +1223,7 @@
             "type": "Literal",
             "start": 1839,
             "end": 1850,
-            "value": "hourCycle",
-            "raw": "'hourCycle'"
+            "value": "hourCycle"
           },
           {
             "type": "Identifier",
@@ -1276,8 +1260,7 @@
             "type": "Literal",
             "start": 1903,
             "end": 1911,
-            "value": "hour12",
-            "raw": "'hour12'"
+            "value": "hour12"
           },
           {
             "type": "Identifier",
@@ -1376,8 +1359,7 @@
                         "type": "Literal",
                         "start": 2057,
                         "end": 2066,
-                        "value": "numeric",
-                        "raw": "'numeric'"
+                        "value": "numeric"
                       },
                       "kind": "init"
                     },
@@ -1420,8 +1402,7 @@
                         "type": "Literal",
                         "start": 2097,
                         "end": 2102,
-                        "value": "h23",
-                        "raw": "'h23'"
+                        "value": "h23"
                       },
                       "kind": "init"
                     }
@@ -1591,8 +1572,7 @@
             "type": "Literal",
             "start": 2265,
             "end": 2276,
-            "value": "hourCycle",
-            "raw": "'hourCycle'"
+            "value": "hourCycle"
           },
           {
             "type": "Identifier",
@@ -1629,8 +1609,7 @@
             "type": "Literal",
             "start": 2329,
             "end": 2337,
-            "value": "hour12",
-            "raw": "'hour12'"
+            "value": "hour12"
           },
           {
             "type": "Identifier",
@@ -1729,8 +1708,7 @@
                         "type": "Literal",
                         "start": 2496,
                         "end": 2505,
-                        "value": "numeric",
-                        "raw": "'numeric'"
+                        "value": "numeric"
                       },
                       "kind": "init"
                     },
@@ -1922,8 +1900,7 @@
             "type": "Literal",
             "start": 2685,
             "end": 2696,
-            "value": "hourCycle",
-            "raw": "'hourCycle'"
+            "value": "hourCycle"
           },
           {
             "type": "Identifier",
@@ -1960,8 +1937,7 @@
             "type": "Literal",
             "start": 2749,
             "end": 2757,
-            "value": "hour12",
-            "raw": "'hour12'"
+            "value": "hour12"
           },
           {
             "type": "Identifier",
@@ -2024,8 +2000,7 @@
                   "type": "Literal",
                   "start": 2903,
                   "end": 2907,
-                  "value": "fr",
-                  "raw": "\"fr\""
+                  "value": "fr"
                 },
                 {
                   "type": "ObjectExpression",
@@ -2049,8 +2024,7 @@
                         "type": "Literal",
                         "start": 2924,
                         "end": 2929,
-                        "value": "h12",
-                        "raw": "\"h12\""
+                        "value": "h12"
                       },
                       "kind": "init"
                     },
@@ -2151,8 +2125,7 @@
             "type": "Literal",
             "start": 3038,
             "end": 3092,
-            "value": "Precondition: hour should not be included by default",
-            "raw": "\"Precondition: hour should not be included by default\""
+            "value": "Precondition: hour should not be included by default"
           }
         ],
         "optional": false

@@ -90,8 +90,7 @@
                     "type": "Literal",
                     "start": 1141,
                     "end": 1149,
-                    "value": "caller",
-                    "raw": "\"caller\""
+                    "value": "caller"
                   }
                 ],
                 "optional": false
@@ -145,8 +144,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1232,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -254,8 +252,7 @@
                                     "type": "Literal",
                                     "start": 1631,
                                     "end": 1639,
-                                    "value": "caller",
-                                    "raw": "\"caller\""
+                                    "value": "caller"
                                   }
                                 ],
                                 "optional": false
@@ -355,8 +352,7 @@
                                       "type": "Literal",
                                       "start": 1734,
                                       "end": 1742,
-                                      "value": "caller",
-                                      "raw": "\"caller\""
+                                      "value": "caller"
                                     },
                                     {
                                       "type": "ObjectExpression",
@@ -399,8 +395,7 @@
                                                     "type": "Literal",
                                                     "start": 1758,
                                                     "end": 1759,
-                                                    "value": 1,
-                                                    "raw": "1"
+                                                    "value": 1
                                                   }
                                                 }
                                               ]
@@ -540,15 +535,13 @@
                                       "type": "Literal",
                                       "start": 1884,
                                       "end": 1885,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 1887,
                                       "end": 2029,
-                                      "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
-                                      "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
+                                      "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
                                     }
                                   ],
                                   "optional": false
@@ -802,15 +795,13 @@
                             "type": "Literal",
                             "start": 2642,
                             "end": 2643,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2645,
                             "end": 2670,
-                            "value": "function body evaluated",
-                            "raw": "'function body evaluated'"
+                            "value": "function body evaluated"
                           }
                         ],
                         "optional": false

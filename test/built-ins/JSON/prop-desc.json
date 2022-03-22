@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 830,
             "end": 838,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           }
         ],
         "optional": false
@@ -128,8 +127,7 @@
             "type": "Literal",
             "start": 893,
             "end": 906,
-            "value": "no [[Call]]",
-            "raw": "\"no [[Call]]\""
+            "value": "no [[Call]]"
           }
         ],
         "optional": false
@@ -207,8 +205,7 @@
             "type": "Literal",
             "start": 965,
             "end": 983,
-            "value": "no [[Construct]]",
-            "raw": "\"no [[Construct]]\""
+            "value": "no [[Construct]]"
           }
         ],
         "optional": false
@@ -238,8 +235,7 @@
             "type": "Literal",
             "start": 1008,
             "end": 1014,
-            "value": "JSON",
-            "raw": "\"JSON\""
+            "value": "JSON"
           },
           {
             "type": "ObjectExpression",

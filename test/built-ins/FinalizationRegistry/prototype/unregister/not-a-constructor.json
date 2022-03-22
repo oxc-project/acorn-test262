@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 824,
             "end": 900,
-            "value": "isConstructor(FinalizationRegistry.prototype.unregister) must return false",
-            "raw": "'isConstructor(FinalizationRegistry.prototype.unregister) must return false'"
+            "value": "isConstructor(FinalizationRegistry.prototype.unregister) must return false"
           }
         ],
         "optional": false
@@ -298,8 +297,7 @@
             "type": "Literal",
             "start": 1050,
             "end": 1176,
-            "value": "`let fr = new FinalizationRegistry(() => {}); let token = {}; fr.register(token); new fr.unregister(token)` throws TypeError",
-            "raw": "'`let fr = new FinalizationRegistry(() => {}); let token = {}; fr.register(token); new fr.unregister(token)` throws TypeError'"
+            "value": "`let fr = new FinalizationRegistry(() => {}); let token = {}; fr.register(token); new fr.unregister(token)` throws TypeError"
           }
         ],
         "optional": false

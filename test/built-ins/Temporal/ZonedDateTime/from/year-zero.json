@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 273,
             "end": 319,
-            "value": "-0000000-01-01T00:02:00.000000000+00:00[UTC]",
-            "raw": "\"-0000000-01-01T00:02:00.000000000+00:00[UTC]\""
+            "value": "-0000000-01-01T00:02:00.000000000+00:00[UTC]"
           }
         }
       ],
@@ -135,8 +134,7 @@
             "type": "Literal",
             "start": 393,
             "end": 429,
-            "value": "reject minus zero as extended year",
-            "raw": "\"reject minus zero as extended year\""
+            "value": "reject minus zero as extended year"
           }
         ],
         "optional": false

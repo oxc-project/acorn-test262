@@ -136,22 +136,19 @@
                         "type": "Literal",
                         "start": 2686,
                         "end": 2687,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 2689,
                         "end": 2690,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 2692,
                         "end": 2693,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       }
                     ]
                   }

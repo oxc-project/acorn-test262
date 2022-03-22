@@ -41,8 +41,7 @@
                   "type": "Literal",
                   "start": 347,
                   "end": 397,
-                  "value": "The overriden version of Object.keys was called!",
-                  "raw": "'The overriden version of Object.keys was called!'"
+                  "value": "The overriden version of Object.keys was called!"
                 }
               ]
             }
@@ -143,8 +142,7 @@
             "type": "Literal",
             "start": 480,
             "end": 542,
-            "value": "Sanity check failed: could not modify the global Object.keys",
-            "raw": "'Sanity check failed: could not modify the global Object.keys'"
+            "value": "Sanity check failed: could not modify the global Object.keys"
           }
         ],
         "optional": false
@@ -228,8 +226,7 @@
                         "type": "Literal",
                         "start": 583,
                         "end": 584,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "kind": "init"
                     }
@@ -251,15 +248,13 @@
             "type": "Literal",
             "start": 596,
             "end": 597,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 599,
             "end": 643,
-            "value": "Expected object with 1 key to have 1 value",
-            "raw": "'Expected object with 1 key to have 1 value'"
+            "value": "Expected object with 1 key to have 1 value"
           }
         ],
         "optional": false

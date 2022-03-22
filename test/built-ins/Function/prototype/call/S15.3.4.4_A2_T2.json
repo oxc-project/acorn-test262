@@ -92,15 +92,13 @@
             "type": "Literal",
             "start": 334,
             "end": 344,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 405,
-            "value": "The value of `typeof f.call` is expected to be \"function\"",
-            "raw": "'The value of `typeof f.call` is expected to be \"function\"'"
+            "value": "The value of `typeof f.call` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -177,15 +175,13 @@
             "type": "Literal",
             "start": 450,
             "end": 461,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 463,
             "end": 517,
-            "value": "The value of typeof f.call.length is not \"undefined\"",
-            "raw": "'The value of typeof f.call.length is not \"undefined\"'"
+            "value": "The value of typeof f.call.length is not \"undefined\""
           }
         ],
         "optional": false
@@ -255,15 +251,13 @@
             "type": "Literal",
             "start": 552,
             "end": 553,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 603,
-            "value": "The value of f.call.length is expected to be 1",
-            "raw": "'The value of f.call.length is expected to be 1'"
+            "value": "The value of f.call.length is expected to be 1"
           }
         ],
         "optional": false

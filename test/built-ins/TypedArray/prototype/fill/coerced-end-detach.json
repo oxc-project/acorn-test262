@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 675,
                             "end": 677,
-                            "value": 10,
-                            "raw": "10"
+                            "value": 10
                           }
                         ]
                       }
@@ -143,8 +142,7 @@
                           "type": "Literal",
                           "start": 761,
                           "end": 763,
-                          "value": 10,
-                          "raw": "10"
+                          "value": 10
                         }
                       }
                     ]
@@ -230,15 +228,13 @@
                                     "type": "Literal",
                                     "start": 826,
                                     "end": 830,
-                                    "value": 119,
-                                    "raw": "0x77"
+                                    "value": 119
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 832,
                                     "end": 833,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -279,8 +275,7 @@
                         "type": "Literal",
                         "start": 874,
                         "end": 927,
-                        "value": "Detachment when coercing end should throw TypeError",
-                        "raw": "\"Detachment when coercing end should throw TypeError\""
+                        "value": "Detachment when coercing end should throw TypeError"
                       }
                     ],
                     "optional": false

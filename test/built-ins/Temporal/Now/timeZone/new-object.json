@@ -162,8 +162,7 @@
             "type": "Literal",
             "start": 372,
             "end": 434,
-            "value": "The value of tz1 is expected to not equal the value of `tz2`",
-            "raw": "'The value of tz1 is expected to not equal the value of `tz2`'"
+            "value": "The value of tz1 is expected to not equal the value of `tz2`"
           }
         ],
         "optional": false

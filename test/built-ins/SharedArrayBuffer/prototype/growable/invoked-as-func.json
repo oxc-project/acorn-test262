@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 551,
                   "end": 561,
-                  "value": "growable",
-                  "raw": "'growable'"
+                  "value": "growable"
                 }
               ],
               "optional": false
@@ -133,8 +132,7 @@
             "type": "Literal",
             "start": 602,
             "end": 612,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false

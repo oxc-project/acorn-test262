@@ -23,22 +23,19 @@
               "type": "Literal",
               "start": 276,
               "end": 278,
-              "value": "",
-              "raw": "\"\""
+              "value": ""
             },
             "consequent": {
               "type": "Literal",
               "start": 281,
               "end": 283,
-              "value": "",
-              "raw": "\"\""
+              "value": ""
             },
             "alternate": {
               "type": "Literal",
               "start": 286,
               "end": 289,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           }
         },
@@ -47,8 +44,7 @@
           "type": "Literal",
           "start": 295,
           "end": 298,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       },
       "consequent": {
@@ -75,8 +71,7 @@
                   "type": "Literal",
                   "start": 327,
                   "end": 356,
-                  "value": "#1: (\"\" ? \"\" : \"1\") === \"1\"",
-                  "raw": "'#1: (\"\" ? \"\" : \"1\") === \"1\"'"
+                  "value": "#1: (\"\" ? \"\" : \"1\") === \"1\""
                 }
               ]
             }
@@ -115,8 +110,7 @@
                 "type": "Literal",
                 "start": 391,
                 "end": 394,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ]
           }
@@ -144,15 +138,13 @@
               "type": "Literal",
               "start": 402,
               "end": 404,
-              "value": "",
-              "raw": "\"\""
+              "value": ""
             },
             "consequent": {
               "type": "Literal",
               "start": 407,
               "end": 410,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             },
             "alternate": {
               "type": "Identifier",
@@ -194,8 +186,7 @@
                   "type": "Literal",
                   "start": 450,
                   "end": 502,
-                  "value": "#2: (var y = new String(\"1\"); (\"\" ? \"1\" : z) === z",
-                  "raw": "'#2: (var y = new String(\"1\"); (\"\" ? \"1\" : z) === z'"
+                  "value": "#2: (var y = new String(\"1\"); (\"\" ? \"1\" : z) === z"
                 }
               ]
             }

@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 384,
             "end": 394,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 398,
             "end": 447,
-            "value": "`typeof Array.prototype.findLast` is `function`",
-            "raw": "'`typeof Array.prototype.findLast` is `function`'"
+            "value": "`typeof Array.prototype.findLast` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 484,
             "end": 494,
-            "value": "findLast",
-            "raw": "\"findLast\""
+            "value": "findLast"
           },
           {
             "type": "ObjectExpression",

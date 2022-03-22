@@ -76,8 +76,7 @@
                       "type": "Literal",
                       "start": 410,
                       "end": 418,
-                      "value": "callee",
-                      "raw": "\"callee\""
+                      "value": "callee"
                     }
                   },
                   "consequent": {
@@ -176,8 +175,7 @@
                         "type": "Literal",
                         "start": 514,
                         "end": 571,
-                        "value": "#1: A property callee don't have attribute { DontEnum }",
-                        "raw": "\"#1: A property callee don't have attribute { DontEnum }\""
+                        "value": "#1: A property callee don't have attribute { DontEnum }"
                       }
                     ]
                   }
@@ -222,8 +220,7 @@
                     "type": "Literal",
                     "start": 615,
                     "end": 650,
-                    "value": "#1: arguments object don't exists",
-                    "raw": "\"#1: arguments object don't exists\""
+                    "value": "#1: arguments object don't exists"
                   }
                 ]
               }
@@ -316,8 +313,7 @@
                             "type": "Literal",
                             "start": 728,
                             "end": 736,
-                            "value": "callee",
-                            "raw": "\"callee\""
+                            "value": "callee"
                           }
                         },
                         "consequent": {
@@ -420,8 +416,7 @@
                         "type": "Literal",
                         "start": 832,
                         "end": 889,
-                        "value": "#2: A property callee don't have attribute { DontEnum }",
-                        "raw": "\"#2: A property callee don't have attribute { DontEnum }\""
+                        "value": "#2: A property callee don't have attribute { DontEnum }"
                       }
                     ]
                   }
@@ -466,8 +461,7 @@
                     "type": "Literal",
                     "start": 933,
                     "end": 968,
-                    "value": "#2: arguments object don't exists",
-                    "raw": "\"#2: arguments object don't exists\""
+                    "value": "#2: arguments object don't exists"
                   }
                 ]
               }

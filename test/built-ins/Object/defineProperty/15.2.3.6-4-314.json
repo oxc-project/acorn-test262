@@ -56,8 +56,7 @@
                           "type": "Literal",
                           "start": 489,
                           "end": 508,
-                          "value": "getFunctionString",
-                          "raw": "\"getFunctionString\""
+                          "value": "getFunctionString"
                         }
                       }
                     ]
@@ -165,8 +164,7 @@
                         "type": "Literal",
                         "start": 616,
                         "end": 633,
-                        "value": "genericProperty",
-                        "raw": "\"genericProperty\""
+                        "value": "genericProperty"
                       },
                       {
                         "type": "ObjectExpression",
@@ -290,8 +288,7 @@
                         "type": "Literal",
                         "start": 751,
                         "end": 768,
-                        "value": "genericProperty",
-                        "raw": "\"genericProperty\""
+                        "value": "genericProperty"
                       },
                       {
                         "type": "CallExpression",
@@ -335,15 +332,13 @@
                         "type": "Literal",
                         "start": 811,
                         "end": 828,
-                        "value": "genericProperty",
-                        "raw": "\"genericProperty\""
+                        "value": "genericProperty"
                       },
                       {
                         "type": "Literal",
                         "start": 830,
                         "end": 847,
-                        "value": "testgetFunction",
-                        "raw": "\"testgetFunction\""
+                        "value": "testgetFunction"
                       }
                     ],
                     "optional": false
@@ -374,8 +369,7 @@
                         "type": "Literal",
                         "start": 881,
                         "end": 898,
-                        "value": "genericProperty",
-                        "raw": "\"genericProperty\""
+                        "value": "genericProperty"
                       }
                     ],
                     "optional": false
@@ -406,8 +400,7 @@
                         "type": "Literal",
                         "start": 934,
                         "end": 951,
-                        "value": "genericProperty",
-                        "raw": "\"genericProperty\""
+                        "value": "genericProperty"
                       }
                     ],
                     "optional": false
@@ -421,22 +414,19 @@
               "type": "Literal",
               "start": 956,
               "end": 957,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 959,
               "end": 960,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             {
               "type": "Literal",
               "start": 962,
               "end": 963,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             }
           ],
           "optional": false

@@ -112,8 +112,7 @@
             "type": "Literal",
             "start": 389,
             "end": 399,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -161,8 +160,7 @@
                       "type": "Literal",
                       "start": 425,
                       "end": 429,
-                      "value": 2000,
-                      "raw": "2000"
+                      "value": 2000
                     },
                     "kind": "init"
                   },
@@ -183,8 +181,7 @@
                       "type": "Literal",
                       "start": 438,
                       "end": 439,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   },
@@ -205,8 +202,7 @@
                       "type": "Literal",
                       "start": 446,
                       "end": 447,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   }
@@ -305,8 +301,7 @@
             "type": "Literal",
             "start": 523,
             "end": 534,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -400,8 +395,7 @@
             "type": "Literal",
             "start": 602,
             "end": 608,
-            "value": "null",
-            "raw": "\"null\""
+            "value": "null"
           }
         ],
         "optional": false
@@ -495,8 +489,7 @@
             "type": "Literal",
             "start": 676,
             "end": 682,
-            "value": "true",
-            "raw": "\"true\""
+            "value": "true"
           }
         ],
         "optional": false
@@ -573,8 +566,7 @@
                   "type": "Literal",
                   "start": 737,
                   "end": 739,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 },
                 {
                   "type": "Identifier",
@@ -590,8 +582,7 @@
             "type": "Literal",
             "start": 748,
             "end": 762,
-            "value": "empty string",
-            "raw": "\"empty string\""
+            "value": "empty string"
           }
         ],
         "optional": false
@@ -691,8 +682,7 @@
             "type": "Literal",
             "start": 834,
             "end": 842,
-            "value": "symbol",
-            "raw": "\"symbol\""
+            "value": "symbol"
           }
         ],
         "optional": false
@@ -769,8 +759,7 @@
                   "type": "Literal",
                   "start": 897,
                   "end": 898,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Identifier",
@@ -786,8 +775,7 @@
             "type": "Literal",
             "start": 907,
             "end": 910,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           }
         ],
         "optional": false
@@ -880,8 +868,7 @@
             "type": "Literal",
             "start": 976,
             "end": 990,
-            "value": "plain object",
-            "raw": "\"plain object\""
+            "value": "plain object"
           }
         ],
         "optional": false
@@ -987,8 +974,7 @@
             "type": "Literal",
             "start": 1071,
             "end": 1090,
-            "value": "Temporal.Calendar",
-            "raw": "\"Temporal.Calendar\""
+            "value": "Temporal.Calendar"
           }
         ],
         "optional": false
@@ -1107,8 +1093,7 @@
             "type": "Literal",
             "start": 1181,
             "end": 1210,
-            "value": "Temporal.Calendar.prototype",
-            "raw": "\"Temporal.Calendar.prototype\""
+            "value": "Temporal.Calendar.prototype"
           }
         ],
         "optional": false

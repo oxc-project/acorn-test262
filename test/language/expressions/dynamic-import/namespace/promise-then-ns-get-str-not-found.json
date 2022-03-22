@@ -59,8 +59,7 @@
                       "type": "Literal",
                       "start": 3911,
                       "end": 3937,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   },
                   "property": {
@@ -151,8 +150,7 @@
                                 "type": "Literal",
                                 "start": 3996,
                                 "end": 4009,
-                                "value": "key: local2",
-                                "raw": "'key: local2'"
+                                "value": "key: local2"
                               }
                             ],
                             "optional": false
@@ -215,8 +213,7 @@
                                 "type": "Literal",
                                 "start": 4060,
                                 "end": 4078,
-                                "value": "key: toStringTag",
-                                "raw": "'key: toStringTag'"
+                                "value": "key: toStringTag"
                               }
                             ],
                             "optional": false
@@ -279,8 +276,7 @@
                                 "type": "Literal",
                                 "start": 4126,
                                 "end": 4141,
-                                "value": "key: iterator",
-                                "raw": "'key: iterator'"
+                                "value": "key: iterator"
                               }
                             ],
                             "optional": false
@@ -343,8 +339,7 @@
                                 "type": "Literal",
                                 "start": 4190,
                                 "end": 4206,
-                                "value": "key: __proto__",
-                                "raw": "'key: __proto__'"
+                                "value": "key: __proto__"
                               }
                             ],
                             "optional": false

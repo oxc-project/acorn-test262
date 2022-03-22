@@ -112,8 +112,7 @@
             "type": "Literal",
             "start": 423,
             "end": 450,
-            "value": "return default prototypes",
-            "raw": "'return default prototypes'"
+            "value": "return default prototypes"
           }
         ],
         "optional": false

@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 1035,
                 "end": 1043,
-                "value": "dotAll",
-                "raw": "\"dotAll\""
+                "value": "dotAll"
               }
             ],
             "optional": false
@@ -139,8 +138,7 @@
             "type": "Literal",
             "start": 1081,
             "end": 1082,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -184,8 +182,7 @@
             "type": "Literal",
             "start": 1111,
             "end": 1119,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",

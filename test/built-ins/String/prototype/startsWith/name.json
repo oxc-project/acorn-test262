@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 448,
             "end": 460,
-            "value": "startsWith",
-            "raw": "'startsWith'"
+            "value": "startsWith"
           },
           {
             "type": "Literal",
             "start": 464,
             "end": 531,
-            "value": "The value of `String.prototype.startsWith.name` is `\"startsWith\"`",
-            "raw": "'The value of `String.prototype.startsWith.name` is `\"startsWith\"`'"
+            "value": "The value of `String.prototype.startsWith.name` is `\"startsWith\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 585,
             "end": 591,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 641,
             "end": 647,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 698,
             "end": 704,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

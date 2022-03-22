@@ -112,8 +112,7 @@
             "type": "Literal",
             "start": 345,
             "end": 355,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -167,22 +166,19 @@
                     "type": "Literal",
                     "start": 396,
                     "end": 400,
-                    "value": 2000,
-                    "raw": "2000"
+                    "value": 2000
                   },
                   {
                     "type": "Literal",
                     "start": 402,
                     "end": 403,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 405,
                     "end": 406,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               }
@@ -279,8 +275,7 @@
             "type": "Literal",
             "start": 470,
             "end": 481,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -374,8 +369,7 @@
             "type": "Literal",
             "start": 538,
             "end": 544,
-            "value": "null",
-            "raw": "\"null\""
+            "value": "null"
           }
         ],
         "optional": false
@@ -469,8 +463,7 @@
             "type": "Literal",
             "start": 601,
             "end": 607,
-            "value": "true",
-            "raw": "\"true\""
+            "value": "true"
           }
         ],
         "optional": false
@@ -547,8 +540,7 @@
                   "type": "Literal",
                   "start": 651,
                   "end": 653,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 },
                 {
                   "type": "Identifier",
@@ -564,8 +556,7 @@
             "type": "Literal",
             "start": 662,
             "end": 676,
-            "value": "empty string",
-            "raw": "\"empty string\""
+            "value": "empty string"
           }
         ],
         "optional": false
@@ -665,8 +656,7 @@
             "type": "Literal",
             "start": 737,
             "end": 745,
-            "value": "symbol",
-            "raw": "\"symbol\""
+            "value": "symbol"
           }
         ],
         "optional": false
@@ -743,8 +733,7 @@
                   "type": "Literal",
                   "start": 789,
                   "end": 790,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Identifier",
@@ -760,8 +749,7 @@
             "type": "Literal",
             "start": 799,
             "end": 802,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           }
         ],
         "optional": false
@@ -854,8 +842,7 @@
             "type": "Literal",
             "start": 857,
             "end": 871,
-            "value": "plain object",
-            "raw": "\"plain object\""
+            "value": "plain object"
           }
         ],
         "optional": false
@@ -961,8 +948,7 @@
             "type": "Literal",
             "start": 941,
             "end": 960,
-            "value": "Temporal.Calendar",
-            "raw": "\"Temporal.Calendar\""
+            "value": "Temporal.Calendar"
           }
         ],
         "optional": false
@@ -1081,8 +1067,7 @@
             "type": "Literal",
             "start": 1040,
             "end": 1069,
-            "value": "Temporal.Calendar.prototype",
-            "raw": "\"Temporal.Calendar.prototype\""
+            "value": "Temporal.Calendar.prototype"
           }
         ],
         "optional": false

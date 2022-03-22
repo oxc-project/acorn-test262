@@ -30,13 +30,12 @@
               "end": 980,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 894,
-                  "end": 938,
-                  "static": false,
+                  "end": 937,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 894,
                     "end": 896,
                     "name": "m"
@@ -63,8 +62,7 @@
                             "type": "Literal",
                             "start": 925,
                             "end": 934,
-                            "value": "test262",
-                            "raw": "'test262'"
+                            "value": "test262"
                           }
                         }
                       ]
@@ -115,14 +113,14 @@
                                 "start": 964,
                                 "end": 968
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 969,
                                 "end": 971,
                                 "name": "m"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             },
                             "arguments": [],
                             "optional": false
@@ -276,8 +274,7 @@
                       "type": "Literal",
                       "start": 1051,
                       "end": 1060,
-                      "value": "test262",
-                      "raw": "'test262'"
+                      "value": "test262"
                     }
                   ],
                   "optional": false

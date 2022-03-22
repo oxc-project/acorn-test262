@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1729,
             "end": 1730,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -105,22 +104,19 @@
                               "type": "Literal",
                               "start": 1787,
                               "end": 1788,
-                              "value": 4,
-                              "raw": "4"
+                              "value": 4
                             },
                             {
                               "type": "Literal",
                               "start": 1790,
                               "end": 1791,
-                              "value": 5,
-                              "raw": "5"
+                              "value": 5
                             },
                             {
                               "type": "Literal",
                               "start": 1793,
                               "end": 1794,
-                              "value": 6,
-                              "raw": "6"
+                              "value": 6
                             }
                           ]
                         }
@@ -151,22 +147,19 @@
                           "type": "Literal",
                           "start": 1803,
                           "end": 1804,
-                          "value": 7,
-                          "raw": "7"
+                          "value": 7
                         },
                         {
                           "type": "Literal",
                           "start": 1806,
                           "end": 1807,
-                          "value": 8,
-                          "raw": "8"
+                          "value": 8
                         },
                         {
                           "type": "Literal",
                           "start": 1809,
                           "end": 1810,
-                          "value": 9,
-                          "raw": "9"
+                          "value": 9
                         }
                       ]
                     }
@@ -217,8 +210,7 @@
                         "type": "Literal",
                         "start": 1841,
                         "end": 1842,
-                        "value": 7,
-                        "raw": "7"
+                        "value": 7
                       }
                     ],
                     "optional": false
@@ -262,8 +254,7 @@
                         "type": "Literal",
                         "start": 1869,
                         "end": 1870,
-                        "value": 8,
-                        "raw": "8"
+                        "value": 8
                       }
                     ],
                     "optional": false
@@ -307,8 +298,7 @@
                         "type": "Literal",
                         "start": 1897,
                         "end": 1898,
-                        "value": 9,
-                        "raw": "9"
+                        "value": 9
                       }
                     ],
                     "optional": false
@@ -333,8 +323,7 @@
                       "type": "Literal",
                       "start": 1919,
                       "end": 1920,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -450,15 +439,13 @@
                       "type": "Literal",
                       "start": 1983,
                       "end": 1984,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 1986,
                       "end": 2018,
-                      "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "value": "iteration occurred as expected"
                     }
                   ],
                   "optional": false

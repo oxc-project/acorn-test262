@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 387,
-                "value": "ErrorMessage",
-                "raw": "\"ErrorMessage\""
+                "value": "ErrorMessage"
               }
             ]
           }
@@ -74,8 +73,7 @@
           "type": "Literal",
           "start": 404,
           "end": 415,
-          "value": "ErrorName",
-          "raw": "\"ErrorName\""
+          "value": "ErrorName"
         }
       }
     },
@@ -137,15 +135,13 @@
             "type": "Literal",
             "start": 454,
             "end": 479,
-            "value": "ErrorName: ErrorMessage",
-            "raw": "\"ErrorName: ErrorMessage\""
+            "value": "ErrorName: ErrorMessage"
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 500,
-            "value": "errObj.toString()",
-            "raw": "'errObj.toString()'"
+            "value": "errObj.toString()"
           }
         ],
         "optional": false

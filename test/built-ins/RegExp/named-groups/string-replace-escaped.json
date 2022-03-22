@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 627,
             "end": 638,
-            "value": "(?<fst>.)",
-            "raw": "\"(?<fst>.)\""
+            "value": "(?<fst>.)"
           }
         }
       ],
@@ -63,15 +62,13 @@
             "type": "Literal",
             "start": 659,
             "end": 661,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 663,
             "end": 666,
-            "value": "u",
-            "raw": "\"u\""
+            "value": "u"
           }
         ]
       },
@@ -156,8 +153,7 @@
                   "type": "Literal",
                   "start": 728,
                   "end": 738,
-                  "value": "$<fst>bc",
-                  "raw": "\"$<fst>bc\""
+                  "value": "$<fst>bc"
                 },
                 {
                   "type": "CallExpression",
@@ -171,8 +167,7 @@
                       "type": "Literal",
                       "start": 740,
                       "end": 745,
-                      "value": "abc",
-                      "raw": "\"abc\""
+                      "value": "abc"
                     },
                     "property": {
                       "type": "Identifier",
@@ -194,8 +189,7 @@
                       "type": "Literal",
                       "start": 758,
                       "end": 767,
-                      "value": "$$<fst>",
-                      "raw": "\"$$<fst>\""
+                      "value": "$$<fst>"
                     }
                   ],
                   "optional": false

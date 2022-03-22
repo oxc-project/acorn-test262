@@ -91,8 +91,7 @@
             "type": "Literal",
             "start": 429,
             "end": 436,
-            "value": "value",
-            "raw": "\"value\""
+            "value": "value"
           },
           {
             "type": "ObjectExpression",
@@ -134,8 +133,7 @@
                           "type": "Literal",
                           "start": 471,
                           "end": 498,
-                          "value": "inheritedAccessorProperty",
-                          "raw": "\"inheritedAccessorProperty\""
+                          "value": "inheritedAccessorProperty"
                         }
                       }
                     ]
@@ -289,8 +287,7 @@
             "type": "Literal",
             "start": 637,
             "end": 644,
-            "value": "value",
-            "raw": "\"value\""
+            "value": "value"
           },
           {
             "type": "ObjectExpression",
@@ -372,8 +369,7 @@
             "type": "Literal",
             "start": 701,
             "end": 711,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -428,8 +424,7 @@
                 "type": "Literal",
                 "start": 748,
                 "end": 758,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -438,8 +433,7 @@
             "type": "Literal",
             "start": 761,
             "end": 802,
-            "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "value": "obj.hasOwnProperty(\"property\") !== true"
           }
         ],
         "optional": false
@@ -508,15 +502,13 @@
             "type": "Literal",
             "start": 844,
             "end": 855,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 880,
-            "value": "typeof (obj.property)",
-            "raw": "'typeof (obj.property)'"
+            "value": "typeof (obj.property)"
           }
         ],
         "optional": false

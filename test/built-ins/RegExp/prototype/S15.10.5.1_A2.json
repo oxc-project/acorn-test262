@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 351,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ],
             "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 360,
             "end": 415,
-            "value": "RegExp.hasOwnProperty('prototype') must return true",
-            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'"
+            "value": "RegExp.hasOwnProperty('prototype') must return true"
           }
         ],
         "optional": false
@@ -139,8 +137,7 @@
                 "type": "Literal",
                 "start": 467,
                 "end": 478,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ],
             "optional": false
@@ -156,8 +153,7 @@
             "type": "Literal",
             "start": 492,
             "end": 554,
-            "value": "RegExp.propertyIsEnumerable('prototype') must return false",
-            "raw": "'RegExp.propertyIsEnumerable(\\'prototype\\') must return false'"
+            "value": "RegExp.propertyIsEnumerable('prototype') must return false"
           }
         ],
         "optional": false
@@ -182,8 +178,7 @@
             "type": "Literal",
             "start": 569,
             "end": 570,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -243,8 +238,7 @@
                 "type": "Literal",
                 "start": 607,
                 "end": 618,
-                "value": "prototype",
-                "raw": "\"prototype\""
+                "value": "prototype"
               }
             },
             "consequent": {
@@ -315,15 +309,13 @@
             "type": "Literal",
             "start": 670,
             "end": 671,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 673,
             "end": 713,
-            "value": "The value of count is expected to be 0",
-            "raw": "'The value of count is expected to be 0'"
+            "value": "The value of count is expected to be 0"
           }
         ],
         "optional": false

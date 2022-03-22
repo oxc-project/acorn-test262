@@ -258,8 +258,7 @@
                                             "type": "Literal",
                                             "start": 1194,
                                             "end": 1218,
-                                            "value": "should not call return",
-                                            "raw": "'should not call return'"
+                                            "value": "should not call return"
                                           }
                                         ]
                                       }

@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 751,
             "end": 805,
-            "value": "isConstructor(Array.prototype.map) must return false",
-            "raw": "'isConstructor(Array.prototype.map) must return false'"
+            "value": "isConstructor(Array.prototype.map) must return false"
           }
         ],
         "optional": false
@@ -210,8 +209,7 @@
             "type": "Literal",
             "start": 882,
             "end": 936,
-            "value": "`new Array.prototype.map(() => {})` throws TypeError",
-            "raw": "'`new Array.prototype.map(() => {})` throws TypeError'"
+            "value": "`new Array.prototype.map(() => {})` throws TypeError"
           }
         ],
         "optional": false

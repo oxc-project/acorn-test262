@@ -27,57 +27,49 @@
                 "type": "Literal",
                 "start": 346,
                 "end": 349,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 354,
-                "value": "t",
-                "raw": "\"t\""
+                "value": "t"
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 359,
-                "value": "u",
-                "raw": "\"u\""
+                "value": "u"
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 372,
-                "value": "undefined",
-                "raw": "\"undefined\""
+                "value": "undefined"
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 385,
-                "value": "UNDEFINED",
-                "raw": "\"UNDEFINED\""
+                "value": "UNDEFINED"
               },
               {
                 "type": "Literal",
                 "start": 387,
                 "end": 404,
-                "value": "nicht definiert",
-                "raw": "\"nicht definiert\""
+                "value": "nicht definiert"
               },
               {
                 "type": "Literal",
                 "start": 406,
                 "end": 411,
-                "value": "xyz",
-                "raw": "\"xyz\""
+                "value": "xyz"
               },
               {
                 "type": "Literal",
                 "start": 413,
                 "end": 418,
-                "value": "未定义",
-                "raw": "\"未定义\""
+                "value": "未定义"
               }
             ]
           }
@@ -124,8 +116,7 @@
           "type": "Literal",
           "start": 438,
           "end": 439,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "test": {
@@ -306,8 +297,7 @@
                   "type": "Literal",
                   "start": 590,
                   "end": 675,
-                  "value": "String.prototype.localeCompare does not treat missing 'that' argument as undefined.",
-                  "raw": "\"String.prototype.localeCompare does not treat missing 'that' argument as undefined.\""
+                  "value": "String.prototype.localeCompare does not treat missing 'that' argument as undefined."
                 }
               ],
               "optional": false
@@ -402,8 +392,7 @@
                       "type": "Literal",
                       "start": 759,
                       "end": 770,
-                      "value": "undefined",
-                      "raw": "\"undefined\""
+                      "value": "undefined"
                     }
                   ],
                   "optional": false
@@ -412,8 +401,7 @@
                   "type": "Literal",
                   "start": 773,
                   "end": 864,
-                  "value": "String.prototype.localeCompare does not treat undefined 'that' argument as \"undefined\".",
-                  "raw": "\"String.prototype.localeCompare does not treat undefined 'that' argument as \\\"undefined\\\".\""
+                  "value": "String.prototype.localeCompare does not treat undefined 'that' argument as \"undefined\"."
                 }
               ],
               "optional": false

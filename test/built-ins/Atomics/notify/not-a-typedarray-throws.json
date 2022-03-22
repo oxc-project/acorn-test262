@@ -69,8 +69,7 @@
                               "type": "Literal",
                               "start": 576,
                               "end": 607,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -172,22 +171,19 @@
                         "type": "Literal",
                         "start": 675,
                         "end": 676,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 678,
                         "end": 679,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 681,
                         "end": 682,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -200,8 +196,7 @@
             "type": "Literal",
             "start": 688,
             "end": 734,
-            "value": "`Atomics.wait({}, 0, 0, 0)` throws TypeError",
-            "raw": "'`Atomics.wait({}, 0, 0, 0)` throws TypeError'"
+            "value": "`Atomics.wait({}, 0, 0, 0)` throws TypeError"
           }
         ],
         "optional": false
@@ -318,8 +313,7 @@
             "type": "Literal",
             "start": 830,
             "end": 897,
-            "value": "`Atomics.wait({}, poisoned, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.wait({}, poisoned, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.wait({}, poisoned, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

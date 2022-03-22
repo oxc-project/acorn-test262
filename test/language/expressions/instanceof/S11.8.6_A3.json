@@ -56,8 +56,7 @@
                   "type": "Literal",
                   "start": 337,
                   "end": 379,
-                  "value": "#1: true instanceof true throw TypeError",
-                  "raw": "'#1: true instanceof true throw TypeError'"
+                  "value": "#1: true instanceof true throw TypeError"
                 }
               ]
             }
@@ -138,8 +137,7 @@
                           "type": "Literal",
                           "start": 466,
                           "end": 508,
-                          "value": "#1: true instanceof true throw TypeError",
-                          "raw": "'#1: true instanceof true throw TypeError'"
+                          "value": "#1: true instanceof true throw TypeError"
                         }
                       ]
                     }
@@ -174,16 +172,14 @@
                 "type": "Literal",
                 "start": 538,
                 "end": 539,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "operator": "instanceof",
               "right": {
                 "type": "Literal",
                 "start": 551,
                 "end": 552,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -206,8 +202,7 @@
                   "type": "Literal",
                   "start": 579,
                   "end": 615,
-                  "value": "#2: 1 instanceof 1 throw TypeError",
-                  "raw": "'#2: 1 instanceof 1 throw TypeError'"
+                  "value": "#2: 1 instanceof 1 throw TypeError"
                 }
               ]
             }
@@ -288,8 +283,7 @@
                           "type": "Literal",
                           "start": 702,
                           "end": 738,
-                          "value": "#2: 1 instanceof 1 throw TypeError",
-                          "raw": "'#2: 1 instanceof 1 throw TypeError'"
+                          "value": "#2: 1 instanceof 1 throw TypeError"
                         }
                       ]
                     }
@@ -324,16 +318,14 @@
                 "type": "Literal",
                 "start": 768,
                 "end": 776,
-                "value": "string",
-                "raw": "\"string\""
+                "value": "string"
               },
               "operator": "instanceof",
               "right": {
                 "type": "Literal",
                 "start": 788,
                 "end": 796,
-                "value": "string",
-                "raw": "\"string\""
+                "value": "string"
               }
             }
           },
@@ -356,8 +348,7 @@
                   "type": "Literal",
                   "start": 823,
                   "end": 873,
-                  "value": "#3: \"string\" instanceof \"string\" throw TypeError",
-                  "raw": "'#3: \"string\" instanceof \"string\" throw TypeError'"
+                  "value": "#3: \"string\" instanceof \"string\" throw TypeError"
                 }
               ]
             }
@@ -438,8 +429,7 @@
                           "type": "Literal",
                           "start": 960,
                           "end": 1010,
-                          "value": "#3: \"string\" instanceof \"string\" throw TypeError",
-                          "raw": "'#3: \"string\" instanceof \"string\" throw TypeError'"
+                          "value": "#3: \"string\" instanceof \"string\" throw TypeError"
                         }
                       ]
                     }
@@ -504,8 +494,7 @@
                   "type": "Literal",
                   "start": 1097,
                   "end": 1149,
-                  "value": "#4: undefined instanceof undefined throw TypeError",
-                  "raw": "'#4: undefined instanceof undefined throw TypeError'"
+                  "value": "#4: undefined instanceof undefined throw TypeError"
                 }
               ]
             }
@@ -586,8 +575,7 @@
                           "type": "Literal",
                           "start": 1236,
                           "end": 1288,
-                          "value": "#4: undefined instanceof undefined throw TypeError",
-                          "raw": "'#4: undefined instanceof undefined throw TypeError'"
+                          "value": "#4: undefined instanceof undefined throw TypeError"
                         }
                       ]
                     }
@@ -654,8 +642,7 @@
                   "type": "Literal",
                   "start": 1365,
                   "end": 1407,
-                  "value": "#5: null instanceof null throw TypeError",
-                  "raw": "'#5: null instanceof null throw TypeError'"
+                  "value": "#5: null instanceof null throw TypeError"
                 }
               ]
             }
@@ -736,8 +723,7 @@
                           "type": "Literal",
                           "start": 1494,
                           "end": 1536,
-                          "value": "#5: null instanceof null throw TypeError",
-                          "raw": "'#5: null instanceof null throw TypeError'"
+                          "value": "#5: null instanceof null throw TypeError"
                         }
                       ]
                     }

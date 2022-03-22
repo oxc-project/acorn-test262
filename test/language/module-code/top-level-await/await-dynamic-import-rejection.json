@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 1919,
             "end": 1962,
-            "value": "./module-import-rejection-body_FIXTURE.js",
-            "raw": "'./module-import-rejection-body_FIXTURE.js'"
+            "value": "./module-import-rejection-body_FIXTURE.js"
           }
         }
       }
@@ -44,8 +43,7 @@
             "type": "Literal",
             "start": 1989,
             "end": 2017,
-            "value": "this should be unreachable",
-            "raw": "'this should be unreachable'"
+            "value": "this should be unreachable"
           }
         ]
       }

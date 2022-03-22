@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 732,
                 "end": 735,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 737,
                 "end": 740,
-                "value": "b",
-                "raw": "'b'"
+                "value": "b"
               },
               {
                 "type": "Literal",
                 "start": 742,
                 "end": 745,
-                "value": "c",
-                "raw": "'c'"
+                "value": "c"
               }
             ]
           }
@@ -89,8 +86,7 @@
             "type": "Literal",
             "start": 776,
             "end": 777,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -134,8 +130,7 @@
                 "type": "Literal",
                 "start": 819,
                 "end": 820,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -297,22 +292,19 @@
                   "type": "Literal",
                   "start": 906,
                   "end": 909,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 {
                   "type": "Literal",
                   "start": 911,
                   "end": 914,
-                  "value": "b",
-                  "raw": "'b'"
+                  "value": "b"
                 },
                 {
                   "type": "Literal",
                   "start": 916,
                   "end": 919,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 }
               ]
             }
@@ -756,8 +748,7 @@
             "type": "Literal",
             "start": 1163,
             "end": 1164,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

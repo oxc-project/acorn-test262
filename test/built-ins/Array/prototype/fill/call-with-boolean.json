@@ -114,8 +114,7 @@
             "type": "Literal",
             "start": 319,
             "end": 397,
-            "value": "The result of `(Array.prototype.fill.call(true) instanceof Boolean)` is true",
-            "raw": "'The result of `(Array.prototype.fill.call(true) instanceof Boolean)` is true'"
+            "value": "The result of `(Array.prototype.fill.call(true) instanceof Boolean)` is true"
           }
         ],
         "optional": false
@@ -232,8 +231,7 @@
             "type": "Literal",
             "start": 484,
             "end": 563,
-            "value": "The result of `(Array.prototype.fill.call(false) instanceof Boolean)` is true",
-            "raw": "'The result of `(Array.prototype.fill.call(false) instanceof Boolean)` is true'"
+            "value": "The result of `(Array.prototype.fill.call(false) instanceof Boolean)` is true"
           }
         ],
         "optional": false

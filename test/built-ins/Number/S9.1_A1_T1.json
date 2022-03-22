@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 411,
                           "end": 414,
-                          "value": "1",
-                          "raw": "\"1\""
+                          "value": "1"
                         }
                       }
                     ]
@@ -102,8 +101,7 @@
                           "type": "Literal",
                           "start": 456,
                           "end": 457,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -169,15 +167,13 @@
             "type": "Literal",
             "start": 504,
             "end": 505,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 600,
-            "value": "Number({valueOf: function() {return \"1\"}, toString: function() {return 0}}) must return 1",
-            "raw": "'Number({valueOf: function() {return \"1\"}, toString: function() {return 0}}) must return 1'"
+            "value": "Number({valueOf: function() {return \"1\"}, toString: function() {return 0}}) must return 1"
           }
         ],
         "optional": false
@@ -281,8 +277,7 @@
                           "type": "Literal",
                           "start": 710,
                           "end": 713,
-                          "value": "0",
-                          "raw": "\"0\""
+                          "value": "0"
                         }
                       }
                     ]
@@ -348,15 +343,13 @@
             "type": "Literal",
             "start": 760,
             "end": 761,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 765,
             "end": 857,
-            "value": "Number({valueOf: function() {return {}}, toString: function() {return \"0\"}}) must return 0",
-            "raw": "'Number({valueOf: function() {return {}}, toString: function() {return \"0\"}}) must return 0'"
+            "value": "Number({valueOf: function() {return {}}, toString: function() {return \"0\"}}) must return 0"
           }
         ],
         "optional": false

@@ -27,92 +27,79 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 371,
-                "value": "get calendar",
-                "raw": "\"get calendar\""
+                "value": "get calendar"
               },
               {
                 "type": "Literal",
                 "start": 375,
                 "end": 384,
-                "value": "get day",
-                "raw": "\"get day\""
+                "value": "get day"
               },
               {
                 "type": "Literal",
                 "start": 388,
                 "end": 405,
-                "value": "get day.valueOf",
-                "raw": "\"get day.valueOf\""
+                "value": "get day.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 409,
                 "end": 427,
-                "value": "call day.valueOf",
-                "raw": "\"call day.valueOf\""
+                "value": "call day.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 442,
-                "value": "get month",
-                "raw": "\"get month\""
+                "value": "get month"
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 465,
-                "value": "get month.valueOf",
-                "raw": "\"get month.valueOf\""
+                "value": "get month.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 489,
-                "value": "call month.valueOf",
-                "raw": "\"call month.valueOf\""
+                "value": "call month.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 493,
                 "end": 508,
-                "value": "get monthCode",
-                "raw": "\"get monthCode\""
+                "value": "get monthCode"
               },
               {
                 "type": "Literal",
                 "start": 512,
                 "end": 536,
-                "value": "get monthCode.toString",
-                "raw": "\"get monthCode.toString\""
+                "value": "get monthCode.toString"
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 565,
-                "value": "call monthCode.toString",
-                "raw": "\"call monthCode.toString\""
+                "value": "call monthCode.toString"
               },
               {
                 "type": "Literal",
                 "start": 569,
                 "end": 579,
-                "value": "get year",
-                "raw": "\"get year\""
+                "value": "get year"
               },
               {
                 "type": "Literal",
                 "start": 583,
                 "end": 601,
-                "value": "get year.valueOf",
-                "raw": "\"get year.valueOf\""
+                "value": "get year.valueOf"
               },
               {
                 "type": "Literal",
                 "start": 605,
                 "end": 624,
-                "value": "call year.valueOf",
-                "raw": "\"call year.valueOf\""
+                "value": "call year.valueOf"
               }
             ]
           }
@@ -182,8 +169,7 @@
                   "type": "Literal",
                   "start": 673,
                   "end": 676,
-                  "value": 1.7,
-                  "raw": "1.7"
+                  "value": 1.7
                 },
                 "kind": "init"
               },
@@ -204,8 +190,7 @@
                   "type": "Literal",
                   "start": 687,
                   "end": 690,
-                  "value": 1.7,
-                  "raw": "1.7"
+                  "value": 1.7
                 },
                 "kind": "init"
               },
@@ -226,8 +211,7 @@
                   "type": "Literal",
                   "start": 705,
                   "end": 710,
-                  "value": "M01",
-                  "raw": "\"M01\""
+                  "value": "M01"
                 },
                 "kind": "init"
               },
@@ -248,8 +232,7 @@
                   "type": "Literal",
                   "start": 719,
                   "end": 722,
-                  "value": 1.7,
-                  "raw": "1.7"
+                  "value": 1.7
                 },
                 "kind": "init"
               }
@@ -423,8 +406,7 @@
                                 "type": "Literal",
                                 "start": 832,
                                 "end": 842,
-                                "value": "calendar",
-                                "raw": "\"calendar\""
+                                "value": "calendar"
                               }
                             },
                             "consequent": {
@@ -472,8 +454,7 @@
                                     "type": "Literal",
                                     "start": 874,
                                     "end": 883,
-                                    "value": "iso8601",
-                                    "raw": "\"iso8601\""
+                                    "value": "iso8601"
                                   }
                                 ],
                                 "optional": false
@@ -819,15 +800,13 @@
             "type": "Literal",
             "start": 1177,
             "end": 1182,
-            "value": "M01",
-            "raw": "\"M01\""
+            "value": "M01"
           },
           {
             "type": "Literal",
             "start": 1184,
             "end": 1185,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -897,15 +876,13 @@
             "type": "Literal",
             "start": 1225,
             "end": 1234,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           },
           {
             "type": "Literal",
             "start": 1236,
             "end": 1253,
-            "value": "calendar result",
-            "raw": "\"calendar result\""
+            "value": "calendar result"
           }
         ],
         "optional": false
@@ -955,8 +932,7 @@
             "type": "Literal",
             "start": 1294,
             "end": 1315,
-            "value": "order of operations",
-            "raw": "\"order of operations\""
+            "value": "order of operations"
           }
         ],
         "optional": false

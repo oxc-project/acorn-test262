@@ -88,8 +88,7 @@
                             "type": "Literal",
                             "start": 340,
                             "end": 343,
-                            "value": 100,
-                            "raw": "100"
+                            "value": 100
                           },
                           "kind": "init"
                         }
@@ -157,15 +156,13 @@
             "type": "Literal",
             "start": 383,
             "end": 386,
-            "value": 100,
-            "raw": "100"
+            "value": 100
           },
           {
             "type": "Literal",
             "start": 388,
             "end": 401,
-            "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "value": "newObj.prop"
           }
         ],
         "optional": false

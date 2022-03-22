@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 708,
             "end": 709,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 725,
             "end": 726,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 744,
             "end": 745,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -104,8 +101,7 @@
               "type": "Literal",
               "start": 761,
               "end": 762,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -311,8 +307,7 @@
                       "type": "Literal",
                       "start": 1288,
                       "end": 1289,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -500,8 +495,7 @@
             "type": "Literal",
             "start": 1556,
             "end": 1557,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -570,8 +564,7 @@
                   "type": "Literal",
                   "start": 1607,
                   "end": 1608,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -583,8 +576,7 @@
           "type": "Literal",
           "start": 1615,
           "end": 1616,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "body": {
@@ -631,15 +623,13 @@
             "type": "Literal",
             "start": 1644,
             "end": 1645,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1647,
             "end": 1693,
-            "value": "Atomics.notify(i32a, undefined, 1) returns 1",
-            "raw": "'Atomics.notify(i32a, undefined, 1) returns 1'"
+            "value": "Atomics.notify(i32a, undefined, 1) returns 1"
           }
         ],
         "optional": false
@@ -716,15 +706,13 @@
             "type": "Literal",
             "start": 1738,
             "end": 1742,
-            "value": "ok",
-            "raw": "'ok'"
+            "value": "ok"
           },
           {
             "type": "Literal",
             "start": 1744,
             "end": 1781,
-            "value": "$262.agent.getReport() returns \"ok\"",
-            "raw": "'$262.agent.getReport() returns \"ok\"'"
+            "value": "$262.agent.getReport() returns \"ok\""
           }
         ],
         "optional": false
@@ -749,8 +737,7 @@
             "type": "Literal",
             "start": 1839,
             "end": 1840,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -819,8 +806,7 @@
           "type": "Literal",
           "start": 1911,
           "end": 1912,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "body": {
@@ -867,15 +853,13 @@
             "type": "Literal",
             "start": 1940,
             "end": 1941,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1943,
             "end": 2002,
-            "value": "Atomics.notify(i32a /*, default values used */) returns 1",
-            "raw": "'Atomics.notify(i32a /*, default values used */) returns 1'"
+            "value": "Atomics.notify(i32a /*, default values used */) returns 1"
           }
         ],
         "optional": false
@@ -952,15 +936,13 @@
             "type": "Literal",
             "start": 2047,
             "end": 2051,
-            "value": "ok",
-            "raw": "'ok'"
+            "value": "ok"
           },
           {
             "type": "Literal",
             "start": 2053,
             "end": 2090,
-            "value": "$262.agent.getReport() returns \"ok\"",
-            "raw": "'$262.agent.getReport() returns \"ok\"'"
+            "value": "$262.agent.getReport() returns \"ok\""
           }
         ],
         "optional": false

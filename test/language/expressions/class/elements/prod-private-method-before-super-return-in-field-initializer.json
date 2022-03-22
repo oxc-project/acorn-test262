@@ -30,10 +30,9 @@
               "end": 1344,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1328,
-                  "end": 1341,
-                  "static": false,
+                  "end": 1340,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -139,14 +138,14 @@
                           "start": 1376,
                           "end": 1380
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1381,
                           "end": 1383,
                           "name": "m"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "arguments": [],
                       "optional": false
@@ -163,7 +162,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1393,
               "end": 1395,
               "name": "m"
@@ -191,8 +190,7 @@
                       "type": "Literal",
                       "start": 1407,
                       "end": 1409,
-                      "value": 42,
-                      "raw": "42"
+                      "value": 42
                     }
                   }
                 ]
@@ -258,8 +256,7 @@
                 "type": "Literal",
                 "start": 1450,
                 "end": 1453,
-                "value": "g",
-                "raw": "'g'"
+                "value": "g"
               }
             ],
             "optional": false
@@ -354,8 +351,7 @@
             "type": "Literal",
             "start": 1519,
             "end": 1575,
-            "value": "private methods are not installed before super returns",
-            "raw": "'private methods are not installed before super returns'"
+            "value": "private methods are not installed before super returns"
           }
         ],
         "optional": false

@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 476,
             "end": 489,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -215,8 +214,7 @@
             "type": "Literal",
             "start": 610,
             "end": 654,
-            "value": "a.concat() throws a Test262Error exception",
-            "raw": "'a.concat() throws a Test262Error exception'"
+            "value": "a.concat() throws a Test262Error exception"
           }
         ],
         "optional": false

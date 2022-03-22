@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 902,
               "end": 904,
               "name": "m"
@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 916,
                       "end": 925,
-                      "value": "Test262",
-                      "raw": "'Test262'"
+                      "value": "Test262"
                     }
                   }
                 ]
@@ -135,14 +134,14 @@
                                       "start": 988,
                                       "end": 992
                                     },
+                                    "computed": false,
+                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateIdentifier",
+                                      "type": "PrivateName",
                                       "start": 993,
                                       "end": 995,
                                       "name": "m"
-                                    },
-                                    "computed": false,
-                                    "optional": false
+                                    }
                                   },
                                   "arguments": [],
                                   "optional": false
@@ -269,8 +268,7 @@
             "type": "Literal",
             "start": 1087,
             "end": 1096,
-            "value": "Test262",
-            "raw": "'Test262'"
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -407,8 +405,7 @@
             "type": "Literal",
             "start": 1172,
             "end": 1221,
-            "value": "accessed private method from an ordinary object",
-            "raw": "'accessed private method from an ordinary object'"
+            "value": "accessed private method from an ordinary object"
           }
         ],
         "optional": false

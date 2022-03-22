@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 505,
                 "end": 509,
-                "value": 1024,
-                "raw": "1024"
+                "value": 1024
               }
             ]
           }
@@ -146,8 +145,7 @@
                               "type": "Literal",
                               "start": 623,
                               "end": 654,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -242,8 +240,7 @@
                               "type": "Literal",
                               "start": 757,
                               "end": 804,
-                              "value": "passing a poisoned object using @@ToPrimitive",
-                              "raw": "'passing a poisoned object using @@ToPrimitive'"
+                              "value": "passing a poisoned object using @@ToPrimitive"
                             }
                           ]
                         }
@@ -345,15 +342,13 @@
                         "type": "Literal",
                         "start": 877,
                         "end": 878,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 880,
                         "end": 881,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Identifier",
@@ -372,8 +367,7 @@
             "type": "Literal",
             "start": 904,
             "end": 969,
-            "value": "`Atomics.wait(i32a, 0, 0, poisonedValueOf)` throws Test262Error",
-            "raw": "'`Atomics.wait(i32a, 0, 0, poisonedValueOf)` throws Test262Error'"
+            "value": "`Atomics.wait(i32a, 0, 0, poisonedValueOf)` throws Test262Error"
           }
         ],
         "optional": false
@@ -465,15 +459,13 @@
                         "type": "Literal",
                         "start": 1035,
                         "end": 1036,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1038,
                         "end": 1039,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Identifier",
@@ -492,8 +484,7 @@
             "type": "Literal",
             "start": 1066,
             "end": 1135,
-            "value": "`Atomics.wait(i32a, 0, 0, poisonedToPrimitive)` throws Test262Error",
-            "raw": "'`Atomics.wait(i32a, 0, 0, poisonedToPrimitive)` throws Test262Error'"
+            "value": "`Atomics.wait(i32a, 0, 0, poisonedToPrimitive)` throws Test262Error"
           }
         ],
         "optional": false
@@ -585,15 +576,13 @@
                         "type": "Literal",
                         "start": 1198,
                         "end": 1199,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1201,
                         "end": 1202,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "CallExpression",
@@ -610,8 +599,7 @@
                             "type": "Literal",
                             "start": 1211,
                             "end": 1216,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -627,8 +615,7 @@
             "type": "Literal",
             "start": 1223,
             "end": 1283,
-            "value": "`Atomics.wait(i32a, 0, 0, Symbol(\"foo\"))` throws TypeError",
-            "raw": "'`Atomics.wait(i32a, 0, 0, Symbol(\"foo\"))` throws TypeError'"
+            "value": "`Atomics.wait(i32a, 0, 0, Symbol(\"foo\"))` throws TypeError"
           }
         ],
         "optional": false
@@ -720,15 +707,13 @@
                         "type": "Literal",
                         "start": 1346,
                         "end": 1347,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1349,
                         "end": 1350,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "CallExpression",
@@ -745,8 +730,7 @@
                             "type": "Literal",
                             "start": 1359,
                             "end": 1364,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -762,8 +746,7 @@
             "type": "Literal",
             "start": 1371,
             "end": 1431,
-            "value": "`Atomics.wait(i32a, 0, 0, Symbol(\"foo\"))` throws TypeError",
-            "raw": "'`Atomics.wait(i32a, 0, 0, Symbol(\"foo\"))` throws TypeError'"
+            "value": "`Atomics.wait(i32a, 0, 0, Symbol(\"foo\"))` throws TypeError"
           }
         ],
         "optional": false

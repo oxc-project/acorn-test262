@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 672,
                     "end": 684,
-                    "value": "/\\ /",
-                    "raw": "\"/\\\\\\u2029/\""
+                    "value": "/\\ /"
                   }
                 ],
                 "optional": false
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 720,
                     "end": 823,
-                    "value": "#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\\\Paragraph separator is incorrect. Actual: '"
+                    "value": "#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -101,8 +99,7 @@
                             "type": "Literal",
                             "start": 832,
                             "end": 844,
-                            "value": "/\\ /",
-                            "raw": "\"/\\\\\\u2029/\""
+                            "value": "/\\ /"
                           }
                         ],
                         "optional": false
@@ -206,8 +203,7 @@
                             "type": "Literal",
                             "start": 943,
                             "end": 1046,
-                            "value": "#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\\\Paragraph separator is incorrect. Actual: '"
+                            "value": "#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\Paragraph separator is incorrect. Actual: "
                           },
                           "operator": "+",
                           "right": {

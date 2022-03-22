@@ -105,8 +105,7 @@
                         "type": "Literal",
                         "start": 313,
                         "end": 320,
-                        "value": "local",
-                        "raw": "\"local\""
+                        "value": "local"
                       },
                       "kind": "init"
                     }
@@ -240,8 +239,7 @@
                               "type": "Literal",
                               "start": 405,
                               "end": 410,
-                              "value": "UTC",
-                              "raw": "\"UTC\""
+                              "value": "UTC"
                             },
                             "kind": "init"
                           }

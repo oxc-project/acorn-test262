@@ -30,8 +30,7 @@
         "type": "Literal",
         "start": 1776,
         "end": 1816,
-        "value": "./instn-named-err-ambiguous_FIXTURE.js",
-        "raw": "'./instn-named-err-ambiguous_FIXTURE.js'"
+        "value": "./instn-named-err-ambiguous_FIXTURE.js"
       }
     }
   ],

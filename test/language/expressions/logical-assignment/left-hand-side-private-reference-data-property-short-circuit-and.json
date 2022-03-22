@@ -41,8 +41,7 @@
                   "type": "Literal",
                   "start": 1627,
                   "end": 1672,
-                  "value": "The right-hand side should not be evaluated",
-                  "raw": "\"The right-hand side should not be evaluated\""
+                  "value": "The right-hand side should not be evaluated"
                 }
               ]
             }
@@ -67,13 +66,12 @@
         "end": 1821,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1690,
-            "end": 1705,
-            "static": false,
+            "end": 1704,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1690,
               "end": 1696,
               "name": "field"
@@ -131,14 +129,14 @@
                           "start": 1742,
                           "end": 1746
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1747,
                           "end": 1753,
                           "name": "field"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "right": {
                         "type": "CallExpression",
@@ -199,14 +197,14 @@
                         "start": 1803,
                         "end": 1807
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 1808,
                         "end": 1814,
                         "name": "field"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -312,8 +310,7 @@
             "type": "Literal",
             "start": 1890,
             "end": 1949,
-            "value": "The expression should evaluate to the short-circuit value",
-            "raw": "\"The expression should evaluate to the short-circuit value\""
+            "value": "The expression should evaluate to the short-circuit value"
           }
         ],
         "optional": false

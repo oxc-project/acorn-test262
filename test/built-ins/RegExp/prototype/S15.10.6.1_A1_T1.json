@@ -73,8 +73,7 @@
             "type": "Literal",
             "start": 393,
             "end": 477,
-            "value": "The value of RegExp.prototype.constructor is expected to equal the value of RegExp",
-            "raw": "'The value of RegExp.prototype.constructor is expected to equal the value of RegExp'"
+            "value": "The value of RegExp.prototype.constructor is expected to equal the value of RegExp"
           }
         ],
         "optional": false

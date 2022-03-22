@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 502,
             "end": 508,
-            "value": "Date",
-            "raw": "\"Date\""
+            "value": "Date"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 532,
             "end": 538,
-            "value": "Date",
-            "raw": "\"Date\""
+            "value": "Date"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 566,
             "end": 572,
-            "value": "Date",
-            "raw": "\"Date\""
+            "value": "Date"
           }
         ],
         "optional": false

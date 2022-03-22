@@ -166,8 +166,7 @@
                 "type": "Literal",
                 "start": 487,
                 "end": 493,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -219,8 +218,7 @@
                 "type": "Literal",
                 "start": 524,
                 "end": 531,
-                "value": "value",
-                "raw": "\"value\""
+                "value": "value"
               }
             ],
             "optional": false
@@ -229,8 +227,7 @@
             "type": "Literal",
             "start": 534,
             "end": 573,
-            "value": "desc.hasOwnProperty(\"value\") !== true",
-            "raw": "'desc.hasOwnProperty(\"value\") !== true'"
+            "value": "desc.hasOwnProperty(\"value\") !== true"
           }
         ],
         "optional": false
@@ -294,15 +291,13 @@
             "type": "Literal",
             "start": 612,
             "end": 623,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 625,
             "end": 644,
-            "value": "typeof desc.value",
-            "raw": "'typeof desc.value'"
+            "value": "typeof desc.value"
           }
         ],
         "optional": false
@@ -351,8 +346,7 @@
                 "type": "Literal",
                 "start": 674,
                 "end": 684,
-                "value": "writable",
-                "raw": "\"writable\""
+                "value": "writable"
               }
             ],
             "optional": false
@@ -361,8 +355,7 @@
             "type": "Literal",
             "start": 687,
             "end": 729,
-            "value": "desc.hasOwnProperty(\"writable\") !== true",
-            "raw": "'desc.hasOwnProperty(\"writable\") !== true'"
+            "value": "desc.hasOwnProperty(\"writable\") !== true"
           }
         ],
         "optional": false
@@ -426,8 +419,7 @@
             "type": "Literal",
             "start": 770,
             "end": 785,
-            "value": "desc.writable",
-            "raw": "'desc.writable'"
+            "value": "desc.writable"
           }
         ],
         "optional": false
@@ -476,8 +468,7 @@
                 "type": "Literal",
                 "start": 815,
                 "end": 829,
-                "value": "configurable",
-                "raw": "\"configurable\""
+                "value": "configurable"
               }
             ],
             "optional": false
@@ -486,8 +477,7 @@
             "type": "Literal",
             "start": 832,
             "end": 878,
-            "value": "desc.hasOwnProperty(\"configurable\") !== true",
-            "raw": "'desc.hasOwnProperty(\"configurable\") !== true'"
+            "value": "desc.hasOwnProperty(\"configurable\") !== true"
           }
         ],
         "optional": false
@@ -551,8 +541,7 @@
             "type": "Literal",
             "start": 924,
             "end": 943,
-            "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "value": "desc.configurable"
           }
         ],
         "optional": false
@@ -601,8 +590,7 @@
                 "type": "Literal",
                 "start": 973,
                 "end": 985,
-                "value": "enumerable",
-                "raw": "\"enumerable\""
+                "value": "enumerable"
               }
             ],
             "optional": false
@@ -611,8 +599,7 @@
             "type": "Literal",
             "start": 988,
             "end": 1032,
-            "value": "desc.hasOwnProperty(\"enumerable\") !== true",
-            "raw": "'desc.hasOwnProperty(\"enumerable\") !== true'"
+            "value": "desc.hasOwnProperty(\"enumerable\") !== true"
           }
         ],
         "optional": false
@@ -676,8 +663,7 @@
             "type": "Literal",
             "start": 1076,
             "end": 1093,
-            "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "value": "desc.enumerable"
           }
         ],
         "optional": false

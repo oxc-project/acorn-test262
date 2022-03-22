@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 383,
                     "end": 384,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               }
@@ -68,8 +67,7 @@
             "type": "Literal",
             "start": 402,
             "end": 403,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -160,8 +158,7 @@
                         "type": "Literal",
                         "start": 465,
                         "end": 508,
-                        "value": "`this` is `undefined` in strict mode code",
-                        "raw": "\"`this` is `undefined` in strict mode code\""
+                        "value": "`this` is `undefined` in strict mode code"
                       }
                     ],
                     "optional": false
@@ -230,15 +227,13 @@
             "type": "Literal",
             "start": 555,
             "end": 556,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 558,
             "end": 584,
-            "value": "`forEach` is not a no-op",
-            "raw": "\"`forEach` is not a no-op\""
+            "value": "`forEach` is not a no-op"
           }
         ],
         "optional": false

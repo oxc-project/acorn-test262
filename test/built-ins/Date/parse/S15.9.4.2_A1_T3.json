@@ -52,8 +52,7 @@
                   "type": "Literal",
                   "start": 304,
                   "end": 311,
-                  "value": "parse",
-                  "raw": "'parse'"
+                  "value": "parse"
                 }
               ],
               "optional": false
@@ -63,8 +62,7 @@
             "type": "Literal",
             "start": 316,
             "end": 391,
-            "value": "The value of !Date.propertyIsEnumerable('parse') is expected to be true",
-            "raw": "'The value of !Date.propertyIsEnumerable(\\'parse\\') is expected to be true'"
+            "value": "The value of !Date.propertyIsEnumerable('parse') is expected to be true"
           }
         ],
         "optional": false
@@ -143,15 +141,13 @@
                   "type": "Literal",
                   "start": 443,
                   "end": 450,
-                  "value": "parse",
-                  "raw": "\"parse\""
+                  "value": "parse"
                 },
                 {
                   "type": "Literal",
                   "start": 452,
                   "end": 483,
-                  "value": "The value of x is not \"parse\"",
-                  "raw": "'The value of x is not \"parse\"'"
+                  "value": "The value of x is not \"parse\""
                 }
               ],
               "optional": false

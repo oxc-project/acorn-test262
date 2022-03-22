@@ -126,8 +126,7 @@
             "type": "Literal",
             "start": 614,
             "end": 628,
-            "value": "Map Iterator",
-            "raw": "'Map Iterator'"
+            "value": "Map Iterator"
           },
           {
             "type": "MemberExpression",

@@ -108,8 +108,7 @@
                           "type": "Literal",
                           "start": 420,
                           "end": 421,
-                          "value": 4,
-                          "raw": "4"
+                          "value": 4
                         }
                       }
                     ]
@@ -178,8 +177,7 @@
                           "type": "Literal",
                           "start": 480,
                           "end": 481,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       }
                     ]
@@ -250,8 +248,7 @@
             "type": "Literal",
             "start": 529,
             "end": 568,
-            "value": "The result of (obj1 <= obj2) is false",
-            "raw": "'The result of (obj1 <= obj2) is false'"
+            "value": "The result of (obj1 <= obj2) is false"
           }
         ],
         "optional": false
@@ -302,8 +299,7 @@
             "type": "Literal",
             "start": 604,
             "end": 635,
-            "value": "The value of accessed is true",
-            "raw": "'The value of accessed is true'"
+            "value": "The value of accessed is true"
           }
         ],
         "optional": false

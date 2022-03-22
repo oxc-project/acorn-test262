@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 495,
                 "end": 503,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 534,
                     "end": 613,
-                    "value": "#0: String.prototype.indexOf.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.indexOf.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#0: String.prototype.indexOf.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 656,
                         "end": 664,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -266,8 +263,7 @@
                   "type": "Literal",
                   "start": 914,
                   "end": 970,
-                  "value": "#1: delete String.prototype.indexOf.length raturn true",
-                  "raw": "'#1: delete String.prototype.indexOf.length raturn true'"
+                  "value": "#1: delete String.prototype.indexOf.length raturn true"
                 }
               ]
             }
@@ -334,8 +330,7 @@
             "type": "Literal",
             "start": 1191,
             "end": 1199,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         ],
         "optional": false
@@ -368,8 +363,7 @@
                     "type": "Literal",
                     "start": 1229,
                     "end": 1349,
-                    "value": "#2: delete String.prototype.indexOf.length; String.prototype.indexOf.hasOwnProperty('length') return false. Actual: ",
-                    "raw": "'#2: delete String.prototype.indexOf.length; String.prototype.indexOf.hasOwnProperty(\\'length\\') return false. Actual: '"
+                    "value": "#2: delete String.prototype.indexOf.length; String.prototype.indexOf.hasOwnProperty('length') return false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -426,8 +420,7 @@
                         "type": "Literal",
                         "start": 1392,
                         "end": 1400,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false

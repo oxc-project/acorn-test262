@@ -182,8 +182,7 @@
                   "type": "Literal",
                   "start": 692,
                   "end": 745,
-                  "value": "#1: O is not an object, throw a TypeError exception",
-                  "raw": "'#1: O is not an object, throw a TypeError exception'"
+                  "value": "#1: O is not an object, throw a TypeError exception"
                 }
               ]
             }
@@ -263,8 +262,7 @@
                           "type": "Literal",
                           "start": 823,
                           "end": 878,
-                          "value": "#1.1: O is not an object, throw a TypeError exception",
-                          "raw": "'#1.1: O is not an object, throw a TypeError exception'"
+                          "value": "#1.1: O is not an object, throw a TypeError exception"
                         }
                       ]
                     }

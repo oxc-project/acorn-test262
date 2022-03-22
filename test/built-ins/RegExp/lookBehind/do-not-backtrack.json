@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 1067,
                 "end": 1075,
-                "value": "abcdbc",
-                "raw": "\"abcdbc\""
+                "value": "abcdbc"
               },
               "property": {
                 "type": "Identifier",
@@ -61,7 +60,6 @@
                 "start": 1082,
                 "end": 1100,
                 "value": {},
-                "raw": "/(?<=([abc]+)).\\1/",
                 "regex": {
                   "pattern": "(?<=([abc]+)).\\1",
                   "flags": ""

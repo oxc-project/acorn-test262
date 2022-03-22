@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 410,
             "end": 416,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -158,8 +157,7 @@
             "type": "Literal",
             "start": 506,
             "end": 512,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -290,8 +288,7 @@
           "type": "Literal",
           "start": 607,
           "end": 621,
-          "value": "overrideData",
-          "raw": "\"overrideData\""
+          "value": "overrideData"
         }
       }
     },
@@ -338,8 +335,7 @@
                 "type": "Literal",
                 "start": 670,
                 "end": 676,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -397,8 +393,7 @@
                 "type": "Literal",
                 "start": 727,
                 "end": 733,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -432,8 +427,7 @@
             "type": "Literal",
             "start": 767,
             "end": 799,
-            "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "value": "propertyDefineCorrect !== true"
           }
         ],
         "optional": false
@@ -496,8 +490,7 @@
             "type": "Literal",
             "start": 838,
             "end": 848,
-            "value": "desc.set",
-            "raw": "'desc.set'"
+            "value": "desc.set"
           }
         ],
         "optional": false
@@ -541,15 +534,13 @@
             "type": "Literal",
             "start": 883,
             "end": 897,
-            "value": "overrideData",
-            "raw": "\"overrideData\""
+            "value": "overrideData"
           },
           {
             "type": "Literal",
             "start": 899,
             "end": 914,
-            "value": "verifySetFunc",
-            "raw": "'verifySetFunc'"
+            "value": "verifySetFunc"
           }
         ],
         "optional": false

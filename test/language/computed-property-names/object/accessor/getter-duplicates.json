@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 364,
                   "end": 367,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "get",
                 "value": {
@@ -60,8 +59,7 @@
                           "type": "Literal",
                           "start": 384,
                           "end": 387,
-                          "value": "A",
-                          "raw": "'A'"
+                          "value": "A"
                         }
                       }
                     ]
@@ -125,15 +123,13 @@
             "type": "Literal",
             "start": 418,
             "end": 421,
-            "value": "A",
-            "raw": "'A'"
+            "value": "A"
           },
           {
             "type": "Literal",
             "start": 423,
             "end": 452,
-            "value": "The value of `A.a` is `'A'`",
-            "raw": "\"The value of `A.a` is `'A'`\""
+            "value": "The value of `A.a` is `'A'`"
           }
         ],
         "optional": false
@@ -206,8 +202,7 @@
                               "type": "Literal",
                               "start": 505,
                               "end": 554,
-                              "value": "The `b` getter definition in `B` is unreachable",
-                              "raw": "\"The `b` getter definition in `B` is unreachable\""
+                              "value": "The `b` getter definition in `B` is unreachable"
                             }
                           ]
                         }
@@ -227,8 +222,7 @@
                   "type": "Literal",
                   "start": 569,
                   "end": 572,
-                  "value": "b",
-                  "raw": "'b'"
+                  "value": "b"
                 },
                 "kind": "get",
                 "value": {
@@ -253,8 +247,7 @@
                           "type": "Literal",
                           "start": 589,
                           "end": 592,
-                          "value": "B",
-                          "raw": "'B'"
+                          "value": "B"
                         }
                       }
                     ]
@@ -318,15 +311,13 @@
             "type": "Literal",
             "start": 623,
             "end": 626,
-            "value": "B",
-            "raw": "'B'"
+            "value": "B"
           },
           {
             "type": "Literal",
             "start": 628,
             "end": 657,
-            "value": "The value of `B.b` is `'B'`",
-            "raw": "\"The value of `B.b` is `'B'`\""
+            "value": "The value of `B.b` is `'B'`"
           }
         ],
         "optional": false
@@ -399,8 +390,7 @@
                               "type": "Literal",
                               "start": 710,
                               "end": 759,
-                              "value": "The `c` getter definition in `C` is unreachable",
-                              "raw": "\"The `c` getter definition in `C` is unreachable\""
+                              "value": "The `c` getter definition in `C` is unreachable"
                             }
                           ]
                         }
@@ -420,8 +410,7 @@
                   "type": "Literal",
                   "start": 774,
                   "end": 777,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 },
                 "kind": "get",
                 "value": {
@@ -457,8 +446,7 @@
                               "type": "Literal",
                               "start": 810,
                               "end": 863,
-                              "value": "The `['c']` getter definition in `C` is unreachable",
-                              "raw": "\"The `['c']` getter definition in `C` is unreachable\""
+                              "value": "The `['c']` getter definition in `C` is unreachable"
                             }
                           ]
                         }
@@ -478,8 +466,7 @@
                   "type": "Literal",
                   "start": 878,
                   "end": 881,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 },
                 "kind": "get",
                 "value": {
@@ -504,8 +491,7 @@
                           "type": "Literal",
                           "start": 898,
                           "end": 901,
-                          "value": "C",
-                          "raw": "'C'"
+                          "value": "C"
                         }
                       }
                     ]
@@ -569,15 +555,13 @@
             "type": "Literal",
             "start": 932,
             "end": 935,
-            "value": "C",
-            "raw": "'C'"
+            "value": "C"
           },
           {
             "type": "Literal",
             "start": 937,
             "end": 966,
-            "value": "The value of `C.c` is `'C'`",
-            "raw": "\"The value of `C.c` is `'C'`\""
+            "value": "The value of `C.c` is `'C'`"
           }
         ],
         "optional": false
@@ -614,8 +598,7 @@
                   "type": "Literal",
                   "start": 987,
                   "end": 990,
-                  "value": "d",
-                  "raw": "'d'"
+                  "value": "d"
                 },
                 "kind": "get",
                 "value": {
@@ -651,8 +634,7 @@
                               "type": "Literal",
                               "start": 1023,
                               "end": 1076,
-                              "value": "The `['d']` getter definition in `D` is unreachable",
-                              "raw": "\"The `['d']` getter definition in `D` is unreachable\""
+                              "value": "The `['d']` getter definition in `D` is unreachable"
                             }
                           ]
                         }
@@ -697,8 +679,7 @@
                           "type": "Literal",
                           "start": 1107,
                           "end": 1110,
-                          "value": "D",
-                          "raw": "'D'"
+                          "value": "D"
                         }
                       }
                     ]
@@ -762,15 +743,13 @@
             "type": "Literal",
             "start": 1141,
             "end": 1144,
-            "value": "D",
-            "raw": "'D'"
+            "value": "D"
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1175,
-            "value": "The value of `D.d` is `'D'`",
-            "raw": "\"The value of `D.d` is `'D'`\""
+            "value": "The value of `D.d` is `'D'`"
           }
         ],
         "optional": false

@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 298,
                   "end": 299,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "UnaryExpression",
@@ -47,8 +46,7 @@
                     "type": "Literal",
                     "start": 302,
                     "end": 303,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 "kind": "init"
@@ -76,8 +74,7 @@
                     "type": "Literal",
                     "start": 316,
                     "end": 317,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 "kind": "init"
@@ -182,8 +179,7 @@
                   "type": "Literal",
                   "start": 378,
                   "end": 379,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -199,16 +195,14 @@
               "type": "Literal",
               "start": 383,
               "end": 384,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 386,
             "end": 429,
-            "value": "Array.prototype.lastIndexOf.call(obj, +0)",
-            "raw": "'Array.prototype.lastIndexOf.call(obj, +0)'"
+            "value": "Array.prototype.lastIndexOf.call(obj, +0)"
           }
         ],
         "optional": false

@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 537,
                 "end": 538,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 540,
                 "end": 541,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 543,
                 "end": 544,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -69,8 +66,7 @@
             "type": "Literal",
             "start": 563,
             "end": 564,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -214,8 +210,7 @@
                     "type": "Literal",
                     "start": 677,
                     "end": 678,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -369,15 +364,13 @@
                             "type": "Literal",
                             "start": 794,
                             "end": 795,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 797,
                             "end": 849,
-                            "value": "`then` invoked once for every item in iterable arg",
-                            "raw": "'`then` invoked once for every item in iterable arg'"
+                            "value": "`then` invoked once for every item in iterable arg"
                           }
                         ],
                         "optional": false

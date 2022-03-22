@@ -47,7 +47,6 @@
               "start": 2629,
               "end": 2632,
               "value": {},
-              "raw": "/1/",
               "regex": {
                 "pattern": "1",
                 "flags": ""
@@ -74,7 +73,6 @@
                 "start": 2645,
                 "end": 2648,
                 "value": {},
-                "raw": "/1/",
                 "regex": {
                   "pattern": "1",
                   "flags": ""
@@ -129,7 +127,6 @@
               "start": 2801,
               "end": 2804,
               "value": {},
-              "raw": "/1/",
               "regex": {
                 "pattern": "1",
                 "flags": ""
@@ -156,7 +153,6 @@
                 "start": 2817,
                 "end": 2820,
                 "value": {},
-                "raw": "/1/",
                 "regex": {
                   "pattern": "1",
                   "flags": ""
@@ -211,7 +207,6 @@
               "start": 2973,
               "end": 2976,
               "value": {},
-              "raw": "/1/",
               "regex": {
                 "pattern": "1",
                 "flags": ""
@@ -238,7 +233,6 @@
                 "start": 2989,
                 "end": 2992,
                 "value": {},
-                "raw": "/1/",
                 "regex": {
                   "pattern": "1",
                   "flags": ""

@@ -106,8 +106,7 @@
                                     "type": "Literal",
                                     "start": 374,
                                     "end": 391,
-                                    "value": "ownDataProperty",
-                                    "raw": "\"ownDataProperty\""
+                                    "value": "ownDataProperty"
                                   }
                                 }
                               ]
@@ -179,15 +178,13 @@
             "type": "Literal",
             "start": 438,
             "end": 455,
-            "value": "ownDataProperty",
-            "raw": "\"ownDataProperty\""
+            "value": "ownDataProperty"
           },
           {
             "type": "Literal",
             "start": 457,
             "end": 470,
-            "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "value": "newObj.prop"
           }
         ],
         "optional": false

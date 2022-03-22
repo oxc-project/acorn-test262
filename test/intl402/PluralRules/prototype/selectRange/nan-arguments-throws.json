@@ -133,8 +133,7 @@
                         "type": "Literal",
                         "start": 543,
                         "end": 546,
-                        "value": 100,
-                        "raw": "100"
+                        "value": 100
                       }
                     ],
                     "optional": false
@@ -147,8 +146,7 @@
             "type": "Literal",
             "start": 551,
             "end": 563,
-            "value": "NaN/Number",
-            "raw": "\"NaN/Number\""
+            "value": "NaN/Number"
           }
         ],
         "optional": false
@@ -234,8 +232,7 @@
                         "type": "Literal",
                         "start": 615,
                         "end": 618,
-                        "value": 100,
-                        "raw": "100"
+                        "value": 100
                       },
                       {
                         "type": "Identifier",
@@ -254,8 +251,7 @@
             "type": "Literal",
             "start": 628,
             "end": 640,
-            "value": "Number/NaN",
-            "raw": "\"Number/NaN\""
+            "value": "Number/NaN"
           }
         ],
         "optional": false
@@ -360,8 +356,7 @@
             "type": "Literal",
             "start": 705,
             "end": 714,
-            "value": "NaN/NaN",
-            "raw": "\"NaN/NaN\""
+            "value": "NaN/NaN"
           }
         ],
         "optional": false

@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 350,
-                  "value": "getMonth",
-                  "raw": "'getMonth'"
+                  "value": "getMonth"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 355,
             "end": 443,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('getMonth') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getMonth\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getMonth') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 505,
                   "end": 515,
-                  "value": "getMonth",
-                  "raw": "\"getMonth\""
+                  "value": "getMonth"
                 },
                 {
                   "type": "Literal",
                   "start": 517,
                   "end": 551,
-                  "value": "The value of x is not \"getMonth\"",
-                  "raw": "'The value of x is not \"getMonth\"'"
+                  "value": "The value of x is not \"getMonth\""
                 }
               ],
               "optional": false

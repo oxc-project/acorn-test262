@@ -15,8 +15,7 @@
           "type": "Literal",
           "start": 278,
           "end": 279,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         },
         "operator": "instanceof",
         "right": {
@@ -50,8 +49,7 @@
                   "type": "Literal",
                   "start": 325,
                   "end": 357,
-                  "value": "#1: 0 is not instanceof Number",
-                  "raw": "'#1: 0 is not instanceof Number'"
+                  "value": "#1: 0 is not instanceof Number"
                 }
               ]
             }
@@ -83,8 +81,7 @@
               "type": "Literal",
               "start": 384,
               "end": 385,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -121,8 +118,7 @@
                   "type": "Literal",
                   "start": 432,
                   "end": 472,
-                  "value": "#2: Number(0) is not instanceof Number",
-                  "raw": "'#2: Number(0) is not instanceof Number'"
+                  "value": "#2: Number(0) is not instanceof Number"
                 }
               ]
             }
@@ -196,8 +192,7 @@
                   "type": "Literal",
                   "start": 557,
                   "end": 591,
-                  "value": "#3: new Number instanceof Number",
-                  "raw": "'#3: new Number instanceof Number'"
+                  "value": "#3: new Number instanceof Number"
                 }
               ]
             }

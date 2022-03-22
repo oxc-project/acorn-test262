@@ -45,8 +45,7 @@
                         "type": "Literal",
                         "start": 472,
                         "end": 482,
-                        "value": "gnulluna",
-                        "raw": "\"gnulluna\""
+                        "value": "gnulluna"
                       }
                     }
                   ]
@@ -93,8 +92,7 @@
           "type": "Literal",
           "start": 519,
           "end": 534,
-          "value": "gundefineduna",
-          "raw": "\"gundefineduna\""
+          "value": "gundefineduna"
         }
       },
       "consequent": {
@@ -125,8 +123,7 @@
                     "type": "Literal",
                     "start": 563,
                     "end": 656,
-                    "value": "#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: ",
-                    "raw": "'#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: '"
+                    "value": "#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -163,8 +160,7 @@
                                   "type": "Literal",
                                   "start": 683,
                                   "end": 693,
-                                  "value": "gnulluna",
-                                  "raw": "\"gnulluna\""
+                                  "value": "gnulluna"
                                 }
                               }
                             ]

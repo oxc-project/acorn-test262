@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 442,
                             "end": 458,
-                            "value": "toLocaleString",
-                            "raw": "\"toLocaleString\""
+                            "value": "toLocaleString"
                           }
                         ],
                         "optional": false

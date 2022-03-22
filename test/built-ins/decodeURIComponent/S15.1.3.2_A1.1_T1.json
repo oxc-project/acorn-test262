@@ -57,8 +57,7 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 361,
-                  "value": "%",
-                  "raw": "\"%\""
+                  "value": "%"
                 }
               ],
               "optional": false
@@ -211,8 +210,7 @@
                   "type": "Literal",
                   "start": 502,
                   "end": 506,
-                  "value": "%A",
-                  "raw": "\"%A\""
+                  "value": "%A"
                 }
               ],
               "optional": false
@@ -365,8 +363,7 @@
                   "type": "Literal",
                   "start": 647,
                   "end": 651,
-                  "value": "%1",
-                  "raw": "\"%1\""
+                  "value": "%1"
                 }
               ],
               "optional": false
@@ -519,8 +516,7 @@
                   "type": "Literal",
                   "start": 792,
                   "end": 796,
-                  "value": "% ",
-                  "raw": "\"% \""
+                  "value": "% "
                 }
               ],
               "optional": false
@@ -692,8 +688,7 @@
                   "type": "Literal",
                   "start": 948,
                   "end": 1026,
-                  "value": "#1: If string.charAt(k) equal \"%\" and k + 2 >= string.length, throw URIError",
-                  "raw": "'#1: If string.charAt(k) equal \"%\" and k + 2 >= string.length, throw URIError'"
+                  "value": "#1: If string.charAt(k) equal \"%\" and k + 2 >= string.length, throw URIError"
                 }
               ]
             }

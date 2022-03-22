@@ -41,8 +41,7 @@
           "type": "Literal",
           "start": 380,
           "end": 381,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -73,8 +72,7 @@
                     "type": "Literal",
                     "start": 410,
                     "end": 445,
-                    "value": "#1: (true ^ null) === 1. Actual: ",
-                    "raw": "'#1: (true ^ null) === 1. Actual: '"
+                    "value": "#1: (true ^ null) === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -153,8 +151,7 @@
           "type": "Literal",
           "start": 501,
           "end": 502,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -185,8 +182,7 @@
                     "type": "Literal",
                     "start": 531,
                     "end": 566,
-                    "value": "#2: (null ^ true) === 1. Actual: ",
-                    "raw": "'#2: (null ^ true) === 1. Actual: '"
+                    "value": "#2: (null ^ true) === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -278,8 +274,7 @@
           "type": "Literal",
           "start": 635,
           "end": 636,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -310,8 +305,7 @@
                     "type": "Literal",
                     "start": 665,
                     "end": 713,
-                    "value": "#3: (new Boolean(true) ^ null) === 1. Actual: ",
-                    "raw": "'#3: (new Boolean(true) ^ null) === 1. Actual: '"
+                    "value": "#3: (new Boolean(true) ^ null) === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -416,8 +410,7 @@
           "type": "Literal",
           "start": 795,
           "end": 796,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -448,8 +441,7 @@
                     "type": "Literal",
                     "start": 825,
                     "end": 873,
-                    "value": "#4: (null ^ new Boolean(true)) === 1. Actual: ",
-                    "raw": "'#4: (null ^ new Boolean(true)) === 1. Actual: '"
+                    "value": "#4: (null ^ new Boolean(true)) === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

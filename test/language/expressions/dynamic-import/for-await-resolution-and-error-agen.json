@@ -60,8 +60,7 @@
                     "type": "Literal",
                     "start": 1001,
                     "end": 1048,
-                    "value": "./for-await-resolution-and-error-a_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-a_FIXTURE.js'"
+                    "value": "./for-await-resolution-and-error-a_FIXTURE.js"
                   }
                 },
                 {
@@ -72,8 +71,7 @@
                     "type": "Literal",
                     "start": 1064,
                     "end": 1111,
-                    "value": "./for-await-resolution-and-error-b_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-b_FIXTURE.js'"
+                    "value": "./for-await-resolution-and-error-b_FIXTURE.js"
                   }
                 },
                 {
@@ -84,8 +82,7 @@
                     "type": "Literal",
                     "start": 1127,
                     "end": 1181,
-                    "value": "./for-await-resolution-and-error-poisoned_FIXTURE.js",
-                    "raw": "'./for-await-resolution-and-error-poisoned_FIXTURE.js'"
+                    "value": "./for-await-resolution-and-error-poisoned_FIXTURE.js"
                   }
                 }
               ]
@@ -378,8 +375,7 @@
                   "type": "Literal",
                   "start": 1382,
                   "end": 1384,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 }
               ],
               "optional": false
@@ -446,8 +442,7 @@
                   "type": "Literal",
                   "start": 1425,
                   "end": 1427,
-                  "value": 39,
-                  "raw": "39"
+                  "value": 39
                 }
               ],
               "optional": false
@@ -581,8 +576,7 @@
                   "type": "Literal",
                   "start": 1545,
                   "end": 1550,
-                  "value": "foo",
-                  "raw": "'foo'"
+                  "value": "foo"
                 }
               ],
               "optional": false

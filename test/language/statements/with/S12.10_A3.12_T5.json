@@ -34,8 +34,7 @@
           "type": "Literal",
           "start": 455,
           "end": 456,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 471,
             "end": 479,
-            "value": "result",
-            "raw": "\"result\""
+            "value": "result"
           }
         }
       ],
@@ -84,8 +82,7 @@
             "type": "Literal",
             "start": 493,
             "end": 500,
-            "value": "value",
-            "raw": "\"value\""
+            "value": "value"
           }
         }
       ],
@@ -128,8 +125,7 @@
                   "type": "Literal",
                   "start": 519,
                   "end": 522,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               },
@@ -150,8 +146,7 @@
                   "type": "Literal",
                   "start": 545,
                   "end": 558,
-                  "value": "myObj_value",
-                  "raw": "'myObj_value'"
+                  "value": "myObj_value"
                 },
                 "kind": "init"
               },
@@ -190,8 +185,7 @@
                           "type": "Literal",
                           "start": 601,
                           "end": 614,
-                          "value": "obj_valueOf",
-                          "raw": "'obj_valueOf'"
+                          "value": "obj_valueOf"
                         }
                       }
                     ]
@@ -288,8 +282,7 @@
                                   "type": "Literal",
                                   "start": 695,
                                   "end": 699,
-                                  "value": "x1",
-                                  "raw": "'x1'"
+                                  "value": "x1"
                                 }
                               }
                             }
@@ -395,8 +388,7 @@
               "type": "Literal",
               "start": 759,
               "end": 760,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         }
@@ -429,8 +421,7 @@
                     "type": "Literal",
                     "start": 789,
                     "end": 820,
-                    "value": "#1: p1 === 1. Actual:  p1 ===",
-                    "raw": "'#1: p1 === 1. Actual:  p1 ==='"
+                    "value": "#1: p1 === 1. Actual:  p1 ==="
                   },
                   "operator": "+",
                   "right": {
@@ -489,8 +480,7 @@
               "type": "Literal",
               "start": 850,
               "end": 853,
-              "value": "a",
-              "raw": "\"a\""
+              "value": "a"
             }
           }
         }
@@ -523,8 +513,7 @@
                     "type": "Literal",
                     "start": 882,
                     "end": 927,
-                    "value": "#2: myObj.p1 === \"a\". Actual:  myObj.p1 ===",
-                    "raw": "'#2: myObj.p1 === \"a\". Actual:  myObj.p1 ==='"
+                    "value": "#2: myObj.p1 === \"a\". Actual:  myObj.p1 ==="
                   },
                   "operator": "+",
                   "right": {
@@ -583,8 +572,7 @@
               "type": "Literal",
               "start": 961,
               "end": 974,
-              "value": "myObj_value",
-              "raw": "\"myObj_value\""
+              "value": "myObj_value"
             }
           }
         }
@@ -617,8 +605,7 @@
                     "type": "Literal",
                     "start": 1003,
                     "end": 1054,
-                    "value": "#3: result === \"myObj_value\". Actual:  result ===",
-                    "raw": "'#3: result === \"myObj_value\". Actual:  result ==='"
+                    "value": "#3: result === \"myObj_value\". Actual:  result ==="
                   },
                   "operator": "+",
                   "right": {

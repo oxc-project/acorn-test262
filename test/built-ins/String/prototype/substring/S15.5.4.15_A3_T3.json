@@ -33,36 +33,31 @@
                 "type": "Literal",
                 "start": 439,
                 "end": 440,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 442,
                 "end": 443,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 445,
                 "end": 446,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 448,
                 "end": 449,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 452,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -186,8 +181,7 @@
           "type": "Literal",
           "start": 638,
           "end": 641,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       },
       "consequent": {
@@ -218,8 +212,7 @@
                     "type": "Literal",
                     "start": 670,
                     "end": 813,
-                    "value": "#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(true, false) === \"1\". Actual: ",
-                    "raw": "'#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(true, false) === \"1\". Actual: '"
+                    "value": "#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(true, false) === \"1\". Actual: "
                   },
                   "operator": "+",
                   "right": {

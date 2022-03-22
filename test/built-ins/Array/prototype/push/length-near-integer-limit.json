@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 602,
                   "end": 620,
-                  "value": "9007199254740989",
-                  "raw": "\"9007199254740989\""
+                  "value": "9007199254740989"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 622,
                   "end": 640,
-                  "value": "9007199254740989",
-                  "raw": "\"9007199254740989\""
+                  "value": "9007199254740989"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 678,
                   "end": 696,
-                  "value": "9007199254740991",
-                  "raw": "\"9007199254740991\""
+                  "value": "9007199254740991"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 698,
                   "end": 716,
-                  "value": "9007199254740991",
-                  "raw": "\"9007199254740991\""
+                  "value": "9007199254740991"
                 },
                 "kind": "init"
               },
@@ -94,16 +90,14 @@
                       "type": "Literal",
                       "start": 728,
                       "end": 729,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "operator": "**",
                     "right": {
                       "type": "Literal",
                       "start": 733,
                       "end": 735,
-                      "value": 53,
-                      "raw": "53"
+                      "value": 53
                     }
                   },
                   "operator": "-",
@@ -111,8 +105,7 @@
                     "type": "Literal",
                     "start": 738,
                     "end": 739,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 },
                 "kind": "init"
@@ -187,8 +180,7 @@
             "type": "Literal",
             "start": 781,
             "end": 792,
-            "value": "new-value",
-            "raw": "\"new-value\""
+            "value": "new-value"
           }
         ],
         "optional": false
@@ -253,16 +245,14 @@
                 "type": "Literal",
                 "start": 831,
                 "end": 832,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               "operator": "**",
               "right": {
                 "type": "Literal",
                 "start": 836,
                 "end": 838,
-                "value": 53,
-                "raw": "53"
+                "value": 53
               }
             },
             "operator": "-",
@@ -270,16 +260,14 @@
               "type": "Literal",
               "start": 841,
               "end": 842,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 846,
             "end": 881,
-            "value": "New arrayLike.length is 2**53 - 1",
-            "raw": "\"New arrayLike.length is 2**53 - 1\""
+            "value": "New arrayLike.length is 2**53 - 1"
           }
         ],
         "optional": false
@@ -327,8 +315,7 @@
               "type": "Literal",
               "start": 912,
               "end": 930,
-              "value": "9007199254740989",
-              "raw": "\"9007199254740989\""
+              "value": "9007199254740989"
             },
             "computed": true,
             "optional": false
@@ -337,15 +324,13 @@
             "type": "Literal",
             "start": 933,
             "end": 951,
-            "value": "9007199254740989",
-            "raw": "\"9007199254740989\""
+            "value": "9007199254740989"
           },
           {
             "type": "Literal",
             "start": 955,
             "end": 999,
-            "value": "arrayLike['9007199254740989'] is unchanged",
-            "raw": "\"arrayLike['9007199254740989'] is unchanged\""
+            "value": "arrayLike['9007199254740989'] is unchanged"
           }
         ],
         "optional": false
@@ -393,8 +378,7 @@
               "type": "Literal",
               "start": 1030,
               "end": 1048,
-              "value": "9007199254740990",
-              "raw": "\"9007199254740990\""
+              "value": "9007199254740990"
             },
             "computed": true,
             "optional": false
@@ -403,15 +387,13 @@
             "type": "Literal",
             "start": 1051,
             "end": 1062,
-            "value": "new-value",
-            "raw": "\"new-value\""
+            "value": "new-value"
           },
           {
             "type": "Literal",
             "start": 1066,
             "end": 1111,
-            "value": "arrayLike['9007199254740990'] has new value",
-            "raw": "\"arrayLike['9007199254740990'] has new value\""
+            "value": "arrayLike['9007199254740990'] has new value"
           }
         ],
         "optional": false
@@ -459,8 +441,7 @@
               "type": "Literal",
               "start": 1142,
               "end": 1160,
-              "value": "9007199254740991",
-              "raw": "\"9007199254740991\""
+              "value": "9007199254740991"
             },
             "computed": true,
             "optional": false
@@ -469,15 +450,13 @@
             "type": "Literal",
             "start": 1163,
             "end": 1181,
-            "value": "9007199254740991",
-            "raw": "\"9007199254740991\""
+            "value": "9007199254740991"
           },
           {
             "type": "Literal",
             "start": 1185,
             "end": 1229,
-            "value": "arrayLike['9007199254740991'] is unchanged",
-            "raw": "\"arrayLike['9007199254740991'] is unchanged\""
+            "value": "arrayLike['9007199254740991'] is unchanged"
           }
         ],
         "optional": false

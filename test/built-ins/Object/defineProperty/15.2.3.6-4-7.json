@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 622,
                   "end": 625,
-                  "value": 101,
-                  "raw": "101"
+                  "value": 101
                 },
                 "kind": "init"
               },
@@ -136,8 +135,7 @@
             "type": "Literal",
             "start": 677,
             "end": 682,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Identifier",
@@ -186,8 +184,7 @@
                   "type": "Literal",
                   "start": 712,
                   "end": 715,
-                  "value": 101,
-                  "raw": "101"
+                  "value": 101
                 },
                 "kind": "init"
               },
@@ -305,8 +302,7 @@
                         "type": "Literal",
                         "start": 806,
                         "end": 811,
-                        "value": "foo",
-                        "raw": "\"foo\""
+                        "value": "foo"
                       },
                       {
                         "type": "Identifier",
@@ -374,8 +370,7 @@
                 "type": "Literal",
                 "start": 909,
                 "end": 914,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -435,15 +430,13 @@
             "type": "Literal",
             "start": 944,
             "end": 947,
-            "value": 101,
-            "raw": "101"
+            "value": 101
           },
           {
             "type": "Literal",
             "start": 949,
             "end": 959,
-            "value": "d2.value",
-            "raw": "'d2.value'"
+            "value": "d2.value"
           }
         ],
         "optional": false
@@ -507,8 +500,7 @@
             "type": "Literal",
             "start": 1003,
             "end": 1020,
-            "value": "d2.configurable",
-            "raw": "'d2.configurable'"
+            "value": "d2.configurable"
           }
         ],
         "optional": false

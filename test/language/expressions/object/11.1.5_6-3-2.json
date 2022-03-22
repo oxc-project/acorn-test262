@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 522,
             "end": 551,
-            "value": "o = {get foo(){return 1;}};",
-            "raw": "\"o = {get foo(){return 1;}};\""
+            "value": "o = {get foo(){return 1;}};"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
                 "type": "Literal",
                 "start": 601,
                 "end": 606,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -165,8 +163,7 @@
             "type": "Literal",
             "start": 648,
             "end": 658,
-            "value": "desc.set",
-            "raw": "'desc.set'"
+            "value": "desc.set"
           }
         ],
         "optional": false

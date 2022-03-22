@@ -118,8 +118,7 @@
             "type": "Literal",
             "start": 311,
             "end": 372,
-            "value": "Array.prototype.some.call(true, () => {}) must return false",
-            "raw": "'Array.prototype.some.call(true, () => {}) must return false'"
+            "value": "Array.prototype.some.call(true, () => {}) must return false"
           }
         ],
         "optional": false
@@ -240,8 +239,7 @@
             "type": "Literal",
             "start": 451,
             "end": 513,
-            "value": "Array.prototype.some.call(false, () => {}) must return false",
-            "raw": "'Array.prototype.some.call(false, () => {}) must return false'"
+            "value": "Array.prototype.some.call(false, () => {}) must return false"
           }
         ],
         "optional": false

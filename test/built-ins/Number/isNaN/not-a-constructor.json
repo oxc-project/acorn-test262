@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 737,
             "end": 784,
-            "value": "isConstructor(Number.isNaN) must return false",
-            "raw": "'isConstructor(Number.isNaN) must return false'"
+            "value": "isConstructor(Number.isNaN) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 846,
             "end": 885,
-            "value": "`new Number.isNaN()` throws TypeError",
-            "raw": "'`new Number.isNaN()` throws TypeError'"
+            "value": "`new Number.isNaN()` throws TypeError"
           }
         ],
         "optional": false

@@ -44,22 +44,19 @@
                     "type": "Literal",
                     "start": 566,
                     "end": 567,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 569,
                     "end": 570,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 572,
                     "end": 573,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               }
@@ -95,8 +92,7 @@
           "type": "Literal",
           "start": 687,
           "end": 695,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -127,8 +123,7 @@
                     "type": "Literal",
                     "start": 724,
                     "end": 819,
-                    "value": "#1: __str = new String(new Array(1,2,3)); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(new Array(1,2,3)); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "value": "#1: __str = new String(new Array(1,2,3)); typeof __str === \"object\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -215,8 +210,7 @@
                     "type": "Literal",
                     "start": 1074,
                     "end": 1179,
-                    "value": "#1.5: __str = new String(new Array(1,2,3)); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(new Array(1,2,3)); __str.constructor === String. Actual: __str.constructor ==='"
+                    "value": "#1.5: __str = new String(new Array(1,2,3)); __str.constructor === String. Actual: __str.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -265,8 +259,7 @@
           "type": "Literal",
           "start": 1389,
           "end": 1396,
-          "value": "1,2,3",
-          "raw": "\"1,2,3\""
+          "value": "1,2,3"
         }
       },
       "consequent": {
@@ -297,8 +290,7 @@
                     "type": "Literal",
                     "start": 1425,
                     "end": 1502,
-                    "value": "#2: __str = new String(new Array(1,2,3)); __str ==\"1,2,3\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(new Array(1,2,3)); __str ==\"1,2,3\". Actual: __str =='"
+                    "value": "#2: __str = new String(new Array(1,2,3)); __str ==\"1,2,3\". Actual: __str =="
                   },
                   "operator": "+",
                   "right": {

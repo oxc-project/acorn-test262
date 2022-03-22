@@ -34,8 +34,7 @@
           "type": "Literal",
           "start": 423,
           "end": 424,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 440,
             "end": 448,
-            "value": "result",
-            "raw": "\"result\""
+            "value": "result"
           }
         }
       ],
@@ -102,8 +100,7 @@
                   "type": "Literal",
                   "start": 473,
                   "end": 476,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               },
@@ -124,8 +121,7 @@
                   "type": "Literal",
                   "start": 490,
                   "end": 503,
-                  "value": "myObj_value",
-                  "raw": "'myObj_value'"
+                  "value": "myObj_value"
                 },
                 "kind": "init"
               },
@@ -164,8 +160,7 @@
                           "type": "Literal",
                           "start": 537,
                           "end": 550,
-                          "value": "obj_valueOf",
-                          "raw": "'obj_valueOf'"
+                          "value": "obj_valueOf"
                         }
                       }
                     ]
@@ -248,8 +243,7 @@
                       "type": "Literal",
                       "start": 610,
                       "end": 614,
-                      "value": "x1",
-                      "raw": "'x1'"
+                      "value": "x1"
                     }
                   }
                 }
@@ -278,8 +272,7 @@
           "type": "Literal",
           "start": 724,
           "end": 725,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -310,8 +303,7 @@
                     "type": "Literal",
                     "start": 753,
                     "end": 784,
-                    "value": "#1: p1 === 1. Actual:  p1 ===",
-                    "raw": "'#1: p1 === 1. Actual:  p1 ==='"
+                    "value": "#1: p1 === 1. Actual:  p1 ==="
                   },
                   "operator": "+",
                   "right": {
@@ -360,8 +352,7 @@
           "type": "Literal",
           "start": 983,
           "end": 987,
-          "value": "x1",
-          "raw": "\"x1\""
+          "value": "x1"
         }
       },
       "consequent": {
@@ -392,8 +383,7 @@
                     "type": "Literal",
                     "start": 1015,
                     "end": 1061,
-                    "value": "#2: myObj.p1 === \"x1\". Actual:  myObj.p1 ===",
-                    "raw": "'#2: myObj.p1 === \"x1\". Actual:  myObj.p1 ==='"
+                    "value": "#2: myObj.p1 === \"x1\". Actual:  myObj.p1 ==="
                   },
                   "operator": "+",
                   "right": {

@@ -41,15 +41,13 @@
             "type": "Literal",
             "start": 318,
             "end": 333,
-            "value": "formatMatcher",
-            "raw": "\"formatMatcher\""
+            "value": "formatMatcher"
           },
           {
             "type": "Literal",
             "start": 335,
             "end": 343,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           },
           {
             "type": "ArrayExpression",
@@ -60,15 +58,13 @@
                 "type": "Literal",
                 "start": 346,
                 "end": 353,
-                "value": "basic",
-                "raw": "\"basic\""
+                "value": "basic"
               },
               {
                 "type": "Literal",
                 "start": 355,
                 "end": 365,
-                "value": "best fit",
-                "raw": "\"best fit\""
+                "value": "best fit"
               }
             ]
           },
@@ -76,8 +72,7 @@
             "type": "Literal",
             "start": 368,
             "end": 378,
-            "value": "best fit",
-            "raw": "\"best fit\""
+            "value": "best fit"
           },
           {
             "type": "ObjectExpression",

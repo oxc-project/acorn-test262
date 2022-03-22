@@ -30,16 +30,14 @@
                   "type": "Literal",
                   "start": 316,
                   "end": 333,
-                  "value": 86400000000001,
-                  "raw": "86400_000_000_001"
+                  "value": 86400000000001
                 }
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 352,
-                "value": 86400000000001,
-                "raw": "86400_000_000_001"
+                "value": 86400000000001
               },
               {
                 "type": "UnaryExpression",
@@ -247,8 +245,7 @@
                                     "type": "Literal",
                                     "start": 545,
                                     "end": 549,
-                                    "value": 2000,
-                                    "raw": "2000"
+                                    "value": 2000
                                   },
                                   "kind": "init"
                                 },
@@ -269,8 +266,7 @@
                                     "type": "Literal",
                                     "start": 558,
                                     "end": 559,
-                                    "value": 5,
-                                    "raw": "5"
+                                    "value": 5
                                   },
                                   "kind": "init"
                                 },
@@ -291,8 +287,7 @@
                                     "type": "Literal",
                                     "start": 566,
                                     "end": 567,
-                                    "value": 2,
-                                    "raw": "2"
+                                    "value": 2
                                   },
                                   "kind": "init"
                                 },
@@ -313,8 +308,7 @@
                                     "type": "Literal",
                                     "start": 575,
                                     "end": 577,
-                                    "value": 12,
-                                    "raw": "12"
+                                    "value": 12
                                   },
                                   "kind": "init"
                                 },

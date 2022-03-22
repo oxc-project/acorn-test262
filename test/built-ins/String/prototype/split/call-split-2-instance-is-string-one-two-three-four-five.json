@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 741,
                 "end": 766,
-                "value": "one two three four five",
-                "raw": "\"one two three four five\""
+                "value": "one two three four five"
               }
             ]
           }
@@ -86,7 +85,6 @@
                 "start": 799,
                 "end": 802,
                 "value": {},
-                "raw": "/ /",
                 "regex": {
                   "pattern": " ",
                   "flags": ""
@@ -96,8 +94,7 @@
                 "type": "Literal",
                 "start": 804,
                 "end": 805,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -163,8 +160,7 @@
             "type": "Literal",
             "start": 861,
             "end": 935,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -221,15 +217,13 @@
             "type": "Literal",
             "start": 973,
             "end": 974,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 976,
             "end": 1010,
-            "value": "The value of __split.length is 2",
-            "raw": "'The value of __split.length is 2'"
+            "value": "The value of __split.length is 2"
           }
         ],
         "optional": false
@@ -277,8 +271,7 @@
               "type": "Literal",
               "start": 1038,
               "end": 1039,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -287,15 +280,13 @@
             "type": "Literal",
             "start": 1042,
             "end": 1047,
-            "value": "one",
-            "raw": "\"one\""
+            "value": "one"
           },
           {
             "type": "Literal",
             "start": 1049,
             "end": 1083,
-            "value": "The value of __split[0] is \"one\"",
-            "raw": "'The value of __split[0] is \"one\"'"
+            "value": "The value of __split[0] is \"one\""
           }
         ],
         "optional": false
@@ -343,8 +334,7 @@
               "type": "Literal",
               "start": 1111,
               "end": 1112,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -353,15 +343,13 @@
             "type": "Literal",
             "start": 1115,
             "end": 1120,
-            "value": "two",
-            "raw": "\"two\""
+            "value": "two"
           },
           {
             "type": "Literal",
             "start": 1122,
             "end": 1156,
-            "value": "The value of __split[1] is \"two\"",
-            "raw": "'The value of __split[1] is \"two\"'"
+            "value": "The value of __split[1] is \"two\""
           }
         ],
         "optional": false

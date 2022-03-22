@@ -31,7 +31,6 @@
                 "start": 453,
                 "end": 461,
                 "value": {},
-                "raw": "/\\u{0}/u",
                 "regex": {
                   "pattern": "\\u{0}",
                   "flags": "u"
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 467,
                 "end": 475,
-                "value": "\u0000",
-                "raw": "'\\u0000'"
+                "value": "\u0000"
               }
             ],
             "optional": false
@@ -61,8 +59,7 @@
             "type": "Literal",
             "start": 478,
             "end": 502,
-            "value": "Minimum value (U+0000)",
-            "raw": "'Minimum value (U+0000)'"
+            "value": "Minimum value (U+0000)"
           }
         ],
         "optional": false
@@ -96,7 +93,6 @@
                 "start": 512,
                 "end": 520,
                 "value": {},
-                "raw": "/\\u{1}/u",
                 "regex": {
                   "pattern": "\\u{1}",
                   "flags": "u"
@@ -116,8 +112,7 @@
                 "type": "Literal",
                 "start": 526,
                 "end": 534,
-                "value": "\u0001",
-                "raw": "'\\u0001'"
+                "value": "\u0001"
               }
             ],
             "optional": false
@@ -126,8 +121,7 @@
             "type": "Literal",
             "start": 537,
             "end": 545,
-            "value": "U+0001",
-            "raw": "'U+0001'"
+            "value": "U+0001"
           }
         ],
         "optional": false
@@ -174,7 +168,6 @@
                 "start": 565,
                 "end": 573,
                 "value": {},
-                "raw": "/\\u{1}/u",
                 "regex": {
                   "pattern": "\\u{1}",
                   "flags": "u"
@@ -194,8 +187,7 @@
                 "type": "Literal",
                 "start": 579,
                 "end": 582,
-                "value": "u",
-                "raw": "'u'"
+                "value": "u"
               }
             ],
             "optional": false
@@ -239,7 +231,6 @@
                 "start": 600,
                 "end": 609,
                 "value": {},
-                "raw": "/\\u{3f}/u",
                 "regex": {
                   "pattern": "\\u{3f}",
                   "flags": "u"
@@ -259,8 +250,7 @@
                 "type": "Literal",
                 "start": 615,
                 "end": 618,
-                "value": "?",
-                "raw": "'?'"
+                "value": "?"
               }
             ],
             "optional": false
@@ -297,7 +287,6 @@
                 "start": 629,
                 "end": 646,
                 "value": {},
-                "raw": "/\\u{000000003f}/u",
                 "regex": {
                   "pattern": "\\u{000000003f}",
                   "flags": "u"
@@ -317,8 +306,7 @@
                 "type": "Literal",
                 "start": 652,
                 "end": 655,
-                "value": "?",
-                "raw": "'?'"
+                "value": "?"
               }
             ],
             "optional": false
@@ -327,8 +315,7 @@
             "type": "Literal",
             "start": 658,
             "end": 673,
-            "value": "Leading zeros",
-            "raw": "'Leading zeros'"
+            "value": "Leading zeros"
           }
         ],
         "optional": false
@@ -362,7 +349,6 @@
                 "start": 683,
                 "end": 692,
                 "value": {},
-                "raw": "/\\u{3F}/u",
                 "regex": {
                   "pattern": "\\u{3F}",
                   "flags": "u"
@@ -382,8 +368,7 @@
                 "type": "Literal",
                 "start": 698,
                 "end": 701,
-                "value": "?",
-                "raw": "'?'"
+                "value": "?"
               }
             ],
             "optional": false
@@ -392,8 +377,7 @@
             "type": "Literal",
             "start": 704,
             "end": 724,
-            "value": "Case insensitivity",
-            "raw": "'Case insensitivity'"
+            "value": "Case insensitivity"
           }
         ],
         "optional": false
@@ -427,7 +411,6 @@
                 "start": 734,
                 "end": 747,
                 "value": {},
-                "raw": "/\\u{10ffff}/u",
                 "regex": {
                   "pattern": "\\u{10ffff}",
                   "flags": "u"
@@ -447,8 +430,7 @@
                 "type": "Literal",
                 "start": 753,
                 "end": 767,
-                "value": "􏿿",
-                "raw": "'\\udbff\\udfff'"
+                "value": "􏿿"
               }
             ],
             "optional": false
@@ -457,8 +439,7 @@
             "type": "Literal",
             "start": 770,
             "end": 797,
-            "value": "Maxiumum value (U+10ffff)",
-            "raw": "'Maxiumum value (U+10ffff)'"
+            "value": "Maxiumum value (U+10ffff)"
           }
         ],
         "optional": false

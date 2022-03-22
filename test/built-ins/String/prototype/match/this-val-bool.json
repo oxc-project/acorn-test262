@@ -175,8 +175,7 @@
             "type": "Literal",
             "start": 526,
             "end": 527,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -186,8 +185,7 @@
           "type": "Literal",
           "start": 533,
           "end": 540,
-          "value": "false",
-          "raw": "\"false\""
+          "value": "false"
         }
       },
       "consequent": {
@@ -218,8 +216,7 @@
                     "type": "Literal",
                     "start": 569,
                     "end": 715,
-                    "value": "#1: __instance = new Boolean; __instance.match = String.prototype.match;  __instance.match(function(){return false;}())[0] === \"false\". Actual: ",
-                    "raw": "'#1: __instance = new Boolean; __instance.match = String.prototype.match;  __instance.match(function(){return false;}())[0] === \"false\". Actual: '"
+                    "value": "#1: __instance = new Boolean; __instance.match = String.prototype.match;  __instance.match(function(){return false;}())[0] === \"false\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -293,8 +290,7 @@
                       "type": "Literal",
                       "start": 773,
                       "end": 774,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false

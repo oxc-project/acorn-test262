@@ -87,8 +87,7 @@
             "type": "Literal",
             "start": 332,
             "end": 362,
-            "value": "Object.getPrototypeOf(Array)",
-            "raw": "'Object.getPrototypeOf(Array)'"
+            "value": "Object.getPrototypeOf(Array)"
           }
         ],
         "optional": false

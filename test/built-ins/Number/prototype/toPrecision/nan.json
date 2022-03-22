@@ -68,15 +68,13 @@
             "type": "Literal",
             "start": 1198,
             "end": 1203,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           },
           {
             "type": "Literal",
             "start": 1207,
             "end": 1264,
-            "value": "step 2: If precision is undefined, return ! ToString(x)",
-            "raw": "\"step 2: If precision is undefined, return ! ToString(x)\""
+            "value": "step 2: If precision is undefined, return ! ToString(x)"
           }
         ],
         "optional": false
@@ -101,8 +99,7 @@
             "type": "Literal",
             "start": 1281,
             "end": 1282,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -260,15 +257,13 @@
             "type": "Literal",
             "start": 1398,
             "end": 1403,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           },
           {
             "type": "Literal",
             "start": 1405,
             "end": 1412,
-            "value": "value",
-            "raw": "\"value\""
+            "value": "value"
           }
         ],
         "optional": false
@@ -312,15 +307,13 @@
             "type": "Literal",
             "start": 1439,
             "end": 1440,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1442,
             "end": 1485,
-            "value": "NaN is checked after ToInteger(precision)",
-            "raw": "\"NaN is checked after ToInteger(precision)\""
+            "value": "NaN is checked after ToInteger(precision)"
           }
         ],
         "optional": false
@@ -383,8 +376,7 @@
           "type": "Literal",
           "start": 1522,
           "end": 1523,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -453,15 +445,13 @@
             "type": "Literal",
             "start": 1560,
             "end": 1565,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           },
           {
             "type": "Literal",
             "start": 1567,
             "end": 1575,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           }
         ],
         "optional": false
@@ -505,15 +495,13 @@
             "type": "Literal",
             "start": 1602,
             "end": 1603,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1605,
             "end": 1655,
-            "value": "Number NaN is checked after ToInteger(precision)",
-            "raw": "\"Number NaN is checked after ToInteger(precision)\""
+            "value": "Number NaN is checked after ToInteger(precision)"
           }
         ],
         "optional": false

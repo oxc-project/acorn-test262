@@ -63,8 +63,7 @@
           "type": "Literal",
           "start": 647,
           "end": 650,
-          "value": "x",
-          "raw": "'x'"
+          "value": "x"
         },
         "operator": "in",
         "right": {
@@ -111,8 +110,7 @@
                       "type": "Literal",
                       "start": 664,
                       "end": 695,
-                      "value": "./eval-export-dflt-expr-in.js",
-                      "raw": "'./eval-export-dflt-expr-in.js'"
+                      "value": "./eval-export-dflt-expr-in.js"
                     }
                   },
                   "property": {

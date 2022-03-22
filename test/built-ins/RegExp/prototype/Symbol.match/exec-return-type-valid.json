@@ -23,7 +23,6 @@
             "start": 658,
             "end": 661,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -204,8 +203,7 @@
                 "type": "Literal",
                 "start": 772,
                 "end": 774,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -312,8 +310,7 @@
                 "type": "Literal",
                 "start": 837,
                 "end": 839,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 2017,
             "end": 2018,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 2038,
             "end": 2039,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 2059,
             "end": 2060,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -224,8 +221,7 @@
                             "type": "Literal",
                             "start": 2175,
                             "end": 2176,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -335,8 +331,7 @@
                             "type": "Literal",
                             "start": 2269,
                             "end": 2270,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -548,8 +543,7 @@
                   "type": "Literal",
                   "start": 2452,
                   "end": 2453,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -622,8 +616,7 @@
                       "type": "Literal",
                       "start": 2512,
                       "end": 2513,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -646,8 +639,7 @@
                       "type": "Literal",
                       "start": 2528,
                       "end": 2529,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -692,8 +684,7 @@
                   "type": "Literal",
                   "start": 2560,
                   "end": 2561,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -806,8 +797,7 @@
             "type": "Literal",
             "start": 2623,
             "end": 2624,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -851,8 +841,7 @@
             "type": "Literal",
             "start": 2657,
             "end": 2658,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -901,8 +890,7 @@
               "type": "Literal",
               "start": 2683,
               "end": 2686,
-              "value": 888,
-              "raw": "888"
+              "value": 888
             }
           ],
           "optional": false
@@ -947,8 +935,7 @@
             "type": "Literal",
             "start": 2718,
             "end": 2719,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -992,8 +979,7 @@
             "type": "Literal",
             "start": 2752,
             "end": 2753,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -1037,15 +1023,13 @@
             "type": "Literal",
             "start": 2786,
             "end": 2787,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2789,
             "end": 2829,
-            "value": "Unreachable statement was not executed",
-            "raw": "'Unreachable statement was not executed'"
+            "value": "Unreachable statement was not executed"
           }
         ],
         "optional": false
@@ -1102,8 +1086,7 @@
             "type": "Literal",
             "start": 2863,
             "end": 2866,
-            "value": 888,
-            "raw": "888"
+            "value": 888
           }
         ],
         "optional": false
@@ -1147,8 +1130,7 @@
             "type": "Literal",
             "start": 2889,
             "end": 2916,
-            "value": "Iterator correctly closed",
-            "raw": "'Iterator correctly closed'"
+            "value": "Iterator correctly closed"
           }
         ],
         "optional": false
@@ -1198,8 +1180,7 @@
             "type": "Literal",
             "start": 2957,
             "end": 2979,
-            "value": "correct `this` value",
-            "raw": "'correct `this` value'"
+            "value": "correct `this` value"
           }
         ],
         "optional": false
@@ -1244,8 +1225,7 @@
             "type": "Literal",
             "start": 2997,
             "end": 3024,
-            "value": "arguments object provided",
-            "raw": "'arguments object provided'"
+            "value": "arguments object provided"
           }
         ],
         "optional": false
@@ -1302,15 +1282,13 @@
             "type": "Literal",
             "start": 3057,
             "end": 3058,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 3060,
             "end": 3086,
-            "value": "zero arguments specified",
-            "raw": "'zero arguments specified'"
+            "value": "zero arguments specified"
           }
         ],
         "optional": false

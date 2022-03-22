@@ -58,8 +58,7 @@
                         "type": "Literal",
                         "start": 990,
                         "end": 991,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -139,8 +138,7 @@
                                       "type": "Literal",
                                       "start": 1051,
                                       "end": 1052,
-                                      "value": 9,
-                                      "raw": "9"
+                                      "value": 9
                                     }
                                   }
                                 ]
@@ -191,15 +189,13 @@
                         "type": "Literal",
                         "start": 1094,
                         "end": 1095,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1097,
                         "end": 1126,
-                        "value": "The value of `counter` is 0",
-                        "raw": "'The value of `counter` is 0'"
+                        "value": "The value of `counter` is 0"
                       }
                     ],
                     "optional": false
@@ -288,15 +284,13 @@
                         "type": "Literal",
                         "start": 1183,
                         "end": 1184,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1186,
                         "end": 1215,
-                        "value": "The value of `counter` is 1",
-                        "raw": "'The value of `counter` is 1'"
+                        "value": "The value of `counter` is 1"
                       }
                     ],
                     "optional": false
@@ -404,15 +398,13 @@
                               "type": "Literal",
                               "start": 1306,
                               "end": 1307,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             {
                               "type": "Literal",
                               "start": 1309,
                               "end": 1338,
-                              "value": "The value of `counter` is 1",
-                              "raw": "'The value of `counter` is 1'"
+                              "value": "The value of `counter` is 1"
                             }
                           ],
                           "optional": false

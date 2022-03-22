@@ -95,8 +95,7 @@
                         "type": "Literal",
                         "start": 952,
                         "end": 958,
-                        "value": "o.#f",
-                        "raw": "\"o.#f\""
+                        "value": "o.#f"
                       }
                     ],
                     "optional": false
@@ -109,8 +108,7 @@
             "type": "Literal",
             "start": 964,
             "end": 1049,
-            "value": "It should be a SyntaxError if AllPrivateIdentifiersValid returns false to eval body",
-            "raw": "'It should be a SyntaxError if AllPrivateIdentifiersValid returns false to eval body'"
+            "value": "It should be a SyntaxError if AllPrivateIdentifiersValid returns false to eval body"
           }
         ],
         "optional": false

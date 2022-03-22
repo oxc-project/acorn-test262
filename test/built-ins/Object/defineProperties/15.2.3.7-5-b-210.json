@@ -109,8 +109,7 @@
                   "type": "Literal",
                   "start": 411,
                   "end": 417,
-                  "value": "Date",
-                  "raw": "\"Date\""
+                  "value": "Date"
                 }
               }
             ]
@@ -235,15 +234,13 @@
             "type": "Literal",
             "start": 510,
             "end": 516,
-            "value": "Date",
-            "raw": "\"Date\""
+            "value": "Date"
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 532,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

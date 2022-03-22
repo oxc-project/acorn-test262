@@ -55,8 +55,7 @@
               "type": "Literal",
               "start": 393,
               "end": 395,
-              "value": 10,
-              "raw": "10"
+              "value": 10
             }
           }
         ]
@@ -165,8 +164,7 @@
             "type": "Literal",
             "start": 486,
             "end": 491,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -270,8 +268,7 @@
               "type": "Literal",
               "start": 586,
               "end": 588,
-              "value": 20,
-              "raw": "20"
+              "value": 20
             }
           }
         ]
@@ -315,8 +312,7 @@
             "type": "Literal",
             "start": 620,
             "end": 625,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -375,8 +371,7 @@
             "type": "Literal",
             "start": 668,
             "end": 673,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "CallExpression",
@@ -420,15 +415,13 @@
             "type": "Literal",
             "start": 709,
             "end": 714,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 731,
-            "value": "helpVerifySet",
-            "raw": "\"helpVerifySet\""
+            "value": "helpVerifySet"
           }
         ],
         "optional": false
@@ -459,8 +452,7 @@
             "type": "Literal",
             "start": 760,
             "end": 765,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -491,8 +483,7 @@
             "type": "Literal",
             "start": 793,
             "end": 798,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false

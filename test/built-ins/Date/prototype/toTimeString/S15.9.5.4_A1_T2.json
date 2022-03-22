@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 385,
             "end": 447,
-            "value": "The value of delete Date.prototype.toTimeString is not false",
-            "raw": "'The value of delete Date.prototype.toTimeString is not false'"
+            "value": "The value of delete Date.prototype.toTimeString is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 493,
                   "end": 507,
-                  "value": "toTimeString",
-                  "raw": "'toTimeString'"
+                  "value": "toTimeString"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 512,
             "end": 598,
-            "value": "The value of !Date.prototype.hasOwnProperty('toTimeString') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'toTimeString\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('toTimeString') is expected to be true"
           }
         ],
         "optional": false

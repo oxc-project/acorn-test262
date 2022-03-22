@@ -84,8 +84,7 @@
                   "type": "Literal",
                   "start": 404,
                   "end": 422,
-                  "value": "VerifyDateObject",
-                  "raw": "\"VerifyDateObject\""
+                  "value": "VerifyDateObject"
                 }
               }
             ]
@@ -224,15 +223,13 @@
             "type": "Literal",
             "start": 512,
             "end": 530,
-            "value": "VerifyDateObject",
-            "raw": "\"VerifyDateObject\""
+            "value": "VerifyDateObject"
           },
           {
             "type": "Literal",
             "start": 532,
             "end": 545,
-            "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "value": "newObj.prop"
           }
         ],
         "optional": false

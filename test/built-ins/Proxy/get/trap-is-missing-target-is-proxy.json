@@ -23,7 +23,6 @@
             "start": 608,
             "end": 615,
             "value": {},
-            "raw": "/(?:)/i",
             "regex": {
               "pattern": "(?:)",
               "flags": "i"
@@ -199,8 +198,7 @@
             "type": "Literal",
             "start": 762,
             "end": 763,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -498,8 +496,7 @@
             "type": "Literal",
             "start": 1006,
             "end": 1007,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

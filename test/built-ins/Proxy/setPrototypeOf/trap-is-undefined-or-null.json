@@ -143,8 +143,7 @@
                                 "type": "Literal",
                                 "start": 714,
                                 "end": 715,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           },
@@ -282,8 +281,7 @@
           "type": "Literal",
           "start": 814,
           "end": 815,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -393,15 +391,13 @@
             "type": "Literal",
             "start": 894,
             "end": 895,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 897,
             "end": 945,
-            "value": "undefined, target.[[SetPrototypeOf]] is called",
-            "raw": "\"undefined, target.[[SetPrototypeOf]] is called\""
+            "value": "undefined, target.[[SetPrototypeOf]] is called"
           }
         ],
         "optional": false
@@ -451,8 +447,7 @@
             "type": "Literal",
             "start": 979,
             "end": 1005,
-            "value": "undefined, called with V",
-            "raw": "\"undefined, called with V\""
+            "value": "undefined, called with V"
           }
         ],
         "optional": false
@@ -542,8 +537,7 @@
           "type": "Literal",
           "start": 1073,
           "end": 1074,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -653,15 +647,13 @@
             "type": "Literal",
             "start": 1153,
             "end": 1154,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1156,
             "end": 1199,
-            "value": "null, target.[[SetPrototypeOf]] is called",
-            "raw": "\"null, target.[[SetPrototypeOf]] is called\""
+            "value": "null, target.[[SetPrototypeOf]] is called"
           }
         ],
         "optional": false
@@ -711,8 +703,7 @@
             "type": "Literal",
             "start": 1233,
             "end": 1254,
-            "value": "null, called with V",
-            "raw": "\"null, called with V\""
+            "value": "null, called with V"
           }
         ],
         "optional": false

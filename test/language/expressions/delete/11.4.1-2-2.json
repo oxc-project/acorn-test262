@@ -173,8 +173,7 @@
             "type": "Literal",
             "start": 426,
             "end": 429,
-            "value": "d",
-            "raw": "'d'"
+            "value": "d"
           }
         ],
         "optional": false
@@ -225,8 +224,7 @@
             "type": "Literal",
             "start": 469,
             "end": 483,
-            "value": "bIsFooCalled",
-            "raw": "'bIsFooCalled'"
+            "value": "bIsFooCalled"
           }
         ],
         "optional": false

@@ -384,15 +384,13 @@
                     "type": "Literal",
                     "start": 961,
                     "end": 962,
-                    "value": 4,
-                    "raw": "4"
+                    "value": 4
                   },
                   {
                     "type": "Literal",
                     "start": 964,
                     "end": 965,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               },
@@ -443,8 +441,7 @@
                     "type": "Literal",
                     "start": 1003,
                     "end": 1004,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "ArrayExpression",
@@ -455,8 +452,7 @@
                         "type": "Literal",
                         "start": 1007,
                         "end": 1008,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       {
                         "type": "ArrayExpression",
@@ -467,15 +463,13 @@
                             "type": "Literal",
                             "start": 1011,
                             "end": 1012,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           },
                           {
                             "type": "Literal",
                             "start": 1014,
                             "end": 1015,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       },
@@ -483,8 +477,7 @@
                         "type": "Literal",
                         "start": 1018,
                         "end": 1019,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     ]
                   },
@@ -492,8 +485,7 @@
                     "type": "Literal",
                     "start": 1022,
                     "end": 1023,
-                    "value": 5,
-                    "raw": "5"
+                    "value": 5
                   },
                   {
                     "type": "Identifier",
@@ -505,8 +497,7 @@
                     "type": "Literal",
                     "start": 1032,
                     "end": 1033,
-                    "value": 6,
-                    "raw": "6"
+                    "value": 6
                   }
                 ]
               },
@@ -586,8 +577,7 @@
             "type": "Literal",
             "start": 1080,
             "end": 1081,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -636,71 +626,61 @@
                 "type": "Literal",
                 "start": 1116,
                 "end": 1124,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               },
               {
                 "type": "Literal",
                 "start": 1126,
                 "end": 1139,
-                "value": "constructor",
-                "raw": "\"constructor\""
+                "value": "constructor"
               },
               {
                 "type": "Literal",
                 "start": 1141,
                 "end": 1144,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               },
               {
                 "type": "Literal",
                 "start": 1146,
                 "end": 1149,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               },
               {
                 "type": "Literal",
                 "start": 1151,
                 "end": 1154,
-                "value": "2",
-                "raw": "\"2\""
+                "value": "2"
               },
               {
                 "type": "Literal",
                 "start": 1156,
                 "end": 1159,
-                "value": "3",
-                "raw": "\"3\""
+                "value": "3"
               },
               {
                 "type": "Literal",
                 "start": 1161,
                 "end": 1169,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               },
               {
                 "type": "Literal",
                 "start": 1171,
                 "end": 1174,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               },
               {
                 "type": "Literal",
                 "start": 1176,
                 "end": 1179,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               },
               {
                 "type": "Literal",
                 "start": 1181,
                 "end": 1184,
-                "value": "4",
-                "raw": "\"4\""
+                "value": "4"
               }
             ]
           },
@@ -708,8 +688,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1299,
-            "value": "The value of getCalls is expected to be [\"length\", \"constructor\", \"0\", \"1\", \"2\", \"3\", \"length\", \"0\", \"1\", \"4\"]",
-            "raw": "'The value of getCalls is expected to be [\"length\", \"constructor\", \"0\", \"1\", \"2\", \"3\", \"length\", \"0\", \"1\", \"4\"]'"
+            "value": "The value of getCalls is expected to be [\"length\", \"constructor\", \"0\", \"1\", \"2\", \"3\", \"length\", \"0\", \"1\", \"4\"]"
           }
         ],
         "optional": false
@@ -758,50 +737,43 @@
                 "type": "Literal",
                 "start": 1333,
                 "end": 1336,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               },
               {
                 "type": "Literal",
                 "start": 1338,
                 "end": 1341,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               },
               {
                 "type": "Literal",
                 "start": 1343,
                 "end": 1346,
-                "value": "2",
-                "raw": "\"2\""
+                "value": "2"
               },
               {
                 "type": "Literal",
                 "start": 1348,
                 "end": 1351,
-                "value": "3",
-                "raw": "\"3\""
+                "value": "3"
               },
               {
                 "type": "Literal",
                 "start": 1353,
                 "end": 1356,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               },
               {
                 "type": "Literal",
                 "start": 1358,
                 "end": 1361,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               },
               {
                 "type": "Literal",
                 "start": 1363,
                 "end": 1366,
-                "value": "4",
-                "raw": "\"4\""
+                "value": "4"
               }
             ]
           },
@@ -809,8 +781,7 @@
             "type": "Literal",
             "start": 1369,
             "end": 1446,
-            "value": "The value of hasCalls is expected to be [\"0\", \"1\", \"2\", \"3\", \"0\", \"1\", \"4\"]",
-            "raw": "'The value of hasCalls is expected to be [\"0\", \"1\", \"2\", \"3\", \"0\", \"1\", \"4\"]'"
+            "value": "The value of hasCalls is expected to be [\"0\", \"1\", \"2\", \"3\", \"0\", \"1\", \"4\"]"
           }
         ],
         "optional": false

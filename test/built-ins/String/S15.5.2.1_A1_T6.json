@@ -68,8 +68,7 @@
           "type": "Literal",
           "start": 635,
           "end": 643,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -100,8 +99,7 @@
                     "type": "Literal",
                     "start": 672,
                     "end": 756,
-                    "value": "#1: __str = new String(false); typeof __str === \"object\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = new String(false); typeof __str === \"object\". Actual: typeof __str ==='"
+                    "value": "#1: __str = new String(false); typeof __str === \"object\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -188,8 +186,7 @@
                     "type": "Literal",
                     "start": 1011,
                     "end": 1105,
-                    "value": "#1.5: __str = new String(false); __str.constructor === String. Actual: __str.constructor ===",
-                    "raw": "'#1.5: __str = new String(false); __str.constructor === String. Actual: __str.constructor ==='"
+                    "value": "#1.5: __str = new String(false); __str.constructor === String. Actual: __str.constructor ==="
                   },
                   "operator": "+",
                   "right": {
@@ -250,8 +247,7 @@
             "type": "Literal",
             "start": 1323,
             "end": 1325,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         }
       },
@@ -283,8 +279,7 @@
                     "type": "Literal",
                     "start": 1354,
                     "end": 1421,
-                    "value": "#2: __str = new String(false); __str ==false+\"\". Actual: __str ==",
-                    "raw": "'#2: __str = new String(false); __str ==false+\"\". Actual: __str =='"
+                    "value": "#2: __str = new String(false); __str ==false+\"\". Actual: __str =="
                   },
                   "operator": "+",
                   "right": {

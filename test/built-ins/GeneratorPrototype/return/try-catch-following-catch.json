@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 411,
             "end": 412,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 432,
             "end": 433,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -140,8 +138,7 @@
                 "type": "Literal",
                 "start": 515,
                 "end": 516,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -176,8 +173,7 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 545,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -317,8 +313,7 @@
             "type": "Literal",
             "start": 630,
             "end": 631,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -362,15 +357,13 @@
             "type": "Literal",
             "start": 667,
             "end": 668,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 670,
             "end": 730,
-            "value": "statement following `yield` not executed (paused at yield)",
-            "raw": "'statement following `yield` not executed (paused at yield)'"
+            "value": "statement following `yield` not executed (paused at yield)"
           }
         ],
         "optional": false
@@ -419,8 +412,7 @@
               "type": "Literal",
               "start": 756,
               "end": 758,
-              "value": 45,
-              "raw": "45"
+              "value": 45
             }
           ],
           "optional": false
@@ -478,15 +470,13 @@
             "type": "Literal",
             "start": 795,
             "end": 797,
-            "value": 45,
-            "raw": "45"
+            "value": 45
           },
           {
             "type": "Literal",
             "start": 799,
             "end": 834,
-            "value": "Result `value` following `return`",
-            "raw": "'Result `value` following `return`'"
+            "value": "Result `value` following `return`"
           }
         ],
         "optional": false
@@ -550,8 +540,7 @@
             "type": "Literal",
             "start": 874,
             "end": 913,
-            "value": "Result `done` flag following `return`",
-            "raw": "'Result `done` flag following `return`'"
+            "value": "Result `done` flag following `return`"
           }
         ],
         "optional": false
@@ -595,15 +584,13 @@
             "type": "Literal",
             "start": 951,
             "end": 952,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 956,
             "end": 1019,
-            "value": "statement following `yield` not executed (following `return`)",
-            "raw": "'statement following `yield` not executed (following `return`)'"
+            "value": "statement following `yield` not executed (following `return`)"
           }
         ],
         "optional": false
@@ -709,8 +696,7 @@
             "type": "Literal",
             "start": 1091,
             "end": 1134,
-            "value": "Result `value` is undefined when complete",
-            "raw": "'Result `value` is undefined when complete'"
+            "value": "Result `value` is undefined when complete"
           }
         ],
         "optional": false
@@ -774,8 +760,7 @@
             "type": "Literal",
             "start": 1177,
             "end": 1221,
-            "value": "Result `done` flag is `true` when complete",
-            "raw": "'Result `done` flag is `true` when complete'"
+            "value": "Result `done` flag is `true` when complete"
           }
         ],
         "optional": false
@@ -819,15 +804,13 @@
             "type": "Literal",
             "start": 1258,
             "end": 1259,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1261,
             "end": 1322,
-            "value": "statement following `yield` not executed (once \"completed\")",
-            "raw": "'statement following `yield` not executed (once \"completed\")'"
+            "value": "statement following `yield` not executed (once \"completed\")"
           }
         ],
         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 805,
                 "end": 814,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,15 +97,13 @@
                 "type": "Literal",
                 "start": 862,
                 "end": 866,
-                "value": 1999,
-                "raw": "1999"
+                "value": 1999
               },
               {
                 "type": "Literal",
                 "start": 868,
                 "end": 869,
-                "value": 6,
-                "raw": "6"
+                "value": 6
               }
             ]
           }
@@ -179,15 +176,13 @@
             "type": "Literal",
             "start": 910,
             "end": 914,
-            "value": 1999,
-            "raw": "1999"
+            "value": 1999
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 981,
-            "value": "cal.year(new Temporal.PlainYearMonth(1999, 6)) must return 1999",
-            "raw": "'cal.year(new Temporal.PlainYearMonth(1999, 6)) must return 1999'"
+            "value": "cal.year(new Temporal.PlainYearMonth(1999, 6)) must return 1999"
           }
         ],
         "optional": false

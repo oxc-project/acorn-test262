@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 318,
             "end": 328,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "ObjectExpression",
@@ -109,8 +108,7 @@
                           "type": "Literal",
                           "start": 363,
                           "end": 372,
-                          "value": "present",
-                          "raw": "\"present\""
+                          "value": "present"
                         }
                       }
                     ]
@@ -175,15 +173,13 @@
             "type": "Literal",
             "start": 414,
             "end": 423,
-            "value": "present",
-            "raw": "\"present\""
+            "value": "present"
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 439,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

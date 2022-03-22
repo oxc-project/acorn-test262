@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 936,
             "end": 939,
-            "value": "b",
-            "raw": "\"b\""
+            "value": "b"
           },
           {
             "type": "ObjectExpression",
@@ -91,8 +90,7 @@
                   "type": "Literal",
                   "start": 949,
                   "end": 950,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               },
@@ -143,8 +141,7 @@
             "type": "Literal",
             "start": 991,
             "end": 992,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -243,8 +240,7 @@
                               "type": "Literal",
                               "start": 1050,
                               "end": 1053,
-                              "value": "b",
-                              "raw": "\"b\""
+                              "value": "b"
                             }
                           ],
                           "optional": false
@@ -338,8 +334,7 @@
                           "type": "Literal",
                           "start": 1107,
                           "end": 1108,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ],
                       "optional": false
@@ -364,8 +359,7 @@
                         "type": "Literal",
                         "start": 1126,
                         "end": 1127,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -457,8 +451,7 @@
             "type": "Literal",
             "start": 1184,
             "end": 1185,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

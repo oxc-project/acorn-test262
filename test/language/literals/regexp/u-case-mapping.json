@@ -44,7 +44,6 @@
                 "start": 726,
                 "end": 735,
                 "value": {},
-                "raw": "/\\u212a/i",
                 "regex": {
                   "pattern": "\\u212a",
                   "flags": "i"
@@ -64,8 +63,7 @@
                 "type": "Literal",
                 "start": 741,
                 "end": 744,
-                "value": "k",
-                "raw": "'k'"
+                "value": "k"
               }
             ],
             "optional": false
@@ -81,8 +79,7 @@
             "type": "Literal",
             "start": 758,
             "end": 818,
-            "value": "Case mapping is not applied in the absence of the `u` flag",
-            "raw": "'Case mapping is not applied in the absence of the `u` flag'"
+            "value": "Case mapping is not applied in the absence of the `u` flag"
           }
         ],
         "optional": false
@@ -129,7 +126,6 @@
                 "start": 842,
                 "end": 851,
                 "value": {},
-                "raw": "/\\u212a/i",
                 "regex": {
                   "pattern": "\\u212a",
                   "flags": "i"
@@ -149,8 +145,7 @@
                 "type": "Literal",
                 "start": 857,
                 "end": 860,
-                "value": "K",
-                "raw": "'K'"
+                "value": "K"
               }
             ],
             "optional": false
@@ -166,8 +161,7 @@
             "type": "Literal",
             "start": 874,
             "end": 934,
-            "value": "Case mapping is not applied in the absence of the `u` flag",
-            "raw": "'Case mapping is not applied in the absence of the `u` flag'"
+            "value": "Case mapping is not applied in the absence of the `u` flag"
           }
         ],
         "optional": false
@@ -214,7 +208,6 @@
                 "start": 958,
                 "end": 967,
                 "value": {},
-                "raw": "/\\u212a/u",
                 "regex": {
                   "pattern": "\\u212a",
                   "flags": "u"
@@ -234,8 +227,7 @@
                 "type": "Literal",
                 "start": 973,
                 "end": 976,
-                "value": "k",
-                "raw": "'k'"
+                "value": "k"
               }
             ],
             "optional": false
@@ -251,8 +243,7 @@
             "type": "Literal",
             "start": 990,
             "end": 1050,
-            "value": "Case mapping is not applied in the absence of the `i` flag",
-            "raw": "'Case mapping is not applied in the absence of the `i` flag'"
+            "value": "Case mapping is not applied in the absence of the `i` flag"
           }
         ],
         "optional": false
@@ -299,7 +290,6 @@
                 "start": 1074,
                 "end": 1083,
                 "value": {},
-                "raw": "/\\u212a/u",
                 "regex": {
                   "pattern": "\\u212a",
                   "flags": "u"
@@ -319,8 +309,7 @@
                 "type": "Literal",
                 "start": 1089,
                 "end": 1092,
-                "value": "K",
-                "raw": "'K'"
+                "value": "K"
               }
             ],
             "optional": false
@@ -336,8 +325,7 @@
             "type": "Literal",
             "start": 1106,
             "end": 1166,
-            "value": "Case mapping is not applied in the absence of the `i` flag",
-            "raw": "'Case mapping is not applied in the absence of the `i` flag'"
+            "value": "Case mapping is not applied in the absence of the `i` flag"
           }
         ],
         "optional": false
@@ -371,7 +359,6 @@
                 "start": 1181,
                 "end": 1191,
                 "value": {},
-                "raw": "/\\u212a/iu",
                 "regex": {
                   "pattern": "\\u212a",
                   "flags": "iu"
@@ -391,8 +378,7 @@
                 "type": "Literal",
                 "start": 1197,
                 "end": 1200,
-                "value": "k",
-                "raw": "'k'"
+                "value": "k"
               }
             ],
             "optional": false
@@ -401,8 +387,7 @@
             "type": "Literal",
             "start": 1205,
             "end": 1271,
-            "value": "Case mapping is applied in the presence of the `i` and `u` flags",
-            "raw": "'Case mapping is applied in the presence of the `i` and `u` flags'"
+            "value": "Case mapping is applied in the presence of the `i` and `u` flags"
           }
         ],
         "optional": false
@@ -436,7 +421,6 @@
                 "start": 1285,
                 "end": 1295,
                 "value": {},
-                "raw": "/\\u212a/iu",
                 "regex": {
                   "pattern": "\\u212a",
                   "flags": "iu"
@@ -456,8 +440,7 @@
                 "type": "Literal",
                 "start": 1301,
                 "end": 1304,
-                "value": "K",
-                "raw": "'K'"
+                "value": "K"
               }
             ],
             "optional": false
@@ -466,8 +449,7 @@
             "type": "Literal",
             "start": 1309,
             "end": 1375,
-            "value": "Case mapping is applied in the presence of the `i` and `u` flags",
-            "raw": "'Case mapping is applied in the presence of the `i` and `u` flags'"
+            "value": "Case mapping is applied in the presence of the `i` and `u` flags"
           }
         ],
         "optional": false

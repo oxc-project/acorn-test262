@@ -267,8 +267,7 @@
             "type": "Literal",
             "start": 626,
             "end": 657,
-            "value": "The template object is frozen",
-            "raw": "'The template object is frozen'"
+            "value": "The template object is frozen"
           }
         ],
         "optional": false
@@ -394,8 +393,7 @@
             "type": "Literal",
             "start": 765,
             "end": 793,
-            "value": "The \"raw\" object is frozen",
-            "raw": "'The \"raw\" object is frozen'"
+            "value": "The \"raw\" object is frozen"
           }
         ],
         "optional": false
@@ -451,8 +449,7 @@
             "type": "Literal",
             "start": 842,
             "end": 884,
-            "value": "Template object defines a `raw` property",
-            "raw": "'Template object defines a `raw` property'"
+            "value": "Template object defines a `raw` property"
           }
         ],
         "optional": false

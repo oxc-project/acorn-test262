@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Math.tan) must return false",
-            "raw": "'isConstructor(Math.tan) must return false'"
+            "value": "isConstructor(Math.tan) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Math.tan()` throws TypeError",
-            "raw": "'`new Math.tan()` throws TypeError'"
+            "value": "`new Math.tan()` throws TypeError"
           }
         ],
         "optional": false

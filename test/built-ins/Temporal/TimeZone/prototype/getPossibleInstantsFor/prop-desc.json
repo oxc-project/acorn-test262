@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 416,
             "end": 426,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 496,
-            "value": "`typeof TimeZone.prototype.getPossibleInstantsFor` is `function`",
-            "raw": "\"`typeof TimeZone.prototype.getPossibleInstantsFor` is `function`\""
+            "value": "`typeof TimeZone.prototype.getPossibleInstantsFor` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 545,
             "end": 569,
-            "value": "getPossibleInstantsFor",
-            "raw": "\"getPossibleInstantsFor\""
+            "value": "getPossibleInstantsFor"
           },
           {
             "type": "ObjectExpression",

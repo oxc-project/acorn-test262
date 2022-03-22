@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 586,
             "end": 604,
-            "value": "__lookupSetter__",
-            "raw": "\"__lookupSetter__\""
+            "value": "__lookupSetter__"
           },
           {
             "type": "ObjectExpression",

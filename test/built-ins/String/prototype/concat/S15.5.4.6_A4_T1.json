@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 390,
                           "end": 395,
-                          "value": "one",
-                          "raw": "\"one\""
+                          "value": "one"
                         }
                       }
                     ]
@@ -171,8 +170,7 @@
               "type": "Literal",
               "start": 561,
               "end": 566,
-              "value": "two",
-              "raw": "\"two\""
+              "value": "two"
             },
             {
               "type": "Identifier",
@@ -188,8 +186,7 @@
           "type": "Literal",
           "start": 575,
           "end": 592,
-          "value": "onetwoundefined",
-          "raw": "\"onetwoundefined\""
+          "value": "onetwoundefined"
         }
       },
       "consequent": {
@@ -220,8 +217,7 @@
                     "type": "Literal",
                     "start": 621,
                     "end": 788,
-                    "value": "#1: var x; __instance = {toString:function(){return \"one\"}}; __instance.concat = String.prototype.concat;  __instance.concat(\"two\",x) === \"onetwoundefined\". Actual: ",
-                    "raw": "'#1: var x; __instance = {toString:function(){return \"one\"}}; __instance.concat = String.prototype.concat;  __instance.concat(\"two\",x) === \"onetwoundefined\". Actual: '"
+                    "value": "#1: var x; __instance = {toString:function(){return \"one\"}}; __instance.concat = String.prototype.concat;  __instance.concat(\"two\",x) === \"onetwoundefined\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -252,8 +248,7 @@
                         "type": "Literal",
                         "start": 809,
                         "end": 814,
-                        "value": "two",
-                        "raw": "\"two\""
+                        "value": "two"
                       },
                       {
                         "type": "Identifier",

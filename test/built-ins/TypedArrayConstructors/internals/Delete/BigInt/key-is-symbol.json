@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 633,
                             "end": 634,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -108,8 +107,7 @@
                             "type": "Literal",
                             "start": 654,
                             "end": 657,
-                            "value": "1",
-                            "raw": "\"1\""
+                            "value": "1"
                           }
                         ],
                         "optional": false
@@ -183,8 +181,7 @@
                         "type": "Literal",
                         "start": 704,
                         "end": 745,
-                        "value": "The value of `delete sample[s]` is true",
-                        "raw": "'The value of `delete sample[s]` is true'"
+                        "value": "The value of `delete sample[s]` is true"
                       }
                     ],
                     "optional": false
@@ -268,8 +265,7 @@
                         "type": "Literal",
                         "start": 798,
                         "end": 840,
-                        "value": "Reflect.has(sample, s) must return false",
-                        "raw": "'Reflect.has(sample, s) must return false'"
+                        "value": "Reflect.has(sample, s) must return false"
                       }
                     ],
                     "optional": false
@@ -307,8 +303,7 @@
                       "type": "Literal",
                       "start": 858,
                       "end": 860,
-                      "value": "",
-                      "raw": "\"\""
+                      "value": ""
                     }
                   }
                 },
@@ -377,8 +372,7 @@
                         "type": "Literal",
                         "start": 905,
                         "end": 946,
-                        "value": "The value of `delete sample[s]` is true",
-                        "raw": "'The value of `delete sample[s]` is true'"
+                        "value": "The value of `delete sample[s]` is true"
                       }
                     ],
                     "optional": false
@@ -462,8 +456,7 @@
                         "type": "Literal",
                         "start": 999,
                         "end": 1041,
-                        "value": "Reflect.has(sample, s) must return false",
-                        "raw": "'Reflect.has(sample, s) must return false'"
+                        "value": "Reflect.has(sample, s) must return false"
                       }
                     ],
                     "optional": false

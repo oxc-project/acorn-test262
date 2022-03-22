@@ -77,8 +77,7 @@
                           "type": "Literal",
                           "start": 355,
                           "end": 366,
-                          "value": "prototype",
-                          "raw": "'prototype'"
+                          "value": "prototype"
                         },
                         "kind": "set",
                         "value": {

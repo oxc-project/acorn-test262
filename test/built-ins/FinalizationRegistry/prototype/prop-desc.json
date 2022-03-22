@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 468,
             "end": 479,
-            "value": "prototype",
-            "raw": "'prototype'"
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",

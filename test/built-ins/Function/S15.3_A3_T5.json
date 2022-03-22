@@ -51,8 +51,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 482,
-                "value": "return this.planet;",
-                "raw": "\"return this.planet;\""
+                "value": "return this.planet;"
               }
             ],
             "optional": false
@@ -109,8 +108,7 @@
                 "type": "Literal",
                 "start": 513,
                 "end": 533,
-                "value": "return this.color;",
-                "raw": "\"return this.color;\""
+                "value": "return this.color;"
               }
             ],
             "optional": false
@@ -170,8 +168,7 @@
             "type": "Literal",
             "start": 570,
             "end": 593,
-            "value": "f() returns undefined",
-            "raw": "'f() returns undefined'"
+            "value": "f() returns undefined"
           }
         ],
         "optional": false
@@ -196,8 +193,7 @@
             "type": "Literal",
             "start": 610,
             "end": 616,
-            "value": "mars",
-            "raw": "\"mars\""
+            "value": "mars"
           }
         }
       ],
@@ -248,15 +244,13 @@
             "type": "Literal",
             "start": 641,
             "end": 647,
-            "value": "mars",
-            "raw": "\"mars\""
+            "value": "mars"
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 673,
-            "value": "f() must return \"mars\"",
-            "raw": "'f() must return \"mars\"'"
+            "value": "f() must return \"mars\""
           }
         ],
         "optional": false
@@ -313,8 +307,7 @@
             "type": "Literal",
             "start": 709,
             "end": 732,
-            "value": "g() returns undefined",
-            "raw": "'g() returns undefined'"
+            "value": "g() returns undefined"
           }
         ],
         "optional": false
@@ -351,8 +344,7 @@
           "type": "Literal",
           "start": 749,
           "end": 754,
-          "value": "red",
-          "raw": "\"red\""
+          "value": "red"
         }
       }
     },
@@ -401,15 +393,13 @@
             "type": "Literal",
             "start": 779,
             "end": 784,
-            "value": "red",
-            "raw": "\"red\""
+            "value": "red"
           },
           {
             "type": "Literal",
             "start": 786,
             "end": 809,
-            "value": "g() must return \"red\"",
-            "raw": "'g() must return \"red\"'"
+            "value": "g() must return \"red\""
           }
         ],
         "optional": false

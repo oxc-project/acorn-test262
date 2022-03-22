@@ -120,8 +120,7 @@
             "type": "Literal",
             "start": 580,
             "end": 593,
-            "value": "toPrimitive",
-            "raw": "'toPrimitive'"
+            "value": "toPrimitive"
           }
         ],
         "optional": false
@@ -399,8 +398,7 @@
             "type": "Literal",
             "start": 835,
             "end": 853,
-            "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "value": "from ToPrimitive"
           }
         ],
         "optional": false

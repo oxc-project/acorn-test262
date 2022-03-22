@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 2641,
             "end": 2665,
-            "value": "synchronous evaluation",
-            "raw": "'synchronous evaluation'"
+            "value": "synchronous evaluation"
           }
         }
       ],
@@ -101,8 +100,7 @@
                 "type": "Literal",
                 "start": 2701,
                 "end": 2731,
-                "value": "tick in the async evaluation",
-                "raw": "'tick in the async evaluation'"
+                "value": "tick in the async evaluation"
               }
             }
           }
@@ -131,8 +129,7 @@
         "type": "Literal",
         "start": 2783,
         "end": 2822,
-        "value": "./module-import-resolution_FIXTURE.js",
-        "raw": "'./module-import-resolution_FIXTURE.js'"
+        "value": "./module-import-resolution_FIXTURE.js"
       }
     },
     {
@@ -173,8 +170,7 @@
             "type": "Literal",
             "start": 2847,
             "end": 2849,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -218,8 +214,7 @@
             "type": "Literal",
             "start": 2872,
             "end": 2896,
-            "value": "synchronous evaluation",
-            "raw": "'synchronous evaluation'"
+            "value": "synchronous evaluation"
           }
         ],
         "optional": false
@@ -237,8 +232,7 @@
           "type": "Literal",
           "start": 2945,
           "end": 2946,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -280,8 +274,7 @@
             "type": "Literal",
             "start": 2969,
             "end": 2999,
-            "value": "tick in the async evaluation",
-            "raw": "'tick in the async evaluation'"
+            "value": "tick in the async evaluation"
           }
         ],
         "optional": false

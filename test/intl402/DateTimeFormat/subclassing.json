@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 452,
                 "end": 457,
-                "value": "tlh",
-                "raw": "\"tlh\""
+                "value": "tlh"
               },
               {
                 "type": "Literal",
                 "start": 459,
                 "end": 463,
-                "value": "id",
-                "raw": "\"id\""
+                "value": "id"
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 469,
-                "value": "en",
-                "raw": "\"en\""
+                "value": "en"
               }
             ]
           }
@@ -85,8 +82,7 @@
                     "type": "Literal",
                     "start": 490,
                     "end": 491,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ]
               },
@@ -155,8 +151,7 @@
                         "type": "Literal",
                         "start": 526,
                         "end": 548,
-                        "value": "1989-11-09T17:57:00Z",
-                        "raw": "\"1989-11-09T17:57:00Z\""
+                        "value": "1989-11-09T17:57:00Z"
                       }
                     ],
                     "optional": false

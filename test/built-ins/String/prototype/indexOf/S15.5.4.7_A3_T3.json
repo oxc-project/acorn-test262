@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 485,
               "end": 497,
-              "value": "$$abcdabcd",
-              "raw": "\"$$abcdabcd\""
+              "value": "$$abcdabcd"
             },
             "property": {
               "type": "Identifier",
@@ -40,8 +39,7 @@
               "type": "Literal",
               "start": 506,
               "end": 510,
-              "value": "ab",
-              "raw": "\"ab\""
+              "value": "ab"
             },
             {
               "type": "CallExpression",
@@ -93,8 +91,7 @@
           "type": "Literal",
           "start": 558,
           "end": 559,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -125,8 +122,7 @@
                     "type": "Literal",
                     "start": 588,
                     "end": 667,
-                    "value": "#1: \"$$abcdabcd\".indexOf(\"ab\", function(){return -Infinity;}())===2. Actual: ",
-                    "raw": "'#1: \"$$abcdabcd\".indexOf(\"ab\", function(){return -Infinity;}())===2. Actual: '"
+                    "value": "#1: \"$$abcdabcd\".indexOf(\"ab\", function(){return -Infinity;}())===2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -145,8 +141,7 @@
                           "type": "Literal",
                           "start": 671,
                           "end": 683,
-                          "value": "$$abcdabcd",
-                          "raw": "\"$$abcdabcd\""
+                          "value": "$$abcdabcd"
                         },
                         "property": {
                           "type": "Identifier",
@@ -162,8 +157,7 @@
                           "type": "Literal",
                           "start": 692,
                           "end": 696,
-                          "value": "ab",
-                          "raw": "\"ab\""
+                          "value": "ab"
                         },
                         {
                           "type": "CallExpression",

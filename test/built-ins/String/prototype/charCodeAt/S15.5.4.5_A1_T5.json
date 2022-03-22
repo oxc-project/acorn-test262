@@ -45,8 +45,7 @@
                         "type": "Literal",
                         "start": 481,
                         "end": 487,
-                        "value": "lego",
-                        "raw": "\"lego\""
+                        "value": "lego"
                       }
                     }
                   ]
@@ -80,8 +79,7 @@
           "type": "Literal",
           "start": 515,
           "end": 519,
-          "value": 108,
-          "raw": "0x6C"
+          "value": 108
         }
       },
       "consequent": {
@@ -112,8 +110,7 @@
                     "type": "Literal",
                     "start": 548,
                     "end": 617,
-                    "value": "#1: function(){return \"lego\"}().charCodeAt(null) === 0x6C. Actual: ",
-                    "raw": "'#1: function(){return \"lego\"}().charCodeAt(null) === 0x6C. Actual: '"
+                    "value": "#1: function(){return \"lego\"}().charCodeAt(null) === 0x6C. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -150,8 +147,7 @@
                                   "type": "Literal",
                                   "start": 644,
                                   "end": 650,
-                                  "value": "lego",
-                                  "raw": "\"lego\""
+                                  "value": "lego"
                                 }
                               }
                             ]

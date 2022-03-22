@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 281,
             "end": 284,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           }
         }
       ],
@@ -80,8 +79,7 @@
           "type": "Literal",
           "start": 309,
           "end": 310,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -112,8 +110,7 @@
                     "type": "Literal",
                     "start": 339,
                     "end": 388,
-                    "value": "#1: var x = \"1\"; var y = x++; y === 1. Actual: ",
-                    "raw": "'#1: var x = \"1\"; var y = x++; y === 1. Actual: '"
+                    "value": "#1: var x = \"1\"; var y = x++; y === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -154,8 +151,7 @@
             "type": "Literal",
             "start": 418,
             "end": 421,
-            "value": "x",
-            "raw": "\"x\""
+            "value": "x"
           }
         }
       ],
@@ -258,8 +254,7 @@
                     "type": "Literal",
                     "start": 487,
                     "end": 547,
-                    "value": "#2: var x = \"x\"; var y = x++; y === Not-a-Number. Actual: ",
-                    "raw": "'#2: var x = \"x\"; var y = x++; y === Not-a-Number. Actual: '"
+                    "value": "#2: var x = \"x\"; var y = x++; y === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -311,8 +306,7 @@
                 "type": "Literal",
                 "start": 588,
                 "end": 592,
-                "value": "-1",
-                "raw": "\"-1\""
+                "value": "-1"
               }
             ]
           }
@@ -377,8 +371,7 @@
             "type": "Literal",
             "start": 620,
             "end": 621,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -410,8 +403,7 @@
                     "type": "Literal",
                     "start": 650,
                     "end": 713,
-                    "value": "#3: var x = new String(\"-1\"); var y = x++; y === -1. Actual: ",
-                    "raw": "'#3: var x = new String(\"-1\"); var y = x++; y === -1. Actual: '"
+                    "value": "#3: var x = new String(\"-1\"); var y = x++; y === -1. Actual: "
                   },
                   "operator": "+",
                   "right": {

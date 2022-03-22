@@ -30,8 +30,7 @@
         "type": "Literal",
         "start": 2208,
         "end": 2247,
-        "value": "./instn-named-star-cycle-2_FIXTURE.js",
-        "raw": "'./instn-named-star-cycle-2_FIXTURE.js'"
+        "value": "./instn-named-star-cycle-2_FIXTURE.js"
       }
     },
     {
@@ -72,8 +71,7 @@
             "type": "Literal",
             "start": 2270,
             "end": 2272,
-            "value": 45,
-            "raw": "45"
+            "value": 45
           }
         ],
         "optional": false

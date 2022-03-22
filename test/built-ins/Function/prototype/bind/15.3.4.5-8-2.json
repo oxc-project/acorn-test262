@@ -217,15 +217,13 @@
             "type": "Literal",
             "start": 382,
             "end": 401,
-            "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 406,
-            "value": "s",
-            "raw": "'s'"
+            "value": "s"
           }
         ],
         "optional": false

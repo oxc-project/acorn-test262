@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 772,
             "end": 833,
-            "value": "isConstructor(Object.getOwnPropertyNames) must return false",
-            "raw": "'isConstructor(Object.getOwnPropertyNames) must return false'"
+            "value": "isConstructor(Object.getOwnPropertyNames) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 912,
             "end": 967,
-            "value": "`new Object.getOwnPropertyNames({})` throws TypeError",
-            "raw": "'`new Object.getOwnPropertyNames({})` throws TypeError'"
+            "value": "`new Object.getOwnPropertyNames({})` throws TypeError"
           }
         ],
         "optional": false

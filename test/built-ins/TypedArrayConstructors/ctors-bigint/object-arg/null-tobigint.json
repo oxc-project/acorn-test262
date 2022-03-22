@@ -126,8 +126,7 @@
                         "type": "Literal",
                         "start": 2204,
                         "end": 2233,
-                        "value": "abrupt completion from Null",
-                        "raw": "\"abrupt completion from Null\""
+                        "value": "abrupt completion from Null"
                       }
                     ],
                     "optional": false

@@ -51,8 +51,7 @@
                         "type": "Literal",
                         "start": 349,
                         "end": 391,
-                        "value": "not the Test262Error you are looking for",
-                        "raw": "'not the Test262Error you are looking for'"
+                        "value": "not the Test262Error you are looking for"
                       }
                     }
                   ]

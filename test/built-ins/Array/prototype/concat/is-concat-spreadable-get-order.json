@@ -107,8 +107,7 @@
                               "type": "Literal",
                               "start": 1058,
                               "end": 1071,
-                              "value": "constructor",
-                              "raw": "\"constructor\""
+                              "value": "constructor"
                             }
                           ],
                           "optional": false
@@ -237,8 +236,7 @@
                               "type": "Literal",
                               "start": 1180,
                               "end": 1200,
-                              "value": "isConcatSpreadable",
-                              "raw": "\"isConcatSpreadable\""
+                              "value": "isConcatSpreadable"
                             }
                           ],
                           "optional": false
@@ -340,8 +338,7 @@
             "type": "Literal",
             "start": 1277,
             "end": 1290,
-            "value": "constructor",
-            "raw": "\"constructor\""
+            "value": "constructor"
           },
           {
             "type": "Identifier",
@@ -472,8 +469,7 @@
                 "type": "Literal",
                 "start": 1415,
                 "end": 1416,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -487,8 +483,7 @@
                 "type": "Literal",
                 "start": 1420,
                 "end": 1421,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -496,8 +491,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1456,
-            "value": "arr1.concat(1) must return [1]",
-            "raw": "'arr1.concat(1) must return [1]'"
+            "value": "arr1.concat(1) must return [1]"
           }
         ],
         "optional": false
@@ -546,15 +540,13 @@
                 "type": "Literal",
                 "start": 1492,
                 "end": 1505,
-                "value": "constructor",
-                "raw": "\"constructor\""
+                "value": "constructor"
               },
               {
                 "type": "Literal",
                 "start": 1507,
                 "end": 1527,
-                "value": "isConcatSpreadable",
-                "raw": "\"isConcatSpreadable\""
+                "value": "isConcatSpreadable"
               }
             ]
           },
@@ -562,8 +554,7 @@
             "type": "Literal",
             "start": 1532,
             "end": 1608,
-            "value": "The value of calls is expected to be [\"constructor\", \"isConcatSpreadable\"]",
-            "raw": "'The value of calls is expected to be [\"constructor\", \"isConcatSpreadable\"]'"
+            "value": "The value of calls is expected to be [\"constructor\", \"isConcatSpreadable\"]"
           }
         ],
         "optional": false
@@ -680,8 +671,7 @@
             "type": "Literal",
             "start": 1683,
             "end": 1696,
-            "value": "constructor",
-            "raw": "\"constructor\""
+            "value": "constructor"
           },
           {
             "type": "Identifier",
@@ -834,8 +824,7 @@
             "type": "Literal",
             "start": 1833,
             "end": 1868,
-            "value": "arr2.concat({}) must return [arg]",
-            "raw": "'arr2.concat({}) must return [arg]'"
+            "value": "arr2.concat({}) must return [arg]"
           }
         ],
         "optional": false
@@ -884,15 +873,13 @@
                 "type": "Literal",
                 "start": 1904,
                 "end": 1917,
-                "value": "constructor",
-                "raw": "\"constructor\""
+                "value": "constructor"
               },
               {
                 "type": "Literal",
                 "start": 1919,
                 "end": 1939,
-                "value": "isConcatSpreadable",
-                "raw": "\"isConcatSpreadable\""
+                "value": "isConcatSpreadable"
               }
             ]
           },
@@ -900,8 +887,7 @@
             "type": "Literal",
             "start": 1944,
             "end": 2020,
-            "value": "The value of calls is expected to be [\"constructor\", \"isConcatSpreadable\"]",
-            "raw": "'The value of calls is expected to be [\"constructor\", \"isConcatSpreadable\"]'"
+            "value": "The value of calls is expected to be [\"constructor\", \"isConcatSpreadable\"]"
           }
         ],
         "optional": false

@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 538,
             "end": 545,
-            "value": "small",
-            "raw": "\"small\""
+            "value": "small"
           },
           {
             "type": "ObjectExpression",

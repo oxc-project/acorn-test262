@@ -343,8 +343,7 @@
             "type": "Literal",
             "start": 870,
             "end": 904,
-            "value": "result is an Array exotic object",
-            "raw": "'result is an Array exotic object'"
+            "value": "result is an Array exotic object"
           }
         ],
         "optional": false

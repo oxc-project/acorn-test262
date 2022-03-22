@@ -16,8 +16,7 @@
             "type": "Literal",
             "start": 387,
             "end": 390,
-            "value": "☿",
-            "raw": "\"☿\""
+            "value": "☿"
           },
           "local": {
             "type": "Identifier",
@@ -31,8 +30,7 @@
         "type": "Literal",
         "start": 405,
         "end": 434,
-        "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "value": "./export-expname_FIXTURE.js"
       }
     },
     {

@@ -282,8 +282,7 @@
             "type": "Literal",
             "start": 1186,
             "end": 1217,
-            "value": "target prototype is different",
-            "raw": "\"target prototype is different\""
+            "value": "target prototype is different"
           }
         ],
         "optional": false
@@ -638,8 +637,7 @@
             "type": "Literal",
             "start": 1523,
             "end": 1572,
-            "value": "target prototype is changed inside trap handler",
-            "raw": "\"target prototype is changed inside trap handler\""
+            "value": "target prototype is changed inside trap handler"
           }
         ],
         "optional": false

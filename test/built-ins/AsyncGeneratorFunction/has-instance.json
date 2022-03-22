@@ -171,8 +171,7 @@
             "type": "Literal",
             "start": 558,
             "end": 667,
-            "value": "AsyncGenerators created via AsyncGeneratorDeclaration syntax are proper instances of AsyncGeneratorFunction",
-            "raw": "'AsyncGenerators created via AsyncGeneratorDeclaration syntax are proper instances of AsyncGeneratorFunction'"
+            "value": "AsyncGenerators created via AsyncGeneratorDeclaration syntax are proper instances of AsyncGeneratorFunction"
           }
         ],
         "optional": false
@@ -215,8 +214,7 @@
             "type": "Literal",
             "start": 726,
             "end": 834,
-            "value": "AsyncGenerators created via AsyncGeneratorExpression syntax are proper instances of AsyncGeneratorFunction",
-            "raw": "'AsyncGenerators created via AsyncGeneratorExpression syntax are proper instances of AsyncGeneratorFunction'"
+            "value": "AsyncGenerators created via AsyncGeneratorExpression syntax are proper instances of AsyncGeneratorFunction"
           }
         ],
         "optional": false
@@ -265,8 +263,7 @@
             "type": "Literal",
             "start": 915,
             "end": 1040,
-            "value": "AsyncGenerators created via constructor invocation of AsyncGeneratorFunction are proper instances of AsyncGeneratorFunction",
-            "raw": "'AsyncGenerators created via constructor invocation of AsyncGeneratorFunction are proper instances of AsyncGeneratorFunction'"
+            "value": "AsyncGenerators created via constructor invocation of AsyncGeneratorFunction are proper instances of AsyncGeneratorFunction"
           }
         ],
         "optional": false
@@ -316,8 +313,7 @@
             "type": "Literal",
             "start": 1117,
             "end": 1239,
-            "value": "AsyncGenerators created via function invocation of AsyncGeneratorFunction are proper instances of AsyncGeneratorFunction",
-            "raw": "'AsyncGenerators created via function invocation of AsyncGeneratorFunction are proper instances of AsyncGeneratorFunction'"
+            "value": "AsyncGenerators created via function invocation of AsyncGeneratorFunction are proper instances of AsyncGeneratorFunction"
           }
         ],
         "optional": false

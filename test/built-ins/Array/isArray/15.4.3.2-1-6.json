@@ -70,8 +70,7 @@
                     "type": "Literal",
                     "start": 287,
                     "end": 304,
-                    "value": "hello\nworld\\!",
-                    "raw": "\"hello\\nworld\\\\!\""
+                    "value": "hello\nworld\\!"
                   }
                 ]
               }
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 315,
             "end": 382,
-            "value": "Array.isArray(new String(\"hello\\nworld\\\\!\")) must return false",
-            "raw": "'Array.isArray(new String(\"hello\\\\nworld\\\\\\\\!\")) must return false'"
+            "value": "Array.isArray(new String(\"hello\\nworld\\\\!\")) must return false"
           }
         ],
         "optional": false

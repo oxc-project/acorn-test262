@@ -59,15 +59,13 @@
                 "type": "Literal",
                 "start": 769,
                 "end": 771,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 773,
                 "end": 776,
-                "value": "0",
-                "raw": "'0'"
+                "value": "0"
               }
             ],
             "optional": false
@@ -125,15 +123,13 @@
                 "type": "Literal",
                 "start": 840,
                 "end": 845,
-                "value": "foo",
-                "raw": "'foo'"
+                "value": "foo"
               },
               {
                 "type": "Literal",
                 "start": 847,
                 "end": 850,
-                "value": "0",
-                "raw": "'0'"
+                "value": "0"
               }
             ],
             "optional": false
@@ -193,15 +189,13 @@
             "type": "Literal",
             "start": 888,
             "end": 891,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "Literal",
             "start": 893,
             "end": 904,
-            "value": "[[Value]]",
-            "raw": "'[[Value]]'"
+            "value": "[[Value]]"
           }
         ],
         "optional": false
@@ -265,8 +259,7 @@
             "type": "Literal",
             "start": 951,
             "end": 965,
-            "value": "[[Writable]]",
-            "raw": "'[[Writable]]'"
+            "value": "[[Writable]]"
           }
         ],
         "optional": false
@@ -330,8 +323,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1029,
-            "value": "[[Enumerable]]",
-            "raw": "'[[Enumerable]]'"
+            "value": "[[Enumerable]]"
           }
         ],
         "optional": false
@@ -395,8 +387,7 @@
             "type": "Literal",
             "start": 1080,
             "end": 1098,
-            "value": "[[Configurable]]",
-            "raw": "'[[Configurable]]'"
+            "value": "[[Configurable]]"
           }
         ],
         "optional": false
@@ -445,15 +436,13 @@
                 "type": "Literal",
                 "start": 1151,
                 "end": 1156,
-                "value": "foo",
-                "raw": "'foo'"
+                "value": "foo"
               },
               {
                 "type": "Literal",
                 "start": 1158,
                 "end": 1166,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -513,15 +502,13 @@
             "type": "Literal",
             "start": 1205,
             "end": 1206,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1208,
             "end": 1219,
-            "value": "[[Value]]",
-            "raw": "'[[Value]]'"
+            "value": "[[Value]]"
           }
         ],
         "optional": false
@@ -585,8 +572,7 @@
             "type": "Literal",
             "start": 1267,
             "end": 1281,
-            "value": "[[Writable]]",
-            "raw": "'[[Writable]]'"
+            "value": "[[Writable]]"
           }
         ],
         "optional": false
@@ -650,8 +636,7 @@
             "type": "Literal",
             "start": 1331,
             "end": 1347,
-            "value": "[[Enumerable]]",
-            "raw": "'[[Enumerable]]'"
+            "value": "[[Enumerable]]"
           }
         ],
         "optional": false
@@ -715,8 +700,7 @@
             "type": "Literal",
             "start": 1399,
             "end": 1417,
-            "value": "[[Configurable]]",
-            "raw": "'[[Configurable]]'"
+            "value": "[[Configurable]]"
           }
         ],
         "optional": false

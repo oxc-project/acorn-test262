@@ -167,8 +167,7 @@
             "type": "Literal",
             "start": 982,
             "end": 998,
-            "value": "`get` accessor",
-            "raw": "'`get` accessor'"
+            "value": "`get` accessor"
           }
         ],
         "optional": false
@@ -292,8 +291,7 @@
             "type": "Literal",
             "start": 1088,
             "end": 1104,
-            "value": "`set` accessor",
-            "raw": "'`set` accessor'"
+            "value": "`set` accessor"
           }
         ],
         "optional": false

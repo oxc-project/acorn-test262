@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 287,
             "end": 288,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 300,
                 "end": 301,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -106,8 +104,7 @@
                   "type": "Literal",
                   "start": 345,
                   "end": 383,
-                  "value": "#1: var x = 0; (x = 1) > x === false",
-                  "raw": "'#1: var x = 0; (x = 1) > x === false'"
+                  "value": "#1: var x = 0; (x = 1) > x === false"
                 }
               ]
             }
@@ -135,8 +132,7 @@
             "type": "Literal",
             "start": 407,
             "end": 408,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -180,8 +176,7 @@
                 "type": "Literal",
                 "start": 424,
                 "end": 425,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           }
@@ -219,8 +214,7 @@
                   "type": "Literal",
                   "start": 464,
                   "end": 501,
-                  "value": "#2: var x = 1; x > (x = 0) === true",
-                  "raw": "'#2: var x = 1; x > (x = 0) === true'"
+                  "value": "#2: var x = 1; x > (x = 0) === true"
                 }
               ]
             }

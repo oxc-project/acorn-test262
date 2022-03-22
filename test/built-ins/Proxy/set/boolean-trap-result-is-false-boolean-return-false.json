@@ -229,15 +229,13 @@
                 "type": "Literal",
                 "start": 474,
                 "end": 480,
-                "value": "attr",
-                "raw": "\"attr\""
+                "value": "attr"
               },
               {
                 "type": "Literal",
                 "start": 482,
                 "end": 487,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false

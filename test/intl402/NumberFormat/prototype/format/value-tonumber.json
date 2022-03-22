@@ -64,8 +64,7 @@
                       "type": "Literal",
                       "start": 464,
                       "end": 465,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 ]
@@ -86,8 +85,7 @@
                     "type": "Literal",
                     "start": 477,
                     "end": 478,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               },
@@ -107,8 +105,7 @@
                     "type": "Literal",
                     "start": 491,
                     "end": 492,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ]
               },
@@ -121,15 +118,13 @@
                     "type": "Literal",
                     "start": 498,
                     "end": 502,
-                    "value": "42",
-                    "raw": "'42'"
+                    "value": "42"
                   },
                   {
                     "type": "Literal",
                     "start": 504,
                     "end": 506,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   }
                 ]
               },
@@ -142,8 +137,7 @@
                     "type": "Literal",
                     "start": 512,
                     "end": 517,
-                    "value": "foo",
-                    "raw": "'foo'"
+                    "value": "foo"
                   },
                   {
                     "type": "Identifier",
@@ -162,8 +156,7 @@
                     "type": "Literal",
                     "start": 528,
                     "end": 538,
-                    "value": "Infinity",
-                    "raw": "'Infinity'"
+                    "value": "Infinity"
                   },
                   {
                     "type": "Identifier",
@@ -182,8 +175,7 @@
                     "type": "Literal",
                     "start": 554,
                     "end": 565,
-                    "value": "-Infinity",
-                    "raw": "'-Infinity'"
+                    "value": "-Infinity"
                   },
                   {
                     "type": "UnaryExpression",
@@ -461,8 +453,7 @@
             "type": "Literal",
             "start": 759,
             "end": 760,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -573,8 +564,7 @@
                   "type": "Literal",
                   "start": 826,
                   "end": 834,
-                  "value": "number",
-                  "raw": "'number'"
+                  "value": "number"
                 }
               },
               "consequent": {
@@ -737,8 +727,7 @@
             "type": "Literal",
             "start": 931,
             "end": 932,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -832,8 +821,7 @@
             "type": "Literal",
             "start": 995,
             "end": 1058,
-            "value": "ToNumber(arg) throws a TypeError when arg is of type 'Symbol'",
-            "raw": "\"ToNumber(arg) throws a TypeError when arg is of type 'Symbol'\""
+            "value": "ToNumber(arg) throws a TypeError when arg is of type 'Symbol'"
           }
         ],
         "optional": false

@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 767,
             "end": 808,
-            "value": "isConstructor(WeakRef) must return true",
-            "raw": "'isConstructor(WeakRef) must return true'"
+            "value": "isConstructor(WeakRef) must return true"
           }
         ],
         "optional": false

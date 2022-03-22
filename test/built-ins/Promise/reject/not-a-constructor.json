@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 741,
             "end": 790,
-            "value": "isConstructor(Promise.reject) must return false",
-            "raw": "'isConstructor(Promise.reject) must return false'"
+            "value": "isConstructor(Promise.reject) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 854,
             "end": 895,
-            "value": "`new Promise.reject()` throws TypeError",
-            "raw": "'`new Promise.reject()` throws TypeError'"
+            "value": "`new Promise.reject()` throws TypeError"
           }
         ],
         "optional": false

@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 368,
                 "end": 383,
-                "value": "getUTCMinutes",
-                "raw": "\"getUTCMinutes\""
+                "value": "getUTCMinutes"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 396,
             "end": 461,
-            "value": "Date.prototype.hasOwnProperty(\"getUTCMinutes\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getUTCMinutes\") must return true'"
+            "value": "Date.prototype.hasOwnProperty(\"getUTCMinutes\") must return true"
           }
         ],
         "optional": false

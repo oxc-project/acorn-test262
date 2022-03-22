@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 792,
             "end": 798,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 811,
                   "end": 826,
-                  "value": "PlainDateTime",
-                  "raw": "\"PlainDateTime\""
+                  "value": "PlainDateTime"
                 },
                 "kind": "init"
               },

@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 386,
             "end": 396,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 400,
             "end": 456,
-            "value": "`typeof PlainYearMonth.prototype.toJSON` is `function`",
-            "raw": "\"`typeof PlainYearMonth.prototype.toJSON` is `function`\""
+            "value": "`typeof PlainYearMonth.prototype.toJSON` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 511,
             "end": 519,
-            "value": "toJSON",
-            "raw": "\"toJSON\""
+            "value": "toJSON"
           },
           {
             "type": "ObjectExpression",

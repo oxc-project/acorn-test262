@@ -111,8 +111,7 @@
                     "type": "Literal",
                     "start": 387,
                     "end": 411,
-                    "value": "#1: \"this\" leaked as: ",
-                    "raw": "'#1: \"this\" leaked as: '"
+                    "value": "#1: \"this\" leaked as: "
                   },
                   "operator": "+",
                   "right": {

@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 503,
             "end": 535,
-            "value": "o = {set foo(arg){return 1;}};",
-            "raw": "\"o = {set foo(arg){return 1;}};\""
+            "value": "o = {set foo(arg){return 1;}};"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
                 "type": "Literal",
                 "start": 585,
                 "end": 590,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -166,8 +164,7 @@
             "type": "Literal",
             "start": 634,
             "end": 651,
-            "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "value": "desc.enumerable"
           }
         ],
         "optional": false
@@ -231,8 +228,7 @@
             "type": "Literal",
             "start": 696,
             "end": 715,
-            "value": "desc.configurable",
-            "raw": "'desc.configurable'"
+            "value": "desc.configurable"
           }
         ],
         "optional": false

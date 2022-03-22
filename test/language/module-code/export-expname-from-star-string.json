@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 415,
         "end": 453,
-        "value": "./export-expname-from-star-string.js",
-        "raw": "\"./export-expname-from-star-string.js\""
+        "value": "./export-expname-from-star-string.js"
       }
     },
     {
@@ -36,15 +35,13 @@
         "type": "Literal",
         "start": 467,
         "end": 472,
-        "value": "All",
-        "raw": "\"All\""
+        "value": "All"
       },
       "source": {
         "type": "Literal",
         "start": 478,
         "end": 507,
-        "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "value": "./export-expname_FIXTURE.js"
       }
     },
     {
@@ -89,8 +86,7 @@
               "type": "Literal",
               "start": 534,
               "end": 537,
-              "value": "☿",
-              "raw": "\"☿\""
+              "value": "☿"
             },
             "computed": true,
             "optional": false
@@ -160,8 +156,7 @@
               "type": "Literal",
               "start": 580,
               "end": 583,
-              "value": "☿",
-              "raw": "\"☿\""
+              "value": "☿"
             },
             "computed": true,
             "optional": false

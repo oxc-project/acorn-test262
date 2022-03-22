@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 366,
           "end": 372,
-          "value": "JSON",
-          "raw": "\"JSON\""
+          "value": "JSON"
         }
       }
     },
@@ -103,8 +102,7 @@
             "type": "Literal",
             "start": 402,
             "end": 412,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -167,15 +165,13 @@
             "type": "Literal",
             "start": 453,
             "end": 459,
-            "value": "JSON",
-            "raw": "\"JSON\""
+            "value": "JSON"
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 475,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

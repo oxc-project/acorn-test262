@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 772,
             "end": 820,
-            "value": "isConstructor(ReferenceError) must return true",
-            "raw": "'isConstructor(ReferenceError) must return true'"
+            "value": "isConstructor(ReferenceError) must return true"
           }
         ],
         "optional": false

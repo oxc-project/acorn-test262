@@ -33,29 +33,25 @@
                 "type": "Literal",
                 "start": 318,
                 "end": 319,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 324,
                 "end": 325,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 327,
                 "end": 328,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -109,8 +105,7 @@
           "type": "Literal",
           "start": 357,
           "end": 366,
-          "value": "0,1,2,3",
-          "raw": "\"0,1,2,3\""
+          "value": "0,1,2,3"
         }
       },
       "consequent": {
@@ -141,8 +136,7 @@
                     "type": "Literal",
                     "start": 395,
                     "end": 466,
-                    "value": "#1: x = new Array(0,1,2,3); x.join(undefined) === \"0,1,2,3\". Actual: ",
-                    "raw": "'#1: x = new Array(0,1,2,3); x.join(undefined) === \"0,1,2,3\". Actual: '"
+                    "value": "#1: x = new Array(0,1,2,3); x.join(undefined) === \"0,1,2,3\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -237,8 +231,7 @@
             "type": "Literal",
             "start": 504,
             "end": 505,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -247,8 +240,7 @@
           "type": "Literal",
           "start": 509,
           "end": 510,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -275,8 +267,7 @@
             "type": "Literal",
             "start": 514,
             "end": 515,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           "computed": true,
           "optional": false
@@ -285,8 +276,7 @@
           "type": "Literal",
           "start": 519,
           "end": 520,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       }
     },
@@ -336,8 +326,7 @@
           "type": "Literal",
           "start": 548,
           "end": 555,
-          "value": "0,,,3",
-          "raw": "\"0,,,3\""
+          "value": "0,,,3"
         }
       },
       "consequent": {
@@ -368,8 +357,7 @@
                     "type": "Literal",
                     "start": 584,
                     "end": 657,
-                    "value": "#2: x = []; x[0] = 0; x[3] = 3; x.join(undefined) === \"0,,,3\". Actual: ",
-                    "raw": "'#2: x = []; x[0] = 0; x[3] = 3; x.join(undefined) === \"0,,,3\". Actual: '"
+                    "value": "#2: x = []; x[0] = 0; x[3] = 3; x.join(undefined) === \"0,,,3\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -464,8 +452,7 @@
             "type": "Literal",
             "start": 695,
             "end": 696,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -474,8 +461,7 @@
           "type": "Literal",
           "start": 700,
           "end": 701,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -525,8 +511,7 @@
           "type": "Literal",
           "start": 729,
           "end": 732,
-          "value": "0",
-          "raw": "\"0\""
+          "value": "0"
         }
       },
       "consequent": {
@@ -557,8 +542,7 @@
                     "type": "Literal",
                     "start": 761,
                     "end": 820,
-                    "value": "#3: x = []; x[0] = 0; x.join(undefined) === \"0\". Actual: ",
-                    "raw": "'#3: x = []; x[0] = 0; x.join(undefined) === \"0\". Actual: '"
+                    "value": "#3: x = []; x[0] = 0; x.join(undefined) === \"0\". Actual: "
                   },
                   "operator": "+",
                   "right": {

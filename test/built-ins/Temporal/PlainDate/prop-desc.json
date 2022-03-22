@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 320,
             "end": 330,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 368,
-            "value": "`typeof PlainDate` is `function`",
-            "raw": "\"`typeof PlainDate` is `function`\""
+            "value": "`typeof PlainDate` is `function`"
           }
         ],
         "optional": false
@@ -100,8 +98,7 @@
             "type": "Literal",
             "start": 398,
             "end": 409,
-            "value": "PlainDate",
-            "raw": "\"PlainDate\""
+            "value": "PlainDate"
           },
           {
             "type": "ObjectExpression",

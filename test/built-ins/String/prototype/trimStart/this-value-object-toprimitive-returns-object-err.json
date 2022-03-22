@@ -156,8 +156,7 @@
             "type": "Literal",
             "start": 1053,
             "end": 1063,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false

@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 270,
             "end": 277,
-            "value": "asinh",
-            "raw": "\"asinh\""
+            "value": "asinh"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 301,
             "end": 308,
-            "value": "asinh",
-            "raw": "\"asinh\""
+            "value": "asinh"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 336,
             "end": 343,
-            "value": "asinh",
-            "raw": "\"asinh\""
+            "value": "asinh"
           }
         ],
         "optional": false

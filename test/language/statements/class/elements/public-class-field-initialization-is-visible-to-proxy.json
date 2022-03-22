@@ -145,10 +145,9 @@
         "end": 828,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 812,
-            "end": 826,
-            "static": false,
+            "end": 825,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -160,8 +159,7 @@
               "type": "Literal",
               "start": 816,
               "end": 825,
-              "value": "Test262",
-              "raw": "\"Test262\""
+              "value": "Test262"
             }
           }
         ]

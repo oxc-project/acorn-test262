@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 500,
                   "end": 501,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -70,8 +69,7 @@
             "type": "Literal",
             "start": 521,
             "end": 522,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -135,8 +133,7 @@
             "type": "Literal",
             "start": 563,
             "end": 576,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -189,8 +186,7 @@
                             "type": "Literal",
                             "start": 617,
                             "end": 618,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -319,15 +315,13 @@
             "type": "Literal",
             "start": 701,
             "end": 702,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 704,
             "end": 741,
-            "value": "`constructor` property not accessed",
-            "raw": "'`constructor` property not accessed'"
+            "value": "`constructor` property not accessed"
           }
         ],
         "optional": false
@@ -469,8 +463,7 @@
             "type": "Literal",
             "start": 840,
             "end": 874,
-            "value": "result is an Array exotic object",
-            "raw": "'result is an Array exotic object'"
+            "value": "result is an Array exotic object"
           }
         ],
         "optional": false
@@ -527,15 +520,13 @@
             "type": "Literal",
             "start": 909,
             "end": 910,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 912,
             "end": 951,
-            "value": "array created with appropriate length",
-            "raw": "'array created with appropriate length'"
+            "value": "array created with appropriate length"
           }
         ],
         "optional": false

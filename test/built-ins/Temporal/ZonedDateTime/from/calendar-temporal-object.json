@@ -132,8 +132,7 @@
                                   "type": "Literal",
                                   "start": 1301,
                                   "end": 1305,
-                                  "value": 2000,
-                                  "raw": "2000"
+                                  "value": 2000
                                 },
                                 "kind": "init"
                               },
@@ -154,8 +153,7 @@
                                   "type": "Literal",
                                   "start": 1314,
                                   "end": 1315,
-                                  "value": 5,
-                                  "raw": "5"
+                                  "value": 5
                                 },
                                 "kind": "init"
                               },
@@ -176,8 +174,7 @@
                                   "type": "Literal",
                                   "start": 1322,
                                   "end": 1323,
-                                  "value": 2,
-                                  "raw": "2"
+                                  "value": 2
                                 },
                                 "kind": "init"
                               },
@@ -198,8 +195,7 @@
                                   "type": "Literal",
                                   "start": 1335,
                                   "end": 1340,
-                                  "value": "UTC",
-                                  "raw": "\"UTC\""
+                                  "value": "UTC"
                                 },
                                 "kind": "init"
                               },
@@ -290,8 +286,7 @@
                         "type": "Literal",
                         "start": 1417,
                         "end": 1454,
-                        "value": "Temporal object coerced to calendar",
-                        "raw": "\"Temporal object coerced to calendar\""
+                        "value": "Temporal object coerced to calendar"
                       }
                     ],
                     "optional": false

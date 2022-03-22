@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 360,
             "end": 366,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -73,8 +72,7 @@
             "type": "Literal",
             "start": 380,
             "end": 386,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -385,8 +383,7 @@
             "type": "Literal",
             "start": 631,
             "end": 641,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -430,8 +427,7 @@
           "type": "Literal",
           "start": 667,
           "end": 681,
-          "value": "overrideData",
-          "raw": "\"overrideData\""
+          "value": "overrideData"
         }
       }
     },
@@ -478,8 +474,7 @@
                 "type": "Literal",
                 "start": 710,
                 "end": 720,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -488,8 +483,7 @@
             "type": "Literal",
             "start": 723,
             "end": 764,
-            "value": "obj.hasOwnProperty(\"property\") !== true",
-            "raw": "'obj.hasOwnProperty(\"property\") !== true'"
+            "value": "obj.hasOwnProperty(\"property\") !== true"
           }
         ],
         "optional": false
@@ -533,15 +527,13 @@
             "type": "Literal",
             "start": 791,
             "end": 797,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           },
           {
             "type": "Literal",
             "start": 799,
             "end": 806,
-            "value": "data1",
-            "raw": "'data1'"
+            "value": "data1"
           }
         ],
         "optional": false
@@ -585,15 +577,13 @@
             "type": "Literal",
             "start": 833,
             "end": 847,
-            "value": "overrideData",
-            "raw": "\"overrideData\""
+            "value": "overrideData"
           },
           {
             "type": "Literal",
             "start": 849,
             "end": 856,
-            "value": "data2",
-            "raw": "'data2'"
+            "value": "data2"
           }
         ],
         "optional": false

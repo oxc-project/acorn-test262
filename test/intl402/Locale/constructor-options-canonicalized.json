@@ -45,8 +45,7 @@
                       "type": "Literal",
                       "start": 1099,
                       "end": 1103,
-                      "value": "ca",
-                      "raw": "\"ca\""
+                      "value": "ca"
                     },
                     "kind": "init"
                   },
@@ -67,8 +66,7 @@
                       "type": "Literal",
                       "start": 1117,
                       "end": 1127,
-                      "value": "calendar",
-                      "raw": "\"calendar\""
+                      "value": "calendar"
                     },
                     "kind": "init"
                   },
@@ -99,15 +97,13 @@
                               "type": "Literal",
                               "start": 1149,
                               "end": 1159,
-                              "value": "islamicc",
-                              "raw": "\"islamicc\""
+                              "value": "islamicc"
                             },
                             {
                               "type": "Literal",
                               "start": 1161,
                               "end": 1176,
-                              "value": "islamic-civil",
-                              "raw": "\"islamic-civil\""
+                              "value": "islamic-civil"
                             }
                           ]
                         },
@@ -120,15 +116,13 @@
                               "type": "Literal",
                               "start": 1186,
                               "end": 1207,
-                              "value": "ethiopic-amete-alem",
-                              "raw": "\"ethiopic-amete-alem\""
+                              "value": "ethiopic-amete-alem"
                             },
                             {
                               "type": "Literal",
                               "start": 1209,
                               "end": 1218,
-                              "value": "ethioaa",
-                              "raw": "\"ethioaa\""
+                              "value": "ethioaa"
                             }
                           ]
                         }

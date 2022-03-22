@@ -23,7 +23,6 @@
             "start": 346,
             "end": 354,
             "value": {},
-            "raw": "/[a-z]n/",
             "regex": {
               "pattern": "[a-z]n",
               "flags": ""
@@ -178,8 +177,7 @@
             "type": "Literal",
             "start": 444,
             "end": 518,
-            "value": "__re.test(function(){}()) must return __re.exec(function(){}()) !== null",
-            "raw": "'__re.test(function(){}()) must return __re.exec(function(){}()) !== null'"
+            "value": "__re.test(function(){}()) must return __re.exec(function(){}()) !== null"
           }
         ],
         "optional": false

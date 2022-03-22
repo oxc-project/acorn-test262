@@ -92,8 +92,7 @@
                 "type": "Literal",
                 "start": 421,
                 "end": 422,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "consequent": {
@@ -135,8 +134,7 @@
                           "type": "Literal",
                           "start": 456,
                           "end": 457,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     }
@@ -200,8 +198,7 @@
             "type": "Literal",
             "start": 506,
             "end": 509,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -243,8 +240,7 @@
                           "type": "Literal",
                           "start": 544,
                           "end": 547,
-                          "value": "5",
-                          "raw": "\"5\""
+                          "value": "5"
                         }
                       }
                     ]
@@ -301,22 +297,19 @@
                 "type": "Literal",
                 "start": 581,
                 "end": 582,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 585,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 587,
                 "end": 588,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           },
@@ -365,8 +358,7 @@
             "type": "Literal",
             "start": 630,
             "end": 651,
-            "value": "testResult !== true",
-            "raw": "'testResult !== true'"
+            "value": "testResult !== true"
           }
         ],
         "optional": false

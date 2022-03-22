@@ -125,8 +125,7 @@
             "type": "Literal",
             "start": 456,
             "end": 473,
-            "value": "fun.call(false)",
-            "raw": "'fun.call(false)'"
+            "value": "fun.call(false)"
           }
         ],
         "optional": false

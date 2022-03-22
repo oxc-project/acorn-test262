@@ -31,7 +31,6 @@
                 "start": 518,
                 "end": 538,
                 "value": {},
-                "raw": "/(\\.(?!com|org)|\\/)/",
                 "regex": {
                   "pattern": "(\\.(?!com|org)|\\/)",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 552,
-                "value": "ah.com",
-                "raw": "\"ah.com\""
+                "value": "ah.com"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 576,
             "end": 625,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

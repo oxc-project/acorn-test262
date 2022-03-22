@@ -92,8 +92,7 @@
             "type": "Literal",
             "start": 352,
             "end": 355,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -215,8 +214,7 @@
             "type": "Literal",
             "start": 464,
             "end": 467,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "ObjectExpression",
@@ -458,8 +456,7 @@
             "type": "Literal",
             "start": 656,
             "end": 666,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false

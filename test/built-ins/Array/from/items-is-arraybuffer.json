@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 431,
-                "value": 7,
-                "raw": "7"
+                "value": 7
               }
             ]
           }
@@ -145,15 +144,13 @@
             "type": "Literal",
             "start": 506,
             "end": 507,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 509,
             "end": 557,
-            "value": "The value of result.length is expected to be 0",
-            "raw": "'The value of result.length is expected to be 0'"
+            "value": "The value of result.length is expected to be 0"
           }
         ],
         "optional": false

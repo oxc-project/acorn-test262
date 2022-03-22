@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 335,
                   "end": 358,
-                  "value": "inheritedDataProperty",
-                  "raw": "\"inheritedDataProperty\""
+                  "value": "inheritedDataProperty"
                 },
                 "kind": "init"
               }
@@ -295,15 +294,13 @@
             "type": "Literal",
             "start": 525,
             "end": 548,
-            "value": "inheritedDataProperty",
-            "raw": "\"inheritedDataProperty\""
+            "value": "inheritedDataProperty"
           },
           {
             "type": "Literal",
             "start": 550,
             "end": 564,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 891,
             "end": 906,
-            "value": "findLastIndex",
-            "raw": "\"findLastIndex\""
+            "value": "findLastIndex"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 961,
             "end": 967,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

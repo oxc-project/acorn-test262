@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 364,
                 "end": 377,
-                "value": "setUTCMonth",
-                "raw": "\"setUTCMonth\""
+                "value": "setUTCMonth"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 390,
             "end": 453,
-            "value": "Date.prototype.hasOwnProperty(\"setUTCMonth\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"setUTCMonth\") must return true'"
+            "value": "Date.prototype.hasOwnProperty(\"setUTCMonth\") must return true"
           }
         ],
         "optional": false

@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 563,
                 "end": 564,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 566,
                 "end": 567,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -81,8 +79,7 @@
             "type": "Literal",
             "start": 601,
             "end": 609,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -106,8 +103,7 @@
                   "type": "Literal",
                   "start": 622,
                   "end": 623,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -166,8 +162,7 @@
                   "type": "Literal",
                   "start": 671,
                   "end": 674,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 }
               ],
               "optional": false
@@ -209,8 +204,7 @@
           "type": "Literal",
           "start": 694,
           "end": 696,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       }
     },
@@ -239,8 +233,7 @@
             "type": "Literal",
             "start": 720,
             "end": 743,
-            "value": "indexDeleted !== true",
-            "raw": "'indexDeleted !== true'"
+            "value": "indexDeleted !== true"
           }
         ],
         "optional": false
@@ -297,15 +290,13 @@
             "type": "Literal",
             "start": 778,
             "end": 780,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           },
           {
             "type": "Literal",
             "start": 782,
             "end": 797,
-            "value": "arrObj.length",
-            "raw": "'arrObj.length'"
+            "value": "arrObj.length"
           }
         ],
         "optional": false

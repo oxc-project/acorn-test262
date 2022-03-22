@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 293,
                 "end": 330,
-                "value": "1963-02-13T10:36:29.123456789+01:00",
-                "raw": "\"1963-02-13T10:36:29.123456789+01:00\""
+                "value": "1963-02-13T10:36:29.123456789+01:00"
               }
             ],
             "optional": false
@@ -127,8 +126,7 @@
             "type": "Literal",
             "start": 379,
             "end": 411,
-            "value": "1963-02-13T09:36:29.123456789Z",
-            "raw": "\"1963-02-13T09:36:29.123456789Z\""
+            "value": "1963-02-13T09:36:29.123456789Z"
           }
         ],
         "optional": false
@@ -190,8 +188,7 @@
                 "type": "Literal",
                 "start": 463,
                 "end": 500,
-                "value": "1976-11-18T15:23:30.123456789+01:00",
-                "raw": "\"1976-11-18T15:23:30.123456789+01:00\""
+                "value": "1976-11-18T15:23:30.123456789+01:00"
               }
             ],
             "optional": false
@@ -258,8 +255,7 @@
             "type": "Literal",
             "start": 548,
             "end": 580,
-            "value": "1976-11-18T14:23:30.123456789Z",
-            "raw": "\"1976-11-18T14:23:30.123456789Z\""
+            "value": "1976-11-18T14:23:30.123456789Z"
           }
         ],
         "optional": false
@@ -321,8 +317,7 @@
                 "type": "Literal",
                 "start": 625,
                 "end": 633,
-                "value": "+01:00",
-                "raw": "\"+01:00\""
+                "value": "+01:00"
               }
             ],
             "optional": false
@@ -331,15 +326,13 @@
             "type": "Literal",
             "start": 636,
             "end": 668,
-            "value": "1976-11-18T14:23:30.123456789Z",
-            "raw": "\"1976-11-18T14:23:30.123456789Z\""
+            "value": "1976-11-18T14:23:30.123456789Z"
           },
           {
             "type": "Literal",
             "start": 672,
             "end": 707,
-            "value": "after epoch with ignored argument",
-            "raw": "\"after epoch with ignored argument\""
+            "value": "after epoch with ignored argument"
           }
         ],
         "optional": false

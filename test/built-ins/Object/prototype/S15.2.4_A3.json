@@ -89,8 +89,7 @@
             "type": "Literal",
             "start": 392,
             "end": 441,
-            "value": "Object.prototype() throws a TypeError exception",
-            "raw": "'Object.prototype() throws a TypeError exception'"
+            "value": "Object.prototype() throws a TypeError exception"
           }
         ],
         "optional": false

@@ -58,8 +58,7 @@
                       "type": "Literal",
                       "start": 277,
                       "end": 281,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -91,8 +90,7 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 308,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -101,8 +99,7 @@
             "type": "Literal",
             "start": 313,
             "end": 395,
-            "value": "(new Number(1e21)).toFixed() must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed() must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed() must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -163,8 +160,7 @@
                       "type": "Literal",
                       "start": 432,
                       "end": 436,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -183,8 +179,7 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 448,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -204,8 +199,7 @@
                 "type": "Literal",
                 "start": 460,
                 "end": 464,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -214,8 +208,7 @@
             "type": "Literal",
             "start": 469,
             "end": 552,
-            "value": "(new Number(1e21)).toFixed(0) must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(0) must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(0) must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -276,8 +269,7 @@
                       "type": "Literal",
                       "start": 589,
                       "end": 593,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -296,8 +288,7 @@
                 "type": "Literal",
                 "start": 604,
                 "end": 605,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -317,8 +308,7 @@
                 "type": "Literal",
                 "start": 617,
                 "end": 621,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -327,8 +317,7 @@
             "type": "Literal",
             "start": 626,
             "end": 709,
-            "value": "(new Number(1e21)).toFixed(1) must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(1) must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(1) must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -389,8 +378,7 @@
                       "type": "Literal",
                       "start": 746,
                       "end": 750,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -409,8 +397,7 @@
                 "type": "Literal",
                 "start": 761,
                 "end": 764,
-                "value": 1.1,
-                "raw": "1.1"
+                "value": 1.1
               }
             ],
             "optional": false
@@ -430,8 +417,7 @@
                 "type": "Literal",
                 "start": 776,
                 "end": 780,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -440,8 +426,7 @@
             "type": "Literal",
             "start": 785,
             "end": 870,
-            "value": "(new Number(1e21)).toFixed(1.1) must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(1.1) must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(1.1) must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -502,8 +487,7 @@
                       "type": "Literal",
                       "start": 907,
                       "end": 911,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -522,8 +506,7 @@
                 "type": "Literal",
                 "start": 922,
                 "end": 925,
-                "value": 0.9,
-                "raw": "0.9"
+                "value": 0.9
               }
             ],
             "optional": false
@@ -543,8 +526,7 @@
                 "type": "Literal",
                 "start": 937,
                 "end": 941,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -553,8 +535,7 @@
             "type": "Literal",
             "start": 946,
             "end": 1031,
-            "value": "(new Number(1e21)).toFixed(0.9) must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(0.9) must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(0.9) must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -615,8 +596,7 @@
                       "type": "Literal",
                       "start": 1068,
                       "end": 1072,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -635,8 +615,7 @@
                 "type": "Literal",
                 "start": 1083,
                 "end": 1086,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ],
             "optional": false
@@ -656,8 +635,7 @@
                 "type": "Literal",
                 "start": 1098,
                 "end": 1102,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -666,8 +644,7 @@
             "type": "Literal",
             "start": 1107,
             "end": 1192,
-            "value": "(new Number(1e21)).toFixed(\"1\") must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(\"1\") must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(\"1\") must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -728,8 +705,7 @@
                       "type": "Literal",
                       "start": 1229,
                       "end": 1233,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -748,8 +724,7 @@
                 "type": "Literal",
                 "start": 1244,
                 "end": 1249,
-                "value": "1.1",
-                "raw": "\"1.1\""
+                "value": "1.1"
               }
             ],
             "optional": false
@@ -769,8 +744,7 @@
                 "type": "Literal",
                 "start": 1261,
                 "end": 1265,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -779,8 +753,7 @@
             "type": "Literal",
             "start": 1270,
             "end": 1357,
-            "value": "(new Number(1e21)).toFixed(\"1.1\") must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(\"1.1\") must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(\"1.1\") must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -841,8 +814,7 @@
                       "type": "Literal",
                       "start": 1394,
                       "end": 1398,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -861,8 +833,7 @@
                 "type": "Literal",
                 "start": 1409,
                 "end": 1414,
-                "value": "0.9",
-                "raw": "\"0.9\""
+                "value": "0.9"
               }
             ],
             "optional": false
@@ -882,8 +853,7 @@
                 "type": "Literal",
                 "start": 1426,
                 "end": 1430,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -892,8 +862,7 @@
             "type": "Literal",
             "start": 1435,
             "end": 1522,
-            "value": "(new Number(1e21)).toFixed(\"0.9\") must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(\"0.9\") must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(\"0.9\") must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -954,8 +923,7 @@
                       "type": "Literal",
                       "start": 1559,
                       "end": 1563,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -1007,8 +975,7 @@
                 "type": "Literal",
                 "start": 1596,
                 "end": 1600,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -1017,8 +984,7 @@
             "type": "Literal",
             "start": 1605,
             "end": 1697,
-            "value": "(new Number(1e21)).toFixed(Number.NaN) must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(Number.NaN) must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(Number.NaN) must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -1079,8 +1045,7 @@
                       "type": "Literal",
                       "start": 1734,
                       "end": 1738,
-                      "value": 1e+21,
-                      "raw": "1e21"
+                      "value": 1e+21
                     }
                   ]
                 }
@@ -1099,8 +1064,7 @@
                 "type": "Literal",
                 "start": 1749,
                 "end": 1762,
-                "value": "some string",
-                "raw": "\"some string\""
+                "value": "some string"
               }
             ],
             "optional": false
@@ -1120,8 +1084,7 @@
                 "type": "Literal",
                 "start": 1774,
                 "end": 1778,
-                "value": 1e+21,
-                "raw": "1e21"
+                "value": 1e+21
               }
             ],
             "optional": false
@@ -1130,8 +1093,7 @@
             "type": "Literal",
             "start": 1783,
             "end": 1878,
-            "value": "(new Number(1e21)).toFixed(\"some string\") must return the same value returned by String(1e21)",
-            "raw": "'(new Number(1e21)).toFixed(\"some string\") must return the same value returned by String(1e21)'"
+            "value": "(new Number(1e21)).toFixed(\"some string\") must return the same value returned by String(1e21)"
           }
         ],
         "optional": false
@@ -1188,8 +1150,7 @@
                           "type": "Literal",
                           "start": 1907,
                           "end": 1911,
-                          "value": 1e+21,
-                          "raw": "1e21"
+                          "value": 1e+21
                         }
                       ]
                     }
@@ -1247,8 +1208,7 @@
                   "type": "Literal",
                   "start": 1974,
                   "end": 2073,
-                  "value": "#10: (new Number(1e21)).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN",
-                  "raw": "'#10: (new Number(1e21)).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN'"
+                  "value": "#10: (new Number(1e21)).toFixed(Number.POSITIVE_INFINITY) should throw RangeError, not return NaN"
                 }
               ]
             }
@@ -1307,8 +1267,7 @@
                     "type": "Literal",
                     "start": 2124,
                     "end": 2199,
-                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof RangeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof RangeError) is expected to be true"
                   }
                 ],
                 "optional": false

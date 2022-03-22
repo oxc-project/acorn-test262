@@ -71,8 +71,7 @@
               "type": "Literal",
               "start": 375,
               "end": 382,
-              "value": "y = x",
-              "raw": "\"y = x\""
+              "value": "y = x"
             }
           ],
           "optional": false
@@ -113,8 +112,7 @@
                     "type": "Literal",
                     "start": 418,
                     "end": 465,
-                    "value": "#1: var x = {}; eval(\"y = x\") === x. Actual: ",
-                    "raw": "'#1: var x = {}; eval(\"y = x\") === x. Actual: '"
+                    "value": "#1: var x = {}; eval(\"y = x\") === x. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -136,8 +134,7 @@
                           "type": "Literal",
                           "start": 474,
                           "end": 481,
-                          "value": "y = x",
-                          "raw": "\"y = x\""
+                          "value": "y = x"
                         }
                       ],
                       "optional": false
@@ -174,8 +171,7 @@
               "type": "Literal",
               "start": 513,
               "end": 516,
-              "value": "x",
-              "raw": "\"x\""
+              "value": "x"
             }
           ],
           "optional": false
@@ -216,8 +212,7 @@
                     "type": "Literal",
                     "start": 552,
                     "end": 595,
-                    "value": "#2: var x = {}; eval(\"x\") === x. Actual: ",
-                    "raw": "'#2: var x = {}; eval(\"x\") === x. Actual: '"
+                    "value": "#2: var x = {}; eval(\"x\") === x. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -239,8 +234,7 @@
                           "type": "Literal",
                           "start": 604,
                           "end": 607,
-                          "value": "x",
-                          "raw": "\"x\""
+                          "value": "x"
                         }
                       ],
                       "optional": false

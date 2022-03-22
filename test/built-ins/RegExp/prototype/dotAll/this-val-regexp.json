@@ -40,7 +40,6 @@
               "start": 507,
               "end": 510,
               "value": {},
-              "raw": "/./",
               "regex": {
                 "pattern": ".",
                 "flags": ""
@@ -66,8 +65,7 @@
             "type": "Literal",
             "start": 526,
             "end": 538,
-            "value": "/./.dotAll",
-            "raw": "\"/./.dotAll\""
+            "value": "/./.dotAll"
           }
         ],
         "optional": false
@@ -110,7 +108,6 @@
               "start": 558,
               "end": 562,
               "value": {},
-              "raw": "/./i",
               "regex": {
                 "pattern": ".",
                 "flags": "i"
@@ -136,8 +133,7 @@
             "type": "Literal",
             "start": 578,
             "end": 591,
-            "value": "/./i.dotAll",
-            "raw": "\"/./i.dotAll\""
+            "value": "/./i.dotAll"
           }
         ],
         "optional": false
@@ -180,7 +176,6 @@
               "start": 611,
               "end": 615,
               "value": {},
-              "raw": "/./g",
               "regex": {
                 "pattern": ".",
                 "flags": "g"
@@ -206,8 +201,7 @@
             "type": "Literal",
             "start": 631,
             "end": 644,
-            "value": "/./g.dotAll",
-            "raw": "\"/./g.dotAll\""
+            "value": "/./g.dotAll"
           }
         ],
         "optional": false
@@ -250,7 +244,6 @@
               "start": 664,
               "end": 668,
               "value": {},
-              "raw": "/./y",
               "regex": {
                 "pattern": ".",
                 "flags": "y"
@@ -276,8 +269,7 @@
             "type": "Literal",
             "start": 684,
             "end": 697,
-            "value": "/./y.dotAll",
-            "raw": "\"/./y.dotAll\""
+            "value": "/./y.dotAll"
           }
         ],
         "optional": false
@@ -320,7 +312,6 @@
               "start": 717,
               "end": 721,
               "value": {},
-              "raw": "/./m",
               "regex": {
                 "pattern": ".",
                 "flags": "m"
@@ -346,8 +337,7 @@
             "type": "Literal",
             "start": 737,
             "end": 750,
-            "value": "/./m.dotAll",
-            "raw": "\"/./m.dotAll\""
+            "value": "/./m.dotAll"
           }
         ],
         "optional": false
@@ -390,7 +380,6 @@
               "start": 771,
               "end": 775,
               "value": {},
-              "raw": "/./s",
               "regex": {
                 "pattern": ".",
                 "flags": "s"
@@ -416,8 +405,7 @@
             "type": "Literal",
             "start": 790,
             "end": 803,
-            "value": "/./s.dotAll",
-            "raw": "\"/./s.dotAll\""
+            "value": "/./s.dotAll"
           }
         ],
         "optional": false
@@ -460,7 +448,6 @@
               "start": 823,
               "end": 828,
               "value": {},
-              "raw": "/./is",
               "regex": {
                 "pattern": ".",
                 "flags": "is"
@@ -486,8 +473,7 @@
             "type": "Literal",
             "start": 843,
             "end": 857,
-            "value": "/./is.dotAll",
-            "raw": "\"/./is.dotAll\""
+            "value": "/./is.dotAll"
           }
         ],
         "optional": false
@@ -530,7 +516,6 @@
               "start": 877,
               "end": 882,
               "value": {},
-              "raw": "/./sg",
               "regex": {
                 "pattern": ".",
                 "flags": "sg"
@@ -556,8 +541,7 @@
             "type": "Literal",
             "start": 897,
             "end": 911,
-            "value": "/./sg.dotAll",
-            "raw": "\"/./sg.dotAll\""
+            "value": "/./sg.dotAll"
           }
         ],
         "optional": false
@@ -600,7 +584,6 @@
               "start": 931,
               "end": 936,
               "value": {},
-              "raw": "/./sy",
               "regex": {
                 "pattern": ".",
                 "flags": "sy"
@@ -626,8 +609,7 @@
             "type": "Literal",
             "start": 951,
             "end": 965,
-            "value": "/./sy.dotAll",
-            "raw": "\"/./sy.dotAll\""
+            "value": "/./sy.dotAll"
           }
         ],
         "optional": false
@@ -670,7 +652,6 @@
               "start": 985,
               "end": 990,
               "value": {},
-              "raw": "/./ms",
               "regex": {
                 "pattern": ".",
                 "flags": "ms"
@@ -696,8 +677,7 @@
             "type": "Literal",
             "start": 1005,
             "end": 1019,
-            "value": "/./ms.dotAll",
-            "raw": "\"/./ms.dotAll\""
+            "value": "/./ms.dotAll"
           }
         ],
         "optional": false
@@ -750,15 +730,13 @@
                   "type": "Literal",
                   "start": 1051,
                   "end": 1054,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1056,
                   "end": 1058,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 }
               ]
             },
@@ -782,8 +760,7 @@
             "type": "Literal",
             "start": 1075,
             "end": 1103,
-            "value": "new RegExp('.', '').dotAll",
-            "raw": "\"new RegExp('.', '').dotAll\""
+            "value": "new RegExp('.', '').dotAll"
           }
         ],
         "optional": false
@@ -836,15 +813,13 @@
                   "type": "Literal",
                   "start": 1134,
                   "end": 1137,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1139,
                   "end": 1142,
-                  "value": "i",
-                  "raw": "\"i\""
+                  "value": "i"
                 }
               ]
             },
@@ -868,8 +843,7 @@
             "type": "Literal",
             "start": 1159,
             "end": 1188,
-            "value": "new RegExp('.', 'i').dotAll",
-            "raw": "\"new RegExp('.', 'i').dotAll\""
+            "value": "new RegExp('.', 'i').dotAll"
           }
         ],
         "optional": false
@@ -922,15 +896,13 @@
                   "type": "Literal",
                   "start": 1219,
                   "end": 1222,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1224,
                   "end": 1227,
-                  "value": "g",
-                  "raw": "\"g\""
+                  "value": "g"
                 }
               ]
             },
@@ -954,8 +926,7 @@
             "type": "Literal",
             "start": 1244,
             "end": 1273,
-            "value": "new RegExp('.', 'g').dotAll",
-            "raw": "\"new RegExp('.', 'g').dotAll\""
+            "value": "new RegExp('.', 'g').dotAll"
           }
         ],
         "optional": false
@@ -1008,15 +979,13 @@
                   "type": "Literal",
                   "start": 1304,
                   "end": 1307,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1309,
                   "end": 1312,
-                  "value": "y",
-                  "raw": "\"y\""
+                  "value": "y"
                 }
               ]
             },
@@ -1040,8 +1009,7 @@
             "type": "Literal",
             "start": 1329,
             "end": 1358,
-            "value": "new RegExp('.', 'y').dotAll",
-            "raw": "\"new RegExp('.', 'y').dotAll\""
+            "value": "new RegExp('.', 'y').dotAll"
           }
         ],
         "optional": false
@@ -1094,15 +1062,13 @@
                   "type": "Literal",
                   "start": 1389,
                   "end": 1392,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1394,
                   "end": 1397,
-                  "value": "m",
-                  "raw": "\"m\""
+                  "value": "m"
                 }
               ]
             },
@@ -1126,8 +1092,7 @@
             "type": "Literal",
             "start": 1414,
             "end": 1443,
-            "value": "new RegExp('.', 'm').dotAll",
-            "raw": "\"new RegExp('.', 'm').dotAll\""
+            "value": "new RegExp('.', 'm').dotAll"
           }
         ],
         "optional": false
@@ -1180,15 +1145,13 @@
                   "type": "Literal",
                   "start": 1475,
                   "end": 1478,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1480,
                   "end": 1483,
-                  "value": "s",
-                  "raw": "\"s\""
+                  "value": "s"
                 }
               ]
             },
@@ -1212,8 +1175,7 @@
             "type": "Literal",
             "start": 1499,
             "end": 1528,
-            "value": "new RegExp('.', 's').dotAll",
-            "raw": "\"new RegExp('.', 's').dotAll\""
+            "value": "new RegExp('.', 's').dotAll"
           }
         ],
         "optional": false
@@ -1266,15 +1228,13 @@
                   "type": "Literal",
                   "start": 1559,
                   "end": 1562,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1564,
                   "end": 1568,
-                  "value": "is",
-                  "raw": "\"is\""
+                  "value": "is"
                 }
               ]
             },
@@ -1298,8 +1258,7 @@
             "type": "Literal",
             "start": 1584,
             "end": 1614,
-            "value": "new RegExp('.', 'is').dotAll",
-            "raw": "\"new RegExp('.', 'is').dotAll\""
+            "value": "new RegExp('.', 'is').dotAll"
           }
         ],
         "optional": false
@@ -1352,15 +1311,13 @@
                   "type": "Literal",
                   "start": 1645,
                   "end": 1648,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1650,
                   "end": 1654,
-                  "value": "sg",
-                  "raw": "\"sg\""
+                  "value": "sg"
                 }
               ]
             },
@@ -1384,8 +1341,7 @@
             "type": "Literal",
             "start": 1670,
             "end": 1700,
-            "value": "new RegExp('.', 'sg').dotAll",
-            "raw": "\"new RegExp('.', 'sg').dotAll\""
+            "value": "new RegExp('.', 'sg').dotAll"
           }
         ],
         "optional": false
@@ -1438,15 +1394,13 @@
                   "type": "Literal",
                   "start": 1731,
                   "end": 1734,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1736,
                   "end": 1740,
-                  "value": "sy",
-                  "raw": "\"sy\""
+                  "value": "sy"
                 }
               ]
             },
@@ -1470,8 +1424,7 @@
             "type": "Literal",
             "start": 1756,
             "end": 1786,
-            "value": "new RegExp('.', 'sy').dotAll",
-            "raw": "\"new RegExp('.', 'sy').dotAll\""
+            "value": "new RegExp('.', 'sy').dotAll"
           }
         ],
         "optional": false
@@ -1524,15 +1477,13 @@
                   "type": "Literal",
                   "start": 1817,
                   "end": 1820,
-                  "value": ".",
-                  "raw": "\".\""
+                  "value": "."
                 },
                 {
                   "type": "Literal",
                   "start": 1822,
                   "end": 1826,
-                  "value": "ms",
-                  "raw": "\"ms\""
+                  "value": "ms"
                 }
               ]
             },
@@ -1556,8 +1507,7 @@
             "type": "Literal",
             "start": 1842,
             "end": 1872,
-            "value": "new RegExp('.', 'ms').dotAll",
-            "raw": "\"new RegExp('.', 'ms').dotAll\""
+            "value": "new RegExp('.', 'ms').dotAll"
           }
         ],
         "optional": false

@@ -165,7 +165,6 @@
                         "start": 1011,
                         "end": 1014,
                         "value": {},
-                        "raw": "/x/",
                         "regex": {
                           "pattern": "x",
                           "flags": ""
@@ -198,8 +197,7 @@
                         "type": "Literal",
                         "start": 1031,
                         "end": 1036,
-                        "value": "[x]",
-                        "raw": "'[x]'"
+                        "value": "[x]"
                       },
                       {
                         "type": "Identifier",

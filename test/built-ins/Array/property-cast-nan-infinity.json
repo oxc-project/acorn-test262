@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 407,
           "end": 408,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -107,8 +106,7 @@
               "type": "Literal",
               "start": 429,
               "end": 430,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -123,8 +121,7 @@
             "type": "Literal",
             "start": 444,
             "end": 494,
-            "value": "The value of x[0] is expected to equal undefined",
-            "raw": "'The value of x[0] is expected to equal undefined'"
+            "value": "The value of x[0] is expected to equal undefined"
           }
         ],
         "optional": false
@@ -172,8 +169,7 @@
               "type": "Literal",
               "start": 516,
               "end": 521,
-              "value": "NaN",
-              "raw": "\"NaN\""
+              "value": "NaN"
             },
             "computed": true,
             "optional": false
@@ -182,15 +178,13 @@
             "type": "Literal",
             "start": 524,
             "end": 525,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 527,
             "end": 570,
-            "value": "The value of x[\"NaN\"] is expected to be 1",
-            "raw": "'The value of x[\"NaN\"] is expected to be 1'"
+            "value": "The value of x[\"NaN\"] is expected to be 1"
           }
         ],
         "optional": false
@@ -266,8 +260,7 @@
           "type": "Literal",
           "start": 616,
           "end": 617,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -313,8 +306,7 @@
               "type": "Literal",
               "start": 638,
               "end": 639,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -329,8 +321,7 @@
             "type": "Literal",
             "start": 653,
             "end": 703,
-            "value": "The value of y[0] is expected to equal undefined",
-            "raw": "'The value of y[0] is expected to equal undefined'"
+            "value": "The value of y[0] is expected to equal undefined"
           }
         ],
         "optional": false
@@ -378,8 +369,7 @@
               "type": "Literal",
               "start": 725,
               "end": 735,
-              "value": "Infinity",
-              "raw": "\"Infinity\""
+              "value": "Infinity"
             },
             "computed": true,
             "optional": false
@@ -388,15 +378,13 @@
             "type": "Literal",
             "start": 738,
             "end": 739,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 741,
             "end": 789,
-            "value": "The value of y[\"Infinity\"] is expected to be 1",
-            "raw": "'The value of y[\"Infinity\"] is expected to be 1'"
+            "value": "The value of y[\"Infinity\"] is expected to be 1"
           }
         ],
         "optional": false
@@ -472,8 +460,7 @@
           "type": "Literal",
           "start": 835,
           "end": 836,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -519,8 +506,7 @@
               "type": "Literal",
               "start": 857,
               "end": 858,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -535,8 +521,7 @@
             "type": "Literal",
             "start": 872,
             "end": 922,
-            "value": "The value of z[0] is expected to equal undefined",
-            "raw": "'The value of z[0] is expected to equal undefined'"
+            "value": "The value of z[0] is expected to equal undefined"
           }
         ],
         "optional": false
@@ -584,8 +569,7 @@
               "type": "Literal",
               "start": 944,
               "end": 955,
-              "value": "-Infinity",
-              "raw": "\"-Infinity\""
+              "value": "-Infinity"
             },
             "computed": true,
             "optional": false
@@ -594,15 +578,13 @@
             "type": "Literal",
             "start": 958,
             "end": 959,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 961,
             "end": 1010,
-            "value": "The value of z[\"-Infinity\"] is expected to be 1",
-            "raw": "'The value of z[\"-Infinity\"] is expected to be 1'"
+            "value": "The value of z[\"-Infinity\"] is expected to be 1"
           }
         ],
         "optional": false

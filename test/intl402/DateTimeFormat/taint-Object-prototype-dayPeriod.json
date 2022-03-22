@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 384,
-                "value": "dayPeriod",
-                "raw": "\"dayPeriod\""
+                "value": "dayPeriod"
               }
             ]
           }
@@ -115,8 +114,7 @@
                             "type": "Literal",
                             "start": 453,
                             "end": 461,
-                            "value": "lookup",
-                            "raw": "\"lookup\""
+                            "value": "lookup"
                           },
                           "kind": "init"
                         }
@@ -196,8 +194,7 @@
                 "type": "Literal",
                 "start": 550,
                 "end": 590,
-                "value": "DateTimeFormat returns invalid locale ",
-                "raw": "\"DateTimeFormat returns invalid locale \""
+                "value": "DateTimeFormat returns invalid locale "
               },
               "operator": "+",
               "right": {
@@ -212,8 +209,7 @@
               "type": "Literal",
               "start": 602,
               "end": 605,
-              "value": ".",
-              "raw": "\".\""
+              "value": "."
             }
           }
         ],

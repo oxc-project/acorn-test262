@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 320,
                 "end": 328,
-                "value": "\ud834",
-                "raw": "\"\\uD834\""
+                "value": "\ud834"
               }
             ],
             "optional": false
@@ -69,15 +68,13 @@
             "type": "Literal",
             "start": 331,
             "end": 342,
-            "value": "\"\\ud834\"",
-            "raw": "'\"\\\\ud834\"'"
+            "value": "\"\\ud834\""
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 373,
-            "value": "JSON.stringify(\"\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\")'"
+            "value": "JSON.stringify(\"\\uD834\")"
           }
         ],
         "optional": false
@@ -139,8 +136,7 @@
                 "type": "Literal",
                 "start": 408,
                 "end": 416,
-                "value": "\udf06",
-                "raw": "\"\\uDF06\""
+                "value": "\udf06"
               }
             ],
             "optional": false
@@ -149,15 +145,13 @@
             "type": "Literal",
             "start": 419,
             "end": 430,
-            "value": "\"\\udf06\"",
-            "raw": "'\"\\\\udf06\"'"
+            "value": "\"\\udf06\""
           },
           {
             "type": "Literal",
             "start": 434,
             "end": 461,
-            "value": "JSON.stringify(\"\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\")'"
+            "value": "JSON.stringify(\"\\uDF06\")"
           }
         ],
         "optional": false
@@ -219,8 +213,7 @@
                 "type": "Literal",
                 "start": 497,
                 "end": 511,
-                "value": "𝌆",
-                "raw": "\"\\uD834\\uDF06\""
+                "value": "𝌆"
               }
             ],
             "optional": false
@@ -229,15 +222,13 @@
             "type": "Literal",
             "start": 514,
             "end": 520,
-            "value": "\"𝌆\"",
-            "raw": "'\"𝌆\"'"
+            "value": "\"𝌆\""
           },
           {
             "type": "Literal",
             "start": 524,
             "end": 558,
-            "value": "JSON.stringify(\"\\uD834\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\")'"
+            "value": "JSON.stringify(\"\\uD834\\uDF06\")"
           }
         ],
         "optional": false
@@ -299,8 +290,7 @@
                 "type": "Literal",
                 "start": 593,
                 "end": 619,
-                "value": "\ud834𝌆\ud834",
-                "raw": "\"\\uD834\\uD834\\uDF06\\uD834\""
+                "value": "\ud834𝌆\ud834"
               }
             ],
             "optional": false
@@ -309,15 +299,13 @@
             "type": "Literal",
             "start": 622,
             "end": 642,
-            "value": "\"\\ud834𝌆\\ud834\"",
-            "raw": "'\"\\\\ud834𝌆\\\\ud834\"'"
+            "value": "\"\\ud834𝌆\\ud834\""
           },
           {
             "type": "Literal",
             "start": 646,
             "end": 694,
-            "value": "JSON.stringify(\"\\uD834\\uD834\\uDF06\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uD834\\\\uDF06\\\\uD834\")'"
+            "value": "JSON.stringify(\"\\uD834\\uD834\\uDF06\\uD834\")"
           }
         ],
         "optional": false
@@ -379,8 +367,7 @@
                 "type": "Literal",
                 "start": 729,
                 "end": 755,
-                "value": "\ud834𝌆\udf06",
-                "raw": "\"\\uD834\\uD834\\uDF06\\uDF06\""
+                "value": "\ud834𝌆\udf06"
               }
             ],
             "optional": false
@@ -389,15 +376,13 @@
             "type": "Literal",
             "start": 758,
             "end": 778,
-            "value": "\"\\ud834𝌆\\udf06\"",
-            "raw": "'\"\\\\ud834𝌆\\\\udf06\"'"
+            "value": "\"\\ud834𝌆\\udf06\""
           },
           {
             "type": "Literal",
             "start": 782,
             "end": 830,
-            "value": "JSON.stringify(\"\\uD834\\uD834\\uDF06\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uD834\\\\uDF06\\\\uDF06\")'"
+            "value": "JSON.stringify(\"\\uD834\\uD834\\uDF06\\uDF06\")"
           }
         ],
         "optional": false
@@ -459,8 +444,7 @@
                 "type": "Literal",
                 "start": 865,
                 "end": 891,
-                "value": "\udf06𝌆\ud834",
-                "raw": "\"\\uDF06\\uD834\\uDF06\\uD834\""
+                "value": "\udf06𝌆\ud834"
               }
             ],
             "optional": false
@@ -469,15 +453,13 @@
             "type": "Literal",
             "start": 894,
             "end": 914,
-            "value": "\"\\udf06𝌆\\ud834\"",
-            "raw": "'\"\\\\udf06𝌆\\\\ud834\"'"
+            "value": "\"\\udf06𝌆\\ud834\""
           },
           {
             "type": "Literal",
             "start": 918,
             "end": 966,
-            "value": "JSON.stringify(\"\\uDF06\\uD834\\uDF06\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\\\\uDF06\\\\uD834\")'"
+            "value": "JSON.stringify(\"\\uDF06\\uD834\\uDF06\\uD834\")"
           }
         ],
         "optional": false
@@ -539,8 +521,7 @@
                 "type": "Literal",
                 "start": 1001,
                 "end": 1027,
-                "value": "\udf06𝌆\udf06",
-                "raw": "\"\\uDF06\\uD834\\uDF06\\uDF06\""
+                "value": "\udf06𝌆\udf06"
               }
             ],
             "optional": false
@@ -549,15 +530,13 @@
             "type": "Literal",
             "start": 1030,
             "end": 1050,
-            "value": "\"\\udf06𝌆\\udf06\"",
-            "raw": "'\"\\\\udf06𝌆\\\\udf06\"'"
+            "value": "\"\\udf06𝌆\\udf06\""
           },
           {
             "type": "Literal",
             "start": 1054,
             "end": 1102,
-            "value": "JSON.stringify(\"\\uDF06\\uD834\\uDF06\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\\\\uDF06\\\\uDF06\")'"
+            "value": "JSON.stringify(\"\\uDF06\\uD834\\uDF06\\uDF06\")"
           }
         ],
         "optional": false
@@ -619,8 +598,7 @@
                 "type": "Literal",
                 "start": 1138,
                 "end": 1152,
-                "value": "\udf06\ud834",
-                "raw": "\"\\uDF06\\uD834\""
+                "value": "\udf06\ud834"
               }
             ],
             "optional": false
@@ -629,15 +607,13 @@
             "type": "Literal",
             "start": 1155,
             "end": 1173,
-            "value": "\"\\udf06\\ud834\"",
-            "raw": "'\"\\\\udf06\\\\ud834\"'"
+            "value": "\"\\udf06\\ud834\""
           },
           {
             "type": "Literal",
             "start": 1177,
             "end": 1211,
-            "value": "JSON.stringify(\"\\uDF06\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\")'"
+            "value": "JSON.stringify(\"\\uDF06\\uD834\")"
           }
         ],
         "optional": false
@@ -699,8 +675,7 @@
                 "type": "Literal",
                 "start": 1246,
                 "end": 1272,
-                "value": "𝌆\ud834\ud834",
-                "raw": "\"\\uD834\\uDF06\\uD834\\uD834\""
+                "value": "𝌆\ud834\ud834"
               }
             ],
             "optional": false
@@ -709,15 +684,13 @@
             "type": "Literal",
             "start": 1275,
             "end": 1295,
-            "value": "\"𝌆\\ud834\\ud834\"",
-            "raw": "'\"𝌆\\\\ud834\\\\ud834\"'"
+            "value": "\"𝌆\\ud834\\ud834\""
           },
           {
             "type": "Literal",
             "start": 1299,
             "end": 1347,
-            "value": "JSON.stringify(\"\\uD834\\uDF06\\uD834\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\\\\uD834\\\\uD834\")'"
+            "value": "JSON.stringify(\"\\uD834\\uDF06\\uD834\\uD834\")"
           }
         ],
         "optional": false
@@ -779,8 +752,7 @@
                 "type": "Literal",
                 "start": 1382,
                 "end": 1408,
-                "value": "𝌆𝌆",
-                "raw": "\"\\uD834\\uDF06\\uD834\\uDF06\""
+                "value": "𝌆𝌆"
               }
             ],
             "optional": false
@@ -789,15 +761,13 @@
             "type": "Literal",
             "start": 1411,
             "end": 1419,
-            "value": "\"𝌆𝌆\"",
-            "raw": "'\"𝌆𝌆\"'"
+            "value": "\"𝌆𝌆\""
           },
           {
             "type": "Literal",
             "start": 1423,
             "end": 1471,
-            "value": "JSON.stringify(\"\\uD834\\uDF06\\uD834\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\\\\uD834\\\\uDF06\")'"
+            "value": "JSON.stringify(\"\\uD834\\uDF06\\uD834\\uDF06\")"
           }
         ],
         "optional": false
@@ -859,8 +829,7 @@
                 "type": "Literal",
                 "start": 1506,
                 "end": 1532,
-                "value": "\udf06\udf06\ud834\ud834",
-                "raw": "\"\\uDF06\\uDF06\\uD834\\uD834\""
+                "value": "\udf06\udf06\ud834\ud834"
               }
             ],
             "optional": false
@@ -869,15 +838,13 @@
             "type": "Literal",
             "start": 1535,
             "end": 1567,
-            "value": "\"\\udf06\\udf06\\ud834\\ud834\"",
-            "raw": "'\"\\\\udf06\\\\udf06\\\\ud834\\\\ud834\"'"
+            "value": "\"\\udf06\\udf06\\ud834\\ud834\""
           },
           {
             "type": "Literal",
             "start": 1571,
             "end": 1619,
-            "value": "JSON.stringify(\"\\uDF06\\uDF06\\uD834\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uDF06\\\\uD834\\\\uD834\")'"
+            "value": "JSON.stringify(\"\\uDF06\\uDF06\\uD834\\uD834\")"
           }
         ],
         "optional": false
@@ -939,8 +906,7 @@
                 "type": "Literal",
                 "start": 1654,
                 "end": 1680,
-                "value": "\udf06\udf06𝌆",
-                "raw": "\"\\uDF06\\uDF06\\uD834\\uDF06\""
+                "value": "\udf06\udf06𝌆"
               }
             ],
             "optional": false
@@ -949,15 +915,13 @@
             "type": "Literal",
             "start": 1683,
             "end": 1703,
-            "value": "\"\\udf06\\udf06𝌆\"",
-            "raw": "'\"\\\\udf06\\\\udf06𝌆\"'"
+            "value": "\"\\udf06\\udf06𝌆\""
           },
           {
             "type": "Literal",
             "start": 1707,
             "end": 1755,
-            "value": "JSON.stringify(\"\\uDF06\\uDF06\\uD834\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uDF06\\\\uD834\\\\uDF06\")'"
+            "value": "JSON.stringify(\"\\uDF06\\uDF06\\uD834\\uDF06\")"
           }
         ],
         "optional": false

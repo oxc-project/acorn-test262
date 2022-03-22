@@ -23,7 +23,6 @@
             "start": 366,
             "end": 387,
             "value": {},
-            "raw": "/(z)((a+)?(b+)?(c))*/",
             "regex": {
               "pattern": "(z)((a+)?(b+)?(c))*",
               "flags": ""
@@ -115,8 +114,7 @@
                             "type": "Literal",
                             "start": 439,
                             "end": 451,
-                            "value": "zaacbbbcac",
-                            "raw": "\"zaacbbbcac\""
+                            "value": "zaacbbbcac"
                           }
                         }
                       ]
@@ -187,8 +185,7 @@
                               "type": "Literal",
                               "start": 489,
                               "end": 501,
-                              "value": "zaacbbbcac",
-                              "raw": "\"zaacbbbcac\""
+                              "value": "zaacbbbcac"
                             }
                           }
                         ]
@@ -214,8 +211,7 @@
             "type": "Literal",
             "start": 519,
             "end": 635,
-            "value": "__re.test((function(){return \"zaacbbbcac\"})()) must return __re.exec((function(){return \"zaacbbbcac\"})()) !== null",
-            "raw": "'__re.test((function(){return \"zaacbbbcac\"})()) must return __re.exec((function(){return \"zaacbbbcac\"})()) !== null'"
+            "value": "__re.test((function(){return \"zaacbbbcac\"})()) must return __re.exec((function(){return \"zaacbbbcac\"})()) !== null"
           }
         ],
         "optional": false

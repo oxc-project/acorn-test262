@@ -30,10 +30,9 @@
               "end": 1005,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 960,
-                  "end": 976,
-                  "static": false,
+                  "end": 975,
                   "computed": true,
                   "key": {
                     "type": "ArrowFunctionExpression",
@@ -55,14 +54,13 @@
                     "type": "Literal",
                     "start": 974,
                     "end": 975,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 980,
-                  "end": 1003,
+                  "end": 1002,
                   "static": true,
                   "computed": true,
                   "key": {
@@ -85,8 +83,7 @@
                     "type": "Literal",
                     "start": 1001,
                     "end": 1002,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -188,8 +185,7 @@
             "type": "Literal",
             "start": 1062,
             "end": 1063,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -256,8 +252,7 @@
             "type": "Literal",
             "start": 1103,
             "end": 1104,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -338,8 +333,7 @@
             "type": "Literal",
             "start": 1152,
             "end": 1153,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -420,8 +414,7 @@
             "type": "Literal",
             "start": 1201,
             "end": 1202,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

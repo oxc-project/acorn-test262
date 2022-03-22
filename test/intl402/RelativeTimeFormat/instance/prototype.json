@@ -144,8 +144,7 @@
             "type": "Literal",
             "start": 621,
             "end": 705,
-            "value": "Object.getPrototypeOf(value) equals the value of Intl.RelativeTimeFormat.prototype",
-            "raw": "\"Object.getPrototypeOf(value) equals the value of Intl.RelativeTimeFormat.prototype\""
+            "value": "Object.getPrototypeOf(value) equals the value of Intl.RelativeTimeFormat.prototype"
           }
         ],
         "optional": false

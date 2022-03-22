@@ -52,8 +52,7 @@
                   "type": "Literal",
                   "start": 400,
                   "end": 404,
-                  "value": "10",
-                  "raw": "\"10\""
+                  "value": "10"
                 }
               ],
               "optional": false
@@ -63,15 +62,13 @@
             "type": "Literal",
             "start": 407,
             "end": 415,
-            "value": "number",
-            "raw": "\"number\""
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 417,
             "end": 480,
-            "value": "The value of `typeof Number(\"10\")` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number(\"10\")` is expected to be \"number\"'"
+            "value": "The value of `typeof Number(\"10\")` is expected to be \"number\""
           }
         ],
         "optional": false
@@ -126,8 +123,7 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 516,
-                  "value": 10,
-                  "raw": "10"
+                  "value": 10
                 }
               ],
               "optional": false
@@ -137,15 +133,13 @@
             "type": "Literal",
             "start": 519,
             "end": 527,
-            "value": "number",
-            "raw": "\"number\""
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 590,
-            "value": "The value of `typeof Number(10)` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number(10)` is expected to be \"number\"'"
+            "value": "The value of `typeof Number(10)` is expected to be \"number\""
           }
         ],
         "optional": false
@@ -211,8 +205,7 @@
                       "type": "Literal",
                       "start": 639,
                       "end": 643,
-                      "value": "10",
-                      "raw": "\"10\""
+                      "value": "10"
                     }
                   ]
                 }
@@ -224,15 +217,13 @@
             "type": "Literal",
             "start": 649,
             "end": 657,
-            "value": "number",
-            "raw": "\"number\""
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 661,
             "end": 736,
-            "value": "The value of `typeof Number(new String(\"10\"))` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number(new String(\"10\"))` is expected to be \"number\"'"
+            "value": "The value of `typeof Number(new String(\"10\"))` is expected to be \"number\""
           }
         ],
         "optional": false
@@ -298,8 +289,7 @@
                       "type": "Literal",
                       "start": 786,
                       "end": 788,
-                      "value": 10,
-                      "raw": "10"
+                      "value": 10
                     }
                   ]
                 }
@@ -311,15 +301,13 @@
             "type": "Literal",
             "start": 794,
             "end": 802,
-            "value": "number",
-            "raw": "\"number\""
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 806,
             "end": 879,
-            "value": "The value of `typeof Number(new Object(10))` is expected to be \"number\"",
-            "raw": "'The value of `typeof Number(new Object(10))` is expected to be \"number\"'"
+            "value": "The value of `typeof Number(new Object(10))` is expected to be \"number\""
           }
         ],
         "optional": false
@@ -368,8 +356,7 @@
                 "type": "Literal",
                 "start": 908,
                 "end": 913,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               }
             ],
             "optional": false
@@ -384,8 +371,7 @@
             "type": "Literal",
             "start": 921,
             "end": 948,
-            "value": "Number(\"abc\") returns NaN",
-            "raw": "'Number(\"abc\") returns NaN'"
+            "value": "Number(\"abc\") returns NaN"
           }
         ],
         "optional": false

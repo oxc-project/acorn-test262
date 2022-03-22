@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 593,
                   "end": 606,
-                  "value": "ShadowRealm",
-                  "raw": "'ShadowRealm'"
+                  "value": "ShadowRealm"
                 },
                 "kind": "init"
               },

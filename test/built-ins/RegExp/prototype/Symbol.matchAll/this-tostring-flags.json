@@ -23,7 +23,6 @@
             "start": 545,
             "end": 549,
             "value": {},
-            "raw": "/\\w/",
             "regex": {
               "pattern": "\\w",
               "flags": ""
@@ -71,8 +70,7 @@
             "type": "Literal",
             "start": 581,
             "end": 588,
-            "value": "flags",
-            "raw": "'flags'"
+            "value": "flags"
           },
           {
             "type": "ObjectExpression",
@@ -133,8 +131,7 @@
                                 "type": "Literal",
                                 "start": 633,
                                 "end": 636,
-                                "value": "g",
-                                "raw": "'g'"
+                                "value": "g"
                               }
                             }
                           ]
@@ -170,8 +167,7 @@
             "type": "Literal",
             "start": 662,
             "end": 667,
-            "value": "a*b",
-            "raw": "'a*b'"
+            "value": "a*b"
           }
         }
       ],
@@ -276,8 +272,7 @@
                         "type": "Literal",
                         "start": 743,
                         "end": 746,
-                        "value": "a",
-                        "raw": "'a'"
+                        "value": "a"
                       }
                     ]
                   },
@@ -285,8 +280,7 @@
                     "type": "Literal",
                     "start": 749,
                     "end": 750,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Identifier",
@@ -317,8 +311,7 @@
                         "type": "Literal",
                         "start": 776,
                         "end": 779,
-                        "value": "b",
-                        "raw": "'b'"
+                        "value": "b"
                       }
                     ]
                   },
@@ -326,8 +319,7 @@
                     "type": "Literal",
                     "start": 782,
                     "end": 783,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Identifier",

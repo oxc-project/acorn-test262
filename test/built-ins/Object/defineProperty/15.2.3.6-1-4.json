@@ -83,15 +83,13 @@
                         "type": "Literal",
                         "start": 323,
                         "end": 340,
-                        "value": "hello\nworld\\!",
-                        "raw": "\"hello\\nworld\\\\!\""
+                        "value": "hello\nworld\\!"
                       },
                       {
                         "type": "Literal",
                         "start": 342,
                         "end": 347,
-                        "value": "foo",
-                        "raw": "\"foo\""
+                        "value": "foo"
                       },
                       {
                         "type": "ObjectExpression",

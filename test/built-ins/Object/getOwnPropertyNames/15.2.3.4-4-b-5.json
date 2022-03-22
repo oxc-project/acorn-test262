@@ -60,15 +60,13 @@
                   "type": "Literal",
                   "start": 311,
                   "end": 314,
-                  "value": "a",
-                  "raw": "\"a\""
+                  "value": "a"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 316,
                   "end": 319,
-                  "value": "a",
-                  "raw": "\"a\""
+                  "value": "a"
                 },
                 "kind": "init"
               }
@@ -197,8 +195,7 @@
                 "type": "Literal",
                 "start": 415,
                 "end": 418,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             },
             "consequent": {
@@ -268,8 +265,7 @@
             "type": "Literal",
             "start": 488,
             "end": 508,
-            "value": "Property not found",
-            "raw": "'Property not found'"
+            "value": "Property not found"
           }
         ],
         "optional": false

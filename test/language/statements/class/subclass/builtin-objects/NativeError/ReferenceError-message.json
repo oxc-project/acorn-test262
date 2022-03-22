@@ -71,8 +71,7 @@
           "type": "Literal",
           "start": 680,
           "end": 704,
-          "value": "custom-reference-error",
-          "raw": "'custom-reference-error'"
+          "value": "custom-reference-error"
         }
       }
     },
@@ -106,8 +105,7 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 734,
-                "value": "foo 42",
-                "raw": "'foo 42'"
+                "value": "foo 42"
               }
             ]
           }
@@ -166,8 +164,7 @@
             "type": "Literal",
             "start": 768,
             "end": 776,
-            "value": "foo 42",
-            "raw": "'foo 42'"
+            "value": "foo 42"
           }
         ],
         "optional": false
@@ -216,8 +213,7 @@
                 "type": "Literal",
                 "start": 806,
                 "end": 815,
-                "value": "message",
-                "raw": "'message'"
+                "value": "message"
               }
             ],
             "optional": false
@@ -251,8 +247,7 @@
             "type": "Literal",
             "start": 841,
             "end": 850,
-            "value": "message",
-            "raw": "'message'"
+            "value": "message"
           }
         ],
         "optional": false
@@ -283,8 +278,7 @@
             "type": "Literal",
             "start": 879,
             "end": 888,
-            "value": "message",
-            "raw": "'message'"
+            "value": "message"
           }
         ],
         "optional": false
@@ -315,8 +309,7 @@
             "type": "Literal",
             "start": 916,
             "end": 925,
-            "value": "message",
-            "raw": "'message'"
+            "value": "message"
           }
         ],
         "optional": false
@@ -409,8 +402,7 @@
                 "type": "Literal",
                 "start": 988,
                 "end": 997,
-                "value": "message",
-                "raw": "'message'"
+                "value": "message"
               }
             ],
             "optional": false
@@ -477,8 +469,7 @@
             "type": "Literal",
             "start": 1039,
             "end": 1063,
-            "value": "custom-reference-error",
-            "raw": "'custom-reference-error'"
+            "value": "custom-reference-error"
           }
         ],
         "optional": false

@@ -119,8 +119,7 @@
                               "type": "Literal",
                               "start": 474,
                               "end": 475,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ]
@@ -198,8 +197,7 @@
                 "type": "Literal",
                 "start": 529,
                 "end": 535,
-                "value": "attr",
-                "raw": "\"attr\""
+                "value": "attr"
               },
               {
                 "type": "ObjectExpression",
@@ -283,8 +281,7 @@
                 "type": "Literal",
                 "start": 610,
                 "end": 616,
-                "value": "attr",
-                "raw": "\"attr\""
+                "value": "attr"
               }
             ],
             "optional": false

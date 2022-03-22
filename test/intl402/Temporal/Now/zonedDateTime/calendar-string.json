@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 276,
                 "end": 285,
-                "value": "gregory",
-                "raw": "\"gregory\""
+                "value": "gregory"
               }
             ],
             "optional": false
@@ -304,8 +303,7 @@
             "type": "Literal",
             "start": 456,
             "end": 465,
-            "value": "gregory",
-            "raw": "\"gregory\""
+            "value": "gregory"
           }
         ],
         "optional": false

@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 941,
             "end": 949,
-            "value": "Locale",
-            "raw": "\"Locale\""
+            "value": "Locale"
           },
           {
             "type": "ObjectExpression",

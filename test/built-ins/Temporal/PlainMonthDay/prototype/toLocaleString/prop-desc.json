@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 407,
             "end": 417,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 421,
             "end": 484,
-            "value": "`typeof PlainMonthDay.prototype.toLocaleString` is `function`",
-            "raw": "\"`typeof PlainMonthDay.prototype.toLocaleString` is `function`\""
+            "value": "`typeof PlainMonthDay.prototype.toLocaleString` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 538,
             "end": 554,
-            "value": "toLocaleString",
-            "raw": "\"toLocaleString\""
+            "value": "toLocaleString"
           },
           {
             "type": "ObjectExpression",

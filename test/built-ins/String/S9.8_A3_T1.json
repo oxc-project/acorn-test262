@@ -37,8 +37,7 @@
           "type": "Literal",
           "start": 387,
           "end": 394,
-          "value": "false",
-          "raw": "\"false\""
+          "value": "false"
         }
       },
       "consequent": {
@@ -69,8 +68,7 @@
                     "type": "Literal",
                     "start": 423,
                     "end": 464,
-                    "value": "#1: String(false) === \"false\". Actual: ",
-                    "raw": "'#1: String(false) === \"false\". Actual: '"
+                    "value": "#1: String(false) === \"false\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -141,8 +139,7 @@
           "type": "Literal",
           "start": 520,
           "end": 526,
-          "value": "true",
-          "raw": "\"true\""
+          "value": "true"
         }
       },
       "consequent": {
@@ -173,8 +170,7 @@
                     "type": "Literal",
                     "start": 555,
                     "end": 594,
-                    "value": "#2: String(true) === \"true\". Actual: ",
-                    "raw": "'#2: String(true) === \"true\". Actual: '"
+                    "value": "#2: String(true) === \"true\". Actual: "
                   },
                   "operator": "+",
                   "right": {

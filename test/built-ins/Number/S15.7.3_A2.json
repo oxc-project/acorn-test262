@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 320,
-                "value": "MAX_VALUE",
-                "raw": "\"MAX_VALUE\""
+                "value": "MAX_VALUE"
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
             "type": "Literal",
             "start": 323,
             "end": 376,
-            "value": "Number.hasOwnProperty(\"MAX_VALUE\") must return true",
-            "raw": "'Number.hasOwnProperty(\"MAX_VALUE\") must return true'"
+            "value": "Number.hasOwnProperty(\"MAX_VALUE\") must return true"
           }
         ],
         "optional": false

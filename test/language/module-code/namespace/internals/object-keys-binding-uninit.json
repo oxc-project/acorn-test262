@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1015,
         "end": 1048,
-        "value": "./object-keys-binding-uninit.js",
-        "raw": "\"./object-keys-binding-uninit.js\""
+        "value": "./object-keys-binding-uninit.js"
       }
     },
     {
@@ -129,8 +128,7 @@
         "type": "Literal",
         "start": 1135,
         "end": 1136,
-        "value": 0,
-        "raw": "0"
+        "value": 0
       }
     }
   ],

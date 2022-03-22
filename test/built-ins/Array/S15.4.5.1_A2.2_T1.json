@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 328,
-                "value": 100,
-                "raw": "100"
+                "value": 100
               }
             ],
             "optional": false
@@ -66,8 +65,7 @@
             "type": "Literal",
             "start": 333,
             "end": 334,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -76,8 +74,7 @@
           "type": "Literal",
           "start": 338,
           "end": 339,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -132,15 +129,13 @@
             "type": "Literal",
             "start": 368,
             "end": 371,
-            "value": 100,
-            "raw": "100"
+            "value": 100
           },
           {
             "type": "Literal",
             "start": 373,
             "end": 418,
-            "value": "The value of x.length is expected to be 100",
-            "raw": "'The value of x.length is expected to be 100'"
+            "value": "The value of x.length is expected to be 100"
           }
         ],
         "optional": false
@@ -169,8 +164,7 @@
             "type": "Literal",
             "start": 424,
             "end": 426,
-            "value": 98,
-            "raw": "98"
+            "value": 98
           },
           "computed": true,
           "optional": false
@@ -179,8 +173,7 @@
           "type": "Literal",
           "start": 430,
           "end": 431,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -235,15 +228,13 @@
             "type": "Literal",
             "start": 460,
             "end": 463,
-            "value": 100,
-            "raw": "100"
+            "value": 100
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 510,
-            "value": "The value of x.length is expected to be 100",
-            "raw": "'The value of x.length is expected to be 100'"
+            "value": "The value of x.length is expected to be 100"
           }
         ],
         "optional": false
@@ -272,8 +263,7 @@
             "type": "Literal",
             "start": 516,
             "end": 518,
-            "value": 99,
-            "raw": "99"
+            "value": 99
           },
           "computed": true,
           "optional": false
@@ -282,8 +272,7 @@
           "type": "Literal",
           "start": 522,
           "end": 523,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -338,15 +327,13 @@
             "type": "Literal",
             "start": 552,
             "end": 555,
-            "value": 100,
-            "raw": "100"
+            "value": 100
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 602,
-            "value": "The value of x.length is expected to be 100",
-            "raw": "'The value of x.length is expected to be 100'"
+            "value": "The value of x.length is expected to be 100"
           }
         ],
         "optional": false

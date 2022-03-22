@@ -48,29 +48,25 @@
                     "type": "Literal",
                     "start": 367,
                     "end": 372,
-                    "value": "abc",
-                    "raw": "\"abc\""
+                    "value": "abc"
                   },
                   {
                     "type": "Literal",
                     "start": 374,
                     "end": 378,
-                    "value": "ab",
-                    "raw": "\"ab\""
+                    "value": "ab"
                   },
                   {
                     "type": "Literal",
                     "start": 380,
                     "end": 385,
-                    "value": "bca",
-                    "raw": "\"bca\""
+                    "value": "bca"
                   },
                   {
                     "type": "Literal",
                     "start": 387,
                     "end": 389,
-                    "value": "",
-                    "raw": "\"\""
+                    "value": ""
                   }
                 ]
               },
@@ -88,8 +84,7 @@
                 "type": "Literal",
                 "start": 403,
                 "end": 408,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               }
             ],
             "optional": false
@@ -98,15 +93,13 @@
             "type": "Literal",
             "start": 411,
             "end": 412,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 414,
             "end": 459,
-            "value": "[\"abc\", \"ab\", \"bca\", \"\"].lastIndexOf(\"abc\")",
-            "raw": "'[\"abc\", \"ab\", \"bca\", \"\"].lastIndexOf(\"abc\")'"
+            "value": "[\"abc\", \"ab\", \"bca\", \"\"].lastIndexOf(\"abc\")"
           }
         ],
         "optional": false

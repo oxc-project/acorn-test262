@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 1164,
             "end": 1170,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -79,8 +78,7 @@
                   "type": "Literal",
                   "start": 1183,
                   "end": 1196,
-                  "value": "cleanupSome",
-                  "raw": "'cleanupSome'"
+                  "value": "cleanupSome"
                 },
                 "kind": "init"
               },

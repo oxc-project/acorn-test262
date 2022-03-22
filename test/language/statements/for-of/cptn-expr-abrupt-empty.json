@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1125,
                 "end": 1162,
-                "value": "var a; 1; for (a of [0]) { break; }",
-                "raw": "'var a; 1; for (a of [0]) { break; }'"
+                "value": "var a; 1; for (a of [0]) { break; }"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 1199,
                 "end": 1239,
-                "value": "var b; 2; for (b of [0]) { 3; break; }",
-                "raw": "'var b; 2; for (b of [0]) { 3; break; }'"
+                "value": "var b; 2; for (b of [0]) { 3; break; }"
               }
             ],
             "optional": false
@@ -115,8 +113,7 @@
             "type": "Literal",
             "start": 1242,
             "end": 1243,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -165,8 +162,7 @@
                 "type": "Literal",
                 "start": 1272,
                 "end": 1346,
-                "value": "var a; 4; outer: do { for (a of [0]) { continue outer; } } while (false)",
-                "raw": "'var a; 4; outer: do { for (a of [0]) { continue outer; } } while (false)'"
+                "value": "var a; 4; outer: do { for (a of [0]) { continue outer; } } while (false)"
               }
             ],
             "optional": false
@@ -224,8 +220,7 @@
                 "type": "Literal",
                 "start": 1389,
                 "end": 1466,
-                "value": "var b; 5; outer: do { for (b of [0]) { 6; continue outer; } } while (false)",
-                "raw": "'var b; 5; outer: do { for (b of [0]) { 6; continue outer; } } while (false)'"
+                "value": "var b; 5; outer: do { for (b of [0]) { 6; continue outer; } } while (false)"
               }
             ],
             "optional": false
@@ -234,8 +229,7 @@
             "type": "Literal",
             "start": 1471,
             "end": 1472,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           }
         ],
         "optional": false

@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 374,
-                "value": "setMinutes",
-                "raw": "\"setMinutes\""
+                "value": "setMinutes"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 387,
             "end": 449,
-            "value": "Date.prototype.hasOwnProperty(\"setMinutes\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"setMinutes\") must return true'"
+            "value": "Date.prototype.hasOwnProperty(\"setMinutes\") must return true"
           }
         ],
         "optional": false

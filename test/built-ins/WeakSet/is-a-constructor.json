@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 767,
             "end": 808,
-            "value": "isConstructor(WeakSet) must return true",
-            "raw": "'isConstructor(WeakSet) must return true'"
+            "value": "isConstructor(WeakSet) must return true"
           }
         ],
         "optional": false

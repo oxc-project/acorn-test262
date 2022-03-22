@@ -159,8 +159,7 @@
             "type": "Literal",
             "start": 820,
             "end": 889,
-            "value": "import.meta accessed directly and accessed via variable declaration",
-            "raw": "\"import.meta accessed directly and accessed via variable declaration\""
+            "value": "import.meta accessed directly and accessed via variable declaration"
           }
         ],
         "optional": false
@@ -221,8 +220,7 @@
             "type": "Literal",
             "start": 943,
             "end": 1013,
-            "value": "import.meta accessed directly and accessed via function return value",
-            "raw": "\"import.meta accessed directly and accessed via function return value\""
+            "value": "import.meta accessed directly and accessed via function return value"
           }
         ],
         "optional": false

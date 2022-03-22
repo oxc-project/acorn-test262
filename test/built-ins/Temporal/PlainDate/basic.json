@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 319,
             "end": 325,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -109,8 +108,7 @@
                               "type": "Literal",
                               "start": 366,
                               "end": 396,
-                              "value": "Should not get Calendar.from",
-                              "raw": "\"Should not get Calendar.from\""
+                              "value": "Should not get Calendar.from"
                             }
                           ]
                         }
@@ -168,8 +166,7 @@
                 "type": "Literal",
                 "start": 448,
                 "end": 457,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -220,22 +217,19 @@
                 "type": "Literal",
                 "start": 511,
                 "end": 515,
-                "value": 2020,
-                "raw": "2020"
+                "value": 2020
               },
               {
                 "type": "Literal",
                 "start": 517,
                 "end": 519,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 521,
                 "end": 523,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               },
               {
                 "type": "Identifier",
@@ -287,36 +281,31 @@
             "type": "Literal",
             "start": 589,
             "end": 593,
-            "value": 2020,
-            "raw": "2020"
+            "value": 2020
           },
           {
             "type": "Literal",
             "start": 595,
             "end": 597,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           },
           {
             "type": "Literal",
             "start": 599,
             "end": 604,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 608,
-            "value": 24,
-            "raw": "24"
+            "value": 24
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 623,
-            "value": "with object",
-            "raw": "\"with object\""
+            "value": "with object"
           }
         ],
         "optional": false
@@ -422,29 +411,25 @@
                 "type": "Literal",
                 "start": 736,
                 "end": 740,
-                "value": 2020,
-                "raw": "2020"
+                "value": 2020
               },
               {
                 "type": "Literal",
                 "start": 742,
                 "end": 744,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 746,
                 "end": 748,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               },
               {
                 "type": "Literal",
                 "start": 750,
                 "end": 759,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -490,36 +475,31 @@
             "type": "Literal",
             "start": 815,
             "end": 819,
-            "value": 2020,
-            "raw": "2020"
+            "value": 2020
           },
           {
             "type": "Literal",
             "start": 821,
             "end": 823,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           },
           {
             "type": "Literal",
             "start": 825,
             "end": 830,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 832,
             "end": 834,
-            "value": 24,
-            "raw": "24"
+            "value": 24
           },
           {
             "type": "Literal",
             "start": 836,
             "end": 849,
-            "value": "with string",
-            "raw": "\"with string\""
+            "value": "with string"
           }
         ],
         "optional": false
@@ -596,8 +576,7 @@
             "type": "Literal",
             "start": 910,
             "end": 919,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           }
         ],
         "optional": false

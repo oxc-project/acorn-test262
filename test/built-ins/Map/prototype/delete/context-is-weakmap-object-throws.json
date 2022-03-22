@@ -121,8 +121,7 @@
                         "type": "Literal",
                         "start": 570,
                         "end": 576,
-                        "value": "attr",
-                        "raw": "'attr'"
+                        "value": "attr"
                       }
                     ],
                     "optional": false

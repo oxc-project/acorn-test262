@@ -33,22 +33,19 @@
                 "type": "Literal",
                 "start": 444,
                 "end": 448,
-                "value": 1899,
-                "raw": "1899"
+                "value": 1899
               },
               {
                 "type": "Literal",
                 "start": 450,
                 "end": 452,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 454,
                 "end": 456,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -127,15 +124,13 @@
             "type": "Literal",
             "start": 516,
             "end": 524,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 528,
             "end": 604,
-            "value": "The value of `typeof x11.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x11.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x11.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -171,22 +166,19 @@
                 "type": "Literal",
                 "start": 628,
                 "end": 632,
-                "value": 1899,
-                "raw": "1899"
+                "value": 1899
               },
               {
                 "type": "Literal",
                 "start": 634,
                 "end": 636,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 638,
                 "end": 640,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -259,8 +251,7 @@
             "type": "Literal",
             "start": 685,
             "end": 737,
-            "value": "Date.prototype.isPrototypeOf(x12) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x12) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x12) must return true"
           }
         ],
         "optional": false
@@ -296,22 +287,19 @@
                 "type": "Literal",
                 "start": 760,
                 "end": 764,
-                "value": 1899,
-                "raw": "1899"
+                "value": 1899
               },
               {
                 "type": "Literal",
                 "start": 766,
                 "end": 768,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 770,
                 "end": 772,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -402,8 +390,7 @@
             "type": "Literal",
             "start": 843,
             "end": 932,
-            "value": "The value of Date.prototype is expected to equal the value of x13.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x13.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x13.constructor.prototype"
           }
         ],
         "optional": false
@@ -439,22 +426,19 @@
                 "type": "Literal",
                 "start": 956,
                 "end": 960,
-                "value": 1899,
-                "raw": "1899"
+                "value": 1899
               },
               {
                 "type": "Literal",
                 "start": 962,
                 "end": 964,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 966,
                 "end": 967,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -533,15 +517,13 @@
             "type": "Literal",
             "start": 1027,
             "end": 1035,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 1039,
             "end": 1115,
-            "value": "The value of `typeof x21.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x21.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x21.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -577,22 +559,19 @@
                 "type": "Literal",
                 "start": 1139,
                 "end": 1143,
-                "value": 1899,
-                "raw": "1899"
+                "value": 1899
               },
               {
                 "type": "Literal",
                 "start": 1145,
                 "end": 1147,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 1149,
                 "end": 1150,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -665,8 +644,7 @@
             "type": "Literal",
             "start": 1195,
             "end": 1247,
-            "value": "Date.prototype.isPrototypeOf(x22) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x22) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x22) must return true"
           }
         ],
         "optional": false
@@ -702,22 +680,19 @@
                 "type": "Literal",
                 "start": 1270,
                 "end": 1274,
-                "value": 1899,
-                "raw": "1899"
+                "value": 1899
               },
               {
                 "type": "Literal",
                 "start": 1276,
                 "end": 1278,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 1280,
                 "end": 1281,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -808,8 +783,7 @@
             "type": "Literal",
             "start": 1352,
             "end": 1441,
-            "value": "The value of Date.prototype is expected to equal the value of x23.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x23.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x23.constructor.prototype"
           }
         ],
         "optional": false
@@ -845,22 +819,19 @@
                 "type": "Literal",
                 "start": 1465,
                 "end": 1469,
-                "value": 1900,
-                "raw": "1900"
+                "value": 1900
               },
               {
                 "type": "Literal",
                 "start": 1471,
                 "end": 1472,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1474,
                 "end": 1475,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -939,15 +910,13 @@
             "type": "Literal",
             "start": 1535,
             "end": 1543,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 1547,
             "end": 1623,
-            "value": "The value of `typeof x31.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x31.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x31.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -983,22 +952,19 @@
                 "type": "Literal",
                 "start": 1647,
                 "end": 1651,
-                "value": 1900,
-                "raw": "1900"
+                "value": 1900
               },
               {
                 "type": "Literal",
                 "start": 1653,
                 "end": 1654,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1656,
                 "end": 1657,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -1071,8 +1037,7 @@
             "type": "Literal",
             "start": 1702,
             "end": 1754,
-            "value": "Date.prototype.isPrototypeOf(x32) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x32) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x32) must return true"
           }
         ],
         "optional": false
@@ -1108,22 +1073,19 @@
                 "type": "Literal",
                 "start": 1777,
                 "end": 1781,
-                "value": 1900,
-                "raw": "1900"
+                "value": 1900
               },
               {
                 "type": "Literal",
                 "start": 1783,
                 "end": 1784,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 1786,
                 "end": 1787,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -1214,8 +1176,7 @@
             "type": "Literal",
             "start": 1858,
             "end": 1947,
-            "value": "The value of Date.prototype is expected to equal the value of x33.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x33.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x33.constructor.prototype"
           }
         ],
         "optional": false
@@ -1251,22 +1212,19 @@
                 "type": "Literal",
                 "start": 1971,
                 "end": 1975,
-                "value": 1969,
-                "raw": "1969"
+                "value": 1969
               },
               {
                 "type": "Literal",
                 "start": 1977,
                 "end": 1979,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 1981,
                 "end": 1983,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -1345,15 +1303,13 @@
             "type": "Literal",
             "start": 2043,
             "end": 2051,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 2055,
             "end": 2131,
-            "value": "The value of `typeof x41.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x41.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x41.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -1389,22 +1345,19 @@
                 "type": "Literal",
                 "start": 2155,
                 "end": 2159,
-                "value": 1969,
-                "raw": "1969"
+                "value": 1969
               },
               {
                 "type": "Literal",
                 "start": 2161,
                 "end": 2163,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 2165,
                 "end": 2167,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -1477,8 +1430,7 @@
             "type": "Literal",
             "start": 2212,
             "end": 2264,
-            "value": "Date.prototype.isPrototypeOf(x42) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x42) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x42) must return true"
           }
         ],
         "optional": false
@@ -1514,22 +1466,19 @@
                 "type": "Literal",
                 "start": 2287,
                 "end": 2291,
-                "value": 1969,
-                "raw": "1969"
+                "value": 1969
               },
               {
                 "type": "Literal",
                 "start": 2293,
                 "end": 2295,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 2297,
                 "end": 2299,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -1620,8 +1569,7 @@
             "type": "Literal",
             "start": 2370,
             "end": 2459,
-            "value": "The value of Date.prototype is expected to equal the value of x43.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x43.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x43.constructor.prototype"
           }
         ],
         "optional": false
@@ -1657,22 +1605,19 @@
                 "type": "Literal",
                 "start": 2483,
                 "end": 2487,
-                "value": 1969,
-                "raw": "1969"
+                "value": 1969
               },
               {
                 "type": "Literal",
                 "start": 2489,
                 "end": 2491,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 2493,
                 "end": 2494,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -1751,15 +1696,13 @@
             "type": "Literal",
             "start": 2554,
             "end": 2562,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 2566,
             "end": 2642,
-            "value": "The value of `typeof x51.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x51.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x51.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -1795,22 +1738,19 @@
                 "type": "Literal",
                 "start": 2666,
                 "end": 2670,
-                "value": 1969,
-                "raw": "1969"
+                "value": 1969
               },
               {
                 "type": "Literal",
                 "start": 2672,
                 "end": 2674,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 2676,
                 "end": 2677,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -1883,8 +1823,7 @@
             "type": "Literal",
             "start": 2722,
             "end": 2774,
-            "value": "Date.prototype.isPrototypeOf(x52) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x52) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x52) must return true"
           }
         ],
         "optional": false
@@ -1920,22 +1859,19 @@
                 "type": "Literal",
                 "start": 2797,
                 "end": 2801,
-                "value": 1969,
-                "raw": "1969"
+                "value": 1969
               },
               {
                 "type": "Literal",
                 "start": 2803,
                 "end": 2805,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 2807,
                 "end": 2808,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -2026,8 +1962,7 @@
             "type": "Literal",
             "start": 2879,
             "end": 2968,
-            "value": "The value of Date.prototype is expected to equal the value of x53.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x53.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x53.constructor.prototype"
           }
         ],
         "optional": false
@@ -2063,22 +1998,19 @@
                 "type": "Literal",
                 "start": 2992,
                 "end": 2996,
-                "value": 1970,
-                "raw": "1970"
+                "value": 1970
               },
               {
                 "type": "Literal",
                 "start": 2998,
                 "end": 2999,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3001,
                 "end": 3002,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -2157,15 +2089,13 @@
             "type": "Literal",
             "start": 3062,
             "end": 3070,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 3074,
             "end": 3150,
-            "value": "The value of `typeof x61.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x61.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x61.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -2201,22 +2131,19 @@
                 "type": "Literal",
                 "start": 3174,
                 "end": 3178,
-                "value": 1970,
-                "raw": "1970"
+                "value": 1970
               },
               {
                 "type": "Literal",
                 "start": 3180,
                 "end": 3181,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3183,
                 "end": 3184,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -2289,8 +2216,7 @@
             "type": "Literal",
             "start": 3229,
             "end": 3281,
-            "value": "Date.prototype.isPrototypeOf(x62) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x62) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x62) must return true"
           }
         ],
         "optional": false
@@ -2326,22 +2252,19 @@
                 "type": "Literal",
                 "start": 3304,
                 "end": 3308,
-                "value": 1970,
-                "raw": "1970"
+                "value": 1970
               },
               {
                 "type": "Literal",
                 "start": 3310,
                 "end": 3311,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 3313,
                 "end": 3314,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -2432,8 +2355,7 @@
             "type": "Literal",
             "start": 3385,
             "end": 3474,
-            "value": "The value of Date.prototype is expected to equal the value of x63.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x63.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x63.constructor.prototype"
           }
         ],
         "optional": false
@@ -2469,22 +2391,19 @@
                 "type": "Literal",
                 "start": 3498,
                 "end": 3502,
-                "value": 1999,
-                "raw": "1999"
+                "value": 1999
               },
               {
                 "type": "Literal",
                 "start": 3504,
                 "end": 3506,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 3508,
                 "end": 3510,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -2563,15 +2482,13 @@
             "type": "Literal",
             "start": 3570,
             "end": 3578,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 3582,
             "end": 3658,
-            "value": "The value of `typeof x71.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x71.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x71.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -2607,22 +2524,19 @@
                 "type": "Literal",
                 "start": 3682,
                 "end": 3686,
-                "value": 1999,
-                "raw": "1999"
+                "value": 1999
               },
               {
                 "type": "Literal",
                 "start": 3688,
                 "end": 3690,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 3692,
                 "end": 3694,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -2695,8 +2609,7 @@
             "type": "Literal",
             "start": 3739,
             "end": 3791,
-            "value": "Date.prototype.isPrototypeOf(x72) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x72) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x72) must return true"
           }
         ],
         "optional": false
@@ -2732,22 +2645,19 @@
                 "type": "Literal",
                 "start": 3814,
                 "end": 3818,
-                "value": 1999,
-                "raw": "1999"
+                "value": 1999
               },
               {
                 "type": "Literal",
                 "start": 3820,
                 "end": 3822,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 3824,
                 "end": 3826,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -2838,8 +2748,7 @@
             "type": "Literal",
             "start": 3897,
             "end": 3986,
-            "value": "The value of Date.prototype is expected to equal the value of x73.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x73.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x73.constructor.prototype"
           }
         ],
         "optional": false
@@ -2875,22 +2784,19 @@
                 "type": "Literal",
                 "start": 4010,
                 "end": 4014,
-                "value": 1999,
-                "raw": "1999"
+                "value": 1999
               },
               {
                 "type": "Literal",
                 "start": 4016,
                 "end": 4018,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 4020,
                 "end": 4021,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -2969,15 +2875,13 @@
             "type": "Literal",
             "start": 4081,
             "end": 4089,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 4093,
             "end": 4169,
-            "value": "The value of `typeof x81.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x81.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x81.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -3013,22 +2917,19 @@
                 "type": "Literal",
                 "start": 4193,
                 "end": 4197,
-                "value": 1999,
-                "raw": "1999"
+                "value": 1999
               },
               {
                 "type": "Literal",
                 "start": 4199,
                 "end": 4201,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 4203,
                 "end": 4204,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -3101,8 +3002,7 @@
             "type": "Literal",
             "start": 4249,
             "end": 4301,
-            "value": "Date.prototype.isPrototypeOf(x82) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x82) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x82) must return true"
           }
         ],
         "optional": false
@@ -3138,22 +3038,19 @@
                 "type": "Literal",
                 "start": 4324,
                 "end": 4328,
-                "value": 1999,
-                "raw": "1999"
+                "value": 1999
               },
               {
                 "type": "Literal",
                 "start": 4330,
                 "end": 4332,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 4334,
                 "end": 4335,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -3244,8 +3141,7 @@
             "type": "Literal",
             "start": 4406,
             "end": 4495,
-            "value": "The value of Date.prototype is expected to equal the value of x83.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x83.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x83.constructor.prototype"
           }
         ],
         "optional": false
@@ -3281,22 +3177,19 @@
                 "type": "Literal",
                 "start": 4519,
                 "end": 4523,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 4525,
                 "end": 4526,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 4528,
                 "end": 4529,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -3375,15 +3268,13 @@
             "type": "Literal",
             "start": 4589,
             "end": 4597,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 4601,
             "end": 4677,
-            "value": "The value of `typeof x91.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x91.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x91.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -3419,22 +3310,19 @@
                 "type": "Literal",
                 "start": 4701,
                 "end": 4705,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 4707,
                 "end": 4708,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 4710,
                 "end": 4711,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -3507,8 +3395,7 @@
             "type": "Literal",
             "start": 4756,
             "end": 4808,
-            "value": "Date.prototype.isPrototypeOf(x92) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x92) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x92) must return true"
           }
         ],
         "optional": false
@@ -3544,22 +3431,19 @@
                 "type": "Literal",
                 "start": 4831,
                 "end": 4835,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 4837,
                 "end": 4838,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 4840,
                 "end": 4841,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -3650,8 +3534,7 @@
             "type": "Literal",
             "start": 4912,
             "end": 5001,
-            "value": "The value of Date.prototype is expected to equal the value of x93.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x93.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x93.constructor.prototype"
           }
         ],
         "optional": false
@@ -3687,22 +3570,19 @@
                 "type": "Literal",
                 "start": 5026,
                 "end": 5030,
-                "value": 2099,
-                "raw": "2099"
+                "value": 2099
               },
               {
                 "type": "Literal",
                 "start": 5032,
                 "end": 5034,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 5036,
                 "end": 5038,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -3781,15 +3661,13 @@
             "type": "Literal",
             "start": 5099,
             "end": 5107,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 5111,
             "end": 5188,
-            "value": "The value of `typeof x101.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x101.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x101.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -3825,22 +3703,19 @@
                 "type": "Literal",
                 "start": 5213,
                 "end": 5217,
-                "value": 2099,
-                "raw": "2099"
+                "value": 2099
               },
               {
                 "type": "Literal",
                 "start": 5219,
                 "end": 5221,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 5223,
                 "end": 5225,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -3913,8 +3788,7 @@
             "type": "Literal",
             "start": 5271,
             "end": 5324,
-            "value": "Date.prototype.isPrototypeOf(x102) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x102) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x102) must return true"
           }
         ],
         "optional": false
@@ -3950,22 +3824,19 @@
                 "type": "Literal",
                 "start": 5348,
                 "end": 5352,
-                "value": 2099,
-                "raw": "2099"
+                "value": 2099
               },
               {
                 "type": "Literal",
                 "start": 5354,
                 "end": 5356,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 5358,
                 "end": 5360,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -4056,8 +3927,7 @@
             "type": "Literal",
             "start": 5432,
             "end": 5522,
-            "value": "The value of Date.prototype is expected to equal the value of x103.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x103.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x103.constructor.prototype"
           }
         ],
         "optional": false
@@ -4093,22 +3963,19 @@
                 "type": "Literal",
                 "start": 5547,
                 "end": 5551,
-                "value": 2099,
-                "raw": "2099"
+                "value": 2099
               },
               {
                 "type": "Literal",
                 "start": 5553,
                 "end": 5555,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 5557,
                 "end": 5558,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -4187,15 +4054,13 @@
             "type": "Literal",
             "start": 5619,
             "end": 5627,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 5631,
             "end": 5708,
-            "value": "The value of `typeof x111.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x111.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x111.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -4231,22 +4096,19 @@
                 "type": "Literal",
                 "start": 5733,
                 "end": 5737,
-                "value": 2099,
-                "raw": "2099"
+                "value": 2099
               },
               {
                 "type": "Literal",
                 "start": 5739,
                 "end": 5741,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 5743,
                 "end": 5744,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -4319,8 +4181,7 @@
             "type": "Literal",
             "start": 5790,
             "end": 5843,
-            "value": "Date.prototype.isPrototypeOf(x112) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x112) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x112) must return true"
           }
         ],
         "optional": false
@@ -4356,22 +4217,19 @@
                 "type": "Literal",
                 "start": 5867,
                 "end": 5871,
-                "value": 2099,
-                "raw": "2099"
+                "value": 2099
               },
               {
                 "type": "Literal",
                 "start": 5873,
                 "end": 5875,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 5877,
                 "end": 5878,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -4462,8 +4320,7 @@
             "type": "Literal",
             "start": 5950,
             "end": 6040,
-            "value": "The value of Date.prototype is expected to equal the value of x113.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x113.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x113.constructor.prototype"
           }
         ],
         "optional": false
@@ -4499,22 +4356,19 @@
                 "type": "Literal",
                 "start": 6065,
                 "end": 6069,
-                "value": 2100,
-                "raw": "2100"
+                "value": 2100
               },
               {
                 "type": "Literal",
                 "start": 6071,
                 "end": 6072,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 6074,
                 "end": 6075,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -4593,15 +4447,13 @@
             "type": "Literal",
             "start": 6136,
             "end": 6144,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 6148,
             "end": 6225,
-            "value": "The value of `typeof x121.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x121.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x121.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -4637,22 +4489,19 @@
                 "type": "Literal",
                 "start": 6250,
                 "end": 6254,
-                "value": 2100,
-                "raw": "2100"
+                "value": 2100
               },
               {
                 "type": "Literal",
                 "start": 6256,
                 "end": 6257,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 6259,
                 "end": 6260,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -4725,8 +4574,7 @@
             "type": "Literal",
             "start": 6306,
             "end": 6359,
-            "value": "Date.prototype.isPrototypeOf(x122) must return true",
-            "raw": "'Date.prototype.isPrototypeOf(x122) must return true'"
+            "value": "Date.prototype.isPrototypeOf(x122) must return true"
           }
         ],
         "optional": false
@@ -4762,22 +4610,19 @@
                 "type": "Literal",
                 "start": 6383,
                 "end": 6387,
-                "value": 2100,
-                "raw": "2100"
+                "value": 2100
               },
               {
                 "type": "Literal",
                 "start": 6389,
                 "end": 6390,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 6392,
                 "end": 6393,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -4868,8 +4713,7 @@
             "type": "Literal",
             "start": 6465,
             "end": 6555,
-            "value": "The value of Date.prototype is expected to equal the value of x123.constructor.prototype",
-            "raw": "'The value of Date.prototype is expected to equal the value of x123.constructor.prototype'"
+            "value": "The value of Date.prototype is expected to equal the value of x123.constructor.prototype"
           }
         ],
         "optional": false

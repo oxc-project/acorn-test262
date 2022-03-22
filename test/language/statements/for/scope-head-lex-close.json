@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1023,
             "end": 1032,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         }
       ],
@@ -122,8 +121,7 @@
               "type": "Literal",
               "start": 1106,
               "end": 1114,
-              "value": "inside",
-              "raw": "'inside'"
+              "value": "inside"
             }
           }
         ],
@@ -343,15 +341,13 @@
             "type": "Literal",
             "start": 1296,
             "end": 1304,
-            "value": "inside",
-            "raw": "'inside'"
+            "value": "inside"
           },
           {
             "type": "Literal",
             "start": 1306,
             "end": 1337,
-            "value": "reference from statement body",
-            "raw": "'reference from statement body'"
+            "value": "reference from statement body"
           }
         ],
         "optional": false
@@ -402,15 +398,13 @@
             "type": "Literal",
             "start": 1370,
             "end": 1378,
-            "value": "inside",
-            "raw": "'inside'"
+            "value": "inside"
           },
           {
             "type": "Literal",
             "start": 1380,
             "end": 1417,
-            "value": "reference from \"increment\" position",
-            "raw": "'reference from \"increment\" position'"
+            "value": "reference from \"increment\" position"
           }
         ],
         "optional": false
@@ -461,15 +455,13 @@
             "type": "Literal",
             "start": 1450,
             "end": 1458,
-            "value": "inside",
-            "raw": "'inside'"
+            "value": "inside"
           },
           {
             "type": "Literal",
             "start": 1460,
             "end": 1492,
-            "value": "reference from \"test\" position",
-            "raw": "'reference from \"test\" position'"
+            "value": "reference from \"test\" position"
           }
         ],
         "optional": false
@@ -513,8 +505,7 @@
             "type": "Literal",
             "start": 1515,
             "end": 1524,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         ],
         "optional": false

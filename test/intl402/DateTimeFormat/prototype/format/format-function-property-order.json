@@ -130,15 +130,13 @@
                 "type": "Literal",
                 "start": 414,
                 "end": 422,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               },
               {
                 "type": "Literal",
                 "start": 424,
                 "end": 430,
-                "value": "name",
-                "raw": "'name'"
+                "value": "name"
               }
             ]
           }

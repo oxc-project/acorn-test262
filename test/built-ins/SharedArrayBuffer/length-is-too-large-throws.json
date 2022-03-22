@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 774,
                         "end": 790,
-                        "value": 9007199254740992,
-                        "raw": "9007199254740992"
+                        "value": 9007199254740992
                       }
                     ]
                   }
@@ -83,8 +82,7 @@
             "type": "Literal",
             "start": 796,
             "end": 829,
-            "value": "`length` parameter is too large",
-            "raw": "\"`length` parameter is too large\""
+            "value": "`length` parameter is too large"
           }
         ],
         "optional": false
@@ -169,8 +167,7 @@
             "type": "Literal",
             "start": 910,
             "end": 951,
-            "value": "`length` parameter is positive Infinity",
-            "raw": "\"`length` parameter is positive Infinity\""
+            "value": "`length` parameter is positive Infinity"
           }
         ],
         "optional": false

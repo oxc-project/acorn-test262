@@ -83,8 +83,7 @@
                         "type": "Literal",
                         "start": 327,
                         "end": 339,
-                        "value": "\u000b1234",
-                        "raw": "'\\u000b1234'"
+                        "value": "\u000b1234"
                       }
                     ],
                     "optional": false

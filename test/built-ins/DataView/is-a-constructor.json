@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 783,
             "end": 825,
-            "value": "isConstructor(DataView) must return true",
-            "raw": "'isConstructor(DataView) must return true'"
+            "value": "isConstructor(DataView) must return true"
           }
         ],
         "optional": false
@@ -99,8 +98,7 @@
                 "type": "Literal",
                 "start": 857,
                 "end": 859,
-                "value": 16,
-                "raw": "16"
+                "value": 16
               }
             ]
           }

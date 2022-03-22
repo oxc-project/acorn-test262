@@ -114,8 +114,7 @@
                           "type": "Literal",
                           "start": 1219,
                           "end": 1220,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -208,8 +207,7 @@
                           "type": "Literal",
                           "start": 1292,
                           "end": 1293,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       }
                     ]
@@ -289,8 +287,7 @@
                             "type": "Literal",
                             "start": 1377,
                             "end": 1378,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -508,8 +505,7 @@
                         "type": "Literal",
                         "start": 1538,
                         "end": 1567,
-                        "value": "observable ToInteger(begin)",
-                        "raw": "\"observable ToInteger(begin)\""
+                        "value": "observable ToInteger(begin)"
                       }
                     ],
                     "optional": false
@@ -540,8 +536,7 @@
                         "type": "Literal",
                         "start": 1584,
                         "end": 1611,
-                        "value": "observable ToInteger(end)",
-                        "raw": "\"observable ToInteger(end)\""
+                        "value": "observable ToInteger(end)"
                       }
                     ],
                     "optional": false

@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 401,
             "end": 411,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 415,
             "end": 476,
-            "value": "`typeof Instant.prototype.toZonedDateTimeISO` is `function`",
-            "raw": "\"`typeof Instant.prototype.toZonedDateTimeISO` is `function`\""
+            "value": "`typeof Instant.prototype.toZonedDateTimeISO` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 524,
             "end": 544,
-            "value": "toZonedDateTimeISO",
-            "raw": "\"toZonedDateTimeISO\""
+            "value": "toZonedDateTimeISO"
           },
           {
             "type": "ObjectExpression",

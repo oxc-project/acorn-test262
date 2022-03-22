@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 343,
               "end": 351,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -82,8 +81,7 @@
                     "type": "Literal",
                     "start": 390,
                     "end": 451,
-                    "value": "#1: decodeURI.hasOwnProperty('length') === true. Actual: ",
-                    "raw": "'#1: decodeURI.hasOwnProperty(\\'length\\') === true. Actual: '"
+                    "value": "#1: decodeURI.hasOwnProperty('length') === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -118,8 +116,7 @@
                           "type": "Literal",
                           "start": 480,
                           "end": 488,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -200,8 +197,7 @@
               "type": "Literal",
               "start": 561,
               "end": 569,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -243,8 +239,7 @@
                     "type": "Literal",
                     "start": 609,
                     "end": 696,
-                    "value": "#2: delete decodeURI.length; decodeURI.hasOwnProperty('length') === false. Actual: ",
-                    "raw": "'#2: delete decodeURI.length; decodeURI.hasOwnProperty(\\'length\\') === false. Actual: '"
+                    "value": "#2: delete decodeURI.length; decodeURI.hasOwnProperty('length') === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -279,8 +274,7 @@
                           "type": "Literal",
                           "start": 725,
                           "end": 733,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -353,8 +347,7 @@
                   "type": "Literal",
                   "start": 814,
                   "end": 875,
-                  "value": "#3: delete decodeURI.length; decodeURI.length !== undefined",
-                  "raw": "'#3: delete decodeURI.length; decodeURI.length !== undefined'"
+                  "value": "#3: delete decodeURI.length; decodeURI.length !== undefined"
                 }
               ]
             }

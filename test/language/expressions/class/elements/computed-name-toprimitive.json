@@ -124,8 +124,7 @@
                           "type": "Literal",
                           "start": 1865,
                           "end": 1868,
-                          "value": "d",
-                          "raw": "\"d\""
+                          "value": "d"
                         }
                       }
                     ]
@@ -236,8 +235,7 @@
                           "type": "Literal",
                           "start": 1954,
                           "end": 1957,
-                          "value": "e",
-                          "raw": "\"e\""
+                          "value": "e"
                         }
                       }
                     ]
@@ -348,8 +346,7 @@
                           "type": "Literal",
                           "start": 2048,
                           "end": 2051,
-                          "value": "f",
-                          "raw": "\"f\""
+                          "value": "f"
                         }
                       }
                     ]
@@ -390,10 +387,9 @@
               "end": 2123,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 2079,
-                  "end": 2091,
-                  "static": false,
+                  "end": 2090,
                   "computed": true,
                   "key": {
                     "type": "Identifier",
@@ -405,15 +401,13 @@
                     "type": "Literal",
                     "start": 2088,
                     "end": 2090,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 2094,
-                  "end": 2106,
-                  "static": false,
+                  "end": 2105,
                   "computed": true,
                   "key": {
                     "type": "Identifier",
@@ -425,15 +419,13 @@
                     "type": "Literal",
                     "start": 2103,
                     "end": 2105,
-                    "value": 43,
-                    "raw": "43"
+                    "value": 43
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 2109,
-                  "end": 2121,
-                  "static": false,
+                  "end": 2120,
                   "computed": true,
                   "key": {
                     "type": "Identifier",
@@ -445,8 +437,7 @@
                     "type": "Literal",
                     "start": 2118,
                     "end": 2120,
-                    "value": 44,
-                    "raw": "44"
+                    "value": 44
                   }
                 }
               ]
@@ -575,8 +566,7 @@
                 "type": "Literal",
                 "start": 2200,
                 "end": 2203,
-                "value": "d",
-                "raw": "\"d\""
+                "value": "d"
               }
             ],
             "optional": false
@@ -667,8 +657,7 @@
                 "type": "Literal",
                 "start": 2261,
                 "end": 2264,
-                "value": "d",
-                "raw": "\"d\""
+                "value": "d"
               }
             ],
             "optional": false
@@ -709,8 +698,7 @@
             "type": "Literal",
             "start": 2294,
             "end": 2297,
-            "value": "d",
-            "raw": "\"d\""
+            "value": "d"
           },
           {
             "type": "ObjectExpression",
@@ -734,8 +722,7 @@
                   "type": "Literal",
                   "start": 2310,
                   "end": 2312,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               },
@@ -899,8 +886,7 @@
                 "type": "Literal",
                 "start": 2435,
                 "end": 2438,
-                "value": "e",
-                "raw": "\"e\""
+                "value": "e"
               }
             ],
             "optional": false
@@ -991,8 +977,7 @@
                 "type": "Literal",
                 "start": 2496,
                 "end": 2499,
-                "value": "e",
-                "raw": "\"e\""
+                "value": "e"
               }
             ],
             "optional": false
@@ -1033,8 +1018,7 @@
             "type": "Literal",
             "start": 2529,
             "end": 2532,
-            "value": "e",
-            "raw": "\"e\""
+            "value": "e"
           },
           {
             "type": "ObjectExpression",
@@ -1058,8 +1042,7 @@
                   "type": "Literal",
                   "start": 2545,
                   "end": 2547,
-                  "value": 43,
-                  "raw": "43"
+                  "value": 43
                 },
                 "kind": "init"
               },
@@ -1223,8 +1206,7 @@
                 "type": "Literal",
                 "start": 2670,
                 "end": 2673,
-                "value": "f",
-                "raw": "\"f\""
+                "value": "f"
               }
             ],
             "optional": false
@@ -1315,8 +1297,7 @@
                 "type": "Literal",
                 "start": 2731,
                 "end": 2734,
-                "value": "f",
-                "raw": "\"f\""
+                "value": "f"
               }
             ],
             "optional": false
@@ -1357,8 +1338,7 @@
             "type": "Literal",
             "start": 2764,
             "end": 2767,
-            "value": "f",
-            "raw": "\"f\""
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -1382,8 +1362,7 @@
                   "type": "Literal",
                   "start": 2780,
                   "end": 2782,
-                  "value": 44,
-                  "raw": "44"
+                  "value": 44
                 },
                 "kind": "init"
               },

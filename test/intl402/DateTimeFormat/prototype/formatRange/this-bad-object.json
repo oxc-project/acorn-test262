@@ -160,8 +160,7 @@
             "type": "Literal",
             "start": 381,
             "end": 385,
-            "value": "{}",
-            "raw": "\"{}\""
+            "value": "{}"
           }
         ],
         "optional": false
@@ -266,8 +265,7 @@
             "type": "Literal",
             "start": 462,
             "end": 474,
-            "value": "new Date()",
-            "raw": "\"new Date()\""
+            "value": "new Date()"
           }
         ],
         "optional": false
@@ -379,8 +377,7 @@
             "type": "Literal",
             "start": 560,
             "end": 581,
-            "value": "Intl.DateTimeFormat",
-            "raw": "\"Intl.DateTimeFormat\""
+            "value": "Intl.DateTimeFormat"
           }
         ],
         "optional": false
@@ -505,8 +502,7 @@
             "type": "Literal",
             "start": 677,
             "end": 708,
-            "value": "Intl.DateTimeFormat.prototype",
-            "raw": "\"Intl.DateTimeFormat.prototype\""
+            "value": "Intl.DateTimeFormat.prototype"
           }
         ],
         "optional": false

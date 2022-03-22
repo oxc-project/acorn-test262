@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 411,
             "end": 416,
-            "value": "get",
-            "raw": "'get'"
+            "value": "get"
           },
           {
             "type": "Literal",
             "start": 420,
             "end": 474,
-            "value": "The value of `WeakMap.prototype.get.name` is `\"get\"`",
-            "raw": "'The value of `WeakMap.prototype.get.name` is `\"get\"`'"
+            "value": "The value of `WeakMap.prototype.get.name` is `\"get\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 522,
             "end": 528,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 572,
             "end": 578,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 623,
             "end": 629,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

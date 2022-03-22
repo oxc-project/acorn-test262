@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 1205,
             "end": 1208,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -73,8 +72,7 @@
                   "type": "Literal",
                   "start": 1221,
                   "end": 1224,
-                  "value": "x",
-                  "raw": "'x'"
+                  "value": "x"
                 },
                 "kind": "init"
               },
@@ -171,8 +169,7 @@
                 "type": "Literal",
                 "start": 1292,
                 "end": 1293,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -188,8 +185,7 @@
             "type": "Literal",
             "start": 1303,
             "end": 1563,
-            "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });if (false) ; else function f() {  }",
-            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: false\\\n  }, { restore: true });if (false) ; else function f() {  }'"
+            "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });if (false) ; else function f() {  }"
           }
         ],
         "optional": false
@@ -240,8 +236,7 @@
             "type": "Literal",
             "start": 1595,
             "end": 1605,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -272,8 +267,7 @@
             "type": "Literal",
             "start": 1631,
             "end": 1634,
-            "value": "f",
-            "raw": "\"f\""
+            "value": "f"
           },
           {
             "type": "ObjectExpression",

@@ -30,15 +30,13 @@
                 "type": "Literal",
                 "start": 404,
                 "end": 414,
-                "value": "a1,a2,a3",
-                "raw": "\"a1,a2,a3\""
+                "value": "a1,a2,a3"
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 434,
-                "value": "this.shifted=a1;",
-                "raw": "\"this.shifted=a1;\""
+                "value": "this.shifted=a1;"
               }
             ],
             "optional": false
@@ -69,8 +67,7 @@
                 "type": "Literal",
                 "start": 448,
                 "end": 449,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -123,8 +120,7 @@
                 "type": "Literal",
                 "start": 479,
                 "end": 488,
-                "value": "shifted",
-                "raw": "\"shifted\""
+                "value": "shifted"
               },
               "computed": true,
               "optional": false
@@ -148,8 +144,7 @@
             "type": "Literal",
             "start": 514,
             "end": 596,
-            "value": "The value of this[\"shifted\"].constructor is expected to equal the value of Array",
-            "raw": "'The value of this[\"shifted\"].constructor is expected to equal the value of Array'"
+            "value": "The value of this[\"shifted\"].constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -200,8 +195,7 @@
                 "type": "Literal",
                 "start": 623,
                 "end": 632,
-                "value": "shifted",
-                "raw": "\"shifted\""
+                "value": "shifted"
               },
               "computed": true,
               "optional": false
@@ -219,15 +213,13 @@
             "type": "Literal",
             "start": 642,
             "end": 643,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 645,
             "end": 702,
-            "value": "The value of this[\"shifted\"].length is expected to be 1",
-            "raw": "'The value of this[\"shifted\"].length is expected to be 1'"
+            "value": "The value of this[\"shifted\"].length is expected to be 1"
           }
         ],
         "optional": false
@@ -278,8 +270,7 @@
                 "type": "Literal",
                 "start": 727,
                 "end": 736,
-                "value": "shifted",
-                "raw": "\"shifted\""
+                "value": "shifted"
               },
               "computed": true,
               "optional": false
@@ -288,8 +279,7 @@
               "type": "Literal",
               "start": 738,
               "end": 739,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -298,15 +288,13 @@
             "type": "Literal",
             "start": 742,
             "end": 743,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 745,
             "end": 798,
-            "value": "The value of this[\"shifted\"][0] is expected to be 1",
-            "raw": "'The value of this[\"shifted\"][0] is expected to be 1'"
+            "value": "The value of this[\"shifted\"][0] is expected to be 1"
           }
         ],
         "optional": false

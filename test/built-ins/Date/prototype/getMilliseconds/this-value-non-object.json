@@ -131,8 +131,7 @@
             "type": "Literal",
             "start": 666,
             "end": 676,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -218,8 +217,7 @@
                         "type": "Literal",
                         "start": 741,
                         "end": 742,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -232,8 +230,7 @@
             "type": "Literal",
             "start": 748,
             "end": 756,
-            "value": "number",
-            "raw": "'number'"
+            "value": "number"
           }
         ],
         "optional": false
@@ -333,8 +330,7 @@
             "type": "Literal",
             "start": 831,
             "end": 840,
-            "value": "boolean",
-            "raw": "'boolean'"
+            "value": "boolean"
           }
         ],
         "optional": false
@@ -434,8 +430,7 @@
             "type": "Literal",
             "start": 915,
             "end": 921,
-            "value": "null",
-            "raw": "'null'"
+            "value": "null"
           }
         ],
         "optional": false
@@ -534,8 +529,7 @@
             "type": "Literal",
             "start": 1001,
             "end": 1012,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -621,8 +615,7 @@
                         "type": "Literal",
                         "start": 1077,
                         "end": 1079,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -635,8 +628,7 @@
             "type": "Literal",
             "start": 1085,
             "end": 1093,
-            "value": "string",
-            "raw": "'string'"
+            "value": "string"
           }
         ],
         "optional": false
@@ -735,8 +727,7 @@
             "type": "Literal",
             "start": 1170,
             "end": 1178,
-            "value": "symbol",
-            "raw": "'symbol'"
+            "value": "symbol"
           }
         ],
         "optional": false

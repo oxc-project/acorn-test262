@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 390,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 403,
             "end": 473,
-            "value": "Date.prototype.getFullYear.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.prototype.getFullYear.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.prototype.getFullYear.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -186,15 +184,13 @@
             "type": "Literal",
             "start": 535,
             "end": 536,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 608,
-            "value": "The value of Date.prototype.getFullYear.length is expected to be 0",
-            "raw": "'The value of Date.prototype.getFullYear.length is expected to be 0'"
+            "value": "The value of Date.prototype.getFullYear.length is expected to be 0"
           }
         ],
         "optional": false

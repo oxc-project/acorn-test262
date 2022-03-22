@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1075,
                 "end": 1084,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -74,8 +73,7 @@
             "type": "Literal",
             "start": 1094,
             "end": 1095,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -155,8 +153,7 @@
                             "type": "Literal",
                             "start": 1151,
                             "end": 1158,
-                            "value": "month",
-                            "raw": "\"month\""
+                            "value": "month"
                           }
                         }
                       },
@@ -191,8 +188,7 @@
                             "type": "Literal",
                             "start": 1183,
                             "end": 1189,
-                            "value": "year",
-                            "raw": "\"year\""
+                            "value": "year"
                           }
                         }
                       },
@@ -227,8 +223,7 @@
                             "type": "Literal",
                             "start": 1214,
                             "end": 1220,
-                            "value": "year",
-                            "raw": "\"year\""
+                            "value": "year"
                           }
                         }
                       },
@@ -341,8 +336,7 @@
             "type": "Literal",
             "start": 1296,
             "end": 1331,
-            "value": "repeated valid value should throw",
-            "raw": "\"repeated valid value should throw\""
+            "value": "repeated valid value should throw"
           }
         ],
         "optional": false
@@ -386,15 +380,13 @@
             "type": "Literal",
             "start": 1354,
             "end": 1355,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1357,
             "end": 1375,
-            "value": "Should stop at 2",
-            "raw": "\"Should stop at 2\""
+            "value": "Should stop at 2"
           }
         ],
         "optional": false
@@ -421,71 +413,61 @@
                 "type": "Literal",
                 "start": 1430,
                 "end": 1442,
-                "value": "nanosecond",
-                "raw": "\"nanosecond\""
+                "value": "nanosecond"
               },
               {
                 "type": "Literal",
                 "start": 1444,
                 "end": 1457,
-                "value": "microsecond",
-                "raw": "\"microsecond\""
+                "value": "microsecond"
               },
               {
                 "type": "Literal",
                 "start": 1459,
                 "end": 1472,
-                "value": "millisecond",
-                "raw": "\"millisecond\""
+                "value": "millisecond"
               },
               {
                 "type": "Literal",
                 "start": 1474,
                 "end": 1482,
-                "value": "second",
-                "raw": "\"second\""
+                "value": "second"
               },
               {
                 "type": "Literal",
                 "start": 1486,
                 "end": 1494,
-                "value": "minute",
-                "raw": "\"minute\""
+                "value": "minute"
               },
               {
                 "type": "Literal",
                 "start": 1496,
                 "end": 1502,
-                "value": "hour",
-                "raw": "\"hour\""
+                "value": "hour"
               },
               {
                 "type": "Literal",
                 "start": 1504,
                 "end": 1509,
-                "value": "day",
-                "raw": "\"day\""
+                "value": "day"
               },
               {
                 "type": "Literal",
                 "start": 1511,
                 "end": 1522,
-                "value": "monthCode",
-                "raw": "\"monthCode\""
+                "value": "monthCode"
               },
               {
                 "type": "Literal",
                 "start": 1524,
                 "end": 1531,
-                "value": "month",
-                "raw": "\"month\""
+                "value": "month"
               },
               {
                 "type": "Literal",
                 "start": 1533,
                 "end": 1539,
-                "value": "year",
-                "raw": "\"year\""
+                "value": "year"
               }
             ]
           },
@@ -539,8 +521,7 @@
                       "type": "Literal",
                       "start": 1565,
                       "end": 1566,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 },
@@ -766,8 +747,7 @@
                         "type": "Literal",
                         "start": 1737,
                         "end": 1772,
-                        "value": "repeated valid value should throw",
-                        "raw": "\"repeated valid value should throw\""
+                        "value": "repeated valid value should throw"
                       }
                     ],
                     "optional": false
@@ -811,15 +791,13 @@
                         "type": "Literal",
                         "start": 1797,
                         "end": 1798,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1800,
                         "end": 1818,
-                        "value": "Should stop at 1",
-                        "raw": "\"Should stop at 1\""
+                        "value": "Should stop at 1"
                       }
                     ],
                     "optional": false

@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 474,
             "end": 477,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           "operator": "<=",
           "right": {
@@ -63,8 +62,7 @@
                   "type": "Literal",
                   "start": 529,
                   "end": 561,
-                  "value": "#1: \"1\" <= undefined === false",
-                  "raw": "'#1: \"1\" <= undefined === false'"
+                  "value": "#1: \"1\" <= undefined === false"
                 }
               ]
             }
@@ -96,8 +94,7 @@
             "type": "Literal",
             "start": 594,
             "end": 597,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           }
         },
         "operator": "!==",
@@ -133,8 +130,7 @@
                   "type": "Literal",
                   "start": 636,
                   "end": 668,
-                  "value": "#2: undefined <= \"1\" === false",
-                  "raw": "'#2: undefined <= \"1\" === false'"
+                  "value": "#2: undefined <= \"1\" === false"
                 }
               ]
             }
@@ -170,8 +166,7 @@
                 "type": "Literal",
                 "start": 699,
                 "end": 702,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ]
           },
@@ -216,8 +211,7 @@
                   "type": "Literal",
                   "start": 755,
                   "end": 799,
-                  "value": "#3: new String(\"1\") <= undefined === false",
-                  "raw": "'#3: new String(\"1\") <= undefined === false'"
+                  "value": "#3: new String(\"1\") <= undefined === false"
                 }
               ]
             }
@@ -260,8 +254,7 @@
                 "type": "Literal",
                 "start": 843,
                 "end": 846,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ]
           }
@@ -299,8 +292,7 @@
                   "type": "Literal",
                   "start": 886,
                   "end": 930,
-                  "value": "#4: undefined <= new String(\"1\") === false",
-                  "raw": "'#4: undefined <= new String(\"1\") === false'"
+                  "value": "#4: undefined <= new String(\"1\") === false"
                 }
               ]
             }

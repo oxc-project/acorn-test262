@@ -112,15 +112,13 @@
                     "type": "Literal",
                     "start": 456,
                     "end": 462,
-                    "value": "latn",
-                    "raw": "\"latn\""
+                    "value": "latn"
                   },
                   {
                     "type": "Literal",
                     "start": 464,
                     "end": 470,
-                    "value": "arab",
-                    "raw": "\"arab\""
+                    "value": "arab"
                   }
                 ]
               },
@@ -209,8 +207,7 @@
                                   "type": "Literal",
                                   "start": 525,
                                   "end": 533,
-                                  "value": "-u-nu-",
-                                  "raw": "\"-u-nu-\""
+                                  "value": "-u-nu-"
                                 }
                               },
                               "operator": "+",
@@ -302,8 +299,7 @@
                       "type": "Literal",
                       "start": 616,
                       "end": 620,
-                      "value": "nu",
-                      "raw": "\"nu\""
+                      "value": "nu"
                     },
                     "kind": "init"
                   },
@@ -324,8 +320,7 @@
                       "type": "Literal",
                       "start": 632,
                       "end": 649,
-                      "value": "numberingSystem",
-                      "raw": "\"numberingSystem\""
+                      "value": "numberingSystem"
                     },
                     "kind": "init"
                   },
@@ -346,8 +341,7 @@
                       "type": "Literal",
                       "start": 657,
                       "end": 665,
-                      "value": "string",
-                      "raw": "\"string\""
+                      "value": "string"
                     },
                     "kind": "init"
                   },
@@ -838,8 +832,7 @@
                                       "type": "Literal",
                                       "start": 1201,
                                       "end": 1202,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     }
                                   }
                                 }
@@ -1018,8 +1011,7 @@
                                                   "type": "Literal",
                                                   "start": 1455,
                                                   "end": 1460,
-                                                  "value": "-u-",
-                                                  "raw": "\"-u-\""
+                                                  "value": "-u-"
                                                 }
                                               },
                                               "operator": "+",
@@ -1048,8 +1040,7 @@
                                               "type": "Literal",
                                               "start": 1476,
                                               "end": 1479,
-                                              "value": "-",
-                                              "raw": "\"-\""
+                                              "value": "-"
                                             }
                                           },
                                           "operator": "+",
@@ -1195,8 +1186,7 @@
                                             "type": "Literal",
                                             "start": 1597,
                                             "end": 1608,
-                                            "value": "Property ",
-                                            "raw": "\"Property \""
+                                            "value": "Property "
                                           },
                                           "operator": "+",
                                           "right": {
@@ -1224,8 +1214,7 @@
                                           "type": "Literal",
                                           "start": 1629,
                                           "end": 1677,
-                                          "value": " couldn't be set through locale extension key ",
-                                          "raw": "\" couldn't be set through locale extension key \""
+                                          "value": " couldn't be set through locale extension key "
                                         }
                                       },
                                       "operator": "+",
@@ -1254,8 +1243,7 @@
                                       "type": "Literal",
                                       "start": 1693,
                                       "end": 1696,
-                                      "value": ".",
-                                      "raw": "\".\""
+                                      "value": "."
                                     }
                                   }
                                 ],
@@ -1631,8 +1619,7 @@
                                                         "type": "Literal",
                                                         "start": 2191,
                                                         "end": 2196,
-                                                        "value": "-u-",
-                                                        "raw": "\"-u-\""
+                                                        "value": "-u-"
                                                       }
                                                     },
                                                     "operator": "+",
@@ -1661,8 +1648,7 @@
                                                     "type": "Literal",
                                                     "start": 2212,
                                                     "end": 2215,
-                                                    "value": "-",
-                                                    "raw": "\"-\""
+                                                    "value": "-"
                                                   }
                                                 },
                                                 "operator": "+",
@@ -1814,8 +1800,7 @@
                                                   "type": "Literal",
                                                   "start": 2351,
                                                   "end": 2380,
-                                                  "value": "Options value for property ",
-                                                  "raw": "\"Options value for property \""
+                                                  "value": "Options value for property "
                                                 },
                                                 "operator": "+",
                                                 "right": {
@@ -1843,8 +1828,7 @@
                                                 "type": "Literal",
                                                 "start": 2401,
                                                 "end": 2442,
-                                                "value": " doesn't override locale extension key ",
-                                                "raw": "\" doesn't override locale extension key \""
+                                                "value": " doesn't override locale extension key "
                                               }
                                             },
                                             "operator": "+",
@@ -1873,8 +1857,7 @@
                                             "type": "Literal",
                                             "start": 2458,
                                             "end": 2461,
-                                            "value": ".",
-                                            "raw": "\".\""
+                                            "value": "."
                                           }
                                         }
                                       ],

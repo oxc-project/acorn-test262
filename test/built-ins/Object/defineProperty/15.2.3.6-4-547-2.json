@@ -94,8 +94,7 @@
           "type": "Literal",
           "start": 481,
           "end": 487,
-          "value": "data",
-          "raw": "\"data\""
+          "value": "data"
         }
       }
     },
@@ -276,8 +275,7 @@
             "type": "Literal",
             "start": 640,
             "end": 646,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -425,8 +423,7 @@
                 "type": "Literal",
                 "start": 777,
                 "end": 783,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -482,8 +479,7 @@
                   "type": "Literal",
                   "start": 822,
                   "end": 828,
-                  "value": "prop",
-                  "raw": "\"prop\""
+                  "value": "prop"
                 },
                 {
                   "type": "ObjectExpression",
@@ -507,8 +503,7 @@
                         "type": "Literal",
                         "start": 843,
                         "end": 847,
-                        "value": 1001,
-                        "raw": "1001"
+                        "value": 1001
                       },
                       "kind": "init"
                     }
@@ -537,8 +532,7 @@
                   "type": "Literal",
                   "start": 880,
                   "end": 904,
-                  "value": "Expected an exception.",
-                  "raw": "\"Expected an exception.\""
+                  "value": "Expected an exception."
                 }
               ]
             }
@@ -609,8 +603,7 @@
                         "type": "Literal",
                         "start": 972,
                         "end": 978,
-                        "value": "prop",
-                        "raw": "\"prop\""
+                        "value": "prop"
                       }
                     ],
                     "optional": false
@@ -657,8 +650,7 @@
                       "type": "Literal",
                       "start": 1010,
                       "end": 1015,
-                      "value": "get",
-                      "raw": "\"get\""
+                      "value": "get"
                     }
                   ],
                   "optional": false
@@ -692,8 +684,7 @@
                             "type": "Literal",
                             "start": 1047,
                             "end": 1107,
-                            "value": "Expected desc1.hasOwnProperty(\"get\") to be true, actually ",
-                            "raw": "'Expected desc1.hasOwnProperty(\"get\") to be true, actually '"
+                            "value": "Expected desc1.hasOwnProperty(\"get\") to be true, actually "
                           },
                           "operator": "+",
                           "right": {
@@ -724,8 +715,7 @@
                                 "type": "Literal",
                                 "start": 1131,
                                 "end": 1136,
-                                "value": "get",
-                                "raw": "\"get\""
+                                "value": "get"
                               }
                             ],
                             "optional": false
@@ -770,8 +760,7 @@
                     "type": "Literal",
                     "start": 1172,
                     "end": 1179,
-                    "value": "value",
-                    "raw": "\"value\""
+                    "value": "value"
                   }
                 ],
                 "optional": false
@@ -804,8 +793,7 @@
                             "type": "Literal",
                             "start": 1211,
                             "end": 1274,
-                            "value": "Expected !desc2.hasOwnProperty(\"value\") to be true, actually ",
-                            "raw": "'Expected !desc2.hasOwnProperty(\"value\") to be true, actually '"
+                            "value": "Expected !desc2.hasOwnProperty(\"value\") to be true, actually "
                           },
                           "operator": "+",
                           "right": {
@@ -842,8 +830,7 @@
                                   "type": "Literal",
                                   "start": 1299,
                                   "end": 1306,
-                                  "value": "value",
-                                  "raw": "\"value\""
+                                  "value": "value"
                                 }
                               ],
                               "optional": false
@@ -882,8 +869,7 @@
                     "type": "Literal",
                     "start": 1337,
                     "end": 1343,
-                    "value": "prop",
-                    "raw": "\"prop\""
+                    "value": "prop"
                   },
                   {
                     "type": "CallExpression",
@@ -927,15 +913,13 @@
                     "type": "Literal",
                     "start": 1380,
                     "end": 1386,
-                    "value": "prop",
-                    "raw": "\"prop\""
+                    "value": "prop"
                   },
                   {
                     "type": "Literal",
                     "start": 1388,
                     "end": 1403,
-                    "value": "verifySetFunc",
-                    "raw": "\"verifySetFunc\""
+                    "value": "verifySetFunc"
                   }
                 ],
                 "optional": false
@@ -966,8 +950,7 @@
                     "type": "Literal",
                     "start": 1431,
                     "end": 1437,
-                    "value": "prop",
-                    "raw": "\"prop\""
+                    "value": "prop"
                   }
                 ],
                 "optional": false
@@ -998,8 +981,7 @@
                     "type": "Literal",
                     "start": 1470,
                     "end": 1476,
-                    "value": "prop",
-                    "raw": "\"prop\""
+                    "value": "prop"
                   }
                 ],
                 "optional": false
@@ -1067,8 +1049,7 @@
                             "type": "Literal",
                             "start": 1543,
                             "end": 1569,
-                            "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "value": "Expected TypeError, got "
                           },
                           "operator": "+",
                           "right": {

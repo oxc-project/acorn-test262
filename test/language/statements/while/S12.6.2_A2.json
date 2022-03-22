@@ -46,8 +46,7 @@
                           "type": "Literal",
                           "start": 383,
                           "end": 384,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -76,8 +75,7 @@
                   "type": "Literal",
                   "start": 404,
                   "end": 413,
-                  "value": "reached",
-                  "raw": "\"reached\""
+                  "value": "reached"
                 }
               }
             }
@@ -101,8 +99,7 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 532,
-                  "value": "#1: 'while ((function(){throw 1})()) __in__while = \"reached\"' lead to throwing exception",
-                  "raw": "'#1: \\'while ((function(){throw 1})()) __in__while = \"reached\"\\' lead to throwing exception'"
+                  "value": "#1: 'while ((function(){throw 1})()) __in__while = \"reached\"' lead to throwing exception"
                 }
               ]
             }
@@ -143,8 +140,7 @@
                   "type": "Literal",
                   "start": 560,
                   "end": 561,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               "consequent": {
@@ -175,8 +171,7 @@
                             "type": "Literal",
                             "start": 590,
                             "end": 635,
-                            "value": "#1: Exception === 1. Actual:  Exception ===",
-                            "raw": "'#1: Exception === 1. Actual:  Exception ==='"
+                            "value": "#1: Exception === 1. Actual:  Exception ==="
                           },
                           "operator": "+",
                           "right": {
@@ -224,8 +219,7 @@
           "type": "Literal",
           "start": 762,
           "end": 773,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -256,8 +250,7 @@
                     "type": "Literal",
                     "start": 801,
                     "end": 875,
-                    "value": "#1.1: typeof __in__while === \"undefined\". Actual: typeof __in__while ===",
-                    "raw": "'#1.1: typeof __in__while === \"undefined\". Actual: typeof __in__while ==='"
+                    "value": "#1.1: typeof __in__while === \"undefined\". Actual: typeof __in__while ==="
                   },
                   "operator": "+",
                   "right": {

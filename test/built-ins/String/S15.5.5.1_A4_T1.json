@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 350,
-                "value": "globglob",
-                "raw": "\"globglob\""
+                "value": "globglob"
               }
             ]
           }
@@ -84,8 +83,7 @@
                 "type": "Literal",
                 "start": 480,
                 "end": 488,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -120,8 +118,7 @@
                     "type": "Literal",
                     "start": 519,
                     "end": 633,
-                    "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: ",
-                    "raw": "'#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: '"
+                    "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -152,8 +149,7 @@
                         "type": "Literal",
                         "start": 667,
                         "end": 675,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -198,8 +194,7 @@
           "type": "Literal",
           "start": 884,
           "end": 885,
-          "value": 8,
-          "raw": "8"
+          "value": 8
         }
       },
       "consequent": {
@@ -230,8 +225,7 @@
                     "type": "Literal",
                     "start": 914,
                     "end": 1030,
-                    "value": "#2: var __str__instance = new String(\"globglob\"); __str__instance.length === 8. Actual: __str__instance.length ===",
-                    "raw": "'#2: var __str__instance = new String(\"globglob\"); __str__instance.length === 8. Actual: __str__instance.length ==='"
+                    "value": "#2: var __str__instance = new String(\"globglob\"); __str__instance.length === 8. Actual: __str__instance.length ==="
                   },
                   "operator": "+",
                   "right": {
@@ -299,8 +293,7 @@
             "type": "Literal",
             "start": 1169,
             "end": 1170,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -337,8 +330,7 @@
           "type": "Literal",
           "start": 1293,
           "end": 1294,
-          "value": 8,
-          "raw": "8"
+          "value": 8
         }
       },
       "consequent": {
@@ -369,8 +361,7 @@
                     "type": "Literal",
                     "start": 1323,
                     "end": 1498,
-                    "value": "#3: var __str__instance = new String(\"globglob\"); __str__instance.length=-1; __str__instance.length === 8(after redefine length property). Actual: __str__instance.length ===",
-                    "raw": "'#3: var __str__instance = new String(\"globglob\"); __str__instance.length=-1; __str__instance.length === 8(after redefine length property). Actual: __str__instance.length ==='"
+                    "value": "#3: var __str__instance = new String(\"globglob\"); __str__instance.length=-1; __str__instance.length === 8(after redefine length property). Actual: __str__instance.length ==="
                   },
                   "operator": "+",
                   "right": {
@@ -429,8 +420,7 @@
             "type": "Literal",
             "start": 1642,
             "end": 1643,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       }
@@ -467,8 +457,7 @@
           "type": "Literal",
           "start": 1766,
           "end": 1767,
-          "value": 8,
-          "raw": "8"
+          "value": 8
         }
       },
       "consequent": {
@@ -499,8 +488,7 @@
                     "type": "Literal",
                     "start": 1796,
                     "end": 1996,
-                    "value": "#4: var __str__instance = new String(\"globglob\"); with(__str__instance) length = 0; __str__instance.length === 8(after redefine length property with using \"with\"). Actual: __str__instance.length ===",
-                    "raw": "'#4: var __str__instance = new String(\"globglob\"); with(__str__instance) length = 0; __str__instance.length === 8(after redefine length property with using \"with\"). Actual: __str__instance.length ==='"
+                    "value": "#4: var __str__instance = new String(\"globglob\"); with(__str__instance) length = 0; __str__instance.length === 8(after redefine length property with using \"with\"). Actual: __str__instance.length ==="
                   },
                   "operator": "+",
                   "right": {
@@ -593,8 +581,7 @@
           "type": "Literal",
           "start": 2256,
           "end": 2257,
-          "value": 8,
-          "raw": "8"
+          "value": 8
         }
       },
       "consequent": {
@@ -625,8 +612,7 @@
                     "type": "Literal",
                     "start": 2286,
                     "end": 2476,
-                    "value": "#5: var __str__instance = new String(\"globglob\"); __str__instance.length++; __str__instance.length === 8(after redefine length property with using \"++\"). Actual: __str__instance.length ===",
-                    "raw": "'#5: var __str__instance = new String(\"globglob\"); __str__instance.length++; __str__instance.length === 8(after redefine length property with using \"++\"). Actual: __str__instance.length ==='"
+                    "value": "#5: var __str__instance = new String(\"globglob\"); __str__instance.length++; __str__instance.length === 8(after redefine length property with using \"++\"). Actual: __str__instance.length ==="
                   },
                   "operator": "+",
                   "right": {

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 367,
             "end": 368,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 418,
             "end": 419,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 490,
             "end": 491,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -100,8 +97,7 @@
             "type": "Literal",
             "start": 510,
             "end": 511,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         }
       ],
@@ -126,8 +122,7 @@
             "type": "Literal",
             "start": 533,
             "end": 534,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           }
         }
       ],
@@ -220,8 +215,7 @@
               "type": "Literal",
               "start": 593,
               "end": 594,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -695,8 +689,7 @@
             "type": "Literal",
             "start": 1343,
             "end": 1425,
-            "value": "Atomics.notify(i32a, WAIT_INDEX, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`",
-            "raw": "'Atomics.notify(i32a, WAIT_INDEX, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`'"
+            "value": "Atomics.notify(i32a, WAIT_INDEX, NOTIFYCOUNT) returns the value of `NOTIFYCOUNT`"
           }
         ],
         "optional": false
@@ -776,8 +769,7 @@
               "type": "Literal",
               "start": 1508,
               "end": 1509,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -890,15 +882,13 @@
                   "type": "Literal",
                   "start": 1575,
                   "end": 1586,
-                  "value": "timed-out",
-                  "raw": "'timed-out'"
+                  "value": "timed-out"
                 },
                 {
                   "type": "Literal",
                   "start": 1588,
                   "end": 1632,
-                  "value": "$262.agent.getReport() returns \"timed-out\"",
-                  "raw": "'$262.agent.getReport() returns \"timed-out\"'"
+                  "value": "$262.agent.getReport() returns \"timed-out\""
                 }
               ],
               "optional": false

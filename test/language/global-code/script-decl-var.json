@@ -35,8 +35,7 @@
             "type": "Literal",
             "start": 1370,
             "end": 1385,
-            "value": "var brandNew;",
-            "raw": "'var brandNew;'"
+            "value": "var brandNew;"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
             "type": "Literal",
             "start": 1435,
             "end": 1479,
-            "value": "new binding on an extensible global object",
-            "raw": "'new binding on an extensible global object'"
+            "value": "new binding on an extensible global object"
           }
         ],
         "optional": false
@@ -129,8 +127,7 @@
             "type": "Literal",
             "start": 1506,
             "end": 1516,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -160,8 +157,7 @@
             "type": "Literal",
             "start": 1540,
             "end": 1550,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -191,8 +187,7 @@
             "type": "Literal",
             "start": 1581,
             "end": 1591,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -235,8 +230,7 @@
             "type": "Literal",
             "start": 1628,
             "end": 1642,
-            "value": "configurable",
-            "raw": "'configurable'"
+            "value": "configurable"
           },
           {
             "type": "ObjectExpression",
@@ -326,8 +320,7 @@
                   "type": "Literal",
                   "start": 1711,
                   "end": 1712,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -374,8 +367,7 @@
             "type": "Literal",
             "start": 1751,
             "end": 1768,
-            "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "value": "nonConfigurable"
           },
           {
             "type": "ObjectExpression",
@@ -465,8 +457,7 @@
                   "type": "Literal",
                   "start": 1838,
                   "end": 1839,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -545,8 +536,7 @@
             "type": "Literal",
             "start": 2022,
             "end": 2041,
-            "value": "var configurable;",
-            "raw": "'var configurable;'"
+            "value": "var configurable;"
           }
         ],
         "optional": false
@@ -590,15 +580,13 @@
             "type": "Literal",
             "start": 2076,
             "end": 2077,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2079,
             "end": 2113,
-            "value": "like-named configurable property",
-            "raw": "'like-named configurable property'"
+            "value": "like-named configurable property"
           }
         ],
         "optional": false
@@ -628,8 +616,7 @@
             "type": "Literal",
             "start": 2142,
             "end": 2156,
-            "value": "configurable",
-            "raw": "'configurable'"
+            "value": "configurable"
           }
         ],
         "optional": false
@@ -659,8 +646,7 @@
             "type": "Literal",
             "start": 2183,
             "end": 2197,
-            "value": "configurable",
-            "raw": "'configurable'"
+            "value": "configurable"
           }
         ],
         "optional": false
@@ -690,8 +676,7 @@
             "type": "Literal",
             "start": 2225,
             "end": 2239,
-            "value": "configurable",
-            "raw": "'configurable'"
+            "value": "configurable"
           }
         ],
         "optional": false
@@ -729,8 +714,7 @@
             "type": "Literal",
             "start": 2259,
             "end": 2281,
-            "value": "var nonConfigurable;",
-            "raw": "'var nonConfigurable;'"
+            "value": "var nonConfigurable;"
           }
         ],
         "optional": false
@@ -774,15 +758,13 @@
             "type": "Literal",
             "start": 2319,
             "end": 2320,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2322,
             "end": 2360,
-            "value": "like-named non-configurable property",
-            "raw": "'like-named non-configurable property'"
+            "value": "like-named non-configurable property"
           }
         ],
         "optional": false
@@ -812,8 +794,7 @@
             "type": "Literal",
             "start": 2389,
             "end": 2406,
-            "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "value": "nonConfigurable"
           }
         ],
         "optional": false
@@ -843,8 +824,7 @@
             "type": "Literal",
             "start": 2433,
             "end": 2450,
-            "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "value": "nonConfigurable"
           }
         ],
         "optional": false
@@ -874,8 +854,7 @@
             "type": "Literal",
             "start": 2481,
             "end": 2498,
-            "value": "nonConfigurable",
-            "raw": "'nonConfigurable'"
+            "value": "nonConfigurable"
           }
         ],
         "optional": false

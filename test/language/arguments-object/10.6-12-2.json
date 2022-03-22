@@ -71,8 +71,7 @@
                       "type": "Literal",
                       "start": 314,
                       "end": 322,
-                      "value": "callee",
-                      "raw": "\"callee\""
+                      "value": "callee"
                     }
                   ],
                   "optional": false
@@ -139,8 +138,7 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 389,
-                  "value": "desc.configurable",
-                  "raw": "'desc.configurable'"
+                  "value": "desc.configurable"
                 }
               ],
               "optional": false
@@ -204,8 +202,7 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 452,
-                  "value": "desc.enumerable",
-                  "raw": "'desc.enumerable'"
+                  "value": "desc.enumerable"
                 }
               ],
               "optional": false
@@ -269,8 +266,7 @@
                   "type": "Literal",
                   "start": 495,
                   "end": 510,
-                  "value": "desc.writable",
-                  "raw": "'desc.writable'"
+                  "value": "desc.writable"
                 }
               ],
               "optional": false
@@ -332,8 +328,7 @@
                       "type": "Literal",
                       "start": 552,
                       "end": 557,
-                      "value": "get",
-                      "raw": "'get'"
+                      "value": "get"
                     }
                   ],
                   "optional": false
@@ -349,8 +344,7 @@
                   "type": "Literal",
                   "start": 567,
                   "end": 595,
-                  "value": "desc.hasOwnProperty(\"get\")",
-                  "raw": "'desc.hasOwnProperty(\"get\")'"
+                  "value": "desc.hasOwnProperty(\"get\")"
                 }
               ],
               "optional": false
@@ -412,8 +406,7 @@
                       "type": "Literal",
                       "start": 637,
                       "end": 642,
-                      "value": "set",
-                      "raw": "'set'"
+                      "value": "set"
                     }
                   ],
                   "optional": false
@@ -429,8 +422,7 @@
                   "type": "Literal",
                   "start": 652,
                   "end": 680,
-                  "value": "desc.hasOwnProperty(\"set\")",
-                  "raw": "'desc.hasOwnProperty(\"set\")'"
+                  "value": "desc.hasOwnProperty(\"set\")"
                 }
               ],
               "optional": false

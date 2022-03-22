@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 548,
             "end": 563,
-            "value": "toExponential",
-            "raw": "\"toExponential\""
+            "value": "toExponential"
           }
         ],
         "optional": false
@@ -86,8 +85,7 @@
             "type": "Literal",
             "start": 599,
             "end": 614,
-            "value": "toExponential",
-            "raw": "\"toExponential\""
+            "value": "toExponential"
           }
         ],
         "optional": false
@@ -131,8 +129,7 @@
             "type": "Literal",
             "start": 654,
             "end": 669,
-            "value": "toExponential",
-            "raw": "\"toExponential\""
+            "value": "toExponential"
           }
         ],
         "optional": false

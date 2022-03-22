@@ -131,15 +131,13 @@
                   "type": "Literal",
                   "start": 406,
                   "end": 407,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 409,
                   "end": 411,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -154,15 +152,13 @@
                   "type": "Literal",
                   "start": 415,
                   "end": 416,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 418,
                   "end": 420,
-                  "value": 12,
-                  "raw": "12"
+                  "value": 12
                 },
                 "kind": "init"
               }
@@ -266,8 +262,7 @@
                 "type": "Literal",
                 "start": 487,
                 "end": 488,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -276,15 +271,13 @@
             "type": "Literal",
             "start": 491,
             "end": 492,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 543,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, 1)",
-            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1)'"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, 1)"
           }
         ],
         "optional": false
@@ -335,8 +328,7 @@
             "type": "Literal",
             "start": 580,
             "end": 590,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false

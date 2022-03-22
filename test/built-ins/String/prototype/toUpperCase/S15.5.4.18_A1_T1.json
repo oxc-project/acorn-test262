@@ -143,8 +143,7 @@
           "type": "Literal",
           "start": 475,
           "end": 481,
-          "value": "TRUE",
-          "raw": "\"TRUE\""
+          "value": "TRUE"
         }
       },
       "consequent": {
@@ -175,8 +174,7 @@
                     "type": "Literal",
                     "start": 510,
                     "end": 648,
-                    "value": "#1: __instance = new Object(true); __instance.toUpperCase = String.prototype.toUpperCase;  __instance.toUpperCase() === \"TRUE\". Actual: ",
-                    "raw": "'#1: __instance = new Object(true); __instance.toUpperCase = String.prototype.toUpperCase;  __instance.toUpperCase() === \"TRUE\". Actual: '"
+                    "value": "#1: __instance = new Object(true); __instance.toUpperCase = String.prototype.toUpperCase;  __instance.toUpperCase() === \"TRUE\". Actual: "
                   },
                   "operator": "+",
                   "right": {

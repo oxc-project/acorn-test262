@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 525,
                 "end": 533,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 564,
                     "end": 647,
-                    "value": "#1: String.prototype.lastIndexOf.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#1: String.prototype.lastIndexOf.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#1: String.prototype.lastIndexOf.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 694,
                         "end": 702,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -294,8 +291,7 @@
             "type": "Literal",
             "start": 889,
             "end": 897,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -326,8 +322,7 @@
                     "type": "Literal",
                     "start": 927,
                     "end": 936,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -426,8 +421,7 @@
                     "type": "Literal",
                     "start": 1110,
                     "end": 1285,
-                    "value": "#2: __obj = String.prototype.lastIndexOf.length; String.prototype.lastIndexOf.length = function(){return \"shifted\";}; String.prototype.lastIndexOf.length === __obj. Actual: ",
-                    "raw": "'#2: __obj = String.prototype.lastIndexOf.length; String.prototype.lastIndexOf.length = function(){return \"shifted\";}; String.prototype.lastIndexOf.length === __obj. Actual: '"
+                    "value": "#2: __obj = String.prototype.lastIndexOf.length; String.prototype.lastIndexOf.length = function(){return \"shifted\";}; String.prototype.lastIndexOf.length === __obj. Actual: "
                   },
                   "operator": "+",
                   "right": {

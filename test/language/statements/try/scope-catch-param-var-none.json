@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 306,
             "end": 307,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -148,8 +147,7 @@
                   "type": "Literal",
                   "start": 408,
                   "end": 409,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             ],
@@ -256,8 +254,7 @@
                           "type": "Literal",
                           "start": 482,
                           "end": 494,
-                          "value": "var x = 3;",
-                          "raw": "'var x = 3;'"
+                          "value": "var x = 3;"
                         }
                       ],
                       "optional": false
@@ -332,8 +329,7 @@
                     "type": "Literal",
                     "start": 550,
                     "end": 551,
-                    "value": 4,
-                    "raw": "4"
+                    "value": 4
                   }
                 }
               ],
@@ -434,15 +430,13 @@
             "type": "Literal",
             "start": 629,
             "end": 630,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 663,
-            "value": "reference preceding statement",
-            "raw": "'reference preceding statement'"
+            "value": "reference preceding statement"
           }
         ],
         "optional": false
@@ -493,15 +487,13 @@
             "type": "Literal",
             "start": 695,
             "end": 696,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 726,
-            "value": "reference from `try` block",
-            "raw": "'reference from `try` block'"
+            "value": "reference from `try` block"
           }
         ],
         "optional": false
@@ -552,15 +544,13 @@
             "type": "Literal",
             "start": 760,
             "end": 761,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 763,
             "end": 796,
-            "value": "reference within CatchParameter",
-            "raw": "'reference within CatchParameter'"
+            "value": "reference within CatchParameter"
           }
         ],
         "optional": false
@@ -611,15 +601,13 @@
             "type": "Literal",
             "start": 830,
             "end": 831,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 833,
             "end": 863,
-            "value": "reference from `catch` block",
-            "raw": "'reference from `catch` block'"
+            "value": "reference from `catch` block"
           }
         ],
         "optional": false
@@ -663,15 +651,13 @@
             "type": "Literal",
             "start": 886,
             "end": 887,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 889,
             "end": 920,
-            "value": "reference following statement",
-            "raw": "'reference following statement'"
+            "value": "reference following statement"
           }
         ],
         "optional": false

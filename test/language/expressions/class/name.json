@@ -35,8 +35,7 @@
             "type": "Literal",
             "start": 1150,
             "end": 1156,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -60,8 +59,7 @@
                   "type": "Literal",
                   "start": 1169,
                   "end": 1171,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 },
                 "kind": "init"
               },
@@ -174,8 +172,7 @@
             "type": "Literal",
             "start": 1262,
             "end": 1268,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -199,8 +196,7 @@
                   "type": "Literal",
                   "start": 1281,
                   "end": 1286,
-                  "value": "cls",
-                  "raw": "\"cls\""
+                  "value": "cls"
                 },
                 "kind": "init"
               },
@@ -339,8 +335,7 @@
             "type": "Literal",
             "start": 1391,
             "end": 1397,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -364,8 +359,7 @@
                   "type": "Literal",
                   "start": 1410,
                   "end": 1412,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 },
                 "kind": "init"
               },
@@ -509,8 +503,7 @@
             "type": "Literal",
             "start": 1521,
             "end": 1527,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -534,8 +527,7 @@
                   "type": "Literal",
                   "start": 1540,
                   "end": 1545,
-                  "value": "cls",
-                  "raw": "\"cls\""
+                  "value": "cls"
                 },
                 "kind": "init"
               },

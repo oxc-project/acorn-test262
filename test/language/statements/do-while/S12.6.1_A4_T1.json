@@ -63,8 +63,7 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 414,
-                "value": "reached",
-                "raw": "\"reached\""
+                "value": "reached"
               }
             }
           },
@@ -93,8 +92,7 @@
                 "type": "Literal",
                 "start": 456,
                 "end": 468,
-                "value": "where am i",
-                "raw": "\"where am i\""
+                "value": "where am i"
               }
             }
           }
@@ -108,16 +106,14 @@
           "type": "Literal",
           "start": 478,
           "end": 479,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         },
         "operator": "===",
         "right": {
           "type": "Literal",
           "start": 482,
           "end": 483,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -140,8 +136,7 @@
           "type": "Literal",
           "start": 608,
           "end": 617,
-          "value": "reached",
-          "raw": "\"reached\""
+          "value": "reached"
         }
       },
       "consequent": {
@@ -172,8 +167,7 @@
                     "type": "Literal",
                     "start": 645,
                     "end": 726,
-                    "value": "#1: __in__do__before__break === \"reached\". Actual:  __in__do__before__break ===",
-                    "raw": "'#1: __in__do__before__break === \"reached\". Actual:  __in__do__before__break ==='"
+                    "value": "#1: __in__do__before__break === \"reached\". Actual:  __in__do__before__break ==="
                   },
                   "operator": "+",
                   "right": {
@@ -216,8 +210,7 @@
           "type": "Literal",
           "start": 968,
           "end": 979,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -248,8 +241,7 @@
                     "type": "Literal",
                     "start": 1007,
                     "end": 1102,
-                    "value": "#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ===",
-                    "raw": "'#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ==='"
+                    "value": "#2: typeof __in__do__after__break === \"undefined\". Actual:  typeof __in__do__after__break ==="
                   },
                   "operator": "+",
                   "right": {

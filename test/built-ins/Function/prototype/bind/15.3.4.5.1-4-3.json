@@ -150,15 +150,13 @@
                 "type": "Literal",
                 "start": 459,
                 "end": 462,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 464,
                 "end": 467,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             ],
             "optional": false
@@ -210,8 +208,7 @@
                 "type": "Literal",
                 "start": 496,
                 "end": 499,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             ],
             "optional": false
@@ -220,15 +217,13 @@
             "type": "Literal",
             "start": 502,
             "end": 505,
-            "value": "c",
-            "raw": "\"c\""
+            "value": "c"
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 521,
-            "value": "newFunc(\"c\")",
-            "raw": "'newFunc(\"c\")'"
+            "value": "newFunc(\"c\")"
           }
         ],
         "optional": false

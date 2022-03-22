@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 412,
             "end": 480,
-            "value": "The value of delete Date.prototype.setUTCMilliseconds is not false",
-            "raw": "'The value of delete Date.prototype.setUTCMilliseconds is not false'"
+            "value": "The value of delete Date.prototype.setUTCMilliseconds is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 526,
                   "end": 546,
-                  "value": "setUTCMilliseconds",
-                  "raw": "'setUTCMilliseconds'"
+                  "value": "setUTCMilliseconds"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 551,
             "end": 643,
-            "value": "The value of !Date.prototype.hasOwnProperty('setUTCMilliseconds') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'setUTCMilliseconds\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('setUTCMilliseconds') is expected to be true"
           }
         ],
         "optional": false

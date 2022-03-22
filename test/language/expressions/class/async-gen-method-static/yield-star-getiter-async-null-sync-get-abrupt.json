@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1376,
             "end": 1377,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -190,8 +189,7 @@
                             "type": "Literal",
                             "start": 1505,
                             "end": 1506,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -236,8 +234,7 @@
             "type": "Literal",
             "start": 1551,
             "end": 1552,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -315,8 +312,7 @@
                               "type": "Literal",
                               "start": 1610,
                               "end": 1611,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         },
@@ -356,8 +352,7 @@
                                 "type": "Literal",
                                 "start": 1658,
                                 "end": 1689,
-                                "value": "abrupt completion closes iter",
-                                "raw": "'abrupt completion closes iter'"
+                                "value": "abrupt completion closes iter"
                               }
                             ]
                           }
@@ -532,8 +527,7 @@
                             "type": "Literal",
                             "start": 1784,
                             "end": 1816,
-                            "value": "Promise incorrectly fulfilled.",
-                            "raw": "'Promise incorrectly fulfilled.'"
+                            "value": "Promise incorrectly fulfilled."
                           }
                         ]
                       }
@@ -606,8 +600,7 @@
                             "type": "Literal",
                             "start": 1859,
                             "end": 1874,
-                            "value": "reject reason",
-                            "raw": "'reject reason'"
+                            "value": "reject reason"
                           }
                         ],
                         "optional": false
@@ -651,8 +644,7 @@
                             "type": "Literal",
                             "start": 1903,
                             "end": 1904,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -823,8 +815,7 @@
                                             "type": "Literal",
                                             "start": 1983,
                                             "end": 2010,
-                                            "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "value": "the iterator is completed"
                                           }
                                         ],
                                         "optional": false
@@ -874,8 +865,7 @@
                                             "type": "Literal",
                                             "start": 2052,
                                             "end": 2072,
-                                            "value": "value is undefined",
-                                            "raw": "'value is undefined'"
+                                            "value": "value is undefined"
                                           }
                                         ],
                                         "optional": false
@@ -977,8 +967,7 @@
             "type": "Literal",
             "start": 2146,
             "end": 2147,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

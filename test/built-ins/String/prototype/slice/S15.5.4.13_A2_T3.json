@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 321,
                 "end": 323,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ]
           }
@@ -78,15 +77,13 @@
               "type": "Literal",
               "start": 435,
               "end": 436,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 438,
               "end": 439,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -96,8 +93,7 @@
           "type": "Literal",
           "start": 445,
           "end": 447,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       },
       "consequent": {
@@ -128,8 +124,7 @@
                     "type": "Literal",
                     "start": 476,
                     "end": 545,
-                    "value": "#1: __string = new String(\"\"); __string.slice(1,0) === \"\". Actual: ",
-                    "raw": "'#1: __string = new String(\"\"); __string.slice(1,0) === \"\". Actual: '"
+                    "value": "#1: __string = new String(\"\"); __string.slice(1,0) === \"\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -160,15 +155,13 @@
                         "type": "Literal",
                         "start": 563,
                         "end": 564,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 566,
                         "end": 567,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false

@@ -31,8 +31,7 @@
             "type": "Literal",
             "start": 414,
             "end": 415,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         {
@@ -68,8 +67,7 @@
                   "type": "Literal",
                   "start": 464,
                   "end": 465,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             }
@@ -108,8 +106,7 @@
             "type": "Literal",
             "start": 552,
             "end": 702,
-            "value": "function /* a */ f /* b */ ( /* c */ a /* d */ = /* e */ 0 /* f */ , /* g */ { /* h */ b /* i */ = /* j */ 0 /* k */ } /* l */ ) /* m */ { /* n */ }",
-            "raw": "\"function /* a */ f /* b */ ( /* c */ a /* d */ = /* e */ 0 /* f */ , /* g */ { /* h */ b /* i */ = /* j */ 0 /* k */ } /* l */ ) /* m */ { /* n */ }\""
+            "value": "function /* a */ f /* b */ ( /* c */ a /* d */ = /* e */ 0 /* f */ , /* g */ { /* h */ b /* i */ = /* j */ 0 /* k */ } /* l */ ) /* m */ { /* n */ }"
           }
         ],
         "optional": false

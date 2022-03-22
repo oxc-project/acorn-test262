@@ -75,15 +75,13 @@
                   "type": "Literal",
                   "start": 294,
                   "end": 304,
-                  "value": "Infinity",
-                  "raw": "\"Infinity\""
+                  "value": "Infinity"
                 },
                 {
                   "type": "Literal",
                   "start": 306,
                   "end": 343,
-                  "value": "The value of prop is not \"Infinity\"",
-                  "raw": "'The value of prop is not \"Infinity\"'"
+                  "value": "The value of prop is not \"Infinity\""
                 }
               ],
               "optional": false

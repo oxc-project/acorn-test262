@@ -74,8 +74,7 @@
           "type": "Literal",
           "start": 510,
           "end": 516,
-          "value": "some",
-          "raw": "\"some\""
+          "value": "some"
         }
       }
     },
@@ -142,8 +141,7 @@
           "type": "Literal",
           "start": 680,
           "end": 686,
-          "value": "some",
-          "raw": "\"some\""
+          "value": "some"
         }
       },
       "consequent": {
@@ -174,8 +172,7 @@
                     "type": "Literal",
                     "start": 714,
                     "end": 821,
-                    "value": "#1: function FooObj(){}; FooObj.prototype.prop=\"some\"; var foo= new FooObj; foo.prop === \"some\". Actual: ",
-                    "raw": "'#1: function FooObj(){}; FooObj.prototype.prop=\"some\"; var foo= new FooObj; foo.prop === \"some\". Actual: '"
+                    "value": "#1: function FooObj(){}; FooObj.prototype.prop=\"some\"; var foo= new FooObj; foo.prop === \"some\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -310,8 +307,7 @@
           "type": "Literal",
           "start": 1110,
           "end": 1116,
-          "value": "some",
-          "raw": "\"some\""
+          "value": "some"
         }
       },
       "consequent": {
@@ -342,8 +338,7 @@
                     "type": "Literal",
                     "start": 1144,
                     "end": 1292,
-                    "value": "#2: function FooObj(){}; FooObj.prototype.prop=\"some\"; var foo= new FooObj; foo.prop=true; var foo__ = new FooObj; foo__.prop === \"some\". Actual: ",
-                    "raw": "'#2: function FooObj(){}; FooObj.prototype.prop=\"some\"; var foo= new FooObj; foo.prop=true; var foo__ = new FooObj; foo__.prop === \"some\". Actual: '"
+                    "value": "#2: function FooObj(){}; FooObj.prototype.prop=\"some\"; var foo= new FooObj; foo.prop=true; var foo__ = new FooObj; foo__.prop === \"some\". Actual: "
                   },
                   "operator": "+",
                   "right": {

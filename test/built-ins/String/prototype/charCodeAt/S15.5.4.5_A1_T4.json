@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 446,
               "end": 453,
-              "value": "smart",
-              "raw": "\"smart\""
+              "value": "smart"
             },
             "property": {
               "type": "Identifier",
@@ -43,8 +42,7 @@
           "type": "Literal",
           "start": 471,
           "end": 475,
-          "value": 115,
-          "raw": "0x73"
+          "value": 115
         }
       },
       "consequent": {
@@ -75,8 +73,7 @@
                     "type": "Literal",
                     "start": 504,
                     "end": 573,
-                    "value": "#1: \"smart\".charCodeAt() === 0x73. Actual: \"smart\".charCodeAt() ===",
-                    "raw": "'#1: \"smart\".charCodeAt() === 0x73. Actual: \"smart\".charCodeAt() ==='"
+                    "value": "#1: \"smart\".charCodeAt() === 0x73. Actual: \"smart\".charCodeAt() ==="
                   },
                   "operator": "+",
                   "right": {
@@ -95,8 +92,7 @@
                           "type": "Literal",
                           "start": 577,
                           "end": 584,
-                          "value": "smart",
-                          "raw": "\"smart\""
+                          "value": "smart"
                         },
                         "property": {
                           "type": "Identifier",

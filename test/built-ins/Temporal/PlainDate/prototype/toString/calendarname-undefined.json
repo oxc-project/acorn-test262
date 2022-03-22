@@ -59,8 +59,7 @@
                           "type": "Literal",
                           "start": 683,
                           "end": 691,
-                          "value": "custom",
-                          "raw": "\"custom\""
+                          "value": "custom"
                         }
                       }
                     ]
@@ -116,22 +115,19 @@
                 "type": "Literal",
                 "start": 735,
                 "end": 739,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 741,
                 "end": 742,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 744,
                 "end": 745,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -182,22 +178,19 @@
                 "type": "Literal",
                 "start": 785,
                 "end": 789,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 791,
                 "end": 792,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 794,
                 "end": 795,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -243,8 +236,7 @@
                     "type": "Literal",
                     "start": 821,
                     "end": 833,
-                    "value": "2000-05-02",
-                    "raw": "\"2000-05-02\""
+                    "value": "2000-05-02"
                   }
                 ]
               },
@@ -263,8 +255,7 @@
                     "type": "Literal",
                     "start": 846,
                     "end": 871,
-                    "value": "2000-05-02[u-ca=custom]",
-                    "raw": "\"2000-05-02[u-ca=custom]\""
+                    "value": "2000-05-02[u-ca=custom]"
                   }
                 ]
               }
@@ -432,8 +423,7 @@
                         "type": "Literal",
                         "start": 1010,
                         "end": 1047,
-                        "value": "default calendarName option is auto",
-                        "raw": "\"default calendarName option is auto\""
+                        "value": "default calendarName option is auto"
                       }
                     ],
                     "optional": false
@@ -535,8 +525,7 @@
                         "type": "Literal",
                         "start": 1128,
                         "end": 1165,
-                        "value": "default calendarName option is auto",
-                        "raw": "\"default calendarName option is auto\""
+                        "value": "default calendarName option is auto"
                       }
                     ],
                     "optional": false

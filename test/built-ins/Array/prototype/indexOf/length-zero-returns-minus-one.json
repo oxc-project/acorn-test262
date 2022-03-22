@@ -69,8 +69,7 @@
                               "type": "Literal",
                               "start": 466,
                               "end": 521,
-                              "value": "Length should be checked before ToInteger(fromIndex).",
-                              "raw": "\"Length should be checked before ToInteger(fromIndex).\""
+                              "value": "Length should be checked before ToInteger(fromIndex)."
                             }
                           ]
                         }
@@ -142,8 +141,7 @@
                 "type": "Literal",
                 "start": 561,
                 "end": 562,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -158,8 +156,7 @@
               "type": "Literal",
               "start": 566,
               "end": 567,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],
@@ -222,8 +219,7 @@
                 "type": "Literal",
                 "start": 598,
                 "end": 599,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -244,8 +240,7 @@
               "type": "Literal",
               "start": 614,
               "end": 615,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],

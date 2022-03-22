@@ -45,8 +45,7 @@
                       "type": "Literal",
                       "start": 588,
                       "end": 610,
-                      "value": "-000001-07-01T00:00Z",
-                      "raw": "'-000001-07-01T00:00Z'"
+                      "value": "-000001-07-01T00:00Z"
                     }
                   ]
                 }
@@ -109,8 +108,7 @@
                       "type": "Literal",
                       "start": 674,
                       "end": 696,
-                      "value": "-000012-07-01T00:00Z",
-                      "raw": "'-000012-07-01T00:00Z'"
+                      "value": "-000012-07-01T00:00Z"
                     }
                   ]
                 }
@@ -173,8 +171,7 @@
                       "type": "Literal",
                       "start": 760,
                       "end": 782,
-                      "value": "-000123-07-01T00:00Z",
-                      "raw": "'-000123-07-01T00:00Z'"
+                      "value": "-000123-07-01T00:00Z"
                     }
                   ]
                 }
@@ -237,8 +234,7 @@
                       "type": "Literal",
                       "start": 846,
                       "end": 868,
-                      "value": "-001234-07-01T00:00Z",
-                      "raw": "'-001234-07-01T00:00Z'"
+                      "value": "-001234-07-01T00:00Z"
                     }
                   ]
                 }
@@ -301,8 +297,7 @@
                       "type": "Literal",
                       "start": 932,
                       "end": 954,
-                      "value": "-012345-07-01T00:00Z",
-                      "raw": "'-012345-07-01T00:00Z'"
+                      "value": "-012345-07-01T00:00Z"
                     }
                   ]
                 }
@@ -365,8 +360,7 @@
                       "type": "Literal",
                       "start": 1018,
                       "end": 1040,
-                      "value": "-123456-07-01T00:00Z",
-                      "raw": "'-123456-07-01T00:00Z'"
+                      "value": "-123456-07-01T00:00Z"
                     }
                   ]
                 }
@@ -447,8 +441,7 @@
                   "type": "Literal",
                   "start": 1230,
                   "end": 1233,
-                  "value": " ",
-                  "raw": "' '"
+                  "value": " "
                 }
               ],
               "optional": false
@@ -457,8 +450,7 @@
               "type": "Literal",
               "start": 1235,
               "end": 1236,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -467,15 +459,13 @@
             "type": "Literal",
             "start": 1239,
             "end": 1246,
-            "value": "-0001",
-            "raw": "'-0001'"
+            "value": "-0001"
           },
           {
             "type": "Literal",
             "start": 1252,
             "end": 1310,
-            "value": "Date.prototype.toUTCString serializes year -1 to \"-0001\"",
-            "raw": "'Date.prototype.toUTCString serializes year -1 to \"-0001\"'"
+            "value": "Date.prototype.toUTCString serializes year -1 to \"-0001\""
           }
         ],
         "optional": false
@@ -541,8 +531,7 @@
                   "type": "Literal",
                   "start": 1366,
                   "end": 1369,
-                  "value": " ",
-                  "raw": "' '"
+                  "value": " "
                 }
               ],
               "optional": false
@@ -551,8 +540,7 @@
               "type": "Literal",
               "start": 1371,
               "end": 1372,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -561,15 +549,13 @@
             "type": "Literal",
             "start": 1375,
             "end": 1382,
-            "value": "-0012",
-            "raw": "'-0012'"
+            "value": "-0012"
           },
           {
             "type": "Literal",
             "start": 1388,
             "end": 1447,
-            "value": "Date.prototype.toUTCString serializes year -12 to \"-0012\"",
-            "raw": "'Date.prototype.toUTCString serializes year -12 to \"-0012\"'"
+            "value": "Date.prototype.toUTCString serializes year -12 to \"-0012\""
           }
         ],
         "optional": false
@@ -635,8 +621,7 @@
                   "type": "Literal",
                   "start": 1503,
                   "end": 1506,
-                  "value": " ",
-                  "raw": "' '"
+                  "value": " "
                 }
               ],
               "optional": false
@@ -645,8 +630,7 @@
               "type": "Literal",
               "start": 1508,
               "end": 1509,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -655,15 +639,13 @@
             "type": "Literal",
             "start": 1512,
             "end": 1519,
-            "value": "-0123",
-            "raw": "'-0123'"
+            "value": "-0123"
           },
           {
             "type": "Literal",
             "start": 1525,
             "end": 1585,
-            "value": "Date.prototype.toUTCString serializes year -123 to \"-0123\"",
-            "raw": "'Date.prototype.toUTCString serializes year -123 to \"-0123\"'"
+            "value": "Date.prototype.toUTCString serializes year -123 to \"-0123\""
           }
         ],
         "optional": false
@@ -729,8 +711,7 @@
                   "type": "Literal",
                   "start": 1641,
                   "end": 1644,
-                  "value": " ",
-                  "raw": "' '"
+                  "value": " "
                 }
               ],
               "optional": false
@@ -739,8 +720,7 @@
               "type": "Literal",
               "start": 1646,
               "end": 1647,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -749,15 +729,13 @@
             "type": "Literal",
             "start": 1650,
             "end": 1657,
-            "value": "-1234",
-            "raw": "'-1234'"
+            "value": "-1234"
           },
           {
             "type": "Literal",
             "start": 1663,
             "end": 1724,
-            "value": "Date.prototype.toUTCString serializes year -1234 to \"-1234\"",
-            "raw": "'Date.prototype.toUTCString serializes year -1234 to \"-1234\"'"
+            "value": "Date.prototype.toUTCString serializes year -1234 to \"-1234\""
           }
         ],
         "optional": false
@@ -823,8 +801,7 @@
                   "type": "Literal",
                   "start": 1780,
                   "end": 1783,
-                  "value": " ",
-                  "raw": "' '"
+                  "value": " "
                 }
               ],
               "optional": false
@@ -833,8 +810,7 @@
               "type": "Literal",
               "start": 1785,
               "end": 1786,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -843,15 +819,13 @@
             "type": "Literal",
             "start": 1789,
             "end": 1797,
-            "value": "-12345",
-            "raw": "'-12345'"
+            "value": "-12345"
           },
           {
             "type": "Literal",
             "start": 1803,
             "end": 1866,
-            "value": "Date.prototype.toUTCString serializes year -12345 to \"-12345\"",
-            "raw": "'Date.prototype.toUTCString serializes year -12345 to \"-12345\"'"
+            "value": "Date.prototype.toUTCString serializes year -12345 to \"-12345\""
           }
         ],
         "optional": false
@@ -917,8 +891,7 @@
                   "type": "Literal",
                   "start": 1922,
                   "end": 1925,
-                  "value": " ",
-                  "raw": "' '"
+                  "value": " "
                 }
               ],
               "optional": false
@@ -927,8 +900,7 @@
               "type": "Literal",
               "start": 1927,
               "end": 1928,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -937,15 +909,13 @@
             "type": "Literal",
             "start": 1931,
             "end": 1940,
-            "value": "-123456",
-            "raw": "'-123456'"
+            "value": "-123456"
           },
           {
             "type": "Literal",
             "start": 1946,
             "end": 2011,
-            "value": "Date.prototype.toUTCString serializes year -123456 to \"-123456\"",
-            "raw": "'Date.prototype.toUTCString serializes year -123456 to \"-123456\"'"
+            "value": "Date.prototype.toUTCString serializes year -123456 to \"-123456\""
           }
         ],
         "optional": false

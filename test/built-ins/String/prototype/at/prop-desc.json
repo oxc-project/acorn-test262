@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 406,
             "end": 416,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -152,15 +151,13 @@
             "type": "Literal",
             "start": 470,
             "end": 480,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 484,
             "end": 541,
-            "value": "The value of `typeof String.prototype.at` is \"function\"",
-            "raw": "'The value of `typeof String.prototype.at` is \"function\"'"
+            "value": "The value of `typeof String.prototype.at` is \"function\""
           }
         ],
         "optional": false
@@ -204,8 +201,7 @@
             "type": "Literal",
             "start": 579,
             "end": 583,
-            "value": "at",
-            "raw": "'at'"
+            "value": "at"
           },
           {
             "type": "ObjectExpression",

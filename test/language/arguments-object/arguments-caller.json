@@ -105,8 +105,7 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 345,
-                "value": "caller",
-                "raw": "'caller'"
+                "value": "caller"
               }
             ],
             "optional": false
@@ -121,8 +120,7 @@
             "type": "Literal",
             "start": 359,
             "end": 392,
-            "value": "arguments.caller does not exist",
-            "raw": "'arguments.caller does not exist'"
+            "value": "arguments.caller does not exist"
           }
         ],
         "optional": false

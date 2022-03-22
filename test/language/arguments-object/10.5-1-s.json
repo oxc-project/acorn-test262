@@ -101,8 +101,7 @@
                                     "type": "Literal",
                                     "start": 334,
                                     "end": 350,
-                                    "value": "arguments = 10",
-                                    "raw": "\"arguments = 10\""
+                                    "value": "arguments = 10"
                                   }
                                 ],
                                 "optional": false
@@ -117,8 +116,7 @@
                         "type": "Literal",
                         "start": 368,
                         "end": 370,
-                        "value": 30,
-                        "raw": "30"
+                        "value": 30
                       }
                     ],
                     "optional": false

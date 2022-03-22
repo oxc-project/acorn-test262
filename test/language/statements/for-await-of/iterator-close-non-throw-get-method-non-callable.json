@@ -235,8 +235,7 @@
             "type": "Literal",
             "start": 1112,
             "end": 1113,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -334,8 +333,7 @@
                                 "type": "Literal",
                                 "start": 1214,
                                 "end": 1215,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           },
@@ -439,8 +437,7 @@
                               "type": "Literal",
                               "start": 1295,
                               "end": 1330,
-                              "value": "Promise should be rejected, got: ",
-                              "raw": "\"Promise should be rejected, got: \""
+                              "value": "Promise should be rejected, got: "
                             },
                             "operator": "+",
                             "right": {
@@ -572,15 +569,13 @@
                             "type": "Literal",
                             "start": 1447,
                             "end": 1448,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1450,
                             "end": 1478,
-                            "value": "The loop body is evaluated",
-                            "raw": "\"The loop body is evaluated\""
+                            "value": "The loop body is evaluated"
                           }
                         ],
                         "optional": false

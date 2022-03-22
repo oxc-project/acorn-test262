@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 979,
             "end": 989,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 993,
             "end": 1054,
-            "value": "typeof Intl.RelativeTimeFormat.prototype.format is function",
-            "raw": "\"typeof Intl.RelativeTimeFormat.prototype.format is function\""
+            "value": "typeof Intl.RelativeTimeFormat.prototype.format is function"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 1109,
             "end": 1117,
-            "value": "format",
-            "raw": "\"format\""
+            "value": "format"
           },
           {
             "type": "ObjectExpression",

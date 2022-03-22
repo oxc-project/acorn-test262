@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 430,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ],
             "optional": false

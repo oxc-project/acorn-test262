@@ -152,8 +152,7 @@
                 "type": "Literal",
                 "start": 479,
                 "end": 484,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               },
               "operator": "in",
               "right": {
@@ -215,8 +214,7 @@
                 "type": "Literal",
                 "start": 518,
                 "end": 526,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               },
               "operator": "in",
               "right": {

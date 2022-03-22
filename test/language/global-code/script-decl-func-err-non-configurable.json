@@ -40,8 +40,7 @@
             "type": "Literal",
             "start": 1373,
             "end": 1380,
-            "value": "data1",
-            "raw": "'data1'"
+            "value": "data1"
           },
           {
             "type": "ObjectExpression",
@@ -87,8 +86,7 @@
                   "type": "Literal",
                   "start": 1414,
                   "end": 1415,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -179,8 +177,7 @@
             "type": "Literal",
             "start": 1490,
             "end": 1497,
-            "value": "data2",
-            "raw": "'data2'"
+            "value": "data2"
           },
           {
             "type": "ObjectExpression",
@@ -226,8 +223,7 @@
                   "type": "Literal",
                   "start": 1531,
                   "end": 1532,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -318,8 +314,7 @@
             "type": "Literal",
             "start": 1607,
             "end": 1614,
-            "value": "data3",
-            "raw": "'data3'"
+            "value": "data3"
           },
           {
             "type": "ObjectExpression",
@@ -365,8 +360,7 @@
                   "type": "Literal",
                   "start": 1648,
                   "end": 1649,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -457,8 +451,7 @@
             "type": "Literal",
             "start": 1725,
             "end": 1736,
-            "value": "accessor1",
-            "raw": "'accessor1'"
+            "value": "accessor1"
           },
           {
             "type": "ObjectExpression",
@@ -614,8 +607,7 @@
             "type": "Literal",
             "start": 1878,
             "end": 1889,
-            "value": "accessor2",
-            "raw": "'accessor2'"
+            "value": "accessor2"
           },
           {
             "type": "ObjectExpression",
@@ -814,8 +806,7 @@
                         "type": "Literal",
                         "start": 2054,
                         "end": 2082,
-                        "value": "var x; function data1() {}",
-                        "raw": "'var x; function data1() {}'"
+                        "value": "var x; function data1() {}"
                       }
                     ],
                     "optional": false
@@ -828,8 +819,7 @@
             "type": "Literal",
             "start": 2088,
             "end": 2128,
-            "value": "writable, non-enumerable data property",
-            "raw": "'writable, non-enumerable data property'"
+            "value": "writable, non-enumerable data property"
           }
         ],
         "optional": false
@@ -901,8 +891,7 @@
             "type": "Literal",
             "start": 2182,
             "end": 2247,
-            "value": "bindings not created for writable, non-enumerable data property",
-            "raw": "'bindings not created for writable, non-enumerable data property'"
+            "value": "bindings not created for writable, non-enumerable data property"
           }
         ],
         "optional": false
@@ -988,8 +977,7 @@
                         "type": "Literal",
                         "start": 2307,
                         "end": 2335,
-                        "value": "var x; function data2() {}",
-                        "raw": "'var x; function data2() {}'"
+                        "value": "var x; function data2() {}"
                       }
                     ],
                     "optional": false
@@ -1002,8 +990,7 @@
             "type": "Literal",
             "start": 2341,
             "end": 2381,
-            "value": "non-writable, enumerable data property",
-            "raw": "'non-writable, enumerable data property'"
+            "value": "non-writable, enumerable data property"
           }
         ],
         "optional": false
@@ -1075,8 +1062,7 @@
             "type": "Literal",
             "start": 2435,
             "end": 2500,
-            "value": "bindings not created for non-writable, enumerable data property",
-            "raw": "'bindings not created for non-writable, enumerable data property'"
+            "value": "bindings not created for non-writable, enumerable data property"
           }
         ],
         "optional": false
@@ -1162,8 +1148,7 @@
                         "type": "Literal",
                         "start": 2560,
                         "end": 2588,
-                        "value": "var x; function data3() {}",
-                        "raw": "'var x; function data3() {}'"
+                        "value": "var x; function data3() {}"
                       }
                     ],
                     "optional": false
@@ -1176,8 +1161,7 @@
             "type": "Literal",
             "start": 2594,
             "end": 2638,
-            "value": "non-writable, non-enumerable data property",
-            "raw": "'non-writable, non-enumerable data property'"
+            "value": "non-writable, non-enumerable data property"
           }
         ],
         "optional": false
@@ -1249,8 +1233,7 @@
             "type": "Literal",
             "start": 2692,
             "end": 2761,
-            "value": "bindings not created for non-writable, non-enumerable data property",
-            "raw": "'bindings not created for non-writable, non-enumerable data property'"
+            "value": "bindings not created for non-writable, non-enumerable data property"
           }
         ],
         "optional": false
@@ -1336,8 +1319,7 @@
                         "type": "Literal",
                         "start": 2821,
                         "end": 2853,
-                        "value": "var x; function accessor1() {}",
-                        "raw": "'var x; function accessor1() {}'"
+                        "value": "var x; function accessor1() {}"
                       }
                     ],
                     "optional": false
@@ -1350,8 +1332,7 @@
             "type": "Literal",
             "start": 2859,
             "end": 2889,
-            "value": "enumerable accessor property",
-            "raw": "'enumerable accessor property'"
+            "value": "enumerable accessor property"
           }
         ],
         "optional": false
@@ -1423,8 +1404,7 @@
             "type": "Literal",
             "start": 2943,
             "end": 2997,
-            "value": "bindings not created for enumerableaccessor property",
-            "raw": "'bindings not created for enumerableaccessor property'"
+            "value": "bindings not created for enumerableaccessor property"
           }
         ],
         "optional": false
@@ -1510,8 +1490,7 @@
                         "type": "Literal",
                         "start": 3057,
                         "end": 3089,
-                        "value": "var x; function accessor2() {}",
-                        "raw": "'var x; function accessor2() {}'"
+                        "value": "var x; function accessor2() {}"
                       }
                     ],
                     "optional": false
@@ -1524,8 +1503,7 @@
             "type": "Literal",
             "start": 3095,
             "end": 3129,
-            "value": "non-enumerable accessor property",
-            "raw": "'non-enumerable accessor property'"
+            "value": "non-enumerable accessor property"
           }
         ],
         "optional": false
@@ -1597,8 +1575,7 @@
             "type": "Literal",
             "start": 3183,
             "end": 3241,
-            "value": "bindings not created for non-enumerableaccessor property",
-            "raw": "'bindings not created for non-enumerableaccessor property'"
+            "value": "bindings not created for non-enumerableaccessor property"
           }
         ],
         "optional": false

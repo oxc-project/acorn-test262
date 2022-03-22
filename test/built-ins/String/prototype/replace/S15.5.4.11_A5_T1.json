@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 329,
             "end": 357,
-            "value": "aaaaaaaaaa,aaaaaaaaaaaaaaa",
-            "raw": "\"aaaaaaaaaa,aaaaaaaaaaaaaaa\""
+            "value": "aaaaaaaaaa,aaaaaaaaaaaaaaa"
           }
         }
       ],
@@ -49,7 +48,6 @@
             "start": 375,
             "end": 390,
             "value": {},
-            "raw": "/^(a+)\\1*,\\1+$/",
             "regex": {
               "pattern": "^(a+)\\1*,\\1+$",
               "flags": ""
@@ -78,8 +76,7 @@
             "type": "Literal",
             "start": 405,
             "end": 409,
-            "value": "$1",
-            "raw": "\"$1\""
+            "value": "$1"
           }
         }
       ],
@@ -137,8 +134,7 @@
           "type": "Literal",
           "start": 542,
           "end": 549,
-          "value": "aaaaa",
-          "raw": "'aaaaa'"
+          "value": "aaaaa"
         }
       },
       "consequent": {
@@ -169,8 +165,7 @@
                     "type": "Literal",
                     "start": 578,
                     "end": 734,
-                    "value": "#1: var __str = \"aaaaaaaaaa,aaaaaaaaaaaaaaa\"; var __pattern = /^(a+)\\1*,\\1+$/; var __repl = \"$1\"; __str.replace(__pattern, __repl)==='aaaaa'. Actual: ",
-                    "raw": "'#1: var __str = \"aaaaaaaaaa,aaaaaaaaaaaaaaa\"; var __pattern = /^(a+)\\\\1*,\\\\1+$/; var __repl = \"$1\"; __str.replace(__pattern, __repl)===\\'aaaaa\\'. Actual: '"
+                    "value": "#1: var __str = \"aaaaaaaaaa,aaaaaaaaaaaaaaa\"; var __pattern = /^(a+)\\1*,\\1+$/; var __repl = \"$1\"; __str.replace(__pattern, __repl)==='aaaaa'. Actual: "
                   },
                   "operator": "+",
                   "right": {

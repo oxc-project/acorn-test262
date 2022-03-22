@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 675,
                 "end": 684,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -111,8 +110,7 @@
                 "type": "Literal",
                 "start": 720,
                 "end": 732,
-                "value": "2019-03-18",
-                "raw": "\"2019-03-18\""
+                "value": "2019-03-18"
               }
             ],
             "optional": false
@@ -121,15 +119,13 @@
             "type": "Literal",
             "start": 735,
             "end": 738,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 740,
             "end": 786,
-            "value": "cal.daysInYear(\"2019-03-18\") must return 365",
-            "raw": "'cal.daysInYear(\"2019-03-18\") must return 365'"
+            "value": "cal.daysInYear(\"2019-03-18\") must return 365"
           }
         ],
         "optional": false
@@ -191,8 +187,7 @@
                 "type": "Literal",
                 "start": 821,
                 "end": 833,
-                "value": "2020-03-18",
-                "raw": "\"2020-03-18\""
+                "value": "2020-03-18"
               }
             ],
             "optional": false
@@ -201,15 +196,13 @@
             "type": "Literal",
             "start": 836,
             "end": 839,
-            "value": 366,
-            "raw": "366"
+            "value": 366
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 887,
-            "value": "cal.daysInYear(\"2020-03-18\") must return 366",
-            "raw": "'cal.daysInYear(\"2020-03-18\") must return 366'"
+            "value": "cal.daysInYear(\"2020-03-18\") must return 366"
           }
         ],
         "optional": false
@@ -271,8 +264,7 @@
                 "type": "Literal",
                 "start": 922,
                 "end": 934,
-                "value": "2021-03-18",
-                "raw": "\"2021-03-18\""
+                "value": "2021-03-18"
               }
             ],
             "optional": false
@@ -281,15 +273,13 @@
             "type": "Literal",
             "start": 937,
             "end": 940,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 942,
             "end": 988,
-            "value": "cal.daysInYear(\"2021-03-18\") must return 365",
-            "raw": "'cal.daysInYear(\"2021-03-18\") must return 365'"
+            "value": "cal.daysInYear(\"2021-03-18\") must return 365"
           }
         ],
         "optional": false
@@ -351,8 +341,7 @@
                 "type": "Literal",
                 "start": 1023,
                 "end": 1035,
-                "value": "2022-03-18",
-                "raw": "\"2022-03-18\""
+                "value": "2022-03-18"
               }
             ],
             "optional": false
@@ -361,15 +350,13 @@
             "type": "Literal",
             "start": 1038,
             "end": 1041,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 1043,
             "end": 1089,
-            "value": "cal.daysInYear(\"2022-03-18\") must return 365",
-            "raw": "'cal.daysInYear(\"2022-03-18\") must return 365'"
+            "value": "cal.daysInYear(\"2022-03-18\") must return 365"
           }
         ],
         "optional": false
@@ -431,8 +418,7 @@
                 "type": "Literal",
                 "start": 1124,
                 "end": 1136,
-                "value": "2023-03-18",
-                "raw": "\"2023-03-18\""
+                "value": "2023-03-18"
               }
             ],
             "optional": false
@@ -441,15 +427,13 @@
             "type": "Literal",
             "start": 1139,
             "end": 1142,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 1144,
             "end": 1190,
-            "value": "cal.daysInYear(\"2023-03-18\") must return 365",
-            "raw": "'cal.daysInYear(\"2023-03-18\") must return 365'"
+            "value": "cal.daysInYear(\"2023-03-18\") must return 365"
           }
         ],
         "optional": false
@@ -511,8 +495,7 @@
                 "type": "Literal",
                 "start": 1225,
                 "end": 1237,
-                "value": "2024-03-18",
-                "raw": "\"2024-03-18\""
+                "value": "2024-03-18"
               }
             ],
             "optional": false
@@ -521,15 +504,13 @@
             "type": "Literal",
             "start": 1240,
             "end": 1243,
-            "value": 366,
-            "raw": "366"
+            "value": 366
           },
           {
             "type": "Literal",
             "start": 1245,
             "end": 1291,
-            "value": "cal.daysInYear(\"2024-03-18\") must return 366",
-            "raw": "'cal.daysInYear(\"2024-03-18\") must return 366'"
+            "value": "cal.daysInYear(\"2024-03-18\") must return 366"
           }
         ],
         "optional": false
@@ -591,8 +572,7 @@
                 "type": "Literal",
                 "start": 1326,
                 "end": 1338,
-                "value": "2025-03-18",
-                "raw": "\"2025-03-18\""
+                "value": "2025-03-18"
               }
             ],
             "optional": false
@@ -601,15 +581,13 @@
             "type": "Literal",
             "start": 1341,
             "end": 1344,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 1346,
             "end": 1392,
-            "value": "cal.daysInYear(\"2025-03-18\") must return 365",
-            "raw": "'cal.daysInYear(\"2025-03-18\") must return 365'"
+            "value": "cal.daysInYear(\"2025-03-18\") must return 365"
           }
         ],
         "optional": false
@@ -671,8 +649,7 @@
                 "type": "Literal",
                 "start": 1427,
                 "end": 1439,
-                "value": "2026-03-18",
-                "raw": "\"2026-03-18\""
+                "value": "2026-03-18"
               }
             ],
             "optional": false
@@ -681,15 +658,13 @@
             "type": "Literal",
             "start": 1442,
             "end": 1445,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 1447,
             "end": 1493,
-            "value": "cal.daysInYear(\"2026-03-18\") must return 365",
-            "raw": "'cal.daysInYear(\"2026-03-18\") must return 365'"
+            "value": "cal.daysInYear(\"2026-03-18\") must return 365"
           }
         ],
         "optional": false

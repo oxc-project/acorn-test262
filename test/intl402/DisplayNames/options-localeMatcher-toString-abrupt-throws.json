@@ -180,8 +180,7 @@
                         "type": "Literal",
                         "start": 1116,
                         "end": 1120,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",
@@ -199,8 +198,7 @@
             "type": "Literal",
             "start": 1135,
             "end": 1150,
-            "value": "from toString",
-            "raw": "'from toString'"
+            "value": "from toString"
           }
         ],
         "optional": false
@@ -393,8 +391,7 @@
                         "type": "Literal",
                         "start": 1315,
                         "end": 1319,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",
@@ -412,8 +409,7 @@
             "type": "Literal",
             "start": 1334,
             "end": 1348,
-            "value": "from valueOf",
-            "raw": "'from valueOf'"
+            "value": "from valueOf"
           }
         ],
         "optional": false
@@ -598,8 +594,7 @@
                         "type": "Literal",
                         "start": 1503,
                         "end": 1507,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",
@@ -617,8 +612,7 @@
             "type": "Literal",
             "start": 1522,
             "end": 1540,
-            "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "value": "from ToPrimitive"
           }
         ],
         "optional": false
@@ -747,8 +741,7 @@
                         "type": "Literal",
                         "start": 1636,
                         "end": 1640,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",
@@ -766,8 +759,7 @@
             "type": "Literal",
             "start": 1655,
             "end": 1669,
-            "value": "symbol value",
-            "raw": "'symbol value'"
+            "value": "symbol value"
           }
         ],
         "optional": false

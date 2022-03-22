@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 264,
                 "end": 268,
-                "value": "66",
-                "raw": "'66'"
+                "value": "66"
               }
             ],
             "optional": false
@@ -75,8 +74,7 @@
           "type": "Literal",
           "start": 280,
           "end": 281,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -137,8 +135,7 @@
             "type": "Literal",
             "start": 318,
             "end": 385,
-            "value": "The value of `sym.a` is `undefined`, after executing `sym.a = 0;`",
-            "raw": "\"The value of `sym.a` is `undefined`, after executing `sym.a = 0;`\""
+            "value": "The value of `sym.a` is `undefined`, after executing `sym.a = 0;`"
           }
         ],
         "optional": false
@@ -171,16 +168,14 @@
               "type": "Literal",
               "start": 393,
               "end": 396,
-              "value": "a",
-              "raw": "'a'"
+              "value": "a"
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 399,
               "end": 402,
-              "value": "b",
-              "raw": "'b'"
+              "value": "b"
             }
           },
           "computed": true,
@@ -190,8 +185,7 @@
           "type": "Literal",
           "start": 406,
           "end": 407,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -241,16 +235,14 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 433,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 436,
                 "end": 439,
-                "value": "b",
-                "raw": "'b'"
+                "value": "b"
               }
             },
             "computed": true,
@@ -266,8 +258,7 @@
             "type": "Literal",
             "start": 453,
             "end": 538,
-            "value": "The value of `sym['a' + 'b']` is `undefined`, after executing `sym['a' + 'b'] = 0;`",
-            "raw": "\"The value of `sym['a' + 'b']` is `undefined`, after executing `sym['a' + 'b'] = 0;`\""
+            "value": "The value of `sym['a' + 'b']` is `undefined`, after executing `sym['a' + 'b'] = 0;`"
           }
         ],
         "optional": false
@@ -296,8 +287,7 @@
             "type": "Literal",
             "start": 546,
             "end": 548,
-            "value": 62,
-            "raw": "62"
+            "value": 62
           },
           "computed": true,
           "optional": false
@@ -306,8 +296,7 @@
           "type": "Literal",
           "start": 552,
           "end": 553,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -353,8 +342,7 @@
               "type": "Literal",
               "start": 576,
               "end": 578,
-              "value": 62,
-              "raw": "62"
+              "value": 62
             },
             "computed": true,
             "optional": false
@@ -369,8 +357,7 @@
             "type": "Literal",
             "start": 592,
             "end": 663,
-            "value": "The value of `sym[62]` is `undefined`, after executing `sym[62] = 0;`",
-            "raw": "\"The value of `sym[62]` is `undefined`, after executing `sym[62] = 0;`\""
+            "value": "The value of `sym[62]` is `undefined`, after executing `sym[62] = 0;`"
           }
         ],
         "optional": false

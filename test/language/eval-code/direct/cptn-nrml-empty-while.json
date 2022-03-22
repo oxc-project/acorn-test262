@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 332,
               "end": 347,
-              "value": "while(false);",
-              "raw": "\"while(false);\""
+              "value": "while(false);"
             }
           ],
           "optional": false
@@ -68,8 +67,7 @@
                     "type": "Literal",
                     "start": 391,
                     "end": 442,
-                    "value": "#1: eval(\"while(false);\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\"while(false);\") === undefined. Actual: '"
+                    "value": "#1: eval(\"while(false);\") === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -91,8 +89,7 @@
                           "type": "Literal",
                           "start": 451,
                           "end": 466,
-                          "value": "while(false);",
-                          "raw": "\"while(false);\""
+                          "value": "while(false);"
                         }
                       ],
                       "optional": false

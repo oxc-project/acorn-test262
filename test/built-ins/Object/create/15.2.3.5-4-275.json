@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 362,
             "end": 368,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 382,
             "end": 388,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -118,8 +116,7 @@
             "type": "Literal",
             "start": 436,
             "end": 441,
-            "value": "set",
-            "raw": "\"set\""
+            "value": "set"
           },
           {
             "type": "ObjectExpression",
@@ -356,8 +353,7 @@
             "type": "Literal",
             "start": 658,
             "end": 663,
-            "value": "set",
-            "raw": "\"set\""
+            "value": "set"
           },
           {
             "type": "ObjectExpression",
@@ -577,8 +573,7 @@
                 "type": "Literal",
                 "start": 845,
                 "end": 851,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -619,8 +614,7 @@
           "type": "Literal",
           "start": 869,
           "end": 883,
-          "value": "overrideData",
-          "raw": "\"overrideData\""
+          "value": "overrideData"
         }
       }
     },
@@ -649,8 +643,7 @@
             "type": "Literal",
             "start": 906,
             "end": 928,
-            "value": "hasProperty !== true",
-            "raw": "'hasProperty !== true'"
+            "value": "hasProperty !== true"
           }
         ],
         "optional": false
@@ -694,15 +687,13 @@
             "type": "Literal",
             "start": 955,
             "end": 969,
-            "value": "overrideData",
-            "raw": "\"overrideData\""
+            "value": "overrideData"
           },
           {
             "type": "Literal",
             "start": 971,
             "end": 978,
-            "value": "data1",
-            "raw": "'data1'"
+            "value": "data1"
           }
         ],
         "optional": false
@@ -746,15 +737,13 @@
             "type": "Literal",
             "start": 1005,
             "end": 1011,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           },
           {
             "type": "Literal",
             "start": 1013,
             "end": 1020,
-            "value": "data2",
-            "raw": "'data2'"
+            "value": "data2"
           }
         ],
         "optional": false

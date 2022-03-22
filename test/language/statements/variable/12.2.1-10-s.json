@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 270,
             "end": 282,
-            "value": "eval = 42;",
-            "raw": "'eval = 42;'"
+            "value": "eval = 42;"
           }
         ],
         "optional": false

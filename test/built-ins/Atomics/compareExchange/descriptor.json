@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 321,
             "end": 338,
-            "value": "compareExchange",
-            "raw": "'compareExchange'"
+            "value": "compareExchange"
           },
           {
             "type": "ObjectExpression",

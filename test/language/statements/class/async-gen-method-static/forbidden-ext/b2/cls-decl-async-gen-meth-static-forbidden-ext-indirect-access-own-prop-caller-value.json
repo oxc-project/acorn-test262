@@ -90,8 +90,7 @@
                     "type": "Literal",
                     "start": 1140,
                     "end": 1148,
-                    "value": "caller",
-                    "raw": "\"caller\""
+                    "value": "caller"
                   }
                 ],
                 "optional": false
@@ -145,8 +144,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1232,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -244,8 +242,7 @@
                               "type": "Literal",
                               "start": 1625,
                               "end": 1633,
-                              "value": "caller",
-                              "raw": "\"caller\""
+                              "value": "caller"
                             }
                           ],
                           "optional": false
@@ -345,8 +342,7 @@
                                 "type": "Literal",
                                 "start": 1728,
                                 "end": 1736,
-                                "value": "caller",
-                                "raw": "\"caller\""
+                                "value": "caller"
                               },
                               {
                                 "type": "ObjectExpression",
@@ -370,8 +366,7 @@
                                       "type": "Literal",
                                       "start": 1746,
                                       "end": 1747,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     },
                                     "kind": "init"
                                   }
@@ -508,15 +503,13 @@
                                 "type": "Literal",
                                 "start": 1871,
                                 "end": 1872,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               {
                                 "type": "Literal",
                                 "start": 1874,
                                 "end": 2016,
-                                "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
-                                "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
+                                "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
                               }
                             ],
                             "optional": false
@@ -766,15 +759,13 @@
                             "type": "Literal",
                             "start": 2628,
                             "end": 2629,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2631,
                             "end": 2656,
-                            "value": "function body evaluated",
-                            "raw": "'function body evaluated'"
+                            "value": "function body evaluated"
                           }
                         ],
                         "optional": false

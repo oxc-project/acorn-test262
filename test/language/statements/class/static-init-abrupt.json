@@ -200,9 +200,9 @@
                   ]
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1189,
-                  "end": 1223,
+                  "end": 1222,
                   "static": true,
                   "computed": false,
                   "key": {
@@ -399,8 +399,7 @@
             "type": "Literal",
             "start": 1385,
             "end": 1397,
-            "value": "same block",
-            "raw": "'same block'"
+            "value": "same block"
           }
         ],
         "optional": false
@@ -451,8 +450,7 @@
             "type": "Literal",
             "start": 1441,
             "end": 1459,
-            "value": "subsequent field",
-            "raw": "'subsequent field'"
+            "value": "subsequent field"
           }
         ],
         "optional": false
@@ -503,8 +501,7 @@
             "type": "Literal",
             "start": 1503,
             "end": 1521,
-            "value": "subsequent block",
-            "raw": "'subsequent block'"
+            "value": "subsequent block"
           }
         ],
         "optional": false

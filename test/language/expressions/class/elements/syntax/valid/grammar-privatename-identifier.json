@@ -30,13 +30,12 @@
               "end": 1387,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1321,
-                  "end": 1324,
-                  "static": false,
+                  "end": 1323,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1321,
                     "end": 1323,
                     "name": "$"
@@ -44,13 +43,12 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1327,
-                  "end": 1330,
-                  "static": false,
+                  "end": 1329,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1327,
                     "end": 1329,
                     "name": "_"
@@ -58,13 +56,12 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1333,
-                  "end": 1341,
-                  "static": false,
+                  "end": 1340,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1333,
                     "end": 1340,
                     "name": "o"
@@ -72,13 +69,12 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1344,
-                  "end": 1352,
-                  "static": false,
+                  "end": 1351,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1344,
                     "end": 1351,
                     "name": "℘"
@@ -86,13 +82,12 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1355,
-                  "end": 1369,
-                  "static": false,
+                  "end": 1368,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1355,
                     "end": 1368,
                     "name": "ZW_‌_NJ"
@@ -100,13 +95,12 @@
                   "value": null
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1372,
-                  "end": 1385,
-                  "static": false,
+                  "end": 1384,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1372,
                     "end": 1384,
                     "name": "ZW_‍_J"

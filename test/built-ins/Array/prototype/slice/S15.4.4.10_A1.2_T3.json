@@ -27,36 +27,31 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 349,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 352,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 361,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ]
           }
@@ -113,16 +108,14 @@
                   "type": "Literal",
                   "start": 383,
                   "end": 384,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               },
               {
                 "type": "Literal",
                 "start": 386,
                 "end": 387,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -240,16 +233,14 @@
               "type": "Literal",
               "start": 456,
               "end": 466,
-              "value": "[object ",
-              "raw": "\"[object \""
+              "value": "[object "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 469,
               "end": 476,
-              "value": "Array",
-              "raw": "\"Array\""
+              "value": "Array"
             }
           },
           "operator": "+",
@@ -257,8 +248,7 @@
             "type": "Literal",
             "start": 479,
             "end": 482,
-            "value": "]",
-            "raw": "\"]\""
+            "value": "]"
           }
         }
       },
@@ -290,8 +280,7 @@
                     "type": "Literal",
                     "start": 511,
                     "end": 592,
-                    "value": "#1: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr is Array object. Actual: ",
-                    "raw": "'#1: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr is Array object. Actual: '"
+                    "value": "#1: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr is Array object. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -365,8 +354,7 @@
           "type": "Literal",
           "start": 636,
           "end": 637,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -397,8 +385,7 @@
                     "type": "Literal",
                     "start": 666,
                     "end": 744,
-                    "value": "#2: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr.length === 1. Actual: ",
-                    "raw": "'#2: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr.length === 1. Actual: '"
+                    "value": "#2: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr.length === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -455,8 +442,7 @@
             "type": "Literal",
             "start": 773,
             "end": 774,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -466,8 +452,7 @@
           "type": "Literal",
           "start": 780,
           "end": 781,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -498,8 +483,7 @@
                     "type": "Literal",
                     "start": 810,
                     "end": 884,
-                    "value": "#3: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr[0] === 0. Actual: ",
-                    "raw": "'#3: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr[0] === 0. Actual: '"
+                    "value": "#3: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr[0] === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -520,8 +504,7 @@
                         "type": "Literal",
                         "start": 892,
                         "end": 893,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -557,8 +540,7 @@
             "type": "Literal",
             "start": 909,
             "end": 910,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -599,8 +581,7 @@
                     "type": "Literal",
                     "start": 954,
                     "end": 1036,
-                    "value": "#4: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr[1] === undefined. Actual: ",
-                    "raw": "'#4: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr[1] === undefined. Actual: '"
+                    "value": "#4: var x = [0,1,2,3,4]; var arr = x.slice(-5,1); arr[1] === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -621,8 +602,7 @@
                         "type": "Literal",
                         "start": 1044,
                         "end": 1045,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "computed": true,
                       "optional": false

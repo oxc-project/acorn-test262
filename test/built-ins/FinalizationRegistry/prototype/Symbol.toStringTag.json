@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 637,
                   "end": 659,
-                  "value": "FinalizationRegistry",
-                  "raw": "'FinalizationRegistry'"
+                  "value": "FinalizationRegistry"
                 },
                 "kind": "init"
               },

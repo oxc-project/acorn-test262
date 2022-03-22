@@ -85,15 +85,13 @@
             "type": "Literal",
             "start": 509,
             "end": 510,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 544,
-            "value": "The value of `map.size` is `0`",
-            "raw": "'The value of `map.size` is `0`'"
+            "value": "The value of `map.size` is `0`"
           }
         ],
         "optional": false
@@ -131,15 +129,13 @@
             "type": "Literal",
             "start": 556,
             "end": 557,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 559,
             "end": 560,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -177,15 +173,13 @@
             "type": "Literal",
             "start": 571,
             "end": 572,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 574,
             "end": 575,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -242,15 +236,13 @@
             "type": "Literal",
             "start": 608,
             "end": 609,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 645,
-            "value": "The value of `map.size` is `2`",
-            "raw": "'The value of `map.size` is `2`'"
+            "value": "The value of `map.size` is `2`"
           }
         ],
         "optional": false
@@ -338,15 +330,13 @@
             "type": "Literal",
             "start": 693,
             "end": 694,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 761,
-            "value": "The value of `map.size` is `0`, after executing `map.clear()`",
-            "raw": "'The value of `map.size` is `0`, after executing `map.clear()`'"
+            "value": "The value of `map.size` is `0`, after executing `map.clear()`"
           }
         ],
         "optional": false

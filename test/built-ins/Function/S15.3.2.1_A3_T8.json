@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 958,
             "end": 972,
-            "value": "return this;",
-            "raw": "\"return this;\""
+            "value": "return this;"
           }
         }
       ],
@@ -122,8 +121,7 @@
                       "type": "Literal",
                       "start": 1061,
                       "end": 1090,
-                      "value": "#1: test failed with error ",
-                      "raw": "'#1: test failed with error '"
+                      "value": "#1: test failed with error "
                     },
                     "operator": "+",
                     "right": {
@@ -198,8 +196,7 @@
             "type": "Literal",
             "start": 1142,
             "end": 1213,
-            "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "value": "The value of f.constructor is expected to equal the value of Function"
           }
         ],
         "optional": false
@@ -255,8 +252,7 @@
             "type": "Literal",
             "start": 1244,
             "end": 1266,
-            "value": "f() must return this",
-            "raw": "'f() must return this'"
+            "value": "f() must return this"
           }
         ],
         "optional": false

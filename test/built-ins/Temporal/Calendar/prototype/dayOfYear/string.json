@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 542,
                 "end": 551,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -111,8 +110,7 @@
                 "type": "Literal",
                 "start": 589,
                 "end": 601,
-                "value": "2019-01-18",
-                "raw": "\"2019-01-18\""
+                "value": "2019-01-18"
               }
             ],
             "optional": false
@@ -121,15 +119,13 @@
             "type": "Literal",
             "start": 606,
             "end": 608,
-            "value": 18,
-            "raw": "18"
+            "value": 18
           },
           {
             "type": "Literal",
             "start": 612,
             "end": 656,
-            "value": "cal.dayOfYear(\"2019-01-18\") must return 18",
-            "raw": "'cal.dayOfYear(\"2019-01-18\") must return 18'"
+            "value": "cal.dayOfYear(\"2019-01-18\") must return 18"
           }
         ],
         "optional": false
@@ -191,8 +187,7 @@
                 "type": "Literal",
                 "start": 694,
                 "end": 706,
-                "value": "2020-02-18",
-                "raw": "\"2020-02-18\""
+                "value": "2020-02-18"
               }
             ],
             "optional": false
@@ -201,15 +196,13 @@
             "type": "Literal",
             "start": 711,
             "end": 713,
-            "value": 49,
-            "raw": "49"
+            "value": 49
           },
           {
             "type": "Literal",
             "start": 717,
             "end": 761,
-            "value": "cal.dayOfYear(\"2020-02-18\") must return 49",
-            "raw": "'cal.dayOfYear(\"2020-02-18\") must return 49'"
+            "value": "cal.dayOfYear(\"2020-02-18\") must return 49"
           }
         ],
         "optional": false
@@ -271,8 +264,7 @@
                 "type": "Literal",
                 "start": 799,
                 "end": 811,
-                "value": "2019-12-31",
-                "raw": "\"2019-12-31\""
+                "value": "2019-12-31"
               }
             ],
             "optional": false
@@ -281,15 +273,13 @@
             "type": "Literal",
             "start": 816,
             "end": 819,
-            "value": 365,
-            "raw": "365"
+            "value": 365
           },
           {
             "type": "Literal",
             "start": 823,
             "end": 868,
-            "value": "cal.dayOfYear(\"2019-12-31\") must return 365",
-            "raw": "'cal.dayOfYear(\"2019-12-31\") must return 365'"
+            "value": "cal.dayOfYear(\"2019-12-31\") must return 365"
           }
         ],
         "optional": false
@@ -351,8 +341,7 @@
                 "type": "Literal",
                 "start": 906,
                 "end": 918,
-                "value": "2000-12-31",
-                "raw": "\"2000-12-31\""
+                "value": "2000-12-31"
               }
             ],
             "optional": false
@@ -361,15 +350,13 @@
             "type": "Literal",
             "start": 923,
             "end": 926,
-            "value": 366,
-            "raw": "366"
+            "value": 366
           },
           {
             "type": "Literal",
             "start": 930,
             "end": 975,
-            "value": "cal.dayOfYear(\"2000-12-31\") must return 366",
-            "raw": "'cal.dayOfYear(\"2000-12-31\") must return 366'"
+            "value": "cal.dayOfYear(\"2000-12-31\") must return 366"
           }
         ],
         "optional": false

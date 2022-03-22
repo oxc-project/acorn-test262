@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 664,
                         "end": 678,
-                        "value": "for(;false;)",
-                        "raw": "\"for(;false;)\""
+                        "value": "for(;false;)"
                       }
                     ],
                     "optional": false

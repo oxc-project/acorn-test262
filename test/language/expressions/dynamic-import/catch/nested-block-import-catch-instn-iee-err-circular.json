@@ -36,8 +36,7 @@
                       "type": "Literal",
                       "start": 1684,
                       "end": 1723,
-                      "value": "./instn-iee-err-circular-1_FIXTURE.js",
-                      "raw": "'./instn-iee-err-circular-1_FIXTURE.js'"
+                      "value": "./instn-iee-err-circular-1_FIXTURE.js"
                     }
                   },
                   "property": {
@@ -122,8 +121,7 @@
                                 "type": "Literal",
                                 "start": 1776,
                                 "end": 1789,
-                                "value": "SyntaxError",
-                                "raw": "'SyntaxError'"
+                                "value": "SyntaxError"
                               }
                             ],
                             "optional": false

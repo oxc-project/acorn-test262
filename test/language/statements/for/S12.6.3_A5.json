@@ -59,36 +59,31 @@
               "type": "Literal",
               "start": 421,
               "end": 422,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 423,
               "end": 424,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             {
               "type": "Literal",
               "start": 425,
               "end": 426,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             {
               "type": "Literal",
               "start": 427,
               "end": 428,
-              "value": 4,
-              "raw": "4"
+              "value": 4
             },
             {
               "type": "Literal",
               "start": 429,
               "end": 430,
-              "value": 5,
-              "raw": "5"
+              "value": 5
             }
           ]
         }
@@ -113,8 +108,7 @@
           "type": "Literal",
           "start": 437,
           "end": 438,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -146,8 +140,7 @@
                   "type": "Literal",
                   "start": 545,
                   "end": 555,
-                  "value": "i in arr",
-                  "raw": "\"i in arr\""
+                  "value": "i in arr"
                 }
               ],
               "optional": false
@@ -156,8 +149,7 @@
               "type": "Literal",
               "start": 557,
               "end": 558,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "update": null,
             "body": {
@@ -215,8 +207,7 @@
                     "type": "Literal",
                     "start": 612,
                     "end": 690,
-                    "value": "#1.1: for(eval(\"i in arr\");1;) {break;}; does not lead to throwing exception",
-                    "raw": "'#1.1: for(eval(\"i in arr\");1;) {break;}; does not lead to throwing exception'"
+                    "value": "#1.1: for(eval(\"i in arr\");1;) {break;}; does not lead to throwing exception"
                   }
                 ]
               }
@@ -254,8 +245,7 @@
                   "type": "Literal",
                   "start": 884,
                   "end": 902,
-                  "value": "var i = 1 in arr",
-                  "raw": "\"var i = 1 in arr\""
+                  "value": "var i = 1 in arr"
                 }
               ],
               "optional": false
@@ -264,8 +254,7 @@
               "type": "Literal",
               "start": 904,
               "end": 905,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "update": null,
             "body": {
@@ -323,8 +312,7 @@
                     "type": "Literal",
                     "start": 959,
                     "end": 1045,
-                    "value": "#2.1: for(eval(\"var i = 1 in arr\");1;) {break;}; does not lead to throwing exception",
-                    "raw": "'#2.1: for(eval(\"var i = 1 in arr\");1;) {break;}; does not lead to throwing exception'"
+                    "value": "#2.1: for(eval(\"var i = 1 in arr\");1;) {break;}; does not lead to throwing exception"
                   }
                 ]
               }
@@ -362,8 +350,7 @@
                   "type": "Literal",
                   "start": 1239,
                   "end": 1249,
-                  "value": "1 in arr",
-                  "raw": "\"1 in arr\""
+                  "value": "1 in arr"
                 }
               ],
               "optional": false
@@ -372,8 +359,7 @@
               "type": "Literal",
               "start": 1251,
               "end": 1252,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "update": null,
             "body": {
@@ -431,8 +417,7 @@
                     "type": "Literal",
                     "start": 1305,
                     "end": 1383,
-                    "value": "#3.1: for(eval(\"1 in arr\");1;) {break;}; does not lead to throwing exception",
-                    "raw": "'#3.1: for(eval(\"1 in arr\");1;) {break;}; does not lead to throwing exception'"
+                    "value": "#3.1: for(eval(\"1 in arr\");1;) {break;}; does not lead to throwing exception"
                   }
                 ]
               }

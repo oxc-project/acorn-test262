@@ -130,8 +130,7 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 317,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               },
               {
                 "type": "Identifier",
@@ -153,8 +152,7 @@
             "type": "Literal",
             "start": 341,
             "end": 406,
-            "value": "returns true if desc and property descriptor are both undefined",
-            "raw": "\"returns true if desc and property descriptor are both undefined\""
+            "value": "returns true if desc and property descriptor are both undefined"
           }
         ],
         "optional": false
@@ -233,8 +231,7 @@
                         "type": "Literal",
                         "start": 472,
                         "end": 477,
-                        "value": "bar",
-                        "raw": "'bar'"
+                        "value": "bar"
                       },
                       {
                         "type": "Identifier",
@@ -253,8 +250,7 @@
             "type": "Literal",
             "start": 494,
             "end": 529,
-            "value": "dataDescriptor value is undefined",
-            "raw": "\"dataDescriptor value is undefined\""
+            "value": "dataDescriptor value is undefined"
           }
         ],
         "optional": false
@@ -333,8 +329,7 @@
                         "type": "Literal",
                         "start": 594,
                         "end": 599,
-                        "value": "baz",
-                        "raw": "'baz'"
+                        "value": "baz"
                       },
                       {
                         "type": "Identifier",
@@ -353,8 +348,7 @@
             "type": "Literal",
             "start": 616,
             "end": 644,
-            "value": "accessor returns undefined",
-            "raw": "\"accessor returns undefined\""
+            "value": "accessor returns undefined"
           }
         ],
         "optional": false

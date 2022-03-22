@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 489,
             "end": 495,
-            "value": "acos",
-            "raw": "\"acos\""
+            "value": "acos"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 519,
             "end": 525,
-            "value": "acos",
-            "raw": "\"acos\""
+            "value": "acos"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 553,
             "end": 559,
-            "value": "acos",
-            "raw": "\"acos\""
+            "value": "acos"
           }
         ],
         "optional": false

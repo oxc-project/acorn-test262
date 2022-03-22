@@ -66,8 +66,7 @@
                     "type": "Literal",
                     "start": 344,
                     "end": 393,
-                    "value": "#1: encodeURI.prototype === undefined. Actual: ",
-                    "raw": "'#1: encodeURI.prototype === undefined. Actual: '"
+                    "value": "#1: encodeURI.prototype === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

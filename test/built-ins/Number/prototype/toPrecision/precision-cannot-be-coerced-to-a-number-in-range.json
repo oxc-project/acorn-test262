@@ -134,8 +134,7 @@
                         "type": "Literal",
                         "start": 546,
                         "end": 547,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "FunctionExpression",
@@ -164,8 +163,7 @@
             "type": "Literal",
             "start": 568,
             "end": 631,
-            "value": "`function() {}` doesn't coerce into a number in range (1-100)",
-            "raw": "\"`function() {}` doesn't coerce into a number in range (1-100)\""
+            "value": "`function() {}` doesn't coerce into a number in range (1-100)"
           }
         ],
         "optional": false
@@ -251,8 +249,7 @@
                         "type": "Literal",
                         "start": 693,
                         "end": 694,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Identifier",
@@ -271,8 +268,7 @@
             "type": "Literal",
             "start": 705,
             "end": 756,
-            "value": "NaN doesn't coerce into a number in range (1-100)",
-            "raw": "\"NaN doesn't coerce into a number in range (1-100)\""
+            "value": "NaN doesn't coerce into a number in range (1-100)"
           }
         ],
         "optional": false
@@ -358,8 +354,7 @@
                         "type": "Literal",
                         "start": 818,
                         "end": 819,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "ObjectExpression",
@@ -378,8 +373,7 @@
             "type": "Literal",
             "start": 829,
             "end": 879,
-            "value": "{} doesn't coerce into a number in range (1-100)",
-            "raw": "\"{} doesn't coerce into a number in range (1-100)\""
+            "value": "{} doesn't coerce into a number in range (1-100)"
           }
         ],
         "optional": false

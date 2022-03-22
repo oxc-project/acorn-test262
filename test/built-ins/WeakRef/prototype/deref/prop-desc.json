@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 591,
             "end": 601,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -119,8 +118,7 @@
             "type": "Literal",
             "start": 639,
             "end": 646,
-            "value": "deref",
-            "raw": "'deref'"
+            "value": "deref"
           },
           {
             "type": "ObjectExpression",

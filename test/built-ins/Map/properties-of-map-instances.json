@@ -93,8 +93,7 @@
             "type": "Literal",
             "start": 340,
             "end": 400,
-            "value": "`Object.getPrototypeOf(new Map())` returns `Map.prototype`",
-            "raw": "'`Object.getPrototypeOf(new Map())` returns `Map.prototype`'"
+            "value": "`Object.getPrototypeOf(new Map())` returns `Map.prototype`"
           }
         ],
         "optional": false

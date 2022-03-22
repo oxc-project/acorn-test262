@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 2124,
                     "end": 2131,
                     "name": "method"
@@ -99,14 +99,14 @@
                               "start": 2173,
                               "end": 2177
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 2178,
                               "end": 2185,
                               "name": "method"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         }
                       ]
@@ -222,8 +222,7 @@
             "type": "Literal",
             "start": 2255,
             "end": 2264,
-            "value": "#method",
-            "raw": "\"#method\""
+            "value": "#method"
           }
         ],
         "optional": false

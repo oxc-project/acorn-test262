@@ -83,15 +83,13 @@
                         "type": "Literal",
                         "start": 646,
                         "end": 647,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 649,
                         "end": 650,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "ArrayExpression",
@@ -197,8 +195,7 @@
                         "type": "Literal",
                         "start": 722,
                         "end": 723,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "ArrayExpression",
@@ -303,8 +300,7 @@
                         "type": "Literal",
                         "start": 793,
                         "end": 794,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "ArrayExpression",

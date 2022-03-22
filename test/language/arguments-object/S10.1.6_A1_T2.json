@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 365,
             "end": 397,
-            "value": "value of the argument property",
-            "raw": "\"value of the argument property\""
+            "value": "value of the argument property"
           }
         }
       ],
@@ -154,36 +153,31 @@
                   "type": "Literal",
                   "start": 514,
                   "end": 515,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 516,
                   "end": 517,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 {
                   "type": "Literal",
                   "start": 518,
                   "end": 519,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 {
                   "type": "Literal",
                   "start": 520,
                   "end": 521,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 {
                   "type": "Literal",
                   "start": 522,
                   "end": 523,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               ]
             }
@@ -202,8 +196,7 @@
           "type": "Literal",
           "start": 537,
           "end": 538,
-          "value": 5,
-          "raw": "5"
+          "value": 5
         }
       },
       "consequent": {
@@ -233,8 +226,7 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 648,
-                  "value": "#1: (new f1(1,2,3,4,5)).length===5, where f1 returns \"arguments\" that is set to \"",
-                  "raw": "'#1: (new f1(1,2,3,4,5)).length===5, where f1 returns \"arguments\" that is set to \"'"
+                  "value": "#1: (new f1(1,2,3,4,5)).length===5, where f1 returns \"arguments\" that is set to \""
                 },
                 "operator": "+",
                 "right": {
@@ -249,8 +241,7 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 666,
-                "value": "\"",
-                "raw": "'\"'"
+                "value": "\""
               }
             }
           ]
@@ -289,36 +280,31 @@
                   "type": "Literal",
                   "start": 692,
                   "end": 693,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 694,
                   "end": 695,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 {
                   "type": "Literal",
                   "start": 696,
                   "end": 697,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 {
                   "type": "Literal",
                   "start": 698,
                   "end": 699,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 {
                   "type": "Literal",
                   "start": 700,
                   "end": 701,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 }
               ]
             }
@@ -327,8 +313,7 @@
             "type": "Literal",
             "start": 704,
             "end": 705,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           "computed": true,
           "optional": false
@@ -338,8 +323,7 @@
           "type": "Literal",
           "start": 711,
           "end": 712,
-          "value": 4,
-          "raw": "4"
+          "value": 4
         }
       },
       "consequent": {
@@ -369,8 +353,7 @@
                   "type": "Literal",
                   "start": 739,
                   "end": 818,
-                  "value": "#2: (new f1(1,2,3,4,5))[3]===4, where f1 returns \"arguments\" that is set to \"",
-                  "raw": "'#2: (new f1(1,2,3,4,5))[3]===4, where f1 returns \"arguments\" that is set to \"'"
+                  "value": "#2: (new f1(1,2,3,4,5))[3]===4, where f1 returns \"arguments\" that is set to \""
                 },
                 "operator": "+",
                 "right": {
@@ -385,8 +368,7 @@
                 "type": "Literal",
                 "start": 833,
                 "end": 836,
-                "value": "\"",
-                "raw": "'\"'"
+                "value": "\""
               }
             }
           ]
@@ -424,36 +406,31 @@
                 "type": "Literal",
                 "start": 865,
                 "end": 866,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 867,
                 "end": 868,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 869,
                 "end": 870,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 871,
                 "end": 872,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 873,
                 "end": 874,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -489,8 +466,7 @@
               "type": "Literal",
               "start": 890,
               "end": 891,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -524,8 +500,7 @@
               "type": "Literal",
               "start": 928,
               "end": 983,
-              "value": "#3.1: Function parameters have attribute {DontDelete}",
-              "raw": "'#3.1: Function parameters have attribute {DontDelete}'"
+              "value": "#3.1: Function parameters have attribute {DontDelete}"
             }
           ]
         }
@@ -554,8 +529,7 @@
             "type": "Literal",
             "start": 993,
             "end": 994,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           "computed": true,
           "optional": false
@@ -565,8 +539,7 @@
           "type": "Literal",
           "start": 1000,
           "end": 1001,
-          "value": 4,
-          "raw": "4"
+          "value": 4
         }
       },
       "consequent": {
@@ -588,8 +561,7 @@
               "type": "Literal",
               "start": 1028,
               "end": 1083,
-              "value": "#3.2: Function parameters have attribute {DontDelete}",
-              "raw": "'#3.2: Function parameters have attribute {DontDelete}'"
+              "value": "#3.2: Function parameters have attribute {DontDelete}"
             }
           ]
         }

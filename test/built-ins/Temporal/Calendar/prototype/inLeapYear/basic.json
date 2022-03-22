@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 289,
                 "end": 298,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ],
             "optional": false
@@ -188,8 +187,7 @@
                     "type": "Literal",
                     "start": 376,
                     "end": 388,
-                    "value": "1994-11-05",
-                    "raw": "\"1994-11-05\""
+                    "value": "1994-11-05"
                   }
                 ],
                 "optional": false
@@ -207,8 +205,7 @@
             "type": "Literal",
             "start": 397,
             "end": 408,
-            "value": "PlainDate",
-            "raw": "\"PlainDate\""
+            "value": "PlainDate"
           }
         ],
         "optional": false
@@ -307,8 +304,7 @@
                     "type": "Literal",
                     "start": 471,
                     "end": 492,
-                    "value": "1994-11-05T08:15:30",
-                    "raw": "\"1994-11-05T08:15:30\""
+                    "value": "1994-11-05T08:15:30"
                   }
                 ],
                 "optional": false
@@ -326,8 +322,7 @@
             "type": "Literal",
             "start": 501,
             "end": 516,
-            "value": "PlainDateTime",
-            "raw": "\"PlainDateTime\""
+            "value": "PlainDateTime"
           }
         ],
         "optional": false
@@ -426,8 +421,7 @@
                     "type": "Literal",
                     "start": 580,
                     "end": 589,
-                    "value": "1994-11",
-                    "raw": "\"1994-11\""
+                    "value": "1994-11"
                   }
                 ],
                 "optional": false
@@ -445,8 +439,7 @@
             "type": "Literal",
             "start": 598,
             "end": 614,
-            "value": "PlainYearMonth",
-            "raw": "\"PlainYearMonth\""
+            "value": "PlainYearMonth"
           }
         ],
         "optional": false
@@ -526,8 +519,7 @@
                       "type": "Literal",
                       "start": 657,
                       "end": 661,
-                      "value": 1994,
-                      "raw": "1994"
+                      "value": 1994
                     },
                     "kind": "init"
                   },
@@ -548,8 +540,7 @@
                       "type": "Literal",
                       "start": 670,
                       "end": 672,
-                      "value": 11,
-                      "raw": "11"
+                      "value": 11
                     },
                     "kind": "init"
                   },
@@ -570,8 +561,7 @@
                       "type": "Literal",
                       "start": 679,
                       "end": 680,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     },
                     "kind": "init"
                   }
@@ -590,8 +580,7 @@
             "type": "Literal",
             "start": 690,
             "end": 704,
-            "value": "property bag",
-            "raw": "\"property bag\""
+            "value": "property bag"
           }
         ],
         "optional": false
@@ -653,8 +642,7 @@
                 "type": "Literal",
                 "start": 739,
                 "end": 751,
-                "value": "1994-11-05",
-                "raw": "\"1994-11-05\""
+                "value": "1994-11-05"
               }
             ],
             "optional": false
@@ -669,8 +657,7 @@
             "type": "Literal",
             "start": 759,
             "end": 767,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           }
         ],
         "optional": false
@@ -765,8 +752,7 @@
                         "type": "Literal",
                         "start": 824,
                         "end": 828,
-                        "value": 2000,
-                        "raw": "2000"
+                        "value": 2000
                       },
                       "kind": "init"
                     }
@@ -780,8 +766,7 @@
             "type": "Literal",
             "start": 833,
             "end": 871,
-            "value": "property bag with missing properties",
-            "raw": "\"property bag with missing properties\""
+            "value": "property bag with missing properties"
           }
         ],
         "optional": false

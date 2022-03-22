@@ -23,7 +23,6 @@
             "start": 1071,
             "end": 1075,
             "value": {},
-            "raw": "/b/g",
             "regex": {
               "pattern": "b",
               "flags": "g"
@@ -71,8 +70,7 @@
             "type": "Literal",
             "start": 1102,
             "end": 1110,
-            "value": "global",
-            "raw": "'global'"
+            "value": "global"
           },
           {
             "type": "ObjectExpression",
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 1148,
             "end": 1153,
-            "value": "abc",
-            "raw": "'abc'"
+            "value": "abc"
           }
         ],
         "optional": false
@@ -210,8 +207,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1188,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false

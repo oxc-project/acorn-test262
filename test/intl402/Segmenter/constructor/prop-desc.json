@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 956,
             "end": 966,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 991,
             "end": 1002,
-            "value": "Segmenter",
-            "raw": "\"Segmenter\""
+            "value": "Segmenter"
           },
           {
             "type": "ObjectExpression",

@@ -23,7 +23,6 @@
             "start": 521,
             "end": 524,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -70,8 +69,7 @@
                   "type": "Literal",
                   "start": 559,
                   "end": 560,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -92,8 +90,7 @@
                   "type": "Literal",
                   "start": 571,
                   "end": 572,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -303,15 +300,13 @@
                         "type": "Literal",
                         "start": 742,
                         "end": 745,
-                        "value": "a",
-                        "raw": "'a'"
+                        "value": "a"
                       },
                       {
                         "type": "Literal",
                         "start": 747,
                         "end": 755,
-                        "value": "$<foo>",
-                        "raw": "'$<foo>'"
+                        "value": "$<foo>"
                       }
                     ],
                     "optional": false

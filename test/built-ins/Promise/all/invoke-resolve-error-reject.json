@@ -145,8 +145,7 @@
                         "type": "Literal",
                         "start": 854,
                         "end": 855,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ]
                   }
@@ -196,8 +195,7 @@
                             "type": "Literal",
                             "start": 906,
                             "end": 944,
-                            "value": "The promise should not be fulfilled.",
-                            "raw": "'The promise should not be fulfilled.'"
+                            "value": "The promise should not be fulfilled."
                           }
                         ]
                       }
@@ -272,8 +270,7 @@
                                   "type": "Literal",
                                   "start": 1029,
                                   "end": 1090,
-                                  "value": "The promise should be rejected with the thrown error object",
-                                  "raw": "'The promise should be rejected with the thrown error object'"
+                                  "value": "The promise should be rejected with the thrown error object"
                                 }
                               ]
                             }

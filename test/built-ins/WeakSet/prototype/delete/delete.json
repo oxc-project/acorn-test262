@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 422,
             "end": 432,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 436,
             "end": 483,
-            "value": "typeof WeakSet.prototype.delete is \"function\"",
-            "raw": "'typeof WeakSet.prototype.delete is \"function\"'"
+            "value": "typeof WeakSet.prototype.delete is \"function\""
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 527,
             "end": 535,
-            "value": "delete",
-            "raw": "'delete'"
+            "value": "delete"
           }
         ],
         "optional": false
@@ -171,8 +168,7 @@
             "type": "Literal",
             "start": 572,
             "end": 580,
-            "value": "delete",
-            "raw": "'delete'"
+            "value": "delete"
           }
         ],
         "optional": false
@@ -216,8 +212,7 @@
             "type": "Literal",
             "start": 621,
             "end": 629,
-            "value": "delete",
-            "raw": "'delete'"
+            "value": "delete"
           }
         ],
         "optional": false

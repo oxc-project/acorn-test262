@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 979,
             "end": 989,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 993,
             "end": 1047,
-            "value": "typeof Intl.Segmenter.supportedLocalesOf is function",
-            "raw": "\"typeof Intl.Segmenter.supportedLocalesOf is function\""
+            "value": "typeof Intl.Segmenter.supportedLocalesOf is function"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 1083,
             "end": 1103,
-            "value": "supportedLocalesOf",
-            "raw": "\"supportedLocalesOf\""
+            "value": "supportedLocalesOf"
           },
           {
             "type": "ObjectExpression",

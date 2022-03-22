@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 890,
               "end": 892,
               "name": "m"
@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 904,
                       "end": 913,
-                      "value": "Test262",
-                      "raw": "'Test262'"
+                      "value": "Test262"
                     }
                   }
                 ]
@@ -150,14 +149,14 @@
                                 "end": 1000,
                                 "name": "self"
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 1001,
                                 "end": 1003,
                                 "name": "m"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             },
                             "arguments": [],
                             "optional": false
@@ -280,8 +279,7 @@
             "type": "Literal",
             "start": 1095,
             "end": 1104,
-            "value": "Test262",
-            "raw": "'Test262'"
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -418,8 +416,7 @@
             "type": "Literal",
             "start": 1180,
             "end": 1229,
-            "value": "accessed private method from an ordinary object",
-            "raw": "'accessed private method from an ordinary object'"
+            "value": "accessed private method from an ordinary object"
           }
         ],
         "optional": false

@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 356,
             "end": 366,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 415,
-            "value": "`typeof Array.prototype.find` is `function`",
-            "raw": "'`typeof Array.prototype.find` is `function`'"
+            "value": "`typeof Array.prototype.find` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 457,
             "end": 463,
-            "value": "find",
-            "raw": "'find'"
+            "value": "find"
           }
         ],
         "optional": false
@@ -171,8 +168,7 @@
             "type": "Literal",
             "start": 498,
             "end": 504,
-            "value": "find",
-            "raw": "'find'"
+            "value": "find"
           }
         ],
         "optional": false
@@ -216,8 +212,7 @@
             "type": "Literal",
             "start": 543,
             "end": 549,
-            "value": "find",
-            "raw": "'find'"
+            "value": "find"
           }
         ],
         "optional": false

@@ -744,8 +744,7 @@
             "type": "Literal",
             "start": 1161,
             "end": 1169,
-            "value": "method",
-            "raw": "'method'"
+            "value": "method"
           }
         ],
         "optional": false
@@ -807,8 +806,7 @@
           "type": "Literal",
           "start": 1211,
           "end": 1219,
-          "value": "setter",
-          "raw": "'setter'"
+          "value": "setter"
         }
       }
     },
@@ -852,8 +850,7 @@
                 "type": "Literal",
                 "start": 1234,
                 "end": 1252,
-                "value": "generator method",
-                "raw": "'generator method'"
+                "value": "generator method"
               }
             ],
             "optional": false
@@ -903,8 +900,7 @@
             "type": "Literal",
             "start": 1277,
             "end": 1291,
-            "value": "async method",
-            "raw": "'async method'"
+            "value": "async method"
           }
         ],
         "optional": false
@@ -947,8 +943,7 @@
                 "type": "Literal",
                 "start": 1316,
                 "end": 1324,
-                "value": "method",
-                "raw": "'method'"
+                "value": "method"
               }
             ]
           },
@@ -962,8 +957,7 @@
             "type": "Literal",
             "start": 1335,
             "end": 1341,
-            "value": "body",
-            "raw": "'body'"
+            "value": "body"
           }
         ],
         "optional": false
@@ -1006,8 +1000,7 @@
                 "type": "Literal",
                 "start": 1365,
                 "end": 1373,
-                "value": "method",
-                "raw": "'method'"
+                "value": "method"
               }
             ]
           },
@@ -1021,8 +1014,7 @@
             "type": "Literal",
             "start": 1389,
             "end": 1400,
-            "value": "parameter",
-            "raw": "'parameter'"
+            "value": "parameter"
           }
         ],
         "optional": false
@@ -1072,8 +1064,7 @@
             "type": "Literal",
             "start": 1435,
             "end": 1441,
-            "value": "body",
-            "raw": "'body'"
+            "value": "body"
           }
         ],
         "optional": false
@@ -1116,8 +1107,7 @@
                 "type": "Literal",
                 "start": 1465,
                 "end": 1473,
-                "value": "setter",
-                "raw": "'setter'"
+                "value": "setter"
               }
             ]
           },
@@ -1131,8 +1121,7 @@
             "type": "Literal",
             "start": 1484,
             "end": 1490,
-            "value": "body",
-            "raw": "'body'"
+            "value": "body"
           }
         ],
         "optional": false
@@ -1175,8 +1164,7 @@
                 "type": "Literal",
                 "start": 1514,
                 "end": 1522,
-                "value": "setter",
-                "raw": "'setter'"
+                "value": "setter"
               }
             ]
           },
@@ -1190,8 +1178,7 @@
             "type": "Literal",
             "start": 1538,
             "end": 1549,
-            "value": "parameter",
-            "raw": "'parameter'"
+            "value": "parameter"
           }
         ],
         "optional": false
@@ -1234,8 +1221,7 @@
                 "type": "Literal",
                 "start": 1573,
                 "end": 1591,
-                "value": "generator method",
-                "raw": "'generator method'"
+                "value": "generator method"
               }
             ]
           },
@@ -1249,8 +1235,7 @@
             "type": "Literal",
             "start": 1605,
             "end": 1611,
-            "value": "body",
-            "raw": "'body'"
+            "value": "body"
           }
         ],
         "optional": false
@@ -1293,8 +1278,7 @@
                 "type": "Literal",
                 "start": 1635,
                 "end": 1653,
-                "value": "generator method",
-                "raw": "'generator method'"
+                "value": "generator method"
               }
             ]
           },
@@ -1308,8 +1292,7 @@
             "type": "Literal",
             "start": 1672,
             "end": 1683,
-            "value": "parameter",
-            "raw": "'parameter'"
+            "value": "parameter"
           }
         ],
         "optional": false
@@ -1352,8 +1335,7 @@
                 "type": "Literal",
                 "start": 1707,
                 "end": 1721,
-                "value": "async method",
-                "raw": "'async method'"
+                "value": "async method"
               }
             ]
           },
@@ -1367,8 +1349,7 @@
             "type": "Literal",
             "start": 1737,
             "end": 1743,
-            "value": "body",
-            "raw": "'body'"
+            "value": "body"
           }
         ],
         "optional": false
@@ -1411,8 +1392,7 @@
                 "type": "Literal",
                 "start": 1767,
                 "end": 1781,
-                "value": "async method",
-                "raw": "'async method'"
+                "value": "async method"
               }
             ]
           },
@@ -1426,8 +1406,7 @@
             "type": "Literal",
             "start": 1802,
             "end": 1813,
-            "value": "parameter",
-            "raw": "'parameter'"
+            "value": "parameter"
           }
         ],
         "optional": false

@@ -74,8 +74,7 @@
                                 "type": "Literal",
                                 "start": 1811,
                                 "end": 1813,
-                                "value": 17,
-                                "raw": "17"
+                                "value": 17
                               }
                             ]
                           }
@@ -197,8 +196,7 @@
                                             "type": "Literal",
                                             "start": 1925,
                                             "end": 1927,
-                                            "value": 42,
-                                            "raw": "42"
+                                            "value": 42
                                           }
                                         }
                                       ]
@@ -277,8 +275,7 @@
                             "type": "Literal",
                             "start": 2006,
                             "end": 2007,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Identifier",
@@ -300,8 +297,7 @@
                         "type": "Literal",
                         "start": 2030,
                         "end": 2140,
-                        "value": "Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42;}}} ) must return true",
-                        "raw": "'Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42;}}} ) must return true'"
+                        "value": "Reflect.defineProperty(ta, 0, {value: {valueOf() {$DETACHBUFFER(ta.buffer); return 42;}}} ) must return true"
                       }
                     ],
                     "optional": false
@@ -349,8 +345,7 @@
                           "type": "Literal",
                           "start": 2168,
                           "end": 2169,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -365,8 +360,7 @@
                         "type": "Literal",
                         "start": 2183,
                         "end": 2236,
-                        "value": "The value of ta[0] is expected to equal `undefined`",
-                        "raw": "'The value of ta[0] is expected to equal `undefined`'"
+                        "value": "The value of ta[0] is expected to equal `undefined`"
                       }
                     ],
                     "optional": false

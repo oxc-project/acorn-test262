@@ -78,15 +78,13 @@
             "type": "Literal",
             "start": 435,
             "end": 443,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 456,
-            "value": "typeof(o)",
-            "raw": "'typeof(o)'"
+            "value": "typeof(o)"
           }
         ],
         "optional": false

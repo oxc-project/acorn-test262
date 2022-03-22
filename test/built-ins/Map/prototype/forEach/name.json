@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 432,
             "end": 441,
-            "value": "forEach",
-            "raw": "'forEach'"
+            "value": "forEach"
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 503,
-            "value": "The value of `Map.prototype.forEach.name` is `\"forEach\"`",
-            "raw": "'The value of `Map.prototype.forEach.name` is `\"forEach\"`'"
+            "value": "The value of `Map.prototype.forEach.name` is `\"forEach\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 551,
             "end": 557,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 601,
             "end": 607,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 652,
             "end": 658,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

@@ -138,8 +138,7 @@
             "type": "Literal",
             "start": 339,
             "end": 365,
-            "value": "Object.isExtensible(obj)",
-            "raw": "'Object.isExtensible(obj)'"
+            "value": "Object.isExtensible(obj)"
           }
         ],
         "optional": false

@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 270,
               "end": 276,
-              "value": 0,
-              "raw": "0x0000"
+              "value": 0
             }
           ],
           "optional": false
@@ -50,8 +49,7 @@
           "type": "Literal",
           "start": 282,
           "end": 286,
-          "value": "\u0000",
-          "raw": "\"\\0\""
+          "value": "\u0000"
         }
       },
       "consequent": {
@@ -78,8 +76,7 @@
                   "type": "Literal",
                   "start": 315,
                   "end": 358,
-                  "value": "#1: String.fromCharCode(0x0000) === \"\\0\"",
-                  "raw": "'#1: String.fromCharCode(0x0000) === \"\\\\0\"'"
+                  "value": "#1: String.fromCharCode(0x0000) === \"\\0\""
                 }
               ]
             }

@@ -120,8 +120,7 @@
             "type": "Literal",
             "start": 568,
             "end": 602,
-            "value": "[object Intl.RelativeTimeFormat]",
-            "raw": "\"[object Intl.RelativeTimeFormat]\""
+            "value": "[object Intl.RelativeTimeFormat]"
           }
         ],
         "optional": false
@@ -233,8 +232,7 @@
                     "type": "Literal",
                     "start": 681,
                     "end": 685,
-                    "value": "en",
-                    "raw": "\"en\""
+                    "value": "en"
                   }
                 ]
               }
@@ -245,8 +243,7 @@
             "type": "Literal",
             "start": 689,
             "end": 723,
-            "value": "[object Intl.RelativeTimeFormat]",
-            "raw": "\"[object Intl.RelativeTimeFormat]\""
+            "value": "[object Intl.RelativeTimeFormat]"
           }
         ],
         "optional": false

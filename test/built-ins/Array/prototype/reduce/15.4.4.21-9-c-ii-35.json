@@ -174,15 +174,13 @@
                   "type": "Literal",
                   "start": 421,
                   "end": 422,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 424,
                   "end": 426,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -203,8 +201,7 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 439,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -276,29 +273,25 @@
               "type": "Literal",
               "start": 483,
               "end": 485,
-              "value": 10,
-              "raw": "10"
+              "value": 10
             },
             {
               "type": "Literal",
               "start": 487,
               "end": 489,
-              "value": 11,
-              "raw": "11"
+              "value": 11
             },
             {
               "type": "Literal",
               "start": 491,
               "end": 493,
-              "value": 12,
-              "raw": "12"
+              "value": 12
             },
             {
               "type": "Literal",
               "start": 495,
               "end": 497,
-              "value": 13,
-              "raw": "13"
+              "value": 13
             }
           ],
           "optional": false
@@ -415,8 +408,7 @@
             "type": "Literal",
             "start": 576,
             "end": 627,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, arg)",
-            "raw": "'Array.prototype.reduce.call(obj, callbackfn, arg)'"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, arg)"
           }
         ],
         "optional": false
@@ -447,8 +439,7 @@
             "type": "Literal",
             "start": 647,
             "end": 666,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

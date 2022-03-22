@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 347,
             "end": 357,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 361,
             "end": 404,
-            "value": "`typeof PlainMonthDay.from` is `function`",
-            "raw": "\"`typeof PlainMonthDay.from` is `function`\""
+            "value": "`typeof PlainMonthDay.from` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 448,
             "end": 454,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",

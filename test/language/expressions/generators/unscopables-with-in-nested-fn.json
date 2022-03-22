@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1890,
             "end": 1891,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1901,
             "end": 1902,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -169,8 +167,7 @@
                 "type": "Literal",
                 "start": 1984,
                 "end": 1985,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -347,15 +344,13 @@
                                             "type": "Literal",
                                             "start": 2159,
                                             "end": 2160,
-                                            "value": 1,
-                                            "raw": "1"
+                                            "value": 1
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 2162,
                                             "end": 2185,
-                                            "value": "The value of `v` is 1",
-                                            "raw": "'The value of `v` is 1'"
+                                            "value": "The value of `v` is 1"
                                           }
                                         ],
                                         "optional": false
@@ -512,15 +507,13 @@
                                             "type": "Literal",
                                             "start": 2311,
                                             "end": 2313,
-                                            "value": 10,
-                                            "raw": "10"
+                                            "value": 10
                                           },
                                           {
                                             "type": "Literal",
                                             "start": 2315,
                                             "end": 2339,
-                                            "value": "The value of `v` is 10",
-                                            "raw": "'The value of `v` is 10'"
+                                            "value": "The value of `v` is 10"
                                           }
                                         ],
                                         "optional": false
@@ -545,8 +538,7 @@
                                           "type": "Literal",
                                           "start": 2352,
                                           "end": 2354,
-                                          "value": 20,
-                                          "raw": "20"
+                                          "value": 20
                                         }
                                       }
                                     }
@@ -591,15 +583,13 @@
                                       "type": "Literal",
                                       "start": 2386,
                                       "end": 2388,
-                                      "value": 20,
-                                      "raw": "20"
+                                      "value": 20
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2390,
                                       "end": 2414,
-                                      "value": "The value of `v` is 20",
-                                      "raw": "'The value of `v` is 20'"
+                                      "value": "The value of `v` is 20"
                                     }
                                   ],
                                   "optional": false
@@ -656,15 +646,13 @@
                                       "type": "Literal",
                                       "start": 2452,
                                       "end": 2453,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     },
                                     {
                                       "type": "Literal",
                                       "start": 2455,
                                       "end": 2487,
-                                      "value": "The value of globalThis.v is 1",
-                                      "raw": "'The value of globalThis.v is 1'"
+                                      "value": "The value of globalThis.v is 1"
                                     }
                                   ],
                                   "optional": false
@@ -716,15 +704,13 @@
                           "type": "Literal",
                           "start": 2520,
                           "end": 2521,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         {
                           "type": "Literal",
                           "start": 2523,
                           "end": 2546,
-                          "value": "The value of `v` is 1",
-                          "raw": "'The value of `v` is 1'"
+                          "value": "The value of `v` is 1"
                         }
                       ],
                       "optional": false
@@ -781,15 +767,13 @@
                           "type": "Literal",
                           "start": 2582,
                           "end": 2583,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         },
                         {
                           "type": "Literal",
                           "start": 2585,
                           "end": 2617,
-                          "value": "The value of globalThis.v is 1",
-                          "raw": "'The value of globalThis.v is 1'"
+                          "value": "The value of globalThis.v is 1"
                         }
                       ],
                       "optional": false
@@ -825,8 +809,7 @@
                           "type": "Literal",
                           "start": 2646,
                           "end": 2647,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     }
@@ -863,8 +846,7 @@
                     "type": "Literal",
                     "start": 2657,
                     "end": 2659,
-                    "value": 10,
-                    "raw": "10"
+                    "value": 10
                   }
                 ],
                 "optional": false
@@ -920,15 +902,13 @@
                 "type": "Literal",
                 "start": 2698,
                 "end": 2699,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 2701,
                 "end": 2742,
-                "value": "generator function invoked exactly once",
-                "raw": "'generator function invoked exactly once'"
+                "value": "generator function invoked exactly once"
               }
             ],
             "optional": false
@@ -992,15 +972,13 @@
             "type": "Literal",
             "start": 2783,
             "end": 2784,
-            "value": 6,
-            "raw": "6"
+            "value": 6
           },
           {
             "type": "Literal",
             "start": 2786,
             "end": 2813,
-            "value": "The value of `count` is 6",
-            "raw": "'The value of `count` is 6'"
+            "value": "The value of `count` is 6"
           }
         ],
         "optional": false

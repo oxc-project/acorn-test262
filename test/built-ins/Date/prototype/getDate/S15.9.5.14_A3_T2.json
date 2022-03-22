@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 402,
             "end": 478,
-            "value": "The value of `delete Date.prototype.getDate.length` is expected to be true",
-            "raw": "'The value of `delete Date.prototype.getDate.length` is expected to be true'"
+            "value": "The value of `delete Date.prototype.getDate.length` is expected to be true"
           }
         ],
         "optional": false
@@ -176,8 +175,7 @@
                   "type": "Literal",
                   "start": 532,
                   "end": 540,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -187,8 +185,7 @@
             "type": "Literal",
             "start": 545,
             "end": 633,
-            "value": "The value of !Date.prototype.getDate.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !Date.prototype.getDate.hasOwnProperty(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.prototype.getDate.hasOwnProperty('length') is expected to be true"
           }
         ],
         "optional": false

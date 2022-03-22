@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 426,
             "end": 436,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -161,8 +160,7 @@
             "type": "Literal",
             "start": 506,
             "end": 536,
-            "value": "null is an invalid tag value",
-            "raw": "\"null is an invalid tag value\""
+            "value": "null is an invalid tag value"
           }
         ],
         "optional": false

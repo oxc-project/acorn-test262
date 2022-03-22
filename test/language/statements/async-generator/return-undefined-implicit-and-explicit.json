@@ -118,8 +118,7 @@
                 "type": "Literal",
                 "start": 1730,
                 "end": 1731,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           }
@@ -150,43 +149,37 @@
                 "type": "Literal",
                 "start": 1796,
                 "end": 1804,
-                "value": "tick 1",
-                "raw": "\"tick 1\""
+                "value": "tick 1"
               },
               {
                 "type": "Literal",
                 "start": 1809,
                 "end": 1817,
-                "value": "g1 ret",
-                "raw": "\"g1 ret\""
+                "value": "g1 ret"
               },
               {
                 "type": "Literal",
                 "start": 1821,
                 "end": 1829,
-                "value": "g2 ret",
-                "raw": "\"g2 ret\""
+                "value": "g2 ret"
               },
               {
                 "type": "Literal",
                 "start": 1834,
                 "end": 1842,
-                "value": "tick 2",
-                "raw": "\"tick 2\""
+                "value": "tick 2"
               },
               {
                 "type": "Literal",
                 "start": 1847,
                 "end": 1855,
-                "value": "g3 ret",
-                "raw": "\"g3 ret\""
+                "value": "g3 ret"
               },
               {
                 "type": "Literal",
                 "start": 1859,
                 "end": 1867,
-                "value": "g4 ret",
-                "raw": "\"g4 ret\""
+                "value": "g4 ret"
               }
             ]
           }
@@ -283,8 +276,7 @@
                             "type": "Literal",
                             "start": 1907,
                             "end": 1908,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -336,8 +328,7 @@
                               "type": "Literal",
                               "start": 1936,
                               "end": 1944,
-                              "value": "tick 1",
-                              "raw": "\"tick 1\""
+                              "value": "tick 1"
                             }
                           ],
                           "optional": false
@@ -393,8 +384,7 @@
                           "type": "Literal",
                           "start": 1973,
                           "end": 1981,
-                          "value": "tick 2",
-                          "raw": "\"tick 2\""
+                          "value": "tick 2"
                         }
                       ],
                       "optional": false
@@ -471,8 +461,7 @@
                             "type": "Literal",
                             "start": 2042,
                             "end": 2092,
-                            "value": "Ticks for implicit and explicit return undefined",
-                            "raw": "\"Ticks for implicit and explicit return undefined\""
+                            "value": "Ticks for implicit and explicit return undefined"
                           }
                         ],
                         "optional": false
@@ -609,8 +598,7 @@
                   "type": "Literal",
                   "start": 2153,
                   "end": 2161,
-                  "value": "g1 ret",
-                  "raw": "\"g1 ret\""
+                  "value": "g1 ret"
                 }
               ],
               "optional": false
@@ -719,8 +707,7 @@
                   "type": "Literal",
                   "start": 2199,
                   "end": 2207,
-                  "value": "g2 ret",
-                  "raw": "\"g2 ret\""
+                  "value": "g2 ret"
                 }
               ],
               "optional": false
@@ -829,8 +816,7 @@
                   "type": "Literal",
                   "start": 2245,
                   "end": 2253,
-                  "value": "g3 ret",
-                  "raw": "\"g3 ret\""
+                  "value": "g3 ret"
                 }
               ],
               "optional": false
@@ -939,8 +925,7 @@
                   "type": "Literal",
                   "start": 2291,
                   "end": 2299,
-                  "value": "g4 ret",
-                  "raw": "\"g4 ret\""
+                  "value": "g4 ret"
                 }
               ],
               "optional": false

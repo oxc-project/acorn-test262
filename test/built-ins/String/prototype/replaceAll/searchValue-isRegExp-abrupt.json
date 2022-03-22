@@ -121,8 +121,7 @@
                           "type": "Literal",
                           "start": 899,
                           "end": 940,
-                          "value": "Should not call toString on searchValue",
-                          "raw": "'Should not call toString on searchValue'"
+                          "value": "Should not call toString on searchValue"
                         }
                       }
                     ]
@@ -154,8 +153,7 @@
             "type": "Literal",
             "start": 965,
             "end": 966,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -228,8 +226,7 @@
                             "type": "Literal",
                             "start": 1014,
                             "end": 1015,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -241,8 +238,7 @@
                           "type": "Literal",
                           "start": 1027,
                           "end": 1074,
-                          "value": "Should not call toString on this/replaceValue",
-                          "raw": "'Should not call toString on this/replaceValue'"
+                          "value": "Should not call toString on this/replaceValue"
                         }
                       }
                     ]
@@ -323,8 +319,7 @@
                           "type": "Literal",
                           "start": 1128,
                           "end": 1130,
-                          "value": "",
-                          "raw": "''"
+                          "value": ""
                         },
                         "property": {
                           "type": "Identifier",
@@ -412,8 +407,7 @@
             "type": "Literal",
             "start": 1209,
             "end": 1210,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

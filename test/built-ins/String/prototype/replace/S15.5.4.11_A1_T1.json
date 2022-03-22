@@ -147,8 +147,7 @@
               "type": "Literal",
               "start": 492,
               "end": 493,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ],
           "optional": false
@@ -158,8 +157,7 @@
           "type": "Literal",
           "start": 499,
           "end": 502,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       },
       "consequent": {
@@ -190,8 +188,7 @@
                     "type": "Literal",
                     "start": 531,
                     "end": 661,
-                    "value": "#1: __instance = new Object(true); __instance.replace = String.prototype.replace;  __instance.replace(true, 1) === \"1\". Actual: ",
-                    "raw": "'#1: __instance = new Object(true); __instance.replace = String.prototype.replace;  __instance.replace(true, 1) === \"1\". Actual: '"
+                    "value": "#1: __instance = new Object(true); __instance.replace = String.prototype.replace;  __instance.replace(true, 1) === \"1\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -229,8 +226,7 @@
                         "type": "Literal",
                         "start": 689,
                         "end": 690,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false

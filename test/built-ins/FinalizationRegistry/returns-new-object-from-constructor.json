@@ -204,8 +204,7 @@
             "type": "Literal",
             "start": 1113,
             "end": 1148,
-            "value": "does not return the same function",
-            "raw": "'does not return the same function'"
+            "value": "does not return the same function"
           }
         ],
         "optional": false
@@ -268,8 +267,7 @@
             "type": "Literal",
             "start": 1228,
             "end": 1240,
-            "value": "instanceof",
-            "raw": "'instanceof'"
+            "value": "instanceof"
           }
         ],
         "optional": false

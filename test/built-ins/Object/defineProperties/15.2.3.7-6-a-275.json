@@ -131,8 +131,7 @@
             "type": "Literal",
             "start": 555,
             "end": 565,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "ObjectExpression",
@@ -225,8 +224,7 @@
                         "type": "Literal",
                         "start": 632,
                         "end": 642,
-                        "value": "property",
-                        "raw": "\"property\""
+                        "value": "property"
                       },
                       "value": {
                         "type": "ObjectExpression",
@@ -316,15 +314,13 @@
                     "type": "Literal",
                     "start": 719,
                     "end": 729,
-                    "value": "property",
-                    "raw": "\"property\""
+                    "value": "property"
                   },
                   {
                     "type": "Literal",
                     "start": 731,
                     "end": 750,
-                    "value": "setVerifyHelpProp",
-                    "raw": "\"setVerifyHelpProp\""
+                    "value": "setVerifyHelpProp"
                   }
                 ],
                 "optional": false
@@ -355,8 +351,7 @@
                     "type": "Literal",
                     "start": 781,
                     "end": 791,
-                    "value": "property",
-                    "raw": "\"property\""
+                    "value": "property"
                   }
                 ],
                 "optional": false
@@ -387,8 +382,7 @@
                     "type": "Literal",
                     "start": 824,
                     "end": 834,
-                    "value": "property",
-                    "raw": "\"property\""
+                    "value": "property"
                   }
                 ],
                 "optional": false
@@ -456,8 +450,7 @@
                             "type": "Literal",
                             "start": 900,
                             "end": 926,
-                            "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "value": "Expected TypeError, got "
                           },
                           "operator": "+",
                           "right": {

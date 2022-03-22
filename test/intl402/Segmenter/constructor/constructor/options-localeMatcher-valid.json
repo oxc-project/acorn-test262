@@ -33,15 +33,13 @@
                 "type": "Literal",
                 "start": 819,
                 "end": 827,
-                "value": "lookup",
-                "raw": "'lookup'"
+                "value": "lookup"
               },
               {
                 "type": "Literal",
                 "start": 831,
                 "end": 841,
-                "value": "best fit",
-                "raw": "'best fit'"
+                "value": "best fit"
               }
             ]
           }

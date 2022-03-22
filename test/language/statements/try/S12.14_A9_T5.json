@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 373,
             "end": 374,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         {
@@ -40,8 +39,7 @@
             "type": "Literal",
             "start": 378,
             "end": 379,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -66,8 +64,7 @@
             "type": "Literal",
             "start": 389,
             "end": 390,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -101,8 +98,7 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 402,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -134,8 +130,7 @@
                       "type": "Literal",
                       "start": 422,
                       "end": 423,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   },
                   "consequent": {
@@ -151,8 +146,7 @@
                           "type": "Literal",
                           "start": 438,
                           "end": 443,
-                          "value": "ex1",
-                          "raw": "\"ex1\""
+                          "value": "ex1"
                         }
                       },
                       {
@@ -174,8 +168,7 @@
                               "type": "Literal",
                               "start": 474,
                               "end": 520,
-                              "value": "#1.1: throw \"ex1\" lead to throwing exception",
-                              "raw": "'#1.1: throw \"ex1\" lead to throwing exception'"
+                              "value": "#1.1: throw \"ex1\" lead to throwing exception"
                             }
                           ]
                         }
@@ -203,8 +196,7 @@
                       "type": "Literal",
                       "start": 536,
                       "end": 537,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     }
                   }
                 },
@@ -227,8 +219,7 @@
                       "type": "Literal",
                       "start": 550,
                       "end": 551,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "consequent": {
@@ -244,8 +235,7 @@
                           "type": "Literal",
                           "start": 566,
                           "end": 571,
-                          "value": "ex2",
-                          "raw": "\"ex2\""
+                          "value": "ex2"
                         }
                       },
                       {
@@ -267,8 +257,7 @@
                               "type": "Literal",
                               "start": 602,
                               "end": 648,
-                              "value": "#1.2: throw \"ex2\" lead to throwing exception",
-                              "raw": "'#1.2: throw \"ex2\" lead to throwing exception'"
+                              "value": "#1.2: throw \"ex2\" lead to throwing exception"
                             }
                           ]
                         }
@@ -313,8 +302,7 @@
                         "type": "Literal",
                         "start": 682,
                         "end": 683,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   },
@@ -343,8 +331,7 @@
                           "type": "Literal",
                           "start": 726,
                           "end": 783,
-                          "value": "#1.3: \"try catch{continue} finally\" must work correctly",
-                          "raw": "'#1.3: \"try catch{continue} finally\" must work correctly'"
+                          "value": "#1.3: \"try catch{continue} finally\" must work correctly"
                         }
                       ]
                     }
@@ -376,8 +363,7 @@
                       "type": "Literal",
                       "start": 810,
                       "end": 811,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -401,8 +387,7 @@
           "type": "Literal",
           "start": 827,
           "end": 829,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       }
     },
@@ -425,8 +410,7 @@
           "type": "Literal",
           "start": 841,
           "end": 843,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       },
       "consequent": {
@@ -453,8 +437,7 @@
                   "type": "Literal",
                   "start": 871,
                   "end": 912,
-                  "value": "#1.4: \"finally\" block must be evaluated",
-                  "raw": "'#1.4: \"finally\" block must be evaluated'"
+                  "value": "#1.4: \"finally\" block must be evaluated"
                 }
               ]
             }

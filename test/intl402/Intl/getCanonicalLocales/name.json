@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 458,
             "end": 479,
-            "value": "getCanonicalLocales",
-            "raw": "'getCanonicalLocales'"
+            "value": "getCanonicalLocales"
           },
           {
             "type": "Literal",
             "start": 483,
             "end": 556,
-            "value": "The value of `Intl.getCanonicalLocales.name` is `\"getCanonicalLocales\"`",
-            "raw": "'The value of `Intl.getCanonicalLocales.name` is `\"getCanonicalLocales\"`'"
+            "value": "The value of `Intl.getCanonicalLocales.name` is `\"getCanonicalLocales\"`"
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 607,
             "end": 613,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 660,
             "end": 666,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 714,
             "end": 720,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

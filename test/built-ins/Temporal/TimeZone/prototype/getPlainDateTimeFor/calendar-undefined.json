@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 364,
-                "value": "1975-02-02T14:25:36.123456789Z",
-                "raw": "\"1975-02-02T14:25:36.123456789Z\""
+                "value": "1975-02-02T14:25:36.123456789Z"
               }
             ],
             "optional": false
@@ -125,8 +124,7 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 412,
-                "value": "UTC",
-                "raw": "\"UTC\""
+                "value": "UTC"
               }
             ],
             "optional": false
@@ -186,8 +184,7 @@
             "type": "Literal",
             "start": 457,
             "end": 463,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -241,8 +238,7 @@
                               "type": "Literal",
                               "start": 504,
                               "end": 535,
-                              "value": "Should not call Calendar.from",
-                              "raw": "\"Should not call Calendar.from\""
+                              "value": "Should not call Calendar.from"
                             }
                           ]
                         }
@@ -380,8 +376,7 @@
             "type": "Literal",
             "start": 649,
             "end": 658,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           }
         ],
         "optional": false
@@ -516,8 +511,7 @@
             "type": "Literal",
             "start": 774,
             "end": 783,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           }
         ],
         "optional": false

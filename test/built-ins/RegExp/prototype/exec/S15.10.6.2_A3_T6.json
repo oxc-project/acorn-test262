@@ -23,7 +23,6 @@
             "start": 456,
             "end": 464,
             "value": {},
-            "raw": "/(\\d+)/g",
             "regex": {
               "pattern": "(\\d+)",
               "flags": "g"
@@ -82,22 +81,19 @@
                 "type": "Literal",
                 "start": 506,
                 "end": 511,
-                "value": "123",
-                "raw": "\"123\""
+                "value": "123"
               },
               {
                 "type": "Literal",
                 "start": 512,
                 "end": 517,
-                "value": "456",
-                "raw": "\"456\""
+                "value": "456"
               },
               {
                 "type": "Literal",
                 "start": 518,
                 "end": 523,
-                "value": "789",
-                "raw": "\"789\""
+                "value": "789"
               }
             ]
           }
@@ -157,8 +153,7 @@
                       "type": "Literal",
                       "start": 562,
                       "end": 575,
-                      "value": "123 456 789",
-                      "raw": "\"123 456 789\""
+                      "value": "123 456 789"
                     }
                   ],
                   "optional": false
@@ -237,8 +232,7 @@
                           "type": "Literal",
                           "start": 643,
                           "end": 644,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -343,8 +337,7 @@
             "type": "Literal",
             "start": 758,
             "end": 841,
-            "value": "The value of __expected.length is expected to equal the value of __matched.length",
-            "raw": "'The value of __expected.length is expected to equal the value of __matched.length'"
+            "value": "The value of __expected.length is expected to equal the value of __matched.length"
           }
         ],
         "optional": false
@@ -373,8 +366,7 @@
               "type": "Literal",
               "start": 860,
               "end": 861,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -499,8 +491,7 @@
                   "type": "Literal",
                   "start": 968,
                   "end": 1051,
-                  "value": "The value of __expected[index] is expected to equal the value of __matched[index]",
-                  "raw": "'The value of __expected[index] is expected to equal the value of __matched[index]'"
+                  "value": "The value of __expected[index] is expected to equal the value of __matched[index]"
                 }
               ],
               "optional": false

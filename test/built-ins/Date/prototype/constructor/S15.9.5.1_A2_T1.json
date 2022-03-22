@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 367,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 380,
             "end": 450,
-            "value": "Date.prototype.constructor.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.prototype.constructor.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.prototype.constructor.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -186,15 +184,13 @@
             "type": "Literal",
             "start": 512,
             "end": 513,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 585,
-            "value": "The value of Date.prototype.constructor.length is expected to be 7",
-            "raw": "'The value of Date.prototype.constructor.length is expected to be 7'"
+            "value": "The value of Date.prototype.constructor.length is expected to be 7"
           }
         ],
         "optional": false

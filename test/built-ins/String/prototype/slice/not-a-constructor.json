@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 764,
             "end": 821,
-            "value": "isConstructor(String.prototype.slice) must return false",
-            "raw": "'isConstructor(String.prototype.slice) must return false'"
+            "value": "isConstructor(String.prototype.slice) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 894,
             "end": 943,
-            "value": "`new String.prototype.slice()` throws TypeError",
-            "raw": "'`new String.prototype.slice()` throws TypeError'"
+            "value": "`new String.prototype.slice()` throws TypeError"
           }
         ],
         "optional": false

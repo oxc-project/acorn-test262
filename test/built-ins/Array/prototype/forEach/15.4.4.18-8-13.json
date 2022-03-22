@@ -191,15 +191,13 @@
             "type": "Literal",
             "start": 427,
             "end": 438,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 440,
             "end": 455,
-            "value": "typeof result",
-            "raw": "'typeof result'"
+            "value": "typeof result"
           }
         ],
         "optional": false
@@ -250,8 +248,7 @@
             "type": "Literal",
             "start": 492,
             "end": 502,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false

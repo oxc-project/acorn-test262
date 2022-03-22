@@ -92,15 +92,13 @@
             "type": "Literal",
             "start": 591,
             "end": 599,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 634,
-            "value": "Return a newly created Object",
-            "raw": "'Return a newly created Object'"
+            "value": "Return a newly created Object"
           }
         ],
         "optional": false

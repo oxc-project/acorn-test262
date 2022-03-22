@@ -20,13 +20,12 @@
         "end": 948,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 900,
-            "end": 914,
-            "static": false,
+            "end": 913,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 900,
               "end": 902,
               "name": "x"
@@ -35,8 +34,7 @@
               "type": "Literal",
               "start": 905,
               "end": 913,
-              "value": "Avalue",
-              "raw": "'Avalue'"
+              "value": "Avalue"
             }
           },
           {
@@ -79,14 +77,14 @@
                         "start": 934,
                         "end": 938
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 939,
                         "end": 941,
                         "name": "x"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -118,13 +116,12 @@
         "end": 1019,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 971,
-            "end": 985,
-            "static": false,
+            "end": 984,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 971,
               "end": 973,
               "name": "x"
@@ -133,8 +130,7 @@
               "type": "Literal",
               "start": 976,
               "end": 984,
-              "value": "Bvalue",
-              "raw": "'Bvalue'"
+              "value": "Bvalue"
             }
           },
           {
@@ -177,14 +173,14 @@
                         "start": 1005,
                         "end": 1009
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 1010,
                         "end": 1012,
                         "name": "x"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -283,8 +279,7 @@
             "type": "Literal",
             "start": 1063,
             "end": 1071,
-            "value": "Bvalue",
-            "raw": "'Bvalue'"
+            "value": "Bvalue"
           }
         ],
         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 274,
                 "end": 279,
-                "value": "$0x",
-                "raw": "\"$0x\""
+                "value": "$0x"
               }
             ],
             "optional": false
@@ -62,8 +61,7 @@
             "type": "Literal",
             "start": 287,
             "end": 320,
-            "value": "parseInt(\"$0x\") must return NaN",
-            "raw": "'parseInt(\"$0x\") must return NaN'"
+            "value": "parseInt(\"$0x\") must return NaN"
           }
         ],
         "optional": false
@@ -112,8 +110,7 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 354,
-                "value": "$0X",
-                "raw": "\"$0X\""
+                "value": "$0X"
               }
             ],
             "optional": false
@@ -128,8 +125,7 @@
             "type": "Literal",
             "start": 362,
             "end": 395,
-            "value": "parseInt(\"$0X\") must return NaN",
-            "raw": "'parseInt(\"$0X\") must return NaN'"
+            "value": "parseInt(\"$0X\") must return NaN"
           }
         ],
         "optional": false
@@ -178,8 +174,7 @@
                 "type": "Literal",
                 "start": 424,
                 "end": 429,
-                "value": "$$$",
-                "raw": "\"$$$\""
+                "value": "$$$"
               }
             ],
             "optional": false
@@ -194,8 +189,7 @@
             "type": "Literal",
             "start": 437,
             "end": 470,
-            "value": "parseInt(\"$$$\") must return NaN",
-            "raw": "'parseInt(\"$$$\") must return NaN'"
+            "value": "parseInt(\"$$$\") must return NaN"
           }
         ],
         "optional": false
@@ -244,8 +238,7 @@
                 "type": "Literal",
                 "start": 499,
                 "end": 501,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ],
             "optional": false
@@ -260,8 +253,7 @@
             "type": "Literal",
             "start": 509,
             "end": 539,
-            "value": "parseInt(\"\") must return NaN",
-            "raw": "'parseInt(\"\") must return NaN'"
+            "value": "parseInt(\"\") must return NaN"
           }
         ],
         "optional": false
@@ -310,8 +302,7 @@
                 "type": "Literal",
                 "start": 568,
                 "end": 571,
-                "value": " ",
-                "raw": "\" \""
+                "value": " "
               }
             ],
             "optional": false
@@ -326,8 +317,7 @@
             "type": "Literal",
             "start": 579,
             "end": 610,
-            "value": "parseInt(\" \") must return NaN",
-            "raw": "'parseInt(\" \") must return NaN'"
+            "value": "parseInt(\" \") must return NaN"
           }
         ],
         "optional": false

@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 766,
             "end": 824,
-            "value": "isConstructor(Function.prototype.call) must return false",
-            "raw": "'isConstructor(Function.prototype.call) must return false'"
+            "value": "isConstructor(Function.prototype.call) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 898,
             "end": 948,
-            "value": "`new Function.prototype.call()` throws TypeError",
-            "raw": "'`new Function.prototype.call()` throws TypeError'"
+            "value": "`new Function.prototype.call()` throws TypeError"
           }
         ],
         "optional": false
@@ -298,8 +296,7 @@
             "type": "Literal",
             "start": 1019,
             "end": 1067,
-            "value": "`new Function.prototype.call` throws TypeError",
-            "raw": "'`new Function.prototype.call` throws TypeError'"
+            "value": "`new Function.prototype.call` throws TypeError"
           }
         ],
         "optional": false
@@ -428,8 +425,7 @@
             "type": "Literal",
             "start": 1155,
             "end": 1186,
-            "value": "`new call()` throws TypeError",
-            "raw": "'`new call()` throws TypeError'"
+            "value": "`new call()` throws TypeError"
           }
         ],
         "optional": false

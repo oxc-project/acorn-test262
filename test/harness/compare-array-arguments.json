@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 235,
                 "end": 236,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 238,
                 "end": 241,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               },
               {
                 "type": "Identifier",
@@ -537,8 +535,7 @@
                               "type": "Literal",
                               "start": 764,
                               "end": 782,
-                              "value": "arguments and []",
-                              "raw": "'arguments and []'"
+                              "value": "arguments and []"
                             }
                           ],
                           "optional": false
@@ -551,8 +548,7 @@
                   "type": "Literal",
                   "start": 790,
                   "end": 869,
-                  "value": "Expected [0, a, undefined] and [] to have the same contents. arguments and []",
-                  "raw": "'Expected [0, a, undefined] and [] to have the same contents. arguments and []'"
+                  "value": "Expected [0, a, undefined] and [] to have the same contents. arguments and []"
                 }
               ],
               "optional": false
@@ -631,8 +627,7 @@
                               "type": "Literal",
                               "start": 952,
                               "end": 970,
-                              "value": "[] and arguments",
-                              "raw": "'[] and arguments'"
+                              "value": "[] and arguments"
                             }
                           ],
                           "optional": false
@@ -645,8 +640,7 @@
                   "type": "Literal",
                   "start": 978,
                   "end": 1057,
-                  "value": "Expected [] and [0, a, undefined] to have the same contents. [] and arguments",
-                  "raw": "'Expected [] and [0, a, undefined] to have the same contents. [] and arguments'"
+                  "value": "Expected [] and [0, a, undefined] to have the same contents. [] and arguments"
                 }
               ],
               "optional": false

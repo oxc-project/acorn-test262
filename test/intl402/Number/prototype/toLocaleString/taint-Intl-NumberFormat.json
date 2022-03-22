@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 358,
             "end": 372,
-            "value": "NumberFormat",
-            "raw": "\"NumberFormat\""
+            "value": "NumberFormat"
           }
         ],
         "optional": false
@@ -55,8 +54,7 @@
               "type": "Literal",
               "start": 376,
               "end": 379,
-              "value": 0,
-              "raw": "0.0"
+              "value": 0
             }
           },
           "property": {

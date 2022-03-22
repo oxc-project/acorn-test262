@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 1630,
                   "end": 1631,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -258,8 +257,7 @@
                             "type": "Literal",
                             "start": 1839,
                             "end": 1841,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ]
                       }
@@ -367,8 +365,7 @@
                             "type": "Literal",
                             "start": 1932,
                             "end": 1935,
-                            "value": "0",
-                            "raw": "\"0\""
+                            "value": "0"
                           },
                           {
                             "type": "Identifier",
@@ -390,8 +387,7 @@
                         "type": "Literal",
                         "start": 1959,
                         "end": 2082,
-                        "value": "Reflect.defineProperty(sample, \"0\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"0\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"0\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false"
                       }
                     ],
                     "optional": false
@@ -459,8 +455,7 @@
                             "type": "Literal",
                             "start": 2144,
                             "end": 2148,
-                            "value": "-1",
-                            "raw": "\"-1\""
+                            "value": "-1"
                           },
                           {
                             "type": "Identifier",
@@ -482,8 +477,7 @@
                         "type": "Literal",
                         "start": 2172,
                         "end": 2296,
-                        "value": "Reflect.defineProperty(sample, \"-1\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"-1\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"-1\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false"
                       }
                     ],
                     "optional": false
@@ -551,8 +545,7 @@
                             "type": "Literal",
                             "start": 2358,
                             "end": 2363,
-                            "value": "1.1",
-                            "raw": "\"1.1\""
+                            "value": "1.1"
                           },
                           {
                             "type": "Identifier",
@@ -574,8 +567,7 @@
                         "type": "Literal",
                         "start": 2387,
                         "end": 2512,
-                        "value": "Reflect.defineProperty(sample, \"1.1\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"1.1\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"1.1\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false"
                       }
                     ],
                     "optional": false
@@ -643,8 +635,7 @@
                             "type": "Literal",
                             "start": 2574,
                             "end": 2578,
-                            "value": "-0",
-                            "raw": "\"-0\""
+                            "value": "-0"
                           },
                           {
                             "type": "Identifier",
@@ -666,8 +657,7 @@
                         "type": "Literal",
                         "start": 2602,
                         "end": 2726,
-                        "value": "Reflect.defineProperty(sample, \"-0\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"-0\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"-0\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false"
                       }
                     ],
                     "optional": false
@@ -735,8 +725,7 @@
                             "type": "Literal",
                             "start": 2788,
                             "end": 2791,
-                            "value": "2",
-                            "raw": "\"2\""
+                            "value": "2"
                           },
                           {
                             "type": "ObjectExpression",
@@ -846,8 +835,7 @@
                         "type": "Literal",
                         "start": 2907,
                         "end": 3030,
-                        "value": "Reflect.defineProperty(sample, \"2\", {configurable: true, enumerable: true, writable: true, value: obj}) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"2\", {configurable: true, enumerable: true, writable: true, value: obj}) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"2\", {configurable: true, enumerable: true, writable: true, value: obj}) must return false"
                       }
                     ],
                     "optional": false
@@ -915,8 +903,7 @@
                             "type": "Literal",
                             "start": 3092,
                             "end": 3095,
-                            "value": "3",
-                            "raw": "\"3\""
+                            "value": "3"
                           },
                           {
                             "type": "ObjectExpression",
@@ -1026,8 +1013,7 @@
                         "type": "Literal",
                         "start": 3213,
                         "end": 3338,
-                        "value": "Reflect.defineProperty(sample, \"3\", {configurable: false, enumerable: false, writable: true, value: obj}) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"3\", {configurable: false, enumerable: false, writable: true, value: obj}) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"3\", {configurable: false, enumerable: false, writable: true, value: obj}) must return false"
                       }
                     ],
                     "optional": false
@@ -1095,8 +1081,7 @@
                             "type": "Literal",
                             "start": 3400,
                             "end": 3403,
-                            "value": "4",
-                            "raw": "\"4\""
+                            "value": "4"
                           },
                           {
                             "type": "ObjectExpression",
@@ -1206,8 +1191,7 @@
                         "type": "Literal",
                         "start": 3521,
                         "end": 3652,
-                        "value": "Reflect.defineProperty(\"new TA(42)\", \"4\", {writable: false, configurable: false, enumerable: true, value: obj}) must return false",
-                        "raw": "'Reflect.defineProperty(\"new TA(42)\", \"4\", {writable: false, configurable: false, enumerable: true, value: obj}) must return false'"
+                        "value": "Reflect.defineProperty(\"new TA(42)\", \"4\", {writable: false, configurable: false, enumerable: true, value: obj}) must return false"
                       }
                     ],
                     "optional": false
@@ -1275,8 +1259,7 @@
                             "type": "Literal",
                             "start": 3714,
                             "end": 3718,
-                            "value": "42",
-                            "raw": "\"42\""
+                            "value": "42"
                           },
                           {
                             "type": "Identifier",
@@ -1298,8 +1281,7 @@
                         "type": "Literal",
                         "start": 3742,
                         "end": 3866,
-                        "value": "Reflect.defineProperty(sample, \"42\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"42\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"42\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false"
                       }
                     ],
                     "optional": false
@@ -1367,8 +1349,7 @@
                             "type": "Literal",
                             "start": 3928,
                             "end": 3932,
-                            "value": "43",
-                            "raw": "\"43\""
+                            "value": "43"
                           },
                           {
                             "type": "Identifier",
@@ -1390,8 +1371,7 @@
                         "type": "Literal",
                         "start": 3956,
                         "end": 4080,
-                        "value": "Reflect.defineProperty(sample, \"43\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"43\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"43\", {value: 0, configurable: false, enumerable: true, writable: true} ) must return false"
                       }
                     ],
                     "optional": false
@@ -1459,8 +1439,7 @@
                             "type": "Literal",
                             "start": 4142,
                             "end": 4145,
-                            "value": "5",
-                            "raw": "\"5\""
+                            "value": "5"
                           },
                           {
                             "type": "ObjectExpression",
@@ -1514,8 +1493,7 @@
                         "type": "Literal",
                         "start": 4197,
                         "end": 4274,
-                        "value": "Reflect.defineProperty(sample, \"5\", {get: function() {}}) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"5\", {get: function() {}}) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"5\", {get: function() {}}) must return false"
                       }
                     ],
                     "optional": false
@@ -1583,8 +1561,7 @@
                             "type": "Literal",
                             "start": 4336,
                             "end": 4339,
-                            "value": "6",
-                            "raw": "\"6\""
+                            "value": "6"
                           },
                           {
                             "type": "ObjectExpression",
@@ -1673,8 +1650,7 @@
                         "type": "Literal",
                         "start": 4438,
                         "end": 4550,
-                        "value": "Reflect.defineProperty(sample, \"6\", {configurable: false, enumerable: true, writable: true}) must return false",
-                        "raw": "'Reflect.defineProperty(sample, \"6\", {configurable: false, enumerable: true, writable: true}) must return false'"
+                        "value": "Reflect.defineProperty(sample, \"6\", {configurable: false, enumerable: true, writable: true}) must return false"
                       }
                     ],
                     "optional": false

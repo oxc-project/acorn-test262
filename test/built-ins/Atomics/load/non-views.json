@@ -125,8 +125,7 @@
                                     "type": "Literal",
                                     "start": 464,
                                     "end": 465,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -139,8 +138,7 @@
                         "type": "Literal",
                         "start": 473,
                         "end": 515,
-                        "value": "`Atomics.load(view, 0)` throws TypeError",
-                        "raw": "'`Atomics.load(view, 0)` throws TypeError'"
+                        "value": "`Atomics.load(view, 0)` throws TypeError"
                       }
                     ],
                     "optional": false

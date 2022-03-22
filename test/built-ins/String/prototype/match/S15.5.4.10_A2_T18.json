@@ -23,7 +23,6 @@
             "start": 343,
             "end": 347,
             "value": {},
-            "raw": "/0./",
             "regex": {
               "pattern": "0.",
               "flags": ""
@@ -65,8 +64,7 @@
           "type": "Literal",
           "start": 367,
           "end": 368,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 383,
             "end": 403,
-            "value": 10203040506070809000,
-            "raw": "10203040506070809000"
+            "value": 10203040506070809000
           }
         }
       ],
@@ -220,8 +217,7 @@
             "type": "Literal",
             "start": 567,
             "end": 568,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -231,8 +227,7 @@
           "type": "Literal",
           "start": 574,
           "end": 578,
-          "value": "02",
-          "raw": "\"02\""
+          "value": "02"
         }
       },
       "consequent": {
@@ -263,8 +258,7 @@
                     "type": "Literal",
                     "start": 607,
                     "end": 651,
-                    "value": "#1: __num.match(__re)[0]=== \"02\". Actual: ",
-                    "raw": "'#1: __num.match(__re)[0]=== \"02\". Actual: '"
+                    "value": "#1: __num.match(__re)[0]=== \"02\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -308,8 +302,7 @@
                       "type": "Literal",
                       "start": 672,
                       "end": 673,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false
@@ -381,8 +374,7 @@
           "type": "Literal",
           "start": 884,
           "end": 885,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -413,8 +405,7 @@
                     "type": "Literal",
                     "start": 914,
                     "end": 959,
-                    "value": "#2: __num.match(__re).length ===1. Actual: ",
-                    "raw": "'#2: __num.match(__re).length ===1. Actual: '"
+                    "value": "#2: __num.match(__re).length ===1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -530,8 +521,7 @@
           "type": "Literal",
           "start": 1195,
           "end": 1196,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -562,8 +552,7 @@
                     "type": "Literal",
                     "start": 1225,
                     "end": 1269,
-                    "value": "#3: __num.match(__re).index ===1. Actual: ",
-                    "raw": "'#3: __num.match(__re).index ===1. Actual: '"
+                    "value": "#3: __num.match(__re).index ===1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -724,8 +713,7 @@
                     "type": "Literal",
                     "start": 1546,
                     "end": 1602,
-                    "value": "#4: __num.match(__re).input ===String(__num). Actual: ",
-                    "raw": "'#4: __num.match(__re).input ===String(__num). Actual: '"
+                    "value": "#4: __num.match(__re).input ===String(__num). Actual: "
                   },
                   "operator": "+",
                   "right": {

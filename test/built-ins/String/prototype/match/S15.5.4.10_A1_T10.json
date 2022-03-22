@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 321,
                           "end": 330,
-                          "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "value": "AB"
                         }
                       }
                     ]
@@ -92,8 +91,7 @@
             "type": "Literal",
             "start": 350,
             "end": 366,
-            "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "value": "ABBABABAB"
           }
         }
       ],
@@ -148,8 +146,7 @@
             "type": "Literal",
             "start": 481,
             "end": 482,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -159,8 +156,7 @@
           "type": "Literal",
           "start": 488,
           "end": 492,
-          "value": "AB",
-          "raw": "\"AB\""
+          "value": "AB"
         }
       },
       "consequent": {
@@ -191,8 +187,7 @@
                     "type": "Literal",
                     "start": 521,
                     "end": 657,
-                    "value": "#1: var x; var __obj = {toString:function(){return \"AB\";}}; var __str = \"ABBABABAB\"; __str.match(__obj)[0] ===\"AB\". Actual: ",
-                    "raw": "'#1: var x; var __obj = {toString:function(){return \"\\u0041B\";}}; var __str = \"ABB\\u0041BABAB\"; __str.match(__obj)[0] ===\"AB\". Actual: '"
+                    "value": "#1: var x; var __obj = {toString:function(){return \"AB\";}}; var __str = \"ABBABABAB\"; __str.match(__obj)[0] ===\"AB\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -236,8 +231,7 @@
                       "type": "Literal",
                       "start": 679,
                       "end": 680,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false

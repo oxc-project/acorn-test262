@@ -46,36 +46,31 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 346,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               }
             ]
           }
@@ -102,8 +97,7 @@
             "type": "Literal",
             "start": 368,
             "end": 397,
-            "value": "2000-01-01T00:00+05:30[UTC]",
-            "raw": "\"2000-01-01T00:00+05:30[UTC]\""
+            "value": "2000-01-01T00:00+05:30[UTC]"
           }
         }
       ],
@@ -198,8 +192,7 @@
                         "type": "Literal",
                         "start": 466,
                         "end": 473,
-                        "value": "years",
-                        "raw": "\"years\""
+                        "value": "years"
                       },
                       "kind": "init"
                     },
@@ -234,8 +227,7 @@
             "type": "Literal",
             "start": 492,
             "end": 560,
-            "value": "round should throw RangeError on a string with UTC offset mismatch",
-            "raw": "\"round should throw RangeError on a string with UTC offset mismatch\""
+            "value": "round should throw RangeError on a string with UTC offset mismatch"
           }
         ],
         "optional": false

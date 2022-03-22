@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 974,
                 "end": 985,
-                "value": "collation",
-                "raw": "\"collation\""
+                "value": "collation"
               }
             ],
             "optional": false
@@ -80,71 +79,61 @@
                 "type": "Literal",
                 "start": 1337,
                 "end": 1341,
-                "value": "en",
-                "raw": "\"en\""
+                "value": "en"
               },
               {
                 "type": "Literal",
                 "start": 1366,
                 "end": 1370,
-                "value": "ar",
-                "raw": "\"ar\""
+                "value": "ar"
               },
               {
                 "type": "Literal",
                 "start": 1384,
                 "end": 1388,
-                "value": "de",
-                "raw": "\"de\""
+                "value": "de"
               },
               {
                 "type": "Literal",
                 "start": 1403,
                 "end": 1407,
-                "value": "es",
-                "raw": "\"es\""
+                "value": "es"
               },
               {
                 "type": "Literal",
                 "start": 1419,
                 "end": 1423,
-                "value": "hi",
-                "raw": "\"hi\""
+                "value": "hi"
               },
               {
                 "type": "Literal",
                 "start": 1437,
                 "end": 1441,
-                "value": "ko",
-                "raw": "\"ko\""
+                "value": "ko"
               },
               {
                 "type": "Literal",
                 "start": 1457,
                 "end": 1461,
-                "value": "ln",
-                "raw": "\"ln\""
+                "value": "ln"
               },
               {
                 "type": "Literal",
                 "start": 1477,
                 "end": 1481,
-                "value": "si",
-                "raw": "\"si\""
+                "value": "si"
               },
               {
                 "type": "Literal",
                 "start": 1493,
                 "end": 1497,
-                "value": "sv",
-                "raw": "\"sv\""
+                "value": "sv"
               },
               {
                 "type": "Literal",
                 "start": 1513,
                 "end": 1517,
-                "value": "zh",
-                "raw": "\"zh\""
+                "value": "zh"
               }
             ]
           }

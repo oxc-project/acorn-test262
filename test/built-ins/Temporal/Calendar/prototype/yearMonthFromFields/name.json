@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 874,
             "end": 880,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 893,
                   "end": 914,
-                  "value": "yearMonthFromFields",
-                  "raw": "\"yearMonthFromFields\""
+                  "value": "yearMonthFromFields"
                 },
                 "kind": "init"
               },

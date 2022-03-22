@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 1200,
             "end": 1203,
-            "value": "f",
-            "raw": "'f'"
+            "value": "f"
           },
           {
             "type": "ObjectExpression",
@@ -73,8 +72,7 @@
                   "type": "Literal",
                   "start": 1216,
                   "end": 1219,
-                  "value": "x",
-                  "raw": "'x'"
+                  "value": "x"
                 },
                 "kind": "init"
               },
@@ -169,8 +167,7 @@
             "type": "Literal",
             "start": 1294,
             "end": 1568,
-            "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });if (true) function f() {  } else function _f() {}",
-            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, \"x\", \"binding is not reinitialized\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: false\\\n  }, { restore: true });if (true) function f() {  } else function _f() {}'"
+            "value": "var global = fnGlobalObject();  assert.sameValue(f, \"x\", \"binding is not reinitialized\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: false  }, { restore: true });if (true) function f() {  } else function _f() {}"
           }
         ],
         "optional": false
@@ -221,8 +218,7 @@
             "type": "Literal",
             "start": 1600,
             "end": 1610,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -253,8 +249,7 @@
             "type": "Literal",
             "start": 1636,
             "end": 1639,
-            "value": "f",
-            "raw": "\"f\""
+            "value": "f"
           },
           {
             "type": "ObjectExpression",

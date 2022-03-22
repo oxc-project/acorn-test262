@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 838,
             "end": 907,
-            "value": "isConstructor(TypedArray.prototype.findLastIndex) must return false",
-            "raw": "'isConstructor(TypedArray.prototype.findLastIndex) must return false'"
+            "value": "isConstructor(TypedArray.prototype.findLastIndex) must return false"
           }
         ],
         "optional": false
@@ -173,8 +172,7 @@
                             "type": "Literal",
                             "start": 971,
                             "end": 972,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -236,8 +234,7 @@
             "type": "Literal",
             "start": 1010,
             "end": 1089,
-            "value": "`let u8 = new Uint8Array(1); new u8.findLastIndex(() => {})` throws TypeError",
-            "raw": "'`let u8 = new Uint8Array(1); new u8.findLastIndex(() => {})` throws TypeError'"
+            "value": "`let u8 = new Uint8Array(1); new u8.findLastIndex(() => {})` throws TypeError"
           }
         ],
         "optional": false

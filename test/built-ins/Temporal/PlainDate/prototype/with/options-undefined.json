@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 308,
                 "end": 312,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 314,
                 "end": 315,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 317,
                 "end": 318,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -106,8 +103,7 @@
                   "type": "Literal",
                   "start": 343,
                   "end": 345,
-                  "value": 31,
-                  "raw": "31"
+                  "value": 31
                 },
                 "kind": "init"
               }
@@ -226,15 +222,13 @@
             "type": "Literal",
             "start": 430,
             "end": 431,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 464,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false
@@ -291,15 +285,13 @@
             "type": "Literal",
             "start": 498,
             "end": 500,
-            "value": 29,
-            "raw": "29"
+            "value": 29
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 533,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false
@@ -408,15 +400,13 @@
             "type": "Literal",
             "start": 606,
             "end": 607,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 609,
             "end": 640,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false
@@ -473,15 +463,13 @@
             "type": "Literal",
             "start": 674,
             "end": 676,
-            "value": 29,
-            "raw": "29"
+            "value": 29
           },
           {
             "type": "Literal",
             "start": 678,
             "end": 709,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false

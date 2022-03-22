@@ -106,8 +106,7 @@
             "type": "Literal",
             "start": 313,
             "end": 343,
-            "value": "`s.has(NaN)` returns `false`",
-            "raw": "\"`s.has(NaN)` returns `false`\""
+            "value": "`s.has(NaN)` returns `false`"
           }
         ],
         "optional": false

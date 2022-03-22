@@ -70,22 +70,19 @@
                         "type": "Literal",
                         "start": 357,
                         "end": 360,
-                        "value": "a",
-                        "raw": "'a'"
+                        "value": "a"
                       },
                       {
                         "type": "Literal",
                         "start": 362,
                         "end": 365,
-                        "value": "a",
-                        "raw": "'a'"
+                        "value": "a"
                       },
                       {
                         "type": "Literal",
                         "start": 367,
                         "end": 382,
-                        "value": "\"use strict\";",
-                        "raw": "'\"use strict\";'"
+                        "value": "\"use strict\";"
                       }
                     ],
                     "optional": false

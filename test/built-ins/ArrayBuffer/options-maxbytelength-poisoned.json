@@ -145,8 +145,7 @@
                         "type": "Literal",
                         "start": 843,
                         "end": 844,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Identifier",

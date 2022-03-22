@@ -74,15 +74,13 @@
                                 "type": "Literal",
                                 "start": 657,
                                 "end": 659,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 661,
                                 "end": 663,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -122,8 +120,7 @@
                             "type": "Literal",
                             "start": 685,
                             "end": 690,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -194,8 +191,7 @@
                               "type": "Literal",
                               "start": 737,
                               "end": 742,
-                              "value": "baz",
-                              "raw": "\"baz\""
+                              "value": "baz"
                             },
                             "kind": "init"
                           }
@@ -289,15 +285,13 @@
                         "type": "Literal",
                         "start": 825,
                         "end": 830,
-                        "value": "baz",
-                        "raw": "\"baz\""
+                        "value": "baz"
                       },
                       {
                         "type": "Literal",
                         "start": 836,
                         "end": 868,
-                        "value": "return value from a Symbol key",
-                        "raw": "\"return value from a Symbol key\""
+                        "value": "return value from a Symbol key"
                       }
                     ],
                     "optional": false

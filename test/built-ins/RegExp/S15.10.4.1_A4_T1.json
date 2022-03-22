@@ -46,8 +46,7 @@
                   "type": "Literal",
                   "start": 301,
                   "end": 302,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ]
@@ -107,15 +106,13 @@
             "type": "Literal",
             "start": 336,
             "end": 342,
-            "value": "null",
-            "raw": "\"null\""
+            "value": "null"
           },
           {
             "type": "Literal",
             "start": 344,
             "end": 395,
-            "value": "The value of __re.source is expected to be \"null\"",
-            "raw": "'The value of __re.source is expected to be \"null\"'"
+            "value": "The value of __re.source is expected to be \"null\""
           }
         ],
         "optional": false
@@ -179,8 +176,7 @@
             "type": "Literal",
             "start": 438,
             "end": 491,
-            "value": "The value of __re.multiline is expected to be false",
-            "raw": "'The value of __re.multiline is expected to be false'"
+            "value": "The value of __re.multiline is expected to be false"
           }
         ],
         "optional": false
@@ -244,8 +240,7 @@
             "type": "Literal",
             "start": 531,
             "end": 581,
-            "value": "The value of __re.global is expected to be false",
-            "raw": "'The value of __re.global is expected to be false'"
+            "value": "The value of __re.global is expected to be false"
           }
         ],
         "optional": false
@@ -309,8 +304,7 @@
             "type": "Literal",
             "start": 625,
             "end": 679,
-            "value": "The value of __re.ignoreCase is expected to be false",
-            "raw": "'The value of __re.ignoreCase is expected to be false'"
+            "value": "The value of __re.ignoreCase is expected to be false"
           }
         ],
         "optional": false

@@ -504,7 +504,6 @@
                         "start": 753,
                         "end": 757,
                         "value": {},
-                        "raw": "/re/",
                         "regex": {
                           "pattern": "re",
                           "flags": ""

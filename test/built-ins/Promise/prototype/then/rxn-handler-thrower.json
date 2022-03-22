@@ -147,8 +147,7 @@
                             "type": "Literal",
                             "start": 374,
                             "end": 423,
-                            "value": "Unexpected fulfillment - promise should reject.",
-                            "raw": "\"Unexpected fulfillment - promise should reject.\""
+                            "value": "Unexpected fulfillment - promise should reject."
                           }
                         ],
                         "optional": false
@@ -228,8 +227,7 @@
                                     "type": "Literal",
                                     "start": 482,
                                     "end": 527,
-                                    "value": "Expected reject reason to be obj, actually ",
-                                    "raw": "\"Expected reject reason to be obj, actually \""
+                                    "value": "Expected reject reason to be obj, actually "
                                   },
                                   "operator": "+",
                                   "right": {

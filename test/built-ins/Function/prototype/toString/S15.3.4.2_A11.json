@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 337,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -82,8 +81,7 @@
             "type": "Literal",
             "start": 342,
             "end": 413,
-            "value": "Function.prototype.toString.hasOwnProperty(\"length\") must return true",
-            "raw": "'Function.prototype.toString.hasOwnProperty(\"length\") must return true'"
+            "value": "Function.prototype.toString.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -166,15 +164,13 @@
             "type": "Literal",
             "start": 476,
             "end": 477,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 481,
             "end": 550,
-            "value": "The value of Function.prototype.toString.length is expected to be 0",
-            "raw": "'The value of Function.prototype.toString.length is expected to be 0'"
+            "value": "The value of Function.prototype.toString.length is expected to be 0"
           }
         ],
         "optional": false

@@ -49,8 +49,7 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 389,
-                  "value": "#1: new null throw TypeError",
-                  "raw": "'#1: new null throw TypeError'"
+                  "value": "#1: new null throw TypeError"
                 }
               ]
             }
@@ -136,8 +135,7 @@
                           "type": "Literal",
                           "start": 477,
                           "end": 507,
-                          "value": "#1: new null throw TypeError",
-                          "raw": "'#1: new null throw TypeError'"
+                          "value": "#1: new null throw TypeError"
                         }
                       ]
                     }
@@ -222,8 +220,7 @@
                   "type": "Literal",
                   "start": 584,
                   "end": 625,
-                  "value": "#2: var x = null; new x throw TypeError",
-                  "raw": "'#2: var x = null; new x throw TypeError'"
+                  "value": "#2: var x = null; new x throw TypeError"
                 }
               ]
             }
@@ -309,8 +306,7 @@
                           "type": "Literal",
                           "start": 713,
                           "end": 754,
-                          "value": "#2: var x = null; new x throw TypeError",
-                          "raw": "'#2: var x = null; new x throw TypeError'"
+                          "value": "#2: var x = null; new x throw TypeError"
                         }
                       ]
                     }
@@ -395,8 +391,7 @@
                   "type": "Literal",
                   "start": 833,
                   "end": 876,
-                  "value": "#3: var x = null; new x() throw TypeError",
-                  "raw": "'#3: var x = null; new x() throw TypeError'"
+                  "value": "#3: var x = null; new x() throw TypeError"
                 }
               ]
             }
@@ -482,8 +477,7 @@
                           "type": "Literal",
                           "start": 964,
                           "end": 1007,
-                          "value": "#3: var x = null; new x() throw TypeError",
-                          "raw": "'#3: var x = null; new x() throw TypeError'"
+                          "value": "#3: var x = null; new x() throw TypeError"
                         }
                       ]
                     }

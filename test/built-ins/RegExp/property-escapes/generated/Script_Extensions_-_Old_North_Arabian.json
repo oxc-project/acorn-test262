@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 547,
                               "end": 555,
-                              "value": 68224,
-                              "raw": "0x010A80"
+                              "value": 68224
                             },
                             {
                               "type": "Literal",
                               "start": 557,
                               "end": 565,
-                              "value": 68255,
-                              "raw": "0x010A9F"
+                              "value": 68255
                             }
                           ]
                         }
@@ -127,7 +125,6 @@
             "start": 598,
             "end": 643,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Old_North_Arabian}+$",
               "flags": "u"
@@ -143,8 +140,7 @@
             "type": "Literal",
             "start": 663,
             "end": 705,
-            "value": "\\p{Script_Extensions=Old_North_Arabian}",
-            "raw": "\"\\\\p{Script_Extensions=Old_North_Arabian}\""
+            "value": "\\p{Script_Extensions=Old_North_Arabian}"
           }
         ],
         "optional": false
@@ -170,7 +166,6 @@
             "start": 732,
             "end": 764,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Narb}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Narb}+$",
               "flags": "u"
@@ -186,8 +181,7 @@
             "type": "Literal",
             "start": 784,
             "end": 813,
-            "value": "\\p{Script_Extensions=Narb}",
-            "raw": "\"\\\\p{Script_Extensions=Narb}\""
+            "value": "\\p{Script_Extensions=Narb}"
           }
         ],
         "optional": false
@@ -213,7 +207,6 @@
             "start": 840,
             "end": 871,
             "value": {},
-            "raw": "/^\\p{scx=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Old_North_Arabian}+$",
               "flags": "u"
@@ -229,8 +222,7 @@
             "type": "Literal",
             "start": 891,
             "end": 919,
-            "value": "\\p{scx=Old_North_Arabian}",
-            "raw": "\"\\\\p{scx=Old_North_Arabian}\""
+            "value": "\\p{scx=Old_North_Arabian}"
           }
         ],
         "optional": false
@@ -256,7 +248,6 @@
             "start": 946,
             "end": 964,
             "value": {},
-            "raw": "/^\\p{scx=Narb}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Narb}+$",
               "flags": "u"
@@ -272,8 +263,7 @@
             "type": "Literal",
             "start": 984,
             "end": 999,
-            "value": "\\p{scx=Narb}",
-            "raw": "\"\\\\p{scx=Narb}\""
+            "value": "\\p{scx=Narb}"
           }
         ],
         "optional": false
@@ -358,15 +348,13 @@
                               "type": "Literal",
                               "start": 1081,
                               "end": 1089,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1091,
                               "end": 1099,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -379,15 +367,13 @@
                               "type": "Literal",
                               "start": 1107,
                               "end": 1115,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1117,
                               "end": 1125,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -400,15 +386,13 @@
                               "type": "Literal",
                               "start": 1133,
                               "end": 1141,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1143,
                               "end": 1151,
-                              "value": 68223,
-                              "raw": "0x010A7F"
+                              "value": 68223
                             }
                           ]
                         },
@@ -421,15 +405,13 @@
                               "type": "Literal",
                               "start": 1159,
                               "end": 1167,
-                              "value": 68256,
-                              "raw": "0x010AA0"
+                              "value": 68256
                             },
                             {
                               "type": "Literal",
                               "start": 1169,
                               "end": 1177,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -466,7 +448,6 @@
             "start": 1210,
             "end": 1255,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Old_North_Arabian}+$",
               "flags": "u"
@@ -482,8 +463,7 @@
             "type": "Literal",
             "start": 1278,
             "end": 1320,
-            "value": "\\P{Script_Extensions=Old_North_Arabian}",
-            "raw": "\"\\\\P{Script_Extensions=Old_North_Arabian}\""
+            "value": "\\P{Script_Extensions=Old_North_Arabian}"
           }
         ],
         "optional": false
@@ -509,7 +489,6 @@
             "start": 1347,
             "end": 1379,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Narb}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Narb}+$",
               "flags": "u"
@@ -525,8 +504,7 @@
             "type": "Literal",
             "start": 1402,
             "end": 1431,
-            "value": "\\P{Script_Extensions=Narb}",
-            "raw": "\"\\\\P{Script_Extensions=Narb}\""
+            "value": "\\P{Script_Extensions=Narb}"
           }
         ],
         "optional": false
@@ -552,7 +530,6 @@
             "start": 1458,
             "end": 1489,
             "value": {},
-            "raw": "/^\\P{scx=Old_North_Arabian}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Old_North_Arabian}+$",
               "flags": "u"
@@ -568,8 +545,7 @@
             "type": "Literal",
             "start": 1512,
             "end": 1540,
-            "value": "\\P{scx=Old_North_Arabian}",
-            "raw": "\"\\\\P{scx=Old_North_Arabian}\""
+            "value": "\\P{scx=Old_North_Arabian}"
           }
         ],
         "optional": false
@@ -595,7 +571,6 @@
             "start": 1567,
             "end": 1585,
             "value": {},
-            "raw": "/^\\P{scx=Narb}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Narb}+$",
               "flags": "u"
@@ -611,8 +586,7 @@
             "type": "Literal",
             "start": 1608,
             "end": 1623,
-            "value": "\\P{scx=Narb}",
-            "raw": "\"\\\\P{scx=Narb}\""
+            "value": "\\P{scx=Narb}"
           }
         ],
         "optional": false

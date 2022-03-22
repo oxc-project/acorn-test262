@@ -507,8 +507,7 @@
                         "type": "Literal",
                         "start": 1396,
                         "end": 1433,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

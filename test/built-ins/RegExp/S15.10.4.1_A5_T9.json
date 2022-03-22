@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 469,
                     "end": 547,
-                    "value": "#1.1: new RegExp(\"$sup\",{toString:function(){}}) throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"$sup\",{toString:function(){}}) throw SyntaxError. Actual: '"
+                    "value": "#1.1: new RegExp(\"$sup\",{toString:function(){}}) throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -58,8 +57,7 @@
                           "type": "Literal",
                           "start": 562,
                           "end": 568,
-                          "value": "$sup",
-                          "raw": "\"$sup\""
+                          "value": "$sup"
                         },
                         {
                           "type": "ObjectExpression",
@@ -180,8 +178,7 @@
                     "type": "Literal",
                     "start": 675,
                     "end": 751,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

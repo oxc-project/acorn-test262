@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(isFinite) must return false",
-            "raw": "'isConstructor(isFinite) must return false'"
+            "value": "isConstructor(isFinite) must return false"
           }
         ],
         "optional": false
@@ -136,8 +135,7 @@
                         "type": "Literal",
                         "start": 824,
                         "end": 825,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ]
                   }
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 831,
             "end": 867,
-            "value": "`new isFinite(1)` throws TypeError",
-            "raw": "'`new isFinite(1)` throws TypeError'"
+            "value": "`new isFinite(1)` throws TypeError"
           }
         ],
         "optional": false

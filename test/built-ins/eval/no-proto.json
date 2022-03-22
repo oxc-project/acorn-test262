@@ -66,8 +66,7 @@
                     "type": "Literal",
                     "start": 322,
                     "end": 366,
-                    "value": "#1: eval.prototype === undefined. Actual: ",
-                    "raw": "'#1: eval.prototype === undefined. Actual: '"
+                    "value": "#1: eval.prototype === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

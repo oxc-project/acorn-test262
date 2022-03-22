@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 302,
                 "end": 310,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
             "type": "Literal",
             "start": 313,
             "end": 361,
-            "value": "Date.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -114,15 +112,13 @@
             "type": "Literal",
             "start": 394,
             "end": 395,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 397,
             "end": 443,
-            "value": "The value of Date.length is expected to be 7",
-            "raw": "'The value of Date.length is expected to be 7'"
+            "value": "The value of Date.length is expected to be 7"
           }
         ],
         "optional": false

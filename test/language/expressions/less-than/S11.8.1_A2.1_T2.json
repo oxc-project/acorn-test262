@@ -31,8 +31,7 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 283,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -59,8 +58,7 @@
                     "type": "Literal",
                     "start": 310,
                     "end": 354,
-                    "value": "#1.1: x < 1 throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: x < 1 throw ReferenceError. Actual: '"
+                    "value": "#1.1: x < 1 throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -82,8 +80,7 @@
                         "type": "Literal",
                         "start": 362,
                         "end": 363,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -176,8 +173,7 @@
                             "type": "Literal",
                             "start": 458,
                             "end": 502,
-                            "value": "#1.2: x < 1 throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: x < 1 throw ReferenceError. Actual: '"
+                            "value": "#1.2: x < 1 throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 402,
             "end": 411,
-            "value": "valueOf",
-            "raw": "\"valueOf\""
+            "value": "valueOf"
           },
           {
             "type": "ObjectExpression",

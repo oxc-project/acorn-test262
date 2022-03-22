@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 670,
             "end": 671,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -146,8 +145,7 @@
                       "type": "Literal",
                       "start": 731,
                       "end": 732,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -238,36 +236,31 @@
                 "type": "Literal",
                 "start": 805,
                 "end": 806,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 808,
                 "end": 809,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 811,
                 "end": 812,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 814,
                 "end": 815,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 817,
                 "end": 818,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -471,15 +464,13 @@
             "type": "Literal",
             "start": 940,
             "end": 941,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 943,
             "end": 977,
-            "value": "Constructor invoked exactly once",
-            "raw": "'Constructor invoked exactly once'"
+            "value": "Constructor invoked exactly once"
           }
         ],
         "optional": false
@@ -620,15 +611,13 @@
             "type": "Literal",
             "start": 1078,
             "end": 1079,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1081,
             "end": 1125,
-            "value": "Constructor invoked with a single argument",
-            "raw": "'Constructor invoked with a single argument'"
+            "value": "Constructor invoked with a single argument"
           }
         ],
         "optional": false
@@ -676,8 +665,7 @@
               "type": "Literal",
               "start": 1150,
               "end": 1151,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -686,8 +674,7 @@
             "type": "Literal",
             "start": 1154,
             "end": 1155,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           }
         ],
         "optional": false

@@ -40,8 +40,7 @@
                 "type": "Literal",
                 "start": 1199,
                 "end": 1201,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               },
               {
                 "type": "Literal",
@@ -74,8 +73,7 @@
                 "type": "Literal",
                 "start": 1234,
                 "end": 1242,
-                "value": "string",
-                "raw": "'string'"
+                "value": "string"
               },
               {
                 "type": "MemberExpression",
@@ -266,8 +264,7 @@
                                       "type": "Literal",
                                       "start": 1421,
                                       "end": 1432,
-                                      "value": "prototype",
-                                      "raw": "'prototype'"
+                                      "value": "prototype"
                                     }
                                   },
                                   "consequent": {

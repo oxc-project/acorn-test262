@@ -175,8 +175,7 @@
             "type": "Literal",
             "start": 591,
             "end": 640,
-            "value": "resolvedOptions returned the same object twice.",
-            "raw": "\"resolvedOptions returned the same object twice.\""
+            "value": "resolvedOptions returned the same object twice."
           }
         ],
         "optional": false
@@ -238,8 +237,7 @@
               "type": "Literal",
               "start": 791,
               "end": 809,
-              "value": "Invalid locale: ",
-              "raw": "\"Invalid locale: \""
+              "value": "Invalid locale: "
             },
             "operator": "+",
             "right": {
@@ -322,8 +320,7 @@
               "type": "Literal",
               "start": 890,
               "end": 918,
-              "value": "Invalid numbering system: ",
-              "raw": "\"Invalid numbering system: \""
+              "value": "Invalid numbering system: "
             },
             "operator": "+",
             "right": {
@@ -401,8 +398,7 @@
             "type": "Literal",
             "start": 977,
             "end": 986,
-            "value": "decimal",
-            "raw": "\"decimal\""
+            "value": "decimal"
           }
         ],
         "optional": false
@@ -459,8 +455,7 @@
             "type": "Literal",
             "start": 1035,
             "end": 1036,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -517,8 +512,7 @@
             "type": "Literal",
             "start": 1086,
             "end": 1087,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -575,8 +569,7 @@
             "type": "Literal",
             "start": 1137,
             "end": 1138,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -633,8 +626,7 @@
             "type": "Literal",
             "start": 1178,
             "end": 1184,
-            "value": "auto",
-            "raw": "\"auto\""
+            "value": "auto"
           }
         ],
         "optional": false
@@ -757,8 +749,7 @@
             "type": "Literal",
             "start": 1292,
             "end": 1300,
-            "value": "locale",
-            "raw": "\"locale\""
+            "value": "locale"
           },
           {
             "type": "Identifier",
@@ -795,8 +786,7 @@
             "type": "Literal",
             "start": 1344,
             "end": 1361,
-            "value": "numberingSystem",
-            "raw": "\"numberingSystem\""
+            "value": "numberingSystem"
           },
           {
             "type": "Identifier",
@@ -833,8 +823,7 @@
             "type": "Literal",
             "start": 1405,
             "end": 1412,
-            "value": "style",
-            "raw": "\"style\""
+            "value": "style"
           },
           {
             "type": "Identifier",
@@ -871,8 +860,7 @@
             "type": "Literal",
             "start": 1456,
             "end": 1466,
-            "value": "currency",
-            "raw": "\"currency\""
+            "value": "currency"
           },
           {
             "type": "Identifier",
@@ -909,8 +897,7 @@
             "type": "Literal",
             "start": 1503,
             "end": 1520,
-            "value": "currencyDisplay",
-            "raw": "\"currencyDisplay\""
+            "value": "currencyDisplay"
           },
           {
             "type": "Identifier",
@@ -947,8 +934,7 @@
             "type": "Literal",
             "start": 1557,
             "end": 1579,
-            "value": "minimumIntegerDigits",
-            "raw": "\"minimumIntegerDigits\""
+            "value": "minimumIntegerDigits"
           },
           {
             "type": "Identifier",
@@ -985,8 +971,7 @@
             "type": "Literal",
             "start": 1623,
             "end": 1646,
-            "value": "minimumFractionDigits",
-            "raw": "\"minimumFractionDigits\""
+            "value": "minimumFractionDigits"
           },
           {
             "type": "Identifier",
@@ -1023,8 +1008,7 @@
             "type": "Literal",
             "start": 1690,
             "end": 1713,
-            "value": "maximumFractionDigits",
-            "raw": "\"maximumFractionDigits\""
+            "value": "maximumFractionDigits"
           },
           {
             "type": "Identifier",
@@ -1061,8 +1045,7 @@
             "type": "Literal",
             "start": 1757,
             "end": 1783,
-            "value": "minimumSignificantDigits",
-            "raw": "\"minimumSignificantDigits\""
+            "value": "minimumSignificantDigits"
           },
           {
             "type": "Identifier",
@@ -1099,8 +1082,7 @@
             "type": "Literal",
             "start": 1820,
             "end": 1846,
-            "value": "maximumSignificantDigits",
-            "raw": "\"maximumSignificantDigits\""
+            "value": "maximumSignificantDigits"
           },
           {
             "type": "Identifier",
@@ -1137,8 +1119,7 @@
             "type": "Literal",
             "start": 1883,
             "end": 1896,
-            "value": "useGrouping",
-            "raw": "\"useGrouping\""
+            "value": "useGrouping"
           },
           {
             "type": "Identifier",

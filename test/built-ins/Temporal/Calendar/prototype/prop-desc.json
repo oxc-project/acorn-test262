@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 342,
             "end": 350,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           }
         ],
         "optional": false
@@ -190,8 +189,7 @@
             "type": "Literal",
             "start": 444,
             "end": 455,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",

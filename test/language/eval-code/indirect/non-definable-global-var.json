@@ -255,8 +255,7 @@
                                   "type": "Literal",
                                   "start": 1115,
                                   "end": 1116,
-                                  "value": 0,
-                                  "raw": "0"
+                                  "value": 0
                                 },
                                 {
                                   "type": "Identifier",
@@ -272,8 +271,7 @@
                               "type": "Literal",
                               "start": 1123,
                               "end": 1150,
-                              "value": "var unlikelyVariableName;",
-                              "raw": "\"var unlikelyVariableName;\""
+                              "value": "var unlikelyVariableName;"
                             }
                           ],
                           "optional": false

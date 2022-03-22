@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 374,
             "end": 384,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 388,
             "end": 461,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -212,8 +210,7 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 578,
-                "value": "fn",
-                "raw": "'fn'"
+                "value": "fn"
               }
             ],
             "optional": false
@@ -265,8 +262,7 @@
                 "type": "Literal",
                 "start": 613,
                 "end": 617,
-                "value": "fn",
-                "raw": "'fn'"
+                "value": "fn"
               }
             ],
             "optional": false
@@ -364,8 +360,7 @@
             "type": "Literal",
             "start": 698,
             "end": 708,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -416,8 +411,7 @@
             "type": "Literal",
             "start": 749,
             "end": 759,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false

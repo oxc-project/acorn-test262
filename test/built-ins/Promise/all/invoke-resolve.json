@@ -204,8 +204,7 @@
             "type": "Literal",
             "start": 659,
             "end": 660,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -379,8 +378,7 @@
                       "type": "Literal",
                       "start": 800,
                       "end": 844,
-                      "value": "`resolve` invoked with next iterated value",
-                      "raw": "'`resolve` invoked with next iterated value'"
+                      "value": "`resolve` invoked with next iterated value"
                     }
                   ],
                   "optional": false
@@ -437,15 +435,13 @@
                       "type": "Literal",
                       "start": 892,
                       "end": 893,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 895,
                       "end": 937,
-                      "value": "`resolve` invoked with a single argument",
-                      "raw": "'`resolve` invoked with a single argument'"
+                      "value": "`resolve` invoked with a single argument"
                     }
                   ],
                   "optional": false
@@ -494,8 +490,7 @@
                       "type": "Literal",
                       "start": 977,
                       "end": 1010,
-                      "value": "`this` value is the constructor",
-                      "raw": "'`this` value is the constructor'"
+                      "value": "`this` value is the constructor"
                     }
                   ],
                   "optional": false
@@ -590,8 +585,7 @@
                     "type": "Literal",
                     "start": 1088,
                     "end": 1089,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -739,15 +733,13 @@
             "type": "Literal",
             "start": 1199,
             "end": 1200,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 1202,
             "end": 1250,
-            "value": "`resolve` invoked once for each iterated value",
-            "raw": "'`resolve` invoked once for each iterated value'"
+            "value": "`resolve` invoked once for each iterated value"
           }
         ],
         "optional": false

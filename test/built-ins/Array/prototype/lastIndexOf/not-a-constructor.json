@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 774,
             "end": 836,
-            "value": "isConstructor(Array.prototype.lastIndexOf) must return false",
-            "raw": "'isConstructor(Array.prototype.lastIndexOf) must return false'"
+            "value": "isConstructor(Array.prototype.lastIndexOf) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 914,
             "end": 968,
-            "value": "`new Array.prototype.lastIndexOf()` throws TypeError",
-            "raw": "'`new Array.prototype.lastIndexOf()` throws TypeError'"
+            "value": "`new Array.prototype.lastIndexOf()` throws TypeError"
           }
         ],
         "optional": false

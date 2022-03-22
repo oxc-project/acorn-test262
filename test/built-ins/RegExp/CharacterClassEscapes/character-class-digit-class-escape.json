@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 1673,
                               "end": 1679,
-                              "value": 48,
-                              "raw": "0x0030"
+                              "value": 48
                             },
                             {
                               "type": "Literal",
                               "start": 1681,
                               "end": 1687,
-                              "value": 57,
-                              "raw": "0x0039"
+                              "value": 57
                             }
                           ]
                         }
@@ -127,7 +125,6 @@
             "start": 1713,
             "end": 1718,
             "value": {},
-            "raw": "/\\d/g",
             "regex": {
               "pattern": "\\d",
               "flags": "g"
@@ -332,8 +329,7 @@
                                 "type": "Literal",
                                 "start": 1881,
                                 "end": 1885,
-                                "value": "0x",
-                                "raw": "'0x'"
+                                "value": "0x"
                               },
                               "operator": "+",
                               "right": {
@@ -372,8 +368,7 @@
                                         "type": "Literal",
                                         "start": 1905,
                                         "end": 1906,
-                                        "value": 0,
-                                        "raw": "0"
+                                        "value": 0
                                       }
                                     ],
                                     "optional": false
@@ -392,8 +387,7 @@
                                     "type": "Literal",
                                     "start": 1917,
                                     "end": 1919,
-                                    "value": 16,
-                                    "raw": "16"
+                                    "value": 16
                                   }
                                 ],
                                 "optional": false
@@ -465,8 +459,7 @@
             "type": "Literal",
             "start": 1983,
             "end": 1984,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "BinaryExpression",
@@ -476,8 +469,7 @@
               "type": "Literal",
               "start": 1990,
               "end": 2037,
-              "value": "Expected matching code points, but received: ",
-              "raw": "'Expected matching code points, but received: '"
+              "value": "Expected matching code points, but received: "
             },
             "operator": "+",
             "right": {
@@ -508,8 +500,7 @@
                   "type": "Literal",
                   "start": 2052,
                   "end": 2055,
-                  "value": ",",
-                  "raw": "','"
+                  "value": ","
                 }
               ],
               "optional": false

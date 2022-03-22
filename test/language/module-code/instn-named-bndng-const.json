@@ -76,8 +76,7 @@
             "type": "Literal",
             "start": 1748,
             "end": 1788,
-            "value": "binding is created but not initialized",
-            "raw": "'binding is created but not initialized'"
+            "value": "binding is created but not initialized"
           }
         ],
         "optional": false
@@ -110,8 +109,7 @@
         "type": "Literal",
         "start": 1815,
         "end": 1845,
-        "value": "./instn-named-bndng-const.js",
-        "raw": "'./instn-named-bndng-const.js'"
+        "value": "./instn-named-bndng-const.js"
       }
     },
     {
@@ -137,8 +135,7 @@
               "type": "Literal",
               "start": 1864,
               "end": 1866,
-              "value": 23,
-              "raw": "23"
+              "value": 23
             }
           }
         ],

@@ -114,8 +114,7 @@
             "type": "Literal",
             "start": 655,
             "end": 679,
-            "value": "Calling as constructor",
-            "raw": "\"Calling as constructor\""
+            "value": "Calling as constructor"
           }
         ],
         "optional": false
@@ -219,8 +218,7 @@
             "type": "Literal",
             "start": 763,
             "end": 817,
-            "value": "isConstructor(Temporal.Calendar.prototype.monthCode)",
-            "raw": "\"isConstructor(Temporal.Calendar.prototype.monthCode)\""
+            "value": "isConstructor(Temporal.Calendar.prototype.monthCode)"
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 710,
                 "end": 712,
-                "value": 64,
-                "raw": "64"
+                "value": 64
               }
             ]
           }
@@ -158,8 +157,7 @@
                           "type": "Literal",
                           "start": 833,
                           "end": 834,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ]
                     }
@@ -288,8 +286,7 @@
                         "type": "Literal",
                         "start": 935,
                         "end": 960,
-                        "value": "returns the same object",
-                        "raw": "\"returns the same object\""
+                        "value": "returns the same object"
                       }
                     ],
                     "optional": false
@@ -352,8 +349,7 @@
                         "type": "Literal",
                         "start": 1005,
                         "end": 1028,
-                        "value": "keeps the same buffer",
-                        "raw": "\"keeps the same buffer\""
+                        "value": "keeps the same buffer"
                       }
                     ],
                     "optional": false
@@ -416,8 +412,7 @@
                         "type": "Literal",
                         "start": 1081,
                         "end": 1102,
-                        "value": "length is preserved",
-                        "raw": "\"length is preserved\""
+                        "value": "length is preserved"
                       }
                     ],
                     "optional": false
@@ -459,15 +454,13 @@
                           "type": "Literal",
                           "start": 1132,
                           "end": 1133,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         {
                           "type": "Literal",
                           "start": 1135,
                           "end": 1136,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ]
                     }
@@ -560,8 +553,7 @@
                         "type": "Literal",
                         "start": 1203,
                         "end": 1245,
-                        "value": "returns the same object (empty instance)",
-                        "raw": "\"returns the same object (empty instance)\""
+                        "value": "returns the same object (empty instance)"
                       }
                     ],
                     "optional": false
@@ -624,8 +616,7 @@
                         "type": "Literal",
                         "start": 1290,
                         "end": 1330,
-                        "value": "keeps the same buffer (empty instance)",
-                        "raw": "\"keeps the same buffer (empty instance)\""
+                        "value": "keeps the same buffer (empty instance)"
                       }
                     ],
                     "optional": false
@@ -682,15 +673,13 @@
                         "type": "Literal",
                         "start": 1367,
                         "end": 1368,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1370,
                         "end": 1408,
-                        "value": "length is preserved (empty instance)",
-                        "raw": "\"length is preserved (empty instance)\""
+                        "value": "length is preserved (empty instance)"
                       }
                     ],
                     "optional": false

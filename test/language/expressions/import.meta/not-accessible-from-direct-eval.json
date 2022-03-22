@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 456,
                         "end": 469,
-                        "value": "import.meta",
-                        "raw": "\"import.meta\""
+                        "value": "import.meta"
                       }
                     ],
                     "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 320,
                 "end": 325,
-                "value": "xyz",
-                "raw": "\"xyz\""
+                "value": "xyz"
               }
             ]
           }
@@ -71,8 +70,7 @@
               "type": "Literal",
               "start": 333,
               "end": 335,
-              "value": 20,
-              "raw": "20"
+              "value": 20
             }
           },
           "computed": true,
@@ -88,8 +86,7 @@
             "type": "Literal",
             "start": 340,
             "end": 342,
-            "value": 20,
-            "raw": "20"
+            "value": 20
           }
         }
       }
@@ -117,8 +114,7 @@
             "type": "Literal",
             "start": 348,
             "end": 350,
-            "value": 20,
-            "raw": "20"
+            "value": 20
           },
           "computed": true,
           "optional": false
@@ -127,8 +123,7 @@
           "type": "Literal",
           "start": 354,
           "end": 356,
-          "value": 20,
-          "raw": "20"
+          "value": 20
         }
       }
     },
@@ -170,8 +165,7 @@
             "type": "Literal",
             "start": 386,
             "end": 393,
-            "value": "prop1",
-            "raw": "\"prop1\""
+            "value": "prop1"
           },
           {
             "type": "ObjectExpression",
@@ -297,8 +291,7 @@
             "type": "Literal",
             "start": 491,
             "end": 498,
-            "value": "prop2",
-            "raw": "\"prop2\""
+            "value": "prop2"
           },
           {
             "type": "ObjectExpression",
@@ -461,8 +454,7 @@
               "type": "Literal",
               "start": 613,
               "end": 614,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -582,8 +574,7 @@
                   "type": "Literal",
                   "start": 676,
                   "end": 713,
-                  "value": "obj.hasOwnProperty(arr[i]) !== true",
-                  "raw": "'obj.hasOwnProperty(arr[i]) !== true'"
+                  "value": "obj.hasOwnProperty(arr[i]) !== true"
                 }
               ],
               "optional": false

@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 504,
                   "end": 505,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -70,8 +69,7 @@
             "type": "Literal",
             "start": 525,
             "end": 526,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -135,8 +133,7 @@
             "type": "Literal",
             "start": 567,
             "end": 580,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -189,8 +186,7 @@
                             "type": "Literal",
                             "start": 621,
                             "end": 622,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -319,15 +315,13 @@
             "type": "Literal",
             "start": 705,
             "end": 706,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 708,
             "end": 752,
-            "value": "The value of callCount is expected to be 0",
-            "raw": "'The value of callCount is expected to be 0'"
+            "value": "The value of callCount is expected to be 0"
           }
         ],
         "optional": false
@@ -417,8 +411,7 @@
             "type": "Literal",
             "start": 827,
             "end": 908,
-            "value": "Object.getPrototypeOf(Array.prototype.concat.call(obj)) returns Array.prototype",
-            "raw": "'Object.getPrototypeOf(Array.prototype.concat.call(obj)) returns Array.prototype'"
+            "value": "Object.getPrototypeOf(Array.prototype.concat.call(obj)) returns Array.prototype"
           }
         ],
         "optional": false
@@ -476,8 +469,7 @@
             "type": "Literal",
             "start": 942,
             "end": 982,
-            "value": "Array.isArray(result) must return true",
-            "raw": "'Array.isArray(result) must return true'"
+            "value": "Array.isArray(result) must return true"
           }
         ],
         "optional": false
@@ -534,15 +526,13 @@
             "type": "Literal",
             "start": 1017,
             "end": 1018,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1020,
             "end": 1068,
-            "value": "The value of result.length is expected to be 1",
-            "raw": "'The value of result.length is expected to be 1'"
+            "value": "The value of result.length is expected to be 1"
           }
         ],
         "optional": false
@@ -590,8 +580,7 @@
               "type": "Literal",
               "start": 1095,
               "end": 1096,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -606,8 +595,7 @@
             "type": "Literal",
             "start": 1104,
             "end": 1166,
-            "value": "The value of result[0] is expected to equal the value of obj",
-            "raw": "'The value of result[0] is expected to equal the value of obj'"
+            "value": "The value of result[0] is expected to equal the value of obj"
           }
         ],
         "optional": false

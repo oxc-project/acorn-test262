@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 403,
             "end": 406,
-            "value": 1.1,
-            "raw": "1.1"
+            "value": 1.1
           }
         }
       ],
@@ -74,15 +73,13 @@
             "type": "Literal",
             "start": 438,
             "end": 446,
-            "value": "number",
-            "raw": "'number'"
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 448,
             "end": 502,
-            "value": "The value of `typeof num` is expected to be \"number\"",
-            "raw": "'The value of `typeof num` is expected to be \"number\"'"
+            "value": "The value of `typeof num` is expected to be \"number\""
           }
         ],
         "optional": false
@@ -172,15 +169,13 @@
             "type": "Literal",
             "start": 559,
             "end": 567,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 569,
             "end": 623,
-            "value": "The value of `typeof obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
+            "value": "The value of `typeof obj` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -243,8 +238,7 @@
             "type": "Literal",
             "start": 668,
             "end": 739,
-            "value": "The value of obj.constructor is expected to equal the value of Number",
-            "raw": "'The value of obj.constructor is expected to equal the value of Number'"
+            "value": "The value of obj.constructor is expected to equal the value of Number"
           }
         ],
         "optional": false
@@ -280,16 +274,14 @@
               "type": "Literal",
               "start": 757,
               "end": 760,
-              "value": 1.1,
-              "raw": "1.1"
+              "value": 1.1
             }
           },
           {
             "type": "Literal",
             "start": 762,
             "end": 824,
-            "value": "The result of evaluating (obj == 1.1) is expected to be true",
-            "raw": "'The result of evaluating (obj == 1.1) is expected to be true'"
+            "value": "The result of evaluating (obj == 1.1) is expected to be true"
           }
         ],
         "optional": false
@@ -333,15 +325,13 @@
             "type": "Literal",
             "start": 852,
             "end": 855,
-            "value": 1.1,
-            "raw": "1.1"
+            "value": 1.1
           },
           {
             "type": "Literal",
             "start": 857,
             "end": 886,
-            "value": "The value of obj is not 1.1",
-            "raw": "'The value of obj is not 1.1'"
+            "value": "The value of obj is not 1.1"
           }
         ],
         "optional": false

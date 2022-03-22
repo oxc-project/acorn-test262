@@ -35,8 +35,7 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -94,8 +93,7 @@
             "type": "Literal",
             "start": 366,
             "end": 367,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -254,8 +252,7 @@
                           "type": "Literal",
                           "start": 511,
                           "end": 554,
-                          "value": "This code is unreachable (inside for-of).",
-                          "raw": "'This code is unreachable (inside for-of).'"
+                          "value": "This code is unreachable (inside for-of)."
                         }
                       ]
                     }
@@ -282,8 +279,7 @@
                     "type": "Literal",
                     "start": 586,
                     "end": 628,
-                    "value": "This code is unreachable (inside while).",
-                    "raw": "'This code is unreachable (inside while).'"
+                    "value": "This code is unreachable (inside while)."
                   }
                 ]
               }
@@ -336,8 +332,7 @@
             "type": "Literal",
             "start": 654,
             "end": 655,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

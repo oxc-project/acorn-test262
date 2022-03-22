@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 313,
             "end": 350,
-            "value": "2021-08-19T17:30[America/Vancouver]",
-            "raw": "\"2021-08-19T17:30[America/Vancouver]\""
+            "value": "2021-08-19T17:30[America/Vancouver]"
           }
         }
       ],
@@ -145,15 +144,13 @@
             "type": "Literal",
             "start": 431,
             "end": 450,
-            "value": "America/Vancouver",
-            "raw": "\"America/Vancouver\""
+            "value": "America/Vancouver"
           },
           {
             "type": "Literal",
             "start": 452,
             "end": 503,
-            "value": "date-time + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + IANA annotation is the IANA time zone\""
+            "value": "date-time + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -297,15 +294,13 @@
             "type": "Literal",
             "start": 589,
             "end": 608,
-            "value": "America/Vancouver",
-            "raw": "\"America/Vancouver\""
+            "value": "America/Vancouver"
           },
           {
             "type": "Literal",
             "start": 610,
             "end": 686,
-            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -330,8 +325,7 @@
           "type": "Literal",
           "start": 701,
           "end": 739,
-          "value": "2021-08-19T17:30Z[America/Vancouver]",
-          "raw": "\"2021-08-19T17:30Z[America/Vancouver]\""
+          "value": "2021-08-19T17:30Z[America/Vancouver]"
         }
       }
     },
@@ -451,15 +445,13 @@
             "type": "Literal",
             "start": 820,
             "end": 839,
-            "value": "America/Vancouver",
-            "raw": "\"America/Vancouver\""
+            "value": "America/Vancouver"
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 896,
-            "value": "date-time + Z + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\""
+            "value": "date-time + Z + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -603,15 +595,13 @@
             "type": "Literal",
             "start": 982,
             "end": 1001,
-            "value": "America/Vancouver",
-            "raw": "\"America/Vancouver\""
+            "value": "America/Vancouver"
           },
           {
             "type": "Literal",
             "start": 1003,
             "end": 1083,
-            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -636,8 +626,7 @@
           "type": "Literal",
           "start": 1098,
           "end": 1141,
-          "value": "2021-08-19T17:30-07:00[America/Vancouver]",
-          "raw": "\"2021-08-19T17:30-07:00[America/Vancouver]\""
+          "value": "2021-08-19T17:30-07:00[America/Vancouver]"
         }
       }
     },
@@ -757,15 +746,13 @@
             "type": "Literal",
             "start": 1222,
             "end": 1241,
-            "value": "America/Vancouver",
-            "raw": "\"America/Vancouver\""
+            "value": "America/Vancouver"
           },
           {
             "type": "Literal",
             "start": 1243,
             "end": 1303,
-            "value": "date-time + offset + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\""
+            "value": "date-time + offset + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -909,15 +896,13 @@
             "type": "Literal",
             "start": 1389,
             "end": 1408,
-            "value": "America/Vancouver",
-            "raw": "\"America/Vancouver\""
+            "value": "America/Vancouver"
           },
           {
             "type": "Literal",
             "start": 1410,
             "end": 1495,
-            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false

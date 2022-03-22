@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 404,
                 "end": 413,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -126,8 +125,7 @@
                   "type": "Literal",
                   "start": 465,
                   "end": 486,
-                  "value": "invalid date string",
-                  "raw": "\"invalid date string\""
+                  "value": "invalid date string"
                 },
                 {
                   "type": "NewExpression",
@@ -157,8 +155,7 @@
                       "type": "Literal",
                       "start": 510,
                       "end": 511,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   ]
                 }
@@ -170,8 +167,7 @@
             "type": "Literal",
             "start": 519,
             "end": 611,
-            "value": "cal.dateAdd(\"invalid date string\", new Temporal.Duration(1)) throws a RangeError exception",
-            "raw": "'cal.dateAdd(\"invalid date string\", new Temporal.Duration(1)) throws a RangeError exception'"
+            "value": "cal.dateAdd(\"invalid date string\", new Temporal.Duration(1)) throws a RangeError exception"
           }
         ],
         "optional": false

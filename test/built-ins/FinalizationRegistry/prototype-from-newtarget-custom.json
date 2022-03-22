@@ -186,8 +186,7 @@
             "type": "Literal",
             "start": 1354,
             "end": 1396,
-            "value": "NewTarget is built-in Object constructor",
-            "raw": "'NewTarget is built-in Object constructor'"
+            "value": "NewTarget is built-in Object constructor"
           }
         ],
         "optional": false
@@ -294,8 +293,7 @@
             "type": "Literal",
             "start": 1475,
             "end": 1486,
-            "value": "prototype",
-            "raw": "'prototype'"
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",
@@ -527,8 +525,7 @@
             "type": "Literal",
             "start": 1717,
             "end": 1759,
-            "value": "NewTarget is BoundFunction with accessor",
-            "raw": "'NewTarget is BoundFunction with accessor'"
+            "value": "NewTarget is BoundFunction with accessor"
           }
         ],
         "optional": false

@@ -52,8 +52,7 @@
                   "type": "Literal",
                   "start": 251,
                   "end": 261,
-                  "value": "parseInt",
-                  "raw": "\"parseInt\""
+                  "value": "parseInt"
                 }
               ],
               "optional": false

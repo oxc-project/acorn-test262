@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 795,
             "end": 856,
-            "value": "isConstructor(DataView.prototype.getInt8) must return false",
-            "raw": "'isConstructor(DataView.prototype.getInt8) must return false'"
+            "value": "isConstructor(DataView.prototype.getInt8) must return false"
           }
         ],
         "optional": false
@@ -184,8 +183,7 @@
                                 "type": "Literal",
                                 "start": 934,
                                 "end": 936,
-                                "value": 16,
-                                "raw": "16"
+                                "value": 16
                               }
                             ]
                           }
@@ -227,15 +225,13 @@
                         "type": "Literal",
                         "start": 955,
                         "end": 956,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 958,
                         "end": 959,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ]
                   }
@@ -247,8 +243,7 @@
             "type": "Literal",
             "start": 965,
             "end": 1050,
-            "value": "`let dv = new DataView(new ArrayBuffer(16)); new dv.getInt8(0, 0)` throws TypeError",
-            "raw": "'`let dv = new DataView(new ArrayBuffer(16)); new dv.getInt8(0, 0)` throws TypeError'"
+            "value": "`let dv = new DataView(new ArrayBuffer(16)); new dv.getInt8(0, 0)` throws TypeError"
           }
         ],
         "optional": false

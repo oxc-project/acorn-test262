@@ -73,8 +73,7 @@
           "type": "Literal",
           "start": 338,
           "end": 339,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -141,8 +140,7 @@
                     "type": "Literal",
                     "start": 387,
                     "end": 443,
-                    "value": "#1: __e = Math.E; Math.E = 1; Math.E === __e. Actual: ",
-                    "raw": "'#1: __e = Math.E; Math.E = 1; Math.E === __e. Actual: '"
+                    "value": "#1: __e = Math.E; Math.E = 1; Math.E === __e. Actual: "
                   },
                   "operator": "+",
                   "right": {

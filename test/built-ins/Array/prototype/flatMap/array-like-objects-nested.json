@@ -80,8 +80,7 @@
                   "type": "Literal",
                   "start": 1461,
                   "end": 1462,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -96,15 +95,13 @@
                   "type": "Literal",
                   "start": 1466,
                   "end": 1467,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1469,
                   "end": 1472,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               },
@@ -144,8 +141,7 @@
                           "type": "Literal",
                           "start": 1496,
                           "end": 1502,
-                          "value": "obj1",
-                          "raw": "'obj1'"
+                          "value": "obj1"
                         }
                       }
                     ]
@@ -188,8 +184,7 @@
                 "type": "Literal",
                 "start": 1536,
                 "end": 1537,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -253,8 +248,7 @@
                           "type": "Literal",
                           "start": 1577,
                           "end": 1623,
-                          "value": "should not even consider the length property",
-                          "raw": "\"should not even consider the length property\""
+                          "value": "should not even consider the length property"
                         }
                       }
                     ]
@@ -297,8 +291,7 @@
                           "type": "Literal",
                           "start": 1649,
                           "end": 1655,
-                          "value": "obj3",
-                          "raw": "'obj3'"
+                          "value": "obj3"
                         }
                       }
                     ]
@@ -451,8 +444,7 @@
             "type": "Literal",
             "start": 1756,
             "end": 1815,
-            "value": "The value of actual is expected to equal the value of arr",
-            "raw": "'The value of actual is expected to equal the value of arr'"
+            "value": "The value of actual is expected to equal the value of arr"
           }
         ],
         "optional": false
@@ -502,8 +494,7 @@
             "type": "Literal",
             "start": 1851,
             "end": 1916,
-            "value": "The value of actual is expected to not equal the value of `arr`",
-            "raw": "'The value of actual is expected to not equal the value of `arr`'"
+            "value": "The value of actual is expected to not equal the value of `arr`"
           }
         ],
         "optional": false
@@ -546,8 +537,7 @@
                   "type": "Literal",
                   "start": 1946,
                   "end": 1947,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "kind": "init"
               },
@@ -562,8 +552,7 @@
                   "type": "Literal",
                   "start": 1951,
                   "end": 1952,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Identifier",
@@ -584,8 +573,7 @@
                   "type": "Literal",
                   "start": 1962,
                   "end": 1963,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Identifier",
@@ -606,8 +594,7 @@
                   "type": "Literal",
                   "start": 1973,
                   "end": 1974,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Identifier",
@@ -628,8 +615,7 @@
                   "type": "Literal",
                   "start": 1988,
                   "end": 1989,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "get",
                 "value": {
@@ -697,8 +683,7 @@
                           "type": "Literal",
                           "start": 2034,
                           "end": 2040,
-                          "value": "obj4",
-                          "raw": "'obj4'"
+                          "value": "obj4"
                         }
                       }
                     ]
@@ -849,8 +834,7 @@
             "type": "Literal",
             "start": 2144,
             "end": 2211,
-            "value": "The value of actual is expected to be [obj1, obj2, obj3, arrLike]",
-            "raw": "'The value of actual is expected to be [obj1, obj2, obj3, arrLike]'"
+            "value": "The value of actual is expected to be [obj1, obj2, obj3, arrLike]"
           }
         ],
         "optional": false
@@ -900,8 +884,7 @@
             "type": "Literal",
             "start": 2251,
             "end": 2320,
-            "value": "The value of actual is expected to not equal the value of `arrLike`",
-            "raw": "'The value of actual is expected to not equal the value of `arrLike`'"
+            "value": "The value of actual is expected to not equal the value of `arrLike`"
           }
         ],
         "optional": false
@@ -991,8 +974,7 @@
             "type": "Literal",
             "start": 2395,
             "end": 2473,
-            "value": "Object.getPrototypeOf([].flatMap.call(arrLike, fn)\") returns Array.prototype",
-            "raw": "'Object.getPrototypeOf([].flatMap.call(arrLike, fn)\") returns Array.prototype'"
+            "value": "Object.getPrototypeOf([].flatMap.call(arrLike, fn)\") returns Array.prototype"
           }
         ],
         "optional": false

@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 685,
                     "end": 741,
-                    "value": "#1.1: /[\\vd-G]/.exec(\"a\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: /[\\\\vd-G]/.exec(\"a\") throw SyntaxError. Actual: '"
+                    "value": "#1.1: /[\\vd-G]/.exec(\"a\") throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -66,8 +65,7 @@
                               "type": "Literal",
                               "start": 756,
                               "end": 766,
-                              "value": "[\\vd-G]",
-                              "raw": "\"[\\\\vd-G]\""
+                              "value": "[\\vd-G]"
                             }
                           ]
                         },
@@ -85,8 +83,7 @@
                           "type": "Literal",
                           "start": 773,
                           "end": 776,
-                          "value": "a",
-                          "raw": "\"a\""
+                          "value": "a"
                         }
                       ],
                       "optional": false
@@ -170,8 +167,7 @@
                     "type": "Literal",
                     "start": 859,
                     "end": 935,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

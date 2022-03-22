@@ -101,15 +101,13 @@
             "type": "Literal",
             "start": 452,
             "end": 460,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 462,
             "end": 517,
-            "value": "The value of `typeof(obj)` is expected to be \"object\"",
-            "raw": "'The value of `typeof(obj)` is expected to be \"object\"'"
+            "value": "The value of `typeof(obj)` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -198,8 +196,7 @@
             "type": "Literal",
             "start": 576,
             "end": 634,
-            "value": "The value of n_obj is expected to equal the value of obj",
-            "raw": "'The value of n_obj is expected to equal the value of obj'"
+            "value": "The value of n_obj is expected to equal the value of obj"
           }
         ],
         "optional": false
@@ -246,8 +243,7 @@
                   "type": "Literal",
                   "start": 652,
                   "end": 658,
-                  "value": "flag",
-                  "raw": "'flag'"
+                  "value": "flag"
                 },
                 "computed": true,
                 "optional": false
@@ -258,8 +254,7 @@
             "type": "Literal",
             "start": 661,
             "end": 714,
-            "value": "The value of !!n_obj[\"flag\"] is expected to be true",
-            "raw": "'The value of !!n_obj[\"flag\"] is expected to be true'"
+            "value": "The value of !!n_obj[\"flag\"] is expected to be true"
           }
         ],
         "optional": false

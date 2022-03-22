@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 305,
           "end": 313,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -69,8 +68,7 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 391,
-                "value": "#1: typeof Number.MAX_VALUE === \"number\". Actual: ",
-                "raw": "'#1: typeof Number.MAX_VALUE === \"number\". Actual: '"
+                "value": "#1: typeof Number.MAX_VALUE === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -138,8 +136,7 @@
               "type": "Literal",
               "start": 441,
               "end": 452,
-              "value": "MAX_VALUE",
-              "raw": "'MAX_VALUE'"
+              "value": "MAX_VALUE"
             },
             "computed": true,
             "optional": false
@@ -150,8 +147,7 @@
           "type": "Literal",
           "start": 458,
           "end": 466,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -177,8 +173,7 @@
                 "type": "Literal",
                 "start": 492,
                 "end": 547,
-                "value": "#2: typeof Number[\"MAX_VALUE\"] === \"number\". Actual: ",
-                "raw": "'#2: typeof Number[\"MAX_VALUE\"] === \"number\". Actual: '"
+                "value": "#2: typeof Number[\"MAX_VALUE\"] === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -205,8 +200,7 @@
                       "type": "Literal",
                       "start": 565,
                       "end": 576,
-                      "value": "MAX_VALUE",
-                      "raw": "\"MAX_VALUE\""
+                      "value": "MAX_VALUE"
                     },
                     "computed": true,
                     "optional": false
@@ -258,8 +252,7 @@
           "type": "Literal",
           "start": 614,
           "end": 622,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -285,8 +278,7 @@
                 "type": "Literal",
                 "start": 648,
                 "end": 700,
-                "value": "#3: typeof Number.MIN_VALUE === \"number\". Actual: ",
-                "raw": "'#3: typeof Number.MIN_VALUE === \"number\". Actual: '"
+                "value": "#3: typeof Number.MIN_VALUE === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -354,8 +346,7 @@
               "type": "Literal",
               "start": 750,
               "end": 761,
-              "value": "MIN_VALUE",
-              "raw": "'MIN_VALUE'"
+              "value": "MIN_VALUE"
             },
             "computed": true,
             "optional": false
@@ -366,8 +357,7 @@
           "type": "Literal",
           "start": 767,
           "end": 775,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -393,8 +383,7 @@
                 "type": "Literal",
                 "start": 801,
                 "end": 856,
-                "value": "#4: typeof Number[\"MIN_VALUE\"] === \"number\". Actual: ",
-                "raw": "'#4: typeof Number[\"MIN_VALUE\"] === \"number\". Actual: '"
+                "value": "#4: typeof Number[\"MIN_VALUE\"] === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -421,8 +410,7 @@
                       "type": "Literal",
                       "start": 874,
                       "end": 885,
-                      "value": "MIN_VALUE",
-                      "raw": "\"MIN_VALUE\""
+                      "value": "MIN_VALUE"
                     },
                     "computed": true,
                     "optional": false
@@ -474,8 +462,7 @@
           "type": "Literal",
           "start": 917,
           "end": 925,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -501,8 +488,7 @@
                 "type": "Literal",
                 "start": 951,
                 "end": 997,
-                "value": "#5: typeof Number.NaN === \"number\". Actual: ",
-                "raw": "'#5: typeof Number.NaN === \"number\". Actual: '"
+                "value": "#5: typeof Number.NaN === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -570,8 +556,7 @@
               "type": "Literal",
               "start": 1041,
               "end": 1046,
-              "value": "NaN",
-              "raw": "'NaN'"
+              "value": "NaN"
             },
             "computed": true,
             "optional": false
@@ -582,8 +567,7 @@
           "type": "Literal",
           "start": 1052,
           "end": 1060,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -609,8 +593,7 @@
                 "type": "Literal",
                 "start": 1086,
                 "end": 1135,
-                "value": "#6: typeof Number[\"NaN\"] === \"number\". Actual: ",
-                "raw": "'#6: typeof Number[\"NaN\"] === \"number\". Actual: '"
+                "value": "#6: typeof Number[\"NaN\"] === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -637,8 +620,7 @@
                       "type": "Literal",
                       "start": 1153,
                       "end": 1158,
-                      "value": "NaN",
-                      "raw": "\"NaN\""
+                      "value": "NaN"
                     },
                     "computed": true,
                     "optional": false
@@ -690,8 +672,7 @@
           "type": "Literal",
           "start": 1204,
           "end": 1212,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -717,8 +698,7 @@
                 "type": "Literal",
                 "start": 1238,
                 "end": 1298,
-                "value": "#7: typeof Number.NEGATIVE_INFINITY === \"number\". Actual: ",
-                "raw": "'#7: typeof Number.NEGATIVE_INFINITY === \"number\". Actual: '"
+                "value": "#7: typeof Number.NEGATIVE_INFINITY === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -786,8 +766,7 @@
               "type": "Literal",
               "start": 1356,
               "end": 1375,
-              "value": "NEGATIVE_INFINITY",
-              "raw": "'NEGATIVE_INFINITY'"
+              "value": "NEGATIVE_INFINITY"
             },
             "computed": true,
             "optional": false
@@ -798,8 +777,7 @@
           "type": "Literal",
           "start": 1381,
           "end": 1389,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -825,8 +803,7 @@
                 "type": "Literal",
                 "start": 1415,
                 "end": 1478,
-                "value": "#8: typeof Number[\"NEGATIVE_INFINITY\"] === \"number\". Actual: ",
-                "raw": "'#8: typeof Number[\"NEGATIVE_INFINITY\"] === \"number\". Actual: '"
+                "value": "#8: typeof Number[\"NEGATIVE_INFINITY\"] === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -853,8 +830,7 @@
                       "type": "Literal",
                       "start": 1496,
                       "end": 1515,
-                      "value": "NEGATIVE_INFINITY",
-                      "raw": "\"NEGATIVE_INFINITY\""
+                      "value": "NEGATIVE_INFINITY"
                     },
                     "computed": true,
                     "optional": false
@@ -906,8 +882,7 @@
           "type": "Literal",
           "start": 1561,
           "end": 1569,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -933,8 +908,7 @@
                 "type": "Literal",
                 "start": 1595,
                 "end": 1655,
-                "value": "#9: typeof Number.POSITIVE_INFINITY === \"number\". Actual: ",
-                "raw": "'#9: typeof Number.POSITIVE_INFINITY === \"number\". Actual: '"
+                "value": "#9: typeof Number.POSITIVE_INFINITY === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1002,8 +976,7 @@
               "type": "Literal",
               "start": 1713,
               "end": 1732,
-              "value": "POSITIVE_INFINITY",
-              "raw": "'POSITIVE_INFINITY'"
+              "value": "POSITIVE_INFINITY"
             },
             "computed": true,
             "optional": false
@@ -1014,8 +987,7 @@
           "type": "Literal",
           "start": 1738,
           "end": 1746,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -1041,8 +1013,7 @@
                 "type": "Literal",
                 "start": 1772,
                 "end": 1836,
-                "value": "#10: typeof Number[\"POSITIVE_INFINITY\"] === \"number\". Actual: ",
-                "raw": "'#10: typeof Number[\"POSITIVE_INFINITY\"] === \"number\". Actual: '"
+                "value": "#10: typeof Number[\"POSITIVE_INFINITY\"] === \"number\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1069,8 +1040,7 @@
                       "type": "Literal",
                       "start": 1854,
                       "end": 1873,
-                      "value": "POSITIVE_INFINITY",
-                      "raw": "\"POSITIVE_INFINITY\""
+                      "value": "POSITIVE_INFINITY"
                     },
                     "computed": true,
                     "optional": false
@@ -1135,8 +1105,7 @@
           "type": "Literal",
           "start": 1921,
           "end": 1931,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1162,8 +1131,7 @@
                 "type": "Literal",
                 "start": 1957,
                 "end": 2021,
-                "value": "#11: typeof Number.prototype.toString === \"function\". Actual: ",
-                "raw": "'#11: typeof Number.prototype.toString === \"function\". Actual: '"
+                "value": "#11: typeof Number.prototype.toString === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1257,8 +1225,7 @@
               "type": "Literal",
               "start": 2090,
               "end": 2100,
-              "value": "toString",
-              "raw": "'toString'"
+              "value": "toString"
             },
             "computed": true,
             "optional": false
@@ -1269,8 +1236,7 @@
           "type": "Literal",
           "start": 2107,
           "end": 2117,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1296,8 +1262,7 @@
                 "type": "Literal",
                 "start": 2143,
                 "end": 2210,
-                "value": "#12: typeof Number.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#12: typeof Number.prototype[\"toString\"] === \"function\". Actual: '"
+                "value": "#12: typeof Number.prototype[\"toString\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1337,8 +1302,7 @@
                       "type": "Literal",
                       "start": 2238,
                       "end": 2248,
-                      "value": "toString",
-                      "raw": "\"toString\""
+                      "value": "toString"
                     },
                     "computed": true,
                     "optional": false
@@ -1403,8 +1367,7 @@
           "type": "Literal",
           "start": 2298,
           "end": 2308,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1430,8 +1393,7 @@
                 "type": "Literal",
                 "start": 2334,
                 "end": 2401,
-                "value": "#13: typeof Number.prototype.constructor === \"function\". Actual: ",
-                "raw": "'#13: typeof Number.prototype.constructor === \"function\". Actual: '"
+                "value": "#13: typeof Number.prototype.constructor === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1525,8 +1487,7 @@
               "type": "Literal",
               "start": 2473,
               "end": 2486,
-              "value": "constructor",
-              "raw": "'constructor'"
+              "value": "constructor"
             },
             "computed": true,
             "optional": false
@@ -1537,8 +1498,7 @@
           "type": "Literal",
           "start": 2492,
           "end": 2502,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1564,8 +1524,7 @@
                 "type": "Literal",
                 "start": 2528,
                 "end": 2598,
-                "value": "#14: typeof Number.prototype[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#14: typeof Number.prototype[\"constructor\"] === \"function\". Actual: '"
+                "value": "#14: typeof Number.prototype[\"constructor\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1605,8 +1564,7 @@
                       "type": "Literal",
                       "start": 2626,
                       "end": 2639,
-                      "value": "constructor",
-                      "raw": "\"constructor\""
+                      "value": "constructor"
                     },
                     "computed": true,
                     "optional": false
@@ -1671,8 +1629,7 @@
           "type": "Literal",
           "start": 2686,
           "end": 2696,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1698,8 +1655,7 @@
                 "type": "Literal",
                 "start": 2722,
                 "end": 2785,
-                "value": "#15: typeof Number.prototype.valueOf === \"function\". Actual: ",
-                "raw": "'#15: typeof Number.prototype.valueOf === \"function\". Actual: '"
+                "value": "#15: typeof Number.prototype.valueOf === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1793,8 +1749,7 @@
               "type": "Literal",
               "start": 2853,
               "end": 2862,
-              "value": "valueOf",
-              "raw": "'valueOf'"
+              "value": "valueOf"
             },
             "computed": true,
             "optional": false
@@ -1805,8 +1760,7 @@
           "type": "Literal",
           "start": 2869,
           "end": 2879,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -1832,8 +1786,7 @@
                 "type": "Literal",
                 "start": 2905,
                 "end": 2971,
-                "value": "#16: typeof Number.prototype[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#16: typeof Number.prototype[\"valueOf\"] === \"function\". Actual: '"
+                "value": "#16: typeof Number.prototype[\"valueOf\"] === \"function\". Actual: "
               },
               "operator": "+",
               "right": {
@@ -1873,8 +1826,7 @@
                       "type": "Literal",
                       "start": 2999,
                       "end": 3008,
-                      "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "value": "valueOf"
                     },
                     "computed": true,
                     "optional": false

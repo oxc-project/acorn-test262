@@ -33,15 +33,13 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 376,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 378,
                 "end": 435,
-                "value": "eval('public = 1;'); anotherVariable = 2; 'use strict';",
-                "raw": "\"eval('public = 1;'); anotherVariable = 2; 'use strict';\""
+                "value": "eval('public = 1;'); anotherVariable = 2; 'use strict';"
               }
             ]
           }
@@ -105,15 +103,13 @@
             "type": "Literal",
             "start": 482,
             "end": 483,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 485,
             "end": 493,
-            "value": "public",
-            "raw": "'public'"
+            "value": "public"
           }
         ],
         "optional": false
@@ -157,15 +153,13 @@
             "type": "Literal",
             "start": 530,
             "end": 531,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 533,
             "end": 550,
-            "value": "anotherVariable",
-            "raw": "'anotherVariable'"
+            "value": "anotherVariable"
           }
         ],
         "optional": false

@@ -107,8 +107,7 @@
             "type": "Literal",
             "start": 441,
             "end": 460,
-            "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "value": "[object Function]"
           },
           {
             "type": "BinaryExpression",
@@ -118,16 +117,14 @@
               "type": "Literal",
               "start": 479,
               "end": 544,
-              "value": "The [[Class]] internal property of a built-in function must be ",
-              "raw": "\"The [[Class]] internal property of a built-in function must be \""
+              "value": "The [[Class]] internal property of a built-in function must be "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 564,
               "end": 579,
-              "value": "\"Function\".",
-              "raw": "\"\\\"Function\\\".\""
+              "value": "\"Function\"."
             }
           }
         ],
@@ -199,8 +196,7 @@
             "type": "Literal",
             "start": 629,
             "end": 667,
-            "value": "Built-in objects must be extensible.",
-            "raw": "\"Built-in objects must be extensible.\""
+            "value": "Built-in objects must be extensible."
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 369,
             "end": 370,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -67,15 +66,13 @@
             "type": "Literal",
             "start": 404,
             "end": 405,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 430,
-            "value": "The value of `x` is 0",
-            "raw": "'The value of `x` is 0'"
+            "value": "The value of `x` is 0"
           }
         ],
         "optional": false
@@ -145,8 +142,7 @@
             "type": "Literal",
             "start": 494,
             "end": 545,
-            "value": "The value of `y` is expected to equal `undefined`",
-            "raw": "'The value of `y` is expected to equal `undefined`'"
+            "value": "The value of `y` is expected to equal `undefined`"
           }
         ],
         "optional": false
@@ -216,8 +212,7 @@
             "type": "Literal",
             "start": 609,
             "end": 660,
-            "value": "The value of `y` is expected to equal `undefined`",
-            "raw": "'The value of `y` is expected to equal `undefined`'"
+            "value": "The value of `y` is expected to equal `undefined`"
           }
         ],
         "optional": false
@@ -312,8 +307,7 @@
             "type": "Literal",
             "start": 859,
             "end": 882,
-            "value": "isNaN(y) returns true",
-            "raw": "'isNaN(y) returns true'"
+            "value": "isNaN(y) returns true"
           }
         ],
         "optional": false
@@ -338,8 +332,7 @@
             "type": "Literal",
             "start": 909,
             "end": 924,
-            "value": "/*var y = 0*/",
-            "raw": "\"/*var y = 0*/\""
+            "value": "/*var y = 0*/"
           }
         }
       ],
@@ -383,15 +376,13 @@
             "type": "Literal",
             "start": 963,
             "end": 978,
-            "value": "/*var y = 0*/",
-            "raw": "\"/*var y = 0*/\""
+            "value": "/*var y = 0*/"
           },
           {
             "type": "Literal",
             "start": 980,
             "end": 1022,
-            "value": "The value of `string` is \"/*var y = 0*/\"",
-            "raw": "'The value of `string` is \"/*var y = 0*/\"'"
+            "value": "The value of `string` is \"/*var y = 0*/\""
           }
         ],
         "optional": false
@@ -416,8 +407,7 @@
             "type": "Literal",
             "start": 1049,
             "end": 1062,
-            "value": "/*var y = 0",
-            "raw": "\"/*var y = 0\""
+            "value": "/*var y = 0"
           }
         }
       ],
@@ -461,15 +451,13 @@
             "type": "Literal",
             "start": 1101,
             "end": 1114,
-            "value": "/*var y = 0",
-            "raw": "\"/*var y = 0\""
+            "value": "/*var y = 0"
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1156,
-            "value": "The value of `string` is \"/*var y = 0\"",
-            "raw": "'The value of `string` is \"/*var y = 0\"'"
+            "value": "The value of `string` is \"/*var y = 0\""
           }
         ],
         "optional": false

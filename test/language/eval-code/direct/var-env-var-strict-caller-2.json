@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 396,
             "end": 408,
-            "value": "var x = 7;",
-            "raw": "\"var x = 7;\""
+            "value": "var x = 7;"
           }
         ],
         "optional": false
@@ -96,8 +95,7 @@
                       "type": "Literal",
                       "start": 460,
                       "end": 461,
-                      "value": 9,
-                      "raw": "9"
+                      "value": 9
                     }
                   }
                 }

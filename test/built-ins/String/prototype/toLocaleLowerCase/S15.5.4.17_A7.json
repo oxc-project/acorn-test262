@@ -113,8 +113,7 @@
                   "type": "Literal",
                   "start": 450,
                   "end": 563,
-                  "value": "#1: var __FACTORY = String.prototype.toLocaleLowerCase; \"__instance = new __FACTORY\" lead to throwing exception",
-                  "raw": "'#1: var __FACTORY = String.prototype.toLocaleLowerCase; \"__instance = new __FACTORY\" lead to throwing exception'"
+                  "value": "#1: var __FACTORY = String.prototype.toLocaleLowerCase; \"__instance = new __FACTORY\" lead to throwing exception"
                 }
               ]
             }
@@ -204,8 +203,7 @@
                             "type": "Literal",
                             "start": 650,
                             "end": 770,
-                            "value": "#1.1: var __FACTORY = String.prototype.toLocaleLowerCase; \"var __instance = new __FACTORY\" throw a TypeError. Actual: ",
-                            "raw": "'#1.1: var __FACTORY = String.prototype.toLocaleLowerCase; \"var __instance = new __FACTORY\" throw a TypeError. Actual: '"
+                            "value": "#1.1: var __FACTORY = String.prototype.toLocaleLowerCase; \"var __instance = new __FACTORY\" throw a TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

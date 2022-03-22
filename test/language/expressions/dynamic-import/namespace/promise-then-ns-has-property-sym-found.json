@@ -39,8 +39,7 @@
                       "type": "Literal",
                       "start": 3838,
                       "end": 3864,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   },
                   "property": {
@@ -124,8 +123,7 @@
                                 "type": "Literal",
                                 "start": 3917,
                                 "end": 3941,
-                                "value": "in: Symbol.toStringTag",
-                                "raw": "'in: Symbol.toStringTag'"
+                                "value": "in: Symbol.toStringTag"
                               }
                             ],
                             "optional": false
@@ -202,8 +200,7 @@
                                 "type": "Literal",
                                 "start": 3992,
                                 "end": 4025,
-                                "value": "Reflect.has: Symbol.toStringTag",
-                                "raw": "'Reflect.has: Symbol.toStringTag'"
+                                "value": "Reflect.has: Symbol.toStringTag"
                               }
                             ],
                             "optional": false

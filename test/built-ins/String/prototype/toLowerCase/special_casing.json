@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 645,
-                "value": "ß",
-                "raw": "\"\\u00DF\""
+                "value": "ß"
               },
               "property": {
                 "type": "Identifier",
@@ -62,15 +61,13 @@
             "type": "Literal",
             "start": 661,
             "end": 669,
-            "value": "ß",
-            "raw": "\"\\u00DF\""
+            "value": "ß"
           },
           {
             "type": "Literal",
             "start": 671,
             "end": 699,
-            "value": "LATIN SMALL LETTER SHARP S",
-            "raw": "\"LATIN SMALL LETTER SHARP S\""
+            "value": "LATIN SMALL LETTER SHARP S"
           }
         ],
         "optional": false
@@ -116,8 +113,7 @@
                 "type": "Literal",
                 "start": 720,
                 "end": 728,
-                "value": "İ",
-                "raw": "\"\\u0130\""
+                "value": "İ"
               },
               "property": {
                 "type": "Identifier",
@@ -135,15 +131,13 @@
             "type": "Literal",
             "start": 744,
             "end": 758,
-            "value": "i̇",
-            "raw": "\"\\u0069\\u0307\""
+            "value": "i̇"
           },
           {
             "type": "Literal",
             "start": 760,
             "end": 799,
-            "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\""
+            "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE"
           }
         ],
         "optional": false
@@ -189,8 +183,7 @@
                 "type": "Literal",
                 "start": 820,
                 "end": 828,
-                "value": "ﬀ",
-                "raw": "\"\\uFB00\""
+                "value": "ﬀ"
               },
               "property": {
                 "type": "Identifier",
@@ -208,15 +201,13 @@
             "type": "Literal",
             "start": 844,
             "end": 852,
-            "value": "ﬀ",
-            "raw": "\"\\uFB00\""
+            "value": "ﬀ"
           },
           {
             "type": "Literal",
             "start": 854,
             "end": 879,
-            "value": "LATIN SMALL LIGATURE FF",
-            "raw": "\"LATIN SMALL LIGATURE FF\""
+            "value": "LATIN SMALL LIGATURE FF"
           }
         ],
         "optional": false
@@ -262,8 +253,7 @@
                 "type": "Literal",
                 "start": 899,
                 "end": 907,
-                "value": "ﬁ",
-                "raw": "\"\\uFB01\""
+                "value": "ﬁ"
               },
               "property": {
                 "type": "Identifier",
@@ -281,15 +271,13 @@
             "type": "Literal",
             "start": 923,
             "end": 931,
-            "value": "ﬁ",
-            "raw": "\"\\uFB01\""
+            "value": "ﬁ"
           },
           {
             "type": "Literal",
             "start": 933,
             "end": 958,
-            "value": "LATIN SMALL LIGATURE FI",
-            "raw": "\"LATIN SMALL LIGATURE FI\""
+            "value": "LATIN SMALL LIGATURE FI"
           }
         ],
         "optional": false
@@ -335,8 +323,7 @@
                 "type": "Literal",
                 "start": 978,
                 "end": 986,
-                "value": "ﬂ",
-                "raw": "\"\\uFB02\""
+                "value": "ﬂ"
               },
               "property": {
                 "type": "Identifier",
@@ -354,15 +341,13 @@
             "type": "Literal",
             "start": 1002,
             "end": 1010,
-            "value": "ﬂ",
-            "raw": "\"\\uFB02\""
+            "value": "ﬂ"
           },
           {
             "type": "Literal",
             "start": 1012,
             "end": 1037,
-            "value": "LATIN SMALL LIGATURE FL",
-            "raw": "\"LATIN SMALL LIGATURE FL\""
+            "value": "LATIN SMALL LIGATURE FL"
           }
         ],
         "optional": false
@@ -408,8 +393,7 @@
                 "type": "Literal",
                 "start": 1057,
                 "end": 1065,
-                "value": "ﬃ",
-                "raw": "\"\\uFB03\""
+                "value": "ﬃ"
               },
               "property": {
                 "type": "Identifier",
@@ -427,15 +411,13 @@
             "type": "Literal",
             "start": 1081,
             "end": 1089,
-            "value": "ﬃ",
-            "raw": "\"\\uFB03\""
+            "value": "ﬃ"
           },
           {
             "type": "Literal",
             "start": 1091,
             "end": 1117,
-            "value": "LATIN SMALL LIGATURE FFI",
-            "raw": "\"LATIN SMALL LIGATURE FFI\""
+            "value": "LATIN SMALL LIGATURE FFI"
           }
         ],
         "optional": false
@@ -481,8 +463,7 @@
                 "type": "Literal",
                 "start": 1137,
                 "end": 1145,
-                "value": "ﬄ",
-                "raw": "\"\\uFB04\""
+                "value": "ﬄ"
               },
               "property": {
                 "type": "Identifier",
@@ -500,15 +481,13 @@
             "type": "Literal",
             "start": 1161,
             "end": 1169,
-            "value": "ﬄ",
-            "raw": "\"\\uFB04\""
+            "value": "ﬄ"
           },
           {
             "type": "Literal",
             "start": 1171,
             "end": 1197,
-            "value": "LATIN SMALL LIGATURE FFL",
-            "raw": "\"LATIN SMALL LIGATURE FFL\""
+            "value": "LATIN SMALL LIGATURE FFL"
           }
         ],
         "optional": false
@@ -554,8 +533,7 @@
                 "type": "Literal",
                 "start": 1217,
                 "end": 1225,
-                "value": "ﬅ",
-                "raw": "\"\\uFB05\""
+                "value": "ﬅ"
               },
               "property": {
                 "type": "Identifier",
@@ -573,15 +551,13 @@
             "type": "Literal",
             "start": 1241,
             "end": 1249,
-            "value": "ﬅ",
-            "raw": "\"\\uFB05\""
+            "value": "ﬅ"
           },
           {
             "type": "Literal",
             "start": 1251,
             "end": 1282,
-            "value": "LATIN SMALL LIGATURE LONG S T",
-            "raw": "\"LATIN SMALL LIGATURE LONG S T\""
+            "value": "LATIN SMALL LIGATURE LONG S T"
           }
         ],
         "optional": false
@@ -627,8 +603,7 @@
                 "type": "Literal",
                 "start": 1302,
                 "end": 1310,
-                "value": "ﬆ",
-                "raw": "\"\\uFB06\""
+                "value": "ﬆ"
               },
               "property": {
                 "type": "Identifier",
@@ -646,15 +621,13 @@
             "type": "Literal",
             "start": 1326,
             "end": 1334,
-            "value": "ﬆ",
-            "raw": "\"\\uFB06\""
+            "value": "ﬆ"
           },
           {
             "type": "Literal",
             "start": 1336,
             "end": 1361,
-            "value": "LATIN SMALL LIGATURE ST",
-            "raw": "\"LATIN SMALL LIGATURE ST\""
+            "value": "LATIN SMALL LIGATURE ST"
           }
         ],
         "optional": false
@@ -700,8 +673,7 @@
                 "type": "Literal",
                 "start": 1382,
                 "end": 1390,
-                "value": "և",
-                "raw": "\"\\u0587\""
+                "value": "և"
               },
               "property": {
                 "type": "Identifier",
@@ -719,15 +691,13 @@
             "type": "Literal",
             "start": 1406,
             "end": 1414,
-            "value": "և",
-            "raw": "\"\\u0587\""
+            "value": "և"
           },
           {
             "type": "Literal",
             "start": 1416,
             "end": 1450,
-            "value": "ARMENIAN SMALL LIGATURE ECH YIWN",
-            "raw": "\"ARMENIAN SMALL LIGATURE ECH YIWN\""
+            "value": "ARMENIAN SMALL LIGATURE ECH YIWN"
           }
         ],
         "optional": false
@@ -773,8 +743,7 @@
                 "type": "Literal",
                 "start": 1470,
                 "end": 1478,
-                "value": "ﬓ",
-                "raw": "\"\\uFB13\""
+                "value": "ﬓ"
               },
               "property": {
                 "type": "Identifier",
@@ -792,15 +761,13 @@
             "type": "Literal",
             "start": 1494,
             "end": 1502,
-            "value": "ﬓ",
-            "raw": "\"\\uFB13\""
+            "value": "ﬓ"
           },
           {
             "type": "Literal",
             "start": 1504,
             "end": 1537,
-            "value": "ARMENIAN SMALL LIGATURE MEN NOW",
-            "raw": "\"ARMENIAN SMALL LIGATURE MEN NOW\""
+            "value": "ARMENIAN SMALL LIGATURE MEN NOW"
           }
         ],
         "optional": false
@@ -846,8 +813,7 @@
                 "type": "Literal",
                 "start": 1557,
                 "end": 1565,
-                "value": "ﬔ",
-                "raw": "\"\\uFB14\""
+                "value": "ﬔ"
               },
               "property": {
                 "type": "Identifier",
@@ -865,15 +831,13 @@
             "type": "Literal",
             "start": 1581,
             "end": 1589,
-            "value": "ﬔ",
-            "raw": "\"\\uFB14\""
+            "value": "ﬔ"
           },
           {
             "type": "Literal",
             "start": 1591,
             "end": 1624,
-            "value": "ARMENIAN SMALL LIGATURE MEN ECH",
-            "raw": "\"ARMENIAN SMALL LIGATURE MEN ECH\""
+            "value": "ARMENIAN SMALL LIGATURE MEN ECH"
           }
         ],
         "optional": false
@@ -919,8 +883,7 @@
                 "type": "Literal",
                 "start": 1644,
                 "end": 1652,
-                "value": "ﬕ",
-                "raw": "\"\\uFB15\""
+                "value": "ﬕ"
               },
               "property": {
                 "type": "Identifier",
@@ -938,15 +901,13 @@
             "type": "Literal",
             "start": 1668,
             "end": 1676,
-            "value": "ﬕ",
-            "raw": "\"\\uFB15\""
+            "value": "ﬕ"
           },
           {
             "type": "Literal",
             "start": 1678,
             "end": 1711,
-            "value": "ARMENIAN SMALL LIGATURE MEN INI",
-            "raw": "\"ARMENIAN SMALL LIGATURE MEN INI\""
+            "value": "ARMENIAN SMALL LIGATURE MEN INI"
           }
         ],
         "optional": false
@@ -992,8 +953,7 @@
                 "type": "Literal",
                 "start": 1731,
                 "end": 1739,
-                "value": "ﬖ",
-                "raw": "\"\\uFB16\""
+                "value": "ﬖ"
               },
               "property": {
                 "type": "Identifier",
@@ -1011,15 +971,13 @@
             "type": "Literal",
             "start": 1755,
             "end": 1763,
-            "value": "ﬖ",
-            "raw": "\"\\uFB16\""
+            "value": "ﬖ"
           },
           {
             "type": "Literal",
             "start": 1765,
             "end": 1798,
-            "value": "ARMENIAN SMALL LIGATURE VEW NOW",
-            "raw": "\"ARMENIAN SMALL LIGATURE VEW NOW\""
+            "value": "ARMENIAN SMALL LIGATURE VEW NOW"
           }
         ],
         "optional": false
@@ -1065,8 +1023,7 @@
                 "type": "Literal",
                 "start": 1818,
                 "end": 1826,
-                "value": "ﬗ",
-                "raw": "\"\\uFB17\""
+                "value": "ﬗ"
               },
               "property": {
                 "type": "Identifier",
@@ -1084,15 +1041,13 @@
             "type": "Literal",
             "start": 1842,
             "end": 1850,
-            "value": "ﬗ",
-            "raw": "\"\\uFB17\""
+            "value": "ﬗ"
           },
           {
             "type": "Literal",
             "start": 1852,
             "end": 1885,
-            "value": "ARMENIAN SMALL LIGATURE MEN XEH",
-            "raw": "\"ARMENIAN SMALL LIGATURE MEN XEH\""
+            "value": "ARMENIAN SMALL LIGATURE MEN XEH"
           }
         ],
         "optional": false
@@ -1138,8 +1093,7 @@
                 "type": "Literal",
                 "start": 1906,
                 "end": 1914,
-                "value": "ŉ",
-                "raw": "\"\\u0149\""
+                "value": "ŉ"
               },
               "property": {
                 "type": "Identifier",
@@ -1157,15 +1111,13 @@
             "type": "Literal",
             "start": 1930,
             "end": 1938,
-            "value": "ŉ",
-            "raw": "\"\\u0149\""
+            "value": "ŉ"
           },
           {
             "type": "Literal",
             "start": 1940,
             "end": 1985,
-            "value": "LATIN SMALL LETTER N PRECEDED BY APOSTROPHE",
-            "raw": "\"LATIN SMALL LETTER N PRECEDED BY APOSTROPHE\""
+            "value": "LATIN SMALL LETTER N PRECEDED BY APOSTROPHE"
           }
         ],
         "optional": false
@@ -1211,8 +1163,7 @@
                 "type": "Literal",
                 "start": 2006,
                 "end": 2014,
-                "value": "ΐ",
-                "raw": "\"\\u0390\""
+                "value": "ΐ"
               },
               "property": {
                 "type": "Identifier",
@@ -1230,15 +1181,13 @@
             "type": "Literal",
             "start": 2030,
             "end": 2038,
-            "value": "ΐ",
-            "raw": "\"\\u0390\""
+            "value": "ΐ"
           },
           {
             "type": "Literal",
             "start": 2040,
             "end": 2090,
-            "value": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS",
-            "raw": "\"GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS\""
+            "value": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS"
           }
         ],
         "optional": false
@@ -1284,8 +1233,7 @@
                 "type": "Literal",
                 "start": 2110,
                 "end": 2118,
-                "value": "ΰ",
-                "raw": "\"\\u03B0\""
+                "value": "ΰ"
               },
               "property": {
                 "type": "Identifier",
@@ -1303,15 +1251,13 @@
             "type": "Literal",
             "start": 2134,
             "end": 2142,
-            "value": "ΰ",
-            "raw": "\"\\u03B0\""
+            "value": "ΰ"
           },
           {
             "type": "Literal",
             "start": 2144,
             "end": 2197,
-            "value": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS\""
+            "value": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS"
           }
         ],
         "optional": false
@@ -1357,8 +1303,7 @@
                 "type": "Literal",
                 "start": 2218,
                 "end": 2226,
-                "value": "ǰ",
-                "raw": "\"\\u01F0\""
+                "value": "ǰ"
               },
               "property": {
                 "type": "Identifier",
@@ -1376,15 +1321,13 @@
             "type": "Literal",
             "start": 2242,
             "end": 2250,
-            "value": "ǰ",
-            "raw": "\"\\u01F0\""
+            "value": "ǰ"
           },
           {
             "type": "Literal",
             "start": 2252,
             "end": 2285,
-            "value": "LATIN SMALL LETTER J WITH CARON",
-            "raw": "\"LATIN SMALL LETTER J WITH CARON\""
+            "value": "LATIN SMALL LETTER J WITH CARON"
           }
         ],
         "optional": false
@@ -1430,8 +1373,7 @@
                 "type": "Literal",
                 "start": 2305,
                 "end": 2313,
-                "value": "ẖ",
-                "raw": "\"\\u1E96\""
+                "value": "ẖ"
               },
               "property": {
                 "type": "Identifier",
@@ -1449,15 +1391,13 @@
             "type": "Literal",
             "start": 2329,
             "end": 2337,
-            "value": "ẖ",
-            "raw": "\"\\u1E96\""
+            "value": "ẖ"
           },
           {
             "type": "Literal",
             "start": 2339,
             "end": 2377,
-            "value": "LATIN SMALL LETTER H WITH LINE BELOW",
-            "raw": "\"LATIN SMALL LETTER H WITH LINE BELOW\""
+            "value": "LATIN SMALL LETTER H WITH LINE BELOW"
           }
         ],
         "optional": false
@@ -1503,8 +1443,7 @@
                 "type": "Literal",
                 "start": 2397,
                 "end": 2405,
-                "value": "ẗ",
-                "raw": "\"\\u1E97\""
+                "value": "ẗ"
               },
               "property": {
                 "type": "Identifier",
@@ -1522,15 +1461,13 @@
             "type": "Literal",
             "start": 2421,
             "end": 2429,
-            "value": "ẗ",
-            "raw": "\"\\u1E97\""
+            "value": "ẗ"
           },
           {
             "type": "Literal",
             "start": 2431,
             "end": 2468,
-            "value": "LATIN SMALL LETTER T WITH DIAERESIS",
-            "raw": "\"LATIN SMALL LETTER T WITH DIAERESIS\""
+            "value": "LATIN SMALL LETTER T WITH DIAERESIS"
           }
         ],
         "optional": false
@@ -1576,8 +1513,7 @@
                 "type": "Literal",
                 "start": 2488,
                 "end": 2496,
-                "value": "ẘ",
-                "raw": "\"\\u1E98\""
+                "value": "ẘ"
               },
               "property": {
                 "type": "Identifier",
@@ -1595,15 +1531,13 @@
             "type": "Literal",
             "start": 2512,
             "end": 2520,
-            "value": "ẘ",
-            "raw": "\"\\u1E98\""
+            "value": "ẘ"
           },
           {
             "type": "Literal",
             "start": 2522,
             "end": 2560,
-            "value": "LATIN SMALL LETTER W WITH RING ABOVE",
-            "raw": "\"LATIN SMALL LETTER W WITH RING ABOVE\""
+            "value": "LATIN SMALL LETTER W WITH RING ABOVE"
           }
         ],
         "optional": false
@@ -1649,8 +1583,7 @@
                 "type": "Literal",
                 "start": 2580,
                 "end": 2588,
-                "value": "ẙ",
-                "raw": "\"\\u1E99\""
+                "value": "ẙ"
               },
               "property": {
                 "type": "Identifier",
@@ -1668,15 +1601,13 @@
             "type": "Literal",
             "start": 2604,
             "end": 2612,
-            "value": "ẙ",
-            "raw": "\"\\u1E99\""
+            "value": "ẙ"
           },
           {
             "type": "Literal",
             "start": 2614,
             "end": 2652,
-            "value": "LATIN SMALL LETTER Y WITH RING ABOVE",
-            "raw": "\"LATIN SMALL LETTER Y WITH RING ABOVE\""
+            "value": "LATIN SMALL LETTER Y WITH RING ABOVE"
           }
         ],
         "optional": false
@@ -1722,8 +1653,7 @@
                 "type": "Literal",
                 "start": 2672,
                 "end": 2680,
-                "value": "ẚ",
-                "raw": "\"\\u1E9A\""
+                "value": "ẚ"
               },
               "property": {
                 "type": "Identifier",
@@ -1741,15 +1671,13 @@
             "type": "Literal",
             "start": 2696,
             "end": 2704,
-            "value": "ẚ",
-            "raw": "\"\\u1E9A\""
+            "value": "ẚ"
           },
           {
             "type": "Literal",
             "start": 2706,
             "end": 2749,
-            "value": "LATIN SMALL LETTER A WITH RIGHT HALF RING",
-            "raw": "\"LATIN SMALL LETTER A WITH RIGHT HALF RING\""
+            "value": "LATIN SMALL LETTER A WITH RIGHT HALF RING"
           }
         ],
         "optional": false
@@ -1795,8 +1723,7 @@
                 "type": "Literal",
                 "start": 2770,
                 "end": 2778,
-                "value": "ὐ",
-                "raw": "\"\\u1F50\""
+                "value": "ὐ"
               },
               "property": {
                 "type": "Identifier",
@@ -1814,15 +1741,13 @@
             "type": "Literal",
             "start": 2794,
             "end": 2802,
-            "value": "ὐ",
-            "raw": "\"\\u1F50\""
+            "value": "ὐ"
           },
           {
             "type": "Literal",
             "start": 2804,
             "end": 2843,
-            "value": "GREEK SMALL LETTER UPSILON WITH PSILI",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH PSILI\""
+            "value": "GREEK SMALL LETTER UPSILON WITH PSILI"
           }
         ],
         "optional": false
@@ -1868,8 +1793,7 @@
                 "type": "Literal",
                 "start": 2863,
                 "end": 2871,
-                "value": "ὒ",
-                "raw": "\"\\u1F52\""
+                "value": "ὒ"
               },
               "property": {
                 "type": "Identifier",
@@ -1887,15 +1811,13 @@
             "type": "Literal",
             "start": 2887,
             "end": 2895,
-            "value": "ὒ",
-            "raw": "\"\\u1F52\""
+            "value": "ὒ"
           },
           {
             "type": "Literal",
             "start": 2897,
             "end": 2946,
-            "value": "GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA\""
+            "value": "GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA"
           }
         ],
         "optional": false
@@ -1941,8 +1863,7 @@
                 "type": "Literal",
                 "start": 2966,
                 "end": 2974,
-                "value": "ὔ",
-                "raw": "\"\\u1F54\""
+                "value": "ὔ"
               },
               "property": {
                 "type": "Identifier",
@@ -1960,15 +1881,13 @@
             "type": "Literal",
             "start": 2990,
             "end": 2998,
-            "value": "ὔ",
-            "raw": "\"\\u1F54\""
+            "value": "ὔ"
           },
           {
             "type": "Literal",
             "start": 3000,
             "end": 3048,
-            "value": "GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA\""
+            "value": "GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA"
           }
         ],
         "optional": false
@@ -2014,8 +1933,7 @@
                 "type": "Literal",
                 "start": 3068,
                 "end": 3076,
-                "value": "ὖ",
-                "raw": "\"\\u1F56\""
+                "value": "ὖ"
               },
               "property": {
                 "type": "Identifier",
@@ -2033,15 +1951,13 @@
             "type": "Literal",
             "start": 3092,
             "end": 3100,
-            "value": "ὖ",
-            "raw": "\"\\u1F56\""
+            "value": "ὖ"
           },
           {
             "type": "Literal",
             "start": 3102,
             "end": 3157,
-            "value": "GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI\""
+            "value": "GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI"
           }
         ],
         "optional": false
@@ -2087,8 +2003,7 @@
                 "type": "Literal",
                 "start": 3177,
                 "end": 3185,
-                "value": "ᾶ",
-                "raw": "\"\\u1FB6\""
+                "value": "ᾶ"
               },
               "property": {
                 "type": "Identifier",
@@ -2106,15 +2021,13 @@
             "type": "Literal",
             "start": 3201,
             "end": 3209,
-            "value": "ᾶ",
-            "raw": "\"\\u1FB6\""
+            "value": "ᾶ"
           },
           {
             "type": "Literal",
             "start": 3211,
             "end": 3254,
-            "value": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH PERISPOMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI"
           }
         ],
         "optional": false
@@ -2160,8 +2073,7 @@
                 "type": "Literal",
                 "start": 3274,
                 "end": 3282,
-                "value": "ῆ",
-                "raw": "\"\\u1FC6\""
+                "value": "ῆ"
               },
               "property": {
                 "type": "Identifier",
@@ -2179,15 +2091,13 @@
             "type": "Literal",
             "start": 3298,
             "end": 3306,
-            "value": "ῆ",
-            "raw": "\"\\u1FC6\""
+            "value": "ῆ"
           },
           {
             "type": "Literal",
             "start": 3308,
             "end": 3349,
-            "value": "GREEK SMALL LETTER ETA WITH PERISPOMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH PERISPOMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH PERISPOMENI"
           }
         ],
         "optional": false
@@ -2233,8 +2143,7 @@
                 "type": "Literal",
                 "start": 3369,
                 "end": 3377,
-                "value": "ῒ",
-                "raw": "\"\\u1FD2\""
+                "value": "ῒ"
               },
               "property": {
                 "type": "Identifier",
@@ -2252,15 +2161,13 @@
             "type": "Literal",
             "start": 3393,
             "end": 3401,
-            "value": "ῒ",
-            "raw": "\"\\u1FD2\""
+            "value": "ῒ"
           },
           {
             "type": "Literal",
             "start": 3403,
             "end": 3453,
-            "value": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA",
-            "raw": "\"GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA\""
+            "value": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA"
           }
         ],
         "optional": false
@@ -2306,8 +2213,7 @@
                 "type": "Literal",
                 "start": 3473,
                 "end": 3481,
-                "value": "ΐ",
-                "raw": "\"\\u1FD3\""
+                "value": "ΐ"
               },
               "property": {
                 "type": "Identifier",
@@ -2325,15 +2231,13 @@
             "type": "Literal",
             "start": 3497,
             "end": 3505,
-            "value": "ΐ",
-            "raw": "\"\\u1FD3\""
+            "value": "ΐ"
           },
           {
             "type": "Literal",
             "start": 3507,
             "end": 3556,
-            "value": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA",
-            "raw": "\"GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA\""
+            "value": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA"
           }
         ],
         "optional": false
@@ -2379,8 +2283,7 @@
                 "type": "Literal",
                 "start": 3576,
                 "end": 3584,
-                "value": "ῖ",
-                "raw": "\"\\u1FD6\""
+                "value": "ῖ"
               },
               "property": {
                 "type": "Identifier",
@@ -2398,15 +2301,13 @@
             "type": "Literal",
             "start": 3600,
             "end": 3608,
-            "value": "ῖ",
-            "raw": "\"\\u1FD6\""
+            "value": "ῖ"
           },
           {
             "type": "Literal",
             "start": 3610,
             "end": 3652,
-            "value": "GREEK SMALL LETTER IOTA WITH PERISPOMENI",
-            "raw": "\"GREEK SMALL LETTER IOTA WITH PERISPOMENI\""
+            "value": "GREEK SMALL LETTER IOTA WITH PERISPOMENI"
           }
         ],
         "optional": false
@@ -2452,8 +2353,7 @@
                 "type": "Literal",
                 "start": 3672,
                 "end": 3680,
-                "value": "ῗ",
-                "raw": "\"\\u1FD7\""
+                "value": "ῗ"
               },
               "property": {
                 "type": "Identifier",
@@ -2471,15 +2371,13 @@
             "type": "Literal",
             "start": 3696,
             "end": 3704,
-            "value": "ῗ",
-            "raw": "\"\\u1FD7\""
+            "value": "ῗ"
           },
           {
             "type": "Literal",
             "start": 3706,
             "end": 3762,
-            "value": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI",
-            "raw": "\"GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI\""
+            "value": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI"
           }
         ],
         "optional": false
@@ -2525,8 +2423,7 @@
                 "type": "Literal",
                 "start": 3782,
                 "end": 3790,
-                "value": "ῢ",
-                "raw": "\"\\u1FE2\""
+                "value": "ῢ"
               },
               "property": {
                 "type": "Identifier",
@@ -2544,15 +2441,13 @@
             "type": "Literal",
             "start": 3806,
             "end": 3814,
-            "value": "ῢ",
-            "raw": "\"\\u1FE2\""
+            "value": "ῢ"
           },
           {
             "type": "Literal",
             "start": 3816,
             "end": 3869,
-            "value": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA\""
+            "value": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA"
           }
         ],
         "optional": false
@@ -2598,8 +2493,7 @@
                 "type": "Literal",
                 "start": 3889,
                 "end": 3897,
-                "value": "ΰ",
-                "raw": "\"\\u1FE3\""
+                "value": "ΰ"
               },
               "property": {
                 "type": "Identifier",
@@ -2617,15 +2511,13 @@
             "type": "Literal",
             "start": 3913,
             "end": 3921,
-            "value": "ΰ",
-            "raw": "\"\\u1FE3\""
+            "value": "ΰ"
           },
           {
             "type": "Literal",
             "start": 3923,
             "end": 3975,
-            "value": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA\""
+            "value": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA"
           }
         ],
         "optional": false
@@ -2671,8 +2563,7 @@
                 "type": "Literal",
                 "start": 3995,
                 "end": 4003,
-                "value": "ῤ",
-                "raw": "\"\\u1FE4\""
+                "value": "ῤ"
               },
               "property": {
                 "type": "Identifier",
@@ -2690,15 +2581,13 @@
             "type": "Literal",
             "start": 4019,
             "end": 4027,
-            "value": "ῤ",
-            "raw": "\"\\u1FE4\""
+            "value": "ῤ"
           },
           {
             "type": "Literal",
             "start": 4029,
             "end": 4064,
-            "value": "GREEK SMALL LETTER RHO WITH PSILI",
-            "raw": "\"GREEK SMALL LETTER RHO WITH PSILI\""
+            "value": "GREEK SMALL LETTER RHO WITH PSILI"
           }
         ],
         "optional": false
@@ -2744,8 +2633,7 @@
                 "type": "Literal",
                 "start": 4084,
                 "end": 4092,
-                "value": "ῦ",
-                "raw": "\"\\u1FE6\""
+                "value": "ῦ"
               },
               "property": {
                 "type": "Identifier",
@@ -2763,15 +2651,13 @@
             "type": "Literal",
             "start": 4108,
             "end": 4116,
-            "value": "ῦ",
-            "raw": "\"\\u1FE6\""
+            "value": "ῦ"
           },
           {
             "type": "Literal",
             "start": 4118,
             "end": 4163,
-            "value": "GREEK SMALL LETTER UPSILON WITH PERISPOMENI",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH PERISPOMENI\""
+            "value": "GREEK SMALL LETTER UPSILON WITH PERISPOMENI"
           }
         ],
         "optional": false
@@ -2817,8 +2703,7 @@
                 "type": "Literal",
                 "start": 4183,
                 "end": 4191,
-                "value": "ῧ",
-                "raw": "\"\\u1FE7\""
+                "value": "ῧ"
               },
               "property": {
                 "type": "Identifier",
@@ -2836,15 +2721,13 @@
             "type": "Literal",
             "start": 4207,
             "end": 4215,
-            "value": "ῧ",
-            "raw": "\"\\u1FE7\""
+            "value": "ῧ"
           },
           {
             "type": "Literal",
             "start": 4217,
             "end": 4276,
-            "value": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI",
-            "raw": "\"GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI\""
+            "value": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI"
           }
         ],
         "optional": false
@@ -2890,8 +2773,7 @@
                 "type": "Literal",
                 "start": 4296,
                 "end": 4304,
-                "value": "ῶ",
-                "raw": "\"\\u1FF6\""
+                "value": "ῶ"
               },
               "property": {
                 "type": "Identifier",
@@ -2909,15 +2791,13 @@
             "type": "Literal",
             "start": 4320,
             "end": 4328,
-            "value": "ῶ",
-            "raw": "\"\\u1FF6\""
+            "value": "ῶ"
           },
           {
             "type": "Literal",
             "start": 4330,
             "end": 4373,
-            "value": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH PERISPOMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI"
           }
         ],
         "optional": false
@@ -2963,8 +2843,7 @@
                 "type": "Literal",
                 "start": 4394,
                 "end": 4402,
-                "value": "ᾀ",
-                "raw": "\"\\u1F80\""
+                "value": "ᾀ"
               },
               "property": {
                 "type": "Identifier",
@@ -2982,15 +2861,13 @@
             "type": "Literal",
             "start": 4418,
             "end": 4426,
-            "value": "ᾀ",
-            "raw": "\"\\u1F80\""
+            "value": "ᾀ"
           },
           {
             "type": "Literal",
             "start": 4428,
             "end": 4483,
-            "value": "GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3036,8 +2913,7 @@
                 "type": "Literal",
                 "start": 4503,
                 "end": 4511,
-                "value": "ᾁ",
-                "raw": "\"\\u1F81\""
+                "value": "ᾁ"
               },
               "property": {
                 "type": "Identifier",
@@ -3055,15 +2931,13 @@
             "type": "Literal",
             "start": 4527,
             "end": 4535,
-            "value": "ᾁ",
-            "raw": "\"\\u1F81\""
+            "value": "ᾁ"
           },
           {
             "type": "Literal",
             "start": 4537,
             "end": 4592,
-            "value": "GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3109,8 +2983,7 @@
                 "type": "Literal",
                 "start": 4612,
                 "end": 4620,
-                "value": "ᾂ",
-                "raw": "\"\\u1F82\""
+                "value": "ᾂ"
               },
               "property": {
                 "type": "Identifier",
@@ -3128,15 +3001,13 @@
             "type": "Literal",
             "start": 4636,
             "end": 4644,
-            "value": "ᾂ",
-            "raw": "\"\\u1F82\""
+            "value": "ᾂ"
           },
           {
             "type": "Literal",
             "start": 4646,
             "end": 4711,
-            "value": "GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3182,8 +3053,7 @@
                 "type": "Literal",
                 "start": 4731,
                 "end": 4739,
-                "value": "ᾃ",
-                "raw": "\"\\u1F83\""
+                "value": "ᾃ"
               },
               "property": {
                 "type": "Identifier",
@@ -3201,15 +3071,13 @@
             "type": "Literal",
             "start": 4755,
             "end": 4763,
-            "value": "ᾃ",
-            "raw": "\"\\u1F83\""
+            "value": "ᾃ"
           },
           {
             "type": "Literal",
             "start": 4765,
             "end": 4830,
-            "value": "GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3255,8 +3123,7 @@
                 "type": "Literal",
                 "start": 4850,
                 "end": 4858,
-                "value": "ᾄ",
-                "raw": "\"\\u1F84\""
+                "value": "ᾄ"
               },
               "property": {
                 "type": "Identifier",
@@ -3274,15 +3141,13 @@
             "type": "Literal",
             "start": 4874,
             "end": 4882,
-            "value": "ᾄ",
-            "raw": "\"\\u1F84\""
+            "value": "ᾄ"
           },
           {
             "type": "Literal",
             "start": 4884,
             "end": 4948,
-            "value": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3328,8 +3193,7 @@
                 "type": "Literal",
                 "start": 4968,
                 "end": 4976,
-                "value": "ᾅ",
-                "raw": "\"\\u1F85\""
+                "value": "ᾅ"
               },
               "property": {
                 "type": "Identifier",
@@ -3347,15 +3211,13 @@
             "type": "Literal",
             "start": 4992,
             "end": 5000,
-            "value": "ᾅ",
-            "raw": "\"\\u1F85\""
+            "value": "ᾅ"
           },
           {
             "type": "Literal",
             "start": 5002,
             "end": 5066,
-            "value": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3401,8 +3263,7 @@
                 "type": "Literal",
                 "start": 5086,
                 "end": 5094,
-                "value": "ᾆ",
-                "raw": "\"\\u1F86\""
+                "value": "ᾆ"
               },
               "property": {
                 "type": "Identifier",
@@ -3420,15 +3281,13 @@
             "type": "Literal",
             "start": 5110,
             "end": 5118,
-            "value": "ᾆ",
-            "raw": "\"\\u1F86\""
+            "value": "ᾆ"
           },
           {
             "type": "Literal",
             "start": 5120,
             "end": 5191,
-            "value": "GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3474,8 +3333,7 @@
                 "type": "Literal",
                 "start": 5211,
                 "end": 5219,
-                "value": "ᾇ",
-                "raw": "\"\\u1F87\""
+                "value": "ᾇ"
               },
               "property": {
                 "type": "Identifier",
@@ -3493,15 +3351,13 @@
             "type": "Literal",
             "start": 5235,
             "end": 5243,
-            "value": "ᾇ",
-            "raw": "\"\\u1F87\""
+            "value": "ᾇ"
           },
           {
             "type": "Literal",
             "start": 5245,
             "end": 5316,
-            "value": "GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3547,8 +3403,7 @@
                 "type": "Literal",
                 "start": 5337,
                 "end": 5345,
-                "value": "ᾈ",
-                "raw": "\"\\u1F88\""
+                "value": "ᾈ"
               },
               "property": {
                 "type": "Identifier",
@@ -3566,15 +3421,13 @@
             "type": "Literal",
             "start": 5361,
             "end": 5369,
-            "value": "ᾀ",
-            "raw": "\"\\u1F80\""
+            "value": "ᾀ"
           },
           {
             "type": "Literal",
             "start": 5371,
             "end": 5429,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3620,8 +3473,7 @@
                 "type": "Literal",
                 "start": 5449,
                 "end": 5457,
-                "value": "ᾉ",
-                "raw": "\"\\u1F89\""
+                "value": "ᾉ"
               },
               "property": {
                 "type": "Identifier",
@@ -3639,15 +3491,13 @@
             "type": "Literal",
             "start": 5473,
             "end": 5481,
-            "value": "ᾁ",
-            "raw": "\"\\u1F81\""
+            "value": "ᾁ"
           },
           {
             "type": "Literal",
             "start": 5483,
             "end": 5541,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3693,8 +3543,7 @@
                 "type": "Literal",
                 "start": 5561,
                 "end": 5569,
-                "value": "ᾊ",
-                "raw": "\"\\u1F8A\""
+                "value": "ᾊ"
               },
               "property": {
                 "type": "Identifier",
@@ -3712,15 +3561,13 @@
             "type": "Literal",
             "start": 5585,
             "end": 5593,
-            "value": "ᾂ",
-            "raw": "\"\\u1F82\""
+            "value": "ᾂ"
           },
           {
             "type": "Literal",
             "start": 5595,
             "end": 5663,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3766,8 +3613,7 @@
                 "type": "Literal",
                 "start": 5683,
                 "end": 5691,
-                "value": "ᾋ",
-                "raw": "\"\\u1F8B\""
+                "value": "ᾋ"
               },
               "property": {
                 "type": "Identifier",
@@ -3785,15 +3631,13 @@
             "type": "Literal",
             "start": 5707,
             "end": 5715,
-            "value": "ᾃ",
-            "raw": "\"\\u1F83\""
+            "value": "ᾃ"
           },
           {
             "type": "Literal",
             "start": 5717,
             "end": 5785,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3839,8 +3683,7 @@
                 "type": "Literal",
                 "start": 5805,
                 "end": 5813,
-                "value": "ᾌ",
-                "raw": "\"\\u1F8C\""
+                "value": "ᾌ"
               },
               "property": {
                 "type": "Identifier",
@@ -3858,15 +3701,13 @@
             "type": "Literal",
             "start": 5829,
             "end": 5837,
-            "value": "ᾄ",
-            "raw": "\"\\u1F84\""
+            "value": "ᾄ"
           },
           {
             "type": "Literal",
             "start": 5839,
             "end": 5906,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3912,8 +3753,7 @@
                 "type": "Literal",
                 "start": 5926,
                 "end": 5934,
-                "value": "ᾍ",
-                "raw": "\"\\u1F8D\""
+                "value": "ᾍ"
               },
               "property": {
                 "type": "Identifier",
@@ -3931,15 +3771,13 @@
             "type": "Literal",
             "start": 5950,
             "end": 5958,
-            "value": "ᾅ",
-            "raw": "\"\\u1F85\""
+            "value": "ᾅ"
           },
           {
             "type": "Literal",
             "start": 5960,
             "end": 6027,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -3985,8 +3823,7 @@
                 "type": "Literal",
                 "start": 6047,
                 "end": 6055,
-                "value": "ᾎ",
-                "raw": "\"\\u1F8E\""
+                "value": "ᾎ"
               },
               "property": {
                 "type": "Identifier",
@@ -4004,15 +3841,13 @@
             "type": "Literal",
             "start": 6071,
             "end": 6079,
-            "value": "ᾆ",
-            "raw": "\"\\u1F86\""
+            "value": "ᾆ"
           },
           {
             "type": "Literal",
             "start": 6081,
             "end": 6155,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4058,8 +3893,7 @@
                 "type": "Literal",
                 "start": 6175,
                 "end": 6183,
-                "value": "ᾏ",
-                "raw": "\"\\u1F8F\""
+                "value": "ᾏ"
               },
               "property": {
                 "type": "Identifier",
@@ -4077,15 +3911,13 @@
             "type": "Literal",
             "start": 6199,
             "end": 6207,
-            "value": "ᾇ",
-            "raw": "\"\\u1F87\""
+            "value": "ᾇ"
           },
           {
             "type": "Literal",
             "start": 6209,
             "end": 6283,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4131,8 +3963,7 @@
                 "type": "Literal",
                 "start": 6304,
                 "end": 6312,
-                "value": "ᾐ",
-                "raw": "\"\\u1F90\""
+                "value": "ᾐ"
               },
               "property": {
                 "type": "Identifier",
@@ -4150,15 +3981,13 @@
             "type": "Literal",
             "start": 6328,
             "end": 6336,
-            "value": "ᾐ",
-            "raw": "\"\\u1F90\""
+            "value": "ᾐ"
           },
           {
             "type": "Literal",
             "start": 6338,
             "end": 6391,
-            "value": "GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4204,8 +4033,7 @@
                 "type": "Literal",
                 "start": 6411,
                 "end": 6419,
-                "value": "ᾑ",
-                "raw": "\"\\u1F91\""
+                "value": "ᾑ"
               },
               "property": {
                 "type": "Identifier",
@@ -4223,15 +4051,13 @@
             "type": "Literal",
             "start": 6435,
             "end": 6443,
-            "value": "ᾑ",
-            "raw": "\"\\u1F91\""
+            "value": "ᾑ"
           },
           {
             "type": "Literal",
             "start": 6445,
             "end": 6498,
-            "value": "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4277,8 +4103,7 @@
                 "type": "Literal",
                 "start": 6518,
                 "end": 6526,
-                "value": "ᾒ",
-                "raw": "\"\\u1F92\""
+                "value": "ᾒ"
               },
               "property": {
                 "type": "Identifier",
@@ -4296,15 +4121,13 @@
             "type": "Literal",
             "start": 6542,
             "end": 6550,
-            "value": "ᾒ",
-            "raw": "\"\\u1F92\""
+            "value": "ᾒ"
           },
           {
             "type": "Literal",
             "start": 6552,
             "end": 6615,
-            "value": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4350,8 +4173,7 @@
                 "type": "Literal",
                 "start": 6635,
                 "end": 6643,
-                "value": "ᾓ",
-                "raw": "\"\\u1F93\""
+                "value": "ᾓ"
               },
               "property": {
                 "type": "Identifier",
@@ -4369,15 +4191,13 @@
             "type": "Literal",
             "start": 6659,
             "end": 6667,
-            "value": "ᾓ",
-            "raw": "\"\\u1F93\""
+            "value": "ᾓ"
           },
           {
             "type": "Literal",
             "start": 6669,
             "end": 6732,
-            "value": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4423,8 +4243,7 @@
                 "type": "Literal",
                 "start": 6752,
                 "end": 6760,
-                "value": "ᾔ",
-                "raw": "\"\\u1F94\""
+                "value": "ᾔ"
               },
               "property": {
                 "type": "Identifier",
@@ -4442,15 +4261,13 @@
             "type": "Literal",
             "start": 6776,
             "end": 6784,
-            "value": "ᾔ",
-            "raw": "\"\\u1F94\""
+            "value": "ᾔ"
           },
           {
             "type": "Literal",
             "start": 6786,
             "end": 6848,
-            "value": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4496,8 +4313,7 @@
                 "type": "Literal",
                 "start": 6868,
                 "end": 6876,
-                "value": "ᾕ",
-                "raw": "\"\\u1F95\""
+                "value": "ᾕ"
               },
               "property": {
                 "type": "Identifier",
@@ -4515,15 +4331,13 @@
             "type": "Literal",
             "start": 6892,
             "end": 6900,
-            "value": "ᾕ",
-            "raw": "\"\\u1F95\""
+            "value": "ᾕ"
           },
           {
             "type": "Literal",
             "start": 6902,
             "end": 6964,
-            "value": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4569,8 +4383,7 @@
                 "type": "Literal",
                 "start": 6984,
                 "end": 6992,
-                "value": "ᾖ",
-                "raw": "\"\\u1F96\""
+                "value": "ᾖ"
               },
               "property": {
                 "type": "Identifier",
@@ -4588,15 +4401,13 @@
             "type": "Literal",
             "start": 7008,
             "end": 7016,
-            "value": "ᾖ",
-            "raw": "\"\\u1F96\""
+            "value": "ᾖ"
           },
           {
             "type": "Literal",
             "start": 7018,
             "end": 7087,
-            "value": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4642,8 +4453,7 @@
                 "type": "Literal",
                 "start": 7107,
                 "end": 7115,
-                "value": "ᾗ",
-                "raw": "\"\\u1F97\""
+                "value": "ᾗ"
               },
               "property": {
                 "type": "Identifier",
@@ -4661,15 +4471,13 @@
             "type": "Literal",
             "start": 7131,
             "end": 7139,
-            "value": "ᾗ",
-            "raw": "\"\\u1F97\""
+            "value": "ᾗ"
           },
           {
             "type": "Literal",
             "start": 7141,
             "end": 7210,
-            "value": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4715,8 +4523,7 @@
                 "type": "Literal",
                 "start": 7231,
                 "end": 7239,
-                "value": "ᾘ",
-                "raw": "\"\\u1F98\""
+                "value": "ᾘ"
               },
               "property": {
                 "type": "Identifier",
@@ -4734,15 +4541,13 @@
             "type": "Literal",
             "start": 7255,
             "end": 7263,
-            "value": "ᾐ",
-            "raw": "\"\\u1F90\""
+            "value": "ᾐ"
           },
           {
             "type": "Literal",
             "start": 7265,
             "end": 7321,
-            "value": "GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4788,8 +4593,7 @@
                 "type": "Literal",
                 "start": 7341,
                 "end": 7349,
-                "value": "ᾙ",
-                "raw": "\"\\u1F99\""
+                "value": "ᾙ"
               },
               "property": {
                 "type": "Identifier",
@@ -4807,15 +4611,13 @@
             "type": "Literal",
             "start": 7365,
             "end": 7373,
-            "value": "ᾑ",
-            "raw": "\"\\u1F91\""
+            "value": "ᾑ"
           },
           {
             "type": "Literal",
             "start": 7375,
             "end": 7431,
-            "value": "GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4861,8 +4663,7 @@
                 "type": "Literal",
                 "start": 7451,
                 "end": 7459,
-                "value": "ᾚ",
-                "raw": "\"\\u1F9A\""
+                "value": "ᾚ"
               },
               "property": {
                 "type": "Identifier",
@@ -4880,15 +4681,13 @@
             "type": "Literal",
             "start": 7475,
             "end": 7483,
-            "value": "ᾒ",
-            "raw": "\"\\u1F92\""
+            "value": "ᾒ"
           },
           {
             "type": "Literal",
             "start": 7485,
             "end": 7551,
-            "value": "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -4934,8 +4733,7 @@
                 "type": "Literal",
                 "start": 7571,
                 "end": 7579,
-                "value": "ᾛ",
-                "raw": "\"\\u1F9B\""
+                "value": "ᾛ"
               },
               "property": {
                 "type": "Identifier",
@@ -4953,15 +4751,13 @@
             "type": "Literal",
             "start": 7595,
             "end": 7603,
-            "value": "ᾓ",
-            "raw": "\"\\u1F93\""
+            "value": "ᾓ"
           },
           {
             "type": "Literal",
             "start": 7605,
             "end": 7671,
-            "value": "GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5007,8 +4803,7 @@
                 "type": "Literal",
                 "start": 7691,
                 "end": 7699,
-                "value": "ᾜ",
-                "raw": "\"\\u1F9C\""
+                "value": "ᾜ"
               },
               "property": {
                 "type": "Identifier",
@@ -5026,15 +4821,13 @@
             "type": "Literal",
             "start": 7715,
             "end": 7723,
-            "value": "ᾔ",
-            "raw": "\"\\u1F94\""
+            "value": "ᾔ"
           },
           {
             "type": "Literal",
             "start": 7725,
             "end": 7790,
-            "value": "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5080,8 +4873,7 @@
                 "type": "Literal",
                 "start": 7810,
                 "end": 7818,
-                "value": "ᾝ",
-                "raw": "\"\\u1F9D\""
+                "value": "ᾝ"
               },
               "property": {
                 "type": "Identifier",
@@ -5099,15 +4891,13 @@
             "type": "Literal",
             "start": 7834,
             "end": 7842,
-            "value": "ᾕ",
-            "raw": "\"\\u1F95\""
+            "value": "ᾕ"
           },
           {
             "type": "Literal",
             "start": 7844,
             "end": 7909,
-            "value": "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5153,8 +4943,7 @@
                 "type": "Literal",
                 "start": 7929,
                 "end": 7937,
-                "value": "ᾞ",
-                "raw": "\"\\u1F9E\""
+                "value": "ᾞ"
               },
               "property": {
                 "type": "Identifier",
@@ -5172,15 +4961,13 @@
             "type": "Literal",
             "start": 7953,
             "end": 7961,
-            "value": "ᾖ",
-            "raw": "\"\\u1F96\""
+            "value": "ᾖ"
           },
           {
             "type": "Literal",
             "start": 7963,
             "end": 8035,
-            "value": "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5226,8 +5013,7 @@
                 "type": "Literal",
                 "start": 8055,
                 "end": 8063,
-                "value": "ᾟ",
-                "raw": "\"\\u1F9F\""
+                "value": "ᾟ"
               },
               "property": {
                 "type": "Identifier",
@@ -5245,15 +5031,13 @@
             "type": "Literal",
             "start": 8079,
             "end": 8087,
-            "value": "ᾗ",
-            "raw": "\"\\u1F97\""
+            "value": "ᾗ"
           },
           {
             "type": "Literal",
             "start": 8089,
             "end": 8161,
-            "value": "GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5299,8 +5083,7 @@
                 "type": "Literal",
                 "start": 8182,
                 "end": 8190,
-                "value": "ᾠ",
-                "raw": "\"\\u1FA0\""
+                "value": "ᾠ"
               },
               "property": {
                 "type": "Identifier",
@@ -5318,15 +5101,13 @@
             "type": "Literal",
             "start": 8206,
             "end": 8214,
-            "value": "ᾠ",
-            "raw": "\"\\u1FA0\""
+            "value": "ᾠ"
           },
           {
             "type": "Literal",
             "start": 8216,
             "end": 8271,
-            "value": "GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5372,8 +5153,7 @@
                 "type": "Literal",
                 "start": 8291,
                 "end": 8299,
-                "value": "ᾡ",
-                "raw": "\"\\u1FA1\""
+                "value": "ᾡ"
               },
               "property": {
                 "type": "Identifier",
@@ -5391,15 +5171,13 @@
             "type": "Literal",
             "start": 8315,
             "end": 8323,
-            "value": "ᾡ",
-            "raw": "\"\\u1FA1\""
+            "value": "ᾡ"
           },
           {
             "type": "Literal",
             "start": 8325,
             "end": 8380,
-            "value": "GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5445,8 +5223,7 @@
                 "type": "Literal",
                 "start": 8400,
                 "end": 8408,
-                "value": "ᾢ",
-                "raw": "\"\\u1FA2\""
+                "value": "ᾢ"
               },
               "property": {
                 "type": "Identifier",
@@ -5464,15 +5241,13 @@
             "type": "Literal",
             "start": 8424,
             "end": 8432,
-            "value": "ᾢ",
-            "raw": "\"\\u1FA2\""
+            "value": "ᾢ"
           },
           {
             "type": "Literal",
             "start": 8434,
             "end": 8499,
-            "value": "GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5518,8 +5293,7 @@
                 "type": "Literal",
                 "start": 8519,
                 "end": 8527,
-                "value": "ᾣ",
-                "raw": "\"\\u1FA3\""
+                "value": "ᾣ"
               },
               "property": {
                 "type": "Identifier",
@@ -5537,15 +5311,13 @@
             "type": "Literal",
             "start": 8543,
             "end": 8551,
-            "value": "ᾣ",
-            "raw": "\"\\u1FA3\""
+            "value": "ᾣ"
           },
           {
             "type": "Literal",
             "start": 8553,
             "end": 8618,
-            "value": "GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5591,8 +5363,7 @@
                 "type": "Literal",
                 "start": 8638,
                 "end": 8646,
-                "value": "ᾤ",
-                "raw": "\"\\u1FA4\""
+                "value": "ᾤ"
               },
               "property": {
                 "type": "Identifier",
@@ -5610,15 +5381,13 @@
             "type": "Literal",
             "start": 8662,
             "end": 8670,
-            "value": "ᾤ",
-            "raw": "\"\\u1FA4\""
+            "value": "ᾤ"
           },
           {
             "type": "Literal",
             "start": 8672,
             "end": 8736,
-            "value": "GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5664,8 +5433,7 @@
                 "type": "Literal",
                 "start": 8756,
                 "end": 8764,
-                "value": "ᾥ",
-                "raw": "\"\\u1FA5\""
+                "value": "ᾥ"
               },
               "property": {
                 "type": "Identifier",
@@ -5683,15 +5451,13 @@
             "type": "Literal",
             "start": 8780,
             "end": 8788,
-            "value": "ᾥ",
-            "raw": "\"\\u1FA5\""
+            "value": "ᾥ"
           },
           {
             "type": "Literal",
             "start": 8790,
             "end": 8854,
-            "value": "GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5737,8 +5503,7 @@
                 "type": "Literal",
                 "start": 8874,
                 "end": 8882,
-                "value": "ᾦ",
-                "raw": "\"\\u1FA6\""
+                "value": "ᾦ"
               },
               "property": {
                 "type": "Identifier",
@@ -5756,15 +5521,13 @@
             "type": "Literal",
             "start": 8898,
             "end": 8906,
-            "value": "ᾦ",
-            "raw": "\"\\u1FA6\""
+            "value": "ᾦ"
           },
           {
             "type": "Literal",
             "start": 8908,
             "end": 8979,
-            "value": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5810,8 +5573,7 @@
                 "type": "Literal",
                 "start": 8999,
                 "end": 9007,
-                "value": "ᾧ",
-                "raw": "\"\\u1FA7\""
+                "value": "ᾧ"
               },
               "property": {
                 "type": "Identifier",
@@ -5829,15 +5591,13 @@
             "type": "Literal",
             "start": 9023,
             "end": 9031,
-            "value": "ᾧ",
-            "raw": "\"\\u1FA7\""
+            "value": "ᾧ"
           },
           {
             "type": "Literal",
             "start": 9033,
             "end": 9104,
-            "value": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5883,8 +5643,7 @@
                 "type": "Literal",
                 "start": 9125,
                 "end": 9133,
-                "value": "ᾨ",
-                "raw": "\"\\u1FA8\""
+                "value": "ᾨ"
               },
               "property": {
                 "type": "Identifier",
@@ -5902,15 +5661,13 @@
             "type": "Literal",
             "start": 9149,
             "end": 9157,
-            "value": "ᾠ",
-            "raw": "\"\\u1FA0\""
+            "value": "ᾠ"
           },
           {
             "type": "Literal",
             "start": 9159,
             "end": 9217,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -5956,8 +5713,7 @@
                 "type": "Literal",
                 "start": 9237,
                 "end": 9245,
-                "value": "ᾩ",
-                "raw": "\"\\u1FA9\""
+                "value": "ᾩ"
               },
               "property": {
                 "type": "Identifier",
@@ -5975,15 +5731,13 @@
             "type": "Literal",
             "start": 9261,
             "end": 9269,
-            "value": "ᾡ",
-            "raw": "\"\\u1FA1\""
+            "value": "ᾡ"
           },
           {
             "type": "Literal",
             "start": 9271,
             "end": 9329,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6029,8 +5783,7 @@
                 "type": "Literal",
                 "start": 9349,
                 "end": 9357,
-                "value": "ᾪ",
-                "raw": "\"\\u1FAA\""
+                "value": "ᾪ"
               },
               "property": {
                 "type": "Identifier",
@@ -6048,15 +5801,13 @@
             "type": "Literal",
             "start": 9373,
             "end": 9381,
-            "value": "ᾢ",
-            "raw": "\"\\u1FA2\""
+            "value": "ᾢ"
           },
           {
             "type": "Literal",
             "start": 9383,
             "end": 9451,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6102,8 +5853,7 @@
                 "type": "Literal",
                 "start": 9471,
                 "end": 9479,
-                "value": "ᾫ",
-                "raw": "\"\\u1FAB\""
+                "value": "ᾫ"
               },
               "property": {
                 "type": "Identifier",
@@ -6121,15 +5871,13 @@
             "type": "Literal",
             "start": 9495,
             "end": 9503,
-            "value": "ᾣ",
-            "raw": "\"\\u1FA3\""
+            "value": "ᾣ"
           },
           {
             "type": "Literal",
             "start": 9505,
             "end": 9573,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6175,8 +5923,7 @@
                 "type": "Literal",
                 "start": 9593,
                 "end": 9601,
-                "value": "ᾬ",
-                "raw": "\"\\u1FAC\""
+                "value": "ᾬ"
               },
               "property": {
                 "type": "Identifier",
@@ -6194,15 +5941,13 @@
             "type": "Literal",
             "start": 9617,
             "end": 9625,
-            "value": "ᾤ",
-            "raw": "\"\\u1FA4\""
+            "value": "ᾤ"
           },
           {
             "type": "Literal",
             "start": 9627,
             "end": 9694,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6248,8 +5993,7 @@
                 "type": "Literal",
                 "start": 9714,
                 "end": 9722,
-                "value": "ᾭ",
-                "raw": "\"\\u1FAD\""
+                "value": "ᾭ"
               },
               "property": {
                 "type": "Identifier",
@@ -6267,15 +6011,13 @@
             "type": "Literal",
             "start": 9738,
             "end": 9746,
-            "value": "ᾥ",
-            "raw": "\"\\u1FA5\""
+            "value": "ᾥ"
           },
           {
             "type": "Literal",
             "start": 9748,
             "end": 9815,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6321,8 +6063,7 @@
                 "type": "Literal",
                 "start": 9835,
                 "end": 9843,
-                "value": "ᾮ",
-                "raw": "\"\\u1FAE\""
+                "value": "ᾮ"
               },
               "property": {
                 "type": "Identifier",
@@ -6340,15 +6081,13 @@
             "type": "Literal",
             "start": 9859,
             "end": 9867,
-            "value": "ᾦ",
-            "raw": "\"\\u1FA6\""
+            "value": "ᾦ"
           },
           {
             "type": "Literal",
             "start": 9869,
             "end": 9943,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6394,8 +6133,7 @@
                 "type": "Literal",
                 "start": 9963,
                 "end": 9971,
-                "value": "ᾯ",
-                "raw": "\"\\u1FAF\""
+                "value": "ᾯ"
               },
               "property": {
                 "type": "Identifier",
@@ -6413,15 +6151,13 @@
             "type": "Literal",
             "start": 9987,
             "end": 9995,
-            "value": "ᾧ",
-            "raw": "\"\\u1FA7\""
+            "value": "ᾧ"
           },
           {
             "type": "Literal",
             "start": 9997,
             "end": 10071,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6467,8 +6203,7 @@
                 "type": "Literal",
                 "start": 10092,
                 "end": 10100,
-                "value": "ᾳ",
-                "raw": "\"\\u1FB3\""
+                "value": "ᾳ"
               },
               "property": {
                 "type": "Identifier",
@@ -6486,15 +6221,13 @@
             "type": "Literal",
             "start": 10116,
             "end": 10124,
-            "value": "ᾳ",
-            "raw": "\"\\u1FB3\""
+            "value": "ᾳ"
           },
           {
             "type": "Literal",
             "start": 10126,
             "end": 10171,
-            "value": "GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6540,8 +6273,7 @@
                 "type": "Literal",
                 "start": 10191,
                 "end": 10199,
-                "value": "ᾼ",
-                "raw": "\"\\u1FBC\""
+                "value": "ᾼ"
               },
               "property": {
                 "type": "Identifier",
@@ -6559,15 +6291,13 @@
             "type": "Literal",
             "start": 10215,
             "end": 10223,
-            "value": "ᾳ",
-            "raw": "\"\\u1FB3\""
+            "value": "ᾳ"
           },
           {
             "type": "Literal",
             "start": 10225,
             "end": 10273,
-            "value": "GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6613,8 +6343,7 @@
                 "type": "Literal",
                 "start": 10293,
                 "end": 10301,
-                "value": "ῃ",
-                "raw": "\"\\u1FC3\""
+                "value": "ῃ"
               },
               "property": {
                 "type": "Identifier",
@@ -6632,15 +6361,13 @@
             "type": "Literal",
             "start": 10317,
             "end": 10325,
-            "value": "ῃ",
-            "raw": "\"\\u1FC3\""
+            "value": "ῃ"
           },
           {
             "type": "Literal",
             "start": 10327,
             "end": 10370,
-            "value": "GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6686,8 +6413,7 @@
                 "type": "Literal",
                 "start": 10390,
                 "end": 10398,
-                "value": "ῌ",
-                "raw": "\"\\u1FCC\""
+                "value": "ῌ"
               },
               "property": {
                 "type": "Identifier",
@@ -6705,15 +6431,13 @@
             "type": "Literal",
             "start": 10414,
             "end": 10422,
-            "value": "ῃ",
-            "raw": "\"\\u1FC3\""
+            "value": "ῃ"
           },
           {
             "type": "Literal",
             "start": 10424,
             "end": 10470,
-            "value": "GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6759,8 +6483,7 @@
                 "type": "Literal",
                 "start": 10490,
                 "end": 10498,
-                "value": "ῳ",
-                "raw": "\"\\u1FF3\""
+                "value": "ῳ"
               },
               "property": {
                 "type": "Identifier",
@@ -6778,15 +6501,13 @@
             "type": "Literal",
             "start": 10514,
             "end": 10522,
-            "value": "ῳ",
-            "raw": "\"\\u1FF3\""
+            "value": "ῳ"
           },
           {
             "type": "Literal",
             "start": 10524,
             "end": 10569,
-            "value": "GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6832,8 +6553,7 @@
                 "type": "Literal",
                 "start": 10589,
                 "end": 10597,
-                "value": "ῼ",
-                "raw": "\"\\u1FFC\""
+                "value": "ῼ"
               },
               "property": {
                 "type": "Identifier",
@@ -6851,15 +6571,13 @@
             "type": "Literal",
             "start": 10613,
             "end": 10621,
-            "value": "ῳ",
-            "raw": "\"\\u1FF3\""
+            "value": "ῳ"
           },
           {
             "type": "Literal",
             "start": 10623,
             "end": 10671,
-            "value": "GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI",
-            "raw": "\"GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI\""
+            "value": "GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6905,8 +6623,7 @@
                 "type": "Literal",
                 "start": 10692,
                 "end": 10700,
-                "value": "ᾲ",
-                "raw": "\"\\u1FB2\""
+                "value": "ᾲ"
               },
               "property": {
                 "type": "Identifier",
@@ -6924,15 +6641,13 @@
             "type": "Literal",
             "start": 10716,
             "end": 10724,
-            "value": "ᾲ",
-            "raw": "\"\\u1FB2\""
+            "value": "ᾲ"
           },
           {
             "type": "Literal",
             "start": 10726,
             "end": 10781,
-            "value": "GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -6978,8 +6693,7 @@
                 "type": "Literal",
                 "start": 10801,
                 "end": 10809,
-                "value": "ᾴ",
-                "raw": "\"\\u1FB4\""
+                "value": "ᾴ"
               },
               "property": {
                 "type": "Identifier",
@@ -6997,15 +6711,13 @@
             "type": "Literal",
             "start": 10825,
             "end": 10833,
-            "value": "ᾴ",
-            "raw": "\"\\u1FB4\""
+            "value": "ᾴ"
           },
           {
             "type": "Literal",
             "start": 10835,
             "end": 10889,
-            "value": "GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -7051,8 +6763,7 @@
                 "type": "Literal",
                 "start": 10909,
                 "end": 10917,
-                "value": "ῂ",
-                "raw": "\"\\u1FC2\""
+                "value": "ῂ"
               },
               "property": {
                 "type": "Identifier",
@@ -7070,15 +6781,13 @@
             "type": "Literal",
             "start": 10933,
             "end": 10941,
-            "value": "ῂ",
-            "raw": "\"\\u1FC2\""
+            "value": "ῂ"
           },
           {
             "type": "Literal",
             "start": 10943,
             "end": 10996,
-            "value": "GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -7124,8 +6833,7 @@
                 "type": "Literal",
                 "start": 11016,
                 "end": 11024,
-                "value": "ῄ",
-                "raw": "\"\\u1FC4\""
+                "value": "ῄ"
               },
               "property": {
                 "type": "Identifier",
@@ -7143,15 +6851,13 @@
             "type": "Literal",
             "start": 11040,
             "end": 11048,
-            "value": "ῄ",
-            "raw": "\"\\u1FC4\""
+            "value": "ῄ"
           },
           {
             "type": "Literal",
             "start": 11050,
             "end": 11102,
-            "value": "GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -7197,8 +6903,7 @@
                 "type": "Literal",
                 "start": 11122,
                 "end": 11130,
-                "value": "ῲ",
-                "raw": "\"\\u1FF2\""
+                "value": "ῲ"
               },
               "property": {
                 "type": "Identifier",
@@ -7216,15 +6921,13 @@
             "type": "Literal",
             "start": 11146,
             "end": 11154,
-            "value": "ῲ",
-            "raw": "\"\\u1FF2\""
+            "value": "ῲ"
           },
           {
             "type": "Literal",
             "start": 11156,
             "end": 11211,
-            "value": "GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -7270,8 +6973,7 @@
                 "type": "Literal",
                 "start": 11231,
                 "end": 11239,
-                "value": "ῴ",
-                "raw": "\"\\u1FF4\""
+                "value": "ῴ"
               },
               "property": {
                 "type": "Identifier",
@@ -7289,15 +6991,13 @@
             "type": "Literal",
             "start": 11255,
             "end": 11263,
-            "value": "ῴ",
-            "raw": "\"\\u1FF4\""
+            "value": "ῴ"
           },
           {
             "type": "Literal",
             "start": 11265,
             "end": 11319,
-            "value": "GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -7343,8 +7043,7 @@
                 "type": "Literal",
                 "start": 11340,
                 "end": 11348,
-                "value": "ᾷ",
-                "raw": "\"\\u1FB7\""
+                "value": "ᾷ"
               },
               "property": {
                 "type": "Identifier",
@@ -7362,15 +7061,13 @@
             "type": "Literal",
             "start": 11364,
             "end": 11372,
-            "value": "ᾷ",
-            "raw": "\"\\u1FB7\""
+            "value": "ᾷ"
           },
           {
             "type": "Literal",
             "start": 11374,
             "end": 11435,
-            "value": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -7416,8 +7113,7 @@
                 "type": "Literal",
                 "start": 11455,
                 "end": 11463,
-                "value": "ῇ",
-                "raw": "\"\\u1FC7\""
+                "value": "ῇ"
               },
               "property": {
                 "type": "Identifier",
@@ -7435,15 +7131,13 @@
             "type": "Literal",
             "start": 11479,
             "end": 11487,
-            "value": "ῇ",
-            "raw": "\"\\u1FC7\""
+            "value": "ῇ"
           },
           {
             "type": "Literal",
             "start": 11489,
             "end": 11548,
-            "value": "GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false
@@ -7489,8 +7183,7 @@
                 "type": "Literal",
                 "start": 11568,
                 "end": 11576,
-                "value": "ῷ",
-                "raw": "\"\\u1FF7\""
+                "value": "ῷ"
               },
               "property": {
                 "type": "Identifier",
@@ -7508,15 +7201,13 @@
             "type": "Literal",
             "start": 11592,
             "end": 11600,
-            "value": "ῷ",
-            "raw": "\"\\u1FF7\""
+            "value": "ῷ"
           },
           {
             "type": "Literal",
             "start": 11602,
             "end": 11663,
-            "value": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI",
-            "raw": "\"GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI\""
+            "value": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI"
           }
         ],
         "optional": false

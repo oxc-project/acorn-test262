@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 721,
             "end": 727,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -145,8 +144,7 @@
                   "type": "Literal",
                   "start": 802,
                   "end": 809,
-                  "value": "blink",
-                  "raw": "\"blink\""
+                  "value": "blink"
                 },
                 "kind": "init"
               }

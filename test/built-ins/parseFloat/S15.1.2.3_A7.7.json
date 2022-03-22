@@ -52,8 +52,7 @@
                     "type": "Literal",
                     "start": 412,
                     "end": 462,
-                    "value": "#1.1: new parseFloat() throw TypeError. Actual: ",
-                    "raw": "'#1.1: new parseFloat() throw TypeError. Actual: '"
+                    "value": "#1.1: new parseFloat() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -162,8 +161,7 @@
                             "type": "Literal",
                             "start": 570,
                             "end": 620,
-                            "value": "#1.2: new parseFloat() throw TypeError. Actual: ",
-                            "raw": "'#1.2: new parseFloat() throw TypeError. Actual: '"
+                            "value": "#1.2: new parseFloat() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

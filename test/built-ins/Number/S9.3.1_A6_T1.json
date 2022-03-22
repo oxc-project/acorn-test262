@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 488,
-                "value": "Infinity",
-                "raw": "\"Infinity\""
+                "value": "Infinity"
               }
             ],
             "optional": false
@@ -75,8 +74,7 @@
             "type": "Literal",
             "start": 517,
             "end": 570,
-            "value": "Number(\"Infinity\") returns Number.POSITIVE_INFINITY",
-            "raw": "'Number(\"Infinity\") returns Number.POSITIVE_INFINITY'"
+            "value": "Number(\"Infinity\") returns Number.POSITIVE_INFINITY"
           }
         ],
         "optional": false
@@ -125,8 +123,7 @@
                 "type": "Literal",
                 "start": 597,
                 "end": 607,
-                "value": "Infinity",
-                "raw": "\"Infinity\""
+                "value": "Infinity"
               }
             ],
             "optional": false
@@ -135,15 +132,13 @@
             "type": "Literal",
             "start": 610,
             "end": 618,
-            "value": null,
-            "raw": "10e10000"
+            "value": null
           },
           {
             "type": "Literal",
             "start": 620,
             "end": 661,
-            "value": "Number(\"Infinity\") must return 10e10000",
-            "raw": "'Number(\"Infinity\") must return 10e10000'"
+            "value": "Number(\"Infinity\") must return 10e10000"
           }
         ],
         "optional": false
@@ -192,8 +187,7 @@
                 "type": "Literal",
                 "start": 688,
                 "end": 698,
-                "value": "Infinity",
-                "raw": "\"Infinity\""
+                "value": "Infinity"
               }
             ],
             "optional": false
@@ -202,15 +196,13 @@
             "type": "Literal",
             "start": 701,
             "end": 709,
-            "value": null,
-            "raw": "10E10000"
+            "value": null
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 752,
-            "value": "Number(\"Infinity\") must return 10E10000",
-            "raw": "'Number(\"Infinity\") must return 10E10000'"
+            "value": "Number(\"Infinity\") must return 10E10000"
           }
         ],
         "optional": false
@@ -259,8 +251,7 @@
                 "type": "Literal",
                 "start": 783,
                 "end": 793,
-                "value": "Infinity",
-                "raw": "\"Infinity\""
+                "value": "Infinity"
               }
             ],
             "optional": false
@@ -269,15 +260,13 @@
             "type": "Literal",
             "start": 798,
             "end": 806,
-            "value": null,
-            "raw": "10e10000"
+            "value": null
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 888,
-            "value": "Number(\"Infinity\") must return the same value returned by Number(\"10e10000\")",
-            "raw": "'Number(\"Infinity\") must return the same value returned by Number(\"10e10000\")'"
+            "value": "Number(\"Infinity\") must return the same value returned by Number(\"10e10000\")"
           }
         ],
         "optional": false

@@ -29,8 +29,7 @@
           "type": "Literal",
           "start": 448,
           "end": 458,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 486,
                     "end": 548,
-                    "value": "#1: typeof __func === \"function\". Actual:  typeof __func ===",
-                    "raw": "'#1: typeof __func === \"function\". Actual:  typeof __func ==='"
+                    "value": "#1: typeof __func === \"function\". Actual:  typeof __func ==="
                   },
                   "operator": "+",
                   "right": {
@@ -112,8 +110,7 @@
           "type": "Literal",
           "start": 764,
           "end": 775,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -144,8 +141,7 @@
                     "type": "Literal",
                     "start": 803,
                     "end": 866,
-                    "value": "#2: typeof __gunc === \"undefined\". Actual:  typeof __gunc ===",
-                    "raw": "'#2: typeof __gunc === \"undefined\". Actual:  typeof __gunc ==='"
+                    "value": "#2: typeof __gunc === \"undefined\". Actual:  typeof __gunc ==="
                   },
                   "operator": "+",
                   "right": {

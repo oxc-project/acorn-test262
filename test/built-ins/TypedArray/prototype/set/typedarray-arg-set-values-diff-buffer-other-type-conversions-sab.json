@@ -259,8 +259,7 @@
                           "type": "Literal",
                           "start": 748,
                           "end": 749,
-                          "value": 4,
-                          "raw": "4"
+                          "value": 4
                         }
                       ]
                     }
@@ -325,8 +324,7 @@
                         "type": "Literal",
                         "start": 787,
                         "end": 788,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -462,8 +460,7 @@
                           "type": "Literal",
                           "start": 876,
                           "end": 877,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -478,8 +475,7 @@
                         "type": "Literal",
                         "start": 890,
                         "end": 909,
-                        "value": "src is SAB-backed",
-                        "raw": "\"src is SAB-backed\""
+                        "value": "src is SAB-backed"
                       }
                     ],
                     "optional": false
@@ -515,8 +511,7 @@
                           "type": "Literal",
                           "start": 943,
                           "end": 944,
-                          "value": 4,
-                          "raw": "4"
+                          "value": 4
                         }
                       ]
                     }
@@ -624,8 +619,7 @@
                         "type": "Literal",
                         "start": 1013,
                         "end": 1014,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -718,8 +712,7 @@
                           "type": "Literal",
                           "start": 1074,
                           "end": 1075,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -734,8 +727,7 @@
                         "type": "Literal",
                         "start": 1088,
                         "end": 1110,
-                        "value": "target is SAB-backed",
-                        "raw": "\"target is SAB-backed\""
+                        "value": "target is SAB-backed"
                       }
                     ],
                     "optional": false
@@ -771,8 +763,7 @@
                             "type": "Literal",
                             "start": 1149,
                             "end": 1150,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ]
                       }
@@ -810,8 +801,7 @@
                             "type": "Literal",
                             "start": 1188,
                             "end": 1189,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           }
                         ]
                       }
@@ -878,8 +868,7 @@
                         "type": "Literal",
                         "start": 1228,
                         "end": 1229,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -951,8 +940,7 @@
                         "type": "Literal",
                         "start": 1274,
                         "end": 1275,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -1045,8 +1033,7 @@
                           "type": "Literal",
                           "start": 1335,
                           "end": 1336,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1061,8 +1048,7 @@
                         "type": "Literal",
                         "start": 1349,
                         "end": 1380,
-                        "value": "src and target are SAB-backed",
-                        "raw": "\"src and target are SAB-backed\""
+                        "value": "src and target are SAB-backed"
                       }
                     ],
                     "optional": false

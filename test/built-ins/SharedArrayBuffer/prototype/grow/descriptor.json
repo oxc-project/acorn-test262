@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 717,
             "end": 723,
-            "value": "grow",
-            "raw": "'grow'"
+            "value": "grow"
           },
           {
             "type": "ObjectExpression",

@@ -31,8 +31,7 @@
                   "type": "Literal",
                   "start": 1297,
                   "end": 1339,
-                  "value": "var shouldNotBeDefined; function NaN(){}",
-                  "raw": "\"var shouldNotBeDefined; function NaN(){}\""
+                  "value": "var shouldNotBeDefined; function NaN(){}"
                 }
               ],
               "optional": false
@@ -120,8 +119,7 @@
                 "type": "Literal",
                 "start": 1447,
                 "end": 1467,
-                "value": "shouldNotBeDefined",
-                "raw": "\"shouldNotBeDefined\""
+                "value": "shouldNotBeDefined"
               }
             ],
             "optional": false

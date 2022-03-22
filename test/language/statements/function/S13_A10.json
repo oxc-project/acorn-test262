@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 272,
               "end": 288,
-              "value": "ziggy stardust",
-              "raw": "\"ziggy stardust\""
+              "value": "ziggy stardust"
             }
           }
         ]
@@ -137,8 +136,7 @@
           "type": "Literal",
           "start": 469,
           "end": 479,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -169,8 +167,7 @@
                     "type": "Literal",
                     "start": 507,
                     "end": 590,
-                    "value": "#1: typeof __music_box.ziggy === \"function\". Actual: typeof __music_box.ziggy ===",
-                    "raw": "'#1: typeof __music_box.ziggy === \"function\". Actual: typeof __music_box.ziggy ==='"
+                    "value": "#1: typeof __music_box.ziggy === \"function\". Actual: typeof __music_box.ziggy ==="
                   },
                   "operator": "+",
                   "right": {
@@ -246,8 +243,7 @@
           "type": "Literal",
           "start": 820,
           "end": 836,
-          "value": "ziggy stardust",
-          "raw": "\"ziggy stardust\""
+          "value": "ziggy stardust"
         }
       },
       "consequent": {
@@ -278,8 +274,7 @@
                     "type": "Literal",
                     "start": 864,
                     "end": 943,
-                    "value": "#2: __music_box.ziggy() === \"ziggy stardust\". Actual: __music_box.ziggy() ===",
-                    "raw": "'#2: __music_box.ziggy() === \"ziggy stardust\". Actual: __music_box.ziggy() ==='"
+                    "value": "#2: __music_box.ziggy() === \"ziggy stardust\". Actual: __music_box.ziggy() ==="
                   },
                   "operator": "+",
                   "right": {

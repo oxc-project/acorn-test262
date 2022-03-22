@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 477,
                 "end": 486,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -126,15 +125,13 @@
                   "type": "Literal",
                   "start": 536,
                   "end": 548,
-                  "value": "2021-07-16",
-                  "raw": "\"2021-07-16\""
+                  "value": "2021-07-16"
                 },
                 {
                   "type": "Literal",
                   "start": 550,
                   "end": 565,
-                  "value": "invalide date",
-                  "raw": "\"invalide date\""
+                  "value": "invalide date"
                 }
               ],
               "optional": false
@@ -144,8 +141,7 @@
             "type": "Literal",
             "start": 574,
             "end": 650,
-            "value": "cal.dateUntil(\"2021-07-16\", \"invalide date\") throws a RangeError exception",
-            "raw": "'cal.dateUntil(\"2021-07-16\", \"invalide date\") throws a RangeError exception'"
+            "value": "cal.dateUntil(\"2021-07-16\", \"invalide date\") throws a RangeError exception"
           }
         ],
         "optional": false
@@ -222,15 +218,13 @@
                   "type": "Literal",
                   "start": 699,
                   "end": 714,
-                  "value": "invalide date",
-                  "raw": "\"invalide date\""
+                  "value": "invalide date"
                 },
                 {
                   "type": "Literal",
                   "start": 716,
                   "end": 728,
-                  "value": "2021-07-16",
-                  "raw": "\"2021-07-16\""
+                  "value": "2021-07-16"
                 }
               ],
               "optional": false
@@ -240,8 +234,7 @@
             "type": "Literal",
             "start": 737,
             "end": 813,
-            "value": "cal.dateUntil(\"invalide date\", \"2021-07-16\") throws a RangeError exception",
-            "raw": "'cal.dateUntil(\"invalide date\", \"2021-07-16\") throws a RangeError exception'"
+            "value": "cal.dateUntil(\"invalide date\", \"2021-07-16\") throws a RangeError exception"
           }
         ],
         "optional": false

@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 287,
                 "end": 296,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ],
             "optional": false
@@ -88,8 +87,7 @@
             "type": "Literal",
             "start": 311,
             "end": 316,
-            "value": "M11",
-            "raw": "\"M11\""
+            "value": "M11"
           }
         }
       ],
@@ -188,8 +186,7 @@
                     "type": "Literal",
                     "start": 373,
                     "end": 385,
-                    "value": "1994-11-05",
-                    "raw": "\"1994-11-05\""
+                    "value": "1994-11-05"
                   }
                 ],
                 "optional": false
@@ -207,8 +204,7 @@
             "type": "Literal",
             "start": 394,
             "end": 405,
-            "value": "PlainDate",
-            "raw": "\"PlainDate\""
+            "value": "PlainDate"
           }
         ],
         "optional": false
@@ -307,8 +303,7 @@
                     "type": "Literal",
                     "start": 467,
                     "end": 488,
-                    "value": "1994-11-05T08:15:30",
-                    "raw": "\"1994-11-05T08:15:30\""
+                    "value": "1994-11-05T08:15:30"
                   }
                 ],
                 "optional": false
@@ -326,8 +321,7 @@
             "type": "Literal",
             "start": 497,
             "end": 512,
-            "value": "PlainDateTime",
-            "raw": "\"PlainDateTime\""
+            "value": "PlainDateTime"
           }
         ],
         "optional": false
@@ -426,8 +420,7 @@
                     "type": "Literal",
                     "start": 575,
                     "end": 584,
-                    "value": "1994-11",
-                    "raw": "\"1994-11\""
+                    "value": "1994-11"
                   }
                 ],
                 "optional": false
@@ -445,8 +438,7 @@
             "type": "Literal",
             "start": 593,
             "end": 609,
-            "value": "PlainYearMonth",
-            "raw": "\"PlainYearMonth\""
+            "value": "PlainYearMonth"
           }
         ],
         "optional": false
@@ -545,8 +537,7 @@
                     "type": "Literal",
                     "start": 671,
                     "end": 678,
-                    "value": "11-05",
-                    "raw": "\"11-05\""
+                    "value": "11-05"
                   }
                 ],
                 "optional": false
@@ -564,8 +555,7 @@
             "type": "Literal",
             "start": 687,
             "end": 702,
-            "value": "PlainMonthDay",
-            "raw": "\"PlainMonthDay\""
+            "value": "PlainMonthDay"
           }
         ],
         "optional": false
@@ -645,8 +635,7 @@
                       "type": "Literal",
                       "start": 744,
                       "end": 748,
-                      "value": 1994,
-                      "raw": "1994"
+                      "value": 1994
                     },
                     "kind": "init"
                   },
@@ -667,8 +656,7 @@
                       "type": "Literal",
                       "start": 757,
                       "end": 759,
-                      "value": 11,
-                      "raw": "11"
+                      "value": 11
                     },
                     "kind": "init"
                   },
@@ -689,8 +677,7 @@
                       "type": "Literal",
                       "start": 766,
                       "end": 767,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     },
                     "kind": "init"
                   }
@@ -709,8 +696,7 @@
             "type": "Literal",
             "start": 777,
             "end": 791,
-            "value": "property bag",
-            "raw": "\"property bag\""
+            "value": "property bag"
           }
         ],
         "optional": false
@@ -772,8 +758,7 @@
                 "type": "Literal",
                 "start": 825,
                 "end": 837,
-                "value": "1994-11-05",
-                "raw": "\"1994-11-05\""
+                "value": "1994-11-05"
               }
             ],
             "optional": false
@@ -788,8 +773,7 @@
             "type": "Literal",
             "start": 845,
             "end": 853,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           }
         ],
         "optional": false
@@ -884,8 +868,7 @@
                         "type": "Literal",
                         "start": 909,
                         "end": 913,
-                        "value": 2000,
-                        "raw": "2000"
+                        "value": 2000
                       },
                       "kind": "init"
                     }
@@ -899,8 +882,7 @@
             "type": "Literal",
             "start": 918,
             "end": 956,
-            "value": "property bag with missing properties",
-            "raw": "\"property bag with missing properties\""
+            "value": "property bag with missing properties"
           }
         ],
         "optional": false

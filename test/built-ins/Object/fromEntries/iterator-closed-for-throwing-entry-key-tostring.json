@@ -206,8 +206,7 @@
                                                   "type": "Literal",
                                                   "start": 961,
                                                   "end": 987,
-                                                  "value": "should only advance once",
-                                                  "raw": "'should only advance once'"
+                                                  "value": "should only advance once"
                                                 }
                                               ]
                                             }
@@ -300,8 +299,7 @@
                                                     "type": "Literal",
                                                     "start": 1096,
                                                     "end": 1097,
-                                                    "value": 0,
-                                                    "raw": "0"
+                                                    "value": 0
                                                   },
                                                   "value": {
                                                     "type": "ObjectExpression",
@@ -434,8 +432,7 @@
                                                   "type": "Literal",
                                                   "start": 1327,
                                                   "end": 1352,
-                                                  "value": "should only return once",
-                                                  "raw": "'should only return once'"
+                                                  "value": "should only return once"
                                                 }
                                               ]
                                             }
@@ -605,8 +602,7 @@
             "type": "Literal",
             "start": 1508,
             "end": 1560,
-            "value": "iterator should be closed when key toString throws",
-            "raw": "'iterator should be closed when key toString throws'"
+            "value": "iterator should be closed when key toString throws"
           }
         ],
         "optional": false

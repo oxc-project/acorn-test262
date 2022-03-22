@@ -133,10 +133,9 @@
                     "end": 1219,
                     "body": [
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 1166,
-                        "end": 1187,
-                        "static": false,
+                        "end": 1186,
                         "computed": true,
                         "key": {
                           "type": "CallExpression",
@@ -154,10 +153,9 @@
                         "value": null
                       },
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 1192,
-                        "end": 1215,
-                        "static": false,
+                        "end": 1214,
                         "computed": true,
                         "key": {
                           "type": "AssignmentExpression",
@@ -190,8 +188,7 @@
             "type": "Literal",
             "start": 1223,
             "end": 1272,
-            "value": "computed property should have abrupt completion",
-            "raw": "'computed property should have abrupt completion'"
+            "value": "computed property should have abrupt completion"
           }
         ],
         "optional": false
@@ -307,9 +304,9 @@
                     "end": 1433,
                     "body": [
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 1373,
-                        "end": 1401,
+                        "end": 1400,
                         "static": true,
                         "computed": true,
                         "key": {
@@ -328,10 +325,9 @@
                         "value": null
                       },
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 1406,
-                        "end": 1429,
-                        "static": false,
+                        "end": 1428,
                         "computed": true,
                         "key": {
                           "type": "AssignmentExpression",
@@ -364,8 +360,7 @@
             "type": "Literal",
             "start": 1437,
             "end": 1493,
-            "value": "static computed property should have abrupt completion",
-            "raw": "'static computed property should have abrupt completion'"
+            "value": "static computed property should have abrupt completion"
           }
         ],
         "optional": false

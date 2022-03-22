@@ -95,15 +95,13 @@
             "type": "Literal",
             "start": 289,
             "end": 295,
-            "value": "true",
-            "raw": "\"true\""
+            "value": "true"
           },
           {
             "type": "Literal",
             "start": 297,
             "end": 331,
-            "value": "String.prototype.trim.call(true)",
-            "raw": "'String.prototype.trim.call(true)'"
+            "value": "String.prototype.trim.call(true)"
           }
         ],
         "optional": false

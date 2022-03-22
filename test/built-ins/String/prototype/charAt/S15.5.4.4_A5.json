@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 385,
                   "end": 386,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -80,8 +79,7 @@
                           "type": "Literal",
                           "start": 423,
                           "end": 435,
-                          "value": "intostring",
-                          "raw": "'intostring'"
+                          "value": "intostring"
                         }
                       }
                     ]
@@ -215,8 +213,7 @@
                   "type": "Literal",
                   "start": 624,
                   "end": 773,
-                  "value": "#1: __obj={valueOf:1,toString:function(){throw 'intostring'},charAt:String.prototype.charAt}; \"var x = __obj.charAt()\" lead to throwing exception",
-                  "raw": "'#1: __obj={valueOf:1,toString:function(){throw \\'intostring\\'},charAt:String.prototype.charAt}; \"var x = __obj.charAt()\" lead to throwing exception'"
+                  "value": "#1: __obj={valueOf:1,toString:function(){throw 'intostring'},charAt:String.prototype.charAt}; \"var x = __obj.charAt()\" lead to throwing exception"
                 }
               ]
             }
@@ -257,8 +254,7 @@
                   "type": "Literal",
                   "start": 802,
                   "end": 814,
-                  "value": "intostring",
-                  "raw": "'intostring'"
+                  "value": "intostring"
                 }
               },
               "consequent": {
@@ -289,8 +285,7 @@
                             "type": "Literal",
                             "start": 845,
                             "end": 904,
-                            "value": "#1.1: Exception === 'intostring'. Actual: exception ===",
-                            "raw": "'#1.1: Exception === \\'intostring\\'. Actual: exception ==='"
+                            "value": "#1.1: Exception === 'intostring'. Actual: exception ==="
                           },
                           "operator": "+",
                           "right": {

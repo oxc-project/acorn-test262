@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 251,
           "end": 253,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       }
     },
@@ -218,8 +217,7 @@
             "type": "Literal",
             "start": 438,
             "end": 457,
-            "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "value": "preCheck !== true"
           }
         ],
         "optional": false
@@ -277,8 +275,7 @@
             "type": "Literal",
             "start": 489,
             "end": 520,
-            "value": "Object.isSealed(obj) !== true",
-            "raw": "'Object.isSealed(obj) !== true'"
+            "value": "Object.isSealed(obj) !== true"
           }
         ],
         "optional": false

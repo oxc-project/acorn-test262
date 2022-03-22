@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 2045,
             "end": 2046,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -108,8 +107,7 @@
                               "type": "Literal",
                               "start": 2090,
                               "end": 2091,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           ]
                         }
@@ -215,8 +213,7 @@
                                     "type": "Literal",
                                     "start": 2154,
                                     "end": 2155,
-                                    "value": 1,
-                                    "raw": "1"
+                                    "value": 1
                                   }
                                 ]
                               }
@@ -254,8 +251,7 @@
                                 "type": "Literal",
                                 "start": 2187,
                                 "end": 2188,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           }
@@ -405,15 +401,13 @@
                             "type": "Literal",
                             "start": 2267,
                             "end": 2268,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2270,
                             "end": 2292,
-                            "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "value": "invoked exactly once"
                           }
                         ],
                         "optional": false

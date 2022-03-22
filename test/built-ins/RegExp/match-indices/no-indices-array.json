@@ -31,7 +31,6 @@
                 "start": 510,
                 "end": 513,
                 "value": {},
-                "raw": "/a/",
                 "regex": {
                   "pattern": "a",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 519,
                 "end": 522,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ],
             "optional": false
@@ -110,8 +108,7 @@
                   "type": "Literal",
                   "start": 594,
                   "end": 603,
-                  "value": "indices",
-                  "raw": "\"indices\""
+                  "value": "indices"
                 }
               ],
               "optional": false

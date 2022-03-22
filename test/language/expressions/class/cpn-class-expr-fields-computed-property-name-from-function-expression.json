@@ -30,10 +30,9 @@
               "end": 1014,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 959,
-                  "end": 980,
-                  "static": false,
+                  "end": 979,
                   "computed": true,
                   "key": {
                     "type": "FunctionExpression",
@@ -55,14 +54,13 @@
                     "type": "Literal",
                     "start": 978,
                     "end": 979,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 984,
-                  "end": 1012,
+                  "end": 1011,
                   "static": true,
                   "computed": true,
                   "key": {
@@ -85,8 +83,7 @@
                     "type": "Literal",
                     "start": 1010,
                     "end": 1011,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -188,8 +185,7 @@
             "type": "Literal",
             "start": 1076,
             "end": 1077,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -256,8 +252,7 @@
             "type": "Literal",
             "start": 1122,
             "end": 1123,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -338,8 +333,7 @@
             "type": "Literal",
             "start": 1176,
             "end": 1177,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -420,8 +414,7 @@
             "type": "Literal",
             "start": 1230,
             "end": 1231,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

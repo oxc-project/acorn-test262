@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 852,
                 "end": 860,
-                "value": "᠎",
-                "raw": "'\\u180E'"
+                "value": "᠎"
               }
             ],
             "optional": false
@@ -62,8 +61,7 @@
             "type": "Literal",
             "start": 868,
             "end": 895,
-            "value": "Number(\"\\u180E\") === NaN",
-            "raw": "'Number(\"\\\\u180E\") === NaN'"
+            "value": "Number(\"\\u180E\") === NaN"
           }
         ],
         "optional": false
@@ -112,8 +110,7 @@
                 "type": "Literal",
                 "start": 934,
                 "end": 958,
-                "value": "᠎1234567890᠎",
-                "raw": "'\\u180E1234567890\\u180E'"
+                "value": "᠎1234567890᠎"
               }
             ],
             "optional": false
@@ -128,8 +125,7 @@
             "type": "Literal",
             "start": 966,
             "end": 1008,
-            "value": "Number(\"᠎1234567890᠎\") === NaN",
-            "raw": "'Number(\"\\u180E1234567890\\u180E\") === NaN'"
+            "value": "Number(\"᠎1234567890᠎\") === NaN"
           }
         ],
         "optional": false
@@ -178,8 +174,7 @@
                 "type": "Literal",
                 "start": 1047,
                 "end": 1069,
-                "value": "᠎Infinity᠎",
-                "raw": "'\\u180EInfinity\\u180E'"
+                "value": "᠎Infinity᠎"
               }
             ],
             "optional": false
@@ -194,8 +189,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1117,
-            "value": "Number(\"᠎Infinity᠎\") === NaN",
-            "raw": "'Number(\"\\u180EInfinity\\u180E\") === NaN'"
+            "value": "Number(\"᠎Infinity᠎\") === NaN"
           }
         ],
         "optional": false
@@ -244,8 +238,7 @@
                 "type": "Literal",
                 "start": 1156,
                 "end": 1179,
-                "value": "᠎-Infinity᠎",
-                "raw": "'\\u180E-Infinity\\u180E'"
+                "value": "᠎-Infinity᠎"
               }
             ],
             "optional": false
@@ -260,8 +253,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1228,
-            "value": "Number(\"᠎-Infinity᠎\") === NaN",
-            "raw": "'Number(\"\\u180E-Infinity\\u180E\") === NaN'"
+            "value": "Number(\"᠎-Infinity᠎\") === NaN"
           }
         ],
         "optional": false

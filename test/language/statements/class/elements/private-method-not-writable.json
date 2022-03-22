@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 577,
               "end": 579,
               "name": "m"
@@ -94,21 +94,20 @@
                           "start": 603,
                           "end": 607
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 608,
                           "end": 610,
                           "name": "m"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "right": {
                         "type": "Literal",
                         "start": 613,
                         "end": 614,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   }

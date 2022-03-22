@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 308,
         "end": 328,
-        "value": "./is-extensible.js",
-        "raw": "'./is-extensible.js'"
+        "value": "./is-extensible.js"
       }
     },
     {

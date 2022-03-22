@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1256,
         "end": 1304,
-        "value": "./get-nested-namespace-props-nrml-1_FIXTURE.js",
-        "raw": "'./get-nested-namespace-props-nrml-1_FIXTURE.js'"
+        "value": "./get-nested-namespace-props-nrml-1_FIXTURE.js"
       }
     },
     {
@@ -51,8 +50,7 @@
               "type": "Literal",
               "start": 1376,
               "end": 1391,
-              "value": "starAsVarDecl",
-              "raw": "'starAsVarDecl'"
+              "value": "starAsVarDecl"
             },
             "operator": "in",
             "right": {
@@ -79,8 +77,7 @@
             "type": "Literal",
             "start": 1408,
             "end": 1423,
-            "value": "starssVarDecl",
-            "raw": "'starssVarDecl'"
+            "value": "starssVarDecl"
           }
         ],
         "optional": false
@@ -109,8 +106,7 @@
               "type": "Literal",
               "start": 1433,
               "end": 1448,
-              "value": "starAsLetDecl",
-              "raw": "'starAsLetDecl'"
+              "value": "starAsLetDecl"
             },
             "operator": "in",
             "right": {
@@ -137,8 +133,7 @@
             "type": "Literal",
             "start": 1465,
             "end": 1480,
-            "value": "starSsLetDecl",
-            "raw": "'starSsLetDecl'"
+            "value": "starSsLetDecl"
           }
         ],
         "optional": false
@@ -167,8 +162,7 @@
               "type": "Literal",
               "start": 1490,
               "end": 1507,
-              "value": "starAsConstDecl",
-              "raw": "'starAsConstDecl'"
+              "value": "starAsConstDecl"
             },
             "operator": "in",
             "right": {
@@ -195,8 +189,7 @@
             "type": "Literal",
             "start": 1524,
             "end": 1541,
-            "value": "starSsConstDecl",
-            "raw": "'starSsConstDecl'"
+            "value": "starSsConstDecl"
           }
         ],
         "optional": false
@@ -225,8 +218,7 @@
               "type": "Literal",
               "start": 1551,
               "end": 1567,
-              "value": "starAsFuncDecl",
-              "raw": "'starAsFuncDecl'"
+              "value": "starAsFuncDecl"
             },
             "operator": "in",
             "right": {
@@ -253,8 +245,7 @@
             "type": "Literal",
             "start": 1584,
             "end": 1600,
-            "value": "starAsFuncDecl",
-            "raw": "'starAsFuncDecl'"
+            "value": "starAsFuncDecl"
           }
         ],
         "optional": false
@@ -283,8 +274,7 @@
               "type": "Literal",
               "start": 1610,
               "end": 1625,
-              "value": "starAsGenDecl",
-              "raw": "'starAsGenDecl'"
+              "value": "starAsGenDecl"
             },
             "operator": "in",
             "right": {
@@ -311,8 +301,7 @@
             "type": "Literal",
             "start": 1642,
             "end": 1657,
-            "value": "starAsGenDecl",
-            "raw": "'starAsGenDecl'"
+            "value": "starAsGenDecl"
           }
         ],
         "optional": false
@@ -341,8 +330,7 @@
               "type": "Literal",
               "start": 1667,
               "end": 1684,
-              "value": "starAsClassDecl",
-              "raw": "'starAsClassDecl'"
+              "value": "starAsClassDecl"
             },
             "operator": "in",
             "right": {
@@ -369,8 +357,7 @@
             "type": "Literal",
             "start": 1701,
             "end": 1718,
-            "value": "starAsClassDecl",
-            "raw": "'starAsClassDecl'"
+            "value": "starAsClassDecl"
           }
         ],
         "optional": false
@@ -399,8 +386,7 @@
               "type": "Literal",
               "start": 1728,
               "end": 1745,
-              "value": "starAsBindingId",
-              "raw": "'starAsBindingId'"
+              "value": "starAsBindingId"
             },
             "operator": "in",
             "right": {
@@ -427,8 +413,7 @@
             "type": "Literal",
             "start": 1762,
             "end": 1779,
-            "value": "starAsBindingId",
-            "raw": "'starAsBindingId'"
+            "value": "starAsBindingId"
           }
         ],
         "optional": false
@@ -457,8 +442,7 @@
               "type": "Literal",
               "start": 1789,
               "end": 1801,
-              "value": "starIdName",
-              "raw": "'starIdName'"
+              "value": "starIdName"
             },
             "operator": "in",
             "right": {
@@ -485,8 +469,7 @@
             "type": "Literal",
             "start": 1818,
             "end": 1830,
-            "value": "starIdName",
-            "raw": "'starIdName'"
+            "value": "starIdName"
           }
         ],
         "optional": false
@@ -515,8 +498,7 @@
               "type": "Literal",
               "start": 1840,
               "end": 1862,
-              "value": "starAsIndirectIdName",
-              "raw": "'starAsIndirectIdName'"
+              "value": "starAsIndirectIdName"
             },
             "operator": "in",
             "right": {
@@ -543,8 +525,7 @@
             "type": "Literal",
             "start": 1879,
             "end": 1901,
-            "value": "starAsIndirectIdName",
-            "raw": "'starAsIndirectIdName'"
+            "value": "starAsIndirectIdName"
           }
         ],
         "optional": false
@@ -573,8 +554,7 @@
               "type": "Literal",
               "start": 1911,
               "end": 1934,
-              "value": "starAsIndirectIdName2",
-              "raw": "'starAsIndirectIdName2'"
+              "value": "starAsIndirectIdName2"
             },
             "operator": "in",
             "right": {
@@ -601,8 +581,7 @@
             "type": "Literal",
             "start": 1951,
             "end": 1974,
-            "value": "starAsIndirectIdName2",
-            "raw": "'starAsIndirectIdName2'"
+            "value": "starAsIndirectIdName2"
           }
         ],
         "optional": false
@@ -631,8 +610,7 @@
               "type": "Literal",
               "start": 1984,
               "end": 2002,
-              "value": "namespaceBinding",
-              "raw": "'namespaceBinding'"
+              "value": "namespaceBinding"
             },
             "operator": "in",
             "right": {
@@ -659,8 +637,7 @@
             "type": "Literal",
             "start": 2019,
             "end": 2037,
-            "value": "namespaceBinding",
-            "raw": "'namespaceBinding'"
+            "value": "namespaceBinding"
           }
         ],
         "optional": false
@@ -702,8 +679,7 @@
               "type": "Literal",
               "start": 2109,
               "end": 2125,
-              "value": "nonExportedVar",
-              "raw": "'nonExportedVar'"
+              "value": "nonExportedVar"
             },
             "operator": "in",
             "right": {
@@ -737,8 +713,7 @@
             "type": "Literal",
             "start": 2149,
             "end": 2165,
-            "value": "nonExportedVar",
-            "raw": "'nonExportedVar'"
+            "value": "nonExportedVar"
           }
         ],
         "optional": false
@@ -780,8 +755,7 @@
               "type": "Literal",
               "start": 2185,
               "end": 2201,
-              "value": "nonExportedLet",
-              "raw": "'nonExportedLet'"
+              "value": "nonExportedLet"
             },
             "operator": "in",
             "right": {
@@ -815,8 +789,7 @@
             "type": "Literal",
             "start": 2225,
             "end": 2241,
-            "value": "nonExportedLet",
-            "raw": "'nonExportedLet'"
+            "value": "nonExportedLet"
           }
         ],
         "optional": false
@@ -858,8 +831,7 @@
               "type": "Literal",
               "start": 2261,
               "end": 2279,
-              "value": "nonExportedConst",
-              "raw": "'nonExportedConst'"
+              "value": "nonExportedConst"
             },
             "operator": "in",
             "right": {
@@ -893,8 +865,7 @@
             "type": "Literal",
             "start": 2303,
             "end": 2321,
-            "value": "nonExportedConst",
-            "raw": "'nonExportedConst'"
+            "value": "nonExportedConst"
           }
         ],
         "optional": false
@@ -936,8 +907,7 @@
               "type": "Literal",
               "start": 2341,
               "end": 2358,
-              "value": "nonExportedFunc",
-              "raw": "'nonExportedFunc'"
+              "value": "nonExportedFunc"
             },
             "operator": "in",
             "right": {
@@ -971,8 +941,7 @@
             "type": "Literal",
             "start": 2382,
             "end": 2399,
-            "value": "nonExportedFunc",
-            "raw": "'nonExportedFunc'"
+            "value": "nonExportedFunc"
           }
         ],
         "optional": false
@@ -1014,8 +983,7 @@
               "type": "Literal",
               "start": 2419,
               "end": 2435,
-              "value": "nonExportedGen",
-              "raw": "'nonExportedGen'"
+              "value": "nonExportedGen"
             },
             "operator": "in",
             "right": {
@@ -1049,8 +1017,7 @@
             "type": "Literal",
             "start": 2459,
             "end": 2475,
-            "value": "nonExportedGen",
-            "raw": "'nonExportedGen'"
+            "value": "nonExportedGen"
           }
         ],
         "optional": false
@@ -1092,8 +1059,7 @@
               "type": "Literal",
               "start": 2495,
               "end": 2513,
-              "value": "nonExportedClass",
-              "raw": "'nonExportedClass'"
+              "value": "nonExportedClass"
             },
             "operator": "in",
             "right": {
@@ -1127,8 +1093,7 @@
             "type": "Literal",
             "start": 2537,
             "end": 2555,
-            "value": "nonExportedClass",
-            "raw": "'nonExportedClass'"
+            "value": "nonExportedClass"
           }
         ],
         "optional": false

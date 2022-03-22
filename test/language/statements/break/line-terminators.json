@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 398,
                 "end": 399,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           ],
@@ -52,8 +51,7 @@
             "type": "Literal",
             "start": 402,
             "end": 403,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         },
         "update": {
@@ -110,8 +108,7 @@
                   "type": "Literal",
                   "start": 452,
                   "end": 453,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               "label": {
@@ -169,15 +166,13 @@
             "type": "Literal",
             "start": 479,
             "end": 480,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 587,
-            "value": "#1: Since LineTerminator(U-000A) between break and Identifier not allowed break evaluates without label",
-            "raw": "'#1: Since LineTerminator(U-000A) between break and Identifier not allowed break evaluates without label'"
+            "value": "#1: Since LineTerminator(U-000A) between break and Identifier not allowed break evaluates without label"
           }
         ],
         "optional": false
@@ -210,8 +205,7 @@
                 "type": "Literal",
                 "start": 608,
                 "end": 609,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           ],
@@ -232,8 +226,7 @@
             "type": "Literal",
             "start": 612,
             "end": 613,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         },
         "update": {
@@ -290,8 +283,7 @@
                   "type": "Literal",
                   "start": 662,
                   "end": 663,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               "label": {
@@ -349,15 +341,13 @@
             "type": "Literal",
             "start": 689,
             "end": 690,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 797,
-            "value": "#2: Since LineTerminator(U-000D) between break and Identifier not allowed break evaluates without label",
-            "raw": "'#2: Since LineTerminator(U-000D) between break and Identifier not allowed break evaluates without label'"
+            "value": "#2: Since LineTerminator(U-000D) between break and Identifier not allowed break evaluates without label"
           }
         ],
         "optional": false
@@ -390,8 +380,7 @@
                 "type": "Literal",
                 "start": 818,
                 "end": 819,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           ],
@@ -412,8 +401,7 @@
             "type": "Literal",
             "start": 822,
             "end": 823,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         },
         "update": {
@@ -470,8 +458,7 @@
                   "type": "Literal",
                   "start": 872,
                   "end": 873,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               "label": {
@@ -529,15 +516,13 @@
             "type": "Literal",
             "start": 899,
             "end": 900,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 902,
             "end": 1007,
-            "value": "#3: Since LineTerminator(U-2028) between break and Identifier not allowed break evaluates without label",
-            "raw": "'#3: Since LineTerminator(U-2028) between break and Identifier not allowed break evaluates without label'"
+            "value": "#3: Since LineTerminator(U-2028) between break and Identifier not allowed break evaluates without label"
           }
         ],
         "optional": false
@@ -570,8 +555,7 @@
                 "type": "Literal",
                 "start": 1028,
                 "end": 1029,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           ],
@@ -592,8 +576,7 @@
             "type": "Literal",
             "start": 1032,
             "end": 1033,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         },
         "update": {
@@ -650,8 +633,7 @@
                   "type": "Literal",
                   "start": 1082,
                   "end": 1083,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               "label": {
@@ -709,15 +691,13 @@
             "type": "Literal",
             "start": 1109,
             "end": 1110,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1112,
             "end": 1217,
-            "value": "#4: Since LineTerminator(U-2029) between break and Identifier not allowed break evaluates without label",
-            "raw": "'#4: Since LineTerminator(U-2029) between break and Identifier not allowed break evaluates without label'"
+            "value": "#4: Since LineTerminator(U-2029) between break and Identifier not allowed break evaluates without label"
           }
         ],
         "optional": false

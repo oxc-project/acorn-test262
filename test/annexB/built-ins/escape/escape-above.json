@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 681,
                 "end": 701,
-                "value": "ĀāĂ",
-                "raw": "'\\u0100\\u0101\\u0102'"
+                "value": "ĀāĂ"
               }
             ],
             "optional": false
@@ -56,15 +55,13 @@
             "type": "Literal",
             "start": 704,
             "end": 724,
-            "value": "%u0100%u0101%u0102",
-            "raw": "'%u0100%u0101%u0102'"
+            "value": "%u0100%u0101%u0102"
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 749,
-            "value": "\\u0100\\u0101\\u0102",
-            "raw": "'\\\\u0100\\\\u0101\\\\u0102'"
+            "value": "\\u0100\\u0101\\u0102"
           }
         ],
         "optional": false
@@ -113,8 +110,7 @@
                 "type": "Literal",
                 "start": 781,
                 "end": 801,
-                "value": "�￾￿",
-                "raw": "'\\ufffd\\ufffe\\uffff'"
+                "value": "�￾￿"
               }
             ],
             "optional": false
@@ -123,15 +119,13 @@
             "type": "Literal",
             "start": 804,
             "end": 824,
-            "value": "%uFFFD%uFFFE%uFFFF",
-            "raw": "'%uFFFD%uFFFE%uFFFF'"
+            "value": "%uFFFD%uFFFE%uFFFF"
           },
           {
             "type": "Literal",
             "start": 826,
             "end": 849,
-            "value": "\\ufffd\\ufffd\\ufffd",
-            "raw": "'\\\\ufffd\\\\ufffd\\\\ufffd'"
+            "value": "\\ufffd\\ufffd\\ufffd"
           }
         ],
         "optional": false
@@ -180,8 +174,7 @@
                 "type": "Literal",
                 "start": 881,
                 "end": 895,
-                "value": "𝌆",
-                "raw": "'\\ud834\\udf06'"
+                "value": "𝌆"
               }
             ],
             "optional": false
@@ -190,15 +183,13 @@
             "type": "Literal",
             "start": 898,
             "end": 912,
-            "value": "%uD834%uDF06",
-            "raw": "'%uD834%uDF06'"
+            "value": "%uD834%uDF06"
           },
           {
             "type": "Literal",
             "start": 914,
             "end": 948,
-            "value": "\\ud834\\udf06 (surrogate pairs)",
-            "raw": "'\\\\ud834\\\\udf06 (surrogate pairs)'"
+            "value": "\\ud834\\udf06 (surrogate pairs)"
           }
         ],
         "optional": false

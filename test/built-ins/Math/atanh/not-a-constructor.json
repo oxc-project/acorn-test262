@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 733,
             "end": 778,
-            "value": "isConstructor(Math.atanh) must return false",
-            "raw": "'isConstructor(Math.atanh) must return false'"
+            "value": "isConstructor(Math.atanh) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 838,
             "end": 875,
-            "value": "`new Math.atanh()` throws TypeError",
-            "raw": "'`new Math.atanh()` throws TypeError'"
+            "value": "`new Math.atanh()` throws TypeError"
           }
         ],
         "optional": false

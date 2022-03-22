@@ -31,7 +31,6 @@
                 "start": 685,
                 "end": 694,
                 "value": {},
-                "raw": "/c(d)(e)/",
                 "regex": {
                   "pattern": "c(d)(e)",
                   "flags": ""
@@ -64,15 +63,13 @@
                 "type": "Literal",
                 "start": 709,
                 "end": 718,
-                "value": "abcdefg",
-                "raw": "'abcdefg'"
+                "value": "abcdefg"
               },
               {
                 "type": "Literal",
                 "start": 720,
                 "end": 721,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -184,8 +181,7 @@
             "type": "Literal",
             "start": 788,
             "end": 789,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -233,8 +229,7 @@
               "type": "Literal",
               "start": 816,
               "end": 817,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -243,8 +238,7 @@
             "type": "Literal",
             "start": 820,
             "end": 824,
-            "value": "ab",
-            "raw": "'ab'"
+            "value": "ab"
           }
         ],
         "optional": false
@@ -292,8 +286,7 @@
               "type": "Literal",
               "start": 851,
               "end": 852,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -302,8 +295,7 @@
             "type": "Literal",
             "start": 855,
             "end": 858,
-            "value": "d",
-            "raw": "'d'"
+            "value": "d"
           }
         ],
         "optional": false

@@ -334,8 +334,7 @@
                         "type": "Literal",
                         "start": 1790,
                         "end": 1822,
-                        "value": "Promise incorrectly fulfilled.",
-                        "raw": "'Promise incorrectly fulfilled.'"
+                        "value": "Promise incorrectly fulfilled."
                       }
                     ],
                     "optional": false
@@ -411,8 +410,7 @@
                               "type": "Literal",
                               "start": 1890,
                               "end": 1933,
-                              "value": "Promise rejected with incorrect \"reason.\"",
-                              "raw": "'Promise rejected with incorrect \"reason.\"'"
+                              "value": "Promise rejected with incorrect \"reason.\""
                             }
                           ],
                           "optional": false

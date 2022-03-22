@@ -175,8 +175,7 @@
             "type": "Literal",
             "start": 540,
             "end": 589,
-            "value": "resolvedOptions returned the same object twice.",
-            "raw": "\"resolvedOptions returned the same object twice.\""
+            "value": "resolvedOptions returned the same object twice."
           }
         ],
         "optional": false
@@ -238,8 +237,7 @@
               "type": "Literal",
               "start": 740,
               "end": 758,
-              "value": "Invalid locale: ",
-              "raw": "\"Invalid locale: \""
+              "value": "Invalid locale: "
             },
             "operator": "+",
             "right": {
@@ -317,8 +315,7 @@
             "type": "Literal",
             "start": 807,
             "end": 817,
-            "value": "cardinal",
-            "raw": "\"cardinal\""
+            "value": "cardinal"
           }
         ],
         "optional": false
@@ -375,8 +372,7 @@
             "type": "Literal",
             "start": 866,
             "end": 867,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -433,8 +429,7 @@
             "type": "Literal",
             "start": 917,
             "end": 918,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -491,8 +486,7 @@
             "type": "Literal",
             "start": 968,
             "end": 969,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -615,8 +609,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1085,
-            "value": "locale",
-            "raw": "\"locale\""
+            "value": "locale"
           },
           {
             "type": "Identifier",
@@ -653,8 +646,7 @@
             "type": "Literal",
             "start": 1129,
             "end": 1135,
-            "value": "type",
-            "raw": "\"type\""
+            "value": "type"
           },
           {
             "type": "Identifier",
@@ -691,8 +683,7 @@
             "type": "Literal",
             "start": 1179,
             "end": 1189,
-            "value": "currency",
-            "raw": "\"currency\""
+            "value": "currency"
           },
           {
             "type": "Identifier",
@@ -729,8 +720,7 @@
             "type": "Literal",
             "start": 1226,
             "end": 1243,
-            "value": "currencyDisplay",
-            "raw": "\"currencyDisplay\""
+            "value": "currencyDisplay"
           },
           {
             "type": "Identifier",
@@ -767,8 +757,7 @@
             "type": "Literal",
             "start": 1280,
             "end": 1302,
-            "value": "minimumIntegerDigits",
-            "raw": "\"minimumIntegerDigits\""
+            "value": "minimumIntegerDigits"
           },
           {
             "type": "Identifier",
@@ -805,8 +794,7 @@
             "type": "Literal",
             "start": 1346,
             "end": 1369,
-            "value": "minimumFractionDigits",
-            "raw": "\"minimumFractionDigits\""
+            "value": "minimumFractionDigits"
           },
           {
             "type": "Identifier",
@@ -843,8 +831,7 @@
             "type": "Literal",
             "start": 1413,
             "end": 1436,
-            "value": "maximumFractionDigits",
-            "raw": "\"maximumFractionDigits\""
+            "value": "maximumFractionDigits"
           },
           {
             "type": "Identifier",
@@ -881,8 +868,7 @@
             "type": "Literal",
             "start": 1480,
             "end": 1506,
-            "value": "minimumSignificantDigits",
-            "raw": "\"minimumSignificantDigits\""
+            "value": "minimumSignificantDigits"
           },
           {
             "type": "Identifier",
@@ -919,8 +905,7 @@
             "type": "Literal",
             "start": 1543,
             "end": 1569,
-            "value": "maximumSignificantDigits",
-            "raw": "\"maximumSignificantDigits\""
+            "value": "maximumSignificantDigits"
           },
           {
             "type": "Identifier",

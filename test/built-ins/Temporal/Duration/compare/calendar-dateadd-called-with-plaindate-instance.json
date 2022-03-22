@@ -91,22 +91,19 @@
                 "type": "Literal",
                 "start": 490,
                 "end": 494,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 497,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 499,
                 "end": 500,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Identifier",
@@ -225,29 +222,25 @@
                 "type": "Literal",
                 "start": 602,
                 "end": 603,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 605,
                 "end": 606,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 608,
                 "end": 609,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 611,
                 "end": 612,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -279,22 +272,19 @@
                 "type": "Literal",
                 "start": 637,
                 "end": 638,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 640,
                 "end": 641,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 643,
                 "end": 644,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -373,16 +363,14 @@
               "type": "Literal",
               "start": 699,
               "end": 700,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 702,
             "end": 760,
-            "value": "assertions in calendar.dateAdd() should have been tested",
-            "raw": "\"assertions in calendar.dateAdd() should have been tested\""
+            "value": "assertions in calendar.dateAdd() should have been tested"
           }
         ],
         "optional": false

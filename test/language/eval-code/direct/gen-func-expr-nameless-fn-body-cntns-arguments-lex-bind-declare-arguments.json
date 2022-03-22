@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 472,
               "end": 483,
-              "value": "arguments",
-              "raw": "\"arguments\""
+              "value": "arguments"
             },
             "operator": "in",
             "right": {
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 500,
             "end": 531,
-            "value": "No global 'arguments' binding",
-            "raw": "\"No global 'arguments' binding\""
+            "value": "No global 'arguments' binding"
           }
         ],
         "optional": false
@@ -116,8 +114,7 @@
                       "type": "Literal",
                       "start": 564,
                       "end": 579,
-                      "value": "var arguments",
-                      "raw": "\"var arguments\""
+                      "value": "var arguments"
                     }
                   ],
                   "optional": false
@@ -236,8 +233,7 @@
               "type": "Literal",
               "start": 652,
               "end": 663,
-              "value": "arguments",
-              "raw": "\"arguments\""
+              "value": "arguments"
             },
             "operator": "in",
             "right": {
@@ -257,8 +253,7 @@
             "type": "Literal",
             "start": 680,
             "end": 711,
-            "value": "No global 'arguments' binding",
-            "raw": "\"No global 'arguments' binding\""
+            "value": "No global 'arguments' binding"
           }
         ],
         "optional": false

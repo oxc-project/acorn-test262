@@ -131,8 +131,7 @@
             "type": "Literal",
             "start": 564,
             "end": 574,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "ObjectExpression",
@@ -247,8 +246,7 @@
                         "type": "Literal",
                         "start": 664,
                         "end": 674,
-                        "value": "property",
-                        "raw": "\"property\""
+                        "value": "property"
                       },
                       "value": {
                         "type": "ObjectExpression",
@@ -306,8 +304,7 @@
                   "type": "Literal",
                   "start": 740,
                   "end": 764,
-                  "value": "Expected an exception.",
-                  "raw": "\"Expected an exception.\""
+                  "value": "Expected an exception."
                 }
               ]
             }
@@ -354,15 +351,13 @@
                     "type": "Literal",
                     "start": 803,
                     "end": 813,
-                    "value": "property",
-                    "raw": "\"property\""
+                    "value": "property"
                   },
                   {
                     "type": "Literal",
                     "start": 815,
                     "end": 834,
-                    "value": "setVerifyHelpProp",
-                    "raw": "\"setVerifyHelpProp\""
+                    "value": "setVerifyHelpProp"
                   }
                 ],
                 "optional": false
@@ -393,8 +388,7 @@
                     "type": "Literal",
                     "start": 865,
                     "end": 875,
-                    "value": "property",
-                    "raw": "\"property\""
+                    "value": "property"
                   }
                 ],
                 "optional": false
@@ -425,8 +419,7 @@
                     "type": "Literal",
                     "start": 908,
                     "end": 918,
-                    "value": "property",
-                    "raw": "\"property\""
+                    "value": "property"
                   }
                 ],
                 "optional": false
@@ -494,8 +487,7 @@
                             "type": "Literal",
                             "start": 984,
                             "end": 1010,
-                            "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "value": "Expected TypeError, got "
                           },
                           "operator": "+",
                           "right": {

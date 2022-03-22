@@ -32,8 +32,7 @@
                 "type": "Literal",
                 "start": 381,
                 "end": 385,
-                "value": 1000,
-                "raw": "1000"
+                "value": 1000
               }
             }
           }
@@ -55,8 +54,7 @@
           "type": "Literal",
           "start": 391,
           "end": 395,
-          "value": 1000,
-          "raw": "1000"
+          "value": 1000
         }
       },
       "update": {
@@ -107,8 +105,7 @@
                     "type": "Literal",
                     "start": 418,
                     "end": 422,
-                    "value": 10,
-                    "raw": "10.0"
+                    "value": 10
                   }
                 }
               }
@@ -227,8 +224,7 @@
                   "type": "Literal",
                   "start": 488,
                   "end": 572,
-                  "value": "The value of `-Math.ceil(-x)` must return the same value returned by Math.floor(x)",
-                  "raw": "'The value of `-Math.ceil(-x)` must return the same value returned by Math.floor(x)'"
+                  "value": "The value of `-Math.ceil(-x)` must return the same value returned by Math.floor(x)"
                 }
               ],
               "optional": false

@@ -33,15 +33,13 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 405,
-                "value": 1978,
-                "raw": "1978"
+                "value": 1978
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 408,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -131,8 +129,7 @@
             "type": "Literal",
             "start": 471,
             "end": 529,
-            "value": "The value of n_obj is expected to equal the value of obj",
-            "raw": "'The value of n_obj is expected to equal the value of obj'"
+            "value": "The value of n_obj is expected to equal the value of obj"
           }
         ],
         "optional": false
@@ -196,15 +193,13 @@
             "type": "Literal",
             "start": 570,
             "end": 574,
-            "value": 1978,
-            "raw": "1978"
+            "value": 1978
           },
           {
             "type": "Literal",
             "start": 576,
             "end": 614,
-            "value": "n_obj.getFullYear() must return 1978",
-            "raw": "'n_obj.getFullYear() must return 1978'"
+            "value": "n_obj.getFullYear() must return 1978"
           }
         ],
         "optional": false
@@ -268,15 +263,13 @@
             "type": "Literal",
             "start": 652,
             "end": 653,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 687,
-            "value": "n_obj.getMonth() must return 3",
-            "raw": "'n_obj.getMonth() must return 3'"
+            "value": "n_obj.getMonth() must return 3"
           }
         ],
         "optional": false

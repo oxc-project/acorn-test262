@@ -45,8 +45,7 @@
                       "type": "Literal",
                       "start": 1112,
                       "end": 1128,
-                      "value": "en-GB-oxendict",
-                      "raw": "\"en-GB-oxendict\""
+                      "value": "en-GB-oxendict"
                     },
                     "kind": "init"
                   },
@@ -85,8 +84,7 @@
                             "type": "Literal",
                             "start": 1159,
                             "end": 1163,
-                            "value": "US",
-                            "raw": "\"US\""
+                            "value": "US"
                           },
                           "kind": "init"
                         },
@@ -107,8 +105,7 @@
                             "type": "Literal",
                             "start": 1181,
                             "end": 1190,
-                            "value": "gregory",
-                            "raw": "\"gregory\""
+                            "value": "gregory"
                           },
                           "kind": "init"
                         }
@@ -133,8 +130,7 @@
                       "type": "Literal",
                       "start": 1214,
                       "end": 1243,
-                      "value": "en-US-oxendict-u-ca-gregory",
-                      "raw": "\"en-US-oxendict-u-ca-gregory\""
+                      "value": "en-US-oxendict-u-ca-gregory"
                     },
                     "kind": "init"
                   }
@@ -483,8 +479,7 @@
                   "type": "Literal",
                   "start": 1525,
                   "end": 1533,
-                  "value": "no-bok",
-                  "raw": "\"no-bok\""
+                  "value": "no-bok"
                 },
                 {
                   "type": "ObjectExpression",
@@ -508,8 +503,7 @@
                         "type": "Literal",
                         "start": 1544,
                         "end": 1548,
-                        "value": "NO",
-                        "raw": "\"NO\""
+                        "value": "NO"
                       },
                       "kind": "init"
                     },
@@ -530,8 +524,7 @@
                         "type": "Literal",
                         "start": 1560,
                         "end": 1569,
-                        "value": "gregory",
-                        "raw": "\"gregory\""
+                        "value": "gregory"
                       },
                       "kind": "init"
                     }
@@ -615,8 +608,7 @@
                   "type": "Literal",
                   "start": 1626,
                   "end": 1634,
-                  "value": "no-bok",
-                  "raw": "\"no-bok\""
+                  "value": "no-bok"
                 },
                 {
                   "type": "ObjectExpression",
@@ -640,8 +632,7 @@
                         "type": "Literal",
                         "start": 1645,
                         "end": 1649,
-                        "value": "SE",
-                        "raw": "\"SE\""
+                        "value": "SE"
                       },
                       "kind": "init"
                     },
@@ -662,8 +653,7 @@
                         "type": "Literal",
                         "start": 1661,
                         "end": 1670,
-                        "value": "gregory",
-                        "raw": "\"gregory\""
+                        "value": "gregory"
                       },
                       "kind": "init"
                     }
@@ -747,8 +737,7 @@
                   "type": "Literal",
                   "start": 1727,
                   "end": 1738,
-                  "value": "no-bok-NO",
-                  "raw": "\"no-bok-NO\""
+                  "value": "no-bok-NO"
                 },
                 {
                   "type": "ObjectExpression",
@@ -772,8 +761,7 @@
                         "type": "Literal",
                         "start": 1749,
                         "end": 1753,
-                        "value": "SE",
-                        "raw": "\"SE\""
+                        "value": "SE"
                       },
                       "kind": "init"
                     },
@@ -794,8 +782,7 @@
                         "type": "Literal",
                         "start": 1765,
                         "end": 1774,
-                        "value": "gregory",
-                        "raw": "\"gregory\""
+                        "value": "gregory"
                       },
                       "kind": "init"
                     }
@@ -879,8 +866,7 @@
                   "type": "Literal",
                   "start": 1831,
                   "end": 1842,
-                  "value": "no-bok-SE",
-                  "raw": "\"no-bok-SE\""
+                  "value": "no-bok-SE"
                 },
                 {
                   "type": "ObjectExpression",
@@ -904,8 +890,7 @@
                         "type": "Literal",
                         "start": 1853,
                         "end": 1857,
-                        "value": "NO",
-                        "raw": "\"NO\""
+                        "value": "NO"
                       },
                       "kind": "init"
                     },
@@ -926,8 +911,7 @@
                         "type": "Literal",
                         "start": 1869,
                         "end": 1878,
-                        "value": "gregory",
-                        "raw": "\"gregory\""
+                        "value": "gregory"
                       },
                       "kind": "init"
                     }

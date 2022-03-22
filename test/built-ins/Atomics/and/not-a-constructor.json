@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 775,
             "end": 821,
-            "value": "isConstructor(Atomics.and) must return false",
-            "raw": "'isConstructor(Atomics.and) must return false'"
+            "value": "isConstructor(Atomics.and) must return false"
           }
         ],
         "optional": false
@@ -213,8 +212,7 @@
             "type": "Literal",
             "start": 949,
             "end": 1054,
-            "value": "`new Atomics.and(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT)))` throws TypeError",
-            "raw": "'`new Atomics.and(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT)))` throws TypeError'"
+            "value": "`new Atomics.and(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT)))` throws TypeError"
           }
         ],
         "optional": false

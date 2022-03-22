@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 315,
             "end": 316,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 318,
             "end": 353,
-            "value": "Object.getOwnPropertyNames.length",
-            "raw": "'Object.getOwnPropertyNames.length'"
+            "value": "Object.getOwnPropertyNames.length"
           }
         ],
         "optional": false

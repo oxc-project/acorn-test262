@@ -59,8 +59,7 @@
                           "type": "Literal",
                           "start": 725,
                           "end": 733,
-                          "value": "custom",
-                          "raw": "\"custom\""
+                          "value": "custom"
                         }
                       }
                     ]
@@ -116,22 +115,19 @@
                 "type": "Literal",
                 "start": 776,
                 "end": 780,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 782,
                 "end": 783,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 785,
                 "end": 786,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -177,15 +173,13 @@
             "type": "Literal",
             "start": 843,
             "end": 857,
-            "value": "calendarName",
-            "raw": "\"calendarName\""
+            "value": "calendarName"
           },
           {
             "type": "Literal",
             "start": 859,
             "end": 865,
-            "value": "auto",
-            "raw": "\"auto\""
+            "value": "auto"
           },
           {
             "type": "ArrowFunctionExpression",
@@ -315,8 +309,7 @@
                   "type": "Literal",
                   "start": 966,
                   "end": 991,
-                  "value": "2000-05-02[u-ca=custom]",
-                  "raw": "\"2000-05-02[u-ca=custom]\""
+                  "value": "2000-05-02[u-ca=custom]"
                 },
                 {
                   "type": "Identifier",

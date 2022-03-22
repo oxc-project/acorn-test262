@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 764,
             "end": 821,
-            "value": "isConstructor(Promise.prototype.then) must return false",
-            "raw": "'isConstructor(Promise.prototype.then) must return false'"
+            "value": "isConstructor(Promise.prototype.then) must return false"
           }
         ],
         "optional": false
@@ -228,8 +227,7 @@
             "type": "Literal",
             "start": 909,
             "end": 973,
-            "value": "`let p = new Promise(() => {}); new p.then()` throws TypeError",
-            "raw": "'`let p = new Promise(() => {}); new p.then()` throws TypeError'"
+            "value": "`let p = new Promise(() => {}); new p.then()` throws TypeError"
           }
         ],
         "optional": false

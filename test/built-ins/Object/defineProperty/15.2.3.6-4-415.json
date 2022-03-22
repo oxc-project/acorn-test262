@@ -72,8 +72,7 @@
             "type": "Literal",
             "start": 459,
             "end": 470,
-            "value": "startTime",
-            "raw": "\"startTime\""
+            "value": "startTime"
           },
           {
             "type": "ObjectExpression",
@@ -97,8 +96,7 @@
                   "type": "Literal",
                   "start": 483,
                   "end": 487,
-                  "value": 1001,
-                  "raw": "1001"
+                  "value": 1001
                 },
                 "kind": "init"
               },
@@ -212,8 +210,7 @@
             "type": "Literal",
             "start": 589,
             "end": 595,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -237,8 +234,7 @@
                   "type": "Literal",
                   "start": 608,
                   "end": 614,
-                  "value": "NAME",
-                  "raw": "\"NAME\""
+                  "value": "NAME"
                 },
                 "kind": "init"
               },
@@ -404,8 +400,7 @@
             "type": "Literal",
             "start": 755,
             "end": 771,
-            "value": "conferenceCall",
-            "raw": "\"conferenceCall\""
+            "value": "conferenceCall"
           },
           {
             "type": "ObjectExpression",
@@ -429,8 +424,7 @@
                   "type": "Literal",
                   "start": 784,
                   "end": 803,
-                  "value": "In-person meeting",
-                  "raw": "\"In-person meeting\""
+                  "value": "In-person meeting"
                 },
                 "kind": "init"
               },
@@ -583,15 +577,13 @@
             "type": "Literal",
             "start": 982,
             "end": 988,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "Literal",
             "start": 990,
             "end": 1006,
-            "value": "noCheckOwnProp",
-            "raw": "\"noCheckOwnProp\""
+            "value": "noCheckOwnProp"
           }
         ],
         "optional": false
@@ -627,8 +619,7 @@
                 "type": "Literal",
                 "start": 1033,
                 "end": 1051,
-                "value": "10/31/2010 08:00",
-                "raw": "\"10/31/2010 08:00\""
+                "value": "10/31/2010 08:00"
               }
             ]
           }
@@ -661,15 +652,13 @@
             "type": "Literal",
             "start": 1120,
             "end": 1131,
-            "value": "startTime",
-            "raw": "\"startTime\""
+            "value": "startTime"
           },
           {
             "type": "Literal",
             "start": 1133,
             "end": 1149,
-            "value": "noCheckOwnProp",
-            "raw": "\"noCheckOwnProp\""
+            "value": "noCheckOwnProp"
           }
         ],
         "optional": false
@@ -700,15 +689,13 @@
             "type": "Literal",
             "start": 1229,
             "end": 1245,
-            "value": "conferenceCall",
-            "raw": "\"conferenceCall\""
+            "value": "conferenceCall"
           },
           {
             "type": "Literal",
             "start": 1247,
             "end": 1263,
-            "value": "noCheckOwnProp",
-            "raw": "\"noCheckOwnProp\""
+            "value": "noCheckOwnProp"
           }
         ],
         "optional": false
@@ -763,8 +750,7 @@
                   "type": "Literal",
                   "start": 1302,
                   "end": 1308,
-                  "value": "name",
-                  "raw": "\"name\""
+                  "value": "name"
                 }
               ],
               "optional": false
@@ -823,8 +809,7 @@
                   "type": "Literal",
                   "start": 1347,
                   "end": 1358,
-                  "value": "startTime",
-                  "raw": "\"startTime\""
+                  "value": "startTime"
                 }
               ],
               "optional": false
@@ -883,8 +868,7 @@
                   "type": "Literal",
                   "start": 1397,
                   "end": 1413,
-                  "value": "conferenceCall",
-                  "raw": "'conferenceCall'"
+                  "value": "conferenceCall"
                 }
               ],
               "optional": false
@@ -945,8 +929,7 @@
             "type": "Literal",
             "start": 1453,
             "end": 1459,
-            "value": "NAME",
-            "raw": "\"NAME\""
+            "value": "NAME"
           }
         ],
         "optional": false
@@ -1003,8 +986,7 @@
             "type": "Literal",
             "start": 1502,
             "end": 1506,
-            "value": 1001,
-            "raw": "1001"
+            "value": 1001
           }
         ],
         "optional": false
@@ -1061,8 +1043,7 @@
             "type": "Literal",
             "start": 1554,
             "end": 1573,
-            "value": "In-person meeting",
-            "raw": "\"In-person meeting\""
+            "value": "In-person meeting"
           }
         ],
         "optional": false

@@ -263,16 +263,14 @@
                                   "type": "Literal",
                                   "start": 1199,
                                   "end": 1252,
-                                  "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.throw should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 1284,
                                   "end": 1317,
-                                  "value": " when `this` value is an object",
-                                  "raw": "\" when `this` value is an object\""
+                                  "value": " when `this` value is an object"
                                 }
                               }
                             ]
@@ -364,8 +362,7 @@
                                         "type": "Literal",
                                         "start": 1415,
                                         "end": 1453,
-                                        "value": "(object) expected TypeError but got ",
-                                        "raw": "\"(object) expected TypeError but got \""
+                                        "value": "(object) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -499,16 +496,14 @@
                                   "type": "Literal",
                                   "start": 1584,
                                   "end": 1637,
-                                  "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.throw should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 1669,
                                   "end": 1703,
-                                  "value": " when `this` value is a function",
-                                  "raw": "\" when `this` value is a function\""
+                                  "value": " when `this` value is a function"
                                 }
                               }
                             ]
@@ -600,8 +595,7 @@
                                         "type": "Literal",
                                         "start": 1801,
                                         "end": 1841,
-                                        "value": "(function) expected TypeError but got ",
-                                        "raw": "\"(function) expected TypeError but got \""
+                                        "value": "(function) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -725,16 +719,14 @@
                                   "type": "Literal",
                                   "start": 1960,
                                   "end": 2013,
-                                  "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.throw should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 2045,
                                   "end": 2096,
-                                  "value": " when `this` value is an async generator function",
-                                  "raw": "\" when `this` value is an async generator function\""
+                                  "value": " when `this` value is an async generator function"
                                 }
                               }
                             ]
@@ -826,8 +818,7 @@
                                         "type": "Literal",
                                         "start": 2194,
                                         "end": 2250,
-                                        "value": "(async generator function) expected TypeError but got ",
-                                        "raw": "\"(async generator function) expected TypeError but got \""
+                                        "value": "(async generator function) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -964,16 +955,14 @@
                                   "type": "Literal",
                                   "start": 2379,
                                   "end": 2432,
-                                  "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.throw should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 2464,
                                   "end": 2532,
-                                  "value": " when `this` value is an async generator function prototype object",
-                                  "raw": "\" when `this` value is an async generator function prototype object\""
+                                  "value": " when `this` value is an async generator function prototype object"
                                 }
                               }
                             ]
@@ -1065,8 +1054,7 @@
                                         "type": "Literal",
                                         "start": 2630,
                                         "end": 2696,
-                                        "value": "(async generator function prototype) expected TypeError but got ",
-                                        "raw": "\"(async generator function prototype) expected TypeError but got \""
+                                        "value": "(async generator function prototype) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1190,16 +1178,14 @@
                                   "type": "Literal",
                                   "start": 2827,
                                   "end": 2880,
-                                  "value": "AsyncGeneratorPrototype.throw should reject promise",
-                                  "raw": "\"AsyncGeneratorPrototype.throw should reject promise\""
+                                  "value": "AsyncGeneratorPrototype.throw should reject promise"
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 2912,
                                   "end": 2947,
-                                  "value": " when `this` value is a generator",
-                                  "raw": "\" when `this` value is a generator\""
+                                  "value": " when `this` value is a generator"
                                 }
                               }
                             ]
@@ -1291,8 +1277,7 @@
                                         "type": "Literal",
                                         "start": 3045,
                                         "end": 3086,
-                                        "value": "(generator) expected TypeError but got ",
-                                        "raw": "\"(generator) expected TypeError but got \""
+                                        "value": "(generator) expected TypeError but got "
                                       },
                                       "operator": "+",
                                       "right": {

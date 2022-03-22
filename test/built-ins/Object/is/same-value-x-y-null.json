@@ -83,8 +83,7 @@
             "type": "Literal",
             "start": 418,
             "end": 458,
-            "value": "`Object.is(null, null)` returns `true`",
-            "raw": "\"`Object.is(null, null)` returns `true`\""
+            "value": "`Object.is(null, null)` returns `true`"
           }
         ],
         "optional": false

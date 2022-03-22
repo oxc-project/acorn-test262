@@ -110,8 +110,7 @@
             "type": "Literal",
             "start": 1126,
             "end": 1159,
-            "value": "does not return the same object",
-            "raw": "'does not return the same object'"
+            "value": "does not return the same object"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 1208,
             "end": 1220,
-            "value": "instanceof",
-            "raw": "'instanceof'"
+            "value": "instanceof"
           }
         ],
         "optional": false

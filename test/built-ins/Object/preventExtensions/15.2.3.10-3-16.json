@@ -216,15 +216,13 @@
             "type": "Literal",
             "start": 460,
             "end": 468,
-            "value": "exName",
-            "raw": "\"exName\""
+            "value": "exName"
           },
           {
             "type": "Literal",
             "start": 470,
             "end": 479,
-            "value": "nocheck",
-            "raw": "\"nocheck\""
+            "value": "nocheck"
           }
         ],
         "optional": false
@@ -279,8 +277,7 @@
                   "type": "Literal",
                   "start": 510,
                   "end": 518,
-                  "value": "exName",
-                  "raw": "\"exName\""
+                  "value": "exName"
                 }
               ],
               "optional": false

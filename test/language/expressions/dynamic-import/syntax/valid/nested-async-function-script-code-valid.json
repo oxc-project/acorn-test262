@@ -75,8 +75,7 @@
                 "type": "Literal",
                 "start": 1276,
                 "end": 1296,
-                "value": "./empty_FIXTURE.js",
-                "raw": "'./empty_FIXTURE.js'"
+                "value": "./empty_FIXTURE.js"
               }
             }
           }

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Math.sin) must return false",
-            "raw": "'isConstructor(Math.sin) must return false'"
+            "value": "isConstructor(Math.sin) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Math.sin()` throws TypeError",
-            "raw": "'`new Math.sin()` throws TypeError'"
+            "value": "`new Math.sin()` throws TypeError"
           }
         ],
         "optional": false

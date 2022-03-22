@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 827,
             "end": 837,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 839,
             "end": 876,
-            "value": "generator function value is hoisted",
-            "raw": "'generator function value is hoisted'"
+            "value": "generator function value is hoisted"
           }
         ],
         "optional": false
@@ -172,15 +170,13 @@
             "type": "Literal",
             "start": 926,
             "end": 935,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           },
           {
             "type": "Literal",
             "start": 939,
             "end": 984,
-            "value": "hoisted generator function value is correct",
-            "raw": "'hoisted generator function value is correct'"
+            "value": "hoisted generator function value is correct"
           }
         ],
         "optional": false
@@ -248,8 +244,7 @@
                 "type": "Literal",
                 "start": 1048,
                 "end": 1057,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -333,8 +328,7 @@
             "type": "Literal",
             "start": 1122,
             "end": 1142,
-            "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "value": "binding is mutable"
           }
         ],
         "optional": false
@@ -402,8 +396,7 @@
                 "type": "Literal",
                 "start": 1205,
                 "end": 1214,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -445,8 +438,7 @@
               "type": "Literal",
               "start": 1260,
               "end": 1269,
-              "value": "test262",
-              "raw": "'test262'"
+              "value": "test262"
             }
           }
         ]
@@ -497,8 +489,7 @@
             "type": "Literal",
             "start": 1309,
             "end": 1363,
-            "value": "binding is not effected by evaluation of declaration",
-            "raw": "'binding is not effected by evaluation of declaration'"
+            "value": "binding is not effected by evaluation of declaration"
           }
         ],
         "optional": false
@@ -566,8 +557,7 @@
                 "type": "Literal",
                 "start": 1427,
                 "end": 1436,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -582,8 +572,7 @@
             "type": "Literal",
             "start": 1454,
             "end": 1515,
-            "value": "global binding is not effected by evaluation of declaration",
-            "raw": "'global binding is not effected by evaluation of declaration'"
+            "value": "global binding is not effected by evaluation of declaration"
           }
         ],
         "optional": false

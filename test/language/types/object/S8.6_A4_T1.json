@@ -62,8 +62,7 @@
                   "type": "Literal",
                   "start": 363,
                   "end": 364,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -84,8 +83,7 @@
                   "type": "Literal",
                   "start": 370,
                   "end": 373,
-                  "value": "a",
-                  "raw": "\"a\""
+                  "value": "a"
                 },
                 "kind": "init"
               }
@@ -114,8 +112,7 @@
             "type": "Literal",
             "start": 387,
             "end": 388,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -189,8 +186,7 @@
           "type": "Literal",
           "start": 441,
           "end": 442,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -221,8 +217,7 @@
                     "type": "Literal",
                     "start": 470,
                     "end": 572,
-                    "value": "#1: obj = {bar:true, some:1, foo:\"a\"}; count=0; for (property in obj) count++; count === 3. Actual: ",
-                    "raw": "'#1: obj = {bar:true, some:1, foo:\"a\"}; count=0; for (property in obj) count++; count === 3. Actual: '"
+                    "value": "#1: obj = {bar:true, some:1, foo:\"a\"}; count=0; for (property in obj) count++; count === 3. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -324,8 +319,7 @@
           "type": "Literal",
           "start": 750,
           "end": 751,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -361,8 +355,7 @@
           "type": "Literal",
           "start": 764,
           "end": 767,
-          "value": "a",
-          "raw": "\"a\""
+          "value": "a"
         }
       }
     },
@@ -385,8 +378,7 @@
           "type": "Literal",
           "start": 776,
           "end": 777,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -444,8 +436,7 @@
           "type": "Literal",
           "start": 827,
           "end": 828,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -476,8 +467,7 @@
                     "type": "Literal",
                     "start": 856,
                     "end": 974,
-                    "value": "#2: obj_ = {bar:true}; obj_.some = 1; obj_.foo = \"a\"; count=0; for (property in obj_) count++; count === 3. Actual: ",
-                    "raw": "'#2: obj_ = {bar:true}; obj_.some = 1; obj_.foo = \"a\"; count=0; for (property in obj_) count++; count === 3. Actual: '"
+                    "value": "#2: obj_ = {bar:true}; obj_.some = 1; obj_.foo = \"a\"; count=0; for (property in obj_) count++; count === 3. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -599,8 +589,7 @@
           "type": "Literal",
           "start": 1174,
           "end": 1175,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -636,8 +625,7 @@
           "type": "Literal",
           "start": 1189,
           "end": 1192,
-          "value": "a",
-          "raw": "\"a\""
+          "value": "a"
         }
       }
     },
@@ -660,8 +648,7 @@
           "type": "Literal",
           "start": 1201,
           "end": 1202,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -719,8 +706,7 @@
           "type": "Literal",
           "start": 1253,
           "end": 1254,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -751,8 +737,7 @@
                     "type": "Literal",
                     "start": 1282,
                     "end": 1416,
-                    "value": "#3: obj__ = new Object(); obj__.bar = true; obj__.some = 1; obj__.foo = \"a\"; for (property in obj__)  count++; count === 3. Actual: ",
-                    "raw": "'#3: obj__ = new Object(); obj__.bar = true; obj__.some = 1; obj__.foo = \"a\"; for (property in obj__)  count++; count === 3. Actual: '"
+                    "value": "#3: obj__ = new Object(); obj__.bar = true; obj__.some = 1; obj__.foo = \"a\"; for (property in obj__)  count++; count === 3. Actual: "
                   },
                   "operator": "+",
                   "right": {

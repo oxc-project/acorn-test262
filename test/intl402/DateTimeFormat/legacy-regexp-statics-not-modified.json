@@ -64,8 +64,7 @@
                         "type": "Literal",
                         "start": 419,
                         "end": 439,
-                        "value": "de-DE-u-ca-gregory",
-                        "raw": "\"de-DE-u-ca-gregory\""
+                        "value": "de-DE-u-ca-gregory"
                       }
                     ]
                   }
@@ -138,8 +137,7 @@
                         "type": "Literal",
                         "start": 518,
                         "end": 538,
-                        "value": "de-DE-u-ca-gregory",
-                        "raw": "\"de-DE-u-ca-gregory\""
+                        "value": "de-DE-u-ca-gregory"
                       },
                       {
                         "type": "ObjectExpression",
@@ -163,8 +161,7 @@
                               "type": "Literal",
                               "start": 551,
                               "end": 556,
-                              "value": "UTC",
-                              "raw": "\"UTC\""
+                              "value": "UTC"
                             },
                             "kind": "init"
                           }

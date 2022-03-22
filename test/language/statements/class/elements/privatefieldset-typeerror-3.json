@@ -20,13 +20,12 @@
         "end": 1484,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1210,
-            "end": 1218,
-            "static": false,
+            "end": 1217,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1210,
               "end": 1212,
               "name": "x"
@@ -35,8 +34,7 @@
               "type": "Literal",
               "start": 1215,
               "end": 1217,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           },
           {
@@ -131,21 +129,20 @@
                                           "start": 1415,
                                           "end": 1419
                                         },
+                                        "computed": false,
+                                        "optional": false,
                                         "property": {
-                                          "type": "PrivateIdentifier",
+                                          "type": "PrivateName",
                                           "start": 1420,
                                           "end": 1422,
                                           "name": "x"
-                                        },
-                                        "computed": false,
-                                        "optional": false
+                                        }
                                       },
                                       "right": {
                                         "type": "Literal",
                                         "start": 1425,
                                         "end": 1426,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       }
                                     }
                                   }
@@ -201,14 +198,14 @@
                         "start": 1470,
                         "end": 1474
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 1475,
                         "end": 1477,
                         "name": "x"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -383,8 +380,7 @@
             "type": "Literal",
             "start": 1597,
             "end": 1599,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -448,8 +444,7 @@
             "type": "Literal",
             "start": 1630,
             "end": 1632,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -544,15 +539,13 @@
             "type": "Literal",
             "start": 1676,
             "end": 1678,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 1680,
             "end": 1723,
-            "value": "value is set on inner class instance only",
-            "raw": "\"value is set on inner class instance only\""
+            "value": "value is set on inner class instance only"
           }
         ],
         "optional": false
@@ -616,15 +609,13 @@
             "type": "Literal",
             "start": 1754,
             "end": 1755,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1757,
             "end": 1797,
-            "value": "value is set from inner class instance",
-            "raw": "\"value is set from inner class instance\""
+            "value": "value is set from inner class instance"
           }
         ],
         "optional": false

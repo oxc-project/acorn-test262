@@ -53,8 +53,7 @@
                   "type": "Literal",
                   "start": 1821,
                   "end": 1823,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               }
@@ -100,10 +99,9 @@
               "end": 1900,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1868,
-                  "end": 1896,
-                  "static": false,
+                  "end": 1895,
                   "computed": true,
                   "key": {
                     "type": "Identifier",

@@ -104,8 +104,7 @@
             "type": "Literal",
             "start": 370,
             "end": 376,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -172,8 +171,7 @@
                               "type": "Literal",
                               "start": 406,
                               "end": 434,
-                              "value": "get Temporal.TimeZone.from",
-                              "raw": "\"get Temporal.TimeZone.from\""
+                              "value": "get Temporal.TimeZone.from"
                             }
                           ],
                           "optional": false
@@ -450,8 +448,7 @@
             "type": "Literal",
             "start": 687,
             "end": 732,
-            "value": "Temporal.TimeZone.from should not be called",
-            "raw": "\"Temporal.TimeZone.from should not be called\""
+            "value": "Temporal.TimeZone.from should not be called"
           }
         ],
         "optional": false
@@ -642,8 +639,7 @@
             "type": "Literal",
             "start": 896,
             "end": 941,
-            "value": "Temporal.TimeZone.from should not be called",
-            "raw": "\"Temporal.TimeZone.from should not be called\""
+            "value": "Temporal.TimeZone.from should not be called"
           }
         ],
         "optional": false

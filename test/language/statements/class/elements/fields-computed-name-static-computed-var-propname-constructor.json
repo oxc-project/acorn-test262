@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1966,
             "end": 1979,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           }
         }
       ],
@@ -46,9 +45,9 @@
         "end": 2007,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1994,
-            "end": 2005,
+            "end": 2004,
             "static": true,
             "computed": true,
             "key": {
@@ -87,8 +86,7 @@
             "type": "Literal",
             "start": 2028,
             "end": 2041,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -205,9 +203,9 @@
         "end": 2161,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 2143,
-            "end": 2159,
+            "end": 2158,
             "static": true,
             "computed": true,
             "key": {
@@ -220,8 +218,7 @@
               "type": "Literal",
               "start": 2156,
               "end": 2158,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           }
         ]
@@ -252,8 +249,7 @@
             "type": "Literal",
             "start": 2182,
             "end": 2195,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -277,8 +273,7 @@
                   "type": "Literal",
                   "start": 2208,
                   "end": 2210,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               },

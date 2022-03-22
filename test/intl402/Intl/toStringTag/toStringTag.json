@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 571,
-                  "value": "Intl",
-                  "raw": "\"Intl\""
+                  "value": "Intl"
                 },
                 "kind": "init"
               },

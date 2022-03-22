@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 990,
                 "end": 1000,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               }
             ],
             "optional": false
@@ -108,8 +107,7 @@
             "type": "Literal",
             "start": 1037,
             "end": 1063,
-            "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "value": "Returns an Array object."
           }
         ],
         "optional": false
@@ -199,8 +197,7 @@
             "type": "Literal",
             "start": 1151,
             "end": 1191,
-            "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "value": "The array prototype is Array.prototype"
           }
         ],
         "optional": false
@@ -249,8 +246,7 @@
                 "type": "Literal",
                 "start": 1241,
                 "end": 1251,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               }
             ],
             "optional": false
@@ -303,8 +299,7 @@
             "type": "Literal",
             "start": 1321,
             "end": 1364,
-            "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "value": "Returns a new array object for each call."
           }
         ],
         "optional": false
@@ -374,8 +369,7 @@
             "type": "Literal",
             "start": 1442,
             "end": 1464,
-            "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "value": "The array is sorted."
           }
         ],
         "optional": false
@@ -464,8 +458,7 @@
             "type": "Literal",
             "start": 1545,
             "end": 1584,
-            "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "value": "The array doesn't contain duplicates."
           }
         ],
         "optional": false
@@ -491,7 +484,6 @@
             "start": 1675,
             "end": 1709,
             "value": {},
-            "raw": "/^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$/",
             "regex": {
               "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",
               "flags": ""
@@ -723,8 +715,7 @@
                         "type": "Literal",
                         "start": 1895,
                         "end": 1900,
-                        "value": "und",
-                        "raw": "\"und\""
+                        "value": "und"
                       },
                       {
                         "type": "ObjectExpression",
@@ -856,8 +847,7 @@
                 "type": "Literal",
                 "start": 2015,
                 "end": 2024,
-                "value": "gregory",
-                "raw": "\"gregory\""
+                "value": "gregory"
               }
             ],
             "optional": false
@@ -866,8 +856,7 @@
             "type": "Literal",
             "start": 2027,
             "end": 2061,
-            "value": "Includes the Gregorian calendar.",
-            "raw": "\"Includes the Gregorian calendar.\""
+            "value": "Includes the Gregorian calendar."
           }
         ],
         "optional": false

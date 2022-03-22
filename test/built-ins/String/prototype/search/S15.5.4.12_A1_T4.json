@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 421,
               "end": 423,
-              "value": "",
-              "raw": "\"\""
+              "value": ""
             },
             "property": {
               "type": "Identifier",
@@ -43,8 +42,7 @@
           "type": "Literal",
           "start": 437,
           "end": 438,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -75,8 +73,7 @@
                     "type": "Literal",
                     "start": 467,
                     "end": 500,
-                    "value": "#1: \"\".search() === 0. Actual: ",
-                    "raw": "'#1: \"\".search() === 0. Actual: '"
+                    "value": "#1: \"\".search() === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -95,8 +92,7 @@
                           "type": "Literal",
                           "start": 504,
                           "end": 506,
-                          "value": "",
-                          "raw": "\"\""
+                          "value": ""
                         },
                         "property": {
                           "type": "Identifier",
@@ -139,8 +135,7 @@
               "type": "Literal",
               "start": 526,
               "end": 541,
-              "value": "--undefined--",
-              "raw": "\"--undefined--\""
+              "value": "--undefined--"
             },
             "property": {
               "type": "Identifier",
@@ -159,8 +154,7 @@
           "type": "Literal",
           "start": 554,
           "end": 555,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -191,8 +185,7 @@
                     "type": "Literal",
                     "start": 584,
                     "end": 630,
-                    "value": "#1: \"--undefined--\".search() === 0. Actual: ",
-                    "raw": "'#1: \"--undefined--\".search() === 0. Actual: '"
+                    "value": "#1: \"--undefined--\".search() === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -211,8 +204,7 @@
                           "type": "Literal",
                           "start": 634,
                           "end": 649,
-                          "value": "--undefined--",
-                          "raw": "\"--undefined--\""
+                          "value": "--undefined--"
                         },
                         "property": {
                           "type": "Identifier",

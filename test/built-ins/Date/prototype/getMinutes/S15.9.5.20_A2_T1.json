@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 386,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 399,
             "end": 468,
-            "value": "Date.prototype.getMinutes.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.prototype.getMinutes.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.prototype.getMinutes.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -186,15 +184,13 @@
             "type": "Literal",
             "start": 529,
             "end": 530,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 601,
-            "value": "The value of Date.prototype.getMinutes.length is expected to be 0",
-            "raw": "'The value of Date.prototype.getMinutes.length is expected to be 0'"
+            "value": "The value of Date.prototype.getMinutes.length is expected to be 0"
           }
         ],
         "optional": false

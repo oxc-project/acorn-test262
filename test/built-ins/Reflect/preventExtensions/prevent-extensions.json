@@ -138,8 +138,7 @@
             "type": "Literal",
             "start": 541,
             "end": 567,
-            "value": "object is not extensible",
-            "raw": "'object is not extensible'"
+            "value": "object is not extensible"
           }
         ],
         "optional": false
@@ -231,8 +230,7 @@
                         "type": "Literal",
                         "start": 636,
                         "end": 639,
-                        "value": "y",
-                        "raw": "'y'"
+                        "value": "y"
                       },
                       {
                         "type": "ObjectExpression",
@@ -473,8 +471,7 @@
             "type": "Literal",
             "start": 821,
             "end": 872,
-            "value": "object is still not extensible on exhausted calls",
-            "raw": "'object is still not extensible on exhausted calls'"
+            "value": "object is still not extensible on exhausted calls"
           }
         ],
         "optional": false

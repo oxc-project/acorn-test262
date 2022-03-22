@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 556,
             "end": 566,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 568,
             "end": 588,
-            "value": "typeof is function",
-            "raw": "\"typeof is function\""
+            "value": "typeof is function"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 621,
             "end": 631,
-            "value": "timeZone",
-            "raw": "'timeZone'"
+            "value": "timeZone"
           },
           {
             "type": "ObjectExpression",

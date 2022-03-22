@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 311,
                   "end": 315,
-                  "value": 1001,
-                  "raw": "1001"
+                  "value": 1001
                 },
                 "kind": "init"
               },
@@ -62,8 +61,7 @@
                   "type": "Literal",
                   "start": 326,
                   "end": 330,
-                  "value": 1002,
-                  "raw": "1002"
+                  "value": 1002
                 },
                 "kind": "init"
               }
@@ -111,8 +109,7 @@
             "type": "Literal",
             "start": 362,
             "end": 369,
-            "value": "prop3",
-            "raw": "\"prop3\""
+            "value": "prop3"
           },
           {
             "type": "ObjectExpression",
@@ -136,8 +133,7 @@
                   "type": "Literal",
                   "start": 382,
                   "end": 386,
-                  "value": 1003,
-                  "raw": "1003"
+                  "value": 1003
                 },
                 "kind": "init"
               },
@@ -229,8 +225,7 @@
             "type": "Literal",
             "start": 461,
             "end": 468,
-            "value": "prop4",
-            "raw": "\"prop4\""
+            "value": "prop4"
           },
           {
             "type": "ObjectExpression",
@@ -272,8 +267,7 @@
                           "type": "Literal",
                           "start": 503,
                           "end": 507,
-                          "value": 1003,
-                          "raw": "1003"
+                          "value": 1003
                         }
                       }
                     ]
@@ -434,15 +428,13 @@
             "type": "Literal",
             "start": 619,
             "end": 620,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 622,
             "end": 634,
-            "value": "arr.length",
-            "raw": "'arr.length'"
+            "value": "arr.length"
           }
         ],
         "optional": false

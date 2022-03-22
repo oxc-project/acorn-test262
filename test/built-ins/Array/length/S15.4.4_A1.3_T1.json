@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 353,
             "end": 354,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 356,
             "end": 413,
-            "value": "The value of Array.prototype.length is expected to be 0",
-            "raw": "'The value of Array.prototype.length is expected to be 0'"
+            "value": "The value of Array.prototype.length is expected to be 0"
           }
         ],
         "optional": false

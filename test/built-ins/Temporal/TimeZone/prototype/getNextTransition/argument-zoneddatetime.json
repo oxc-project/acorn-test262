@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 787,
                             "end": 792,
-                            "value": "UTC",
-                            "raw": "\"UTC\""
+                            "value": "UTC"
                           }
                         ],
                         "optional": false
@@ -215,8 +214,7 @@
                         "type": "Literal",
                         "start": 883,
                         "end": 902,
-                        "value": "transition result",
-                        "raw": "\"transition result\""
+                        "value": "transition result"
                       }
                     ],
                     "optional": false

@@ -158,8 +158,7 @@
           "type": "Literal",
           "start": 413,
           "end": 425,
-          "value": "isWritable",
-          "raw": "\"isWritable\""
+          "value": "isWritable"
         }
       }
     },
@@ -214,15 +213,13 @@
             "type": "Literal",
             "start": 459,
             "end": 471,
-            "value": "isWritable",
-            "raw": "\"isWritable\""
+            "value": "isWritable"
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 487,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

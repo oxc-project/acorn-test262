@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 559,
                 "end": 577,
-                "value": "function* f() {}",
-                "raw": "'function* f() {}'"
+                "value": "function* f() {}"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 614,
                 "end": 635,
-                "value": "1; function* f() {}",
-                "raw": "'1; function* f() {}'"
+                "value": "1; function* f() {}"
               }
             ],
             "optional": false
@@ -115,8 +113,7 @@
             "type": "Literal",
             "start": 638,
             "end": 639,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 390,
             "end": 454,
-            "value": "The value of delete Date.prototype.getUTCFullYear is not false",
-            "raw": "'The value of delete Date.prototype.getUTCFullYear is not false'"
+            "value": "The value of delete Date.prototype.getUTCFullYear is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 500,
                   "end": 516,
-                  "value": "getUTCFullYear",
-                  "raw": "'getUTCFullYear'"
+                  "value": "getUTCFullYear"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 521,
             "end": 609,
-            "value": "The value of !Date.prototype.hasOwnProperty('getUTCFullYear') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'getUTCFullYear\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('getUTCFullYear') is expected to be true"
           }
         ],
         "optional": false

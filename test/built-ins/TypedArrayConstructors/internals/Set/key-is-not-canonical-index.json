@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 657,
                 "end": 662,
-                "value": "1.0",
-                "raw": "\"1.0\""
+                "value": "1.0"
               },
               {
                 "type": "Literal",
                 "start": 666,
                 "end": 670,
-                "value": "+1",
-                "raw": "\"+1\""
+                "value": "+1"
               },
               {
                 "type": "Literal",
                 "start": 674,
                 "end": 698,
-                "value": "1000000000000000000000",
-                "raw": "\"1000000000000000000000\""
+                "value": "1000000000000000000000"
               },
               {
                 "type": "Literal",
                 "start": 702,
                 "end": 713,
-                "value": "0.0000001",
-                "raw": "\"0.0000001\""
+                "value": "0.0000001"
               }
             ]
           }
@@ -177,8 +173,7 @@
                                             "type": "Literal",
                                             "start": 820,
                                             "end": 822,
-                                            "value": 42,
-                                            "raw": "42"
+                                            "value": 42
                                           }
                                         ]
                                       }
@@ -256,8 +251,7 @@
                                         "type": "Literal",
                                         "start": 880,
                                         "end": 889,
-                                        "value": "ecma262",
-                                        "raw": "\"ecma262\""
+                                        "value": "ecma262"
                                       }
                                     ],
                                     "optional": false
@@ -273,8 +267,7 @@
                                     "type": "Literal",
                                     "start": 910,
                                     "end": 964,
-                                    "value": "Reflect.set(sample, key, \"ecma262\") must return true",
-                                    "raw": "'Reflect.set(sample, key, \"ecma262\") must return true'"
+                                    "value": "Reflect.set(sample, key, \"ecma262\") must return true"
                                   }
                                 ],
                                 "optional": false
@@ -331,15 +324,13 @@
                                     "type": "Literal",
                                     "start": 1006,
                                     "end": 1015,
-                                    "value": "ecma262",
-                                    "raw": "\"ecma262\""
+                                    "value": "ecma262"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1017,
                                     "end": 1056,
-                                    "value": "The value of sample[key] is \"ecma262\"",
-                                    "raw": "'The value of sample[key] is \"ecma262\"'"
+                                    "value": "The value of sample[key] is \"ecma262\""
                                   }
                                 ],
                                 "optional": false
@@ -413,8 +404,7 @@
                                         "type": "Literal",
                                         "start": 1113,
                                         "end": 1121,
-                                        "value": "es3000",
-                                        "raw": "\"es3000\""
+                                        "value": "es3000"
                                       }
                                     ],
                                     "optional": false
@@ -430,8 +420,7 @@
                                     "type": "Literal",
                                     "start": 1142,
                                     "end": 1195,
-                                    "value": "Reflect.set(sample, key, \"es3000\") must return true",
-                                    "raw": "'Reflect.set(sample, key, \"es3000\") must return true'"
+                                    "value": "Reflect.set(sample, key, \"es3000\") must return true"
                                   }
                                 ],
                                 "optional": false
@@ -488,15 +477,13 @@
                                     "type": "Literal",
                                     "start": 1237,
                                     "end": 1245,
-                                    "value": "es3000",
-                                    "raw": "\"es3000\""
+                                    "value": "es3000"
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1247,
                                     "end": 1285,
-                                    "value": "The value of sample[key] is \"es3000\"",
-                                    "raw": "'The value of sample[key] is \"es3000\"'"
+                                    "value": "The value of sample[key] is \"es3000\""
                                   }
                                 ],
                                 "optional": false
@@ -664,8 +651,7 @@
                                         "type": "Literal",
                                         "start": 1437,
                                         "end": 1439,
-                                        "value": 42,
-                                        "raw": "42"
+                                        "value": 42
                                       }
                                     ],
                                     "optional": false
@@ -681,8 +667,7 @@
                                     "type": "Literal",
                                     "start": 1461,
                                     "end": 1509,
-                                    "value": "Reflect.set(sample, key, 42) must return false",
-                                    "raw": "'Reflect.set(sample, key, 42) must return false'"
+                                    "value": "Reflect.set(sample, key, 42) must return false"
                                   }
                                 ],
                                 "optional": false
@@ -745,8 +730,7 @@
                                     "type": "Literal",
                                     "start": 1569,
                                     "end": 1628,
-                                    "value": "The value of sample[key] is expected to equal `undefined`",
-                                    "raw": "'The value of sample[key] is expected to equal `undefined`'"
+                                    "value": "The value of sample[key] is expected to equal `undefined`"
                                   }
                                 ],
                                 "optional": false

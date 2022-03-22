@@ -131,8 +131,7 @@
             "type": "Literal",
             "start": 461,
             "end": 486,
-            "value": "fun.apply(false, Array)",
-            "raw": "'fun.apply(false, Array)'"
+            "value": "fun.apply(false, Array)"
           }
         ],
         "optional": false

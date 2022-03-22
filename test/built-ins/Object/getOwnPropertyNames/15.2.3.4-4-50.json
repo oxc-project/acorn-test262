@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 333,
             "end": 352,
-            "value": "nonEnumerableProp",
-            "raw": "\"nonEnumerableProp\""
+            "value": "nonEnumerableProp"
           },
           {
             "type": "ObjectExpression",
@@ -91,8 +90,7 @@
                   "type": "Literal",
                   "start": 365,
                   "end": 367,
-                  "value": 10,
-                  "raw": "10"
+                  "value": 10
                 },
                 "kind": "init"
               },
@@ -240,8 +238,7 @@
               "type": "Literal",
               "start": 487,
               "end": 488,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -250,15 +247,13 @@
             "type": "Literal",
             "start": 491,
             "end": 510,
-            "value": "nonEnumerableProp",
-            "raw": "\"nonEnumerableProp\""
+            "value": "nonEnumerableProp"
           },
           {
             "type": "Literal",
             "start": 512,
             "end": 523,
-            "value": "result[0]",
-            "raw": "'result[0]'"
+            "value": "result[0]"
           }
         ],
         "optional": false

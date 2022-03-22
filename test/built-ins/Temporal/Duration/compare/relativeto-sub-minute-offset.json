@@ -46,29 +46,25 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 329,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 332,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 335,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 339,
-                "value": 31,
-                "raw": "31"
+                "value": 31
               }
             ]
           }
@@ -119,15 +115,13 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 383,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 385,
                 "end": 386,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -154,8 +148,7 @@
             "type": "Literal",
             "start": 407,
             "end": 452,
-            "value": "2000-01-01T00:00+00:45[+00:44:30.123456789]",
-            "raw": "\"2000-01-01T00:00+00:45[+00:44:30.123456789]\""
+            "value": "2000-01-01T00:00+00:45[+00:44:30.123456789]"
           }
         }
       ],
@@ -273,15 +266,13 @@
             "type": "Literal",
             "start": 536,
             "end": 537,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 576,
-            "value": "rounded HH:MM is accepted in string",
-            "raw": "\"rounded HH:MM is accepted in string\""
+            "value": "rounded HH:MM is accepted in string"
           }
         ],
         "optional": false
@@ -306,8 +297,7 @@
           "type": "Literal",
           "start": 593,
           "end": 641,
-          "value": "2000-01-01T00:00+00:44:30[+00:44:30.123456789]",
-          "raw": "\"2000-01-01T00:00+00:44:30[+00:44:30.123456789]\""
+          "value": "2000-01-01T00:00+00:44:30[+00:44:30.123456789]"
         }
       }
     },
@@ -439,8 +429,7 @@
             "type": "Literal",
             "start": 740,
             "end": 782,
-            "value": "no other rounding is accepted for offset",
-            "raw": "\"no other rounding is accepted for offset\""
+            "value": "no other rounding is accepted for offset"
           }
         ],
         "optional": false
@@ -489,8 +478,7 @@
                 "type": "Literal",
                 "start": 825,
                 "end": 846,
-                "value": "+00:44:30.123456789",
-                "raw": "\"+00:44:30.123456789\""
+                "value": "+00:44:30.123456789"
               }
             ]
           }
@@ -535,8 +523,7 @@
                 "type": "Literal",
                 "start": 870,
                 "end": 874,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               "kind": "init"
             },
@@ -557,8 +544,7 @@
                 "type": "Literal",
                 "start": 883,
                 "end": 884,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "kind": "init"
             },
@@ -579,8 +565,7 @@
                 "type": "Literal",
                 "start": 891,
                 "end": 892,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "kind": "init"
             },
@@ -601,8 +586,7 @@
                 "type": "Literal",
                 "start": 902,
                 "end": 910,
-                "value": "+00:45",
-                "raw": "\"+00:45\""
+                "value": "+00:45"
               },
               "kind": "init"
             },
@@ -759,8 +743,7 @@
             "type": "Literal",
             "start": 1021,
             "end": 1075,
-            "value": "rounded HH:MM not accepted as offset in property bag",
-            "raw": "\"rounded HH:MM not accepted as offset in property bag\""
+            "value": "rounded HH:MM not accepted as offset in property bag"
           }
         ],
         "optional": false

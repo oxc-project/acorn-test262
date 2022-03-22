@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 724,
             "end": 765,
-            "value": "isConstructor(escape) must return false",
-            "raw": "'isConstructor(escape) must return false'"
+            "value": "isConstructor(escape) must return false"
           }
         ],
         "optional": false
@@ -136,8 +135,7 @@
                         "type": "Literal",
                         "start": 815,
                         "end": 817,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ]
                   }
@@ -149,8 +147,7 @@
             "type": "Literal",
             "start": 823,
             "end": 860,
-            "value": "`new escape('')` throws TypeError",
-            "raw": "'`new escape(\\'\\')` throws TypeError'"
+            "value": "`new escape('')` throws TypeError"
           }
         ],
         "optional": false

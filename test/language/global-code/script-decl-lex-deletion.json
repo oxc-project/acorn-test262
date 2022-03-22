@@ -35,8 +35,7 @@
             "type": "Literal",
             "start": 735,
             "end": 752,
-            "value": "let test262let;",
-            "raw": "'let test262let;'"
+            "value": "let test262let;"
           }
         ],
         "optional": false
@@ -103,8 +102,7 @@
             "type": "Literal",
             "start": 949,
             "end": 977,
-            "value": "const test262const = null;",
-            "raw": "'const test262const = null;'"
+            "value": "const test262const = null;"
           }
         ],
         "optional": false
@@ -171,8 +169,7 @@
             "type": "Literal",
             "start": 1034,
             "end": 1057,
-            "value": "class test262class {}",
-            "raw": "'class test262class {}'"
+            "value": "class test262class {}"
           }
         ],
         "optional": false

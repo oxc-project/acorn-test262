@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 949,
             "end": 955,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -53,8 +52,7 @@
                   "type": "Literal",
                   "start": 968,
                   "end": 977,
-                  "value": "WeakRef",
-                  "raw": "'WeakRef'"
+                  "value": "WeakRef"
                 },
                 "kind": "init"
               },

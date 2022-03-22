@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 455,
             "end": 476,
-            "value": "2004-03-21T10:00:00",
-            "raw": "\"2004-03-21T10:00:00\""
+            "value": "2004-03-21T10:00:00"
           }
         }
       ],
@@ -53,15 +52,13 @@
                 "type": "Literal",
                 "start": 497,
                 "end": 499,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 503,
                 "end": 519,
-                "value": "[u-ca=iso8601]",
-                "raw": "\"[u-ca=iso8601]\""
+                "value": "[u-ca=iso8601]"
               }
             ]
           }
@@ -271,8 +268,7 @@
                   "type": "Literal",
                   "start": 675,
                   "end": 684,
-                  "value": "iso8601",
-                  "raw": "\"iso8601\""
+                  "value": "iso8601"
                 }
               ],
               "optional": false
@@ -305,15 +301,13 @@
                 "type": "Literal",
                 "start": 710,
                 "end": 725,
-                "value": "[u-ca=indian]",
-                "raw": "\"[u-ca=indian]\""
+                "value": "[u-ca=indian]"
               },
               {
                 "type": "Literal",
                 "start": 729,
                 "end": 744,
-                "value": "[u-ca=hebrew]",
-                "raw": "\"[u-ca=hebrew]\""
+                "value": "[u-ca=hebrew]"
               }
             ]
           }

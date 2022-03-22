@@ -41,8 +41,7 @@
                 "type": "Literal",
                 "start": 408,
                 "end": 409,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               "operator": "*",
               "right": {
@@ -75,8 +74,7 @@
             "type": "Literal",
             "start": 422,
             "end": 423,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         {
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 426,
             "end": 427,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         },
         {
@@ -111,8 +108,7 @@
             "type": "Literal",
             "start": 430,
             "end": 431,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           }
         },
         {
@@ -129,8 +125,7 @@
             "type": "Literal",
             "start": 434,
             "end": 435,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           }
         }
       ],
@@ -216,8 +211,7 @@
           "type": "Literal",
           "start": 461,
           "end": 463,
-          "value": 20,
-          "raw": "20"
+          "value": 20
         }
       },
       "consequent": {
@@ -239,8 +233,7 @@
               "type": "Literal",
               "start": 488,
               "end": 534,
-              "value": "#1: Automatic semicolon insertion work wrong",
-              "raw": "'#1: Automatic semicolon insertion work wrong'"
+              "value": "#1: Automatic semicolon insertion work wrong"
             }
           ]
         }

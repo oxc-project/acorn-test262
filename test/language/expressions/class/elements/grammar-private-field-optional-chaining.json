@@ -30,13 +30,12 @@
               "end": 745,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 680,
-                  "end": 695,
-                  "static": false,
+                  "end": 694,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 680,
                     "end": 682,
                     "name": "m"
@@ -45,8 +44,7 @@
                     "type": "Literal",
                     "start": 685,
                     "end": 694,
-                    "value": "test262",
-                    "raw": "'test262'"
+                    "value": "test262"
                   }
                 },
                 {
@@ -101,14 +99,14 @@
                                 "end": 734,
                                 "name": "obj"
                               },
+                              "computed": false,
+                              "optional": true,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 736,
                                 "end": 738,
                                 "name": "m"
-                              },
-                              "computed": false,
-                              "optional": true
+                              }
                             }
                           }
                         }
@@ -219,8 +217,7 @@
             "type": "Literal",
             "start": 795,
             "end": 804,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -462,8 +459,7 @@
             "type": "Literal",
             "start": 961,
             "end": 1009,
-            "value": "accessed private field from an ordinary object",
-            "raw": "'accessed private field from an ordinary object'"
+            "value": "accessed private field from an ordinary object"
           }
         ],
         "optional": false

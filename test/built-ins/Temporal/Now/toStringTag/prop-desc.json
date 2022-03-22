@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 365,
                   "end": 379,
-                  "value": "Temporal.Now",
-                  "raw": "\"Temporal.Now\""
+                  "value": "Temporal.Now"
                 },
                 "kind": "init"
               },

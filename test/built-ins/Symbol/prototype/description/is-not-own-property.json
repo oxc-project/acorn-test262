@@ -66,8 +66,7 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 347,
-                "value": "description",
-                "raw": "'description'"
+                "value": "description"
               }
             ],
             "optional": false
@@ -83,8 +82,7 @@
             "type": "Literal",
             "start": 361,
             "end": 415,
-            "value": "Symbol().hasOwnProperty(\"description\") returns false",
-            "raw": "'Symbol().hasOwnProperty(\"description\") returns false'"
+            "value": "Symbol().hasOwnProperty(\"description\") returns false"
           }
         ],
         "optional": false

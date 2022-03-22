@@ -58,8 +58,7 @@
                               "type": "Literal",
                               "start": 378,
                               "end": 413,
-                              "value": "function f(){this.p1=1;};return f",
-                              "raw": "\"function f(){this.p1=1;};return f\""
+                              "value": "function f(){this.p1=1;};return f"
                             }
                           ],
                           "optional": false
@@ -119,8 +118,7 @@
                     "type": "Literal",
                     "start": 463,
                     "end": 531,
-                    "value": "#1: Function.prototype.call can't be used as [[Construct]] caller",
-                    "raw": "'#1: Function.prototype.call can\\'t be used as [[Construct]] caller'"
+                    "value": "#1: Function.prototype.call can't be used as [[Construct]] caller"
                   }
                 ]
               }
@@ -181,15 +179,13 @@
             "type": "Literal",
             "start": 562,
             "end": 563,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 606,
-            "value": "The value of obj.p1 is expected to be 1",
-            "raw": "'The value of obj.p1 is expected to be 1'"
+            "value": "The value of obj.p1 is expected to be 1"
           }
         ],
         "optional": false

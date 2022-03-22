@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 319,
-                "value": "AB\n\\cd",
-                "raw": "\"AB\\n\\\\cd\""
+                "value": "AB\n\\cd"
               }
             ],
             "optional": false
@@ -95,15 +94,13 @@
             "type": "Literal",
             "start": 322,
             "end": 332,
-            "value": "AB\n\\cd",
-            "raw": "\"AB\\n\\\\cd\""
+            "value": "AB\n\\cd"
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 374,
-            "value": "String.prototype.trim.call(\"AB\n\\cd\")",
-            "raw": "'String.prototype.trim.call(\"AB\\n\\\\cd\")'"
+            "value": "String.prototype.trim.call(\"AB\n\\cd\")"
           }
         ],
         "optional": false

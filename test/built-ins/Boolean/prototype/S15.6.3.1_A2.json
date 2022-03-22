@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 390,
             "end": 401,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           },
           {
             "type": "Literal",
@@ -80,8 +79,7 @@
             "type": "Literal",
             "start": 409,
             "end": 410,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -144,8 +142,7 @@
             "type": "Literal",
             "start": 452,
             "end": 520,
-            "value": "The value of Boolean.prototype is expected to equal the value of x",
-            "raw": "'The value of Boolean.prototype is expected to equal the value of x'"
+            "value": "The value of Boolean.prototype is expected to equal the value of x"
           }
         ],
         "optional": false

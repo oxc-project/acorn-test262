@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 630,
                 "end": 641,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               },
               {
                 "type": "ObjectExpression",
@@ -77,8 +76,7 @@
                       "type": "Literal",
                       "start": 652,
                       "end": 655,
-                      "value": 123,
-                      "raw": "123"
+                      "value": 123
                     },
                     "kind": "init"
                   }
@@ -295,15 +293,13 @@
             "type": "Literal",
             "start": 782,
             "end": 785,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 813,
-            "value": "first AssignmentProperty",
-            "raw": "'first AssignmentProperty'"
+            "value": "first AssignmentProperty"
           }
         ],
         "optional": false
@@ -347,15 +343,13 @@
             "type": "Literal",
             "start": 836,
             "end": 839,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           },
           {
             "type": "Literal",
             "start": 841,
             "end": 868,
-            "value": "second AssignmentProperty",
-            "raw": "'second AssignmentProperty'"
+            "value": "second AssignmentProperty"
           }
         ],
         "optional": false
@@ -574,15 +568,13 @@
             "type": "Literal",
             "start": 1054,
             "end": 1057,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           },
           {
             "type": "Literal",
             "start": 1059,
             "end": 1095,
-            "value": "first AssignmentProperty (CPEAAPL)",
-            "raw": "'first AssignmentProperty (CPEAAPL)'"
+            "value": "first AssignmentProperty (CPEAAPL)"
           }
         ],
         "optional": false
@@ -626,15 +618,13 @@
             "type": "Literal",
             "start": 1118,
             "end": 1121,
-            "value": 123,
-            "raw": "123"
+            "value": 123
           },
           {
             "type": "Literal",
             "start": 1123,
             "end": 1160,
-            "value": "second AssignmentProperty (CPEAAPL)",
-            "raw": "'second AssignmentProperty (CPEAAPL)'"
+            "value": "second AssignmentProperty (CPEAAPL)"
           }
         ],
         "optional": false

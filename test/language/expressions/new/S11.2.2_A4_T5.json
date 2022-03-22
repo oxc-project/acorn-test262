@@ -48,8 +48,7 @@
                   "type": "Literal",
                   "start": 377,
                   "end": 407,
-                  "value": "#1: new Math throw TypeError",
-                  "raw": "'#1: new Math throw TypeError'"
+                  "value": "#1: new Math throw TypeError"
                 }
               ]
             }
@@ -135,8 +134,7 @@
                           "type": "Literal",
                           "start": 495,
                           "end": 525,
-                          "value": "#1: new Math throw TypeError",
-                          "raw": "'#1: new Math throw TypeError'"
+                          "value": "#1: new Math throw TypeError"
                         }
                       ]
                     }
@@ -201,8 +199,7 @@
                   "type": "Literal",
                   "start": 595,
                   "end": 631,
-                  "value": "#2: new new Math() throw TypeError",
-                  "raw": "'#2: new new Math() throw TypeError'"
+                  "value": "#2: new new Math() throw TypeError"
                 }
               ]
             }
@@ -288,8 +285,7 @@
                           "type": "Literal",
                           "start": 719,
                           "end": 755,
-                          "value": "#2: new new Math() throw TypeError",
-                          "raw": "'#2: new new Math() throw TypeError'"
+                          "value": "#2: new new Math() throw TypeError"
                         }
                       ]
                     }
@@ -379,8 +375,7 @@
                   "type": "Literal",
                   "start": 840,
                   "end": 889,
-                  "value": "#3: var x = new Math(); new x() throw TypeError",
-                  "raw": "'#3: var x = new Math(); new x() throw TypeError'"
+                  "value": "#3: var x = new Math(); new x() throw TypeError"
                 }
               ]
             }
@@ -466,8 +461,7 @@
                           "type": "Literal",
                           "start": 977,
                           "end": 1026,
-                          "value": "#3: var x = new Math(); new x() throw TypeError",
-                          "raw": "'#3: var x = new Math(); new x() throw TypeError'"
+                          "value": "#3: var x = new Math(); new x() throw TypeError"
                         }
                       ]
                     }

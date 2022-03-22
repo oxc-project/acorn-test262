@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 488,
             "end": 498,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -101,7 +100,6 @@
             "start": 515,
             "end": 518,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -225,8 +223,7 @@
                         "type": "Literal",
                         "start": 593,
                         "end": 595,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -300,8 +297,7 @@
           "type": "Literal",
           "start": 645,
           "end": 646,
-          "value": 5,
-          "raw": "5"
+          "value": 5
         }
       }
     },
@@ -369,8 +365,7 @@
                         "type": "Literal",
                         "start": 688,
                         "end": 690,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -444,8 +439,7 @@
           "type": "Literal",
           "start": 740,
           "end": 742,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       }
     },
@@ -513,8 +507,7 @@
                         "type": "Literal",
                         "start": 784,
                         "end": 786,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",
@@ -663,8 +656,7 @@
                         "type": "Literal",
                         "start": 886,
                         "end": 888,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       "property": {
                         "type": "Identifier",

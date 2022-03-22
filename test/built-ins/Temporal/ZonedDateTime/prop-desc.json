@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 332,
             "end": 342,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 384,
-            "value": "`typeof ZonedDateTime` is `function`",
-            "raw": "\"`typeof ZonedDateTime` is `function`\""
+            "value": "`typeof ZonedDateTime` is `function`"
           }
         ],
         "optional": false
@@ -100,8 +98,7 @@
             "type": "Literal",
             "start": 414,
             "end": 429,
-            "value": "ZonedDateTime",
-            "raw": "\"ZonedDateTime\""
+            "value": "ZonedDateTime"
           },
           {
             "type": "ObjectExpression",

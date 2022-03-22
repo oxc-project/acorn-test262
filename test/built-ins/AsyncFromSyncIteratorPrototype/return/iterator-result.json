@@ -35,8 +35,7 @@
                 "type": "Literal",
                 "start": 860,
                 "end": 862,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             }
           },
@@ -59,8 +58,7 @@
                   "type": "Literal",
                   "start": 889,
                   "end": 909,
-                  "value": "return closes iter",
-                  "raw": "'return closes iter'"
+                  "value": "return closes iter"
                 }
               ]
             }
@@ -78,8 +76,7 @@
                 "type": "Literal",
                 "start": 920,
                 "end": 922,
-                "value": 43,
-                "raw": "43"
+                "value": 43
               }
             }
           }
@@ -183,8 +180,7 @@
             "type": "Literal",
             "start": 1002,
             "end": 1030,
-            "value": "some specific return value",
-            "raw": "'some specific return value'"
+            "value": "some specific return value"
           }
         }
       ],
@@ -409,8 +405,7 @@
                                             "type": "Literal",
                                             "start": 1225,
                                             "end": 1252,
-                                            "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "value": "the iterator is completed"
                                           }
                                         ],
                                         "optional": false
@@ -473,8 +468,7 @@
                                             "type": "Literal",
                                             "start": 1295,
                                             "end": 1324,
-                                            "value": "expect agrument to `return`",
-                                            "raw": "'expect agrument to `return`'"
+                                            "value": "expect agrument to `return`"
                                           }
                                         ],
                                         "optional": false
@@ -645,8 +639,7 @@
                                                             "type": "Literal",
                                                             "start": 1407,
                                                             "end": 1434,
-                                                            "value": "the iterator is completed",
-                                                            "raw": "'the iterator is completed'"
+                                                            "value": "the iterator is completed"
                                                           }
                                                         ],
                                                         "optional": false
@@ -696,8 +689,7 @@
                                                             "type": "Literal",
                                                             "start": 1478,
                                                             "end": 1498,
-                                                            "value": "value is undefined",
-                                                            "raw": "'value is undefined'"
+                                                            "value": "value is undefined"
                                                           }
                                                         ],
                                                         "optional": false

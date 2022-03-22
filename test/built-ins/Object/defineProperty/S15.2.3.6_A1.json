@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 582,
               "end": 590,
-              "value": "gotten",
-              "raw": "'gotten'"
+              "value": "gotten"
             }
           }
         ]
@@ -67,8 +66,7 @@
             "type": "Literal",
             "start": 619,
             "end": 630,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         },
         "operator": "&&",
@@ -107,8 +105,7 @@
             "type": "Literal",
             "start": 670,
             "end": 680,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         }
       },
@@ -160,8 +157,7 @@
                       "type": "Literal",
                       "start": 717,
                       "end": 723,
-                      "value": "form",
-                      "raw": "\"form\""
+                      "value": "form"
                     }
                   ],
                   "optional": false
@@ -243,8 +239,7 @@
                         "type": "Literal",
                         "start": 786,
                         "end": 791,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       },
                       {
                         "type": "ObjectExpression",
@@ -295,8 +290,7 @@
                                 "type": "Literal",
                                 "start": 830,
                                 "end": 831,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               }
                             },
                             "kind": "init"
@@ -424,8 +418,7 @@
                             "type": "Literal",
                             "start": 1004,
                             "end": 1009,
-                            "value": "foo",
-                            "raw": "'foo'"
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -491,8 +484,7 @@
                         "type": "Literal",
                         "start": 1051,
                         "end": 1115,
-                        "value": "The value of desc.get is expected to equal the value of getter",
-                        "raw": "'The value of desc.get is expected to equal the value of getter'"
+                        "value": "The value of desc.get is expected to equal the value of getter"
                       }
                     ],
                     "optional": false

@@ -242,8 +242,7 @@
             "type": "Literal",
             "start": 570,
             "end": 590,
-            "value": "x.isPrototypeOf(d)",
-            "raw": "'x.isPrototypeOf(d)'"
+            "value": "x.isPrototypeOf(d)"
           }
         ],
         "optional": false

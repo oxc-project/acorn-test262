@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 1333,
                   "end": 1340,
-                  "value": "cnckg",
-                  "raw": "\"cnckg\""
+                  "value": "cnckg"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1342,
                   "end": 1349,
-                  "value": "cnsha",
-                  "raw": "\"cnsha\""
+                  "value": "cnsha"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 1462,
                   "end": 1468,
-                  "value": "eire",
-                  "raw": "\"eire\""
+                  "value": "eire"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1470,
                   "end": 1477,
-                  "value": "iedub",
-                  "raw": "\"iedub\""
+                  "value": "iedub"
                 },
                 "kind": "init"
               },
@@ -80,15 +76,13 @@
                   "type": "Literal",
                   "start": 1585,
                   "end": 1590,
-                  "value": "est",
-                  "raw": "\"est\""
+                  "value": "est"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1592,
                   "end": 1600,
-                  "value": "utcw05",
-                  "raw": "\"utcw05\""
+                  "value": "utcw05"
                 },
                 "kind": "init"
               },
@@ -103,15 +97,13 @@
                   "type": "Literal",
                   "start": 1774,
                   "end": 1780,
-                  "value": "gmt0",
-                  "raw": "\"gmt0\""
+                  "value": "gmt0"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1782,
                   "end": 1787,
-                  "value": "gmt",
-                  "raw": "\"gmt\""
+                  "value": "gmt"
                 },
                 "kind": "init"
               },
@@ -126,15 +118,13 @@
                   "type": "Literal",
                   "start": 1940,
                   "end": 1945,
-                  "value": "uct",
-                  "raw": "\"uct\""
+                  "value": "uct"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1947,
                   "end": 1952,
-                  "value": "utc",
-                  "raw": "\"utc\""
+                  "value": "utc"
                 },
                 "kind": "init"
               },
@@ -149,15 +139,13 @@
                   "type": "Literal",
                   "start": 2106,
                   "end": 2112,
-                  "value": "zulu",
-                  "raw": "\"zulu\""
+                  "value": "zulu"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 2114,
                   "end": 2119,
-                  "value": "utc",
-                  "raw": "\"utc\""
+                  "value": "utc"
                 },
                 "kind": "init"
               }
@@ -266,8 +254,7 @@
                     "type": "Literal",
                     "start": 2191,
                     "end": 2202,
-                    "value": "und-u-tz-",
-                    "raw": "\"und-u-tz-\""
+                    "value": "und-u-tz-"
                   },
                   "operator": "+",
                   "right": {
@@ -304,8 +291,7 @@
                     "type": "Literal",
                     "start": 2230,
                     "end": 2241,
-                    "value": "und-u-tz-",
-                    "raw": "\"und-u-tz-\""
+                    "value": "und-u-tz-"
                   },
                   "operator": "+",
                   "right": {
@@ -386,8 +372,7 @@
                       "type": "Literal",
                       "start": 2387,
                       "end": 2391,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -402,8 +387,7 @@
                     "type": "Literal",
                     "start": 2400,
                     "end": 2436,
-                    "value": "\" isn't a canonical language tag.",
-                    "raw": "\"\\\" isn't a canonical language tag.\""
+                    "value": "\" isn't a canonical language tag."
                   }
                 }
               ],
@@ -457,8 +441,7 @@
                       "type": "Literal",
                       "start": 2513,
                       "end": 2517,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -473,8 +456,7 @@
                     "type": "Literal",
                     "start": 2532,
                     "end": 2588,
-                    "value": "\" is a canonical and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                    "value": "\" is a canonical and structurally valid language tag."
                   }
                 }
               ],
@@ -584,8 +566,7 @@
                   "type": "Literal",
                   "start": 2672,
                   "end": 2673,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -633,8 +614,7 @@
                     "type": "Literal",
                     "start": 2702,
                     "end": 2703,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false

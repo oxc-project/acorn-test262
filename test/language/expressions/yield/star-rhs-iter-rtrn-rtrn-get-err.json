@@ -78,8 +78,7 @@
             "type": "Literal",
             "start": 935,
             "end": 936,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -215,8 +214,7 @@
             "type": "Literal",
             "start": 1055,
             "end": 1062,
-            "value": "throw",
-            "raw": "'throw'"
+            "value": "throw"
           },
           {
             "type": "ObjectExpression",
@@ -269,8 +267,7 @@
                             "type": "Literal",
                             "start": 1103,
                             "end": 1104,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -323,8 +320,7 @@
             "type": "Literal",
             "start": 1152,
             "end": 1160,
-            "value": "return",
-            "raw": "'return'"
+            "value": "return"
           },
           {
             "type": "ObjectExpression",
@@ -683,8 +679,7 @@
             "type": "Literal",
             "start": 1452,
             "end": 1492,
-            "value": "`return` property not accessed eagerly",
-            "raw": "'`return` property not accessed eagerly'"
+            "value": "`return` property not accessed eagerly"
           }
         ],
         "optional": false
@@ -930,15 +925,13 @@
             "type": "Literal",
             "start": 1663,
             "end": 1664,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1666,
             "end": 1709,
-            "value": "iterator `throw` property is not accessed",
-            "raw": "'iterator `throw` property is not accessed'"
+            "value": "iterator `throw` property is not accessed"
           }
         ],
         "optional": false

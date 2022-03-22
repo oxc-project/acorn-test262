@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 355,
                 "end": 356,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "operator": "instanceof",
               "right": {
@@ -55,8 +54,7 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 437,
-                  "value": "#1: 1 instanceof Math throw TypeError",
-                  "raw": "'#1: 1 instanceof Math throw TypeError'"
+                  "value": "#1: 1 instanceof Math throw TypeError"
                 }
               ]
             }
@@ -137,8 +135,7 @@
                           "type": "Literal",
                           "start": 522,
                           "end": 561,
-                          "value": "#1: 1 instanceof Math throw TypeError",
-                          "raw": "'#1: 1 instanceof Math throw TypeError'"
+                          "value": "#1: 1 instanceof Math throw TypeError"
                         }
                       ]
                     }

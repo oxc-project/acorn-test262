@@ -91,8 +91,7 @@
                     "type": "Literal",
                     "start": 464,
                     "end": 537,
-                    "value": "#1: function ReturnThis() {return this} ReturnThis() === this. Actual: ",
-                    "raw": "'#1: function ReturnThis() {return this} ReturnThis() === this. Actual: '"
+                    "value": "#1: function ReturnThis() {return this} ReturnThis() === this. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -159,8 +158,7 @@
                   "type": "Literal",
                   "start": 609,
                   "end": 615,
-                  "value": "this",
-                  "raw": "\"this\""
+                  "value": "this"
                 }
               ],
               "optional": false
@@ -225,8 +223,7 @@
                     "type": "Literal",
                     "start": 676,
                     "end": 765,
-                    "value": "#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: ",
-                    "raw": "'#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: '"
+                    "value": "#2: function ReturnEvalThis() {return eval(\"this\")} ReturnEvalThis() === this. Actual: "
                   },
                   "operator": "+",
                   "right": {

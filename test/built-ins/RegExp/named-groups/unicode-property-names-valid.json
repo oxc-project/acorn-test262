@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1059,
             "end": 1112,
-            "value": "The quick brown fox jumped over the lazy dog's back",
-            "raw": "\"The quick brown fox jumped over the lazy dog's back\""
+            "value": "The quick brown fox jumped over the lazy dog's back"
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1128,
             "end": 1156,
-            "value": "It is a dog eat dog world.",
-            "raw": "\"It is a dog eat dog world.\""
+            "value": "It is a dog eat dog world."
           }
         }
       ],
@@ -146,7 +144,6 @@
                     "start": 1208,
                     "end": 1229,
                     "value": {},
-                    "raw": "/(?<animal>fox|dog)/u",
                     "regex": {
                       "pattern": "(?<animal>fox|dog)",
                       "flags": "u"
@@ -177,8 +174,7 @@
             "type": "Literal",
             "start": 1246,
             "end": 1251,
-            "value": "fox",
-            "raw": "\"fox\""
+            "value": "fox"
           }
         ],
         "optional": false
@@ -249,7 +245,6 @@
                     "start": 1284,
                     "end": 1299,
                     "value": {},
-                    "raw": "/(?<the2>the)/u",
                     "regex": {
                       "pattern": "(?<the2>the)",
                       "flags": "u"
@@ -280,8 +275,7 @@
             "type": "Literal",
             "start": 1314,
             "end": 1319,
-            "value": "the",
-            "raw": "\"the\""
+            "value": "the"
           }
         ],
         "optional": false
@@ -331,7 +325,6 @@
               "start": 1344,
               "end": 1377,
               "value": {},
-              "raw": "/(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)/u",
               "regex": {
                 "pattern": "(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)",
                 "flags": "u"
@@ -406,8 +399,7 @@
             "type": "Literal",
             "start": 1418,
             "end": 1423,
-            "value": "fox",
-            "raw": "\"fox\""
+            "value": "fox"
           }
         ],
         "optional": false
@@ -477,8 +469,7 @@
             "type": "Literal",
             "start": 1464,
             "end": 1469,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -526,8 +517,7 @@
               "type": "Literal",
               "start": 1495,
               "end": 1496,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -536,8 +526,7 @@
             "type": "Literal",
             "start": 1499,
             "end": 1504,
-            "value": "fox",
-            "raw": "\"fox\""
+            "value": "fox"
           }
         ],
         "optional": false
@@ -585,8 +574,7 @@
               "type": "Literal",
               "start": 1530,
               "end": 1531,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -595,8 +583,7 @@
             "type": "Literal",
             "start": 1534,
             "end": 1539,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -646,7 +633,6 @@
               "start": 1564,
               "end": 1587,
               "value": {},
-              "raw": "/(?<狸>fox).*(?<狗>dog)/u",
               "regex": {
                 "pattern": "(?<狸>fox).*(?<狗>dog)",
                 "flags": "u"
@@ -721,8 +707,7 @@
             "type": "Literal",
             "start": 1623,
             "end": 1628,
-            "value": "fox",
-            "raw": "\"fox\""
+            "value": "fox"
           }
         ],
         "optional": false
@@ -792,8 +777,7 @@
             "type": "Literal",
             "start": 1664,
             "end": 1669,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -841,8 +825,7 @@
               "type": "Literal",
               "start": 1695,
               "end": 1696,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -851,8 +834,7 @@
             "type": "Literal",
             "start": 1699,
             "end": 1704,
-            "value": "fox",
-            "raw": "\"fox\""
+            "value": "fox"
           }
         ],
         "optional": false
@@ -900,8 +882,7 @@
               "type": "Literal",
               "start": 1730,
               "end": 1731,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -910,8 +891,7 @@
             "type": "Literal",
             "start": 1734,
             "end": 1739,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -982,7 +962,6 @@
                     "start": 1773,
                     "end": 1796,
                     "value": {},
-                    "raw": "/(?<𝓑𝓻𝓸𝔀𝓷>brown)/u",
                     "regex": {
                       "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
                       "flags": "u"
@@ -1013,8 +992,7 @@
             "type": "Literal",
             "start": 1817,
             "end": 1824,
-            "value": "brown",
-            "raw": "\"brown\""
+            "value": "brown"
           }
         ],
         "optional": false
@@ -1085,7 +1063,6 @@
                     "start": 1857,
                     "end": 1880,
                     "value": {},
-                    "raw": "/(?<𝓑𝓻𝓸𝔀𝓷>brown)/u",
                     "regex": {
                       "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
                       "flags": "u"
@@ -1116,8 +1093,7 @@
             "type": "Literal",
             "start": 1936,
             "end": 1943,
-            "value": "brown",
-            "raw": "\"brown\""
+            "value": "brown"
           }
         ],
         "optional": false
@@ -1188,7 +1164,6 @@
                     "start": 1976,
                     "end": 2034,
                     "value": {},
-                    "raw": "/(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)/u",
                     "regex": {
                       "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
                       "flags": "u"
@@ -1219,8 +1194,7 @@
             "type": "Literal",
             "start": 2055,
             "end": 2062,
-            "value": "brown",
-            "raw": "\"brown\""
+            "value": "brown"
           }
         ],
         "optional": false
@@ -1291,7 +1265,6 @@
                     "start": 2095,
                     "end": 2153,
                     "value": {},
-                    "raw": "/(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)/u",
                     "regex": {
                       "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
                       "flags": "u"
@@ -1322,8 +1295,7 @@
             "type": "Literal",
             "start": 2209,
             "end": 2216,
-            "value": "brown",
-            "raw": "\"brown\""
+            "value": "brown"
           }
         ],
         "optional": false
@@ -1394,7 +1366,6 @@
                     "start": 2249,
                     "end": 2322,
                     "value": {},
-                    "raw": "/(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)/u",
                     "regex": {
                       "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
                       "flags": "u"
@@ -1425,8 +1396,7 @@
             "type": "Literal",
             "start": 2343,
             "end": 2350,
-            "value": "brown",
-            "raw": "\"brown\""
+            "value": "brown"
           }
         ],
         "optional": false
@@ -1497,7 +1467,6 @@
                     "start": 2383,
                     "end": 2456,
                     "value": {},
-                    "raw": "/(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)/u",
                     "regex": {
                       "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
                       "flags": "u"
@@ -1528,8 +1497,7 @@
             "type": "Literal",
             "start": 2512,
             "end": 2519,
-            "value": "brown",
-            "raw": "\"brown\""
+            "value": "brown"
           }
         ],
         "optional": false
@@ -1600,7 +1568,6 @@
                     "start": 2553,
                     "end": 2581,
                     "value": {},
-                    "raw": "/(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)/u",
                     "regex": {
                       "pattern": "(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
@@ -1631,8 +1598,7 @@
             "type": "Literal",
             "start": 2598,
             "end": 2615,
-            "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "value": "quick brown fox"
           }
         ],
         "optional": false
@@ -1703,7 +1669,6 @@
                     "start": 2648,
                     "end": 2683,
                     "value": {},
-                    "raw": "/(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
                     "regex": {
                       "pattern": "(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
@@ -1734,8 +1699,7 @@
             "type": "Literal",
             "start": 2700,
             "end": 2717,
-            "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "value": "quick brown fox"
           }
         ],
         "optional": false
@@ -1806,7 +1770,6 @@
                     "start": 2750,
                     "end": 2785,
                     "value": {},
-                    "raw": "/(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)/u",
                     "regex": {
                       "pattern": "(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
@@ -1837,8 +1800,7 @@
             "type": "Literal",
             "start": 2802,
             "end": 2819,
-            "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "value": "quick brown fox"
           }
         ],
         "optional": false
@@ -1909,7 +1871,6 @@
                     "start": 2852,
                     "end": 2894,
                     "value": {},
-                    "raw": "/(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
                     "regex": {
                       "pattern": "(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
@@ -1940,8 +1901,7 @@
             "type": "Literal",
             "start": 2911,
             "end": 2928,
-            "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "value": "quick brown fox"
           }
         ],
         "optional": false
@@ -2012,7 +1972,6 @@
                     "start": 2961,
                     "end": 2996,
                     "value": {},
-                    "raw": "/(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)/u",
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
@@ -2043,8 +2002,7 @@
             "type": "Literal",
             "start": 3013,
             "end": 3030,
-            "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "value": "quick brown fox"
           }
         ],
         "optional": false
@@ -2115,7 +2073,6 @@
                     "start": 3063,
                     "end": 3105,
                     "value": {},
-                    "raw": "/(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
@@ -2146,8 +2103,7 @@
             "type": "Literal",
             "start": 3122,
             "end": 3139,
-            "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "value": "quick brown fox"
           }
         ],
         "optional": false
@@ -2218,7 +2174,6 @@
                     "start": 3172,
                     "end": 3214,
                     "value": {},
-                    "raw": "/(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)/u",
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
@@ -2249,8 +2204,7 @@
             "type": "Literal",
             "start": 3231,
             "end": 3248,
-            "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "value": "quick brown fox"
           }
         ],
         "optional": false
@@ -2321,7 +2275,6 @@
                     "start": 3281,
                     "end": 3330,
                     "value": {},
-                    "raw": "/(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
                     "regex": {
                       "pattern": "(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
                       "flags": "u"
@@ -2352,8 +2305,7 @@
             "type": "Literal",
             "start": 3347,
             "end": 3364,
-            "value": "quick brown fox",
-            "raw": "\"quick brown fox\""
+            "value": "quick brown fox"
           }
         ],
         "optional": false
@@ -2424,7 +2376,6 @@
                     "start": 3398,
                     "end": 3414,
                     "value": {},
-                    "raw": "/(?<the𝟚>the)/u",
                     "regex": {
                       "pattern": "(?<the𝟚>the)",
                       "flags": "u"
@@ -2455,8 +2406,7 @@
             "type": "Literal",
             "start": 3430,
             "end": 3435,
-            "value": "the",
-            "raw": "\"the\""
+            "value": "the"
           }
         ],
         "optional": false
@@ -2527,7 +2477,6 @@
                     "start": 3468,
                     "end": 3491,
                     "value": {},
-                    "raw": "/(?<the\\u{1d7da}>the)/u",
                     "regex": {
                       "pattern": "(?<the\\u{1d7da}>the)",
                       "flags": "u"
@@ -2558,8 +2507,7 @@
             "type": "Literal",
             "start": 3507,
             "end": 3512,
-            "value": "the",
-            "raw": "\"the\""
+            "value": "the"
           }
         ],
         "optional": false
@@ -2630,7 +2578,6 @@
                     "start": 3545,
                     "end": 3571,
                     "value": {},
-                    "raw": "/(?<the\\ud835\\udfda>the)/u",
                     "regex": {
                       "pattern": "(?<the\\ud835\\udfda>the)",
                       "flags": "u"
@@ -2661,8 +2608,7 @@
             "type": "Literal",
             "start": 3587,
             "end": 3592,
-            "value": "the",
-            "raw": "\"the\""
+            "value": "the"
           }
         ],
         "optional": false
@@ -2712,7 +2658,6 @@
               "start": 3618,
               "end": 3646,
               "value": {},
-              "raw": "/(?<dog>dog)(.*?)(\\k<dog>)/u",
               "regex": {
                 "pattern": "(?<dog>dog)(.*?)(\\k<dog>)",
                 "flags": "u"
@@ -2787,8 +2732,7 @@
             "type": "Literal",
             "start": 3684,
             "end": 3689,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -2836,8 +2780,7 @@
               "type": "Literal",
               "start": 3715,
               "end": 3716,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -2846,8 +2789,7 @@
             "type": "Literal",
             "start": 3719,
             "end": 3724,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -2895,8 +2837,7 @@
               "type": "Literal",
               "start": 3750,
               "end": 3751,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -2905,8 +2846,7 @@
             "type": "Literal",
             "start": 3754,
             "end": 3761,
-            "value": " eat ",
-            "raw": "\" eat \""
+            "value": " eat "
           }
         ],
         "optional": false
@@ -2954,8 +2894,7 @@
               "type": "Literal",
               "start": 3787,
               "end": 3788,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -2964,8 +2903,7 @@
             "type": "Literal",
             "start": 3791,
             "end": 3796,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -3015,7 +2953,6 @@
               "start": 3822,
               "end": 3856,
               "value": {},
-              "raw": "/(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)/u",
               "regex": {
                 "pattern": "(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)",
                 "flags": "u"
@@ -3090,8 +3027,7 @@
             "type": "Literal",
             "start": 3897,
             "end": 3902,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -3139,8 +3075,7 @@
               "type": "Literal",
               "start": 3928,
               "end": 3929,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -3149,8 +3084,7 @@
             "type": "Literal",
             "start": 3932,
             "end": 3937,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -3198,8 +3132,7 @@
               "type": "Literal",
               "start": 3963,
               "end": 3964,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -3208,8 +3141,7 @@
             "type": "Literal",
             "start": 3967,
             "end": 3974,
-            "value": " eat ",
-            "raw": "\" eat \""
+            "value": " eat "
           }
         ],
         "optional": false
@@ -3257,8 +3189,7 @@
               "type": "Literal",
               "start": 4000,
               "end": 4001,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -3267,8 +3198,7 @@
             "type": "Literal",
             "start": 4004,
             "end": 4009,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -3318,7 +3248,6 @@
               "start": 4035,
               "end": 4059,
               "value": {},
-              "raw": "/(?<狗>dog)(.*?)(\\k<狗>)/u",
               "regex": {
                 "pattern": "(?<狗>dog)(.*?)(\\k<狗>)",
                 "flags": "u"
@@ -3393,8 +3322,7 @@
             "type": "Literal",
             "start": 4095,
             "end": 4100,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -3442,8 +3370,7 @@
               "type": "Literal",
               "start": 4126,
               "end": 4127,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -3452,8 +3379,7 @@
             "type": "Literal",
             "start": 4130,
             "end": 4135,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false
@@ -3501,8 +3427,7 @@
               "type": "Literal",
               "start": 4161,
               "end": 4162,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -3511,8 +3436,7 @@
             "type": "Literal",
             "start": 4165,
             "end": 4172,
-            "value": " eat ",
-            "raw": "\" eat \""
+            "value": " eat "
           }
         ],
         "optional": false
@@ -3560,8 +3484,7 @@
               "type": "Literal",
               "start": 4198,
               "end": 4199,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -3570,8 +3493,7 @@
             "type": "Literal",
             "start": 4202,
             "end": 4207,
-            "value": "dog",
-            "raw": "\"dog\""
+            "value": "dog"
           }
         ],
         "optional": false

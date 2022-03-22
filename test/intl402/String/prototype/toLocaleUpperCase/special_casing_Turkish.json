@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 716,
                 "end": 724,
-                "value": "İ",
-                "raw": "\"\\u0130\""
+                "value": "İ"
               },
               "property": {
                 "type": "Identifier",
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 747,
-                "value": "tr",
-                "raw": "\"tr\""
+                "value": "tr"
               }
             ],
             "optional": false
@@ -70,15 +68,13 @@
             "type": "Literal",
             "start": 752,
             "end": 760,
-            "value": "İ",
-            "raw": "\"\\u0130\""
+            "value": "İ"
           },
           {
             "type": "Literal",
             "start": 764,
             "end": 803,
-            "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\""
+            "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE"
           }
         ],
         "optional": false
@@ -124,8 +120,7 @@
                 "type": "Literal",
                 "start": 885,
                 "end": 888,
-                "value": "I",
-                "raw": "\"I\""
+                "value": "I"
               },
               "property": {
                 "type": "Identifier",
@@ -141,8 +136,7 @@
                 "type": "Literal",
                 "start": 907,
                 "end": 911,
-                "value": "tr",
-                "raw": "\"tr\""
+                "value": "tr"
               }
             ],
             "optional": false
@@ -151,15 +145,13 @@
             "type": "Literal",
             "start": 916,
             "end": 919,
-            "value": "I",
-            "raw": "\"I\""
+            "value": "I"
           },
           {
             "type": "Literal",
             "start": 923,
             "end": 947,
-            "value": "LATIN CAPITAL LETTER I",
-            "raw": "\"LATIN CAPITAL LETTER I\""
+            "value": "LATIN CAPITAL LETTER I"
           }
         ],
         "optional": false
@@ -205,8 +197,7 @@
                 "type": "Literal",
                 "start": 1073,
                 "end": 1076,
-                "value": "i",
-                "raw": "\"i\""
+                "value": "i"
               },
               "property": {
                 "type": "Identifier",
@@ -222,8 +213,7 @@
                 "type": "Literal",
                 "start": 1095,
                 "end": 1099,
-                "value": "tr",
-                "raw": "\"tr\""
+                "value": "tr"
               }
             ],
             "optional": false
@@ -232,15 +222,13 @@
             "type": "Literal",
             "start": 1104,
             "end": 1112,
-            "value": "İ",
-            "raw": "\"\\u0130\""
+            "value": "İ"
           },
           {
             "type": "Literal",
             "start": 1116,
             "end": 1138,
-            "value": "LATIN SMALL LETTER I",
-            "raw": "\"LATIN SMALL LETTER I\""
+            "value": "LATIN SMALL LETTER I"
           }
         ],
         "optional": false
@@ -286,8 +274,7 @@
                 "type": "Literal",
                 "start": 1257,
                 "end": 1265,
-                "value": "ı",
-                "raw": "\"\\u0131\""
+                "value": "ı"
               },
               "property": {
                 "type": "Identifier",
@@ -303,8 +290,7 @@
                 "type": "Literal",
                 "start": 1284,
                 "end": 1288,
-                "value": "tr",
-                "raw": "\"tr\""
+                "value": "tr"
               }
             ],
             "optional": false
@@ -313,15 +299,13 @@
             "type": "Literal",
             "start": 1293,
             "end": 1296,
-            "value": "I",
-            "raw": "\"I\""
+            "value": "I"
           },
           {
             "type": "Literal",
             "start": 1300,
             "end": 1330,
-            "value": "LATIN SMALL LETTER DOTLESS I",
-            "raw": "\"LATIN SMALL LETTER DOTLESS I\""
+            "value": "LATIN SMALL LETTER DOTLESS I"
           }
         ],
         "optional": false

@@ -58,22 +58,19 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 330,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -129,8 +126,7 @@
                     "type": "Literal",
                     "start": 346,
                     "end": 347,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ],
                 "optional": false
@@ -149,8 +145,7 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 354,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -169,8 +164,7 @@
             "type": "Literal",
             "start": 360,
             "end": 361,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -347,15 +341,13 @@
             "type": "Literal",
             "start": 475,
             "end": 476,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 478,
             "end": 516,
-            "value": "The value of `expects.length` is `0`",
-            "raw": "\"The value of `expects.length` is `0`\""
+            "value": "The value of `expects.length` is `0`"
           }
         ],
         "optional": false

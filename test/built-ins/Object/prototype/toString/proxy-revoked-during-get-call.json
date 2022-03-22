@@ -229,8 +229,7 @@
             "type": "Literal",
             "start": 986,
             "end": 1002,
-            "value": "[object Array]",
-            "raw": "\"[object Array]\""
+            "value": "[object Array]"
           }
         ],
         "optional": false
@@ -506,8 +505,7 @@
             "type": "Literal",
             "start": 1213,
             "end": 1230,
-            "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "value": "[object Object]"
           }
         ],
         "optional": false

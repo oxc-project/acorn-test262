@@ -51,8 +51,7 @@
                         "type": "Literal",
                         "start": 650,
                         "end": 672,
-                        "value": "should not throw yet",
-                        "raw": "'should not throw yet'"
+                        "value": "should not throw yet"
                       }
                     ]
                   }
@@ -230,8 +229,7 @@
             "type": "Literal",
             "start": 903,
             "end": 938,
-            "value": "does not return the same function",
-            "raw": "'does not return the same function'"
+            "value": "does not return the same function"
           }
         ],
         "optional": false
@@ -294,8 +292,7 @@
             "type": "Literal",
             "start": 1018,
             "end": 1030,
-            "value": "instanceof",
-            "raw": "'instanceof'"
+            "value": "instanceof"
           }
         ],
         "optional": false

@@ -125,15 +125,13 @@
                   "type": "Literal",
                   "start": 373,
                   "end": 374,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 376,
                   "end": 377,
-                  "value": 9,
-                  "raw": "9"
+                  "value": 9
                 },
                 "kind": "init"
               },
@@ -279,8 +277,7 @@
             "type": "Literal",
             "start": 479,
             "end": 489,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false

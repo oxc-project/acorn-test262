@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 877,
                       "end": 878,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -99,8 +98,7 @@
             "type": "Literal",
             "start": 893,
             "end": 927,
-            "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "value": 16810113
           }
         }
       ],
@@ -125,8 +123,7 @@
             "type": "Literal",
             "start": 939,
             "end": 973,
-            "value": 33521919,
-            "raw": "0b00000001111111111000000011111111"
+            "value": 33521919
           }
         }
       ],
@@ -151,8 +148,7 @@
             "type": "Literal",
             "start": 985,
             "end": 1019,
-            "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "value": 16810113
           }
         }
       ],
@@ -181,8 +177,7 @@
             "type": "Literal",
             "start": 1027,
             "end": 1028,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -257,8 +252,7 @@
                 "type": "Literal",
                 "start": 1074,
                 "end": 1075,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -279,8 +273,7 @@
             "type": "Literal",
             "start": 1088,
             "end": 1175,
-            "value": "Atomics.and(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)",
-            "raw": "'Atomics.and(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)'"
+            "value": "Atomics.and(i32a, 0, b) returns the value of `a` (0b00000001000000001000000010000001)"
           }
         ],
         "optional": false
@@ -328,8 +321,7 @@
               "type": "Literal",
               "start": 1202,
               "end": 1203,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -344,8 +336,7 @@
             "type": "Literal",
             "start": 1209,
             "end": 1292,
-            "value": "The value of i32a[0] equals the value of `c` (0b00000001000000001000000010000001)",
-            "raw": "'The value of i32a[0] equals the value of `c` (0b00000001000000001000000010000001)'"
+            "value": "The value of i32a[0] equals the value of `c` (0b00000001000000001000000010000001)"
           }
         ],
         "optional": false

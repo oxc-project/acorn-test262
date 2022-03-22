@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 383,
                 "end": 387,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 390,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -99,8 +97,7 @@
                   "type": "Literal",
                   "start": 414,
                   "end": 418,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 "kind": "init"
               },
@@ -121,8 +118,7 @@
                   "type": "Literal",
                   "start": 427,
                   "end": 428,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "kind": "init"
               }
@@ -222,15 +218,13 @@
                             "type": "Literal",
                             "start": 477,
                             "end": 483,
-                            "value": "year",
-                            "raw": "\"year\""
+                            "value": "year"
                           },
                           {
                             "type": "Literal",
                             "start": 485,
                             "end": 492,
-                            "value": "month",
-                            "raw": "\"month\""
+                            "value": "month"
                           }
                         ]
                       },
@@ -748,8 +742,7 @@
                                     "type": "Literal",
                                     "start": 883,
                                     "end": 928,
-                                    "value": "it fails after fetching the primitive value",
-                                    "raw": "\"it fails after fetching the primitive value\""
+                                    "value": "it fails after fetching the primitive value"
                                   }
                                 ],
                                 "optional": false

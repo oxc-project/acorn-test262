@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 929,
             "end": 930,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -67,8 +66,7 @@
                 "type": "Literal",
                 "start": 968,
                 "end": 969,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -130,8 +128,7 @@
                   "type": "Literal",
                   "start": 1018,
                   "end": 1019,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
@@ -144,8 +141,7 @@
                   "type": "Literal",
                   "start": 1028,
                   "end": 1030,
-                  "value": "",
-                  "raw": "''"
+                  "value": ""
                 }
               ]
             }
@@ -347,8 +343,7 @@
                     "type": "Literal",
                     "start": 1157,
                     "end": 1158,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ],
                 "optional": false
@@ -437,8 +432,7 @@
                     "type": "Literal",
                     "start": 1213,
                     "end": 1215,
-                    "value": "",
-                    "raw": "''"
+                    "value": ""
                   }
                 ],
                 "optional": false
@@ -482,8 +476,7 @@
                     "type": "Literal",
                     "start": 1248,
                     "end": 1249,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ],
                 "optional": false
@@ -543,8 +536,7 @@
             "type": "Literal",
             "start": 1291,
             "end": 1315,
-            "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "value": "executed `catch` block"
           }
         ],
         "optional": false

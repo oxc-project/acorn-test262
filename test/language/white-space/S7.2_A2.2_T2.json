@@ -15,16 +15,14 @@
           "type": "Literal",
           "start": 267,
           "end": 278,
-          "value": "\u000bstr\u000bing\u000b",
-          "raw": "\"\u000bstr\u000bing\u000b\""
+          "value": "\u000bstr\u000bing\u000b"
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
           "start": 283,
           "end": 309,
-          "value": "\u000bstr\u000bing\u000b",
-          "raw": "\"\\u000Bstr\\u000Bing\\u000B\""
+          "value": "\u000bstr\u000bing\u000b"
         }
       },
       "consequent": {
@@ -51,8 +49,7 @@
                   "type": "Literal",
                   "start": 338,
                   "end": 389,
-                  "value": "#1: \"\u000bstr\u000bing\u000b\" === \"\\u000Bstr\\u000Bing\\u000B\"",
-                  "raw": "'#1: \"\u000bstr\u000bing\u000b\" === \"\\\\u000Bstr\\\\u000Bing\\\\u000B\"'"
+                  "value": "#1: \"\u000bstr\u000bing\u000b\" === \"\\u000Bstr\\u000Bing\\u000B\""
                 }
               ]
             }

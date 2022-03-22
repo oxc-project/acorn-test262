@@ -53,8 +53,7 @@
                 "type": "Literal",
                 "start": 419,
                 "end": 420,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           },
@@ -119,8 +118,7 @@
                   "type": "Literal",
                   "start": 462,
                   "end": 502,
-                  "value": "function func(){return \"id_string\";}",
-                  "raw": "\"function func(){return \\\"id_string\\\";}\""
+                  "value": "function func(){return \"id_string\";}"
                 }
               ],
               "optional": false
@@ -188,8 +186,7 @@
                   "type": "Literal",
                   "start": 658,
                   "end": 714,
-                  "value": "#1: var obj = new FACTORY() lead to throwing exception",
-                  "raw": "'#1: var obj = new FACTORY() lead to throwing exception'"
+                  "value": "#1: var obj = new FACTORY() lead to throwing exception"
                 }
               ]
             }

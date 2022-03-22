@@ -57,8 +57,7 @@
                   "type": "Literal",
                   "start": 293,
                   "end": 313,
-                  "value": "[object Arguments]",
-                  "raw": "'[object Arguments]'"
+                  "value": "[object Arguments]"
                 },
                 "operator": "===",
                 "right": {
@@ -182,15 +181,13 @@
                   "type": "Literal",
                   "start": 405,
                   "end": 408,
-                  "value": "a",
-                  "raw": "\"a\""
+                  "value": "a"
                 },
                 {
                   "type": "Literal",
                   "start": 410,
                   "end": 413,
-                  "value": "b",
-                  "raw": "\"b\""
+                  "value": "b"
                 }
               ],
               "optional": false
@@ -326,8 +323,7 @@
               "type": "Literal",
               "start": 507,
               "end": 508,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -343,8 +339,7 @@
             "type": "Literal",
             "start": 517,
             "end": 532,
-            "value": "testResult[1]",
-            "raw": "'testResult[1]'"
+            "value": "testResult[1]"
           }
         ],
         "optional": false

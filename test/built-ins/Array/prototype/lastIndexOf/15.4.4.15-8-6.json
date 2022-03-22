@@ -142,8 +142,7 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 374,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
@@ -163,29 +162,25 @@
                 "type": "Literal",
                 "start": 389,
                 "end": 390,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 397,
-                "value": "str",
-                "raw": "\"str\""
+                "value": "str"
               },
               {
                 "type": "Literal",
                 "start": 399,
                 "end": 400,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 402,
                 "end": 403,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -224,8 +219,7 @@
                 "type": "Literal",
                 "start": 442,
                 "end": 448,
-                "value": "null",
-                "raw": "\"null\""
+                "value": "null"
               },
               {
                 "type": "Identifier",
@@ -237,8 +231,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 466,
-                "value": "str",
-                "raw": "\"str\""
+                "value": "str"
               },
               {
                 "type": "Identifier",
@@ -318,15 +311,13 @@
             "type": "Literal",
             "start": 513,
             "end": 515,
-            "value": 13,
-            "raw": "13"
+            "value": 13
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 538,
-            "value": "a.lastIndexOf(null)",
-            "raw": "'a.lastIndexOf(null)'"
+            "value": "a.lastIndexOf(null)"
           }
         ],
         "optional": false

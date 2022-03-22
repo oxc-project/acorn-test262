@@ -67,8 +67,7 @@
                         "type": "Literal",
                         "start": 452,
                         "end": 457,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       },
                       "property": {
                         "type": "Identifier",
@@ -84,8 +83,7 @@
                         "type": "Literal",
                         "start": 468,
                         "end": 473,
-                        "value": "bar",
-                        "raw": "'bar'"
+                        "value": "bar"
                       }
                     ],
                     "optional": false
@@ -162,8 +160,7 @@
                         "type": "Literal",
                         "start": 522,
                         "end": 527,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       },
                       "property": {
                         "type": "Identifier",
@@ -179,8 +176,7 @@
                         "type": "Literal",
                         "start": 538,
                         "end": 544,
-                        "value": "NFC1",
-                        "raw": "'NFC1'"
+                        "value": "NFC1"
                       }
                     ],
                     "optional": false
@@ -257,8 +253,7 @@
                         "type": "Literal",
                         "start": 593,
                         "end": 598,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       },
                       "property": {
                         "type": "Identifier",

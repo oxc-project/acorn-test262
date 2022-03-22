@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 287,
                 "end": 290,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               },
               "arguments": [],
               "optional": false
@@ -54,8 +53,7 @@
                     "type": "Literal",
                     "start": 321,
                     "end": 360,
-                    "value": "#1.1: \"1\"() throw TypeError. Actual: ",
-                    "raw": "'#1.1: \"1\"() throw TypeError. Actual: '"
+                    "value": "#1.1: \"1\"() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -70,8 +68,7 @@
                         "type": "Literal",
                         "start": 364,
                         "end": 367,
-                        "value": "1",
-                        "raw": "\"1\""
+                        "value": "1"
                       },
                       "arguments": [],
                       "optional": false
@@ -166,8 +163,7 @@
                             "type": "Literal",
                             "start": 458,
                             "end": 497,
-                            "value": "#1.2: \"1\"() throw TypeError. Actual: ",
-                            "raw": "'#1.2: \"1\"() throw TypeError. Actual: '"
+                            "value": "#1.2: \"1\"() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -222,8 +218,7 @@
                   "type": "Literal",
                   "start": 540,
                   "end": 543,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 }
               }
             ],
@@ -270,8 +265,7 @@
                     "type": "Literal",
                     "start": 579,
                     "end": 629,
-                    "value": "#2.1: var x = \"1\"; x() throw TypeError. Actual: ",
-                    "raw": "'#2.1: var x = \"1\"; x() throw TypeError. Actual: '"
+                    "value": "#2.1: var x = \"1\"; x() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -381,8 +375,7 @@
                             "type": "Literal",
                             "start": 725,
                             "end": 775,
-                            "value": "#2.2: var x = \"1\"; x() throw TypeError. Actual: ",
-                            "raw": "'#2.2: var x = \"1\"; x() throw TypeError. Actual: '"
+                            "value": "#2.2: var x = \"1\"; x() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

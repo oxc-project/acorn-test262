@@ -69,8 +69,7 @@
                               "type": "Literal",
                               "start": 435,
                               "end": 471,
-                              "value": "This method should not be invoked.",
-                              "raw": "'This method should not be invoked.'"
+                              "value": "This method should not be invoked."
                             }
                           ]
                         }
@@ -115,8 +114,7 @@
                           "type": "Literal",
                           "start": 515,
                           "end": 531,
-                          "value": "toString value",
-                          "raw": "'toString value'"
+                          "value": "toString value"
                         }
                       }
                     ]
@@ -171,7 +169,6 @@
                 "start": 558,
                 "end": 561,
                 "value": {},
-                "raw": "/./",
                 "regex": {
                   "pattern": ".",
                   "flags": ""
@@ -210,8 +207,7 @@
                 "type": "Literal",
                 "start": 583,
                 "end": 586,
-                "value": "x",
-                "raw": "'x'"
+                "value": "x"
               }
             ],
             "optional": false
@@ -220,8 +216,7 @@
             "type": "Literal",
             "start": 589,
             "end": 605,
-            "value": "xoString value",
-            "raw": "'xoString value'"
+            "value": "xoString value"
           }
         ],
         "optional": false

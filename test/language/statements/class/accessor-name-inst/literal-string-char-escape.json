@@ -49,8 +49,7 @@
               "type": "Literal",
               "start": 981,
               "end": 1000,
-              "value": "character\tescape",
-              "raw": "'character\\tescape'"
+              "value": "character\tescape"
             },
             "kind": "get",
             "value": {
@@ -75,8 +74,7 @@
                       "type": "Literal",
                       "start": 1012,
                       "end": 1024,
-                      "value": "get string",
-                      "raw": "'get string'"
+                      "value": "get string"
                     }
                   }
                 ]
@@ -93,8 +91,7 @@
               "type": "Literal",
               "start": 1034,
               "end": 1053,
-              "value": "character\tescape",
-              "raw": "'character\\tescape'"
+              "value": "character\tescape"
             },
             "kind": "set",
             "value": {
@@ -203,8 +200,7 @@
               "type": "Literal",
               "start": 1116,
               "end": 1134,
-              "value": "character\tescape",
-              "raw": "'character\tescape'"
+              "value": "character\tescape"
             },
             "computed": true,
             "optional": false
@@ -213,8 +209,7 @@
             "type": "Literal",
             "start": 1137,
             "end": 1149,
-            "value": "get string",
-            "raw": "'get string'"
+            "value": "get string"
           }
         ],
         "optional": false
@@ -256,8 +251,7 @@
             "type": "Literal",
             "start": 1165,
             "end": 1183,
-            "value": "character\tescape",
-            "raw": "'character\tescape'"
+            "value": "character\tescape"
           },
           "computed": true,
           "optional": false
@@ -266,8 +260,7 @@
           "type": "Literal",
           "start": 1187,
           "end": 1199,
-          "value": "set string",
-          "raw": "'set string'"
+          "value": "set string"
         }
       }
     },
@@ -309,8 +302,7 @@
             "type": "Literal",
             "start": 1229,
             "end": 1241,
-            "value": "set string",
-            "raw": "'set string'"
+            "value": "set string"
           }
         ],
         "optional": false

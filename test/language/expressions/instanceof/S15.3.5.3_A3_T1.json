@@ -53,8 +53,7 @@
               "type": "Literal",
               "start": 760,
               "end": 780,
-              "value": "this.name=\"root\"",
-              "raw": "\"this.name=\\\"root\\\"\""
+              "value": "this.name=\"root\""
             }
           ],
           "optional": false
@@ -106,8 +105,7 @@
           "type": "Literal",
           "start": 807,
           "end": 808,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -218,8 +216,7 @@
                   "type": "Literal",
                   "start": 923,
                   "end": 1035,
-                  "value": "#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true",
-                  "raw": "'#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true'"
+                  "value": "#1: If O and V refer to the same object or if they refer to objects joined to each other (13.1.2), return true"
                 }
               ]
             }

@@ -87,16 +87,14 @@
                           "type": "Literal",
                           "start": 293,
                           "end": 298,
-                          "value": "\"ab",
-                          "raw": "'\"ab'"
+                          "value": "\"ab"
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
                           "start": 299,
                           "end": 303,
-                          "value": "c'",
-                          "raw": "\"c'\""
+                          "value": "c'"
                         }
                       }
                     ],

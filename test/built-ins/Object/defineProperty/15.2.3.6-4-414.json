@@ -72,8 +72,7 @@
             "type": "Literal",
             "start": 374,
             "end": 385,
-            "value": "startTime",
-            "raw": "\"startTime\""
+            "value": "startTime"
           },
           {
             "type": "ObjectExpression",
@@ -97,8 +96,7 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 402,
-                  "value": 1001,
-                  "raw": "1001"
+                  "value": 1001
                 },
                 "kind": "init"
               },
@@ -212,8 +210,7 @@
             "type": "Literal",
             "start": 502,
             "end": 508,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -237,8 +234,7 @@
                   "type": "Literal",
                   "start": 521,
                   "end": 527,
-                  "value": "NAME",
-                  "raw": "\"NAME\""
+                  "value": "NAME"
                 },
                 "kind": "init"
               },
@@ -404,8 +400,7 @@
             "type": "Literal",
             "start": 666,
             "end": 682,
-            "value": "conferenceCall",
-            "raw": "\"conferenceCall\""
+            "value": "conferenceCall"
           },
           {
             "type": "ObjectExpression",
@@ -429,8 +424,7 @@
                   "type": "Literal",
                   "start": 695,
                   "end": 714,
-                  "value": "In-person meeting",
-                  "raw": "\"In-person meeting\""
+                  "value": "In-person meeting"
                 },
                 "kind": "init"
               },
@@ -690,8 +684,7 @@
                 "type": "Literal",
                 "start": 948,
                 "end": 959,
-                "value": "startTime",
-                "raw": "\"startTime\""
+                "value": "startTime"
               }
             },
             "consequent": {
@@ -746,8 +739,7 @@
                 "type": "Literal",
                 "start": 1006,
                 "end": 1012,
-                "value": "name",
-                "raw": "\"name\""
+                "value": "name"
               }
             },
             "consequent": {
@@ -802,8 +794,7 @@
                 "type": "Literal",
                 "start": 1059,
                 "end": 1075,
-                "value": "conferenceCall",
-                "raw": "\"conferenceCall\""
+                "value": "conferenceCall"
               }
             },
             "consequent": {
@@ -899,8 +890,7 @@
                       "type": "Literal",
                       "start": 1162,
                       "end": 1168,
-                      "value": "name",
-                      "raw": "\"name\""
+                      "value": "name"
                     }
                   ],
                   "optional": false
@@ -941,8 +931,7 @@
                       "type": "Literal",
                       "start": 1203,
                       "end": 1214,
-                      "value": "startTime",
-                      "raw": "\"startTime\""
+                      "value": "startTime"
                     }
                   ],
                   "optional": false
@@ -984,8 +973,7 @@
                     "type": "Literal",
                     "start": 1249,
                     "end": 1265,
-                    "value": "conferenceCall",
-                    "raw": "\"conferenceCall\""
+                    "value": "conferenceCall"
                   }
                 ],
                 "optional": false
@@ -1021,8 +1009,7 @@
             "type": "Literal",
             "start": 1292,
             "end": 1317,
-            "value": "hasOwnProperty !== true",
-            "raw": "'hasOwnProperty !== true'"
+            "value": "hasOwnProperty !== true"
           }
         ],
         "optional": false
@@ -1053,8 +1040,7 @@
             "type": "Literal",
             "start": 1343,
             "end": 1368,
-            "value": "verifyTimeProp !== true",
-            "raw": "'verifyTimeProp !== true'"
+            "value": "verifyTimeProp !== true"
           }
         ],
         "optional": false
@@ -1085,8 +1071,7 @@
             "type": "Literal",
             "start": 1394,
             "end": 1419,
-            "value": "verifyNameProp !== true",
-            "raw": "'verifyNameProp !== true'"
+            "value": "verifyNameProp !== true"
           }
         ],
         "optional": false
@@ -1117,8 +1102,7 @@
             "type": "Literal",
             "start": 1445,
             "end": 1470,
-            "value": "verifyCallProp !== true",
-            "raw": "'verifyCallProp !== true'"
+            "value": "verifyCallProp !== true"
           }
         ],
         "optional": false

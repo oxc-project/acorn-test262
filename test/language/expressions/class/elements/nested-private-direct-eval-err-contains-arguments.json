@@ -56,13 +56,12 @@
               "end": 1164,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1088,
-                  "end": 1135,
-                  "static": false,
+                  "end": 1134,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 1088,
                     "end": 1090,
                     "name": "x"
@@ -91,8 +90,7 @@
                           "type": "Literal",
                           "start": 1104,
                           "end": 1133,
-                          "value": "executed = true; arguments;",
-                          "raw": "'executed = true; arguments;'"
+                          "value": "executed = true; arguments;"
                         }
                       ],
                       "optional": false
@@ -143,14 +141,14 @@
                                 "start": 1148,
                                 "end": 1152
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 1153,
                                 "end": 1155,
                                 "name": "x"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             },
                             "arguments": [],
                             "optional": false

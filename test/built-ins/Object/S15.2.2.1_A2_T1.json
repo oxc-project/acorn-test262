@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 395,
                   "end": 396,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -133,8 +132,7 @@
             "type": "Literal",
             "start": 460,
             "end": 518,
-            "value": "The value of n_obj is expected to equal the value of obj",
-            "raw": "'The value of n_obj is expected to equal the value of obj'"
+            "value": "The value of n_obj is expected to equal the value of obj"
           }
         ],
         "optional": false
@@ -182,8 +180,7 @@
               "type": "Literal",
               "start": 544,
               "end": 550,
-              "value": "prop",
-              "raw": "'prop'"
+              "value": "prop"
             },
             "computed": true,
             "optional": false
@@ -192,15 +189,13 @@
             "type": "Literal",
             "start": 553,
             "end": 554,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 556,
             "end": 604,
-            "value": "The value of n_obj[\"prop\"] is expected to be 1",
-            "raw": "'The value of n_obj[\"prop\"] is expected to be 1'"
+            "value": "The value of n_obj[\"prop\"] is expected to be 1"
           }
         ],
         "optional": false

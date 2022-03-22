@@ -143,7 +143,6 @@
                         "start": 528,
                         "end": 531,
                         "value": {},
-                        "raw": "/./",
                         "regex": {
                           "pattern": ".",
                           "flags": ""
@@ -176,8 +175,7 @@
                         "type": "Literal",
                         "start": 546,
                         "end": 548,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       {
                         "type": "MemberExpression",
@@ -274,7 +272,6 @@
                         "start": 613,
                         "end": 616,
                         "value": {},
-                        "raw": "/./",
                         "regex": {
                           "pattern": ".",
                           "flags": ""
@@ -307,8 +304,7 @@
                         "type": "Literal",
                         "start": 631,
                         "end": 633,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       {
                         "type": "Identifier",

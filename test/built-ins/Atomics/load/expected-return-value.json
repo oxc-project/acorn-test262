@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 1127,
                       "end": 1128,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -99,8 +98,7 @@
             "type": "Literal",
             "start": 1148,
             "end": 1182,
-            "value": 16810113,
-            "raw": "0b00000001000000001000000010000001"
+            "value": 16810113
           }
         }
       ],
@@ -168,8 +166,7 @@
                 "type": "Literal",
                 "start": 1221,
                 "end": 1222,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -178,15 +175,13 @@
             "type": "Literal",
             "start": 1225,
             "end": 1226,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1228,
             "end": 1261,
-            "value": "Atomics.load(i32a, 0) returns 0",
-            "raw": "'Atomics.load(i32a, 0) returns 0'"
+            "value": "Atomics.load(i32a, 0) returns 0"
           }
         ],
         "optional": false
@@ -215,8 +210,7 @@
             "type": "Literal",
             "start": 1270,
             "end": 1271,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -291,8 +285,7 @@
                 "type": "Literal",
                 "start": 1323,
                 "end": 1324,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -307,8 +300,7 @@
             "type": "Literal",
             "start": 1339,
             "end": 1429,
-            "value": "Atomics.load(i32a, 0) returns the value of `update` (0b00000001000000001000000010000001)",
-            "raw": "'Atomics.load(i32a, 0) returns the value of `update` (0b00000001000000001000000010000001)'"
+            "value": "Atomics.load(i32a, 0) returns the value of `update` (0b00000001000000001000000010000001)"
           }
         ],
         "optional": false

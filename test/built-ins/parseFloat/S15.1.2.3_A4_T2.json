@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 375,
               "end": 380,
-              "value": "1ex",
-              "raw": "\"1ex\""
+              "value": "1ex"
             }
           ],
           "optional": false
@@ -37,8 +36,7 @@
           "type": "Literal",
           "start": 386,
           "end": 387,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -69,8 +67,7 @@
                     "type": "Literal",
                     "start": 416,
                     "end": 455,
-                    "value": "#1: parseFloat(\"1ex\") === 1. Actual: ",
-                    "raw": "'#1: parseFloat(\"1ex\") === 1. Actual: '"
+                    "value": "#1: parseFloat(\"1ex\") === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -92,8 +89,7 @@
                           "type": "Literal",
                           "start": 470,
                           "end": 475,
-                          "value": "1ex",
-                          "raw": "\"1ex\""
+                          "value": "1ex"
                         }
                       ],
                       "optional": false
@@ -130,8 +126,7 @@
               "type": "Literal",
               "start": 508,
               "end": 514,
-              "value": "1e-x",
-              "raw": "\"1e-x\""
+              "value": "1e-x"
             }
           ],
           "optional": false
@@ -141,8 +136,7 @@
           "type": "Literal",
           "start": 520,
           "end": 521,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -173,8 +167,7 @@
                     "type": "Literal",
                     "start": 550,
                     "end": 590,
-                    "value": "#2: parseFloat(\"1e-x\") === 1. Actual: ",
-                    "raw": "'#2: parseFloat(\"1e-x\") === 1. Actual: '"
+                    "value": "#2: parseFloat(\"1e-x\") === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -196,8 +189,7 @@
                           "type": "Literal",
                           "start": 605,
                           "end": 611,
-                          "value": "1e-x",
-                          "raw": "\"1e-x\""
+                          "value": "1e-x"
                         }
                       ],
                       "optional": false
@@ -234,8 +226,7 @@
               "type": "Literal",
               "start": 644,
               "end": 650,
-              "value": "1e1x",
-              "raw": "\"1e1x\""
+              "value": "1e1x"
             }
           ],
           "optional": false
@@ -245,8 +236,7 @@
           "type": "Literal",
           "start": 656,
           "end": 658,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       },
       "consequent": {
@@ -277,8 +267,7 @@
                     "type": "Literal",
                     "start": 687,
                     "end": 728,
-                    "value": "#3: parseFloat(\"1e1x\") === 10. Actual: ",
-                    "raw": "'#3: parseFloat(\"1e1x\") === 10. Actual: '"
+                    "value": "#3: parseFloat(\"1e1x\") === 10. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -300,8 +289,7 @@
                           "type": "Literal",
                           "start": 743,
                           "end": 749,
-                          "value": "1e1x",
-                          "raw": "\"1e1x\""
+                          "value": "1e1x"
                         }
                       ],
                       "optional": false
@@ -338,8 +326,7 @@
               "type": "Literal",
               "start": 782,
               "end": 789,
-              "value": "1e-1x",
-              "raw": "\"1e-1x\""
+              "value": "1e-1x"
             }
           ],
           "optional": false
@@ -349,8 +336,7 @@
           "type": "Literal",
           "start": 795,
           "end": 798,
-          "value": 0.1,
-          "raw": "0.1"
+          "value": 0.1
         }
       },
       "consequent": {
@@ -381,8 +367,7 @@
                     "type": "Literal",
                     "start": 827,
                     "end": 870,
-                    "value": "#4: parseFloat(\"1e-1x\") === 0.1. Actual: ",
-                    "raw": "'#4: parseFloat(\"1e-1x\") === 0.1. Actual: '"
+                    "value": "#4: parseFloat(\"1e-1x\") === 0.1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -404,8 +389,7 @@
                           "type": "Literal",
                           "start": 885,
                           "end": 892,
-                          "value": "1e-1x",
-                          "raw": "\"1e-1x\""
+                          "value": "1e-1x"
                         }
                       ],
                       "optional": false
@@ -442,8 +426,7 @@
               "type": "Literal",
               "start": 925,
               "end": 934,
-              "value": "0.1e-1x",
-              "raw": "\"0.1e-1x\""
+              "value": "0.1e-1x"
             }
           ],
           "optional": false
@@ -453,8 +436,7 @@
           "type": "Literal",
           "start": 940,
           "end": 944,
-          "value": 0.01,
-          "raw": "0.01"
+          "value": 0.01
         }
       },
       "consequent": {
@@ -485,8 +467,7 @@
                     "type": "Literal",
                     "start": 973,
                     "end": 1019,
-                    "value": "#5: parseFloat(\"0.1e-1x\") === 0.01. Actual: ",
-                    "raw": "'#5: parseFloat(\"0.1e-1x\") === 0.01. Actual: '"
+                    "value": "#5: parseFloat(\"0.1e-1x\") === 0.01. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -508,8 +489,7 @@
                           "type": "Literal",
                           "start": 1034,
                           "end": 1043,
-                          "value": "0.1e-1x",
-                          "raw": "\"0.1e-1x\""
+                          "value": "0.1e-1x"
                         }
                       ],
                       "optional": false

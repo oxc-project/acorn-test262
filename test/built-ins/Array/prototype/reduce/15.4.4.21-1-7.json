@@ -142,8 +142,7 @@
                 "type": "Literal",
                 "start": 365,
                 "end": 370,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               },
               {
                 "type": "Identifier",
@@ -155,8 +154,7 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 385,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -165,8 +163,7 @@
             "type": "Literal",
             "start": 388,
             "end": 448,
-            "value": "Array.prototype.reduce.call(\"abc\", callbackfn, 1) !== true",
-            "raw": "'Array.prototype.reduce.call(\"abc\", callbackfn, 1) !== true'"
+            "value": "Array.prototype.reduce.call(\"abc\", callbackfn, 1) !== true"
           }
         ],
         "optional": false

@@ -59,8 +59,7 @@
             "type": "Literal",
             "start": 1399,
             "end": 1443,
-            "value": "new binding on an extensible global object",
-            "raw": "'new binding on an extensible global object'"
+            "value": "new binding on an extensible global object"
           }
         ],
         "optional": false
@@ -90,8 +89,7 @@
             "type": "Literal",
             "start": 1470,
             "end": 1480,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -121,8 +119,7 @@
             "type": "Literal",
             "start": 1504,
             "end": 1514,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false
@@ -152,8 +149,7 @@
             "type": "Literal",
             "start": 1545,
             "end": 1555,
-            "value": "brandNew",
-            "raw": "'brandNew'"
+            "value": "brandNew"
           }
         ],
         "optional": false

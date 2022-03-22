@@ -74,7 +74,7 @@
                         "static": false,
                         "computed": false,
                         "key": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1001,
                           "end": 1003,
                           "name": "m"
@@ -116,10 +116,9 @@
                         }
                       },
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 1051,
-                        "end": 1075,
-                        "static": false,
+                        "end": 1074,
                         "computed": true,
                         "key": {
                           "type": "CallExpression",
@@ -134,14 +133,14 @@
                               "start": 1052,
                               "end": 1056
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 1057,
                               "end": 1059,
                               "name": "m"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           },
                           "arguments": [],
                           "optional": false
@@ -150,8 +149,7 @@
                           "type": "Literal",
                           "start": 1065,
                           "end": 1074,
-                          "value": "Test262",
-                          "raw": "'Test262'"
+                          "value": "Test262"
                         }
                       }
                     ]
@@ -164,8 +162,7 @@
             "type": "Literal",
             "start": 1083,
             "end": 1132,
-            "value": "access to a private method from ordinary object",
-            "raw": "'access to a private method from ordinary object'"
+            "value": "access to a private method from ordinary object"
           }
         ],
         "optional": false

@@ -23,7 +23,6 @@
             "start": 690,
             "end": 698,
             "value": {},
-            "raw": "/abc/gim",
             "regex": {
               "pattern": "abc",
               "flags": "gim"
@@ -85,8 +84,7 @@
           "type": "Literal",
           "start": 732,
           "end": 734,
-          "value": 23,
-          "raw": "23"
+          "value": 23
         }
       }
     },
@@ -184,8 +182,7 @@
             "type": "Literal",
             "start": 807,
             "end": 828,
-            "value": "method return value",
-            "raw": "'method return value'"
+            "value": "method return value"
           }
         ],
         "optional": false
@@ -268,15 +265,13 @@
                     "type": "Literal",
                     "start": 884,
                     "end": 889,
-                    "value": "abc",
-                    "raw": "'abc'"
+                    "value": "abc"
                   },
                   {
                     "type": "Literal",
                     "start": 891,
                     "end": 896,
-                    "value": "gim",
-                    "raw": "'gim'"
+                    "value": "gim"
                   }
                 ]
               },
@@ -296,8 +291,7 @@
             "type": "Literal",
             "start": 912,
             "end": 946,
-            "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "value": "[[OriginalSource]] internal slot"
           }
         ],
         "optional": false
@@ -354,8 +348,7 @@
             "type": "Literal",
             "start": 986,
             "end": 987,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -417,8 +410,7 @@
                 "type": "Literal",
                 "start": 1020,
                 "end": 1025,
-                "value": "aBc",
-                "raw": "'aBc'"
+                "value": "aBc"
               }
             ],
             "optional": false
@@ -434,8 +426,7 @@
             "type": "Literal",
             "start": 1034,
             "end": 1067,
-            "value": "[[RegExpMatcher]] internal slot",
-            "raw": "'[[RegExpMatcher]] internal slot'"
+            "value": "[[RegExpMatcher]] internal slot"
           }
         ],
         "optional": false

@@ -135,8 +135,7 @@
                     "type": "Literal",
                     "start": 530,
                     "end": 636,
-                    "value": "#1.1: var __obj = {toString: function() {return new Object();}}; String(__obj) throw TypeError. Actual: ",
-                    "raw": "'#1.1: var __obj = {toString: function() {return new Object();}}; String(__obj) throw TypeError. Actual: '"
+                    "value": "#1.1: var __obj = {toString: function() {return new Object();}}; String(__obj) throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -253,8 +252,7 @@
                             "type": "Literal",
                             "start": 741,
                             "end": 847,
-                            "value": "#1.2: var __obj = {toString: function() {return new Object();}}; String(__obj) throw TypeError. Actual: ",
-                            "raw": "'#1.2: var __obj = {toString: function() {return new Object();}}; String(__obj) throw TypeError. Actual: '"
+                            "value": "#1.2: var __obj = {toString: function() {return new Object();}}; String(__obj) throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

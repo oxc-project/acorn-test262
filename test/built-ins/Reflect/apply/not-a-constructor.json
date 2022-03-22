@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 748,
             "end": 796,
-            "value": "isConstructor(Reflect.apply) must return false",
-            "raw": "'isConstructor(Reflect.apply) must return false'"
+            "value": "isConstructor(Reflect.apply) must return false"
           }
         ],
         "optional": false
@@ -196,8 +195,7 @@
             "type": "Literal",
             "start": 882,
             "end": 945,
-            "value": "`new Reflect.apply(() => {}, undefined, [])` throws TypeError",
-            "raw": "'`new Reflect.apply(() => {}, undefined, [])` throws TypeError'"
+            "value": "`new Reflect.apply(() => {}, undefined, [])` throws TypeError"
           }
         ],
         "optional": false

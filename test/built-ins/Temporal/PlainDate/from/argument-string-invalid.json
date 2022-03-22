@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 485,
                 "end": 499,
-                "value": "get overflow",
-                "raw": "\"get overflow\""
+                "value": "get overflow"
               },
               {
                 "type": "Literal",
                 "start": 503,
                 "end": 526,
-                "value": "get overflow.toString",
-                "raw": "\"get overflow.toString\""
+                "value": "get overflow.toString"
               },
               {
                 "type": "Literal",
                 "start": 530,
                 "end": 554,
-                "value": "call overflow.toString",
-                "raw": "\"call overflow.toString\""
+                "value": "call overflow.toString"
               }
             ]
           }
@@ -155,8 +152,7 @@
                               "type": "Literal",
                               "start": 629,
                               "end": 643,
-                              "value": "get overflow",
-                              "raw": "\"get overflow\""
+                              "value": "get overflow"
                             }
                           ],
                           "optional": false
@@ -200,15 +196,13 @@
                               "type": "Literal",
                               "start": 701,
                               "end": 712,
-                              "value": "constrain",
-                              "raw": "\"constrain\""
+                              "value": "constrain"
                             },
                             {
                               "type": "Literal",
                               "start": 714,
                               "end": 724,
-                              "value": "overflow",
-                              "raw": "\"overflow\""
+                              "value": "overflow"
                             }
                           ],
                           "optional": false
@@ -308,8 +302,7 @@
                   "type": "Literal",
                   "start": 791,
                   "end": 803,
-                  "value": "2020-13-34",
-                  "raw": "\"2020-13-34\""
+                  "value": "2020-13-34"
                 },
                 {
                   "type": "Identifier",

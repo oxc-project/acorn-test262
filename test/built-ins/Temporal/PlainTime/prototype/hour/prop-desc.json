@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 356,
                 "end": 362,
-                "value": "hour",
-                "raw": "\"hour\""
+                "value": "hour"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 405,
             "end": 415,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 313,
                         "end": 398,
-                        "value": "          'use strict';           var o = {};           with (o) {}        ",
-                        "raw": "\"\\\n          'use strict'; \\\n          var o = {}; \\\n          with (o) {}\\\n        \""
+                        "value": "          'use strict';           var o = {};           with (o) {}        "
                       }
                     ],
                     "optional": false

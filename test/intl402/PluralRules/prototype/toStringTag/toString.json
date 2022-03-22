@@ -120,8 +120,7 @@
             "type": "Literal",
             "start": 790,
             "end": 817,
-            "value": "[object Intl.PluralRules]",
-            "raw": "\"[object Intl.PluralRules]\""
+            "value": "[object Intl.PluralRules]"
           }
         ],
         "optional": false
@@ -237,8 +236,7 @@
             "type": "Literal",
             "start": 893,
             "end": 920,
-            "value": "[object Intl.PluralRules]",
-            "raw": "\"[object Intl.PluralRules]\""
+            "value": "[object Intl.PluralRules]"
           }
         ],
         "optional": false

@@ -125,8 +125,7 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 416,
-                  "value": "Temporal.Instant",
-                  "raw": "\"Temporal.Instant\""
+                  "value": "Temporal.Instant"
                 },
                 "kind": "init"
               },

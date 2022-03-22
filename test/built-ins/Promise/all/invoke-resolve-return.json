@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 743,
             "end": 744,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 765,
             "end": 766,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -273,8 +271,7 @@
                             "type": "Literal",
                             "start": 964,
                             "end": 965,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -355,8 +352,7 @@
                             "type": "Literal",
                             "start": 1035,
                             "end": 1036,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -473,15 +469,13 @@
             "type": "Literal",
             "start": 1124,
             "end": 1125,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1127,
             "end": 1163,
-            "value": "original `then` method not invoked",
-            "raw": "'original `then` method not invoked'"
+            "value": "original `then` method not invoked"
           }
         ],
         "optional": false
@@ -525,15 +519,13 @@
             "type": "Literal",
             "start": 1197,
             "end": 1198,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1200,
             "end": 1240,
-            "value": "new `then` method invoked exactly once",
-            "raw": "'new `then` method invoked exactly once'"
+            "value": "new `then` method invoked exactly once"
           }
         ],
         "optional": false

@@ -117,8 +117,7 @@
                                       "type": "Literal",
                                       "start": 408,
                                       "end": 418,
-                                      "value": "timeZone",
-                                      "raw": "'timeZone'"
+                                      "value": "timeZone"
                                     }
                                   },
                                   "consequent": {
@@ -257,8 +256,7 @@
                         "type": "Literal",
                         "start": 550,
                         "end": 559,
-                        "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "value": "iso8601"
                       },
                       {
                         "type": "Identifier",
@@ -277,8 +275,7 @@
             "type": "Literal",
             "start": 575,
             "end": 656,
-            "value": "Temporal.Now.zonedDateTime(\"iso8601\", timeZone) throws a Test262Error exception",
-            "raw": "'Temporal.Now.zonedDateTime(\"iso8601\", timeZone) throws a Test262Error exception'"
+            "value": "Temporal.Now.zonedDateTime(\"iso8601\", timeZone) throws a Test262Error exception"
           }
         ],
         "optional": false

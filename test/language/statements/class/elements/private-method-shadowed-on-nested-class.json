@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 913,
               "end": 915,
               "name": "m"
@@ -68,10 +68,9 @@
             }
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 951,
             "end": 1043,
-            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -134,14 +133,14 @@
                                   "start": 991,
                                   "end": 995
                                 },
+                                "computed": false,
+                                "optional": false,
                                 "property": {
-                                  "type": "PrivateIdentifier",
+                                  "type": "PrivateName",
                                   "start": 996,
                                   "end": 998,
                                   "name": "m"
-                                },
-                                "computed": false,
-                                "optional": false
+                                }
                               },
                               "arguments": [],
                               "optional": false
@@ -158,7 +157,7 @@
                     "static": false,
                     "computed": false,
                     "key": {
-                      "type": "PrivateIdentifier",
+                      "type": "PrivateName",
                       "start": 1013,
                       "end": 1015,
                       "name": "m"
@@ -186,8 +185,7 @@
                               "type": "Literal",
                               "start": 1027,
                               "end": 1036,
-                              "value": "test262",
-                              "raw": "'test262'"
+                              "value": "test262"
                             }
                           }
                         ]
@@ -334,8 +332,7 @@
             "type": "Literal",
             "start": 1122,
             "end": 1131,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false

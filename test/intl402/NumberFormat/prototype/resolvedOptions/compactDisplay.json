@@ -43,22 +43,19 @@
             "type": "Literal",
             "start": 377,
             "end": 387,
-            "value": "standard",
-            "raw": "\"standard\""
+            "value": "standard"
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 401,
-            "value": "scientific",
-            "raw": "\"scientific\""
+            "value": "scientific"
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 416,
-            "value": "engineering",
-            "raw": "\"engineering\""
+            "value": "engineering"
           }
         ]
       },
@@ -163,8 +160,7 @@
                                 "type": "Literal",
                                 "start": 501,
                                 "end": 507,
-                                "value": "long",
-                                "raw": "\"long\""
+                                "value": "long"
                               },
                               "kind": "init"
                             }
@@ -224,8 +220,7 @@
                     "type": "Literal",
                     "start": 552,
                     "end": 568,
-                    "value": "compactDisplay",
-                    "raw": "\"compactDisplay\""
+                    "value": "compactDisplay"
                   },
                   "operator": "in",
                   "right": {
@@ -451,8 +446,7 @@
                           "type": "Literal",
                           "start": 852,
                           "end": 861,
-                          "value": "compact",
-                          "raw": "\"compact\""
+                          "value": "compact"
                         },
                         "kind": "init"
                       },
@@ -473,8 +467,7 @@
                           "type": "Literal",
                           "start": 881,
                           "end": 887,
-                          "value": "long",
-                          "raw": "\"long\""
+                          "value": "long"
                         },
                         "kind": "init"
                       }
@@ -534,8 +527,7 @@
               "type": "Literal",
               "start": 928,
               "end": 944,
-              "value": "compactDisplay",
-              "raw": "\"compactDisplay\""
+              "value": "compactDisplay"
             },
             "operator": "in",
             "right": {
@@ -556,8 +548,7 @@
             "type": "Literal",
             "start": 963,
             "end": 1028,
-            "value": "There should be a compactDisplay property with notation=compact",
-            "raw": "\"There should be a compactDisplay property with notation=compact\""
+            "value": "There should be a compactDisplay property with notation=compact"
           }
         ],
         "optional": false
@@ -614,15 +605,13 @@
             "type": "Literal",
             "start": 1072,
             "end": 1078,
-            "value": "long",
-            "raw": "\"long\""
+            "value": "long"
           },
           {
             "type": "Literal",
             "start": 1080,
             "end": 1149,
-            "value": "The compactDisplay property should be defined with notation=compact",
-            "raw": "\"The compactDisplay property should be defined with notation=compact\""
+            "value": "The compactDisplay property should be defined with notation=compact"
           }
         ],
         "optional": false

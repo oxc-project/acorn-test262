@@ -95,8 +95,7 @@
                               "type": "Literal",
                               "start": 941,
                               "end": 949,
-                              "value": "toJSON",
-                              "raw": "'toJSON'"
+                              "value": "toJSON"
                             }
                           }
                         ]
@@ -152,8 +151,7 @@
                           "type": "Literal",
                           "start": 1006,
                           "end": 1017,
-                          "value": "|replacer",
-                          "raw": "'|replacer'"
+                          "value": "|replacer"
                         }
                       }
                     }
@@ -167,8 +165,7 @@
             "type": "Literal",
             "start": 1027,
             "end": 1046,
-            "value": "\"toJSON|replacer\"",
-            "raw": "'\"toJSON|replacer\"'"
+            "value": "\"toJSON|replacer\""
           }
         ],
         "optional": false
@@ -284,8 +281,7 @@
                                     "type": "Literal",
                                     "start": 1134,
                                     "end": 1142,
-                                    "value": "toJSON",
-                                    "raw": "'toJSON'"
+                                    "value": "toJSON"
                                   },
                                   "kind": "init"
                                 }
@@ -398,8 +394,7 @@
                                 "type": "Literal",
                                 "start": 1234,
                                 "end": 1245,
-                                "value": "|replacer",
-                                "raw": "'|replacer'"
+                                "value": "|replacer"
                               }
                             }
                           }
@@ -428,8 +423,7 @@
             "type": "Literal",
             "start": 1280,
             "end": 1309,
-            "value": "{\"calls\":\"toJSON|replacer\"}",
-            "raw": "'{\"calls\":\"toJSON|replacer\"}'"
+            "value": "{\"calls\":\"toJSON|replacer\"}"
           }
         ],
         "optional": false

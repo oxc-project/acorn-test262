@@ -26,16 +26,14 @@
               "type": "Literal",
               "start": 369,
               "end": 413,
-              "value": "\f\n\r\t\u000b~`!@#$%^&*()-+={[}]|\\:;'<,>./? ",
-              "raw": "\"\\f\\n\\r\\t\\v~`!@#$%^&*()-+={[}]|\\\\:;'<,>./? \""
+              "value": "\f\n\r\t\u000b~`!@#$%^&*()-+={[}]|\\:;'<,>./? "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 416,
               "end": 419,
-              "value": "\"",
-              "raw": "'\"'"
+              "value": "\""
             }
           }
         }
@@ -62,7 +60,6 @@
             "start": 436,
             "end": 441,
             "value": {},
-            "raw": "/\\W/g",
             "regex": {
               "pattern": "\\W",
               "flags": "g"
@@ -91,8 +88,7 @@
             "type": "Literal",
             "start": 451,
             "end": 452,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -231,8 +227,7 @@
             "type": "Literal",
             "start": 539,
             "end": 602,
-            "value": "The value of non_w.length is expected to equal the value of k",
-            "raw": "'The value of non_w.length is expected to equal the value of k'"
+            "value": "The value of non_w.length is expected to equal the value of k"
           }
         ],
         "optional": false
@@ -257,8 +252,7 @@
             "type": "Literal",
             "start": 618,
             "end": 684,
-            "value": "_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-            "raw": "\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\""
+            "value": "_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
           }
         }
       ],
@@ -305,7 +299,6 @@
                 "start": 707,
                 "end": 711,
                 "value": {},
-                "raw": "/\\W/",
                 "regex": {
                   "pattern": "\\W",
                   "flags": ""
@@ -341,8 +334,7 @@
             "type": "Literal",
             "start": 735,
             "end": 832,
-            "value": "/W/.exec(\"\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\") must return null",
-            "raw": "'/W/.exec(\"\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\") must return null'"
+            "value": "/W/.exec(\"\"_0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\") must return null"
           }
         ],
         "optional": false

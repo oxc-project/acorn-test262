@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 276,
                 "end": 281,
-                "value": "UTC",
-                "raw": "\"UTC\""
+                "value": "UTC"
               },
               {
                 "type": "Literal",
                 "start": 287,
                 "end": 292,
-                "value": "utc",
-                "raw": "\"utc\""
+                "value": "utc"
               }
             ]
           }
@@ -140,8 +138,7 @@
                                 "type": "Literal",
                                 "start": 491,
                                 "end": 498,
-                                "value": "de-de",
-                                "raw": "\"de-de\""
+                                "value": "de-de"
                               }
                             ]
                           },
@@ -284,8 +281,7 @@
                             "type": "Literal",
                             "start": 596,
                             "end": 613,
-                            "value": "Time zone name ",
-                            "raw": "\"Time zone name \""
+                            "value": "Time zone name "
                           },
                           "operator": "+",
                           "right": {
@@ -300,8 +296,7 @@
                           "type": "Literal",
                           "start": 623,
                           "end": 653,
-                          "value": " was not correctly accepted.",
-                          "raw": "\" was not correctly accepted.\""
+                          "value": " was not correctly accepted."
                         }
                       }
                     ],

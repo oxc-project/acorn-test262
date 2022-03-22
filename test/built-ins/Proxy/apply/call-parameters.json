@@ -107,8 +107,7 @@
                         "type": "Literal",
                         "start": 639,
                         "end": 668,
-                        "value": "target should not be called",
-                        "raw": "'target should not be called'"
+                        "value": "target should not be called"
                       }
                     ]
                   }
@@ -395,15 +394,13 @@
             "type": "Literal",
             "start": 875,
             "end": 876,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 878,
             "end": 879,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -453,8 +450,7 @@
             "type": "Literal",
             "start": 919,
             "end": 955,
-            "value": "trap context is the handler object",
-            "raw": "\"trap context is the handler object\""
+            "value": "trap context is the handler object"
           }
         ],
         "optional": false
@@ -504,8 +500,7 @@
             "type": "Literal",
             "start": 992,
             "end": 1030,
-            "value": "first parameter is the target object",
-            "raw": "\"first parameter is the target object\""
+            "value": "first parameter is the target object"
           }
         ],
         "optional": false
@@ -555,8 +550,7 @@
             "type": "Literal",
             "start": 1069,
             "end": 1107,
-            "value": "second parameter is the call context",
-            "raw": "\"second parameter is the call context\""
+            "value": "second parameter is the call context"
           }
         ],
         "optional": false
@@ -613,15 +607,13 @@
             "type": "Literal",
             "start": 1141,
             "end": 1142,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1144,
             "end": 1188,
-            "value": "arguments list contains all call arguments",
-            "raw": "\"arguments list contains all call arguments\""
+            "value": "arguments list contains all call arguments"
           }
         ],
         "optional": false
@@ -669,8 +661,7 @@
               "type": "Literal",
               "start": 1214,
               "end": 1215,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -679,15 +670,13 @@
             "type": "Literal",
             "start": 1218,
             "end": 1219,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1221,
             "end": 1261,
-            "value": "arguments list has first call argument",
-            "raw": "\"arguments list has first call argument\""
+            "value": "arguments list has first call argument"
           }
         ],
         "optional": false
@@ -735,8 +724,7 @@
               "type": "Literal",
               "start": 1287,
               "end": 1288,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -745,15 +733,13 @@
             "type": "Literal",
             "start": 1291,
             "end": 1292,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1294,
             "end": 1335,
-            "value": "arguments list has second call argument",
-            "raw": "\"arguments list has second call argument\""
+            "value": "arguments list has second call argument"
           }
         ],
         "optional": false

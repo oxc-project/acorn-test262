@@ -46,36 +46,31 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 350,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 354,
-                "value": 70,
-                "raw": "70"
+                "value": 70
               },
               {
                 "type": "Literal",
                 "start": 356,
                 "end": 357,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 359,
                 "end": 360,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 363,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }

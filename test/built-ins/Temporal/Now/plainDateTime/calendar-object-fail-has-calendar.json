@@ -99,8 +99,7 @@
                                 "type": "Literal",
                                 "start": 384,
                                 "end": 394,
-                                "value": "calendar",
-                                "raw": "'calendar'"
+                                "value": "calendar"
                               }
                             },
                             "consequent": {
@@ -248,8 +247,7 @@
             "type": "Literal",
             "start": 530,
             "end": 600,
-            "value": "Temporal.Now.plainDateTime(calendar) throws a Test262Error exception",
-            "raw": "'Temporal.Now.plainDateTime(calendar) throws a Test262Error exception'"
+            "value": "Temporal.Now.plainDateTime(calendar) throws a Test262Error exception"
           }
         ],
         "optional": false

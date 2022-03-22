@@ -44,8 +44,7 @@
               "type": "Literal",
               "start": 336,
               "end": 337,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         },
@@ -82,8 +81,7 @@
                   "type": "Literal",
                   "start": 377,
                   "end": 417,
-                  "value": "#1: (new Boolean(true) != 1) === false",
-                  "raw": "'#1: (new Boolean(true) != 1) === false'"
+                  "value": "#1: (new Boolean(true) != 1) === false"
                 }
               ]
             }
@@ -129,8 +127,7 @@
                     "type": "Literal",
                     "start": 450,
                     "end": 451,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -146,8 +143,7 @@
                 "type": "Literal",
                 "start": 457,
                 "end": 458,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -185,8 +181,7 @@
                   "type": "Literal",
                   "start": 498,
                   "end": 536,
-                  "value": "#2: (new Number(-1) != -1) === false",
-                  "raw": "'#2: (new Number(-1) != -1) === false'"
+                  "value": "#2: (new Number(-1) != -1) === false"
                 }
               ]
             }
@@ -226,8 +221,7 @@
                   "type": "Literal",
                   "start": 568,
                   "end": 572,
-                  "value": "-1",
-                  "raw": "\"-1\""
+                  "value": "-1"
                 }
               ]
             },
@@ -242,8 +236,7 @@
                 "type": "Literal",
                 "start": 578,
                 "end": 579,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -281,8 +274,7 @@
                   "type": "Literal",
                   "start": 619,
                   "end": 659,
-                  "value": "#3: (new String(\"-1\") != -1) === false",
-                  "raw": "'#3: (new String(\"-1\") != -1) === false'"
+                  "value": "#3: (new String(\"-1\") != -1) === false"
                 }
               ]
             }

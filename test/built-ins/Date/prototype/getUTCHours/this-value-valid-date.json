@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 353,
             "end": 366,
-            "value": 1467817200000,
-            "raw": "1467817200000"
+            "value": 1467817200000
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 381,
             "end": 394,
-            "value": 1467846000000,
-            "raw": "1467846000000"
+            "value": 1467846000000
           }
         }
       ],
@@ -82,16 +80,14 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 411,
-                "value": 60,
-                "raw": "60"
+                "value": 60
               },
               "operator": "*",
               "right": {
                 "type": "Literal",
                 "start": 414,
                 "end": 416,
-                "value": 60,
-                "raw": "60"
+                "value": 60
               }
             },
             "operator": "*",
@@ -99,8 +95,7 @@
               "type": "Literal",
               "start": 419,
               "end": 423,
-              "value": 1000,
-              "raw": "1000"
+              "value": 1000
             }
           }
         }
@@ -178,15 +173,13 @@
             "type": "Literal",
             "start": 475,
             "end": 477,
-            "value": 15,
-            "raw": "15"
+            "value": 15
           },
           {
             "type": "Literal",
             "start": 479,
             "end": 498,
-            "value": "first millisecond",
-            "raw": "'first millisecond'"
+            "value": "first millisecond"
           }
         ],
         "optional": false
@@ -254,8 +247,7 @@
                       "type": "Literal",
                       "start": 539,
                       "end": 540,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -276,15 +268,13 @@
             "type": "Literal",
             "start": 557,
             "end": 559,
-            "value": 14,
-            "raw": "14"
+            "value": 14
           },
           {
             "type": "Literal",
             "start": 561,
             "end": 583,
-            "value": "previous millisecond",
-            "raw": "'previous millisecond'"
+            "value": "previous millisecond"
           }
         ],
         "optional": false
@@ -364,8 +354,7 @@
                       "type": "Literal",
                       "start": 634,
                       "end": 635,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -386,15 +375,13 @@
             "type": "Literal",
             "start": 652,
             "end": 654,
-            "value": 15,
-            "raw": "15"
+            "value": 15
           },
           {
             "type": "Literal",
             "start": 656,
             "end": 675,
-            "value": "final millisecond",
-            "raw": "'final millisecond'"
+            "value": "final millisecond"
           }
         ],
         "optional": false
@@ -483,15 +470,13 @@
             "type": "Literal",
             "start": 740,
             "end": 742,
-            "value": 16,
-            "raw": "16"
+            "value": 16
           },
           {
             "type": "Literal",
             "start": 744,
             "end": 768,
-            "value": "subsequent millisecond",
-            "raw": "'subsequent millisecond'"
+            "value": "subsequent millisecond"
           }
         ],
         "optional": false
@@ -568,15 +553,13 @@
             "type": "Literal",
             "start": 825,
             "end": 827,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           },
           {
             "type": "Literal",
             "start": 829,
             "end": 863,
-            "value": "first millisecond (day boundary)",
-            "raw": "'first millisecond (day boundary)'"
+            "value": "first millisecond (day boundary)"
           }
         ],
         "optional": false
@@ -644,8 +627,7 @@
                       "type": "Literal",
                       "start": 905,
                       "end": 906,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -666,15 +648,13 @@
             "type": "Literal",
             "start": 923,
             "end": 925,
-            "value": 22,
-            "raw": "22"
+            "value": 22
           },
           {
             "type": "Literal",
             "start": 927,
             "end": 964,
-            "value": "previous millisecond (day boundary)",
-            "raw": "'previous millisecond (day boundary)'"
+            "value": "previous millisecond (day boundary)"
           }
         ],
         "optional": false
@@ -754,8 +734,7 @@
                       "type": "Literal",
                       "start": 1015,
                       "end": 1016,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -776,15 +755,13 @@
             "type": "Literal",
             "start": 1035,
             "end": 1037,
-            "value": 23,
-            "raw": "23"
+            "value": 23
           },
           {
             "type": "Literal",
             "start": 1041,
             "end": 1075,
-            "value": "final millisecond (day boundary)",
-            "raw": "'final millisecond (day boundary)'"
+            "value": "final millisecond (day boundary)"
           }
         ],
         "optional": false
@@ -873,15 +850,13 @@
             "type": "Literal",
             "start": 1142,
             "end": 1143,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1147,
             "end": 1186,
-            "value": "subsequent millisecond (day boundary)",
-            "raw": "'subsequent millisecond (day boundary)'"
+            "value": "subsequent millisecond (day boundary)"
           }
         ],
         "optional": false

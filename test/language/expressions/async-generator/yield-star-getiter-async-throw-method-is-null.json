@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1230,
             "end": 1231,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1250,
             "end": 1251,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -183,8 +181,7 @@
                                 "type": "Literal",
                                 "start": 1376,
                                 "end": 1377,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               },
                               "kind": "init"
                             },
@@ -265,8 +262,7 @@
                             "type": "Literal",
                             "start": 1431,
                             "end": 1432,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -333,8 +329,7 @@
                             "type": "Literal",
                             "start": 1491,
                             "end": 1492,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -588,8 +583,7 @@
                               "type": "Literal",
                               "start": 1726,
                               "end": 1761,
-                              "value": "Promise should be rejected, got: ",
-                              "raw": "\"Promise should be rejected, got: \""
+                              "value": "Promise should be rejected, got: "
                             },
                             "operator": "+",
                             "right": {
@@ -734,8 +728,7 @@
                             "type": "Literal",
                             "start": 1876,
                             "end": 1877,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -779,8 +772,7 @@
                             "type": "Literal",
                             "start": 1911,
                             "end": 1912,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false

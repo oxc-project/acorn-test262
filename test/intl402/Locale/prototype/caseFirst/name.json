@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 1295,
                 "end": 1306,
-                "value": "caseFirst",
-                "raw": "\"caseFirst\""
+                "value": "caseFirst"
               }
             ],
             "optional": false
@@ -178,8 +177,7 @@
                   "type": "Literal",
                   "start": 1395,
                   "end": 1401,
-                  "value": "name",
-                  "raw": "\"name\""
+                  "value": "name"
                 },
                 {
                   "type": "ObjectExpression",
@@ -203,8 +201,7 @@
                         "type": "Literal",
                         "start": 1416,
                         "end": 1431,
-                        "value": "get caseFirst",
-                        "raw": "\"get caseFirst\""
+                        "value": "get caseFirst"
                       },
                       "kind": "init"
                     },

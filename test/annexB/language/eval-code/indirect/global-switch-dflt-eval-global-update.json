@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 1106,
                 "end": 1107,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -53,16 +52,14 @@
                   "type": "Literal",
                   "start": 1117,
                   "end": 1131,
-                  "value": "switch (1) {",
-                  "raw": "'switch (1) {'"
+                  "value": "switch (1) {"
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 1136,
                   "end": 1148,
-                  "value": "  default:",
-                  "raw": "'  default:'"
+                  "value": "  default:"
                 }
               },
               "operator": "+",
@@ -70,8 +67,7 @@
                 "type": "Literal",
                 "start": 1153,
                 "end": 1197,
-                "value": "    function f() { return \"declaration\"; }",
-                "raw": "'    function f() { return \"declaration\"; }'"
+                "value": "    function f() { return \"declaration\"; }"
               }
             },
             "operator": "+",
@@ -79,8 +75,7 @@
               "type": "Literal",
               "start": 1202,
               "end": 1289,
-              "value": "}  assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"declaration\");",
-              "raw": "'}\\\n  assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'"
+              "value": "}  assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"declaration\");"
             }
           }
         ],

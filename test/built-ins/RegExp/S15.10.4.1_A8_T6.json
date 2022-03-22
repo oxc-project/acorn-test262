@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 356,
                     "end": 446,
-                    "value": "#1.1: new RegExp({toString:function(){throw \"intostr\";}}, \"i\") throw \"intostr\". Actual: ",
-                    "raw": "'#1.1: new RegExp({toString:function(){throw \"intostr\";}}, \"i\") throw \"intostr\". Actual: '"
+                    "value": "#1.1: new RegExp({toString:function(){throw \"intostr\";}}, \"i\") throw \"intostr\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -94,8 +93,7 @@
                                         "type": "Literal",
                                         "start": 488,
                                         "end": 497,
-                                        "value": "intostr",
-                                        "raw": "\"intostr\""
+                                        "value": "intostr"
                                       }
                                     }
                                   ]
@@ -109,8 +107,7 @@
                           "type": "Literal",
                           "start": 502,
                           "end": 505,
-                          "value": "i",
-                          "raw": "\"i\""
+                          "value": "i"
                         }
                       ]
                     }
@@ -174,15 +171,13 @@
                     "type": "Literal",
                     "start": 546,
                     "end": 555,
-                    "value": "intostr",
-                    "raw": "\"intostr\""
+                    "value": "intostr"
                   },
                   {
                     "type": "Literal",
                     "start": 557,
                     "end": 601,
-                    "value": "The value of e is expected to be \"intostr\"",
-                    "raw": "'The value of e is expected to be \"intostr\"'"
+                    "value": "The value of e is expected to be \"intostr\""
                   }
                 ],
                 "optional": false

@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 828,
             "end": 834,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 847,
                   "end": 852,
-                  "value": "add",
-                  "raw": "\"add\""
+                  "value": "add"
                 },
                 "kind": "init"
               },

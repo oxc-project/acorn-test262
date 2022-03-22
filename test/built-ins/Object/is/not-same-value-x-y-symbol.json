@@ -95,8 +95,7 @@
             "type": "Literal",
             "start": 449,
             "end": 498,
-            "value": "`Object.is(Symbol(), Symbol())` returns `false`",
-            "raw": "\"`Object.is(Symbol(), Symbol())` returns `false`\""
+            "value": "`Object.is(Symbol(), Symbol())` returns `false`"
           }
         ],
         "optional": false
@@ -169,8 +168,7 @@
                     "type": "Literal",
                     "start": 539,
                     "end": 552,
-                    "value": "description",
-                    "raw": "'description'"
+                    "value": "description"
                   }
                 ],
                 "optional": false
@@ -190,8 +188,7 @@
                     "type": "Literal",
                     "start": 562,
                     "end": 575,
-                    "value": "description",
-                    "raw": "'description'"
+                    "value": "description"
                   }
                 ],
                 "optional": false
@@ -210,8 +207,7 @@
             "type": "Literal",
             "start": 590,
             "end": 665,
-            "value": "`Object.is(Symbol('description'), Symbol('description'))` returns `false`",
-            "raw": "\"`Object.is(Symbol('description'), Symbol('description'))` returns `false`\""
+            "value": "`Object.is(Symbol('description'), Symbol('description'))` returns `false`"
           }
         ],
         "optional": false

@@ -53,15 +53,13 @@
               "type": "Literal",
               "start": 414,
               "end": 420,
-              "value": "name",
-              "raw": "\"name\""
+              "value": "name"
             },
             {
               "type": "Literal",
               "start": 421,
               "end": 438,
-              "value": "this.name=name;",
-              "raw": "\"this.name=name;\""
+              "value": "this.name=name;"
             }
           ],
           "optional": false
@@ -133,8 +131,7 @@
                   "type": "Literal",
                   "start": 520,
                   "end": 687,
-                  "value": "#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false",
-                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'"
+                  "value": "#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false"
                 }
               ]
             }

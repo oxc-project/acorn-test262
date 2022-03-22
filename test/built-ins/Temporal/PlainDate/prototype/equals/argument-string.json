@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 288,
                 "end": 292,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 294,
                 "end": 295,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 297,
                 "end": 298,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -125,8 +122,7 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 346,
-                "value": "2000-05-02",
-                "raw": "\"2000-05-02\""
+                "value": "2000-05-02"
               }
             ],
             "optional": false
@@ -142,8 +138,7 @@
             "type": "Literal",
             "start": 355,
             "end": 366,
-            "value": "same date",
-            "raw": "\"same date\""
+            "value": "same date"
           }
         ],
         "optional": false
@@ -205,8 +200,7 @@
                 "type": "Literal",
                 "start": 402,
                 "end": 414,
-                "value": "2000-05-04",
-                "raw": "\"2000-05-04\""
+                "value": "2000-05-04"
               }
             ],
             "optional": false
@@ -222,8 +216,7 @@
             "type": "Literal",
             "start": 424,
             "end": 440,
-            "value": "different date",
-            "raw": "\"different date\""
+            "value": "different date"
           }
         ],
         "optional": false
@@ -285,8 +278,7 @@
                           "type": "Literal",
                           "start": 483,
                           "end": 486,
-                          "value": "a",
-                          "raw": "\"a\""
+                          "value": "a"
                         }
                       }
                     ]
@@ -382,8 +374,7 @@
                 "type": "Literal",
                 "start": 548,
                 "end": 560,
-                "value": "2000-05-02",
-                "raw": "\"2000-05-02\""
+                "value": "2000-05-02"
               }
             ],
             "optional": false
@@ -399,8 +390,7 @@
             "type": "Literal",
             "start": 570,
             "end": 590,
-            "value": "different calendar",
-            "raw": "\"different calendar\""
+            "value": "different calendar"
           }
         ],
         "optional": false

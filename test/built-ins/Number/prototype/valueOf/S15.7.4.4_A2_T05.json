@@ -49,8 +49,7 @@
                         "type": "Literal",
                         "start": 456,
                         "end": 457,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "kind": "init"
                     }
@@ -186,8 +185,7 @@
                   "type": "Literal",
                   "start": 554,
                   "end": 630,
-                  "value": "#1: Number.prototype.valueOf on not a Number object should throw TypeError",
-                  "raw": "'#1: Number.prototype.valueOf on not a Number object should throw TypeError'"
+                  "value": "#1: Number.prototype.valueOf on not a Number object should throw TypeError"
                 }
               ]
             }
@@ -246,8 +244,7 @@
                     "type": "Literal",
                     "start": 680,
                     "end": 754,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                   }
                 ],
                 "optional": false
@@ -304,8 +301,7 @@
                         "type": "Literal",
                         "start": 786,
                         "end": 787,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "kind": "init"
                     }
@@ -441,8 +437,7 @@
                   "type": "Literal",
                   "start": 888,
                   "end": 964,
-                  "value": "#2: Number.prototype.valueOf on not a Number object should throw TypeError",
-                  "raw": "'#2: Number.prototype.valueOf on not a Number object should throw TypeError'"
+                  "value": "#2: Number.prototype.valueOf on not a Number object should throw TypeError"
                 }
               ]
             }
@@ -501,8 +496,7 @@
                     "type": "Literal",
                     "start": 1014,
                     "end": 1088,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                   }
                 ],
                 "optional": false

@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 422,
                             "end": 428,
-                            "value": "join",
-                            "raw": "\"join\""
+                            "value": "join"
                           }
                         ],
                         "optional": false

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 735,
             "end": 781,
-            "value": "isConstructor(Math.random) must return false",
-            "raw": "'isConstructor(Math.random) must return false'"
+            "value": "isConstructor(Math.random) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 842,
             "end": 880,
-            "value": "`new Math.random()` throws TypeError",
-            "raw": "'`new Math.random()` throws TypeError'"
+            "value": "`new Math.random()` throws TypeError"
           }
         ],
         "optional": false

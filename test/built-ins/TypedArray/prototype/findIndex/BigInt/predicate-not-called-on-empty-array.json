@@ -265,8 +265,7 @@
                         "type": "Literal",
                         "start": 1147,
                         "end": 1172,
-                        "value": "does not call predicate",
-                        "raw": "\"does not call predicate\""
+                        "value": "does not call predicate"
                       }
                     ],
                     "optional": false
@@ -316,16 +315,14 @@
                           "type": "Literal",
                           "start": 1211,
                           "end": 1212,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 1218,
                         "end": 1251,
-                        "value": "returns -1 on an empty instance",
-                        "raw": "\"returns -1 on an empty instance\""
+                        "value": "returns -1 on an empty instance"
                       }
                     ],
                     "optional": false

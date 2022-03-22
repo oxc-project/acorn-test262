@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 520,
             "end": 527,
-            "value": "parse",
-            "raw": "'parse'"
+            "value": "parse"
           },
           {
             "type": "ObjectExpression",

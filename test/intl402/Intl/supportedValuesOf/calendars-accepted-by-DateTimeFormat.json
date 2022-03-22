@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 968,
                 "end": 978,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               }
             ],
             "optional": false
@@ -135,8 +134,7 @@
                       "type": "Literal",
                       "start": 1052,
                       "end": 1056,
-                      "value": "en",
-                      "raw": "\"en\""
+                      "value": "en"
                     },
                     {
                       "type": "ObjectExpression",
@@ -373,8 +371,7 @@
                       "type": "Literal",
                       "start": 1276,
                       "end": 1280,
-                      "value": "en",
-                      "raw": "\"en\""
+                      "value": "en"
                     },
                     {
                       "type": "ObjectExpression",

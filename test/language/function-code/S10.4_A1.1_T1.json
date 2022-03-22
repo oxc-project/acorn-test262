@@ -108,8 +108,7 @@
                       "type": "Literal",
                       "start": 327,
                       "end": 328,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 }
@@ -139,8 +138,7 @@
                       "type": "Literal",
                       "start": 349,
                       "end": 350,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -250,8 +248,7 @@
               "type": "Literal",
               "start": 402,
               "end": 403,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         }
@@ -280,8 +277,7 @@
                   "type": "Literal",
                   "start": 432,
                   "end": 487,
-                  "value": "#1: Sequenced function calls shares execution context",
-                  "raw": "\"#1: Sequenced function calls shares execution context\""
+                  "value": "#1: Sequenced function calls shares execution context"
                 }
               ]
             }

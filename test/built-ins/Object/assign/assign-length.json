@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 560,
             "end": 561,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 618,
-            "value": "The length property of the assign method should be 2.",
-            "raw": "\"The length property of the assign method should be 2.\""
+            "value": "The length property of the assign method should be 2."
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 658,
             "end": 666,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 702,
             "end": 710,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 747,
             "end": 755,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         ],
         "optional": false

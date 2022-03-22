@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 456,
                 "end": 457,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 459,
                 "end": 460,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -81,8 +79,7 @@
             "type": "Literal",
             "start": 494,
             "end": 502,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -106,8 +103,7 @@
                   "type": "Literal",
                   "start": 515,
                   "end": 516,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -168,15 +164,13 @@
             "type": "Literal",
             "start": 554,
             "end": 555,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 572,
-            "value": "arrObj.length",
-            "raw": "'arrObj.length'"
+            "value": "arrObj.length"
           }
         ],
         "optional": false
@@ -238,8 +232,7 @@
                 "type": "Literal",
                 "start": 614,
                 "end": 617,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ],
             "optional": false
@@ -255,8 +248,7 @@
             "type": "Literal",
             "start": 627,
             "end": 655,
-            "value": "arrObj.hasOwnProperty(\"1\")",
-            "raw": "'arrObj.hasOwnProperty(\"1\")'"
+            "value": "arrObj.hasOwnProperty(\"1\")"
           }
         ],
         "optional": false

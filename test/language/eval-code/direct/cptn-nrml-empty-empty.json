@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 329,
               "end": 332,
-              "value": ";",
-              "raw": "\";\""
+              "value": ";"
             }
           ],
           "optional": false
@@ -68,8 +67,7 @@
                     "type": "Literal",
                     "start": 376,
                     "end": 415,
-                    "value": "#1: eval(\";\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\";\") === undefined. Actual: '"
+                    "value": "#1: eval(\";\") === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -91,8 +89,7 @@
                           "type": "Literal",
                           "start": 424,
                           "end": 427,
-                          "value": ";",
-                          "raw": "\";\""
+                          "value": ";"
                         }
                       ],
                       "optional": false

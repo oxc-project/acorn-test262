@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 422,
                             "end": 428,
-                            "value": "fill",
-                            "raw": "\"fill\""
+                            "value": "fill"
                           }
                         ],
                         "optional": false

@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 531,
                     "end": 617,
-                    "value": "#1.1: /[a-z]/.exec({toString:function(){throw \"intostr\"}}) throw \"intostr\". Actual: ",
-                    "raw": "'#1.1: /[a-z]/.exec({toString:function(){throw \"intostr\"}}) throw \"intostr\". Actual: '"
+                    "value": "#1.1: /[a-z]/.exec({toString:function(){throw \"intostr\"}}) throw \"intostr\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -56,7 +55,6 @@
                           "start": 621,
                           "end": 628,
                           "value": {},
-                          "raw": "/[a-z]/",
                           "regex": {
                             "pattern": "[a-z]",
                             "flags": ""
@@ -112,8 +110,7 @@
                                         "type": "Literal",
                                         "start": 661,
                                         "end": 670,
-                                        "value": "intostr",
-                                        "raw": "\"intostr\""
+                                        "value": "intostr"
                                       }
                                     }
                                   ]
@@ -186,15 +183,13 @@
                     "type": "Literal",
                     "start": 713,
                     "end": 722,
-                    "value": "intostr",
-                    "raw": "\"intostr\""
+                    "value": "intostr"
                   },
                   {
                     "type": "Literal",
                     "start": 724,
                     "end": 768,
-                    "value": "The value of e is expected to be \"intostr\"",
-                    "raw": "'The value of e is expected to be \"intostr\"'"
+                    "value": "The value of e is expected to be \"intostr\""
                   }
                 ],
                 "optional": false

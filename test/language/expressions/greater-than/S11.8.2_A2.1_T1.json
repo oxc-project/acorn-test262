@@ -19,16 +19,14 @@
             "type": "Literal",
             "start": 282,
             "end": 283,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "operator": ">",
           "right": {
             "type": "Literal",
             "start": 286,
             "end": 287,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "operator": "!==",
@@ -64,8 +62,7 @@
                   "type": "Literal",
                   "start": 325,
                   "end": 345,
-                  "value": "#1: 2 > 1 === true",
-                  "raw": "'#1: 2 > 1 === true'"
+                  "value": "#1: 2 > 1 === true"
                 }
               ]
             }
@@ -93,8 +90,7 @@
             "type": "Literal",
             "start": 369,
             "end": 370,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -123,8 +119,7 @@
             "type": "Literal",
             "start": 380,
             "end": 381,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "operator": "!==",
@@ -160,8 +155,7 @@
                   "type": "Literal",
                   "start": 419,
                   "end": 450,
-                  "value": "#2: var x = 2; x > 1 === true",
-                  "raw": "'#2: var x = 2; x > 1 === true'"
+                  "value": "#2: var x = 2; x > 1 === true"
                 }
               ]
             }
@@ -189,8 +183,7 @@
             "type": "Literal",
             "start": 474,
             "end": 475,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -212,8 +205,7 @@
             "type": "Literal",
             "start": 481,
             "end": 482,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "operator": ">",
           "right": {
@@ -256,8 +248,7 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 555,
-                  "value": "#3: var y = 1; 2 > y === true",
-                  "raw": "'#3: var y = 1; 2 > y === true'"
+                  "value": "#3: var y = 1; 2 > y === true"
                 }
               ]
             }
@@ -285,8 +276,7 @@
             "type": "Literal",
             "start": 579,
             "end": 580,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -311,8 +301,7 @@
             "type": "Literal",
             "start": 590,
             "end": 591,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -377,8 +366,7 @@
                   "type": "Literal",
                   "start": 640,
                   "end": 682,
-                  "value": "#4: var x = 2; var y = 1; x > y === true",
-                  "raw": "'#4: var x = 2; var y = 1; x > y === true'"
+                  "value": "#4: var x = 2; var y = 1; x > y === true"
                 }
               ]
             }
@@ -481,8 +469,7 @@
           "type": "Literal",
           "start": 769,
           "end": 770,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -518,8 +505,7 @@
           "type": "Literal",
           "start": 787,
           "end": 788,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -608,8 +594,7 @@
                   "type": "Literal",
                   "start": 859,
                   "end": 993,
-                  "value": "#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = 2; objecty.prop = 1; objectx.prop > objecty.prop === true",
-                  "raw": "'#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = 2; objecty.prop = 1; objectx.prop > objecty.prop === true'"
+                  "value": "#5: var objectx = new Object(); var objecty = new Object(); objectx.prop = 2; objecty.prop = 1; objectx.prop > objecty.prop === true"
                 }
               ]
             }

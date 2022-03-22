@@ -67,8 +67,7 @@
                     "type": "Literal",
                     "start": 373,
                     "end": 426,
-                    "value": "#1.1: new Boolean(true)() throw TypeError. Actual: ",
-                    "raw": "'#1.1: new Boolean(true)() throw TypeError. Actual: '"
+                    "value": "#1.1: new Boolean(true)() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -192,8 +191,7 @@
                             "type": "Literal",
                             "start": 539,
                             "end": 592,
-                            "value": "#1.2: new Boolean(true)() throw TypeError. Actual: ",
-                            "raw": "'#1.2: new Boolean(true)() throw TypeError. Actual: '"
+                            "value": "#1.2: new Boolean(true)() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -309,8 +307,7 @@
                     "type": "Literal",
                     "start": 687,
                     "end": 751,
-                    "value": "#2.1: var x = new Boolean(true); x() throw TypeError. Actual: ",
-                    "raw": "'#2.1: var x = new Boolean(true); x() throw TypeError. Actual: '"
+                    "value": "#2.1: var x = new Boolean(true); x() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -420,8 +417,7 @@
                             "type": "Literal",
                             "start": 847,
                             "end": 911,
-                            "value": "#2.2: var x = new Boolean(true); x() throw TypeError. Actual: ",
-                            "raw": "'#2.2: var x = new Boolean(true); x() throw TypeError. Actual: '"
+                            "value": "#2.2: var x = new Boolean(true); x() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 367,
-                  "value": "getDay",
-                  "raw": "'getDay'"
+                  "value": "getDay"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 372,
             "end": 458,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('getDay') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getDay\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getDay') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 520,
                   "end": 528,
-                  "value": "getDay",
-                  "raw": "\"getDay\""
+                  "value": "getDay"
                 },
                 {
                   "type": "Literal",
                   "start": 530,
                   "end": 562,
-                  "value": "The value of x is not \"getDay\"",
-                  "raw": "'The value of x is not \"getDay\"'"
+                  "value": "The value of x is not \"getDay\""
                 }
               ],
               "optional": false

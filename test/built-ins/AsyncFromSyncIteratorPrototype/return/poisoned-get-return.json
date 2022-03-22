@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 651,
                 "end": 662,
-                "value": "Catch me.",
-                "raw": "\"Catch me.\""
+                "value": "Catch me."
               }
             ]
           }
@@ -166,8 +165,7 @@
                                               "type": "Literal",
                                               "start": 754,
                                               "end": 755,
-                                              "value": 1,
-                                              "raw": "1"
+                                              "value": 1
                                             },
                                             "kind": "init"
                                           },
@@ -504,8 +502,7 @@
                                               "type": "Literal",
                                               "start": 1029,
                                               "end": 1064,
-                                              "value": "Promise should be rejected, got: ",
-                                              "raw": "\"Promise should be rejected, got: \""
+                                              "value": "Promise should be rejected, got: "
                                             },
                                             "operator": "+",
                                             "right": {
@@ -599,8 +596,7 @@
                                             "type": "Literal",
                                             "start": 1151,
                                             "end": 1197,
-                                            "value": "Promise should be rejected with thrown error",
-                                            "raw": "\"Promise should be rejected with thrown error\""
+                                            "value": "Promise should be rejected with thrown error"
                                           }
                                         ],
                                         "optional": false
@@ -771,8 +767,7 @@
                                                             "type": "Literal",
                                                             "start": 1284,
                                                             "end": 1311,
-                                                            "value": "the iterator is completed",
-                                                            "raw": "'the iterator is completed'"
+                                                            "value": "the iterator is completed"
                                                           }
                                                         ],
                                                         "optional": false
@@ -822,8 +817,7 @@
                                                             "type": "Literal",
                                                             "start": 1357,
                                                             "end": 1377,
-                                                            "value": "value is undefined",
-                                                            "raw": "'value is undefined'"
+                                                            "value": "value is undefined"
                                                           }
                                                         ],
                                                         "optional": false

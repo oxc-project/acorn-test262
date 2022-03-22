@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 537,
             "end": 543,
-            "value": "Math",
-            "raw": "'Math'"
+            "value": "Math"
           }
         ],
         "optional": false

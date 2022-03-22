@@ -73,8 +73,7 @@
                 "type": "Literal",
                 "start": 773,
                 "end": 778,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false

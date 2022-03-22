@@ -70,8 +70,7 @@
                 "type": "Literal",
                 "start": 375,
                 "end": 388,
-                "value": "toPrecision",
-                "raw": "\"toPrecision\""
+                "value": "toPrecision"
               }
             ],
             "optional": false
@@ -87,8 +86,7 @@
             "type": "Literal",
             "start": 402,
             "end": 466,
-            "value": "(new Number()).hasOwnProperty(\"toPrecision\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"toPrecision\") must return false'"
+            "value": "(new Number()).hasOwnProperty(\"toPrecision\") must return false"
           }
         ],
         "optional": false
@@ -188,8 +186,7 @@
             "type": "Literal",
             "start": 553,
             "end": 657,
-            "value": "The value of (new Number()).toPrecision is expected to equal the value of Number.prototype.toPrecision",
-            "raw": "'The value of (new Number()).toPrecision is expected to equal the value of Number.prototype.toPrecision'"
+            "value": "The value of (new Number()).toPrecision is expected to equal the value of Number.prototype.toPrecision"
           }
         ],
         "optional": false

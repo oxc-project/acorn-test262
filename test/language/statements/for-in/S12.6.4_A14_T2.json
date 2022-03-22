@@ -82,8 +82,7 @@
                         "type": "Literal",
                         "start": 437,
                         "end": 438,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "kind": "init"
                     }
@@ -153,8 +152,7 @@
           "type": "Literal",
           "start": 662,
           "end": 665,
-          "value": "a",
-          "raw": "\"a\""
+          "value": "a"
         }
       },
       "consequent": {
@@ -181,8 +179,7 @@
                   "type": "Literal",
                   "start": 693,
                   "end": 753,
-                  "value": "#2: function expession inside of for-in expression allowed",
-                  "raw": "'#2: function expession inside of for-in expression allowed'"
+                  "value": "#2: function expession inside of for-in expression allowed"
                 }
               ]
             }

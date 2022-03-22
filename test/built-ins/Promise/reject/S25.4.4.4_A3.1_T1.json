@@ -123,8 +123,7 @@
                         "type": "Literal",
                         "start": 345,
                         "end": 346,
-                        "value": 4,
-                        "raw": "4"
+                        "value": 4
                       }
                     ],
                     "optional": false

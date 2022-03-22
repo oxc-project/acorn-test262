@@ -148,8 +148,7 @@
                     "type": "Literal",
                     "start": 407,
                     "end": 495,
-                    "value": "#1: var date = new Date(); date + date === date.toString() + date.toString(). Actual: ",
-                    "raw": "'#1: var date = new Date(); date + date === date.toString() + date.toString(). Actual: '"
+                    "value": "#1: var date = new Date(); date + date === date.toString() + date.toString(). Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -237,8 +236,7 @@
             "type": "Literal",
             "start": 563,
             "end": 564,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         "operator": "!==",
@@ -277,8 +275,7 @@
             "type": "Literal",
             "start": 587,
             "end": 590,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         }
       },
@@ -310,8 +307,7 @@
                     "type": "Literal",
                     "start": 619,
                     "end": 692,
-                    "value": "#2: var date = new Date(); date + 0 === date.toString() + \"0\". Actual: ",
-                    "raw": "'#2: var date = new Date(); date + 0 === date.toString() + \"0\". Actual: '"
+                    "value": "#2: var date = new Date(); date + 0 === date.toString() + \"0\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -333,8 +329,7 @@
                         "type": "Literal",
                         "start": 703,
                         "end": 704,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   }
@@ -440,8 +435,7 @@
             "type": "Literal",
             "start": 784,
             "end": 790,
-            "value": "true",
-            "raw": "\"true\""
+            "value": "true"
           }
         }
       },
@@ -473,8 +467,7 @@
                     "type": "Literal",
                     "start": 819,
                     "end": 898,
-                    "value": "#3: var date = new Date(); date + true === date.toString() + \"true\". Actual: ",
-                    "raw": "'#3: var date = new Date(); date + true === date.toString() + \"true\". Actual: '"
+                    "value": "#3: var date = new Date(); date + true === date.toString() + \"true\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -608,8 +601,7 @@
             "type": "Literal",
             "start": 1001,
             "end": 1018,
-            "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "value": "[object Object]"
           }
         }
       },
@@ -641,8 +633,7 @@
                     "type": "Literal",
                     "start": 1047,
                     "end": 1145,
-                    "value": "#4: var date = new Date(); date + new Object() === date.toString() + \"[object Object]\". Actual: ",
-                    "raw": "'#4: var date = new Date(); date + new Object() === date.toString() + \"[object Object]\". Actual: '"
+                    "value": "#4: var date = new Date(); date + new Object() === date.toString() + \"[object Object]\". Actual: "
                   },
                   "operator": "+",
                   "right": {

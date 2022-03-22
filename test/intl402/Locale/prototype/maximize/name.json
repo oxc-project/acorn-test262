@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 1125,
             "end": 1131,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 1144,
                   "end": 1154,
-                  "value": "maximize",
-                  "raw": "'maximize'"
+                  "value": "maximize"
                 },
                 "kind": "init"
               },

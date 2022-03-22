@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 282,
             "end": 313,
-            "value": "1975-02-02T14:25:36.123456789",
-            "raw": "\"1975-02-02T14:25:36.123456789\""
+            "value": "1975-02-02T14:25:36.123456789"
           }
         }
       ],
@@ -80,8 +79,7 @@
             "type": "Literal",
             "start": 357,
             "end": 363,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -135,8 +133,7 @@
                               "type": "Literal",
                               "start": 404,
                               "end": 443,
-                              "value": "should not get Temporal.TimeZone.from",
-                              "raw": "\"should not get Temporal.TimeZone.from\""
+                              "value": "should not get Temporal.TimeZone.from"
                             }
                           ]
                         }
@@ -218,8 +215,7 @@
                   "type": "Literal",
                   "start": 511,
                   "end": 536,
-                  "value": "+01:00[Custom/TimeZone]",
-                  "raw": "\"+01:00[Custom/TimeZone]\""
+                  "value": "+01:00[Custom/TimeZone]"
                 }
               }
             ],
@@ -280,8 +276,7 @@
             "type": "Literal",
             "start": 583,
             "end": 595,
-            "value": 160579536123,
-            "raw": "160579536123"
+            "value": 160579536123
           }
         ],
         "optional": false

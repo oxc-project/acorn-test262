@@ -75,8 +75,7 @@
                           "type": "Literal",
                           "start": 607,
                           "end": 609,
-                          "value": 10,
-                          "raw": "10"
+                          "value": 10
                         }
                       }
                     ]
@@ -120,8 +119,7 @@
                         "type": "Literal",
                         "start": 650,
                         "end": 653,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -226,8 +224,7 @@
                           "type": "Literal",
                           "start": 763,
                           "end": 765,
-                          "value": 20,
-                          "raw": "20"
+                          "value": 20
                         }
                       }
                     ]
@@ -271,8 +268,7 @@
                         "type": "Literal",
                         "start": 806,
                         "end": 809,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -369,8 +365,7 @@
                       "type": "Literal",
                       "start": 897,
                       "end": 898,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   },
                   "consequent": {
@@ -401,8 +396,7 @@
                                 "type": "Literal",
                                 "start": 929,
                                 "end": 958,
-                                "value": "Expected a === 0, actually ",
-                                "raw": "'Expected a === 0, actually '"
+                                "value": "Expected a === 0, actually "
                               },
                               "operator": "+",
                               "right": {
@@ -444,8 +438,7 @@
                         "type": "Literal",
                         "start": 997,
                         "end": 1000,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       },
                       {
                         "type": "CallExpression",
@@ -489,8 +482,7 @@
                         "type": "Literal",
                         "start": 1049,
                         "end": 1052,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       }
                     ],
                     "optional": false
@@ -521,8 +513,7 @@
                         "type": "Literal",
                         "start": 1091,
                         "end": 1094,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       }
                     ],
                     "optional": false
@@ -536,22 +527,19 @@
               "type": "Literal",
               "start": 1099,
               "end": 1100,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             {
               "type": "Literal",
               "start": 1102,
               "end": 1103,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 1105,
               "end": 1106,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           ],
           "optional": false

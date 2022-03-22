@@ -262,15 +262,13 @@
             "type": "Literal",
             "start": 999,
             "end": 1018,
-            "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 1022,
             "end": 1075,
-            "value": "generator function proxy without Symbol.toStringTag",
-            "raw": "'generator function proxy without Symbol.toStringTag'"
+            "value": "generator function proxy without Symbol.toStringTag"
           }
         ],
         "optional": false
@@ -367,15 +365,13 @@
             "type": "Literal",
             "start": 1154,
             "end": 1173,
-            "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 1177,
             "end": 1240,
-            "value": "proxy for generator function proxy without Symbol.toStringTag",
-            "raw": "'proxy for generator function proxy without Symbol.toStringTag'"
+            "value": "proxy for generator function proxy without Symbol.toStringTag"
           }
         ],
         "optional": false
@@ -681,15 +677,13 @@
             "type": "Literal",
             "start": 1516,
             "end": 1535,
-            "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 1539,
             "end": 1588,
-            "value": "async function proxy without Symbol.toStringTag",
-            "raw": "'async function proxy without Symbol.toStringTag'"
+            "value": "async function proxy without Symbol.toStringTag"
           }
         ],
         "optional": false
@@ -786,15 +780,13 @@
             "type": "Literal",
             "start": 1663,
             "end": 1682,
-            "value": "[object Function]",
-            "raw": "'[object Function]'"
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 1686,
             "end": 1745,
-            "value": "proxy for async function proxy without Symbol.toStringTag",
-            "raw": "'proxy for async function proxy without Symbol.toStringTag'"
+            "value": "proxy for async function proxy without Symbol.toStringTag"
           }
         ],
         "optional": false

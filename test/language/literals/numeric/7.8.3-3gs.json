@@ -90,8 +90,7 @@
                         "type": "Literal",
                         "start": 381,
                         "end": 398,
-                        "value": "a = 0x1;a = 01;",
-                        "raw": "\"a = 0x1;a = 01;\""
+                        "value": "a = 0x1;a = 01;"
                       }
                     ],
                     "optional": false

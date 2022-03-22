@@ -74,8 +74,7 @@
                 "type": "Literal",
                 "start": 324,
                 "end": 335,
-                "value": "-Infinity",
-                "raw": "\"-Infinity\""
+                "value": "-Infinity"
               }
             ],
             "optional": false
@@ -84,15 +83,13 @@
             "type": "Literal",
             "start": 338,
             "end": 339,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 341,
             "end": 376,
-            "value": "[true].indexOf(true, \"-Infinity\")",
-            "raw": "'[true].indexOf(true, \"-Infinity\")'"
+            "value": "[true].indexOf(true, \"-Infinity\")"
           }
         ],
         "optional": false

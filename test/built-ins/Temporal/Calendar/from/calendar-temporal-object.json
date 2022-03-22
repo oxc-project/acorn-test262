@@ -167,8 +167,7 @@
                         "type": "Literal",
                         "start": 960,
                         "end": 1006,
-                        "value": "calendar object retrieved from internal slot",
-                        "raw": "\"calendar object retrieved from internal slot\""
+                        "value": "calendar object retrieved from internal slot"
                       }
                     ],
                     "optional": false

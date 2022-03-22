@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 393,
             "end": 402,
-            "value": "boolean",
-            "raw": "'boolean'"
+            "value": "boolean"
           },
           {
             "type": "Literal",
             "start": 404,
             "end": 460,
-            "value": "The value of `typeof bool` is expected to be \"boolean\"",
-            "raw": "'The value of `typeof bool` is expected to be \"boolean\"'"
+            "value": "The value of `typeof bool` is expected to be \"boolean\""
           }
         ],
         "optional": false
@@ -183,8 +181,7 @@
             "type": "Literal",
             "start": 547,
             "end": 621,
-            "value": "The value of n_obj.constructor is expected to equal the value of Boolean",
-            "raw": "'The value of n_obj.constructor is expected to equal the value of Boolean'"
+            "value": "The value of n_obj.constructor is expected to equal the value of Boolean"
           }
         ],
         "optional": false
@@ -235,15 +232,13 @@
             "type": "Literal",
             "start": 657,
             "end": 665,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 667,
             "end": 723,
-            "value": "The value of `typeof n_obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+            "value": "The value of `typeof n_obj` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -286,8 +281,7 @@
             "type": "Literal",
             "start": 748,
             "end": 813,
-            "value": "The result of evaluating (n_obj == bool) is expected to be true",
-            "raw": "'The result of evaluating (n_obj == bool) is expected to be true'"
+            "value": "The result of evaluating (n_obj == bool) is expected to be true"
           }
         ],
         "optional": false
@@ -337,8 +331,7 @@
             "type": "Literal",
             "start": 849,
             "end": 914,
-            "value": "The value of n_obj is expected to not equal the value of `bool`",
-            "raw": "'The value of n_obj is expected to not equal the value of `bool`'"
+            "value": "The value of n_obj is expected to not equal the value of `bool`"
           }
         ],
         "optional": false

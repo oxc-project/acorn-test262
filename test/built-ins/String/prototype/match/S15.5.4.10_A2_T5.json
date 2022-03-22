@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 286,
-                "value": "ab",
-                "raw": "\"ab\""
+                "value": "ab"
               },
               {
                 "type": "Literal",
                 "start": 288,
                 "end": 292,
-                "value": "cd",
-                "raw": "\"cd\""
+                "value": "cd"
               }
             ]
           }
@@ -62,8 +60,7 @@
             "type": "Literal",
             "start": 311,
             "end": 328,
-            "value": "123456abcde7890",
-            "raw": "\"123456abcde7890\""
+            "value": "123456abcde7890"
           }
         }
       ],
@@ -110,7 +107,6 @@
                 "start": 439,
                 "end": 447,
                 "value": {},
-                "raw": "/\\D{2}/g",
                 "regex": {
                   "pattern": "\\D{2}",
                   "flags": "g"
@@ -133,8 +129,7 @@
           "type": "Literal",
           "start": 460,
           "end": 461,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -165,8 +160,7 @@
                     "type": "Literal",
                     "start": 490,
                     "end": 573,
-                    "value": "#1: __string = \"123456abcde7890\"; __string.match(/\\D{2}/g).length=== 2. Actual: ",
-                    "raw": "'#1: __string = \"123456abcde7890\"; __string.match(/\\\\D{2}/g).length=== 2. Actual: '"
+                    "value": "#1: __string = \"123456abcde7890\"; __string.match(/\\D{2}/g).length=== 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -202,7 +196,6 @@
                           "start": 591,
                           "end": 599,
                           "value": {},
-                          "raw": "/\\D{2}/g",
                           "regex": {
                             "pattern": "\\D{2}",
                             "flags": "g"
@@ -251,8 +244,7 @@
               "type": "Literal",
               "start": 798,
               "end": 799,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -348,7 +340,6 @@
                       "start": 853,
                       "end": 861,
                       "value": {},
-                      "raw": "/\\D{2}/g",
                       "regex": {
                         "pattern": "\\D{2}",
                         "flags": "g"
@@ -439,8 +430,7 @@
                                       "type": "Literal",
                                       "start": 915,
                                       "end": 920,
-                                      "value": "#2.",
-                                      "raw": "'#2.'"
+                                      "value": "#2."
                                     },
                                     "operator": "+",
                                     "right": {
@@ -455,8 +445,7 @@
                                     "type": "Literal",
                                     "start": 928,
                                     "end": 1012,
-                                    "value": ": __matches=[\"ab\", \"cd\"]; __string = \"123456abcde7890\"; __string.match(/\\D{2}/g)[",
-                                    "raw": "': __matches=[\"ab\", \"cd\"]; __string = \"123456abcde7890\"; __string.match(/\\\\D{2}/g)['"
+                                    "value": ": __matches=[\"ab\", \"cd\"]; __string = \"123456abcde7890\"; __string.match(/\\D{2}/g)["
                                   }
                                 },
                                 "operator": "+",
@@ -472,8 +461,7 @@
                                 "type": "Literal",
                                 "start": 1020,
                                 "end": 1036,
-                                "value": "]===__matches[",
-                                "raw": "']===__matches['"
+                                "value": "]===__matches["
                               }
                             },
                             "operator": "+",
@@ -489,8 +477,7 @@
                             "type": "Literal",
                             "start": 1044,
                             "end": 1057,
-                            "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "value": "]. Actual: "
                           }
                         },
                         "operator": "+",
@@ -527,7 +514,6 @@
                                 "start": 1075,
                                 "end": 1083,
                                 "value": {},
-                                "raw": "/\\D{2}/g",
                                 "regex": {
                                   "pattern": "\\D{2}",
                                   "flags": "g"

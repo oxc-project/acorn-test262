@@ -160,8 +160,7 @@
             "type": "Literal",
             "start": 345,
             "end": 349,
-            "value": "{}",
-            "raw": "\"{}\""
+            "value": "{}"
           }
         ],
         "optional": false
@@ -266,8 +265,7 @@
             "type": "Literal",
             "start": 428,
             "end": 440,
-            "value": "new Date()",
-            "raw": "\"new Date()\""
+            "value": "new Date()"
           }
         ],
         "optional": false

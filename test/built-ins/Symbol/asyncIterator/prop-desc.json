@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 464,
             "end": 472,
-            "value": "symbol",
-            "raw": "'symbol'"
+            "value": "symbol"
           }
         ],
         "optional": false
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 499,
             "end": 514,
-            "value": "asyncIterator",
-            "raw": "'asyncIterator'"
+            "value": "asyncIterator"
           },
           {
             "type": "ObjectExpression",

@@ -143,8 +143,7 @@
             "type": "Literal",
             "start": 393,
             "end": 412,
-            "value": "preCheck !== true",
-            "raw": "'preCheck !== true'"
+            "value": "preCheck !== true"
           }
         ],
         "optional": false
@@ -222,8 +221,7 @@
             "type": "Literal",
             "start": 465,
             "end": 491,
-            "value": "Object.isExtensible(obj)",
-            "raw": "'Object.isExtensible(obj)'"
+            "value": "Object.isExtensible(obj)"
           }
         ],
         "optional": false

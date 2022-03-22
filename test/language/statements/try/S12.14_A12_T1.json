@@ -77,8 +77,7 @@
             "type": "Literal",
             "start": 364,
             "end": 365,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -87,8 +86,7 @@
           "type": "Literal",
           "start": 369,
           "end": 375,
-          "value": "Saab",
-          "raw": "\"Saab\""
+          "value": "Saab"
         }
       }
     },
@@ -115,8 +113,7 @@
             "type": "Literal",
             "start": 384,
             "end": 385,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -125,8 +122,7 @@
           "type": "Literal",
           "start": 389,
           "end": 396,
-          "value": "Volvo",
-          "raw": "\"Volvo\""
+          "value": "Volvo"
         }
       }
     },
@@ -153,8 +149,7 @@
             "type": "Literal",
             "start": 405,
             "end": 406,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -163,8 +158,7 @@
           "type": "Literal",
           "start": 410,
           "end": 415,
-          "value": "BMW",
-          "raw": "\"BMW\""
+          "value": "BMW"
         }
       }
     },
@@ -230,8 +224,7 @@
                       "type": "Literal",
                       "start": 475,
                       "end": 480,
-                      "value": "BMW",
-                      "raw": "\"BMW\""
+                      "value": "BMW"
                     }
                   },
                   "consequent": {
@@ -242,8 +235,7 @@
                       "type": "Literal",
                       "start": 488,
                       "end": 492,
-                      "value": "ex",
-                      "raw": "\"ex\""
+                      "value": "ex"
                     }
                   },
                   "alternate": null
@@ -287,8 +279,7 @@
                   "type": "Literal",
                   "start": 519,
                   "end": 523,
-                  "value": "ex",
-                  "raw": "\"ex\""
+                  "value": "ex"
                 }
               },
               "consequent": {
@@ -314,8 +305,7 @@
                         "type": "Literal",
                         "start": 547,
                         "end": 594,
-                        "value": "#1: Exception ===\"ex\". Actual:  Exception ===",
-                        "raw": "'#1: Exception ===\"ex\". Actual:  Exception ==='"
+                        "value": "#1: Exception ===\"ex\". Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {

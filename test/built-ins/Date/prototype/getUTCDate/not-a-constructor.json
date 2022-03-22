@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 770,
             "end": 830,
-            "value": "isConstructor(Date.prototype.getUTCDate) must return false",
-            "raw": "'isConstructor(Date.prototype.getUTCDate) must return false'"
+            "value": "isConstructor(Date.prototype.getUTCDate) must return false"
           }
         ],
         "optional": false
@@ -238,8 +237,7 @@
             "type": "Literal",
             "start": 929,
             "end": 1004,
-            "value": "`let date = new Date(Date.now()); new date.getUTCDate()` throws TypeError",
-            "raw": "'`let date = new Date(Date.now()); new date.getUTCDate()` throws TypeError'"
+            "value": "`let date = new Date(Date.now()); new date.getUTCDate()` throws TypeError"
           }
         ],
         "optional": false

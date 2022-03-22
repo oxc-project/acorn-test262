@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 329,
           "end": 330,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -66,8 +65,7 @@
           "type": "Literal",
           "start": 338,
           "end": 339,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -90,8 +88,7 @@
           "type": "Literal",
           "start": 351,
           "end": 352,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -122,8 +119,7 @@
                     "type": "Literal",
                     "start": 381,
                     "end": 420,
-                    "value": "#1: x = 1; x <<= 1; x === 2. Actual: ",
-                    "raw": "'#1: x = 1; x <<= 1; x === 2. Actual: '"
+                    "value": "#1: x = 1; x <<= 1; x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -175,8 +171,7 @@
               "type": "Literal",
               "start": 457,
               "end": 458,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ]
         }
@@ -201,8 +196,7 @@
           "type": "Literal",
           "start": 467,
           "end": 468,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -225,8 +219,7 @@
           "type": "Literal",
           "start": 480,
           "end": 481,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -257,8 +250,7 @@
                     "type": "Literal",
                     "start": 510,
                     "end": 561,
-                    "value": "#2: x = new Number(1); x <<= 1; x === 2. Actual: ",
-                    "raw": "'#2: x = new Number(1); x <<= 1; x === 2. Actual: '"
+                    "value": "#2: x = new Number(1); x <<= 1; x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -299,8 +291,7 @@
           "type": "Literal",
           "start": 587,
           "end": 588,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -334,8 +325,7 @@
               "type": "Literal",
               "start": 607,
               "end": 608,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ]
         }
@@ -360,8 +350,7 @@
           "type": "Literal",
           "start": 621,
           "end": 622,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -392,8 +381,7 @@
                     "type": "Literal",
                     "start": 651,
                     "end": 702,
-                    "value": "#3: x = 1; x <<= new Number(1); x === 2. Actual: ",
-                    "raw": "'#3: x = 1; x <<= new Number(1); x === 2. Actual: '"
+                    "value": "#3: x = 1; x <<= new Number(1); x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -445,8 +433,7 @@
               "type": "Literal",
               "start": 739,
               "end": 740,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ]
         }
@@ -482,8 +469,7 @@
               "type": "Literal",
               "start": 760,
               "end": 761,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ]
         }
@@ -508,8 +494,7 @@
           "type": "Literal",
           "start": 774,
           "end": 775,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -540,8 +525,7 @@
                     "type": "Literal",
                     "start": 804,
                     "end": 867,
-                    "value": "#4: x = new Number(1); x <<= new Number(1); x === 2. Actual: ",
-                    "raw": "'#4: x = new Number(1); x <<= new Number(1); x === 2. Actual: '"
+                    "value": "#4: x = new Number(1); x <<= new Number(1); x === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {

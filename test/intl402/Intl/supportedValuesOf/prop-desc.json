@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 609,
             "end": 628,
-            "value": "supportedValuesOf",
-            "raw": "\"supportedValuesOf\""
+            "value": "supportedValuesOf"
           },
           {
             "type": "ObjectExpression",

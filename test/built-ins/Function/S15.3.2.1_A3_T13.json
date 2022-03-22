@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 934,
             "end": 941,
-            "value": "a,b,c",
-            "raw": "\"a,b,c\""
+            "value": "a,b,c"
           }
         }
       ],
@@ -123,8 +122,7 @@
                       "type": "Literal",
                       "start": 1022,
                       "end": 1051,
-                      "value": "#1: test failed with error ",
-                      "raw": "'#1: test failed with error '"
+                      "value": "#1: test failed with error "
                     },
                     "operator": "+",
                     "right": {
@@ -199,8 +197,7 @@
             "type": "Literal",
             "start": 1103,
             "end": 1174,
-            "value": "The value of f.constructor is expected to equal the value of Function",
-            "raw": "'The value of f.constructor is expected to equal the value of Function'"
+            "value": "The value of f.constructor is expected to equal the value of Function"
           }
         ],
         "optional": false
@@ -257,8 +254,7 @@
             "type": "Literal",
             "start": 1210,
             "end": 1233,
-            "value": "f() returns undefined",
-            "raw": "'f() returns undefined'"
+            "value": "f() returns undefined"
           }
         ],
         "optional": false

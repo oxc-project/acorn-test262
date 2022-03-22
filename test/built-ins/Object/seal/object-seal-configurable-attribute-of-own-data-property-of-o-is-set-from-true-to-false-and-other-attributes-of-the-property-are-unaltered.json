@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 426,
             "end": 431,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -91,8 +90,7 @@
                   "type": "Literal",
                   "start": 444,
                   "end": 446,
-                  "value": 10,
-                  "raw": "10"
+                  "value": 10
                 },
                 "kind": "init"
               },
@@ -303,8 +301,7 @@
                     "type": "Literal",
                     "start": 613,
                     "end": 654,
-                    "value": "Expected preCheck to be true, actually ",
-                    "raw": "'Expected preCheck to be true, actually '"
+                    "value": "Expected preCheck to be true, actually "
                   },
                   "operator": "+",
                   "right": {
@@ -346,15 +343,13 @@
             "type": "Literal",
             "start": 690,
             "end": 695,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Literal",
             "start": 697,
             "end": 699,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           }
         ],
         "optional": false
@@ -385,8 +380,7 @@
             "type": "Literal",
             "start": 723,
             "end": 728,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -417,8 +411,7 @@
             "type": "Literal",
             "start": 754,
             "end": 759,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -449,8 +442,7 @@
             "type": "Literal",
             "start": 790,
             "end": 795,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Date.now) must return false",
-            "raw": "'isConstructor(Date.now) must return false'"
+            "value": "isConstructor(Date.now) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Date.now()` throws TypeError",
-            "raw": "'`new Date.now()` throws TypeError'"
+            "value": "`new Date.now()` throws TypeError"
           }
         ],
         "optional": false

@@ -45,8 +45,7 @@
                 "type": "Literal",
                 "start": 379,
                 "end": 390,
-                "value": "prototype",
-                "raw": "'prototype'"
+                "value": "prototype"
               }
             ],
             "optional": false
@@ -81,8 +80,7 @@
                     "type": "Literal",
                     "start": 421,
                     "end": 485,
-                    "value": "#1: String.hasOwnProperty('prototype') return true. Actual: ",
-                    "raw": "'#1: String.hasOwnProperty(\\'prototype\\') return true. Actual: '"
+                    "value": "#1: String.hasOwnProperty('prototype') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -113,8 +111,7 @@
                         "type": "Literal",
                         "start": 510,
                         "end": 521,
-                        "value": "prototype",
-                        "raw": "'prototype'"
+                        "value": "prototype"
                       }
                     ],
                     "optional": false

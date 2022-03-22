@@ -63,8 +63,7 @@
                       "type": "Literal",
                       "start": 284,
                       "end": 285,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -87,8 +86,7 @@
                 "type": "Literal",
                 "start": 298,
                 "end": 302,
-                "value": "-1",
-                "raw": "\"-1\""
+                "value": "-1"
               }
             ],
             "optional": false
@@ -97,8 +95,7 @@
             "type": "Literal",
             "start": 305,
             "end": 385,
-            "value": "parseInt(new Number(-1)) must return the same value returned by parseInt(\"-1\")",
-            "raw": "'parseInt(new Number(-1)) must return the same value returned by parseInt(\"-1\")'"
+            "value": "parseInt(new Number(-1)) must return the same value returned by parseInt(\"-1\")"
           }
         ],
         "optional": false
@@ -183,15 +180,13 @@
             "type": "Literal",
             "start": 451,
             "end": 456,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           },
           {
             "type": "Literal",
             "start": 460,
             "end": 518,
-            "value": "String(parseInt(new Number(Infinity))) must return \"NaN\"",
-            "raw": "'String(parseInt(new Number(Infinity))) must return \"NaN\"'"
+            "value": "String(parseInt(new Number(Infinity))) must return \"NaN\""
           }
         ],
         "optional": false
@@ -276,15 +271,13 @@
             "type": "Literal",
             "start": 575,
             "end": 580,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           },
           {
             "type": "Literal",
             "start": 582,
             "end": 635,
-            "value": "String(parseInt(new Number(NaN))) must return \"NaN\"",
-            "raw": "'String(parseInt(new Number(NaN))) must return \"NaN\"'"
+            "value": "String(parseInt(new Number(NaN))) must return \"NaN\""
           }
         ],
         "optional": false

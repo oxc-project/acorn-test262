@@ -41,15 +41,13 @@
             "type": "Literal",
             "start": 303,
             "end": 310,
-            "value": "usage",
-            "raw": "\"usage\""
+            "value": "usage"
           },
           {
             "type": "Literal",
             "start": 312,
             "end": 320,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           },
           {
             "type": "ArrayExpression",
@@ -60,15 +58,13 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 329,
-                "value": "sort",
-                "raw": "\"sort\""
+                "value": "sort"
               },
               {
                 "type": "Literal",
                 "start": 331,
                 "end": 339,
-                "value": "search",
-                "raw": "\"search\""
+                "value": "search"
               }
             ]
           },
@@ -76,8 +72,7 @@
             "type": "Literal",
             "start": 342,
             "end": 348,
-            "value": "sort",
-            "raw": "\"sort\""
+            "value": "sort"
           }
         ],
         "optional": false

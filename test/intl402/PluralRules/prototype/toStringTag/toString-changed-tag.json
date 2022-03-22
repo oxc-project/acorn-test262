@@ -104,8 +104,7 @@
                   "type": "Literal",
                   "start": 811,
                   "end": 820,
-                  "value": "test262",
-                  "raw": "\"test262\""
+                  "value": "test262"
                 },
                 "kind": "init"
               }
@@ -232,8 +231,7 @@
             "type": "Literal",
             "start": 904,
             "end": 922,
-            "value": "[object test262]",
-            "raw": "\"[object test262]\""
+            "value": "[object test262]"
           }
         ],
         "optional": false
@@ -349,8 +347,7 @@
             "type": "Literal",
             "start": 998,
             "end": 1016,
-            "value": "[object test262]",
-            "raw": "\"[object test262]\""
+            "value": "[object test262]"
           }
         ],
         "optional": false

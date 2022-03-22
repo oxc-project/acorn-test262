@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 320,
             "end": 330,
-            "value": 4294967294,
-            "raw": "4294967294"
+            "value": 4294967294
           },
           "computed": true,
           "optional": false
@@ -123,8 +122,7 @@
           "type": "Literal",
           "start": 334,
           "end": 337,
-          "value": "x",
-          "raw": "\"x\""
+          "value": "x"
         }
       }
     },
@@ -166,8 +164,7 @@
             "type": "Literal",
             "start": 353,
             "end": 354,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -215,15 +212,13 @@
                 "type": "Literal",
                 "start": 377,
                 "end": 387,
-                "value": 4294967294,
-                "raw": "4294967294"
+                "value": 4294967294
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 390,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -264,8 +259,7 @@
           "type": "Literal",
           "start": 413,
           "end": 414,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -296,8 +290,7 @@
                     "type": "Literal",
                     "start": 443,
                     "end": 602,
-                    "value": "#1: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = -1; var arr = obj.splice(4294967294,1); arr.length === 0. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = -1; var arr = obj.splice(4294967294,1); arr.length === 0. Actual: '"
+                    "value": "#1: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = -1; var arr = obj.splice(4294967294,1); arr.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -354,8 +347,7 @@
             "type": "Literal",
             "start": 631,
             "end": 632,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -396,8 +388,7 @@
                     "type": "Literal",
                     "start": 676,
                     "end": 838,
-                    "value": "#2: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); arr[0] === undefined. Actual: ",
-                    "raw": "'#2: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); arr[0] === undefined. Actual: '"
+                    "value": "#2: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); arr[0] === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -418,8 +409,7 @@
                         "type": "Literal",
                         "start": 846,
                         "end": 847,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -465,8 +455,7 @@
           "type": "Literal",
           "start": 874,
           "end": 875,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -497,8 +486,7 @@
                     "type": "Literal",
                     "start": 904,
                     "end": 1062,
-                    "value": "#3: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); obj.length === 0. Actual: ",
-                    "raw": "'#3: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); obj.length === 0. Actual: '"
+                    "value": "#3: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); obj.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -555,8 +543,7 @@
             "type": "Literal",
             "start": 1091,
             "end": 1101,
-            "value": 4294967294,
-            "raw": "4294967294"
+            "value": 4294967294
           },
           "computed": true,
           "optional": false
@@ -566,8 +553,7 @@
           "type": "Literal",
           "start": 1107,
           "end": 1110,
-          "value": "x",
-          "raw": "\"x\""
+          "value": "x"
         }
       },
       "consequent": {
@@ -598,8 +584,7 @@
                     "type": "Literal",
                     "start": 1139,
                     "end": 1304,
-                    "value": "#4: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); obj[4294967294] === \"x\". Actual: ",
-                    "raw": "'#4: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); obj[4294967294] === \"x\". Actual: '"
+                    "value": "#4: var obj = {}; obj.splice = Array.prototype.splice; obj[4294967294] = \"x\"; obj.length = 1; var arr = obj.splice(4294967294,1); obj[4294967294] === \"x\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -620,8 +605,7 @@
                         "type": "Literal",
                         "start": 1312,
                         "end": 1322,
-                        "value": 4294967294,
-                        "raw": "4294967294"
+                        "value": 4294967294
                       },
                       "computed": true,
                       "optional": false

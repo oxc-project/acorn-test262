@@ -80,8 +80,7 @@
                         "type": "Literal",
                         "start": 1038,
                         "end": 1107,
-                        "value": "initial = f; f = 5; postAssignment = f; function f() { return 33; }",
-                        "raw": "'initial = f; f = 5; postAssignment = f; function f() { return 33; }'"
+                        "value": "initial = f; f = 5; postAssignment = f; function f() { return 33; }"
                       }
                     ],
                     "optional": false
@@ -140,8 +139,7 @@
             "type": "Literal",
             "start": 1150,
             "end": 1160,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -192,8 +190,7 @@
             "type": "Literal",
             "start": 1191,
             "end": 1193,
-            "value": 33,
-            "raw": "33"
+            "value": 33
           }
         ],
         "optional": false
@@ -237,15 +234,13 @@
             "type": "Literal",
             "start": 1229,
             "end": 1230,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 1232,
             "end": 1252,
-            "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "value": "binding is mutable"
           }
         ],
         "optional": false

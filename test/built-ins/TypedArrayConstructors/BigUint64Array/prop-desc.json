@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 338,
             "end": 354,
-            "value": "BigUint64Array",
-            "raw": "\"BigUint64Array\""
+            "value": "BigUint64Array"
           },
           {
             "type": "ObjectExpression",

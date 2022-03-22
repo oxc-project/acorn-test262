@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 349,
             "end": 370,
-            "value": "something different",
-            "raw": "\"something different\""
+            "value": "something different"
           }
         }
       ],
@@ -173,8 +172,7 @@
                         "type": "Literal",
                         "start": 505,
                         "end": 556,
-                        "value": "#1: A property callee have attribute { ReadOnly }",
-                        "raw": "\"#1: A property callee have attribute { ReadOnly }\""
+                        "value": "#1: A property callee have attribute { ReadOnly }"
                       }
                     ]
                   }
@@ -219,8 +217,7 @@
                     "type": "Literal",
                     "start": 600,
                     "end": 635,
-                    "value": "#1: arguments object don't exists",
-                    "raw": "\"#1: arguments object don't exists\""
+                    "value": "#1: arguments object don't exists"
                   }
                 ]
               }
@@ -388,8 +385,7 @@
                         "type": "Literal",
                         "start": 785,
                         "end": 836,
-                        "value": "#2: A property callee have attribute { ReadOnly }",
-                        "raw": "\"#2: A property callee have attribute { ReadOnly }\""
+                        "value": "#2: A property callee have attribute { ReadOnly }"
                       }
                     ]
                   }
@@ -434,8 +430,7 @@
                     "type": "Literal",
                     "start": 880,
                     "end": 915,
-                    "value": "#2: arguments object don't exists",
-                    "raw": "\"#2: arguments object don't exists\""
+                    "value": "#2: arguments object don't exists"
                   }
                 ]
               }

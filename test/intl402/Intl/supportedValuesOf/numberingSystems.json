@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1186,
                 "end": 1203,
-                "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "value": "numberingSystem"
               }
             ],
             "optional": false
@@ -108,8 +107,7 @@
             "type": "Literal",
             "start": 1247,
             "end": 1273,
-            "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "value": "Returns an Array object."
           }
         ],
         "optional": false
@@ -199,8 +197,7 @@
             "type": "Literal",
             "start": 1368,
             "end": 1408,
-            "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "value": "The array prototype is Array.prototype"
           }
         ],
         "optional": false
@@ -249,8 +246,7 @@
                 "type": "Literal",
                 "start": 1465,
                 "end": 1482,
-                "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "value": "numberingSystem"
               }
             ],
             "optional": false
@@ -303,8 +299,7 @@
             "type": "Literal",
             "start": 1566,
             "end": 1609,
-            "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "value": "Returns a new array object for each call."
           }
         ],
         "optional": false
@@ -374,8 +369,7 @@
             "type": "Literal",
             "start": 1701,
             "end": 1723,
-            "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "value": "The array is sorted."
           }
         ],
         "optional": false
@@ -464,8 +458,7 @@
             "type": "Literal",
             "start": 1818,
             "end": 1857,
-            "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "value": "The array doesn't contain duplicates."
           }
         ],
         "optional": false
@@ -491,7 +484,6 @@
             "start": 1948,
             "end": 1982,
             "value": {},
-            "raw": "/^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$/",
             "regex": {
               "pattern": "^[a-z0-9]{3,8}(-[a-z0-9]{3,8})*$",
               "flags": ""
@@ -723,8 +715,7 @@
                         "type": "Literal",
                         "start": 2210,
                         "end": 2215,
-                        "value": "und",
-                        "raw": "\"und\""
+                        "value": "und"
                       },
                       {
                         "type": "ObjectExpression",

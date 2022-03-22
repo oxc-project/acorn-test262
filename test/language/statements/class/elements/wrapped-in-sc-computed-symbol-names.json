@@ -84,10 +84,9 @@
         "end": 693,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 661,
-            "end": 665,
-            "static": false,
+            "end": 664,
             "computed": true,
             "key": {
               "type": "Identifier",
@@ -98,10 +97,9 @@
             "value": null
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 666,
-            "end": 675,
-            "static": false,
+            "end": 674,
             "computed": true,
             "key": {
               "type": "Identifier",
@@ -113,8 +111,7 @@
               "type": "Literal",
               "start": 672,
               "end": 674,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           }
         ]
@@ -715,8 +712,7 @@
                   "type": "Literal",
                   "start": 1110,
                   "end": 1112,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               },
@@ -880,8 +876,7 @@
                 "type": "Literal",
                 "start": 1235,
                 "end": 1238,
-                "value": "x",
-                "raw": "\"x\""
+                "value": "x"
               }
             ],
             "optional": false
@@ -972,8 +967,7 @@
                 "type": "Literal",
                 "start": 1296,
                 "end": 1299,
-                "value": "x",
-                "raw": "\"x\""
+                "value": "x"
               }
             ],
             "optional": false
@@ -1064,8 +1058,7 @@
                 "type": "Literal",
                 "start": 1357,
                 "end": 1360,
-                "value": "x",
-                "raw": "\"x\""
+                "value": "x"
               }
             ],
             "optional": false
@@ -1169,8 +1162,7 @@
                 "type": "Literal",
                 "start": 1429,
                 "end": 1432,
-                "value": "y",
-                "raw": "\"y\""
+                "value": "y"
               }
             ],
             "optional": false
@@ -1261,8 +1253,7 @@
                 "type": "Literal",
                 "start": 1490,
                 "end": 1493,
-                "value": "y",
-                "raw": "\"y\""
+                "value": "y"
               }
             ],
             "optional": false
@@ -1353,8 +1344,7 @@
                 "type": "Literal",
                 "start": 1551,
                 "end": 1554,
-                "value": "y",
-                "raw": "\"y\""
+                "value": "y"
               }
             ],
             "optional": false

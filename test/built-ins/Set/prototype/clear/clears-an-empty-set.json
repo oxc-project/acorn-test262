@@ -130,15 +130,13 @@
             "type": "Literal",
             "start": 546,
             "end": 547,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 549,
             "end": 579,
-            "value": "The value of `s.size` is `0`",
-            "raw": "\"The value of `s.size` is `0`\""
+            "value": "The value of `s.size` is `0`"
           }
         ],
         "optional": false
@@ -188,8 +186,7 @@
             "type": "Literal",
             "start": 618,
             "end": 660,
-            "value": "The result of `s.clear()` is `undefined`",
-            "raw": "\"The result of `s.clear()` is `undefined`\""
+            "value": "The result of `s.clear()` is `undefined`"
           }
         ],
         "optional": false

@@ -93,15 +93,13 @@
             "type": "Literal",
             "start": 479,
             "end": 480,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 482,
             "end": 525,
-            "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "value": "The value of x.length is expected to be 1"
           }
         ],
         "optional": false
@@ -149,8 +147,7 @@
               "type": "Literal",
               "start": 547,
               "end": 548,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -166,8 +163,7 @@
             "type": "Literal",
             "start": 557,
             "end": 599,
-            "value": "The value of x[0] is expected to be null",
-            "raw": "'The value of x[0] is expected to be null'"
+            "value": "The value of x[0] is expected to be null"
           }
         ],
         "optional": false
@@ -262,15 +258,13 @@
             "type": "Literal",
             "start": 661,
             "end": 662,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 664,
             "end": 707,
-            "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "value": "The value of x.length is expected to be 1"
           }
         ],
         "optional": false
@@ -318,8 +312,7 @@
               "type": "Literal",
               "start": 729,
               "end": 730,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -334,8 +327,7 @@
             "type": "Literal",
             "start": 744,
             "end": 794,
-            "value": "The value of x[0] is expected to equal undefined",
-            "raw": "'The value of x[0] is expected to equal undefined'"
+            "value": "The value of x[0] is expected to equal undefined"
           }
         ],
         "optional": false

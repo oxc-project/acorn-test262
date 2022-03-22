@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 284,
             "end": 285,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 287,
             "end": 311,
-            "value": "Object.isSealed.length",
-            "raw": "'Object.isSealed.length'"
+            "value": "Object.isSealed.length"
           }
         ],
         "optional": false

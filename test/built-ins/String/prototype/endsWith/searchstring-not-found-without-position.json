@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 856,
             "end": 877,
-            "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "value": "The future is cool!"
           }
         }
       ],
@@ -85,8 +84,7 @@
                 "type": "Literal",
                 "start": 913,
                 "end": 924,
-                "value": "is Flash!",
-                "raw": "'is Flash!'"
+                "value": "is Flash!"
               }
             ],
             "optional": false
@@ -102,8 +100,7 @@
             "type": "Literal",
             "start": 936,
             "end": 973,
-            "value": "str.endsWith(\"is Flash!\") === false",
-            "raw": "'str.endsWith(\"is Flash!\") === false'"
+            "value": "str.endsWith(\"is Flash!\") === false"
           }
         ],
         "optional": false
@@ -165,8 +162,7 @@
                 "type": "Literal",
                 "start": 1010,
                 "end": 1020,
-                "value": "IS COOL!",
-                "raw": "'IS COOL!'"
+                "value": "IS COOL!"
               }
             ],
             "optional": false
@@ -182,8 +178,7 @@
             "type": "Literal",
             "start": 1032,
             "end": 1060,
-            "value": "endsWith is case sensitive",
-            "raw": "'endsWith is case sensitive'"
+            "value": "endsWith is case sensitive"
           }
         ],
         "optional": false
@@ -245,8 +240,7 @@
                 "type": "Literal",
                 "start": 1097,
                 "end": 1109,
-                "value": "The future",
-                "raw": "'The future'"
+                "value": "The future"
               }
             ],
             "optional": false
@@ -262,8 +256,7 @@
             "type": "Literal",
             "start": 1121,
             "end": 1159,
-            "value": "str.endsWith(\"The future\") === false",
-            "raw": "'str.endsWith(\"The future\") === false'"
+            "value": "str.endsWith(\"The future\") === false"
           }
         ],
         "optional": false

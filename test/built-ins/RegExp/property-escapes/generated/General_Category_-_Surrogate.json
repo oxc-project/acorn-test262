@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 538,
                               "end": 546,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 548,
                               "end": 556,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -103,15 +101,13 @@
                               "type": "Literal",
                               "start": 564,
                               "end": 572,
-                              "value": 55296,
-                              "raw": "0x00D800"
+                              "value": 55296
                             },
                             {
                               "type": "Literal",
                               "start": 574,
                               "end": 582,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         }
@@ -148,7 +144,6 @@
             "start": 615,
             "end": 651,
             "value": {},
-            "raw": "/^\\p{General_Category=Surrogate}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Surrogate}+$",
               "flags": "u"
@@ -164,8 +159,7 @@
             "type": "Literal",
             "start": 671,
             "end": 704,
-            "value": "\\p{General_Category=Surrogate}",
-            "raw": "\"\\\\p{General_Category=Surrogate}\""
+            "value": "\\p{General_Category=Surrogate}"
           }
         ],
         "optional": false
@@ -191,7 +185,6 @@
             "start": 731,
             "end": 760,
             "value": {},
-            "raw": "/^\\p{General_Category=Cs}+$/u",
             "regex": {
               "pattern": "^\\p{General_Category=Cs}+$",
               "flags": "u"
@@ -207,8 +200,7 @@
             "type": "Literal",
             "start": 780,
             "end": 806,
-            "value": "\\p{General_Category=Cs}",
-            "raw": "\"\\\\p{General_Category=Cs}\""
+            "value": "\\p{General_Category=Cs}"
           }
         ],
         "optional": false
@@ -234,7 +226,6 @@
             "start": 833,
             "end": 855,
             "value": {},
-            "raw": "/^\\p{gc=Surrogate}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Surrogate}+$",
               "flags": "u"
@@ -250,8 +241,7 @@
             "type": "Literal",
             "start": 875,
             "end": 894,
-            "value": "\\p{gc=Surrogate}",
-            "raw": "\"\\\\p{gc=Surrogate}\""
+            "value": "\\p{gc=Surrogate}"
           }
         ],
         "optional": false
@@ -277,7 +267,6 @@
             "start": 921,
             "end": 936,
             "value": {},
-            "raw": "/^\\p{gc=Cs}+$/u",
             "regex": {
               "pattern": "^\\p{gc=Cs}+$",
               "flags": "u"
@@ -293,8 +282,7 @@
             "type": "Literal",
             "start": 956,
             "end": 968,
-            "value": "\\p{gc=Cs}",
-            "raw": "\"\\\\p{gc=Cs}\""
+            "value": "\\p{gc=Cs}"
           }
         ],
         "optional": false
@@ -320,7 +308,6 @@
             "start": 995,
             "end": 1014,
             "value": {},
-            "raw": "/^\\p{Surrogate}+$/u",
             "regex": {
               "pattern": "^\\p{Surrogate}+$",
               "flags": "u"
@@ -336,8 +323,7 @@
             "type": "Literal",
             "start": 1034,
             "end": 1050,
-            "value": "\\p{Surrogate}",
-            "raw": "\"\\\\p{Surrogate}\""
+            "value": "\\p{Surrogate}"
           }
         ],
         "optional": false
@@ -363,7 +349,6 @@
             "start": 1077,
             "end": 1089,
             "value": {},
-            "raw": "/^\\p{Cs}+$/u",
             "regex": {
               "pattern": "^\\p{Cs}+$",
               "flags": "u"
@@ -379,8 +364,7 @@
             "type": "Literal",
             "start": 1109,
             "end": 1118,
-            "value": "\\p{Cs}",
-            "raw": "\"\\\\p{Cs}\""
+            "value": "\\p{Cs}"
           }
         ],
         "optional": false
@@ -465,15 +449,13 @@
                               "type": "Literal",
                               "start": 1200,
                               "end": 1208,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1210,
                               "end": 1218,
-                              "value": 55295,
-                              "raw": "0x00D7FF"
+                              "value": 55295
                             }
                           ]
                         },
@@ -486,15 +468,13 @@
                               "type": "Literal",
                               "start": 1226,
                               "end": 1234,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1236,
                               "end": 1244,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -531,7 +511,6 @@
             "start": 1277,
             "end": 1313,
             "value": {},
-            "raw": "/^\\P{General_Category=Surrogate}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Surrogate}+$",
               "flags": "u"
@@ -547,8 +526,7 @@
             "type": "Literal",
             "start": 1336,
             "end": 1369,
-            "value": "\\P{General_Category=Surrogate}",
-            "raw": "\"\\\\P{General_Category=Surrogate}\""
+            "value": "\\P{General_Category=Surrogate}"
           }
         ],
         "optional": false
@@ -574,7 +552,6 @@
             "start": 1396,
             "end": 1425,
             "value": {},
-            "raw": "/^\\P{General_Category=Cs}+$/u",
             "regex": {
               "pattern": "^\\P{General_Category=Cs}+$",
               "flags": "u"
@@ -590,8 +567,7 @@
             "type": "Literal",
             "start": 1448,
             "end": 1474,
-            "value": "\\P{General_Category=Cs}",
-            "raw": "\"\\\\P{General_Category=Cs}\""
+            "value": "\\P{General_Category=Cs}"
           }
         ],
         "optional": false
@@ -617,7 +593,6 @@
             "start": 1501,
             "end": 1523,
             "value": {},
-            "raw": "/^\\P{gc=Surrogate}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Surrogate}+$",
               "flags": "u"
@@ -633,8 +608,7 @@
             "type": "Literal",
             "start": 1546,
             "end": 1565,
-            "value": "\\P{gc=Surrogate}",
-            "raw": "\"\\\\P{gc=Surrogate}\""
+            "value": "\\P{gc=Surrogate}"
           }
         ],
         "optional": false
@@ -660,7 +634,6 @@
             "start": 1592,
             "end": 1607,
             "value": {},
-            "raw": "/^\\P{gc=Cs}+$/u",
             "regex": {
               "pattern": "^\\P{gc=Cs}+$",
               "flags": "u"
@@ -676,8 +649,7 @@
             "type": "Literal",
             "start": 1630,
             "end": 1642,
-            "value": "\\P{gc=Cs}",
-            "raw": "\"\\\\P{gc=Cs}\""
+            "value": "\\P{gc=Cs}"
           }
         ],
         "optional": false
@@ -703,7 +675,6 @@
             "start": 1669,
             "end": 1688,
             "value": {},
-            "raw": "/^\\P{Surrogate}+$/u",
             "regex": {
               "pattern": "^\\P{Surrogate}+$",
               "flags": "u"
@@ -719,8 +690,7 @@
             "type": "Literal",
             "start": 1711,
             "end": 1727,
-            "value": "\\P{Surrogate}",
-            "raw": "\"\\\\P{Surrogate}\""
+            "value": "\\P{Surrogate}"
           }
         ],
         "optional": false
@@ -746,7 +716,6 @@
             "start": 1754,
             "end": 1766,
             "value": {},
-            "raw": "/^\\P{Cs}+$/u",
             "regex": {
               "pattern": "^\\P{Cs}+$",
               "flags": "u"
@@ -762,8 +731,7 @@
             "type": "Literal",
             "start": 1789,
             "end": 1798,
-            "value": "\\P{Cs}",
-            "raw": "\"\\\\P{Cs}\""
+            "value": "\\P{Cs}"
           }
         ],
         "optional": false

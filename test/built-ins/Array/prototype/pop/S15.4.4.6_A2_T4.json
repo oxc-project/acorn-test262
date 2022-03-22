@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 465,
             "end": 466,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -129,8 +128,7 @@
             "type": "Literal",
             "start": 471,
             "end": 472,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -204,8 +202,7 @@
                         "type": "Literal",
                         "start": 514,
                         "end": 515,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   ]
@@ -305,16 +302,14 @@
               "type": "Literal",
               "start": 567,
               "end": 568,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 609,
-            "value": "The value of pop is expected to be -1",
-            "raw": "'The value of pop is expected to be -1'"
+            "value": "The value of pop is expected to be -1"
           }
         ],
         "optional": false
@@ -343,8 +338,7 @@
             "type": "Literal",
             "start": 617,
             "end": 618,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -359,8 +353,7 @@
             "type": "Literal",
             "start": 623,
             "end": 624,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -434,8 +427,7 @@
                         "type": "Literal",
                         "start": 666,
                         "end": 667,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   ]
@@ -478,8 +470,7 @@
                         "type": "Literal",
                         "start": 699,
                         "end": 700,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ]
@@ -579,16 +570,14 @@
               "type": "Literal",
               "start": 752,
               "end": 753,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 755,
             "end": 794,
-            "value": "The value of pop is expected to be -1",
-            "raw": "'The value of pop is expected to be -1'"
+            "value": "The value of pop is expected to be -1"
           }
         ],
         "optional": false
@@ -617,8 +606,7 @@
             "type": "Literal",
             "start": 802,
             "end": 803,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -633,8 +621,7 @@
             "type": "Literal",
             "start": 808,
             "end": 809,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -708,8 +695,7 @@
                         "type": "Literal",
                         "start": 851,
                         "end": 852,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   ]
@@ -852,16 +838,14 @@
               "type": "Literal",
               "start": 938,
               "end": 939,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 941,
             "end": 980,
-            "value": "The value of pop is expected to be -1",
-            "raw": "'The value of pop is expected to be -1'"
+            "value": "The value of pop is expected to be -1"
           }
         ],
         "optional": false
@@ -899,8 +883,7 @@
                   "type": "Literal",
                   "start": 996,
                   "end": 997,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -915,8 +898,7 @@
                   "type": "Literal",
                   "start": 1002,
                   "end": 1003,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -990,8 +972,7 @@
                               "type": "Literal",
                               "start": 1051,
                               "end": 1052,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         ]
@@ -1034,8 +1015,7 @@
                               "type": "Literal",
                               "start": 1089,
                               "end": 1096,
-                              "value": "error",
-                              "raw": "\"error\""
+                              "value": "error"
                             }
                           }
                         ]
@@ -1135,16 +1115,14 @@
                     "type": "Literal",
                     "start": 1156,
                     "end": 1157,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 },
                 {
                   "type": "Literal",
                   "start": 1159,
                   "end": 1198,
-                  "value": "The value of pop is expected to be -1",
-                  "raw": "'The value of pop is expected to be -1'"
+                  "value": "The value of pop is expected to be -1"
                 }
               ],
               "optional": false
@@ -1205,15 +1183,13 @@
                     "type": "Literal",
                     "start": 1240,
                     "end": 1247,
-                    "value": "error",
-                    "raw": "\"error\""
+                    "value": "error"
                   },
                   {
                     "type": "Literal",
                     "start": 1249,
                     "end": 1280,
-                    "value": "The value of e is not \"error\"",
-                    "raw": "'The value of e is not \"error\"'"
+                    "value": "The value of e is not \"error\""
                   }
                 ],
                 "optional": false
@@ -1247,8 +1223,7 @@
             "type": "Literal",
             "start": 1290,
             "end": 1291,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -1263,8 +1238,7 @@
             "type": "Literal",
             "start": 1296,
             "end": 1297,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -1338,8 +1312,7 @@
                         "type": "Literal",
                         "start": 1340,
                         "end": 1341,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ]
@@ -1439,8 +1412,7 @@
             "type": "Literal",
             "start": 1403,
             "end": 1452,
-            "value": "The value of pop is expected to equal undefined",
-            "raw": "'The value of pop is expected to equal undefined'"
+            "value": "The value of pop is expected to equal undefined"
           }
         ],
         "optional": false
@@ -1469,8 +1441,7 @@
             "type": "Literal",
             "start": 1460,
             "end": 1461,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -1485,8 +1456,7 @@
             "type": "Literal",
             "start": 1466,
             "end": 1467,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       }
@@ -1603,8 +1573,7 @@
                         "type": "Literal",
                         "start": 1543,
                         "end": 1544,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ]
@@ -1704,8 +1673,7 @@
             "type": "Literal",
             "start": 1605,
             "end": 1654,
-            "value": "The value of pop is expected to equal undefined",
-            "raw": "'The value of pop is expected to equal undefined'"
+            "value": "The value of pop is expected to equal undefined"
           }
         ],
         "optional": false
@@ -1743,8 +1711,7 @@
                   "type": "Literal",
                   "start": 1670,
                   "end": 1671,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -1759,8 +1726,7 @@
                   "type": "Literal",
                   "start": 1676,
                   "end": 1677,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -1834,8 +1800,7 @@
                               "type": "Literal",
                               "start": 1724,
                               "end": 1731,
-                              "value": "error",
-                              "raw": "\"error\""
+                              "value": "error"
                             }
                           }
                         ]
@@ -1878,8 +1843,7 @@
                               "type": "Literal",
                               "start": 1769,
                               "end": 1770,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ]
@@ -1958,8 +1922,7 @@
                     "type": "Literal",
                     "start": 1830,
                     "end": 1949,
-                    "value": "#7.1: obj[0] = -1; obj.length = {valueOf() {throw \"error\"}, toString() {return 0}}; obj.pop() throw \"error\". Actual: ",
-                    "raw": "'#7.1: obj[0] = -1; obj.length = {valueOf() {throw \"error\"}, toString() {return 0}}; obj.pop() throw \"error\". Actual: '"
+                    "value": "#7.1: obj[0] = -1; obj.length = {valueOf() {throw \"error\"}, toString() {return 0}}; obj.pop() throw \"error\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -2032,15 +1995,13 @@
                     "type": "Literal",
                     "start": 1996,
                     "end": 2003,
-                    "value": "error",
-                    "raw": "\"error\""
+                    "value": "error"
                   },
                   {
                     "type": "Literal",
                     "start": 2005,
                     "end": 2047,
-                    "value": "The value of e is expected to be \"error\"",
-                    "raw": "'The value of e is expected to be \"error\"'"
+                    "value": "The value of e is expected to be \"error\""
                   }
                 ],
                 "optional": false
@@ -2083,8 +2044,7 @@
                   "type": "Literal",
                   "start": 2065,
                   "end": 2066,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -2099,8 +2059,7 @@
                   "type": "Literal",
                   "start": 2071,
                   "end": 2072,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -2296,8 +2255,7 @@
                     "type": "Literal",
                     "start": 2222,
                     "end": 2340,
-                    "value": "#8.1: obj[0] = -1; obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.pop() throw TypeError. Actual: ",
-                    "raw": "'#8.1: obj[0] = -1; obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.pop() throw TypeError. Actual: '"
+                    "value": "#8.1: obj[0] = -1; obj.length = {valueOf() {return {}}, toString() {return {}}}  obj.pop() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -2389,8 +2347,7 @@
                     "type": "Literal",
                     "start": 2427,
                     "end": 2501,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                   }
                 ],
                 "optional": false

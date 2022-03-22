@@ -50,8 +50,7 @@
                         "type": "Literal",
                         "start": 420,
                         "end": 421,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -223,15 +222,13 @@
                             "type": "Literal",
                             "start": 512,
                             "end": 513,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 515,
                             "end": 537,
-                            "value": "First result `value`",
-                            "raw": "'First result `value`'"
+                            "value": "First result `value`"
                           }
                         ],
                         "optional": false
@@ -295,8 +292,7 @@
                             "type": "Literal",
                             "start": 579,
                             "end": 605,
-                            "value": "First result `done` flag",
-                            "raw": "'First result `done` flag'"
+                            "value": "First result `done` flag"
                           }
                         ],
                         "optional": false
@@ -468,8 +464,7 @@
                             "type": "Literal",
                             "start": 716,
                             "end": 739,
-                            "value": "Second result `value`",
-                            "raw": "'Second result `value`'"
+                            "value": "Second result `value`"
                           }
                         ],
                         "optional": false
@@ -533,8 +528,7 @@
                             "type": "Literal",
                             "start": 781,
                             "end": 808,
-                            "value": "Second result `done` flag",
-                            "raw": "'Second result `done` flag'"
+                            "value": "Second result `done` flag"
                           }
                         ],
                         "optional": false
@@ -706,8 +700,7 @@
                             "type": "Literal",
                             "start": 919,
                             "end": 941,
-                            "value": "Third result `value`",
-                            "raw": "'Third result `value`'"
+                            "value": "Third result `value`"
                           }
                         ],
                         "optional": false
@@ -771,8 +764,7 @@
                             "type": "Literal",
                             "start": 982,
                             "end": 1007,
-                            "value": "Thid result `done` flag",
-                            "raw": "'Thid result `done` flag'"
+                            "value": "Thid result `done` flag"
                           }
                         ],
                         "optional": false

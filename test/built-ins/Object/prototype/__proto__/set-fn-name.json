@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 538,
                 "end": 549,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               }
             ],
             "optional": false
@@ -113,8 +112,7 @@
             "type": "Literal",
             "start": 584,
             "end": 590,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -204,8 +202,7 @@
                   "type": "Literal",
                   "start": 665,
                   "end": 680,
-                  "value": "set __proto__",
-                  "raw": "\"set __proto__\""
+                  "value": "set __proto__"
                 },
                 "kind": "init"
               }

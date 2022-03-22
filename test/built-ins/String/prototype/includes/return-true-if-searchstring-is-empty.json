@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 832,
             "end": 853,
-            "value": "The future is cool!",
-            "raw": "'The future is cool!'"
+            "value": "The future is cool!"
           }
         }
       ],
@@ -72,8 +71,7 @@
                 "type": "Literal",
                 "start": 879,
                 "end": 881,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               {
                 "type": "MemberExpression",
@@ -101,8 +99,7 @@
             "type": "Literal",
             "start": 898,
             "end": 941,
-            "value": "str.includes(\"\", str.length) returns true",
-            "raw": "'str.includes(\"\", str.length) returns true'"
+            "value": "str.includes(\"\", str.length) returns true"
           }
         ],
         "optional": false
@@ -151,8 +148,7 @@
                 "type": "Literal",
                 "start": 969,
                 "end": 971,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -161,8 +157,7 @@
             "type": "Literal",
             "start": 976,
             "end": 1007,
-            "value": "str.includes(\"\") returns true",
-            "raw": "'str.includes(\"\") returns true'"
+            "value": "str.includes(\"\") returns true"
           }
         ],
         "optional": false
@@ -211,8 +206,7 @@
                 "type": "Literal",
                 "start": 1035,
                 "end": 1037,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               {
                 "type": "Identifier",
@@ -227,8 +221,7 @@
             "type": "Literal",
             "start": 1052,
             "end": 1093,
-            "value": "str.includes(\"\", Infinity) returns true",
-            "raw": "'str.includes(\"\", Infinity) returns true'"
+            "value": "str.includes(\"\", Infinity) returns true"
           }
         ],
         "optional": false

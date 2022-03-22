@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 753,
             "end": 762,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         }
       ],
@@ -516,8 +515,7 @@
             "type": "Literal",
             "start": 1150,
             "end": 1159,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         ],
         "optional": false
@@ -644,8 +642,7 @@
             "type": "Literal",
             "start": 1253,
             "end": 1292,
-            "value": "inner binding value (from parameters)",
-            "raw": "'inner binding value (from parameters)'"
+            "value": "inner binding value (from parameters)"
           }
         ],
         "optional": false
@@ -720,8 +717,7 @@
             "type": "Literal",
             "start": 1349,
             "end": 1395,
-            "value": "inner binding is immutable (from parameters)",
-            "raw": "'inner binding is immutable (from parameters)'"
+            "value": "inner binding is immutable (from parameters)"
           }
         ],
         "optional": false
@@ -778,8 +774,7 @@
             "type": "Literal",
             "start": 1436,
             "end": 1469,
-            "value": "inner binding value (from body)",
-            "raw": "'inner binding value (from body)'"
+            "value": "inner binding value (from body)"
           }
         ],
         "optional": false
@@ -854,8 +849,7 @@
             "type": "Literal",
             "start": 1519,
             "end": 1559,
-            "value": "inner binding is immutable (from body)",
-            "raw": "'inner binding is immutable (from body)'"
+            "value": "inner binding is immutable (from body)"
           }
         ],
         "optional": false

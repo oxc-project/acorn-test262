@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 593,
                   "end": 594,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -209,8 +208,7 @@
                         "type": "Literal",
                         "start": 693,
                         "end": 698,
-                        "value": "foo",
-                        "raw": "\"foo\""
+                        "value": "foo"
                       },
                       {
                         "type": "Identifier",
@@ -285,8 +283,7 @@
                 "type": "Literal",
                 "start": 745,
                 "end": 750,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -302,8 +299,7 @@
             "type": "Literal",
             "start": 760,
             "end": 785,
-            "value": "o.hasOwnProperty(\"foo\")",
-            "raw": "'o.hasOwnProperty(\"foo\")'"
+            "value": "o.hasOwnProperty(\"foo\")"
           }
         ],
         "optional": false

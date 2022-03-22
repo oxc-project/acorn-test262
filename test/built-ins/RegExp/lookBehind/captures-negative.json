@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 1002,
                 "end": 1010,
-                "value": "abcdef",
-                "raw": "\"abcdef\""
+                "value": "abcdef"
               },
               "property": {
                 "type": "Identifier",
@@ -61,7 +60,6 @@
                 "start": 1017,
                 "end": 1037,
                 "value": {},
-                "raw": "/(?<!(^|[ab]))\\w{2}/",
                 "regex": {
                   "pattern": "(?<!(^|[ab]))\\w{2}",
                   "flags": ""
@@ -79,8 +77,7 @@
                 "type": "Literal",
                 "start": 1041,
                 "end": 1045,
-                "value": "de",
-                "raw": "\"de\""
+                "value": "de"
               },
               {
                 "type": "Identifier",

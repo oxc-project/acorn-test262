@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 344,
-                "value": "1976-11-18",
-                "raw": "\"1976-11-18\""
+                "value": "1976-11-18"
               }
             ],
             "optional": false
@@ -125,8 +124,7 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 396,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ],
             "optional": false
@@ -225,36 +223,31 @@
             "type": "Literal",
             "start": 501,
             "end": 505,
-            "value": 1976,
-            "raw": "1976"
+            "value": 1976
           },
           {
             "type": "Literal",
             "start": 507,
             "end": 509,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 511,
             "end": 516,
-            "value": "M11",
-            "raw": "\"M11\""
+            "value": "M11"
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 520,
-            "value": 18,
-            "raw": "18"
+            "value": 18
           },
           {
             "type": "Literal",
             "start": 522,
             "end": 530,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           }
         ],
         "optional": false
@@ -317,8 +310,7 @@
             "type": "Literal",
             "start": 583,
             "end": 600,
-            "value": "object calendar",
-            "raw": "\"object calendar\""
+            "value": "object calendar"
           }
         ],
         "optional": false
@@ -367,8 +359,7 @@
                 "type": "Literal",
                 "start": 648,
                 "end": 657,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ],
             "optional": false
@@ -415,36 +406,31 @@
             "type": "Literal",
             "start": 706,
             "end": 710,
-            "value": 1976,
-            "raw": "1976"
+            "value": 1976
           },
           {
             "type": "Literal",
             "start": 712,
             "end": 714,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 721,
-            "value": "M11",
-            "raw": "\"M11\""
+            "value": "M11"
           },
           {
             "type": "Literal",
             "start": 723,
             "end": 725,
-            "value": 18,
-            "raw": "18"
+            "value": 18
           },
           {
             "type": "Literal",
             "start": 727,
             "end": 735,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           }
         ],
         "optional": false
@@ -514,15 +500,13 @@
             "type": "Literal",
             "start": 781,
             "end": 790,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           },
           {
             "type": "Literal",
             "start": 792,
             "end": 809,
-            "value": "string calendar",
-            "raw": "\"string calendar\""
+            "value": "string calendar"
           }
         ],
         "optional": false

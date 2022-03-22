@@ -163,8 +163,7 @@
             "type": "Literal",
             "start": 464,
             "end": 472,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -355,8 +354,7 @@
             "type": "Literal",
             "start": 602,
             "end": 603,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -365,8 +363,7 @@
           "type": "Literal",
           "start": 607,
           "end": 609,
-          "value": 11,
-          "raw": "11"
+          "value": 11
         }
       }
     },
@@ -393,8 +390,7 @@
             "type": "Literal",
             "start": 617,
             "end": 618,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -403,8 +399,7 @@
           "type": "Literal",
           "start": 622,
           "end": 624,
-          "value": 12,
-          "raw": "12"
+          "value": 12
         }
       }
     },
@@ -502,8 +497,7 @@
                 "type": "Literal",
                 "start": 691,
                 "end": 692,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -512,15 +506,13 @@
             "type": "Literal",
             "start": 695,
             "end": 696,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 749,
-            "value": "Array.prototype.reduce.call(child, callbackfn, 1)",
-            "raw": "'Array.prototype.reduce.call(child, callbackfn, 1)'"
+            "value": "Array.prototype.reduce.call(child, callbackfn, 1)"
           }
         ],
         "optional": false
@@ -571,8 +563,7 @@
             "type": "Literal",
             "start": 786,
             "end": 796,
-            "value": "accessed",
-            "raw": "'accessed'"
+            "value": "accessed"
           }
         ],
         "optional": false

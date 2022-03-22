@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 265,
                 "end": 266,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 268,
                 "end": 269,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -86,8 +84,7 @@
                 "type": "Literal",
                 "start": 291,
                 "end": 292,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -211,16 +208,14 @@
               "type": "Literal",
               "start": 366,
               "end": 376,
-              "value": "[object ",
-              "raw": "\"[object \""
+              "value": "[object "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 379,
               "end": 386,
-              "value": "Array",
-              "raw": "\"Array\""
+              "value": "Array"
             }
           },
           "operator": "+",
@@ -228,8 +223,7 @@
             "type": "Literal",
             "start": 389,
             "end": 392,
-            "value": "]",
-            "raw": "\"]\""
+            "value": "]"
           }
         }
       },
@@ -261,8 +255,7 @@
                     "type": "Literal",
                     "start": 421,
                     "end": 498,
-                    "value": "#0: var x = [0,1]; var arr = x.splice(0,NaN); arr is Array object. Actual: ",
-                    "raw": "'#0: var x = [0,1]; var arr = x.splice(0,NaN); arr is Array object. Actual: '"
+                    "value": "#0: var x = [0,1]; var arr = x.splice(0,NaN); arr is Array object. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -336,8 +329,7 @@
           "type": "Literal",
           "start": 542,
           "end": 543,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -368,8 +360,7 @@
                     "type": "Literal",
                     "start": 572,
                     "end": 646,
-                    "value": "#1: var x = [0,1]; var arr = x.splice(0,NaN); arr.length === 0. Actual: ",
-                    "raw": "'#1: var x = [0,1]; var arr = x.splice(0,NaN); arr.length === 0. Actual: '"
+                    "value": "#1: var x = [0,1]; var arr = x.splice(0,NaN); arr.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -436,8 +427,7 @@
           "type": "Literal",
           "start": 684,
           "end": 685,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -468,8 +458,7 @@
                     "type": "Literal",
                     "start": 714,
                     "end": 786,
-                    "value": "#2: var x = [0,1]; var arr = x.splice(0,NaN); x.length === 2. Actual: ",
-                    "raw": "'#2: var x = [0,1]; var arr = x.splice(0,NaN); x.length === 2. Actual: '"
+                    "value": "#2: var x = [0,1]; var arr = x.splice(0,NaN); x.length === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -526,8 +515,7 @@
             "type": "Literal",
             "start": 811,
             "end": 812,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -537,8 +525,7 @@
           "type": "Literal",
           "start": 818,
           "end": 819,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -569,8 +556,7 @@
                     "type": "Literal",
                     "start": 848,
                     "end": 916,
-                    "value": "#3: var x = [0,1]; var arr = x.splice(0,NaN); x[0] === 0. Actual: ",
-                    "raw": "'#3: var x = [0,1]; var arr = x.splice(0,NaN); x[0] === 0. Actual: '"
+                    "value": "#3: var x = [0,1]; var arr = x.splice(0,NaN); x[0] === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -591,8 +577,7 @@
                         "type": "Literal",
                         "start": 922,
                         "end": 923,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -628,8 +613,7 @@
             "type": "Literal",
             "start": 937,
             "end": 938,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -639,8 +623,7 @@
           "type": "Literal",
           "start": 944,
           "end": 945,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -671,8 +654,7 @@
                     "type": "Literal",
                     "start": 974,
                     "end": 1042,
-                    "value": "#4: var x = [0,1]; var arr = x.splice(0,NaN); x[1] === 1. Actual: ",
-                    "raw": "'#4: var x = [0,1]; var arr = x.splice(0,NaN); x[1] === 1. Actual: '"
+                    "value": "#4: var x = [0,1]; var arr = x.splice(0,NaN); x[1] === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -693,8 +675,7 @@
                         "type": "Literal",
                         "start": 1048,
                         "end": 1049,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       "computed": true,
                       "optional": false

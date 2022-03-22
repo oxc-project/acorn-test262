@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 811,
             "end": 870,
-            "value": "isConstructor(String.prototype.trimEnd) must return false",
-            "raw": "'isConstructor(String.prototype.trimEnd) must return false'"
+            "value": "isConstructor(String.prototype.trimEnd) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 945,
             "end": 996,
-            "value": "`new String.prototype.trimEnd()` throws TypeError",
-            "raw": "'`new String.prototype.trimEnd()` throws TypeError'"
+            "value": "`new String.prototype.trimEnd()` throws TypeError"
           }
         ],
         "optional": false

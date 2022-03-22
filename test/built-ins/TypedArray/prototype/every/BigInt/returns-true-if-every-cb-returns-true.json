@@ -58,8 +58,7 @@
                         "type": "Literal",
                         "start": 833,
                         "end": 834,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -96,15 +95,13 @@
                             "type": "Literal",
                             "start": 867,
                             "end": 868,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 874,
                             "end": 883,
-                            "value": "test262",
-                            "raw": "\"test262\""
+                            "value": "test262"
                           },
                           {
                             "type": "CallExpression",
@@ -121,8 +118,7 @@
                                 "type": "Literal",
                                 "start": 896,
                                 "end": 899,
-                                "value": "1",
-                                "raw": "\"1\""
+                                "value": "1"
                               }
                             ],
                             "optional": false
@@ -149,8 +145,7 @@
                               "type": "Literal",
                               "start": 923,
                               "end": 924,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           },
                           {
@@ -176,8 +171,7 @@
                             "type": "Literal",
                             "start": 959,
                             "end": 962,
-                            "value": 0.1,
-                            "raw": "0.1"
+                            "value": 0.1
                           },
                           {
                             "type": "UnaryExpression",
@@ -189,8 +183,7 @@
                               "type": "Literal",
                               "start": 969,
                               "end": 972,
-                              "value": 0.1,
-                              "raw": "0.1"
+                              "value": 0.1
                             }
                           }
                         ]
@@ -419,8 +412,7 @@
                         "type": "Literal",
                         "start": 1149,
                         "end": 1183,
-                        "value": "callbackfn called for each index",
-                        "raw": "\"callbackfn called for each index\""
+                        "value": "callbackfn called for each index"
                       }
                     ],
                     "optional": false
@@ -471,8 +463,7 @@
                         "type": "Literal",
                         "start": 1219,
                         "end": 1235,
-                        "value": "return is true",
-                        "raw": "\"return is true\""
+                        "value": "return is true"
                       }
                     ],
                     "optional": false

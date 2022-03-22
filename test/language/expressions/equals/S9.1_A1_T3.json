@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 428,
                           "end": 429,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -102,8 +101,7 @@
                           "type": "Literal",
                           "start": 461,
                           "end": 462,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -140,8 +138,7 @@
             "type": "Literal",
             "start": 479,
             "end": 481,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         },
         "operator": "!==",
@@ -149,8 +146,7 @@
           "type": "Literal",
           "start": 486,
           "end": 489,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       },
       "consequent": {
@@ -181,8 +177,7 @@
                     "type": "Literal",
                     "start": 518,
                     "end": 633,
-                    "value": "#1: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; object + \"\" === \"1\". Actual: ",
-                    "raw": "'#1: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; object + \"\" === \"1\". Actual: '"
+                    "value": "#1: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; object + \"\" === \"1\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -204,8 +199,7 @@
                         "type": "Literal",
                         "start": 646,
                         "end": 648,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       }
                     }
                   }
@@ -272,8 +266,7 @@
                           "type": "Literal",
                           "start": 708,
                           "end": 711,
-                          "value": "1",
-                          "raw": "\"1\""
+                          "value": "1"
                         }
                       }
                     ]
@@ -316,8 +309,7 @@
                           "type": "Literal",
                           "start": 743,
                           "end": 744,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -354,8 +346,7 @@
             "type": "Literal",
             "start": 761,
             "end": 762,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         "operator": "!==",
@@ -363,8 +354,7 @@
           "type": "Literal",
           "start": 767,
           "end": 771,
-          "value": "10",
-          "raw": "\"10\""
+          "value": "10"
         }
       },
       "consequent": {
@@ -395,8 +385,7 @@
                     "type": "Literal",
                     "start": 800,
                     "end": 917,
-                    "value": "#2: var object = {valueOf: function() {return \"1\"}, toString: function() {return 0}}; object + 0 === \"10\". Actual: ",
-                    "raw": "'#2: var object = {valueOf: function() {return \"1\"}, toString: function() {return 0}}; object + 0 === \"10\". Actual: '"
+                    "value": "#2: var object = {valueOf: function() {return \"1\"}, toString: function() {return 0}}; object + 0 === \"10\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -418,8 +407,7 @@
                         "type": "Literal",
                         "start": 930,
                         "end": 931,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   }

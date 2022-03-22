@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 528,
             "end": 538,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 609,
-            "value": "Should support Intl.ListFormat.supportedLocalesOf.",
-            "raw": "\"Should support Intl.ListFormat.supportedLocalesOf.\""
+            "value": "Should support Intl.ListFormat.supportedLocalesOf."
           }
         ],
         "optional": false
@@ -201,8 +199,7 @@
             "type": "Literal",
             "start": 702,
             "end": 758,
-            "value": "Should throw when passing null as the options argument",
-            "raw": "\"Should throw when passing null as the options argument\""
+            "value": "Should throw when passing null as the options argument"
           }
         ],
         "optional": false

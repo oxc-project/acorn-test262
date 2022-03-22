@@ -164,22 +164,19 @@
             "type": "Literal",
             "start": 865,
             "end": 871,
-            "value": "min2",
-            "raw": "\"min2\""
+            "value": "min2"
           },
           {
             "type": "Literal",
             "start": 873,
             "end": 879,
-            "value": "auto",
-            "raw": "\"auto\""
+            "value": "auto"
           },
           {
             "type": "Literal",
             "start": 881,
             "end": 889,
-            "value": "always",
-            "raw": "\"always\""
+            "value": "always"
           }
         ]
       },
@@ -302,8 +299,7 @@
             "type": "Literal",
             "start": 996,
             "end": 1004,
-            "value": "always",
-            "raw": "\"always\""
+            "value": "always"
           }
         ],
         "optional": false
@@ -421,8 +417,7 @@
             "type": "Literal",
             "start": 1107,
             "end": 1113,
-            "value": "auto",
-            "raw": "\"auto\""
+            "value": "auto"
           }
         ],
         "optional": false
@@ -462,8 +457,7 @@
             "type": "Literal",
             "start": 1136,
             "end": 1137,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
@@ -476,8 +470,7 @@
             "type": "Literal",
             "start": 1145,
             "end": 1147,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           }
         ]
       },
@@ -582,15 +575,13 @@
             "type": "Literal",
             "start": 1229,
             "end": 1231,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 1233,
             "end": 1239,
-            "value": "MIN2",
-            "raw": "\"MIN2\""
+            "value": "MIN2"
           },
           {
             "type": "ObjectExpression",
@@ -685,8 +676,7 @@
                   "type": "Literal",
                   "start": 1315,
                   "end": 1337,
-                  "value": "Invalid truthy value",
-                  "raw": "\"Invalid truthy value\""
+                  "value": "Invalid truthy value"
                 }
               ],
               "optional": false

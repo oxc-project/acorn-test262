@@ -97,8 +97,7 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 379,
-                "value": "caller",
-                "raw": "'caller'"
+                "value": "caller"
               }
             ],
             "optional": false
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 388,
             "end": 456,
-            "value": "The result of %FunctionPrototype%.hasOwnProperty(\"caller\") is true",
-            "raw": "'The result of %FunctionPrototype%.hasOwnProperty(\"caller\") is true'"
+            "value": "The result of %FunctionPrototype%.hasOwnProperty(\"caller\") is true"
           }
         ],
         "optional": false
@@ -170,8 +168,7 @@
                 "type": "Literal",
                 "start": 528,
                 "end": 536,
-                "value": "caller",
-                "raw": "'caller'"
+                "value": "caller"
               }
             ],
             "optional": false
@@ -238,15 +235,13 @@
             "type": "Literal",
             "start": 579,
             "end": 589,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 643,
-            "value": "%FunctionPrototype%.caller is an accessor property",
-            "raw": "'%FunctionPrototype%.caller is an accessor property'"
+            "value": "%FunctionPrototype%.caller is an accessor property"
           }
         ],
         "optional": false
@@ -310,15 +305,13 @@
             "type": "Literal",
             "start": 686,
             "end": 696,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 750,
-            "value": "%FunctionPrototype%.caller is an accessor property",
-            "raw": "'%FunctionPrototype%.caller is an accessor property'"
+            "value": "%FunctionPrototype%.caller is an accessor property"
           }
         ],
         "optional": false
@@ -394,8 +387,7 @@
             "type": "Literal",
             "start": 802,
             "end": 870,
-            "value": "%FunctionPrototype%.caller getter/setter are both %ThrowTypeError%",
-            "raw": "'%FunctionPrototype%.caller getter/setter are both %ThrowTypeError%'"
+            "value": "%FunctionPrototype%.caller getter/setter are both %ThrowTypeError%"
           }
         ],
         "optional": false
@@ -596,8 +588,7 @@
             "type": "Literal",
             "start": 1067,
             "end": 1075,
-            "value": "caller",
-            "raw": "'caller'"
+            "value": "caller"
           }
         ],
         "optional": false
@@ -628,8 +619,7 @@
             "type": "Literal",
             "start": 1116,
             "end": 1124,
-            "value": "caller",
-            "raw": "'caller'"
+            "value": "caller"
           }
         ],
         "optional": false

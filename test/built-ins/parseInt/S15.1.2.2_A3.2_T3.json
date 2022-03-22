@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 266,
                 "end": 270,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "Literal",
                 "start": 272,
                 "end": 282,
-                "value": 4294967298,
-                "raw": "4294967298"
+                "value": 4294967298
               }
             ],
             "optional": false
@@ -74,15 +72,13 @@
                 "type": "Literal",
                 "start": 296,
                 "end": 300,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "Literal",
                 "start": 302,
                 "end": 303,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -91,8 +87,7 @@
             "type": "Literal",
             "start": 308,
             "end": 393,
-            "value": "parseInt(\"11\", 4294967298) must return the same value returned by parseInt(\"11\", 2)",
-            "raw": "'parseInt(\"11\", 4294967298) must return the same value returned by parseInt(\"11\", 2)'"
+            "value": "parseInt(\"11\", 4294967298) must return the same value returned by parseInt(\"11\", 2)"
           }
         ],
         "optional": false
@@ -141,15 +136,13 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 430,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "Literal",
                 "start": 432,
                 "end": 442,
-                "value": 4294967296,
-                "raw": "4294967296"
+                "value": 4294967296
               }
             ],
             "optional": false
@@ -169,15 +162,13 @@
                 "type": "Literal",
                 "start": 456,
                 "end": 460,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "Literal",
                 "start": 462,
                 "end": 464,
-                "value": 10,
-                "raw": "10"
+                "value": 10
               }
             ],
             "optional": false
@@ -186,8 +177,7 @@
             "type": "Literal",
             "start": 469,
             "end": 555,
-            "value": "parseInt(\"11\", 4294967296) must return the same value returned by parseInt(\"11\", 10)",
-            "raw": "'parseInt(\"11\", 4294967296) must return the same value returned by parseInt(\"11\", 10)'"
+            "value": "parseInt(\"11\", 4294967296) must return the same value returned by parseInt(\"11\", 10)"
           }
         ],
         "optional": false
@@ -236,8 +226,7 @@
                 "type": "Literal",
                 "start": 586,
                 "end": 590,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "UnaryExpression",
@@ -249,8 +238,7 @@
                   "type": "Literal",
                   "start": 593,
                   "end": 603,
-                  "value": 2147483650,
-                  "raw": "2147483650"
+                  "value": 2147483650
                 }
               }
             ],
@@ -266,8 +254,7 @@
             "type": "Literal",
             "start": 611,
             "end": 656,
-            "value": "parseInt(\"11\", -2147483650) must return NaN",
-            "raw": "'parseInt(\"11\", -2147483650) must return NaN'"
+            "value": "parseInt(\"11\", -2147483650) must return NaN"
           }
         ],
         "optional": false
@@ -316,8 +303,7 @@
                 "type": "Literal",
                 "start": 689,
                 "end": 693,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "UnaryExpression",
@@ -329,8 +315,7 @@
                   "type": "Literal",
                   "start": 696,
                   "end": 706,
-                  "value": 4294967294,
-                  "raw": "4294967294"
+                  "value": 4294967294
                 }
               }
             ],
@@ -351,15 +336,13 @@
                 "type": "Literal",
                 "start": 720,
                 "end": 724,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               },
               {
                 "type": "Literal",
                 "start": 726,
                 "end": 727,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -368,8 +351,7 @@
             "type": "Literal",
             "start": 732,
             "end": 818,
-            "value": "parseInt(\"11\", -4294967294) must return the same value returned by parseInt(\"11\", 2)",
-            "raw": "'parseInt(\"11\", -4294967294) must return the same value returned by parseInt(\"11\", 2)'"
+            "value": "parseInt(\"11\", -4294967294) must return the same value returned by parseInt(\"11\", 2)"
           }
         ],
         "optional": false

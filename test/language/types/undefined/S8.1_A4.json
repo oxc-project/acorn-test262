@@ -77,8 +77,7 @@
                     "type": "Literal",
                     "start": 349,
                     "end": 405,
-                    "value": "#1: (new Object()).newProperty === undefined. Actual: ",
-                    "raw": "'#1: (new Object()).newProperty === undefined. Actual: '"
+                    "value": "#1: (new Object()).newProperty === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

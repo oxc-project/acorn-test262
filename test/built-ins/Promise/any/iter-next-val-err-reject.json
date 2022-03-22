@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 820,
             "end": 821,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 921,
             "end": 928,
-            "value": "value",
-            "raw": "'value'"
+            "value": "value"
           },
           {
             "type": "ObjectExpression",
@@ -479,8 +477,7 @@
                             "type": "Literal",
                             "start": 1200,
                             "end": 1250,
-                            "value": "The promise should be rejected, but was resolved",
-                            "raw": "'The promise should be rejected, but was resolved'"
+                            "value": "The promise should be rejected, but was resolved"
                           }
                         ],
                         "optional": false
@@ -629,15 +626,13 @@
                             "type": "Literal",
                             "start": 1376,
                             "end": 1377,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 1379,
                             "end": 1396,
-                            "value": "callCount === 3",
-                            "raw": "'callCount === 3'"
+                            "value": "callCount === 3"
                           }
                         ],
                         "optional": false

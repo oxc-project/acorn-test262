@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 556,
                 "end": 557,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -177,8 +176,7 @@
                           "type": "Literal",
                           "start": 650,
                           "end": 651,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       ]
                     }
@@ -224,8 +222,7 @@
                       "type": "Literal",
                       "start": 683,
                       "end": 684,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "ObjectExpression",
@@ -249,8 +246,7 @@
                             "type": "Literal",
                             "start": 703,
                             "end": 704,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           "kind": "init"
                         },
@@ -403,8 +399,7 @@
                         "type": "Literal",
                         "start": 821,
                         "end": 822,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     }
                   ]
@@ -442,8 +437,7 @@
             "type": "Literal",
             "start": 847,
             "end": 848,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "ObjectExpression",
@@ -467,8 +461,7 @@
                   "type": "Literal",
                   "start": 863,
                   "end": 864,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },

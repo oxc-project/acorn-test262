@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 371,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 384,
             "end": 455,
-            "value": "Date.prototype.toDateString.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.prototype.toDateString.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.prototype.toDateString.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -186,15 +184,13 @@
             "type": "Literal",
             "start": 518,
             "end": 519,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 523,
             "end": 592,
-            "value": "The value of Date.prototype.toDateString.length is expected to be 0",
-            "raw": "'The value of Date.prototype.toDateString.length is expected to be 0'"
+            "value": "The value of Date.prototype.toDateString.length is expected to be 0"
           }
         ],
         "optional": false

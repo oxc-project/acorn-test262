@@ -44,8 +44,7 @@
               "type": "Literal",
               "start": 336,
               "end": 339,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           }
         },
@@ -82,8 +81,7 @@
                   "type": "Literal",
                   "start": 378,
                   "end": 419,
-                  "value": "#1: (new Boolean(true) == \"1\") === true",
-                  "raw": "'#1: (new Boolean(true) == \"1\") === true'"
+                  "value": "#1: (new Boolean(true) == \"1\") === true"
                 }
               ]
             }
@@ -129,8 +127,7 @@
                     "type": "Literal",
                     "start": 452,
                     "end": 453,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -140,8 +137,7 @@
               "type": "Literal",
               "start": 458,
               "end": 462,
-              "value": "-1",
-              "raw": "\"-1\""
+              "value": "-1"
             }
           }
         },
@@ -178,8 +174,7 @@
                   "type": "Literal",
                   "start": 501,
                   "end": 540,
-                  "value": "#2: (new Number(-1) == \"-1\") === true",
-                  "raw": "'#2: (new Number(-1) == \"-1\") === true'"
+                  "value": "#2: (new Number(-1) == \"-1\") === true"
                 }
               ]
             }
@@ -219,8 +214,7 @@
                   "type": "Literal",
                   "start": 572,
                   "end": 575,
-                  "value": "x",
-                  "raw": "\"x\""
+                  "value": "x"
                 }
               ]
             },
@@ -229,8 +223,7 @@
               "type": "Literal",
               "start": 580,
               "end": 583,
-              "value": "x",
-              "raw": "\"x\""
+              "value": "x"
             }
           }
         },
@@ -267,8 +260,7 @@
                   "type": "Literal",
                   "start": 622,
                   "end": 661,
-                  "value": "#3: (new String(\"x\") == \"x\") === true",
-                  "raw": "'#3: (new String(\"x\") == \"x\") === true'"
+                  "value": "#3: (new String(\"x\") == \"x\") === true"
                 }
               ]
             }

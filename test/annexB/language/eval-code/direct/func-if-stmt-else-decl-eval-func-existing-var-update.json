@@ -68,8 +68,7 @@
                         "type": "Literal",
                         "start": 1605,
                         "end": 1706,
-                        "value": "if (false) ; else function f() { return \"function declaration\"; }after = f;        var f = 123;",
-                        "raw": "'if (false) ; else function f() { return \"function declaration\"; }after = f;\\\n    \\\n    var f = 123;'"
+                        "value": "if (false) ; else function f() { return \"function declaration\"; }after = f;        var f = 123;"
                       }
                     ],
                     "optional": false
@@ -128,8 +127,7 @@
             "type": "Literal",
             "start": 1750,
             "end": 1760,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -180,8 +178,7 @@
             "type": "Literal",
             "start": 1789,
             "end": 1811,
-            "value": "function declaration",
-            "raw": "'function declaration'"
+            "value": "function declaration"
           }
         ],
         "optional": false

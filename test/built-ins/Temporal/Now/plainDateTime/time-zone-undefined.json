@@ -104,8 +104,7 @@
             "type": "Literal",
             "start": 367,
             "end": 373,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -172,8 +171,7 @@
                               "type": "Literal",
                               "start": 403,
                               "end": 431,
-                              "value": "get Temporal.TimeZone.from",
-                              "raw": "\"get Temporal.TimeZone.from\""
+                              "value": "get Temporal.TimeZone.from"
                             }
                           ],
                           "optional": false
@@ -256,8 +254,7 @@
                 "type": "Literal",
                 "start": 516,
                 "end": 525,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Identifier",
@@ -322,8 +319,7 @@
             "type": "Literal",
             "start": 601,
             "end": 701,
-            "value": "The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true",
-            "raw": "'The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true'"
+            "value": "The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true"
           }
         ],
         "optional": false
@@ -373,8 +369,7 @@
             "type": "Literal",
             "start": 744,
             "end": 808,
-            "value": "The value of actual is expected to equal the value of expected",
-            "raw": "'The value of actual is expected to equal the value of expected'"
+            "value": "The value of actual is expected to equal the value of expected"
           }
         ],
         "optional": false
@@ -436,8 +431,7 @@
                 "type": "Literal",
                 "start": 862,
                 "end": 871,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ],
             "optional": false
@@ -496,8 +490,7 @@
             "type": "Literal",
             "start": 936,
             "end": 1036,
-            "value": "The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true",
-            "raw": "'The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true'"
+            "value": "The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true"
           }
         ],
         "optional": false
@@ -547,8 +540,7 @@
             "type": "Literal",
             "start": 1079,
             "end": 1143,
-            "value": "The value of actual is expected to equal the value of expected",
-            "raw": "'The value of actual is expected to equal the value of expected'"
+            "value": "The value of actual is expected to equal the value of expected"
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 363,
                 "end": 365,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               }
             ]
           }
@@ -78,8 +77,7 @@
                 "type": "Literal",
                 "start": 402,
                 "end": 403,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -198,8 +196,7 @@
                         "type": "Literal",
                         "start": 501,
                         "end": 502,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -212,8 +209,7 @@
             "type": "Literal",
             "start": 508,
             "end": 556,
-            "value": "DataView access at index Infinity should throw",
-            "raw": "\"DataView access at index Infinity should throw\""
+            "value": "DataView access at index Infinity should throw"
           }
         ],
         "optional": false
@@ -305,16 +301,14 @@
                           "type": "Literal",
                           "start": 621,
                           "end": 622,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       {
                         "type": "Literal",
                         "start": 624,
                         "end": 625,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -327,8 +321,7 @@
             "type": "Literal",
             "start": 631,
             "end": 673,
-            "value": "DataView access at index -1 should throw",
-            "raw": "\"DataView access at index -1 should throw\""
+            "value": "DataView access at index -1 should throw"
           }
         ],
         "optional": false

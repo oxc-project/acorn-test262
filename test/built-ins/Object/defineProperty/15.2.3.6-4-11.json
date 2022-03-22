@@ -65,8 +65,7 @@
                     "type": "Literal",
                     "start": 717,
                     "end": 718,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -205,8 +204,7 @@
             "type": "Literal",
             "start": 818,
             "end": 823,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Identifier",
@@ -373,8 +371,7 @@
                         "type": "Literal",
                         "start": 1061,
                         "end": 1066,
-                        "value": "foo",
-                        "raw": "\"foo\""
+                        "value": "foo"
                       },
                       {
                         "type": "Identifier",
@@ -442,8 +439,7 @@
                 "type": "Literal",
                 "start": 1164,
                 "end": 1169,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -509,8 +505,7 @@
             "type": "Literal",
             "start": 1205,
             "end": 1213,
-            "value": "d2.get",
-            "raw": "'d2.get'"
+            "value": "d2.get"
           }
         ],
         "optional": false
@@ -574,8 +569,7 @@
             "type": "Literal",
             "start": 1254,
             "end": 1269,
-            "value": "d2.enumerable",
-            "raw": "'d2.enumerable'"
+            "value": "d2.enumerable"
           }
         ],
         "optional": false
@@ -639,8 +633,7 @@
             "type": "Literal",
             "start": 1313,
             "end": 1330,
-            "value": "d2.configurable",
-            "raw": "'d2.configurable'"
+            "value": "d2.configurable"
           }
         ],
         "optional": false

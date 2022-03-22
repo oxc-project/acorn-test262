@@ -93,10 +93,9 @@
               "end": 859,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 811,
-                  "end": 857,
-                  "static": false,
+                  "end": 856,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -119,8 +118,7 @@
                         "type": "Literal",
                         "start": 820,
                         "end": 855,
-                        "value": "executed = true; () => super().x;",
-                        "raw": "'executed = true; () => super().x;'"
+                        "value": "executed = true; () => super().x;"
                       }
                     ],
                     "optional": false

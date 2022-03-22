@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 531,
                 "end": 539,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 570,
                     "end": 655,
-                    "value": "#1: String.prototype.localeCompare.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#1: String.prototype.localeCompare.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#1: String.prototype.localeCompare.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 704,
                         "end": 712,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -294,8 +291,7 @@
             "type": "Literal",
             "start": 903,
             "end": 911,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -326,8 +322,7 @@
                     "type": "Literal",
                     "start": 941,
                     "end": 950,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -426,8 +421,7 @@
                     "type": "Literal",
                     "start": 1126,
                     "end": 1307,
-                    "value": "#2: __obj = String.prototype.localeCompare.length; String.prototype.localeCompare.length = function(){return \"shifted\";}; String.prototype.localeCompare.length === __obj. Actual: ",
-                    "raw": "'#2: __obj = String.prototype.localeCompare.length; String.prototype.localeCompare.length = function(){return \"shifted\";}; String.prototype.localeCompare.length === __obj. Actual: '"
+                    "value": "#2: __obj = String.prototype.localeCompare.length; String.prototype.localeCompare.length = function(){return \"shifted\";}; String.prototype.localeCompare.length === __obj. Actual: "
                   },
                   "operator": "+",
                   "right": {

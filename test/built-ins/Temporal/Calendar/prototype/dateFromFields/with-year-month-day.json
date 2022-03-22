@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 804,
                 "end": 813,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -129,8 +128,7 @@
                       "type": "Literal",
                       "start": 879,
                       "end": 883,
-                      "value": 2021,
-                      "raw": "2021"
+                      "value": 2021
                     },
                     "kind": "init"
                   },
@@ -151,8 +149,7 @@
                       "type": "Literal",
                       "start": 892,
                       "end": 893,
-                      "value": 7,
-                      "raw": "7"
+                      "value": 7
                     },
                     "kind": "init"
                   },
@@ -173,8 +170,7 @@
                       "type": "Literal",
                       "start": 900,
                       "end": 902,
-                      "value": 15,
-                      "raw": "15"
+                      "value": 15
                     },
                     "kind": "init"
                   }
@@ -187,36 +183,31 @@
             "type": "Literal",
             "start": 910,
             "end": 914,
-            "value": 2021,
-            "raw": "2021"
+            "value": 2021
           },
           {
             "type": "Literal",
             "start": 916,
             "end": 917,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 919,
             "end": 924,
-            "value": "M07",
-            "raw": "\"M07\""
+            "value": "M07"
           },
           {
             "type": "Literal",
             "start": 926,
             "end": 928,
-            "value": 15,
-            "raw": "15"
+            "value": 15
           },
           {
             "type": "Literal",
             "start": 934,
             "end": 950,
-            "value": "year/month/day",
-            "raw": "\"year/month/day\""
+            "value": "year/month/day"
           }
         ],
         "optional": false

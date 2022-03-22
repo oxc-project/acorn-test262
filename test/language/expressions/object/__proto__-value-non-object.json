@@ -152,8 +152,7 @@
             "type": "Literal",
             "start": 776,
             "end": 799,
-            "value": "prototype (undefined)",
-            "raw": "'prototype (undefined)'"
+            "value": "prototype (undefined)"
           }
         ],
         "optional": false
@@ -221,8 +220,7 @@
                 "type": "Literal",
                 "start": 863,
                 "end": 874,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               }
             ],
             "optional": false
@@ -237,8 +235,7 @@
             "type": "Literal",
             "start": 892,
             "end": 914,
-            "value": "property (undefined)",
-            "raw": "'property (undefined)'"
+            "value": "property (undefined)"
           }
         ],
         "optional": false
@@ -281,8 +278,7 @@
                 "type": "Literal",
                 "start": 943,
                 "end": 944,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "kind": "init"
             }
@@ -374,8 +370,7 @@
             "type": "Literal",
             "start": 1021,
             "end": 1052,
-            "value": "prototype (numeric primitive)",
-            "raw": "'prototype (numeric primitive)'"
+            "value": "prototype (numeric primitive)"
           }
         ],
         "optional": false
@@ -443,8 +438,7 @@
                 "type": "Literal",
                 "start": 1116,
                 "end": 1127,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               }
             ],
             "optional": false
@@ -459,8 +453,7 @@
             "type": "Literal",
             "start": 1145,
             "end": 1175,
-            "value": "property (numeric primitive)",
-            "raw": "'property (numeric primitive)'"
+            "value": "property (numeric primitive)"
           }
         ],
         "optional": false
@@ -596,8 +589,7 @@
             "type": "Literal",
             "start": 1286,
             "end": 1317,
-            "value": "prototype (boolean primitive)",
-            "raw": "'prototype (boolean primitive)'"
+            "value": "prototype (boolean primitive)"
           }
         ],
         "optional": false
@@ -665,8 +657,7 @@
                 "type": "Literal",
                 "start": 1381,
                 "end": 1392,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               }
             ],
             "optional": false
@@ -681,8 +672,7 @@
             "type": "Literal",
             "start": 1410,
             "end": 1440,
-            "value": "property (boolean primitive)",
-            "raw": "'property (boolean primitive)'"
+            "value": "property (boolean primitive)"
           }
         ],
         "optional": false
@@ -725,8 +715,7 @@
                 "type": "Literal",
                 "start": 1469,
                 "end": 1485,
-                "value": "string literal",
-                "raw": "'string literal'"
+                "value": "string literal"
               },
               "kind": "init"
             }
@@ -818,8 +807,7 @@
             "type": "Literal",
             "start": 1562,
             "end": 1592,
-            "value": "prototype (string primitive)",
-            "raw": "'prototype (string primitive)'"
+            "value": "prototype (string primitive)"
           }
         ],
         "optional": false
@@ -887,8 +875,7 @@
                 "type": "Literal",
                 "start": 1656,
                 "end": 1667,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               }
             ],
             "optional": false
@@ -903,8 +890,7 @@
             "type": "Literal",
             "start": 1685,
             "end": 1714,
-            "value": "property (string primitive)",
-            "raw": "'property (string primitive)'"
+            "value": "property (string primitive)"
           }
         ],
         "optional": false
@@ -958,8 +944,7 @@
                     "type": "Literal",
                     "start": 1750,
                     "end": 1752,
-                    "value": "",
-                    "raw": "''"
+                    "value": ""
                   }
                 ],
                 "optional": false
@@ -1054,8 +1039,7 @@
             "type": "Literal",
             "start": 1830,
             "end": 1850,
-            "value": "prototype (symbol)",
-            "raw": "'prototype (symbol)'"
+            "value": "prototype (symbol)"
           }
         ],
         "optional": false
@@ -1123,8 +1107,7 @@
                 "type": "Literal",
                 "start": 1914,
                 "end": 1925,
-                "value": "__proto__",
-                "raw": "'__proto__'"
+                "value": "__proto__"
               }
             ],
             "optional": false
@@ -1139,8 +1122,7 @@
             "type": "Literal",
             "start": 1943,
             "end": 1962,
-            "value": "property (symbol)",
-            "raw": "'property (symbol)'"
+            "value": "property (symbol)"
           }
         ],
         "optional": false

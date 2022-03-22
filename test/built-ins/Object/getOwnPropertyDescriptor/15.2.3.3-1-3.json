@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 318,
             "end": 323,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false

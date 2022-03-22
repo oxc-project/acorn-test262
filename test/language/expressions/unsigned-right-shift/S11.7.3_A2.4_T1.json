@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 287,
             "end": 288,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 300,
                 "end": 301,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -78,8 +76,7 @@
           "type": "Literal",
           "start": 313,
           "end": 314,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -110,8 +107,7 @@
                     "type": "Literal",
                     "start": 343,
                     "end": 389,
-                    "value": "#1: var x = 0; (x = 1) >>> x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; (x = 1) >>> x === 0. Actual: '"
+                    "value": "#1: var x = 0; (x = 1) >>> x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -141,8 +137,7 @@
                             "type": "Literal",
                             "start": 398,
                             "end": 399,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -188,8 +183,7 @@
               "type": "Literal",
               "start": 432,
               "end": 433,
-              "value": 4,
-              "raw": "4"
+              "value": 4
             }
           }
         }
@@ -234,8 +228,7 @@
                 "type": "Literal",
                 "start": 451,
                 "end": 452,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -245,8 +238,7 @@
           "type": "Literal",
           "start": 458,
           "end": 468,
-          "value": 2147483646,
-          "raw": "2147483646"
+          "value": 2147483646
         }
       },
       "consequent": {
@@ -277,8 +269,7 @@
                     "type": "Literal",
                     "start": 497,
                     "end": 553,
-                    "value": "#2: var x = -4; x >>> (x = 1) === 2147483646. Actual: ",
-                    "raw": "'#2: var x = -4; x >>> (x = 1) === 2147483646. Actual: '"
+                    "value": "#2: var x = -4; x >>> (x = 1) === 2147483646. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -315,8 +306,7 @@
                             "type": "Literal",
                             "start": 568,
                             "end": 569,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }

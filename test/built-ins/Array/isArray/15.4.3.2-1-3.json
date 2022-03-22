@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 279,
                 "end": 280,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ],
             "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 290,
             "end": 326,
-            "value": "Array.isArray(5) must return false",
-            "raw": "'Array.isArray(5) must return false'"
+            "value": "Array.isArray(5) must return false"
           }
         ],
         "optional": false

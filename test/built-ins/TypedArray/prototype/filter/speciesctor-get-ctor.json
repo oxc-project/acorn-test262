@@ -74,29 +74,25 @@
                                 "type": "Literal",
                                 "start": 850,
                                 "end": 852,
-                                "value": 40,
-                                "raw": "40"
+                                "value": 40
                               },
                               {
                                 "type": "Literal",
                                 "start": 854,
                                 "end": 856,
-                                "value": 41,
-                                "raw": "41"
+                                "value": 41
                               },
                               {
                                 "type": "Literal",
                                 "start": 858,
                                 "end": 860,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 862,
                                 "end": 864,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -125,8 +121,7 @@
                         "type": "Literal",
                         "start": 882,
                         "end": 883,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -190,8 +185,7 @@
                         "type": "Literal",
                         "start": 932,
                         "end": 945,
-                        "value": "constructor",
-                        "raw": "\"constructor\""
+                        "value": "constructor"
                       },
                       {
                         "type": "ObjectExpression",
@@ -365,15 +359,13 @@
                         "type": "Literal",
                         "start": 1081,
                         "end": 1082,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1084,
                         "end": 1122,
-                        "value": "called custom ctor get accessor once",
-                        "raw": "\"called custom ctor get accessor once\""
+                        "value": "called custom ctor get accessor once"
                       }
                     ],
                     "optional": false
@@ -477,8 +469,7 @@
                         "type": "Literal",
                         "start": 1220,
                         "end": 1283,
-                        "value": "use defaultCtor on an undefined return - getPrototypeOf check",
-                        "raw": "\"use defaultCtor on an undefined return - getPrototypeOf check\""
+                        "value": "use defaultCtor on an undefined return - getPrototypeOf check"
                       }
                     ],
                     "optional": false
@@ -541,8 +532,7 @@
                         "type": "Literal",
                         "start": 1345,
                         "end": 1406,
-                        "value": "use defaultCtor on an undefined return - .constructor check",
-                        "raw": "\"use defaultCtor on an undefined return - .constructor check\""
+                        "value": "use defaultCtor on an undefined return - .constructor check"
                       }
                     ],
                     "optional": false

@@ -88,8 +88,7 @@
                     "type": "Literal",
                     "start": 372,
                     "end": 450,
-                    "value": "#1.1: object instanceof (object = {}, Object) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: object instanceof (object = {}, Object) throw ReferenceError. Actual: '"
+                    "value": "#1.1: object instanceof (object = {}, Object) throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -234,8 +233,7 @@
                             "type": "Literal",
                             "start": 588,
                             "end": 666,
-                            "value": "#1.2: object instanceof (object = {}, Object) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: object instanceof (object = {}, Object) throw ReferenceError. Actual: '"
+                            "value": "#1.2: object instanceof (object = {}, Object) throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

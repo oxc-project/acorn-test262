@@ -32,8 +32,7 @@
                 "type": "Literal",
                 "start": 299,
                 "end": 300,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -44,8 +43,7 @@
           "type": "Literal",
           "start": 306,
           "end": 309,
-          "value": "0",
-          "raw": "\"0\""
+          "value": "0"
         }
       },
       "consequent": {
@@ -76,8 +74,7 @@
                     "type": "Literal",
                     "start": 338,
                     "end": 372,
-                    "value": "#1: String(+0) === \"0\". Actual: ",
-                    "raw": "'#1: String(+0) === \"0\". Actual: '"
+                    "value": "#1: String(+0) === \"0\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -105,8 +102,7 @@
                             "type": "Literal",
                             "start": 384,
                             "end": 385,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         }
                       ],
@@ -150,8 +146,7 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 417,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -162,8 +157,7 @@
           "type": "Literal",
           "start": 423,
           "end": 426,
-          "value": "0",
-          "raw": "\"0\""
+          "value": "0"
         }
       },
       "consequent": {
@@ -194,8 +188,7 @@
                     "type": "Literal",
                     "start": 455,
                     "end": 489,
-                    "value": "#2: String(-0) === \"0\". Actual: ",
-                    "raw": "'#2: String(-0) === \"0\". Actual: '"
+                    "value": "#2: String(-0) === \"0\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -223,8 +216,7 @@
                             "type": "Literal",
                             "start": 501,
                             "end": 502,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         }
                       ],

@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 295,
                 "end": 296,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -69,15 +68,13 @@
             "type": "Literal",
             "start": 299,
             "end": 300,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 302,
             "end": 317,
-            "value": "Math.hypot(0)",
-            "raw": "'Math.hypot(0)'"
+            "value": "Math.hypot(0)"
           }
         ],
         "optional": false
@@ -145,8 +142,7 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 350,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -156,15 +152,13 @@
             "type": "Literal",
             "start": 353,
             "end": 354,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 356,
             "end": 372,
-            "value": "Math.hypot(-0)",
-            "raw": "'Math.hypot(-0)'"
+            "value": "Math.hypot(-0)"
           }
         ],
         "optional": false
@@ -226,15 +220,13 @@
                 "type": "Literal",
                 "start": 403,
                 "end": 404,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 406,
                 "end": 407,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -243,15 +235,13 @@
             "type": "Literal",
             "start": 410,
             "end": 411,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 413,
             "end": 431,
-            "value": "Math.hypot(0, 0)",
-            "raw": "'Math.hypot(0, 0)'"
+            "value": "Math.hypot(0, 0)"
           }
         ],
         "optional": false
@@ -313,8 +303,7 @@
                 "type": "Literal",
                 "start": 462,
                 "end": 463,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "UnaryExpression",
@@ -326,8 +315,7 @@
                   "type": "Literal",
                   "start": 466,
                   "end": 467,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -337,15 +325,13 @@
             "type": "Literal",
             "start": 470,
             "end": 471,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 492,
-            "value": "Math.hypot(0, -0)",
-            "raw": "'Math.hypot(0, -0)'"
+            "value": "Math.hypot(0, -0)"
           }
         ],
         "optional": false
@@ -413,16 +399,14 @@
                   "type": "Literal",
                   "start": 524,
                   "end": 525,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               {
                 "type": "Literal",
                 "start": 527,
                 "end": 528,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -431,15 +415,13 @@
             "type": "Literal",
             "start": 531,
             "end": 532,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 534,
             "end": 553,
-            "value": "Math.hypot(-0, 0)",
-            "raw": "'Math.hypot(-0, 0)'"
+            "value": "Math.hypot(-0, 0)"
           }
         ],
         "optional": false
@@ -507,8 +489,7 @@
                   "type": "Literal",
                   "start": 585,
                   "end": 586,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               {
@@ -521,8 +502,7 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 590,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -532,15 +512,13 @@
             "type": "Literal",
             "start": 593,
             "end": 594,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 596,
             "end": 616,
-            "value": "Math.hypot(-0, -0)",
-            "raw": "'Math.hypot(-0, -0)'"
+            "value": "Math.hypot(-0, -0)"
           }
         ],
         "optional": false
@@ -602,8 +580,7 @@
                 "type": "Literal",
                 "start": 647,
                 "end": 648,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "UnaryExpression",
@@ -615,8 +592,7 @@
                   "type": "Literal",
                   "start": 651,
                   "end": 652,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               {
@@ -629,8 +605,7 @@
                   "type": "Literal",
                   "start": 655,
                   "end": 656,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -640,15 +615,13 @@
             "type": "Literal",
             "start": 659,
             "end": 660,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 662,
             "end": 685,
-            "value": "Math.hypot(0, -0, -0)",
-            "raw": "'Math.hypot(0, -0, -0)'"
+            "value": "Math.hypot(0, -0, -0)"
           }
         ],
         "optional": false

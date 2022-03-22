@@ -77,8 +77,7 @@
                 "type": "Literal",
                 "start": 327,
                 "end": 334,
-                "value": "Hello",
-                "raw": "\"Hello\""
+                "value": "Hello"
               }
             ]
           },
@@ -135,8 +134,7 @@
                 "type": "Literal",
                 "start": 369,
                 "end": 376,
-                "value": "Hello",
-                "raw": "\"Hello\""
+                "value": "Hello"
               }
             ],
             "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 379,
             "end": 417,
-            "value": "obj.hasOwnProperty(\"Hello\") !== true",
-            "raw": "'obj.hasOwnProperty(\"Hello\") !== true'"
+            "value": "obj.hasOwnProperty(\"Hello\") !== true"
           }
         ],
         "optional": false

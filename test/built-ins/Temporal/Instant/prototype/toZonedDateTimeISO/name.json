@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 867,
             "end": 873,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 886,
                   "end": 906,
-                  "value": "toZonedDateTimeISO",
-                  "raw": "\"toZonedDateTimeISO\""
+                  "value": "toZonedDateTimeISO"
                 },
                 "kind": "init"
               },

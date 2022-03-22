@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 543,
                 "end": 555,
-                "value": "byteLength",
-                "raw": "'byteLength'"
+                "value": "byteLength"
               }
             ],
             "optional": false
@@ -139,15 +138,13 @@
             "type": "Literal",
             "start": 601,
             "end": 617,
-            "value": "get byteLength",
-            "raw": "'get byteLength'"
+            "value": "get byteLength"
           },
           {
             "type": "Literal",
             "start": 621,
             "end": 679,
-            "value": "The value of `descriptor.get.name` is `\"get byteLength\"`",
-            "raw": "'The value of `descriptor.get.name` is `\"get byteLength\"`'"
+            "value": "The value of `descriptor.get.name` is `\"get byteLength\"`"
           }
         ],
         "optional": false
@@ -191,8 +188,7 @@
             "type": "Literal",
             "start": 720,
             "end": 726,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -236,8 +232,7 @@
             "type": "Literal",
             "start": 763,
             "end": 769,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -281,8 +276,7 @@
             "type": "Literal",
             "start": 807,
             "end": 813,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

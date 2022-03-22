@@ -23,7 +23,6 @@
             "start": 624,
             "end": 627,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -139,7 +138,6 @@
                             "start": 718,
                             "end": 721,
                             "value": {},
-                            "raw": "/./",
                             "regex": {
                               "pattern": ".",
                               "flags": ""
@@ -149,8 +147,7 @@
                             "type": "Literal",
                             "start": 723,
                             "end": 732,
-                            "value": "unicode",
-                            "raw": "'unicode'"
+                            "value": "unicode"
                           },
                           {
                             "type": "ObjectExpression",
@@ -266,8 +263,7 @@
             "type": "Literal",
             "start": 832,
             "end": 834,
-            "value": "",
-            "raw": "''"
+            "value": ""
           }
         ],
         "optional": false

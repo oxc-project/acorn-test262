@@ -173,8 +173,7 @@
               "type": "Literal",
               "start": 464,
               "end": 556,
-              "value": "Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got ",
-              "raw": "\"Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got \""
+              "value": "Prototype of object constructed by Intl.PluralRules isn't Intl.PluralRules.prototype; got "
             },
             "operator": "+",
             "right": {
@@ -240,8 +239,7 @@
             "type": "Literal",
             "start": 611,
             "end": 671,
-            "value": "Object constructed by Intl.PluralRules must be extensible.",
-            "raw": "\"Object constructed by Intl.PluralRules must be extensible.\""
+            "value": "Object constructed by Intl.PluralRules must be extensible."
           }
         ],
         "optional": false

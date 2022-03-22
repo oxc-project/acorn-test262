@@ -44,7 +44,6 @@
                 "start": 1010,
                 "end": 1023,
                 "value": {},
-                "raw": "/b(c)(z)?(.)/",
                 "regex": {
                   "pattern": "b(c)(z)?(.)",
                   "flags": ""
@@ -77,15 +76,13 @@
                 "type": "Literal",
                 "start": 1040,
                 "end": 1047,
-                "value": "abcde",
-                "raw": "'abcde'"
+                "value": "abcde"
               },
               {
                 "type": "Literal",
                 "start": 1049,
                 "end": 1062,
-                "value": "[$01$02$03]",
-                "raw": "'[$01$02$03]'"
+                "value": "[$01$02$03]"
               }
             ],
             "optional": false
@@ -94,8 +91,7 @@
             "type": "Literal",
             "start": 1065,
             "end": 1073,
-            "value": "a[cd]e",
-            "raw": "'a[cd]e'"
+            "value": "a[cd]e"
           }
         ],
         "optional": false
@@ -142,7 +138,6 @@
                 "start": 1098,
                 "end": 1111,
                 "value": {},
-                "raw": "/b(c)(z)?(.)/",
                 "regex": {
                   "pattern": "b(c)(z)?(.)",
                   "flags": ""
@@ -175,15 +170,13 @@
                 "type": "Literal",
                 "start": 1128,
                 "end": 1135,
-                "value": "abcde",
-                "raw": "'abcde'"
+                "value": "abcde"
               },
               {
                 "type": "Literal",
                 "start": 1137,
                 "end": 1156,
-                "value": "[$01$02$03$04$00]",
-                "raw": "'[$01$02$03$04$00]'"
+                "value": "[$01$02$03$04$00]"
               }
             ],
             "optional": false
@@ -192,8 +185,7 @@
             "type": "Literal",
             "start": 1159,
             "end": 1173,
-            "value": "a[cd$04$00]e",
-            "raw": "'a[cd$04$00]e'"
+            "value": "a[cd$04$00]e"
           }
         ],
         "optional": false

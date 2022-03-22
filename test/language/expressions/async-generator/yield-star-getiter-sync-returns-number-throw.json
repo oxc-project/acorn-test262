@@ -72,8 +72,7 @@
                           "type": "Literal",
                           "start": 1399,
                           "end": 1400,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -105,8 +104,7 @@
             "type": "Literal",
             "start": 1428,
             "end": 1429,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -160,8 +158,7 @@
                       "type": "Literal",
                       "start": 1478,
                       "end": 1479,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -201,8 +198,7 @@
                         "type": "Literal",
                         "start": 1522,
                         "end": 1553,
-                        "value": "abrupt completion closes iter",
-                        "raw": "'abrupt completion closes iter'"
+                        "value": "abrupt completion closes iter"
                       }
                     ]
                   }
@@ -335,8 +331,7 @@
                             "type": "Literal",
                             "start": 1630,
                             "end": 1662,
-                            "value": "Promise incorrectly fulfilled.",
-                            "raw": "'Promise incorrectly fulfilled.'"
+                            "value": "Promise incorrectly fulfilled."
                           }
                         ]
                       }
@@ -422,8 +417,7 @@
                             "type": "Literal",
                             "start": 1720,
                             "end": 1731,
-                            "value": "TypeError",
-                            "raw": "\"TypeError\""
+                            "value": "TypeError"
                           }
                         ],
                         "optional": false
@@ -594,8 +588,7 @@
                                             "type": "Literal",
                                             "start": 1810,
                                             "end": 1837,
-                                            "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "value": "the iterator is completed"
                                           }
                                         ],
                                         "optional": false
@@ -645,8 +638,7 @@
                                             "type": "Literal",
                                             "start": 1879,
                                             "end": 1899,
-                                            "value": "value is undefined",
-                                            "raw": "'value is undefined'"
+                                            "value": "value is undefined"
                                           }
                                         ],
                                         "optional": false
@@ -748,8 +740,7 @@
             "type": "Literal",
             "start": 1973,
             "end": 1974,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

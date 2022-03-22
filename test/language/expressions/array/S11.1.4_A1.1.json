@@ -54,8 +54,7 @@
           "type": "Literal",
           "start": 368,
           "end": 376,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -86,8 +85,7 @@
                     "type": "Literal",
                     "start": 405,
                     "end": 462,
-                    "value": "#1: var array = []; typeof array === \"object\". Actual: ",
-                    "raw": "'#1: var array = []; typeof array === \"object\". Actual: '"
+                    "value": "#1: var array = []; typeof array === \"object\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -175,8 +173,7 @@
                   "type": "Literal",
                   "start": 559,
                   "end": 612,
-                  "value": "#2: var array = []; array instanceof Array === true",
-                  "raw": "'#2: var array = []; array instanceof Array === true'"
+                  "value": "#2: var array = []; array instanceof Array === true"
                 }
               ]
             }
@@ -274,8 +271,7 @@
                     "type": "Literal",
                     "start": 704,
                     "end": 779,
-                    "value": "#3: var array = []; array.toString === Array.prototype.toString. Actual: ",
-                    "raw": "'#3: var array = []; array.toString === Array.prototype.toString. Actual: '"
+                    "value": "#3: var array = []; array.toString === Array.prototype.toString. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -342,8 +338,7 @@
           "type": "Literal",
           "start": 835,
           "end": 836,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -374,8 +369,7 @@
                     "type": "Literal",
                     "start": 865,
                     "end": 915,
-                    "value": "#4: var array = []; array.length === 0. Actual: ",
-                    "raw": "'#4: var array = []; array.length === 0. Actual: '"
+                    "value": "#4: var array = []; array.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

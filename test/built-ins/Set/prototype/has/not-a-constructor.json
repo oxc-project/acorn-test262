@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 752,
             "end": 804,
-            "value": "isConstructor(Set.prototype.has) must return false",
-            "raw": "'isConstructor(Set.prototype.has) must return false'"
+            "value": "isConstructor(Set.prototype.has) must return false"
           }
         ],
         "optional": false
@@ -218,8 +217,7 @@
             "type": "Literal",
             "start": 880,
             "end": 933,
-            "value": "`let s = new Set([]); new s.has()` throws TypeError",
-            "raw": "'`let s = new Set([]); new s.has()` throws TypeError'"
+            "value": "`let s = new Set([]); new s.has()` throws TypeError"
           }
         ],
         "optional": false

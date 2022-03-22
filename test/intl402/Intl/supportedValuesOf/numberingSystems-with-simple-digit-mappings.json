@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1176,
                 "end": 1193,
-                "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "value": "numberingSystem"
               }
             ],
             "optional": false

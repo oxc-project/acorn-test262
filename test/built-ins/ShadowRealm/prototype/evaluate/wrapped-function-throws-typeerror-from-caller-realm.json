@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 400,
             "end": 410,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 414,
             "end": 487,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -462,8 +460,7 @@
                     "type": "Literal",
                     "start": 852,
                     "end": 862,
-                    "value": "() => {}",
-                    "raw": "'() => {}'"
+                    "value": "() => {}"
                   }
                 ],
                 "optional": false
@@ -515,8 +512,7 @@
                     "type": "Literal",
                     "start": 905,
                     "end": 923,
-                    "value": "() => globalThis",
-                    "raw": "'() => globalThis'"
+                    "value": "() => globalThis"
                   }
                 ],
                 "optional": false
@@ -583,8 +579,7 @@
                       "type": "Literal",
                       "start": 981,
                       "end": 982,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Identifier",
@@ -600,8 +595,7 @@
                 "type": "Literal",
                 "start": 997,
                 "end": 1046,
-                "value": "throws TypeError if arguments are not wrappable",
-                "raw": "'throws TypeError if arguments are not wrappable'"
+                "value": "throws TypeError if arguments are not wrappable"
               }
             ],
             "optional": false
@@ -668,8 +662,7 @@
                 "type": "Literal",
                 "start": 1107,
                 "end": 1158,
-                "value": "throws TypeError if return value is not wrappable",
-                "raw": "'throws TypeError if return value is not wrappable'"
+                "value": "throws TypeError if return value is not wrappable"
               }
             ],
             "optional": false
@@ -757,8 +750,7 @@
                     "type": "Literal",
                     "start": 1243,
                     "end": 1253,
-                    "value": "() => {}",
-                    "raw": "'() => {}'"
+                    "value": "() => {}"
                   }
                 ],
                 "optional": false
@@ -842,8 +834,7 @@
                     "type": "Literal",
                     "start": 1334,
                     "end": 1352,
-                    "value": "() => globalThis",
-                    "raw": "'() => globalThis'"
+                    "value": "() => globalThis"
                   }
                 ],
                 "optional": false
@@ -910,8 +901,7 @@
                       "type": "Literal",
                       "start": 1414,
                       "end": 1415,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Identifier",
@@ -927,8 +917,7 @@
                 "type": "Literal",
                 "start": 1430,
                 "end": 1479,
-                "value": "throws TypeError if arguments are not wrappable",
-                "raw": "'throws TypeError if arguments are not wrappable'"
+                "value": "throws TypeError if arguments are not wrappable"
               }
             ],
             "optional": false
@@ -995,8 +984,7 @@
                 "type": "Literal",
                 "start": 1545,
                 "end": 1596,
-                "value": "throws TypeError if return value is not wrappable",
-                "raw": "'throws TypeError if return value is not wrappable'"
+                "value": "throws TypeError if return value is not wrappable"
               }
             ],
             "optional": false

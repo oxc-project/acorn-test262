@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 393,
                   "end": 396,
-                  "value": "x",
-                  "raw": "\"x\""
+                  "value": "x"
                 },
                 "value": {
                   "type": "Literal",
@@ -78,8 +77,7 @@
           "type": "Literal",
           "start": 439,
           "end": 447,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -110,8 +108,7 @@
                     "type": "Literal",
                     "start": 476,
                     "end": 545,
-                    "value": "#1: var object = {\"x\" : true}; typeof object === \"object\". Actual: ",
-                    "raw": "'#1: var object = {\"x\" : true}; typeof object === \"object\". Actual: '"
+                    "value": "#1: var object = {\"x\" : true}; typeof object === \"object\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -199,8 +196,7 @@
                   "type": "Literal",
                   "start": 645,
                   "end": 711,
-                  "value": "#2: var object = {\"x\" : true}; object instanceof Object === true",
-                  "raw": "'#2: var object = {\"x\" : true}; object instanceof Object === true'"
+                  "value": "#2: var object = {\"x\" : true}; object instanceof Object === true"
                 }
               ]
             }
@@ -298,8 +294,7 @@
                     "type": "Literal",
                     "start": 805,
                     "end": 893,
-                    "value": "#3: var object = {\"x\" : true}; object.toString === Object.prototype.toString. Actual: ",
-                    "raw": "'#3: var object = {\"x\" : true}; object.toString === Object.prototype.toString. Actual: '"
+                    "value": "#3: var object = {\"x\" : true}; object.toString === Object.prototype.toString. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -356,8 +351,7 @@
             "type": "Literal",
             "start": 940,
             "end": 943,
-            "value": "x",
-            "raw": "\"x\""
+            "value": "x"
           },
           "computed": true,
           "optional": false
@@ -395,8 +389,7 @@
                   "type": "Literal",
                   "start": 982,
                   "end": 1035,
-                  "value": "#4: var object = {\"x\" : true}; object[\"x\"] === true",
-                  "raw": "'#4: var object = {\"x\" : true}; object[\"x\"] === true'"
+                  "value": "#4: var object = {\"x\" : true}; object[\"x\"] === true"
                 }
               ]
             }
@@ -465,8 +458,7 @@
                   "type": "Literal",
                   "start": 1101,
                   "end": 1151,
-                  "value": "#5: var object = {\"x\" : true}; object.x === true",
-                  "raw": "'#5: var object = {\"x\" : true}; object.x === true'"
+                  "value": "#5: var object = {\"x\" : true}; object.x === true"
                 }
               ]
             }

@@ -76,8 +76,7 @@
               "type": "Literal",
               "start": 566,
               "end": 581,
-              "value": "formatToParts",
-              "raw": "'formatToParts'"
+              "value": "formatToParts"
             },
             "computed": true,
             "optional": false
@@ -131,8 +130,7 @@
             "type": "Literal",
             "start": 612,
             "end": 622,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -205,8 +203,7 @@
                         "type": "Literal",
                         "start": 660,
                         "end": 672,
-                        "value": "PT12.3456S",
-                        "raw": "'PT12.3456S'"
+                        "value": "PT12.3456S"
                       }
                     ],
                     "optional": false

@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 360,
                   "end": 368,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 "value": {
                   "type": "UnaryExpression",
@@ -47,8 +46,7 @@
                     "type": "Literal",
                     "start": 371,
                     "end": 381,
-                    "value": 4294967294,
-                    "raw": "4294967294"
+                    "value": 4294967294
                   }
                 },
                 "kind": "init"
@@ -64,15 +62,13 @@
                   "type": "Literal",
                   "start": 385,
                   "end": 388,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 390,
                   "end": 393,
-                  "value": "A",
-                  "raw": "\"A\""
+                  "value": "A"
                 },
                 "kind": "init"
               },
@@ -87,15 +83,13 @@
                   "type": "Literal",
                   "start": 397,
                   "end": 400,
-                  "value": "3",
-                  "raw": "\"3\""
+                  "value": "3"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 402,
                   "end": 405,
-                  "value": "B",
-                  "raw": "\"B\""
+                  "value": "B"
                 },
                 "kind": "init"
               },
@@ -110,15 +104,13 @@
                   "type": "Literal",
                   "start": 409,
                   "end": 412,
-                  "value": "5",
-                  "raw": "\"5\""
+                  "value": "5"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 414,
                   "end": 417,
-                  "value": "C",
-                  "raw": "\"C\""
+                  "value": "C"
                 },
                 "kind": "init"
               }
@@ -249,8 +241,7 @@
             "type": "Literal",
             "start": 500,
             "end": 581,
-            "value": "[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []",
-            "raw": "'[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []'"
+            "value": "[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []"
           }
         ],
         "optional": false
@@ -294,8 +285,7 @@
             "type": "Literal",
             "start": 598,
             "end": 608,
-            "value": 4294967294,
-            "raw": "4294967294"
+            "value": 4294967294
           }
         }
       }
@@ -371,8 +361,7 @@
             "type": "Literal",
             "start": 650,
             "end": 731,
-            "value": "[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []",
-            "raw": "'[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []'"
+            "value": "[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []"
           }
         ],
         "optional": false
@@ -410,8 +399,7 @@
           "type": "Literal",
           "start": 747,
           "end": 760,
-          "value": "-4294967294",
-          "raw": "\"-4294967294\""
+          "value": "-4294967294"
         }
       }
     },
@@ -486,8 +474,7 @@
             "type": "Literal",
             "start": 802,
             "end": 883,
-            "value": "[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []",
-            "raw": "'[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []'"
+            "value": "[].concat({\"length\": -4294967294, \"1\": \"A\", \"3\": \"B\", \"5\": \"C\"}) must return []"
           }
         ],
         "optional": false

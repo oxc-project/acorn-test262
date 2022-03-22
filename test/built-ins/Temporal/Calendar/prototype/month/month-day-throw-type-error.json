@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 608,
                 "end": 617,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,15 +97,13 @@
                 "type": "Literal",
                 "start": 663,
                 "end": 665,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 667,
                 "end": 669,
-                "value": 25,
-                "raw": "25"
+                "value": 25
               }
             ]
           }
@@ -195,8 +192,7 @@
             "type": "Literal",
             "start": 728,
             "end": 778,
-            "value": "cal.month(monthDay) throws a TypeError exception",
-            "raw": "'cal.month(monthDay) throws a TypeError exception'"
+            "value": "cal.month(monthDay) throws a TypeError exception"
           }
         ],
         "optional": false

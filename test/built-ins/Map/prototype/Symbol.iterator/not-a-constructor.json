@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 810,
             "end": 875,
-            "value": "isConstructor(Map.prototype[Symbol.iterator]) must return false",
-            "raw": "'isConstructor(Map.prototype[Symbol.iterator]) must return false'"
+            "value": "isConstructor(Map.prototype[Symbol.iterator]) must return false"
           }
         ],
         "optional": false
@@ -237,8 +236,7 @@
             "type": "Literal",
             "start": 963,
             "end": 1027,
-            "value": "`let m = new Map(); new m[Symbol.iterator]()` throws TypeError",
-            "raw": "'`let m = new Map(); new m[Symbol.iterator]()` throws TypeError'"
+            "value": "`let m = new Map(); new m[Symbol.iterator]()` throws TypeError"
           }
         ],
         "optional": false

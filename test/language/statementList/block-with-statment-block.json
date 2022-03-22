@@ -20,8 +20,7 @@
               "type": "Literal",
               "start": 906,
               "end": 910,
-              "value": 3000,
-              "raw": "3000"
+              "value": 3000
             }
           },
           "label": {

@@ -33,15 +33,13 @@
                 "type": "Literal",
                 "start": 668,
                 "end": 672,
-                "value": 2016,
-                "raw": "2016"
+                "value": 2016
               },
               {
                 "type": "Literal",
                 "start": 674,
                 "end": 675,
-                "value": 6,
-                "raw": "6"
+                "value": 6
               }
             ]
           }
@@ -124,8 +122,7 @@
               "type": "Literal",
               "start": 736,
               "end": 738,
-              "value": 45,
-              "raw": "45"
+              "value": 45
             }
           ],
           "optional": false
@@ -170,43 +167,37 @@
                   "type": "Literal",
                   "start": 762,
                   "end": 766,
-                  "value": 2016,
-                  "raw": "2016"
+                  "value": 2016
                 },
                 {
                   "type": "Literal",
                   "start": 768,
                   "end": 769,
-                  "value": 6,
-                  "raw": "6"
+                  "value": 6
                 },
                 {
                   "type": "Literal",
                   "start": 771,
                   "end": 772,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 774,
                   "end": 775,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 777,
                   "end": 778,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 780,
                   "end": 782,
-                  "value": 45,
-                  "raw": "45"
+                  "value": 45
                 }
               ]
             },
@@ -268,8 +259,7 @@
             "type": "Literal",
             "start": 838,
             "end": 882,
-            "value": "second within unit boundary (return value)",
-            "raw": "'second within unit boundary (return value)'"
+            "value": "second within unit boundary (return value)"
           }
         ],
         "optional": false
@@ -339,8 +329,7 @@
             "type": "Literal",
             "start": 932,
             "end": 982,
-            "value": "second within unit boundary ([[DateValue]] slot)",
-            "raw": "'second within unit boundary ([[DateValue]] slot)'"
+            "value": "second within unit boundary ([[DateValue]] slot)"
           }
         ],
         "optional": false
@@ -395,8 +384,7 @@
                 "type": "Literal",
                 "start": 1018,
                 "end": 1019,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           ],
@@ -442,43 +430,37 @@
                   "type": "Literal",
                   "start": 1043,
                   "end": 1047,
-                  "value": 2016,
-                  "raw": "2016"
+                  "value": 2016
                 },
                 {
                   "type": "Literal",
                   "start": 1049,
                   "end": 1050,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 {
                   "type": "Literal",
                   "start": 1052,
                   "end": 1054,
-                  "value": 30,
-                  "raw": "30"
+                  "value": 30
                 },
                 {
                   "type": "Literal",
                   "start": 1056,
                   "end": 1058,
-                  "value": 23,
-                  "raw": "23"
+                  "value": 23
                 },
                 {
                   "type": "Literal",
                   "start": 1060,
                   "end": 1062,
-                  "value": 59,
-                  "raw": "59"
+                  "value": 59
                 },
                 {
                   "type": "Literal",
                   "start": 1064,
                   "end": 1066,
-                  "value": 59,
-                  "raw": "59"
+                  "value": 59
                 }
               ]
             },
@@ -540,8 +522,7 @@
             "type": "Literal",
             "start": 1122,
             "end": 1171,
-            "value": "second before time unit boundary (return value)",
-            "raw": "'second before time unit boundary (return value)'"
+            "value": "second before time unit boundary (return value)"
           }
         ],
         "optional": false
@@ -611,8 +592,7 @@
             "type": "Literal",
             "start": 1225,
             "end": 1280,
-            "value": "second before time unit boundary ([[DateValue]] slot)",
-            "raw": "'second before time unit boundary ([[DateValue]] slot)'"
+            "value": "second before time unit boundary ([[DateValue]] slot)"
           }
         ],
         "optional": false
@@ -661,8 +641,7 @@
               "type": "Literal",
               "start": 1315,
               "end": 1317,
-              "value": 60,
-              "raw": "60"
+              "value": 60
             }
           ],
           "optional": false
@@ -707,15 +686,13 @@
                   "type": "Literal",
                   "start": 1341,
                   "end": 1345,
-                  "value": 2016,
-                  "raw": "2016"
+                  "value": 2016
                 },
                 {
                   "type": "Literal",
                   "start": 1347,
                   "end": 1348,
-                  "value": 6,
-                  "raw": "6"
+                  "value": 6
                 }
               ]
             },
@@ -777,8 +754,7 @@
             "type": "Literal",
             "start": 1404,
             "end": 1452,
-            "value": "second after time unit boundary (return value)",
-            "raw": "'second after time unit boundary (return value)'"
+            "value": "second after time unit boundary (return value)"
           }
         ],
         "optional": false
@@ -848,8 +824,7 @@
             "type": "Literal",
             "start": 1506,
             "end": 1560,
-            "value": "second after time unit boundary ([[DateValue]] slot)",
-            "raw": "'second after time unit boundary ([[DateValue]] slot)'"
+            "value": "second after time unit boundary ([[DateValue]] slot)"
           }
         ],
         "optional": false

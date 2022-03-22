@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 633,
                 "end": 691,
-                "value": "To sign up click |here|https:www.xxxx.org/subscribe.htm|",
-                "raw": "\"To sign up click |here|https:www.xxxx.org/subscribe.htm|\""
+                "value": "To sign up click |here|https:www.xxxx.org/subscribe.htm|"
               },
               "property": {
                 "type": "Identifier",
@@ -48,7 +47,6 @@
                 "start": 700,
                 "end": 764,
                 "value": {},
-                "raw": "/(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)/ig",
                 "regex": {
                   "pattern": "(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)",
                   "flags": "ig"
@@ -58,8 +56,7 @@
                 "type": "Literal",
                 "start": 766,
                 "end": 787,
-                "value": "<a href=\"$4\">$2</a>",
-                "raw": "'<a href=\"$4\">$2</a>'"
+                "value": "<a href=\"$4\">$2</a>"
               }
             ],
             "optional": false
@@ -87,8 +84,7 @@
             "type": "Literal",
             "start": 808,
             "end": 878,
-            "value": "To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>",
-            "raw": "'To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>'"
+            "value": "To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>"
           }
         }
       ],
@@ -138,8 +134,7 @@
             "type": "Literal",
             "start": 922,
             "end": 992,
-            "value": "The value of __replaced is expected to equal the value of __expected",
-            "raw": "'The value of __replaced is expected to equal the value of __expected'"
+            "value": "The value of __replaced is expected to equal the value of __expected"
           }
         ],
         "optional": false

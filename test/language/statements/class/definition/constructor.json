@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 211,
             "end": 212,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -155,8 +154,7 @@
                           "type": "Literal",
                           "start": 324,
                           "end": 377,
-                          "value": "`Object.getPrototypeOf(this)` returns `C.prototype`",
-                          "raw": "\"`Object.getPrototypeOf(this)` returns `C.prototype`\""
+                          "value": "`Object.getPrototypeOf(this)` returns `C.prototype`"
                         }
                       ],
                       "optional": false
@@ -257,8 +255,7 @@
             "type": "Literal",
             "start": 456,
             "end": 503,
-            "value": "The value of `C` is `C.prototype.constructor`",
-            "raw": "\"The value of `C` is `C.prototype.constructor`\""
+            "value": "The value of `C` is `C.prototype.constructor`"
           }
         ],
         "optional": false
@@ -326,8 +323,7 @@
                 "type": "Literal",
                 "start": 563,
                 "end": 576,
-                "value": "constructor",
-                "raw": "'constructor'"
+                "value": "constructor"
               }
             ],
             "optional": false
@@ -394,8 +390,7 @@
             "type": "Literal",
             "start": 621,
             "end": 756,
-            "value": "The value of `desc.configurable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
-            "raw": "\"The value of `desc.configurable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
+            "value": "The value of `desc.configurable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`"
           }
         ],
         "optional": false
@@ -459,8 +454,7 @@
             "type": "Literal",
             "start": 800,
             "end": 934,
-            "value": "The value of `desc.enumerable` is `false`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
-            "raw": "\"The value of `desc.enumerable` is `false`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
+            "value": "The value of `desc.enumerable` is `false`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`"
           }
         ],
         "optional": false
@@ -524,8 +518,7 @@
             "type": "Literal",
             "start": 975,
             "end": 1107,
-            "value": "The value of `descr.writable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
-            "raw": "\"The value of `descr.writable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
+            "value": "The value of `descr.writable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`"
           }
         ],
         "optional": false
@@ -600,15 +593,13 @@
             "type": "Literal",
             "start": 1152,
             "end": 1153,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1155,
             "end": 1184,
-            "value": "The value of `count` is `1`",
-            "raw": "\"The value of `count` is `1`\""
+            "value": "The value of `count` is `1`"
           }
         ],
         "optional": false
@@ -698,8 +689,7 @@
             "type": "Literal",
             "start": 1250,
             "end": 1300,
-            "value": "`Object.getPrototypeOf(c)` returns `C.prototype`",
-            "raw": "\"`Object.getPrototypeOf(c)` returns `C.prototype`\""
+            "value": "`Object.getPrototypeOf(c)` returns `C.prototype`"
           }
         ],
         "optional": false

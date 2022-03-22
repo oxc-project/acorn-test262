@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 403,
                 "end": 407,
-                "value": 1024,
-                "raw": "1024"
+                "value": 1024
               }
             ]
           }
@@ -72,8 +71,7 @@
                 "type": "Literal",
                 "start": 437,
                 "end": 439,
-                "value": 16,
-                "raw": "16"
+                "value": 16
               }
             ]
           }
@@ -198,15 +196,13 @@
                             "type": "Literal",
                             "start": 635,
                             "end": 637,
-                            "value": 32,
-                            "raw": "32"
+                            "value": 32
                           },
                           {
                             "type": "Literal",
                             "start": 639,
                             "end": 641,
-                            "value": 20,
-                            "raw": "20"
+                            "value": 20
                           }
                         ]
                       }
@@ -250,15 +246,13 @@
                             "type": "Literal",
                             "start": 673,
                             "end": 674,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 676,
                             "end": 677,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -289,8 +283,7 @@
                         "type": "Literal",
                         "start": 688,
                         "end": 689,
-                        "value": 8,
-                        "raw": "8"
+                        "value": 8
                       },
                       "computed": true,
                       "optional": false
@@ -299,8 +292,7 @@
                       "type": "Literal",
                       "start": 693,
                       "end": 703,
-                      "value": 858993459,
-                      "raw": "0x33333333"
+                      "value": 858993459
                     }
                   }
                 },
@@ -327,8 +319,7 @@
                         "type": "Literal",
                         "start": 715,
                         "end": 716,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -337,8 +328,7 @@
                       "type": "Literal",
                       "start": 720,
                       "end": 730,
-                      "value": 858993459,
-                      "raw": "0x33333333"
+                      "value": 858993459
                     }
                   }
                 },
@@ -404,15 +394,13 @@
                             "type": "Literal",
                             "start": 769,
                             "end": 770,
-                            "value": 8,
-                            "raw": "8"
+                            "value": 8
                           },
                           {
                             "type": "Literal",
                             "start": 772,
                             "end": 782,
-                            "value": 1431655765,
-                            "raw": "0x55555555"
+                            "value": 1431655765
                           }
                         ],
                         "optional": false
@@ -431,8 +419,7 @@
                           "type": "Literal",
                           "start": 793,
                           "end": 794,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -441,8 +428,7 @@
                         "type": "Literal",
                         "start": 801,
                         "end": 882,
-                        "value": "Atomics.and(view, 8, 0x55555555) returns the value of `control[0]` (0x33333333)",
-                        "raw": "'Atomics.and(view, 8, 0x55555555) returns the value of `control[0]` (0x33333333)'"
+                        "value": "Atomics.and(view, 8, 0x55555555) returns the value of `control[0]` (0x33333333)"
                       }
                     ],
                     "optional": false
@@ -471,8 +457,7 @@
                         "type": "Literal",
                         "start": 896,
                         "end": 897,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -481,8 +466,7 @@
                       "type": "Literal",
                       "start": 901,
                       "end": 911,
-                      "value": 286331153,
-                      "raw": "0x11111111"
+                      "value": 286331153
                     }
                   }
                 },
@@ -528,8 +512,7 @@
                           "type": "Literal",
                           "start": 942,
                           "end": 943,
-                          "value": 8,
-                          "raw": "8"
+                          "value": 8
                         },
                         "computed": true,
                         "optional": false
@@ -548,8 +531,7 @@
                           "type": "Literal",
                           "start": 958,
                           "end": 959,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -558,8 +540,7 @@
                         "type": "Literal",
                         "start": 966,
                         "end": 1034,
-                        "value": "The value of view[8] equals the value of `control[0]` (0x11111111)",
-                        "raw": "'The value of view[8] equals the value of `control[0]` (0x11111111)'"
+                        "value": "The value of view[8] equals the value of `control[0]` (0x11111111)"
                       }
                     ],
                     "optional": false
@@ -627,15 +608,13 @@
                             "type": "Literal",
                             "start": 1077,
                             "end": 1078,
-                            "value": 8,
-                            "raw": "8"
+                            "value": 8
                           },
                           {
                             "type": "Literal",
                             "start": 1080,
                             "end": 1090,
-                            "value": 4042322160,
-                            "raw": "0xF0F0F0F0"
+                            "value": 4042322160
                           }
                         ],
                         "optional": false
@@ -654,8 +633,7 @@
                           "type": "Literal",
                           "start": 1101,
                           "end": 1102,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -664,8 +642,7 @@
                         "type": "Literal",
                         "start": 1109,
                         "end": 1190,
-                        "value": "Atomics.and(view, 8, 0xF0F0F0F0) returns the value of `control[0]` (0x11111111)",
-                        "raw": "'Atomics.and(view, 8, 0xF0F0F0F0) returns the value of `control[0]` (0x11111111)'"
+                        "value": "Atomics.and(view, 8, 0xF0F0F0F0) returns the value of `control[0]` (0x11111111)"
                       }
                     ],
                     "optional": false
@@ -694,8 +671,7 @@
                         "type": "Literal",
                         "start": 1204,
                         "end": 1205,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -704,8 +680,7 @@
                       "type": "Literal",
                       "start": 1209,
                       "end": 1219,
-                      "value": 269488144,
-                      "raw": "0x10101010"
+                      "value": 269488144
                     }
                   }
                 },
@@ -751,8 +726,7 @@
                           "type": "Literal",
                           "start": 1250,
                           "end": 1251,
-                          "value": 8,
-                          "raw": "8"
+                          "value": 8
                         },
                         "computed": true,
                         "optional": false
@@ -771,8 +745,7 @@
                           "type": "Literal",
                           "start": 1266,
                           "end": 1267,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -781,8 +754,7 @@
                         "type": "Literal",
                         "start": 1274,
                         "end": 1342,
-                        "value": "The value of view[8] equals the value of `control[0]` (0x10101010)",
-                        "raw": "'The value of view[8] equals the value of `control[0]` (0x10101010)'"
+                        "value": "The value of view[8] equals the value of `control[0]` (0x10101010)"
                       }
                     ],
                     "optional": false
@@ -811,8 +783,7 @@
                         "type": "Literal",
                         "start": 1356,
                         "end": 1357,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       "computed": true,
                       "optional": false
@@ -827,8 +798,7 @@
                         "type": "Literal",
                         "start": 1362,
                         "end": 1363,
-                        "value": 5,
-                        "raw": "5"
+                        "value": 5
                       }
                     }
                   }
@@ -856,8 +826,7 @@
                         "type": "Literal",
                         "start": 1375,
                         "end": 1376,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -872,8 +841,7 @@
                         "type": "Literal",
                         "start": 1381,
                         "end": 1382,
-                        "value": 5,
-                        "raw": "5"
+                        "value": 5
                       }
                     }
                   }
@@ -940,15 +908,13 @@
                             "type": "Literal",
                             "start": 1421,
                             "end": 1422,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 1424,
                             "end": 1425,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -967,8 +933,7 @@
                           "type": "Literal",
                           "start": 1436,
                           "end": 1437,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -977,8 +942,7 @@
                         "type": "Literal",
                         "start": 1444,
                         "end": 1508,
-                        "value": "Atomics.and(view, 3, 0) returns the value of `control[0]` (-5)",
-                        "raw": "'Atomics.and(view, 3, 0) returns the value of `control[0]` (-5)'"
+                        "value": "Atomics.and(view, 3, 0) returns the value of `control[0]` (-5)"
                       }
                     ],
                     "optional": false
@@ -1026,8 +990,7 @@
                           "type": "Literal",
                           "start": 1535,
                           "end": 1536,
-                          "value": 3,
-                          "raw": "3"
+                          "value": 3
                         },
                         "computed": true,
                         "optional": false
@@ -1036,15 +999,13 @@
                         "type": "Literal",
                         "start": 1539,
                         "end": 1540,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1542,
                         "end": 1569,
-                        "value": "The value of view[3] is 0",
-                        "raw": "'The value of view[3] is 0'"
+                        "value": "The value of view[3] is 0"
                       }
                     ],
                     "optional": false
@@ -1073,8 +1034,7 @@
                         "type": "Literal",
                         "start": 1583,
                         "end": 1584,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -1083,8 +1043,7 @@
                       "type": "Literal",
                       "start": 1588,
                       "end": 1593,
-                      "value": 12345,
-                      "raw": "12345"
+                      "value": 12345
                     }
                   }
                 },
@@ -1111,8 +1070,7 @@
                         "type": "Literal",
                         "start": 1602,
                         "end": 1603,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       "computed": true,
                       "optional": false
@@ -1121,8 +1079,7 @@
                       "type": "Literal",
                       "start": 1607,
                       "end": 1612,
-                      "value": 12345,
-                      "raw": "12345"
+                      "value": 12345
                     }
                   }
                 },
@@ -1188,15 +1145,13 @@
                             "type": "Literal",
                             "start": 1651,
                             "end": 1652,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 1654,
                             "end": 1655,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -1215,8 +1170,7 @@
                           "type": "Literal",
                           "start": 1666,
                           "end": 1667,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1225,8 +1179,7 @@
                         "type": "Literal",
                         "start": 1674,
                         "end": 1741,
-                        "value": "Atomics.and(view, 3, 0) returns the value of `control[0]` (12345)",
-                        "raw": "'Atomics.and(view, 3, 0) returns the value of `control[0]` (12345)'"
+                        "value": "Atomics.and(view, 3, 0) returns the value of `control[0]` (12345)"
                       }
                     ],
                     "optional": false
@@ -1274,8 +1227,7 @@
                           "type": "Literal",
                           "start": 1768,
                           "end": 1769,
-                          "value": 3,
-                          "raw": "3"
+                          "value": 3
                         },
                         "computed": true,
                         "optional": false
@@ -1284,15 +1236,13 @@
                         "type": "Literal",
                         "start": 1772,
                         "end": 1773,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1775,
                         "end": 1802,
-                        "value": "The value of view[3] is 0",
-                        "raw": "'The value of view[3] is 0'"
+                        "value": "The value of view[3] is 0"
                       }
                     ],
                     "optional": false
@@ -1321,8 +1271,7 @@
                         "type": "Literal",
                         "start": 1816,
                         "end": 1817,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -1331,8 +1280,7 @@
                       "type": "Literal",
                       "start": 1821,
                       "end": 1830,
-                      "value": 123456789,
-                      "raw": "123456789"
+                      "value": 123456789
                     }
                   }
                 },
@@ -1359,8 +1307,7 @@
                         "type": "Literal",
                         "start": 1839,
                         "end": 1840,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       "computed": true,
                       "optional": false
@@ -1369,8 +1316,7 @@
                       "type": "Literal",
                       "start": 1844,
                       "end": 1853,
-                      "value": 123456789,
-                      "raw": "123456789"
+                      "value": 123456789
                     }
                   }
                 },
@@ -1436,15 +1382,13 @@
                             "type": "Literal",
                             "start": 1892,
                             "end": 1893,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 1895,
                             "end": 1896,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -1463,8 +1407,7 @@
                           "type": "Literal",
                           "start": 1907,
                           "end": 1908,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -1473,8 +1416,7 @@
                         "type": "Literal",
                         "start": 1915,
                         "end": 1986,
-                        "value": "Atomics.and(view, 3, 0) returns the value of `control[0]` (123456789)",
-                        "raw": "'Atomics.and(view, 3, 0) returns the value of `control[0]` (123456789)'"
+                        "value": "Atomics.and(view, 3, 0) returns the value of `control[0]` (123456789)"
                       }
                     ],
                     "optional": false
@@ -1522,8 +1464,7 @@
                           "type": "Literal",
                           "start": 2013,
                           "end": 2014,
-                          "value": 3,
-                          "raw": "3"
+                          "value": 3
                         },
                         "computed": true,
                         "optional": false
@@ -1532,15 +1473,13 @@
                         "type": "Literal",
                         "start": 2017,
                         "end": 2018,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 2020,
                         "end": 2047,
-                        "value": "The value of view[3] is 0",
-                        "raw": "'The value of view[3] is 0'"
+                        "value": "The value of view[3] is 0"
                       }
                     ],
                     "optional": false
@@ -1653,8 +1592,7 @@
                                     "type": "Literal",
                                     "start": 2188,
                                     "end": 2189,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -1704,8 +1642,7 @@
                                     "type": "Literal",
                                     "start": 2349,
                                     "end": 2351,
-                                    "value": 37,
-                                    "raw": "37"
+                                    "value": 37
                                   }
                                 ],
                                 "optional": false
@@ -1779,8 +1716,7 @@
                                         "type": "Literal",
                                         "start": 2398,
                                         "end": 2399,
-                                        "value": 0,
-                                        "raw": "0"
+                                        "value": 0
                                       }
                                     ],
                                     "optional": false
@@ -1789,15 +1725,13 @@
                                     "type": "Literal",
                                     "start": 2402,
                                     "end": 2404,
-                                    "value": 37,
-                                    "raw": "37"
+                                    "value": 37
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 2406,
                                     "end": 2444,
-                                    "value": "Atomics.and(view, Idx, 0) returns 37",
-                                    "raw": "'Atomics.and(view, Idx, 0) returns 37'"
+                                    "value": "Atomics.and(view, Idx, 0) returns 37"
                                   }
                                 ],
                                 "optional": false

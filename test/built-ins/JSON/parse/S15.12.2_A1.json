@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 333,
                 "end": 351,
-                "value": "{\"__proto__\":[]}",
-                "raw": "'{\"__proto__\":[]}'"
+                "value": "{\"__proto__\":[]}"
               }
             ],
             "optional": false
@@ -140,8 +139,7 @@
             "type": "Literal",
             "start": 423,
             "end": 507,
-            "value": "Object.getPrototypeOf(\"JSON.parse('{\"__proto__\":[]}')\") returns Object.prototype",
-            "raw": "'Object.getPrototypeOf(\"JSON.parse(\\'{\"__proto__\":[]}\\')\") returns Object.prototype'"
+            "value": "Object.getPrototypeOf(\"JSON.parse('{\"__proto__\":[]}')\") returns Object.prototype"
           }
         ],
         "optional": false
@@ -212,8 +210,7 @@
             "type": "Literal",
             "start": 547,
             "end": 592,
-            "value": "Array.isArray(x.__proto__) must return true",
-            "raw": "'Array.isArray(x.__proto__) must return true'"
+            "value": "Array.isArray(x.__proto__) must return true"
           }
         ],
         "optional": false

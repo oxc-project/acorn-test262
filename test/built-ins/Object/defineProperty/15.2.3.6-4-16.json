@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 641,
                   "end": 644,
-                  "value": 101,
-                  "raw": "101"
+                  "value": 101
                 },
                 "kind": "init"
               }
@@ -114,8 +113,7 @@
             "type": "Literal",
             "start": 673,
             "end": 678,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Identifier",
@@ -164,8 +162,7 @@
                   "type": "Literal",
                   "start": 848,
                   "end": 851,
-                  "value": 101,
-                  "raw": "101"
+                  "value": 101
                 },
                 "kind": "init"
               },
@@ -283,8 +280,7 @@
                         "type": "Literal",
                         "start": 938,
                         "end": 943,
-                        "value": "foo",
-                        "raw": "\"foo\""
+                        "value": "foo"
                       },
                       {
                         "type": "Identifier",
@@ -352,8 +348,7 @@
                 "type": "Literal",
                 "start": 1041,
                 "end": 1046,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -413,15 +408,13 @@
             "type": "Literal",
             "start": 1076,
             "end": 1079,
-            "value": 101,
-            "raw": "101"
+            "value": 101
           },
           {
             "type": "Literal",
             "start": 1081,
             "end": 1091,
-            "value": "d2.value",
-            "raw": "'d2.value'"
+            "value": "d2.value"
           }
         ],
         "optional": false
@@ -485,8 +478,7 @@
             "type": "Literal",
             "start": 1131,
             "end": 1144,
-            "value": "d2.writable",
-            "raw": "'d2.writable'"
+            "value": "d2.writable"
           }
         ],
         "optional": false
@@ -550,8 +542,7 @@
             "type": "Literal",
             "start": 1186,
             "end": 1201,
-            "value": "d2.enumerable",
-            "raw": "'d2.enumerable'"
+            "value": "d2.enumerable"
           }
         ],
         "optional": false
@@ -615,8 +606,7 @@
             "type": "Literal",
             "start": 1245,
             "end": 1262,
-            "value": "d2.configurable",
-            "raw": "'d2.configurable'"
+            "value": "d2.configurable"
           }
         ],
         "optional": false

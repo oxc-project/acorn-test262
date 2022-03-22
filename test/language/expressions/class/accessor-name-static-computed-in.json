@@ -128,8 +128,7 @@
                     "type": "Literal",
                     "start": 857,
                     "end": 860,
-                    "value": "x",
-                    "raw": "'x'"
+                    "value": "x"
                   },
                   "operator": "in",
                   "right": {
@@ -162,8 +161,7 @@
                           "type": "Literal",
                           "start": 882,
                           "end": 891,
-                          "value": "via get",
-                          "raw": "'via get'"
+                          "value": "via get"
                         }
                       }
                     ]
@@ -264,8 +262,7 @@
             "type": "Literal",
             "start": 959,
             "end": 968,
-            "value": "via get",
-            "raw": "'via get'"
+            "value": "via get"
           }
         ],
         "optional": false
@@ -311,8 +308,7 @@
                     "type": "Literal",
                     "start": 1001,
                     "end": 1004,
-                    "value": "x",
-                    "raw": "'x'"
+                    "value": "x"
                   },
                   "operator": "in",
                   "right": {
@@ -414,8 +410,7 @@
                 "type": "Literal",
                 "start": 1062,
                 "end": 1071,
-                "value": "via set",
-                "raw": "'via set'"
+                "value": "via set"
               }
             }
           },
@@ -466,8 +461,7 @@
             "type": "Literal",
             "start": 1109,
             "end": 1118,
-            "value": "via set",
-            "raw": "'via set'"
+            "value": "via set"
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 738,
                 "end": 758,
-                "value": "one-1 two-2 four-4",
-                "raw": "\"one-1 two-2 four-4\""
+                "value": "one-1 two-2 four-4"
               }
             ]
           }
@@ -85,8 +84,7 @@
                 "type": "Literal",
                 "start": 791,
                 "end": 797,
-                "value": "r-42",
-                "raw": "\"r-42\""
+                "value": "r-42"
               }
             ],
             "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 853,
             "end": 927,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -210,15 +207,13 @@
             "type": "Literal",
             "start": 965,
             "end": 966,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 968,
             "end": 1002,
-            "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "value": "The value of __split.length is 1"
           }
         ],
         "optional": false
@@ -266,8 +261,7 @@
               "type": "Literal",
               "start": 1030,
               "end": 1031,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -276,15 +270,13 @@
             "type": "Literal",
             "start": 1034,
             "end": 1054,
-            "value": "one-1 two-2 four-4",
-            "raw": "\"one-1 two-2 four-4\""
+            "value": "one-1 two-2 four-4"
           },
           {
             "type": "Literal",
             "start": 1056,
             "end": 1105,
-            "value": "The value of __split[0] is \"one-1 two-2 four-4\"",
-            "raw": "'The value of __split[0] is \"one-1 two-2 four-4\"'"
+            "value": "The value of __split[0] is \"one-1 two-2 four-4\""
           }
         ],
         "optional": false

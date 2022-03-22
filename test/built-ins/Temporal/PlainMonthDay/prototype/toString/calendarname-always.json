@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 314,
                     "end": 335,
-                    "value": "05-02[u-ca=iso8601]",
-                    "raw": "\"05-02[u-ca=iso8601]\""
+                    "value": "05-02[u-ca=iso8601]"
                   }
                 ]
               },
@@ -94,8 +93,7 @@
                                       "type": "Literal",
                                       "start": 364,
                                       "end": 372,
-                                      "value": "custom",
-                                      "raw": "\"custom\""
+                                      "value": "custom"
                                     }
                                   }
                                 ]
@@ -110,8 +108,7 @@
                     "type": "Literal",
                     "start": 380,
                     "end": 405,
-                    "value": "1972-05-02[u-ca=custom]",
-                    "raw": "\"1972-05-02[u-ca=custom]\""
+                    "value": "1972-05-02[u-ca=custom]"
                   }
                 ]
               },
@@ -166,8 +163,7 @@
                                       "type": "Literal",
                                       "start": 434,
                                       "end": 443,
-                                      "value": "iso8601",
-                                      "raw": "\"iso8601\""
+                                      "value": "iso8601"
                                     }
                                   }
                                 ]
@@ -182,8 +178,7 @@
                     "type": "Literal",
                     "start": 451,
                     "end": 472,
-                    "value": "05-02[u-ca=iso8601]",
-                    "raw": "\"05-02[u-ca=iso8601]\""
+                    "value": "05-02[u-ca=iso8601]"
                   }
                 ]
               },
@@ -238,8 +233,7 @@
                                       "type": "Literal",
                                       "start": 501,
                                       "end": 510,
-                                      "value": "ISO8601",
-                                      "raw": "\"ISO8601\""
+                                      "value": "ISO8601"
                                     }
                                   }
                                 ]
@@ -254,8 +248,7 @@
                     "type": "Literal",
                     "start": 518,
                     "end": 544,
-                    "value": "1972-05-02[u-ca=ISO8601]",
-                    "raw": "\"1972-05-02[u-ca=ISO8601]\""
+                    "value": "1972-05-02[u-ca=ISO8601]"
                   }
                 ]
               },
@@ -310,8 +303,7 @@
                                       "type": "Literal",
                                       "start": 573,
                                       "end": 587,
-                                      "value": "ıso8601",
-                                      "raw": "\"\\u0131so8601\""
+                                      "value": "ıso8601"
                                     }
                                   }
                                 ]
@@ -326,8 +318,7 @@
                     "type": "Literal",
                     "start": 595,
                     "end": 626,
-                    "value": "1972-05-02[u-ca=ıso8601]",
-                    "raw": "\"1972-05-02[u-ca=\\u0131so8601]\""
+                    "value": "1972-05-02[u-ca=ıso8601]"
                   }
                 ]
               }
@@ -429,15 +420,13 @@
                       "type": "Literal",
                       "start": 732,
                       "end": 733,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     },
                     {
                       "type": "Literal",
                       "start": 735,
                       "end": 736,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     {
                       "type": "SpreadElement",
@@ -517,8 +506,7 @@
                             "type": "Literal",
                             "start": 799,
                             "end": 807,
-                            "value": "always",
-                            "raw": "\"always\""
+                            "value": "always"
                           },
                           "kind": "init"
                         }

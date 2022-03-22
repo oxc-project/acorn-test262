@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1286,
                 "end": 1287,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "ObjectExpression",
@@ -58,8 +57,7 @@
                       "type": "Literal",
                       "start": 1305,
                       "end": 1306,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     },
                     "kind": "init"
                   }
@@ -175,8 +173,7 @@
             "type": "Literal",
             "start": 1674,
             "end": 1684,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -234,8 +231,7 @@
                     "type": "Literal",
                     "start": 1715,
                     "end": 1716,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ],
                 "optional": false
@@ -364,8 +360,7 @@
                     "type": "Literal",
                     "start": 1812,
                     "end": 1853,
-                    "value": "The ArrayBuffer under test was detached",
-                    "raw": "'The ArrayBuffer under test was detached'"
+                    "value": "The ArrayBuffer under test was detached"
                   }
                 ]
               }
@@ -429,8 +424,7 @@
                 "type": "Literal",
                 "start": 2316,
                 "end": 2317,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             }
           },
@@ -438,8 +432,7 @@
             "type": "Literal",
             "start": 2319,
             "end": 2331,
-            "value": "byteLength",
-            "raw": "'byteLength'"
+            "value": "byteLength"
           }
         ],
         "optional": false
@@ -489,8 +482,7 @@
             "type": "Literal",
             "start": 2777,
             "end": 2802,
-            "value": "normal completion value",
-            "raw": "'normal completion value'"
+            "value": "normal completion value"
           }
         ],
         "optional": false

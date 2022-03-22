@@ -135,15 +135,13 @@
             "type": "Literal",
             "start": 987,
             "end": 988,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 990,
             "end": 1020,
-            "value": "The value of `s.size` is `0`",
-            "raw": "\"The value of `s.size` is `0`\""
+            "value": "The value of `s.size` is `0`"
           }
         ],
         "optional": false

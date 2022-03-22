@@ -108,8 +108,7 @@
                 "type": "Literal",
                 "start": 1032,
                 "end": 1038,
-                "value": "done",
-                "raw": "'done'"
+                "value": "done"
               },
               {
                 "type": "ObjectExpression",

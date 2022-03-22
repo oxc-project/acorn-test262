@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 739,
             "end": 787,
-            "value": "isConstructor(Object.freeze) must return false",
-            "raw": "'isConstructor(Object.freeze) must return false'"
+            "value": "isConstructor(Object.freeze) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 852,
             "end": 894,
-            "value": "`new Object.freeze({})` throws TypeError",
-            "raw": "'`new Object.freeze({})` throws TypeError'"
+            "value": "`new Object.freeze({})` throws TypeError"
           }
         ],
         "optional": false

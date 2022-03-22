@@ -367,8 +367,7 @@
             "type": "Literal",
             "start": 719,
             "end": 736,
-            "value": "called !== true",
-            "raw": "'called !== true'"
+            "value": "called !== true"
           }
         ],
         "optional": false

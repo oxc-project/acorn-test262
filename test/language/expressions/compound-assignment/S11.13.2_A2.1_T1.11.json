@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 322,
             "end": 323,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -63,8 +62,7 @@
                 "type": "Literal",
                 "start": 339,
                 "end": 340,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -91,8 +89,7 @@
           "type": "Literal",
           "start": 353,
           "end": 354,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -123,8 +120,7 @@
                     "type": "Literal",
                     "start": 383,
                     "end": 435,
-                    "value": "#1: var x = 0; var z = (x |= 1); z === 1. Actual: ",
-                    "raw": "'#1: var x = 0; var z = (x |= 1); z === 1. Actual: '"
+                    "value": "#1: var x = 0; var z = (x |= 1); z === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +161,7 @@
             "type": "Literal",
             "start": 465,
             "end": 466,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -191,8 +186,7 @@
             "type": "Literal",
             "start": 476,
             "end": 477,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -259,8 +253,7 @@
           "type": "Literal",
           "start": 507,
           "end": 508,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -291,8 +284,7 @@
                     "type": "Literal",
                     "start": 537,
                     "end": 600,
-                    "value": "#2: var x = 0; var y = 1; var z = (x |= y); z === 1. Actual: ",
-                    "raw": "'#2: var x = 0; var y = 1; var z = (x |= y); z === 1. Actual: '"
+                    "value": "#2: var x = 0; var y = 1; var z = (x |= y); z === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

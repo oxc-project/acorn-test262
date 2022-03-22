@@ -32,15 +32,13 @@
                     "type": "Literal",
                     "start": 287,
                     "end": 294,
-                    "value": "15:23",
-                    "raw": "\"15:23\""
+                    "value": "15:23"
                   },
                   {
                     "type": "Literal",
                     "start": 296,
                     "end": 306,
-                    "value": "15:23:00",
-                    "raw": "\"15:23:00\""
+                    "value": "15:23:00"
                   }
                 ]
               },
@@ -53,15 +51,13 @@
                     "type": "Literal",
                     "start": 312,
                     "end": 322,
-                    "value": "15:23:30",
-                    "raw": "\"15:23:30\""
+                    "value": "15:23:30"
                   },
                   {
                     "type": "Literal",
                     "start": 324,
                     "end": 334,
-                    "value": "15:23:30",
-                    "raw": "\"15:23:30\""
+                    "value": "15:23:30"
                   }
                 ]
               },
@@ -74,15 +70,13 @@
                     "type": "Literal",
                     "start": 340,
                     "end": 355,
-                    "value": "15:23:30.1234",
-                    "raw": "\"15:23:30.1234\""
+                    "value": "15:23:30.1234"
                   },
                   {
                     "type": "Literal",
                     "start": 357,
                     "end": 372,
-                    "value": "15:23:30.1234",
-                    "raw": "\"15:23:30.1234\""
+                    "value": "15:23:30.1234"
                   }
                 ]
               }
@@ -280,8 +274,7 @@
                             "type": "Literal",
                             "start": 536,
                             "end": 542,
-                            "value": "auto",
-                            "raw": "\"auto\""
+                            "value": "auto"
                           },
                           "kind": "init"
                         }

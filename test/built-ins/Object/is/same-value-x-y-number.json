@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 534,
             "end": 572,
-            "value": "`Object.is(NaN, NaN)` returns `true`",
-            "raw": "\"`Object.is(NaN, NaN)` returns `true`\""
+            "value": "`Object.is(NaN, NaN)` returns `true`"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 603,
                   "end": 604,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               {
@@ -164,8 +162,7 @@
                   "type": "Literal",
                   "start": 607,
                   "end": 608,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -182,8 +179,7 @@
             "type": "Literal",
             "start": 617,
             "end": 653,
-            "value": "`Object.is(-0, -0)` returns `true`",
-            "raw": "\"`Object.is(-0, -0)` returns `true`\""
+            "value": "`Object.is(-0, -0)` returns `true`"
           }
         ],
         "optional": false
@@ -251,8 +247,7 @@
                   "type": "Literal",
                   "start": 684,
                   "end": 685,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               {
@@ -265,8 +260,7 @@
                   "type": "Literal",
                   "start": 688,
                   "end": 689,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -283,8 +277,7 @@
             "type": "Literal",
             "start": 698,
             "end": 734,
-            "value": "`Object.is(+0, +0)` returns `true`",
-            "raw": "\"`Object.is(+0, +0)` returns `true`\""
+            "value": "`Object.is(+0, +0)` returns `true`"
           }
         ],
         "optional": false
@@ -346,15 +339,13 @@
                 "type": "Literal",
                 "start": 764,
                 "end": 765,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 767,
                 "end": 768,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -370,8 +361,7 @@
             "type": "Literal",
             "start": 777,
             "end": 811,
-            "value": "`Object.is(0, 0)` returns `true`",
-            "raw": "\"`Object.is(0, 0)` returns `true`\""
+            "value": "`Object.is(0, 0)` returns `true`"
           }
         ],
         "optional": false

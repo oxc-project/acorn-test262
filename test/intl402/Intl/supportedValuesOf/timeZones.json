@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1383,
                 "end": 1393,
-                "value": "timeZone",
-                "raw": "\"timeZone\""
+                "value": "timeZone"
               }
             ],
             "optional": false
@@ -108,8 +107,7 @@
             "type": "Literal",
             "start": 1430,
             "end": 1456,
-            "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "value": "Returns an Array object."
           }
         ],
         "optional": false
@@ -199,8 +197,7 @@
             "type": "Literal",
             "start": 1544,
             "end": 1584,
-            "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "value": "The array prototype is Array.prototype"
           }
         ],
         "optional": false
@@ -249,8 +246,7 @@
                 "type": "Literal",
                 "start": 1634,
                 "end": 1644,
-                "value": "timeZone",
-                "raw": "\"timeZone\""
+                "value": "timeZone"
               }
             ],
             "optional": false
@@ -303,8 +299,7 @@
             "type": "Literal",
             "start": 1714,
             "end": 1757,
-            "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "value": "Returns a new array object for each call."
           }
         ],
         "optional": false
@@ -374,8 +369,7 @@
             "type": "Literal",
             "start": 1835,
             "end": 1857,
-            "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "value": "The array is sorted."
           }
         ],
         "optional": false
@@ -464,8 +458,7 @@
             "type": "Literal",
             "start": 1938,
             "end": 1977,
-            "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "value": "The array doesn't contain duplicates."
           }
         ],
         "optional": false

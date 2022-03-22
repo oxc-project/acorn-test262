@@ -31,8 +31,7 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 439,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 480,
                     "end": 563,
-                    "value": "#1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))",
-                    "raw": "'#1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))'"
+                    "value": "#1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))"
                   }
                 ]
               }
@@ -104,8 +102,7 @@
             "type": "Literal",
             "start": 587,
             "end": 588,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -139,8 +136,7 @@
                   "type": "Literal",
                   "start": 604,
                   "end": 605,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -173,8 +169,7 @@
                 "type": "Literal",
                 "start": 624,
                 "end": 625,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -200,8 +195,7 @@
           "type": "Literal",
           "start": 637,
           "end": 638,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -228,8 +222,7 @@
                   "type": "Literal",
                   "start": 666,
                   "end": 745,
-                  "value": "#2.1: \"try\" block must be evaluated. Actual: try Block has not been evaluated",
-                  "raw": "'#2.1: \"try\" block must be evaluated. Actual: try Block has not been evaluated'"
+                  "value": "#2.1: \"try\" block must be evaluated. Actual: try Block has not been evaluated"
                 }
               ]
             }
@@ -257,8 +250,7 @@
           "type": "Literal",
           "start": 759,
           "end": 760,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -285,8 +277,7 @@
                   "type": "Literal",
                   "start": 788,
                   "end": 875,
-                  "value": "#2.2: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated",
-                  "raw": "'#2.2: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated'"
+                  "value": "#2.2: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated"
                 }
               ]
             }
@@ -314,8 +305,7 @@
             "type": "Literal",
             "start": 899,
             "end": 900,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -349,8 +339,7 @@
                   "type": "Literal",
                   "start": 916,
                   "end": 917,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -392,8 +381,7 @@
                     "type": "Literal",
                     "start": 956,
                     "end": 1041,
-                    "value": "#3.1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))",
-                    "raw": "'#3.1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))'"
+                    "value": "#3.1: If Result(1).type is not throw, return Result(1). Actual: 4 Return(Result(3))"
                   }
                 ]
               }
@@ -425,8 +413,7 @@
                 "type": "Literal",
                 "start": 1061,
                 "end": 1062,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -452,8 +439,7 @@
           "type": "Literal",
           "start": 1074,
           "end": 1075,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -480,8 +466,7 @@
                   "type": "Literal",
                   "start": 1103,
                   "end": 1182,
-                  "value": "#3.2: \"try\" block must be evaluated. Actual: try Block has not been evaluated",
-                  "raw": "'#3.2: \"try\" block must be evaluated. Actual: try Block has not been evaluated'"
+                  "value": "#3.2: \"try\" block must be evaluated. Actual: try Block has not been evaluated"
                 }
               ]
             }
@@ -509,8 +494,7 @@
           "type": "Literal",
           "start": 1196,
           "end": 1197,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -537,8 +521,7 @@
                   "type": "Literal",
                   "start": 1225,
                   "end": 1312,
-                  "value": "#3.3: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated",
-                  "raw": "'#3.3: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated'"
+                  "value": "#3.3: \"finally\" block must be evaluated. Actual: finally Block has not been evaluated"
                 }
               ]
             }

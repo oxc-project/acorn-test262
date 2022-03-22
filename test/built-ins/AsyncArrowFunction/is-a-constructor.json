@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 804,
             "end": 856,
-            "value": "isConstructor(AsyncArrowFunction) must return true",
-            "raw": "'isConstructor(AsyncArrowFunction) must return true'"
+            "value": "isConstructor(AsyncArrowFunction) must return true"
           }
         ],
         "optional": false

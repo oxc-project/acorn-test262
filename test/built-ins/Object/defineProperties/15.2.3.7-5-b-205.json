@@ -103,8 +103,7 @@
                   "type": "Literal",
                   "start": 397,
                   "end": 404,
-                  "value": "Array",
-                  "raw": "\"Array\""
+                  "value": "Array"
                 }
               }
             ]
@@ -229,15 +228,13 @@
             "type": "Literal",
             "start": 493,
             "end": 500,
-            "value": "Array",
-            "raw": "\"Array\""
+            "value": "Array"
           },
           {
             "type": "Literal",
             "start": 502,
             "end": 516,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

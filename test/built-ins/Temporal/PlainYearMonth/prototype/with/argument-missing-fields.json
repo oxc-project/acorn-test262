@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 343,
                 "end": 352,
-                "value": "2019-10",
-                "raw": "\"2019-10\""
+                "value": "2019-10"
               }
             ],
             "optional": false
@@ -150,8 +149,7 @@
             "type": "Literal",
             "start": 399,
             "end": 414,
-            "value": "No properties",
-            "raw": "\"No properties\""
+            "value": "No properties"
           }
         ],
         "optional": false
@@ -246,8 +244,7 @@
                         "type": "Literal",
                         "start": 466,
                         "end": 468,
-                        "value": 12,
-                        "raw": "12"
+                        "value": 12
                       },
                       "kind": "init"
                     }
@@ -261,8 +258,7 @@
             "type": "Literal",
             "start": 473,
             "end": 504,
-            "value": "Only plural 'months' property",
-            "raw": "\"Only plural 'months' property\""
+            "value": "Only plural 'months' property"
           }
         ],
         "optional": false

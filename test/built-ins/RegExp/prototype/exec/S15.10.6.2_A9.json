@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 419,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 432,
             "end": 499,
-            "value": "RegExp.prototype.exec.hasOwnProperty('length') must return true",
-            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return true'"
+            "value": "RegExp.prototype.exec.hasOwnProperty('length') must return true"
           }
         ],
         "optional": false
@@ -200,8 +198,7 @@
             "type": "Literal",
             "start": 571,
             "end": 646,
-            "value": "The value of `delete RegExp.prototype.exec.length` is expected to be true",
-            "raw": "'The value of `delete RegExp.prototype.exec.length` is expected to be true'"
+            "value": "The value of `delete RegExp.prototype.exec.length` is expected to be true"
           }
         ],
         "optional": false
@@ -289,8 +286,7 @@
                 "type": "Literal",
                 "start": 708,
                 "end": 716,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -306,8 +302,7 @@
             "type": "Literal",
             "start": 730,
             "end": 798,
-            "value": "RegExp.prototype.exec.hasOwnProperty('length') must return false",
-            "raw": "'RegExp.prototype.exec.hasOwnProperty(\\'length\\') must return false'"
+            "value": "RegExp.prototype.exec.hasOwnProperty('length') must return false"
           }
         ],
         "optional": false

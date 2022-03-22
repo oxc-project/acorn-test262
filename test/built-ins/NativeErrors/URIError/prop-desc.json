@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 510,
             "end": 520,
-            "value": "URIError",
-            "raw": "\"URIError\""
+            "value": "URIError"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 544,
             "end": 554,
-            "value": "URIError",
-            "raw": "\"URIError\""
+            "value": "URIError"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 582,
             "end": 592,
-            "value": "URIError",
-            "raw": "\"URIError\""
+            "value": "URIError"
           }
         ],
         "optional": false

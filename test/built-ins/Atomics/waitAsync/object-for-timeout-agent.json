@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 821,
             "end": 831,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 833,
             "end": 888,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -94,8 +92,7 @@
             "type": "Literal",
             "start": 908,
             "end": 909,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -246,8 +243,7 @@
                       "type": "Literal",
                       "start": 1830,
                       "end": 1831,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -331,8 +327,7 @@
                     "type": "Literal",
                     "start": 1882,
                     "end": 1883,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ],
                 "optional": false
@@ -406,15 +401,13 @@
                             "type": "Literal",
                             "start": 1946,
                             "end": 1947,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1949,
                             "end": 1981,
-                            "value": "The value of `agentCount` is 1",
-                            "raw": "'The value of `agentCount` is 1'"
+                            "value": "The value of `agentCount` is 1"
                           }
                         ],
                         "optional": false
@@ -496,15 +489,13 @@
                             "type": "Literal",
                             "start": 2048,
                             "end": 2059,
-                            "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "value": "timed-out"
                           },
                           {
                             "type": "Literal",
                             "start": 2065,
                             "end": 2136,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\""
                           }
                         ],
                         "optional": false
@@ -586,15 +577,13 @@
                             "type": "Literal",
                             "start": 2205,
                             "end": 2216,
-                            "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "value": "timed-out"
                           },
                           {
                             "type": "Literal",
                             "start": 2222,
                             "end": 2293,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\""
                           }
                         ],
                         "optional": false
@@ -676,15 +665,13 @@
                             "type": "Literal",
                             "start": 2362,
                             "end": 2373,
-                            "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "value": "timed-out"
                           },
                           {
                             "type": "Literal",
                             "start": 2379,
                             "end": 2450,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\""
                           }
                         ],
                         "optional": false
@@ -766,15 +753,13 @@
                             "type": "Literal",
                             "start": 2519,
                             "end": 2530,
-                            "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "value": "timed-out"
                           },
                           {
                             "type": "Literal",
                             "start": 2536,
                             "end": 2607,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\""
                           }
                         ],
                         "optional": false
@@ -856,15 +841,13 @@
                             "type": "Literal",
                             "start": 2676,
                             "end": 2687,
-                            "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "value": "timed-out"
                           },
                           {
                             "type": "Literal",
                             "start": 2693,
                             "end": 2764,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\""
                           }
                         ],
                         "optional": false
@@ -946,15 +929,13 @@
                             "type": "Literal",
                             "start": 2833,
                             "end": 2844,
-                            "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "value": "timed-out"
                           },
                           {
                             "type": "Literal",
                             "start": 2850,
                             "end": 2921,
-                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"",
-                            "raw": "'(await $262.agent.getReportAsync()) resolves to the value \"timed-out\"'"
+                            "value": "(await $262.agent.getReportAsync()) resolves to the value \"timed-out\""
                           }
                         ],
                         "optional": false
@@ -1022,8 +1003,7 @@
                                 "type": "Literal",
                                 "start": 2968,
                                 "end": 2969,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               }
                             ],
                             "optional": false
@@ -1032,15 +1012,13 @@
                             "type": "Literal",
                             "start": 2972,
                             "end": 2973,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 2975,
                             "end": 3081,
-                            "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
-                            "raw": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
+                            "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0"
                           }
                         ],
                         "optional": false

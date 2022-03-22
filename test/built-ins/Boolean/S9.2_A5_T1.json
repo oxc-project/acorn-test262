@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 407,
                 "end": 409,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ],
             "optional": false
@@ -63,8 +62,7 @@
             "type": "Literal",
             "start": 419,
             "end": 450,
-            "value": "Boolean(\"\") must return false",
-            "raw": "'Boolean(\"\") must return false'"
+            "value": "Boolean(\"\") must return false"
           }
         ],
         "optional": false

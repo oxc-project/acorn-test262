@@ -177,8 +177,7 @@
                     "type": "Literal",
                     "start": 1239,
                     "end": 1243,
-                    "value": "fn",
-                    "raw": "'fn'"
+                    "value": "fn"
                   }
                 ],
                 "optional": false
@@ -235,8 +234,7 @@
                     "type": "Literal",
                     "start": 1278,
                     "end": 1283,
-                    "value": "xFn",
-                    "raw": "'xFn'"
+                    "value": "xFn"
                   }
                 ],
                 "optional": false
@@ -296,8 +294,7 @@
             "type": "Literal",
             "start": 1325,
             "end": 1349,
-            "value": "executed `catch` block",
-            "raw": "'executed `catch` block'"
+            "value": "executed `catch` block"
           }
         ],
         "optional": false

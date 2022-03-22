@@ -53,8 +53,7 @@
                     "type": "Literal",
                     "start": 323,
                     "end": 359,
-                    "value": "#0 x !== undefined, but actual is ",
-                    "raw": "\"#0 x !== undefined, but actual is \""
+                    "value": "#0 x !== undefined, but actual is "
                   },
                   "operator": "+",
                   "right": {
@@ -174,8 +173,7 @@
                     "type": "Literal",
                     "start": 527,
                     "end": 560,
-                    "value": "#1.1 x !== true, but actual is ",
-                    "raw": "\"#1.1 x !== true, but actual is \""
+                    "value": "#1.1 x !== true, but actual is "
                   },
                   "operator": "+",
                   "right": {
@@ -243,8 +241,7 @@
                     "type": "Literal",
                     "start": 615,
                     "end": 649,
-                    "value": "#1.1 y !== false, but actual is ",
-                    "raw": "\"#1.1 y !== false, but actual is \""
+                    "value": "#1.1 y !== false, but actual is "
                   },
                   "operator": "+",
                   "right": {

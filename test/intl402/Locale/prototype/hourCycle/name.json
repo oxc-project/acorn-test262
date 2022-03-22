@@ -82,8 +82,7 @@
                   "type": "Literal",
                   "start": 1293,
                   "end": 1304,
-                  "value": "hourCycle",
-                  "raw": "\"hourCycle\""
+                  "value": "hourCycle"
                 }
               ],
               "optional": false
@@ -126,8 +125,7 @@
             "type": "Literal",
             "start": 1334,
             "end": 1340,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -151,8 +149,7 @@
                   "type": "Literal",
                   "start": 1353,
                   "end": 1368,
-                  "value": "get hourCycle",
-                  "raw": "\"get hourCycle\""
+                  "value": "get hourCycle"
                 },
                 "kind": "init"
               },

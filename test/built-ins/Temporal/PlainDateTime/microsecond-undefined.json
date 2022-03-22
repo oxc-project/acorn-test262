@@ -27,50 +27,43 @@
                 "type": "Literal",
                 "start": 270,
                 "end": 274,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 276,
                 "end": 277,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 279,
                 "end": 280,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 282,
                 "end": 284,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 286,
                 "end": 288,
-                "value": 34,
-                "raw": "34"
+                "value": 34
               },
               {
                 "type": "Literal",
                 "start": 290,
                 "end": 292,
-                "value": 56,
-                "raw": "56"
+                "value": 56
               },
               {
                 "type": "Literal",
                 "start": 294,
                 "end": 297,
-                "value": 123,
-                "raw": "123"
+                "value": 123
               }
             ]
           }
@@ -191,15 +184,13 @@
             "type": "Literal",
             "start": 405,
             "end": 406,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 408,
             "end": 438,
-            "value": "microsecond default argument",
-            "raw": "\"microsecond default argument\""
+            "value": "microsecond default argument"
           }
         ],
         "optional": false
@@ -312,15 +303,13 @@
             "type": "Literal",
             "start": 535,
             "end": 536,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 538,
             "end": 568,
-            "value": "microsecond default argument",
-            "raw": "\"microsecond default argument\""
+            "value": "microsecond default argument"
           }
         ],
         "optional": false

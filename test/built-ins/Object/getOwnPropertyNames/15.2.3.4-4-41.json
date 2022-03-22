@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 335,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               }
             ]
           }
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 379,
             "end": 394,
-            "value": "protoProperty",
-            "raw": "\"protoProperty\""
+            "value": "protoProperty"
           },
           {
             "type": "ObjectExpression",
@@ -136,8 +134,7 @@
                           "type": "Literal",
                           "start": 429,
                           "end": 442,
-                          "value": "protoString",
-                          "raw": "\"protoString\""
+                          "value": "protoString"
                         }
                       }
                     ]
@@ -311,15 +308,13 @@
                   "type": "Literal",
                   "start": 579,
                   "end": 594,
-                  "value": "protoProperty",
-                  "raw": "\"protoProperty\""
+                  "value": "protoProperty"
                 },
                 {
                   "type": "Literal",
                   "start": 596,
                   "end": 607,
-                  "value": "result[p]",
-                  "raw": "'result[p]'"
+                  "value": "result[p]"
                 }
               ],
               "optional": false

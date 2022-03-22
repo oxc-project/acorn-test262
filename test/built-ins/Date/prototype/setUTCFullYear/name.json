@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 811,
             "end": 827,
-            "value": "setUTCFullYear",
-            "raw": "\"setUTCFullYear\""
+            "value": "setUTCFullYear"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 882,
             "end": 888,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 940,
             "end": 946,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -254,8 +251,7 @@
             "type": "Literal",
             "start": 999,
             "end": 1005,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

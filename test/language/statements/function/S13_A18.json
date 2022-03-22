@@ -29,8 +29,7 @@
           "type": "Literal",
           "start": 363,
           "end": 374,
-          "value": "undefined",
-          "raw": "'undefined'"
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 402,
                     "end": 462,
-                    "value": "#1: typeof sinx === 'undefined'. Actual: typeof sinx ===",
-                    "raw": "'#1: typeof sinx === \\'undefined\\'. Actual: typeof sinx ==='"
+                    "value": "#1: typeof sinx === 'undefined'. Actual: typeof sinx ==="
                   },
                   "operator": "+",
                   "right": {
@@ -325,8 +323,7 @@
                   "type": "Literal",
                   "start": 713,
                   "end": 718,
-                  "value": 0.0001,
-                  "raw": ".0001"
+                  "value": 0.0001
                 }
               ],
               "optional": false
@@ -336,8 +333,7 @@
                 "type": "Literal",
                 "start": 720,
                 "end": 723,
-                "value": 0.5,
-                "raw": "0.5"
+                "value": 0.5
               }
             ],
             "optional": false
@@ -372,8 +368,7 @@
           "type": "Literal",
           "start": 836,
           "end": 847,
-          "value": "undefined",
-          "raw": "'undefined'"
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -404,8 +399,7 @@
                     "type": "Literal",
                     "start": 875,
                     "end": 935,
-                    "value": "#2: typeof sinx === 'undefined'. Actual: typeof sinx ===",
-                    "raw": "'#2: typeof sinx === \\'undefined\\'. Actual: typeof sinx ==='"
+                    "value": "#2: typeof sinx === 'undefined'. Actual: typeof sinx ==="
                   },
                   "operator": "+",
                   "right": {

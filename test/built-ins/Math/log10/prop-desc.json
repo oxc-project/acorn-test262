@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 258,
             "end": 265,
-            "value": "log10",
-            "raw": "\"log10\""
+            "value": "log10"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 289,
             "end": 296,
-            "value": "log10",
-            "raw": "\"log10\""
+            "value": "log10"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 324,
             "end": 331,
-            "value": "log10",
-            "raw": "\"log10\""
+            "value": "log10"
           }
         ],
         "optional": false

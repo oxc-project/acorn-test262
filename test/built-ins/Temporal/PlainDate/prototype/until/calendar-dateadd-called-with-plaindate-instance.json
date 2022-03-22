@@ -91,22 +91,19 @@
                 "type": "Literal",
                 "start": 497,
                 "end": 501,
-                "value": 1970,
-                "raw": "1970"
+                "value": 1970
               },
               {
                 "type": "Literal",
                 "start": 503,
                 "end": 504,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 506,
                 "end": 507,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Identifier",
@@ -212,22 +209,19 @@
                 "type": "Literal",
                 "start": 597,
                 "end": 601,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 603,
                 "end": 604,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 606,
                 "end": 607,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -259,8 +253,7 @@
                   "type": "Literal",
                   "start": 636,
                   "end": 643,
-                  "value": "month",
-                  "raw": "\"month\""
+                  "value": "month"
                 },
                 "kind": "init"
               }
@@ -313,16 +306,14 @@
               "type": "Literal",
               "start": 683,
               "end": 684,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 744,
-            "value": "assertions in calendar.dateAdd() should have been tested",
-            "raw": "\"assertions in calendar.dateAdd() should have been tested\""
+            "value": "assertions in calendar.dateAdd() should have been tested"
           }
         ],
         "optional": false

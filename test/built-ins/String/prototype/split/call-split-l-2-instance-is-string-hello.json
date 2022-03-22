@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 733,
-                "value": "hello",
-                "raw": "\"hello\""
+                "value": "hello"
               }
             ]
           }
@@ -85,15 +84,13 @@
                 "type": "Literal",
                 "start": 768,
                 "end": 771,
-                "value": "l",
-                "raw": "\"l\""
+                "value": "l"
               },
               {
                 "type": "Literal",
                 "start": 773,
                 "end": 774,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -126,15 +123,13 @@
                 "type": "Literal",
                 "start": 796,
                 "end": 800,
-                "value": "he",
-                "raw": "\"he\""
+                "value": "he"
               },
               {
                 "type": "Literal",
                 "start": 802,
                 "end": 804,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ]
           }
@@ -199,8 +194,7 @@
             "type": "Literal",
             "start": 860,
             "end": 934,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -276,8 +270,7 @@
             "type": "Literal",
             "start": 998,
             "end": 1079,
-            "value": "The value of __split.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __split.length is expected to equal the value of __expected.length'"
+            "value": "The value of __split.length is expected to equal the value of __expected.length"
           }
         ],
         "optional": false
@@ -306,8 +299,7 @@
               "type": "Literal",
               "start": 1273,
               "end": 1274,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -432,8 +424,7 @@
                   "type": "Literal",
                   "start": 1381,
                   "end": 1462,
-                  "value": "The value of __split[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __split[index] is expected to equal the value of __expected[index]'"
+                  "value": "The value of __split[index] is expected to equal the value of __expected[index]"
                 }
               ],
               "optional": false

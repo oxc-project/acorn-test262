@@ -89,15 +89,13 @@
                         "type": "Literal",
                         "start": 334,
                         "end": 344,
-                        "value": "property",
-                        "raw": "\"property\""
+                        "value": "property"
                       },
                       {
                         "type": "Literal",
                         "start": 346,
                         "end": 351,
-                        "value": "abc",
-                        "raw": "\"abc\""
+                        "value": "abc"
                       }
                     ],
                     "optional": false

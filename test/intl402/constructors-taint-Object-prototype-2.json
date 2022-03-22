@@ -27,36 +27,31 @@
                 "type": "Literal",
                 "start": 348,
                 "end": 360,
-                "value": "dataLocale",
-                "raw": "\"dataLocale\""
+                "value": "dataLocale"
               },
               {
                 "type": "Literal",
                 "start": 362,
                 "end": 366,
-                "value": "nu",
-                "raw": "\"nu\""
+                "value": "nu"
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 372,
-                "value": "ca",
-                "raw": "\"ca\""
+                "value": "ca"
               },
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 378,
-                "value": "co",
-                "raw": "\"co\""
+                "value": "co"
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 388,
-                "value": "locale",
-                "raw": "\"locale\""
+                "value": "locale"
               }
             ]
           }
@@ -166,8 +161,7 @@
                                         "type": "Literal",
                                         "start": 503,
                                         "end": 511,
-                                        "value": "lookup",
-                                        "raw": "\"lookup\""
+                                        "value": "lookup"
                                       },
                                       "kind": "init"
                                     }
@@ -247,8 +241,7 @@
                             "type": "Literal",
                             "start": 604,
                             "end": 641,
-                            "value": "Constructor returns invalid locale ",
-                            "raw": "\"Constructor returns invalid locale \""
+                            "value": "Constructor returns invalid locale "
                           },
                           "operator": "+",
                           "right": {
@@ -263,8 +256,7 @@
                           "type": "Literal",
                           "start": 653,
                           "end": 656,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],

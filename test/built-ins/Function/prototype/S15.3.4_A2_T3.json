@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 433,
             "end": 474,
-            "value": "Function.prototype(x) returns undefined",
-            "raw": "'Function.prototype(x) returns undefined'"
+            "value": "Function.prototype(x) returns undefined"
           }
         ],
         "optional": false

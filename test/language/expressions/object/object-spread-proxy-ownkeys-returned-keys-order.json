@@ -65,15 +65,13 @@
                 "type": "Literal",
                 "start": 1093,
                 "end": 1098,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               },
               {
                 "type": "Literal",
                 "start": 1100,
                 "end": 1103,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               }
             ]
           }

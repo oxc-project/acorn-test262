@@ -315,7 +315,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 2653,
               "end": 2655,
               "name": "m"
@@ -343,8 +343,7 @@
                       "type": "Literal",
                       "start": 2667,
                       "end": 2669,
-                      "value": 42,
-                      "raw": "42"
+                      "value": 42
                     }
                   }
                 ]
@@ -391,14 +390,14 @@
                         "start": 2696,
                         "end": 2700
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 2701,
                         "end": 2703,
                         "name": "m"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -456,8 +455,7 @@
                           "type": "Literal",
                           "start": 2744,
                           "end": 2748,
-                          "value": "#m",
-                          "raw": "'#m'"
+                          "value": "#m"
                         },
                         {
                           "type": "Literal",
@@ -470,8 +468,7 @@
                           "type": "Literal",
                           "start": 2757,
                           "end": 2852,
-                          "value": "private methods are defined in an special internal slot and cannot be found as own properties",
-                          "raw": "'private methods are defined in an special internal slot and cannot be found as own properties'"
+                          "value": "private methods are defined in an special internal slot and cannot be found as own properties"
                         }
                       ],
                       "optional": false
@@ -520,22 +517,21 @@
                               "start": 2883,
                               "end": 2887
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 2888,
                               "end": 2890,
                               "name": "m"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           }
                         },
                         {
                           "type": "Literal",
                           "start": 2892,
                           "end": 2902,
-                          "value": "function",
-                          "raw": "'function'"
+                          "value": "function"
                         }
                       ],
                       "optional": false
@@ -596,21 +592,20 @@
                             "start": 2936,
                             "end": 2940
                           },
+                          "computed": false,
+                          "optional": false,
                           "property": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 2941,
                             "end": 2943,
                             "name": "m"
-                          },
-                          "computed": false,
-                          "optional": false
+                          }
                         },
                         {
                           "type": "Literal",
                           "start": 2945,
                           "end": 2969,
-                          "value": "returns the same value",
-                          "raw": "'returns the same value'"
+                          "value": "returns the same value"
                         }
                       ],
                       "optional": false
@@ -653,14 +648,14 @@
                             "start": 2993,
                             "end": 2997
                           },
+                          "computed": false,
+                          "optional": false,
                           "property": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 2998,
                             "end": 3000,
                             "name": "m"
-                          },
-                          "computed": false,
-                          "optional": false
+                          }
                         },
                         {
                           "type": "MemberExpression",
@@ -693,21 +688,20 @@
                             "arguments": [],
                             "optional": false
                           },
+                          "computed": false,
+                          "optional": false,
                           "property": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 3017,
                             "end": 3019,
                             "name": "m"
-                          },
-                          "computed": false,
-                          "optional": false
+                          }
                         },
                         {
                           "type": "Literal",
                           "start": 3021,
                           "end": 3065,
-                          "value": "memberexpression and call expression forms",
-                          "raw": "'memberexpression and call expression forms'"
+                          "value": "memberexpression and call expression forms"
                         }
                       ],
                       "optional": false
@@ -749,14 +743,14 @@
                                   "start": 3083,
                                   "end": 3087
                                 },
+                                "computed": false,
+                                "optional": false,
                                 "property": {
-                                  "type": "PrivateIdentifier",
+                                  "type": "PrivateName",
                                   "start": 3088,
                                   "end": 3090,
                                   "name": "m"
-                                },
-                                "computed": false,
-                                "optional": false
+                                }
                               },
                               "arguments": [],
                               "optional": false
@@ -828,15 +822,13 @@
                           "type": "Literal",
                           "start": 3133,
                           "end": 3135,
-                          "value": 42,
-                          "raw": "42"
+                          "value": 42
                         },
                         {
                           "type": "Literal",
                           "start": 3137,
                           "end": 3180,
-                          "value": "return from generator method, inside ctor",
-                          "raw": "'return from generator method, inside ctor'"
+                          "value": "return from generator method, inside ctor"
                         }
                       ],
                       "optional": false
@@ -900,8 +892,7 @@
                           "type": "Literal",
                           "start": 3220,
                           "end": 3251,
-                          "value": "iterator is done, inside ctor",
-                          "raw": "'iterator is done, inside ctor'"
+                          "value": "iterator is done, inside ctor"
                         }
                       ],
                       "optional": false
@@ -948,14 +939,14 @@
                               "start": 3275,
                               "end": 3279
                             },
+                            "computed": false,
+                            "optional": false,
                             "property": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 3280,
                               "end": 3282,
                               "name": "m"
-                            },
-                            "computed": false,
-                            "optional": false
+                            }
                           },
                           "property": {
                             "type": "Identifier",
@@ -970,15 +961,13 @@
                           "type": "Literal",
                           "start": 3289,
                           "end": 3293,
-                          "value": "#m",
-                          "raw": "'#m'"
+                          "value": "#m"
                         },
                         {
                           "type": "Literal",
                           "start": 3295,
                           "end": 3329,
-                          "value": "function name inside constructor",
-                          "raw": "'function name inside constructor'"
+                          "value": "function name inside constructor"
                         }
                       ],
                       "optional": false
@@ -1091,8 +1080,7 @@
             "type": "Literal",
             "start": 3400,
             "end": 3404,
-            "value": "#m",
-            "raw": "'#m'"
+            "value": "#m"
           },
           {
             "type": "Literal",
@@ -1105,8 +1093,7 @@
             "type": "Literal",
             "start": 3413,
             "end": 3453,
-            "value": "method is not defined in the prototype",
-            "raw": "'method is not defined in the prototype'"
+            "value": "method is not defined in the prototype"
           }
         ],
         "optional": false
@@ -1137,8 +1124,7 @@
             "type": "Literal",
             "start": 3467,
             "end": 3471,
-            "value": "#m",
-            "raw": "'#m'"
+            "value": "#m"
           },
           {
             "type": "Literal",
@@ -1151,8 +1137,7 @@
             "type": "Literal",
             "start": 3480,
             "end": 3521,
-            "value": "method is not defined in the contructor",
-            "raw": "'method is not defined in the contructor'"
+            "value": "method is not defined in the contructor"
           }
         ],
         "optional": false
@@ -1183,8 +1168,7 @@
             "type": "Literal",
             "start": 3535,
             "end": 3539,
-            "value": "#m",
-            "raw": "'#m'"
+            "value": "#m"
           },
           {
             "type": "Literal",
@@ -1197,8 +1181,7 @@
             "type": "Literal",
             "start": 3548,
             "end": 3592,
-            "value": "method cannot be seen outside of the class",
-            "raw": "'method cannot be seen outside of the class'"
+            "value": "method cannot be seen outside of the class"
           }
         ],
         "optional": false
@@ -1274,8 +1257,7 @@
             "type": "Literal",
             "start": 3816,
             "end": 3878,
-            "value": "The method is defined once, and reused on every new instance",
-            "raw": "'The method is defined once, and reused on every new instance'"
+            "value": "The method is defined once, and reused on every new instance"
           }
         ],
         "optional": false
@@ -1397,15 +1379,13 @@
             "type": "Literal",
             "start": 3974,
             "end": 3976,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 3978,
             "end": 4008,
-            "value": "return from generator method",
-            "raw": "'return from generator method'"
+            "value": "return from generator method"
           }
         ],
         "optional": false
@@ -1469,8 +1449,7 @@
             "type": "Literal",
             "start": 4044,
             "end": 4062,
-            "value": "iterator is done",
-            "raw": "'iterator is done'"
+            "value": "iterator is done"
           }
         ],
         "optional": false
@@ -1540,15 +1519,13 @@
             "type": "Literal",
             "start": 4094,
             "end": 4098,
-            "value": "#m",
-            "raw": "'#m'"
+            "value": "#m"
           },
           {
             "type": "Literal",
             "start": 4100,
             "end": 4147,
-            "value": "function name is preserved external reference",
-            "raw": "'function name is preserved external reference'"
+            "value": "function name is preserved external reference"
           }
         ],
         "optional": false

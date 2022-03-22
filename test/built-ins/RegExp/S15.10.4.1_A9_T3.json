@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 334,
                     "end": 390,
-                    "value": "#1.1: new RegExp(\"[a--z]\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"[a--z]\") throw SyntaxError. Actual: '"
+                    "value": "#1.1: new RegExp(\"[a--z]\") throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -58,8 +57,7 @@
                           "type": "Literal",
                           "start": 405,
                           "end": 413,
-                          "value": "[a--z]",
-                          "raw": "\"[a--z]\""
+                          "value": "[a--z]"
                         }
                       ]
                     }
@@ -142,8 +140,7 @@
                     "type": "Literal",
                     "start": 496,
                     "end": 572,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

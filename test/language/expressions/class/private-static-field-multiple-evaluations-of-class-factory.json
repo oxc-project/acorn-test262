@@ -48,13 +48,13 @@
                       "end": 1727,
                       "body": [
                         {
-                          "type": "PropertyDefinition",
+                          "type": "FieldDefinition",
                           "start": 1650,
-                          "end": 1672,
+                          "end": 1671,
                           "static": true,
                           "computed": false,
                           "key": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 1657,
                             "end": 1659,
                             "name": "m"
@@ -63,8 +63,7 @@
                             "type": "Literal",
                             "start": 1662,
                             "end": 1671,
-                            "value": "test262",
-                            "raw": "'test262'"
+                            "value": "test262"
                           }
                         },
                         {
@@ -107,14 +106,14 @@
                                       "start": 1709,
                                       "end": 1713
                                     },
+                                    "computed": false,
+                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateIdentifier",
+                                      "type": "PrivateName",
                                       "start": 1714,
                                       "end": 1716,
                                       "name": "m"
-                                    },
-                                    "computed": false,
-                                    "optional": false
+                                    }
                                   }
                                 }
                               ]
@@ -254,8 +253,7 @@
             "type": "Literal",
             "start": 1811,
             "end": 1820,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -319,8 +317,7 @@
             "type": "Literal",
             "start": 1853,
             "end": 1862,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -432,8 +429,7 @@
             "type": "Literal",
             "start": 1929,
             "end": 1972,
-            "value": "invalid access of c1 private static field",
-            "raw": "'invalid access of c1 private static field'"
+            "value": "invalid access of c1 private static field"
           }
         ],
         "optional": false
@@ -545,8 +541,7 @@
             "type": "Literal",
             "start": 2039,
             "end": 2082,
-            "value": "invalid access of c2 private static field",
-            "raw": "'invalid access of c2 private static field'"
+            "value": "invalid access of c2 private static field"
           }
         ],
         "optional": false

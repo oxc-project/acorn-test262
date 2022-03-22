@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 596,
                 "end": 599,
-                "value": "_",
-                "raw": "'_'"
+                "value": "_"
               },
               "property": {
                 "type": "Identifier",
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 609,
                 "end": 612,
-                "value": "b",
-                "raw": "'b'"
+                "value": "b"
               }
             ],
             "optional": false
@@ -70,8 +68,7 @@
             "type": "Literal",
             "start": 615,
             "end": 640,
-            "value": "<font size=\"b\">_</font>",
-            "raw": "'<font size=\"b\">_</font>'"
+            "value": "<font size=\"b\">_</font>"
           }
         ],
         "optional": false
@@ -117,8 +114,7 @@
                 "type": "Literal",
                 "start": 660,
                 "end": 663,
-                "value": "<",
-                "raw": "'<'"
+                "value": "<"
               },
               "property": {
                 "type": "Identifier",
@@ -134,8 +130,7 @@
                 "type": "Literal",
                 "start": 673,
                 "end": 676,
-                "value": "<",
-                "raw": "'<'"
+                "value": "<"
               }
             ],
             "optional": false
@@ -144,8 +139,7 @@
             "type": "Literal",
             "start": 679,
             "end": 704,
-            "value": "<font size=\"<\"><</font>",
-            "raw": "'<font size=\"<\"><</font>'"
+            "value": "<font size=\"<\"><</font>"
           }
         ],
         "optional": false
@@ -191,8 +185,7 @@
                 "type": "Literal",
                 "start": 724,
                 "end": 727,
-                "value": "_",
-                "raw": "'_'"
+                "value": "_"
               },
               "property": {
                 "type": "Identifier",
@@ -208,8 +201,7 @@
                 "type": "Literal",
                 "start": 737,
                 "end": 741,
-                "value": 42,
-                "raw": "0x2A"
+                "value": 42
               }
             ],
             "optional": false
@@ -218,8 +210,7 @@
             "type": "Literal",
             "start": 744,
             "end": 770,
-            "value": "<font size=\"42\">_</font>",
-            "raw": "'<font size=\"42\">_</font>'"
+            "value": "<font size=\"42\">_</font>"
           }
         ],
         "optional": false
@@ -265,8 +256,7 @@
                 "type": "Literal",
                 "start": 790,
                 "end": 793,
-                "value": "_",
-                "raw": "'_'"
+                "value": "_"
               },
               "property": {
                 "type": "Identifier",
@@ -282,8 +272,7 @@
                 "type": "Literal",
                 "start": 803,
                 "end": 809,
-                "value": "\"",
-                "raw": "'\\x22'"
+                "value": "\""
               }
             ],
             "optional": false
@@ -292,8 +281,7 @@
             "type": "Literal",
             "start": 812,
             "end": 842,
-            "value": "<font size=\"&quot;\">_</font>",
-            "raw": "'<font size=\"&quot;\">_</font>'"
+            "value": "<font size=\"&quot;\">_</font>"
           }
         ],
         "optional": false
@@ -381,15 +369,13 @@
                 "type": "Literal",
                 "start": 893,
                 "end": 897,
-                "value": 42,
-                "raw": "0x2A"
+                "value": 42
               },
               {
                 "type": "Literal",
                 "start": 899,
                 "end": 903,
-                "value": 42,
-                "raw": "0x2A"
+                "value": 42
               }
             ],
             "optional": false
@@ -398,8 +384,7 @@
             "type": "Literal",
             "start": 908,
             "end": 935,
-            "value": "<font size=\"42\">42</font>",
-            "raw": "'<font size=\"42\">42</font>'"
+            "value": "<font size=\"42\">42</font>"
           }
         ],
         "optional": false

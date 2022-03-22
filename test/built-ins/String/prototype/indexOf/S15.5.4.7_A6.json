@@ -92,8 +92,7 @@
                     "type": "Literal",
                     "start": 450,
                     "end": 514,
-                    "value": "#1: String.prototype.indexOf.prototype === undefined. Actual: ",
-                    "raw": "'#1: String.prototype.indexOf.prototype === undefined. Actual: '"
+                    "value": "#1: String.prototype.indexOf.prototype === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

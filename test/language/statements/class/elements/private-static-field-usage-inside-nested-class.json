@@ -20,13 +20,13 @@
         "end": 3586,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 3479,
-            "end": 3505,
+            "end": 3504,
             "static": true,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 3486,
               "end": 3488,
               "name": "m"
@@ -35,12 +35,11 @@
               "type": "Literal",
               "start": 3491,
               "end": 3504,
-              "value": "outer class",
-              "raw": "'outer class'"
+              "value": "outer class"
             }
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 3509,
             "end": 3584,
             "static": true,
@@ -110,14 +109,14 @@
                                 "end": 3570,
                                 "name": "o"
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 3571,
                                 "end": 3573,
                                 "name": "m"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             }
                           }
                         ]
@@ -209,8 +208,7 @@
             "type": "Literal",
             "start": 3625,
             "end": 3638,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -335,8 +333,7 @@
             "type": "Literal",
             "start": 3707,
             "end": 3763,
-            "value": "accessed static private field from an arbritary object",
-            "raw": "'accessed static private field from an arbritary object'"
+            "value": "accessed static private field from an arbritary object"
           }
         ],
         "optional": false

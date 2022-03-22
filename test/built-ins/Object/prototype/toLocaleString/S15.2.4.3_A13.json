@@ -123,8 +123,7 @@
             "type": "Literal",
             "start": 356,
             "end": 429,
-            "value": "Object.prototype.toLocaleString.call(null) throws a TypeError exception",
-            "raw": "'Object.prototype.toLocaleString.call(null) throws a TypeError exception'"
+            "value": "Object.prototype.toLocaleString.call(null) throws a TypeError exception"
           }
         ],
         "optional": false

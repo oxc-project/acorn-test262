@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 311,
         "end": 334,
-        "value": "./get-prototype-of.js",
-        "raw": "'./get-prototype-of.js'"
+        "value": "./get-prototype-of.js"
       }
     },
     {

@@ -568,15 +568,13 @@
             "type": "Literal",
             "start": 1262,
             "end": 1263,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1265,
             "end": 1315,
-            "value": "The value of thisVals.length is expected to be 2",
-            "raw": "'The value of thisVals.length is expected to be 2'"
+            "value": "The value of thisVals.length is expected to be 2"
           }
         ],
         "optional": false
@@ -624,8 +622,7 @@
               "type": "Literal",
               "start": 1344,
               "end": 1345,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -640,8 +637,7 @@
             "type": "Literal",
             "start": 1359,
             "end": 1416,
-            "value": "The value of thisVals[0] is expected to equal undefined",
-            "raw": "'The value of thisVals[0] is expected to equal undefined'"
+            "value": "The value of thisVals[0] is expected to equal undefined"
           }
         ],
         "optional": false
@@ -689,8 +685,7 @@
               "type": "Literal",
               "start": 1445,
               "end": 1446,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -705,8 +700,7 @@
             "type": "Literal",
             "start": 1460,
             "end": 1517,
-            "value": "The value of thisVals[1] is expected to equal undefined",
-            "raw": "'The value of thisVals[1] is expected to equal undefined'"
+            "value": "The value of thisVals[1] is expected to equal undefined"
           }
         ],
         "optional": false

@@ -97,8 +97,7 @@
             "type": "Literal",
             "start": 719,
             "end": 721,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -273,8 +272,7 @@
             "type": "Literal",
             "start": 826,
             "end": 855,
-            "value": "WeakMap#delete returns true",
-            "raw": "'WeakMap#delete returns true'"
+            "value": "WeakMap#delete returns true"
           }
         ],
         "optional": false

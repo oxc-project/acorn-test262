@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 371,
             "end": 394,
-            "value": "AABBCC",
-            "raw": "\"\\u0041A\\u0042B\\u0043C\""
+            "value": "AABBCC"
           }
         }
       ],
@@ -48,8 +47,7 @@
           "type": "Literal",
           "start": 410,
           "end": 418,
-          "value": "AABBCC",
-          "raw": "'AABBCC'"
+          "value": "AABBCC"
         }
       },
       "consequent": {
@@ -80,8 +78,7 @@
                     "type": "Literal",
                     "start": 446,
                     "end": 522,
-                    "value": "#1: var __str = \"\\u0041A\\u0042B\\u0043C\"; __str === 'AABBCC'. Actual: ",
-                    "raw": "'#1: var __str = \"\\\\u0041A\\\\u0042B\\\\u0043C\"; __str === \\'AABBCC\\'. Actual: '"
+                    "value": "#1: var __str = \"\\u0041A\\u0042B\\u0043C\"; __str === 'AABBCC'. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -131,16 +128,14 @@
               "type": "Literal",
               "start": 724,
               "end": 744,
-              "value": "ABC",
-              "raw": "\"\\u0041\\u0042\\u0043\""
+              "value": "ABC"
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 745,
               "end": 750,
-              "value": "ABC",
-              "raw": "'ABC'"
+              "value": "ABC"
             }
           }
         }
@@ -166,8 +161,7 @@
           "type": "Literal",
           "start": 768,
           "end": 776,
-          "value": "ABCABC",
-          "raw": "'ABCABC'"
+          "value": "ABCABC"
         }
       },
       "consequent": {
@@ -198,8 +192,7 @@
                     "type": "Literal",
                     "start": 804,
                     "end": 889,
-                    "value": "#2: var __str__ = \"\\u0041\\u0042\\u0043\"+'ABC'; __str__ === 'ABCABC'. Actual: ",
-                    "raw": "'#2: var __str__ = \"\\\\u0041\\\\u0042\\\\u0043\"+\\'ABC\\'; __str__ === \\'ABCABC\\'. Actual: '"
+                    "value": "#2: var __str__ = \"\\u0041\\u0042\\u0043\"+'ABC'; __str__ === 'ABCABC'. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -249,16 +242,14 @@
               "type": "Literal",
               "start": 1091,
               "end": 1096,
-              "value": "ABC",
-              "raw": "\"ABC\""
+              "value": "ABC"
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 1097,
               "end": 1117,
-              "value": "ABC",
-              "raw": "'\\u0041\\u0042\\u0043'"
+              "value": "ABC"
             }
           }
         }
@@ -284,8 +275,7 @@
           "type": "Literal",
           "start": 1133,
           "end": 1141,
-          "value": "ABCABC",
-          "raw": "\"ABCABC\""
+          "value": "ABCABC"
         }
       },
       "consequent": {
@@ -316,8 +306,7 @@
                     "type": "Literal",
                     "start": 1169,
                     "end": 1248,
-                    "value": "#2: var str__ = \"ABC\"+'\\u0041\\u0042\\u0043'; str__ === \"ABCABC\". Actual: ",
-                    "raw": "'#2: var str__ = \"ABC\"+\\'\\\\u0041\\\\u0042\\\\u0043\\'; str__ === \"ABCABC\". Actual: '"
+                    "value": "#2: var str__ = \"ABC\"+'\\u0041\\u0042\\u0043'; str__ === \"ABCABC\". Actual: "
                   },
                   "operator": "+",
                   "right": {

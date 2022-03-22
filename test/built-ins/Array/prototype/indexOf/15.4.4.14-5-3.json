@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 255,
                 "end": 256,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 258,
                 "end": 259,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 261,
                 "end": 262,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -106,8 +103,7 @@
                 "type": "Literal",
                 "start": 293,
                 "end": 294,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -129,16 +125,14 @@
               "type": "Literal",
               "start": 304,
               "end": 305,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 307,
             "end": 327,
-            "value": "true resolves to 1",
-            "raw": "'true resolves to 1'"
+            "value": "true resolves to 1"
           }
         ],
         "optional": false
@@ -200,8 +194,7 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 358,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
@@ -217,15 +210,13 @@
             "type": "Literal",
             "start": 368,
             "end": 369,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 371,
             "end": 392,
-            "value": "false resolves to 0",
-            "raw": "'false resolves to 0'"
+            "value": "false resolves to 0"
           }
         ],
         "optional": false

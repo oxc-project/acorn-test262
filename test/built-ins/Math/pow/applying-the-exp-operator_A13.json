@@ -89,8 +89,7 @@
             "type": "Literal",
             "start": 336,
             "end": 337,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -99,8 +98,7 @@
           "type": "Literal",
           "start": 341,
           "end": 342,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -127,8 +125,7 @@
             "type": "Literal",
             "start": 353,
             "end": 354,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -137,8 +134,7 @@
           "type": "Literal",
           "start": 358,
           "end": 361,
-          "value": 111,
-          "raw": "111"
+          "value": 111
         }
       }
     },
@@ -165,8 +161,7 @@
             "type": "Literal",
             "start": 372,
             "end": 373,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           "computed": true,
           "optional": false
@@ -175,8 +170,7 @@
           "type": "Literal",
           "start": 377,
           "end": 383,
-          "value": 111111,
-          "raw": "111111"
+          "value": 111111
         }
       }
     },
@@ -199,8 +193,7 @@
             "type": "Literal",
             "start": 403,
             "end": 404,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         }
       ],
@@ -229,8 +222,7 @@
               "type": "Literal",
               "start": 420,
               "end": 421,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -387,8 +379,7 @@
                                 "type": "Literal",
                                 "start": 525,
                                 "end": 540,
-                                "value": "#1: Math.pow(",
-                                "raw": "\"#1: Math.pow(\""
+                                "value": "#1: Math.pow("
                               },
                               "operator": "+",
                               "right": {
@@ -403,8 +394,7 @@
                               "type": "Literal",
                               "start": 550,
                               "end": 554,
-                              "value": ", ",
-                              "raw": "\", \""
+                              "value": ", "
                             }
                           },
                           "operator": "+",
@@ -433,8 +423,7 @@
                           "type": "Literal",
                           "start": 571,
                           "end": 588,
-                          "value": ") !== -Infinity",
-                          "raw": "\") !== -Infinity\""
+                          "value": ") !== -Infinity"
                         }
                       }
                     ]

@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 313,
             "end": 318,
-            "value": "bar",
-            "raw": "\"bar\""
+            "value": "bar"
           },
           {
             "type": "ObjectExpression",
@@ -105,8 +104,7 @@
                   "type": "Literal",
                   "start": 328,
                   "end": 340,
-                  "value": "unwritable",
-                  "raw": "\"unwritable\""
+                  "value": "unwritable"
                 },
                 "kind": "init"
               }
@@ -179,8 +177,7 @@
           "type": "Literal",
           "start": 386,
           "end": 398,
-          "value": "overridden",
-          "raw": "\"overridden\""
+          "value": "overridden"
         }
       }
     },
@@ -240,8 +237,7 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 441,
-                "value": "bar",
-                "raw": "\"bar\""
+                "value": "bar"
               }
             ],
             "optional": false
@@ -257,8 +253,7 @@
             "type": "Literal",
             "start": 451,
             "end": 476,
-            "value": "o.hasOwnProperty(\"bar\")",
-            "raw": "'o.hasOwnProperty(\"bar\")'"
+            "value": "o.hasOwnProperty(\"bar\")"
           }
         ],
         "optional": false
@@ -315,15 +310,13 @@
             "type": "Literal",
             "start": 503,
             "end": 515,
-            "value": "unwritable",
-            "raw": "\"unwritable\""
+            "value": "unwritable"
           },
           {
             "type": "Literal",
             "start": 517,
             "end": 524,
-            "value": "o.bar",
-            "raw": "'o.bar'"
+            "value": "o.bar"
           }
         ],
         "optional": false

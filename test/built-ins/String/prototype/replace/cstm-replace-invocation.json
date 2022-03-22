@@ -72,8 +72,7 @@
             "type": "Literal",
             "start": 611,
             "end": 612,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -185,8 +184,7 @@
                     "type": "Literal",
                     "start": 692,
                     "end": 693,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -291,8 +289,7 @@
                 "type": "Literal",
                 "start": 774,
                 "end": 776,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               "property": {
                 "type": "Identifier",
@@ -314,8 +311,7 @@
                 "type": "Literal",
                 "start": 798,
                 "end": 813,
-                "value": "replace value",
-                "raw": "'replace value'"
+                "value": "replace value"
               }
             ],
             "optional": false
@@ -469,8 +465,7 @@
             "type": "Literal",
             "start": 936,
             "end": 937,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -518,8 +513,7 @@
               "type": "Literal",
               "start": 962,
               "end": 963,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -528,8 +522,7 @@
             "type": "Literal",
             "start": 966,
             "end": 968,
-            "value": "",
-            "raw": "''"
+            "value": ""
           }
         ],
         "optional": false
@@ -577,8 +570,7 @@
               "type": "Literal",
               "start": 993,
               "end": 994,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -587,8 +579,7 @@
             "type": "Literal",
             "start": 997,
             "end": 1012,
-            "value": "replace value",
-            "raw": "'replace value'"
+            "value": "replace value"
           }
         ],
         "optional": false

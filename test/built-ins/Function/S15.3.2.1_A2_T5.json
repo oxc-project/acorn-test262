@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 424,
             "end": 425,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -88,8 +87,7 @@
                             "type": "Literal",
                             "start": 474,
                             "end": 479,
-                            "value": "arg",
-                            "raw": "\"arg\""
+                            "value": "arg"
                           },
                           "operator": "+",
                           "right": {
@@ -177,8 +175,7 @@
                           "type": "Literal",
                           "start": 525,
                           "end": 528,
-                          "value": ",",
-                          "raw": "\",\""
+                          "value": ","
                         }
                       },
                       "operator": "+",
@@ -199,8 +196,7 @@
                       "type": "Literal",
                       "start": 537,
                       "end": 561,
-                      "value": "return arg1+arg2+arg3;",
-                      "raw": "\"return arg1+arg2+arg3;\""
+                      "value": "return arg1+arg2+arg3;"
                     }
                   ],
                   "optional": false
@@ -245,8 +241,7 @@
                     "type": "Literal",
                     "start": 603,
                     "end": 620,
-                    "value": "#1: test failed",
-                    "raw": "'#1: test failed'"
+                    "value": "#1: test failed"
                   }
                 ]
               }
@@ -293,8 +288,7 @@
             "type": "Literal",
             "start": 656,
             "end": 729,
-            "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "value": "The result of evaluating (f instanceof Function) is expected to be true"
           }
         ],
         "optional": false
@@ -343,22 +337,19 @@
                 "type": "Literal",
                 "start": 751,
                 "end": 753,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 755,
                 "end": 756,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 758,
                 "end": 759,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ],
             "optional": false
@@ -367,15 +358,13 @@
             "type": "Literal",
             "start": 762,
             "end": 766,
-            "value": "12",
-            "raw": "\"12\""
+            "value": "12"
           },
           {
             "type": "Literal",
             "start": 768,
             "end": 796,
-            "value": "f(, 1, 2) must return \"12\"",
-            "raw": "'f(, 1, 2) must return \"12\"'"
+            "value": "f(, 1, 2) must return \"12\""
           }
         ],
         "optional": false

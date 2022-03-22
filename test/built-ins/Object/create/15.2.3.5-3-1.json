@@ -178,8 +178,7 @@
             "type": "Literal",
             "start": 499,
             "end": 525,
-            "value": "Object.getPrototypeOf(d)",
-            "raw": "'Object.getPrototypeOf(d)'"
+            "value": "Object.getPrototypeOf(d)"
           }
         ],
         "optional": false
@@ -257,8 +256,7 @@
             "type": "Literal",
             "start": 571,
             "end": 591,
-            "value": "b.isPrototypeOf(d)",
-            "raw": "'b.isPrototypeOf(d)'"
+            "value": "b.isPrototypeOf(d)"
           }
         ],
         "optional": false

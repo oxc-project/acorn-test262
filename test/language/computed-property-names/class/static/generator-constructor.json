@@ -29,8 +29,7 @@
               "type": "Literal",
               "start": 293,
               "end": 306,
-              "value": "constructor",
-              "raw": "'constructor'"
+              "value": "constructor"
             },
             "kind": "method",
             "value": {

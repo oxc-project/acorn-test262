@@ -115,8 +115,7 @@
           "type": "Literal",
           "start": 607,
           "end": 617,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -147,8 +146,7 @@
                     "type": "Literal",
                     "start": 645,
                     "end": 706,
-                    "value": "#1: typeof __func === \"function\". Actual: typeof __func ===",
-                    "raw": "'#1: typeof __func === \"function\". Actual: typeof __func ==='"
+                    "value": "#1: typeof __func === \"function\". Actual: typeof __func ==="
                   },
                   "operator": "+",
                   "right": {
@@ -195,22 +193,19 @@
               "type": "Literal",
               "start": 908,
               "end": 910,
-              "value": 10,
-              "raw": "10"
+              "value": 10
             },
             {
               "type": "Literal",
               "start": 912,
               "end": 914,
-              "value": 20,
-              "raw": "20"
+              "value": 20
             },
             {
               "type": "Literal",
               "start": 916,
               "end": 918,
-              "value": 30,
-              "raw": "30"
+              "value": 30
             }
           ],
           "optional": false
@@ -220,8 +215,7 @@
           "type": "Literal",
           "start": 924,
           "end": 926,
-          "value": 60,
-          "raw": "60"
+          "value": 60
         }
       },
       "consequent": {
@@ -252,8 +246,7 @@
                     "type": "Literal",
                     "start": 954,
                     "end": 1015,
-                    "value": "#2: __func(10, 20, 30) === 60. Actual: __func(10,20,30) ===",
-                    "raw": "'#2: __func(10, 20, 30) === 60. Actual: __func(10,20,30) ==='"
+                    "value": "#2: __func(10, 20, 30) === 60. Actual: __func(10,20,30) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -271,22 +264,19 @@
                         "type": "Literal",
                         "start": 1023,
                         "end": 1025,
-                        "value": 10,
-                        "raw": "10"
+                        "value": 10
                       },
                       {
                         "type": "Literal",
                         "start": 1026,
                         "end": 1028,
-                        "value": 20,
-                        "raw": "20"
+                        "value": 20
                       },
                       {
                         "type": "Literal",
                         "start": 1029,
                         "end": 1031,
-                        "value": 30,
-                        "raw": "30"
+                        "value": 30
                       }
                     ],
                     "optional": false

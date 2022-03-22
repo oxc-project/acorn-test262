@@ -46,29 +46,25 @@
                 "type": "Literal",
                 "start": 335,
                 "end": 336,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 338,
                 "end": 339,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 341,
                 "end": 342,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 345,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -95,8 +91,7 @@
             "type": "Literal",
             "start": 367,
             "end": 396,
-            "value": "2000-01-01T00:00+05:30[UTC]",
-            "raw": "\"2000-01-01T00:00+05:30[UTC]\""
+            "value": "2000-01-01T00:00+05:30[UTC]"
           }
         }
       ],
@@ -197,36 +192,31 @@
                       "type": "Literal",
                       "start": 475,
                       "end": 476,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Literal",
                       "start": 478,
                       "end": 479,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Literal",
                       "start": 481,
                       "end": 482,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Literal",
                       "start": 484,
                       "end": 485,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Literal",
                       "start": 487,
                       "end": 489,
-                      "value": 24,
-                      "raw": "24"
+                      "value": 24
                     }
                   ]
                 },
@@ -266,8 +256,7 @@
             "type": "Literal",
             "start": 511,
             "end": 582,
-            "value": "subtract should throw RangeError on a string with UTC offset mismatch",
-            "raw": "\"subtract should throw RangeError on a string with UTC offset mismatch\""
+            "value": "subtract should throw RangeError on a string with UTC offset mismatch"
           }
         ],
         "optional": false

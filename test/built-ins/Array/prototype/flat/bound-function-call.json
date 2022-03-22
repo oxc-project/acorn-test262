@@ -32,8 +32,7 @@
                     "type": "Literal",
                     "start": 306,
                     "end": 307,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ]
               },
@@ -46,8 +45,7 @@
                     "type": "Literal",
                     "start": 313,
                     "end": 314,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               }
@@ -172,15 +170,13 @@
                 "type": "Literal",
                 "start": 381,
                 "end": 382,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 385,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -188,8 +184,7 @@
             "type": "Literal",
             "start": 388,
             "end": 434,
-            "value": "The value of actual is expected to be [0, 1]",
-            "raw": "'The value of actual is expected to be [0, 1]'"
+            "value": "The value of actual is expected to be [0, 1]"
           }
         ],
         "optional": false

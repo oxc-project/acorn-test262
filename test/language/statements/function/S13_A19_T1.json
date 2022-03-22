@@ -29,8 +29,7 @@
           "type": "Literal",
           "start": 510,
           "end": 520,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 548,
                     "end": 609,
-                    "value": "#1: typeof __decl === \"function\". Actual: typeof __decl ===",
-                    "raw": "'#1: typeof __decl === \"function\". Actual: typeof __decl ==='"
+                    "value": "#1: typeof __decl === \"function\". Actual: typeof __decl ==="
                   },
                   "operator": "+",
                   "right": {
@@ -105,8 +103,7 @@
             "type": "Literal",
             "start": 724,
             "end": 725,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -131,8 +128,7 @@
           "type": "Literal",
           "start": 895,
           "end": 896,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -163,8 +159,7 @@
                     "type": "Literal",
                     "start": 924,
                     "end": 962,
-                    "value": "#2: __decl === 1. Actual: __decl ===",
-                    "raw": "'#2: __decl === 1. Actual: __decl ==='"
+                    "value": "#2: __decl === 1. Actual: __decl ==="
                   },
                   "operator": "+",
                   "right": {
@@ -208,8 +203,7 @@
               "type": "Literal",
               "start": 1082,
               "end": 1083,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ]

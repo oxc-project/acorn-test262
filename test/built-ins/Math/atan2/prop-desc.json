@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 491,
             "end": 498,
-            "value": "atan2",
-            "raw": "\"atan2\""
+            "value": "atan2"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 522,
             "end": 529,
-            "value": "atan2",
-            "raw": "\"atan2\""
+            "value": "atan2"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 557,
             "end": 564,
-            "value": "atan2",
-            "raw": "\"atan2\""
+            "value": "atan2"
           }
         ],
         "optional": false

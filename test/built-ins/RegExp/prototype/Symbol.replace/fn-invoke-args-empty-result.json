@@ -102,7 +102,6 @@
             "start": 868,
             "end": 871,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -215,8 +214,7 @@
             "type": "Literal",
             "start": 930,
             "end": 935,
-            "value": "foo",
-            "raw": "'foo'"
+            "value": "foo"
           },
           {
             "type": "Identifier",
@@ -323,8 +321,7 @@
             "type": "Literal",
             "start": 1017,
             "end": 1018,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -372,8 +369,7 @@
               "type": "Literal",
               "start": 1043,
               "end": 1044,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -382,8 +378,7 @@
             "type": "Literal",
             "start": 1047,
             "end": 1058,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -431,8 +426,7 @@
               "type": "Literal",
               "start": 1083,
               "end": 1084,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -441,8 +435,7 @@
             "type": "Literal",
             "start": 1087,
             "end": 1088,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -490,8 +483,7 @@
               "type": "Literal",
               "start": 1113,
               "end": 1114,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -500,8 +492,7 @@
             "type": "Literal",
             "start": 1117,
             "end": 1122,
-            "value": "foo",
-            "raw": "'foo'"
+            "value": "foo"
           }
         ],
         "optional": false

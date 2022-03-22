@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 738,
             "end": 748,
-            "value": "timeZone",
-            "raw": "'timeZone'"
+            "value": "timeZone"
           },
           {
             "type": "Literal",
             "start": 752,
             "end": 822,
-            "value": "The value of Temporal.Now.timeZone.name is expected to be \"timeZone\"",
-            "raw": "'The value of Temporal.Now.timeZone.name is expected to be \"timeZone\"'"
+            "value": "The value of Temporal.Now.timeZone.name is expected to be \"timeZone\""
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 865,
             "end": 871,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

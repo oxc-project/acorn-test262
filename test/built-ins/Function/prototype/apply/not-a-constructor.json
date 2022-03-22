@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 768,
             "end": 827,
-            "value": "isConstructor(Function.prototype.apply) must return false",
-            "raw": "'isConstructor(Function.prototype.apply) must return false'"
+            "value": "isConstructor(Function.prototype.apply) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 900,
             "end": 949,
-            "value": "`new Function.prototype.apply` throws TypeError",
-            "raw": "'`new Function.prototype.apply` throws TypeError'"
+            "value": "`new Function.prototype.apply` throws TypeError"
           }
         ],
         "optional": false
@@ -298,8 +296,7 @@
             "type": "Literal",
             "start": 1023,
             "end": 1074,
-            "value": "`new Function.prototype.apply()` throws TypeError",
-            "raw": "'`new Function.prototype.apply()` throws TypeError'"
+            "value": "`new Function.prototype.apply()` throws TypeError"
           }
         ],
         "optional": false

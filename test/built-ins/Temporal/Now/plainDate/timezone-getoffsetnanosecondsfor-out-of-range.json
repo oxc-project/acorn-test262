@@ -30,16 +30,14 @@
                   "type": "Literal",
                   "start": 311,
                   "end": 328,
-                  "value": 86400000000001,
-                  "raw": "86400_000_000_001"
+                  "value": 86400000000001
                 }
               },
               {
                 "type": "Literal",
                 "start": 330,
                 "end": 347,
-                "value": 86400000000001,
-                "raw": "86400_000_000_001"
+                "value": 86400000000001
               },
               {
                 "type": "UnaryExpression",
@@ -229,8 +227,7 @@
                               "type": "Literal",
                               "start": 527,
                               "end": 536,
-                              "value": "iso8601",
-                              "raw": "\"iso8601\""
+                              "value": "iso8601"
                             },
                             {
                               "type": "Identifier",

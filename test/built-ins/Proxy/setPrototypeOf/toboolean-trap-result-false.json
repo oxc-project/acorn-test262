@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 666,
             "end": 667,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -112,8 +111,7 @@
                                 "type": "Literal",
                                 "start": 742,
                                 "end": 743,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           }
@@ -388,8 +386,7 @@
             "type": "Literal",
             "start": 945,
             "end": 952,
-            "value": "false",
-            "raw": "\"false\""
+            "value": "false"
           }
         ],
         "optional": false
@@ -433,15 +430,13 @@
             "type": "Literal",
             "start": 980,
             "end": 981,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 983,
             "end": 1019,
-            "value": "false - isExtensible is not called",
-            "raw": "\"false - isExtensible is not called\""
+            "value": "false - isExtensible is not called"
           }
         ],
         "optional": false
@@ -514,8 +509,7 @@
                     "type": "Literal",
                     "start": 1068,
                     "end": 1070,
-                    "value": "",
-                    "raw": "\"\""
+                    "value": ""
                   },
                   "kind": "init"
                 }
@@ -571,8 +565,7 @@
             "type": "Literal",
             "start": 1107,
             "end": 1125,
-            "value": "the empty string",
-            "raw": "\"the empty string\""
+            "value": "the empty string"
           }
         ],
         "optional": false
@@ -616,15 +609,13 @@
             "type": "Literal",
             "start": 1153,
             "end": 1154,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1156,
             "end": 1203,
-            "value": "the empty string - isExtensible is not called",
-            "raw": "\"the empty string - isExtensible is not called\""
+            "value": "the empty string - isExtensible is not called"
           }
         ],
         "optional": false
@@ -697,8 +688,7 @@
                     "type": "Literal",
                     "start": 1252,
                     "end": 1253,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "kind": "init"
                 }
@@ -754,8 +744,7 @@
             "type": "Literal",
             "start": 1290,
             "end": 1293,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           }
         ],
         "optional": false
@@ -799,15 +788,13 @@
             "type": "Literal",
             "start": 1321,
             "end": 1322,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1324,
             "end": 1356,
-            "value": "0 - isExtensible is not called",
-            "raw": "\"0 - isExtensible is not called\""
+            "value": "0 - isExtensible is not called"
           }
         ],
         "optional": false
@@ -886,8 +873,7 @@
                       "type": "Literal",
                       "start": 1406,
                       "end": 1407,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   },
                   "kind": "init"
@@ -944,8 +930,7 @@
             "type": "Literal",
             "start": 1444,
             "end": 1448,
-            "value": "-0",
-            "raw": "\"-0\""
+            "value": "-0"
           }
         ],
         "optional": false
@@ -989,15 +974,13 @@
             "type": "Literal",
             "start": 1476,
             "end": 1477,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1479,
             "end": 1512,
-            "value": "-0 - isExtensible is not called",
-            "raw": "\"-0 - isExtensible is not called\""
+            "value": "-0 - isExtensible is not called"
           }
         ],
         "optional": false
@@ -1127,8 +1110,7 @@
             "type": "Literal",
             "start": 1602,
             "end": 1608,
-            "value": "null",
-            "raw": "\"null\""
+            "value": "null"
           }
         ],
         "optional": false
@@ -1172,15 +1154,13 @@
             "type": "Literal",
             "start": 1636,
             "end": 1637,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1639,
             "end": 1674,
-            "value": "null - isExtensible is not called",
-            "raw": "\"null - isExtensible is not called\""
+            "value": "null - isExtensible is not called"
           }
         ],
         "optional": false
@@ -1309,8 +1289,7 @@
             "type": "Literal",
             "start": 1769,
             "end": 1780,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -1354,15 +1333,13 @@
             "type": "Literal",
             "start": 1808,
             "end": 1809,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1811,
             "end": 1851,
-            "value": "undefined - isExtensible is not called",
-            "raw": "\"undefined - isExtensible is not called\""
+            "value": "undefined - isExtensible is not called"
           }
         ],
         "optional": false
@@ -1491,8 +1468,7 @@
             "type": "Literal",
             "start": 1940,
             "end": 1945,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           }
         ],
         "optional": false
@@ -1536,15 +1512,13 @@
             "type": "Literal",
             "start": 1973,
             "end": 1974,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1976,
             "end": 2010,
-            "value": "NaN - isExtensible is not called",
-            "raw": "\"NaN - isExtensible is not called\""
+            "value": "NaN - isExtensible is not called"
           }
         ],
         "optional": false

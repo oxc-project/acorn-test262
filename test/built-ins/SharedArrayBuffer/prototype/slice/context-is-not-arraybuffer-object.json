@@ -122,8 +122,7 @@
             "type": "Literal",
             "start": 422,
             "end": 446,
-            "value": "`this` value is Object",
-            "raw": "\"`this` value is Object\""
+            "value": "`this` value is Object"
           }
         ],
         "optional": false
@@ -248,8 +247,7 @@
             "type": "Literal",
             "start": 537,
             "end": 560,
-            "value": "`this` value is Array",
-            "raw": "\"`this` value is Array\""
+            "value": "`this` value is Array"
           }
         ],
         "optional": false

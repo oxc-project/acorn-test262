@@ -81,8 +81,7 @@
                             "type": "Literal",
                             "start": 408,
                             "end": 417,
-                            "value": "^[z-a]$",
-                            "raw": "\"^[z-a]$\""
+                            "value": "^[z-a]$"
                           }
                         ]
                       }

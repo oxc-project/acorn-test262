@@ -19,16 +19,14 @@
             "type": "Literal",
             "start": 356,
             "end": 357,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "operator": "===",
           "right": {
             "type": "Literal",
             "start": 360,
             "end": 361,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "body": {
@@ -73,8 +71,7 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 444,
-                    "value": "black",
-                    "raw": "\"black\""
+                    "value": "black"
                   }
                 }
               ],
@@ -92,8 +89,7 @@
                   "type": "Literal",
                   "start": 465,
                   "end": 466,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "body": {
                   "type": "BlockStatement",
@@ -119,8 +115,7 @@
                             "type": "Literal",
                             "start": 510,
                             "end": 516,
-                            "value": "hole",
-                            "raw": "\"hole\""
+                            "value": "hole"
                           }
                         }
                       ],
@@ -156,8 +151,7 @@
                             "type": "Literal",
                             "start": 579,
                             "end": 584,
-                            "value": "sun",
-                            "raw": "\"sun\""
+                            "value": "sun"
                           }
                         }
                       ],
@@ -197,8 +191,7 @@
                     "type": "Literal",
                     "start": 625,
                     "end": 641,
-                    "value": "won't you come",
-                    "raw": "\"won't you come\""
+                    "value": "won't you come"
                   }
                 }
               ],
@@ -308,8 +301,7 @@
                   "type": "Literal",
                   "start": 876,
                   "end": 943,
-                  "value": "#1: Break inside do-while is allowed as its described at standard",
-                  "raw": "'#1: Break inside do-while is allowed as its described at standard'"
+                  "value": "#1: Break inside do-while is allowed as its described at standard"
                 }
               ]
             }

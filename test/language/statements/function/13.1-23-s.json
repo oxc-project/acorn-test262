@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 630,
                         "end": 685,
-                        "value": "'use strict'; function _13_1_23_fun(param, param) { }",
-                        "raw": "\"'use strict'; function _13_1_23_fun(param, param) { }\""
+                        "value": "'use strict'; function _13_1_23_fun(param, param) { }"
                       }
                     ],
                     "optional": false

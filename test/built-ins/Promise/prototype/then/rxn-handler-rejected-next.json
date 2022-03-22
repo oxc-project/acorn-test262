@@ -102,8 +102,7 @@
             "type": "Literal",
             "start": 670,
             "end": 672,
-            "value": "",
-            "raw": "''"
+            "value": ""
           }
         }
       ],
@@ -170,8 +169,7 @@
                       "type": "Literal",
                       "start": 710,
                       "end": 713,
-                      "value": "A",
-                      "raw": "'A'"
+                      "value": "A"
                     }
                   }
                 }
@@ -211,8 +209,7 @@
                       "type": "Literal",
                       "start": 740,
                       "end": 743,
-                      "value": "a",
-                      "raw": "'a'"
+                      "value": "a"
                     }
                   }
                 }
@@ -284,8 +281,7 @@
                       "type": "Literal",
                       "start": 785,
                       "end": 788,
-                      "value": "B",
-                      "raw": "'B'"
+                      "value": "B"
                     }
                   }
                 }
@@ -325,8 +321,7 @@
                       "type": "Literal",
                       "start": 815,
                       "end": 818,
-                      "value": "b",
-                      "raw": "'b'"
+                      "value": "b"
                     }
                   }
                 }
@@ -398,8 +393,7 @@
                       "type": "Literal",
                       "start": 860,
                       "end": 863,
-                      "value": "C",
-                      "raw": "'C'"
+                      "value": "C"
                     }
                   }
                 }
@@ -439,8 +433,7 @@
                       "type": "Literal",
                       "start": 890,
                       "end": 893,
-                      "value": "c",
-                      "raw": "'c'"
+                      "value": "c"
                     }
                   }
                 }
@@ -512,8 +505,7 @@
                         "type": "Literal",
                         "start": 934,
                         "end": 973,
-                        "value": "This promise should not be fulfilled.",
-                        "raw": "'This promise should not be fulfilled.'"
+                        "value": "This promise should not be fulfilled."
                       }
                     ],
                     "optional": false
@@ -555,8 +547,7 @@
                       "type": "Literal",
                       "start": 1006,
                       "end": 1011,
-                      "value": "abc",
-                      "raw": "'abc'"
+                      "value": "abc"
                     }
                   },
                   "consequent": {
@@ -591,16 +582,14 @@
                                   "type": "Literal",
                                   "start": 1032,
                                   "end": 1108,
-                                  "value": "Expected each \"onFulfilled\" handler to be invoked exactly once in series. ",
-                                  "raw": "'Expected each \"onFulfilled\" handler to be invoked exactly once in series. '"
+                                  "value": "Expected each \"onFulfilled\" handler to be invoked exactly once in series. "
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 1117,
                                   "end": 1142,
-                                  "value": "Expected: abc. Actual: ",
-                                  "raw": "'Expected: abc. Actual: '"
+                                  "value": "Expected: abc. Actual: "
                                 }
                               },
                               "operator": "+",

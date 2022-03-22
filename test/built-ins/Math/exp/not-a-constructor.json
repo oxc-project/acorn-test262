@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 729,
             "end": 772,
-            "value": "isConstructor(Math.exp) must return false",
-            "raw": "'isConstructor(Math.exp) must return false'"
+            "value": "isConstructor(Math.exp) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 830,
             "end": 865,
-            "value": "`new Math.exp()` throws TypeError",
-            "raw": "'`new Math.exp()` throws TypeError'"
+            "value": "`new Math.exp()` throws TypeError"
           }
         ],
         "optional": false

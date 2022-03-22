@@ -76,15 +76,13 @@
                   "type": "Literal",
                   "start": 324,
                   "end": 335,
-                  "value": "MAX_VALUE",
-                  "raw": "\"MAX_VALUE\""
+                  "value": "MAX_VALUE"
                 },
                 {
                   "type": "Literal",
                   "start": 337,
                   "end": 372,
-                  "value": "The value of x is not \"MAX_VALUE\"",
-                  "raw": "'The value of x is not \"MAX_VALUE\"'"
+                  "value": "The value of x is not \"MAX_VALUE\""
                 }
               ],
               "optional": false
@@ -142,8 +140,7 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 428,
-                  "value": "MAX_VALUE",
-                  "raw": "'MAX_VALUE'"
+                  "value": "MAX_VALUE"
                 }
               ],
               "optional": false
@@ -153,8 +150,7 @@
             "type": "Literal",
             "start": 433,
             "end": 514,
-            "value": "The value of !Number.propertyIsEnumerable('MAX_VALUE') is expected to be true",
-            "raw": "'The value of !Number.propertyIsEnumerable(\\'MAX_VALUE\\') is expected to be true'"
+            "value": "The value of !Number.propertyIsEnumerable('MAX_VALUE') is expected to be true"
           }
         ],
         "optional": false

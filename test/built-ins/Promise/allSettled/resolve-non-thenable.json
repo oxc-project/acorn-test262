@@ -229,8 +229,7 @@
                                       "type": "Literal",
                                       "start": 705,
                                       "end": 716,
-                                      "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "value": "fulfilled"
                                     },
                                     "kind": "init"
                                   },
@@ -279,8 +278,7 @@
                                       "type": "Literal",
                                       "start": 769,
                                       "end": 780,
-                                      "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "value": "fulfilled"
                                     },
                                     "kind": "init"
                                   },
@@ -329,8 +327,7 @@
                                       "type": "Literal",
                                       "start": 833,
                                       "end": 844,
-                                      "value": "fulfilled",
-                                      "raw": "'fulfilled'"
+                                      "value": "fulfilled"
                                     },
                                     "kind": "init"
                                   },
@@ -363,8 +360,7 @@
                             "type": "Literal",
                             "start": 879,
                             "end": 887,
-                            "value": "values",
-                            "raw": "'values'"
+                            "value": "values"
                           }
                         ],
                         "optional": false
@@ -406,8 +402,7 @@
                             "type": "Literal",
                             "start": 918,
                             "end": 955,
-                            "value": "The promise should not be rejected.",
-                            "raw": "'The promise should not be rejected.'"
+                            "value": "The promise should not be rejected."
                           }
                         ],
                         "optional": false

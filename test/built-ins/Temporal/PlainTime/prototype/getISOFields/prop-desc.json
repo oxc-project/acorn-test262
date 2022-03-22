@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 389,
             "end": 399,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 460,
-            "value": "`typeof PlainTime.prototype.getISOFields` is `function`",
-            "raw": "\"`typeof PlainTime.prototype.getISOFields` is `function`\""
+            "value": "`typeof PlainTime.prototype.getISOFields` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 510,
             "end": 524,
-            "value": "getISOFields",
-            "raw": "\"getISOFields\""
+            "value": "getISOFields"
           },
           {
             "type": "ObjectExpression",

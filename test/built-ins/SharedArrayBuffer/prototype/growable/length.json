@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 1122,
                 "end": 1132,
-                "value": "growable",
-                "raw": "'growable'"
+                "value": "growable"
               }
             ],
             "optional": false
@@ -113,8 +112,7 @@
             "type": "Literal",
             "start": 1161,
             "end": 1169,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -138,8 +136,7 @@
                   "type": "Literal",
                   "start": 1182,
                   "end": 1183,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },

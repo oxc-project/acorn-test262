@@ -98,8 +98,7 @@
           "type": "Literal",
           "start": 557,
           "end": 558,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -160,8 +159,7 @@
             "type": "Literal",
             "start": 598,
             "end": 608,
-            "value": "obj.prop",
-            "raw": "\"obj.prop\""
+            "value": "obj.prop"
           }
         ],
         "optional": false

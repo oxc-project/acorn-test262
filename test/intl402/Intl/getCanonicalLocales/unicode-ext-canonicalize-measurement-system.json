@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 1220,
                   "end": 1230,
-                  "value": "imperial",
-                  "raw": "\"imperial\""
+                  "value": "imperial"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1232,
                   "end": 1242,
-                  "value": "uksystem",
-                  "raw": "\"uksystem\""
+                  "value": "uksystem"
                 },
                 "kind": "init"
               }
@@ -151,8 +149,7 @@
                     "type": "Literal",
                     "start": 1314,
                     "end": 1325,
-                    "value": "und-u-ms-",
-                    "raw": "\"und-u-ms-\""
+                    "value": "und-u-ms-"
                   },
                   "operator": "+",
                   "right": {
@@ -189,8 +186,7 @@
                     "type": "Literal",
                     "start": 1353,
                     "end": 1364,
-                    "value": "und-u-ms-",
-                    "raw": "\"und-u-ms-\""
+                    "value": "und-u-ms-"
                   },
                   "operator": "+",
                   "right": {
@@ -271,8 +267,7 @@
                       "type": "Literal",
                       "start": 1510,
                       "end": 1514,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -287,8 +282,7 @@
                     "type": "Literal",
                     "start": 1523,
                     "end": 1559,
-                    "value": "\" isn't a canonical language tag.",
-                    "raw": "\"\\\" isn't a canonical language tag.\""
+                    "value": "\" isn't a canonical language tag."
                   }
                 }
               ],
@@ -342,8 +336,7 @@
                       "type": "Literal",
                       "start": 1636,
                       "end": 1640,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -358,8 +351,7 @@
                     "type": "Literal",
                     "start": 1655,
                     "end": 1711,
-                    "value": "\" is a canonical and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                    "value": "\" is a canonical and structurally valid language tag."
                   }
                 }
               ],
@@ -469,8 +461,7 @@
                   "type": "Literal",
                   "start": 1795,
                   "end": 1796,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -518,8 +509,7 @@
                     "type": "Literal",
                     "start": 1825,
                     "end": 1826,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false

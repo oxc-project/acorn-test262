@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 991,
             "end": 1001,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1003,
             "end": 1058,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -94,8 +92,7 @@
             "type": "Literal",
             "start": 1078,
             "end": 1079,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -230,8 +227,7 @@
                       "type": "Literal",
                       "start": 1209,
                       "end": 1210,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -411,8 +407,7 @@
                     "type": "Literal",
                     "start": 1683,
                     "end": 1684,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ],
                 "optional": false
@@ -486,15 +481,13 @@
                             "type": "Literal",
                             "start": 1747,
                             "end": 1748,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1750,
                             "end": 1782,
-                            "value": "The value of `agentCount` is 1",
-                            "raw": "'The value of `agentCount` is 1'"
+                            "value": "The value of `agentCount` is 1"
                           }
                         ],
                         "optional": false
@@ -538,15 +531,13 @@
                             "type": "Literal",
                             "start": 1805,
                             "end": 1806,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 1808,
                             "end": 1809,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -652,8 +643,7 @@
                             "type": "Literal",
                             "start": 1901,
                             "end": 1956,
-                            "value": "The result of evaluating `(lapse >= TIMEOUT)` is true",
-                            "raw": "'The result of evaluating `(lapse >= TIMEOUT)` is true'"
+                            "value": "The result of evaluating `(lapse >= TIMEOUT)` is true"
                           }
                         ],
                         "optional": false
@@ -760,15 +750,13 @@
                             "type": "Literal",
                             "start": 2052,
                             "end": 2063,
-                            "value": "timed-out",
-                            "raw": "'timed-out'"
+                            "value": "timed-out"
                           },
                           {
                             "type": "Literal",
                             "start": 2069,
                             "end": 2107,
-                            "value": "The value of `result` is \"timed-out\"",
-                            "raw": "'The value of `result` is \"timed-out\"'"
+                            "value": "The value of `result` is \"timed-out\""
                           }
                         ],
                         "optional": false
@@ -836,8 +824,7 @@
                                 "type": "Literal",
                                 "start": 2153,
                                 "end": 2154,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               }
                             ],
                             "optional": false
@@ -846,15 +833,13 @@
                             "type": "Literal",
                             "start": 2157,
                             "end": 2158,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 2160,
                             "end": 2266,
-                            "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0",
-                            "raw": "'Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0'"
+                            "value": "Atomics.notify(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 4)), 0) must return 0"
                           }
                         ],
                         "optional": false

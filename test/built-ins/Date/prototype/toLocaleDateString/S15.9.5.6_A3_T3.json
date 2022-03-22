@@ -78,8 +78,7 @@
                   "type": "Literal",
                   "start": 418,
                   "end": 426,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 431,
             "end": 536,
-            "value": "The value of !Date.prototype.toLocaleDateString.propertyIsEnumerable('length') is expected to be true",
-            "raw": "'The value of !Date.prototype.toLocaleDateString.propertyIsEnumerable(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.prototype.toLocaleDateString.propertyIsEnumerable('length') is expected to be true"
           }
         ],
         "optional": false
@@ -195,15 +193,13 @@
                   "type": "Literal",
                   "start": 617,
                   "end": 625,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 {
                   "type": "Literal",
                   "start": 627,
                   "end": 659,
-                  "value": "The value of x is not \"length\"",
-                  "raw": "'The value of x is not \"length\"'"
+                  "value": "The value of x is not \"length\""
                 }
               ],
               "optional": false

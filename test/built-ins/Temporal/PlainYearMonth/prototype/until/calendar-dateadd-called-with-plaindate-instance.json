@@ -91,15 +91,13 @@
                 "type": "Literal",
                 "start": 507,
                 "end": 511,
-                "value": 1970,
-                "raw": "1970"
+                "value": 1970
               },
               {
                 "type": "Literal",
                 "start": 513,
                 "end": 514,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Identifier",
@@ -169,15 +167,13 @@
                 "type": "Literal",
                 "start": 570,
                 "end": 574,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 576,
                 "end": 577,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Identifier",
@@ -209,8 +205,7 @@
                   "type": "Literal",
                   "start": 606,
                   "end": 612,
-                  "value": "year",
-                  "raw": "\"year\""
+                  "value": "year"
                 },
                 "kind": "init"
               }
@@ -263,16 +258,14 @@
               "type": "Literal",
               "start": 652,
               "end": 653,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 713,
-            "value": "assertions in calendar.dateAdd() should have been tested",
-            "raw": "\"assertions in calendar.dateAdd() should have been tested\""
+            "value": "assertions in calendar.dateAdd() should have been tested"
           }
         ],
         "optional": false

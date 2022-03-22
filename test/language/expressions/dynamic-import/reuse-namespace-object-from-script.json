@@ -60,8 +60,7 @@
                           "type": "Literal",
                           "start": 1320,
                           "end": 1340,
-                          "value": "./empty_FIXTURE.js",
-                          "raw": "'./empty_FIXTURE.js'"
+                          "value": "./empty_FIXTURE.js"
                         }
                       },
                       {
@@ -72,8 +71,7 @@
                           "type": "Literal",
                           "start": 1354,
                           "end": 1374,
-                          "value": "./empty_FIXTURE.js",
-                          "raw": "'./empty_FIXTURE.js'"
+                          "value": "./empty_FIXTURE.js"
                         }
                       }
                     ]
@@ -169,8 +167,7 @@
                             "type": "Literal",
                             "start": 1426,
                             "end": 1470,
-                            "value": "it returns the same namespace are the same",
-                            "raw": "'it returns the same namespace are the same'"
+                            "value": "it returns the same namespace are the same"
                           }
                         ],
                         "optional": false

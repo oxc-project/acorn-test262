@@ -73,8 +73,7 @@
                         "type": "Literal",
                         "start": 1696,
                         "end": 1745,
-                        "value": "Initialized binding created prior to evaluation",
-                        "raw": "'Initialized binding created prior to evaluation'"
+                        "value": "Initialized binding created prior to evaluation"
                       }
                     ],
                     "optional": false
@@ -156,8 +155,7 @@
                                     "type": "Literal",
                                     "start": 1827,
                                     "end": 1830,
-                                    "value": 123,
-                                    "raw": "123"
+                                    "value": 123
                                   }
                                 }
                               ]
@@ -219,15 +217,13 @@
                         "type": "Literal",
                         "start": 1885,
                         "end": 1895,
-                        "value": "function",
-                        "raw": "'function'"
+                        "value": "function"
                       },
                       {
                         "type": "Literal",
                         "start": 1901,
                         "end": 1948,
-                        "value": "binding value is updated following evaluation",
-                        "raw": "'binding value is updated following evaluation'"
+                        "value": "binding value is updated following evaluation"
                       }
                     ],
                     "optional": false
@@ -278,8 +274,7 @@
                         "type": "Literal",
                         "start": 1978,
                         "end": 1981,
-                        "value": 123,
-                        "raw": "123"
+                        "value": 123
                       }
                     ],
                     "optional": false

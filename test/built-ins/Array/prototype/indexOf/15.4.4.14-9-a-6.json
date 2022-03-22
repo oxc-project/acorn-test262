@@ -51,8 +51,7 @@
             "type": "Literal",
             "start": 308,
             "end": 310,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           },
           "computed": true,
           "optional": false
@@ -61,8 +60,7 @@
           "type": "Literal",
           "start": 314,
           "end": 318,
-          "value": "10",
-          "raw": "\"10\""
+          "value": "10"
         }
       }
     },
@@ -98,8 +96,7 @@
           "type": "Literal",
           "start": 333,
           "end": 335,
-          "value": 20,
-          "raw": "20"
+          "value": 20
         }
       }
     },
@@ -174,8 +171,7 @@
                               "type": "Literal",
                               "start": 395,
                               "end": 397,
-                              "value": 10,
-                              "raw": "10"
+                              "value": 10
                             },
                             "computed": true,
                             "optional": false
@@ -190,8 +186,7 @@
                           "type": "Literal",
                           "start": 411,
                           "end": 412,
-                          "value": 3,
-                          "raw": "3"
+                          "value": 3
                         }
                       }
                     ]
@@ -261,8 +256,7 @@
                 "type": "Literal",
                 "start": 451,
                 "end": 455,
-                "value": "10",
-                "raw": "\"10\""
+                "value": "10"
               },
               {
                 "type": "Identifier",
@@ -283,16 +277,14 @@
               "type": "Literal",
               "start": 470,
               "end": 471,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 473,
             "end": 503,
-            "value": "arr.indexOf(\"10\", fromIndex)",
-            "raw": "'arr.indexOf(\"10\", fromIndex)'"
+            "value": "arr.indexOf(\"10\", fromIndex)"
           }
         ],
         "optional": false

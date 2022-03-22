@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 301,
                 "end": 310,
-                "value": "\t1",
-                "raw": "\"\\u00091\""
+                "value": "\t1"
               }
             ],
             "optional": false
@@ -67,8 +66,7 @@
                 "type": "Literal",
                 "start": 322,
                 "end": 325,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ],
             "optional": false
@@ -77,8 +75,7 @@
             "type": "Literal",
             "start": 328,
             "end": 403,
-            "value": "parseInt(\"\\u00091\") must return the same value returned by parseInt(\"1\")",
-            "raw": "'parseInt(\"\\\\u00091\") must return the same value returned by parseInt(\"1\")'"
+            "value": "parseInt(\"\\u00091\") must return the same value returned by parseInt(\"1\")"
           }
         ],
         "optional": false
@@ -127,8 +124,7 @@
                 "type": "Literal",
                 "start": 433,
                 "end": 449,
-                "value": "\t\t-1",
-                "raw": "\"\\u0009\\u0009-1\""
+                "value": "\t\t-1"
               }
             ],
             "optional": false
@@ -148,8 +144,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 465,
-                "value": "-1",
-                "raw": "\"-1\""
+                "value": "-1"
               }
             ],
             "optional": false
@@ -158,8 +153,7 @@
             "type": "Literal",
             "start": 468,
             "end": 552,
-            "value": "parseInt(\"\\u0009\\u0009-1\") must return the same value returned by parseInt(\"-1\")",
-            "raw": "'parseInt(\"\\\\u0009\\\\u0009-1\") must return the same value returned by parseInt(\"-1\")'"
+            "value": "parseInt(\"\\u0009\\u0009-1\") must return the same value returned by parseInt(\"-1\")"
           }
         ],
         "optional": false
@@ -208,8 +202,7 @@
                 "type": "Literal",
                 "start": 582,
                 "end": 586,
-                "value": "\t1",
-                "raw": "\"\t1\""
+                "value": "\t1"
               }
             ],
             "optional": false
@@ -229,8 +222,7 @@
                 "type": "Literal",
                 "start": 598,
                 "end": 601,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ],
             "optional": false
@@ -239,8 +231,7 @@
             "type": "Literal",
             "start": 604,
             "end": 673,
-            "value": "parseInt(\" 1\") must return the same value returned by parseInt(\"1\")",
-            "raw": "'parseInt(\" 1\") must return the same value returned by parseInt(\"1\")'"
+            "value": "parseInt(\" 1\") must return the same value returned by parseInt(\"1\")"
           }
         ],
         "optional": false
@@ -289,8 +280,7 @@
                 "type": "Literal",
                 "start": 703,
                 "end": 709,
-                "value": "\t\t\t1",
-                "raw": "\"\t\t\t1\""
+                "value": "\t\t\t1"
               }
             ],
             "optional": false
@@ -310,8 +300,7 @@
                 "type": "Literal",
                 "start": 721,
                 "end": 724,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ],
             "optional": false
@@ -320,8 +309,7 @@
             "type": "Literal",
             "start": 727,
             "end": 796,
-            "value": "parseInt(\" 1\") must return the same value returned by parseInt(\"1\")",
-            "raw": "'parseInt(\" 1\") must return the same value returned by parseInt(\"1\")'"
+            "value": "parseInt(\" 1\") must return the same value returned by parseInt(\"1\")"
           }
         ],
         "optional": false
@@ -370,8 +358,7 @@
                 "type": "Literal",
                 "start": 829,
                 "end": 851,
-                "value": "\t\t\t\t\t\t\t\t-1",
-                "raw": "\"\t\t\t\\u0009\t\t\t\\u0009-1\""
+                "value": "\t\t\t\t\t\t\t\t-1"
               }
             ],
             "optional": false
@@ -391,8 +378,7 @@
                 "type": "Literal",
                 "start": 865,
                 "end": 869,
-                "value": "-1",
-                "raw": "\"-1\""
+                "value": "-1"
               }
             ],
             "optional": false
@@ -401,8 +387,7 @@
             "type": "Literal",
             "start": 874,
             "end": 960,
-            "value": "parseInt(\" \\u0009 \\u0009-1\") must return the same value returned by parseInt(\"-1\")",
-            "raw": "'parseInt(\" \\\\u0009 \\\\u0009-1\") must return the same value returned by parseInt(\"-1\")'"
+            "value": "parseInt(\" \\u0009 \\u0009-1\") must return the same value returned by parseInt(\"-1\")"
           }
         ],
         "optional": false
@@ -451,8 +436,7 @@
                 "type": "Literal",
                 "start": 991,
                 "end": 999,
-                "value": "\t",
-                "raw": "\"\\u0009\""
+                "value": "\t"
               }
             ],
             "optional": false
@@ -467,8 +451,7 @@
             "type": "Literal",
             "start": 1007,
             "end": 1044,
-            "value": "parseInt(\"\\u0009\") must return NaN",
-            "raw": "'parseInt(\"\\\\u0009\") must return NaN'"
+            "value": "parseInt(\"\\u0009\") must return NaN"
           }
         ],
         "optional": false

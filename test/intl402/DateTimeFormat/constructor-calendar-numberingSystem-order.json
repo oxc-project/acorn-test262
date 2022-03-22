@@ -108,8 +108,7 @@
                               "type": "Literal",
                               "start": 905,
                               "end": 920,
-                              "value": "localeMatcher",
-                              "raw": "\"localeMatcher\""
+                              "value": "localeMatcher"
                             }
                           ],
                           "optional": false
@@ -190,8 +189,7 @@
                               "type": "Literal",
                               "start": 985,
                               "end": 995,
-                              "value": "calendar",
-                              "raw": "\"calendar\""
+                              "value": "calendar"
                             }
                           ],
                           "optional": false
@@ -272,8 +270,7 @@
                               "type": "Literal",
                               "start": 1067,
                               "end": 1084,
-                              "value": "numberingSystem",
-                              "raw": "\"numberingSystem\""
+                              "value": "numberingSystem"
                             }
                           ],
                           "optional": false
@@ -354,8 +351,7 @@
                               "type": "Literal",
                               "start": 1147,
                               "end": 1155,
-                              "value": "hour12",
-                              "raw": "\"hour12\""
+                              "value": "hour12"
                             }
                           ],
                           "optional": false
@@ -406,29 +402,25 @@
                 "type": "Literal",
                 "start": 1210,
                 "end": 1225,
-                "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "value": "localeMatcher"
               },
               {
                 "type": "Literal",
                 "start": 1229,
                 "end": 1239,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               },
               {
                 "type": "Literal",
                 "start": 1243,
                 "end": 1260,
-                "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "value": "numberingSystem"
               },
               {
                 "type": "Literal",
                 "start": 1264,
                 "end": 1272,
-                "value": "hour12",
-                "raw": "\"hour12\""
+                "value": "hour12"
               }
             ]
           }

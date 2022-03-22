@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 362,
-                "value": "this.field=\"green\"",
-                "raw": "\"this.field=\\\"green\\\"\""
+                "value": "this.field=\"green\""
               }
             ],
             "optional": false
@@ -98,8 +97,7 @@
               "type": "Literal",
               "start": 400,
               "end": 407,
-              "value": "field",
-              "raw": "\"field\""
+              "value": "field"
             },
             "computed": true,
             "optional": false
@@ -108,15 +106,13 @@
             "type": "Literal",
             "start": 410,
             "end": 417,
-            "value": "green",
-            "raw": "\"green\""
+            "value": "green"
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 473,
-            "value": "The value of this[\"field\"] is expected to be \"green\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"green\"'"
+            "value": "The value of this[\"field\"] is expected to be \"green\""
           }
         ],
         "optional": false

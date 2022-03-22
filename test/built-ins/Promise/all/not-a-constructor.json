@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 735,
             "end": 781,
-            "value": "isConstructor(Promise.all) must return false",
-            "raw": "'isConstructor(Promise.all) must return false'"
+            "value": "isConstructor(Promise.all) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 844,
             "end": 884,
-            "value": "`new Promise.all([])` throws TypeError",
-            "raw": "'`new Promise.all([])` throws TypeError'"
+            "value": "`new Promise.all([])` throws TypeError"
           }
         ],
         "optional": false

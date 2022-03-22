@@ -30,10 +30,9 @@
               "end": 614,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 597,
-                  "end": 612,
-                  "static": false,
+                  "end": 611,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -45,8 +44,7 @@
                     "type": "Literal",
                     "start": 606,
                     "end": 611,
-                    "value": "foo",
-                    "raw": "\"foo\""
+                    "value": "foo"
                   }
                 }
               ]
@@ -112,8 +110,7 @@
             "type": "Literal",
             "start": 652,
             "end": 660,
-            "value": "static",
-            "raw": "\"static\""
+            "value": "static"
           },
           {
             "type": "ObjectExpression",
@@ -137,8 +134,7 @@
                   "type": "Literal",
                   "start": 673,
                   "end": 678,
-                  "value": "foo",
-                  "raw": "\"foo\""
+                  "value": "foo"
                 },
                 "kind": "init"
               },

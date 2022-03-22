@@ -381,8 +381,7 @@
             "type": "Literal",
             "start": 716,
             "end": 734,
-            "value": "toStringAccessed",
-            "raw": "'toStringAccessed'"
+            "value": "toStringAccessed"
           }
         ],
         "optional": false
@@ -413,8 +412,7 @@
             "type": "Literal",
             "start": 761,
             "end": 778,
-            "value": "valueOfAccessed",
-            "raw": "'valueOfAccessed'"
+            "value": "valueOfAccessed"
           }
         ],
         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 394,
                 "end": 399,
-                "value": "UTC",
-                "raw": "\"UTC\""
+                "value": "UTC"
               }
             ]
           }
@@ -74,8 +73,7 @@
             "type": "Literal",
             "start": 414,
             "end": 472,
-            "value": "1970-01-01T00:02:00.000000000+00:02[+00:01:30.987654321]",
-            "raw": "\"1970-01-01T00:02:00.000000000+00:02[+00:01:30.987654321]\""
+            "value": "1970-01-01T00:02:00.000000000+00:02[+00:01:30.987654321]"
           }
         }
       ],
@@ -171,78 +169,67 @@
             "type": "Literal",
             "start": 569,
             "end": 573,
-            "value": 1970,
-            "raw": "1970"
+            "value": 1970
           },
           {
             "type": "Literal",
             "start": 575,
             "end": 576,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 578,
             "end": 583,
-            "value": "M01",
-            "raw": "\"M01\""
+            "value": "M01"
           },
           {
             "type": "Literal",
             "start": 585,
             "end": 586,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 589,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 591,
             "end": 592,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 594,
             "end": 595,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 597,
             "end": 598,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 600,
             "end": 601,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 604,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 656,
-            "value": "UTC offset determined from offset part of string",
-            "raw": "\"UTC offset determined from offset part of string\""
+            "value": "UTC offset determined from offset part of string"
           }
         ],
         "optional": false

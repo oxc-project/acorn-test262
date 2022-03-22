@@ -288,15 +288,13 @@
             "type": "Literal",
             "start": 1447,
             "end": 1448,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1450,
             "end": 1513,
-            "value": "The value of [].concat(arrayProxy).length is expected to be 0",
-            "raw": "'The value of [].concat(arrayProxy).length is expected to be 0'"
+            "value": "The value of [].concat(arrayProxy).length is expected to be 0"
           }
         ],
         "optional": false
@@ -380,15 +378,13 @@
             "type": "Literal",
             "start": 1571,
             "end": 1572,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1574,
             "end": 1642,
-            "value": "The value of [].concat(arrayProxyProxy).length is expected to be 0",
-            "raw": "'The value of [].concat(arrayProxyProxy).length is expected to be 0'"
+            "value": "The value of [].concat(arrayProxyProxy).length is expected to be 0"
           }
         ],
         "optional": false
@@ -472,15 +468,13 @@
             "type": "Literal",
             "start": 1703,
             "end": 1704,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1708,
             "end": 1776,
-            "value": "The value of [].concat(spreadableProxy).length is expected to be 0",
-            "raw": "'The value of [].concat(spreadableProxy).length is expected to be 0'"
+            "value": "The value of [].concat(spreadableProxy).length is expected to be 0"
           }
         ],
         "optional": false

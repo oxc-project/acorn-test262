@@ -33,36 +33,31 @@
                 "type": "Literal",
                 "start": 440,
                 "end": 441,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 443,
                 "end": 444,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 447,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 449,
                 "end": 450,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 452,
                 "end": 453,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -168,8 +163,7 @@
               "type": "Literal",
               "start": 622,
               "end": 623,
-              "value": 9,
-              "raw": "9"
+              "value": 9
             },
             {
               "type": "UnaryExpression",
@@ -192,8 +186,7 @@
           "type": "Literal",
           "start": 640,
           "end": 651,
-          "value": "1,2,3,4,5",
-          "raw": "\"1,2,3,4,5\""
+          "value": "1,2,3,4,5"
         }
       },
       "consequent": {
@@ -224,8 +217,7 @@
                     "type": "Literal",
                     "start": 680,
                     "end": 831,
-                    "value": "#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(9,-Infinity) === \"1,2,3,4,5\". Actual: ",
-                    "raw": "'#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(9,-Infinity) === \"1,2,3,4,5\". Actual: '"
+                    "value": "#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(9,-Infinity) === \"1,2,3,4,5\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -256,8 +248,7 @@
                         "type": "Literal",
                         "start": 855,
                         "end": 856,
-                        "value": 9,
-                        "raw": "9"
+                        "value": 9
                       },
                       {
                         "type": "UnaryExpression",

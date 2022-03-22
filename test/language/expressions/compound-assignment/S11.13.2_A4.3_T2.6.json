@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 374,
           "end": 377,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -135,8 +134,7 @@
                     "type": "Literal",
                     "start": 445,
                     "end": 504,
-                    "value": "#1: x = \"1\"; x %= undefined; x === Not-a-Number. Actual: ",
-                    "raw": "'#1: x = \"1\"; x %= undefined; x === Not-a-Number. Actual: '"
+                    "value": "#1: x = \"1\"; x %= undefined; x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -200,8 +198,7 @@
           "type": "Literal",
           "start": 546,
           "end": 549,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -270,8 +267,7 @@
                     "type": "Literal",
                     "start": 601,
                     "end": 660,
-                    "value": "#2: x = undefined; x %= \"1\"; x === Not-a-Number. Actual: ",
-                    "raw": "'#2: x = undefined; x %= \"1\"; x === Not-a-Number. Actual: '"
+                    "value": "#2: x = undefined; x %= \"1\"; x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -323,8 +319,7 @@
               "type": "Literal",
               "start": 697,
               "end": 700,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           ]
         }
@@ -418,8 +413,7 @@
                     "type": "Literal",
                     "start": 769,
                     "end": 840,
-                    "value": "#3: x = new String(\"1\"); x %= undefined; x === Not-a-Number. Actual: ",
-                    "raw": "'#3: x = new String(\"1\"); x %= undefined; x === Not-a-Number. Actual: '"
+                    "value": "#3: x = new String(\"1\"); x %= undefined; x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -494,8 +488,7 @@
               "type": "Literal",
               "start": 893,
               "end": 896,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           ]
         }
@@ -566,8 +559,7 @@
                     "type": "Literal",
                     "start": 949,
                     "end": 1020,
-                    "value": "#4: x = undefined; x %= new String(\"1\"); x === Not-a-Number. Actual: ",
-                    "raw": "'#4: x = undefined; x %= new String(\"1\"); x === Not-a-Number. Actual: '"
+                    "value": "#4: x = undefined; x %= new String(\"1\"); x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {

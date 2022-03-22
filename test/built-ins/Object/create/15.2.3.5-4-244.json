@@ -88,8 +88,7 @@
                   "type": "Literal",
                   "start": 415,
                   "end": 437,
-                  "value": "VerifyFunctionObject",
-                  "raw": "\"VerifyFunctionObject\""
+                  "value": "VerifyFunctionObject"
                 }
               }
             ]
@@ -228,15 +227,13 @@
             "type": "Literal",
             "start": 526,
             "end": 548,
-            "value": "VerifyFunctionObject",
-            "raw": "\"VerifyFunctionObject\""
+            "value": "VerifyFunctionObject"
           },
           {
             "type": "Literal",
             "start": 550,
             "end": 563,
-            "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "value": "newObj.prop"
           }
         ],
         "optional": false

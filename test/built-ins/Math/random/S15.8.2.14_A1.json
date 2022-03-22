@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 416,
               "end": 417,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -48,8 +47,7 @@
           "type": "Literal",
           "start": 423,
           "end": 426,
-          "value": 100,
-          "raw": "100"
+          "value": 100
         }
       },
       "update": {
@@ -160,8 +158,7 @@
                   "type": "Literal",
                   "start": 499,
                   "end": 507,
-                  "value": "number",
-                  "raw": "'number'"
+                  "value": "number"
                 },
                 {
                   "type": "BinaryExpression",
@@ -171,8 +168,7 @@
                     "type": "Literal",
                     "start": 509,
                     "end": 551,
-                    "value": "should not produce a non-numeric value: ",
-                    "raw": "'should not produce a non-numeric value: '"
+                    "value": "should not produce a non-numeric value: "
                   },
                   "operator": "+",
                   "right": {
@@ -230,8 +226,7 @@
                   "type": "Literal",
                   "start": 595,
                   "end": 619,
-                  "value": "should not produce NaN",
-                  "raw": "'should not produce NaN'"
+                  "value": "should not produce NaN"
                 }
               ],
               "optional": false
@@ -260,8 +255,7 @@
                   "type": "Literal",
                   "start": 635,
                   "end": 636,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               "operator": "||",
@@ -280,8 +274,7 @@
                   "type": "Literal",
                   "start": 647,
                   "end": 648,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             },
@@ -313,8 +306,7 @@
                           "type": "Literal",
                           "start": 681,
                           "end": 703,
-                          "value": "#1: Math.random() = ",
-                          "raw": "\"#1: Math.random() = \""
+                          "value": "#1: Math.random() = "
                         },
                         "operator": "+",
                         "right": {

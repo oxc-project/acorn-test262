@@ -103,8 +103,7 @@
                         "type": "Literal",
                         "start": 419,
                         "end": 427,
-                        "value": "string",
-                        "raw": "\"string\""
+                        "value": "string"
                       },
                       {
                         "type": "CallExpression",

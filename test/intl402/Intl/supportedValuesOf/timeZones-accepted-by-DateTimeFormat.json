@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1349,
                 "end": 1359,
-                "value": "timeZone",
-                "raw": "\"timeZone\""
+                "value": "timeZone"
               }
             ],
             "optional": false
@@ -135,8 +134,7 @@
                       "type": "Literal",
                       "start": 1433,
                       "end": 1437,
-                      "value": "en",
-                      "raw": "\"en\""
+                      "value": "en"
                     },
                     {
                       "type": "ObjectExpression",

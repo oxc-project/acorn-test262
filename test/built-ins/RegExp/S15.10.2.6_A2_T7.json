@@ -31,7 +31,6 @@
                 "start": 405,
                 "end": 412,
                 "value": {},
-                "raw": "/^..^e/",
                 "regex": {
                   "pattern": "^..^e",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 418,
                 "end": 427,
-                "value": "ab\ncde",
-                "raw": "\"ab\\ncde\""
+                "value": "ab\ncde"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 451,
             "end": 500,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

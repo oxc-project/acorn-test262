@@ -121,8 +121,7 @@
                   "type": "Literal",
                   "start": 466,
                   "end": 527,
-                  "value": "#1: If Expression is omitted, the return value is undefined",
-                  "raw": "'#1: If Expression is omitted, the return value is undefined'"
+                  "value": "#1: If Expression is omitted, the return value is undefined"
                 }
               ]
             }

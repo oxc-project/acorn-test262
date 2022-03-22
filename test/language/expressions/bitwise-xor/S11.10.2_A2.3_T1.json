@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 348,
                           "end": 351,
-                          "value": "x",
-                          "raw": "\"x\""
+                          "value": "x"
                         }
                       }
                     ]
@@ -128,8 +127,7 @@
                           "type": "Literal",
                           "start": 397,
                           "end": 400,
-                          "value": "y",
-                          "raw": "\"y\""
+                          "value": "y"
                         }
                       }
                     ]
@@ -198,8 +196,7 @@
                     "type": "Literal",
                     "start": 449,
                     "end": 580,
-                    "value": "#1.1: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x ^ y throw \"x\". Actual: ",
-                    "raw": "'#1.1: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x ^ y throw \"x\". Actual: '"
+                    "value": "#1.1: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x ^ y throw \"x\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -265,8 +262,7 @@
                   "type": "Literal",
                   "start": 620,
                   "end": 623,
-                  "value": "y",
-                  "raw": "\"y\""
+                  "value": "y"
                 }
               },
               "consequent": {
@@ -293,8 +289,7 @@
                           "type": "Literal",
                           "start": 655,
                           "end": 741,
-                          "value": "#1.2: ToInt32(first expression) is called first, and then ToInt32(second expression)",
-                          "raw": "'#1.2: ToInt32(first expression) is called first, and then ToInt32(second expression)'"
+                          "value": "#1.2: ToInt32(first expression) is called first, and then ToInt32(second expression)"
                         }
                       ]
                     }
@@ -325,8 +320,7 @@
                         "type": "Literal",
                         "start": 771,
                         "end": 774,
-                        "value": "x",
-                        "raw": "\"x\""
+                        "value": "x"
                       }
                     },
                     "consequent": {
@@ -357,8 +351,7 @@
                                   "type": "Literal",
                                   "start": 808,
                                   "end": 939,
-                                  "value": "#1.3: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x ^ y throw \"x\". Actual: ",
-                                  "raw": "'#1.3: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x ^ y throw \"x\". Actual: '"
+                                  "value": "#1.3: var x = { valueOf: function () { throw \"x\"; } }; var y = { valueOf: function () { throw \"y\"; } }; x ^ y throw \"x\". Actual: "
                                 },
                                 "operator": "+",
                                 "right": {

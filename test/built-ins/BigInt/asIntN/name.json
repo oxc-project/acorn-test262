@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 360,
             "end": 366,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 379,
                   "end": 387,
-                  "value": "asIntN",
-                  "raw": "\"asIntN\""
+                  "value": "asIntN"
                 },
                 "kind": "init"
               },

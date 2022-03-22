@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 300,
             "end": 305,
-            "value": "abc",
-            "raw": "\"abc\""
+            "value": "abc"
           }
         }
       ],
@@ -86,8 +85,7 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 361,
-                "value": 10,
-                "raw": "10"
+                "value": 10
               }
             },
             "consequent": {
@@ -200,8 +198,7 @@
             "type": "Literal",
             "start": 457,
             "end": 461,
-            "value": "10",
-            "raw": "\"10\""
+            "value": "10"
           },
           {
             "type": "ObjectExpression",
@@ -331,8 +328,7 @@
             "type": "Literal",
             "start": 564,
             "end": 595,
-            "value": "arr.some(callbackfn) !== true",
-            "raw": "'arr.some(callbackfn) !== true'"
+            "value": "arr.some(callbackfn) !== true"
           }
         ],
         "optional": false

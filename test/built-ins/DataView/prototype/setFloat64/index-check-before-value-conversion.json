@@ -44,8 +44,7 @@
                     "type": "Literal",
                     "start": 564,
                     "end": 566,
-                    "value": 16,
-                    "raw": "16"
+                    "value": 16
                   }
                 ]
               },
@@ -53,8 +52,7 @@
                 "type": "Literal",
                 "start": 569,
                 "end": 570,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -128,8 +126,7 @@
                               "type": "Literal",
                               "start": 642,
                               "end": 658,
-                              "value": "valueOf called",
-                              "raw": "\"valueOf called\""
+                              "value": "valueOf called"
                             }
                           ]
                         }
@@ -231,8 +228,7 @@
                           "type": "Literal",
                           "start": 731,
                           "end": 734,
-                          "value": 1.5,
-                          "raw": "1.5"
+                          "value": 1.5
                         }
                       },
                       {
@@ -252,8 +248,7 @@
             "type": "Literal",
             "start": 750,
             "end": 778,
-            "value": "setFloat64(-1.5, poisoned)",
-            "raw": "\"setFloat64(-1.5, poisoned)\""
+            "value": "setFloat64(-1.5, poisoned)"
           }
         ],
         "optional": false
@@ -345,8 +340,7 @@
                           "type": "Literal",
                           "start": 844,
                           "end": 845,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       {
@@ -366,8 +360,7 @@
             "type": "Literal",
             "start": 861,
             "end": 887,
-            "value": "setFloat64(-1, poisoned)",
-            "raw": "\"setFloat64(-1, poisoned)\""
+            "value": "setFloat64(-1, poisoned)"
           }
         ],
         "optional": false
@@ -479,8 +472,7 @@
             "type": "Literal",
             "start": 977,
             "end": 1010,
-            "value": "setFloat64(-Infinity, poisoned)",
-            "raw": "\"setFloat64(-Infinity, poisoned)\""
+            "value": "setFloat64(-Infinity, poisoned)"
           }
         ],
         "optional": false
@@ -585,8 +577,7 @@
             "type": "Literal",
             "start": 1099,
             "end": 1131,
-            "value": "setFloat64(Infinity, poisoned)",
-            "raw": "\"setFloat64(Infinity, poisoned)\""
+            "value": "setFloat64(Infinity, poisoned)"
           }
         ],
         "optional": false

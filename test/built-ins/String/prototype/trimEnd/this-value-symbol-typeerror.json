@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 512,
             "end": 522,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -257,8 +256,7 @@
             "type": "Literal",
             "start": 666,
             "end": 707,
-            "value": "String.prototype.trimEnd.call(Symbol())",
-            "raw": "'String.prototype.trimEnd.call(Symbol())'"
+            "value": "String.prototype.trimEnd.call(Symbol())"
           }
         ],
         "optional": false

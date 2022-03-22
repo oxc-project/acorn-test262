@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 325,
           "end": 326,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -101,8 +100,7 @@
                 "type": "Literal",
                 "start": 343,
                 "end": 344,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           }
@@ -145,8 +143,7 @@
                 "type": "Literal",
                 "start": 368,
                 "end": 369,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -210,8 +207,7 @@
             "type": "Literal",
             "start": 406,
             "end": 471,
-            "value": "The value of Date.UTC is expected to not equal the value of `x`",
-            "raw": "'The value of Date.UTC is expected to not equal the value of `x`'"
+            "value": "The value of Date.UTC is expected to not equal the value of `x`"
           }
         ],
         "optional": false

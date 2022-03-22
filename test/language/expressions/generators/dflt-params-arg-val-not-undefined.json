@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 1798,
             "end": 1799,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -73,8 +72,7 @@
             "type": "Literal",
             "start": 1819,
             "end": 1820,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -99,8 +97,7 @@
             "type": "Literal",
             "start": 1837,
             "end": 1838,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -125,8 +122,7 @@
             "type": "Literal",
             "start": 1856,
             "end": 1857,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -151,8 +147,7 @@
             "type": "Literal",
             "start": 1875,
             "end": 1876,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -177,8 +172,7 @@
             "type": "Literal",
             "start": 1893,
             "end": 1894,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -203,8 +197,7 @@
             "type": "Literal",
             "start": 1913,
             "end": 1914,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -279,8 +272,7 @@
                   "type": "Literal",
                   "start": 2011,
                   "end": 2012,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             },
@@ -309,8 +301,7 @@
                   "type": "Literal",
                   "start": 2039,
                   "end": 2040,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             },
@@ -339,8 +330,7 @@
                   "type": "Literal",
                   "start": 2061,
                   "end": 2062,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             },
@@ -369,8 +359,7 @@
                   "type": "Literal",
                   "start": 2082,
                   "end": 2083,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             },
@@ -399,8 +388,7 @@
                   "type": "Literal",
                   "start": 2106,
                   "end": 2107,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             },
@@ -429,8 +417,7 @@
                   "type": "Literal",
                   "start": 2127,
                   "end": 2128,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -523,8 +510,7 @@
                       "type": "Literal",
                       "start": 2195,
                       "end": 2197,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     }
                   ],
                   "optional": false
@@ -612,8 +598,7 @@
                       "type": "Literal",
                       "start": 2254,
                       "end": 2255,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   ],
                   "optional": false
@@ -738,8 +723,7 @@
                       "type": "Literal",
                       "start": 2348,
                       "end": 2349,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -783,8 +767,7 @@
                 "type": "Literal",
                 "start": 2366,
                 "end": 2368,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               {
                 "type": "Identifier",
@@ -796,8 +779,7 @@
                 "type": "Literal",
                 "start": 2375,
                 "end": 2376,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
@@ -866,15 +848,13 @@
             "type": "Literal",
             "start": 2426,
             "end": 2427,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2429,
             "end": 2470,
-            "value": "generator function invoked exactly once",
-            "raw": "'generator function invoked exactly once'"
+            "value": "generator function invoked exactly once"
           }
         ],
         "optional": false
@@ -918,15 +898,13 @@
             "type": "Literal",
             "start": 2503,
             "end": 2504,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2506,
             "end": 2540,
-            "value": "initializer not evaluated: false",
-            "raw": "'initializer not evaluated: false'"
+            "value": "initializer not evaluated: false"
           }
         ],
         "optional": false
@@ -970,15 +948,13 @@
             "type": "Literal",
             "start": 2573,
             "end": 2574,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2576,
             "end": 2611,
-            "value": "initializer not evaluated: string",
-            "raw": "'initializer not evaluated: string'"
+            "value": "initializer not evaluated: string"
           }
         ],
         "optional": false
@@ -1022,15 +998,13 @@
             "type": "Literal",
             "start": 2641,
             "end": 2642,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2644,
             "end": 2676,
-            "value": "initializer not evaluated: NaN",
-            "raw": "'initializer not evaluated: NaN'"
+            "value": "initializer not evaluated: NaN"
           }
         ],
         "optional": false
@@ -1074,15 +1048,13 @@
             "type": "Literal",
             "start": 2707,
             "end": 2708,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2710,
             "end": 2740,
-            "value": "initializer not evaluated: 0",
-            "raw": "'initializer not evaluated: 0'"
+            "value": "initializer not evaluated: 0"
           }
         ],
         "optional": false
@@ -1126,15 +1098,13 @@
             "type": "Literal",
             "start": 2771,
             "end": 2772,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2774,
             "end": 2807,
-            "value": "initializer not evaluated: null",
-            "raw": "'initializer not evaluated: null'"
+            "value": "initializer not evaluated: null"
           }
         ],
         "optional": false
@@ -1178,15 +1148,13 @@
             "type": "Literal",
             "start": 2837,
             "end": 2838,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2840,
             "end": 2875,
-            "value": "initializer not evaluated: object",
-            "raw": "'initializer not evaluated: object'"
+            "value": "initializer not evaluated: object"
           }
         ],
         "optional": false

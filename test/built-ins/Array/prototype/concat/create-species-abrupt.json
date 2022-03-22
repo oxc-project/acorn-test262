@@ -265,8 +265,7 @@
             "type": "Literal",
             "start": 826,
             "end": 870,
-            "value": "a.concat() throws a Test262Error exception",
-            "raw": "'a.concat() throws a Test262Error exception'"
+            "value": "a.concat() throws a Test262Error exception"
           }
         ],
         "optional": false

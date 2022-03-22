@@ -77,8 +77,7 @@
                   "type": "Literal",
                   "start": 385,
                   "end": 393,
-                  "value": "global",
-                  "raw": "\"global\""
+                  "value": "global"
                 }
               }
             ]
@@ -202,15 +201,13 @@
             "type": "Literal",
             "start": 483,
             "end": 491,
-            "value": "global",
-            "raw": "\"global\""
+            "value": "global"
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 507,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

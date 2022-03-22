@@ -68,8 +68,7 @@
             "type": "Literal",
             "start": 412,
             "end": 472,
-            "value": "Function.prototype.isPrototypeOf(Boolean) must return true",
-            "raw": "'Function.prototype.isPrototypeOf(Boolean) must return true'"
+            "value": "Function.prototype.isPrototypeOf(Boolean) must return true"
           }
         ],
         "optional": false

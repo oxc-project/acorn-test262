@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 362,
                           "end": 371,
-                          "value": "AB",
-                          "raw": "\"\\u0041B\""
+                          "value": "AB"
                         }
                       }
                     ]
@@ -174,8 +173,7 @@
           "type": "Literal",
           "start": 565,
           "end": 569,
-          "value": "ab",
-          "raw": "\"ab\""
+          "value": "ab"
         }
       },
       "consequent": {
@@ -206,8 +204,7 @@
                     "type": "Literal",
                     "start": 598,
                     "end": 763,
-                    "value": "#1: var __obj = {toString:function(){return \"AB\";}}; __obj.toLocaleLowerCase = String.prototype.toLocaleLowerCase; __obj.toLocaleLowerCase() ===\"ab\". Actual: ",
-                    "raw": "'#1: var __obj = {toString:function(){return \"\\u0041B\";}}; __obj.toLocaleLowerCase = String.prototype.toLocaleLowerCase; __obj.toLocaleLowerCase() ===\"ab\". Actual: '"
+                    "value": "#1: var __obj = {toString:function(){return \"AB\";}}; __obj.toLocaleLowerCase = String.prototype.toLocaleLowerCase; __obj.toLocaleLowerCase() ===\"ab\". Actual: "
                   },
                   "operator": "+",
                   "right": {

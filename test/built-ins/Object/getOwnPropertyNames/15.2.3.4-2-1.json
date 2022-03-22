@@ -132,8 +132,7 @@
             "type": "Literal",
             "start": 366,
             "end": 398,
-            "value": "Array.isArray(result) !== true",
-            "raw": "'Array.isArray(result) !== true'"
+            "value": "Array.isArray(result) !== true"
           }
         ],
         "optional": false

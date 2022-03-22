@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 691,
             "end": 692,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -146,8 +145,7 @@
                       "type": "Literal",
                       "start": 752,
                       "end": 753,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -418,15 +416,13 @@
             "type": "Literal",
             "start": 938,
             "end": 939,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 941,
             "end": 985,
-            "value": "The value of callCount is expected to be 1",
-            "raw": "'The value of callCount is expected to be 1'"
+            "value": "The value of callCount is expected to be 1"
           }
         ],
         "optional": false
@@ -516,8 +512,7 @@
             "type": "Literal",
             "start": 1062,
             "end": 1114,
-            "value": "Object.getPrototypeOf(this) returns Ctor.prototype",
-            "raw": "'Object.getPrototypeOf(this) returns Ctor.prototype'"
+            "value": "Object.getPrototypeOf(this) returns Ctor.prototype"
           }
         ],
         "optional": false
@@ -574,15 +569,13 @@
             "type": "Literal",
             "start": 1148,
             "end": 1149,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1151,
             "end": 1197,
-            "value": "The value of args.length is expected to be 1",
-            "raw": "'The value of args.length is expected to be 1'"
+            "value": "The value of args.length is expected to be 1"
           }
         ],
         "optional": false
@@ -630,8 +623,7 @@
               "type": "Literal",
               "start": 1222,
               "end": 1223,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -640,15 +632,13 @@
             "type": "Literal",
             "start": 1226,
             "end": 1227,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1229,
             "end": 1271,
-            "value": "The value of args[0] is expected to be 0",
-            "raw": "'The value of args[0] is expected to be 0'"
+            "value": "The value of args[0] is expected to be 0"
           }
         ],
         "optional": false
@@ -698,8 +688,7 @@
             "type": "Literal",
             "start": 1309,
             "end": 1373,
-            "value": "The value of result is expected to equal the value of instance",
-            "raw": "'The value of result is expected to equal the value of instance'"
+            "value": "The value of result is expected to equal the value of instance"
           }
         ],
         "optional": false

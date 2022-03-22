@@ -235,8 +235,7 @@
             "type": "Literal",
             "start": 1135,
             "end": 1153,
-            "value": "regular callback",
-            "raw": "'regular callback'"
+            "value": "regular callback"
           }
         ],
         "optional": false
@@ -313,8 +312,7 @@
             "type": "Literal",
             "start": 1222,
             "end": 1266,
-            "value": "regular callback, same FG cleanup function",
-            "raw": "'regular callback, same FG cleanup function'"
+            "value": "regular callback, same FG cleanup function"
           }
         ],
         "optional": false
@@ -401,8 +399,7 @@
             "type": "Literal",
             "start": 1342,
             "end": 1358,
-            "value": "arrow function",
-            "raw": "'arrow function'"
+            "value": "arrow function"
           }
         ],
         "optional": false
@@ -492,8 +489,7 @@
             "type": "Literal",
             "start": 1457,
             "end": 1477,
-            "value": "cleanupSome itself",
-            "raw": "'cleanupSome itself'"
+            "value": "cleanupSome itself"
           }
         ],
         "optional": false
@@ -570,8 +566,7 @@
             "type": "Literal",
             "start": 1552,
             "end": 1562,
-            "value": "poisoned",
-            "raw": "'poisoned'"
+            "value": "poisoned"
           }
         ],
         "optional": false
@@ -655,8 +650,7 @@
             "type": "Literal",
             "start": 1637,
             "end": 1655,
-            "value": "class expression",
-            "raw": "'class expression'"
+            "value": "class expression"
           }
         ],
         "optional": false
@@ -743,8 +737,7 @@
             "type": "Literal",
             "start": 1741,
             "end": 1757,
-            "value": "async function",
-            "raw": "'async function'"
+            "value": "async function"
           }
         ],
         "optional": false
@@ -831,8 +824,7 @@
             "type": "Literal",
             "start": 1839,
             "end": 1850,
-            "value": "generator",
-            "raw": "'generator'"
+            "value": "generator"
           }
         ],
         "optional": false
@@ -919,8 +911,7 @@
             "type": "Literal",
             "start": 1938,
             "end": 1955,
-            "value": "async generator",
-            "raw": "'async generator'"
+            "value": "async generator"
           }
         ],
         "optional": false
@@ -990,8 +981,7 @@
             "type": "Literal",
             "start": 2023,
             "end": 2044,
-            "value": "undefined, implicit",
-            "raw": "'undefined, implicit'"
+            "value": "undefined, implicit"
           }
         ],
         "optional": false
@@ -1068,8 +1058,7 @@
             "type": "Literal",
             "start": 2120,
             "end": 2141,
-            "value": "undefined, explicit",
-            "raw": "'undefined, explicit'"
+            "value": "undefined, explicit"
           }
         ],
         "optional": false
@@ -1184,8 +1173,7 @@
             "type": "Literal",
             "start": 2255,
             "end": 2305,
-            "value": "regular callback on poisoned FG cleanup callback",
-            "raw": "'regular callback on poisoned FG cleanup callback'"
+            "value": "regular callback on poisoned FG cleanup callback"
           }
         ],
         "optional": false
@@ -1262,8 +1250,7 @@
             "type": "Literal",
             "start": 2370,
             "end": 2421,
-            "value": "poisoned callback on poisoned FG cleanup callback",
-            "raw": "'poisoned callback on poisoned FG cleanup callback'"
+            "value": "poisoned callback on poisoned FG cleanup callback"
           }
         ],
         "optional": false

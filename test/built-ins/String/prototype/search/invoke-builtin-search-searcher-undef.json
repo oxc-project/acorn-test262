@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 714,
                 "end": 722,
-                "value": "target",
-                "raw": "'target'"
+                "value": "target"
               }
             ]
           }
@@ -449,8 +448,7 @@
                     "type": "Literal",
                     "start": 1231,
                     "end": 1246,
-                    "value": "string source",
-                    "raw": "'string source'"
+                    "value": "string source"
                   }
                 ],
                 "optional": false
@@ -545,8 +543,7 @@
                   "type": "Literal",
                   "start": 1322,
                   "end": 1337,
-                  "value": "string source",
-                  "raw": "'string source'"
+                  "value": "string source"
                 }
               ],
               "optional": false
@@ -603,8 +600,7 @@
                   "type": "Literal",
                   "start": 1374,
                   "end": 1376,
-                  "value": "",
-                  "raw": "''"
+                  "value": ""
                 }
               ],
               "optional": false
@@ -661,8 +657,7 @@
                   "type": "Literal",
                   "start": 1411,
                   "end": 1412,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -710,8 +705,7 @@
                     "type": "Literal",
                     "start": 1439,
                     "end": 1440,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -720,8 +714,7 @@
                   "type": "Literal",
                   "start": 1443,
                   "end": 1451,
-                  "value": "target",
-                  "raw": "'target'"
+                  "value": "target"
                 }
               ],
               "optional": false

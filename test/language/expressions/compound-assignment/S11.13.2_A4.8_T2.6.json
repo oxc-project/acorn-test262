@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 378,
           "end": 381,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -89,8 +88,7 @@
           "type": "Literal",
           "start": 411,
           "end": 412,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -121,8 +119,7 @@
                     "type": "Literal",
                     "start": 441,
                     "end": 491,
-                    "value": "#1: x = \"1\"; x >>>= undefined; x === 1. Actual: ",
-                    "raw": "'#1: x = \"1\"; x >>>= undefined; x === 1. Actual: '"
+                    "value": "#1: x = \"1\"; x >>>= undefined; x === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -186,8 +183,7 @@
           "type": "Literal",
           "start": 535,
           "end": 538,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -210,8 +206,7 @@
           "type": "Literal",
           "start": 550,
           "end": 551,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -242,8 +237,7 @@
                     "type": "Literal",
                     "start": 580,
                     "end": 630,
-                    "value": "#2: x = undefined; x >>>= \"1\"; x === 0. Actual: ",
-                    "raw": "'#2: x = undefined; x >>>= \"1\"; x === 0. Actual: '"
+                    "value": "#2: x = undefined; x >>>= \"1\"; x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -295,8 +289,7 @@
               "type": "Literal",
               "start": 667,
               "end": 670,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           ]
         }
@@ -344,8 +337,7 @@
           "type": "Literal",
           "start": 701,
           "end": 702,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -376,8 +368,7 @@
                     "type": "Literal",
                     "start": 731,
                     "end": 793,
-                    "value": "#3: x = new String(\"1\"); x >>>= undefined; x === 1. Actual: ",
-                    "raw": "'#3: x = new String(\"1\"); x >>>= undefined; x === 1. Actual: '"
+                    "value": "#3: x = new String(\"1\"); x >>>= undefined; x === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -452,8 +443,7 @@
               "type": "Literal",
               "start": 848,
               "end": 851,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           ]
         }
@@ -478,8 +468,7 @@
           "type": "Literal",
           "start": 864,
           "end": 865,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -510,8 +499,7 @@
                     "type": "Literal",
                     "start": 894,
                     "end": 956,
-                    "value": "#4: x = undefined; x >>>= new String(\"1\"); x === 0. Actual: ",
-                    "raw": "'#4: x = undefined; x >>>= new String(\"1\"); x === 0. Actual: '"
+                    "value": "#4: x = undefined; x >>>= new String(\"1\"); x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

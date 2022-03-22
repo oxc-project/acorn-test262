@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 775,
             "end": 815,
-            "value": "isConstructor(BigInt) must return true",
-            "raw": "'isConstructor(BigInt) must return true'"
+            "value": "isConstructor(BigInt) must return true"
           }
         ],
         "optional": false
@@ -198,8 +197,7 @@
             "type": "Literal",
             "start": 925,
             "end": 992,
-            "value": "`new BigInt({ valueOf() {new Test262Error();}})` throws TypeError",
-            "raw": "'`new BigInt({ valueOf() {new Test262Error();}})` throws TypeError'"
+            "value": "`new BigInt({ valueOf() {new Test262Error();}})` throws TypeError"
           }
         ],
         "optional": false

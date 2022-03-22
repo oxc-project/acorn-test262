@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 484,
                           "end": 498,
-                          "value": "function(){}",
-                          "raw": "\"function(){}\""
+                          "value": "function(){}"
                         }
                       }
                     ]
@@ -184,8 +183,7 @@
               "type": "Literal",
               "start": 685,
               "end": 686,
-              "value": 8,
-              "raw": "8"
+              "value": 8
             }
           ],
           "optional": false
@@ -195,8 +193,7 @@
           "type": "Literal",
           "start": 692,
           "end": 702,
-          "value": "function",
-          "raw": "\"function\""
+          "value": "function"
         }
       },
       "consequent": {
@@ -227,8 +224,7 @@
                     "type": "Literal",
                     "start": 731,
                     "end": 874,
-                    "value": "#1: __instance = function(){}; __instance.substring = String.prototype.substring;  __instance.substring(-Infinity,8) === \"function\". Actual: ",
-                    "raw": "'#1: __instance = function(){}; __instance.substring = String.prototype.substring;  __instance.substring(-Infinity,8) === \"function\". Actual: '"
+                    "value": "#1: __instance = function(){}; __instance.substring = String.prototype.substring;  __instance.substring(-Infinity,8) === \"function\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -267,8 +263,7 @@
                             "type": "Literal",
                             "start": 898,
                             "end": 899,
-                            "value": 8,
-                            "raw": "8"
+                            "value": 8
                           },
                           {
                             "type": "Identifier",
@@ -306,8 +301,7 @@
                         "type": "Literal",
                         "start": 932,
                         "end": 933,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false

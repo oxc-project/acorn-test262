@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 900,
             "end": 910,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 912,
             "end": 967,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -142,8 +140,7 @@
                               "type": "Literal",
                               "start": 1030,
                               "end": 1061,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -271,8 +268,7 @@
                                   "type": "Literal",
                                   "start": 1196,
                                   "end": 1197,
-                                  "value": 8,
-                                  "raw": "8"
+                                  "value": 8
                                 }
                               }
                             ]
@@ -346,8 +342,7 @@
             "type": "Literal",
             "start": 1261,
             "end": 1441,
-            "value": "`const view = new BigUint64Array(new SharedArrayBuffer(BigUint64Array.BYTES_PER_ELEMENT * 8)); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`const view = new BigUint64Array(new SharedArrayBuffer(BigUint64Array.BYTES_PER_ELEMENT * 8)); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`const view = new BigUint64Array(new SharedArrayBuffer(BigUint64Array.BYTES_PER_ELEMENT * 8)); Atomics.waitAsync(view, poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false

@@ -31,7 +31,6 @@
                 "start": 444,
                 "end": 449,
                 "value": {},
-                "raw": "/a[]/",
                 "regex": {
                   "pattern": "a[]",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 455,
                 "end": 463,
-                "value": "\u0000a\u0000a",
-                "raw": "\"\\0a\\0a\""
+                "value": "\u0000a\u0000a"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 486,
             "end": 535,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

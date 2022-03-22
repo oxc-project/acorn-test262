@@ -114,8 +114,7 @@
                       "type": "Literal",
                       "start": 398,
                       "end": 407,
-                      "value": "percent",
-                      "raw": "'percent'"
+                      "value": "percent"
                     },
                     "kind": "init"
                   }
@@ -170,8 +169,7 @@
                 "type": "Literal",
                 "start": 457,
                 "end": 459,
-                "value": 20,
-                "raw": "20"
+                "value": 20
               }
             ],
             "optional": false
@@ -223,8 +221,7 @@
                 "type": "Literal",
                 "start": 515,
                 "end": 519,
-                "value": 0.2,
-                "raw": "0.20"
+                "value": 0.2
               }
             ],
             "optional": false
@@ -304,16 +301,14 @@
               "type": "Literal",
               "start": 731,
               "end": 732,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 734,
             "end": 825,
-            "value": "Intl.NumberFormat's formatting of 20% does not include a formatting of 20 as a substring.",
-            "raw": "\"Intl.NumberFormat's formatting of 20% does not include a formatting of 20 as a substring.\""
+            "value": "Intl.NumberFormat's formatting of 20% does not include a formatting of 20 as a substring."
           }
         ],
         "optional": false
@@ -375,8 +370,7 @@
                 "type": "Literal",
                 "start": 918,
                 "end": 923,
-                "value": 0.011,
-                "raw": "0.011"
+                "value": 0.011
               }
             ],
             "optional": false
@@ -409,8 +403,7 @@
                 "type": "Literal",
                 "start": 950,
                 "end": 954,
-                "value": 0.02,
-                "raw": "0.02"
+                "value": 0.02
               }
             ],
             "optional": false
@@ -419,8 +412,7 @@
             "type": "Literal",
             "start": 957,
             "end": 1016,
-            "value": "Intl.NumberFormat is formatting 1.1% and 2% the same way.",
-            "raw": "'Intl.NumberFormat is formatting 1.1% and 2% the same way.'"
+            "value": "Intl.NumberFormat is formatting 1.1% and 2% the same way."
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
           "type": "Literal",
           "start": 336,
           "end": 382,
-          "value": "Answer to Life, the Universe, and Everything",
-          "raw": "\"Answer to Life, the Universe, and Everything\""
+          "value": "Answer to Life, the Universe, and Everything"
         }
       }
     },
@@ -130,8 +129,7 @@
           "type": "Literal",
           "start": 586,
           "end": 597,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -162,8 +160,7 @@
                     "type": "Literal",
                     "start": 625,
                     "end": 691,
-                    "value": "#1: typeof __func() === \"undefined\". Actual: typeof __func() ===",
-                    "raw": "'#1: typeof __func() === \"undefined\". Actual: typeof __func() ==='"
+                    "value": "#1: typeof __func() === \"undefined\". Actual: typeof __func() ==="
                   },
                   "operator": "+",
                   "right": {
@@ -217,8 +214,7 @@
               "type": "Literal",
               "start": 895,
               "end": 918,
-              "value": "The Ultimate Question",
-              "raw": "\"The Ultimate Question\""
+              "value": "The Ultimate Question"
             }
           ],
           "optional": false
@@ -228,8 +224,7 @@
           "type": "Literal",
           "start": 924,
           "end": 947,
-          "value": "The Ultimate Question",
-          "raw": "\"The Ultimate Question\""
+          "value": "The Ultimate Question"
         }
       },
       "consequent": {
@@ -260,8 +255,7 @@
                     "type": "Literal",
                     "start": 975,
                     "end": 1084,
-                    "value": "#2: __func(\"The Ultimate Question\") === \"The Ultimate Question\". Actual: __func(\"The Ultimate Question\")===",
-                    "raw": "'#2: __func(\"The Ultimate Question\") === \"The Ultimate Question\". Actual: __func(\"The Ultimate Question\")==='"
+                    "value": "#2: __func(\"The Ultimate Question\") === \"The Ultimate Question\". Actual: __func(\"The Ultimate Question\")==="
                   },
                   "operator": "+",
                   "right": {
@@ -279,8 +273,7 @@
                         "type": "Literal",
                         "start": 1092,
                         "end": 1115,
-                        "value": "The Ultimate Question",
-                        "raw": "\"The Ultimate Question\""
+                        "value": "The Ultimate Question"
                       }
                     ],
                     "optional": false

@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 296,
             "end": 315,
-            "value": "new Boolean(true)",
-            "raw": "\"new Boolean(true)\""
+            "value": "new Boolean(true)"
           }
         ],
         "optional": false
@@ -154,8 +153,7 @@
             "type": "Literal",
             "start": 372,
             "end": 392,
-            "value": "new Boolean(false)",
-            "raw": "\"new Boolean(false)\""
+            "value": "new Boolean(false)"
           }
         ],
         "optional": false

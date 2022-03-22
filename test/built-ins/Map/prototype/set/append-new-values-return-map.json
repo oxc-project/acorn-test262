@@ -77,15 +77,13 @@
                 "type": "Literal",
                 "start": 500,
                 "end": 501,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 503,
                 "end": 504,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -197,15 +195,13 @@
                       "type": "Literal",
                       "start": 557,
                       "end": 558,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 559,
                       "end": 560,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   ],
                   "optional": false
@@ -224,15 +220,13 @@
                   "type": "Literal",
                   "start": 566,
                   "end": 567,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 {
                   "type": "Literal",
                   "start": 568,
                   "end": 569,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               ],
               "optional": false
@@ -251,15 +245,13 @@
               "type": "Literal",
               "start": 575,
               "end": 576,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             {
               "type": "Literal",
               "start": 577,
               "end": 578,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             }
           ],
           "optional": false
@@ -310,8 +302,7 @@
             "type": "Literal",
             "start": 612,
             "end": 644,
-            "value": "Map.prototype.set is chainable",
-            "raw": "'Map.prototype.set is chainable'"
+            "value": "Map.prototype.set is chainable"
           }
         ],
         "optional": false
@@ -410,15 +401,13 @@
               "type": "Literal",
               "start": 698,
               "end": 699,
-              "value": 4,
-              "raw": "4"
+              "value": 4
             },
             {
               "type": "Literal",
               "start": 701,
               "end": 702,
-              "value": 4,
-              "raw": "4"
+              "value": 4
             }
           ],
           "optional": false

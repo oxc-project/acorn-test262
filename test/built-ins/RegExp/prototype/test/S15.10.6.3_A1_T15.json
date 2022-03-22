@@ -93,7 +93,6 @@
             "start": 404,
             "end": 409,
             "value": {},
-            "raw": "/LS/i",
             "regex": {
               "pattern": "LS",
               "flags": "i"
@@ -214,8 +213,7 @@
             "type": "Literal",
             "start": 487,
             "end": 577,
-            "value": "__re.test({toString:function(){return false;}}) must return __re.exec(__string) !== null",
-            "raw": "'__re.test({toString:function(){return false;}}) must return __re.exec(__string) !== null'"
+            "value": "__re.test({toString:function(){return false;}}) must return __re.exec(__string) !== null"
           }
         ],
         "optional": false

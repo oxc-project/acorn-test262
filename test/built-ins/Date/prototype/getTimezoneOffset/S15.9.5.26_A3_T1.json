@@ -118,8 +118,7 @@
             "type": "Literal",
             "start": 482,
             "end": 490,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -132,8 +131,7 @@
             "type": "Literal",
             "start": 498,
             "end": 499,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -222,8 +220,7 @@
             "type": "Literal",
             "start": 571,
             "end": 661,
-            "value": "The value of Date.prototype.getTimezoneOffset.length is expected to equal the value of x",
-            "raw": "'The value of Date.prototype.getTimezoneOffset.length is expected to equal the value of x'"
+            "value": "The value of Date.prototype.getTimezoneOffset.length is expected to equal the value of x"
           }
         ],
         "optional": false

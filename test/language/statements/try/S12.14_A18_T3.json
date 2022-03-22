@@ -87,8 +87,7 @@
                         "type": "Literal",
                         "start": 333,
                         "end": 380,
-                        "value": "#1: Exception ===true. Actual:  Exception ===",
-                        "raw": "'#1: Exception ===true. Actual:  Exception ==='"
+                        "value": "#1: Exception ===true. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -192,8 +191,7 @@
                         "type": "Literal",
                         "start": 474,
                         "end": 522,
-                        "value": "#2: Exception ===false. Actual:  Exception ===",
-                        "raw": "'#2: Exception ===false. Actual:  Exception ==='"
+                        "value": "#2: Exception ===false. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -322,8 +320,7 @@
                         "type": "Literal",
                         "start": 625,
                         "end": 673,
-                        "value": "#3: Exception ===false. Actual:  Exception ===",
-                        "raw": "'#3: Exception ===false. Actual:  Exception ==='"
+                        "value": "#3: Exception ===false. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -452,8 +449,7 @@
                         "type": "Literal",
                         "start": 774,
                         "end": 821,
-                        "value": "#4: Exception ===true. Actual:  Exception ===",
-                        "raw": "'#4: Exception ===true. Actual:  Exception ==='"
+                        "value": "#4: Exception ===true. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -595,8 +591,7 @@
                         "type": "Literal",
                         "start": 930,
                         "end": 978,
-                        "value": "#5: Exception ===false. Actual:  Exception ===",
-                        "raw": "'#5: Exception ===false. Actual:  Exception ==='"
+                        "value": "#5: Exception ===false. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -738,8 +733,7 @@
                         "type": "Literal",
                         "start": 1086,
                         "end": 1133,
-                        "value": "#6: Exception ===true. Actual:  Exception ===",
-                        "raw": "'#6: Exception ===true. Actual:  Exception ==='"
+                        "value": "#6: Exception ===true. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {

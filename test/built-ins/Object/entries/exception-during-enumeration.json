@@ -70,8 +70,7 @@
                               "type": "Literal",
                               "start": 332,
                               "end": 364,
-                              "value": "This error should be re-thrown",
-                              "raw": "'This error should be re-thrown'"
+                              "value": "This error should be re-thrown"
                             }
                           ]
                         }
@@ -127,8 +126,7 @@
                               "type": "Literal",
                               "start": 411,
                               "end": 453,
-                              "value": "Should not try to get the second element",
-                              "raw": "'Should not try to get the second element'"
+                              "value": "Should not try to get the second element"
                             }
                           ]
                         }

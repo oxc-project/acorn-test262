@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1288,
                 "end": 1304,
-                "value": "{}() => 1, 42;",
-                "raw": "'{}() => 1, 42;'"
+                "value": "{}() => 1, 42;"
               }
             ],
             "optional": false
@@ -81,8 +80,7 @@
             "type": "Literal",
             "start": 1333,
             "end": 1335,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false

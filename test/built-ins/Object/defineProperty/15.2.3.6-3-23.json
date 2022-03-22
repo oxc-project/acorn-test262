@@ -117,8 +117,7 @@
             "type": "Literal",
             "start": 385,
             "end": 397,
-            "value": "enumerable",
-            "raw": "\"enumerable\""
+            "value": "enumerable"
           },
           {
             "type": "ObjectExpression",
@@ -293,8 +292,7 @@
             "type": "Literal",
             "start": 547,
             "end": 557,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -360,8 +358,7 @@
                 "type": "Literal",
                 "start": 607,
                 "end": 617,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             },
             "consequent": {
@@ -425,8 +422,7 @@
             "type": "Literal",
             "start": 666,
             "end": 685,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

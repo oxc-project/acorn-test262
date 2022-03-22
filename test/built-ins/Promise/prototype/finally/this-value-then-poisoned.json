@@ -75,8 +75,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 467,
-                "value": "then",
-                "raw": "'then'"
+                "value": "then"
               },
               {
                 "type": "ObjectExpression",

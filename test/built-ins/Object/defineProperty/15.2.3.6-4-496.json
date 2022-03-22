@@ -91,8 +91,7 @@
                     "type": "Literal",
                     "start": 413,
                     "end": 417,
-                    "value": 1001,
-                    "raw": "1001"
+                    "value": 1001
                   }
                 }
               ]
@@ -140,8 +139,7 @@
             "type": "Literal",
             "start": 450,
             "end": 456,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -283,8 +281,7 @@
                 "type": "Literal",
                 "start": 587,
                 "end": 593,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -342,8 +339,7 @@
                 "type": "Literal",
                 "start": 644,
                 "end": 650,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -406,8 +402,7 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 693,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -477,8 +472,7 @@
             "type": "Literal",
             "start": 763,
             "end": 783,
-            "value": "Property not found",
-            "raw": "'Property not found'"
+            "value": "Property not found"
           }
         ],
         "optional": false
@@ -509,8 +503,7 @@
             "type": "Literal",
             "start": 816,
             "end": 848,
-            "value": "propertyDefineCorrect !== true",
-            "raw": "'propertyDefineCorrect !== true'"
+            "value": "propertyDefineCorrect !== true"
           }
         ],
         "optional": false
@@ -574,8 +567,7 @@
             "type": "Literal",
             "start": 891,
             "end": 908,
-            "value": "desc.enumerable",
-            "raw": "'desc.enumerable'"
+            "value": "desc.enumerable"
           }
         ],
         "optional": false

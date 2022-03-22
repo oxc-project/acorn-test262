@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 381,
             "end": 393,
-            "value": "globalThis",
-            "raw": "\"globalThis\""
+            "value": "globalThis"
           },
           {
             "type": "ObjectExpression",

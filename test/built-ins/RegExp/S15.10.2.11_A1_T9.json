@@ -31,7 +31,6 @@
                 "start": 303,
                 "end": 347,
                 "value": {},
-                "raw": "/((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1/",
                 "regex": {
                   "pattern": "((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 353,
                 "end": 366,
-                "value": "AAAAAAAAAAA",
-                "raw": "\"AAAAAAAAAAA\""
+                "value": "AAAAAAAAAAA"
               }
             ],
             "optional": false
@@ -116,8 +114,7 @@
                 "type": "Literal",
                 "start": 397,
                 "end": 398,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -127,8 +124,7 @@
               "type": "Literal",
               "start": 404,
               "end": 417,
-              "value": "AAAAAAAAAAA",
-              "raw": "\"AAAAAAAAAAA\""
+              "value": "AAAAAAAAAAA"
             }
           }
         }
@@ -161,8 +157,7 @@
                     "type": "Literal",
                     "start": 447,
                     "end": 573,
-                    "value": "#1: var arr = /((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1/.exec(\"AAAAAAAAAAA\"); arr[0] === \"AAAAAAAAAAA\". Actual. ",
-                    "raw": "'#1: var arr = /((((((((((A))))))))))\\\\10\\\\9\\\\8\\\\7\\\\6\\\\5\\\\4\\\\3\\\\2\\\\1/.exec(\"AAAAAAAAAAA\"); arr[0] === \"AAAAAAAAAAA\". Actual. '"
+                    "value": "#1: var arr = /((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1/.exec(\"AAAAAAAAAAA\"); arr[0] === \"AAAAAAAAAAA\". Actual. "
                   },
                   "operator": "+",
                   "right": {
@@ -194,8 +189,7 @@
                           "type": "Literal",
                           "start": 588,
                           "end": 589,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -233,8 +227,7 @@
               "type": "Literal",
               "start": 610,
               "end": 611,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],
@@ -255,8 +248,7 @@
           "type": "Literal",
           "start": 618,
           "end": 620,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       },
       "update": {
@@ -342,8 +334,7 @@
                     "type": "Literal",
                     "start": 667,
                     "end": 670,
-                    "value": "A",
-                    "raw": "\"A\""
+                    "value": "A"
                   }
                 }
               }
@@ -384,8 +375,7 @@
                               "type": "Literal",
                               "start": 702,
                               "end": 798,
-                              "value": "#2: var arr = /((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1/.exec(\"AAAAAAAAAAA\"); arr[",
-                              "raw": "'#2: var arr = /((((((((((A))))))))))\\\\10\\\\9\\\\8\\\\7\\\\6\\\\5\\\\4\\\\3\\\\2\\\\1/.exec(\"AAAAAAAAAAA\"); arr['"
+                              "value": "#2: var arr = /((((((((((A))))))))))\\10\\9\\8\\7\\6\\5\\4\\3\\2\\1/.exec(\"AAAAAAAAAAA\"); arr["
                             },
                             "operator": "+",
                             "right": {
@@ -400,8 +390,7 @@
                             "type": "Literal",
                             "start": 805,
                             "end": 826,
-                            "value": "] === \"A\". Actual. ",
-                            "raw": "'] === \"A\". Actual. '"
+                            "value": "] === \"A\". Actual. "
                           }
                         },
                         "operator": "+",

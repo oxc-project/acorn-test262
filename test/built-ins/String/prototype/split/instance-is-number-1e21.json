@@ -39,8 +39,7 @@
                   "type": "Literal",
                   "start": 411,
                   "end": 415,
-                  "value": 1e+21,
-                  "raw": "1e21"
+                  "value": 1e+21
                 }
               }
             ]
@@ -213,8 +212,7 @@
             "type": "Literal",
             "start": 550,
             "end": 624,
-            "value": "The value of __split.constructor is expected to equal the value of Array",
-            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+            "value": "The value of __split.constructor is expected to equal the value of Array"
           }
         ],
         "optional": false
@@ -271,15 +269,13 @@
             "type": "Literal",
             "start": 662,
             "end": 663,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 665,
             "end": 699,
-            "value": "The value of __split.length is 1",
-            "raw": "'The value of __split.length is 1'"
+            "value": "The value of __split.length is 1"
           }
         ],
         "optional": false
@@ -327,8 +323,7 @@
               "type": "Literal",
               "start": 731,
               "end": 732,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -363,8 +358,7 @@
             "type": "Literal",
             "start": 762,
             "end": 848,
-            "value": "The value of __split[0] must return the same value returned by __instance.toString()",
-            "raw": "'The value of __split[0] must return the same value returned by __instance.toString()'"
+            "value": "The value of __split[0] must return the same value returned by __instance.toString()"
           }
         ],
         "optional": false

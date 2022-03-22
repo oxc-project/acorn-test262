@@ -181,15 +181,13 @@
             "type": "Literal",
             "start": 622,
             "end": 632,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 634,
             "end": 695,
-            "value": "The value of `typeof obj.call` is expected to be \"function\"",
-            "raw": "'The value of `typeof obj.call` is expected to be \"function\"'"
+            "value": "The value of `typeof obj.call` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -254,8 +252,7 @@
                   "type": "Literal",
                   "start": 744,
                   "end": 830,
-                  "value": "#2: If the object does not have a [[Call]] property, a TypeError exception is thrown",
-                  "raw": "'#2: If the object does not have a [[Call]] property, a TypeError exception is thrown'"
+                  "value": "#2: If the object does not have a [[Call]] property, a TypeError exception is thrown"
                 }
               ]
             }
@@ -314,8 +311,7 @@
                     "type": "Literal",
                     "start": 880,
                     "end": 954,
-                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true"
                   }
                 ],
                 "optional": false

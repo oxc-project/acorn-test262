@@ -104,8 +104,7 @@
                     "type": "Literal",
                     "start": 498,
                     "end": 546,
-                    "value": "#1: Infinity + Infinity === Infinity. Actual: ",
-                    "raw": "'#1: Infinity + Infinity === Infinity. Actual: '"
+                    "value": "#1: Infinity + Infinity === Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -240,8 +239,7 @@
                     "type": "Literal",
                     "start": 700,
                     "end": 751,
-                    "value": "#2: -Infinity + -Infinity === -Infinity. Actual: ",
-                    "raw": "'#2: -Infinity + -Infinity === -Infinity. Actual: '"
+                    "value": "#2: -Infinity + -Infinity === -Infinity. Actual: "
                   },
                   "operator": "+",
                   "right": {

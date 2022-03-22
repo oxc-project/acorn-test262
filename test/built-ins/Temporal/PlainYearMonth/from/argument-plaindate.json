@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 323,
                 "end": 335,
-                "value": "1976-11-18",
-                "raw": "\"1976-11-18\""
+                "value": "1976-11-18"
               }
             ],
             "optional": false
@@ -172,22 +171,19 @@
             "type": "Literal",
             "start": 455,
             "end": 459,
-            "value": 1976,
-            "raw": "1976"
+            "value": 1976
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 463,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 465,
             "end": 470,
-            "value": "M11",
-            "raw": "\"M11\""
+            "value": "M11"
           }
         ],
         "optional": false
@@ -302,8 +298,7 @@
             "type": "Literal",
             "start": 556,
             "end": 565,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           }
         ],
         "optional": false
@@ -360,15 +355,13 @@
             "type": "Literal",
             "start": 600,
             "end": 601,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 611,
-            "value": "isoDay",
-            "raw": "\"isoDay\""
+            "value": "isoDay"
           }
         ],
         "optional": false
@@ -425,15 +418,13 @@
             "type": "Literal",
             "start": 648,
             "end": 650,
-            "value": 11,
-            "raw": "11"
+            "value": 11
           },
           {
             "type": "Literal",
             "start": 652,
             "end": 662,
-            "value": "isoMonth",
-            "raw": "\"isoMonth\""
+            "value": "isoMonth"
           }
         ],
         "optional": false
@@ -490,15 +481,13 @@
             "type": "Literal",
             "start": 698,
             "end": 702,
-            "value": 1976,
-            "raw": "1976"
+            "value": 1976
           },
           {
             "type": "Literal",
             "start": 704,
             "end": 713,
-            "value": "isoYear",
-            "raw": "\"isoYear\""
+            "value": "isoYear"
           }
         ],
         "optional": false

@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 259,
                 "end": 271,
-                "value": "1976-11-18",
-                "raw": "\"1976-11-18\""
+                "value": "1976-11-18"
               }
             ],
             "optional": false
@@ -125,8 +124,7 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 321,
-                "value": "2019-06-30",
-                "raw": "\"2019-06-30\""
+                "value": "2019-06-30"
               }
             ],
             "optional": false
@@ -191,8 +189,7 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 371,
-                "value": "2019-06-30",
-                "raw": "\"2019-06-30\""
+                "value": "2019-06-30"
               }
             ],
             "optional": false
@@ -285,15 +282,13 @@
             "type": "Literal",
             "start": 427,
             "end": 428,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 443,
-            "value": "same object",
-            "raw": "\"same object\""
+            "value": "same object"
           }
         ],
         "optional": false
@@ -389,16 +384,14 @@
               "type": "Literal",
               "start": 500,
               "end": 501,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 503,
             "end": 512,
-            "value": "earlier",
-            "raw": "\"earlier\""
+            "value": "earlier"
           }
         ],
         "optional": false
@@ -488,15 +481,13 @@
             "type": "Literal",
             "start": 568,
             "end": 569,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 571,
             "end": 578,
-            "value": "later",
-            "raw": "\"later\""
+            "value": "later"
           }
         ],
         "optional": false
@@ -586,15 +577,13 @@
             "type": "Literal",
             "start": 634,
             "end": 635,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 637,
             "end": 648,
-            "value": "same date",
-            "raw": "\"same date\""
+            "value": "same date"
           }
         ],
         "optional": false

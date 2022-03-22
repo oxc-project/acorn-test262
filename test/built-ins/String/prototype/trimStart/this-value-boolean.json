@@ -120,15 +120,13 @@
             "type": "Literal",
             "start": 610,
             "end": 616,
-            "value": "true",
-            "raw": "'true'"
+            "value": "true"
           },
           {
             "type": "Literal",
             "start": 620,
             "end": 659,
-            "value": "String.prototype.trimStart.call(true)",
-            "raw": "'String.prototype.trimStart.call(true)'"
+            "value": "String.prototype.trimStart.call(true)"
           }
         ],
         "optional": false
@@ -226,15 +224,13 @@
             "type": "Literal",
             "start": 726,
             "end": 733,
-            "value": "false",
-            "raw": "'false'"
+            "value": "false"
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 777,
-            "value": "String.prototype.trimStart.call(false)",
-            "raw": "'String.prototype.trimStart.call(false)'"
+            "value": "String.prototype.trimStart.call(false)"
           }
         ],
         "optional": false

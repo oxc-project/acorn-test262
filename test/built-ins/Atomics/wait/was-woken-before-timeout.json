@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 752,
             "end": 753,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -254,8 +253,7 @@
                       "type": "Literal",
                       "start": 1286,
                       "end": 1287,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -374,8 +372,7 @@
             "type": "Literal",
             "start": 1361,
             "end": 1362,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -487,8 +484,7 @@
                 "type": "Literal",
                 "start": 1498,
                 "end": 1499,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -497,15 +493,13 @@
             "type": "Literal",
             "start": 1502,
             "end": 1503,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1505,
             "end": 1540,
-            "value": "Atomics.notify(i32a, 0) returns 1",
-            "raw": "'Atomics.notify(i32a, 0) returns 1'"
+            "value": "Atomics.notify(i32a, 0) returns 1"
           }
         ],
         "optional": false
@@ -606,8 +600,7 @@
             "type": "Literal",
             "start": 1612,
             "end": 1655,
-            "value": "The result of `(lapse < TIMEOUT)` is true",
-            "raw": "'The result of `(lapse < TIMEOUT)` is true'"
+            "value": "The result of `(lapse < TIMEOUT)` is true"
           }
         ],
         "optional": false
@@ -684,15 +677,13 @@
             "type": "Literal",
             "start": 1700,
             "end": 1704,
-            "value": "ok",
-            "raw": "'ok'"
+            "value": "ok"
           },
           {
             "type": "Literal",
             "start": 1706,
             "end": 1743,
-            "value": "$262.agent.getReport() returns \"ok\"",
-            "raw": "'$262.agent.getReport() returns \"ok\"'"
+            "value": "$262.agent.getReport() returns \"ok\""
           }
         ],
         "optional": false

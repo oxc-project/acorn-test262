@@ -40,8 +40,7 @@
                     "type": "Literal",
                     "start": 421,
                     "end": 422,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -133,8 +132,7 @@
             "type": "Literal",
             "start": 489,
             "end": 548,
-            "value": "The value of n_obj is expected to equal the value of func",
-            "raw": "'The value of n_obj is expected to equal the value of func'"
+            "value": "The value of n_obj is expected to equal the value of func"
           }
         ],
         "optional": false
@@ -185,15 +183,13 @@
             "type": "Literal",
             "start": 577,
             "end": 578,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 580,
             "end": 603,
-            "value": "n_obj() must return 1",
-            "raw": "'n_obj() must return 1'"
+            "value": "n_obj() must return 1"
           }
         ],
         "optional": false

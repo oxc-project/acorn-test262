@@ -27,99 +27,85 @@
                 "type": "Literal",
                 "start": 675,
                 "end": 677,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 681,
                 "end": 684,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 688,
                 "end": 692,
-                "value": "ab",
-                "raw": "\"ab\""
+                "value": "ab"
               },
               {
                 "type": "Literal",
                 "start": 696,
                 "end": 707,
-                "value": "abcdefghi",
-                "raw": "\"abcdefghi\""
+                "value": "abcdefghi"
               },
               {
                 "type": "Literal",
                 "start": 711,
                 "end": 726,
-                "value": "abc-abcdefghi",
-                "raw": "\"abc-abcdefghi\""
+                "value": "abc-abcdefghi"
               },
               {
                 "type": "Literal",
                 "start": 730,
                 "end": 741,
-                "value": "!invalid!",
-                "raw": "\"!invalid!\""
+                "value": "!invalid!"
               },
               {
                 "type": "Literal",
                 "start": 745,
                 "end": 756,
-                "value": "-gregory-",
-                "raw": "\"-gregory-\""
+                "value": "-gregory-"
               },
               {
                 "type": "Literal",
                 "start": 760,
                 "end": 770,
-                "value": "gregory-",
-                "raw": "\"gregory-\""
+                "value": "gregory-"
               },
               {
                 "type": "Literal",
                 "start": 774,
                 "end": 785,
-                "value": "gregory--",
-                "raw": "\"gregory--\""
+                "value": "gregory--"
               },
               {
                 "type": "Literal",
                 "start": 789,
                 "end": 801,
-                "value": "gregory-nu",
-                "raw": "\"gregory-nu\""
+                "value": "gregory-nu"
               },
               {
                 "type": "Literal",
                 "start": 805,
                 "end": 818,
-                "value": "gregory-nu-",
-                "raw": "\"gregory-nu-\""
+                "value": "gregory-nu-"
               },
               {
                 "type": "Literal",
                 "start": 822,
                 "end": 839,
-                "value": "gregory-nu-latn",
-                "raw": "\"gregory-nu-latn\""
+                "value": "gregory-nu-latn"
               },
               {
                 "type": "Literal",
                 "start": 843,
                 "end": 853,
-                "value": "gregoryé",
-                "raw": "\"gregoryé\""
+                "value": "gregoryé"
               },
               {
                 "type": "Literal",
                 "start": 857,
                 "end": 868,
-                "value": "gregory역법",
-                "raw": "\"gregory역법\""
+                "value": "gregory역법"
               }
             ]
           }
@@ -243,8 +229,7 @@
                               "type": "Literal",
                               "start": 991,
                               "end": 995,
-                              "value": "en",
-                              "raw": "'en'"
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",

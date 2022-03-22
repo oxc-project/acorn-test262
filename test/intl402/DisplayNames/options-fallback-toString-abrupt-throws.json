@@ -83,8 +83,7 @@
                         "type": "Literal",
                         "start": 1204,
                         "end": 1208,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "ObjectExpression",
@@ -108,8 +107,7 @@
                               "type": "Literal",
                               "start": 1222,
                               "end": 1232,
-                              "value": "language",
-                              "raw": "'language'"
+                              "value": "language"
                             },
                             "kind": "init"
                           },
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 1297,
             "end": 1312,
-            "value": "from toString",
-            "raw": "'from toString'"
+            "value": "from toString"
           }
         ],
         "optional": false
@@ -283,8 +280,7 @@
                         "type": "Literal",
                         "start": 1376,
                         "end": 1380,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "ObjectExpression",
@@ -308,8 +304,7 @@
                               "type": "Literal",
                               "start": 1394,
                               "end": 1404,
-                              "value": "language",
-                              "raw": "'language'"
+                              "value": "language"
                             },
                             "kind": "init"
                           },
@@ -417,8 +412,7 @@
             "type": "Literal",
             "start": 1491,
             "end": 1505,
-            "value": "from valueOf",
-            "raw": "'from valueOf'"
+            "value": "from valueOf"
           }
         ],
         "optional": false
@@ -504,8 +498,7 @@
                         "type": "Literal",
                         "start": 1569,
                         "end": 1573,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "ObjectExpression",
@@ -529,8 +522,7 @@
                               "type": "Literal",
                               "start": 1587,
                               "end": 1597,
-                              "value": "language",
-                              "raw": "'language'"
+                              "value": "language"
                             },
                             "kind": "init"
                           },
@@ -630,8 +622,7 @@
             "type": "Literal",
             "start": 1679,
             "end": 1697,
-            "value": "from ToPrimitive",
-            "raw": "'from ToPrimitive'"
+            "value": "from ToPrimitive"
           }
         ],
         "optional": false
@@ -717,8 +708,7 @@
                         "type": "Literal",
                         "start": 1758,
                         "end": 1762,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "ObjectExpression",
@@ -742,8 +732,7 @@
                               "type": "Literal",
                               "start": 1776,
                               "end": 1786,
-                              "value": "language",
-                              "raw": "'language'"
+                              "value": "language"
                             },
                             "kind": "init"
                           },
@@ -787,8 +776,7 @@
             "type": "Literal",
             "start": 1820,
             "end": 1834,
-            "value": "symbol value",
-            "raw": "'symbol value'"
+            "value": "symbol value"
           }
         ],
         "optional": false

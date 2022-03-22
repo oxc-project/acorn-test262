@@ -120,8 +120,7 @@
             "type": "Literal",
             "start": 941,
             "end": 947,
-            "value": "then",
-            "raw": "'then'"
+            "value": "then"
           },
           {
             "type": "ObjectExpression",
@@ -280,8 +279,7 @@
                             "type": "Literal",
                             "start": 1063,
                             "end": 1095,
-                            "value": "The promise should be rejected",
-                            "raw": "'The promise should be rejected'"
+                            "value": "The promise should be rejected"
                           }
                         ]
                       }

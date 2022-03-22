@@ -69,13 +69,12 @@
         "end": 1200,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1154,
-            "end": 1198,
-            "static": false,
+            "end": 1197,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1154,
               "end": 1156,
               "name": "x"
@@ -95,8 +94,7 @@
                   "type": "Literal",
                   "start": 1164,
                   "end": 1196,
-                  "value": "executed = true; super()[\"x\"];",
-                  "raw": "'executed = true; super()[\"x\"];'"
+                  "value": "executed = true; super()[\"x\"];"
                 }
               ],
               "optional": false

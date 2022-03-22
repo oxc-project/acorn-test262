@@ -189,8 +189,7 @@
                             "type": "Literal",
                             "start": 2046,
                             "end": 2096,
-                            "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "value": "Expected async function to reject, but resolved."
                           }
                         ]
                       }

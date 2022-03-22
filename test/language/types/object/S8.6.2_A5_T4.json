@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 355,
             "end": 356,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -51,8 +50,7 @@
             "type": "Literal",
             "start": 364,
             "end": 370,
-            "value": "beep",
-            "raw": "\"beep\""
+            "value": "beep"
           },
           "computed": true,
           "optional": false
@@ -131,8 +129,7 @@
           "type": "Literal",
           "start": 507,
           "end": 508,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -163,8 +160,7 @@
                     "type": "Literal",
                     "start": 537,
                     "end": 621,
-                    "value": "#1: __count=0; this[\"beep\"]=function(){__count++}; beep(); __count === 1. Actual: ",
-                    "raw": "'#1: __count=0; this[\"beep\"]=function(){__count++}; beep(); __count === 1. Actual: '"
+                    "value": "#1: __count=0; this[\"beep\"]=function(){__count++}; beep(); __count === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -207,8 +203,7 @@
             "type": "Literal",
             "start": 815,
             "end": 821,
-            "value": "beep",
-            "raw": "\"beep\""
+            "value": "beep"
           },
           "computed": true,
           "optional": false
@@ -236,8 +231,7 @@
           "type": "Literal",
           "start": 841,
           "end": 842,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -268,8 +262,7 @@
                     "type": "Literal",
                     "start": 871,
                     "end": 971,
-                    "value": "#2: __count=0; this[\"beep\"]=function(){__count++}; beep(); this[\"beep\"](); __count === 2. Actual: ",
-                    "raw": "'#2: __count=0; this[\"beep\"]=function(){__count++}; beep(); this[\"beep\"](); __count === 2. Actual: '"
+                    "value": "#2: __count=0; this[\"beep\"]=function(){__count++}; beep(); this[\"beep\"](); __count === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {

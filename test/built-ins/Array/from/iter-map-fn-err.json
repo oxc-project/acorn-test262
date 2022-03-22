@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 624,
             "end": 625,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -217,8 +216,7 @@
                                   "type": "Literal",
                                   "start": 793,
                                   "end": 794,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             }
@@ -400,8 +398,7 @@
             "type": "Literal",
             "start": 957,
             "end": 1015,
-            "value": "Array.from(items, mapFn) throws a Test262Error exception",
-            "raw": "'Array.from(items, mapFn) throws a Test262Error exception'"
+            "value": "Array.from(items, mapFn) throws a Test262Error exception"
           }
         ],
         "optional": false
@@ -445,15 +442,13 @@
             "type": "Literal",
             "start": 1048,
             "end": 1049,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1051,
             "end": 1096,
-            "value": "The value of closeCount is expected to be 1",
-            "raw": "'The value of closeCount is expected to be 1'"
+            "value": "The value of closeCount is expected to be 1"
           }
         ],
         "optional": false

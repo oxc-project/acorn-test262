@@ -69,8 +69,7 @@
                     "type": "Literal",
                     "start": 305,
                     "end": 364,
-                    "value": "#1: Boolean(false) === false. Actual: Boolean(false) === ",
-                    "raw": "'#1: Boolean(false) === false. Actual: Boolean(false) === '"
+                    "value": "#1: Boolean(false) === false. Actual: Boolean(false) === "
                   },
                   "operator": "+",
                   "right": {

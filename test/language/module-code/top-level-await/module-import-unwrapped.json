@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 2640,
         "end": 2678,
-        "value": "./module-import-unwrapped_FIXTURE.js",
-        "raw": "'./module-import-unwrapped_FIXTURE.js'"
+        "value": "./module-import-unwrapped_FIXTURE.js"
       }
     },
     {
@@ -72,8 +71,7 @@
         "type": "Literal",
         "start": 2701,
         "end": 2739,
-        "value": "./module-import-unwrapped_FIXTURE.js",
-        "raw": "'./module-import-unwrapped_FIXTURE.js'"
+        "value": "./module-import-unwrapped_FIXTURE.js"
       }
     },
     {
@@ -113,8 +111,7 @@
             "type": "Literal",
             "start": 2773,
             "end": 2804,
-            "value": "mod is an instance of Promise",
-            "raw": "'mod is an instance of Promise'"
+            "value": "mod is an instance of Promise"
           }
         ],
         "optional": false
@@ -157,8 +154,7 @@
             "type": "Literal",
             "start": 2836,
             "end": 2865,
-            "value": "x is an instance of Promise",
-            "raw": "'x is an instance of Promise'"
+            "value": "x is an instance of Promise"
           }
         ],
         "optional": false
@@ -201,8 +197,7 @@
             "type": "Literal",
             "start": 2897,
             "end": 2926,
-            "value": "y is an instance of Promise",
-            "raw": "'y is an instance of Promise'"
+            "value": "y is an instance of Promise"
           }
         ],
         "optional": false
@@ -292,8 +287,7 @@
             "type": "Literal",
             "start": 2994,
             "end": 3008,
-            "value": "Proto of mod",
-            "raw": "'Proto of mod'"
+            "value": "Proto of mod"
           }
         ],
         "optional": false
@@ -383,8 +377,7 @@
             "type": "Literal",
             "start": 3073,
             "end": 3085,
-            "value": "Proto of x",
-            "raw": "'Proto of x'"
+            "value": "Proto of x"
           }
         ],
         "optional": false
@@ -474,8 +467,7 @@
             "type": "Literal",
             "start": 3150,
             "end": 3162,
-            "value": "Proto of y",
-            "raw": "'Proto of y'"
+            "value": "Proto of y"
           }
         ],
         "optional": false
@@ -524,8 +516,7 @@
             "type": "Literal",
             "start": 3194,
             "end": 3203,
-            "value": "default",
-            "raw": "'default'"
+            "value": "default"
           }
         ],
         "optional": false
@@ -574,8 +565,7 @@
             "type": "Literal",
             "start": 3232,
             "end": 3254,
-            "value": "unwrapped resolution",
-            "raw": "'unwrapped resolution'"
+            "value": "unwrapped resolution"
           }
         ],
         "optional": false
@@ -709,8 +699,7 @@
             "type": "Literal",
             "start": 3334,
             "end": 3355,
-            "value": "unwrapped rejection",
-            "raw": "'unwrapped rejection'"
+            "value": "unwrapped rejection"
           }
         ],
         "optional": false

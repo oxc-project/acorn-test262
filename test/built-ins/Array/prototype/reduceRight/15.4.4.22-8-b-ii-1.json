@@ -112,8 +112,7 @@
             "type": "Literal",
             "start": 377,
             "end": 385,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -170,8 +169,7 @@
                               "type": "Literal",
                               "start": 417,
                               "end": 418,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             "computed": true,
                             "optional": false
@@ -180,8 +178,7 @@
                             "type": "Literal",
                             "start": 422,
                             "end": 435,
-                            "value": "accumulator",
-                            "raw": "\"accumulator\""
+                            "value": "accumulator"
                           }
                         }
                       },
@@ -193,8 +190,7 @@
                           "type": "Literal",
                           "start": 448,
                           "end": 449,
-                          "value": 3,
-                          "raw": "3"
+                          "value": 3
                         }
                       }
                     ]
@@ -327,15 +323,13 @@
             "type": "Literal",
             "start": 550,
             "end": 563,
-            "value": "accumulator",
-            "raw": "\"accumulator\""
+            "value": "accumulator"
           },
           {
             "type": "Literal",
             "start": 565,
             "end": 616,
-            "value": "Array.prototype.reduceRight.call(obj, callbackfn)",
-            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn)'"
+            "value": "Array.prototype.reduceRight.call(obj, callbackfn)"
           }
         ],
         "optional": false

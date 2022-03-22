@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 448,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -113,15 +112,13 @@
             "type": "Literal",
             "start": 507,
             "end": 515,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 519,
             "end": 594,
-            "value": "The value of `typeof x1.constructor.prototype` is expected to be \"object\"",
-            "raw": "'The value of `typeof x1.constructor.prototype` is expected to be \"object\"'"
+            "value": "The value of `typeof x1.constructor.prototype` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -157,8 +154,7 @@
                 "type": "Literal",
                 "start": 619,
                 "end": 620,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -231,8 +227,7 @@
             "type": "Literal",
             "start": 666,
             "end": 719,
-            "value": "Number.prototype.isPrototypeOf(x2) must return true",
-            "raw": "'Number.prototype.isPrototypeOf(x2) must return true'"
+            "value": "Number.prototype.isPrototypeOf(x2) must return true"
           }
         ],
         "optional": false
@@ -268,8 +263,7 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 744,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -360,8 +354,7 @@
             "type": "Literal",
             "start": 816,
             "end": 906,
-            "value": "The value of Number.prototype is expected to equal the value of x3.constructor.prototype",
-            "raw": "'The value of Number.prototype is expected to equal the value of x3.constructor.prototype'"
+            "value": "The value of Number.prototype is expected to equal the value of x3.constructor.prototype"
           }
         ],
         "optional": false

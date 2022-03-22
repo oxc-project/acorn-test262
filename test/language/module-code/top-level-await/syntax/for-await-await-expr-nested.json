@@ -103,8 +103,7 @@
                                           "type": "Literal",
                                           "start": 1882,
                                           "end": 1889,
-                                          "value": "await",
-                                          "raw": "'await'"
+                                          "value": "await"
                                         }
                                       }
                                     }
@@ -196,8 +195,7 @@
                                             "type": "Literal",
                                             "start": 1986,
                                             "end": 1993,
-                                            "value": "await",
-                                            "raw": "'await'"
+                                            "value": "await"
                                           }
                                         }
                                       }
@@ -318,8 +316,7 @@
                                           "type": "Literal",
                                           "start": 2260,
                                           "end": 2267,
-                                          "value": "await",
-                                          "raw": "'await'"
+                                          "value": "await"
                                         }
                                       }
                                     }
@@ -411,8 +408,7 @@
                                             "type": "Literal",
                                             "start": 2364,
                                             "end": 2371,
-                                            "value": "await",
-                                            "raw": "'await'"
+                                            "value": "await"
                                           }
                                         }
                                       }
@@ -533,8 +529,7 @@
                                           "type": "Literal",
                                           "start": 2638,
                                           "end": 2645,
-                                          "value": "await",
-                                          "raw": "'await'"
+                                          "value": "await"
                                         }
                                       }
                                     }
@@ -626,8 +621,7 @@
                                             "type": "Literal",
                                             "start": 2742,
                                             "end": 2749,
-                                            "value": "await",
-                                            "raw": "'await'"
+                                            "value": "await"
                                           }
                                         }
                                       }

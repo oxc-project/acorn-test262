@@ -214,8 +214,7 @@
                                         "type": "Literal",
                                         "start": 475,
                                         "end": 477,
-                                        "value": "",
-                                        "raw": "\"\""
+                                        "value": ""
                                       }
                                     ],
                                     "optional": false
@@ -239,8 +238,7 @@
                             "type": "Literal",
                             "start": 487,
                             "end": 542,
-                            "value": "String.prototype.localeCompare did not reject this = ",
-                            "raw": "\"String.prototype.localeCompare did not reject this = \""
+                            "value": "String.prototype.localeCompare did not reject this = "
                           },
                           "operator": "+",
                           "right": {
@@ -255,8 +253,7 @@
                           "type": "Literal",
                           "start": 553,
                           "end": 556,
-                          "value": ".",
-                          "raw": "\".\""
+                          "value": "."
                         }
                       }
                     ],

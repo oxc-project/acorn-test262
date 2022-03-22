@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 321,
                 "end": 322,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -98,15 +97,13 @@
                 "type": "Literal",
                 "start": 365,
                 "end": 366,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 368,
                 "end": 370,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               }
             ]
           }
@@ -157,22 +154,19 @@
                 "type": "Literal",
                 "start": 413,
                 "end": 414,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 417,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 419,
                 "end": 420,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -223,29 +217,25 @@
                 "type": "Literal",
                 "start": 463,
                 "end": 464,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 467,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 470,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 474,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ]
           }
@@ -296,22 +286,19 @@
                 "type": "Literal",
                 "start": 519,
                 "end": 523,
-                "value": 2021,
-                "raw": "2021"
+                "value": 2021
               },
               {
                 "type": "Literal",
                 "start": 525,
                 "end": 527,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 529,
                 "end": 531,
-                "value": 15,
-                "raw": "15"
+                "value": 15
               }
             ]
           }
@@ -431,8 +418,7 @@
             "type": "Literal",
             "start": 627,
             "end": 698,
-            "value": "cannot compare Duration values without relativeTo if year is non-zero",
-            "raw": "\"cannot compare Duration values without relativeTo if year is non-zero\""
+            "value": "cannot compare Duration values without relativeTo if year is non-zero"
           }
         ],
         "optional": false
@@ -470,8 +456,7 @@
             "type": "Literal",
             "start": 719,
             "end": 720,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "CallExpression",
@@ -557,8 +542,7 @@
             "type": "Literal",
             "start": 791,
             "end": 864,
-            "value": "compare succeeds for year-only Duration provided relativeTo is supplied",
-            "raw": "\"compare succeeds for year-only Duration provided relativeTo is supplied\""
+            "value": "compare succeeds for year-only Duration provided relativeTo is supplied"
           }
         ],
         "optional": false
@@ -676,8 +660,7 @@
             "type": "Literal",
             "start": 960,
             "end": 1032,
-            "value": "cannot compare Duration values without relativeTo if month is non-zero",
-            "raw": "\"cannot compare Duration values without relativeTo if month is non-zero\""
+            "value": "cannot compare Duration values without relativeTo if month is non-zero"
           }
         ],
         "optional": false
@@ -715,8 +698,7 @@
             "type": "Literal",
             "start": 1053,
             "end": 1054,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "CallExpression",
@@ -802,8 +784,7 @@
             "type": "Literal",
             "start": 1125,
             "end": 1203,
-            "value": "compare succeeds for year-and-month Duration provided relativeTo is supplied",
-            "raw": "\"compare succeeds for year-and-month Duration provided relativeTo is supplied\""
+            "value": "compare succeeds for year-and-month Duration provided relativeTo is supplied"
           }
         ],
         "optional": false
@@ -921,8 +902,7 @@
             "type": "Literal",
             "start": 1299,
             "end": 1370,
-            "value": "cannot compare Duration values without relativeTo if week is non-zero",
-            "raw": "\"cannot compare Duration values without relativeTo if week is non-zero\""
+            "value": "cannot compare Duration values without relativeTo if week is non-zero"
           }
         ],
         "optional": false
@@ -960,8 +940,7 @@
             "type": "Literal",
             "start": 1391,
             "end": 1392,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "CallExpression",
@@ -1047,8 +1026,7 @@
             "type": "Literal",
             "start": 1463,
             "end": 1550,
-            "value": "compare succeeds for year-and-month-and-week Duration provided relativeTo is supplied",
-            "raw": "\"compare succeeds for year-and-month-and-week Duration provided relativeTo is supplied\""
+            "value": "compare succeeds for year-and-month-and-week Duration provided relativeTo is supplied"
           }
         ],
         "optional": false
@@ -1086,8 +1064,7 @@
             "type": "Literal",
             "start": 1572,
             "end": 1573,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "CallExpression",
@@ -1145,8 +1122,7 @@
             "type": "Literal",
             "start": 1628,
             "end": 1717,
-            "value": "compare succeeds for zero year-month-week non-zero day Duration even without relativeTo",
-            "raw": "\"compare succeeds for zero year-month-week non-zero day Duration even without relativeTo\""
+            "value": "compare succeeds for zero year-month-week non-zero day Duration even without relativeTo"
           }
         ],
         "optional": false
@@ -1184,8 +1160,7 @@
             "type": "Literal",
             "start": 1813,
             "end": 1814,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "CallExpression",
@@ -1271,8 +1246,7 @@
             "type": "Literal",
             "start": 1885,
             "end": 1966,
-            "value": "compare succeeds for zero year-month-week non-zero day Duration with relativeTo",
-            "raw": "\"compare succeeds for zero year-month-week non-zero day Duration with relativeTo\""
+            "value": "compare succeeds for zero year-month-week non-zero day Duration with relativeTo"
           }
         ],
         "optional": false

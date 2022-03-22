@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 412,
                             "end": 423,
-                            "value": "findIndex",
-                            "raw": "\"findIndex\""
+                            "value": "findIndex"
                           }
                         ],
                         "optional": false

@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 289,
                 "end": 302,
-                "value": "a\u0000\u0000bc",
-                "raw": "\"a\\0\\u0000bc\""
+                "value": "a\u0000\u0000bc"
               },
               "property": {
                 "type": "Identifier",
@@ -62,15 +61,13 @@
             "type": "Literal",
             "start": 311,
             "end": 324,
-            "value": "a\u0000\u0000bc",
-            "raw": "\"a\\0\\u0000bc\""
+            "value": "a\u0000\u0000bc"
           },
           {
             "type": "Literal",
             "start": 326,
             "end": 348,
-            "value": "\"a\u0000\u0000bc\".trim()",
-            "raw": "'\"a\\0\\u0000bc\".trim()'"
+            "value": "\"a\u0000\u0000bc\".trim()"
           }
         ],
         "optional": false

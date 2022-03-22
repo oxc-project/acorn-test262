@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1616,
             "end": 1617,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -253,8 +252,7 @@
                                   "type": "Literal",
                                   "start": 1782,
                                   "end": 1783,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             },
@@ -300,8 +298,7 @@
             "type": "Literal",
             "start": 1833,
             "end": 1834,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -479,8 +476,7 @@
                         "type": "Literal",
                         "start": 1995,
                         "end": 1996,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -505,8 +501,7 @@
                       "type": "Literal",
                       "start": 2017,
                       "end": 2018,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -622,15 +617,13 @@
                       "type": "Literal",
                       "start": 2081,
                       "end": 2082,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 2084,
                       "end": 2116,
-                      "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "value": "iteration occurred as expected"
                     }
                   ],
                   "optional": false

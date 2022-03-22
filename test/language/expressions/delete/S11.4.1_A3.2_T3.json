@@ -87,8 +87,7 @@
           "type": "Literal",
           "start": 398,
           "end": 399,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -159,8 +158,7 @@
                   "type": "Literal",
                   "start": 468,
                   "end": 582,
-                  "value": "#1: function MyFunction(){}; var MyObject = new MyFunction(); MyFunction.prop = 1; delete MyObject.prop === true",
-                  "raw": "'#1: function MyFunction(){}; var MyObject = new MyFunction(); MyFunction.prop = 1; delete MyObject.prop === true'"
+                  "value": "#1: function MyFunction(){}; var MyObject = new MyFunction(); MyFunction.prop = 1; delete MyObject.prop === true"
                 }
               ]
             }

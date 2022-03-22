@@ -109,8 +109,7 @@
                         "type": "Literal",
                         "start": 550,
                         "end": 587,
-                        "value": "method is inherited %TypedArray%.of",
-                        "raw": "\"method is inherited %TypedArray%.of\""
+                        "value": "method is inherited %TypedArray%.of"
                       }
                     ],
                     "optional": false
@@ -172,8 +171,7 @@
                             "type": "Literal",
                             "start": 635,
                             "end": 639,
-                            "value": "of",
-                            "raw": "\"of\""
+                            "value": "of"
                           }
                         ],
                         "optional": false
@@ -189,8 +187,7 @@
                         "type": "Literal",
                         "start": 653,
                         "end": 709,
-                        "value": "constructor does not define an own property named 'of'",
-                        "raw": "\"constructor does not define an own property named 'of'\""
+                        "value": "constructor does not define an own property named 'of'"
                       }
                     ],
                     "optional": false

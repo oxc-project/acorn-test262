@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 305,
                     "end": 360,
-                    "value": "#1.1: new RegExp(\"a????\") throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"a????\") throw SyntaxError. Actual: '"
+                    "value": "#1.1: new RegExp(\"a????\") throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -58,8 +57,7 @@
                           "type": "Literal",
                           "start": 375,
                           "end": 382,
-                          "value": "a????",
-                          "raw": "\"a????\""
+                          "value": "a????"
                         }
                       ]
                     }
@@ -142,8 +140,7 @@
                     "type": "Literal",
                     "start": 465,
                     "end": 541,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

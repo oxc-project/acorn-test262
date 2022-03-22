@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 340,
-                "value": "this is a string object",
-                "raw": "'this is a string object'"
+                "value": "this is a string object"
               }
             ]
           }
@@ -94,8 +93,7 @@
           "type": "Literal",
           "start": 471,
           "end": 496,
-          "value": "this is a string object",
-          "raw": "\"this is a string object\""
+          "value": "this is a string object"
         }
       },
       "consequent": {
@@ -126,8 +124,7 @@
                     "type": "Literal",
                     "start": 525,
                     "end": 652,
-                    "value": "#1: __string = new String('this is a string object'); __string.slice(NaN, Infinity) === \"this is a string object\". Actual: ",
-                    "raw": "'#1: __string = new String(\\'this is a string object\\'); __string.slice(NaN, Infinity) === \"this is a string object\". Actual: '"
+                    "value": "#1: __string = new String('this is a string object'); __string.slice(NaN, Infinity) === \"this is a string object\". Actual: "
                   },
                   "operator": "+",
                   "right": {

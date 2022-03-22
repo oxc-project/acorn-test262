@@ -53,8 +53,7 @@
                     "type": "Literal",
                     "start": 357,
                     "end": 397,
-                    "value": "#1.1: Math() throw TypeError. Actual: ",
-                    "raw": "'#1.1: Math() throw TypeError. Actual: '"
+                    "value": "#1.1: Math() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -164,8 +163,7 @@
                             "type": "Literal",
                             "start": 496,
                             "end": 536,
-                            "value": "#1.2: Math() throw TypeError. Actual: ",
-                            "raw": "'#1.2: Math() throw TypeError. Actual: '"
+                            "value": "#1.2: Math() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

@@ -58,8 +58,7 @@
                         "type": "Literal",
                         "start": 1381,
                         "end": 1382,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -180,8 +179,7 @@
                                             "type": "Literal",
                                             "start": 1514,
                                             "end": 1515,
-                                            "value": 1,
-                                            "raw": "1"
+                                            "value": 1
                                           }
                                         }
                                       },
@@ -267,8 +265,7 @@
                         "type": "Literal",
                         "start": 1642,
                         "end": 1643,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -353,8 +350,7 @@
                             "type": "Literal",
                             "start": 1717,
                             "end": 1728,
-                            "value": "prototype",
-                            "raw": "\"prototype\""
+                            "value": "prototype"
                           },
                           {
                             "type": "ObjectExpression",
@@ -407,8 +403,7 @@
                                             "type": "Literal",
                                             "start": 1792,
                                             "end": 1793,
-                                            "value": 1,
-                                            "raw": "1"
+                                            "value": 1
                                           }
                                         }
                                       },
@@ -468,8 +463,7 @@
                             "type": "Literal",
                             "start": 1859,
                             "end": 1860,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ]
                       }
@@ -605,8 +599,7 @@
                         "type": "Literal",
                         "start": 1980,
                         "end": 2025,
-                        "value": "TypeError thrown for detached source buffer",
-                        "raw": "\"TypeError thrown for detached source buffer\""
+                        "value": "TypeError thrown for detached source buffer"
                       }
                     ],
                     "optional": false
@@ -650,15 +643,13 @@
                         "type": "Literal",
                         "start": 2068,
                         "end": 2069,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 2071,
                         "end": 2101,
-                        "value": "@@species getter called once",
-                        "raw": "\"@@species getter called once\""
+                        "value": "@@species getter called once"
                       }
                     ],
                     "optional": false
@@ -702,15 +693,13 @@
                         "type": "Literal",
                         "start": 2145,
                         "end": 2146,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 2148,
                         "end": 2178,
-                        "value": "prototype getter called once",
-                        "raw": "\"prototype getter called once\""
+                        "value": "prototype getter called once"
                       }
                     ],
                     "optional": false

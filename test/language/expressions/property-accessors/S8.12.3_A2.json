@@ -91,8 +91,7 @@
                     "type": "Literal",
                     "start": 544,
                     "end": 601,
-                    "value": "#1: var __obj={}; __obj.propFoo === undefined. Actual: ",
-                    "raw": "'#1: var __obj={}; __obj.propFoo === undefined. Actual: '"
+                    "value": "#1: var __obj={}; __obj.propFoo === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -149,8 +148,7 @@
             "type": "Literal",
             "start": 806,
             "end": 815,
-            "value": "propFoo",
-            "raw": "'propFoo'"
+            "value": "propFoo"
           },
           "computed": true,
           "optional": false
@@ -191,8 +189,7 @@
                     "type": "Literal",
                     "start": 858,
                     "end": 920,
-                    "value": "#2: var __obj={}; __obj['propFoo'] === undefined. Actual: ",
-                    "raw": "'#2: var __obj={}; __obj[\\'propFoo\\'] === undefined. Actual: '"
+                    "value": "#2: var __obj={}; __obj['propFoo'] === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -213,8 +210,7 @@
                         "type": "Literal",
                         "start": 930,
                         "end": 939,
-                        "value": "propFoo",
-                        "raw": "'propFoo'"
+                        "value": "propFoo"
                       },
                       "computed": true,
                       "optional": false

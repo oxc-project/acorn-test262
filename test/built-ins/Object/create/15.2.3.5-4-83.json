@@ -114,8 +114,7 @@
                             "type": "Literal",
                             "start": 385,
                             "end": 395,
-                            "value": "AB\n\\cd",
-                            "raw": "\"AB\\n\\\\cd\""
+                            "value": "AB\n\\cd"
                           },
                           "kind": "init"
                         }
@@ -186,8 +185,7 @@
                 "type": "Literal",
                 "start": 454,
                 "end": 460,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -251,8 +249,7 @@
             "type": "Literal",
             "start": 509,
             "end": 528,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

@@ -33,7 +33,6 @@
         "start": 1002,
         "end": 1005,
         "value": {},
-        "raw": "/1/",
         "regex": {
           "pattern": "1",
           "flags": ""

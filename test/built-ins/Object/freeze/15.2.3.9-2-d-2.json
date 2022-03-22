@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 237,
                 "end": 238,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 240,
                 "end": 241,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -133,8 +131,7 @@
             "type": "Literal",
             "start": 301,
             "end": 335,
-            "value": "Object.isFrozen(arrObj) !== true",
-            "raw": "'Object.isFrozen(arrObj) !== true'"
+            "value": "Object.isFrozen(arrObj) !== true"
           }
         ],
         "optional": false

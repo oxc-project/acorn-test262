@@ -114,8 +114,7 @@
             "type": "Literal",
             "start": 499,
             "end": 506,
-            "value": "throw",
-            "raw": "'throw'"
+            "value": "throw"
           }
         ],
         "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 544,
             "end": 551,
-            "value": "throw",
-            "raw": "'throw'"
+            "value": "throw"
           }
         ],
         "optional": false
@@ -178,8 +176,7 @@
             "type": "Literal",
             "start": 593,
             "end": 600,
-            "value": "throw",
-            "raw": "'throw'"
+            "value": "throw"
           }
         ],
         "optional": false

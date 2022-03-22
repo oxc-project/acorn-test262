@@ -61,8 +61,7 @@
                     "type": "Literal",
                     "start": 312,
                     "end": 354,
-                    "value": "#1: delete undefined === false. Actual: ",
-                    "raw": "'#1: delete undefined === false. Actual: '"
+                    "value": "#1: delete undefined === false. Actual: "
                   },
                   "operator": "+",
                   "right": {

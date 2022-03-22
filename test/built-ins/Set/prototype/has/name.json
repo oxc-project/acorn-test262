@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 343,
             "end": 348,
-            "value": "has",
-            "raw": "\"has\""
+            "value": "has"
           },
           {
             "type": "Literal",
             "start": 350,
             "end": 400,
-            "value": "The value of `Set.prototype.has.name` is `'has'`",
-            "raw": "\"The value of `Set.prototype.has.name` is `'has'`\""
+            "value": "The value of `Set.prototype.has.name` is `'has'`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 443,
             "end": 449,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 489,
             "end": 495,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 536,
             "end": 542,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

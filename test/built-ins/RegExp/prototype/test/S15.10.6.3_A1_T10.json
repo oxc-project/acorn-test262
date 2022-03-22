@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 314,
             "end": 318,
-            "value": 1.01,
-            "raw": "1.01"
+            "value": 1.01
           }
         }
       ],
@@ -49,7 +48,6 @@
             "start": 331,
             "end": 337,
             "value": {},
-            "raw": "/1|12/",
             "regex": {
               "pattern": "1|12",
               "flags": ""
@@ -170,8 +168,7 @@
             "type": "Literal",
             "start": 415,
             "end": 473,
-            "value": "__re.test(1.01) must return __re.exec(__string) !== null",
-            "raw": "'__re.test(1.01) must return __re.exec(__string) !== null'"
+            "value": "__re.test(1.01) must return __re.exec(__string) !== null"
           }
         ],
         "optional": false

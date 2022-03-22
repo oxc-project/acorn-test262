@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 552,
-                "value": "Shoes",
-                "raw": "'Shoes'"
+                "value": "Shoes"
               },
               {
                 "type": "Literal",
                 "start": 554,
                 "end": 559,
-                "value": "Car",
-                "raw": "'Car'"
+                "value": "Car"
               },
               {
                 "type": "Literal",
                 "start": 561,
                 "end": 567,
-                "value": "Bike",
-                "raw": "'Bike'"
+                "value": "Bike"
               }
             ]
           }
@@ -69,8 +66,7 @@
             "type": "Literal",
             "start": 583,
             "end": 584,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -207,8 +203,7 @@
             "type": "Literal",
             "start": 683,
             "end": 689,
-            "value": "Bike",
-            "raw": "'Bike'"
+            "value": "Bike"
           }
         ],
         "optional": false
@@ -252,15 +247,13 @@
             "type": "Literal",
             "start": 717,
             "end": 718,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 720,
             "end": 747,
-            "value": "predicate was called once",
-            "raw": "'predicate was called once'"
+            "value": "predicate was called once"
           }
         ],
         "optional": false
@@ -285,8 +278,7 @@
           "type": "Literal",
           "start": 760,
           "end": 761,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -387,8 +379,7 @@
                         "type": "Literal",
                         "start": 830,
                         "end": 837,
-                        "value": "Shoes",
-                        "raw": "'Shoes'"
+                        "value": "Shoes"
                       }
                     }
                   }
@@ -438,15 +429,13 @@
             "type": "Literal",
             "start": 869,
             "end": 870,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 872,
             "end": 906,
-            "value": "predicate was called three times",
-            "raw": "'predicate was called three times'"
+            "value": "predicate was called three times"
           }
         ],
         "optional": false
@@ -490,8 +479,7 @@
             "type": "Literal",
             "start": 934,
             "end": 941,
-            "value": "Shoes",
-            "raw": "'Shoes'"
+            "value": "Shoes"
           }
         ],
         "optional": false
@@ -558,8 +546,7 @@
                       "type": "Literal",
                       "start": 989,
                       "end": 997,
-                      "value": "string",
-                      "raw": "'string'"
+                      "value": "string"
                     }
                   }
                 ]
@@ -608,15 +595,13 @@
             "type": "Literal",
             "start": 1028,
             "end": 1034,
-            "value": "Bike",
-            "raw": "'Bike'"
+            "value": "Bike"
           },
           {
             "type": "Literal",
             "start": 1036,
             "end": 1052,
-            "value": "coerced string",
-            "raw": "'coerced string'"
+            "value": "coerced string"
           }
         ],
         "optional": false
@@ -732,15 +717,13 @@
             "type": "Literal",
             "start": 1133,
             "end": 1139,
-            "value": "Bike",
-            "raw": "'Bike'"
+            "value": "Bike"
           },
           {
             "type": "Literal",
             "start": 1141,
             "end": 1157,
-            "value": "coerced object",
-            "raw": "'coerced object'"
+            "value": "coerced object"
           }
         ],
         "optional": false
@@ -818,8 +801,7 @@
                           "type": "Literal",
                           "start": 1212,
                           "end": 1214,
-                          "value": "",
-                          "raw": "''"
+                          "value": ""
                         }
                       ],
                       "optional": false
@@ -871,15 +853,13 @@
             "type": "Literal",
             "start": 1246,
             "end": 1252,
-            "value": "Bike",
-            "raw": "'Bike'"
+            "value": "Bike"
           },
           {
             "type": "Literal",
             "start": 1254,
             "end": 1270,
-            "value": "coerced Symbol",
-            "raw": "'coerced Symbol'"
+            "value": "coerced Symbol"
           }
         ],
         "optional": false
@@ -946,8 +926,7 @@
                       "type": "Literal",
                       "start": 1318,
                       "end": 1319,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -996,15 +975,13 @@
             "type": "Literal",
             "start": 1350,
             "end": 1356,
-            "value": "Bike",
-            "raw": "'Bike'"
+            "value": "Bike"
           },
           {
             "type": "Literal",
             "start": 1358,
             "end": 1374,
-            "value": "coerced number",
-            "raw": "'coerced number'"
+            "value": "coerced number"
           }
         ],
         "optional": false
@@ -1077,8 +1054,7 @@
                         "type": "Literal",
                         "start": 1423,
                         "end": 1424,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -1128,15 +1104,13 @@
             "type": "Literal",
             "start": 1455,
             "end": 1461,
-            "value": "Bike",
-            "raw": "'Bike'"
+            "value": "Bike"
           },
           {
             "type": "Literal",
             "start": 1463,
             "end": 1488,
-            "value": "coerced negative number",
-            "raw": "'coerced negative number'"
+            "value": "coerced negative number"
           }
         ],
         "optional": false

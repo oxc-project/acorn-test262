@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 572,
                 "end": 580,
-                "value": "İ",
-                "raw": "\"\\u0130\""
+                "value": "İ"
               },
               "property": {
                 "type": "Identifier",
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 599,
                 "end": 604,
-                "value": "und",
-                "raw": "\"und\""
+                "value": "und"
               }
             ],
             "optional": false
@@ -70,15 +68,13 @@
             "type": "Literal",
             "start": 607,
             "end": 621,
-            "value": "i̇",
-            "raw": "\"\\u0069\\u0307\""
+            "value": "i̇"
           },
           {
             "type": "Literal",
             "start": 623,
             "end": 662,
-            "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\""
+            "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE"
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 421,
                 "end": 422,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ]
           }
@@ -322,8 +321,7 @@
                                     "type": "Literal",
                                     "start": 754,
                                     "end": 827,
-                                    "value": "TypedArray of SharedArrayBuffer-backed TypedArray is ArrayBuffer-backed",
-                                    "raw": "\"TypedArray of SharedArrayBuffer-backed TypedArray is ArrayBuffer-backed\""
+                                    "value": "TypedArray of SharedArrayBuffer-backed TypedArray is ArrayBuffer-backed"
                                   }
                                 ],
                                 "optional": false

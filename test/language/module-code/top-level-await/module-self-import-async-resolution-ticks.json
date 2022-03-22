@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 2622,
             "end": 2646,
-            "value": "synchronous evaluation",
-            "raw": "'synchronous evaluation'"
+            "value": "synchronous evaluation"
           }
         }
       ],
@@ -101,8 +100,7 @@
                 "type": "Literal",
                 "start": 2682,
                 "end": 2712,
-                "value": "tick in the async evaluation",
-                "raw": "'tick in the async evaluation'"
+                "value": "tick in the async evaluation"
               }
             }
           }
@@ -131,8 +129,7 @@
         "type": "Literal",
         "start": 2733,
         "end": 2781,
-        "value": "./module-self-import-async-resolution-ticks.js",
-        "raw": "'./module-self-import-async-resolution-ticks.js'"
+        "value": "./module-self-import-async-resolution-ticks.js"
       }
     },
     {
@@ -173,8 +170,7 @@
             "type": "Literal",
             "start": 2804,
             "end": 2828,
-            "value": "synchronous evaluation",
-            "raw": "'synchronous evaluation'"
+            "value": "synchronous evaluation"
           }
         ],
         "optional": false
@@ -246,8 +242,7 @@
             "type": "Literal",
             "start": 2886,
             "end": 2915,
-            "value": "self is not initialized yet",
-            "raw": "'self is not initialized yet'"
+            "value": "self is not initialized yet"
           }
         ],
         "optional": false
@@ -289,8 +284,7 @@
               "type": "Literal",
               "start": 2956,
               "end": 2958,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           ],
           "optional": false
@@ -335,8 +329,7 @@
             "type": "Literal",
             "start": 2982,
             "end": 3012,
-            "value": "tick in the async evaluation",
-            "raw": "'tick in the async evaluation'"
+            "value": "tick in the async evaluation"
           }
         ],
         "optional": false
@@ -385,8 +378,7 @@
                 "type": "Literal",
                 "start": 3038,
                 "end": 3040,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ],
             "optional": false
@@ -395,8 +387,7 @@
             "type": "Literal",
             "start": 3043,
             "end": 3077,
-            "value": "self is initialized after export",
-            "raw": "'self is initialized after export'"
+            "value": "self is initialized after export"
           }
         ]
       }

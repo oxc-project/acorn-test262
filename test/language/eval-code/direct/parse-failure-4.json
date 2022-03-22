@@ -31,8 +31,7 @@
                   "type": "Literal",
                   "start": 344,
                   "end": 352,
-                  "value": "break;",
-                  "raw": "\"break;\""
+                  "value": "break;"
                 }
               ],
               "optional": false
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 380,
                     "end": 426,
-                    "value": "#1.1: break must throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: break must throw SyntaxError. Actual: '"
+                    "value": "#1.1: break must throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -84,8 +82,7 @@
                           "type": "Literal",
                           "start": 435,
                           "end": 443,
-                          "value": "break;",
-                          "raw": "\"break;\""
+                          "value": "break;"
                         }
                       ],
                       "optional": false
@@ -180,8 +177,7 @@
                             "type": "Literal",
                             "start": 533,
                             "end": 579,
-                            "value": "#1.2: break must throw SyntaxError. Actual: ",
-                            "raw": "'#1.2: break must throw SyntaxError. Actual: '"
+                            "value": "#1.2: break must throw SyntaxError. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -240,8 +236,7 @@
                     "type": "Literal",
                     "start": 628,
                     "end": 629,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],
@@ -262,8 +257,7 @@
                 "type": "Literal",
                 "start": 636,
                 "end": 637,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "update": {
@@ -307,8 +301,7 @@
                           "type": "Literal",
                           "start": 663,
                           "end": 664,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ],
@@ -329,8 +322,7 @@
                       "type": "Literal",
                       "start": 671,
                       "end": 672,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   },
                   "update": {
@@ -370,8 +362,7 @@
                               "type": "Literal",
                               "start": 693,
                               "end": 701,
-                              "value": "break;",
-                              "raw": "\"break;\""
+                              "value": "break;"
                             }
                           ],
                           "optional": false
@@ -406,8 +397,7 @@
                     "type": "Literal",
                     "start": 739,
                     "end": 785,
-                    "value": "#2.1: break must throw SyntaxError. Actual: ",
-                    "raw": "'#2.1: break must throw SyntaxError. Actual: '"
+                    "value": "#2.1: break must throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -429,8 +419,7 @@
                           "type": "Literal",
                           "start": 794,
                           "end": 802,
-                          "value": "break;",
-                          "raw": "\"break;\""
+                          "value": "break;"
                         }
                       ],
                       "optional": false
@@ -525,8 +514,7 @@
                             "type": "Literal",
                             "start": 899,
                             "end": 945,
-                            "value": "#2.2: break must throw SyntaxError. Actual: ",
-                            "raw": "'#2.2: break must throw SyntaxError. Actual: '"
+                            "value": "#2.2: break must throw SyntaxError. Actual: "
                           },
                           "operator": "+",
                           "right": {

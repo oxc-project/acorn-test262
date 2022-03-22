@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 252,
             "end": 262,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 264,
             "end": 298,
-            "value": "typeof SyntaxError is \"function\"",
-            "raw": "'typeof SyntaxError is \"function\"'"
+            "value": "typeof SyntaxError is \"function\""
           }
         ],
         "optional": false

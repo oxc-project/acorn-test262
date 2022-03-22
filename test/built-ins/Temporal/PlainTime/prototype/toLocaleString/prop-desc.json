@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 395,
             "end": 405,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 409,
             "end": 468,
-            "value": "`typeof PlainTime.prototype.toLocaleString` is `function`",
-            "raw": "\"`typeof PlainTime.prototype.toLocaleString` is `function`\""
+            "value": "`typeof PlainTime.prototype.toLocaleString` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 518,
             "end": 534,
-            "value": "toLocaleString",
-            "raw": "\"toLocaleString\""
+            "value": "toLocaleString"
           },
           {
             "type": "ObjectExpression",

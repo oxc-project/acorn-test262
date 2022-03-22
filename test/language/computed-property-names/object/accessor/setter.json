@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 359,
             "end": 360,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -60,8 +59,7 @@
                   "type": "Literal",
                   "start": 379,
                   "end": 382,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "set",
                 "value": {
@@ -145,8 +143,7 @@
           "type": "Literal",
           "start": 415,
           "end": 418,
-          "value": "A",
-          "raw": "'A'"
+          "value": "A"
         }
       }
     },
@@ -188,15 +185,13 @@
             "type": "Literal",
             "start": 444,
             "end": 445,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 506,
-            "value": "The value of `calls` is `1`, after executing `A.a = 'A';`",
-            "raw": "\"The value of `calls` is `1`, after executing `A.a = 'A';`\""
+            "value": "The value of `calls` is `1`, after executing `A.a = 'A';`"
           }
         ],
         "optional": false

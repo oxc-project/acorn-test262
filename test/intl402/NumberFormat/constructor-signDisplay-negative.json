@@ -70,8 +70,7 @@
                       "type": "Literal",
                       "start": 649,
                       "end": 659,
-                      "value": "negative",
-                      "raw": "'negative'"
+                      "value": "negative"
                     },
                     "kind": "init"
                   }
@@ -153,8 +152,7 @@
             "type": "Literal",
             "start": 744,
             "end": 757,
-            "value": "signDisplay",
-            "raw": "'signDisplay'"
+            "value": "signDisplay"
           },
           {
             "type": "ObjectExpression",
@@ -178,8 +176,7 @@
                   "type": "Literal",
                   "start": 770,
                   "end": 780,
-                  "value": "negative",
-                  "raw": "'negative'"
+                  "value": "negative"
                 },
                 "kind": "init"
               },

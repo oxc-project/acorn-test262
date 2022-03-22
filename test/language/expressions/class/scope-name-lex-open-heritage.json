@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 872,
             "end": 881,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         }
       ],
@@ -337,8 +336,7 @@
             "type": "Literal",
             "start": 1074,
             "end": 1083,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         ],
         "optional": false
@@ -395,8 +393,7 @@
             "type": "Literal",
             "start": 1125,
             "end": 1146,
-            "value": "from class heritage",
-            "raw": "'from class heritage'"
+            "value": "from class heritage"
           }
         ],
         "optional": false
@@ -446,8 +443,7 @@
             "type": "Literal",
             "start": 1187,
             "end": 1223,
-            "value": "inner binding rejects modification",
-            "raw": "'inner binding rejects modification'"
+            "value": "inner binding rejects modification"
           }
         ],
         "optional": false
@@ -504,8 +500,7 @@
             "type": "Literal",
             "start": 1265,
             "end": 1293,
-            "value": "inner binding is immutable",
-            "raw": "'inner binding is immutable'"
+            "value": "inner binding is immutable"
           }
         ],
         "optional": false
@@ -588,8 +583,7 @@
             "type": "Literal",
             "start": 1342,
             "end": 1364,
-            "value": "from instance method",
-            "raw": "'from instance method'"
+            "value": "from instance method"
           }
         ],
         "optional": false

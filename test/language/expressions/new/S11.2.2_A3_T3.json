@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 331,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "arguments": []
             }
@@ -49,8 +48,7 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 387,
-                  "value": "#1: new \"1\" throw TypeError",
-                  "raw": "'#1: new \"1\" throw TypeError'"
+                  "value": "#1: new \"1\" throw TypeError"
                 }
               ]
             }
@@ -136,8 +134,7 @@
                           "type": "Literal",
                           "start": 475,
                           "end": 504,
-                          "value": "#1: new \"1\" throw TypeError",
-                          "raw": "'#1: new \"1\" throw TypeError'"
+                          "value": "#1: new \"1\" throw TypeError"
                         }
                       ]
                     }
@@ -179,8 +176,7 @@
                   "type": "Literal",
                   "start": 541,
                   "end": 544,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 }
               }
             ],
@@ -222,8 +218,7 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 620,
-                  "value": "#2: var x = \"1\"; new x throw TypeError",
-                  "raw": "'#2: var x = \"1\"; new x throw TypeError'"
+                  "value": "#2: var x = \"1\"; new x throw TypeError"
                 }
               ]
             }
@@ -309,8 +304,7 @@
                           "type": "Literal",
                           "start": 708,
                           "end": 748,
-                          "value": "#2: var x = \"1\"; new x throw TypeError",
-                          "raw": "'#2: var x = \"1\"; new x throw TypeError'"
+                          "value": "#2: var x = \"1\"; new x throw TypeError"
                         }
                       ]
                     }
@@ -352,8 +346,7 @@
                   "type": "Literal",
                   "start": 785,
                   "end": 788,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 }
               }
             ],
@@ -395,8 +388,7 @@
                   "type": "Literal",
                   "start": 826,
                   "end": 868,
-                  "value": "#3: var x = \"1\"; new x() throw TypeError",
-                  "raw": "'#3: var x = \"1\"; new x() throw TypeError'"
+                  "value": "#3: var x = \"1\"; new x() throw TypeError"
                 }
               ]
             }
@@ -482,8 +474,7 @@
                           "type": "Literal",
                           "start": 956,
                           "end": 998,
-                          "value": "#3: var x = \"1\"; new x() throw TypeError",
-                          "raw": "'#3: var x = \"1\"; new x() throw TypeError'"
+                          "value": "#3: var x = \"1\"; new x() throw TypeError"
                         }
                       ]
                     }

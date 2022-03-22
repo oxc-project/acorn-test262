@@ -82,8 +82,7 @@
                           "type": "Literal",
                           "start": 331,
                           "end": 340,
-                          "value": "iso8601",
-                          "raw": "'iso8601'"
+                          "value": "iso8601"
                         }
                       ],
                       "optional": false
@@ -128,8 +127,7 @@
                       "type": "Literal",
                       "start": 376,
                       "end": 396,
-                      "value": "I am a secret cal.",
-                      "raw": "\"I am a secret cal.\""
+                      "value": "I am a secret cal."
                     }
                   }
                 ]
@@ -182,15 +180,13 @@
                 "type": "Literal",
                 "start": 445,
                 "end": 449,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 451,
                 "end": 452,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -241,15 +237,13 @@
                 "type": "Literal",
                 "start": 495,
                 "end": 499,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 501,
                 "end": 502,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "NewExpression",
@@ -350,8 +344,7 @@
             "type": "Literal",
             "start": 571,
             "end": 610,
-            "value": "since throws with different calendars",
-            "raw": "'since throws with different calendars'"
+            "value": "since throws with different calendars"
           }
         ],
         "optional": false

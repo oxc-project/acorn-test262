@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 502,
             "end": 512,
-            "value": "DataView",
-            "raw": "\"DataView\""
+            "value": "DataView"
           }
         ],
         "optional": false

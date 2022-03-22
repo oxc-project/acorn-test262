@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 770,
             "end": 818,
-            "value": "isConstructor(TypedArray.of) must return false",
-            "raw": "'isConstructor(TypedArray.of) must return false'"
+            "value": "isConstructor(TypedArray.of) must return false"
           }
         ],
         "optional": false
@@ -162,29 +161,25 @@
                         "type": "Literal",
                         "start": 875,
                         "end": 876,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 878,
                         "end": 879,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 881,
                         "end": 882,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       {
                         "type": "Literal",
                         "start": 884,
                         "end": 885,
-                        "value": 4,
-                        "raw": "4"
+                        "value": 4
                       }
                     ]
                   }
@@ -196,8 +191,7 @@
             "type": "Literal",
             "start": 891,
             "end": 941,
-            "value": "`new TypedArray.of(1, 2, 3, 4)` throws TypeError",
-            "raw": "'`new TypedArray.of(1, 2, 3, 4)` throws TypeError'"
+            "value": "`new TypedArray.of(1, 2, 3, 4)` throws TypeError"
           }
         ],
         "optional": false

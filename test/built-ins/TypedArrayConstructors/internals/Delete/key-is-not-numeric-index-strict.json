@@ -84,8 +84,7 @@
                       "type": "Literal",
                       "start": 915,
                       "end": 920,
-                      "value": "baz",
-                      "raw": "\"baz\""
+                      "value": "baz"
                     }
                   }
                 },
@@ -119,8 +118,7 @@
                             "type": "Literal",
                             "start": 944,
                             "end": 945,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -193,8 +191,7 @@
                         "type": "Literal",
                         "start": 1002,
                         "end": 1044,
-                        "value": "The value of `delete sample.foo` is true",
-                        "raw": "'The value of `delete sample.foo` is true'"
+                        "value": "The value of `delete sample.foo` is true"
                       }
                     ],
                     "optional": false
@@ -232,8 +229,7 @@
                       "type": "Literal",
                       "start": 1066,
                       "end": 1071,
-                      "value": "foo",
-                      "raw": "\"foo\""
+                      "value": "foo"
                     }
                   }
                 },
@@ -302,8 +298,7 @@
                         "type": "Literal",
                         "start": 1117,
                         "end": 1159,
-                        "value": "The value of `delete sample.foo` is true",
-                        "raw": "'The value of `delete sample.foo` is true'"
+                        "value": "The value of `delete sample.foo` is true"
                       }
                     ],
                     "optional": false
@@ -347,8 +342,7 @@
                         "type": "Literal",
                         "start": 1195,
                         "end": 1200,
-                        "value": "bar",
-                        "raw": "\"bar\""
+                        "value": "bar"
                       },
                       {
                         "type": "ObjectExpression",
@@ -391,8 +385,7 @@
                                       "type": "Literal",
                                       "start": 1223,
                                       "end": 1228,
-                                      "value": "bar",
-                                      "raw": "\"bar\""
+                                      "value": "bar"
                                     }
                                   }
                                 ]
@@ -491,8 +484,7 @@
                         "type": "Literal",
                         "start": 1302,
                         "end": 1340,
-                        "value": "`delete sample.bar` throws TypeError",
-                        "raw": "'`delete sample.bar` throws TypeError'"
+                        "value": "`delete sample.bar` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -563,8 +555,7 @@
                         "type": "Literal",
                         "start": 1388,
                         "end": 1430,
-                        "value": "The value of `delete sample.baz` is true",
-                        "raw": "'The value of `delete sample.baz` is true'"
+                        "value": "The value of `delete sample.baz` is true"
                       }
                     ],
                     "optional": false

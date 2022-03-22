@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 551,
                 "end": 560,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -76,50 +75,43 @@
                 "type": "Literal",
                 "start": 565,
                 "end": 574,
-                "value": "invalid",
-                "raw": "\"invalid\""
+                "value": "invalid"
               },
               {
                 "type": "Literal",
                 "start": 576,
                 "end": 582,
-                "value": "hour",
-                "raw": "\"hour\""
+                "value": "hour"
               },
               {
                 "type": "Literal",
                 "start": 584,
                 "end": 592,
-                "value": "minute",
-                "raw": "\"minute\""
+                "value": "minute"
               },
               {
                 "type": "Literal",
                 "start": 594,
                 "end": 602,
-                "value": "second",
-                "raw": "\"second\""
+                "value": "second"
               },
               {
                 "type": "Literal",
                 "start": 604,
                 "end": 617,
-                "value": "millisecond",
-                "raw": "\"millisecond\""
+                "value": "millisecond"
               },
               {
                 "type": "Literal",
                 "start": 619,
                 "end": 632,
-                "value": "microsecond",
-                "raw": "\"microsecond\""
+                "value": "microsecond"
               },
               {
                 "type": "Literal",
                 "start": 638,
                 "end": 650,
-                "value": "nanosecond",
-                "raw": "\"nanosecond\""
+                "value": "nanosecond"
               }
             ]
           },
@@ -225,15 +217,13 @@
                               "type": "Literal",
                               "start": 732,
                               "end": 744,
-                              "value": "2021-07-16",
-                              "raw": "\"2021-07-16\""
+                              "value": "2021-07-16"
                             },
                             {
                               "type": "Literal",
                               "start": 746,
                               "end": 758,
-                              "value": "2022-03-04",
-                              "raw": "\"2022-03-04\""
+                              "value": "2022-03-04"
                             },
                             {
                               "type": "ObjectExpression",
@@ -271,8 +261,7 @@
                         "type": "Literal",
                         "start": 782,
                         "end": 870,
-                        "value": "cal.dateUntil(\"2021-07-16\", \"2022-03-04\", {largestUnit}) throws a RangeError exception",
-                        "raw": "'cal.dateUntil(\"2021-07-16\", \"2022-03-04\", {largestUnit}) throws a RangeError exception'"
+                        "value": "cal.dateUntil(\"2021-07-16\", \"2022-03-04\", {largestUnit}) throws a RangeError exception"
                       }
                     ],
                     "optional": false

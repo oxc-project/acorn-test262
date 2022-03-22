@@ -23,7 +23,6 @@
             "start": 684,
             "end": 692,
             "value": {},
-            "raw": "/abcd/ig",
             "regex": {
               "pattern": "abcd",
               "flags": "ig"
@@ -113,15 +112,13 @@
                         "type": "Literal",
                         "start": 753,
                         "end": 755,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       {
                         "type": "Literal",
                         "start": 757,
                         "end": 762,
-                        "value": "igi",
-                        "raw": "'igi'"
+                        "value": "igi"
                       }
                     ],
                     "optional": false
@@ -134,8 +131,7 @@
             "type": "Literal",
             "start": 768,
             "end": 788,
-            "value": "invalid flags: igi",
-            "raw": "'invalid flags: igi'"
+            "value": "invalid flags: igi"
           }
         ],
         "optional": false
@@ -221,15 +217,13 @@
                         "type": "Literal",
                         "start": 850,
                         "end": 852,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       {
                         "type": "Literal",
                         "start": 854,
                         "end": 858,
-                        "value": "gI",
-                        "raw": "'gI'"
+                        "value": "gI"
                       }
                     ],
                     "optional": false
@@ -242,8 +236,7 @@
             "type": "Literal",
             "start": 864,
             "end": 883,
-            "value": "invalid flags: gI",
-            "raw": "'invalid flags: gI'"
+            "value": "invalid flags: gI"
           }
         ],
         "optional": false
@@ -329,15 +322,13 @@
                         "type": "Literal",
                         "start": 945,
                         "end": 947,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       {
                         "type": "Literal",
                         "start": 949,
                         "end": 952,
-                        "value": "w",
-                        "raw": "'w'"
+                        "value": "w"
                       }
                     ],
                     "optional": false
@@ -350,8 +341,7 @@
             "type": "Literal",
             "start": 958,
             "end": 976,
-            "value": "invalid flags: w",
-            "raw": "'invalid flags: w'"
+            "value": "invalid flags: w"
           }
         ],
         "optional": false
@@ -434,15 +424,13 @@
                     "type": "Literal",
                     "start": 1033,
                     "end": 1039,
-                    "value": "abcd",
-                    "raw": "'abcd'"
+                    "value": "abcd"
                   },
                   {
                     "type": "Literal",
                     "start": 1041,
                     "end": 1045,
-                    "value": "ig",
-                    "raw": "'ig'"
+                    "value": "ig"
                   }
                 ]
               },
@@ -462,8 +450,7 @@
             "type": "Literal",
             "start": 1061,
             "end": 1095,
-            "value": "[[OriginalSource]] internal slot",
-            "raw": "'[[OriginalSource]] internal slot'"
+            "value": "[[OriginalSource]] internal slot"
           }
         ],
         "optional": false
@@ -525,8 +512,7 @@
                 "type": "Literal",
                 "start": 1133,
                 "end": 1139,
-                "value": "AbCD",
-                "raw": "'AbCD'"
+                "value": "AbCD"
               }
             ],
             "optional": false
@@ -542,8 +528,7 @@
             "type": "Literal",
             "start": 1148,
             "end": 1181,
-            "value": "[[RegExpMatcher]] internal slot",
-            "raw": "'[[RegExpMatcher]] internal slot'"
+            "value": "[[RegExpMatcher]] internal slot"
           }
         ],
         "optional": false

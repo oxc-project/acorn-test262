@@ -121,8 +121,7 @@
             "type": "Literal",
             "start": 342,
             "end": 345,
-            "value": "e",
-            "raw": "'e'"
+            "value": "e"
           }
         ],
         "optional": false

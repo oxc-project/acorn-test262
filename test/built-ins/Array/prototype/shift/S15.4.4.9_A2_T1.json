@@ -153,8 +153,7 @@
                     "type": "Literal",
                     "start": 551,
                     "end": 605,
-                    "value": "#0: var obj = {}; obj.length === undefined. Actual: ",
-                    "raw": "'#0: var obj = {}; obj.length === undefined. Actual: '"
+                    "value": "#0: var obj = {}; obj.length === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -287,8 +286,7 @@
                           "type": "Literal",
                           "start": 715,
                           "end": 805,
-                          "value": "#1: var obj = {}; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: ",
-                          "raw": "'#1: var obj = {}; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: '"
+                          "value": "#1: var obj = {}; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -342,8 +340,7 @@
                 "type": "Literal",
                 "start": 843,
                 "end": 844,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             },
             "consequent": {
@@ -374,8 +371,7 @@
                           "type": "Literal",
                           "start": 875,
                           "end": 969,
-                          "value": "#2: var obj = {}; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: ",
-                          "raw": "'#2: var obj = {}; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: '"
+                          "value": "#2: var obj = {}; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -544,8 +540,7 @@
                     "type": "Literal",
                     "start": 1095,
                     "end": 1209,
-                    "value": "#3: var obj = {}; obj.length = undefined; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: ",
-                    "raw": "'#3: var obj = {}; obj.length = undefined; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: '"
+                    "value": "#3: var obj = {}; obj.length = undefined; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -599,8 +594,7 @@
           "type": "Literal",
           "start": 1244,
           "end": 1245,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -631,8 +625,7 @@
                     "type": "Literal",
                     "start": 1274,
                     "end": 1392,
-                    "value": "#4: var obj = {}; obj.length = undefined; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: ",
-                    "raw": "'#4: var obj = {}; obj.length = undefined; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: '"
+                    "value": "#4: var obj = {}; obj.length = undefined; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -799,8 +792,7 @@
                     "type": "Literal",
                     "start": 1508,
                     "end": 1617,
-                    "value": "#5: var obj = {}; obj.length = null; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: ",
-                    "raw": "'#5: var obj = {}; obj.length = null; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: '"
+                    "value": "#5: var obj = {}; obj.length = null; obj.shift = Array.prototype.shift; obj.shift() === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -854,8 +846,7 @@
           "type": "Literal",
           "start": 1652,
           "end": 1653,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -886,8 +877,7 @@
                     "type": "Literal",
                     "start": 1682,
                     "end": 1795,
-                    "value": "#6: var obj = {}; obj.length = null; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: ",
-                    "raw": "'#6: var obj = {}; obj.length = null; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: '"
+                    "value": "#6: var obj = {}; obj.length = null; obj.shift = Array.prototype.shift; obj.shift(); obj.length === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

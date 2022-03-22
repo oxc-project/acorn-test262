@@ -59,8 +59,7 @@
                   "type": "Literal",
                   "start": 313,
                   "end": 314,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Identifier",
@@ -81,15 +80,13 @@
                   "type": "Literal",
                   "start": 329,
                   "end": 330,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 332,
                   "end": 342,
-                  "value": 4294967297,
-                  "raw": "4294967297"
+                  "value": 4294967297
                 },
                 "kind": "init"
               },
@@ -110,8 +107,7 @@
                   "type": "Literal",
                   "start": 354,
                   "end": 364,
-                  "value": 4294967297,
-                  "raw": "4294967297"
+                  "value": 4294967297
                 },
                 "kind": "init"
               }
@@ -218,15 +214,13 @@
             "type": "Literal",
             "start": 432,
             "end": 433,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 481,
-            "value": "Array.prototype.indexOf.call(obj, targetObj)",
-            "raw": "'Array.prototype.indexOf.call(obj, targetObj)'"
+            "value": "Array.prototype.indexOf.call(obj, targetObj)"
           }
         ],
         "optional": false
@@ -320,8 +314,7 @@
                 "type": "Literal",
                 "start": 535,
                 "end": 545,
-                "value": 4294967297,
-                "raw": "4294967297"
+                "value": 4294967297
               }
             ],
             "optional": false
@@ -330,15 +323,13 @@
             "type": "Literal",
             "start": 548,
             "end": 549,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 551,
             "end": 598,
-            "value": "Array.prototype.indexOf.call(obj, 4294967297)",
-            "raw": "'Array.prototype.indexOf.call(obj, 4294967297)'"
+            "value": "Array.prototype.indexOf.call(obj, 4294967297)"
           }
         ],
         "optional": false

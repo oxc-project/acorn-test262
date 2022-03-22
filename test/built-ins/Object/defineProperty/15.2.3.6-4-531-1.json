@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 460,
           "end": 466,
-          "value": "data",
-          "raw": "\"data\""
+          "value": "data"
         }
       }
     },
@@ -103,8 +102,7 @@
             "type": "Literal",
             "start": 495,
             "end": 505,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "ObjectExpression",
@@ -302,8 +300,7 @@
           "type": "Literal",
           "start": 684,
           "end": 691,
-          "value": "data1",
-          "raw": "\"data1\""
+          "value": "data1"
         }
       }
     },
@@ -484,8 +481,7 @@
             "type": "Literal",
             "start": 853,
             "end": 863,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "ObjectExpression",
@@ -565,8 +561,7 @@
             "type": "Literal",
             "start": 922,
             "end": 932,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "CallExpression",
@@ -610,15 +605,13 @@
             "type": "Literal",
             "start": 967,
             "end": 977,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Literal",
             "start": 979,
             "end": 999,
-            "value": "verifySetFunction1",
-            "raw": "\"verifySetFunction1\""
+            "value": "verifySetFunction1"
           }
         ],
         "optional": false
@@ -649,8 +642,7 @@
             "type": "Literal",
             "start": 1028,
             "end": 1038,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false
@@ -681,8 +673,7 @@
             "type": "Literal",
             "start": 1066,
             "end": 1076,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false

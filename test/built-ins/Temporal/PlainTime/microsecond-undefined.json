@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 297,
                 "end": 299,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 301,
                 "end": 303,
-                "value": 34,
-                "raw": "34"
+                "value": 34
               },
               {
                 "type": "Literal",
                 "start": 305,
                 "end": 307,
-                "value": 56,
-                "raw": "56"
+                "value": 56
               },
               {
                 "type": "Literal",
                 "start": 309,
                 "end": 312,
-                "value": 123,
-                "raw": "123"
+                "value": 123
               }
             ]
           }
@@ -168,22 +164,19 @@
             "type": "Literal",
             "start": 428,
             "end": 429,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 431,
             "end": 432,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 434,
             "end": 444,
-            "value": "explicit",
-            "raw": "\"explicit\""
+            "value": "explicit"
           }
         ],
         "optional": false
@@ -294,22 +287,19 @@
             "type": "Literal",
             "start": 549,
             "end": 550,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 552,
             "end": 553,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 555,
             "end": 565,
-            "value": "implicit",
-            "raw": "\"implicit\""
+            "value": "implicit"
           }
         ],
         "optional": false

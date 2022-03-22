@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 426,
             "end": 430,
-            "value": "d+",
-            "raw": "\"d+\""
+            "value": "d+"
           }
         }
       ],
@@ -65,8 +64,7 @@
                 "type": "Literal",
                 "start": 462,
                 "end": 465,
-                "value": "i",
-                "raw": "\"i\""
+                "value": "i"
               }
             ],
             "optional": false
@@ -132,8 +130,7 @@
             "type": "Literal",
             "start": 525,
             "end": 603,
-            "value": "The value of __instance.constructor is expected to equal the value of RegExp",
-            "raw": "'The value of __instance.constructor is expected to equal the value of RegExp'"
+            "value": "The value of __instance.constructor is expected to equal the value of RegExp"
           }
         ],
         "optional": false
@@ -196,8 +193,7 @@
             "type": "Literal",
             "start": 650,
             "end": 721,
-            "value": "The value of __instance.source is expected to equal the value of __re",
-            "raw": "'The value of __instance.source is expected to equal the value of __re'"
+            "value": "The value of __instance.source is expected to equal the value of __re"
           }
         ],
         "optional": false

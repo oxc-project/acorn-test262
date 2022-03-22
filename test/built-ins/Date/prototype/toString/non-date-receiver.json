@@ -294,8 +294,7 @@
                   "type": "Literal",
                   "start": 539,
                   "end": 540,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               ],
               "optional": false
@@ -509,8 +508,7 @@
                   "type": "Literal",
                   "start": 672,
                   "end": 713,
-                  "value": "Tue Mar 21 2017 12:16:43 GMT-0400 (EDT)",
-                  "raw": "\"Tue Mar 21 2017 12:16:43 GMT-0400 (EDT)\""
+                  "value": "Tue Mar 21 2017 12:16:43 GMT-0400 (EDT)"
                 }
               ],
               "optional": false
@@ -617,8 +615,7 @@
                   "type": "Literal",
                   "start": 779,
                   "end": 792,
-                  "value": 1490113011493,
-                  "raw": "1490113011493"
+                  "value": 1490113011493
                 }
               ],
               "optional": false

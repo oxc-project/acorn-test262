@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 658,
             "end": 668,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -119,8 +118,7 @@
             "type": "Literal",
             "start": 719,
             "end": 731,
-            "value": "unregister",
-            "raw": "'unregister'"
+            "value": "unregister"
           },
           {
             "type": "ObjectExpression",

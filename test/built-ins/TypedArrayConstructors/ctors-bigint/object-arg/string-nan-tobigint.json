@@ -111,8 +111,7 @@
                                         "type": "Literal",
                                         "start": 2331,
                                         "end": 2356,
-                                        "value": "definately not a number",
-                                        "raw": "\"definately not a number\""
+                                        "value": "definately not a number"
                                       }
                                     ]
                                   }
@@ -126,8 +125,7 @@
                         "type": "Literal",
                         "start": 2365,
                         "end": 2394,
-                        "value": "StringToBigInt(prim) == NaN",
-                        "raw": "\"StringToBigInt(prim) == NaN\""
+                        "value": "StringToBigInt(prim) == NaN"
                       }
                     ],
                     "optional": false

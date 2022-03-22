@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 315,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,22 +97,19 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 358,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 360,
                 "end": 361,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 364,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -140,8 +136,7 @@
             "type": "Literal",
             "start": 379,
             "end": 394,
-            "value": "-000000-03-14",
-            "raw": "\"-000000-03-14\""
+            "value": "-000000-03-14"
           }
         }
       ],
@@ -234,8 +229,7 @@
             "type": "Literal",
             "start": 467,
             "end": 524,
-            "value": "cannot use minus zero as extended date (first argument)",
-            "raw": "\"cannot use minus zero as extended date (first argument)\""
+            "value": "cannot use minus zero as extended date (first argument)"
           }
         ],
         "optional": false
@@ -328,8 +322,7 @@
             "type": "Literal",
             "start": 599,
             "end": 657,
-            "value": "cannot use minus zero as extended date (second argument)",
-            "raw": "\"cannot use minus zero as extended date (second argument)\""
+            "value": "cannot use minus zero as extended date (second argument)"
           }
         ],
         "optional": false

@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 492,
             "end": 502,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 506,
             "end": 560,
-            "value": "This test must fail if ShadowRealm is not a function",
-            "raw": "'This test must fail if ShadowRealm is not a function'"
+            "value": "This test must fail if ShadowRealm is not a function"
           }
         ],
         "optional": false
@@ -214,8 +212,7 @@
             "type": "Literal",
             "start": 712,
             "end": 761,
-            "value": "[[Prototype]] is set to %ShadowRealm.prototype%",
-            "raw": "'[[Prototype]] is set to %ShadowRealm.prototype%'"
+            "value": "[[Prototype]] is set to %ShadowRealm.prototype%"
           }
         ],
         "optional": false
@@ -296,8 +293,7 @@
             "type": "Literal",
             "start": 841,
             "end": 869,
-            "value": "each instance is different",
-            "raw": "'each instance is different'"
+            "value": "each instance is different"
           }
         ],
         "optional": false

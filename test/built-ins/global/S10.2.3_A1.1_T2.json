@@ -50,8 +50,7 @@
                   "type": "Literal",
                   "start": 396,
                   "end": 415,
-                  "value": "#4: eval === null",
-                  "raw": "\"#4: eval === null\""
+                  "value": "#4: eval === null"
                 }
               ]
             }
@@ -107,8 +106,7 @@
                   "type": "Literal",
                   "start": 481,
                   "end": 504,
-                  "value": "#5: parseInt === null",
-                  "raw": "\"#5: parseInt === null\""
+                  "value": "#5: parseInt === null"
                 }
               ]
             }
@@ -164,8 +162,7 @@
                   "type": "Literal",
                   "start": 572,
                   "end": 597,
-                  "value": "#6: parseFloat === null",
-                  "raw": "\"#6: parseFloat === null\""
+                  "value": "#6: parseFloat === null"
                 }
               ]
             }
@@ -221,8 +218,7 @@
                   "type": "Literal",
                   "start": 660,
                   "end": 680,
-                  "value": "#7: isNaN === null",
-                  "raw": "\"#7: isNaN === null\""
+                  "value": "#7: isNaN === null"
                 }
               ]
             }
@@ -278,8 +274,7 @@
                   "type": "Literal",
                   "start": 746,
                   "end": 769,
-                  "value": "#8: isFinite === null",
-                  "raw": "\"#8: isFinite === null\""
+                  "value": "#8: isFinite === null"
                 }
               ]
             }
@@ -335,8 +330,7 @@
                   "type": "Literal",
                   "start": 836,
                   "end": 860,
-                  "value": "#9: decodeURI === null",
-                  "raw": "\"#9: decodeURI === null\""
+                  "value": "#9: decodeURI === null"
                 }
               ]
             }
@@ -392,8 +386,7 @@
                   "type": "Literal",
                   "start": 937,
                   "end": 971,
-                  "value": "#10: decodeURIComponent === null",
-                  "raw": "\"#10: decodeURIComponent === null\""
+                  "value": "#10: decodeURIComponent === null"
                 }
               ]
             }
@@ -449,8 +442,7 @@
                   "type": "Literal",
                   "start": 1039,
                   "end": 1064,
-                  "value": "#11: encodeURI === null",
-                  "raw": "\"#11: encodeURI === null\""
+                  "value": "#11: encodeURI === null"
                 }
               ]
             }
@@ -506,8 +498,7 @@
                   "type": "Literal",
                   "start": 1141,
                   "end": 1175,
-                  "value": "#12: encodeURIComponent === null",
-                  "raw": "\"#12: encodeURIComponent === null\""
+                  "value": "#12: encodeURIComponent === null"
                 }
               ]
             }

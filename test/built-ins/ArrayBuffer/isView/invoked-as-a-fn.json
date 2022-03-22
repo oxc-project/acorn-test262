@@ -167,8 +167,7 @@
                         "type": "Literal",
                         "start": 630,
                         "end": 654,
-                        "value": "instance of TypedArray",
-                        "raw": "\"instance of TypedArray\""
+                        "value": "instance of TypedArray"
                       }
                     ],
                     "optional": false
@@ -222,8 +221,7 @@
                     "type": "Literal",
                     "start": 700,
                     "end": 701,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               },
@@ -231,15 +229,13 @@
                 "type": "Literal",
                 "start": 704,
                 "end": 705,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 707,
                 "end": 708,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -306,8 +302,7 @@
             "type": "Literal",
             "start": 746,
             "end": 768,
-            "value": "instance of DataView",
-            "raw": "\"instance of DataView\""
+            "value": "instance of DataView"
           }
         ],
         "optional": false
@@ -365,8 +360,7 @@
             "type": "Literal",
             "start": 806,
             "end": 821,
-            "value": "undefined arg",
-            "raw": "\"undefined arg\""
+            "value": "undefined arg"
           }
         ],
         "optional": false
@@ -431,8 +425,7 @@
             "type": "Literal",
             "start": 860,
             "end": 877,
-            "value": "ordinary object",
-            "raw": "\"ordinary object\""
+            "value": "ordinary object"
           }
         ],
         "optional": false

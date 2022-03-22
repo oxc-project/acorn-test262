@@ -48,8 +48,7 @@
           "type": "Literal",
           "start": 639,
           "end": 657,
-          "value": "number prototype",
-          "raw": "'number prototype'"
+          "value": "number prototype"
         }
       }
     },
@@ -89,8 +88,7 @@
               "type": "Literal",
               "start": 676,
               "end": 678,
-              "value": 1,
-              "raw": "1."
+              "value": 1
             },
             "property": {
               "type": "Identifier",
@@ -105,8 +103,7 @@
             "type": "Literal",
             "start": 688,
             "end": 706,
-            "value": "number prototype",
-            "raw": "'number prototype'"
+            "value": "number prototype"
           }
         ],
         "optional": false
@@ -157,8 +154,7 @@
           "type": "Literal",
           "start": 737,
           "end": 755,
-          "value": "string prototype",
-          "raw": "'string prototype'"
+          "value": "string prototype"
         }
       }
     },
@@ -198,8 +194,7 @@
               "type": "Literal",
               "start": 774,
               "end": 776,
-              "value": "",
-              "raw": "''"
+              "value": ""
             },
             "property": {
               "type": "Identifier",
@@ -214,8 +209,7 @@
             "type": "Literal",
             "start": 786,
             "end": 804,
-            "value": "string prototype",
-            "raw": "'string prototype'"
+            "value": "string prototype"
           }
         ],
         "optional": false
@@ -266,8 +260,7 @@
           "type": "Literal",
           "start": 836,
           "end": 855,
-          "value": "Boolean prototype",
-          "raw": "'Boolean prototype'"
+          "value": "Boolean prototype"
         }
       }
     },
@@ -323,8 +316,7 @@
             "type": "Literal",
             "start": 888,
             "end": 907,
-            "value": "Boolean prototype",
-            "raw": "'Boolean prototype'"
+            "value": "Boolean prototype"
           }
         ],
         "optional": false
@@ -375,8 +367,7 @@
           "type": "Literal",
           "start": 938,
           "end": 956,
-          "value": "Symbol prototype",
-          "raw": "'Symbol prototype'"
+          "value": "Symbol prototype"
         }
       }
     },
@@ -438,8 +429,7 @@
             "type": "Literal",
             "start": 993,
             "end": 1011,
-            "value": "Symbol prototype",
-            "raw": "'Symbol prototype'"
+            "value": "Symbol prototype"
           }
         ],
         "optional": false

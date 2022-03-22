@@ -83,8 +83,7 @@
                               "type": "Literal",
                               "start": 722,
                               "end": 735,
-                              "value": "unreachable",
-                              "raw": "\"unreachable\""
+                              "value": "unreachable"
                             }
                           ]
                         }
@@ -131,8 +130,7 @@
           "type": "Literal",
           "start": 765,
           "end": 789,
-          "value": "certainly not callable",
-          "raw": "\"certainly not callable\""
+          "value": "certainly not callable"
         }
       }
     },
@@ -232,8 +230,7 @@
                             "type": "Literal",
                             "start": 848,
                             "end": 901,
-                            "value": "The promise should be rejected, but it was resolved",
-                            "raw": "\"The promise should be rejected, but it was resolved\""
+                            "value": "The promise should be rejected, but it was resolved"
                           }
                         ]
                       }

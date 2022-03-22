@@ -74,15 +74,13 @@
                   "type": "Literal",
                   "start": 402,
                   "end": 406,
-                  "value": 1970,
-                  "raw": "1970"
+                  "value": 1970
                 },
                 {
                   "type": "Literal",
                   "start": 408,
                   "end": 409,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false

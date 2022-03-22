@@ -389,8 +389,7 @@
             "type": "Literal",
             "start": 1109,
             "end": 1119,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -517,8 +516,7 @@
             "type": "Literal",
             "start": 1213,
             "end": 1243,
-            "value": "inner binding is independent",
-            "raw": "'inner binding is independent'"
+            "value": "inner binding is independent"
           }
         ],
         "optional": false
@@ -568,8 +566,7 @@
             "type": "Literal",
             "start": 1287,
             "end": 1323,
-            "value": "inner binding rejects modification",
-            "raw": "'inner binding rejects modification'"
+            "value": "inner binding rejects modification"
           }
         ],
         "optional": false
@@ -627,15 +624,13 @@
             "type": "Literal",
             "start": 1371,
             "end": 1381,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1383,
             "end": 1411,
-            "value": "inner binding is immutable",
-            "raw": "'inner binding is immutable'"
+            "value": "inner binding is immutable"
           }
         ],
         "optional": false
@@ -719,15 +714,13 @@
             "type": "Literal",
             "start": 1466,
             "end": 1476,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1478,
             "end": 1500,
-            "value": "from instance method",
-            "raw": "'from instance method'"
+            "value": "from instance method"
           }
         ],
         "optional": false

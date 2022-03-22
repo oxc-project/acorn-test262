@@ -320,8 +320,7 @@
             "type": "Literal",
             "start": 1353,
             "end": 1387,
-            "value": "newTarget.prototype is undefined",
-            "raw": "'newTarget.prototype is undefined'"
+            "value": "newTarget.prototype is undefined"
           }
         ],
         "optional": false
@@ -523,8 +522,7 @@
             "type": "Literal",
             "start": 1544,
             "end": 1573,
-            "value": "newTarget.prototype is null",
-            "raw": "'newTarget.prototype is null'"
+            "value": "newTarget.prototype is null"
           }
         ],
         "optional": false
@@ -726,8 +724,7 @@
             "type": "Literal",
             "start": 1730,
             "end": 1764,
-            "value": "newTarget.prototype is a Boolean",
-            "raw": "'newTarget.prototype is a Boolean'"
+            "value": "newTarget.prototype is a Boolean"
           }
         ],
         "optional": false
@@ -765,8 +762,7 @@
           "type": "Literal",
           "start": 1790,
           "end": 1792,
-          "value": "",
-          "raw": "''"
+          "value": ""
         }
       }
     },
@@ -929,8 +925,7 @@
             "type": "Literal",
             "start": 1919,
             "end": 1952,
-            "value": "newTarget.prototype is a String",
-            "raw": "'newTarget.prototype is a String'"
+            "value": "newTarget.prototype is a String"
           }
         ],
         "optional": false
@@ -1138,8 +1133,7 @@
             "type": "Literal",
             "start": 2113,
             "end": 2146,
-            "value": "newTarget.prototype is a Symbol",
-            "raw": "'newTarget.prototype is a Symbol'"
+            "value": "newTarget.prototype is a Symbol"
           }
         ],
         "optional": false
@@ -1183,8 +1177,7 @@
             "type": "Literal",
             "start": 2173,
             "end": 2174,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       }
@@ -1348,8 +1341,7 @@
             "type": "Literal",
             "start": 2301,
             "end": 2334,
-            "value": "newTarget.prototype is a Number",
-            "raw": "'newTarget.prototype is a Number'"
+            "value": "newTarget.prototype is a Number"
           }
         ],
         "optional": false

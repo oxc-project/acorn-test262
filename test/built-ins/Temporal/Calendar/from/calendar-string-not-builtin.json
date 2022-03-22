@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 289,
                 "end": 296,
-                "value": "local",
-                "raw": "\"local\""
+                "value": "local"
               },
               {
                 "type": "Literal",
                 "start": 300,
                 "end": 310,
-                "value": "iso-8601",
-                "raw": "\"iso-8601\""
+                "value": "iso-8601"
               },
               {
                 "type": "Literal",
                 "start": 314,
                 "end": 330,
-                "value": "[u-ca=iso8601]",
-                "raw": "\"[u-ca=iso8601]\""
+                "value": "[u-ca=iso8601]"
               },
               {
                 "type": "Literal",
                 "start": 334,
                 "end": 352,
-                "value": "invalid-calendar",
-                "raw": "\"invalid-calendar\""
+                "value": "invalid-calendar"
               }
             ]
           }

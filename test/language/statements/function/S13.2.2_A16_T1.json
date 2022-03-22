@@ -29,8 +29,7 @@
           "type": "Literal",
           "start": 438,
           "end": 449,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 477,
                     "end": 539,
-                    "value": "#1: typeof __func === \"undefined\". Actual: typeof __func ===",
-                    "raw": "'#1: typeof __func === \"undefined\". Actual: typeof __func ==='"
+                    "value": "#1: typeof __func === \"undefined\". Actual: typeof __func ==="
                   },
                   "operator": "+",
                   "right": {
@@ -155,8 +153,7 @@
                         "type": "Literal",
                         "start": 685,
                         "end": 686,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -201,8 +198,7 @@
           "type": "Literal",
           "start": 799,
           "end": 800,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -233,8 +229,7 @@
                     "type": "Literal",
                     "start": 828,
                     "end": 874,
-                    "value": "#2: __obj.prop === 1. Actual: __obj.prop ===",
-                    "raw": "'#2: __obj.prop === 1. Actual: __obj.prop ==='"
+                    "value": "#2: __obj.prop === 1. Actual: __obj.prop ==="
                   },
                   "operator": "+",
                   "right": {
@@ -290,8 +285,7 @@
           "type": "Literal",
           "start": 1084,
           "end": 1095,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -322,8 +316,7 @@
                     "type": "Literal",
                     "start": 1123,
                     "end": 1185,
-                    "value": "#5: typeof __func === \"undefined\". Actual: typeof __func ===",
-                    "raw": "'#5: typeof __func === \"undefined\". Actual: typeof __func ==='"
+                    "value": "#5: typeof __func === \"undefined\". Actual: typeof __func ==="
                   },
                   "operator": "+",
                   "right": {

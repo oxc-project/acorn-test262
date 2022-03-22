@@ -84,8 +84,7 @@
                 "type": "Literal",
                 "start": 536,
                 "end": 538,
-                "value": "",
-                "raw": "''"
+                "value": ""
               }
             ],
             "optional": false
@@ -139,8 +138,7 @@
             "type": "Literal",
             "start": 575,
             "end": 585,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -239,8 +237,7 @@
             "type": "Literal",
             "start": 657,
             "end": 668,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -340,8 +337,7 @@
             "type": "Literal",
             "start": 735,
             "end": 741,
-            "value": "null",
-            "raw": "'null'"
+            "value": "null"
           }
         ],
         "optional": false
@@ -427,8 +423,7 @@
                         "type": "Literal",
                         "start": 798,
                         "end": 800,
-                        "value": 23,
-                        "raw": "23"
+                        "value": 23
                       }
                     ],
                     "optional": false
@@ -441,8 +436,7 @@
             "type": "Literal",
             "start": 806,
             "end": 814,
-            "value": "number",
-            "raw": "'number'"
+            "value": "number"
           }
         ],
         "optional": false
@@ -542,8 +536,7 @@
             "type": "Literal",
             "start": 881,
             "end": 890,
-            "value": "boolean",
-            "raw": "'boolean'"
+            "value": "boolean"
           }
         ],
         "optional": false
@@ -629,8 +622,7 @@
                         "type": "Literal",
                         "start": 947,
                         "end": 957,
-                        "value": "/string/",
-                        "raw": "'/string/'"
+                        "value": "/string/"
                       }
                     ],
                     "optional": false
@@ -643,8 +635,7 @@
             "type": "Literal",
             "start": 963,
             "end": 971,
-            "value": "string",
-            "raw": "'string'"
+            "value": "string"
           }
         ],
         "optional": false
@@ -743,8 +734,7 @@
             "type": "Literal",
             "start": 1040,
             "end": 1048,
-            "value": "symbol",
-            "raw": "'symbol'"
+            "value": "symbol"
           }
         ],
         "optional": false

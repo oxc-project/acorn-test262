@@ -160,8 +160,7 @@
                     "type": "Literal",
                     "start": 762,
                     "end": 764,
-                    "value": 42,
-                    "raw": "42"
+                    "value": 42
                   },
                   "kind": "init"
                 }
@@ -236,15 +235,13 @@
             "type": "Literal",
             "start": 807,
             "end": 808,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 810,
             "end": 863,
-            "value": "The value of result.args.length is expected to be 1",
-            "raw": "'The value of result.args.length is expected to be 1'"
+            "value": "The value of result.args.length is expected to be 1"
           }
         ],
         "optional": false
@@ -305,8 +302,7 @@
               "type": "Literal",
               "start": 895,
               "end": 896,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -315,15 +311,13 @@
             "type": "Literal",
             "start": 899,
             "end": 901,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 903,
             "end": 953,
-            "value": "The value of result.args[0] is expected to be 42",
-            "raw": "'The value of result.args[0] is expected to be 42'"
+            "value": "The value of result.args[0] is expected to be 42"
           }
         ],
         "optional": false
@@ -366,8 +360,7 @@
             "type": "Literal",
             "start": 1000,
             "end": 1082,
-            "value": "The result of evaluating (result instanceof MyCollection) is expected to be true",
-            "raw": "'The result of evaluating (result instanceof MyCollection) is expected to be true'"
+            "value": "The result of evaluating (result instanceof MyCollection) is expected to be true"
           }
         ],
         "optional": false

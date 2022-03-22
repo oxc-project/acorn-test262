@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 772,
             "end": 778,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 791,
                   "end": 801,
-                  "value": "Calendar",
-                  "raw": "\"Calendar\""
+                  "value": "Calendar"
                 },
                 "kind": "init"
               },

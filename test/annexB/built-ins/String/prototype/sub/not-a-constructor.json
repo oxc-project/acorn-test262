@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 752,
             "end": 807,
-            "value": "isConstructor(String.prototype.sub) must return false",
-            "raw": "'isConstructor(String.prototype.sub) must return false'"
+            "value": "isConstructor(String.prototype.sub) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 877,
             "end": 924,
-            "value": "`new String.prototype.sub()` throws TypeError",
-            "raw": "'`new String.prototype.sub()` throws TypeError'"
+            "value": "`new String.prototype.sub()` throws TypeError"
           }
         ],
         "optional": false

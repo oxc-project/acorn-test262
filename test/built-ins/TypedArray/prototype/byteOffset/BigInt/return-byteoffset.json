@@ -121,15 +121,13 @@
                         "type": "Literal",
                         "start": 587,
                         "end": 588,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 590,
                         "end": 610,
-                        "value": "Regular typedArray",
-                        "raw": "\"Regular typedArray\""
+                        "value": "Regular typedArray"
                       }
                     ],
                     "optional": false
@@ -158,8 +156,7 @@
                           "type": "Literal",
                           "start": 629,
                           "end": 630,
-                          "value": 4,
-                          "raw": "4"
+                          "value": 4
                         },
                         "operator": "*",
                         "right": {
@@ -220,8 +217,7 @@
                               "type": "Literal",
                               "start": 688,
                               "end": 689,
-                              "value": 8,
-                              "raw": "8"
+                              "value": 8
                             },
                             "operator": "*",
                             "right": {
@@ -351,8 +347,7 @@
                         "type": "Literal",
                         "start": 795,
                         "end": 815,
-                        "value": "TA(buffer, offset)",
-                        "raw": "\"TA(buffer, offset)\""
+                        "value": "TA(buffer, offset)"
                       }
                     ],
                     "optional": false
@@ -392,8 +387,7 @@
                               "type": "Literal",
                               "start": 851,
                               "end": 852,
-                              "value": 8,
-                              "raw": "8"
+                              "value": 8
                             },
                             "operator": "*",
                             "right": {
@@ -555,15 +549,13 @@
                         "type": "Literal",
                         "start": 981,
                         "end": 982,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 984,
                         "end": 1000,
-                        "value": "TA(typedArray)",
-                        "raw": "\"TA(typedArray)\""
+                        "value": "TA(typedArray)"
                       }
                     ],
                     "optional": false

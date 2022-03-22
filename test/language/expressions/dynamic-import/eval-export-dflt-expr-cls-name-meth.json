@@ -57,8 +57,7 @@
                           "type": "Literal",
                           "start": 1187,
                           "end": 1200,
-                          "value": "name method",
-                          "raw": "'name method'"
+                          "value": "name method"
                         }
                       }
                     ]
@@ -106,8 +105,7 @@
                       "type": "Literal",
                       "start": 1215,
                       "end": 1257,
-                      "value": "./eval-export-dflt-expr-cls-name-meth.js",
-                      "raw": "'./eval-export-dflt-expr-cls-name-meth.js'"
+                      "value": "./eval-export-dflt-expr-cls-name-meth.js"
                     }
                   },
                   "property": {
@@ -212,15 +210,13 @@
                                 "type": "Literal",
                                 "start": 1322,
                                 "end": 1335,
-                                "value": "name method",
-                                "raw": "'name method'"
+                                "value": "name method"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1337,
                                 "end": 1374,
-                                "value": "`name` property is not over-written",
-                                "raw": "'`name` property is not over-written'"
+                                "value": "`name` property is not over-written"
                               }
                             ],
                             "optional": false

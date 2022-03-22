@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 401,
-                "value": "monthsInYear",
-                "raw": "\"monthsInYear\""
+                "value": "monthsInYear"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 444,
             "end": 454,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

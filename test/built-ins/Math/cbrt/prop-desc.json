@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 269,
             "end": 275,
-            "value": "cbrt",
-            "raw": "\"cbrt\""
+            "value": "cbrt"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 299,
             "end": 305,
-            "value": "cbrt",
-            "raw": "\"cbrt\""
+            "value": "cbrt"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 333,
             "end": 339,
-            "value": "cbrt",
-            "raw": "\"cbrt\""
+            "value": "cbrt"
           }
         ],
         "optional": false

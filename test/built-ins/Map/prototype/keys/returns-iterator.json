@@ -91,15 +91,13 @@
             "type": "Literal",
             "start": 420,
             "end": 425,
-            "value": "foo",
-            "raw": "'foo'"
+            "value": "foo"
           },
           {
             "type": "Literal",
             "start": 427,
             "end": 428,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -143,8 +141,7 @@
             "type": "Literal",
             "start": 444,
             "end": 445,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -188,8 +185,7 @@
             "type": "Literal",
             "start": 461,
             "end": 462,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         ],
         "optional": false
@@ -354,15 +350,13 @@
             "type": "Literal",
             "start": 563,
             "end": 568,
-            "value": "foo",
-            "raw": "'foo'"
+            "value": "foo"
           },
           {
             "type": "Literal",
             "start": 570,
             "end": 600,
-            "value": "First result `value` (\"key\")",
-            "raw": "'First result `value` (\"key\")'"
+            "value": "First result `value` (\"key\")"
           }
         ],
         "optional": false
@@ -426,8 +420,7 @@
             "type": "Literal",
             "start": 640,
             "end": 666,
-            "value": "First result `done` flag",
-            "raw": "'First result `done` flag'"
+            "value": "First result `done` flag"
           }
         ],
         "optional": false
@@ -533,8 +526,7 @@
             "type": "Literal",
             "start": 732,
             "end": 763,
-            "value": "Second result `value` (\"key\")",
-            "raw": "'Second result `value` (\"key\")'"
+            "value": "Second result `value` (\"key\")"
           }
         ],
         "optional": false
@@ -598,8 +590,7 @@
             "type": "Literal",
             "start": 803,
             "end": 830,
-            "value": "Second result `done` flag",
-            "raw": "'Second result `done` flag'"
+            "value": "Second result `done` flag"
           }
         ],
         "optional": false
@@ -705,8 +696,7 @@
             "type": "Literal",
             "start": 896,
             "end": 926,
-            "value": "Third result `value` (\"key\")",
-            "raw": "'Third result `value` (\"key\")'"
+            "value": "Third result `value` (\"key\")"
           }
         ],
         "optional": false
@@ -770,8 +760,7 @@
             "type": "Literal",
             "start": 966,
             "end": 992,
-            "value": "Third result `done` flag",
-            "raw": "'Third result `done` flag'"
+            "value": "Third result `done` flag"
           }
         ],
         "optional": false
@@ -877,8 +866,7 @@
             "type": "Literal",
             "start": 1064,
             "end": 1090,
-            "value": "Exhausted result `value`",
-            "raw": "'Exhausted result `value`'"
+            "value": "Exhausted result `value`"
           }
         ],
         "optional": false
@@ -942,8 +930,7 @@
             "type": "Literal",
             "start": 1129,
             "end": 1159,
-            "value": "Exhausted result `done` flag",
-            "raw": "'Exhausted result `done` flag'"
+            "value": "Exhausted result `done` flag"
           }
         ],
         "optional": false
@@ -1049,8 +1036,7 @@
             "type": "Literal",
             "start": 1234,
             "end": 1279,
-            "value": "Exhausted result `value` (repeated request)",
-            "raw": "'Exhausted result `value` (repeated request)'"
+            "value": "Exhausted result `value` (repeated request)"
           }
         ],
         "optional": false
@@ -1114,8 +1100,7 @@
             "type": "Literal",
             "start": 1322,
             "end": 1371,
-            "value": "Exhausted result `done` flag (repeated request)",
-            "raw": "'Exhausted result `done` flag (repeated request)'"
+            "value": "Exhausted result `done` flag (repeated request)"
           }
         ],
         "optional": false

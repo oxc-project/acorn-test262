@@ -41,15 +41,13 @@
             "type": "Literal",
             "start": 308,
             "end": 315,
-            "value": "style",
-            "raw": "\"style\""
+            "value": "style"
           },
           {
             "type": "Literal",
             "start": 317,
             "end": 325,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           },
           {
             "type": "ArrayExpression",
@@ -60,22 +58,19 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 337,
-                "value": "decimal",
-                "raw": "\"decimal\""
+                "value": "decimal"
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 348,
-                "value": "percent",
-                "raw": "\"percent\""
+                "value": "percent"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 360,
-                "value": "currency",
-                "raw": "\"currency\""
+                "value": "currency"
               }
             ]
           },
@@ -83,8 +78,7 @@
             "type": "Literal",
             "start": 363,
             "end": 372,
-            "value": "decimal",
-            "raw": "\"decimal\""
+            "value": "decimal"
           },
           {
             "type": "ObjectExpression",
@@ -120,8 +114,7 @@
                         "type": "Literal",
                         "start": 391,
                         "end": 401,
-                        "value": "currency",
-                        "raw": "\"currency\""
+                        "value": "currency"
                       },
                       "value": {
                         "type": "ObjectExpression",
@@ -145,8 +138,7 @@
                               "type": "Literal",
                               "start": 414,
                               "end": 419,
-                              "value": "CNY",
-                              "raw": "\"CNY\""
+                              "value": "CNY"
                             },
                             "kind": "init"
                           }

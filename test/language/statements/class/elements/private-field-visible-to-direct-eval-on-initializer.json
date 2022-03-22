@@ -20,13 +20,12 @@
         "end": 1815,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1782,
-            "end": 1790,
-            "static": false,
+            "end": 1789,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1782,
               "end": 1784,
               "name": "m"
@@ -35,15 +34,13 @@
               "type": "Literal",
               "start": 1787,
               "end": 1789,
-              "value": 44,
-              "raw": "44"
+              "value": 44
             }
           },
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1793,
-            "end": 1813,
-            "static": false,
+            "end": 1812,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -66,8 +63,7 @@
                   "type": "Literal",
                   "start": 1802,
                   "end": 1811,
-                  "value": "this.#m",
-                  "raw": "\"this.#m\""
+                  "value": "this.#m"
                 }
               ],
               "optional": false
@@ -158,8 +154,7 @@
             "type": "Literal",
             "start": 1856,
             "end": 1858,
-            "value": 44,
-            "raw": "44"
+            "value": 44
           }
         ],
         "optional": false

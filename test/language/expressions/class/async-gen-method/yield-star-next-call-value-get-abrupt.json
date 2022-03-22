@@ -108,8 +108,7 @@
                               "type": "Literal",
                               "start": 1223,
                               "end": 1258,
-                              "value": "it should not get Symbol.iterator",
-                              "raw": "'it should not get Symbol.iterator'"
+                              "value": "it should not get Symbol.iterator"
                             }
                           ]
                         }
@@ -309,8 +308,7 @@
             "type": "Literal",
             "start": 1476,
             "end": 1477,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -388,8 +386,7 @@
                               "type": "Literal",
                               "start": 1528,
                               "end": 1529,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             }
                           }
                         },
@@ -429,8 +426,7 @@
                                 "type": "Literal",
                                 "start": 1576,
                                 "end": 1607,
-                                "value": "abrupt completion closes iter",
-                                "raw": "'abrupt completion closes iter'"
+                                "value": "abrupt completion closes iter"
                               }
                             ]
                           }
@@ -618,8 +614,7 @@
                             "type": "Literal",
                             "start": 1712,
                             "end": 1744,
-                            "value": "Promise incorrectly fulfilled.",
-                            "raw": "'Promise incorrectly fulfilled.'"
+                            "value": "Promise incorrectly fulfilled."
                           }
                         ]
                       }
@@ -692,8 +687,7 @@
                             "type": "Literal",
                             "start": 1787,
                             "end": 1802,
-                            "value": "reject reason",
-                            "raw": "\"reject reason\""
+                            "value": "reject reason"
                           }
                         ],
                         "optional": false
@@ -864,8 +858,7 @@
                                             "type": "Literal",
                                             "start": 1881,
                                             "end": 1908,
-                                            "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "value": "the iterator is completed"
                                           }
                                         ],
                                         "optional": false
@@ -915,8 +908,7 @@
                                             "type": "Literal",
                                             "start": 1950,
                                             "end": 1970,
-                                            "value": "value is undefined",
-                                            "raw": "'value is undefined'"
+                                            "value": "value is undefined"
                                           }
                                         ],
                                         "optional": false
@@ -1018,8 +1010,7 @@
             "type": "Literal",
             "start": 2044,
             "end": 2045,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 392,
             "end": 397,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -91,8 +90,7 @@
                   "type": "Literal",
                   "start": 410,
                   "end": 412,
-                  "value": 10,
-                  "raw": "10"
+                  "value": 10
                 },
                 "kind": "init"
               },
@@ -255,8 +253,7 @@
                 "type": "Literal",
                 "start": 547,
                 "end": 552,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -290,15 +287,13 @@
             "type": "Literal",
             "start": 575,
             "end": 580,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Literal",
             "start": 582,
             "end": 584,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           }
         ],
         "optional": false
@@ -329,8 +324,7 @@
             "type": "Literal",
             "start": 611,
             "end": 616,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -361,8 +355,7 @@
             "type": "Literal",
             "start": 642,
             "end": 647,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -393,8 +386,7 @@
             "type": "Literal",
             "start": 678,
             "end": 683,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -464,8 +456,7 @@
                     "type": "Literal",
                     "start": 743,
                     "end": 788,
-                    "value": "Expected desc.writable === false, actually ",
-                    "raw": "'Expected desc.writable === false, actually '"
+                    "value": "Expected desc.writable === false, actually "
                   },
                   "operator": "+",
                   "right": {
@@ -559,8 +550,7 @@
                     "type": "Literal",
                     "start": 870,
                     "end": 919,
-                    "value": "Expected desc.configurable === false, actually ",
-                    "raw": "'Expected desc.configurable === false, actually '"
+                    "value": "Expected desc.configurable === false, actually "
                   },
                   "operator": "+",
                   "right": {

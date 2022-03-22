@@ -45,8 +45,7 @@
                       "type": "Literal",
                       "start": 362,
                       "end": 374,
-                      "value": "art-lojban",
-                      "raw": "\"art-lojban\""
+                      "value": "art-lojban"
                     },
                     "kind": "init"
                   },
@@ -67,8 +66,7 @@
                       "type": "Literal",
                       "start": 395,
                       "end": 400,
-                      "value": "jbo",
-                      "raw": "\"jbo\""
+                      "value": "jbo"
                     },
                     "kind": "init"
                   }
@@ -96,8 +94,7 @@
                       "type": "Literal",
                       "start": 428,
                       "end": 438,
-                      "value": "zh-guoyu",
-                      "raw": "\"zh-guoyu\""
+                      "value": "zh-guoyu"
                     },
                     "kind": "init"
                   },
@@ -118,8 +115,7 @@
                       "type": "Literal",
                       "start": 459,
                       "end": 463,
-                      "value": "zh",
-                      "raw": "\"zh\""
+                      "value": "zh"
                     },
                     "kind": "init"
                   }
@@ -147,8 +143,7 @@
                       "type": "Literal",
                       "start": 491,
                       "end": 501,
-                      "value": "zh-hakka",
-                      "raw": "\"zh-hakka\""
+                      "value": "zh-hakka"
                     },
                     "kind": "init"
                   },
@@ -169,8 +164,7 @@
                       "type": "Literal",
                       "start": 522,
                       "end": 527,
-                      "value": "hak",
-                      "raw": "\"hak\""
+                      "value": "hak"
                     },
                     "kind": "init"
                   }
@@ -198,8 +192,7 @@
                       "type": "Literal",
                       "start": 555,
                       "end": 565,
-                      "value": "zh-xiang",
-                      "raw": "\"zh-xiang\""
+                      "value": "zh-xiang"
                     },
                     "kind": "init"
                   },
@@ -220,8 +213,7 @@
                       "type": "Literal",
                       "start": 586,
                       "end": 591,
-                      "value": "hsn",
-                      "raw": "\"hsn\""
+                      "value": "hsn"
                     },
                     "kind": "init"
                   }
@@ -381,8 +373,7 @@
                     "type": "Literal",
                     "start": 710,
                     "end": 711,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false

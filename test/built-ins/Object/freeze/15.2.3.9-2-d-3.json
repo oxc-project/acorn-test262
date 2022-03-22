@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 247,
                 "end": 250,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               }
             ]
           }
@@ -132,8 +131,7 @@
             "type": "Literal",
             "start": 310,
             "end": 344,
-            "value": "Object.isFrozen(strObj) !== true",
-            "raw": "'Object.isFrozen(strObj) !== true'"
+            "value": "Object.isFrozen(strObj) !== true"
           }
         ],
         "optional": false

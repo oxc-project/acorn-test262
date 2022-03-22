@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 492,
             "end": 499,
-            "value": "clz32",
-            "raw": "\"clz32\""
+            "value": "clz32"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 523,
             "end": 530,
-            "value": "clz32",
-            "raw": "\"clz32\""
+            "value": "clz32"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 558,
             "end": 565,
-            "value": "clz32",
-            "raw": "\"clz32\""
+            "value": "clz32"
           }
         ],
         "optional": false

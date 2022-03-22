@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 913,
                   "end": 931,
-                  "value": "9007199254740988",
-                  "raw": "\"9007199254740988\""
+                  "value": "9007199254740988"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 933,
                   "end": 951,
-                  "value": "9007199254740988",
-                  "raw": "\"9007199254740988\""
+                  "value": "9007199254740988"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 955,
                   "end": 973,
-                  "value": "9007199254740989",
-                  "raw": "\"9007199254740989\""
+                  "value": "9007199254740989"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 975,
                   "end": 993,
-                  "value": "9007199254740989",
-                  "raw": "\"9007199254740989\""
+                  "value": "9007199254740989"
                 },
                 "kind": "init"
               },
@@ -80,15 +76,13 @@
                   "type": "Literal",
                   "start": 997,
                   "end": 1015,
-                  "value": "9007199254740990",
-                  "raw": "\"9007199254740990\""
+                  "value": "9007199254740990"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1017,
                   "end": 1035,
-                  "value": "9007199254740990",
-                  "raw": "\"9007199254740990\""
+                  "value": "9007199254740990"
                 },
                 "kind": "init"
               },
@@ -103,15 +97,13 @@
                   "type": "Literal",
                   "start": 1039,
                   "end": 1057,
-                  "value": "9007199254740991",
-                  "raw": "\"9007199254740991\""
+                  "value": "9007199254740991"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 1059,
                   "end": 1077,
-                  "value": "9007199254740991",
-                  "raw": "\"9007199254740991\""
+                  "value": "9007199254740991"
                 },
                 "kind": "init"
               },
@@ -140,16 +132,14 @@
                       "type": "Literal",
                       "start": 1089,
                       "end": 1090,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "operator": "**",
                     "right": {
                       "type": "Literal",
                       "start": 1094,
                       "end": 1096,
-                      "value": 53,
-                      "raw": "53"
+                      "value": 53
                     }
                   },
                   "operator": "+",
@@ -157,8 +147,7 @@
                     "type": "Literal",
                     "start": 1099,
                     "end": 1100,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 },
                 "kind": "init"
@@ -244,8 +233,7 @@
                 "type": "Literal",
                 "start": 1158,
                 "end": 1174,
-                "value": 9007199254740989,
-                "raw": "9007199254740989"
+                "value": 9007199254740989
               },
               {
                 "type": "BinaryExpression",
@@ -259,16 +247,14 @@
                     "type": "Literal",
                     "start": 1176,
                     "end": 1177,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   "operator": "**",
                   "right": {
                     "type": "Literal",
                     "start": 1181,
                     "end": 1183,
-                    "value": 53,
-                    "raw": "53"
+                    "value": 53
                   }
                 },
                 "operator": "+",
@@ -276,8 +262,7 @@
                   "type": "Literal",
                   "start": 1186,
                   "end": 1187,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 }
               }
             ],
@@ -330,15 +315,13 @@
                 "type": "Literal",
                 "start": 1220,
                 "end": 1238,
-                "value": "9007199254740989",
-                "raw": "\"9007199254740989\""
+                "value": "9007199254740989"
               },
               {
                 "type": "Literal",
                 "start": 1240,
                 "end": 1258,
-                "value": "9007199254740990",
-                "raw": "\"9007199254740990\""
+                "value": "9007199254740990"
               }
             ]
           },
@@ -346,8 +329,7 @@
             "type": "Literal",
             "start": 1263,
             "end": 1343,
-            "value": "The value of result is expected to be [\"9007199254740989\", \"9007199254740990\"]",
-            "raw": "'The value of result is expected to be [\"9007199254740989\", \"9007199254740990\"]'"
+            "value": "The value of result is expected to be [\"9007199254740989\", \"9007199254740990\"]"
           }
         ],
         "optional": false
@@ -412,16 +394,14 @@
                 "type": "Literal",
                 "start": 1382,
                 "end": 1383,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               "operator": "**",
               "right": {
                 "type": "Literal",
                 "start": 1387,
                 "end": 1389,
-                "value": 53,
-                "raw": "53"
+                "value": 53
               }
             },
             "operator": "-",
@@ -429,16 +409,14 @@
               "type": "Literal",
               "start": 1392,
               "end": 1393,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             }
           },
           {
             "type": "Literal",
             "start": 1397,
             "end": 1458,
-            "value": "The value of arrayLike.length is expected to be 2 ** 53 - 3",
-            "raw": "'The value of arrayLike.length is expected to be 2 ** 53 - 3'"
+            "value": "The value of arrayLike.length is expected to be 2 ** 53 - 3"
           }
         ],
         "optional": false
@@ -486,8 +464,7 @@
               "type": "Literal",
               "start": 1489,
               "end": 1507,
-              "value": "9007199254740988",
-              "raw": "\"9007199254740988\""
+              "value": "9007199254740988"
             },
             "computed": true,
             "optional": false
@@ -496,15 +473,13 @@
             "type": "Literal",
             "start": 1510,
             "end": 1528,
-            "value": "9007199254740988",
-            "raw": "\"9007199254740988\""
+            "value": "9007199254740988"
           },
           {
             "type": "Literal",
             "start": 1532,
             "end": 1613,
-            "value": "The value of arrayLike[\"9007199254740988\"] is expected to be \"9007199254740988\"",
-            "raw": "'The value of arrayLike[\"9007199254740988\"] is expected to be \"9007199254740988\"'"
+            "value": "The value of arrayLike[\"9007199254740988\"] is expected to be \"9007199254740988\""
           }
         ],
         "optional": false
@@ -546,8 +521,7 @@
               "type": "Literal",
               "start": 1634,
               "end": 1652,
-              "value": "9007199254740989",
-              "raw": "\"9007199254740989\""
+              "value": "9007199254740989"
             },
             "operator": "in",
             "right": {
@@ -568,8 +542,7 @@
             "type": "Literal",
             "start": 1676,
             "end": 1760,
-            "value": "The result of evaluating (\"9007199254740989\" in arrayLike) is expected to be false",
-            "raw": "'The result of evaluating (\"9007199254740989\" in arrayLike) is expected to be false'"
+            "value": "The result of evaluating (\"9007199254740989\" in arrayLike) is expected to be false"
           }
         ],
         "optional": false
@@ -611,8 +584,7 @@
               "type": "Literal",
               "start": 1781,
               "end": 1799,
-              "value": "9007199254740990",
-              "raw": "\"9007199254740990\""
+              "value": "9007199254740990"
             },
             "operator": "in",
             "right": {
@@ -633,8 +605,7 @@
             "type": "Literal",
             "start": 1823,
             "end": 1907,
-            "value": "The result of evaluating (\"9007199254740990\" in arrayLike) is expected to be false",
-            "raw": "'The result of evaluating (\"9007199254740990\" in arrayLike) is expected to be false'"
+            "value": "The result of evaluating (\"9007199254740990\" in arrayLike) is expected to be false"
           }
         ],
         "optional": false
@@ -682,8 +653,7 @@
               "type": "Literal",
               "start": 1938,
               "end": 1956,
-              "value": "9007199254740991",
-              "raw": "\"9007199254740991\""
+              "value": "9007199254740991"
             },
             "computed": true,
             "optional": false
@@ -692,15 +662,13 @@
             "type": "Literal",
             "start": 1959,
             "end": 1977,
-            "value": "9007199254740991",
-            "raw": "\"9007199254740991\""
+            "value": "9007199254740991"
           },
           {
             "type": "Literal",
             "start": 1981,
             "end": 2062,
-            "value": "The value of arrayLike[\"9007199254740991\"] is expected to be \"9007199254740991\"",
-            "raw": "'The value of arrayLike[\"9007199254740991\"] is expected to be \"9007199254740991\"'"
+            "value": "The value of arrayLike[\"9007199254740991\"] is expected to be \"9007199254740991\""
           }
         ],
         "optional": false

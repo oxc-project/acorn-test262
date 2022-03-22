@@ -127,8 +127,7 @@
                                               "type": "Literal",
                                               "start": 875,
                                               "end": 876,
-                                              "value": 1,
-                                              "raw": "1"
+                                              "value": 1
                                             },
                                             "kind": "init"
                                           },
@@ -457,8 +456,7 @@
                                             "type": "Literal",
                                             "start": 1100,
                                             "end": 1127,
-                                            "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "value": "the iterator is completed"
                                           }
                                         ],
                                         "optional": false
@@ -521,8 +519,7 @@
                                             "type": "Literal",
                                             "start": 1176,
                                             "end": 1206,
-                                            "value": "expect value to be undefined",
-                                            "raw": "'expect value to be undefined'"
+                                            "value": "expect value to be undefined"
                                           }
                                         ],
                                         "optional": false
@@ -693,8 +690,7 @@
                                                             "type": "Literal",
                                                             "start": 1289,
                                                             "end": 1316,
-                                                            "value": "the iterator is completed",
-                                                            "raw": "'the iterator is completed'"
+                                                            "value": "the iterator is completed"
                                                           }
                                                         ],
                                                         "optional": false
@@ -744,8 +740,7 @@
                                                             "type": "Literal",
                                                             "start": 1360,
                                                             "end": 1380,
-                                                            "value": "value is undefined",
-                                                            "raw": "'value is undefined'"
+                                                            "value": "value is undefined"
                                                           }
                                                         ],
                                                         "optional": false

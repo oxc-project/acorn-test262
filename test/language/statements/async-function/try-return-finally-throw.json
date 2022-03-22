@@ -39,8 +39,7 @@
                     "type": "Literal",
                     "start": 387,
                     "end": 401,
-                    "value": "early-return",
-                    "raw": "\"early-return\""
+                    "value": "early-return"
                   }
                 }
               ]
@@ -59,8 +58,7 @@
                     "type": "Literal",
                     "start": 427,
                     "end": 437,
-                    "value": "override",
-                    "raw": "\"override\""
+                    "value": "override"
                   }
                 }
               ]
@@ -177,15 +175,13 @@
                             "type": "Literal",
                             "start": 506,
                             "end": 516,
-                            "value": "override",
-                            "raw": "\"override\""
+                            "value": "override"
                           },
                           {
                             "type": "Literal",
                             "start": 518,
                             "end": 553,
-                            "value": "Exception thrown in finally block",
-                            "raw": "\"Exception thrown in finally block\""
+                            "value": "Exception thrown in finally block"
                           }
                         ],
                         "optional": false

@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 404,
                             "end": 411,
-                            "value": "slice",
-                            "raw": "\"slice\""
+                            "value": "slice"
                           }
                         ],
                         "optional": false

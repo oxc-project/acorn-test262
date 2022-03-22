@@ -96,8 +96,7 @@
                             "type": "Literal",
                             "start": 1297,
                             "end": 1323,
-                            "value": "./module-code_FIXTURE.js",
-                            "raw": "'./module-code_FIXTURE.js'"
+                            "value": "./module-code_FIXTURE.js"
                           }
                         },
                         "property": {
@@ -182,8 +181,7 @@
                                       "type": "Literal",
                                       "start": 1384,
                                       "end": 1386,
-                                      "value": 42,
-                                      "raw": "42"
+                                      "value": 42
                                     }
                                   ],
                                   "optional": false
@@ -240,8 +238,7 @@
                                       "type": "Literal",
                                       "start": 1422,
                                       "end": 1431,
-                                      "value": "Test262",
-                                      "raw": "'Test262'"
+                                      "value": "Test262"
                                     }
                                   ],
                                   "optional": false
@@ -298,8 +295,7 @@
                                       "type": "Literal",
                                       "start": 1467,
                                       "end": 1469,
-                                      "value": 42,
-                                      "raw": "42"
+                                      "value": 42
                                     }
                                   ],
                                   "optional": false

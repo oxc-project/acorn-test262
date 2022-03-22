@@ -93,8 +93,7 @@
             "type": "Literal",
             "start": 922,
             "end": 948,
-            "value": "./module-code_FIXTURE.js",
-            "raw": "'./module-code_FIXTURE.js'"
+            "value": "./module-code_FIXTURE.js"
           }
         }
       }
@@ -205,8 +204,7 @@
                   "type": "Literal",
                   "start": 1039,
                   "end": 1048,
-                  "value": "Test262",
-                  "raw": "'Test262'"
+                  "value": "Test262"
                 }
               ],
               "optional": false
@@ -263,8 +261,7 @@
                   "type": "Literal",
                   "start": 1084,
                   "end": 1086,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 }
               ],
               "optional": false

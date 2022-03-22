@@ -250,8 +250,7 @@
             "type": "Literal",
             "start": 1505,
             "end": 1537,
-            "value": "iteration occurred as expected",
-            "raw": "'iteration occurred as expected'"
+            "value": "iteration occurred as expected"
           }
         ],
         "optional": false

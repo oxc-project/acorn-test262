@@ -57,8 +57,7 @@
                             "type": "Literal",
                             "start": 505,
                             "end": 518,
-                            "value": "instatement",
-                            "raw": "\"instatement\""
+                            "value": "instatement"
                           }
                         }
                       ]
@@ -90,8 +89,7 @@
                   "type": "Literal",
                   "start": 548,
                   "end": 559,
-                  "value": "#1 failed",
-                  "raw": "\"#1 failed\""
+                  "value": "#1 failed"
                 }
               ]
             }
@@ -132,8 +130,7 @@
                   "type": "Literal",
                   "start": 586,
                   "end": 599,
-                  "value": "instatement",
-                  "raw": "\"instatement\""
+                  "value": "instatement"
                 }
               },
               "consequent": {
@@ -164,8 +161,7 @@
                             "type": "Literal",
                             "start": 628,
                             "end": 685,
-                            "value": "#1: Exception === \"instatement\". Actual:  Exception ===",
-                            "raw": "'#1: Exception === \"instatement\". Actual:  Exception ==='"
+                            "value": "#1: Exception === \"instatement\". Actual:  Exception ==="
                           },
                           "operator": "+",
                           "right": {
@@ -241,8 +237,7 @@
                             "type": "Literal",
                             "start": 904,
                             "end": 916,
-                            "value": "truebranch",
-                            "raw": "\"truebranch\""
+                            "value": "truebranch"
                           }
                         }
                       ]
@@ -289,8 +284,7 @@
                           "type": "Literal",
                           "start": 940,
                           "end": 952,
-                          "value": "missbranch",
-                          "raw": "\"missbranch\""
+                          "value": "missbranch"
                         }
                       }
                     ]
@@ -320,8 +314,7 @@
                   "type": "Literal",
                   "start": 982,
                   "end": 993,
-                  "value": "#2 failed",
-                  "raw": "\"#2 failed\""
+                  "value": "#2 failed"
                 }
               ]
             }
@@ -362,8 +355,7 @@
                   "type": "Literal",
                   "start": 1020,
                   "end": 1032,
-                  "value": "missbranch",
-                  "raw": "\"missbranch\""
+                  "value": "missbranch"
                 }
               },
               "consequent": {
@@ -394,8 +386,7 @@
                             "type": "Literal",
                             "start": 1061,
                             "end": 1117,
-                            "value": "#2: Exception === \"missbranch\". Actual:  Exception ===",
-                            "raw": "'#2: Exception === \"missbranch\". Actual:  Exception ==='"
+                            "value": "#2: Exception === \"missbranch\". Actual:  Exception ==="
                           },
                           "operator": "+",
                           "right": {

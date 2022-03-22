@@ -103,8 +103,7 @@
                 "type": "Literal",
                 "start": 295,
                 "end": 296,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -128,8 +127,7 @@
             "type": "Literal",
             "start": 328,
             "end": 435,
-            "value": "The result of evaluating (Array.prototype.concat.call(true)[0] instanceof Boolean) is expected to be true",
-            "raw": "'The result of evaluating (Array.prototype.concat.call(true)[0] instanceof Boolean) is expected to be true'"
+            "value": "The result of evaluating (Array.prototype.concat.call(true)[0] instanceof Boolean) is expected to be true"
           }
         ],
         "optional": false
@@ -235,8 +233,7 @@
                 "type": "Literal",
                 "start": 494,
                 "end": 495,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -260,8 +257,7 @@
             "type": "Literal",
             "start": 527,
             "end": 635,
-            "value": "The result of evaluating (Array.prototype.concat.call(false)[0] instanceof Boolean) is expected to be true",
-            "raw": "'The result of evaluating (Array.prototype.concat.call(false)[0] instanceof Boolean) is expected to be true'"
+            "value": "The result of evaluating (Array.prototype.concat.call(false)[0] instanceof Boolean) is expected to be true"
           }
         ],
         "optional": false

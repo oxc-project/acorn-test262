@@ -20,13 +20,12 @@
         "end": 1354,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1200,
-            "end": 1208,
-            "static": false,
+            "end": 1207,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1200,
               "end": 1202,
               "name": "x"
@@ -35,8 +34,7 @@
               "type": "Literal",
               "start": 1205,
               "end": 1207,
-              "value": 42,
-              "raw": "42"
+              "value": 42
             }
           },
           {
@@ -111,13 +109,12 @@
                         "end": 1348,
                         "body": [
                           {
-                            "type": "PropertyDefinition",
+                            "type": "FieldDefinition",
                             "start": 1288,
-                            "end": 1301,
-                            "static": false,
+                            "end": 1300,
                             "computed": false,
                             "key": {
-                              "type": "PrivateIdentifier",
+                              "type": "PrivateName",
                               "start": 1288,
                               "end": 1290,
                               "name": "x"
@@ -126,8 +123,7 @@
                               "type": "Literal",
                               "start": 1293,
                               "end": 1300,
-                              "value": "not42",
-                              "raw": "'not42'"
+                              "value": "not42"
                             }
                           },
                           {
@@ -176,21 +172,20 @@
                                           "end": 1326,
                                           "name": "self"
                                         },
+                                        "computed": false,
+                                        "optional": false,
                                         "property": {
-                                          "type": "PrivateIdentifier",
+                                          "type": "PrivateName",
                                           "start": 1327,
                                           "end": 1329,
                                           "name": "x"
-                                        },
-                                        "computed": false,
-                                        "optional": false
+                                        }
                                       },
                                       "right": {
                                         "type": "Literal",
                                         "start": 1332,
                                         "end": 1333,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       }
                                     }
                                   }

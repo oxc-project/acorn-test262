@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 437,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ],
             "optional": false
@@ -112,8 +111,7 @@
             "type": "Literal",
             "start": 474,
             "end": 536,
-            "value": "The value of !!(p instanceof Promise) is expected to be true",
-            "raw": "'The value of !!(p instanceof Promise) is expected to be true'"
+            "value": "The value of !!(p instanceof Promise) is expected to be true"
           }
         ],
         "optional": false
@@ -188,8 +186,7 @@
                             "type": "Literal",
                             "start": 585,
                             "end": 619,
-                            "value": "Promise should not be fulfilled.",
-                            "raw": "\"Promise should not be fulfilled.\""
+                            "value": "Promise should not be fulfilled."
                           }
                         ]
                       }
@@ -256,15 +253,13 @@
                             "type": "Literal",
                             "start": 671,
                             "end": 672,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           {
                             "type": "Literal",
                             "start": 674,
                             "end": 715,
-                            "value": "The value of result is expected to be 3",
-                            "raw": "'The value of result is expected to be 3'"
+                            "value": "The value of result is expected to be 3"
                           }
                         ],
                         "optional": false

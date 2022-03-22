@@ -52,22 +52,19 @@
                 "type": "Literal",
                 "start": 357,
                 "end": 380,
-                "value": "has calendar.calendar",
-                "raw": "'has calendar.calendar'"
+                "value": "has calendar.calendar"
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 407,
-                "value": "get calendar.calendar",
-                "raw": "'get calendar.calendar'"
+                "value": "get calendar.calendar"
               },
               {
                 "type": "Literal",
                 "start": 411,
                 "end": 440,
-                "value": "has nestedCalendar.calendar",
-                "raw": "'has nestedCalendar.calendar'"
+                "value": "has nestedCalendar.calendar"
               }
             ]
           }
@@ -99,43 +96,37 @@
                 "type": "Literal",
                 "start": 469,
                 "end": 492,
-                "value": "has calendar.calendar",
-                "raw": "'has calendar.calendar'"
+                "value": "has calendar.calendar"
               },
               {
                 "type": "Literal",
                 "start": 496,
                 "end": 519,
-                "value": "get calendar.calendar",
-                "raw": "'get calendar.calendar'"
+                "value": "get calendar.calendar"
               },
               {
                 "type": "Literal",
                 "start": 523,
                 "end": 552,
-                "value": "has nestedCalendar.calendar",
-                "raw": "'has nestedCalendar.calendar'"
+                "value": "has nestedCalendar.calendar"
               },
               {
                 "type": "Literal",
                 "start": 556,
                 "end": 603,
-                "value": "get nestedCalendar.Symbol(Symbol.toPrimitive)",
-                "raw": "'get nestedCalendar.Symbol(Symbol.toPrimitive)'"
+                "value": "get nestedCalendar.Symbol(Symbol.toPrimitive)"
               },
               {
                 "type": "Literal",
                 "start": 607,
                 "end": 636,
-                "value": "get nestedCalendar.toString",
-                "raw": "'get nestedCalendar.toString'"
+                "value": "get nestedCalendar.toString"
               },
               {
                 "type": "Literal",
                 "start": 640,
                 "end": 670,
-                "value": "call nestedCalendar.toString",
-                "raw": "'call nestedCalendar.toString'"
+                "value": "call nestedCalendar.toString"
               }
             ]
           }
@@ -233,8 +224,7 @@
                                   "type": "Literal",
                                   "start": 750,
                                   "end": 780,
-                                  "value": "call nestedCalendar.toString",
-                                  "raw": "'call nestedCalendar.toString'"
+                                  "value": "call nestedCalendar.toString"
                                 }
                               ],
                               "optional": false
@@ -248,8 +238,7 @@
                               "type": "Literal",
                               "start": 794,
                               "end": 803,
-                              "value": "iso8601",
-                              "raw": "'iso8601'"
+                              "value": "iso8601"
                             }
                           }
                         ]
@@ -682,8 +671,7 @@
                                   "type": "Literal",
                                   "start": 1156,
                                   "end": 1180,
-                                  "value": "call calendar.toString",
-                                  "raw": "'call calendar.toString'"
+                                  "value": "call calendar.toString"
                                 }
                               ],
                               "optional": false
@@ -697,8 +685,7 @@
                               "type": "Literal",
                               "start": 1194,
                               "end": 1203,
-                              "value": "iso8601",
-                              "raw": "'iso8601'"
+                              "value": "iso8601"
                             }
                           }
                         ]
@@ -1071,8 +1058,7 @@
             "type": "Literal",
             "start": 1489,
             "end": 1495,
-            "value": "from",
-            "raw": "'from'"
+            "value": "from"
           },
           {
             "type": "ObjectExpression",
@@ -1139,8 +1125,7 @@
                               "type": "Literal",
                               "start": 1525,
                               "end": 1553,
-                              "value": "get Temporal.Calendar.from",
-                              "raw": "'get Temporal.Calendar.from'"
+                              "value": "get Temporal.Calendar.from"
                             }
                           ],
                           "optional": false
@@ -1262,8 +1247,7 @@
             "type": "Literal",
             "start": 1672,
             "end": 1725,
-            "value": "Observable interactions without `calendar` property",
-            "raw": "'Observable interactions without `calendar` property'"
+            "value": "Observable interactions without `calendar` property"
           }
         ],
         "optional": false
@@ -1301,8 +1285,7 @@
           "type": "Literal",
           "start": 1745,
           "end": 1746,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1438,8 +1421,7 @@
             "type": "Literal",
             "start": 1862,
             "end": 1912,
-            "value": "Observable interactions with `calendar` property",
-            "raw": "'Observable interactions with `calendar` property'"
+            "value": "Observable interactions with `calendar` property"
           }
         ],
         "optional": false

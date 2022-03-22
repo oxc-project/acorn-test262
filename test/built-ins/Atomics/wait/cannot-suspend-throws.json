@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 642,
                       "end": 643,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -166,22 +165,19 @@
                         "type": "Literal",
                         "start": 708,
                         "end": 709,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 711,
                         "end": 712,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 714,
                         "end": 715,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -194,8 +190,7 @@
             "type": "Literal",
             "start": 721,
             "end": 769,
-            "value": "`Atomics.wait(i32a, 0, 0, 0)` throws TypeError",
-            "raw": "'`Atomics.wait(i32a, 0, 0, 0)` throws TypeError'"
+            "value": "`Atomics.wait(i32a, 0, 0, 0)` throws TypeError"
           }
         ],
         "optional": false

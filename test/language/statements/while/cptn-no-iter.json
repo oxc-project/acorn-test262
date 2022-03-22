@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 572,
                 "end": 594,
-                "value": "1; while (false) { }",
-                "raw": "'1; while (false) { }'"
+                "value": "1; while (false) { }"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 631,
                 "end": 656,
-                "value": "2; while (false) { 3; }",
-                "raw": "'2; while (false) { 3; }'"
+                "value": "2; while (false) { 3; }"
               }
             ],
             "optional": false

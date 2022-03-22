@@ -87,8 +87,7 @@
             "type": "Literal",
             "start": 333,
             "end": 363,
-            "value": "Object.getPrototypeOf(Error)",
-            "raw": "'Object.getPrototypeOf(Error)'"
+            "value": "Object.getPrototypeOf(Error)"
           }
         ],
         "optional": false

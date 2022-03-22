@@ -220,8 +220,7 @@
             "type": "Literal",
             "start": 763,
             "end": 777,
-            "value": "Return value",
-            "raw": "'Return value'"
+            "value": "Return value"
           }
         ],
         "optional": false
@@ -302,8 +301,7 @@
                 "type": "Literal",
                 "start": 829,
                 "end": 842,
-                "value": "test262prop",
-                "raw": "'test262prop'"
+                "value": "test262prop"
               }
             ],
             "optional": false

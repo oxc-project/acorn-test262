@@ -95,8 +95,7 @@
                             "type": "Literal",
                             "start": 825,
                             "end": 834,
-                            "value": "iso8601",
-                            "raw": "\"iso8601\""
+                            "value": "iso8601"
                           }
                         ]
                       }
@@ -147,15 +146,13 @@
                             "type": "Literal",
                             "start": 878,
                             "end": 879,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 881,
                             "end": 882,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -259,29 +256,25 @@
                         "type": "Literal",
                         "start": 982,
                         "end": 986,
-                        "value": 2000,
-                        "raw": "2000"
+                        "value": 2000
                       },
                       {
                         "type": "Literal",
                         "start": 988,
                         "end": 989,
-                        "value": 6,
-                        "raw": "6"
+                        "value": 6
                       },
                       {
                         "type": "Literal",
                         "start": 991,
                         "end": 996,
-                        "value": "M06",
-                        "raw": "\"M06\""
+                        "value": "M06"
                       },
                       {
                         "type": "Literal",
                         "start": 998,
                         "end": 999,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       }
                     ],
                     "optional": false
@@ -344,8 +337,7 @@
                         "type": "Literal",
                         "start": 1045,
                         "end": 1096,
-                        "value": "instance of PlainDate returned, not PlainDateTime",
-                        "raw": "\"instance of PlainDate returned, not PlainDateTime\""
+                        "value": "instance of PlainDate returned, not PlainDateTime"
                       }
                     ],
                     "optional": false

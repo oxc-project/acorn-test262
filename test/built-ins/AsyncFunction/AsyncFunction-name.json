@@ -107,8 +107,7 @@
             "type": "Literal",
             "start": 428,
             "end": 443,
-            "value": "AsyncFunction",
-            "raw": "\"AsyncFunction\""
+            "value": "AsyncFunction"
           }
         ],
         "optional": false
@@ -139,8 +138,7 @@
             "type": "Literal",
             "start": 479,
             "end": 485,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -171,8 +169,7 @@
             "type": "Literal",
             "start": 523,
             "end": 529,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 566,
             "end": 572,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

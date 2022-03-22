@@ -87,8 +87,7 @@
                         "type": "Literal",
                         "start": 385,
                         "end": 432,
-                        "value": "#1: Exception ===true. Actual:  Exception ===",
-                        "raw": "'#1: Exception ===true. Actual:  Exception ==='"
+                        "value": "#1: Exception ===true. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -192,8 +191,7 @@
                         "type": "Literal",
                         "start": 526,
                         "end": 574,
-                        "value": "#2: Exception ===false. Actual:  Exception ===",
-                        "raw": "'#2: Exception ===false. Actual:  Exception ==='"
+                        "value": "#2: Exception ===false. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -322,8 +320,7 @@
                         "type": "Literal",
                         "start": 677,
                         "end": 725,
-                        "value": "#3: Exception ===false. Actual:  Exception ===",
-                        "raw": "'#3: Exception ===false. Actual:  Exception ==='"
+                        "value": "#3: Exception ===false. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {
@@ -452,8 +449,7 @@
                         "type": "Literal",
                         "start": 826,
                         "end": 873,
-                        "value": "#4: Exception ===true. Actual:  Exception ===",
-                        "raw": "'#4: Exception ===true. Actual:  Exception ==='"
+                        "value": "#4: Exception ===true. Actual:  Exception ==="
                       },
                       "operator": "+",
                       "right": {

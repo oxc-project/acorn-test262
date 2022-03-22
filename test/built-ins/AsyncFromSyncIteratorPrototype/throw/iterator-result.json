@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 879,
                 "end": 890,
-                "value": "Catch me.",
-                "raw": "\"Catch me.\""
+                "value": "Catch me."
               }
             ]
           }
@@ -74,8 +73,7 @@
                 "type": "Literal",
                 "start": 917,
                 "end": 919,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             }
           },
@@ -98,8 +96,7 @@
                   "type": "Literal",
                   "start": 946,
                   "end": 965,
-                  "value": "throw closes iter",
-                  "raw": "'throw closes iter'"
+                  "value": "throw closes iter"
                 }
               ]
             }
@@ -117,8 +114,7 @@
                 "type": "Literal",
                 "start": 976,
                 "end": 978,
-                "value": 43,
-                "raw": "43"
+                "value": 43
               }
             }
           }
@@ -383,8 +379,7 @@
                                             "type": "Literal",
                                             "start": 1240,
                                             "end": 1281,
-                                            "value": "throw should cause rejection of promise",
-                                            "raw": "'throw should cause rejection of promise'"
+                                            "value": "throw should cause rejection of promise"
                                           }
                                         ]
                                       }
@@ -461,8 +456,7 @@
                                               "type": "Literal",
                                               "start": 1352,
                                               "end": 1403,
-                                              "value": "promise should be reject with custom error, got: ",
-                                              "raw": "\"promise should be reject with custom error, got: \""
+                                              "value": "promise should be reject with custom error, got: "
                                             },
                                             "operator": "+",
                                             "right": {
@@ -641,8 +635,7 @@
                                                             "type": "Literal",
                                                             "start": 1495,
                                                             "end": 1522,
-                                                            "value": "the iterator is completed",
-                                                            "raw": "'the iterator is completed'"
+                                                            "value": "the iterator is completed"
                                                           }
                                                         ],
                                                         "optional": false
@@ -692,8 +685,7 @@
                                                             "type": "Literal",
                                                             "start": 1568,
                                                             "end": 1588,
-                                                            "value": "value is undefined",
-                                                            "raw": "'value is undefined'"
+                                                            "value": "value is undefined"
                                                           }
                                                         ],
                                                         "optional": false

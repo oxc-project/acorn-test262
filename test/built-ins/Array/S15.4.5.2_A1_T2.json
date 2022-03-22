@@ -51,8 +51,7 @@
             "type": "Literal",
             "start": 467,
             "end": 477,
-            "value": 4294967295,
-            "raw": "4294967295"
+            "value": 4294967295
           },
           "computed": true,
           "optional": false
@@ -61,8 +60,7 @@
           "type": "Literal",
           "start": 481,
           "end": 482,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -117,15 +115,13 @@
             "type": "Literal",
             "start": 511,
             "end": 512,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 514,
             "end": 557,
-            "value": "The value of x.length is expected to be 0",
-            "raw": "'The value of x.length is expected to be 0'"
+            "value": "The value of x.length is expected to be 0"
           }
         ],
         "optional": false
@@ -179,8 +175,7 @@
             "type": "Literal",
             "start": 575,
             "end": 576,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -189,8 +184,7 @@
           "type": "Literal",
           "start": 580,
           "end": 581,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -217,8 +211,7 @@
             "type": "Literal",
             "start": 585,
             "end": 595,
-            "value": 4294967295,
-            "raw": "4294967295"
+            "value": 4294967295
           },
           "computed": true,
           "optional": false
@@ -227,8 +220,7 @@
           "type": "Literal",
           "start": 599,
           "end": 600,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -283,15 +275,13 @@
             "type": "Literal",
             "start": 629,
             "end": 630,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 675,
-            "value": "The value of y.length is expected to be 2",
-            "raw": "'The value of y.length is expected to be 2'"
+            "value": "The value of y.length is expected to be 2"
           }
         ],
         "optional": false

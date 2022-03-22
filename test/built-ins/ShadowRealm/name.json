@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 732,
             "end": 738,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -53,8 +52,7 @@
                   "type": "Literal",
                   "start": 751,
                   "end": 764,
-                  "value": "ShadowRealm",
-                  "raw": "\"ShadowRealm\""
+                  "value": "ShadowRealm"
                 },
                 "kind": "init"
               },

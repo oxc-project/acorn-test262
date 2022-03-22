@@ -77,8 +77,7 @@
                     "type": "Literal",
                     "start": 321,
                     "end": 322,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 "kind": "init"
@@ -166,8 +165,7 @@
             "type": "Literal",
             "start": 396,
             "end": 407,
-            "value": "UNDEFINED",
-            "raw": "\"UNDEFINED\""
+            "value": "UNDEFINED"
           }
         }
       ],
@@ -249,8 +247,7 @@
                     "type": "Literal",
                     "start": 572,
                     "end": 749,
-                    "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.length === __expected.length. Actual: ",
-                    "raw": "'#1: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.length === __expected.length. Actual: '"
+                    "value": "#1: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.length === __expected.length. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -356,8 +353,7 @@
                     "type": "Literal",
                     "start": 1018,
                     "end": 1193,
-                    "value": "#2: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.index === __expected.index. Actual: ",
-                    "raw": "'#2: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.index === __expected.index. Actual: '"
+                    "value": "#2: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.index === __expected.index. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -463,8 +459,7 @@
                     "type": "Literal",
                     "start": 1461,
                     "end": 1636,
-                    "value": "#3: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.input === __expected.input. Actual: ",
-                    "raw": "'#3: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.input === __expected.input. Actual: '"
+                    "value": "#3: __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase.input === __expected.input. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -517,8 +512,7 @@
               "type": "Literal",
               "start": 1850,
               "end": 1851,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -673,8 +667,7 @@
                                       "type": "Literal",
                                       "start": 1968,
                                       "end": 1973,
-                                      "value": "#4.",
-                                      "raw": "'#4.'"
+                                      "value": "#4."
                                     },
                                     "operator": "+",
                                     "right": {
@@ -689,8 +682,7 @@
                                     "type": "Literal",
                                     "start": 1984,
                                     "end": 2121,
-                                    "value": ": __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase[",
-                                    "raw": "': __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase['"
+                                    "value": ": __obj = {valueOf:function(){}, toString:void 0}; __upperCase = new String(__obj).toUpperCase(); __expected =\"UNDEFINED\"; __upperCase["
                                   }
                                 },
                                 "operator": "+",
@@ -706,8 +698,7 @@
                                 "type": "Literal",
                                 "start": 2132,
                                 "end": 2138,
-                                "value": "]===",
-                                "raw": "']==='"
+                                "value": "]==="
                               }
                             },
                             "operator": "+",
@@ -736,8 +727,7 @@
                             "type": "Literal",
                             "start": 2161,
                             "end": 2173,
-                            "value": ". Actual: ",
-                            "raw": "'. Actual: '"
+                            "value": ". Actual: "
                           }
                         },
                         "operator": "+",

@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 799,
             "end": 862,
-            "value": "isConstructor(DataView.prototype.getUint32) must return false",
-            "raw": "'isConstructor(DataView.prototype.getUint32) must return false'"
+            "value": "isConstructor(DataView.prototype.getUint32) must return false"
           }
         ],
         "optional": false
@@ -184,8 +183,7 @@
                                 "type": "Literal",
                                 "start": 940,
                                 "end": 942,
-                                "value": 16,
-                                "raw": "16"
+                                "value": 16
                               }
                             ]
                           }
@@ -227,15 +225,13 @@
                         "type": "Literal",
                         "start": 963,
                         "end": 964,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 966,
                         "end": 967,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ]
                   }
@@ -247,8 +243,7 @@
             "type": "Literal",
             "start": 973,
             "end": 1060,
-            "value": "`let dv = new DataView(new ArrayBuffer(16)); new dv.getUint32(0, 0)` throws TypeError",
-            "raw": "'`let dv = new DataView(new ArrayBuffer(16)); new dv.getUint32(0, 0)` throws TypeError'"
+            "value": "`let dv = new DataView(new ArrayBuffer(16)); new dv.getUint32(0, 0)` throws TypeError"
           }
         ],
         "optional": false

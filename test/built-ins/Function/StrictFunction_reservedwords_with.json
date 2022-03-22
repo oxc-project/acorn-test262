@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 798,
                         "end": 826,
-                        "value": "'use strict'; with ({}) {}",
-                        "raw": "\"'use strict'; with ({}) {}\""
+                        "value": "'use strict'; with ({}) {}"
                       }
                     ]
                   }
@@ -83,8 +82,7 @@
             "type": "Literal",
             "start": 832,
             "end": 911,
-            "value": "`new Function(\"'use strict'; with ({}) {}\")` throws a SyntaxError exception",
-            "raw": "'`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception'"
+            "value": "`new Function(\"'use strict'; with ({}) {}\")` throws a SyntaxError exception"
           }
         ],
         "optional": false

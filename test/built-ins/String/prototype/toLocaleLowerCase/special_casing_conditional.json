@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 939,
                 "end": 947,
-                "value": "Σ",
-                "raw": "\"\\u03A3\""
+                "value": "Σ"
               },
               "property": {
                 "type": "Identifier",
@@ -62,15 +61,13 @@
             "type": "Literal",
             "start": 971,
             "end": 979,
-            "value": "σ",
-            "raw": "\"\\u03C3\""
+            "value": "σ"
           },
           {
             "type": "Literal",
             "start": 983,
             "end": 1018,
-            "value": "Single GREEK CAPITAL LETTER SIGMA",
-            "raw": "\"Single GREEK CAPITAL LETTER SIGMA\""
+            "value": "Single GREEK CAPITAL LETTER SIGMA"
           }
         ],
         "optional": false
@@ -116,8 +113,7 @@
                 "type": "Literal",
                 "start": 1103,
                 "end": 1112,
-                "value": "AΣ",
-                "raw": "\"A\\u03A3\""
+                "value": "AΣ"
               },
               "property": {
                 "type": "Identifier",
@@ -135,15 +131,13 @@
             "type": "Literal",
             "start": 1136,
             "end": 1145,
-            "value": "aς",
-            "raw": "\"a\\u03C2\""
+            "value": "aς"
           },
           {
             "type": "Literal",
             "start": 1149,
             "end": 1191,
-            "value": "Sigma preceded by LATIN CAPITAL LETTER A",
-            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A\""
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A"
           }
         ],
         "optional": false
@@ -189,8 +183,7 @@
                 "type": "Literal",
                 "start": 1215,
                 "end": 1235,
-                "value": "𝒢Σ",
-                "raw": "\"\\uD835\\uDCA2\\u03A3\""
+                "value": "𝒢Σ"
               },
               "property": {
                 "type": "Identifier",
@@ -208,15 +201,13 @@
             "type": "Literal",
             "start": 1259,
             "end": 1279,
-            "value": "𝒢ς",
-            "raw": "\"\\uD835\\uDCA2\\u03C2\""
+            "value": "𝒢ς"
           },
           {
             "type": "Literal",
             "start": 1283,
             "end": 1352,
-            "value": "Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)",
-            "raw": "\"Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)\""
+            "value": "Sigma preceded by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)"
           }
         ],
         "optional": false
@@ -262,8 +253,7 @@
                 "type": "Literal",
                 "start": 1376,
                 "end": 1386,
-                "value": "A.Σ",
-                "raw": "\"A.\\u03A3\""
+                "value": "A.Σ"
               },
               "property": {
                 "type": "Identifier",
@@ -281,15 +271,13 @@
             "type": "Literal",
             "start": 1410,
             "end": 1420,
-            "value": "a.ς",
-            "raw": "\"a.\\u03C2\""
+            "value": "a.ς"
           },
           {
             "type": "Literal",
             "start": 1424,
             "end": 1453,
-            "value": "Sigma preceded by FULL STOP",
-            "raw": "\"Sigma preceded by FULL STOP\""
+            "value": "Sigma preceded by FULL STOP"
           }
         ],
         "optional": false
@@ -335,8 +323,7 @@
                 "type": "Literal",
                 "start": 1477,
                 "end": 1492,
-                "value": "A­Σ",
-                "raw": "\"A\\u00AD\\u03A3\""
+                "value": "A­Σ"
               },
               "property": {
                 "type": "Identifier",
@@ -354,15 +341,13 @@
             "type": "Literal",
             "start": 1516,
             "end": 1531,
-            "value": "a­ς",
-            "raw": "\"a\\u00AD\\u03C2\""
+            "value": "a­ς"
           },
           {
             "type": "Literal",
             "start": 1535,
             "end": 1573,
-            "value": "Sigma preceded by SOFT HYPHEN (00AD)",
-            "raw": "\"Sigma preceded by SOFT HYPHEN (00AD)\""
+            "value": "Sigma preceded by SOFT HYPHEN (00AD)"
           }
         ],
         "optional": false
@@ -408,8 +393,7 @@
                 "type": "Literal",
                 "start": 1597,
                 "end": 1618,
-                "value": "A𝉂Σ",
-                "raw": "\"A\\uD834\\uDE42\\u03A3\""
+                "value": "A𝉂Σ"
               },
               "property": {
                 "type": "Identifier",
@@ -427,15 +411,13 @@
             "type": "Literal",
             "start": 1642,
             "end": 1663,
-            "value": "a𝉂ς",
-            "raw": "\"a\\uD834\\uDE42\\u03C2\""
+            "value": "a𝉂ς"
           },
           {
             "type": "Literal",
             "start": 1667,
             "end": 1738,
-            "value": "Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)",
-            "raw": "\"Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)\""
+            "value": "Sigma preceded by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)"
           }
         ],
         "optional": false
@@ -481,8 +463,7 @@
                 "type": "Literal",
                 "start": 1762,
                 "end": 1776,
-                "value": "ͅΣ",
-                "raw": "\"\\u0345\\u03A3\""
+                "value": "ͅΣ"
               },
               "property": {
                 "type": "Identifier",
@@ -500,15 +481,13 @@
             "type": "Literal",
             "start": 1800,
             "end": 1814,
-            "value": "ͅσ",
-            "raw": "\"\\u0345\\u03C3\""
+            "value": "ͅσ"
           },
           {
             "type": "Literal",
             "start": 1818,
             "end": 1874,
-            "value": "Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)",
-            "raw": "\"Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)\""
+            "value": "Sigma preceded by COMBINING GREEK YPOGEGRAMMENI (0345)"
           }
         ],
         "optional": false
@@ -554,8 +533,7 @@
                 "type": "Literal",
                 "start": 1898,
                 "end": 1918,
-                "value": "ᾼΣ",
-                "raw": "\"\\u0391\\u0345\\u03A3\""
+                "value": "ᾼΣ"
               },
               "property": {
                 "type": "Identifier",
@@ -573,15 +551,13 @@
             "type": "Literal",
             "start": 1942,
             "end": 1962,
-            "value": "ᾳς",
-            "raw": "\"\\u03B1\\u0345\\u03C2\""
+            "value": "ᾳς"
           },
           {
             "type": "Literal",
             "start": 1966,
             "end": 2057,
-            "value": "Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)",
-            "raw": "\"Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)\""
+            "value": "Sigma preceded by GREEK CAPITAL LETTER ALPHA (0391), COMBINING GREEK YPOGEGRAMMENI (0345)"
           }
         ],
         "optional": false
@@ -627,8 +603,7 @@
                 "type": "Literal",
                 "start": 2151,
                 "end": 2161,
-                "value": "AΣB",
-                "raw": "\"A\\u03A3B\""
+                "value": "AΣB"
               },
               "property": {
                 "type": "Identifier",
@@ -646,15 +621,13 @@
             "type": "Literal",
             "start": 2185,
             "end": 2195,
-            "value": "aσb",
-            "raw": "\"a\\u03C3b\""
+            "value": "aσb"
           },
           {
             "type": "Literal",
             "start": 2199,
             "end": 2241,
-            "value": "Sigma followed by LATIN CAPITAL LETTER B",
-            "raw": "\"Sigma followed by LATIN CAPITAL LETTER B\""
+            "value": "Sigma followed by LATIN CAPITAL LETTER B"
           }
         ],
         "optional": false
@@ -700,8 +673,7 @@
                 "type": "Literal",
                 "start": 2265,
                 "end": 2286,
-                "value": "AΣ𝒢",
-                "raw": "\"A\\u03A3\\uD835\\uDCA2\""
+                "value": "AΣ𝒢"
               },
               "property": {
                 "type": "Identifier",
@@ -719,15 +691,13 @@
             "type": "Literal",
             "start": 2310,
             "end": 2331,
-            "value": "aσ𝒢",
-            "raw": "\"a\\u03C3\\uD835\\uDCA2\""
+            "value": "aσ𝒢"
           },
           {
             "type": "Literal",
             "start": 2335,
             "end": 2404,
-            "value": "Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)",
-            "raw": "\"Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)\""
+            "value": "Sigma followed by MATHEMATICAL SCRIPT CAPITAL G (D835 DCA2 = 1D4A2)"
           }
         ],
         "optional": false
@@ -773,8 +743,7 @@
                 "type": "Literal",
                 "start": 2428,
                 "end": 2439,
-                "value": "AΣ.b",
-                "raw": "\"A\\u03A3.b\""
+                "value": "AΣ.b"
               },
               "property": {
                 "type": "Identifier",
@@ -792,15 +761,13 @@
             "type": "Literal",
             "start": 2463,
             "end": 2474,
-            "value": "aσ.b",
-            "raw": "\"a\\u03C3.b\""
+            "value": "aσ.b"
           },
           {
             "type": "Literal",
             "start": 2478,
             "end": 2507,
-            "value": "Sigma followed by FULL STOP",
-            "raw": "\"Sigma followed by FULL STOP\""
+            "value": "Sigma followed by FULL STOP"
           }
         ],
         "optional": false
@@ -846,8 +813,7 @@
                 "type": "Literal",
                 "start": 2531,
                 "end": 2547,
-                "value": "AΣ­B",
-                "raw": "\"A\\u03A3\\u00ADB\""
+                "value": "AΣ­B"
               },
               "property": {
                 "type": "Identifier",
@@ -865,15 +831,13 @@
             "type": "Literal",
             "start": 2571,
             "end": 2587,
-            "value": "aσ­b",
-            "raw": "\"a\\u03C3\\u00ADb\""
+            "value": "aσ­b"
           },
           {
             "type": "Literal",
             "start": 2591,
             "end": 2629,
-            "value": "Sigma followed by SOFT HYPHEN (00AD)",
-            "raw": "\"Sigma followed by SOFT HYPHEN (00AD)\""
+            "value": "Sigma followed by SOFT HYPHEN (00AD)"
           }
         ],
         "optional": false
@@ -919,8 +883,7 @@
                 "type": "Literal",
                 "start": 2653,
                 "end": 2675,
-                "value": "AΣ𝉂B",
-                "raw": "\"A\\u03A3\\uD834\\uDE42B\""
+                "value": "AΣ𝉂B"
               },
               "property": {
                 "type": "Identifier",
@@ -938,15 +901,13 @@
             "type": "Literal",
             "start": 2699,
             "end": 2721,
-            "value": "aσ𝉂b",
-            "raw": "\"a\\u03C3\\uD834\\uDE42b\""
+            "value": "aσ𝉂b"
           },
           {
             "type": "Literal",
             "start": 2725,
             "end": 2796,
-            "value": "Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)",
-            "raw": "\"Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)\""
+            "value": "Sigma followed by COMBINING GREEK MUSICAL TRISEME (D834 DE42 = 1D242)"
           }
         ],
         "optional": false
@@ -992,8 +953,7 @@
                 "type": "Literal",
                 "start": 2820,
                 "end": 2835,
-                "value": "AΣͅ",
-                "raw": "\"A\\u03A3\\u0345\""
+                "value": "AΣͅ"
               },
               "property": {
                 "type": "Identifier",
@@ -1011,15 +971,13 @@
             "type": "Literal",
             "start": 2859,
             "end": 2874,
-            "value": "aςͅ",
-            "raw": "\"a\\u03C2\\u0345\""
+            "value": "aςͅ"
           },
           {
             "type": "Literal",
             "start": 2878,
             "end": 2934,
-            "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)",
-            "raw": "\"Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)\""
+            "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345)"
           }
         ],
         "optional": false
@@ -1065,8 +1023,7 @@
                 "type": "Literal",
                 "start": 2958,
                 "end": 2979,
-                "value": "AΣͅΑ",
-                "raw": "\"A\\u03A3\\u0345\\u0391\""
+                "value": "AΣͅΑ"
               },
               "property": {
                 "type": "Identifier",
@@ -1084,15 +1041,13 @@
             "type": "Literal",
             "start": 3003,
             "end": 3024,
-            "value": "aσͅα",
-            "raw": "\"a\\u03C3\\u0345\\u03B1\""
+            "value": "aσͅα"
           },
           {
             "type": "Literal",
             "start": 3028,
             "end": 3119,
-            "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)",
-            "raw": "\"Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)\""
+            "value": "Sigma followed by COMBINING GREEK YPOGEGRAMMENI (0345), GREEK CAPITAL LETTER ALPHA (0391)"
           }
         ],
         "optional": false

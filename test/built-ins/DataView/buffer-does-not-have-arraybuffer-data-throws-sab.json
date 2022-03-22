@@ -69,8 +69,7 @@
                               "type": "Literal",
                               "start": 675,
                               "end": 720,
-                              "value": "buffer should be verified before byteOffset",
-                              "raw": "\"buffer should be verified before byteOffset\""
+                              "value": "buffer should be verified before byteOffset"
                             }
                           ]
                         }
@@ -171,8 +170,7 @@
             "type": "Literal",
             "start": 797,
             "end": 801,
-            "value": "{}",
-            "raw": "\"{}\""
+            "value": "{}"
           }
         ],
         "optional": false
@@ -263,8 +261,7 @@
             "type": "Literal",
             "start": 871,
             "end": 875,
-            "value": "[]",
-            "raw": "\"[]\""
+            "value": "[]"
           }
         ],
         "optional": false
@@ -386,8 +383,7 @@
             "type": "Literal",
             "start": 971,
             "end": 992,
-            "value": "typedArray instance",
-            "raw": "\"typedArray instance\""
+            "value": "typedArray instance"
           }
         ],
         "optional": false
@@ -434,8 +430,7 @@
                     "type": "Literal",
                     "start": 1043,
                     "end": 1044,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ]
               },
@@ -443,8 +438,7 @@
                 "type": "Literal",
                 "start": 1047,
                 "end": 1048,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -537,8 +531,7 @@
             "type": "Literal",
             "start": 1120,
             "end": 1139,
-            "value": "dataView instance",
-            "raw": "\"dataView instance\""
+            "value": "dataView instance"
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1667,
                 "end": 1668,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               }
             ]
           }
@@ -78,8 +77,7 @@
                 "type": "Literal",
                 "start": 1705,
                 "end": 1706,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -332,8 +330,7 @@
                           "type": "Literal",
                           "start": 1928,
                           "end": 1929,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         {
                           "type": "Identifier",
@@ -409,8 +406,7 @@
                             "type": "Literal",
                             "start": 1989,
                             "end": 1990,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         ],
                         "optional": false
@@ -429,8 +425,7 @@
                           "type": "Literal",
                           "start": 2011,
                           "end": 2020,
-                          "value": "value: ",
-                          "raw": "\"value: \""
+                          "value": "value: "
                         },
                         "operator": "+",
                         "right": {
@@ -492,8 +487,7 @@
                           "type": "Literal",
                           "start": 2085,
                           "end": 2115,
-                          "value": "return is undefined, value: ",
-                          "raw": "\"return is undefined, value: \""
+                          "value": "return is undefined, value: "
                         },
                         "operator": "+",
                         "right": {

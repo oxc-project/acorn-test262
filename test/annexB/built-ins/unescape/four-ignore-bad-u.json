@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 924,
                 "end": 932,
-                "value": "%U0000",
-                "raw": "'%U0000'"
+                "value": "%U0000"
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
             "type": "Literal",
             "start": 935,
             "end": 943,
-            "value": "%U0000",
-            "raw": "'%U0000'"
+            "value": "%U0000"
           }
         ],
         "optional": false
@@ -106,8 +104,7 @@
                 "type": "Literal",
                 "start": 972,
                 "end": 980,
-                "value": "%t0000",
-                "raw": "'%t0000'"
+                "value": "%t0000"
               }
             ],
             "optional": false
@@ -116,8 +113,7 @@
             "type": "Literal",
             "start": 983,
             "end": 991,
-            "value": "%t0000",
-            "raw": "'%t0000'"
+            "value": "%t0000"
           }
         ],
         "optional": false
@@ -166,8 +162,7 @@
                 "type": "Literal",
                 "start": 1020,
                 "end": 1028,
-                "value": "%v0000",
-                "raw": "'%v0000'"
+                "value": "%v0000"
               }
             ],
             "optional": false
@@ -176,8 +171,7 @@
             "type": "Literal",
             "start": 1031,
             "end": 1039,
-            "value": "%v0000",
-            "raw": "'%v0000'"
+            "value": "%v0000"
           }
         ],
         "optional": false
@@ -226,8 +220,7 @@
                 "type": "Literal",
                 "start": 1068,
                 "end": 1076,
-                "value": "%%0000",
-                "raw": "'%%0000'"
+                "value": "%%0000"
               }
             ],
             "optional": false
@@ -236,8 +229,7 @@
             "type": "Literal",
             "start": 1079,
             "end": 1088,
-            "value": "%\u000000",
-            "raw": "'%\\x0000'"
+            "value": "%\u000000"
           }
         ],
         "optional": false

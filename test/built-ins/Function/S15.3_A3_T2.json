@@ -34,8 +34,7 @@
           "type": "Literal",
           "start": 379,
           "end": 384,
-          "value": "red",
-          "raw": "\"red\""
+          "value": "red"
         }
       }
     },
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 399,
             "end": 405,
-            "value": "mars",
-            "raw": "\"mars\""
+            "value": "mars"
           }
         }
       ],
@@ -108,15 +106,13 @@
                 "type": "Literal",
                 "start": 430,
                 "end": 444,
-                "value": "blablastring",
-                "raw": "\"blablastring\""
+                "value": "blablastring"
               },
               {
                 "type": "Literal",
                 "start": 446,
                 "end": 466,
-                "value": "return this.color;",
-                "raw": "\"return this.color;\""
+                "value": "return this.color;"
               }
             ],
             "optional": false
@@ -170,15 +166,13 @@
             "type": "Literal",
             "start": 492,
             "end": 497,
-            "value": "red",
-            "raw": "\"red\""
+            "value": "red"
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 522,
-            "value": "f() must return \"red\"",
-            "raw": "'f() must return \"red\"'"
+            "value": "f() must return \"red\""
           }
         ],
         "optional": false
@@ -234,8 +228,7 @@
                 "type": "Literal",
                 "start": 554,
                 "end": 575,
-                "value": "return this.planet;",
-                "raw": "\"return this.planet;\""
+                "value": "return this.planet;"
               }
             ],
             "optional": false
@@ -289,15 +282,13 @@
             "type": "Literal",
             "start": 601,
             "end": 607,
-            "value": "mars",
-            "raw": "\"mars\""
+            "value": "mars"
           },
           {
             "type": "Literal",
             "start": 609,
             "end": 633,
-            "value": "g() must return \"mars\"",
-            "raw": "'g() must return \"mars\"'"
+            "value": "g() must return \"mars\""
           }
         ],
         "optional": false

@@ -43,15 +43,13 @@
                         "type": "Literal",
                         "start": 532,
                         "end": 537,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       },
                       {
                         "type": "Literal",
                         "start": 539,
                         "end": 544,
-                        "value": "bar",
-                        "raw": "'bar'"
+                        "value": "bar"
                       }
                     ]
                   },
@@ -64,15 +62,13 @@
                         "type": "Literal",
                         "start": 550,
                         "end": 551,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 553,
                         "end": 554,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ]
                   }
@@ -148,8 +144,7 @@
             "type": "Literal",
             "start": 601,
             "end": 637,
-            "value": "clears a map and returns undefined",
-            "raw": "'clears a map and returns undefined'"
+            "value": "clears a map and returns undefined"
           }
         ],
         "optional": false
@@ -219,8 +214,7 @@
             "type": "Literal",
             "start": 680,
             "end": 715,
-            "value": "returns undefined on an empty map",
-            "raw": "'returns undefined on an empty map'"
+            "value": "returns undefined on an empty map"
           }
         ],
         "optional": false

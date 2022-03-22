@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 455,
                 "end": 456,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 458,
                 "end": 459,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 461,
                 "end": 462,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 464,
                 "end": 465,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -95,8 +91,7 @@
             "type": "Literal",
             "start": 499,
             "end": 502,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "ObjectExpression",
@@ -169,8 +164,7 @@
             "type": "Literal",
             "start": 563,
             "end": 571,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "ObjectExpression",
@@ -194,8 +188,7 @@
                   "type": "Literal",
                   "start": 584,
                   "end": 585,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               }
@@ -256,15 +249,13 @@
             "type": "Literal",
             "start": 623,
             "end": 624,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 626,
             "end": 641,
-            "value": "arrObj.length",
-            "raw": "'arrObj.length'"
+            "value": "arrObj.length"
           }
         ],
         "optional": false

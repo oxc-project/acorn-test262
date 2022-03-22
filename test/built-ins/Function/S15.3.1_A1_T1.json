@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 381,
                 "end": 403,
-                "value": "return arguments[0];",
-                "raw": "\"return arguments[0];\""
+                "value": "return arguments[0];"
               }
             ],
             "optional": false
@@ -80,8 +79,7 @@
             "type": "Literal",
             "start": 437,
             "end": 510,
-            "value": "The result of evaluating (f instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (f instanceof Function) is expected to be true'"
+            "value": "The result of evaluating (f instanceof Function) is expected to be true"
           }
         ],
         "optional": false
@@ -130,8 +128,7 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 533,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -140,15 +137,13 @@
             "type": "Literal",
             "start": 536,
             "end": 537,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 539,
             "end": 559,
-            "value": "f(1) must return 1",
-            "raw": "'f(1) must return 1'"
+            "value": "f(1) must return 1"
           }
         ],
         "optional": false
@@ -184,8 +179,7 @@
                 "type": "Literal",
                 "start": 584,
                 "end": 606,
-                "value": "return arguments[0];",
-                "raw": "\"return arguments[0];\""
+                "value": "return arguments[0];"
               }
             ]
           }
@@ -230,8 +224,7 @@
             "type": "Literal",
             "start": 641,
             "end": 714,
-            "value": "The result of evaluating (g instanceof Function) is expected to be true",
-            "raw": "'The result of evaluating (g instanceof Function) is expected to be true'"
+            "value": "The result of evaluating (g instanceof Function) is expected to be true"
           }
         ],
         "optional": false
@@ -280,8 +273,7 @@
                 "type": "Literal",
                 "start": 736,
                 "end": 739,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             ],
             "optional": false
@@ -290,15 +282,13 @@
             "type": "Literal",
             "start": 742,
             "end": 745,
-            "value": "A",
-            "raw": "\"A\""
+            "value": "A"
           },
           {
             "type": "Literal",
             "start": 747,
             "end": 771,
-            "value": "g(\"A\") must return \"A\"",
-            "raw": "'g(\"A\") must return \"A\"'"
+            "value": "g(\"A\") must return \"A\""
           }
         ],
         "optional": false
@@ -347,8 +337,7 @@
                 "type": "Literal",
                 "start": 793,
                 "end": 796,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             ],
             "optional": false
@@ -368,8 +357,7 @@
                 "type": "Literal",
                 "start": 801,
                 "end": 804,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             ],
             "optional": false
@@ -378,8 +366,7 @@
             "type": "Literal",
             "start": 807,
             "end": 861,
-            "value": "g(\"A\") must return the same value returned by f(\"A\")",
-            "raw": "'g(\"A\") must return the same value returned by f(\"A\")'"
+            "value": "g(\"A\") must return the same value returned by f(\"A\")"
           }
         ],
         "optional": false

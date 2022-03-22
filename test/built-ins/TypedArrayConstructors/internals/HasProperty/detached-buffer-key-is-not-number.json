@@ -74,15 +74,13 @@
                                 "type": "Literal",
                                 "start": 707,
                                 "end": 709,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 711,
                                 "end": 713,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -130,8 +128,7 @@
                         "type": "Literal",
                         "start": 749,
                         "end": 754,
-                        "value": "bar",
-                        "raw": "\"bar\""
+                        "value": "bar"
                       },
                       {
                         "type": "ObjectExpression",
@@ -155,8 +152,7 @@
                               "type": "Literal",
                               "start": 765,
                               "end": 767,
-                              "value": 42,
-                              "raw": "42"
+                              "value": 42
                             },
                             "kind": "init"
                           }
@@ -266,8 +262,7 @@
                             "type": "Literal",
                             "start": 845,
                             "end": 850,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -345,8 +340,7 @@
                             "type": "Literal",
                             "start": 900,
                             "end": 905,
-                            "value": "bar",
-                            "raw": "\"bar\""
+                            "value": "bar"
                           }
                         ],
                         "optional": false

@@ -58,15 +58,13 @@
                     "type": "Literal",
                     "start": 366,
                     "end": 370,
-                    "value": 0,
-                    "raw": "0x00"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 372,
                     "end": 376,
-                    "value": 47,
-                    "raw": "0x2F"
+                    "value": 47
                   }
                 ]
               },
@@ -79,15 +77,13 @@
                     "type": "Literal",
                     "start": 382,
                     "end": 386,
-                    "value": 58,
-                    "raw": "0x3A"
+                    "value": 58
                   },
                   {
                     "type": "Literal",
                     "start": 388,
                     "end": 392,
-                    "value": 64,
-                    "raw": "0x40"
+                    "value": 64
                   }
                 ]
               },
@@ -100,15 +96,13 @@
                     "type": "Literal",
                     "start": 398,
                     "end": 402,
-                    "value": 71,
-                    "raw": "0x47"
+                    "value": 71
                   },
                   {
                     "type": "Literal",
                     "start": 404,
                     "end": 408,
-                    "value": 96,
-                    "raw": "0x60"
+                    "value": 96
                   }
                 ]
               },
@@ -121,15 +115,13 @@
                     "type": "Literal",
                     "start": 414,
                     "end": 418,
-                    "value": 103,
-                    "raw": "0x67"
+                    "value": 103
                   },
                   {
                     "type": "Literal",
                     "start": 420,
                     "end": 426,
-                    "value": 65535,
-                    "raw": "0xFFFF"
+                    "value": 65535
                   }
                 ]
               }
@@ -162,8 +154,7 @@
               "type": "Literal",
               "start": 449,
               "end": 450,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -264,8 +255,7 @@
                       "type": "Literal",
                       "start": 527,
                       "end": 528,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false
@@ -312,8 +302,7 @@
                   "type": "Literal",
                   "start": 558,
                   "end": 559,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "computed": true,
                 "optional": false
@@ -373,8 +362,7 @@
                                   "type": "Literal",
                                   "start": 600,
                                   "end": 603,
-                                  "value": "%",
-                                  "raw": "\"%\""
+                                  "value": "%"
                                 },
                                 "operator": "+",
                                 "right": {
@@ -416,8 +404,7 @@
                                 "type": "Literal",
                                 "start": 636,
                                 "end": 639,
-                                "value": "1",
-                                "raw": "\"1\""
+                                "value": "1"
                               }
                             }
                           ],
@@ -596,8 +583,7 @@
                   "type": "Literal",
                   "start": 821,
                   "end": 902,
-                  "value": "#1: If string.charAt(k+1) does not represent hexadecimal digits, throw URIError",
-                  "raw": "'#1: If string.charAt(k+1) does not represent hexadecimal digits, throw URIError'"
+                  "value": "#1: If string.charAt(k+1) does not represent hexadecimal digits, throw URIError"
                 }
               ]
             }

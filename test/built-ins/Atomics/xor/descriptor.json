@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 297,
             "end": 302,
-            "value": "xor",
-            "raw": "'xor'"
+            "value": "xor"
           },
           {
             "type": "ObjectExpression",

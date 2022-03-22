@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 608,
             "end": 617,
-            "value": "trimEnd",
-            "raw": "\"trimEnd\""
+            "value": "trimEnd"
           },
           {
             "type": "ObjectExpression",

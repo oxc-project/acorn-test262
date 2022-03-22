@@ -92,8 +92,7 @@
                   "type": "Literal",
                   "start": 414,
                   "end": 435,
-                  "value": "VerifyBooleanObject",
-                  "raw": "\"VerifyBooleanObject\""
+                  "value": "VerifyBooleanObject"
                 }
               }
             ]
@@ -232,15 +231,13 @@
             "type": "Literal",
             "start": 525,
             "end": 546,
-            "value": "VerifyBooleanObject",
-            "raw": "\"VerifyBooleanObject\""
+            "value": "VerifyBooleanObject"
           },
           {
             "type": "Literal",
             "start": 548,
             "end": 561,
-            "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "value": "newObj.prop"
           }
         ],
         "optional": false

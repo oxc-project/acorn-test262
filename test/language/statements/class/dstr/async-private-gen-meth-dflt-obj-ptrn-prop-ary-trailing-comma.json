@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1883,
             "end": 1884,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -52,7 +51,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1906,
               "end": 1913,
               "name": "method"
@@ -133,8 +132,7 @@
                               "type": "Literal",
                               "start": 1934,
                               "end": 1936,
-                              "value": 45,
-                              "raw": "45"
+                              "value": 45
                             }
                           ]
                         },
@@ -187,8 +185,7 @@
                           "type": "Literal",
                           "start": 1966,
                           "end": 1968,
-                          "value": 45,
-                          "raw": "45"
+                          "value": 45
                         }
                       ],
                       "optional": false
@@ -224,8 +221,7 @@
                           "type": "Literal",
                           "start": 1999,
                           "end": 2000,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     }
@@ -274,14 +270,14 @@
                         "start": 2035,
                         "end": 2039
                       },
+                      "computed": false,
+                      "optional": false,
                       "property": {
-                        "type": "PrivateIdentifier",
+                        "type": "PrivateName",
                         "start": 2040,
                         "end": 2047,
                         "name": "method"
-                      },
-                      "computed": false,
-                      "optional": false
+                      }
                     }
                   }
                 ]
@@ -430,15 +426,13 @@
                             "type": "Literal",
                             "start": 2126,
                             "end": 2127,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2129,
                             "end": 2151,
-                            "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "value": "invoked exactly once"
                           }
                         ],
                         "optional": false

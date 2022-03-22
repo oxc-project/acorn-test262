@@ -114,8 +114,7 @@
             "type": "Literal",
             "start": 482,
             "end": 514,
-            "value": "`length` parameter is a Symbol",
-            "raw": "\"`length` parameter is a Symbol\""
+            "value": "`length` parameter is a Symbol"
           }
         ],
         "optional": false

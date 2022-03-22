@@ -48,29 +48,25 @@
                     "type": "Literal",
                     "start": 312,
                     "end": 313,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 315,
                     "end": 316,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 318,
                     "end": 319,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   },
                   {
                     "type": "Literal",
                     "start": 321,
                     "end": 322,
-                    "value": 4,
-                    "raw": "4"
+                    "value": 4
                   }
                 ]
               },
@@ -88,8 +84,7 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 337,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "UnaryExpression",
@@ -101,8 +96,7 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 341,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 }
               }
             ],
@@ -118,16 +112,14 @@
               "type": "Literal",
               "start": 345,
               "end": 346,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 381,
-            "value": "[1, 2, 3, 4].lastIndexOf(3, -3)",
-            "raw": "'[1, 2, 3, 4].lastIndexOf(3, -3)'"
+            "value": "[1, 2, 3, 4].lastIndexOf(3, -3)"
           }
         ],
         "optional": false

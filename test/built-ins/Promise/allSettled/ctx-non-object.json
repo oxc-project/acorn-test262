@@ -321,8 +321,7 @@
                         "type": "Literal",
                         "start": 601,
                         "end": 603,
-                        "value": 86,
-                        "raw": "86"
+                        "value": 86
                       },
                       {
                         "type": "ArrayExpression",
@@ -434,8 +433,7 @@
                         "type": "Literal",
                         "start": 679,
                         "end": 687,
-                        "value": "string",
-                        "raw": "'string'"
+                        "value": "string"
                       },
                       {
                         "type": "ArrayExpression",

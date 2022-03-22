@@ -91,8 +91,7 @@
             "type": "Literal",
             "start": 462,
             "end": 472,
-            "value": "writable",
-            "raw": "\"writable\""
+            "value": "writable"
           },
           {
             "type": "ObjectExpression",
@@ -289,8 +288,7 @@
             "type": "Literal",
             "start": 650,
             "end": 660,
-            "value": "writable",
-            "raw": "\"writable\""
+            "value": "writable"
           },
           {
             "type": "ObjectExpression",
@@ -372,8 +370,7 @@
             "type": "Literal",
             "start": 717,
             "end": 727,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           },
           {
             "type": "Identifier",
@@ -428,8 +425,7 @@
                 "type": "Literal",
                 "start": 764,
                 "end": 774,
-                "value": "property",
-                "raw": "\"property\""
+                "value": "property"
               }
             ],
             "optional": false
@@ -463,8 +459,7 @@
             "type": "Literal",
             "start": 801,
             "end": 811,
-            "value": "property",
-            "raw": "\"property\""
+            "value": "property"
           }
         ],
         "optional": false

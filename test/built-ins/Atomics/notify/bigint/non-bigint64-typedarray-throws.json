@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 618,
                       "end": 619,
-                      "value": 8,
-                      "raw": "8"
+                      "value": 8
                     }
                   }
                 ]
@@ -146,8 +145,7 @@
                               "type": "Literal",
                               "start": 695,
                               "end": 726,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -249,15 +247,13 @@
                         "type": "Literal",
                         "start": 796,
                         "end": 797,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 799,
                         "end": 800,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -270,8 +266,7 @@
             "type": "Literal",
             "start": 806,
             "end": 851,
-            "value": "`Atomics.wait(i64a, 0, 0)` throws TypeError",
-            "raw": "'`Atomics.wait(i64a, 0, 0)` throws TypeError'"
+            "value": "`Atomics.wait(i64a, 0, 0)` throws TypeError"
           }
         ],
         "optional": false
@@ -382,8 +377,7 @@
             "type": "Literal",
             "start": 938,
             "end": 997,
-            "value": "`Atomics.wait(i64a, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.wait(i64a, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.wait(i64a, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

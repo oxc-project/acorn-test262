@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 303,
             "end": 355,
-            "value": "Array.isArray(new SyntaxError()) must return false",
-            "raw": "'Array.isArray(new SyntaxError()) must return false'"
+            "value": "Array.isArray(new SyntaxError()) must return false"
           }
         ],
         "optional": false

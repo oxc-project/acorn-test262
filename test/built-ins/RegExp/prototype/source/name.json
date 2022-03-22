@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 768,
                   "end": 776,
-                  "value": "source",
-                  "raw": "'source'"
+                  "value": "source"
                 }
               ],
               "optional": false
@@ -113,8 +112,7 @@
             "type": "Literal",
             "start": 804,
             "end": 810,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -138,8 +136,7 @@
                   "type": "Literal",
                   "start": 823,
                   "end": 835,
-                  "value": "get source",
-                  "raw": "'get source'"
+                  "value": "get source"
                 },
                 "kind": "init"
               },

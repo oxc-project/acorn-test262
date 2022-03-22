@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 766,
             "end": 824,
-            "value": "isConstructor(Promise.prototype.catch) must return false",
-            "raw": "'isConstructor(Promise.prototype.catch) must return false'"
+            "value": "isConstructor(Promise.prototype.catch) must return false"
           }
         ],
         "optional": false
@@ -228,8 +227,7 @@
             "type": "Literal",
             "start": 913,
             "end": 978,
-            "value": "`let p = new Promise(() => {}); new p.catch()` throws TypeError",
-            "raw": "'`let p = new Promise(() => {}); new p.catch()` throws TypeError'"
+            "value": "`let p = new Promise(() => {}); new p.catch()` throws TypeError"
           }
         ],
         "optional": false

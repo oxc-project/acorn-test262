@@ -93,8 +93,7 @@
             "type": "Literal",
             "start": 555,
             "end": 558,
-            "value": "d",
-            "raw": "'d'"
+            "value": "d"
           }
         ],
         "optional": false
@@ -157,8 +156,7 @@
             "type": "Literal",
             "start": 605,
             "end": 621,
-            "value": "JSON.stringify",
-            "raw": "'JSON.stringify'"
+            "value": "JSON.stringify"
           }
         ],
         "optional": false

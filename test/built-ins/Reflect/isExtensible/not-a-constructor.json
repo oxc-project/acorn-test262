@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 762,
             "end": 817,
-            "value": "isConstructor(Reflect.isExtensible) must return false",
-            "raw": "'isConstructor(Reflect.isExtensible) must return false'"
+            "value": "isConstructor(Reflect.isExtensible) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 889,
             "end": 938,
-            "value": "`new Reflect.isExtensible({})` throws TypeError",
-            "raw": "'`new Reflect.isExtensible({})` throws TypeError'"
+            "value": "`new Reflect.isExtensible({})` throws TypeError"
           }
         ],
         "optional": false

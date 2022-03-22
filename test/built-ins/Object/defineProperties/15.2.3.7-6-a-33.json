@@ -264,15 +264,13 @@
             "type": "Literal",
             "start": 598,
             "end": 604,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "Literal",
             "start": 606,
             "end": 625,
-            "value": "setVerifyHelpProp",
-            "raw": "\"setVerifyHelpProp\""
+            "value": "setVerifyHelpProp"
           }
         ],
         "optional": false
@@ -303,8 +301,7 @@
             "type": "Literal",
             "start": 651,
             "end": 657,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           }
         ],
         "optional": false
@@ -335,8 +332,7 @@
             "type": "Literal",
             "start": 685,
             "end": 691,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           }
         ],
         "optional": false

@@ -12,7 +12,6 @@
         "start": 1790,
         "end": 1794,
         "value": {},
-        "raw": "/x/g",
         "regex": {
           "pattern": "x",
           "flags": "g"

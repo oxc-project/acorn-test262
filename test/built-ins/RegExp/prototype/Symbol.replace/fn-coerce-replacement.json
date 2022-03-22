@@ -76,8 +76,7 @@
                                   "type": "Literal",
                                   "start": 679,
                                   "end": 695,
-                                  "value": "toString value",
-                                  "raw": "'toString value'"
+                                  "value": "toString value"
                                 }
                               }
                             ]
@@ -131,8 +130,7 @@
                                       "type": "Literal",
                                       "start": 759,
                                       "end": 795,
-                                      "value": "This method should not be invoked.",
-                                      "raw": "'This method should not be invoked.'"
+                                      "value": "This method should not be invoked."
                                     }
                                   ]
                                 }
@@ -193,7 +191,6 @@
                 "start": 831,
                 "end": 834,
                 "value": {},
-                "raw": "/x/",
                 "regex": {
                   "pattern": "x",
                   "flags": ""
@@ -226,8 +223,7 @@
                 "type": "Literal",
                 "start": 851,
                 "end": 856,
-                "value": "[x]",
-                "raw": "'[x]'"
+                "value": "[x]"
               },
               {
                 "type": "Identifier",
@@ -242,8 +238,7 @@
             "type": "Literal",
             "start": 869,
             "end": 887,
-            "value": "[toString value]",
-            "raw": "'[toString value]'"
+            "value": "[toString value]"
           }
         ],
         "optional": false

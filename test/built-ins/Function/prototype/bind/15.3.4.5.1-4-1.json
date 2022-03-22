@@ -174,22 +174,19 @@
                 "type": "Literal",
                 "start": 464,
                 "end": 467,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 472,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               },
               {
                 "type": "Literal",
                 "start": 474,
                 "end": 477,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             ],
             "optional": false
@@ -243,15 +240,13 @@
             "type": "Literal",
             "start": 509,
             "end": 514,
-            "value": "abc",
-            "raw": "\"abc\""
+            "value": "abc"
           },
           {
             "type": "Literal",
             "start": 516,
             "end": 527,
-            "value": "newFunc()",
-            "raw": "'newFunc()'"
+            "value": "newFunc()"
           }
         ],
         "optional": false

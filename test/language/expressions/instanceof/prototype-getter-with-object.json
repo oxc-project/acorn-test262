@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 1174,
             "end": 1185,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",
@@ -160,8 +159,7 @@
                               "type": "Literal",
                               "start": 1251,
                               "end": 1283,
-                              "value": "'prototype' getter called once",
-                              "raw": "\"'prototype' getter called once\""
+                              "value": "'prototype' getter called once"
                             }
                           ],
                           "optional": false
@@ -301,8 +299,7 @@
             "type": "Literal",
             "start": 1411,
             "end": 1456,
-            "value": "[] should be instance of Function.prototype",
-            "raw": "\"[] should be instance of Function.prototype\""
+            "value": "[] should be instance of Function.prototype"
           }
         ],
         "optional": false
@@ -333,8 +330,7 @@
             "type": "Literal",
             "start": 1480,
             "end": 1507,
-            "value": "'prototype' getter called",
-            "raw": "\"'prototype' getter called\""
+            "value": "'prototype' getter called"
           }
         ],
         "optional": false

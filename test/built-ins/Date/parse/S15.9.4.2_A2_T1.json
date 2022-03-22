@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 320,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 329,
             "end": 383,
-            "value": "Date.parse.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.parse.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.parse.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -160,15 +158,13 @@
             "type": "Literal",
             "start": 422,
             "end": 423,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 425,
             "end": 477,
-            "value": "The value of Date.parse.length is expected to be 1",
-            "raw": "'The value of Date.parse.length is expected to be 1'"
+            "value": "The value of Date.parse.length is expected to be 1"
           }
         ],
         "optional": false

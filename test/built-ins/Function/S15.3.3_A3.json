@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 312,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
             "type": "Literal",
             "start": 315,
             "end": 367,
-            "value": "Function.hasOwnProperty(\"length\") must return true",
-            "raw": "'Function.hasOwnProperty(\"length\") must return true'"
+            "value": "Function.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -114,15 +112,13 @@
             "type": "Literal",
             "start": 404,
             "end": 405,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 407,
             "end": 457,
-            "value": "The value of Function.length is expected to be 1",
-            "raw": "'The value of Function.length is expected to be 1'"
+            "value": "The value of Function.length is expected to be 1"
           }
         ],
         "optional": false

@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 353,
             "end": 366,
-            "value": "toGMTString",
-            "raw": "\"toGMTString\""
+            "value": "toGMTString"
           },
           {
             "type": "ObjectExpression",

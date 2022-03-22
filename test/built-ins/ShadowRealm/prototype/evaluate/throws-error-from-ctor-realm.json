@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 392,
             "end": 402,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 406,
             "end": 479,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -389,8 +387,7 @@
                   "type": "Literal",
                   "start": 751,
                   "end": 763,
-                  "value": "globalThis",
-                  "raw": "'globalThis'"
+                  "value": "globalThis"
                 }
               ],
               "optional": false
@@ -400,8 +397,7 @@
             "type": "Literal",
             "start": 766,
             "end": 821,
-            "value": "throws a TypeError if return value can not be wrapped",
-            "raw": "'throws a TypeError if return value can not be wrapped'"
+            "value": "throws a TypeError if return value can not be wrapped"
           }
         ],
         "optional": false
@@ -478,8 +474,7 @@
                   "type": "Literal",
                   "start": 875,
                   "end": 894,
-                  "value": "throw new Error()",
-                  "raw": "'throw new Error()'"
+                  "value": "throw new Error()"
                 }
               ],
               "optional": false
@@ -489,8 +484,7 @@
             "type": "Literal",
             "start": 897,
             "end": 941,
-            "value": "throws a TypeError if completion is abrupt",
-            "raw": "'throws a TypeError if completion is abrupt'"
+            "value": "throws a TypeError if completion is abrupt"
           }
         ],
         "optional": false
@@ -567,8 +561,7 @@
                   "type": "Literal",
                   "start": 996,
                   "end": 997,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -578,8 +571,7 @@
             "type": "Literal",
             "start": 1000,
             "end": 1050,
-            "value": "throws a TypeError if sourceText is not a string",
-            "raw": "'throws a TypeError if sourceText is not a string'"
+            "value": "throws a TypeError if sourceText is not a string"
           }
         ],
         "optional": false
@@ -656,8 +648,7 @@
                   "type": "Literal",
                   "start": 1106,
                   "end": 1111,
-                  "value": "...",
-                  "raw": "'...'"
+                  "value": "..."
                 }
               ],
               "optional": false
@@ -667,8 +658,7 @@
             "type": "Literal",
             "start": 1114,
             "end": 1167,
-            "value": "throws a SyntaxError if the sourceText is not valid",
-            "raw": "'throws a SyntaxError if the sourceText is not valid'"
+            "value": "throws a SyntaxError if the sourceText is not valid"
           }
         ],
         "optional": false
@@ -798,8 +788,7 @@
                         "type": "Literal",
                         "start": 1261,
                         "end": 1311,
-                        "value": "This is invalid code and should not be evaluated",
-                        "raw": "'This is invalid code and should not be evaluated'"
+                        "value": "This is invalid code and should not be evaluated"
                       }
                     ],
                     "optional": false
@@ -812,8 +801,7 @@
             "type": "Literal",
             "start": 1317,
             "end": 1373,
-            "value": "throws a TypeError if this is not a ShadowRealm object",
-            "raw": "'throws a TypeError if this is not a ShadowRealm object'"
+            "value": "throws a TypeError if this is not a ShadowRealm object"
           }
         ],
         "optional": false

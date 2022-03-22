@@ -76,8 +76,7 @@
                   "type": "Literal",
                   "start": 742,
                   "end": 780,
-                  "value": "./await-import-evaluation_FIXTURE.js",
-                  "raw": "'./await-import-evaluation_FIXTURE.js'"
+                  "value": "./await-import-evaluation_FIXTURE.js"
                 }
               },
               "property": {
@@ -211,8 +210,7 @@
                               "type": "Literal",
                               "start": 866,
                               "end": 869,
-                              "value": 100,
-                              "raw": "100"
+                              "value": 100
                             }
                           },
                           {

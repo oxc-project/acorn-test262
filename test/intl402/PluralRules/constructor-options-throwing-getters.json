@@ -48,50 +48,43 @@
                 "type": "Literal",
                 "start": 317,
                 "end": 332,
-                "value": "localeMatcher",
-                "raw": "\"localeMatcher\""
+                "value": "localeMatcher"
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 342,
-                "value": "type",
-                "raw": "\"type\""
+                "value": "type"
               },
               {
                 "type": "Literal",
                 "start": 346,
                 "end": 368,
-                "value": "minimumIntegerDigits",
-                "raw": "\"minimumIntegerDigits\""
+                "value": "minimumIntegerDigits"
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 395,
-                "value": "minimumFractionDigits",
-                "raw": "\"minimumFractionDigits\""
+                "value": "minimumFractionDigits"
               },
               {
                 "type": "Literal",
                 "start": 399,
                 "end": 422,
-                "value": "maximumFractionDigits",
-                "raw": "\"maximumFractionDigits\""
+                "value": "maximumFractionDigits"
               },
               {
                 "type": "Literal",
                 "start": 426,
                 "end": 452,
-                "value": "minimumSignificantDigits",
-                "raw": "\"minimumSignificantDigits\""
+                "value": "minimumSignificantDigits"
               },
               {
                 "type": "Literal",
                 "start": 456,
                 "end": 482,
-                "value": "maximumSignificantDigits",
-                "raw": "\"maximumSignificantDigits\""
+                "value": "maximumSignificantDigits"
               }
             ]
           }
@@ -215,8 +208,7 @@
                               "type": "Literal",
                               "start": 582,
                               "end": 586,
-                              "value": "en",
-                              "raw": "\"en\""
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",

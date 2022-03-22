@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 332,
                 "end": 334,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ],
             "optional": false
@@ -62,8 +61,7 @@
             "type": "Literal",
             "start": 342,
             "end": 358,
-            "value": "parseFloat(\"\")",
-            "raw": "'parseFloat(\"\")'"
+            "value": "parseFloat(\"\")"
           }
         ],
         "optional": false

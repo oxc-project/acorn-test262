@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 324,
             "end": 334,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 338,
             "end": 414,
-            "value": "The value of `typeof Function.prototype.call` is expected to be \"function\"",
-            "raw": "'The value of `typeof Function.prototype.call` is expected to be \"function\"'"
+            "value": "The value of `typeof Function.prototype.call` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -172,15 +170,13 @@
             "type": "Literal",
             "start": 483,
             "end": 494,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 498,
             "end": 569,
-            "value": "The value of typeof Function.prototype.call.length is not \"undefined\"",
-            "raw": "'The value of typeof Function.prototype.call.length is not \"undefined\"'"
+            "value": "The value of typeof Function.prototype.call.length is not \"undefined\""
           }
         ],
         "optional": false
@@ -263,15 +259,13 @@
             "type": "Literal",
             "start": 623,
             "end": 624,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 626,
             "end": 691,
-            "value": "The value of Function.prototype.call.length is expected to be 1",
-            "raw": "'The value of Function.prototype.call.length is expected to be 1'"
+            "value": "The value of Function.prototype.call.length is expected to be 1"
           }
         ],
         "optional": false

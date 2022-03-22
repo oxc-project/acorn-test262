@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1466,
             "end": 1467,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 1498,
                         "end": 1524,
-                        "value": "./script-code_FIXTURE.js",
-                        "raw": "'./script-code_FIXTURE.js'"
+                        "value": "./script-code_FIXTURE.js"
                       }
                     },
                     "property": {
@@ -183,8 +181,7 @@
                                   "type": "Literal",
                                   "start": 1577,
                                   "end": 1590,
-                                  "value": "SyntaxError",
-                                  "raw": "'SyntaxError'"
+                                  "value": "SyntaxError"
                                 }
                               ],
                               "optional": false

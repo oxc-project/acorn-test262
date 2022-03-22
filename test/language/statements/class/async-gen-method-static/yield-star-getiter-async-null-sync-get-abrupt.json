@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1377,
             "end": 1378,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -190,8 +189,7 @@
                             "type": "Literal",
                             "start": 1506,
                             "end": 1507,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -236,8 +234,7 @@
             "type": "Literal",
             "start": 1552,
             "end": 1553,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -305,8 +302,7 @@
                         "type": "Literal",
                         "start": 1605,
                         "end": 1606,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   },
@@ -346,8 +342,7 @@
                           "type": "Literal",
                           "start": 1653,
                           "end": 1684,
-                          "value": "abrupt completion closes iter",
-                          "raw": "'abrupt completion closes iter'"
+                          "value": "abrupt completion closes iter"
                         }
                       ]
                     }
@@ -518,8 +513,7 @@
                             "type": "Literal",
                             "start": 1779,
                             "end": 1811,
-                            "value": "Promise incorrectly fulfilled.",
-                            "raw": "'Promise incorrectly fulfilled.'"
+                            "value": "Promise incorrectly fulfilled."
                           }
                         ]
                       }
@@ -592,8 +586,7 @@
                             "type": "Literal",
                             "start": 1854,
                             "end": 1869,
-                            "value": "reject reason",
-                            "raw": "'reject reason'"
+                            "value": "reject reason"
                           }
                         ],
                         "optional": false
@@ -637,8 +630,7 @@
                             "type": "Literal",
                             "start": 1898,
                             "end": 1899,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -809,8 +801,7 @@
                                             "type": "Literal",
                                             "start": 1978,
                                             "end": 2005,
-                                            "value": "the iterator is completed",
-                                            "raw": "'the iterator is completed'"
+                                            "value": "the iterator is completed"
                                           }
                                         ],
                                         "optional": false
@@ -860,8 +851,7 @@
                                             "type": "Literal",
                                             "start": 2047,
                                             "end": 2067,
-                                            "value": "value is undefined",
-                                            "raw": "'value is undefined'"
+                                            "value": "value is undefined"
                                           }
                                         ],
                                         "optional": false
@@ -963,8 +953,7 @@
             "type": "Literal",
             "start": 2141,
             "end": 2142,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

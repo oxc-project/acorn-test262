@@ -42,15 +42,13 @@
             "type": "Literal",
             "start": 339,
             "end": 346,
-            "value": "x = 1",
-            "raw": "\"x = 1\""
+            "value": "x = 1"
           },
           {
             "type": "Literal",
             "start": 348,
             "end": 355,
-            "value": "x = 2",
-            "raw": "\"x = 2\""
+            "value": "x = 2"
           }
         ],
         "optional": false
@@ -75,8 +73,7 @@
           "type": "Literal",
           "start": 368,
           "end": 369,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -107,8 +104,7 @@
                     "type": "Literal",
                     "start": 398,
                     "end": 445,
-                    "value": "#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: ",
-                    "raw": "'#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: '"
+                    "value": "#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

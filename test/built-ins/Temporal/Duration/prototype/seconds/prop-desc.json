@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 368,
-                "value": "seconds",
-                "raw": "\"seconds\""
+                "value": "seconds"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 411,
             "end": 421,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

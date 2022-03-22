@@ -27,134 +27,115 @@
                 "type": "Literal",
                 "start": 1164,
                 "end": 1166,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 1170,
                 "end": 1173,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 1177,
                 "end": 1182,
-                "value": "ab7",
-                "raw": "\"ab7\""
+                "value": "ab7"
               },
               {
                 "type": "Literal",
                 "start": 1186,
                 "end": 1200,
-                "value": "notalanguage",
-                "raw": "\"notalanguage\""
+                "value": "notalanguage"
               },
               {
                 "type": "Literal",
                 "start": 1204,
                 "end": 1215,
-                "value": "undefined",
-                "raw": "\"undefined\""
+                "value": "undefined"
               },
               {
                 "type": "Literal",
                 "start": 1282,
                 "end": 1291,
-                "value": "fr-Latn",
-                "raw": "\"fr-Latn\""
+                "value": "fr-Latn"
               },
               {
                 "type": "Literal",
                 "start": 1295,
                 "end": 1302,
-                "value": "fr-FR",
-                "raw": "\"fr-FR\""
+                "value": "fr-FR"
               },
               {
                 "type": "Literal",
                 "start": 1306,
                 "end": 1318,
-                "value": "sa-vaidika",
-                "raw": "\"sa-vaidika\""
+                "value": "sa-vaidika"
               },
               {
                 "type": "Literal",
                 "start": 1322,
                 "end": 1333,
-                "value": "fr-a-asdf",
-                "raw": "\"fr-a-asdf\""
+                "value": "fr-a-asdf"
               },
               {
                 "type": "Literal",
                 "start": 1337,
                 "end": 1351,
-                "value": "fr-x-private",
-                "raw": "\"fr-x-private\""
+                "value": "fr-x-private"
               },
               {
                 "type": "Literal",
                 "start": 1399,
                 "end": 1410,
-                "value": "i-klingon",
-                "raw": "\"i-klingon\""
+                "value": "i-klingon"
               },
               {
                 "type": "Literal",
                 "start": 1456,
                 "end": 1464,
-                "value": "zh-min",
-                "raw": "\"zh-min\""
+                "value": "zh-min"
               },
               {
                 "type": "Literal",
                 "start": 1468,
                 "end": 1480,
-                "value": "zh-min-nan",
-                "raw": "\"zh-min-nan\""
+                "value": "zh-min-nan"
               },
               {
                 "type": "Literal",
                 "start": 1529,
                 "end": 1538,
-                "value": "abcd-US",
-                "raw": "\"abcd-US\""
+                "value": "abcd-US"
               },
               {
                 "type": "Literal",
                 "start": 1542,
                 "end": 1552,
-                "value": "abcde-US",
-                "raw": "\"abcde-US\""
+                "value": "abcde-US"
               },
               {
                 "type": "Literal",
                 "start": 1556,
                 "end": 1567,
-                "value": "abcdef-US",
-                "raw": "\"abcdef-US\""
+                "value": "abcdef-US"
               },
               {
                 "type": "Literal",
                 "start": 1571,
                 "end": 1583,
-                "value": "abcdefg-US",
-                "raw": "\"abcdefg-US\""
+                "value": "abcdefg-US"
               },
               {
                 "type": "Literal",
                 "start": 1587,
                 "end": 1600,
-                "value": "abcdefgh-US",
-                "raw": "\"abcdefgh-US\""
+                "value": "abcdefgh-US"
               },
               {
                 "type": "Literal",
                 "start": 1605,
                 "end": 1606,
-                "value": 7,
-                "raw": "7"
+                "value": 7
               }
             ]
           }
@@ -278,8 +259,7 @@
                               "type": "Literal",
                               "start": 1721,
                               "end": 1725,
-                              "value": "en",
-                              "raw": "\"en\""
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",

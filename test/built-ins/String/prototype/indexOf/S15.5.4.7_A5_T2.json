@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 405,
-                "value": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~",
-                "raw": "\" !\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\""
+                "value": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
               }
             ]
           }
@@ -65,8 +64,7 @@
               "type": "Literal",
               "start": 511,
               "end": 512,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
@@ -83,8 +81,7 @@
               "type": "Literal",
               "start": 518,
               "end": 524,
-              "value": 32,
-              "raw": "0x0020"
+              "value": 32
             }
           }
         ],
@@ -105,8 +102,7 @@
           "type": "Literal",
           "start": 530,
           "end": 536,
-          "value": 126,
-          "raw": "0x007e"
+          "value": 126
         }
       },
       "update": {
@@ -289,8 +285,7 @@
                                           "type": "Literal",
                                           "start": 639,
                                           "end": 642,
-                                          "value": "#",
-                                          "raw": "'#'"
+                                          "value": "#"
                                         },
                                         "operator": "+",
                                         "right": {
@@ -312,8 +307,7 @@
                                               "type": "Literal",
                                               "start": 650,
                                               "end": 656,
-                                              "value": 32,
-                                              "raw": "0x0020"
+                                              "value": 32
                                             }
                                           }
                                         }
@@ -323,8 +317,7 @@
                                         "type": "Literal",
                                         "start": 660,
                                         "end": 705,
-                                        "value": ": TEST_STRING.indexOf( String.fromCharCode(",
-                                        "raw": "': TEST_STRING.indexOf( String.fromCharCode('"
+                                        "value": ": TEST_STRING.indexOf( String.fromCharCode("
                                       }
                                     },
                                     "operator": "+",
@@ -340,8 +333,7 @@
                                     "type": "Literal",
                                     "start": 712,
                                     "end": 717,
-                                    "value": "), ",
-                                    "raw": "'), '"
+                                    "value": "), "
                                   }
                                 },
                                 "operator": "+",
@@ -357,8 +349,7 @@
                                 "type": "Literal",
                                 "start": 724,
                                 "end": 731,
-                                "value": " )===",
-                                "raw": "' )==='"
+                                "value": " )==="
                               }
                             },
                             "operator": "+",
@@ -374,8 +365,7 @@
                             "type": "Literal",
                             "start": 738,
                             "end": 750,
-                            "value": ". Actual: ",
-                            "raw": "'. Actual: '"
+                            "value": ". Actual: "
                           }
                         },
                         "operator": "+",

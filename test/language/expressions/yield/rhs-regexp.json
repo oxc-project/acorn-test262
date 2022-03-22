@@ -174,7 +174,6 @@
                   "start": 654,
                   "end": 660,
                   "value": {},
-                  "raw": "/abc/i",
                   "regex": {
                     "pattern": "abc",
                     "flags": "i"
@@ -285,8 +284,7 @@
             "type": "Literal",
             "start": 731,
             "end": 759,
-            "value": "generator initially paused",
-            "raw": "'generator initially paused'"
+            "value": "generator initially paused"
           }
         ],
         "optional": false
@@ -336,8 +334,7 @@
             "type": "Literal",
             "start": 800,
             "end": 829,
-            "value": "first statement no executed",
-            "raw": "'first statement no executed'"
+            "value": "first statement no executed"
           }
         ],
         "optional": false
@@ -431,8 +428,7 @@
             "type": "Literal",
             "start": 894,
             "end": 933,
-            "value": "generator paused following expression",
-            "raw": "'generator paused following expression'"
+            "value": "generator paused following expression"
           }
         ],
         "optional": false
@@ -482,8 +478,7 @@
             "type": "Literal",
             "start": 974,
             "end": 1004,
-            "value": "first statement not executed",
-            "raw": "'first statement not executed'"
+            "value": "first statement not executed"
           }
         ],
         "optional": false
@@ -547,8 +542,7 @@
             "type": "Literal",
             "start": 1049,
             "end": 1073,
-            "value": "iteration not complete",
-            "raw": "'iteration not complete'"
+            "value": "iteration not complete"
           }
         ],
         "optional": false
@@ -623,8 +617,7 @@
                 "type": "Literal",
                 "start": 1115,
                 "end": 1120,
-                "value": "ABC",
-                "raw": "'ABC'"
+                "value": "ABC"
               }
             ],
             "optional": false
@@ -640,8 +633,7 @@
             "type": "Literal",
             "start": 1129,
             "end": 1151,
-            "value": "first iterated value",
-            "raw": "'first iterated value'"
+            "value": "first iterated value"
           }
         ],
         "optional": false
@@ -741,8 +733,7 @@
             "type": "Literal",
             "start": 1219,
             "end": 1242,
-            "value": "YieldExpression value",
-            "raw": "'YieldExpression value'"
+            "value": "YieldExpression value"
           }
         ],
         "optional": false
@@ -793,8 +784,7 @@
             "type": "Literal",
             "start": 1278,
             "end": 1310,
-            "value": "generator correctly re-started",
-            "raw": "'generator correctly re-started'"
+            "value": "generator correctly re-started"
           }
         ],
         "optional": false
@@ -858,8 +848,7 @@
             "type": "Literal",
             "start": 1353,
             "end": 1373,
-            "value": "iteration complete",
-            "raw": "'iteration complete'"
+            "value": "iteration complete"
           }
         ],
         "optional": false
@@ -922,8 +911,7 @@
             "type": "Literal",
             "start": 1422,
             "end": 1445,
-            "value": "second iterated value",
-            "raw": "'second iterated value'"
+            "value": "second iterated value"
           }
         ],
         "optional": false

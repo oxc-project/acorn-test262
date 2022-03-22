@@ -108,8 +108,7 @@
                             "type": "Literal",
                             "start": 434,
                             "end": 446,
-                            "value": "copyWithin",
-                            "raw": "\"copyWithin\""
+                            "value": "copyWithin"
                           }
                         ],
                         "optional": false

@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 644,
                         "end": 654,
-                        "value": "/\\\rn/;",
-                        "raw": "\"/\\\\\\rn/;\""
+                        "value": "/\\\rn/;"
                       }
                     ],
                     "optional": false

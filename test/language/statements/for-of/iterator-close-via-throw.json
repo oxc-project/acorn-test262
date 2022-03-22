@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 346,
             "end": 347,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 367,
             "end": 368,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 391,
             "end": 392,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -216,8 +213,7 @@
                                   "type": "Literal",
                                   "start": 511,
                                   "end": 512,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             },
@@ -328,8 +324,7 @@
                                   "type": "Literal",
                                   "start": 610,
                                   "end": 611,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             },
@@ -440,15 +435,13 @@
                         "type": "Literal",
                         "start": 721,
                         "end": 722,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 724,
                         "end": 744,
-                        "value": "Value is retrieved",
-                        "raw": "'Value is retrieved'"
+                        "value": "Value is retrieved"
                       }
                     ],
                     "optional": false
@@ -492,15 +485,13 @@
                         "type": "Literal",
                         "start": 793,
                         "end": 794,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 796,
                         "end": 820,
-                        "value": "Iterator is not closed",
-                        "raw": "'Iterator is not closed'"
+                        "value": "Iterator is not closed"
                       }
                     ],
                     "optional": false
@@ -525,8 +516,7 @@
                       "type": "Literal",
                       "start": 850,
                       "end": 851,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -538,8 +528,7 @@
                     "type": "Literal",
                     "start": 863,
                     "end": 864,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ]
@@ -604,15 +593,13 @@
             "type": "Literal",
             "start": 922,
             "end": 923,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 925,
             "end": 975,
-            "value": "Iterator does not restart following interruption",
-            "raw": "'Iterator does not restart following interruption'"
+            "value": "Iterator does not restart following interruption"
           }
         ],
         "optional": false
@@ -656,15 +643,13 @@
             "type": "Literal",
             "start": 1012,
             "end": 1013,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1015,
             "end": 1042,
-            "value": "A single iteration occurs",
-            "raw": "'A single iteration occurs'"
+            "value": "A single iteration occurs"
           }
         ],
         "optional": false
@@ -708,15 +693,13 @@
             "type": "Literal",
             "start": 1078,
             "end": 1079,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1081,
             "end": 1125,
-            "value": "Iterator is closed after `throw` statement",
-            "raw": "'Iterator is closed after `throw` statement'"
+            "value": "Iterator is closed after `throw` statement"
           }
         ],
         "optional": false

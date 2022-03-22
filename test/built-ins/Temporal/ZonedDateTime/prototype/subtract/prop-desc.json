@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 389,
             "end": 399,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 403,
             "end": 460,
-            "value": "`typeof ZonedDateTime.prototype.subtract` is `function`",
-            "raw": "\"`typeof ZonedDateTime.prototype.subtract` is `function`\""
+            "value": "`typeof ZonedDateTime.prototype.subtract` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 514,
             "end": 524,
-            "value": "subtract",
-            "raw": "\"subtract\""
+            "value": "subtract"
           },
           {
             "type": "ObjectExpression",

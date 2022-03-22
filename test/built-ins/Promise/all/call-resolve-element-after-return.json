@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 515,
             "end": 516,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -120,8 +119,7 @@
                       "type": "Literal",
                       "start": 615,
                       "end": 616,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 },
@@ -200,8 +198,7 @@
                         "type": "Literal",
                         "start": 678,
                         "end": 695,
-                        "value": "values is array",
-                        "raw": "\"values is array\""
+                        "value": "values is array"
                       }
                     ],
                     "optional": false
@@ -258,15 +255,13 @@
                         "type": "Literal",
                         "start": 734,
                         "end": 735,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 737,
                         "end": 752,
-                        "value": "values.length",
-                        "raw": "\"values.length\""
+                        "value": "values.length"
                       }
                     ],
                     "optional": false
@@ -314,8 +309,7 @@
                           "type": "Literal",
                           "start": 783,
                           "end": 784,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -324,15 +318,13 @@
                         "type": "Literal",
                         "start": 787,
                         "end": 802,
-                        "value": "expectedValue",
-                        "raw": "\"expectedValue\""
+                        "value": "expectedValue"
                       },
                       {
                         "type": "Literal",
                         "start": 804,
                         "end": 815,
-                        "value": "values[0]",
-                        "raw": "\"values[0]\""
+                        "value": "values[0]"
                       }
                     ],
                     "optional": false
@@ -575,8 +567,7 @@
                               "type": "Literal",
                               "start": 1043,
                               "end": 1058,
-                              "value": "expectedValue",
-                              "raw": "\"expectedValue\""
+                              "value": "expectedValue"
                             }
                           ],
                           "optional": false
@@ -631,15 +622,13 @@
             "type": "Literal",
             "start": 1097,
             "end": 1098,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1100,
             "end": 1132,
-            "value": "callCount before call to all()",
-            "raw": "\"callCount before call to all()\""
+            "value": "callCount before call to all()"
           }
         ],
         "optional": false
@@ -747,15 +736,13 @@
             "type": "Literal",
             "start": 1202,
             "end": 1203,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1205,
             "end": 1236,
-            "value": "callCount after call to all()",
-            "raw": "\"callCount after call to all()\""
+            "value": "callCount after call to all()"
           }
         ],
         "optional": false
@@ -803,8 +790,7 @@
               "type": "Literal",
               "start": 1268,
               "end": 1269,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -813,15 +799,13 @@
             "type": "Literal",
             "start": 1272,
             "end": 1287,
-            "value": "expectedValue",
-            "raw": "\"expectedValue\""
+            "value": "expectedValue"
           },
           {
             "type": "Literal",
             "start": 1289,
             "end": 1322,
-            "value": "valuesArray after call to all()",
-            "raw": "\"valuesArray after call to all()\""
+            "value": "valuesArray after call to all()"
           }
         ],
         "optional": false
@@ -846,8 +830,7 @@
             "type": "Literal",
             "start": 1340,
             "end": 1357,
-            "value": "unexpectedValue",
-            "raw": "\"unexpectedValue\""
+            "value": "unexpectedValue"
           }
         ],
         "optional": false
@@ -891,15 +874,13 @@
             "type": "Literal",
             "start": 1389,
             "end": 1390,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1392,
             "end": 1431,
-            "value": "callCount after call to onFulfilled()",
-            "raw": "\"callCount after call to onFulfilled()\""
+            "value": "callCount after call to onFulfilled()"
           }
         ],
         "optional": false
@@ -947,8 +928,7 @@
               "type": "Literal",
               "start": 1463,
               "end": 1464,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -957,15 +937,13 @@
             "type": "Literal",
             "start": 1467,
             "end": 1482,
-            "value": "expectedValue",
-            "raw": "\"expectedValue\""
+            "value": "expectedValue"
           },
           {
             "type": "Literal",
             "start": 1484,
             "end": 1525,
-            "value": "valuesArray after call to onFulfilled()",
-            "raw": "\"valuesArray after call to onFulfilled()\""
+            "value": "valuesArray after call to onFulfilled()"
           }
         ],
         "optional": false

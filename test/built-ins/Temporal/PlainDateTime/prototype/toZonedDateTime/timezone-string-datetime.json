@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 349,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 352,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 355,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -88,8 +85,7 @@
             "type": "Literal",
             "start": 374,
             "end": 392,
-            "value": "2021-08-19T17:30",
-            "raw": "\"2021-08-19T17:30\""
+            "value": "2021-08-19T17:30"
           }
         }
       ],
@@ -176,8 +172,7 @@
             "type": "Literal",
             "start": 462,
             "end": 504,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -286,8 +281,7 @@
             "type": "Literal",
             "start": 579,
             "end": 621,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -312,8 +306,7 @@
           "type": "Literal",
           "start": 636,
           "end": 655,
-          "value": "2021-08-19T17:30Z",
-          "raw": "\"2021-08-19T17:30Z\""
+          "value": "2021-08-19T17:30Z"
         }
       }
     },
@@ -433,15 +426,13 @@
             "type": "Literal",
             "start": 747,
             "end": 752,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 754,
             "end": 786,
-            "value": "date-time + Z is UTC time zone",
-            "raw": "\"date-time + Z is UTC time zone\""
+            "value": "date-time + Z is UTC time zone"
           }
         ],
         "optional": false
@@ -585,15 +576,13 @@
             "type": "Literal",
             "start": 883,
             "end": 888,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 890,
             "end": 947,
-            "value": "date-time + Z is UTC time zone (string in property bag)",
-            "raw": "\"date-time + Z is UTC time zone (string in property bag)\""
+            "value": "date-time + Z is UTC time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -618,8 +607,7 @@
           "type": "Literal",
           "start": 962,
           "end": 986,
-          "value": "2021-08-19T17:30-07:00",
-          "raw": "\"2021-08-19T17:30-07:00\""
+          "value": "2021-08-19T17:30-07:00"
         }
       }
     },
@@ -739,15 +727,13 @@
             "type": "Literal",
             "start": 1078,
             "end": 1086,
-            "value": "-07:00",
-            "raw": "\"-07:00\""
+            "value": "-07:00"
           },
           {
             "type": "Literal",
             "start": 1088,
             "end": 1132,
-            "value": "date-time + offset is the offset time zone",
-            "raw": "\"date-time + offset is the offset time zone\""
+            "value": "date-time + offset is the offset time zone"
           }
         ],
         "optional": false
@@ -891,15 +877,13 @@
             "type": "Literal",
             "start": 1229,
             "end": 1237,
-            "value": "-07:00",
-            "raw": "\"-07:00\""
+            "value": "-07:00"
           },
           {
             "type": "Literal",
             "start": 1239,
             "end": 1308,
-            "value": "date-time + offset is the offset time zone (string in property bag)",
-            "raw": "\"date-time + offset is the offset time zone (string in property bag)\""
+            "value": "date-time + offset is the offset time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -924,8 +908,7 @@
           "type": "Literal",
           "start": 1323,
           "end": 1346,
-          "value": "2021-08-19T17:30[UTC]",
-          "raw": "\"2021-08-19T17:30[UTC]\""
+          "value": "2021-08-19T17:30[UTC]"
         }
       }
     },
@@ -1045,15 +1028,13 @@
             "type": "Literal",
             "start": 1438,
             "end": 1443,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1445,
             "end": 1496,
-            "value": "date-time + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + IANA annotation is the IANA time zone\""
+            "value": "date-time + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -1197,15 +1178,13 @@
             "type": "Literal",
             "start": 1593,
             "end": 1598,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1600,
             "end": 1676,
-            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -1230,8 +1209,7 @@
           "type": "Literal",
           "start": 1691,
           "end": 1715,
-          "value": "2021-08-19T17:30Z[UTC]",
-          "raw": "\"2021-08-19T17:30Z[UTC]\""
+          "value": "2021-08-19T17:30Z[UTC]"
         }
       }
     },
@@ -1351,15 +1329,13 @@
             "type": "Literal",
             "start": 1807,
             "end": 1812,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1814,
             "end": 1869,
-            "value": "date-time + Z + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\""
+            "value": "date-time + Z + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -1503,15 +1479,13 @@
             "type": "Literal",
             "start": 1966,
             "end": 1971,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1973,
             "end": 2053,
-            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -1536,8 +1510,7 @@
           "type": "Literal",
           "start": 2068,
           "end": 2097,
-          "value": "2021-08-19T17:30-07:00[UTC]",
-          "raw": "\"2021-08-19T17:30-07:00[UTC]\""
+          "value": "2021-08-19T17:30-07:00[UTC]"
         }
       }
     },
@@ -1657,15 +1630,13 @@
             "type": "Literal",
             "start": 2189,
             "end": 2194,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2196,
             "end": 2256,
-            "value": "date-time + offset + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\""
+            "value": "date-time + offset + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -1809,15 +1780,13 @@
             "type": "Literal",
             "start": 2355,
             "end": 2360,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2362,
             "end": 2447,
-            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false

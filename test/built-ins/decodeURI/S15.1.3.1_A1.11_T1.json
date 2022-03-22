@@ -58,15 +58,13 @@
                     "type": "Literal",
                     "start": 544,
                     "end": 548,
-                    "value": 0,
-                    "raw": "0x00"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
                     "start": 550,
                     "end": 554,
-                    "value": 47,
-                    "raw": "0x2F"
+                    "value": 47
                   }
                 ]
               },
@@ -79,15 +77,13 @@
                     "type": "Literal",
                     "start": 560,
                     "end": 564,
-                    "value": 58,
-                    "raw": "0x3A"
+                    "value": 58
                   },
                   {
                     "type": "Literal",
                     "start": 566,
                     "end": 570,
-                    "value": 64,
-                    "raw": "0x40"
+                    "value": 64
                   }
                 ]
               },
@@ -100,15 +96,13 @@
                     "type": "Literal",
                     "start": 576,
                     "end": 580,
-                    "value": 71,
-                    "raw": "0x47"
+                    "value": 71
                   },
                   {
                     "type": "Literal",
                     "start": 582,
                     "end": 586,
-                    "value": 96,
-                    "raw": "0x60"
+                    "value": 96
                   }
                 ]
               },
@@ -121,15 +115,13 @@
                     "type": "Literal",
                     "start": 592,
                     "end": 596,
-                    "value": 103,
-                    "raw": "0x67"
+                    "value": 103
                   },
                   {
                     "type": "Literal",
                     "start": 598,
                     "end": 604,
-                    "value": 65535,
-                    "raw": "0xFFFF"
+                    "value": 65535
                   }
                 ]
               }
@@ -162,8 +154,7 @@
               "type": "Literal",
               "start": 627,
               "end": 628,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -264,8 +255,7 @@
                       "type": "Literal",
                       "start": 705,
                       "end": 706,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false
@@ -312,8 +302,7 @@
                   "type": "Literal",
                   "start": 736,
                   "end": 737,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "computed": true,
                 "optional": false
@@ -373,8 +362,7 @@
                                   "type": "Literal",
                                   "start": 778,
                                   "end": 784,
-                                  "value": "%E0%",
-                                  "raw": "\"%E0%\""
+                                  "value": "%E0%"
                                 },
                                 "operator": "+",
                                 "right": {
@@ -422,8 +410,7 @@
                                 "type": "Literal",
                                 "start": 825,
                                 "end": 830,
-                                "value": "%A0",
-                                "raw": "\"%A0\""
+                                "value": "%A0"
                               }
                             }
                           ],
@@ -602,8 +589,7 @@
                   "type": "Literal",
                   "start": 1012,
                   "end": 1146,
-                  "value": "#1: If B = 1110xxxx (n = 3) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError",
-                  "raw": "'#1: If B = 1110xxxx (n = 3) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError'"
+                  "value": "#1: If B = 1110xxxx (n = 3) and (string.charAt(k + 4) and  string.charAt(k + 5)) do not represent hexadecimal digits, throw URIError"
                 }
               ]
             }

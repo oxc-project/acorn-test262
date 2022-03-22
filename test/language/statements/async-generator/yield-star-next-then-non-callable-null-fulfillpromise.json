@@ -83,8 +83,7 @@
                               "type": "Literal",
                               "start": 1602,
                               "end": 1637,
-                              "value": "it should not get Symbol.iterator",
-                              "raw": "'it should not get Symbol.iterator'"
+                              "value": "it should not get Symbol.iterator"
                             }
                           ]
                         }
@@ -219,8 +218,7 @@
                                               "type": "Literal",
                                               "start": 1758,
                                               "end": 1760,
-                                              "value": 42,
-                                              "raw": "42"
+                                              "value": 42
                                             },
                                             "kind": "init"
                                           },
@@ -285,8 +283,7 @@
             "type": "Literal",
             "start": 1835,
             "end": 1836,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -330,8 +327,7 @@
                 "type": "Literal",
                 "start": 1878,
                 "end": 1879,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -371,8 +367,7 @@
                   "type": "Literal",
                   "start": 1922,
                   "end": 1946,
-                  "value": "completion closes iter",
-                  "raw": "'completion closes iter'"
+                  "value": "completion closes iter"
                 }
               ]
             }
@@ -570,8 +565,7 @@
                             "type": "Literal",
                             "start": 2038,
                             "end": 2040,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         ],
                         "optional": false
@@ -692,8 +686,7 @@
             "type": "Literal",
             "start": 2128,
             "end": 2129,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

@@ -136,8 +136,7 @@
                 "type": "Literal",
                 "start": 358,
                 "end": 376,
-                "value": "hello\nw_orld\\!",
-                "raw": "\"hello\\nw_orld\\\\!\""
+                "value": "hello\nw_orld\\!"
               },
               {
                 "type": "Identifier",
@@ -152,8 +151,7 @@
             "type": "Literal",
             "start": 391,
             "end": 459,
-            "value": "Array.prototype.some.call(\"hello\nw_orld\\!\", callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(\"hello\\nw_orld\\\\!\", callbackfn) !== true'"
+            "value": "Array.prototype.some.call(\"hello\nw_orld\\!\", callbackfn) !== true"
           }
         ],
         "optional": false

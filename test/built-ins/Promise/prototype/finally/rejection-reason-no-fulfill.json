@@ -236,8 +236,7 @@
                                         "type": "Literal",
                                         "start": 494,
                                         "end": 495,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       }
                                     ],
                                     "optional": false
@@ -294,15 +293,13 @@
                                         "type": "Literal",
                                         "start": 535,
                                         "end": 536,
-                                        "value": 0,
-                                        "raw": "0"
+                                        "value": 0
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 538,
                                         "end": 568,
-                                        "value": "onFinally receives zero args",
-                                        "raw": "'onFinally receives zero args'"
+                                        "value": "onFinally receives zero args"
                                       }
                                     ],
                                     "optional": false
@@ -368,8 +365,7 @@
                                     "type": "Literal",
                                     "start": 639,
                                     "end": 704,
-                                    "value": "promise is rejected pre-finally; onFulfill should not be called",
-                                    "raw": "'promise is rejected pre-finally; onFulfill should not be called'"
+                                    "value": "promise is rejected pre-finally; onFulfill should not be called"
                                   }
                                 ]
                               }
@@ -443,8 +439,7 @@
                                 "type": "Literal",
                                 "start": 751,
                                 "end": 752,
-                                "value": 2,
-                                "raw": "2"
+                                "value": 2
                               }
                             ],
                             "optional": false
@@ -494,8 +489,7 @@
                                 "type": "Literal",
                                 "start": 792,
                                 "end": 853,
-                                "value": "onFinally can not override the rejection value by returning",
-                                "raw": "'onFinally can not override the rejection value by returning'"
+                                "value": "onFinally can not override the rejection value by returning"
                               }
                             ],
                             "optional": false
@@ -582,8 +576,7 @@
                             "type": "Literal",
                             "start": 913,
                             "end": 914,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ],
                         "optional": false
@@ -614,8 +607,7 @@
                             "type": "Literal",
                             "start": 943,
                             "end": 991,
-                            "value": "All expected callbacks called in correct order",
-                            "raw": "\"All expected callbacks called in correct order\""
+                            "value": "All expected callbacks called in correct order"
                           }
                         ],
                         "optional": false

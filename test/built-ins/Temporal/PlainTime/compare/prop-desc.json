@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 344,
             "end": 354,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 358,
             "end": 400,
-            "value": "`typeof PlainTime.compare` is `function`",
-            "raw": "\"`typeof PlainTime.compare` is `function`\""
+            "value": "`typeof PlainTime.compare` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 440,
             "end": 449,
-            "value": "compare",
-            "raw": "\"compare\""
+            "value": "compare"
           },
           {
             "type": "ObjectExpression",

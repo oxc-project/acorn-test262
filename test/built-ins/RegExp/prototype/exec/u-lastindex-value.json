@@ -23,7 +23,6 @@
             "start": 1058,
             "end": 1063,
             "value": {},
-            "raw": "/./ug",
             "regex": {
               "pattern": ".",
               "flags": "ug"
@@ -65,8 +64,7 @@
             "type": "Literal",
             "start": 1072,
             "end": 1076,
-            "value": "𝌆",
-            "raw": "'𝌆'"
+            "value": "𝌆"
           }
         ],
         "optional": false
@@ -123,8 +121,7 @@
             "type": "Literal",
             "start": 1109,
             "end": 1110,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false

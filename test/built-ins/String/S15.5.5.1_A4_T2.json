@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 352,
                 "end": 362,
-                "value": "globglob",
-                "raw": "\"globglob\""
+                "value": "globglob"
               }
             ]
           }
@@ -84,8 +83,7 @@
                 "type": "Literal",
                 "start": 492,
                 "end": 500,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -120,8 +118,7 @@
                     "type": "Literal",
                     "start": 531,
                     "end": 645,
-                    "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: ",
-                    "raw": "'#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: '"
+                    "value": "#1: var __str__instance = new String(\"globglob\"); __str__instance.hasOwnProperty(\"length\") return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -152,8 +149,7 @@
                         "type": "Literal",
                         "start": 679,
                         "end": 687,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -198,8 +194,7 @@
           "type": "Literal",
           "start": 896,
           "end": 897,
-          "value": 8,
-          "raw": "8"
+          "value": 8
         }
       },
       "consequent": {
@@ -230,8 +225,7 @@
                     "type": "Literal",
                     "start": 926,
                     "end": 1042,
-                    "value": "#2: var __str__instance = new String(\"globglob\"); __str__instance.length === 8. Actual: __str__instance.length ===",
-                    "raw": "'#2: var __str__instance = new String(\"globglob\"); __str__instance.length === 8. Actual: __str__instance.length ==='"
+                    "value": "#2: var __str__instance = new String(\"globglob\"); __str__instance.length === 8. Actual: __str__instance.length ==="
                   },
                   "operator": "+",
                   "right": {
@@ -286,8 +280,7 @@
             "type": "Literal",
             "start": 1190,
             "end": 1198,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -306,8 +299,7 @@
               "type": "Literal",
               "start": 1207,
               "end": 1208,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],
@@ -346,8 +338,7 @@
           "type": "Literal",
           "start": 1332,
           "end": 1333,
-          "value": 8,
-          "raw": "8"
+          "value": 8
         }
       },
       "consequent": {
@@ -378,8 +369,7 @@
                     "type": "Literal",
                     "start": 1362,
                     "end": 1537,
-                    "value": "#3: var __str__instance = new String(\"globglob\"); __str__instance.length=-1; __str__instance.length === 8(after redefine length property). Actual: __str__instance.length ===",
-                    "raw": "'#3: var __str__instance = new String(\"globglob\"); __str__instance.length=-1; __str__instance.length === 8(after redefine length property). Actual: __str__instance.length ==='"
+                    "value": "#3: var __str__instance = new String(\"globglob\"); __str__instance.length=-1; __str__instance.length === 8(after redefine length property). Actual: __str__instance.length ==="
                   },
                   "operator": "+",
                   "right": {

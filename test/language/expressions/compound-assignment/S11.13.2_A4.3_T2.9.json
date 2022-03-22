@@ -136,8 +136,7 @@
                     "type": "Literal",
                     "start": 437,
                     "end": 492,
-                    "value": "#1: x = true; x %= null; x === Not-a-Number. Actual: ",
-                    "raw": "'#1: x = true; x %= null; x === Not-a-Number. Actual: '"
+                    "value": "#1: x = true; x %= null; x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -226,8 +225,7 @@
           "type": "Literal",
           "start": 545,
           "end": 546,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -258,8 +256,7 @@
                     "type": "Literal",
                     "start": 575,
                     "end": 619,
-                    "value": "#2: x = null; x %= true; x === 0. Actual: ",
-                    "raw": "'#2: x = null; x %= true; x === 0. Actual: '"
+                    "value": "#2: x = null; x %= true; x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -407,8 +404,7 @@
                     "type": "Literal",
                     "start": 725,
                     "end": 793,
-                    "value": "#3: x = new Boolean(true); x %= null; x === Not-a-Number. Actual: ",
-                    "raw": "'#3: x = new Boolean(true); x %= null; x === Not-a-Number. Actual: '"
+                    "value": "#3: x = new Boolean(true); x %= null; x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -510,8 +506,7 @@
           "type": "Literal",
           "start": 859,
           "end": 860,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -542,8 +537,7 @@
                     "type": "Literal",
                     "start": 889,
                     "end": 946,
-                    "value": "#4: x = null; x %= new Boolean(true); x === 0. Actual: ",
-                    "raw": "'#4: x = null; x %= new Boolean(true); x === 0. Actual: '"
+                    "value": "#4: x = null; x %= new Boolean(true); x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

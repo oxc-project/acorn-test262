@@ -128,8 +128,7 @@
                   "type": "Literal",
                   "start": 834,
                   "end": 837,
-                  "value": "2",
-                  "raw": "\"2\""
+                  "value": "2"
                 }
               }
             ]
@@ -198,8 +197,7 @@
                       "type": "Literal",
                       "start": 900,
                       "end": 922,
-                      "value": "should not be called",
-                      "raw": "\"should not be called\""
+                      "value": "should not be called"
                     }
                   ]
                 }
@@ -246,8 +244,7 @@
                     "type": "Literal",
                     "start": 964,
                     "end": 971,
-                    "value": "<foo>",
-                    "raw": "\"<foo>\""
+                    "value": "<foo>"
                   }
                 }
               ]
@@ -297,8 +294,7 @@
                 "type": "Literal",
                 "start": 993,
                 "end": 1000,
-                "value": "a2b2c",
-                "raw": "\"a2b2c\""
+                "value": "a2b2c"
               },
               "property": {
                 "type": "Identifier",
@@ -329,8 +325,7 @@
             "type": "Literal",
             "start": 1036,
             "end": 1051,
-            "value": "a<foo>b<foo>c",
-            "raw": "\"a<foo>b<foo>c\""
+            "value": "a<foo>b<foo>c"
           }
         ],
         "optional": false
@@ -376,8 +371,7 @@
                 "type": "Literal",
                 "start": 1071,
                 "end": 1078,
-                "value": "a2b2c",
-                "raw": "\"a2b2c\""
+                "value": "a2b2c"
               },
               "property": {
                 "type": "Identifier",
@@ -399,8 +393,7 @@
                 "type": "Literal",
                 "start": 1103,
                 "end": 1110,
-                "value": "<foo>",
-                "raw": "\"<foo>\""
+                "value": "<foo>"
               }
             ],
             "optional": false
@@ -409,8 +402,7 @@
             "type": "Literal",
             "start": 1113,
             "end": 1128,
-            "value": "a<foo>b<foo>c",
-            "raw": "\"a<foo>b<foo>c\""
+            "value": "a<foo>b<foo>c"
           }
         ],
         "optional": false

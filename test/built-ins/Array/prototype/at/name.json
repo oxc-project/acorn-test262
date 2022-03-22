@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 424,
             "end": 434,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 438,
             "end": 509,
-            "value": "The value of `typeof Array.prototype.at` is expected to be \"function\"",
-            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'"
+            "value": "The value of `typeof Array.prototype.at` is expected to be \"function\""
           }
         ],
         "optional": false
@@ -165,15 +163,13 @@
             "type": "Literal",
             "start": 559,
             "end": 563,
-            "value": "at",
-            "raw": "'at'"
+            "value": "at"
           },
           {
             "type": "Literal",
             "start": 567,
             "end": 628,
-            "value": "The value of Array.prototype.at.name is expected to be \"at\"",
-            "raw": "'The value of Array.prototype.at.name is expected to be \"at\"'"
+            "value": "The value of Array.prototype.at.name is expected to be \"at\""
           }
         ],
         "optional": false
@@ -230,8 +226,7 @@
             "type": "Literal",
             "start": 668,
             "end": 674,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

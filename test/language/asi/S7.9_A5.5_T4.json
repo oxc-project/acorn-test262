@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 309,
               "end": 310,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "+",
             "right": {
@@ -109,16 +108,14 @@
                       "type": "Literal",
                       "start": 345,
                       "end": 346,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "operator": "+",
                     "right": {
                       "type": "Literal",
                       "start": 349,
                       "end": 350,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     }
                   }
                 ],
@@ -157,8 +154,7 @@
           "type": "Literal",
           "start": 366,
           "end": 367,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -185,8 +181,7 @@
                   "type": "Literal",
                   "start": 396,
                   "end": 461,
-                  "value": "#1: Check Function Expression for automatic semicolon insertion",
-                  "raw": "'#1: Check Function Expression for automatic semicolon insertion'"
+                  "value": "#1: Check Function Expression for automatic semicolon insertion"
                 }
               ]
             }

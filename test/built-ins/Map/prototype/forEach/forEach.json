@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 416,
             "end": 426,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 430,
             "end": 476,
-            "value": "`typeof Map.prototype.forEach` is `function`",
-            "raw": "'`typeof Map.prototype.forEach` is `function`'"
+            "value": "`typeof Map.prototype.forEach` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 516,
             "end": 525,
-            "value": "forEach",
-            "raw": "'forEach'"
+            "value": "forEach"
           }
         ],
         "optional": false
@@ -171,8 +168,7 @@
             "type": "Literal",
             "start": 558,
             "end": 567,
-            "value": "forEach",
-            "raw": "'forEach'"
+            "value": "forEach"
           }
         ],
         "optional": false
@@ -216,8 +212,7 @@
             "type": "Literal",
             "start": 604,
             "end": 613,
-            "value": "forEach",
-            "raw": "'forEach'"
+            "value": "forEach"
           }
         ],
         "optional": false

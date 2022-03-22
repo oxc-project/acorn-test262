@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 326,
               "end": 340,
-              "value": "if (false) ;",
-              "raw": "\"if (false) ;\""
+              "value": "if (false) ;"
             }
           ],
           "optional": false
@@ -68,8 +67,7 @@
                     "type": "Literal",
                     "start": 384,
                     "end": 434,
-                    "value": "#1: eval(\"if (false) ;\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\"if (false) ;\") === undefined. Actual: '"
+                    "value": "#1: eval(\"if (false) ;\") === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -87,8 +85,7 @@
                         "type": "Literal",
                         "start": 442,
                         "end": 456,
-                        "value": "if (false) ;",
-                        "raw": "\"if (false) ;\""
+                        "value": "if (false) ;"
                       }
                     ],
                     "optional": false

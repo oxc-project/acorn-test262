@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 349,
               "end": 350,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": "!=",
             "right": {
@@ -69,8 +68,7 @@
                   "type": "Literal",
                   "start": 399,
                   "end": 427,
-                  "value": "#1: (0 != false) === false",
-                  "raw": "'#1: (0 != false) === false'"
+                  "value": "#1: (0 != false) === false"
                 }
               ]
             }
@@ -99,8 +97,7 @@
               "type": "Literal",
               "start": 448,
               "end": 451,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             },
             "operator": "!=",
             "right": {
@@ -145,8 +142,7 @@
                   "type": "Literal",
                   "start": 499,
                   "end": 528,
-                  "value": "#2: (\"1\" != true) === false",
-                  "raw": "'#2: (\"1\" != true) === false'"
+                  "value": "#2: (\"1\" != true) === false"
                 }
               ]
             }
@@ -234,8 +230,7 @@
                   "type": "Literal",
                   "start": 616,
                   "end": 661,
-                  "value": "#3: (new Boolean(false) != false) === false",
-                  "raw": "'#3: (new Boolean(false) != false) === false'"
+                  "value": "#3: (new Boolean(false) != false) === false"
                 }
               ]
             }
@@ -300,8 +295,7 @@
                             "type": "Literal",
                             "start": 712,
                             "end": 715,
-                            "value": "0",
-                            "raw": "\"0\""
+                            "value": "0"
                           }
                         }
                       ]
@@ -354,8 +348,7 @@
                   "type": "Literal",
                   "start": 766,
                   "end": 828,
-                  "value": "#4: ({valueOf: function () {return \"0\"}} != false) === false",
-                  "raw": "'#4: ({valueOf: function () {return \"0\"}} != false) === false'"
+                  "value": "#4: ({valueOf: function () {return \"0\"}} != false) === false"
                 }
               ]
             }

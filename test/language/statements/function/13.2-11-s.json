@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 330,
-                "value": "'use strict';",
-                "raw": "\"'use strict';\""
+                "value": "'use strict';"
               }
             ],
             "optional": false
@@ -116,15 +115,13 @@
                   "type": "Literal",
                   "start": 422,
                   "end": 430,
-                  "value": "caller",
-                  "raw": "\"caller\""
+                  "value": "caller"
                 },
                 {
                   "type": "Literal",
                   "start": 432,
                   "end": 443,
-                  "value": "tempIndex",
-                  "raw": "'tempIndex'"
+                  "value": "tempIndex"
                 }
               ],
               "optional": false

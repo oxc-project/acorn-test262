@@ -144,8 +144,7 @@
                               "type": "Literal",
                               "start": 1049,
                               "end": 1094,
-                              "value": "ToInteger(start) runs before ToInteger(end)",
-                              "raw": "\"ToInteger(start) runs before ToInteger(end)\""
+                              "value": "ToInteger(start) runs before ToInteger(end)"
                             }
                           ]
                         }
@@ -308,8 +307,7 @@
                                     "type": "Literal",
                                     "start": 1241,
                                     "end": 1242,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "Identifier",

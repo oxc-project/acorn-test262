@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 333,
                   "end": 334,
-                  "value": 7,
-                  "raw": "7"
+                  "value": 7
                 },
                 "kind": "init"
               }
@@ -157,8 +156,7 @@
             "type": "Literal",
             "start": 423,
             "end": 493,
-            "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a TypeError exception",
-            "raw": "'Temporal.Now.plainDateTimeISO(timeZone) throws a TypeError exception'"
+            "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a TypeError exception"
           }
         ],
         "optional": false

@@ -117,8 +117,7 @@
           "type": "Literal",
           "start": 461,
           "end": 466,
-          "value": "nan",
-          "raw": "\"nan\""
+          "value": "nan"
         }
       },
       "consequent": {
@@ -149,8 +148,7 @@
                     "type": "Literal",
                     "start": 495,
                     "end": 616,
-                    "value": "#1: Number.prototype.toLocaleLowerCase = String.prototype.toLocaleLowerCase; NaN.toLocaleLowerCase()=== \"nan\". Actual: ",
-                    "raw": "'#1: Number.prototype.toLocaleLowerCase = String.prototype.toLocaleLowerCase; NaN.toLocaleLowerCase()=== \"nan\". Actual: '"
+                    "value": "#1: Number.prototype.toLocaleLowerCase = String.prototype.toLocaleLowerCase; NaN.toLocaleLowerCase()=== \"nan\". Actual: "
                   },
                   "operator": "+",
                   "right": {

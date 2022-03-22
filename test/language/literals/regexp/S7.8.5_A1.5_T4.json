@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 468,
                     "end": 480,
-                    "value": "/\\\r/",
-                    "raw": "\"/\\\\\\u000D/\""
+                    "value": "/\\\r/"
                   }
                 ],
                 "optional": false
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 516,
                     "end": 615,
-                    "value": "#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\Carriage Return is incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\\\Carriage Return is incorrect. Actual: '"
+                    "value": "#1.1: RegularExpressionFirstChar :: BackslashSequence :: \\Carriage Return is incorrect. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -101,8 +99,7 @@
                             "type": "Literal",
                             "start": 624,
                             "end": 636,
-                            "value": "/\\\r/",
-                            "raw": "\"/\\\\\\u000D/\""
+                            "value": "/\\\r/"
                           }
                         ],
                         "optional": false
@@ -206,8 +203,7 @@
                             "type": "Literal",
                             "start": 735,
                             "end": 834,
-                            "value": "#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\Carriage Return is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\\\Carriage Return is incorrect. Actual: '"
+                            "value": "#1.2: RegularExpressionFirstChar :: BackslashSequence :: \\Carriage Return is incorrect. Actual: "
                           },
                           "operator": "+",
                           "right": {

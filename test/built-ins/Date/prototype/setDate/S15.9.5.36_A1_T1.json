@@ -73,8 +73,7 @@
           "type": "Literal",
           "start": 345,
           "end": 346,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -127,8 +126,7 @@
                 "type": "Literal",
                 "start": 377,
                 "end": 378,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           }
@@ -184,8 +182,7 @@
                 "type": "Literal",
                 "start": 416,
                 "end": 417,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -262,8 +259,7 @@
             "type": "Literal",
             "start": 476,
             "end": 555,
-            "value": "The value of Date.prototype.setDate is expected to not equal the value of `x`",
-            "raw": "'The value of Date.prototype.setDate is expected to not equal the value of `x`'"
+            "value": "The value of Date.prototype.setDate is expected to not equal the value of `x`"
           }
         ],
         "optional": false

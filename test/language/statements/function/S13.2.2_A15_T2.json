@@ -86,8 +86,7 @@
           "type": "Literal",
           "start": 641,
           "end": 644,
-          "value": "A",
-          "raw": "\"A\""
+          "value": "A"
         }
       },
       "consequent": {
@@ -118,8 +117,7 @@
                     "type": "Literal",
                     "start": 672,
                     "end": 716,
-                    "value": "#1: obj.prop === \"A\". Actual: obj.prop ===",
-                    "raw": "'#1: obj.prop === \"A\". Actual: obj.prop ==='"
+                    "value": "#1: obj.prop === \"A\". Actual: obj.prop ==="
                   },
                   "operator": "+",
                   "right": {
@@ -181,8 +179,7 @@
           "type": "Literal",
           "start": 921,
           "end": 924,
-          "value": "A",
-          "raw": "\"A\""
+          "value": "A"
         }
       },
       "consequent": {
@@ -213,8 +210,7 @@
                     "type": "Literal",
                     "start": 952,
                     "end": 1000,
-                    "value": "#2: __obj.prop === \"A\". Actual: __obj.prop ===",
-                    "raw": "'#2: __obj.prop === \"A\". Actual: __obj.prop ==='"
+                    "value": "#2: __obj.prop === \"A\". Actual: __obj.prop ==="
                   },
                   "operator": "+",
                   "right": {
@@ -289,8 +285,7 @@
           "type": "Literal",
           "start": 1211,
           "end": 1212,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -321,8 +316,7 @@
                     "type": "Literal",
                     "start": 1240,
                     "end": 1296,
-                    "value": "#3: __obj.slot.prop === 1. Actual: __obj.slot.prop ===",
-                    "raw": "'#3: __obj.slot.prop === 1. Actual: __obj.slot.prop ==='"
+                    "value": "#3: __obj.slot.prop === 1. Actual: __obj.slot.prop ==="
                   },
                   "operator": "+",
                   "right": {
@@ -415,8 +409,7 @@
                 "type": "Literal",
                 "start": 1438,
                 "end": 1439,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -475,8 +468,7 @@
                 "type": "Literal",
                 "start": 1470,
                 "end": 1473,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             }
           },

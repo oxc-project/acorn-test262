@@ -31,7 +31,6 @@
                 "start": 336,
                 "end": 340,
                 "value": {},
-                "raw": "/\\r/",
                 "regex": {
                   "pattern": "\\r",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 346,
                 "end": 354,
-                "value": "\r",
-                "raw": "\"\\u000D\""
+                "value": "\r"
               }
             ],
             "optional": false
@@ -116,8 +114,7 @@
                 "type": "Literal",
                 "start": 384,
                 "end": 385,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -127,8 +124,7 @@
               "type": "Literal",
               "start": 391,
               "end": 399,
-              "value": "\r",
-              "raw": "\"\\u000D\""
+              "value": "\r"
             }
           }
         }
@@ -161,8 +157,7 @@
                     "type": "Literal",
                     "start": 429,
                     "end": 498,
-                    "value": "#1: var arr = /\\r/.exec(\"\\u000D\"); arr[0] === \"\\u000D\". Actual. ",
-                    "raw": "'#1: var arr = /\\\\r/.exec(\"\\\\u000D\"); arr[0] === \"\\\\u000D\". Actual. '"
+                    "value": "#1: var arr = /\\r/.exec(\"\\u000D\"); arr[0] === \"\\u000D\". Actual. "
                   },
                   "operator": "+",
                   "right": {
@@ -194,8 +189,7 @@
                           "type": "Literal",
                           "start": 513,
                           "end": 514,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -238,7 +232,6 @@
                 "start": 532,
                 "end": 538,
                 "value": {},
-                "raw": "/\\r\\r/",
                 "regex": {
                   "pattern": "\\r\\r",
                   "flags": ""
@@ -258,8 +251,7 @@
                 "type": "Literal",
                 "start": 544,
                 "end": 560,
-                "value": "a\r\rb",
-                "raw": "\"a\\u000D\\u000Db\""
+                "value": "a\r\rb"
               }
             ],
             "optional": false
@@ -323,8 +315,7 @@
                 "type": "Literal",
                 "start": 590,
                 "end": 591,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "computed": true,
               "optional": false
@@ -334,8 +325,7 @@
               "type": "Literal",
               "start": 597,
               "end": 611,
-              "value": "\r\r",
-              "raw": "\"\\u000D\\u000D\""
+              "value": "\r\r"
             }
           }
         }
@@ -368,8 +358,7 @@
                     "type": "Literal",
                     "start": 641,
                     "end": 729,
-                    "value": "#2: var arr = /\\r\\r/.exec(\"a\\u000D\\u000Db\"); arr[0] === \"\\u000D\\u000D\". Actual. ",
-                    "raw": "'#2: var arr = /\\\\r\\\\r/.exec(\"a\\\\u000D\\\\u000Db\"); arr[0] === \"\\\\u000D\\\\u000D\". Actual. '"
+                    "value": "#2: var arr = /\\r\\r/.exec(\"a\\u000D\\u000Db\"); arr[0] === \"\\u000D\\u000D\". Actual. "
                   },
                   "operator": "+",
                   "right": {
@@ -401,8 +390,7 @@
                           "type": "Literal",
                           "start": 744,
                           "end": 745,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false

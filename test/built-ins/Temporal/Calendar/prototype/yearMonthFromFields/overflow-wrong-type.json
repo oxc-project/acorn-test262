@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 848,
                 "end": 857,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -87,15 +86,13 @@
             "type": "Literal",
             "start": 903,
             "end": 913,
-            "value": "overflow",
-            "raw": "\"overflow\""
+            "value": "overflow"
           },
           {
             "type": "Literal",
             "start": 915,
             "end": 926,
-            "value": "constrain",
-            "raw": "\"constrain\""
+            "value": "constrain"
           },
           {
             "type": "ArrowFunctionExpression",
@@ -159,8 +156,7 @@
                         "type": "Literal",
                         "start": 981,
                         "end": 985,
-                        "value": 2000,
-                        "raw": "2000"
+                        "value": 2000
                       },
                       "kind": "init"
                     },
@@ -181,8 +177,7 @@
                         "type": "Literal",
                         "start": 994,
                         "end": 995,
-                        "value": 5,
-                        "raw": "5"
+                        "value": 5
                       },
                       "kind": "init"
                     }
@@ -276,22 +271,19 @@
                   "type": "Literal",
                   "start": 1080,
                   "end": 1084,
-                  "value": 2000,
-                  "raw": "2000"
+                  "value": 2000
                 },
                 {
                   "type": "Literal",
                   "start": 1086,
                   "end": 1087,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 {
                   "type": "Literal",
                   "start": 1089,
                   "end": 1094,
-                  "value": "M05",
-                  "raw": "\"M05\""
+                  "value": "M05"
                 },
                 {
                   "type": "Identifier",

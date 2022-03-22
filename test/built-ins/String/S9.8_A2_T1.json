@@ -37,8 +37,7 @@
           "type": "Literal",
           "start": 320,
           "end": 326,
-          "value": "null",
-          "raw": "\"null\""
+          "value": "null"
         }
       },
       "consequent": {
@@ -69,8 +68,7 @@
                     "type": "Literal",
                     "start": 355,
                     "end": 394,
-                    "value": "#1: String(null) === \"null\". Actual: ",
-                    "raw": "'#1: String(null) === \"null\". Actual: '"
+                    "value": "#1: String(null) === \"null\". Actual: "
                   },
                   "operator": "+",
                   "right": {

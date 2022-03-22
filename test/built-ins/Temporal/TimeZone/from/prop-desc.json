@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 332,
             "end": 342,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 346,
             "end": 384,
-            "value": "`typeof TimeZone.from` is `function`",
-            "raw": "\"`typeof TimeZone.from` is `function`\""
+            "value": "`typeof TimeZone.from` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 423,
             "end": 429,
-            "value": "from",
-            "raw": "\"from\""
+            "value": "from"
           },
           {
             "type": "ObjectExpression",

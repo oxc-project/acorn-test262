@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 688,
                 "end": 689,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Identifier",
@@ -41,8 +40,7 @@
             "type": "Literal",
             "start": 699,
             "end": 878,
-            "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");",
-            "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
+            "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");"
           }
         ],
         "optional": false

@@ -70,8 +70,7 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 394,
-                "value": "toLocaleString",
-                "raw": "\"toLocaleString\""
+                "value": "toLocaleString"
               }
             ],
             "optional": false
@@ -87,8 +86,7 @@
             "type": "Literal",
             "start": 408,
             "end": 475,
-            "value": "(new Number()).hasOwnProperty(\"toLocaleString\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"toLocaleString\") must return false'"
+            "value": "(new Number()).hasOwnProperty(\"toLocaleString\") must return false"
           }
         ],
         "optional": false
@@ -188,8 +186,7 @@
             "type": "Literal",
             "start": 568,
             "end": 678,
-            "value": "The value of (new Number()).toLocaleString is expected to equal the value of Number.prototype.toLocaleString",
-            "raw": "'The value of (new Number()).toLocaleString is expected to equal the value of Number.prototype.toLocaleString'"
+            "value": "The value of (new Number()).toLocaleString is expected to equal the value of Number.prototype.toLocaleString"
           }
         ],
         "optional": false

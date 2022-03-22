@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 523,
             "end": 533,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -287,8 +286,7 @@
             "type": "Literal",
             "start": 673,
             "end": 693,
-            "value": "length is a symbol",
-            "raw": "'length is a symbol'"
+            "value": "length is a symbol"
           }
         ],
         "optional": false
@@ -479,8 +477,7 @@
             "type": "Literal",
             "start": 824,
             "end": 842,
-            "value": "custom get error",
-            "raw": "'custom get error'"
+            "value": "custom get error"
           }
         ],
         "optional": false
@@ -693,8 +690,7 @@
             "type": "Literal",
             "start": 988,
             "end": 1010,
-            "value": "custom valueOf error",
-            "raw": "'custom valueOf error'"
+            "value": "custom valueOf error"
           }
         ],
         "optional": false
@@ -907,8 +903,7 @@
             "type": "Literal",
             "start": 1157,
             "end": 1180,
-            "value": "custom toString error",
-            "raw": "'custom toString error'"
+            "value": "custom toString error"
           }
         ],
         "optional": false
@@ -1134,8 +1129,7 @@
             "type": "Literal",
             "start": 1339,
             "end": 1372,
-            "value": "custom Symbol.toPrimitive error",
-            "raw": "'custom Symbol.toPrimitive error'"
+            "value": "custom Symbol.toPrimitive error"
           }
         ],
         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1222,
                 "end": 1231,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -129,8 +128,7 @@
                             "type": "Literal",
                             "start": 1286,
                             "end": 1298,
-                            "value": "nanosecond",
-                            "raw": "\"nanosecond\""
+                            "value": "nanosecond"
                           }
                         }
                       },
@@ -147,8 +145,7 @@
                             "type": "Literal",
                             "start": 1311,
                             "end": 1324,
-                            "value": "microsecond",
-                            "raw": "\"microsecond\""
+                            "value": "microsecond"
                           }
                         }
                       },
@@ -165,8 +162,7 @@
                             "type": "Literal",
                             "start": 1337,
                             "end": 1350,
-                            "value": "millisecond",
-                            "raw": "\"millisecond\""
+                            "value": "millisecond"
                           }
                         }
                       },
@@ -183,8 +179,7 @@
                             "type": "Literal",
                             "start": 1363,
                             "end": 1371,
-                            "value": "second",
-                            "raw": "\"second\""
+                            "value": "second"
                           }
                         }
                       },
@@ -201,8 +196,7 @@
                             "type": "Literal",
                             "start": 1384,
                             "end": 1392,
-                            "value": "minute",
-                            "raw": "\"minute\""
+                            "value": "minute"
                           }
                         }
                       },
@@ -219,8 +213,7 @@
                             "type": "Literal",
                             "start": 1405,
                             "end": 1411,
-                            "value": "hour",
-                            "raw": "\"hour\""
+                            "value": "hour"
                           }
                         }
                       },
@@ -237,8 +230,7 @@
                             "type": "Literal",
                             "start": 1424,
                             "end": 1429,
-                            "value": "day",
-                            "raw": "\"day\""
+                            "value": "day"
                           }
                         }
                       },
@@ -255,8 +247,7 @@
                             "type": "Literal",
                             "start": 1442,
                             "end": 1453,
-                            "value": "monthCode",
-                            "raw": "\"monthCode\""
+                            "value": "monthCode"
                           }
                         }
                       },
@@ -273,8 +264,7 @@
                             "type": "Literal",
                             "start": 1466,
                             "end": 1473,
-                            "value": "month",
-                            "raw": "\"month\""
+                            "value": "month"
                           }
                         }
                       },
@@ -291,8 +281,7 @@
                             "type": "Literal",
                             "start": 1486,
                             "end": 1492,
-                            "value": "year",
-                            "raw": "\"year\""
+                            "value": "year"
                           }
                         }
                       }
@@ -404,8 +393,7 @@
             "type": "Literal",
             "start": 1564,
             "end": 1645,
-            "value": "valid fields should be supported even if they are in reversed order of the spec",
-            "raw": "'valid fields should be supported even if they are in reversed order of the spec'"
+            "value": "valid fields should be supported even if they are in reversed order of the spec"
           }
         ],
         "optional": false

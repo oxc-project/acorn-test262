@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 457,
                 "end": 469,
-                "value": "class C {}",
-                "raw": "'class C {}'"
+                "value": "class C {}"
               }
             ],
             "optional": false
@@ -105,8 +104,7 @@
                 "type": "Literal",
                 "start": 506,
                 "end": 521,
-                "value": "1; class C {}",
-                "raw": "'1; class C {}'"
+                "value": "1; class C {}"
               }
             ],
             "optional": false
@@ -115,8 +113,7 @@
             "type": "Literal",
             "start": 524,
             "end": 525,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 755,
             "end": 764,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         }
       ],
@@ -516,8 +515,7 @@
             "type": "Literal",
             "start": 1152,
             "end": 1161,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         ],
         "optional": false
@@ -644,8 +642,7 @@
             "type": "Literal",
             "start": 1255,
             "end": 1294,
-            "value": "inner binding value (from parameters)",
-            "raw": "'inner binding value (from parameters)'"
+            "value": "inner binding value (from parameters)"
           }
         ],
         "optional": false
@@ -695,8 +692,7 @@
             "type": "Literal",
             "start": 1336,
             "end": 1390,
-            "value": "inner binding rejects modification (from parameters)",
-            "raw": "'inner binding rejects modification (from parameters)'"
+            "value": "inner binding rejects modification (from parameters)"
           }
         ],
         "optional": false
@@ -753,8 +749,7 @@
             "type": "Literal",
             "start": 1435,
             "end": 1481,
-            "value": "inner binding is immutable (from parameters)",
-            "raw": "'inner binding is immutable (from parameters)'"
+            "value": "inner binding is immutable (from parameters)"
           }
         ],
         "optional": false
@@ -811,8 +806,7 @@
             "type": "Literal",
             "start": 1522,
             "end": 1555,
-            "value": "inner binding value (from body)",
-            "raw": "'inner binding value (from body)'"
+            "value": "inner binding value (from body)"
           }
         ],
         "optional": false
@@ -862,8 +856,7 @@
             "type": "Literal",
             "start": 1595,
             "end": 1643,
-            "value": "inner binding rejects modification (from body)",
-            "raw": "'inner binding rejects modification (from body)'"
+            "value": "inner binding rejects modification (from body)"
           }
         ],
         "optional": false
@@ -920,8 +913,7 @@
             "type": "Literal",
             "start": 1683,
             "end": 1723,
-            "value": "inner binding is immutable (from body)",
-            "raw": "'inner binding is immutable (from body)'"
+            "value": "inner binding is immutable (from body)"
           }
         ],
         "optional": false

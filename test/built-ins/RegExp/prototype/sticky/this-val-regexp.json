@@ -40,7 +40,6 @@
               "start": 460,
               "end": 463,
               "value": {},
-              "raw": "/./",
               "regex": {
                 "pattern": ".",
                 "flags": ""
@@ -103,7 +102,6 @@
               "start": 497,
               "end": 501,
               "value": {},
-              "raw": "/./i",
               "regex": {
                 "pattern": ".",
                 "flags": "i"
@@ -166,7 +164,6 @@
               "start": 535,
               "end": 539,
               "value": {},
-              "raw": "/./g",
               "regex": {
                 "pattern": ".",
                 "flags": "g"
@@ -229,7 +226,6 @@
               "start": 573,
               "end": 578,
               "value": {},
-              "raw": "/./gi",
               "regex": {
                 "pattern": ".",
                 "flags": "gi"
@@ -292,7 +288,6 @@
               "start": 613,
               "end": 617,
               "value": {},
-              "raw": "/./y",
               "regex": {
                 "pattern": ".",
                 "flags": "y"
@@ -355,7 +350,6 @@
               "start": 650,
               "end": 655,
               "value": {},
-              "raw": "/./iy",
               "regex": {
                 "pattern": ".",
                 "flags": "iy"
@@ -418,7 +412,6 @@
               "start": 688,
               "end": 693,
               "value": {},
-              "raw": "/./yg",
               "regex": {
                 "pattern": ".",
                 "flags": "yg"
@@ -481,7 +474,6 @@
               "start": 726,
               "end": 732,
               "value": {},
-              "raw": "/./iyg",
               "regex": {
                 "pattern": ".",
                 "flags": "iyg"

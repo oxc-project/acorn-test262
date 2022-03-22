@@ -56,8 +56,7 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 334,
-                "value": "NaN",
-                "raw": "'NaN'"
+                "value": "NaN"
               }
             },
             "consequent": {
@@ -84,8 +83,7 @@
                         "type": "Literal",
                         "start": 365,
                         "end": 400,
-                        "value": "#1: 'NaN' have attribute DontEnum",
-                        "raw": "\"#1: 'NaN' have attribute DontEnum\""
+                        "value": "#1: 'NaN' have attribute DontEnum"
                       }
                     ]
                   }
@@ -111,8 +109,7 @@
                   "type": "Literal",
                   "start": 422,
                   "end": 432,
-                  "value": "Infinity",
-                  "raw": "'Infinity'"
+                  "value": "Infinity"
                 }
               },
               "consequent": {
@@ -139,8 +136,7 @@
                           "type": "Literal",
                           "start": 463,
                           "end": 503,
-                          "value": "#1: 'Infinity' have attribute DontEnum",
-                          "raw": "\"#1: 'Infinity' have attribute DontEnum\""
+                          "value": "#1: 'Infinity' have attribute DontEnum"
                         }
                       ]
                     }
@@ -166,8 +162,7 @@
                     "type": "Literal",
                     "start": 525,
                     "end": 536,
-                    "value": "undefined",
-                    "raw": "'undefined'"
+                    "value": "undefined"
                   }
                 },
                 "consequent": {
@@ -194,8 +189,7 @@
                             "type": "Literal",
                             "start": 567,
                             "end": 608,
-                            "value": "#1: 'undefined' have attribute DontEnum",
-                            "raw": "\"#1: 'undefined' have attribute DontEnum\""
+                            "value": "#1: 'undefined' have attribute DontEnum"
                           }
                         ]
                       }

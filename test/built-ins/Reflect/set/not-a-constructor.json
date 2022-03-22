@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 757,
             "end": 803,
-            "value": "isConstructor(Reflect.set) must return false",
-            "raw": "'isConstructor(Reflect.set) must return false'"
+            "value": "isConstructor(Reflect.set) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 866,
             "end": 906,
-            "value": "`new Reflect.set({})` throws TypeError",
-            "raw": "'`new Reflect.set({})` throws TypeError'"
+            "value": "`new Reflect.set({})` throws TypeError"
           }
         ],
         "optional": false

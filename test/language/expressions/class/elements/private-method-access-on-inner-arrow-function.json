@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 907,
                     "end": 909,
                     "name": "m"
@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 921,
                             "end": 930,
-                            "value": "Test262",
-                            "raw": "'Test262'"
+                            "value": "Test262"
                           }
                         }
                       ]
@@ -145,14 +144,14 @@
                                             "start": 993,
                                             "end": 997
                                           },
+                                          "computed": false,
+                                          "optional": false,
                                           "property": {
-                                            "type": "PrivateIdentifier",
+                                            "type": "PrivateName",
                                             "start": 998,
                                             "end": 1000,
                                             "name": "m"
-                                          },
-                                          "computed": false,
-                                          "optional": false
+                                          }
                                         },
                                         "arguments": [],
                                         "optional": false
@@ -283,8 +282,7 @@
             "type": "Literal",
             "start": 1092,
             "end": 1101,
-            "value": "Test262",
-            "raw": "'Test262'"
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -421,8 +419,7 @@
             "type": "Literal",
             "start": 1177,
             "end": 1226,
-            "value": "accessed private method from an ordinary object",
-            "raw": "'accessed private method from an ordinary object'"
+            "value": "accessed private method from an ordinary object"
           }
         ],
         "optional": false

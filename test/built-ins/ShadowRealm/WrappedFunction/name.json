@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 1048,
             "end": 1058,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1062,
             "end": 1135,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -208,8 +206,7 @@
             "type": "Literal",
             "start": 1246,
             "end": 1252,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -233,8 +230,7 @@
                   "type": "Literal",
                   "start": 1265,
                   "end": 1269,
-                  "value": "fn",
-                  "raw": "\"fn\""
+                  "value": "fn"
                 },
                 "kind": "init"
               },
@@ -397,8 +393,7 @@
             "type": "Literal",
             "start": 1550,
             "end": 1556,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -422,8 +417,7 @@
                   "type": "Literal",
                   "start": 1569,
                   "end": 1574,
-                  "value": "bar",
-                  "raw": "\"bar\""
+                  "value": "bar"
                 },
                 "kind": "init"
               },
@@ -546,15 +540,13 @@
             "type": "Literal",
             "start": 1721,
             "end": 1722,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1724,
             "end": 1728,
-            "value": "1n",
-            "raw": "'1n'"
+            "value": "1n"
           },
           {
             "type": "Literal",
@@ -579,22 +571,19 @@
             "type": "Literal",
             "start": 1752,
             "end": 1762,
-            "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "value": "Symbol()"
           },
           {
             "type": "Literal",
             "start": 1764,
             "end": 1768,
-            "value": "[]",
-            "raw": "'[]'"
+            "value": "[]"
           },
           {
             "type": "Literal",
             "start": 1770,
             "end": 1774,
-            "value": "{}",
-            "raw": "'{}'"
+            "value": "{}"
           }
         ]
       },
@@ -721,8 +710,7 @@
                   "type": "Literal",
                   "start": 1964,
                   "end": 1970,
-                  "value": "name",
-                  "raw": "\"name\""
+                  "value": "name"
                 },
                 {
                   "type": "ObjectExpression",
@@ -746,8 +734,7 @@
                         "type": "Literal",
                         "start": 1985,
                         "end": 1987,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       },
                       "kind": "init"
                     },

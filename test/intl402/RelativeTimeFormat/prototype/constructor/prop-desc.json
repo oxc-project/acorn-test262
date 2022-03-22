@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 1067,
             "end": 1080,
-            "value": "constructor",
-            "raw": "\"constructor\""
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",

@@ -104,15 +104,13 @@
             "type": "Literal",
             "start": 318,
             "end": 337,
-            "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 341,
             "end": 414,
-            "value": "Object.prototype.toString.call(function() {}) returns [object Function]",
-            "raw": "\"Object.prototype.toString.call(function() {}) returns [object Function]\""
+            "value": "Object.prototype.toString.call(function() {}) returns [object Function]"
           }
         ],
         "optional": false
@@ -233,15 +231,13 @@
             "type": "Literal",
             "start": 495,
             "end": 514,
-            "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 518,
             "end": 599,
-            "value": "Object.prototype.toString.call(Object(function() {})) returns [object Function]",
-            "raw": "\"Object.prototype.toString.call(Object(function() {})) returns [object Function]\""
+            "value": "Object.prototype.toString.call(Object(function() {})) returns [object Function]"
           }
         ],
         "optional": false
@@ -345,15 +341,13 @@
             "type": "Literal",
             "start": 669,
             "end": 688,
-            "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 692,
             "end": 762,
-            "value": "Object.prototype.toString.call(Function()) returns [object Function]",
-            "raw": "\"Object.prototype.toString.call(Function()) returns [object Function]\""
+            "value": "Object.prototype.toString.call(Function()) returns [object Function]"
           }
         ],
         "optional": false
@@ -471,15 +465,13 @@
             "type": "Literal",
             "start": 840,
             "end": 859,
-            "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 863,
             "end": 941,
-            "value": "Object.prototype.toString.call(Object(Function())) returns [object Function]",
-            "raw": "\"Object.prototype.toString.call(Object(Function())) returns [object Function]\""
+            "value": "Object.prototype.toString.call(Object(Function())) returns [object Function]"
           }
         ],
         "optional": false
@@ -582,15 +574,13 @@
             "type": "Literal",
             "start": 1015,
             "end": 1034,
-            "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 1038,
             "end": 1112,
-            "value": "Object.prototype.toString.call(new Function()) returns [object Function]",
-            "raw": "\"Object.prototype.toString.call(new Function()) returns [object Function]\""
+            "value": "Object.prototype.toString.call(new Function()) returns [object Function]"
           }
         ],
         "optional": false
@@ -707,15 +697,13 @@
             "type": "Literal",
             "start": 1194,
             "end": 1213,
-            "value": "[object Function]",
-            "raw": "\"[object Function]\""
+            "value": "[object Function]"
           },
           {
             "type": "Literal",
             "start": 1217,
             "end": 1299,
-            "value": "Object.prototype.toString.call(Object(new Function())) returns [object Function]",
-            "raw": "\"Object.prototype.toString.call(Object(new Function())) returns [object Function]\""
+            "value": "Object.prototype.toString.call(Object(new Function())) returns [object Function]"
           }
         ],
         "optional": false

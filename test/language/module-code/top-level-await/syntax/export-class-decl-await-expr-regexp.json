@@ -80,7 +80,6 @@
                 "start": 2148,
                 "end": 2151,
                 "value": {},
-                "raw": "/1/",
                 "regex": {
                   "pattern": "1",
                   "flags": ""

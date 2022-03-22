@@ -198,8 +198,7 @@
             "type": "Literal",
             "start": 741,
             "end": 799,
-            "value": "Array.isArray(handle.proxy) throws a TypeError exception",
-            "raw": "'Array.isArray(handle.proxy) throws a TypeError exception'"
+            "value": "Array.isArray(handle.proxy) throws a TypeError exception"
           }
         ],
         "optional": false

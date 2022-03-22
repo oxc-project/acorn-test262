@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 791,
             "end": 813,
-            "value": "propertyIsEnumerable",
-            "raw": "\"propertyIsEnumerable\""
+            "value": "propertyIsEnumerable"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 876,
             "end": 882,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 942,
             "end": 948,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -254,8 +251,7 @@
             "type": "Literal",
             "start": 1009,
             "end": 1015,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

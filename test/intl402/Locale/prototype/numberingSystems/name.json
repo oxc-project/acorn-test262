@@ -82,8 +82,7 @@
                   "type": "Literal",
                   "start": 1324,
                   "end": 1342,
-                  "value": "numberingSystems",
-                  "raw": "\"numberingSystems\""
+                  "value": "numberingSystems"
                 }
               ],
               "optional": false
@@ -126,8 +125,7 @@
             "type": "Literal",
             "start": 1372,
             "end": 1378,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -151,8 +149,7 @@
                   "type": "Literal",
                   "start": 1391,
                   "end": 1413,
-                  "value": "get numberingSystems",
-                  "raw": "\"get numberingSystems\""
+                  "value": "get numberingSystems"
                 },
                 "kind": "init"
               },

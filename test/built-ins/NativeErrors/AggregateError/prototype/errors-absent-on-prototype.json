@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 609,
                 "end": 617,
-                "value": "errors",
-                "raw": "\"errors\""
+                "value": "errors"
               }
             ],
             "optional": false

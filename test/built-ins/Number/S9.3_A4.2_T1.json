@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 501,
             "end": 527,
-            "value": "Number(true) returns NaN",
-            "raw": "'Number(true) returns NaN'"
+            "value": "Number(true) returns NaN"
           }
         ],
         "optional": false
@@ -117,8 +116,7 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 557,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -134,16 +132,14 @@
               "type": "Literal",
               "start": 561,
               "end": 562,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 564,
             "end": 591,
-            "value": "Number(+0) must return +0",
-            "raw": "'Number(+0) must return +0'"
+            "value": "Number(+0) must return +0"
           }
         ],
         "optional": false
@@ -198,8 +194,7 @@
                   "type": "Literal",
                   "start": 619,
                   "end": 620,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -215,16 +210,14 @@
               "type": "Literal",
               "start": 624,
               "end": 625,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           },
           {
             "type": "Literal",
             "start": 627,
             "end": 654,
-            "value": "Number(-0) must return -0",
-            "raw": "'Number(-0) must return -0'"
+            "value": "Number(-0) must return -0"
           }
         ],
         "optional": false
@@ -314,8 +307,7 @@
             "type": "Literal",
             "start": 742,
             "end": 809,
-            "value": "Number(Number.POSITIVE_INFINITY) returns Number.POSITIVE_INFINITY",
-            "raw": "'Number(Number.POSITIVE_INFINITY) returns Number.POSITIVE_INFINITY'"
+            "value": "Number(Number.POSITIVE_INFINITY) returns Number.POSITIVE_INFINITY"
           }
         ],
         "optional": false
@@ -405,8 +397,7 @@
             "type": "Literal",
             "start": 898,
             "end": 965,
-            "value": "Number(Number.NEGATIVE_INFINITY) returns Number.NEGATIVE_INFINITY",
-            "raw": "'Number(Number.NEGATIVE_INFINITY) returns Number.NEGATIVE_INFINITY'"
+            "value": "Number(Number.NEGATIVE_INFINITY) returns Number.NEGATIVE_INFINITY"
           }
         ],
         "optional": false
@@ -496,8 +487,7 @@
             "type": "Literal",
             "start": 1031,
             "end": 1082,
-            "value": "Number(Number.MAX_VALUE) returns Number.MAX_VALUE",
-            "raw": "'Number(Number.MAX_VALUE) returns Number.MAX_VALUE'"
+            "value": "Number(Number.MAX_VALUE) returns Number.MAX_VALUE"
           }
         ],
         "optional": false
@@ -587,8 +577,7 @@
             "type": "Literal",
             "start": 1146,
             "end": 1197,
-            "value": "Number(Number.MIN_VALUE) returns Number.MIN_VALUE",
-            "raw": "'Number(Number.MIN_VALUE) returns Number.MIN_VALUE'"
+            "value": "Number(Number.MIN_VALUE) returns Number.MIN_VALUE"
           }
         ],
         "optional": false

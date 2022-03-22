@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1762,
             "end": 1763,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -63,8 +62,7 @@
             "type": "Literal",
             "start": 1784,
             "end": 1785,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -117,8 +115,7 @@
                   "type": "Literal",
                   "start": 1822,
                   "end": 1857,
-                  "value": "parameter binding value (initial)",
-                  "raw": "'parameter binding value (initial)'"
+                  "value": "parameter binding value (initial)"
                 }
               ],
               "optional": false
@@ -166,8 +163,7 @@
                     "type": "Literal",
                     "start": 1894,
                     "end": 1895,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -182,8 +178,7 @@
                   "type": "Literal",
                   "start": 1909,
                   "end": 1945,
-                  "value": "arguments property value (initial)",
-                  "raw": "'arguments property value (initial)'"
+                  "value": "arguments property value (initial)"
                 }
               ],
               "optional": false
@@ -212,8 +207,7 @@
                   "type": "Literal",
                   "start": 1964,
                   "end": 1965,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -222,8 +216,7 @@
                 "type": "Literal",
                 "start": 1969,
                 "end": 1970,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -271,8 +264,7 @@
                   "type": "Literal",
                   "start": 2011,
                   "end": 2067,
-                  "value": "parameter binding value (after arguments modification)",
-                  "raw": "'parameter binding value (after arguments modification)'"
+                  "value": "parameter binding value (after arguments modification)"
                 }
               ],
               "optional": false
@@ -320,8 +312,7 @@
                     "type": "Literal",
                     "start": 2107,
                     "end": 2108,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -330,15 +321,13 @@
                   "type": "Literal",
                   "start": 2111,
                   "end": 2112,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 2114,
                   "end": 2171,
-                  "value": "arguments property value (after arguments modification)",
-                  "raw": "'arguments property value (after arguments modification)'"
+                  "value": "arguments property value (after arguments modification)"
                 }
               ],
               "optional": false
@@ -363,8 +352,7 @@
                 "type": "Literal",
                 "start": 2184,
                 "end": 2185,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           },
@@ -406,15 +394,13 @@
                   "type": "Literal",
                   "start": 2215,
                   "end": 2216,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 {
                   "type": "Literal",
                   "start": 2218,
                   "end": 2282,
-                  "value": "parameter binding value (after parameter binding modification)",
-                  "raw": "'parameter binding value (after parameter binding modification)'"
+                  "value": "parameter binding value (after parameter binding modification)"
                 }
               ],
               "optional": false
@@ -462,8 +448,7 @@
                     "type": "Literal",
                     "start": 2322,
                     "end": 2323,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -472,15 +457,13 @@
                   "type": "Literal",
                   "start": 2330,
                   "end": 2331,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 2337,
                   "end": 2402,
-                  "value": "arguments property value (after parameter binding modification)",
-                  "raw": "'arguments property value (after parameter binding modification)'"
+                  "value": "arguments property value (after parameter binding modification)"
                 }
               ],
               "optional": false
@@ -516,8 +499,7 @@
                   "type": "Literal",
                   "start": 2434,
                   "end": 2435,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -601,15 +583,13 @@
             "type": "Literal",
             "start": 2481,
             "end": 2482,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2484,
             "end": 2525,
-            "value": "generator function invoked exactly once",
-            "raw": "'generator function invoked exactly once'"
+            "value": "generator function invoked exactly once"
           }
         ],
         "optional": false

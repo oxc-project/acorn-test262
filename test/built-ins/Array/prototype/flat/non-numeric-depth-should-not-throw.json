@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 338,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "ArrayExpression",
@@ -39,8 +38,7 @@
                     "type": "Literal",
                     "start": 341,
                     "end": 342,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   }
                 ]
               }
@@ -94,8 +92,7 @@
             "type": "Literal",
             "start": 430,
             "end": 442,
-            "value": "TestString",
-            "raw": "'TestString'"
+            "value": "TestString"
           }
         }
       ],
@@ -197,8 +194,7 @@
             "type": "Literal",
             "start": 513,
             "end": 577,
-            "value": "The value of actual is expected to equal the value of expected",
-            "raw": "'The value of actual is expected to equal the value of expected'"
+            "value": "The value of actual is expected to equal the value of expected"
           }
         ],
         "optional": false
@@ -321,8 +317,7 @@
             "type": "Literal",
             "start": 703,
             "end": 767,
-            "value": "The value of actual is expected to equal the value of expected",
-            "raw": "'The value of actual is expected to equal the value of expected'"
+            "value": "The value of actual is expected to equal the value of expected"
           }
         ],
         "optional": false
@@ -458,8 +453,7 @@
             "type": "Literal",
             "start": 921,
             "end": 985,
-            "value": "The value of actual is expected to equal the value of expected",
-            "raw": "'The value of actual is expected to equal the value of expected'"
+            "value": "The value of actual is expected to equal the value of expected"
           }
         ],
         "optional": false
@@ -490,8 +484,7 @@
             "type": "Literal",
             "start": 1045,
             "end": 1046,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       }
@@ -590,8 +583,7 @@
             "type": "Literal",
             "start": 1113,
             "end": 1177,
-            "value": "The value of actual is expected to equal the value of expected",
-            "raw": "'The value of actual is expected to equal the value of expected'"
+            "value": "The value of actual is expected to equal the value of expected"
           }
         ],
         "optional": false
@@ -622,8 +614,7 @@
             "type": "Literal",
             "start": 1237,
             "end": 1238,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       }
@@ -722,8 +713,7 @@
             "type": "Literal",
             "start": 1305,
             "end": 1369,
-            "value": "The value of actual is expected to equal the value of expected",
-            "raw": "'The value of actual is expected to equal the value of expected'"
+            "value": "The value of actual is expected to equal the value of expected"
           }
         ],
         "optional": false
@@ -748,8 +738,7 @@
           "type": "Literal",
           "start": 1439,
           "end": 1442,
-          "value": "1",
-          "raw": "'1'"
+          "value": "1"
         }
       }
     },
@@ -827,15 +816,13 @@
               "type": "Literal",
               "start": 1483,
               "end": 1484,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 1486,
               "end": 1487,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           ]
         }
@@ -885,8 +872,7 @@
             "type": "Literal",
             "start": 1527,
             "end": 1591,
-            "value": "The value of actual is expected to equal the value of expected",
-            "raw": "'The value of actual is expected to equal the value of expected'"
+            "value": "The value of actual is expected to equal the value of expected"
           }
         ],
         "optional": false

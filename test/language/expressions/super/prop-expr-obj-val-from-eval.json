@@ -72,8 +72,7 @@
                   "type": "Literal",
                   "start": 1087,
                   "end": 1090,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               },
@@ -94,8 +93,7 @@
                   "type": "Literal",
                   "start": 1099,
                   "end": 1102,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "init"
               }
@@ -142,8 +140,7 @@
                   "type": "Literal",
                   "start": 1123,
                   "end": 1126,
-                  "value": "b",
-                  "raw": "'b'"
+                  "value": "b"
                 },
                 "kind": "init"
               }
@@ -234,8 +231,7 @@
                   "type": "Literal",
                   "start": 1181,
                   "end": 1184,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 },
                 "kind": "init"
               },
@@ -256,8 +252,7 @@
                   "type": "Literal",
                   "start": 1195,
                   "end": 1198,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 },
                 "kind": "init"
               },
@@ -319,8 +314,7 @@
                                 "type": "Literal",
                                 "start": 1230,
                                 "end": 1247,
-                                "value": "super[\"fromA\"];",
-                                "raw": "'super[\"fromA\"];'"
+                                "value": "super[\"fromA\"];"
                               }
                             ],
                             "optional": false
@@ -357,8 +351,7 @@
                                 "type": "Literal",
                                 "start": 1267,
                                 "end": 1284,
-                                "value": "super[\"fromB\"];",
-                                "raw": "'super[\"fromB\"];'"
+                                "value": "super[\"fromB\"];"
                               }
                             ],
                             "optional": false
@@ -488,8 +481,7 @@
             "type": "Literal",
             "start": 1366,
             "end": 1369,
-            "value": "a",
-            "raw": "'a'"
+            "value": "a"
           }
         ],
         "optional": false
@@ -533,8 +525,7 @@
             "type": "Literal",
             "start": 1396,
             "end": 1399,
-            "value": "b",
-            "raw": "'b'"
+            "value": "b"
           }
         ],
         "optional": false

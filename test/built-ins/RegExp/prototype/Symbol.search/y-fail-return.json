@@ -44,7 +44,6 @@
                 "start": 806,
                 "end": 810,
                 "value": {},
-                "raw": "/a/y",
                 "regex": {
                   "pattern": "a",
                   "flags": "y"
@@ -77,8 +76,7 @@
                 "type": "Literal",
                 "start": 826,
                 "end": 830,
-                "value": "ba",
-                "raw": "'ba'"
+                "value": "ba"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
               "type": "Literal",
               "start": 834,
               "end": 835,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],

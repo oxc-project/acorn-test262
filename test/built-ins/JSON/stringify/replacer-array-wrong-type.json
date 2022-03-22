@@ -99,8 +99,7 @@
                                 "type": "Literal",
                                 "start": 699,
                                 "end": 707,
-                                "value": "toJSON",
-                                "raw": "'toJSON'"
+                                "value": "toJSON"
                               }
                             },
                             "consequent": {
@@ -223,8 +222,7 @@
                               "type": "Literal",
                               "start": 834,
                               "end": 844,
-                              "value": "toString",
-                              "raw": "'toString'"
+                              "value": "toString"
                             }
                           }
                         ]
@@ -324,8 +322,7 @@
             "type": "Literal",
             "start": 914,
             "end": 918,
-            "value": "{}",
-            "raw": "'{}'"
+            "value": "{}"
           }
         ],
         "optional": false

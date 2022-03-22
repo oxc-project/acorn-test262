@@ -434,8 +434,7 @@
             "type": "Literal",
             "start": 1287,
             "end": 1298,
-            "value": "__proto__",
-            "raw": "'__proto__'"
+            "value": "__proto__"
           }
         }
       ],
@@ -546,8 +545,7 @@
             "type": "Literal",
             "start": 1378,
             "end": 1414,
-            "value": "handler object is the trap context",
-            "raw": "'handler object is the trap context'"
+            "value": "handler object is the trap context"
           }
         ],
         "optional": false
@@ -597,8 +595,7 @@
             "type": "Literal",
             "start": 1451,
             "end": 1488,
-            "value": "first argument is the target object",
-            "raw": "'first argument is the target object'"
+            "value": "first argument is the target object"
           }
         ],
         "optional": false
@@ -648,8 +645,7 @@
             "type": "Literal",
             "start": 1521,
             "end": 1559,
-            "value": "second argument is the property name",
-            "raw": "'second argument is the property name'"
+            "value": "second argument is the property name"
           }
         ],
         "optional": false
@@ -699,8 +695,7 @@
             "type": "Literal",
             "start": 1594,
             "end": 1627,
-            "value": "third argument is the new value",
-            "raw": "'third argument is the new value'"
+            "value": "third argument is the new value"
           }
         ],
         "optional": false
@@ -750,8 +745,7 @@
             "type": "Literal",
             "start": 1668,
             "end": 1708,
-            "value": "fourth argument is the receiver object",
-            "raw": "'fourth argument is the receiver object'"
+            "value": "fourth argument is the receiver object"
           }
         ],
         "optional": false

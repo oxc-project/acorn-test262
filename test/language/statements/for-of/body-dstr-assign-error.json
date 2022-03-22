@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 890,
             "end": 891,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 914,
             "end": 915,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -306,8 +304,7 @@
                                           "type": "Literal",
                                           "start": 1111,
                                           "end": 1112,
-                                          "value": 0,
-                                          "raw": "0"
+                                          "value": 0
                                         }
                                       ]
                                     },
@@ -367,8 +364,7 @@
                                   "type": "Literal",
                                   "start": 1168,
                                   "end": 1169,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             }
@@ -494,8 +490,7 @@
                             "type": "Literal",
                             "start": 1279,
                             "end": 1280,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -547,15 +542,13 @@
             "type": "Literal",
             "start": 1324,
             "end": 1325,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1327,
             "end": 1359,
-            "value": "The loop body is not evaluated",
-            "raw": "'The loop body is not evaluated'"
+            "value": "The loop body is not evaluated"
           }
         ],
         "optional": false
@@ -599,15 +592,13 @@
             "type": "Literal",
             "start": 1390,
             "end": 1391,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1393,
             "end": 1413,
-            "value": "Iterator is closed",
-            "raw": "'Iterator is closed'"
+            "value": "Iterator is closed"
           }
         ],
         "optional": false

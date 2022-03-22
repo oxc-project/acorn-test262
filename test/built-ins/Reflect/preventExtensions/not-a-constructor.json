@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 779,
             "end": 839,
-            "value": "isConstructor(Reflect.preventExtensions) must return false",
-            "raw": "'isConstructor(Reflect.preventExtensions) must return false'"
+            "value": "isConstructor(Reflect.preventExtensions) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 917,
             "end": 971,
-            "value": "`new Reflect.preventExtensions({})` throws TypeError",
-            "raw": "'`new Reflect.preventExtensions({})` throws TypeError'"
+            "value": "`new Reflect.preventExtensions({})` throws TypeError"
           }
         ],
         "optional": false

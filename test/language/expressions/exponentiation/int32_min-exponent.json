@@ -28,8 +28,7 @@
               "type": "Literal",
               "start": 314,
               "end": 324,
-              "value": 2147483648,
-              "raw": "2147483648"
+              "value": 2147483648
             }
           }
         }
@@ -72,8 +71,7 @@
               "type": "Literal",
               "start": 344,
               "end": 345,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "operator": "**",
             "right": {
@@ -93,8 +91,7 @@
               "type": "Literal",
               "start": 359,
               "end": 362,
-              "value": 0,
-              "raw": "0.0"
+              "value": 0
             }
           },
           {
@@ -105,16 +102,14 @@
               "type": "Literal",
               "start": 381,
               "end": 437,
-              "value": "2**-(gonzo huge exponent > 1074) should be +0 because ",
-              "raw": "\"2**-(gonzo huge exponent > 1074) should be +0 because \""
+              "value": "2**-(gonzo huge exponent > 1074) should be +0 because "
             },
             "operator": "+",
             "right": {
               "type": "Literal",
               "start": 457,
               "end": 508,
-              "value": "2**-1074 is the smallest positive IEEE-754 number",
-              "raw": "\"2**-1074 is the smallest positive IEEE-754 number\""
+              "value": "2**-1074 is the smallest positive IEEE-754 number"
             }
           }
         ],
@@ -157,8 +152,7 @@
               "type": "Literal",
               "start": 529,
               "end": 530,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "**",
             "right": {
@@ -172,15 +166,13 @@
             "type": "Literal",
             "start": 543,
             "end": 544,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 563,
             "end": 609,
-            "value": "1**-(gonzo huge exponent > 1074) should be 1",
-            "raw": "\"1**-(gonzo huge exponent > 1074) should be 1\""
+            "value": "1**-(gonzo huge exponent > 1074) should be 1"
           }
         ],
         "optional": false

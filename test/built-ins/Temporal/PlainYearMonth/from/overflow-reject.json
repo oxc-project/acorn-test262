@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 267,
                   "end": 271,
-                  "value": 2019,
-                  "raw": "2019"
+                  "value": 2019
                 },
                 "kind": "init"
               },
@@ -62,8 +61,7 @@
                   "type": "Literal",
                   "start": 280,
                   "end": 282,
-                  "value": 13,
-                  "raw": "13"
+                  "value": 13
                 },
                 "kind": "init"
               }
@@ -181,8 +179,7 @@
                         "type": "Literal",
                         "start": 364,
                         "end": 372,
-                        "value": "reject",
-                        "raw": "\"reject\""
+                        "value": "reject"
                       },
                       "kind": "init"
                     }

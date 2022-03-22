@@ -52,8 +52,7 @@
                   "type": "Literal",
                   "start": 276,
                   "end": 277,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -74,8 +73,7 @@
                 "type": "Literal",
                 "start": 289,
                 "end": 293,
-                "value": "-1",
-                "raw": "\"-1\""
+                "value": "-1"
               }
             ],
             "optional": false
@@ -84,8 +82,7 @@
             "type": "Literal",
             "start": 296,
             "end": 364,
-            "value": "parseInt(-1) must return the same value returned by parseInt(\"-1\")",
-            "raw": "'parseInt(-1) must return the same value returned by parseInt(\"-1\")'"
+            "value": "parseInt(-1) must return the same value returned by parseInt(\"-1\")"
           }
         ],
         "optional": false
@@ -157,15 +154,13 @@
             "type": "Literal",
             "start": 412,
             "end": 417,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           },
           {
             "type": "Literal",
             "start": 419,
             "end": 465,
-            "value": "String(parseInt(Infinity)) must return \"NaN\"",
-            "raw": "'String(parseInt(Infinity)) must return \"NaN\"'"
+            "value": "String(parseInt(Infinity)) must return \"NaN\""
           }
         ],
         "optional": false
@@ -237,15 +232,13 @@
             "type": "Literal",
             "start": 508,
             "end": 513,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           },
           {
             "type": "Literal",
             "start": 515,
             "end": 556,
-            "value": "String(parseInt(NaN)) must return \"NaN\"",
-            "raw": "'String(parseInt(NaN)) must return \"NaN\"'"
+            "value": "String(parseInt(NaN)) must return \"NaN\""
           }
         ],
         "optional": false
@@ -300,8 +293,7 @@
                   "type": "Literal",
                   "start": 586,
                   "end": 587,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ],
@@ -311,15 +303,13 @@
             "type": "Literal",
             "start": 590,
             "end": 591,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 593,
             "end": 621,
-            "value": "parseInt(-0) must return 0",
-            "raw": "'parseInt(-0) must return 0'"
+            "value": "parseInt(-0) must return 0"
           }
         ],
         "optional": false

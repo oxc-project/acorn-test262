@@ -44,22 +44,19 @@
                     "type": "Literal",
                     "start": 359,
                     "end": 360,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   {
                     "type": "Literal",
                     "start": 362,
                     "end": 363,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Literal",
                     "start": 365,
                     "end": 366,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   }
                 ]
               }
@@ -96,8 +93,7 @@
           "type": "Literal",
           "start": 481,
           "end": 489,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -128,8 +124,7 @@
                     "type": "Literal",
                     "start": 518,
                     "end": 609,
-                    "value": "#1: __str = String(new Array(1,2,3)); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(new Array(1,2,3)); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#1: __str = String(new Array(1,2,3)); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -172,8 +167,7 @@
           "type": "Literal",
           "start": 815,
           "end": 822,
-          "value": "1,2,3",
-          "raw": "\"1,2,3\""
+          "value": "1,2,3"
         }
       },
       "consequent": {
@@ -204,8 +198,7 @@
                     "type": "Literal",
                     "start": 851,
                     "end": 927,
-                    "value": "#2: __str = String(new Array(1,2,3)); __str === \"1,2,3\". Actual: __str ===",
-                    "raw": "'#2: __str = String(new Array(1,2,3)); __str === \"1,2,3\". Actual: __str ==='"
+                    "value": "#2: __str = String(new Array(1,2,3)); __str === \"1,2,3\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {

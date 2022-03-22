@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 289,
                 "end": 298,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ],
             "optional": false
@@ -88,8 +87,7 @@
             "type": "Literal",
             "start": 313,
             "end": 315,
-            "value": 44,
-            "raw": "44"
+            "value": 44
           }
         }
       ],
@@ -188,8 +186,7 @@
                     "type": "Literal",
                     "start": 373,
                     "end": 385,
-                    "value": "1994-11-05",
-                    "raw": "\"1994-11-05\""
+                    "value": "1994-11-05"
                   }
                 ],
                 "optional": false
@@ -207,8 +204,7 @@
             "type": "Literal",
             "start": 394,
             "end": 405,
-            "value": "PlainDate",
-            "raw": "\"PlainDate\""
+            "value": "PlainDate"
           }
         ],
         "optional": false
@@ -307,8 +303,7 @@
                     "type": "Literal",
                     "start": 468,
                     "end": 489,
-                    "value": "1994-11-05T08:15:30",
-                    "raw": "\"1994-11-05T08:15:30\""
+                    "value": "1994-11-05T08:15:30"
                   }
                 ],
                 "optional": false
@@ -326,8 +321,7 @@
             "type": "Literal",
             "start": 498,
             "end": 513,
-            "value": "PlainDateTime",
-            "raw": "\"PlainDateTime\""
+            "value": "PlainDateTime"
           }
         ],
         "optional": false
@@ -407,8 +401,7 @@
                       "type": "Literal",
                       "start": 556,
                       "end": 560,
-                      "value": 1994,
-                      "raw": "1994"
+                      "value": 1994
                     },
                     "kind": "init"
                   },
@@ -429,8 +422,7 @@
                       "type": "Literal",
                       "start": 569,
                       "end": 571,
-                      "value": 11,
-                      "raw": "11"
+                      "value": 11
                     },
                     "kind": "init"
                   },
@@ -451,8 +443,7 @@
                       "type": "Literal",
                       "start": 578,
                       "end": 579,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     },
                     "kind": "init"
                   }
@@ -471,8 +462,7 @@
             "type": "Literal",
             "start": 589,
             "end": 603,
-            "value": "property bag",
-            "raw": "\"property bag\""
+            "value": "property bag"
           }
         ],
         "optional": false
@@ -534,8 +524,7 @@
                 "type": "Literal",
                 "start": 638,
                 "end": 650,
-                "value": "1994-11-05",
-                "raw": "\"1994-11-05\""
+                "value": "1994-11-05"
               }
             ],
             "optional": false
@@ -550,8 +539,7 @@
             "type": "Literal",
             "start": 658,
             "end": 666,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           }
         ],
         "optional": false
@@ -646,8 +634,7 @@
                         "type": "Literal",
                         "start": 723,
                         "end": 727,
-                        "value": 2000,
-                        "raw": "2000"
+                        "value": 2000
                       },
                       "kind": "init"
                     }
@@ -661,8 +648,7 @@
             "type": "Literal",
             "start": 732,
             "end": 770,
-            "value": "property bag with missing properties",
-            "raw": "\"property bag with missing properties\""
+            "value": "property bag with missing properties"
           }
         ],
         "optional": false

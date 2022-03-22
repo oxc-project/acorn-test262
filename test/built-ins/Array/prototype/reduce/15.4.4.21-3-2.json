@@ -74,8 +74,7 @@
                     "type": "Literal",
                     "start": 347,
                     "end": 349,
-                    "value": 11,
-                    "raw": "11"
+                    "value": 11
                   }
                 },
                 "operator": "&&",
@@ -94,8 +93,7 @@
                     "type": "Literal",
                     "start": 361,
                     "end": 362,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               }
@@ -135,15 +133,13 @@
                   "type": "Literal",
                   "start": 382,
                   "end": 383,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 385,
                   "end": 387,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -158,15 +154,13 @@
                   "type": "Literal",
                   "start": 391,
                   "end": 392,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
                   "start": 394,
                   "end": 395,
-                  "value": 9,
-                  "raw": "9"
+                  "value": 9
                 },
                 "kind": "init"
               },
@@ -292,8 +286,7 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 479,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -309,8 +302,7 @@
             "type": "Literal",
             "start": 488,
             "end": 537,
-            "value": "Array.prototype.reduce.call(obj, callbackfn, 1)",
-            "raw": "'Array.prototype.reduce.call(obj, callbackfn, 1)'"
+            "value": "Array.prototype.reduce.call(obj, callbackfn, 1)"
           }
         ],
         "optional": false

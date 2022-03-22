@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 549,
             "end": 550,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -174,8 +173,7 @@
                       "type": "Literal",
                       "start": 1477,
                       "end": 1478,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -294,8 +292,7 @@
             "type": "Literal",
             "start": 1552,
             "end": 1553,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -416,15 +413,13 @@
             "type": "Literal",
             "start": 1697,
             "end": 1710,
-            "value": "Symbol(\"1\")",
-            "raw": "'Symbol(\"1\")'"
+            "value": "Symbol(\"1\")"
           },
           {
             "type": "Literal",
             "start": 1714,
             "end": 1760,
-            "value": "$262.agent.getReport() returns \"Symbol(\"1\")\"",
-            "raw": "'$262.agent.getReport() returns \"Symbol(\"1\")\"'"
+            "value": "$262.agent.getReport() returns \"Symbol(\"1\")\""
           }
         ],
         "optional": false
@@ -501,15 +496,13 @@
             "type": "Literal",
             "start": 1810,
             "end": 1823,
-            "value": "Symbol(\"2\")",
-            "raw": "'Symbol(\"2\")'"
+            "value": "Symbol(\"2\")"
           },
           {
             "type": "Literal",
             "start": 1827,
             "end": 1873,
-            "value": "$262.agent.getReport() returns \"Symbol(\"2\")\"",
-            "raw": "'$262.agent.getReport() returns \"Symbol(\"2\")\"'"
+            "value": "$262.agent.getReport() returns \"Symbol(\"2\")\""
           }
         ],
         "optional": false
@@ -577,8 +570,7 @@
                 "type": "Literal",
                 "start": 1916,
                 "end": 1917,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -587,15 +579,13 @@
             "type": "Literal",
             "start": 1920,
             "end": 1921,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1923,
             "end": 1958,
-            "value": "Atomics.notify(i32a, 0) returns 0",
-            "raw": "'Atomics.notify(i32a, 0) returns 0'"
+            "value": "Atomics.notify(i32a, 0) returns 0"
           }
         ],
         "optional": false

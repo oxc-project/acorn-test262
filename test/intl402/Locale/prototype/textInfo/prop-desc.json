@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 1020,
                 "end": 1030,
-                "value": "textInfo",
-                "raw": "\"textInfo\""
+                "value": "textInfo"
               }
             ],
             "optional": false
@@ -203,8 +202,7 @@
             "type": "Literal",
             "start": 1114,
             "end": 1124,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -261,8 +259,7 @@
             "type": "Literal",
             "start": 1166,
             "end": 1176,
-            "value": "textInfo",
-            "raw": "\"textInfo\""
+            "value": "textInfo"
           },
           {
             "type": "ObjectExpression",

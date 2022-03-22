@@ -73,8 +73,7 @@
             "type": "Literal",
             "start": 961,
             "end": 962,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -284,15 +283,13 @@
             "type": "Literal",
             "start": 1096,
             "end": 1097,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1099,
             "end": 1136,
-            "value": "`Set.prototype.add` was not called.",
-            "raw": "\"`Set.prototype.add` was not called.\""
+            "value": "`Set.prototype.add` was not called."
           }
         ],
         "optional": false

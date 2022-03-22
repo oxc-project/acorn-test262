@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 676,
                   "end": 677,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               }
@@ -137,8 +136,7 @@
                           "type": "Literal",
                           "start": 742,
                           "end": 743,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       }
                     ]
@@ -200,8 +198,7 @@
                       "type": "Literal",
                       "start": 804,
                       "end": 805,
-                      "value": 3,
-                      "raw": "3"
+                      "value": 3
                     }
                   }
                 }
@@ -243,8 +240,7 @@
           "type": "Literal",
           "start": 835,
           "end": 836,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -275,8 +271,7 @@
                     "type": "Literal",
                     "start": 865,
                     "end": 899,
-                    "value": "#1: innerScope.x === 6. Actual: ",
-                    "raw": "'#1: innerScope.x === 6. Actual: '"
+                    "value": "#1: innerScope.x === 6. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -343,8 +338,7 @@
           "type": "Literal",
           "start": 942,
           "end": 943,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -375,8 +369,7 @@
                     "type": "Literal",
                     "start": 972,
                     "end": 1006,
-                    "value": "#2: outerScope.x === 0. Actual: ",
-                    "raw": "'#2: outerScope.x === 0. Actual: '"
+                    "value": "#2: outerScope.x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

@@ -108,8 +108,7 @@
                       "type": "Literal",
                       "start": 652,
                       "end": 653,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   },
@@ -442,8 +441,7 @@
             "type": "Literal",
             "start": 934,
             "end": 941,
-            "value": "value",
-            "raw": "\"value\""
+            "value": "value"
           }
         ],
         "optional": false
@@ -519,8 +517,7 @@
             "type": "Literal",
             "start": 1003,
             "end": 1013,
-            "value": "writable",
-            "raw": "\"writable\""
+            "value": "writable"
           }
         ],
         "optional": false
@@ -596,8 +593,7 @@
             "type": "Literal",
             "start": 1077,
             "end": 1089,
-            "value": "enumerable",
-            "raw": "\"enumerable\""
+            "value": "enumerable"
           }
         ],
         "optional": false
@@ -674,8 +670,7 @@
             "type": "Literal",
             "start": 1151,
             "end": 1165,
-            "value": "configurable",
-            "raw": "\"configurable\""
+            "value": "configurable"
           }
         ],
         "optional": false
@@ -751,8 +746,7 @@
             "type": "Literal",
             "start": 1222,
             "end": 1227,
-            "value": "get",
-            "raw": "\"get\""
+            "value": "get"
           }
         ],
         "optional": false
@@ -828,8 +822,7 @@
             "type": "Literal",
             "start": 1283,
             "end": 1288,
-            "value": "set",
-            "raw": "\"set\""
+            "value": "set"
           }
         ],
         "optional": false
@@ -905,8 +898,7 @@
             "type": "Literal",
             "start": 1351,
             "end": 1363,
-            "value": "enumerable",
-            "raw": "\"enumerable\""
+            "value": "enumerable"
           }
         ],
         "optional": false
@@ -983,8 +975,7 @@
             "type": "Literal",
             "start": 1424,
             "end": 1438,
-            "value": "configurable",
-            "raw": "\"configurable\""
+            "value": "configurable"
           }
         ],
         "optional": false

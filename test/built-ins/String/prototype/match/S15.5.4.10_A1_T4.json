@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 293,
                 "end": 295,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               "property": {
                 "type": "Identifier",
@@ -99,8 +98,7 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 339,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ],
             "optional": false
@@ -185,8 +183,7 @@
                     "type": "Literal",
                     "start": 503,
                     "end": 613,
-                    "value": "#1: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.length === __expected.length. Actual: ",
-                    "raw": "'#1: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.length === __expected.length. Actual: '"
+                    "value": "#1: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.length === __expected.length. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -292,8 +289,7 @@
                     "type": "Literal",
                     "start": 878,
                     "end": 986,
-                    "value": "#2: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.index === __expected.index. Actual: ",
-                    "raw": "'#2: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.index === __expected.index. Actual: '"
+                    "value": "#2: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.index === __expected.index. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -399,8 +395,7 @@
                     "type": "Literal",
                     "start": 1250,
                     "end": 1358,
-                    "value": "#3: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.input === __expected.input. Actual: ",
-                    "raw": "'#3: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.input === __expected.input. Actual: '"
+                    "value": "#3: __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched.input === __expected.input. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -453,8 +448,7 @@
               "type": "Literal",
               "start": 1570,
               "end": 1571,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -609,8 +603,7 @@
                                       "type": "Literal",
                                       "start": 1686,
                                       "end": 1691,
-                                      "value": "#4.",
-                                      "raw": "'#4.'"
+                                      "value": "#4."
                                     },
                                     "operator": "+",
                                     "right": {
@@ -625,8 +618,7 @@
                                     "type": "Literal",
                                     "start": 1702,
                                     "end": 1772,
-                                    "value": ": __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched[",
-                                    "raw": "': __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched['"
+                                    "value": ": __matched = \"\".match(); __expected = RegExp().exec(\"\"); __matched["
                                   }
                                 },
                                 "operator": "+",
@@ -642,8 +634,7 @@
                                 "type": "Literal",
                                 "start": 1783,
                                 "end": 1800,
-                                "value": "]===__expected[",
-                                "raw": "']===__expected['"
+                                "value": "]===__expected["
                               }
                             },
                             "operator": "+",
@@ -659,8 +650,7 @@
                             "type": "Literal",
                             "start": 1811,
                             "end": 1824,
-                            "value": "]. Actual: ",
-                            "raw": "']. Actual: '"
+                            "value": "]. Actual: "
                           }
                         },
                         "operator": "+",

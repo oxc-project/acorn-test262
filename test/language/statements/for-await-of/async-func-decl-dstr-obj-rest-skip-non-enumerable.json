@@ -60,8 +60,7 @@
                   "type": "Literal",
                   "start": 1241,
                   "end": 1242,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               },
@@ -82,8 +81,7 @@
                   "type": "Literal",
                   "start": 1247,
                   "end": 1248,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "kind": "init"
               }
@@ -131,8 +129,7 @@
             "type": "Literal",
             "start": 1278,
             "end": 1281,
-            "value": "x",
-            "raw": "\"x\""
+            "value": "x"
           },
           {
             "type": "ObjectExpression",
@@ -156,8 +153,7 @@
                   "type": "Literal",
                   "start": 1292,
                   "end": 1293,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "kind": "init"
               },
@@ -208,8 +204,7 @@
             "type": "Literal",
             "start": 1334,
             "end": 1335,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -337,8 +332,7 @@
                             "type": "Literal",
                             "start": 1453,
                             "end": 1456,
-                            "value": "x",
-                            "raw": "\"x\""
+                            "value": "x"
                           }
                         ],
                         "optional": false
@@ -378,8 +372,7 @@
                         "type": "Literal",
                         "start": 1497,
                         "end": 1500,
-                        "value": "a",
-                        "raw": "\"a\""
+                        "value": "a"
                       },
                       {
                         "type": "ObjectExpression",
@@ -469,8 +462,7 @@
                               "type": "Literal",
                               "start": 1589,
                               "end": 1590,
-                              "value": 3,
-                              "raw": "3"
+                              "value": 3
                             },
                             "kind": "init"
                           }
@@ -505,8 +497,7 @@
                         "type": "Literal",
                         "start": 1625,
                         "end": 1628,
-                        "value": "b",
-                        "raw": "\"b\""
+                        "value": "b"
                       },
                       {
                         "type": "ObjectExpression",
@@ -596,8 +587,7 @@
                               "type": "Literal",
                               "start": 1717,
                               "end": 1718,
-                              "value": 4,
-                              "raw": "4"
+                              "value": 4
                             },
                             "kind": "init"
                           }
@@ -626,8 +616,7 @@
                       "type": "Literal",
                       "start": 1745,
                       "end": 1746,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -748,15 +737,13 @@
                       "type": "Literal",
                       "start": 1826,
                       "end": 1827,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 1829,
                       "end": 1861,
-                      "value": "iteration occurred as expected",
-                      "raw": "'iteration occurred as expected'"
+                      "value": "iteration occurred as expected"
                     }
                   ],
                   "optional": false

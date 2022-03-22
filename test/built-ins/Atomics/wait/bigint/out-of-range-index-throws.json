@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 634,
                       "end": 635,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -146,8 +145,7 @@
                               "type": "Literal",
                               "start": 711,
                               "end": 742,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -274,8 +272,7 @@
             "type": "Literal",
             "start": 847,
             "end": 917,
-            "value": "`Atomics.wait(i64a, Infinity, poisoned, poisoned)` throws RangeError",
-            "raw": "'`Atomics.wait(i64a, Infinity, poisoned, poisoned)` throws RangeError'"
+            "value": "`Atomics.wait(i64a, Infinity, poisoned, poisoned)` throws RangeError"
           }
         ],
         "optional": false
@@ -367,8 +364,7 @@
                         "type": "Literal",
                         "start": 980,
                         "end": 981,
-                        "value": 8,
-                        "raw": "8"
+                        "value": 8
                       },
                       {
                         "type": "Identifier",
@@ -393,8 +389,7 @@
             "type": "Literal",
             "start": 1007,
             "end": 1070,
-            "value": "`Atomics.wait(i64a, 8, poisoned, poisoned)` throws RangeError",
-            "raw": "'`Atomics.wait(i64a, 8, poisoned, poisoned)` throws RangeError'"
+            "value": "`Atomics.wait(i64a, 8, poisoned, poisoned)` throws RangeError"
           }
         ],
         "optional": false
@@ -486,8 +481,7 @@
                         "type": "Literal",
                         "start": 1133,
                         "end": 1136,
-                        "value": 200,
-                        "raw": "200"
+                        "value": 200
                       },
                       {
                         "type": "Identifier",
@@ -512,8 +506,7 @@
             "type": "Literal",
             "start": 1162,
             "end": 1227,
-            "value": "`Atomics.wait(i64a, 200, poisoned, poisoned)` throws RangeError",
-            "raw": "'`Atomics.wait(i64a, 200, poisoned, poisoned)` throws RangeError'"
+            "value": "`Atomics.wait(i64a, 200, poisoned, poisoned)` throws RangeError"
           }
         ],
         "optional": false

@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 303,
                 "end": 310,
-                "value": "02134",
-                "raw": "\"02134\""
+                "value": "02134"
               }
             ]
           }
@@ -55,8 +54,7 @@
             "type": "Literal",
             "start": 329,
             "end": 350,
-            "value": "Boston, Mass. 02134",
-            "raw": "\"Boston, Mass. 02134\""
+            "value": "Boston, Mass. 02134"
           }
         }
       ],
@@ -103,7 +101,6 @@
                 "start": 461,
                 "end": 490,
                 "value": {},
-                "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": "g"
@@ -126,8 +123,7 @@
           "type": "Literal",
           "start": 503,
           "end": 504,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -158,8 +154,7 @@
                     "type": "Literal",
                     "start": 533,
                     "end": 643,
-                    "value": "#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/g).length=== 1. Actual: ",
-                    "raw": "'#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/g).length=== 1. Actual: '"
+                    "value": "#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/g).length=== 1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -195,7 +190,6 @@
                           "start": 661,
                           "end": 690,
                           "value": {},
-                          "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": "g"
@@ -262,7 +256,6 @@
                 "start": 894,
                 "end": 923,
                 "value": {},
-                "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
                 "regex": {
                   "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                   "flags": "g"
@@ -275,8 +268,7 @@
             "type": "Literal",
             "start": 925,
             "end": 926,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -296,8 +288,7 @@
             "type": "Literal",
             "start": 942,
             "end": 943,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -331,8 +322,7 @@
                     "type": "Literal",
                     "start": 973,
                     "end": 1110,
-                    "value": "#2: __matches=[\"02134\"]; __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/g)[0]===__matches[0]. Actual: ",
-                    "raw": "'#2: __matches=[\"02134\"]; __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/g)[0]===__matches[0]. Actual: '"
+                    "value": "#2: __matches=[\"02134\"]; __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/g)[0]===__matches[0]. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -368,7 +358,6 @@
                           "start": 1128,
                           "end": 1157,
                           "value": {},
-                          "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/g",
                           "regex": {
                             "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
                             "flags": "g"
@@ -381,8 +370,7 @@
                       "type": "Literal",
                       "start": 1159,
                       "end": 1160,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "computed": true,
                     "optional": false

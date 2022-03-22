@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 282,
             "end": 327,
-            "value": "/*\t multi line \t comment \t*/",
-            "raw": "\"/*\\u0009 multi line \\u0009 comment \\u0009*/\""
+            "value": "/*\t multi line \t comment \t*/"
           }
         ],
         "optional": false
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 349,
             "end": 350,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 357,
             "end": 409,
-            "value": "/*\t multi line \t comment \t x = 1;*/",
-            "raw": "\"/*\\u0009 multi line \\u0009 comment \\u0009 x = 1;*/\""
+            "value": "/*\t multi line \t comment \t x = 1;*/"
           }
         ],
         "optional": false
@@ -100,8 +97,7 @@
           "type": "Literal",
           "start": 422,
           "end": 423,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -132,8 +128,7 @@
                     "type": "Literal",
                     "start": 452,
                     "end": 549,
-                    "value": "#1: var x = 0; eval(\"/*\\u0009 multi line \\u0009 comment \\u0009 x = 1;*/\"); x === 0. Actual: ",
-                    "raw": "'#1: var x = 0; eval(\"/*\\\\u0009 multi line \\\\u0009 comment \\\\u0009 x = 1;*/\"); x === 0. Actual: '"
+                    "value": "#1: var x = 0; eval(\"/*\\u0009 multi line \\u0009 comment \\u0009 x = 1;*/\"); x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

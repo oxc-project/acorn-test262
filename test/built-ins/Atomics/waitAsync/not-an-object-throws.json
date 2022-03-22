@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 923,
             "end": 933,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 935,
             "end": 990,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -142,8 +140,7 @@
                               "type": "Literal",
                               "start": 1053,
                               "end": 1084,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -270,8 +267,7 @@
             "type": "Literal",
             "start": 1188,
             "end": 1274,
-            "value": "`Atomics.waitAsync(null, poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(null, poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(null, poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -388,8 +384,7 @@
             "type": "Literal",
             "start": 1376,
             "end": 1467,
-            "value": "`Atomics.waitAsync(undefined, poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(undefined, poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(undefined, poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -507,8 +502,7 @@
             "type": "Literal",
             "start": 1564,
             "end": 1650,
-            "value": "`Atomics.waitAsync(true, poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(true, poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(true, poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -626,8 +620,7 @@
             "type": "Literal",
             "start": 1748,
             "end": 1835,
-            "value": "`Atomics.waitAsync(false, poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(false, poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(false, poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -713,8 +706,7 @@
                         "type": "Literal",
                         "start": 1892,
                         "end": 1906,
-                        "value": "***string***",
-                        "raw": "'***string***'"
+                        "value": "***string***"
                       },
                       {
                         "type": "Identifier",
@@ -745,8 +737,7 @@
             "type": "Literal",
             "start": 1942,
             "end": 2038,
-            "value": "`Atomics.waitAsync(\"***string***\", poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(\"***string***\", poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(\"***string***\", poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -876,8 +867,7 @@
             "type": "Literal",
             "start": 2155,
             "end": 2261,
-            "value": "`Atomics.waitAsync(Number.NEGATIVE_INFINITY, poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(Number.NEGATIVE_INFINITY, poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(Number.NEGATIVE_INFINITY, poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -974,8 +964,7 @@
                             "type": "Literal",
                             "start": 2325,
                             "end": 2339,
-                            "value": "***symbol***",
-                            "raw": "'***symbol***'"
+                            "value": "***symbol***"
                           }
                         ],
                         "optional": false
@@ -1009,8 +998,7 @@
             "type": "Literal",
             "start": 2376,
             "end": 2480,
-            "value": "`Atomics.waitAsync(Symbol(\"***symbol***\"), poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(Symbol(\"***symbol***\"), poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(Symbol(\"***symbol***\"), poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false

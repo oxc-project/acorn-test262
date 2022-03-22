@@ -48,8 +48,7 @@
                         "type": "Literal",
                         "start": 2368,
                         "end": 2413,
-                        "value": "./instn-iee-err-ambiguous-export_FIXTURE.js",
-                        "raw": "'./instn-iee-err-ambiguous-export_FIXTURE.js'"
+                        "value": "./instn-iee-err-ambiguous-export_FIXTURE.js"
                       }
                     }
                   }
@@ -176,8 +175,7 @@
                             "type": "Literal",
                             "start": 2472,
                             "end": 2485,
-                            "value": "SyntaxError",
-                            "raw": "'SyntaxError'"
+                            "value": "SyntaxError"
                           }
                         ],
                         "optional": false

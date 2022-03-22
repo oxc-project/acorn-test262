@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 817,
                 "end": 826,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -116,8 +115,7 @@
                       "type": "Literal",
                       "start": 879,
                       "end": 883,
-                      "value": 2000,
-                      "raw": "2000"
+                      "value": 2000
                     },
                     "kind": "init"
                   },
@@ -138,8 +136,7 @@
                       "type": "Literal",
                       "start": 892,
                       "end": 894,
-                      "value": 15,
-                      "raw": "15"
+                      "value": 15
                     },
                     "kind": "init"
                   },
@@ -160,8 +157,7 @@
                       "type": "Literal",
                       "start": 901,
                       "end": 902,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "kind": "init"
                   }
@@ -240,36 +236,31 @@
             "type": "Literal",
             "start": 974,
             "end": 978,
-            "value": 2000,
-            "raw": "2000"
+            "value": 2000
           },
           {
             "type": "Literal",
             "start": 980,
             "end": 982,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           },
           {
             "type": "Literal",
             "start": 984,
             "end": 989,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 991,
             "end": 992,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 994,
             "end": 1025,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false
@@ -336,8 +327,7 @@
                       "type": "Literal",
                       "start": 1077,
                       "end": 1081,
-                      "value": 2000,
-                      "raw": "2000"
+                      "value": 2000
                     },
                     "kind": "init"
                   },
@@ -358,8 +348,7 @@
                       "type": "Literal",
                       "start": 1090,
                       "end": 1092,
-                      "value": 15,
-                      "raw": "15"
+                      "value": 15
                     },
                     "kind": "init"
                   },
@@ -380,8 +369,7 @@
                       "type": "Literal",
                       "start": 1099,
                       "end": 1100,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     "kind": "init"
                   }
@@ -438,36 +426,31 @@
             "type": "Literal",
             "start": 1151,
             "end": 1155,
-            "value": 2000,
-            "raw": "2000"
+            "value": 2000
           },
           {
             "type": "Literal",
             "start": 1157,
             "end": 1159,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           },
           {
             "type": "Literal",
             "start": 1161,
             "end": 1166,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 1168,
             "end": 1169,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1171,
             "end": 1202,
-            "value": "default overflow is constrain",
-            "raw": "\"default overflow is constrain\""
+            "value": "default overflow is constrain"
           }
         ],
         "optional": false

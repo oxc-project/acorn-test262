@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 317,
             "end": 327,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 331,
             "end": 364,
-            "value": "`typeof Calendar` is `function`",
-            "raw": "\"`typeof Calendar` is `function`\""
+            "value": "`typeof Calendar` is `function`"
           }
         ],
         "optional": false
@@ -100,8 +98,7 @@
             "type": "Literal",
             "start": 394,
             "end": 404,
-            "value": "Calendar",
-            "raw": "\"Calendar\""
+            "value": "Calendar"
           },
           {
             "type": "ObjectExpression",

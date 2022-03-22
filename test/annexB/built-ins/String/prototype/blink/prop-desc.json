@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 537,
             "end": 544,
-            "value": "blink",
-            "raw": "\"blink\""
+            "value": "blink"
           },
           {
             "type": "ObjectExpression",

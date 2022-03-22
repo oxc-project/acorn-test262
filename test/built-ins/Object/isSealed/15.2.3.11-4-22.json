@@ -100,8 +100,7 @@
             "type": "Literal",
             "start": 317,
             "end": 320,
-            "value": "b",
-            "raw": "'b'"
+            "value": "b"
           }
         ],
         "optional": false

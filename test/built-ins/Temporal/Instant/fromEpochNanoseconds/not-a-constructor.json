@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 651,
             "end": 675,
-            "value": "Calling as constructor",
-            "raw": "\"Calling as constructor\""
+            "value": "Calling as constructor"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 759,
             "end": 813,
-            "value": "isConstructor(Temporal.Instant.fromEpochNanoseconds)",
-            "raw": "\"isConstructor(Temporal.Instant.fromEpochNanoseconds)\""
+            "value": "isConstructor(Temporal.Instant.fromEpochNanoseconds)"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1849,
             "end": 1850,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 1869,
             "end": 1870,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -155,8 +153,7 @@
                                   "type": "Literal",
                                   "start": 1925,
                                   "end": 1926,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             }
@@ -183,8 +180,7 @@
                         "type": "Literal",
                         "start": 1937,
                         "end": 1939,
-                        "value": 23,
-                        "raw": "23"
+                        "value": 23
                       }
                     ]
                   }
@@ -235,8 +231,7 @@
                       "type": "Literal",
                       "start": 1975,
                       "end": 1976,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   ],
                   "optional": false
@@ -272,8 +267,7 @@
                       "type": "Literal",
                       "start": 2005,
                       "end": 2006,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -359,15 +353,13 @@
             "type": "Literal",
             "start": 2052,
             "end": 2053,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2055,
             "end": 2096,
-            "value": "generator function invoked exactly once",
-            "raw": "'generator function invoked exactly once'"
+            "value": "generator function invoked exactly once"
           }
         ],
         "optional": false

@@ -105,8 +105,7 @@
                         "type": "Literal",
                         "start": 315,
                         "end": 322,
-                        "value": "local",
-                        "raw": "\"local\""
+                        "value": "local"
                       },
                       "kind": "init"
                     }
@@ -240,8 +239,7 @@
                               "type": "Literal",
                               "start": 407,
                               "end": 416,
-                              "value": "iso8601",
-                              "raw": "\"iso8601\""
+                              "value": "iso8601"
                             },
                             "kind": "init"
                           }

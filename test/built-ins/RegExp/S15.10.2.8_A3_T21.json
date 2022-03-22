@@ -31,7 +31,6 @@
                 "start": 624,
                 "end": 637,
                 "value": {},
-                "raw": "/^(A)?(A.*)$/",
                 "regex": {
                   "pattern": "^(A)?(A.*)$",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 643,
                 "end": 647,
-                "value": "AA",
-                "raw": "\"AA\""
+                "value": "AA"
               }
             ],
             "optional": false
@@ -85,22 +83,19 @@
                 "type": "Literal",
                 "start": 669,
                 "end": 673,
-                "value": "AA",
-                "raw": "\"AA\""
+                "value": "AA"
               },
               {
                 "type": "Literal",
                 "start": 674,
                 "end": 677,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               },
               {
                 "type": "Literal",
                 "start": 678,
                 "end": 681,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             ]
           }
@@ -140,8 +135,7 @@
           "type": "Literal",
           "start": 703,
           "end": 704,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -177,8 +171,7 @@
           "type": "Literal",
           "start": 725,
           "end": 729,
-          "value": "AA",
-          "raw": "\"AA\""
+          "value": "AA"
         }
       }
     },
@@ -252,8 +245,7 @@
             "type": "Literal",
             "start": 794,
             "end": 878,
-            "value": "The value of __executed.length is expected to equal the value of __expected.length",
-            "raw": "'The value of __executed.length is expected to equal the value of __expected.length'"
+            "value": "The value of __executed.length is expected to equal the value of __expected.length"
           }
         ],
         "optional": false
@@ -329,8 +321,7 @@
             "type": "Literal",
             "start": 943,
             "end": 1025,
-            "value": "The value of __executed.index is expected to equal the value of __expected.index",
-            "raw": "'The value of __executed.index is expected to equal the value of __expected.index'"
+            "value": "The value of __executed.index is expected to equal the value of __expected.index"
           }
         ],
         "optional": false
@@ -406,8 +397,7 @@
             "type": "Literal",
             "start": 1090,
             "end": 1172,
-            "value": "The value of __executed.input is expected to equal the value of __expected.input",
-            "raw": "'The value of __executed.input is expected to equal the value of __expected.input'"
+            "value": "The value of __executed.input is expected to equal the value of __expected.input"
           }
         ],
         "optional": false
@@ -436,8 +426,7 @@
               "type": "Literal",
               "start": 1191,
               "end": 1192,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -562,8 +551,7 @@
                   "type": "Literal",
                   "start": 1300,
                   "end": 1384,
-                  "value": "The value of __executed[index] is expected to equal the value of __expected[index]",
-                  "raw": "'The value of __executed[index] is expected to equal the value of __expected[index]'"
+                  "value": "The value of __executed[index] is expected to equal the value of __expected[index]"
                 }
               ],
               "optional": false

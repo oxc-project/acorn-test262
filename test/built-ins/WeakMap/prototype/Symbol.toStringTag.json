@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 579,
             "end": 588,
-            "value": "WeakMap",
-            "raw": "'WeakMap'"
+            "value": "WeakMap"
           }
         ],
         "optional": false

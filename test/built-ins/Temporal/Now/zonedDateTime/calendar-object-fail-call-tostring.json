@@ -228,8 +228,7 @@
             "type": "Literal",
             "start": 485,
             "end": 555,
-            "value": "Temporal.Now.zonedDateTime(calendar) throws a Test262Error exception",
-            "raw": "'Temporal.Now.zonedDateTime(calendar) throws a Test262Error exception'"
+            "value": "Temporal.Now.zonedDateTime(calendar) throws a Test262Error exception"
           }
         ],
         "optional": false

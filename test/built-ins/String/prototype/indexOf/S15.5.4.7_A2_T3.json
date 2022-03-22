@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 404,
               "end": 410,
-              "value": "abcd",
-              "raw": "\"abcd\""
+              "value": "abcd"
             },
             "property": {
               "type": "Identifier",
@@ -40,15 +39,13 @@
               "type": "Literal",
               "start": 419,
               "end": 427,
-              "value": "abcdab",
-              "raw": "\"abcdab\""
+              "value": "abcdab"
             },
             {
               "type": "Literal",
               "start": 429,
               "end": 431,
-              "value": 99,
-              "raw": "99"
+              "value": 99
             }
           ],
           "optional": false
@@ -64,8 +61,7 @@
             "type": "Literal",
             "start": 438,
             "end": 439,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       },
@@ -97,8 +93,7 @@
                     "type": "Literal",
                     "start": 468,
                     "end": 516,
-                    "value": "#1: \"abcd\".indexOf(\"abcdab\",99)===-1. Actual: ",
-                    "raw": "'#1: \"abcd\".indexOf(\"abcdab\",99)===-1. Actual: '"
+                    "value": "#1: \"abcd\".indexOf(\"abcdab\",99)===-1. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -117,8 +112,7 @@
                           "type": "Literal",
                           "start": 520,
                           "end": 526,
-                          "value": "abcd",
-                          "raw": "\"abcd\""
+                          "value": "abcd"
                         },
                         "property": {
                           "type": "Identifier",
@@ -134,15 +128,13 @@
                           "type": "Literal",
                           "start": 535,
                           "end": 543,
-                          "value": "abcdab",
-                          "raw": "\"abcdab\""
+                          "value": "abcdab"
                         },
                         {
                           "type": "Literal",
                           "start": 545,
                           "end": 547,
-                          "value": 99,
-                          "raw": "99"
+                          "value": 99
                         }
                       ],
                       "optional": false

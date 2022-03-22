@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 541,
                               "end": 549,
-                              "value": 120832,
-                              "raw": "0x01D800"
+                              "value": 120832
                             },
                             {
                               "type": "Literal",
                               "start": 551,
                               "end": 559,
-                              "value": 121483,
-                              "raw": "0x01DA8B"
+                              "value": 121483
                             }
                           ]
                         },
@@ -103,15 +101,13 @@
                               "type": "Literal",
                               "start": 567,
                               "end": 575,
-                              "value": 121499,
-                              "raw": "0x01DA9B"
+                              "value": 121499
                             },
                             {
                               "type": "Literal",
                               "start": 577,
                               "end": 585,
-                              "value": 121503,
-                              "raw": "0x01DA9F"
+                              "value": 121503
                             }
                           ]
                         },
@@ -124,15 +120,13 @@
                               "type": "Literal",
                               "start": 593,
                               "end": 601,
-                              "value": 121505,
-                              "raw": "0x01DAA1"
+                              "value": 121505
                             },
                             {
                               "type": "Literal",
                               "start": 603,
                               "end": 611,
-                              "value": 121519,
-                              "raw": "0x01DAAF"
+                              "value": 121519
                             }
                           ]
                         }
@@ -169,7 +163,6 @@
             "start": 644,
             "end": 683,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=SignWriting}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=SignWriting}+$",
               "flags": "u"
@@ -185,8 +178,7 @@
             "type": "Literal",
             "start": 703,
             "end": 739,
-            "value": "\\p{Script_Extensions=SignWriting}",
-            "raw": "\"\\\\p{Script_Extensions=SignWriting}\""
+            "value": "\\p{Script_Extensions=SignWriting}"
           }
         ],
         "optional": false
@@ -212,7 +204,6 @@
             "start": 766,
             "end": 798,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Sgnw}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Sgnw}+$",
               "flags": "u"
@@ -228,8 +219,7 @@
             "type": "Literal",
             "start": 818,
             "end": 847,
-            "value": "\\p{Script_Extensions=Sgnw}",
-            "raw": "\"\\\\p{Script_Extensions=Sgnw}\""
+            "value": "\\p{Script_Extensions=Sgnw}"
           }
         ],
         "optional": false
@@ -255,7 +245,6 @@
             "start": 874,
             "end": 899,
             "value": {},
-            "raw": "/^\\p{scx=SignWriting}+$/u",
             "regex": {
               "pattern": "^\\p{scx=SignWriting}+$",
               "flags": "u"
@@ -271,8 +260,7 @@
             "type": "Literal",
             "start": 919,
             "end": 941,
-            "value": "\\p{scx=SignWriting}",
-            "raw": "\"\\\\p{scx=SignWriting}\""
+            "value": "\\p{scx=SignWriting}"
           }
         ],
         "optional": false
@@ -298,7 +286,6 @@
             "start": 968,
             "end": 986,
             "value": {},
-            "raw": "/^\\p{scx=Sgnw}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Sgnw}+$",
               "flags": "u"
@@ -314,8 +301,7 @@
             "type": "Literal",
             "start": 1006,
             "end": 1021,
-            "value": "\\p{scx=Sgnw}",
-            "raw": "\"\\\\p{scx=Sgnw}\""
+            "value": "\\p{scx=Sgnw}"
           }
         ],
         "optional": false
@@ -374,8 +360,7 @@
                           "type": "Literal",
                           "start": 1088,
                           "end": 1096,
-                          "value": 121504,
-                          "raw": "0x01DAA0"
+                          "value": 121504
                         }
                       ]
                     },
@@ -408,15 +393,13 @@
                               "type": "Literal",
                               "start": 1119,
                               "end": 1127,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1129,
                               "end": 1137,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -429,15 +412,13 @@
                               "type": "Literal",
                               "start": 1145,
                               "end": 1153,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1155,
                               "end": 1163,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -450,15 +431,13 @@
                               "type": "Literal",
                               "start": 1171,
                               "end": 1179,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1181,
                               "end": 1189,
-                              "value": 120831,
-                              "raw": "0x01D7FF"
+                              "value": 120831
                             }
                           ]
                         },
@@ -471,15 +450,13 @@
                               "type": "Literal",
                               "start": 1197,
                               "end": 1205,
-                              "value": 121484,
-                              "raw": "0x01DA8C"
+                              "value": 121484
                             },
                             {
                               "type": "Literal",
                               "start": 1207,
                               "end": 1215,
-                              "value": 121498,
-                              "raw": "0x01DA9A"
+                              "value": 121498
                             }
                           ]
                         },
@@ -492,15 +469,13 @@
                               "type": "Literal",
                               "start": 1223,
                               "end": 1231,
-                              "value": 121520,
-                              "raw": "0x01DAB0"
+                              "value": 121520
                             },
                             {
                               "type": "Literal",
                               "start": 1233,
                               "end": 1241,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -537,7 +512,6 @@
             "start": 1274,
             "end": 1313,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=SignWriting}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=SignWriting}+$",
               "flags": "u"
@@ -553,8 +527,7 @@
             "type": "Literal",
             "start": 1336,
             "end": 1372,
-            "value": "\\P{Script_Extensions=SignWriting}",
-            "raw": "\"\\\\P{Script_Extensions=SignWriting}\""
+            "value": "\\P{Script_Extensions=SignWriting}"
           }
         ],
         "optional": false
@@ -580,7 +553,6 @@
             "start": 1399,
             "end": 1431,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Sgnw}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Sgnw}+$",
               "flags": "u"
@@ -596,8 +568,7 @@
             "type": "Literal",
             "start": 1454,
             "end": 1483,
-            "value": "\\P{Script_Extensions=Sgnw}",
-            "raw": "\"\\\\P{Script_Extensions=Sgnw}\""
+            "value": "\\P{Script_Extensions=Sgnw}"
           }
         ],
         "optional": false
@@ -623,7 +594,6 @@
             "start": 1510,
             "end": 1535,
             "value": {},
-            "raw": "/^\\P{scx=SignWriting}+$/u",
             "regex": {
               "pattern": "^\\P{scx=SignWriting}+$",
               "flags": "u"
@@ -639,8 +609,7 @@
             "type": "Literal",
             "start": 1558,
             "end": 1580,
-            "value": "\\P{scx=SignWriting}",
-            "raw": "\"\\\\P{scx=SignWriting}\""
+            "value": "\\P{scx=SignWriting}"
           }
         ],
         "optional": false
@@ -666,7 +635,6 @@
             "start": 1607,
             "end": 1625,
             "value": {},
-            "raw": "/^\\P{scx=Sgnw}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Sgnw}+$",
               "flags": "u"
@@ -682,8 +650,7 @@
             "type": "Literal",
             "start": 1648,
             "end": 1663,
-            "value": "\\P{scx=Sgnw}",
-            "raw": "\"\\\\P{scx=Sgnw}\""
+            "value": "\\P{scx=Sgnw}"
           }
         ],
         "optional": false

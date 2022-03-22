@@ -273,8 +273,7 @@
             "type": "Literal",
             "start": 1270,
             "end": 1324,
-            "value": "unregistering token1 from empty finalizationRegistry",
-            "raw": "'unregistering token1 from empty finalizationRegistry'"
+            "value": "unregistering token1 from empty finalizationRegistry"
           }
         ],
         "optional": false
@@ -352,8 +351,7 @@
             "type": "Literal",
             "start": 1392,
             "end": 1446,
-            "value": "unregistering token2 from empty finalizationRegistry",
-            "raw": "'unregistering token2 from empty finalizationRegistry'"
+            "value": "unregistering token2 from empty finalizationRegistry"
           }
         ],
         "optional": false
@@ -631,8 +629,7 @@
             "type": "Literal",
             "start": 1786,
             "end": 1830,
-            "value": "own target does not work on unregister, #1",
-            "raw": "'own target does not work on unregister, #1'"
+            "value": "own target does not work on unregister, #1"
           }
         ],
         "optional": false
@@ -710,8 +707,7 @@
             "type": "Literal",
             "start": 1899,
             "end": 1943,
-            "value": "own target does not work on unregister, #2",
-            "raw": "'own target does not work on unregister, #2'"
+            "value": "own target does not work on unregister, #2"
           }
         ],
         "optional": false
@@ -789,8 +785,7 @@
             "type": "Literal",
             "start": 2012,
             "end": 2056,
-            "value": "own target does not work on unregister, #3",
-            "raw": "'own target does not work on unregister, #3'"
+            "value": "own target does not work on unregister, #3"
           }
         ],
         "optional": false
@@ -868,8 +863,7 @@
             "type": "Literal",
             "start": 2124,
             "end": 2172,
-            "value": "unregistering token1 from finalizationRegistry",
-            "raw": "'unregistering token1 from finalizationRegistry'"
+            "value": "unregistering token1 from finalizationRegistry"
           }
         ],
         "optional": false
@@ -947,8 +941,7 @@
             "type": "Literal",
             "start": 2240,
             "end": 2294,
-            "value": "unregistering token1 again from finalizationRegistry",
-            "raw": "'unregistering token1 again from finalizationRegistry'"
+            "value": "unregistering token1 again from finalizationRegistry"
           }
         ],
         "optional": false
@@ -1026,8 +1019,7 @@
             "type": "Literal",
             "start": 2361,
             "end": 2413,
-            "value": "unregistering token2 to remove target2 and target3",
-            "raw": "'unregistering token2 to remove target2 and target3'"
+            "value": "unregistering token2 to remove target2 and target3"
           }
         ],
         "optional": false
@@ -1105,8 +1097,7 @@
             "type": "Literal",
             "start": 2481,
             "end": 2535,
-            "value": "unregistering token2 from empty finalizationRegistry",
-            "raw": "'unregistering token2 from empty finalizationRegistry'"
+            "value": "unregistering token2 from empty finalizationRegistry"
           }
         ],
         "optional": false
@@ -1310,8 +1301,7 @@
             "type": "Literal",
             "start": 2963,
             "end": 3015,
-            "value": "nothing to remove without a set unregisterToken #1",
-            "raw": "'nothing to remove without a set unregisterToken #1'"
+            "value": "nothing to remove without a set unregisterToken #1"
           }
         ],
         "optional": false
@@ -1389,8 +1379,7 @@
             "type": "Literal",
             "start": 3083,
             "end": 3135,
-            "value": "nothing to remove without a set unregisterToken #2",
-            "raw": "'nothing to remove without a set unregisterToken #2'"
+            "value": "nothing to remove without a set unregisterToken #2"
           }
         ],
         "optional": false

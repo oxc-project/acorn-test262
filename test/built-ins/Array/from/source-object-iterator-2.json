@@ -27,50 +27,43 @@
                 "type": "Literal",
                 "start": 261,
                 "end": 262,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 264,
                 "end": 265,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 267,
                 "end": 268,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               },
               {
                 "type": "Literal",
                 "start": 270,
                 "end": 272,
-                "value": 16,
-                "raw": "16"
+                "value": 16
               },
               {
                 "type": "Literal",
                 "start": 274,
                 "end": 276,
-                "value": 32,
-                "raw": "32"
+                "value": 32
               },
               {
                 "type": "Literal",
                 "start": 278,
                 "end": 280,
-                "value": 64,
-                "raw": "64"
+                "value": 64
               },
               {
                 "type": "Literal",
                 "start": 282,
                 "end": 285,
-                "value": 128,
-                "raw": "128"
+                "value": 128
               }
             ]
           }
@@ -165,8 +158,7 @@
                                 "type": "Literal",
                                 "start": 350,
                                 "end": 351,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               "kind": "init"
                             },
@@ -391,8 +383,7 @@
                                           "type": "Literal",
                                           "start": 546,
                                           "end": 547,
-                                          "value": 7,
-                                          "raw": "7"
+                                          "value": 7
                                         }
                                       },
                                       "consequent": {
@@ -452,8 +443,7 @@
                                           "type": "Literal",
                                           "start": 606,
                                           "end": 607,
-                                          "value": 1,
-                                          "raw": "1"
+                                          "value": 1
                                         },
                                         "operator": "<<",
                                         "right": {
@@ -622,8 +612,7 @@
             "type": "Literal",
             "start": 721,
             "end": 774,
-            "value": "The value of `typeof a` is expected to be typeof {}",
-            "raw": "'The value of `typeof a` is expected to be typeof {}'"
+            "value": "The value of `typeof a` is expected to be typeof {}"
           }
         ],
         "optional": false
@@ -652,8 +641,7 @@
               "type": "Literal",
               "start": 790,
               "end": 791,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -778,8 +766,7 @@
                   "type": "Literal",
                   "start": 849,
                   "end": 911,
-                  "value": "The value of a[j] is expected to equal the value of array[j]",
-                  "raw": "'The value of a[j] is expected to equal the value of array[j]'"
+                  "value": "The value of a[j] is expected to equal the value of array[j]"
                 }
               ],
               "optional": false

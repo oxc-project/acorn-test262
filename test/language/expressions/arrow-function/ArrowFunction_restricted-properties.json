@@ -94,8 +94,7 @@
                 "type": "Literal",
                 "start": 396,
                 "end": 404,
-                "value": "caller",
-                "raw": "'caller'"
+                "value": "caller"
               }
             ],
             "optional": false
@@ -111,8 +110,7 @@
             "type": "Literal",
             "start": 414,
             "end": 502,
-            "value": "Functions created using ArrowFunction syntactic form do not have own property \"caller\"",
-            "raw": "'Functions created using ArrowFunction syntactic form do not have own property \"caller\"'"
+            "value": "Functions created using ArrowFunction syntactic form do not have own property \"caller\""
           }
         ],
         "optional": false
@@ -174,8 +172,7 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 556,
-                "value": "arguments",
-                "raw": "'arguments'"
+                "value": "arguments"
               }
             ],
             "optional": false
@@ -191,8 +188,7 @@
             "type": "Literal",
             "start": 566,
             "end": 657,
-            "value": "Functions created using ArrowFunction syntactic form do not have own property \"arguments\"",
-            "raw": "'Functions created using ArrowFunction syntactic form do not have own property \"arguments\"'"
+            "value": "Functions created using ArrowFunction syntactic form do not have own property \"arguments\""
           }
         ],
         "optional": false

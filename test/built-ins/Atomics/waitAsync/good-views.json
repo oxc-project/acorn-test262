@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 374,
             "end": 384,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 386,
             "end": 441,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -220,8 +218,7 @@
                               "type": "Literal",
                               "start": 1656,
                               "end": 1657,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           }
                         ],
@@ -242,8 +239,7 @@
                           "type": "Literal",
                           "start": 1663,
                           "end": 1664,
-                          "value": 3,
-                          "raw": "3"
+                          "value": 3
                         }
                       },
                       "update": {
@@ -385,8 +381,7 @@
                               "type": "Literal",
                               "start": 1765,
                               "end": 1766,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             "computed": true,
                             "optional": false
@@ -395,15 +390,13 @@
                             "type": "Literal",
                             "start": 1773,
                             "end": 1786,
-                            "value": "A timed-out",
-                            "raw": "'A timed-out'"
+                            "value": "A timed-out"
                           },
                           {
                             "type": "Literal",
                             "start": 1792,
                             "end": 1835,
-                            "value": "The value of outcomes[0] is \"A timed-out\"",
-                            "raw": "'The value of outcomes[0] is \"A timed-out\"'"
+                            "value": "The value of outcomes[0] is \"A timed-out\""
                           }
                         ],
                         "optional": false
@@ -451,8 +444,7 @@
                               "type": "Literal",
                               "start": 1875,
                               "end": 1876,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "computed": true,
                             "optional": false
@@ -461,15 +453,13 @@
                             "type": "Literal",
                             "start": 1883,
                             "end": 1896,
-                            "value": "B not-equal",
-                            "raw": "'B not-equal'"
+                            "value": "B not-equal"
                           },
                           {
                             "type": "Literal",
                             "start": 1902,
                             "end": 1945,
-                            "value": "The value of outcomes[1] is \"B not-equal\"",
-                            "raw": "'The value of outcomes[1] is \"B not-equal\"'"
+                            "value": "The value of outcomes[1] is \"B not-equal\""
                           }
                         ],
                         "optional": false
@@ -517,8 +507,7 @@
                               "type": "Literal",
                               "start": 1984,
                               "end": 1985,
-                              "value": 2,
-                              "raw": "2"
+                              "value": 2
                             },
                             "computed": true,
                             "optional": false
@@ -527,15 +516,13 @@
                             "type": "Literal",
                             "start": 1992,
                             "end": 2045,
-                            "value": "C not-equal,not-equal,not-equal,not-equal,not-equal",
-                            "raw": "'C not-equal,not-equal,not-equal,not-equal,not-equal'"
+                            "value": "C not-equal,not-equal,not-equal,not-equal,not-equal"
                           },
                           {
                             "type": "Literal",
                             "start": 2051,
                             "end": 2134,
-                            "value": "The value of outcomes[2] is \"C not-equal,not-equal,not-equal,not-equal,not-equal\"",
-                            "raw": "'The value of outcomes[2] is \"C not-equal,not-equal,not-equal,not-equal,not-equal\"'"
+                            "value": "The value of outcomes[2] is \"C not-equal,not-equal,not-equal,not-equal,not-equal\""
                           }
                         ],
                         "optional": false

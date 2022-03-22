@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 918,
                 "end": 933,
-                "value": "class C {}[];",
-                "raw": "'class C {}[];'"
+                "value": "class C {}[];"
               }
             ],
             "optional": false
@@ -178,8 +177,7 @@
             "type": "Literal",
             "start": 1035,
             "end": 1036,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

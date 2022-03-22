@@ -108,8 +108,7 @@
             "type": "Literal",
             "start": 547,
             "end": 560,
-            "value": "SyntaxError",
-            "raw": "'SyntaxError'"
+            "value": "SyntaxError"
           }
         ],
         "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1535,
             "end": 1665,
-            "value": "if (true) function f() { return \"declaration\"; }assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"declaration\");",
-            "raw": "'if (true) function f() { return \"declaration\"; }assert.sameValue(typeof f, \"function\");\\\n  assert.sameValue(f(), \"declaration\");'"
+            "value": "if (true) function f() { return \"declaration\"; }assert.sameValue(typeof f, \"function\");  assert.sameValue(f(), \"declaration\");"
           }
         ],
         "optional": false

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 368,
                 "end": 384,
-                "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "value": "arg1,arg2,arg3"
               },
               {
                 "type": "Literal",
@@ -92,8 +91,7 @@
                 "type": "Literal",
                 "start": 418,
                 "end": 426,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -102,8 +100,7 @@
             "type": "Literal",
             "start": 429,
             "end": 476,
-            "value": "f.hasOwnProperty('length') must return true",
-            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+            "value": "f.hasOwnProperty('length') must return true"
           }
         ],
         "optional": false
@@ -154,8 +151,7 @@
             "type": "Literal",
             "start": 503,
             "end": 556,
-            "value": "The value of delete f.length is expected to be true",
-            "raw": "'The value of delete f.length is expected to be true'"
+            "value": "The value of delete f.length is expected to be true"
           }
         ],
         "optional": false
@@ -210,8 +206,7 @@
                   "type": "Literal",
                   "start": 584,
                   "end": 592,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -221,8 +216,7 @@
             "type": "Literal",
             "start": 595,
             "end": 662,
-            "value": "The value of !f.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'"
+            "value": "The value of !f.hasOwnProperty('length') is expected to be true"
           }
         ],
         "optional": false
@@ -279,15 +273,13 @@
             "type": "Literal",
             "start": 695,
             "end": 696,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 730,
-            "value": "The value of f.length is not 3",
-            "raw": "'The value of f.length is not 3'"
+            "value": "The value of f.length is not 3"
           }
         ],
         "optional": false

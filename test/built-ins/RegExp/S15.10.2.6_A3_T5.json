@@ -31,7 +31,6 @@
                 "start": 439,
                 "end": 445,
                 "value": {},
-                "raw": "/so\\b/",
                 "regex": {
                   "pattern": "so\\b",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 451,
                 "end": 484,
-                "value": "pilot\nsoviet robot\topenoffice",
-                "raw": "\"pilot\\nsoviet robot\\topenoffice\""
+                "value": "pilot\nsoviet robot\topenoffice"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 508,
             "end": 557,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

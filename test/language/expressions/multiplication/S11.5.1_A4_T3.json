@@ -50,8 +50,7 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 410,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -94,8 +93,7 @@
                     "type": "Literal",
                     "start": 449,
                     "end": 494,
-                    "value": "#1: Infinity * 0 === Not-a-Number. Actual: ",
-                    "raw": "'#1: Infinity * 0 === Not-a-Number. Actual: '"
+                    "value": "#1: Infinity * 0 === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -117,8 +115,7 @@
                         "type": "Literal",
                         "start": 509,
                         "end": 510,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   }
@@ -163,8 +160,7 @@
                   "type": "Literal",
                   "start": 538,
                   "end": 539,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               "operator": "*",
@@ -228,8 +224,7 @@
                     "type": "Literal",
                     "start": 605,
                     "end": 652,
-                    "value": "#2: -0 * -Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#2: -0 * -Infinity === Not-a-Number. Actual: '"
+                    "value": "#2: -0 * -Infinity === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -250,8 +245,7 @@
                           "type": "Literal",
                           "start": 657,
                           "end": 658,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       },
                       "operator": "*",
@@ -331,8 +325,7 @@
                   "type": "Literal",
                   "start": 725,
                   "end": 726,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             }
@@ -376,8 +369,7 @@
                     "type": "Literal",
                     "start": 765,
                     "end": 811,
-                    "value": "#3: Infinity * -0 === Not-a-Number. Actual: ",
-                    "raw": "'#3: Infinity * -0 === Not-a-Number. Actual: '"
+                    "value": "#3: Infinity * -0 === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -405,8 +397,7 @@
                           "type": "Literal",
                           "start": 827,
                           "end": 828,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     }
@@ -446,8 +437,7 @@
                 "type": "Literal",
                 "start": 855,
                 "end": 856,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "operator": "*",
               "right": {
@@ -510,8 +500,7 @@
                     "type": "Literal",
                     "start": 922,
                     "end": 967,
-                    "value": "#4: 0 * Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#4: 0 * Infinity === Not-a-Number. Actual: '"
+                    "value": "#4: 0 * Infinity === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -526,8 +515,7 @@
                         "type": "Literal",
                         "start": 971,
                         "end": 972,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "operator": "*",
                       "right": {
@@ -599,8 +587,7 @@
                   "type": "Literal",
                   "start": 1038,
                   "end": 1039,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             }
@@ -644,8 +631,7 @@
                     "type": "Literal",
                     "start": 1078,
                     "end": 1124,
-                    "value": "#5: Infinity * -0 === Not-a-Number. Actual: ",
-                    "raw": "'#5: Infinity * -0 === Not-a-Number. Actual: '"
+                    "value": "#5: Infinity * -0 === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -673,8 +659,7 @@
                           "type": "Literal",
                           "start": 1140,
                           "end": 1141,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     }
@@ -714,8 +699,7 @@
                 "type": "Literal",
                 "start": 1168,
                 "end": 1169,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               "operator": "*",
               "right": {
@@ -778,8 +762,7 @@
                     "type": "Literal",
                     "start": 1235,
                     "end": 1281,
-                    "value": "#6: 0 * -Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#6: 0 * -Infinity === Not-a-Number. Actual: '"
+                    "value": "#6: 0 * -Infinity === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -794,8 +777,7 @@
                         "type": "Literal",
                         "start": 1285,
                         "end": 1286,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "operator": "*",
                       "right": {
@@ -868,8 +850,7 @@
                 "type": "Literal",
                 "start": 1352,
                 "end": 1353,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           ],
@@ -912,8 +893,7 @@
                     "type": "Literal",
                     "start": 1392,
                     "end": 1437,
-                    "value": "#7: Infinity * 0 === Not-a-Number. Actual: ",
-                    "raw": "'#7: Infinity * 0 === Not-a-Number. Actual: '"
+                    "value": "#7: Infinity * 0 === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -935,8 +915,7 @@
                         "type": "Literal",
                         "start": 1452,
                         "end": 1453,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   }
@@ -981,8 +960,7 @@
                   "type": "Literal",
                   "start": 1481,
                   "end": 1482,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               },
               "operator": "*",
@@ -1046,8 +1024,7 @@
                     "type": "Literal",
                     "start": 1548,
                     "end": 1594,
-                    "value": "#8: -0 * Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#8: -0 * Infinity === Not-a-Number. Actual: '"
+                    "value": "#8: -0 * Infinity === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1068,8 +1045,7 @@
                           "type": "Literal",
                           "start": 1599,
                           "end": 1600,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       },
                       "operator": "*",

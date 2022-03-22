@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 955,
                     "end": 957,
                     "name": "m"
@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 969,
                             "end": 982,
-                            "value": "outer class",
-                            "raw": "'outer class'"
+                            "value": "outer class"
                           }
                         }
                       ]
@@ -116,14 +115,14 @@
                                 "start": 1007,
                                 "end": 1011
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 1012,
                                 "end": 1014,
                                 "name": "m"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             },
                             "arguments": [],
                             "optional": false
@@ -134,10 +133,9 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 1023,
                   "end": 1100,
-                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -204,14 +202,14 @@
                                       "end": 1065,
                                       "name": "o"
                                     },
+                                    "computed": false,
+                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateIdentifier",
+                                      "type": "PrivateName",
                                       "start": 1066,
                                       "end": 1068,
                                       "name": "m"
-                                    },
-                                    "computed": false,
-                                    "optional": false
+                                    }
                                   }
                                 }
                               ]
@@ -219,13 +217,12 @@
                           }
                         },
                         {
-                          "type": "PropertyDefinition",
+                          "type": "FieldDefinition",
                           "start": 1081,
-                          "end": 1096,
-                          "static": false,
+                          "end": 1095,
                           "computed": false,
                           "key": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 1081,
                             "end": 1083,
                             "name": "m"
@@ -234,8 +231,7 @@
                             "type": "Literal",
                             "start": 1086,
                             "end": 1095,
-                            "value": "test262",
-                            "raw": "'test262'"
+                            "value": "test262"
                           }
                         }
                       ]
@@ -389,8 +385,7 @@
             "type": "Literal",
             "start": 1185,
             "end": 1194,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -454,8 +449,7 @@
             "type": "Literal",
             "start": 1226,
             "end": 1239,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -554,8 +548,7 @@
             "type": "Literal",
             "start": 1303,
             "end": 1361,
-            "value": "accessed inner class field from an object of outer class",
-            "raw": "'accessed inner class field from an object of outer class'"
+            "value": "accessed inner class field from an object of outer class"
           }
         ],
         "optional": false

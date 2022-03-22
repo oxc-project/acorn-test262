@@ -53,8 +53,7 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 375,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           },
@@ -161,8 +160,7 @@
                         "type": "Literal",
                         "start": 452,
                         "end": 453,
-                        "value": 5,
-                        "raw": "5"
+                        "value": 5
                       }
                     }
                   ]
@@ -232,8 +230,7 @@
                   "type": "Literal",
                   "start": 610,
                   "end": 666,
-                  "value": "#1: var obj = new FACTORY() lead to throwing exception",
-                  "raw": "'#1: var obj = new FACTORY() lead to throwing exception'"
+                  "value": "#1: var obj = new FACTORY() lead to throwing exception"
                 }
               ]
             }

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1192,
             "end": 1385,
-            "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");if (false) ; else function f() {  }assert.sameValue(f, 123, \"value is not updated following evaluation\");",
-            "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");if (false) ; else function f() {  }assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
+            "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");if (false) ; else function f() {  }assert.sameValue(f, 123, \"value is not updated following evaluation\");"
           }
         ],
         "optional": false

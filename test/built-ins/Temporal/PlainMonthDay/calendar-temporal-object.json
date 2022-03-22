@@ -101,15 +101,13 @@
                             "type": "Literal",
                             "start": 1053,
                             "end": 1054,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           },
                           {
                             "type": "Literal",
                             "start": 1056,
                             "end": 1057,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           },
                           {
                             "type": "Identifier",
@@ -180,8 +178,7 @@
                         "type": "Literal",
                         "start": 1122,
                         "end": 1159,
-                        "value": "Temporal object coerced to calendar",
-                        "raw": "\"Temporal object coerced to calendar\""
+                        "value": "Temporal object coerced to calendar"
                       }
                     ],
                     "optional": false

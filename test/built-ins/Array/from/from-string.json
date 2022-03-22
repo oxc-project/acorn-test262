@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 275,
             "end": 281,
-            "value": "Test",
-            "raw": "'Test'"
+            "value": "Test"
           }
         }
       ],
@@ -132,15 +131,13 @@
             "type": "Literal",
             "start": 356,
             "end": 357,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 359,
             "end": 407,
-            "value": "The value of result.length is expected to be 4",
-            "raw": "'The value of result.length is expected to be 4'"
+            "value": "The value of result.length is expected to be 4"
           }
         ],
         "optional": false
@@ -188,8 +185,7 @@
               "type": "Literal",
               "start": 434,
               "end": 435,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -198,15 +194,13 @@
             "type": "Literal",
             "start": 438,
             "end": 441,
-            "value": "T",
-            "raw": "'T'"
+            "value": "T"
           },
           {
             "type": "Literal",
             "start": 443,
             "end": 489,
-            "value": "The value of result[0] is expected to be \"T\"",
-            "raw": "'The value of result[0] is expected to be \"T\"'"
+            "value": "The value of result[0] is expected to be \"T\""
           }
         ],
         "optional": false
@@ -254,8 +248,7 @@
               "type": "Literal",
               "start": 516,
               "end": 517,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -264,15 +257,13 @@
             "type": "Literal",
             "start": 520,
             "end": 523,
-            "value": "e",
-            "raw": "'e'"
+            "value": "e"
           },
           {
             "type": "Literal",
             "start": 525,
             "end": 571,
-            "value": "The value of result[1] is expected to be \"e\"",
-            "raw": "'The value of result[1] is expected to be \"e\"'"
+            "value": "The value of result[1] is expected to be \"e\""
           }
         ],
         "optional": false
@@ -320,8 +311,7 @@
               "type": "Literal",
               "start": 598,
               "end": 599,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -330,15 +320,13 @@
             "type": "Literal",
             "start": 602,
             "end": 605,
-            "value": "s",
-            "raw": "'s'"
+            "value": "s"
           },
           {
             "type": "Literal",
             "start": 607,
             "end": 653,
-            "value": "The value of result[2] is expected to be \"s\"",
-            "raw": "'The value of result[2] is expected to be \"s\"'"
+            "value": "The value of result[2] is expected to be \"s\""
           }
         ],
         "optional": false
@@ -386,8 +374,7 @@
               "type": "Literal",
               "start": 680,
               "end": 681,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false
@@ -396,15 +383,13 @@
             "type": "Literal",
             "start": 684,
             "end": 687,
-            "value": "t",
-            "raw": "'t'"
+            "value": "t"
           },
           {
             "type": "Literal",
             "start": 689,
             "end": 735,
-            "value": "The value of result[3] is expected to be \"t\"",
-            "raw": "'The value of result[3] is expected to be \"t\"'"
+            "value": "The value of result[3] is expected to be \"t\""
           }
         ],
         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 776,
                 "end": 778,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               }
             ]
           }
@@ -79,29 +78,25 @@
                 "type": "Literal",
                 "start": 797,
                 "end": 799,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 812,
-                "value": "CONSTRAIN",
-                "raw": "\"CONSTRAIN\""
+                "value": "CONSTRAIN"
               },
               {
                 "type": "Literal",
                 "start": 814,
                 "end": 823,
-                "value": "balance",
-                "raw": "\"balance\""
+                "value": "balance"
               },
               {
                 "type": "Literal",
                 "start": 825,
                 "end": 839,
-                "value": "other string",
-                "raw": "\"other string\""
+                "value": "other string"
               }
             ]
           }
@@ -234,8 +229,7 @@
                               "type": "Literal",
                               "start": 929,
                               "end": 931,
-                              "value": 45,
-                              "raw": "45"
+                              "value": 45
                             },
                             "kind": "init"
                           }

@@ -42,8 +42,7 @@
                   "type": "Literal",
                   "start": 312,
                   "end": 313,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 }
               }
             }
@@ -71,8 +70,7 @@
                     "type": "Literal",
                     "start": 340,
                     "end": 411,
-                    "value": "#2.1: with(null) x = 2 must throw TypeError. Actual: x === . Actual: ",
-                    "raw": "'#2.1: with(null) x = 2 must throw TypeError. Actual: x === . Actual: '"
+                    "value": "#2.1: with(null) x = 2 must throw TypeError. Actual: x === . Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -175,8 +173,7 @@
                             "type": "Literal",
                             "start": 500,
                             "end": 555,
-                            "value": "#2.2: with(null) x = 2 must throw TypeError. Actual: ",
-                            "raw": "'#2.2: with(null) x = 2 must throw TypeError. Actual: '"
+                            "value": "#2.2: with(null) x = 2 must throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

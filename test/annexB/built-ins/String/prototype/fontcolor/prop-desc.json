@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 545,
             "end": 556,
-            "value": "fontcolor",
-            "raw": "\"fontcolor\""
+            "value": "fontcolor"
           },
           {
             "type": "ObjectExpression",

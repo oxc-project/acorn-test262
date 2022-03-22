@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 869,
             "end": 879,
-            "value": "var 1=1;",
-            "raw": "\"var 1=1;\""
+            "value": "var 1=1;"
           }
         }
       ],
@@ -95,8 +94,7 @@
                   "type": "Literal",
                   "start": 943,
                   "end": 1023,
-                  "value": "#1: If body is not parsable as FunctionBody then throw a SyntaxError exception",
-                  "raw": "'#1: If body is not parsable as FunctionBody then throw a SyntaxError exception'"
+                  "value": "#1: If body is not parsable as FunctionBody then throw a SyntaxError exception"
                 }
               ]
             }
@@ -155,8 +153,7 @@
                     "type": "Literal",
                     "start": 1084,
                     "end": 1160,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

@@ -51,8 +51,7 @@
                   "type": "Literal",
                   "start": 302,
                   "end": 321,
-                  "value": "#1: null === null",
-                  "raw": "'#1: null === null'"
+                  "value": "#1: null === null"
                 }
               ]
             }

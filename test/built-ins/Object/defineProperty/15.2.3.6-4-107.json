@@ -55,8 +55,7 @@
               "type": "Literal",
               "start": 418,
               "end": 420,
-              "value": 10,
-              "raw": "10"
+              "value": 10
             }
           }
         ]
@@ -165,8 +164,7 @@
             "type": "Literal",
             "start": 514,
             "end": 519,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -270,8 +268,7 @@
               "type": "Literal",
               "start": 612,
               "end": 614,
-              "value": 20,
-              "raw": "20"
+              "value": 20
             }
           }
         ]
@@ -315,8 +312,7 @@
             "type": "Literal",
             "start": 646,
             "end": 651,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -375,8 +371,7 @@
             "type": "Literal",
             "start": 694,
             "end": 699,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "CallExpression",
@@ -420,15 +415,13 @@
             "type": "Literal",
             "start": 735,
             "end": 740,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Literal",
             "start": 742,
             "end": 761,
-            "value": "setVerifyHelpProp",
-            "raw": "\"setVerifyHelpProp\""
+            "value": "setVerifyHelpProp"
           }
         ],
         "optional": false
@@ -459,8 +452,7 @@
             "type": "Literal",
             "start": 790,
             "end": 795,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -491,8 +483,7 @@
             "type": "Literal",
             "start": 823,
             "end": 828,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false

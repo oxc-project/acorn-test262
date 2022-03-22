@@ -204,8 +204,7 @@
                         "type": "Literal",
                         "start": 819,
                         "end": 824,
-                        "value": "Bob",
-                        "raw": "'Bob'"
+                        "value": "Bob"
                       }
                     ],
                     "optional": false
@@ -218,8 +217,7 @@
             "type": "Literal",
             "start": 830,
             "end": 887,
-            "value": "Array.of.call(T, \"Bob\") throws a Test262Error exception",
-            "raw": "'Array.of.call(T, \"Bob\") throws a Test262Error exception'"
+            "value": "Array.of.call(T, \"Bob\") throws a Test262Error exception"
           }
         ],
         "optional": false

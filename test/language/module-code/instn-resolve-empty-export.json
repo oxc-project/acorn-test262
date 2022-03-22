@@ -31,8 +31,7 @@
         "type": "Literal",
         "start": 1114,
         "end": 1155,
-        "value": "./instn-resolve-empty-export_FIXTURE.js",
-        "raw": "'./instn-resolve-empty-export_FIXTURE.js'"
+        "value": "./instn-resolve-empty-export_FIXTURE.js"
       }
     }
   ],

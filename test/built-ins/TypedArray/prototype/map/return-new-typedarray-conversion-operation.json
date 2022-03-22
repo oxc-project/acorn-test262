@@ -224,8 +224,7 @@
                           "type": "Literal",
                           "start": 1952,
                           "end": 1953,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -255,8 +254,7 @@
                             "type": "Literal",
                             "start": 1974,
                             "end": 1989,
-                            "value": " converts to ",
-                            "raw": "\" converts to \""
+                            "value": " converts to "
                           }
                         },
                         "operator": "+",

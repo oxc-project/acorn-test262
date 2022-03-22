@@ -238,8 +238,7 @@
                       "type": "Literal",
                       "start": 735,
                       "end": 740,
-                      "value": "nan",
-                      "raw": "'nan'"
+                      "value": "nan"
                     },
                     "kind": "init"
                   },
@@ -317,8 +316,7 @@
             "type": "Literal",
             "start": 809,
             "end": 875,
-            "value": "formatToParts() should be equivalent to formatToParts(undefined)",
-            "raw": "'formatToParts() should be equivalent to formatToParts(undefined)'"
+            "value": "formatToParts() should be equivalent to formatToParts(undefined)"
           }
         ],
         "optional": false
@@ -369,8 +367,7 @@
             "type": "Literal",
             "start": 923,
             "end": 988,
-            "value": "Both implicit and explicit calls should have the correct result",
-            "raw": "'Both implicit and explicit calls should have the correct result'"
+            "value": "Both implicit and explicit calls should have the correct result"
           }
         ],
         "optional": false
@@ -493,8 +490,7 @@
                     "type": "Literal",
                     "start": 1100,
                     "end": 1101,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],

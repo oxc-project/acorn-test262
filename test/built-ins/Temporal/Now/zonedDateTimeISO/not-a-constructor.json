@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 422,
             "end": 486,
-            "value": "isConstructor(Temporal.Now.zonedDateTimeISO) must return false",
-            "raw": "'isConstructor(Temporal.Now.zonedDateTimeISO) must return false'"
+            "value": "isConstructor(Temporal.Now.zonedDateTimeISO) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 565,
             "end": 631,
-            "value": "new Temporal.Now.zonedDateTimeISO() throws a TypeError exception",
-            "raw": "'new Temporal.Now.zonedDateTimeISO() throws a TypeError exception'"
+            "value": "new Temporal.Now.zonedDateTimeISO() throws a TypeError exception"
           }
         ],
         "optional": false

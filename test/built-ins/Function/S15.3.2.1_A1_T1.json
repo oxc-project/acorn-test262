@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 915,
                           "end": 916,
-                          "value": 7,
-                          "raw": "7"
+                          "value": 7
                         }
                       }
                     ]
@@ -139,8 +138,7 @@
                   "type": "Literal",
                   "start": 986,
                   "end": 1126,
-                  "value": "#1: When the Function constructor is called with one argument then body be that argument the following step are taken: call ToString(body)",
-                  "raw": "'#1: When the Function constructor is called with one argument then body be that argument the following step are taken: call ToString(body)'"
+                  "value": "#1: When the Function constructor is called with one argument then body be that argument the following step are taken: call ToString(body)"
                 }
               ]
             }
@@ -200,15 +198,13 @@
                     "type": "Literal",
                     "start": 1165,
                     "end": 1166,
-                    "value": 7,
-                    "raw": "7"
+                    "value": 7
                   },
                   {
                     "type": "Literal",
                     "start": 1168,
                     "end": 1204,
-                    "value": "The value of e is expected to be 7",
-                    "raw": "'The value of e is expected to be 7'"
+                    "value": "The value of e is expected to be 7"
                   }
                 ],
                 "optional": false

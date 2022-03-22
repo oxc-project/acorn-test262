@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 485,
                 "end": 494,
-                "value": "12345e6",
-                "raw": "\"12345e6\""
+                "value": "12345e6"
               }
             ],
             "optional": false
@@ -56,15 +55,13 @@
             "type": "Literal",
             "start": 497,
             "end": 508,
-            "value": 12345000000,
-            "raw": "12345000000"
+            "value": 12345000000
           },
           {
             "type": "Literal",
             "start": 510,
             "end": 553,
-            "value": "Number(\"12345e6\") must return 12345000000",
-            "raw": "'Number(\"12345e6\") must return 12345000000'"
+            "value": "Number(\"12345e6\") must return 12345000000"
           }
         ],
         "optional": false
@@ -113,8 +110,7 @@
                 "type": "Literal",
                 "start": 580,
                 "end": 590,
-                "value": "12345e-6",
-                "raw": "\"12345e-6\""
+                "value": "12345e-6"
               }
             ],
             "optional": false
@@ -123,15 +119,13 @@
             "type": "Literal",
             "start": 593,
             "end": 601,
-            "value": 0.012345,
-            "raw": "0.012345"
+            "value": 0.012345
           },
           {
             "type": "Literal",
             "start": 603,
             "end": 644,
-            "value": "Number(\"12345e-6\") must return 0.012345",
-            "raw": "'Number(\"12345e-6\") must return 0.012345'"
+            "value": "Number(\"12345e-6\") must return 0.012345"
           }
         ],
         "optional": false

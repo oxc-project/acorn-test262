@@ -214,8 +214,7 @@
             "type": "Literal",
             "start": 462,
             "end": 498,
-            "value": "baz() throws a TypeError exception",
-            "raw": "'baz() throws a TypeError exception'"
+            "value": "baz() throws a TypeError exception"
           }
         ],
         "optional": false

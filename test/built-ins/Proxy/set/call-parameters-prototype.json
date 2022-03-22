@@ -447,8 +447,7 @@
           "type": "Literal",
           "start": 1250,
           "end": 1257,
-          "value": "value",
-          "raw": "'value'"
+          "value": "value"
         }
       }
     },
@@ -496,8 +495,7 @@
             "type": "Literal",
             "start": 1296,
             "end": 1332,
-            "value": "handler object is the trap context",
-            "raw": "'handler object is the trap context'"
+            "value": "handler object is the trap context"
           }
         ],
         "optional": false
@@ -547,8 +545,7 @@
             "type": "Literal",
             "start": 1369,
             "end": 1406,
-            "value": "first argument is the target object",
-            "raw": "'first argument is the target object'"
+            "value": "first argument is the target object"
           }
         ],
         "optional": false
@@ -592,15 +589,13 @@
             "type": "Literal",
             "start": 1433,
             "end": 1439,
-            "value": "prop",
-            "raw": "'prop'"
+            "value": "prop"
           },
           {
             "type": "Literal",
             "start": 1441,
             "end": 1479,
-            "value": "second argument is the property name",
-            "raw": "'second argument is the property name'"
+            "value": "second argument is the property name"
           }
         ],
         "optional": false
@@ -644,15 +639,13 @@
             "type": "Literal",
             "start": 1507,
             "end": 1514,
-            "value": "value",
-            "raw": "'value'"
+            "value": "value"
           },
           {
             "type": "Literal",
             "start": 1516,
             "end": 1549,
-            "value": "third argument is the new value",
-            "raw": "'third argument is the new value'"
+            "value": "third argument is the new value"
           }
         ],
         "optional": false
@@ -702,8 +695,7 @@
             "type": "Literal",
             "start": 1590,
             "end": 1630,
-            "value": "fourth argument is the receiver object",
-            "raw": "'fourth argument is the receiver object'"
+            "value": "fourth argument is the receiver object"
           }
         ],
         "optional": false

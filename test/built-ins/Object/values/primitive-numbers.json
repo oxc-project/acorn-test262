@@ -63,8 +63,7 @@
                   "type": "Literal",
                   "start": 276,
                   "end": 277,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               ],
               "optional": false
@@ -82,15 +81,13 @@
             "type": "Literal",
             "start": 287,
             "end": 288,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 290,
             "end": 309,
-            "value": "0 has zero values",
-            "raw": "'0 has zero values'"
+            "value": "0 has zero values"
           }
         ],
         "optional": false
@@ -162,8 +159,7 @@
                     "type": "Literal",
                     "start": 344,
                     "end": 345,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],
@@ -182,15 +178,13 @@
             "type": "Literal",
             "start": 355,
             "end": 356,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 358,
             "end": 378,
-            "value": "-0 has zero values",
-            "raw": "'-0 has zero values'"
+            "value": "-0 has zero values"
           }
         ],
         "optional": false
@@ -274,15 +268,13 @@
             "type": "Literal",
             "start": 430,
             "end": 431,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 433,
             "end": 459,
-            "value": "Infinity has zero values",
-            "raw": "'Infinity has zero values'"
+            "value": "Infinity has zero values"
           }
         ],
         "optional": false
@@ -373,15 +365,13 @@
             "type": "Literal",
             "start": 512,
             "end": 513,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 515,
             "end": 542,
-            "value": "-Infinity has zero values",
-            "raw": "'-Infinity has zero values'"
+            "value": "-Infinity has zero values"
           }
         ],
         "optional": false
@@ -465,15 +455,13 @@
             "type": "Literal",
             "start": 589,
             "end": 590,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 592,
             "end": 613,
-            "value": "NaN has zero values",
-            "raw": "'NaN has zero values'"
+            "value": "NaN has zero values"
           }
         ],
         "optional": false
@@ -570,15 +558,13 @@
             "type": "Literal",
             "start": 664,
             "end": 665,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 667,
             "end": 692,
-            "value": "Math.PI has zero values",
-            "raw": "'Math.PI has zero values'"
+            "value": "Math.PI has zero values"
           }
         ],
         "optional": false

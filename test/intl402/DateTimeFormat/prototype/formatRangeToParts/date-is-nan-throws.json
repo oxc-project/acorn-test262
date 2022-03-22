@@ -177,8 +177,7 @@
             "type": "Literal",
             "start": 1273,
             "end": 1283,
-            "value": "NaN/date",
-            "raw": "\"NaN/date\""
+            "value": "NaN/date"
           }
         ],
         "optional": false
@@ -283,8 +282,7 @@
             "type": "Literal",
             "start": 1366,
             "end": 1376,
-            "value": "date/NaN",
-            "raw": "\"date/NaN\""
+            "value": "date/NaN"
           }
         ],
         "optional": false
@@ -389,8 +387,7 @@
             "type": "Literal",
             "start": 1458,
             "end": 1467,
-            "value": "NaN/NaN",
-            "raw": "\"NaN/NaN\""
+            "value": "NaN/NaN"
           }
         ],
         "optional": false

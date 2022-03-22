@@ -34,15 +34,13 @@
                   "type": "Literal",
                   "start": 476,
                   "end": 480,
-                  "value": "eN",
-                  "raw": "\"eN\""
+                  "value": "eN"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 482,
                   "end": 486,
-                  "value": "en",
-                  "raw": "\"en\""
+                  "value": "en"
                 },
                 "kind": "init"
               },
@@ -57,15 +55,13 @@
                   "type": "Literal",
                   "start": 490,
                   "end": 497,
-                  "value": "en-gb",
-                  "raw": "\"en-gb\""
+                  "value": "en-gb"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 499,
                   "end": 506,
-                  "value": "en-GB",
-                  "raw": "\"en-GB\""
+                  "value": "en-GB"
                 },
                 "kind": "init"
               },
@@ -80,15 +76,13 @@
                   "type": "Literal",
                   "start": 510,
                   "end": 522,
-                  "value": "IT-LATN-iT",
-                  "raw": "\"IT-LATN-iT\""
+                  "value": "IT-LATN-iT"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 524,
                   "end": 536,
-                  "value": "it-Latn-IT",
-                  "raw": "\"it-Latn-IT\""
+                  "value": "it-Latn-IT"
                 },
                 "kind": "init"
               },
@@ -103,15 +97,13 @@
                   "type": "Literal",
                   "start": 540,
                   "end": 557,
-                  "value": "th-th-u-nu-thai",
-                  "raw": "\"th-th-u-nu-thai\""
+                  "value": "th-th-u-nu-thai"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 559,
                   "end": 576,
-                  "value": "th-TH-u-nu-thai",
-                  "raw": "\"th-TH-u-nu-thai\""
+                  "value": "th-TH-u-nu-thai"
                 },
                 "kind": "init"
               },
@@ -126,15 +118,13 @@
                   "type": "Literal",
                   "start": 580,
                   "end": 592,
-                  "value": "en-x-u-foo",
-                  "raw": "\"en-x-u-foo\""
+                  "value": "en-x-u-foo"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 594,
                   "end": 606,
-                  "value": "en-x-u-foo",
-                  "raw": "\"en-x-u-foo\""
+                  "value": "en-x-u-foo"
                 },
                 "kind": "init"
               },
@@ -149,15 +139,13 @@
                   "type": "Literal",
                   "start": 610,
                   "end": 628,
-                  "value": "en-a-bar-x-u-foo",
-                  "raw": "\"en-a-bar-x-u-foo\""
+                  "value": "en-a-bar-x-u-foo"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 630,
                   "end": 648,
-                  "value": "en-a-bar-x-u-foo",
-                  "raw": "\"en-a-bar-x-u-foo\""
+                  "value": "en-a-bar-x-u-foo"
                 },
                 "kind": "init"
               },
@@ -172,15 +160,13 @@
                   "type": "Literal",
                   "start": 652,
                   "end": 670,
-                  "value": "en-x-u-foo-a-bar",
-                  "raw": "\"en-x-u-foo-a-bar\""
+                  "value": "en-x-u-foo-a-bar"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 672,
                   "end": 690,
-                  "value": "en-x-u-foo-a-bar",
-                  "raw": "\"en-x-u-foo-a-bar\""
+                  "value": "en-x-u-foo-a-bar"
                 },
                 "kind": "init"
               },
@@ -195,15 +181,13 @@
                   "type": "Literal",
                   "start": 694,
                   "end": 718,
-                  "value": "en-u-baz-a-bar-x-u-foo",
-                  "raw": "\"en-u-baz-a-bar-x-u-foo\""
+                  "value": "en-u-baz-a-bar-x-u-foo"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 720,
                   "end": 744,
-                  "value": "en-a-bar-u-baz-x-u-foo",
-                  "raw": "\"en-a-bar-u-baz-x-u-foo\""
+                  "value": "en-a-bar-u-baz-x-u-foo"
                 },
                 "kind": "init"
               },
@@ -218,15 +202,13 @@
                   "type": "Literal",
                   "start": 748,
                   "end": 757,
-                  "value": "DE-1996",
-                  "raw": "\"DE-1996\""
+                  "value": "DE-1996"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 759,
                   "end": 768,
-                  "value": "de-1996",
-                  "raw": "\"de-1996\""
+                  "value": "de-1996"
                 },
                 "kind": "init"
               },
@@ -241,15 +223,13 @@
                   "type": "Literal",
                   "start": 888,
                   "end": 909,
-                  "value": "sl-ROZAJ-BISKE-1994",
-                  "raw": "\"sl-ROZAJ-BISKE-1994\""
+                  "value": "sl-ROZAJ-BISKE-1994"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 911,
                   "end": 932,
-                  "value": "sl-1994-biske-rozaj",
-                  "raw": "\"sl-1994-biske-rozaj\""
+                  "value": "sl-1994-biske-rozaj"
                 },
                 "kind": "init"
               },
@@ -264,15 +244,13 @@
                   "type": "Literal",
                   "start": 936,
                   "end": 960,
-                  "value": "zh-latn-pinyin-pinyin2",
-                  "raw": "\"zh-latn-pinyin-pinyin2\""
+                  "value": "zh-latn-pinyin-pinyin2"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 962,
                   "end": 986,
-                  "value": "zh-Latn-pinyin-pinyin2",
-                  "raw": "\"zh-Latn-pinyin-pinyin2\""
+                  "value": "zh-Latn-pinyin-pinyin2"
                 },
                 "kind": "init"
               }
@@ -667,43 +645,37 @@
                 "type": "Literal",
                 "start": 1459,
                 "end": 1468,
-                "value": "X-u-foo",
-                "raw": "\"X-u-foo\""
+                "value": "X-u-foo"
               },
               {
                 "type": "Literal",
                 "start": 1473,
                 "end": 1479,
-                "value": "Flob",
-                "raw": "\"Flob\""
+                "value": "Flob"
               },
               {
                 "type": "Literal",
                 "start": 1483,
                 "end": 1489,
-                "value": "ZORK",
-                "raw": "\"ZORK\""
+                "value": "ZORK"
               },
               {
                 "type": "Literal",
                 "start": 1493,
                 "end": 1504,
-                "value": "Blah-latn",
-                "raw": "\"Blah-latn\""
+                "value": "Blah-latn"
               },
               {
                 "type": "Literal",
                 "start": 1508,
                 "end": 1522,
-                "value": "QuuX-latn-us",
-                "raw": "\"QuuX-latn-us\""
+                "value": "QuuX-latn-us"
               },
               {
                 "type": "Literal",
                 "start": 1526,
                 "end": 1557,
-                "value": "SPAM-gb-x-Sausages-BACON-eggs",
-                "raw": "\"SPAM-gb-x-Sausages-BACON-eggs\""
+                "value": "SPAM-gb-x-Sausages-BACON-eggs"
               }
             ]
           }

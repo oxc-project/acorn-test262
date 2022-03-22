@@ -71,43 +71,37 @@
                 "type": "Literal",
                 "start": 361,
                 "end": 370,
-                "value": "2021-12",
-                "raw": "\"2021-12\""
+                "value": "2021-12"
               },
               {
                 "type": "Literal",
                 "start": 416,
                 "end": 422,
-                "value": "1214",
-                "raw": "\"1214\""
+                "value": "1214"
               },
               {
                 "type": "Literal",
                 "start": 465,
                 "end": 471,
-                "value": "0229",
-                "raw": "\"0229\""
+                "value": "0229"
               },
               {
                 "type": "Literal",
                 "start": 536,
                 "end": 542,
-                "value": "1130",
-                "raw": "\"1130\""
+                "value": "1130"
               },
               {
                 "type": "Literal",
                 "start": 609,
                 "end": 616,
-                "value": "12-14",
-                "raw": "\"12-14\""
+                "value": "12-14"
               },
               {
                 "type": "Literal",
                 "start": 660,
                 "end": 668,
-                "value": "202112",
-                "raw": "\"202112\""
+                "value": "202112"
               }
             ]
           }
@@ -777,8 +771,7 @@
                         "type": "Literal",
                         "start": 1372,
                         "end": 1441,
-                        "value": "space is not accepted as a substitute for T prefix (first argument)",
-                        "raw": "'space is not accepted as a substitute for T prefix (first argument)'"
+                        "value": "space is not accepted as a substitute for T prefix (first argument)"
                       }
                     ],
                     "optional": false
@@ -884,8 +877,7 @@
                         "type": "Literal",
                         "start": 1537,
                         "end": 1607,
-                        "value": "space is not accepted as a substitute for T prefix (second argument)",
-                        "raw": "'space is not accepted as a substitute for T prefix (second argument)'"
+                        "value": "space is not accepted as a substitute for T prefix (second argument)"
                       }
                     ],
                     "optional": false
@@ -922,78 +914,67 @@
                 "type": "Literal",
                 "start": 1744,
                 "end": 1753,
-                "value": "2021-13",
-                "raw": "\"2021-13\""
+                "value": "2021-13"
               },
               {
                 "type": "Literal",
                 "start": 1779,
                 "end": 1787,
-                "value": "202113",
-                "raw": "\"202113\""
+                "value": "202113"
               },
               {
                 "type": "Literal",
                 "start": 1804,
                 "end": 1813,
-                "value": "0000-00",
-                "raw": "\"0000-00\""
+                "value": "0000-00"
               },
               {
                 "type": "Literal",
                 "start": 1838,
                 "end": 1846,
-                "value": "000000",
-                "raw": "\"000000\""
+                "value": "000000"
               },
               {
                 "type": "Literal",
                 "start": 1863,
                 "end": 1869,
-                "value": "1314",
-                "raw": "\"1314\""
+                "value": "1314"
               },
               {
                 "type": "Literal",
                 "start": 1898,
                 "end": 1905,
-                "value": "13-14",
-                "raw": "\"13-14\""
+                "value": "13-14"
               },
               {
                 "type": "Literal",
                 "start": 1923,
                 "end": 1929,
-                "value": "1232",
-                "raw": "\"1232\""
+                "value": "1232"
               },
               {
                 "type": "Literal",
                 "start": 1956,
                 "end": 1962,
-                "value": "0230",
-                "raw": "\"0230\""
+                "value": "0230"
               },
               {
                 "type": "Literal",
                 "start": 2001,
                 "end": 2007,
-                "value": "0631",
-                "raw": "\"0631\""
+                "value": "0631"
               },
               {
                 "type": "Literal",
                 "start": 2042,
                 "end": 2048,
-                "value": "0000",
-                "raw": "\"0000\""
+                "value": "0000"
               },
               {
                 "type": "Literal",
                 "start": 2090,
                 "end": 2097,
-                "value": "00-00",
-                "raw": "\"00-00\""
+                "value": "00-00"
               }
             ]
           }

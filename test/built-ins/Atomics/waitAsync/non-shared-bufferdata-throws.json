@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 816,
             "end": 826,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 828,
             "end": 883,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -140,8 +138,7 @@
                       "type": "Literal",
                       "start": 964,
                       "end": 965,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -219,8 +216,7 @@
                               "type": "Literal",
                               "start": 1031,
                               "end": 1062,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -321,22 +317,19 @@
                         "type": "Literal",
                         "start": 1132,
                         "end": 1133,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1135,
                         "end": 1136,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 1138,
                         "end": 1139,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -349,8 +342,7 @@
             "type": "Literal",
             "start": 1145,
             "end": 1210,
-            "value": "`Atomics.waitAsync(i32a, 0, 0, 0)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(i32a, 0, 0, 0)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(i32a, 0, 0, 0)` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -467,8 +459,7 @@
             "type": "Literal",
             "start": 1307,
             "end": 1393,
-            "value": "`Atomics.waitAsync(i32a, poisoned, poisoned, poisoned)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(i32a, poisoned, poisoned, poisoned)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(i32a, poisoned, poisoned, poisoned)` throws a TypeError exception"
           }
         ],
         "optional": false

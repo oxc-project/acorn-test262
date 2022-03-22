@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 309,
                 "end": 312,
-                "value": "9",
-                "raw": "\"9\""
+                "value": "9"
               }
             ],
             "optional": false
@@ -56,15 +55,13 @@
             "type": "Literal",
             "start": 315,
             "end": 316,
-            "value": 9,
-            "raw": "9"
+            "value": 9
           },
           {
             "type": "Literal",
             "start": 318,
             "end": 345,
-            "value": "Number(\"9\") must return 9",
-            "raw": "'Number(\"9\") must return 9'"
+            "value": "Number(\"9\") must return 9"
           }
         ],
         "optional": false
@@ -112,8 +109,7 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 372,
-                "value": "0x9",
-                "raw": "\"0x9\""
+                "value": "0x9"
               }
             }
           },
@@ -121,15 +117,13 @@
             "type": "Literal",
             "start": 375,
             "end": 376,
-            "value": 9,
-            "raw": "9"
+            "value": 9
           },
           {
             "type": "Literal",
             "start": 378,
             "end": 423,
-            "value": "The value of `+(\"0x9\")` is expected to be 9",
-            "raw": "'The value of `+(\"0x9\")` is expected to be 9'"
+            "value": "The value of `+(\"0x9\")` is expected to be 9"
           }
         ],
         "optional": false
@@ -178,8 +172,7 @@
                 "type": "Literal",
                 "start": 450,
                 "end": 455,
-                "value": "0X9",
-                "raw": "\"0X9\""
+                "value": "0X9"
               }
             ],
             "optional": false
@@ -188,15 +181,13 @@
             "type": "Literal",
             "start": 458,
             "end": 459,
-            "value": 9,
-            "raw": "9"
+            "value": 9
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 490,
-            "value": "Number(\"0X9\") must return 9",
-            "raw": "'Number(\"0X9\") must return 9'"
+            "value": "Number(\"0X9\") must return 9"
           }
         ],
         "optional": false

@@ -135,8 +135,7 @@
                 "type": "Literal",
                 "start": 427,
                 "end": 432,
-                "value": "arg",
-                "raw": "'arg'"
+                "value": "arg"
               }
             ],
             "optional": false
@@ -145,8 +144,7 @@
             "type": "Literal",
             "start": 435,
             "end": 440,
-            "value": "arg",
-            "raw": "'arg'"
+            "value": "arg"
           }
         ],
         "optional": false

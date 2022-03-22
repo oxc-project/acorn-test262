@@ -172,8 +172,7 @@
             "type": "Literal",
             "start": 718,
             "end": 719,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -221,8 +220,7 @@
                       "type": "Literal",
                       "start": 750,
                       "end": 751,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "kind": "init"
                   },
@@ -243,8 +241,7 @@
                       "type": "Literal",
                       "start": 759,
                       "end": 761,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     },
                     "kind": "init"
                   }
@@ -272,8 +269,7 @@
                       "type": "Literal",
                       "start": 777,
                       "end": 778,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   },
@@ -294,8 +290,7 @@
                       "type": "Literal",
                       "start": 786,
                       "end": 788,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     },
                     "kind": "init"
                   }
@@ -479,8 +474,7 @@
                       "type": "Literal",
                       "start": 925,
                       "end": 967,
-                      "value": "isConstructor(resolve) must return false",
-                      "raw": "'isConstructor(resolve) must return false'"
+                      "value": "isConstructor(resolve) must return false"
                     }
                   ],
                   "optional": false
@@ -558,8 +552,7 @@
                       "type": "Literal",
                       "start": 1029,
                       "end": 1063,
-                      "value": "`new resolve()` throws TypeError",
-                      "raw": "'`new resolve()` throws TypeError'"
+                      "value": "`new resolve()` throws TypeError"
                     }
                   ],
                   "optional": false
@@ -648,8 +641,7 @@
                       "type": "Literal",
                       "start": 1139,
                       "end": 1225,
-                      "value": "The value of resolve.length is expected to equal the value of expected[calls].length",
-                      "raw": "'The value of resolve.length is expected to equal the value of expected[calls].length'"
+                      "value": "The value of resolve.length is expected to equal the value of expected[calls].length"
                     }
                   ],
                   "optional": false
@@ -738,8 +730,7 @@
                       "type": "Literal",
                       "start": 1299,
                       "end": 1381,
-                      "value": "The value of resolve.name is expected to equal the value of expected[calls].name",
-                      "raw": "'The value of resolve.name is expected to equal the value of expected[calls].name'"
+                      "value": "The value of resolve.name is expected to equal the value of expected[calls].name"
                     }
                   ],
                   "optional": false
@@ -764,8 +755,7 @@
                     "type": "Literal",
                     "start": 1403,
                     "end": 1404,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 "consequent": {
@@ -824,8 +814,7 @@
                             "type": "Literal",
                             "start": 1447,
                             "end": 1489,
-                            "value": "resolve() must return the value of value",
-                            "raw": "'resolve() must return the value of value'"
+                            "value": "resolve() must return the value of value"
                           }
                         ],
                         "optional": false
@@ -854,8 +843,7 @@
                     "type": "Literal",
                     "start": 1507,
                     "end": 1508,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },

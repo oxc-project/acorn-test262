@@ -44,7 +44,6 @@
                 "start": 373,
                 "end": 379,
                 "value": {},
-                "raw": "/abcd/",
                 "regex": {
                   "pattern": "abcd",
                   "flags": ""
@@ -77,15 +76,13 @@
                 "type": "Literal",
                 "start": 396,
                 "end": 402,
-                "value": "abcd",
-                "raw": "'abcd'"
+                "value": "abcd"
               },
               {
                 "type": "Literal",
                 "start": 404,
                 "end": 407,
-                "value": "X",
-                "raw": "'X'"
+                "value": "X"
               }
             ],
             "optional": false
@@ -94,8 +91,7 @@
             "type": "Literal",
             "start": 410,
             "end": 413,
-            "value": "X",
-            "raw": "'X'"
+            "value": "X"
           }
         ],
         "optional": false
@@ -142,7 +138,6 @@
                 "start": 433,
                 "end": 438,
                 "value": {},
-                "raw": "/bcd/",
                 "regex": {
                   "pattern": "bcd",
                   "flags": ""
@@ -175,15 +170,13 @@
                 "type": "Literal",
                 "start": 455,
                 "end": 461,
-                "value": "abcd",
-                "raw": "'abcd'"
+                "value": "abcd"
               },
               {
                 "type": "Literal",
                 "start": 463,
                 "end": 466,
-                "value": "X",
-                "raw": "'X'"
+                "value": "X"
               }
             ],
             "optional": false
@@ -192,8 +185,7 @@
             "type": "Literal",
             "start": 469,
             "end": 473,
-            "value": "aX",
-            "raw": "'aX'"
+            "value": "aX"
           }
         ],
         "optional": false
@@ -240,7 +232,6 @@
                 "start": 493,
                 "end": 497,
                 "value": {},
-                "raw": "/cd/",
                 "regex": {
                   "pattern": "cd",
                   "flags": ""
@@ -273,15 +264,13 @@
                 "type": "Literal",
                 "start": 514,
                 "end": 520,
-                "value": "abcd",
-                "raw": "'abcd'"
+                "value": "abcd"
               },
               {
                 "type": "Literal",
                 "start": 522,
                 "end": 525,
-                "value": "X",
-                "raw": "'X'"
+                "value": "X"
               }
             ],
             "optional": false
@@ -290,8 +279,7 @@
             "type": "Literal",
             "start": 528,
             "end": 533,
-            "value": "abX",
-            "raw": "'abX'"
+            "value": "abX"
           }
         ],
         "optional": false
@@ -338,7 +326,6 @@
                 "start": 553,
                 "end": 556,
                 "value": {},
-                "raw": "/d/",
                 "regex": {
                   "pattern": "d",
                   "flags": ""
@@ -371,15 +358,13 @@
                 "type": "Literal",
                 "start": 573,
                 "end": 579,
-                "value": "abcd",
-                "raw": "'abcd'"
+                "value": "abcd"
               },
               {
                 "type": "Literal",
                 "start": 581,
                 "end": 584,
-                "value": "X",
-                "raw": "'X'"
+                "value": "X"
               }
             ],
             "optional": false
@@ -388,8 +373,7 @@
             "type": "Literal",
             "start": 587,
             "end": 593,
-            "value": "abcX",
-            "raw": "'abcX'"
+            "value": "abcX"
           }
         ],
         "optional": false

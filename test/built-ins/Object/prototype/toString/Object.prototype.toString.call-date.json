@@ -100,15 +100,13 @@
             "type": "Literal",
             "start": 308,
             "end": 323,
-            "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "value": "[object Date]"
           },
           {
             "type": "Literal",
             "start": 327,
             "end": 393,
-            "value": "Object.prototype.toString.call(new Date()) returns [object Date]",
-            "raw": "\"Object.prototype.toString.call(new Date()) returns [object Date]\""
+            "value": "Object.prototype.toString.call(new Date()) returns [object Date]"
           }
         ],
         "optional": false
@@ -225,15 +223,13 @@
             "type": "Literal",
             "start": 471,
             "end": 486,
-            "value": "[object Date]",
-            "raw": "\"[object Date]\""
+            "value": "[object Date]"
           },
           {
             "type": "Literal",
             "start": 490,
             "end": 564,
-            "value": "Object.prototype.toString.call(Object(new Date())) returns [object Date]",
-            "raw": "\"Object.prototype.toString.call(Object(new Date())) returns [object Date]\""
+            "value": "Object.prototype.toString.call(Object(new Date())) returns [object Date]"
           }
         ],
         "optional": false

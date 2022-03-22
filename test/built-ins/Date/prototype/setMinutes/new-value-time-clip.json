@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 854,
             "end": 861,
-            "value": 8640000000000000,
-            "raw": "8.64e15"
+            "value": 8640000000000000
           }
         }
       ],
@@ -198,16 +197,14 @@
                 "type": "Literal",
                 "start": 982,
                 "end": 984,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               },
               "operator": "*",
               "right": {
                 "type": "Literal",
                 "start": 987,
                 "end": 989,
-                "value": 60,
-                "raw": "60"
+                "value": 60
               }
             }
           ],
@@ -259,8 +256,7 @@
             "type": "Literal",
             "start": 1028,
             "end": 1053,
-            "value": "overflow due to minutes",
-            "raw": "'overflow due to minutes'"
+            "value": "overflow due to minutes"
           }
         ],
         "optional": false
@@ -345,8 +341,7 @@
               "type": "Literal",
               "start": 1112,
               "end": 1113,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             {
               "type": "BinaryExpression",
@@ -360,16 +355,14 @@
                   "type": "Literal",
                   "start": 1115,
                   "end": 1117,
-                  "value": 24,
-                  "raw": "24"
+                  "value": 24
                 },
                 "operator": "*",
                 "right": {
                   "type": "Literal",
                   "start": 1120,
                   "end": 1122,
-                  "value": 60,
-                  "raw": "60"
+                  "value": 60
                 }
               },
               "operator": "*",
@@ -377,8 +370,7 @@
                 "type": "Literal",
                 "start": 1125,
                 "end": 1127,
-                "value": 60,
-                "raw": "60"
+                "value": 60
               }
             }
           ],
@@ -430,8 +422,7 @@
             "type": "Literal",
             "start": 1166,
             "end": 1191,
-            "value": "overflow due to seconds",
-            "raw": "'overflow due to seconds'"
+            "value": "overflow due to seconds"
           }
         ],
         "optional": false
@@ -516,15 +507,13 @@
               "type": "Literal",
               "start": 1250,
               "end": 1251,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             {
               "type": "Literal",
               "start": 1253,
               "end": 1254,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             {
               "type": "BinaryExpression",
@@ -542,16 +531,14 @@
                     "type": "Literal",
                     "start": 1256,
                     "end": 1258,
-                    "value": 24,
-                    "raw": "24"
+                    "value": 24
                   },
                   "operator": "*",
                   "right": {
                     "type": "Literal",
                     "start": 1261,
                     "end": 1263,
-                    "value": 60,
-                    "raw": "60"
+                    "value": 60
                   }
                 },
                 "operator": "*",
@@ -559,8 +546,7 @@
                   "type": "Literal",
                   "start": 1266,
                   "end": 1268,
-                  "value": 60,
-                  "raw": "60"
+                  "value": 60
                 }
               },
               "operator": "*",
@@ -568,8 +554,7 @@
                 "type": "Literal",
                 "start": 1271,
                 "end": 1275,
-                "value": 1000,
-                "raw": "1000"
+                "value": 1000
               }
             }
           ],
@@ -621,8 +606,7 @@
             "type": "Literal",
             "start": 1314,
             "end": 1344,
-            "value": "overflow due to milliseconds",
-            "raw": "'overflow due to milliseconds'"
+            "value": "overflow due to milliseconds"
           }
         ],
         "optional": false

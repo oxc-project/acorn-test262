@@ -43,7 +43,6 @@
           "start": 422,
           "end": 427,
           "value": {},
-          "raw": "/^a/y",
           "regex": {
             "pattern": "^a",
             "flags": "y"
@@ -83,8 +82,7 @@
           "type": "Literal",
           "start": 445,
           "end": 446,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -144,8 +142,7 @@
                 "type": "Literal",
                 "start": 476,
                 "end": 479,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               }
             ],
             "optional": false
@@ -161,8 +158,7 @@
             "type": "Literal",
             "start": 488,
             "end": 532,
-            "value": "positive: beginning of input (without `m`)",
-            "raw": "'positive: beginning of input (without `m`)'"
+            "value": "positive: beginning of input (without `m`)"
           }
         ],
         "optional": false
@@ -200,8 +196,7 @@
           "type": "Literal",
           "start": 552,
           "end": 553,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -261,8 +256,7 @@
                 "type": "Literal",
                 "start": 583,
                 "end": 587,
-                "value": " a",
-                "raw": "' a'"
+                "value": " a"
               }
             ],
             "optional": false
@@ -278,8 +272,7 @@
             "type": "Literal",
             "start": 597,
             "end": 636,
-            "value": "negative: within a line (without `m`)",
-            "raw": "'negative: within a line (without `m`)'"
+            "value": "negative: within a line (without `m`)"
           }
         ],
         "optional": false
@@ -317,8 +310,7 @@
           "type": "Literal",
           "start": 656,
           "end": 657,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -378,8 +370,7 @@
                 "type": "Literal",
                 "start": 687,
                 "end": 692,
-                "value": "\na",
-                "raw": "'\\na'"
+                "value": "\na"
               }
             ],
             "optional": false
@@ -395,8 +386,7 @@
             "type": "Literal",
             "start": 702,
             "end": 745,
-            "value": "negative: beginning of line (without `m`)",
-            "raw": "'negative: beginning of line (without `m`)'"
+            "value": "negative: beginning of line (without `m`)"
           }
         ],
         "optional": false
@@ -422,7 +412,6 @@
           "start": 755,
           "end": 761,
           "value": {},
-          "raw": "/^a/my",
           "regex": {
             "pattern": "^a",
             "flags": "my"
@@ -462,8 +451,7 @@
           "type": "Literal",
           "start": 779,
           "end": 780,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -523,8 +511,7 @@
                 "type": "Literal",
                 "start": 810,
                 "end": 813,
-                "value": "a",
-                "raw": "'a'"
+                "value": "a"
               }
             ],
             "optional": false
@@ -540,8 +527,7 @@
             "type": "Literal",
             "start": 822,
             "end": 863,
-            "value": "positive: beginning of input (with `m`)",
-            "raw": "'positive: beginning of input (with `m`)'"
+            "value": "positive: beginning of input (with `m`)"
           }
         ],
         "optional": false
@@ -579,8 +565,7 @@
           "type": "Literal",
           "start": 883,
           "end": 884,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -640,8 +625,7 @@
                 "type": "Literal",
                 "start": 914,
                 "end": 918,
-                "value": " a",
-                "raw": "' a'"
+                "value": " a"
               }
             ],
             "optional": false
@@ -657,8 +641,7 @@
             "type": "Literal",
             "start": 928,
             "end": 964,
-            "value": "negative: within a line (with `m`)",
-            "raw": "'negative: within a line (with `m`)'"
+            "value": "negative: within a line (with `m`)"
           }
         ],
         "optional": false
@@ -696,8 +679,7 @@
           "type": "Literal",
           "start": 984,
           "end": 985,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -757,8 +739,7 @@
                 "type": "Literal",
                 "start": 1015,
                 "end": 1020,
-                "value": "\na",
-                "raw": "'\\na'"
+                "value": "\na"
               }
             ],
             "optional": false
@@ -774,8 +755,7 @@
             "type": "Literal",
             "start": 1029,
             "end": 1069,
-            "value": "positive: beginning of line (with `m`)",
-            "raw": "'positive: beginning of line (with `m`)'"
+            "value": "positive: beginning of line (with `m`)"
           }
         ],
         "optional": false

@@ -192,8 +192,7 @@
             "type": "Literal",
             "start": 1222,
             "end": 1253,
-            "value": "poisoned valueOf for ToNumber",
-            "raw": "'poisoned valueOf for ToNumber'"
+            "value": "poisoned valueOf for ToNumber"
           }
         ],
         "optional": false
@@ -390,8 +389,7 @@
             "type": "Literal",
             "start": 1413,
             "end": 1448,
-            "value": "poisoned ToPrimitive for ToNumber",
-            "raw": "'poisoned ToPrimitive for ToNumber'"
+            "value": "poisoned ToPrimitive for ToNumber"
           }
         ],
         "optional": false
@@ -575,8 +573,7 @@
             "type": "Literal",
             "start": 1596,
             "end": 1628,
-            "value": "poisoned toString for ToNumber",
-            "raw": "'poisoned toString for ToNumber'"
+            "value": "poisoned toString for ToNumber"
           }
         ],
         "optional": false
@@ -717,8 +714,7 @@
             "type": "Literal",
             "start": 1729,
             "end": 1747,
-            "value": "length is Symbol",
-            "raw": "'length is Symbol'"
+            "value": "length is Symbol"
           }
         ],
         "optional": false
@@ -767,8 +763,7 @@
               "type": "Literal",
               "start": 1775,
               "end": 1776,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ],
           "optional": false
@@ -867,8 +862,7 @@
             "type": "Literal",
             "start": 1849,
             "end": 1867,
-            "value": "length is BigInt",
-            "raw": "'length is BigInt'"
+            "value": "length is BigInt"
           }
         ],
         "optional": false

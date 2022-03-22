@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 774,
             "end": 836,
-            "value": "isConstructor(String.prototype.startsWith) must return false",
-            "raw": "'isConstructor(String.prototype.startsWith) must return false'"
+            "value": "isConstructor(String.prototype.startsWith) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 914,
             "end": 968,
-            "value": "`new String.prototype.startsWith()` throws TypeError",
-            "raw": "'`new String.prototype.startsWith()` throws TypeError'"
+            "value": "`new String.prototype.startsWith()` throws TypeError"
           }
         ],
         "optional": false

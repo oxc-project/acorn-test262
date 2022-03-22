@@ -117,16 +117,14 @@
               "type": "Literal",
               "start": 318,
               "end": 319,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 323,
             "end": 386,
-            "value": "Array.prototype.findIndex.call(true, () => {}) must return -1",
-            "raw": "'Array.prototype.findIndex.call(true, () => {}) must return -1'"
+            "value": "Array.prototype.findIndex.call(true, () => {}) must return -1"
           }
         ],
         "optional": false
@@ -246,16 +244,14 @@
               "type": "Literal",
               "start": 462,
               "end": 463,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 467,
             "end": 531,
-            "value": "Array.prototype.findIndex.call(false, () => {}) must return -1",
-            "raw": "'Array.prototype.findIndex.call(false, () => {}) must return -1'"
+            "value": "Array.prototype.findIndex.call(false, () => {}) must return -1"
           }
         ],
         "optional": false

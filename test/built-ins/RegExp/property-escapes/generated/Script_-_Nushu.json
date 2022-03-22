@@ -56,8 +56,7 @@
                           "type": "Literal",
                           "start": 509,
                           "end": 517,
-                          "value": 94177,
-                          "raw": "0x016FE1"
+                          "value": 94177
                         }
                       ]
                     },
@@ -90,15 +89,13 @@
                               "type": "Literal",
                               "start": 540,
                               "end": 548,
-                              "value": 110960,
-                              "raw": "0x01B170"
+                              "value": 110960
                             },
                             {
                               "type": "Literal",
                               "start": 550,
                               "end": 558,
-                              "value": 111355,
-                              "raw": "0x01B2FB"
+                              "value": 111355
                             }
                           ]
                         }
@@ -135,7 +132,6 @@
             "start": 591,
             "end": 613,
             "value": {},
-            "raw": "/^\\p{Script=Nushu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Nushu}+$",
               "flags": "u"
@@ -151,8 +147,7 @@
             "type": "Literal",
             "start": 633,
             "end": 652,
-            "value": "\\p{Script=Nushu}",
-            "raw": "\"\\\\p{Script=Nushu}\""
+            "value": "\\p{Script=Nushu}"
           }
         ],
         "optional": false
@@ -178,7 +173,6 @@
             "start": 679,
             "end": 700,
             "value": {},
-            "raw": "/^\\p{Script=Nshu}+$/u",
             "regex": {
               "pattern": "^\\p{Script=Nshu}+$",
               "flags": "u"
@@ -194,8 +188,7 @@
             "type": "Literal",
             "start": 720,
             "end": 738,
-            "value": "\\p{Script=Nshu}",
-            "raw": "\"\\\\p{Script=Nshu}\""
+            "value": "\\p{Script=Nshu}"
           }
         ],
         "optional": false
@@ -221,7 +214,6 @@
             "start": 765,
             "end": 783,
             "value": {},
-            "raw": "/^\\p{sc=Nushu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Nushu}+$",
               "flags": "u"
@@ -237,8 +229,7 @@
             "type": "Literal",
             "start": 803,
             "end": 818,
-            "value": "\\p{sc=Nushu}",
-            "raw": "\"\\\\p{sc=Nushu}\""
+            "value": "\\p{sc=Nushu}"
           }
         ],
         "optional": false
@@ -264,7 +255,6 @@
             "start": 845,
             "end": 862,
             "value": {},
-            "raw": "/^\\p{sc=Nshu}+$/u",
             "regex": {
               "pattern": "^\\p{sc=Nshu}+$",
               "flags": "u"
@@ -280,8 +270,7 @@
             "type": "Literal",
             "start": 882,
             "end": 896,
-            "value": "\\p{sc=Nshu}",
-            "raw": "\"\\\\p{sc=Nshu}\""
+            "value": "\\p{sc=Nshu}"
           }
         ],
         "optional": false
@@ -366,15 +355,13 @@
                               "type": "Literal",
                               "start": 978,
                               "end": 986,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 988,
                               "end": 996,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -387,15 +374,13 @@
                               "type": "Literal",
                               "start": 1004,
                               "end": 1012,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1014,
                               "end": 1022,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -408,15 +393,13 @@
                               "type": "Literal",
                               "start": 1030,
                               "end": 1038,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1040,
                               "end": 1048,
-                              "value": 94176,
-                              "raw": "0x016FE0"
+                              "value": 94176
                             }
                           ]
                         },
@@ -429,15 +412,13 @@
                               "type": "Literal",
                               "start": 1056,
                               "end": 1064,
-                              "value": 94178,
-                              "raw": "0x016FE2"
+                              "value": 94178
                             },
                             {
                               "type": "Literal",
                               "start": 1066,
                               "end": 1074,
-                              "value": 110959,
-                              "raw": "0x01B16F"
+                              "value": 110959
                             }
                           ]
                         },
@@ -450,15 +431,13 @@
                               "type": "Literal",
                               "start": 1082,
                               "end": 1090,
-                              "value": 111356,
-                              "raw": "0x01B2FC"
+                              "value": 111356
                             },
                             {
                               "type": "Literal",
                               "start": 1092,
                               "end": 1100,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -495,7 +474,6 @@
             "start": 1133,
             "end": 1155,
             "value": {},
-            "raw": "/^\\P{Script=Nushu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Nushu}+$",
               "flags": "u"
@@ -511,8 +489,7 @@
             "type": "Literal",
             "start": 1178,
             "end": 1197,
-            "value": "\\P{Script=Nushu}",
-            "raw": "\"\\\\P{Script=Nushu}\""
+            "value": "\\P{Script=Nushu}"
           }
         ],
         "optional": false
@@ -538,7 +515,6 @@
             "start": 1224,
             "end": 1245,
             "value": {},
-            "raw": "/^\\P{Script=Nshu}+$/u",
             "regex": {
               "pattern": "^\\P{Script=Nshu}+$",
               "flags": "u"
@@ -554,8 +530,7 @@
             "type": "Literal",
             "start": 1268,
             "end": 1286,
-            "value": "\\P{Script=Nshu}",
-            "raw": "\"\\\\P{Script=Nshu}\""
+            "value": "\\P{Script=Nshu}"
           }
         ],
         "optional": false
@@ -581,7 +556,6 @@
             "start": 1313,
             "end": 1331,
             "value": {},
-            "raw": "/^\\P{sc=Nushu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Nushu}+$",
               "flags": "u"
@@ -597,8 +571,7 @@
             "type": "Literal",
             "start": 1354,
             "end": 1369,
-            "value": "\\P{sc=Nushu}",
-            "raw": "\"\\\\P{sc=Nushu}\""
+            "value": "\\P{sc=Nushu}"
           }
         ],
         "optional": false
@@ -624,7 +597,6 @@
             "start": 1396,
             "end": 1413,
             "value": {},
-            "raw": "/^\\P{sc=Nshu}+$/u",
             "regex": {
               "pattern": "^\\P{sc=Nshu}+$",
               "flags": "u"
@@ -640,8 +612,7 @@
             "type": "Literal",
             "start": 1436,
             "end": 1450,
-            "value": "\\P{sc=Nshu}",
-            "raw": "\"\\\\P{sc=Nshu}\""
+            "value": "\\P{sc=Nshu}"
           }
         ],
         "optional": false

@@ -53,29 +53,25 @@
                 "type": "Literal",
                 "start": 336,
                 "end": 337,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 340,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               },
               {
                 "type": "Literal",
                 "start": 342,
                 "end": 343,
-                "value": 4,
-                "raw": "4"
+                "value": 4
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 346,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             ]
           }
@@ -121,8 +117,7 @@
             "type": "Literal",
             "start": 377,
             "end": 383,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -164,8 +159,7 @@
                           "type": "Literal",
                           "start": 418,
                           "end": 419,
-                          "value": 6,
-                          "raw": "6"
+                          "value": 6
                         }
                       }
                     ]
@@ -384,8 +378,7 @@
                       "type": "Literal",
                       "start": 572,
                       "end": 578,
-                      "value": "prop",
-                      "raw": "\"prop\""
+                      "value": "prop"
                     }
                   },
                   "consequent": {
@@ -459,8 +452,7 @@
             "type": "Literal",
             "start": 658,
             "end": 678,
-            "value": "Property not found",
-            "raw": "'Property not found'"
+            "value": "Property not found"
           }
         ],
         "optional": false

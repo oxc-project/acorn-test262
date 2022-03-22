@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 838,
             "end": 844,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 857,
                   "end": 869,
-                  "value": "weekOfYear",
-                  "raw": "\"weekOfYear\""
+                  "value": "weekOfYear"
                 },
                 "kind": "init"
               },

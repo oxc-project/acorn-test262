@@ -125,8 +125,7 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 368,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "computed": true,
@@ -136,15 +135,13 @@
             "type": "Literal",
             "start": 371,
             "end": 374,
-            "value": "Z",
-            "raw": "\"Z\""
+            "value": "Z"
           },
           {
             "type": "Literal",
             "start": 376,
             "end": 405,
-            "value": "dateStr[dateStr.length - 1]",
-            "raw": "'dateStr[dateStr.length - 1]'"
+            "value": "dateStr[dateStr.length - 1]"
           }
         ],
         "optional": false

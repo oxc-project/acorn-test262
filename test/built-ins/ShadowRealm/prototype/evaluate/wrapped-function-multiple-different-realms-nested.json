@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 340,
             "end": 350,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 354,
             "end": 427,
-            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function"
           }
         ],
         "optional": false
@@ -120,8 +118,7 @@
           "type": "Literal",
           "start": 451,
           "end": 452,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -418,8 +415,7 @@
             "type": "Literal",
             "start": 925,
             "end": 950,
-            "value": "rewrapped !== r1wrapped",
-            "raw": "'rewrapped !== r1wrapped'"
+            "value": "rewrapped !== r1wrapped"
           }
         ],
         "optional": false
@@ -455,8 +451,7 @@
                 "type": "Literal",
                 "start": 987,
                 "end": 1007,
-                "value": "globalThis.wrapped",
-                "raw": "'globalThis.wrapped'"
+                "value": "globalThis.wrapped"
               }
             ],
             "optional": false
@@ -509,8 +504,7 @@
             "type": "Literal",
             "start": 1053,
             "end": 1078,
-            "value": "r2wrapped !== r1wrapped",
-            "raw": "'r2wrapped !== r1wrapped'"
+            "value": "r2wrapped !== r1wrapped"
           }
         ],
         "optional": false
@@ -560,8 +554,7 @@
             "type": "Literal",
             "start": 1123,
             "end": 1148,
-            "value": "r2wrapped !== rewrapped",
-            "raw": "'r2wrapped !== rewrapped'"
+            "value": "r2wrapped !== rewrapped"
           }
         ],
         "optional": false
@@ -623,8 +616,7 @@
                 "type": "Literal",
                 "start": 1185,
                 "end": 1203,
-                "value": "globalThis.count",
-                "raw": "'globalThis.count'"
+                "value": "globalThis.count"
               }
             ],
             "optional": false
@@ -633,8 +625,7 @@
             "type": "Literal",
             "start": 1206,
             "end": 1207,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "TemplateLiteral",
@@ -703,15 +694,13 @@
             "type": "Literal",
             "start": 1290,
             "end": 1291,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1293,
             "end": 1345,
-            "value": "call from r2 wrapped (r2wrapped) cycles back to r1",
-            "raw": "'call from r2 wrapped (r2wrapped) cycles back to r1'"
+            "value": "call from r2 wrapped (r2wrapped) cycles back to r1"
           }
         ],
         "optional": false
@@ -773,8 +762,7 @@
                 "type": "Literal",
                 "start": 1382,
                 "end": 1400,
-                "value": "globalThis.count",
-                "raw": "'globalThis.count'"
+                "value": "globalThis.count"
               }
             ],
             "optional": false
@@ -783,15 +771,13 @@
             "type": "Literal",
             "start": 1403,
             "end": 1404,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1406,
             "end": 1445,
-            "value": "effects produced in a third realm, #1",
-            "raw": "'effects produced in a third realm, #1'"
+            "value": "effects produced in a third realm, #1"
           }
         ],
         "optional": false
@@ -842,15 +828,13 @@
             "type": "Literal",
             "start": 1479,
             "end": 1480,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1482,
             "end": 1534,
-            "value": "call from r2 wrapped (rewrapped) cycles back to r1",
-            "raw": "'call from r2 wrapped (rewrapped) cycles back to r1'"
+            "value": "call from r2 wrapped (rewrapped) cycles back to r1"
           }
         ],
         "optional": false
@@ -912,8 +896,7 @@
                 "type": "Literal",
                 "start": 1571,
                 "end": 1589,
-                "value": "globalThis.count",
-                "raw": "'globalThis.count'"
+                "value": "globalThis.count"
               }
             ],
             "optional": false
@@ -922,15 +905,13 @@
             "type": "Literal",
             "start": 1592,
             "end": 1593,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1595,
             "end": 1634,
-            "value": "effects produced in a third realm, #2",
-            "raw": "'effects produced in a third realm, #2'"
+            "value": "effects produced in a third realm, #2"
           }
         ],
         "optional": false
@@ -979,8 +960,7 @@
                 "type": "Literal",
                 "start": 1670,
                 "end": 1688,
-                "value": "globalThis.count",
-                "raw": "'globalThis.count'"
+                "value": "globalThis.count"
               }
             ],
             "optional": false
@@ -989,15 +969,13 @@
             "type": "Literal",
             "start": 1691,
             "end": 1692,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1694,
             "end": 1748,
-            "value": "no side effects produced in the wrong realm (realm2)",
-            "raw": "'no side effects produced in the wrong realm (realm2)'"
+            "value": "no side effects produced in the wrong realm (realm2)"
           }
         ],
         "optional": false
@@ -1054,15 +1032,13 @@
             "type": "Literal",
             "start": 1786,
             "end": 1787,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1789,
             "end": 1847,
-            "value": "no side effects produced in the wrong realm (main realm)",
-            "raw": "'no side effects produced in the wrong realm (main realm)'"
+            "value": "no side effects produced in the wrong realm (main realm)"
           }
         ],
         "optional": false

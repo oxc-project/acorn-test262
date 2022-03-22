@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 510,
             "end": 511,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -251,8 +250,7 @@
                                   "type": "Literal",
                                   "start": 717,
                                   "end": 718,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             }
@@ -463,15 +461,13 @@
             "type": "Literal",
             "start": 901,
             "end": 902,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 906,
             "end": 976,
-            "value": "The iterator is closed when `WeakMap.prototype.set` throws an error.",
-            "raw": "'The iterator is closed when `WeakMap.prototype.set` throws an error.'"
+            "value": "The iterator is closed when `WeakMap.prototype.set` throws an error."
           }
         ],
         "optional": false

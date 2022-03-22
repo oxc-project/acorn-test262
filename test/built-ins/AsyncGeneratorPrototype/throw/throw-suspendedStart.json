@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 971,
                 "end": 977,
-                "value": "boop",
-                "raw": "'boop'"
+                "value": "boop"
               }
             ]
           }
@@ -90,8 +89,7 @@
                         "type": "Literal",
                         "start": 1033,
                         "end": 1065,
-                        "value": "Generator must not be resumed.",
-                        "raw": "'Generator must not be resumed.'"
+                        "value": "Generator must not be resumed."
                       }
                     ]
                   }
@@ -269,8 +267,7 @@
                             "type": "Literal",
                             "start": 1161,
                             "end": 1216,
-                            "value": "AsyncGeneratorReject(generator, completion.[[Value]])",
-                            "raw": "'AsyncGeneratorReject(generator, completion.[[Value]])'"
+                            "value": "AsyncGeneratorReject(generator, completion.[[Value]])"
                           }
                         ],
                         "optional": false
@@ -410,8 +407,7 @@
                                             "type": "Literal",
                                             "start": 1296,
                                             "end": 1317,
-                                            "value": "Generator is closed",
-                                            "raw": "'Generator is closed'"
+                                            "value": "Generator is closed"
                                           }
                                         ],
                                         "optional": false
@@ -475,8 +471,7 @@
                                             "type": "Literal",
                                             "start": 1357,
                                             "end": 1378,
-                                            "value": "Generator is closed",
-                                            "raw": "'Generator is closed'"
+                                            "value": "Generator is closed"
                                           }
                                         ],
                                         "optional": false

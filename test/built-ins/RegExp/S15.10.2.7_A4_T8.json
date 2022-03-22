@@ -31,7 +31,6 @@
                 "start": 389,
                 "end": 405,
                 "value": {},
-                "raw": "/[\"'][^\"']*[\"']/",
                 "regex": {
                   "pattern": "[\"'][^\"']*[\"']",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 411,
                 "end": 436,
-                "value": "alice cries out: don't",
-                "raw": "'alice cries out: don\\'t'"
+                "value": "alice cries out: don't"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 460,
             "end": 509,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

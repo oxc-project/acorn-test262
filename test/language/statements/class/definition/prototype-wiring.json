@@ -211,8 +211,7 @@
                 "type": "Literal",
                 "start": 356,
                 "end": 357,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -271,15 +270,13 @@
             "type": "Literal",
             "start": 387,
             "end": 388,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 390,
             "end": 422,
-            "value": "The value of `s.foobar` is `1`",
-            "raw": "\"The value of `s.foobar` is `1`\""
+            "value": "The value of `s.foobar` is `1`"
           }
         ],
         "optional": false
@@ -369,8 +366,7 @@
             "type": "Literal",
             "start": 495,
             "end": 552,
-            "value": "`Object.getPrototypeOf(s)` returns `Subclass.prototype`",
-            "raw": "\"`Object.getPrototypeOf(s)` returns `Subclass.prototype`\""
+            "value": "`Object.getPrototypeOf(s)` returns `Subclass.prototype`"
           }
         ],
         "optional": false
@@ -406,15 +402,13 @@
                 "type": "Literal",
                 "start": 579,
                 "end": 580,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 583,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -473,15 +467,13 @@
             "type": "Literal",
             "start": 614,
             "end": 615,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 617,
             "end": 650,
-            "value": "The value of `s1.foobar` is `1`",
-            "raw": "\"The value of `s1.foobar` is `1`\""
+            "value": "The value of `s1.foobar` is `1`"
           }
         ],
         "optional": false
@@ -584,8 +576,7 @@
             "type": "Literal",
             "start": 733,
             "end": 809,
-            "value": "The result of `Object.getPrototypeOf(s1) === Subclass.prototype` is `true`",
-            "raw": "\"The result of `Object.getPrototypeOf(s1) === Subclass.prototype` is `true`\""
+            "value": "The result of `Object.getPrototypeOf(s1) === Subclass.prototype` is `true`"
           }
         ],
         "optional": false
@@ -679,8 +670,7 @@
             "type": "Literal",
             "start": 878,
             "end": 919,
-            "value": "The value of `s2.foobar` is `undefined`",
-            "raw": "\"The value of `s2.foobar` is `undefined`\""
+            "value": "The value of `s2.foobar` is `undefined`"
           }
         ],
         "optional": false
@@ -770,8 +760,7 @@
             "type": "Literal",
             "start": 993,
             "end": 1051,
-            "value": "`Object.getPrototypeOf(s2)` returns `Subclass.prototype`",
-            "raw": "\"`Object.getPrototypeOf(s2)` returns `Subclass.prototype`\""
+            "value": "`Object.getPrototypeOf(s2)` returns `Subclass.prototype`"
           }
         ],
         "optional": false
@@ -844,8 +833,7 @@
                         "type": "Literal",
                         "start": 1102,
                         "end": 1103,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -925,29 +913,25 @@
                         "type": "Literal",
                         "start": 1157,
                         "end": 1158,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1159,
                         "end": 1160,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 1161,
                         "end": 1162,
-                        "value": 3,
-                        "raw": "3"
+                        "value": 3
                       },
                       {
                         "type": "Literal",
                         "start": 1163,
                         "end": 1164,
-                        "value": 4,
-                        "raw": "4"
+                        "value": 4
                       }
                     ],
                     "optional": false
@@ -1026,22 +1010,19 @@
                           "type": "Literal",
                           "start": 1235,
                           "end": 1236,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 1238,
                           "end": 1239,
-                          "value": 6,
-                          "raw": "6"
+                          "value": 6
                         },
                         {
                           "type": "Literal",
                           "start": 1241,
                           "end": 1242,
-                          "value": 7,
-                          "raw": "7"
+                          "value": 7
                         }
                       ],
                       "optional": false
@@ -1136,15 +1117,13 @@
             "type": "Literal",
             "start": 1308,
             "end": 1309,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 1311,
             "end": 1345,
-            "value": "The value of `ss2.foobar` is `5`",
-            "raw": "\"The value of `ss2.foobar` is `5`\""
+            "value": "The value of `ss2.foobar` is `5`"
           }
         ],
         "optional": false
@@ -1234,8 +1213,7 @@
             "type": "Literal",
             "start": 1421,
             "end": 1481,
-            "value": "`Object.getPrototypeOf(ss2)` returns `Subclass2.prototype`",
-            "raw": "\"`Object.getPrototypeOf(ss2)` returns `Subclass2.prototype`\""
+            "value": "`Object.getPrototypeOf(ss2)` returns `Subclass2.prototype`"
           }
         ],
         "optional": false
@@ -1375,8 +1353,7 @@
                 "type": "Literal",
                 "start": 1588,
                 "end": 1590,
-                "value": 27,
-                "raw": "27"
+                "value": 27
               },
               {
                 "type": "BinaryExpression",
@@ -1386,16 +1363,14 @@
                   "type": "Literal",
                   "start": 1591,
                   "end": 1593,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "operator": "-",
                 "right": {
                   "type": "Literal",
                   "start": 1594,
                   "end": 1596,
-                  "value": 27,
-                  "raw": "27"
+                  "value": 27
                 }
               }
             ]
@@ -1455,15 +1430,13 @@
             "type": "Literal",
             "start": 1628,
             "end": 1630,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 1632,
             "end": 1667,
-            "value": "The value of `ss3.foobar` is `42`",
-            "raw": "\"The value of `ss3.foobar` is `42`\""
+            "value": "The value of `ss3.foobar` is `42`"
           }
         ],
         "optional": false
@@ -1553,8 +1526,7 @@
             "type": "Literal",
             "start": 1743,
             "end": 1803,
-            "value": "`Object.getPrototypeOf(ss3)` returns `Subclass3.prototype`",
-            "raw": "\"`Object.getPrototypeOf(ss3)` returns `Subclass3.prototype`\""
+            "value": "`Object.getPrototypeOf(ss3)` returns `Subclass3.prototype`"
           }
         ],
         "optional": false

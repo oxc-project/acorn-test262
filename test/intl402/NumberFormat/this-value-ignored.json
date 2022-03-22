@@ -250,8 +250,7 @@
                         "type": "Literal",
                         "start": 658,
                         "end": 731,
-                        "value": "NumberFormat object created with \"new\" was not ignored as this-value.",
-                        "raw": "\"NumberFormat object created with \\\"new\\\" was not ignored as this-value.\""
+                        "value": "NumberFormat object created with \"new\" was not ignored as this-value."
                       }
                     ],
                     "optional": false
@@ -518,8 +517,7 @@
                         "type": "Literal",
                         "start": 1113,
                         "end": 1202,
-                        "value": "NumberFormat object created with constructor as function was not ignored as this-value.",
-                        "raw": "\"NumberFormat object created with constructor as function was not ignored as this-value.\""
+                        "value": "NumberFormat object created with constructor as function was not ignored as this-value."
                       }
                     ],
                     "optional": false

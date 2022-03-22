@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1023,
         "end": 1054,
-        "value": "./enumerate-binding-uninit.js",
-        "raw": "\"./enumerate-binding-uninit.js\""
+        "value": "./enumerate-binding-uninit.js"
       }
     },
     {
@@ -146,8 +145,7 @@
         "type": "Literal",
         "start": 1180,
         "end": 1181,
-        "value": 0,
-        "raw": "0"
+        "value": 0
       }
     }
   ],

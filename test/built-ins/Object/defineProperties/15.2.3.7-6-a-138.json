@@ -102,8 +102,7 @@
                         "type": "Literal",
                         "start": 450,
                         "end": 455,
-                        "value": "2E3",
-                        "raw": "\"2E3\""
+                        "value": "2E3"
                       },
                       "kind": "init"
                     }
@@ -168,15 +167,13 @@
             "type": "Literal",
             "start": 494,
             "end": 497,
-            "value": 2000,
-            "raw": "2E3"
+            "value": 2000
           },
           {
             "type": "Literal",
             "start": 499,
             "end": 511,
-            "value": "arr.length",
-            "raw": "'arr.length'"
+            "value": "arr.length"
           }
         ],
         "optional": false

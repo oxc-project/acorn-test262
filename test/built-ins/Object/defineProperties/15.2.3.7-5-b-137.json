@@ -59,8 +59,7 @@
           "type": "Literal",
           "start": 367,
           "end": 375,
-          "value": "global",
-          "raw": "\"global\""
+          "value": "global"
         }
       }
     },
@@ -180,15 +179,13 @@
             "type": "Literal",
             "start": 462,
             "end": 470,
-            "value": "global",
-            "raw": "\"global\""
+            "value": "global"
           },
           {
             "type": "Literal",
             "start": 472,
             "end": 486,
-            "value": "obj.property",
-            "raw": "'obj.property'"
+            "value": "obj.property"
           }
         ],
         "optional": false

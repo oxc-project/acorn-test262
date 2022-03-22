@@ -30,8 +30,7 @@
                 "type": "Literal",
                 "start": 542,
                 "end": 544,
-                "value": "",
-                "raw": "''"
+                "value": ""
               },
               "property": {
                 "type": "MemberExpression",

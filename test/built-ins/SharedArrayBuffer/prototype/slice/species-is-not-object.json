@@ -58,8 +58,7 @@
                 "type": "Literal",
                 "start": 460,
                 "end": 461,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               }
             ]
           }
@@ -250,8 +249,7 @@
             "type": "Literal",
             "start": 639,
             "end": 687,
-            "value": "`constructor[Symbol.species]` value is Boolean",
-            "raw": "\"`constructor[Symbol.species]` value is Boolean\""
+            "value": "`constructor[Symbol.species]` value is Boolean"
           }
         ],
         "optional": false
@@ -302,8 +300,7 @@
           "type": "Literal",
           "start": 728,
           "end": 730,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -351,8 +348,7 @@
             "type": "Literal",
             "start": 768,
             "end": 815,
-            "value": "`constructor[Symbol.species]` value is String",
-            "raw": "\"`constructor[Symbol.species]` value is String\""
+            "value": "`constructor[Symbol.species]` value is String"
           }
         ],
         "optional": false
@@ -458,8 +454,7 @@
             "type": "Literal",
             "start": 902,
             "end": 949,
-            "value": "`constructor[Symbol.species]` value is Symbol",
-            "raw": "\"`constructor[Symbol.species]` value is Symbol\""
+            "value": "`constructor[Symbol.species]` value is Symbol"
           }
         ],
         "optional": false
@@ -510,8 +505,7 @@
           "type": "Literal",
           "start": 990,
           "end": 991,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -559,8 +553,7 @@
             "type": "Literal",
             "start": 1029,
             "end": 1076,
-            "value": "`constructor[Symbol.species]` value is Number",
-            "raw": "\"`constructor[Symbol.species]` value is Number\""
+            "value": "`constructor[Symbol.species]` value is Number"
           }
         ],
         "optional": false

@@ -525,8 +525,7 @@
                         "type": "Literal",
                         "start": 1412,
                         "end": 1449,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

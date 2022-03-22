@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 328,
                 "end": 347,
-                "value": "POSITIVE_INFINITY",
-                "raw": "\"POSITIVE_INFINITY\""
+                "value": "POSITIVE_INFINITY"
               }
             ],
             "optional": false
@@ -56,8 +55,7 @@
             "type": "Literal",
             "start": 352,
             "end": 413,
-            "value": "Number.hasOwnProperty(\"POSITIVE_INFINITY\") must return true",
-            "raw": "'Number.hasOwnProperty(\"POSITIVE_INFINITY\") must return true'"
+            "value": "Number.hasOwnProperty(\"POSITIVE_INFINITY\") must return true"
           }
         ],
         "optional": false

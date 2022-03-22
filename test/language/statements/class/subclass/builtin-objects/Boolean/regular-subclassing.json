@@ -56,8 +56,7 @@
                 "type": "Literal",
                 "start": 426,
                 "end": 427,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -110,8 +109,7 @@
             "type": "Literal",
             "start": 461,
             "end": 486,
-            "value": "b1 is an Boolean object",
-            "raw": "'b1 is an Boolean object'"
+            "value": "b1 is an Boolean object"
           }
         ],
         "optional": false
@@ -212,8 +210,7 @@
                 "type": "Literal",
                 "start": 545,
                 "end": 546,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -266,8 +263,7 @@
             "type": "Literal",
             "start": 580,
             "end": 606,
-            "value": "bln is an Boolean object",
-            "raw": "'bln is an Boolean object'"
+            "value": "bln is an Boolean object"
           }
         ],
         "optional": false

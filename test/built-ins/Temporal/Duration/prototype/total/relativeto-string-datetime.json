@@ -46,36 +46,31 @@
                 "type": "Literal",
                 "start": 387,
                 "end": 388,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 391,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 393,
                 "end": 394,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 396,
                 "end": 397,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 399,
                 "end": 401,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               }
             ]
           }
@@ -102,8 +97,7 @@
             "type": "Literal",
             "start": 422,
             "end": 440,
-            "value": "2019-11-01T00:00",
-            "raw": "\"2019-11-01T00:00\""
+            "value": "2019-11-01T00:00"
           }
         }
       ],
@@ -170,8 +164,7 @@
                       "type": "Literal",
                       "start": 481,
                       "end": 487,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -243,15 +236,13 @@
             "type": "Literal",
             "start": 530,
             "end": 533,
-            "value": 367,
-            "raw": "367"
+            "value": 367
           },
           {
             "type": "Literal",
             "start": 535,
             "end": 580,
-            "value": "bare date-time string is a plain relativeTo",
-            "raw": "\"bare date-time string is a plain relativeTo\""
+            "value": "bare date-time string is a plain relativeTo"
           }
         ],
         "optional": false
@@ -276,8 +267,7 @@
           "type": "Literal",
           "start": 597,
           "end": 616,
-          "value": "2019-11-01T00:00Z",
-          "raw": "\"2019-11-01T00:00Z\""
+          "value": "2019-11-01T00:00Z"
         }
       }
     },
@@ -342,8 +332,7 @@
                       "type": "Literal",
                       "start": 657,
                       "end": 663,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -415,15 +404,13 @@
             "type": "Literal",
             "start": 706,
             "end": 709,
-            "value": 367,
-            "raw": "367"
+            "value": 367
           },
           {
             "type": "Literal",
             "start": 711,
             "end": 748,
-            "value": "date-time + Z is a plain relativeTo",
-            "raw": "\"date-time + Z is a plain relativeTo\""
+            "value": "date-time + Z is a plain relativeTo"
           }
         ],
         "optional": false
@@ -448,8 +435,7 @@
           "type": "Literal",
           "start": 765,
           "end": 789,
-          "value": "2019-11-01T00:00-07:00",
-          "raw": "\"2019-11-01T00:00-07:00\""
+          "value": "2019-11-01T00:00-07:00"
         }
       }
     },
@@ -514,8 +500,7 @@
                       "type": "Literal",
                       "start": 830,
                       "end": 836,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -587,15 +572,13 @@
             "type": "Literal",
             "start": 879,
             "end": 882,
-            "value": 367,
-            "raw": "367"
+            "value": 367
           },
           {
             "type": "Literal",
             "start": 884,
             "end": 926,
-            "value": "date-time + offset is a plain relativeTo",
-            "raw": "\"date-time + offset is a plain relativeTo\""
+            "value": "date-time + offset is a plain relativeTo"
           }
         ],
         "optional": false
@@ -620,8 +603,7 @@
           "type": "Literal",
           "start": 943,
           "end": 969,
-          "value": "2019-11-01T00:00[-07:00]",
-          "raw": "\"2019-11-01T00:00[-07:00]\""
+          "value": "2019-11-01T00:00[-07:00]"
         }
       }
     },
@@ -686,8 +668,7 @@
                       "type": "Literal",
                       "start": 1010,
                       "end": 1016,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -759,15 +740,13 @@
             "type": "Literal",
             "start": 1059,
             "end": 1062,
-            "value": 367,
-            "raw": "367"
+            "value": 367
           },
           {
             "type": "Literal",
             "start": 1064,
             "end": 1115,
-            "value": "date-time + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + IANA annotation is a zoned relativeTo\""
+            "value": "date-time + IANA annotation is a zoned relativeTo"
           }
         ],
         "optional": false
@@ -792,8 +771,7 @@
           "type": "Literal",
           "start": 1132,
           "end": 1159,
-          "value": "2019-11-01T00:00Z[-07:00]",
-          "raw": "\"2019-11-01T00:00Z[-07:00]\""
+          "value": "2019-11-01T00:00Z[-07:00]"
         }
       }
     },
@@ -858,8 +836,7 @@
                       "type": "Literal",
                       "start": 1200,
                       "end": 1206,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -931,15 +908,13 @@
             "type": "Literal",
             "start": 1249,
             "end": 1252,
-            "value": 367,
-            "raw": "367"
+            "value": 367
           },
           {
             "type": "Literal",
             "start": 1254,
             "end": 1309,
-            "value": "date-time + Z + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + Z + IANA annotation is a zoned relativeTo\""
+            "value": "date-time + Z + IANA annotation is a zoned relativeTo"
           }
         ],
         "optional": false
@@ -964,8 +939,7 @@
           "type": "Literal",
           "start": 1326,
           "end": 1355,
-          "value": "2019-11-01T00:00+00:00[UTC]",
-          "raw": "\"2019-11-01T00:00+00:00[UTC]\""
+          "value": "2019-11-01T00:00+00:00[UTC]"
         }
       }
     },
@@ -1030,8 +1004,7 @@
                       "type": "Literal",
                       "start": 1396,
                       "end": 1402,
-                      "value": "days",
-                      "raw": "\"days\""
+                      "value": "days"
                     },
                     "kind": "init"
                   },
@@ -1103,15 +1076,13 @@
             "type": "Literal",
             "start": 1445,
             "end": 1448,
-            "value": 367,
-            "raw": "367"
+            "value": 367
           },
           {
             "type": "Literal",
             "start": 1450,
             "end": 1510,
-            "value": "date-time + offset + IANA annotation is a zoned relativeTo",
-            "raw": "\"date-time + offset + IANA annotation is a zoned relativeTo\""
+            "value": "date-time + offset + IANA annotation is a zoned relativeTo"
           }
         ],
         "optional": false
@@ -1136,8 +1107,7 @@
           "type": "Literal",
           "start": 1527,
           "end": 1556,
-          "value": "2019-11-01T00:00+04:15[UTC]",
-          "raw": "\"2019-11-01T00:00+04:15[UTC]\""
+          "value": "2019-11-01T00:00+04:15[UTC]"
         }
       }
     },
@@ -1230,8 +1200,7 @@
                         "type": "Literal",
                         "start": 1613,
                         "end": 1619,
-                        "value": "days",
-                        "raw": "\"days\""
+                        "value": "days"
                       },
                       "kind": "init"
                     },
@@ -1266,8 +1235,7 @@
             "type": "Literal",
             "start": 1636,
             "end": 1718,
-            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch",
-            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\""
+            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch"
           }
         ],
         "optional": false

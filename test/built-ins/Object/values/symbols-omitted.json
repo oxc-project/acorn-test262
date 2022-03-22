@@ -58,8 +58,7 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 310,
-                "value": "enum",
-                "raw": "'enum'"
+                "value": "enum"
               }
             ],
             "optional": false
@@ -98,8 +97,7 @@
                 "type": "Literal",
                 "start": 337,
                 "end": 346,
-                "value": "nonenum",
-                "raw": "'nonenum'"
+                "value": "nonenum"
               }
             ],
             "optional": false
@@ -138,8 +136,7 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 378,
-                "value": "value",
-                "raw": "'value'"
+                "value": "value"
               }
             ],
             "optional": false
@@ -449,8 +446,7 @@
             "type": "Literal",
             "start": 597,
             "end": 617,
-            "value": "result is an array",
-            "raw": "'result is an array'"
+            "value": "result is an array"
           }
         ],
         "optional": false
@@ -507,15 +503,13 @@
             "type": "Literal",
             "start": 652,
             "end": 653,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 655,
             "end": 674,
-            "value": "result has 1 item",
-            "raw": "'result has 1 item'"
+            "value": "result has 1 item"
           }
         ],
         "optional": false
@@ -563,8 +557,7 @@
               "type": "Literal",
               "start": 702,
               "end": 703,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -579,8 +572,7 @@
             "type": "Literal",
             "start": 716,
             "end": 743,
-            "value": "first value is `symValue`",
-            "raw": "'first value is `symValue`'"
+            "value": "first value is `symValue`"
           }
         ],
         "optional": false

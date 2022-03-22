@@ -23,7 +23,6 @@
             "start": 310,
             "end": 316,
             "value": {},
-            "raw": "/ll|l/",
             "regex": {
               "pattern": "ll|l",
               "flags": ""
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 379,
             "end": 433,
-            "value": "__re.test(null) must return __re.exec(null) !== null",
-            "raw": "'__re.test(null) must return __re.exec(null) !== null'"
+            "value": "__re.test(null) must return __re.exec(null) !== null"
           }
         ],
         "optional": false

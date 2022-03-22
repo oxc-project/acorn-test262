@@ -118,8 +118,7 @@
               "type": "Literal",
               "start": 771,
               "end": 772,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -140,8 +139,7 @@
           "type": "Literal",
           "start": 778,
           "end": 779,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "update": {
@@ -181,8 +179,7 @@
                   "type": "Literal",
                   "start": 795,
                   "end": 901,
-                  "value": "    (function() {      for (let b = 0; b < 2; b++) {        tag`${a}${b}`;      }    })();  ",
-                  "raw": "\"\\\n    (function() {\\\n      for (let b = 0; b < 2; b++) {\\\n        tag`${a}${b}`;\\\n      }\\\n    })();\\\n  \""
+                  "value": "    (function() {      for (let b = 0; b < 2; b++) {        tag`${a}${b}`;      }    })();  "
                 }
               ],
               "optional": false
@@ -233,8 +230,7 @@
               "type": "Literal",
               "start": 929,
               "end": 930,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -253,8 +249,7 @@
               "type": "Literal",
               "start": 938,
               "end": 939,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -305,8 +300,7 @@
               "type": "Literal",
               "start": 968,
               "end": 969,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -325,8 +319,7 @@
               "type": "Literal",
               "start": 977,
               "end": 978,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -377,8 +370,7 @@
               "type": "Literal",
               "start": 1004,
               "end": 1005,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -397,8 +389,7 @@
               "type": "Literal",
               "start": 1013,
               "end": 1014,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             },
             "computed": true,
             "optional": false

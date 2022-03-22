@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 474,
             "end": 475,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "operator": ">=",
           "right": {
@@ -64,8 +63,7 @@
                   "type": "Literal",
                   "start": 521,
                   "end": 545,
-                  "value": "#1: 1 >= null === true",
-                  "raw": "'#1: 1 >= null === true'"
+                  "value": "#1: 1 >= null === true"
                 }
               ]
             }
@@ -98,8 +96,7 @@
             "type": "Literal",
             "start": 573,
             "end": 574,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         },
         "operator": "!==",
@@ -135,8 +132,7 @@
                   "type": "Literal",
                   "start": 613,
                   "end": 638,
-                  "value": "#2: null >= 1 === false",
-                  "raw": "'#2: null >= 1 === false'"
+                  "value": "#2: null >= 1 === false"
                 }
               ]
             }
@@ -172,8 +168,7 @@
                 "type": "Literal",
                 "start": 669,
                 "end": 670,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           },
@@ -219,8 +214,7 @@
                   "type": "Literal",
                   "start": 717,
                   "end": 753,
-                  "value": "#3: new Number(1) >= null === true",
-                  "raw": "'#3: new Number(1) >= null === true'"
+                  "value": "#3: new Number(1) >= null === true"
                 }
               ]
             }
@@ -264,8 +258,7 @@
                 "type": "Literal",
                 "start": 792,
                 "end": 793,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -303,8 +296,7 @@
                   "type": "Literal",
                   "start": 833,
                   "end": 870,
-                  "value": "#4: null >= new Number(1) === false",
-                  "raw": "'#4: null >= new Number(1) === false'"
+                  "value": "#4: null >= new Number(1) === false"
                 }
               ]
             }

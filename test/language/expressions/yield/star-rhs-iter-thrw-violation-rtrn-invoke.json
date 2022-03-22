@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 2027,
             "end": 2028,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -252,8 +251,7 @@
                           "type": "Literal",
                           "start": 2206,
                           "end": 2248,
-                          "value": "this value has no effect on the protocol",
-                          "raw": "'this value has no effect on the protocol'"
+                          "value": "this value has no effect on the protocol"
                         }
                       }
                     ]
@@ -305,8 +303,7 @@
             "type": "Literal",
             "start": 2295,
             "end": 2302,
-            "value": "throw",
-            "raw": "'throw'"
+            "value": "throw"
           },
           {
             "type": "ObjectExpression",
@@ -359,8 +356,7 @@
                             "type": "Literal",
                             "start": 2344,
                             "end": 2345,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -691,8 +687,7 @@
             "type": "Literal",
             "start": 2596,
             "end": 2597,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -742,8 +737,7 @@
             "type": "Literal",
             "start": 2644,
             "end": 2658,
-            "value": "\"this\" value",
-            "raw": "'\"this\" value'"
+            "value": "\"this\" value"
           }
         ],
         "optional": false
@@ -794,15 +788,13 @@
             "type": "Literal",
             "start": 2694,
             "end": 2702,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 2704,
             "end": 2747,
-            "value": "method invoked, arguments object provided",
-            "raw": "'method invoked, arguments object provided'"
+            "value": "method invoked, arguments object provided"
           }
         ],
         "optional": false
@@ -859,8 +851,7 @@
             "type": "Literal",
             "start": 2781,
             "end": 2782,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false
@@ -911,15 +902,13 @@
             "type": "Literal",
             "start": 2817,
             "end": 2825,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 2827,
             "end": 2848,
-            "value": "object value thrown",
-            "raw": "'object value thrown'"
+            "value": "object value thrown"
           }
         ],
         "optional": false

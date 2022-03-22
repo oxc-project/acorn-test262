@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 551,
             "end": 559,
-            "value": "Symbol",
-            "raw": "'Symbol'"
+            "value": "Symbol"
           }
         ],
         "optional": false

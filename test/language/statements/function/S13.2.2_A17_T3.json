@@ -22,8 +22,7 @@
           "type": "Literal",
           "start": 502,
           "end": 509,
-          "value": "alert",
-          "raw": "\"alert\""
+          "value": "alert"
         }
       }
     },
@@ -76,8 +75,7 @@
                 "type": "Literal",
                 "start": 527,
                 "end": 528,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               "kind": "init"
             },
@@ -116,8 +114,7 @@
                         "type": "Literal",
                         "start": 556,
                         "end": 563,
-                        "value": "right",
-                        "raw": "\"right\""
+                        "value": "right"
                       }
                     }
                   ]
@@ -166,8 +163,7 @@
                     "type": "Literal",
                     "start": 600,
                     "end": 609,
-                    "value": "napravo",
-                    "raw": "\"napravo\""
+                    "value": "napravo"
                   }
                 }
               ]
@@ -248,8 +244,7 @@
                               "type": "Literal",
                               "start": 662,
                               "end": 666,
-                              "value": "w1",
-                              "raw": "\"w1\""
+                              "value": "w1"
                             }
                           }
                         },
@@ -343,8 +338,7 @@
           "type": "Literal",
           "start": 846,
           "end": 853,
-          "value": "alert",
-          "raw": "\"alert\""
+          "value": "alert"
         }
       },
       "consequent": {
@@ -375,8 +369,7 @@
                     "type": "Literal",
                     "start": 881,
                     "end": 916,
-                    "value": "#1: p1 === \"alert\". Actual: p1===",
-                    "raw": "'#1: p1 === \"alert\". Actual: p1==='"
+                    "value": "#1: p1 === \"alert\". Actual: p1==="
                   },
                   "operator": "+",
                   "right": {
@@ -419,8 +412,7 @@
           "type": "Literal",
           "start": 1113,
           "end": 1122,
-          "value": "napravo",
-          "raw": "\"napravo\""
+          "value": "napravo"
         }
       },
       "consequent": {
@@ -451,8 +443,7 @@
                     "type": "Literal",
                     "start": 1150,
                     "end": 1203,
-                    "value": "#2: getRight() === \"napravo\". Actual: getRight()===",
-                    "raw": "'#2: getRight() === \"napravo\". Actual: getRight()==='"
+                    "value": "#2: getRight() === \"napravo\". Actual: getRight()==="
                   },
                   "operator": "+",
                   "right": {
@@ -508,8 +499,7 @@
           "type": "Literal",
           "start": 1406,
           "end": 1410,
-          "value": "w1",
-          "raw": "\"w1\""
+          "value": "w1"
         }
       },
       "consequent": {
@@ -540,8 +530,7 @@
                     "type": "Literal",
                     "start": 1438,
                     "end": 1483,
-                    "value": "#3: __obj.p1 === \"w1\". Actual: __obj.p1 ===",
-                    "raw": "'#3: __obj.p1 === \"w1\". Actual: __obj.p1 ==='"
+                    "value": "#3: __obj.p1 === \"w1\". Actual: __obj.p1 ==="
                   },
                   "operator": "+",
                   "right": {
@@ -642,8 +631,7 @@
                     "type": "Literal",
                     "start": 1725,
                     "end": 1786,
-                    "value": "#4: __obj.getRight() === false. Actual: __obj.getRight()===",
-                    "raw": "'#4: __obj.getRight() === false. Actual: __obj.getRight()==='"
+                    "value": "#4: __obj.getRight() === false. Actual: __obj.getRight()==="
                   },
                   "operator": "+",
                   "right": {
@@ -699,8 +687,7 @@
           "type": "Literal",
           "start": 1995,
           "end": 1999,
-          "value": "w1",
-          "raw": "\"w1\""
+          "value": "w1"
         }
       },
       "consequent": {
@@ -731,8 +718,7 @@
                     "type": "Literal",
                     "start": 2027,
                     "end": 2068,
-                    "value": "#5: resukt === \"w1\". Actual: resukt ===",
-                    "raw": "'#5: resukt === \"w1\". Actual: resukt ==='"
+                    "value": "#5: resukt === \"w1\". Actual: resukt ==="
                   },
                   "operator": "+",
                   "right": {

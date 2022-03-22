@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 248,
                 "end": 253,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               }
             ]
           }
@@ -74,8 +73,7 @@
           "type": "Literal",
           "start": 267,
           "end": 270,
-          "value": 100,
-          "raw": "100"
+          "value": 100
         }
       }
     },
@@ -189,8 +187,7 @@
             "type": "Literal",
             "start": 351,
             "end": 373,
-            "value": "Object.isFrozen(obj)",
-            "raw": "'Object.isFrozen(obj)'"
+            "value": "Object.isFrozen(obj)"
           }
         ],
         "optional": false

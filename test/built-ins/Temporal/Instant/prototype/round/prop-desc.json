@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 362,
             "end": 372,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 376,
             "end": 424,
-            "value": "`typeof Instant.prototype.round` is `function`",
-            "raw": "\"`typeof Instant.prototype.round` is `function`\""
+            "value": "`typeof Instant.prototype.round` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 472,
             "end": 479,
-            "value": "round",
-            "raw": "\"round\""
+            "value": "round"
           },
           {
             "type": "ObjectExpression",

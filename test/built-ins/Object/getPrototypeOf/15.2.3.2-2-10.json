@@ -87,8 +87,7 @@
             "type": "Literal",
             "start": 335,
             "end": 366,
-            "value": "Object.getPrototypeOf(RegExp)",
-            "raw": "'Object.getPrototypeOf(RegExp)'"
+            "value": "Object.getPrototypeOf(RegExp)"
           }
         ],
         "optional": false

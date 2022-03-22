@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 455,
             "end": 463,
-            "value": "symbol",
-            "raw": "'symbol'"
+            "value": "symbol"
           }
         ],
         "optional": false
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 494,
             "end": 507,
-            "value": "toStringTag",
-            "raw": "'toStringTag'"
+            "value": "toStringTag"
           }
         ],
         "optional": false
@@ -125,8 +123,7 @@
             "type": "Literal",
             "start": 536,
             "end": 549,
-            "value": "toStringTag",
-            "raw": "'toStringTag'"
+            "value": "toStringTag"
           }
         ],
         "optional": false
@@ -157,8 +154,7 @@
             "type": "Literal",
             "start": 582,
             "end": 595,
-            "value": "toStringTag",
-            "raw": "'toStringTag'"
+            "value": "toStringTag"
           }
         ],
         "optional": false

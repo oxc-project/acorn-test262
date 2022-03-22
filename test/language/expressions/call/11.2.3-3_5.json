@@ -167,8 +167,7 @@
                         "type": "Literal",
                         "start": 438,
                         "end": 455,
-                        "value": "o.bar( foo() );",
-                        "raw": "\"o.bar( foo() );\""
+                        "value": "o.bar( foo() );"
                       }
                     ],
                     "optional": false
@@ -193,8 +192,7 @@
                         "type": "Literal",
                         "start": 489,
                         "end": 512,
-                        "value": "o.bar does not exist!",
-                        "raw": "\"o.bar does not exist!\""
+                        "value": "o.bar does not exist!"
                       }
                     ]
                   }
@@ -251,8 +249,7 @@
             "type": "Literal",
             "start": 553,
             "end": 564,
-            "value": "fooCalled",
-            "raw": "'fooCalled'"
+            "value": "fooCalled"
           }
         ],
         "optional": false

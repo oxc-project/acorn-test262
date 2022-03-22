@@ -86,8 +86,7 @@
                             "type": "Literal",
                             "start": 371,
                             "end": 372,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         },
                         "operator": "&&",
@@ -113,8 +112,7 @@
                             "type": "Literal",
                             "start": 389,
                             "end": 400,
-                            "value": "undefined",
-                            "raw": "\"undefined\""
+                            "value": "undefined"
                           }
                         }
                       }
@@ -308,8 +306,7 @@
             "type": "Literal",
             "start": 542,
             "end": 565,
-            "value": "newInstance.valueOf()",
-            "raw": "'newInstance.valueOf()'"
+            "value": "newInstance.valueOf()"
           }
         ],
         "optional": false

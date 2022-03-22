@@ -171,8 +171,7 @@
                         "type": "Literal",
                         "start": 430,
                         "end": 439,
-                        "value": "iso8601",
-                        "raw": "'iso8601'"
+                        "value": "iso8601"
                       },
                       {
                         "type": "Identifier",
@@ -191,8 +190,7 @@
             "type": "Literal",
             "start": 455,
             "end": 536,
-            "value": "Temporal.Now.plainDateTime(\"iso8601\", timeZone) throws a Test262Error exception",
-            "raw": "'Temporal.Now.plainDateTime(\"iso8601\", timeZone) throws a Test262Error exception'"
+            "value": "Temporal.Now.plainDateTime(\"iso8601\", timeZone) throws a Test262Error exception"
           }
         ],
         "optional": false

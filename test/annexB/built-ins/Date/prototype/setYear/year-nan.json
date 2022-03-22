@@ -116,8 +116,7 @@
             "type": "Literal",
             "start": 510,
             "end": 538,
-            "value": "return value (no argument)",
-            "raw": "'return value (no argument)'"
+            "value": "return value (no argument)"
           }
         ],
         "optional": false
@@ -187,8 +186,7 @@
             "type": "Literal",
             "start": 582,
             "end": 625,
-            "value": "[[DateValue]] internal slot (no argument)",
-            "raw": "'[[DateValue]] internal slot (no argument)'"
+            "value": "[[DateValue]] internal slot (no argument)"
           }
         ],
         "optional": false
@@ -294,8 +292,7 @@
             "type": "Literal",
             "start": 690,
             "end": 718,
-            "value": "return value (literal NaN)",
-            "raw": "'return value (literal NaN)'"
+            "value": "return value (literal NaN)"
           }
         ],
         "optional": false
@@ -365,8 +362,7 @@
             "type": "Literal",
             "start": 762,
             "end": 805,
-            "value": "[[DateValue]] internal slot (literal NaN)",
-            "raw": "'[[DateValue]] internal slot (literal NaN)'"
+            "value": "[[DateValue]] internal slot (literal NaN)"
           }
         ],
         "optional": false
@@ -457,8 +453,7 @@
                 "type": "Literal",
                 "start": 862,
                 "end": 876,
-                "value": "not a number",
-                "raw": "'not a number'"
+                "value": "not a number"
               }
             ],
             "optional": false
@@ -473,8 +468,7 @@
             "type": "Literal",
             "start": 884,
             "end": 918,
-            "value": "return value (NaN from ToNumber)",
-            "raw": "'return value (NaN from ToNumber)'"
+            "value": "return value (NaN from ToNumber)"
           }
         ],
         "optional": false
@@ -544,8 +538,7 @@
             "type": "Literal",
             "start": 963,
             "end": 1012,
-            "value": "[[DateValue]] internal slot (NaN from ToNumber)",
-            "raw": "'[[DateValue]] internal slot (NaN from ToNumber)'"
+            "value": "[[DateValue]] internal slot (NaN from ToNumber)"
           }
         ],
         "optional": false

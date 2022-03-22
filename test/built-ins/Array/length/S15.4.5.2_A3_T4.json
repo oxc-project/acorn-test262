@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 497,
                 "end": 498,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 500,
                 "end": 501,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 503,
                 "end": 504,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -73,8 +70,7 @@
             "type": "Literal",
             "start": 509,
             "end": 519,
-            "value": 4294967294,
-            "raw": "4294967294"
+            "value": 4294967294
           },
           "computed": true,
           "optional": false
@@ -83,8 +79,7 @@
           "type": "Literal",
           "start": 523,
           "end": 533,
-          "value": 4294967294,
-          "raw": "4294967294"
+          "value": 4294967294
         }
       }
     },
@@ -120,8 +115,7 @@
           "type": "Literal",
           "start": 546,
           "end": 547,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -167,8 +161,7 @@
               "type": "Literal",
               "start": 569,
               "end": 570,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -177,15 +170,13 @@
             "type": "Literal",
             "start": 573,
             "end": 574,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 576,
             "end": 615,
-            "value": "The value of x[0] is expected to be 0",
-            "raw": "'The value of x[0] is expected to be 0'"
+            "value": "The value of x[0] is expected to be 0"
           }
         ],
         "optional": false
@@ -233,8 +224,7 @@
               "type": "Literal",
               "start": 637,
               "end": 638,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -243,15 +233,13 @@
             "type": "Literal",
             "start": 641,
             "end": 642,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 644,
             "end": 683,
-            "value": "The value of x[1] is expected to be 1",
-            "raw": "'The value of x[1] is expected to be 1'"
+            "value": "The value of x[1] is expected to be 1"
           }
         ],
         "optional": false
@@ -299,8 +287,7 @@
               "type": "Literal",
               "start": 705,
               "end": 706,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             "computed": true,
             "optional": false
@@ -315,8 +302,7 @@
             "type": "Literal",
             "start": 720,
             "end": 770,
-            "value": "The value of x[2] is expected to equal undefined",
-            "raw": "'The value of x[2] is expected to equal undefined'"
+            "value": "The value of x[2] is expected to equal undefined"
           }
         ],
         "optional": false
@@ -364,8 +350,7 @@
               "type": "Literal",
               "start": 792,
               "end": 802,
-              "value": 4294967294,
-              "raw": "4294967294"
+              "value": 4294967294
             },
             "computed": true,
             "optional": false
@@ -380,8 +365,7 @@
             "type": "Literal",
             "start": 816,
             "end": 875,
-            "value": "The value of x[4294967294] is expected to equal undefined",
-            "raw": "'The value of x[4294967294] is expected to equal undefined'"
+            "value": "The value of x[4294967294] is expected to equal undefined"
           }
         ],
         "optional": false

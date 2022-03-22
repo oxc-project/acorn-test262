@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 1046,
                   "end": 1056,
-                  "value": "language",
-                  "raw": "'language'"
+                  "value": "language"
                 },
                 "kind": "init"
               }
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 1091,
             "end": 1101,
-            "value": "fallback",
-            "raw": "'fallback'"
+            "value": "fallback"
           },
           {
             "type": "ObjectExpression",
@@ -232,8 +230,7 @@
                         "type": "Literal",
                         "start": 1209,
                         "end": 1213,
-                        "value": "en",
-                        "raw": "'en'"
+                        "value": "en"
                       },
                       {
                         "type": "Identifier",

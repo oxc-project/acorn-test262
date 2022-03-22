@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 741,
             "end": 790,
-            "value": "isConstructor(JSON.stringify) must return false",
-            "raw": "'isConstructor(JSON.stringify) must return false'"
+            "value": "isConstructor(JSON.stringify) must return false"
           }
         ],
         "optional": false
@@ -174,8 +173,7 @@
             "type": "Literal",
             "start": 856,
             "end": 899,
-            "value": "`new JSON.stringify({})` throws TypeError",
-            "raw": "'`new JSON.stringify({})` throws TypeError'"
+            "value": "`new JSON.stringify({})` throws TypeError"
           }
         ],
         "optional": false

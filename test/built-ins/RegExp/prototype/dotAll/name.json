@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 553,
                 "end": 561,
-                "value": "dotAll",
-                "raw": "\"dotAll\""
+                "value": "dotAll"
               }
             ],
             "optional": false
@@ -139,8 +138,7 @@
             "type": "Literal",
             "start": 602,
             "end": 614,
-            "value": "get dotAll",
-            "raw": "\"get dotAll\""
+            "value": "get dotAll"
           }
         ],
         "optional": false
@@ -184,8 +182,7 @@
             "type": "Literal",
             "start": 644,
             "end": 650,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

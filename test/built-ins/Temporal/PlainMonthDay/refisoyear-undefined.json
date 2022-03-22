@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 303,
                 "end": 312,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -79,15 +78,13 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 330,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 333,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -234,15 +231,13 @@
             "type": "Literal",
             "start": 470,
             "end": 474,
-            "value": 1972,
-            "raw": "1972"
+            "value": 1972
           },
           {
             "type": "Literal",
             "start": 476,
             "end": 510,
-            "value": "default referenceISOYear is 1972",
-            "raw": "\"default referenceISOYear is 1972\""
+            "value": "default referenceISOYear is 1972"
           }
         ],
         "optional": false
@@ -375,15 +370,13 @@
             "type": "Literal",
             "start": 626,
             "end": 630,
-            "value": 1972,
-            "raw": "1972"
+            "value": 1972
           },
           {
             "type": "Literal",
             "start": 632,
             "end": 666,
-            "value": "default referenceISOYear is 1972",
-            "raw": "\"default referenceISOYear is 1972\""
+            "value": "default referenceISOYear is 1972"
           }
         ],
         "optional": false

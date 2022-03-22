@@ -32,8 +32,7 @@
                     "type": "Literal",
                     "start": 273,
                     "end": 288,
-                    "value": "Europe/Vienna",
-                    "raw": "\"Europe/Vienna\""
+                    "value": "Europe/Vienna"
                   }
                 ]
               },
@@ -46,8 +45,7 @@
                     "type": "Literal",
                     "start": 294,
                     "end": 312,
-                    "value": "America/New_York",
-                    "raw": "\"America/New_York\""
+                    "value": "America/New_York"
                   }
                 ]
               },
@@ -60,15 +58,13 @@
                     "type": "Literal",
                     "start": 318,
                     "end": 332,
-                    "value": "Africa/CAIRO",
-                    "raw": "\"Africa/CAIRO\""
+                    "value": "Africa/CAIRO"
                   },
                   {
                     "type": "Literal",
                     "start": 334,
                     "end": 348,
-                    "value": "Africa/Cairo",
-                    "raw": "\"Africa/Cairo\""
+                    "value": "Africa/Cairo"
                   }
                 ]
               },
@@ -81,15 +77,13 @@
                     "type": "Literal",
                     "start": 354,
                     "end": 371,
-                    "value": "Asia/Ulan_Bator",
-                    "raw": "\"Asia/Ulan_Bator\""
+                    "value": "Asia/Ulan_Bator"
                   },
                   {
                     "type": "Literal",
                     "start": 373,
                     "end": 391,
-                    "value": "Asia/Ulaanbaatar",
-                    "raw": "\"Asia/Ulaanbaatar\""
+                    "value": "Asia/Ulaanbaatar"
                   }
                 ]
               },
@@ -102,15 +96,13 @@
                     "type": "Literal",
                     "start": 397,
                     "end": 402,
-                    "value": "GMT",
-                    "raw": "\"GMT\""
+                    "value": "GMT"
                   },
                   {
                     "type": "Literal",
                     "start": 404,
                     "end": 409,
-                    "value": "UTC",
-                    "raw": "\"UTC\""
+                    "value": "UTC"
                   }
                 ]
               }
@@ -276,8 +268,7 @@
                   "type": "Literal",
                   "start": 536,
                   "end": 544,
-                  "value": "object",
-                  "raw": "\"object\""
+                  "value": "object"
                 },
                 {
                   "type": "TemplateLiteral",
@@ -453,15 +444,13 @@
                 "type": "Literal",
                 "start": 676,
                 "end": 686,
-                "value": "+00:01.1",
-                "raw": "\"+00:01.1\""
+                "value": "+00:01.1"
               },
               {
                 "type": "Literal",
                 "start": 688,
                 "end": 695,
-                "value": "-01.1",
-                "raw": "\"-01.1\""
+                "value": "-01.1"
               }
             ]
           }

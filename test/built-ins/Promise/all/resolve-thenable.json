@@ -349,8 +349,7 @@
                               "type": "Literal",
                               "start": 1869,
                               "end": 1926,
-                              "value": "The promise should be resolved with the expected value.",
-                              "raw": "'The promise should be resolved with the expected value.'"
+                              "value": "The promise should be resolved with the expected value."
                             }
                           ],
                           "optional": false
@@ -420,8 +419,7 @@
                         "type": "Literal",
                         "start": 1981,
                         "end": 2018,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

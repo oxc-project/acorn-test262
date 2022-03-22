@@ -219,8 +219,7 @@
                     "type": "Literal",
                     "start": 529,
                     "end": 532,
-                    "value": "i",
-                    "raw": "\"i\""
+                    "value": "i"
                   }
                 ]
               },
@@ -233,8 +232,7 @@
                     "type": "Literal",
                     "start": 536,
                     "end": 543,
-                    "value": "de_DE",
-                    "raw": "\"de_DE\""
+                    "value": "de_DE"
                   }
                 ]
               }
@@ -315,8 +313,7 @@
                       "type": "Literal",
                       "start": 605,
                       "end": 614,
-                      "value": "invalid",
-                      "raw": "\"invalid\""
+                      "value": "invalid"
                     },
                     "kind": "init"
                   }
@@ -344,8 +341,7 @@
                       "type": "Literal",
                       "start": 628,
                       "end": 634,
-                      "value": "long",
-                      "raw": "\"long\""
+                      "value": "long"
                     },
                     "kind": "init"
                   }
@@ -373,8 +369,7 @@
                       "type": "Literal",
                       "start": 657,
                       "end": 666,
-                      "value": "invalid",
-                      "raw": "\"invalid\""
+                      "value": "invalid"
                     },
                     "kind": "init"
                   }
@@ -738,8 +733,7 @@
                                         "type": "Literal",
                                         "start": 1027,
                                         "end": 1114,
-                                        "value": "Internal error: Expected exception was not thrown by Intl.DateTimeFormat for locales ",
-                                        "raw": "\"Internal error: Expected exception was not thrown by Intl.DateTimeFormat for locales \""
+                                        "value": "Internal error: Expected exception was not thrown by Intl.DateTimeFormat for locales "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -754,8 +748,7 @@
                                       "type": "Literal",
                                       "start": 1127,
                                       "end": 1130,
-                                      "value": ".",
-                                      "raw": "\".\""
+                                      "value": "."
                                     }
                                   }
                                 ],
@@ -910,8 +903,7 @@
                                             "type": "Literal",
                                             "start": 1262,
                                             "end": 1279,
-                                            "value": "Date.prototype.",
-                                            "raw": "\"Date.prototype.\""
+                                            "value": "Date.prototype."
                                           },
                                           "operator": "+",
                                           "right": {
@@ -926,8 +918,7 @@
                                           "type": "Literal",
                                           "start": 1286,
                                           "end": 1324,
-                                          "value": " didn't throw exception for locales ",
-                                          "raw": "\" didn't throw exception for locales \""
+                                          "value": " didn't throw exception for locales "
                                         }
                                       },
                                       "operator": "+",
@@ -943,8 +934,7 @@
                                       "type": "Literal",
                                       "start": 1337,
                                       "end": 1340,
-                                      "value": ".",
-                                      "raw": "\".\""
+                                      "value": "."
                                     }
                                   }
                                 ],
@@ -1202,8 +1192,7 @@
                                         "type": "Literal",
                                         "start": 1628,
                                         "end": 1715,
-                                        "value": "Internal error: Expected exception was not thrown by Intl.DateTimeFormat for options ",
-                                        "raw": "\"Internal error: Expected exception was not thrown by Intl.DateTimeFormat for options \""
+                                        "value": "Internal error: Expected exception was not thrown by Intl.DateTimeFormat for options "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -1245,8 +1234,7 @@
                                       "type": "Literal",
                                       "start": 1744,
                                       "end": 1747,
-                                      "value": ".",
-                                      "raw": "\".\""
+                                      "value": "."
                                     }
                                   }
                                 ],
@@ -1407,8 +1395,7 @@
                                             "type": "Literal",
                                             "start": 1883,
                                             "end": 1900,
-                                            "value": "Date.prototype.",
-                                            "raw": "\"Date.prototype.\""
+                                            "value": "Date.prototype."
                                           },
                                           "operator": "+",
                                           "right": {
@@ -1423,8 +1410,7 @@
                                           "type": "Literal",
                                           "start": 1907,
                                           "end": 1945,
-                                          "value": " didn't throw exception for options ",
-                                          "raw": "\" didn't throw exception for options \""
+                                          "value": " didn't throw exception for options "
                                         }
                                       },
                                       "operator": "+",
@@ -1467,8 +1453,7 @@
                                       "type": "Literal",
                                       "start": 1974,
                                       "end": 1977,
-                                      "value": ".",
-                                      "raw": "\".\""
+                                      "value": "."
                                     }
                                   }
                                 ],

@@ -23,7 +23,6 @@
             "start": 787,
             "end": 790,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""
@@ -70,8 +69,7 @@
                   "type": "Literal",
                   "start": 825,
                   "end": 826,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -86,15 +84,13 @@
                   "type": "Literal",
                   "start": 830,
                   "end": 831,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 833,
                   "end": 836,
-                  "value": "b",
-                  "raw": "'b'"
+                  "value": "b"
                 },
                 "kind": "init"
               },
@@ -115,8 +111,7 @@
                   "type": "Literal",
                   "start": 847,
                   "end": 848,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -137,8 +132,7 @@
                   "type": "Literal",
                   "start": 860,
                   "end": 865,
-                  "value": "123",
-                  "raw": "'123'"
+                  "value": "123"
                 },
                 "kind": "init"
               }
@@ -275,15 +269,13 @@
                 "type": "Literal",
                 "start": 957,
                 "end": 961,
-                "value": "ab",
-                "raw": "'ab'"
+                "value": "ab"
               },
               {
                 "type": "Literal",
                 "start": 963,
                 "end": 976,
-                "value": "[$<length>]",
-                "raw": "'[$<length>]'"
+                "value": "[$<length>]"
               }
             ],
             "optional": false
@@ -292,8 +284,7 @@
             "type": "Literal",
             "start": 979,
             "end": 985,
-            "value": "a[3]",
-            "raw": "'a[3]'"
+            "value": "a[3]"
           }
         ],
         "optional": false

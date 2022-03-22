@@ -59,8 +59,7 @@
                         "type": "Literal",
                         "start": 264,
                         "end": 266,
-                        "value": 10,
-                        "raw": "10"
+                        "value": 10
                       },
                       "kind": "init"
                     }
@@ -164,15 +163,13 @@
             "type": "Literal",
             "start": 348,
             "end": 350,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           },
           {
             "type": "Literal",
             "start": 352,
             "end": 396,
-            "value": "Closure variable was captured incorrectly.",
-            "raw": "\"Closure variable was captured incorrectly.\""
+            "value": "Closure variable was captured incorrectly."
           }
         ],
         "optional": false

@@ -158,8 +158,7 @@
                   "type": "Literal",
                   "start": 1488,
                   "end": 1497,
-                  "value": "target!",
-                  "raw": "'target!'"
+                  "value": "target!"
                 },
                 {
                   "type": "Identifier",
@@ -324,8 +323,7 @@
                             "type": "Literal",
                             "start": 1620,
                             "end": 1621,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         }
                       ],
@@ -428,8 +426,7 @@
                             "type": "Literal",
                             "start": 1706,
                             "end": 1761,
-                            "value": "unregister target before iterating over it in cleanup",
-                            "raw": "'unregister target before iterating over it in cleanup'"
+                            "value": "unregister target before iterating over it in cleanup"
                           }
                         ],
                         "optional": false
@@ -508,8 +505,7 @@
                                       "type": "Literal",
                                       "start": 1837,
                                       "end": 1838,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     }
                                   }
                                 }
@@ -558,15 +554,13 @@
                             "type": "Literal",
                             "start": 1874,
                             "end": 1875,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Literal",
                             "start": 1877,
                             "end": 1902,
-                            "value": "callback was not called",
-                            "raw": "'callback was not called'"
+                            "value": "callback was not called"
                           }
                         ],
                         "optional": false

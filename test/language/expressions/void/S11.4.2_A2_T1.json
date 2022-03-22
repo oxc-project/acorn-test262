@@ -21,8 +21,7 @@
             "type": "Literal",
             "start": 292,
             "end": 293,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         "operator": "!==",
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 336,
                     "end": 372,
-                    "value": "#1: void 0 === undefined. Actual: ",
-                    "raw": "'#1: void 0 === undefined. Actual: '"
+                    "value": "#1: void 0 === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -79,8 +77,7 @@
                         "type": "Literal",
                         "start": 381,
                         "end": 382,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   }
@@ -111,8 +108,7 @@
             "type": "Literal",
             "start": 407,
             "end": 408,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -175,8 +171,7 @@
                     "type": "Literal",
                     "start": 463,
                     "end": 510,
-                    "value": "#2: var x = 0; void x === undefined. Actual: ",
-                    "raw": "'#2: var x = 0; void x === undefined. Actual: '"
+                    "value": "#2: var x = 0; void x === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -293,8 +288,7 @@
                     "type": "Literal",
                     "start": 612,
                     "end": 670,
-                    "value": "#3: var x = new Object(); void x === undefined. Actual: ",
-                    "raw": "'#3: var x = new Object(); void x === undefined. Actual: '"
+                    "value": "#3: var x = new Object(); void x === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {

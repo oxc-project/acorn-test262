@@ -41,15 +41,13 @@
             "type": "Literal",
             "start": 414,
             "end": 433,
-            "value": "ignorePunctuation",
-            "raw": "\"ignorePunctuation\""
+            "value": "ignorePunctuation"
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 444,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           },
           {
             "type": "Identifier",

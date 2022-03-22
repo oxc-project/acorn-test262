@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 732,
             "end": 741,
-            "value": "isArray",
-            "raw": "\"isArray\""
+            "value": "isArray"
           },
           {
             "type": "Literal",
             "start": 743,
             "end": 804,
-            "value": "The value of Array.isArray.name is expected to be \"isArray\"",
-            "raw": "'The value of Array.isArray.name is expected to be \"isArray\"'"
+            "value": "The value of Array.isArray.name is expected to be \"isArray\""
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 843,
             "end": 849,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 885,
             "end": 891,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 928,
             "end": 934,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

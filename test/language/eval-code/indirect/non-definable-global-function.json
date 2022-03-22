@@ -72,8 +72,7 @@
                             "type": "Literal",
                             "start": 1117,
                             "end": 1118,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           },
                           {
                             "type": "Identifier",
@@ -89,8 +88,7 @@
                         "type": "Literal",
                         "start": 1125,
                         "end": 1144,
-                        "value": "function NaN() {}",
-                        "raw": "\"function NaN() {}\""
+                        "value": "function NaN() {}"
                       }
                     ],
                     "optional": false

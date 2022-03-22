@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 813,
                 "end": 814,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 816,
                 "end": 817,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -96,22 +94,19 @@
             "type": "Literal",
             "start": 848,
             "end": 856,
-            "value": "ALWAYS",
-            "raw": "\"ALWAYS\""
+            "value": "ALWAYS"
           },
           {
             "type": "Literal",
             "start": 858,
             "end": 869,
-            "value": "sometimes",
-            "raw": "\"sometimes\""
+            "value": "sometimes"
           },
           {
             "type": "Literal",
             "start": 871,
             "end": 885,
-            "value": "other string",
-            "raw": "\"other string\""
+            "value": "other string"
           }
         ]
       },

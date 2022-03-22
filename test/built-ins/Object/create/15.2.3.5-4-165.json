@@ -138,8 +138,7 @@
           "type": "Literal",
           "start": 435,
           "end": 445,
-          "value": "FunValue",
-          "raw": "\"FunValue\""
+          "value": "FunValue"
         }
       }
     },
@@ -274,15 +273,13 @@
             "type": "Literal",
             "start": 528,
             "end": 538,
-            "value": "FunValue",
-            "raw": "\"FunValue\""
+            "value": "FunValue"
           },
           {
             "type": "Literal",
             "start": 540,
             "end": 553,
-            "value": "newObj.prop",
-            "raw": "'newObj.prop'"
+            "value": "newObj.prop"
           }
         ],
         "optional": false

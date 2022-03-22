@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 290,
             "end": 308,
-            "value": "2021-08-19T17:30",
-            "raw": "\"2021-08-19T17:30\""
+            "value": "2021-08-19T17:30"
           }
         }
       ],
@@ -113,8 +112,7 @@
                   "type": "Literal",
                   "start": 365,
                   "end": 374,
-                  "value": "iso8601",
-                  "raw": "\"iso8601\""
+                  "value": "iso8601"
                 },
                 {
                   "type": "Identifier",
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 387,
             "end": 429,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -221,8 +218,7 @@
                   "type": "Literal",
                   "start": 487,
                   "end": 496,
-                  "value": "iso8601",
-                  "raw": "\"iso8601\""
+                  "value": "iso8601"
                 },
                 {
                   "type": "ObjectExpression",
@@ -260,8 +256,7 @@
             "type": "Literal",
             "start": 513,
             "end": 555,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -288,99 +283,85 @@
                 "type": "Literal",
                 "start": 624,
                 "end": 643,
-                "value": "2021-08-19T17:30Z",
-                "raw": "\"2021-08-19T17:30Z\""
+                "value": "2021-08-19T17:30Z"
               },
               {
                 "type": "Literal",
                 "start": 647,
                 "end": 665,
-                "value": "2021-08-19T1730Z",
-                "raw": "\"2021-08-19T1730Z\""
+                "value": "2021-08-19T1730Z"
               },
               {
                 "type": "Literal",
                 "start": 669,
                 "end": 693,
-                "value": "2021-08-19T17:30-07:00",
-                "raw": "\"2021-08-19T17:30-07:00\""
+                "value": "2021-08-19T17:30-07:00"
               },
               {
                 "type": "Literal",
                 "start": 697,
                 "end": 720,
-                "value": "2021-08-19T1730-07:00",
-                "raw": "\"2021-08-19T1730-07:00\""
+                "value": "2021-08-19T1730-07:00"
               },
               {
                 "type": "Literal",
                 "start": 724,
                 "end": 747,
-                "value": "2021-08-19T17:30-0700",
-                "raw": "\"2021-08-19T17:30-0700\""
+                "value": "2021-08-19T17:30-0700"
               },
               {
                 "type": "Literal",
                 "start": 751,
                 "end": 773,
-                "value": "2021-08-19T1730-0700",
-                "raw": "\"2021-08-19T1730-0700\""
+                "value": "2021-08-19T1730-0700"
               },
               {
                 "type": "Literal",
                 "start": 777,
                 "end": 800,
-                "value": "2021-08-19T17:30[UTC]",
-                "raw": "\"2021-08-19T17:30[UTC]\""
+                "value": "2021-08-19T17:30[UTC]"
               },
               {
                 "type": "Literal",
                 "start": 804,
                 "end": 826,
-                "value": "2021-08-19T1730[UTC]",
-                "raw": "\"2021-08-19T1730[UTC]\""
+                "value": "2021-08-19T1730[UTC]"
               },
               {
                 "type": "Literal",
                 "start": 830,
                 "end": 854,
-                "value": "2021-08-19T17:30Z[UTC]",
-                "raw": "\"2021-08-19T17:30Z[UTC]\""
+                "value": "2021-08-19T17:30Z[UTC]"
               },
               {
                 "type": "Literal",
                 "start": 858,
                 "end": 881,
-                "value": "2021-08-19T1730Z[UTC]",
-                "raw": "\"2021-08-19T1730Z[UTC]\""
+                "value": "2021-08-19T1730Z[UTC]"
               },
               {
                 "type": "Literal",
                 "start": 885,
                 "end": 914,
-                "value": "2021-08-19T17:30-07:00[UTC]",
-                "raw": "\"2021-08-19T17:30-07:00[UTC]\""
+                "value": "2021-08-19T17:30-07:00[UTC]"
               },
               {
                 "type": "Literal",
                 "start": 918,
                 "end": 946,
-                "value": "2021-08-19T1730-07:00[UTC]",
-                "raw": "\"2021-08-19T1730-07:00[UTC]\""
+                "value": "2021-08-19T1730-07:00[UTC]"
               },
               {
                 "type": "Literal",
                 "start": 950,
                 "end": 978,
-                "value": "2021-08-19T17:30-0700[UTC]",
-                "raw": "\"2021-08-19T17:30-0700[UTC]\""
+                "value": "2021-08-19T17:30-0700[UTC]"
               },
               {
                 "type": "Literal",
                 "start": 982,
                 "end": 1009,
-                "value": "2021-08-19T1730-0700[UTC]",
-                "raw": "\"2021-08-19T1730-0700[UTC]\""
+                "value": "2021-08-19T1730-0700[UTC]"
               }
             ]
           },
@@ -460,8 +441,7 @@
                         "type": "Literal",
                         "start": 1062,
                         "end": 1071,
-                        "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "value": "iso8601"
                       },
                       {
                         "type": "Identifier",
@@ -518,8 +498,7 @@
                         "type": "Literal",
                         "start": 1109,
                         "end": 1118,
-                        "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "value": "iso8601"
                       },
                       {
                         "type": "ObjectExpression",

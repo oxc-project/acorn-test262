@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 1152,
                 "end": 1166,
-                "value": "𐐨",
-                "raw": "\"\\uD801\\uDC28\""
+                "value": "𐐨"
               },
               "property": {
                 "type": "Identifier",
@@ -62,15 +61,13 @@
             "type": "Literal",
             "start": 1188,
             "end": 1202,
-            "value": "𐐀",
-            "raw": "\"\\uD801\\uDC00\""
+            "value": "𐐀"
           },
           {
             "type": "Literal",
             "start": 1204,
             "end": 1233,
-            "value": "DESERET SMALL LETTER LONG I",
-            "raw": "\"DESERET SMALL LETTER LONG I\""
+            "value": "DESERET SMALL LETTER LONG I"
           }
         ],
         "optional": false
@@ -116,8 +113,7 @@
                 "type": "Literal",
                 "start": 1253,
                 "end": 1267,
-                "value": "𐐩",
-                "raw": "\"\\uD801\\uDC29\""
+                "value": "𐐩"
               },
               "property": {
                 "type": "Identifier",
@@ -135,15 +131,13 @@
             "type": "Literal",
             "start": 1289,
             "end": 1303,
-            "value": "𐐁",
-            "raw": "\"\\uD801\\uDC01\""
+            "value": "𐐁"
           },
           {
             "type": "Literal",
             "start": 1305,
             "end": 1334,
-            "value": "DESERET SMALL LETTER LONG E",
-            "raw": "\"DESERET SMALL LETTER LONG E\""
+            "value": "DESERET SMALL LETTER LONG E"
           }
         ],
         "optional": false
@@ -189,8 +183,7 @@
                 "type": "Literal",
                 "start": 1354,
                 "end": 1368,
-                "value": "𐐪",
-                "raw": "\"\\uD801\\uDC2A\""
+                "value": "𐐪"
               },
               "property": {
                 "type": "Identifier",
@@ -208,15 +201,13 @@
             "type": "Literal",
             "start": 1390,
             "end": 1404,
-            "value": "𐐂",
-            "raw": "\"\\uD801\\uDC02\""
+            "value": "𐐂"
           },
           {
             "type": "Literal",
             "start": 1406,
             "end": 1435,
-            "value": "DESERET SMALL LETTER LONG A",
-            "raw": "\"DESERET SMALL LETTER LONG A\""
+            "value": "DESERET SMALL LETTER LONG A"
           }
         ],
         "optional": false
@@ -262,8 +253,7 @@
                 "type": "Literal",
                 "start": 1455,
                 "end": 1469,
-                "value": "𐐫",
-                "raw": "\"\\uD801\\uDC2B\""
+                "value": "𐐫"
               },
               "property": {
                 "type": "Identifier",
@@ -281,15 +271,13 @@
             "type": "Literal",
             "start": 1491,
             "end": 1505,
-            "value": "𐐃",
-            "raw": "\"\\uD801\\uDC03\""
+            "value": "𐐃"
           },
           {
             "type": "Literal",
             "start": 1507,
             "end": 1537,
-            "value": "DESERET SMALL LETTER LONG AH",
-            "raw": "\"DESERET SMALL LETTER LONG AH\""
+            "value": "DESERET SMALL LETTER LONG AH"
           }
         ],
         "optional": false
@@ -335,8 +323,7 @@
                 "type": "Literal",
                 "start": 1557,
                 "end": 1571,
-                "value": "𐐬",
-                "raw": "\"\\uD801\\uDC2C\""
+                "value": "𐐬"
               },
               "property": {
                 "type": "Identifier",
@@ -354,15 +341,13 @@
             "type": "Literal",
             "start": 1593,
             "end": 1607,
-            "value": "𐐄",
-            "raw": "\"\\uD801\\uDC04\""
+            "value": "𐐄"
           },
           {
             "type": "Literal",
             "start": 1609,
             "end": 1638,
-            "value": "DESERET SMALL LETTER LONG O",
-            "raw": "\"DESERET SMALL LETTER LONG O\""
+            "value": "DESERET SMALL LETTER LONG O"
           }
         ],
         "optional": false
@@ -408,8 +393,7 @@
                 "type": "Literal",
                 "start": 1658,
                 "end": 1672,
-                "value": "𐐭",
-                "raw": "\"\\uD801\\uDC2D\""
+                "value": "𐐭"
               },
               "property": {
                 "type": "Identifier",
@@ -427,15 +411,13 @@
             "type": "Literal",
             "start": 1694,
             "end": 1708,
-            "value": "𐐅",
-            "raw": "\"\\uD801\\uDC05\""
+            "value": "𐐅"
           },
           {
             "type": "Literal",
             "start": 1710,
             "end": 1740,
-            "value": "DESERET SMALL LETTER LONG OO",
-            "raw": "\"DESERET SMALL LETTER LONG OO\""
+            "value": "DESERET SMALL LETTER LONG OO"
           }
         ],
         "optional": false
@@ -481,8 +463,7 @@
                 "type": "Literal",
                 "start": 1760,
                 "end": 1774,
-                "value": "𐐮",
-                "raw": "\"\\uD801\\uDC2E\""
+                "value": "𐐮"
               },
               "property": {
                 "type": "Identifier",
@@ -500,15 +481,13 @@
             "type": "Literal",
             "start": 1796,
             "end": 1810,
-            "value": "𐐆",
-            "raw": "\"\\uD801\\uDC06\""
+            "value": "𐐆"
           },
           {
             "type": "Literal",
             "start": 1812,
             "end": 1842,
-            "value": "DESERET SMALL LETTER SHORT I",
-            "raw": "\"DESERET SMALL LETTER SHORT I\""
+            "value": "DESERET SMALL LETTER SHORT I"
           }
         ],
         "optional": false
@@ -554,8 +533,7 @@
                 "type": "Literal",
                 "start": 1862,
                 "end": 1876,
-                "value": "𐐯",
-                "raw": "\"\\uD801\\uDC2F\""
+                "value": "𐐯"
               },
               "property": {
                 "type": "Identifier",
@@ -573,15 +551,13 @@
             "type": "Literal",
             "start": 1898,
             "end": 1912,
-            "value": "𐐇",
-            "raw": "\"\\uD801\\uDC07\""
+            "value": "𐐇"
           },
           {
             "type": "Literal",
             "start": 1914,
             "end": 1944,
-            "value": "DESERET SMALL LETTER SHORT E",
-            "raw": "\"DESERET SMALL LETTER SHORT E\""
+            "value": "DESERET SMALL LETTER SHORT E"
           }
         ],
         "optional": false
@@ -627,8 +603,7 @@
                 "type": "Literal",
                 "start": 1964,
                 "end": 1978,
-                "value": "𐐰",
-                "raw": "\"\\uD801\\uDC30\""
+                "value": "𐐰"
               },
               "property": {
                 "type": "Identifier",
@@ -646,15 +621,13 @@
             "type": "Literal",
             "start": 2000,
             "end": 2014,
-            "value": "𐐈",
-            "raw": "\"\\uD801\\uDC08\""
+            "value": "𐐈"
           },
           {
             "type": "Literal",
             "start": 2016,
             "end": 2046,
-            "value": "DESERET SMALL LETTER SHORT A",
-            "raw": "\"DESERET SMALL LETTER SHORT A\""
+            "value": "DESERET SMALL LETTER SHORT A"
           }
         ],
         "optional": false
@@ -700,8 +673,7 @@
                 "type": "Literal",
                 "start": 2066,
                 "end": 2080,
-                "value": "𐐱",
-                "raw": "\"\\uD801\\uDC31\""
+                "value": "𐐱"
               },
               "property": {
                 "type": "Identifier",
@@ -719,15 +691,13 @@
             "type": "Literal",
             "start": 2102,
             "end": 2116,
-            "value": "𐐉",
-            "raw": "\"\\uD801\\uDC09\""
+            "value": "𐐉"
           },
           {
             "type": "Literal",
             "start": 2118,
             "end": 2149,
-            "value": "DESERET SMALL LETTER SHORT AH",
-            "raw": "\"DESERET SMALL LETTER SHORT AH\""
+            "value": "DESERET SMALL LETTER SHORT AH"
           }
         ],
         "optional": false
@@ -773,8 +743,7 @@
                 "type": "Literal",
                 "start": 2169,
                 "end": 2183,
-                "value": "𐐲",
-                "raw": "\"\\uD801\\uDC32\""
+                "value": "𐐲"
               },
               "property": {
                 "type": "Identifier",
@@ -792,15 +761,13 @@
             "type": "Literal",
             "start": 2205,
             "end": 2219,
-            "value": "𐐊",
-            "raw": "\"\\uD801\\uDC0A\""
+            "value": "𐐊"
           },
           {
             "type": "Literal",
             "start": 2221,
             "end": 2251,
-            "value": "DESERET SMALL LETTER SHORT O",
-            "raw": "\"DESERET SMALL LETTER SHORT O\""
+            "value": "DESERET SMALL LETTER SHORT O"
           }
         ],
         "optional": false
@@ -846,8 +813,7 @@
                 "type": "Literal",
                 "start": 2271,
                 "end": 2285,
-                "value": "𐐳",
-                "raw": "\"\\uD801\\uDC33\""
+                "value": "𐐳"
               },
               "property": {
                 "type": "Identifier",
@@ -865,15 +831,13 @@
             "type": "Literal",
             "start": 2307,
             "end": 2321,
-            "value": "𐐋",
-            "raw": "\"\\uD801\\uDC0B\""
+            "value": "𐐋"
           },
           {
             "type": "Literal",
             "start": 2323,
             "end": 2354,
-            "value": "DESERET SMALL LETTER SHORT OO",
-            "raw": "\"DESERET SMALL LETTER SHORT OO\""
+            "value": "DESERET SMALL LETTER SHORT OO"
           }
         ],
         "optional": false
@@ -919,8 +883,7 @@
                 "type": "Literal",
                 "start": 2374,
                 "end": 2388,
-                "value": "𐐴",
-                "raw": "\"\\uD801\\uDC34\""
+                "value": "𐐴"
               },
               "property": {
                 "type": "Identifier",
@@ -938,15 +901,13 @@
             "type": "Literal",
             "start": 2410,
             "end": 2424,
-            "value": "𐐌",
-            "raw": "\"\\uD801\\uDC0C\""
+            "value": "𐐌"
           },
           {
             "type": "Literal",
             "start": 2426,
             "end": 2451,
-            "value": "DESERET SMALL LETTER AY",
-            "raw": "\"DESERET SMALL LETTER AY\""
+            "value": "DESERET SMALL LETTER AY"
           }
         ],
         "optional": false
@@ -992,8 +953,7 @@
                 "type": "Literal",
                 "start": 2471,
                 "end": 2485,
-                "value": "𐐵",
-                "raw": "\"\\uD801\\uDC35\""
+                "value": "𐐵"
               },
               "property": {
                 "type": "Identifier",
@@ -1011,15 +971,13 @@
             "type": "Literal",
             "start": 2507,
             "end": 2521,
-            "value": "𐐍",
-            "raw": "\"\\uD801\\uDC0D\""
+            "value": "𐐍"
           },
           {
             "type": "Literal",
             "start": 2523,
             "end": 2548,
-            "value": "DESERET SMALL LETTER OW",
-            "raw": "\"DESERET SMALL LETTER OW\""
+            "value": "DESERET SMALL LETTER OW"
           }
         ],
         "optional": false
@@ -1065,8 +1023,7 @@
                 "type": "Literal",
                 "start": 2568,
                 "end": 2582,
-                "value": "𐐶",
-                "raw": "\"\\uD801\\uDC36\""
+                "value": "𐐶"
               },
               "property": {
                 "type": "Identifier",
@@ -1084,15 +1041,13 @@
             "type": "Literal",
             "start": 2604,
             "end": 2618,
-            "value": "𐐎",
-            "raw": "\"\\uD801\\uDC0E\""
+            "value": "𐐎"
           },
           {
             "type": "Literal",
             "start": 2620,
             "end": 2645,
-            "value": "DESERET SMALL LETTER WU",
-            "raw": "\"DESERET SMALL LETTER WU\""
+            "value": "DESERET SMALL LETTER WU"
           }
         ],
         "optional": false
@@ -1138,8 +1093,7 @@
                 "type": "Literal",
                 "start": 2665,
                 "end": 2679,
-                "value": "𐐷",
-                "raw": "\"\\uD801\\uDC37\""
+                "value": "𐐷"
               },
               "property": {
                 "type": "Identifier",
@@ -1157,15 +1111,13 @@
             "type": "Literal",
             "start": 2701,
             "end": 2715,
-            "value": "𐐏",
-            "raw": "\"\\uD801\\uDC0F\""
+            "value": "𐐏"
           },
           {
             "type": "Literal",
             "start": 2717,
             "end": 2743,
-            "value": "DESERET SMALL LETTER YEE",
-            "raw": "\"DESERET SMALL LETTER YEE\""
+            "value": "DESERET SMALL LETTER YEE"
           }
         ],
         "optional": false
@@ -1211,8 +1163,7 @@
                 "type": "Literal",
                 "start": 2763,
                 "end": 2777,
-                "value": "𐐸",
-                "raw": "\"\\uD801\\uDC38\""
+                "value": "𐐸"
               },
               "property": {
                 "type": "Identifier",
@@ -1230,15 +1181,13 @@
             "type": "Literal",
             "start": 2799,
             "end": 2813,
-            "value": "𐐐",
-            "raw": "\"\\uD801\\uDC10\""
+            "value": "𐐐"
           },
           {
             "type": "Literal",
             "start": 2815,
             "end": 2839,
-            "value": "DESERET SMALL LETTER H",
-            "raw": "\"DESERET SMALL LETTER H\""
+            "value": "DESERET SMALL LETTER H"
           }
         ],
         "optional": false
@@ -1284,8 +1233,7 @@
                 "type": "Literal",
                 "start": 2859,
                 "end": 2873,
-                "value": "𐐹",
-                "raw": "\"\\uD801\\uDC39\""
+                "value": "𐐹"
               },
               "property": {
                 "type": "Identifier",
@@ -1303,15 +1251,13 @@
             "type": "Literal",
             "start": 2895,
             "end": 2909,
-            "value": "𐐑",
-            "raw": "\"\\uD801\\uDC11\""
+            "value": "𐐑"
           },
           {
             "type": "Literal",
             "start": 2911,
             "end": 2937,
-            "value": "DESERET SMALL LETTER PEE",
-            "raw": "\"DESERET SMALL LETTER PEE\""
+            "value": "DESERET SMALL LETTER PEE"
           }
         ],
         "optional": false
@@ -1357,8 +1303,7 @@
                 "type": "Literal",
                 "start": 2957,
                 "end": 2971,
-                "value": "𐐺",
-                "raw": "\"\\uD801\\uDC3A\""
+                "value": "𐐺"
               },
               "property": {
                 "type": "Identifier",
@@ -1376,15 +1321,13 @@
             "type": "Literal",
             "start": 2993,
             "end": 3007,
-            "value": "𐐒",
-            "raw": "\"\\uD801\\uDC12\""
+            "value": "𐐒"
           },
           {
             "type": "Literal",
             "start": 3009,
             "end": 3035,
-            "value": "DESERET SMALL LETTER BEE",
-            "raw": "\"DESERET SMALL LETTER BEE\""
+            "value": "DESERET SMALL LETTER BEE"
           }
         ],
         "optional": false
@@ -1430,8 +1373,7 @@
                 "type": "Literal",
                 "start": 3055,
                 "end": 3069,
-                "value": "𐐻",
-                "raw": "\"\\uD801\\uDC3B\""
+                "value": "𐐻"
               },
               "property": {
                 "type": "Identifier",
@@ -1449,15 +1391,13 @@
             "type": "Literal",
             "start": 3091,
             "end": 3105,
-            "value": "𐐓",
-            "raw": "\"\\uD801\\uDC13\""
+            "value": "𐐓"
           },
           {
             "type": "Literal",
             "start": 3107,
             "end": 3133,
-            "value": "DESERET SMALL LETTER TEE",
-            "raw": "\"DESERET SMALL LETTER TEE\""
+            "value": "DESERET SMALL LETTER TEE"
           }
         ],
         "optional": false
@@ -1503,8 +1443,7 @@
                 "type": "Literal",
                 "start": 3153,
                 "end": 3167,
-                "value": "𐐼",
-                "raw": "\"\\uD801\\uDC3C\""
+                "value": "𐐼"
               },
               "property": {
                 "type": "Identifier",
@@ -1522,15 +1461,13 @@
             "type": "Literal",
             "start": 3189,
             "end": 3203,
-            "value": "𐐔",
-            "raw": "\"\\uD801\\uDC14\""
+            "value": "𐐔"
           },
           {
             "type": "Literal",
             "start": 3205,
             "end": 3231,
-            "value": "DESERET SMALL LETTER DEE",
-            "raw": "\"DESERET SMALL LETTER DEE\""
+            "value": "DESERET SMALL LETTER DEE"
           }
         ],
         "optional": false
@@ -1576,8 +1513,7 @@
                 "type": "Literal",
                 "start": 3251,
                 "end": 3265,
-                "value": "𐐽",
-                "raw": "\"\\uD801\\uDC3D\""
+                "value": "𐐽"
               },
               "property": {
                 "type": "Identifier",
@@ -1595,15 +1531,13 @@
             "type": "Literal",
             "start": 3287,
             "end": 3301,
-            "value": "𐐕",
-            "raw": "\"\\uD801\\uDC15\""
+            "value": "𐐕"
           },
           {
             "type": "Literal",
             "start": 3303,
             "end": 3330,
-            "value": "DESERET SMALL LETTER CHEE",
-            "raw": "\"DESERET SMALL LETTER CHEE\""
+            "value": "DESERET SMALL LETTER CHEE"
           }
         ],
         "optional": false
@@ -1649,8 +1583,7 @@
                 "type": "Literal",
                 "start": 3350,
                 "end": 3364,
-                "value": "𐐾",
-                "raw": "\"\\uD801\\uDC3E\""
+                "value": "𐐾"
               },
               "property": {
                 "type": "Identifier",
@@ -1668,15 +1601,13 @@
             "type": "Literal",
             "start": 3386,
             "end": 3400,
-            "value": "𐐖",
-            "raw": "\"\\uD801\\uDC16\""
+            "value": "𐐖"
           },
           {
             "type": "Literal",
             "start": 3402,
             "end": 3428,
-            "value": "DESERET SMALL LETTER JEE",
-            "raw": "\"DESERET SMALL LETTER JEE\""
+            "value": "DESERET SMALL LETTER JEE"
           }
         ],
         "optional": false
@@ -1722,8 +1653,7 @@
                 "type": "Literal",
                 "start": 3448,
                 "end": 3462,
-                "value": "𐐿",
-                "raw": "\"\\uD801\\uDC3F\""
+                "value": "𐐿"
               },
               "property": {
                 "type": "Identifier",
@@ -1741,15 +1671,13 @@
             "type": "Literal",
             "start": 3484,
             "end": 3498,
-            "value": "𐐗",
-            "raw": "\"\\uD801\\uDC17\""
+            "value": "𐐗"
           },
           {
             "type": "Literal",
             "start": 3500,
             "end": 3526,
-            "value": "DESERET SMALL LETTER KAY",
-            "raw": "\"DESERET SMALL LETTER KAY\""
+            "value": "DESERET SMALL LETTER KAY"
           }
         ],
         "optional": false
@@ -1795,8 +1723,7 @@
                 "type": "Literal",
                 "start": 3546,
                 "end": 3560,
-                "value": "𐑀",
-                "raw": "\"\\uD801\\uDC40\""
+                "value": "𐑀"
               },
               "property": {
                 "type": "Identifier",
@@ -1814,15 +1741,13 @@
             "type": "Literal",
             "start": 3582,
             "end": 3596,
-            "value": "𐐘",
-            "raw": "\"\\uD801\\uDC18\""
+            "value": "𐐘"
           },
           {
             "type": "Literal",
             "start": 3598,
             "end": 3624,
-            "value": "DESERET SMALL LETTER GAY",
-            "raw": "\"DESERET SMALL LETTER GAY\""
+            "value": "DESERET SMALL LETTER GAY"
           }
         ],
         "optional": false
@@ -1868,8 +1793,7 @@
                 "type": "Literal",
                 "start": 3644,
                 "end": 3658,
-                "value": "𐑁",
-                "raw": "\"\\uD801\\uDC41\""
+                "value": "𐑁"
               },
               "property": {
                 "type": "Identifier",
@@ -1887,15 +1811,13 @@
             "type": "Literal",
             "start": 3680,
             "end": 3694,
-            "value": "𐐙",
-            "raw": "\"\\uD801\\uDC19\""
+            "value": "𐐙"
           },
           {
             "type": "Literal",
             "start": 3696,
             "end": 3721,
-            "value": "DESERET SMALL LETTER EF",
-            "raw": "\"DESERET SMALL LETTER EF\""
+            "value": "DESERET SMALL LETTER EF"
           }
         ],
         "optional": false
@@ -1941,8 +1863,7 @@
                 "type": "Literal",
                 "start": 3741,
                 "end": 3755,
-                "value": "𐑂",
-                "raw": "\"\\uD801\\uDC42\""
+                "value": "𐑂"
               },
               "property": {
                 "type": "Identifier",
@@ -1960,15 +1881,13 @@
             "type": "Literal",
             "start": 3777,
             "end": 3791,
-            "value": "𐐚",
-            "raw": "\"\\uD801\\uDC1A\""
+            "value": "𐐚"
           },
           {
             "type": "Literal",
             "start": 3793,
             "end": 3819,
-            "value": "DESERET SMALL LETTER VEE",
-            "raw": "\"DESERET SMALL LETTER VEE\""
+            "value": "DESERET SMALL LETTER VEE"
           }
         ],
         "optional": false
@@ -2014,8 +1933,7 @@
                 "type": "Literal",
                 "start": 3839,
                 "end": 3853,
-                "value": "𐑃",
-                "raw": "\"\\uD801\\uDC43\""
+                "value": "𐑃"
               },
               "property": {
                 "type": "Identifier",
@@ -2033,15 +1951,13 @@
             "type": "Literal",
             "start": 3875,
             "end": 3889,
-            "value": "𐐛",
-            "raw": "\"\\uD801\\uDC1B\""
+            "value": "𐐛"
           },
           {
             "type": "Literal",
             "start": 3891,
             "end": 3917,
-            "value": "DESERET SMALL LETTER ETH",
-            "raw": "\"DESERET SMALL LETTER ETH\""
+            "value": "DESERET SMALL LETTER ETH"
           }
         ],
         "optional": false
@@ -2087,8 +2003,7 @@
                 "type": "Literal",
                 "start": 3937,
                 "end": 3951,
-                "value": "𐑄",
-                "raw": "\"\\uD801\\uDC44\""
+                "value": "𐑄"
               },
               "property": {
                 "type": "Identifier",
@@ -2106,15 +2021,13 @@
             "type": "Literal",
             "start": 3973,
             "end": 3987,
-            "value": "𐐜",
-            "raw": "\"\\uD801\\uDC1C\""
+            "value": "𐐜"
           },
           {
             "type": "Literal",
             "start": 3989,
             "end": 4016,
-            "value": "DESERET SMALL LETTER THEE",
-            "raw": "\"DESERET SMALL LETTER THEE\""
+            "value": "DESERET SMALL LETTER THEE"
           }
         ],
         "optional": false
@@ -2160,8 +2073,7 @@
                 "type": "Literal",
                 "start": 4036,
                 "end": 4050,
-                "value": "𐑅",
-                "raw": "\"\\uD801\\uDC45\""
+                "value": "𐑅"
               },
               "property": {
                 "type": "Identifier",
@@ -2179,15 +2091,13 @@
             "type": "Literal",
             "start": 4072,
             "end": 4086,
-            "value": "𐐝",
-            "raw": "\"\\uD801\\uDC1D\""
+            "value": "𐐝"
           },
           {
             "type": "Literal",
             "start": 4088,
             "end": 4113,
-            "value": "DESERET SMALL LETTER ES",
-            "raw": "\"DESERET SMALL LETTER ES\""
+            "value": "DESERET SMALL LETTER ES"
           }
         ],
         "optional": false
@@ -2233,8 +2143,7 @@
                 "type": "Literal",
                 "start": 4133,
                 "end": 4147,
-                "value": "𐑆",
-                "raw": "\"\\uD801\\uDC46\""
+                "value": "𐑆"
               },
               "property": {
                 "type": "Identifier",
@@ -2252,15 +2161,13 @@
             "type": "Literal",
             "start": 4169,
             "end": 4183,
-            "value": "𐐞",
-            "raw": "\"\\uD801\\uDC1E\""
+            "value": "𐐞"
           },
           {
             "type": "Literal",
             "start": 4185,
             "end": 4211,
-            "value": "DESERET SMALL LETTER ZEE",
-            "raw": "\"DESERET SMALL LETTER ZEE\""
+            "value": "DESERET SMALL LETTER ZEE"
           }
         ],
         "optional": false
@@ -2306,8 +2213,7 @@
                 "type": "Literal",
                 "start": 4231,
                 "end": 4245,
-                "value": "𐑇",
-                "raw": "\"\\uD801\\uDC47\""
+                "value": "𐑇"
               },
               "property": {
                 "type": "Identifier",
@@ -2325,15 +2231,13 @@
             "type": "Literal",
             "start": 4267,
             "end": 4281,
-            "value": "𐐟",
-            "raw": "\"\\uD801\\uDC1F\""
+            "value": "𐐟"
           },
           {
             "type": "Literal",
             "start": 4283,
             "end": 4309,
-            "value": "DESERET SMALL LETTER ESH",
-            "raw": "\"DESERET SMALL LETTER ESH\""
+            "value": "DESERET SMALL LETTER ESH"
           }
         ],
         "optional": false
@@ -2379,8 +2283,7 @@
                 "type": "Literal",
                 "start": 4329,
                 "end": 4343,
-                "value": "𐑈",
-                "raw": "\"\\uD801\\uDC48\""
+                "value": "𐑈"
               },
               "property": {
                 "type": "Identifier",
@@ -2398,15 +2301,13 @@
             "type": "Literal",
             "start": 4365,
             "end": 4379,
-            "value": "𐐠",
-            "raw": "\"\\uD801\\uDC20\""
+            "value": "𐐠"
           },
           {
             "type": "Literal",
             "start": 4381,
             "end": 4408,
-            "value": "DESERET SMALL LETTER ZHEE",
-            "raw": "\"DESERET SMALL LETTER ZHEE\""
+            "value": "DESERET SMALL LETTER ZHEE"
           }
         ],
         "optional": false
@@ -2452,8 +2353,7 @@
                 "type": "Literal",
                 "start": 4428,
                 "end": 4442,
-                "value": "𐑉",
-                "raw": "\"\\uD801\\uDC49\""
+                "value": "𐑉"
               },
               "property": {
                 "type": "Identifier",
@@ -2471,15 +2371,13 @@
             "type": "Literal",
             "start": 4464,
             "end": 4478,
-            "value": "𐐡",
-            "raw": "\"\\uD801\\uDC21\""
+            "value": "𐐡"
           },
           {
             "type": "Literal",
             "start": 4480,
             "end": 4505,
-            "value": "DESERET SMALL LETTER ER",
-            "raw": "\"DESERET SMALL LETTER ER\""
+            "value": "DESERET SMALL LETTER ER"
           }
         ],
         "optional": false
@@ -2525,8 +2423,7 @@
                 "type": "Literal",
                 "start": 4525,
                 "end": 4539,
-                "value": "𐑊",
-                "raw": "\"\\uD801\\uDC4A\""
+                "value": "𐑊"
               },
               "property": {
                 "type": "Identifier",
@@ -2544,15 +2441,13 @@
             "type": "Literal",
             "start": 4561,
             "end": 4575,
-            "value": "𐐢",
-            "raw": "\"\\uD801\\uDC22\""
+            "value": "𐐢"
           },
           {
             "type": "Literal",
             "start": 4577,
             "end": 4602,
-            "value": "DESERET SMALL LETTER EL",
-            "raw": "\"DESERET SMALL LETTER EL\""
+            "value": "DESERET SMALL LETTER EL"
           }
         ],
         "optional": false
@@ -2598,8 +2493,7 @@
                 "type": "Literal",
                 "start": 4622,
                 "end": 4636,
-                "value": "𐑋",
-                "raw": "\"\\uD801\\uDC4B\""
+                "value": "𐑋"
               },
               "property": {
                 "type": "Identifier",
@@ -2617,15 +2511,13 @@
             "type": "Literal",
             "start": 4658,
             "end": 4672,
-            "value": "𐐣",
-            "raw": "\"\\uD801\\uDC23\""
+            "value": "𐐣"
           },
           {
             "type": "Literal",
             "start": 4674,
             "end": 4699,
-            "value": "DESERET SMALL LETTER EM",
-            "raw": "\"DESERET SMALL LETTER EM\""
+            "value": "DESERET SMALL LETTER EM"
           }
         ],
         "optional": false
@@ -2671,8 +2563,7 @@
                 "type": "Literal",
                 "start": 4719,
                 "end": 4733,
-                "value": "𐑌",
-                "raw": "\"\\uD801\\uDC4C\""
+                "value": "𐑌"
               },
               "property": {
                 "type": "Identifier",
@@ -2690,15 +2581,13 @@
             "type": "Literal",
             "start": 4755,
             "end": 4769,
-            "value": "𐐤",
-            "raw": "\"\\uD801\\uDC24\""
+            "value": "𐐤"
           },
           {
             "type": "Literal",
             "start": 4771,
             "end": 4796,
-            "value": "DESERET SMALL LETTER EN",
-            "raw": "\"DESERET SMALL LETTER EN\""
+            "value": "DESERET SMALL LETTER EN"
           }
         ],
         "optional": false
@@ -2744,8 +2633,7 @@
                 "type": "Literal",
                 "start": 4816,
                 "end": 4830,
-                "value": "𐑍",
-                "raw": "\"\\uD801\\uDC4D\""
+                "value": "𐑍"
               },
               "property": {
                 "type": "Identifier",
@@ -2763,15 +2651,13 @@
             "type": "Literal",
             "start": 4852,
             "end": 4866,
-            "value": "𐐥",
-            "raw": "\"\\uD801\\uDC25\""
+            "value": "𐐥"
           },
           {
             "type": "Literal",
             "start": 4868,
             "end": 4894,
-            "value": "DESERET SMALL LETTER ENG",
-            "raw": "\"DESERET SMALL LETTER ENG\""
+            "value": "DESERET SMALL LETTER ENG"
           }
         ],
         "optional": false
@@ -2817,8 +2703,7 @@
                 "type": "Literal",
                 "start": 4914,
                 "end": 4928,
-                "value": "𐑎",
-                "raw": "\"\\uD801\\uDC4E\""
+                "value": "𐑎"
               },
               "property": {
                 "type": "Identifier",
@@ -2836,15 +2721,13 @@
             "type": "Literal",
             "start": 4950,
             "end": 4964,
-            "value": "𐐦",
-            "raw": "\"\\uD801\\uDC26\""
+            "value": "𐐦"
           },
           {
             "type": "Literal",
             "start": 4966,
             "end": 4991,
-            "value": "DESERET SMALL LETTER OI",
-            "raw": "\"DESERET SMALL LETTER OI\""
+            "value": "DESERET SMALL LETTER OI"
           }
         ],
         "optional": false
@@ -2890,8 +2773,7 @@
                 "type": "Literal",
                 "start": 5011,
                 "end": 5025,
-                "value": "𐑏",
-                "raw": "\"\\uD801\\uDC4F\""
+                "value": "𐑏"
               },
               "property": {
                 "type": "Identifier",
@@ -2909,15 +2791,13 @@
             "type": "Literal",
             "start": 5047,
             "end": 5061,
-            "value": "𐐧",
-            "raw": "\"\\uD801\\uDC27\""
+            "value": "𐐧"
           },
           {
             "type": "Literal",
             "start": 5063,
             "end": 5088,
-            "value": "DESERET SMALL LETTER EW",
-            "raw": "\"DESERET SMALL LETTER EW\""
+            "value": "DESERET SMALL LETTER EW"
           }
         ],
         "optional": false

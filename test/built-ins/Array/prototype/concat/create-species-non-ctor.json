@@ -212,8 +212,7 @@
             "type": "Literal",
             "start": 819,
             "end": 860,
-            "value": "a.concat() throws a TypeError exception",
-            "raw": "'a.concat() throws a TypeError exception'"
+            "value": "a.concat() throws a TypeError exception"
           }
         ],
         "optional": false

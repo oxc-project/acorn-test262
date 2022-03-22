@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 297,
             "end": 302,
-            "value": "add",
-            "raw": "'add'"
+            "value": "add"
           },
           {
             "type": "ObjectExpression",

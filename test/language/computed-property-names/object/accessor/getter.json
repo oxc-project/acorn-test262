@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 236,
                   "end": 239,
-                  "value": "a",
-                  "raw": "\"a\""
+                  "value": "a"
                 },
                 "kind": "get",
                 "value": {
@@ -60,8 +59,7 @@
                           "type": "Literal",
                           "start": 256,
                           "end": 259,
-                          "value": "A",
-                          "raw": "\"A\""
+                          "value": "A"
                         }
                       }
                     ]
@@ -125,15 +123,13 @@
             "type": "Literal",
             "start": 290,
             "end": 293,
-            "value": "A",
-            "raw": "\"A\""
+            "value": "A"
           },
           {
             "type": "Literal",
             "start": 295,
             "end": 324,
-            "value": "The value of `A.a` is `'A'`",
-            "raw": "\"The value of `A.a` is `'A'`\""
+            "value": "The value of `A.a` is `'A'`"
           }
         ],
         "optional": false

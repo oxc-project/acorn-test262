@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 330,
                 "end": 331,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 333,
                 "end": 334,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -158,15 +156,13 @@
             "type": "Literal",
             "start": 405,
             "end": 409,
-            "value": 1972,
-            "raw": "1972"
+            "value": 1972
           },
           {
             "type": "Literal",
             "start": 411,
             "end": 427,
-            "value": "isoYear result",
-            "raw": "\"isoYear result\""
+            "value": "isoYear result"
           }
         ],
         "optional": false
@@ -223,15 +219,13 @@
             "type": "Literal",
             "start": 464,
             "end": 465,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 467,
             "end": 484,
-            "value": "isoMonth result",
-            "raw": "\"isoMonth result\""
+            "value": "isoMonth result"
           }
         ],
         "optional": false
@@ -288,15 +282,13 @@
             "type": "Literal",
             "start": 519,
             "end": 520,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 522,
             "end": 537,
-            "value": "isoDay result",
-            "raw": "\"isoDay result\""
+            "value": "isoDay result"
           }
         ],
         "optional": false
@@ -366,15 +358,13 @@
             "type": "Literal",
             "start": 577,
             "end": 586,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           },
           {
             "type": "Literal",
             "start": 588,
             "end": 605,
-            "value": "calendar result",
-            "raw": "\"calendar result\""
+            "value": "calendar result"
           }
         ],
         "optional": false

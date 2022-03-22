@@ -40,8 +40,7 @@
                     "type": "Literal",
                     "start": 348,
                     "end": 358,
-                    "value": "__THIS__",
-                    "raw": "\"__THIS__\""
+                    "value": "__THIS__"
                   }
                 }
               ]
@@ -115,8 +114,7 @@
           "type": "Literal",
           "start": 501,
           "end": 509,
-          "value": "string",
-          "raw": "\"string\""
+          "value": "string"
         }
       },
       "consequent": {
@@ -147,8 +145,7 @@
                     "type": "Literal",
                     "start": 538,
                     "end": 617,
-                    "value": "#1: __str = String(this); typeof __str === \"string\". Actual: typeof __str ===",
-                    "raw": "'#1: __str = String(this); typeof __str === \"string\". Actual: typeof __str ==='"
+                    "value": "#1: __str = String(this); typeof __str === \"string\". Actual: typeof __str ==="
                   },
                   "operator": "+",
                   "right": {
@@ -191,8 +188,7 @@
           "type": "Literal",
           "start": 823,
           "end": 833,
-          "value": "__THIS__",
-          "raw": "\"__THIS__\""
+          "value": "__THIS__"
         }
       },
       "consequent": {
@@ -223,8 +219,7 @@
                     "type": "Literal",
                     "start": 862,
                     "end": 970,
-                    "value": "#2: toString=function(){return \"__THIS__\";}; __str = String(this); __str === \"__THIS__\". Actual: __str ===",
-                    "raw": "'#2: toString=function(){return \"__THIS__\";}; __str = String(this); __str === \"__THIS__\". Actual: __str ==='"
+                    "value": "#2: toString=function(){return \"__THIS__\";}; __str = String(this); __str === \"__THIS__\". Actual: __str ==="
                   },
                   "operator": "+",
                   "right": {

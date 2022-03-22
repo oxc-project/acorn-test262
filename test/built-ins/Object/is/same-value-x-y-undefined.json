@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 362,
             "end": 412,
-            "value": "`Object.is(undefined, undefined)` returns `true`",
-            "raw": "\"`Object.is(undefined, undefined)` returns `true`\""
+            "value": "`Object.is(undefined, undefined)` returns `true`"
           }
         ],
         "optional": false
@@ -160,8 +159,7 @@
             "type": "Literal",
             "start": 460,
             "end": 499,
-            "value": "`Object.is(undefined)` returns `true`",
-            "raw": "\"`Object.is(undefined)` returns `true`\""
+            "value": "`Object.is(undefined)` returns `true`"
           }
         ],
         "optional": false

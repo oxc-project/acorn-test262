@@ -70,8 +70,7 @@
                 "type": "Literal",
                 "start": 701,
                 "end": 703,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ],
             "optional": false
@@ -138,15 +137,13 @@
             "type": "Literal",
             "start": 755,
             "end": 765,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 822,
-            "value": "typeof %Segments.prototype%.containing  is function",
-            "raw": "\"typeof %Segments.prototype%.containing  is function\""
+            "value": "typeof %Segments.prototype%.containing  is function"
           }
         ],
         "optional": false

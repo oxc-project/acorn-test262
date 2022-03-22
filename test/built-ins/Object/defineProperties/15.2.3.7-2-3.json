@@ -131,8 +131,7 @@
             "type": "Literal",
             "start": 365,
             "end": 370,
-            "value": "obj",
-            "raw": "'obj'"
+            "value": "obj"
           }
         ],
         "optional": false

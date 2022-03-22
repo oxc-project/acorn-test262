@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 1240,
             "end": 1241,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 1272,
                         "end": 1303,
-                        "value": "./THIS_FILE_DOES_NOT_EXIST.js",
-                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
+                        "value": "./THIS_FILE_DOES_NOT_EXIST.js"
                       }
                     },
                     "property": {
@@ -177,8 +175,7 @@
                                   "type": "Literal",
                                   "start": 1361,
                                   "end": 1372,
-                                  "value": "undefined",
-                                  "raw": "'undefined'"
+                                  "value": "undefined"
                                 }
                               ],
                               "optional": false

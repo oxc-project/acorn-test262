@@ -89,8 +89,7 @@
                           "type": "Literal",
                           "start": 377,
                           "end": 386,
-                          "value": "iso8601",
-                          "raw": "\"iso8601\""
+                          "value": "iso8601"
                         }
                       ],
                       "optional": false
@@ -298,15 +297,13 @@
                 "type": "Literal",
                 "start": 577,
                 "end": 581,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 583,
                 "end": 584,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Identifier",
@@ -469,15 +466,13 @@
                 "type": "Literal",
                 "start": 729,
                 "end": 733,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 735,
                 "end": 736,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Identifier",

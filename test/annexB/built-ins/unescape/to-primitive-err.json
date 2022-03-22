@@ -70,8 +70,7 @@
                               "type": "Literal",
                               "start": 426,
                               "end": 454,
-                              "value": "this should be unreachable",
-                              "raw": "'this should be unreachable'"
+                              "value": "this should be unreachable"
                             }
                           ]
                         }
@@ -127,8 +126,7 @@
                               "type": "Literal",
                               "start": 497,
                               "end": 525,
-                              "value": "this should be unreachable",
-                              "raw": "'this should be unreachable'"
+                              "value": "this should be unreachable"
                             }
                           ]
                         }

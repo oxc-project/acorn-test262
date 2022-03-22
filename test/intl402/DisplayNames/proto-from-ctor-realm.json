@@ -233,8 +233,7 @@
                           "type": "Literal",
                           "start": 1488,
                           "end": 1498,
-                          "value": "language",
-                          "raw": "'language'"
+                          "value": "language"
                         },
                         "kind": "init"
                       }

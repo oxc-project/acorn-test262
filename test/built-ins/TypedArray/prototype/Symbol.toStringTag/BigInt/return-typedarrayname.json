@@ -153,8 +153,7 @@
                         "type": "Literal",
                         "start": 681,
                         "end": 697,
-                        "value": "property value",
-                        "raw": "\"property value\""
+                        "value": "property value"
                       }
                     ],
                     "optional": false

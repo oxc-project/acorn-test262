@@ -53,8 +53,7 @@
                 "type": "Literal",
                 "start": 378,
                 "end": 379,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           },
@@ -107,8 +106,7 @@
                         "type": "Literal",
                         "start": 426,
                         "end": 427,
-                        "value": 5,
-                        "raw": "5"
+                        "value": 5
                       }
                     }
                   ]
@@ -253,8 +251,7 @@
                       "type": "Literal",
                       "start": 631,
                       "end": 719,
-                      "value": "#1: var obj = new FACTORY() does not lead to throwing exception. Actual: Exception is ",
-                      "raw": "'#1: var obj = new FACTORY() does not lead to throwing exception. Actual: Exception is '"
+                      "value": "#1: var obj = new FACTORY() does not lead to throwing exception. Actual: Exception is "
                     },
                     "operator": "+",
                     "right": {
@@ -304,8 +301,7 @@
           "type": "Literal",
           "start": 913,
           "end": 914,
-          "value": 5,
-          "raw": "5"
+          "value": 5
         }
       },
       "consequent": {
@@ -336,8 +332,7 @@
                     "type": "Literal",
                     "start": 942,
                     "end": 980,
-                    "value": "#2: obj.id === 5. Actual: obj.id ===",
-                    "raw": "'#2: obj.id === 5. Actual: obj.id ==='"
+                    "value": "#2: obj.id === 5. Actual: obj.id ==="
                   },
                   "operator": "+",
                   "right": {

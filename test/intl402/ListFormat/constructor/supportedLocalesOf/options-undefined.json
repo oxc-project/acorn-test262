@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 598,
             "end": 608,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 627,
             "end": 679,
-            "value": "Should support Intl.ListFormat.supportedLocalesOf.",
-            "raw": "\"Should support Intl.ListFormat.supportedLocalesOf.\""
+            "value": "Should support Intl.ListFormat.supportedLocalesOf."
           }
         ],
         "optional": false
@@ -151,8 +149,7 @@
                   "type": "Literal",
                   "start": 729,
                   "end": 744,
-                  "value": "localeMatcher",
-                  "raw": "\"localeMatcher\""
+                  "value": "localeMatcher"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -206,8 +203,7 @@
                                     "type": "Literal",
                                     "start": 776,
                                     "end": 814,
-                                    "value": "Should not call localeMatcher getter",
-                                    "raw": "\"Should not call localeMatcher getter\""
+                                    "value": "Should not call localeMatcher getter"
                                   }
                                 ]
                               }
@@ -331,8 +327,7 @@
             "type": "Literal",
             "start": 904,
             "end": 918,
-            "value": "No arguments",
-            "raw": "\"No arguments\""
+            "value": "No arguments"
           }
         ],
         "optional": false
@@ -450,8 +445,7 @@
             "type": "Literal",
             "start": 999,
             "end": 1013,
-            "value": "One argument",
-            "raw": "\"One argument\""
+            "value": "One argument"
           }
         ],
         "optional": false
@@ -575,8 +569,7 @@
             "type": "Literal",
             "start": 1105,
             "end": 1120,
-            "value": "Two arguments",
-            "raw": "\"Two arguments\""
+            "value": "Two arguments"
           }
         ],
         "optional": false

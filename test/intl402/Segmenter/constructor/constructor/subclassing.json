@@ -278,8 +278,7 @@
             "type": "Literal",
             "start": 696,
             "end": 700,
-            "value": "de",
-            "raw": "\"de\""
+            "value": "de"
           }
         }
       ],
@@ -304,8 +303,7 @@
             "type": "Literal",
             "start": 716,
             "end": 723,
-            "value": "Hello",
-            "raw": "\"Hello\""
+            "value": "Hello"
           }
         }
       ],
@@ -419,8 +417,7 @@
             "type": "Literal",
             "start": 830,
             "end": 847,
-            "value": "Custom property",
-            "raw": "\"Custom property\""
+            "value": "Custom property"
           }
         ],
         "optional": false
@@ -522,8 +519,7 @@
             "type": "Literal",
             "start": 955,
             "end": 972,
-            "value": "Custom property",
-            "raw": "\"Custom property\""
+            "value": "Custom property"
           }
         ],
         "optional": false
@@ -655,8 +651,7 @@
             "type": "Literal",
             "start": 1120,
             "end": 1133,
-            "value": "Direct call",
-            "raw": "\"Direct call\""
+            "value": "Direct call"
           }
         ],
         "optional": false
@@ -878,8 +873,7 @@
             "type": "Literal",
             "start": 1343,
             "end": 1358,
-            "value": "Indirect call",
-            "raw": "\"Indirect call\""
+            "value": "Indirect call"
           }
         ],
         "optional": false
@@ -969,8 +963,7 @@
             "type": "Literal",
             "start": 1447,
             "end": 1458,
-            "value": "Prototype",
-            "raw": "\"Prototype\""
+            "value": "Prototype"
           }
         ],
         "optional": false
@@ -1060,8 +1053,7 @@
             "type": "Literal",
             "start": 1551,
             "end": 1614,
-            "value": "Object.getPrototypeOf(CustomSegmenter) returns Intl.Segmenter",
-            "raw": "\"Object.getPrototypeOf(CustomSegmenter) returns Intl.Segmenter\""
+            "value": "Object.getPrototypeOf(CustomSegmenter) returns Intl.Segmenter"
           }
         ],
         "optional": false
@@ -1177,8 +1169,7 @@
             "type": "Literal",
             "start": 1727,
             "end": 1810,
-            "value": "Object.getPrototypeOf(CustomSegmenter.prototype) returns Intl.Segmenter.prototype",
-            "raw": "\"Object.getPrototypeOf(CustomSegmenter.prototype) returns Intl.Segmenter.prototype\""
+            "value": "Object.getPrototypeOf(CustomSegmenter.prototype) returns Intl.Segmenter.prototype"
           }
         ],
         "optional": false
@@ -1254,8 +1245,7 @@
             "type": "Literal",
             "start": 1897,
             "end": 1965,
-            "value": "The result of `custom_segmenter instanceof Intl.Segmenter` is true",
-            "raw": "\"The result of `custom_segmenter instanceof Intl.Segmenter` is true\""
+            "value": "The result of `custom_segmenter instanceof Intl.Segmenter` is true"
           }
         ],
         "optional": false

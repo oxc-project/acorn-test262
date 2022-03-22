@@ -80,8 +80,7 @@
                         "type": "Literal",
                         "start": 1043,
                         "end": 1129,
-                        "value": "initial = f; delete f; postDeletion = function() { f; }; function f() { return 33; }",
-                        "raw": "'initial = f; delete f; postDeletion = function() { f; }; function f() { return 33; }'"
+                        "value": "initial = f; delete f; postDeletion = function() { f; }; function f() { return 33; }"
                       }
                     ],
                     "optional": false
@@ -140,8 +139,7 @@
             "type": "Literal",
             "start": 1172,
             "end": 1182,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -192,8 +190,7 @@
             "type": "Literal",
             "start": 1213,
             "end": 1215,
-            "value": 33,
-            "raw": "33"
+            "value": 33
           }
         ],
         "optional": false
@@ -243,8 +240,7 @@
             "type": "Literal",
             "start": 1262,
             "end": 1286,
-            "value": "binding may be deleted",
-            "raw": "'binding may be deleted'"
+            "value": "binding may be deleted"
           }
         ],
         "optional": false

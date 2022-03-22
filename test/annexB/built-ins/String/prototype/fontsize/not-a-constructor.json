@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 769,
             "end": 829,
-            "value": "isConstructor(String.prototype.fontsize) must return false",
-            "raw": "'isConstructor(String.prototype.fontsize) must return false'"
+            "value": "isConstructor(String.prototype.fontsize) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 905,
             "end": 957,
-            "value": "`new String.prototype.fontsize()` throws TypeError",
-            "raw": "'`new String.prototype.fontsize()` throws TypeError'"
+            "value": "`new String.prototype.fontsize()` throws TypeError"
           }
         ],
         "optional": false

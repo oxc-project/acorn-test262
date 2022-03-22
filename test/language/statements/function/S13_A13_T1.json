@@ -53,8 +53,7 @@
                   "type": "Literal",
                   "start": 321,
                   "end": 322,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -83,8 +82,7 @@
                   "type": "Literal",
                   "start": 341,
                   "end": 342,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -121,8 +119,7 @@
                         "type": "Literal",
                         "start": 388,
                         "end": 422,
-                        "value": "#1.1: arguments[0] === undefined",
-                        "raw": "'#1.1: arguments[0] === undefined'"
+                        "value": "#1.1: arguments[0] === undefined"
                       }
                     ]
                   }
@@ -168,8 +165,7 @@
               "type": "Literal",
               "start": 548,
               "end": 549,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ],
           "optional": false
@@ -179,8 +175,7 @@
           "type": "Literal",
           "start": 555,
           "end": 556,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -211,8 +206,7 @@
                     "type": "Literal",
                     "start": 584,
                     "end": 630,
-                    "value": "#1.2: __func(1) === 1. Actual: __func(1) ===",
-                    "raw": "'#1.2: __func(1) === 1. Actual: __func(1) ==='"
+                    "value": "#1.2: __func(1) === 1. Actual: __func(1) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -230,8 +224,7 @@
                         "type": "Literal",
                         "start": 638,
                         "end": 639,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false

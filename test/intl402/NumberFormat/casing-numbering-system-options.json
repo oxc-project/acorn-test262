@@ -112,15 +112,13 @@
                     "type": "Literal",
                     "start": 387,
                     "end": 393,
-                    "value": "latn",
-                    "raw": "\"latn\""
+                    "value": "latn"
                   },
                   {
                     "type": "Literal",
                     "start": 395,
                     "end": 401,
-                    "value": "arab",
-                    "raw": "\"arab\""
+                    "value": "arab"
                   }
                 ]
               },
@@ -209,8 +207,7 @@
                                   "type": "Literal",
                                   "start": 456,
                                   "end": 464,
-                                  "value": "-u-nu-",
-                                  "raw": "\"-u-nu-\""
+                                  "value": "-u-nu-"
                                 }
                               },
                               "operator": "+",
@@ -292,8 +289,7 @@
             "type": "Literal",
             "start": 560,
             "end": 566,
-            "value": "latn",
-            "raw": "\"latn\""
+            "value": "latn"
           }
         ],
         "optional": false
@@ -357,8 +353,7 @@
                         "type": "Literal",
                         "start": 630,
                         "end": 642,
-                        "value": "-u-nu-lATn",
-                        "raw": "\"-u-nu-lATn\""
+                        "value": "-u-nu-lATn"
                       }
                     }
                   ]
@@ -438,15 +433,13 @@
                   "type": "Literal",
                   "start": 712,
                   "end": 718,
-                  "value": "latn",
-                  "raw": "\"latn\""
+                  "value": "latn"
                 },
                 {
                   "type": "Literal",
                   "start": 720,
                   "end": 769,
-                  "value": "Numbering system option should be in lower case",
-                  "raw": "\"Numbering system option should be in lower case\""
+                  "value": "Numbering system option should be in lower case"
                 }
               ],
               "optional": false
@@ -488,8 +481,7 @@
             "type": "Literal",
             "start": 814,
             "end": 820,
-            "value": "arab",
-            "raw": "\"arab\""
+            "value": "arab"
           }
         ],
         "optional": false
@@ -553,8 +545,7 @@
                         "type": "Literal",
                         "start": 884,
                         "end": 896,
-                        "value": "-u-nu-Arab",
-                        "raw": "\"-u-nu-Arab\""
+                        "value": "-u-nu-Arab"
                       }
                     }
                   ]
@@ -634,15 +625,13 @@
                   "type": "Literal",
                   "start": 966,
                   "end": 972,
-                  "value": "arab",
-                  "raw": "\"arab\""
+                  "value": "arab"
                 },
                 {
                   "type": "Literal",
                   "start": 974,
                   "end": 1023,
-                  "value": "Numbering system option should be in lower case",
-                  "raw": "\"Numbering system option should be in lower case\""
+                  "value": "Numbering system option should be in lower case"
                 }
               ],
               "optional": false

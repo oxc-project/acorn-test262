@@ -158,8 +158,7 @@
             "type": "Literal",
             "start": 730,
             "end": 765,
-            "value": "RegExp returns its input argument",
-            "raw": "\"RegExp returns its input argument\""
+            "value": "RegExp returns its input argument"
           }
         ],
         "optional": false

@@ -83,8 +83,7 @@
                         "type": "Literal",
                         "start": 330,
                         "end": 340,
-                        "value": "\"\\u005\"",
-                        "raw": "'\"\\\\u005\"'"
+                        "value": "\"\\u005\""
                       }
                     ],
                     "optional": false

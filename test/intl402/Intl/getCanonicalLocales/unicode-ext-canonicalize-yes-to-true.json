@@ -27,36 +27,31 @@
                 "type": "Literal",
                 "start": 1314,
                 "end": 1318,
-                "value": "kb",
-                "raw": "\"kb\""
+                "value": "kb"
               },
               {
                 "type": "Literal",
                 "start": 1416,
                 "end": 1420,
-                "value": "kc",
-                "raw": "\"kc\""
+                "value": "kc"
               },
               {
                 "type": "Literal",
                 "start": 1518,
                 "end": 1522,
-                "value": "kh",
-                "raw": "\"kh\""
+                "value": "kh"
               },
               {
                 "type": "Literal",
                 "start": 1629,
                 "end": 1633,
-                "value": "kk",
-                "raw": "\"kk\""
+                "value": "kk"
               },
               {
                 "type": "Literal",
                 "start": 1729,
                 "end": 1733,
-                "value": "kn",
-                "raw": "\"kn\""
+                "value": "kn"
               }
             ]
           }
@@ -275,8 +270,7 @@
                       "type": "Literal",
                       "start": 1973,
                       "end": 1977,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -291,8 +285,7 @@
                     "type": "Literal",
                     "start": 1986,
                     "end": 2022,
-                    "value": "\" isn't a canonical language tag.",
-                    "raw": "\"\\\" isn't a canonical language tag.\""
+                    "value": "\" isn't a canonical language tag."
                   }
                 }
               ],
@@ -346,8 +339,7 @@
                       "type": "Literal",
                       "start": 2099,
                       "end": 2103,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -362,8 +354,7 @@
                     "type": "Literal",
                     "start": 2118,
                     "end": 2174,
-                    "value": "\" is a canonical and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                    "value": "\" is a canonical and structurally valid language tag."
                   }
                 }
               ],
@@ -473,8 +464,7 @@
                   "type": "Literal",
                   "start": 2258,
                   "end": 2259,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -522,8 +512,7 @@
                     "type": "Literal",
                     "start": 2288,
                     "end": 2289,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false
@@ -565,36 +554,31 @@
                 "type": "Literal",
                 "start": 2449,
                 "end": 2453,
-                "value": "ka",
-                "raw": "\"ka\""
+                "value": "ka"
               },
               {
                 "type": "Literal",
                 "start": 2455,
                 "end": 2459,
-                "value": "kf",
-                "raw": "\"kf\""
+                "value": "kf"
               },
               {
                 "type": "Literal",
                 "start": 2461,
                 "end": 2465,
-                "value": "kr",
-                "raw": "\"kr\""
+                "value": "kr"
               },
               {
                 "type": "Literal",
                 "start": 2467,
                 "end": 2471,
-                "value": "ks",
-                "raw": "\"ks\""
+                "value": "ks"
               },
               {
                 "type": "Literal",
                 "start": 2473,
                 "end": 2477,
-                "value": "kv",
-                "raw": "\"kv\""
+                "value": "kv"
               }
             ]
           }
@@ -739,8 +723,7 @@
                       "type": "Literal",
                       "start": 2661,
                       "end": 2665,
-                      "value": "\"",
-                      "raw": "\"\\\"\""
+                      "value": "\""
                     },
                     "operator": "+",
                     "right": {
@@ -755,8 +738,7 @@
                     "type": "Literal",
                     "start": 2674,
                     "end": 2730,
-                    "value": "\" is a canonical and structurally valid language tag.",
-                    "raw": "\"\\\" is a canonical and structurally valid language tag.\""
+                    "value": "\" is a canonical and structurally valid language tag."
                   }
                 }
               ],
@@ -866,8 +848,7 @@
                   "type": "Literal",
                   "start": 2814,
                   "end": 2815,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ],
               "optional": false
@@ -915,8 +896,7 @@
                     "type": "Literal",
                     "start": 2844,
                     "end": 2845,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   "computed": true,
                   "optional": false

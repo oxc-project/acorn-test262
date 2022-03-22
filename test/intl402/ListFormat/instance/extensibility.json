@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 498,
             "end": 555,
-            "value": "Object.isExtensible(new Intl.ListFormat()) returns true",
-            "raw": "\"Object.isExtensible(new Intl.ListFormat()) returns true\""
+            "value": "Object.isExtensible(new Intl.ListFormat()) returns true"
           }
         ],
         "optional": false

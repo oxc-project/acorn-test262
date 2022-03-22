@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 422,
                 "end": 431,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,22 +97,19 @@
                 "type": "Literal",
                 "start": 469,
                 "end": 473,
-                "value": 2021,
-                "raw": "2021"
+                "value": 2021
               },
               {
                 "type": "Literal",
                 "start": 475,
                 "end": 476,
-                "value": 7,
-                "raw": "7"
+                "value": 7
               },
               {
                 "type": "Literal",
                 "start": 478,
                 "end": 480,
-                "value": 15,
-                "raw": "15"
+                "value": 15
               }
             ]
           }
@@ -186,15 +182,13 @@
             "type": "Literal",
             "start": 521,
             "end": 526,
-            "value": "M07",
-            "raw": "\"M07\""
+            "value": "M07"
           },
           {
             "type": "Literal",
             "start": 528,
             "end": 598,
-            "value": "cal.monthCode(new Temporal.PlainDate(2021, 7, 15)) must return \"M07\"",
-            "raw": "'cal.monthCode(new Temporal.PlainDate(2021, 7, 15)) must return \"M07\"'"
+            "value": "cal.monthCode(new Temporal.PlainDate(2021, 7, 15)) must return \"M07\""
           }
         ],
         "optional": false

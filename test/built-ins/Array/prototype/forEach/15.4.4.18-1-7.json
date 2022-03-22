@@ -163,8 +163,7 @@
             "type": "Literal",
             "start": 372,
             "end": 377,
-            "value": "abc",
-            "raw": "\"abc\""
+            "value": "abc"
           },
           {
             "type": "Identifier",
@@ -201,8 +200,7 @@
             "type": "Literal",
             "start": 408,
             "end": 425,
-            "value": "result !== true",
-            "raw": "'result !== true'"
+            "value": "result !== true"
           }
         ],
         "optional": false

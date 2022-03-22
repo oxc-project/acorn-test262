@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 376,
             "end": 438,
-            "value": "The value of `delete Date.UTC.length` is expected to be true",
-            "raw": "'The value of `delete Date.UTC.length` is expected to be true'"
+            "value": "The value of `delete Date.UTC.length` is expected to be true"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 477,
                   "end": 485,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 490,
             "end": 564,
-            "value": "The value of !Date.UTC.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !Date.UTC.hasOwnProperty(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.UTC.hasOwnProperty('length') is expected to be true"
           }
         ],
         "optional": false

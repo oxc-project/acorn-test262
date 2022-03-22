@@ -146,8 +146,7 @@
                         "type": "Literal",
                         "start": 2056,
                         "end": 2059,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -223,8 +222,7 @@
                           "type": "Literal",
                           "start": 2105,
                           "end": 2106,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -254,8 +252,7 @@
                             "type": "Literal",
                             "start": 2127,
                             "end": 2142,
-                            "value": " converts to ",
-                            "raw": "\" converts to \""
+                            "value": " converts to "
                           }
                         },
                         "operator": "+",

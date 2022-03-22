@@ -23,7 +23,6 @@
             "start": 719,
             "end": 724,
             "value": {},
-            "raw": "/\\w/g",
             "regex": {
               "pattern": "\\w",
               "flags": "g"
@@ -88,8 +87,7 @@
             "type": "Literal",
             "start": 768,
             "end": 773,
-            "value": "a*b",
-            "raw": "'a*b'"
+            "value": "a*b"
           }
         }
       ],
@@ -194,8 +192,7 @@
                         "type": "Literal",
                         "start": 849,
                         "end": 852,
-                        "value": "a",
-                        "raw": "'a'"
+                        "value": "a"
                       }
                     ]
                   },
@@ -203,8 +200,7 @@
                     "type": "Literal",
                     "start": 855,
                     "end": 856,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Identifier",
@@ -235,8 +231,7 @@
                         "type": "Literal",
                         "start": 882,
                         "end": 885,
-                        "value": "b",
-                        "raw": "'b'"
+                        "value": "b"
                       }
                     ]
                   },
@@ -244,8 +239,7 @@
                     "type": "Literal",
                     "start": 888,
                     "end": 889,
-                    "value": 2,
-                    "raw": "2"
+                    "value": 2
                   },
                   {
                     "type": "Identifier",

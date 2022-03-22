@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 297,
             "end": 298,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 300,
             "end": 330,
-            "value": "String.prototype.trim.length",
-            "raw": "'String.prototype.trim.length'"
+            "value": "String.prototype.trim.length"
           }
         ],
         "optional": false

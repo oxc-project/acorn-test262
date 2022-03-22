@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 774,
             "end": 836,
-            "value": "isConstructor(Array.prototype.reduceRight) must return false",
-            "raw": "'isConstructor(Array.prototype.reduceRight) must return false'"
+            "value": "isConstructor(Array.prototype.reduceRight) must return false"
           }
         ],
         "optional": false
@@ -216,8 +215,7 @@
             "type": "Literal",
             "start": 926,
             "end": 992,
-            "value": "`new Array.prototype.reduceRight(() => {}, [])` throws TypeError",
-            "raw": "'`new Array.prototype.reduceRight(() => {}, [])` throws TypeError'"
+            "value": "`new Array.prototype.reduceRight(() => {}, [])` throws TypeError"
           }
         ],
         "optional": false

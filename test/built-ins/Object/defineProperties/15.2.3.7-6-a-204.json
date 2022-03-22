@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 543,
           "end": 546,
-          "value": 100,
-          "raw": "100"
+          "value": 100
         }
       }
     },
@@ -115,8 +114,7 @@
                   "type": "Literal",
                   "start": 582,
                   "end": 585,
-                  "value": "0",
-                  "raw": "\"0\""
+                  "value": "0"
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -356,8 +354,7 @@
               "type": "Literal",
               "start": 792,
               "end": 795,
-              "value": "0",
-              "raw": "\"0\""
+              "value": "0"
             }
           ],
           "optional": false
@@ -387,8 +384,7 @@
                   "type": "Literal",
                   "start": 825,
                   "end": 866,
-                  "value": "Expected hasOwnProperty to return true.",
-                  "raw": "\"Expected hasOwnProperty to return true.\""
+                  "value": "Expected hasOwnProperty to return true."
                 }
               ]
             }
@@ -420,8 +416,7 @@
             "type": "Literal",
             "start": 876,
             "end": 877,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -430,8 +425,7 @@
           "type": "Literal",
           "start": 881,
           "end": 884,
-          "value": 101,
-          "raw": "101"
+          "value": 101
         }
       }
     },
@@ -460,15 +454,13 @@
             "type": "Literal",
             "start": 906,
             "end": 907,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 909,
             "end": 912,
-            "value": 101,
-            "raw": "101"
+            "value": 101
           }
         ],
         "optional": false
@@ -506,8 +498,7 @@
           "type": "Literal",
           "start": 941,
           "end": 944,
-          "value": 101,
-          "raw": "101"
+          "value": 101
         }
       },
       "consequent": {
@@ -538,8 +529,7 @@
                     "type": "Literal",
                     "start": 973,
                     "end": 1019,
-                    "value": "Expected arr.verifySetter === 101, actually ",
-                    "raw": "'Expected arr.verifySetter === 101, actually '"
+                    "value": "Expected arr.verifySetter === 101, actually "
                   },
                   "operator": "+",
                   "right": {
@@ -594,8 +584,7 @@
             "type": "Literal",
             "start": 1071,
             "end": 1072,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

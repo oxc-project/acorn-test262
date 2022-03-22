@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1144,
                 "end": 1161,
-                "value": "Don't catch me.",
-                "raw": "\"Don't catch me.\""
+                "value": "Don't catch me."
               }
             ]
           }
@@ -166,8 +165,7 @@
                                               "type": "Literal",
                                               "start": 1252,
                                               "end": 1253,
-                                              "value": 1,
-                                              "raw": "1"
+                                              "value": 1
                                             },
                                             "kind": "init"
                                           },
@@ -278,8 +276,7 @@
                                                   "type": "Literal",
                                                   "start": 1345,
                                                   "end": 1347,
-                                                  "value": 42,
-                                                  "raw": "42"
+                                                  "value": 42
                                                 }
                                               ],
                                               "optional": false
@@ -611,8 +608,7 @@
                                             "type": "Literal",
                                             "start": 1608,
                                             "end": 1610,
-                                            "value": 42,
-                                            "raw": "42"
+                                            "value": 42
                                           },
                                           {
                                             "type": "BinaryExpression",
@@ -622,8 +618,7 @@
                                               "type": "Literal",
                                               "start": 1612,
                                               "end": 1653,
-                                              "value": "Result.value should be unwrapped, got: ",
-                                              "raw": "\"Result.value should be unwrapped, got: \""
+                                              "value": "Result.value should be unwrapped, got: "
                                             },
                                             "operator": "+",
                                             "right": {
@@ -815,8 +810,7 @@
                                                             "type": "Literal",
                                                             "start": 1755,
                                                             "end": 1782,
-                                                            "value": "the iterator is completed",
-                                                            "raw": "'the iterator is completed'"
+                                                            "value": "the iterator is completed"
                                                           }
                                                         ],
                                                         "optional": false
@@ -866,8 +860,7 @@
                                                             "type": "Literal",
                                                             "start": 1828,
                                                             "end": 1848,
-                                                            "value": "value is undefined",
-                                                            "raw": "'value is undefined'"
+                                                            "value": "value is undefined"
                                                           }
                                                         ],
                                                         "optional": false

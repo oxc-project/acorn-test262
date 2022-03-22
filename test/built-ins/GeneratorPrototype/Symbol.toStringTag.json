@@ -163,8 +163,7 @@
             "type": "Literal",
             "start": 663,
             "end": 674,
-            "value": "Generator",
-            "raw": "'Generator'"
+            "value": "Generator"
           }
         ],
         "optional": false

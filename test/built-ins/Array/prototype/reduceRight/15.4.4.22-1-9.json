@@ -98,8 +98,7 @@
             "type": "Literal",
             "start": 305,
             "end": 306,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -108,8 +107,7 @@
           "type": "Literal",
           "start": 310,
           "end": 312,
-          "value": 11,
-          "raw": "11"
+          "value": 11
         }
       }
     },
@@ -136,8 +134,7 @@
             "type": "Literal",
             "start": 318,
             "end": 319,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           "computed": true,
           "optional": false
@@ -146,8 +143,7 @@
           "type": "Literal",
           "start": 323,
           "end": 324,
-          "value": 9,
-          "raw": "9"
+          "value": 9
         }
       }
     },
@@ -352,8 +348,7 @@
                 "type": "Literal",
                 "start": 507,
                 "end": 509,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               }
             ],
             "optional": false
@@ -362,8 +357,7 @@
             "type": "Literal",
             "start": 512,
             "end": 576,
-            "value": "Array.prototype.reduceRight.call(obj, callbackfn, 11) !== true",
-            "raw": "'Array.prototype.reduceRight.call(obj, callbackfn, 11) !== true'"
+            "value": "Array.prototype.reduceRight.call(obj, callbackfn, 11) !== true"
           }
         ],
         "optional": false
@@ -394,8 +388,7 @@
             "type": "Literal",
             "start": 596,
             "end": 615,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

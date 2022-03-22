@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 342,
                 "end": 347,
-                "value": "UTC",
-                "raw": "\"UTC\""
+                "value": "UTC"
               }
             ]
           }
@@ -74,8 +73,7 @@
             "type": "Literal",
             "start": 361,
             "end": 379,
-            "value": "1970-01-01T00:00",
-            "raw": "\"1970-01-01T00:00\""
+            "value": "1970-01-01T00:00"
           }
         }
       ],
@@ -162,8 +160,7 @@
             "type": "Literal",
             "start": 452,
             "end": 493,
-            "value": "bare date-time string is not an instant",
-            "raw": "\"bare date-time string is not an instant\""
+            "value": "bare date-time string is not an instant"
           }
         ],
         "optional": false
@@ -188,8 +185,7 @@
           "type": "Literal",
           "start": 502,
           "end": 525,
-          "value": "1970-01-01T00:00[UTC]",
-          "raw": "\"1970-01-01T00:00[UTC]\""
+          "value": "1970-01-01T00:00[UTC]"
         }
       }
     },
@@ -274,8 +270,7 @@
             "type": "Literal",
             "start": 598,
             "end": 645,
-            "value": "date-time + IANA annotation is not an instant",
-            "raw": "\"date-time + IANA annotation is not an instant\""
+            "value": "date-time + IANA annotation is not an instant"
           }
         ],
         "optional": false
@@ -305,29 +300,25 @@
                 "type": "Literal",
                 "start": 729,
                 "end": 748,
-                "value": "1970-01-01T00:00Z",
-                "raw": "\"1970-01-01T00:00Z\""
+                "value": "1970-01-01T00:00Z"
               },
               {
                 "type": "Literal",
                 "start": 752,
                 "end": 776,
-                "value": "1970-01-01T00:00+01:00",
-                "raw": "\"1970-01-01T00:00+01:00\""
+                "value": "1970-01-01T00:00+01:00"
               },
               {
                 "type": "Literal",
                 "start": 780,
                 "end": 804,
-                "value": "1970-01-01T00:00Z[UTC]",
-                "raw": "\"1970-01-01T00:00Z[UTC]\""
+                "value": "1970-01-01T00:00Z[UTC]"
               },
               {
                 "type": "Literal",
                 "start": 808,
                 "end": 837,
-                "value": "1970-01-01T00:00+01:00[UTC]",
-                "raw": "\"1970-01-01T00:00+01:00[UTC]\""
+                "value": "1970-01-01T00:00+01:00[UTC]"
               }
             ]
           }
@@ -461,8 +452,7 @@
                   "type": "Literal",
                   "start": 953,
                   "end": 954,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               ],
               "optional": false

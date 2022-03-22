@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 911,
                             "end": 912,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -116,8 +115,7 @@
                         "type": "Literal",
                         "start": 948,
                         "end": 953,
-                        "value": "foo",
-                        "raw": "\"foo\""
+                        "value": "foo"
                       },
                       {
                         "type": "ObjectExpression",
@@ -258,8 +256,7 @@
                         "type": "Literal",
                         "start": 1073,
                         "end": 1107,
-                        "value": "`sample.foo` throws Test262Error",
-                        "raw": "'`sample.foo` throws Test262Error'"
+                        "value": "`sample.foo` throws Test262Error"
                       }
                     ],
                     "optional": false

@@ -23,7 +23,6 @@
             "start": 553,
             "end": 559,
             "value": {},
-            "raw": "/(?:)/",
             "regex": {
               "pattern": "(?:)",
               "flags": ""
@@ -91,8 +90,7 @@
             "type": "Literal",
             "start": 597,
             "end": 598,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       }
@@ -261,8 +259,7 @@
                 "type": "Literal",
                 "start": 709,
                 "end": 711,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               }
             ],
             "optional": false
@@ -277,8 +274,7 @@
               "type": "Literal",
               "start": 715,
               "end": 716,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         ],
@@ -323,8 +319,7 @@
             "type": "Literal",
             "start": 751,
             "end": 752,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         ],
         "optional": false

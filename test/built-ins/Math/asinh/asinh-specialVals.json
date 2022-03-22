@@ -87,8 +87,7 @@
             "type": "Literal",
             "start": 251,
             "end": 297,
-            "value": "Math.asinh produces incorrect output for NaN",
-            "raw": "\"Math.asinh produces incorrect output for NaN\""
+            "value": "Math.asinh produces incorrect output for NaN"
           }
         ],
         "optional": false
@@ -191,8 +190,7 @@
             "type": "Literal",
             "start": 383,
             "end": 457,
-            "value": "Math.asinh should produce negative infinity for Number.NEGATIVE_INFINITY",
-            "raw": "\"Math.asinh should produce negative infinity for Number.NEGATIVE_INFINITY\""
+            "value": "Math.asinh should produce negative infinity for Number.NEGATIVE_INFINITY"
           }
         ],
         "optional": false
@@ -295,8 +293,7 @@
             "type": "Literal",
             "start": 543,
             "end": 617,
-            "value": "Math.asinh should produce positive infinity for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.asinh should produce positive infinity for Number.POSITIVE_INFINITY\""
+            "value": "Math.asinh should produce positive infinity for Number.POSITIVE_INFINITY"
           }
         ],
         "optional": false
@@ -338,8 +335,7 @@
               "type": "Literal",
               "start": 637,
               "end": 638,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -376,8 +372,7 @@
                     "type": "Literal",
                     "start": 653,
                     "end": 654,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],
@@ -407,8 +402,7 @@
             "type": "Literal",
             "start": 685,
             "end": 722,
-            "value": "Math.asinh should produce -0 for -0",
-            "raw": "\"Math.asinh should produce -0 for -0\""
+            "value": "Math.asinh should produce -0 for -0"
           }
         ],
         "optional": false
@@ -450,8 +444,7 @@
               "type": "Literal",
               "start": 742,
               "end": 743,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -482,8 +475,7 @@
                   "type": "Literal",
                   "start": 757,
                   "end": 758,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               ],
               "optional": false
@@ -512,8 +504,7 @@
             "type": "Literal",
             "start": 789,
             "end": 826,
-            "value": "Math.asinh should produce +0 for +0",
-            "raw": "\"Math.asinh should produce +0 for +0\""
+            "value": "Math.asinh should produce +0 for +0"
           }
         ],
         "optional": false

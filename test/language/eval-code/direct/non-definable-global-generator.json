@@ -51,8 +51,7 @@
                   "type": "Literal",
                   "start": 1094,
                   "end": 1113,
-                  "value": "function* NaN(){}",
-                  "raw": "\"function* NaN(){}\""
+                  "value": "function* NaN(){}"
                 }
               ],
               "optional": false

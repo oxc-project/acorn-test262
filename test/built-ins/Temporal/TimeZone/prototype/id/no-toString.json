@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 340,
                 "end": 363,
-                "value": "get timeZone.toString",
-                "raw": "\"get timeZone.toString\""
+                "value": "get timeZone.toString"
               }
             ]
           }
@@ -104,8 +103,7 @@
                 "type": "Literal",
                 "start": 408,
                 "end": 413,
-                "value": "UTC",
-                "raw": "\"UTC\""
+                "value": "UTC"
               }
             ]
           }
@@ -151,8 +149,7 @@
             "type": "Literal",
             "start": 448,
             "end": 458,
-            "value": "toString",
-            "raw": "\"toString\""
+            "value": "toString"
           },
           {
             "type": "ObjectExpression",
@@ -219,8 +216,7 @@
                               "type": "Literal",
                               "start": 488,
                               "end": 511,
-                              "value": "get timeZone.toString",
-                              "raw": "\"get timeZone.toString\""
+                              "value": "get timeZone.toString"
                             }
                           ],
                           "optional": false

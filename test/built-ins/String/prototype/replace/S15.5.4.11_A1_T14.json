@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 319,
                 "end": 323,
-                "value": "77",
-                "raw": "\"77\""
+                "value": "77"
               }
             ]
           }
@@ -62,8 +61,7 @@
               "type": "Literal",
               "start": 420,
               "end": 452,
-              "value": "ABBABABAB77BBAA",
-              "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\""
+              "value": "ABBABABAB77BBAA"
             },
             "property": {
               "type": "Identifier",
@@ -85,8 +83,7 @@
               "type": "Literal",
               "start": 468,
               "end": 469,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ],
           "optional": false
@@ -96,8 +93,7 @@
           "type": "Literal",
           "start": 475,
           "end": 496,
-          "value": "ABBABABAB1BBAA",
-          "raw": "\"ABBABABAB\\u0031BBAA\""
+          "value": "ABBABABAB1BBAA"
         }
       },
       "consequent": {
@@ -128,8 +124,7 @@
                     "type": "Literal",
                     "start": 525,
                     "end": 651,
-                    "value": "#1: var __reg = new RegExp(\"77\"); \"ABB\\u0041BABAB\\u0037\\u0037BBAA\".replace(__reg, 1) === \"ABBABABAB\\u0031BBAA\". Actual: ",
-                    "raw": "'#1: var __reg = new RegExp(\"77\"); \"ABB\\\\u0041BABAB\\\\u0037\\\\u0037BBAA\".replace(__reg, 1) === \"ABBABABAB\\\\u0031BBAA\". Actual: '"
+                    "value": "#1: var __reg = new RegExp(\"77\"); \"ABB\\u0041BABAB\\u0037\\u0037BBAA\".replace(__reg, 1) === \"ABBABABAB\\u0031BBAA\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -148,8 +143,7 @@
                           "type": "Literal",
                           "start": 655,
                           "end": 687,
-                          "value": "ABBABABAB77BBAA",
-                          "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\""
+                          "value": "ABBABABAB77BBAA"
                         },
                         "property": {
                           "type": "Identifier",
@@ -171,8 +165,7 @@
                           "type": "Literal",
                           "start": 703,
                           "end": 704,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       ],
                       "optional": false

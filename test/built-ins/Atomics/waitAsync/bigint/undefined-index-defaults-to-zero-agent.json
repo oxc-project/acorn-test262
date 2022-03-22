@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 937,
             "end": 947,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 949,
             "end": 1004,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -94,8 +92,7 @@
             "type": "Literal",
             "start": 1027,
             "end": 1028,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -120,8 +117,7 @@
             "type": "Literal",
             "start": 1046,
             "end": 1047,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -146,8 +142,7 @@
             "type": "Literal",
             "start": 1066,
             "end": 1067,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -172,8 +167,7 @@
             "type": "Literal",
             "start": 1089,
             "end": 1090,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         }
       ],
@@ -404,8 +398,7 @@
                       "type": "Literal",
                       "start": 1715,
                       "end": 1716,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -597,8 +590,7 @@
                             "type": "Literal",
                             "start": 1877,
                             "end": 1960,
-                            "value": "The value of `agentCount` must return the same value returned by BigInt(NUMAGENT)",
-                            "raw": "'The value of `agentCount` must return the same value returned by BigInt(NUMAGENT)'"
+                            "value": "The value of `agentCount` must return the same value returned by BigInt(NUMAGENT)"
                           }
                         ],
                         "optional": false
@@ -687,8 +679,7 @@
                             "type": "Literal",
                             "start": 2059,
                             "end": 2197,
-                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT",
-                            "raw": "'Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT'"
+                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0, 2) must return the value of NOTIFYCOUNT"
                           }
                         ],
                         "optional": false
@@ -881,8 +872,7 @@
                               "type": "Literal",
                               "start": 2353,
                               "end": 2354,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             "computed": true,
                             "optional": false
@@ -891,15 +881,13 @@
                             "type": "Literal",
                             "start": 2357,
                             "end": 2363,
-                            "value": "A ok",
-                            "raw": "'A ok'"
+                            "value": "A ok"
                           },
                           {
                             "type": "Literal",
                             "start": 2365,
                             "end": 2400,
-                            "value": "The value of reports[0] is \"A ok\"",
-                            "raw": "'The value of reports[0] is \"A ok\"'"
+                            "value": "The value of reports[0] is \"A ok\""
                           }
                         ],
                         "optional": false
@@ -947,8 +935,7 @@
                               "type": "Literal",
                               "start": 2430,
                               "end": 2431,
-                              "value": 1,
-                              "raw": "1"
+                              "value": 1
                             },
                             "computed": true,
                             "optional": false
@@ -957,15 +944,13 @@
                             "type": "Literal",
                             "start": 2434,
                             "end": 2440,
-                            "value": "B ok",
-                            "raw": "'B ok'"
+                            "value": "B ok"
                           },
                           {
                             "type": "Literal",
                             "start": 2442,
                             "end": 2477,
-                            "value": "The value of reports[1] is \"B ok\"",
-                            "raw": "'The value of reports[1] is \"B ok\"'"
+                            "value": "The value of reports[1] is \"B ok\""
                           }
                         ],
                         "optional": false

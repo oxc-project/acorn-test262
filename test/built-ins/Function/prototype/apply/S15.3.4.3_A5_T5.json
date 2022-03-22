@@ -176,8 +176,7 @@
             "type": "Literal",
             "start": 422,
             "end": 471,
-            "value": "The value of obj.touched is expected to be true",
-            "raw": "'The value of obj.touched is expected to be true'"
+            "value": "The value of obj.touched is expected to be true"
           }
         ],
         "optional": false

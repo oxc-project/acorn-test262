@@ -23,7 +23,6 @@
             "start": 458,
             "end": 473,
             "value": {},
-            "raw": "/(?:ab|cd)\\d?/g",
             "regex": {
               "pattern": "(?:ab|cd)\\d?",
               "flags": "g"
@@ -65,8 +64,7 @@
           "type": "Literal",
           "start": 490,
           "end": 493,
-          "value": 100,
-          "raw": "100"
+          "value": 100
         }
       }
     },
@@ -113,8 +111,7 @@
                 "type": "Literal",
                 "start": 522,
                 "end": 531,
-                "value": "aacd22 ",
-                "raw": "\"aacd22 \""
+                "value": "aacd22 "
               }
             ],
             "optional": false
@@ -155,8 +152,7 @@
             "type": "Literal",
             "start": 555,
             "end": 604,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false
@@ -213,15 +209,13 @@
             "type": "Literal",
             "start": 640,
             "end": 641,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 643,
             "end": 692,
-            "value": "The value of __re.lastIndex is expected to be 0",
-            "raw": "'The value of __re.lastIndex is expected to be 0'"
+            "value": "The value of __re.lastIndex is expected to be 0"
           }
         ],
         "optional": false

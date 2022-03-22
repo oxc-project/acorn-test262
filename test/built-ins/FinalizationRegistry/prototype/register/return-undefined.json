@@ -172,8 +172,7 @@
             "type": "Literal",
             "start": 1169,
             "end": 1188,
-            "value": "Register a targer",
-            "raw": "'Register a targer'"
+            "value": "Register a targer"
           }
         ],
         "optional": false
@@ -250,8 +249,7 @@
             "type": "Literal",
             "start": 1258,
             "end": 1290,
-            "value": "Register the same target again",
-            "raw": "'Register the same target again'"
+            "value": "Register the same target again"
           }
         ],
         "optional": false
@@ -328,8 +326,7 @@
             "type": "Literal",
             "start": 1360,
             "end": 1402,
-            "value": "Register the same target again and again",
-            "raw": "'Register the same target again and again'"
+            "value": "Register the same target again and again"
           }
         ],
         "optional": false
@@ -406,8 +403,7 @@
             "type": "Literal",
             "start": 1469,
             "end": 1493,
-            "value": "Register other targets",
-            "raw": "'Register other targets'"
+            "value": "Register other targets"
           }
         ],
         "optional": false
@@ -496,8 +492,7 @@
             "type": "Literal",
             "start": 1579,
             "end": 1617,
-            "value": "Register target with unregisterToken",
-            "raw": "'Register target with unregisterToken'"
+            "value": "Register target with unregisterToken"
           }
         ],
         "optional": false
@@ -586,8 +581,7 @@
             "type": "Literal",
             "start": 1713,
             "end": 1779,
-            "value": "Register target with unregisterToken being the registered target",
-            "raw": "'Register target with unregisterToken being the registered target'"
+            "value": "Register target with unregisterToken being the registered target"
           }
         ],
         "optional": false
@@ -676,8 +670,7 @@
             "type": "Literal",
             "start": 1873,
             "end": 1930,
-            "value": "Register target with explicit undefined unregisterToken",
-            "raw": "'Register target with explicit undefined unregisterToken'"
+            "value": "Register target with explicit undefined unregisterToken"
           }
         ],
         "optional": false
@@ -754,8 +747,7 @@
             "type": "Literal",
             "start": 1997,
             "end": 2031,
-            "value": "register the cleanup callback fn",
-            "raw": "'register the cleanup callback fn'"
+            "value": "register the cleanup callback fn"
           }
         ],
         "optional": false

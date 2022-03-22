@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 526,
                 "end": 534,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 565,
                     "end": 648,
-                    "value": "#1: String.prototype.toLowerCase.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#1: String.prototype.toLowerCase.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#1: String.prototype.toLowerCase.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 695,
                         "end": 703,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -294,8 +291,7 @@
             "type": "Literal",
             "start": 890,
             "end": 898,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -326,8 +322,7 @@
                     "type": "Literal",
                     "start": 928,
                     "end": 937,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -426,8 +421,7 @@
                     "type": "Literal",
                     "start": 1111,
                     "end": 1286,
-                    "value": "#2: __obj = String.prototype.toLowerCase.length; String.prototype.toLowerCase.length = function(){return \"shifted\";}; String.prototype.toLowerCase.length === __obj. Actual: ",
-                    "raw": "'#2: __obj = String.prototype.toLowerCase.length; String.prototype.toLowerCase.length = function(){return \"shifted\";}; String.prototype.toLowerCase.length === __obj. Actual: '"
+                    "value": "#2: __obj = String.prototype.toLowerCase.length; String.prototype.toLowerCase.length = function(){return \"shifted\";}; String.prototype.toLowerCase.length === __obj. Actual: "
                   },
                   "operator": "+",
                   "right": {

@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 442,
                 "end": 443,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ]
           }
@@ -131,15 +130,13 @@
             "type": "Literal",
             "start": 498,
             "end": 499,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 501,
             "end": 544,
-            "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "value": "The value of x.length is expected to be 1"
           }
         ],
         "optional": false
@@ -187,8 +184,7 @@
               "type": "Literal",
               "start": 566,
               "end": 567,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -203,8 +199,7 @@
             "type": "Literal",
             "start": 575,
             "end": 632,
-            "value": "The value of x[0] is expected to equal the value of obj",
-            "raw": "'The value of x[0] is expected to equal the value of obj'"
+            "value": "The value of x[0] is expected to equal the value of obj"
           }
         ],
         "optional": false
@@ -240,8 +235,7 @@
                 "type": "Literal",
                 "start": 657,
                 "end": 658,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -338,15 +332,13 @@
             "type": "Literal",
             "start": 713,
             "end": 714,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 716,
             "end": 759,
-            "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "value": "The value of x.length is expected to be 1"
           }
         ],
         "optional": false
@@ -394,8 +386,7 @@
               "type": "Literal",
               "start": 781,
               "end": 782,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -410,8 +401,7 @@
             "type": "Literal",
             "start": 790,
             "end": 847,
-            "value": "The value of x[0] is expected to equal the value of obj",
-            "raw": "'The value of x[0] is expected to equal the value of obj'"
+            "value": "The value of x[0] is expected to equal the value of obj"
           }
         ],
         "optional": false
@@ -447,8 +437,7 @@
                 "type": "Literal",
                 "start": 872,
                 "end": 882,
-                "value": 4294967295,
-                "raw": "4294967295"
+                "value": 4294967295
               }
             ]
           }
@@ -545,15 +534,13 @@
             "type": "Literal",
             "start": 937,
             "end": 938,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 940,
             "end": 983,
-            "value": "The value of x.length is expected to be 1",
-            "raw": "'The value of x.length is expected to be 1'"
+            "value": "The value of x.length is expected to be 1"
           }
         ],
         "optional": false
@@ -601,8 +588,7 @@
               "type": "Literal",
               "start": 1005,
               "end": 1006,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -617,8 +603,7 @@
             "type": "Literal",
             "start": 1014,
             "end": 1071,
-            "value": "The value of x[0] is expected to equal the value of obj",
-            "raw": "'The value of x[0] is expected to equal the value of obj'"
+            "value": "The value of x[0] is expected to equal the value of obj"
           }
         ],
         "optional": false

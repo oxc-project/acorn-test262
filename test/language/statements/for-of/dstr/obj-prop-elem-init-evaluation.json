@@ -106,8 +106,7 @@
             "type": "Literal",
             "start": 1147,
             "end": 1148,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -242,8 +241,7 @@
                   "type": "Literal",
                   "start": 1210,
                   "end": 1211,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               }
@@ -301,8 +299,7 @@
                   "type": "Literal",
                   "start": 1246,
                   "end": 1260,
-                  "value": "value of `x`",
-                  "raw": "'value of `x`'"
+                  "value": "value of `x`"
                 }
               ],
               "optional": false
@@ -353,8 +350,7 @@
                   "type": "Literal",
                   "start": 1295,
                   "end": 1313,
-                  "value": "value of `flag1`",
-                  "raw": "'value of `flag1`'"
+                  "value": "value of `flag1`"
                 }
               ],
               "optional": false
@@ -398,15 +394,13 @@
                   "type": "Literal",
                   "start": 1338,
                   "end": 1339,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 1341,
                   "end": 1355,
-                  "value": "value of `y`",
-                  "raw": "'value of `y`'"
+                  "value": "value of `y`"
                 }
               ],
               "optional": false
@@ -457,8 +451,7 @@
                   "type": "Literal",
                   "start": 1391,
                   "end": 1409,
-                  "value": "value of `flag2`",
-                  "raw": "'value of `flag2`'"
+                  "value": "value of `flag2`"
                 }
               ],
               "optional": false
@@ -483,8 +476,7 @@
                 "type": "Literal",
                 "start": 1425,
                 "end": 1426,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -529,8 +521,7 @@
             "type": "Literal",
             "start": 1457,
             "end": 1458,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

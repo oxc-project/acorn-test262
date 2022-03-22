@@ -237,8 +237,7 @@
                 "type": "Literal",
                 "start": 522,
                 "end": 528,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             ],
             "optional": false
@@ -301,8 +300,7 @@
                 "type": "Literal",
                 "start": 567,
                 "end": 573,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -366,8 +364,7 @@
             "type": "Literal",
             "start": 629,
             "end": 651,
-            "value": "hasProperty !== true",
-            "raw": "'hasProperty !== true'"
+            "value": "hasProperty !== true"
           }
         ],
         "optional": false
@@ -418,8 +415,7 @@
             "type": "Literal",
             "start": 692,
             "end": 706,
-            "value": "isEnumerable",
-            "raw": "'isEnumerable'"
+            "value": "isEnumerable"
           }
         ],
         "optional": false

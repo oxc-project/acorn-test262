@@ -52,8 +52,7 @@
               "type": "Literal",
               "start": 544,
               "end": 545,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -63,8 +62,7 @@
         "type": "Literal",
         "start": 547,
         "end": 548,
-        "value": 2,
-        "raw": "2"
+        "value": 2
       },
       "update": null,
       "body": {
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 629,
             "end": 648,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

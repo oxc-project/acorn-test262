@@ -69,8 +69,7 @@
                     "type": "Literal",
                     "start": 562,
                     "end": 563,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ],
@@ -100,8 +99,7 @@
                     "type": "Literal",
                     "start": 591,
                     "end": 662,
-                    "value": "#1.1: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: '"
+                    "value": "#1.1: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -140,8 +138,7 @@
                             "type": "Literal",
                             "start": 676,
                             "end": 677,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       ],
@@ -237,8 +234,7 @@
                             "type": "Literal",
                             "start": 773,
                             "end": 844,
-                            "value": "#1.2: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: '"
+                            "value": "#1.2: function f_arg() {} f_arg(x,x=1) throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

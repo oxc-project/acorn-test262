@@ -65,8 +65,7 @@
                   "type": "Literal",
                   "start": 340,
                   "end": 350,
-                  "value": "setHours",
-                  "raw": "'setHours'"
+                  "value": "setHours"
                 }
               ],
               "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 355,
             "end": 443,
-            "value": "The value of !Date.prototype.propertyIsEnumerable('setHours') is expected to be true",
-            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'setHours\\') is expected to be true'"
+            "value": "The value of !Date.prototype.propertyIsEnumerable('setHours') is expected to be true"
           }
         ],
         "optional": false
@@ -169,15 +167,13 @@
                   "type": "Literal",
                   "start": 505,
                   "end": 515,
-                  "value": "setHours",
-                  "raw": "\"setHours\""
+                  "value": "setHours"
                 },
                 {
                   "type": "Literal",
                   "start": 517,
                   "end": 551,
-                  "value": "The value of x is not \"setHours\"",
-                  "raw": "'The value of x is not \"setHours\"'"
+                  "value": "The value of x is not \"setHours\""
                 }
               ],
               "optional": false

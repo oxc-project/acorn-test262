@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 459,
                           "end": 474,
-                          "value": "insearchValue",
-                          "raw": "\"insearchValue\""
+                          "value": "insearchValue"
                         }
                       }
                     ]
@@ -128,8 +127,7 @@
                           "type": "Literal",
                           "start": 533,
                           "end": 549,
-                          "value": "inreplaceValue",
-                          "raw": "\"inreplaceValue\""
+                          "value": "inreplaceValue"
                         }
                       }
                     ]
@@ -162,8 +160,7 @@
             "type": "Literal",
             "start": 570,
             "end": 586,
-            "value": "ABBABABAB",
-            "raw": "\"ABB\\u0041BABAB\""
+            "value": "ABBABABAB"
           }
         }
       ],
@@ -255,8 +252,7 @@
                   "type": "Literal",
                   "start": 749,
                   "end": 819,
-                  "value": "#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception",
-                  "raw": "'#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception'"
+                  "value": "#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception"
                 }
               ]
             }
@@ -297,8 +293,7 @@
                   "type": "Literal",
                   "start": 848,
                   "end": 863,
-                  "value": "insearchValue",
-                  "raw": "\"insearchValue\""
+                  "value": "insearchValue"
                 }
               },
               "consequent": {
@@ -329,8 +324,7 @@
                             "type": "Literal",
                             "start": 894,
                             "end": 941,
-                            "value": "#1.1: Exception === \"insearchValue\". Actual: ",
-                            "raw": "'#1.1: Exception === \"insearchValue\". Actual: '"
+                            "value": "#1.1: Exception === \"insearchValue\". Actual: "
                           },
                           "operator": "+",
                           "right": {

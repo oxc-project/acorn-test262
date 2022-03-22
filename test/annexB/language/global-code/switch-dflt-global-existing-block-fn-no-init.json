@@ -83,8 +83,7 @@
         "type": "Literal",
         "start": 755,
         "end": 756,
-        "value": 1,
-        "raw": "1"
+        "value": 1
       },
       "cases": [
         {

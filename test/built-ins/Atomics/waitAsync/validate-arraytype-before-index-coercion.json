@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 1344,
             "end": 1354,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 1356,
             "end": 1411,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -301,8 +299,7 @@
                           "type": "Literal",
                           "start": 1750,
                           "end": 1751,
-                          "value": 8,
-                          "raw": "8"
+                          "value": 8
                         }
                       ]
                     }
@@ -404,15 +401,13 @@
                               "type": "Literal",
                               "start": 1836,
                               "end": 1837,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1839,
                               "end": 1840,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           ],
                           "optional": false
@@ -425,8 +420,7 @@
                   "type": "Literal",
                   "start": 1848,
                   "end": 1923,
-                  "value": "`Atomics.waitAsync(typedArray, index, 0, 0)` throws a TypeError exception",
-                  "raw": "'`Atomics.waitAsync(typedArray, index, 0, 0)` throws a TypeError exception'"
+                  "value": "`Atomics.waitAsync(typedArray, index, 0, 0)` throws a TypeError exception"
                 }
               ],
               "optional": false

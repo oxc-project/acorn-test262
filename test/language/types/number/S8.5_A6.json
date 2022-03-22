@@ -66,8 +66,7 @@
           "type": "Literal",
           "start": 345,
           "end": 353,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -98,8 +97,7 @@
                     "type": "Literal",
                     "start": 381,
                     "end": 436,
-                    "value": "#1: var x=-Infinity; typeof(x) === \"number\". Actual: ",
-                    "raw": "'#1: var x=-Infinity; typeof(x) === \"number\". Actual: '"
+                    "value": "#1: var x=-Infinity; typeof(x) === \"number\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -171,8 +169,7 @@
           "type": "Literal",
           "start": 611,
           "end": 619,
-          "value": "number",
-          "raw": "\"number\""
+          "value": "number"
         }
       },
       "consequent": {
@@ -203,8 +200,7 @@
                     "type": "Literal",
                     "start": 647,
                     "end": 693,
-                    "value": "#2: typeof(-Infinity) === \"number\". Actual: ",
-                    "raw": "'#2: typeof(-Infinity) === \"number\". Actual: '"
+                    "value": "#2: typeof(-Infinity) === \"number\". Actual: "
                   },
                   "operator": "+",
                   "right": {

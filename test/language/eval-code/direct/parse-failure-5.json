@@ -31,8 +31,7 @@
                   "type": "Literal",
                   "start": 345,
                   "end": 354,
-                  "value": "return;",
-                  "raw": "\"return;\""
+                  "value": "return;"
                 }
               ],
               "optional": false
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 382,
                     "end": 429,
-                    "value": "#1.1: return must throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: return must throw SyntaxError. Actual: '"
+                    "value": "#1.1: return must throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -84,8 +82,7 @@
                           "type": "Literal",
                           "start": 438,
                           "end": 447,
-                          "value": "return;",
-                          "raw": "\"return;\""
+                          "value": "return;"
                         }
                       ],
                       "optional": false
@@ -180,8 +177,7 @@
                             "type": "Literal",
                             "start": 537,
                             "end": 584,
-                            "value": "#1.2: return must throw SyntaxError. Actual: ",
-                            "raw": "'#1.2: return must throw SyntaxError. Actual: '"
+                            "value": "#1.2: return must throw SyntaxError. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -246,8 +242,7 @@
                   "type": "Literal",
                   "start": 634,
                   "end": 643,
-                  "value": "return;",
-                  "raw": "\"return;\""
+                  "value": "return;"
                 }
               ],
               "optional": false
@@ -311,8 +306,7 @@
                     "type": "Literal",
                     "start": 694,
                     "end": 741,
-                    "value": "#2.1: return must throw SyntaxError. Actual: ",
-                    "raw": "'#2.1: return must throw SyntaxError. Actual: '"
+                    "value": "#2.1: return must throw SyntaxError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -422,8 +416,7 @@
                             "type": "Literal",
                             "start": 837,
                             "end": 884,
-                            "value": "#2.2: return must throw SyntaxError. Actual: ",
-                            "raw": "'#2.2: return must throw SyntaxError. Actual: '"
+                            "value": "#2.2: return must throw SyntaxError. Actual: "
                           },
                           "operator": "+",
                           "right": {

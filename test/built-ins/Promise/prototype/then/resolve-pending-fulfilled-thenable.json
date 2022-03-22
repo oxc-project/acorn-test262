@@ -395,8 +395,7 @@
                               "type": "Literal",
                               "start": 1327,
                               "end": 1411,
-                              "value": "The promise should be fulfilled with the resolution value of the provided promise.",
-                              "raw": "'The promise should be fulfilled with the resolution value of the provided promise.'"
+                              "value": "The promise should be fulfilled with the resolution value of the provided promise."
                             }
                           ],
                           "optional": false
@@ -466,8 +465,7 @@
                         "type": "Literal",
                         "start": 1466,
                         "end": 1503,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

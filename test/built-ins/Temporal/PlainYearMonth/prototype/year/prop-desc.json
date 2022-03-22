@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 371,
                 "end": 377,
-                "value": "year",
-                "raw": "\"year\""
+                "value": "year"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 420,
             "end": 430,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

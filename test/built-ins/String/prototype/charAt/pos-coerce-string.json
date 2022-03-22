@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 388,
-                "value": "abcd",
-                "raw": "'abcd'"
+                "value": "abcd"
               },
               "property": {
                 "type": "Identifier",
@@ -60,8 +59,7 @@
                 "type": "Literal",
                 "start": 396,
                 "end": 421,
-                "value": "   +00200.0000E-0002   ",
-                "raw": "'   +00200.0000E-0002   '"
+                "value": "   +00200.0000E-0002   "
               }
             ],
             "optional": false
@@ -70,8 +68,7 @@
             "type": "Literal",
             "start": 424,
             "end": 427,
-            "value": "c",
-            "raw": "'c'"
+            "value": "c"
           }
         ],
         "optional": false

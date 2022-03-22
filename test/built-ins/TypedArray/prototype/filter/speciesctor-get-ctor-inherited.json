@@ -74,29 +74,25 @@
                                 "type": "Literal",
                                 "start": 860,
                                 "end": 862,
-                                "value": 40,
-                                "raw": "40"
+                                "value": 40
                               },
                               {
                                 "type": "Literal",
                                 "start": 864,
                                 "end": 866,
-                                "value": 41,
-                                "raw": "41"
+                                "value": 41
                               },
                               {
                                 "type": "Literal",
                                 "start": 868,
                                 "end": 870,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 872,
                                 "end": 874,
-                                "value": 43,
-                                "raw": "43"
+                                "value": 43
                               }
                             ]
                           }
@@ -125,8 +121,7 @@
                         "type": "Literal",
                         "start": 892,
                         "end": 893,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -203,8 +198,7 @@
                         "type": "Literal",
                         "start": 948,
                         "end": 961,
-                        "value": "constructor",
-                        "raw": "\"constructor\""
+                        "value": "constructor"
                       },
                       {
                         "type": "ObjectExpression",
@@ -378,15 +372,13 @@
                         "type": "Literal",
                         "start": 1103,
                         "end": 1104,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       },
                       {
                         "type": "Literal",
                         "start": 1106,
                         "end": 1144,
-                        "value": "called custom ctor get accessor once",
-                        "raw": "\"called custom ctor get accessor once\""
+                        "value": "called custom ctor get accessor once"
                       }
                     ],
                     "optional": false
@@ -490,8 +482,7 @@
                         "type": "Literal",
                         "start": 1242,
                         "end": 1305,
-                        "value": "use defaultCtor on an undefined return - getPrototypeOf check",
-                        "raw": "\"use defaultCtor on an undefined return - getPrototypeOf check\""
+                        "value": "use defaultCtor on an undefined return - getPrototypeOf check"
                       }
                     ],
                     "optional": false
@@ -554,8 +545,7 @@
                         "type": "Literal",
                         "start": 1374,
                         "end": 1436,
-                        "value": "used defaultCtor but still checks the inherited .constructor",
-                        "raw": "\"used defaultCtor but still checks the inherited .constructor\""
+                        "value": "used defaultCtor but still checks the inherited .constructor"
                       }
                     ],
                     "optional": false
@@ -580,8 +570,7 @@
                       "type": "Literal",
                       "start": 1453,
                       "end": 1454,
-                      "value": 6,
-                      "raw": "6"
+                      "value": 6
                     }
                   }
                 },
@@ -647,15 +636,13 @@
                         "type": "Literal",
                         "start": 1513,
                         "end": 1514,
-                        "value": 7,
-                        "raw": "7"
+                        "value": 7
                       },
                       {
                         "type": "Literal",
                         "start": 1520,
                         "end": 1581,
-                        "value": "result.constructor triggers the inherited accessor property",
-                        "raw": "\"result.constructor triggers the inherited accessor property\""
+                        "value": "result.constructor triggers the inherited accessor property"
                       }
                     ],
                     "optional": false

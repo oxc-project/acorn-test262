@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 389,
               "end": 397,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -82,8 +81,7 @@
                     "type": "Literal",
                     "start": 436,
                     "end": 506,
-                    "value": "#1: decodeURIComponent.hasOwnProperty('length') === true. Actual: ",
-                    "raw": "'#1: decodeURIComponent.hasOwnProperty(\\'length\\') === true. Actual: '"
+                    "value": "#1: decodeURIComponent.hasOwnProperty('length') === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -118,8 +116,7 @@
                           "type": "Literal",
                           "start": 544,
                           "end": 552,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -200,8 +197,7 @@
               "type": "Literal",
               "start": 643,
               "end": 651,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -243,8 +239,7 @@
                     "type": "Literal",
                     "start": 691,
                     "end": 796,
-                    "value": "#2: delete decodeURIComponent.length; decodeURIComponent.hasOwnProperty('length') === false. Actual: ",
-                    "raw": "'#2: delete decodeURIComponent.length; decodeURIComponent.hasOwnProperty(\\'length\\') === false. Actual: '"
+                    "value": "#2: delete decodeURIComponent.length; decodeURIComponent.hasOwnProperty('length') === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -279,8 +274,7 @@
                           "type": "Literal",
                           "start": 834,
                           "end": 842,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -353,8 +347,7 @@
                   "type": "Literal",
                   "start": 932,
                   "end": 1011,
-                  "value": "#3: delete decodeURIComponent.length; decodeURIComponent.length !== undefined",
-                  "raw": "'#3: delete decodeURIComponent.length; decodeURIComponent.length !== undefined'"
+                  "value": "#3: delete decodeURIComponent.length; decodeURIComponent.length !== undefined"
                 }
               ]
             }

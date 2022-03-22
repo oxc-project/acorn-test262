@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 893,
                     "end": 895,
                     "name": "m"
@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 907,
                             "end": 916,
-                            "value": "test262",
-                            "raw": "'test262'"
+                            "value": "test262"
                           }
                         }
                       ]
@@ -73,10 +72,9 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 923,
                   "end": 981,
-                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -147,14 +145,14 @@
                                         "end": 965,
                                         "name": "o"
                                       },
+                                      "computed": false,
+                                      "optional": false,
                                       "property": {
-                                        "type": "PrivateIdentifier",
+                                        "type": "PrivateName",
                                         "start": 966,
                                         "end": 968,
                                         "name": "m"
-                                      },
-                                      "computed": false,
-                                      "optional": false
+                                      }
                                     },
                                     "arguments": [],
                                     "optional": false
@@ -315,8 +313,7 @@
             "type": "Literal",
             "start": 1061,
             "end": 1070,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false

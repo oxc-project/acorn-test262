@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 395,
-                "value": "microsecond",
-                "raw": "\"microsecond\""
+                "value": "microsecond"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 438,
             "end": 448,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

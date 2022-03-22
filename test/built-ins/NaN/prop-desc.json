@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 397,
             "end": 402,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           },
           {
             "type": "ObjectExpression",

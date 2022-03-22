@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 638,
                               "end": 642,
-                              "value": "ab",
-                              "raw": "\"ab\""
+                              "value": "ab"
                             },
                             {
                               "type": "Literal",
                               "start": 644,
                               "end": 647,
-                              "value": "a",
-                              "raw": "\"a\""
+                              "value": "a"
                             }
                           ]
                         }
@@ -130,8 +128,7 @@
                         "type": "Literal",
                         "start": 673,
                         "end": 674,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   },
@@ -185,8 +182,7 @@
                               "type": "Literal",
                               "start": 705,
                               "end": 708,
-                              "value": "b",
-                              "raw": "\"b\""
+                              "value": "b"
                             },
                             "kind": "init"
                           }
@@ -266,8 +262,7 @@
                         "type": "Literal",
                         "start": 761,
                         "end": 764,
-                        "value": "c",
-                        "raw": "\"c\""
+                        "value": "c"
                       }
                     }
                   },
@@ -368,8 +363,7 @@
                 "type": "Literal",
                 "start": 849,
                 "end": 853,
-                "value": "ab",
-                "raw": "\"ab\""
+                "value": "ab"
               }
             ],
             "optional": false
@@ -505,8 +499,7 @@
                 "type": "Literal",
                 "start": 951,
                 "end": 959,
-                "value": "groups",
-                "raw": "\"groups\""
+                "value": "groups"
               }
             ],
             "optional": false
@@ -547,8 +540,7 @@
             "type": "Literal",
             "start": 980,
             "end": 983,
-            "value": "b",
-            "raw": "\"b\""
+            "value": "b"
           },
           {
             "type": "MemberExpression",
@@ -618,8 +610,7 @@
             "type": "Literal",
             "start": 1020,
             "end": 1023,
-            "value": "b",
-            "raw": "\"b\""
+            "value": "b"
           },
           {
             "type": "CallExpression",
@@ -633,8 +624,7 @@
                 "type": "Literal",
                 "start": 1025,
                 "end": 1029,
-                "value": "ab",
-                "raw": "\"ab\""
+                "value": "ab"
               },
               "property": {
                 "type": "Identifier",
@@ -656,8 +646,7 @@
                 "type": "Literal",
                 "start": 1042,
                 "end": 1048,
-                "value": "$<a>",
-                "raw": "\"$<a>\""
+                "value": "$<a>"
               }
             ],
             "optional": false
@@ -698,8 +687,7 @@
             "type": "Literal",
             "start": 1069,
             "end": 1072,
-            "value": "c",
-            "raw": "\"c\""
+            "value": "c"
           },
           {
             "type": "CallExpression",
@@ -713,8 +701,7 @@
                 "type": "Literal",
                 "start": 1074,
                 "end": 1078,
-                "value": "ab",
-                "raw": "\"ab\""
+                "value": "ab"
               },
               "property": {
                 "type": "Identifier",
@@ -736,8 +723,7 @@
                 "type": "Literal",
                 "start": 1091,
                 "end": 1097,
-                "value": "$<b>",
-                "raw": "\"$<b>\""
+                "value": "$<b>"
               }
             ],
             "optional": false

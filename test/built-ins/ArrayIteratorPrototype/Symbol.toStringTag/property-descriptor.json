@@ -120,8 +120,7 @@
             "type": "Literal",
             "start": 662,
             "end": 678,
-            "value": "Array Iterator",
-            "raw": "\"Array Iterator\""
+            "value": "Array Iterator"
           },
           {
             "type": "MemberExpression",

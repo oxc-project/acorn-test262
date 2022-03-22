@@ -196,15 +196,13 @@
                     "type": "Literal",
                     "start": 924,
                     "end": 928,
-                    "value": 1970,
-                    "raw": "1970"
+                    "value": 1970
                   },
                   {
                     "type": "Literal",
                     "start": 930,
                     "end": 931,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ]
               },

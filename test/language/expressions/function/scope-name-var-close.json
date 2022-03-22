@@ -128,8 +128,7 @@
             "type": "Literal",
             "start": 787,
             "end": 796,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         }
       ],
@@ -191,8 +190,7 @@
             "type": "Literal",
             "start": 828,
             "end": 837,
-            "value": "outside",
-            "raw": "'outside'"
+            "value": "outside"
           }
         ],
         "optional": false

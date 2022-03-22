@@ -45,8 +45,7 @@
                 "type": "Literal",
                 "start": 304,
                 "end": 307,
-                "value": "5",
-                "raw": "\"5\""
+                "value": "5"
               }
             }
           },
@@ -54,15 +53,13 @@
             "type": "Literal",
             "start": 310,
             "end": 311,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 313,
             "end": 356,
-            "value": "The value of `+(\"5\")` is expected to be 5",
-            "raw": "'The value of `+(\"5\")` is expected to be 5'"
+            "value": "The value of `+(\"5\")` is expected to be 5"
           }
         ],
         "optional": false
@@ -111,8 +108,7 @@
                 "type": "Literal",
                 "start": 383,
                 "end": 388,
-                "value": "0x5",
-                "raw": "\"0x5\""
+                "value": "0x5"
               }
             ],
             "optional": false
@@ -121,15 +117,13 @@
             "type": "Literal",
             "start": 391,
             "end": 392,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 394,
             "end": 423,
-            "value": "Number(\"0x5\") must return 5",
-            "raw": "'Number(\"0x5\") must return 5'"
+            "value": "Number(\"0x5\") must return 5"
           }
         ],
         "optional": false
@@ -178,8 +172,7 @@
                 "type": "Literal",
                 "start": 450,
                 "end": 455,
-                "value": "0X5",
-                "raw": "\"0X5\""
+                "value": "0X5"
               }
             ],
             "optional": false
@@ -188,15 +181,13 @@
             "type": "Literal",
             "start": 458,
             "end": 459,
-            "value": 5,
-            "raw": "5"
+            "value": 5
           },
           {
             "type": "Literal",
             "start": 461,
             "end": 490,
-            "value": "Number(\"0X5\") must return 5",
-            "raw": "'Number(\"0X5\") must return 5'"
+            "value": "Number(\"0X5\") must return 5"
           }
         ],
         "optional": false

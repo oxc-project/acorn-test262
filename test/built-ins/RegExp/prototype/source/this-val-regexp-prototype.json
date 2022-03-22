@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 563,
                   "end": 571,
-                  "value": "source",
-                  "raw": "'source'"
+                  "value": "source"
                 }
               ],
               "optional": false
@@ -166,8 +165,7 @@
             "type": "Literal",
             "start": 624,
             "end": 630,
-            "value": "(?:)",
-            "raw": "'(?:)'"
+            "value": "(?:)"
           }
         ],
         "optional": false

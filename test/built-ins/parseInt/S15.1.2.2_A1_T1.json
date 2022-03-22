@@ -62,8 +62,7 @@
             "type": "Literal",
             "start": 288,
             "end": 320,
-            "value": "parseInt(true) must return NaN",
-            "raw": "'parseInt(true) must return NaN'"
+            "value": "parseInt(true) must return NaN"
           }
         ],
         "optional": false
@@ -128,8 +127,7 @@
             "type": "Literal",
             "start": 362,
             "end": 395,
-            "value": "parseInt(false) must return NaN",
-            "raw": "'parseInt(false) must return NaN'"
+            "value": "parseInt(false) must return NaN"
           }
         ],
         "optional": false

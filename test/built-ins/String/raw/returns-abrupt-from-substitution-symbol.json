@@ -45,22 +45,19 @@
                       "type": "Literal",
                       "start": 1229,
                       "end": 1232,
-                      "value": "a",
-                      "raw": "'a'"
+                      "value": "a"
                     },
                     {
                       "type": "Literal",
                       "start": 1234,
                       "end": 1237,
-                      "value": "b",
-                      "raw": "'b'"
+                      "value": "b"
                     },
                     {
                       "type": "Literal",
                       "start": 1239,
                       "end": 1242,
-                      "value": "c",
-                      "raw": "'c'"
+                      "value": "c"
                     }
                   ]
                 },
@@ -158,8 +155,7 @@
                         "type": "Literal",
                         "start": 1309,
                         "end": 1311,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       },
                       {
                         "type": "CallExpression",
@@ -176,8 +172,7 @@
                             "type": "Literal",
                             "start": 1320,
                             "end": 1322,
-                            "value": "",
-                            "raw": "''"
+                            "value": ""
                           }
                         ],
                         "optional": false
@@ -290,8 +285,7 @@
                             "type": "Literal",
                             "start": 1399,
                             "end": 1401,
-                            "value": "",
-                            "raw": "''"
+                            "value": ""
                           }
                         ],
                         "optional": false
@@ -300,8 +294,7 @@
                         "type": "Literal",
                         "start": 1404,
                         "end": 1406,
-                        "value": "",
-                        "raw": "''"
+                        "value": ""
                       }
                     ],
                     "optional": false

@@ -198,8 +198,7 @@
             "type": "Literal",
             "start": 639,
             "end": 688,
-            "value": "[].findIndex(predicate) does not call predicate",
-            "raw": "'[].findIndex(predicate) does not call predicate'"
+            "value": "[].findIndex(predicate) does not call predicate"
           }
         ],
         "optional": false
@@ -249,16 +248,14 @@
               "type": "Literal",
               "start": 721,
               "end": 722,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 726,
             "end": 770,
-            "value": "[].findIndex(predicate) returned undefined",
-            "raw": "'[].findIndex(predicate) returned undefined'"
+            "value": "[].findIndex(predicate) returned undefined"
           }
         ],
         "optional": false

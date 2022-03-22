@@ -193,8 +193,7 @@
                           "type": "Literal",
                           "start": 756,
                           "end": 810,
-                          "value": "Expected promise to be rejected, got fulfilled with ",
-                          "raw": "'Expected promise to be rejected, got fulfilled with '"
+                          "value": "Expected promise to be rejected, got fulfilled with "
                         },
                         "operator": "+",
                         "right": {
@@ -338,8 +337,7 @@
             "type": "Literal",
             "start": 949,
             "end": 950,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -387,8 +385,7 @@
                       "type": "Literal",
                       "start": 981,
                       "end": 982,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "kind": "init"
                   },
@@ -409,8 +406,7 @@
                       "type": "Literal",
                       "start": 990,
                       "end": 992,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     },
                     "kind": "init"
                   }
@@ -438,8 +434,7 @@
                       "type": "Literal",
                       "start": 1008,
                       "end": 1009,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   },
@@ -460,8 +455,7 @@
                       "type": "Literal",
                       "start": 1017,
                       "end": 1019,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     },
                     "kind": "init"
                   }
@@ -651,8 +645,7 @@
                       "type": "Literal",
                       "start": 1163,
                       "end": 1204,
-                      "value": "isConstructor(reject) must return false",
-                      "raw": "'isConstructor(reject) must return false'"
+                      "value": "isConstructor(reject) must return false"
                     }
                   ],
                   "optional": false
@@ -730,8 +723,7 @@
                       "type": "Literal",
                       "start": 1265,
                       "end": 1298,
-                      "value": "`new reject()` throws TypeError",
-                      "raw": "'`new reject()` throws TypeError'"
+                      "value": "`new reject()` throws TypeError"
                     }
                   ],
                   "optional": false
@@ -820,8 +812,7 @@
                       "type": "Literal",
                       "start": 1374,
                       "end": 1460,
-                      "value": "The value of resolve.length is expected to equal the value of expected[calls].length",
-                      "raw": "'The value of resolve.length is expected to equal the value of expected[calls].length'"
+                      "value": "The value of resolve.length is expected to equal the value of expected[calls].length"
                     }
                   ],
                   "optional": false
@@ -910,8 +901,7 @@
                       "type": "Literal",
                       "start": 1534,
                       "end": 1616,
-                      "value": "The value of resolve.name is expected to equal the value of expected[calls].name",
-                      "raw": "'The value of resolve.name is expected to equal the value of expected[calls].name'"
+                      "value": "The value of resolve.name is expected to equal the value of expected[calls].name"
                     }
                   ],
                   "optional": false
@@ -936,8 +926,7 @@
                     "type": "Literal",
                     "start": 1638,
                     "end": 1639,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 },
                 "consequent": {
@@ -989,8 +978,7 @@
                             "type": "Literal",
                             "start": 1679,
                             "end": 1709,
-                            "value": "`resolve()` throws `MyError`",
-                            "raw": "'`resolve()` throws `MyError`'"
+                            "value": "`resolve()` throws `MyError`"
                           }
                         ],
                         "optional": false
@@ -1019,8 +1007,7 @@
                     "type": "Literal",
                     "start": 1728,
                     "end": 1729,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },

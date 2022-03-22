@@ -96,8 +96,7 @@
                 "type": "Literal",
                 "start": 389,
                 "end": 390,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -112,8 +111,7 @@
             "type": "Literal",
             "start": 398,
             "end": 430,
-            "value": "`map.set({}, 1)` returns `map`",
-            "raw": "'`map.set({}, 1)` returns `map`'"
+            "value": "`map.set({}, 1)` returns `map`"
           }
         ],
         "optional": false

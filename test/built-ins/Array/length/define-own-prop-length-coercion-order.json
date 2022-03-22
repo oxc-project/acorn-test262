@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 1091,
                 "end": 1092,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 1094,
                 "end": 1095,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -62,8 +60,7 @@
             "type": "Literal",
             "start": 1117,
             "end": 1118,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -135,8 +132,7 @@
                             "type": "Literal",
                             "start": 1179,
                             "end": 1180,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },
@@ -159,8 +155,7 @@
                             "type": "Literal",
                             "start": 1207,
                             "end": 1208,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         },
                         "consequent": {
@@ -206,8 +201,7 @@
                                     "type": "Literal",
                                     "start": 1286,
                                     "end": 1294,
-                                    "value": "length",
-                                    "raw": "\"length\""
+                                    "value": "length"
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -367,8 +361,7 @@
                         "type": "Literal",
                         "start": 1425,
                         "end": 1433,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       },
                       {
                         "type": "ObjectExpression",
@@ -431,8 +424,7 @@
             "type": "Literal",
             "start": 1472,
             "end": 1574,
-            "value": "Object.defineProperty(array, \"length\", {value: length, writable: true}) throws a TypeError exception",
-            "raw": "'Object.defineProperty(array, \"length\", {value: length, writable: true}) throws a TypeError exception'"
+            "value": "Object.defineProperty(array, \"length\", {value: length, writable: true}) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -476,15 +468,13 @@
             "type": "Literal",
             "start": 1608,
             "end": 1609,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1611,
             "end": 1658,
-            "value": "The value of valueOfCalls is expected to be 2",
-            "raw": "'The value of valueOfCalls is expected to be 2'"
+            "value": "The value of valueOfCalls is expected to be 2"
           }
         ],
         "optional": false
@@ -514,15 +504,13 @@
               "type": "Literal",
               "start": 1672,
               "end": 1673,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 1675,
               "end": 1676,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           ]
         }
@@ -547,8 +535,7 @@
           "type": "Literal",
           "start": 1694,
           "end": 1695,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -607,8 +594,7 @@
                   "type": "Literal",
                   "start": 1739,
                   "end": 1747,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 {
                   "type": "ObjectExpression",
@@ -668,8 +654,7 @@
             "type": "Literal",
             "start": 1785,
             "end": 1896,
-            "value": "The value of !Reflect.defineProperty(array, \"length\", {value: length, writable: true}) is expected to be true",
-            "raw": "'The value of !Reflect.defineProperty(array, \"length\", {value: length, writable: true}) is expected to be true'"
+            "value": "The value of !Reflect.defineProperty(array, \"length\", {value: length, writable: true}) is expected to be true"
           }
         ],
         "optional": false
@@ -713,15 +698,13 @@
             "type": "Literal",
             "start": 1931,
             "end": 1932,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1934,
             "end": 1981,
-            "value": "The value of valueOfCalls is expected to be 2",
-            "raw": "'The value of valueOfCalls is expected to be 2'"
+            "value": "The value of valueOfCalls is expected to be 2"
           }
         ],
         "optional": false

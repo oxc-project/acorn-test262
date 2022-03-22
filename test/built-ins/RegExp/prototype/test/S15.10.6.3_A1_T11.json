@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 338,
                 "end": 343,
-                "value": 1.012,
-                "raw": "1.012"
+                "value": 1.012
               }
             ]
           }
@@ -62,7 +61,6 @@
             "start": 357,
             "end": 363,
             "value": {},
-            "raw": "/2|12/",
             "regex": {
               "pattern": "2|12",
               "flags": ""
@@ -183,8 +181,7 @@
             "type": "Literal",
             "start": 441,
             "end": 512,
-            "value": "__re.test(new Number(1.012)) must return __re.exec(__string) !== null",
-            "raw": "'__re.test(new Number(1.012)) must return __re.exec(__string) !== null'"
+            "value": "__re.test(new Number(1.012)) must return __re.exec(__string) !== null"
           }
         ],
         "optional": false

@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 588,
                 "end": 600,
-                "value": "hourCycles",
-                "raw": "\"hourCycles\""
+                "value": "hourCycles"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 641,
             "end": 651,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -197,8 +195,7 @@
                 "type": "Literal",
                 "start": 709,
                 "end": 711,
-                "value": "",
-                "raw": "\"\""
+                "value": ""
               },
               {
                 "type": "CallExpression",
@@ -217,8 +214,7 @@
                 "type": "Literal",
                 "start": 727,
                 "end": 728,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "ObjectExpression",

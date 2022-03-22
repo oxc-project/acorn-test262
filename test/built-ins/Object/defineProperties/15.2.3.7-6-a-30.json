@@ -102,8 +102,7 @@
                         "type": "Literal",
                         "start": 456,
                         "end": 460,
-                        "value": 1001,
-                        "raw": "1001"
+                        "value": 1001
                       },
                       "kind": "init"
                     }
@@ -142,8 +141,7 @@
             "type": "Literal",
             "start": 497,
             "end": 503,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           }
         ],
         "optional": false
@@ -187,8 +185,7 @@
               "type": "Literal",
               "start": 531,
               "end": 537,
-              "value": "prop",
-              "raw": "\"prop\""
+              "value": "prop"
             }
           ],
           "optional": false
@@ -222,8 +219,7 @@
                     "type": "Literal",
                     "start": 567,
                     "end": 626,
-                    "value": "Expected obj.hasOwnProperty(\"prop\") to be true, actually ",
-                    "raw": "'Expected obj.hasOwnProperty(\"prop\") to be true, actually '"
+                    "value": "Expected obj.hasOwnProperty(\"prop\") to be true, actually "
                   },
                   "operator": "+",
                   "right": {
@@ -254,8 +250,7 @@
                         "type": "Literal",
                         "start": 648,
                         "end": 654,
-                        "value": "prop",
-                        "raw": "\"prop\""
+                        "value": "prop"
                       }
                     ],
                     "optional": false
@@ -300,8 +295,7 @@
           "type": "Literal",
           "start": 678,
           "end": 682,
-          "value": 1001,
-          "raw": "1001"
+          "value": 1001
         }
       },
       "consequent": {
@@ -332,8 +326,7 @@
                     "type": "Literal",
                     "start": 711,
                     "end": 750,
-                    "value": "Expected obj.prop === 1001, actually ",
-                    "raw": "'Expected obj.prop === 1001, actually '"
+                    "value": "Expected obj.prop === 1001, actually "
                   },
                   "operator": "+",
                   "right": {

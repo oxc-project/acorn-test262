@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 315,
               "end": 318,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             },
             "operator": "==",
             "right": {
@@ -82,8 +81,7 @@
                   "type": "Literal",
                   "start": 378,
                   "end": 419,
-                  "value": "#1: (\"1\" == new Boolean(true)) === true",
-                  "raw": "'#1: (\"1\" == new Boolean(true)) === true'"
+                  "value": "#1: (\"1\" == new Boolean(true)) === true"
                 }
               ]
             }
@@ -112,8 +110,7 @@
               "type": "Literal",
               "start": 440,
               "end": 444,
-              "value": "-1",
-              "raw": "\"-1\""
+              "value": "-1"
             },
             "operator": "==",
             "right": {
@@ -137,8 +134,7 @@
                     "type": "Literal",
                     "start": 460,
                     "end": 461,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -178,8 +174,7 @@
                   "type": "Literal",
                   "start": 501,
                   "end": 540,
-                  "value": "#2: (\"-1\" == new Number(-1)) === true",
-                  "raw": "'#2: (\"-1\" == new Number(-1)) === true'"
+                  "value": "#2: (\"-1\" == new Number(-1)) === true"
                 }
               ]
             }
@@ -208,8 +203,7 @@
               "type": "Literal",
               "start": 561,
               "end": 564,
-              "value": "x",
-              "raw": "\"x\""
+              "value": "x"
             },
             "operator": "==",
             "right": {
@@ -227,8 +221,7 @@
                   "type": "Literal",
                   "start": 579,
                   "end": 582,
-                  "value": "x",
-                  "raw": "\"x\""
+                  "value": "x"
                 }
               ]
             }
@@ -267,8 +260,7 @@
                   "type": "Literal",
                   "start": 622,
                   "end": 661,
-                  "value": "#3: (\"x\" == new String(\"x\")) === true",
-                  "raw": "'#3: (\"x\" == new String(\"x\")) === true'"
+                  "value": "#3: (\"x\" == new String(\"x\")) === true"
                 }
               ]
             }

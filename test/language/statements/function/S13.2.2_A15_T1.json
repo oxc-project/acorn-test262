@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 637,
           "end": 648,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -92,8 +91,7 @@
                     "type": "Literal",
                     "start": 676,
                     "end": 732,
-                    "value": "#1: typeof obj === \"undefined\". Actual: typeof obj ===",
-                    "raw": "'#1: typeof obj === \"undefined\". Actual: typeof obj ==='"
+                    "value": "#1: typeof obj === \"undefined\". Actual: typeof obj ==="
                   },
                   "operator": "+",
                   "right": {
@@ -149,8 +147,7 @@
           "type": "Literal",
           "start": 939,
           "end": 942,
-          "value": "A",
-          "raw": "\"A\""
+          "value": "A"
         }
       },
       "consequent": {
@@ -181,8 +178,7 @@
                     "type": "Literal",
                     "start": 970,
                     "end": 1018,
-                    "value": "#2: __obj.prop === \"A\". Actual: __obj.prop ===",
-                    "raw": "'#2: __obj.prop === \"A\". Actual: __obj.prop ==='"
+                    "value": "#2: __obj.prop === \"A\". Actual: __obj.prop ==="
                   },
                   "operator": "+",
                   "right": {
@@ -257,8 +253,7 @@
           "type": "Literal",
           "start": 1229,
           "end": 1230,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -289,8 +284,7 @@
                     "type": "Literal",
                     "start": 1258,
                     "end": 1313,
-                    "value": "#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ===",
-                    "raw": "'#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ==='"
+                    "value": "#3: __obj.slot.prop ===1. Actual: __obj.slot.prop ==="
                   },
                   "operator": "+",
                   "right": {
@@ -383,8 +377,7 @@
                 "type": "Literal",
                 "start": 1455,
                 "end": 1456,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -445,8 +438,7 @@
                 "type": "Literal",
                 "start": 1491,
                 "end": 1494,
-                "value": "A",
-                "raw": "\"A\""
+                "value": "A"
               }
             }
           },

@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 342,
               "end": 350,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -82,8 +81,7 @@
                     "type": "Literal",
                     "start": 390,
                     "end": 459,
-                    "value": "#1: parseFloat.propertyIsEnumerable('length') === false. Actual: ",
-                    "raw": "'#1: parseFloat.propertyIsEnumerable(\\'length\\') === false. Actual: '"
+                    "value": "#1: parseFloat.propertyIsEnumerable('length') === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -118,8 +116,7 @@
                           "type": "Literal",
                           "start": 495,
                           "end": 503,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -213,8 +210,7 @@
                 "type": "Literal",
                 "start": 580,
                 "end": 588,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             },
             "consequent": {
@@ -300,8 +296,7 @@
                   "type": "Literal",
                   "start": 667,
                   "end": 767,
-                  "value": "#2: result = true; for (p in parseFloat) { if (p === \"length\") result = false; }  result === true;",
-                  "raw": "'#2: result = true; for (p in parseFloat) { if (p === \"length\") result = false; }  result === true;'"
+                  "value": "#2: result = true; for (p in parseFloat) { if (p === \"length\") result = false; }  result === true;"
                 }
               ]
             }

@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 736,
                       "end": 737,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -146,8 +145,7 @@
                               "type": "Literal",
                               "start": 813,
                               "end": 844,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -409,8 +407,7 @@
             "type": "Literal",
             "start": 1189,
             "end": 1258,
-            "value": "`Atomics.wait(i32a, poisoned, poisoned, poisoned)` throws TypeError",
-            "raw": "'`Atomics.wait(i32a, poisoned, poisoned, poisoned)` throws TypeError'"
+            "value": "`Atomics.wait(i32a, poisoned, poisoned, poisoned)` throws TypeError"
           }
         ],
         "optional": false

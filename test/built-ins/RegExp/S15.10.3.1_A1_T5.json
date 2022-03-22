@@ -23,7 +23,6 @@
             "start": 368,
             "end": 373,
             "value": {},
-            "raw": "/\\b/m",
             "regex": {
               "pattern": "\\b",
               "flags": "m"
@@ -110,8 +109,7 @@
           "type": "Literal",
           "start": 434,
           "end": 435,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -166,15 +164,13 @@
             "type": "Literal",
             "start": 477,
             "end": 478,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 480,
             "end": 535,
-            "value": "The value of __instance.indicator is expected to be 1",
-            "raw": "'The value of __instance.indicator is expected to be 1'"
+            "value": "The value of __instance.indicator is expected to be 1"
           }
         ],
         "optional": false

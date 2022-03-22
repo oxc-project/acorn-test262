@@ -39,8 +39,7 @@
                       "type": "Literal",
                       "start": 3965,
                       "end": 3991,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   },
                   "property": {
@@ -138,8 +137,7 @@
                                 "type": "Literal",
                                 "start": 4052,
                                 "end": 4060,
-                                "value": "Module",
-                                "raw": "'Module'"
+                                "value": "Module"
                               }
                             ],
                             "optional": false
@@ -274,8 +272,7 @@
                                 "type": "Literal",
                                 "start": 4434,
                                 "end": 4461,
-                                "value": "reports as non-enumerable",
-                                "raw": "'reports as non-enumerable'"
+                                "value": "reports as non-enumerable"
                               }
                             ],
                             "optional": false
@@ -339,8 +336,7 @@
                                 "type": "Literal",
                                 "start": 4503,
                                 "end": 4528,
-                                "value": "reports as non-writable",
-                                "raw": "'reports as non-writable'"
+                                "value": "reports as non-writable"
                               }
                             ],
                             "optional": false
@@ -404,8 +400,7 @@
                                 "type": "Literal",
                                 "start": 4574,
                                 "end": 4603,
-                                "value": "reports as non-configurable",
-                                "raw": "'reports as non-configurable'"
+                                "value": "reports as non-configurable"
                               }
                             ],
                             "optional": false

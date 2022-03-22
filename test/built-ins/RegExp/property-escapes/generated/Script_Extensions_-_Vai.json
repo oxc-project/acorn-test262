@@ -82,15 +82,13 @@
                               "type": "Literal",
                               "start": 533,
                               "end": 541,
-                              "value": 42240,
-                              "raw": "0x00A500"
+                              "value": 42240
                             },
                             {
                               "type": "Literal",
                               "start": 543,
                               "end": 551,
-                              "value": 42539,
-                              "raw": "0x00A62B"
+                              "value": 42539
                             }
                           ]
                         }
@@ -127,7 +125,6 @@
             "start": 584,
             "end": 615,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Vai}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Vai}+$",
               "flags": "u"
@@ -143,8 +140,7 @@
             "type": "Literal",
             "start": 635,
             "end": 663,
-            "value": "\\p{Script_Extensions=Vai}",
-            "raw": "\"\\\\p{Script_Extensions=Vai}\""
+            "value": "\\p{Script_Extensions=Vai}"
           }
         ],
         "optional": false
@@ -170,7 +166,6 @@
             "start": 690,
             "end": 722,
             "value": {},
-            "raw": "/^\\p{Script_Extensions=Vaii}+$/u",
             "regex": {
               "pattern": "^\\p{Script_Extensions=Vaii}+$",
               "flags": "u"
@@ -186,8 +181,7 @@
             "type": "Literal",
             "start": 742,
             "end": 771,
-            "value": "\\p{Script_Extensions=Vaii}",
-            "raw": "\"\\\\p{Script_Extensions=Vaii}\""
+            "value": "\\p{Script_Extensions=Vaii}"
           }
         ],
         "optional": false
@@ -213,7 +207,6 @@
             "start": 798,
             "end": 815,
             "value": {},
-            "raw": "/^\\p{scx=Vai}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Vai}+$",
               "flags": "u"
@@ -229,8 +222,7 @@
             "type": "Literal",
             "start": 835,
             "end": 849,
-            "value": "\\p{scx=Vai}",
-            "raw": "\"\\\\p{scx=Vai}\""
+            "value": "\\p{scx=Vai}"
           }
         ],
         "optional": false
@@ -256,7 +248,6 @@
             "start": 876,
             "end": 894,
             "value": {},
-            "raw": "/^\\p{scx=Vaii}+$/u",
             "regex": {
               "pattern": "^\\p{scx=Vaii}+$",
               "flags": "u"
@@ -272,8 +263,7 @@
             "type": "Literal",
             "start": 914,
             "end": 929,
-            "value": "\\p{scx=Vaii}",
-            "raw": "\"\\\\p{scx=Vaii}\""
+            "value": "\\p{scx=Vaii}"
           }
         ],
         "optional": false
@@ -358,15 +348,13 @@
                               "type": "Literal",
                               "start": 1011,
                               "end": 1019,
-                              "value": 56320,
-                              "raw": "0x00DC00"
+                              "value": 56320
                             },
                             {
                               "type": "Literal",
                               "start": 1021,
                               "end": 1029,
-                              "value": 57343,
-                              "raw": "0x00DFFF"
+                              "value": 57343
                             }
                           ]
                         },
@@ -379,15 +367,13 @@
                               "type": "Literal",
                               "start": 1037,
                               "end": 1045,
-                              "value": 0,
-                              "raw": "0x000000"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1047,
                               "end": 1055,
-                              "value": 42239,
-                              "raw": "0x00A4FF"
+                              "value": 42239
                             }
                           ]
                         },
@@ -400,15 +386,13 @@
                               "type": "Literal",
                               "start": 1063,
                               "end": 1071,
-                              "value": 42540,
-                              "raw": "0x00A62C"
+                              "value": 42540
                             },
                             {
                               "type": "Literal",
                               "start": 1073,
                               "end": 1081,
-                              "value": 56319,
-                              "raw": "0x00DBFF"
+                              "value": 56319
                             }
                           ]
                         },
@@ -421,15 +405,13 @@
                               "type": "Literal",
                               "start": 1089,
                               "end": 1097,
-                              "value": 57344,
-                              "raw": "0x00E000"
+                              "value": 57344
                             },
                             {
                               "type": "Literal",
                               "start": 1099,
                               "end": 1107,
-                              "value": 1114111,
-                              "raw": "0x10FFFF"
+                              "value": 1114111
                             }
                           ]
                         }
@@ -466,7 +448,6 @@
             "start": 1140,
             "end": 1171,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Vai}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Vai}+$",
               "flags": "u"
@@ -482,8 +463,7 @@
             "type": "Literal",
             "start": 1194,
             "end": 1222,
-            "value": "\\P{Script_Extensions=Vai}",
-            "raw": "\"\\\\P{Script_Extensions=Vai}\""
+            "value": "\\P{Script_Extensions=Vai}"
           }
         ],
         "optional": false
@@ -509,7 +489,6 @@
             "start": 1249,
             "end": 1281,
             "value": {},
-            "raw": "/^\\P{Script_Extensions=Vaii}+$/u",
             "regex": {
               "pattern": "^\\P{Script_Extensions=Vaii}+$",
               "flags": "u"
@@ -525,8 +504,7 @@
             "type": "Literal",
             "start": 1304,
             "end": 1333,
-            "value": "\\P{Script_Extensions=Vaii}",
-            "raw": "\"\\\\P{Script_Extensions=Vaii}\""
+            "value": "\\P{Script_Extensions=Vaii}"
           }
         ],
         "optional": false
@@ -552,7 +530,6 @@
             "start": 1360,
             "end": 1377,
             "value": {},
-            "raw": "/^\\P{scx=Vai}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Vai}+$",
               "flags": "u"
@@ -568,8 +545,7 @@
             "type": "Literal",
             "start": 1400,
             "end": 1414,
-            "value": "\\P{scx=Vai}",
-            "raw": "\"\\\\P{scx=Vai}\""
+            "value": "\\P{scx=Vai}"
           }
         ],
         "optional": false
@@ -595,7 +571,6 @@
             "start": 1441,
             "end": 1459,
             "value": {},
-            "raw": "/^\\P{scx=Vaii}+$/u",
             "regex": {
               "pattern": "^\\P{scx=Vaii}+$",
               "flags": "u"
@@ -611,8 +586,7 @@
             "type": "Literal",
             "start": 1482,
             "end": 1497,
-            "value": "\\P{scx=Vaii}",
-            "raw": "\"\\\\P{scx=Vaii}\""
+            "value": "\\P{scx=Vaii}"
           }
         ],
         "optional": false

@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 694,
             "end": 695,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -106,8 +105,7 @@
             "type": "Literal",
             "start": 711,
             "end": 712,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -161,8 +159,7 @@
                       "type": "Literal",
                       "start": 749,
                       "end": 750,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -224,8 +221,7 @@
             "type": "Literal",
             "start": 787,
             "end": 800,
-            "value": "constructor",
-            "raw": "'constructor'"
+            "value": "constructor"
           },
           {
             "type": "ObjectExpression",
@@ -278,8 +274,7 @@
                             "type": "Literal",
                             "start": 841,
                             "end": 842,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -501,15 +496,13 @@
             "type": "Literal",
             "start": 980,
             "end": 981,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 983,
             "end": 1020,
-            "value": "`constructor` property not accessed",
-            "raw": "'`constructor` property not accessed'"
+            "value": "`constructor` property not accessed"
           }
         ],
         "optional": false
@@ -553,15 +546,13 @@
             "type": "Literal",
             "start": 1049,
             "end": 1050,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1052,
             "end": 1074,
-            "value": "callback not invoked",
-            "raw": "'callback not invoked'"
+            "value": "callback not invoked"
           }
         ],
         "optional": false

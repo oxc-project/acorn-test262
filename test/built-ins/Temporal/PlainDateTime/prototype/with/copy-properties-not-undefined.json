@@ -46,43 +46,37 @@
                 "type": "Literal",
                 "start": 626,
                 "end": 630,
-                "value": 2006,
-                "raw": "2006"
+                "value": 2006
               },
               {
                 "type": "Literal",
                 "start": 632,
                 "end": 633,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 635,
                 "end": 637,
-                "value": 24,
-                "raw": "24"
+                "value": 24
               },
               {
                 "type": "Literal",
                 "start": 639,
                 "end": 641,
-                "value": 11,
-                "raw": "11"
+                "value": 11
               },
               {
                 "type": "Literal",
                 "start": 643,
                 "end": 645,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               },
               {
                 "type": "Literal",
                 "start": 647,
                 "end": 649,
-                "value": 58,
-                "raw": "58"
+                "value": 58
               }
             ]
           }
@@ -164,8 +158,7 @@
                       "type": "Literal",
                       "start": 715,
                       "end": 716,
-                      "value": 8,
-                      "raw": "8"
+                      "value": 8
                     },
                     "kind": "init"
                   },
@@ -186,8 +179,7 @@
                       "type": "Literal",
                       "start": 724,
                       "end": 726,
-                      "value": 10,
-                      "raw": "10"
+                      "value": 10
                     },
                     "kind": "init"
                   },
@@ -221,78 +213,67 @@
             "type": "Literal",
             "start": 750,
             "end": 754,
-            "value": 2006,
-            "raw": "2006"
+            "value": 2006
           },
           {
             "type": "Literal",
             "start": 756,
             "end": 757,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 759,
             "end": 764,
-            "value": "M01",
-            "raw": "\"M01\""
+            "value": "M01"
           },
           {
             "type": "Literal",
             "start": 766,
             "end": 767,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           },
           {
             "type": "Literal",
             "start": 769,
             "end": 771,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           },
           {
             "type": "Literal",
             "start": 773,
             "end": 775,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 777,
             "end": 779,
-            "value": 58,
-            "raw": "58"
+            "value": 58
           },
           {
             "type": "Literal",
             "start": 781,
             "end": 782,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 784,
             "end": 785,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 787,
             "end": 788,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 792,
             "end": 873,
-            "value": "only the properties that are present and defined in the plain object are copied",
-            "raw": "\"only the properties that are present and defined in the plain object are copied\""
+            "value": "only the properties that are present and defined in the plain object are copied"
           }
         ],
         "optional": false

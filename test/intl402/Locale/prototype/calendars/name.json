@@ -82,8 +82,7 @@
                   "type": "Literal",
                   "start": 1310,
                   "end": 1321,
-                  "value": "calendars",
-                  "raw": "\"calendars\""
+                  "value": "calendars"
                 }
               ],
               "optional": false
@@ -126,8 +125,7 @@
             "type": "Literal",
             "start": 1351,
             "end": 1357,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -151,8 +149,7 @@
                   "type": "Literal",
                   "start": 1370,
                   "end": 1385,
-                  "value": "get calendars",
-                  "raw": "\"get calendars\""
+                  "value": "get calendars"
                 },
                 "kind": "init"
               },

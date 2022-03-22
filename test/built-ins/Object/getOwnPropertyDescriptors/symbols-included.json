@@ -58,8 +58,7 @@
                 "type": "Literal",
                 "start": 334,
                 "end": 340,
-                "value": "enum",
-                "raw": "'enum'"
+                "value": "enum"
               }
             ],
             "optional": false
@@ -98,8 +97,7 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 376,
-                "value": "nonenum",
-                "raw": "'nonenum'"
+                "value": "nonenum"
               }
             ],
             "optional": false
@@ -138,8 +136,7 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 408,
-                "value": "value",
-                "raw": "'value'"
+                "value": "value"
               }
             ],
             "optional": false
@@ -499,15 +496,13 @@
             "type": "Literal",
             "start": 685,
             "end": 686,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 688,
             "end": 723,
-            "value": "obj has 1 string-keyed descriptor",
-            "raw": "'obj has 1 string-keyed descriptor'"
+            "value": "obj has 1 string-keyed descriptor"
           }
         ],
         "optional": false
@@ -591,15 +586,13 @@
             "type": "Literal",
             "start": 788,
             "end": 789,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 791,
             "end": 827,
-            "value": "obj has 2 symbol-keyed descriptors",
-            "raw": "'obj has 2 symbol-keyed descriptors'"
+            "value": "obj has 2 symbol-keyed descriptors"
           }
         ],
         "optional": false
@@ -676,8 +669,7 @@
             "type": "Literal",
             "start": 879,
             "end": 907,
-            "value": "result.key is configurable",
-            "raw": "'result.key is configurable'"
+            "value": "result.key is configurable"
           }
         ],
         "optional": false
@@ -754,8 +746,7 @@
             "type": "Literal",
             "start": 956,
             "end": 982,
-            "value": "result.key is enumerable",
-            "raw": "'result.key is enumerable'"
+            "value": "result.key is enumerable"
           }
         ],
         "optional": false
@@ -832,8 +823,7 @@
             "type": "Literal",
             "start": 1029,
             "end": 1053,
-            "value": "result.key is writable",
-            "raw": "'result.key is writable'"
+            "value": "result.key is writable"
           }
         ],
         "optional": false
@@ -909,8 +899,7 @@
             "type": "Literal",
             "start": 1101,
             "end": 1132,
-            "value": "result.key has value symValue",
-            "raw": "'result.key has value symValue'"
+            "value": "result.key has value symValue"
           }
         ],
         "optional": false
@@ -987,8 +976,7 @@
             "type": "Literal",
             "start": 1189,
             "end": 1222,
-            "value": "result[enumSym] is configurable",
-            "raw": "'result[enumSym] is configurable'"
+            "value": "result[enumSym] is configurable"
           }
         ],
         "optional": false
@@ -1065,8 +1053,7 @@
             "type": "Literal",
             "start": 1276,
             "end": 1307,
-            "value": "result[enumSym] is enumerable",
-            "raw": "'result[enumSym] is enumerable'"
+            "value": "result[enumSym] is enumerable"
           }
         ],
         "optional": false
@@ -1143,8 +1130,7 @@
             "type": "Literal",
             "start": 1359,
             "end": 1388,
-            "value": "result[enumSym] is writable",
-            "raw": "'result[enumSym] is writable'"
+            "value": "result[enumSym] is writable"
           }
         ],
         "optional": false
@@ -1220,8 +1206,7 @@
             "type": "Literal",
             "start": 1438,
             "end": 1473,
-            "value": "result[enumSym] has value `value`",
-            "raw": "'result[enumSym] has value `value`'"
+            "value": "result[enumSym] has value `value`"
           }
         ],
         "optional": false
@@ -1298,8 +1283,7 @@
             "type": "Literal",
             "start": 1533,
             "end": 1569,
-            "value": "result[nonEnumSym] is configurable",
-            "raw": "'result[nonEnumSym] is configurable'"
+            "value": "result[nonEnumSym] is configurable"
           }
         ],
         "optional": false
@@ -1376,8 +1360,7 @@
             "type": "Literal",
             "start": 1627,
             "end": 1665,
-            "value": "result[nonEnumSym] is not enumerable",
-            "raw": "'result[nonEnumSym] is not enumerable'"
+            "value": "result[nonEnumSym] is not enumerable"
           }
         ],
         "optional": false
@@ -1454,8 +1437,7 @@
             "type": "Literal",
             "start": 1720,
             "end": 1752,
-            "value": "result[nonEnumSym] is writable",
-            "raw": "'result[nonEnumSym] is writable'"
+            "value": "result[nonEnumSym] is writable"
           }
         ],
         "optional": false
@@ -1531,8 +1513,7 @@
             "type": "Literal",
             "start": 1805,
             "end": 1843,
-            "value": "result[nonEnumSym] has value `value`",
-            "raw": "'result[nonEnumSym] has value `value`'"
+            "value": "result[nonEnumSym] has value `value`"
           }
         ],
         "optional": false

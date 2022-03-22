@@ -315,8 +315,7 @@
             "type": "Literal",
             "start": 655,
             "end": 697,
-            "value": "Template object defines a `raw` property",
-            "raw": "'Template object defines a `raw` property'"
+            "value": "Template object defines a `raw` property"
           }
         ],
         "optional": false

@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 456,
             "end": 467,
-            "value": "findIndex",
-            "raw": "'findIndex'"
+            "value": "findIndex"
           },
           {
             "type": "Literal",
             "start": 471,
             "end": 535,
-            "value": "The value of `Array.prototype.findIndex.name` is `\"findIndex\"`",
-            "raw": "'The value of `Array.prototype.findIndex.name` is `\"findIndex\"`'"
+            "value": "The value of `Array.prototype.findIndex.name` is `\"findIndex\"`"
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 587,
             "end": 593,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -203,8 +200,7 @@
             "type": "Literal",
             "start": 641,
             "end": 647,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -261,8 +257,7 @@
             "type": "Literal",
             "start": 696,
             "end": 702,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

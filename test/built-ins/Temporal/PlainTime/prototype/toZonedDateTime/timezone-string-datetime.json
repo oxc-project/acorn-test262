@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 356,
             "end": 374,
-            "value": "2021-08-19T17:30",
-            "raw": "\"2021-08-19T17:30\""
+            "value": "2021-08-19T17:30"
           }
         }
       ],
@@ -186,22 +185,19 @@
                             "type": "Literal",
                             "start": 469,
                             "end": 473,
-                            "value": 2000,
-                            "raw": "2000"
+                            "value": 2000
                           },
                           {
                             "type": "Literal",
                             "start": 475,
                             "end": 476,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           },
                           {
                             "type": "Literal",
                             "start": 478,
                             "end": 479,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       },
@@ -238,8 +234,7 @@
             "type": "Literal",
             "start": 495,
             "end": 537,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -358,22 +353,19 @@
                             "type": "Literal",
                             "start": 633,
                             "end": 637,
-                            "value": 2000,
-                            "raw": "2000"
+                            "value": 2000
                           },
                           {
                             "type": "Literal",
                             "start": 639,
                             "end": 640,
-                            "value": 5,
-                            "raw": "5"
+                            "value": 5
                           },
                           {
                             "type": "Literal",
                             "start": 642,
                             "end": 643,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       },
@@ -432,8 +424,7 @@
             "type": "Literal",
             "start": 673,
             "end": 715,
-            "value": "bare date-time string is not a time zone",
-            "raw": "\"bare date-time string is not a time zone\""
+            "value": "bare date-time string is not a time zone"
           }
         ],
         "optional": false
@@ -458,8 +449,7 @@
           "type": "Literal",
           "start": 730,
           "end": 749,
-          "value": "2021-08-19T17:30Z",
-          "raw": "\"2021-08-19T17:30Z\""
+          "value": "2021-08-19T17:30Z"
         }
       }
     },
@@ -548,22 +538,19 @@
                           "type": "Literal",
                           "start": 828,
                           "end": 832,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 834,
                           "end": 835,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 837,
                           "end": 838,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -663,15 +650,13 @@
             "type": "Literal",
             "start": 892,
             "end": 897,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 899,
             "end": 931,
-            "value": "date-time + Z is UTC time zone",
-            "raw": "\"date-time + Z is UTC time zone\""
+            "value": "date-time + Z is UTC time zone"
           }
         ],
         "optional": false
@@ -762,22 +747,19 @@
                           "type": "Literal",
                           "start": 1011,
                           "end": 1015,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 1017,
                           "end": 1018,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 1020,
                           "end": 1021,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -899,15 +881,13 @@
             "type": "Literal",
             "start": 1089,
             "end": 1094,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1096,
             "end": 1153,
-            "value": "date-time + Z is UTC time zone (string in property bag)",
-            "raw": "\"date-time + Z is UTC time zone (string in property bag)\""
+            "value": "date-time + Z is UTC time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -932,8 +912,7 @@
           "type": "Literal",
           "start": 1168,
           "end": 1192,
-          "value": "2021-08-19T17:30-07:00",
-          "raw": "\"2021-08-19T17:30-07:00\""
+          "value": "2021-08-19T17:30-07:00"
         }
       }
     },
@@ -1022,22 +1001,19 @@
                           "type": "Literal",
                           "start": 1271,
                           "end": 1275,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 1277,
                           "end": 1278,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 1280,
                           "end": 1281,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -1137,15 +1113,13 @@
             "type": "Literal",
             "start": 1335,
             "end": 1343,
-            "value": "-07:00",
-            "raw": "\"-07:00\""
+            "value": "-07:00"
           },
           {
             "type": "Literal",
             "start": 1345,
             "end": 1389,
-            "value": "date-time + offset is the offset time zone",
-            "raw": "\"date-time + offset is the offset time zone\""
+            "value": "date-time + offset is the offset time zone"
           }
         ],
         "optional": false
@@ -1236,22 +1210,19 @@
                           "type": "Literal",
                           "start": 1469,
                           "end": 1473,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 1475,
                           "end": 1476,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 1478,
                           "end": 1479,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -1373,15 +1344,13 @@
             "type": "Literal",
             "start": 1547,
             "end": 1555,
-            "value": "-07:00",
-            "raw": "\"-07:00\""
+            "value": "-07:00"
           },
           {
             "type": "Literal",
             "start": 1557,
             "end": 1626,
-            "value": "date-time + offset is the offset time zone (string in property bag)",
-            "raw": "\"date-time + offset is the offset time zone (string in property bag)\""
+            "value": "date-time + offset is the offset time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -1406,8 +1375,7 @@
           "type": "Literal",
           "start": 1641,
           "end": 1664,
-          "value": "2021-08-19T17:30[UTC]",
-          "raw": "\"2021-08-19T17:30[UTC]\""
+          "value": "2021-08-19T17:30[UTC]"
         }
       }
     },
@@ -1496,22 +1464,19 @@
                           "type": "Literal",
                           "start": 1743,
                           "end": 1747,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 1749,
                           "end": 1750,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 1752,
                           "end": 1753,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -1611,15 +1576,13 @@
             "type": "Literal",
             "start": 1807,
             "end": 1812,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 1814,
             "end": 1865,
-            "value": "date-time + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + IANA annotation is the IANA time zone\""
+            "value": "date-time + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -1710,22 +1673,19 @@
                           "type": "Literal",
                           "start": 1945,
                           "end": 1949,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 1951,
                           "end": 1952,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 1954,
                           "end": 1955,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -1847,15 +1807,13 @@
             "type": "Literal",
             "start": 2023,
             "end": 2028,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2030,
             "end": 2106,
-            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -1880,8 +1838,7 @@
           "type": "Literal",
           "start": 2121,
           "end": 2145,
-          "value": "2021-08-19T17:30Z[UTC]",
-          "raw": "\"2021-08-19T17:30Z[UTC]\""
+          "value": "2021-08-19T17:30Z[UTC]"
         }
       }
     },
@@ -1970,22 +1927,19 @@
                           "type": "Literal",
                           "start": 2224,
                           "end": 2228,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 2230,
                           "end": 2231,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 2233,
                           "end": 2234,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -2085,15 +2039,13 @@
             "type": "Literal",
             "start": 2288,
             "end": 2293,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2295,
             "end": 2350,
-            "value": "date-time + Z + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone\""
+            "value": "date-time + Z + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -2184,22 +2136,19 @@
                           "type": "Literal",
                           "start": 2430,
                           "end": 2434,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 2436,
                           "end": 2437,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 2439,
                           "end": 2440,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -2321,15 +2270,13 @@
             "type": "Literal",
             "start": 2508,
             "end": 2513,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2515,
             "end": 2595,
-            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + Z + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + Z + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false
@@ -2354,8 +2301,7 @@
           "type": "Literal",
           "start": 2610,
           "end": 2639,
-          "value": "2021-08-19T17:30-07:00[UTC]",
-          "raw": "\"2021-08-19T17:30-07:00[UTC]\""
+          "value": "2021-08-19T17:30-07:00[UTC]"
         }
       }
     },
@@ -2444,22 +2390,19 @@
                           "type": "Literal",
                           "start": 2718,
                           "end": 2722,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 2724,
                           "end": 2725,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 2727,
                           "end": 2728,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -2559,15 +2502,13 @@
             "type": "Literal",
             "start": 2782,
             "end": 2787,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 2789,
             "end": 2849,
-            "value": "date-time + offset + IANA annotation is the IANA time zone",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone\""
+            "value": "date-time + offset + IANA annotation is the IANA time zone"
           }
         ],
         "optional": false
@@ -2658,22 +2599,19 @@
                           "type": "Literal",
                           "start": 2930,
                           "end": 2934,
-                          "value": 2000,
-                          "raw": "2000"
+                          "value": 2000
                         },
                         {
                           "type": "Literal",
                           "start": 2936,
                           "end": 2937,
-                          "value": 5,
-                          "raw": "5"
+                          "value": 5
                         },
                         {
                           "type": "Literal",
                           "start": 2939,
                           "end": 2940,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       ]
                     },
@@ -2795,15 +2733,13 @@
             "type": "Literal",
             "start": 3009,
             "end": 3014,
-            "value": "UTC",
-            "raw": "\"UTC\""
+            "value": "UTC"
           },
           {
             "type": "Literal",
             "start": 3016,
             "end": 3101,
-            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)",
-            "raw": "\"date-time + offset + IANA annotation is the IANA time zone (string in property bag)\""
+            "value": "date-time + offset + IANA annotation is the IANA time zone (string in property bag)"
           }
         ],
         "optional": false

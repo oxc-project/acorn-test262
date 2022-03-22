@@ -71,8 +71,7 @@
                         "type": "Literal",
                         "start": 330,
                         "end": 338,
-                        "value": "wizard",
-                        "raw": "\"wizard\""
+                        "value": "wizard"
                       }
                     }
                   ]
@@ -241,8 +240,7 @@
                   "type": "Literal",
                   "start": 565,
                   "end": 568,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 }
               ],
               "optional": false
@@ -275,8 +273,7 @@
           "type": "Literal",
           "start": 591,
           "end": 595,
-          "value": 105,
-          "raw": "0x69"
+          "value": 105
         }
       },
       "consequent": {
@@ -307,8 +304,7 @@
                     "type": "Literal",
                     "start": 624,
                     "end": 741,
-                    "value": "#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})===",
-                    "raw": "'#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})==='"
+                    "value": "#1: __instance.charCodeAt(eval(\"1\"),true,null,{})=== 0x69. Actual: __instance.charCodeAt(eval(\"1\"),true,null,{})==="
                   },
                   "operator": "+",
                   "right": {
@@ -350,8 +346,7 @@
                             "type": "Literal",
                             "start": 771,
                             "end": 774,
-                            "value": "1",
-                            "raw": "\"1\""
+                            "value": "1"
                           }
                         ],
                         "optional": false

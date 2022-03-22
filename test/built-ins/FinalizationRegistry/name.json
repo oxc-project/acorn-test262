@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 1014,
             "end": 1020,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -53,8 +52,7 @@
                   "type": "Literal",
                   "start": 1033,
                   "end": 1055,
-                  "value": "FinalizationRegistry",
-                  "raw": "'FinalizationRegistry'"
+                  "value": "FinalizationRegistry"
                 },
                 "kind": "init"
               },

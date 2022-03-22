@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 489,
               "end": 497,
-              "value": "result",
-              "raw": "'result'"
+              "value": "result"
             }
           }
         ]
@@ -111,8 +110,7 @@
             "type": "Literal",
             "start": 538,
             "end": 554,
-            "value": "foo result bar",
-            "raw": "'foo result bar'"
+            "value": "foo result bar"
           }
         ],
         "optional": false

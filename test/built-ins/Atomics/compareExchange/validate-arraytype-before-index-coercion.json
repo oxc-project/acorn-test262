@@ -70,8 +70,7 @@
                               "type": "Literal",
                               "start": 923,
                               "end": 938,
-                              "value": "index coerced",
-                              "raw": "\"index coerced\""
+                              "value": "index coerced"
                             }
                           ]
                         }
@@ -207,8 +206,7 @@
                           "type": "Literal",
                           "start": 1123,
                           "end": 1124,
-                          "value": 8,
-                          "raw": "8"
+                          "value": 8
                         }
                       ]
                     }
@@ -310,15 +308,13 @@
                               "type": "Literal",
                               "start": 1215,
                               "end": 1216,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             {
                               "type": "Literal",
                               "start": 1218,
                               "end": 1219,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             }
                           ],
                           "optional": false

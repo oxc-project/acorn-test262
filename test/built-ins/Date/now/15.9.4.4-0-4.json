@@ -68,15 +68,13 @@
             "type": "Literal",
             "start": 243,
             "end": 251,
-            "value": "number",
-            "raw": "\"number\""
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 253,
             "end": 272,
-            "value": "typeof Date.now()",
-            "raw": "'typeof Date.now()'"
+            "value": "typeof Date.now()"
           }
         ],
         "optional": false

@@ -58,8 +58,7 @@
                         "type": "Literal",
                         "start": 704,
                         "end": 705,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -95,8 +94,7 @@
                             "type": "Literal",
                             "start": 729,
                             "end": 730,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -142,8 +140,7 @@
                         "type": "Literal",
                         "start": 766,
                         "end": 779,
-                        "value": "constructor",
-                        "raw": "\"constructor\""
+                        "value": "constructor"
                       },
                       {
                         "type": "ObjectExpression",
@@ -348,8 +345,7 @@
                         "type": "Literal",
                         "start": 940,
                         "end": 975,
-                        "value": "`sample.slice()` throws TypeError",
-                        "raw": "'`sample.slice()` throws TypeError'"
+                        "value": "`sample.slice()` throws TypeError"
                       }
                     ],
                     "optional": false
@@ -393,15 +389,13 @@
                         "type": "Literal",
                         "start": 1007,
                         "end": 1008,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 1010,
                         "end": 1039,
-                        "value": "The value of `counter` is 2",
-                        "raw": "'The value of `counter` is 2'"
+                        "value": "The value of `counter` is 2"
                       }
                     ],
                     "optional": false

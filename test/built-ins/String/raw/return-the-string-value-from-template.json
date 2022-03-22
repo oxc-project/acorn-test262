@@ -77,8 +77,7 @@
             "type": "Literal",
             "start": 856,
             "end": 868,
-            "value": "123\\u0065",
-            "raw": "'123\\\\u0065'"
+            "value": "123\\u0065"
           }
         ],
         "optional": false

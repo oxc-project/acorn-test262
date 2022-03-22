@@ -52,8 +52,7 @@
                     "type": "Literal",
                     "start": 449,
                     "end": 507,
-                    "value": "#1.1: new decodeURIComponent() throw TypeError. Actual: ",
-                    "raw": "'#1.1: new decodeURIComponent() throw TypeError. Actual: '"
+                    "value": "#1.1: new decodeURIComponent() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -162,8 +161,7 @@
                             "type": "Literal",
                             "start": 623,
                             "end": 681,
-                            "value": "#1.2: new decodeURIComponent() throw TypeError. Actual: ",
-                            "raw": "'#1.2: new decodeURIComponent() throw TypeError. Actual: '"
+                            "value": "#1.2: new decodeURIComponent() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

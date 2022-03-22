@@ -178,8 +178,7 @@
             "type": "Literal",
             "start": 1194,
             "end": 1205,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -263,8 +262,7 @@
             "type": "Literal",
             "start": 1281,
             "end": 1287,
-            "value": "null",
-            "raw": "'null'"
+            "value": "null"
           }
         ],
         "optional": false
@@ -348,8 +346,7 @@
             "type": "Literal",
             "start": 1364,
             "end": 1371,
-            "value": "false",
-            "raw": "'false'"
+            "value": "false"
           }
         ],
         "optional": false
@@ -433,8 +430,7 @@
             "type": "Literal",
             "start": 1447,
             "end": 1453,
-            "value": "true",
-            "raw": "'true'"
+            "value": "true"
           }
         ],
         "optional": false
@@ -524,8 +520,7 @@
             "type": "Literal",
             "start": 1533,
             "end": 1541,
-            "value": "symbol",
-            "raw": "'symbol'"
+            "value": "symbol"
           }
         ],
         "optional": false
@@ -608,8 +603,7 @@
             "type": "Literal",
             "start": 1615,
             "end": 1623,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false
@@ -692,8 +686,7 @@
             "type": "Literal",
             "start": 1715,
             "end": 1754,
-            "value": "same as finalizationRegistry instance",
-            "raw": "'same as finalizationRegistry instance'"
+            "value": "same as finalizationRegistry instance"
           }
         ],
         "optional": false
@@ -761,8 +754,7 @@
                 "type": "Literal",
                 "start": 1812,
                 "end": 1813,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ],
             "optional": false
@@ -777,8 +769,7 @@
             "type": "Literal",
             "start": 1827,
             "end": 1835,
-            "value": "number",
-            "raw": "'number'"
+            "value": "number"
           }
         ],
         "optional": false
@@ -846,8 +837,7 @@
                 "type": "Literal",
                 "start": 1893,
                 "end": 1903,
-                "value": "holdings",
-                "raw": "'holdings'"
+                "value": "holdings"
               }
             ],
             "optional": false
@@ -862,8 +852,7 @@
             "type": "Literal",
             "start": 1917,
             "end": 1925,
-            "value": "string",
-            "raw": "'string'"
+            "value": "string"
           }
         ],
         "optional": false

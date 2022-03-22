@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 708,
                 "end": 713,
-                "value": "day",
-                "raw": "\"day\""
+                "value": "day"
               },
               {
                 "type": "Literal",
                 "start": 717,
                 "end": 724,
-                "value": "month",
-                "raw": "\"month\""
+                "value": "month"
               },
               {
                 "type": "Literal",
                 "start": 728,
                 "end": 739,
-                "value": "monthCode",
-                "raw": "\"monthCode\""
+                "value": "monthCode"
               },
               {
                 "type": "Literal",
                 "start": 743,
                 "end": 749,
-                "value": "year",
-                "raw": "\"year\""
+                "value": "year"
               }
             ]
           }
@@ -145,22 +141,19 @@
                 "type": "Literal",
                 "start": 851,
                 "end": 855,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 857,
                 "end": 858,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 860,
                 "end": 861,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Identifier",
@@ -269,8 +262,7 @@
                   "type": "Literal",
                   "start": 954,
                   "end": 958,
-                  "value": 2005,
-                  "raw": "2005"
+                  "value": 2005
                 },
                 "kind": "init"
               },
@@ -291,8 +283,7 @@
                   "type": "Literal",
                   "start": 967,
                   "end": 968,
-                  "value": 6,
-                  "raw": "6"
+                  "value": 6
                 },
                 "kind": "init"
               },
@@ -313,8 +304,7 @@
                   "type": "Literal",
                   "start": 975,
                   "end": 976,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -396,15 +386,13 @@
             "type": "Literal",
             "start": 1047,
             "end": 1048,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1078,
-            "value": "fields() method not called",
-            "raw": "\"fields() method not called\""
+            "value": "fields() method not called"
           }
         ],
         "optional": false
@@ -461,15 +449,13 @@
             "type": "Literal",
             "start": 1125,
             "end": 1126,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1128,
             "end": 1157,
-            "value": "fields() method called once",
-            "raw": "\"fields() method called once\""
+            "value": "fields() method called once"
           }
         ],
         "optional": false
@@ -530,8 +516,7 @@
               "type": "Literal",
               "start": 1207,
               "end": 1208,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -546,8 +531,7 @@
             "type": "Literal",
             "start": 1221,
             "end": 1263,
-            "value": "fields() method called with correct args",
-            "raw": "\"fields() method called with correct args\""
+            "value": "fields() method called with correct args"
           }
         ],
         "optional": false
@@ -595,8 +579,7 @@
               "type": "Literal",
               "start": 1301,
               "end": 1302,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -605,8 +588,7 @@
             "type": "Literal",
             "start": 1305,
             "end": 1342,
-            "value": "iterated through the whole iterable",
-            "raw": "\"iterated through the whole iterable\""
+            "value": "iterated through the whole iterable"
           }
         ],
         "optional": false

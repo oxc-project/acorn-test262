@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 470,
               "end": 471,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": "/",
             "right": {
@@ -92,8 +91,7 @@
                     "type": "Literal",
                     "start": 500,
                     "end": 501,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 }
               ],

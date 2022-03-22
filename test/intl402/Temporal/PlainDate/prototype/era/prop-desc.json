@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 359,
-                "value": "era",
-                "raw": "\"era\""
+                "value": "era"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 402,
             "end": 412,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

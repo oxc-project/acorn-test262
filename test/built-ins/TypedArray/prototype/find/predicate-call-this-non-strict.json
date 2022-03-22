@@ -93,8 +93,7 @@
                             "type": "Literal",
                             "start": 1192,
                             "end": 1193,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ]
                       }
@@ -237,8 +236,7 @@
                         "type": "Literal",
                         "start": 1294,
                         "end": 1341,
-                        "value": "without thisArg, predicate this is the global",
-                        "raw": "\"without thisArg, predicate this is the global\""
+                        "value": "without thisArg, predicate this is the global"
                       }
                     ],
                     "optional": false
@@ -389,8 +387,7 @@
                         "type": "Literal",
                         "start": 1456,
                         "end": 1512,
-                        "value": "predicate this is the global when thisArg is undefined",
-                        "raw": "\"predicate this is the global when thisArg is undefined\""
+                        "value": "predicate this is the global when thisArg is undefined"
                       }
                     ],
                     "optional": false
@@ -566,8 +563,7 @@
                         "type": "Literal",
                         "start": 1633,
                         "end": 1669,
-                        "value": "thisArg becomes the predicate this",
-                        "raw": "\"thisArg becomes the predicate this\""
+                        "value": "thisArg becomes the predicate this"
                       }
                     ],
                     "optional": false

@@ -125,15 +125,13 @@
                                     "type": "Literal",
                                     "start": 461,
                                     "end": 462,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 464,
                                     "end": 465,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -146,8 +144,7 @@
                         "type": "Literal",
                         "start": 473,
                         "end": 517,
-                        "value": "`Atomics.xor(view, 0, 0)` throws TypeError",
-                        "raw": "'`Atomics.xor(view, 0, 0)` throws TypeError'"
+                        "value": "`Atomics.xor(view, 0, 0)` throws TypeError"
                       }
                     ],
                     "optional": false

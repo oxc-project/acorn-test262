@@ -113,8 +113,7 @@
             "type": "Literal",
             "start": 337,
             "end": 372,
-            "value": "`s.has(Symbol())` returns `false`",
-            "raw": "\"`s.has(Symbol())` returns `false`\""
+            "value": "`s.has(Symbol())` returns `false`"
           }
         ],
         "optional": false

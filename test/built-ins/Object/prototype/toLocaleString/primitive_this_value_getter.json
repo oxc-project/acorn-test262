@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 434,
             "end": 444,
-            "value": "toString",
-            "raw": "\"toString\""
+            "value": "toString"
           },
           {
             "type": "ObjectExpression",
@@ -223,8 +222,7 @@
             "type": "Literal",
             "start": 589,
             "end": 598,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           }
         ],
         "optional": false

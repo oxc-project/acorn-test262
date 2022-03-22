@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 631,
             "end": 632,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -261,8 +260,7 @@
                     "type": "Literal",
                     "start": 837,
                     "end": 838,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -274,8 +272,7 @@
                   "type": "Literal",
                   "start": 849,
                   "end": 851,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 }
               }
             ]
@@ -342,8 +339,7 @@
             "type": "Literal",
             "start": 894,
             "end": 923,
-            "value": "use returned value - number",
-            "raw": "\"use returned value - number\""
+            "value": "use returned value - number"
           }
         ],
         "optional": false
@@ -387,15 +383,13 @@
             "type": "Literal",
             "start": 951,
             "end": 952,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 954,
             "end": 986,
-            "value": "toPrimitive is called - number",
-            "raw": "\"toPrimitive is called - number\""
+            "value": "toPrimitive is called - number"
           }
         ],
         "optional": false
@@ -420,8 +414,7 @@
           "type": "Literal",
           "start": 999,
           "end": 1000,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -499,8 +492,7 @@
                     "type": "Literal",
                     "start": 1053,
                     "end": 1054,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -512,8 +504,7 @@
                   "type": "Literal",
                   "start": 1065,
                   "end": 1069,
-                  "value": "42",
-                  "raw": "\"42\""
+                  "value": "42"
                 }
               }
             ]
@@ -580,8 +571,7 @@
             "type": "Literal",
             "start": 1112,
             "end": 1141,
-            "value": "use returned value - string",
-            "raw": "\"use returned value - string\""
+            "value": "use returned value - string"
           }
         ],
         "optional": false
@@ -625,15 +615,13 @@
             "type": "Literal",
             "start": 1169,
             "end": 1170,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1172,
             "end": 1204,
-            "value": "toPrimitive is called - string",
-            "raw": "\"toPrimitive is called - string\""
+            "value": "toPrimitive is called - string"
           }
         ],
         "optional": false
@@ -658,8 +646,7 @@
           "type": "Literal",
           "start": 1217,
           "end": 1218,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -737,8 +724,7 @@
                     "type": "Literal",
                     "start": 1271,
                     "end": 1272,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -818,8 +804,7 @@
             "type": "Literal",
             "start": 1330,
             "end": 1365,
-            "value": "use returned value - boolean true",
-            "raw": "\"use returned value - boolean true\""
+            "value": "use returned value - boolean true"
           }
         ],
         "optional": false
@@ -863,15 +848,13 @@
             "type": "Literal",
             "start": 1393,
             "end": 1394,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1396,
             "end": 1434,
-            "value": "toPrimitive is called - boolean true",
-            "raw": "\"toPrimitive is called - boolean true\""
+            "value": "toPrimitive is called - boolean true"
           }
         ],
         "optional": false
@@ -896,8 +879,7 @@
           "type": "Literal",
           "start": 1447,
           "end": 1448,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -975,8 +957,7 @@
                     "type": "Literal",
                     "start": 1501,
                     "end": 1502,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -1056,8 +1037,7 @@
             "type": "Literal",
             "start": 1561,
             "end": 1597,
-            "value": "use returned value - boolean false",
-            "raw": "\"use returned value - boolean false\""
+            "value": "use returned value - boolean false"
           }
         ],
         "optional": false
@@ -1101,15 +1081,13 @@
             "type": "Literal",
             "start": 1625,
             "end": 1626,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1628,
             "end": 1667,
-            "value": "toPrimitive is called - boolean false",
-            "raw": "\"toPrimitive is called - boolean false\""
+            "value": "toPrimitive is called - boolean false"
           }
         ],
         "optional": false
@@ -1134,8 +1112,7 @@
           "type": "Literal",
           "start": 1680,
           "end": 1681,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1213,8 +1190,7 @@
                     "type": "Literal",
                     "start": 1734,
                     "end": 1735,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -1293,8 +1269,7 @@
             "type": "Literal",
             "start": 1798,
             "end": 1829,
-            "value": "use returned value - Infinity",
-            "raw": "\"use returned value - Infinity\""
+            "value": "use returned value - Infinity"
           }
         ],
         "optional": false
@@ -1338,15 +1313,13 @@
             "type": "Literal",
             "start": 1857,
             "end": 1858,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1860,
             "end": 1894,
-            "value": "toPrimitive is called - Infinity",
-            "raw": "\"toPrimitive is called - Infinity\""
+            "value": "toPrimitive is called - Infinity"
           }
         ],
         "optional": false
@@ -1371,8 +1344,7 @@
           "type": "Literal",
           "start": 1907,
           "end": 1908,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -1450,8 +1422,7 @@
                     "type": "Literal",
                     "start": 1961,
                     "end": 1962,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               },
@@ -1537,8 +1508,7 @@
             "type": "Literal",
             "start": 2026,
             "end": 2058,
-            "value": "use returned value - -Infinity",
-            "raw": "\"use returned value - -Infinity\""
+            "value": "use returned value - -Infinity"
           }
         ],
         "optional": false
@@ -1582,15 +1552,13 @@
             "type": "Literal",
             "start": 2086,
             "end": 2087,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2089,
             "end": 2124,
-            "value": "toPrimitive is called - -Infinity",
-            "raw": "\"toPrimitive is called - -Infinity\""
+            "value": "toPrimitive is called - -Infinity"
           }
         ],
         "optional": false

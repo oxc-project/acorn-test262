@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 312,
                 "end": 323,
-                "value": "undefined",
-                "raw": "\"undefined\""
+                "value": "undefined"
               }
             ],
             "optional": false
@@ -95,15 +94,13 @@
             "type": "Literal",
             "start": 326,
             "end": 337,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 339,
             "end": 380,
-            "value": "String.prototype.trim.call(\"undefined\")",
-            "raw": "'String.prototype.trim.call(\"undefined\")'"
+            "value": "String.prototype.trim.call(\"undefined\")"
           }
         ],
         "optional": false

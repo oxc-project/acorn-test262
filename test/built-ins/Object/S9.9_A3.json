@@ -83,8 +83,7 @@
             "type": "Literal",
             "start": 398,
             "end": 439,
-            "value": "Object(true).valueOf() must return true",
-            "raw": "'Object(true).valueOf() must return true'"
+            "value": "Object(true).valueOf() must return true"
           }
         ],
         "optional": false
@@ -150,15 +149,13 @@
             "type": "Literal",
             "start": 480,
             "end": 488,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 490,
             "end": 553,
-            "value": "The value of `typeof Object(true)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(true)` is expected to be \"object\"'"
+            "value": "The value of `typeof Object(true)` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -262,8 +259,7 @@
             "type": "Literal",
             "start": 636,
             "end": 737,
-            "value": "The value of Object(true).constructor.prototype is expected to equal the value of Boolean.prototype",
-            "raw": "'The value of Object(true).constructor.prototype is expected to equal the value of Boolean.prototype'"
+            "value": "The value of Object(true).constructor.prototype is expected to equal the value of Boolean.prototype"
           }
         ],
         "optional": false
@@ -349,8 +345,7 @@
             "type": "Literal",
             "start": 791,
             "end": 834,
-            "value": "Object(false).valueOf() must return false",
-            "raw": "'Object(false).valueOf() must return false'"
+            "value": "Object(false).valueOf() must return false"
           }
         ],
         "optional": false
@@ -416,15 +411,13 @@
             "type": "Literal",
             "start": 876,
             "end": 884,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 886,
             "end": 950,
-            "value": "The value of `typeof Object(false)` is expected to be \"object\"",
-            "raw": "'The value of `typeof Object(false)` is expected to be \"object\"'"
+            "value": "The value of `typeof Object(false)` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -528,8 +521,7 @@
             "type": "Literal",
             "start": 1034,
             "end": 1136,
-            "value": "The value of Object(false).constructor.prototype is expected to equal the value of Boolean.prototype",
-            "raw": "'The value of Object(false).constructor.prototype is expected to equal the value of Boolean.prototype'"
+            "value": "The value of Object(false).constructor.prototype is expected to equal the value of Boolean.prototype"
           }
         ],
         "optional": false

@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 364,
                           "end": 365,
-                          "value": 2,
-                          "raw": "2"
+                          "value": 2
                         }
                       }
                     ]
@@ -153,8 +152,7 @@
                     "type": "Literal",
                     "start": 425,
                     "end": 426,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
@@ -173,8 +171,7 @@
                     "type": "Literal",
                     "start": 445,
                     "end": 446,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   },
                   {
                     "type": "Literal",
@@ -214,15 +211,13 @@
             "type": "Literal",
             "start": 490,
             "end": 491,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 493,
             "end": 559,
-            "value": "[0, true, targetObj, 3, false].lastIndexOf(targetObj, fromIndex)",
-            "raw": "'[0, true, targetObj, 3, false].lastIndexOf(targetObj, fromIndex)'"
+            "value": "[0, true, targetObj, 3, false].lastIndexOf(targetObj, fromIndex)"
           }
         ],
         "optional": false
@@ -273,8 +268,7 @@
                     "type": "Literal",
                     "start": 580,
                     "end": 581,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Literal",
@@ -287,8 +281,7 @@
                     "type": "Literal",
                     "start": 589,
                     "end": 590,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   },
                   {
                     "type": "Identifier",
@@ -340,16 +333,14 @@
               "type": "Literal",
               "start": 646,
               "end": 647,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           },
           {
             "type": "Literal",
             "start": 649,
             "end": 715,
-            "value": "[0, true, 3, targetObj, false].lastIndexOf(targetObj, fromIndex)",
-            "raw": "'[0, true, 3, targetObj, false].lastIndexOf(targetObj, fromIndex)'"
+            "value": "[0, true, 3, targetObj, false].lastIndexOf(targetObj, fromIndex)"
           }
         ],
         "optional": false

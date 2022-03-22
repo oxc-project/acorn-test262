@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 863,
         "end": 912,
-        "value": "./object-propertyIsEnumerable-binding-uninit.js",
-        "raw": "\"./object-propertyIsEnumerable-binding-uninit.js\""
+        "value": "./object-propertyIsEnumerable-binding-uninit.js"
       }
     },
     {
@@ -140,8 +139,7 @@
                         "type": "Literal",
                         "start": 1009,
                         "end": 1018,
-                        "value": "default",
-                        "raw": "\"default\""
+                        "value": "default"
                       }
                     ],
                     "optional": false
@@ -162,8 +160,7 @@
         "type": "Literal",
         "start": 1041,
         "end": 1042,
-        "value": 0,
-        "raw": "0"
+        "value": 0
       }
     }
   ],

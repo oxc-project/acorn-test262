@@ -48,8 +48,7 @@
                       "type": "Literal",
                       "start": 454,
                       "end": 455,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -123,8 +122,7 @@
                           "type": "Literal",
                           "start": 498,
                           "end": 499,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -169,8 +167,7 @@
                   "type": "Literal",
                   "start": 541,
                   "end": 630,
-                  "value": "#1: ({} >= function(){return 1}) === ({}.toString() >= function(){return 1}.toString())",
-                  "raw": "'#1: ({} >= function(){return 1}) === ({}.toString() >= function(){return 1}.toString())'"
+                  "value": "#1: ({} >= function(){return 1}) === ({}.toString() >= function(){return 1}.toString())"
                 }
               ]
             }
@@ -217,8 +214,7 @@
                       "type": "Literal",
                       "start": 669,
                       "end": 670,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -272,8 +268,7 @@
                           "type": "Literal",
                           "start": 702,
                           "end": 703,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -345,8 +340,7 @@
                   "type": "Literal",
                   "start": 762,
                   "end": 851,
-                  "value": "#2: (function(){return 1} >= {}) === (function(){return 1}.toString() >= {}.toString())",
-                  "raw": "'#2: (function(){return 1} >= {}) === (function(){return 1}.toString() >= {}.toString())'"
+                  "value": "#2: (function(){return 1} >= {}) === (function(){return 1}.toString() >= {}.toString())"
                 }
               ]
             }
@@ -393,8 +387,7 @@
                       "type": "Literal",
                       "start": 890,
                       "end": 891,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -423,8 +416,7 @@
                       "type": "Literal",
                       "start": 914,
                       "end": 915,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -471,8 +463,7 @@
                           "type": "Literal",
                           "start": 941,
                           "end": 942,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -521,8 +512,7 @@
                           "type": "Literal",
                           "start": 976,
                           "end": 977,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -567,8 +557,7 @@
                   "type": "Literal",
                   "start": 1019,
                   "end": 1144,
-                  "value": "#3: (function(){return 1} >= function(){return 1}) === (function(){return 1}.toString() >= function(){return 1}.toString())",
-                  "raw": "'#3: (function(){return 1} >= function(){return 1}) === (function(){return 1}.toString() >= function(){return 1}.toString())'"
+                  "value": "#3: (function(){return 1} >= function(){return 1}) === (function(){return 1}.toString() >= function(){return 1}.toString())"
                 }
               ]
             }
@@ -697,8 +686,7 @@
                   "type": "Literal",
                   "start": 1240,
                   "end": 1293,
-                  "value": "#4: ({} >= {}) === ({}.toString() >= {}.toString())",
-                  "raw": "'#4: ({} >= {}) === ({}.toString() >= {}.toString())'"
+                  "value": "#4: ({} >= {}) === ({}.toString() >= {}.toString())"
                 }
               ]
             }

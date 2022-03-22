@@ -99,8 +99,7 @@
                     "type": "Literal",
                     "start": 573,
                     "end": 644,
-                    "value": "#1: var __color__map = {}; delete __color__map.red === true. Actual: ",
-                    "raw": "'#1: var __color__map = {}; delete __color__map.red === true. Actual: '"
+                    "value": "#1: var __color__map = {}; delete __color__map.red === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +164,7 @@
               "type": "Literal",
               "start": 878,
               "end": 885,
-              "value": "green",
-              "raw": "'green'"
+              "value": "green"
             },
             "computed": true,
             "optional": false
@@ -209,8 +207,7 @@
                     "type": "Literal",
                     "start": 929,
                     "end": 1005,
-                    "value": "#2: var __color__map = {}; delete __color__map[\"green\"] === true. Actual: ",
-                    "raw": "'#2: var __color__map = {}; delete __color__map[\"green\"] === true. Actual: '"
+                    "value": "#2: var __color__map = {}; delete __color__map[\"green\"] === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -233,8 +230,7 @@
                         "type": "Literal",
                         "start": 1032,
                         "end": 1039,
-                        "value": "green",
-                        "raw": "'green'"
+                        "value": "green"
                       },
                       "computed": true,
                       "optional": false
@@ -267,8 +263,7 @@
             "type": "Literal",
             "start": 1231,
             "end": 1232,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         }
       ],
@@ -345,8 +340,7 @@
                     "type": "Literal",
                     "start": 1306,
                     "end": 1393,
-                    "value": "#3: var __color__map = {}; var blue = 1; delete __color__map[blue] === true. Actual: ",
-                    "raw": "'#3: var __color__map = {}; var blue = 1; delete __color__map[blue] === true. Actual: '"
+                    "value": "#3: var __color__map = {}; var blue = 1; delete __color__map[blue] === true. Actual: "
                   },
                   "operator": "+",
                   "right": {

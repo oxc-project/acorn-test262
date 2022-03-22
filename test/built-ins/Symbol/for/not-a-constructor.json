@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 741,
             "end": 786,
-            "value": "isConstructor(Symbol.for) must return false",
-            "raw": "'isConstructor(Symbol.for) must return false'"
+            "value": "isConstructor(Symbol.for) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 846,
             "end": 883,
-            "value": "`new Symbol.for()` throws TypeError",
-            "raw": "'`new Symbol.for()` throws TypeError'"
+            "value": "`new Symbol.for()` throws TypeError"
           }
         ],
         "optional": false

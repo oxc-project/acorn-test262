@@ -100,8 +100,7 @@
             "type": "Literal",
             "start": 830,
             "end": 908,
-            "value": "Object.getPrototypeOf(Intl.Segmenter) equals the value of Function.prototype",
-            "raw": "\"Object.getPrototypeOf(Intl.Segmenter) equals the value of Function.prototype\""
+            "value": "Object.getPrototypeOf(Intl.Segmenter) equals the value of Function.prototype"
           }
         ],
         "optional": false

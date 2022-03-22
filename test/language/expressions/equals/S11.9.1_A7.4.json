@@ -44,8 +44,7 @@
               "type": "Literal",
               "start": 336,
               "end": 337,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         },
@@ -82,8 +81,7 @@
                   "type": "Literal",
                   "start": 376,
                   "end": 415,
-                  "value": "#1: (new Boolean(true) == 1) === true",
-                  "raw": "'#1: (new Boolean(true) == 1) === true'"
+                  "value": "#1: (new Boolean(true) == 1) === true"
                 }
               ]
             }
@@ -129,8 +127,7 @@
                     "type": "Literal",
                     "start": 448,
                     "end": 449,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 }
               ]
@@ -146,8 +143,7 @@
                 "type": "Literal",
                 "start": 455,
                 "end": 456,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -185,8 +181,7 @@
                   "type": "Literal",
                   "start": 495,
                   "end": 532,
-                  "value": "#2: (new Number(-1) == -1) === true",
-                  "raw": "'#2: (new Number(-1) == -1) === true'"
+                  "value": "#2: (new Number(-1) == -1) === true"
                 }
               ]
             }
@@ -226,8 +221,7 @@
                   "type": "Literal",
                   "start": 564,
                   "end": 568,
-                  "value": "-1",
-                  "raw": "\"-1\""
+                  "value": "-1"
                 }
               ]
             },
@@ -242,8 +236,7 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 575,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -281,8 +274,7 @@
                   "type": "Literal",
                   "start": 614,
                   "end": 653,
-                  "value": "#3: (new String(\"-1\") == -1) === true",
-                  "raw": "'#3: (new String(\"-1\") == -1) === true'"
+                  "value": "#3: (new String(\"-1\") == -1) === true"
                 }
               ]
             }

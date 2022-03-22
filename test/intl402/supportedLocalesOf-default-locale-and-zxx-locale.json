@@ -60,15 +60,13 @@
                             "type": "Literal",
                             "start": 476,
                             "end": 484,
-                            "value": "lookup",
-                            "raw": "\"lookup\""
+                            "value": "lookup"
                           },
                           {
                             "type": "Literal",
                             "start": 486,
                             "end": 496,
-                            "value": "best fit",
-                            "raw": "\"best fit\""
+                            "value": "best fit"
                           }
                         ]
                       },
@@ -186,8 +184,7 @@
                                     "type": "Literal",
                                     "start": 633,
                                     "end": 638,
-                                    "value": "zxx",
-                                    "raw": "\"zxx\""
+                                    "value": "zxx"
                                   }
                                 }
                               ],
@@ -357,8 +354,7 @@
                                       "type": "Literal",
                                       "start": 835,
                                       "end": 836,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     }
                                   },
                                   {
@@ -373,8 +369,7 @@
                                         "type": "Literal",
                                         "start": 838,
                                         "end": 899,
-                                        "value": "SupportedLocales didn't return default locale with matcher ",
-                                        "raw": "\"SupportedLocales didn't return default locale with matcher \""
+                                        "value": "SupportedLocales didn't return default locale with matcher "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -389,8 +384,7 @@
                                       "type": "Literal",
                                       "start": 912,
                                       "end": 915,
-                                      "value": ".",
-                                      "raw": "\".\""
+                                      "value": "."
                                     }
                                   }
                                 ],
@@ -468,8 +462,7 @@
                                       "type": "Literal",
                                       "start": 984,
                                       "end": 985,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     }
                                   },
                                   {
@@ -484,8 +477,7 @@
                                         "type": "Literal",
                                         "start": 987,
                                         "end": 1065,
-                                        "value": "SupportedLocales returned the \"no linguistic content\" locale with matcher ",
-                                        "raw": "\"SupportedLocales returned the \\\"no linguistic content\\\" locale with matcher \""
+                                        "value": "SupportedLocales returned the \"no linguistic content\" locale with matcher "
                                       },
                                       "operator": "+",
                                       "right": {
@@ -500,8 +492,7 @@
                                       "type": "Literal",
                                       "start": 1078,
                                       "end": 1081,
-                                      "value": ".",
-                                      "raw": "\".\""
+                                      "value": "."
                                     }
                                   }
                                 ],
@@ -564,8 +555,7 @@
                                       "type": "Literal",
                                       "start": 1128,
                                       "end": 1129,
-                                      "value": 1,
-                                      "raw": "1"
+                                      "value": 1
                                     }
                                   },
                                   {
@@ -595,8 +585,7 @@
                                             "type": "Literal",
                                             "start": 1138,
                                             "end": 1181,
-                                            "value": "SupportedLocales returned stray locales: ",
-                                            "raw": "\"SupportedLocales returned stray locales: \""
+                                            "value": "SupportedLocales returned stray locales: "
                                           },
                                           "operator": "+",
                                           "right": {
@@ -627,8 +616,7 @@
                                                 "type": "Literal",
                                                 "start": 1199,
                                                 "end": 1203,
-                                                "value": ", ",
-                                                "raw": "\", \""
+                                                "value": ", "
                                               }
                                             ],
                                             "optional": false
@@ -639,8 +627,7 @@
                                           "type": "Literal",
                                           "start": 1207,
                                           "end": 1223,
-                                          "value": " with matcher ",
-                                          "raw": "\" with matcher \""
+                                          "value": " with matcher "
                                         }
                                       },
                                       "operator": "+",
@@ -656,8 +643,7 @@
                                       "type": "Literal",
                                       "start": 1236,
                                       "end": 1239,
-                                      "value": ".",
-                                      "raw": "\".\""
+                                      "value": "."
                                     }
                                   }
                                 ],

@@ -52,22 +52,19 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 386,
-                "value": "get [Symbol.toPrimitive]",
-                "raw": "'get [Symbol.toPrimitive]'"
+                "value": "get [Symbol.toPrimitive]"
               },
               {
                 "type": "Literal",
                 "start": 390,
                 "end": 404,
-                "value": "get toString",
-                "raw": "'get toString'"
+                "value": "get toString"
               },
               {
                 "type": "Literal",
                 "start": 408,
                 "end": 421,
-                "value": "get valueOf",
-                "raw": "'get valueOf'"
+                "value": "get valueOf"
               }
             ]
           }
@@ -118,8 +115,7 @@
                 "type": "Literal",
                 "start": 466,
                 "end": 471,
-                "value": "UTC",
-                "raw": "\"UTC\""
+                "value": "UTC"
               }
             ]
           }
@@ -240,8 +236,7 @@
             "type": "Literal",
             "start": 606,
             "end": 616,
-            "value": "toString",
-            "raw": "\"toString\""
+            "value": "toString"
           },
           {
             "type": "Identifier",
@@ -297,8 +292,7 @@
             "type": "Literal",
             "start": 680,
             "end": 689,
-            "value": "valueOf",
-            "raw": "\"valueOf\""
+            "value": "valueOf"
           },
           {
             "type": "MemberExpression",

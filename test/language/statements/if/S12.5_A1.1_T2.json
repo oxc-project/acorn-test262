@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 311,
             "end": 312,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -37,8 +36,7 @@
         "type": "Literal",
         "start": 406,
         "end": 407,
-        "value": 0,
-        "raw": "0"
+        "value": 0
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -59,8 +57,7 @@
               "type": "Literal",
               "start": 433,
               "end": 479,
-              "value": "#1.1: 0 in expression is evaluated to false ",
-              "raw": "'#1.1: 0 in expression is evaluated to false '"
+              "value": "#1.1: 0 in expression is evaluated to false "
             }
           ]
         }
@@ -103,8 +100,7 @@
           "type": "Literal",
           "start": 501,
           "end": 502,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -126,8 +122,7 @@
               "type": "Literal",
               "start": 527,
               "end": 560,
-              "value": "#1.2: else branch don`t execute",
-              "raw": "'#1.2: else branch don`t execute'"
+              "value": "#1.2: else branch don`t execute"
             }
           ]
         }
@@ -164,8 +159,7 @@
               "type": "Literal",
               "start": 772,
               "end": 822,
-              "value": "#2.1: false in expression is evaluated to false ",
-              "raw": "'#2.1: false in expression is evaluated to false '"
+              "value": "#2.1: false in expression is evaluated to false "
             }
           ]
         }
@@ -208,8 +202,7 @@
           "type": "Literal",
           "start": 844,
           "end": 845,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -231,8 +224,7 @@
               "type": "Literal",
               "start": 870,
               "end": 903,
-              "value": "#2.2: else branch don`t execute",
-              "raw": "'#2.2: else branch don`t execute'"
+              "value": "#2.2: else branch don`t execute"
             }
           ]
         }
@@ -269,8 +261,7 @@
               "type": "Literal",
               "start": 1111,
               "end": 1160,
-              "value": "#3.1: null in expression is evaluated to false ",
-              "raw": "'#3.1: null in expression is evaluated to false '"
+              "value": "#3.1: null in expression is evaluated to false "
             }
           ]
         }
@@ -313,8 +304,7 @@
           "type": "Literal",
           "start": 1182,
           "end": 1183,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       },
       "consequent": {
@@ -336,8 +326,7 @@
               "type": "Literal",
               "start": 1208,
               "end": 1241,
-              "value": "#3.2: else branch don`t execute",
-              "raw": "'#3.2: else branch don`t execute'"
+              "value": "#3.2: else branch don`t execute"
             }
           ]
         }
@@ -373,8 +362,7 @@
               "type": "Literal",
               "start": 1454,
               "end": 1508,
-              "value": "#4.1: undefined in expression is evaluated to false ",
-              "raw": "'#4.1: undefined in expression is evaluated to false '"
+              "value": "#4.1: undefined in expression is evaluated to false "
             }
           ]
         }
@@ -417,8 +405,7 @@
           "type": "Literal",
           "start": 1530,
           "end": 1531,
-          "value": 4,
-          "raw": "4"
+          "value": 4
         }
       },
       "consequent": {
@@ -440,8 +427,7 @@
               "type": "Literal",
               "start": 1556,
               "end": 1589,
-              "value": "#4.2: else branch don`t execute",
-              "raw": "'#4.2: else branch don`t execute'"
+              "value": "#4.2: else branch don`t execute"
             }
           ]
         }
@@ -456,8 +442,7 @@
         "type": "Literal",
         "start": 1767,
         "end": 1769,
-        "value": "",
-        "raw": "\"\""
+        "value": ""
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -478,8 +463,7 @@
               "type": "Literal",
               "start": 1798,
               "end": 1855,
-              "value": "#5.1: empty string in expression is evaluated to false ",
-              "raw": "'#5.1: empty string in expression is evaluated to false '"
+              "value": "#5.1: empty string in expression is evaluated to false "
             }
           ]
         }
@@ -522,8 +506,7 @@
           "type": "Literal",
           "start": 1877,
           "end": 1878,
-          "value": 5,
-          "raw": "5"
+          "value": 5
         }
       },
       "consequent": {
@@ -545,8 +528,7 @@
               "type": "Literal",
               "start": 1903,
               "end": 1936,
-              "value": "#5.2: else branch don`t execute",
-              "raw": "'#5.2: else branch don`t execute'"
+              "value": "#5.2: else branch don`t execute"
             }
           ]
         }
@@ -582,8 +564,7 @@
               "type": "Literal",
               "start": 2146,
               "end": 2194,
-              "value": "#6.1: NaN in expression is evaluated to false ",
-              "raw": "'#6.1: NaN in expression is evaluated to false '"
+              "value": "#6.1: NaN in expression is evaluated to false "
             }
           ]
         }
@@ -626,8 +607,7 @@
           "type": "Literal",
           "start": 2216,
           "end": 2217,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -649,8 +629,7 @@
               "type": "Literal",
               "start": 2242,
               "end": 2275,
-              "value": "#6.2: else branch don`t execute",
-              "raw": "'#6.2: else branch don`t execute'"
+              "value": "#6.2: else branch don`t execute"
             }
           ]
         }

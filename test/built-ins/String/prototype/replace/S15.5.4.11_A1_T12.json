@@ -101,8 +101,7 @@
                           "type": "Literal",
                           "start": 602,
                           "end": 617,
-                          "value": "insearchValue",
-                          "raw": "\"insearchValue\""
+                          "value": "insearchValue"
                         }
                       }
                     ]
@@ -171,8 +170,7 @@
                           "type": "Literal",
                           "start": 676,
                           "end": 692,
-                          "value": "inreplaceValue",
-                          "raw": "\"inreplaceValue\""
+                          "value": "inreplaceValue"
                         }
                       }
                     ]
@@ -216,8 +214,7 @@
                 "type": "Literal",
                 "start": 724,
                 "end": 740,
-                "value": "ABBABABAB",
-                "raw": "\"ABB\\u0041BABAB\""
+                "value": "ABBABABAB"
               }
             ]
           }
@@ -311,8 +308,7 @@
                   "type": "Literal",
                   "start": 904,
                   "end": 974,
-                  "value": "#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception",
-                  "raw": "'#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception'"
+                  "value": "#1: \"var x = __str.replace(__obj,__obj2)\" lead to throwing exception"
                 }
               ]
             }
@@ -353,8 +349,7 @@
                   "type": "Literal",
                   "start": 1003,
                   "end": 1018,
-                  "value": "insearchValue",
-                  "raw": "\"insearchValue\""
+                  "value": "insearchValue"
                 }
               },
               "consequent": {
@@ -385,8 +380,7 @@
                             "type": "Literal",
                             "start": 1049,
                             "end": 1096,
-                            "value": "#1.1: Exception === \"insearchValue\". Actual: ",
-                            "raw": "'#1.1: Exception === \"insearchValue\". Actual: '"
+                            "value": "#1.1: Exception === \"insearchValue\". Actual: "
                           },
                           "operator": "+",
                           "right": {

@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 393,
             "end": 458,
-            "value": "The value of delete Date.prototype.setMilliseconds is not false",
-            "raw": "'The value of delete Date.prototype.setMilliseconds is not false'"
+            "value": "The value of delete Date.prototype.setMilliseconds is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 504,
                   "end": 521,
-                  "value": "setMilliseconds",
-                  "raw": "'setMilliseconds'"
+                  "value": "setMilliseconds"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 526,
             "end": 615,
-            "value": "The value of !Date.prototype.hasOwnProperty('setMilliseconds') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'setMilliseconds\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('setMilliseconds') is expected to be true"
           }
         ],
         "optional": false

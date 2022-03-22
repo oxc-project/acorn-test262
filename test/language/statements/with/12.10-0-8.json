@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 278,
                   "end": 280,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               }
@@ -85,8 +84,7 @@
                   "type": "Literal",
                   "start": 311,
                   "end": 324,
-                  "value": "set in with",
-                  "raw": "\"set in with\""
+                  "value": "set in with"
                 }
               }
             ],
@@ -146,15 +144,13 @@
             "type": "Literal",
             "start": 355,
             "end": 368,
-            "value": "set in with",
-            "raw": "\"set in with\""
+            "value": "set in with"
           },
           {
             "type": "Literal",
             "start": 370,
             "end": 377,
-            "value": "o.foo",
-            "raw": "'o.foo'"
+            "value": "o.foo"
           }
         ],
         "optional": false

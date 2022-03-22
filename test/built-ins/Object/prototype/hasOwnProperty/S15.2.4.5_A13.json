@@ -116,8 +116,7 @@
                         "type": "Literal",
                         "start": 352,
                         "end": 357,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ],
                     "optional": false
@@ -130,8 +129,7 @@
             "type": "Literal",
             "start": 363,
             "end": 443,
-            "value": "Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception",
-            "raw": "'Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception'"
+            "value": "Object.prototype.hasOwnProperty.call(null, \"foo\") throws a TypeError exception"
           }
         ],
         "optional": false

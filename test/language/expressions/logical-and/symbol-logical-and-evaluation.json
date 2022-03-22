@@ -93,8 +93,7 @@
             "type": "Literal",
             "start": 292,
             "end": 317,
-            "value": "`sym && true` is `true`",
-            "raw": "\"`sym && true` is `true`\""
+            "value": "`sym && true` is `true`"
           }
         ],
         "optional": false
@@ -165,8 +164,7 @@
             "type": "Literal",
             "start": 359,
             "end": 387,
-            "value": "`!sym && false` is `false`",
-            "raw": "\"`!sym && false` is `false`\""
+            "value": "`!sym && false` is `false`"
           }
         ],
         "optional": false

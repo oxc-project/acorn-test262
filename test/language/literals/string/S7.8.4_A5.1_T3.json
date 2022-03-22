@@ -15,16 +15,14 @@
           "type": "Literal",
           "start": 234,
           "end": 240,
-          "value": "\u0000",
-          "raw": "\"\\x00\""
+          "value": "\u0000"
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
           "start": 245,
           "end": 249,
-          "value": "\u0000",
-          "raw": "\"\\0\""
+          "value": "\u0000"
         }
       },
       "consequent": {
@@ -51,8 +49,7 @@
                   "type": "Literal",
                   "start": 278,
                   "end": 301,
-                  "value": "#1: \"\\x00\" === \"\\0\"",
-                  "raw": "'#1: \"\\\\x00\" === \"\\\\0\"'"
+                  "value": "#1: \"\\x00\" === \"\\0\""
                 }
               ]
             }

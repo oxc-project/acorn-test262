@@ -104,22 +104,19 @@
               "type": "Literal",
               "start": 596,
               "end": 597,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             {
               "type": "Literal",
               "start": 599,
               "end": 600,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 602,
               "end": 603,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             }
           ],
           "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 635,
             "end": 638,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -189,8 +185,7 @@
                   "type": "Literal",
                   "start": 651,
                   "end": 652,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -303,8 +298,7 @@
                         "type": "Literal",
                         "start": 743,
                         "end": 746,
-                        "value": "0",
-                        "raw": "\"0\""
+                        "value": "0"
                       },
                       "value": {
                         "type": "ObjectExpression",
@@ -328,8 +322,7 @@
                               "type": "Literal",
                               "start": 763,
                               "end": 765,
-                              "value": 10,
-                              "raw": "10"
+                              "value": 10
                             },
                             "kind": "init"
                           }
@@ -362,8 +355,7 @@
                   "type": "Literal",
                   "start": 804,
                   "end": 828,
-                  "value": "Expected an exception.",
-                  "raw": "\"Expected an exception.\""
+                  "value": "Expected an exception."
                 }
               ]
             }
@@ -410,15 +402,13 @@
                     "type": "Literal",
                     "start": 866,
                     "end": 869,
-                    "value": "0",
-                    "raw": "\"0\""
+                    "value": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 871,
                     "end": 872,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   }
                 ],
                 "optional": false
@@ -449,8 +439,7 @@
                     "type": "Literal",
                     "start": 901,
                     "end": 904,
-                    "value": "0",
-                    "raw": "\"0\""
+                    "value": "0"
                   }
                 ],
                 "optional": false
@@ -481,8 +470,7 @@
                     "type": "Literal",
                     "start": 932,
                     "end": 935,
-                    "value": "0",
-                    "raw": "\"0\""
+                    "value": "0"
                   }
                 ],
                 "optional": false
@@ -513,8 +501,7 @@
                     "type": "Literal",
                     "start": 968,
                     "end": 971,
-                    "value": "0",
-                    "raw": "\"0\""
+                    "value": "0"
                   }
                 ],
                 "optional": false
@@ -582,8 +569,7 @@
                             "type": "Literal",
                             "start": 1037,
                             "end": 1063,
-                            "value": "Expected TypeError, got ",
-                            "raw": "\"Expected TypeError, got \""
+                            "value": "Expected TypeError, got "
                           },
                           "operator": "+",
                           "right": {

@@ -80,15 +80,13 @@
             "type": "Literal",
             "start": 371,
             "end": 389,
-            "value": "zonedDateTimeISO",
-            "raw": "'zonedDateTimeISO'"
+            "value": "zonedDateTimeISO"
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 479,
-            "value": "The value of Temporal.Now.zonedDateTimeISO.name is expected to be \"zonedDateTimeISO\"",
-            "raw": "'The value of Temporal.Now.zonedDateTimeISO.name is expected to be \"zonedDateTimeISO\"'"
+            "value": "The value of Temporal.Now.zonedDateTimeISO.name is expected to be \"zonedDateTimeISO\""
           }
         ],
         "optional": false
@@ -145,8 +143,7 @@
             "type": "Literal",
             "start": 530,
             "end": 536,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",

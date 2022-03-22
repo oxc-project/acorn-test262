@@ -83,8 +83,7 @@
                     "type": "Literal",
                     "start": 468,
                     "end": 472,
-                    "value": "en",
-                    "raw": "'en'"
+                    "value": "en"
                   }
                 ]
               }
@@ -102,8 +101,7 @@
             "type": "Literal",
             "start": 486,
             "end": 543,
-            "value": "Object.isExtensible(new Intl.Locale('en')) returns true",
-            "raw": "\"Object.isExtensible(new Intl.Locale('en')) returns true\""
+            "value": "Object.isExtensible(new Intl.Locale('en')) returns true"
           }
         ],
         "optional": false

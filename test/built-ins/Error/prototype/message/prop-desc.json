@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 308,
             "end": 317,
-            "value": "message",
-            "raw": "'message'"
+            "value": "message"
           },
           {
             "type": "ObjectExpression",
@@ -132,8 +131,7 @@
                   "type": "Literal",
                   "start": 391,
                   "end": 393,
-                  "value": "",
-                  "raw": "''"
+                  "value": ""
                 },
                 "kind": "init"
               }

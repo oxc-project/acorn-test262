@@ -88,8 +88,7 @@
             "type": "Literal",
             "start": 766,
             "end": 824,
-            "value": "isConstructor(Function.prototype.bind) must return false",
-            "raw": "'isConstructor(Function.prototype.bind) must return false'"
+            "value": "isConstructor(Function.prototype.bind) must return false"
           }
         ],
         "optional": false
@@ -193,8 +192,7 @@
             "type": "Literal",
             "start": 898,
             "end": 948,
-            "value": "`new Function.prototype.bind()` throws TypeError",
-            "raw": "'`new Function.prototype.bind()` throws TypeError'"
+            "value": "`new Function.prototype.bind()` throws TypeError"
           }
         ],
         "optional": false

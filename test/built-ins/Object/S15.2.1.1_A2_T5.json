@@ -73,15 +73,13 @@
             "type": "Literal",
             "start": 435,
             "end": 443,
-            "value": "number",
-            "raw": "'number'"
+            "value": "number"
           },
           {
             "type": "Literal",
             "start": 445,
             "end": 499,
-            "value": "The value of `typeof num` is expected to be \"number\"",
-            "raw": "'The value of `typeof num` is expected to be \"number\"'"
+            "value": "The value of `typeof num` is expected to be \"number\""
           }
         ],
         "optional": false
@@ -183,8 +181,7 @@
             "type": "Literal",
             "start": 569,
             "end": 640,
-            "value": "The value of obj.constructor is expected to equal the value of Number",
-            "raw": "'The value of obj.constructor is expected to equal the value of Number'"
+            "value": "The value of obj.constructor is expected to equal the value of Number"
           }
         ],
         "optional": false
@@ -235,15 +232,13 @@
             "type": "Literal",
             "start": 672,
             "end": 680,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 682,
             "end": 736,
-            "value": "The value of `typeof obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
+            "value": "The value of `typeof obj` is expected to be \"object\""
           }
         ],
         "optional": false

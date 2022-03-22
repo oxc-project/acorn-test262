@@ -48,64 +48,55 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 335,
-                "value": "language",
-                "raw": "\"language\""
+                "value": "language"
               },
               {
                 "type": "Literal",
                 "start": 339,
                 "end": 347,
-                "value": "script",
-                "raw": "\"script\""
+                "value": "script"
               },
               {
                 "type": "Literal",
                 "start": 351,
                 "end": 359,
-                "value": "region",
-                "raw": "\"region\""
+                "value": "region"
               },
               {
                 "type": "Literal",
                 "start": 363,
                 "end": 373,
-                "value": "calendar",
-                "raw": "\"calendar\""
+                "value": "calendar"
               },
               {
                 "type": "Literal",
                 "start": 377,
                 "end": 388,
-                "value": "collation",
-                "raw": "\"collation\""
+                "value": "collation"
               },
               {
                 "type": "Literal",
                 "start": 392,
                 "end": 403,
-                "value": "hourCycle",
-                "raw": "\"hourCycle\""
+                "value": "hourCycle"
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 418,
-                "value": "caseFirst",
-                "raw": "\"caseFirst\""
+                "value": "caseFirst"
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 431,
-                "value": "numeric",
-                "raw": "\"numeric\""
+                "value": "numeric"
               },
               {
                 "type": "Literal",
                 "start": 435,
                 "end": 452,
-                "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "value": "numberingSystem"
               }
             ]
           }
@@ -229,8 +220,7 @@
                               "type": "Literal",
                               "start": 547,
                               "end": 551,
-                              "value": "en",
-                              "raw": "\"en\""
+                              "value": "en"
                             },
                             {
                               "type": "ObjectExpression",

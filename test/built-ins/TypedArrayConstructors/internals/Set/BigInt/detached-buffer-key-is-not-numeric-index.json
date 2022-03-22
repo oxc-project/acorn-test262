@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 767,
                             "end": 768,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -178,15 +177,13 @@
                             "type": "Literal",
                             "start": 848,
                             "end": 853,
-                            "value": "foo",
-                            "raw": "'foo'"
+                            "value": "foo"
                           },
                           {
                             "type": "Literal",
                             "start": 855,
                             "end": 864,
-                            "value": "test262",
-                            "raw": "'test262'"
+                            "value": "test262"
                           }
                         ],
                         "optional": false
@@ -202,8 +199,7 @@
                         "type": "Literal",
                         "start": 881,
                         "end": 937,
-                        "value": "Reflect.set(sample, \"foo\", \"test262\") must return true",
-                        "raw": "'Reflect.set(sample, \"foo\", \"test262\") must return true'"
+                        "value": "Reflect.set(sample, \"foo\", \"test262\") must return true"
                       }
                     ],
                     "optional": false
@@ -260,15 +256,13 @@
                         "type": "Literal",
                         "start": 975,
                         "end": 984,
-                        "value": "test262",
-                        "raw": "'test262'"
+                        "value": "test262"
                       },
                       {
                         "type": "Literal",
                         "start": 986,
                         "end": 1024,
-                        "value": "The value of sample.foo is \"test262\"",
-                        "raw": "'The value of sample.foo is \"test262\"'"
+                        "value": "The value of sample.foo is \"test262\""
                       }
                     ],
                     "optional": false

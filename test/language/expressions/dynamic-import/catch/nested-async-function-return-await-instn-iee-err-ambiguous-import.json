@@ -54,8 +54,7 @@
                           "type": "Literal",
                           "start": 2381,
                           "end": 2426,
-                          "value": "./instn-iee-err-ambiguous-export_FIXTURE.js",
-                          "raw": "'./instn-iee-err-ambiguous-export_FIXTURE.js'"
+                          "value": "./instn-iee-err-ambiguous-export_FIXTURE.js"
                         }
                       },
                       "property": {
@@ -140,8 +139,7 @@
                                     "type": "Literal",
                                     "start": 2479,
                                     "end": 2492,
-                                    "value": "SyntaxError",
-                                    "raw": "'SyntaxError'"
+                                    "value": "SyntaxError"
                                   }
                                 ],
                                 "optional": false

@@ -35,8 +35,7 @@
                 "type": "Literal",
                 "start": 365,
                 "end": 366,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -53,8 +52,7 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 377,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -138,8 +136,7 @@
             "type": "Literal",
             "start": 431,
             "end": 432,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -315,8 +312,7 @@
                                   "type": "Literal",
                                   "start": 619,
                                   "end": 679,
-                                  "value": "This code is unreachable (following `continue` statement).",
-                                  "raw": "'This code is unreachable (following `continue` statement).'"
+                                  "value": "This code is unreachable (following `continue` statement)."
                                 }
                               ]
                             }
@@ -345,8 +341,7 @@
                           "type": "Literal",
                           "start": 716,
                           "end": 771,
-                          "value": "This code is unreachable (following `try` statement).",
-                          "raw": "'This code is unreachable (following `try` statement).'"
+                          "value": "This code is unreachable (following `try` statement)."
                         }
                       ]
                     }
@@ -373,8 +368,7 @@
                     "type": "Literal",
                     "start": 804,
                     "end": 863,
-                    "value": "This code is unreachable (following `for..of` statement).",
-                    "raw": "'This code is unreachable (following `for..of` statement).'"
+                    "value": "This code is unreachable (following `for..of` statement)."
                   }
                 ]
               }
@@ -427,8 +421,7 @@
             "type": "Literal",
             "start": 889,
             "end": 890,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false

@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 958,
             "end": 974,
-            "value": "DateTimeFormat",
-            "raw": "\"DateTimeFormat\""
+            "value": "DateTimeFormat"
           }
         ],
         "optional": false
@@ -60,8 +59,7 @@
             "type": "Literal",
             "start": 998,
             "end": 1014,
-            "value": "DateTimeFormat",
-            "raw": "\"DateTimeFormat\""
+            "value": "DateTimeFormat"
           }
         ],
         "optional": false
@@ -92,8 +90,7 @@
             "type": "Literal",
             "start": 1042,
             "end": 1058,
-            "value": "DateTimeFormat",
-            "raw": "\"DateTimeFormat\""
+            "value": "DateTimeFormat"
           }
         ],
         "optional": false

@@ -23,16 +23,14 @@
               "type": "Literal",
               "start": 342,
               "end": 343,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "operator": ">",
             "right": {
               "type": "Literal",
               "start": 346,
               "end": 349,
-              "value": 1.1,
-              "raw": "1.1"
+              "value": 1.1
             }
           }
         },
@@ -69,8 +67,7 @@
                   "type": "Literal",
                   "start": 389,
                   "end": 414,
-                  "value": "#1: (1 > 1.1) === false",
-                  "raw": "'#1: (1 > 1.1) === false'"
+                  "value": "#1: (1 > 1.1) === false"
                 }
               ]
             }
@@ -99,16 +96,14 @@
               "type": "Literal",
               "start": 435,
               "end": 438,
-              "value": 1.1,
-              "raw": "1.1"
+              "value": 1.1
             },
             "operator": ">",
             "right": {
               "type": "Literal",
               "start": 441,
               "end": 442,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           }
         },
@@ -145,8 +140,7 @@
                   "type": "Literal",
                   "start": 481,
                   "end": 505,
-                  "value": "#2: (1.1 > 1) === true",
-                  "raw": "'#2: (1.1 > 1) === true'"
+                  "value": "#2: (1.1 > 1) === true"
                 }
               ]
             }
@@ -181,8 +175,7 @@
                 "type": "Literal",
                 "start": 527,
                 "end": 528,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "operator": ">",
@@ -196,8 +189,7 @@
                 "type": "Literal",
                 "start": 532,
                 "end": 535,
-                "value": 1.1,
-                "raw": "1.1"
+                "value": 1.1
               }
             }
           }
@@ -235,8 +227,7 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 600,
-                  "value": "#3: (-1 > -1.1) === true",
-                  "raw": "'#3: (-1 > -1.1) === true'"
+                  "value": "#3: (-1 > -1.1) === true"
                 }
               ]
             }
@@ -271,8 +262,7 @@
                 "type": "Literal",
                 "start": 622,
                 "end": 625,
-                "value": 1.1,
-                "raw": "1.1"
+                "value": 1.1
               }
             },
             "operator": ">",
@@ -286,8 +276,7 @@
                 "type": "Literal",
                 "start": 629,
                 "end": 630,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -325,8 +314,7 @@
                   "type": "Literal",
                   "start": 670,
                   "end": 697,
-                  "value": "#4: (-1.1 > -1) === false",
-                  "raw": "'#4: (-1.1 > -1) === false'"
+                  "value": "#4: (-1.1 > -1) === false"
                 }
               ]
             }
@@ -355,16 +343,14 @@
               "type": "Literal",
               "start": 718,
               "end": 721,
-              "value": 0.1,
-              "raw": "0.1"
+              "value": 0.1
             },
             "operator": ">",
             "right": {
               "type": "Literal",
               "start": 724,
               "end": 725,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         },
@@ -401,8 +387,7 @@
                   "type": "Literal",
                   "start": 764,
                   "end": 788,
-                  "value": "#5: (0.1 > 0) === true",
-                  "raw": "'#5: (0.1 > 0) === true'"
+                  "value": "#5: (0.1 > 0) === true"
                 }
               ]
             }
@@ -431,8 +416,7 @@
               "type": "Literal",
               "start": 809,
               "end": 810,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "operator": ">",
             "right": {
@@ -445,8 +429,7 @@
                 "type": "Literal",
                 "start": 814,
                 "end": 817,
-                "value": 0.1,
-                "raw": "0.1"
+                "value": 0.1
               }
             }
           }
@@ -484,8 +467,7 @@
                   "type": "Literal",
                   "start": 856,
                   "end": 881,
-                  "value": "#6: (0 > -0.1) === true",
-                  "raw": "'#6: (0 > -0.1) === true'"
+                  "value": "#6: (0 > -0.1) === true"
                 }
               ]
             }
@@ -558,8 +540,7 @@
                 "type": "Literal",
                 "start": 938,
                 "end": 939,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           }
@@ -597,8 +578,7 @@
                   "type": "Literal",
                   "start": 978,
                   "end": 1032,
-                  "value": "#7: (Number.MAX_VALUE > Number.MAX_VALUE/2) === true",
-                  "raw": "'#7: (Number.MAX_VALUE > Number.MAX_VALUE/2) === true'"
+                  "value": "#7: (Number.MAX_VALUE > Number.MAX_VALUE/2) === true"
                 }
               ]
             }
@@ -651,8 +631,7 @@
                 "type": "Literal",
                 "start": 1070,
                 "end": 1071,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             },
             "operator": ">",
@@ -710,8 +689,7 @@
                   "type": "Literal",
                   "start": 1129,
                   "end": 1183,
-                  "value": "#8: (Number.MIN_VALUE*2 > Number.MIN_VALUE) === true",
-                  "raw": "'#8: (Number.MIN_VALUE*2 > Number.MIN_VALUE) === true'"
+                  "value": "#8: (Number.MIN_VALUE*2 > Number.MIN_VALUE) === true"
                 }
               ]
             }

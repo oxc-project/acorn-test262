@@ -61,8 +61,7 @@
             "type": "Literal",
             "start": 1017,
             "end": 1027,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false
@@ -93,8 +92,7 @@
             "type": "Literal",
             "start": 1052,
             "end": 1072,
-            "value": "RelativeTimeFormat",
-            "raw": "\"RelativeTimeFormat\""
+            "value": "RelativeTimeFormat"
           },
           {
             "type": "ObjectExpression",

@@ -58,8 +58,7 @@
                     "type": "Literal",
                     "start": 371,
                     "end": 412,
-                    "value": "#1: (undefined) === undefined. Actual: ",
-                    "raw": "'#1: (undefined) === undefined. Actual: '"
+                    "value": "#1: (undefined) === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -108,8 +107,7 @@
               "type": "Literal",
               "start": 454,
               "end": 455,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         },
@@ -124,8 +122,7 @@
             "type": "Literal",
             "start": 466,
             "end": 467,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       },
@@ -157,8 +154,7 @@
                     "type": "Literal",
                     "start": 496,
                     "end": 531,
-                    "value": "#2: (void 0) === void 0. Actual: ",
-                    "raw": "'#2: (void 0) === void 0. Actual: '"
+                    "value": "#2: (void 0) === void 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -179,8 +175,7 @@
                           "type": "Literal",
                           "start": 541,
                           "end": 542,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     }
@@ -250,8 +245,7 @@
                     "type": "Literal",
                     "start": 608,
                     "end": 639,
-                    "value": "#2: (null) === null. Actual: ",
-                    "raw": "'#2: (null) === null. Actual: '"
+                    "value": "#2: (null) === null. Actual: "
                   },
                   "operator": "+",
                   "right": {

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 980,
                 "end": 988,
-                "value": "-04:00",
-                "raw": "\"-04:00\""
+                "value": "-04:00"
               }
             ]
           }
@@ -113,8 +112,7 @@
                   "type": "Literal",
                   "start": 1031,
                   "end": 1039,
-                  "value": "+01:00",
-                  "raw": "\"+01:00\""
+                  "value": "+01:00"
                 },
                 "kind": "init"
               },
@@ -135,8 +133,7 @@
                   "type": "Literal",
                   "start": 1047,
                   "end": 1051,
-                  "value": 2020,
-                  "raw": "2020"
+                  "value": 2020
                 },
                 "kind": "init"
               },
@@ -157,8 +154,7 @@
                   "type": "Literal",
                   "start": 1060,
                   "end": 1061,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -179,8 +175,7 @@
                   "type": "Literal",
                   "start": 1068,
                   "end": 1070,
-                  "value": 16,
-                  "raw": "16"
+                  "value": 16
                 },
                 "kind": "init"
               },
@@ -201,8 +196,7 @@
                   "type": "Literal",
                   "start": 1078,
                   "end": 1080,
-                  "value": 23,
-                  "raw": "23"
+                  "value": 23
                 },
                 "kind": "init"
               },
@@ -223,8 +217,7 @@
                   "type": "Literal",
                   "start": 1090,
                   "end": 1092,
-                  "value": 45,
-                  "raw": "45"
+                  "value": 45
                 },
                 "kind": "init"
               }
@@ -356,8 +349,7 @@
             "type": "Literal",
             "start": 1194,
             "end": 1220,
-            "value": "default offset is reject",
-            "raw": "\"default offset is reject\""
+            "value": "default offset is reject"
           }
         ],
         "optional": false

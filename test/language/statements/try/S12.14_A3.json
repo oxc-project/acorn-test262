@@ -42,8 +42,7 @@
                   "type": "Literal",
                   "start": 333,
                   "end": 369,
-                  "value": "#1: \"y\" lead to throwing exception",
-                  "raw": "'#1: \"y\" lead to throwing exception'"
+                  "value": "#1: \"y\" lead to throwing exception"
                 }
               ]
             }
@@ -88,8 +87,7 @@
             "type": "Literal",
             "start": 404,
             "end": 405,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -143,8 +141,7 @@
                         "type": "Literal",
                         "start": 461,
                         "end": 508,
-                        "value": "#3.1: \"someValues\" lead to throwing exception",
-                        "raw": "'#3.1: \"someValues\" lead to throwing exception'"
+                        "value": "#3.1: \"someValues\" lead to throwing exception"
                       }
                     ]
                   }
@@ -176,8 +173,7 @@
                       "type": "Literal",
                       "start": 533,
                       "end": 534,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -220,8 +216,7 @@
                   "type": "Literal",
                   "start": 563,
                   "end": 564,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               },
               "consequent": {
@@ -248,8 +243,7 @@
                           "type": "Literal",
                           "start": 594,
                           "end": 635,
-                          "value": "#3.2: \"finally\" block must be evaluated",
-                          "raw": "'#3.2: \"finally\" block must be evaluated'"
+                          "value": "#3.2: \"finally\" block must be evaluated"
                         }
                       ]
                     }
@@ -282,8 +276,7 @@
             "type": "Literal",
             "start": 663,
             "end": 664,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         },
         {
@@ -300,8 +293,7 @@
             "type": "Literal",
             "start": 668,
             "end": 669,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -358,8 +350,7 @@
                   "type": "Literal",
                   "start": 717,
                   "end": 767,
-                  "value": "#3.1: \"x3=someValues\" lead to throwing exception",
-                  "raw": "'#3.1: \"x3=someValues\" lead to throwing exception'"
+                  "value": "#3.1: \"x3=someValues\" lead to throwing exception"
                 }
               ]
             }
@@ -400,8 +391,7 @@
                   "type": "Literal",
                   "start": 792,
                   "end": 793,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             }
@@ -432,8 +422,7 @@
                 "type": "Literal",
                 "start": 811,
                 "end": 812,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           }
@@ -459,8 +448,7 @@
           "type": "Literal",
           "start": 825,
           "end": 826,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -487,8 +475,7 @@
                   "type": "Literal",
                   "start": 854,
                   "end": 893,
-                  "value": "#3.2: \"catch\" block must be evaluated",
-                  "raw": "'#3.2: \"catch\" block must be evaluated'"
+                  "value": "#3.2: \"catch\" block must be evaluated"
                 }
               ]
             }
@@ -516,8 +503,7 @@
           "type": "Literal",
           "start": 907,
           "end": 908,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -544,8 +530,7 @@
                   "type": "Literal",
                   "start": 936,
                   "end": 977,
-                  "value": "#3.3: \"finally\" block must be evaluated",
-                  "raw": "'#3.3: \"finally\" block must be evaluated'"
+                  "value": "#3.3: \"finally\" block must be evaluated"
                 }
               ]
             }

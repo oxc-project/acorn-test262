@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 744,
                             "end": 745,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -140,8 +139,7 @@
                             "type": "Literal",
                             "start": 804,
                             "end": 807,
-                            "value": "0",
-                            "raw": "\"0\""
+                            "value": "0"
                           },
                           {
                             "type": "ObjectExpression",
@@ -165,8 +163,7 @@
                                   "type": "Literal",
                                   "start": 824,
                                   "end": 826,
-                                  "value": 42,
-                                  "raw": "42"
+                                  "value": 42
                                 },
                                 "kind": "init"
                               },
@@ -252,8 +249,7 @@
                         "type": "Literal",
                         "start": 924,
                         "end": 949,
-                        "value": "defineProperty's result",
-                        "raw": "\"defineProperty's result\""
+                        "value": "defineProperty's result"
                       }
                     ],
                     "optional": false
@@ -301,8 +297,7 @@
                           "type": "Literal",
                           "start": 981,
                           "end": 982,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -311,15 +306,13 @@
                         "type": "Literal",
                         "start": 985,
                         "end": 986,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 988,
                         "end": 1007,
-                        "value": "side effect check",
-                        "raw": "\"side effect check\""
+                        "value": "side effect check"
                       }
                     ],
                     "optional": false

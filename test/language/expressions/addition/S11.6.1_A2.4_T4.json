@@ -34,8 +34,7 @@
                 "type": "Literal",
                 "start": 325,
                 "end": 326,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           },
@@ -52,8 +51,7 @@
           "type": "Literal",
           "start": 336,
           "end": 337,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -84,8 +82,7 @@
                     "type": "Literal",
                     "start": 366,
                     "end": 399,
-                    "value": "#1: (y = 1) + y === 2. Actual: ",
-                    "raw": "'#1: (y = 1) + y === 2. Actual: '"
+                    "value": "#1: (y = 1) + y === 2. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -115,8 +112,7 @@
                             "type": "Literal",
                             "start": 408,
                             "end": 409,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       },

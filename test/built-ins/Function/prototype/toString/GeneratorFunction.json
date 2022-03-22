@@ -108,22 +108,19 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 464,
-                "value": "a",
-                "raw": "\"a\""
+                "value": "a"
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 492,
-                "value": " /* a */ b, c /* b */ //",
-                "raw": "\" /* a */ b, c /* b */ //\""
+                "value": " /* a */ b, c /* b */ //"
               },
               {
                 "type": "Literal",
                 "start": 494,
                 "end": 527,
-                "value": "/* c */ yield yield; /* d */ //",
-                "raw": "\"/* c */ yield yield; /* d */ //\""
+                "value": "/* c */ yield yield; /* d */ //"
               }
             ],
             "optional": false
@@ -157,8 +154,7 @@
             "type": "Literal",
             "start": 576,
             "end": 665,
-            "value": "function* anonymous(a, /* a */ b, c /* b */ //\n) {\n/* c */ yield yield; /* d */ //\n}",
-            "raw": "\"function* anonymous(a, /* a */ b, c /* b */ //\\n) {\\n/* c */ yield yield; /* d */ //\\n}\""
+            "value": "function* anonymous(a, /* a */ b, c /* b */ //\n) {\n/* c */ yield yield; /* d */ //\n}"
           }
         ],
         "optional": false

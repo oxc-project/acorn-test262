@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 326,
                 "end": 334,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 343,
             "end": 395,
-            "value": "Date.UTC.hasOwnProperty(\"length\") must return true",
-            "raw": "'Date.UTC.hasOwnProperty(\"length\") must return true'"
+            "value": "Date.UTC.hasOwnProperty(\"length\") must return true"
           }
         ],
         "optional": false
@@ -160,15 +158,13 @@
             "type": "Literal",
             "start": 432,
             "end": 433,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 435,
             "end": 485,
-            "value": "The value of Date.UTC.length is expected to be 7",
-            "raw": "'The value of Date.UTC.length is expected to be 7'"
+            "value": "The value of Date.UTC.length is expected to be 7"
           }
         ],
         "optional": false

@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 1972,
                 "end": 1979,
-                "value": "value",
-                "raw": "'value'"
+                "value": "value"
               },
               {
                 "type": "ObjectExpression",

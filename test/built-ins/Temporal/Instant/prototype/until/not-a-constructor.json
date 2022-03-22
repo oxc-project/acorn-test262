@@ -114,8 +114,7 @@
             "type": "Literal",
             "start": 640,
             "end": 664,
-            "value": "Calling as constructor",
-            "raw": "\"Calling as constructor\""
+            "value": "Calling as constructor"
           }
         ],
         "optional": false
@@ -219,8 +218,7 @@
             "type": "Literal",
             "start": 743,
             "end": 792,
-            "value": "isConstructor(Temporal.Instant.prototype.until)",
-            "raw": "\"isConstructor(Temporal.Instant.prototype.until)\""
+            "value": "isConstructor(Temporal.Instant.prototype.until)"
           }
         ],
         "optional": false

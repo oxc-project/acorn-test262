@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 314,
             "end": 321,
-            "value": "Proxy",
-            "raw": "\"Proxy\""
+            "value": "Proxy"
           }
         ],
         "optional": false
@@ -58,8 +57,7 @@
             "type": "Literal",
             "start": 345,
             "end": 352,
-            "value": "Proxy",
-            "raw": "\"Proxy\""
+            "value": "Proxy"
           }
         ],
         "optional": false
@@ -89,8 +87,7 @@
             "type": "Literal",
             "start": 380,
             "end": 387,
-            "value": "Proxy",
-            "raw": "\"Proxy\""
+            "value": "Proxy"
           }
         ],
         "optional": false

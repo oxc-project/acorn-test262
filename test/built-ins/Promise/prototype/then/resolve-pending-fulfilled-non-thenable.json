@@ -337,8 +337,7 @@
                               "type": "Literal",
                               "start": 1227,
                               "end": 1285,
-                              "value": "The promise should be fulfilled with the provided value.",
-                              "raw": "'The promise should be fulfilled with the provided value.'"
+                              "value": "The promise should be fulfilled with the provided value."
                             }
                           ],
                           "optional": false
@@ -408,8 +407,7 @@
                         "type": "Literal",
                         "start": 1340,
                         "end": 1377,
-                        "value": "The promise should not be rejected.",
-                        "raw": "'The promise should not be rejected.'"
+                        "value": "The promise should not be rejected."
                       }
                     ],
                     "optional": false

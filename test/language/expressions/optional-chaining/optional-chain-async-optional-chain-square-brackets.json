@@ -93,8 +93,7 @@
                                     "type": "Literal",
                                     "start": 519,
                                     "end": 521,
-                                    "value": 11,
-                                    "raw": "11"
+                                    "value": 11
                                   }
                                 ]
                               },
@@ -115,8 +114,7 @@
                         "type": "Literal",
                         "start": 527,
                         "end": 528,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -127,8 +125,7 @@
                   "type": "Literal",
                   "start": 531,
                   "end": 533,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 }
               ],
               "optional": false
@@ -176,15 +173,13 @@
                             "type": "Literal",
                             "start": 553,
                             "end": 555,
-                            "value": 22,
-                            "raw": "22"
+                            "value": 22
                           },
                           {
                             "type": "Literal",
                             "start": 557,
                             "end": 559,
-                            "value": 33,
-                            "raw": "33"
+                            "value": 33
                           }
                         ]
                       },
@@ -283,8 +278,7 @@
                             "type": "Literal",
                             "start": 609,
                             "end": 610,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -298,8 +292,7 @@
                   "type": "Literal",
                   "start": 614,
                   "end": 616,
-                  "value": 33,
-                  "raw": "33"
+                  "value": 33
                 }
               ],
               "optional": false
@@ -464,15 +457,13 @@
                                     "type": "Literal",
                                     "start": 711,
                                     "end": 713,
-                                    "value": 44,
-                                    "raw": "44"
+                                    "value": 44
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 715,
                                     "end": 717,
-                                    "value": 55,
-                                    "raw": "55"
+                                    "value": 55
                                   }
                                 ]
                               }
@@ -487,8 +478,7 @@
                       "type": "Literal",
                       "start": 721,
                       "end": 722,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "computed": true,
                     "optional": false
@@ -498,8 +488,7 @@
                   "type": "Literal",
                   "start": 725,
                   "end": 727,
-                  "value": 55,
-                  "raw": "55"
+                  "value": 55
                 }
               ],
               "optional": false
@@ -603,8 +592,7 @@
                                 "type": "Literal",
                                 "start": 800,
                                 "end": 813,
-                                "value": "unreachable",
-                                "raw": "'unreachable'"
+                                "value": "unreachable"
                               }
                             ]
                           }

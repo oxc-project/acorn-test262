@@ -104,15 +104,13 @@
             "type": "Literal",
             "start": 301,
             "end": 311,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 313,
             "end": 324,
-            "value": "typeof(f)",
-            "raw": "'typeof(f)'"
+            "value": "typeof(f)"
           }
         ],
         "optional": false

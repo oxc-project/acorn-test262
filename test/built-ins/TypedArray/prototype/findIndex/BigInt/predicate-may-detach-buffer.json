@@ -69,8 +69,7 @@
                             "type": "Literal",
                             "start": 1248,
                             "end": 1249,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         ]
                       }
@@ -97,8 +96,7 @@
                         "type": "Literal",
                         "start": 1266,
                         "end": 1267,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     }
                   ],
@@ -165,8 +163,7 @@
                                   "type": "Literal",
                                   "start": 1320,
                                   "end": 1321,
-                                  "value": 0,
-                                  "raw": "0"
+                                  "value": 0
                                 }
                               },
                               "consequent": {
@@ -279,15 +276,13 @@
                         "type": "Literal",
                         "start": 1412,
                         "end": 1413,
-                        "value": 2,
-                        "raw": "2"
+                        "value": 2
                       },
                       {
                         "type": "Literal",
                         "start": 1415,
                         "end": 1441,
-                        "value": "predicate is called once",
-                        "raw": "\"predicate is called once\""
+                        "value": "predicate is called once"
                       }
                     ],
                     "optional": false

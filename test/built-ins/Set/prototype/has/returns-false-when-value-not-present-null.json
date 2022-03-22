@@ -107,8 +107,7 @@
             "type": "Literal",
             "start": 314,
             "end": 345,
-            "value": "`s.has(null)` returns `false`",
-            "raw": "\"`s.has(null)` returns `false`\""
+            "value": "`s.has(null)` returns `false`"
           }
         ],
         "optional": false

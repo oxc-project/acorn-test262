@@ -39,8 +39,7 @@
             "type": "Literal",
             "start": 347,
             "end": 348,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -128,15 +127,13 @@
             "type": "Literal",
             "start": 399,
             "end": 400,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 402,
             "end": 424,
-            "value": "[true].indexOf(true)",
-            "raw": "'[true].indexOf(true)'"
+            "value": "[true].indexOf(true)"
           }
         ],
         "optional": false

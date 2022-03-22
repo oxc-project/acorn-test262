@@ -87,22 +87,19 @@
                               "type": "Literal",
                               "start": 1611,
                               "end": 1612,
-                              "value": 4,
-                              "raw": "4"
+                              "value": 4
                             },
                             {
                               "type": "Literal",
                               "start": 1614,
                               "end": 1615,
-                              "value": 5,
-                              "raw": "5"
+                              "value": 5
                             },
                             {
                               "type": "Literal",
                               "start": 1617,
                               "end": 1618,
-                              "value": 6,
-                              "raw": "6"
+                              "value": 6
                             }
                           ]
                         }

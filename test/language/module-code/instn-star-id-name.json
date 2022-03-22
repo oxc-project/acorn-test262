@@ -377,8 +377,7 @@
         "type": "Literal",
         "start": 859,
         "end": 884,
-        "value": "./instn-star-id-name.js",
-        "raw": "'./instn-star-id-name.js'"
+        "value": "./instn-star-id-name.js"
       }
     },
     {
@@ -404,8 +403,7 @@
               "type": "Literal",
               "start": 894,
               "end": 898,
-              "value": "if",
-              "raw": "'if'"
+              "value": "if"
             },
             "operator": "in",
             "right": {
@@ -419,8 +417,7 @@
             "type": "Literal",
             "start": 906,
             "end": 925,
-            "value": "property name: if",
-            "raw": "'property name: if'"
+            "value": "property name: if"
           }
         ],
         "optional": false
@@ -449,8 +446,7 @@
               "type": "Literal",
               "start": 935,
               "end": 943,
-              "value": "import",
-              "raw": "'import'"
+              "value": "import"
             },
             "operator": "in",
             "right": {
@@ -464,8 +460,7 @@
             "type": "Literal",
             "start": 951,
             "end": 974,
-            "value": "property name: import",
-            "raw": "'property name: import'"
+            "value": "property name: import"
           }
         ],
         "optional": false
@@ -494,8 +489,7 @@
               "type": "Literal",
               "start": 984,
               "end": 992,
-              "value": "export",
-              "raw": "'export'"
+              "value": "export"
             },
             "operator": "in",
             "right": {
@@ -509,8 +503,7 @@
             "type": "Literal",
             "start": 1000,
             "end": 1023,
-            "value": "property name: export",
-            "raw": "'property name: export'"
+            "value": "property name: export"
           }
         ],
         "optional": false
@@ -539,8 +532,7 @@
               "type": "Literal",
               "start": 1033,
               "end": 1040,
-              "value": "await",
-              "raw": "'await'"
+              "value": "await"
             },
             "operator": "in",
             "right": {
@@ -554,8 +546,7 @@
             "type": "Literal",
             "start": 1048,
             "end": 1070,
-            "value": "property name: await",
-            "raw": "'property name: await'"
+            "value": "property name: await"
           }
         ],
         "optional": false
@@ -584,8 +575,7 @@
               "type": "Literal",
               "start": 1080,
               "end": 1091,
-              "value": "arguments",
-              "raw": "'arguments'"
+              "value": "arguments"
             },
             "operator": "in",
             "right": {
@@ -599,8 +589,7 @@
             "type": "Literal",
             "start": 1099,
             "end": 1125,
-            "value": "property name: arguments",
-            "raw": "'property name: arguments'"
+            "value": "property name: arguments"
           }
         ],
         "optional": false
@@ -629,8 +618,7 @@
               "type": "Literal",
               "start": 1135,
               "end": 1141,
-              "value": "eval",
-              "raw": "'eval'"
+              "value": "eval"
             },
             "operator": "in",
             "right": {
@@ -644,8 +632,7 @@
             "type": "Literal",
             "start": 1149,
             "end": 1170,
-            "value": "property name: eval",
-            "raw": "'property name: eval'"
+            "value": "property name: eval"
           }
         ],
         "optional": false
@@ -674,8 +661,7 @@
               "type": "Literal",
               "start": 1180,
               "end": 1189,
-              "value": "default",
-              "raw": "'default'"
+              "value": "default"
             },
             "operator": "in",
             "right": {
@@ -689,8 +675,7 @@
             "type": "Literal",
             "start": 1197,
             "end": 1221,
-            "value": "property name: default",
-            "raw": "'property name: default'"
+            "value": "property name: default"
           }
         ],
         "optional": false
@@ -719,8 +704,7 @@
               "type": "Literal",
               "start": 1231,
               "end": 1235,
-              "value": "as",
-              "raw": "'as'"
+              "value": "as"
             },
             "operator": "in",
             "right": {
@@ -734,8 +718,7 @@
             "type": "Literal",
             "start": 1243,
             "end": 1262,
-            "value": "property name: as",
-            "raw": "'property name: as'"
+            "value": "property name: as"
           }
         ],
         "optional": false

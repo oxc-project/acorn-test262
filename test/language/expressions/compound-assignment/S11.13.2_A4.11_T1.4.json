@@ -89,8 +89,7 @@
           "type": "Literal",
           "start": 344,
           "end": 345,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -121,8 +120,7 @@
                     "type": "Literal",
                     "start": 374,
                     "end": 423,
-                    "value": "#1: x = null; x |= undefined; x === 0. Actual: ",
-                    "raw": "'#1: x = null; x |= undefined; x === 0. Actual: '"
+                    "value": "#1: x = null; x |= undefined; x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -210,8 +208,7 @@
           "type": "Literal",
           "start": 481,
           "end": 482,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -242,8 +239,7 @@
                     "type": "Literal",
                     "start": 511,
                     "end": 560,
-                    "value": "#2: x = undefined; x |= null; x === 0. Actual: ",
-                    "raw": "'#2: x = undefined; x |= null; x === 0. Actual: '"
+                    "value": "#2: x = undefined; x |= null; x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -330,8 +326,7 @@
           "type": "Literal",
           "start": 623,
           "end": 624,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -362,8 +357,7 @@
                     "type": "Literal",
                     "start": 653,
                     "end": 707,
-                    "value": "#3: x = undefined; x |= undefined; x === 0. Actual: ",
-                    "raw": "'#3: x = undefined; x |= undefined; x === 0. Actual: '"
+                    "value": "#3: x = undefined; x |= undefined; x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -452,8 +446,7 @@
           "type": "Literal",
           "start": 760,
           "end": 761,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -484,8 +477,7 @@
                     "type": "Literal",
                     "start": 790,
                     "end": 834,
-                    "value": "#4: x = null; x |= null; x === 0. Actual: ",
-                    "raw": "'#4: x = null; x |= null; x === 0. Actual: '"
+                    "value": "#4: x = null; x |= null; x === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

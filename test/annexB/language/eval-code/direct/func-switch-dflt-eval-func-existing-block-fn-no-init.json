@@ -80,16 +80,14 @@
                               "type": "Literal",
                               "start": 632,
                               "end": 698,
-                              "value": "init = f;        {      function f() {}    }switch (1) {",
-                              "raw": "'init = f;\\\n    \\\n    {\\\n      function f() {}\\\n    }switch (1) {'"
+                              "value": "init = f;        {      function f() {}    }switch (1) {"
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
                               "start": 705,
                               "end": 717,
-                              "value": "  default:",
-                              "raw": "'  default:'"
+                              "value": "  default:"
                             }
                           },
                           "operator": "+",
@@ -97,8 +95,7 @@
                             "type": "Literal",
                             "start": 724,
                             "end": 747,
-                            "value": "    function f() {  }",
-                            "raw": "'    function f() {  }'"
+                            "value": "    function f() {  }"
                           }
                         },
                         "operator": "+",
@@ -106,8 +103,7 @@
                           "type": "Literal",
                           "start": 754,
                           "end": 763,
-                          "value": "}    ",
-                          "raw": "'}\\\n    '"
+                          "value": "}    "
                         }
                       }
                     ],

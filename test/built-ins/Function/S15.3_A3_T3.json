@@ -51,8 +51,7 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 436,
-                "value": "return planet;",
-                "raw": "\"return planet;\""
+                "value": "return planet;"
               }
             ],
             "optional": false
@@ -109,8 +108,7 @@
                 "type": "Literal",
                 "start": 467,
                 "end": 482,
-                "value": "return color;",
-                "raw": "\"return color;\""
+                "value": "return color;"
               }
             ],
             "optional": false
@@ -170,8 +168,7 @@
             "type": "Literal",
             "start": 519,
             "end": 542,
-            "value": "f() returns undefined",
-            "raw": "'f() returns undefined'"
+            "value": "f() returns undefined"
           }
         ],
         "optional": false
@@ -196,8 +193,7 @@
             "type": "Literal",
             "start": 559,
             "end": 565,
-            "value": "mars",
-            "raw": "\"mars\""
+            "value": "mars"
           }
         }
       ],
@@ -248,15 +244,13 @@
             "type": "Literal",
             "start": 590,
             "end": 596,
-            "value": "mars",
-            "raw": "\"mars\""
+            "value": "mars"
           },
           {
             "type": "Literal",
             "start": 598,
             "end": 622,
-            "value": "f() must return \"mars\"",
-            "raw": "'f() must return \"mars\"'"
+            "value": "f() must return \"mars\""
           }
         ],
         "optional": false
@@ -308,8 +302,7 @@
                   "type": "Literal",
                   "start": 664,
                   "end": 670,
-                  "value": "#3: ",
-                  "raw": "'#3: '"
+                  "value": "#3: "
                 }
               ]
             }
@@ -368,8 +361,7 @@
                     "type": "Literal",
                     "start": 734,
                     "end": 813,
-                    "value": "The result of evaluating (e instanceof ReferenceError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof ReferenceError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof ReferenceError) is expected to be true"
                   }
                 ],
                 "optional": false
@@ -411,8 +403,7 @@
           "type": "Literal",
           "start": 835,
           "end": 840,
-          "value": "red",
-          "raw": "\"red\""
+          "value": "red"
         }
       }
     },
@@ -461,15 +452,13 @@
             "type": "Literal",
             "start": 865,
             "end": 870,
-            "value": "red",
-            "raw": "\"red\""
+            "value": "red"
           },
           {
             "type": "Literal",
             "start": 872,
             "end": 895,
-            "value": "g() must return \"red\"",
-            "raw": "'g() must return \"red\"'"
+            "value": "g() must return \"red\""
           }
         ],
         "optional": false

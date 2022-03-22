@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 939,
                 "end": 956,
-                "value": "class C {}[42];",
-                "raw": "'class C {}[42];'"
+                "value": "class C {}[42];"
               }
             ],
             "optional": false
@@ -178,8 +177,7 @@
             "type": "Literal",
             "start": 1058,
             "end": 1059,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -227,8 +225,7 @@
               "type": "Literal",
               "start": 1086,
               "end": 1087,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -237,8 +234,7 @@
             "type": "Literal",
             "start": 1090,
             "end": 1092,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false

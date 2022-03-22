@@ -43,15 +43,13 @@
                         "type": "Literal",
                         "start": 578,
                         "end": 584,
-                        "value": "item",
-                        "raw": "'item'"
+                        "value": "item"
                       },
                       {
                         "type": "Literal",
                         "start": 586,
                         "end": 587,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ]
                   }
@@ -137,15 +135,13 @@
                 "type": "Literal",
                 "start": 631,
                 "end": 637,
-                "value": "item",
-                "raw": "'item'"
+                "value": "item"
               },
               {
                 "type": "Literal",
                 "start": 639,
                 "end": 641,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ],
             "optional": false
@@ -273,15 +269,13 @@
               "type": "Literal",
               "start": 703,
               "end": 709,
-              "value": "item",
-              "raw": "'item'"
+              "value": "item"
             },
             {
               "type": "Literal",
               "start": 711,
               "end": 712,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -394,15 +388,13 @@
               "type": "Literal",
               "start": 765,
               "end": 771,
-              "value": "item",
-              "raw": "'item'"
+              "value": "item"
             },
             {
               "type": "Literal",
               "start": 773,
               "end": 774,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           ],
           "optional": false
@@ -453,8 +445,7 @@
             "type": "Literal",
             "start": 802,
             "end": 840,
-            "value": "Map#set returns the map `this` value",
-            "raw": "'Map#set returns the map `this` value'"
+            "value": "Map#set returns the map `this` value"
           }
         ],
         "optional": false

@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1164,
                 "end": 1181,
-                "value": "numberingSystem",
-                "raw": "\"numberingSystem\""
+                "value": "numberingSystem"
               }
             ],
             "optional": false
@@ -135,8 +134,7 @@
                       "type": "Literal",
                       "start": 1269,
                       "end": 1273,
-                      "value": "en",
-                      "raw": "\"en\""
+                      "value": "en"
                     },
                     {
                       "type": "ObjectExpression",
@@ -373,8 +371,7 @@
                       "type": "Literal",
                       "start": 1535,
                       "end": 1539,
-                      "value": "en",
-                      "raw": "\"en\""
+                      "value": "en"
                     },
                     {
                       "type": "ObjectExpression",

@@ -109,8 +109,7 @@
             "type": "Literal",
             "start": 686,
             "end": 687,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -328,15 +327,13 @@
             "type": "Literal",
             "start": 848,
             "end": 849,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 851,
             "end": 896,
-            "value": "it fails after fetching the primitive value",
-            "raw": "\"it fails after fetching the primitive value\""
+            "value": "it fails after fetching the primitive value"
           }
         ],
         "optional": false

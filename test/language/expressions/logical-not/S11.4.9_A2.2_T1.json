@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 313,
                           "end": 314,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -131,8 +130,7 @@
                     "type": "Literal",
                     "start": 368,
                     "end": 448,
-                    "value": "#1: var object = {valueOf: function() {return 1}}; !object === false. Actual: ",
-                    "raw": "'#1: var object = {valueOf: function() {return 1}}; !object === false. Actual: '"
+                    "value": "#1: var object = {valueOf: function() {return 1}}; !object === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -216,8 +214,7 @@
                           "type": "Literal",
                           "start": 518,
                           "end": 519,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -260,8 +257,7 @@
                           "type": "Literal",
                           "start": 551,
                           "end": 552,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ]
@@ -333,8 +329,7 @@
                     "type": "Literal",
                     "start": 606,
                     "end": 719,
-                    "value": "#2: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; !object === false. Actual: ",
-                    "raw": "'#2: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; !object === false. Actual: '"
+                    "value": "#2: var object = {valueOf: function() {return 1}, toString: function() {return 0}}; !object === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -418,8 +413,7 @@
                           "type": "Literal",
                           "start": 790,
                           "end": 791,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -534,8 +528,7 @@
                     "type": "Literal",
                     "start": 879,
                     "end": 993,
-                    "value": "#3: var object = {valueOf: function() {return 1}, toString: function() {return {}}}; !object === false. Actual: ",
-                    "raw": "'#3: var object = {valueOf: function() {return 1}, toString: function() {return {}}}; !object === false. Actual: '"
+                    "value": "#3: var object = {valueOf: function() {return 1}, toString: function() {return {}}}; !object === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -619,8 +612,7 @@
                           "type": "Literal",
                           "start": 1063,
                           "end": 1064,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -663,8 +655,7 @@
                           "type": "Literal",
                           "start": 1095,
                           "end": 1102,
-                          "value": "error",
-                          "raw": "\"error\""
+                          "value": "error"
                         }
                       }
                     ]
@@ -736,8 +727,7 @@
                     "type": "Literal",
                     "start": 1156,
                     "end": 1274,
-                    "value": "#4: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; !object === false. Actual: ",
-                    "raw": "'#4: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; !object === false. Actual: '"
+                    "value": "#4: var object = {valueOf: function() {return 1}, toString: function() {throw \"error\"}}; !object === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -821,8 +811,7 @@
                           "type": "Literal",
                           "start": 1345,
                           "end": 1346,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -894,8 +883,7 @@
                     "type": "Literal",
                     "start": 1400,
                     "end": 1481,
-                    "value": "#5: var object = {toString: function() {return 1}}; !object === false. Actual: ",
-                    "raw": "'#5: var object = {toString: function() {return 1}}; !object === false. Actual: '"
+                    "value": "#5: var object = {toString: function() {return 1}}; !object === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1022,8 +1010,7 @@
                           "type": "Literal",
                           "start": 1585,
                           "end": 1586,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -1095,8 +1082,7 @@
                     "type": "Literal",
                     "start": 1639,
                     "end": 1753,
-                    "value": "#6: var object = {valueOf: function() {return {}}, toString: function() {return 1}}; !object === false. Actual: ",
-                    "raw": "'#6: var object = {valueOf: function() {return {}}, toString: function() {return 1}}; !object === false. Actual: '"
+                    "value": "#6: var object = {valueOf: function() {return {}}, toString: function() {return 1}}; !object === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1180,8 +1166,7 @@
                           "type": "Literal",
                           "start": 1822,
                           "end": 1829,
-                          "value": "error",
-                          "raw": "\"error\""
+                          "value": "error"
                         }
                       }
                     ]
@@ -1224,8 +1209,7 @@
                           "type": "Literal",
                           "start": 1861,
                           "end": 1862,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       }
                     ]
@@ -1297,8 +1281,7 @@
                     "type": "Literal",
                     "start": 1916,
                     "end": 2034,
-                    "value": "#7: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; !object === false. Actual: ",
-                    "raw": "'#7: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; !object === false. Actual: '"
+                    "value": "#7: var object = {valueOf: function() {throw \"error\"}, toString: function() {return 1}}; !object === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1497,8 +1480,7 @@
                     "type": "Literal",
                     "start": 2196,
                     "end": 2311,
-                    "value": "#8: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; !object === false. Actual: ",
-                    "raw": "'#8: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; !object === false. Actual: '"
+                    "value": "#8: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; !object === false. Actual: "
                   },
                   "operator": "+",
                   "right": {

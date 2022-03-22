@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 325,
                         "end": 378,
-                        "value": "(function _10_5_7_b_1_fun() { arguments = 10;} ());",
-                        "raw": "\"(function _10_5_7_b_1_fun() { arguments = 10;} ());\""
+                        "value": "(function _10_5_7_b_1_fun() { arguments = 10;} ());"
                       }
                     ],
                     "optional": false

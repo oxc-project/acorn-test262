@@ -151,8 +151,7 @@
             "type": "Literal",
             "start": 960,
             "end": 986,
-            "value": "get [Symbol.toStringTag]",
-            "raw": "\"get [Symbol.toStringTag]\""
+            "value": "get [Symbol.toStringTag]"
           }
         ],
         "optional": false
@@ -196,8 +195,7 @@
             "type": "Literal",
             "start": 1020,
             "end": 1026,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -241,8 +239,7 @@
             "type": "Literal",
             "start": 1057,
             "end": 1063,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -286,8 +283,7 @@
             "type": "Literal",
             "start": 1095,
             "end": 1101,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

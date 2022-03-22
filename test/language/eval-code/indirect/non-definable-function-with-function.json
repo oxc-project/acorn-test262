@@ -33,8 +33,7 @@
                       "type": "Literal",
                       "start": 1499,
                       "end": 1500,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     {
                       "type": "Identifier",
@@ -50,8 +49,7 @@
                   "type": "Literal",
                   "start": 1507,
                   "end": 1594,
-                  "value": "function shouldNotBeDefined1() {} function NaN() {} function shouldNotBeDefined2() {}",
-                  "raw": "\"function shouldNotBeDefined1() {} function NaN() {} function shouldNotBeDefined2() {}\""
+                  "value": "function shouldNotBeDefined1() {} function NaN() {} function shouldNotBeDefined2() {}"
                 }
               ],
               "optional": false
@@ -139,8 +137,7 @@
                 "type": "Literal",
                 "start": 1705,
                 "end": 1726,
-                "value": "shouldNotBeDefined1",
-                "raw": "\"shouldNotBeDefined1\""
+                "value": "shouldNotBeDefined1"
               }
             ],
             "optional": false
@@ -155,8 +152,7 @@
             "type": "Literal",
             "start": 1744,
             "end": 1767,
-            "value": "declaration preceding",
-            "raw": "\"declaration preceding\""
+            "value": "declaration preceding"
           }
         ],
         "optional": false
@@ -223,8 +219,7 @@
                 "type": "Literal",
                 "start": 1829,
                 "end": 1850,
-                "value": "shouldNotBeDefined2",
-                "raw": "\"shouldNotBeDefined2\""
+                "value": "shouldNotBeDefined2"
               }
             ],
             "optional": false
@@ -239,8 +234,7 @@
             "type": "Literal",
             "start": 1868,
             "end": 1891,
-            "value": "declaration following",
-            "raw": "\"declaration following\""
+            "value": "declaration following"
           }
         ],
         "optional": false

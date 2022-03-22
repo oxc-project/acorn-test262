@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 381,
             "end": 442,
-            "value": "The value of delete Date.prototype.getUTCHours is not false",
-            "raw": "'The value of delete Date.prototype.getUTCHours is not false'"
+            "value": "The value of delete Date.prototype.getUTCHours is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 488,
                   "end": 501,
-                  "value": "getUTCHours",
-                  "raw": "'getUTCHours'"
+                  "value": "getUTCHours"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 506,
             "end": 591,
-            "value": "The value of !Date.prototype.hasOwnProperty('getUTCHours') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'getUTCHours\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('getUTCHours') is expected to be true"
           }
         ],
         "optional": false

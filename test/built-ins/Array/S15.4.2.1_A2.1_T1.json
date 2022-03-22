@@ -60,15 +60,13 @@
             "type": "Literal",
             "start": 388,
             "end": 389,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 391,
             "end": 444,
-            "value": "The value of new Array().length is expected to be 0",
-            "raw": "'The value of new Array().length is expected to be 0'"
+            "value": "The value of new Array().length is expected to be 0"
           }
         ],
         "optional": false
@@ -121,29 +119,25 @@
                   "type": "Literal",
                   "start": 474,
                   "end": 475,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 477,
                   "end": 478,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 {
                   "type": "Literal",
                   "start": 480,
                   "end": 481,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 {
                   "type": "Literal",
                   "start": 483,
                   "end": 484,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               ]
             },
@@ -160,15 +154,13 @@
             "type": "Literal",
             "start": 494,
             "end": 495,
-            "value": 4,
-            "raw": "4"
+            "value": 4
           },
           {
             "type": "Literal",
             "start": 497,
             "end": 560,
-            "value": "The value of new Array(0, 1, 0, 1).length is expected to be 4",
-            "raw": "'The value of new Array(0, 1, 0, 1).length is expected to be 4'"
+            "value": "The value of new Array(0, 1, 0, 1).length is expected to be 4"
           }
         ],
         "optional": false
@@ -244,15 +236,13 @@
             "type": "Literal",
             "start": 626,
             "end": 627,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 631,
             "end": 704,
-            "value": "The value of new Array(undefined, undefined).length is expected to be 2",
-            "raw": "'The value of new Array(undefined, undefined).length is expected to be 2'"
+            "value": "The value of new Array(undefined, undefined).length is expected to be 2"
           }
         ],
         "optional": false

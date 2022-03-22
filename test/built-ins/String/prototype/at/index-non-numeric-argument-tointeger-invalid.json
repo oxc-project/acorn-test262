@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 378,
             "end": 388,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -100,8 +99,7 @@
             "type": "Literal",
             "start": 400,
             "end": 404,
-            "value": "01",
-            "raw": "\"01\""
+            "value": "01"
           }
         }
       ],
@@ -207,8 +205,7 @@
             "type": "Literal",
             "start": 461,
             "end": 496,
-            "value": "`s.at(Symbol())` throws TypeError",
-            "raw": "'`s.at(Symbol())` throws TypeError'"
+            "value": "`s.at(Symbol())` throws TypeError"
           }
         ],
         "optional": false

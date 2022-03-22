@@ -215,8 +215,7 @@
                         "type": "Literal",
                         "start": 471,
                         "end": 480,
-                        "value": "iso8601",
-                        "raw": "\"iso8601\""
+                        "value": "iso8601"
                       },
                       {
                         "type": "Identifier",
@@ -235,8 +234,7 @@
             "type": "Literal",
             "start": 496,
             "end": 577,
-            "value": "Temporal.Now.zonedDateTime(\"iso8601\", timeZone) throws a Test262Error exception",
-            "raw": "'Temporal.Now.zonedDateTime(\"iso8601\", timeZone) throws a Test262Error exception'"
+            "value": "Temporal.Now.zonedDateTime(\"iso8601\", timeZone) throws a Test262Error exception"
           }
         ],
         "optional": false

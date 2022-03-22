@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 359,
             "end": 360,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -60,8 +59,7 @@
                   "type": "Literal",
                   "start": 379,
                   "end": 382,
-                  "value": "a",
-                  "raw": "'a'"
+                  "value": "a"
                 },
                 "kind": "set",
                 "value": {
@@ -145,8 +143,7 @@
           "type": "Literal",
           "start": 415,
           "end": 418,
-          "value": "A",
-          "raw": "'A'"
+          "value": "A"
         }
       }
     },
@@ -188,15 +185,13 @@
             "type": "Literal",
             "start": 444,
             "end": 445,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 447,
             "end": 476,
-            "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "value": "The value of `calls` is `1`"
           }
         ],
         "optional": false
@@ -221,8 +216,7 @@
           "type": "Literal",
           "start": 488,
           "end": 489,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -300,8 +294,7 @@
                               "type": "Literal",
                               "start": 541,
                               "end": 590,
-                              "value": "The `b` setter definition in `B` is unreachable",
-                              "raw": "\"The `b` setter definition in `B` is unreachable\""
+                              "value": "The `b` setter definition in `B` is unreachable"
                             }
                           ]
                         }
@@ -321,8 +314,7 @@
                   "type": "Literal",
                   "start": 605,
                   "end": 608,
-                  "value": "b",
-                  "raw": "'b'"
+                  "value": "b"
                 },
                 "kind": "set",
                 "value": {
@@ -406,8 +398,7 @@
           "type": "Literal",
           "start": 641,
           "end": 644,
-          "value": "B",
-          "raw": "'B'"
+          "value": "B"
         }
       }
     },
@@ -449,15 +440,13 @@
             "type": "Literal",
             "start": 670,
             "end": 671,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 673,
             "end": 702,
-            "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "value": "The value of `calls` is `1`"
           }
         ],
         "optional": false
@@ -482,8 +471,7 @@
           "type": "Literal",
           "start": 714,
           "end": 715,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -561,8 +549,7 @@
                               "type": "Literal",
                               "start": 767,
                               "end": 816,
-                              "value": "The `c` setter definition in `C` is unreachable",
-                              "raw": "\"The `c` setter definition in `C` is unreachable\""
+                              "value": "The `c` setter definition in `C` is unreachable"
                             }
                           ]
                         }
@@ -582,8 +569,7 @@
                   "type": "Literal",
                   "start": 831,
                   "end": 834,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 },
                 "kind": "set",
                 "value": {
@@ -626,8 +612,7 @@
                               "type": "Literal",
                               "start": 868,
                               "end": 927,
-                              "value": "The first `['c']` setter definition in `C` is unreachable",
-                              "raw": "\"The first `['c']` setter definition in `C` is unreachable\""
+                              "value": "The first `['c']` setter definition in `C` is unreachable"
                             }
                           ]
                         }
@@ -647,8 +632,7 @@
                   "type": "Literal",
                   "start": 942,
                   "end": 945,
-                  "value": "c",
-                  "raw": "'c'"
+                  "value": "c"
                 },
                 "kind": "set",
                 "value": {
@@ -732,8 +716,7 @@
           "type": "Literal",
           "start": 977,
           "end": 980,
-          "value": "C",
-          "raw": "'C'"
+          "value": "C"
         }
       }
     },
@@ -775,15 +758,13 @@
             "type": "Literal",
             "start": 1006,
             "end": 1007,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1009,
             "end": 1038,
-            "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "value": "The value of `calls` is `1`"
           }
         ],
         "optional": false
@@ -808,8 +789,7 @@
           "type": "Literal",
           "start": 1050,
           "end": 1051,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -844,8 +824,7 @@
                   "type": "Literal",
                   "start": 1070,
                   "end": 1073,
-                  "value": "d",
-                  "raw": "'d'"
+                  "value": "d"
                 },
                 "kind": "set",
                 "value": {
@@ -888,8 +867,7 @@
                               "type": "Literal",
                               "start": 1107,
                               "end": 1160,
-                              "value": "The `['d']` setter definition in `D` is unreachable",
-                              "raw": "\"The `['d']` setter definition in `D` is unreachable\""
+                              "value": "The `['d']` setter definition in `D` is unreachable"
                             }
                           ]
                         }
@@ -993,8 +971,7 @@
           "type": "Literal",
           "start": 1206,
           "end": 1209,
-          "value": "D",
-          "raw": "'D'"
+          "value": "D"
         }
       }
     },
@@ -1036,15 +1013,13 @@
             "type": "Literal",
             "start": 1235,
             "end": 1236,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1238,
             "end": 1267,
-            "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "value": "The value of `calls` is `1`"
           }
         ],
         "optional": false

@@ -110,8 +110,7 @@
                 "type": "Literal",
                 "start": 354,
                 "end": 356,
-                "value": 10,
-                "raw": "10"
+                "value": 10
               }
             }
           }
@@ -149,15 +148,13 @@
                   "type": "Literal",
                   "start": 378,
                   "end": 379,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 381,
                   "end": 383,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -178,8 +175,7 @@
                   "type": "Literal",
                   "start": 395,
                   "end": 405,
-                  "value": "Infinity",
-                  "raw": "\"Infinity\""
+                  "value": "Infinity"
                 },
                 "kind": "init"
               }
@@ -220,15 +216,13 @@
                   "type": "Literal",
                   "start": 426,
                   "end": 427,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 429,
                   "end": 431,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -249,8 +243,7 @@
                   "type": "Literal",
                   "start": 443,
                   "end": 454,
-                  "value": "+Infinity",
-                  "raw": "\"+Infinity\""
+                  "value": "+Infinity"
                 },
                 "kind": "init"
               }
@@ -291,15 +284,13 @@
                   "type": "Literal",
                   "start": 477,
                   "end": 478,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 480,
                   "end": 482,
-                  "value": 11,
-                  "raw": "11"
+                  "value": 11
                 },
                 "kind": "init"
               },
@@ -320,8 +311,7 @@
                   "type": "Literal",
                   "start": 494,
                   "end": 505,
-                  "value": "-Infinity",
-                  "raw": "\"-Infinity\""
+                  "value": "-Infinity"
                 },
                 "kind": "init"
               }
@@ -415,8 +405,7 @@
             "type": "Literal",
             "start": 564,
             "end": 620,
-            "value": "Array.prototype.some.call(objOne, callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(objOne, callbackfn) !== true'"
+            "value": "Array.prototype.some.call(objOne, callbackfn) !== true"
           }
         ],
         "optional": false
@@ -506,8 +495,7 @@
             "type": "Literal",
             "start": 677,
             "end": 733,
-            "value": "Array.prototype.some.call(objTwo, callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(objTwo, callbackfn) !== true'"
+            "value": "Array.prototype.some.call(objTwo, callbackfn) !== true"
           }
         ],
         "optional": false
@@ -617,8 +605,7 @@
             "type": "Literal",
             "start": 809,
             "end": 858,
-            "value": "Array.prototype.some.call(objThree, callbackfn)",
-            "raw": "'Array.prototype.some.call(objThree, callbackfn)'"
+            "value": "Array.prototype.some.call(objThree, callbackfn)"
           }
         ],
         "optional": false
@@ -649,8 +636,7 @@
             "type": "Literal",
             "start": 878,
             "end": 897,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

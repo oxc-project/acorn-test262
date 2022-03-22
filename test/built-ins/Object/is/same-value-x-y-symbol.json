@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 433,
-                "value": "description",
-                "raw": "\"description\""
+                "value": "description"
               }
             ],
             "optional": false
@@ -153,8 +152,7 @@
             "type": "Literal",
             "start": 477,
             "end": 511,
-            "value": "`Object.is(a, a)` returns `true`",
-            "raw": "\"`Object.is(a, a)` returns `true`\""
+            "value": "`Object.is(a, a)` returns `true`"
           }
         ],
         "optional": false
@@ -238,8 +236,7 @@
             "type": "Literal",
             "start": 554,
             "end": 588,
-            "value": "`Object.is(b, b)` returns `true`",
-            "raw": "\"`Object.is(b, b)` returns `true`\""
+            "value": "`Object.is(b, b)` returns `true`"
           }
         ],
         "optional": false

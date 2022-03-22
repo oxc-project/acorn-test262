@@ -69,8 +69,7 @@
                       "type": "Literal",
                       "start": 3955,
                       "end": 3981,
-                      "value": "./module-code_FIXTURE.js",
-                      "raw": "'./module-code_FIXTURE.js'"
+                      "value": "./module-code_FIXTURE.js"
                     }
                   }
                 }
@@ -135,8 +134,7 @@
                   "type": "Literal",
                   "start": 4028,
                   "end": 4041,
-                  "value": "key: local2",
-                  "raw": "'key: local2'"
+                  "value": "key: local2"
                 }
               ],
               "optional": false
@@ -199,8 +197,7 @@
                   "type": "Literal",
                   "start": 4092,
                   "end": 4110,
-                  "value": "key: toStringTag",
-                  "raw": "'key: toStringTag'"
+                  "value": "key: toStringTag"
                 }
               ],
               "optional": false
@@ -263,8 +260,7 @@
                   "type": "Literal",
                   "start": 4158,
                   "end": 4173,
-                  "value": "key: iterator",
-                  "raw": "'key: iterator'"
+                  "value": "key: iterator"
                 }
               ],
               "optional": false
@@ -327,8 +323,7 @@
                   "type": "Literal",
                   "start": 4222,
                   "end": 4238,
-                  "value": "key: __proto__",
-                  "raw": "'key: __proto__'"
+                  "value": "key: __proto__"
                 }
               ],
               "optional": false

@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 413,
                 "end": 421,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -82,8 +81,7 @@
             "type": "Literal",
             "start": 426,
             "end": 494,
-            "value": "String.prototype.split.hasOwnProperty('length') must return true",
-            "raw": "'String.prototype.split.hasOwnProperty(\\'length\\') must return true'"
+            "value": "String.prototype.split.hasOwnProperty('length') must return true"
           }
         ],
         "optional": false
@@ -204,8 +202,7 @@
             "type": "Literal",
             "start": 585,
             "end": 593,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -236,8 +233,7 @@
                     "type": "Literal",
                     "start": 623,
                     "end": 632,
-                    "value": "shifted",
-                    "raw": "\"shifted\""
+                    "value": "shifted"
                   }
                 }
               ]
@@ -330,8 +326,7 @@
             "type": "Literal",
             "start": 701,
             "end": 785,
-            "value": "The value of String.prototype.split.length is expected to equal the value of __obj",
-            "raw": "'The value of String.prototype.split.length is expected to equal the value of __obj'"
+            "value": "The value of String.prototype.split.length is expected to equal the value of __obj"
           }
         ],
         "optional": false

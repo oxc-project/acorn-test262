@@ -159,8 +159,7 @@
                       "type": "Literal",
                       "start": 476,
                       "end": 487,
-                      "value": "Property ",
-                      "raw": "\"Property \""
+                      "value": "Property "
                     },
                     "operator": "+",
                     "right": {
@@ -175,8 +174,7 @@
                     "type": "Literal",
                     "start": 501,
                     "end": 559,
-                    "value": " of object returned by SupportedLocales is not writable.",
-                    "raw": "\" of object returned by SupportedLocales is not writable.\""
+                    "value": " of object returned by SupportedLocales is not writable."
                   }
                 }
               ],
@@ -249,8 +247,7 @@
                       "type": "Literal",
                       "start": 608,
                       "end": 619,
-                      "value": "Property ",
-                      "raw": "\"Property \""
+                      "value": "Property "
                     },
                     "operator": "+",
                     "right": {
@@ -265,8 +262,7 @@
                     "type": "Literal",
                     "start": 633,
                     "end": 695,
-                    "value": " of object returned by SupportedLocales is not configurable.",
-                    "raw": "\" of object returned by SupportedLocales is not configurable.\""
+                    "value": " of object returned by SupportedLocales is not configurable."
                   }
                 }
               ],
@@ -432,8 +428,7 @@
                       "type": "Literal",
                       "start": 851,
                       "end": 862,
-                      "value": "Property ",
-                      "raw": "\"Property \""
+                      "value": "Property "
                     },
                     "operator": "+",
                     "right": {
@@ -448,8 +443,7 @@
                     "type": "Literal",
                     "start": 876,
                     "end": 934,
-                    "value": " of object returned by SupportedLocales is not writable.",
-                    "raw": "\" of object returned by SupportedLocales is not writable.\""
+                    "value": " of object returned by SupportedLocales is not writable."
                   }
                 }
               ],
@@ -522,8 +516,7 @@
                       "type": "Literal",
                       "start": 984,
                       "end": 995,
-                      "value": "Property ",
-                      "raw": "\"Property \""
+                      "value": "Property "
                     },
                     "operator": "+",
                     "right": {
@@ -538,8 +531,7 @@
                     "type": "Literal",
                     "start": 1009,
                     "end": 1067,
-                    "value": " of object returned by SupportedLocales is configurable.",
-                    "raw": "\" of object returned by SupportedLocales is configurable.\""
+                    "value": " of object returned by SupportedLocales is configurable."
                   }
                 }
               ],
@@ -760,8 +752,7 @@
                         "type": "Literal",
                         "start": 1303,
                         "end": 1359,
-                        "value": "Object returned by SupportedLocales is not extensible.",
-                        "raw": "\"Object returned by SupportedLocales is not extensible.\""
+                        "value": "Object returned by SupportedLocales is not extensible."
                       }
                     ],
                     "optional": false
@@ -790,8 +781,7 @@
                           "type": "Literal",
                           "start": 1379,
                           "end": 1380,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         }
                       }
                     ],
@@ -905,8 +895,7 @@
                         "type": "Literal",
                         "start": 1493,
                         "end": 1501,
-                        "value": "length",
-                        "raw": "\"length\""
+                        "value": "length"
                       }
                     ],
                     "optional": false

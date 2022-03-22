@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 766,
             "end": 824,
-            "value": "isConstructor(Object.defineProperties) must return false",
-            "raw": "'isConstructor(Object.defineProperties) must return false'"
+            "value": "isConstructor(Object.defineProperties) must return false"
           }
         ],
         "optional": false
@@ -180,8 +179,7 @@
             "type": "Literal",
             "start": 904,
             "end": 960,
-            "value": "`new Object.defineProperties({}, {})` throws TypeError",
-            "raw": "'`new Object.defineProperties({}, {})` throws TypeError'"
+            "value": "`new Object.defineProperties({}, {})` throws TypeError"
           }
         ],
         "optional": false

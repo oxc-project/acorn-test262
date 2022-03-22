@@ -27,57 +27,49 @@
                 "type": "Literal",
                 "start": 726,
                 "end": 734,
-                "value": "tick 1",
-                "raw": "'tick 1'"
+                "value": "tick 1"
               },
               {
                 "type": "Literal",
                 "start": 738,
                 "end": 747,
-                "value": "await 1",
-                "raw": "'await 1'"
+                "value": "await 1"
               },
               {
                 "type": "Literal",
                 "start": 751,
                 "end": 759,
-                "value": "tick 2",
-                "raw": "'tick 2'"
+                "value": "tick 2"
               },
               {
                 "type": "Literal",
                 "start": 763,
                 "end": 772,
-                "value": "await 2",
-                "raw": "'await 2'"
+                "value": "await 2"
               },
               {
                 "type": "Literal",
                 "start": 776,
                 "end": 784,
-                "value": "tick 3",
-                "raw": "'tick 3'"
+                "value": "tick 3"
               },
               {
                 "type": "Literal",
                 "start": 788,
                 "end": 797,
-                "value": "await 3",
-                "raw": "'await 3'"
+                "value": "await 3"
               },
               {
                 "type": "Literal",
                 "start": 801,
                 "end": 809,
-                "value": "tick 4",
-                "raw": "'tick 4'"
+                "value": "tick 4"
               },
               {
                 "type": "Literal",
                 "start": 813,
                 "end": 822,
-                "value": "await 4",
-                "raw": "'await 4'"
+                "value": "await 4"
               }
             ]
           }
@@ -190,8 +182,7 @@
                                     "type": "Literal",
                                     "start": 862,
                                     "end": 863,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -243,8 +234,7 @@
                                       "type": "Literal",
                                       "start": 891,
                                       "end": 899,
-                                      "value": "tick 1",
-                                      "raw": "'tick 1'"
+                                      "value": "tick 1"
                                     }
                                   ],
                                   "optional": false
@@ -300,8 +290,7 @@
                                   "type": "Literal",
                                   "start": 928,
                                   "end": 936,
-                                  "value": "tick 2",
-                                  "raw": "'tick 2'"
+                                  "value": "tick 2"
                                 }
                               ],
                               "optional": false
@@ -357,8 +346,7 @@
                               "type": "Literal",
                               "start": 965,
                               "end": 973,
-                              "value": "tick 3",
-                              "raw": "'tick 3'"
+                              "value": "tick 3"
                             }
                           ],
                           "optional": false
@@ -414,8 +402,7 @@
                           "type": "Literal",
                           "start": 1002,
                           "end": 1010,
-                          "value": "tick 4",
-                          "raw": "'tick 4'"
+                          "value": "tick 4"
                         }
                       ],
                       "optional": false
@@ -492,8 +479,7 @@
                             "type": "Literal",
                             "start": 1071,
                             "end": 1111,
-                            "value": "Ticks for top level await and promises",
-                            "raw": "'Ticks for top level await and promises'"
+                            "value": "Ticks for top level await and promises"
                           }
                         ],
                         "optional": false
@@ -543,8 +529,7 @@
           "type": "Literal",
           "start": 1144,
           "end": 1145,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -580,8 +565,7 @@
             "type": "Literal",
             "start": 1159,
             "end": 1168,
-            "value": "await 1",
-            "raw": "'await 1'"
+            "value": "await 1"
           }
         ],
         "optional": false
@@ -599,8 +583,7 @@
           "type": "Literal",
           "start": 1177,
           "end": 1178,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       }
     },
@@ -636,8 +619,7 @@
             "type": "Literal",
             "start": 1192,
             "end": 1201,
-            "value": "await 2",
-            "raw": "'await 2'"
+            "value": "await 2"
           }
         ],
         "optional": false
@@ -655,8 +637,7 @@
           "type": "Literal",
           "start": 1210,
           "end": 1211,
-          "value": 3,
-          "raw": "3"
+          "value": 3
         }
       }
     },
@@ -692,8 +673,7 @@
             "type": "Literal",
             "start": 1225,
             "end": 1234,
-            "value": "await 3",
-            "raw": "'await 3'"
+            "value": "await 3"
           }
         ],
         "optional": false
@@ -711,8 +691,7 @@
           "type": "Literal",
           "start": 1243,
           "end": 1244,
-          "value": 4,
-          "raw": "4"
+          "value": 4
         }
       }
     },
@@ -748,8 +727,7 @@
             "type": "Literal",
             "start": 1258,
             "end": 1267,
-            "value": "await 4",
-            "raw": "'await 4'"
+            "value": "await 4"
           }
         ],
         "optional": false

@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 333,
                           "end": 336,
-                          "value": "^",
-                          "raw": "\"^\""
+                          "value": "^"
                         }
                       }
                     ]
@@ -106,8 +105,7 @@
           "type": "Literal",
           "start": 370,
           "end": 393,
-          "value": "%5Bobject%20Object%5D",
-          "raw": "\"%5Bobject%20Object%5D\""
+          "value": "%5Bobject%20Object%5D"
         }
       },
       "consequent": {
@@ -138,8 +136,7 @@
                     "type": "Literal",
                     "start": 422,
                     "end": 530,
-                    "value": "#1: var object = {valueOf: function() {return \"^\"}}; encodeURI(object) === %5Bobject%20Object%5D. Actual: ",
-                    "raw": "'#1: var object = {valueOf: function() {return \"^\"}}; encodeURI(object) === %5Bobject%20Object%5D. Actual: '"
+                    "value": "#1: var object = {valueOf: function() {return \"^\"}}; encodeURI(object) === %5Bobject%20Object%5D. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -230,8 +227,7 @@
                           "type": "Literal",
                           "start": 618,
                           "end": 620,
-                          "value": "",
-                          "raw": "\"\""
+                          "value": ""
                         }
                       }
                     ]
@@ -274,8 +270,7 @@
                           "type": "Literal",
                           "start": 662,
                           "end": 665,
-                          "value": "^",
-                          "raw": "\"^\""
+                          "value": "^"
                         }
                       }
                     ]
@@ -322,8 +317,7 @@
           "type": "Literal",
           "start": 699,
           "end": 704,
-          "value": "%5E",
-          "raw": "\"%5E\""
+          "value": "%5E"
         }
       },
       "consequent": {
@@ -354,8 +348,7 @@
                     "type": "Literal",
                     "start": 733,
                     "end": 859,
-                    "value": "#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: ",
-                    "raw": "'#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: '"
+                    "value": "#2: var object = {valueOf: function() {return \"\"}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -446,8 +439,7 @@
                           "type": "Literal",
                           "start": 947,
                           "end": 950,
-                          "value": "^",
-                          "raw": "\"^\""
+                          "value": "^"
                         }
                       }
                     ]
@@ -537,8 +529,7 @@
           "type": "Literal",
           "start": 1028,
           "end": 1033,
-          "value": "%5E",
-          "raw": "\"%5E\""
+          "value": "%5E"
         }
       },
       "consequent": {
@@ -569,8 +560,7 @@
                     "type": "Literal",
                     "start": 1062,
                     "end": 1188,
-                    "value": "#3: var object = {valueOf: function() {return \"^\"}, toString: function() {return {}}}; encodeURI(object) === \"%5E\". Actual: ",
-                    "raw": "'#3: var object = {valueOf: function() {return \"^\"}, toString: function() {return {}}}; encodeURI(object) === \"%5E\". Actual: '"
+                    "value": "#3: var object = {valueOf: function() {return \"^\"}, toString: function() {return {}}}; encodeURI(object) === \"%5E\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -670,8 +660,7 @@
                                 "type": "Literal",
                                 "start": 1287,
                                 "end": 1294,
-                                "value": "error",
-                                "raw": "\"error\""
+                                "value": "error"
                               }
                             }
                           ]
@@ -714,8 +703,7 @@
                                 "type": "Literal",
                                 "start": 1342,
                                 "end": 1345,
-                                "value": "^",
-                                "raw": "\"^\""
+                                "value": "^"
                               }
                             }
                           ]
@@ -762,8 +750,7 @@
                 "type": "Literal",
                 "start": 1385,
                 "end": 1390,
-                "value": "%5E",
-                "raw": "\"%5E\""
+                "value": "%5E"
               }
             },
             "consequent": {
@@ -794,8 +781,7 @@
                           "type": "Literal",
                           "start": 1421,
                           "end": 1553,
-                          "value": "#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: ",
-                          "raw": "'#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: '"
+                          "value": "#4.1: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: "
                         },
                         "operator": "+",
                         "right": {
@@ -867,8 +853,7 @@
                   "type": "Literal",
                   "start": 1608,
                   "end": 1615,
-                  "value": "error",
-                  "raw": "\"error\""
+                  "value": "error"
                 }
               },
               "consequent": {
@@ -895,8 +880,7 @@
                           "type": "Literal",
                           "start": 1646,
                           "end": 1776,
-                          "value": "#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) not throw \"error\"",
-                          "raw": "'#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) not throw \"error\"'"
+                          "value": "#4.2: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) not throw \"error\""
                         }
                       ]
                     }
@@ -931,8 +915,7 @@
                             "type": "Literal",
                             "start": 1817,
                             "end": 1955,
-                            "value": "#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) not throw Error. Actual: ",
-                            "raw": "'#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) not throw Error. Actual: '"
+                            "value": "#4.3: var object = {valueOf: function() {throw \"error\"}, toString: function() {return \"^\"}}; encodeURI(object) not throw Error. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -1013,8 +996,7 @@
                           "type": "Literal",
                           "start": 2032,
                           "end": 2035,
-                          "value": "^",
-                          "raw": "\"^\""
+                          "value": "^"
                         }
                       }
                     ]
@@ -1061,8 +1043,7 @@
           "type": "Literal",
           "start": 2069,
           "end": 2074,
-          "value": "%5E",
-          "raw": "\"%5E\""
+          "value": "%5E"
         }
       },
       "consequent": {
@@ -1093,8 +1074,7 @@
                     "type": "Literal",
                     "start": 2103,
                     "end": 2196,
-                    "value": "#5: var object = {toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: ",
-                    "raw": "'#5: var object = {toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: '"
+                    "value": "#5: var object = {toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1228,8 +1208,7 @@
                           "type": "Literal",
                           "start": 2328,
                           "end": 2331,
-                          "value": "^",
-                          "raw": "\"^\""
+                          "value": "^"
                         }
                       }
                     ]
@@ -1276,8 +1255,7 @@
           "type": "Literal",
           "start": 2364,
           "end": 2369,
-          "value": "%5E",
-          "raw": "\"%5E\""
+          "value": "%5E"
         }
       },
       "consequent": {
@@ -1308,8 +1286,7 @@
                     "type": "Literal",
                     "start": 2398,
                     "end": 2524,
-                    "value": "#6: var object = {valueOf: function() {return {}}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: ",
-                    "raw": "'#6: var object = {valueOf: function() {return {}}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: '"
+                    "value": "#6: var object = {valueOf: function() {return {}}, toString: function() {return \"^\"}}; encodeURI(object) === \"%5E\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1409,8 +1386,7 @@
                                 "type": "Literal",
                                 "start": 2624,
                                 "end": 2627,
-                                "value": "^",
-                                "raw": "\"^\""
+                                "value": "^"
                               }
                             }
                           ]
@@ -1453,8 +1429,7 @@
                                 "type": "Literal",
                                 "start": 2674,
                                 "end": 2681,
-                                "value": "error",
-                                "raw": "\"error\""
+                                "value": "error"
                               }
                             }
                           ]
@@ -1516,8 +1491,7 @@
                     "type": "Literal",
                     "start": 2739,
                     "end": 2875,
-                    "value": "#7.1: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURI(object) throw \"error\". Actual: ",
-                    "raw": "'#7.1: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURI(object) throw \"error\". Actual: '"
+                    "value": "#7.1: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURI(object) throw \"error\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1585,8 +1559,7 @@
                   "type": "Literal",
                   "start": 2926,
                   "end": 2933,
-                  "value": "error",
-                  "raw": "\"error\""
+                  "value": "error"
                 }
               },
               "consequent": {
@@ -1617,8 +1590,7 @@
                             "type": "Literal",
                             "start": 2964,
                             "end": 3100,
-                            "value": "#7.2: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURI(object) throw \"error\". Actual: ",
-                            "raw": "'#7.2: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURI(object) throw \"error\". Actual: '"
+                            "value": "#7.2: var object = {valueOf: function() {return \"^\"}, toString: function() {throw \"error\"}}; encodeURI(object) throw \"error\". Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -1814,8 +1786,7 @@
                     "type": "Literal",
                     "start": 3298,
                     "end": 3431,
-                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURI(object) throw TypeError. Actual: ",
-                    "raw": "'#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURI(object) throw TypeError. Actual: '"
+                    "value": "#8.1: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURI(object) throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -1932,8 +1903,7 @@
                             "type": "Literal",
                             "start": 3540,
                             "end": 3673,
-                            "value": "#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURI(object) throw TypeError. Actual: ",
-                            "raw": "'#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURI(object) throw TypeError. Actual: '"
+                            "value": "#8.2: var object = {valueOf: function() {return {}}, toString: function() {return {}}}; encodeURI(object) throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

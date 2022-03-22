@@ -91,8 +91,7 @@
             "type": "Literal",
             "start": 1024,
             "end": 1027,
-            "value": "p",
-            "raw": "'p'"
+            "value": "p"
           },
           {
             "type": "ObjectExpression",
@@ -138,8 +137,7 @@
                   "type": "Literal",
                   "start": 1059,
                   "end": 1061,
-                  "value": 42,
-                  "raw": "42"
+                  "value": 42
                 },
                 "kind": "init"
               }
@@ -198,15 +196,13 @@
                 "type": "Literal",
                 "start": 1095,
                 "end": 1098,
-                "value": "p",
-                "raw": "'p'"
+                "value": "p"
               },
               {
                 "type": "Literal",
                 "start": 1100,
                 "end": 1102,
-                "value": 43,
-                "raw": "43"
+                "value": 43
               },
               {
                 "type": "Identifier",
@@ -266,8 +262,7 @@
             "type": "Literal",
             "start": 1147,
             "end": 1162,
-            "value": "returns false",
-            "raw": "'returns false'"
+            "value": "returns false"
           }
         ],
         "optional": false
@@ -324,15 +319,13 @@
             "type": "Literal",
             "start": 1194,
             "end": 1196,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           },
           {
             "type": "Literal",
             "start": 1198,
             "end": 1236,
-            "value": "does not set a new value on receiver",
-            "raw": "'does not set a new value on receiver'"
+            "value": "does not set a new value on receiver"
           }
         ],
         "optional": false
@@ -394,8 +387,7 @@
                 "type": "Literal",
                 "start": 1277,
                 "end": 1280,
-                "value": "p",
-                "raw": "'p'"
+                "value": "p"
               }
             ],
             "optional": false
@@ -411,8 +403,7 @@
             "type": "Literal",
             "start": 1292,
             "end": 1328,
-            "value": "does not set a new value on target",
-            "raw": "'does not set a new value on target'"
+            "value": "does not set a new value on target"
           }
         ],
         "optional": false

@@ -65,8 +65,7 @@
                 "type": "Literal",
                 "start": 575,
                 "end": 586,
-                "value": "resizable",
-                "raw": "'resizable'"
+                "value": "resizable"
               }
             ],
             "optional": false
@@ -113,8 +112,7 @@
             "type": "Literal",
             "start": 615,
             "end": 621,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -138,8 +136,7 @@
                   "type": "Literal",
                   "start": 634,
                   "end": 649,
-                  "value": "get resizable",
-                  "raw": "'get resizable'"
+                  "value": "get resizable"
                 },
                 "kind": "init"
               },

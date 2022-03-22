@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 627,
             "end": 636,
-            "value": "Promise",
-            "raw": "'Promise'"
+            "value": "Promise"
           },
           {
             "type": "ObjectExpression",

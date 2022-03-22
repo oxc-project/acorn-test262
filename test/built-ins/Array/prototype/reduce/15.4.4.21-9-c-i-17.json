@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 369,
             "end": 370,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -118,8 +117,7 @@
                 "type": "Literal",
                 "start": 436,
                 "end": 437,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             },
             "consequent": {
@@ -205,15 +203,13 @@
                   "type": "Literal",
                   "start": 503,
                   "end": 504,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
                   "start": 506,
                   "end": 507,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "kind": "init"
               },
@@ -228,15 +224,13 @@
                   "type": "Literal",
                   "start": 511,
                   "end": 512,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Literal",
                   "start": 514,
                   "end": 515,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "kind": "init"
               },
@@ -257,8 +251,7 @@
                   "type": "Literal",
                   "start": 527,
                   "end": 528,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               }
@@ -306,8 +299,7 @@
             "type": "Literal",
             "start": 560,
             "end": 563,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "ObjectExpression",
@@ -474,8 +466,7 @@
             "type": "Literal",
             "start": 695,
             "end": 716,
-            "value": "testResult !== true",
-            "raw": "'testResult !== true'"
+            "value": "testResult !== true"
           }
         ],
         "optional": false

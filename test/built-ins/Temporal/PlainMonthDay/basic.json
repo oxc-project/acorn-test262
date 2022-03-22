@@ -46,15 +46,13 @@
                 "type": "Literal",
                 "start": 329,
                 "end": 330,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 334,
-                "value": 29,
-                "raw": "29"
+                "value": 29
               }
             ]
           }
@@ -100,22 +98,19 @@
             "type": "Literal",
             "start": 382,
             "end": 387,
-            "value": "M02",
-            "raw": "\"M02\""
+            "value": "M02"
           },
           {
             "type": "Literal",
             "start": 389,
             "end": 391,
-            "value": 29,
-            "raw": "29"
+            "value": 29
           },
           {
             "type": "Literal",
             "start": 393,
             "end": 416,
-            "value": "leap day is supported",
-            "raw": "\"leap day is supported\""
+            "value": "leap day is supported"
           }
         ],
         "optional": false
@@ -185,15 +180,13 @@
             "type": "Literal",
             "start": 457,
             "end": 466,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           },
           {
             "type": "Literal",
             "start": 468,
             "end": 487,
-            "value": "leap day calendar",
-            "raw": "\"leap day calendar\""
+            "value": "leap day calendar"
           }
         ],
         "optional": false
@@ -242,29 +235,25 @@
                 "type": "Literal",
                 "start": 538,
                 "end": 540,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 542,
                 "end": 543,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 545,
                 "end": 554,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Literal",
                 "start": 556,
                 "end": 560,
-                "value": 1920,
-                "raw": "1920"
+                "value": 1920
               }
             ]
           }
@@ -310,29 +299,25 @@
             "type": "Literal",
             "start": 612,
             "end": 617,
-            "value": "M12",
-            "raw": "\"M12\""
+            "value": "M12"
           },
           {
             "type": "Literal",
             "start": 619,
             "end": 620,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 622,
             "end": 651,
-            "value": "reference year before epoch",
-            "raw": "\"reference year before epoch\""
+            "value": "reference year before epoch"
           },
           {
             "type": "Literal",
             "start": 653,
             "end": 657,
-            "value": 1920,
-            "raw": "1920"
+            "value": 1920
           }
         ],
         "optional": false
@@ -402,15 +387,13 @@
             "type": "Literal",
             "start": 702,
             "end": 711,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           },
           {
             "type": "Literal",
             "start": 713,
             "end": 751,
-            "value": "reference year before epoch calendar",
-            "raw": "\"reference year before epoch calendar\""
+            "value": "reference year before epoch calendar"
           }
         ],
         "optional": false
@@ -459,29 +442,25 @@
                 "type": "Literal",
                 "start": 801,
                 "end": 802,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 804,
                 "end": 805,
-                "value": 7,
-                "raw": "7"
+                "value": 7
               },
               {
                 "type": "Literal",
                 "start": 807,
                 "end": 816,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               },
               {
                 "type": "Literal",
                 "start": 818,
                 "end": 822,
-                "value": 1980,
-                "raw": "1980"
+                "value": 1980
               }
             ]
           }
@@ -527,29 +506,25 @@
             "type": "Literal",
             "start": 873,
             "end": 878,
-            "value": "M01",
-            "raw": "\"M01\""
+            "value": "M01"
           },
           {
             "type": "Literal",
             "start": 880,
             "end": 881,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 883,
             "end": 911,
-            "value": "reference year after epoch",
-            "raw": "\"reference year after epoch\""
+            "value": "reference year after epoch"
           },
           {
             "type": "Literal",
             "start": 913,
             "end": 917,
-            "value": 1980,
-            "raw": "1980"
+            "value": 1980
           }
         ],
         "optional": false
@@ -619,15 +594,13 @@
             "type": "Literal",
             "start": 961,
             "end": 970,
-            "value": "iso8601",
-            "raw": "\"iso8601\""
+            "value": "iso8601"
           },
           {
             "type": "Literal",
             "start": 972,
             "end": 1009,
-            "value": "reference year after epoch calendar",
-            "raw": "\"reference year after epoch calendar\""
+            "value": "reference year after epoch calendar"
           }
         ],
         "optional": false

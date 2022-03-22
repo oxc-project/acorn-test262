@@ -83,8 +83,7 @@
                       "type": "Literal",
                       "start": 376,
                       "end": 386,
-                      "value": 4294967297,
-                      "raw": "4294967297"
+                      "value": 4294967297
                     }
                   }
                 }
@@ -95,8 +94,7 @@
             "type": "Literal",
             "start": 391,
             "end": 445,
-            "value": "[].length = 4294967297 throws a RangeError exception",
-            "raw": "'[].length = 4294967297 throws a RangeError exception'"
+            "value": "[].length = 4294967297 throws a RangeError exception"
           }
         ],
         "optional": false

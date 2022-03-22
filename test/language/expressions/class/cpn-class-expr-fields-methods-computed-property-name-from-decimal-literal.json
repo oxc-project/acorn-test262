@@ -30,17 +30,15 @@
               "end": 1040,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 959,
-                  "end": 993,
-                  "static": false,
+                  "end": 992,
                   "computed": true,
                   "key": {
                     "type": "Literal",
                     "start": 960,
                     "end": 963,
-                    "value": 1.1,
-                    "raw": "1.1"
+                    "value": 1.1
                   },
                   "value": {
                     "type": "ArrowFunctionExpression",
@@ -64,8 +62,7 @@
                             "type": "Literal",
                             "start": 986,
                             "end": 987,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         }
                       ]
@@ -73,17 +70,16 @@
                   }
                 },
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 997,
-                  "end": 1038,
+                  "end": 1037,
                   "static": true,
                   "computed": true,
                   "key": {
                     "type": "Literal",
                     "start": 1005,
                     "end": 1008,
-                    "value": 1.1,
-                    "raw": "1.1"
+                    "value": 1.1
                   },
                   "value": {
                     "type": "ArrowFunctionExpression",
@@ -107,8 +103,7 @@
                             "type": "Literal",
                             "start": 1031,
                             "end": 1032,
-                            "value": 2,
-                            "raw": "2"
+                            "value": 2
                           }
                         }
                       ]
@@ -199,8 +194,7 @@
                 "type": "Literal",
                 "start": 1083,
                 "end": 1086,
-                "value": 1.1,
-                "raw": "1.1"
+                "value": 1.1
               },
               "computed": true,
               "optional": false
@@ -212,8 +206,7 @@
             "type": "Literal",
             "start": 1093,
             "end": 1094,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -265,8 +258,7 @@
                 "type": "Literal",
                 "start": 1120,
                 "end": 1123,
-                "value": 1.1,
-                "raw": "1.1"
+                "value": 1.1
               },
               "computed": true,
               "optional": false
@@ -278,8 +270,7 @@
             "type": "Literal",
             "start": 1130,
             "end": 1131,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -342,8 +333,7 @@
                     "type": "Literal",
                     "start": 1164,
                     "end": 1167,
-                    "value": 1.1,
-                    "raw": "1.1"
+                    "value": 1.1
                   }
                 ],
                 "optional": false
@@ -358,8 +348,7 @@
             "type": "Literal",
             "start": 1175,
             "end": 1176,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false
@@ -422,8 +411,7 @@
                     "type": "Literal",
                     "start": 1209,
                     "end": 1212,
-                    "value": 1.1,
-                    "raw": "1.1"
+                    "value": 1.1
                   }
                 ],
                 "optional": false
@@ -438,8 +426,7 @@
             "type": "Literal",
             "start": 1220,
             "end": 1221,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           }
         ],
         "optional": false

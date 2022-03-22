@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 336,
             "end": 342,
-            "value": "prop",
-            "raw": "\"prop\""
+            "value": "prop"
           },
           {
             "type": "ObjectExpression",
@@ -79,8 +78,7 @@
                   "type": "Literal",
                   "start": 359,
                   "end": 363,
-                  "value": 1001,
-                  "raw": "1001"
+                  "value": 1001
                 },
                 "kind": "init"
               },
@@ -175,8 +173,7 @@
             "type": "Literal",
             "start": 451,
             "end": 455,
-            "value": 1002,
-            "raw": "1002"
+            "value": 1002
           }
         }
       ],
@@ -227,8 +224,7 @@
                   "type": "Literal",
                   "start": 484,
                   "end": 490,
-                  "value": "prop",
-                  "raw": "\"prop\""
+                  "value": "prop"
                 }
               ],
               "optional": false
@@ -249,8 +245,7 @@
                 "type": "Literal",
                 "start": 504,
                 "end": 508,
-                "value": 1002,
-                "raw": "1002"
+                "value": 1002
               }
             }
           }
@@ -269,8 +264,7 @@
               "type": "Literal",
               "start": 521,
               "end": 582,
-              "value": "this.prop should take precedence over Object.prototype.prop",
-              "raw": "\"this.prop should take precedence over Object.prototype.prop\""
+              "value": "this.prop should take precedence over Object.prototype.prop"
             }
           }
         ]

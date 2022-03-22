@@ -59,8 +59,7 @@
                 "type": "Literal",
                 "start": 276,
                 "end": 278,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               }
             ],
             "optional": false
@@ -76,8 +75,7 @@
             "type": "Literal",
             "start": 288,
             "end": 325,
-            "value": "Array.isArray(42) must return false",
-            "raw": "'Array.isArray(42) must return false'"
+            "value": "Array.isArray(42) must return false"
           }
         ],
         "optional": false
@@ -155,8 +153,7 @@
             "type": "Literal",
             "start": 378,
             "end": 422,
-            "value": "Array.isArray(undefined) must return false",
-            "raw": "'Array.isArray(undefined) must return false'"
+            "value": "Array.isArray(undefined) must return false"
           }
         ],
         "optional": false
@@ -235,8 +232,7 @@
             "type": "Literal",
             "start": 470,
             "end": 509,
-            "value": "Array.isArray(true) must return false",
-            "raw": "'Array.isArray(true) must return false'"
+            "value": "Array.isArray(true) must return false"
           }
         ],
         "optional": false
@@ -298,8 +294,7 @@
                 "type": "Literal",
                 "start": 543,
                 "end": 548,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               }
             ],
             "optional": false
@@ -315,8 +310,7 @@
             "type": "Literal",
             "start": 558,
             "end": 598,
-            "value": "Array.isArray(\"abc\") must return false",
-            "raw": "'Array.isArray(\"abc\") must return false'"
+            "value": "Array.isArray(\"abc\") must return false"
           }
         ],
         "optional": false
@@ -394,8 +388,7 @@
             "type": "Literal",
             "start": 644,
             "end": 681,
-            "value": "Array.isArray({}) must return false",
-            "raw": "'Array.isArray({}) must return false'"
+            "value": "Array.isArray({}) must return false"
           }
         ],
         "optional": false
@@ -474,8 +467,7 @@
             "type": "Literal",
             "start": 729,
             "end": 768,
-            "value": "Array.isArray(null) must return false",
-            "raw": "'Array.isArray(null) must return false'"
+            "value": "Array.isArray(null) must return false"
           }
         ],
         "optional": false

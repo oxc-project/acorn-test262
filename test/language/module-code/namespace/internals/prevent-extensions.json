@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 337,
         "end": 362,
-        "value": "./prevent-extensions.js",
-        "raw": "'./prevent-extensions.js'"
+        "value": "./prevent-extensions.js"
       }
     },
     {

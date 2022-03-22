@@ -31,8 +31,7 @@
                 "type": "Literal",
                 "start": 381,
                 "end": 382,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           }
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 421,
                     "end": 451,
-                    "value": "#1: !(+0) === true. Actual: ",
-                    "raw": "'#1: !(+0) === true. Actual: '"
+                    "value": "#1: !(+0) === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -102,8 +100,7 @@
                             "type": "Literal",
                             "start": 458,
                             "end": 459,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         }
                       }
@@ -145,8 +142,7 @@
                 "type": "Literal",
                 "start": 488,
                 "end": 489,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             }
           }
@@ -188,8 +184,7 @@
                     "type": "Literal",
                     "start": 528,
                     "end": 558,
-                    "value": "#2: !(-0) === true. Actual: ",
-                    "raw": "'#2: !(-0) === true. Actual: '"
+                    "value": "#2: !(-0) === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -216,8 +211,7 @@
                             "type": "Literal",
                             "start": 565,
                             "end": 566,
-                            "value": 0,
-                            "raw": "0"
+                            "value": 0
                           }
                         }
                       }
@@ -307,8 +301,7 @@
                     "type": "Literal",
                     "start": 640,
                     "end": 678,
-                    "value": "#3: !(Number.NaN) === true. Actual: ",
-                    "raw": "'#3: !(Number.NaN) === true. Actual: '"
+                    "value": "#3: !(Number.NaN) === true. Actual: "
                   },
                   "operator": "+",
                   "right": {

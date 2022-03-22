@@ -74,8 +74,7 @@
                                 "type": "Literal",
                                 "start": 958,
                                 "end": 960,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               }
                             ]
                           }
@@ -165,8 +164,7 @@
                           "type": "Literal",
                           "start": 1023,
                           "end": 1024,
-                          "value": 0,
-                          "raw": "0"
+                          "value": 0
                         },
                         "computed": true,
                         "optional": false
@@ -181,8 +179,7 @@
                         "type": "Literal",
                         "start": 1038,
                         "end": 1095,
-                        "value": "The value of sample[0] is expected to equal `undefined`",
-                        "raw": "'The value of sample[0] is expected to equal `undefined`'"
+                        "value": "The value of sample[0] is expected to equal `undefined`"
                       }
                     ],
                     "optional": false
@@ -230,8 +227,7 @@
                           "type": "Literal",
                           "start": 1124,
                           "end": 1129,
-                          "value": "1.1",
-                          "raw": "\"1.1\""
+                          "value": "1.1"
                         },
                         "computed": true,
                         "optional": false
@@ -246,8 +242,7 @@
                         "type": "Literal",
                         "start": 1143,
                         "end": 1204,
-                        "value": "The value of sample[\"1.1\"] is expected to equal `undefined`",
-                        "raw": "'The value of sample[\"1.1\"] is expected to equal `undefined`'"
+                        "value": "The value of sample[\"1.1\"] is expected to equal `undefined`"
                       }
                     ],
                     "optional": false
@@ -295,8 +290,7 @@
                           "type": "Literal",
                           "start": 1233,
                           "end": 1237,
-                          "value": "-0",
-                          "raw": "\"-0\""
+                          "value": "-0"
                         },
                         "computed": true,
                         "optional": false
@@ -311,8 +305,7 @@
                         "type": "Literal",
                         "start": 1251,
                         "end": 1311,
-                        "value": "The value of sample[\"-0\"] is expected to equal `undefined`",
-                        "raw": "'The value of sample[\"-0\"] is expected to equal `undefined`'"
+                        "value": "The value of sample[\"-0\"] is expected to equal `undefined`"
                       }
                     ],
                     "optional": false
@@ -360,8 +353,7 @@
                           "type": "Literal",
                           "start": 1340,
                           "end": 1344,
-                          "value": "-1",
-                          "raw": "\"-1\""
+                          "value": "-1"
                         },
                         "computed": true,
                         "optional": false
@@ -376,8 +368,7 @@
                         "type": "Literal",
                         "start": 1358,
                         "end": 1418,
-                        "value": "The value of sample[\"-1\"] is expected to equal `undefined`",
-                        "raw": "'The value of sample[\"-1\"] is expected to equal `undefined`'"
+                        "value": "The value of sample[\"-1\"] is expected to equal `undefined`"
                       }
                     ],
                     "optional": false
@@ -425,8 +416,7 @@
                           "type": "Literal",
                           "start": 1447,
                           "end": 1450,
-                          "value": "1",
-                          "raw": "\"1\""
+                          "value": "1"
                         },
                         "computed": true,
                         "optional": false
@@ -441,8 +431,7 @@
                         "type": "Literal",
                         "start": 1464,
                         "end": 1523,
-                        "value": "The value of sample[\"1\"] is expected to equal `undefined`",
-                        "raw": "'The value of sample[\"1\"] is expected to equal `undefined`'"
+                        "value": "The value of sample[\"1\"] is expected to equal `undefined`"
                       }
                     ],
                     "optional": false
@@ -490,8 +479,7 @@
                           "type": "Literal",
                           "start": 1552,
                           "end": 1555,
-                          "value": "2",
-                          "raw": "\"2\""
+                          "value": "2"
                         },
                         "computed": true,
                         "optional": false
@@ -506,8 +494,7 @@
                         "type": "Literal",
                         "start": 1569,
                         "end": 1628,
-                        "value": "The value of sample[\"2\"] is expected to equal `undefined`",
-                        "raw": "'The value of sample[\"2\"] is expected to equal `undefined`'"
+                        "value": "The value of sample[\"2\"] is expected to equal `undefined`"
                       }
                     ],
                     "optional": false

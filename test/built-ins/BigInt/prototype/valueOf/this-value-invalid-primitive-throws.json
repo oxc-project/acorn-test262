@@ -99,8 +99,7 @@
             "type": "Literal",
             "start": 691,
             "end": 701,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -199,8 +198,7 @@
             "type": "Literal",
             "start": 773,
             "end": 784,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           }
         ],
         "optional": false
@@ -300,8 +298,7 @@
             "type": "Literal",
             "start": 851,
             "end": 857,
-            "value": "null",
-            "raw": "\"null\""
+            "value": "null"
           }
         ],
         "optional": false
@@ -401,8 +398,7 @@
             "type": "Literal",
             "start": 925,
             "end": 932,
-            "value": "false",
-            "raw": "\"false\""
+            "value": "false"
           }
         ],
         "optional": false
@@ -502,8 +498,7 @@
             "type": "Literal",
             "start": 999,
             "end": 1005,
-            "value": "true",
-            "raw": "\"true\""
+            "value": "true"
           }
         ],
         "optional": false
@@ -589,8 +584,7 @@
                         "type": "Literal",
                         "start": 1062,
                         "end": 1064,
-                        "value": "",
-                        "raw": "\"\""
+                        "value": ""
                       }
                     ],
                     "optional": false
@@ -603,8 +597,7 @@
             "type": "Literal",
             "start": 1070,
             "end": 1088,
-            "value": "the empty string",
-            "raw": "\"the empty string\""
+            "value": "the empty string"
           }
         ],
         "optional": false
@@ -690,8 +683,7 @@
                         "type": "Literal",
                         "start": 1145,
                         "end": 1149,
-                        "value": "1n",
-                        "raw": "\"1n\""
+                        "value": "1n"
                       }
                     ],
                     "optional": false
@@ -704,8 +696,7 @@
             "type": "Literal",
             "start": 1155,
             "end": 1163,
-            "value": "string",
-            "raw": "\"string\""
+            "value": "string"
           }
         ],
         "optional": false
@@ -791,8 +782,7 @@
                         "type": "Literal",
                         "start": 1220,
                         "end": 1221,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       }
                     ],
                     "optional": false
@@ -805,8 +795,7 @@
             "type": "Literal",
             "start": 1227,
             "end": 1239,
-            "value": "number (0)",
-            "raw": "\"number (0)\""
+            "value": "number (0)"
           }
         ],
         "optional": false
@@ -892,8 +881,7 @@
                         "type": "Literal",
                         "start": 1296,
                         "end": 1297,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false
@@ -906,8 +894,7 @@
             "type": "Literal",
             "start": 1303,
             "end": 1315,
-            "value": "number (1)",
-            "raw": "\"number (1)\""
+            "value": "number (1)"
           }
         ],
         "optional": false
@@ -1006,8 +993,7 @@
             "type": "Literal",
             "start": 1381,
             "end": 1386,
-            "value": "NaN",
-            "raw": "\"NaN\""
+            "value": "NaN"
           }
         ],
         "optional": false
@@ -1138,8 +1124,7 @@
             "type": "Literal",
             "start": 1468,
             "end": 1476,
-            "value": "symbol",
-            "raw": "\"symbol\""
+            "value": "symbol"
           }
         ],
         "optional": false

@@ -125,15 +125,13 @@
                                     "type": "Literal",
                                     "start": 476,
                                     "end": 477,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 479,
                                     "end": 480,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -146,8 +144,7 @@
                         "type": "Literal",
                         "start": 488,
                         "end": 537,
-                        "value": "`Atomics.exchange(view, 0, 0)` throws TypeError",
-                        "raw": "'`Atomics.exchange(view, 0, 0)` throws TypeError'"
+                        "value": "`Atomics.exchange(view, 0, 0)` throws TypeError"
                       }
                     ],
                     "optional": false

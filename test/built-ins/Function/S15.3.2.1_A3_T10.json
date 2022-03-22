@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 985,
             "end": 999,
-            "value": "return this;",
-            "raw": "\"return this;\""
+            "value": "return this;"
           }
         }
       ],
@@ -84,8 +83,7 @@
                           "type": "Literal",
                           "start": 1047,
                           "end": 1052,
-                          "value": "z;x",
-                          "raw": "\"z;x\""
+                          "value": "z;x"
                         }
                       }
                     ]
@@ -171,8 +169,7 @@
                   "type": "Literal",
                   "start": 1125,
                   "end": 1215,
-                  "value": "#1: If P is not parsable as a FormalParameterList_opt then throw a SyntaxError exception",
-                  "raw": "'#1: If P is not parsable as a FormalParameterList_opt then throw a SyntaxError exception'"
+                  "value": "#1: If P is not parsable as a FormalParameterList_opt then throw a SyntaxError exception"
                 }
               ]
             }
@@ -231,8 +228,7 @@
                     "type": "Literal",
                     "start": 1276,
                     "end": 1352,
-                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true"
                   }
                 ],
                 "optional": false

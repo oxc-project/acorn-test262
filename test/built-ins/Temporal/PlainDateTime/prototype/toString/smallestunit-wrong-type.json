@@ -46,64 +46,55 @@
                 "type": "Literal",
                 "start": 360,
                 "end": 364,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 366,
                 "end": 367,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 369,
                 "end": 370,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 372,
                 "end": 374,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 376,
                 "end": 378,
-                "value": 34,
-                "raw": "34"
+                "value": 34
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 382,
-                "value": 56,
-                "raw": "56"
+                "value": 56
               },
               {
                 "type": "Literal",
                 "start": 384,
                 "end": 387,
-                "value": 123,
-                "raw": "123"
+                "value": 123
               },
               {
                 "type": "Literal",
                 "start": 389,
                 "end": 392,
-                "value": 987,
-                "raw": "987"
+                "value": 987
               },
               {
                 "type": "Literal",
                 "start": 394,
                 "end": 397,
-                "value": 500,
-                "raw": "500"
+                "value": 500
               }
             ]
           }
@@ -143,15 +134,13 @@
             "type": "Literal",
             "start": 443,
             "end": 457,
-            "value": "smallestUnit",
-            "raw": "\"smallestUnit\""
+            "value": "smallestUnit"
           },
           {
             "type": "Literal",
             "start": 459,
             "end": 472,
-            "value": "microsecond",
-            "raw": "\"microsecond\""
+            "value": "microsecond"
           },
           {
             "type": "ArrowFunctionExpression",
@@ -281,8 +270,7 @@
                   "type": "Literal",
                   "start": 577,
                   "end": 605,
-                  "value": "2000-05-02T12:34:56.123987",
-                  "raw": "\"2000-05-02T12:34:56.123987\""
+                  "value": "2000-05-02T12:34:56.123987"
                 },
                 {
                   "type": "Identifier",

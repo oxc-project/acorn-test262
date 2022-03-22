@@ -64,8 +64,7 @@
                   "type": "Literal",
                   "start": 313,
                   "end": 315,
-                  "value": 10,
-                  "raw": "10"
+                  "value": 10
                 }
               },
               "operator": "&&",
@@ -137,15 +136,13 @@
                     "type": "Literal",
                     "start": 348,
                     "end": 349,
-                    "value": 9,
-                    "raw": "9"
+                    "value": 9
                   },
                   {
                     "type": "Literal",
                     "start": 351,
                     "end": 353,
-                    "value": 12,
-                    "raw": "12"
+                    "value": 12
                   }
                 ]
               },
@@ -172,8 +169,7 @@
             "type": "Literal",
             "start": 373,
             "end": 408,
-            "value": "[9, 12].some(callbackfn) !== true",
-            "raw": "'[9, 12].some(callbackfn) !== true'"
+            "value": "[9, 12].some(callbackfn) !== true"
           }
         ],
         "optional": false

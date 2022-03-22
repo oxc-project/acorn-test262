@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1039,
                 "end": 1044,
-                "value": "0o0",
-                "raw": "'0o0'"
+                "value": "0o0"
               }
             ],
             "optional": false
@@ -56,15 +55,13 @@
             "type": "Literal",
             "start": 1047,
             "end": 1048,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1050,
             "end": 1067,
-            "value": "lower-case head",
-            "raw": "'lower-case head'"
+            "value": "lower-case head"
           }
         ],
         "optional": false
@@ -113,8 +110,7 @@
                 "type": "Literal",
                 "start": 1094,
                 "end": 1099,
-                "value": "0O0",
-                "raw": "'0O0'"
+                "value": "0O0"
               }
             ],
             "optional": false
@@ -123,15 +119,13 @@
             "type": "Literal",
             "start": 1102,
             "end": 1103,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1105,
             "end": 1122,
-            "value": "upper-case head",
-            "raw": "'upper-case head'"
+            "value": "upper-case head"
           }
         ],
         "optional": false
@@ -180,8 +174,7 @@
                 "type": "Literal",
                 "start": 1149,
                 "end": 1155,
-                "value": "0o00",
-                "raw": "'0o00'"
+                "value": "0o00"
               }
             ],
             "optional": false
@@ -190,15 +183,13 @@
             "type": "Literal",
             "start": 1158,
             "end": 1159,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1161,
             "end": 1197,
-            "value": "lower-case head with leading zeros",
-            "raw": "'lower-case head with leading zeros'"
+            "value": "lower-case head with leading zeros"
           }
         ],
         "optional": false
@@ -247,8 +238,7 @@
                 "type": "Literal",
                 "start": 1224,
                 "end": 1230,
-                "value": "0O00",
-                "raw": "'0O00'"
+                "value": "0O00"
               }
             ],
             "optional": false
@@ -257,15 +247,13 @@
             "type": "Literal",
             "start": 1233,
             "end": 1234,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1236,
             "end": 1272,
-            "value": "upper-case head with leading zeros",
-            "raw": "'upper-case head with leading zeros'"
+            "value": "upper-case head with leading zeros"
           }
         ],
         "optional": false
@@ -314,8 +302,7 @@
                 "type": "Literal",
                 "start": 1300,
                 "end": 1305,
-                "value": "0o1",
-                "raw": "'0o1'"
+                "value": "0o1"
               }
             ],
             "optional": false
@@ -324,15 +311,13 @@
             "type": "Literal",
             "start": 1308,
             "end": 1309,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1311,
             "end": 1328,
-            "value": "lower-case head",
-            "raw": "'lower-case head'"
+            "value": "lower-case head"
           }
         ],
         "optional": false
@@ -381,8 +366,7 @@
                 "type": "Literal",
                 "start": 1355,
                 "end": 1360,
-                "value": "0O1",
-                "raw": "'0O1'"
+                "value": "0O1"
               }
             ],
             "optional": false
@@ -391,15 +375,13 @@
             "type": "Literal",
             "start": 1363,
             "end": 1364,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1366,
             "end": 1383,
-            "value": "upper-case head",
-            "raw": "'upper-case head'"
+            "value": "upper-case head"
           }
         ],
         "optional": false
@@ -448,8 +430,7 @@
                 "type": "Literal",
                 "start": 1410,
                 "end": 1416,
-                "value": "0o01",
-                "raw": "'0o01'"
+                "value": "0o01"
               }
             ],
             "optional": false
@@ -458,15 +439,13 @@
             "type": "Literal",
             "start": 1419,
             "end": 1420,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1422,
             "end": 1458,
-            "value": "lower-case head with leading zeros",
-            "raw": "'lower-case head with leading zeros'"
+            "value": "lower-case head with leading zeros"
           }
         ],
         "optional": false
@@ -515,8 +494,7 @@
                 "type": "Literal",
                 "start": 1485,
                 "end": 1491,
-                "value": "0O01",
-                "raw": "'0O01'"
+                "value": "0O01"
               }
             ],
             "optional": false
@@ -525,15 +503,13 @@
             "type": "Literal",
             "start": 1494,
             "end": 1495,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1497,
             "end": 1533,
-            "value": "upper-case head with leading zeros",
-            "raw": "'upper-case head with leading zeros'"
+            "value": "upper-case head with leading zeros"
           }
         ],
         "optional": false
@@ -582,8 +558,7 @@
                 "type": "Literal",
                 "start": 1561,
                 "end": 1566,
-                "value": "0o7",
-                "raw": "'0o7'"
+                "value": "0o7"
               }
             ],
             "optional": false
@@ -592,15 +567,13 @@
             "type": "Literal",
             "start": 1569,
             "end": 1570,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 1572,
             "end": 1589,
-            "value": "lower-case head",
-            "raw": "'lower-case head'"
+            "value": "lower-case head"
           }
         ],
         "optional": false
@@ -649,8 +622,7 @@
                 "type": "Literal",
                 "start": 1616,
                 "end": 1621,
-                "value": "0O7",
-                "raw": "'0O7'"
+                "value": "0O7"
               }
             ],
             "optional": false
@@ -659,15 +631,13 @@
             "type": "Literal",
             "start": 1624,
             "end": 1625,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 1627,
             "end": 1644,
-            "value": "upper-case head",
-            "raw": "'upper-case head'"
+            "value": "upper-case head"
           }
         ],
         "optional": false
@@ -716,8 +686,7 @@
                 "type": "Literal",
                 "start": 1671,
                 "end": 1677,
-                "value": "0o07",
-                "raw": "'0o07'"
+                "value": "0o07"
               }
             ],
             "optional": false
@@ -726,15 +695,13 @@
             "type": "Literal",
             "start": 1680,
             "end": 1681,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 1683,
             "end": 1719,
-            "value": "lower-case head with leading zeros",
-            "raw": "'lower-case head with leading zeros'"
+            "value": "lower-case head with leading zeros"
           }
         ],
         "optional": false
@@ -783,8 +750,7 @@
                 "type": "Literal",
                 "start": 1746,
                 "end": 1752,
-                "value": "0O07",
-                "raw": "'0O07'"
+                "value": "0O07"
               }
             ],
             "optional": false
@@ -793,15 +759,13 @@
             "type": "Literal",
             "start": 1755,
             "end": 1756,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 1758,
             "end": 1794,
-            "value": "upper-case head with leading zeros",
-            "raw": "'upper-case head with leading zeros'"
+            "value": "upper-case head with leading zeros"
           }
         ],
         "optional": false
@@ -850,8 +814,7 @@
                 "type": "Literal",
                 "start": 1822,
                 "end": 1828,
-                "value": "0o10",
-                "raw": "'0o10'"
+                "value": "0o10"
               }
             ],
             "optional": false
@@ -860,15 +823,13 @@
             "type": "Literal",
             "start": 1831,
             "end": 1832,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           },
           {
             "type": "Literal",
             "start": 1834,
             "end": 1851,
-            "value": "lower-case head",
-            "raw": "'lower-case head'"
+            "value": "lower-case head"
           }
         ],
         "optional": false
@@ -917,8 +878,7 @@
                 "type": "Literal",
                 "start": 1878,
                 "end": 1884,
-                "value": "0O10",
-                "raw": "'0O10'"
+                "value": "0O10"
               }
             ],
             "optional": false
@@ -927,15 +887,13 @@
             "type": "Literal",
             "start": 1887,
             "end": 1888,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           },
           {
             "type": "Literal",
             "start": 1890,
             "end": 1907,
-            "value": "upper-case head",
-            "raw": "'upper-case head'"
+            "value": "upper-case head"
           }
         ],
         "optional": false
@@ -984,8 +942,7 @@
                 "type": "Literal",
                 "start": 1934,
                 "end": 1941,
-                "value": "0o010",
-                "raw": "'0o010'"
+                "value": "0o010"
               }
             ],
             "optional": false
@@ -994,15 +951,13 @@
             "type": "Literal",
             "start": 1944,
             "end": 1945,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           },
           {
             "type": "Literal",
             "start": 1947,
             "end": 1983,
-            "value": "lower-case head with leading zeros",
-            "raw": "'lower-case head with leading zeros'"
+            "value": "lower-case head with leading zeros"
           }
         ],
         "optional": false
@@ -1051,8 +1006,7 @@
                 "type": "Literal",
                 "start": 2010,
                 "end": 2017,
-                "value": "0O010",
-                "raw": "'0O010'"
+                "value": "0O010"
               }
             ],
             "optional": false
@@ -1061,15 +1015,13 @@
             "type": "Literal",
             "start": 2020,
             "end": 2021,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           },
           {
             "type": "Literal",
             "start": 2023,
             "end": 2059,
-            "value": "upper-case head with leading zeros",
-            "raw": "'upper-case head with leading zeros'"
+            "value": "upper-case head with leading zeros"
           }
         ],
         "optional": false
@@ -1118,8 +1070,7 @@
                 "type": "Literal",
                 "start": 2087,
                 "end": 2093,
-                "value": "0o11",
-                "raw": "'0o11'"
+                "value": "0o11"
               }
             ],
             "optional": false
@@ -1128,15 +1079,13 @@
             "type": "Literal",
             "start": 2096,
             "end": 2097,
-            "value": 9,
-            "raw": "9"
+            "value": 9
           },
           {
             "type": "Literal",
             "start": 2099,
             "end": 2116,
-            "value": "lower-case head",
-            "raw": "'lower-case head'"
+            "value": "lower-case head"
           }
         ],
         "optional": false
@@ -1185,8 +1134,7 @@
                 "type": "Literal",
                 "start": 2143,
                 "end": 2149,
-                "value": "0O11",
-                "raw": "'0O11'"
+                "value": "0O11"
               }
             ],
             "optional": false
@@ -1195,15 +1143,13 @@
             "type": "Literal",
             "start": 2152,
             "end": 2153,
-            "value": 9,
-            "raw": "9"
+            "value": 9
           },
           {
             "type": "Literal",
             "start": 2155,
             "end": 2172,
-            "value": "upper-case head",
-            "raw": "'upper-case head'"
+            "value": "upper-case head"
           }
         ],
         "optional": false
@@ -1252,8 +1198,7 @@
                 "type": "Literal",
                 "start": 2199,
                 "end": 2206,
-                "value": "0o011",
-                "raw": "'0o011'"
+                "value": "0o011"
               }
             ],
             "optional": false
@@ -1262,15 +1207,13 @@
             "type": "Literal",
             "start": 2209,
             "end": 2210,
-            "value": 9,
-            "raw": "9"
+            "value": 9
           },
           {
             "type": "Literal",
             "start": 2212,
             "end": 2248,
-            "value": "lower-case head with leading zeros",
-            "raw": "'lower-case head with leading zeros'"
+            "value": "lower-case head with leading zeros"
           }
         ],
         "optional": false
@@ -1319,8 +1262,7 @@
                 "type": "Literal",
                 "start": 2275,
                 "end": 2282,
-                "value": "0O011",
-                "raw": "'0O011'"
+                "value": "0O011"
               }
             ],
             "optional": false
@@ -1329,15 +1271,13 @@
             "type": "Literal",
             "start": 2285,
             "end": 2286,
-            "value": 9,
-            "raw": "9"
+            "value": 9
           },
           {
             "type": "Literal",
             "start": 2288,
             "end": 2324,
-            "value": "upper-case head with leading zeros",
-            "raw": "'upper-case head with leading zeros'"
+            "value": "upper-case head with leading zeros"
           }
         ],
         "optional": false
@@ -1386,8 +1326,7 @@
                 "type": "Literal",
                 "start": 2352,
                 "end": 2358,
-                "value": "0o77",
-                "raw": "'0o77'"
+                "value": "0o77"
               }
             ],
             "optional": false
@@ -1396,15 +1335,13 @@
             "type": "Literal",
             "start": 2361,
             "end": 2363,
-            "value": 63,
-            "raw": "63"
+            "value": 63
           },
           {
             "type": "Literal",
             "start": 2365,
             "end": 2382,
-            "value": "lower-case head",
-            "raw": "'lower-case head'"
+            "value": "lower-case head"
           }
         ],
         "optional": false
@@ -1453,8 +1390,7 @@
                 "type": "Literal",
                 "start": 2409,
                 "end": 2415,
-                "value": "0O77",
-                "raw": "'0O77'"
+                "value": "0O77"
               }
             ],
             "optional": false
@@ -1463,15 +1399,13 @@
             "type": "Literal",
             "start": 2418,
             "end": 2420,
-            "value": 63,
-            "raw": "63"
+            "value": 63
           },
           {
             "type": "Literal",
             "start": 2422,
             "end": 2439,
-            "value": "upper-case head",
-            "raw": "'upper-case head'"
+            "value": "upper-case head"
           }
         ],
         "optional": false
@@ -1520,8 +1454,7 @@
                 "type": "Literal",
                 "start": 2466,
                 "end": 2473,
-                "value": "0o077",
-                "raw": "'0o077'"
+                "value": "0o077"
               }
             ],
             "optional": false
@@ -1530,15 +1463,13 @@
             "type": "Literal",
             "start": 2476,
             "end": 2478,
-            "value": 63,
-            "raw": "63"
+            "value": 63
           },
           {
             "type": "Literal",
             "start": 2480,
             "end": 2516,
-            "value": "lower-case head with leading zeros",
-            "raw": "'lower-case head with leading zeros'"
+            "value": "lower-case head with leading zeros"
           }
         ],
         "optional": false
@@ -1587,8 +1518,7 @@
                 "type": "Literal",
                 "start": 2543,
                 "end": 2550,
-                "value": "0O077",
-                "raw": "'0O077'"
+                "value": "0O077"
               }
             ],
             "optional": false
@@ -1597,15 +1527,13 @@
             "type": "Literal",
             "start": 2553,
             "end": 2555,
-            "value": 63,
-            "raw": "63"
+            "value": 63
           },
           {
             "type": "Literal",
             "start": 2557,
             "end": 2593,
-            "value": "upper-case head with leading zeros",
-            "raw": "'upper-case head with leading zeros'"
+            "value": "upper-case head with leading zeros"
           }
         ],
         "optional": false

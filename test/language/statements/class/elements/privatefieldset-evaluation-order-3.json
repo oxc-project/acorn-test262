@@ -93,13 +93,12 @@
         "end": 951,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 726,
-            "end": 733,
-            "static": false,
+            "end": 732,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 726,
               "end": 732,
               "name": "field"
@@ -254,8 +253,7 @@
                                         "type": "Literal",
                                         "start": 845,
                                         "end": 851,
-                                        "value": "pass",
-                                        "raw": "\"pass\""
+                                        "value": "pass"
                                       }
                                     }
                                   ]
@@ -308,14 +306,14 @@
                                   "start": 878,
                                   "end": 882
                                 },
+                                "computed": false,
+                                "optional": false,
                                 "property": {
-                                  "type": "PrivateIdentifier",
+                                  "type": "PrivateName",
                                   "start": 883,
                                   "end": 889,
                                   "name": "field"
-                                },
-                                "computed": false,
-                                "optional": false
+                                }
                               },
                               "kind": "init"
                             }
@@ -367,21 +365,20 @@
                             "start": 924,
                             "end": 928
                           },
+                          "computed": false,
+                          "optional": false,
                           "property": {
-                            "type": "PrivateIdentifier",
+                            "type": "PrivateName",
                             "start": 929,
                             "end": 935,
                             "name": "field"
-                          },
-                          "computed": false,
-                          "optional": false
+                          }
                         },
                         {
                           "type": "Literal",
                           "start": 937,
                           "end": 943,
-                          "value": "pass",
-                          "raw": "\"pass\""
+                          "value": "pass"
                         }
                       ],
                       "optional": false

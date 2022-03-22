@@ -31,8 +31,7 @@
         "type": "Literal",
         "start": 1577,
         "end": 1615,
-        "value": "./instn-iee-err-ambiguous_FIXTURE.js",
-        "raw": "'./instn-iee-err-ambiguous_FIXTURE.js'"
+        "value": "./instn-iee-err-ambiguous_FIXTURE.js"
       }
     }
   ],

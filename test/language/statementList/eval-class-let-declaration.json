@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 739,
                 "end": 770,
-                "value": "class C {}let a, b = 42, c;b;",
-                "raw": "'class C {}let a, b = 42, c;b;'"
+                "value": "class C {}let a, b = 42, c;b;"
               }
             ],
             "optional": false
@@ -81,8 +80,7 @@
             "type": "Literal",
             "start": 799,
             "end": 801,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false

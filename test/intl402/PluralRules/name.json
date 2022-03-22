@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 306,
             "end": 312,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -66,8 +65,7 @@
                   "type": "Literal",
                   "start": 325,
                   "end": 338,
-                  "value": "PluralRules",
-                  "raw": "'PluralRules'"
+                  "value": "PluralRules"
                 },
                 "kind": "init"
               },

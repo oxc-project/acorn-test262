@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 709,
             "end": 715,
-            "value": "<!--",
-            "raw": "\"<!--\""
+            "value": "<!--"
           }
         ],
         "optional": false

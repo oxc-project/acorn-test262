@@ -67,8 +67,7 @@
             "type": "Literal",
             "start": 842,
             "end": 848,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -92,8 +91,7 @@
                   "type": "Literal",
                   "start": 861,
                   "end": 874,
-                  "value": "daysInMonth",
-                  "raw": "\"daysInMonth\""
+                  "value": "daysInMonth"
                 },
                 "kind": "init"
               },

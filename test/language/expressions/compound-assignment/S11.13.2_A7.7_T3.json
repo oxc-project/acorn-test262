@@ -220,8 +220,7 @@
                                     "type": "Literal",
                                     "start": 678,
                                     "end": 716,
-                                    "value": "right-hand side expression evaluated",
-                                    "raw": "\"right-hand side expression evaluated\""
+                                    "value": "right-hand side expression evaluated"
                                   }
                                 ]
                               }

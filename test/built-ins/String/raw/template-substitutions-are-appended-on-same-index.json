@@ -63,15 +63,13 @@
                   "type": "Literal",
                   "start": 1232,
                   "end": 1233,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 {
                   "type": "Literal",
                   "start": 1237,
                   "end": 1238,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 }
               ],
               "quasis": [
@@ -112,8 +110,7 @@
             "type": "Literal",
             "start": 1243,
             "end": 1250,
-            "value": "12345",
-            "raw": "'12345'"
+            "value": "12345"
           }
         ],
         "optional": false

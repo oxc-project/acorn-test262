@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 478,
             "end": 488,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 492,
             "end": 524,
-            "value": "typeof Math.exp === \"function\"",
-            "raw": "'typeof Math.exp === \"function\"'"
+            "value": "typeof Math.exp === \"function\""
           }
         ],
         "optional": false
@@ -120,15 +118,13 @@
             "type": "Literal",
             "start": 568,
             "end": 578,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 582,
             "end": 614,
-            "value": "typeof parseInt === \"function\"",
-            "raw": "'typeof parseInt === \"function\"'"
+            "value": "typeof parseInt === \"function\""
           }
         ],
         "optional": false

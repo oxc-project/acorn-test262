@@ -52,15 +52,13 @@
                 "type": "Literal",
                 "start": 342,
                 "end": 343,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               },
               {
                 "type": "Literal",
                 "start": 345,
                 "end": 346,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -379,8 +377,7 @@
                 "type": "Literal",
                 "start": 561,
                 "end": 562,
-                "value": 0,
-                "raw": "0"
+                "value": 0
               }
             ],
             "optional": false
@@ -426,36 +423,31 @@
                 "type": "Literal",
                 "start": 669,
                 "end": 685,
-                "value": "defineProperty",
-                "raw": "\"defineProperty\""
+                "value": "defineProperty"
               },
               {
                 "type": "Literal",
                 "start": 769,
                 "end": 785,
-                "value": "defineProperty",
-                "raw": "\"defineProperty\""
+                "value": "defineProperty"
               },
               {
                 "type": "Literal",
                 "start": 861,
                 "end": 866,
-                "value": "set",
-                "raw": "\"set\""
+                "value": "set"
               },
               {
                 "type": "Literal",
                 "start": 872,
                 "end": 898,
-                "value": "getOwnPropertyDescriptor",
-                "raw": "\"getOwnPropertyDescriptor\""
+                "value": "getOwnPropertyDescriptor"
               },
               {
                 "type": "Literal",
                 "start": 904,
                 "end": 920,
-                "value": "defineProperty",
-                "raw": "\"defineProperty\""
+                "value": "defineProperty"
               }
             ]
           },

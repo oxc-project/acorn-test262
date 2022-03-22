@@ -61,8 +61,7 @@
                   "type": "Literal",
                   "start": 295,
                   "end": 312,
-                  "value": "/(?<a\ud801>.)/",
-                  "raw": "\"/(?<a\\uD801>.)/\""
+                  "value": "/(?<a\ud801>.)/"
                 }
               ],
               "optional": false
@@ -72,8 +71,7 @@
             "type": "Literal",
             "start": 315,
             "end": 321,
-            "value": "Lead",
-            "raw": "\"Lead\""
+            "value": "Lead"
           }
         ],
         "optional": false
@@ -137,8 +135,7 @@
                   "type": "Literal",
                   "start": 362,
                   "end": 379,
-                  "value": "/(?<a\udca4>.)/",
-                  "raw": "\"/(?<a\\uDCA4>.)/\""
+                  "value": "/(?<a\udca4>.)/"
                 }
               ],
               "optional": false
@@ -148,8 +145,7 @@
             "type": "Literal",
             "start": 382,
             "end": 389,
-            "value": "Trail",
-            "raw": "\"Trail\""
+            "value": "Trail"
           }
         ],
         "optional": false
@@ -213,8 +209,7 @@
                   "type": "Literal",
                   "start": 430,
                   "end": 448,
-                  "value": "/(?<a\ud801>.)/u",
-                  "raw": "\"/(?<a\\uD801>.)/u\""
+                  "value": "/(?<a\ud801>.)/u"
                 }
               ],
               "optional": false
@@ -224,8 +219,7 @@
             "type": "Literal",
             "start": 451,
             "end": 469,
-            "value": "Lead with u flag",
-            "raw": "\"Lead with u flag\""
+            "value": "Lead with u flag"
           }
         ],
         "optional": false
@@ -289,8 +283,7 @@
                   "type": "Literal",
                   "start": 510,
                   "end": 528,
-                  "value": "/(?<a\udca4>.)/u",
-                  "raw": "\"/(?<a\\uDCA4>.)/u\""
+                  "value": "/(?<a\udca4>.)/u"
                 }
               ],
               "optional": false
@@ -300,8 +293,7 @@
             "type": "Literal",
             "start": 531,
             "end": 550,
-            "value": "Trail with u flag",
-            "raw": "\"Trail with u flag\""
+            "value": "Trail with u flag"
           }
         ],
         "optional": false

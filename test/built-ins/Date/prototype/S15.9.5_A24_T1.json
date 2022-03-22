@@ -72,8 +72,7 @@
                 "type": "Literal",
                 "start": 372,
                 "end": 389,
-                "value": "getMilliseconds",
-                "raw": "\"getMilliseconds\""
+                "value": "getMilliseconds"
               }
             ],
             "optional": false
@@ -89,8 +88,7 @@
             "type": "Literal",
             "start": 402,
             "end": 469,
-            "value": "Date.prototype.hasOwnProperty(\"getMilliseconds\") must return true",
-            "raw": "'Date.prototype.hasOwnProperty(\"getMilliseconds\") must return true'"
+            "value": "Date.prototype.hasOwnProperty(\"getMilliseconds\") must return true"
           }
         ],
         "optional": false

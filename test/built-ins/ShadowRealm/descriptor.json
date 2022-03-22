@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 368,
             "end": 381,
-            "value": "ShadowRealm",
-            "raw": "\"ShadowRealm\""
+            "value": "ShadowRealm"
           },
           {
             "type": "ObjectExpression",

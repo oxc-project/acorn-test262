@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 365,
             "end": 422,
-            "value": "The value of delete Date.prototype.getTime is not false",
-            "raw": "'The value of delete Date.prototype.getTime is not false'"
+            "value": "The value of delete Date.prototype.getTime is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 467,
                   "end": 476,
-                  "value": "getTime",
-                  "raw": "'getTime'"
+                  "value": "getTime"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 481,
             "end": 562,
-            "value": "The value of !Date.prototype.hasOwnProperty('getTime') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'getTime\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('getTime') is expected to be true"
           }
         ],
         "optional": false

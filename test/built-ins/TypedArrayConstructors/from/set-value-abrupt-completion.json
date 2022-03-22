@@ -102,8 +102,7 @@
                 "type": "Literal",
                 "start": 696,
                 "end": 698,
-                "value": 42,
-                "raw": "42"
+                "value": 42
               },
               {
                 "type": "Identifier",
@@ -115,8 +114,7 @@
                 "type": "Literal",
                 "start": 705,
                 "end": 706,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             ]
           }
@@ -400,8 +398,7 @@
                         "type": "Literal",
                         "start": 968,
                         "end": 998,
-                        "value": "interrupted source iteration",
-                        "raw": "\"interrupted source iteration\""
+                        "value": "interrupted source iteration"
                       }
                     ],
                     "optional": false

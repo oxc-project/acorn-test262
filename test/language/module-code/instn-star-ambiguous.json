@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1166,
         "end": 1201,
-        "value": "./instn-star-ambiguous_FIXTURE.js",
-        "raw": "'./instn-star-ambiguous_FIXTURE.js'"
+        "value": "./instn-star-ambiguous_FIXTURE.js"
       }
     },
     {
@@ -51,8 +50,7 @@
               "type": "Literal",
               "start": 1211,
               "end": 1218,
-              "value": "first",
-              "raw": "'first'"
+              "value": "first"
             },
             "operator": "in",
             "right": {
@@ -66,8 +64,7 @@
             "type": "Literal",
             "start": 1226,
             "end": 1279,
-            "value": "Non-ambiguous exports from first module are present",
-            "raw": "'Non-ambiguous exports from first module are present'"
+            "value": "Non-ambiguous exports from first module are present"
           }
         ],
         "optional": false
@@ -96,8 +93,7 @@
               "type": "Literal",
               "start": 1289,
               "end": 1297,
-              "value": "second",
-              "raw": "'second'"
+              "value": "second"
             },
             "operator": "in",
             "right": {
@@ -111,8 +107,7 @@
             "type": "Literal",
             "start": 1305,
             "end": 1359,
-            "value": "Non-ambiguous exports from second module are present",
-            "raw": "'Non-ambiguous exports from second module are present'"
+            "value": "Non-ambiguous exports from second module are present"
           }
         ],
         "optional": false
@@ -154,8 +149,7 @@
               "type": "Literal",
               "start": 1379,
               "end": 1385,
-              "value": "both",
-              "raw": "'both'"
+              "value": "both"
             },
             "operator": "in",
             "right": {
@@ -176,8 +170,7 @@
             "type": "Literal",
             "start": 1400,
             "end": 1433,
-            "value": "Ambiguous export is not present",
-            "raw": "'Ambiguous export is not present'"
+            "value": "Ambiguous export is not present"
           }
         ],
         "optional": false

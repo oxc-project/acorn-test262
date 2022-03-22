@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 812,
                   "end": 813,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "kind": "init"
               },
@@ -62,8 +61,7 @@
                   "type": "Literal",
                   "start": 818,
                   "end": 819,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "kind": "init"
               }
@@ -111,8 +109,7 @@
             "type": "Literal",
             "start": 847,
             "end": 850,
-            "value": "x",
-            "raw": "\"x\""
+            "value": "x"
           },
           {
             "type": "ObjectExpression",
@@ -136,8 +133,7 @@
                   "type": "Literal",
                   "start": 861,
                   "end": 862,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "kind": "init"
               },
@@ -188,8 +184,7 @@
             "type": "Literal",
             "start": 904,
             "end": 905,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -361,8 +356,7 @@
                       "type": "Literal",
                       "start": 1016,
                       "end": 1019,
-                      "value": "a",
-                      "raw": "\"a\""
+                      "value": "a"
                     },
                     {
                       "type": "ObjectExpression",
@@ -452,8 +446,7 @@
                             "type": "Literal",
                             "start": 1100,
                             "end": 1101,
-                            "value": 3,
-                            "raw": "3"
+                            "value": 3
                           },
                           "kind": "init"
                         }
@@ -488,8 +481,7 @@
                       "type": "Literal",
                       "start": 1132,
                       "end": 1135,
-                      "value": "b",
-                      "raw": "\"b\""
+                      "value": "b"
                     },
                     {
                       "type": "ObjectExpression",
@@ -579,8 +571,7 @@
                             "type": "Literal",
                             "start": 1216,
                             "end": 1217,
-                            "value": 4,
-                            "raw": "4"
+                            "value": 4
                           },
                           "kind": "init"
                         }
@@ -620,8 +611,7 @@
                       "type": "Literal",
                       "start": 1250,
                       "end": 1251,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 }
@@ -746,15 +736,13 @@
                             "type": "Literal",
                             "start": 1313,
                             "end": 1314,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1316,
                             "end": 1338,
-                            "value": "invoked exactly once",
-                            "raw": "'invoked exactly once'"
+                            "value": "invoked exactly once"
                           }
                         ],
                         "optional": false

@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 517,
                 "end": 525,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -107,8 +106,7 @@
                     "type": "Literal",
                     "start": 556,
                     "end": 645,
-                    "value": "#0: String.prototype.toLocaleUpperCase.hasOwnProperty('length') return true. Actual: ",
-                    "raw": "'#0: String.prototype.toLocaleUpperCase.hasOwnProperty(\\'length\\') return true. Actual: '"
+                    "value": "#0: String.prototype.toLocaleUpperCase.hasOwnProperty('length') return true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -165,8 +163,7 @@
                         "type": "Literal",
                         "start": 698,
                         "end": 706,
-                        "value": "length",
-                        "raw": "'length'"
+                        "value": "length"
                       }
                     ],
                     "optional": false
@@ -237,8 +234,7 @@
             "type": "Literal",
             "start": 946,
             "end": 954,
-            "value": "length",
-            "raw": "'length'"
+            "value": "length"
           }
         ],
         "optional": false
@@ -267,8 +263,7 @@
                   "type": "Literal",
                   "start": 984,
                   "end": 1070,
-                  "value": "#1: String.prototype.toLocaleUpperCase.propertyIsEnumerable('length') return false",
-                  "raw": "'#1: String.prototype.toLocaleUpperCase.propertyIsEnumerable(\\'length\\') return false'"
+                  "value": "#1: String.prototype.toLocaleUpperCase.propertyIsEnumerable('length') return false"
                 }
               ]
             }
@@ -296,8 +291,7 @@
             "type": "Literal",
             "start": 1260,
             "end": 1261,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -383,8 +377,7 @@
                 "type": "Literal",
                 "start": 1328,
                 "end": 1336,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             },
             "consequent": {
@@ -429,8 +422,7 @@
           "type": "Literal",
           "start": 1364,
           "end": 1365,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       },
       "consequent": {
@@ -461,8 +453,7 @@
                     "type": "Literal",
                     "start": 1394,
                     "end": 1505,
-                    "value": "#2: count=0; for (p in String.prototype.toLocaleUpperCase){if (p===\"length\") count++;}; count === 0. Actual: ",
-                    "raw": "'#2: count=0; for (p in String.prototype.toLocaleUpperCase){if (p===\"length\") count++;}; count === 0. Actual: '"
+                    "value": "#2: count=0; for (p in String.prototype.toLocaleUpperCase){if (p===\"length\") count++;}; count === 0. Actual: "
                   },
                   "operator": "+",
                   "right": {

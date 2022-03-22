@@ -26,8 +26,7 @@
               "type": "Literal",
               "start": 330,
               "end": 343,
-              "value": "switch(1){}",
-              "raw": "\"switch(1){}\""
+              "value": "switch(1){}"
             }
           ],
           "optional": false
@@ -68,8 +67,7 @@
                     "type": "Literal",
                     "start": 387,
                     "end": 436,
-                    "value": "#1: eval(\"switch(1){}\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\"switch(1){}\") === undefined. Actual: '"
+                    "value": "#1: eval(\"switch(1){}\") === undefined. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -91,8 +89,7 @@
                           "type": "Literal",
                           "start": 445,
                           "end": 458,
-                          "value": "switch(1){}",
-                          "raw": "\"switch(1){}\""
+                          "value": "switch(1){}"
                         }
                       ],
                       "optional": false

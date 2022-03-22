@@ -59,8 +59,7 @@
                           "type": "Literal",
                           "start": 287,
                           "end": 289,
-                          "value": 42,
-                          "raw": "42"
+                          "value": 42
                         }
                       }
                     ]
@@ -181,8 +180,7 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 367,
-                "value": "foo",
-                "raw": "\"foo\""
+                "value": "foo"
               }
             ],
             "optional": false
@@ -198,8 +196,7 @@
             "type": "Literal",
             "start": 377,
             "end": 402,
-            "value": "o.hasOwnProperty(\"foo\")",
-            "raw": "'o.hasOwnProperty(\"foo\")'"
+            "value": "o.hasOwnProperty(\"foo\")"
           }
         ],
         "optional": false

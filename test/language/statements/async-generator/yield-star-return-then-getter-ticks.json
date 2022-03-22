@@ -27,57 +27,49 @@
                 "type": "Literal",
                 "start": 2584,
                 "end": 2591,
-                "value": "start",
-                "raw": "\"start\""
+                "value": "start"
               },
               {
                 "type": "Literal",
                 "start": 2640,
                 "end": 2648,
-                "value": "tick 1",
-                "raw": "\"tick 1\""
+                "value": "tick 1"
               },
               {
                 "type": "Literal",
                 "start": 2691,
                 "end": 2699,
-                "value": "tick 2",
-                "raw": "\"tick 2\""
+                "value": "tick 2"
               },
               {
                 "type": "Literal",
                 "start": 2757,
                 "end": 2767,
-                "value": "get then",
-                "raw": "\"get then\""
+                "value": "get then"
               },
               {
                 "type": "Literal",
                 "start": 2830,
                 "end": 2838,
-                "value": "tick 3",
-                "raw": "\"tick 3\""
+                "value": "tick 3"
               },
               {
                 "type": "Literal",
                 "start": 2878,
                 "end": 2890,
-                "value": "get return",
-                "raw": "\"get return\""
+                "value": "get return"
               },
               {
                 "type": "Literal",
                 "start": 2941,
                 "end": 2951,
-                "value": "get then",
-                "raw": "\"get then\""
+                "value": "get then"
               },
               {
                 "type": "Literal",
                 "start": 3007,
                 "end": 3015,
-                "value": "tick 4",
-                "raw": "\"tick 4\""
+                "value": "tick 4"
               }
             ]
           }
@@ -311,8 +303,7 @@
                               "type": "Literal",
                               "start": 3196,
                               "end": 3208,
-                              "value": "get return",
-                              "raw": "\"get return\""
+                              "value": "get return"
                             }
                           ],
                           "optional": false
@@ -379,8 +370,7 @@
                   "type": "Literal",
                   "start": 3255,
                   "end": 3262,
-                  "value": "start",
-                  "raw": "\"start\""
+                  "value": "start"
                 }
               ],
               "optional": false
@@ -435,8 +425,7 @@
                   "type": "Literal",
                   "start": 3299,
                   "end": 3321,
-                  "value": "stop - never reached",
-                  "raw": "\"stop - never reached\""
+                  "value": "stop - never reached"
                 }
               ],
               "optional": false
@@ -525,8 +514,7 @@
                                     "type": "Literal",
                                     "start": 3343,
                                     "end": 3344,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "value": 0
                                   }
                                 ],
                                 "optional": false
@@ -578,8 +566,7 @@
                                       "type": "Literal",
                                       "start": 3372,
                                       "end": 3380,
-                                      "value": "tick 1",
-                                      "raw": "\"tick 1\""
+                                      "value": "tick 1"
                                     }
                                   ],
                                   "optional": false
@@ -635,8 +622,7 @@
                                   "type": "Literal",
                                   "start": 3409,
                                   "end": 3417,
-                                  "value": "tick 2",
-                                  "raw": "\"tick 2\""
+                                  "value": "tick 2"
                                 }
                               ],
                               "optional": false
@@ -692,8 +678,7 @@
                               "type": "Literal",
                               "start": 3446,
                               "end": 3454,
-                              "value": "tick 3",
-                              "raw": "\"tick 3\""
+                              "value": "tick 3"
                             }
                           ],
                           "optional": false
@@ -749,8 +734,7 @@
                           "type": "Literal",
                           "start": 3483,
                           "end": 3491,
-                          "value": "tick 4",
-                          "raw": "\"tick 4\""
+                          "value": "tick 4"
                         }
                       ],
                       "optional": false
@@ -827,8 +811,7 @@
                             "type": "Literal",
                             "start": 3552,
                             "end": 3591,
-                            "value": "Ticks for return with thenable getter",
-                            "raw": "\"Ticks for return with thenable getter\""
+                            "value": "Ticks for return with thenable getter"
                           }
                         ],
                         "optional": false
@@ -1022,8 +1005,7 @@
                               "type": "Literal",
                               "start": 3747,
                               "end": 3757,
-                              "value": "get then",
-                              "raw": "\"get then\""
+                              "value": "get then"
                             }
                           ],
                           "optional": false

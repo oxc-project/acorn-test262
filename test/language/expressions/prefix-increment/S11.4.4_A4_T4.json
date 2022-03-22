@@ -95,8 +95,7 @@
                     "type": "Literal",
                     "start": 321,
                     "end": 364,
-                    "value": "#1: var x; ++x === Not-a-Number. Actual: ",
-                    "raw": "'#1: var x; ++x === Not-a-Number. Actual: '"
+                    "value": "#1: var x; ++x === Not-a-Number. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -177,8 +176,7 @@
           "type": "Literal",
           "start": 414,
           "end": 415,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "consequent": {
@@ -209,8 +207,7 @@
                     "type": "Literal",
                     "start": 444,
                     "end": 483,
-                    "value": "#2: var x = null; ++x === 1. Actual: ",
-                    "raw": "'#2: var x = null; ++x === 1. Actual: '"
+                    "value": "#2: var x = null; ++x === 1. Actual: "
                   },
                   "operator": "+",
                   "right": {

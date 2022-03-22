@@ -34,8 +34,7 @@
           "type": "Literal",
           "start": 408,
           "end": 419,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -66,8 +65,7 @@
                     "type": "Literal",
                     "start": 449,
                     "end": 494,
-                    "value": "#1: typeof(__ref) === \"undefined\". Actual: ",
-                    "raw": "'#1: typeof(__ref) === \"undefined\". Actual: '"
+                    "value": "#1: typeof(__ref) === \"undefined\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -191,8 +189,7 @@
           "type": "Literal",
           "start": 750,
           "end": 761,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -219,8 +216,7 @@
                   "type": "Literal",
                   "start": 791,
                   "end": 859,
-                  "value": "#2: obj = new Object(); __ref = obj; typeof(__ref) !== \"undefined\"",
-                  "raw": "'#2: obj = new Object(); __ref = obj; typeof(__ref) !== \"undefined\"'"
+                  "value": "#2: obj = new Object(); __ref = obj; typeof(__ref) !== \"undefined\""
                 }
               ]
             }
@@ -292,8 +288,7 @@
                     "type": "Literal",
                     "start": 1092,
                     "end": 1162,
-                    "value": "#3: obj = new Object(); __ref = obj; delete __ref === true. Actual: ",
-                    "raw": "'#3: obj = new Object(); __ref = obj; delete __ref === true. Actual: '"
+                    "value": "#3: obj = new Object(); __ref = obj; delete __ref === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -358,8 +353,7 @@
           "type": "Literal",
           "start": 1379,
           "end": 1390,
-          "value": "undefined",
-          "raw": "\"undefined\""
+          "value": "undefined"
         }
       },
       "consequent": {
@@ -390,8 +384,7 @@
                     "type": "Literal",
                     "start": 1420,
                     "end": 1512,
-                    "value": "#4: obj = new Object(); __ref = obj; delete __ref; typeof(__ref) === \"undefined\". Actual: ",
-                    "raw": "'#4: obj = new Object(); __ref = obj; delete __ref; typeof(__ref) === \"undefined\". Actual: '"
+                    "value": "#4: obj = new Object(); __ref = obj; delete __ref; typeof(__ref) === \"undefined\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -461,8 +454,7 @@
           "type": "Literal",
           "start": 1728,
           "end": 1736,
-          "value": "object",
-          "raw": "\"object\""
+          "value": "object"
         }
       },
       "consequent": {
@@ -493,8 +485,7 @@
                     "type": "Literal",
                     "start": 1766,
                     "end": 1853,
-                    "value": "#5: obj = new Object(); __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: ",
-                    "raw": "'#5: obj = new Object(); __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: '"
+                    "value": "#5: obj = new Object(); __ref = obj; delete __ref; typeof(obj) === \"object\". Actual: "
                   },
                   "operator": "+",
                   "right": {

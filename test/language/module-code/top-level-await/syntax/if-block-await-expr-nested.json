@@ -87,8 +87,7 @@
                                             "type": "Literal",
                                             "start": 1419,
                                             "end": 1426,
-                                            "value": "await",
-                                            "raw": "'await'"
+                                            "value": "await"
                                           }
                                         }
                                       }

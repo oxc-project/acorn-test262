@@ -70,8 +70,7 @@
                         "type": "Literal",
                         "start": 1505,
                         "end": 1518,
-                        "value": "super[\"x\"];",
-                        "raw": "'super[\"x\"];'"
+                        "value": "super[\"x\"];"
                       }
                     ],
                     "optional": false
@@ -188,8 +187,7 @@
             "type": "Literal",
             "start": 1602,
             "end": 1610,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false

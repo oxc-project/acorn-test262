@@ -20,13 +20,13 @@
         "end": 1838,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1763,
-            "end": 1778,
+            "end": 1777,
             "static": true,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1770,
               "end": 1772,
               "name": "m"
@@ -35,8 +35,7 @@
               "type": "Literal",
               "start": 1775,
               "end": 1777,
-              "value": 44,
-              "raw": "44"
+              "value": 44
             }
           },
           {
@@ -85,8 +84,7 @@
                           "type": "Literal",
                           "start": 1821,
                           "end": 1830,
-                          "value": "this.#m",
-                          "raw": "\"this.#m\""
+                          "value": "this.#m"
                         }
                       ],
                       "optional": false
@@ -116,13 +114,13 @@
         "end": 1869,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1852,
-            "end": 1867,
+            "end": 1866,
             "static": true,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1859,
               "end": 1861,
               "name": "m"
@@ -131,8 +129,7 @@
               "type": "Literal",
               "start": 1864,
               "end": 1866,
-              "value": 44,
-              "raw": "44"
+              "value": 44
             }
           }
         ]
@@ -196,8 +193,7 @@
             "type": "Literal",
             "start": 1905,
             "end": 1907,
-            "value": 44,
-            "raw": "44"
+            "value": 44
           }
         ],
         "optional": false
@@ -309,8 +305,7 @@
             "type": "Literal",
             "start": 1977,
             "end": 2012,
-            "value": "invalid access to a private field",
-            "raw": "\"invalid access to a private field\""
+            "value": "invalid access to a private field"
           }
         ],
         "optional": false

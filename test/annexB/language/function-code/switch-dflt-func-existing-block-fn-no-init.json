@@ -108,8 +108,7 @@
                     "type": "Literal",
                     "start": 642,
                     "end": 643,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   },
                   "cases": [
                     {

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 795,
             "end": 796,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -108,8 +107,7 @@
                             "type": "Literal",
                             "start": 876,
                             "end": 905,
-                            "value": "target should not be called",
-                            "raw": "'target should not be called'"
+                            "value": "target should not be called"
                           }
                         ]
                       }
@@ -187,8 +185,7 @@
                                 "type": "Literal",
                                 "start": 976,
                                 "end": 977,
-                                "value": 1,
-                                "raw": "1"
+                                "value": 1
                               }
                             }
                           },
@@ -255,8 +252,7 @@
                                         "type": "Literal",
                                         "start": 1036,
                                         "end": 1037,
-                                        "value": 0,
-                                        "raw": "0"
+                                        "value": 0
                                       },
                                       "computed": true,
                                       "optional": false
@@ -276,8 +272,7 @@
                                         "type": "Literal",
                                         "start": 1046,
                                         "end": 1047,
-                                        "value": 1,
-                                        "raw": "1"
+                                        "value": 1
                                       },
                                       "computed": true,
                                       "optional": false
@@ -456,15 +451,13 @@
                     "type": "Literal",
                     "start": 1185,
                     "end": 1186,
-                    "value": 3,
-                    "raw": "3"
+                    "value": 3
                   },
                   {
                     "type": "Literal",
                     "start": 1188,
                     "end": 1189,
-                    "value": 4,
-                    "raw": "4"
+                    "value": 4
                   }
                 ]
               },
@@ -519,15 +512,13 @@
             "type": "Literal",
             "start": 1229,
             "end": 1230,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1232,
             "end": 1287,
-            "value": "construct is undefined: [[Construct]] is invoked once",
-            "raw": "\"construct is undefined: [[Construct]] is invoked once\""
+            "value": "construct is undefined: [[Construct]] is invoked once"
           }
         ],
         "optional": false
@@ -577,8 +568,7 @@
             "type": "Literal",
             "start": 1330,
             "end": 1392,
-            "value": "construct is undefined: NewTarget is passed to [[Construct]]",
-            "raw": "\"construct is undefined: NewTarget is passed to [[Construct]]\""
+            "value": "construct is undefined: NewTarget is passed to [[Construct]]"
           }
         ],
         "optional": false
@@ -635,15 +625,13 @@
             "type": "Literal",
             "start": 1421,
             "end": 1422,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 1424,
             "end": 1485,
-            "value": "construct is undefined: result of [[Construct]] is returned",
-            "raw": "\"construct is undefined: result of [[Construct]] is returned\""
+            "value": "construct is undefined: result of [[Construct]] is returned"
           }
         ],
         "optional": false

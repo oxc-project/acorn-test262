@@ -44,7 +44,6 @@
                 "start": 771,
                 "end": 775,
                 "value": {},
-                "raw": "/b/y",
                 "regex": {
                   "pattern": "b",
                   "flags": "y"
@@ -64,8 +63,7 @@
                 "type": "Literal",
                 "start": 781,
                 "end": 785,
-                "value": "ab",
-                "raw": "'ab'"
+                "value": "ab"
               }
             ],
             "optional": false

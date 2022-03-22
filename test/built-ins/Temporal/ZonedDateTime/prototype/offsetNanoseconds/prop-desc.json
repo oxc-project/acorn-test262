@@ -78,8 +78,7 @@
                 "type": "Literal",
                 "start": 394,
                 "end": 413,
-                "value": "offsetNanoseconds",
-                "raw": "\"offsetNanoseconds\""
+                "value": "offsetNanoseconds"
               }
             ],
             "optional": false
@@ -146,8 +145,7 @@
             "type": "Literal",
             "start": 456,
             "end": 466,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           }
         ],
         "optional": false

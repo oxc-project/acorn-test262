@@ -204,8 +204,7 @@
             "type": "Literal",
             "start": 820,
             "end": 878,
-            "value": "The prototype of [].values() is %ArrayIteratorPrototype%",
-            "raw": "'The prototype of [].values() is %ArrayIteratorPrototype%'"
+            "value": "The prototype of [].values() is %ArrayIteratorPrototype%"
           }
         ],
         "optional": false

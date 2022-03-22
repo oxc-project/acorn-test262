@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 298,
             "end": 343,
-            "value": "parseInt(new Boolean(true)) must return NaN",
-            "raw": "'parseInt(new Boolean(true)) must return NaN'"
+            "value": "parseInt(new Boolean(true)) must return NaN"
           }
         ],
         "optional": false
@@ -154,8 +153,7 @@
             "type": "Literal",
             "start": 398,
             "end": 444,
-            "value": "parseInt(new Boolean(false)) must return NaN",
-            "raw": "'parseInt(new Boolean(false)) must return NaN'"
+            "value": "parseInt(new Boolean(false)) must return NaN"
           }
         ],
         "optional": false

@@ -39,8 +39,7 @@
                   "type": "Literal",
                   "start": 1758,
                   "end": 1797,
-                  "value": "./instn-iee-err-circular-1_FIXTURE.js",
-                  "raw": "'./instn-iee-err-circular-1_FIXTURE.js'"
+                  "value": "./instn-iee-err-circular-1_FIXTURE.js"
                 }
               }
             }
@@ -164,8 +163,7 @@
                             "type": "Literal",
                             "start": 1854,
                             "end": 1867,
-                            "value": "SyntaxError",
-                            "raw": "'SyntaxError'"
+                            "value": "SyntaxError"
                           }
                         ],
                         "optional": false

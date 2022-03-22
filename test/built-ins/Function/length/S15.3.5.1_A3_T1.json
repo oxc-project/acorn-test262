@@ -33,15 +33,13 @@
                 "type": "Literal",
                 "start": 394,
                 "end": 410,
-                "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "value": "arg1,arg2,arg3"
               },
               {
                 "type": "Literal",
                 "start": 412,
                 "end": 423,
-                "value": "arg4,arg5",
-                "raw": "\"arg4,arg5\""
+                "value": "arg4,arg5"
               },
               {
                 "type": "Literal",
@@ -99,8 +97,7 @@
                 "type": "Literal",
                 "start": 457,
                 "end": 465,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -172,8 +169,7 @@
             "type": "Literal",
             "start": 516,
             "end": 524,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -318,8 +314,7 @@
                   "type": "Literal",
                   "start": 632,
                   "end": 694,
-                  "value": "#3: the function.length property has the attributes ReadOnly",
-                  "raw": "'#3: the function.length property has the attributes ReadOnly'"
+                  "value": "#3: the function.length property has the attributes ReadOnly"
                 }
               ]
             }
@@ -420,8 +415,7 @@
           "type": "Literal",
           "start": 783,
           "end": 784,
-          "value": 5,
-          "raw": "5"
+          "value": 5
         }
       },
       "consequent": {
@@ -448,8 +442,7 @@
                   "type": "Literal",
                   "start": 813,
                   "end": 870,
-                  "value": "#4: the length property has the attributes { ReadOnly }",
-                  "raw": "'#4: the length property has the attributes { ReadOnly }'"
+                  "value": "#4: the length property has the attributes { ReadOnly }"
                 }
               ]
             }

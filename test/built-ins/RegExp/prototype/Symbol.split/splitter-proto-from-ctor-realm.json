@@ -141,8 +141,7 @@
                 "type": "Literal",
                 "start": 761,
                 "end": 789,
-                "value": "shared = this; return /./;",
-                "raw": "'shared = this; return /./;'"
+                "value": "shared = this; return /./;"
               }
             ]
           }
@@ -207,7 +206,6 @@
             "start": 821,
             "end": 824,
             "value": {},
-            "raw": "/./",
             "regex": {
               "pattern": ".",
               "flags": ""

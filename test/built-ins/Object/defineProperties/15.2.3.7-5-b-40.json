@@ -128,8 +128,7 @@
                         "type": "Literal",
                         "start": 396,
                         "end": 398,
-                        "value": 12,
-                        "raw": "12"
+                        "value": 12
                       },
                       "kind": "init"
                     }
@@ -197,8 +196,7 @@
                 "type": "Literal",
                 "start": 454,
                 "end": 460,
-                "value": "prop",
-                "raw": "\"prop\""
+                "value": "prop"
               }
             },
             "consequent": {
@@ -262,8 +260,7 @@
             "type": "Literal",
             "start": 509,
             "end": 528,
-            "value": "accessed !== true",
-            "raw": "'accessed !== true'"
+            "value": "accessed !== true"
           }
         ],
         "optional": false

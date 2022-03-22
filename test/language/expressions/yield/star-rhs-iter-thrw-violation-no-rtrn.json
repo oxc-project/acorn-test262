@@ -47,8 +47,7 @@
             "type": "Literal",
             "start": 1722,
             "end": 1723,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -73,8 +72,7 @@
             "type": "Literal",
             "start": 1743,
             "end": 1744,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -210,8 +208,7 @@
             "type": "Literal",
             "start": 1853,
             "end": 1860,
-            "value": "throw",
-            "raw": "'throw'"
+            "value": "throw"
           },
           {
             "type": "ObjectExpression",
@@ -264,8 +261,7 @@
                             "type": "Literal",
                             "start": 1902,
                             "end": 1903,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -318,8 +314,7 @@
             "type": "Literal",
             "start": 1946,
             "end": 1954,
-            "value": "return",
-            "raw": "'return'"
+            "value": "return"
           },
           {
             "type": "ObjectExpression",
@@ -372,8 +367,7 @@
                             "type": "Literal",
                             "start": 1997,
                             "end": 1998,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         }
                       }
@@ -704,15 +698,13 @@
             "type": "Literal",
             "start": 2244,
             "end": 2245,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2247,
             "end": 2272,
-            "value": "`throw` property access",
-            "raw": "'`throw` property access'"
+            "value": "`throw` property access"
           }
         ],
         "optional": false
@@ -756,15 +748,13 @@
             "type": "Literal",
             "start": 2305,
             "end": 2306,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2308,
             "end": 2334,
-            "value": "`return` property access",
-            "raw": "'`return` property access'"
+            "value": "`return` property access"
           }
         ],
         "optional": false
@@ -815,8 +805,7 @@
             "type": "Literal",
             "start": 2369,
             "end": 2377,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false

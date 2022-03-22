@@ -48,8 +48,7 @@
                 "type": "Literal",
                 "start": 346,
                 "end": 347,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           },
@@ -77,8 +76,7 @@
                   "type": "Literal",
                   "start": 368,
                   "end": 369,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -107,8 +105,7 @@
                   "type": "Literal",
                   "start": 388,
                   "end": 389,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "computed": true,
                 "optional": false
@@ -145,8 +142,7 @@
                         "type": "Literal",
                         "start": 435,
                         "end": 469,
-                        "value": "#1.1: arguments[0] === undefined",
-                        "raw": "'#1.1: arguments[0] === undefined'"
+                        "value": "#1.1: arguments[0] === undefined"
                       }
                     ]
                   }
@@ -192,8 +188,7 @@
               "type": "Literal",
               "start": 595,
               "end": 596,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             }
           ],
           "optional": false
@@ -203,8 +198,7 @@
           "type": "Literal",
           "start": 602,
           "end": 603,
-          "value": 2,
-          "raw": "2"
+          "value": 2
         }
       },
       "consequent": {
@@ -235,8 +229,7 @@
                     "type": "Literal",
                     "start": 631,
                     "end": 677,
-                    "value": "#1.2: __func(1) === 2. Actual: __func(1) ===",
-                    "raw": "'#1.2: __func(1) === 2. Actual: __func(1) ==='"
+                    "value": "#1.2: __func(1) === 2. Actual: __func(1) ==="
                   },
                   "operator": "+",
                   "right": {
@@ -254,8 +247,7 @@
                         "type": "Literal",
                         "start": 685,
                         "end": 686,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     ],
                     "optional": false

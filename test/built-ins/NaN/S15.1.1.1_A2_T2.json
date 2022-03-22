@@ -77,15 +77,13 @@
             "type": "Literal",
             "start": 304,
             "end": 313,
-            "value": "boolean",
-            "raw": "\"boolean\""
+            "value": "boolean"
           },
           {
             "type": "Literal",
             "start": 315,
             "end": 358,
-            "value": "The value of typeof(NaN) is not \"boolean\"",
-            "raw": "'The value of typeof(NaN) is not \"boolean\"'"
+            "value": "The value of typeof(NaN) is not \"boolean\""
           }
         ],
         "optional": false

@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 642,
             "end": 653,
-            "value": "findIndex",
-            "raw": "'findIndex'"
+            "value": "findIndex"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
             "type": "Literal",
             "start": 692,
             "end": 703,
-            "value": "findIndex",
-            "raw": "'findIndex'"
+            "value": "findIndex"
           }
         ],
         "optional": false
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 746,
             "end": 757,
-            "value": "findIndex",
-            "raw": "'findIndex'"
+            "value": "findIndex"
           }
         ],
         "optional": false

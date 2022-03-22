@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 381,
                 "end": 394,
-                "value": "return this",
-                "raw": "\"return this\""
+                "value": "return this"
               }
             ]
           }
@@ -98,8 +97,7 @@
                     "type": "Literal",
                     "start": 451,
                     "end": 534,
-                    "value": "#1: var MyFunction = new Function(\"return this\"); MyFunction() === this. Actual: ",
-                    "raw": "'#1: var MyFunction = new Function(\"return this\"); MyFunction() === this. Actual: '"
+                    "value": "#1: var MyFunction = new Function(\"return this\"); MyFunction() === this. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -158,8 +156,7 @@
               "type": "Literal",
               "start": 593,
               "end": 616,
-              "value": "return eval('this')",
-              "raw": "\"return eval(\\'this\\')\""
+              "value": "return eval('this')"
             }
           ]
         }
@@ -221,8 +218,7 @@
                     "type": "Literal",
                     "start": 673,
                     "end": 766,
-                    "value": "#2: var MyFunction = new Function(\"return eval('this')\"); MyFunction() === this. Actual: ",
-                    "raw": "'#2: var MyFunction = new Function(\"return eval(\\'this\\')\"); MyFunction() === this. Actual: '"
+                    "value": "#2: var MyFunction = new Function(\"return eval('this')\"); MyFunction() === this. Actual: "
                   },
                   "operator": "+",
                   "right": {

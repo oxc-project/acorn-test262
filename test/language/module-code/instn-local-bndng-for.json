@@ -79,8 +79,7 @@
             "type": "Literal",
             "start": 910,
             "end": 947,
-            "value": "value is initialized to `undefined`",
-            "raw": "'value is initialized to `undefined`'"
+            "value": "value is initialized to `undefined`"
           }
         ],
         "optional": false
@@ -148,8 +147,7 @@
                 "type": "Literal",
                 "start": 1010,
                 "end": 1019,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -254,8 +252,7 @@
             "type": "Literal",
             "start": 1106,
             "end": 1126,
-            "value": "binding is mutable",
-            "raw": "'binding is mutable'"
+            "value": "binding is mutable"
           }
         ],
         "optional": false
@@ -323,8 +320,7 @@
                 "type": "Literal",
                 "start": 1189,
                 "end": 1198,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -339,8 +335,7 @@
             "type": "Literal",
             "start": 1216,
             "end": 1277,
-            "value": "global binding is not effected by evaluation of declaration",
-            "raw": "'global binding is not effected by evaluation of declaration'"
+            "value": "global binding is not effected by evaluation of declaration"
           }
         ],
         "optional": false

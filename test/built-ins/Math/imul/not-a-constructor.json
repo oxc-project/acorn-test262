@@ -75,8 +75,7 @@
             "type": "Literal",
             "start": 731,
             "end": 775,
-            "value": "isConstructor(Math.imul) must return false",
-            "raw": "'isConstructor(Math.imul) must return false'"
+            "value": "isConstructor(Math.imul) must return false"
           }
         ],
         "optional": false
@@ -167,8 +166,7 @@
             "type": "Literal",
             "start": 834,
             "end": 870,
-            "value": "`new Math.imul()` throws TypeError",
-            "raw": "'`new Math.imul()` throws TypeError'"
+            "value": "`new Math.imul()` throws TypeError"
           }
         ],
         "optional": false

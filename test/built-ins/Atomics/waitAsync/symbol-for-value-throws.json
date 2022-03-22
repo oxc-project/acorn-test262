@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 727,
             "end": 737,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 739,
             "end": 794,
-            "value": "The value of `typeof Atomics.waitAsync` is \"function\"",
-            "raw": "'The value of `typeof Atomics.waitAsync` is \"function\"'"
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
           }
         ],
         "optional": false
@@ -140,8 +138,7 @@
                       "type": "Literal",
                       "start": 881,
                       "end": 882,
-                      "value": 4,
-                      "raw": "4"
+                      "value": 4
                     }
                   }
                 ]
@@ -219,8 +216,7 @@
                               "type": "Literal",
                               "start": 955,
                               "end": 986,
-                              "value": "should not evaluate this code",
-                              "raw": "'should not evaluate this code'"
+                              "value": "should not evaluate this code"
                             }
                           ]
                         }
@@ -315,8 +311,7 @@
                               "type": "Literal",
                               "start": 1081,
                               "end": 1128,
-                              "value": "passing a poisoned object using @@ToPrimitive",
-                              "raw": "\"passing a poisoned object using @@ToPrimitive\""
+                              "value": "passing a poisoned object using @@ToPrimitive"
                             }
                           ]
                         }
@@ -417,8 +412,7 @@
                         "type": "Literal",
                         "start": 1206,
                         "end": 1207,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Identifier",
@@ -443,8 +437,7 @@
             "type": "Literal",
             "start": 1247,
             "end": 1343,
-            "value": "`Atomics.waitAsync(i32a, 0, poisonedValueOf, poisonedValueOf)` throws a Test262Error exception",
-            "raw": "'`Atomics.waitAsync(i32a, 0, poisonedValueOf, poisonedValueOf)` throws a Test262Error exception'"
+            "value": "`Atomics.waitAsync(i32a, 0, poisonedValueOf, poisonedValueOf)` throws a Test262Error exception"
           }
         ],
         "optional": false
@@ -536,8 +529,7 @@
                         "type": "Literal",
                         "start": 1414,
                         "end": 1415,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Identifier",
@@ -562,8 +554,7 @@
             "type": "Literal",
             "start": 1463,
             "end": 1567,
-            "value": "`Atomics.waitAsync(i32a, 0, poisonedToPrimitive, poisonedToPrimitive)` throws a Test262Error exception",
-            "raw": "'`Atomics.waitAsync(i32a, 0, poisonedToPrimitive, poisonedToPrimitive)` throws a Test262Error exception'"
+            "value": "`Atomics.waitAsync(i32a, 0, poisonedToPrimitive, poisonedToPrimitive)` throws a Test262Error exception"
           }
         ],
         "optional": false
@@ -655,8 +646,7 @@
                         "type": "Literal",
                         "start": 1635,
                         "end": 1636,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "CallExpression",
@@ -673,8 +663,7 @@
                             "type": "Literal",
                             "start": 1645,
                             "end": 1650,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -696,8 +685,7 @@
             "type": "Literal",
             "start": 1674,
             "end": 1765,
-            "value": "`Atomics.waitAsync(i32a, 0, Symbol(\"foo\"), poisonedValueOf)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(i32a, 0, Symbol(\"foo\"), poisonedValueOf)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(i32a, 0, Symbol(\"foo\"), poisonedValueOf)` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -789,8 +777,7 @@
                         "type": "Literal",
                         "start": 1833,
                         "end": 1834,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "CallExpression",
@@ -807,8 +794,7 @@
                             "type": "Literal",
                             "start": 1843,
                             "end": 1848,
-                            "value": "foo",
-                            "raw": "\"foo\""
+                            "value": "foo"
                           }
                         ],
                         "optional": false
@@ -830,8 +816,7 @@
             "type": "Literal",
             "start": 1876,
             "end": 1971,
-            "value": "`Atomics.waitAsync(i32a, 0, Symbol(\"foo\"), poisonedToPrimitive)` throws a TypeError exception",
-            "raw": "'`Atomics.waitAsync(i32a, 0, Symbol(\"foo\"), poisonedToPrimitive)` throws a TypeError exception'"
+            "value": "`Atomics.waitAsync(i32a, 0, Symbol(\"foo\"), poisonedToPrimitive)` throws a TypeError exception"
           }
         ],
         "optional": false

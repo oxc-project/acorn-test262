@@ -213,8 +213,7 @@
                 "type": "Literal",
                 "start": 414,
                 "end": 471,
-                "value": "Promise.race should not see this if P1 already resolved",
-                "raw": "\"Promise.race should not see this if P1 already resolved\""
+                "value": "Promise.race should not see this if P1 already resolved"
               }
             ]
           }
@@ -241,8 +240,7 @@
             "type": "Literal",
             "start": 485,
             "end": 486,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           }
         ],
         "optional": false
@@ -383,15 +381,13 @@
                             "type": "Literal",
                             "start": 564,
                             "end": 565,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 567,
                             "end": 608,
-                            "value": "The value of result is expected to be 1",
-                            "raw": "'The value of result is expected to be 1'"
+                            "value": "The value of result is expected to be 1"
                           }
                         ],
                         "optional": false

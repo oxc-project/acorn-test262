@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 756,
             "end": 772,
-            "value": "string literal",
-            "raw": "'string literal'"
+            "value": "string literal"
           }
         }
       ],

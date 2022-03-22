@@ -48,8 +48,7 @@
             "type": "Literal",
             "start": 597,
             "end": 607,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           }
         ],
         "optional": false
@@ -79,8 +78,7 @@
             "type": "Literal",
             "start": 632,
             "end": 648,
-            "value": "AggregateError",
-            "raw": "'AggregateError'"
+            "value": "AggregateError"
           },
           {
             "type": "ObjectExpression",

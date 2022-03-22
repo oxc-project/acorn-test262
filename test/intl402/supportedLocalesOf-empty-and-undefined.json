@@ -213,8 +213,7 @@
                         "type": "Literal",
                         "start": 595,
                         "end": 661,
-                        "value": "Supported locales differ between undefined and empty list input.",
-                        "raw": "\"Supported locales differ between undefined and empty list input.\""
+                        "value": "Supported locales differ between undefined and empty list input."
                       }
                     ],
                     "optional": false
@@ -271,15 +270,13 @@
                         "type": "Literal",
                         "start": 804,
                         "end": 805,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       {
                         "type": "Literal",
                         "start": 807,
                         "end": 873,
-                        "value": "Internal test error: Assumption about length being 0 is invalid.",
-                        "raw": "\"Internal test error: Assumption about length being 0 is invalid.\""
+                        "value": "Internal test error: Assumption about length being 0 is invalid."
                       }
                     ],
                     "optional": false

@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 749,
             "end": 760,
-            "value": "prototype",
-            "raw": "\"prototype\""
+            "value": "prototype"
           }
         }
       ],
@@ -94,9 +93,9 @@
                     "end": 837,
                     "body": [
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 817,
-                        "end": 833,
+                        "end": 832,
                         "static": true,
                         "computed": true,
                         "key": {
@@ -109,8 +108,7 @@
                           "type": "Literal",
                           "start": 830,
                           "end": 832,
-                          "value": 42,
-                          "raw": "42"
+                          "value": 42
                         }
                       }
                     ]
@@ -188,9 +186,9 @@
                     "end": 912,
                     "body": [
                       {
-                        "type": "PropertyDefinition",
+                        "type": "FieldDefinition",
                         "start": 897,
-                        "end": 908,
+                        "end": 907,
                         "static": true,
                         "computed": true,
                         "key": {

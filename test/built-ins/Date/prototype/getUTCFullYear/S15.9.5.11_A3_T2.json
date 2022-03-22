@@ -94,8 +94,7 @@
             "type": "Literal",
             "start": 423,
             "end": 506,
-            "value": "The value of `delete Date.prototype.getUTCFullYear.length` is expected to be true",
-            "raw": "'The value of `delete Date.prototype.getUTCFullYear.length` is expected to be true'"
+            "value": "The value of `delete Date.prototype.getUTCFullYear.length` is expected to be true"
           }
         ],
         "optional": false
@@ -176,8 +175,7 @@
                   "type": "Literal",
                   "start": 567,
                   "end": 575,
-                  "value": "length",
-                  "raw": "'length'"
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -187,8 +185,7 @@
             "type": "Literal",
             "start": 580,
             "end": 675,
-            "value": "The value of !Date.prototype.getUTCFullYear.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !Date.prototype.getUTCFullYear.hasOwnProperty(\\'length\\') is expected to be true'"
+            "value": "The value of !Date.prototype.getUTCFullYear.hasOwnProperty('length') is expected to be true"
           }
         ],
         "optional": false

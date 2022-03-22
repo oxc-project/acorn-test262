@@ -67,15 +67,13 @@
             "type": "Literal",
             "start": 774,
             "end": 782,
-            "value": "assign",
-            "raw": "'assign'"
+            "value": "assign"
           },
           {
             "type": "Literal",
             "start": 786,
             "end": 835,
-            "value": "The value of `Object.assign.name` is `\"assign\"`",
-            "raw": "'The value of `Object.assign.name` is `\"assign\"`'"
+            "value": "The value of `Object.assign.name` is `\"assign\"`"
           }
         ],
         "optional": false
@@ -119,8 +117,7 @@
             "type": "Literal",
             "start": 875,
             "end": 881,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -164,8 +161,7 @@
             "type": "Literal",
             "start": 917,
             "end": 923,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false
@@ -209,8 +205,7 @@
             "type": "Literal",
             "start": 960,
             "end": 966,
-            "value": "name",
-            "raw": "'name'"
+            "value": "name"
           }
         ],
         "optional": false

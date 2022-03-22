@@ -80,8 +80,7 @@
             "type": "Literal",
             "start": 773,
             "end": 787,
-            "value": "toTimeString",
-            "raw": "\"toTimeString\""
+            "value": "toTimeString"
           }
         ],
         "optional": false
@@ -138,8 +137,7 @@
             "type": "Literal",
             "start": 840,
             "end": 846,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -196,8 +194,7 @@
             "type": "Literal",
             "start": 896,
             "end": 902,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -254,8 +251,7 @@
             "type": "Literal",
             "start": 953,
             "end": 959,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

@@ -138,8 +138,7 @@
                   "type": "Literal",
                   "start": 363,
                   "end": 364,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 }
               ],
               "optional": false

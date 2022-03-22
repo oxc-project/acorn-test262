@@ -31,7 +31,6 @@
                 "start": 732,
                 "end": 769,
                 "value": {},
-                "raw": "/([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)/",
                 "regex": {
                   "pattern": "([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)",
                   "flags": ""
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 775,
                 "end": 850,
-                "value": "Developing with JavaScript is dangerous, do not try it without assistance",
-                "raw": "\"Developing with JavaScript is dangerous, do not try it without assistance\""
+                "value": "Developing with JavaScript is dangerous, do not try it without assistance"
               }
             ],
             "optional": false
@@ -93,8 +91,7 @@
             "type": "Literal",
             "start": 874,
             "end": 923,
-            "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "value": "The value of !__executed is expected to be true"
           }
         ],
         "optional": false

@@ -33,22 +33,19 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 417,
-                "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "value": "arg1,arg2,arg3"
               },
               {
                 "type": "Literal",
                 "start": 419,
                 "end": 430,
-                "value": "arg1,arg2",
-                "raw": "\"arg1,arg2\""
+                "value": "arg1,arg2"
               },
               {
                 "type": "Literal",
                 "start": 432,
                 "end": 438,
-                "value": "arg3",
-                "raw": "\"arg3\""
+                "value": "arg3"
               },
               {
                 "type": "Literal",
@@ -106,8 +103,7 @@
                 "type": "Literal",
                 "start": 472,
                 "end": 480,
-                "value": "length",
-                "raw": "'length'"
+                "value": "length"
               }
             ],
             "optional": false
@@ -179,8 +175,7 @@
             "type": "Literal",
             "start": 531,
             "end": 539,
-            "value": "length",
-            "raw": "\"length\""
+            "value": "length"
           },
           {
             "type": "Literal",
@@ -325,8 +320,7 @@
                   "type": "Literal",
                   "start": 647,
                   "end": 709,
-                  "value": "#3: the function.length property has the attributes ReadOnly",
-                  "raw": "'#3: the function.length property has the attributes ReadOnly'"
+                  "value": "#3: the function.length property has the attributes ReadOnly"
                 }
               ]
             }
@@ -427,8 +421,7 @@
           "type": "Literal",
           "start": 798,
           "end": 799,
-          "value": 6,
-          "raw": "6"
+          "value": 6
         }
       },
       "consequent": {
@@ -455,8 +448,7 @@
                   "type": "Literal",
                   "start": 828,
                   "end": 885,
-                  "value": "#4: the length property has the attributes { ReadOnly }",
-                  "raw": "'#4: the length property has the attributes { ReadOnly }'"
+                  "value": "#4: the length property has the attributes { ReadOnly }"
                 }
               ]
             }

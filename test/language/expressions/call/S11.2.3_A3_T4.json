@@ -53,8 +53,7 @@
                     "type": "Literal",
                     "start": 320,
                     "end": 365,
-                    "value": "#1.1: undefined() throw TypeError. Actual: ",
-                    "raw": "'#1.1: undefined() throw TypeError. Actual: '"
+                    "value": "#1.1: undefined() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -157,8 +156,7 @@
                             "type": "Literal",
                             "start": 459,
                             "end": 504,
-                            "value": "#1.2: undefined() throw TypeError. Actual: ",
-                            "raw": "'#1.2: undefined() throw TypeError. Actual: '"
+                            "value": "#1.2: undefined() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {
@@ -260,8 +258,7 @@
                     "type": "Literal",
                     "start": 592,
                     "end": 648,
-                    "value": "#2.1: var x = undefined; x() throw TypeError. Actual: ",
-                    "raw": "'#2.1: var x = undefined; x() throw TypeError. Actual: '"
+                    "value": "#2.1: var x = undefined; x() throw TypeError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -364,8 +361,7 @@
                             "type": "Literal",
                             "start": 742,
                             "end": 798,
-                            "value": "#2.2: var x = undefined; x() throw TypeError. Actual: ",
-                            "raw": "'#2.2: var x = undefined; x() throw TypeError. Actual: '"
+                            "value": "#2.2: var x = undefined; x() throw TypeError. Actual: "
                           },
                           "operator": "+",
                           "right": {

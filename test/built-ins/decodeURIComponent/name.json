@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 781,
             "end": 801,
-            "value": "decodeURIComponent",
-            "raw": "\"decodeURIComponent\""
+            "value": "decodeURIComponent"
           }
         ],
         "optional": false
@@ -86,8 +85,7 @@
             "type": "Literal",
             "start": 845,
             "end": 851,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -118,8 +116,7 @@
             "type": "Literal",
             "start": 892,
             "end": 898,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false
@@ -150,8 +147,7 @@
             "type": "Literal",
             "start": 940,
             "end": 946,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           }
         ],
         "optional": false

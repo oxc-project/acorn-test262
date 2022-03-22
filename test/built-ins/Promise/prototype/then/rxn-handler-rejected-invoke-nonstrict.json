@@ -143,8 +143,7 @@
                             "type": "Literal",
                             "start": 431,
                             "end": 476,
-                            "value": "Unexpected fulfillment; expected rejection.",
-                            "raw": "\"Unexpected fulfillment; expected rejection.\""
+                            "value": "Unexpected fulfillment; expected rejection."
                           }
                         ],
                         "optional": false
@@ -223,8 +222,7 @@
                                     "type": "Literal",
                                     "start": 539,
                                     "end": 575,
-                                    "value": "'this' must be global object, got ",
-                                    "raw": "\"'this' must be global object, got \""
+                                    "value": "'this' must be global object, got "
                                   },
                                   "operator": "+",
                                   "right": {
@@ -297,8 +295,7 @@
                                     "type": "Literal",
                                     "start": 633,
                                     "end": 686,
-                                    "value": "Expected promise to be rejected with obj, actually ",
-                                    "raw": "\"Expected promise to be rejected with obj, actually \""
+                                    "value": "Expected promise to be rejected with obj, actually "
                                   },
                                   "operator": "+",
                                   "right": {
@@ -354,8 +351,7 @@
                           "type": "Literal",
                           "start": 739,
                           "end": 740,
-                          "value": 1,
-                          "raw": "1"
+                          "value": 1
                         }
                       },
                       "consequent": {
@@ -382,8 +378,7 @@
                                   "type": "Literal",
                                   "start": 754,
                                   "end": 819,
-                                  "value": "Expected handler function to be called with exactly 1 argument.",
-                                  "raw": "'Expected handler function to be called with exactly 1 argument.'"
+                                  "value": "Expected handler function to be called with exactly 1 argument."
                                 }
                               ],
                               "optional": false

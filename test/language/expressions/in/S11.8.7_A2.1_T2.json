@@ -58,8 +58,7 @@
                     "type": "Literal",
                     "start": 342,
                     "end": 400,
-                    "value": "#1.1: MAX_VALUE in Number throw ReferenceError. Actual: ",
-                    "raw": "'#1.1: MAX_VALUE in Number throw ReferenceError. Actual: '"
+                    "value": "#1.1: MAX_VALUE in Number throw ReferenceError. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -174,8 +173,7 @@
                             "type": "Literal",
                             "start": 518,
                             "end": 576,
-                            "value": "#1.2: MAX_VALUE in Number throw ReferenceError. Actual: ",
-                            "raw": "'#1.2: MAX_VALUE in Number throw ReferenceError. Actual: '"
+                            "value": "#1.2: MAX_VALUE in Number throw ReferenceError. Actual: "
                           },
                           "operator": "+",
                           "right": {

@@ -85,15 +85,13 @@
                 "type": "Literal",
                 "start": 294,
                 "end": 299,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 301,
                 "end": 304,
-                "value": "b",
-                "raw": "\"b\""
+                "value": "b"
               }
             ],
             "optional": false
@@ -102,15 +100,13 @@
             "type": "Literal",
             "start": 307,
             "end": 308,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 310,
             "end": 352,
-            "value": "Array.prototype.indexOf.call(\"abc\", \"b\")",
-            "raw": "'Array.prototype.indexOf.call(\"abc\", \"b\")'"
+            "value": "Array.prototype.indexOf.call(\"abc\", \"b\")"
           }
         ],
         "optional": false

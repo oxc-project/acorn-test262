@@ -71,8 +71,7 @@
           "type": "Literal",
           "start": 677,
           "end": 698,
-          "value": "custom-syntax-error",
-          "raw": "'custom-syntax-error'"
+          "value": "custom-syntax-error"
         }
       }
     },
@@ -106,8 +105,7 @@
                 "type": "Literal",
                 "start": 720,
                 "end": 728,
-                "value": "foo 42",
-                "raw": "'foo 42'"
+                "value": "foo 42"
               }
             ]
           }
@@ -166,8 +164,7 @@
             "type": "Literal",
             "start": 762,
             "end": 770,
-            "value": "foo 42",
-            "raw": "'foo 42'"
+            "value": "foo 42"
           }
         ],
         "optional": false
@@ -216,8 +213,7 @@
                 "type": "Literal",
                 "start": 800,
                 "end": 809,
-                "value": "message",
-                "raw": "'message'"
+                "value": "message"
               }
             ],
             "optional": false
@@ -251,8 +247,7 @@
             "type": "Literal",
             "start": 835,
             "end": 844,
-            "value": "message",
-            "raw": "'message'"
+            "value": "message"
           }
         ],
         "optional": false
@@ -283,8 +278,7 @@
             "type": "Literal",
             "start": 873,
             "end": 882,
-            "value": "message",
-            "raw": "'message'"
+            "value": "message"
           }
         ],
         "optional": false
@@ -315,8 +309,7 @@
             "type": "Literal",
             "start": 910,
             "end": 919,
-            "value": "message",
-            "raw": "'message'"
+            "value": "message"
           }
         ],
         "optional": false
@@ -409,8 +402,7 @@
                 "type": "Literal",
                 "start": 982,
                 "end": 991,
-                "value": "message",
-                "raw": "'message'"
+                "value": "message"
               }
             ],
             "optional": false
@@ -477,8 +469,7 @@
             "type": "Literal",
             "start": 1033,
             "end": 1054,
-            "value": "custom-syntax-error",
-            "raw": "'custom-syntax-error'"
+            "value": "custom-syntax-error"
           }
         ],
         "optional": false

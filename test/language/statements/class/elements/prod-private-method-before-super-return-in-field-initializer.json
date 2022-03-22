@@ -20,10 +20,9 @@
         "end": 1339,
         "body": [
           {
-            "type": "PropertyDefinition",
+            "type": "FieldDefinition",
             "start": 1323,
-            "end": 1336,
-            "static": false,
+            "end": 1335,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -125,14 +124,14 @@
                           "start": 1371,
                           "end": 1375
                         },
+                        "computed": false,
+                        "optional": false,
                         "property": {
-                          "type": "PrivateIdentifier",
+                          "type": "PrivateName",
                           "start": 1376,
                           "end": 1378,
                           "name": "m"
-                        },
-                        "computed": false,
-                        "optional": false
+                        }
                       },
                       "arguments": [],
                       "optional": false
@@ -149,7 +148,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateIdentifier",
+              "type": "PrivateName",
               "start": 1388,
               "end": 1390,
               "name": "m"
@@ -177,8 +176,7 @@
                       "type": "Literal",
                       "start": 1402,
                       "end": 1404,
-                      "value": 42,
-                      "raw": "42"
+                      "value": 42
                     }
                   }
                 ]
@@ -244,8 +242,7 @@
                 "type": "Literal",
                 "start": 1445,
                 "end": 1448,
-                "value": "g",
-                "raw": "'g'"
+                "value": "g"
               }
             ],
             "optional": false
@@ -340,8 +337,7 @@
             "type": "Literal",
             "start": 1514,
             "end": 1570,
-            "value": "private methods are not installed before super returns",
-            "raw": "'private methods are not installed before super returns'"
+            "value": "private methods are not installed before super returns"
           }
         ],
         "optional": false

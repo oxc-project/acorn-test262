@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 1045,
                 "end": 1055,
-                "value": "currency",
-                "raw": "\"currency\""
+                "value": "currency"
               }
             ],
             "optional": false
@@ -108,8 +107,7 @@
             "type": "Literal",
             "start": 1093,
             "end": 1119,
-            "value": "Returns an Array object.",
-            "raw": "\"Returns an Array object.\""
+            "value": "Returns an Array object."
           }
         ],
         "optional": false
@@ -199,8 +197,7 @@
             "type": "Literal",
             "start": 1208,
             "end": 1248,
-            "value": "The array prototype is Array.prototype",
-            "raw": "\"The array prototype is Array.prototype\""
+            "value": "The array prototype is Array.prototype"
           }
         ],
         "optional": false
@@ -249,8 +246,7 @@
                 "type": "Literal",
                 "start": 1299,
                 "end": 1309,
-                "value": "currency",
-                "raw": "\"currency\""
+                "value": "currency"
               }
             ],
             "optional": false
@@ -303,8 +299,7 @@
             "type": "Literal",
             "start": 1381,
             "end": 1424,
-            "value": "Returns a new array object for each call.",
-            "raw": "\"Returns a new array object for each call.\""
+            "value": "Returns a new array object for each call."
           }
         ],
         "optional": false
@@ -374,8 +369,7 @@
             "type": "Literal",
             "start": 1504,
             "end": 1526,
-            "value": "The array is sorted.",
-            "raw": "\"The array is sorted.\""
+            "value": "The array is sorted."
           }
         ],
         "optional": false
@@ -464,8 +458,7 @@
             "type": "Literal",
             "start": 1609,
             "end": 1648,
-            "value": "The array doesn't contain duplicates.",
-            "raw": "\"The array doesn't contain duplicates.\""
+            "value": "The array doesn't contain duplicates."
           }
         ],
         "optional": false
@@ -491,7 +484,6 @@
             "start": 1667,
             "end": 1679,
             "value": {},
-            "raw": "/^[A-Z]{3}$/",
             "regex": {
               "pattern": "^[A-Z]{3}$",
               "flags": ""

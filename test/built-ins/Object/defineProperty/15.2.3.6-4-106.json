@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 407,
             "end": 412,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -91,8 +90,7 @@
                   "type": "Literal",
                   "start": 425,
                   "end": 428,
-                  "value": 100,
-                  "raw": "100"
+                  "value": 100
                 },
                 "kind": "init"
               },
@@ -206,8 +204,7 @@
             "type": "Literal",
             "start": 521,
             "end": 526,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -231,8 +228,7 @@
                   "type": "Literal",
                   "start": 539,
                   "end": 542,
-                  "value": 200,
-                  "raw": "200"
+                  "value": 200
                 },
                 "kind": "init"
               },
@@ -311,15 +307,13 @@
             "type": "Literal",
             "start": 606,
             "end": 611,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Literal",
             "start": 613,
             "end": 616,
-            "value": 200,
-            "raw": "200"
+            "value": 200
           }
         ],
         "optional": false
@@ -350,8 +344,7 @@
             "type": "Literal",
             "start": 643,
             "end": 648,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -382,8 +375,7 @@
             "type": "Literal",
             "start": 677,
             "end": 682,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false
@@ -414,8 +406,7 @@
             "type": "Literal",
             "start": 710,
             "end": 715,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           }
         ],
         "optional": false

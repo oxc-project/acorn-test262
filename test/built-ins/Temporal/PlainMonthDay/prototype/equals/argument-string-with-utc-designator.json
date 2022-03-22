@@ -27,15 +27,13 @@
                 "type": "Literal",
                 "start": 345,
                 "end": 367,
-                "value": "2019-10-01T09:00:00Z",
-                "raw": "\"2019-10-01T09:00:00Z\""
+                "value": "2019-10-01T09:00:00Z"
               },
               {
                 "type": "Literal",
                 "start": 371,
                 "end": 398,
-                "value": "2019-10-01T09:00:00Z[UTC]",
-                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+                "value": "2019-10-01T09:00:00Z[UTC]"
               }
             ]
           }
@@ -86,15 +84,13 @@
                 "type": "Literal",
                 "start": 447,
                 "end": 448,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 450,
                 "end": 451,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             ]
           }
@@ -232,8 +228,7 @@
                         "type": "Literal",
                         "start": 557,
                         "end": 624,
-                        "value": "String with UTC designator should not be valid as a PlainMonthDay",
-                        "raw": "\"String with UTC designator should not be valid as a PlainMonthDay\""
+                        "value": "String with UTC designator should not be valid as a PlainMonthDay"
                       }
                     ],
                     "optional": false

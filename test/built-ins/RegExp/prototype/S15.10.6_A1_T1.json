@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 437,
             "end": 504,
-            "value": "Object.prototype.isPrototypeOf(RegExp.prototype) must return true",
-            "raw": "'Object.prototype.isPrototypeOf(RegExp.prototype) must return true'"
+            "value": "Object.prototype.isPrototypeOf(RegExp.prototype) must return true"
           }
         ],
         "optional": false

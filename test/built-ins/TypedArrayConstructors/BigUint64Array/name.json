@@ -28,8 +28,7 @@
             "type": "Literal",
             "start": 1168,
             "end": 1174,
-            "value": "name",
-            "raw": "\"name\""
+            "value": "name"
           },
           {
             "type": "ObjectExpression",
@@ -53,8 +52,7 @@
                   "type": "Literal",
                   "start": 1187,
                   "end": 1203,
-                  "value": "BigUint64Array",
-                  "raw": "\"BigUint64Array\""
+                  "value": "BigUint64Array"
                 },
                 "kind": "init"
               },

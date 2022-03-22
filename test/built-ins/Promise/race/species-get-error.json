@@ -188,8 +188,7 @@
                               "type": "Literal",
                               "start": 609,
                               "end": 643,
-                              "value": "Getter for Symbol.species called",
-                              "raw": "\"Getter for Symbol.species called\""
+                              "value": "Getter for Symbol.species called"
                             }
                           ]
                         }

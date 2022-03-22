@@ -101,8 +101,7 @@
             "type": "Literal",
             "start": 811,
             "end": 879,
-            "value": "isConstructor(String.prototype[Symbol.iterator]) must return false",
-            "raw": "'isConstructor(String.prototype[Symbol.iterator]) must return false'"
+            "value": "isConstructor(String.prototype[Symbol.iterator]) must return false"
           }
         ],
         "optional": false
@@ -219,8 +218,7 @@
             "type": "Literal",
             "start": 963,
             "end": 1023,
-            "value": "`new String.prototype[Symbol.iterator]()` throws TypeError",
-            "raw": "'`new String.prototype[Symbol.iterator]()` throws TypeError'"
+            "value": "`new String.prototype[Symbol.iterator]()` throws TypeError"
           }
         ],
         "optional": false

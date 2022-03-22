@@ -29,8 +29,7 @@
           "type": "Literal",
           "start": 487,
           "end": 496,
-          "value": "unicode",
-          "raw": "\"unicode\""
+          "value": "unicode"
         }
       },
       "consequent": {
@@ -61,8 +60,7 @@
                     "type": "Literal",
                     "start": 524,
                     "end": 575,
-                    "value": "#1: __func() === \"unicode\". Actual:  __func() ===",
-                    "raw": "'#1: __func() === \"unicode\". Actual:  __func() ==='"
+                    "value": "#1: __func() === \"unicode\". Actual:  __func() ==="
                   },
                   "operator": "+",
                   "right": {
@@ -113,8 +111,7 @@
               "type": "Literal",
               "start": 700,
               "end": 707,
-              "value": "ascii",
-              "raw": "\"ascii\""
+              "value": "ascii"
             }
           }
         ]
@@ -152,8 +149,7 @@
               "type": "Literal",
               "start": 765,
               "end": 774,
-              "value": "unicode",
-              "raw": "\"unicode\""
+              "value": "unicode"
             }
           }
         ]

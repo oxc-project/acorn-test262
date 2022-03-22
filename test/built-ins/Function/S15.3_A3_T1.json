@@ -52,8 +52,7 @@
                 "type": "Literal",
                 "start": 385,
                 "end": 399,
-                "value": "return name;",
-                "raw": "\"return name;\""
+                "value": "return name;"
               }
             ],
             "optional": false
@@ -99,8 +98,7 @@
                   "type": "Literal",
                   "start": 423,
                   "end": 429,
-                  "value": "mars",
-                  "raw": "\"mars\""
+                  "value": "mars"
                 },
                 "kind": "init"
               },
@@ -121,8 +119,7 @@
                   "type": "Literal",
                   "start": 440,
                   "end": 445,
-                  "value": "red",
-                  "raw": "\"red\""
+                  "value": "red"
                 },
                 "kind": "init"
               },
@@ -143,8 +140,7 @@
                   "type": "Literal",
                   "start": 457,
                   "end": 458,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "kind": "init"
               }
@@ -203,8 +199,7 @@
                 "type": "Literal",
                 "start": 491,
                 "end": 534,
-                "value": "this.godname=\"ares\"; return this.color;",
-                "raw": "\"this.godname=\\\"ares\\\"; return this.color;\""
+                "value": "this.godname=\"ares\"; return this.color;"
               }
             ],
             "optional": false
@@ -324,8 +319,7 @@
             "type": "Literal",
             "start": 624,
             "end": 630,
-            "value": "ares",
-            "raw": "\"ares\""
+            "value": "ares"
           }
         },
         "operator": "&&",
@@ -385,8 +379,7 @@
                   "type": "Literal",
                   "start": 689,
                   "end": 764,
-                  "value": "#3: When applied to the Function object itself, thisArg should be ignored",
-                  "raw": "'#3: When applied to the Function object itself, thisArg should be ignored'"
+                  "value": "#3: When applied to the Function object itself, thisArg should be ignored"
                 }
               ]
             }

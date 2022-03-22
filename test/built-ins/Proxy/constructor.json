@@ -48,15 +48,13 @@
             "type": "Literal",
             "start": 357,
             "end": 367,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 369,
             "end": 401,
-            "value": "`typeof Proxy` is `'function'`",
-            "raw": "\"`typeof Proxy` is `'function'`\""
+            "value": "`typeof Proxy` is `'function'`"
           }
         ],
         "optional": false

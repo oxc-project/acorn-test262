@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 394,
               "end": 409,
-              "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "value": "Hello, WoRlD!"
             },
             "property": {
               "type": "Identifier",
@@ -43,8 +42,7 @@
           "type": "Literal",
           "start": 434,
           "end": 449,
-          "value": "hello, world!",
-          "raw": "\"hello, world!\""
+          "value": "hello, world!"
         }
       },
       "consequent": {
@@ -75,8 +73,7 @@
                     "type": "Literal",
                     "start": 478,
                     "end": 549,
-                    "value": "#1: \"Hello, WoRlD!\".toLocaleLowerCase() === \"hello, world!\". Actual: ",
-                    "raw": "'#1: \"Hello, WoRlD!\".toLocaleLowerCase() === \"hello, world!\". Actual: '"
+                    "value": "#1: \"Hello, WoRlD!\".toLocaleLowerCase() === \"hello, world!\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -95,8 +92,7 @@
                           "type": "Literal",
                           "start": 553,
                           "end": 568,
-                          "value": "Hello, WoRlD!",
-                          "raw": "\"Hello, WoRlD!\""
+                          "value": "Hello, WoRlD!"
                         },
                         "property": {
                           "type": "Identifier",
@@ -139,8 +135,7 @@
               "type": "Literal",
               "start": 770,
               "end": 785,
-              "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "value": "Hello, WoRlD!"
             },
             "property": {
               "type": "Identifier",
@@ -170,8 +165,7 @@
               "type": "Literal",
               "start": 817,
               "end": 832,
-              "value": "hello, world!",
-              "raw": "\"hello, world!\""
+              "value": "hello, world!"
             }
           ],
           "optional": false
@@ -205,8 +199,7 @@
                     "type": "Literal",
                     "start": 862,
                     "end": 941,
-                    "value": "#2: \"Hello, WoRlD!\".toLocaleLowerCase() === String(\"hello, world!\"). Actual: ",
-                    "raw": "'#2: \"Hello, WoRlD!\".toLocaleLowerCase() === String(\"hello, world!\"). Actual: '"
+                    "value": "#2: \"Hello, WoRlD!\".toLocaleLowerCase() === String(\"hello, world!\"). Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -225,8 +218,7 @@
                           "type": "Literal",
                           "start": 945,
                           "end": 960,
-                          "value": "Hello, WoRlD!",
-                          "raw": "\"Hello, WoRlD!\""
+                          "value": "Hello, WoRlD!"
                         },
                         "property": {
                           "type": "Identifier",
@@ -269,8 +261,7 @@
               "type": "Literal",
               "start": 1162,
               "end": 1177,
-              "value": "Hello, WoRlD!",
-              "raw": "\"Hello, WoRlD!\""
+              "value": "Hello, WoRlD!"
             },
             "property": {
               "type": "Identifier",
@@ -300,8 +291,7 @@
               "type": "Literal",
               "start": 1213,
               "end": 1228,
-              "value": "hello, world!",
-              "raw": "\"hello, world!\""
+              "value": "hello, world!"
             }
           ]
         }
@@ -330,8 +320,7 @@
                   "type": "Literal",
                   "start": 1258,
                   "end": 1331,
-                  "value": "#3: \"Hello, WoRlD!\".toLocaleLowerCase() !== new String(\"hello, world!\")",
-                  "raw": "'#3: \"Hello, WoRlD!\".toLocaleLowerCase() !== new String(\"hello, world!\")'"
+                  "value": "#3: \"Hello, WoRlD!\".toLocaleLowerCase() !== new String(\"hello, world!\")"
                 }
               ]
             }

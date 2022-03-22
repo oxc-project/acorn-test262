@@ -15,8 +15,7 @@
           "type": "Literal",
           "start": 325,
           "end": 334,
-          "value": "\u0001F",
-          "raw": "\"\\u0001F\""
+          "value": "\u0001F"
         },
         "operator": "!==",
         "right": {
@@ -51,8 +50,7 @@
                 "type": "Literal",
                 "start": 359,
                 "end": 362,
-                "value": "1",
-                "raw": "\"1\""
+                "value": "1"
               }
             ],
             "optional": false
@@ -62,8 +60,7 @@
             "type": "Literal",
             "start": 366,
             "end": 369,
-            "value": "F",
-            "raw": "\"F\""
+            "value": "F"
           }
         }
       },
@@ -91,8 +88,7 @@
                   "type": "Literal",
                   "start": 398,
                   "end": 449,
-                  "value": "#1: \"\\u0001F\" === String.fromCharCode(\"1\") + \"F\"",
-                  "raw": "'#1: \"\\\\u0001F\" === String.fromCharCode(\"1\") + \"F\"'"
+                  "value": "#1: \"\\u0001F\" === String.fromCharCode(\"1\") + \"F\""
                 }
               ]
             }
@@ -113,8 +109,7 @@
           "type": "Literal",
           "start": 469,
           "end": 478,
-          "value": "\u0002E",
-          "raw": "\"\\u0002E\""
+          "value": "\u0002E"
         },
         "operator": "!==",
         "right": {
@@ -149,8 +144,7 @@
                 "type": "Literal",
                 "start": 503,
                 "end": 506,
-                "value": "2",
-                "raw": "\"2\""
+                "value": "2"
               }
             ],
             "optional": false
@@ -160,8 +154,7 @@
             "type": "Literal",
             "start": 510,
             "end": 513,
-            "value": "E",
-            "raw": "\"E\""
+            "value": "E"
           }
         }
       },
@@ -189,8 +182,7 @@
                   "type": "Literal",
                   "start": 542,
                   "end": 593,
-                  "value": "#2: \"\\u0002E\" === String.fromCharCode(\"2\") + \"E\"",
-                  "raw": "'#2: \"\\\\u0002E\" === String.fromCharCode(\"2\") + \"E\"'"
+                  "value": "#2: \"\\u0002E\" === String.fromCharCode(\"2\") + \"E\""
                 }
               ]
             }
@@ -211,8 +203,7 @@
           "type": "Literal",
           "start": 613,
           "end": 622,
-          "value": "\u0003D",
-          "raw": "\"\\u0003D\""
+          "value": "\u0003D"
         },
         "operator": "!==",
         "right": {
@@ -247,8 +238,7 @@
                 "type": "Literal",
                 "start": 647,
                 "end": 650,
-                "value": "3",
-                "raw": "\"3\""
+                "value": "3"
               }
             ],
             "optional": false
@@ -258,8 +248,7 @@
             "type": "Literal",
             "start": 654,
             "end": 657,
-            "value": "D",
-            "raw": "\"D\""
+            "value": "D"
           }
         }
       },
@@ -287,8 +276,7 @@
                   "type": "Literal",
                   "start": 686,
                   "end": 737,
-                  "value": "#3: \"\\u0003D\" === String.fromCharCode(\"3\") + \"D\"",
-                  "raw": "'#3: \"\\\\u0003D\" === String.fromCharCode(\"3\") + \"D\"'"
+                  "value": "#3: \"\\u0003D\" === String.fromCharCode(\"3\") + \"D\""
                 }
               ]
             }
@@ -309,8 +297,7 @@
           "type": "Literal",
           "start": 757,
           "end": 766,
-          "value": "\u0004C",
-          "raw": "\"\\u0004C\""
+          "value": "\u0004C"
         },
         "operator": "!==",
         "right": {
@@ -345,8 +332,7 @@
                 "type": "Literal",
                 "start": 791,
                 "end": 794,
-                "value": "4",
-                "raw": "\"4\""
+                "value": "4"
               }
             ],
             "optional": false
@@ -356,8 +342,7 @@
             "type": "Literal",
             "start": 798,
             "end": 801,
-            "value": "C",
-            "raw": "\"C\""
+            "value": "C"
           }
         }
       },
@@ -385,8 +370,7 @@
                   "type": "Literal",
                   "start": 830,
                   "end": 881,
-                  "value": "#4: \"\\u0004C\" === String.fromCharCode(\"4\") + \"C\"",
-                  "raw": "'#4: \"\\\\u0004C\" === String.fromCharCode(\"4\") + \"C\"'"
+                  "value": "#4: \"\\u0004C\" === String.fromCharCode(\"4\") + \"C\""
                 }
               ]
             }
@@ -407,8 +391,7 @@
           "type": "Literal",
           "start": 901,
           "end": 910,
-          "value": "\u0005B",
-          "raw": "\"\\u0005B\""
+          "value": "\u0005B"
         },
         "operator": "!==",
         "right": {
@@ -443,8 +426,7 @@
                 "type": "Literal",
                 "start": 935,
                 "end": 938,
-                "value": "5",
-                "raw": "\"5\""
+                "value": "5"
               }
             ],
             "optional": false
@@ -454,8 +436,7 @@
             "type": "Literal",
             "start": 942,
             "end": 945,
-            "value": "B",
-            "raw": "\"B\""
+            "value": "B"
           }
         }
       },
@@ -483,8 +464,7 @@
                   "type": "Literal",
                   "start": 974,
                   "end": 1025,
-                  "value": "#5: \"\\u0005B\" === String.fromCharCode(\"5\") + \"B\"",
-                  "raw": "'#5: \"\\\\u0005B\" === String.fromCharCode(\"5\") + \"B\"'"
+                  "value": "#5: \"\\u0005B\" === String.fromCharCode(\"5\") + \"B\""
                 }
               ]
             }
@@ -505,8 +485,7 @@
           "type": "Literal",
           "start": 1045,
           "end": 1054,
-          "value": "\u0006A",
-          "raw": "\"\\u0006A\""
+          "value": "\u0006A"
         },
         "operator": "!==",
         "right": {
@@ -541,8 +520,7 @@
                 "type": "Literal",
                 "start": 1079,
                 "end": 1082,
-                "value": "6",
-                "raw": "\"6\""
+                "value": "6"
               }
             ],
             "optional": false
@@ -552,8 +530,7 @@
             "type": "Literal",
             "start": 1086,
             "end": 1089,
-            "value": "A",
-            "raw": "\"A\""
+            "value": "A"
           }
         }
       },
@@ -581,8 +558,7 @@
                   "type": "Literal",
                   "start": 1118,
                   "end": 1169,
-                  "value": "#6: \"\\u0006A\" === String.fromCharCode(\"6\") + \"A\"",
-                  "raw": "'#6: \"\\\\u0006A\" === String.fromCharCode(\"6\") + \"A\"'"
+                  "value": "#6: \"\\u0006A\" === String.fromCharCode(\"6\") + \"A\""
                 }
               ]
             }
@@ -603,8 +579,7 @@
           "type": "Literal",
           "start": 1189,
           "end": 1198,
-          "value": "\u00079",
-          "raw": "\"\\u00079\""
+          "value": "\u00079"
         },
         "operator": "!==",
         "right": {
@@ -639,8 +614,7 @@
                 "type": "Literal",
                 "start": 1223,
                 "end": 1226,
-                "value": "7",
-                "raw": "\"7\""
+                "value": "7"
               }
             ],
             "optional": false
@@ -650,8 +624,7 @@
             "type": "Literal",
             "start": 1230,
             "end": 1233,
-            "value": "9",
-            "raw": "\"9\""
+            "value": "9"
           }
         }
       },
@@ -679,8 +652,7 @@
                   "type": "Literal",
                   "start": 1262,
                   "end": 1313,
-                  "value": "#7: \"\\u00079\" === String.fromCharCode(\"7\") + \"9\"",
-                  "raw": "'#7: \"\\\\u00079\" === String.fromCharCode(\"7\") + \"9\"'"
+                  "value": "#7: \"\\u00079\" === String.fromCharCode(\"7\") + \"9\""
                 }
               ]
             }
@@ -701,8 +673,7 @@
           "type": "Literal",
           "start": 1333,
           "end": 1342,
-          "value": "\b8",
-          "raw": "\"\\u00088\""
+          "value": "\b8"
         },
         "operator": "!==",
         "right": {
@@ -737,8 +708,7 @@
                 "type": "Literal",
                 "start": 1367,
                 "end": 1370,
-                "value": "8",
-                "raw": "\"8\""
+                "value": "8"
               }
             ],
             "optional": false
@@ -748,8 +718,7 @@
             "type": "Literal",
             "start": 1374,
             "end": 1377,
-            "value": "8",
-            "raw": "\"8\""
+            "value": "8"
           }
         }
       },
@@ -777,8 +746,7 @@
                   "type": "Literal",
                   "start": 1406,
                   "end": 1457,
-                  "value": "#8: \"\\u00088\" === String.fromCharCode(\"8\") + \"8\"",
-                  "raw": "'#8: \"\\\\u00088\" === String.fromCharCode(\"8\") + \"8\"'"
+                  "value": "#8: \"\\u00088\" === String.fromCharCode(\"8\") + \"8\""
                 }
               ]
             }
@@ -799,8 +767,7 @@
           "type": "Literal",
           "start": 1477,
           "end": 1486,
-          "value": "\t7",
-          "raw": "\"\\u00097\""
+          "value": "\t7"
         },
         "operator": "!==",
         "right": {
@@ -835,8 +802,7 @@
                 "type": "Literal",
                 "start": 1511,
                 "end": 1514,
-                "value": "9",
-                "raw": "\"9\""
+                "value": "9"
               }
             ],
             "optional": false
@@ -846,8 +812,7 @@
             "type": "Literal",
             "start": 1518,
             "end": 1521,
-            "value": "7",
-            "raw": "\"7\""
+            "value": "7"
           }
         }
       },
@@ -875,8 +840,7 @@
                   "type": "Literal",
                   "start": 1550,
                   "end": 1601,
-                  "value": "#9: \"\\u00097\" === String.fromCharCode(\"9\") + \"7\"",
-                  "raw": "'#9: \"\\\\u00097\" === String.fromCharCode(\"9\") + \"7\"'"
+                  "value": "#9: \"\\u00097\" === String.fromCharCode(\"9\") + \"7\""
                 }
               ]
             }
@@ -897,8 +861,7 @@
           "type": "Literal",
           "start": 1621,
           "end": 1630,
-          "value": "\n6",
-          "raw": "\"\\u000A6\""
+          "value": "\n6"
         },
         "operator": "!==",
         "right": {
@@ -933,8 +896,7 @@
                 "type": "Literal",
                 "start": 1655,
                 "end": 1659,
-                "value": "10",
-                "raw": "\"10\""
+                "value": "10"
               }
             ],
             "optional": false
@@ -944,8 +906,7 @@
             "type": "Literal",
             "start": 1663,
             "end": 1666,
-            "value": "6",
-            "raw": "\"6\""
+            "value": "6"
           }
         }
       },
@@ -973,8 +934,7 @@
                   "type": "Literal",
                   "start": 1695,
                   "end": 1747,
-                  "value": "#A: \"\\u000A6\" === String.fromCharCode(\"10\") + \"6\"",
-                  "raw": "'#A: \"\\\\u000A6\" === String.fromCharCode(\"10\") + \"6\"'"
+                  "value": "#A: \"\\u000A6\" === String.fromCharCode(\"10\") + \"6\""
                 }
               ]
             }
@@ -995,8 +955,7 @@
           "type": "Literal",
           "start": 1767,
           "end": 1776,
-          "value": "\u000b5",
-          "raw": "\"\\u000B5\""
+          "value": "\u000b5"
         },
         "operator": "!==",
         "right": {
@@ -1031,8 +990,7 @@
                 "type": "Literal",
                 "start": 1801,
                 "end": 1805,
-                "value": "11",
-                "raw": "\"11\""
+                "value": "11"
               }
             ],
             "optional": false
@@ -1042,8 +1000,7 @@
             "type": "Literal",
             "start": 1809,
             "end": 1812,
-            "value": "5",
-            "raw": "\"5\""
+            "value": "5"
           }
         }
       },
@@ -1071,8 +1028,7 @@
                   "type": "Literal",
                   "start": 1841,
                   "end": 1893,
-                  "value": "#B: \"\\u000B5\" === String.fromCharCode(\"11\") + \"5\"",
-                  "raw": "'#B: \"\\\\u000B5\" === String.fromCharCode(\"11\") + \"5\"'"
+                  "value": "#B: \"\\u000B5\" === String.fromCharCode(\"11\") + \"5\""
                 }
               ]
             }
@@ -1093,8 +1049,7 @@
           "type": "Literal",
           "start": 1913,
           "end": 1922,
-          "value": "\f4",
-          "raw": "\"\\u000C4\""
+          "value": "\f4"
         },
         "operator": "!==",
         "right": {
@@ -1129,8 +1084,7 @@
                 "type": "Literal",
                 "start": 1947,
                 "end": 1951,
-                "value": "12",
-                "raw": "\"12\""
+                "value": "12"
               }
             ],
             "optional": false
@@ -1140,8 +1094,7 @@
             "type": "Literal",
             "start": 1955,
             "end": 1958,
-            "value": "4",
-            "raw": "\"4\""
+            "value": "4"
           }
         }
       },
@@ -1169,8 +1122,7 @@
                   "type": "Literal",
                   "start": 1987,
                   "end": 2039,
-                  "value": "#C: \"\\u000C4\" === String.fromCharCode(\"12\") + \"4\"",
-                  "raw": "'#C: \"\\\\u000C4\" === String.fromCharCode(\"12\") + \"4\"'"
+                  "value": "#C: \"\\u000C4\" === String.fromCharCode(\"12\") + \"4\""
                 }
               ]
             }
@@ -1191,8 +1143,7 @@
           "type": "Literal",
           "start": 2059,
           "end": 2068,
-          "value": "\r3",
-          "raw": "\"\\u000D3\""
+          "value": "\r3"
         },
         "operator": "!==",
         "right": {
@@ -1227,8 +1178,7 @@
                 "type": "Literal",
                 "start": 2093,
                 "end": 2097,
-                "value": "13",
-                "raw": "\"13\""
+                "value": "13"
               }
             ],
             "optional": false
@@ -1238,8 +1188,7 @@
             "type": "Literal",
             "start": 2101,
             "end": 2104,
-            "value": "3",
-            "raw": "\"3\""
+            "value": "3"
           }
         }
       },
@@ -1267,8 +1216,7 @@
                   "type": "Literal",
                   "start": 2133,
                   "end": 2185,
-                  "value": "#D: \"\\u000D3\" === String.fromCharCode(\"13\") + \"3\"",
-                  "raw": "'#D: \"\\\\u000D3\" === String.fromCharCode(\"13\") + \"3\"'"
+                  "value": "#D: \"\\u000D3\" === String.fromCharCode(\"13\") + \"3\""
                 }
               ]
             }
@@ -1289,8 +1237,7 @@
           "type": "Literal",
           "start": 2205,
           "end": 2214,
-          "value": "\u000e2",
-          "raw": "\"\\u000E2\""
+          "value": "\u000e2"
         },
         "operator": "!==",
         "right": {
@@ -1325,8 +1272,7 @@
                 "type": "Literal",
                 "start": 2239,
                 "end": 2243,
-                "value": "14",
-                "raw": "\"14\""
+                "value": "14"
               }
             ],
             "optional": false
@@ -1336,8 +1282,7 @@
             "type": "Literal",
             "start": 2247,
             "end": 2250,
-            "value": "2",
-            "raw": "\"2\""
+            "value": "2"
           }
         }
       },
@@ -1365,8 +1310,7 @@
                   "type": "Literal",
                   "start": 2279,
                   "end": 2331,
-                  "value": "#E: \"\\u000E2\" === String.fromCharCode(\"14\") + \"2\"",
-                  "raw": "'#E: \"\\\\u000E2\" === String.fromCharCode(\"14\") + \"2\"'"
+                  "value": "#E: \"\\u000E2\" === String.fromCharCode(\"14\") + \"2\""
                 }
               ]
             }
@@ -1387,8 +1331,7 @@
           "type": "Literal",
           "start": 2351,
           "end": 2360,
-          "value": "\u000f1",
-          "raw": "\"\\u000F1\""
+          "value": "\u000f1"
         },
         "operator": "!==",
         "right": {
@@ -1423,8 +1366,7 @@
                 "type": "Literal",
                 "start": 2385,
                 "end": 2389,
-                "value": "15",
-                "raw": "\"15\""
+                "value": "15"
               }
             ],
             "optional": false
@@ -1434,8 +1376,7 @@
             "type": "Literal",
             "start": 2393,
             "end": 2396,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           }
         }
       },
@@ -1463,8 +1404,7 @@
                   "type": "Literal",
                   "start": 2425,
                   "end": 2477,
-                  "value": "#F: \"\\u000F1\" === String.fromCharCode(\"15\") + \"1\"",
-                  "raw": "'#F: \"\\\\u000F1\" === String.fromCharCode(\"15\") + \"1\"'"
+                  "value": "#F: \"\\u000F1\" === String.fromCharCode(\"15\") + \"1\""
                 }
               ]
             }

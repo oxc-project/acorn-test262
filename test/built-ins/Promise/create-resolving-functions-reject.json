@@ -51,8 +51,7 @@
                     "type": "Literal",
                     "start": 506,
                     "end": 507,
-                    "value": 1,
-                    "raw": "1"
+                    "value": 1
                   }
                 ],
                 "optional": false
@@ -322,8 +321,7 @@
                       "type": "Literal",
                       "start": 716,
                       "end": 757,
-                      "value": "isConstructor(reject) must return false",
-                      "raw": "'isConstructor(reject) must return false'"
+                      "value": "isConstructor(reject) must return false"
                     }
                   ],
                   "optional": false
@@ -401,8 +399,7 @@
                       "type": "Literal",
                       "start": 818,
                       "end": 851,
-                      "value": "`new reject()` throws TypeError",
-                      "raw": "'`new reject()` throws TypeError'"
+                      "value": "`new reject()` throws TypeError"
                     }
                   ],
                   "optional": false
@@ -459,15 +456,13 @@
                       "type": "Literal",
                       "start": 889,
                       "end": 890,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     {
                       "type": "Literal",
                       "start": 892,
                       "end": 925,
-                      "value": "The value of reject.length is 1",
-                      "raw": "'The value of reject.length is 1'"
+                      "value": "The value of reject.length is 1"
                     }
                   ],
                   "optional": false
@@ -524,15 +519,13 @@
                       "type": "Literal",
                       "start": 960,
                       "end": 962,
-                      "value": "",
-                      "raw": "''"
+                      "value": ""
                     },
                     {
                       "type": "Literal",
                       "start": 964,
                       "end": 996,
-                      "value": "The value of reject.name is \"\"",
-                      "raw": "'The value of reject.name is \"\"'"
+                      "value": "The value of reject.name is \"\""
                     }
                   ],
                   "optional": false

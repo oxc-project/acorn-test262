@@ -599,15 +599,13 @@
             "type": "Literal",
             "start": 1282,
             "end": 1283,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 1285,
             "end": 1335,
-            "value": "The value of thisVals.length is expected to be 2",
-            "raw": "'The value of thisVals.length is expected to be 2'"
+            "value": "The value of thisVals.length is expected to be 2"
           }
         ],
         "optional": false
@@ -655,8 +653,7 @@
               "type": "Literal",
               "start": 1364,
               "end": 1365,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -671,8 +668,7 @@
             "type": "Literal",
             "start": 1377,
             "end": 1445,
-            "value": "The value of thisVals[0] is expected to equal the value of thisVal",
-            "raw": "'The value of thisVals[0] is expected to equal the value of thisVal'"
+            "value": "The value of thisVals[0] is expected to equal the value of thisVal"
           }
         ],
         "optional": false
@@ -720,8 +716,7 @@
               "type": "Literal",
               "start": 1474,
               "end": 1475,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             "computed": true,
             "optional": false
@@ -736,8 +731,7 @@
             "type": "Literal",
             "start": 1487,
             "end": 1555,
-            "value": "The value of thisVals[1] is expected to equal the value of thisVal",
-            "raw": "'The value of thisVals[1] is expected to equal the value of thisVal'"
+            "value": "The value of thisVals[1] is expected to equal the value of thisVal"
           }
         ],
         "optional": false

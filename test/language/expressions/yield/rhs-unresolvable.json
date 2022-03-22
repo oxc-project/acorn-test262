@@ -371,8 +371,7 @@
             "type": "Literal",
             "start": 736,
             "end": 744,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           }
         ],
         "optional": false

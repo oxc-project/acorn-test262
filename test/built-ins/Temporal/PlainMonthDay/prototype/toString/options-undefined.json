@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 303,
                     "end": 310,
-                    "value": "05-02",
-                    "raw": "\"05-02\""
+                    "value": "05-02"
                   }
                 ]
               },
@@ -94,8 +93,7 @@
                                       "type": "Literal",
                                       "start": 339,
                                       "end": 347,
-                                      "value": "custom",
-                                      "raw": "\"custom\""
+                                      "value": "custom"
                                     }
                                   }
                                 ]
@@ -110,8 +108,7 @@
                     "type": "Literal",
                     "start": 355,
                     "end": 380,
-                    "value": "1972-05-02[u-ca=custom]",
-                    "raw": "\"1972-05-02[u-ca=custom]\""
+                    "value": "1972-05-02[u-ca=custom]"
                   }
                 ]
               },
@@ -166,8 +163,7 @@
                                       "type": "Literal",
                                       "start": 409,
                                       "end": 418,
-                                      "value": "iso8601",
-                                      "raw": "\"iso8601\""
+                                      "value": "iso8601"
                                     }
                                   }
                                 ]
@@ -182,8 +178,7 @@
                     "type": "Literal",
                     "start": 426,
                     "end": 433,
-                    "value": "05-02",
-                    "raw": "\"05-02\""
+                    "value": "05-02"
                   }
                 ]
               },
@@ -238,8 +233,7 @@
                                       "type": "Literal",
                                       "start": 462,
                                       "end": 471,
-                                      "value": "ISO8601",
-                                      "raw": "\"ISO8601\""
+                                      "value": "ISO8601"
                                     }
                                   }
                                 ]
@@ -254,8 +248,7 @@
                     "type": "Literal",
                     "start": 479,
                     "end": 505,
-                    "value": "1972-05-02[u-ca=ISO8601]",
-                    "raw": "\"1972-05-02[u-ca=ISO8601]\""
+                    "value": "1972-05-02[u-ca=ISO8601]"
                   }
                 ]
               },
@@ -310,8 +303,7 @@
                                       "type": "Literal",
                                       "start": 534,
                                       "end": 548,
-                                      "value": "ıso8601",
-                                      "raw": "\"\\u0131so8601\""
+                                      "value": "ıso8601"
                                     }
                                   }
                                 ]
@@ -326,8 +318,7 @@
                     "type": "Literal",
                     "start": 556,
                     "end": 587,
-                    "value": "1972-05-02[u-ca=ıso8601]",
-                    "raw": "\"1972-05-02[u-ca=\\u0131so8601]\""
+                    "value": "1972-05-02[u-ca=ıso8601]"
                   }
                 ]
               }
@@ -429,15 +420,13 @@
                       "type": "Literal",
                       "start": 693,
                       "end": 694,
-                      "value": 5,
-                      "raw": "5"
+                      "value": 5
                     },
                     {
                       "type": "Literal",
                       "start": 696,
                       "end": 697,
-                      "value": 2,
-                      "raw": "2"
+                      "value": 2
                     },
                     {
                       "type": "SpreadElement",
@@ -552,8 +541,7 @@
                   "type": "Literal",
                   "start": 797,
                   "end": 834,
-                  "value": "default calendarName option is auto",
-                  "raw": "\"default calendarName option is auto\""
+                  "value": "default calendarName option is auto"
                 }
               ],
               "optional": false
@@ -648,8 +636,7 @@
                   "type": "Literal",
                   "start": 917,
                   "end": 954,
-                  "value": "default calendarName option is auto",
-                  "raw": "\"default calendarName option is auto\""
+                  "value": "default calendarName option is auto"
                 }
               ],
               "optional": false

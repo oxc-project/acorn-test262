@@ -202,8 +202,7 @@
                       "type": "Literal",
                       "start": 995,
                       "end": 996,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "operator": "+",
                     "right": {
@@ -221,8 +220,7 @@
             "type": "Literal",
             "start": 1005,
             "end": 1045,
-            "value": "ordinary object value, right-hand side",
-            "raw": "'ordinary object value, right-hand side'"
+            "value": "ordinary object value, right-hand side"
           }
         ],
         "optional": false
@@ -295,8 +293,7 @@
                       "type": "Literal",
                       "start": 1092,
                       "end": 1093,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 }
@@ -307,8 +304,7 @@
             "type": "Literal",
             "start": 1098,
             "end": 1137,
-            "value": "ordinary object value, left-hand side",
-            "raw": "'ordinary object value, left-hand side'"
+            "value": "ordinary object value, left-hand side"
           }
         ],
         "optional": false
@@ -431,8 +427,7 @@
                       "type": "Literal",
                       "start": 1228,
                       "end": 1229,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     },
                     "operator": "+",
                     "right": {
@@ -450,8 +445,7 @@
             "type": "Literal",
             "start": 1238,
             "end": 1286,
-            "value": "arguments exotic object value, right-hand side",
-            "raw": "'arguments exotic object value, right-hand side'"
+            "value": "arguments exotic object value, right-hand side"
           }
         ],
         "optional": false
@@ -524,8 +518,7 @@
                       "type": "Literal",
                       "start": 1333,
                       "end": 1334,
-                      "value": 0,
-                      "raw": "0"
+                      "value": 0
                     }
                   }
                 }
@@ -536,8 +529,7 @@
             "type": "Literal",
             "start": 1339,
             "end": 1386,
-            "value": "arguments exotic object value, left-hand side",
-            "raw": "'arguments exotic object value, left-hand side'"
+            "value": "arguments exotic object value, left-hand side"
           }
         ],
         "optional": false

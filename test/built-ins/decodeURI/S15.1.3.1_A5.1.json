@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 343,
               "end": 351,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -82,8 +81,7 @@
                     "type": "Literal",
                     "start": 391,
                     "end": 459,
-                    "value": "#1: decodeURI.propertyIsEnumerable('length') === false. Actual: ",
-                    "raw": "'#1: decodeURI.propertyIsEnumerable(\\'length\\') === false. Actual: '"
+                    "value": "#1: decodeURI.propertyIsEnumerable('length') === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -118,8 +116,7 @@
                           "type": "Literal",
                           "start": 494,
                           "end": 502,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -213,8 +210,7 @@
                 "type": "Literal",
                 "start": 578,
                 "end": 586,
-                "value": "length",
-                "raw": "\"length\""
+                "value": "length"
               }
             },
             "consequent": {
@@ -300,8 +296,7 @@
                   "type": "Literal",
                   "start": 665,
                   "end": 764,
-                  "value": "#2: result = true; for (p in decodeURI) { if (p === \"length\") result = false; }  result === true;",
-                  "raw": "'#2: result = true; for (p in decodeURI) { if (p === \"length\") result = false; }  result === true;'"
+                  "value": "#2: result = true; for (p in decodeURI) { if (p === \"length\") result = false; }  result === true;"
                 }
               ]
             }

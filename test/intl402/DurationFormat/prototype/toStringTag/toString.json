@@ -120,8 +120,7 @@
             "type": "Literal",
             "start": 574,
             "end": 604,
-            "value": "[object Intl.DurationFormat]",
-            "raw": "\"[object Intl.DurationFormat]\""
+            "value": "[object Intl.DurationFormat]"
           }
         ],
         "optional": false
@@ -237,8 +236,7 @@
             "type": "Literal",
             "start": 683,
             "end": 713,
-            "value": "[object Intl.DurationFormat]",
-            "raw": "\"[object Intl.DurationFormat]\""
+            "value": "[object Intl.DurationFormat]"
           }
         ],
         "optional": false

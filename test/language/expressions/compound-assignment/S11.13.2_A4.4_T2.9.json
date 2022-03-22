@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 369,
           "end": 372,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -90,8 +89,7 @@
           "type": "Literal",
           "start": 395,
           "end": 402,
-          "value": "1null",
-          "raw": "\"1null\""
+          "value": "1null"
         }
       },
       "consequent": {
@@ -122,8 +120,7 @@
                     "type": "Literal",
                     "start": 431,
                     "end": 480,
-                    "value": "#1: x = \"1\"; x += null; x === \"1null\". Actual: ",
-                    "raw": "'#1: x = \"1\"; x += null; x === \"1null\". Actual: '"
+                    "value": "#1: x = \"1\"; x += null; x === \"1null\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -188,8 +185,7 @@
           "type": "Literal",
           "start": 517,
           "end": 520,
-          "value": "1",
-          "raw": "\"1\""
+          "value": "1"
         }
       }
     },
@@ -212,8 +208,7 @@
           "type": "Literal",
           "start": 532,
           "end": 539,
-          "value": "null1",
-          "raw": "\"null1\""
+          "value": "null1"
         }
       },
       "consequent": {
@@ -244,8 +239,7 @@
                     "type": "Literal",
                     "start": 568,
                     "end": 617,
-                    "value": "#2: x = null; x += \"1\"; x === \"null1\". Actual: ",
-                    "raw": "'#2: x = null; x += \"1\"; x === \"null1\". Actual: '"
+                    "value": "#2: x = null; x += \"1\"; x === \"null1\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -297,8 +291,7 @@
               "type": "Literal",
               "start": 654,
               "end": 657,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           ]
         }
@@ -347,8 +340,7 @@
           "type": "Literal",
           "start": 681,
           "end": 688,
-          "value": "1null",
-          "raw": "\"1null\""
+          "value": "1null"
         }
       },
       "consequent": {
@@ -379,8 +371,7 @@
                     "type": "Literal",
                     "start": 717,
                     "end": 778,
-                    "value": "#3: x = new String(\"1\"); x += null; x === \"1null\". Actual: ",
-                    "raw": "'#3: x = new String(\"1\"); x += null; x === \"1null\". Actual: '"
+                    "value": "#3: x = new String(\"1\"); x += null; x === \"1null\". Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -456,8 +447,7 @@
               "type": "Literal",
               "start": 826,
               "end": 829,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           ]
         }
@@ -482,8 +472,7 @@
           "type": "Literal",
           "start": 842,
           "end": 849,
-          "value": "null1",
-          "raw": "\"null1\""
+          "value": "null1"
         }
       },
       "consequent": {
@@ -514,8 +503,7 @@
                     "type": "Literal",
                     "start": 878,
                     "end": 939,
-                    "value": "#4: x = null; x += new String(\"1\"); x === \"null1\". Actual: ",
-                    "raw": "'#4: x = null; x += new String(\"1\"); x === \"null1\". Actual: '"
+                    "value": "#4: x = null; x += new String(\"1\"); x === \"null1\". Actual: "
                   },
                   "operator": "+",
                   "right": {

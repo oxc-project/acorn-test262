@@ -74,8 +74,7 @@
             "type": "Literal",
             "start": 332,
             "end": 368,
-            "value": "Object.getPrototypeOf(SyntaxError)",
-            "raw": "'Object.getPrototypeOf(SyntaxError)'"
+            "value": "Object.getPrototypeOf(SyntaxError)"
           }
         ],
         "optional": false

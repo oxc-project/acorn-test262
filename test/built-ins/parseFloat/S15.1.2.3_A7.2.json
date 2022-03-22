@@ -39,8 +39,7 @@
               "type": "Literal",
               "start": 342,
               "end": 350,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -82,8 +81,7 @@
                     "type": "Literal",
                     "start": 389,
                     "end": 451,
-                    "value": "#1: parseFloat.hasOwnProperty('length') === true. Actual: ",
-                    "raw": "'#1: parseFloat.hasOwnProperty(\\'length\\') === true. Actual: '"
+                    "value": "#1: parseFloat.hasOwnProperty('length') === true. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -118,8 +116,7 @@
                           "type": "Literal",
                           "start": 481,
                           "end": 489,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -200,8 +197,7 @@
               "type": "Literal",
               "start": 564,
               "end": 572,
-              "value": "length",
-              "raw": "'length'"
+              "value": "length"
             }
           ],
           "optional": false
@@ -243,8 +239,7 @@
                     "type": "Literal",
                     "start": 612,
                     "end": 701,
-                    "value": "#2: delete parseFloat.length; parseFloat.hasOwnProperty('length') === false. Actual: ",
-                    "raw": "'#2: delete parseFloat.length; parseFloat.hasOwnProperty(\\'length\\') === false. Actual: '"
+                    "value": "#2: delete parseFloat.length; parseFloat.hasOwnProperty('length') === false. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -279,8 +274,7 @@
                           "type": "Literal",
                           "start": 731,
                           "end": 739,
-                          "value": "length",
-                          "raw": "'length'"
+                          "value": "length"
                         }
                       ],
                       "optional": false
@@ -353,8 +347,7 @@
                   "type": "Literal",
                   "start": 821,
                   "end": 884,
-                  "value": "#3: delete parseFloat.length; parseFloat.length !== undefined",
-                  "raw": "'#3: delete parseFloat.length; parseFloat.length !== undefined'"
+                  "value": "#3: delete parseFloat.length; parseFloat.length !== undefined"
                 }
               ]
             }

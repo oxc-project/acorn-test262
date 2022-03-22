@@ -165,22 +165,19 @@
                                 "type": "Literal",
                                 "start": 594,
                                 "end": 595,
-                                "value": 0,
-                                "raw": "0"
+                                "value": 0
                               },
                               {
                                 "type": "Literal",
                                 "start": 597,
                                 "end": 599,
-                                "value": 42,
-                                "raw": "42"
+                                "value": 42
                               },
                               {
                                 "type": "Literal",
                                 "start": 601,
                                 "end": 603,
-                                "value": 64,
-                                "raw": "64"
+                                "value": 64
                               }
                             ]
                           }

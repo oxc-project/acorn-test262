@@ -27,29 +27,25 @@
                 "type": "Literal",
                 "start": 997,
                 "end": 1007,
-                "value": "language",
-                "raw": "'language'"
+                "value": "language"
               },
               {
                 "type": "Literal",
                 "start": 1011,
                 "end": 1019,
-                "value": "region",
-                "raw": "'region'"
+                "value": "region"
               },
               {
                 "type": "Literal",
                 "start": 1023,
                 "end": 1031,
-                "value": "script",
-                "raw": "'script'"
+                "value": "script"
               },
               {
                 "type": "Literal",
                 "start": 1035,
                 "end": 1045,
-                "value": "currency",
-                "raw": "'currency'"
+                "value": "currency"
               }
             ]
           }
@@ -149,8 +145,7 @@
                             "type": "Literal",
                             "start": 1110,
                             "end": 1114,
-                            "value": "en",
-                            "raw": "'en'"
+                            "value": "en"
                           },
                           {
                             "type": "ObjectExpression",

@@ -35,8 +35,7 @@
                     "type": "Literal",
                     "start": 601,
                     "end": 612,
-                    "value": "/a\n/",
-                    "raw": "\"/a\\u000A/\""
+                    "value": "/a\n/"
                   }
                 ],
                 "optional": false
@@ -74,8 +73,7 @@
                     "type": "Literal",
                     "start": 648,
                     "end": 712,
-                    "value": "#1.1: RegularExpressionChar :: Line Feedis incorrect. Actual: ",
-                    "raw": "'#1.1: RegularExpressionChar :: Line Feedis incorrect. Actual: '"
+                    "value": "#1.1: RegularExpressionChar :: Line Feedis incorrect. Actual: "
                   },
                   "operator": "+",
                   "right": {
@@ -101,8 +99,7 @@
                             "type": "Literal",
                             "start": 721,
                             "end": 732,
-                            "value": "/a\n/",
-                            "raw": "\"/a\\u000A/\""
+                            "value": "/a\n/"
                           }
                         ],
                         "optional": false
@@ -206,8 +203,7 @@
                             "type": "Literal",
                             "start": 831,
                             "end": 896,
-                            "value": "#1.2: RegularExpressionChar :: Line Feed is incorrect. Actual: ",
-                            "raw": "'#1.2: RegularExpressionChar :: Line Feed is incorrect. Actual: '"
+                            "value": "#1.2: RegularExpressionChar :: Line Feed is incorrect. Actual: "
                           },
                           "operator": "+",
                           "right": {

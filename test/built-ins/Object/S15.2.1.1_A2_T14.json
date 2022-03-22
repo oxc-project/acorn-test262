@@ -37,16 +37,14 @@
                   "type": "Literal",
                   "start": 450,
                   "end": 452,
-                  "value": "",
-                  "raw": "\"\""
+                  "value": ""
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 455,
                   "end": 456,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 }
               }
             ],
@@ -113,8 +111,7 @@
             "type": "Literal",
             "start": 502,
             "end": 573,
-            "value": "The value of obj.constructor is expected to equal the value of String",
-            "raw": "'The value of obj.constructor is expected to equal the value of String'"
+            "value": "The value of obj.constructor is expected to equal the value of String"
           }
         ],
         "optional": false
@@ -165,15 +162,13 @@
             "type": "Literal",
             "start": 605,
             "end": 613,
-            "value": "object",
-            "raw": "\"object\""
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 615,
             "end": 669,
-            "value": "The value of `typeof obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
+            "value": "The value of `typeof obj` is expected to be \"object\""
           }
         ],
         "optional": false
@@ -209,16 +204,14 @@
               "type": "Literal",
               "start": 686,
               "end": 689,
-              "value": "1",
-              "raw": "\"1\""
+              "value": "1"
             }
           },
           {
             "type": "Literal",
             "start": 691,
             "end": 753,
-            "value": "The result of evaluating (obj == \"1\") is expected to be true",
-            "raw": "'The result of evaluating (obj == \"1\") is expected to be true'"
+            "value": "The result of evaluating (obj == \"1\") is expected to be true"
           }
         ],
         "optional": false
@@ -262,15 +255,13 @@
             "type": "Literal",
             "start": 781,
             "end": 784,
-            "value": "1",
-            "raw": "\"1\""
+            "value": "1"
           },
           {
             "type": "Literal",
             "start": 786,
             "end": 815,
-            "value": "The value of obj is not \"1\"",
-            "raw": "'The value of obj is not \"1\"'"
+            "value": "The value of obj is not \"1\""
           }
         ],
         "optional": false

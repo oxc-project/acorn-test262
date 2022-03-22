@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 486,
             "end": 487,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Identifier",
@@ -289,8 +288,7 @@
             "type": "Literal",
             "start": 618,
             "end": 620,
-            "value": "",
-            "raw": "''"
+            "value": ""
           },
           {
             "type": "Identifier",
@@ -404,15 +402,13 @@
             "type": "Literal",
             "start": 692,
             "end": 693,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 695,
             "end": 727,
-            "value": "The value of `map.size` is `7`",
-            "raw": "'The value of `map.size` is `7`'"
+            "value": "The value of `map.size` is `7`"
           }
         ],
         "optional": false

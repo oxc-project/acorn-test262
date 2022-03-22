@@ -46,22 +46,19 @@
                 "type": "Literal",
                 "start": 374,
                 "end": 378,
-                "value": 2021,
-                "raw": "2021"
+                "value": 2021
               },
               {
                 "type": "Literal",
                 "start": 380,
                 "end": 381,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 392,
-                "value": "gregory",
-                "raw": "\"gregory\""
+                "value": "gregory"
               }
             ]
           }
@@ -112,8 +109,7 @@
                 "type": "Literal",
                 "start": 431,
                 "end": 435,
-                "value": "en",
-                "raw": "\"en\""
+                "value": "en"
               },
               {
                 "type": "ObjectExpression",
@@ -137,8 +133,7 @@
                       "type": "Literal",
                       "start": 449,
                       "end": 463,
-                      "value": "Pacific/Apia",
-                      "raw": "\"Pacific/Apia\""
+                      "value": "Pacific/Apia"
                     },
                     "kind": "init"
                   }
@@ -189,8 +184,7 @@
             "type": "Literal",
             "start": 493,
             "end": 501,
-            "value": "8/2021",
-            "raw": "\"8/2021\""
+            "value": "8/2021"
           }
         ],
         "optional": false

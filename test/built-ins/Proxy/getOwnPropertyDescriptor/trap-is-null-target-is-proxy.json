@@ -51,8 +51,7 @@
                       "type": "Literal",
                       "start": 708,
                       "end": 709,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     },
                     "kind": "init"
                   }
@@ -162,8 +161,7 @@
             "type": "Literal",
             "start": 843,
             "end": 848,
-            "value": "bar",
-            "raw": "\"bar\""
+            "value": "bar"
           },
           {
             "type": "Identifier",
@@ -200,8 +198,7 @@
             "type": "Literal",
             "start": 895,
             "end": 900,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -225,8 +222,7 @@
                   "type": "Literal",
                   "start": 913,
                   "end": 914,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "kind": "init"
               },
@@ -537,8 +533,7 @@
                                 "type": "Literal",
                                 "start": 1199,
                                 "end": 1204,
-                                "value": "foo",
-                                "raw": "\"foo\""
+                                "value": "foo"
                               }
                             },
                             "consequent": {
@@ -625,8 +620,7 @@
                                 "type": "Literal",
                                 "start": 1306,
                                 "end": 1311,
-                                "value": "foo",
-                                "raw": "\"foo\""
+                                "value": "foo"
                               }
                             },
                             "consequent": {
@@ -778,8 +772,7 @@
             "type": "Literal",
             "start": 1475,
             "end": 1480,
-            "value": "bar",
-            "raw": "\"bar\""
+            "value": "bar"
           },
           {
             "type": "Identifier",
@@ -816,8 +809,7 @@
             "type": "Literal",
             "start": 1516,
             "end": 1521,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "Identifier",

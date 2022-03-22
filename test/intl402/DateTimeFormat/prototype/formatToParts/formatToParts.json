@@ -87,15 +87,13 @@
             "type": "Literal",
             "start": 289,
             "end": 299,
-            "value": "function",
-            "raw": "'function'"
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 303,
             "end": 371,
-            "value": "`typeof Intl.DateTimeFormat.prototype.formatToParts` is `function`",
-            "raw": "'`typeof Intl.DateTimeFormat.prototype.formatToParts` is `function`'"
+            "value": "`typeof Intl.DateTimeFormat.prototype.formatToParts` is `function`"
           }
         ],
         "optional": false
@@ -152,8 +150,7 @@
             "type": "Literal",
             "start": 427,
             "end": 442,
-            "value": "formatToParts",
-            "raw": "'formatToParts'"
+            "value": "formatToParts"
           }
         ],
         "optional": false
@@ -210,8 +207,7 @@
             "type": "Literal",
             "start": 491,
             "end": 506,
-            "value": "formatToParts",
-            "raw": "'formatToParts'"
+            "value": "formatToParts"
           }
         ],
         "optional": false
@@ -268,8 +264,7 @@
             "type": "Literal",
             "start": 559,
             "end": 574,
-            "value": "formatToParts",
-            "raw": "'formatToParts'"
+            "value": "formatToParts"
           }
         ],
         "optional": false

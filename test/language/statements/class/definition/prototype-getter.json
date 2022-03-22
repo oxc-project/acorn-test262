@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 216,
             "end": 217,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -122,8 +121,7 @@
             "type": "Literal",
             "start": 280,
             "end": 291,
-            "value": "prototype",
-            "raw": "'prototype'"
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",
@@ -281,15 +279,13 @@
             "type": "Literal",
             "start": 423,
             "end": 424,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 426,
             "end": 455,
-            "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "value": "The value of `calls` is `1`"
           }
         ],
         "optional": false
@@ -314,8 +310,7 @@
           "type": "Literal",
           "start": 467,
           "end": 468,
-          "value": 0,
-          "raw": "0"
+          "value": 0
         }
       }
     },
@@ -357,8 +352,7 @@
             "type": "Literal",
             "start": 498,
             "end": 509,
-            "value": "prototype",
-            "raw": "'prototype'"
+            "value": "prototype"
           },
           {
             "type": "ObjectExpression",
@@ -418,8 +412,7 @@
                           "type": "Literal",
                           "start": 557,
                           "end": 559,
-                          "value": 42,
-                          "raw": "42"
+                          "value": 42
                         }
                       }
                     ]
@@ -571,15 +564,13 @@
             "type": "Literal",
             "start": 683,
             "end": 684,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 686,
             "end": 715,
-            "value": "The value of `calls` is `1`",
-            "raw": "\"The value of `calls` is `1`\""
+            "value": "The value of `calls` is `1`"
           }
         ],
         "optional": false

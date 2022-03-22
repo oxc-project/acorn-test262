@@ -128,8 +128,7 @@
             "type": "Literal",
             "start": 289,
             "end": 296,
-            "value": "o.foo",
-            "raw": "'o.foo'"
+            "value": "o.foo"
           }
         ],
         "optional": false

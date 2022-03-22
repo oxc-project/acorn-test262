@@ -40,8 +40,7 @@
                   "type": "Literal",
                   "start": 291,
                   "end": 294,
-                  "value": 100,
-                  "raw": "100"
+                  "value": 100
                 },
                 "kind": "init"
               }
@@ -126,8 +125,7 @@
             "type": "Literal",
             "start": 336,
             "end": 337,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           "computed": true,
           "optional": false
@@ -136,8 +134,7 @@
           "type": "Literal",
           "start": 341,
           "end": 353,
-          "value": "isWritable",
-          "raw": "\"isWritable\""
+          "value": "isWritable"
         }
       }
     },
@@ -190,8 +187,7 @@
                 "type": "Literal",
                 "start": 406,
                 "end": 409,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               }
             ],
             "optional": false
@@ -242,8 +238,7 @@
               "type": "Literal",
               "start": 436,
               "end": 437,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -252,15 +247,13 @@
             "type": "Literal",
             "start": 440,
             "end": 452,
-            "value": "isWritable",
-            "raw": "\"isWritable\""
+            "value": "isWritable"
           },
           {
             "type": "Literal",
             "start": 454,
             "end": 464,
-            "value": "array[0]",
-            "raw": "'array[0]'"
+            "value": "array[0]"
           }
         ],
         "optional": false
@@ -309,8 +302,7 @@
                 "type": "Literal",
                 "start": 494,
                 "end": 504,
-                "value": "writable",
-                "raw": "\"writable\""
+                "value": "writable"
               }
             ],
             "optional": false
@@ -319,8 +311,7 @@
             "type": "Literal",
             "start": 507,
             "end": 549,
-            "value": "desc.hasOwnProperty(\"writable\") !== true",
-            "raw": "'desc.hasOwnProperty(\"writable\") !== true'"
+            "value": "desc.hasOwnProperty(\"writable\") !== true"
           }
         ],
         "optional": false
@@ -384,8 +375,7 @@
             "type": "Literal",
             "start": 590,
             "end": 605,
-            "value": "desc.writable",
-            "raw": "'desc.writable'"
+            "value": "desc.writable"
           }
         ],
         "optional": false

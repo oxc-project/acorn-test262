@@ -180,8 +180,7 @@
                         "type": "Literal",
                         "start": 1099,
                         "end": 1136,
-                        "value": "Temporal object coerced to calendar",
-                        "raw": "\"Temporal object coerced to calendar\""
+                        "value": "Temporal object coerced to calendar"
                       }
                     ],
                     "optional": false

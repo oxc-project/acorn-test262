@@ -54,8 +54,7 @@
           "type": "Literal",
           "start": 465,
           "end": 466,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       }
     },
@@ -89,8 +88,7 @@
               "type": "Literal",
               "start": 488,
               "end": 498,
-              "value": "x+1+x==1",
-              "raw": "\"x+1+x==1\""
+              "value": "x+1+x==1"
             }
           ],
           "optional": false
@@ -148,8 +146,7 @@
                     "type": "Literal",
                     "start": 644,
                     "end": 697,
-                    "value": "#1: __evaluated === false. Actual:  __evaluated ===",
-                    "raw": "'#1: __evaluated === false. Actual:  __evaluated ==='"
+                    "value": "#1: __evaluated === false. Actual:  __evaluated ==="
                   },
                   "operator": "+",
                   "right": {
@@ -196,8 +193,7 @@
               "type": "Literal",
               "start": 819,
               "end": 829,
-              "value": "1+1+1==1",
-              "raw": "\"1+1+1==1\""
+              "value": "1+1+1==1"
             }
           ],
           "optional": false
@@ -255,8 +251,7 @@
                     "type": "Literal",
                     "start": 975,
                     "end": 1028,
-                    "value": "#2: __evaluated === false. Actual:  __evaluated ===",
-                    "raw": "'#2: __evaluated === false. Actual:  __evaluated ==='"
+                    "value": "#2: __evaluated === false. Actual:  __evaluated ==="
                   },
                   "operator": "+",
                   "right": {

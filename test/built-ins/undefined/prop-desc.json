@@ -27,8 +27,7 @@
             "type": "Literal",
             "start": 371,
             "end": 382,
-            "value": "undefined",
-            "raw": "\"undefined\""
+            "value": "undefined"
           },
           {
             "type": "ObjectExpression",

@@ -54,8 +54,7 @@
             "type": "Literal",
             "start": 709,
             "end": 712,
-            "value": "0",
-            "raw": "\"0\""
+            "value": "0"
           },
           {
             "type": "ObjectExpression",
@@ -79,8 +78,7 @@
                   "type": "Literal",
                   "start": 739,
                   "end": 742,
-                  "value": 100,
-                  "raw": "100"
+                  "value": 100
                 },
                 "kind": "init"
               },
@@ -158,8 +156,7 @@
                 "type": "Literal",
                 "start": 851,
                 "end": 854,
-                "value": 101,
-                "raw": "101"
+                "value": 101
               }
             ]
           }
@@ -210,8 +207,7 @@
                 "type": "Literal",
                 "start": 884,
                 "end": 887,
-                "value": "0",
-                "raw": "\"0\""
+                "value": "0"
               }
             ],
             "optional": false
@@ -220,8 +216,7 @@
             "type": "Literal",
             "start": 890,
             "end": 924,
-            "value": "arr.hasOwnProperty(\"0\") !== true",
-            "raw": "'arr.hasOwnProperty(\"0\") !== true'"
+            "value": "arr.hasOwnProperty(\"0\") !== true"
           }
         ],
         "optional": false
@@ -269,8 +264,7 @@
               "type": "Literal",
               "start": 948,
               "end": 949,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             },
             "computed": true,
             "optional": false
@@ -279,15 +273,13 @@
             "type": "Literal",
             "start": 952,
             "end": 955,
-            "value": 101,
-            "raw": "101"
+            "value": 101
           },
           {
             "type": "Literal",
             "start": 957,
             "end": 965,
-            "value": "arr[0]",
-            "raw": "'arr[0]'"
+            "value": "arr[0]"
           }
         ],
         "optional": false

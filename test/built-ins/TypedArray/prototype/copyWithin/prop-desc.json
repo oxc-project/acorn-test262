@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 644,
             "end": 656,
-            "value": "copyWithin",
-            "raw": "'copyWithin'"
+            "value": "copyWithin"
           }
         ],
         "optional": false
@@ -98,8 +97,7 @@
             "type": "Literal",
             "start": 695,
             "end": 707,
-            "value": "copyWithin",
-            "raw": "'copyWithin'"
+            "value": "copyWithin"
           }
         ],
         "optional": false
@@ -130,8 +128,7 @@
             "type": "Literal",
             "start": 750,
             "end": 762,
-            "value": "copyWithin",
-            "raw": "'copyWithin'"
+            "value": "copyWithin"
           }
         ],
         "optional": false

@@ -38,8 +38,7 @@
                     "type": "Literal",
                     "start": 385,
                     "end": 386,
-                    "value": 0,
-                    "raw": "0"
+                    "value": 0
                   },
                   {
                     "type": "Identifier",
@@ -71,8 +70,7 @@
                     "type": "Literal",
                     "start": 417,
                     "end": 419,
-                    "value": "",
-                    "raw": "\"\""
+                    "value": ""
                   },
                   {
                     "type": "CallExpression",
@@ -146,15 +144,13 @@
             "type": "Literal",
             "start": 459,
             "end": 460,
-            "value": 7,
-            "raw": "7"
+            "value": 7
           },
           {
             "type": "Literal",
             "start": 462,
             "end": 492,
-            "value": "The value of `s.size` is `7`",
-            "raw": "\"The value of `s.size` is `7`\""
+            "value": "The value of `s.size` is `7`"
           }
         ],
         "optional": false

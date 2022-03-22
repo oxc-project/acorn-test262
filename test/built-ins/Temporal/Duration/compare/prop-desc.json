@@ -74,15 +74,13 @@
             "type": "Literal",
             "start": 341,
             "end": 351,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 355,
             "end": 396,
-            "value": "`typeof Duration.compare` is `function`",
-            "raw": "\"`typeof Duration.compare` is `function`\""
+            "value": "`typeof Duration.compare` is `function`"
           }
         ],
         "optional": false
@@ -126,8 +124,7 @@
             "type": "Literal",
             "start": 435,
             "end": 444,
-            "value": "compare",
-            "raw": "\"compare\""
+            "value": "compare"
           },
           {
             "type": "ObjectExpression",

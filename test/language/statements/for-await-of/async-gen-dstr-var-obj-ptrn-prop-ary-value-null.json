@@ -92,22 +92,19 @@
                                 "type": "Literal",
                                 "start": 1714,
                                 "end": 1715,
-                                "value": 4,
-                                "raw": "4"
+                                "value": 4
                               },
                               {
                                 "type": "Literal",
                                 "start": 1717,
                                 "end": 1718,
-                                "value": 5,
-                                "raw": "5"
+                                "value": 5
                               },
                               {
                                 "type": "Literal",
                                 "start": 1720,
                                 "end": 1721,
-                                "value": 6,
-                                "raw": "6"
+                                "value": 6
                               }
                             ]
                           }
@@ -277,8 +274,7 @@
                             "type": "Literal",
                             "start": 1819,
                             "end": 1869,
-                            "value": "Expected async function to reject, but resolved.",
-                            "raw": "\"Expected async function to reject, but resolved.\""
+                            "value": "Expected async function to reject, but resolved."
                           }
                         ]
                       }

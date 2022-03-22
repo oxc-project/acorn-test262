@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 422,
                 "end": 431,
-                "value": "iso8601",
-                "raw": "\"iso8601\""
+                "value": "iso8601"
               }
             ]
           }
@@ -98,43 +97,37 @@
                 "type": "Literal",
                 "start": 477,
                 "end": 481,
-                "value": 1997,
-                "raw": "1997"
+                "value": 1997
               },
               {
                 "type": "Literal",
                 "start": 483,
                 "end": 484,
-                "value": 8,
-                "raw": "8"
+                "value": 8
               },
               {
                 "type": "Literal",
                 "start": 486,
                 "end": 488,
-                "value": 23,
-                "raw": "23"
+                "value": 23
               },
               {
                 "type": "Literal",
                 "start": 490,
                 "end": 491,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 493,
                 "end": 495,
-                "value": 30,
-                "raw": "30"
+                "value": 30
               },
               {
                 "type": "Literal",
                 "start": 497,
                 "end": 499,
-                "value": 13,
-                "raw": "13"
+                "value": 13
               }
             ]
           }
@@ -207,15 +200,13 @@
             "type": "Literal",
             "start": 548,
             "end": 553,
-            "value": "M08",
-            "raw": "\"M08\""
+            "value": "M08"
           },
           {
             "type": "Literal",
             "start": 557,
             "end": 642,
-            "value": "cal.monthCode(new Temporal.PlainDateTime(1997, 8, 23, 5, 30, 13)) must return \"M08\"",
-            "raw": "'cal.monthCode(new Temporal.PlainDateTime(1997, 8, 23, 5, 30, 13)) must return \"M08\"'"
+            "value": "cal.monthCode(new Temporal.PlainDateTime(1997, 8, 23, 5, 30, 13)) must return \"M08\""
           }
         ],
         "optional": false

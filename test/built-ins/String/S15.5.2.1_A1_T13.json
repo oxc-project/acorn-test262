@@ -143,8 +143,7 @@
                   "type": "Literal",
                   "start": 717,
                   "end": 728,
-                  "value": "invalueof",
-                  "raw": "\"invalueof\""
+                  "value": "invalueof"
                 }
               }
             ]
@@ -218,8 +217,7 @@
                   "type": "Literal",
                   "start": 886,
                   "end": 986,
-                  "value": "#1: __obj.valueOf=function(){throw \"invalueof\"}; __str = new String(__obj) lead throwing exception",
-                  "raw": "'#1: __obj.valueOf=function(){throw \"invalueof\"}; __str = new String(__obj) lead throwing exception'"
+                  "value": "#1: __obj.valueOf=function(){throw \"invalueof\"}; __str = new String(__obj) lead throwing exception"
                 }
               ]
             }
@@ -260,8 +258,7 @@
                   "type": "Literal",
                   "start": 1015,
                   "end": 1026,
-                  "value": "invalueof",
-                  "raw": "\"invalueof\""
+                  "value": "invalueof"
                 }
               },
               "consequent": {
@@ -292,8 +289,7 @@
                             "type": "Literal",
                             "start": 1057,
                             "end": 1094,
-                            "value": "#1.1: e===\"invalueof\". Actual: e===",
-                            "raw": "'#1.1: e===\"invalueof\". Actual: e==='"
+                            "value": "#1.1: e===\"invalueof\". Actual: e==="
                           },
                           "operator": "+",
                           "right": {

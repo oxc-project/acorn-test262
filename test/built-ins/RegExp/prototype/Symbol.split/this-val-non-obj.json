@@ -645,8 +645,7 @@
                         "type": "Literal",
                         "start": 775,
                         "end": 783,
-                        "value": "string",
-                        "raw": "'string'"
+                        "value": "string"
                       }
                     ],
                     "optional": false
@@ -923,8 +922,7 @@
                         "type": "Literal",
                         "start": 963,
                         "end": 965,
-                        "value": 86,
-                        "raw": "86"
+                        "value": 86
                       }
                     ],
                     "optional": false

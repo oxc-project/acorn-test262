@@ -87,8 +87,7 @@
             "type": "Literal",
             "start": 404,
             "end": 465,
-            "value": "`Object.getPrototypeOf(Proxy)` returns `Function.prototype`",
-            "raw": "\"`Object.getPrototypeOf(Proxy)` returns `Function.prototype`\""
+            "value": "`Object.getPrototypeOf(Proxy)` returns `Function.prototype`"
           }
         ],
         "optional": false

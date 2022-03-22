@@ -42,8 +42,7 @@
           "type": "Literal",
           "start": 429,
           "end": 431,
-          "value": "",
-          "raw": "\"\""
+          "value": ""
         }
       }
     },
@@ -70,8 +69,7 @@
               "type": "Literal",
               "start": 447,
               "end": 448,
-              "value": 0,
-              "raw": "0"
+              "value": 0
             }
           }
         ],
@@ -92,8 +90,7 @@
           "type": "Literal",
           "start": 456,
           "end": 458,
-          "value": 10,
-          "raw": "10"
+          "value": 10
         }
       },
       "update": {
@@ -111,8 +108,7 @@
           "type": "Literal",
           "start": 467,
           "end": 468,
-          "value": 1,
-          "raw": "1"
+          "value": 1
         }
       },
       "body": {
@@ -139,8 +135,7 @@
                 "type": "Literal",
                 "start": 483,
                 "end": 484,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               }
             },
             "consequent": {
@@ -196,8 +191,7 @@
           "type": "Literal",
           "start": 522,
           "end": 530,
-          "value": "012345",
-          "raw": "\"012345\""
+          "value": "012345"
         }
       },
       "consequent": {
@@ -228,8 +222,7 @@
                     "type": "Literal",
                     "start": 558,
                     "end": 602,
-                    "value": "#1: __str === \"012345\". Actual:  __str ===",
-                    "raw": "'#1: __str === \"012345\". Actual:  __str ==='"
+                    "value": "#1: __str === \"012345\". Actual:  __str ==="
                   },
                   "operator": "+",
                   "right": {

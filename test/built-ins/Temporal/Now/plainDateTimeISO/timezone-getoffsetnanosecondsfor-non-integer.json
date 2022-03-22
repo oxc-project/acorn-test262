@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 355,
                 "end": 370,
-                "value": 3600000000000.5,
-                "raw": "3600000000000.5"
+                "value": 3600000000000.5
               },
               {
                 "type": "Identifier",
@@ -212,8 +211,7 @@
                         "type": "Literal",
                         "start": 563,
                         "end": 634,
-                        "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a RangeError exception",
-                        "raw": "'Temporal.Now.plainDateTimeISO(timeZone) throws a RangeError exception'"
+                        "value": "Temporal.Now.plainDateTimeISO(timeZone) throws a RangeError exception"
                       }
                     ],
                     "optional": false

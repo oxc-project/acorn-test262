@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 352,
             "end": 353,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -91,8 +90,7 @@
                       "type": "Literal",
                       "start": 402,
                       "end": 404,
-                      "value": 10,
-                      "raw": "10"
+                      "value": 10
                     }
                   },
                   "consequent": {
@@ -130,8 +128,7 @@
                               "type": "Literal",
                               "start": 458,
                               "end": 496,
-                              "value": "#1.1: \"break woohoo\" must break loop",
-                              "raw": "'#1.1: \"break woohoo\" must break loop'"
+                              "value": "#1.1: \"break woohoo\" must break loop"
                             }
                           ]
                         }
@@ -162,8 +159,7 @@
                   "type": "Literal",
                   "start": 534,
                   "end": 568,
-                  "value": "This code should be unreacheable",
-                  "raw": "'This code should be unreacheable'"
+                  "value": "This code should be unreacheable"
                 }
               ]
             }
@@ -215,8 +211,7 @@
             "type": "Literal",
             "start": 593,
             "end": 595,
-            "value": 10,
-            "raw": "10"
+            "value": 10
           }
         ],
         "optional": false

@@ -30,7 +30,6 @@
         "start": 908,
         "end": 911,
         "value": {},
-        "raw": "/1/",
         "regex": {
           "pattern": "1",
           "flags": ""

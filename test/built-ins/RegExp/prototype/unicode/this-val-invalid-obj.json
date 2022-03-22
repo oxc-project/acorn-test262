@@ -69,8 +69,7 @@
                   "type": "Literal",
                   "start": 554,
                   "end": 563,
-                  "value": "unicode",
-                  "raw": "'unicode'"
+                  "value": "unicode"
                 }
               ],
               "optional": false
@@ -181,8 +180,7 @@
             "type": "Literal",
             "start": 632,
             "end": 649,
-            "value": "ordinary object",
-            "raw": "'ordinary object'"
+            "value": "ordinary object"
           }
         ],
         "optional": false
@@ -281,8 +279,7 @@
             "type": "Literal",
             "start": 714,
             "end": 735,
-            "value": "array exotic object",
-            "raw": "'array exotic object'"
+            "value": "array exotic object"
           }
         ],
         "optional": false
@@ -381,8 +378,7 @@
             "type": "Literal",
             "start": 807,
             "end": 825,
-            "value": "arguments object",
-            "raw": "'arguments object'"
+            "value": "arguments object"
           }
         ],
         "optional": false

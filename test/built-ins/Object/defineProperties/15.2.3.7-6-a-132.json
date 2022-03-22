@@ -222,15 +222,13 @@
             "type": "Literal",
             "start": 505,
             "end": 506,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 508,
             "end": 520,
-            "value": "arr.length",
-            "raw": "'arr.length'"
+            "value": "arr.length"
           }
         ],
         "optional": false

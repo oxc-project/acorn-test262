@@ -125,8 +125,7 @@
                         "type": "Literal",
                         "start": 2219,
                         "end": 2253,
-                        "value": "abrupt completion from undefined",
-                        "raw": "\"abrupt completion from undefined\""
+                        "value": "abrupt completion from undefined"
                       }
                     ],
                     "optional": false

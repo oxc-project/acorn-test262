@@ -30,13 +30,12 @@
               "end": 1043,
               "body": [
                 {
-                  "type": "PropertyDefinition",
+                  "type": "FieldDefinition",
                   "start": 987,
-                  "end": 1002,
-                  "static": false,
+                  "end": 1001,
                   "computed": false,
                   "key": {
-                    "type": "PrivateIdentifier",
+                    "type": "PrivateName",
                     "start": 987,
                     "end": 989,
                     "name": "f"
@@ -45,8 +44,7 @@
                     "type": "Literal",
                     "start": 992,
                     "end": 1001,
-                    "value": "Test262",
-                    "raw": "'Test262'"
+                    "value": "Test262"
                   }
                 },
                 {
@@ -114,14 +112,14 @@
                                 "computed": false,
                                 "optional": true
                               },
+                              "computed": false,
+                              "optional": false,
                               "property": {
-                                "type": "PrivateIdentifier",
+                                "type": "PrivateName",
                                 "start": 1034,
                                 "end": 1036,
                                 "name": "f"
-                              },
-                              "computed": false,
-                              "optional": false
+                              }
                             }
                           }
                         }
@@ -279,8 +277,7 @@
             "type": "Literal",
             "start": 1108,
             "end": 1117,
-            "value": "Test262",
-            "raw": "'Test262'"
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -573,8 +570,7 @@
             "type": "Literal",
             "start": 1296,
             "end": 1344,
-            "value": "accessed private field from an ordinary object",
-            "raw": "'accessed private field from an ordinary object'"
+            "value": "accessed private field from an ordinary object"
           }
         ],
         "optional": false

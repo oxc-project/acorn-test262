@@ -126,8 +126,7 @@
             "type": "Literal",
             "start": 623,
             "end": 637,
-            "value": "Set Iterator",
-            "raw": "'Set Iterator'"
+            "value": "Set Iterator"
           },
           {
             "type": "MemberExpression",
@@ -165,8 +164,7 @@
             "type": "Literal",
             "start": 681,
             "end": 739,
-            "value": "`Set Iterator` is `SetIteratorProto[Symbol.toStringTag]`",
-            "raw": "'`Set Iterator` is `SetIteratorProto[Symbol.toStringTag]`'"
+            "value": "`Set Iterator` is `SetIteratorProto[Symbol.toStringTag]`"
           }
         ],
         "optional": false

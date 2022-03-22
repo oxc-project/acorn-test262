@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 719,
             "end": 749,
-            "value": "(?<fst>.)(?<snd>.)|(?<thd>x)",
-            "raw": "\"(?<fst>.)(?<snd>.)|(?<thd>x)\""
+            "value": "(?<fst>.)(?<snd>.)|(?<thd>x)"
           }
         }
       ],
@@ -63,15 +62,13 @@
             "type": "Literal",
             "start": 770,
             "end": 773,
-            "value": "g",
-            "raw": "\"g\""
+            "value": "g"
           },
           {
             "type": "Literal",
             "start": 775,
             "end": 779,
-            "value": "gu",
-            "raw": "\"gu\""
+            "value": "gu"
           }
         ]
       },
@@ -156,8 +153,7 @@
                   "type": "Literal",
                   "start": 841,
                   "end": 847,
-                  "value": "badc",
-                  "raw": "\"badc\""
+                  "value": "badc"
                 },
                 {
                   "type": "CallExpression",
@@ -171,8 +167,7 @@
                       "type": "Literal",
                       "start": 849,
                       "end": 855,
-                      "value": "abcd",
-                      "raw": "\"abcd\""
+                      "value": "abcd"
                     },
                     "property": {
                       "type": "Identifier",
@@ -194,8 +189,7 @@
                       "type": "Literal",
                       "start": 868,
                       "end": 874,
-                      "value": "$2$1",
-                      "raw": "\"$2$1\""
+                      "value": "$2$1"
                     }
                   ],
                   "optional": false
@@ -241,15 +235,13 @@
             "type": "Literal",
             "start": 899,
             "end": 901,
-            "value": "",
-            "raw": "\"\""
+            "value": ""
           },
           {
             "type": "Literal",
             "start": 903,
             "end": 906,
-            "value": "u",
-            "raw": "\"u\""
+            "value": "u"
           }
         ]
       },
@@ -334,8 +326,7 @@
                   "type": "Literal",
                   "start": 968,
                   "end": 974,
-                  "value": "bacd",
-                  "raw": "\"bacd\""
+                  "value": "bacd"
                 },
                 {
                   "type": "CallExpression",
@@ -349,8 +340,7 @@
                       "type": "Literal",
                       "start": 976,
                       "end": 982,
-                      "value": "abcd",
-                      "raw": "\"abcd\""
+                      "value": "abcd"
                     },
                     "property": {
                       "type": "Identifier",
@@ -372,8 +362,7 @@
                       "type": "Literal",
                       "start": 995,
                       "end": 1001,
-                      "value": "$2$1",
-                      "raw": "\"$2$1\""
+                      "value": "$2$1"
                     }
                   ],
                   "optional": false

@@ -108,8 +108,7 @@
             "type": "Literal",
             "start": 723,
             "end": 764,
-            "value": "Binding is created but not initialized.",
-            "raw": "'Binding is created but not initialized.'"
+            "value": "Binding is created but not initialized."
           }
         ],
         "optional": false
@@ -177,8 +176,7 @@
                 "type": "Literal",
                 "start": 827,
                 "end": 836,
-                "value": "test262",
-                "raw": "'test262'"
+                "value": "test262"
               }
             ],
             "optional": false
@@ -216,8 +214,7 @@
               "type": "Literal",
               "start": 874,
               "end": 876,
-              "value": 23,
-              "raw": "23"
+              "value": 23
             }
           }
         ],

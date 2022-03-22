@@ -69,8 +69,7 @@
                         "type": "Literal",
                         "start": 684,
                         "end": 687,
-                        "value": "0",
-                        "raw": "'0'"
+                        "value": "0"
                       },
                       {
                         "type": "ObjectExpression",
@@ -153,8 +152,7 @@
             "type": "Literal",
             "start": 761,
             "end": 762,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -343,8 +341,7 @@
                                   "type": "Literal",
                                   "start": 911,
                                   "end": 912,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 }
                               }
                             }
@@ -587,8 +584,7 @@
             "type": "Literal",
             "start": 1169,
             "end": 1262,
-            "value": "Array.from.call(constructorSetsIndex0ConfigurableFalse, items) throws a TypeError exception",
-            "raw": "'Array.from.call(constructorSetsIndex0ConfigurableFalse, items) throws a TypeError exception'"
+            "value": "Array.from.call(constructorSetsIndex0ConfigurableFalse, items) throws a TypeError exception"
           }
         ],
         "optional": false
@@ -632,15 +628,13 @@
             "type": "Literal",
             "start": 1295,
             "end": 1296,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1298,
             "end": 1343,
-            "value": "The value of closeCount is expected to be 1",
-            "raw": "'The value of closeCount is expected to be 1'"
+            "value": "The value of closeCount is expected to be 1"
           }
         ],
         "optional": false

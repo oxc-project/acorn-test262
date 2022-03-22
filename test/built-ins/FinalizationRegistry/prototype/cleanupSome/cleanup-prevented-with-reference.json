@@ -255,8 +255,7 @@
                   "type": "Literal",
                   "start": 1159,
                   "end": 1168,
-                  "value": "target!",
-                  "raw": "'target!'"
+                  "value": "target!"
                 }
               ],
               "optional": false
@@ -300,8 +299,7 @@
                   "type": "Literal",
                   "start": 1215,
                   "end": 1227,
-                  "value": "referenced",
-                  "raw": "'referenced'"
+                  "value": "referenced"
                 }
               ],
               "optional": false
@@ -530,8 +528,7 @@
                             "type": "Literal",
                             "start": 1409,
                             "end": 1410,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           }
                         ],
                         "optional": false
@@ -579,8 +576,7 @@
                               "type": "Literal",
                               "start": 1445,
                               "end": 1446,
-                              "value": 0,
-                              "raw": "0"
+                              "value": 0
                             },
                             "computed": true,
                             "optional": false
@@ -589,8 +585,7 @@
                             "type": "Literal",
                             "start": 1449,
                             "end": 1458,
-                            "value": "target!",
-                            "raw": "'target!'"
+                            "value": "target!"
                           }
                         ],
                         "optional": false
@@ -641,15 +636,13 @@
                             "type": "Literal",
                             "start": 1500,
                             "end": 1508,
-                            "value": "object",
-                            "raw": "'object'"
+                            "value": "object"
                           },
                           {
                             "type": "Literal",
                             "start": 1510,
                             "end": 1532,
-                            "value": "referenced preserved",
-                            "raw": "'referenced preserved'"
+                            "value": "referenced preserved"
                           }
                         ],
                         "optional": false

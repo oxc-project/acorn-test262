@@ -69,8 +69,7 @@
                         "type": "Literal",
                         "start": 418,
                         "end": 436,
-                        "value": "#1: NaN === null",
-                        "raw": "\"#1: NaN === null\""
+                        "value": "#1: NaN === null"
                       }
                     ]
                   }
@@ -126,8 +125,7 @@
                         "type": "Literal",
                         "start": 510,
                         "end": 533,
-                        "value": "#2: Infinity === null",
-                        "raw": "\"#2: Infinity === null\""
+                        "value": "#2: Infinity === null"
                       }
                     ]
                   }
@@ -183,8 +181,7 @@
                         "type": "Literal",
                         "start": 608,
                         "end": 632,
-                        "value": "#3: undefined === null",
-                        "raw": "\"#3: undefined === null\""
+                        "value": "#3: undefined === null"
                       }
                     ]
                   }

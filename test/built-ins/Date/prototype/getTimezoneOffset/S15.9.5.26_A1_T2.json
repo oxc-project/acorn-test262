@@ -81,8 +81,7 @@
             "type": "Literal",
             "start": 409,
             "end": 476,
-            "value": "The value of delete Date.prototype.getTimezoneOffset is not false",
-            "raw": "'The value of delete Date.prototype.getTimezoneOffset is not false'"
+            "value": "The value of delete Date.prototype.getTimezoneOffset is not false"
           }
         ],
         "optional": false
@@ -150,8 +149,7 @@
                   "type": "Literal",
                   "start": 522,
                   "end": 541,
-                  "value": "getTimezoneOffset",
-                  "raw": "'getTimezoneOffset'"
+                  "value": "getTimezoneOffset"
                 }
               ],
               "optional": false
@@ -161,8 +159,7 @@
             "type": "Literal",
             "start": 546,
             "end": 637,
-            "value": "The value of !Date.prototype.hasOwnProperty('getTimezoneOffset') is expected to be true",
-            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'getTimezoneOffset\\') is expected to be true'"
+            "value": "The value of !Date.prototype.hasOwnProperty('getTimezoneOffset') is expected to be true"
           }
         ],
         "optional": false

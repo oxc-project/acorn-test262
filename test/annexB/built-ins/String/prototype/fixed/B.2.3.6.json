@@ -43,8 +43,7 @@
                 "type": "Literal",
                 "start": 478,
                 "end": 481,
-                "value": "_",
-                "raw": "'_'"
+                "value": "_"
               },
               "property": {
                 "type": "Identifier",
@@ -62,8 +61,7 @@
             "type": "Literal",
             "start": 491,
             "end": 503,
-            "value": "<tt>_</tt>",
-            "raw": "'<tt>_</tt>'"
+            "value": "<tt>_</tt>"
           }
         ],
         "optional": false
@@ -109,8 +107,7 @@
                 "type": "Literal",
                 "start": 523,
                 "end": 526,
-                "value": "<",
-                "raw": "'<'"
+                "value": "<"
               },
               "property": {
                 "type": "Identifier",
@@ -128,8 +125,7 @@
             "type": "Literal",
             "start": 536,
             "end": 548,
-            "value": "<tt><</tt>",
-            "raw": "'<tt><</tt>'"
+            "value": "<tt><</tt>"
           }
         ],
         "optional": false
@@ -217,8 +213,7 @@
                 "type": "Literal",
                 "start": 596,
                 "end": 600,
-                "value": 42,
-                "raw": "0x2A"
+                "value": 42
               }
             ],
             "optional": false
@@ -227,8 +222,7 @@
             "type": "Literal",
             "start": 603,
             "end": 616,
-            "value": "<tt>42</tt>",
-            "raw": "'<tt>42</tt>'"
+            "value": "<tt>42</tt>"
           }
         ],
         "optional": false

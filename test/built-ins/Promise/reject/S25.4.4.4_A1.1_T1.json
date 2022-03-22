@@ -61,15 +61,13 @@
             "type": "Literal",
             "start": 257,
             "end": 267,
-            "value": "function",
-            "raw": "\"function\""
+            "value": "function"
           },
           {
             "type": "Literal",
             "start": 271,
             "end": 338,
-            "value": "The value of `typeof Promise.reject` is expected to be \"function\"",
-            "raw": "'The value of `typeof Promise.reject` is expected to be \"function\"'"
+            "value": "The value of `typeof Promise.reject` is expected to be \"function\""
           }
         ],
         "optional": false

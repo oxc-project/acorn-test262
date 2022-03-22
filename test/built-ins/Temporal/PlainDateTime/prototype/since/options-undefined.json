@@ -46,64 +46,55 @@
                 "type": "Literal",
                 "start": 320,
                 "end": 324,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
-                "value": 5,
-                "raw": "5"
+                "value": 5
               },
               {
                 "type": "Literal",
                 "start": 329,
                 "end": 330,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 332,
                 "end": 334,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 336,
                 "end": 338,
-                "value": 34,
-                "raw": "34"
+                "value": 34
               },
               {
                 "type": "Literal",
                 "start": 340,
                 "end": 342,
-                "value": 56,
-                "raw": "56"
+                "value": 56
               },
               {
                 "type": "Literal",
                 "start": 344,
                 "end": 347,
-                "value": 987,
-                "raw": "987"
+                "value": 987
               },
               {
                 "type": "Literal",
                 "start": 349,
                 "end": 352,
-                "value": 654,
-                "raw": "654"
+                "value": 654
               },
               {
                 "type": "Literal",
                 "start": 354,
                 "end": 357,
-                "value": 321,
-                "raw": "321"
+                "value": 321
               }
             ]
           }
@@ -154,64 +145,55 @@
                 "type": "Literal",
                 "start": 401,
                 "end": 405,
-                "value": 2000,
-                "raw": "2000"
+                "value": 2000
               },
               {
                 "type": "Literal",
                 "start": 407,
                 "end": 408,
-                "value": 6,
-                "raw": "6"
+                "value": 6
               },
               {
                 "type": "Literal",
                 "start": 410,
                 "end": 412,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 416,
-                "value": 12,
-                "raw": "12"
+                "value": 12
               },
               {
                 "type": "Literal",
                 "start": 418,
                 "end": 420,
-                "value": 34,
-                "raw": "34"
+                "value": 34
               },
               {
                 "type": "Literal",
                 "start": 422,
                 "end": 424,
-                "value": 56,
-                "raw": "56"
+                "value": 56
               },
               {
                 "type": "Literal",
                 "start": 426,
                 "end": 429,
-                "value": 987,
-                "raw": "987"
+                "value": 987
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 434,
-                "value": 654,
-                "raw": "654"
+                "value": 654
               },
               {
                 "type": "Literal",
                 "start": 436,
                 "end": 439,
-                "value": 322,
-                "raw": "322"
+                "value": 322
               }
             ]
           }
@@ -328,15 +310,13 @@
             "type": "Literal",
             "start": 526,
             "end": 527,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 529,
             "end": 559,
-            "value": "default largest unit is days",
-            "raw": "\"default largest unit is days\""
+            "value": "default largest unit is days"
           }
         ],
         "optional": false
@@ -393,15 +373,13 @@
             "type": "Literal",
             "start": 596,
             "end": 597,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 599,
             "end": 629,
-            "value": "default largest unit is days",
-            "raw": "\"default largest unit is days\""
+            "value": "default largest unit is days"
           }
         ],
         "optional": false
@@ -458,15 +436,13 @@
             "type": "Literal",
             "start": 665,
             "end": 666,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 668,
             "end": 698,
-            "value": "default largest unit is days",
-            "raw": "\"default largest unit is days\""
+            "value": "default largest unit is days"
           }
         ],
         "optional": false
@@ -523,15 +499,13 @@
             "type": "Literal",
             "start": 733,
             "end": 735,
-            "value": 41,
-            "raw": "41"
+            "value": 41
           },
           {
             "type": "Literal",
             "start": 737,
             "end": 767,
-            "value": "default largest unit is days",
-            "raw": "\"default largest unit is days\""
+            "value": "default largest unit is days"
           }
         ],
         "optional": false
@@ -588,15 +562,13 @@
             "type": "Literal",
             "start": 809,
             "end": 810,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 812,
             "end": 866,
-            "value": "default smallest unit is nanoseconds and no rounding",
-            "raw": "\"default smallest unit is nanoseconds and no rounding\""
+            "value": "default smallest unit is nanoseconds and no rounding"
           }
         ],
         "optional": false
@@ -705,15 +677,13 @@
             "type": "Literal",
             "start": 942,
             "end": 943,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 945,
             "end": 975,
-            "value": "default largest unit is days",
-            "raw": "\"default largest unit is days\""
+            "value": "default largest unit is days"
           }
         ],
         "optional": false
@@ -770,15 +740,13 @@
             "type": "Literal",
             "start": 1012,
             "end": 1013,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1015,
             "end": 1045,
-            "value": "default largest unit is days",
-            "raw": "\"default largest unit is days\""
+            "value": "default largest unit is days"
           }
         ],
         "optional": false
@@ -835,15 +803,13 @@
             "type": "Literal",
             "start": 1081,
             "end": 1082,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1084,
             "end": 1114,
-            "value": "default largest unit is days",
-            "raw": "\"default largest unit is days\""
+            "value": "default largest unit is days"
           }
         ],
         "optional": false
@@ -900,15 +866,13 @@
             "type": "Literal",
             "start": 1149,
             "end": 1151,
-            "value": 41,
-            "raw": "41"
+            "value": 41
           },
           {
             "type": "Literal",
             "start": 1153,
             "end": 1183,
-            "value": "default largest unit is days",
-            "raw": "\"default largest unit is days\""
+            "value": "default largest unit is days"
           }
         ],
         "optional": false
@@ -965,15 +929,13 @@
             "type": "Literal",
             "start": 1225,
             "end": 1226,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 1228,
             "end": 1282,
-            "value": "default smallest unit is nanoseconds and no rounding",
-            "raw": "\"default smallest unit is nanoseconds and no rounding\""
+            "value": "default smallest unit is nanoseconds and no rounding"
           }
         ],
         "optional": false

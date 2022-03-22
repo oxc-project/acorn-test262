@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 537,
             "end": 544,
-            "value": "fixed",
-            "raw": "\"fixed\""
+            "value": "fixed"
           },
           {
             "type": "ObjectExpression",

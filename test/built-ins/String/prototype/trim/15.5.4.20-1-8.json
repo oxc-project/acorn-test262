@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 282,
                 "end": 291,
-                "value": "    abc",
-                "raw": "\"    abc\""
+                "value": "    abc"
               }
             ],
             "optional": false
@@ -101,15 +100,13 @@
             "type": "Literal",
             "start": 327,
             "end": 332,
-            "value": "abc",
-            "raw": "\"abc\""
+            "value": "abc"
           },
           {
             "type": "Literal",
             "start": 334,
             "end": 349,
-            "value": "strObj.trim()",
-            "raw": "'strObj.trim()'"
+            "value": "strObj.trim()"
           }
         ],
         "optional": false
@@ -173,15 +170,13 @@
             "type": "Literal",
             "start": 388,
             "end": 397,
-            "value": "    abc",
-            "raw": "\"    abc\""
+            "value": "    abc"
           },
           {
             "type": "Literal",
             "start": 399,
             "end": 418,
-            "value": "strObj.toString()",
-            "raw": "'strObj.toString()'"
+            "value": "strObj.toString()"
           }
         ],
         "optional": false

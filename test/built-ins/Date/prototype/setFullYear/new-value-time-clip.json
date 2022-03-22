@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 911,
             "end": 918,
-            "value": 8640000000000000,
-            "raw": "8.64e15"
+            "value": 8640000000000000
           }
         }
       ],
@@ -48,8 +47,7 @@
             "type": "Literal",
             "start": 934,
             "end": 940,
-            "value": 275760,
-            "raw": "275760"
+            "value": 275760
           }
         }
       ],
@@ -74,8 +72,7 @@
             "type": "Literal",
             "start": 956,
             "end": 958,
-            "value": 12,
-            "raw": "12"
+            "value": 12
           }
         }
       ],
@@ -100,8 +97,7 @@
             "type": "Literal",
             "start": 975,
             "end": 976,
-            "value": 8,
-            "raw": "8"
+            "value": 8
           }
         }
       ],
@@ -283,8 +279,7 @@
                 "type": "Literal",
                 "start": 1108,
                 "end": 1109,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           ],
@@ -336,8 +331,7 @@
             "type": "Literal",
             "start": 1148,
             "end": 1170,
-            "value": "overflow due to year",
-            "raw": "'overflow due to year'"
+            "value": "overflow due to year"
           }
         ],
         "optional": false
@@ -439,8 +433,7 @@
                 "type": "Literal",
                 "start": 1250,
                 "end": 1251,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               }
             }
           ],
@@ -492,8 +485,7 @@
             "type": "Literal",
             "start": 1290,
             "end": 1313,
-            "value": "overflow due to month",
-            "raw": "'overflow due to month'"
+            "value": "overflow due to month"
           }
         ],
         "optional": false
@@ -601,8 +593,7 @@
                 "type": "Literal",
                 "start": 1402,
                 "end": 1403,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               }
             }
           ],
@@ -654,8 +645,7 @@
             "type": "Literal",
             "start": 1442,
             "end": 1464,
-            "value": "overflow due to date",
-            "raw": "'overflow due to date'"
+            "value": "overflow due to date"
           }
         ],
         "optional": false

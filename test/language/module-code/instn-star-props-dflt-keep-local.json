@@ -24,8 +24,7 @@
         "type": "Literal",
         "start": 1062,
         "end": 1115,
-        "value": "./instn-star-props-dflt-keep-local-named_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-keep-local-named_FIXTURE.js'"
+        "value": "./instn-star-props-dflt-keep-local-named_FIXTURE.js"
       }
     },
     {
@@ -49,8 +48,7 @@
         "type": "Literal",
         "start": 1145,
         "end": 1197,
-        "value": "./instn-star-props-dflt-keep-local-prod_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-keep-local-prod_FIXTURE.js'"
+        "value": "./instn-star-props-dflt-keep-local-prod_FIXTURE.js"
       }
     },
     {
@@ -89,8 +87,7 @@
               "type": "Literal",
               "start": 1217,
               "end": 1226,
-              "value": "default",
-              "raw": "'default'"
+              "value": "default"
             },
             "operator": "in",
             "right": {
@@ -111,8 +108,7 @@
             "type": "Literal",
             "start": 1243,
             "end": 1277,
-            "value": "default specified via identifier",
-            "raw": "'default specified via identifier'"
+            "value": "default specified via identifier"
           }
         ],
         "optional": false
@@ -154,8 +150,7 @@
               "type": "Literal",
               "start": 1301,
               "end": 1310,
-              "value": "default",
-              "raw": "'default'"
+              "value": "default"
             },
             "operator": "in",
             "right": {
@@ -176,8 +171,7 @@
             "type": "Literal",
             "start": 1332,
             "end": 1376,
-            "value": "default specified via dedicated production",
-            "raw": "'default specified via dedicated production'"
+            "value": "default specified via dedicated production"
           }
         ],
         "optional": false

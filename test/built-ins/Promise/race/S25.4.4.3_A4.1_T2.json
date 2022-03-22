@@ -212,8 +212,7 @@
                                             "type": "Literal",
                                             "start": 430,
                                             "end": 437,
-                                            "value": "value",
-                                            "raw": "'value'"
+                                            "value": "value"
                                           },
                                           {
                                             "type": "ObjectExpression",
@@ -266,8 +265,7 @@
                                                               "type": "Literal",
                                                               "start": 497,
                                                               "end": 516,
-                                                              "value": "abrupt completion",
-                                                              "raw": "\"abrupt completion\""
+                                                              "value": "abrupt completion"
                                                             }
                                                           ]
                                                         }
@@ -409,8 +407,7 @@
                             "type": "Literal",
                             "start": 653,
                             "end": 734,
-                            "value": "Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError",
-                            "raw": "'Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError'"
+                            "value": "Promise unexpectedly fulfilled: Promise.race(iterThrows) should throw TypeError"
                           }
                         ]
                       }
@@ -495,8 +492,7 @@
                             "type": "Literal",
                             "start": 795,
                             "end": 861,
-                            "value": "The value of !!(err instanceof TypeError) is expected to be true",
-                            "raw": "'The value of !!(err instanceof TypeError) is expected to be true'"
+                            "value": "The value of !!(err instanceof TypeError) is expected to be true"
                           }
                         ],
                         "optional": false

@@ -85,15 +85,13 @@
                 "type": "Literal",
                 "start": 306,
                 "end": 311,
-                "value": "abc",
-                "raw": "\"abc\""
+                "value": "abc"
               },
               {
                 "type": "Literal",
                 "start": 313,
                 "end": 316,
-                "value": "c",
-                "raw": "\"c\""
+                "value": "c"
               }
             ],
             "optional": false
@@ -102,15 +100,13 @@
             "type": "Literal",
             "start": 319,
             "end": 320,
-            "value": 2,
-            "raw": "2"
+            "value": 2
           },
           {
             "type": "Literal",
             "start": 322,
             "end": 368,
-            "value": "Array.prototype.lastIndexOf.call(\"abc\", \"c\")",
-            "raw": "'Array.prototype.lastIndexOf.call(\"abc\", \"c\")'"
+            "value": "Array.prototype.lastIndexOf.call(\"abc\", \"c\")"
           }
         ],
         "optional": false

@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 588,
             "end": 601,
-            "value": "granularity",
-            "raw": "'granularity'"
+            "value": "granularity"
           },
           {
             "type": "ObjectExpression",

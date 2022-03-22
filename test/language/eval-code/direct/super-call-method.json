@@ -96,8 +96,7 @@
                               "type": "Literal",
                               "start": 1531,
                               "end": 1560,
-                              "value": "super(evaluatedArg = true);",
-                              "raw": "'super(evaluatedArg = true);'"
+                              "value": "super(evaluatedArg = true);"
                             }
                           ],
                           "optional": false
@@ -244,8 +243,7 @@
             "type": "Literal",
             "start": 1672,
             "end": 1713,
-            "value": "did not perform ArgumentsListEvaluation",
-            "raw": "'did not perform ArgumentsListEvaluation'"
+            "value": "did not perform ArgumentsListEvaluation"
           }
         ],
         "optional": false
