@@ -13,5 +13,13 @@ Files produce the following errors are ignored:
 * Invalid regular expression flag
 * Unexpected token (possibility a stage 3 feature)
 
+## Maintainance
+
+```bash
+pnpm update
+git submodule update --recursive --remote
+```
+
 [acorn]: https://github.com/acornjs/acorn
 [test262]: https://github.com/tc39/test262
+
