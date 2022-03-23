@@ -2,9 +2,8 @@ import { Parser } from "acorn";
 import fs from "fs";
 import path from "path";
 import YAML from "yaml";
-import stage3 from 'acorn-stage3'
-import * as acornWalk from "acorn-walk"
-
+import stage3 from "acorn-stage3";
+import traverse from "traverse";
 
 async function* walk(dir) {
   for await (const d of await fs.promises.opendir(dir)) {
@@ -51,11 +50,11 @@ for await (const p of walk("./test262/test")) {
     });
 
     // omit the raw field, which is useless for test comparisons
-    acornWalk.simple(astJson, {
-      Literal(node) {
-        delete node.raw
+    traverse(astJson).forEach((node) => {
+      if (node && node.type === "Literal") {
+        delete node.raw;
       }
-    })
+    });
 
     await fs.promises.writeFile(writeFile, JSON.stringify(astJson, null, 2));
   } catch (err) {
@@ -64,4 +63,4 @@ for await (const p of walk("./test262/test")) {
   }
 }
 
-console.log("Done.")
+console.log("Done.");

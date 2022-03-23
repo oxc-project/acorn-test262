@@ -10,10 +10,8 @@
   },
   "devDependencies": {
     "acorn": "^8.7.0",
-    "yaml": "^1.10.2"
-  },
-  "dependencies": {
     "acorn-stage3": "^4.0.0",
-    "acorn-walk": "^8.2.0"
+    "traverse": "^0.6.6",
+    "yaml": "^1.10.2"
   }
 }

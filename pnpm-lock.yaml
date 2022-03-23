@@ -3,15 +3,13 @@ lockfileVersion: 5.3
 specifiers:
   acorn: ^8.7.0
   acorn-stage3: ^4.0.0
-  acorn-walk: ^8.2.0
+  traverse: ^0.6.6
   yaml: ^1.10.2
-
-dependencies:
-  acorn-stage3: 4.0.0_acorn@8.7.0
-  acorn-walk: 8.2.0
 
 devDependencies:
   acorn: 8.7.0
+  acorn-stage3: 4.0.0_acorn@8.7.0
+  traverse: 0.6.6
   yaml: 1.10.2
 
 packages:
@@ -24,7 +22,7 @@ packages:
     dependencies:
       acorn: 8.7.0
       acorn-private-class-elements: 0.2.7_acorn@8.7.0
-    dev: false
+    dev: true
 
   /acorn-private-class-elements/0.2.7_acorn@8.7.0:
     resolution: {integrity: sha512-+GZH2wOKNZOBI4OOPmzpo4cs6mW297sn6fgIk1dUI08jGjhAaEwvC39mN2gJAg2lmAQJ1rBkFqKWonL3Zz6PVA==}
@@ -33,7 +31,7 @@ packages:
       acorn: ^6.1.0 || ^7 || ^8
     dependencies:
       acorn: 8.7.0
-    dev: false
+    dev: true
 
   /acorn-private-methods/0.3.3_acorn@8.7.0:
     resolution: {integrity: sha512-46oeEol3YFvLSah5m9hGMlNpxDBCEkdceJgf01AjqKYTK9r6HexKs2rgSbLK81pYjZZMonhftuUReGMlbbv05w==}
@@ -43,7 +41,7 @@ packages:
     dependencies:
       acorn: 8.7.0
       acorn-private-class-elements: 0.2.7_acorn@8.7.0
-    dev: false
+    dev: true
 
   /acorn-stage3/4.0.0_acorn@8.7.0:
     resolution: {integrity: sha512-BR+LaADtA6GTB5prkNqWmlmCLYmkyW0whvSxdHhbupTaro2qBJ95fJDEiRLPUmiACGHPaYyeH9xmNJWdGfXRQw==}
@@ -55,7 +53,7 @@ packages:
       acorn-class-fields: 0.3.7_acorn@8.7.0
       acorn-private-methods: 0.3.3_acorn@8.7.0
       acorn-static-class-features: 0.2.4_acorn@8.7.0
-    dev: false
+    dev: true
 
   /acorn-static-class-features/0.2.4_acorn@8.7.0:
     resolution: {integrity: sha512-5X4mpYq5J3pdndLmIB0+WtFd/mKWnNYpuTlTzj32wUu/PMmEGOiayQ5UrqgwdBNiaZBtDDh5kddpP7Yg2QaQYA==}
@@ -65,17 +63,16 @@ packages:
     dependencies:
       acorn: 8.7.0
       acorn-private-class-elements: 0.2.7_acorn@8.7.0
-    dev: false
-
-  /acorn-walk/8.2.0:
-    resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
-    engines: {node: '>=0.4.0'}
-    dev: false
+    dev: true
 
   /acorn/8.7.0:
     resolution: {integrity: sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+    dev: true
+
+  /traverse/0.6.6:
+    resolution: {integrity: sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=}
     dev: true
 
   /yaml/1.10.2:
