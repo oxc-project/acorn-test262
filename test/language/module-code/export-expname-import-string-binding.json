@@ -16,7 +16,8 @@
             "type": "Literal",
             "start": 387,
             "end": 390,
-            "value": "☿"
+            "value": "☿",
+            "raw": "\"☿\""
           },
           "local": {
             "type": "Identifier",

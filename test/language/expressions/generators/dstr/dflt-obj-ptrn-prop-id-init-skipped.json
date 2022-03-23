@@ -331,8 +331,7 @@
                       "type": "Literal",
                       "start": 1766,
                       "end": 1770,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   },
@@ -374,8 +373,7 @@
                       "type": "Literal",
                       "start": 1781,
                       "end": 1786,
-                      "value": false,
-                      "raw": "false"
+                      "value": false
                     },
                     "kind": "init"
                   },
@@ -447,8 +445,7 @@
                       "type": "Literal",
                       "start": 1821,
                       "end": 1825,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     }
                   ],
                   "optional": false
@@ -536,8 +533,7 @@
                       "type": "Literal",
                       "start": 1876,
                       "end": 1881,
-                      "value": false,
-                      "raw": "false"
+                      "value": false
                     }
                   ],
                   "optional": false

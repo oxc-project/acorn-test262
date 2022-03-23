@@ -437,8 +437,7 @@
                               "type": "Literal",
                               "start": 1914,
                               "end": 1919,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             },
                             "kind": "init"
                           },
@@ -459,8 +458,7 @@
                               "type": "Literal",
                               "start": 1937,
                               "end": 1942,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             },
                             "kind": "init"
                           },
@@ -481,8 +479,7 @@
                               "type": "Literal",
                               "start": 1964,
                               "end": 1968,
-                              "value": true,
-                              "raw": "true"
+                              "value": true
                             },
                             "kind": "init"
                           },

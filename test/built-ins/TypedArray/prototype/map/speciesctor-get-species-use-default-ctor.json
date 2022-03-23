@@ -418,8 +418,7 @@
                       "type": "Literal",
                       "start": 1203,
                       "end": 1207,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     }
                   }
                 },

@@ -60,8 +60,7 @@
           "type": "Literal",
           "start": 402,
           "end": 407,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       }
     },

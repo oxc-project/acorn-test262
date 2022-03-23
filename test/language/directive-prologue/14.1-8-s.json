@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 277,
               "end": 294,
-              "value": "bogus directive",
-              "raw": "\"bogus directive\""
+              "value": "bogus directive"
             },
             "directive": "bogus directive"
           },
@@ -43,8 +42,7 @@
               "type": "Literal",
               "start": 301,
               "end": 313,
-              "value": "use strict",
-              "raw": "\"use strict\""
+              "value": "use strict"
             },
             "directive": "use strict"
           },

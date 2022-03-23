@@ -206,22 +206,19 @@
               "type": "Literal",
               "start": 493,
               "end": 497,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             {
               "type": "Literal",
               "start": 499,
               "end": 504,
-              "value": false,
-              "raw": "false"
+              "value": false
             },
             {
               "type": "Literal",
               "start": 506,
               "end": 510,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             {
               "type": "Identifier",

@@ -26,8 +26,7 @@
             "type": "Literal",
             "start": 367,
             "end": 371,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         },
         "operator": "!==",
@@ -88,8 +87,7 @@
                         "type": "Literal",
                         "start": 446,
                         "end": 450,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   }
@@ -117,8 +115,7 @@
             "type": "Literal",
             "start": 471,
             "end": 475,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           "operator": "<<",
           "right": {
@@ -179,8 +176,7 @@
                         "type": "Literal",
                         "start": 550,
                         "end": 554,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "operator": "<<",
                       "right": {
@@ -235,8 +231,7 @@
             "type": "Literal",
             "start": 597,
             "end": 601,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         },
         "operator": "!==",
@@ -310,8 +305,7 @@
                         "type": "Literal",
                         "start": 700,
                         "end": 704,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   }
@@ -339,8 +333,7 @@
             "type": "Literal",
             "start": 725,
             "end": 729,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           "operator": "<<",
           "right": {
@@ -414,8 +407,7 @@
                         "type": "Literal",
                         "start": 828,
                         "end": 832,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "operator": "<<",
                       "right": {

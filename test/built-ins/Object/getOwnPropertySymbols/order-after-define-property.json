@@ -503,8 +503,7 @@
                   "type": "Literal",
                   "start": 1109,
                   "end": 1114,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               }

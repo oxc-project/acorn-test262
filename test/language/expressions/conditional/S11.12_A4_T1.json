@@ -23,22 +23,19 @@
               "type": "Literal",
               "start": 276,
               "end": 280,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "Literal",
               "start": 283,
               "end": 288,
-              "value": false,
-              "raw": "false"
+              "value": false
             },
             "alternate": {
               "type": "Literal",
               "start": 291,
               "end": 295,
-              "value": true,
-              "raw": "true"
+              "value": true
             }
           }
         },
@@ -47,8 +44,7 @@
           "type": "Literal",
           "start": 301,
           "end": 306,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -114,8 +110,7 @@
                 "type": "Literal",
                 "start": 408,
                 "end": 412,
-                "value": true,
-                "raw": "true"
+                "value": true
               }
             ]
           }
@@ -143,8 +138,7 @@
               "type": "Literal",
               "start": 420,
               "end": 424,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "Identifier",
@@ -156,8 +150,7 @@
               "type": "Literal",
               "start": 431,
               "end": 436,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           }
         },
@@ -232,8 +225,7 @@
                 "type": "Literal",
                 "start": 566,
                 "end": 571,
-                "value": false,
-                "raw": "false"
+                "value": false
               }
             ]
           }
@@ -273,8 +265,7 @@
               "type": "Literal",
               "start": 587,
               "end": 591,
-              "value": true,
-              "raw": "true"
+              "value": true
             }
           }
         },

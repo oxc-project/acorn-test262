@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 302,
             "end": 303,
-            "value": 3,
-            "raw": "3"
+            "value": 3
           }
         }
       ],
@@ -57,8 +56,7 @@
                   "type": "Literal",
                   "start": 311,
                   "end": 315,
-                  "value": "ab",
-                  "raw": "\"ab\""
+                  "value": "ab"
                 },
                 "property": {
                   "type": "Identifier",
@@ -74,8 +72,7 @@
                   "type": "Literal",
                   "start": 324,
                   "end": 327,
-                  "value": "b",
-                  "raw": "\"b\""
+                  "value": "b"
                 },
                 {
                   "type": "CallExpression",
@@ -107,8 +104,7 @@
                               "type": "Literal",
                               "start": 377,
                               "end": 389,
-                              "value": "use strict",
-                              "raw": "\"use strict\""
+                              "value": "use strict"
                             },
                             "directive": "use strict"
                           },
@@ -160,8 +156,7 @@
                                       "type": "Literal",
                                       "start": 533,
                                       "end": 536,
-                                      "value": "a",
-                                      "raw": "\"a\""
+                                      "value": "a"
                                     }
                                   }
                                 ]
@@ -183,8 +178,7 @@
               "type": "Literal",
               "start": 607,
               "end": 611,
-              "value": "aa",
-              "raw": "\"aa\""
+              "value": "aa"
             }
           }
         },
@@ -226,8 +220,7 @@
               "type": "Literal",
               "start": 646,
               "end": 675,
-              "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
+              "value": "'this' had incorrect value!"
             }
           }
         ]

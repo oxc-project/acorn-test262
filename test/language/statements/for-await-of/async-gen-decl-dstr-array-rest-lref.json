@@ -150,8 +150,7 @@
                                 "type": "Literal",
                                 "start": 1900,
                                 "end": 1904,
-                                "value": true,
-                                "raw": "true"
+                                "value": true
                               },
                               "kind": "init"
                             }

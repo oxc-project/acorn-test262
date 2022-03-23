@@ -125,7 +125,8 @@
                                     "type": "Literal",
                                     "start": 1867,
                                     "end": 1868,
-                                    "value": 0
+                                    "value": 0,
+                                    "raw": "0"
                                   },
                                   "value": {
                                     "type": "Identifier",
@@ -146,7 +147,8 @@
                                     "type": "Literal",
                                     "start": 1873,
                                     "end": 1874,
-                                    "value": 1
+                                    "value": 1,
+                                    "raw": "1"
                                   },
                                   "value": {
                                     "type": "Identifier",
@@ -167,7 +169,8 @@
                                     "type": "Literal",
                                     "start": 1879,
                                     "end": 1880,
-                                    "value": 2
+                                    "value": 2,
+                                    "raw": "2"
                                   },
                                   "value": {
                                     "type": "Identifier",
@@ -188,7 +191,8 @@
                                     "type": "Literal",
                                     "start": 1885,
                                     "end": 1886,
-                                    "value": 3
+                                    "value": 3,
+                                    "raw": "3"
                                   },
                                   "value": {
                                     "type": "Identifier",

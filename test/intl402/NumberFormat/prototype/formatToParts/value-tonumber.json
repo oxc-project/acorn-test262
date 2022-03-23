@@ -51,8 +51,7 @@
                     "type": "Literal",
                     "start": 481,
                     "end": 485,
-                    "value": null,
-                    "raw": "null"
+                    "value": null
                   },
                   {
                     "type": "UnaryExpression",
@@ -78,8 +77,7 @@
                     "type": "Literal",
                     "start": 495,
                     "end": 499,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   },
                   {
                     "type": "Literal",
@@ -98,8 +96,7 @@
                     "type": "Literal",
                     "start": 508,
                     "end": 513,
-                    "value": false,
-                    "raw": "false"
+                    "value": false
                   },
                   {
                     "type": "UnaryExpression",

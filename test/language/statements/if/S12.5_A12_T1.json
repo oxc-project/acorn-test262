@@ -11,8 +11,7 @@
         "type": "Literal",
         "start": 297,
         "end": 301,
-        "value": true,
-        "raw": "true"
+        "value": true
       },
       "consequent": {
         "type": "IfStatement",
@@ -22,8 +21,7 @@
           "type": "Literal",
           "start": 309,
           "end": 314,
-          "value": false,
-          "raw": "false"
+          "value": false
         },
         "consequent": {
           "type": "ThrowStatement",
@@ -63,8 +61,7 @@
           "type": "Literal",
           "start": 448,
           "end": 452,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "consequent": {
           "type": "ThrowStatement",
@@ -124,8 +121,7 @@
         "type": "Literal",
         "start": 690,
         "end": 694,
-        "value": true,
-        "raw": "true"
+        "value": true
       },
       "consequent": {
         "type": "IfStatement",
@@ -135,8 +131,7 @@
           "type": "Literal",
           "start": 702,
           "end": 706,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "consequent": {
           "type": "EmptyStatement",
@@ -176,8 +171,7 @@
           "type": "Literal",
           "start": 840,
           "end": 844,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "consequent": {
           "type": "ThrowStatement",
@@ -237,8 +231,7 @@
         "type": "Literal",
         "start": 1082,
         "end": 1087,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "consequent": {
         "type": "IfStatement",
@@ -248,8 +241,7 @@
           "type": "Literal",
           "start": 1095,
           "end": 1099,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "consequent": {
           "type": "ThrowStatement",
@@ -308,8 +300,7 @@
           "type": "Literal",
           "start": 1334,
           "end": 1338,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "consequent": {
           "type": "EmptyStatement",
@@ -350,8 +341,7 @@
         "type": "Literal",
         "start": 1475,
         "end": 1480,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "consequent": {
         "type": "IfStatement",
@@ -361,8 +351,7 @@
           "type": "Literal",
           "start": 1488,
           "end": 1492,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "consequent": {
           "type": "ThrowStatement",
@@ -421,8 +410,7 @@
           "type": "Literal",
           "start": 1727,
           "end": 1732,
-          "value": false,
-          "raw": "false"
+          "value": false
         },
         "consequent": {
           "type": "ThrowStatement",

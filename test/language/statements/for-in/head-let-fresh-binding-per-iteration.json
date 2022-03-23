@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 373,
                 "end": 377,
-                "value": null,
-                "raw": "null"
+                "value": null
               }
             ],
             "optional": false

@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 299,
               "end": 311,
-              "value": "use strict",
-              "raw": "\"use strict\""
+              "value": "use strict"
             },
             "directive": "use strict"
           },
@@ -117,8 +116,7 @@
             "type": "Literal",
             "start": 367,
             "end": 395,
-            "value": "f.call(undefined) !== true",
-            "raw": "'f.call(undefined) !== true'"
+            "value": "f.call(undefined) !== true"
           }
         ],
         "optional": false

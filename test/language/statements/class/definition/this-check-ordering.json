@@ -353,8 +353,7 @@
                           "type": "Literal",
                           "start": 522,
                           "end": 526,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         }
                       }
                     ],
@@ -541,8 +540,7 @@
                           "type": "Literal",
                           "start": 687,
                           "end": 691,
-                          "value": true,
-                          "raw": "true"
+                          "value": true
                         },
                         {
                           "type": "Literal",
@@ -722,8 +720,7 @@
                         "type": "Literal",
                         "start": 967,
                         "end": 971,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   },
@@ -920,8 +917,7 @@
                           "type": "Literal",
                           "start": 1141,
                           "end": 1145,
-                          "value": true,
-                          "raw": "true"
+                          "value": true
                         },
                         {
                           "type": "Literal",
@@ -1101,8 +1097,7 @@
                         "type": "Literal",
                         "start": 1421,
                         "end": 1425,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   },
@@ -1299,8 +1294,7 @@
                           "type": "Literal",
                           "start": 1595,
                           "end": 1599,
-                          "value": true,
-                          "raw": "true"
+                          "value": true
                         },
                         {
                           "type": "Literal",

@@ -342,8 +342,7 @@
                           "type": "Literal",
                           "start": 1938,
                           "end": 1943,
-                          "value": false,
-                          "raw": "false"
+                          "value": false
                         }
                       ],
                       "optional": false

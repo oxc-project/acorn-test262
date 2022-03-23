@@ -20,8 +20,7 @@
               "type": "Literal",
               "start": 481,
               "end": 485,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "ExpressionStatement",
@@ -200,8 +199,7 @@
               "type": "Literal",
               "start": 879,
               "end": 884,
-              "value": false,
-              "raw": "false"
+              "value": false
             },
             "consequent": {
               "type": "ExpressionStatement",

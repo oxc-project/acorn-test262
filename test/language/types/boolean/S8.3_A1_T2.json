@@ -25,8 +25,7 @@
               "type": "Literal",
               "start": 373,
               "end": 377,
-              "value": true,
-              "raw": "true"
+              "value": true
             }
           }
         },
@@ -93,8 +92,7 @@
               "type": "Literal",
               "start": 626,
               "end": 630,
-              "value": true,
-              "raw": "true"
+              "value": true
             }
           }
         },
@@ -161,8 +159,7 @@
               "type": "Literal",
               "start": 877,
               "end": 882,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           }
         },
@@ -229,8 +226,7 @@
               "type": "Literal",
               "start": 1132,
               "end": 1137,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           }
         },
@@ -287,16 +283,14 @@
           "type": "Literal",
           "start": 1378,
           "end": 1382,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "operator": "===",
         "right": {
           "type": "Literal",
           "start": 1387,
           "end": 1392,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -344,16 +338,14 @@
           "type": "Literal",
           "start": 1607,
           "end": 1611,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "operator": "==",
         "right": {
           "type": "Literal",
           "start": 1615,
           "end": 1620,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -401,16 +393,14 @@
           "type": "Literal",
           "start": 1834,
           "end": 1839,
-          "value": false,
-          "raw": "false"
+          "value": false
         },
         "operator": "===",
         "right": {
           "type": "Literal",
           "start": 1844,
           "end": 1848,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {
@@ -458,16 +448,14 @@
           "type": "Literal",
           "start": 2063,
           "end": 2068,
-          "value": false,
-          "raw": "false"
+          "value": false
         },
         "operator": "==",
         "right": {
           "type": "Literal",
           "start": 2072,
           "end": 2076,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {

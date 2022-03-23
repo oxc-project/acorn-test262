@@ -72,8 +72,7 @@
             "type": "Literal",
             "start": 1982,
             "end": 1986,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       ],
@@ -98,8 +97,7 @@
             "type": "Literal",
             "start": 1999,
             "end": 2003,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       ],

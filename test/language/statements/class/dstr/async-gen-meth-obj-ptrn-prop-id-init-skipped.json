@@ -343,8 +343,7 @@
                           "type": "Literal",
                           "start": 2019,
                           "end": 2023,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         }
                       ],
                       "optional": false
@@ -432,8 +431,7 @@
                           "type": "Literal",
                           "start": 2078,
                           "end": 2083,
-                          "value": false,
-                          "raw": "false"
+                          "value": false
                         }
                       ],
                       "optional": false
@@ -918,8 +916,7 @@
                               "type": "Literal",
                               "start": 2467,
                               "end": 2471,
-                              "value": null,
-                              "raw": "null"
+                              "value": null
                             },
                             "kind": "init"
                           },
@@ -961,8 +958,7 @@
                               "type": "Literal",
                               "start": 2482,
                               "end": 2487,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             },
                             "kind": "init"
                           },

@@ -110,8 +110,7 @@
                 "type": "Literal",
                 "start": 756,
                 "end": 760,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
@@ -314,7 +313,8 @@
                                     "type": "Literal",
                                     "start": 1001,
                                     "end": 1016,
-                                    "value": "localeMatcher"
+                                    "value": "localeMatcher",
+                                    "raw": "\"localeMatcher\""
                                   },
                                   "value": {
                                     "type": "Identifier",

@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 256,
                   "end": 267,
-                  "value": "undefined"
+                  "value": "undefined",
+                  "raw": "\"undefined\""
                 },
                 "value": {
                   "type": "Literal",

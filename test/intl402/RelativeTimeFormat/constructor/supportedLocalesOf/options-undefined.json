@@ -149,7 +149,8 @@
                   "type": "Literal",
                   "start": 761,
                   "end": 776,
-                  "value": "localeMatcher"
+                  "value": "localeMatcher",
+                  "raw": "\"localeMatcher\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -320,8 +321,7 @@
             "type": "Literal",
             "start": 938,
             "end": 942,
-            "value": true,
-            "raw": "true"
+            "value": true
           },
           {
             "type": "Literal",
@@ -438,8 +438,7 @@
             "type": "Literal",
             "start": 1041,
             "end": 1045,
-            "value": true,
-            "raw": "true"
+            "value": true
           },
           {
             "type": "Literal",
@@ -562,8 +561,7 @@
             "type": "Literal",
             "start": 1155,
             "end": 1159,
-            "value": true,
-            "raw": "true"
+            "value": true
           },
           {
             "type": "Literal",

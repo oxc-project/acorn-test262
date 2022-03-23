@@ -72,7 +72,8 @@
                           "type": "Literal",
                           "start": 369,
                           "end": 380,
-                          "value": "dayPeriod"
+                          "value": "dayPeriod",
+                          "raw": "\"dayPeriod\""
                         },
                         "value": {
                           "type": "Literal",
@@ -93,7 +94,8 @@
                           "type": "Literal",
                           "start": 393,
                           "end": 399,
-                          "value": "hour"
+                          "value": "hour",
+                          "raw": "\"hour\""
                         },
                         "value": {
                           "type": "Literal",
@@ -114,7 +116,8 @@
                           "type": "Literal",
                           "start": 414,
                           "end": 422,
-                          "value": "minute"
+                          "value": "minute",
+                          "raw": "\"minute\""
                         },
                         "value": {
                           "type": "Literal",

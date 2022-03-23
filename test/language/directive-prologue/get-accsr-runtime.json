@@ -114,8 +114,7 @@
                         "type": "Literal",
                         "start": 486,
                         "end": 499,
-                        "value": "accProperty",
-                        "raw": "\"accProperty\""
+                        "value": "accProperty"
                       },
                       {
                         "type": "ObjectExpression",
@@ -157,8 +156,7 @@
                                       "type": "Literal",
                                       "start": 558,
                                       "end": 570,
-                                      "value": "use strict",
-                                      "raw": "\"use strict\""
+                                      "value": "use strict"
                                     },
                                     "directive": "use strict"
                                   },
@@ -181,8 +179,7 @@
                                         "type": "Literal",
                                         "start": 614,
                                         "end": 618,
-                                        "value": null,
-                                        "raw": "null"
+                                        "value": null
                                       }
                                     }
                                   },
@@ -194,8 +191,7 @@
                                       "type": "Literal",
                                       "start": 647,
                                       "end": 649,
-                                      "value": 11,
-                                      "raw": "11"
+                                      "value": 11
                                     }
                                   }
                                 ]
@@ -252,8 +248,7 @@
                           "type": "Literal",
                           "start": 728,
                           "end": 730,
-                          "value": 11,
-                          "raw": "11"
+                          "value": 11
                         }
                       }
                     }

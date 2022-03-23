@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 298,
                   "end": 299,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "UnaryExpression",

@@ -66,7 +66,8 @@
                   "type": "Literal",
                   "start": 463,
                   "end": 478,
-                  "value": "localeMatcher"
+                  "value": "localeMatcher",
+                  "raw": "\"localeMatcher\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -84,7 +85,8 @@
                         "type": "Literal",
                         "start": 486,
                         "end": 491,
-                        "value": "get"
+                        "value": "get",
+                        "raw": "\"get\""
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -144,7 +146,8 @@
                   "type": "Literal",
                   "start": 605,
                   "end": 621,
-                  "value": "lineBreakStyle"
+                  "value": "lineBreakStyle",
+                  "raw": "\"lineBreakStyle\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -162,7 +165,8 @@
                         "type": "Literal",
                         "start": 629,
                         "end": 634,
-                        "value": "get"
+                        "value": "get",
+                        "raw": "\"get\""
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -222,7 +226,8 @@
                   "type": "Literal",
                   "start": 749,
                   "end": 762,
-                  "value": "granularity"
+                  "value": "granularity",
+                  "raw": "\"granularity\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -240,7 +245,8 @@
                         "type": "Literal",
                         "start": 770,
                         "end": 775,
-                        "value": "get"
+                        "value": "get",
+                        "raw": "\"get\""
                       },
                       "value": {
                         "type": "FunctionExpression",
@@ -672,8 +678,7 @@
                   "type": "Literal",
                   "start": 1334,
                   "end": 1339,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 {
                   "type": "TemplateLiteral",

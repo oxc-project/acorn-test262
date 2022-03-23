@@ -144,8 +144,7 @@
                           "type": "Literal",
                           "start": 1993,
                           "end": 1997,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         },
                         "kind": "init"
                       }

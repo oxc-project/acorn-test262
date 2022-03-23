@@ -44,8 +44,7 @@
                     "type": "Literal",
                     "start": 635,
                     "end": 640,
-                    "value": "str",
-                    "raw": "\"str\""
+                    "value": "str"
                   }
                 ]
               },
@@ -115,8 +114,7 @@
                       "type": "Literal",
                       "start": 710,
                       "end": 714,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   }
@@ -183,8 +181,7 @@
                   "type": "Literal",
                   "start": 765,
                   "end": 773,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -250,8 +247,7 @@
                     "type": "Literal",
                     "start": 817,
                     "end": 829,
-                    "value": "use strict",
-                    "raw": "\"use strict\""
+                    "value": "use strict"
                   },
                   "directive": "use strict"
                 },
@@ -279,8 +275,7 @@
                         "type": "Literal",
                         "start": 852,
                         "end": 853,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "computed": true,
                       "optional": false
@@ -325,7 +320,6 @@
                 "start": 891,
                 "end": 898,
                 "value": {},
-                "raw": "/(?:)/g",
                 "regex": {
                   "pattern": "(?:)",
                   "flags": "g"
@@ -397,8 +391,7 @@
                       "type": "Literal",
                       "start": 967,
                       "end": 971,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   }
@@ -511,8 +504,7 @@
                     "type": "Literal",
                     "start": 1050,
                     "end": 1062,
-                    "value": "use strict",
-                    "raw": "\"use strict\""
+                    "value": "use strict"
                   },
                   "directive": "use strict"
                 },

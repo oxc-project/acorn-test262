@@ -90,8 +90,7 @@
                     "type": "Literal",
                     "start": 1078,
                     "end": 1086,
-                    "value": "caller",
-                    "raw": "\"caller\""
+                    "value": "caller"
                   }
                 ],
                 "optional": false
@@ -145,8 +144,7 @@
             "type": "Literal",
             "start": 1168,
             "end": 1169,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -209,8 +207,7 @@
                   "type": "Literal",
                   "start": 1198,
                   "end": 1210,
-                  "value": "use strict",
-                  "raw": "\"use strict\""
+                  "value": "use strict"
                 },
                 "directive": "use strict"
               },
@@ -263,8 +260,7 @@
                           "type": "Literal",
                           "start": 1555,
                           "end": 1563,
-                          "value": "caller",
-                          "raw": "\"caller\""
+                          "value": "caller"
                         }
                       ],
                       "optional": false
@@ -317,8 +313,7 @@
                     "type": "Literal",
                     "start": 1613,
                     "end": 1617,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   }
                 },
                 "consequent": {
@@ -364,8 +359,7 @@
                             "type": "Literal",
                             "start": 1654,
                             "end": 1662,
-                            "value": "caller",
-                            "raw": "\"caller\""
+                            "value": "caller"
                           },
                           {
                             "type": "ObjectExpression",
@@ -389,8 +383,7 @@
                                   "type": "Literal",
                                   "start": 1672,
                                   "end": 1673,
-                                  "value": 1,
-                                  "raw": "1"
+                                  "value": 1
                                 },
                                 "kind": "init"
                               }
@@ -480,8 +473,7 @@
                     "type": "Literal",
                     "start": 1752,
                     "end": 1756,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   }
                 },
                 "consequent": {
@@ -527,15 +519,13 @@
                             "type": "Literal",
                             "start": 1789,
                             "end": 1790,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 1792,
                             "end": 1934,
-                            "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
-                            "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
+                            "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
                           }
                         ],
                         "optional": false
@@ -719,15 +709,13 @@
             "type": "Literal",
             "start": 2480,
             "end": 2481,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2483,
             "end": 2518,
-            "value": "generator function body evaluated",
-            "raw": "'generator function body evaluated'"
+            "value": "generator function body evaluated"
           }
         ],
         "optional": false

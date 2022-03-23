@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 281,
               "end": 300,
-              "value": "another directive",
-              "raw": "\"another directive\""
+              "value": "another directive"
             },
             "directive": "another directive"
           },
@@ -43,8 +42,7 @@
               "type": "Literal",
               "start": 305,
               "end": 317,
-              "value": "use strict",
-              "raw": "\"use strict\""
+              "value": "use strict"
             },
             "directive": "use strict"
           },

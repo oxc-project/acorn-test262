@@ -66,8 +66,7 @@
             "type": "Literal",
             "start": 388,
             "end": 393,
-            "value": "foo",
-            "raw": "\"foo\""
+            "value": "foo"
           },
           {
             "type": "ObjectExpression",
@@ -116,8 +115,7 @@
                           "type": "Literal",
                           "start": 426,
                           "end": 438,
-                          "value": "use strict",
-                          "raw": "\"use strict\""
+                          "value": "use strict"
                         },
                         "directive": "use strict"
                       },
@@ -230,8 +228,7 @@
                       "type": "Literal",
                       "start": 515,
                       "end": 517,
-                      "value": 10,
-                      "raw": "10"
+                      "value": 10
                     }
                   }
                 }

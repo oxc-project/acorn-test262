@@ -345,8 +345,7 @@
                       "type": "Literal",
                       "start": 760,
                       "end": 764,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   }
@@ -743,8 +742,7 @@
                       "type": "Literal",
                       "start": 1189,
                       "end": 1193,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   }
@@ -995,8 +993,7 @@
                               "type": "Literal",
                               "start": 1489,
                               "end": 1493,
-                              "value": null,
-                              "raw": "null"
+                              "value": null
                             }
                           }
                         ]
@@ -1117,8 +1114,7 @@
                               "type": "Literal",
                               "start": 1625,
                               "end": 1629,
-                              "value": null,
-                              "raw": "null"
+                              "value": null
                             }
                           }
                         ]
@@ -1143,8 +1139,7 @@
                       "type": "Literal",
                       "start": 1648,
                       "end": 1652,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   }
@@ -1261,8 +1256,7 @@
                               "type": "Literal",
                               "start": 1774,
                               "end": 1778,
-                              "value": null,
-                              "raw": "null"
+                              "value": null
                             }
                           }
                         ]
@@ -1358,8 +1352,7 @@
                     "type": "Literal",
                     "start": 1876,
                     "end": 1881,
-                    "value": false,
-                    "raw": "false"
+                    "value": false
                   }
                 ],
                 "optional": false
@@ -1488,8 +1481,7 @@
                               "type": "Literal",
                               "start": 2043,
                               "end": 2048,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             }
                           }
                         ]
@@ -1610,8 +1602,7 @@
                               "type": "Literal",
                               "start": 2183,
                               "end": 2188,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             }
                           }
                         ]
@@ -1636,8 +1627,7 @@
                       "type": "Literal",
                       "start": 2207,
                       "end": 2211,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   }
@@ -1754,8 +1744,7 @@
                               "type": "Literal",
                               "start": 2336,
                               "end": 2341,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             }
                           }
                         ]
@@ -2126,8 +2115,7 @@
                       "type": "Literal",
                       "start": 2748,
                       "end": 2752,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   }

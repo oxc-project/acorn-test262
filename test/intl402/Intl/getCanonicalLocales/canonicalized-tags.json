@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 941,
                   "end": 945,
-                  "value": "de"
+                  "value": "de",
+                  "raw": "\"de\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 955,
                   "end": 962,
-                  "value": "DE-de"
+                  "value": "DE-de",
+                  "raw": "\"DE-de\""
                 },
                 "value": {
                   "type": "Literal",
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 975,
                   "end": 982,
-                  "value": "de-DE"
+                  "value": "de-DE",
+                  "raw": "\"de-DE\""
                 },
                 "value": {
                   "type": "Literal",
@@ -97,7 +100,8 @@
                   "type": "Literal",
                   "start": 995,
                   "end": 1000,
-                  "value": "cmn"
+                  "value": "cmn",
+                  "raw": "\"cmn\""
                 },
                 "value": {
                   "type": "Literal",
@@ -118,7 +122,8 @@
                   "type": "Literal",
                   "start": 1010,
                   "end": 1020,
-                  "value": "CMN-hANS"
+                  "value": "CMN-hANS",
+                  "raw": "\"CMN-hANS\""
                 },
                 "value": {
                   "type": "Literal",
@@ -139,7 +144,8 @@
                   "type": "Literal",
                   "start": 1035,
                   "end": 1048,
-                  "value": "cmn-hans-cn"
+                  "value": "cmn-hans-cn",
+                  "raw": "\"cmn-hans-cn\""
                 },
                 "value": {
                   "type": "Literal",
@@ -160,7 +166,8 @@
                   "type": "Literal",
                   "start": 1066,
                   "end": 1074,
-                  "value": "es-419"
+                  "value": "es-419",
+                  "raw": "\"es-419\""
                 },
                 "value": {
                   "type": "Literal",
@@ -181,7 +188,8 @@
                   "type": "Literal",
                   "start": 1088,
                   "end": 1106,
-                  "value": "es-419-u-nu-latn"
+                  "value": "es-419-u-nu-latn",
+                  "raw": "\"es-419-u-nu-latn\""
                 },
                 "value": {
                   "type": "Literal",
@@ -202,7 +210,8 @@
                   "type": "Literal",
                   "start": 1130,
                   "end": 1159,
-                  "value": "cmn-hans-cn-u-ca-t-ca-x-t-u"
+                  "value": "cmn-hans-cn-u-ca-t-ca-x-t-u",
+                  "raw": "\"cmn-hans-cn-u-ca-t-ca-x-t-u\""
                 },
                 "value": {
                   "type": "Literal",
@@ -223,7 +232,8 @@
                   "type": "Literal",
                   "start": 1193,
                   "end": 1218,
-                  "value": "de-gregory-u-ca-gregory"
+                  "value": "de-gregory-u-ca-gregory",
+                  "raw": "\"de-gregory-u-ca-gregory\""
                 },
                 "value": {
                   "type": "Literal",
@@ -244,7 +254,8 @@
                   "type": "Literal",
                   "start": 1249,
                   "end": 1257,
-                  "value": "sgn-GR"
+                  "value": "sgn-GR",
+                  "raw": "\"sgn-GR\""
                 },
                 "value": {
                   "type": "Literal",
@@ -265,7 +276,8 @@
                   "type": "Literal",
                   "start": 1268,
                   "end": 1272,
-                  "value": "ji"
+                  "value": "ji",
+                  "raw": "\"ji\""
                 },
                 "value": {
                   "type": "Literal",
@@ -286,7 +298,8 @@
                   "type": "Literal",
                   "start": 1282,
                   "end": 1289,
-                  "value": "de-DD"
+                  "value": "de-DD",
+                  "raw": "\"de-DD\""
                 },
                 "value": {
                   "type": "Literal",
@@ -307,7 +320,8 @@
                   "type": "Literal",
                   "start": 1302,
                   "end": 1306,
-                  "value": "in"
+                  "value": "in",
+                  "raw": "\"in\""
                 },
                 "value": {
                   "type": "Literal",
@@ -328,7 +342,8 @@
                   "type": "Literal",
                   "start": 1316,
                   "end": 1332,
-                  "value": "sr-cyrl-ekavsk"
+                  "value": "sr-cyrl-ekavsk",
+                  "raw": "\"sr-cyrl-ekavsk\""
                 },
                 "value": {
                   "type": "Literal",
@@ -349,7 +364,8 @@
                   "type": "Literal",
                   "start": 1354,
                   "end": 1370,
-                  "value": "en-ca-newfound"
+                  "value": "en-ca-newfound",
+                  "raw": "\"en-ca-newfound\""
                 },
                 "value": {
                   "type": "Literal",
@@ -370,7 +386,8 @@
                   "type": "Literal",
                   "start": 1392,
                   "end": 1413,
-                  "value": "sl-rozaj-biske-1994"
+                  "value": "sl-rozaj-biske-1994",
+                  "raw": "\"sl-rozaj-biske-1994\""
                 },
                 "value": {
                   "type": "Literal",
@@ -391,7 +408,8 @@
                   "type": "Literal",
                   "start": 1440,
                   "end": 1451,
-                  "value": "da-u-attr"
+                  "value": "da-u-attr",
+                  "raw": "\"da-u-attr\""
                 },
                 "value": {
                   "type": "Literal",
@@ -412,7 +430,8 @@
                   "type": "Literal",
                   "start": 1468,
                   "end": 1489,
-                  "value": "da-u-attr-co-search"
+                  "value": "da-u-attr-co-search",
+                  "raw": "\"da-u-attr-co-search\""
                 },
                 "value": {
                   "type": "Literal",

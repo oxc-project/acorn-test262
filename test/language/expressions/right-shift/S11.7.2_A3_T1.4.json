@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 304,
             "end": 308,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           "operator": ">>",
           "right": {
@@ -81,8 +80,7 @@
                         "type": "Literal",
                         "start": 399,
                         "end": 403,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "operator": ">>",
                       "right": {
@@ -124,8 +122,7 @@
             "type": "Literal",
             "start": 450,
             "end": 454,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         },
         "operator": "!==",
@@ -186,8 +183,7 @@
                         "type": "Literal",
                         "start": 545,
                         "end": 549,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   }
@@ -311,16 +307,14 @@
             "type": "Literal",
             "start": 718,
             "end": 722,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           "operator": ">>",
           "right": {
             "type": "Literal",
             "start": 726,
             "end": 730,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         },
         "operator": "!==",
@@ -374,16 +368,14 @@
                         "type": "Literal",
                         "start": 803,
                         "end": 807,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "operator": ">>",
                       "right": {
                         "type": "Literal",
                         "start": 811,
                         "end": 815,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   }

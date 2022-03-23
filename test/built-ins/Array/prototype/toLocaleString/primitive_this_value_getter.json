@@ -266,15 +266,13 @@
                     "type": "Literal",
                     "start": 851,
                     "end": 855,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   },
                   {
                     "type": "Literal",
                     "start": 857,
                     "end": 862,
-                    "value": false,
-                    "raw": "false"
+                    "value": false
                   }
                 ]
               },

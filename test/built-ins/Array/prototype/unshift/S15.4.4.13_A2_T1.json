@@ -930,8 +930,7 @@
           "type": "Literal",
           "start": 1868,
           "end": 1872,
-          "value": null,
-          "raw": "null"
+          "value": null
         }
       }
     },

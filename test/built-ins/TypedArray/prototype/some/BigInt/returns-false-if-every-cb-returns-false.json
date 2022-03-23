@@ -98,8 +98,7 @@
                             "type": "Literal",
                             "start": 852,
                             "end": 857,
-                            "value": false,
-                            "raw": "false"
+                            "value": false
                           },
                           {
                             "type": "Literal",
@@ -142,8 +141,7 @@
                             "type": "Literal",
                             "start": 910,
                             "end": 914,
-                            "value": null,
-                            "raw": "null"
+                            "value": null
                           }
                         ]
                       },
@@ -383,8 +381,7 @@
                                     "type": "Literal",
                                     "start": 1155,
                                     "end": 1160,
-                                    "value": false,
-                                    "raw": "false"
+                                    "value": false
                                   },
                                   {
                                     "type": "BinaryExpression",

@@ -99,8 +99,7 @@
                       "type": "Literal",
                       "start": 444,
                       "end": 448,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "kind": "init"
                   }

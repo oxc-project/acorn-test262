@@ -116,8 +116,7 @@
                 "type": "Literal",
                 "start": 1930,
                 "end": 1934,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               "kind": "init"
             }

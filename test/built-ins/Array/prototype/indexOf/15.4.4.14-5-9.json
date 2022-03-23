@@ -48,8 +48,7 @@
                     "type": "Literal",
                     "start": 297,
                     "end": 301,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   }
                 ]
               },
@@ -67,8 +66,7 @@
                 "type": "Literal",
                 "start": 311,
                 "end": 315,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "UnaryExpression",

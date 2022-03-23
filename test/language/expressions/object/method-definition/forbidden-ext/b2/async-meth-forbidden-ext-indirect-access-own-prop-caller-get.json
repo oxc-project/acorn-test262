@@ -90,8 +90,7 @@
                     "type": "Literal",
                     "start": 1066,
                     "end": 1074,
-                    "value": "caller",
-                    "raw": "\"caller\""
+                    "value": "caller"
                   }
                 ],
                 "optional": false
@@ -145,8 +144,7 @@
             "type": "Literal",
             "start": 1157,
             "end": 1158,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -208,8 +206,7 @@
                           "type": "Literal",
                           "start": 1196,
                           "end": 1208,
-                          "value": "use strict",
-                          "raw": "\"use strict\""
+                          "value": "use strict"
                         },
                         "directive": "use strict"
                       },
@@ -262,8 +259,7 @@
                                   "type": "Literal",
                                   "start": 1538,
                                   "end": 1546,
-                                  "value": "caller",
-                                  "raw": "\"caller\""
+                                  "value": "caller"
                                 }
                               ],
                               "optional": false
@@ -316,8 +312,7 @@
                             "type": "Literal",
                             "start": 1598,
                             "end": 1602,
-                            "value": true,
-                            "raw": "true"
+                            "value": true
                           }
                         },
                         "consequent": {
@@ -363,8 +358,7 @@
                                     "type": "Literal",
                                     "start": 1641,
                                     "end": 1649,
-                                    "value": "caller",
-                                    "raw": "\"caller\""
+                                    "value": "caller"
                                   },
                                   {
                                     "type": "ObjectExpression",
@@ -407,8 +401,7 @@
                                                   "type": "Literal",
                                                   "start": 1665,
                                                   "end": 1666,
-                                                  "value": 1,
-                                                  "raw": "1"
+                                                  "value": 1
                                                 }
                                               }
                                             ]
@@ -501,8 +494,7 @@
                             "type": "Literal",
                             "start": 1752,
                             "end": 1756,
-                            "value": true,
-                            "raw": "true"
+                            "value": true
                           }
                         },
                         "consequent": {
@@ -548,15 +540,13 @@
                                     "type": "Literal",
                                     "start": 1791,
                                     "end": 1792,
-                                    "value": 1,
-                                    "raw": "1"
+                                    "value": 1
                                   },
                                   {
                                     "type": "Literal",
                                     "start": 1794,
                                     "end": 1936,
-                                    "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.",
-                                    "raw": "'If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to.'"
+                                    "value": "If this test defined an own \"caller\" property on the inner function, then it should be accessible and should return the value it was set to."
                                   }
                                 ],
                                 "optional": false
@@ -789,15 +779,13 @@
                             "type": "Literal",
                             "start": 2544,
                             "end": 2545,
-                            "value": 1,
-                            "raw": "1"
+                            "value": 1
                           },
                           {
                             "type": "Literal",
                             "start": 2547,
                             "end": 2572,
-                            "value": "function body evaluated",
-                            "raw": "'function body evaluated'"
+                            "value": "function body evaluated"
                           }
                         ],
                         "optional": false

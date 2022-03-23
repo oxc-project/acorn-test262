@@ -437,8 +437,7 @@
                         "type": "Literal",
                         "start": 746,
                         "end": 750,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Identifier",

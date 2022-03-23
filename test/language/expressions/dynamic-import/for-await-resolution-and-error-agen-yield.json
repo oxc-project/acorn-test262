@@ -1050,8 +1050,7 @@
                 "type": "Literal",
                 "start": 2014,
                 "end": 2018,
-                "value": null,
-                "raw": "null"
+                "value": null
               }
             }
           },

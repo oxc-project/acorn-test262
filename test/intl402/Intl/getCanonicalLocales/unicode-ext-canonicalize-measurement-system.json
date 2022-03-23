@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 1220,
                   "end": 1230,
-                  "value": "imperial"
+                  "value": "imperial",
+                  "raw": "\"imperial\""
                 },
                 "value": {
                   "type": "Literal",
@@ -252,8 +253,7 @@
                   "type": "Literal",
                   "start": 1484,
                   "end": 1489,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 {
                   "type": "BinaryExpression",

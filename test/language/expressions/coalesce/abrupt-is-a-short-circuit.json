@@ -322,8 +322,7 @@
                         "type": "Literal",
                         "start": 1428,
                         "end": 1432,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "operator": "??",
                       "right": {

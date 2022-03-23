@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 400,
                   "end": 415,
-                  "value": "format getter"
+                  "value": "format getter",
+                  "raw": "\"format getter\""
                 },
                 "value": {
                   "type": "MemberExpression",
@@ -212,15 +213,13 @@
                 "type": "Literal",
                 "start": 598,
                 "end": 602,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
                 "start": 604,
                 "end": 608,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Literal",

@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 299,
                   "end": 306,
-                  "value": "Hello"
+                  "value": "Hello",
+                  "raw": "\"Hello\""
                 },
                 "value": {
                   "type": "Literal",

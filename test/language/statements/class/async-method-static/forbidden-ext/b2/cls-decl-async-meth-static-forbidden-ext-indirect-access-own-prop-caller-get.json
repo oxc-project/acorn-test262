@@ -295,8 +295,7 @@
                         "type": "Literal",
                         "start": 1658,
                         "end": 1662,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       }
                     },
                     "consequent": {
@@ -478,8 +477,7 @@
                         "type": "Literal",
                         "start": 1812,
                         "end": 1816,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       }
                     },
                     "consequent": {

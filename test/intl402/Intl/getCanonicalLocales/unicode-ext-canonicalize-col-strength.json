@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 1199,
                   "end": 1208,
-                  "value": "primary"
+                  "value": "primary",
+                  "raw": "\"primary\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 1413,
                   "end": 1423,
-                  "value": "tertiary"
+                  "value": "tertiary",
+                  "raw": "\"tertiary\""
                 },
                 "value": {
                   "type": "Literal",
@@ -273,8 +275,7 @@
                   "type": "Literal",
                   "start": 2022,
                   "end": 2027,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 {
                   "type": "BinaryExpression",

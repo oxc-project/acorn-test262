@@ -204,8 +204,7 @@
             "type": "Literal",
             "start": 565,
             "end": 569,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         },
         "operator": "!==",
@@ -213,8 +212,7 @@
           "type": "Literal",
           "start": 575,
           "end": 579,
-          "value": null,
-          "raw": "null"
+          "value": null
         }
       },
       "consequent": {
@@ -260,8 +258,7 @@
                         "type": "Literal",
                         "start": 644,
                         "end": 648,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   }

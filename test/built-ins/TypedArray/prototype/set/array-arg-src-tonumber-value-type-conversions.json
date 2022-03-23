@@ -213,22 +213,19 @@
                             "type": "Literal",
                             "start": 1120,
                             "end": 1125,
-                            "value": false,
-                            "raw": "false"
+                            "value": false
                           },
                           {
                             "type": "Literal",
                             "start": 1127,
                             "end": 1131,
-                            "value": true,
-                            "raw": "true"
+                            "value": true
                           },
                           {
                             "type": "Literal",
                             "start": 1133,
                             "end": 1137,
-                            "value": null,
-                            "raw": "null"
+                            "value": null
                           },
                           {
                             "type": "Identifier",

@@ -20,8 +20,7 @@
               "type": "Literal",
               "start": 328,
               "end": 332,
-              "value": true,
-              "raw": "true"
+              "value": true
             }
           }
         ]
@@ -60,8 +59,7 @@
                   "type": "Literal",
                   "start": 356,
                   "end": 360,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 }
               },
               "consequent": {
@@ -124,8 +122,7 @@
               "type": "Literal",
               "start": 467,
               "end": 472,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           }
         ]
@@ -164,8 +161,7 @@
                   "type": "Literal",
                   "start": 496,
                   "end": 501,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 }
               },
               "consequent": {
@@ -230,8 +226,7 @@
             "type": "Literal",
             "start": 602,
             "end": 607,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         }
       ],
@@ -293,8 +288,7 @@
                   "type": "Literal",
                   "start": 647,
                   "end": 652,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 }
               },
               "consequent": {
@@ -359,8 +353,7 @@
             "type": "Literal",
             "start": 753,
             "end": 757,
-            "value": true,
-            "raw": "true"
+            "value": true
           }
         }
       ],
@@ -422,8 +415,7 @@
                   "type": "Literal",
                   "start": 797,
                   "end": 801,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 }
               },
               "consequent": {

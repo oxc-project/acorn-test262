@@ -31,8 +31,7 @@
         "type": "Literal",
         "start": 415,
         "end": 420,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "body": {
         "type": "ExpressionStatement",
@@ -299,8 +298,7 @@
         "type": "Literal",
         "start": 1281,
         "end": 1285,
-        "value": null,
-        "raw": "null"
+        "value": null
       },
       "body": {
         "type": "ExpressionStatement",

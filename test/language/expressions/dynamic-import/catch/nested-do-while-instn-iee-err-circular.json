@@ -169,8 +169,7 @@
         "type": "Literal",
         "start": 1843,
         "end": 1848,
-        "value": false,
-        "raw": "false"
+        "value": false
       }
     }
   ],

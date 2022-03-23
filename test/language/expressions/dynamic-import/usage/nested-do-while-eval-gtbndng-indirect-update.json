@@ -291,8 +291,7 @@
         "type": "Literal",
         "start": 2035,
         "end": 2040,
-        "value": false,
-        "raw": "false"
+        "value": false
       }
     }
   ],

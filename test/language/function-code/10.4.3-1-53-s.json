@@ -111,8 +111,7 @@
                                     "type": "Literal",
                                     "start": 435,
                                     "end": 447,
-                                    "value": "use strict",
-                                    "raw": "\"use strict\""
+                                    "value": "use strict"
                                   },
                                   "directive": "use strict"
                                 },
@@ -144,8 +143,7 @@
                         "type": "Literal",
                         "start": 487,
                         "end": 498,
-                        "value": "undefined",
-                        "raw": "\"undefined\""
+                        "value": "undefined"
                       }
                     ],
                     "optional": false
@@ -194,8 +192,7 @@
                         "type": "Literal",
                         "start": 536,
                         "end": 542,
-                        "value": "this",
-                        "raw": "'this'"
+                        "value": "this"
                       }
                     ],
                     "optional": false

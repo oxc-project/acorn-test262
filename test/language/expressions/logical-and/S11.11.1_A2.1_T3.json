@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 319,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               "operator": "&&",
               "right": {
@@ -74,8 +73,7 @@
                         "type": "Literal",
                         "start": 403,
                         "end": 407,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       },
                       "operator": "&&",
                       "right": {
@@ -143,8 +141,7 @@
                   "type": "Literal",
                   "start": 472,
                   "end": 476,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 }
               },
               "consequent": {

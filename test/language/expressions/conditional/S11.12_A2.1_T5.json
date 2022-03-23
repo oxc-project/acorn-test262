@@ -54,8 +54,7 @@
               "type": "Literal",
               "start": 315,
               "end": 319,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "Identifier",

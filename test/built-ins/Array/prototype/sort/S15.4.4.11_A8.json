@@ -48,15 +48,13 @@
                 "type": "Literal",
                 "start": 349,
                 "end": 350,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 352,
                 "end": 353,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           },
@@ -105,8 +103,7 @@
                     "type": "Literal",
                     "start": 379,
                     "end": 391,
-                    "value": "use strict",
-                    "raw": "\"use strict\""
+                    "value": "use strict"
                   },
                   "directive": "use strict"
                 },
@@ -155,8 +152,7 @@
                               "type": "Literal",
                               "start": 446,
                               "end": 469,
-                              "value": "#1: Sort leaks global",
-                              "raw": "'#1: Sort leaks global'"
+                              "value": "#1: Sort leaks global"
                             }
                           ]
                         }
@@ -218,16 +214,14 @@
                                   "type": "Literal",
                                   "start": 531,
                                   "end": 592,
-                                  "value": "#2: Sort comparefn should be called with this===undefined. ",
-                                  "raw": "'#2: Sort comparefn should be called with this===undefined. '"
+                                  "value": "#2: Sort comparefn should be called with this===undefined. "
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 601,
                                   "end": 611,
-                                  "value": "Actual: ",
-                                  "raw": "'Actual: '"
+                                  "value": "Actual: "
                                 }
                               },
                               "operator": "+",

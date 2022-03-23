@@ -19,8 +19,7 @@
             "type": "Literal",
             "start": 303,
             "end": 307,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           "operator": "+",
           "right": {
@@ -81,8 +80,7 @@
                         "type": "Literal",
                         "start": 392,
                         "end": 396,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "operator": "+",
                       "right": {

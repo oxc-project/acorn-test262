@@ -205,8 +205,7 @@
                 "type": "Literal",
                 "start": 574,
                 "end": 578,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "MemberExpression",
@@ -461,8 +460,7 @@
           "type": "Literal",
           "start": 958,
           "end": 962,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {

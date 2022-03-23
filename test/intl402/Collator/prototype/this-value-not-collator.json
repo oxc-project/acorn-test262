@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 388,
                   "end": 404,
-                  "value": "compare getter"
+                  "value": "compare getter",
+                  "raw": "\"compare getter\""
                 },
                 "value": {
                   "type": "MemberExpression",
@@ -212,15 +213,13 @@
                 "type": "Literal",
                 "start": 576,
                 "end": 580,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
                 "start": 582,
                 "end": 586,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Literal",

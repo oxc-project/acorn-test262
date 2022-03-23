@@ -37,8 +37,7 @@
                     "type": "Literal",
                     "start": 362,
                     "end": 374,
-                    "value": "use strict",
-                    "raw": "\"use strict\""
+                    "value": "use strict"
                   },
                   "directive": "use strict"
                 },
@@ -126,15 +125,13 @@
                         "type": "Literal",
                         "start": 455,
                         "end": 466,
-                        "value": "undefined",
-                        "raw": "\"undefined\""
+                        "value": "undefined"
                       },
                       {
                         "type": "Literal",
                         "start": 468,
                         "end": 473,
-                        "value": "f()",
-                        "raw": "'f()'"
+                        "value": "f()"
                       }
                     ],
                     "optional": false
@@ -184,15 +181,13 @@
                         "type": "Literal",
                         "start": 510,
                         "end": 521,
-                        "value": "undefined",
-                        "raw": "\"undefined\""
+                        "value": "undefined"
                       },
                       {
                         "type": "Literal",
                         "start": 523,
                         "end": 536,
-                        "value": "typeof this",
-                        "raw": "'typeof this'"
+                        "value": "typeof this"
                       }
                     ],
                     "optional": false

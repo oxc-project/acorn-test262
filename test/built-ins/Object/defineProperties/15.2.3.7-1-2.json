@@ -83,8 +83,7 @@
                         "type": "Literal",
                         "start": 302,
                         "end": 306,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "ObjectExpression",

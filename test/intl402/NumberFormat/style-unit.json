@@ -240,7 +240,8 @@
                             "type": "Literal",
                             "start": 752,
                             "end": 759,
-                            "value": "style"
+                            "value": "style",
+                            "raw": "\"style\""
                           },
                           "value": {
                             "type": "Identifier",
@@ -261,7 +262,8 @@
                             "type": "Literal",
                             "start": 774,
                             "end": 780,
-                            "value": "unit"
+                            "value": "unit",
+                            "raw": "\"unit\""
                           },
                           "value": {
                             "type": "Literal",

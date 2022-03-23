@@ -278,7 +278,8 @@
                             "type": "Literal",
                             "start": 801,
                             "end": 808,
-                            "value": "style"
+                            "value": "style",
+                            "raw": "\"style\""
                           },
                           "value": {
                             "type": "Identifier",

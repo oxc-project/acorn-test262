@@ -399,8 +399,7 @@
                         "type": "Literal",
                         "start": 1715,
                         "end": 1719,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       },
                       {
                         "type": "BinaryExpression",
@@ -552,8 +551,7 @@
                         "type": "Literal",
                         "start": 1828,
                         "end": 1832,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       },
                       {
                         "type": "BinaryExpression",
@@ -628,8 +626,7 @@
                         "type": "Literal",
                         "start": 1884,
                         "end": 1888,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       },
                       {
                         "type": "BinaryExpression",
@@ -895,8 +892,7 @@
                         "type": "Literal",
                         "start": 2093,
                         "end": 2098,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "CallExpression",

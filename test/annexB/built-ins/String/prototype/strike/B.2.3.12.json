@@ -453,8 +453,7 @@
                         "type": "Literal",
                         "start": 802,
                         "end": 806,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     ],
                     "optional": false

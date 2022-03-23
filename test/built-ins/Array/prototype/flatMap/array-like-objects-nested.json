@@ -95,7 +95,8 @@
                   "type": "Literal",
                   "start": 1466,
                   "end": 1467,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",
@@ -552,7 +553,8 @@
                   "type": "Literal",
                   "start": 1951,
                   "end": 1952,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Identifier",
@@ -573,7 +575,8 @@
                   "type": "Literal",
                   "start": 1962,
                   "end": 1963,
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "value": {
                   "type": "Identifier",
@@ -594,7 +597,8 @@
                   "type": "Literal",
                   "start": 1973,
                   "end": 1974,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "value": {
                   "type": "Identifier",
@@ -615,7 +619,8 @@
                   "type": "Literal",
                   "start": 1988,
                   "end": 1989,
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 },
                 "kind": "get",
                 "value": {

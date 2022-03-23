@@ -680,8 +680,7 @@
                                             "type": "Literal",
                                             "start": 1966,
                                             "end": 1970,
-                                            "value": true,
-                                            "raw": "true"
+                                            "value": true
                                           },
                                           {
                                             "type": "Literal",

@@ -123,8 +123,7 @@
             "type": "Literal",
             "start": 1211,
             "end": 1215,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           {
             "type": "CallExpression",

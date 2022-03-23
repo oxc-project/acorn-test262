@@ -157,8 +157,7 @@
               "type": "Literal",
               "start": 1054,
               "end": 1058,
-              "value": null,
-              "raw": "null"
+              "value": null
             }
           },
           {
@@ -194,8 +193,7 @@
               "type": "Literal",
               "start": 1086,
               "end": 1090,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             "operator": "==",
             "right": {

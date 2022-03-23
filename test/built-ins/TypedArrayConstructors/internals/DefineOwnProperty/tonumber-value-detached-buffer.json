@@ -290,8 +290,7 @@
                         "type": "Literal",
                         "start": 2020,
                         "end": 2024,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       },
                       {
                         "type": "Literal",

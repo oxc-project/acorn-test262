@@ -562,8 +562,7 @@
                                     "type": "Literal",
                                     "start": 1131,
                                     "end": 1136,
-                                    "value": false,
-                                    "raw": "false"
+                                    "value": false
                                   },
                                   {
                                     "type": "BinaryExpression",

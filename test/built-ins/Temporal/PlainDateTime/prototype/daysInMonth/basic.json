@@ -1,0 +1,241 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 545,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 318,
+      "end": 369,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 324,
+          "end": 368,
+          "id": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 332,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 335,
+            "end": 368,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 335,
+              "end": 357,
+              "object": {
+                "type": "MemberExpression",
+                "start": 335,
+                "end": 352,
+                "object": {
+                  "type": "Identifier",
+                  "start": 335,
+                  "end": 343,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 344,
+                  "end": 352,
+                  "name": "Calendar"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 353,
+                "end": 357,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 358,
+                "end": 367,
+                "value": "iso8601"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 370,
+      "end": 465,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 376,
+          "end": 464,
+          "id": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 384,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 387,
+            "end": 464,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 391,
+              "end": 413,
+              "object": {
+                "type": "Identifier",
+                "start": 391,
+                "end": 399,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 400,
+                "end": 413,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 414,
+                "end": 418,
+                "value": 1976
+              },
+              {
+                "type": "Literal",
+                "start": 420,
+                "end": 422,
+                "value": 11
+              },
+              {
+                "type": "Literal",
+                "start": 424,
+                "end": 426,
+                "value": 18
+              },
+              {
+                "type": "Literal",
+                "start": 428,
+                "end": 430,
+                "value": 15
+              },
+              {
+                "type": "Literal",
+                "start": 432,
+                "end": 434,
+                "value": 23
+              },
+              {
+                "type": "Literal",
+                "start": 436,
+                "end": 438,
+                "value": 30
+              },
+              {
+                "type": "Literal",
+                "start": 440,
+                "end": 443,
+                "value": 123
+              },
+              {
+                "type": "Literal",
+                "start": 445,
+                "end": 448,
+                "value": 456
+              },
+              {
+                "type": "Literal",
+                "start": 450,
+                "end": 453,
+                "value": 789
+              },
+              {
+                "type": "Identifier",
+                "start": 455,
+                "end": 463,
+                "name": "calendar"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 466,
+      "end": 544,
+      "expression": {
+        "type": "CallExpression",
+        "start": 466,
+        "end": 543,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 466,
+          "end": 482,
+          "object": {
+            "type": "Identifier",
+            "start": 466,
+            "end": 472,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 482,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 483,
+            "end": 503,
+            "object": {
+              "type": "Identifier",
+              "start": 483,
+              "end": 491,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 492,
+              "end": 503,
+              "name": "daysInMonth"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 505,
+            "end": 507,
+            "value": 30
+          },
+          {
+            "type": "Literal",
+            "start": 509,
+            "end": 542,
+            "value": "check days in month information"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

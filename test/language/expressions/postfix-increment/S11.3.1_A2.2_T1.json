@@ -2421,8 +2421,7 @@
                   "type": "Literal",
                   "start": 4253,
                   "end": 4257,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 }
               },
               "consequent": {

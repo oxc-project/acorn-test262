@@ -15,8 +15,7 @@
           "type": "Literal",
           "start": 279,
           "end": 284,
-          "value": false,
-          "raw": "false"
+          "value": false
         },
         "operator": "instanceof",
         "right": {
@@ -82,8 +81,7 @@
               "type": "Literal",
               "start": 396,
               "end": 401,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           ],
           "optional": false
@@ -166,8 +164,7 @@
           "type": "Literal",
           "start": 550,
           "end": 554,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {

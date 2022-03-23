@@ -99,15 +99,13 @@
             "type": "Literal",
             "start": 291,
             "end": 295,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           {
             "type": "Literal",
             "start": 297,
             "end": 301,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         ],
         "optional": false

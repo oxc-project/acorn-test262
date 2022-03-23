@@ -26,8 +26,7 @@
             "type": "Literal",
             "start": 370,
             "end": 374,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         },
         "operator": "!==",
@@ -88,8 +87,7 @@
                         "type": "Literal",
                         "start": 451,
                         "end": 455,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   }
@@ -117,8 +115,7 @@
             "type": "Literal",
             "start": 476,
             "end": 480,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           "operator": ">>>",
           "right": {
@@ -179,8 +176,7 @@
                         "type": "Literal",
                         "start": 557,
                         "end": 561,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "operator": ">>>",
                       "right": {
@@ -235,8 +231,7 @@
             "type": "Literal",
             "start": 606,
             "end": 610,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         },
         "operator": "!==",
@@ -310,8 +305,7 @@
                         "type": "Literal",
                         "start": 711,
                         "end": 715,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     }
                   }
@@ -339,8 +333,7 @@
             "type": "Literal",
             "start": 736,
             "end": 740,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           "operator": ">>>",
           "right": {
@@ -414,8 +407,7 @@
                         "type": "Literal",
                         "start": 841,
                         "end": 845,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "operator": ">>>",
                       "right": {

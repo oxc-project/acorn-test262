@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 535,
                 "end": 539,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
@@ -218,7 +217,8 @@
                                     "type": "Literal",
                                     "start": 765,
                                     "end": 780,
-                                    "value": "localeMatcher"
+                                    "value": "localeMatcher",
+                                    "raw": "\"localeMatcher\""
                                   },
                                   "value": {
                                     "type": "Identifier",

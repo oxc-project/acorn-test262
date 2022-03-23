@@ -174,8 +174,7 @@
                                 "type": "Literal",
                                 "start": 1970,
                                 "end": 1974,
-                                "value": true,
-                                "raw": "true"
+                                "value": true
                               },
                               "kind": "init"
                             }

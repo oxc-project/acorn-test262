@@ -724,8 +724,7 @@
                                             "type": "Literal",
                                             "start": 1603,
                                             "end": 1607,
-                                            "value": true,
-                                            "raw": "true"
+                                            "value": true
                                           },
                                           {
                                             "type": "Literal",

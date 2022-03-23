@@ -43,8 +43,7 @@
             "type": "Literal",
             "start": 329,
             "end": 332,
-            "value": "x",
-            "raw": "'x'"
+            "value": "x"
           },
           "property": {
             "type": "Identifier",
@@ -61,7 +60,6 @@
             "start": 341,
             "end": 344,
             "value": {},
-            "raw": "/x/",
             "regex": {
               "pattern": "x",
               "flags": ""
@@ -89,8 +87,7 @@
                     "type": "Literal",
                     "start": 361,
                     "end": 373,
-                    "value": "use strict",
-                    "raw": "\"use strict\""
+                    "value": "use strict"
                   },
                   "directive": "use strict"
                 },
@@ -139,8 +136,7 @@
                               "type": "Literal",
                               "start": 428,
                               "end": 461,
-                              "value": "#1: String replace leaks global",
-                              "raw": "'#1: String replace leaks global'"
+                              "value": "#1: String replace leaks global"
                             }
                           ]
                         }
@@ -202,16 +198,14 @@
                                   "type": "Literal",
                                   "start": 523,
                                   "end": 582,
-                                  "value": "#2: replaceValue should be called with this===undefined. ",
-                                  "raw": "'#2: replaceValue should be called with this===undefined. '"
+                                  "value": "#2: replaceValue should be called with this===undefined. "
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Literal",
                                   "start": 591,
                                   "end": 601,
-                                  "value": "Actual: ",
-                                  "raw": "'Actual: '"
+                                  "value": "Actual: "
                                 }
                               },
                               "operator": "+",
@@ -236,8 +230,7 @@
                     "type": "Literal",
                     "start": 624,
                     "end": 627,
-                    "value": "y",
-                    "raw": "'y'"
+                    "value": "y"
                   }
                 }
               ]

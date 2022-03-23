@@ -11,15 +11,13 @@
         "type": "Literal",
         "start": 300,
         "end": 305,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "test": {
         "type": "Literal",
         "start": 311,
         "end": 316,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "update": null,
       "body": {

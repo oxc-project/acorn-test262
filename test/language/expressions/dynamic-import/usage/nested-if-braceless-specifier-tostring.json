@@ -80,8 +80,7 @@
         "type": "Literal",
         "start": 1784,
         "end": 1788,
-        "value": true,
-        "raw": "true"
+        "value": true
       },
       "consequent": {
         "type": "ExpressionStatement",

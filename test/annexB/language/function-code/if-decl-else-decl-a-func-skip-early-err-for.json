@@ -197,8 +197,7 @@
                           "type": "Literal",
                           "start": 1527,
                           "end": 1531,
-                          "value": true,
-                          "raw": "true"
+                          "value": true
                         },
                         "consequent": {
                           "type": "FunctionDeclaration",

@@ -158,8 +158,7 @@
                   "type": "Literal",
                   "start": 412,
                   "end": 417,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               },
@@ -180,8 +179,7 @@
                   "type": "Literal",
                   "start": 435,
                   "end": 439,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -321,8 +319,7 @@
                   "type": "Literal",
                   "start": 566,
                   "end": 571,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               },
@@ -343,8 +340,7 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 594,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               }
@@ -536,8 +532,7 @@
                   "type": "Literal",
                   "start": 783,
                   "end": 788,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               },
@@ -558,8 +553,7 @@
                   "type": "Literal",
                   "start": 806,
                   "end": 810,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -640,8 +634,7 @@
             "type": "Literal",
             "start": 880,
             "end": 885,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         }
       ],
@@ -666,8 +659,7 @@
             "type": "Literal",
             "start": 908,
             "end": 913,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         }
       ],
@@ -692,8 +684,7 @@
             "type": "Literal",
             "start": 936,
             "end": 941,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         }
       ],
@@ -780,8 +771,7 @@
                       "type": "Literal",
                       "start": 1020,
                       "end": 1024,
-                      "value": true,
-                      "raw": "true"
+                      "value": true
                     }
                   }
                 }
@@ -835,8 +825,7 @@
                       "type": "Literal",
                       "start": 1073,
                       "end": 1077,
-                      "value": true,
-                      "raw": "true"
+                      "value": true
                     }
                   }
                 }
@@ -890,8 +879,7 @@
                       "type": "Literal",
                       "start": 1136,
                       "end": 1140,
-                      "value": true,
-                      "raw": "true"
+                      "value": true
                     }
                   }
                 }
@@ -1122,8 +1110,7 @@
             "type": "Literal",
             "start": 1389,
             "end": 1394,
-            "value": false,
-            "raw": "false"
+            "value": false
           },
           {
             "type": "Literal",
@@ -1173,8 +1160,7 @@
             "type": "Literal",
             "start": 1448,
             "end": 1453,
-            "value": false,
-            "raw": "false"
+            "value": false
           },
           {
             "type": "Literal",
@@ -1224,8 +1210,7 @@
             "type": "Literal",
             "start": 1507,
             "end": 1512,
-            "value": false,
-            "raw": "false"
+            "value": false
           },
           {
             "type": "Literal",

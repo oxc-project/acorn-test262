@@ -27,22 +27,19 @@
                 "type": "Literal",
                 "start": 665,
                 "end": 666,
-                "value": 1,
-                "raw": "1"
+                "value": 1
               },
               {
                 "type": "Literal",
                 "start": 668,
                 "end": 669,
-                "value": 2,
-                "raw": "2"
+                "value": 2
               },
               {
                 "type": "Literal",
                 "start": 671,
                 "end": 672,
-                "value": 3,
-                "raw": "3"
+                "value": 3
               }
             ]
           }
@@ -238,8 +235,7 @@
                       "type": "Literal",
                       "start": 805,
                       "end": 813,
-                      "value": "length",
-                      "raw": "\"length\""
+                      "value": "length"
                     },
                     {
                       "type": "ObjectExpression",
@@ -263,8 +259,7 @@
                             "type": "Literal",
                             "start": 826,
                             "end": 831,
-                            "value": false,
-                            "raw": "false"
+                            "value": false
                           },
                           "kind": "init"
                         }
@@ -282,8 +277,7 @@
                   "type": "Literal",
                   "start": 844,
                   "end": 845,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 }
               }
             ]
@@ -347,8 +341,7 @@
                     "type": "Literal",
                     "start": 891,
                     "end": 903,
-                    "value": "use strict",
-                    "raw": "\"use strict\""
+                    "value": "use strict"
                   },
                   "directive": "use strict"
                 },
@@ -395,8 +388,7 @@
             "type": "Literal",
             "start": 933,
             "end": 1001,
-            "value": "`\"use strict\"; array.length = length` throws a TypeError exception",
-            "raw": "'`\"use strict\"; array.length = length` throws a TypeError exception'"
+            "value": "`\"use strict\"; array.length = length` throws a TypeError exception"
           }
         ],
         "optional": false
@@ -445,15 +437,13 @@
                 "type": "Literal",
                 "start": 1032,
                 "end": 1040,
-                "value": "number",
-                "raw": "\"number\""
+                "value": "number"
               },
               {
                 "type": "Literal",
                 "start": 1042,
                 "end": 1050,
-                "value": "number",
-                "raw": "\"number\""
+                "value": "number"
               }
             ]
           },
@@ -461,8 +451,7 @@
             "type": "Literal",
             "start": 1053,
             "end": 1112,
-            "value": "The value of hints is expected to be [\"number\", \"number\"]",
-            "raw": "'The value of hints is expected to be [\"number\", \"number\"]'"
+            "value": "The value of hints is expected to be [\"number\", \"number\"]"
           }
         ],
         "optional": false
@@ -492,22 +481,19 @@
               "type": "Literal",
               "start": 1126,
               "end": 1127,
-              "value": 1,
-              "raw": "1"
+              "value": 1
             },
             {
               "type": "Literal",
               "start": 1129,
               "end": 1130,
-              "value": 2,
-              "raw": "2"
+              "value": 2
             },
             {
               "type": "Literal",
               "start": 1132,
               "end": 1133,
-              "value": 3,
-              "raw": "3"
+              "value": 3
             }
           ]
         }
@@ -591,8 +577,7 @@
                   "type": "Literal",
                   "start": 1179,
                   "end": 1187,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 {
                   "type": "Identifier",
@@ -608,8 +593,7 @@
             "type": "Literal",
             "start": 1200,
             "end": 1275,
-            "value": "The value of !Reflect.set(array, \"length\", length) is expected to be true",
-            "raw": "'The value of !Reflect.set(array, \"length\", length) is expected to be true'"
+            "value": "The value of !Reflect.set(array, \"length\", length) is expected to be true"
           }
         ],
         "optional": false
@@ -658,15 +642,13 @@
                 "type": "Literal",
                 "start": 1307,
                 "end": 1315,
-                "value": "number",
-                "raw": "\"number\""
+                "value": "number"
               },
               {
                 "type": "Literal",
                 "start": 1317,
                 "end": 1325,
-                "value": "number",
-                "raw": "\"number\""
+                "value": "number"
               }
             ]
           },
@@ -674,8 +656,7 @@
             "type": "Literal",
             "start": 1328,
             "end": 1387,
-            "value": "The value of hints is expected to be [\"number\", \"number\"]",
-            "raw": "'The value of hints is expected to be [\"number\", \"number\"]'"
+            "value": "The value of hints is expected to be [\"number\", \"number\"]"
           }
         ],
         "optional": false

@@ -220,8 +220,7 @@
               "type": "Literal",
               "start": 928,
               "end": 932,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "operator": "==",
             "right": {
@@ -235,8 +234,7 @@
             "type": "Literal",
             "start": 941,
             "end": 945,
-            "value": true,
-            "raw": "true"
+            "value": true
           }
         ],
         "optional": false
@@ -329,16 +327,14 @@
               "type": "Literal",
               "start": 1000,
               "end": 1004,
-              "value": true,
-              "raw": "true"
+              "value": true
             }
           },
           {
             "type": "Literal",
             "start": 1006,
             "end": 1010,
-            "value": true,
-            "raw": "true"
+            "value": true
           }
         ],
         "optional": false

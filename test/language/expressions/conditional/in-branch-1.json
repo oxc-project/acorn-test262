@@ -194,8 +194,7 @@
           "type": "Literal",
           "start": 640,
           "end": 644,
-          "value": true,
-          "raw": "true"
+          "value": true
         },
         "consequent": {
           "type": "BinaryExpression",
@@ -240,8 +239,7 @@
         "type": "Literal",
         "start": 672,
         "end": 677,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "update": null,
       "body": {

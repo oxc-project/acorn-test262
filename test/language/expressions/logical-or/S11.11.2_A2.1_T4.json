@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 293,
               "end": 297,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "operator": "||",
             "right": {
@@ -40,8 +39,7 @@
           "type": "Literal",
           "start": 308,
           "end": 312,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {

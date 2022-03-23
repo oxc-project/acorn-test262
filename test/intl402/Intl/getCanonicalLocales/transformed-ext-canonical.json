@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 800,
                   "end": 826,
-                  "value": "sl-t-sl-rozaj-biske-1994"
+                  "value": "sl-t-sl-rozaj-biske-1994",
+                  "raw": "\"sl-t-sl-rozaj-biske-1994\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 952,
                   "end": 975,
-                  "value": "DE-T-M0-DIN-K0-QWERTZ"
+                  "value": "DE-T-M0-DIN-K0-QWERTZ",
+                  "raw": "\"DE-T-M0-DIN-K0-QWERTZ\""
                 },
                 "value": {
                   "type": "Literal",
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 1180,
                   "end": 1194,
-                  "value": "en-t-m0-true"
+                  "value": "en-t-m0-true",
+                  "raw": "\"en-t-m0-true\""
                 },
                 "value": {
                   "type": "Literal",
@@ -97,7 +100,8 @@
                   "type": "Literal",
                   "start": 1253,
                   "end": 1262,
-                  "value": "en-t-iw"
+                  "value": "en-t-iw",
+                  "raw": "\"en-t-iw\""
                 },
                 "value": {
                   "type": "Literal",
@@ -118,7 +122,8 @@
                   "type": "Literal",
                   "start": 1348,
                   "end": 1378,
-                  "value": "und-Latn-t-und-hani-m0-names"
+                  "value": "und-Latn-t-und-hani-m0-names",
+                  "raw": "\"und-Latn-t-und-hani-m0-names\""
                 },
                 "value": {
                   "type": "Literal",

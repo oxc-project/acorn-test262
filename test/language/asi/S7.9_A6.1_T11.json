@@ -11,8 +11,7 @@
         "type": "Literal",
         "start": 294,
         "end": 299,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "test": null,
       "update": null,

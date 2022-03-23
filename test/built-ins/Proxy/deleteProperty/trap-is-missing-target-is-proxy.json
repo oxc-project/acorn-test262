@@ -98,8 +98,7 @@
             "type": "Literal",
             "start": 670,
             "end": 675,
-            "value": "bar",
-            "raw": "\"bar\""
+            "value": "bar"
           },
           {
             "type": "ObjectExpression",
@@ -123,8 +122,7 @@
                   "type": "Literal",
                   "start": 695,
                   "end": 700,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               }
@@ -316,8 +314,7 @@
                   "type": "Literal",
                   "start": 889,
                   "end": 894,
-                  "value": "foo",
-                  "raw": "\"foo\""
+                  "value": "foo"
                 }
               ],
               "optional": false
@@ -382,8 +379,7 @@
                   "type": "Literal",
                   "start": 948,
                   "end": 953,
-                  "value": "bar",
-                  "raw": "\"bar\""
+                  "value": "bar"
                 }
               ],
               "optional": false
@@ -436,8 +432,7 @@
                 "type": "Literal",
                 "start": 991,
                 "end": 996,
-                "value": "bar",
-                "raw": "\"bar\""
+                "value": "bar"
               }
             ],
             "optional": false
@@ -663,8 +658,7 @@
                   "type": "Literal",
                   "start": 1171,
                   "end": 1179,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 }
               ],
               "optional": false
@@ -730,8 +724,7 @@
                     "type": "Literal",
                     "start": 1224,
                     "end": 1236,
-                    "value": "use strict",
-                    "raw": "\"use strict\""
+                    "value": "use strict"
                   },
                   "directive": "use strict"
                 },

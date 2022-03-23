@@ -133,8 +133,7 @@
                         "type": "Literal",
                         "start": 513,
                         "end": 517,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       "property": {
                         "type": "Identifier",

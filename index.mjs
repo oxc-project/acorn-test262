@@ -63,3 +63,5 @@ for await (const p of walk("./test262/test")) {
     console.log(err.message);
   }
 }
+
+console.log("Done.")

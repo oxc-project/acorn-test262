@@ -169,7 +169,8 @@
                   "type": "Literal",
                   "start": 676,
                   "end": 691,
-                  "value": "localeMatcher"
+                  "value": "localeMatcher",
+                  "raw": "\"localeMatcher\""
                 },
                 "value": {
                   "type": "ObjectExpression",
@@ -271,8 +272,7 @@
                 "type": "Literal",
                 "start": 792,
                 "end": 796,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Literal",
@@ -500,8 +500,7 @@
                   "type": "Literal",
                   "start": 993,
                   "end": 997,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 {
                   "type": "TemplateLiteral",

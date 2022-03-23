@@ -25,16 +25,14 @@
               "type": "Literal",
               "start": 261,
               "end": 265,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             "operator": "===",
             "right": {
               "type": "Literal",
               "start": 270,
               "end": 274,
-              "value": null,
-              "raw": "null"
+              "value": null
             }
           }
         }

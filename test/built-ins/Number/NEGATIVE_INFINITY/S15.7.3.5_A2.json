@@ -34,8 +34,7 @@
             "type": "Literal",
             "start": 360,
             "end": 364,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           {
             "type": "Literal",

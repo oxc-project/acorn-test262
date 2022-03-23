@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 1208,
                   "end": 1229,
-                  "value": "ethiopic-amete-alem"
+                  "value": "ethiopic-amete-alem",
+                  "raw": "\"ethiopic-amete-alem\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 1754,
                   "end": 1764,
-                  "value": "islamicc"
+                  "value": "islamicc",
+                  "raw": "\"islamicc\""
                 },
                 "value": {
                   "type": "Literal",
@@ -273,8 +275,7 @@
                   "type": "Literal",
                   "start": 2023,
                   "end": 2028,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 {
                   "type": "BinaryExpression",

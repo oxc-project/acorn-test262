@@ -234,8 +234,7 @@
                           "type": "Literal",
                           "start": 2021,
                           "end": 2025,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         },
                         "kind": "init"
                       }

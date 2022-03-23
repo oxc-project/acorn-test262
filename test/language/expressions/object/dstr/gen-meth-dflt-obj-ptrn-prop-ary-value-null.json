@@ -149,8 +149,7 @@
                               "type": "Literal",
                               "start": 2018,
                               "end": 2022,
-                              "value": null,
-                              "raw": "null"
+                              "value": null
                             },
                             "kind": "init"
                           }

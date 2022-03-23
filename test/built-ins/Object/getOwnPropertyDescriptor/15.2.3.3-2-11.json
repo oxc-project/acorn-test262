@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 319,
                   "end": 323,
-                  "value": "30"
+                  "value": "30",
+                  "raw": "\"30\""
                 },
                 "value": {
                   "type": "Literal",

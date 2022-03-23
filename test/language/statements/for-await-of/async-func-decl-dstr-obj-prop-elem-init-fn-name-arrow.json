@@ -188,8 +188,7 @@
                               "type": "Literal",
                               "start": 1803,
                               "end": 1808,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             },
                             "kind": "init"
                           },
@@ -210,8 +209,7 @@
                               "type": "Literal",
                               "start": 1826,
                               "end": 1831,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             },
                             "kind": "init"
                           },
@@ -232,8 +230,7 @@
                               "type": "Literal",
                               "start": 1853,
                               "end": 1857,
-                              "value": true,
-                              "raw": "true"
+                              "value": true
                             },
                             "kind": "init"
                           },

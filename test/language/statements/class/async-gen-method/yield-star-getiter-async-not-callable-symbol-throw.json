@@ -706,8 +706,7 @@
                                             "type": "Literal",
                                             "start": 1967,
                                             "end": 1971,
-                                            "value": true,
-                                            "raw": "true"
+                                            "value": true
                                           },
                                           {
                                             "type": "Literal",

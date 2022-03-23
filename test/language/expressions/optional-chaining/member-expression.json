@@ -363,8 +363,7 @@
                 "type": "Literal",
                 "start": 609,
                 "end": 613,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               "property": {
                 "type": "Identifier",
@@ -978,8 +977,7 @@
             "type": "Literal",
             "start": 1157,
             "end": 1161,
-            "value": true,
-            "raw": "true"
+            "value": true
           },
           {
             "type": "ChainExpression",
@@ -1184,8 +1182,7 @@
                       "type": "Literal",
                       "start": 1335,
                       "end": 1339,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     }
                   ]
                 }

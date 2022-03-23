@@ -437,7 +437,8 @@
                               "type": "Literal",
                               "start": 801,
                               "end": 805,
-                              "value": "cu"
+                              "value": "cu",
+                              "raw": "\"cu\""
                             },
                             "value": {
                               "type": "ArrayExpression",
@@ -495,7 +496,8 @@
                               "type": "Literal",
                               "start": 910,
                               "end": 914,
-                              "value": "nu"
+                              "value": "nu",
+                              "raw": "\"nu\""
                             },
                             "value": {
                               "type": "ArrayExpression",
@@ -541,7 +543,8 @@
                               "type": "Literal",
                               "start": 970,
                               "end": 974,
-                              "value": "tz"
+                              "value": "tz",
+                              "raw": "\"tz\""
                             },
                             "value": {
                               "type": "ArrayExpression",

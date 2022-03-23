@@ -283,8 +283,7 @@
                   "type": "Literal",
                   "start": 733,
                   "end": 738,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               }
@@ -353,7 +352,8 @@
                         "type": "Literal",
                         "start": 787,
                         "end": 804,
-                        "value": "genericProperty"
+                        "value": "genericProperty",
+                        "raw": "\"genericProperty\""
                       },
                       "value": {
                         "type": "ObjectExpression",

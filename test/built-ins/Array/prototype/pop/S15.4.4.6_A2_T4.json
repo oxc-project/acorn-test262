@@ -2340,8 +2340,7 @@
                     "type": "Literal",
                     "start": 2417,
                     "end": 2421,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   },
                   {
                     "type": "Literal",

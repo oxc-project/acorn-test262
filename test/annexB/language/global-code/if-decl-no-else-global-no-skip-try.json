@@ -70,8 +70,7 @@
               "type": "Literal",
               "start": 1667,
               "end": 1671,
-              "value": null,
-              "raw": "null"
+              "value": null
             }
           }
         ]
@@ -99,8 +98,7 @@
                 "type": "Literal",
                 "start": 1692,
                 "end": 1696,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               "consequent": {
                 "type": "FunctionDeclaration",

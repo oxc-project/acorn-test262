@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 409,
             "end": 415,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           }
         }
       ],
@@ -85,8 +84,7 @@
                     "type": "Literal",
                     "start": 469,
                     "end": 481,
-                    "value": "use strict",
-                    "raw": "\"use strict\""
+                    "value": "use strict"
                   },
                   "directive": "use strict"
                 },
@@ -153,8 +151,7 @@
                         "type": "Literal",
                         "start": 549,
                         "end": 562,
-                        "value": "accProperty",
-                        "raw": "\"accProperty\""
+                        "value": "accProperty"
                       },
                       {
                         "type": "ObjectExpression",
@@ -214,8 +211,7 @@
                                         "type": "Literal",
                                         "start": 648,
                                         "end": 652,
-                                        "value": null,
-                                        "raw": "null"
+                                        "value": null
                                       }
                                     }
                                   },
@@ -285,8 +281,7 @@
                       "type": "Literal",
                       "start": 753,
                       "end": 767,
-                      "value": "overrideData",
-                      "raw": "\"overrideData\""
+                      "value": "overrideData"
                     }
                   }
                 }
@@ -335,15 +330,13 @@
             "type": "Literal",
             "start": 797,
             "end": 803,
-            "value": "data",
-            "raw": "\"data\""
+            "value": "data"
           },
           {
             "type": "Literal",
             "start": 805,
             "end": 821,
-            "value": "data unchanged",
-            "raw": "'data unchanged'"
+            "value": "data unchanged"
           }
         ],
         "optional": false

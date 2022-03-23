@@ -86,8 +86,7 @@
               "type": "Literal",
               "start": 448,
               "end": 452,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             "operator": "instanceof",
             "right": {
@@ -103,8 +102,7 @@
           "type": "Literal",
           "start": 476,
           "end": 481,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {

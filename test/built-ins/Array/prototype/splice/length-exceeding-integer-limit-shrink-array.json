@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 1061,
                   "end": 1079,
-                  "value": "9007199254740986"
+                  "value": "9007199254740986",
+                  "raw": "\"9007199254740986\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 1103,
                   "end": 1121,
-                  "value": "9007199254740987"
+                  "value": "9007199254740987",
+                  "raw": "\"9007199254740987\""
                 },
                 "value": {
                   "type": "Literal",
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 1145,
                   "end": 1163,
-                  "value": "9007199254740988"
+                  "value": "9007199254740988",
+                  "raw": "\"9007199254740988\""
                 },
                 "value": {
                   "type": "Literal",
@@ -97,7 +100,8 @@
                   "type": "Literal",
                   "start": 1220,
                   "end": 1238,
-                  "value": "9007199254740990"
+                  "value": "9007199254740990",
+                  "raw": "\"9007199254740990\""
                 },
                 "value": {
                   "type": "Literal",
@@ -118,7 +122,8 @@
                   "type": "Literal",
                   "start": 1262,
                   "end": 1280,
-                  "value": "9007199254740991"
+                  "value": "9007199254740991",
+                  "raw": "\"9007199254740991\""
                 },
                 "value": {
                   "type": "Literal",
@@ -589,8 +594,7 @@
             "type": "Literal",
             "start": 1995,
             "end": 2000,
-            "value": false,
-            "raw": "false"
+            "value": false
           },
           {
             "type": "Literal",
@@ -715,8 +719,7 @@
             "type": "Literal",
             "start": 2297,
             "end": 2302,
-            "value": false,
-            "raw": "false"
+            "value": false
           },
           {
             "type": "Literal",

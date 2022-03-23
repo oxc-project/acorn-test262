@@ -143,8 +143,7 @@
                   "type": "Literal",
                   "start": 592,
                   "end": 596,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -165,8 +164,7 @@
                   "type": "Literal",
                   "start": 614,
                   "end": 619,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               }
@@ -235,7 +233,8 @@
                         "type": "Literal",
                         "start": 668,
                         "end": 685,
-                        "value": "genericProperty"
+                        "value": "genericProperty",
+                        "raw": "\"genericProperty\""
                       },
                       "value": {
                         "type": "ObjectExpression",
@@ -259,8 +258,7 @@
                               "type": "Literal",
                               "start": 707,
                               "end": 712,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             },
                             "kind": "init"
                           }

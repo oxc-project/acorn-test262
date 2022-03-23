@@ -54,8 +54,7 @@
         "type": "Literal",
         "start": 360,
         "end": 365,
-        "value": false,
-        "raw": "false"
+        "value": false
       }
     },
     {

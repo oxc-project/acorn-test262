@@ -379,8 +379,7 @@
         "type": "Literal",
         "start": 1996,
         "end": 2001,
-        "value": false,
-        "raw": "false"
+        "value": false
       }
     }
   ],

@@ -11,8 +11,7 @@
         "type": "Literal",
         "start": 292,
         "end": 296,
-        "value": true,
-        "raw": "true"
+        "value": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -27,8 +26,7 @@
               "type": "Literal",
               "start": 305,
               "end": 310,
-              "value": false,
-              "raw": "false"
+              "value": false
             },
             "consequent": {
               "type": "ThrowStatement",
@@ -71,8 +69,7 @@
               "type": "Literal",
               "start": 434,
               "end": 438,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "ThrowStatement",
@@ -111,8 +108,7 @@
         "type": "Literal",
         "start": 564,
         "end": 568,
-        "value": true,
-        "raw": "true"
+        "value": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -127,8 +123,7 @@
               "type": "Literal",
               "start": 577,
               "end": 581,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "EmptyStatement",
@@ -152,8 +147,7 @@
               "type": "Literal",
               "start": 604,
               "end": 608,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "ThrowStatement",
@@ -192,8 +186,7 @@
         "type": "Literal",
         "start": 734,
         "end": 739,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "consequent": {
         "type": "BlockStatement",
@@ -208,8 +201,7 @@
               "type": "Literal",
               "start": 748,
               "end": 752,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "ThrowStatement",
@@ -252,8 +244,7 @@
               "type": "Literal",
               "start": 876,
               "end": 880,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "EmptyStatement",
@@ -273,8 +264,7 @@
         "type": "Literal",
         "start": 905,
         "end": 910,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "consequent": {
         "type": "BlockStatement",
@@ -289,8 +279,7 @@
               "type": "Literal",
               "start": 919,
               "end": 923,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "consequent": {
               "type": "ThrowStatement",
@@ -333,8 +322,7 @@
               "type": "Literal",
               "start": 1047,
               "end": 1052,
-              "value": false,
-              "raw": "false"
+              "value": false
             },
             "consequent": {
               "type": "ThrowStatement",

@@ -103,8 +103,7 @@
                         "type": "Literal",
                         "start": 930,
                         "end": 934,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       },
                       "consequent": {
                         "type": "Identifier",
@@ -270,8 +269,7 @@
                         "type": "Literal",
                         "start": 1098,
                         "end": 1103,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       "consequent": {
                         "type": "Identifier",

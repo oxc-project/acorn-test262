@@ -11,8 +11,7 @@
         "type": "Literal",
         "start": 490,
         "end": 495,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "body": {
         "type": "DebuggerStatement",

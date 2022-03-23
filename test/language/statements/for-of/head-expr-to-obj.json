@@ -86,8 +86,7 @@
                     "type": "Literal",
                     "start": 374,
                     "end": 378,
-                    "value": null,
-                    "raw": "null"
+                    "value": null
                   },
                   "body": {
                     "type": "BlockStatement",

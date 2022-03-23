@@ -260,8 +260,7 @@
         "type": "Literal",
         "start": 1784,
         "end": 1789,
-        "value": false,
-        "raw": "false"
+        "value": false
       }
     }
   ],

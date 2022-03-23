@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 301,
               "end": 313,
-              "value": "use strict",
-              "raw": "\"use strict\""
+              "value": "use strict"
             },
             "directive": "use strict"
           },
@@ -124,8 +123,7 @@
             "type": "Literal",
             "start": 371,
             "end": 401,
-            "value": "f.bind(undefined)() !== true",
-            "raw": "'f.bind(undefined)() !== true'"
+            "value": "f.bind(undefined)() !== true"
           }
         ],
         "optional": false

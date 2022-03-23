@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 356,
             "end": 361,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         }
       ],
@@ -284,8 +283,7 @@
                   "type": "Literal",
                   "start": 574,
                   "end": 578,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -400,8 +398,7 @@
                   "type": "Literal",
                   "start": 674,
                   "end": 678,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }

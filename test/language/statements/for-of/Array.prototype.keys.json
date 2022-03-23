@@ -39,22 +39,19 @@
                 "type": "Literal",
                 "start": 310,
                 "end": 314,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Literal",
                 "start": 316,
                 "end": 321,
-                "value": false,
-                "raw": "false"
+                "value": false
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 327,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               null,
               {

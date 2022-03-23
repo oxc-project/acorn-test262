@@ -905,8 +905,7 @@
                   "type": "Literal",
                   "start": 1981,
                   "end": 1985,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }

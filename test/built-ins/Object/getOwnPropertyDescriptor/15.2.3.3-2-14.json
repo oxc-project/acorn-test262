@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 313,
                   "end": 323,
-                  "value": "Infinity"
+                  "value": "Infinity",
+                  "raw": "\"Infinity\""
                 },
                 "value": {
                   "type": "Literal",

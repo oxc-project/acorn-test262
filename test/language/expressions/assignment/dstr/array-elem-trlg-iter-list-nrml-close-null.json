@@ -228,8 +228,7 @@
                           "type": "Literal",
                           "start": 1919,
                           "end": 1923,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         }
                       }
                     ]

@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 299,
                   "end": 316,
-                  "value": "[object Object]"
+                  "value": "[object Object]",
+                  "raw": "\"[object Object]\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 323,
                   "end": 328,
-                  "value": "abc"
+                  "value": "abc",
+                  "raw": "\"abc\""
                 },
                 "value": {
                   "type": "Literal",

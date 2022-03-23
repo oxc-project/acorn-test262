@@ -277,15 +277,13 @@
                 "type": "Literal",
                 "start": 541,
                 "end": 545,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
                 "start": 547,
                 "end": 551,
-                "value": null,
-                "raw": "null"
+                "value": null
               }
             ],
             "optional": false
@@ -389,15 +387,13 @@
                 "type": "Literal",
                 "start": 613,
                 "end": 617,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
                 "start": 619,
                 "end": 623,
-                "value": true,
-                "raw": "true"
+                "value": true
               }
             ],
             "optional": false
@@ -501,8 +497,7 @@
                 "type": "Literal",
                 "start": 685,
                 "end": 689,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "NewExpression",
@@ -519,8 +514,7 @@
                     "type": "Literal",
                     "start": 703,
                     "end": 708,
-                    "value": false,
-                    "raw": "false"
+                    "value": false
                   }
                 ]
               }
@@ -626,8 +620,7 @@
                 "type": "Literal",
                 "start": 771,
                 "end": 775,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "CallExpression",
@@ -744,8 +737,7 @@
                 "type": "Literal",
                 "start": 847,
                 "end": 851,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "ObjectExpression",

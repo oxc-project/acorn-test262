@@ -36,8 +36,7 @@
         "type": "Literal",
         "start": 307,
         "end": 312,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "consequent": {
         "type": "ExpressionStatement",

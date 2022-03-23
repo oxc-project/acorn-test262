@@ -333,8 +333,7 @@
                             "type": "Literal",
                             "start": 662,
                             "end": 666,
-                            "value": true,
-                            "raw": "true"
+                            "value": true
                           },
                           {
                             "type": "Literal",

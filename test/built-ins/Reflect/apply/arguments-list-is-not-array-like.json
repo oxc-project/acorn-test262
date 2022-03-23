@@ -154,8 +154,7 @@
                         "type": "Literal",
                         "start": 699,
                         "end": 703,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "ObjectExpression",
@@ -316,8 +315,7 @@
                         "type": "Literal",
                         "start": 933,
                         "end": 937,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     ],
                     "optional": false
@@ -422,8 +420,7 @@
                         "type": "Literal",
                         "start": 1080,
                         "end": 1084,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "CallExpression",
@@ -541,8 +538,7 @@
                         "type": "Literal",
                         "start": 1223,
                         "end": 1227,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Literal",
@@ -653,8 +649,7 @@
                         "type": "Literal",
                         "start": 1352,
                         "end": 1356,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Identifier",
@@ -765,15 +760,13 @@
                         "type": "Literal",
                         "start": 1495,
                         "end": 1499,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Literal",
                         "start": 1501,
                         "end": 1505,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     ],
                     "optional": false
@@ -878,8 +871,7 @@
                         "type": "Literal",
                         "start": 1630,
                         "end": 1634,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Identifier",
@@ -990,15 +982,13 @@
                         "type": "Literal",
                         "start": 1775,
                         "end": 1779,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Literal",
                         "start": 1781,
                         "end": 1786,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       }
                     ],
                     "optional": false
@@ -1103,15 +1093,13 @@
                         "type": "Literal",
                         "start": 1912,
                         "end": 1916,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Literal",
                         "start": 1918,
                         "end": 1922,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       }
                     ],
                     "optional": false
@@ -1216,8 +1204,7 @@
                         "type": "Literal",
                         "start": 2047,
                         "end": 2051,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Identifier",

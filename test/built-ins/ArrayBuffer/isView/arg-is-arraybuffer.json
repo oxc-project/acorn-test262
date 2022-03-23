@@ -106,8 +106,7 @@
             "type": "Literal",
             "start": 503,
             "end": 508,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false

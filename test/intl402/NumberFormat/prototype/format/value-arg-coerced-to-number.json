@@ -77,15 +77,13 @@
                 "type": "Literal",
                 "start": 355,
                 "end": 359,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
                 "start": 361,
                 "end": 365,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Literal",

@@ -359,8 +359,7 @@
                           "type": "Literal",
                           "start": 1470,
                           "end": 1475,
-                          "value": false,
-                          "raw": "false"
+                          "value": false
                         }
                       ],
                       "optional": false
@@ -656,8 +655,7 @@
               "type": "Literal",
               "start": 1651,
               "end": 1655,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             {
               "type": "ArrayExpression",

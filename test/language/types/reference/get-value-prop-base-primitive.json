@@ -300,8 +300,7 @@
               "type": "Literal",
               "start": 874,
               "end": 878,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "property": {
               "type": "Identifier",

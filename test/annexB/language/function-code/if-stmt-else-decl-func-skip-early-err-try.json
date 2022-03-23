@@ -225,8 +225,7 @@
                             "type": "Literal",
                             "start": 1957,
                             "end": 1962,
-                            "value": false,
-                            "raw": "false"
+                            "value": false
                           },
                           "consequent": {
                             "type": "EmptyStatement",

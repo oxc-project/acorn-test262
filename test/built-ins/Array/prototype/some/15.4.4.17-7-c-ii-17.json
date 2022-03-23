@@ -117,7 +117,8 @@
                   "type": "Literal",
                   "start": 403,
                   "end": 404,
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 "value": {
                   "type": "Literal",

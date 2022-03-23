@@ -354,8 +354,7 @@
             "type": "Literal",
             "start": 913,
             "end": 918,
-            "value": false,
-            "raw": "false"
+            "value": false
           },
           {
             "type": "CallExpression",

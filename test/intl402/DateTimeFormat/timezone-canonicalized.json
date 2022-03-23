@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 371,
                   "end": 380,
-                  "value": "Etc/GMT"
+                  "value": "Etc/GMT",
+                  "raw": "\"Etc/GMT\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 393,
                   "end": 404,
-                  "value": "Greenwich"
+                  "value": "Greenwich",
+                  "raw": "\"Greenwich\""
                 },
                 "value": {
                   "type": "Literal",
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 417,
                   "end": 422,
-                  "value": "PRC"
+                  "value": "PRC",
+                  "raw": "\"PRC\""
                 },
                 "value": {
                   "type": "Literal",
@@ -97,7 +100,8 @@
                   "type": "Literal",
                   "start": 445,
                   "end": 466,
-                  "value": "AmErIcA/LoS_aNgElEs"
+                  "value": "AmErIcA/LoS_aNgElEs",
+                  "raw": "\"AmErIcA/LoS_aNgElEs\""
                 },
                 "value": {
                   "type": "Literal",
@@ -118,7 +122,8 @@
                   "type": "Literal",
                   "start": 495,
                   "end": 506,
-                  "value": "etc/gmt+7"
+                  "value": "etc/gmt+7",
+                  "raw": "\"etc/gmt+7\""
                 },
                 "value": {
                   "type": "Literal",

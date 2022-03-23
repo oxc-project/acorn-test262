@@ -33,8 +33,7 @@
                 "type": "Literal",
                 "start": 1191,
                 "end": 1195,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
@@ -46,15 +45,13 @@
                 "type": "Literal",
                 "start": 1205,
                 "end": 1210,
-                "value": false,
-                "raw": "false"
+                "value": false
               },
               {
                 "type": "Literal",
                 "start": 1214,
                 "end": 1218,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "CallExpression",

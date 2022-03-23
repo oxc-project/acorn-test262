@@ -33,22 +33,19 @@
                 "type": "Literal",
                 "start": 331,
                 "end": 335,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
                 "start": 337,
                 "end": 341,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Literal",
                 "start": 343,
                 "end": 348,
-                "value": false,
-                "raw": "false"
+                "value": false
               },
               {
                 "type": "Literal",

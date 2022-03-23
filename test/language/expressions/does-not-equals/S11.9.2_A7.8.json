@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 317,
               "end": 321,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "operator": "!=",
             "right": {
@@ -84,8 +83,7 @@
           "type": "Literal",
           "start": 363,
           "end": 368,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -244,8 +242,7 @@
           "type": "Literal",
           "start": 552,
           "end": 557,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -404,8 +401,7 @@
           "type": "Literal",
           "start": 775,
           "end": 780,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -470,8 +466,7 @@
                     "type": "Literal",
                     "start": 933,
                     "end": 937,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   },
                   "operator": "!=",
                   "right": {
@@ -574,8 +569,7 @@
                 "type": "Literal",
                 "start": 1020,
                 "end": 1025,
-                "value": false,
-                "raw": "false"
+                "value": false
               }
             },
             "consequent": {
@@ -815,8 +809,7 @@
           "type": "Literal",
           "start": 1573,
           "end": 1578,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -975,8 +968,7 @@
           "type": "Literal",
           "start": 1769,
           "end": 1773,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {
@@ -1138,8 +1130,7 @@
                 "type": "Literal",
                 "start": 1999,
                 "end": 2004,
-                "value": false,
-                "raw": "false"
+                "value": false
               }
             },
             "consequent": {
@@ -1604,8 +1595,7 @@
                   "type": "Literal",
                   "start": 2807,
                   "end": 2811,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 }
               },
               "consequent": {

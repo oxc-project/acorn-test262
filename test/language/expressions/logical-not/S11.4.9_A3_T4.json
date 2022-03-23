@@ -36,8 +36,7 @@
           "type": "Literal",
           "start": 274,
           "end": 278,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {
@@ -91,8 +90,7 @@
             "type": "Literal",
             "start": 350,
             "end": 354,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         },
         "operator": "!==",
@@ -100,8 +98,7 @@
           "type": "Literal",
           "start": 359,
           "end": 363,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {

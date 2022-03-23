@@ -303,8 +303,7 @@
                         "type": "Literal",
                         "start": 757,
                         "end": 761,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "Identifier",

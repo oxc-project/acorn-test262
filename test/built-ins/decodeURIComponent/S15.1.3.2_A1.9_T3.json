@@ -319,8 +319,7 @@
                         "type": "Literal",
                         "start": 731,
                         "end": 735,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       }
                     },
                     "consequent": {

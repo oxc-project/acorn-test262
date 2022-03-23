@@ -20,8 +20,7 @@
               "type": "Literal",
               "start": 302,
               "end": 306,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             "body": {
               "type": "ExpressionStatement",
@@ -141,8 +140,7 @@
                   "type": "Literal",
                   "start": 466,
                   "end": 470,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 }
               },
               "consequent": {

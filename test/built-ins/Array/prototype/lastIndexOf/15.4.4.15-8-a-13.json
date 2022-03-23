@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 364,
                   "end": 365,
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 "value": {
                   "type": "Literal",
@@ -220,8 +221,7 @@
                   "type": "Literal",
                   "start": 508,
                   "end": 512,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }

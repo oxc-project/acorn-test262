@@ -395,8 +395,7 @@
             "type": "Literal",
             "start": 757,
             "end": 761,
-            "value": true,
-            "raw": "true"
+            "value": true
           }
         },
         "operator": "!==",
@@ -489,8 +488,7 @@
                         "type": "Literal",
                         "start": 909,
                         "end": 913,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       }
                     }
                   }

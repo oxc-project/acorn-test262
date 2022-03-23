@@ -34,14 +34,14 @@
                   "type": "Literal",
                   "start": 829,
                   "end": 832,
-                  "value": "0"
+                  "value": "0",
+                  "raw": "'0'"
                 },
                 "value": {
                   "type": "Literal",
                   "start": 834,
                   "end": 838,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },

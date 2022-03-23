@@ -724,8 +724,7 @@
                                         "type": "Literal",
                                         "start": 1954,
                                         "end": 1958,
-                                        "value": null,
-                                        "raw": "null"
+                                        "value": null
                                       },
                                       {
                                         "type": "ObjectExpression",
@@ -737,15 +736,13 @@
                                         "type": "Literal",
                                         "start": 1964,
                                         "end": 1968,
-                                        "value": true,
-                                        "raw": "true"
+                                        "value": true
                                       },
                                       {
                                         "type": "Literal",
                                         "start": 1970,
                                         "end": 1975,
-                                        "value": false,
-                                        "raw": "false"
+                                        "value": false
                                       },
                                       {
                                         "type": "Literal",

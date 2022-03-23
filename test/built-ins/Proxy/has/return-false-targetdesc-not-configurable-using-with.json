@@ -216,8 +216,7 @@
                   "type": "Literal",
                   "start": 764,
                   "end": 769,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               },

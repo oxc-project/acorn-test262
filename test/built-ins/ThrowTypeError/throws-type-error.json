@@ -72,8 +72,7 @@
                             "type": "Literal",
                             "start": 440,
                             "end": 452,
-                            "value": "use strict",
-                            "raw": "\"use strict\""
+                            "value": "use strict"
                           },
                           "directive": "use strict"
                         },
@@ -98,8 +97,7 @@
                   "type": "Literal",
                   "start": 479,
                   "end": 487,
-                  "value": "callee",
-                  "raw": "\"callee\""
+                  "value": "callee"
                 }
               ],
               "optional": false

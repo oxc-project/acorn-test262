@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 349,
                   "end": 357,
-                  "value": "second"
+                  "value": "second",
+                  "raw": "\"second\""
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -62,7 +63,8 @@
                   "type": "Literal",
                   "start": 371,
                   "end": 379,
-                  "value": "minute"
+                  "value": "minute",
+                  "raw": "\"minute\""
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -90,7 +92,8 @@
                   "type": "Literal",
                   "start": 393,
                   "end": 399,
-                  "value": "hour"
+                  "value": "hour",
+                  "raw": "\"hour\""
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -118,7 +121,8 @@
                   "type": "Literal",
                   "start": 412,
                   "end": 417,
-                  "value": "day"
+                  "value": "day",
+                  "raw": "\"day\""
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -152,7 +156,8 @@
                   "type": "Literal",
                   "start": 438,
                   "end": 444,
-                  "value": "week"
+                  "value": "week",
+                  "raw": "\"week\""
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -180,7 +185,8 @@
                   "type": "Literal",
                   "start": 457,
                   "end": 464,
-                  "value": "month"
+                  "value": "month",
+                  "raw": "\"month\""
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -208,7 +214,8 @@
                   "type": "Literal",
                   "start": 477,
                   "end": 486,
-                  "value": "quarter"
+                  "value": "quarter",
+                  "raw": "\"quarter\""
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -242,7 +249,8 @@
                   "type": "Literal",
                   "start": 509,
                   "end": 515,
-                  "value": "year"
+                  "value": "year",
+                  "raw": "\"year\""
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -326,7 +334,8 @@
                       "type": "Literal",
                       "start": 583,
                       "end": 590,
-                      "value": "style"
+                      "value": "style",
+                      "raw": "\"style\""
                     },
                     "value": {
                       "type": "Literal",

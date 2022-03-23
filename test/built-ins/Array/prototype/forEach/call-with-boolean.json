@@ -85,8 +85,7 @@
                 "type": "Literal",
                 "start": 292,
                 "end": 296,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "ArrowFunctionExpression",
@@ -205,8 +204,7 @@
                 "type": "Literal",
                 "start": 445,
                 "end": 450,
-                "value": false,
-                "raw": "false"
+                "value": false
               },
               {
                 "type": "ArrowFunctionExpression",

@@ -24,8 +24,7 @@
                 "type": "Literal",
                 "start": 316,
                 "end": 321,
-                "value": false,
-                "raw": "false"
+                "value": false
               },
               "operator": "||",
               "right": {
@@ -74,8 +73,7 @@
                         "type": "Literal",
                         "start": 406,
                         "end": 411,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       "operator": "||",
                       "right": {
@@ -143,8 +141,7 @@
                   "type": "Literal",
                   "start": 476,
                   "end": 480,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 }
               },
               "consequent": {

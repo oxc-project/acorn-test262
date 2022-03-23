@@ -11,22 +11,19 @@
         "type": "Literal",
         "start": 306,
         "end": 311,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "test": {
         "type": "Literal",
         "start": 317,
         "end": 322,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "update": {
         "type": "Literal",
         "start": 328,
         "end": 333,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "body": {
         "type": "BlockStatement",

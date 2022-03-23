@@ -851,22 +851,19 @@
                                 "type": "Literal",
                                 "start": 1583,
                                 "end": 1587,
-                                "value": true,
-                                "raw": "true"
+                                "value": true
                               },
                               {
                                 "type": "Literal",
                                 "start": 1589,
                                 "end": 1593,
-                                "value": true,
-                                "raw": "true"
+                                "value": true
                               },
                               {
                                 "type": "Literal",
                                 "start": 1595,
                                 "end": 1599,
-                                "value": true,
-                                "raw": "true"
+                                "value": true
                               }
                             ]
                           }

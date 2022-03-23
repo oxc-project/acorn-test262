@@ -119,8 +119,7 @@
                     "type": "Literal",
                     "start": 287,
                     "end": 291,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   }
                 ]
               }
@@ -158,8 +157,7 @@
                     "type": "Literal",
                     "start": 312,
                     "end": 316,
-                    "value": true,
-                    "raw": "true"
+                    "value": true
                   }
                 ]
               }
@@ -303,8 +301,7 @@
                         "type": "Literal",
                         "start": 403,
                         "end": 407,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       }
                     ]
                   }
@@ -362,8 +359,7 @@
                         "type": "Literal",
                         "start": 437,
                         "end": 441,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       }
                     ]
                   }
@@ -615,8 +611,7 @@
                                 "type": "Literal",
                                 "start": 615,
                                 "end": 619,
-                                "value": true,
-                                "raw": "true"
+                                "value": true
                               }
                             ]
                           }
@@ -654,8 +649,7 @@
                                 "type": "Literal",
                                 "start": 640,
                                 "end": 645,
-                                "value": false,
-                                "raw": "false"
+                                "value": false
                               }
                             ]
                           }
@@ -817,8 +811,7 @@
                                     "type": "Literal",
                                     "start": 751,
                                     "end": 755,
-                                    "value": true,
-                                    "raw": "true"
+                                    "value": true
                                   }
                                 ]
                               }
@@ -963,8 +956,7 @@
                                     "type": "Literal",
                                     "start": 849,
                                     "end": 853,
-                                    "value": true,
-                                    "raw": "true"
+                                    "value": true
                                   }
                                 ]
                               }
@@ -1022,8 +1014,7 @@
                                     "type": "Literal",
                                     "start": 883,
                                     "end": 888,
-                                    "value": false,
-                                    "raw": "false"
+                                    "value": false
                                   }
                                 ]
                               }
@@ -1168,8 +1159,7 @@
                                     "type": "Literal",
                                     "start": 982,
                                     "end": 986,
-                                    "value": true,
-                                    "raw": "true"
+                                    "value": true
                                   }
                                 ]
                               }
@@ -1227,8 +1217,7 @@
                                     "type": "Literal",
                                     "start": 1016,
                                     "end": 1021,
-                                    "value": false,
-                                    "raw": "false"
+                                    "value": false
                                   }
                                 ]
                               }

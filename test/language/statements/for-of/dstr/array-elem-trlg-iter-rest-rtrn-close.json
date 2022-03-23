@@ -97,8 +97,7 @@
             "type": "Literal",
             "start": 1970,
             "end": 1974,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       ],
@@ -123,8 +122,7 @@
             "type": "Literal",
             "start": 1987,
             "end": 1991,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       ],

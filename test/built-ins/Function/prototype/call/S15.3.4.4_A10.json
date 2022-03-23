@@ -208,8 +208,7 @@
             "type": "Literal",
             "start": 597,
             "end": 601,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           {
             "type": "FunctionExpression",

@@ -68,8 +68,7 @@
               "type": "Literal",
               "start": 465,
               "end": 469,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             {
               "type": "UnaryExpression",
@@ -183,8 +182,7 @@
                         "type": "Literal",
                         "start": 638,
                         "end": 642,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "UnaryExpression",

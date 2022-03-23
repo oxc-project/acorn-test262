@@ -22,8 +22,7 @@
             "type": "Literal",
             "start": 273,
             "end": 278,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         }
       ],
@@ -92,8 +91,7 @@
                 "type": "Literal",
                 "start": 342,
                 "end": 346,
-                "value": true,
-                "raw": "true"
+                "value": true
               }
             }
           },
@@ -120,8 +118,7 @@
                   "type": "Literal",
                   "start": 366,
                   "end": 370,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 }
               },
               "operator": "&&",
@@ -165,8 +162,7 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 413,
-                "value": true,
-                "raw": "true"
+                "value": true
               }
             },
             "alternate": {
@@ -177,8 +173,7 @@
                 "type": "Literal",
                 "start": 433,
                 "end": 438,
-                "value": false,
-                "raw": "false"
+                "value": false
               }
             }
           }
@@ -333,8 +328,7 @@
                 "type": "Literal",
                 "start": 530,
                 "end": 534,
-                "value": true,
-                "raw": "true"
+                "value": true
               }
             ],
             "optional": false
@@ -343,8 +337,7 @@
             "type": "Literal",
             "start": 537,
             "end": 541,
-            "value": true,
-            "raw": "true"
+            "value": true
           },
           {
             "type": "Literal",
@@ -394,8 +387,7 @@
             "type": "Literal",
             "start": 606,
             "end": 610,
-            "value": true,
-            "raw": "true"
+            "value": true
           },
           {
             "type": "Literal",

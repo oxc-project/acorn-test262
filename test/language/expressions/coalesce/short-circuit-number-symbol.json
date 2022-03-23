@@ -216,8 +216,7 @@
             "type": "Literal",
             "start": 1191,
             "end": 1195,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       }
@@ -437,8 +436,7 @@
               "type": "Literal",
               "start": 1337,
               "end": 1341,
-              "value": null,
-              "raw": "null"
+              "value": null
             }
           },
           "operator": "??",
@@ -566,8 +564,7 @@
             "type": "Literal",
             "start": 1444,
             "end": 1448,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       }
@@ -679,8 +676,7 @@
               "type": "Literal",
               "start": 1525,
               "end": 1529,
-              "value": null,
-              "raw": "null"
+              "value": null
             }
           },
           "operator": "??",
@@ -688,8 +684,7 @@
             "type": "Literal",
             "start": 1533,
             "end": 1537,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       }
@@ -914,8 +909,7 @@
               "type": "Literal",
               "start": 1698,
               "end": 1702,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             "operator": "??",
             "right": {
@@ -930,8 +924,7 @@
             "type": "Literal",
             "start": 1711,
             "end": 1715,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       }
@@ -1036,8 +1029,7 @@
               "type": "Literal",
               "start": 1782,
               "end": 1786,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             "operator": "??",
             "right": {
@@ -1172,8 +1164,7 @@
             "type": "Literal",
             "start": 1894,
             "end": 1898,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       }

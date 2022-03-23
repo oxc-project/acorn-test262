@@ -183,8 +183,7 @@
                                 "type": "Literal",
                                 "start": 3909,
                                 "end": 3914,
-                                "value": false,
-                                "raw": "false"
+                                "value": false
                               },
                               {
                                 "type": "Literal",
@@ -252,16 +251,14 @@
                                   "type": "Literal",
                                   "start": 3973,
                                   "end": 3977,
-                                  "value": null,
-                                  "raw": "null"
+                                  "value": null
                                 }
                               },
                               {
                                 "type": "Literal",
                                 "start": 3979,
                                 "end": 3983,
-                                "value": null,
-                                "raw": "null"
+                                "value": null
                               },
                               {
                                 "type": "Literal",
@@ -344,8 +341,7 @@
                                 "type": "Literal",
                                 "start": 4067,
                                 "end": 4072,
-                                "value": false,
-                                "raw": "false"
+                                "value": false
                               },
                               {
                                 "type": "Literal",
@@ -413,16 +409,14 @@
                                   "type": "Literal",
                                   "start": 4131,
                                   "end": 4135,
-                                  "value": null,
-                                  "raw": "null"
+                                  "value": null
                                 }
                               },
                               {
                                 "type": "Literal",
                                 "start": 4137,
                                 "end": 4141,
-                                "value": null,
-                                "raw": "null"
+                                "value": null
                               },
                               {
                                 "type": "Literal",
@@ -505,8 +499,7 @@
                                 "type": "Literal",
                                 "start": 4226,
                                 "end": 4231,
-                                "value": false,
-                                "raw": "false"
+                                "value": false
                               },
                               {
                                 "type": "Literal",
@@ -574,16 +567,14 @@
                                   "type": "Literal",
                                   "start": 4292,
                                   "end": 4296,
-                                  "value": null,
-                                  "raw": "null"
+                                  "value": null
                                 }
                               },
                               {
                                 "type": "Literal",
                                 "start": 4298,
                                 "end": 4302,
-                                "value": null,
-                                "raw": "null"
+                                "value": null
                               },
                               {
                                 "type": "Literal",
@@ -666,8 +657,7 @@
                                 "type": "Literal",
                                 "start": 4389,
                                 "end": 4394,
-                                "value": false,
-                                "raw": "false"
+                                "value": false
                               },
                               {
                                 "type": "Literal",
@@ -735,16 +725,14 @@
                                   "type": "Literal",
                                   "start": 4457,
                                   "end": 4461,
-                                  "value": null,
-                                  "raw": "null"
+                                  "value": null
                                 }
                               },
                               {
                                 "type": "Literal",
                                 "start": 4463,
                                 "end": 4467,
-                                "value": null,
-                                "raw": "null"
+                                "value": null
                               },
                               {
                                 "type": "Literal",
@@ -827,8 +815,7 @@
                                 "type": "Literal",
                                 "start": 4554,
                                 "end": 4559,
-                                "value": false,
-                                "raw": "false"
+                                "value": false
                               },
                               {
                                 "type": "Literal",
@@ -896,16 +883,14 @@
                                   "type": "Literal",
                                   "start": 4620,
                                   "end": 4624,
-                                  "value": null,
-                                  "raw": "null"
+                                  "value": null
                                 }
                               },
                               {
                                 "type": "Literal",
                                 "start": 4626,
                                 "end": 4630,
-                                "value": null,
-                                "raw": "null"
+                                "value": null
                               },
                               {
                                 "type": "Literal",
@@ -998,8 +983,7 @@
                                     "type": "Literal",
                                     "start": 4731,
                                     "end": 4735,
-                                    "value": null,
-                                    "raw": "null"
+                                    "value": null
                                   }
                                 ],
                                 "optional": false
@@ -1008,8 +992,7 @@
                                 "type": "Literal",
                                 "start": 4744,
                                 "end": 4749,
-                                "value": false,
-                                "raw": "false"
+                                "value": false
                               },
                               {
                                 "type": "Literal",
@@ -1090,16 +1073,14 @@
                                   "type": "Literal",
                                   "start": 4844,
                                   "end": 4848,
-                                  "value": null,
-                                  "raw": "null"
+                                  "value": null
                                 }
                               },
                               {
                                 "type": "Literal",
                                 "start": 4850,
                                 "end": 4854,
-                                "value": null,
-                                "raw": "null"
+                                "value": null
                               },
                               {
                                 "type": "Literal",
@@ -1182,8 +1163,7 @@
                                 "type": "Literal",
                                 "start": 4945,
                                 "end": 4950,
-                                "value": false,
-                                "raw": "false"
+                                "value": false
                               },
                               {
                                 "type": "Literal",
@@ -1251,16 +1231,14 @@
                                   "type": "Literal",
                                   "start": 5004,
                                   "end": 5008,
-                                  "value": null,
-                                  "raw": "null"
+                                  "value": null
                                 }
                               },
                               {
                                 "type": "Literal",
                                 "start": 5010,
                                 "end": 5014,
-                                "value": null,
-                                "raw": "null"
+                                "value": null
                               },
                               {
                                 "type": "Literal",

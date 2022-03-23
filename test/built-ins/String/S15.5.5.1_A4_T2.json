@@ -286,8 +286,7 @@
             "type": "Literal",
             "start": 1200,
             "end": 1204,
-            "value": null,
-            "raw": "null"
+            "value": null
           },
           {
             "type": "UnaryExpression",

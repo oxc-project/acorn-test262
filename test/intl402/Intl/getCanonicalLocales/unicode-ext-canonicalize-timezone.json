@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 1333,
                   "end": 1340,
-                  "value": "cnckg"
+                  "value": "cnckg",
+                  "raw": "\"cnckg\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 1462,
                   "end": 1468,
-                  "value": "eire"
+                  "value": "eire",
+                  "raw": "\"eire\""
                 },
                 "value": {
                   "type": "Literal",
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 1585,
                   "end": 1590,
-                  "value": "est"
+                  "value": "est",
+                  "raw": "\"est\""
                 },
                 "value": {
                   "type": "Literal",
@@ -97,7 +100,8 @@
                   "type": "Literal",
                   "start": 1774,
                   "end": 1780,
-                  "value": "gmt0"
+                  "value": "gmt0",
+                  "raw": "\"gmt0\""
                 },
                 "value": {
                   "type": "Literal",
@@ -118,7 +122,8 @@
                   "type": "Literal",
                   "start": 1940,
                   "end": 1945,
-                  "value": "uct"
+                  "value": "uct",
+                  "raw": "\"uct\""
                 },
                 "value": {
                   "type": "Literal",
@@ -139,7 +144,8 @@
                   "type": "Literal",
                   "start": 2106,
                   "end": 2112,
-                  "value": "zulu"
+                  "value": "zulu",
+                  "raw": "\"zulu\""
                 },
                 "value": {
                   "type": "Literal",
@@ -357,8 +363,7 @@
                   "type": "Literal",
                   "start": 2361,
                   "end": 2366,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 {
                   "type": "BinaryExpression",

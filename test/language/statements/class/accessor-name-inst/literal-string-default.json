@@ -49,7 +49,8 @@
               "type": "Literal",
               "start": 948,
               "end": 957,
-              "value": "default"
+              "value": "default",
+              "raw": "'default'"
             },
             "kind": "get",
             "value": {
@@ -91,7 +92,8 @@
               "type": "Literal",
               "start": 991,
               "end": 1000,
-              "value": "default"
+              "value": "default",
+              "raw": "'default'"
             },
             "kind": "set",
             "value": {

@@ -223,8 +223,7 @@
                                 "type": "Literal",
                                 "start": 1961,
                                 "end": 1965,
-                                "value": true,
-                                "raw": "true"
+                                "value": true
                               },
                               "kind": "init"
                             }

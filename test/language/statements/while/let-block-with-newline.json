@@ -11,8 +11,7 @@
         "type": "Literal",
         "start": 454,
         "end": 459,
-        "value": false,
-        "raw": "false"
+        "value": false
       },
       "body": {
         "type": "ExpressionStatement",

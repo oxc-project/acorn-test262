@@ -693,8 +693,7 @@
                                             "type": "Literal",
                                             "start": 1949,
                                             "end": 1953,
-                                            "value": true,
-                                            "raw": "true"
+                                            "value": true
                                           },
                                           {
                                             "type": "Literal",

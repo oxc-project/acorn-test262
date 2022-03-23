@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 301,
               "end": 315,
-              "value": "use strict",
-              "raw": "'use str\\\nict'"
+              "value": "use strict"
             },
             "directive": "use str\\\nict"
           },

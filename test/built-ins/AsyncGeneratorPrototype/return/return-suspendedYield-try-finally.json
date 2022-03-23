@@ -340,8 +340,7 @@
                             "type": "Literal",
                             "start": 1310,
                             "end": 1315,
-                            "value": false,
-                            "raw": "false"
+                            "value": false
                           },
                           {
                             "type": "Literal",
@@ -551,8 +550,7 @@
                                             "type": "Literal",
                                             "start": 1476,
                                             "end": 1481,
-                                            "value": false,
-                                            "raw": "false"
+                                            "value": false
                                           },
                                           {
                                             "type": "Literal",
@@ -755,8 +753,7 @@
                                                             "type": "Literal",
                                                             "start": 1683,
                                                             "end": 1687,
-                                                            "value": true,
-                                                            "raw": "true"
+                                                            "value": true
                                                           },
                                                           {
                                                             "type": "Literal",
@@ -959,8 +956,7 @@
                                                                             "type": "Literal",
                                                                             "start": 1889,
                                                                             "end": 1893,
-                                                                            "value": true,
-                                                                            "raw": "true"
+                                                                            "value": true
                                                                           },
                                                                           {
                                                                             "type": "Literal",

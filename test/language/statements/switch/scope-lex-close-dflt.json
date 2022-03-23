@@ -80,8 +80,7 @@
         "type": "Literal",
         "start": 876,
         "end": 880,
-        "value": null,
-        "raw": "null"
+        "value": null
       },
       "cases": [
         {
@@ -273,8 +272,7 @@
         "type": "Literal",
         "start": 1081,
         "end": 1085,
-        "value": null,
-        "raw": "null"
+        "value": null
       },
       "cases": [
         {

@@ -138,8 +138,7 @@
                       "type": "Literal",
                       "start": 629,
                       "end": 633,
-                      "value": null,
-                      "raw": "null"
+                      "value": null
                     },
                     "operator": "??",
                     "right": {

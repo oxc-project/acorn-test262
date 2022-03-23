@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 285,
               "end": 297,
-              "value": "use strict",
-              "raw": "'use strict'"
+              "value": "use strict"
             },
             "directive": "use strict"
           },
@@ -169,15 +168,13 @@
             "type": "Literal",
             "start": 418,
             "end": 429,
-            "value": "undefined",
-            "raw": "'undefined'"
+            "value": "undefined"
           },
           {
             "type": "Literal",
             "start": 431,
             "end": 452,
-            "value": "foo.call(undefined)",
-            "raw": "'foo.call(undefined)'"
+            "value": "foo.call(undefined)"
           }
         ],
         "optional": false
@@ -241,15 +238,13 @@
             "type": "Literal",
             "start": 484,
             "end": 492,
-            "value": "object",
-            "raw": "'object'"
+            "value": "object"
           },
           {
             "type": "Literal",
             "start": 494,
             "end": 506,
-            "value": "bar.call()",
-            "raw": "'bar.call()'"
+            "value": "bar.call()"
           }
         ],
         "optional": false

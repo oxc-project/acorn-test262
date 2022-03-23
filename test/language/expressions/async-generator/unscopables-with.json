@@ -116,8 +116,7 @@
                 "type": "Literal",
                 "start": 1321,
                 "end": 1325,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               "kind": "init"
             }

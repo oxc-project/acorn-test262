@@ -88,15 +88,13 @@
                 "type": "Literal",
                 "start": 469,
                 "end": 474,
-                "value": false,
-                "raw": "false"
+                "value": false
               },
               {
                 "type": "Literal",
                 "start": 476,
                 "end": 480,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "ObjectExpression",

@@ -117,15 +117,13 @@
                 "type": "Literal",
                 "start": 609,
                 "end": 613,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
                 "start": 617,
                 "end": 621,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Literal",

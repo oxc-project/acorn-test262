@@ -806,8 +806,7 @@
                                             "type": "Literal",
                                             "start": 1969,
                                             "end": 1973,
-                                            "value": true,
-                                            "raw": "true"
+                                            "value": true
                                           },
                                           {
                                             "type": "Literal",

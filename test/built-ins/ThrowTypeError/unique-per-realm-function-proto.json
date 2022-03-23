@@ -72,8 +72,7 @@
                             "type": "Literal",
                             "start": 449,
                             "end": 461,
-                            "value": "use strict",
-                            "raw": "\"use strict\""
+                            "value": "use strict"
                           },
                           "directive": "use strict"
                         },
@@ -98,8 +97,7 @@
                   "type": "Literal",
                   "start": 488,
                   "end": 496,
-                  "value": "callee",
-                  "raw": "\"callee\""
+                  "value": "callee"
                 }
               ],
               "optional": false
@@ -179,8 +177,7 @@
                 "type": "Literal",
                 "start": 660,
                 "end": 671,
-                "value": "arguments",
-                "raw": "\"arguments\""
+                "value": "arguments"
               }
             ],
             "optional": false
@@ -251,8 +248,7 @@
                 "type": "Literal",
                 "start": 743,
                 "end": 751,
-                "value": "caller",
-                "raw": "\"caller\""
+                "value": "caller"
               }
             ],
             "optional": false
@@ -318,8 +314,7 @@
             "type": "Literal",
             "start": 807,
             "end": 822,
-            "value": "arguments.get",
-            "raw": "\"arguments.get\""
+            "value": "arguments.get"
           }
         ],
         "optional": false
@@ -382,8 +377,7 @@
             "type": "Literal",
             "start": 877,
             "end": 892,
-            "value": "arguments.set",
-            "raw": "\"arguments.set\""
+            "value": "arguments.set"
           }
         ],
         "optional": false
@@ -446,8 +440,7 @@
             "type": "Literal",
             "start": 944,
             "end": 956,
-            "value": "caller.set",
-            "raw": "\"caller.set\""
+            "value": "caller.set"
           }
         ],
         "optional": false
@@ -510,8 +503,7 @@
             "type": "Literal",
             "start": 1008,
             "end": 1020,
-            "value": "caller.get",
-            "raw": "\"caller.get\""
+            "value": "caller.get"
           }
         ],
         "optional": false

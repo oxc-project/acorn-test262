@@ -25,8 +25,7 @@
               "type": "Literal",
               "start": 242,
               "end": 246,
-              "value": true,
-              "raw": "true"
+              "value": true
             },
             "operator": "!==",
             "right": {

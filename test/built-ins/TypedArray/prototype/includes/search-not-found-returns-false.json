@@ -185,8 +185,7 @@
                         "type": "Literal",
                         "start": 1189,
                         "end": 1194,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "Literal",
@@ -269,8 +268,7 @@
                         "type": "Literal",
                         "start": 1256,
                         "end": 1261,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "Literal",
@@ -353,8 +351,7 @@
                         "type": "Literal",
                         "start": 1326,
                         "end": 1331,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "Literal",
@@ -444,8 +441,7 @@
                         "type": "Literal",
                         "start": 1397,
                         "end": 1402,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "Literal",
@@ -535,8 +531,7 @@
                         "type": "Literal",
                         "start": 1469,
                         "end": 1474,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "Literal",
@@ -626,8 +621,7 @@
                         "type": "Literal",
                         "start": 1541,
                         "end": 1546,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "Literal",

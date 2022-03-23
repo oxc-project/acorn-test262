@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 285,
                   "end": 295,
-                  "value": "AB\n\\cd"
+                  "value": "AB\n\\cd",
+                  "raw": "\"AB\\n\\\\cd\""
                 },
                 "value": {
                   "type": "Literal",

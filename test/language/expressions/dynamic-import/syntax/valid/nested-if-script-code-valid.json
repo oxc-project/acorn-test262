@@ -52,8 +52,7 @@
         "type": "Literal",
         "start": 1235,
         "end": 1239,
-        "value": true,
-        "raw": "true"
+        "value": true
       },
       "consequent": {
         "type": "BlockStatement",

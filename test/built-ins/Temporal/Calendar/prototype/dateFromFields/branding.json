@@ -378,8 +378,7 @@
                   "type": "Literal",
                   "start": 589,
                   "end": 593,
-                  "value": null,
-                  "raw": "null"
+                  "value": null
                 },
                 {
                   "type": "Identifier",
@@ -472,8 +471,7 @@
                   "type": "Literal",
                   "start": 663,
                   "end": 667,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 {
                   "type": "Identifier",

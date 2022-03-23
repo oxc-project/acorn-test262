@@ -877,8 +877,7 @@
             "type": "Literal",
             "start": 2469,
             "end": 2474,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -981,8 +980,7 @@
             "type": "Literal",
             "start": 2540,
             "end": 2545,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -1037,8 +1035,7 @@
                   "type": "Literal",
                   "start": 2588,
                   "end": 2593,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               },
@@ -1059,8 +1056,7 @@
                   "type": "Literal",
                   "start": 2611,
                   "end": 2615,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -1081,8 +1077,7 @@
                   "type": "Literal",
                   "start": 2629,
                   "end": 2633,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -1110,8 +1105,7 @@
                   "type": "Literal",
                   "start": 2648,
                   "end": 2652,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -1326,8 +1320,7 @@
                             "type": "Literal",
                             "start": 2749,
                             "end": 2753,
-                            "value": true,
-                            "raw": "true"
+                            "value": true
                           }
                         ],
                         "optional": false

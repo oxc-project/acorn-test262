@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 282,
                   "end": 292,
-                  "value": "property"
+                  "value": "property",
+                  "raw": "\"property\""
                 },
                 "value": {
                   "type": "Literal",

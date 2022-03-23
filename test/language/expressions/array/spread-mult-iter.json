@@ -683,8 +683,7 @@
               "type": "Literal",
               "start": 1985,
               "end": 1989,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             {
               "type": "ArrayExpression",

@@ -58,8 +58,7 @@
                           "type": "Literal",
                           "start": 308,
                           "end": 312,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         }
                       }
                     ]
@@ -92,8 +91,7 @@
             "type": "Literal",
             "start": 332,
             "end": 336,
-            "value": null,
-            "raw": "null"
+            "value": null
           }
         }
       ],
@@ -129,8 +127,7 @@
                 "type": "Literal",
                 "start": 356,
                 "end": 360,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Identifier",
@@ -148,15 +145,13 @@
                 "type": "Literal",
                 "start": 376,
                 "end": 381,
-                "value": false,
-                "raw": "false"
+                "value": false
               },
               {
                 "type": "Literal",
                 "start": 383,
                 "end": 387,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
@@ -186,22 +181,19 @@
                 "type": "Literal",
                 "start": 405,
                 "end": 409,
-                "value": null,
-                "raw": "null"
+                "value": null
               },
               {
                 "type": "Literal",
                 "start": 411,
                 "end": 415,
-                "value": true,
-                "raw": "true"
+                "value": true
               },
               {
                 "type": "Literal",
                 "start": 417,
                 "end": 422,
-                "value": false,
-                "raw": "false"
+                "value": false
               },
               {
                 "type": "Identifier",
@@ -301,8 +293,7 @@
                 "type": "Literal",
                 "start": 506,
                 "end": 510,
-                "value": null,
-                "raw": "null"
+                "value": null
               }
             ],
             "optional": false

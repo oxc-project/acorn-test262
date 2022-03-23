@@ -49,8 +49,7 @@
           "type": "Literal",
           "start": 403,
           "end": 407,
-          "value": true,
-          "raw": "true"
+          "value": true
         }
       },
       "consequent": {
@@ -207,8 +206,7 @@
           "type": "Literal",
           "start": 657,
           "end": 662,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {

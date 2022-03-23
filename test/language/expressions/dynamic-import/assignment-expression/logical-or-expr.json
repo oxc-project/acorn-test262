@@ -264,8 +264,7 @@
                         "type": "Literal",
                         "start": 1104,
                         "end": 1109,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       "operator": "||",
                       "right": {

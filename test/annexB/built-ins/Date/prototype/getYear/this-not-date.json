@@ -383,8 +383,7 @@
                         "type": "Literal",
                         "start": 635,
                         "end": 639,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       }
                     ],
                     "optional": false

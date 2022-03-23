@@ -80,8 +80,7 @@
                     "type": "Literal",
                     "start": 1060,
                     "end": 1065,
-                    "value": false,
-                    "raw": "false"
+                    "value": false
                   },
                   "consequent": {
                     "type": "EmptyStatement",

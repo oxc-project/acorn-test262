@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 354,
               "end": 359,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           }
         },
@@ -40,8 +39,7 @@
           "type": "Literal",
           "start": 365,
           "end": 370,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -104,8 +102,7 @@
               "type": "Literal",
               "start": 455,
               "end": 459,
-              "value": true,
-              "raw": "true"
+              "value": true
             }
           }
         },
@@ -114,8 +111,7 @@
           "type": "Literal",
           "start": 465,
           "end": 470,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -182,8 +178,7 @@
                   "type": "Literal",
                   "start": 561,
                   "end": 566,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 }
               ]
             },
@@ -192,8 +187,7 @@
               "type": "Literal",
               "start": 571,
               "end": 576,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           }
         },
@@ -202,8 +196,7 @@
           "type": "Literal",
           "start": 582,
           "end": 587,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {
@@ -310,8 +303,7 @@
               "type": "Literal",
               "start": 721,
               "end": 726,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           }
         },
@@ -320,8 +312,7 @@
           "type": "Literal",
           "start": 732,
           "end": 737,
-          "value": false,
-          "raw": "false"
+          "value": false
         }
       },
       "consequent": {

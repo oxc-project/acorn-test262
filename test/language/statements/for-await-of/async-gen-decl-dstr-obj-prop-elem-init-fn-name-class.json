@@ -437,8 +437,7 @@
                               "type": "Literal",
                               "start": 1973,
                               "end": 1978,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             },
                             "kind": "init"
                           },
@@ -459,8 +458,7 @@
                               "type": "Literal",
                               "start": 1996,
                               "end": 2001,
-                              "value": false,
-                              "raw": "false"
+                              "value": false
                             },
                             "kind": "init"
                           },
@@ -481,8 +479,7 @@
                               "type": "Literal",
                               "start": 2023,
                               "end": 2027,
-                              "value": true,
-                              "raw": "true"
+                              "value": true
                             },
                             "kind": "init"
                           },

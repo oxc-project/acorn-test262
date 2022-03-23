@@ -30,8 +30,7 @@
               "type": "Literal",
               "start": 319,
               "end": 331,
-              "value": "use strict",
-              "raw": "\"use strict\""
+              "value": "use strict"
             },
             "directive": "use strict"
           },
@@ -65,15 +64,13 @@
                       "type": "Literal",
                       "start": 367,
                       "end": 370,
-                      "value": "a",
-                      "raw": "\"a\""
+                      "value": "a"
                     },
                     {
                       "type": "Literal",
                       "start": 372,
                       "end": 394,
-                      "value": "eval('public = 1;');",
-                      "raw": "\"eval('public = 1;');\""
+                      "value": "eval('public = 1;');"
                     }
                   ]
                 }

@@ -114,7 +114,8 @@
                         "type": "Literal",
                         "start": 391,
                         "end": 401,
-                        "value": "currency"
+                        "value": "currency",
+                        "raw": "\"currency\""
                       },
                       "value": {
                         "type": "ObjectExpression",

@@ -23,8 +23,7 @@
               "type": "Literal",
               "start": 295,
               "end": 299,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             "operator": "&",
             "right": {
@@ -90,8 +89,7 @@
                           "type": "Literal",
                           "start": 392,
                           "end": 396,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         },
                         "operator": "&",
                         "right": {
@@ -138,8 +136,7 @@
               "type": "Literal",
               "start": 443,
               "end": 447,
-              "value": null,
-              "raw": "null"
+              "value": null
             }
           }
         },
@@ -205,8 +202,7 @@
                           "type": "Literal",
                           "start": 540,
                           "end": 544,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         }
                       }
                     }
@@ -345,16 +341,14 @@
               "type": "Literal",
               "start": 718,
               "end": 722,
-              "value": null,
-              "raw": "null"
+              "value": null
             },
             "operator": "&",
             "right": {
               "type": "Literal",
               "start": 725,
               "end": 729,
-              "value": null,
-              "raw": "null"
+              "value": null
             }
           }
         },
@@ -413,16 +407,14 @@
                           "type": "Literal",
                           "start": 805,
                           "end": 809,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         },
                         "operator": "&",
                         "right": {
                           "type": "Literal",
                           "start": 812,
                           "end": 816,
-                          "value": null,
-                          "raw": "null"
+                          "value": null
                         }
                       }
                     }

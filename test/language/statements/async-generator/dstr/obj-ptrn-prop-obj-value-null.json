@@ -282,8 +282,7 @@
                               "type": "Literal",
                               "start": 1133,
                               "end": 1137,
-                              "value": null,
-                              "raw": "null"
+                              "value": null
                             },
                             "kind": "init"
                           }

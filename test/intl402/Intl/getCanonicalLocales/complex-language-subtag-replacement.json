@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 1443,
                   "end": 1447,
-                  "value": "sh"
+                  "value": "sh",
+                  "raw": "\"sh\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 1462,
                   "end": 1471,
-                  "value": "sh-Cyrl"
+                  "value": "sh-Cyrl",
+                  "raw": "\"sh-Cyrl\""
                 },
                 "value": {
                   "type": "Literal",
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 1621,
                   "end": 1626,
-                  "value": "cnr"
+                  "value": "cnr",
+                  "raw": "\"cnr\""
                 },
                 "value": {
                   "type": "Literal",
@@ -97,7 +100,8 @@
                   "type": "Literal",
                   "start": 1639,
                   "end": 1647,
-                  "value": "cnr-BA"
+                  "value": "cnr-BA",
+                  "raw": "\"cnr-BA\""
                 },
                 "value": {
                   "type": "Literal",

@@ -239,8 +239,7 @@
                         "type": "Literal",
                         "start": 672,
                         "end": 676,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "ArrayExpression",
@@ -456,8 +455,7 @@
                         "type": "Literal",
                         "start": 857,
                         "end": 861,
-                        "value": null,
-                        "raw": "null"
+                        "value": null
                       },
                       {
                         "type": "NewExpression",
@@ -778,8 +776,7 @@
                         "type": "Literal",
                         "start": 1112,
                         "end": 1116,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       },
                       {
                         "type": "ArrayExpression",
@@ -884,8 +881,7 @@
                         "type": "Literal",
                         "start": 1193,
                         "end": 1198,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "ArrayExpression",
@@ -1370,8 +1366,7 @@
                         "type": "Literal",
                         "start": 1570,
                         "end": 1574,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       },
                       {
                         "type": "NewExpression",
@@ -1489,8 +1484,7 @@
                         "type": "Literal",
                         "start": 1665,
                         "end": 1670,
-                        "value": false,
-                        "raw": "false"
+                        "value": false
                       },
                       {
                         "type": "NewExpression",

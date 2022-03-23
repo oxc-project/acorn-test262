@@ -34,7 +34,8 @@
                   "type": "Literal",
                   "start": 637,
                   "end": 641,
-                  "value": "en"
+                  "value": "en",
+                  "raw": "\"en\""
                 },
                 "value": {
                   "type": "Literal",
@@ -55,7 +56,8 @@
                   "type": "Literal",
                   "start": 710,
                   "end": 719,
-                  "value": "en-Latn"
+                  "value": "en-Latn",
+                  "raw": "\"en-Latn\""
                 },
                 "value": {
                   "type": "Literal",
@@ -76,7 +78,8 @@
                   "type": "Literal",
                   "start": 739,
                   "end": 748,
-                  "value": "en-Shaw"
+                  "value": "en-Shaw",
+                  "raw": "\"en-Shaw\""
                 },
                 "value": {
                   "type": "Literal",
@@ -97,7 +100,8 @@
                   "type": "Literal",
                   "start": 768,
                   "end": 777,
-                  "value": "en-Arab"
+                  "value": "en-Arab",
+                  "raw": "\"en-Arab\""
                 },
                 "value": {
                   "type": "Literal",
@@ -118,7 +122,8 @@
                   "type": "Literal",
                   "start": 846,
                   "end": 853,
-                  "value": "en-US"
+                  "value": "en-US",
+                  "raw": "\"en-US\""
                 },
                 "value": {
                   "type": "Literal",
@@ -139,7 +144,8 @@
                   "type": "Literal",
                   "start": 873,
                   "end": 880,
-                  "value": "en-GB"
+                  "value": "en-GB",
+                  "raw": "\"en-GB\""
                 },
                 "value": {
                   "type": "Literal",
@@ -160,7 +166,8 @@
                   "type": "Literal",
                   "start": 900,
                   "end": 907,
-                  "value": "en-FR"
+                  "value": "en-FR",
+                  "raw": "\"en-FR\""
                 },
                 "value": {
                   "type": "Literal",
@@ -181,7 +188,8 @@
                   "type": "Literal",
                   "start": 985,
                   "end": 997,
-                  "value": "it-Kana-CA"
+                  "value": "it-Kana-CA",
+                  "raw": "\"it-Kana-CA\""
                 },
                 "value": {
                   "type": "Literal",
@@ -202,7 +210,8 @@
                   "type": "Literal",
                   "start": 1053,
                   "end": 1058,
-                  "value": "und"
+                  "value": "und",
+                  "raw": "\"und\""
                 },
                 "value": {
                   "type": "Literal",
@@ -223,7 +232,8 @@
                   "type": "Literal",
                   "start": 1078,
                   "end": 1088,
-                  "value": "und-Thai"
+                  "value": "und-Thai",
+                  "raw": "\"und-Thai\""
                 },
                 "value": {
                   "type": "Literal",
@@ -244,7 +254,8 @@
                   "type": "Literal",
                   "start": 1108,
                   "end": 1117,
-                  "value": "und-419"
+                  "value": "und-419",
+                  "raw": "\"und-419\""
                 },
                 "value": {
                   "type": "Literal",
@@ -265,7 +276,8 @@
                   "type": "Literal",
                   "start": 1138,
                   "end": 1147,
-                  "value": "und-150"
+                  "value": "und-150",
+                  "raw": "\"und-150\""
                 },
                 "value": {
                   "type": "Literal",
@@ -286,7 +298,8 @@
                   "type": "Literal",
                   "start": 1167,
                   "end": 1175,
-                  "value": "und-AT"
+                  "value": "und-AT",
+                  "raw": "\"und-AT\""
                 },
                 "value": {
                   "type": "Literal",
@@ -307,7 +320,8 @@
                   "type": "Literal",
                   "start": 1195,
                   "end": 1208,
-                  "value": "und-Cyrl-RO"
+                  "value": "und-Cyrl-RO",
+                  "raw": "\"und-Cyrl-RO\""
                 },
                 "value": {
                   "type": "Literal",
@@ -328,7 +342,8 @@
                   "type": "Literal",
                   "start": 1300,
                   "end": 1308,
-                  "value": "und-AQ"
+                  "value": "und-AQ",
+                  "raw": "\"und-AQ\""
                 },
                 "value": {
                   "type": "Literal",
@@ -375,7 +390,8 @@
                   "type": "Literal",
                   "start": 1394,
                   "end": 1398,
-                  "value": "en"
+                  "value": "en",
+                  "raw": "\"en\""
                 },
                 "value": {
                   "type": "Literal",
@@ -396,7 +412,8 @@
                   "type": "Literal",
                   "start": 1459,
                   "end": 1468,
-                  "value": "en-Latn"
+                  "value": "en-Latn",
+                  "raw": "\"en-Latn\""
                 },
                 "value": {
                   "type": "Literal",
@@ -417,7 +434,8 @@
                   "type": "Literal",
                   "start": 1480,
                   "end": 1489,
-                  "value": "ar-Arab"
+                  "value": "ar-Arab",
+                  "raw": "\"ar-Arab\""
                 },
                 "value": {
                   "type": "Literal",
@@ -438,7 +456,8 @@
                   "type": "Literal",
                   "start": 1550,
                   "end": 1557,
-                  "value": "en-US"
+                  "value": "en-US",
+                  "raw": "\"en-US\""
                 },
                 "value": {
                   "type": "Literal",
@@ -459,7 +478,8 @@
                   "type": "Literal",
                   "start": 1569,
                   "end": 1576,
-                  "value": "en-GB"
+                  "value": "en-GB",
+                  "raw": "\"en-GB\""
                 },
                 "value": {
                   "type": "Literal",
@@ -480,7 +500,8 @@
                   "type": "Literal",
                   "start": 1637,
                   "end": 1649,
-                  "value": "en-Latn-US"
+                  "value": "en-Latn-US",
+                  "raw": "\"en-Latn-US\""
                 },
                 "value": {
                   "type": "Literal",
@@ -501,7 +522,8 @@
                   "type": "Literal",
                   "start": 1661,
                   "end": 1673,
-                  "value": "en-Shaw-GB"
+                  "value": "en-Shaw-GB",
+                  "raw": "\"en-Shaw-GB\""
                 },
                 "value": {
                   "type": "Literal",
@@ -522,7 +544,8 @@
                   "type": "Literal",
                   "start": 1690,
                   "end": 1702,
-                  "value": "en-Arab-US"
+                  "value": "en-Arab-US",
+                  "raw": "\"en-Arab-US\""
                 },
                 "value": {
                   "type": "Literal",
@@ -543,7 +566,8 @@
                   "type": "Literal",
                   "start": 1719,
                   "end": 1731,
-                  "value": "en-Latn-GB"
+                  "value": "en-Latn-GB",
+                  "raw": "\"en-Latn-GB\""
                 },
                 "value": {
                   "type": "Literal",
@@ -564,7 +588,8 @@
                   "type": "Literal",
                   "start": 1746,
                   "end": 1758,
-                  "value": "en-Latn-FR"
+                  "value": "en-Latn-FR",
+                  "raw": "\"en-Latn-FR\""
                 },
                 "value": {
                   "type": "Literal",
@@ -585,7 +610,8 @@
                   "type": "Literal",
                   "start": 1773,
                   "end": 1785,
-                  "value": "it-Kana-CA"
+                  "value": "it-Kana-CA",
+                  "raw": "\"it-Kana-CA\""
                 },
                 "value": {
                   "type": "Literal",
@@ -606,7 +632,8 @@
                   "type": "Literal",
                   "start": 1805,
                   "end": 1817,
-                  "value": "th-Thai-TH"
+                  "value": "th-Thai-TH",
+                  "raw": "\"th-Thai-TH\""
                 },
                 "value": {
                   "type": "Literal",
@@ -627,7 +654,8 @@
                   "type": "Literal",
                   "start": 1829,
                   "end": 1842,
-                  "value": "es-Latn-419"
+                  "value": "es-Latn-419",
+                  "raw": "\"es-Latn-419\""
                 },
                 "value": {
                   "type": "Literal",
@@ -648,7 +676,8 @@
                   "type": "Literal",
                   "start": 1858,
                   "end": 1870,
-                  "value": "ru-Cyrl-RU"
+                  "value": "ru-Cyrl-RU",
+                  "raw": "\"ru-Cyrl-RU\""
                 },
                 "value": {
                   "type": "Literal",
@@ -669,7 +698,8 @@
                   "type": "Literal",
                   "start": 1882,
                   "end": 1894,
-                  "value": "de-Latn-AT"
+                  "value": "de-Latn-AT",
+                  "raw": "\"de-Latn-AT\""
                 },
                 "value": {
                   "type": "Literal",
@@ -690,7 +720,8 @@
                   "type": "Literal",
                   "start": 1909,
                   "end": 1921,
-                  "value": "bg-Cyrl-RO"
+                  "value": "bg-Cyrl-RO",
+                  "raw": "\"bg-Cyrl-RO\""
                 },
                 "value": {
                   "type": "Literal",
@@ -711,7 +742,8 @@
                   "type": "Literal",
                   "start": 1936,
                   "end": 1949,
-                  "value": "und-Latn-AQ"
+                  "value": "und-Latn-AQ",
+                  "raw": "\"und-Latn-AQ\""
                 },
                 "value": {
                   "type": "Literal",

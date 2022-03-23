@@ -793,8 +793,7 @@
                                             "type": "Literal",
                                             "start": 1987,
                                             "end": 1991,
-                                            "value": true,
-                                            "raw": "true"
+                                            "value": true
                                           },
                                           {
                                             "type": "Literal",
