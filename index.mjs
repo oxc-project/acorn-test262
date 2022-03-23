@@ -2,7 +2,6 @@ import { Parser } from "acorn";
 import fs from "fs";
 import path from "path";
 import YAML from "yaml";
-import stage3 from "acorn-stage3";
 import traverse from "traverse";
 
 async function* walk(dir) {
@@ -42,7 +41,7 @@ for await (const p of walk("./test262/test")) {
   }
 
   try {
-    const astJson = Parser.extend(stage3).parse(code, {
+    const astJson = Parser.parse(code, {
       ecmaVersion: "latest",
       preserveParens: true,
       sourceType: module ? "module" : "script",
