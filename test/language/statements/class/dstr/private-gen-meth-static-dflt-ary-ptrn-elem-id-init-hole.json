@@ -51,7 +51,7 @@
             "static": true,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 2753,
               "end": 2760,
               "name": "method"
@@ -232,14 +232,14 @@
                         "start": 2904,
                         "end": 2908
                       },
-                      "computed": false,
-                      "optional": false,
                       "property": {
-                        "type": "PrivateName",
+                        "type": "PrivateIdentifier",
                         "start": 2909,
                         "end": 2916,
                         "name": "method"
-                      }
+                      },
+                      "computed": false,
+                      "optional": false
                     }
                   }
                 ]

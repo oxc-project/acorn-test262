@@ -64,8 +64,7 @@
                             "type": "Literal",
                             "start": 3556,
                             "end": 3569,
-                            "value": "outer class",
-                            "raw": "'outer class'"
+                            "value": "outer class"
                           }
                         }
                       ]
@@ -172,8 +171,7 @@
                             "type": "Literal",
                             "start": 3657,
                             "end": 3670,
-                            "value": "inner class",
-                            "raw": "'inner class'"
+                            "value": "inner class"
                           }
                         },
                         {
@@ -307,8 +305,7 @@
             "type": "Literal",
             "start": 3767,
             "end": 3780,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -436,8 +433,7 @@
             "type": "Literal",
             "start": 3841,
             "end": 3854,
-            "value": "inner class",
-            "raw": "'inner class'"
+            "value": "inner class"
           }
         ],
         "optional": false
@@ -549,8 +545,7 @@
             "type": "Literal",
             "start": 3921,
             "end": 3970,
-            "value": "accessed private field from an arbritary object",
-            "raw": "'accessed private field from an arbritary object'"
+            "value": "accessed private field from an arbritary object"
           }
         ],
         "optional": false

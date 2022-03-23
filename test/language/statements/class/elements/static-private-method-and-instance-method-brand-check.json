@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 1449,
                       "end": 1457,
-                      "value": "static",
-                      "raw": "'static'"
+                      "value": "static"
                     }
                   }
                 ]
@@ -158,8 +157,7 @@
                       "type": "Literal",
                       "start": 1544,
                       "end": 1554,
-                      "value": "instance",
-                      "raw": "'instance'"
+                      "value": "instance"
                     }
                   }
                 ]
@@ -319,8 +317,7 @@
             "type": "Literal",
             "start": 1670,
             "end": 1678,
-            "value": "static",
-            "raw": "'static'"
+            "value": "static"
           }
         ],
         "optional": false
@@ -384,8 +381,7 @@
             "type": "Literal",
             "start": 1718,
             "end": 1728,
-            "value": "instance",
-            "raw": "'instance'"
+            "value": "instance"
           }
         ],
         "optional": false
@@ -497,8 +493,7 @@
             "type": "Literal",
             "start": 1793,
             "end": 1844,
-            "value": "Accessed static private method from instance of C",
-            "raw": "'Accessed static private method from instance of C'"
+            "value": "Accessed static private method from instance of C"
           }
         ],
         "optional": false
@@ -610,8 +605,7 @@
             "type": "Literal",
             "start": 1917,
             "end": 1958,
-            "value": "Accessed instance private method from C",
-            "raw": "'Accessed instance private method from C'"
+            "value": "Accessed instance private method from C"
           }
         ],
         "optional": false

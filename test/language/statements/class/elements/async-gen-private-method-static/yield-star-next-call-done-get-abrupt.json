@@ -315,7 +315,7 @@
             "static": true,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1528,
               "end": 1532,
               "name": "gen"
@@ -443,14 +443,14 @@
                         "start": 1685,
                         "end": 1689
                       },
-                      "computed": false,
-                      "optional": false,
                       "property": {
-                        "type": "PrivateName",
+                        "type": "PrivateIdentifier",
                         "start": 1690,
                         "end": 1694,
                         "name": "gen"
-                      }
+                      },
+                      "computed": false,
+                      "optional": false
                     }
                   }
                 ]

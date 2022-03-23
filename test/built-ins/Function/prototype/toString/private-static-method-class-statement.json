@@ -165,8 +165,7 @@
             "type": "Literal",
             "start": 490,
             "end": 534,
-            "value": "#f /* a */ ( /* b */ ) /* c */ { /* d */ }",
-            "raw": "\"#f /* a */ ( /* b */ ) /* c */ { /* d */ }\""
+            "value": "#f /* a */ ( /* b */ ) /* c */ { /* d */ }"
           }
         ],
         "optional": false

@@ -20,9 +20,10 @@
         "end": 1413,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1337,
-            "end": 1342,
+            "end": 1343,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -38,9 +39,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1344,
-            "end": 1349,
+            "end": 1350,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -56,9 +58,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1351,
-            "end": 1361,
+            "end": 1362,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -74,9 +77,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1363,
-            "end": 1373,
+            "end": 1374,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -92,9 +96,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1375,
-            "end": 1391,
+            "end": 1392,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -110,9 +115,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1393,
             "end": 1408,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",

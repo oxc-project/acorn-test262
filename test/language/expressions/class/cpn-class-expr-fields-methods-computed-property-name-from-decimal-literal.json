@@ -30,9 +30,10 @@
               "end": 1040,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 959,
-                  "end": 992,
+                  "end": 993,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "Literal",
@@ -70,9 +71,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 997,
-                  "end": 1037,
+                  "end": 1038,
                   "static": true,
                   "computed": true,
                   "key": {

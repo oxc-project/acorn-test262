@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 882,
                     "end": 884,
                     "name": "m"
@@ -115,14 +115,14 @@
                                 "start": 933,
                                 "end": 937
                               },
-                              "computed": false,
-                              "optional": false,
                               "property": {
-                                "type": "PrivateName",
+                                "type": "PrivateIdentifier",
                                 "start": 938,
                                 "end": 940,
                                 "name": "m"
-                              }
+                              },
+                              "computed": false,
+                              "optional": false
                             },
                             "arguments": [],
                             "optional": false

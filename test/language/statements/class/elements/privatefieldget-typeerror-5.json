@@ -20,12 +20,13 @@
         "end": 1352,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1195,
-            "end": 1202,
+            "end": 1203,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1195,
               "end": 1197,
               "name": "x"
@@ -109,12 +110,13 @@
                         "end": 1346,
                         "body": [
                           {
-                            "type": "FieldDefinition",
+                            "type": "PropertyDefinition",
                             "start": 1283,
-                            "end": 1295,
+                            "end": 1296,
+                            "static": false,
                             "computed": false,
                             "key": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1283,
                               "end": 1285,
                               "name": "x"
@@ -167,14 +169,14 @@
                                         "end": 1328,
                                         "name": "self"
                                       },
-                                      "computed": false,
-                                      "optional": false,
                                       "property": {
-                                        "type": "PrivateName",
+                                        "type": "PrivateIdentifier",
                                         "start": 1329,
                                         "end": 1331,
                                         "name": "x"
-                                      }
+                                      },
+                                      "computed": false,
+                                      "optional": false
                                     }
                                   }
                                 ]

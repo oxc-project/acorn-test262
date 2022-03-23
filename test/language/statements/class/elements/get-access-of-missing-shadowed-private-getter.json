@@ -320,8 +320,7 @@
             "type": "Literal",
             "start": 1177,
             "end": 1247,
-            "value": "subclass private accessor should shadow super class private accessor",
-            "raw": "'subclass private accessor should shadow super class private accessor'"
+            "value": "subclass private accessor should shadow super class private accessor"
           }
         ],
         "optional": false
@@ -691,8 +690,7 @@
             "type": "Literal",
             "start": 1543,
             "end": 1616,
-            "value": "inner class private accessor should shadow outer class private accessor",
-            "raw": "'inner class private accessor should shadow outer class private accessor'"
+            "value": "inner class private accessor should shadow outer class private accessor"
           }
         ],
         "optional": false
@@ -1018,8 +1016,7 @@
             "type": "Literal",
             "start": 1873,
             "end": 1957,
-            "value": "inner class private accessor should not be visible to outer class private accessor",
-            "raw": "'inner class private accessor should not be visible to outer class private accessor'"
+            "value": "inner class private accessor should not be visible to outer class private accessor"
           }
         ],
         "optional": false

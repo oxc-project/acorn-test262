@@ -92,12 +92,13 @@
                     "end": 2807,
                     "body": [
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 2765,
-                        "end": 2775,
+                        "end": 2776,
+                        "static": false,
                         "computed": false,
                         "key": {
-                          "type": "PrivateName",
+                          "type": "PrivateIdentifier",
                           "start": 2765,
                           "end": 2767,
                           "name": "f"
@@ -110,9 +111,10 @@
                         }
                       },
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 2781,
-                        "end": 2802,
+                        "end": 2803,
+                        "static": false,
                         "computed": true,
                         "key": {
                           "type": "MemberExpression",
@@ -124,14 +126,14 @@
                             "end": 2786,
                             "name": "self"
                           },
-                          "computed": false,
-                          "optional": false,
                           "property": {
-                            "type": "PrivateName",
+                            "type": "PrivateIdentifier",
                             "start": 2787,
                             "end": 2789,
                             "name": "f"
-                          }
+                          },
+                          "computed": false,
+                          "optional": false
                         },
                         "value": {
                           "type": "Literal",

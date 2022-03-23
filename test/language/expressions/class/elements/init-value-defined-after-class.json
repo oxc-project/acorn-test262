@@ -55,9 +55,10 @@
               "end": 806,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 796,
-                  "end": 803,
+                  "end": 804,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "Identifier",

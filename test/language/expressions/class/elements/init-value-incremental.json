@@ -55,9 +55,10 @@
               "end": 1053,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1024,
-                  "end": 1035,
+                  "end": 1036,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "UpdateExpression",
@@ -87,9 +88,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1039,
-                  "end": 1050,
+                  "end": 1051,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "UpdateExpression",

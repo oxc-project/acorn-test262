@@ -20,13 +20,13 @@
         "end": 3728,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 3530,
-            "end": 3561,
+            "end": 3562,
             "static": true,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 3537,
               "end": 3539,
               "name": "m"
@@ -92,14 +92,14 @@
                           "start": 3600,
                           "end": 3604
                         },
-                        "computed": false,
-                        "optional": false,
                         "property": {
-                          "type": "PrivateName",
+                          "type": "PrivateIdentifier",
                           "start": 3605,
                           "end": 3607,
                           "name": "m"
-                        }
+                        },
+                        "computed": false,
+                        "optional": false
                       },
                       "arguments": [],
                       "optional": false
@@ -110,7 +110,7 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 3618,
             "end": 3726,
             "static": true,
@@ -139,7 +139,7 @@
                     "static": false,
                     "computed": false,
                     "key": {
-                      "type": "PrivateName",
+                      "type": "PrivateIdentifier",
                       "start": 3641,
                       "end": 3643,
                       "name": "m"
@@ -226,14 +226,14 @@
                                   "end": 3710,
                                   "name": "o"
                                 },
-                                "computed": false,
-                                "optional": false,
                                 "property": {
-                                  "type": "PrivateName",
+                                  "type": "PrivateIdentifier",
                                   "start": 3711,
                                   "end": 3713,
                                   "name": "m"
-                                }
+                                },
+                                "computed": false,
+                                "optional": false
                               },
                               "arguments": [],
                               "optional": false

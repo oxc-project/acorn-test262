@@ -42,8 +42,7 @@
             "type": "Literal",
             "start": 671,
             "end": 672,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -68,8 +67,7 @@
             "type": "Literal",
             "start": 691,
             "end": 692,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           }
         }
       ],
@@ -137,8 +135,7 @@
                         "type": "Literal",
                         "start": 743,
                         "end": 744,
-                        "value": 1,
-                        "raw": "1"
+                        "value": 1
                       }
                     }
                   }
@@ -245,8 +242,7 @@
                                           "type": "Literal",
                                           "start": 829,
                                           "end": 830,
-                                          "value": 1,
-                                          "raw": "1"
+                                          "value": 1
                                         }
                                       }
                                     }
@@ -429,8 +425,7 @@
             "type": "Literal",
             "start": 990,
             "end": 995,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -474,15 +469,13 @@
             "type": "Literal",
             "start": 1028,
             "end": 1029,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1031,
             "end": 1058,
-            "value": "parent method not invoked",
-            "raw": "'parent method not invoked'"
+            "value": "parent method not invoked"
           }
         ],
         "optional": false
@@ -559,8 +552,7 @@
             "type": "Literal",
             "start": 1107,
             "end": 1111,
-            "value": true,
-            "raw": "true"
+            "value": true
           }
         ],
         "optional": false
@@ -604,15 +596,13 @@
             "type": "Literal",
             "start": 1143,
             "end": 1144,
-            "value": 0,
-            "raw": "0"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1146,
             "end": 1172,
-            "value": "child method not invoked",
-            "raw": "'child method not invoked'"
+            "value": "child method not invoked"
           }
         ],
         "optional": false

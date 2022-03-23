@@ -62,9 +62,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1477,
-            "end": 1482,
+            "end": 1483,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -80,9 +81,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1484,
-            "end": 1489,
+            "end": 1490,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -98,9 +100,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1491,
-            "end": 1501,
+            "end": 1502,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -116,9 +119,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1503,
-            "end": 1513,
+            "end": 1514,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -134,9 +138,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1515,
-            "end": 1531,
+            "end": 1532,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -152,9 +157,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1533,
-            "end": 1548,
+            "end": 1549,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",

@@ -92,12 +92,13 @@
               "end": 946,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 897,
-                  "end": 943,
+                  "end": 944,
+                  "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 897,
                     "end": 899,
                     "name": "x"

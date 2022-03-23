@@ -456,8 +456,7 @@
             "type": "Literal",
             "start": 1176,
             "end": 1185,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -514,8 +513,7 @@
             "type": "Literal",
             "start": 1215,
             "end": 1224,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -553,8 +551,7 @@
             "type": "Literal",
             "start": 1237,
             "end": 1250,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -611,8 +608,7 @@
             "type": "Literal",
             "start": 1276,
             "end": 1289,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -704,8 +700,7 @@
                         "type": "Literal",
                         "start": 1350,
                         "end": 1355,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ],
                     "optional": false
@@ -718,8 +713,7 @@
             "type": "Literal",
             "start": 1361,
             "end": 1419,
-            "value": "accessed inner class field from an object of outer class",
-            "raw": "'accessed inner class field from an object of outer class'"
+            "value": "accessed inner class field from an object of outer class"
           }
         ],
         "optional": false

@@ -30,13 +30,13 @@
               "end": 1916,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1464,
-                  "end": 1477,
+                  "end": 1478,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 1471,
                     "end": 1473,
                     "name": "$"
@@ -49,13 +49,13 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1479,
-                  "end": 1492,
+                  "end": 1493,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 1486,
                     "end": 1488,
                     "name": "_"
@@ -68,13 +68,13 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1494,
-                  "end": 1512,
+                  "end": 1513,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 1501,
                     "end": 1508,
                     "name": "o"
@@ -87,13 +87,13 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1514,
-                  "end": 1532,
+                  "end": 1533,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 1521,
                     "end": 1528,
                     "name": "℘"
@@ -106,13 +106,13 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1534,
-                  "end": 1558,
+                  "end": 1559,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 1541,
                     "end": 1554,
                     "name": "ZW_‌_NJ"
@@ -125,13 +125,13 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1560,
                   "end": 1583,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 1567,
                     "end": 1579,
                     "name": "ZW_‍_J"
@@ -144,9 +144,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1586,
                   "end": 1600,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -162,9 +163,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1603,
-                  "end": 1617,
+                  "end": 1618,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -219,14 +221,14 @@
                               "start": 1645,
                               "end": 1649
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1650,
                               "end": 1652,
                               "name": "$"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]
@@ -273,14 +275,14 @@
                               "start": 1684,
                               "end": 1688
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1689,
                               "end": 1691,
                               "name": "_"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]
@@ -327,14 +329,14 @@
                               "start": 1728,
                               "end": 1732
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1733,
                               "end": 1740,
                               "name": "o"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]
@@ -381,14 +383,14 @@
                               "start": 1777,
                               "end": 1781
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1782,
                               "end": 1789,
                               "name": "℘"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]
@@ -435,14 +437,14 @@
                               "start": 1832,
                               "end": 1836
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1837,
                               "end": 1850,
                               "name": "ZW_‌_NJ"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]
@@ -489,14 +491,14 @@
                               "start": 1892,
                               "end": 1896
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1897,
                               "end": 1909,
                               "name": "ZW_‍_J"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]

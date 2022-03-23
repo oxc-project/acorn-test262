@@ -68,12 +68,13 @@
         "end": 1216,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1165,
-            "end": 1213,
+            "end": 1214,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1165,
               "end": 1167,
               "name": "x"

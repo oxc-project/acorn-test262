@@ -30,12 +30,13 @@
               "end": 1030,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 941,
-                  "end": 955,
+                  "end": 956,
+                  "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 941,
                     "end": 943,
                     "name": "m"
@@ -48,9 +49,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 959,
                   "end": 973,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -66,9 +68,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 976,
-                  "end": 990,
+                  "end": 991,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -123,14 +126,14 @@
                               "start": 1016,
                               "end": 1020
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1021,
                               "end": 1023,
                               "name": "m"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]

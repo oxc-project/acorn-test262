@@ -125,8 +125,7 @@
                             "type": "Literal",
                             "start": 993,
                             "end": 995,
-                            "value": 42,
-                            "raw": "42"
+                            "value": 42
                           }
                         }
                       ]
@@ -221,8 +220,7 @@
             "type": "Literal",
             "start": 1048,
             "end": 1050,
-            "value": 42,
-            "raw": "42"
+            "value": 42
           }
         ],
         "optional": false
@@ -314,8 +312,7 @@
             "type": "Literal",
             "start": 1105,
             "end": 1150,
-            "value": "D does not contain static private method #g",
-            "raw": "'D does not contain static private method #g'"
+            "value": "D does not contain static private method #g"
           }
         ],
         "optional": false

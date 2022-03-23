@@ -313,8 +313,7 @@
                                     "type": "Literal",
                                     "start": 1065,
                                     "end": 1074,
-                                    "value": "test262",
-                                    "raw": "'test262'"
+                                    "value": "test262"
                                   }
                                 }
                               ]
@@ -493,8 +492,7 @@
                         "type": "Literal",
                         "start": 1189,
                         "end": 1194,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ],
                     "optional": false
@@ -507,8 +505,7 @@
             "type": "Literal",
             "start": 1200,
             "end": 1247,
-            "value": "invalid [[Set]] operation in a private method",
-            "raw": "'invalid [[Set]] operation in a private method'"
+            "value": "invalid [[Set]] operation in a private method"
           }
         ],
         "optional": false
@@ -546,8 +543,7 @@
             "type": "Literal",
             "start": 1260,
             "end": 1273,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -604,8 +600,7 @@
             "type": "Literal",
             "start": 1299,
             "end": 1312,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -704,8 +699,7 @@
             "type": "Literal",
             "start": 1377,
             "end": 1445,
-            "value": "invalid access of inner class method from an object of outer class",
-            "raw": "'invalid access of inner class method from an object of outer class'"
+            "value": "invalid access of inner class method from an object of outer class"
           }
         ],
         "optional": false

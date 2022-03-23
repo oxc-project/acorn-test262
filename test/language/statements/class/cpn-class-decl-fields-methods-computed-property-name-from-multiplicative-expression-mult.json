@@ -30,9 +30,10 @@
               "end": 1081,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 996,
-                  "end": 1031,
+                  "end": 1032,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "BinaryExpression",
@@ -82,9 +83,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1036,
-                  "end": 1078,
+                  "end": 1079,
                   "static": true,
                   "computed": true,
                   "key": {

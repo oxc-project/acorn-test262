@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 3507,
                       "end": 3520,
-                      "value": "outer class",
-                      "raw": "'outer class'"
+                      "value": "outer class"
                     }
                   }
                 ]
@@ -239,8 +238,7 @@
             "type": "Literal",
             "start": 3649,
             "end": 3662,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -365,8 +363,7 @@
             "type": "Literal",
             "start": 3731,
             "end": 3788,
-            "value": "accessed static private method from an arbritary object",
-            "raw": "'accessed static private method from an arbritary object'"
+            "value": "accessed static private method from an arbritary object"
           }
         ],
         "optional": false

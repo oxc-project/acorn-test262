@@ -107,9 +107,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 653,
-                  "end": 654,
+                  "end": 655,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -120,9 +121,10 @@
                   "value": null
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 656,
-                  "end": 662,
+                  "end": 663,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -138,9 +140,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 666,
-                  "end": 672,
+                  "end": 673,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",

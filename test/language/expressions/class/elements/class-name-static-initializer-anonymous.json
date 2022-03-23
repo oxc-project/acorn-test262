@@ -50,9 +50,9 @@
               "end": 654,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 617,
-                  "end": 651,
+                  "end": 652,
                   "static": true,
                   "computed": false,
                   "key": {

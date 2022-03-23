@@ -93,12 +93,13 @@
         "end": 951,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 726,
-            "end": 732,
+            "end": 733,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 726,
               "end": 732,
               "name": "field"
@@ -306,14 +307,14 @@
                                   "start": 878,
                                   "end": 882
                                 },
-                                "computed": false,
-                                "optional": false,
                                 "property": {
-                                  "type": "PrivateName",
+                                  "type": "PrivateIdentifier",
                                   "start": 883,
                                   "end": 889,
                                   "name": "field"
-                                }
+                                },
+                                "computed": false,
+                                "optional": false
                               },
                               "kind": "init"
                             }
@@ -365,14 +366,14 @@
                             "start": 924,
                             "end": 928
                           },
-                          "computed": false,
-                          "optional": false,
                           "property": {
-                            "type": "PrivateName",
+                            "type": "PrivateIdentifier",
                             "start": 929,
                             "end": 935,
                             "name": "field"
-                          }
+                          },
+                          "computed": false,
+                          "optional": false
                         },
                         {
                           "type": "Literal",

@@ -72,13 +72,13 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 756,
-                  "end": 765,
+                  "end": 766,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 763,
                     "end": 765,
                     "name": "x"
@@ -86,13 +86,13 @@
                   "value": null
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 767,
-                  "end": 776,
+                  "end": 777,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 774,
                     "end": 776,
                     "name": "y"
@@ -144,14 +144,14 @@
                                 "start": 797,
                                 "end": 801
                               },
-                              "computed": false,
-                              "optional": false,
                               "property": {
-                                "type": "PrivateName",
+                                "type": "PrivateIdentifier",
                                 "start": 802,
                                 "end": 804,
                                 "name": "x"
-                              }
+                              },
+                              "computed": false,
+                              "optional": false
                             },
                             "right": {
                               "type": "Literal",
@@ -174,14 +174,14 @@
                               "start": 822,
                               "end": 826
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 827,
                               "end": 829,
                               "name": "x"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]
@@ -233,14 +233,14 @@
                                 "start": 854,
                                 "end": 858
                               },
-                              "computed": false,
-                              "optional": false,
                               "property": {
-                                "type": "PrivateName",
+                                "type": "PrivateIdentifier",
                                 "start": 859,
                                 "end": 861,
                                 "name": "y"
-                              }
+                              },
+                              "computed": false,
+                              "optional": false
                             },
                             "right": {
                               "type": "Literal",
@@ -263,14 +263,14 @@
                               "start": 879,
                               "end": 883
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 884,
                               "end": 886,
                               "name": "y"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]

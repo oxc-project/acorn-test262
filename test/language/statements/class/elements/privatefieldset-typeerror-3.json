@@ -20,12 +20,13 @@
         "end": 1484,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1210,
-            "end": 1217,
+            "end": 1218,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1210,
               "end": 1212,
               "name": "x"
@@ -129,14 +130,14 @@
                                           "start": 1415,
                                           "end": 1419
                                         },
-                                        "computed": false,
-                                        "optional": false,
                                         "property": {
-                                          "type": "PrivateName",
+                                          "type": "PrivateIdentifier",
                                           "start": 1420,
                                           "end": 1422,
                                           "name": "x"
-                                        }
+                                        },
+                                        "computed": false,
+                                        "optional": false
                                       },
                                       "right": {
                                         "type": "Literal",
@@ -198,14 +199,14 @@
                         "start": 1470,
                         "end": 1474
                       },
-                      "computed": false,
-                      "optional": false,
                       "property": {
-                        "type": "PrivateName",
+                        "type": "PrivateIdentifier",
                         "start": 1475,
                         "end": 1477,
                         "name": "x"
-                      }
+                      },
+                      "computed": false,
+                      "optional": false
                     }
                   }
                 ]

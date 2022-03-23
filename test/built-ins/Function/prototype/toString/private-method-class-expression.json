@@ -44,7 +44,7 @@
                       "static": false,
                       "computed": false,
                       "key": {
-                        "type": "PrivateName",
+                        "type": "PrivateIdentifier",
                         "start": 327,
                         "end": 329,
                         "name": "f"
@@ -125,14 +125,14 @@
                                       "start": 437,
                                       "end": 441
                                     },
-                                    "computed": false,
-                                    "optional": false,
                                     "property": {
-                                      "type": "PrivateName",
+                                      "type": "PrivateIdentifier",
                                       "start": 442,
                                       "end": 444,
                                       "name": "f"
-                                    }
+                                    },
+                                    "computed": false,
+                                    "optional": false
                                   },
                                   {
                                     "type": "Identifier",

@@ -49,9 +49,10 @@
                     "end": 1011,
                     "body": [
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 970,
-                        "end": 983,
+                        "end": 984,
+                        "static": false,
                         "computed": true,
                         "key": {
                           "type": "YieldExpression",
@@ -73,9 +74,9 @@
                         }
                       },
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 988,
-                        "end": 1008,
+                        "end": 1009,
                         "static": true,
                         "computed": true,
                         "key": {

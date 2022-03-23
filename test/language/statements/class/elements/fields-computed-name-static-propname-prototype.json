@@ -68,9 +68,9 @@
                     "end": 825,
                     "body": [
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 795,
-                        "end": 820,
+                        "end": 821,
                         "static": true,
                         "computed": true,
                         "key": {
@@ -161,9 +161,9 @@
                     "end": 910,
                     "body": [
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 885,
-                        "end": 905,
+                        "end": 906,
                         "static": true,
                         "computed": true,
                         "key": {

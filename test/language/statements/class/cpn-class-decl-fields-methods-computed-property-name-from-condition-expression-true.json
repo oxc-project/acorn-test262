@@ -30,9 +30,10 @@
               "end": 1074,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 975,
-                  "end": 1017,
+                  "end": 1018,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "ConditionalExpression",
@@ -87,9 +88,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1022,
-                  "end": 1071,
+                  "end": 1072,
                   "static": true,
                   "computed": true,
                   "key": {

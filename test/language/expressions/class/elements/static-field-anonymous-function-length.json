@@ -30,13 +30,13 @@
               "end": 1836,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1704,
-                  "end": 1739,
+                  "end": 1740,
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 1711,
                     "end": 1717,
                     "name": "field"
@@ -72,9 +72,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1743,
-                  "end": 1771,
+                  "end": 1772,
                   "static": true,
                   "computed": false,
                   "key": {
@@ -140,14 +140,14 @@
                               "start": 1817,
                               "end": 1821
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1822,
                               "end": 1828,
                               "name": "field"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]

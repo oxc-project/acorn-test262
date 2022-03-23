@@ -55,12 +55,13 @@
               "end": 1101,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1057,
-                  "end": 1098,
+                  "end": 1099,
+                  "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 1057,
                     "end": 1059,
                     "name": "x"

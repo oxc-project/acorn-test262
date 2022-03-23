@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 944,
                       "end": 957,
-                      "value": "outer class",
-                      "raw": "'outer class'"
+                      "value": "outer class"
                     }
                   }
                 ]
@@ -456,8 +455,7 @@
             "type": "Literal",
             "start": 1198,
             "end": 1247,
-            "value": "[[Get]] operation of an accessor without getter",
-            "raw": "'[[Get]] operation of an accessor without getter'"
+            "value": "[[Get]] operation of an accessor without getter"
           }
         ],
         "optional": false
@@ -521,8 +519,7 @@
             "type": "Literal",
             "start": 1280,
             "end": 1293,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -621,8 +618,7 @@
             "type": "Literal",
             "start": 1358,
             "end": 1420,
-            "value": "access of inner class accessor from an object of outer class",
-            "raw": "'access of inner class accessor from an object of outer class'"
+            "value": "access of inner class accessor from an object of outer class"
           }
         ],
         "optional": false

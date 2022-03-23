@@ -102,9 +102,10 @@
         "end": 401,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 368,
             "end": 382,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -132,9 +133,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 385,
             "end": 399,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",

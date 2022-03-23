@@ -1390,7 +1390,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 4473,
               "end": 4477,
               "name": "gen"
@@ -1660,14 +1660,14 @@
                         "start": 4734,
                         "end": 4738
                       },
-                      "computed": false,
-                      "optional": false,
                       "property": {
-                        "type": "PrivateName",
+                        "type": "PrivateIdentifier",
                         "start": 4739,
                         "end": 4743,
                         "name": "gen"
-                      }
+                      },
+                      "computed": false,
+                      "optional": false
                     }
                   }
                 ]

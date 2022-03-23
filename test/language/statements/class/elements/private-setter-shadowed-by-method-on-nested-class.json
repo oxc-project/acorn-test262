@@ -303,8 +303,7 @@
                               "type": "Literal",
                               "start": 1060,
                               "end": 1069,
-                              "value": "test262",
-                              "raw": "'test262'"
+                              "value": "test262"
                             }
                           }
                         ]
@@ -479,8 +478,7 @@
                         "type": "Literal",
                         "start": 1184,
                         "end": 1189,
-                        "value": "foo",
-                        "raw": "'foo'"
+                        "value": "foo"
                       }
                     ],
                     "optional": false
@@ -493,8 +491,7 @@
             "type": "Literal",
             "start": 1195,
             "end": 1242,
-            "value": "invalid [[Set]] operation in a private method",
-            "raw": "'invalid [[Set]] operation in a private method'"
+            "value": "invalid [[Set]] operation in a private method"
           }
         ],
         "optional": false
@@ -532,8 +529,7 @@
             "type": "Literal",
             "start": 1255,
             "end": 1268,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -590,8 +586,7 @@
             "type": "Literal",
             "start": 1294,
             "end": 1307,
-            "value": "outer class",
-            "raw": "'outer class'"
+            "value": "outer class"
           }
         ],
         "optional": false
@@ -690,8 +685,7 @@
             "type": "Literal",
             "start": 1372,
             "end": 1440,
-            "value": "invalid access of inner class method from an object of outer class",
-            "raw": "'invalid access of inner class method from an object of outer class'"
+            "value": "invalid access of inner class method from an object of outer class"
           }
         ],
         "optional": false

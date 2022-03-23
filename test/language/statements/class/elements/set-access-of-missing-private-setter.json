@@ -125,8 +125,7 @@
                         "type": "Literal",
                         "start": 1106,
                         "end": 1115,
-                        "value": "Test262",
-                        "raw": "'Test262'"
+                        "value": "Test262"
                       }
                     }
                   }
@@ -254,8 +253,7 @@
             "type": "Literal",
             "start": 1199,
             "end": 1272,
-            "value": "set operation on private accessor without setter should throw TypeError",
-            "raw": "'set operation on private accessor without setter should throw TypeError'"
+            "value": "set operation on private accessor without setter should throw TypeError"
           }
         ],
         "optional": false

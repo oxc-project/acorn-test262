@@ -20,9 +20,10 @@
         "end": 674,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 562,
-            "end": 576,
+            "end": 577,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -80,9 +81,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 600,
-            "end": 603,
+            "end": 604,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -93,9 +95,10 @@
             "value": null
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 605,
-            "end": 608,
+            "end": 609,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -106,9 +109,10 @@
             "value": null
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 610,
-            "end": 618,
+            "end": 619,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -124,9 +128,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 622,
             "end": 630,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -184,9 +189,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 654,
-            "end": 668,
+            "end": 669,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",

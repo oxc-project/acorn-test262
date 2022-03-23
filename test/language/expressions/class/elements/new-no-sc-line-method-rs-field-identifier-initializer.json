@@ -30,9 +30,10 @@
               "end": 1520,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1423,
-                  "end": 1428,
+                  "end": 1429,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -48,9 +49,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1430,
-                  "end": 1435,
+                  "end": 1436,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -66,9 +68,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1437,
-                  "end": 1447,
+                  "end": 1448,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -84,9 +87,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1449,
-                  "end": 1459,
+                  "end": 1460,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -102,9 +106,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1461,
-                  "end": 1477,
+                  "end": 1478,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -120,9 +125,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1479,
                   "end": 1494,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",

@@ -107,9 +107,9 @@
                     "end": 2040,
                     "body": [
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 1998,
-                        "end": 2021,
+                        "end": 2022,
                         "static": true,
                         "computed": false,
                         "key": {
@@ -133,9 +133,9 @@
                         }
                       },
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 2027,
-                        "end": 2035,
+                        "end": 2036,
                         "static": true,
                         "computed": false,
                         "key": {

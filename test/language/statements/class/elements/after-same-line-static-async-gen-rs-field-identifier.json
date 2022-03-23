@@ -62,9 +62,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1466,
-            "end": 1467,
+            "end": 1468,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -75,9 +76,10 @@
             "value": null
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1469,
-            "end": 1470,
+            "end": 1471,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -88,9 +90,10 @@
             "value": null
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1472,
-            "end": 1478,
+            "end": 1479,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -101,9 +104,10 @@
             "value": null
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1480,
-            "end": 1486,
+            "end": 1487,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -114,9 +118,10 @@
             "value": null
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1488,
-            "end": 1500,
+            "end": 1501,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -127,9 +132,10 @@
             "value": null
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1502,
-            "end": 1513,
+            "end": 1514,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",

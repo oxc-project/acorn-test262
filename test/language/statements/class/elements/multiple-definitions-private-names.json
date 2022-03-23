@@ -20,9 +20,10 @@
         "end": 799,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 614,
-            "end": 628,
+            "end": 629,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -80,12 +81,13 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 652,
-            "end": 654,
+            "end": 655,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 652,
               "end": 654,
               "name": "x"
@@ -93,12 +95,13 @@
             "value": null
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 656,
             "end": 658,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 656,
               "end": 658,
               "name": "y"
@@ -148,9 +151,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 682,
-            "end": 696,
+            "end": 697,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -210,14 +214,14 @@
                           "start": 710,
                           "end": 714
                         },
-                        "computed": false,
-                        "optional": false,
                         "property": {
-                          "type": "PrivateName",
+                          "type": "PrivateIdentifier",
                           "start": 715,
                           "end": 717,
                           "name": "x"
-                        }
+                        },
+                        "computed": false,
+                        "optional": false
                       },
                       "right": {
                         "type": "Literal",
@@ -240,14 +244,14 @@
                         "start": 735,
                         "end": 739
                       },
-                      "computed": false,
-                      "optional": false,
                       "property": {
-                        "type": "PrivateName",
+                        "type": "PrivateIdentifier",
                         "start": 740,
                         "end": 742,
                         "name": "x"
-                      }
+                      },
+                      "computed": false,
+                      "optional": false
                     }
                   }
                 ]
@@ -299,14 +303,14 @@
                           "start": 760,
                           "end": 764
                         },
-                        "computed": false,
-                        "optional": false,
                         "property": {
-                          "type": "PrivateName",
+                          "type": "PrivateIdentifier",
                           "start": 765,
                           "end": 767,
                           "name": "y"
-                        }
+                        },
+                        "computed": false,
+                        "optional": false
                       },
                       "right": {
                         "type": "Literal",
@@ -329,14 +333,14 @@
                         "start": 785,
                         "end": 789
                       },
-                      "computed": false,
-                      "optional": false,
                       "property": {
-                        "type": "PrivateName",
+                        "type": "PrivateIdentifier",
                         "start": 790,
                         "end": 792,
                         "name": "y"
-                      }
+                      },
+                      "computed": false,
+                      "optional": false
                     }
                   }
                 ]

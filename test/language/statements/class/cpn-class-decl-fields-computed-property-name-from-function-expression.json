@@ -30,9 +30,10 @@
               "end": 1015,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 960,
-                  "end": 980,
+                  "end": 981,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "FunctionExpression",
@@ -58,9 +59,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 985,
-                  "end": 1012,
+                  "end": 1013,
                   "static": true,
                   "computed": true,
                   "key": {

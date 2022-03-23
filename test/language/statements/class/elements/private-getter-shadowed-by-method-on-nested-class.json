@@ -194,8 +194,7 @@
                               "type": "Literal",
                               "start": 1044,
                               "end": 1053,
-                              "value": "test262",
-                              "raw": "'test262'"
+                              "value": "test262"
                             }
                           }
                         ]
@@ -349,8 +348,7 @@
             "type": "Literal",
             "start": 1145,
             "end": 1154,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -449,8 +447,7 @@
             "type": "Literal",
             "start": 1218,
             "end": 1277,
-            "value": "accessed inner class method from an object of outer class",
-            "raw": "'accessed inner class method from an object of outer class'"
+            "value": "accessed inner class method from an object of outer class"
           }
         ],
         "optional": false

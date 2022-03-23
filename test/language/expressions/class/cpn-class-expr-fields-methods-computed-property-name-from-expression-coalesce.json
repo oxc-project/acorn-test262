@@ -50,9 +50,10 @@
               "end": 1050,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 963,
-                  "end": 999,
+                  "end": 1000,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "LogicalExpression",
@@ -102,9 +103,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1004,
-                  "end": 1047,
+                  "end": 1048,
                   "static": true,
                   "computed": true,
                   "key": {

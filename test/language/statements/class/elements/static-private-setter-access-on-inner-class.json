@@ -181,8 +181,7 @@
                                 "type": "Literal",
                                 "start": 1033,
                                 "end": 1042,
-                                "value": "Test262",
-                                "raw": "'Test262'"
+                                "value": "Test262"
                               }
                             }
                           }
@@ -299,8 +298,7 @@
             "type": "Literal",
             "start": 1099,
             "end": 1108,
-            "value": "Test262",
-            "raw": "'Test262'"
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -425,8 +423,7 @@
             "type": "Literal",
             "start": 1179,
             "end": 1251,
-            "value": "Accessed static private setter from an object which did not contain it",
-            "raw": "'Accessed static private setter from an object which did not contain it'"
+            "value": "Accessed static private setter from an object which did not contain it"
           }
         ],
         "optional": false

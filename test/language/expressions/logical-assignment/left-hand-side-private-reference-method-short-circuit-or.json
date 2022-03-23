@@ -72,7 +72,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1692,
               "end": 1706,
               "name": "privateMethod"
@@ -140,14 +140,14 @@
                           "start": 1748,
                           "end": 1752
                         },
-                        "computed": false,
-                        "optional": false,
                         "property": {
-                          "type": "PrivateName",
+                          "type": "PrivateIdentifier",
                           "start": 1753,
                           "end": 1767,
                           "name": "privateMethod"
-                        }
+                        },
+                        "computed": false,
+                        "optional": false
                       },
                       "right": {
                         "type": "CallExpression",
@@ -208,14 +208,14 @@
                         "start": 1837,
                         "end": 1841
                       },
-                      "computed": false,
-                      "optional": false,
                       "property": {
-                        "type": "PrivateName",
+                        "type": "PrivateIdentifier",
                         "start": 1842,
                         "end": 1856,
                         "name": "privateMethod"
-                      }
+                      },
+                      "computed": false,
+                      "optional": false
                     }
                   }
                 ]

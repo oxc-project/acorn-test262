@@ -178,8 +178,7 @@
                                       "type": "Literal",
                                       "start": 1165,
                                       "end": 1174,
-                                      "value": "test262",
-                                      "raw": "'test262'"
+                                      "value": "test262"
                                     }
                                   }
                                 }
@@ -344,8 +343,7 @@
             "type": "Literal",
             "start": 1276,
             "end": 1285,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -433,8 +431,7 @@
             "type": "Literal",
             "start": 1325,
             "end": 1334,
-            "value": "test262",
-            "raw": "'test262'"
+            "value": "test262"
           }
         ],
         "optional": false
@@ -546,8 +543,7 @@
             "type": "Literal",
             "start": 1401,
             "end": 1445,
-            "value": "invalid access of C1 private static setter",
-            "raw": "'invalid access of C1 private static setter'"
+            "value": "invalid access of C1 private static setter"
           }
         ],
         "optional": false
@@ -659,8 +655,7 @@
             "type": "Literal",
             "start": 1512,
             "end": 1556,
-            "value": "invalid access of C2 private static setter",
-            "raw": "'invalid access of C2 private static setter'"
+            "value": "invalid access of C2 private static setter"
           }
         ],
         "optional": false

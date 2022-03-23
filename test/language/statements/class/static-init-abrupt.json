@@ -196,9 +196,9 @@
                   ]
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1189,
-                  "end": 1222,
+                  "end": 1223,
                   "static": true,
                   "computed": false,
                   "key": {

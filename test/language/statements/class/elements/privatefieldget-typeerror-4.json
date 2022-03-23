@@ -38,12 +38,13 @@
                 "end": 1264,
                 "body": [
                   {
-                    "type": "FieldDefinition",
+                    "type": "PropertyDefinition",
                     "start": 1226,
-                    "end": 1228,
+                    "end": 1229,
+                    "static": false,
                     "computed": false,
                     "key": {
-                      "type": "PrivateName",
+                      "type": "PrivateIdentifier",
                       "start": 1226,
                       "end": 1228,
                       "name": "x"
@@ -90,14 +91,14 @@
                                 "start": 1246,
                                 "end": 1250
                               },
-                              "computed": false,
-                              "optional": false,
                               "property": {
-                                "type": "PrivateName",
+                                "type": "PrivateIdentifier",
                                 "start": 1251,
                                 "end": 1253,
                                 "name": "x"
-                              }
+                              },
+                              "computed": false,
+                              "optional": false
                             }
                           }
                         ]

@@ -30,9 +30,9 @@
               "end": 2243,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 2219,
-                  "end": 2240,
+                  "end": 2241,
                   "static": true,
                   "computed": false,
                   "key": {

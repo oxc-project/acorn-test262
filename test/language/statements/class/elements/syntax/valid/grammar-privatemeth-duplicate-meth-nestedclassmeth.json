@@ -69,7 +69,7 @@
                           "static": false,
                           "computed": false,
                           "key": {
-                            "type": "PrivateName",
+                            "type": "PrivateIdentifier",
                             "start": 720,
                             "end": 722,
                             "name": "m"
@@ -106,7 +106,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 741,
               "end": 743,
               "name": "m"

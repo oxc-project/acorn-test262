@@ -74,7 +74,7 @@
                         "static": false,
                         "computed": false,
                         "key": {
-                          "type": "PrivateName",
+                          "type": "PrivateIdentifier",
                           "start": 1001,
                           "end": 1003,
                           "name": "m"
@@ -116,9 +116,10 @@
                         }
                       },
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 1051,
-                        "end": 1074,
+                        "end": 1075,
+                        "static": false,
                         "computed": true,
                         "key": {
                           "type": "CallExpression",
@@ -133,14 +134,14 @@
                               "start": 1052,
                               "end": 1056
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 1057,
                               "end": 1059,
                               "name": "m"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           },
                           "arguments": [],
                           "optional": false

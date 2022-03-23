@@ -20,12 +20,13 @@
         "end": 1184,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 928,
-            "end": 935,
+            "end": 936,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 928,
               "end": 930,
               "name": "m"
@@ -38,9 +39,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 939,
-            "end": 960,
+            "end": 961,
+            "static": false,
             "computed": true,
             "key": {
               "type": "Literal",
@@ -61,14 +63,14 @@
                   "start": 948,
                   "end": 952
                 },
-                "computed": false,
-                "optional": false,
                 "property": {
-                  "type": "PrivateName",
+                  "type": "PrivateIdentifier",
                   "start": 953,
                   "end": 955,
                   "name": "m"
-                }
+                },
+                "computed": false,
+                "optional": false
               },
               "operator": "/",
               "right": {
@@ -324,14 +326,14 @@
                             "start": 1148,
                             "end": 1152
                           },
-                          "computed": false,
-                          "optional": false,
                           "property": {
-                            "type": "PrivateName",
+                            "type": "PrivateIdentifier",
                             "start": 1153,
                             "end": 1155,
                             "name": "m"
-                          }
+                          },
+                          "computed": false,
+                          "optional": false
                         },
                         {
                           "type": "Literal",

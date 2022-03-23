@@ -1839,7 +1839,7 @@
                   "static": true,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 4672,
                     "end": 4676,
                     "name": "gen"
@@ -2003,14 +2003,14 @@
                               "start": 4809,
                               "end": 4813
                             },
-                            "computed": false,
-                            "optional": false,
                             "property": {
-                              "type": "PrivateName",
+                              "type": "PrivateIdentifier",
                               "start": 4814,
                               "end": 4818,
                               "name": "gen"
-                            }
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]

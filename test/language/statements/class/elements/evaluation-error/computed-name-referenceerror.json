@@ -78,9 +78,10 @@
               "end": 1858,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1839,
-                  "end": 1853,
+                  "end": 1854,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "Identifier",

@@ -39,9 +39,10 @@
                     "end": 1036,
                     "body": [
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 995,
-                        "end": 1008,
+                        "end": 1009,
+                        "static": false,
                         "computed": true,
                         "key": {
                           "type": "AwaitExpression",
@@ -62,9 +63,9 @@
                         }
                       },
                       {
-                        "type": "FieldDefinition",
+                        "type": "PropertyDefinition",
                         "start": 1013,
-                        "end": 1033,
+                        "end": 1034,
                         "static": true,
                         "computed": true,
                         "key": {

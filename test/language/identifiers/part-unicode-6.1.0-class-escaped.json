@@ -20,12 +20,13 @@
         "end": 2082,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 544,
-            "end": 2079,
+            "end": 2080,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 544,
               "end": 2079,
               "name": "_ࣰࣱࣲࣦࣩ࣭࣮࣯ࣶࣹࣺࣤࣥࣧࣨ࣪࣫࣬ࣳࣴࣵࣷࣸࣻࣼࣽࣾ឴឵᮫ᮬᮭᳳ᳴ꙴꙵꙶꙷꙸꙹꙺꙻꚟꫫꫬꫭꫮꫯꫵ꫶𑃰𑃱𑃲𑃳𑃴𑃵𑃶𑃷𑃸𑃹𑄀𑄁𑄂𑄧𑄨𑄩𑄪𑄫𑄬𑄭𑄮𑄯𑄰𑄱𑄲𑄳𑄴𑄶𑄷𑄸𑄹𑄺𑄻𑄼𑄽𑄾𑄿𑆀𑆁𑆂𑆳𑆴𑆵𑆶𑆷𑆸𑆹𑆺𑆻𑆼𑆽𑆾𑆿𑇀𑇐𑇑𑇒𑇓𑇔𑇕𑇖𑇗𑇘𑇙𑚫𑚬𑚭𑚮𑚯𑚰𑚱𑚲𑚳𑚴𑚵𑚷𑚶𑛀𑛁𑛂𑛃𑛄𑛅𑛆𑛇𑛈𑛉𖽑𖽒𖽓𖽔𖽕𖽖𖽗𖽘𖽙𖽚𖽛𖽜𖽝𖽞𖽟𖽠𖽡𖽢𖽣𖽤𖽥𖽦𖽧𖽨𖽩𖽪𖽫𖽬𖽭𖽮𖽯𖽰𖽱𖽲𖽳𖽴𖽵𖽶𖽷𖽸𖽹𖽺𖽻𖽼𖽽𖽾𖾏𖾐𖾑𖾒"

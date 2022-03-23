@@ -45,9 +45,10 @@
         "end": 1828,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1777,
-            "end": 1788,
+            "end": 1789,
+            "static": false,
             "computed": true,
             "key": {
               "type": "UpdateExpression",
@@ -77,9 +78,9 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1792,
-            "end": 1810,
+            "end": 1811,
             "static": true,
             "computed": true,
             "key": {
@@ -110,9 +111,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1814,
-            "end": 1825,
+            "end": 1826,
+            "static": false,
             "computed": true,
             "key": {
               "type": "UpdateExpression",

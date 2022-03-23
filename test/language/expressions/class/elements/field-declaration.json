@@ -55,9 +55,10 @@
               "end": 1280,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1230,
-                  "end": 1243,
+                  "end": 1244,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -73,9 +74,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1247,
-                  "end": 1250,
+                  "end": 1251,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Literal",
@@ -86,9 +88,10 @@
                   "value": null
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1254,
-                  "end": 1263,
+                  "end": 1264,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Literal",
@@ -104,9 +107,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1267,
-                  "end": 1277,
+                  "end": 1278,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "Identifier",

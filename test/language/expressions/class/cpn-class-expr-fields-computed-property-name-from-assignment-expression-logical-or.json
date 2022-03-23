@@ -55,9 +55,10 @@
               "end": 1067,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1026,
-                  "end": 1039,
+                  "end": 1040,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "AssignmentExpression",
@@ -85,9 +86,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1044,
-                  "end": 1064,
+                  "end": 1065,
                   "static": true,
                   "computed": true,
                   "key": {

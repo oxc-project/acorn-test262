@@ -40,13 +40,13 @@
         "end": 740,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 670,
-            "end": 697,
+            "end": 698,
             "static": true,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 677,
               "end": 685,
               "name": "test262"
@@ -88,14 +88,14 @@
                       "end": 724,
                       "name": "C"
                     },
-                    "computed": false,
-                    "optional": false,
                     "property": {
-                      "type": "PrivateName",
+                      "type": "PrivateIdentifier",
                       "start": 725,
                       "end": 733,
                       "name": "test262"
-                    }
+                    },
+                    "computed": false,
+                    "optional": false
                   }
                 }
               }

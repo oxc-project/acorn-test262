@@ -41,8 +41,7 @@
                   "type": "Literal",
                   "start": 1718,
                   "end": 1763,
-                  "value": "The right-hand side should not be evaluated",
-                  "raw": "\"The right-hand side should not be evaluated\""
+                  "value": "The right-hand side should not be evaluated"
                 }
               ]
             }
@@ -82,8 +81,7 @@
               "type": "Literal",
               "start": 1799,
               "end": 1804,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           },
           {
@@ -121,8 +119,7 @@
                       "type": "Literal",
                       "start": 1834,
                       "end": 1835,
-                      "value": 1,
-                      "raw": "1"
+                      "value": 1
                     }
                   }
                 ]
@@ -194,8 +191,7 @@
                         "type": "Literal",
                         "start": 1890,
                         "end": 1894,
-                        "value": true,
-                        "raw": "true"
+                        "value": true
                       }
                     }
                   }
@@ -368,15 +364,13 @@
             "type": "Literal",
             "start": 2032,
             "end": 2033,
-            "value": 1,
-            "raw": "1"
+            "value": 1
           },
           {
             "type": "Literal",
             "start": 2035,
             "end": 2094,
-            "value": "The expression should evaluate to the short-circuit value",
-            "raw": "\"The expression should evaluate to the short-circuit value\""
+            "value": "The expression should evaluate to the short-circuit value"
           }
         ],
         "optional": false
@@ -427,8 +421,7 @@
             "type": "Literal",
             "start": 2124,
             "end": 2157,
-            "value": "The setter should not be called",
-            "raw": "\"The setter should not be called\""
+            "value": "The setter should not be called"
           }
         ],
         "optional": false

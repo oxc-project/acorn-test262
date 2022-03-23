@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 888,
               "end": 890,
               "name": "m"
@@ -62,9 +62,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 918,
             "end": 976,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -135,14 +136,14 @@
                                   "end": 960,
                                   "name": "o"
                                 },
-                                "computed": false,
-                                "optional": false,
                                 "property": {
-                                  "type": "PrivateName",
+                                  "type": "PrivateIdentifier",
                                   "start": 961,
                                   "end": 963,
                                   "name": "m"
-                                }
+                                },
+                                "computed": false,
+                                "optional": false
                               },
                               "arguments": [],
                               "optional": false

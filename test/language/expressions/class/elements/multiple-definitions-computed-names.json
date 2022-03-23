@@ -55,9 +55,10 @@
               "end": 730,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 604,
-                  "end": 618,
+                  "end": 619,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -115,9 +116,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 642,
-                  "end": 650,
+                  "end": 651,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "Identifier",
@@ -133,9 +135,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 652,
-                  "end": 665,
+                  "end": 666,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "Literal",
@@ -151,9 +154,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 667,
                   "end": 686,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "Literal",
@@ -206,9 +210,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 710,
-                  "end": 724,
+                  "end": 725,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",

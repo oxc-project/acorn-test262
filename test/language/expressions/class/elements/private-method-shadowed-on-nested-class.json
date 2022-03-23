@@ -36,7 +36,7 @@
                   "static": false,
                   "computed": false,
                   "key": {
-                    "type": "PrivateName",
+                    "type": "PrivateIdentifier",
                     "start": 918,
                     "end": 920,
                     "name": "m"
@@ -78,9 +78,10 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 956,
                   "end": 1048,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -143,14 +144,14 @@
                                         "start": 996,
                                         "end": 1000
                                       },
-                                      "computed": false,
-                                      "optional": false,
                                       "property": {
-                                        "type": "PrivateName",
+                                        "type": "PrivateIdentifier",
                                         "start": 1001,
                                         "end": 1003,
                                         "name": "m"
-                                      }
+                                      },
+                                      "computed": false,
+                                      "optional": false
                                     },
                                     "arguments": [],
                                     "optional": false
@@ -167,7 +168,7 @@
                           "static": false,
                           "computed": false,
                           "key": {
-                            "type": "PrivateName",
+                            "type": "PrivateIdentifier",
                             "start": 1018,
                             "end": 1020,
                             "name": "m"

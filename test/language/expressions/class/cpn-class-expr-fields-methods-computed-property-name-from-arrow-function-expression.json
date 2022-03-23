@@ -30,9 +30,10 @@
               "end": 1061,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 968,
-                  "end": 1007,
+                  "end": 1008,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "ArrowFunctionExpression",
@@ -80,9 +81,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1012,
-                  "end": 1058,
+                  "end": 1059,
                   "static": true,
                   "computed": true,
                   "key": {

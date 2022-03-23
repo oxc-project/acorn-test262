@@ -20,9 +20,9 @@
         "end": 1996,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1971,
-            "end": 1993,
+            "end": 1994,
             "static": true,
             "computed": true,
             "key": {
@@ -175,9 +175,9 @@
         "end": 2162,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 2132,
-            "end": 2159,
+            "end": 2160,
             "static": true,
             "computed": true,
             "key": {

@@ -193,8 +193,7 @@
                       "type": "Literal",
                       "start": 1393,
                       "end": 1395,
-                      "value": 42,
-                      "raw": "42"
+                      "value": 42
                     }
                   }
                 ]
@@ -260,8 +259,7 @@
                 "type": "Literal",
                 "start": 1436,
                 "end": 1439,
-                "value": "f",
-                "raw": "'f'"
+                "value": "f"
               }
             ],
             "optional": false
@@ -356,8 +354,7 @@
             "type": "Literal",
             "start": 1505,
             "end": 1561,
-            "value": "private getters are not installed before super returns",
-            "raw": "'private getters are not installed before super returns'"
+            "value": "private getters are not installed before super returns"
           }
         ],
         "optional": false

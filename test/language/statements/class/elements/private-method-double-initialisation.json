@@ -99,7 +99,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 640,
               "end": 642,
               "name": "m"

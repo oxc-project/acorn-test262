@@ -26,7 +26,7 @@
             "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1784,
               "end": 1786,
               "name": "m"
@@ -62,9 +62,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1814,
-            "end": 1835,
+            "end": 1836,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",

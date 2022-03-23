@@ -55,9 +55,10 @@
               "end": 1114,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1066,
-                  "end": 1111,
+                  "end": 1112,
+                  "static": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",

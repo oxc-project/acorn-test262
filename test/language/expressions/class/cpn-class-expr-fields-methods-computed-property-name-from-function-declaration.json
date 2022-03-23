@@ -51,9 +51,10 @@
               "end": 1054,
               "body": [
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 973,
-                  "end": 1006,
+                  "end": 1007,
+                  "static": false,
                   "computed": true,
                   "key": {
                     "type": "CallExpression",
@@ -98,9 +99,9 @@
                   }
                 },
                 {
-                  "type": "FieldDefinition",
+                  "type": "PropertyDefinition",
                   "start": 1011,
-                  "end": 1051,
+                  "end": 1052,
                   "static": true,
                   "computed": true,
                   "key": {

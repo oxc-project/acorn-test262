@@ -54,8 +54,7 @@
                       "type": "Literal",
                       "start": 1790,
                       "end": 1799,
-                      "value": "Test262",
-                      "raw": "\"Test262\""
+                      "value": "Test262"
                     }
                   }
                 ]
@@ -108,8 +107,7 @@
                           "type": "Literal",
                           "start": 1850,
                           "end": 1861,
-                          "value": "this.#m()",
-                          "raw": "\"this.#m()\""
+                          "value": "this.#m()"
                         }
                       ],
                       "optional": false
@@ -247,8 +245,7 @@
             "type": "Literal",
             "start": 1971,
             "end": 1980,
-            "value": "Test262",
-            "raw": "\"Test262\""
+            "value": "Test262"
           }
         ],
         "optional": false
@@ -360,8 +357,7 @@
             "type": "Literal",
             "start": 2053,
             "end": 2088,
-            "value": "invalid access to a private field",
-            "raw": "\"invalid access to a private field\""
+            "value": "invalid access to a private field"
           }
         ],
         "optional": false

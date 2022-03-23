@@ -68,8 +68,7 @@
                       "type": "Literal",
                       "start": 1686,
                       "end": 1692,
-                      "value": 5,
-                      "raw": "0b0101"
+                      "value": 5
                     }
                   }
                 ]
@@ -207,8 +206,7 @@
                         "type": "Literal",
                         "start": 1811,
                         "end": 1817,
-                        "value": 10,
-                        "raw": "0b1010"
+                        "value": 10
                       }
                     }
                   }
@@ -362,15 +360,13 @@
             "type": "Literal",
             "start": 1953,
             "end": 1959,
-            "value": 0,
-            "raw": "0b0000"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 1961,
             "end": 2007,
-            "value": "The expression should evaluate to the result",
-            "raw": "\"The expression should evaluate to the result\""
+            "value": "The expression should evaluate to the result"
           }
         ],
         "optional": false
@@ -434,15 +430,13 @@
             "type": "Literal",
             "start": 2054,
             "end": 2060,
-            "value": 0,
-            "raw": "0b0000"
+            "value": 0
           },
           {
             "type": "Literal",
             "start": 2062,
             "end": 2111,
-            "value": "PutValue should call the setter with the result",
-            "raw": "\"PutValue should call the setter with the result\""
+            "value": "PutValue should call the setter with the result"
           }
         ],
         "optional": false

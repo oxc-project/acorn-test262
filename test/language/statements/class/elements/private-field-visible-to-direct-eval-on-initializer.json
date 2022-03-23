@@ -20,12 +20,13 @@
         "end": 1815,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1782,
-            "end": 1789,
+            "end": 1790,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1782,
               "end": 1784,
               "name": "m"
@@ -38,9 +39,10 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1793,
-            "end": 1812,
+            "end": 1813,
+            "static": false,
             "computed": false,
             "key": {
               "type": "Identifier",

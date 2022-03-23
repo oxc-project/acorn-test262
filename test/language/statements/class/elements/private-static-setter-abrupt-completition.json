@@ -132,8 +132,7 @@
                         "type": "Literal",
                         "start": 1090,
                         "end": 1099,
-                        "value": "Test262",
-                        "raw": "'Test262'"
+                        "value": "Test262"
                       }
                     }
                   }
@@ -261,8 +260,7 @@
             "type": "Literal",
             "start": 1183,
             "end": 1229,
-            "value": "private setter should have abrupt completion",
-            "raw": "'private setter should have abrupt completion'"
+            "value": "private setter should have abrupt completion"
           }
         ],
         "optional": false

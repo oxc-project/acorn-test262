@@ -20,9 +20,9 @@
         "end": 2266,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 2179,
-            "end": 2196,
+            "end": 2197,
             "static": true,
             "computed": false,
             "key": {
@@ -39,9 +39,9 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 2200,
-            "end": 2225,
+            "end": 2226,
             "static": true,
             "computed": false,
             "key": {
@@ -82,9 +82,9 @@
             }
           },
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 2229,
-            "end": 2263,
+            "end": 2264,
             "static": true,
             "computed": false,
             "key": {

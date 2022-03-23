@@ -20,12 +20,13 @@
         "end": 1810,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1749,
-            "end": 1756,
+            "end": 1757,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1749,
               "end": 1751,
               "name": "m"
@@ -113,12 +114,13 @@
         "end": 1834,
         "body": [
           {
-            "type": "FieldDefinition",
+            "type": "PropertyDefinition",
             "start": 1824,
-            "end": 1831,
+            "end": 1832,
+            "static": false,
             "computed": false,
             "key": {
-              "type": "PrivateName",
+              "type": "PrivateIdentifier",
               "start": 1824,
               "end": 1826,
               "name": "m"
