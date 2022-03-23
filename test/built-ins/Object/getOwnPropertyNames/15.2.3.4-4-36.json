@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 303,
                   "end": 311,
-                  "value": "parent",
-                  "raw": "\"parent\""
+                  "value": "parent"
                 },
                 "value": {
                   "type": "Literal",

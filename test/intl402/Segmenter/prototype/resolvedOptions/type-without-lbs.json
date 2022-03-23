@@ -64,8 +64,7 @@
                       "type": "Literal",
                       "start": 661,
                       "end": 677,
-                      "value": "lineBreakStyle",
-                      "raw": "\"lineBreakStyle\""
+                      "value": "lineBreakStyle"
                     },
                     "value": {
                       "type": "Literal",
@@ -86,8 +85,7 @@
                       "type": "Literal",
                       "start": 688,
                       "end": 701,
-                      "value": "granularity",
-                      "raw": "\"granularity\""
+                      "value": "granularity"
                     },
                     "value": {
                       "type": "Literal",

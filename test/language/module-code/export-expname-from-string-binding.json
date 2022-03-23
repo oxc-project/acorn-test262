@@ -41,8 +41,7 @@
             "type": "Literal",
             "start": 483,
             "end": 486,
-            "value": "☿",
-            "raw": "\"☿\""
+            "value": "☿"
           },
           "exported": {
             "type": "Identifier",

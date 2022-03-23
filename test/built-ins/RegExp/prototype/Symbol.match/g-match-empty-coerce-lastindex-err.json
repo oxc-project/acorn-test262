@@ -204,8 +204,7 @@
                         "type": "Literal",
                         "start": 932,
                         "end": 933,
-                        "value": 0,
-                        "raw": "0"
+                        "value": 0
                       },
                       "kind": "get",
                       "value": {

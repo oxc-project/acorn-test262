@@ -421,8 +421,7 @@
                   "type": "Literal",
                   "start": 825,
                   "end": 829,
-                  "value": "co",
-                  "raw": "\"co\""
+                  "value": "co"
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -462,8 +461,7 @@
                   "type": "Literal",
                   "start": 870,
                   "end": 874,
-                  "value": "ka",
-                  "raw": "\"ka\""
+                  "value": "ka"
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -503,8 +501,7 @@
                   "type": "Literal",
                   "start": 916,
                   "end": 920,
-                  "value": "kb",
-                  "raw": "\"kb\""
+                  "value": "kb"
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -544,8 +541,7 @@
                   "type": "Literal",
                   "start": 956,
                   "end": 960,
-                  "value": "kc",
-                  "raw": "\"kc\""
+                  "value": "kc"
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -585,8 +581,7 @@
                   "type": "Literal",
                   "start": 996,
                   "end": 1000,
-                  "value": "kh",
-                  "raw": "\"kh\""
+                  "value": "kh"
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -626,8 +621,7 @@
                   "type": "Literal",
                   "start": 1036,
                   "end": 1040,
-                  "value": "kk",
-                  "raw": "\"kk\""
+                  "value": "kk"
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -667,8 +661,7 @@
                   "type": "Literal",
                   "start": 1076,
                   "end": 1080,
-                  "value": "kr",
-                  "raw": "\"kr\""
+                  "value": "kr"
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -708,8 +701,7 @@
                   "type": "Literal",
                   "start": 1135,
                   "end": 1139,
-                  "value": "ks",
-                  "raw": "\"ks\""
+                  "value": "ks"
                 },
                 "value": {
                   "type": "ArrayExpression",
@@ -767,8 +759,7 @@
                   "type": "Literal",
                   "start": 1209,
                   "end": 1213,
-                  "value": "vt",
-                  "raw": "\"vt\""
+                  "value": "vt"
                 },
                 "value": {
                   "type": "ArrayExpression",

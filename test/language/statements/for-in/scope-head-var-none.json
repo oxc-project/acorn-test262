@@ -211,8 +211,7 @@
               "type": "Literal",
               "start": 1264,
               "end": 1266,
-              "value": "",
-              "raw": "''"
+              "value": ""
             },
             "value": {
               "type": "ParenthesizedExpression",

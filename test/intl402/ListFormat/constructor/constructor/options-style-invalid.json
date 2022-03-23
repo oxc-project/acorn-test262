@@ -235,8 +235,7 @@
                                     "type": "Literal",
                                     "start": 716,
                                     "end": 723,
-                                    "value": "style",
-                                    "raw": "\"style\""
+                                    "value": "style"
                                   },
                                   "value": {
                                     "type": "Identifier",

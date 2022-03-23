@@ -80,8 +80,7 @@
               "type": "Literal",
               "start": 1699,
               "end": 1704,
-              "value": false,
-              "raw": "false"
+              "value": false
             }
           },
           {
@@ -303,8 +302,7 @@
             "type": "Literal",
             "start": 1883,
             "end": 1888,
-            "value": false,
-            "raw": "false"
+            "value": false
           },
           {
             "type": "Literal",

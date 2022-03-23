@@ -307,8 +307,7 @@
             "type": "Literal",
             "start": 779,
             "end": 784,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -411,8 +410,7 @@
             "type": "Literal",
             "start": 850,
             "end": 855,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -467,8 +465,7 @@
                   "type": "Literal",
                   "start": 898,
                   "end": 903,
-                  "value": false,
-                  "raw": "false"
+                  "value": false
                 },
                 "kind": "init"
               },
@@ -489,8 +486,7 @@
                   "type": "Literal",
                   "start": 921,
                   "end": 925,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -511,8 +507,7 @@
                   "type": "Literal",
                   "start": 939,
                   "end": 943,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -619,8 +614,7 @@
             "type": "Literal",
             "start": 1013,
             "end": 1018,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -710,8 +704,7 @@
             "type": "Literal",
             "start": 1074,
             "end": 1079,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -787,8 +780,7 @@
                   "type": "Literal",
                   "start": 1142,
                   "end": 1146,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -809,8 +801,7 @@
                   "type": "Literal",
                   "start": 1160,
                   "end": 1164,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -831,8 +822,7 @@
                   "type": "Literal",
                   "start": 1182,
                   "end": 1186,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -939,8 +929,7 @@
             "type": "Literal",
             "start": 1255,
             "end": 1260,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -1030,8 +1019,7 @@
             "type": "Literal",
             "start": 1316,
             "end": 1321,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -1107,8 +1095,7 @@
                   "type": "Literal",
                   "start": 1377,
                   "end": 1381,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -1129,8 +1116,7 @@
                   "type": "Literal",
                   "start": 1395,
                   "end": 1399,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -1151,8 +1137,7 @@
                   "type": "Literal",
                   "start": 1417,
                   "end": 1421,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }

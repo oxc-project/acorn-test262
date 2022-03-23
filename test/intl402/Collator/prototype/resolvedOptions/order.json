@@ -72,8 +72,7 @@
                           "type": "Literal",
                           "start": 316,
                           "end": 325,
-                          "value": "numeric",
-                          "raw": "\"numeric\""
+                          "value": "numeric"
                         },
                         "value": {
                           "type": "Literal",
@@ -94,8 +93,7 @@
                           "type": "Literal",
                           "start": 335,
                           "end": 346,
-                          "value": "caseFirst",
-                          "raw": "\"caseFirst\""
+                          "value": "caseFirst"
                         },
                         "value": {
                           "type": "Literal",

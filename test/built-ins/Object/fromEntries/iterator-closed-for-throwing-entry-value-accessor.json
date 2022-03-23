@@ -295,8 +295,7 @@
                                                     "type": "Literal",
                                                     "start": 1109,
                                                     "end": 1112,
-                                                    "value": "0",
-                                                    "raw": "'0'"
+                                                    "value": "0"
                                                   },
                                                   "kind": "get",
                                                   "value": {
@@ -339,8 +338,7 @@
                                                     "type": "Literal",
                                                     "start": 1176,
                                                     "end": 1179,
-                                                    "value": "1",
-                                                    "raw": "'1'"
+                                                    "value": "1"
                                                   },
                                                   "kind": "get",
                                                   "value": {

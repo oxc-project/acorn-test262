@@ -150,8 +150,7 @@
                               "type": "Literal",
                               "start": 623,
                               "end": 633,
-                              "value": "calendar",
-                              "raw": "\"calendar\""
+                              "value": "calendar"
                             },
                             "value": {
                               "type": "Literal",

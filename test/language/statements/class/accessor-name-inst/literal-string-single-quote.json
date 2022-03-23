@@ -49,8 +49,7 @@
               "type": "Literal",
               "start": 963,
               "end": 976,
-              "value": "singleQuote",
-              "raw": "'singleQuote'"
+              "value": "singleQuote"
             },
             "kind": "get",
             "value": {
@@ -92,8 +91,7 @@
               "type": "Literal",
               "start": 1010,
               "end": 1023,
-              "value": "singleQuote",
-              "raw": "'singleQuote'"
+              "value": "singleQuote"
             },
             "kind": "set",
             "value": {

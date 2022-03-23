@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 743,
                   "end": 748,
-                  "value": "und",
-                  "raw": "\"und\""
+                  "value": "und"
                 },
                 "value": {
                   "type": "Literal",
@@ -56,8 +55,7 @@
                   "type": "Literal",
                   "start": 760,
                   "end": 770,
-                  "value": "und-Thai",
-                  "raw": "\"und-Thai\""
+                  "value": "und-Thai"
                 },
                 "value": {
                   "type": "Literal",
@@ -78,8 +76,7 @@
                   "type": "Literal",
                   "start": 782,
                   "end": 791,
-                  "value": "und-419",
-                  "raw": "\"und-419\""
+                  "value": "und-419"
                 },
                 "value": {
                   "type": "Literal",
@@ -100,8 +97,7 @@
                   "type": "Literal",
                   "start": 807,
                   "end": 816,
-                  "value": "und-150",
-                  "raw": "\"und-150\""
+                  "value": "und-150"
                 },
                 "value": {
                   "type": "Literal",
@@ -122,8 +118,7 @@
                   "type": "Literal",
                   "start": 828,
                   "end": 836,
-                  "value": "und-AT",
-                  "raw": "\"und-AT\""
+                  "value": "und-AT"
                 },
                 "value": {
                   "type": "Literal",
@@ -144,8 +139,7 @@
                   "type": "Literal",
                   "start": 910,
                   "end": 923,
-                  "value": "aae-Latn-IT",
-                  "raw": "\"aae-Latn-IT\""
+                  "value": "aae-Latn-IT"
                 },
                 "value": {
                   "type": "Literal",
@@ -166,8 +160,7 @@
                   "type": "Literal",
                   "start": 944,
                   "end": 957,
-                  "value": "aae-Thai-CO",
-                  "raw": "\"aae-Thai-CO\""
+                  "value": "aae-Thai-CO"
                 },
                 "value": {
                   "type": "Literal",
@@ -188,8 +181,7 @@
                   "type": "Literal",
                   "start": 1095,
                   "end": 1103,
-                  "value": "und-CW",
-                  "raw": "\"und-CW\""
+                  "value": "und-CW"
                 },
                 "value": {
                   "type": "Literal",
@@ -210,8 +202,7 @@
                   "type": "Literal",
                   "start": 1119,
                   "end": 1127,
-                  "value": "und-US",
-                  "raw": "\"und-US\""
+                  "value": "und-US"
                 },
                 "value": {
                   "type": "Literal",
@@ -232,8 +223,7 @@
                   "type": "Literal",
                   "start": 1139,
                   "end": 1148,
-                  "value": "zh-Hant",
-                  "raw": "\"zh-Hant\""
+                  "value": "zh-Hant"
                 },
                 "value": {
                   "type": "Literal",
@@ -254,8 +244,7 @@
                   "type": "Literal",
                   "start": 1163,
                   "end": 1172,
-                  "value": "zh-Hani",
-                  "raw": "\"zh-Hani\""
+                  "value": "zh-Hani"
                 },
                 "value": {
                   "type": "Literal",

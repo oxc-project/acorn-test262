@@ -298,8 +298,7 @@
                         "type": "Literal",
                         "start": 724,
                         "end": 741,
-                        "value": "genericProperty",
-                        "raw": "\"genericProperty\""
+                        "value": "genericProperty"
                       },
                       "value": {
                         "type": "ObjectExpression",

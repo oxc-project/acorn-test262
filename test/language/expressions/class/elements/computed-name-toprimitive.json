@@ -575,8 +575,7 @@
             "type": "Literal",
             "start": 2206,
             "end": 2211,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -666,8 +665,7 @@
             "type": "Literal",
             "start": 2267,
             "end": 2272,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -743,8 +741,7 @@
                   "type": "Literal",
                   "start": 2328,
                   "end": 2332,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -765,8 +762,7 @@
                   "type": "Literal",
                   "start": 2346,
                   "end": 2350,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -787,8 +783,7 @@
                   "type": "Literal",
                   "start": 2368,
                   "end": 2372,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -895,8 +890,7 @@
             "type": "Literal",
             "start": 2441,
             "end": 2446,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -986,8 +980,7 @@
             "type": "Literal",
             "start": 2502,
             "end": 2507,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -1063,8 +1056,7 @@
                   "type": "Literal",
                   "start": 2563,
                   "end": 2567,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -1085,8 +1077,7 @@
                   "type": "Literal",
                   "start": 2581,
                   "end": 2585,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -1107,8 +1098,7 @@
                   "type": "Literal",
                   "start": 2603,
                   "end": 2607,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }
@@ -1215,8 +1205,7 @@
             "type": "Literal",
             "start": 2676,
             "end": 2681,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -1306,8 +1295,7 @@
             "type": "Literal",
             "start": 2737,
             "end": 2742,
-            "value": false,
-            "raw": "false"
+            "value": false
           }
         ],
         "optional": false
@@ -1383,8 +1371,7 @@
                   "type": "Literal",
                   "start": 2798,
                   "end": 2802,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -1405,8 +1392,7 @@
                   "type": "Literal",
                   "start": 2816,
                   "end": 2820,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               },
@@ -1427,8 +1413,7 @@
                   "type": "Literal",
                   "start": 2838,
                   "end": 2842,
-                  "value": true,
-                  "raw": "true"
+                  "value": true
                 },
                 "kind": "init"
               }

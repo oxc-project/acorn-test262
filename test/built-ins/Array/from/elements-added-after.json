@@ -112,8 +112,7 @@
                   "type": "Literal",
                   "start": 300,
                   "end": 301,
-                  "value": 0,
-                  "raw": "0"
+                  "value": 0
                 },
                 "value": {
                   "type": "Literal",
@@ -134,8 +133,7 @@
                   "type": "Literal",
                   "start": 308,
                   "end": 309,
-                  "value": 1,
-                  "raw": "1"
+                  "value": 1
                 },
                 "value": {
                   "type": "Literal",
@@ -156,8 +154,7 @@
                   "type": "Literal",
                   "start": 316,
                   "end": 317,
-                  "value": 2,
-                  "raw": "2"
+                  "value": 2
                 },
                 "value": {
                   "type": "Literal",
@@ -178,8 +175,7 @@
                   "type": "Literal",
                   "start": 324,
                   "end": 325,
-                  "value": 3,
-                  "raw": "3"
+                  "value": 3
                 },
                 "value": {
                   "type": "Literal",
@@ -200,8 +196,7 @@
                   "type": "Literal",
                   "start": 333,
                   "end": 334,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "value": {
                   "type": "Literal",
@@ -222,8 +217,7 @@
                   "type": "Literal",
                   "start": 342,
                   "end": 343,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "value": {
                   "type": "Literal",
@@ -244,8 +238,7 @@
                   "type": "Literal",
                   "start": 351,
                   "end": 352,
-                  "value": 6,
-                  "raw": "6"
+                  "value": 6
                 },
                 "value": {
                   "type": "Literal",

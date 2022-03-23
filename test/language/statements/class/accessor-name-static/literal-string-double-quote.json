@@ -49,8 +49,7 @@
               "type": "Literal",
               "start": 1000,
               "end": 1013,
-              "value": "doubleQuote",
-              "raw": "\"doubleQuote\""
+              "value": "doubleQuote"
             },
             "kind": "get",
             "value": {
@@ -92,8 +91,7 @@
               "type": "Literal",
               "start": 1054,
               "end": 1067,
-              "value": "doubleQuote",
-              "raw": "\"doubleQuote\""
+              "value": "doubleQuote"
             },
             "kind": "set",
             "value": {

@@ -59,8 +59,7 @@
                     "type": "Literal",
                     "start": 1006,
                     "end": 1020,
-                    "value": "default",
-                    "raw": "'def\\u0061ult'"
+                    "value": "default"
                   },
                   "kind": "get",
                   "value": {
@@ -102,8 +101,7 @@
                     "type": "Literal",
                     "start": 1061,
                     "end": 1075,
-                    "value": "default",
-                    "raw": "'def\\u0061ult'"
+                    "value": "default"
                   },
                   "kind": "set",
                   "value": {

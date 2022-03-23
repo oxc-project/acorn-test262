@@ -72,8 +72,7 @@
                           "type": "Literal",
                           "start": 361,
                           "end": 387,
-                          "value": "minimumSignificantDigits",
-                          "raw": "\"minimumSignificantDigits\""
+                          "value": "minimumSignificantDigits"
                         },
                         "value": {
                           "type": "Literal",
@@ -94,8 +93,7 @@
                           "type": "Literal",
                           "start": 394,
                           "end": 420,
-                          "value": "maximumSignificantDigits",
-                          "raw": "\"maximumSignificantDigits\""
+                          "value": "maximumSignificantDigits"
                         },
                         "value": {
                           "type": "Literal",

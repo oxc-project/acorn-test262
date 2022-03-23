@@ -240,8 +240,7 @@
                             "type": "Literal",
                             "start": 862,
                             "end": 869,
-                            "value": "style",
-                            "raw": "\"style\""
+                            "value": "style"
                           },
                           "value": {
                             "type": "Literal",
@@ -262,8 +261,7 @@
                             "type": "Literal",
                             "start": 887,
                             "end": 897,
-                            "value": "currency",
-                            "raw": "\"currency\""
+                            "value": "currency"
                           },
                           "value": {
                             "type": "Literal",
@@ -284,8 +282,7 @@
                             "type": "Literal",
                             "start": 910,
                             "end": 927,
-                            "value": "currencyDisplay",
-                            "raw": "\"currencyDisplay\""
+                            "value": "currencyDisplay"
                           },
                           "value": {
                             "type": "Identifier",
@@ -512,8 +509,7 @@
                             "type": "Literal",
                             "start": 1151,
                             "end": 1158,
-                            "value": "style",
-                            "raw": "\"style\""
+                            "value": "style"
                           },
                           "value": {
                             "type": "Literal",
@@ -534,8 +530,7 @@
                             "type": "Literal",
                             "start": 1175,
                             "end": 1192,
-                            "value": "currencyDisplay",
-                            "raw": "\"currencyDisplay\""
+                            "value": "currencyDisplay"
                           },
                           "value": {
                             "type": "Identifier",

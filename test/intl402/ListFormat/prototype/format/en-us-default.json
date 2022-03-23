@@ -324,8 +324,7 @@
                               "type": "Literal",
                               "start": 561,
                               "end": 567,
-                              "value": "done",
-                              "raw": "\"done\""
+                              "value": "done"
                             },
                             "value": {
                               "type": "Literal",
@@ -362,8 +361,7 @@
                         "type": "Literal",
                         "start": 602,
                         "end": 609,
-                        "value": "value",
-                        "raw": "\"value\""
+                        "value": "value"
                       },
                       "value": {
                         "type": "MemberExpression",
@@ -428,8 +426,7 @@
                         "type": "Literal",
                         "start": 637,
                         "end": 643,
-                        "value": "done",
-                        "raw": "\"done\""
+                        "value": "done"
                       },
                       "value": {
                         "type": "Literal",

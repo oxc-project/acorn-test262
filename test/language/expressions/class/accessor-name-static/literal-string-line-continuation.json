@@ -59,8 +59,7 @@
                     "type": "Literal",
                     "start": 1018,
                     "end": 1038,
-                    "value": "lineContinuation",
-                    "raw": "'line\\\nContinuation'"
+                    "value": "lineContinuation"
                   },
                   "kind": "get",
                   "value": {
@@ -102,8 +101,7 @@
                     "type": "Literal",
                     "start": 1079,
                     "end": 1099,
-                    "value": "lineContinuation",
-                    "raw": "'line\\\nContinuation'"
+                    "value": "lineContinuation"
                   },
                   "kind": "set",
                   "value": {

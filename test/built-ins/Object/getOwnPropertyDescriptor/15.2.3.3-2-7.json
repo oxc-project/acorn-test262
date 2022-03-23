@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 306,
                   "end": 311,
-                  "value": "NaN",
-                  "raw": "\"NaN\""
+                  "value": "NaN"
                 },
                 "value": {
                   "type": "Literal",

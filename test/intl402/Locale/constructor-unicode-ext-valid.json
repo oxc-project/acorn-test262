@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 423,
                   "end": 452,
-                  "value": "da-u-ca-gregory-ca-buddhist",
-                  "raw": "\"da-u-ca-gregory-ca-buddhist\""
+                  "value": "da-u-ca-gregory-ca-buddhist"
                 },
                 "value": {
                   "type": "Literal",
@@ -56,8 +55,7 @@
                   "type": "Literal",
                   "start": 556,
                   "end": 581,
-                  "value": "zh-u-nu-hans-ca-chinese",
-                  "raw": "\"zh-u-nu-hans-ca-chinese\""
+                  "value": "zh-u-nu-hans-ca-chinese"
                 },
                 "value": {
                   "type": "Literal",
@@ -78,8 +76,7 @@
                   "type": "Literal",
                   "start": 614,
                   "end": 639,
-                  "value": "zh-u-ca-chinese-nu-hans",
-                  "raw": "\"zh-u-ca-chinese-nu-hans\""
+                  "value": "zh-u-ca-chinese-nu-hans"
                 },
                 "value": {
                   "type": "Literal",
@@ -100,8 +97,7 @@
                   "type": "Literal",
                   "start": 760,
                   "end": 781,
-                  "value": "de-u-cu-eur-nu-latn",
-                  "raw": "\"de-u-cu-eur-nu-latn\""
+                  "value": "de-u-cu-eur-nu-latn"
                 },
                 "value": {
                   "type": "Literal",
@@ -122,8 +118,7 @@
                   "type": "Literal",
                   "start": 810,
                   "end": 831,
-                  "value": "de-u-nu-latn-cu-eur",
-                  "raw": "\"de-u-nu-latn-cu-eur\""
+                  "value": "de-u-nu-latn-cu-eur"
                 },
                 "value": {
                   "type": "Literal",
@@ -144,8 +139,7 @@
                   "type": "Literal",
                   "start": 934,
                   "end": 956,
-                  "value": "pt-u-attr-ca-gregory",
-                  "raw": "\"pt-u-attr-ca-gregory\""
+                  "value": "pt-u-attr-ca-gregory"
                 },
                 "value": {
                   "type": "Literal",
@@ -166,8 +160,7 @@
                   "type": "Literal",
                   "start": 986,
                   "end": 1015,
-                  "value": "pt-u-attr1-attr2-ca-gregory",
-                  "raw": "\"pt-u-attr1-attr2-ca-gregory\""
+                  "value": "pt-u-attr1-attr2-ca-gregory"
                 },
                 "value": {
                   "type": "Literal",
@@ -188,8 +181,7 @@
                   "type": "Literal",
                   "start": 1052,
                   "end": 1081,
-                  "value": "pt-u-attr2-attr1-ca-gregory",
-                  "raw": "\"pt-u-attr2-attr1-ca-gregory\""
+                  "value": "pt-u-attr2-attr1-ca-gregory"
                 },
                 "value": {
                   "type": "Literal",

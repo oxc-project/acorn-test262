@@ -330,8 +330,7 @@
                       "type": "Literal",
                       "start": 704,
                       "end": 717,
-                      "value": "granularity",
-                      "raw": "\"granularity\""
+                      "value": "granularity"
                     },
                     "value": {
                       "type": "Literal",

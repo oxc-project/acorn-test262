@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 400,
                   "end": 415,
-                  "value": "format getter",
-                  "raw": "\"format getter\""
+                  "value": "format getter"
                 },
                 "value": {
                   "type": "MemberExpression",

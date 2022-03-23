@@ -49,8 +49,7 @@
               "type": "Literal",
               "start": 982,
               "end": 1006,
-              "value": "unicodeEscape",
-              "raw": "'unicod\\u{000065}Escape'"
+              "value": "unicodeEscape"
             },
             "kind": "get",
             "value": {
@@ -92,8 +91,7 @@
               "type": "Literal",
               "start": 1040,
               "end": 1064,
-              "value": "unicodeEscape",
-              "raw": "'unicod\\u{000065}Escape'"
+              "value": "unicodeEscape"
             },
             "kind": "set",
             "value": {

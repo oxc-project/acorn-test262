@@ -333,8 +333,7 @@
                   "type": "Literal",
                   "start": 748,
                   "end": 751,
-                  "value": "0",
-                  "raw": "\"0\""
+                  "value": "0"
                 },
                 "value": {
                   "type": "ObjectExpression",

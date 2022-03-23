@@ -125,8 +125,7 @@
                   "type": "Literal",
                   "start": 554,
                   "end": 557,
-                  "value": "0",
-                  "raw": "\"0\""
+                  "value": "0"
                 },
                 "value": {
                   "type": "ObjectExpression",

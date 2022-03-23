@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 288,
                   "end": 300,
-                  "value": "123���¦�cd",
-                  "raw": "\"123���¦�cd\""
+                  "value": "123���¦�cd"
                 },
                 "value": {
                   "type": "Literal",

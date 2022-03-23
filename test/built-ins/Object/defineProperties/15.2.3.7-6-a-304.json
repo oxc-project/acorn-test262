@@ -440,8 +440,7 @@
                   "type": "Literal",
                   "start": 853,
                   "end": 870,
-                  "value": "genericProperty",
-                  "raw": "\"genericProperty\""
+                  "value": "genericProperty"
                 },
                 "value": {
                   "type": "ObjectExpression",

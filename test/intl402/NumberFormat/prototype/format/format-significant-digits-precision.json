@@ -192,8 +192,7 @@
                   "type": "Literal",
                   "start": 611,
                   "end": 622,
-                  "value": "123.44500",
-                  "raw": "\"123.44500\""
+                  "value": "123.44500"
                 },
                 "value": {
                   "type": "Literal",
@@ -214,8 +213,7 @@
                   "type": "Literal",
                   "start": 638,
                   "end": 650,
-                  "value": "-123.44500",
-                  "raw": "\"-123.44500\""
+                  "value": "-123.44500"
                 },
                 "value": {
                   "type": "Literal",

@@ -323,8 +323,7 @@
                               "type": "Literal",
                               "start": 747,
                               "end": 753,
-                              "value": "base",
-                              "raw": "\"base\""
+                              "value": "base"
                             },
                             "value": {
                               "type": "ArrayExpression",
@@ -370,8 +369,7 @@
                               "type": "Literal",
                               "start": 789,
                               "end": 797,
-                              "value": "accent",
-                              "raw": "\"accent\""
+                              "value": "accent"
                             },
                             "value": {
                               "type": "ArrayExpression",
@@ -405,8 +403,7 @@
                               "type": "Literal",
                               "start": 821,
                               "end": 827,
-                              "value": "case",
-                              "raw": "\"case\""
+                              "value": "case"
                             },
                             "value": {
                               "type": "ArrayExpression",
@@ -440,8 +437,7 @@
                               "type": "Literal",
                               "start": 851,
                               "end": 860,
-                              "value": "variant",
-                              "raw": "\"variant\""
+                              "value": "variant"
                             },
                             "value": {
                               "type": "ArrayExpression",

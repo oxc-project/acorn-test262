@@ -59,8 +59,7 @@
                     "type": "Literal",
                     "start": 1023,
                     "end": 1042,
-                    "value": "character\tescape",
-                    "raw": "'character\\tescape'"
+                    "value": "character\tescape"
                   },
                   "kind": "get",
                   "value": {
@@ -102,8 +101,7 @@
                     "type": "Literal",
                     "start": 1083,
                     "end": 1102,
-                    "value": "character\tescape",
-                    "raw": "'character\\tescape'"
+                    "value": "character\tescape"
                   },
                   "kind": "set",
                   "value": {

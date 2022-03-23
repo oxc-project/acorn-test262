@@ -59,8 +59,7 @@
                     "type": "Literal",
                     "start": 987,
                     "end": 1001,
-                    "value": "hexEscape",
-                    "raw": "'hex\\x45scape'"
+                    "value": "hexEscape"
                   },
                   "kind": "get",
                   "value": {
@@ -102,8 +101,7 @@
                     "type": "Literal",
                     "start": 1035,
                     "end": 1049,
-                    "value": "hexEscape",
-                    "raw": "'hex\\x45scape'"
+                    "value": "hexEscape"
                   },
                   "kind": "set",
                   "value": {

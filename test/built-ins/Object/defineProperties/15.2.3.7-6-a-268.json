@@ -312,8 +312,7 @@
                   "type": "Literal",
                   "start": 686,
                   "end": 696,
-                  "value": "property",
-                  "raw": "\"property\""
+                  "value": "property"
                 },
                 "value": {
                   "type": "ObjectExpression",

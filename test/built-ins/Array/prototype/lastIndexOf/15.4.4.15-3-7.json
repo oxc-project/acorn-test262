@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 313,
                   "end": 314,
-                  "value": 4,
-                  "raw": "4"
+                  "value": 4
                 },
                 "value": {
                   "type": "UnaryExpression",
@@ -63,8 +62,7 @@
                   "type": "Literal",
                   "start": 329,
                   "end": 330,
-                  "value": 5,
-                  "raw": "5"
+                  "value": 5
                 },
                 "value": {
                   "type": "Identifier",

@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 312,
                   "end": 317,
-                  "value": "bbq",
-                  "raw": "\"bbq\""
+                  "value": "bbq"
                 },
                 "value": {
                   "type": "Literal",
@@ -56,8 +55,7 @@
                   "type": "Literal",
                   "start": 324,
                   "end": 329,
-                  "value": "abc",
-                  "raw": "\"abc\""
+                  "value": "abc"
                 },
                 "value": {
                   "type": "Literal",

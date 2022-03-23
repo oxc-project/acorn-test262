@@ -41,15 +41,13 @@
             "type": "Literal",
             "start": 484,
             "end": 487,
-            "value": "☿",
-            "raw": "\"☿\""
+            "value": "☿"
           },
           "exported": {
             "type": "Literal",
             "start": 491,
             "end": 496,
-            "value": "Ami",
-            "raw": "\"Ami\""
+            "value": "Ami"
           }
         }
       ],

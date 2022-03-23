@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 358,
                   "end": 366,
-                  "value": "length",
-                  "raw": "\"length\""
+                  "value": "length"
                 },
                 "value": {
                   "type": "Literal",
@@ -56,8 +55,7 @@
                   "type": "Literal",
                   "start": 375,
                   "end": 378,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 },
                 "value": {
                   "type": "Literal",
@@ -78,8 +76,7 @@
                   "type": "Literal",
                   "start": 387,
                   "end": 390,
-                  "value": "3",
-                  "raw": "\"3\""
+                  "value": "3"
                 },
                 "value": {
                   "type": "Literal",
@@ -100,8 +97,7 @@
                   "type": "Literal",
                   "start": 399,
                   "end": 402,
-                  "value": "5",
-                  "raw": "\"5\""
+                  "value": "5"
                 },
                 "value": {
                   "type": "Literal",
@@ -218,8 +214,7 @@
                   "type": "Literal",
                   "start": 478,
                   "end": 481,
-                  "value": "0",
-                  "raw": "\"0\""
+                  "value": "0"
                 },
                 "value": {
                   "type": "Literal",
@@ -240,8 +235,7 @@
                   "type": "Literal",
                   "start": 490,
                   "end": 493,
-                  "value": "1",
-                  "raw": "\"1\""
+                  "value": "1"
                 },
                 "value": {
                   "type": "Literal",
@@ -262,8 +256,7 @@
                   "type": "Literal",
                   "start": 502,
                   "end": 505,
-                  "value": "2",
-                  "raw": "\"2\""
+                  "value": "2"
                 },
                 "value": {
                   "type": "Literal",

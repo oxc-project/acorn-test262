@@ -718,8 +718,7 @@
                     "type": "Literal",
                     "start": 1259,
                     "end": 1269,
-                    "value": "Symbol()",
-                    "raw": "\"Symbol()\""
+                    "value": "Symbol()"
                   },
                   "value": {
                     "type": "Literal",

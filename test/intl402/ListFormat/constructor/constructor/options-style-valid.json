@@ -404,8 +404,7 @@
                             "type": "Literal",
                             "start": 1081,
                             "end": 1088,
-                            "value": "style",
-                            "raw": "\"style\""
+                            "value": "style"
                           },
                           "value": {
                             "type": "Identifier",

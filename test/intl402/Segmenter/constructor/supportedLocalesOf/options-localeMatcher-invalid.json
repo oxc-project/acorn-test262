@@ -313,8 +313,7 @@
                                     "type": "Literal",
                                     "start": 956,
                                     "end": 971,
-                                    "value": "localeMatcher",
-                                    "raw": "\"localeMatcher\""
+                                    "value": "localeMatcher"
                                   },
                                   "value": {
                                     "type": "Identifier",

@@ -259,8 +259,7 @@
                             "type": "Literal",
                             "start": 788,
                             "end": 797,
-                            "value": "numeric",
-                            "raw": "\"numeric\""
+                            "value": "numeric"
                           },
                           "value": {
                             "type": "Identifier",

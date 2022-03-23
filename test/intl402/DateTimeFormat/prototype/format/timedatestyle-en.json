@@ -305,8 +305,7 @@
                       "type": "Literal",
                       "start": 746,
                       "end": 754,
-                      "value": "hour12",
-                      "raw": "\"hour12\""
+                      "value": "hour12"
                     },
                     "value": {
                       "type": "Literal",
@@ -334,8 +333,7 @@
                       "type": "Literal",
                       "start": 768,
                       "end": 779,
-                      "value": "hourCycle",
-                      "raw": "\"hourCycle\""
+                      "value": "hourCycle"
                     },
                     "value": {
                       "type": "Literal",
@@ -363,8 +361,7 @@
                       "type": "Literal",
                       "start": 794,
                       "end": 805,
-                      "value": "hourCycle",
-                      "raw": "\"hourCycle\""
+                      "value": "hourCycle"
                     },
                     "value": {
                       "type": "Literal",
@@ -392,8 +389,7 @@
                       "type": "Literal",
                       "start": 820,
                       "end": 831,
-                      "value": "hourCycle",
-                      "raw": "\"hourCycle\""
+                      "value": "hourCycle"
                     },
                     "value": {
                       "type": "Literal",
@@ -414,8 +410,7 @@
                       "type": "Literal",
                       "start": 840,
                       "end": 848,
-                      "value": "hour12",
-                      "raw": "\"hour12\""
+                      "value": "hour12"
                     },
                     "value": {
                       "type": "Literal",
@@ -443,8 +438,7 @@
                       "type": "Literal",
                       "start": 862,
                       "end": 873,
-                      "value": "hourCycle",
-                      "raw": "\"hourCycle\""
+                      "value": "hourCycle"
                     },
                     "value": {
                       "type": "Literal",
@@ -465,8 +459,7 @@
                       "type": "Literal",
                       "start": 882,
                       "end": 890,
-                      "value": "hour12",
-                      "raw": "\"hour12\""
+                      "value": "hour12"
                     },
                     "value": {
                       "type": "Literal",
@@ -520,8 +513,7 @@
                       "type": "Literal",
                       "start": 928,
                       "end": 936,
-                      "value": "hour12",
-                      "raw": "\"hour12\""
+                      "value": "hour12"
                     },
                     "value": {
                       "type": "Literal",
@@ -549,8 +541,7 @@
                       "type": "Literal",
                       "start": 951,
                       "end": 962,
-                      "value": "hourCycle",
-                      "raw": "\"hourCycle\""
+                      "value": "hourCycle"
                     },
                     "value": {
                       "type": "Literal",
@@ -578,8 +569,7 @@
                       "type": "Literal",
                       "start": 977,
                       "end": 988,
-                      "value": "hourCycle",
-                      "raw": "\"hourCycle\""
+                      "value": "hourCycle"
                     },
                     "value": {
                       "type": "Literal",
@@ -607,8 +597,7 @@
                       "type": "Literal",
                       "start": 1003,
                       "end": 1014,
-                      "value": "hourCycle",
-                      "raw": "\"hourCycle\""
+                      "value": "hourCycle"
                     },
                     "value": {
                       "type": "Literal",
@@ -629,8 +618,7 @@
                       "type": "Literal",
                       "start": 1023,
                       "end": 1031,
-                      "value": "hour12",
-                      "raw": "\"hour12\""
+                      "value": "hour12"
                     },
                     "value": {
                       "type": "Literal",
@@ -658,8 +646,7 @@
                       "type": "Literal",
                       "start": 1046,
                       "end": 1057,
-                      "value": "hourCycle",
-                      "raw": "\"hourCycle\""
+                      "value": "hourCycle"
                     },
                     "value": {
                       "type": "Literal",
@@ -680,8 +667,7 @@
                       "type": "Literal",
                       "start": 1066,
                       "end": 1074,
-                      "value": "hour12",
-                      "raw": "\"hour12\""
+                      "value": "hour12"
                     },
                     "value": {
                       "type": "Literal",
