@@ -1,0 +1,462 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1570,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 365,
+      "end": 1345,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 371,
+          "end": 1344,
+          "id": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 385,
+            "name": "invalidStrings"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 388,
+            "end": 1344,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 420,
+                "value": ""
+              },
+              {
+                "type": "Literal",
+                "start": 424,
+                "end": 441,
+                "value": "invalid iso8601"
+              },
+              {
+                "type": "Literal",
+                "start": 445,
+                "end": 457,
+                "value": "2020-01-00"
+              },
+              {
+                "type": "Literal",
+                "start": 461,
+                "end": 473,
+                "value": "2020-01-32"
+              },
+              {
+                "type": "Literal",
+                "start": 477,
+                "end": 489,
+                "value": "2020-02-30"
+              },
+              {
+                "type": "Literal",
+                "start": 493,
+                "end": 505,
+                "value": "2021-02-29"
+              },
+              {
+                "type": "Literal",
+                "start": 509,
+                "end": 521,
+                "value": "2020-00-01"
+              },
+              {
+                "type": "Literal",
+                "start": 525,
+                "end": 537,
+                "value": "2020-13-01"
+              },
+              {
+                "type": "Literal",
+                "start": 541,
+                "end": 554,
+                "value": "2020-01-01T"
+              },
+              {
+                "type": "Literal",
+                "start": 558,
+                "end": 579,
+                "value": "2020-01-01T25:00:00"
+              },
+              {
+                "type": "Literal",
+                "start": 583,
+                "end": 604,
+                "value": "2020-01-01T01:60:00"
+              },
+              {
+                "type": "Literal",
+                "start": 608,
+                "end": 629,
+                "value": "2020-01-01T01:60:61"
+              },
+              {
+                "type": "Literal",
+                "start": 633,
+                "end": 649,
+                "value": "2020-01-01junk"
+              },
+              {
+                "type": "Literal",
+                "start": 653,
+                "end": 678,
+                "value": "2020-01-01T00:00:00junk"
+              },
+              {
+                "type": "Literal",
+                "start": 682,
+                "end": 713,
+                "value": "2020-01-01T00:00:00+00:00junk"
+              },
+              {
+                "type": "Literal",
+                "start": 717,
+                "end": 753,
+                "value": "2020-01-01T00:00:00+00:00[UTC]junk"
+              },
+              {
+                "type": "Literal",
+                "start": 757,
+                "end": 807,
+                "value": "2020-01-01T00:00:00+00:00[UTC][u-ca=iso8601]junk"
+              },
+              {
+                "type": "Literal",
+                "start": 811,
+                "end": 824,
+                "value": "02020-01-01"
+              },
+              {
+                "type": "Literal",
+                "start": 828,
+                "end": 841,
+                "value": "2020-001-01"
+              },
+              {
+                "type": "Literal",
+                "start": 845,
+                "end": 858,
+                "value": "2020-01-001"
+              },
+              {
+                "type": "Literal",
+                "start": 862,
+                "end": 878,
+                "value": "2020-01-01T001"
+              },
+              {
+                "type": "Literal",
+                "start": 882,
+                "end": 901,
+                "value": "2020-01-01T01:001"
+              },
+              {
+                "type": "Literal",
+                "start": 905,
+                "end": 927,
+                "value": "2020-01-01T01:01:001"
+              },
+              {
+                "type": "Literal",
+                "start": 980,
+                "end": 992,
+                "value": "2020-W01-1"
+              },
+              {
+                "type": "Literal",
+                "start": 996,
+                "end": 1006,
+                "value": "2020-001"
+              },
+              {
+                "type": "Literal",
+                "start": 1010,
+                "end": 1026,
+                "value": "+0002020-01-01"
+              },
+              {
+                "type": "Literal",
+                "start": 1076,
+                "end": 1103,
+                "value": "2020-01-01[u-ca=notexist]"
+              },
+              {
+                "type": "Literal",
+                "start": 1188,
+                "end": 1197,
+                "value": "2020-01"
+              },
+              {
+                "type": "Literal",
+                "start": 1201,
+                "end": 1213,
+                "value": "+002020-01"
+              },
+              {
+                "type": "Literal",
+                "start": 1217,
+                "end": 1224,
+                "value": "01-01"
+              },
+              {
+                "type": "Literal",
+                "start": 1228,
+                "end": 1238,
+                "value": "2020-W01"
+              },
+              {
+                "type": "Literal",
+                "start": 1242,
+                "end": 1247,
+                "value": "P1Y"
+              },
+              {
+                "type": "Literal",
+                "start": 1251,
+                "end": 1258,
+                "value": "-P12Y"
+              },
+              {
+                "type": "Literal",
+                "start": 1307,
+                "end": 1322,
+                "value": "-999999-01-01"
+              },
+              {
+                "type": "Literal",
+                "start": 1326,
+                "end": 1341,
+                "value": "+999999-01-01"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1346,
+      "end": 1398,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1352,
+          "end": 1397,
+          "id": {
+            "type": "Identifier",
+            "start": 1352,
+            "end": 1360,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1363,
+            "end": 1397,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1367,
+              "end": 1385,
+              "object": {
+                "type": "Identifier",
+                "start": 1367,
+                "end": 1375,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1376,
+                "end": 1385,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1386,
+                "end": 1390,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 1392,
+                "end": 1393,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 1395,
+                "end": 1396,
+                "value": 2
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 1399,
+      "end": 1569,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 1404,
+        "end": 1413,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 1410,
+            "end": 1413,
+            "id": {
+              "type": "Identifier",
+              "start": 1410,
+              "end": 1413,
+              "name": "arg"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 1417,
+        "end": 1431,
+        "name": "invalidStrings"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 1433,
+        "end": 1569,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1437,
+            "end": 1567,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1437,
+              "end": 1566,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1437,
+                "end": 1450,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1437,
+                  "end": 1443,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1444,
+                  "end": 1450,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1456,
+                  "end": 1466,
+                  "name": "RangeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 1472,
+                  "end": 1497,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 1478,
+                    "end": 1497,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1478,
+                      "end": 1492,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1478,
+                        "end": 1486,
+                        "name": "instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1487,
+                        "end": 1492,
+                        "name": "since"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1493,
+                        "end": 1496,
+                        "name": "arg"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 1503,
+                  "end": 1562,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1507,
+                      "end": 1510,
+                      "name": "arg"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1504,
+                      "end": 1505,
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1511,
+                      "end": 1561,
+                      "value": {
+                        "raw": "\" should not be a valid ISO string for a PlainDate",
+                        "cooked": "\" should not be a valid ISO string for a PlainDate"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

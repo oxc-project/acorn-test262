@@ -1,0 +1,340 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 772,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 277,
+      "end": 341,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 283,
+          "end": 340,
+          "id": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 286,
+            "name": "pmd"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 289,
+            "end": 340,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 293,
+              "end": 315,
+              "object": {
+                "type": "Identifier",
+                "start": 293,
+                "end": 301,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 302,
+                "end": 315,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 316,
+                "end": 318,
+                "value": 10
+              },
+              {
+                "type": "Literal",
+                "start": 320,
+                "end": 322,
+                "value": 31
+              },
+              {
+                "type": "Literal",
+                "start": 324,
+                "end": 333,
+                "value": "iso8601"
+              },
+              {
+                "type": "Literal",
+                "start": 335,
+                "end": 339,
+                "value": 2019
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 343,
+      "end": 516,
+      "expression": {
+        "type": "CallExpression",
+        "start": 343,
+        "end": 515,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 343,
+          "end": 359,
+          "object": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 349,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 359,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 363,
+            "end": 403,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 363,
+              "end": 375,
+              "object": {
+                "type": "Identifier",
+                "start": 363,
+                "end": 366,
+                "name": "pmd"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 367,
+                "end": 375,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 376,
+                "end": 402,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 378,
+                    "end": 400,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 378,
+                      "end": 390,
+                      "name": "calendarName"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 392,
+                      "end": 400,
+                      "value": "always"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 407,
+            "end": 433,
+            "value": "2019-10-31[u-ca=iso8601]"
+          },
+          {
+            "type": "Literal",
+            "start": 437,
+            "end": 513,
+            "value": "emit year-month-day if calendarName = 'always' (four-argument constructor)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 518,
+      "end": 579,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 524,
+          "end": 578,
+          "id": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 534,
+            "name": "anotherPMD"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 537,
+            "end": 578,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 537,
+              "end": 564,
+              "object": {
+                "type": "MemberExpression",
+                "start": 537,
+                "end": 559,
+                "object": {
+                  "type": "Identifier",
+                  "start": 537,
+                  "end": 545,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 546,
+                  "end": 559,
+                  "name": "PlainMonthDay"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 564,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 565,
+                "end": 577,
+                "value": "2019-10-31"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 606,
+      "end": 771,
+      "expression": {
+        "type": "CallExpression",
+        "start": 606,
+        "end": 770,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 606,
+          "end": 622,
+          "object": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 612,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 622,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 626,
+            "end": 673,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 626,
+              "end": 645,
+              "object": {
+                "type": "Identifier",
+                "start": 626,
+                "end": 636,
+                "name": "anotherPMD"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 637,
+                "end": 645,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 646,
+                "end": 672,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 648,
+                    "end": 670,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 648,
+                      "end": 660,
+                      "name": "calendarName"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 662,
+                      "end": 670,
+                      "value": "always"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 677,
+            "end": 703,
+            "value": "1972-10-31[u-ca=iso8601]"
+          },
+          {
+            "type": "Literal",
+            "start": 707,
+            "end": 768,
+            "value": "emit fallback year if calendarName = 'always' (static from)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}
