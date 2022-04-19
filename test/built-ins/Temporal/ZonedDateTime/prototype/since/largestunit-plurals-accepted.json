@@ -1,0 +1,326 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 730,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 316,
+      "end": 394,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 322,
+          "end": 393,
+          "id": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 329,
+            "name": "earlier"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 332,
+            "end": 393,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 336,
+              "end": 358,
+              "object": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 344,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 345,
+                "end": 358,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 359,
+                "end": 385,
+                "value": "1000000000987654321n",
+                "bigint": "1000000000987654321"
+              },
+              {
+                "type": "Literal",
+                "start": 387,
+                "end": 392,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 395,
+      "end": 471,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 401,
+          "end": 470,
+          "id": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 406,
+            "name": "later"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 409,
+            "end": 470,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 413,
+              "end": 435,
+              "object": {
+                "type": "Identifier",
+                "start": 413,
+                "end": 421,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 422,
+                "end": 435,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 436,
+                "end": 462,
+                "value": "1086403661988655322n",
+                "bigint": "1086403661988655322"
+              },
+              {
+                "type": "Literal",
+                "start": 464,
+                "end": 469,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 472,
+      "end": 619,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 478,
+          "end": 618,
+          "id": {
+            "type": "Identifier",
+            "start": 478,
+            "end": 488,
+            "name": "validUnits"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 491,
+            "end": 618,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 495,
+                "end": 501,
+                "value": "year"
+              },
+              {
+                "type": "Literal",
+                "start": 505,
+                "end": 512,
+                "value": "month"
+              },
+              {
+                "type": "Literal",
+                "start": 516,
+                "end": 522,
+                "value": "week"
+              },
+              {
+                "type": "Literal",
+                "start": 526,
+                "end": 531,
+                "value": "day"
+              },
+              {
+                "type": "Literal",
+                "start": 535,
+                "end": 541,
+                "value": "hour"
+              },
+              {
+                "type": "Literal",
+                "start": 545,
+                "end": 553,
+                "value": "minute"
+              },
+              {
+                "type": "Literal",
+                "start": 557,
+                "end": 565,
+                "value": "second"
+              },
+              {
+                "type": "Literal",
+                "start": 569,
+                "end": 582,
+                "value": "millisecond"
+              },
+              {
+                "type": "Literal",
+                "start": 586,
+                "end": 599,
+                "value": "microsecond"
+              },
+              {
+                "type": "Literal",
+                "start": 603,
+                "end": 615,
+                "value": "nanosecond"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 620,
+      "end": 729,
+      "expression": {
+        "type": "CallExpression",
+        "start": 620,
+        "end": 728,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 620,
+          "end": 660,
+          "object": {
+            "type": "Identifier",
+            "start": 620,
+            "end": 635,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 636,
+            "end": 660,
+            "name": "checkPluralUnitsAccepted"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 661,
+            "end": 715,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 662,
+                "end": 673,
+                "name": "largestUnit"
+              }
+            ],
+            "body": {
+              "type": "CallExpression",
+              "start": 678,
+              "end": 715,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 678,
+                "end": 689,
+                "object": {
+                  "type": "Identifier",
+                  "start": 678,
+                  "end": 683,
+                  "name": "later"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 684,
+                  "end": 689,
+                  "name": "since"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 690,
+                  "end": 697,
+                  "name": "earlier"
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 699,
+                  "end": 714,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 701,
+                      "end": 712,
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 701,
+                        "end": 712,
+                        "name": "largestUnit"
+                      },
+                      "kind": "init",
+                      "value": {
+                        "type": "Identifier",
+                        "start": 701,
+                        "end": 712,
+                        "name": "largestUnit"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 717,
+            "end": 727,
+            "name": "validUnits"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

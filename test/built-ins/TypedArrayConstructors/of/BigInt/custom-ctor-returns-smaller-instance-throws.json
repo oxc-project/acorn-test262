@@ -1,0 +1,231 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 696,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 695,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 694,
+        "callee": {
+          "type": "Identifier",
+          "start": 502,
+          "end": 538,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 539,
+            "end": 693,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 548,
+                "end": 550,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 552,
+              "end": 693,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 556,
+                  "end": 606,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 560,
+                      "end": 605,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 560,
+                        "end": 564,
+                        "name": "ctor"
+                      },
+                      "init": {
+                        "type": "FunctionExpression",
+                        "start": 567,
+                        "end": 605,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 578,
+                          "end": 605,
+                          "body": [
+                            {
+                              "type": "ReturnStatement",
+                              "start": 584,
+                              "end": 601,
+                              "argument": {
+                                "type": "NewExpression",
+                                "start": 591,
+                                "end": 600,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 595,
+                                  "end": 597,
+                                  "name": "TA"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Literal",
+                                    "start": 598,
+                                    "end": 599,
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 610,
+                  "end": 691,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 610,
+                    "end": 690,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 610,
+                      "end": 623,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 610,
+                        "end": 616,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 617,
+                        "end": 623,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 624,
+                        "end": 633,
+                        "name": "TypeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 635,
+                        "end": 689,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 646,
+                          "end": 689,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 652,
+                              "end": 685,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 652,
+                                "end": 684,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 652,
+                                  "end": 670,
+                                  "object": {
+                                    "type": "MemberExpression",
+                                    "start": 652,
+                                    "end": 665,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 652,
+                                      "end": 662,
+                                      "name": "TypedArray"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 663,
+                                      "end": 665,
+                                      "name": "of"
+                                    },
+                                    "computed": false,
+                                    "optional": false
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 666,
+                                    "end": 670,
+                                    "name": "call"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 671,
+                                    "end": 675,
+                                    "name": "ctor"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 677,
+                                    "end": 679,
+                                    "value": "1n",
+                                    "bigint": "1"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 681,
+                                    "end": 683,
+                                    "value": "2n",
+                                    "bigint": "2"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,892 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2325,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 968,
+      "end": 1080,
+      "expression": {
+        "type": "CallExpression",
+        "start": 968,
+        "end": 1079,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 968,
+          "end": 984,
+          "object": {
+            "type": "Identifier",
+            "start": 968,
+            "end": 974,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 975,
+            "end": 984,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 985,
+            "end": 1009,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 992,
+              "end": 1009,
+              "object": {
+                "type": "Identifier",
+                "start": 992,
+                "end": 999,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1000,
+                "end": 1009,
+                "name": "waitAsync"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1011,
+            "end": 1021,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 1023,
+            "end": 1078,
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1081,
+      "end": 1099,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1087,
+          "end": 1098,
+          "id": {
+            "type": "Identifier",
+            "start": 1087,
+            "end": 1094,
+            "name": "RUNNING"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1097,
+            "end": 1098,
+            "value": 1
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1100,
+      "end": 1142,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1106,
+          "end": 1141,
+          "id": {
+            "type": "Identifier",
+            "start": 1106,
+            "end": 1113,
+            "name": "TIMEOUT"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 1116,
+            "end": 1141,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1116,
+              "end": 1135,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1116,
+                "end": 1126,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1116,
+                  "end": 1120,
+                  "name": "$262"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1121,
+                  "end": 1126,
+                  "name": "agent"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1127,
+                "end": 1135,
+                "name": "timeouts"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1136,
+              "end": 1141,
+              "name": "small"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1143,
+      "end": 1234,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1149,
+          "end": 1233,
+          "id": {
+            "type": "Identifier",
+            "start": 1149,
+            "end": 1153,
+            "name": "i64a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1156,
+            "end": 1233,
+            "callee": {
+              "type": "Identifier",
+              "start": 1160,
+              "end": 1173,
+              "name": "BigInt64Array"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 1174,
+                "end": 1232,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1178,
+                  "end": 1195,
+                  "name": "SharedArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 1196,
+                    "end": 1231,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 1196,
+                      "end": 1227,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1196,
+                        "end": 1209,
+                        "name": "BigInt64Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1210,
+                        "end": 1227,
+                        "name": "BYTES_PER_ELEMENT"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "Literal",
+                      "start": 1230,
+                      "end": 1231,
+                      "value": 4
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1236,
+      "end": 1661,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1236,
+        "end": 1660,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1236,
+          "end": 1252,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1236,
+            "end": 1246,
+            "object": {
+              "type": "Identifier",
+              "start": 1236,
+              "end": 1240,
+              "name": "$262"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1241,
+              "end": 1246,
+              "name": "agent"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1247,
+            "end": 1252,
+            "name": "start"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 1253,
+            "end": 1659,
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1367,
+                "end": 1374,
+                "name": "RUNNING"
+              },
+              {
+                "type": "Identifier",
+                "start": 1487,
+                "end": 1494,
+                "name": "TIMEOUT"
+              }
+            ],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 1254,
+                "end": 1365,
+                "value": {
+                  "raw": "\n  $262.agent.receiveBroadcast(async (sab) => {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, ",
+                  "cooked": "\n  $262.agent.receiveBroadcast(async (sab) => {\n    const i64a = new BigInt64Array(sab);\n    Atomics.add(i64a, "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 1375,
+                "end": 1485,
+                "value": {
+                  "raw": ", 1n);\n\n    const before = $262.agent.monotonicNow();\n    const unpark = await Atomics.waitAsync(i64a, 0, 0n, ",
+                  "cooked": ", 1n);\n\n    const before = $262.agent.monotonicNow();\n    const unpark = await Atomics.waitAsync(i64a, 0, 0n, "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 1495,
+                "end": 1658,
+                "value": {
+                  "raw": ").value;\n    const duration = $262.agent.monotonicNow() - before;\n\n    $262.agent.report(duration);\n    $262.agent.report(unpark);\n    $262.agent.leaving();\n  });\n",
+                  "cooked": ").value;\n    const duration = $262.agent.monotonicNow() - before;\n\n    $262.agent.report(duration);\n    $262.agent.report(unpark);\n    $262.agent.leaving();\n  });\n"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1663,
+      "end": 2324,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1663,
+        "end": 2323,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1663,
+          "end": 2309,
+          "object": {
+            "type": "CallExpression",
+            "start": 1663,
+            "end": 2304,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1663,
+              "end": 1716,
+              "object": {
+                "type": "CallExpression",
+                "start": 1663,
+                "end": 1711,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1663,
+                  "end": 1692,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 1663,
+                    "end": 1673,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1663,
+                      "end": 1667,
+                      "name": "$262"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1668,
+                      "end": 1673,
+                      "name": "agent"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1674,
+                    "end": 1692,
+                    "name": "safeBroadcastAsync"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1693,
+                    "end": 1697,
+                    "name": "i64a"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 1699,
+                    "end": 1706,
+                    "name": "RUNNING"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1708,
+                    "end": 1710,
+                    "value": "1n",
+                    "bigint": "1"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1712,
+                "end": 1716,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 1717,
+                "end": 2303,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": true,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 1723,
+                    "end": 1733,
+                    "name": "agentCount"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 1737,
+                  "end": 2303,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 1741,
+                      "end": 1809,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 1741,
+                        "end": 1808,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1741,
+                          "end": 1757,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1741,
+                            "end": 1747,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1748,
+                            "end": 1757,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 1758,
+                            "end": 1768,
+                            "name": "agentCount"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1770,
+                            "end": 1772,
+                            "value": "1n",
+                            "bigint": "1"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1774,
+                            "end": 1807,
+                            "value": "The value of `agentCount` is 1n"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 1812,
+                      "end": 1853,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 1812,
+                        "end": 1852,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1812,
+                          "end": 1835,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1812,
+                            "end": 1819,
+                            "name": "Atomics"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1820,
+                            "end": 1835,
+                            "name": "compareExchange"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 1836,
+                            "end": 1840,
+                            "name": "i64a"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1842,
+                            "end": 1843,
+                            "value": 0
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1845,
+                            "end": 1847,
+                            "value": "0n",
+                            "bigint": "0"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1849,
+                            "end": 1851,
+                            "value": "1n",
+                            "bigint": "1"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    },
+                    {
+                      "type": "VariableDeclaration",
+                      "start": 1856,
+                      "end": 1904,
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "start": 1862,
+                          "end": 1903,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 1862,
+                            "end": 1867,
+                            "name": "lapse"
+                          },
+                          "init": {
+                            "type": "AwaitExpression",
+                            "start": 1870,
+                            "end": 1903,
+                            "argument": {
+                              "type": "CallExpression",
+                              "start": 1876,
+                              "end": 1903,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1876,
+                                "end": 1901,
+                                "object": {
+                                  "type": "MemberExpression",
+                                  "start": 1876,
+                                  "end": 1886,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 1876,
+                                    "end": 1880,
+                                    "name": "$262"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 1881,
+                                    "end": 1886,
+                                    "name": "agent"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1887,
+                                  "end": 1901,
+                                  "name": "getReportAsync"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [],
+                              "optional": false
+                            }
+                          }
+                        }
+                      ],
+                      "kind": "const"
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 1907,
+                      "end": 1989,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 1907,
+                        "end": 1988,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1907,
+                          "end": 1913,
+                          "name": "assert"
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 1914,
+                            "end": 1930,
+                            "left": {
+                              "type": "Identifier",
+                              "start": 1914,
+                              "end": 1919,
+                              "name": "lapse"
+                            },
+                            "operator": ">=",
+                            "right": {
+                              "type": "Identifier",
+                              "start": 1923,
+                              "end": 1930,
+                              "name": "TIMEOUT"
+                            }
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1932,
+                            "end": 1987,
+                            "value": "The result of evaluating `(lapse >= TIMEOUT)` is true"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    },
+                    {
+                      "type": "VariableDeclaration",
+                      "start": 1992,
+                      "end": 2041,
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "start": 1998,
+                          "end": 2040,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 1998,
+                            "end": 2004,
+                            "name": "result"
+                          },
+                          "init": {
+                            "type": "AwaitExpression",
+                            "start": 2007,
+                            "end": 2040,
+                            "argument": {
+                              "type": "CallExpression",
+                              "start": 2013,
+                              "end": 2040,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 2013,
+                                "end": 2038,
+                                "object": {
+                                  "type": "MemberExpression",
+                                  "start": 2013,
+                                  "end": 2023,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 2013,
+                                    "end": 2017,
+                                    "name": "$262"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 2018,
+                                    "end": 2023,
+                                    "name": "agent"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 2024,
+                                  "end": 2038,
+                                  "name": "getReportAsync"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [],
+                              "optional": false
+                            }
+                          }
+                        }
+                      ],
+                      "kind": "const"
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 2044,
+                      "end": 2122,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 2044,
+                        "end": 2121,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 2044,
+                          "end": 2060,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2044,
+                            "end": 2050,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2051,
+                            "end": 2060,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 2061,
+                            "end": 2067,
+                            "name": "result"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2069,
+                            "end": 2080,
+                            "value": "timed-out"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2082,
+                            "end": 2120,
+                            "value": "The value of `result` is \"timed-out\""
+                          }
+                        ],
+                        "optional": false
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 2126,
+                      "end": 2301,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 2126,
+                        "end": 2300,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 2126,
+                          "end": 2142,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2126,
+                            "end": 2132,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2133,
+                            "end": 2142,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "CallExpression",
+                            "start": 2148,
+                            "end": 2171,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 2148,
+                              "end": 2162,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 2148,
+                                "end": 2155,
+                                "name": "Atomics"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 2156,
+                                "end": 2162,
+                                "name": "notify"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 2163,
+                                "end": 2167,
+                                "name": "i64a"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 2169,
+                                "end": 2170,
+                                "value": 0
+                              }
+                            ],
+                            "optional": false
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2177,
+                            "end": 2178,
+                            "value": 0
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2184,
+                            "end": 2296,
+                            "value": "Atomics.notify(new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4)), 0) must return 0"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2305,
+            "end": 2309,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2310,
+            "end": 2315,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 2317,
+            "end": 2322,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

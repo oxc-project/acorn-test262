@@ -1,0 +1,399 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 722,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 312,
+      "end": 721,
+      "expression": {
+        "type": "CallExpression",
+        "start": 312,
+        "end": 720,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 312,
+          "end": 386,
+          "object": {
+            "type": "ArrayExpression",
+            "start": 312,
+            "end": 378,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 313,
+                "end": 322,
+                "name": "undefined"
+              },
+              {
+                "type": "Literal",
+                "start": 324,
+                "end": 328,
+                "value": null
+              },
+              {
+                "type": "Literal",
+                "start": 330,
+                "end": 334,
+                "value": true
+              },
+              {
+                "type": "MemberExpression",
+                "start": 336,
+                "end": 343,
+                "object": {
+                  "type": "Identifier",
+                  "start": 336,
+                  "end": 340,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 341,
+                  "end": 343,
+                  "name": "PI"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 353,
+                "value": "string"
+              },
+              {
+                "type": "CallExpression",
+                "start": 355,
+                "end": 368,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 355,
+                  "end": 361,
+                  "name": "Symbol"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 362,
+                    "end": 367,
+                    "value": "sym"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 370,
+                "end": 373,
+                "value": "42n",
+                "bigint": "42"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 375,
+                "end": 377,
+                "properties": []
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 386,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 387,
+            "end": 719,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 387,
+                "end": 398,
+                "name": "notCallable"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 402,
+              "end": 719,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 406,
+                  "end": 452,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 412,
+                      "end": 451,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 412,
+                        "end": 420,
+                        "name": "timeZone"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 423,
+                        "end": 451,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 427,
+                          "end": 444,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 427,
+                            "end": 435,
+                            "name": "Temporal"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 436,
+                            "end": 444,
+                            "name": "TimeZone"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 445,
+                            "end": 450,
+                            "value": "UTC"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 456,
+                  "end": 503,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 456,
+                    "end": 502,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 456,
+                      "end": 488,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 456,
+                        "end": 464,
+                        "name": "timeZone"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 465,
+                        "end": 488,
+                        "name": "getOffsetNanosecondsFor"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 491,
+                      "end": 502,
+                      "name": "notCallable"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 506,
+                  "end": 717,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 506,
+                    "end": 716,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 506,
+                      "end": 519,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 506,
+                        "end": 512,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 513,
+                        "end": 519,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 525,
+                        "end": 534,
+                        "name": "TypeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 540,
+                        "end": 593,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 546,
+                          "end": 593,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 546,
+                            "end": 572,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 546,
+                              "end": 558,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 546,
+                                "end": 554,
+                                "name": "Temporal"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 555,
+                                "end": 558,
+                                "name": "Now"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 559,
+                              "end": 572,
+                              "name": "plainDateTime"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 573,
+                              "end": 582,
+                              "value": "iso8601"
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 584,
+                              "end": 592,
+                              "name": "timeZone"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 599,
+                        "end": 712,
+                        "expressions": [
+                          {
+                            "type": "ConditionalExpression",
+                            "start": 613,
+                            "end": 663,
+                            "test": {
+                              "type": "BinaryExpression",
+                              "start": 613,
+                              "end": 633,
+                              "left": {
+                                "type": "Identifier",
+                                "start": 613,
+                                "end": 624,
+                                "name": "notCallable"
+                              },
+                              "operator": "===",
+                              "right": {
+                                "type": "Literal",
+                                "start": 629,
+                                "end": 633,
+                                "value": null
+                              }
+                            },
+                            "consequent": {
+                              "type": "Literal",
+                              "start": 636,
+                              "end": 642,
+                              "value": "null"
+                            },
+                            "alternate": {
+                              "type": "UnaryExpression",
+                              "start": 645,
+                              "end": 663,
+                              "operator": "typeof",
+                              "prefix": true,
+                              "argument": {
+                                "type": "Identifier",
+                                "start": 652,
+                                "end": 663,
+                                "name": "notCallable"
+                              }
+                            }
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 600,
+                            "end": 611,
+                            "value": {
+                              "raw": "Uncallable ",
+                              "cooked": "Uncallable "
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 664,
+                            "end": 711,
+                            "value": {
+                              "raw": " getOffsetNanosecondsFor should throw TypeError",
+                              "cooked": " getOffsetNanosecondsFor should throw TypeError"
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

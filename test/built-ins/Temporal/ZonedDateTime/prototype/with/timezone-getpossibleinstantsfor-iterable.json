@@ -1,0 +1,220 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1093,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 843,
+      "end": 889,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 849,
+          "end": 888,
+          "id": {
+            "type": "Identifier",
+            "start": 849,
+            "end": 857,
+            "name": "expected"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 860,
+            "end": 888,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 864,
+                "end": 885,
+                "value": "2005-09-09T01:46:40"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 891,
+      "end": 1092,
+      "expression": {
+        "type": "CallExpression",
+        "start": 891,
+        "end": 1091,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 891,
+          "end": 944,
+          "object": {
+            "type": "Identifier",
+            "start": 891,
+            "end": 906,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 907,
+            "end": 944,
+            "name": "checkTimeZonePossibleInstantsIterable"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 945,
+            "end": 1080,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 946,
+                "end": 954,
+                "name": "timeZone"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 959,
+              "end": 1080,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 963,
+                  "end": 1045,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 969,
+                      "end": 1044,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 969,
+                        "end": 977,
+                        "name": "datetime"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 980,
+                        "end": 1044,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 984,
+                          "end": 1006,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 984,
+                            "end": 992,
+                            "name": "Temporal"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 993,
+                            "end": 1006,
+                            "name": "ZonedDateTime"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1007,
+                            "end": 1033,
+                            "value": "1000000000000000000n",
+                            "bigint": "1000000000000000000"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1035,
+                            "end": 1043,
+                            "name": "timeZone"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1048,
+                  "end": 1078,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1048,
+                    "end": 1077,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1048,
+                      "end": 1061,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1048,
+                        "end": 1056,
+                        "name": "datetime"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1057,
+                        "end": 1061,
+                        "name": "with"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1062,
+                        "end": 1076,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1064,
+                            "end": 1074,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1064,
+                              "end": 1068,
+                              "name": "year"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 1070,
+                              "end": 1074,
+                              "value": 2005
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 1082,
+            "end": 1090,
+            "name": "expected"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

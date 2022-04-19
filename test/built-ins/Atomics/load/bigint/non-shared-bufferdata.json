@@ -1,0 +1,236 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 566,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 343,
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 343,
+        "end": 564,
+        "callee": {
+          "type": "Identifier",
+          "start": 343,
+          "end": 379,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 380,
+            "end": 563,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 380,
+                "end": 382,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 386,
+              "end": 563,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 390,
+                  "end": 447,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 396,
+                      "end": 446,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 396,
+                        "end": 402,
+                        "name": "buffer"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 405,
+                        "end": 446,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 409,
+                          "end": 420,
+                          "name": "ArrayBuffer"
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 421,
+                            "end": 445,
+                            "left": {
+                              "type": "MemberExpression",
+                              "start": 421,
+                              "end": 441,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 421,
+                                "end": 423,
+                                "name": "TA"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 424,
+                                "end": 441,
+                                "name": "BYTES_PER_ELEMENT"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "operator": "*",
+                            "right": {
+                              "type": "Literal",
+                              "start": 444,
+                              "end": 445,
+                              "value": 4
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 450,
+                  "end": 478,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 456,
+                      "end": 477,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 456,
+                        "end": 460,
+                        "name": "view"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 463,
+                        "end": 477,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 467,
+                          "end": 469,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 470,
+                            "end": 476,
+                            "name": "buffer"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 481,
+                  "end": 561,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 481,
+                    "end": 560,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 481,
+                      "end": 497,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 481,
+                        "end": 487,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 488,
+                        "end": 497,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 498,
+                        "end": 519,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 498,
+                          "end": 510,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 498,
+                            "end": 505,
+                            "name": "Atomics"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 506,
+                            "end": 510,
+                            "name": "load"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 511,
+                            "end": 515,
+                            "name": "view"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 517,
+                            "end": 518,
+                            "value": 0
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 521,
+                        "end": 523,
+                        "value": "0n",
+                        "bigint": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 525,
+                        "end": 559,
+                        "value": "Atomics.load(view, 0) returns 0n"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

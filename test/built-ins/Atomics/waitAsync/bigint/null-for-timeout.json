@@ -1,0 +1,632 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1453,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 623,
+      "end": 735,
+      "expression": {
+        "type": "CallExpression",
+        "start": 623,
+        "end": 734,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 623,
+          "end": 639,
+          "object": {
+            "type": "Identifier",
+            "start": 623,
+            "end": 629,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 630,
+            "end": 639,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 640,
+            "end": 664,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 647,
+              "end": 664,
+              "object": {
+                "type": "Identifier",
+                "start": 647,
+                "end": 654,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 655,
+                "end": 664,
+                "name": "waitAsync"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 666,
+            "end": 676,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 678,
+            "end": 733,
+            "value": "The value of `typeof Atomics.waitAsync` is \"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 736,
+      "end": 827,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 742,
+          "end": 826,
+          "id": {
+            "type": "Identifier",
+            "start": 742,
+            "end": 746,
+            "name": "i64a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 749,
+            "end": 826,
+            "callee": {
+              "type": "Identifier",
+              "start": 753,
+              "end": 766,
+              "name": "BigInt64Array"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 767,
+                "end": 825,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 771,
+                  "end": 788,
+                  "name": "SharedArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 789,
+                    "end": 824,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 789,
+                      "end": 820,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 789,
+                        "end": 802,
+                        "name": "BigInt64Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 803,
+                        "end": 820,
+                        "name": "BYTES_PER_ELEMENT"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "Literal",
+                      "start": 823,
+                      "end": 824,
+                      "value": 4
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 829,
+      "end": 884,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 835,
+          "end": 883,
+          "id": {
+            "type": "Identifier",
+            "start": 835,
+            "end": 842,
+            "name": "valueOf"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 845,
+            "end": 883,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 849,
+                "end": 881,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 849,
+                  "end": 856,
+                  "name": "valueOf"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 856,
+                  "end": 881,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 859,
+                    "end": 881,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 865,
+                        "end": 877,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 872,
+                          "end": 876,
+                          "value": null
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 886,
+      "end": 958,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 892,
+          "end": 957,
+          "id": {
+            "type": "Identifier",
+            "start": 892,
+            "end": 903,
+            "name": "toPrimitive"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 906,
+            "end": 957,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 910,
+                "end": 955,
+                "method": true,
+                "shorthand": false,
+                "computed": true,
+                "key": {
+                  "type": "MemberExpression",
+                  "start": 911,
+                  "end": 929,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 911,
+                    "end": 917,
+                    "name": "Symbol"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 918,
+                    "end": 929,
+                    "name": "toPrimitive"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 930,
+                  "end": 955,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 933,
+                    "end": 955,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 939,
+                        "end": 951,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 946,
+                          "end": 950,
+                          "value": null
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 960,
+      "end": 1116,
+      "expression": {
+        "type": "CallExpression",
+        "start": 960,
+        "end": 1115,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 960,
+          "end": 976,
+          "object": {
+            "type": "Identifier",
+            "start": 960,
+            "end": 966,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 967,
+            "end": 976,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 980,
+            "end": 1022,
+            "object": {
+              "type": "CallExpression",
+              "start": 980,
+              "end": 1016,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 980,
+                "end": 997,
+                "object": {
+                  "type": "Identifier",
+                  "start": 980,
+                  "end": 987,
+                  "name": "Atomics"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 988,
+                  "end": 997,
+                  "name": "waitAsync"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 998,
+                  "end": 1002,
+                  "name": "i64a"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1004,
+                  "end": 1005,
+                  "value": 0
+                },
+                {
+                  "type": "Literal",
+                  "start": 1007,
+                  "end": 1009,
+                  "value": "0n",
+                  "bigint": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1011,
+                  "end": 1015,
+                  "value": null
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1017,
+              "end": 1022,
+              "name": "value"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1026,
+            "end": 1037,
+            "value": "timed-out"
+          },
+          {
+            "type": "Literal",
+            "start": 1041,
+            "end": 1113,
+            "value": "The value of Atomics.waitAsync(i64a, 0, 0n, null).value is \"timed-out\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1118,
+      "end": 1280,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1118,
+        "end": 1279,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1118,
+          "end": 1134,
+          "object": {
+            "type": "Identifier",
+            "start": 1118,
+            "end": 1124,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1125,
+            "end": 1134,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1138,
+            "end": 1183,
+            "object": {
+              "type": "CallExpression",
+              "start": 1138,
+              "end": 1177,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1138,
+                "end": 1155,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1138,
+                  "end": 1145,
+                  "name": "Atomics"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1146,
+                  "end": 1155,
+                  "name": "waitAsync"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1156,
+                  "end": 1160,
+                  "name": "i64a"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1162,
+                  "end": 1163,
+                  "value": 0
+                },
+                {
+                  "type": "Literal",
+                  "start": 1165,
+                  "end": 1167,
+                  "value": "0n",
+                  "bigint": "0"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1169,
+                  "end": 1176,
+                  "name": "valueOf"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1178,
+              "end": 1183,
+              "name": "value"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1187,
+            "end": 1198,
+            "value": "timed-out"
+          },
+          {
+            "type": "Literal",
+            "start": 1202,
+            "end": 1277,
+            "value": "The value of Atomics.waitAsync(i64a, 0, 0n, valueOf).value is \"timed-out\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1282,
+      "end": 1452,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1282,
+        "end": 1451,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1282,
+          "end": 1298,
+          "object": {
+            "type": "Identifier",
+            "start": 1282,
+            "end": 1288,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1289,
+            "end": 1298,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1302,
+            "end": 1351,
+            "object": {
+              "type": "CallExpression",
+              "start": 1302,
+              "end": 1345,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1302,
+                "end": 1319,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1302,
+                  "end": 1309,
+                  "name": "Atomics"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1310,
+                  "end": 1319,
+                  "name": "waitAsync"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1320,
+                  "end": 1324,
+                  "name": "i64a"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1326,
+                  "end": 1327,
+                  "value": 0
+                },
+                {
+                  "type": "Literal",
+                  "start": 1329,
+                  "end": 1331,
+                  "value": "0n",
+                  "bigint": "0"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1333,
+                  "end": 1344,
+                  "name": "toPrimitive"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1346,
+              "end": 1351,
+              "name": "value"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1355,
+            "end": 1366,
+            "value": "timed-out"
+          },
+          {
+            "type": "Literal",
+            "start": 1370,
+            "end": 1449,
+            "value": "The value of Atomics.waitAsync(i64a, 0, 0n, toPrimitive).value is \"timed-out\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

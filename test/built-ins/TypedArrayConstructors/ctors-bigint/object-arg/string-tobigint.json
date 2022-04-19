@@ -1,0 +1,586 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3052,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 2229,
+      "end": 3051,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2229,
+        "end": 3050,
+        "callee": {
+          "type": "Identifier",
+          "start": 2229,
+          "end": 2265,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 2266,
+            "end": 3049,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 2275,
+                "end": 2277,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2279,
+              "end": 3049,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 2283,
+                  "end": 2318,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 2287,
+                      "end": 2317,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 2287,
+                        "end": 2297,
+                        "name": "typedArray"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 2300,
+                        "end": 2317,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2304,
+                          "end": 2306,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrayExpression",
+                            "start": 2307,
+                            "end": 2316,
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "start": 2308,
+                                "end": 2310,
+                                "value": ""
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 2312,
+                                "end": 2315,
+                                "value": "1"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2322,
+                  "end": 2358,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2322,
+                    "end": 2357,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2322,
+                      "end": 2338,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2322,
+                        "end": 2328,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2329,
+                        "end": 2338,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 2339,
+                        "end": 2352,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2339,
+                          "end": 2349,
+                          "name": "typedArray"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 2350,
+                          "end": 2351,
+                          "value": 0
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2354,
+                        "end": 2356,
+                        "value": "0n",
+                        "bigint": "0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2361,
+                  "end": 2397,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2361,
+                    "end": 2396,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2361,
+                      "end": 2377,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2361,
+                        "end": 2367,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2368,
+                        "end": 2377,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 2378,
+                        "end": 2391,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2378,
+                          "end": 2388,
+                          "name": "typedArray"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 2389,
+                          "end": 2390,
+                          "value": 1
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2393,
+                        "end": 2395,
+                        "value": "1n",
+                        "bigint": "1"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2401,
+                  "end": 2531,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2401,
+                    "end": 2530,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2401,
+                      "end": 2414,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2401,
+                        "end": 2407,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2408,
+                        "end": 2414,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2415,
+                        "end": 2426,
+                        "name": "SyntaxError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 2428,
+                        "end": 2464,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 2439,
+                          "end": 2464,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 2445,
+                              "end": 2460,
+                              "expression": {
+                                "type": "NewExpression",
+                                "start": 2445,
+                                "end": 2459,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 2449,
+                                  "end": 2451,
+                                  "name": "TA"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "ArrayExpression",
+                                    "start": 2452,
+                                    "end": 2458,
+                                    "elements": [
+                                      {
+                                        "type": "Literal",
+                                        "start": 2453,
+                                        "end": 2457,
+                                        "value": "1n"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2466,
+                        "end": 2529,
+                        "value": "A StringNumericLiteral may not include a BigIntLiteralSuffix."
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2535,
+                  "end": 2701,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2535,
+                    "end": 2700,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2535,
+                      "end": 2548,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2535,
+                        "end": 2541,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2542,
+                        "end": 2548,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2549,
+                        "end": 2560,
+                        "name": "SyntaxError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 2562,
+                        "end": 2604,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 2573,
+                          "end": 2604,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 2579,
+                              "end": 2600,
+                              "expression": {
+                                "type": "NewExpression",
+                                "start": 2579,
+                                "end": 2599,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 2583,
+                                  "end": 2585,
+                                  "name": "TA"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "ArrayExpression",
+                                    "start": 2586,
+                                    "end": 2598,
+                                    "elements": [
+                                      {
+                                        "type": "Literal",
+                                        "start": 2587,
+                                        "end": 2597,
+                                        "value": "Infinity"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2606,
+                        "end": 2699,
+                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow Infinity.."
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2705,
+                  "end": 2876,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2705,
+                    "end": 2875,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2705,
+                      "end": 2718,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2705,
+                        "end": 2711,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2712,
+                        "end": 2718,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2719,
+                        "end": 2730,
+                        "name": "SyntaxError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 2732,
+                        "end": 2769,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 2743,
+                          "end": 2769,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 2749,
+                              "end": 2765,
+                              "expression": {
+                                "type": "NewExpression",
+                                "start": 2749,
+                                "end": 2764,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 2753,
+                                  "end": 2755,
+                                  "name": "TA"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "ArrayExpression",
+                                    "start": 2756,
+                                    "end": 2763,
+                                    "elements": [
+                                      {
+                                        "type": "Literal",
+                                        "start": 2757,
+                                        "end": 2762,
+                                        "value": "1.1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2771,
+                        "end": 2874,
+                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... decimal points..."
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2880,
+                  "end": 3046,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2880,
+                    "end": 3045,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2880,
+                      "end": 2893,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2880,
+                        "end": 2886,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2887,
+                        "end": 2893,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2894,
+                        "end": 2905,
+                        "name": "SyntaxError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 2907,
+                        "end": 2944,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 2918,
+                          "end": 2944,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 2924,
+                              "end": 2940,
+                              "expression": {
+                                "type": "NewExpression",
+                                "start": 2924,
+                                "end": 2939,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 2928,
+                                  "end": 2930,
+                                  "name": "TA"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "ArrayExpression",
+                                    "start": 2931,
+                                    "end": 2938,
+                                    "elements": [
+                                      {
+                                        "type": "Literal",
+                                        "start": 2932,
+                                        "end": 2937,
+                                        "value": "1e7"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2946,
+                        "end": 3044,
+                        "value": "Replace the StrUnsignedDecimalLiteral production with DecimalDigits to not allow... exponents..."
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

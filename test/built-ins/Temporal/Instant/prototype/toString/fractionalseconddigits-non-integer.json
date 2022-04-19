@@ -1,0 +1,184 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 877,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 649,
+      "end": 714,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 655,
+          "end": 713,
+          "id": {
+            "type": "Identifier",
+            "start": 655,
+            "end": 662,
+            "name": "instant"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 665,
+            "end": 713,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 669,
+              "end": 685,
+              "object": {
+                "type": "Identifier",
+                "start": 669,
+                "end": 677,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 678,
+                "end": 685,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 686,
+                "end": 712,
+                "value": "1000000000987650000n",
+                "bigint": "1000000000987650000"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 716,
+      "end": 781,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 722,
+          "end": 780,
+          "id": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 728,
+            "name": "string"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 731,
+            "end": 780,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 731,
+              "end": 747,
+              "object": {
+                "type": "Identifier",
+                "start": 731,
+                "end": 738,
+                "name": "instant"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 739,
+                "end": 747,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 748,
+                "end": 779,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 750,
+                    "end": 777,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 750,
+                      "end": 772,
+                      "name": "fractionalSecondDigits"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 774,
+                      "end": 777,
+                      "value": 2.5
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 782,
+      "end": 876,
+      "expression": {
+        "type": "CallExpression",
+        "start": 782,
+        "end": 875,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 782,
+          "end": 798,
+          "object": {
+            "type": "Identifier",
+            "start": 782,
+            "end": 788,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 789,
+            "end": 798,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 799,
+            "end": 805,
+            "name": "string"
+          },
+          {
+            "type": "Literal",
+            "start": 807,
+            "end": 832,
+            "value": "2001-09-09T01:46:40.98Z"
+          },
+          {
+            "type": "Literal",
+            "start": 834,
+            "end": 874,
+            "value": "fractionalSecondDigits 2.5 floors to 2"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

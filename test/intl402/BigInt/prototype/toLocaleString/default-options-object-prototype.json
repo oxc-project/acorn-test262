@@ -1,0 +1,129 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 659,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 561,
+      "end": 598,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 561,
+        "end": 597,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 561,
+          "end": 589,
+          "object": {
+            "type": "MemberExpression",
+            "start": 561,
+            "end": 577,
+            "object": {
+              "type": "Identifier",
+              "start": 561,
+              "end": 567,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 568,
+              "end": 577,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 578,
+            "end": 589,
+            "name": "useGrouping"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 592,
+          "end": 597,
+          "value": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 599,
+      "end": 658,
+      "expression": {
+        "type": "CallExpression",
+        "start": 599,
+        "end": 657,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 599,
+          "end": 615,
+          "object": {
+            "type": "Identifier",
+            "start": 599,
+            "end": 605,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 615,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 616,
+            "end": 646,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 616,
+              "end": 637,
+              "object": {
+                "type": "Literal",
+                "start": 616,
+                "end": 622,
+                "value": "12345n",
+                "bigint": "12345"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 623,
+                "end": 637,
+                "name": "toLocaleString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 638,
+                "end": 645,
+                "value": "en-US"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 648,
+            "end": 656,
+            "value": "12,345"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

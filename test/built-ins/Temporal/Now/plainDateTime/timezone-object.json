@@ -1,0 +1,1444 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2092,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 316,
+      "end": 334,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 322,
+          "end": 333,
+          "id": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 328,
+            "name": "actual"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 331,
+            "end": 333,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 336,
+      "end": 540,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 342,
+          "end": 539,
+          "id": {
+            "type": "Identifier",
+            "start": 342,
+            "end": 350,
+            "name": "expected"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 353,
+            "end": 539,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 357,
+                "end": 380,
+                "value": "has timeZone.timeZone"
+              },
+              {
+                "type": "Literal",
+                "start": 384,
+                "end": 407,
+                "value": "get timeZone.timeZone"
+              },
+              {
+                "type": "Literal",
+                "start": 411,
+                "end": 440,
+                "value": "has nestedTimeZone.timeZone"
+              },
+              {
+                "type": "Literal",
+                "start": 444,
+                "end": 488,
+                "value": "get nestedTimeZone.getOffsetNanosecondsFor"
+              },
+              {
+                "type": "Literal",
+                "start": 492,
+                "end": 537,
+                "value": "call nestedTimeZone.getOffsetNanosecondsFor"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 542,
+      "end": 1174,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 548,
+          "end": 1173,
+          "id": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 562,
+            "name": "nestedTimeZone"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 565,
+            "end": 1173,
+            "callee": {
+              "type": "Identifier",
+              "start": 569,
+              "end": 574,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 575,
+                "end": 927,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 579,
+                    "end": 925,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 579,
+                      "end": 602,
+                      "name": "getOffsetNanosecondsFor"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 602,
+                      "end": 925,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 603,
+                          "end": 610,
+                          "name": "instant"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 612,
+                        "end": 925,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 618,
+                            "end": 677,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 618,
+                              "end": 676,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 618,
+                                "end": 629,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 618,
+                                  "end": 624,
+                                  "name": "actual"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 625,
+                                  "end": 629,
+                                  "name": "push"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "start": 630,
+                                  "end": 675,
+                                  "value": "call nestedTimeZone.getOffsetNanosecondsFor"
+                                }
+                              ],
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 683,
+                            "end": 856,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 683,
+                              "end": 855,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 683,
+                                "end": 699,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 683,
+                                  "end": 689,
+                                  "name": "assert"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 690,
+                                  "end": 699,
+                                  "name": "sameValue"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "BinaryExpression",
+                                  "start": 707,
+                                  "end": 742,
+                                  "left": {
+                                    "type": "Identifier",
+                                    "start": 707,
+                                    "end": 714,
+                                    "name": "instant"
+                                  },
+                                  "operator": "instanceof",
+                                  "right": {
+                                    "type": "MemberExpression",
+                                    "start": 726,
+                                    "end": 742,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 726,
+                                      "end": 734,
+                                      "name": "Temporal"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 735,
+                                      "end": 742,
+                                      "name": "Instant"
+                                    },
+                                    "computed": false,
+                                    "optional": false
+                                  }
+                                },
+                                {
+                                  "type": "Literal",
+                                  "start": 750,
+                                  "end": 754,
+                                  "value": true
+                                },
+                                {
+                                  "type": "Literal",
+                                  "start": 762,
+                                  "end": 849,
+                                  "value": "The result of evaluating (instant instanceof Temporal.Instant) is expected to be true"
+                                }
+                              ],
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "start": 862,
+                            "end": 921,
+                            "argument": {
+                              "type": "UnaryExpression",
+                              "start": 869,
+                              "end": 920,
+                              "operator": "-",
+                              "prefix": true,
+                              "argument": {
+                                "type": "CallExpression",
+                                "start": 870,
+                                "end": 920,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 870,
+                                  "end": 876,
+                                  "name": "Number"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "BinaryExpression",
+                                    "start": 877,
+                                    "end": 919,
+                                    "left": {
+                                      "type": "MemberExpression",
+                                      "start": 877,
+                                      "end": 901,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "start": 877,
+                                        "end": 884,
+                                        "name": "instant"
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 885,
+                                        "end": 901,
+                                        "name": "epochNanoseconds"
+                                      },
+                                      "computed": false,
+                                      "optional": false
+                                    },
+                                    "operator": "%",
+                                    "right": {
+                                      "type": "Literal",
+                                      "start": 904,
+                                      "end": 919,
+                                      "value": "86400000000000n",
+                                      "bigint": "86400000000000"
+                                    }
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 929,
+                "end": 1172,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 933,
+                    "end": 1050,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 933,
+                      "end": 936,
+                      "name": "has"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 936,
+                      "end": 1050,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 937,
+                          "end": 943,
+                          "name": "target"
+                        },
+                        {
+                          "type": "Identifier",
+                          "start": 945,
+                          "end": 953,
+                          "name": "property"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 955,
+                        "end": 1050,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 961,
+                            "end": 1015,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 961,
+                              "end": 1014,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 961,
+                                "end": 972,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 961,
+                                  "end": 967,
+                                  "name": "actual"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 968,
+                                  "end": 972,
+                                  "name": "push"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "TemplateLiteral",
+                                  "start": 973,
+                                  "end": 1013,
+                                  "expressions": [
+                                    {
+                                      "type": "CallExpression",
+                                      "start": 995,
+                                      "end": 1011,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 995,
+                                        "end": 1001,
+                                        "name": "String"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "start": 1002,
+                                          "end": 1010,
+                                          "name": "property"
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  ],
+                                  "quasis": [
+                                    {
+                                      "type": "TemplateElement",
+                                      "start": 974,
+                                      "end": 993,
+                                      "value": {
+                                        "raw": "has nestedTimeZone.",
+                                        "cooked": "has nestedTimeZone."
+                                      },
+                                      "tail": false
+                                    },
+                                    {
+                                      "type": "TemplateElement",
+                                      "start": 1012,
+                                      "end": 1012,
+                                      "value": {
+                                        "raw": "",
+                                        "cooked": ""
+                                      },
+                                      "tail": true
+                                    }
+                                  ]
+                                }
+                              ],
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "start": 1020,
+                            "end": 1046,
+                            "argument": {
+                              "type": "BinaryExpression",
+                              "start": 1027,
+                              "end": 1045,
+                              "left": {
+                                "type": "Identifier",
+                                "start": 1027,
+                                "end": 1035,
+                                "name": "property"
+                              },
+                              "operator": "in",
+                              "right": {
+                                "type": "Identifier",
+                                "start": 1039,
+                                "end": 1045,
+                                "name": "target"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1055,
+                    "end": 1170,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1055,
+                      "end": 1058,
+                      "name": "get"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 1058,
+                      "end": 1170,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 1059,
+                          "end": 1065,
+                          "name": "target"
+                        },
+                        {
+                          "type": "Identifier",
+                          "start": 1067,
+                          "end": 1075,
+                          "name": "property"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 1077,
+                        "end": 1170,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 1083,
+                            "end": 1137,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 1083,
+                              "end": 1136,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1083,
+                                "end": 1094,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 1083,
+                                  "end": 1089,
+                                  "name": "actual"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1090,
+                                  "end": 1094,
+                                  "name": "push"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "TemplateLiteral",
+                                  "start": 1095,
+                                  "end": 1135,
+                                  "expressions": [
+                                    {
+                                      "type": "CallExpression",
+                                      "start": 1117,
+                                      "end": 1133,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 1117,
+                                        "end": 1123,
+                                        "name": "String"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "start": 1124,
+                                          "end": 1132,
+                                          "name": "property"
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  ],
+                                  "quasis": [
+                                    {
+                                      "type": "TemplateElement",
+                                      "start": 1096,
+                                      "end": 1115,
+                                      "value": {
+                                        "raw": "get nestedTimeZone.",
+                                        "cooked": "get nestedTimeZone."
+                                      },
+                                      "tail": false
+                                    },
+                                    {
+                                      "type": "TemplateElement",
+                                      "start": 1134,
+                                      "end": 1134,
+                                      "value": {
+                                        "raw": "",
+                                        "cooked": ""
+                                      },
+                                      "tail": true
+                                    }
+                                  ]
+                                }
+                              ],
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "start": 1142,
+                            "end": 1166,
+                            "argument": {
+                              "type": "MemberExpression",
+                              "start": 1149,
+                              "end": 1165,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1149,
+                                "end": 1155,
+                                "name": "target"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1156,
+                                "end": 1164,
+                                "name": "property"
+                              },
+                              "computed": true,
+                              "optional": false
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1176,
+      "end": 1797,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1182,
+          "end": 1796,
+          "id": {
+            "type": "Identifier",
+            "start": 1182,
+            "end": 1190,
+            "name": "timeZone"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1193,
+            "end": 1796,
+            "callee": {
+              "type": "Identifier",
+              "start": 1197,
+              "end": 1202,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 1203,
+                "end": 1578,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1207,
+                    "end": 1231,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1207,
+                      "end": 1215,
+                      "name": "timeZone"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 1217,
+                      "end": 1231,
+                      "name": "nestedTimeZone"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1236,
+                    "end": 1576,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1236,
+                      "end": 1259,
+                      "name": "getOffsetNanosecondsFor"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 1259,
+                      "end": 1576,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 1260,
+                          "end": 1267,
+                          "name": "instant"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 1269,
+                        "end": 1576,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 1275,
+                            "end": 1328,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 1275,
+                              "end": 1327,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1275,
+                                "end": 1286,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 1275,
+                                  "end": 1281,
+                                  "name": "actual"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1282,
+                                  "end": 1286,
+                                  "name": "push"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "start": 1287,
+                                  "end": 1326,
+                                  "value": "call timeZone.getOffsetNanosecondsFor"
+                                }
+                              ],
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 1334,
+                            "end": 1507,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 1334,
+                              "end": 1506,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1334,
+                                "end": 1350,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 1334,
+                                  "end": 1340,
+                                  "name": "assert"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1341,
+                                  "end": 1350,
+                                  "name": "sameValue"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "BinaryExpression",
+                                  "start": 1358,
+                                  "end": 1393,
+                                  "left": {
+                                    "type": "Identifier",
+                                    "start": 1358,
+                                    "end": 1365,
+                                    "name": "instant"
+                                  },
+                                  "operator": "instanceof",
+                                  "right": {
+                                    "type": "MemberExpression",
+                                    "start": 1377,
+                                    "end": 1393,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 1377,
+                                      "end": 1385,
+                                      "name": "Temporal"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 1386,
+                                      "end": 1393,
+                                      "name": "Instant"
+                                    },
+                                    "computed": false,
+                                    "optional": false
+                                  }
+                                },
+                                {
+                                  "type": "Literal",
+                                  "start": 1401,
+                                  "end": 1405,
+                                  "value": true
+                                },
+                                {
+                                  "type": "Literal",
+                                  "start": 1413,
+                                  "end": 1500,
+                                  "value": "The result of evaluating (instant instanceof Temporal.Instant) is expected to be true"
+                                }
+                              ],
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "start": 1513,
+                            "end": 1572,
+                            "argument": {
+                              "type": "UnaryExpression",
+                              "start": 1520,
+                              "end": 1571,
+                              "operator": "-",
+                              "prefix": true,
+                              "argument": {
+                                "type": "CallExpression",
+                                "start": 1521,
+                                "end": 1571,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 1521,
+                                  "end": 1527,
+                                  "name": "Number"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "BinaryExpression",
+                                    "start": 1528,
+                                    "end": 1570,
+                                    "left": {
+                                      "type": "MemberExpression",
+                                      "start": 1528,
+                                      "end": 1552,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "start": 1528,
+                                        "end": 1535,
+                                        "name": "instant"
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 1536,
+                                        "end": 1552,
+                                        "name": "epochNanoseconds"
+                                      },
+                                      "computed": false,
+                                      "optional": false
+                                    },
+                                    "operator": "%",
+                                    "right": {
+                                      "type": "Literal",
+                                      "start": 1555,
+                                      "end": 1570,
+                                      "value": "86400000000000n",
+                                      "bigint": "86400000000000"
+                                    }
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1580,
+                "end": 1795,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1584,
+                    "end": 1687,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1584,
+                      "end": 1587,
+                      "name": "has"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 1587,
+                      "end": 1687,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 1588,
+                          "end": 1594,
+                          "name": "target"
+                        },
+                        {
+                          "type": "Identifier",
+                          "start": 1596,
+                          "end": 1604,
+                          "name": "property"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 1606,
+                        "end": 1687,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 1612,
+                            "end": 1652,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 1612,
+                              "end": 1651,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1612,
+                                "end": 1623,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 1612,
+                                  "end": 1618,
+                                  "name": "actual"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1619,
+                                  "end": 1623,
+                                  "name": "push"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "TemplateLiteral",
+                                  "start": 1624,
+                                  "end": 1650,
+                                  "expressions": [
+                                    {
+                                      "type": "Identifier",
+                                      "start": 1640,
+                                      "end": 1648,
+                                      "name": "property"
+                                    }
+                                  ],
+                                  "quasis": [
+                                    {
+                                      "type": "TemplateElement",
+                                      "start": 1625,
+                                      "end": 1638,
+                                      "value": {
+                                        "raw": "has timeZone.",
+                                        "cooked": "has timeZone."
+                                      },
+                                      "tail": false
+                                    },
+                                    {
+                                      "type": "TemplateElement",
+                                      "start": 1649,
+                                      "end": 1649,
+                                      "value": {
+                                        "raw": "",
+                                        "cooked": ""
+                                      },
+                                      "tail": true
+                                    }
+                                  ]
+                                }
+                              ],
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "start": 1657,
+                            "end": 1683,
+                            "argument": {
+                              "type": "BinaryExpression",
+                              "start": 1664,
+                              "end": 1682,
+                              "left": {
+                                "type": "Identifier",
+                                "start": 1664,
+                                "end": 1672,
+                                "name": "property"
+                              },
+                              "operator": "in",
+                              "right": {
+                                "type": "Identifier",
+                                "start": 1676,
+                                "end": 1682,
+                                "name": "target"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1692,
+                    "end": 1793,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1692,
+                      "end": 1695,
+                      "name": "get"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 1695,
+                      "end": 1793,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 1696,
+                          "end": 1702,
+                          "name": "target"
+                        },
+                        {
+                          "type": "Identifier",
+                          "start": 1704,
+                          "end": 1712,
+                          "name": "property"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 1714,
+                        "end": 1793,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 1720,
+                            "end": 1760,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 1720,
+                              "end": 1759,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1720,
+                                "end": 1731,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 1720,
+                                  "end": 1726,
+                                  "name": "actual"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1727,
+                                  "end": 1731,
+                                  "name": "push"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "TemplateLiteral",
+                                  "start": 1732,
+                                  "end": 1758,
+                                  "expressions": [
+                                    {
+                                      "type": "Identifier",
+                                      "start": 1748,
+                                      "end": 1756,
+                                      "name": "property"
+                                    }
+                                  ],
+                                  "quasis": [
+                                    {
+                                      "type": "TemplateElement",
+                                      "start": 1733,
+                                      "end": 1746,
+                                      "value": {
+                                        "raw": "get timeZone.",
+                                        "cooked": "get timeZone."
+                                      },
+                                      "tail": false
+                                    },
+                                    {
+                                      "type": "TemplateElement",
+                                      "start": 1757,
+                                      "end": 1757,
+                                      "value": {
+                                        "raw": "",
+                                        "cooked": ""
+                                      },
+                                      "tail": true
+                                    }
+                                  ]
+                                }
+                              ],
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "start": 1765,
+                            "end": 1789,
+                            "argument": {
+                              "type": "MemberExpression",
+                              "start": 1772,
+                              "end": 1788,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1772,
+                                "end": 1778,
+                                "name": "target"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1779,
+                                "end": 1787,
+                                "name": "property"
+                              },
+                              "computed": true,
+                              "optional": false
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1799,
+      "end": 1936,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1799,
+        "end": 1935,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1799,
+          "end": 1820,
+          "object": {
+            "type": "Identifier",
+            "start": 1799,
+            "end": 1805,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1806,
+            "end": 1820,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1821,
+            "end": 1838,
+            "object": {
+              "type": "Identifier",
+              "start": 1821,
+              "end": 1829,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1830,
+              "end": 1838,
+              "name": "TimeZone"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1840,
+            "end": 1846,
+            "value": "from"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1848,
+            "end": 1934,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1852,
+                "end": 1932,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1852,
+                  "end": 1855,
+                  "name": "get"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1855,
+                  "end": 1932,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1858,
+                    "end": 1932,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 1864,
+                        "end": 1906,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 1864,
+                          "end": 1905,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 1864,
+                            "end": 1875,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 1864,
+                              "end": 1870,
+                              "name": "actual"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1871,
+                              "end": 1875,
+                              "name": "push"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 1876,
+                              "end": 1904,
+                              "value": "get Temporal.TimeZone.from"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 1911,
+                        "end": 1928,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 1918,
+                          "end": 1927,
+                          "name": "undefined"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1938,
+      "end": 1986,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1938,
+        "end": 1985,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1938,
+          "end": 1964,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1938,
+            "end": 1950,
+            "object": {
+              "type": "Identifier",
+              "start": 1938,
+              "end": 1946,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1947,
+              "end": 1950,
+              "name": "Now"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1951,
+            "end": 1964,
+            "name": "plainDateTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1965,
+            "end": 1974,
+            "value": "iso8601"
+          },
+          {
+            "type": "Identifier",
+            "start": 1976,
+            "end": 1984,
+            "name": "timeZone"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1987,
+      "end": 2091,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1987,
+        "end": 2090,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1987,
+          "end": 2006,
+          "object": {
+            "type": "Identifier",
+            "start": 1987,
+            "end": 1993,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1994,
+            "end": 2006,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2007,
+            "end": 2013,
+            "name": "actual"
+          },
+          {
+            "type": "Identifier",
+            "start": 2015,
+            "end": 2023,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 2025,
+            "end": 2089,
+            "value": "The value of actual is expected to equal the value of expected"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

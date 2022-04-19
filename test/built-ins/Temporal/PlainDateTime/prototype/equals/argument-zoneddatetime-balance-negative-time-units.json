@@ -1,0 +1,243 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2272,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 2061,
+      "end": 2117,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2067,
+          "end": 2116,
+          "id": {
+            "type": "Identifier",
+            "start": 2067,
+            "end": 2069,
+            "name": "tz"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2072,
+            "end": 2116,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2076,
+              "end": 2093,
+              "object": {
+                "type": "Identifier",
+                "start": 2076,
+                "end": 2084,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2085,
+                "end": 2093,
+                "name": "TimeZone"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2094,
+                "end": 2115,
+                "value": "-00:00:00.000000002"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2118,
+      "end": 2185,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2124,
+          "end": 2184,
+          "id": {
+            "type": "Identifier",
+            "start": 2124,
+            "end": 2132,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2135,
+            "end": 2184,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2139,
+              "end": 2161,
+              "object": {
+                "type": "Identifier",
+                "start": 2139,
+                "end": 2147,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2148,
+                "end": 2161,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2162,
+                "end": 2179,
+                "value": "3661001001001n",
+                "bigint": "3661001001001"
+              },
+              {
+                "type": "Identifier",
+                "start": 2181,
+                "end": 2183,
+                "name": "tz"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2187,
+      "end": 2271,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2187,
+        "end": 2270,
+        "callee": {
+          "type": "Identifier",
+          "start": 2187,
+          "end": 2193,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2194,
+            "end": 2269,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2194,
+              "end": 2259,
+              "object": {
+                "type": "NewExpression",
+                "start": 2194,
+                "end": 2252,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2198,
+                  "end": 2220,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2198,
+                    "end": 2206,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2207,
+                    "end": 2220,
+                    "name": "PlainDateTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2221,
+                    "end": 2225,
+                    "value": 1970
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2227,
+                    "end": 2228,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2230,
+                    "end": 2231,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2233,
+                    "end": 2234,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2236,
+                    "end": 2237,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2239,
+                    "end": 2240,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2242,
+                    "end": 2243,
+                    "value": 1
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2245,
+                    "end": 2246,
+                    "value": 0
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2248,
+                    "end": 2251,
+                    "value": 999
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2253,
+                "end": 2259,
+                "name": "equals"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2260,
+                "end": 2268,
+                "name": "datetime"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

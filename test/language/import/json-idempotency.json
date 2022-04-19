@@ -1,0 +1,416 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 911,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 350,
+      "end": 437,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 357,
+          "end": 373,
+          "local": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 373,
+            "name": "viaStaticImport1"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 379,
+        "end": 412,
+        "value": "./json-idempotency_FIXTURE.json"
+      },
+      "assertions": [
+        {
+          "type": "ImportAttribute",
+          "start": 422,
+          "end": 434,
+          "key": {
+            "type": "Identifier",
+            "start": 422,
+            "end": 426,
+            "name": "type"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 428,
+            "end": 434,
+            "value": "json"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 438,
+      "end": 538,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 446,
+          "end": 473,
+          "imported": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 453,
+            "name": "default"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 457,
+            "end": 473,
+            "name": "viaStaticImport2"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 480,
+        "end": 513,
+        "value": "./json-idempotency_FIXTURE.json"
+      },
+      "assertions": [
+        {
+          "type": "ImportAttribute",
+          "start": 523,
+          "end": 535,
+          "key": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 527,
+            "name": "type"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 529,
+            "end": 535,
+            "value": "json"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 539,
+      "end": 587,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 546,
+        "end": 586,
+        "value": "./json-idempotency-indirect_FIXTURE.js"
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 589,
+      "end": 642,
+      "expression": {
+        "type": "CallExpression",
+        "start": 589,
+        "end": 641,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 589,
+          "end": 605,
+          "object": {
+            "type": "Identifier",
+            "start": 589,
+            "end": 595,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 596,
+            "end": 605,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 606,
+            "end": 622,
+            "name": "viaStaticImport1"
+          },
+          {
+            "type": "Identifier",
+            "start": 624,
+            "end": 640,
+            "name": "viaStaticImport2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 643,
+      "end": 706,
+      "expression": {
+        "type": "CallExpression",
+        "start": 643,
+        "end": 705,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 643,
+          "end": 659,
+          "object": {
+            "type": "Identifier",
+            "start": 643,
+            "end": 649,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 659,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 660,
+            "end": 686,
+            "object": {
+              "type": "Identifier",
+              "start": 660,
+              "end": 670,
+              "name": "globalThis"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 671,
+              "end": 686,
+              "name": "viaSecondModule"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 688,
+            "end": 704,
+            "name": "viaStaticImport1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 708,
+      "end": 910,
+      "expression": {
+        "type": "CallExpression",
+        "start": 708,
+        "end": 909,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 708,
+          "end": 895,
+          "object": {
+            "type": "CallExpression",
+            "start": 708,
+            "end": 887,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 708,
+              "end": 787,
+              "object": {
+                "type": "ImportExpression",
+                "start": 708,
+                "end": 779,
+                "source": {
+                  "type": "Literal",
+                  "start": 715,
+                  "end": 748,
+                  "value": "./json-idempotency_FIXTURE.json"
+                },
+                "arguments": [
+                  {
+                    "type": "ObjectExpression",
+                    "start": 750,
+                    "end": 778,
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "start": 752,
+                        "end": 776,
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
+                          "type": "Identifier",
+                          "start": 752,
+                          "end": 758,
+                          "name": "assert"
+                        },
+                        "value": {
+                          "type": "ObjectExpression",
+                          "start": 760,
+                          "end": 776,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 762,
+                              "end": 774,
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 762,
+                                "end": 766,
+                                "name": "type"
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "start": 768,
+                                "end": 774,
+                                "value": "json"
+                              },
+                              "kind": "init"
+                            }
+                          ]
+                        },
+                        "kind": "init"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 783,
+                "end": 787,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 788,
+                "end": 886,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 797,
+                    "end": 813,
+                    "name": "viaDynamicImport"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 815,
+                  "end": 886,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 821,
+                      "end": 882,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 821,
+                        "end": 881,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 821,
+                          "end": 837,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 821,
+                            "end": 827,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 828,
+                            "end": 837,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "start": 838,
+                            "end": 862,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 838,
+                              "end": 854,
+                              "name": "viaDynamicImport"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 855,
+                              "end": 862,
+                              "name": "default"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 864,
+                            "end": 880,
+                            "name": "viaStaticImport1"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 891,
+            "end": 895,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 896,
+            "end": 901,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 903,
+            "end": 908,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

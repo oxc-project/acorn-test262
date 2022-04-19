@@ -1,0 +1,1530 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2982,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 1108,
+      "end": 1540,
+      "id": {
+        "type": "Identifier",
+        "start": 1114,
+        "end": 1130,
+        "name": "ObservedCalendar"
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 1139,
+        "end": 1156,
+        "object": {
+          "type": "Identifier",
+          "start": 1139,
+          "end": 1147,
+          "name": "Temporal"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 1148,
+          "end": 1156,
+          "name": "Calendar"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 1157,
+        "end": 1540,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 1161,
+            "end": 1225,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 1161,
+              "end": 1172,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1172,
+              "end": 1225,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1175,
+                "end": 1225,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 1181,
+                    "end": 1198,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1181,
+                      "end": 1197,
+                      "callee": {
+                        "type": "Super",
+                        "start": 1181,
+                        "end": 1186
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1187,
+                          "end": 1196,
+                          "value": "iso8601"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 1203,
+                    "end": 1221,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1203,
+                      "end": 1220,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1203,
+                        "end": 1218,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 1203,
+                          "end": 1207
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1208,
+                          "end": 1218,
+                          "name": "resetCalls"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 1229,
+            "end": 1277,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 1229,
+              "end": 1237,
+              "name": "toString"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1237,
+              "end": 1277,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1240,
+                "end": 1277,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 1246,
+                    "end": 1273,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 1253,
+                      "end": 1272,
+                      "value": "observed-calendar"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 1281,
+            "end": 1484,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 1281,
+              "end": 1292,
+              "name": "mergeFields"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1292,
+              "end": 1484,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 1293,
+                  "end": 1301,
+                  "name": "original"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1303,
+                  "end": 1313,
+                  "name": "additional"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1315,
+                "end": 1484,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 1321,
+                    "end": 1346,
+                    "expression": {
+                      "type": "UpdateExpression",
+                      "start": 1321,
+                      "end": 1345,
+                      "operator": "++",
+                      "prefix": false,
+                      "argument": {
+                        "type": "MemberExpression",
+                        "start": 1321,
+                        "end": 1343,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 1321,
+                          "end": 1325
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1326,
+                          "end": 1343,
+                          "name": "mergeFieldsCalled"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    }
+                  },
+                  {
+                    "type": "VariableDeclaration",
+                    "start": 1351,
+                    "end": 1406,
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 1357,
+                        "end": 1405,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 1357,
+                          "end": 1363,
+                          "name": "result"
+                        },
+                        "init": {
+                          "type": "CallExpression",
+                          "start": 1366,
+                          "end": 1405,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 1366,
+                            "end": 1383,
+                            "object": {
+                              "type": "Super",
+                              "start": 1366,
+                              "end": 1371
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1372,
+                              "end": 1383,
+                              "name": "mergeFields"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 1384,
+                              "end": 1392,
+                              "name": "original"
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 1394,
+                              "end": 1404,
+                              "name": "additional"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ],
+                    "kind": "const"
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 1411,
+                    "end": 1461,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 1411,
+                      "end": 1460,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 1411,
+                        "end": 1424,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1411,
+                          "end": 1417,
+                          "name": "result"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1418,
+                          "end": 1424,
+                          "name": "offset"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "CallExpression",
+                        "start": 1427,
+                        "end": 1460,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1427,
+                          "end": 1433,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1434,
+                            "end": 1459,
+                            "value": "can't convert to string"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  },
+                  {
+                    "type": "ReturnStatement",
+                    "start": 1466,
+                    "end": 1480,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 1473,
+                      "end": 1479,
+                      "name": "result"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 1488,
+            "end": 1538,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 1488,
+              "end": 1498,
+              "name": "resetCalls"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1498,
+              "end": 1538,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1501,
+                "end": 1538,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 1507,
+                    "end": 1534,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 1507,
+                      "end": 1533,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 1507,
+                        "end": 1529,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 1507,
+                          "end": 1511
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1512,
+                          "end": 1529,
+                          "name": "mergeFieldsCalled"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 1532,
+                        "end": 1533,
+                        "value": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1542,
+      "end": 1582,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1548,
+          "end": 1581,
+          "id": {
+            "type": "Identifier",
+            "start": 1548,
+            "end": 1556,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1559,
+            "end": 1581,
+            "callee": {
+              "type": "Identifier",
+              "start": 1563,
+              "end": 1579,
+              "name": "ObservedCalendar"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1583,
+      "end": 1672,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1589,
+          "end": 1671,
+          "id": {
+            "type": "Identifier",
+            "start": 1589,
+            "end": 1597,
+            "name": "dateTime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1600,
+            "end": 1671,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1604,
+              "end": 1626,
+              "object": {
+                "type": "Identifier",
+                "start": 1604,
+                "end": 1612,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1613,
+                "end": 1626,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1627,
+                "end": 1653,
+                "value": "1000000000000000000n",
+                "bigint": "1000000000000000000"
+              },
+              {
+                "type": "Literal",
+                "start": 1655,
+                "end": 1660,
+                "value": "UTC"
+              },
+              {
+                "type": "Identifier",
+                "start": 1662,
+                "end": 1670,
+                "name": "calendar"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1700,
+      "end": 1837,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1700,
+        "end": 1836,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1700,
+          "end": 1713,
+          "object": {
+            "type": "Identifier",
+            "start": 1700,
+            "end": 1706,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1707,
+            "end": 1713,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1714,
+            "end": 1723,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1725,
+            "end": 1791,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 1731,
+              "end": 1791,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1731,
+                "end": 1744,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1731,
+                  "end": 1739,
+                  "name": "dateTime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1740,
+                  "end": 1744,
+                  "name": "with"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1745,
+                  "end": 1790,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1747,
+                      "end": 1788,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1747,
+                        "end": 1753,
+                        "name": "offset"
+                      },
+                      "value": {
+                        "type": "CallExpression",
+                        "start": 1755,
+                        "end": 1788,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1755,
+                          "end": 1761,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1762,
+                            "end": 1787,
+                            "value": "can't convert to string"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1793,
+            "end": 1835,
+            "value": "conversion failure on ZonedDateTime-like"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1838,
+      "end": 1931,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1838,
+        "end": 1930,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1838,
+          "end": 1854,
+          "object": {
+            "type": "Identifier",
+            "start": 1838,
+            "end": 1844,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1845,
+            "end": 1854,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1855,
+            "end": 1881,
+            "object": {
+              "type": "Identifier",
+              "start": 1855,
+              "end": 1863,
+              "name": "calendar"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1864,
+              "end": 1881,
+              "name": "mergeFieldsCalled"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1883,
+            "end": 1884,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 1886,
+            "end": 1929,
+            "value": "calendar.mergeFields should not be called"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1933,
+      "end": 1955,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1933,
+        "end": 1954,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1933,
+          "end": 1952,
+          "object": {
+            "type": "Identifier",
+            "start": 1933,
+            "end": 1941,
+            "name": "calendar"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1942,
+            "end": 1952,
+            "name": "resetCalls"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2030,
+      "end": 2157,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2030,
+        "end": 2156,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2030,
+          "end": 2043,
+          "object": {
+            "type": "Identifier",
+            "start": 2030,
+            "end": 2036,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2037,
+            "end": 2043,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2044,
+            "end": 2053,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 2055,
+            "end": 2090,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 2061,
+              "end": 2090,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2061,
+                "end": 2074,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2061,
+                  "end": 2069,
+                  "name": "dateTime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2070,
+                  "end": 2074,
+                  "name": "with"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 2075,
+                  "end": 2089,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2077,
+                      "end": 2087,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2077,
+                        "end": 2081,
+                        "name": "year"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 2083,
+                        "end": 2087,
+                        "value": 2002
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2092,
+            "end": 2155,
+            "value": "conversion failure on sabotaged return value from mergeFields"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2158,
+      "end": 2246,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2158,
+        "end": 2245,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2158,
+          "end": 2174,
+          "object": {
+            "type": "Identifier",
+            "start": 2158,
+            "end": 2164,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2165,
+            "end": 2174,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2175,
+            "end": 2201,
+            "object": {
+              "type": "Identifier",
+              "start": 2175,
+              "end": 2183,
+              "name": "calendar"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2184,
+              "end": 2201,
+              "name": "mergeFieldsCalled"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2203,
+            "end": 2204,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 2206,
+            "end": 2244,
+            "value": "calendar.mergeFields was called once"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2248,
+      "end": 2270,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2248,
+        "end": 2269,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2248,
+          "end": 2267,
+          "object": {
+            "type": "Identifier",
+            "start": 2248,
+            "end": 2256,
+            "name": "calendar"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2257,
+            "end": 2267,
+            "name": "resetCalls"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2298,
+      "end": 2406,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2298,
+        "end": 2405,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2298,
+          "end": 2319,
+          "object": {
+            "type": "Identifier",
+            "start": 2298,
+            "end": 2304,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2305,
+            "end": 2319,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2320,
+            "end": 2328,
+            "name": "dateTime"
+          },
+          {
+            "type": "Literal",
+            "start": 2330,
+            "end": 2338,
+            "value": "offset"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 2340,
+            "end": 2404,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 2342,
+                "end": 2382,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 2342,
+                  "end": 2347,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "CallExpression",
+                  "start": 2349,
+                  "end": 2382,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 2349,
+                    "end": 2355,
+                    "name": "Symbol"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 2356,
+                      "end": 2381,
+                      "value": "can't convert to string"
+                    }
+                  ],
+                  "optional": false
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2384,
+                "end": 2402,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 2384,
+                  "end": 2396,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2398,
+                  "end": 2402,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2408,
+      "end": 2530,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2408,
+        "end": 2529,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2408,
+          "end": 2421,
+          "object": {
+            "type": "Identifier",
+            "start": 2408,
+            "end": 2414,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2415,
+            "end": 2421,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2422,
+            "end": 2431,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 2433,
+            "end": 2468,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 2439,
+              "end": 2468,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2439,
+                "end": 2452,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2439,
+                  "end": 2447,
+                  "name": "dateTime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2448,
+                  "end": 2452,
+                  "name": "with"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 2453,
+                  "end": 2467,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2455,
+                      "end": 2465,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2455,
+                        "end": 2459,
+                        "name": "year"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 2461,
+                        "end": 2465,
+                        "value": 2002
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2470,
+            "end": 2528,
+            "value": "conversion failure on sabotaged offset field of receiver"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2531,
+      "end": 2624,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2531,
+        "end": 2623,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2531,
+          "end": 2547,
+          "object": {
+            "type": "Identifier",
+            "start": 2531,
+            "end": 2537,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2538,
+            "end": 2547,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2548,
+            "end": 2574,
+            "object": {
+              "type": "Identifier",
+              "start": 2548,
+              "end": 2556,
+              "name": "calendar"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2557,
+              "end": 2574,
+              "name": "mergeFieldsCalled"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2576,
+            "end": 2577,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 2579,
+            "end": 2622,
+            "value": "calendar.mergeFields should not be called"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2626,
+      "end": 2648,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2626,
+        "end": 2647,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2626,
+          "end": 2645,
+          "object": {
+            "type": "Identifier",
+            "start": 2626,
+            "end": 2634,
+            "name": "calendar"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2635,
+            "end": 2645,
+            "name": "resetCalls"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2692,
+      "end": 2756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2692,
+        "end": 2755,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2692,
+          "end": 2713,
+          "object": {
+            "type": "Identifier",
+            "start": 2692,
+            "end": 2698,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2699,
+            "end": 2713,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2714,
+            "end": 2722,
+            "name": "dateTime"
+          },
+          {
+            "type": "Literal",
+            "start": 2724,
+            "end": 2732,
+            "value": "offset"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 2734,
+            "end": 2754,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 2736,
+                "end": 2752,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 2736,
+                  "end": 2741,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Identifier",
+                  "start": 2743,
+                  "end": 2752,
+                  "name": "undefined"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2758,
+      "end": 2863,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2758,
+        "end": 2862,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2758,
+          "end": 2771,
+          "object": {
+            "type": "Identifier",
+            "start": 2758,
+            "end": 2764,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2765,
+            "end": 2771,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2772,
+            "end": 2781,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 2783,
+            "end": 2818,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 2789,
+              "end": 2818,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2789,
+                "end": 2802,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2789,
+                  "end": 2797,
+                  "name": "dateTime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2798,
+                  "end": 2802,
+                  "name": "with"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 2803,
+                  "end": 2817,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2805,
+                      "end": 2815,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2805,
+                        "end": 2809,
+                        "name": "year"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 2811,
+                        "end": 2815,
+                        "value": 2002
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2820,
+            "end": 2861,
+            "value": "offset property is required on receiver"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2864,
+      "end": 2957,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2864,
+        "end": 2956,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2864,
+          "end": 2880,
+          "object": {
+            "type": "Identifier",
+            "start": 2864,
+            "end": 2870,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2871,
+            "end": 2880,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2881,
+            "end": 2907,
+            "object": {
+              "type": "Identifier",
+              "start": 2881,
+              "end": 2889,
+              "name": "calendar"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2890,
+              "end": 2907,
+              "name": "mergeFieldsCalled"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2909,
+            "end": 2910,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 2912,
+            "end": 2955,
+            "value": "calendar.mergeFields should not be called"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2959,
+      "end": 2981,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2959,
+        "end": 2980,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2959,
+          "end": 2978,
+          "object": {
+            "type": "Identifier",
+            "start": 2959,
+            "end": 2967,
+            "name": "calendar"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2968,
+            "end": 2978,
+            "name": "resetCalls"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

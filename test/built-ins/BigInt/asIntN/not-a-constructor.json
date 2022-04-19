@@ -1,0 +1,190 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 911,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 691,
+      "end": 795,
+      "expression": {
+        "type": "CallExpression",
+        "start": 691,
+        "end": 794,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 691,
+          "end": 707,
+          "object": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 697,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 707,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 708,
+            "end": 736,
+            "callee": {
+              "type": "Identifier",
+              "start": 708,
+              "end": 721,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 722,
+                "end": 735,
+                "object": {
+                  "type": "Identifier",
+                  "start": 722,
+                  "end": 728,
+                  "name": "BigInt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 729,
+                  "end": 735,
+                  "name": "asIntN"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 738,
+            "end": 743,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 745,
+            "end": 793,
+            "value": "isConstructor(BigInt.asIntN) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 797,
+      "end": 910,
+      "expression": {
+        "type": "CallExpression",
+        "start": 797,
+        "end": 909,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 797,
+          "end": 810,
+          "object": {
+            "type": "Identifier",
+            "start": 797,
+            "end": 803,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 804,
+            "end": 810,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 811,
+            "end": 820,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 822,
+            "end": 860,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 828,
+              "end": 860,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 832,
+                  "end": 858,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 832,
+                    "end": 857,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 836,
+                      "end": 849,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 836,
+                        "end": 842,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 843,
+                        "end": 849,
+                        "name": "asIntN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 850,
+                        "end": 852,
+                        "value": 64
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 854,
+                        "end": 856,
+                        "value": "1n",
+                        "bigint": "1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 862,
+            "end": 908,
+            "value": "`new BigInt.asIntN(64, 1n)` throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

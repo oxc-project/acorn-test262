@@ -1,0 +1,459 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2110,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1736,
+      "end": 1792,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1742,
+          "end": 1791,
+          "id": {
+            "type": "Identifier",
+            "start": 1742,
+            "end": 1744,
+            "name": "tz"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1747,
+            "end": 1791,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1751,
+              "end": 1768,
+              "object": {
+                "type": "Identifier",
+                "start": 1751,
+                "end": 1759,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1760,
+                "end": 1768,
+                "name": "TimeZone"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1769,
+                "end": 1790,
+                "value": "-00:00:00.000000002"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1793,
+      "end": 1860,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1799,
+          "end": 1859,
+          "id": {
+            "type": "Identifier",
+            "start": 1799,
+            "end": 1807,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1810,
+            "end": 1859,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1814,
+              "end": 1836,
+              "object": {
+                "type": "Identifier",
+                "start": 1814,
+                "end": 1822,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1823,
+                "end": 1836,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1837,
+                "end": 1854,
+                "value": "3600000000001n",
+                "bigint": "3600000000001"
+              },
+              {
+                "type": "Identifier",
+                "start": 1856,
+                "end": 1858,
+                "name": "tz"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1862,
+      "end": 1897,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1862,
+        "end": 1896,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1862,
+          "end": 1878,
+          "object": {
+            "type": "Identifier",
+            "start": 1862,
+            "end": 1868,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1869,
+            "end": 1878,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1879,
+            "end": 1892,
+            "object": {
+              "type": "Identifier",
+              "start": 1879,
+              "end": 1887,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1888,
+              "end": 1892,
+              "name": "hour"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1894,
+            "end": 1895,
+            "value": 0
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1898,
+      "end": 1936,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1898,
+        "end": 1935,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1898,
+          "end": 1914,
+          "object": {
+            "type": "Identifier",
+            "start": 1898,
+            "end": 1904,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1905,
+            "end": 1914,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1915,
+            "end": 1930,
+            "object": {
+              "type": "Identifier",
+              "start": 1915,
+              "end": 1923,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1924,
+              "end": 1930,
+              "name": "minute"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1932,
+            "end": 1934,
+            "value": 59
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1937,
+      "end": 1975,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1937,
+        "end": 1974,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1937,
+          "end": 1953,
+          "object": {
+            "type": "Identifier",
+            "start": 1937,
+            "end": 1943,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1944,
+            "end": 1953,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1954,
+            "end": 1969,
+            "object": {
+              "type": "Identifier",
+              "start": 1954,
+              "end": 1962,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1963,
+              "end": 1969,
+              "name": "second"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1971,
+            "end": 1973,
+            "value": 59
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1976,
+      "end": 2020,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1976,
+        "end": 2019,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1976,
+          "end": 1992,
+          "object": {
+            "type": "Identifier",
+            "start": 1976,
+            "end": 1982,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1983,
+            "end": 1992,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1993,
+            "end": 2013,
+            "object": {
+              "type": "Identifier",
+              "start": 1993,
+              "end": 2001,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2002,
+              "end": 2013,
+              "name": "millisecond"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2015,
+            "end": 2018,
+            "value": 999
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2021,
+      "end": 2065,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2021,
+        "end": 2064,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2021,
+          "end": 2037,
+          "object": {
+            "type": "Identifier",
+            "start": 2021,
+            "end": 2027,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2028,
+            "end": 2037,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2038,
+            "end": 2058,
+            "object": {
+              "type": "Identifier",
+              "start": 2038,
+              "end": 2046,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2047,
+              "end": 2058,
+              "name": "microsecond"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2060,
+            "end": 2063,
+            "value": 999
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2066,
+      "end": 2109,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2066,
+        "end": 2108,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2066,
+          "end": 2082,
+          "object": {
+            "type": "Identifier",
+            "start": 2066,
+            "end": 2072,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2073,
+            "end": 2082,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2083,
+            "end": 2102,
+            "object": {
+              "type": "Identifier",
+              "start": 2083,
+              "end": 2091,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2092,
+              "end": 2102,
+              "name": "nanosecond"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2104,
+            "end": 2107,
+            "value": 999
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

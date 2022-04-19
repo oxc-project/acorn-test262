@@ -1,0 +1,315 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 447,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 268,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 267,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 259,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 259,
+            "name": "deepEqual"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 260,
+            "end": 262,
+            "value": "1n",
+            "bigint": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 264,
+            "end": 266,
+            "value": "1n",
+            "bigint": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 269,
+      "end": 302,
+      "expression": {
+        "type": "CallExpression",
+        "start": 269,
+        "end": 301,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 269,
+          "end": 285,
+          "object": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 275,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 285,
+            "name": "deepEqual"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 286,
+            "end": 296,
+            "callee": {
+              "type": "Identifier",
+              "start": 286,
+              "end": 292,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 293,
+                "end": 295,
+                "value": "1n",
+                "bigint": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 298,
+            "end": 300,
+            "value": "1n",
+            "bigint": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 304,
+      "end": 374,
+      "expression": {
+        "type": "CallExpression",
+        "start": 304,
+        "end": 373,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 304,
+          "end": 317,
+          "object": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 310,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 311,
+            "end": 317,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 318,
+            "end": 330,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 332,
+            "end": 372,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 344,
+              "end": 372,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 346,
+                  "end": 370,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 346,
+                    "end": 369,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 346,
+                      "end": 362,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 346,
+                        "end": 352,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 353,
+                        "end": 362,
+                        "name": "deepEqual"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 363,
+                        "end": 365,
+                        "value": "1n",
+                        "bigint": "1"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 367,
+                        "end": 368,
+                        "value": 1
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 375,
+      "end": 446,
+      "expression": {
+        "type": "CallExpression",
+        "start": 375,
+        "end": 445,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 375,
+          "end": 388,
+          "object": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 381,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 388,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 389,
+            "end": 401,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 403,
+            "end": 444,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 415,
+              "end": 444,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 417,
+                  "end": 442,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 417,
+                    "end": 441,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 417,
+                      "end": 433,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 417,
+                        "end": 423,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 424,
+                        "end": 433,
+                        "name": "deepEqual"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 434,
+                        "end": 436,
+                        "value": "1n",
+                        "bigint": "1"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 438,
+                        "end": 440,
+                        "value": "2n",
+                        "bigint": "2"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

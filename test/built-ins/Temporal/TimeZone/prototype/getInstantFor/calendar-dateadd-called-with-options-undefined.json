@@ -1,0 +1,512 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 843,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 356,
+      "end": 423,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 362,
+          "end": 422,
+          "id": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 370,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 373,
+            "end": 422,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 373,
+              "end": 420,
+              "object": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 388,
+                "name": "TemporalHelpers"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 420,
+                "name": "calendarDateAddUndefinedOptions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 424,
+      "end": 508,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 430,
+          "end": 507,
+          "id": {
+            "type": "Identifier",
+            "start": 430,
+            "end": 438,
+            "name": "timeZone"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 441,
+            "end": 507,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 441,
+              "end": 473,
+              "object": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 456,
+                "name": "TemporalHelpers"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 457,
+                "end": 473,
+                "name": "oneShiftTimeZone"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 474,
+                "end": 498,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 478,
+                  "end": 494,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 478,
+                    "end": 486,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 487,
+                    "end": 494,
+                    "name": "Instant"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 495,
+                    "end": 497,
+                    "value": "0n",
+                    "bigint": "0"
+                  }
+                ]
+              },
+              {
+                "type": "Literal",
+                "start": 500,
+                "end": 506,
+                "value": 3600000000000
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 509,
+      "end": 588,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 515,
+          "end": 587,
+          "id": {
+            "type": "Identifier",
+            "start": 515,
+            "end": 518,
+            "name": "pdt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 521,
+            "end": 587,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 525,
+              "end": 547,
+              "object": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 533,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 534,
+                "end": 547,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 548,
+                "end": 552,
+                "value": 1970
+              },
+              {
+                "type": "Literal",
+                "start": 554,
+                "end": 555,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 557,
+                "end": 558,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 560,
+                "end": 561,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 563,
+                "end": 564,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 566,
+                "end": 567,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 569,
+                "end": 570,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 572,
+                "end": 573,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 575,
+                "end": 576,
+                "value": 0
+              },
+              {
+                "type": "Identifier",
+                "start": 578,
+                "end": 586,
+                "name": "calendar"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 590,
+      "end": 842,
+      "expression": {
+        "type": "CallExpression",
+        "start": 590,
+        "end": 841,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 590,
+          "end": 632,
+          "object": {
+            "type": "ArrayExpression",
+            "start": 590,
+            "end": 624,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 591,
+                "end": 600,
+                "value": "earlier"
+              },
+              {
+                "type": "Literal",
+                "start": 602,
+                "end": 614,
+                "value": "compatible"
+              },
+              {
+                "type": "Literal",
+                "start": 616,
+                "end": 623,
+                "value": "later"
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 625,
+            "end": 632,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 633,
+            "end": 840,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 634,
+                "end": 648,
+                "name": "disambiguation"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 653,
+              "end": 840,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 657,
+                  "end": 687,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 657,
+                    "end": 686,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 657,
+                      "end": 682,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 657,
+                        "end": 665,
+                        "name": "calendar"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 666,
+                        "end": 682,
+                        "name": "dateAddCallCount"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 685,
+                      "end": 686,
+                      "value": 0
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 691,
+                  "end": 739,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 691,
+                    "end": 738,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 691,
+                      "end": 713,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 691,
+                        "end": 699,
+                        "name": "timeZone"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 700,
+                        "end": 713,
+                        "name": "getInstantFor"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 714,
+                        "end": 717,
+                        "name": "pdt"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 719,
+                        "end": 737,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 721,
+                            "end": 735,
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 721,
+                              "end": 735,
+                              "name": "disambiguation"
+                            },
+                            "kind": "init",
+                            "value": {
+                              "type": "Identifier",
+                              "start": 721,
+                              "end": 735,
+                              "name": "disambiguation"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 742,
+                  "end": 838,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 742,
+                    "end": 837,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 742,
+                      "end": 758,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 742,
+                        "end": 748,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 749,
+                        "end": 758,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 759,
+                        "end": 784,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 759,
+                          "end": 767,
+                          "name": "calendar"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 768,
+                          "end": 784,
+                          "name": "dateAddCallCount"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 786,
+                        "end": 787,
+                        "value": 1
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 789,
+                        "end": 836,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 820,
+                            "end": 834,
+                            "name": "disambiguation"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 790,
+                            "end": 818,
+                            "value": {
+                              "raw": "calling with disambiguation ",
+                              "cooked": "calling with disambiguation "
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 835,
+                            "end": 835,
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

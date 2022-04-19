@@ -1,0 +1,215 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 958,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 702,
+      "end": 836,
+      "expression": {
+        "type": "CallExpression",
+        "start": 702,
+        "end": 835,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 702,
+          "end": 718,
+          "object": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 708,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 709,
+            "end": 718,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 722,
+            "end": 761,
+            "callee": {
+              "type": "Identifier",
+              "start": 722,
+              "end": 735,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 736,
+                "end": 760,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 736,
+                  "end": 752,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 736,
+                    "end": 742,
+                    "name": "BigInt"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 743,
+                    "end": 752,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 753,
+                  "end": 760,
+                  "name": "valueOf"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 765,
+            "end": 770,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 774,
+            "end": 833,
+            "value": "isConstructor(BigInt.prototype.valueOf) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 838,
+      "end": 957,
+      "expression": {
+        "type": "CallExpression",
+        "start": 838,
+        "end": 956,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 838,
+          "end": 851,
+          "object": {
+            "type": "Identifier",
+            "start": 838,
+            "end": 844,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 845,
+            "end": 851,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 852,
+            "end": 861,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 863,
+            "end": 905,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 869,
+              "end": 905,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 873,
+                  "end": 884,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 877,
+                      "end": 883,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 877,
+                        "end": 878,
+                        "name": "n"
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 881,
+                        "end": 883,
+                        "value": "1n",
+                        "bigint": "1"
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 887,
+                  "end": 903,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 887,
+                    "end": 902,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 891,
+                      "end": 900,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 891,
+                        "end": 892,
+                        "name": "n"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 893,
+                        "end": 900,
+                        "name": "valueOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 907,
+            "end": 955,
+            "value": "`let n = 1n; new n.valueOf()` throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

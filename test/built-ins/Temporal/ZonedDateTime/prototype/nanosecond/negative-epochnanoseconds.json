@@ -1,0 +1,130 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 942,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 674,
+      "end": 749,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 680,
+          "end": 748,
+          "id": {
+            "type": "Identifier",
+            "start": 680,
+            "end": 688,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 691,
+            "end": 748,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 695,
+              "end": 717,
+              "object": {
+                "type": "Identifier",
+                "start": 695,
+                "end": 703,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 704,
+                "end": 717,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 718,
+                "end": 740,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 719,
+                  "end": 740,
+                  "value": "13849764999999999n",
+                  "bigint": "13849764999999999"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 742,
+                "end": 747,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 900,
+      "end": 941,
+      "expression": {
+        "type": "CallExpression",
+        "start": 900,
+        "end": 940,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 900,
+          "end": 916,
+          "object": {
+            "type": "Identifier",
+            "start": 900,
+            "end": 906,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 907,
+            "end": 916,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 917,
+            "end": 936,
+            "object": {
+              "type": "Identifier",
+              "start": 917,
+              "end": 925,
+              "name": "datetime"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 926,
+              "end": 936,
+              "name": "nanosecond"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 938,
+            "end": 939,
+            "value": 1
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

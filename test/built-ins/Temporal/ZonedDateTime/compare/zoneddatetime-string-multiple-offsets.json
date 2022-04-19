@@ -1,0 +1,283 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 726,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 313,
+      "end": 397,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 319,
+          "end": 396,
+          "id": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 327,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 330,
+            "end": 396,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 334,
+              "end": 356,
+              "object": {
+                "type": "Identifier",
+                "start": 334,
+                "end": 342,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 343,
+                "end": 356,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 357,
+                "end": 372,
+                "value": "29012345679n",
+                "bigint": "29012345679"
+              },
+              {
+                "type": "Literal",
+                "start": 374,
+                "end": 395,
+                "value": "+00:01:30.987654321"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 398,
+      "end": 469,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 404,
+          "end": 468,
+          "id": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 407,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 410,
+            "end": 468,
+            "value": "1970-01-01T00:02:00.000000000+00:02[+00:01:30.987654321]"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 471,
+      "end": 597,
+      "expression": {
+        "type": "CallExpression",
+        "start": 471,
+        "end": 596,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 471,
+          "end": 487,
+          "object": {
+            "type": "Identifier",
+            "start": 471,
+            "end": 477,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 478,
+            "end": 487,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 488,
+            "end": 533,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 488,
+              "end": 518,
+              "object": {
+                "type": "MemberExpression",
+                "start": 488,
+                "end": 510,
+                "object": {
+                  "type": "Identifier",
+                  "start": 488,
+                  "end": 496,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 497,
+                  "end": 510,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 511,
+                "end": 518,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 519,
+                "end": 522,
+                "name": "str"
+              },
+              {
+                "type": "Identifier",
+                "start": 524,
+                "end": 532,
+                "name": "datetime"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 535,
+            "end": 536,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 538,
+            "end": 595,
+            "value": "Time zone determined from bracket name (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 725,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 724,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 598,
+          "end": 614,
+          "object": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 604,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 605,
+            "end": 614,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 615,
+            "end": 660,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 615,
+              "end": 645,
+              "object": {
+                "type": "MemberExpression",
+                "start": 615,
+                "end": 637,
+                "object": {
+                  "type": "Identifier",
+                  "start": 615,
+                  "end": 623,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 624,
+                  "end": 637,
+                  "name": "ZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 638,
+                "end": 645,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 646,
+                "end": 654,
+                "name": "datetime"
+              },
+              {
+                "type": "Identifier",
+                "start": 656,
+                "end": 659,
+                "name": "str"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 662,
+            "end": 663,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 665,
+            "end": 723,
+            "value": "Time zone determined from bracket name (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

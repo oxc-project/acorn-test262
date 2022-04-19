@@ -1,0 +1,286 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 769,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 463,
+      "end": 602,
+      "id": {
+        "type": "Identifier",
+        "start": 469,
+        "end": 483,
+        "name": "CustomCalendar"
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 492,
+        "end": 509,
+        "object": {
+          "type": "Identifier",
+          "start": 492,
+          "end": 500,
+          "name": "Temporal"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 501,
+          "end": 509,
+          "name": "Calendar"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 510,
+        "end": 602,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 514,
+            "end": 555,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 514,
+              "end": 525,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 525,
+              "end": 555,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 528,
+                "end": 555,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 534,
+                    "end": 551,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 534,
+                      "end": 550,
+                      "callee": {
+                        "type": "Super",
+                        "start": 534,
+                        "end": 539
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 540,
+                          "end": 549,
+                          "value": "iso8601"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 558,
+            "end": 600,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 558,
+              "end": 577,
+              "name": "yearMonthFromFields"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 577,
+              "end": 600,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 580,
+                "end": 600,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 586,
+                    "end": 596,
+                    "argument": {
+                      "type": "ObjectExpression",
+                      "start": 593,
+                      "end": 595,
+                      "properties": []
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 603,
+      "end": 702,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 609,
+          "end": 701,
+          "id": {
+            "type": "Identifier",
+            "start": 609,
+            "end": 622,
+            "name": "zonedDateTime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 625,
+            "end": 701,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 629,
+              "end": 651,
+              "object": {
+                "type": "Identifier",
+                "start": 629,
+                "end": 637,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 638,
+                "end": 651,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 652,
+                "end": 671,
+                "value": "957270896123456789n",
+                "bigint": "957270896123456789"
+              },
+              {
+                "type": "Literal",
+                "start": 673,
+                "end": 678,
+                "value": "UTC"
+              },
+              {
+                "type": "NewExpression",
+                "start": 680,
+                "end": 700,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 684,
+                  "end": 698,
+                  "name": "CustomCalendar"
+                },
+                "arguments": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 768,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 767,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 703,
+          "end": 716,
+          "object": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 716,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 717,
+            "end": 726,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 728,
+            "end": 766,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 734,
+              "end": 766,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 734,
+                "end": 764,
+                "object": {
+                  "type": "Identifier",
+                  "start": 734,
+                  "end": 747,
+                  "name": "zonedDateTime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 748,
+                  "end": 764,
+                  "name": "toPlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

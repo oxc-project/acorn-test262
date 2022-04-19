@@ -1,0 +1,206 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2316,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 2073,
+      "end": 2129,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2079,
+          "end": 2128,
+          "id": {
+            "type": "Identifier",
+            "start": 2079,
+            "end": 2081,
+            "name": "tz"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2084,
+            "end": 2128,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2088,
+              "end": 2105,
+              "object": {
+                "type": "Identifier",
+                "start": 2088,
+                "end": 2096,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2097,
+                "end": 2105,
+                "name": "TimeZone"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2106,
+                "end": 2127,
+                "value": "-00:00:00.000000002"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2130,
+      "end": 2185,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2136,
+          "end": 2184,
+          "id": {
+            "type": "Identifier",
+            "start": 2136,
+            "end": 2144,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2147,
+            "end": 2184,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2151,
+              "end": 2173,
+              "object": {
+                "type": "Identifier",
+                "start": 2151,
+                "end": 2159,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2160,
+                "end": 2173,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2174,
+                "end": 2179,
+                "value": "1001n",
+                "bigint": "1001"
+              },
+              {
+                "type": "Identifier",
+                "start": 2181,
+                "end": 2183,
+                "name": "tz"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2187,
+      "end": 2225,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2193,
+          "end": 2224,
+          "id": {
+            "type": "Identifier",
+            "start": 2193,
+            "end": 2202,
+            "name": "isoString"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 2205,
+            "end": 2224,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2205,
+              "end": 2222,
+              "object": {
+                "type": "Identifier",
+                "start": 2205,
+                "end": 2213,
+                "name": "datetime"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2214,
+                "end": 2222,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2227,
+      "end": 2315,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2227,
+        "end": 2314,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2227,
+          "end": 2243,
+          "object": {
+            "type": "Identifier",
+            "start": 2227,
+            "end": 2233,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2234,
+            "end": 2243,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2244,
+            "end": 2253,
+            "name": "isoString"
+          },
+          {
+            "type": "Literal",
+            "start": 2255,
+            "end": 2313,
+            "value": "1970-01-01T00:00:00.000000999+00:00[-00:00:00.000000002]"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

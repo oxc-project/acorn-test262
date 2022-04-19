@@ -1,0 +1,298 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 472,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 250,
+      "end": 301,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 256,
+          "end": 300,
+          "id": {
+            "type": "Identifier",
+            "start": 256,
+            "end": 258,
+            "name": "ym"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 261,
+            "end": 300,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 261,
+              "end": 289,
+              "object": {
+                "type": "MemberExpression",
+                "start": 261,
+                "end": 284,
+                "object": {
+                  "type": "Identifier",
+                  "start": 261,
+                  "end": 269,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 270,
+                  "end": 284,
+                  "name": "PlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 285,
+                "end": 289,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 290,
+                "end": 299,
+                "value": "2019-11"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 302,
+      "end": 361,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 308,
+          "end": 360,
+          "id": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 314,
+            "name": "values"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 317,
+            "end": 360,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 318,
+                "end": 322,
+                "value": null
+              },
+              {
+                "type": "Literal",
+                "start": 324,
+                "end": 328,
+                "value": true
+              },
+              {
+                "type": "Literal",
+                "start": 330,
+                "end": 337,
+                "value": "hello"
+              },
+              {
+                "type": "CallExpression",
+                "start": 339,
+                "end": 352,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 339,
+                  "end": 345,
+                  "name": "Symbol"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 346,
+                    "end": 351,
+                    "value": "foo"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 354,
+                "end": 355,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 357,
+                "end": 359,
+                "value": "1n",
+                "bigint": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 362,
+      "end": 471,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 367,
+        "end": 383,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 373,
+            "end": 383,
+            "id": {
+              "type": "Identifier",
+              "start": 373,
+              "end": 383,
+              "name": "badOptions"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 387,
+        "end": 393,
+        "name": "values"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 395,
+        "end": 471,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 399,
+            "end": 469,
+            "expression": {
+              "type": "CallExpression",
+              "start": 399,
+              "end": 468,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 399,
+                "end": 412,
+                "object": {
+                  "type": "Identifier",
+                  "start": 399,
+                  "end": 405,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 406,
+                  "end": 412,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 413,
+                  "end": 422,
+                  "name": "TypeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 424,
+                  "end": 467,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 430,
+                    "end": 467,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 430,
+                      "end": 441,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 430,
+                        "end": 432,
+                        "name": "ym"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 433,
+                        "end": 441,
+                        "name": "subtract"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 442,
+                        "end": 454,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 444,
+                            "end": 452,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 444,
+                              "end": 449,
+                              "name": "years"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 451,
+                              "end": 452,
+                              "value": 1
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 456,
+                        "end": 466,
+                        "name": "badOptions"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

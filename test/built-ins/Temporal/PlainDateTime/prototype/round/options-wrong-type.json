@@ -1,0 +1,388 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 690,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 316,
+      "end": 391,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 322,
+          "end": 390,
+          "id": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 332,
+            "name": "badOptions"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 335,
+            "end": 390,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 339,
+                "end": 348,
+                "name": "undefined"
+              },
+              {
+                "type": "Literal",
+                "start": 352,
+                "end": 356,
+                "value": null
+              },
+              {
+                "type": "Literal",
+                "start": 360,
+                "end": 364,
+                "value": true
+              },
+              {
+                "type": "CallExpression",
+                "start": 368,
+                "end": 376,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 368,
+                  "end": 374,
+                  "name": "Symbol"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 380,
+                "end": 381,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 385,
+                "end": 387,
+                "value": "2n",
+                "bigint": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 393,
+      "end": 449,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 399,
+          "end": 448,
+          "id": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 407,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 410,
+            "end": 448,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 414,
+              "end": 436,
+              "object": {
+                "type": "Identifier",
+                "start": 414,
+                "end": 422,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 423,
+                "end": 436,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 437,
+                "end": 441,
+                "value": 2000
+              },
+              {
+                "type": "Literal",
+                "start": 443,
+                "end": 444,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 446,
+                "end": 447,
+                "value": 2
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 450,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 450,
+        "end": 539,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 450,
+          "end": 463,
+          "object": {
+            "type": "Identifier",
+            "start": 450,
+            "end": 456,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 457,
+            "end": 463,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 464,
+            "end": 473,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 475,
+            "end": 497,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 481,
+              "end": 497,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 481,
+                "end": 495,
+                "object": {
+                  "type": "Identifier",
+                  "start": 481,
+                  "end": 489,
+                  "name": "instance"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 490,
+                  "end": 495,
+                  "name": "round"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 499,
+            "end": 538,
+            "value": "TypeError on missing options argument"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 541,
+      "end": 688,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 546,
+        "end": 557,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 552,
+            "end": 557,
+            "id": {
+              "type": "Identifier",
+              "start": 552,
+              "end": 557,
+              "name": "value"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 561,
+        "end": 571,
+        "name": "badOptions"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 573,
+        "end": 688,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 577,
+            "end": 686,
+            "expression": {
+              "type": "CallExpression",
+              "start": 577,
+              "end": 685,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 577,
+                "end": 590,
+                "object": {
+                  "type": "Identifier",
+                  "start": 577,
+                  "end": 583,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 584,
+                  "end": 590,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 591,
+                  "end": 600,
+                  "name": "TypeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 602,
+                  "end": 629,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 608,
+                    "end": 629,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 608,
+                      "end": 622,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 608,
+                        "end": 616,
+                        "name": "instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 617,
+                        "end": 622,
+                        "name": "round"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 623,
+                        "end": 628,
+                        "name": "value"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 635,
+                  "end": 684,
+                  "expressions": [
+                    {
+                      "type": "UnaryExpression",
+                      "start": 670,
+                      "end": 682,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 677,
+                        "end": 682,
+                        "name": "value"
+                      }
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 636,
+                      "end": 668,
+                      "value": {
+                        "raw": "TypeError on wrong options type ",
+                        "cooked": "TypeError on wrong options type "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 683,
+                      "end": 683,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 688,
+      "end": 689
+    }
+  ],
+  "sourceType": "script"
+}

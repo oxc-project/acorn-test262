@@ -1,0 +1,406 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 795,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 288,
+      "end": 349,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 294,
+          "end": 348,
+          "id": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 301,
+            "name": "instant"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 304,
+            "end": 348,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 308,
+              "end": 324,
+              "object": {
+                "type": "Identifier",
+                "start": 308,
+                "end": 316,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 317,
+                "end": 324,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 325,
+                "end": 347,
+                "value": "957270896987650000n",
+                "bigint": "957270896987650000"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 350,
+      "end": 426,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 356,
+          "end": 425,
+          "id": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 372,
+            "name": "defaultFormatter"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 375,
+            "end": 425,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 379,
+              "end": 398,
+              "object": {
+                "type": "Identifier",
+                "start": 379,
+                "end": 383,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 384,
+                "end": 398,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 399,
+                "end": 403,
+                "value": "en"
+              },
+              {
+                "type": "CallExpression",
+                "start": 405,
+                "end": 424,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 405,
+                  "end": 418,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 405,
+                    "end": 411,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 412,
+                    "end": 418,
+                    "name": "create"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 419,
+                    "end": 423,
+                    "value": null
+                  }
+                ],
+                "optional": false
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 427,
+      "end": 477,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 433,
+          "end": 476,
+          "id": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 441,
+            "name": "expected"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 444,
+            "end": 476,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 444,
+              "end": 467,
+              "object": {
+                "type": "Identifier",
+                "start": 444,
+                "end": 460,
+                "name": "defaultFormatter"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 467,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 468,
+                "end": 475,
+                "name": "instant"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 479,
+      "end": 542,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 485,
+          "end": 541,
+          "id": {
+            "type": "Identifier",
+            "start": 485,
+            "end": 499,
+            "name": "actualExplicit"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 502,
+            "end": 541,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 502,
+              "end": 524,
+              "object": {
+                "type": "Identifier",
+                "start": 502,
+                "end": 509,
+                "name": "instant"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 510,
+                "end": 524,
+                "name": "toLocaleString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 525,
+                "end": 529,
+                "value": "en"
+              },
+              {
+                "type": "Identifier",
+                "start": 531,
+                "end": 540,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 543,
+      "end": 641,
+      "expression": {
+        "type": "CallExpression",
+        "start": 543,
+        "end": 640,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 543,
+          "end": 559,
+          "object": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 549,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 559,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 560,
+            "end": 574,
+            "name": "actualExplicit"
+          },
+          {
+            "type": "Identifier",
+            "start": 576,
+            "end": 584,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 586,
+            "end": 639,
+            "value": "default locale is determined by Intl.DateTimeFormat"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 643,
+      "end": 695,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 649,
+          "end": 694,
+          "id": {
+            "type": "Identifier",
+            "start": 649,
+            "end": 663,
+            "name": "actualImplicit"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 666,
+            "end": 694,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 666,
+              "end": 688,
+              "object": {
+                "type": "Identifier",
+                "start": 666,
+                "end": 673,
+                "name": "instant"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 674,
+                "end": 688,
+                "name": "toLocaleString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 689,
+                "end": 693,
+                "value": "en"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 696,
+      "end": 794,
+      "expression": {
+        "type": "CallExpression",
+        "start": 696,
+        "end": 793,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 696,
+          "end": 712,
+          "object": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 702,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 712,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 713,
+            "end": 727,
+            "name": "actualImplicit"
+          },
+          {
+            "type": "Identifier",
+            "start": 729,
+            "end": 737,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 739,
+            "end": 792,
+            "value": "default locale is determined by Intl.DateTimeFormat"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

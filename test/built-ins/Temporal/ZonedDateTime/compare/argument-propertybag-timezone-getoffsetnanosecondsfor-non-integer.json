@@ -1,0 +1,618 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 839,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 341,
+      "end": 838,
+      "expression": {
+        "type": "CallExpression",
+        "start": 341,
+        "end": 837,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 341,
+          "end": 395,
+          "object": {
+            "type": "ArrayExpression",
+            "start": 341,
+            "end": 387,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 342,
+                "end": 360,
+                "value": 3600000000000.5
+              },
+              {
+                "type": "Identifier",
+                "start": 362,
+                "end": 365,
+                "name": "NaN"
+              },
+              {
+                "type": "Identifier",
+                "start": 367,
+                "end": 375,
+                "name": "Infinity"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 377,
+                "end": 386,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 378,
+                  "end": 386,
+                  "name": "Infinity"
+                }
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 395,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 396,
+            "end": 836,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 397,
+                "end": 408,
+                "name": "wrongOffset"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 413,
+              "end": 836,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 417,
+                  "end": 486,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 423,
+                      "end": 485,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 423,
+                        "end": 431,
+                        "name": "timeZone"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 434,
+                        "end": 485,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 434,
+                          "end": 472,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 434,
+                            "end": 449,
+                            "name": "TemporalHelpers"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 450,
+                            "end": 472,
+                            "name": "specificOffsetTimeZone"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 473,
+                            "end": 484,
+                            "name": "wrongOffset"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 489,
+                  "end": 571,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 495,
+                      "end": 570,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 495,
+                        "end": 503,
+                        "name": "datetime"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 506,
+                        "end": 570,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 510,
+                          "end": 532,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 510,
+                            "end": 518,
+                            "name": "Temporal"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 519,
+                            "end": 532,
+                            "name": "ZonedDateTime"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 533,
+                            "end": 559,
+                            "value": "1000000000987654321n",
+                            "bigint": "1000000000987654321"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 561,
+                            "end": 569,
+                            "name": "timeZone"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 575,
+                  "end": 703,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 575,
+                    "end": 702,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 575,
+                      "end": 588,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 575,
+                        "end": 581,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 582,
+                        "end": 588,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 589,
+                        "end": 599,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 601,
+                        "end": 701,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 607,
+                          "end": 701,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 607,
+                            "end": 637,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 607,
+                              "end": 629,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 607,
+                                "end": 615,
+                                "name": "Temporal"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 616,
+                                "end": 629,
+                                "name": "ZonedDateTime"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 630,
+                              "end": 637,
+                              "name": "compare"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "ObjectExpression",
+                              "start": 638,
+                              "end": 690,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 640,
+                                  "end": 650,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 640,
+                                    "end": 644,
+                                    "name": "year"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 646,
+                                    "end": 650,
+                                    "value": 2000
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 652,
+                                  "end": 660,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 652,
+                                    "end": 657,
+                                    "name": "month"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 659,
+                                    "end": 660,
+                                    "value": 5
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 662,
+                                  "end": 668,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 662,
+                                    "end": 665,
+                                    "name": "day"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 667,
+                                    "end": 668,
+                                    "value": 2
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 670,
+                                  "end": 678,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 670,
+                                    "end": 674,
+                                    "name": "hour"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 676,
+                                    "end": 678,
+                                    "value": 12
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 680,
+                                  "end": 688,
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 680,
+                                    "end": 688,
+                                    "name": "timeZone"
+                                  },
+                                  "kind": "init",
+                                  "value": {
+                                    "type": "Identifier",
+                                    "start": 680,
+                                    "end": 688,
+                                    "name": "timeZone"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 692,
+                              "end": 700,
+                              "name": "datetime"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 706,
+                  "end": 834,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 706,
+                    "end": 833,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 706,
+                      "end": 719,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 706,
+                        "end": 712,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 713,
+                        "end": 719,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 720,
+                        "end": 730,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 732,
+                        "end": 832,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 738,
+                          "end": 832,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 738,
+                            "end": 768,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 738,
+                              "end": 760,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 738,
+                                "end": 746,
+                                "name": "Temporal"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 747,
+                                "end": 760,
+                                "name": "ZonedDateTime"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 761,
+                              "end": 768,
+                              "name": "compare"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 769,
+                              "end": 777,
+                              "name": "datetime"
+                            },
+                            {
+                              "type": "ObjectExpression",
+                              "start": 779,
+                              "end": 831,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 781,
+                                  "end": 791,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 781,
+                                    "end": 785,
+                                    "name": "year"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 787,
+                                    "end": 791,
+                                    "value": 2000
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 793,
+                                  "end": 801,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 793,
+                                    "end": 798,
+                                    "name": "month"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 800,
+                                    "end": 801,
+                                    "value": 5
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 803,
+                                  "end": 809,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 803,
+                                    "end": 806,
+                                    "name": "day"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 808,
+                                    "end": 809,
+                                    "value": 2
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 811,
+                                  "end": 819,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 811,
+                                    "end": 815,
+                                    "name": "hour"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 817,
+                                    "end": 819,
+                                    "value": 12
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 821,
+                                  "end": 829,
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 821,
+                                    "end": 829,
+                                    "name": "timeZone"
+                                  },
+                                  "kind": "init",
+                                  "value": {
+                                    "type": "Identifier",
+                                    "start": 821,
+                                    "end": 829,
+                                    "name": "timeZone"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

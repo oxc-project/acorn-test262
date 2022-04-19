@@ -1,0 +1,313 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 538,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 289,
+      "end": 388,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 295,
+          "end": 387,
+          "id": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 300,
+            "name": "tests"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 303,
+            "end": 387,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 304,
+                "end": 313,
+                "name": "undefined"
+              },
+              {
+                "type": "Literal",
+                "start": 315,
+                "end": 319,
+                "value": null
+              },
+              {
+                "type": "Literal",
+                "start": 321,
+                "end": 325,
+                "value": true
+              },
+              {
+                "type": "Literal",
+                "start": 327,
+                "end": 332,
+                "value": false
+              },
+              {
+                "type": "Literal",
+                "start": 334,
+                "end": 342,
+                "value": "string"
+              },
+              {
+                "type": "CallExpression",
+                "start": 344,
+                "end": 357,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 344,
+                  "end": 350,
+                  "name": "Symbol"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 351,
+                    "end": 356,
+                    "value": "sym"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "MemberExpression",
+                "start": 359,
+                "end": 366,
+                "object": {
+                  "type": "Identifier",
+                  "start": 359,
+                  "end": 363,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 364,
+                  "end": 366,
+                  "name": "PI"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 368,
+                "end": 376,
+                "name": "Infinity"
+              },
+              {
+                "type": "Identifier",
+                "start": 378,
+                "end": 381,
+                "name": "NaN"
+              },
+              {
+                "type": "Literal",
+                "start": 383,
+                "end": 386,
+                "value": "42n",
+                "bigint": "42"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 389,
+      "end": 435,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 395,
+          "end": 434,
+          "id": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 398,
+            "name": "iso"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 401,
+            "end": 434,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 401,
+              "end": 423,
+              "object": {
+                "type": "MemberExpression",
+                "start": 401,
+                "end": 418,
+                "object": {
+                  "type": "Identifier",
+                  "start": 401,
+                  "end": 409,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 410,
+                  "end": 418,
+                  "name": "Calendar"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 419,
+                "end": 423,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 424,
+                "end": 433,
+                "value": "iso8601"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 436,
+      "end": 537,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 441,
+        "end": 453,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 447,
+            "end": 453,
+            "id": {
+              "type": "Identifier",
+              "start": 447,
+              "end": 453,
+              "name": "fields"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 457,
+        "end": 462,
+        "name": "tests"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 464,
+        "end": 537,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 468,
+            "end": 535,
+            "expression": {
+              "type": "CallExpression",
+              "start": 468,
+              "end": 534,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 468,
+                "end": 481,
+                "object": {
+                  "type": "Identifier",
+                  "start": 468,
+                  "end": 474,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 475,
+                  "end": 481,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 482,
+                  "end": 491,
+                  "name": "TypeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 493,
+                  "end": 533,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 499,
+                    "end": 533,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 499,
+                      "end": 521,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 499,
+                        "end": 502,
+                        "name": "iso"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 503,
+                        "end": 521,
+                        "name": "monthDayFromFields"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 522,
+                        "end": 528,
+                        "name": "fields"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 530,
+                        "end": 532,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

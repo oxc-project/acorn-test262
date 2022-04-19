@@ -1,0 +1,247 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 669,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 321,
+      "end": 405,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 327,
+          "end": 404,
+          "id": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 341,
+            "name": "invalidStrings"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 344,
+            "end": 404,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 348,
+                "end": 370,
+                "value": "2019-10-01T09:00:00Z"
+              },
+              {
+                "type": "Literal",
+                "start": 374,
+                "end": 401,
+                "value": "2019-10-01T09:00:00Z[UTC]"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 406,
+      "end": 485,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 412,
+          "end": 484,
+          "id": {
+            "type": "Identifier",
+            "start": 412,
+            "end": 420,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 423,
+            "end": 484,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 427,
+              "end": 449,
+              "object": {
+                "type": "Identifier",
+                "start": 427,
+                "end": 435,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 436,
+                "end": 449,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 450,
+                "end": 476,
+                "value": "1000000000000000000n",
+                "bigint": "1000000000000000000"
+              },
+              {
+                "type": "Literal",
+                "start": 478,
+                "end": 483,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 486,
+      "end": 668,
+      "expression": {
+        "type": "CallExpression",
+        "start": 486,
+        "end": 667,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 486,
+          "end": 508,
+          "object": {
+            "type": "Identifier",
+            "start": 486,
+            "end": 500,
+            "name": "invalidStrings"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 501,
+            "end": 508,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 509,
+            "end": 666,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 510,
+                "end": 513,
+                "name": "arg"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 518,
+              "end": 666,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 522,
+                  "end": 664,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 522,
+                    "end": 663,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 522,
+                      "end": 535,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 522,
+                        "end": 528,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 529,
+                        "end": 535,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 541,
+                        "end": 551,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 557,
+                        "end": 590,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 563,
+                          "end": 590,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 563,
+                            "end": 585,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 563,
+                              "end": 571,
+                              "name": "instance"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 572,
+                              "end": 585,
+                              "name": "withPlainTime"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 586,
+                              "end": 589,
+                              "name": "arg"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 596,
+                        "end": 659,
+                        "value": "String with UTC designator should not be valid as a PlainTime"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

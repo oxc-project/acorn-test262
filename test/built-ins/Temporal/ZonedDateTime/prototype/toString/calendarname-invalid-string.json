@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 934,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 769,
+      "end": 847,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 775,
+          "end": 846,
+          "id": {
+            "type": "Identifier",
+            "start": 775,
+            "end": 783,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 786,
+            "end": 846,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 790,
+              "end": 812,
+              "object": {
+                "type": "Identifier",
+                "start": 790,
+                "end": 798,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 799,
+                "end": 812,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 813,
+                "end": 838,
+                "value": "100000000098764321n",
+                "bigint": "100000000098764321"
+              },
+              {
+                "type": "Literal",
+                "start": 840,
+                "end": 845,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 848,
+      "end": 933,
+      "expression": {
+        "type": "CallExpression",
+        "start": 848,
+        "end": 932,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 848,
+          "end": 861,
+          "object": {
+            "type": "Identifier",
+            "start": 848,
+            "end": 854,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 855,
+            "end": 861,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 862,
+            "end": 872,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 874,
+            "end": 931,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 880,
+              "end": 931,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 880,
+                "end": 897,
+                "object": {
+                  "type": "Identifier",
+                  "start": 880,
+                  "end": 888,
+                  "name": "datetime"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 889,
+                  "end": 897,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 898,
+                  "end": 930,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 900,
+                      "end": 928,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 900,
+                        "end": 912,
+                        "name": "calendarName"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 914,
+                        "end": 928,
+                        "value": "other string"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

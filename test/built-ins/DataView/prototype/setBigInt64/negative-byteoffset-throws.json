@@ -1,0 +1,472 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 748,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 277,
+      "end": 310,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 281,
+          "end": 309,
+          "id": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 287,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 290,
+            "end": 309,
+            "callee": {
+              "type": "Identifier",
+              "start": 294,
+              "end": 305,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 306,
+                "end": 308,
+                "value": 12
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 311,
+      "end": 348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 315,
+          "end": 347,
+          "id": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 321,
+            "name": "sample"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 324,
+            "end": 347,
+            "callee": {
+              "type": "Identifier",
+              "start": 328,
+              "end": 336,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 337,
+                "end": 343,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 346,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 350,
+      "end": 467,
+      "expression": {
+        "type": "CallExpression",
+        "start": 350,
+        "end": 466,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 350,
+          "end": 363,
+          "object": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 356,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 363,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 364,
+            "end": 374,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 376,
+            "end": 421,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 387,
+              "end": 421,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 391,
+                  "end": 419,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 391,
+                    "end": 418,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 391,
+                      "end": 409,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 391,
+                        "end": 397,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 398,
+                        "end": 409,
+                        "name": "setBigInt64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 410,
+                        "end": 412,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 411,
+                          "end": 412,
+                          "value": 1
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 414,
+                        "end": 417,
+                        "value": "39n",
+                        "bigint": "39"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 423,
+            "end": 465,
+            "value": "DataView access at index -1 should throw"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 468,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 468,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 468,
+          "end": 484,
+          "object": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 474,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 475,
+            "end": 484,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 485,
+            "end": 506,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 485,
+              "end": 503,
+              "object": {
+                "type": "Identifier",
+                "start": 485,
+                "end": 491,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 492,
+                "end": 503,
+                "name": "getBigInt64"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 504,
+                "end": 505,
+                "value": 0
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 508,
+            "end": 510,
+            "value": "0n",
+            "bigint": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 512,
+            "end": 535,
+            "value": "-1 - no value was set"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 539,
+      "end": 670,
+      "expression": {
+        "type": "CallExpression",
+        "start": 539,
+        "end": 669,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 539,
+          "end": 552,
+          "object": {
+            "type": "Identifier",
+            "start": 539,
+            "end": 545,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 546,
+            "end": 552,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 553,
+            "end": 563,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 565,
+            "end": 617,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 576,
+              "end": 617,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 580,
+                  "end": 615,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 580,
+                    "end": 614,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 580,
+                      "end": 598,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 580,
+                        "end": 586,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 587,
+                        "end": 598,
+                        "name": "setBigInt64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 599,
+                        "end": 608,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 600,
+                          "end": 608,
+                          "name": "Infinity"
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 610,
+                        "end": 613,
+                        "value": "39n",
+                        "bigint": "39"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 619,
+            "end": 668,
+            "value": "DataView access at index -Infinity should throw"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 747,
+      "expression": {
+        "type": "CallExpression",
+        "start": 671,
+        "end": 746,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 671,
+          "end": 687,
+          "object": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 677,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 678,
+            "end": 687,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 688,
+            "end": 709,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 688,
+              "end": 706,
+              "object": {
+                "type": "Identifier",
+                "start": 688,
+                "end": 694,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 695,
+                "end": 706,
+                "name": "getBigInt64"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 707,
+                "end": 708,
+                "value": 0
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 711,
+            "end": 713,
+            "value": "0n",
+            "bigint": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 715,
+            "end": 745,
+            "value": "-Infinity - no value was set"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

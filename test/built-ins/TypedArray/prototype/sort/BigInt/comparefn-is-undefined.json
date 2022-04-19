@@ -1,0 +1,394 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 928,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 516,
+      "end": 927,
+      "expression": {
+        "type": "CallExpression",
+        "start": 516,
+        "end": 926,
+        "callee": {
+          "type": "Identifier",
+          "start": 516,
+          "end": 552,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 553,
+            "end": 925,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 562,
+                "end": 564,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 566,
+              "end": 925,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 570,
+                  "end": 617,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 574,
+                      "end": 616,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 574,
+                        "end": 580,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 583,
+                        "end": 616,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 587,
+                          "end": 589,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrayExpression",
+                            "start": 590,
+                            "end": 615,
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "start": 591,
+                                "end": 594,
+                                "value": "42n",
+                                "bigint": "42"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 596,
+                                "end": 599,
+                                "value": "44n",
+                                "bigint": "44"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 601,
+                                "end": 604,
+                                "value": "46n",
+                                "bigint": "46"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 606,
+                                "end": 609,
+                                "value": "43n",
+                                "bigint": "43"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 611,
+                                "end": 614,
+                                "value": "45n",
+                                "bigint": "45"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 620,
+                  "end": 658,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 624,
+                      "end": 657,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 624,
+                        "end": 632,
+                        "name": "explicit"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 635,
+                        "end": 657,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 635,
+                          "end": 646,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 635,
+                            "end": 641,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 642,
+                            "end": 646,
+                            "name": "sort"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 647,
+                            "end": 656,
+                            "name": "undefined"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 661,
+                  "end": 690,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 665,
+                      "end": 689,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 665,
+                        "end": 673,
+                        "name": "implicit"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 676,
+                        "end": 689,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 676,
+                          "end": 687,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 676,
+                            "end": 682,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 683,
+                            "end": 687,
+                            "name": "sort"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 694,
+                  "end": 807,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 694,
+                    "end": 806,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 694,
+                      "end": 713,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 694,
+                        "end": 700,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 701,
+                        "end": 713,
+                        "name": "compareArray"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 714,
+                        "end": 722,
+                        "name": "explicit"
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "start": 724,
+                        "end": 749,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 725,
+                            "end": 728,
+                            "value": "42n",
+                            "bigint": "42"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 730,
+                            "end": 733,
+                            "value": "43n",
+                            "bigint": "43"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 735,
+                            "end": 738,
+                            "value": "44n",
+                            "bigint": "44"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 740,
+                            "end": 743,
+                            "value": "45n",
+                            "bigint": "45"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 745,
+                            "end": 748,
+                            "value": "46n",
+                            "bigint": "46"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 751,
+                        "end": 805,
+                        "value": "The value of `explicit` is [42n, 43n, 44n, 45n, 46n]"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 810,
+                  "end": 923,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 810,
+                    "end": 922,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 810,
+                      "end": 829,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 810,
+                        "end": 816,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 817,
+                        "end": 829,
+                        "name": "compareArray"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 830,
+                        "end": 838,
+                        "name": "implicit"
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "start": 840,
+                        "end": 865,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 841,
+                            "end": 844,
+                            "value": "42n",
+                            "bigint": "42"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 846,
+                            "end": 849,
+                            "value": "43n",
+                            "bigint": "43"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 851,
+                            "end": 854,
+                            "value": "44n",
+                            "bigint": "44"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 856,
+                            "end": 859,
+                            "value": "45n",
+                            "bigint": "45"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 861,
+                            "end": 864,
+                            "value": "46n",
+                            "bigint": "46"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 867,
+                        "end": 921,
+                        "value": "The value of `implicit` is [42n, 43n, 44n, 45n, 46n]"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

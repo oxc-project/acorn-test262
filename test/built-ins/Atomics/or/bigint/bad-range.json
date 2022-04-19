@@ -1,0 +1,321 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 767,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 393,
+      "end": 465,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 397,
+          "end": 464,
+          "id": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 403,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 406,
+            "end": 464,
+            "callee": {
+              "type": "Identifier",
+              "start": 410,
+              "end": 427,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 428,
+                "end": 463,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 428,
+                  "end": 459,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 428,
+                    "end": 441,
+                    "name": "BigInt64Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 442,
+                    "end": 459,
+                    "name": "BYTES_PER_ELEMENT"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "operator": "*",
+                "right": {
+                  "type": "Literal",
+                  "start": 462,
+                  "end": 463,
+                  "value": 2
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 467,
+      "end": 766,
+      "expression": {
+        "type": "CallExpression",
+        "start": 467,
+        "end": 765,
+        "callee": {
+          "type": "Identifier",
+          "start": 467,
+          "end": 503,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 504,
+            "end": 764,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 513,
+                "end": 515,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 517,
+              "end": 764,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 521,
+                  "end": 547,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 525,
+                      "end": 546,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 525,
+                        "end": 529,
+                        "name": "view"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 532,
+                        "end": 546,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 536,
+                          "end": 538,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 539,
+                            "end": 545,
+                            "name": "buffer"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 551,
+                  "end": 762,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 551,
+                    "end": 761,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 551,
+                      "end": 584,
+                      "name": "testWithAtomicsOutOfBoundsIndices"
+                    },
+                    "arguments": [
+                      {
+                        "type": "FunctionExpression",
+                        "start": 585,
+                        "end": 760,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [
+                          {
+                            "type": "Identifier",
+                            "start": 594,
+                            "end": 600,
+                            "name": "IdxGen"
+                          }
+                        ],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 602,
+                          "end": 760,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 608,
+                              "end": 756,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 608,
+                                "end": 755,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 608,
+                                  "end": 621,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 608,
+                                    "end": 614,
+                                    "name": "assert"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 615,
+                                    "end": 621,
+                                    "name": "throws"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 622,
+                                    "end": 632,
+                                    "name": "RangeError"
+                                  },
+                                  {
+                                    "type": "FunctionExpression",
+                                    "start": 634,
+                                    "end": 695,
+                                    "id": null,
+                                    "expression": false,
+                                    "generator": false,
+                                    "async": false,
+                                    "params": [],
+                                    "body": {
+                                      "type": "BlockStatement",
+                                      "start": 645,
+                                      "end": 695,
+                                      "body": [
+                                        {
+                                          "type": "ExpressionStatement",
+                                          "start": 653,
+                                          "end": 689,
+                                          "expression": {
+                                            "type": "CallExpression",
+                                            "start": 653,
+                                            "end": 688,
+                                            "callee": {
+                                              "type": "MemberExpression",
+                                              "start": 653,
+                                              "end": 663,
+                                              "object": {
+                                                "type": "Identifier",
+                                                "start": 653,
+                                                "end": 660,
+                                                "name": "Atomics"
+                                              },
+                                              "property": {
+                                                "type": "Identifier",
+                                                "start": 661,
+                                                "end": 663,
+                                                "name": "or"
+                                              },
+                                              "computed": false,
+                                              "optional": false
+                                            },
+                                            "arguments": [
+                                              {
+                                                "type": "Identifier",
+                                                "start": 664,
+                                                "end": 668,
+                                                "name": "view"
+                                              },
+                                              {
+                                                "type": "CallExpression",
+                                                "start": 670,
+                                                "end": 682,
+                                                "callee": {
+                                                  "type": "Identifier",
+                                                  "start": 670,
+                                                  "end": 676,
+                                                  "name": "IdxGen"
+                                                },
+                                                "arguments": [
+                                                  {
+                                                    "type": "Identifier",
+                                                    "start": 677,
+                                                    "end": 681,
+                                                    "name": "view"
+                                                  }
+                                                ],
+                                                "optional": false
+                                              },
+                                              {
+                                                "type": "Literal",
+                                                "start": 684,
+                                                "end": 687,
+                                                "value": "10n",
+                                                "bigint": "10"
+                                              }
+                                            ],
+                                            "optional": false
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 697,
+                                    "end": 754,
+                                    "value": "`Atomics.or(view, IdxGen(view), 10n)` throws RangeError"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

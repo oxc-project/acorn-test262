@@ -1,0 +1,292 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 680,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 289,
+      "end": 355,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 295,
+          "end": 354,
+          "id": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 303,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 306,
+            "end": 354,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 310,
+              "end": 326,
+              "object": {
+                "type": "Identifier",
+                "start": 310,
+                "end": 318,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 326,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 327,
+                "end": 353,
+                "value": "1000000000000000000n",
+                "bigint": "1000000000000000000"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 357,
+      "end": 410,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 363,
+          "end": 409,
+          "id": {
+            "type": "Identifier",
+            "start": 363,
+            "end": 374,
+            "name": "resultHours"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 377,
+            "end": 409,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 377,
+              "end": 389,
+              "object": {
+                "type": "Identifier",
+                "start": 377,
+                "end": 385,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 386,
+                "end": 389,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 390,
+                "end": 408,
+                "value": "-PT24.567890123H"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 411,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 411,
+        "end": 512,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 411,
+          "end": 427,
+          "object": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 417,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 427,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 428,
+            "end": 456,
+            "object": {
+              "type": "Identifier",
+              "start": 428,
+              "end": 439,
+              "name": "resultHours"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 440,
+              "end": 456,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 458,
+            "end": 482,
+            "value": "999911555595557201n",
+            "bigint": "999911555595557201"
+          },
+          {
+            "type": "Literal",
+            "start": 484,
+            "end": 511,
+            "value": "negative fractional hours"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 515,
+      "end": 572,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 521,
+          "end": 571,
+          "id": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 534,
+            "name": "resultMinutes"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 537,
+            "end": 571,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 537,
+              "end": 549,
+              "object": {
+                "type": "Identifier",
+                "start": 537,
+                "end": 545,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 546,
+                "end": 549,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 550,
+                "end": 570,
+                "value": "-PT1440.567890123M"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 573,
+      "end": 679,
+      "expression": {
+        "type": "CallExpression",
+        "start": 573,
+        "end": 678,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 573,
+          "end": 589,
+          "object": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 579,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 580,
+            "end": 589,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 590,
+            "end": 620,
+            "object": {
+              "type": "Identifier",
+              "start": 590,
+              "end": 603,
+              "name": "resultMinutes"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 604,
+              "end": 620,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 622,
+            "end": 646,
+            "value": "999913565926592621n",
+            "bigint": "999913565926592621"
+          },
+          {
+            "type": "Literal",
+            "start": 648,
+            "end": 677,
+            "value": "negative fractional minutes"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

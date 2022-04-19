@@ -1,0 +1,1841 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2240,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 446,
+      "end": 2239,
+      "expression": {
+        "type": "CallExpression",
+        "start": 446,
+        "end": 2238,
+        "callee": {
+          "type": "Identifier",
+          "start": 446,
+          "end": 482,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 483,
+            "end": 2237,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 492,
+                "end": 494,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 496,
+              "end": 2237,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 500,
+                  "end": 542,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 504,
+                      "end": 541,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 504,
+                        "end": 510,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 513,
+                        "end": 541,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 517,
+                          "end": 519,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrayExpression",
+                            "start": 520,
+                            "end": 540,
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "start": 521,
+                                "end": 524,
+                                "value": "40n",
+                                "bigint": "40"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 526,
+                                "end": 529,
+                                "value": "41n",
+                                "bigint": "41"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 531,
+                                "end": 534,
+                                "value": "42n",
+                                "bigint": "42"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 536,
+                                "end": 539,
+                                "value": "43n",
+                                "bigint": "43"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "FunctionDeclaration",
+                  "start": 546,
+                  "end": 752,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 555,
+                    "end": 562,
+                    "name": "testRes"
+                  },
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 563,
+                      "end": 569,
+                      "name": "result"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 571,
+                      "end": 574,
+                      "name": "msg"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 576,
+                    "end": 752,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 582,
+                        "end": 622,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 582,
+                          "end": 621,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 582,
+                            "end": 598,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 582,
+                              "end": 588,
+                              "name": "assert"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 589,
+                              "end": 598,
+                              "name": "sameValue"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "MemberExpression",
+                              "start": 599,
+                              "end": 612,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 599,
+                                "end": 605,
+                                "name": "result"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 606,
+                                "end": 612,
+                                "name": "length"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 614,
+                              "end": 615,
+                              "value": 0
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 617,
+                              "end": 620,
+                              "name": "msg"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 627,
+                        "end": 748,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 627,
+                          "end": 747,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 627,
+                            "end": 643,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 627,
+                              "end": 633,
+                              "name": "assert"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 634,
+                              "end": 643,
+                              "name": "sameValue"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "CallExpression",
+                              "start": 651,
+                              "end": 675,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 651,
+                                "end": 672,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 651,
+                                  "end": 657,
+                                  "name": "result"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 658,
+                                  "end": 672,
+                                  "name": "hasOwnProperty"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "start": 673,
+                                  "end": 674,
+                                  "value": 0
+                                }
+                              ],
+                              "optional": false
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 683,
+                              "end": 688,
+                              "value": false
+                            },
+                            {
+                              "type": "BinaryExpression",
+                              "start": 696,
+                              "end": 741,
+                              "left": {
+                                "type": "Identifier",
+                                "start": 696,
+                                "end": 699,
+                                "name": "msg"
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Literal",
+                                "start": 702,
+                                "end": 741,
+                                "value": " & result.hasOwnProperty(0) === false"
+                              }
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 756,
+                  "end": 803,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 756,
+                    "end": 802,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 756,
+                      "end": 763,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 764,
+                        "end": 782,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 764,
+                          "end": 779,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 764,
+                            "end": 770,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 771,
+                            "end": 779,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 780,
+                            "end": 781,
+                            "value": 4
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 784,
+                        "end": 801,
+                        "value": "begin == length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 806,
+                  "end": 852,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 806,
+                    "end": 851,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 806,
+                      "end": 813,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 814,
+                        "end": 832,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 814,
+                          "end": 829,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 814,
+                            "end": 820,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 821,
+                            "end": 829,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 830,
+                            "end": 831,
+                            "value": 5
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 834,
+                        "end": 850,
+                        "value": "begin > length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 856,
+                  "end": 921,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 856,
+                    "end": 920,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 856,
+                      "end": 863,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 864,
+                        "end": 885,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 864,
+                          "end": 879,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 864,
+                            "end": 870,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 871,
+                            "end": 879,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 880,
+                            "end": 881,
+                            "value": 4
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 883,
+                            "end": 884,
+                            "value": 4
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 887,
+                        "end": 919,
+                        "value": "begin == length, end == length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 924,
+                  "end": 988,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 924,
+                    "end": 987,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 924,
+                      "end": 931,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 932,
+                        "end": 953,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 932,
+                          "end": 947,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 932,
+                            "end": 938,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 939,
+                            "end": 947,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 948,
+                            "end": 949,
+                            "value": 5
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 951,
+                            "end": 952,
+                            "value": 4
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 955,
+                        "end": 986,
+                        "value": "begin > length, end == length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 992,
+                  "end": 1056,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 992,
+                    "end": 1055,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 992,
+                      "end": 999,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1000,
+                        "end": 1021,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1000,
+                          "end": 1015,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1000,
+                            "end": 1006,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1007,
+                            "end": 1015,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1016,
+                            "end": 1017,
+                            "value": 4
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1019,
+                            "end": 1020,
+                            "value": 4
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1023,
+                        "end": 1054,
+                        "value": "begin == length, end > length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1059,
+                  "end": 1122,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1059,
+                    "end": 1121,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1059,
+                      "end": 1066,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1067,
+                        "end": 1088,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1067,
+                          "end": 1082,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1067,
+                            "end": 1073,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1074,
+                            "end": 1082,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1083,
+                            "end": 1084,
+                            "value": 5
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1086,
+                            "end": 1087,
+                            "value": 4
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1090,
+                        "end": 1120,
+                        "value": "begin > length, end > length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1126,
+                  "end": 1181,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1126,
+                    "end": 1180,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1126,
+                      "end": 1133,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1134,
+                        "end": 1155,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1134,
+                          "end": 1149,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1134,
+                            "end": 1140,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1141,
+                            "end": 1149,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1150,
+                            "end": 1151,
+                            "value": 0
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1153,
+                            "end": 1154,
+                            "value": 0
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1157,
+                        "end": 1179,
+                        "value": "begin == 0, end == 0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1184,
+                  "end": 1243,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1184,
+                    "end": 1242,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1184,
+                      "end": 1191,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1192,
+                        "end": 1215,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1192,
+                          "end": 1207,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1192,
+                            "end": 1198,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1199,
+                            "end": 1207,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1208,
+                            "end": 1210,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1209,
+                              "end": 1210,
+                              "value": 0
+                            }
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1212,
+                            "end": 1214,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1213,
+                              "end": 1214,
+                              "value": 0
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1217,
+                        "end": 1241,
+                        "value": "begin == -0, end == -0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1246,
+                  "end": 1300,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1246,
+                    "end": 1299,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1246,
+                      "end": 1253,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1254,
+                        "end": 1275,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1254,
+                          "end": 1269,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1254,
+                            "end": 1260,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1261,
+                            "end": 1269,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1270,
+                            "end": 1271,
+                            "value": 1
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1273,
+                            "end": 1274,
+                            "value": 0
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1277,
+                        "end": 1298,
+                        "value": "begin > 0, end == 0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1303,
+                  "end": 1358,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1303,
+                    "end": 1357,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1303,
+                      "end": 1310,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1311,
+                        "end": 1333,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1311,
+                          "end": 1326,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1311,
+                            "end": 1317,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1318,
+                            "end": 1326,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1327,
+                            "end": 1329,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1328,
+                              "end": 1329,
+                              "value": 1
+                            }
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1331,
+                            "end": 1332,
+                            "value": 0
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1335,
+                        "end": 1356,
+                        "value": "being < 0, end == 0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1362,
+                  "end": 1444,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1362,
+                    "end": 1443,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1362,
+                      "end": 1369,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1370,
+                        "end": 1391,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1370,
+                          "end": 1385,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1370,
+                            "end": 1376,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1377,
+                            "end": 1385,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1386,
+                            "end": 1387,
+                            "value": 2
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1389,
+                            "end": 1390,
+                            "value": 1
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1393,
+                        "end": 1442,
+                        "value": "begin > 0, begin < length, begin > end, end > 0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1447,
+                  "end": 1521,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1447,
+                    "end": 1520,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1447,
+                      "end": 1454,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1455,
+                        "end": 1476,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1455,
+                          "end": 1470,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1455,
+                            "end": 1461,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1462,
+                            "end": 1470,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1471,
+                            "end": 1472,
+                            "value": 2
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 1474,
+                            "end": 1475,
+                            "value": 2
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1478,
+                        "end": 1519,
+                        "value": "begin > 0, begin < length, begin == end"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1525,
+                  "end": 1597,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1525,
+                    "end": 1596,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1525,
+                      "end": 1532,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1533,
+                        "end": 1555,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1533,
+                          "end": 1548,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1533,
+                            "end": 1539,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1540,
+                            "end": 1548,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1549,
+                            "end": 1550,
+                            "value": 2
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1552,
+                            "end": 1554,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1553,
+                              "end": 1554,
+                              "value": 2
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1557,
+                        "end": 1595,
+                        "value": "begin > 0, begin < length, end == -2"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1601,
+                  "end": 1672,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1601,
+                    "end": 1671,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1601,
+                      "end": 1608,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1609,
+                        "end": 1632,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1609,
+                          "end": 1624,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1609,
+                            "end": 1615,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1616,
+                            "end": 1624,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1625,
+                            "end": 1627,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1626,
+                              "end": 1627,
+                              "value": 1
+                            }
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1629,
+                            "end": 1631,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1630,
+                              "end": 1631,
+                              "value": 1
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1634,
+                        "end": 1670,
+                        "value": "length = 4, begin == -1, end == -1"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1675,
+                  "end": 1746,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1675,
+                    "end": 1745,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1675,
+                      "end": 1682,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1683,
+                        "end": 1706,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1683,
+                          "end": 1698,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1683,
+                            "end": 1689,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1690,
+                            "end": 1698,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1699,
+                            "end": 1701,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1700,
+                              "end": 1701,
+                              "value": 1
+                            }
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1703,
+                            "end": 1705,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1704,
+                              "end": 1705,
+                              "value": 2
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1708,
+                        "end": 1744,
+                        "value": "length = 4, begin == -1, end == -2"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1749,
+                  "end": 1820,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1749,
+                    "end": 1819,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1749,
+                      "end": 1756,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1757,
+                        "end": 1780,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1757,
+                          "end": 1772,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1757,
+                            "end": 1763,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1764,
+                            "end": 1772,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1773,
+                            "end": 1775,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1774,
+                              "end": 1775,
+                              "value": 2
+                            }
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1777,
+                            "end": 1779,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1778,
+                              "end": 1779,
+                              "value": 2
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1782,
+                        "end": 1818,
+                        "value": "length = 4, begin == -2, end == -2"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1824,
+                  "end": 1886,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1824,
+                    "end": 1885,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1824,
+                      "end": 1831,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1832,
+                        "end": 1854,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1832,
+                          "end": 1847,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1832,
+                            "end": 1838,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1839,
+                            "end": 1847,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1848,
+                            "end": 1849,
+                            "value": 0
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1851,
+                            "end": 1853,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1852,
+                              "end": 1853,
+                              "value": 4
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1856,
+                        "end": 1884,
+                        "value": "begin == 0, end == -length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1889,
+                  "end": 1958,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1889,
+                    "end": 1957,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1889,
+                      "end": 1896,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1897,
+                        "end": 1920,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1897,
+                          "end": 1912,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1897,
+                            "end": 1903,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1904,
+                            "end": 1912,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1913,
+                            "end": 1915,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1914,
+                              "end": 1915,
+                              "value": 4
+                            }
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1917,
+                            "end": 1919,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1918,
+                              "end": 1919,
+                              "value": 4
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1922,
+                        "end": 1956,
+                        "value": "begin == -length, end == -length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1961,
+                  "end": 2029,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1961,
+                    "end": 2028,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1961,
+                      "end": 1968,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 1969,
+                        "end": 1992,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1969,
+                          "end": 1984,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1969,
+                            "end": 1975,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1976,
+                            "end": 1984,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1985,
+                            "end": 1987,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1986,
+                              "end": 1987,
+                              "value": 5
+                            }
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 1989,
+                            "end": 1991,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 1990,
+                              "end": 1991,
+                              "value": 4
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1994,
+                        "end": 2027,
+                        "value": "begin < -length, end == -length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2033,
+                  "end": 2094,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2033,
+                    "end": 2093,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 2033,
+                      "end": 2040,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 2041,
+                        "end": 2063,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 2041,
+                          "end": 2056,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2041,
+                            "end": 2047,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2048,
+                            "end": 2056,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 2057,
+                            "end": 2058,
+                            "value": 0
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 2060,
+                            "end": 2062,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 2061,
+                              "end": 2062,
+                              "value": 5
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2065,
+                        "end": 2092,
+                        "value": "begin == 0, end < -length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2097,
+                  "end": 2165,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2097,
+                    "end": 2164,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 2097,
+                      "end": 2104,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 2105,
+                        "end": 2128,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 2105,
+                          "end": 2120,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2105,
+                            "end": 2111,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2112,
+                            "end": 2120,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 2121,
+                            "end": 2123,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 2122,
+                              "end": 2123,
+                              "value": 4
+                            }
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 2125,
+                            "end": 2127,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 2126,
+                              "end": 2127,
+                              "value": 5
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2130,
+                        "end": 2163,
+                        "value": "begin == -length, end < -length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2168,
+                  "end": 2235,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2168,
+                    "end": 2234,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 2168,
+                      "end": 2175,
+                      "name": "testRes"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 2176,
+                        "end": 2199,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 2176,
+                          "end": 2191,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2176,
+                            "end": 2182,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2183,
+                            "end": 2191,
+                            "name": "subarray"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 2192,
+                            "end": 2194,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 2193,
+                              "end": 2194,
+                              "value": 5
+                            }
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 2196,
+                            "end": 2198,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 2197,
+                              "end": 2198,
+                              "value": 5
+                            }
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2201,
+                        "end": 2233,
+                        "value": "begin < -length, end < -length"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

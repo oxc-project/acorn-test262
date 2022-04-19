@@ -1,0 +1,187 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2098,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1906,
+      "end": 2097,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1906,
+        "end": 2096,
+        "callee": {
+          "type": "Identifier",
+          "start": 1906,
+          "end": 1936,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 1937,
+            "end": 2095,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 1946,
+                "end": 1948,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1950,
+              "end": 2095,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 1954,
+                  "end": 1981,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 1958,
+                      "end": 1980,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 1958,
+                        "end": 1968,
+                        "name": "typedArray"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 1971,
+                        "end": 1980,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1975,
+                          "end": 1977,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1978,
+                            "end": 1979,
+                            "value": 1
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1985,
+                  "end": 2093,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1985,
+                    "end": 2092,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1985,
+                      "end": 1998,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1985,
+                        "end": 1991,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1992,
+                        "end": 1998,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1999,
+                        "end": 2008,
+                        "name": "TypeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 2010,
+                        "end": 2050,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 2021,
+                          "end": 2050,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 2027,
+                              "end": 2046,
+                              "expression": {
+                                "type": "AssignmentExpression",
+                                "start": 2027,
+                                "end": 2045,
+                                "operator": "=",
+                                "left": {
+                                  "type": "MemberExpression",
+                                  "start": 2027,
+                                  "end": 2040,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 2027,
+                                    "end": 2037,
+                                    "name": "typedArray"
+                                  },
+                                  "property": {
+                                    "type": "Literal",
+                                    "start": 2038,
+                                    "end": 2039,
+                                    "value": 0
+                                  },
+                                  "computed": true,
+                                  "optional": false
+                                },
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 2043,
+                                  "end": 2045,
+                                  "value": "1n",
+                                  "bigint": "1"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2052,
+                        "end": 2091,
+                        "value": "`typedArray[0] = 1n` throws TypeError"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

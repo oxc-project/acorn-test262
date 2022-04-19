@@ -1,0 +1,309 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 797,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 285,
+        "end": 386,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 285,
+          "end": 298,
+          "object": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 291,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 298,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 299,
+            "end": 308,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 310,
+            "end": 334,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 316,
+              "end": 334,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 316,
+                "end": 330,
+                "object": {
+                  "type": "Identifier",
+                  "start": 316,
+                  "end": 320,
+                  "name": "JSON"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 321,
+                  "end": 330,
+                  "name": "stringify"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 331,
+                  "end": 333,
+                  "value": "1n",
+                  "bigint": "1"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 350,
+            "end": 385,
+            "value": "toString throws for BigInt object"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 543,
+      "end": 672,
+      "expression": {
+        "type": "CallExpression",
+        "start": 543,
+        "end": 671,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 543,
+          "end": 564,
+          "object": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 549,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 564,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 565,
+            "end": 581,
+            "object": {
+              "type": "Identifier",
+              "start": 565,
+              "end": 571,
+              "name": "BigInt"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 572,
+              "end": 581,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 583,
+            "end": 591,
+            "value": "toJSON"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 593,
+            "end": 670,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 599,
+                "end": 668,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 599,
+                  "end": 602,
+                  "name": "get"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 602,
+                  "end": 668,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 605,
+                    "end": 668,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 615,
+                        "end": 628,
+                        "expression": {
+                          "type": "Literal",
+                          "start": 615,
+                          "end": 627,
+                          "value": "use strict"
+                        },
+                        "directive": "use strict"
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 637,
+                        "end": 662,
+                        "argument": {
+                          "type": "ArrowFunctionExpression",
+                          "start": 644,
+                          "end": 661,
+                          "id": null,
+                          "expression": true,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "UnaryExpression",
+                            "start": 650,
+                            "end": 661,
+                            "operator": "typeof",
+                            "prefix": true,
+                            "argument": {
+                              "type": "ThisExpression",
+                              "start": 657,
+                              "end": 661
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 674,
+      "end": 796,
+      "expression": {
+        "type": "CallExpression",
+        "start": 674,
+        "end": 795,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 674,
+          "end": 690,
+          "object": {
+            "type": "Identifier",
+            "start": 674,
+            "end": 680,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 681,
+            "end": 690,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 691,
+            "end": 709,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 691,
+              "end": 705,
+              "object": {
+                "type": "Identifier",
+                "start": 691,
+                "end": 695,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 696,
+                "end": 705,
+                "name": "stringify"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 706,
+                "end": 708,
+                "value": "1n",
+                "bigint": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 711,
+            "end": 723,
+            "value": "\"bigint\""
+          },
+          {
+            "type": "Literal",
+            "start": 742,
+            "end": 794,
+            "value": "BigInt toJSON method called with value as receiver"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,232 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 571,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 255,
+      "end": 337,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 261,
+          "end": 336,
+          "id": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 274,
+            "name": "zonedDateTime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 277,
+            "end": 336,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 281,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 281,
+                "end": 289,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 290,
+                "end": 303,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 304,
+                "end": 328,
+                "value": "946684799999999999n",
+                "bigint": "946684799999999999"
+              },
+              {
+                "type": "Literal",
+                "start": 330,
+                "end": 335,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 384,
+      "end": 570,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 389,
+        "end": 407,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 395,
+            "end": 407,
+            "id": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 407,
+              "name": "roundingMode"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 411,
+        "end": 433,
+        "elements": [
+          {
+            "type": "Literal",
+            "start": 412,
+            "end": 418,
+            "value": "ceil"
+          },
+          {
+            "type": "Literal",
+            "start": 420,
+            "end": 432,
+            "value": "halfExpand"
+          }
+        ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 435,
+        "end": 570,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 439,
+            "end": 568,
+            "expression": {
+              "type": "CallExpression",
+              "start": 439,
+              "end": 567,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 439,
+                "end": 455,
+                "object": {
+                  "type": "Identifier",
+                  "start": 439,
+                  "end": 445,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 446,
+                  "end": 455,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 456,
+                  "end": 523,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 456,
+                    "end": 478,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 456,
+                      "end": 469,
+                      "name": "zonedDateTime"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 470,
+                      "end": 478,
+                      "name": "toString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ObjectExpression",
+                      "start": 479,
+                      "end": 522,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 481,
+                          "end": 506,
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 481,
+                            "end": 503,
+                            "name": "fractionalSecondDigits"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "start": 505,
+                            "end": 506,
+                            "value": 8
+                          },
+                          "kind": "init"
+                        },
+                        {
+                          "type": "Property",
+                          "start": 508,
+                          "end": 520,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 508,
+                            "end": 520,
+                            "name": "roundingMode"
+                          },
+                          "kind": "init",
+                          "value": {
+                            "type": "Identifier",
+                            "start": 508,
+                            "end": 520,
+                            "name": "roundingMode"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 525,
+                  "end": 566,
+                  "value": "2000-01-01T00:00:00.00000000+00:00[UTC]"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

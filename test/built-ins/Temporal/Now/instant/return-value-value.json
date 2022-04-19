@@ -1,0 +1,282 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 674,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 339,
+      "end": 366,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 343,
+          "end": 365,
+          "id": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 352,
+            "name": "nowBefore"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 355,
+            "end": 365,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 355,
+              "end": 363,
+              "object": {
+                "type": "Identifier",
+                "start": 355,
+                "end": 359,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 360,
+                "end": 363,
+                "name": "now"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 367,
+      "end": 440,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 371,
+          "end": 439,
+          "id": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 378,
+            "name": "seconds"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 381,
+            "end": 439,
+            "callee": {
+              "type": "Identifier",
+              "start": 381,
+              "end": 387,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 388,
+                "end": 438,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 388,
+                  "end": 427,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 388,
+                    "end": 410,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 388,
+                      "end": 408,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 388,
+                        "end": 400,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 388,
+                          "end": 396,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 397,
+                          "end": 400,
+                          "name": "Now"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 401,
+                        "end": 408,
+                        "name": "instant"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 411,
+                    "end": 427,
+                    "name": "epochNanoseconds"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "operator": "/",
+                "right": {
+                  "type": "Literal",
+                  "start": 430,
+                  "end": 438,
+                  "value": "1000000n",
+                  "bigint": "1000000"
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 441,
+      "end": 467,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 445,
+          "end": 466,
+          "id": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 453,
+            "name": "nowAfter"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 456,
+            "end": 466,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 456,
+              "end": 464,
+              "object": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 460,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 464,
+                "name": "now"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 468,
+      "end": 571,
+      "expression": {
+        "type": "CallExpression",
+        "start": 468,
+        "end": 570,
+        "callee": {
+          "type": "Identifier",
+          "start": 468,
+          "end": 474,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 475,
+            "end": 495,
+            "left": {
+              "type": "Identifier",
+              "start": 475,
+              "end": 482,
+              "name": "seconds"
+            },
+            "operator": ">=",
+            "right": {
+              "type": "Identifier",
+              "start": 486,
+              "end": 495,
+              "name": "nowBefore"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 497,
+            "end": 569,
+            "value": "The result of evaluating (seconds >= nowBefore) is expected to be true"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 572,
+      "end": 673,
+      "expression": {
+        "type": "CallExpression",
+        "start": 572,
+        "end": 672,
+        "callee": {
+          "type": "Identifier",
+          "start": 572,
+          "end": 578,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 579,
+            "end": 598,
+            "left": {
+              "type": "Identifier",
+              "start": 579,
+              "end": 586,
+              "name": "seconds"
+            },
+            "operator": "<=",
+            "right": {
+              "type": "Identifier",
+              "start": 590,
+              "end": 598,
+              "name": "nowAfter"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 600,
+            "end": 671,
+            "value": "The result of evaluating (seconds <= nowAfter) is expected to be true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

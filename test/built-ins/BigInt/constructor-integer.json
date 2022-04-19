@@ -1,0 +1,760 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1597,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 462,
+      "end": 594,
+      "expression": {
+        "type": "CallExpression",
+        "start": 462,
+        "end": 593,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 462,
+          "end": 478,
+          "object": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 468,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 478,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 482,
+            "end": 513,
+            "callee": {
+              "type": "Identifier",
+              "start": 482,
+              "end": 488,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 489,
+                "end": 512,
+                "object": {
+                  "type": "Identifier",
+                  "start": 489,
+                  "end": 495,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 496,
+                  "end": 512,
+                  "name": "MAX_SAFE_INTEGER"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 515,
+            "end": 532,
+            "value": "9007199254740991n",
+            "bigint": "9007199254740991"
+          },
+          {
+            "type": "Literal",
+            "start": 536,
+            "end": 591,
+            "value": "BigInt(Number.MAX_SAFE_INTEGER) === 9007199254740991n"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 596,
+      "end": 732,
+      "expression": {
+        "type": "CallExpression",
+        "start": 596,
+        "end": 731,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 596,
+          "end": 612,
+          "object": {
+            "type": "Identifier",
+            "start": 596,
+            "end": 602,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 603,
+            "end": 612,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 616,
+            "end": 648,
+            "callee": {
+              "type": "Identifier",
+              "start": 616,
+              "end": 622,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 623,
+                "end": 647,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "MemberExpression",
+                  "start": 624,
+                  "end": 647,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 624,
+                    "end": 630,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 631,
+                    "end": 647,
+                    "name": "MAX_SAFE_INTEGER"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 650,
+            "end": 668,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 651,
+              "end": 668,
+              "value": "9007199254740991n",
+              "bigint": "9007199254740991"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 672,
+            "end": 729,
+            "value": "BigInt(-Number.MAX_SAFE_INTEGER) === -9007199254740991n"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 734,
+      "end": 874,
+      "expression": {
+        "type": "CallExpression",
+        "start": 734,
+        "end": 873,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 734,
+          "end": 750,
+          "object": {
+            "type": "Identifier",
+            "start": 734,
+            "end": 740,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 741,
+            "end": 750,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 754,
+            "end": 789,
+            "callee": {
+              "type": "Identifier",
+              "start": 754,
+              "end": 760,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 761,
+                "end": 788,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 761,
+                  "end": 784,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 761,
+                    "end": 767,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 768,
+                    "end": 784,
+                    "name": "MAX_SAFE_INTEGER"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 787,
+                  "end": 788,
+                  "value": 1
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 791,
+            "end": 808,
+            "value": "9007199254740992n",
+            "bigint": "9007199254740992"
+          },
+          {
+            "type": "Literal",
+            "start": 812,
+            "end": 871,
+            "value": "BigInt(Number.MAX_SAFE_INTEGER + 1) === 9007199254740992n"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 876,
+      "end": 1020,
+      "expression": {
+        "type": "CallExpression",
+        "start": 876,
+        "end": 1019,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 876,
+          "end": 892,
+          "object": {
+            "type": "Identifier",
+            "start": 876,
+            "end": 882,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 883,
+            "end": 892,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 896,
+            "end": 932,
+            "callee": {
+              "type": "Identifier",
+              "start": 896,
+              "end": 902,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 903,
+                "end": 931,
+                "left": {
+                  "type": "UnaryExpression",
+                  "start": 903,
+                  "end": 927,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 904,
+                    "end": 927,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 904,
+                      "end": 910,
+                      "name": "Number"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 911,
+                      "end": 927,
+                      "name": "MAX_SAFE_INTEGER"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                },
+                "operator": "-",
+                "right": {
+                  "type": "Literal",
+                  "start": 930,
+                  "end": 931,
+                  "value": 1
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 934,
+            "end": 952,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 935,
+              "end": 952,
+              "value": "9007199254740992n",
+              "bigint": "9007199254740992"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 956,
+            "end": 1017,
+            "value": "BigInt(-Number.MAX_SAFE_INTEGER - 1) === -9007199254740992n"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1022,
+      "end": 1162,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1022,
+        "end": 1161,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1022,
+          "end": 1038,
+          "object": {
+            "type": "Identifier",
+            "start": 1022,
+            "end": 1028,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1029,
+            "end": 1038,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1042,
+            "end": 1077,
+            "callee": {
+              "type": "Identifier",
+              "start": 1042,
+              "end": 1048,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 1049,
+                "end": 1076,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 1049,
+                  "end": 1072,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1049,
+                    "end": 1055,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1056,
+                    "end": 1072,
+                    "name": "MAX_SAFE_INTEGER"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 1075,
+                  "end": 1076,
+                  "value": 2
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1079,
+            "end": 1096,
+            "value": "9007199254740992n",
+            "bigint": "9007199254740992"
+          },
+          {
+            "type": "Literal",
+            "start": 1100,
+            "end": 1159,
+            "value": "BigInt(Number.MAX_SAFE_INTEGER + 2) === 9007199254740992n"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1164,
+      "end": 1308,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1164,
+        "end": 1307,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1164,
+          "end": 1180,
+          "object": {
+            "type": "Identifier",
+            "start": 1164,
+            "end": 1170,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1171,
+            "end": 1180,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1184,
+            "end": 1220,
+            "callee": {
+              "type": "Identifier",
+              "start": 1184,
+              "end": 1190,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 1191,
+                "end": 1219,
+                "left": {
+                  "type": "UnaryExpression",
+                  "start": 1191,
+                  "end": 1215,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 1192,
+                    "end": 1215,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1192,
+                      "end": 1198,
+                      "name": "Number"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1199,
+                      "end": 1215,
+                      "name": "MAX_SAFE_INTEGER"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                },
+                "operator": "-",
+                "right": {
+                  "type": "Literal",
+                  "start": 1218,
+                  "end": 1219,
+                  "value": 2
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 1222,
+            "end": 1240,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 1223,
+              "end": 1240,
+              "value": "9007199254740992n",
+              "bigint": "9007199254740992"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1244,
+            "end": 1305,
+            "value": "BigInt(-Number.MAX_SAFE_INTEGER - 2) === -9007199254740992n"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1310,
+      "end": 1450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1310,
+        "end": 1449,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1310,
+          "end": 1326,
+          "object": {
+            "type": "Identifier",
+            "start": 1310,
+            "end": 1316,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1317,
+            "end": 1326,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1330,
+            "end": 1365,
+            "callee": {
+              "type": "Identifier",
+              "start": 1330,
+              "end": 1336,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 1337,
+                "end": 1364,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 1337,
+                  "end": 1360,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1337,
+                    "end": 1343,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1344,
+                    "end": 1360,
+                    "name": "MAX_SAFE_INTEGER"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 1363,
+                  "end": 1364,
+                  "value": 3
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1367,
+            "end": 1384,
+            "value": "9007199254740994n",
+            "bigint": "9007199254740994"
+          },
+          {
+            "type": "Literal",
+            "start": 1388,
+            "end": 1447,
+            "value": "BigInt(Number.MAX_SAFE_INTEGER + 3) === 9007199254740994n"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1452,
+      "end": 1596,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1452,
+        "end": 1595,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1452,
+          "end": 1468,
+          "object": {
+            "type": "Identifier",
+            "start": 1452,
+            "end": 1458,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1459,
+            "end": 1468,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1472,
+            "end": 1508,
+            "callee": {
+              "type": "Identifier",
+              "start": 1472,
+              "end": 1478,
+              "name": "BigInt"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 1479,
+                "end": 1507,
+                "left": {
+                  "type": "UnaryExpression",
+                  "start": 1479,
+                  "end": 1503,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 1480,
+                    "end": 1503,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1480,
+                      "end": 1486,
+                      "name": "Number"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1487,
+                      "end": 1503,
+                      "name": "MAX_SAFE_INTEGER"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                },
+                "operator": "-",
+                "right": {
+                  "type": "Literal",
+                  "start": 1506,
+                  "end": 1507,
+                  "value": 3
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 1510,
+            "end": 1528,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 1511,
+              "end": 1528,
+              "value": "9007199254740994n",
+              "bigint": "9007199254740994"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1532,
+            "end": 1593,
+            "value": "BigInt(-Number.MAX_SAFE_INTEGER - 3) === -9007199254740994n"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

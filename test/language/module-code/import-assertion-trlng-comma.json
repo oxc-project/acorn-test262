@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 897,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 620,
+      "end": 689,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 627,
+          "end": 628,
+          "local": {
+            "type": "Identifier",
+            "start": 627,
+            "end": 628,
+            "name": "x"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 634,
+        "end": 667,
+        "value": "./import-assertion-1_FIXTURE.js"
+      },
+      "assertions": [
+        {
+          "type": "ImportAttribute",
+          "start": 676,
+          "end": 686,
+          "key": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 683,
+            "name": "test262"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 684,
+            "end": 686,
+            "value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 690,
+      "end": 752,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 697,
+        "end": 730,
+        "value": "./import-assertion-2_FIXTURE.js"
+      },
+      "assertions": [
+        {
+          "type": "ImportAttribute",
+          "start": 739,
+          "end": 749,
+          "key": {
+            "type": "Identifier",
+            "start": 739,
+            "end": 746,
+            "name": "test262"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 747,
+            "end": 749,
+            "value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportAllDeclaration",
+      "start": 753,
+      "end": 822,
+      "exported": null,
+      "source": {
+        "type": "Literal",
+        "start": 767,
+        "end": 800,
+        "value": "./import-assertion-3_FIXTURE.js"
+      },
+      "assertions": [
+        {
+          "type": "ImportAttribute",
+          "start": 809,
+          "end": 819,
+          "key": {
+            "type": "Identifier",
+            "start": 809,
+            "end": 816,
+            "name": "test262"
+          },
+          "value": {
+            "type": "Literal",
+            "start": 817,
+            "end": 819,
+            "value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 824,
+      "end": 851,
+      "expression": {
+        "type": "CallExpression",
+        "start": 824,
+        "end": 850,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 824,
+          "end": 840,
+          "object": {
+            "type": "Identifier",
+            "start": 824,
+            "end": 830,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 831,
+            "end": 840,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 841,
+            "end": 842,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 844,
+            "end": 849,
+            "value": 262.1
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 852,
+      "end": 896,
+      "expression": {
+        "type": "CallExpression",
+        "start": 852,
+        "end": 895,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 852,
+          "end": 868,
+          "object": {
+            "type": "Identifier",
+            "start": 852,
+            "end": 858,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 859,
+            "end": 868,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 869,
+            "end": 887,
+            "object": {
+              "type": "Identifier",
+              "start": 869,
+              "end": 879,
+              "name": "globalThis"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 880,
+              "end": 887,
+              "name": "test262"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 889,
+            "end": 894,
+            "value": 262.2
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

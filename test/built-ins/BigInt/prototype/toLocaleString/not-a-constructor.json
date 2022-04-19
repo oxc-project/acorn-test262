@@ -1,0 +1,215 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 993,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 709,
+      "end": 857,
+      "expression": {
+        "type": "CallExpression",
+        "start": 709,
+        "end": 856,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 709,
+          "end": 725,
+          "object": {
+            "type": "Identifier",
+            "start": 709,
+            "end": 715,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 716,
+            "end": 725,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 729,
+            "end": 775,
+            "callee": {
+              "type": "Identifier",
+              "start": 729,
+              "end": 742,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 743,
+                "end": 774,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 743,
+                  "end": 759,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 743,
+                    "end": 749,
+                    "name": "BigInt"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 750,
+                    "end": 759,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 760,
+                  "end": 774,
+                  "name": "toLocaleString"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 779,
+            "end": 784,
+            "value": false
+          },
+          {
+            "type": "Literal",
+            "start": 788,
+            "end": 854,
+            "value": "isConstructor(BigInt.prototype.toLocaleString) must return false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 859,
+      "end": 992,
+      "expression": {
+        "type": "CallExpression",
+        "start": 859,
+        "end": 991,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 859,
+          "end": 872,
+          "object": {
+            "type": "Identifier",
+            "start": 859,
+            "end": 865,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 866,
+            "end": 872,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 873,
+            "end": 882,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 884,
+            "end": 933,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 890,
+              "end": 933,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 894,
+                  "end": 905,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 898,
+                      "end": 904,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 898,
+                        "end": 899,
+                        "name": "n"
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 902,
+                        "end": 904,
+                        "value": "1n",
+                        "bigint": "1"
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 908,
+                  "end": 931,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 908,
+                    "end": 930,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 912,
+                      "end": 928,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 912,
+                        "end": 913,
+                        "name": "n"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 914,
+                        "end": 928,
+                        "name": "toLocaleString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 935,
+            "end": 990,
+            "value": "`let n = 1n; new n.toLocaleString()` throws TypeError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

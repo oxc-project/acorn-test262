@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 514,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 309,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 309,
+        "end": 512,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 309,
+          "end": 354,
+          "object": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 324,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 354,
+            "name": "checkSubclassingIgnoredStatic"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 358,
+            "end": 374,
+            "object": {
+              "type": "Identifier",
+              "start": 358,
+              "end": 366,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 367,
+              "end": 374,
+              "name": "Instant"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 378,
+            "end": 400,
+            "value": "fromEpochNanoseconds"
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 404,
+            "end": 409,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 405,
+                "end": 408,
+                "value": "10n",
+                "bigint": "10"
+              }
+            ]
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 413,
+            "end": 509,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 414,
+                "end": 420,
+                "name": "result"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 425,
+              "end": 509,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 431,
+                  "end": 505,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 431,
+                    "end": 504,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 431,
+                      "end": 447,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 431,
+                        "end": 437,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 438,
+                        "end": 447,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 448,
+                        "end": 471,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 448,
+                          "end": 454,
+                          "name": "result"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 455,
+                          "end": 471,
+                          "name": "epochNanoseconds"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 473,
+                        "end": 476,
+                        "value": "10n",
+                        "bigint": "10"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 478,
+                        "end": 503,
+                        "value": "epochNanoseconds result"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

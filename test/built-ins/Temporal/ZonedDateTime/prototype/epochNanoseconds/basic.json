@@ -1,0 +1,406 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 850,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 281,
+      "end": 358,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 287,
+          "end": 357,
+          "id": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 297,
+            "name": "afterEpoch"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 300,
+            "end": 357,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 304,
+              "end": 326,
+              "object": {
+                "type": "Identifier",
+                "start": 304,
+                "end": 312,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 313,
+                "end": 326,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 327,
+                "end": 349,
+                "value": "217175010123456789n",
+                "bigint": "217175010123456789"
+              },
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 356,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 359,
+      "end": 460,
+      "expression": {
+        "type": "CallExpression",
+        "start": 359,
+        "end": 459,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 359,
+          "end": 375,
+          "object": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 365,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 375,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 376,
+            "end": 403,
+            "object": {
+              "type": "Identifier",
+              "start": 376,
+              "end": 386,
+              "name": "afterEpoch"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 387,
+              "end": 403,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 427,
+            "value": "217175010123456789n",
+            "bigint": "217175010123456789"
+          },
+          {
+            "type": "Literal",
+            "start": 429,
+            "end": 458,
+            "value": "epochNanoseconds post epoch"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 461,
+      "end": 562,
+      "expression": {
+        "type": "CallExpression",
+        "start": 461,
+        "end": 561,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 461,
+          "end": 477,
+          "object": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 467,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 477,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 478,
+            "end": 512,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 485,
+              "end": 512,
+              "object": {
+                "type": "Identifier",
+                "start": 485,
+                "end": 495,
+                "name": "afterEpoch"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 496,
+                "end": 512,
+                "name": "epochNanoseconds"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 514,
+            "end": 522,
+            "value": "bigint"
+          },
+          {
+            "type": "Literal",
+            "start": 524,
+            "end": 560,
+            "value": "epochNanoseconds value is a bigint"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 564,
+      "end": 643,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 570,
+          "end": 642,
+          "id": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 581,
+            "name": "beforeEpoch"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 584,
+            "end": 642,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 588,
+              "end": 610,
+              "object": {
+                "type": "Identifier",
+                "start": 588,
+                "end": 596,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 597,
+                "end": 610,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 611,
+                "end": 634,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 612,
+                  "end": 634,
+                  "value": "217175010876543211n",
+                  "bigint": "217175010876543211"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 636,
+                "end": 641,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 644,
+      "end": 746,
+      "expression": {
+        "type": "CallExpression",
+        "start": 644,
+        "end": 745,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 644,
+          "end": 660,
+          "object": {
+            "type": "Identifier",
+            "start": 644,
+            "end": 650,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 660,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 661,
+            "end": 689,
+            "object": {
+              "type": "Identifier",
+              "start": 661,
+              "end": 672,
+              "name": "beforeEpoch"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 673,
+              "end": 689,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 691,
+            "end": 714,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 692,
+              "end": 714,
+              "value": "217175010876543211n",
+              "bigint": "217175010876543211"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 716,
+            "end": 744,
+            "value": "epochNanoseconds pre epoch"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 747,
+      "end": 849,
+      "expression": {
+        "type": "CallExpression",
+        "start": 747,
+        "end": 848,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 747,
+          "end": 763,
+          "object": {
+            "type": "Identifier",
+            "start": 747,
+            "end": 753,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 754,
+            "end": 763,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 764,
+            "end": 799,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 771,
+              "end": 799,
+              "object": {
+                "type": "Identifier",
+                "start": 771,
+                "end": 782,
+                "name": "beforeEpoch"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 783,
+                "end": 799,
+                "name": "epochNanoseconds"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 801,
+            "end": 809,
+            "value": "bigint"
+          },
+          {
+            "type": "Literal",
+            "start": 811,
+            "end": 847,
+            "value": "epochNanoseconds value is a bigint"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,277 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 671,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 301,
+      "end": 340,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 307,
+          "end": 339,
+          "id": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 312,
+            "name": "epoch"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 315,
+            "end": 339,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 319,
+              "end": 335,
+              "object": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 327,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 328,
+                "end": 335,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 336,
+                "end": 338,
+                "value": "0n",
+                "bigint": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 341,
+      "end": 412,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 411,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 350,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 353,
+            "end": 411,
+            "value": "1970-01-01T00:02:00.000000000+00:02[+00:01:30.987654321]"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 414,
+      "end": 541,
+      "expression": {
+        "type": "CallExpression",
+        "start": 414,
+        "end": 540,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 414,
+          "end": 430,
+          "object": {
+            "type": "Identifier",
+            "start": 414,
+            "end": 420,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 421,
+            "end": 430,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 431,
+            "end": 467,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 431,
+              "end": 455,
+              "object": {
+                "type": "MemberExpression",
+                "start": 431,
+                "end": 447,
+                "object": {
+                  "type": "Identifier",
+                  "start": 431,
+                  "end": 439,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 440,
+                  "end": 447,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 448,
+                "end": 455,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 456,
+                "end": 459,
+                "name": "str"
+              },
+              {
+                "type": "Identifier",
+                "start": 461,
+                "end": 466,
+                "name": "epoch"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 469,
+            "end": 470,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 472,
+            "end": 539,
+            "value": "UTC offset determined from offset part of string (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 542,
+      "end": 670,
+      "expression": {
+        "type": "CallExpression",
+        "start": 542,
+        "end": 669,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 542,
+          "end": 558,
+          "object": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 548,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 558,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 559,
+            "end": 595,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 559,
+              "end": 583,
+              "object": {
+                "type": "MemberExpression",
+                "start": 559,
+                "end": 575,
+                "object": {
+                  "type": "Identifier",
+                  "start": 559,
+                  "end": 567,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 568,
+                  "end": 575,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 576,
+                "end": 583,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 584,
+                "end": 589,
+                "name": "epoch"
+              },
+              {
+                "type": "Identifier",
+                "start": 591,
+                "end": 594,
+                "name": "str"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 597,
+            "end": 598,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 600,
+            "end": 668,
+            "value": "UTC offset determined from offset part of string (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

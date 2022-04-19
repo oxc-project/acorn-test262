@@ -1,0 +1,382 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1087,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 601,
+      "end": 646,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 607,
+          "end": 645,
+          "id": {
+            "type": "Identifier",
+            "start": 607,
+            "end": 615,
+            "name": "expected"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 618,
+            "end": 645,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 622,
+                "end": 627,
+                "value": "day"
+              },
+              {
+                "type": "Literal",
+                "start": 631,
+                "end": 642,
+                "value": "monthCode"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 648,
+      "end": 706,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 654,
+          "end": 705,
+          "id": {
+            "type": "Identifier",
+            "start": 654,
+            "end": 662,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 665,
+            "end": 705,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 665,
+              "end": 703,
+              "object": {
+                "type": "Identifier",
+                "start": 665,
+                "end": 680,
+                "name": "TemporalHelpers"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 681,
+                "end": 703,
+                "name": "calendarFieldsIterable"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 707,
+      "end": 796,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 713,
+          "end": 795,
+          "id": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 721,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 724,
+            "end": 795,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 728,
+              "end": 750,
+              "object": {
+                "type": "Identifier",
+                "start": 728,
+                "end": 736,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 737,
+                "end": 750,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 751,
+                "end": 777,
+                "value": "1000000000000000000n",
+                "bigint": "1000000000000000000"
+              },
+              {
+                "type": "Literal",
+                "start": 779,
+                "end": 784,
+                "value": "UTC"
+              },
+              {
+                "type": "Identifier",
+                "start": 786,
+                "end": 794,
+                "name": "calendar"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 797,
+      "end": 824,
+      "expression": {
+        "type": "CallExpression",
+        "start": 797,
+        "end": 823,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 797,
+          "end": 821,
+          "object": {
+            "type": "Identifier",
+            "start": 797,
+            "end": 805,
+            "name": "datetime"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 806,
+            "end": 821,
+            "name": "toPlainMonthDay"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 826,
+      "end": 903,
+      "expression": {
+        "type": "CallExpression",
+        "start": 826,
+        "end": 902,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 826,
+          "end": 842,
+          "object": {
+            "type": "Identifier",
+            "start": 826,
+            "end": 832,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 833,
+            "end": 842,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 843,
+            "end": 867,
+            "object": {
+              "type": "Identifier",
+              "start": 843,
+              "end": 851,
+              "name": "calendar"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 852,
+              "end": 867,
+              "name": "fieldsCallCount"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 869,
+            "end": 870,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 872,
+            "end": 901,
+            "value": "fields() method called once"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 904,
+      "end": 1008,
+      "expression": {
+        "type": "CallExpression",
+        "start": 904,
+        "end": 1007,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 904,
+          "end": 923,
+          "object": {
+            "type": "Identifier",
+            "start": 904,
+            "end": 910,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 911,
+            "end": 923,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 924,
+            "end": 952,
+            "object": {
+              "type": "MemberExpression",
+              "start": 924,
+              "end": 949,
+              "object": {
+                "type": "Identifier",
+                "start": 924,
+                "end": 932,
+                "name": "calendar"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 933,
+                "end": 949,
+                "name": "fieldsCalledWith"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Literal",
+              "start": 950,
+              "end": 951,
+              "value": 0
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 954,
+            "end": 962,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 964,
+            "end": 1006,
+            "value": "fields() method called with correct args"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1009,
+      "end": 1086,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1009,
+        "end": 1085,
+        "callee": {
+          "type": "Identifier",
+          "start": 1009,
+          "end": 1015,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1016,
+            "end": 1045,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1016,
+              "end": 1042,
+              "object": {
+                "type": "Identifier",
+                "start": 1016,
+                "end": 1024,
+                "name": "calendar"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1025,
+                "end": 1042,
+                "name": "iteratorExhausted"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Literal",
+              "start": 1043,
+              "end": 1044,
+              "value": 0
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1047,
+            "end": 1084,
+            "value": "iterated through the whole iterable"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

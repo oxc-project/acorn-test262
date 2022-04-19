@@ -1,0 +1,255 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 650,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 304,
+      "end": 356,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 310,
+          "end": 355,
+          "id": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 315,
+            "name": "epoch"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 318,
+            "end": 355,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 322,
+              "end": 344,
+              "object": {
+                "type": "Identifier",
+                "start": 322,
+                "end": 330,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 331,
+                "end": 344,
+                "name": "ZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 347,
+                "value": "0n",
+                "bigint": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 349,
+                "end": 354,
+                "value": "UTC"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 358,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 358,
+        "end": 501,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 358,
+          "end": 374,
+          "object": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 364,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 374,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 375,
+            "end": 415,
+            "object": {
+              "type": "CallExpression",
+              "start": 375,
+              "end": 398,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 375,
+                "end": 384,
+                "object": {
+                  "type": "Identifier",
+                  "start": 375,
+                  "end": 380,
+                  "name": "epoch"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 381,
+                  "end": 384,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 385,
+                  "end": 397,
+                  "value": "PT1.03125H"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 399,
+              "end": 415,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 417,
+            "end": 434,
+            "value": "3712500000000n",
+            "bigint": "3712500000000"
+          },
+          {
+            "type": "Literal",
+            "start": 438,
+            "end": 500,
+            "value": "positive fractional units rounded with correct rounding mode"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 503,
+      "end": 649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 503,
+        "end": 648,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 503,
+          "end": 519,
+          "object": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 509,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 519,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 520,
+            "end": 561,
+            "object": {
+              "type": "CallExpression",
+              "start": 520,
+              "end": 544,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 520,
+                "end": 529,
+                "object": {
+                  "type": "Identifier",
+                  "start": 520,
+                  "end": 525,
+                  "name": "epoch"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 526,
+                  "end": 529,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 530,
+                  "end": 543,
+                  "value": "-PT1.03125H"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 545,
+              "end": 561,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 563,
+            "end": 581,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 564,
+              "end": 581,
+              "value": "3712500000000n",
+              "bigint": "3712500000000"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 585,
+            "end": 647,
+            "value": "negative fractional units rounded with correct rounding mode"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}
