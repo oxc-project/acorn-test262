@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "acorn": "^8.7.0",
+    "acorn-import-assertions": "^1.8.0",
     "traverse": "^0.6.6",
     "yaml": "^1.10.2"
   }

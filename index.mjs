@@ -1,4 +1,5 @@
 import { Parser } from "acorn";
+import { importAssertions } from "acorn-import-assertions";
 import fs from "fs";
 import path from "path";
 import YAML from "yaml";
@@ -42,7 +43,7 @@ for await (const p of walk("./test262/test")) {
   }
 
   try {
-    const astJson = Parser.parse(code, {
+    const astJson = Parser.extend(importAssertions).parse(code, {
       ecmaVersion: "latest",
       preserveParens: true,
       sourceType: module ? "module" : "script",
