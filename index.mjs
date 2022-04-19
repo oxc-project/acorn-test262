@@ -27,6 +27,7 @@ for await (const p of walk("./test262/test")) {
   const negative =
     preamble.negative?.phase === "parse" &&
     preamble.negative?.type === "SyntaxError";
+
   if (negative) {
     continue;
   }
@@ -57,6 +58,10 @@ for await (const p of walk("./test262/test")) {
 
     await fs.promises.writeFile(writeFile, JSON.stringify(astJson, null, 2));
   } catch (err) {
+    if (fs.existsSync(writeFile)) {
+      fs.unlinkSync(writeFile);
+      console.log("Removed: ", writeFile);
+    }
     console.log(p);
     console.log(err.message);
   }
