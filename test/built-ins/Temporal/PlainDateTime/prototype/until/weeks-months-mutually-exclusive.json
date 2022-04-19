@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 761,
+  "end": 784,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -200,11 +200,11 @@
     {
       "type": "ExpressionStatement",
       "start": 430,
-      "end": 593,
+      "end": 604,
       "expression": {
         "type": "CallExpression",
         "start": 430,
-        "end": 592,
+        "end": 603,
         "callee": {
           "type": "MemberExpression",
           "start": 430,
@@ -349,8 +349,8 @@
           {
             "type": "Literal",
             "start": 549,
-            "end": 590,
-            "value": "weeks and months mutually exclusive (1)"
+            "end": 601,
+            "value": "weeks and months mutually exclusive (prefer weeks)"
           }
         ],
         "optional": false
@@ -358,26 +358,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 595,
-      "end": 760,
+      "start": 606,
+      "end": 783,
       "expression": {
         "type": "CallExpression",
-        "start": 595,
-        "end": 759,
+        "start": 606,
+        "end": 782,
         "callee": {
           "type": "MemberExpression",
-          "start": 595,
-          "end": 625,
+          "start": 606,
+          "end": 636,
           "object": {
             "type": "Identifier",
-            "start": 595,
-            "end": 610,
+            "start": 606,
+            "end": 621,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 611,
-            "end": 625,
+            "start": 622,
+            "end": 636,
             "name": "assertDuration"
           },
           "computed": false,
@@ -386,22 +386,22 @@
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 629,
-            "end": 679,
+            "start": 640,
+            "end": 690,
             "callee": {
               "type": "MemberExpression",
-              "start": 629,
-              "end": 637,
+              "start": 640,
+              "end": 648,
               "object": {
                 "type": "Identifier",
-                "start": 629,
-                "end": 631,
+                "start": 640,
+                "end": 642,
                 "name": "dt"
               },
               "property": {
                 "type": "Identifier",
-                "start": 632,
-                "end": 637,
+                "start": 643,
+                "end": 648,
                 "name": "until"
               },
               "computed": false,
@@ -410,32 +410,32 @@
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 638,
-                "end": 651,
+                "start": 649,
+                "end": 662,
                 "name": "laterDateTime"
               },
               {
                 "type": "ObjectExpression",
-                "start": 653,
-                "end": 678,
+                "start": 664,
+                "end": 689,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 655,
-                    "end": 676,
+                    "start": 666,
+                    "end": 687,
                     "method": false,
                     "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 655,
-                      "end": 666,
+                      "start": 666,
+                      "end": 677,
                       "name": "largestUnit"
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 668,
-                      "end": 676,
+                      "start": 679,
+                      "end": 687,
                       "value": "months"
                     },
                     "kind": "init"
@@ -447,69 +447,69 @@
           },
           {
             "type": "Literal",
-            "start": 683,
-            "end": 684,
+            "start": 694,
+            "end": 695,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 686,
-            "end": 687,
+            "start": 697,
+            "end": 698,
             "value": 1
           },
           {
             "type": "Literal",
-            "start": 689,
-            "end": 690,
+            "start": 700,
+            "end": 701,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 692,
-            "end": 694,
+            "start": 703,
+            "end": 705,
             "value": 12
           },
           {
             "type": "Literal",
-            "start": 696,
-            "end": 697,
+            "start": 707,
+            "end": 708,
             "value": 3
           },
           {
             "type": "Literal",
-            "start": 699,
-            "end": 700,
+            "start": 710,
+            "end": 711,
             "value": 0
           },
           {
             "type": "Literal",
-            "start": 702,
-            "end": 703,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 705,
-            "end": 706,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 708,
-            "end": 709,
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 711,
-            "end": 712,
+            "start": 713,
+            "end": 714,
             "value": 0
           },
           {
             "type": "Literal",
             "start": 716,
-            "end": 757,
-            "value": "weeks and months mutually exclusive (2)"
+            "end": 717,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 719,
+            "end": 720,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 722,
+            "end": 723,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 727,
+            "end": 780,
+            "value": "weeks and months mutually exclusive (prefer months)"
           }
         ],
         "optional": false

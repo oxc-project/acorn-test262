@@ -1,0 +1,1522 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2224,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 538,
+      "end": 583,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 544,
+          "end": 582,
+          "id": {
+            "type": "Identifier",
+            "start": 544,
+            "end": 547,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 550,
+            "end": 582,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 554,
+              "end": 571,
+              "object": {
+                "type": "Identifier",
+                "start": 554,
+                "end": 562,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 563,
+                "end": 571,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 572,
+                "end": 581,
+                "value": "iso8601"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 788,
+      "end": 863,
+      "expression": {
+        "type": "CallExpression",
+        "start": 788,
+        "end": 862,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 788,
+          "end": 804,
+          "object": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 794,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 795,
+            "end": 804,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 805,
+            "end": 833,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 805,
+              "end": 819,
+              "object": {
+                "type": "Identifier",
+                "start": 805,
+                "end": 808,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 809,
+                "end": 819,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 820,
+                "end": 832,
+                "value": "1977-01-01"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 835,
+            "end": 837,
+            "value": 53
+          },
+          {
+            "type": "Literal",
+            "start": 839,
+            "end": 861,
+            "value": "1977-01-01 is in w53"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 864,
+      "end": 939,
+      "expression": {
+        "type": "CallExpression",
+        "start": 864,
+        "end": 938,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 864,
+          "end": 880,
+          "object": {
+            "type": "Identifier",
+            "start": 864,
+            "end": 870,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 871,
+            "end": 880,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 881,
+            "end": 909,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 881,
+              "end": 895,
+              "object": {
+                "type": "Identifier",
+                "start": 881,
+                "end": 884,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 885,
+                "end": 895,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 896,
+                "end": 908,
+                "value": "1977-01-02"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 911,
+            "end": 913,
+            "value": 53
+          },
+          {
+            "type": "Literal",
+            "start": 915,
+            "end": 937,
+            "value": "1977-01-02 is in w53"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 940,
+      "end": 1015,
+      "expression": {
+        "type": "CallExpression",
+        "start": 940,
+        "end": 1014,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 940,
+          "end": 956,
+          "object": {
+            "type": "Identifier",
+            "start": 940,
+            "end": 946,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 947,
+            "end": 956,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 957,
+            "end": 985,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 957,
+              "end": 971,
+              "object": {
+                "type": "Identifier",
+                "start": 957,
+                "end": 960,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 961,
+                "end": 971,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 972,
+                "end": 984,
+                "value": "1977-12-31"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 987,
+            "end": 989,
+            "value": 52
+          },
+          {
+            "type": "Literal",
+            "start": 991,
+            "end": 1013,
+            "value": "1977-12-31 is in w52"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1016,
+      "end": 1091,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1016,
+        "end": 1090,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1016,
+          "end": 1032,
+          "object": {
+            "type": "Identifier",
+            "start": 1016,
+            "end": 1022,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1023,
+            "end": 1032,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1033,
+            "end": 1061,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1033,
+              "end": 1047,
+              "object": {
+                "type": "Identifier",
+                "start": 1033,
+                "end": 1036,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1037,
+                "end": 1047,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1048,
+                "end": 1060,
+                "value": "1978-01-01"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1063,
+            "end": 1065,
+            "value": 52
+          },
+          {
+            "type": "Literal",
+            "start": 1067,
+            "end": 1089,
+            "value": "1978-01-01 is in w52"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1092,
+      "end": 1166,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1092,
+        "end": 1165,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1092,
+          "end": 1108,
+          "object": {
+            "type": "Identifier",
+            "start": 1092,
+            "end": 1098,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1099,
+            "end": 1108,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1109,
+            "end": 1137,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1109,
+              "end": 1123,
+              "object": {
+                "type": "Identifier",
+                "start": 1109,
+                "end": 1112,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1113,
+                "end": 1123,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1124,
+                "end": 1136,
+                "value": "1978-01-02"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1139,
+            "end": 1140,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 1142,
+            "end": 1164,
+            "value": "1978-01-02 is in w01"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1167,
+      "end": 1242,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1167,
+        "end": 1241,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1167,
+          "end": 1183,
+          "object": {
+            "type": "Identifier",
+            "start": 1167,
+            "end": 1173,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1174,
+            "end": 1183,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1184,
+            "end": 1212,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1184,
+              "end": 1198,
+              "object": {
+                "type": "Identifier",
+                "start": 1184,
+                "end": 1187,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1188,
+                "end": 1198,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1199,
+                "end": 1211,
+                "value": "1978-12-31"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1214,
+            "end": 1216,
+            "value": 52
+          },
+          {
+            "type": "Literal",
+            "start": 1218,
+            "end": 1240,
+            "value": "1978-12-31 is in w52"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1243,
+      "end": 1317,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1243,
+        "end": 1316,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1243,
+          "end": 1259,
+          "object": {
+            "type": "Identifier",
+            "start": 1243,
+            "end": 1249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1250,
+            "end": 1259,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1260,
+            "end": 1288,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1260,
+              "end": 1274,
+              "object": {
+                "type": "Identifier",
+                "start": 1260,
+                "end": 1263,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1264,
+                "end": 1274,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1275,
+                "end": 1287,
+                "value": "1979-01-01"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1290,
+            "end": 1291,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 1293,
+            "end": 1315,
+            "value": "1979-01-01 is in w01"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1318,
+      "end": 1393,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1318,
+        "end": 1392,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1318,
+          "end": 1334,
+          "object": {
+            "type": "Identifier",
+            "start": 1318,
+            "end": 1324,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1325,
+            "end": 1334,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1335,
+            "end": 1363,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1335,
+              "end": 1349,
+              "object": {
+                "type": "Identifier",
+                "start": 1335,
+                "end": 1338,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1339,
+                "end": 1349,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1350,
+                "end": 1362,
+                "value": "1979-12-30"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1365,
+            "end": 1367,
+            "value": 52
+          },
+          {
+            "type": "Literal",
+            "start": 1369,
+            "end": 1391,
+            "value": "1979-12-30 is in w52"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1394,
+      "end": 1468,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1394,
+        "end": 1467,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1394,
+          "end": 1410,
+          "object": {
+            "type": "Identifier",
+            "start": 1394,
+            "end": 1400,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1401,
+            "end": 1410,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1411,
+            "end": 1439,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1411,
+              "end": 1425,
+              "object": {
+                "type": "Identifier",
+                "start": 1411,
+                "end": 1414,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1415,
+                "end": 1425,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1426,
+                "end": 1438,
+                "value": "1979-12-31"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1441,
+            "end": 1442,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 1444,
+            "end": 1466,
+            "value": "1979-12-31 is in w01"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1469,
+      "end": 1543,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1469,
+        "end": 1542,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1469,
+          "end": 1485,
+          "object": {
+            "type": "Identifier",
+            "start": 1469,
+            "end": 1475,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1476,
+            "end": 1485,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1486,
+            "end": 1514,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1486,
+              "end": 1500,
+              "object": {
+                "type": "Identifier",
+                "start": 1486,
+                "end": 1489,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1490,
+                "end": 1500,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1501,
+                "end": 1513,
+                "value": "1980-01-01"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1516,
+            "end": 1517,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 1519,
+            "end": 1541,
+            "value": "1980-01-01 is in w01"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1544,
+      "end": 1619,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1544,
+        "end": 1618,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1544,
+          "end": 1560,
+          "object": {
+            "type": "Identifier",
+            "start": 1544,
+            "end": 1550,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1551,
+            "end": 1560,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1561,
+            "end": 1589,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1561,
+              "end": 1575,
+              "object": {
+                "type": "Identifier",
+                "start": 1561,
+                "end": 1564,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1565,
+                "end": 1575,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1576,
+                "end": 1588,
+                "value": "1980-12-28"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1591,
+            "end": 1593,
+            "value": 52
+          },
+          {
+            "type": "Literal",
+            "start": 1595,
+            "end": 1617,
+            "value": "1980-12-28 is in w52"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1620,
+      "end": 1694,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1620,
+        "end": 1693,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1620,
+          "end": 1636,
+          "object": {
+            "type": "Identifier",
+            "start": 1620,
+            "end": 1626,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1627,
+            "end": 1636,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1637,
+            "end": 1665,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1637,
+              "end": 1651,
+              "object": {
+                "type": "Identifier",
+                "start": 1637,
+                "end": 1640,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1641,
+                "end": 1651,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1652,
+                "end": 1664,
+                "value": "1980-12-29"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1667,
+            "end": 1668,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 1670,
+            "end": 1692,
+            "value": "1980-12-29 is in w01"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1695,
+      "end": 1769,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1695,
+        "end": 1768,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1695,
+          "end": 1711,
+          "object": {
+            "type": "Identifier",
+            "start": 1695,
+            "end": 1701,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1702,
+            "end": 1711,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1712,
+            "end": 1740,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1712,
+              "end": 1726,
+              "object": {
+                "type": "Identifier",
+                "start": 1712,
+                "end": 1715,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1716,
+                "end": 1726,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1727,
+                "end": 1739,
+                "value": "1980-12-30"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1742,
+            "end": 1743,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 1745,
+            "end": 1767,
+            "value": "1980-12-30 is in w01"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1770,
+      "end": 1844,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1770,
+        "end": 1843,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1770,
+          "end": 1786,
+          "object": {
+            "type": "Identifier",
+            "start": 1770,
+            "end": 1776,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1777,
+            "end": 1786,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1787,
+            "end": 1815,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1787,
+              "end": 1801,
+              "object": {
+                "type": "Identifier",
+                "start": 1787,
+                "end": 1790,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1791,
+                "end": 1801,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1802,
+                "end": 1814,
+                "value": "1980-12-31"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1817,
+            "end": 1818,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 1820,
+            "end": 1842,
+            "value": "1980-12-31 is in w01"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1845,
+      "end": 1919,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1845,
+        "end": 1918,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1845,
+          "end": 1861,
+          "object": {
+            "type": "Identifier",
+            "start": 1845,
+            "end": 1851,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1852,
+            "end": 1861,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1862,
+            "end": 1890,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1862,
+              "end": 1876,
+              "object": {
+                "type": "Identifier",
+                "start": 1862,
+                "end": 1865,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1866,
+                "end": 1876,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1877,
+                "end": 1889,
+                "value": "1981-01-01"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1892,
+            "end": 1893,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 1895,
+            "end": 1917,
+            "value": "1981-01-01 is in w01"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1920,
+      "end": 1995,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1920,
+        "end": 1994,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1920,
+          "end": 1936,
+          "object": {
+            "type": "Identifier",
+            "start": 1920,
+            "end": 1926,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1927,
+            "end": 1936,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1937,
+            "end": 1965,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1937,
+              "end": 1951,
+              "object": {
+                "type": "Identifier",
+                "start": 1937,
+                "end": 1940,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1941,
+                "end": 1951,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1952,
+                "end": 1964,
+                "value": "1981-12-31"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1967,
+            "end": 1969,
+            "value": 53
+          },
+          {
+            "type": "Literal",
+            "start": 1971,
+            "end": 1993,
+            "value": "1981-12-31 is in w53"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1996,
+      "end": 2071,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1996,
+        "end": 2070,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1996,
+          "end": 2012,
+          "object": {
+            "type": "Identifier",
+            "start": 1996,
+            "end": 2002,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2003,
+            "end": 2012,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2013,
+            "end": 2041,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2013,
+              "end": 2027,
+              "object": {
+                "type": "Identifier",
+                "start": 2013,
+                "end": 2016,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2017,
+                "end": 2027,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2028,
+                "end": 2040,
+                "value": "1982-01-01"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2043,
+            "end": 2045,
+            "value": 53
+          },
+          {
+            "type": "Literal",
+            "start": 2047,
+            "end": 2069,
+            "value": "1982-01-01 is in w53"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2072,
+      "end": 2147,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2072,
+        "end": 2146,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2072,
+          "end": 2088,
+          "object": {
+            "type": "Identifier",
+            "start": 2072,
+            "end": 2078,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2079,
+            "end": 2088,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2089,
+            "end": 2117,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2089,
+              "end": 2103,
+              "object": {
+                "type": "Identifier",
+                "start": 2089,
+                "end": 2092,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2093,
+                "end": 2103,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2104,
+                "end": 2116,
+                "value": "1982-01-02"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2119,
+            "end": 2121,
+            "value": 53
+          },
+          {
+            "type": "Literal",
+            "start": 2123,
+            "end": 2145,
+            "value": "1982-01-02 is in w53"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2148,
+      "end": 2223,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2148,
+        "end": 2222,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2148,
+          "end": 2164,
+          "object": {
+            "type": "Identifier",
+            "start": 2148,
+            "end": 2154,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2155,
+            "end": 2164,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2165,
+            "end": 2193,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2165,
+              "end": 2179,
+              "object": {
+                "type": "Identifier",
+                "start": 2165,
+                "end": 2168,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2169,
+                "end": 2179,
+                "name": "weekOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2180,
+                "end": 2192,
+                "value": "1982-01-03"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2195,
+            "end": 2197,
+            "value": 53
+          },
+          {
+            "type": "Literal",
+            "start": 2199,
+            "end": 2221,
+            "value": "1982-01-03 is in w53"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

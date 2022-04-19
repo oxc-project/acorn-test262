@@ -1,0 +1,607 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 959,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 302,
+      "end": 360,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 308,
+          "end": 359,
+          "id": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 312,
+            "name": "feb2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 315,
+            "end": 359,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 319,
+              "end": 341,
+              "object": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 327,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 328,
+                "end": 341,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 342,
+                "end": 346,
+                "value": 2020
+              },
+              {
+                "type": "Literal",
+                "start": 348,
+                "end": 349,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 352,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 354,
+                "end": 355,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 357,
+                "end": 358,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 361,
+      "end": 421,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 367,
+          "end": 420,
+          "id": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 372,
+            "name": "feb28"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 375,
+            "end": 420,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 379,
+              "end": 401,
+              "object": {
+                "type": "Identifier",
+                "start": 379,
+                "end": 387,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 388,
+                "end": 401,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 402,
+                "end": 406,
+                "value": 2021
+              },
+              {
+                "type": "Literal",
+                "start": 408,
+                "end": 409,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 411,
+                "end": 413,
+                "value": 28
+              },
+              {
+                "type": "Literal",
+                "start": 415,
+                "end": 416,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 419,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 423,
+      "end": 579,
+      "expression": {
+        "type": "CallExpression",
+        "start": 423,
+        "end": 578,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 423,
+          "end": 453,
+          "object": {
+            "type": "Identifier",
+            "start": 423,
+            "end": 438,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 453,
+            "name": "assertDuration"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 457,
+            "end": 474,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 457,
+              "end": 468,
+              "object": {
+                "type": "Identifier",
+                "start": 457,
+                "end": 462,
+                "name": "feb28"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 463,
+                "end": 468,
+                "name": "since"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 469,
+                "end": 473,
+                "name": "feb2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 478,
+            "end": 479,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 481,
+            "end": 482,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 484,
+            "end": 485,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 487,
+            "end": 490,
+            "value": 392
+          },
+          {
+            "type": "Literal",
+            "start": 492,
+            "end": 493,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 495,
+            "end": 496,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 498,
+            "end": 499,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 501,
+            "end": 502,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 504,
+            "end": 505,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 507,
+            "end": 508,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 512,
+            "end": 576,
+            "value": "does not include higher units than necessary (no largest unit)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 581,
+      "end": 770,
+      "expression": {
+        "type": "CallExpression",
+        "start": 581,
+        "end": 769,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 581,
+          "end": 611,
+          "object": {
+            "type": "Identifier",
+            "start": 581,
+            "end": 596,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 597,
+            "end": 611,
+            "name": "assertDuration"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 615,
+            "end": 659,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 615,
+              "end": 626,
+              "object": {
+                "type": "Identifier",
+                "start": 615,
+                "end": 620,
+                "name": "feb28"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 621,
+                "end": 626,
+                "name": "since"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 627,
+                "end": 631,
+                "name": "feb2"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 633,
+                "end": 658,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 635,
+                    "end": 656,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 635,
+                      "end": 646,
+                      "name": "largestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 648,
+                      "end": 656,
+                      "value": "months"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 663,
+            "end": 664,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 666,
+            "end": 668,
+            "value": 12
+          },
+          {
+            "type": "Literal",
+            "start": 670,
+            "end": 671,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 673,
+            "end": 675,
+            "value": 26
+          },
+          {
+            "type": "Literal",
+            "start": 677,
+            "end": 678,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 680,
+            "end": 681,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 683,
+            "end": 684,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 686,
+            "end": 687,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 690,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 692,
+            "end": 693,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 697,
+            "end": 767,
+            "value": "does not include higher units than necessary (largest unit = months)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 772,
+      "end": 958,
+      "expression": {
+        "type": "CallExpression",
+        "start": 772,
+        "end": 957,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 772,
+          "end": 802,
+          "object": {
+            "type": "Identifier",
+            "start": 772,
+            "end": 787,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 802,
+            "name": "assertDuration"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 806,
+            "end": 849,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 806,
+              "end": 817,
+              "object": {
+                "type": "Identifier",
+                "start": 806,
+                "end": 811,
+                "name": "feb28"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 812,
+                "end": 817,
+                "name": "since"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 818,
+                "end": 822,
+                "name": "feb2"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 824,
+                "end": 848,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 826,
+                    "end": 846,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 826,
+                      "end": 837,
+                      "name": "largestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 839,
+                      "end": 846,
+                      "value": "years"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 853,
+            "end": 854,
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "start": 856,
+            "end": 857,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 859,
+            "end": 860,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 862,
+            "end": 864,
+            "value": 26
+          },
+          {
+            "type": "Literal",
+            "start": 866,
+            "end": 867,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 869,
+            "end": 870,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 872,
+            "end": 873,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 875,
+            "end": 876,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 878,
+            "end": 879,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 881,
+            "end": 882,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 886,
+            "end": 955,
+            "value": "does not include higher units than necessary (largest unit = years)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

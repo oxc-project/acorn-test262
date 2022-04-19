@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1049,
+  "end": 1142,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -111,7 +111,7 @@
     {
       "type": "ForOfStatement",
       "start": 879,
-      "end": 1048,
+      "end": 1141,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
@@ -136,7 +136,7 @@
       "right": {
         "type": "ArrayExpression",
         "start": 916,
-        "end": 961,
+        "end": 971,
         "elements": [
           {
             "type": "Literal",
@@ -161,36 +161,42 @@
             "start": 953,
             "end": 960,
             "value": "autos"
+          },
+          {
+            "type": "Literal",
+            "start": 962,
+            "end": 970,
+            "value": "auto\u0000"
           }
         ]
       },
       "body": {
         "type": "BlockStatement",
-        "start": 963,
-        "end": 1048,
+        "start": 973,
+        "end": 1141,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 967,
-            "end": 1046,
+            "start": 977,
+            "end": 1139,
             "expression": {
               "type": "CallExpression",
-              "start": 967,
-              "end": 1045,
+              "start": 977,
+              "end": 1138,
               "callee": {
                 "type": "MemberExpression",
-                "start": 967,
-                "end": 980,
+                "start": 977,
+                "end": 990,
                 "object": {
                   "type": "Identifier",
-                  "start": 967,
-                  "end": 973,
+                  "start": 977,
+                  "end": 983,
                   "name": "assert"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 974,
-                  "end": 980,
+                  "start": 984,
+                  "end": 990,
                   "name": "throws"
                 },
                 "computed": false,
@@ -199,14 +205,14 @@
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 981,
-                  "end": 991,
+                  "start": 991,
+                  "end": 1001,
                   "name": "RangeError"
                 },
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 993,
-                  "end": 1044,
+                  "start": 1003,
+                  "end": 1054,
                   "id": null,
                   "expression": true,
                   "generator": false,
@@ -214,22 +220,22 @@
                   "params": [],
                   "body": {
                     "type": "CallExpression",
-                    "start": 999,
-                    "end": 1044,
+                    "start": 1009,
+                    "end": 1054,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 999,
-                      "end": 1016,
+                      "start": 1009,
+                      "end": 1026,
                       "object": {
                         "type": "Identifier",
-                        "start": 999,
-                        "end": 1007,
+                        "start": 1009,
+                        "end": 1017,
                         "name": "duration"
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 1008,
-                        "end": 1016,
+                        "start": 1018,
+                        "end": 1026,
                         "name": "toString"
                       },
                       "computed": false,
@@ -238,27 +244,27 @@
                     "arguments": [
                       {
                         "type": "ObjectExpression",
-                        "start": 1017,
-                        "end": 1043,
+                        "start": 1027,
+                        "end": 1053,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 1019,
-                            "end": 1041,
+                            "start": 1029,
+                            "end": 1051,
                             "method": false,
                             "shorthand": true,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 1019,
-                              "end": 1041,
+                              "start": 1029,
+                              "end": 1051,
                               "name": "fractionalSecondDigits"
                             },
                             "kind": "init",
                             "value": {
                               "type": "Identifier",
-                              "start": 1019,
-                              "end": 1041,
+                              "start": 1029,
+                              "end": 1051,
                               "name": "fractionalSecondDigits"
                             }
                           }
@@ -267,6 +273,41 @@
                     ],
                     "optional": false
                   }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 1060,
+                  "end": 1137,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1064,
+                      "end": 1086,
+                      "name": "fractionalSecondDigits"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1061,
+                      "end": 1062,
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1087,
+                      "end": 1136,
+                      "value": {
+                        "raw": "\" is not a valid value for fractionalSecondDigits",
+                        "cooked": "\" is not a valid value for fractionalSecondDigits"
+                      },
+                      "tail": true
+                    }
+                  ]
                 }
               ],
               "optional": false

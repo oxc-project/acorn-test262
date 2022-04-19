@@ -1,0 +1,983 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1640,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 263,
+      "end": 338,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 269,
+          "end": 337,
+          "id": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 277,
+            "name": "duration"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 280,
+            "end": 337,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 284,
+              "end": 301,
+              "object": {
+                "type": "Identifier",
+                "start": 284,
+                "end": 292,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 293,
+                "end": 301,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 302,
+                "end": 303,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 305,
+                "end": 306,
+                "value": 2
+              },
+              {
+                "type": "Literal",
+                "start": 308,
+                "end": 309,
+                "value": 3
+              },
+              {
+                "type": "Literal",
+                "start": 311,
+                "end": 312,
+                "value": 4
+              },
+              {
+                "type": "Literal",
+                "start": 314,
+                "end": 315,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 317,
+                "end": 318,
+                "value": 6
+              },
+              {
+                "type": "Literal",
+                "start": 320,
+                "end": 321,
+                "value": 7
+              },
+              {
+                "type": "Literal",
+                "start": 323,
+                "end": 326,
+                "value": 123
+              },
+              {
+                "type": "Literal",
+                "start": 328,
+                "end": 331,
+                "value": 987
+              },
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 336,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 340,
+      "end": 435,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 346,
+          "end": 434,
+          "id": {
+            "type": "Identifier",
+            "start": 346,
+            "end": 353,
+            "name": "result1"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 356,
+            "end": 434,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 356,
+              "end": 373,
+              "object": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 364,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 365,
+                "end": 373,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 374,
+                "end": 433,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 376,
+                    "end": 403,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 376,
+                      "end": 388,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 390,
+                      "end": 403,
+                      "value": "microsecond"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 405,
+                    "end": 431,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 405,
+                      "end": 417,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 419,
+                      "end": 431,
+                      "value": "halfExpand"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 436,
+      "end": 555,
+      "expression": {
+        "type": "CallExpression",
+        "start": 436,
+        "end": 554,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 436,
+          "end": 452,
+          "object": {
+            "type": "Identifier",
+            "start": 436,
+            "end": 442,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 443,
+            "end": 452,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 453,
+            "end": 460,
+            "name": "result1"
+          },
+          {
+            "type": "Literal",
+            "start": 462,
+            "end": 487,
+            "value": "P1Y2M3W4DT5H6M7.123988S"
+          },
+          {
+            "type": "Literal",
+            "start": 491,
+            "end": 553,
+            "value": "roundingMode is halfExpand (with 6 digits from smallestUnit)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 557,
+      "end": 650,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 563,
+          "end": 649,
+          "id": {
+            "type": "Identifier",
+            "start": 563,
+            "end": 570,
+            "name": "result2"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 573,
+            "end": 649,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 573,
+              "end": 590,
+              "object": {
+                "type": "Identifier",
+                "start": 573,
+                "end": 581,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 582,
+                "end": 590,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 591,
+                "end": 648,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 593,
+                    "end": 618,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 593,
+                      "end": 615,
+                      "name": "fractionalSecondDigits"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 617,
+                      "end": 618,
+                      "value": 6
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 620,
+                    "end": 646,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 620,
+                      "end": 632,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 634,
+                      "end": 646,
+                      "value": "halfExpand"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 667,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 667,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 668,
+            "end": 675,
+            "name": "result2"
+          },
+          {
+            "type": "Literal",
+            "start": 677,
+            "end": 702,
+            "value": "P1Y2M3W4DT5H6M7.123988S"
+          },
+          {
+            "type": "Literal",
+            "start": 706,
+            "end": 778,
+            "value": "roundingMode is halfExpand (with 6 digits from fractionalSecondDigits)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 782,
+      "end": 877,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 788,
+          "end": 876,
+          "id": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 795,
+            "name": "result3"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 798,
+            "end": 876,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 798,
+              "end": 815,
+              "object": {
+                "type": "Identifier",
+                "start": 798,
+                "end": 806,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 807,
+                "end": 815,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 816,
+                "end": 875,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 818,
+                    "end": 845,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 818,
+                      "end": 830,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 832,
+                      "end": 845,
+                      "value": "millisecond"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 847,
+                    "end": 873,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 847,
+                      "end": 859,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 861,
+                      "end": 873,
+                      "value": "halfExpand"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 878,
+      "end": 994,
+      "expression": {
+        "type": "CallExpression",
+        "start": 878,
+        "end": 993,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 878,
+          "end": 894,
+          "object": {
+            "type": "Identifier",
+            "start": 878,
+            "end": 884,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 885,
+            "end": 894,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 895,
+            "end": 902,
+            "name": "result3"
+          },
+          {
+            "type": "Literal",
+            "start": 904,
+            "end": 926,
+            "value": "P1Y2M3W4DT5H6M7.124S"
+          },
+          {
+            "type": "Literal",
+            "start": 930,
+            "end": 992,
+            "value": "roundingMode is halfExpand (with 3 digits from smallestUnit)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 996,
+      "end": 1089,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1002,
+          "end": 1088,
+          "id": {
+            "type": "Identifier",
+            "start": 1002,
+            "end": 1009,
+            "name": "result4"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1012,
+            "end": 1088,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1012,
+              "end": 1029,
+              "object": {
+                "type": "Identifier",
+                "start": 1012,
+                "end": 1020,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1021,
+                "end": 1029,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 1030,
+                "end": 1087,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1032,
+                    "end": 1057,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1032,
+                      "end": 1054,
+                      "name": "fractionalSecondDigits"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1056,
+                      "end": 1057,
+                      "value": 3
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1059,
+                    "end": 1085,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1059,
+                      "end": 1071,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1073,
+                      "end": 1085,
+                      "value": "halfExpand"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1090,
+      "end": 1216,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1090,
+        "end": 1215,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1090,
+          "end": 1106,
+          "object": {
+            "type": "Identifier",
+            "start": 1090,
+            "end": 1096,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1097,
+            "end": 1106,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1107,
+            "end": 1114,
+            "name": "result4"
+          },
+          {
+            "type": "Literal",
+            "start": 1116,
+            "end": 1138,
+            "value": "P1Y2M3W4DT5H6M7.124S"
+          },
+          {
+            "type": "Literal",
+            "start": 1142,
+            "end": 1214,
+            "value": "roundingMode is halfExpand (with 3 digits from fractionalSecondDigits)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1218,
+      "end": 1308,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1224,
+          "end": 1307,
+          "id": {
+            "type": "Identifier",
+            "start": 1224,
+            "end": 1231,
+            "name": "result5"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1234,
+            "end": 1307,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1234,
+              "end": 1251,
+              "object": {
+                "type": "Identifier",
+                "start": 1234,
+                "end": 1242,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1243,
+                "end": 1251,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 1252,
+                "end": 1306,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1254,
+                    "end": 1276,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1254,
+                      "end": 1266,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1268,
+                      "end": 1276,
+                      "value": "second"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1278,
+                    "end": 1304,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1278,
+                      "end": 1290,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1292,
+                      "end": 1304,
+                      "value": "halfExpand"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1309,
+      "end": 1421,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1309,
+        "end": 1420,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1309,
+          "end": 1325,
+          "object": {
+            "type": "Identifier",
+            "start": 1309,
+            "end": 1315,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1316,
+            "end": 1325,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1326,
+            "end": 1333,
+            "name": "result5"
+          },
+          {
+            "type": "Literal",
+            "start": 1335,
+            "end": 1353,
+            "value": "P1Y2M3W4DT5H6M7S"
+          },
+          {
+            "type": "Literal",
+            "start": 1357,
+            "end": 1419,
+            "value": "roundingMode is halfExpand (with 0 digits from smallestUnit)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1423,
+      "end": 1516,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1429,
+          "end": 1515,
+          "id": {
+            "type": "Identifier",
+            "start": 1429,
+            "end": 1436,
+            "name": "result6"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1439,
+            "end": 1515,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1439,
+              "end": 1456,
+              "object": {
+                "type": "Identifier",
+                "start": 1439,
+                "end": 1447,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1448,
+                "end": 1456,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 1457,
+                "end": 1514,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1459,
+                    "end": 1484,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1459,
+                      "end": 1481,
+                      "name": "fractionalSecondDigits"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1483,
+                      "end": 1484,
+                      "value": 0
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1486,
+                    "end": 1512,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1486,
+                      "end": 1498,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1500,
+                      "end": 1512,
+                      "value": "halfExpand"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1517,
+      "end": 1639,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1517,
+        "end": 1638,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1517,
+          "end": 1533,
+          "object": {
+            "type": "Identifier",
+            "start": 1517,
+            "end": 1523,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1524,
+            "end": 1533,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1534,
+            "end": 1541,
+            "name": "result6"
+          },
+          {
+            "type": "Literal",
+            "start": 1543,
+            "end": 1561,
+            "value": "P1Y2M3W4DT5H6M7S"
+          },
+          {
+            "type": "Literal",
+            "start": 1565,
+            "end": 1637,
+            "value": "roundingMode is halfExpand (with 0 digits from fractionalSecondDigits)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,582 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1181,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 289,
+      "end": 361,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 295,
+          "end": 360,
+          "id": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 303,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 306,
+            "end": 360,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 310,
+              "end": 332,
+              "object": {
+                "type": "Identifier",
+                "start": 310,
+                "end": 318,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 332,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 333,
+                "end": 336,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 334,
+                  "end": 336,
+                  "value": 99
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 338,
+                "end": 340,
+                "value": 12
+              },
+              {
+                "type": "Literal",
+                "start": 342,
+                "end": 344,
+                "value": 15
+              },
+              {
+                "type": "Literal",
+                "start": 346,
+                "end": 348,
+                "value": 12
+              },
+              {
+                "type": "Literal",
+                "start": 350,
+                "end": 351,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 353,
+                "end": 354,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 356,
+                "end": 359,
+                "value": 500
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 362,
+      "end": 548,
+      "expression": {
+        "type": "CallExpression",
+        "start": 362,
+        "end": 547,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 362,
+          "end": 378,
+          "object": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 368,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 369,
+            "end": 378,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 382,
+            "end": 450,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 382,
+              "end": 399,
+              "object": {
+                "type": "Identifier",
+                "start": 382,
+                "end": 390,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 391,
+                "end": 399,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 400,
+                "end": 449,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 402,
+                    "end": 424,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 402,
+                      "end": 414,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 416,
+                      "end": 424,
+                      "value": "second"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 426,
+                    "end": 447,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 426,
+                      "end": 438,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 440,
+                      "end": 447,
+                      "value": "floor"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 454,
+            "end": 478,
+            "value": "-000099-12-15T12:00:00"
+          },
+          {
+            "type": "Literal",
+            "start": 482,
+            "end": 545,
+            "value": "Rounding down is towards the Big Bang, not the epoch or 1 BCE"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 549,
+      "end": 756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 549,
+        "end": 755,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 549,
+          "end": 565,
+          "object": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 555,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 565,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 569,
+            "end": 637,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 569,
+              "end": 586,
+              "object": {
+                "type": "Identifier",
+                "start": 569,
+                "end": 577,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 578,
+                "end": 586,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 587,
+                "end": 636,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 589,
+                    "end": 611,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 589,
+                      "end": 601,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 603,
+                      "end": 611,
+                      "value": "second"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 613,
+                    "end": 634,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 613,
+                      "end": 625,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 627,
+                      "end": 634,
+                      "value": "trunc"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 641,
+            "end": 665,
+            "value": "-000099-12-15T12:00:00"
+          },
+          {
+            "type": "Literal",
+            "start": 669,
+            "end": 753,
+            "value": "Rounding down is towards the Big Bang, not the epoch or 1 BCE (roundingMode trunc)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 757,
+      "end": 962,
+      "expression": {
+        "type": "CallExpression",
+        "start": 757,
+        "end": 961,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 757,
+          "end": 773,
+          "object": {
+            "type": "Identifier",
+            "start": 757,
+            "end": 763,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 773,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 777,
+            "end": 844,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 777,
+              "end": 794,
+              "object": {
+                "type": "Identifier",
+                "start": 777,
+                "end": 785,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 786,
+                "end": 794,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 795,
+                "end": 843,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 797,
+                    "end": 819,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 797,
+                      "end": 809,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 811,
+                      "end": 819,
+                      "value": "second"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 821,
+                    "end": 841,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 821,
+                      "end": 833,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 835,
+                      "end": 841,
+                      "value": "ceil"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 848,
+            "end": 872,
+            "value": "-000099-12-15T12:00:01"
+          },
+          {
+            "type": "Literal",
+            "start": 876,
+            "end": 959,
+            "value": "Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode ceil)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 963,
+      "end": 1180,
+      "expression": {
+        "type": "CallExpression",
+        "start": 963,
+        "end": 1179,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 963,
+          "end": 979,
+          "object": {
+            "type": "Identifier",
+            "start": 963,
+            "end": 969,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 970,
+            "end": 979,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 983,
+            "end": 1056,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 983,
+              "end": 1000,
+              "object": {
+                "type": "Identifier",
+                "start": 983,
+                "end": 991,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 992,
+                "end": 1000,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 1001,
+                "end": 1055,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1003,
+                    "end": 1025,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1003,
+                      "end": 1015,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1017,
+                      "end": 1025,
+                      "value": "second"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1027,
+                    "end": 1053,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1027,
+                      "end": 1039,
+                      "name": "roundingMode"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1041,
+                      "end": 1053,
+                      "value": "halfExpand"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1060,
+            "end": 1084,
+            "value": "-000099-12-15T12:00:01"
+          },
+          {
+            "type": "Literal",
+            "start": 1088,
+            "end": 1177,
+            "value": "Rounding up is away from the Big Bang, not the epoch or 1 BCE (roundingMode halfExpand)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

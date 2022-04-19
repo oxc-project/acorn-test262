@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 569,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 376,
+      "end": 446,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 382,
+          "end": 445,
+          "id": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 390,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 393,
+            "end": 445,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 393,
+              "end": 443,
+              "object": {
+                "type": "Identifier",
+                "start": 393,
+                "end": 408,
+                "name": "TemporalHelpers"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 409,
+                "end": 443,
+                "name": "calendarFromFieldsUndefinedOptions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 447,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 447,
+        "end": 512,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 447,
+          "end": 468,
+          "object": {
+            "type": "Identifier",
+            "start": 447,
+            "end": 455,
+            "name": "calendar"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 456,
+            "end": 468,
+            "name": "monthsInYear"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ObjectExpression",
+            "start": 469,
+            "end": 511,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 471,
+                "end": 481,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 471,
+                  "end": 475,
+                  "name": "year"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 477,
+                  "end": 481,
+                  "value": 2000
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 483,
+                "end": 491,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 483,
+                  "end": 488,
+                  "name": "month"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 490,
+                  "end": 491,
+                  "value": 5
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 493,
+                "end": 499,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 496,
+                  "name": "day"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 498,
+                  "end": 499,
+                  "value": 3
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 501,
+                "end": 509,
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 501,
+                  "end": 509,
+                  "name": "calendar"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "Identifier",
+                  "start": 501,
+                  "end": 509,
+                  "name": "calendar"
+                }
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 514,
+      "end": 568,
+      "expression": {
+        "type": "CallExpression",
+        "start": 514,
+        "end": 567,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 514,
+          "end": 530,
+          "object": {
+            "type": "Identifier",
+            "start": 514,
+            "end": 520,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 530,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 531,
+            "end": 563,
+            "object": {
+              "type": "Identifier",
+              "start": 531,
+              "end": 539,
+              "name": "calendar"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 563,
+              "name": "dateFromFieldsCallCount"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 565,
+            "end": 566,
+            "value": 1
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}
