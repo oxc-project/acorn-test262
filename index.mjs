@@ -54,11 +54,15 @@ for await (const p of walk("./test262/test")) {
     traverse(astJson).forEach((node) => {
       if (node && node.type === "Literal") {
         delete node.raw;
+        if (node.bigint) {
+          delete node.bigint;
+        }
       }
     });
 
-    const bigIntSerializer = (_key, value) =>
-      typeof value === "bigint" ? value.toString() + "n" : value;
+    const bigIntSerializer = (_key, value) => {
+      return typeof value === "bigint" ? value.toString() + "n" : value;
+    };
 
     await fs.promises.writeFile(
       writeFile,
