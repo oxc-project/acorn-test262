@@ -97,8 +97,7 @@
                 "type": "Literal",
                 "start": 1837,
                 "end": 1854,
-                "value": "3600000000001n",
-                "bigint": "3600000000001"
+                "value": "3600000000001n"
               },
               {
                 "type": "Identifier",

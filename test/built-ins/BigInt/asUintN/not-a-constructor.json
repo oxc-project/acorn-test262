@@ -166,8 +166,7 @@
                         "type": "Literal",
                         "start": 858,
                         "end": 860,
-                        "value": "1n",
-                        "bigint": "1"
+                        "value": "1n"
                       }
                     ]
                   }

@@ -273,22 +273,19 @@
                                 "type": "Literal",
                                 "start": 536,
                                 "end": 539,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 541,
                                 "end": 544,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 546,
                                 "end": 549,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               }
                             ]
                           }
@@ -407,8 +404,7 @@
                         "type": "Literal",
                         "start": 621,
                         "end": 624,
-                        "value": "42n",
-                        "bigint": "42"
+                        "value": "42n"
                       }
                     ],
                     "optional": false
@@ -465,8 +461,7 @@
                         "type": "Literal",
                         "start": 657,
                         "end": 660,
-                        "value": "43n",
-                        "bigint": "43"
+                        "value": "43n"
                       }
                     ],
                     "optional": false
@@ -523,8 +518,7 @@
                         "type": "Literal",
                         "start": 693,
                         "end": 696,
-                        "value": "42n",
-                        "bigint": "42"
+                        "value": "42n"
                       }
                     ],
                     "optional": false

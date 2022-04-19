@@ -97,8 +97,7 @@
                 "type": "Literal",
                 "start": 1921,
                 "end": 1939,
-                "value": "86400000000001n",
-                "bigint": "86400000000001"
+                "value": "86400000000001n"
               },
               {
                 "type": "Identifier",

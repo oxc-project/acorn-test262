@@ -383,15 +383,13 @@
                                 "type": "Literal",
                                 "start": 1713,
                                 "end": 1716,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1718,
                                 "end": 1720,
-                                "value": "0n",
-                                "bigint": "0"
+                                "value": "0n"
                               }
                             ]
                           }

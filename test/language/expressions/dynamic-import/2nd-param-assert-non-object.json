@@ -634,8 +634,7 @@
                                       "type": "Literal",
                                       "start": 1903,
                                       "end": 1906,
-                                      "value": "23n",
-                                      "bigint": "23"
+                                      "value": "23n"
                                     },
                                     "kind": "init"
                                   }

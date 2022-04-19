@@ -92,8 +92,7 @@
                 "type": "Literal",
                 "start": 616,
                 "end": 622,
-                "value": "12345n",
-                "bigint": "12345"
+                "value": "12345n"
               },
               "property": {
                 "type": "Identifier",

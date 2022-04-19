@@ -94,8 +94,7 @@
                                       "type": "Literal",
                                       "start": 1021,
                                       "end": 1024,
-                                      "value": "42n",
-                                      "bigint": "42"
+                                      "value": "42n"
                                     }
                                   }
                                 ]
@@ -327,36 +326,31 @@
                                 "type": "Literal",
                                 "start": 1222,
                                 "end": 1224,
-                                "value": "0n",
-                                "bigint": "0"
+                                "value": "0n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1226,
                                 "end": 1228,
-                                "value": "1n",
-                                "bigint": "1"
+                                "value": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1230,
                                 "end": 1233,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1235,
                                 "end": 1237,
-                                "value": "0n",
-                                "bigint": "0"
+                                "value": "0n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1239,
                                 "end": 1241,
-                                "value": "1n",
-                                "bigint": "1"
+                                "value": "1n"
                               }
                             ]
                           }

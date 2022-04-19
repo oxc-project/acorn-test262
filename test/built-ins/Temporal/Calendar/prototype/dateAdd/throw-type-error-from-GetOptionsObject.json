@@ -96,8 +96,7 @@
                 "type": "Literal",
                 "start": 496,
                 "end": 499,
-                "value": "23n",
-                "bigint": "23"
+                "value": "23n"
               },
               {
                 "type": "CallExpression",

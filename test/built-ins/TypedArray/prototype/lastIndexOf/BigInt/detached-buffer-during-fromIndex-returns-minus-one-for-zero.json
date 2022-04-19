@@ -240,8 +240,7 @@
                             "type": "Literal",
                             "start": 1598,
                             "end": 1600,
-                            "value": "0n",
-                            "bigint": "0"
+                            "value": "0n"
                           },
                           {
                             "type": "Identifier",

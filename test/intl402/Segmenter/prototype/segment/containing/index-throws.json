@@ -115,8 +115,7 @@
                 "type": "Literal",
                 "start": 836,
                 "end": 838,
-                "value": "0n",
-                "bigint": "0"
+                "value": "0n"
               },
               {
                 "type": "UnaryExpression",
@@ -128,16 +127,14 @@
                   "type": "Literal",
                   "start": 845,
                   "end": 847,
-                  "value": "1n",
-                  "bigint": "1"
+                  "value": "1n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 853,
                 "end": 855,
-                "value": "1n",
-                "bigint": "1"
+                "value": "1n"
               },
               {
                 "type": "CallExpression",

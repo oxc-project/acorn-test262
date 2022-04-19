@@ -97,8 +97,7 @@
                 "type": "Literal",
                 "start": 404,
                 "end": 406,
-                "value": "0n",
-                "bigint": "0"
+                "value": "0n"
               },
               {
                 "type": "Identifier",

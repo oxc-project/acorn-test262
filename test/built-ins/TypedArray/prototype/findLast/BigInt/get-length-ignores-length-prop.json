@@ -300,8 +300,7 @@
                                 "type": "Literal",
                                 "start": 761,
                                 "end": 764,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               }
                             ]
                           }
@@ -519,8 +518,7 @@
                         "type": "Literal",
                         "start": 978,
                         "end": 981,
-                        "value": "42n",
-                        "bigint": "42"
+                        "value": "42n"
                       }
                     ],
                     "optional": false

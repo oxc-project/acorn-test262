@@ -132,8 +132,7 @@
                                 "type": "Literal",
                                 "start": 506,
                                 "end": 508,
-                                "value": "0n",
-                                "bigint": "0"
+                                "value": "0n"
                               }
                             },
                             "property": {
@@ -255,8 +254,7 @@
                                   "type": "Literal",
                                   "start": 593,
                                   "end": 595,
-                                  "value": "1n",
-                                  "bigint": "1"
+                                  "value": "1n"
                                 }
                               }
                             },
@@ -373,8 +371,7 @@
                                 "type": "Literal",
                                 "start": 680,
                                 "end": 682,
-                                "value": "1n",
-                                "bigint": "1"
+                                "value": "1n"
                               }
                             },
                             "property": {

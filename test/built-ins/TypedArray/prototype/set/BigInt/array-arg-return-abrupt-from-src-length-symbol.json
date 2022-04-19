@@ -135,22 +135,19 @@
                                 "type": "Literal",
                                 "start": 774,
                                 "end": 776,
-                                "value": "1n",
-                                "bigint": "1"
+                                "value": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 778,
                                 "end": 780,
-                                "value": "2n",
-                                "bigint": "2"
+                                "value": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 782,
                                 "end": 784,
-                                "value": "3n",
-                                "bigint": "3"
+                                "value": "3n"
                               }
                             ]
                           }

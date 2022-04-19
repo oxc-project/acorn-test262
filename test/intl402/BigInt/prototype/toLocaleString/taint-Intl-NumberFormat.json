@@ -50,8 +50,7 @@
             "type": "Literal",
             "start": 446,
             "end": 448,
-            "value": "0n",
-            "bigint": "0"
+            "value": "0n"
           },
           "property": {
             "type": "Identifier",

@@ -74,15 +74,13 @@
                                 "type": "Literal",
                                 "start": 715,
                                 "end": 718,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 720,
                                 "end": 723,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               }
                             ]
                           }
@@ -178,8 +176,7 @@
                                   "type": "Literal",
                                   "start": 804,
                                   "end": 807,
-                                  "value": "42n",
-                                  "bigint": "42"
+                                  "value": "42n"
                                 },
                                 "kind": "init"
                               },

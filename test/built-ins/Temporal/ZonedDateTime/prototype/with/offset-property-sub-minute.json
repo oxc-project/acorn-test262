@@ -549,8 +549,7 @@
                         "type": "Literal",
                         "start": 767,
                         "end": 786,
-                        "value": "132270123456789n",
-                        "bigint": "132270123456789"
+                        "value": "132270123456789n"
                       },
                       {
                         "type": "TemplateLiteral",
@@ -929,8 +928,7 @@
             "type": "Literal",
             "start": 1153,
             "end": 1172,
-            "value": "132300000000000n",
-            "bigint": "132300000000000"
+            "value": "132300000000000n"
           },
           {
             "type": "Literal",

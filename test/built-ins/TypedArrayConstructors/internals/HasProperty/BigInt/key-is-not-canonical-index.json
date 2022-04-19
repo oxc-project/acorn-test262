@@ -545,8 +545,7 @@
                                           "type": "Literal",
                                           "start": 1163,
                                           "end": 1166,
-                                          "value": "42n",
-                                          "bigint": "42"
+                                          "value": "42n"
                                         },
                                         "kind": "init"
                                       }

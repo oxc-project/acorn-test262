@@ -27,8 +27,7 @@
                 "type": "Literal",
                 "start": 388,
                 "end": 390,
-                "value": "0n",
-                "bigint": "0"
+                "value": "0n"
               },
               {
                 "type": "UnaryExpression",
@@ -40,16 +39,14 @@
                   "type": "Literal",
                   "start": 395,
                   "end": 397,
-                  "value": "0n",
-                  "bigint": "0"
+                  "value": "0n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 401,
                 "end": 403,
-                "value": "1n",
-                "bigint": "1"
+                "value": "1n"
               },
               {
                 "type": "UnaryExpression",
@@ -61,16 +58,14 @@
                   "type": "Literal",
                   "start": 408,
                   "end": 410,
-                  "value": "1n",
-                  "bigint": "1"
+                  "value": "1n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 414,
                 "end": 418,
-                "value": "123n",
-                "bigint": "123"
+                "value": "123n"
               },
               {
                 "type": "UnaryExpression",
@@ -82,16 +77,14 @@
                   "type": "Literal",
                   "start": 423,
                   "end": 427,
-                  "value": "123n",
-                  "bigint": "123"
+                  "value": "123n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 431,
                 "end": 437,
-                "value": "12345n",
-                "bigint": "12345"
+                "value": "12345n"
               },
               {
                 "type": "UnaryExpression",
@@ -103,16 +96,14 @@
                   "type": "Literal",
                   "start": 442,
                   "end": 448,
-                  "value": "12345n",
-                  "bigint": "12345"
+                  "value": "12345n"
                 }
               },
               {
                 "type": "Literal",
                 "start": 452,
                 "end": 488,
-                "value": "12344501000000000000000000000000000n",
-                "bigint": "12344501000000000000000000000000000"
+                "value": "12344501000000000000000000000000000n"
               },
               {
                 "type": "UnaryExpression",
@@ -124,8 +115,7 @@
                   "type": "Literal",
                   "start": 493,
                   "end": 529,
-                  "value": "12344501000000000000000000000000000n",
-                  "bigint": "12344501000000000000000000000000000"
+                  "value": "12344501000000000000000000000000000n"
                 }
               }
             ]

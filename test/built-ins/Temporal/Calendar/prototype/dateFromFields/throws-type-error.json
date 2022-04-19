@@ -179,8 +179,7 @@
                 "type": "Literal",
                 "start": 1004,
                 "end": 1008,
-                "value": "456n",
-                "bigint": "456"
+                "value": "456n"
               },
               {
                 "type": "CallExpression",

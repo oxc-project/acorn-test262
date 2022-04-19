@@ -74,8 +74,7 @@
                                 "type": "Literal",
                                 "start": 910,
                                 "end": 913,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               }
                             ]
                           }

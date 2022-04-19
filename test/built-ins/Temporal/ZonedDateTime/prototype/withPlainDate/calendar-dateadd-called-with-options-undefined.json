@@ -115,8 +115,7 @@
                     "type": "Literal",
                     "start": 500,
                     "end": 502,
-                    "value": "0n",
-                    "bigint": "0"
+                    "value": "0n"
                   }
                 ]
               },
@@ -176,8 +175,7 @@
                 "type": "Literal",
                 "start": 558,
                 "end": 576,
-                "value": "82800000000000n",
-                "bigint": "82800000000000"
+                "value": "82800000000000n"
               },
               {
                 "type": "Identifier",

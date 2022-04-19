@@ -229,8 +229,7 @@
                 "type": "Literal",
                 "start": 616,
                 "end": 620,
-                "value": "456n",
-                "bigint": "456"
+                "value": "456n"
               }
             ]
           }

@@ -45,8 +45,7 @@
                 "type": "Literal",
                 "start": 846,
                 "end": 848,
-                "value": "1n",
-                "bigint": "1"
+                "value": "1n"
               }
             },
             "operator": "+",
@@ -116,8 +115,7 @@
                 "type": "Literal",
                 "start": 885,
                 "end": 887,
-                "value": "1n",
-                "bigint": "1"
+                "value": "1n"
               }
             }
           },
@@ -167,8 +165,7 @@
               "type": "Literal",
               "start": 913,
               "end": 915,
-              "value": "0n",
-              "bigint": "0"
+              "value": "0n"
             },
             "operator": "+",
             "right": {
@@ -231,8 +228,7 @@
               "type": "Literal",
               "start": 950,
               "end": 952,
-              "value": "0n",
-              "bigint": "0"
+              "value": "0n"
             }
           },
           {
@@ -281,8 +277,7 @@
               "type": "Literal",
               "start": 977,
               "end": 979,
-              "value": "1n",
-              "bigint": "1"
+              "value": "1n"
             },
             "operator": "+",
             "right": {
@@ -345,8 +340,7 @@
               "type": "Literal",
               "start": 1014,
               "end": 1016,
-              "value": "1n",
-              "bigint": "1"
+              "value": "1n"
             }
           },
           {
@@ -395,8 +389,7 @@
               "type": "Literal",
               "start": 1041,
               "end": 1066,
-              "value": "123456789000000000000000n",
-              "bigint": "123456789000000000000000"
+              "value": "123456789000000000000000n"
             },
             "operator": "+",
             "right": {
@@ -459,8 +452,7 @@
               "type": "Literal",
               "start": 1124,
               "end": 1149,
-              "value": "123456789000000000000000n",
-              "bigint": "123456789000000000000000"
+              "value": "123456789000000000000000n"
             }
           },
           {
@@ -515,8 +507,7 @@
                 "type": "Literal",
                 "start": 1198,
                 "end": 1223,
-                "value": "123456789000000000000000n",
-                "bigint": "123456789000000000000000"
+                "value": "123456789000000000000000n"
               }
             },
             "operator": "+",
@@ -586,8 +577,7 @@
                 "type": "Literal",
                 "start": 1283,
                 "end": 1308,
-                "value": "123456789000000000000000n",
-                "bigint": "123456789000000000000000"
+                "value": "123456789000000000000000n"
               }
             }
           },

@@ -407,8 +407,7 @@
                     "type": "Literal",
                     "start": 1698,
                     "end": 1700,
-                    "value": "1n",
-                    "bigint": "1"
+                    "value": "1n"
                   }
                 ],
                 "optional": false
@@ -482,8 +481,7 @@
                             "type": "Literal",
                             "start": 1760,
                             "end": 1762,
-                            "value": "1n",
-                            "bigint": "1"
+                            "value": "1n"
                           },
                           {
                             "type": "Literal",
@@ -539,8 +537,7 @@
                             "type": "Literal",
                             "start": 1825,
                             "end": 1832,
-                            "value": "10n",
-                            "bigint": "0b1010"
+                            "value": "10n"
                           }
                         ],
                         "optional": false

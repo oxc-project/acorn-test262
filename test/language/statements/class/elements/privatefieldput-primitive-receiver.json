@@ -871,8 +871,7 @@
                         "type": "Literal",
                         "start": 1476,
                         "end": 1479,
-                        "value": "15n",
-                        "bigint": "15"
+                        "value": "15n"
                       },
                       {
                         "type": "Literal",

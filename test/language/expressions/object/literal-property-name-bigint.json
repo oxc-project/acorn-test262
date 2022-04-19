@@ -34,8 +34,7 @@
                   "type": "Literal",
                   "start": 826,
                   "end": 845,
-                  "value": "999999999999999999n",
-                  "bigint": "999999999999999999"
+                  "value": "999999999999999999n"
                 },
                 "value": {
                   "type": "Literal",
@@ -145,8 +144,7 @@
                 "type": "Literal",
                 "start": 1048,
                 "end": 1050,
-                "value": "1n",
-                "bigint": "1"
+                "value": "1n"
               },
               "kind": "init",
               "value": {
@@ -278,8 +276,7 @@
               "type": "Literal",
               "start": 1203,
               "end": 1205,
-              "value": "1n",
-              "bigint": "1"
+              "value": "1n"
             },
             "kind": "method",
             "value": {
@@ -440,8 +437,7 @@
                   "type": "Literal",
                   "start": 1387,
                   "end": 1389,
-                  "value": "1n",
-                  "bigint": "1"
+                  "value": "1n"
                 },
                 "value": {
                   "type": "Identifier",

@@ -363,8 +363,7 @@
             "type": "Literal",
             "start": 1134,
             "end": 1136,
-            "value": "0n",
-            "bigint": "0"
+            "value": "0n"
           },
           {
             "type": "Literal",

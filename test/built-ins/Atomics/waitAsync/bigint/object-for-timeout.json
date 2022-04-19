@@ -441,8 +441,7 @@
                   "type": "Literal",
                   "start": 1228,
                   "end": 1230,
-                  "value": "0n",
-                  "bigint": "0"
+                  "value": "0n"
                 },
                 {
                   "type": "Identifier",
@@ -550,8 +549,7 @@
                   "type": "Literal",
                   "start": 1392,
                   "end": 1394,
-                  "value": "0n",
-                  "bigint": "0"
+                  "value": "0n"
                 },
                 {
                   "type": "Identifier",
@@ -659,8 +657,7 @@
                   "type": "Literal",
                   "start": 1558,
                   "end": 1560,
-                  "value": "0n",
-                  "bigint": "0"
+                  "value": "0n"
                 },
                 {
                   "type": "Identifier",
@@ -789,8 +786,7 @@
                               "type": "Literal",
                               "start": 1726,
                               "end": 1728,
-                              "value": "0n",
-                              "bigint": "0"
+                              "value": "0n"
                             },
                             {
                               "type": "Identifier",
@@ -854,8 +850,7 @@
                               "type": "Literal",
                               "start": 1775,
                               "end": 1777,
-                              "value": "0n",
-                              "bigint": "0"
+                              "value": "0n"
                             },
                             {
                               "type": "Identifier",
@@ -919,8 +914,7 @@
                               "type": "Literal",
                               "start": 1825,
                               "end": 1827,
-                              "value": "0n",
-                              "bigint": "0"
+                              "value": "0n"
                             },
                             {
                               "type": "Identifier",

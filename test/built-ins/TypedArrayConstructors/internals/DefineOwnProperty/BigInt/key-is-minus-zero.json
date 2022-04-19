@@ -163,8 +163,7 @@
                                   "type": "Literal",
                                   "start": 848,
                                   "end": 851,
-                                  "value": "42n",
-                                  "bigint": "42"
+                                  "value": "42n"
                                 },
                                 "kind": "init"
                               },
@@ -303,8 +302,7 @@
                         "type": "Literal",
                         "start": 1014,
                         "end": 1016,
-                        "value": "0n",
-                        "bigint": "0"
+                        "value": "0n"
                       },
                       {
                         "type": "Literal",

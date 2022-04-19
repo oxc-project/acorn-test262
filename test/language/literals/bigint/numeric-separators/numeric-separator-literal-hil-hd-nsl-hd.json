@@ -35,15 +35,13 @@
             "type": "Literal",
             "start": 812,
             "end": 818,
-            "value": "1n",
-            "bigint": "0x01"
+            "value": "1n"
           },
           {
             "type": "Literal",
             "start": 820,
             "end": 825,
-            "value": "1n",
-            "bigint": "0x01"
+            "value": "1n"
           }
         ],
         "optional": false
@@ -81,15 +79,13 @@
             "type": "Literal",
             "start": 845,
             "end": 851,
-            "value": "1n",
-            "bigint": "0X01"
+            "value": "1n"
           },
           {
             "type": "Literal",
             "start": 853,
             "end": 858,
-            "value": "1n",
-            "bigint": "0X01"
+            "value": "1n"
           }
         ],
         "optional": false

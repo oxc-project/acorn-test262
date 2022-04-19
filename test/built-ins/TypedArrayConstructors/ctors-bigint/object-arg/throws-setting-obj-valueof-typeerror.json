@@ -351,8 +351,7 @@
                                         "type": "Literal",
                                         "start": 3028,
                                         "end": 3030,
-                                        "value": "8n",
-                                        "bigint": "8"
+                                        "value": "8n"
                                       },
                                       {
                                         "type": "Identifier",

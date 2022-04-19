@@ -94,8 +94,7 @@
                                   "type": "Literal",
                                   "start": 404,
                                   "end": 406,
-                                  "value": "2n",
-                                  "bigint": "2"
+                                  "value": "2n"
                                 }
                               }
                             }
@@ -154,22 +153,19 @@
                                 "type": "Literal",
                                 "start": 438,
                                 "end": 441,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 443,
                                 "end": 446,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 448,
                                 "end": 451,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               }
                             ]
                           },
@@ -294,8 +290,7 @@
                         "type": "Literal",
                         "start": 530,
                         "end": 533,
-                        "value": "84n",
-                        "bigint": "84"
+                        "value": "84n"
                       }
                     ],
                     "optional": false
@@ -352,8 +347,7 @@
                         "type": "Literal",
                         "start": 566,
                         "end": 569,
-                        "value": "86n",
-                        "bigint": "86"
+                        "value": "86n"
                       }
                     ],
                     "optional": false
@@ -410,8 +404,7 @@
                         "type": "Literal",
                         "start": 602,
                         "end": 605,
-                        "value": "84n",
-                        "bigint": "84"
+                        "value": "84n"
                       }
                     ],
                     "optional": false

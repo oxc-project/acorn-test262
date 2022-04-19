@@ -182,22 +182,19 @@
                                 "type": "Literal",
                                 "start": 824,
                                 "end": 827,
-                                "value": "20n",
-                                "bigint": "20"
+                                "value": "20n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 829,
                                 "end": 833,
-                                "value": "100n",
-                                "bigint": "100"
+                                "value": "100n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 835,
                                 "end": 837,
-                                "value": "3n",
-                                "bigint": "3"
+                                "value": "3n"
                               }
                             ]
                           }
@@ -343,22 +340,19 @@
                                 "type": "Literal",
                                 "start": 993,
                                 "end": 995,
-                                "value": "3n",
-                                "bigint": "3"
+                                "value": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 997,
                                 "end": 1000,
-                                "value": "20n",
-                                "bigint": "20"
+                                "value": "20n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1002,
                                 "end": 1006,
-                                "value": "100n",
-                                "bigint": "100"
+                                "value": "100n"
                               }
                             ]
                           }

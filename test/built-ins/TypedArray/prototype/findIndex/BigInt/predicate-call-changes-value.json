@@ -63,22 +63,19 @@
                             "type": "Literal",
                             "start": 943,
                             "end": 946,
-                            "value": "10n",
-                            "bigint": "10"
+                            "value": "10n"
                           },
                           {
                             "type": "Literal",
                             "start": 948,
                             "end": 951,
-                            "value": "20n",
-                            "bigint": "20"
+                            "value": "20n"
                           },
                           {
                             "type": "Literal",
                             "start": 953,
                             "end": 956,
-                            "value": "30n",
-                            "bigint": "30"
+                            "value": "30n"
                           }
                         ]
                       }
@@ -304,8 +301,7 @@
                                     "type": "Literal",
                                     "start": 1099,
                                     "end": 1101,
-                                    "value": "0n",
-                                    "bigint": "0"
+                                    "value": "0n"
                                   },
                                   {
                                     "type": "Literal",
@@ -536,8 +532,7 @@
                                           "type": "Literal",
                                           "start": 1334,
                                           "end": 1336,
-                                          "value": "7n",
-                                          "bigint": "7"
+                                          "value": "7n"
                                         }
                                       }
                                     }
@@ -564,8 +559,7 @@
                                     "type": "Literal",
                                     "start": 1363,
                                     "end": 1365,
-                                    "value": "7n",
-                                    "bigint": "7"
+                                    "value": "7n"
                                   }
                                 }
                               }
@@ -788,8 +782,7 @@
                                           "type": "Literal",
                                           "start": 1530,
                                           "end": 1532,
-                                          "value": "7n",
-                                          "bigint": "7"
+                                          "value": "7n"
                                         }
                                       }
                                     }
@@ -816,8 +809,7 @@
                                     "type": "Literal",
                                     "start": 1559,
                                     "end": 1562,
-                                    "value": "30n",
-                                    "bigint": "30"
+                                    "value": "30n"
                                   }
                                 }
                               }
@@ -1047,8 +1039,7 @@
                                           "type": "Literal",
                                           "start": 1730,
                                           "end": 1732,
-                                          "value": "7n",
-                                          "bigint": "7"
+                                          "value": "7n"
                                         }
                                       }
                                     }
@@ -1075,8 +1066,7 @@
                                     "type": "Literal",
                                     "start": 1759,
                                     "end": 1761,
-                                    "value": "7n",
-                                    "bigint": "7"
+                                    "value": "7n"
                                   }
                                 }
                               }

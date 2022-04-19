@@ -231,8 +231,7 @@
             "type": "Literal",
             "start": 414,
             "end": 416,
-            "value": "0n",
-            "bigint": "0"
+            "value": "0n"
           },
           {
             "type": "Literal",

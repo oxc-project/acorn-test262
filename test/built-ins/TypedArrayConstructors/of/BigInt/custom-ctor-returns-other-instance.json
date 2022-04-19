@@ -206,22 +206,19 @@
                           "type": "Literal",
                           "start": 699,
                           "end": 701,
-                          "value": "1n",
-                          "bigint": "1"
+                          "value": "1n"
                         },
                         {
                           "type": "Literal",
                           "start": 703,
                           "end": 705,
-                          "value": "2n",
-                          "bigint": "2"
+                          "value": "2n"
                         },
                         {
                           "type": "Literal",
                           "start": 707,
                           "end": 709,
-                          "value": "3n",
-                          "bigint": "3"
+                          "value": "3n"
                         }
                       ],
                       "optional": false
@@ -340,15 +337,13 @@
                           "type": "Literal",
                           "start": 816,
                           "end": 818,
-                          "value": "1n",
-                          "bigint": "1"
+                          "value": "1n"
                         },
                         {
                           "type": "Literal",
                           "start": 820,
                           "end": 822,
-                          "value": "2n",
-                          "bigint": "2"
+                          "value": "2n"
                         }
                       ],
                       "optional": false

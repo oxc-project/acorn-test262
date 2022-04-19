@@ -287,15 +287,13 @@
                                 "type": "Literal",
                                 "start": 878,
                                 "end": 881,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 883,
                                 "end": 886,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               }
                             ]
                           }
@@ -394,15 +392,13 @@
                                 "type": "Literal",
                                 "start": 983,
                                 "end": 986,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 988,
                                 "end": 991,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               }
                             ]
                           }

@@ -232,8 +232,7 @@
                                     "type": "Literal",
                                     "start": 1069,
                                     "end": 1071,
-                                    "value": "7n",
-                                    "bigint": "7"
+                                    "value": "7n"
                                   },
                                   {
                                     "type": "Identifier",

@@ -795,8 +795,7 @@
                   "type": "Literal",
                   "start": 892,
                   "end": 894,
-                  "value": "7n",
-                  "bigint": "7"
+                  "value": "7n"
                 }
               ],
               "optional": false

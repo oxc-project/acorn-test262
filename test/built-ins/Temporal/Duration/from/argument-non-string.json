@@ -594,8 +594,7 @@
                   "type": "Literal",
                   "start": 712,
                   "end": 714,
-                  "value": "5n",
-                  "bigint": "5"
+                  "value": "5n"
                 }
               ],
               "optional": false

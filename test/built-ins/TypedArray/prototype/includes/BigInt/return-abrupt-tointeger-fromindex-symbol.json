@@ -113,8 +113,7 @@
                                 "type": "Literal",
                                 "start": 983,
                                 "end": 985,
-                                "value": "7n",
-                                "bigint": "7"
+                                "value": "7n"
                               }
                             ]
                           }
@@ -204,8 +203,7 @@
                                     "type": "Literal",
                                     "start": 1050,
                                     "end": 1052,
-                                    "value": "7n",
-                                    "bigint": "7"
+                                    "value": "7n"
                                   },
                                   {
                                     "type": "Identifier",

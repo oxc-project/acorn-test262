@@ -292,8 +292,7 @@
                       "type": "Literal",
                       "start": 927,
                       "end": 929,
-                      "value": "1n",
-                      "bigint": "1"
+                      "value": "1n"
                     },
                     "value": {
                       "type": "Literal",
@@ -321,8 +320,7 @@
                       "type": "Literal",
                       "start": 938,
                       "end": 940,
-                      "value": "2n",
-                      "bigint": "2"
+                      "value": "2n"
                     },
                     "value": {
                       "type": "Literal",

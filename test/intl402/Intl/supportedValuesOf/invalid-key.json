@@ -196,8 +196,7 @@
                 "type": "Literal",
                 "start": 953,
                 "end": 957,
-                "value": "123n",
-                "bigint": "123"
+                "value": "123n"
               },
               {
                 "type": "ObjectExpression",

@@ -252,8 +252,7 @@
                 "type": "Literal",
                 "start": 540,
                 "end": 543,
-                "value": "42n",
-                "bigint": "42"
+                "value": "42n"
               },
               {
                 "type": "ObjectExpression",

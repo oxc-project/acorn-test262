@@ -157,8 +157,7 @@
                                   "type": "Literal",
                                   "start": 2043,
                                   "end": 2045,
-                                  "value": "1n",
-                                  "bigint": "1"
+                                  "value": "1n"
                                 }
                               }
                             }

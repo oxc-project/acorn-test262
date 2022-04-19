@@ -150,8 +150,7 @@
                   "type": "Literal",
                   "start": 948,
                   "end": 950,
-                  "value": "1n",
-                  "bigint": "1"
+                  "value": "1n"
                 }
               ],
               "optional": false
@@ -285,8 +284,7 @@
                   "type": "Literal",
                   "start": 1044,
                   "end": 1046,
-                  "value": "1n",
-                  "bigint": "1"
+                  "value": "1n"
                 }
               }
             ]
@@ -388,8 +386,7 @@
                   "type": "Literal",
                   "start": 1108,
                   "end": 1110,
-                  "value": "0n",
-                  "bigint": "0"
+                  "value": "0n"
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -428,8 +425,7 @@
                         "type": "Literal",
                         "start": 1131,
                         "end": 1133,
-                        "value": "2n",
-                        "bigint": "2"
+                        "value": "2n"
                       },
                       {
                         "type": "Identifier",
@@ -593,8 +589,7 @@
                   "type": "Literal",
                   "start": 1228,
                   "end": 1230,
-                  "value": "0n",
-                  "bigint": "0"
+                  "value": "0n"
                 },
                 {
                   "type": "ArrowFunctionExpression",
@@ -644,8 +639,7 @@
                             "type": "Literal",
                             "start": 1258,
                             "end": 1260,
-                            "value": "2n",
-                            "bigint": "2"
+                            "value": "2n"
                           }
                         ],
                         "optional": false

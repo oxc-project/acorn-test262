@@ -46,8 +46,7 @@
                 "type": "Literal",
                 "start": 315,
                 "end": 317,
-                "value": "0n",
-                "bigint": "0"
+                "value": "0n"
               }
             ]
           }
@@ -98,8 +97,7 @@
                 "type": "Literal",
                 "start": 362,
                 "end": 377,
-                "value": "30000000000n",
-                "bigint": "30000000000"
+                "value": "30000000000n"
               }
             ]
           }
@@ -150,8 +148,7 @@
                 "type": "Literal",
                 "start": 420,
                 "end": 435,
-                "value": "30123400000n",
-                "bigint": "30123400000"
+                "value": "30123400000n"
               }
             ]
           }

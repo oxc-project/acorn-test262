@@ -176,8 +176,7 @@
                                 "type": "Literal",
                                 "start": 772,
                                 "end": 774,
-                                "value": "0n",
-                                "bigint": "0"
+                                "value": "0n"
                               }
                             }
                           ]

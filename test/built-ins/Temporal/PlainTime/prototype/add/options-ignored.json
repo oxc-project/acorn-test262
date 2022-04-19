@@ -77,8 +77,7 @@
                 "type": "Literal",
                 "start": 367,
                 "end": 369,
-                "value": "1n",
-                "bigint": "1"
+                "value": "1n"
               },
               {
                 "type": "ObjectExpression",

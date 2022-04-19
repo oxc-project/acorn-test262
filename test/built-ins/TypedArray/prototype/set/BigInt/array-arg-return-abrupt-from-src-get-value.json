@@ -97,8 +97,7 @@
                               "type": "Literal",
                               "start": 1002,
                               "end": 1005,
-                              "value": "42n",
-                              "bigint": "42"
+                              "value": "42n"
                             },
                             "kind": "init"
                           },
@@ -119,8 +118,7 @@
                               "type": "Literal",
                               "start": 1018,
                               "end": 1021,
-                              "value": "43n",
-                              "bigint": "43"
+                              "value": "43n"
                             },
                             "kind": "init"
                           },
@@ -141,8 +139,7 @@
                               "type": "Literal",
                               "start": 1034,
                               "end": 1037,
-                              "value": "44n",
-                              "bigint": "44"
+                              "value": "44n"
                             },
                             "kind": "init"
                           }
@@ -287,29 +284,25 @@
                                 "type": "Literal",
                                 "start": 1181,
                                 "end": 1183,
-                                "value": "1n",
-                                "bigint": "1"
+                                "value": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1185,
                                 "end": 1187,
-                                "value": "2n",
-                                "bigint": "2"
+                                "value": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1189,
                                 "end": 1191,
-                                "value": "3n",
-                                "bigint": "3"
+                                "value": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1193,
                                 "end": 1195,
-                                "value": "4n",
-                                "bigint": "4"
+                                "value": "4n"
                               }
                             ]
                           }
@@ -453,29 +446,25 @@
                                 "type": "Literal",
                                 "start": 1307,
                                 "end": 1310,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1312,
                                 "end": 1315,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1317,
                                 "end": 1319,
-                                "value": "3n",
-                                "bigint": "3"
+                                "value": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1321,
                                 "end": 1323,
-                                "value": "4n",
-                                "bigint": "4"
+                                "value": "4n"
                               }
                             ]
                           }

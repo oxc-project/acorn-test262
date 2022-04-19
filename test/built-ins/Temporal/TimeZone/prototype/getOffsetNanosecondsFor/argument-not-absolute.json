@@ -668,8 +668,7 @@
                   "type": "Literal",
                   "start": 938,
                   "end": 940,
-                  "value": "5n",
-                  "bigint": "5"
+                  "value": "5n"
                 }
               ],
               "optional": false

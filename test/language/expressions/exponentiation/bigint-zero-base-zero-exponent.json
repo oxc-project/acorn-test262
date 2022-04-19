@@ -39,24 +39,21 @@
               "type": "Literal",
               "start": 688,
               "end": 690,
-              "value": "0n",
-              "bigint": "0"
+              "value": "0n"
             },
             "operator": "**",
             "right": {
               "type": "Literal",
               "start": 694,
               "end": 696,
-              "value": "0n",
-              "bigint": "0"
+              "value": "0n"
             }
           },
           {
             "type": "Literal",
             "start": 698,
             "end": 700,
-            "value": "1n",
-            "bigint": "1"
+            "value": "1n"
           },
           {
             "type": "Literal",

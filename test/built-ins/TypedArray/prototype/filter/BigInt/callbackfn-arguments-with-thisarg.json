@@ -74,22 +74,19 @@
                                 "type": "Literal",
                                 "start": 596,
                                 "end": 599,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 601,
                                 "end": 604,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 606,
                                 "end": 609,
-                                "value": "44n",
-                                "bigint": "44"
+                                "value": "44n"
                               }
                             ]
                           }
@@ -533,8 +530,7 @@
                         "type": "Literal",
                         "start": 967,
                         "end": 970,
-                        "value": "42n",
-                        "bigint": "42"
+                        "value": "42n"
                       },
                       {
                         "type": "Literal",
@@ -838,8 +834,7 @@
                         "type": "Literal",
                         "start": 1223,
                         "end": 1226,
-                        "value": "43n",
-                        "bigint": "43"
+                        "value": "43n"
                       },
                       {
                         "type": "Literal",
@@ -1143,8 +1138,7 @@
                         "type": "Literal",
                         "start": 1479,
                         "end": 1482,
-                        "value": "44n",
-                        "bigint": "44"
+                        "value": "44n"
                       },
                       {
                         "type": "Literal",

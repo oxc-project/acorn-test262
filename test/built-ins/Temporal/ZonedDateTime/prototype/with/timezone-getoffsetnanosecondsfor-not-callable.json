@@ -87,8 +87,7 @@
                 "type": "Literal",
                 "start": 382,
                 "end": 385,
-                "value": "42n",
-                "bigint": "42"
+                "value": "42n"
               },
               {
                 "type": "ObjectExpression",
@@ -223,8 +222,7 @@
                             "type": "Literal",
                             "start": 513,
                             "end": 539,
-                            "value": "1000000000987654321n",
-                            "bigint": "1000000000987654321"
+                            "value": "1000000000987654321n"
                           },
                           {
                             "type": "Identifier",
@@ -609,8 +607,7 @@
                             "type": "Literal",
                             "start": 1029,
                             "end": 1055,
-                            "value": "1000000000987654321n",
-                            "bigint": "1000000000987654321"
+                            "value": "1000000000987654321n"
                           },
                           {
                             "type": "Identifier",

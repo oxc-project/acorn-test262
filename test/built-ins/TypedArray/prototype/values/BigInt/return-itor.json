@@ -74,22 +74,19 @@
                                 "type": "Literal",
                                 "start": 491,
                                 "end": 493,
-                                "value": "0n",
-                                "bigint": "0"
+                                "value": "0n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 495,
                                 "end": 498,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 500,
                                 "end": 503,
-                                "value": "64n",
-                                "bigint": "64"
+                                "value": "64n"
                               }
                             ]
                           }
@@ -240,8 +237,7 @@
                         "type": "Literal",
                         "start": 599,
                         "end": 601,
-                        "value": "0n",
-                        "bigint": "0"
+                        "value": "0n"
                       }
                     ],
                     "optional": false
@@ -398,8 +394,7 @@
                         "type": "Literal",
                         "start": 696,
                         "end": 699,
-                        "value": "42n",
-                        "bigint": "42"
+                        "value": "42n"
                       }
                     ],
                     "optional": false
@@ -556,8 +551,7 @@
                         "type": "Literal",
                         "start": 794,
                         "end": 797,
-                        "value": "64n",
-                        "bigint": "64"
+                        "value": "64n"
                       }
                     ],
                     "optional": false

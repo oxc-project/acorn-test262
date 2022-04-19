@@ -219,15 +219,13 @@
                                 "type": "Literal",
                                 "start": 939,
                                 "end": 942,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 944,
                                 "end": 947,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               }
                             ]
                           }

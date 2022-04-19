@@ -74,22 +74,19 @@
                                 "type": "Literal",
                                 "start": 1086,
                                 "end": 1089,
-                                "value": "44n",
-                                "bigint": "44"
+                                "value": "44n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1091,
                                 "end": 1094,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1096,
                                 "end": 1099,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               }
                             ]
                           }
@@ -231,8 +228,7 @@
                                         "type": "Literal",
                                         "start": 1182,
                                         "end": 1185,
-                                        "value": "42n",
-                                        "bigint": "42"
+                                        "value": "42n"
                                       }
                                     }
                                   }
@@ -278,8 +274,7 @@
                                     "type": "Literal",
                                     "start": 1225,
                                     "end": 1228,
-                                    "value": "42n",
-                                    "bigint": "42"
+                                    "value": "42n"
                                   },
                                   {
                                     "type": "Literal",

@@ -74,43 +74,37 @@
                                 "type": "Literal",
                                 "start": 1261,
                                 "end": 1263,
-                                "value": "1n",
-                                "bigint": "1"
+                                "value": "1n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1265,
                                 "end": 1267,
-                                "value": "0n",
-                                "bigint": "0"
+                                "value": "0n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1269,
                                 "end": 1271,
-                                "value": "2n",
-                                "bigint": "2"
+                                "value": "2n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1273,
                                 "end": 1275,
-                                "value": "3n",
-                                "bigint": "3"
+                                "value": "3n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1277,
                                 "end": 1280,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1282,
                                 "end": 1286,
-                                "value": "127n",
-                                "bigint": "127"
+                                "value": "127n"
                               }
                             ]
                           }

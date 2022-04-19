@@ -71,8 +71,7 @@
                 "type": "Literal",
                 "start": 409,
                 "end": 411,
-                "value": "0n",
-                "bigint": "0"
+                "value": "0n"
               },
               {
                 "type": "Identifier",

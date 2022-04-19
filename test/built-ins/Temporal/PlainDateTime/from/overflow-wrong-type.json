@@ -1123,8 +1123,7 @@
                         "type": "Literal",
                         "start": 2354,
                         "end": 2356,
-                        "value": "2n",
-                        "bigint": "2"
+                        "value": "2n"
                       },
                       "kind": "init"
                     }

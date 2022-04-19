@@ -70,8 +70,7 @@
                 "type": "Literal",
                 "start": 422,
                 "end": 432,
-                "value": "123456789n",
-                "bigint": "123456789"
+                "value": "123456789n"
               }
             ]
           }

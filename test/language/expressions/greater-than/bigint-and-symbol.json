@@ -63,8 +63,7 @@
                       "type": "Literal",
                       "start": 308,
                       "end": 310,
-                      "value": "3n",
-                      "bigint": "3"
+                      "value": "3n"
                     },
                     "operator": ">",
                     "right": {
@@ -183,8 +182,7 @@
                       "type": "Literal",
                       "start": 422,
                       "end": 424,
-                      "value": "3n",
-                      "bigint": "3"
+                      "value": "3n"
                     }
                   }
                 }

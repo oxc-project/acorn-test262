@@ -138,8 +138,7 @@
                     "type": "Literal",
                     "start": 645,
                     "end": 647,
-                    "value": "0n",
-                    "bigint": "0"
+                    "value": "0n"
                   }
                 ],
                 "optional": false
@@ -212,8 +211,7 @@
                 "type": "Literal",
                 "start": 717,
                 "end": 719,
-                "value": "0n",
-                "bigint": "0"
+                "value": "0n"
               },
               "property": {
                 "type": "Identifier",

@@ -147,8 +147,7 @@
                 "type": "Literal",
                 "start": 461,
                 "end": 463,
-                "value": "0n",
-                "bigint": "0"
+                "value": "0n"
               },
               {
                 "type": "UnaryExpression",

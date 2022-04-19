@@ -732,8 +732,7 @@
                   "type": "Literal",
                   "start": 835,
                   "end": 837,
-                  "value": "7n",
-                  "bigint": "7"
+                  "value": "7n"
                 }
               ],
               "optional": false

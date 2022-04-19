@@ -74,29 +74,25 @@
                                 "type": "Literal",
                                 "start": 990,
                                 "end": 993,
-                                "value": "42n",
-                                "bigint": "42"
+                                "value": "42n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 995,
                                 "end": 998,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1000,
                                 "end": 1003,
-                                "value": "43n",
-                                "bigint": "43"
+                                "value": "43n"
                               },
                               {
                                 "type": "Literal",
                                 "start": 1005,
                                 "end": 1008,
-                                "value": "41n",
-                                "bigint": "41"
+                                "value": "41n"
                               }
                             ]
                           }
@@ -162,8 +158,7 @@
                             "type": "Literal",
                             "start": 1051,
                             "end": 1054,
-                            "value": "43n",
-                            "bigint": "43"
+                            "value": "43n"
                           },
                           {
                             "type": "Identifier",
@@ -246,8 +241,7 @@
                             "type": "Literal",
                             "start": 1138,
                             "end": 1141,
-                            "value": "43n",
-                            "bigint": "43"
+                            "value": "43n"
                           },
                           {
                             "type": "UnaryExpression",

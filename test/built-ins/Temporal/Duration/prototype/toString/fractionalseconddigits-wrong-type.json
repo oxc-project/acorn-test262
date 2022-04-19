@@ -640,8 +640,7 @@
                         "type": "Literal",
                         "start": 1842,
                         "end": 1844,
-                        "value": "2n",
-                        "bigint": "2"
+                        "value": "2n"
                       },
                       "kind": "init"
                     }
