@@ -1,0 +1,294 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 765,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 460,
+      "end": 517,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 466,
+          "end": 516,
+          "id": {
+            "type": "Identifier",
+            "start": 466,
+            "end": 478,
+            "name": "validOptions"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 481,
+            "end": 516,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 485,
+                "end": 494,
+                "name": "undefined"
+              },
+              {
+                "type": "Literal",
+                "start": 498,
+                "end": 499,
+                "value": 0
+              },
+              {
+                "type": "Literal",
+                "start": 503,
+                "end": 504,
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 508,
+                "end": 509,
+                "value": 5
+              },
+              {
+                "type": "Literal",
+                "start": 513,
+                "end": 514,
+                "value": 9
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 519,
+      "end": 764,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 524,
+        "end": 546,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 530,
+            "end": 546,
+            "id": {
+              "type": "Identifier",
+              "start": 530,
+              "end": 546,
+              "name": "fractionalDigits"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 550,
+        "end": 562,
+        "name": "validOptions"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 564,
+        "end": 764,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 568,
+            "end": 630,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 574,
+                "end": 629,
+                "id": {
+                  "type": "Identifier",
+                  "start": 574,
+                  "end": 577,
+                  "name": "obj"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 580,
+                  "end": 629,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 584,
+                    "end": 603,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 584,
+                      "end": 588,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 589,
+                      "end": 603,
+                      "name": "DurationFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 604,
+                      "end": 608,
+                      "value": "en"
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 610,
+                      "end": 628,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 611,
+                          "end": 627,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 611,
+                            "end": 627,
+                            "name": "fractionalDigits"
+                          },
+                          "kind": "init",
+                          "value": {
+                            "type": "Identifier",
+                            "start": 611,
+                            "end": 627,
+                            "name": "fractionalDigits"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 633,
+            "end": 762,
+            "expression": {
+              "type": "CallExpression",
+              "start": 633,
+              "end": 761,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 633,
+                "end": 649,
+                "object": {
+                  "type": "Identifier",
+                  "start": 633,
+                  "end": 639,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 640,
+                  "end": 649,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 650,
+                  "end": 688,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 650,
+                    "end": 671,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 650,
+                      "end": 669,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 650,
+                        "end": 653,
+                        "name": "obj"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 654,
+                        "end": 669,
+                        "name": "resolvedOptions"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 672,
+                    "end": 688,
+                    "name": "fractionalDigits"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 690,
+                  "end": 706,
+                  "name": "fractionalDigits"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 708,
+                  "end": 760,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 711,
+                      "end": 727,
+                      "name": "fractionalDigits"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 709,
+                      "end": 709,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 728,
+                      "end": 759,
+                      "value": {
+                        "raw": " is supported by DurationFormat",
+                        "cooked": " is supported by DurationFormat"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

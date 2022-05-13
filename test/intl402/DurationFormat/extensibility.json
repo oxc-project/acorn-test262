@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 582,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 437,
+      "end": 579,
+      "expression": {
+        "type": "CallExpression",
+        "start": 437,
+        "end": 578,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 437,
+          "end": 453,
+          "object": {
+            "type": "Identifier",
+            "start": 437,
+            "end": 443,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 453,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 457,
+            "end": 503,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 457,
+              "end": 476,
+              "object": {
+                "type": "Identifier",
+                "start": 457,
+                "end": 463,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 464,
+                "end": 476,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 477,
+                "end": 502,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 481,
+                  "end": 500,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 481,
+                    "end": 485,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 486,
+                    "end": 500,
+                    "name": "DurationFormat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 507,
+            "end": 511,
+            "value": true
+          },
+          {
+            "type": "Literal",
+            "start": 515,
+            "end": 576,
+            "value": "Object.isExtensible(new Intl.DurationFormat()) returns true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

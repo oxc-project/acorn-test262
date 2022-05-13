@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 591,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 477,
+      "end": 590,
+      "expression": {
+        "type": "CallExpression",
+        "start": 477,
+        "end": 589,
+        "callee": {
+          "type": "Identifier",
+          "start": 477,
+          "end": 487,
+          "name": "testOption"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 488,
+            "end": 507,
+            "object": {
+              "type": "Identifier",
+              "start": 488,
+              "end": 492,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 493,
+              "end": 507,
+              "name": "DurationFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 509,
+            "end": 524,
+            "value": "localeMatcher"
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 534,
+            "value": "string"
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 536,
+            "end": 558,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 537,
+                "end": 545,
+                "value": "lookup"
+              },
+              {
+                "type": "Literal",
+                "start": 547,
+                "end": 557,
+                "value": "best fit"
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 560,
+            "end": 570,
+            "value": "best fit"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 572,
+            "end": 588,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 573,
+                "end": 587,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 573,
+                  "end": 581,
+                  "name": "noReturn"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 583,
+                  "end": 587,
+                  "value": true
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

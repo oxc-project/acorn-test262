@@ -1,0 +1,596 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 959,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 268,
+      "end": 307,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 274,
+          "end": 306,
+          "id": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 279,
+            "name": "epoch"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 282,
+            "end": 306,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 286,
+              "end": 302,
+              "object": {
+                "type": "Identifier",
+                "start": 286,
+                "end": 294,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 295,
+                "end": 302,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 303,
+                "end": 305,
+                "value": "0n"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 309,
+      "end": 324,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 315,
+          "end": 323,
+          "id": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 318,
+            "name": "arg"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 321,
+            "end": 323,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 457,
+      "expression": {
+        "type": "CallExpression",
+        "start": 325,
+        "end": 456,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 325,
+          "end": 338,
+          "object": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 338,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 339,
+            "end": 349,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 351,
+            "end": 393,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 357,
+              "end": 393,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 357,
+                "end": 381,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 357,
+                  "end": 373,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 357,
+                    "end": 365,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 366,
+                    "end": 373,
+                    "name": "Instant"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 374,
+                  "end": 381,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 382,
+                  "end": 385,
+                  "name": "arg"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 387,
+                  "end": 392,
+                  "name": "epoch"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 395,
+            "end": 455,
+            "value": "[object Object] is not a valid ISO string (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 591,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 590,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 458,
+          "end": 471,
+          "object": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 471,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 472,
+            "end": 482,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 484,
+            "end": 526,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 490,
+              "end": 526,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 490,
+                "end": 514,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 490,
+                  "end": 506,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 490,
+                    "end": 498,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 499,
+                    "end": 506,
+                    "name": "Instant"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 507,
+                  "end": 514,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 515,
+                  "end": 520,
+                  "name": "epoch"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 522,
+                  "end": 525,
+                  "name": "arg"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 528,
+            "end": 589,
+            "value": "[object Object] is not a valid ISO string (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 593,
+      "end": 653,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 593,
+        "end": 652,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 593,
+          "end": 605,
+          "object": {
+            "type": "Identifier",
+            "start": 593,
+            "end": 596,
+            "name": "arg"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 597,
+            "end": 605,
+            "name": "toString"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 608,
+          "end": 652,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 619,
+            "end": 652,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 623,
+                "end": 650,
+                "argument": {
+                  "type": "Literal",
+                  "start": 630,
+                  "end": 649,
+                  "value": "1970-01-01T00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 654,
+      "end": 707,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 660,
+          "end": 706,
+          "id": {
+            "type": "Identifier",
+            "start": 660,
+            "end": 667,
+            "name": "result1"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 670,
+            "end": 706,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 670,
+              "end": 694,
+              "object": {
+                "type": "MemberExpression",
+                "start": 670,
+                "end": 686,
+                "object": {
+                  "type": "Identifier",
+                  "start": 670,
+                  "end": 678,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 679,
+                  "end": 686,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 687,
+                "end": 694,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 695,
+                "end": 698,
+                "name": "arg"
+              },
+              {
+                "type": "Identifier",
+                "start": 700,
+                "end": 705,
+                "name": "epoch"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 708,
+      "end": 805,
+      "expression": {
+        "type": "CallExpression",
+        "start": 708,
+        "end": 804,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 708,
+          "end": 724,
+          "object": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 714,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 724,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 725,
+            "end": 732,
+            "name": "result1"
+          },
+          {
+            "type": "Literal",
+            "start": 734,
+            "end": 735,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 737,
+            "end": 803,
+            "value": "result of toString is interpreted as ISO string (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 806,
+      "end": 859,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 812,
+          "end": 858,
+          "id": {
+            "type": "Identifier",
+            "start": 812,
+            "end": 819,
+            "name": "result2"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 822,
+            "end": 858,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 822,
+              "end": 846,
+              "object": {
+                "type": "MemberExpression",
+                "start": 822,
+                "end": 838,
+                "object": {
+                  "type": "Identifier",
+                  "start": 822,
+                  "end": 830,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 831,
+                  "end": 838,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 839,
+                "end": 846,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 847,
+                "end": 852,
+                "name": "epoch"
+              },
+              {
+                "type": "Identifier",
+                "start": 854,
+                "end": 857,
+                "name": "arg"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 860,
+      "end": 958,
+      "expression": {
+        "type": "CallExpression",
+        "start": 860,
+        "end": 957,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 860,
+          "end": 876,
+          "object": {
+            "type": "Identifier",
+            "start": 860,
+            "end": 866,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 867,
+            "end": 876,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 877,
+            "end": 884,
+            "name": "result2"
+          },
+          {
+            "type": "Literal",
+            "start": 886,
+            "end": 887,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 889,
+            "end": 956,
+            "value": "result of toString is interpreted as ISO string (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

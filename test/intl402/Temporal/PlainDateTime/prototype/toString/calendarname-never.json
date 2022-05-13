@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 524,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 299,
+      "end": 359,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 305,
+          "end": 358,
+          "id": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 307,
+            "name": "dt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 310,
+            "end": 358,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 314,
+              "end": 336,
+              "object": {
+                "type": "Identifier",
+                "start": 314,
+                "end": 322,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 336,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 337,
+                "end": 341,
+                "value": 1976
+              },
+              {
+                "type": "Literal",
+                "start": 343,
+                "end": 345,
+                "value": 11
+              },
+              {
+                "type": "Literal",
+                "start": 347,
+                "end": 349,
+                "value": 18
+              },
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 353,
+                "value": 15
+              },
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 357,
+                "value": 23
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 361,
+      "end": 523,
+      "expression": {
+        "type": "CallExpression",
+        "start": 361,
+        "end": 522,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 361,
+          "end": 377,
+          "object": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 367,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 377,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 381,
+            "end": 443,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 381,
+              "end": 416,
+              "object": {
+                "type": "CallExpression",
+                "start": 381,
+                "end": 407,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 381,
+                  "end": 396,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 381,
+                    "end": 383,
+                    "name": "dt"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 384,
+                    "end": 396,
+                    "name": "withCalendar"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 397,
+                    "end": 406,
+                    "value": "gregory"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 408,
+                "end": 416,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 417,
+                "end": 442,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 419,
+                    "end": 440,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 419,
+                      "end": 431,
+                      "name": "calendarName"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 433,
+                      "end": 440,
+                      "value": "never"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 447,
+            "end": 468,
+            "value": "1976-11-18T15:23:00"
+          },
+          {
+            "type": "Literal",
+            "start": 472,
+            "end": 520,
+            "value": "omits non-ISO calendar if calendarName = never"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

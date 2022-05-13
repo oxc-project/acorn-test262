@@ -1,45 +1,70 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 651,
+  "end": 738,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 278,
-      "end": 338,
+      "start": 312,
+      "end": 331,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 284,
-          "end": 337,
+          "start": 318,
+          "end": 330,
           "id": {
             "type": "Identifier",
-            "start": 284,
-            "end": 298,
-            "name": "plainYearMonth"
+            "start": 318,
+            "end": 321,
+            "name": "arg"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 324,
+            "end": 330,
+            "value": 201906
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 333,
+      "end": 382,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 339,
+          "end": 381,
+          "id": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 345,
+            "name": "result"
           },
           "init": {
             "type": "CallExpression",
-            "start": 301,
-            "end": 337,
+            "start": 348,
+            "end": 381,
             "callee": {
               "type": "MemberExpression",
-              "start": 301,
-              "end": 329,
+              "start": 348,
+              "end": 376,
               "object": {
                 "type": "MemberExpression",
-                "start": 301,
-                "end": 324,
+                "start": 348,
+                "end": 371,
                 "object": {
                   "type": "Identifier",
-                  "start": 301,
-                  "end": 309,
+                  "start": 348,
+                  "end": 356,
                   "name": "Temporal"
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 310,
-                  "end": 324,
+                  "start": 357,
+                  "end": 371,
                   "name": "PlainYearMonth"
                 },
                 "computed": false,
@@ -47,8 +72,8 @@
               },
               "property": {
                 "type": "Identifier",
-                "start": 325,
-                "end": 329,
+                "start": 372,
+                "end": 376,
                 "name": "from"
               },
               "computed": false,
@@ -56,10 +81,10 @@
             },
             "arguments": [
               {
-                "type": "Literal",
-                "start": 330,
-                "end": 336,
-                "value": 201906
+                "type": "Identifier",
+                "start": 377,
+                "end": 380,
+                "name": "arg"
               }
             ],
             "optional": false
@@ -70,26 +95,26 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 339,
-      "end": 408,
+      "start": 383,
+      "end": 495,
       "expression": {
         "type": "CallExpression",
-        "start": 339,
-        "end": 407,
+        "start": 383,
+        "end": 494,
         "callee": {
           "type": "MemberExpression",
-          "start": 339,
-          "end": 375,
+          "start": 383,
+          "end": 419,
           "object": {
             "type": "Identifier",
-            "start": 339,
-            "end": 354,
+            "start": 383,
+            "end": 398,
             "name": "TemporalHelpers"
           },
           "property": {
             "type": "Identifier",
-            "start": 355,
-            "end": 375,
+            "start": 399,
+            "end": 419,
             "name": "assertPlainYearMonth"
           },
           "computed": false,
@@ -98,27 +123,33 @@
         "arguments": [
           {
             "type": "Identifier",
-            "start": 376,
-            "end": 390,
-            "name": "plainYearMonth"
+            "start": 420,
+            "end": 426,
+            "name": "result"
           },
           {
             "type": "Literal",
-            "start": 392,
-            "end": 396,
+            "start": 428,
+            "end": 432,
             "value": 2019
           },
           {
             "type": "Literal",
-            "start": 398,
-            "end": 399,
+            "start": 434,
+            "end": 435,
             "value": 6
           },
           {
             "type": "Literal",
-            "start": 401,
-            "end": 406,
+            "start": 437,
+            "end": 442,
             "value": "M06"
+          },
+          {
+            "type": "Literal",
+            "start": 444,
+            "end": 493,
+            "value": "201906 is a valid ISO string for PlainYearMonth"
           }
         ],
         "optional": false
@@ -126,306 +157,221 @@
     },
     {
       "type": "VariableDeclaration",
-      "start": 409,
-      "end": 454,
+      "start": 497,
+      "end": 544,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 415,
-          "end": 453,
+          "start": 503,
+          "end": 543,
           "id": {
             "type": "Identifier",
-            "start": 415,
-            "end": 421,
-            "name": "fields"
+            "start": 503,
+            "end": 510,
+            "name": "numbers"
           },
           "init": {
-            "type": "CallExpression",
-            "start": 424,
-            "end": 453,
-            "callee": {
-              "type": "MemberExpression",
-              "start": 424,
-              "end": 451,
-              "object": {
-                "type": "Identifier",
-                "start": 424,
-                "end": 438,
-                "name": "plainYearMonth"
+            "type": "ArrayExpression",
+            "start": 513,
+            "end": 543,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 517,
+                "end": 518,
+                "value": 1
               },
-              "property": {
-                "type": "Identifier",
-                "start": 439,
-                "end": 451,
-                "name": "getISOFields"
+              {
+                "type": "UnaryExpression",
+                "start": 522,
+                "end": 529,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 523,
+                  "end": 529,
+                  "value": 201906
+                }
               },
-              "computed": false,
-              "optional": false
-            },
-            "arguments": [],
-            "optional": false
+              {
+                "type": "Literal",
+                "start": 533,
+                "end": 540,
+                "value": 1234567
+              }
+            ]
           }
         }
       ],
       "kind": "const"
     },
     {
-      "type": "ExpressionStatement",
-      "start": 455,
-      "end": 503,
-      "expression": {
-        "type": "CallExpression",
-        "start": 455,
-        "end": 502,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 455,
-          "end": 471,
-          "object": {
-            "type": "Identifier",
-            "start": 455,
-            "end": 461,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 462,
-            "end": 471,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
+      "type": "ForOfStatement",
+      "start": 546,
+      "end": 737,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 551,
+        "end": 560,
+        "declarations": [
           {
-            "type": "MemberExpression",
-            "start": 472,
-            "end": 490,
-            "object": {
-              "type": "MemberExpression",
-              "start": 472,
-              "end": 487,
-              "object": {
-                "type": "Identifier",
-                "start": 472,
-                "end": 478,
-                "name": "fields"
-              },
-              "property": {
-                "type": "Identifier",
-                "start": 479,
-                "end": 487,
-                "name": "calendar"
-              },
-              "computed": false,
-              "optional": false
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 488,
-              "end": 490,
-              "name": "id"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 492,
-            "end": 501,
-            "value": "iso8601"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 504,
-      "end": 549,
-      "expression": {
-        "type": "CallExpression",
-        "start": 504,
-        "end": 548,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 504,
-          "end": 520,
-          "object": {
-            "type": "Identifier",
-            "start": 504,
-            "end": 510,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 511,
-            "end": 520,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 521,
-            "end": 534,
-            "object": {
-              "type": "Identifier",
-              "start": 521,
-              "end": 527,
-              "name": "fields"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 528,
-              "end": 534,
-              "name": "isoDay"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 536,
-            "end": 537,
-            "value": 1
-          },
-          {
-            "type": "Literal",
-            "start": 539,
-            "end": 547,
-            "value": "isoDay"
-          }
-        ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 550,
-      "end": 599,
-      "expression": {
-        "type": "CallExpression",
-        "start": 550,
-        "end": 598,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 550,
-          "end": 566,
-          "object": {
-            "type": "Identifier",
-            "start": 550,
-            "end": 556,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
+            "type": "VariableDeclarator",
             "start": 557,
-            "end": 566,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
-          {
-            "type": "MemberExpression",
-            "start": 567,
-            "end": 582,
-            "object": {
+            "end": 560,
+            "id": {
               "type": "Identifier",
-              "start": 567,
-              "end": 573,
-              "name": "fields"
+              "start": 557,
+              "end": 560,
+              "name": "arg"
             },
-            "property": {
-              "type": "Identifier",
-              "start": 574,
-              "end": 582,
-              "name": "isoMonth"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 584,
-            "end": 585,
-            "value": 6
-          },
-          {
-            "type": "Literal",
-            "start": 587,
-            "end": 597,
-            "value": "isoMonth"
+            "init": null
           }
         ],
-        "optional": false
-      }
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 600,
-      "end": 650,
-      "expression": {
-        "type": "CallExpression",
-        "start": 600,
-        "end": 649,
-        "callee": {
-          "type": "MemberExpression",
-          "start": 600,
-          "end": 616,
-          "object": {
-            "type": "Identifier",
-            "start": 600,
-            "end": 606,
-            "name": "assert"
-          },
-          "property": {
-            "type": "Identifier",
-            "start": 607,
-            "end": 616,
-            "name": "sameValue"
-          },
-          "computed": false,
-          "optional": false
-        },
-        "arguments": [
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 564,
+        "end": 571,
+        "name": "numbers"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 573,
+        "end": 737,
+        "body": [
           {
-            "type": "MemberExpression",
-            "start": 617,
-            "end": 631,
-            "object": {
-              "type": "Identifier",
-              "start": 617,
-              "end": 623,
-              "name": "fields"
-            },
-            "property": {
-              "type": "Identifier",
-              "start": 624,
-              "end": 631,
-              "name": "isoYear"
-            },
-            "computed": false,
-            "optional": false
-          },
-          {
-            "type": "Literal",
-            "start": 633,
-            "end": 637,
-            "value": 2019
-          },
-          {
-            "type": "Literal",
-            "start": 639,
-            "end": 648,
-            "value": "isoYear"
+            "type": "ExpressionStatement",
+            "start": 577,
+            "end": 735,
+            "expression": {
+              "type": "CallExpression",
+              "start": 577,
+              "end": 734,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 577,
+                "end": 590,
+                "object": {
+                  "type": "Identifier",
+                  "start": 577,
+                  "end": 583,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 584,
+                  "end": 590,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 596,
+                  "end": 606,
+                  "name": "RangeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 612,
+                  "end": 651,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 618,
+                    "end": 651,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 618,
+                      "end": 646,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 618,
+                        "end": 641,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 618,
+                          "end": 626,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 627,
+                          "end": 641,
+                          "name": "PlainYearMonth"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 642,
+                        "end": 646,
+                        "name": "from"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 647,
+                        "end": 650,
+                        "name": "arg"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 657,
+                  "end": 730,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 667,
+                      "end": 670,
+                      "name": "arg"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 658,
+                      "end": 665,
+                      "value": {
+                        "raw": "Number ",
+                        "cooked": "Number "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 671,
+                      "end": 729,
+                      "value": {
+                        "raw": " does not convert to a valid ISO string for PlainYearMonth",
+                        "cooked": " does not convert to a valid ISO string for PlainYearMonth"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
           }
-        ],
-        "optional": false
+        ]
       }
     }
   ],

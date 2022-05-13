@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 447,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 254,
+      "end": 303,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 260,
+          "end": 302,
+          "id": {
+            "type": "Identifier",
+            "start": 260,
+            "end": 263,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 266,
+            "end": 302,
+            "value": "1970-01-01T00:19:32.37+00:19:32.37"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 304,
+      "end": 346,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 310,
+          "end": 345,
+          "id": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 316,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 319,
+            "end": 345,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 319,
+              "end": 340,
+              "object": {
+                "type": "MemberExpression",
+                "start": 319,
+                "end": 335,
+                "object": {
+                  "type": "Identifier",
+                  "start": 319,
+                  "end": 327,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 328,
+                  "end": 335,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 340,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 341,
+                "end": 344,
+                "name": "str"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 347,
+      "end": 446,
+      "expression": {
+        "type": "CallExpression",
+        "start": 347,
+        "end": 445,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 347,
+          "end": 363,
+          "object": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 353,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 363,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 364,
+            "end": 387,
+            "object": {
+              "type": "Identifier",
+              "start": 364,
+              "end": 370,
+              "name": "result"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 371,
+              "end": 387,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 389,
+            "end": 391,
+            "value": "0n"
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 444,
+            "value": "if present, sub-minute offset is accepted exactly"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

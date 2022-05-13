@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 911,
+  "end": 973,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -164,11 +164,11 @@
     {
       "type": "ExpressionStatement",
       "start": 474,
-      "end": 686,
+      "end": 717,
       "expression": {
         "type": "CallExpression",
         "start": 474,
-        "end": 685,
+        "end": 716,
         "callee": {
           "type": "Identifier",
           "start": 474,
@@ -191,7 +191,7 @@
           {
             "type": "ObjectExpression",
             "start": 525,
-            "end": 574,
+            "end": 600,
             "properties": [
               {
                 "type": "Property",
@@ -234,116 +234,137 @@
                   "value": 2
                 },
                 "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 575,
+                "end": 599,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 575,
+                  "end": 596,
+                  "name": "minimumFractionDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 598,
+                  "end": 599,
+                  "value": 2
+                },
+                "kind": "init"
               }
             ]
           },
           {
             "type": "ObjectExpression",
-            "start": 578,
-            "end": 683,
+            "start": 604,
+            "end": 714,
             "properties": [
               {
                 "type": "Property",
-                "start": 584,
-                "end": 598,
+                "start": 610,
+                "end": 625,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 584,
-                  "end": 591,
+                  "start": 610,
+                  "end": 617,
                   "value": "1.100"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 593,
-                  "end": 598,
-                  "value": "1.1"
+                  "start": 619,
+                  "end": 625,
+                  "value": "1.10"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 604,
-                "end": 618,
+                "start": 631,
+                "end": 646,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 604,
-                  "end": 611,
+                  "start": 631,
+                  "end": 638,
                   "value": "1.125"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 613,
-                  "end": 618,
-                  "value": "1.1"
+                  "start": 640,
+                  "end": 646,
+                  "value": "1.10"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 624,
-                "end": 638,
+                "start": 652,
+                "end": 667,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 624,
-                  "end": 631,
+                  "start": 652,
+                  "end": 659,
                   "value": "1.150"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 633,
-                  "end": 638,
-                  "value": "1.2"
+                  "start": 661,
+                  "end": 667,
+                  "value": "1.20"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 644,
-                "end": 658,
+                "start": 673,
+                "end": 688,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 644,
-                  "end": 651,
+                  "start": 673,
+                  "end": 680,
                   "value": "1.175"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 653,
-                  "end": 658,
-                  "value": "1.2"
+                  "start": 682,
+                  "end": 688,
+                  "value": "1.20"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 664,
-                "end": 678,
+                "start": 694,
+                "end": 709,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 664,
-                  "end": 671,
+                  "start": 694,
+                  "end": 701,
                   "value": "1.200"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 673,
-                  "end": 678,
-                  "value": "1.2"
+                  "start": 703,
+                  "end": 709,
+                  "value": "1.20"
                 },
                 "kind": "init"
               }
@@ -355,74 +376,95 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 688,
-      "end": 910,
+      "start": 719,
+      "end": 972,
       "expression": {
         "type": "CallExpression",
-        "start": 688,
-        "end": 909,
+        "start": 719,
+        "end": 971,
         "callee": {
           "type": "Identifier",
-          "start": 688,
-          "end": 704,
+          "start": 719,
+          "end": 735,
           "name": "testNumberFormat"
         },
         "arguments": [
           {
             "type": "Identifier",
-            "start": 708,
-            "end": 715,
+            "start": 739,
+            "end": 746,
             "name": "locales"
           },
           {
             "type": "Identifier",
-            "start": 719,
-            "end": 735,
+            "start": 750,
+            "end": 766,
             "name": "numberingSystems"
           },
           {
             "type": "ObjectExpression",
-            "start": 739,
-            "end": 788,
+            "start": 770,
+            "end": 845,
             "properties": [
               {
                 "type": "Property",
-                "start": 740,
-                "end": 761,
+                "start": 771,
+                "end": 792,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 740,
-                  "end": 757,
+                  "start": 771,
+                  "end": 788,
                   "name": "roundingIncrement"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 759,
-                  "end": 761,
+                  "start": 790,
+                  "end": 792,
                   "value": 10
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 763,
-                "end": 787,
+                "start": 794,
+                "end": 818,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 763,
-                  "end": 784,
+                  "start": 794,
+                  "end": 815,
                   "name": "maximumFractionDigits"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 786,
-                  "end": 787,
+                  "start": 817,
+                  "end": 818,
+                  "value": 3
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 820,
+                "end": 844,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 820,
+                  "end": 841,
+                  "name": "minimumFractionDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 843,
+                  "end": 844,
                   "value": 3
                 },
                 "kind": "init"
@@ -431,111 +473,111 @@
           },
           {
             "type": "ObjectExpression",
-            "start": 792,
-            "end": 907,
+            "start": 849,
+            "end": 969,
             "properties": [
               {
                 "type": "Property",
-                "start": 798,
-                "end": 814,
+                "start": 855,
+                "end": 872,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 798,
-                  "end": 806,
+                  "start": 855,
+                  "end": 863,
                   "value": "1.0100"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 808,
-                  "end": 814,
-                  "value": "1.01"
+                  "start": 865,
+                  "end": 872,
+                  "value": "1.010"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 820,
-                "end": 836,
+                "start": 878,
+                "end": 895,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 820,
-                  "end": 828,
+                  "start": 878,
+                  "end": 886,
                   "value": "1.0125"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 830,
-                  "end": 836,
-                  "value": "1.01"
+                  "start": 888,
+                  "end": 895,
+                  "value": "1.010"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 842,
-                "end": 858,
+                "start": 901,
+                "end": 918,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 842,
-                  "end": 850,
+                  "start": 901,
+                  "end": 909,
                   "value": "1.0150"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 852,
-                  "end": 858,
-                  "value": "1.02"
+                  "start": 911,
+                  "end": 918,
+                  "value": "1.020"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 864,
-                "end": 880,
+                "start": 924,
+                "end": 941,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 864,
-                  "end": 872,
+                  "start": 924,
+                  "end": 932,
                   "value": "1.0175"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 874,
-                  "end": 880,
-                  "value": "1.02"
+                  "start": 934,
+                  "end": 941,
+                  "value": "1.020"
                 },
                 "kind": "init"
               },
               {
                 "type": "Property",
-                "start": 886,
-                "end": 902,
+                "start": 947,
+                "end": 964,
                 "method": false,
                 "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 886,
-                  "end": 894,
+                  "start": 947,
+                  "end": 955,
                   "value": "1.0200"
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 896,
-                  "end": 902,
-                  "value": "1.02"
+                  "start": 957,
+                  "end": 964,
+                  "value": "1.020"
                 },
                 "kind": "init"
               }

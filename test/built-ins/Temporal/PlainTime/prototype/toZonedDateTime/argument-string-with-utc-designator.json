@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 672,
+  "end": 689,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -125,11 +125,11 @@
     {
       "type": "ExpressionStatement",
       "start": 472,
-      "end": 671,
+      "end": 688,
       "expression": {
         "type": "CallExpression",
         "start": 472,
-        "end": 670,
+        "end": 687,
         "callee": {
           "type": "MemberExpression",
           "start": 472,
@@ -153,7 +153,7 @@
           {
             "type": "ArrowFunctionExpression",
             "start": 495,
-            "end": 669,
+            "end": 686,
             "id": null,
             "expression": false,
             "generator": false,
@@ -169,16 +169,16 @@
             "body": {
               "type": "BlockStatement",
               "start": 504,
-              "end": 669,
+              "end": 686,
               "body": [
                 {
                   "type": "ExpressionStatement",
                   "start": 508,
-                  "end": 667,
+                  "end": 684,
                   "expression": {
                     "type": "CallExpression",
                     "start": 508,
-                    "end": 666,
+                    "end": 683,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 508,
@@ -208,7 +208,7 @@
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 543,
-                        "end": 593,
+                        "end": 610,
                         "id": null,
                         "expression": true,
                         "generator": false,
@@ -217,7 +217,7 @@
                         "body": {
                           "type": "CallExpression",
                           "start": 549,
-                          "end": 593,
+                          "end": 610,
                           "callee": {
                             "type": "MemberExpression",
                             "start": 549,
@@ -241,7 +241,7 @@
                             {
                               "type": "ObjectExpression",
                               "start": 574,
-                              "end": 592,
+                              "end": 609,
                               "properties": [
                                 {
                                   "type": "Property",
@@ -263,6 +263,27 @@
                                     "name": "arg"
                                   },
                                   "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 592,
+                                  "end": 607,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 592,
+                                    "end": 600,
+                                    "name": "timeZone"
+                                  },
+                                  "value": {
+                                    "type": "Literal",
+                                    "start": 602,
+                                    "end": 607,
+                                    "value": "UTC"
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }
@@ -272,8 +293,8 @@
                       },
                       {
                         "type": "Literal",
-                        "start": 599,
-                        "end": 662,
+                        "start": 616,
+                        "end": 679,
                         "value": "String with UTC designator should not be valid as a PlainDate"
                       }
                     ],

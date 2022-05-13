@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 939,
+  "end": 1079,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -103,102 +103,243 @@
       "kind": "const"
     },
     {
-      "type": "ExpressionStatement",
+      "type": "VariableDeclaration",
       "start": 853,
-      "end": 938,
+      "end": 923,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 859,
+          "end": 922,
+          "id": {
+            "type": "Identifier",
+            "start": 859,
+            "end": 870,
+            "name": "invalidCals"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 873,
+            "end": 922,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 874,
+                "end": 888,
+                "value": "other string"
+              },
+              {
+                "type": "Literal",
+                "start": 890,
+                "end": 898,
+                "value": "ALWAYS"
+              },
+              {
+                "type": "Literal",
+                "start": 900,
+                "end": 911,
+                "value": "sometimes"
+              },
+              {
+                "type": "Literal",
+                "start": 913,
+                "end": 921,
+                "value": "auto\u0000"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 925,
+      "end": 1078,
       "expression": {
         "type": "CallExpression",
-        "start": 853,
-        "end": 937,
+        "start": 925,
+        "end": 1077,
         "callee": {
           "type": "MemberExpression",
-          "start": 853,
-          "end": 866,
+          "start": 925,
+          "end": 944,
           "object": {
             "type": "Identifier",
-            "start": 853,
-            "end": 859,
-            "name": "assert"
+            "start": 925,
+            "end": 936,
+            "name": "invalidCals"
           },
           "property": {
             "type": "Identifier",
-            "start": 860,
-            "end": 866,
-            "name": "throws"
+            "start": 937,
+            "end": 944,
+            "name": "forEach"
           },
           "computed": false,
           "optional": false
         },
         "arguments": [
           {
-            "type": "Identifier",
-            "start": 867,
-            "end": 877,
-            "name": "RangeError"
-          },
-          {
             "type": "ArrowFunctionExpression",
-            "start": 879,
-            "end": 936,
+            "start": 945,
+            "end": 1076,
             "id": null,
-            "expression": true,
+            "expression": false,
             "generator": false,
             "async": false,
-            "params": [],
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 946,
+                "end": 949,
+                "name": "cal"
+              }
+            ],
             "body": {
-              "type": "CallExpression",
-              "start": 885,
-              "end": 936,
-              "callee": {
-                "type": "MemberExpression",
-                "start": 885,
-                "end": 902,
-                "object": {
-                  "type": "Identifier",
-                  "start": 885,
-                  "end": 893,
-                  "name": "datetime"
-                },
-                "property": {
-                  "type": "Identifier",
-                  "start": 894,
-                  "end": 902,
-                  "name": "toString"
-                },
-                "computed": false,
-                "optional": false
-              },
-              "arguments": [
+              "type": "BlockStatement",
+              "start": 954,
+              "end": 1076,
+              "body": [
                 {
-                  "type": "ObjectExpression",
-                  "start": 903,
-                  "end": 935,
-                  "properties": [
-                    {
-                      "type": "Property",
-                      "start": 905,
-                      "end": 933,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
-                      "key": {
+                  "type": "ExpressionStatement",
+                  "start": 958,
+                  "end": 1074,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 958,
+                    "end": 1073,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 958,
+                      "end": 971,
+                      "object": {
                         "type": "Identifier",
-                        "start": 905,
-                        "end": 917,
-                        "name": "calendarName"
+                        "start": 958,
+                        "end": 964,
+                        "name": "assert"
                       },
-                      "value": {
-                        "type": "Literal",
-                        "start": 919,
-                        "end": 933,
-                        "value": "other string"
+                      "property": {
+                        "type": "Identifier",
+                        "start": 965,
+                        "end": 971,
+                        "name": "throws"
                       },
-                      "kind": "init"
-                    }
-                  ]
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 977,
+                        "end": 987,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 993,
+                        "end": 1039,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 999,
+                          "end": 1039,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 999,
+                            "end": 1016,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 999,
+                              "end": 1007,
+                              "name": "datetime"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1008,
+                              "end": 1016,
+                              "name": "toString"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "ObjectExpression",
+                              "start": 1017,
+                              "end": 1038,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 1019,
+                                  "end": 1036,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 1019,
+                                    "end": 1031,
+                                    "name": "calendarName"
+                                  },
+                                  "value": {
+                                    "type": "Identifier",
+                                    "start": 1033,
+                                    "end": 1036,
+                                    "name": "cal"
+                                  },
+                                  "kind": "init"
+                                }
+                              ]
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 1045,
+                        "end": 1072,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1066,
+                            "end": 1069,
+                            "name": "cal"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 1046,
+                            "end": 1064,
+                            "value": {
+                              "raw": "invalid calendar (",
+                              "cooked": "invalid calendar ("
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 1070,
+                            "end": 1071,
+                            "value": {
+                              "raw": ")",
+                              "cooked": ")"
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
                 }
-              ],
-              "optional": false
+              ]
             }
           }
         ],

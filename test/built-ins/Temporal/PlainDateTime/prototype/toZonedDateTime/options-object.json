@@ -1,0 +1,309 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 622,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 266,
+      "end": 345,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 272,
+          "end": 344,
+          "id": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 274,
+            "name": "dt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 277,
+            "end": 344,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 281,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 281,
+                "end": 289,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 290,
+                "end": 303,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 304,
+                "end": 308,
+                "value": 2019
+              },
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 312,
+                "value": 10
+              },
+              {
+                "type": "Literal",
+                "start": 314,
+                "end": 316,
+                "value": 29
+              },
+              {
+                "type": "Literal",
+                "start": 318,
+                "end": 320,
+                "value": 10
+              },
+              {
+                "type": "Literal",
+                "start": 322,
+                "end": 324,
+                "value": 46
+              },
+              {
+                "type": "Literal",
+                "start": 326,
+                "end": 328,
+                "value": 38
+              },
+              {
+                "type": "Literal",
+                "start": 330,
+                "end": 333,
+                "value": 271
+              },
+              {
+                "type": "Literal",
+                "start": 335,
+                "end": 338,
+                "value": 986
+              },
+              {
+                "type": "Literal",
+                "start": 340,
+                "end": 343,
+                "value": 102
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 347,
+      "end": 482,
+      "expression": {
+        "type": "CallExpression",
+        "start": 347,
+        "end": 481,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 347,
+          "end": 363,
+          "object": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 353,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 363,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 367,
+            "end": 413,
+            "object": {
+              "type": "CallExpression",
+              "start": 367,
+              "end": 396,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 367,
+                "end": 385,
+                "object": {
+                  "type": "Identifier",
+                  "start": 367,
+                  "end": 369,
+                  "name": "dt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 385,
+                  "name": "toZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 386,
+                  "end": 391,
+                  "value": "UTC"
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 393,
+                  "end": 395,
+                  "properties": []
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 397,
+              "end": 413,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 417,
+            "end": 437,
+            "value": "1572345998271986102n"
+          },
+          {
+            "type": "Literal",
+            "start": 441,
+            "end": 479,
+            "value": "options may be an empty plain object"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 484,
+      "end": 621,
+      "expression": {
+        "type": "CallExpression",
+        "start": 484,
+        "end": 620,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 484,
+          "end": 500,
+          "object": {
+            "type": "Identifier",
+            "start": 484,
+            "end": 490,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 500,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 504,
+            "end": 556,
+            "object": {
+              "type": "CallExpression",
+              "start": 504,
+              "end": 539,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 504,
+                "end": 522,
+                "object": {
+                  "type": "Identifier",
+                  "start": 504,
+                  "end": 506,
+                  "name": "dt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 507,
+                  "end": 522,
+                  "name": "toZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 523,
+                  "end": 528,
+                  "value": "UTC"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 530,
+                  "end": 538,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 536,
+                    "end": 538,
+                    "body": []
+                  }
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 556,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 560,
+            "end": 580,
+            "value": "1572345998271986102n"
+          },
+          {
+            "type": "Literal",
+            "start": 584,
+            "end": 618,
+            "value": "options may be a function object"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

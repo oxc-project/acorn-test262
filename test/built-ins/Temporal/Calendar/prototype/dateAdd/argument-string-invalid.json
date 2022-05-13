@@ -1,7 +1,7 @@
 {
   "type": "Program",
   "start": 0,
-  "end": 1571,
+  "end": 1596,
   "body": [
     {
       "type": "VariableDeclaration",
@@ -293,7 +293,7 @@
     {
       "type": "ForOfStatement",
       "start": 1398,
-      "end": 1570,
+      "end": 1595,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
@@ -324,16 +324,16 @@
       "body": {
         "type": "BlockStatement",
         "start": 1432,
-        "end": 1570,
+        "end": 1595,
         "body": [
           {
             "type": "ExpressionStatement",
             "start": 1436,
-            "end": 1568,
+            "end": 1593,
             "expression": {
               "type": "CallExpression",
               "start": 1436,
-              "end": 1567,
+              "end": 1592,
               "callee": {
                 "type": "MemberExpression",
                 "start": 1436,
@@ -363,7 +363,7 @@
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 1471,
-                  "end": 1498,
+                  "end": 1523,
                   "id": null,
                   "expression": true,
                   "generator": false,
@@ -372,7 +372,7 @@
                   "body": {
                     "type": "CallExpression",
                     "start": 1477,
-                    "end": 1498,
+                    "end": 1523,
                     "callee": {
                       "type": "MemberExpression",
                       "start": 1477,
@@ -398,6 +398,31 @@
                         "start": 1494,
                         "end": 1497,
                         "name": "arg"
+                      },
+                      {
+                        "type": "NewExpression",
+                        "start": 1499,
+                        "end": 1522,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 1503,
+                          "end": 1520,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1503,
+                            "end": 1511,
+                            "name": "Temporal"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1512,
+                            "end": 1520,
+                            "name": "Duration"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": []
                       }
                     ],
                     "optional": false
@@ -405,21 +430,21 @@
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 1504,
-                  "end": 1563,
+                  "start": 1529,
+                  "end": 1588,
                   "expressions": [
                     {
                       "type": "Identifier",
-                      "start": 1508,
-                      "end": 1511,
+                      "start": 1533,
+                      "end": 1536,
                       "name": "arg"
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 1505,
-                      "end": 1506,
+                      "start": 1530,
+                      "end": 1531,
                       "value": {
                         "raw": "\"",
                         "cooked": "\""
@@ -428,8 +453,8 @@
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1512,
-                      "end": 1562,
+                      "start": 1537,
+                      "end": 1587,
                       "value": {
                         "raw": "\" should not be a valid ISO string for a PlainDate",
                         "cooked": "\" should not be a valid ISO string for a PlainDate"

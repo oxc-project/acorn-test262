@@ -1,0 +1,326 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 658,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 257,
+      "end": 296,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 263,
+          "end": 295,
+          "id": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 268,
+            "name": "epoch"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 271,
+            "end": 295,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 275,
+              "end": 291,
+              "object": {
+                "type": "Identifier",
+                "start": 275,
+                "end": 283,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 284,
+                "end": 291,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 292,
+                "end": 294,
+                "value": "0n"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 297,
+      "end": 346,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 303,
+          "end": 345,
+          "id": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 306,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 309,
+            "end": 345,
+            "value": "1970-01-01T00:19:32.37+00:19:32.37"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 348,
+      "end": 401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 354,
+          "end": 400,
+          "id": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 361,
+            "name": "result1"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 364,
+            "end": 400,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 364,
+              "end": 388,
+              "object": {
+                "type": "MemberExpression",
+                "start": 364,
+                "end": 380,
+                "object": {
+                  "type": "Identifier",
+                  "start": 364,
+                  "end": 372,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 373,
+                  "end": 380,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 381,
+                "end": 388,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 389,
+                "end": 392,
+                "name": "str"
+              },
+              {
+                "type": "Identifier",
+                "start": 394,
+                "end": 399,
+                "name": "epoch"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 402,
+      "end": 501,
+      "expression": {
+        "type": "CallExpression",
+        "start": 402,
+        "end": 500,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 402,
+          "end": 418,
+          "object": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 408,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 418,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 419,
+            "end": 426,
+            "name": "result1"
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 429,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 499,
+            "value": "if present, sub-minute offset is accepted exactly (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 503,
+      "end": 556,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 509,
+          "end": 555,
+          "id": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 516,
+            "name": "result2"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 519,
+            "end": 555,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 519,
+              "end": 543,
+              "object": {
+                "type": "MemberExpression",
+                "start": 519,
+                "end": 535,
+                "object": {
+                  "type": "Identifier",
+                  "start": 519,
+                  "end": 527,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 528,
+                  "end": 535,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 536,
+                "end": 543,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 544,
+                "end": 549,
+                "name": "epoch"
+              },
+              {
+                "type": "Identifier",
+                "start": 551,
+                "end": 554,
+                "name": "str"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 557,
+      "end": 657,
+      "expression": {
+        "type": "CallExpression",
+        "start": 557,
+        "end": 656,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 557,
+          "end": 573,
+          "object": {
+            "type": "Identifier",
+            "start": 557,
+            "end": 563,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 564,
+            "end": 573,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 574,
+            "end": 581,
+            "name": "result2"
+          },
+          {
+            "type": "Literal",
+            "start": 583,
+            "end": 584,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 586,
+            "end": 655,
+            "value": "if present, sub-minute offset is accepted exactly (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

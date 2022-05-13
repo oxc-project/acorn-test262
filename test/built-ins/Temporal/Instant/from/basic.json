@@ -1,0 +1,989 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1653,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 252,
+      "end": 295,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 258,
+          "end": 294,
+          "id": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 267,
+            "name": "baseValue"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 270,
+            "end": 294,
+            "value": "217178580000000000n"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 297,
+      "end": 354,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 301,
+          "end": 353,
+          "id": {
+            "type": "Identifier",
+            "start": 301,
+            "end": 308,
+            "name": "instant"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 311,
+            "end": 353,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 311,
+              "end": 332,
+              "object": {
+                "type": "MemberExpression",
+                "start": 311,
+                "end": 327,
+                "object": {
+                  "type": "Identifier",
+                  "start": 311,
+                  "end": 319,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 320,
+                  "end": 327,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 328,
+                "end": 332,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 352,
+                "value": "1976-11-18T15:23Z"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 355,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 355,
+        "end": 472,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 355,
+          "end": 371,
+          "object": {
+            "type": "Identifier",
+            "start": 355,
+            "end": 361,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 371,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 375,
+            "end": 399,
+            "object": {
+              "type": "Identifier",
+              "start": 375,
+              "end": 382,
+              "name": "instant"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 383,
+              "end": 399,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 403,
+            "end": 412,
+            "name": "baseValue"
+          },
+          {
+            "type": "Literal",
+            "start": 416,
+            "end": 470,
+            "value": "ISO string with UTC designator and minutes precision"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 475,
+      "end": 531,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 475,
+        "end": 530,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 475,
+          "end": 482,
+          "name": "instant"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 485,
+          "end": 530,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 485,
+            "end": 506,
+            "object": {
+              "type": "MemberExpression",
+              "start": 485,
+              "end": 501,
+              "object": {
+                "type": "Identifier",
+                "start": 485,
+                "end": 493,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 494,
+                "end": 501,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 502,
+              "end": 506,
+              "name": "from"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 507,
+              "end": 529,
+              "value": "1976-11-18T15:23:30Z"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 532,
+      "end": 668,
+      "expression": {
+        "type": "CallExpression",
+        "start": 532,
+        "end": 667,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 532,
+          "end": 548,
+          "object": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 538,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 539,
+            "end": 548,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 552,
+            "end": 576,
+            "object": {
+              "type": "Identifier",
+              "start": 552,
+              "end": 559,
+              "name": "instant"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 560,
+              "end": 576,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 580,
+            "end": 607,
+            "left": {
+              "type": "Identifier",
+              "start": 580,
+              "end": 589,
+              "name": "baseValue"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 592,
+              "end": 607,
+              "value": "30000000000n"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 611,
+            "end": 665,
+            "value": "ISO string with UTC designator and seconds precision"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 670,
+      "end": 730,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 670,
+        "end": 729,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 670,
+          "end": 677,
+          "name": "instant"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 680,
+          "end": 729,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 680,
+            "end": 701,
+            "object": {
+              "type": "MemberExpression",
+              "start": 680,
+              "end": 696,
+              "object": {
+                "type": "Identifier",
+                "start": 680,
+                "end": 688,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 689,
+                "end": 696,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 697,
+              "end": 701,
+              "name": "from"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 702,
+              "end": 728,
+              "value": "1976-11-18T15:23:30.123Z"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 731,
+      "end": 872,
+      "expression": {
+        "type": "CallExpression",
+        "start": 731,
+        "end": 871,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 731,
+          "end": 747,
+          "object": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 737,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 738,
+            "end": 747,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 751,
+            "end": 775,
+            "object": {
+              "type": "Identifier",
+              "start": 751,
+              "end": 758,
+              "name": "instant"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 759,
+              "end": 775,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 779,
+            "end": 806,
+            "left": {
+              "type": "Identifier",
+              "start": 779,
+              "end": 788,
+              "name": "baseValue"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 791,
+              "end": 806,
+              "value": "30123000000n"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 810,
+            "end": 869,
+            "value": "ISO string with UTC designator and milliseconds precision"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 874,
+      "end": 937,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 874,
+        "end": 936,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 874,
+          "end": 881,
+          "name": "instant"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 884,
+          "end": 936,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 884,
+            "end": 905,
+            "object": {
+              "type": "MemberExpression",
+              "start": 884,
+              "end": 900,
+              "object": {
+                "type": "Identifier",
+                "start": 884,
+                "end": 892,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 893,
+                "end": 900,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 901,
+              "end": 905,
+              "name": "from"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 906,
+              "end": 935,
+              "value": "1976-11-18T15:23:30.123456Z"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 938,
+      "end": 1079,
+      "expression": {
+        "type": "CallExpression",
+        "start": 938,
+        "end": 1078,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 938,
+          "end": 954,
+          "object": {
+            "type": "Identifier",
+            "start": 938,
+            "end": 944,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 945,
+            "end": 954,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 958,
+            "end": 982,
+            "object": {
+              "type": "Identifier",
+              "start": 958,
+              "end": 965,
+              "name": "instant"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 966,
+              "end": 982,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 986,
+            "end": 1013,
+            "left": {
+              "type": "Identifier",
+              "start": 986,
+              "end": 995,
+              "name": "baseValue"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 998,
+              "end": 1013,
+              "value": "30123456000n"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1017,
+            "end": 1076,
+            "value": "ISO string with UTC designator and microseconds precision"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1081,
+      "end": 1147,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1081,
+        "end": 1146,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1081,
+          "end": 1088,
+          "name": "instant"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1091,
+          "end": 1146,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1091,
+            "end": 1112,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1091,
+              "end": 1107,
+              "object": {
+                "type": "Identifier",
+                "start": 1091,
+                "end": 1099,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1100,
+                "end": 1107,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1108,
+              "end": 1112,
+              "name": "from"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1113,
+              "end": 1145,
+              "value": "1976-11-18T15:23:30.123456789Z"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1148,
+      "end": 1288,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1148,
+        "end": 1287,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1148,
+          "end": 1164,
+          "object": {
+            "type": "Identifier",
+            "start": 1148,
+            "end": 1154,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1155,
+            "end": 1164,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1168,
+            "end": 1192,
+            "object": {
+              "type": "Identifier",
+              "start": 1168,
+              "end": 1175,
+              "name": "instant"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1176,
+              "end": 1192,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 1196,
+            "end": 1223,
+            "left": {
+              "type": "Identifier",
+              "start": 1196,
+              "end": 1205,
+              "name": "baseValue"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 1208,
+              "end": 1223,
+              "value": "30123456789n"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1227,
+            "end": 1285,
+            "value": "ISO string with UTC designator and nanoseconds precision"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1290,
+      "end": 1348,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1290,
+        "end": 1347,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1290,
+          "end": 1297,
+          "name": "instant"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1300,
+          "end": 1347,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1300,
+            "end": 1321,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1300,
+              "end": 1316,
+              "object": {
+                "type": "Identifier",
+                "start": 1300,
+                "end": 1308,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1309,
+                "end": 1316,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1317,
+              "end": 1321,
+              "name": "from"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1322,
+              "end": 1346,
+              "value": "1976-11-18T15:23-01:00"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1349,
+      "end": 1470,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1349,
+        "end": 1469,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1349,
+          "end": 1365,
+          "object": {
+            "type": "Identifier",
+            "start": 1349,
+            "end": 1355,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1356,
+            "end": 1365,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1369,
+            "end": 1393,
+            "object": {
+              "type": "Identifier",
+              "start": 1369,
+              "end": 1376,
+              "name": "instant"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1377,
+              "end": 1393,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 1397,
+            "end": 1426,
+            "left": {
+              "type": "Identifier",
+              "start": 1397,
+              "end": 1406,
+              "name": "baseValue"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 1409,
+              "end": 1426,
+              "value": "3600000000000n"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1430,
+            "end": 1467,
+            "value": "ISO string with negative UTC offset"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1472,
+      "end": 1530,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1472,
+        "end": 1529,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1472,
+          "end": 1479,
+          "name": "instant"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1482,
+          "end": 1529,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1482,
+            "end": 1503,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1482,
+              "end": 1498,
+              "object": {
+                "type": "Identifier",
+                "start": 1482,
+                "end": 1490,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1491,
+                "end": 1498,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1499,
+              "end": 1503,
+              "name": "from"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1504,
+              "end": 1528,
+              "value": "1976-11-18T15:23+01:00"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1531,
+      "end": 1652,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1531,
+        "end": 1651,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1531,
+          "end": 1547,
+          "object": {
+            "type": "Identifier",
+            "start": 1531,
+            "end": 1537,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1538,
+            "end": 1547,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1551,
+            "end": 1575,
+            "object": {
+              "type": "Identifier",
+              "start": 1551,
+              "end": 1558,
+              "name": "instant"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1559,
+              "end": 1575,
+              "name": "epochNanoseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 1579,
+            "end": 1608,
+            "left": {
+              "type": "Identifier",
+              "start": 1579,
+              "end": 1588,
+              "name": "baseValue"
+            },
+            "operator": "-",
+            "right": {
+              "type": "Literal",
+              "start": 1591,
+              "end": 1608,
+              "value": "3600000000000n"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1612,
+            "end": 1649,
+            "value": "ISO string with positive UTC offset"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

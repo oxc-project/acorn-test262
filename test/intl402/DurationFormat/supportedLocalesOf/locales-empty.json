@@ -1,0 +1,252 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 792,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 503,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 503,
+        "end": 653,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 503,
+          "end": 519,
+          "object": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 509,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 519,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 520,
+            "end": 565,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 527,
+              "end": 565,
+              "object": {
+                "type": "MemberExpression",
+                "start": 527,
+                "end": 546,
+                "object": {
+                  "type": "Identifier",
+                  "start": 527,
+                  "end": 531,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 532,
+                  "end": 546,
+                  "name": "DurationFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 547,
+                "end": 565,
+                "name": "supportedLocalesOf"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 567,
+            "end": 577,
+            "value": "function"
+          },
+          {
+            "type": "Literal",
+            "start": 596,
+            "end": 652,
+            "value": "Should support Intl.DurationFormat.supportedLocalesOf."
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 656,
+      "end": 722,
+      "expression": {
+        "type": "CallExpression",
+        "start": 656,
+        "end": 721,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 656,
+          "end": 675,
+          "object": {
+            "type": "Identifier",
+            "start": 656,
+            "end": 662,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 675,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 676,
+            "end": 716,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 676,
+              "end": 714,
+              "object": {
+                "type": "MemberExpression",
+                "start": 676,
+                "end": 695,
+                "object": {
+                  "type": "Identifier",
+                  "start": 676,
+                  "end": 680,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 681,
+                  "end": 695,
+                  "name": "DurationFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 696,
+                "end": 714,
+                "name": "supportedLocalesOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 718,
+            "end": 720,
+            "elements": []
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 723,
+      "end": 791,
+      "expression": {
+        "type": "CallExpression",
+        "start": 723,
+        "end": 790,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 723,
+          "end": 742,
+          "object": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 729,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 742,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 743,
+            "end": 785,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 743,
+              "end": 781,
+              "object": {
+                "type": "MemberExpression",
+                "start": 743,
+                "end": 762,
+                "object": {
+                  "type": "Identifier",
+                  "start": 743,
+                  "end": 747,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 748,
+                  "end": 762,
+                  "name": "DurationFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 763,
+                "end": 781,
+                "name": "supportedLocalesOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 782,
+                "end": 784,
+                "elements": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 787,
+            "end": 789,
+            "elements": []
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

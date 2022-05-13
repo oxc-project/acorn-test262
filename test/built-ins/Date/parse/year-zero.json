@@ -1,0 +1,168 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 596,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 365,
+      "end": 476,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 371,
+          "end": 475,
+          "id": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 385,
+            "name": "invalidStrings"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 388,
+            "end": 475,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 392,
+                "end": 414,
+                "value": "-000000-03-31T00:45Z"
+              },
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 439,
+                "value": "-000000-03-31T01:45"
+              },
+              {
+                "type": "Literal",
+                "start": 443,
+                "end": 473,
+                "value": "-000000-03-31T01:45:00+01:00"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 478,
+      "end": 595,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 483,
+        "end": 492,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 489,
+            "end": 492,
+            "id": {
+              "type": "Identifier",
+              "start": 489,
+              "end": 492,
+              "name": "str"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 496,
+        "end": 510,
+        "name": "invalidStrings"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 512,
+        "end": 595,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 516,
+            "end": 593,
+            "expression": {
+              "type": "CallExpression",
+              "start": 516,
+              "end": 592,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 516,
+                "end": 532,
+                "object": {
+                  "type": "Identifier",
+                  "start": 516,
+                  "end": 522,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 523,
+                  "end": 532,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 533,
+                  "end": 548,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 533,
+                    "end": 543,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 533,
+                      "end": 537,
+                      "name": "Date"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 538,
+                      "end": 543,
+                      "name": "parse"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 544,
+                      "end": 547,
+                      "name": "str"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 550,
+                  "end": 553,
+                  "name": "NaN"
+                },
+                {
+                  "type": "Literal",
+                  "start": 555,
+                  "end": 591,
+                  "value": "reject minus zero as extended year"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

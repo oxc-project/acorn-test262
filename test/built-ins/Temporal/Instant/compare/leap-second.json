@@ -1,0 +1,326 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 657,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 256,
+      "end": 319,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 262,
+          "end": 318,
+          "id": {
+            "type": "Identifier",
+            "start": 262,
+            "end": 267,
+            "name": "other"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 270,
+            "end": 318,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 274,
+              "end": 290,
+              "object": {
+                "type": "Identifier",
+                "start": 274,
+                "end": 282,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 283,
+                "end": 290,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 291,
+                "end": 317,
+                "value": "1483228799000000000n"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 320,
+      "end": 355,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 326,
+          "end": 354,
+          "id": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 329,
+            "name": "arg"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 332,
+            "end": 354,
+            "value": "2016-12-31T23:59:60Z"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 356,
+      "end": 409,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 362,
+          "end": 408,
+          "id": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 369,
+            "name": "result1"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 372,
+            "end": 408,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 372,
+              "end": 396,
+              "object": {
+                "type": "MemberExpression",
+                "start": 372,
+                "end": 388,
+                "object": {
+                  "type": "Identifier",
+                  "start": 372,
+                  "end": 380,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 381,
+                  "end": 388,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 396,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 397,
+                "end": 400,
+                "name": "arg"
+              },
+              {
+                "type": "Identifier",
+                "start": 402,
+                "end": 407,
+                "name": "other"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 410,
+      "end": 505,
+      "expression": {
+        "type": "CallExpression",
+        "start": 410,
+        "end": 504,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 410,
+          "end": 426,
+          "object": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 416,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 426,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 427,
+            "end": 434,
+            "name": "result1"
+          },
+          {
+            "type": "Literal",
+            "start": 436,
+            "end": 437,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 439,
+            "end": 503,
+            "value": "leap second is a valid ISO string for Instant (first argument)"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 506,
+      "end": 559,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 512,
+          "end": 558,
+          "id": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 519,
+            "name": "result2"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 522,
+            "end": 558,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 522,
+              "end": 546,
+              "object": {
+                "type": "MemberExpression",
+                "start": 522,
+                "end": 538,
+                "object": {
+                  "type": "Identifier",
+                  "start": 522,
+                  "end": 530,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 531,
+                  "end": 538,
+                  "name": "Instant"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 539,
+                "end": 546,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 547,
+                "end": 552,
+                "name": "other"
+              },
+              {
+                "type": "Identifier",
+                "start": 554,
+                "end": 557,
+                "name": "arg"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 560,
+      "end": 656,
+      "expression": {
+        "type": "CallExpression",
+        "start": 560,
+        "end": 655,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 560,
+          "end": 576,
+          "object": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 566,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 576,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 577,
+            "end": 584,
+            "name": "result2"
+          },
+          {
+            "type": "Literal",
+            "start": 586,
+            "end": 587,
+            "value": 0
+          },
+          {
+            "type": "Literal",
+            "start": 589,
+            "end": 654,
+            "value": "leap second is a valid ISO string for Instant (second argument)"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}
